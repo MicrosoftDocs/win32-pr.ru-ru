@@ -1,0 +1,64 @@
+---
+title: Представления, упорядоченные по средствам прорисовки
+description: С помощью средства растрирования с упорядоченными представлениями (РОВС) код шейдера пикселей позволяет пометить неупорядоченные привязки представлений доступа с объявлением, изменяющим нормальные требования к порядку результатов графического конвейера для Уавс.
+ms.assetid: D308BF3E-8CBE-4DF0-B020-4D202E858D99
+ms.localizationpriority: high
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a19988d3f3eec39e8fc298a2fc13031ecc29e3e8
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104549012"
+---
+# <a name="rasterizer-ordered-views"></a><span data-ttu-id="8eb0d-103">Представления, упорядоченные по средствам прорисовки</span><span class="sxs-lookup"><span data-stu-id="8eb0d-103">Rasterizer-ordered views</span></span>
+
+<span data-ttu-id="8eb0d-104">Представления с программной прорисовкой (РОВС) позволяют коду шейдера пикселей помечать неупорядоченные привязки представлений доступа (UAV) с объявлением, изменяющим нормальные требования к порядку результатов графического конвейера для Уавс.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-104">Rasterizer-ordered views (ROVs) allow pixel shader code to mark unordered access view (UAV) bindings with a declaration that alters the normal requirements for the order of graphics pipeline results for UAVs.</span></span> <span data-ttu-id="8eb0d-105">Это позволяет использовать алгоритмы прозрачности, независимые от порядка (OIT), что дает гораздо более лучшие результаты визуализации, когда несколько прозрачных объектов находятся в разных строках в представлении.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-105">This enables order-independent transparency (OIT) algorithms to work, which give much better rendering results when multiple transparent objects are in line with each other in a view.</span></span>
+
+-   [<span data-ttu-id="8eb0d-106">Обзор</span><span class="sxs-lookup"><span data-stu-id="8eb0d-106">Overview</span></span>](#overview)
+-   [<span data-ttu-id="8eb0d-107">Сведения о реализации</span><span class="sxs-lookup"><span data-stu-id="8eb0d-107">Implementation details</span></span>](#implementation-details)
+-   [<span data-ttu-id="8eb0d-108">Сводка по API</span><span class="sxs-lookup"><span data-stu-id="8eb0d-108">API summary</span></span>](#api-summary)
+-   [<span data-ttu-id="8eb0d-109">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="8eb0d-109">Related topics</span></span>](#related-topics)
+
+## <a name="overview"></a><span data-ttu-id="8eb0d-110">Обзор</span><span class="sxs-lookup"><span data-stu-id="8eb0d-110">Overview</span></span>
+
+<span data-ttu-id="8eb0d-111">В стандартных графических конвейерах могут возникнуть проблемы с правильной компоновкой нескольких текстур, содержащих прозрачность.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-111">Standard graphics pipelines may have trouble correctly compositing together multiple textures that contain transparency.</span></span> <span data-ttu-id="8eb0d-112">Для получения желаемого эффекта объекты, такие как провода, растительности и цветные границы, используют прозрачность.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-112">Objects such as wire fences, smoke, fire, vegetation, and colored glass use transparency to get the desired effect.</span></span> <span data-ttu-id="8eb0d-113">Проблемы возникают, когда несколько текстур, содержащих прозрачность, расположены друг с другом (в качестве примера это повышена ограждение перед созданием стекла, содержащим растительности).</span><span class="sxs-lookup"><span data-stu-id="8eb0d-113">Problems arise when multiple textures that contain transparency are in line with each other (smoke in front of a fence in front of a glass building containing vegetation, as an example).</span></span> <span data-ttu-id="8eb0d-114">Представления с программной прорисовкой (РОВС) позволяют базовым алгоритмам OIT использовать возможности оборудования для правильного разрешения порядка прозрачности.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-114">Rasterizer-ordered views (ROVs) enable the underlying OIT algorithms to use features of the hardware to try to resolve the transparency order correctly.</span></span> <span data-ttu-id="8eb0d-115">Прозрачность обрабатывается шейдером пикселей.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-115">Transparency is handled by the pixel shader.</span></span>
+
+<span data-ttu-id="8eb0d-116">Представления с программной прорисовкой (РОВС) позволяют коду шейдера пикселей помечать привязки UAV с объявлением, изменяющим нормальные требования к порядку результатов графического конвейера для Уавс.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-116">Rasterizer-ordered views (ROVs) allow pixel shader code to mark UAV bindings with a declaration that alters the normal requirements for the order of graphics pipeline results for UAVs.</span></span>
+
+<span data-ttu-id="8eb0d-117">РОВС гарантирует порядок доступа к UAV для любой пары перекрывающихся вызовов шейдера пикселей.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-117">ROVs guarantee the order of UAV accesses for any pair of overlapping pixel shader invocations.</span></span> <span data-ttu-id="8eb0d-118">В этом случае "перекрытие" означает, что вызовы создаются одними вызовами Draw и используют одну и ту же пиксельную координату в режиме выполнения с частотой в пикселях, а также один и тот же пиксель и образец координат в режиме выборки частоты.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-118">In this case “overlapping” means that the invocations are generated by the same draw calls and share the same pixel coordinate when in pixel-frequency execution mode, and the same pixel and sample coordinate in sample-frequency mode.</span></span>
+
+<span data-ttu-id="8eb0d-119">Порядок, в котором перекрывающиеся РОВы вызовов построителей текстуры, выполняются аналогично порядку отправки геометрии.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-119">The order in which overlapping ROV accesses of pixel shader invocations are executed is identical to the order in which the geometry is submitted.</span></span> <span data-ttu-id="8eb0d-120">Это означает, что для перекрывания вызовов шейдера пикселей операции записи ров, выполняемые вызовом шейдера пикселей, должны быть доступны для чтения при последующем вызове и не должны влиять на считывание при предыдущем вызове.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-120">This means that, for overlapping pixel shader invocations, ROV writes performed by a pixel shader invocation must be available to be read by a subsequent invocation and must not affect reads by a previous invocation.</span></span> <span data-ttu-id="8eb0d-121">Операции чтения ров, выполняемые вызовом шейдера пикселей, должны отражать операции записи при предыдущем вызове и не должны отражать операции записи при последующем вызове.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-121">ROV reads performed by a pixel shader invocation must reflect writes by a previous invocation and must not reflect writes by a subsequent invocation.</span></span> <span data-ttu-id="8eb0d-122">Это важно для Уавс, так как они явно опущены из-за невариации выходных данных, обычно задаются фиксированным порядком результатов графического конвейера.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-122">This is important for UAVs because they are explicitly omitted from the output-invariance guarantees normally set by the fixed order of graphics pipeline results.</span></span>
+
+## <a name="implementation-details"></a><span data-ttu-id="8eb0d-123">Сведения о реализации</span><span class="sxs-lookup"><span data-stu-id="8eb0d-123">Implementation details</span></span>
+
+<span data-ttu-id="8eb0d-124">Представления с программной прорисовкой (РОВС) объявляются с помощью следующих новых объектов языка шейдеров высокого уровня (HLSL) и доступны только в шейдере пикселей.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-124">Rasterizer-ordered views (ROVs) are declared with the following new High Level Shader Language (HLSL) objects, and are only available to the pixel shader:</span></span>
+
+-   `RasterizerOrderedBuffer`
+-   `RasterizerOrderedByteAddressBuffer`
+-   `RasterizerOrderedStructuredBuffer`
+-   `RasterizerOrderedTexture1D`
+-   `RasterizerOrderedTexture1DArray`
+-   `RasterizerOrderedTexture2D`
+-   `RasterizerOrderedTexture2DArray`
+-   `RasterizerOrderedTexture3D`
+
+<span data-ttu-id="8eb0d-125">Используйте эти объекты так же, как другие объекты UAV (например, `RWBuffer` и т. д.).</span><span class="sxs-lookup"><span data-stu-id="8eb0d-125">Use these objects in the same manner as other UAV objects (such as `RWBuffer` etc.).</span></span>
+
+## <a name="api-summary"></a><span data-ttu-id="8eb0d-126">Сводные данные API</span><span class="sxs-lookup"><span data-stu-id="8eb0d-126">API summary</span></span>
+
+<span data-ttu-id="8eb0d-127">РОВС — это конструкция только для HLSL, которая применяет различную семантику поведения к Уавс.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-127">ROVs are an HLSL-only construct that applies different behavior semantics to UAVs.</span></span> <span data-ttu-id="8eb0d-128">Все API-интерфейсы, относящиеся к Уавс, также важны для РОВС.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-128">All APIs relevant to UAVs are also relevant to ROVs.</span></span> <span data-ttu-id="8eb0d-129">Обратите внимание, что следующий метод, структуры и вспомогательный класс ссылаются на средство программной прорисовки:</span><span class="sxs-lookup"><span data-stu-id="8eb0d-129">Note that the following method, structures, and helper class reference the rasterizer:</span></span>
+
+-   <span data-ttu-id="8eb0d-130">[**D3D12 \_ Средство программной ПРОРИСОВКи \_ DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc) : структура, содержащая описание средства программной прорисовки.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-130">[**D3D12\_RASTERIZER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc) : structure holding the rasterizer description.</span></span>
+-   <span data-ttu-id="8eb0d-131">[**D3D12 \_ \_ \_ \_ Параметры D3D12 данных функций**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options) : структура, содержащая логическое значение, обозначающее поддержку.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-131">[**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options) : structure holding a boolean, indicating the support.</span></span>
+-   <span data-ttu-id="8eb0d-132">[**Чеккфеатуресуппорт**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) : метод для доступа к поддерживаемым функциям.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-132">[**CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) : method to access the supported features.</span></span>
+-   <span data-ttu-id="8eb0d-133">[**CD3DX12 \_ Средство программной ПРОРИСОВКи \_ DESC**](cd3dx12-rasterizer-desc.md) : вспомогательный класс для создания описаний средства растеризации.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-133">[**CD3DX12\_RASTERIZER\_DESC**](cd3dx12-rasterizer-desc.md) : helper class for creating rasterizer descriptions.</span></span>
+-   <span data-ttu-id="8eb0d-134">[**D3D12 \_ \_Состояние графического конвейера \_ \_ DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) : структура, содержащая состояние конвейера.</span><span class="sxs-lookup"><span data-stu-id="8eb0d-134">[**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) : structure holding the pipeline state.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="8eb0d-135">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="8eb0d-135">Related topics</span></span>
+
+* [<span data-ttu-id="8eb0d-136">Консервативная растрирование</span><span class="sxs-lookup"><span data-stu-id="8eb0d-136">Conservative Rasterization</span></span>](conservative-rasterization.md)
+* [<span data-ttu-id="8eb0d-137">Отрисовка</span><span class="sxs-lookup"><span data-stu-id="8eb0d-137">Rendering</span></span>](rendering.md)
+* [<span data-ttu-id="8eb0d-138">Привязка ресурсов в HLSL</span><span class="sxs-lookup"><span data-stu-id="8eb0d-138">Resource Binding in HLSL</span></span>](resource-binding-in-hlsl.md)
+* [<span data-ttu-id="8eb0d-139">Модель шейдера 5,1</span><span class="sxs-lookup"><span data-stu-id="8eb0d-139">Shader Model 5.1</span></span>](/windows/desktop/direct3dhlsl/shader-model-5-1)
