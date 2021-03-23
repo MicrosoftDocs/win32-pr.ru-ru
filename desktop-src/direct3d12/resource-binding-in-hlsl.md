@@ -5,26 +5,16 @@ ms.assetid: 3CD4BDAD-8AE3-4DE0-B3F8-9C9F9E83BBE9
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 08/27/2019
-ms.openlocfilehash: 749fed319f9ffe840f2b06512e337efa28081e24
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 01039550f07de57fb7b2f1e815bced02e549c741
+ms.sourcegitcommit: 60120d10c957815d79af566c72e5f4bcfaca4025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548998"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104837492"
 ---
 # <a name="resource-binding-in-hlsl"></a>Привязка ресурсов в HLSL
 
 В этом разделе описываются некоторые особенности использования [модели шейдера](/windows/desktop/direct3dhlsl/shader-model-5-1) высокого уровня Shader (HLSL) 5,1 с Direct3D 12. Все оборудование Direct3D 12 поддерживает модель шейдера 5,1, поэтому поддержка этой модели не зависит от уровня компонентов оборудования.
-
--   [Типы ресурсов и массивы](#resource-types-and-arrays)
--   [Массивы дескрипторов и массивы текстур](#descriptor-arrays-and-texture-arrays)
--   [Присвоение псевдонимов ресурсам](#resource-aliasing)
--   [Расхождение и производные](#divergence-and-derivatives)
--   [Уавс в шейдере пикселей](#uavs-in-pixel-shaders)
--   [Буферы констант](#constant-buffers)
--   [Изменения байтового кода в SM 5.1](#bytecode-changes-in-sm51)
--   [Примеры объявлений HLSL](#example-hlsl-declarations)
--   [Связанные темы](#related-topics)
 
 ## <a name="resource-types-and-arrays"></a>Типы ресурсов и массивы
 
@@ -103,6 +93,7 @@ tex1[NonUniformResourceIndex(myMaterialID)].Sample(samp[NonUniformResourceIndex(
 С момента выпуска DirectX 10 были доступны массивы текстур. Для массивов текстуры требуется один дескриптор, однако все срезы массива должны иметь одинаковый формат, ширину, высоту и число MIP. Кроме того, массив должен занимать непрерывный диапазон в виртуальном адресном пространстве. В следующем коде показан пример доступа к массиву текстуры из шейдера.
 
 ``` syntax
+Texture2DArray<float4> myTex2DArray : register(t0); // t0
 float3 myCoord(1.0f,1.4f,2.2f); // 2.2f is array index (rounded to int)
 color = myTex2DArray.Sample(mySampler, myCoord);
 ```
@@ -112,17 +103,17 @@ color = myTex2DArray.Sample(mySampler, myCoord);
 Эквивалентный массив дескрипторов будет следующим:
 
 ``` syntax
-Texture2D<float4> myTex2DArray[] : register(t0); // t0+
+Texture2D<float4> myArrayOfTex2D[] : register(t0); // t0+
 float2 myCoord(1.0f, 1.4f);
-color = myTex2D[2].Sample(mySampler,myCoord); // 2 is index
+color = myArrayOfTex2D[2].Sample(mySampler,myCoord); // 2 is index
 ```
 
-Обратите внимание, что неудобное использование float для индекса массива заменяется на `myTex2D[2]` . Кроме того, массивы дескрипторов обеспечивают большую гибкость при использовании измерений. Тип `Texture2D` — это пример, который не может быть разным, но формат, ширина, высота и число MIP могут различаться в зависимости от каждого дескриптора.
+Обратите внимание, что неудобное использование float для индекса массива заменяется на `myArrayOfTex2D[2]` . Кроме того, массивы дескрипторов обеспечивают большую гибкость при использовании измерений. Тип `Texture2D` — это пример, который не может быть разным, но формат, ширина, высота и число MIP могут различаться в зависимости от каждого дескриптора.
 
 В качестве дескриптора можно использовать массив массивов текстур:
 
 ``` syntax
-Texture2DArray<float4> myTex2DArrayOfArrays[2] : register(t0);
+Texture2DArray<float4> myArrayOfTex2DArrays[2] : register(t0);
 ```
 
 Незаконно объявлять массив структур, каждая структура, содержащая дескрипторы, например следующий код, не поддерживается.
@@ -148,7 +139,7 @@ ConstantBuffer<myConstants>   c[10000] : register(b0);
 
 ## <a name="resource-aliasing"></a>Присвоение псевдонимов ресурсам
 
-Диапазоны ресурсов, указанные в шейдерах HLSL, являются логическими диапазонами. Они привязаны к конкретным диапазонам кучи во время выполнения через механизм корневой подписи. Как правило, логический диапазон сопоставляется с диапазоном кучи, который не перекрывается с другими диапазонами кучи. Однако механизм корневой подписи делает возможным псевдонимы диапазонов кучи совместимых типов. Например, `tex2` и `tex3` диапазоны из приведенного выше примера могут быть сопоставлены с одним (или перекрывающим) диапазоном кучи, в котором действует псевдоним текстур в программе HLSL. Если требуется такое присвоение псевдонимов, шейдер должен быть скомпилирован с использованием \_ ресурсов шейдера \_ D3D10 \_ \_ , которые задаются с помощью параметра */RES может быть \_ \_ псевдонимом* для [средства компилятора Effect](/windows/desktop/direct3dtools/fxc) (FXC). Параметр позволяет компилятору создавать правильный код, предотвращая определенные оптимизации нагрузки и хранения в соответствии с предположением, что ресурсы могут быть псевдонимами.
+Диапазоны ресурсов, указанные в шейдерах HLSL, являются логическими диапазонами. Они привязаны к конкретным диапазонам кучи во время выполнения через механизм корневой подписи. Как правило, логический диапазон сопоставляется с диапазоном кучи, который не перекрывается с другими диапазонами кучи. Однако механизм корневой подписи делает возможным псевдонимы диапазонов кучи совместимых типов. Например, `tex2` и `tex3` диапазоны из приведенного выше примера могут быть сопоставлены с одним (или перекрывающим) диапазоном кучи, в котором действует псевдоним текстур в программе HLSL. Если требуется такое присвоение псевдонимов, шейдер должен быть скомпилирован с использованием \_ ресурсов шейдера \_ D3D10 \_ \_ , которые задаются с помощью параметра */RES может быть \_ \_ псевдонимом* для [средства компилятора Effect](/windows/win32/direct3dtools/fxc) (FXC). Параметр позволяет компилятору создавать правильный код, предотвращая определенные оптимизации нагрузки и хранения в соответствии с предположением, что ресурсы могут быть псевдонимами.
 
 ## <a name="divergence-and-derivatives"></a>Расхождение и производные
 
@@ -324,35 +315,12 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
 
 ## <a name="related-topics"></a>Связанные темы
 
-<dl> <dt>
-
-[Динамическое индексирование с помощью HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
-</dt> <dt>
-
-[Effect — средство компилятора](/windows/desktop/direct3dtools/fxc)
-</dt> <dt>
-
-[Функции HLSL Shader Model 5,1 для Direct3D 12](/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
-</dt> <dt>
-
-[Упорядоченные представления средства прорисовки](rasterizer-order-views.md)
-</dt> <dt>
-
-[Привязка ресурсов](resource-binding.md)
-</dt> <dt>
-
-[Корневые подписи](root-signatures.md)
-</dt> <dt>
-
-[Модель шейдера 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
-</dt> <dt>
-
-[Заданное значение ссылки на набор элементов в шейдере](shader-specified-stencil-reference-value.md)
-</dt> <dt>
-
-[Указание корневых подписей в HLSL](specifying-root-signatures-in-hlsl.md)
-</dt> </dl>
-
- 
-
- 
+* [Динамическое индексирование с помощью HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
+* [Effect — средство компилятора](/windows/win32/direct3dtools/fxc)
+* [Функции HLSL Shader Model 5,1 для Direct3D 12](/windows/win32/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
+* [Упорядоченные представления средства прорисовки](rasterizer-order-views.md)
+* [Привязка ресурсов](resource-binding.md)
+* [Корневые подписи](root-signatures.md)
+* [Модель шейдера 5,1](/windows/win32/direct3dhlsl/shader-model-5-1)
+* [Заданное значение ссылки на набор элементов в шейдере](shader-specified-stencil-reference-value.md)
+* [Указание корневых подписей в HLSL](specifying-root-signatures-in-hlsl.md)
