@@ -1,0 +1,83 @@
+- name: Диспетчер перезапуска
+  href: restart-manager-portal.md
+  items:
+    - name: О диспетчере перезапуска
+      href: about-restart-manager.md
+      items:
+        - name: Рекомендации для приложений и служб
+          href: guidelines-for-applications-and-services.md
+          items:
+            - name: Рекомендации для приложений
+              href: guidelines-for-applications.md
+            - name: Рекомендации для служб
+              href: guidelines-for-services.md
+            - name: Критические системные службы
+              href: critical-system-services.md
+    - name: Использование диспетчера перезапуска
+      href: using-restart-manager.md
+      items:
+        - name: Использование диспетчера перезапуска с основным установщиком
+          href: using-restart-manager-with-a-primary-installer.md
+        - name: Использование диспетчера перезапуска с дополнительным установщиком
+          href: using-restart-manager-with-a-secondary-installer.md
+        - name: Получение состояния операции диспетчера перезапуска
+          href: getting-the-status-of-a-restart-manager-operation.md
+        - name: Отмена текущей операции диспетчера перезапуска
+          href: canceling-the-current-restart-manager-operation.md
+    - name: Справочник по диспетчеру перезапуска
+      href: restart-manager-reference.md
+      items:
+        - name: Функции обратного вызова диспетчера перезапуска
+          href: callback-functions.md
+          items:
+            - name: RM_WRITE_STATUS_CALLBACK
+              href: /windows/desktop/api/restartmanager/nc-restartmanager-rm_write_status_callback
+        - name: Перечисления диспетчера перезапуска
+          href: enumerations.md
+          items:
+            - name: RM_APP_STATUS
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_app_status
+            - name: RM_APP_TYPE
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_app_type
+            - name: RM_FILTER_ACTION
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_filter_action
+            - name: RM_FILTER_TRIGGER
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_filter_trigger
+            - name: RM_REBOOT_REASON
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_reboot_reason
+            - name: RM_SHUTDOWN_TYPE
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_shutdown_type
+        - name: Функции диспетчера перезапуска
+          href: functions.md
+          items:
+            - name: рмаддфилтер
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmaddfilter
+            - name: рмканцелкурренттаск
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmcancelcurrenttask
+            - name: рмендсессион
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmendsession
+            - name: рмжетфилтерлист
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmgetfilterlist
+            - name: RmGetList
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmgetlist
+            - name: рмжоинсессион
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmjoinsession
+            - name: RmRegisterResources
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmregisterresources
+            - name: рмремовефилтер
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmremovefilter
+            - name: рмрестарт
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmrestart
+            - name: рмшутдовн
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown
+            - name: RmStartSession
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmstartsession
+        - name: Структуры диспетчера перезапуска
+          href: structures.md
+          items:
+            - name: RM_FILTER_INFO
+              href: /windows/win32/api/RestartManager/ns-restartmanager-rm_filter_info
+            - name: RM_PROCESS_INFO
+              href: /windows/win32/api/RestartManager/ns-restartmanager-rm_process_info
+            - name: RM_UNIQUE_PROCESS
+              href: /windows/win32/api/RestartManager/ns-restartmanager-rm_unique_process

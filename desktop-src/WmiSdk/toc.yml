@@ -1,0 +1,3190 @@
+- name: Инструментарий управления Windows (WMI)
+  href: wmi-start-page.md
+  items:
+    - name: Сведения об инструментарии WMI
+      href: about-wmi.md
+      items:
+        - name: Новые возможности инструментария WMI
+          href: what-s-new-in-wmi.md
+          items:
+            - name: Новые возможности Windows 7
+              href: what-s-new-in-windows-7.md
+            - name: Что нового в Windows Vista
+              href: what-s-new-in-windows-vista.md
+        - name: Доступность компонентов WMI в операционной системе
+          href: operating-system-availability-of-wmi-components.md
+        - name: Архитектура WMI
+          href: wmi-architecture.md
+          items:
+            - name: Инфраструктура WMI
+              href: wmi-infrastructure.md
+        - name: Общая информационная модель
+          href: common-information-model.md
+          items:
+            - name: Совместимость со схемой CIM
+              href: cim-schema-compatibility.md
+        - name: Просмотр связей между пространствами имен
+          href: cross-namespace-association-traversal.md
+        - name: MOF-файл
+          href: managed-object-format--mof-.md
+        - name: Управление учетными записями пользователей и WMI
+          href: user-account-control-and-wmi.md
+        - name: Доступ к защищаемым объектам WMI
+          href: access-to-wmi-securable-objects.md
+          items:
+            - name: Доступ к пространствам имен WMI
+              href: access-to-wmi-namespaces.md
+        - name: Библиотеки производительности и инструментарий WMI
+          href: performance-libraries-and-wmi.md
+        - name: Поддержка IPv6 и IPv4 в WMI
+          href: ipv6-and-ipv4-support-in-wmi.md
+        - name: Формат даты и времени
+          href: date-and-time-format.md
+          items:
+            - name: CIM_DATETIME
+              href: cim-datetime.md
+            - name: Формат интервала
+              href: interval-format.md
+        - name: Создание сценариев для доступа к инструментарию WMI
+          href: scripting-access-to-wmi.md
+        - name: Дополнительные сведения
+          href: further-information.md
+    - name: Использование инструментария WMI
+      href: using-wmi.md
+      items:
+        - name: Создание клиентов WMI
+          href: creating-wmi-clients.md
+          items:
+            - name: Подключение к инструментарию WMI на удаленном компьютере
+              href: connecting-to-wmi-on-a-remote-computer.md
+              items:
+                - name: Настройка удаленного WMI-подключения
+                  href: connecting-to-wmi-remotely-starting-with-vista.md
+                - name: Защита удаленного WMI-подключения
+                  href: securing-a-remote-wmi-connection.md
+                - name: Устранение неполадок удаленного WMI-подключения
+                  href: troubleshooting-a-remote-wmi-connection.md
+                - name: Настройка фиксированного порта для WMI
+                  href: setting-up-a-fixed-port-for-wmi.md
+                - name: Делегирование с помощью WMI
+                  href: connecting-to-a-3rd-computer-delegation.md
+                - name: Удаленное подключение к инструментарию WMI с помощью VBScript
+                  href: connecting-to-wmi-remotely-with-vbscript.md
+                - name: Удаленное подключение к инструментарию WMI с помощью PowerShell
+                  href: connecting-to-wmi-on-a-remote-computer-by-using-powershell.md
+                - name: 'Удаленное подключение к инструментарию WMI с помощью C #'
+                  href: connecting-to-wmi-remotely-with-c-.md
+                - name: Удаленное создание процессов с помощью WMI
+                  href: creating-processes-remotely.md
+            - name: Задачи WMI для скриптов и приложений
+              href: wmi-tasks-for-scripts-and-applications.md
+              items:
+                - name: 'Задачи WMI: учетные записи и домены'
+                  href: wmi-tasks--accounts-and-domains.md
+                - name: 'Задачи WMI: оборудование компьютера'
+                  href: wmi-tasks--computer-hardware.md
+                - name: 'Задачи WMI: программное обеспечение компьютера'
+                  href: wmi-tasks--computer-software.md
+                - name: Задачи WMI. подключение к службе WMI
+                  href: wmi-tasks--connecting-to-the-wmi-service.md
+                - name: 'Задачи WMI: даты и время'
+                  href: wmi-tasks--dates-and-times.md
+                - name: 'Задачи WMI: управление рабочими столами '
+                  href: wmi-tasks--desktop-management.md
+                - name: 'Задачи WMI: диски и файловые системы '
+                  href: wmi-tasks--disks-and-file-systems.md
+                - name: 'Задачи WMI: журналы событий '
+                  href: wmi-tasks--event-logs.md
+                - name: 'Задачи WMI: файлы и папки'
+                  href: wmi-tasks--files-and-folders.md
+                - name: 'Задачи WMI: Сетевые подключения'
+                  href: wmi-tasks--networking.md
+                - name: 'Задачи WMI: операционные системы'
+                  href: wmi-tasks--operating-systems.md
+                - name: 'Задачи WMI: Мониторинг производительности'
+                  href: wmi-tasks--performance-monitoring.md
+                - name: 'Задачи WMI: принтеры и печать'
+                  href: wmi-tasks--printers-and-printing.md
+                - name: 'Задачи WMI: процессы '
+                  href: wmi-tasks--processes.md
+                - name: 'Задачи WMI: реестр'
+                  href: wmi-tasks--registry.md
+                - name: 'Задачи WMI: запланированные задачи'
+                  href: wmi-tasks--scheduled-tasks.md
+                - name: 'Задачи WMI: службы'
+                  href: wmi-tasks--services.md
+            - name: Создание приложения или скрипта WMI
+              href: creating-a-wmi-application-or-script.md
+              items:
+                - name: Создание приложения WMI с помощью C++
+                  href: creating-a-wmi-application-using-c-.md
+                  items:
+                    - name: Инициализация COM для приложения WMI
+                      href: initializing-com-for-a-wmi-application.md
+                    - name: Создание соединения с пространством имен WMI
+                      href: creating-a-connection-to-a-wmi-namespace.md
+                    - name: Установка уровней безопасности для WMI-соединения
+                      href: setting-the-security-levels-on-a-wmi-connection.md
+                    - name: Очистка и завершение работы приложения WMI
+                      href: cleaning-up-and-shutting-down-a-wmi-application.md
+                - name: Примеры приложений WMI на C++
+                  href: wmi-c---application-examples.md
+                  items:
+                    - name: Пример. вызов метода поставщика
+                      href: example--calling-a-provider-method.md
+                    - name: Пример. получение уведомлений о событиях через WMI
+                      href: example--receiving-event-notifications-through-wmi-.md
+                    - name: Пример. асинхронное получение данных WMI с локального компьютера
+                      href: example--getting-wmi-data-from-the-local-computer-asynchronously.md
+                    - name: Пример. получение данных WMI с удаленного компьютера
+                      href: example--getting-wmi-data-from-a-remote-computer.md
+                    - name: Пример. получение данных WMI с локального компьютера
+                      href: example--getting-wmi-data-from-the-local-computer.md
+                    - name: Пример. Создание приложения WMI
+                      href: example-creating-a-wmi-application.md
+                - name: Создание скрипта WMI
+                  href: creating-a-wmi-script.md
+                  items:
+                    - name: Подключение к WMI с помощью VBScript
+                      href: connecting-to-wmi-with-vbscript.md
+                    - name: Создание строки моникера
+                      href: constructing-a-moniker-string.md
+                    - name: Создание сценариев с помощью SWbemObject
+                      href: scripting-with-swbemobject.md
+                    - name: Вспомогательные объекты сценариев
+                      href: scripting-helper-objects.md
+                    - name: Использование библиотеки типов сценариев WMI
+                      href: using-the-wmi-scripting-type-library.md
+                - name: Создание управляемого клиента WMI
+                  href: creating-a-managed-wmi-client.md
+            - name: Мониторинг данных производительности
+              href: monitoring-performance-data.md
+              items:
+                - name: Доступ к данным о производительности в скрипте
+                  href: accessing-performance-data-in-script.md
+                  items:
+                    - name: Обновление данных WMI в скриптах
+                      href: refreshing-wmi-data-in-scripts.md
+                - name: Доступ к данным о производительности в C++
+                  href: accessing-performance-data-in-c--.md
+                  items:
+                    - name: Доступ к предустановленным классам производительности WMI
+                      href: accessing-wmi-preinstalled-performance-classes.md
+                - name: Получение статистических данных о производительности
+                  href: obtaining-statistical-performance-data.md
+                - name: Поставщик мониторинга производительности
+                  href: monitoring-performance-with-the-performance-monitoring-provider.md
+            - name: Получение события WMI
+              href: receiving-a-wmi-event.md
+              items:
+                - name: Определение типа получаемого события
+                  href: determining-the-type-of-event-to-receive.md
+                - name: Получение событий для длительности вашего приложения
+                  href: receiving-events-for-the-duration-of-your-application.md
+                  items:
+                    - name: Получение уведомлений о асинхронных событиях
+                      href: receiving-asynchronous-event-notifications.md
+                    - name: Получение синхронных и Семисинчронаус уведомлений о событиях
+                      href: receiving-synchronous-and-semisynchronous-event-notifications.md
+                - name: Получение событий в любое время
+                  href: receiving-events-at-all-times.md
+                  items:
+                    - name: Реализация физического потребителя
+                      href: implementing-a-physical-consumer.md
+                    - name: Создание нового класса постоянного потребителя событий
+                      href: creating-a-new-permanent-event-consumer-class.md
+                    - name: Создание логического потребителя
+                      href: creating-a-logical-consumer.md
+                    - name: Создание фильтра событий
+                      href: creating-an-event-filter.md
+                    - name: Привязка фильтра событий к логическому потребителю
+                      href: binding-an-event-filter-with-a-logical-consumer.md
+                    - name: Реализация постоянных подписок на события между пространствами имен
+                      href: implementing-cross-namespace-permanent-event-subscriptions.md
+                - name: Мониторинг событий и реагирование на них с помощью стандартных потребителей
+                  href: monitoring-and-responding-to-events-with-standard-consumers.md
+                  items:
+                    - name: Выполнение скрипта на основе события
+                      href: running-a-script-based-on-an-event.md
+                    - name: Отправка сообщения электронной почты на основе события
+                      href: sending-e-mail-based-on-an-event.md
+                    - name: Запись в файл журнала на основе события
+                      href: writing-to-a-log-file-based-on-an-event.md
+                    - name: Ведение журнала событий NT на основе события
+                      href: logging-to-nt-event-log-based-on-an-event.md
+                    - name: Запуск программы из командной строки на основе события
+                      href: running-a-program-from-the-command-line-based-on-an-event.md
+                    - name: Использование стандартных строковых шаблонов
+                      href: using-standard-string-templates.md
+                - name: Получение события времени или повтора
+                  href: receiving-a-timed-or-repeating-event.md
+                  items:
+                    - name: Создание события таймера с Win32_LocalTime или Win32_UTCTime
+                      href: creating-a-timer-event-with-win32-localtime-or-win32-utctime.md
+                    - name: Создание события таймера с __TimerInstruction
+                      href: creating-a-timer-event-with---timerinstruction.md
+                - name: Пример. одновременное отслеживание нескольких запросов событий
+                  href: example-monitoring-multiple-event-queries-simultaneously.md
+            - name: Отслеживание событий
+              href: monitoring-events.md
+            - name: Запросы с помощью WQL
+              href: querying-with-wql.md
+              items:
+                - name: Запрос данных экземпляра класса
+                  href: requesting-class-instance-data.md
+                  items:
+                    - name: Инструкция SELECT для запросов данных
+                      href: select-statement-for-data-queries.md
+                    - name: Оператор ISA для запросов данных
+                      href: isa-operator-for-data-queries.md
+                - name: Получение уведомлений о событиях
+                  href: receiving-event-notifications.md
+                  items:
+                    - name: Инструкция SELECT для запросов событий
+                      href: select-statement-for-event-queries.md
+                    - name: Оператор ISA для запросов событий
+                      href: isa-operator-for-event-queries.md
+                - name: Получение определений классов
+                  href: retrieving-class-definitions.md
+                  items:
+                    - name: Инструкция SELECT для запросов схемы
+                      href: select-statement-for-schema-queries.md
+                    - name: Сопоставления схем
+                      href: schema-associations.md
+                    - name: Оператор ISA для запросов схемы
+                      href: isa-operator-for-schema-queries.md
+                - name: Запрос внедренных объектов
+                  href: querying-embedded-objects.md
+            - name: Запрос состояния дополнительных функций
+              href: querying-the-status-of-optional-features.md
+            - name: Описание расположения объекта WMI
+              href: describing-the-location-of-a-wmi-object.md
+              items:
+                - name: Требования к пути к объектам WMI
+                  href: wmi-object-path-requirements.md
+                - name: Описание пути к объекту пространства имен WMI
+                  href: describing-a-wmi-namespace-object-path.md
+                - name: Описание пути к объекту класса
+                  href: describing-a-class-object-path.md
+                - name: Описание пути к объекту экземпляра
+                  href: describing-an-instance-object-path.md
+                  items:
+                    - name: Поддержка экземпляра класса для 64-разрядных значений
+                      href: class-instance-support-for-64-bit-values.md
+            - name: Доступ к другим функциям операционной системы с помощью инструментария WMI
+              href: accessing-other-operating-system-features-with-wmi.md
+              items:
+                - name: Доступ к данным из драйверов устройств
+                  href: accessing-data-from-device-drivers.md
+                - name: Доступ к Active Directory
+                  href: accessing-active-directory.md
+                  items:
+                    - name: Создание и обновление объектов Active Directory
+                      href: creating-and-updating-active-directory-objects.md
+                    - name: Использование правильного синтаксиса Active Directory
+                      href: using-the-proper-active-directory-syntax.md
+                      items:
+                        - name: Описание пространства имен LDAP
+                          href: describing-the-ldap-namespace.md
+                        - name: Описание пути ADSI
+                          href: describing-the-adsi-path.md
+                    - name: Сопоставление Active Directory WMI
+                      href: mapping-active-directory-to-wmi.md
+                      items:
+                        - name: Сопоставление классов Active Directory
+                          href: mapping-active-directory-classes.md
+                        - name: Сопоставление экземпляров Active Directory
+                          href: mapping-active-directory-instances.md
+                - name: Доступ к SNMP-устройствам
+                  href: accessing-snmp-devices.md
+                  items:
+                    - name: Настройка среды SNMP WMI
+                      href: setting-up-the-wmi-snmp-environment.md
+                    - name: Чтение и запись на SNMP-устройства
+                      href: reading-from-and-writing-to-snmp-devices.md
+                      items:
+                        - name: Корреляция классов SNMP WMI
+                          href: wmi-snmp-class-correlation.md
+                    - name: Получение ловушек SNMP как событий WMI
+                      href: receiving-snmp-traps-as-wmi-events.md
+                      items:
+                        - name: Выбор поставщиков событий SNMP
+                          href: choosing-between-snmp-event-providers.md
+                        - name: Получение событий SNMP
+                          href: receiving-snmp-events.md
+                - name: Создание страниц Active Server для WMI
+                  href: creating-active-server-pages-for-wmi.md
+            - name: Доступ к данным в пространстве имен Interop
+              href: accessing-data-in-the-interop-namespace.md
+            - name: Управление сведениями о классе и экземпляре
+              href: manipulating-class-and-instance-information.md
+              items:
+                - name: Получение данных класса или экземпляра WMI
+                  href: retrieving-class-or-instance-data.md
+                  items:
+                    - name: Получение класса WMI
+                      href: retrieving-a-class.md
+                    - name: Получение экземпляра WMI
+                      href: retrieving-an-instance.md
+                    - name: Получение части экземпляра WMI
+                      href: retrieving-part-of-an-instance.md
+                    - name: Доступ к квалификатору WMI
+                      href: accessing-a-qualifier.md
+                - name: Получение кода ошибки
+                  href: retrieving-an-error-code.md
+                - name: Изменение свойства экземпляра
+                  href: modifying-an-instance-property.md
+                  items:
+                    - name: Обновление всего экземпляра
+                      href: updating-an-entire-instance.md
+                    - name: Обновление части экземпляра
+                      href: updating-part-of-an-instance.md
+                - name: Изменение наследования экземпляра
+                  href: changing-the-inheritance-of-an-instance.md
+                - name: Изменение метода
+                  href: modifying-a-method.md
+                - name: Перечисление WMI
+                  href: enumerating-wmi.md
+                  items:
+                    - name: Повышение производительности перечисления
+                      href: improving-enumeration-performance.md
+                - name: Запрос WMI
+                  href: querying-wmi.md
+                  items:
+                    - name: Вызов синхронного запроса
+                      href: invoking-a-synchronous-query.md
+                    - name: Вызов асинхронного запроса
+                      href: invoking-an-asynchronous-query.md
+                - name: Вызов метода WMI
+                  href: calling-a-method.md
+                  items:
+                    - name: Вызов Семисинчронаус с помощью C++
+                      href: making-a-semisynchronous-call-with-c--.md
+                    - name: Вызов Семисинчронаус с помощью VBScript
+                      href: making-a-semisynchronous-call-with-vbscript.md
+                    - name: Создание асинхронного вызова с помощью C++
+                      href: making-an-asynchronous-call-with-c--.md
+                    - name: Выполнение асинхронного вызова сценариев WMI
+                      href: making-an-asynchronous-call-with-vbscript.md
+                    - name: Вызов метода WMI
+                      href: calling-a-wmi-method.md
+                    - name: Вызов метода поставщика
+                      href: calling-a-provider-method.md
+                    - name: Создание объектов параметров в C++
+                      href: creating-parameters-objects-in-c--.md
+                    - name: Построение объектов параметров и анализ объектов параметров
+                      href: constructing-inparameters-objects-and-parsing-outparameters-objects.md
+                      items:
+                        - name: Построение объектов с параметрами
+                          href: constructing-inparameters-objects.md
+                        - name: Синтаксический анализ объектов параметров
+                          href: parsing-outparameters-objects.md
+                - name: Доступ к коллекции WMI
+                  href: accessing-a-collection.md
+                  items:
+                    - name: Удаление одного элемента из коллекции WMI
+                      href: removing-a-single-item-from-a-collection.md
+                    - name: Удаление нескольких элементов из коллекции WMI
+                      href: removing-multiple-items-from-a-collection.md
+            - name: Совместное связывание классов
+              href: linking-classes-together.md
+              items:
+                - name: Регистрация поставщика представления
+                  href: registering-the-view-provider.md
+                - name: Создание нового экземпляра из старых свойств
+                  href: creating-a-new-instance-from-old-properties.md
+                - name: Связывание экземпляров между пространствами имен
+                  href: associating-instances-between-namespaces.md
+                - name: Создание класса представления Union
+                  href: creating-a-union-view-class.md
+                  items:
+                    - name: Обновление представления объединения
+                      href: updating-a-union-view.md
+            - name: Изменение системного реестра
+              href: modifying-the-system-registry.md
+              items:
+                - name: Получение данных реестра
+                  href: obtaining-registry-data.md
+                - name: Изменение данных реестра
+                  href: changing-registry-data.md
+                - name: Программирование с помощью поставщика системного реестра
+                  href: programming-with-the-system-registry-provider.md
+                  items:
+                    - name: Определение классов для поставщика системного реестра
+                      href: defining-classes-for-the-system-registry-provider.md
+                      items:
+                        - name: Сопоставление типа данных реестра с типом данных WMI
+                          href: mapping-a-registry-data-type-to-a-wmi-data-type.md
+                        - name: Определение класса реестра с квалификаторами
+                          href: defining-a-registry-class-with-qualifiers.md
+                    - name: Использование поставщика системных систем в качестве поставщика свойств
+                      href: using-the-system-registry-provider-as-a-property-provider.md
+                    - name: Описание ресурса для реестра
+                      href: describing-a-resource-for-the-registry.md
+                    - name: Доступ к неименованному значению реестра
+                      href: accessing-an-unnamed-registry-value.md
+                - name: Регистрация для событий системного реестра
+                  href: registering-for-system-registry-events.md
+                  items:
+                    - name: Создание предложения WHERE для поставщика реестра
+                      href: creating-a-proper-where-clause-for-the-registry-provider.md
+                    - name: Получение событий реестра
+                      href: receiving-registry-events.md
+                - name: Регистрация поставщика системного реестра
+                  href: registering-the-system-registry-provider.md
+        - name: Создание поставщиков WMI
+          href: creating-wmi-providers.md
+          items:
+            - name: Предоставление данных инструментарию WMI
+              href: providing-data-to-wmi.md
+            - name: Разработка поставщика WMI
+              href: developing-a-wmi-provider.md
+              items:
+                - name: Разработка классов MOF-файл (MOF)
+                  href: designing-managed-object-format--mof--classes.md
+                  items:
+                    - name: Создание иерархий в WMI
+                      href: creating-hierarchies-within-wmi.md
+                      items:
+                        - name: Создание дочернего пространства имен с помощью MOF-кода
+                          href: creating-a-child-namespace-with-mof-code.md
+                        - name: Создание родственного пространства имен с помощью MOF-кода
+                          href: creating-a-sibling-namespace-with-mof-code.md
+                        - name: Создание пространства имен с помощью API инструментария WMI
+                          href: creating-a-namespace-with-the-wmi-api.md
+                    - name: Создание класса WMI
+                      href: creating-a-class.md
+                      items:
+                        - name: Создание базового класса WMI
+                          href: creating-a-base-class.md
+                        - name: Создание производного класса WMI
+                          href: creating-a-derived-class.md
+                        - name: Создание метода WMI
+                          href: creating-a-method.md
+                        - name: Добавление свойства WMI
+                          href: adding-a-property.md
+                        - name: Создание псевдонима WMI
+                          href: creating-an-alias.md
+                    - name: Внедрение объектов в класс
+                      href: embedded-objects.md
+                      items:
+                        - name: Создание внедренных объектов
+                          href: creating-embedded-objects.md
+                    - name: Объявление класса ассоциации
+                      href: declaring-an-association-class.md
+                    - name: Создание экземпляра
+                      href: creating-an-instance.md
+                      items:
+                        - name: Создание и объявление экземпляра с помощью C++
+                          href: creating-and-declaring-an-instance-using-c-.md
+                        - name: Создание экземпляра с помощью MOF
+                          href: creating-an-instance-using-mof.md
+                        - name: Создание объекта с помощью VBScript
+                          href: creating-an-object-using-vbscript.md
+                    - name: Удаление класса или экземпляра
+                      href: deleting-a-class-or-instance.md
+                      items:
+                        - name: Удаление экземпляра
+                          href: deleting-an-instance.md
+                        - name: Удаление класса
+                          href: deleting-a-class.md
+                    - name: Создание комментария
+                      href: creating-a-comment.md
+                    - name: Добавление квалификатора
+                      href: adding-a-qualifier.md
+                      items:
+                        - name: Применение квалификатора
+                          href: applying-a-qualifier.md
+                        - name: Описание квалификатора с флагом квалификатора
+                          href: describing-a-qualifier-with-a-qualifier-flavor.md
+                - name: Предоставление данных в WMI путем написания поставщика
+                  href: supplying-data-to-wmi-by-writing-a-provider.md
+                - name: Включение поставщика в приложение
+                  href: incorporating-a-provider-in-an-application.md
+                - name: Регистрация поставщика
+                  href: registering-a-provider.md
+                  items:
+                    - name: Выбор правильной регистрации
+                      href: choosing-correct-registration.md
+                - name: Инициализация поставщика
+                  href: initializing-a-provider.md
+                - name: Выполнение вызовов к WMI
+                  href: making-calls-to-wmi.md
+                - name: Олицетворение клиента
+                  href: impersonating-a-client.md
+                - name: Обновление поставщика
+                  href: updating-a-provider.md
+                - name: Выгрузка поставщика
+                  href: unloading-a-provider.md
+                - name: Написание поставщика ассоциаций для взаимодействия
+                  href: writing-an-association-provider-for-interop.md
+                - name: Написание поставщика экземпляров
+                  href: writing-an-instance-provider.md
+                  items:
+                    - name: Регистрация поставщика экземпляра
+                      href: registering-an-instance-provider.md
+                    - name: Реализация основного интерфейса поставщика экземпляров
+                      href: implementing-the-primary-interface-for-an-instance-provider.md
+                    - name: Повышение эффективности работы поставщика экземпляров
+                      href: improving-the-efficiency-of-an-instance-provider.md
+                    - name: Поддержка операций Partial-Instance
+                      href: supporting-partial-instance-operations.md
+                - name: Написание поставщика методов
+                  href: writing-a-method-provider.md
+                  items:
+                    - name: Регистрация поставщика методов
+                      href: registering-a-method-provider.md
+                    - name: Реализация основного интерфейса для поставщика методов
+                      href: implementing-the-primary-interface-for-a-method-provider.md
+                - name: Создание поставщика событий
+                  href: writing-an-event-provider.md
+                  items:
+                    - name: Регистрация поставщика событий
+                      href: registering-an-event-provider.md
+                    - name: Реализация основного интерфейса для поставщика событий
+                      href: implementing-the-primary-interface-for-an-event-provider.md
+                    - name: Оптимизация поставщика событий
+                      href: optimizing-an-event-provider.md
+                - name: Создание поставщика объектов событий
+                  href: writing-an-event-consumer-provider.md
+                  items:
+                    - name: Регистрация поставщика событий-получателя
+                      href: registering-an-event-consumer-provider.md
+                - name: Написание поставщика класса
+                  href: writing-a-class-provider.md
+                  items:
+                    - name: Определение состояния отправки или извлечения
+                      href: determining-push-or-pull-status.md
+                    - name: Регистрация поставщика класса
+                      href: registering-a-class-provider.md
+                    - name: Реализация основного интерфейса для поставщика класса
+                      href: implementing-the-primary-interface-for-a-class-provider.md
+                - name: Создание поставщика свойств
+                  href: writing-a-property-provider.md
+                  items:
+                    - name: Регистрация поставщика свойств
+                      href: registering-a-property-provider.md
+                    - name: Реализация основного интерфейса для поставщика свойств
+                      href: implementing-the-primary-interface-for-a-property-provider.md
+                - name: Создание поставщика экземпляров в поставщике High-Performance
+                  href: making-an-instance-provider-into-a-high-performance-provider.md
+                  items:
+                    - name: Регистрация поставщика High-Performance
+                      href: registering-a-high-performance-provider.md
+                    - name: Реализация интерфейса High-Performance
+                      href: implementing-the-high-performance-interface.md
+                    - name: Поддержка класса Win32_PerfRawData
+                      href: supporting-the-win32-perfrawdata-class.md
+                    - name: Поддержка класса Win32_PerfFormattedData
+                      href: supporting-the-win32-perfformatteddata-class.md
+        - name: Поддержание безопасности WMI
+          href: maintaining-wmi-security.md
+          items:
+            - name: Защита пространств имен WMI
+              href: securing-wmi-namespaces.md
+              items:
+                - name: Задание дескрипторов безопасности пространства имен
+                  href: setting-namespace-security-descriptors.md
+                  items:
+                    - name: Настройка безопасности пространства имен с помощью элемента управления WMI
+                      href: setting-namespace-security-with-the-wmi-control.md
+                    - name: Настройка безопасности при создании пространства имен
+                      href: setting-namespace-security-when-the-namespace-is-created.md
+                - name: Требуется зашифрованное соединение с пространством имен
+                  href: requiring-an-encrypted-connection-to-a-namespace.md
+                - name: Установка наследования безопасности пространства имен
+                  href: establishing-inheritance-of-namespace-security.md
+            - name: Защита поставщика
+              href: securing-your-provider.md
+              items:
+                - name: Размещение и безопасность поставщика
+                  href: provider-hosting-and-security.md
+                - name: Разделы реестра для управления безопасностью поставщика
+                  href: registry-keys-for-controlling-provider-security-.md
+            - name: Защита клиентов и поставщиков C++
+              href: securing-c---clients-and-providers.md
+              items:
+                - name: Настройка безопасности процесса клиентского приложения
+                  href: setting-client-application-process-security.md
+                  items:
+                    - name: Настройка уровня безопасности процесса по умолчанию с помощью C++
+                      href: setting-the-default-process-security-level-using-c-.md
+                - name: Настройка проверки подлинности в WMI
+                  href: setting-authentication-in-wmi.md
+                  items:
+                    - name: Настройка проверки подлинности с помощью C++
+                      href: setting-authentication-using-c-.md
+                    - name: Указание имени участника на сервере
+                      href: specifying-the-server-principal-name.md
+                    - name: Реализация маскировки
+                      href: implementing-cloaking.md
+                - name: Настройка безопасности для IWbemServices и других прокси-серверов
+                  href: setting-the-security-on-iwbemservices-and-other-proxies.md
+                - name: Выполнение привилегированных операций
+                  href: executing-privileged-operations.md
+                  items:
+                    - name: Выполнение привилегированных операций с помощью C++
+                      href: executing-privileged-operations-using-c-.md
+                - name: Настройка безопасности при асинхронном вызове
+                  href: setting-security-on-an-asynchronous-call.md
+                  items:
+                    - name: Понижение безопасности приемника в отдельном процессе
+                      href: lowering-the-security-for-a-sink-in-a-separate-process.md
+                - name: Выполнение проверок доступа
+                  href: performing-access-checks.md
+            - name: Защита клиентов скриптов
+              href: securing-scripting-clients.md
+              items:
+                - name: Задание уровня безопасности процесса по умолчанию с помощью VBScript
+                  href: setting-the-default-process-security-level-using-vbscript.md
+                - name: Настройка службы проверки подлинности с помощью VBScript
+                  href: setting-the-authentication-service-using-vbscript.md
+                - name: Настройка безопасности при асинхронном вызове в VBScript
+                  href: setting-security-on-an-asynchronous-call-in-vbscript.md
+                - name: Выполнение привилегированных операций с помощью VBScript
+                  href: executing-privileged-operations-using-vbscript.md
+                - name: Настройка IIS 5 и более поздних версий для сценариев ASP WMI
+                  href: configuring-iis-5-for-wmi-asp-scripting.md
+            - name: Защита событий WMI
+              href: securing-wmi-events.md
+              items:
+                - name: Безопасное предоставление событий
+                  href: providing-events-securely.md
+                - name: Безопасное получение событий
+                  href: receiving-events-securely.md
+            - name: Изменение параметров безопасности доступа для защищаемых объектов
+              href: changing-access-security-on-securable-objects.md
+        - name: Получение и предоставление данных на 64-разрядном компьютере
+          href: getting-and-providing-data-on-a-64-bit-computer.md
+          items:
+            - name: Запрос данных WMI на 64-разрядной платформе
+              href: requesting-wmi-data-on-a-64-bit-platform.md
+            - name: Предоставление данных WMI на 64-разрядной платформе
+              href: providing-wmi-data-on-a-64-bit-platform.md
+        - name: Локализация сведений о классе WMI
+          href: localizing-wmi-class-information.md
+          items:
+            - name: Создание локализованных определений классов
+              href: creating-localized-class-definitions.md
+            - name: Компиляция локализованных MOF-файлов
+              href: compiling-localized-mof-files.md
+            - name: Локализация значений свойств
+              href: localizing-property-values.md
+              items:
+                - name: Локализация статических свойств
+                  href: localizing-static-properties.md
+            - name: Извлечение измененных классов
+              href: retrieving-amended-classes.md
+              items:
+                - name: Получение измененных классов с помощью API скриптов для WMI
+                  href: retrieving-amended-classes-using-the-scripting-api-for-wmi.md
+                - name: Получение измененных классов с помощью API COM для WMI
+                  href: retrieving-amended-classes-using-the-com-api-for-wmi.md
+            - name: Рекомендации для измененного класса
+              href: amended-class-considerations.md
+        - name: Представление объектов в XML
+          href: representing-objects-in-xml.md
+        - name: Использование программ командной строки инструментария WMI
+          href: using-the-wmi-command-line-tools.md
+          items:
+            - name: Запуск и остановка службы WMI
+              href: starting-and-stopping-the-wmi-service.md
+            - name: Компиляция MOF-файлов
+              href: compiling-mof-files.md
+              items:
+                - name: Запуск компилятора MOF в файле
+                  href: running-the-mof-compiler-on-a-file.md
+                - name: Компиляция MOF-кода со значениями Floating-Point
+                  href: compiling-mof-code-with-floating-point-values.md
+                - name: Обработка ошибок с помощью компилятора MOF
+                  href: handling-errors-with-the-mof-compiler.md
+        - name: Устранение неполадок инструментария WMI
+          href: wmi-troubleshooting.md
+          items:
+            - name: Устранение неполадок клиентских приложений WMI
+              href: troubleshooting-wmi-client-applications.md
+            - name: Трассировка действий WMI
+              href: tracing-wmi-activity.md
+            - name: Отладка поставщиков
+              href: debugging-providers.md
+            - name: Классы для настройки и устранения неполадок поставщика
+              href: provider-configuration-and-troubleshooting-classes.md
+            - name: Ведение журнала действий WMI
+              href: logging-wmi-activity.md
+            - name: Раздел реестра для конфигурации репозитория
+              href: registry-key-for-repository-configuration.md
+    - name: Справочник по инструментарию WMI
+      href: wmi-reference.md
+      items:
+        - name: Классы WMI
+          href: wmi-classes.md
+          items:
+            - name: Win32_PrivilegesStatus
+              href: win32-privilegesstatus-wmiprov.md
+            - name: Системные классы WMI
+              href: wmi-system-classes.md
+              items:
+                - name: __AbsoluteTimerInstruction
+                  href: '--absolutetimerinstruction.md'
+                - name: __ACE
+                  href: '--ace.md'
+                - name: __AggregateEvent
+                  href: '--aggregateevent.md'
+                - name: __ArbitratorConfiguration
+                  href: '--arbitratorconfiguration.md'
+                - name: __CacheControl
+                  href: '--cachecontrol.md'
+                - name: __CIMOMIdentification
+                  href: '--cimomidentification.md'
+                - name: __ClassCreationEvent
+                  href: '--classcreationevent.md'
+                - name: __ClassDeletionEvent
+                  href: '--classdeletionevent.md'
+                - name: __ClassModificationEvent
+                  href: '--classmodificationevent.md'
+                - name: __ClassOperationEvent
+                  href: '--classoperationevent.md'
+                - name: __ClassProviderRegistration
+                  href: '--classproviderregistration.md'
+                - name: __ConsumerFailureEvent
+                  href: '--consumerfailureevent.md'
+                - name: __Event
+                  href: '--event.md'
+                - name: __EventConsumer
+                  href: '--eventconsumer.md'
+                - name: __EventConsumerProviderCacheControl
+                  href: '--eventconsumerprovidercachecontrol.md'
+                - name: __EventConsumerProviderRegistration
+                  href: '--eventconsumerproviderregistration.md'
+                - name: __EventDroppedEvent
+                  href: '--eventdroppedevent.md'
+                - name: __EventFilter
+                  href: '--eventfilter.md'
+                - name: __EventGenerator
+                  href: '--eventgenerator.md'
+                - name: __EventProviderCacheControl
+                  href: '--eventprovidercachecontrol.md'
+                - name: __EventProviderRegistration
+                  href: '--eventproviderregistration.md'
+                - name: __EventQueueOverflowEvent
+                  href: '--eventqueueoverflowevent.md'
+                - name: __EventSinkCacheControl
+                  href: '--eventsinkcachecontrol.md'
+                - name: __ExtendedStatus
+                  href: '--extendedstatus.md'
+                - name: __ExtrinsicEvent
+                  href: '--extrinsicevent.md'
+                - name: __FilterToConsumerBinding
+                  href: '--filtertoconsumerbinding.md'
+                - name: __IndicationRelated
+                  href: '--indicationrelated.md'
+                - name: __InstanceCreationEvent
+                  href: '--instancecreationevent.md'
+                - name: __InstanceDeletionEvent
+                  href: '--instancedeletionevent.md'
+                - name: __InstanceModificationEvent
+                  href: '--instancemodificationevent.md'
+                - name: __InstanceOperationEvent
+                  href: '--instanceoperationevent.md'
+                - name: __InstanceProviderRegistration
+                  href: '--instanceproviderregistration.md'
+                - name: __IntervalTimerInstruction
+                  href: '--intervaltimerinstruction.md'
+                - name: __MethodInvocationEvent
+                  href: '--methodinvocationevent.md'
+                - name: __MethodProviderRegistration
+                  href: '--methodproviderregistration.md'
+                - name: __Namespace
+                  href: '--namespace.md'
+                - name: __NamespaceCreationEvent
+                  href: '--namespacecreationevent.md'
+                - name: __NamespaceDeletionEvent
+                  href: '--namespacedeletionevent.md'
+                - name: __NamespaceModificationEvent
+                  href: '--namespacemodificationevent.md'
+                - name: __NamespaceOperationEvent
+                  href: '--namespaceoperationevent.md'
+                - name: __NotifyStatus
+                  href: '--notifystatus.md'
+                - name: __NTLMUser9X
+                  href: '--ntlmuser9x.md'
+                - name: __ObjectProviderCacheControl
+                  href: '--objectprovidercachecontrol.md'
+                - name: __ObjectProviderRegistration
+                  href: '--objectproviderregistration.md'
+                - name: __PARAMETERS
+                  href: '--parameters.md'
+                - name: __PropertyProviderCacheControl
+                  href: '--propertyprovidercachecontrol.md'
+                - name: __PropertyProviderRegistration
+                  href: '--propertyproviderregistration.md'
+                - name: __Provider
+                  href: '--provider.md'
+                - name: __ProviderHostQuotaConfiguration
+                  href: '--providerhostquotaconfiguration.md'
+                - name: __ProviderRegistration
+                  href: '--providerregistration.md'
+                - name: __SecurityDescriptor
+                  href: '--securitydescriptor.md'
+                - name: __SecurityRelatedClass
+                  href: '--securityrelatedclass.md'
+                - name: __SystemClass
+                  href: '--systemclass.md'
+                - name: __SystemEvent
+                  href: '--systemevent.md'
+                - name: __SystemSecurity
+                  href: '--systemsecurity.md'
+                  items:
+                    - name: Методы __SystemSecurity
+                      href: '--systemsecurity-methods.md'
+                      items:
+                        - name: Метод Get9XUserList
+                          href: '--systemsecurity-get9xuserlist.md'
+                        - name: Метод Жеткаллеракцессригхтс
+                          href: '--systemsecurity-getcalleraccessrights.md'
+                        - name: Получает метод
+                          href: '--systemsecurity-getsd.md'
+                        - name: Метод Жетсекуритидескриптор
+                          href: getsecuritydescriptor-method-in-class---systemsecurity-.md
+                        - name: Метод Сетсекуритидескриптор
+                          href: setsecuritydescriptor-method-in-class---systemsecurity.md
+                        - name: Метод Set9XUserList
+                          href: '--systemsecurity-set9xuserlist.md'
+                        - name: Метод с набором
+                          href: '--systemsecurity-setsd.md'
+                - name: __thisNAMESPACE
+                  href: '--thisnamespace.md'
+                - name: __TimerEvent
+                  href: '--timerevent.md'
+                - name: __TimerInstruction
+                  href: '--timerinstruction.md'
+                - name: __TimerNextFiring
+                  href: '--timernextfiring.md'
+                - name: __Trustee
+                  href: '--trustee.md'
+                - name: __Win32Provider
+                  href: '--win32provider.md'
+            - name: Классы MSFT
+              href: msft-classes.md
+              items:
+                - name: Классы поставщиков политик
+                  href: policy-provider-classes.md
+                - name: Классы устранения неполадок WMI
+                  href: wmi-troubleshooting-classes.md
+                  items:
+                    - name: Классы устранения неполадок событий поставщика
+                      href: provider-event-troubleshooting-classes.md
+                    - name: Классы устранения неполадок Консумерпровидер
+                      href: consumerprovider-troubleshooting-classes.md
+                    - name: Классы устранения неполадок событий службы WMI
+                      href: wmi-service-event-troubleshooting-classes.md
+            - name: Классы CIM
+              href: cimclas.md
+              items:
+                - name: CIM_LastAppliedSettingData
+                  href: cim-lastappliedsettingdata.md
+                - name: CIM_ParentChildSettingData
+                  href: cim-parentchildsettingdata.md
+                - name: CIM_PreviousSettingData
+                  href: cim-previoussettingdata.md
+                - name: CIM_ReferencedProfile
+                  href: cim-referencedprofile.md
+            - name: Классы стандартных потребителей
+              href: standard-consumer-classes.md
+              items:
+                - name: активескриптевентконсумер
+                  href: activescripteventconsumer.md
+                - name: коммандлинивентконсумер
+                  href: commandlineeventconsumer.md
+                - name: логфиливентконсумер
+                  href: logfileeventconsumer.md
+                - name: нтевентложевентконсумер
+                  href: nteventlogeventconsumer.md
+                - name: скриптингстандардконсумерсеттинг
+                  href: scriptingstandardconsumersetting.md
+                - name: смтпевентконсумер
+                  href: smtpeventconsumer.md
+        - name: Поставщики WMI
+          href: wmi-providers.md
+          items:
+            - name: Поставщик форматированных данных о производительности
+              href: formatted-performance-data-provider.md
+              items:
+                - name: Получение документации для необработанных и отформатированных объектов данных о производительности
+                  href: retrieving-raw-and-formatted-performance-data.md
+            - name: Поставщик счетчиков производительности
+              href: performance-counter-provider.md
+            - name: Поставщик компонентов сервера
+              href: server-feature-provider.md
+              items:
+                - name: Win32_ServerFeature
+                  href: win32-serverfeature.md
+            - name: Просмотр поставщика
+              href: view-provider.md
+            - name: Поставщик Вмиперфкласс
+              href: wmiperfclass-provider.md
+            - name: Поставщик Вмиперфинст
+              href: wmiperfinst-provider.md
+        - name: Классы C++ инфраструктуры поставщика WMI
+          href: wmi-c-classes.md
+          items:
+            - name: Классы инфраструктуры поставщиков
+              href: provider-framework-classes.md
+              items:
+                - name: кфрамеворккуери
+                  href: /windows/desktop/api/FrQuery/nl-frquery-cframeworkquery
+                  items:
+                    - name: Методы Кфрамеворккуери
+                      href: cframeworkquery-methods.md
+                      items:
+                        - name: Метод Аллпропертиесаререкуиред
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-allpropertiesarerequired
+                        - name: Метод запроса
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getquery
+                        - name: Метод Жеткуерикласснаме
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getqueryclassname
+                        - name: Метод Жетрекуиредпропертиес
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getrequiredproperties
+                        - name: Методы Жетвалуесфорпроп
+                          href: cframeworkquery-getvaluesforprop.md
+                          items:
+                            - name: 'Жетвалуесфорпроп (Чстрингаррай&, ЛПКВСТР), метод'
+                              href: /windows/desktop/api/frquery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_chstringarray_)
+                            - name: 'Метод Жетвалуесфорпроп (ЛПКВСТР, std:: Vector<_bstr_t>&)'
+                              href: /windows/desktop/api/frquery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_std-vector__bstr_t__)
+                        - name: Метод Испропертирекуиред
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-ispropertyrequired
+                        - name: Метод Кэйсонли
+                          href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-keysonly
+                - name: CInstance
+                  href: /windows/desktop/api/Instance/nl-instance-cinstance
+                  items:
+                    - name: Методы CInstance
+                      href: cinstance-methods.md
+                      items:
+                        - name: Метод Commit
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-commit
+                        - name: Методического bool
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getbool
+                        - name: Метод Byte
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getbyte
+                        - name: Метод Жетчстринг
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getchstring
+                        - name: Метод Жетклассобжектинтерфаце
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getclassobjectinterface
+                        - name: Метод DateTime
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getdatetime
+                        - name: Метод DOUBLE
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getdouble
+                        - name: Метод DWORD
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getdword
+                        - name: Метод Жетембеддедобжект
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getembeddedobject
+                        - name: Метод Жетмесодконтекст
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getmethodcontext
+                        - name: Метод GetStatus
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getstatus
+                        - name: Метод Жетстрингаррай
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getstringarray
+                        - name: Метод WebMethod
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-gettimespan
+                        - name: Метод ковариантности
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getvariant
+                        - name: Метод GetWBEMINT16
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getwbemint16
+                        - name: Методы GetWBEMINT64
+                          href: cinstance-getwbemint64.md
+                          items:
+                            - name: 'Метод GetWBEMINT64 (ЛПКВСТР, ЛОНГЛОНГ&)'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_longlong_)
+                            - name: 'Метод GetWBEMINT64 (ЛПКВСТР, УЛОНГЛОНГ&)'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_ulonglong_)
+                            - name: 'Метод GetWBEMINT64 (ЛПКВСТР, WBEMINT64&)'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_ulonglong_)
+                        - name: Метод GetWCHAR
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getwchar
+                        - name: Метод "высловировать"
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-getword
+                        - name: 'IsNull, метод'
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-isnull
+                        - name: Метод сетбул
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setbool
+                        - name: Метод SetByte
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setbyte
+                        - name: Методы Сетчарсплат
+                          href: cinstance-setcharsplat.md
+                          items:
+                            - name: 'Сетчарсплат (ЛПКВСТР, DWORD), метод'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_dword)
+                            - name: 'Сетчарсплат (ЛПКВСТР, LPCSTR), метод'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_lpcstr)
+                            - name: 'Сетчарсплат (ЛПКВСТР, ЛПКВСТР), метод'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_lpcwstr)
+                        - name: Методы Сетчстринг
+                          href: cinstance-setchstring.md
+                          items:
+                            - name: 'Метод Сетчстринг (ЛПКВСТР, Констчстринг&)'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setchstring(lpcwstr_constchstring_)
+                            - name: 'Сетчстринг (ЛПКВСТР, LPCSTR), метод'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setchstring(lpcwstr_lpcstr)
+                        - name: Метод Сетдатетиме
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setdatetime
+                        - name: Метод SetDOUBLE
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setdouble
+                        - name: Метод Сетдворд
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setdword
+                        - name: Метод Сетембеддедобжект
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setembeddedobject
+                        - name: Метод SetNull
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setnull
+                        - name: Метод Сетстрингаррай
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setstringarray
+                        - name: Метод Сеттимеспан
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-settimespan
+                        - name: Метод Сетвариант
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setvariant
+                        - name: Метод SetWBEMINT16
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setwbemint16
+                        - name: Метод Сетвчарсплат
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setwcharsplat
+                        - name: Методы SetWBEMINT64
+                          href: cinstance--setwbemint64.md
+                          items:
+                            - name: 'Метод SetWBEMINT64 (ЛПКВСТР, Констлонглонг&)'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constlonglong)
+                            - name: 'Метод SetWBEMINT64 (ЛПКВСТР, constWBEMINT64&)'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constulonglong)
+                            - name: 'Метод SetWBEMINT64 (ЛПКВСТР, Констулонглонг&)'
+                              href: /windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constulonglong)
+                        - name: Метод Сетворд
+                          href: /windows/desktop/api/Instance/nf-instance-cinstance-setword
+                - name: ксреадбасе
+                  href: /windows/desktop/api/ThrdBase/nl-thrdbase-cthreadbase
+                  items:
+                    - name: Перечисления Ксреадбасе
+                      href: cthreadbase-enumerations.md
+                      items:
+                        - name: флагдефс
+                          href: /previous-versions/windows/desktop/legacy/mt432263(v=vs.85)
+                    - name: Методы Ксреадбасе
+                      href: cthreadbase-methods.md
+                      items:
+                        - name: 'BeginRead, метод'
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-beginread
+                        - name: Метод BeginWrite
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-beginwrite
+                        - name: Метод Ксреадбасе
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-cthreadbase
+                        - name: Метод EndRead
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-endread
+                        - name: Метод EndWrite
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-endwrite
+                        - name: Метод Онфиналрелеасе
+                          href: /windows/desktop/api/ThrdBase/nf-thrdbase-cthreadbase-onfinalrelease
+                - name: квбемглуефактори
+                  href: /windows/desktop/api/WbemGlue/nl-wbemglue-cwbemgluefactory
+                  items:
+                    - name: Методы Квбемглуефактори
+                      href: cwbemgluefactory-methods.md
+                      items:
+                        - name: Конструктор Квбемглуефактори
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemgluefactory-cwbemgluefactory(plong)
+                - name: квбемпровидерглуе
+                  href: /windows/desktop/api/WbemGlue/nl-wbemglue-cwbemproviderglue
+                  items:
+                    - name: Методы Квбемпровидерглуе
+                      href: cwbemproviderglue-methods.md
+                      items:
+                        - name: Метод Фрамеворклогиндлл
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-frameworklogindll(lpcwstr_plong)
+                        - name: Метод Фрамеворклогоффдлл
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-frameworklogoffdll(lpcwstr_plong)
+                        - name: Метод Жеталлдеривединстанцес
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallderivedinstances(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)
+                        - name: Метод Жеталлдеривединстанцесасинч
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallderivedinstancesasynch
+                        - name: Метод Жеталлинстанцес
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallinstances
+                        - name: Метод Жеталлинстанцесасинч
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallinstancesasynch
+                        - name: Методы Жетемптинстанце
+                          href: cwbemproviderglue-getemptyinstance.md
+                          items:
+                            - name: 'Жетемптинстанце (ЛПКВСТР, CInstance * *, ЛПКВСТР), метод'
+                              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)
+                            - name: 'Метод Жетемптинстанце (Месодконтекст *, ЛПКВСТР, CInstance * *, ЛПКВСТР)'
+                              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)
+                        - name: Метод Жетинстанцебипас
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancebypath(lpcwstr_cinstance_methodcontext)
+                        - name: Метод Жетинстанцекэйсбипас
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancekeysbypath
+                        - name: Метод Жетинстанцепропертиесбипас
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancepropertiesbypath
+                        - name: Метод Жетинстанцесбикуери
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancesbyquery(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)
+                        - name: Метод Жетинстанцесбикуерясинч
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancesbyqueryasynch
+                        - name: Метод Жетнамеспацеконнектион
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getnamespaceconnection(lpcwstr_methodcontext)
+                        - name: Метод Исдериведфром
+                          href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-isderivedfrom(lpcwstr_lpcwstr_methodcontext_lpcwstr)
+                        - name: Метод Сетстатусобжект
+                          href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-setstatusobject
+                - name: Поставщик
+                  href: /windows/desktop/api/Provider/nl-provider-provider
+                  items:
+                    - name: Методы поставщика
+                      href: provider-methods.md
+                      items:
+                        - name: Метод Commit
+                          href: /windows/desktop/api/Provider/nf-provider-provider-commit
+                        - name: Метод Креатеневинстанце
+                          href: /windows/desktop/api/Provider/nf-provider-provider-createnewinstance
+                        - name: Метод DeleteInstance
+                          href: /windows/desktop/api/provider/nf-provider-provider-deleteinstance(parsedobjectpath_long_methodcontext)
+                        - name: Метод Енумератеинстанцес
+                          href: /windows/desktop/api/Provider/nf-provider-provider-enumerateinstances
+                        - name: Метод ExecMethod
+                          href: /windows/desktop/api/provider/nf-provider-provider-execmethod(parsedobjectpath_bstr_long_cinstance_cinstance_methodcontext)
+                        - name: Метод ExecQuery
+                          href: /windows/desktop/api/Provider/nf-provider-provider-execquery
+                        - name: Метод Flush
+                          href: /windows/desktop/api/Provider/nf-provider-provider-flush
+                        - name: Метод Жетлокалкомпутернаме
+                          href: /windows/desktop/api/Provider/nf-provider-provider-getlocalcomputername
+                        - name: Метод Жетлокалинстанцепас
+                          href: /windows/desktop/api/Provider/nf-provider-provider-getlocalinstancepath
+                        - name: Метод. Namespace
+                          href: /windows/desktop/api/Provider/nf-provider-provider-getnamespace
+                        - name: GetObject - метод
+                          href: /windows/desktop/api/provider/nf-provider-provider-getobject(cinstance_long_cframeworkquery_)
+                        - name: Метод Жетпровидернаме
+                          href: /windows/desktop/api/Provider/nf-provider-provider-getprovidername
+                        - name: Метод Макелокалпас
+                          href: /windows/desktop/api/Provider/nf-provider-provider-makelocalpath
+                        - name: Метод поставщика
+                          href: /windows/desktop/api/Provider/nf-provider-provider-provider
+                        - name: Метод PutInstance
+                          href: /windows/desktop/api/provider/nf-provider-provider-putinstance(constcinstance__long)
+                        - name: Метод Сеткреатионкласснаме
+                          href: /windows/desktop/api/Provider/nf-provider-provider-setcreationclassname
+                        - name: Метод Валидатеделетионфлагс
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validatedeletionflags
+                        - name: Метод Валидатинумератионфлагс
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validateenumerationflags
+                        - name: Метод Валидатефлагс
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validateflags
+                        - name: Метод Валидатежетобжфлагс
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validategetobjflags
+                        - name: Метод Валидатемесодфлагс
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validatemethodflags
+                        - name: Метод Валидатепутинстанцефлагс
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validateputinstanceflags
+                        - name: Метод Валидатекуерифлагс
+                          href: /windows/desktop/api/Provider/nf-provider-provider-validatequeryflags
+            - name: Вспомогательные классы инфраструктуры поставщика
+              href: provider-framework-utility-classes.md
+              items:
+                - name: чптраррай
+                  href: /windows/desktop/api/ChPtrArr/nl-chptrarr-chptrarray
+                  items:
+                    - name: Методы Чптраррай
+                      href: chptrarray-methods.md
+                      items:
+                        - name: Метод Чптраррай
+                          href: /windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-chptrarray
+                        - name: Метод GetAt
+                          href: /windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-getat
+                        - name: GetSize - метод
+                          href: /windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-getsize
+                        - name: 'RemoveAll, метод'
+                          href: /windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-removeall
+                        - name: станции
+                          href: /previous-versions/windows/desktop/legacy/aa384934(v=vs.85)
+                - name: чстринг
+                  href: chstring.md
+                  items:
+                    - name: Методы Чстринг
+                      href: chstring-methods.md
+                      items:
+                        - name: Метод Аллоксисстринг
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-allocsysstring
+                        - name: Конструкторы Чстринг
+                          href: chstring-chstring.md
+                          items:
+                            - name: Конструктор Чстринг ()
+                              href: /windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig
+                            - name: Конструктор Чстринг (Констчстринг&)
+                              href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)
+                            - name: Конструктор Чстринг (констунсигнед char *)
+                              href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(constunsignedchar)
+                            - name: Конструктор Чстринг (LPCSTR)
+                              href: /windows/desktop/api/ChString/nf-chstring-chstring-chstring(lpcstr)
+                            - name: Конструктор Чстринг (ЛПКВСТР)
+                              href: /windows/desktop/api/ChString/nf-chstring-chstring-chstring(lpcwstr)
+                            - name: 'Конструктор Чстринг (ЛПКВСТР, int)'
+                              href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(lpcwstr_int)
+                            - name: 'Чстринг (WCHAR, int)-конструктор'
+                              href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(wchar_int)
+                        - name: Метод COLLATE
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-collate
+                        - name: Compare - метод
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-compare
+                        - name: Метод Компаренокасе
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-comparenocase
+                        - name: Пустой метод
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-empty
+                        - name: Поиск методов
+                          href: chstring-find.md
+                          items:
+                            - name: Метод Find (ЛПКВСТР)
+                              href: /windows/win32/api/chstring/nf-chstring-chstring-format(lpcwstr_---)
+                            - name: Метод Find (WCHAR)
+                              href: /windows/desktop/api/chstring/nf-chstring-chstring-find(lpcwstr)
+                        - name: Метод Финдонеоф
+                          href: /windows/win32/api/chstring/nf-chstring-chstring-findoneof
+                        - name: Методы форматирования
+                          href: chstring-format.md
+                          items:
+                            - name: Метод Format (ЛПКВСТР)
+                              href: /previous-versions/windows/desktop/legacy/aa385527(v=vs.85)
+                            - name: 'Метод Format (UINT,)'
+                              href: /previous-versions/windows/desktop/legacy/aa385532(v=vs.85)
+                        - name: Методы Форматмессажев
+                          href: chstring-formatmessagew.md
+                          items:
+                            - name: 'Метод Форматмессажев (ЛПКВСТР,)'
+                              href: /previous-versions/windows/desktop/legacy/aa385515(v=vs.85)
+                            - name: 'Форматмессажев (UINT,), метод'
+                              href: /previous-versions/windows/desktop/legacy/aa385519(v=vs.85)
+                        - name: Метод Форматв
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-formatv
+                        - name: Метод Фриекстра
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-freeextra
+                        - name: Метод Жеталлокленгс
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getalloclength
+                        - name: Метод GetAt
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getat(int)
+                        - name: GetBuffer - метод
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getbuffer
+                        - name: Метод Жетбуфферсетленгс
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getbuffersetlength
+                        - name: Метод GetData
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getdata
+                        - name: GetLength - метод
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-getlength
+                        - name: IsEmpty - метод
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-isempty
+                        - name: Метод Left
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-left
+                        - name: Метод Лоадстрингв
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-loadstringw(uint)
+                        - name: Метод Локкбуффер
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-lockbuffer
+                        - name: Метод Макеловер
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-makelower
+                        - name: Метод Макереверсе
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-makereverse
+                        - name: Метод Макеуппер
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-makeupper
+                        - name: Методы mid
+                          href: chstring-mid.md
+                          items:
+                            - name: 'MID (int), метод'
+                              href: /windows/win32/api/chstring/nf-chstring-chstring-mid(int)
+                            - name: 'MID (int, int), метод'
+                              href: /windows/win32/api/chstring/nf-chstring-chstring-mid(int_int)
+                        - name: станции
+                          href: /previous-versions/windows/desktop/legacy/aa386162(v=vs.85)
+                        - name: 'Чстринг:: operator +'
+                          href: chstring--operator-plus.md
+                        - name: 'Чстринг:: operator + ='
+                          href: chstring--operator-plus-equal.md
+                        - name: 'Чстринг:: operator ='
+                          href: chstring--operator-equal.md
+                        - name: 'operator = = (Констчстринг&, Констчстринг&) метод'
+                          href: /previous-versions/windows/desktop/legacy/aa385641(v=vs.85)
+                        - name: 'operator = = (Констчстринг&, Констлпквстр&) метод'
+                          href: /previous-versions/windows/desktop/legacy/aa385645(v=vs.85)
+                        - name: 'метод> оператора (Констчстринг&, Констчстринг&)'
+                          href: /previous-versions/windows/desktop/legacy/aa385665(v=vs.85)
+                        - name: 'метод> оператора (Констчстринг&, Констлпквстр&)'
+                          href: /previous-versions/windows/desktop/legacy/aa385672(v=vs.85)
+                        - name: 'operator>= (Констчстринг&, Констчстринг&) метод'
+                          href: /previous-versions/windows/desktop/legacy/aa385652(v=vs.85)
+                        - name: 'operator>= (Констчстринг&, Констлпквстр&) метод'
+                          href: /previous-versions/windows/desktop/legacy/aa385661(v=vs.85)
+                        - name: 'метод< оператора (Констчстринг&, Констчстринг&)'
+                          href: /previous-versions/windows/desktop/legacy/aa385689(v=vs.85)
+                        - name: 'метод< оператора (Констчстринг&, Констлпквстр&)'
+                          href: /previous-versions/windows/desktop/legacy/aa385695(v=vs.85)
+                        - name: 'operator<= (Констчстринг&, Констчстринг&) метод'
+                          href: /previous-versions/windows/desktop/legacy/aa385676(v=vs.85)
+                        - name: 'operator<= (Констчстринг&, Констлпквстр&) метод'
+                          href: /previous-versions/windows/desktop/legacy/aa385683(v=vs.85)
+                        - name: 'operator! = (Констчстринг&, Констчстринг&) метод'
+                          href: /previous-versions/windows/desktop/legacy/aa385704(v=vs.85)
+                        - name: 'operator! = (Констчстринг&, Констлпквстр&) метод'
+                          href: /previous-versions/windows/desktop/legacy/aa385763(v=vs.85)
+                        - name: 'operator ЛПКВСТР, метод'
+                          href: /windows/desktop/api/chstring/nf-chstring-chstring-operatorlpcwstr
+                        - name: Метод Релеасебуффер
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-releasebuffer
+                        - name: Метод Реверсефинд
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-reversefind
+                        - name: Метод right
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-right
+                        - name: Метод SetAt
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-setat
+                        - name: Метод Спанексклудинг
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-spanexcluding
+                        - name: Метод Спанинклудинг
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-spanincluding
+                        - name: Метод Тримлефт
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-trimleft
+                        - name: Метод Тримригхт
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-trimright
+                        - name: Метод Унлоккбуффер
+                          href: /windows/desktop/api/ChString/nf-chstring-chstring-unlockbuffer
+                - name: чстрингаррай
+                  href: /windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray
+                  items:
+                    - name: Методы Чстрингаррай
+                      href: chstringarray-methods.md
+                      items:
+                        - name: Add - метод
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-add
+                        - name: Append - метод
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-append
+                        - name: Метод Чстрингаррай
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-chstringarray
+                        - name: Copy - метод
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-copy
+                        - name: Метод ElementAt
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-elementat(int)
+                        - name: Метод Фриекстра
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-freeextra
+                        - name: Метод GetAt
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-getat(int)
+                        - name: Метод GetData
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-getdata
+                        - name: GetSize - метод
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-getsize
+                        - name: Метод GetUpperBound
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-getupperbound
+                        - name: Методы Инсертат
+                          href: insertat-method-in-class-chstringarray.md
+                          items:
+                            - name: 'Инсертат (int, Чстрингаррай *), метод'
+                              href: /windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-insertat(int_chstringarray)
+                            - name: 'Инсертат (int, ЛПКВСТР, int), метод'
+                              href: /previous-versions/windows/desktop/legacy/aa385383(v=vs.85)
+                        - name: 'Чстрингаррай:: operator [ '
+                          href: chstringarray--operator-brackets.md
+                        - name: 'RemoveAll, метод'
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-removeall
+                        - name: 'RemoveAt, метод'
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-removeat
+                        - name: Метод SetAt
+                          href: /windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)
+                        - name: Метод Сетатгров
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-setatgrow
+                        - name: Метод SetSize
+                          href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-setsize
+                - name: кобжектпаспарсер
+                  href: /windows/desktop/api/ObjPath/nl-objpath-cobjectpathparser
+                  items:
+                    - name: Перечисления Кобжектпаспарсер
+                      href: cobjectpathparser-enumerations.md
+                      items:
+                        - name: обжектпарсерфлагс
+                          href: /windows/desktop/api/Objpath/ne-objpath-objectparserflags
+                    - name: Методы Кобжектпаспарсер
+                      href: cobjectpathparser-methods.md
+                      items:
+                        - name: Метод Кобжектпаспарсер
+                          href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-cobjectpathparser
+                        - name: Бесплатные методы
+                          href: cobjectpathparser--free.md
+                          items:
+                            - name: Метод Free (LPWSTR)
+                              href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-free(lpwstr)
+                            - name: Бесплатный (Парседобжектпас *) метод
+                              href: /windows/desktop/api/objpath/nf-objpath-cobjectpathparser-free(parsedobjectpath)
+                        - name: 'Parse, метод'
+                          href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-parse
+                        - name: Метод unpars
+                          href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-unparse
+                - name: месодконтекст
+                  href: /windows/desktop/api/MethodCo/nl-methodco-methodcontext
+                  items:
+                    - name: Методы Месодконтекст
+                      href: methodcontext-methods.md
+                      items:
+                        - name: Метод Жетстатусобжект
+                          href: /windows/desktop/api/MethodCo/nf-methodco-methodcontext-getstatusobject
+                        - name: Метод Сетстатусобжект
+                          href: /windows/desktop/api/MethodCo/nf-methodco-methodcontext-setstatusobject
+                - name: трефпоинтерколлектион
+                  href: /windows/desktop/api/RefPtrCo/nl-refptrco-trefpointercollection
+                  items:
+                    - name: Методы Трефпоинтерколлектион
+                      href: trefpointercollection-methods.md
+                      items:
+                        - name: Add - метод
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-add
+                        - name: Метод Бегиненум
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-beginenum
+                        - name: Пустой метод
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-empty
+                        - name: Метод Енденум
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-endenum
+                        - name: GetNext - метод
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-getnext
+                        - name: GetSize - метод
+                          href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-getsize
+                        - name: Метод Трефпоинтерколлектион
+                          href: /windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-trefpointercollection(consttrefpointercollection_)
+                - name: вбемтиме
+                  href: wbemtime.md
+                  items:
+                    - name: Методы WBEMTime
+                      href: wbemtime-methods.md
+                      items:
+                        - name: Clear - метод
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-clear
+                        - name: GetBSTR - метод
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getbstr
+                        - name: Метод Жетдмтф
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getdmtf
+                        - name: Метод Жетдмтфноннтфс
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getdmtfnonntfs
+                        - name: Метод функции getFileTime
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getfiletime
+                        - name: Методы Жетлокалоффсетфордате
+                          href: wbemtime--getlocaloffsetfordate.md
+                          items:
+                            - name: 'Жетлокалоффсетфордате (Констфилетиме *), метод'
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(constfiletime)
+                            - name: 'Жетлокалоффсетфордате (констструкт TM *), метод'
+                              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(consttm)
+                            - name: 'Жетлокалоффсетфордате (Констсистемтиме *), метод'
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(constsystemtime)
+                            - name: Метод Жетлокалоффсетфордате (consttime_t&)
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(consttime_t_)
+                        - name: Метод Жетструкттм
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getstructtm
+                        - name: Метод GetSYSTEMTIME
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getsystemtime
+                        - name: GetTime - метод
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-gettime
+                        - name: Метод Gettime_t
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-gettime_t
+                        - name: Метод исок
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-isok
+                        - name: операторы operator
+                          href: wbemtime--operator-minus.md
+                          items:
+                            - name: 'operator-(Конствбемтиме&), метод'
+                              href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+                            - name: 'operator-(Конствбемтимеспан&), метод'
+                              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-sub(constwbemtimespan_)
+                        - name: 'Метод Вбемтиме:: operator! ='
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-not-equal-to
+                        - name: 'Метод < Вбемтиме:: operator'
+                          href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-less-than
+                        - name: 'Вбемтиме:: operator <= метод'
+                          href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-less-than-equal-to
+                        - name: 'Метод Вбемтиме:: operator = ='
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-equal-equal-to
+                        - name: 'Метод > Вбемтиме:: operator'
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-greater-than
+                        - name: 'Вбемтиме:: operator >= метод'
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-greater-than-equal-to
+                        - name: 'operator +, метод'
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-add
+                        - name: 'operator + =, метод'
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-add-assign
+                        - name: operator = операторы
+                          href: wbemtime--operator-equal.md
+                          items:
+                            - name: operator = (Констбстр&)-метод
+                              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-assign(constbstr)
+                            - name: operator = (Констфилетиме&)-метод
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constfiletime_)
+                            - name: operator = (констструкт TM&)-метод
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttm_)
+                            - name: operator = (Констсистемтиме&)-метод
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constsystemtime_)
+                            - name: operator = (consttime_t&) метод
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttime_t_)
+                        - name: operator-= метод
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub-assign
+                        - name: Метод Сетдмтф
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-setdmtf
+                        - name: Конструкторы Вбемтиме
+                          href: wbemtime-wbemtime.md
+                          items:
+                            - name: Конструктор Вбемтиме ()
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr)
+                            - name: Конструктор Вбемтиме (BSTR)
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr)
+                            - name: Конструктор Вбемтиме (констструкт TM&)
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(consttm_)
+                            - name: Конструктор Вбемтиме (Констфилетиме&)
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constfiletime_)
+                            - name: Конструктор Вбемтиме (Констсистемтиме&)
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constsystemtime_)
+                            - name: Конструктор Вбемтиме (consttime_t&)
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(consttime_t_)
+                - name: вбемтимеспан
+                  href: /windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan
+                  items:
+                    - name: Методы WBEMTimeSpan
+                      href: wbemtimespan-methods.md
+                      items:
+                        - name: Конструкторы Вбемтимеспан
+                          href: wbemtimespan-wbemtimespan.md
+                          items:
+                            - name: Конструктор Вбемтимеспан ()
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)
+                            - name: Конструктор Вбемтимеспан (BSTR)
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)
+                            - name: 'Конструктор Вбемтимеспан (int, int, int, int, int, int, int)'
+                              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(int_int_int_int_int_int_int)
+                        - name: Clear - метод
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-clear
+                        - name: GetBSTR - метод
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-getbstr
+                        - name: GetTime - метод
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-gettime
+                        - name: Метод исок
+                          href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-isok
+                        - name: operator= - метод
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-assign(constfiletime_)
+                        - name: 'operator +, метод'
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-add
+                        - name: 'operator + =, метод'
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-add-assign
+                        - name: operator-метод
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub
+                        - name: operator-= метод
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub-assign
+                        - name: operator = = метод
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-equal-equal-to
+                        - name: operator! = метод
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-not-equal-to
+                        - name: метод > оператора
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-greater-than
+                        - name: Оператор >= Method
+                          href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-greater-than-equal-to
+                        - name: метод < оператора
+                          href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than
+                        - name: Оператор <= Method
+                          href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than-equal-to
+        - name: COM API для WMI
+          href: com-api-for-wmi.md
+          items:
+            - name: Интерфейсы автоматизации
+              href: automation-interfaces.md
+            - name: иенумвбемклассобжект
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-ienumwbemclassobject
+              items:
+                - name: Методы Иенумвбемклассобжект
+                  href: ienumwbemclassobject-methods.md
+                  items:
+                    - name: Clone - метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-ienumwbemclassobject-clone
+                    - name: Метод Next
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-ienumwbemclassobject-next
+                    - name: Метод Некстасинк
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-ienumwbemclassobject-nextasync
+                    - name: Reset - метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-ienumwbemclassobject-reset
+                    - name: Skip - метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-ienumwbemclassobject-skip
+            - name: имофкомпилер
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-imofcompiler
+              items:
+                - name: Методы Имофкомпилер
+                  href: imofcompiler-methods.md
+                  items:
+                    - name: Метод Компилебуффер
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-imofcompiler-compilebuffer
+                    - name: Метод Компилефиле
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-imofcompiler-compilefile
+                    - name: Метод Креатебмоф
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-imofcompiler-createbmof
+            - name: иунсекуредапартмент
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iunsecuredapartment
+              items:
+                - name: Методы Иунсекуредапартмент
+                  href: iunsecuredapartment-methods.md
+                  items:
+                    - name: Метод Креатеобжектстуб
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub
+            - name: ивбембаккупресторе
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbembackuprestore
+              items:
+                - name: Методы Ивбембаккупресторе
+                  href: iwbembackuprestore-methods.md
+                  items:
+                    - name: Метод резервного копирования
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestore-backup
+                    - name: Метод Restore
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestore-restore
+            - name: ивбембаккупресторикс
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbembackuprestoreex
+              items:
+                - name: Методы Ивбембаккупресторикс
+                  href: iwbembackuprestoreex-methods.md
+                  items:
+                    - name: Метод резервного копирования
+                      href: /previous-versions/windows/desktop/legacy/aa391419(v=vs.85)
+                    - name: Метод Restore
+                      href: /previous-versions/windows/desktop/legacy/aa391421(v=vs.85)
+                    - name: Приостановить метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestoreex-pause
+                    - name: Метод Resume
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestoreex-resume
+            - name: ивбемкаллресулт
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemcallresult
+              items:
+                - name: Методы Ивбемкаллресулт
+                  href: iwbemcallresult-methods.md
+                  items:
+                    - name: Метод Жеткаллстатус
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus
+                    - name: Метод Жетресултобжект
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemcallresult-getresultobject
+                    - name: Метод Жетресултсервицес
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemcallresult-getresultservices
+                    - name: Метод Жетресултстринг
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemcallresult-getresultstring
+            - name: ивбемкаусалитякцесс
+              href: iwbemcausalityaccess.md
+              items:
+                - name: Методы Ивбемкаусалитякцесс
+                  href: iwbemcausalityaccess-methods.md
+                  items:
+                    - name: Метод Жетрекуестид
+                      href: iwbemcausalityaccess-getrequestid.md
+                    - name: Метод Исчилдоф
+                      href: iwbemcausalityaccess-ischildof.md
+            - name: ивбемклассобжект
+              href: /windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject
+              items:
+                - name: Методы Ивбемклассобжект
+                  href: iwbemclassobject-methods.md
+                  items:
+                    - name: Метод BeginEnumeration
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-beginenumeration
+                    - name: Метод Бегинмесоденумератион
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-beginmethodenumeration
+                    - name: Clone - метод
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-clone
+                    - name: CompareTo - метод
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-compareto
+                    - name: Delete - метод
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-delete
+                    - name: Метод DeleteMethod
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-deletemethod
+                    - name: Метод EndEnumeration
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-endenumeration
+                    - name: Метод Ендмесоденумератион
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-endmethodenumeration
+                    - name: Get - метод
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-get
+                    - name: GetMethod - метод
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getmethod
+                    - name: Метод Жетмесодоригин
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getmethodorigin
+                    - name: Метод Жетмесодкуалифиерсет
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getmethodqualifierset
+                    - name: Метод Names
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getnames
+                    - name: Метод Жетобжекттекст
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getobjecttext
+                    - name: Метод Жетпропертйоригин
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getpropertyorigin
+                    - name: Метод Жетпропертикуалифиерсет
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getpropertyqualifierset
+                    - name: Метод Жеткуалифиерсет
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getqualifierset
+                    - name: Метод раскрывшемся
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-inheritsfrom
+                    - name: Метод Next
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-next
+                    - name: Метод Некстмесод
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-nextmethod
+                    - name: Метод размещения
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-put
+                    - name: Метод Путмесод
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-putmethod
+                    - name: Метод Спавндериведкласс
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-spawnderivedclass
+                    - name: Метод Спавнинстанце
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-spawninstance
+            - name: ивбемконфигуререфрешер
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemconfigurerefresher
+              items:
+                - name: Методы Ивбемконфигуререфрешер
+                  href: iwbemconfigurerefresher-methods.md
+                  items:
+                    - name: Метод Адденум
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addenum
+                    - name: Метод Аддобжектбипас
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbypath
+                    - name: Метод Аддобжектбитемплате
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbytemplate
+                    - name: Метод Аддрефрешер
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addrefresher
+                    - name: Remove - метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-remove
+            - name: ивбемконтекст
+              href: /windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext
+              items:
+                - name: Методы Ивбемконтекст
+                  href: iwbemcontext-methods.md
+                  items:
+                    - name: Метод BeginEnumeration
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-beginenumeration
+                    - name: Clone - метод
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-clone
+                    - name: Метод DeleteAll
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-deleteall
+                    - name: Метод DeleteValue
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-deletevalue
+                    - name: Метод EndEnumeration
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-endenumeration
+                    - name: Метод Names
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-getnames
+                    - name: GetValue - метод
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-getvalue
+                    - name: Метод Next
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-next
+                    - name: 'SetValue, метод'
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemcontext-setvalue
+            - name: ивбемдекаупледбасицевентпровидер
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledbasiceventprovider
+              items:
+                - name: Методы Ивбемдекаупледбасицевентпровидер
+                  href: iwbemdecoupledbasiceventprovider-methods.md
+                  items:
+                    - name: Метод метода WebMethod
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getservice
+                    - name: Метод метода Sink
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getsink
+                    - name: Register - метод
+                      href: /previous-versions/windows/desktop/legacy/aa391480(v=vs.85)
+            - name: ивбемдекаупледрегистрар
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledregistrar
+              items:
+                - name: Методы Ивбемдекаупледрегистрар
+                  href: iwbemdecoupledregistrar-methods.md
+                  items:
+                    - name: Register - метод
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register
+                    - name: Отменить регистрацию метода
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-unregister
+            - name: ивбемевентконсумерпровидер
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventconsumerprovider
+              items:
+                - name: Методы Ивбемевентконсумерпровидер
+                  href: iwbemeventconsumerprovider-methods.md
+                  items:
+                    - name: Метод Финдконсумер
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer
+            - name: ивбемевентпровидер
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventprovider
+              items:
+                - name: Методы Ивбемевентпровидер
+                  href: iwbemeventprovider-methods.md
+                  items:
+                    - name: Метод Провидивентс
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventprovider-provideevents
+            - name: ивбемевентпровидеркуерисинк
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventproviderquerysink
+              items:
+                - name: Методы Ивбемевентпровидеркуерисинк
+                  href: iwbemeventproviderquerysink-methods.md
+                  items:
+                    - name: Метод Канцелкуери
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventproviderquerysink-cancelquery
+                    - name: Метод Невкуери
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventproviderquerysink-newquery
+            - name: ивбемевентпровидерсекурити
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventprovidersecurity
+              items:
+                - name: Методы Ивбемевентпровидерсекурити
+                  href: iwbemeventprovidersecurity-methods.md
+                  items:
+                    - name: 'AccessCheck, метод'
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventprovidersecurity-accesscheck
+            - name: ивбемевентсинк
+              href: iwbemeventsink.md
+              items:
+                - name: Методы Ивбемевентсинк
+                  href: iwbemeventsink-methods.md
+                  items:
+                    - name: Метод Жетрестриктедсинк
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventsink-getrestrictedsink
+                    - name: IsActive - метод
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventsink-isactive
+                    - name: Метод Сетбатчингпараметерс
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventsink-setbatchingparameters
+                    - name: Метод Сетсинксекурити
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity
+            - name: ивбемхиперфенум
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemhiperfenum
+              items:
+                - name: Методы Ивбемхиперфенум
+                  href: iwbemhiperfenum-methods.md
+                  items:
+                    - name: Метод Аддобжектс
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-addobjects
+                    - name: Метод GetObject
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects
+                    - name: 'RemoveAll, метод'
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-removeall
+                    - name: Метод Ремовеобжектс
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-removeobjects
+            - name: ивбемхиперфпровидер
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemhiperfprovider
+              items:
+                - name: Методы Ивбемхиперфпровидер
+                  href: iwbemhiperfprovider-methods.md
+                  items:
+                    - name: Метод Креатерефрешаблинум
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum
+                    - name: Метод Креатерефрешаблеобжект
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableobject
+                    - name: Метод Креатерефрешер
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefresher
+                    - name: Метод GetObject
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-getobjects
+                    - name: Метод Куеринстанцес
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-queryinstances
+                    - name: Метод Стопрефрешинг
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemhiperfprovider-stoprefreshing
+            - name: ивбемлокатор
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator
+              items:
+                - name: Методы Ивбемлокатор
+                  href: iwbemlocator-methods.md
+                  items:
+                    - name: Метод Коннектсервер
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver
+            - name: ивбемобжектакцесс
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjectaccess
+              items:
+                - name: Методы Ивбемобжектакцесс
+                  href: iwbemobjectaccess-methods.md
+                  items:
+                    - name: Метод Жетпропертихандле
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-getpropertyhandle
+                    - name: Метод Жетпропертинфобихандле
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-getpropertyinfobyhandle
+                    - name: Lock - метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-lock
+                    - name: Метод Реаддворд
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-readdword
+                    - name: Метод Реадпропертивалуе
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-readpropertyvalue
+                    - name: Метод Реадкворд
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-readqword
+                    - name: Метод Unlock
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-unlock
+                    - name: Метод Вритедворд
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-writedword
+                    - name: Метод Вритепропертивалуе
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-writepropertyvalue
+                    - name: Метод Вритекворд
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectaccess-writeqword
+            - name: ивбемобжектсинк
+              href: iwbemobjectsink.md
+              items:
+                - name: Методы Ивбемобжектсинк
+                  href: iwbemobjectsink-methods.md
+                  items:
+                    - name: Укажите метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate
+                    - name: SetStatus - метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus
+            - name: ивбемобжектсинкекс
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjectsinkex
+              items:
+                - name: Методы Ивбемобжектсинкекс
+                  href: iwbemobjectsinkex-methods.md
+                  items:
+                    - name: Метод Промптусер
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsinkex-promptuser
+                    - name: Метод WriteError
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsinkex-writeerror
+                    - name: Метод WriteMessage
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsinkex-writemessage
+                    - name: Метод Вритепрогресс
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsinkex-writeprogress
+                    - name: Метод Вритестреампараметер
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsinkex-writestreamparameter
+            - name: ивбемобжекттекстсрк
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc
+              items:
+                - name: Методы Ивбемобжекттекстсрк
+                  href: iwbemobjecttextsrc-methods.md
+                  items:
+                    - name: GetText - метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjecttextsrc-gettext
+            - name: ивбемпас
+              href: /windows/desktop/api/Wmiutils/nn-wmiutils-iwbempath
+              items:
+                - name: Методы Ивбемпас
+                  href: iwbempath-methods.md
+                  items:
+                    - name: Метод Креатекласспарт
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-createclasspart
+                    - name: Метод Делетекласспарт
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-deleteclasspart
+                    - name: Метод ClassName
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getclassname
+                    - name: Метод получения сведений
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getinfo
+                      items:
+                        - name: tag_WBEM_PATH_STATUS_FLAG
+                          href: /windows/desktop/api/WMIUtils/ne-wmiutils-tag_wbem_path_status_flag
+                    - name: Метод Жеткэйлист
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getkeylist
+                    - name: Метод Жетнамеспацеат
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getnamespaceat
+                    - name: Метод Жетнамеспацекаунт
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getnamespacecount
+                    - name: GetScope - метод
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getscope
+                    - name: Метод Жетскопеастекст
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getscopeastext
+                    - name: Метод Жетскопекаунт
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getscopecount
+                    - name: Метод метода onserver
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-getserver
+                    - name: GetText - метод
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-gettext
+                      items:
+                        - name: tag_WBEM_GET_TEXT_FLAGS
+                          href: /windows/desktop/api/WMIUtils/ne-wmiutils-tag_wbem_get_text_flags
+                    - name: Метод onlocal
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-islocal
+                    - name: Метод "методом"
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-isrelative
+                    - name: Метод Исрелативеорчилд
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-isrelativeorchild
+                    - name: Метод Иссамекласснаме
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-issameclassname
+                    - name: Метод Ремовеаллнамеспацес
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-removeallnamespaces
+                    - name: Метод Ремовеаллскопес
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-removeallscopes
+                    - name: Метод Ремовенамеспацеат
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-removenamespaceat
+                    - name: Метод RemoveScope
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-removescope
+                    - name: Метод Сеткласснаме
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-setclassname
+                    - name: Метод Сетнамеспацеат
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-setnamespaceat
+                    - name: Метод Сетскопе
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-setscope
+                    - name: Метод Сетсервер
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-setserver
+                    - name: SetText - метод
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempath-settext
+                      items:
+                        - name: tag_WBEM_PATH_CREATE_FLAG
+                          href: /windows/desktop/api/WMIUtils/ne-wmiutils-tag_wbem_path_create_flag
+            - name: ивбемпаскэйлист
+              href: /windows/desktop/api/Wmiutils/nn-wmiutils-iwbempathkeylist
+              items:
+                - name: Методы Ивбемпаскэйлист
+                  href: iwbempathkeylist-methods.md
+                  items:
+                    - name: GetCount - метод
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-getcount
+                    - name: Метод получения сведений
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-getinfo
+                    - name: Метод GetKey
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-getkey
+                    - name: Метод GetKey2
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-getkey2
+                    - name: GetText - метод
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-gettext
+                      items:
+                        - name: tag_WBEM_GET_KEY_FLAGS
+                          href: /windows/desktop/api/WMIUtils/ne-wmiutils-tag_wbem_get_key_flags
+                    - name: Метод Макесинглетон
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-makesingleton
+                    - name: Метод Ремовеаллкэйс
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-removeallkeys
+                    - name: Метод Ремовекэй
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-removekey
+                    - name: Метод Сеткэй
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-setkey
+                    - name: Метод SetKey2
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbempathkeylist-setkey2
+            - name: ивбемпропертипровидер
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbempropertyprovider
+              items:
+                - name: Методы Ивбемпропертипровидер
+                  href: iwbempropertyprovider-methods.md
+                  items:
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbempropertyprovider-getproperty
+                    - name: Метод Putproperty изменил
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbempropertyprovider-putproperty
+            - name: ивбемпровидеридентити
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemprovideridentity
+              items:
+                - name: Методы Ивбемпровидеридентити
+                  href: iwbemprovideridentity-methods.md
+                  items:
+                    - name: Метод Сетрегистратионобжект
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemprovideridentity-setregistrationobject
+            - name: ивбемпровидеринит
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit
+              items:
+                - name: Методы Ивбемпровидеринит
+                  href: iwbemproviderinit-methods.md
+                  items:
+                    - name: Initialize - метод
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize
+            - name: ивбемпровидеринитсинк
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinitsink
+              items:
+                - name: Методы Ивбемпровидеринитсинк
+                  href: iwbemproviderinitsink-methods.md
+                  items:
+                    - name: SetStatus - метод
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinitsink-setstatus
+            - name: ивбемкуалифиерсет
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemqualifierset
+              items:
+                - name: Методы Ивбемкуалифиерсет
+                  href: iwbemqualifierset-methods.md
+                  items:
+                    - name: Метод BeginEnumeration
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration
+                    - name: Delete - метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-delete
+                    - name: Метод EndEnumeration
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-endenumeration
+                    - name: Get - метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-get
+                    - name: Метод Names
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-getnames
+                    - name: Метод Next
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-next
+                    - name: Метод размещения
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemqualifierset-put
+            - name: ивбемкуери
+              href: /windows/desktop/api/Wmiutils/nn-wmiutils-iwbemquery
+              items:
+                - name: Методы Ивбемкуери
+                  href: iwbemquery-methods.md
+                  items:
+                    - name: Пустой метод
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbemquery-empty
+                    - name: Метод FreeMemory
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbemquery-freememory
+                    - name: Метод анализа
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbemquery-getanalysis
+                      items:
+                        - name: свбемассоккуеринф
+                          href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemassocqueryinf
+                          items:
+                            - name: WMIQ_ASSOCQ_FLAGS
+                              href: /windows/win32/api/WMIUtils/ne-wmiutils-wmiq_assocq_flags
+                        - name: свбемкуерикуалифиеднаме
+                          href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemqueryqualifiedname
+                        - name: свбемрпненкодедкуери
+                          href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemrpnencodedquery
+                        - name: свбемрпнконст
+                          href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemrpnquerytoken
+                        - name: свбемрпнкуеритокен
+                          href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemrpnquerytoken
+                          items:
+                            - name: WMIQ_RPN_TOKEN_FLAGS
+                              href: /windows/win32/api/WMIUtils/ne-wmiutils-wmiq_rpn_token_flags
+                        - name: WMIQ_ANALYSIS_TYPE
+                          href: /windows/win32/api/WMIUtils/ne-wmiutils-wmiq_analysis_type
+                    - name: 'Parse, метод'
+                      href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbemquery-parse
+            - name: ивбемрефрешер
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemrefresher
+              items:
+                - name: Методы Ивбемрефрешер
+                  href: iwbemrefresher-methods.md
+                  items:
+                    - name: Метод Refresh
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemrefresher-refresh
+            - name: IWbemServices
+              href: /windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices
+              items:
+                - name: Методы IWbemServices
+                  href: iwbemservices-methods.md
+                  items:
+                    - name: Метод Канцеласинккалл
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall
+                    - name: Метод Креатеклассенум
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createclassenum
+                    - name: Метод Креатеклассенумасинк
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createclassenumasync
+                    - name: Метод CreateInstanceEnum
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum
+                    - name: Метод Креатеинстанцеенумасинк
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync
+                    - name: Метод Делетекласс
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteclass
+                    - name: Метод Делетеклассасинк
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync
+                    - name: Метод DeleteInstance
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstance
+                    - name: Метод Делетеинстанцеасинк
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync
+                    - name: Метод ExecMethod
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod
+                    - name: Метод Ексекмесодасинк
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethodasync
+                    - name: Метод Ексекнотификатионкуери
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery
+                    - name: Метод ExecNotificationQueryAsync
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync
+                    - name: Метод ExecQuery
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execquery
+                    - name: Метод Ексеккуерясинк
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync
+                    - name: GetObject - метод
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject
+                    - name: Метод Жетобжектасинк
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync
+                    - name: Метод OpenNamespace
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-opennamespace
+                    - name: Метод Путкласс
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-putclass
+                    - name: Метод Путклассасинк
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-putclassasync
+                    - name: Метод PutInstance
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-putinstance
+                    - name: Метод Путинстанцеасинк
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync
+                    - name: Метод Куерйобжектсинк
+                      href: /windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-queryobjectsink
+            - name: ивбемшутдовн
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemshutdown
+              items:
+                - name: Методы Ивбемшутдовн
+                  href: iwbemshutdown-methods.md
+                  items:
+                    - name: Shutdown - метод
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemshutdown-shutdown
+            - name: ивбемстатускодетекст
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemstatuscodetext
+              items:
+                - name: Методы Ивбемстатускодетекст
+                  href: iwbemstatuscodetext-methods.md
+                  items:
+                    - name: Метод Жетерроркодетекст
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemstatuscodetext-geterrorcodetext
+                    - name: Метод ЖетфаЦилитикодетекст
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemstatuscodetext-getfacilitycodetext
+            - name: ивбемунбаундобжектсинк
+              href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemunboundobjectsink
+              items:
+                - name: Методы Ивбемунбаундобжектсинк
+                  href: iwbemunboundobjectsink-methods.md
+                  items:
+                    - name: Метод Индикатетоконсумер
+                      href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemunboundobjectsink-indicatetoconsumer
+            - name: ивбемунсекуредапартмент
+              href: /windows/desktop/api/Wbemcli/nn-wbemcli-iwbemunsecuredapartment
+              items:
+                - name: Методы Ивбемунсекуредапартмент
+                  href: iwbemunsecuredapartment-methods.md
+                  items:
+                    - name: Метод Креатесинкстуб
+                      href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub
+        - name: API сценариев для инструментария WMI
+          href: scripting-api-for-wmi.md
+          items:
+            - name: Объектная модель API сценариев
+              href: scripting-api-object-model.md
+            - name: Соглашения о документе для API скриптов
+              href: document-conventions-for-the-scripting-api.md
+            - name: Константы API скриптов
+              href: scripting-api-constants.md
+              items:
+                - name: вбемаусентикатионлевеленум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum
+                - name: вбемчанжефлаженум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemchangeflagenum
+                - name: вбемЦимтипинум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemcimtypeenum
+                - name: вбемкомпарисонфлаженум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemcomparisonflagenum
+                - name: вбемконнектоптионсенум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemconnectoptionsenum
+                - name: вбемерроренум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemerrorenum
+                - name: вбемфлаженум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemflagenum
+                - name: вбемимперсонатионлевеленум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemimpersonationlevelenum
+                - name: вбемобжекттекстформатенум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemobjecttextformatenum
+                - name: вбемпривилежеенум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum
+                - name: вбемкуерифлаженум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemqueryflagenum
+                - name: вбемтекстфлаженум
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemtextflagenum
+                - name: вбемтимеаут
+                  href: /windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemtimeout
+            - name: Создание скриптов для объектов API
+              href: scripting-api-objects.md
+              items:
+                - name: SWbemDateTime
+                  href: swbemdatetime.md
+                  items:
+                    - name: Методы SWbemDateTime
+                      href: swbemdatetime-methods.md
+                      items:
+                        - name: Метод функции getFileTime
+                          href: swbemdatetime-getfiletime.md
+                        - name: Метод GetVarDate
+                          href: swbemdatetime-getvardate.md
+                        - name: Метод Сетфилетиме
+                          href: swbemdatetime-setfiletime.md
+                        - name: Метод Сетвардате
+                          href: swbemdatetime-setvardate.md
+                    - name: Свойства SWbemDateTime
+                      href: swbemdatetime-properties.md
+                      items:
+                        - name: 'Day, свойство'
+                          href: swbemdatetime-day.md
+                        - name: 'ДайспеЦифиед, свойство'
+                          href: swbemdatetime-dayspecified.md
+                        - name: 'Hours, свойство'
+                          href: swbemdatetime-hours.md
+                        - name: 'ХаурсспеЦифиед, свойство'
+                          href: swbemdatetime-hoursspecified.md
+                        - name: Свойство "свойства интервала"
+                          href: swbemdatetime-isinterval.md
+                        - name: Свойство микросекунд
+                          href: swbemdatetime-microseconds.md
+                        - name: 'МикросекондсспеЦифиед, свойство'
+                          href: swbemdatetime-microsecondsspecified.md
+                        - name: 'Minutes, свойство'
+                          href: swbemdatetime-minutes.md
+                        - name: 'МинутесспеЦифиед, свойство'
+                          href: swbemdatetime-minutesspecified.md
+                        - name: Свойство month
+                          href: swbemdatetime-month.md
+                        - name: 'МонсспеЦифиед, свойство'
+                          href: swbemdatetime-monthspecified.md
+                        - name: Свойство секунд
+                          href: swbemdatetime-seconds.md
+                        - name: 'СекондсспеЦифиед, свойство'
+                          href: swbemdatetime-secondsspecified.md
+                        - name: Свойство UTC
+                          href: swbemdatetime-utc.md
+                        - name: 'УткспеЦифиед, свойство'
+                          href: swbemdatetime-utcspecified.md
+                        - name: Value - свойство
+                          href: swbemdatetime-value.md
+                        - name: Свойство Year
+                          href: swbemdatetime-year.md
+                        - name: 'ЕарспеЦифиед, свойство'
+                          href: swbemdatetime-yearspecified.md
+                - name: свбемевентсаурце
+                  href: swbemeventsource.md
+                  items:
+                    - name: Методы Свбемевентсаурце
+                      href: swbemeventsource-methods.md
+                      items:
+                        - name: Метод Некстевент
+                          href: swbemeventsource-nextevent.md
+                    - name: Свойства Свбемевентсаурце
+                      href: swbemeventsource-properties.md
+                      items:
+                        - name: 'Security_, свойство'
+                          href: swbemeventsource-security-.md
+                - name: свбемластеррор
+                  href: swbemlasterror.md
+                  items:
+                    - name: Методы Свбемластеррор
+                      href: swbemlasterror-methods.md
+                      items:
+                        - name: Метод Clone_
+                          href: swbemlasterror-clone-.md
+                        - name: Метод CompareTo_
+                          href: swbemlasterror-compareto-.md
+                        - name: Метод GetObjectText_
+                          href: swbemlasterror-getobjecttext-.md
+                    - name: Свойства Свбемластеррор
+                      href: swbemlasterror-properties.md
+                      items:
+                        - name: 'Path_, свойство'
+                          href: swbemlasterror-path-.md
+                        - name: 'Properties_, свойство'
+                          href: swbemlasterror-properties-.md
+                - name: SWbemLocator
+                  href: swbemlocator.md
+                  items:
+                    - name: Методы SWbemLocator
+                      href: swbemlocator-methods.md
+                      items:
+                        - name: Метод Коннектсервер
+                          href: swbemlocator-connectserver.md
+                    - name: Свойства SWbemLocator
+                      href: swbemlocator-properties.md
+                      items:
+                        - name: 'Security_, свойство'
+                          href: swbemlocator-security-.md
+                - name: свбеммесод
+                  href: swbemmethod.md
+                  items:
+                    - name: Свойства Свбеммесод
+                      href: swbemmethod-properties.md
+                      items:
+                        - name: Свойство "out"
+                          href: swbemmethod-inparameters.md
+                        - name: Name - свойство
+                          href: swbemmethod-name.md
+                        - name: Свойство Origin
+                          href: swbemmethod-origin.md
+                        - name: Свойства параметров
+                          href: swbemmethod-outparameters.md
+                        - name: 'Qualifiers_, свойство'
+                          href: swbemmethod-qualifiers-.md
+                - name: свбеммесодсет
+                  href: swbemmethodset.md
+                  items:
+                    - name: Методы Свбеммесодсет
+                      href: swbemmethodset-methods.md
+                      items:
+                        - name: Item - метод
+                          href: swbemmethodset-item.md
+                    - name: Свойства Свбеммесодсет
+                      href: swbemmethodset-properties.md
+                      items:
+                        - name: 'Count, свойство'
+                          href: swbemmethodset-count.md
+                - name: свбемнамедвалуе
+                  href: swbemnamedvalue.md
+                  items:
+                    - name: Свойства Свбемнамедвалуе
+                      href: swbemnamedvalue-properties.md
+                      items:
+                        - name: Name - свойство
+                          href: swbemnamedvalue-name.md
+                        - name: Value - свойство
+                          href: swbemnamedvalue-value.md
+                - name: свбемнамедвалуесет
+                  href: swbemnamedvalueset.md
+                  items:
+                    - name: Методы Свбемнамедвалуесет
+                      href: swbemnamedvalueset-methods.md
+                      items:
+                        - name: Add - метод
+                          href: swbemnamedvalueset-add.md
+                        - name: Clone - метод
+                          href: swbemnamedvalueset-clone.md
+                        - name: Метод DeleteAll
+                          href: swbemnamedvalueset-deleteall.md
+                        - name: Item - метод
+                          href: swbemnamedvalueset-item.md
+                        - name: Remove - метод
+                          href: swbemnamedvalueset-remove.md
+                    - name: Свойства Свбемнамедвалуесет
+                      href: swbemnamedvalueset-properties.md
+                      items:
+                        - name: 'Count, свойство'
+                          href: swbemnamedvalueset-count.md
+                - name: SWbemObject
+                  href: swbemobject.md
+                  items:
+                    - name: Методы SWbemObject
+                      href: swbemobject-methods.md
+                      items:
+                        - name: Метод Associators_
+                          href: swbemobject-associators-.md
+                        - name: Метод AssociatorsAsync_
+                          href: swbemobject-associatorsasync-.md
+                        - name: Метод Clone_
+                          href: swbemobject-clone-.md
+                        - name: Метод CompareTo_
+                          href: swbemobject-compareto-.md
+                        - name: Метод Delete_
+                          href: swbemobject-delete-.md
+                        - name: Метод DeleteAsync_
+                          href: swbemobject-deleteasync-.md
+                        - name: Метод ExecMethod_
+                          href: swbemobject-execmethod-.md
+                        - name: Метод ExecMethodAsync_
+                          href: swbemobject-execmethodasync-.md
+                        - name: Метод GetObjectText_
+                          href: swbemobject-getobjecttext-.md
+                        - name: Метод Instances_
+                          href: swbemobject-instances-.md
+                        - name: Метод InstancesAsync_
+                          href: swbemobject-instancesasync-.md
+                        - name: Метод Put_
+                          href: swbemobject-put-.md
+                        - name: Метод PutAsync_
+                          href: swbemobject-putasync-.md
+                        - name: Метод References_
+                          href: swbemobject-references-.md
+                        - name: Метод ReferencesAsync_
+                          href: swbemobject-referencesasync-.md
+                        - name: Метод SpawnDerivedClass_
+                          href: swbemobject-spawnderivedclass-.md
+                        - name: Метод SpawnInstance_
+                          href: swbemobject-spawninstance-.md
+                        - name: Метод Subclasses_
+                          href: swbemobject-subclasses-.md
+                        - name: Метод SubclassesAsync_
+                          href: swbemobject-subclassesasync-.md
+                    - name: Свойства SWbemObject
+                      href: swbemobject-properties.md
+                      items:
+                        - name: 'Derivation_, свойство'
+                          href: swbemobject-derivation-.md
+                        - name: 'Methods_, свойство'
+                          href: swbemobject-methods-.md
+                        - name: 'Path_, свойство'
+                          href: swbemobject-path-.md
+                        - name: 'Properties_, свойство'
+                          href: swbemobject-properties-.md
+                        - name: 'Qualifiers_, свойство'
+                          href: swbemobject-qualifiers-.md
+                        - name: 'Security_, свойство'
+                          href: swbemobject-security-.md
+                - name: свбемобжектекс
+                  href: swbemobjectex.md
+                  items:
+                    - name: Методы Свбемобжектекс
+                      href: swbemobjectex-methods.md
+                      items:
+                        - name: Метод GetText_
+                          href: swbemobjectex-gettext-.md
+                        - name: Метод Refresh_
+                          href: swbemobjectex-refresh-.md
+                    - name: Свойства Свбемобжектекс
+                      href: swbemobjectex-properties.md
+                      items:
+                        - name: 'SystemProperties_, свойство'
+                          href: swbemobjectex-systemproperties-.md
+                - name: свбемобжектпас
+                  href: swbemobjectpath.md
+                  items:
+                    - name: Методы Свбемобжектпас
+                      href: swbemobjectpath-methods.md
+                      items:
+                        - name: Метод Сетассинглетон
+                          href: swbemobjectpath-setassingleton.md
+                    - name: Свойства Свбемобжектпас
+                      href: swbemobjectpath-properties.md
+                      items:
+                        - name: Свойство Authority
+                          href: swbemobjectpath-authority.md
+                        - name: 'Класс, свойство'
+                          href: swbemobjectpath-class.md
+                        - name: 'DisplayName, свойство'
+                          href: swbemobjectpath-displayname.md
+                        - name: Свойство класса
+                          href: swbemobjectpath-isclass.md
+                        - name: Свойство Singleton
+                          href: swbemobjectpath-issingleton.md
+                        - name: Свойство Keys
+                          href: swbemobjectpath-keys.md
+                        - name: Свойство Locale
+                          href: swbemobjectpath-locale.md
+                        - name: 'Namespace, свойство'
+                          href: swbemobjectpath-namespace.md
+                        - name: 'Парентнамеспаце, свойство'
+                          href: swbemobjectpath-parentnamespace.md
+                        - name: Свойство Path
+                          href: swbemobjectpath-path.md
+                        - name: 'Релпас, свойство'
+                          href: swbemobjectpath-relpath.md
+                        - name: 'Security_, свойство'
+                          href: swbemobjectpath-security-.md
+                        - name: Свойство сервера
+                          href: swbemobjectpath-server.md
+                        - name: 'Сетаскласс, свойство'
+                          href: swbemobjectpath-setasclass.md
+                - name: SWbemObjectSet
+                  href: swbemobjectset.md
+                  items:
+                    - name: Методы SWbemObjectSet
+                      href: swbemobjectset-methods.md
+                      items:
+                        - name: Item - метод
+                          href: swbemobjectset-item.md
+                        - name: Метод Итеминдекс
+                          href: swbemobjectset-itemindex.md
+                    - name: Свойства SWbemObjectSet
+                      href: swbemobjectset-properties.md
+                      items:
+                        - name: 'Count, свойство'
+                          href: swbemobjectset-count.md
+                        - name: 'Security_, свойство'
+                          href: swbemobjectset-security-.md
+                - name: свбемпривилеже
+                  href: swbemprivilege.md
+                  items:
+                    - name: Свойства Свбемпривилеже
+                      href: swbemprivilege-properties.md
+                      items:
+                        - name: 'DisplayName, свойство'
+                          href: swbemprivilege-displayname.md
+                        - name: Свойство идентификатора
+                          href: swbemprivilege-identifier.md
+                        - name: 'Свойство, включенное'
+                          href: swbemprivilege-isenabled.md
+                        - name: Name - свойство
+                          href: swbemprivilege-name.md
+                - name: свбемпривилежесет
+                  href: swbemprivilegeset.md
+                  items:
+                    - name: Методы Свбемпривилежесет
+                      href: swbemprivilegeset-methods.md
+                      items:
+                        - name: Add - метод
+                          href: swbemprivilegeset-add.md
+                        - name: Метод Аддасстринг
+                          href: swbemprivilegeset-addasstring.md
+                        - name: Метод DeleteAll
+                          href: swbemprivilegeset-deleteall.md
+                        - name: Item - метод
+                          href: swbemprivilegeset-item.md
+                        - name: Remove - метод
+                          href: swbemprivilegeset-remove.md
+                    - name: Свойства Свбемпривилежесет
+                      href: swbemprivilegeset-properties.md
+                      items:
+                        - name: 'Count, свойство'
+                          href: swbemprivilegeset-count.md
+                - name: SWbemProperty
+                  href: swbemproperty.md
+                  items:
+                    - name: Свойства SWbemProperty
+                      href: swbemproperty-properties.md
+                      items:
+                        - name: 'Цимтипе, свойство'
+                          href: swbemproperty-cimtype.md
+                        - name: Свойство IsArray
+                          href: swbemproperty-isarray.md
+                        - name: Свойство "Local"
+                          href: swbemproperty-islocal.md
+                        - name: Name - свойство
+                          href: swbemproperty-name.md
+                        - name: Свойство Origin
+                          href: swbemproperty-origin.md
+                        - name: 'Qualifiers_, свойство'
+                          href: swbemproperty-qualifiers-.md
+                        - name: Value - свойство
+                          href: swbemproperty-value.md
+                - name: SWbemPropertySet
+                  href: swbempropertyset.md
+                  items:
+                    - name: Методы SWbemPropertySet
+                      href: swbempropertyset-methods.md
+                      items:
+                        - name: Add - метод
+                          href: swbempropertyset-add.md
+                        - name: Item - метод
+                          href: swbempropertyset-item.md
+                        - name: Remove - метод
+                          href: swbempropertyset-remove.md
+                    - name: Свойства SWbemPropertySet
+                      href: swbempropertyset-properties.md
+                      items:
+                        - name: 'Count, свойство'
+                          href: swbempropertyset-count.md
+                - name: свбемкуалифиер
+                  href: swbemqualifier.md
+                  items:
+                    - name: Свойства Свбемкуалифиер
+                      href: swbemqualifier-properties.md
+                      items:
+                        - name: Свойство с уточнением
+                          href: swbemqualifier-isamended.md
+                        - name: Свойство "Local"
+                          href: swbemqualifier-islocal.md
+                        - name: 'Пропагатестоинстанце, свойство'
+                          href: swbemqualifier-propagatestoinstance.md
+                        - name: 'Пропагатестосубкласс, свойство'
+                          href: swbemqualifier-propagatestosubclass.md
+                        - name: Value - свойство
+                          href: swbemqualifier-value.md
+                        - name: Name - свойство
+                          href: swbemqualifier-name.md
+                        - name: Свойство Overridable
+                          href: swbemqualifier-isoverridable.md
+                - name: свбемкуалифиерсет
+                  href: swbemqualifierset.md
+                  items:
+                    - name: Методы Свбемкуалифиерсет
+                      href: swbemqualifierset-methods.md
+                      items:
+                        - name: Add - метод
+                          href: swbemqualifierset-add.md
+                        - name: Item - метод
+                          href: swbemqualifierset-item.md
+                        - name: Remove - метод
+                          href: swbemqualifierset-remove.md
+                    - name: Свойства Свбемкуалифиерсет
+                      href: swbemqualifierset-properties.md
+                      items:
+                        - name: 'Count, свойство'
+                          href: swbemqualifierset-count.md
+                - name: свбемрефрешаблеитем
+                  href: swbemrefreshableitem.md
+                  items:
+                    - name: Методы Свбемрефрешаблеитем
+                      href: swbemrefreshableitem-methods.md
+                      items:
+                        - name: Remove - метод
+                          href: swbemrefreshableitem-remove.md
+                    - name: Свойства Свбемрефрешаблеитем
+                      href: swbemrefreshableitem-properties.md
+                      items:
+                        - name: Index - свойство
+                          href: swbemrefreshableitem-index.md
+                        - name: 'Иссет, свойство'
+                          href: swbemrefreshableitem-isset.md
+                        - name: Свойство объекта
+                          href: swbemrefreshableitem-object.md
+                        - name: Свойство objecting
+                          href: swbemrefreshableitem-objectset.md
+                        - name: Свойство "Обновитель"
+                          href: swbemrefreshableitem-refresher.md
+                - name: свбемрефрешер
+                  href: swbemrefresher.md
+                  items:
+                    - name: Методы Свбемрефрешер
+                      href: swbemrefresher-methods.md
+                      items:
+                        - name: Add - метод
+                          href: swbemrefresher-add.md
+                        - name: Метод Адденум
+                          href: swbemrefresher-addenum.md
+                        - name: Метод DeleteAll
+                          href: swbemrefresher-deleteall.md
+                        - name: Item - метод
+                          href: swbemrefresher-item.md
+                        - name: Метод Refresh
+                          href: swbemrefresher-refresh.md
+                        - name: Remove - метод
+                          href: swbemrefresher-remove.md
+                    - name: Свойства Свбемрефрешер
+                      href: swbemrefresher-properties.md
+                      items:
+                        - name: 'Аутореконнект, свойство'
+                          href: swbemrefresher-autoreconnect.md
+                        - name: 'Count, свойство'
+                          href: swbemrefresher-count.md
+                - name: свбемсекурити
+                  href: swbemsecurity.md
+                  items:
+                    - name: Свойства Свбемсекурити
+                      href: swbemsecurity-properties.md
+                      items:
+                        - name: 'Аусентикатионлевел, свойство'
+                          href: swbemsecurity-authenticationlevel.md
+                        - name: 'Имперсонатионлевел, свойство'
+                          href: swbemsecurity-impersonationlevel.md
+                        - name: Свойство Privileges
+                          href: swbemsecurity-privileges.md
+                - name: SWbemServices
+                  href: swbemservices.md
+                  items:
+                    - name: Методы SWbemServices
+                      href: swbemservices-methods.md
+                      items:
+                        - name: Метод АссоЦиаторсоф
+                          href: swbemservices-associatorsof.md
+                        - name: Метод АссоЦиаторсофасинк
+                          href: swbemservices-associatorsofasync.md
+                        - name: Delete - метод
+                          href: swbemservices-delete.md
+                        - name: Метод DeleteAsync
+                          href: swbemservices-deleteasync.md
+                        - name: Метод ExecMethod
+                          href: swbemservices-execmethod.md
+                        - name: Метод Ексекмесодасинк
+                          href: swbemservices-execmethodasync.md
+                        - name: Метод Ексекнотификатионкуери
+                          href: swbemservices-execnotificationquery.md
+                        - name: Метод ExecNotificationQueryAsync
+                          href: swbemservices-execnotificationqueryasync.md
+                        - name: Метод ExecQuery
+                          href: swbemservices-execquery.md
+                        - name: Метод Ексеккуерясинк
+                          href: swbemservices-execqueryasync.md
+                        - name: Get - метод
+                          href: swbemservices-get.md
+                        - name: Метод async
+                          href: swbemservices-getasync.md
+                        - name: Метод Инстанцесоф
+                          href: swbemservices-instancesof.md
+                        - name: Метод Инстанцесофасинк
+                          href: swbemservices-instancesofasync.md
+                        - name: Метод Референцесто
+                          href: swbemservices-referencesto.md
+                        - name: Метод Референцестоасинк
+                          href: swbemservices-referencestoasync.md
+                        - name: Метод Субклассесоф
+                          href: swbemservices-subclassesof.md
+                        - name: Метод Субклассесофасинк
+                          href: swbemservices-subclassesofasync.md
+                    - name: Свойства SWbemServices
+                      href: swbemservices-properties.md
+                      items:
+                        - name: 'Security_, свойство'
+                          href: swbemservices-security-.md
+                - name: свбемсервицесекс
+                  href: swbemservicesex.md
+                  items:
+                    - name: Методы Свбемсервицесекс
+                      href: swbemservicesex-methods.md
+                      items:
+                        - name: Метод размещения
+                          href: swbemservicesex-put.md
+                        - name: Метод Путасинк
+                          href: swbemservicesex-putasync.md
+                - name: свбемсинк
+                  href: swbemsink.md
+                  items:
+                    - name: События Свбемсинк
+                      href: swbemsink-events.md
+                      items:
+                        - name: Oncompleteное событие
+                          href: swbemsink-oncompleted.md
+                        - name: Событие Онобжектпут
+                          href: swbemsink-onobjectput.md
+                        - name: Событие Онобжектреади
+                          href: swbemsink-onobjectready.md
+                        - name: Событие OnProgress
+                          href: swbemsink-onprogress.md
+                    - name: Методы Свбемсинк
+                      href: swbemsink-methods.md
+                      items:
+                        - name: Метод Cancel
+                          href: swbemsink-cancel.md
+        - name: WMI и SNMP
+          href: snmp-provider.md
+          items:
+            - name: Макрос типа уведомления
+              href: notification-type-macro.md
+              items:
+                - name: Предложение OBJECTs
+                  href: objects-clause.md
+                - name: снмпекстендеднотификатион
+                  href: snmpextendednotification.md
+                - name: снмпнотификатион
+                  href: snmpnotification.md
+            - name: Макрос типа OBJECT-TYPE
+              href: object-type-macro.md
+              items:
+                - name: Свойства системы CIM для объектов MIB
+                  href: cim-system-properties-for-mib-objects.md
+                - name: Квалификаторы класса CIM для объектов MIB
+                  href: cim-class-qualifiers-for-mib-objects.md
+                - name: Квалификаторы свойств CIM для объектов MIB
+                  href: cim-property-qualifiers-for-mib-objects.md
+                - name: Коллекции SNMP
+                  href: snmp-collections.md
+                - name: Предложение СИНТАКСИСа
+                  href: syntax-clause.md
+                - name: Предложение INDEX
+                  href: index-clause.md
+                - name: Предложения доступа и MAX-ACCESS
+                  href: access-and-max-access-clauses.md
+            - name: Макрос ТЕКСТОВОГО соглашения
+              href: textual-convention-macro.md
+            - name: Макрос типа ЛОВУШКи
+              href: trap-type-macro.md
+            - name: События SNMP
+              href: snmp-events.md
+            - name: Сообщения об ошибках компилятора SNMP
+              href: snmp-compiler-error-messages.md
+              items:
+                - name: Ошибки с 101 по 110
+                  href: errors-101-through-110.md
+                - name: Ошибки с 201 по 210
+                  href: errors-201-through-210.md
+                - name: Ошибки с 211 по 220
+                  href: errors-211-through-220.md
+                - name: Ошибки с 221 по 230
+                  href: errors-221-through-230.md
+                - name: Ошибки с 231 по 240
+                  href: errors-231-through-240.md
+                - name: Ошибки с 281 по 290
+                  href: errors-281-through-290.md
+                - name: Ошибки с 1001 по 1010
+                  href: errors-1001-through-1010.md
+                - name: Ошибки с 1011 по 1020
+                  href: errors-1011-through-1020.md
+                - name: Ошибки с 1021 по 1030
+                  href: errors-1021-through-1030.md
+                - name: Ошибки с 1031 по 1040
+                  href: errors-1031-through-1040.md
+                - name: Ошибки с 1041 по 1050
+                  href: errors-1041-through-1050.md
+                - name: Ошибки с 1051 по 1060
+                  href: errors-1051-through-1060.md
+                - name: Ошибки с 1061 по 1070
+                  href: errors-1061-through-1070.md
+                - name: Ошибки с 1071 по 1080
+                  href: errors-1071-through-1080.md
+                - name: Ошибки с 1081 по 1090
+                  href: errors-1081-through-1090.md
+                - name: Ошибки с 1091 по 1100
+                  href: errors-1091-through-1100.md
+                - name: Ошибки с 1101 по 1110
+                  href: errors-1101-through-1110.md
+                - name: Ошибки с 1451 по 1460
+                  href: errors-1451-through-1460.md
+                - name: Ошибки с 1501 по 1510
+                  href: errors-1501-through-1510.md
+            - name: Общие информационные сообщения
+              href: general-information-messages.md
+        - name: WMI и SQL
+          href: wmi-and-sql.md
+          items:
+            - name: WQL (SQL WMI)
+              href: wql-sql-for-wmi.md
+              items:
+                - name: СОЕДИНИТЕЛи оператора
+                  href: associators-of-statement.md
+                - name: Идентификатор __CLASS
+                  href: '--class-identifier.md'
+                - name: 'Group, предложение'
+                  href: group-clause.md
+                - name: 'HAVING, предложение'
+                  href: having-clause.md
+                - name: ССЫЛКИ на оператор
+                  href: references-of-statement.md
+                - name: ГДЕ предложения
+                  href: where-clause.md
+                  items:
+                    - name: WQL-Supported форматы даты
+                      href: wql-supported-date-formats.md
+                    - name: WQL-Supported форматы времени
+                      href: wql-supported-time-formats.md
+                - name: ВНУТРИ предложения
+                  href: within-clause.md
+                - name: Операторы WQL
+                  href: wql-operators.md
+                  items:
+                    - name: Оператор LIKE
+                      href: like-operator.md
+        - name: Файлы журналов WMI
+          href: wmi-log-files.md
+          items:
+            - name: Файлы журналов поставщика WMI
+              href: wmi-provider-log-files.md
+        - name: Средства командной строки WMI
+          href: wmi-command-line-tools.md
+          items:
+            - name: mofcomp
+              href: mofcomp.md
+            - name: smi2smir
+              href: smi2smir.md
+            - name: инициирует
+              href: winmgmt.md
+            - name: wmiadap
+              href: wmiadap.md
+            - name: wmic
+              href: wmic.md
+        - name: Объекты и значения инфраструктуры WMI
+          href: wmi-infrastructure-objects-and-values.md
+          items:
+            - name: Типы данных WMI
+              href: wmi-data-types.md
+            - name: Перечисления WMI
+              href: wmi-enumerations.md
+              items:
+                - name: CIMTYPE_ENUMERATION
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-cimtype_enumeration
+                - name: WBEM_BACKUP_RESTORE_FLAGS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_backup_restore_flags
+                - name: WBEM_CHANGE_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_change_flag_type
+                - name: WBEM_COMPARISON_FLAG
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_comparison_flag
+                - name: WBEM_COMPILE_STATUS_INFO
+                  href: /windows/win32/api/Wbemcli/ns-wbemcli-wbem_compile_status_info
+                - name: WBEM_COMPILER_OPTIONS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_compiler_options
+                - name: WBEM_CONDITION_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_condition_flag_type
+                - name: WBEM_CONNECT_OPTIONS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_connect_options
+                - name: WBEM_FLAVOR_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_flavor_type
+                - name: WBEM_GENERIC_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_generic_flag_type
+                - name: WBEM_GENUS_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_genus_type
+                - name: WBEM_LIMITS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_limits
+                - name: WBEM_QUERY_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_query_flag_type
+                - name: WBEM_REFRESHER_FLAGS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_refresher_flags
+                - name: WBEM_SECURITY_FLAGS
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_security_flags
+                - name: WBEM_STATUS_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_status_type
+                - name: WBEM_TEXT_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_text_flag_type
+                - name: WBEM_TIMEOUT_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_timeout_type
+                - name: WBEM_UNSECAPP_FLAG_TYPE
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_unsecapp_flag_type
+                - name: вбемстатус
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wbemstatus
+                - name: WMI_OBJ_TEXT
+                  href: /windows/win32/api/Wbemcli/ne-wbemcli-wmi_obj_text
+            - name: Типы данных MOF
+              href: mof-data-types.md
+              items:
+                - name: Квалификаторы BitMap и Битвалуе
+                  href: bitmap-and-bitvalues.md
+                - name: Логическое
+                  href: boolean.md
+                - name: DATETIME
+                  href: datetime.md
+                - name: Массивы MOF
+                  href: mof-arrays.md
+                - name: С помощью чисел
+                  href: numbers.md
+                - name: OBJECT
+                  href: object.md
+                - name: Ссылки
+                  href: references.md
+                - name: Строки
+                  href: strings.md
+                - name: Квалификаторы ValueMap и value
+                  href: value-map.md
+                - name: VOID
+                  href: void.md
+                - name: Команды препроцессора
+                  href: preprocessor-commands.md
+                  items:
+                    - name: '#include'
+                      href: '-include.md'
+                    - name: '#pragma'
+                      href: '-pragma.md'
+                      items:
+                        - name: поправка директивы pragma
+                          href: pragma-amendment.md
+                        - name: Директива pragma автовосстановления
+                          href: pragma-autorecover.md
+                        - name: pragma классфлагс
+                          href: pragma-classflags.md
+                        - name: pragma делетекласс
+                          href: pragma-deleteclass.md
+                        - name: pragma DeleteInstance
+                          href: pragma-deleteinstance.md
+                        - name: pragma инстанцефлагс
+                          href: pragma-instanceflags.md
+                        - name: пространство имен pragma
+                          href: pragma-namespace.md
+            - name: События WMI
+              href: wmi-events.md
+              items:
+                - name: Сообщения о событиях WMI
+                  href: wmi-event-messages.md
+            - name: Типы счетчиков производительности WMI
+              href: wmi-performance-counter-types.md
+              items:
+                - name: Базовые типы счетчиков
+                  href: base-counter-types.md
+                - name: Типы счетчиков базового алгоритма
+                  href: basic-algorithm-counter-types.md
+                - name: Типы счетчиков алгоритмов счетчиков
+                  href: counter-algorithm-counter-types.md
+                - name: Невычислительные типы счетчиков
+                  href: noncomputational-counter-types.md
+                - name: Типы счетчиков для алгоритма таймера точности
+                  href: precision-timer-algorithm-counter-types.md
+                - name: Типы счетчиков алгоритма длины очереди
+                  href: queue-length-algorithm-counter-types.md
+                - name: Типы статистических счетчиков
+                  href: statistical-counter-types.md
+                  items:
+                    - name: COOKER_AVERAGE
+                      href: cooker-average.md
+                    - name: COOKER_MAX
+                      href: cooker-max.md
+                    - name: COOKER_MIN
+                      href: cooker-min.md
+                    - name: COOKER_RANGE
+                      href: cooker-range.md
+                    - name: COOKER_VARIANCE
+                      href: cooker-variance.md
+                - name: Типы счетчиков алгоритмов таймера
+                  href: timer-algorithm-counter-types.md
+            - name: Квалификаторы WMI
+              href: wmi-qualifiers.md
+              items:
+                - name: Квалификаторы Meta
+                  href: meta-qualifiers.md
+                - name: Необязательные квалификаторы
+                  href: optional-qualifiers.md
+                - name: Разновидности квалификаторов
+                  href: qualifier-flavors.md
+                - name: Стандартные квалификаторы
+                  href: standard-qualifiers.md
+                  items:
+                    - name: Квалификатор ключа
+                      href: key-qualifier.md
+                - name: Квалификаторы WMI-Specific
+                  href: wmi-specific-qualifiers.md
+                  items:
+                    - name: Стандартные квалификаторы WMI
+                      href: standard-wmi-qualifiers.md
+                      items:
+                        - name: Квалификатор Цимтипе
+                          href: cimtype-qualifier.md
+                        - name: Динамический квалификатор
+                          href: dynamic-qualifier.md
+                    - name: 'Квалификаторы, характерные для поставщика SNMP'
+                      href: qualifiers-specific-to-the-snmp-provider.md
+                    - name: 'Квалификаторы, относящиеся к поставщику представления'
+                      href: qualifiers-specific-to-the-view-provider.md
+                      items:
+                        - name: Квалификатор Постжоинфилтер
+                          href: postjoinfilter-qualifier.md
+                        - name: Квалификатор Пропертисаурцес
+                          href: propertysources-qualifier.md
+                        - name: Квалификатор Виевсаурцес
+                          href: viewsources-qualifier.md
+                        - name: Квалификатор Виевспацес
+                          href: viewspaces-qualifier.md
+                    - name: 'Квалификаторы, относящиеся к поставщику WDM'
+                      href: qualifiers-specific-to-the-wdm-provider.md
+                    - name: 'Квалификаторы, относящиеся к классам производительности WMI'
+                      href: qualifiers-specific-to-wmi-performance-classes.md
+                      items:
+                        - name: Квалификаторы классов для классов счетчиков производительности
+                          href: class-qualifiers-for-performance-counter-classes.md
+                        - name: Квалификатор CounterType
+                          href: countertype-qualifier.md
+                        - name: Квалификатор Перфдетаил
+                          href: perfdetail-qualifier.md
+                        - name: Квалификаторы свойств для классов счетчиков производительности
+                          href: property-qualifiers-for-performance-counter-classes.md
+            - name: Коды возврата WMI
+              href: wmi-return-codes.md
+              items:
+                - name: Константы ошибок WMI
+                  href: wmi-error-constants.md
+                - name: 'Константы WMI, отличные от ошибок'
+                  href: wmi-non-error-constants.md
+            - name: Безопасность WMI
+              href: wmi-security.md
+              items:
+                - name: Константы безопасности WMI
+                  href: wmi-security-constants.md
+                  items:
+                    - name: Константы безопасности событий
+                      href: event-security-constants.md
+                    - name: Константы прав доступа к файлам и каталогам
+                      href: file-and-directory-access-rights-constants.md
+                    - name: Константы прав доступа к пространству имен
+                      href: namespace-access-rights-constants.md
+                    - name: Константы флагов пространства имен ACE
+                      href: namespace-ace-flag-constants.md
+                    - name: Константы типа ACE пространства имен
+                      href: namespace-ace-type-constants.md
+                    - name: Константы прав доступа
+                      href: privilege-constants.md
+                - name: Объекты дескрипторов безопасности WMI
+                  href: wmi-security-descriptor-objects.md
+            - name: Свойства системы WMI
+              href: wmi-system-properties.md
+        - name: Управляемый Справочник по классам команд WMI Windows PowerShell
+          href: managed-reference-for-wmi-powershell-command-classes.md
+    - name: Глоссарий инструментария WMI
+      href: wmi-glossary.md
+      items:
+        - name: Объект
+          href: gloss-a.md
+        - name: C
+          href: gloss-c.md
+        - name: D
+          href: gloss-d.md
+        - name: E
+          href: gloss-e.md
+        - name: C
+          href: gloss-f.md
+        - name: H
+          href: gloss-h.md
+        - name: I
+          href: gloss-i.md
+        - name: K
+          href: gloss-k.md
+        - name: L
+          href: gloss-l.md
+        - name: M
+          href: gloss-m.md
+        - name: Нет
+          href: gloss-n.md
+        - name: O
+          href: gloss-o.md
+        - name: P
+          href: gloss-p.md
+        - name: Q
+          href: gloss-q.md
+        - name: R
+          href: gloss-r.md
+        - name: S
+          href: gloss-s.md
+        - name: T
+          href: gloss-t.md
+        - name: W
+          href: gloss-w.md
+    - name: Управляемый API инфраструктуры управления
+      items:
+        - name: 'CimInstance. СетЦимсессионкомпутернаме, метод'
+          href: mi-managed-api\microsoft.management.infrastructure.ciminstance.setcimsessioncomputername.md
+        - name: Класс Циммофдесериализер
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.md
+        - name: Метод Циммофдесериализер. Create ()
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.create.md
+        - name: 'Циммофдесериализер. Create, метод (String, UInt32)'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.create_string_uint.md
+        - name: 'Циммофдесериализер. Десериализеклассес, метод (Byte [], UInt32)'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint.md
+        - name: 'Циммофдесериализер. Десериализеклассес, метод (Byte [], UInt32, IEnumerable (Цимкласс))'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass.md
+        - name: 'Метод Циммофдесериализер. Десериализеклассес (Byte [], UInt32, IEnumerable (Цимкласс), Онкласснидед, Жетинклудедфилеконтент)'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass2.md
+        - name: 'Метод Циммофдесериализер. Десериализеклассес (Byte [], UInt32, IEnumerable (Цимкласс), строка, строка, Онкласснидед, Жетинклудедфилеконтент)'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass3.md
+        - name: 'Циммофдесериализер. Десериализеинстанцес, метод (Byte [], UInt32)'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint.md
+        - name: 'Циммофдесериализер. Десериализеинстанцес, метод (Byte [], UInt32, Онкласснидед, Жетинклудедфилеконтент)'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint2.md
+        - name: 'Метод Циммофдесериализер. Десериализеинстанцес (Byte [], UInt32, IEnumerable (Цимкласс), Онкласснидед, Жетинклудедфилеконтент)'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint3.md
+        - name: 'Циммофдесериализер. Счемавалидатионоптион, свойство'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.schemavalidationoption.md
+        - name: 'Циммофдесериализер. Жетинклудедфилеконтент, делегат'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.getincludedfilecontent.md
+        - name: 'Циммофдесериализер. Онкласснидед, делегат'
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.onclassneeded.md
+        - name: Перечисление Мофдесериализерсчемавалидатионоптион
+          href: mi-managed-api\microsoft.management.infrastructure.serialization.mofdeserializerschemavalidationoption.md

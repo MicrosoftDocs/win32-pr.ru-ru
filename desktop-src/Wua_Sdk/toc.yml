@@ -1,0 +1,1253 @@
+- name: API агента Центр обновления Windows
+  href: portal-client.md
+  items:
+    - name: Использование API агента Центр обновления Windows
+      href: using-the-windows-update-agent-api.md
+      items:
+        - name: Объектная модель агента Центр обновления Windows
+          href: windows-update-agent-object-model.md
+        - name: Определение текущей версии WUA
+          href: determining-the-current-version-of-wua.md
+        - name: Обновление агента Центр обновления Windows
+          href: updating-the-windows-update-agent.md
+        - name: Обновление файлов заголовков агента Центр обновления Windows
+          href: updating-windows-update-agent-header-files.md
+        - name: Использование агента WUA для проверки наличия обновлений в автономном режиме
+          href: using-wua-to-scan-for-updates-offline.md
+        - name: Защищенные методы и свойства в API WUA
+          href: secured-methods-and-properties-in-the-wua-api.md
+        - name: 'Поиск, скачивание и установка обновлений'
+          href: searching--downloading--and-installing-updates.md
+        - name: 'Поиск, скачивание и установка конкретных обновлений'
+          href: searching--downloading--and-installing-specific-updates.md
+        - name: Opt-In Центр обновления Майкрософт
+          href: opt-in-to-microsoft-update.md
+        - name: Использование агента WUA с удаленного компьютера
+          href: using-wua-from-a-remote-computer.md
+        - name: Рекомендации по асинхронным операциям WUA
+          href: guidelines-for-asynchronous-wua-operations.md
+        - name: Использование агента WUA из процесса вторичного входа в систему (Запуск от имени)
+          href: using-wua-from-a-secondary-logon--run-as--process.md
+        - name: Коды успешности и ошибок WUA
+          href: wua-success-and-error-codes-.md
+        - name: Коды ошибок сети WUA
+          href: wua-networking-error-codes-.md
+    - name: Другие источники сведений об агенте Центр обновления Windows
+      href: other-sources-of-windows-update-agent-information.md
+    - name: Справочник по API агента Центр обновления Windows (WUA)
+      href: windows-update-agent--wua--api-reference.md
+      items:
+        - name: Перечисления
+          href: enumerations.md
+          items:
+            - name: аддсервицефлаг
+              href: /windows/win32/api/Wuapi/ne-wuapi-addserviceflag
+            - name: аутодовнлоадмоде
+              href: /windows/win32/api/Wuapi/ne-wuapi-autodownloadmode
+            - name: аутоматикупдатеснотификатионлевел
+              href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatesnotificationlevel
+            - name: аутоматикупдатеспермиссионтипе
+              href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatespermissiontype
+            - name: аутоматикупдатессчедулединсталлатиондай
+              href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatesscheduledinstallationday
+            - name: аутоматикупдатесусертипе
+              href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatesusertype
+            - name: аутоселектионмоде
+              href: /windows/win32/api/Wuapi/ne-wuapi-autoselectionmode
+            - name: деплойментактион
+              href: /windows/win32/api/Wuapi/ne-wuapi-deploymentaction
+            - name: довнлоадфасе
+              href: /windows/win32/api/Wuapi/ne-wuapi-downloadphase
+            - name: довнлоадприорити
+              href: /windows/win32/api/Wuapi/ne-wuapi-downloadpriority
+            - name: инсталлатионимпакт
+              href: /windows/win32/api/Wuapi/ne-wuapi-installationimpact
+            - name: инсталлатионребутбехавиор
+              href: /windows/win32/api/Wuapi/ne-wuapi-installationrebootbehavior
+            - name: оператионресулткоде
+              href: /windows/win32/api/Wuapi/ne-wuapi-operationresultcode
+            - name: SearchScope
+              href: /windows/win32/api/Wuapi/ne-wuapi-searchscope
+            - name: ServerSelection
+              href: /windows/win32/api/wuapicommon/ne-wuapicommon-serverselection
+            - name: упдатиндпоинтаустокентипе
+              href: updateendpointauthtokentype.md
+            - name: упдатиндпоинттипе
+              href: updateendpointtype.md
+            - name: упдатиксцептионконтекст
+              href: /windows/win32/api/Wuapi/ne-wuapi-updateexceptioncontext
+            - name: упдателоккдовноптион
+              href: /windows/win32/api/Wuapi/ne-wuapi-updatelockdownoption
+            - name: Символьным
+              href: /windows/win32/api/Wuapi/ne-wuapi-updateoperation
+            - name: упдатесервицеоптион
+              href: /windows/win32/api/Wuapi/ne-wuapi-updateserviceoption
+            - name: упдатесервицерегистратионстате
+              href: /windows/win32/api/Wuapi/ne-wuapi-updateserviceregistrationstate
+            - name: UpdateType
+              href: /windows/win32/api/Wuapi/ne-wuapi-updatetype
+        - name: Интерфейсы
+          href: interfaces.md
+          items:
+            - name: иаутоматикупдатес
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdates
+              items:
+                - name: Методы Иаутоматикупдатес
+                  href: iautomaticupdates-methods.md
+                  items:
+                    - name: Метод Детектнов
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-detectnow
+                    - name: Метод Енаблесервице
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-enableservice
+                    - name: Приостановить метод
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-pause
+                    - name: Метод Resume
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-resume
+                    - name: Метод Шовсеттингсдиалог
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-showsettingsdialog
+                - name: Свойства Иаутоматикупдатес
+                  href: iautomaticupdates-properties.md
+                  items:
+                    - name: 'Сервицеенаблед, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_serviceenabled
+                    - name: Свойства параметров
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_settings
+            - name: IAutomaticUpdates2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdates2
+              items:
+                - name: Методы IAutomaticUpdates2
+                  href: iautomaticupdates2-methods.md
+                  items:
+                    - name: Метод Results
+                      href: /previous-versions/windows/desktop/bb513699(v=vs.85)
+            - name: иаутоматикупдатесресултс
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatesresults
+              items:
+                - name: Свойства Иаутоматикупдатесресултс
+                  href: iautomaticupdatesresults-properties.md
+                  items:
+                    - name: 'Ластинсталлатионсукцессдате, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatesresults-get_lastinstallationsuccessdate
+                    - name: 'Ластсеарчсукцессдате, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatesresults-get_lastsearchsuccessdate
+            - name: иаутоматикупдатессеттингс
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatessettings
+              items:
+                - name: Методы Иаутоматикупдатессеттингс
+                  href: iautomaticupdatessettings-methods.md
+                  items:
+                    - name: Метод Refresh
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-refresh
+                    - name: Метод Save
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-save
+                - name: Свойства Иаутоматикупдатессеттингс
+                  href: iautomaticupdatessettings-properties.md
+                  items:
+                    - name: 'Нотификатионлевел, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel
+                    - name: 'ReadOnly, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-get_readonly
+                    - name: Обязательное свойство
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-get_required
+                    - name: 'Счедулединсталлатиондай, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationday
+                    - name: 'Счедулединсталлатионтиме, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationtime
+            - name: IAutomaticUpdatesSettings2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatessettings2
+              items:
+                - name: Методы IAutomaticUpdatesSettings2
+                  href: iautomaticupdatessettings2-methods.md
+                  items:
+                    - name: Метод Чеккпермиссион
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings2-checkpermission
+                - name: Свойства IAutomaticUpdatesSettings2
+                  href: iautomaticupdatessettings2-properties.md
+                  items:
+                    - name: 'Инклудерекоммендедупдатес, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings2-get_includerecommendedupdates
+            - name: IAutomaticUpdatesSettings3
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatessettings3
+              items:
+                - name: Свойства IAutomaticUpdatesSettings3
+                  href: iautomaticupdatessettings3-properties.md
+                  items:
+                    - name: 'Феатуредупдатесенаблед, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled
+                    - name: 'Нонадминистраторселеватед, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdatessettings3-get_nonadministratorselevated
+            - name: икатегори
+              href: /windows/desktop/api/Wuapi/nn-wuapi-icategory
+              items:
+                - name: Свойства Икатегори
+                  href: icategory-properties.md
+                  items:
+                    - name: 'КодТипа, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_categoryid
+                    - name: Свойство Children
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_children
+                    - name: Свойство Description
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_description
+                    - name: Свойство Image
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_image
+                    - name: Свойство Name
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_name
+                    - name: 'Order, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_order
+                    - name: Родительское свойство
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_parent
+                    - name: Свойство Type
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_type
+                    - name: 'Updates, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategory-get_updates
+            - name: икатегориколлектион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-icategorycollection
+              items:
+                - name: Свойства Икатегориколлектион
+                  href: icategorycollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategorycollection-get__newenum
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategorycollection-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-icategorycollection-get_item
+            - name: идовнлоадкомплетедкаллбакк
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadcompletedcallback
+              items:
+                - name: Методы Идовнлоадкомплетедкаллбакк
+                  href: idownloadcompletedcallback-methods.md
+                  items:
+                    - name: 'Invoke, метод'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadcompletedcallback-invoke
+            - name: идовнлоадкомплетедкаллбаккаргс
+              href: /previous-versions/windows/desktop/aa385859(v=vs.85)
+            - name: идовнлоаджоб
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadjob
+              items:
+                - name: Методы Идовнлоаджоб
+                  href: idownloadjob-methods.md
+                  items:
+                    - name: Метод CleanUp
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-cleanup
+                    - name: Метод Progress
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-getprogress
+                    - name: Метод Рекуестаборт
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-requestabort
+                - name: Свойства Идовнлоаджоб
+                  href: idownloadjob-properties.md
+                  items:
+                    - name: 'AsyncState, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-get_asyncstate
+                    - name: Свойство "AutoComplete"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-get_iscompleted
+                    - name: 'Updates, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-get_updates
+            - name: идовнлоадпрогресс
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadprogress
+              items:
+                - name: Методы Идовнлоадпрогресс
+                  href: idownloadprogress-methods.md
+                  items:
+                    - name: Метод Жетупдатересулт
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-getupdateresult
+                - name: Свойства Идовнлоадпрогресс
+                  href: idownloadprogress-properties.md
+                  items:
+                    - name: 'Куррентупдатебитесдовнлоадед, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_currentupdatebytesdownloaded
+                    - name: 'Куррентупдатебитестодовнлоад, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_currentupdatebytestodownload
+                    - name: 'Куррентупдатедовнлоадфасе, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_currentupdatedownloadphase
+                    - name: 'Куррентупдатеиндекс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_currentupdateindex
+                    - name: 'Куррентупдатеперценткомплете, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_currentupdatepercentcomplete
+                    - name: 'PercentComplete, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_percentcomplete
+                    - name: 'Тоталбитесдовнлоадед, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_totalbytesdownloaded
+                    - name: 'Тоталбитестодовнлоад, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogress-get_totalbytestodownload
+            - name: идовнлоадпрогрессчанжедкаллбакк
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadprogresschangedcallback
+              items:
+                - name: Методы Идовнлоадпрогрессчанжедкаллбакк
+                  href: idownloadprogresschangedcallback-methods.md
+                  items:
+                    - name: 'Invoke, метод'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogresschangedcallback-invoke
+            - name: идовнлоадпрогрессчанжедкаллбаккаргс
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadprogresschangedcallbackargs
+              items:
+                - name: Свойства Идовнлоадчанжедкаллбаккаргс
+                  href: idownloadchangedcallbackargs-properties.md
+                  items:
+                    - name: Свойство Progress
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadprogresschangedcallbackargs-get_progress
+            - name: идовнлоадресулт
+              href: /windows/desktop/api/Wuapi/nn-wuapi-idownloadresult
+              items:
+                - name: Методы Идовнлоадресулт
+                  href: idownloadresult-methods.md
+                  items:
+                    - name: Метод Жетупдатересулт
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-getupdateresult
+                - name: Свойства Идовнлоадресулт
+                  href: idownloadresult-properties.md
+                  items:
+                    - name: 'HResult, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-get_hresult
+                    - name: 'ResultCode, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-idownloadresult-get_resultcode
+            - name: иимажеинформатион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iimageinformation
+              items:
+                - name: Свойства Иимажеинформатион
+                  href: iimageinformation-properties.md
+                  items:
+                    - name: 'Алттекст, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iimageinformation-get_alttext
+                    - name: 'Height, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iimageinformation-get_height
+                    - name: Свойство Source
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iimageinformation-get_source
+                    - name: 'Width, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iimageinformation-get_width
+            - name: иинсталлатионажент
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationagent
+              items:
+                - name: Метод Рекординсталлатионресулт
+                  href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationagent-recordinstallationresult
+            - name: иинсталлатионбехавиор
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationbehavior
+              items:
+                - name: Свойства Иинсталлатионбехавиор
+                  href: iinstallationbehavior-properties.md
+                  items:
+                    - name: 'Канрекуестусеринпут, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationbehavior-get_canrequestuserinput
+                    - name: Свойство влияния
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationbehavior-get_impact
+                    - name: 'Ребутбехавиор, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationbehavior-get_rebootbehavior
+                    - name: 'Рекуиреснетворкконнективити, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationbehavior-get_requiresnetworkconnectivity
+            - name: иинсталлатионкомплетедкаллбакк
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationcompletedcallback
+              items:
+                - name: Методы Иинсталлатионкомплетедкаллбакк
+                  href: iinstallationcompletedcallback-methods.md
+                  items:
+                    - name: 'Invoke, метод'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationcompletedcallback-invoke
+            - name: иинсталлатионкомплетедкаллбаккаргс
+              href: /previous-versions/windows/desktop/aa385908(v=vs.85)
+            - name: иинсталлатионжоб
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationjob
+              items:
+                - name: Методы Иинсталлатионжоб
+                  href: iinstallationjob-methods.md
+                  items:
+                    - name: Метод CleanUp
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-cleanup
+                    - name: Метод Progress
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-getprogress
+                    - name: Метод Рекуестаборт
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-requestabort
+                - name: Свойства Иинсталлатионжоб
+                  href: iinstallationjob-properties.md
+                  items:
+                    - name: 'AsyncState, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-get_asyncstate
+                    - name: Свойство "AutoComplete"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-get_iscompleted
+                    - name: 'Updates, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationjob-get_updates
+            - name: иинсталлатионпрогресс
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationprogress
+              items:
+                - name: Методы Иинсталлатионпрогресс
+                  href: iinstallationprogress-methods.md
+                  items:
+                    - name: Метод Жетупдатересулт
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogress-getupdateresult
+                - name: Свойства Иинсталлатионпрогресс
+                  href: iinstallationprogress-properties.md
+                  items:
+                    - name: 'Куррентупдатеиндекс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogress-get_currentupdateindex
+                    - name: 'Куррентупдатеперценткомплете, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogress-get_currentupdatepercentcomplete
+                    - name: 'PercentComplete, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogress-get_percentcomplete
+            - name: иинсталлатионпрогрессчанжедкаллбакк
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationprogresschangedcallback
+              items:
+                - name: Методы Иинсталлатионпрогрессчанжедкаллбакк
+                  href: iinstallationprogresschangedcallback-methods.md
+                  items:
+                    - name: 'Invoke, метод'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogresschangedcallback-invoke
+            - name: иинсталлатионпрогрессчанжедкаллбаккаргс
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationprogresschangedcallbackargs
+              items:
+                - name: Свойства Иинсталлатионпрогрессчанжедкаллбаккаргс
+                  href: iinstallationprogresschangedcallbackargs-properties.md
+                  items:
+                    - name: Свойство Progress
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationprogresschangedcallbackargs-get_progress
+            - name: иинсталлатионресулт
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinstallationresult
+              items:
+                - name: Методы Иинсталлатионресулт
+                  href: iinstallationresult-methods.md
+                  items:
+                    - name: Метод Жетупдатересулт
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationresult-getupdateresult
+                - name: Свойства Иинсталлатионресулт
+                  href: iinstallationresult-properties.md
+                  items:
+                    - name: 'HResult, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationresult-get_hresult
+                    - name: 'Ребутрекуиред, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationresult-get_rebootrequired
+                    - name: 'ResultCode, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinstallationresult-get_resultcode
+            - name: иинвалидпродуктлиценсиксцептион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iinvalidproductlicenseexception
+              items:
+                - name: Свойства Иинвалидпродуктлиценсиксцептион
+                  href: iinvalidproductlicenseexception-properties.md
+                  items:
+                    - name: Свойство продукта
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iinvalidproductlicenseexception-get_product
+            - name: исеарчкомплетедкаллбакк
+              href: /windows/desktop/api/Wuapi/nn-wuapi-isearchcompletedcallback
+              items:
+                - name: Методы Исеарчкомплетедкаллбакк
+                  href: isearchcompletedcallback-methods.md
+                  items:
+                    - name: 'Invoke, метод'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchcompletedcallback-invoke
+            - name: исеарчкомплетедкаллбаккаргс
+              href: /previous-versions/windows/desktop/aa386067(v=vs.85)
+            - name: исеарчжоб
+              href: /windows/desktop/api/Wuapi/nn-wuapi-isearchjob
+              items:
+                - name: Методы Исеарчжоб
+                  href: isearchjob-methods.md
+                  items:
+                    - name: Метод CleanUp
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchjob-cleanup
+                    - name: Метод Рекуестаборт
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchjob-requestabort
+                - name: Свойства Исеарчжоб
+                  href: isearchjob-properties.md
+                  items:
+                    - name: 'AsyncState, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchjob-get_asyncstate
+                    - name: Свойство "AutoComplete"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchjob-get_iscompleted
+            - name: исеарчресулт
+              href: /windows/desktop/api/Wuapi/nn-wuapi-isearchresult
+              items:
+                - name: Свойства Исеарчресулт
+                  href: isearchresult-properties.md
+                  items:
+                    - name: 'ResultCode, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_resultcode
+                    - name: 'Руткатегориес, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_rootcategories
+                    - name: 'Updates, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_updates
+                    - name: Свойство "предупреждения"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isearchresult-get_warnings
+            - name: истрингколлектион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-istringcollection
+              items:
+                - name: Методы Истрингколлектион
+                  href: istringcollection-methods.md
+                  items:
+                    - name: Добавить метод.
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-add
+                    - name: Метод Clear
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-clear
+                    - name: Метод копирования
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-copy
+                    - name: Вставить метод
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-insert
+                    - name: Метод RemoveAt
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-removeat
+                - name: Свойства Истрингколлектион
+                  href: istringcollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get__newenum
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get_item
+                    - name: 'ReadOnly, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get_readonly
+            - name: исистеминформатион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-isysteminformation
+              items:
+                - name: Свойства Исистеминформатион
+                  href: isysteminformation-properties.md
+                  items:
+                    - name: 'Оемхардваресуппортлинк, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isysteminformation-get_oemhardwaresupportlink
+                    - name: 'Ребутрекуиред, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-isysteminformation-get_rebootrequired
+            - name: иупдате
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdate
+              items:
+                - name: Методы Иупдате
+                  href: iupdate-methods.md
+                  items:
+                    - name: Метод AcceptEula
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-accepteula
+                    - name: Метод Копифромкаче
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-copyfromcache
+                - name: Свойства Иупдате
+                  href: iupdate-properties.md
+                  items:
+                    - name: 'Аутоселектонвебситес, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_autoselectonwebsites
+                    - name: 'Бундледупдатес, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_bundledupdates
+                    - name: 'Канрекуиресаурце, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_canrequiresource
+                    - name: Свойство Categories
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_categories
+                    - name: Свойство крайний срок
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_deadline
+                    - name: 'Делтакомпресседконтентаваилабле, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_deltacompressedcontentavailable
+                    - name: 'Делтакомпресседконтентпреферред, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_deltacompressedcontentpreferred
+                    - name: 'Деплойментактион, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_deploymentaction
+                    - name: Свойство Description
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_description
+                    - name: 'Довнлоадконтентс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_downloadcontents
+                    - name: 'Довнлоадприорити, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_downloadpriority
+                    - name: 'Еулаакцептед, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_eulaaccepted
+                    - name: 'Еулатекст, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_eulatext
+                    - name: 'Хандлерид, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_handlerid
+                    - name: Свойство Identity
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_identity
+                    - name: Свойство Image
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_image
+                    - name: 'Инсталлатионбехавиор, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_installationbehavior
+                    - name: Свойство onbeta
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isbeta
+                    - name: Свойство "Download"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isdownloaded
+                    - name: Свойство Hidden
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_ishidden
+                    - name: Свойство "устанавливаются"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isinstalled
+                    - name: Свойство «необязательный»
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_ismandatory
+                    - name: 'Свойство, которое следует удалить'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isuninstallable
+                    - name: 'Кбартиклеидс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_kbarticleids
+                    - name: Свойство Languages
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_languages
+                    - name: 'Ластдеплойментчанжетиме, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_lastdeploymentchangetime
+                    - name: 'Максдовнлоадсизе, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_maxdownloadsize
+                    - name: 'Миндовнлоадсизе, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_mindownloadsize
+                    - name: 'Мореинфаурлс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_moreinfourls
+                    - name: 'Мсрксеверити, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_msrcseverity
+                    - name: 'Рекоммендедкпуспид, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_recommendedcpuspeed
+                    - name: 'Рекоммендедхарддискспаце, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_recommendedharddiskspace
+                    - name: 'Рекоммендедмемори, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_recommendedmemory
+                    - name: 'ReleaseNotes, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_releasenotes
+                    - name: 'Секуритибуллетинидс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_securitybulletinids
+                    - name: 'Суперседедупдатеидс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_supersededupdateids
+                    - name: 'SupportUrl, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_supporturl
+                    - name: Свойство Title
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_title
+                    - name: Свойство Type
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_type
+                    - name: 'Унинсталлатионбехавиор, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationbehavior
+                    - name: 'Унинсталлатионнотес, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationnotes
+                    - name: 'Унинсталлатионстепс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationsteps
+            - name: IUpdate2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdate2
+              items:
+                - name: Методы IUpdate2
+                  href: iupdate2-methods.md
+                  items:
+                    - name: Метод Копитокаче
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate2-copytocache
+                - name: Свойства IUpdate2
+                  href: iupdate2-properties.md
+                  items:
+                    - name: 'Квеидс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate2-get_cveids
+                    - name: Свойство Present
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate2-get_ispresent
+                    - name: 'Ребутрекуиред, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate2-get_rebootrequired
+            - name: IUpdate3
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdate3
+              items:
+                - name: Свойства IUpdate3
+                  href: iupdate3-properties.md
+                  items:
+                    - name: 'Бровсеонли, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate3-get_browseonly
+            - name: IUpdate4
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdate4
+              items:
+                - name: Свойства IUpdate4
+                  href: iupdate4-properties.md
+                  items:
+                    - name: Свойство "изучение"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate4-get_peruser
+            - name: IUpdate5
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdate5
+              items:
+                - name: Свойства IUpdate5
+                  href: iupdate5-properties.md
+                  items:
+                    - name: Свойство "Автозагрузка"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate5-get_autodownload
+                    - name: Свойство автовыбора
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdate5-get_autoselection
+            - name: иупдатеколлектион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatecollection
+              items:
+                - name: Методы Иупдатеколлектион
+                  href: iupdatecollection-methods.md
+                  items:
+                    - name: Добавить метод.
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-add
+                    - name: Метод Clear
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-clear
+                    - name: Метод копирования
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-copy
+                    - name: Вставить метод
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-insert
+                    - name: Метод RemoveAt
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-removeat
+                - name: Свойства Иупдатеколлектион
+                  href: iupdatecollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get__newenum
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get_item
+                    - name: 'ReadOnly, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get_readonly
+            - name: иупдатедовнлоадконтент
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadcontent
+              items:
+                - name: Свойства Иупдатедовнлоадконтент
+                  href: iupdatedownloadcontent-properties.md
+                  items:
+                    - name: 'Довнлоадурл, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontent-get_downloadurl
+            - name: IUpdateDownloadContent2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadcontent2
+              items:
+                - name: Свойства IUpdateDownloadContent2
+                  href: iupdatedownloadcontent2-properties.md
+                  items:
+                    - name: 'Исделтакомпресседконтент, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontent2-get_isdeltacompressedcontent
+            - name: иупдатедовнлоадконтентколлектион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadcontentcollection
+              items:
+                - name: Свойства Иупдатедовнлоадконтентколлектион
+                  href: iupdatedownloadcontentcollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontentcollection-get__newenum
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontentcollection-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadcontentcollection-get_item
+            - name: иупдатедовнлоадер
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloader
+              items:
+                - name: Методы Иупдатедовнлоадер
+                  href: iupdatedownloader-methods.md
+                  items:
+                    - name: Метод BeginDownload
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-begindownload
+                    - name: Метод download
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-download
+                    - name: Метод метод
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-enddownload
+                - name: Свойства Иупдатедовнлоадер
+                  href: iupdatedownloader-properties.md
+                  items:
+                    - name: 'Клиентаппликатионид, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-get_clientapplicationid
+                    - name: Свойство "Force"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-get_isforced
+                    - name: 'Priority, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-get_priority
+                    - name: 'Updates, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-get_updates
+            - name: иупдатедовнлоадресулт
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadresult
+              items:
+                - name: Свойства Иупдатедовнлоадресулт
+                  href: iupdatedownloadresult-properties.md
+                  items:
+                    - name: 'HResult, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadresult-get_hresult
+                    - name: 'ResultCode, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloadresult-get_resultcode
+            - name: иупдатиндпоинтауспровидер
+              href: iupdateendpointauthprovider.md
+              items:
+                - name: Методы Иупдатиндпоинтауспровидер
+                  href: iupdateendpointauthprovider-medthods.md
+                  items:
+                    - name: Метод Жетендпоинттокен
+                      href: iupdateendpointauthprovider-getendpointtoken.md
+                    - name: Метод Жетпреферредендпоинттокентипе
+                      href: iupdateendpointauthprovider-getpreferredendpointtokentype.md
+            - name: иупдатиндпоинтаустокен
+              href: iupdateendpointauthtoken.md
+              items:
+                - name: Методы Иупдатиндпоинтаустокен
+                  href: iupdateendpointauthtoken-methods.md
+                  items:
+                    - name: Метод Токендата
+                      href: iupdateendpointauthtoken-tokendata.md
+                    - name: Метод TokenType
+                      href: iupdateendpointauthtoken-tokentype.md
+                    - name: Метод ServiceID
+                      href: iupdateendpointauthtoken-serviceid.md
+                    - name: Метод SigningKey
+                      href: iupdateendpointauthtoken-signingkey.md
+                    - name: Метод Токенреференцеаттачед
+                      href: iupdateendpointauthtoken-tokenreferenceattached.md
+                    - name: Метод Токенреференцеунаттачед
+                      href: iupdateendpointauthtoken-tokenreferenceunattached.md
+            - name: иупдатиндпоинтпровидер
+              href: iupdateendpointprovider.md
+              items:
+                - name: Методы Иупдатиндпоинтпровидер
+                  href: iupdateendpointprovider-medthods.md
+                  items:
+                    - name: Метод Жетсервицеендпоинт
+                      href: iupdateendpointauthprovider-getserviceendpoint.md
+            - name: иупдатиксцептион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateexception
+              items:
+                - name: Свойства Иупдатиксцептион
+                  href: iupdateexception-properties.md
+                  items:
+                    - name: Свойство Context
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexception-get_context
+                    - name: 'HResult, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexception-get_hresult
+                    - name: Свойство сообщения
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexception-get_message
+            - name: иупдатиксцептионколлектион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateexceptioncollection
+              items:
+                - name: Свойства Иупдатиксцептионколлектион
+                  href: iupdateexceptioncollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexceptioncollection-get__newenum
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexceptioncollection-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateexceptioncollection-get_item
+            - name: иупдатехисторентри
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatehistoryentry
+              items:
+                - name: Свойства Иупдатехисторентри
+                  href: iupdatehistoryentry-properties.md
+                  items:
+                    - name: 'Клиентаппликатионид, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_clientapplicationid
+                    - name: Свойство Date
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_date
+                    - name: Свойство Description
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_description
+                    - name: 'HResult, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_hresult
+                    - name: Свойство операции
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_operation
+                    - name: 'ResultCode, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_resultcode
+                    - name: 'ServerSelection, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_serverselection
+                    - name: 'ServiceID, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_serviceid
+                    - name: 'SupportUrl, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_supporturl
+                    - name: Свойство Title
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_title
+                    - name: 'Унинсталлатионнотес, свойство'
+                      href: /windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_uninstallationnotes
+                    - name: 'Унинсталлатионстепс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_uninstallationsteps
+                    - name: 'Унмаппедресулткоде, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_unmappedresultcode
+                    - name: 'Упдатеидентити, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_updateidentity
+            - name: IUpdateHistoryEntry2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatehistoryentry2
+              items:
+                - name: Свойства IUpdateHistoryEntry2
+                  href: iupdatehistoryentry2-properties.md
+                  items:
+                    - name: Свойство Categories
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry2-get_categories
+            - name: иупдатехисторентриколлектион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatehistoryentrycollection
+              items:
+                - name: Свойства Иупдатехисторентриколлектион
+                  href: iupdatehistoryentrycollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentrycollection-get__newenum
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentrycollection-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentrycollection-get_item
+            - name: иупдатеидентити
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateidentity
+              items:
+                - name: Свойства Иупдатеидентити
+                  href: iupdateidentity-properties.md
+                  items:
+                    - name: 'Ревисионнумбер, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateidentity-get_revisionnumber
+                    - name: 'UpdateID, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateidentity-get_updateid
+            - name: иупдатеинсталлатионресулт
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateinstallationresult
+              items:
+                - name: Свойства Иупдатеинсталлатионресулт
+                  href: iupdateinstallationresult-properties.md
+                  items:
+                    - name: 'HResult, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstallationresult-get_hresult
+                    - name: 'Ребутрекуиред, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstallationresult-get_rebootrequired
+                    - name: 'ResultCode, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstallationresult-get_resultcode
+            - name: иупдатеинсталлер
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateinstaller
+              items:
+                - name: Методы Иупдатеинсталлер
+                  href: iupdateinstaller-methods.md
+                  items:
+                    - name: Метод Бегининсталл
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-begininstall
+                    - name: Метод Бегинунинсталл
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-beginuninstall
+                    - name: Метод Ендинсталл
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-endinstall
+                    - name: Метод Ендунинсталл
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-enduninstall
+                    - name: Метод Install
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-install
+                    - name: Метод Рунвизард
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-runwizard
+                    - name: Метод удаления
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-uninstall
+                - name: Свойства Иупдатеинсталлер
+                  href: iupdateinstaller-properties.md
+                  items:
+                    - name: 'Алловсаурцепромптс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_allowsourceprompts
+                    - name: 'Клиентаппликатионид, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_clientapplicationid
+                    - name: Свойство доступности
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_isbusy
+                    - name: Свойство "Force"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_isforced
+                    - name: 'Паренсвнд, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_parenthwnd
+                    - name: 'Парентвиндов, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_parentwindow
+                    - name: 'Ребутрекуиредбефореинсталлатион, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_rebootrequiredbeforeinstallation
+                    - name: 'Updates, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller-get_updates
+            - name: IUpdateInstaller2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateinstaller2
+              items:
+                - name: Свойства IUpdateInstaller2
+                  href: iupdateinstaller2-properties.md
+                  items:
+                    - name: 'Форцекуиет, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller2-get_forcequiet
+            - name: иупдателоккдовн
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatelockdown
+              items:
+                - name: Методы Иупдателоккдовн
+                  href: iupdatelockdown-methods.md
+                  items:
+                    - name: Метод блокировки
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatelockdown-lockdown
+            - name: иупдатесеарчер
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesearcher
+              items:
+                - name: Методы Иупдатесеарчер
+                  href: iupdatesearcher-methods.md
+                  items:
+                    - name: Метод Бегинсеарч
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-beginsearch
+                    - name: Метод Ендсеарч
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-endsearch
+                    - name: Метод EscapeString
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-escapestring
+                    - name: Метод Жеттоталхисторикаунт
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-gettotalhistorycount
+                    - name: Метод Куерихистори
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-queryhistory
+                    - name: Метод Search
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-search
+                - name: Свойства Иупдатесеарчер
+                  href: iupdatesearcher-properties.md
+                  items:
+                    - name: 'Канаутоматикаллюпградесервице, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_canautomaticallyupgradeservice
+                    - name: 'Клиентаппликатионид, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_clientapplicationid
+                    - name: 'Инклудепотентиаллисуперседедупдатес, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates
+                    - name: Свойство в сети
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_online
+                    - name: 'ServiceID, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_serviceid
+                    - name: 'ServerSelection, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_serverselection
+            - name: IUpdateSearcher2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesearcher2
+              items:
+                - name: Свойства IUpdateSearcher2
+                  href: iupdatesearcher2-properties.md
+                  items:
+                    - name: 'Игноредовнлоадприорити, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher2-get_ignoredownloadpriority
+            - name: IUpdateSearcher3
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesearcher3
+              items:
+                - name: Методы IUpdateSearcher3
+                  href: iupdatesearcher3-properties.md
+                  items:
+                    - name: Метод SearchScope
+                      href: /previous-versions/windows/desktop/ee694850(v=vs.85)
+            - name: иупдатесервице
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservice
+              items:
+                - name: Свойства Иупдатесервице
+                  href: iupdateservice-properties.md
+                  items:
+                    - name: 'Канрегистервисау, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_canregisterwithau
+                    - name: 'Контентвалидатионцерт, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_contentvalidationcert
+                    - name: Свойство ExpirationDate
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_expirationdate
+                    - name: Свойство с управлением
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_ismanaged
+                    - name: 'Исрегистередвисау, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_isregisteredwithau
+                    - name: 'Иссканпаккажесервице, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_isscanpackageservice
+                    - name: 'Иссуедате, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_issuedate
+                    - name: Свойство Name
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_name
+                    - name: 'Офферсвиндовсупдатес, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_offerswindowsupdates
+                    - name: 'Редиректурлс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_redirecturls
+                    - name: 'ServiceID, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_serviceid
+                    - name: 'ServiceUrl, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_serviceurl
+                    - name: 'Сетуппрефикс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_setupprefix
+            - name: IUpdateService2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservice2
+              items:
+                - name: Свойства IUpdateService2
+                  href: iupdateservice2-properties.md
+                  items:
+                    - name: 'Исдефаултаусервице, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservice2-get_isdefaultauservice
+            - name: иупдатесервицеколлектион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservicecollection
+              items:
+                - name: Свойства Иупдатесервицеколлектион
+                  href: iupdateservicecollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicecollection-get__newenum
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicecollection-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicecollection-get_item
+            - name: иупдатесервицеманажер
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager
+              items:
+                - name: Методы Иупдатесервицеманажер
+                  href: iupdateservicemanager-methods.md
+                  items:
+                    - name: Метод Аддсканпаккажесервице
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-addscanpackageservice
+                    - name: Метод AddService
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-addservice
+                    - name: Метод Регистерсервицевисау
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-registerservicewithau
+                    - name: Метод Ремовесервице
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-removeservice
+                    - name: Метод SetOption
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-setoption
+                    - name: Метод Унрегистерсервицевисау
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-unregisterservicewithau
+                - name: Свойства Иупдатесервицеманажер
+                  href: iupdateservicemanager-properties.md
+                  items:
+                    - name: 'Службы, свойство'
+                      href: /windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-get_services
+            - name: IUpdateServiceManager2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateservicemanager2
+              items:
+                - name: Методы IUpdateServiceManager2
+                  href: iupdateservicemanager2-methods.md
+                  items:
+                    - name: Метод AddService2
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager2-addservice2
+                    - name: Метод Куерисервицерегистратион
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager2-queryserviceregistration
+                - name: Свойства IUpdateServiceManager2
+                  href: iupdateservicemanager2-properties.md
+                  items:
+                    - name: 'Клиентаппликатионид, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager2-get_clientapplicationid
+            - name: иупдатесервицерегистратион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateserviceregistration
+              items:
+                - name: Свойства Иупдатесервицерегистратион
+                  href: iupdateserviceregistration-properties.md
+                  items:
+                    - name: 'Испендингрегистратионвисау, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateserviceregistration-get_ispendingregistrationwithau
+                    - name: 'RegistrationState, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateserviceregistration-get_registrationstate
+                    - name: Свойство службы
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdateserviceregistration-get_service
+            - name: иупдатесессион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesession
+              items:
+                - name: Методы Иупдатесессион
+                  href: iupdatesession-methods.md
+                  items:
+                    - name: Метод Креатеупдатедовнлоадер
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-createupdatedownloader
+                    - name: Метод Креатеупдатеинсталлер
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-createupdateinstaller
+                    - name: Метод Креатеупдатесеарчер
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-createupdatesearcher
+                - name: Свойства Иупдатесессион
+                  href: iupdatesession-properties.md
+                  items:
+                    - name: 'Клиентаппликатионид, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-get_clientapplicationid
+                    - name: 'ReadOnly, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-get_readonly
+                    - name: Свойство WebProxy
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession-get_webproxy
+            - name: IUpdateSession2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesession2
+              items:
+                - name: Свойства IUpdateSession2
+                  href: iupdatesession2-properties.md
+                  items:
+                    - name: 'UserLocale, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession2-get_userlocale
+            - name: IUpdateSession3
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatesession3
+              items:
+                - name: Методы IUpdateSession3
+                  href: iupdatesession3-methods.md
+                  items:
+                    - name: Метод Креатеупдатесервицеманажер
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession3-createupdateservicemanager
+                    - name: Метод Куерихистори
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatesession3-queryhistory
+            - name: IWebProxy
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwebproxy
+              items:
+                - name: Методы IWebProxy
+                  href: iwebproxy-methods.md
+                  items:
+                    - name: Метод Промптфоркредентиалс
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-promptforcredentials
+                    - name: Метод Промптфоркредентиалсфромхвнд
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-promptforcredentialsfromhwnd
+                    - name: Метод SetPassword
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-setpassword
+                - name: Свойства IWebProxy
+                  href: iwebproxy-properties.md
+                  items:
+                    - name: Свойство Address
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_address
+                    - name: Автоматическое обнаружение свойства
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_autodetect
+                    - name: 'Бипасслист, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_bypasslist
+                    - name: 'Бипасспроксйонлокал, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_bypassproxyonlocal
+                    - name: 'ReadOnly, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_readonly
+                    - name: Свойство UserName
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwebproxy-get_username
+            - name: ивиндовсдриверупдате
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate
+              items:
+                - name: Свойства Ивиндовсдриверупдате
+                  href: iwindowsdriverupdate-properties.md
+                  items:
+                    - name: 'Девицепроблемнумбер, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_deviceproblemnumber
+                    - name: 'Девицестатус, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_devicestatus
+                    - name: 'Дриверкласс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driverclass
+                    - name: 'Дриверхардвареид, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driverhardwareid
+                    - name: 'Дривермануфактурер, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_drivermanufacturer
+                    - name: 'Дривермодел, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_drivermodel
+                    - name: 'Дриверпровидер, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driverprovider
+                    - name: 'Дривервердате, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate-get_driververdate
+            - name: IWindowsDriverUpdate2
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate2
+              items:
+                - name: Методы IWindowsDriverUpdate2
+                  href: iwindowsdriverupdate2-methods.md
+                  items:
+                    - name: Метод Копитокаче
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate2-copytocache
+                - name: Свойства IWindowsDriverUpdate2
+                  href: iwindowsdriverupdate2-properties.md
+                  items:
+                    - name: 'Квеидс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate2-get_cveids
+                    - name: Свойство Present
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate2-get_ispresent
+                    - name: 'Ребутрекуиред, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate2-get_rebootrequired
+            - name: IWindowsDriverUpdate3
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate3
+              items:
+                - name: Свойства IWindowsDriverUpdate3
+                  href: iwindowsdriverupdate3-properties.md
+                  items:
+                    - name: 'Бровсеонли, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate3-get_browseonly
+            - name: IWindowsDriverUpdate4
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate4
+              items:
+                - name: Свойства IWindowsDriverUpdate4
+                  href: iwindowsdriverupdate4-properties.md
+                  items:
+                    - name: Свойство "изучение"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate4-get_peruser
+                    - name: 'Виндовсдриверупдатинтриес, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate4-get_windowsdriverupdateentries
+            - name: IWindowsDriverUpdate5
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate5
+              items:
+                - name: Свойства IWindowsDriverUpdate5
+                  href: iwindowsdriverupdate5-properties.md
+                  items:
+                    - name: Свойство "Автозагрузка"
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autodownload
+                    - name: Свойство автовыбора
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autoselection
+            - name: ивиндовсдриверупдатинтри
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentry
+              items:
+                - name: Свойства Ивиндовсдриверупдатинтри
+                  href: iwindowsdriverupdateentry-properties.md
+                  items:
+                    - name: 'Девицепроблемнумбер, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_deviceproblemnumber
+                    - name: 'Девицестатус, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_devicestatus
+                    - name: 'Дриверкласс, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_driverclass
+                    - name: 'Дриверхардвареид, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_driverhardwareid
+                    - name: 'Дривермануфактурер, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_drivermanufacturer
+                    - name: 'Дривермодел, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_drivermodel
+                    - name: 'Дриверпровидер, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_driverprovider
+                    - name: 'Дривервердате, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentry-get_driververdate
+            - name: ивиндовсдриверупдатинтриколлектион
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentrycollection
+              items:
+                - name: Свойства Ивиндовсдриверупдатинтриколлектион
+                  href: iwindowsdriverupdateentrycollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentrycollection-get__newenum
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentrycollection-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentrycollection-get_item
+            - name: ивиндовсупдатеажентинфо
+              href: /windows/desktop/api/Wuapi/nn-wuapi-iwindowsupdateagentinfo
+              items:
+                - name: Методы Ивиндовсупдатеажентинфо
+                  href: iwindowsupdateagentinfo-methods.md
+                  items:
+                    - name: Метод получения сведений
+                      href: /windows/desktop/api/Wuapi/nf-wuapi-iwindowsupdateagentinfo-getinfo
+        - name: Структуры
+          href: structures.md
+          items:
+            - name: упдатиндпоинтпроксисеттингс
+              href: updateendpointproxysettings.md
