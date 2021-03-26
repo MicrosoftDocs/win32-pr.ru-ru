@@ -1,0 +1,1400 @@
+- name: Справочник по среда выполнения Windows C++
+  href: reference.md
+  items:
+    - name: Типы данных
+      href: data-types.md
+      items:
+        - name: среда выполнения Windows базовых типов данных
+          href: base-data-types.md
+        - name: HSTRING
+          href: hstring.md
+        - name: HSTRING_BUFFER
+          href: hstring-buffer.md
+        - name: PINSPECT_HSTRING_CALLBACK
+          href: /windows/win32/api/winstring/nc-winstring-pinspect_hstring_callback
+        - name: PINSPECT_MEMORY_CALLBACK
+          href: /windows/win32/api/roerrorapi/nc-roerrorapi-pinspect_memory_callback
+        - name: RO_REGISTRATION_COOKIE
+          href: ro-registration-cookie.md
+    - name: Перечисления
+      href: enumerations.md
+      items:
+        - name: HANDLE_ACCESS_OPTIONS
+          href: /windows/win32/api/windowsstoragecom/ne-windowsstoragecom-handle_access_options
+        - name: HANDLE_CREATION_OPTIONS
+          href: /windows/win32/api/windowsstoragecom/ne-windowsstoragecom-handle_creation_options
+        - name: HANDLE_OPTIONS
+          href: /windows/win32/api/windowsstoragecom/ne-windowsstoragecom-handle_options
+        - name: HANDLE_SHARING_OPTIONS
+          href: /windows/win32/api/windowsstoragecom/ne-windowsstoragecom-handle_sharing_options
+        - name: ActivationType
+          href: /windows/win32/api/activationregistration/ne-activationregistration-activationtype
+        - name: агилереференцеоптионс
+          href: /windows/win32/api/combaseapi/ne-combaseapi-agilereferenceoptions
+        - name: BSOS_OPTIONS
+          href: /windows/win32/api/shcore/ne-shcore-bsos_options
+        - name: асинкстатус
+          href: /windows/win32/api/asyncinfo/ne-asyncinfo-asyncstatus
+        - name: ерророптионс
+          href: /previous-versions//hh438361(v=vs.85)
+        - name: IdentityType
+          href: /windows/win32/api/activationregistration/ne-activationregistration-identitytype
+        - name: инпутстреамоптионс
+          href: /previous-versions//hh438389(v=vs.85)
+        - name: инстанЦингтипе
+          href: /windows/win32/api/activationregistration/ne-activationregistration-instancingtype
+        - name: PropertyType
+          href: /windows/win32/api/windows.foundation/ne-windows-foundation-propertytype
+        - name: регистередтрустлевел
+          href: /previous-versions/dn408470(v%3Dvs.85)
+        - name: регистратионскопе
+          href: /windows/win32/api/activationregistration/ne-activationregistration-registrationscope
+        - name: среадингтипе
+          href: /windows/win32/api/activationregistration/ne-activationregistration-threadingtype
+        - name: TrustLevel
+          href: /windows/win32/api/inspectable/ne-inspectable-trustlevel
+        - name: RO_INIT_TYPE
+          href: /windows/win32/api/roapi/ne-roapi-ro_init_type
+        - name: RO_ERROR_REPORTING_FLAGS
+          href: /windows/win32/api/roerrorapi/ne-roerrorapi-roerrorreportingflags
+    - name: Функции
+      href: functions.md
+      items:
+        - name: кодекодепрокси
+          href: /windows/win32/api/combaseapi/nf-combaseapi-codecodeproxy
+        - name: креатеконтролинпут
+          href: /windows/win32/api/corewindow/nf-corewindow-createcontrolinput
+        - name: креатеконтролинпутекс
+          href: /windows/win32/api/corewindow/nf-corewindow-createcontrolinputex
+        - name: CreateDirect3D11DeviceFromDXGIDevice
+          href: /windows/win32/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11devicefromdxgidevice
+        - name: CreateDirect3D11SurfaceFromDXGISurface
+          href: /windows/win32/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11surfacefromdxgisurface
+        - name: CreateDirect3DDevice
+          href: /windows/win32/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3ddevice
+        - name: CreateDirect3DSurface
+          href: /windows/win32/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3dsurface
+        - name: креатерандомакцессстреамонфиле
+          href: /windows/win32/api/shcore/nf-shcore-createrandomaccessstreamonfile
+        - name: креатерандомакцессстреамоверстреам
+          href: /windows/win32/api/shcore/nf-shcore-createrandomaccessstreamoverstream
+        - name: креатестреамоверрандомакцессстреам
+          href: /windows/win32/api/shcore/nf-shcore-createstreamoverrandomaccessstream
+        - name: креатексамлуипресентер
+          href: createxamluipresenter.md
+        - name: дбграисеассертионфаилуре
+          href: /previous-versions//jj635749(v=vs.85)
+        - name: 'Жетдксгиинтерфаце (IDirect3DDevice ^, DXGI_TYPE * *)'
+          href: /windows/win32/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterface
+        - name: 'Жетдксгиинтерфаце (IDirect3DSurface ^, DXGI_TYPE * *)'
+          href: /windows/win32/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterface~r1
+        - name: жетдксгиинтерфацефромобжект
+          href: /windows/win32/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterfacefromobject
+        - name: жетрестриктедерроринфо
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-getrestrictederrorinfo
+        - name: HSTRING_UserFree
+          href: /windows/win32/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_userfree
+        - name: HSTRING_UserFree64
+          href: /windows/win32/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_userfree64
+        - name: HSTRING_UserMarshal
+          href: /windows/win32/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_usermarshal
+        - name: HSTRING_UserMarshal64
+          href: /windows/win32/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_usermarshal64
+        - name: HSTRING_UserSize
+          href: /windows/win32/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_usersize
+        - name: HSTRING_UserSize64
+          href: /windows/win32/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_usersize64
+        - name: HSTRING_UserUnmarshal
+          href: /windows/win32/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_userunmarshal
+        - name: HSTRING_UserUnmarshal64
+          href: /windows/win32/api/remotesystemadditionalinfo/nf-remotesystemadditionalinfo-hstring_userunmarshal64
+        - name: исеррорпропагатионенаблед
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-iserrorpropagationenabled
+        - name: дллжетактиватионфактори
+          href: /previous-versions//br205771(v=vs.85)
+        - name: метадатажетдиспенсер
+          href: /windows/win32/api/rometadata/nf-rometadata-metadatagetdispenser
+        - name: пдфкреатерендерер
+          href: /windows/win32/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfcreaterenderer
+        - name: пдфрендерпарамс
+          href: /windows/win32/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfrenderparams
+        - name: RoActivateInstance
+          href: /windows/win32/api/roapi/nf-roapi-roactivateinstance
+        - name: рокаптуриррорконтекст
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-rocaptureerrorcontext
+        - name: роклеареррор
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-roclearerror
+        - name: рофаилфаствисеррорконтекст
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext
+        - name: RoFailFastWithErrorContextInternal2
+          href: ./roerrorapi/nf-roerrorapi-rofailfastwitherrorcontextinternal2.md
+        - name: рофрипараметеризедтипикстра
+          href: /windows/win32/api/roparameterizediid/nf-roparameterizediid-rofreeparameterizedtypeextra
+        - name: рожетактиватаблеклассрегистратион
+          href: /windows/win32/api/roregistrationapi/nf-roregistrationapi-rogetactivatableclassregistration
+        - name: рожетактиватионфактори
+          href: /windows/win32/api/roapi/nf-roapi-rogetactivationfactory
+        - name: рожетагилереференце
+          href: /windows/win32/api/ComBaseApi/nf-combaseapi-rogetagilereference
+        - name: рожетапартментидентифиер
+          href: /windows/win32/api/roapi/nf-roapi-rogetapartmentidentifier
+        - name: рожетбуффермаршалер
+          href: /windows/win32/api/robuffer/nf-robuffer-rogetbuffermarshaler
+        - name: рожетерроррепортингфлагс
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags
+        - name: RoGetMetaDataFile
+          href: /windows/win32/api/rometadataresolution/nf-rometadataresolution-rogetmetadatafile
+        - name: рожетпараметеризедтипеинстанцеиид
+          href: /windows/win32/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid
+        - name: рожетсерверактиватаблеклассес
+          href: /windows/win32/api/roregistrationapi/nf-roregistrationapi-rogetserveractivatableclasses
+        - name: роинитиализе
+          href: /windows/win32/api/roapi/nf-roapi-roinitialize
+        - name: роинспектсреадерроринфо
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-roinspectthreaderrorinfo
+        - name: роинспекткаптуредстаккбакктраце
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-roinspectcapturedstackbacktrace
+        - name: руригинатиррор
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-rooriginateerror
+        - name: руригинатиррорв
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-rooriginateerrorw
+        - name: руригинателангуажеексцептион
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-rooriginatelanguageexception
+        - name: ропараметеризедтипикстражеттипесигнатуре
+          href: /windows/win32/api/roparameterizediid/nf-roparameterizediid-roparameterizedtypeextragettypesignature
+        - name: ропарсетипенаме
+          href: /windows/win32/api/rometadataresolution/nf-rometadataresolution-roparsetypename
+        - name: рорегистерактиватионфакториес
+          href: /windows/win32/api/roapi/nf-roapi-roregisteractivationfactories
+        - name: рорегистерфорапартментшутдовн
+          href: /windows/win32/api/roapi/nf-roapi-roregisterforapartmentshutdown
+        - name: рорепортунхандледеррор
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-roreportunhandlederror
+        - name: рорепортфаиледделегате
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-roreportfaileddelegate
+        - name: роресолвенамеспаце
+          href: /windows/win32/api/rometadataresolution/nf-rometadataresolution-roresolvenamespace
+        - name: роресолверестриктедерроринфореференце
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-roresolverestrictederrorinforeference
+        - name: роревокеактиватионфакториес
+          href: /windows/win32/api/roapi/nf-roapi-rorevokeactivationfactories
+        - name: росетерроррепортингфлагс
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags
+        - name: ротрансформеррор
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-rotransformerror
+        - name: ротрансформеррорв
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-rotransformerrorw
+        - name: раунинитиализе
+          href: /windows/win32/api/roapi/nf-roapi-rouninitialize
+        - name: раунрегистерфорапартментшутдовн
+          href: /windows/win32/api/roapi/nf-roapi-rounregisterforapartmentshutdown
+        - name: сетрестриктедерроринфо
+          href: /windows/win32/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo
+        - name: виндовскомпарестрингординал
+          href: /windows/win32/api/winstring/nf-winstring-windowscomparestringordinal
+        - name: виндовсконкатстринг
+          href: /windows/win32/api/winstring/nf-winstring-windowsconcatstring
+        - name: виндовскреатестринг
+          href: /windows/win32/api/winstring/nf-winstring-windowscreatestring
+        - name: виндовскреатестрингреференце
+          href: /windows/win32/api/winstring/nf-winstring-windowscreatestringreference
+        - name: виндовсделетестринг
+          href: /windows/win32/api/winstring/nf-winstring-windowsdeletestring
+        - name: виндовсделетестрингбуффер
+          href: /windows/win32/api/winstring/nf-winstring-windowsdeletestringbuffer
+        - name: виндовсдупликатестринг
+          href: /windows/win32/api/winstring/nf-winstring-windowsduplicatestring
+        - name: виндовсжетстринглен
+          href: /windows/win32/api/winstring/nf-winstring-windowsgetstringlen
+        - name: виндовсжетстрингравбуффер
+          href: /windows/win32/api/winstring/nf-winstring-windowsgetstringrawbuffer
+        - name: виндовсинспектстринг
+          href: /windows/win32/api/winstring/nf-winstring-windowsinspectstring
+        - name: WindowsInspectString2
+          href: /windows/win32/api/winstring/nf-winstring-windowsinspectstring2
+        - name: виндовсисстринжемпти
+          href: /windows/win32/api/winstring/nf-winstring-windowsisstringempty
+        - name: виндовспреаллокатестрингбуффер
+          href: /windows/win32/api/winstring/nf-winstring-windowspreallocatestringbuffer
+        - name: виндовспромотестрингбуффер
+          href: /windows/win32/api/winstring/nf-winstring-windowspromotestringbuffer
+        - name: виндовсреплацестринг
+          href: /windows/win32/api/winstring/nf-winstring-windowsreplacestring
+        - name: виндовсстрингхасембеддеднулл
+          href: /windows/win32/api/winstring/nf-winstring-windowsstringhasembeddednull
+        - name: виндовссубстринг
+          href: /windows/win32/api/winstring/nf-winstring-windowssubstring
+        - name: виндовссубстрингвисспеЦифиедленгс
+          href: /windows/win32/api/winstring/nf-winstring-windowssubstringwithspecifiedlength
+        - name: виндовстримстринженд
+          href: /windows/win32/api/winstring/nf-winstring-windowstrimstringend
+        - name: виндовстримстрингстарт
+          href: /windows/win32/api/winstring/nf-winstring-windowstrimstringstart
+    - name: Интерфейсы
+      href: interfaces.md
+      items:
+        - name: иактиватаблеклассрегистратион
+          href: /windows/win32/api/activationregistration/nn-activationregistration-iactivatableclassregistration
+          items:
+            - name: 'ActivatableClassId, метод'
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_activatableclassid
+            - name: Метод Активатионтипе
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_activationtype
+            - name: Метод Attributes
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_attributes
+            - name: Метод Регистередтрустлевел
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_registeredtrustlevel
+            - name: Метод Регистратионскопе
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_registrationscope
+        - name: IActivationFactory
+          href: /windows/win32/api/activation/nn-activation-iactivationfactory
+          items:
+            - name: ActivateInstance - метод
+              href: /windows/win32/api/activation/nf-activation-iactivationfactory-activateinstance
+        - name: иагилереференце
+          href: /windows/win32/api/objidl/nn-objidl-iagilereference
+          items:
+            - name: Resolve - метод
+              href: iagilereference-resolve.md
+        - name: иапартментшутдовн
+          href: /windows/win32/api/objidl/nn-objidl-iapartmentshutdown
+          items:
+            - name: Метод Онунинитиализе
+              href: /windows/win32/api/objidl/nf-objidl-iapartmentshutdown-onuninitialize
+        - name: асинкактионкомплетедхандлер
+          href: asyncactioncompletedhandler.md
+          items:
+            - name: Invoke - метод
+              href: asyncactioncompletedhandler-invoke.md
+        - name: IAsyncAction
+          href: /windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction
+          items:
+            - name: метод get_Completed
+              href: iasyncaction-get-completed.md
+            - name: метод put_Completed
+              href: iasyncaction-put-completed.md
+            - name: Метод "Results"
+              href: iasyncaction-getresults.md
+        - name: иасинкактионпрогресшандлер<TProgress>
+          href: /previous-versions//br205782(v=vs.85)
+          items:
+            - name: Invoke - метод
+              href: /previous-versions//br205783(v=vs.85)
+        - name: IAsyncActionWithProgress<TProgress>
+          href: /previous-versions//br205784(v=vs.85)
+          items:
+            - name: метод get_Completed
+              href: /previous-versions//br205788(v=vs.85)
+            - name: метод put_Completed
+              href: /previous-versions//br205790(v=vs.85)
+            - name: метод get_Progress
+              href: /previous-versions//br205789(v=vs.85)
+            - name: метод put_Progress
+              href: /previous-versions//br205791(v=vs.85)
+            - name: Метод "Results"
+              href: /previous-versions//br205787(v=vs.85)
+        - name: иасинкактионвиспрогресскомплетедхандлер<TProgress>
+          href: /previous-versions//br205785(v=vs.85)
+          items:
+            - name: Invoke - метод
+              href: /previous-versions//br205786(v=vs.85)
+        - name: IAsyncInfo
+          href: /windows/win32/api/asyncinfo/nn-asyncinfo-iasyncinfo
+          items:
+            - name: Метод Cancel
+              href: /windows/win32/api/asyncinfo/nf-asyncinfo-iasyncinfo-cancel
+            - name: Метод Close
+              href: /windows/win32/api/asyncinfo/nf-asyncinfo-iasyncinfo-close
+            - name: 'ErrorCode, свойство'
+              href: /windows/win32/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_errorcode
+            - name: Свойство ID
+              href: /windows/win32/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_id
+            - name: Свойство Status
+              href: /windows/win32/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_status
+        - name: IAsyncOperation<TResult>
+          href: /previous-versions//br205802(v=vs.85)
+          items:
+            - name: метод get_Completed
+              href: /previous-versions//br205816(v=vs.85)
+            - name: метод put_Completed
+              href: /previous-versions//br205817(v=vs.85)
+            - name: Метод "Results"
+              href: /previous-versions//br205815(v=vs.85)
+        - name: иасинкоператионкомплетедхандлер<TResult>
+          href: /previous-versions//br205803(v=vs.85)
+          items:
+            - name: Invoke - метод
+              href: /previous-versions//br205804(v=vs.85)
+        - name: иасинкоператионпрогресшандлер
+          href: /previous-versions//br205805(v=vs.85)
+          items:
+            - name: Invoke - метод
+              href: /previous-versions//br205806(v=vs.85)
+        - name: IAsyncOperationWithProgress
+          href: /previous-versions//br205807(v=vs.85)
+          items:
+            - name: метод get_Completed
+              href: /previous-versions//br205811(v=vs.85)
+            - name: метод put_Completed
+              href: /previous-versions//br205813(v=vs.85)
+            - name: метод get_Progress
+              href: /previous-versions//br205812(v=vs.85)
+            - name: метод put_Progress
+              href: /previous-versions//br205814(v=vs.85)
+            - name: Метод "Results"
+              href: /previous-versions//br205810(v=vs.85)
+        - name: 'Иасинкоператионвиспрогресскомплетедхандлер<TResult, TProgress>'
+          href: /previous-versions//br205808(v=vs.85)
+          items:
+            - name: Invoke - метод
+              href: iasyncoperationwithprogresscompletedhandler-invoke.md
+        - name: иаудиофраменативе
+          href: /windows/win32/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenative
+          items:
+            - name: Метод GetData
+              href: iaudioframenative-getdata.md
+        - name: иаудиофраменативефактори
+          href: /windows/win32/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenativefactory
+          items:
+            - name: Метод Креатефроммфсампле
+              href: /windows/win32/api/windows.media.core.interop/nf-windows-media-core-interop-iaudioframenativefactory-createfrommfsample
+        - name: IBuffer
+          href: /previous-versions//hh438362(v=vs.85)
+          items:
+            - name: Свойство Capacity
+              href: /previous-versions//hh438363(v=vs.85)
+            - name: Свойство Length
+              href: /previous-versions//hh438364(v=vs.85)
+        - name: ибуффербитеакцесс
+          href: /previous-versions//hh846267(v=vs.85)
+          items:
+            - name: 'Buffer, метод'
+              href: /previous-versions//hh846268(v=vs.85)
+        - name: IClosable
+          href: /windows/win32/api/windows.foundation/nn-windows-foundation-iclosable
+          items:
+            - name: Метод Close
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-iclosable-close
+        - name: ICompositionDrawingSurfaceInterop2
+          href: /windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2
+          items:
+            - name: Метод Кописурфаце
+              href: /windows/win32/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2-copysurface
+        - name: иконтактманажеринтероп
+          href: /previous-versions//dn302109(v=vs.85)
+          items:
+            - name: Метод Шовконтакткардфорвиндов
+              href: /previous-versions//dn302110(v=vs.85)
+        - name: икореаппликатион
+          href: /previous-versions//hh438365(v=vs.85)
+          items:
+            - name: метод add_Resuming
+              href: /previous-versions//hh438375(v=vs.85)
+            - name: метод remove_Resuming
+              href: /previous-versions//hh438380(v=vs.85)
+            - name: метод add_Suspending
+              href: /previous-versions//hh438376(v=vs.85)
+            - name: метод remove_Suspending
+              href: /previous-versions//hh438381(v=vs.85)
+            - name: метод get_ID
+              href: /previous-versions//hh438378(v=vs.85)
+            - name: метод get_Properties
+              href: /previous-versions//hh438379(v=vs.85)
+            - name: Метод Жеткуррентвиев
+              href: /previous-versions//hh438377(v=vs.85)
+        - name: икореаппликатионексит
+          href: /previous-versions//hh438366(v=vs.85)
+          items:
+            - name: метод add_Exiting
+              href: /previous-versions//hh438367(v=vs.85)
+            - name: метод remove_Exiting
+              href: /previous-versions//hh438369(v=vs.85)
+            - name: Метод Exit
+              href: /previous-versions//hh438368(v=vs.85)
+        - name: икореаппликатионинитиализатион
+          href: /previous-versions//hh438370(v=vs.85)
+          items:
+            - name: Метод Run
+              href: /previous-versions//hh438371(v=vs.85)
+        - name: икореаппликатионвиев
+          href: /previous-versions//hh438372(v=vs.85)
+          items:
+            - name: Активированное событие
+              href: icoreapplicationview-activated.md
+            - name: 'CoreWindow, свойство'
+              href: /previous-versions//hh438374(v=vs.85)
+        - name: икореиммерсивеаппликатион
+          href: /previous-versions//hh438382(v=vs.85)
+          items:
+            - name: метод get_Views
+              href: /previous-versions//hh438384(v=vs.85)
+            - name: Метод Креатеневвиев
+              href: /previous-versions//hh438383(v=vs.85)
+        - name: икореинпутинтероп
+          href: /windows/win32/api/corewindow/nn-corewindow-icoreinputinterop
+          items:
+            - name: 'Мессажехандлед, свойство'
+              href: /windows/win32/api/corewindow/nf-corewindow-icoreinputinterop-put_messagehandled
+            - name: Метод Сетинпутсаурце
+              href: /windows/win32/api/corewindow/nf-corewindow-icoreinputinterop-setinputsource
+        - name: икоревиндовинтероп
+          href: /windows/win32/api/corewindow/nn-corewindow-icorewindowinterop
+          items:
+            - name: 'WindowHandle, свойство'
+              href: /windows/win32/api/corewindow/nf-corewindow-icorewindowinterop-get_windowhandle
+            - name: 'Мессажехандлед, свойство'
+              href: /windows/win32/api/corewindow/nf-corewindow-icorewindowinterop-put_messagehandled
+        - name: IDirect3DDxgiInterfaceAccess
+          href: /windows/win32/api/windows.graphics.directx.direct3d11.interop/ns-windows-graphics-directx-direct3d11-interop-idirect3ddxgiinterfaceaccess
+          items:
+            - name: GetInterface
+              href: /windows/win32/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-idirect3ddxgiInterfaceaccess-getinterface
+        - name: идллсерверактиватаблеклассрегистратион
+          href: /windows/win32/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration
+          items:
+            - name: 'DllPath, метод'
+              href: /windows/win32/api/activationregistration/nf-activationregistration-idllserveractivatableclassregistration-get_dllpath
+            - name: Метод Среадингтипе
+              href: /windows/win32/api/activationregistration/nf-activationregistration-idllserveractivatableclassregistration-get_threadingtype
+        - name: иерроррепортингсеттингс
+          href: /previous-versions//br205818(v=vs.85)
+          items:
+            - name: Метод Жетерророптионс
+              href: /previous-versions//br205819(v=vs.85)
+            - name: Метод Сетерророптионс
+              href: /previous-versions//br205820(v=vs.85)
+        - name: иевенсандлер<T>
+          href: /previous-versions//hh438385(v=vs.85)
+          items:
+            - name: Invoke - метод
+              href: /previous-versions//hh438386(v=vs.85)
+        - name: иексесерверактиватаблеклассрегистратион
+          href: /windows/win32/api/activationregistration/nn-activationregistration-iexeserveractivatableclassregistration
+          items:
+            - name: Метод ServerRegistration
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iexeserveractivatableclassregistration-get_serverregistration
+        - name: иексесерверрегистратион
+          href: /windows/win32/api/activationregistration/nn-activationregistration-iexeserverregistration
+          items:
+            - name: 'ServerName, метод'
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iexeserverregistration-get_servername
+            - name: Метод ExePath
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iexeserverregistration-get_exepath
+            - name: 'CommandLine, метод'
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iexeserverregistration-get_commandline
+            - name: Метод AppUserModelId
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iexeserverregistration-get_appusermodelid
+            - name: Метод IdentityType
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iexeserverregistration-get_identitytype
+            - name: Метод Identity
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iexeserverregistration-get_identity
+            - name: Метод создания экземпляров
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iexeserverregistration-get_instancing
+            - name: Метод Permissions
+              href: /windows/win32/api/activationregistration/nf-activationregistration-iexeserverregistration-get_permissions
+        - name: ифиндреференцетаржетскаллбакк
+          href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback
+          items:
+            - name: Метод Фаундтраккертаржет
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback-foundtrackertarget
+        - name: иинпутпанеинтероп
+          href: /windows/win32/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop
+          items:
+            - name: Метод Жетфорвиндов
+              href: /windows/win32/api/inputpaneinterop/nf-inputpaneinterop-iinputpaneinterop-getforwindow
+        - name: IInputStream
+          href: /previous-versions//hh438387(v=vs.85)
+          items:
+            - name: Метод ReadAsync
+              href: /previous-versions//hh438388(v=vs.85)
+        - name: IInspectable
+          href: /windows/win32/api/inspectable/nn-inspectable-iinspectable
+          items:
+            - name: GetIids - метод
+              href: /windows/win32/api/inspectable/nf-inspectable-iinspectable-getiids
+            - name: GetRuntimeClassName - метод
+              href: /windows/win32/api/inspectable/nf-inspectable-iinspectable-getruntimeclassname
+            - name: GetTrustLevel - метод
+              href: /windows/win32/api/inspectable/nf-inspectable-iinspectable-gettrustlevel
+        - name: IIterable<T>
+          href: /previous-versions//br205825(v=vs.85)
+          items:
+            - name: Первый метод
+              href: /previous-versions//br205826(v=vs.85)
+        - name: иитератор<T>
+          href: /previous-versions//br205827(v=vs.85)
+          items:
+            - name: метод get_Current
+              href: /previous-versions//br205828(v=vs.85)
+            - name: метод get_HasCurrent
+              href: /previous-versions//br205829(v=vs.85)
+            - name: MoveNext - метод
+              href: /previous-versions//br205830(v=vs.85)
+        - name: 'IKeyValuePair<K, V>'
+          href: /previous-versions//br205831(v=vs.85)
+          items:
+            - name: метод get_Key
+              href: /previous-versions//br205832(v=vs.85)
+            - name: метод get_Value
+              href: /previous-versions//br205833(v=vs.85)
+        - name: илангуажеексцептионерроринфо
+          href: /windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo
+          items:
+            - name: Метод Жетлангуажеексцептион
+              href: /windows/win32/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptionerrorinfo-getlanguageexception
+        - name: ILanguageExceptionErrorInfo2
+          href: /windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo2
+          items:
+            - name: Метод Жетпревиауслангуажеексцептионерроринфо
+              href: /windows/win32/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptionerrorinfo2-getpreviouslanguageexceptionerrorinfo
+            - name: Метод Каптурепропагатионконтекст
+              href: /windows/win32/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptionerrorinfo2-capturepropagationcontext
+            - name: Метод Жетпропагатионконтекссеад
+              href: /windows/win32/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptionerrorinfo2-getpropagationcontexthead
+        - name: илангуажеексцептионтрансформ
+          href: /windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptiontransform
+          items:
+            - name: Метод Жеттрансформедрестриктедерроринфо
+              href: /windows/win32/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptiontransform-gettransformedrestrictederrorinfo
+        - name: илангуажеексцептионстаккбакктраце
+          href: /windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionstackbacktrace
+          items:
+            - name: Метод Жетстаккбакктраце
+              href: /windows/win32/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptionstackbacktrace-getstackbacktrace
+        - name: 'IMap<K, V>'
+          href: /previous-versions//br205834(v=vs.85)
+          items:
+            - name: Clear - метод
+              href: /previous-versions//br205843(v=vs.85)
+            - name: метод get_Size
+              href: /previous-versions//br205845(v=vs.85)
+            - name: Метод onview
+              href: /previous-versions//br205844(v=vs.85)
+            - name: Метод HasKey
+              href: /previous-versions//br205846(v=vs.85)
+            - name: Insert - метод
+              href: /previous-versions//br205847(v=vs.85)
+            - name: Метод Lookup
+              href: /previous-versions//br205848(v=vs.85)
+            - name: Remove - метод
+              href: /previous-versions//br205849(v=vs.85)
+        - name: имапчанжедевентаргс<K>
+          href: /previous-versions//br205835(v=vs.85)
+          items:
+            - name: метод get_CollectionChange
+              href: /previous-versions//br205836(v=vs.85)
+            - name: метод get_Key
+              href: /previous-versions//br205837(v=vs.85)
+        - name: 'IMapView<K, V>'
+          href: /previous-versions//br205838(v=vs.85)
+          items:
+            - name: метод get_Size
+              href: /previous-versions//br205839(v=vs.85)
+            - name: Метод HasKey
+              href: /previous-versions//br205840(v=vs.85)
+            - name: Метод Lookup
+              href: /previous-versions//br205841(v=vs.85)
+            - name: Split - метод
+              href: /previous-versions//br205842(v=vs.85)
+        - name: имеморибуффербитеакцесс
+          href: /previous-versions//mt297505(v=vs.85)
+          items:
+            - name: GetBuffer - метод
+              href: imemorybufferbyteaccess-getbuffer.md
+        - name: IMetaDataAssemblyImport
+          href: /windows/win32/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport
+          items:
+            - name: Метод CloseEnum
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-closeenum
+            - name: Метод EnumAssemblyRefs
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumassemblyrefs
+            - name: Метод EnumExportedTypes
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumexportedtypes
+            - name: Метод EnumFiles
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enumfiles
+            - name: Метод EnumManifestResources
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-enummanifestresources
+            - name: Метод FindAssembliesByName
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findassembliesbyname
+            - name: Метод FindExportedTypeByName
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findexportedtypebyname
+            - name: Метод FindManifestResourceByName
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-findmanifestresourcebyname
+            - name: Метод GetAssemblyFromScop
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyfromscope
+            - name: Метод GetAssemblyProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyprops
+            - name: Метод GetAssemblyRefProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getassemblyrefprops
+            - name: Метод GetExportedTypeProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getexportedtypeprops
+            - name: Метод GetFileProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getfileprops
+            - name: Метод GetManifestResourceProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataassemblyimport-getmanifestresourceprops
+        - name: IMetaDataDispenser
+          href: /windows/win32/api/rometadataapi/nn-rometadataapi-imetadatadispenser
+          items:
+            - name: Метод DefineScope
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatadispenser-definescope
+            - name: Метод OpenScope
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatadispenser-openscope
+            - name: Метод OpenScopeOnMemory
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatadispenser-openscopeonmemory
+        - name: IMetaDataDispenserEx
+          href: /windows/win32/api/rometadataapi/nn-rometadataapi-imetadatadispenserex
+          items:
+            - name: Метод FindAssembly
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-findassembly
+            - name: Метод FindAssemblyModule
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-findassemblymodule
+            - name: Метод GetCORSystemDirectory
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-getcorsystemdirectory
+            - name: Метод GetOption
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-getoption
+            - name: Метод OpenScopeOnITypeInfo
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-openscopeonitypeinfo
+            - name: Метод SetOption
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-setoption
+        - name: IMetaDataImport
+          href: /windows/win32/api/rometadataapi/nn-rometadataapi-imetadataimport
+          items:
+            - name: Метод CloseEnum
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-closeenum
+            - name: Метод CountEnum
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-countenum
+            - name: Метод EnumCustomAttributes
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumcustomattributes
+            - name: Метод EnumEvents
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumevents
+            - name: Метод EnumFields
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumfields
+            - name: Метод EnumFieldsWithName
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumfieldswithname
+            - name: Метод EnumInterfaceImpls
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enuminterfaceimpls
+            - name: Метод EnumMemberRefs
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enummemberrefs
+            - name: Метод EnumMembers
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enummembers
+            - name: Метод EnumMembersWithName
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enummemberswithname
+            - name: Метод EnumMethodImpls
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enummethodimpls
+            - name: Метод EnumMethods
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enummethods
+            - name: Метод EnumMethodSemantics
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enummethodsemantics
+            - name: Метод EnumMethodsWithName
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enummethodswithname
+            - name: Метод EnumModuleRefs
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enummodulerefs
+            - name: Метод EnumParams
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumparams
+            - name: Метод EnumPermissionSets
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumpermissionsets
+            - name: Метод EnumProperties
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumproperties
+            - name: Метод EnumSignatures
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumsignatures
+            - name: Метод EnumTypeDefs
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumtypedefs
+            - name: Метод EnumTypeRefs
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumtyperefs
+            - name: Метод EnumTypeSpecs
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumtypespecs
+            - name: Метод EnumUnresolvedMethods
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumunresolvedmethods
+            - name: Метод EnumUserStrings
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-enumuserstrings
+            - name: Метод FindMemberRef
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-findmemberref
+            - name: Метод FindTypeDefByName
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-findtypedefbyname
+            - name: Метод FindTypeRef
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-findtyperef
+            - name: Метод GetCustomAttributeByName
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getcustomattributebyname
+            - name: Метод GetCustomAttributeProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getcustomattributeprops
+            - name: Метод GetFieldMarshal
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getfieldmarshal
+            - name: Метод GetFieldProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getfieldprops
+            - name: Метод GetInterfaceImplProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getinterfaceimplprops
+            - name: Метод GetMemberProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getmemberprops
+            - name: Метод GetMemberRefProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getmemberrefprops
+            - name: Метод GetMethodProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getmethodprops
+            - name: Метод GetMethodSemantics
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getmethodsemantics
+            - name: Метод GetModuleFromScope
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getmodulefromscope
+            - name: Метод GetModuleRefProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getmodulerefprops
+            - name: Метод GetNameFromToken
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getnamefromtoken
+            - name: Метод GetNativeCallConvFromSig
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getnativecallconvfromsig
+            - name: Метод GetNestedClassProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getnestedclassprops
+            - name: Метод GetParamForMethodIndex
+              href: /previous-versions//hh870628(v=vs.85)
+            - name: Метод GetParamProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getparamprops
+            - name: Метод GetPermissionSetProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getpermissionsetprops
+            - name: Метод Жетпинвокемап
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getpinvokemap
+            - name: Метод GetRVA
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getrva
+            - name: Метод GetScopeProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getscopeprops
+            - name: Метод GetSigFromToken
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getsigfromtoken
+            - name: Метод GetTypeDefProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-gettypedefprops
+            - name: Метод GetTypeRefProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-gettyperefprops
+            - name: Метод GetTypeSpecFromToken
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-gettypespecfromtoken
+            - name: Метод GetUserString
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-getuserstring
+            - name: Метод IsGlobal
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-isglobal
+            - name: Метод IsValidToken
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-isvalidtoken
+            - name: Метод ResetEnum
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-resetenum
+            - name: Метод ResolveTypeRef
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport-resolvetyperef
+        - name: IMetaDataImport2
+          href: /windows/win32/api/rometadataapi/nn-rometadataapi-imetadataimport2
+          items:
+            - name: Метод EnumGenericParamConstraints
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport2-enumgenericparamconstraints
+            - name: Метод EnumGenericParams
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport2-enumgenericparams
+            - name: Метод EnumMethodSpecs
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport2-enummethodspecs
+            - name: Метод GetGenericParamConstraintProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport2-getgenericparamconstraintprops
+            - name: Метод GetGenericParamProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport2-getgenericparamprops
+            - name: Метод GetMethodSpecProps
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport2-getmethodspecprops
+            - name: Метод GetPEKind
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport2-getpekind
+            - name: Метод GetVersionString
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadataimport2-getversionstring
+        - name: IMetaDataTables
+          href: /windows/win32/api/rometadataapi/nn-rometadataapi-imetadatatables
+          items:
+            - name: Метод GetBlob
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getblob
+            - name: Метод GetBlobHeapSize
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getblobheapsize
+            - name: Метод GetCodedTokenInfo
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getcodedtokeninfo
+            - name: Метод GetColumn
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getcolumn
+            - name: Метод GetColumnInfo
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getcolumninfo
+            - name: Метод GetGuid
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getguid
+            - name: Метод GetGuidHeapSize
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getguidheapsize
+            - name: Метод GetNextBlob
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextblob
+            - name: Метод GetNextGuid
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextguid
+            - name: Метод GetNextString
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextstring
+            - name: Метод GetNextUserString
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextuserstring
+            - name: Метод GetNumTables
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getnumtables
+            - name: Метод GetRow
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getrow
+            - name: Метод GetString
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getstring
+            - name: Метод GetStringHeapSize
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getstringheapsize
+            - name: Метод GetTableIndex
+              href: /previous-versions//hh870662(v=vs.85)
+            - name: Метод GetTableInfo
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-gettableinfo
+            - name: Метод GetUserString
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getuserstring
+            - name: Метод GetUserStringHeapSize
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables-getuserstringheapsize
+        - name: IMetaDataTables2
+          href: /windows/win32/api/rometadataapi/nn-rometadataapi-imetadatatables2
+          items:
+            - name: Метод GetMetaDataStorage
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastorage
+            - name: Метод GetMetaDataStreamInfo
+              href: /windows/win32/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastreaminfo
+        - name: 'IObservableMap<K, V>'
+          href: /previous-versions//br205851(v=vs.85)
+          items:
+            - name: метод add_MapChanged
+              href: /previous-versions//br205852(v=vs.85)
+            - name: метод remove_MapChanged
+              href: /previous-versions//br205853(v=vs.85)
+        - name: IObservableVector<T>
+          href: /previous-versions//br205854(v=vs.85)
+          items:
+            - name: метод add_VectorChanged
+              href: /previous-versions//br205855(v=vs.85)
+            - name: метод remove_VectorChanged
+              href: /previous-versions//br205856(v=vs.85)
+        - name: иоплоккбреакингхандлер
+          href: /windows/win32/api/windowsstoragecom/nn-windowsstoragecom-ioplockbreakinghandler
+          items:
+            - name: Метод Оплоккбреакинг
+              href: /windows/win32/api/windowsstoragecom/nf-windowsstoragecom-ioplockbreakinghandler-oplockbreaking
+        - name: IOutputStream
+          href: /previous-versions//hh438390(v=vs.85)
+          items:
+            - name: Метод WriteAsync
+              href: /previous-versions//hh438392(v=vs.85)
+            - name: Метод FlushAsync
+              href: /previous-versions//hh438391(v=vs.85)
+        - name: ипдфрендерернативе
+          href: /windows/win32/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative
+          items:
+            - name: Метод Рендерпажетодевицеконтекст
+              href: /windows/win32/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetodevicecontext
+            - name: Метод Рендерпажетосурфаце
+              href: /windows/win32/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetosurface
+        - name: ипаккажедебугсеттингс
+          href: /previous-versions//hh438393(v=vs.85)
+          items:
+            - name: Метод Активатебаккграундтаск
+              href: /previous-versions//dn315019(v=vs.85)
+            - name: Метод Дисабледебуггинг
+              href: /previous-versions//hh438394(v=vs.85)
+            - name: Метод Енабледебуггинг
+              href: /previous-versions//hh438395(v=vs.85)
+            - name: Метод Енумератебаккграундтаскс
+              href: /previous-versions//dn315020(v=vs.85)
+            - name: Метод Жетпаккажеексекутионстате
+              href: /previous-versions//dn315021(v=vs.85)
+            - name: Метод Регистерфорпаккажестатечанжес
+              href: /previous-versions//dn315022(v=vs.85)
+            - name: Метод Resume
+              href: ipackagedebugsettings-resume.md
+            - name: Метод Сеттаржетсессионид
+              href: /previous-versions//hh438397(v=vs.85)
+            - name: Метод СтартсервиЦинг
+              href: /previous-versions//dn315023(v=vs.85)
+            - name: Метод Стартсессионредиректион
+              href: /previous-versions//dn315024(v=vs.85)
+            - name: Метод СтопсервиЦинг
+              href: /previous-versions//dn315025(v=vs.85)
+            - name: Метод Стопсессионредиректион
+              href: /previous-versions//dn315026(v=vs.85)
+            - name: Метод Suspend
+              href: ipackagedebugsettings-suspend.md
+            - name: Метод Терминатеаллпроцессес
+              href: /previous-versions//hh438399(v=vs.85)
+            - name: Метод Унрегистерфорпаккажестатечанжес
+              href: /previous-versions//dn315027(v=vs.85)
+        - name: иплайтоманажеринтероп
+          href: /windows/win32/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop
+          items:
+            - name: Метод Жетфорвиндов
+              href: /windows/win32/api/playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-getforwindow
+            - name: Метод Шовплайтауифорвиндов
+              href: /windows/win32/api/playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-showplaytouiforwindow
+        - name: ипринтманажеринтероп
+          href: /windows/win32/api/printmanagerinterop/nn-printmanagerinterop-iprintmanagerinterop
+          items:
+            - name: Метод Жетфорвиндов
+              href: /windows/win32/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-getforwindow
+            - name: Метод Шовпринтуифорвиндовасинк
+              href: /windows/win32/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-showprintuiforwindowasync
+        - name: IPropertyValue
+          href: /windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue
+          items:
+            - name: Метод с методом Boolean
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getboolean
+            - name: Метод Жетбулеанаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getbooleanarray
+            - name: Метод GetChar16
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getchar16
+            - name: Метод GetChar16Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getchar16array
+            - name: Метод DateTime
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdatetime
+            - name: Метод Жетдатетимеаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdatetimearray
+            - name: Метод Double
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdouble
+            - name: Метод Жетдаублеаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdoublearray
+            - name: Метод с методом WebMethod
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getguid
+            - name: Метод Жетгуидаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getguidarray
+            - name: Метод Жетинспектаблеаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getinspectablearray
+            - name: Метод Int32
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint32
+            - name: Метод GetInt32Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint32array
+            - name: Метод Int64
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint64
+            - name: Метод GetInt64Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getint64array
+            - name: Метод метода with
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpoint
+            - name: Метод Жетпоинтаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpointarray
+            - name: GetRect - метод
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getrect
+            - name: Метод Жетректаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getrectarray
+            - name: Метод с методом onsingle
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getsingle
+            - name: Метод Жетсинглеаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getsinglearray
+            - name: GetSize - метод
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getsize
+            - name: Метод Жетсизеаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getsizearray
+            - name: GetString - метод
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getstring
+            - name: Метод Жетстрингаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getstringarray
+            - name: Метод WebMethod
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-gettimespan
+            - name: Метод Жеттимеспанаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-gettimespanarray
+            - name: Метод UInt32
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint32
+            - name: Метод GetUInt32Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint32array
+            - name: Метод UInt64
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint64
+            - name: Метод GetUInt64Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint64array
+            - name: Метод GetUInt8
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint8
+            - name: Метод GetUInt8Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint8array
+            - name: 'Type, свойство'
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type
+        - name: ипропертивалуестатикс
+          href: /windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics
+          items:
+            - name: Метод Креатебулеан
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createboolean
+            - name: Метод Креатебулеанаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createbooleanarray
+            - name: Метод CreateChar16
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createchar16
+            - name: Метод CreateChar16Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createchar16array
+            - name: Метод Креатедатетиме
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetime
+            - name: Метод Креатедатетимеаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetimearray
+            - name: Метод Креатедаубле
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdouble
+            - name: Метод Креатедаублеаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdoublearray
+            - name: Метод Креатимпти
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createempty
+            - name: Метод Креатегуид
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createguid
+            - name: Метод Креатегуидаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createguidarray
+            - name: Метод Креатеинспектабле
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createinspectable
+            - name: Метод Креатеинспектаблеаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createinspectablearray
+            - name: Метод CreateInt32
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint32
+            - name: Метод CreateInt32Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint32array
+            - name: Метод CreateInt64
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint64
+            - name: Метод CreateInt64Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint64array
+            - name: Метод Креатепоинт
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpoint
+            - name: Метод Креатепоинтаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpointarray
+            - name: Метод Креатерект
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrect
+            - name: Метод Креатеректаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrectarray
+            - name: Метод Креатесингле
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsingle
+            - name: Метод Креатесинглеаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsinglearray
+            - name: Метод Креатесизе
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsize
+            - name: Метод Креатесизеаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsizearray
+            - name: Метод Креатестринг
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createstring
+            - name: Метод Креатестрингаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createstringarray
+            - name: Метод Креатетимеспан
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createtimespan
+            - name: Метод Креатетимеспанаррай
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createtimespanarray
+            - name: Метод CreateUInt32
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint32
+            - name: Метод CreateUInt32Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint32array
+            - name: Метод CreateUInt64
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint64
+            - name: Метод CreateUInt64Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint64array
+            - name: Метод CreateUInt8
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint8
+            - name: Метод CreateUInt8Array
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint8array
+        - name: IRandomAccessStream
+          href: /previous-versions//hh438400(v=vs.85)
+          items:
+            - name: Метод Жетинпутстреамат
+              href: /previous-versions//hh438401(v=vs.85)
+            - name: Метод Жетаутпутстреамат
+              href: /previous-versions//hh438402(v=vs.85)
+            - name: 'Size, свойство'
+              href: /previous-versions//hh438403(v=vs.85)
+        - name: ирандомакцессстреамфилеакцессмоде
+          href: /windows/win32/api/windowsstoragecom/nn-windowsstoragecom-irandomaccessstreamfileaccessmode
+          items:
+            - name: Методического режима
+              href: /windows/win32/api/windowsstoragecom/nf-windowsstoragecom-irandomaccessstreamfileaccessmode-getmode
+        - name: IReference<T>
+          href: /previous-versions//br224583(v=vs.85)
+          items:
+            - name: метод get_Value
+              href: /previous-versions//br224586(v=vs.85)
+        - name: иреференцеаррай<T>
+          href: /previous-versions//br224584(v=vs.85)
+          items:
+            - name: метод get_Value
+              href: /previous-versions//br224585(v=vs.85)
+        - name: иреференцетраккер
+          href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker
+          items:
+            - name: Метод Коннектфромтраккерсаурце
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-connectfromtrackersource
+            - name: Метод Дисконнектфромтраккерсаурце
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-disconnectfromtrackersource
+            - name: Метод Финдтраккертаржетс
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets
+            - name: Метод Жетреференцетраккерманажер
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-getreferencetrackermanager
+            - name: Метод Аддреффромтраккерсаурце
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-addreffromtrackersource
+            - name: Метод Релеасефромтраккерсаурце
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-releasefromtrackersource
+            - name: Метод Пегфромтраккерсаурце
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-pegfromtrackersource
+        - name: иреференцетраккерхост
+          href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost
+          items:
+            - name: Метод Дисконнектунуседреференцесаурцес
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-disconnectunusedreferencesources
+            - name: Метод Релеаседисконнектедреференцесаурцес
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-releasedisconnectedreferencesources
+            - name: Метод Нотифендофреференцетраккингонсреад
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-notifyendofreferencetrackingonthread
+            - name: Метод Жеттраккертаржет
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-gettrackertarget
+            - name: Метод Аддмеморипрессуре
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-addmemorypressure
+            - name: Метод RemoveMemoryPressure
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost-removememorypressure
+        - name: иреференцетраккерманажер
+          href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager
+          items:
+            - name: Метод Референцетраккингстартед
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-referencetrackingstarted
+            - name: Метод Финдтраккертаржетскомплетед
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-findtrackertargetscompleted
+            - name: Метод Референцетраккингкомплетед
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-referencetrackingcompleted
+            - name: Метод Сетреференцетраккерхост
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-setreferencetrackerhost
+        - name: иреференцетраккертаржет
+          href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget
+          items:
+            - name: Метод Аддреффромреференцетраккер
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-addreffromreferencetracker
+            - name: Метод Релеасефромреференцетраккер
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-releasefromreferencetracker
+            - name: Метод Пег
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-peg
+            - name: Метод унпег
+              href: /windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-unpeg
+        - name: ирестриктедерроринфо
+          href: /windows/win32/api/RestrictedErrorInfo/nn-restrictederrorinfo-irestrictederrorinfo
+          items:
+            - name: Метод Жетеррордетаилс
+              href: /windows/win32/api/RestrictedErrorInfo/nf-restrictederrorinfo-irestrictederrorinfo-geterrordetails
+            - name: Метод IsReference
+              href: /windows/win32/api/RestrictedErrorInfo/nf-restrictederrorinfo-irestrictederrorinfo-getreference
+        - name: исофтваребитмапнативе
+          href: /windows/win32/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative
+          items:
+            - name: Метод GetData
+              href: /windows/win32/api/windows.graphics.imaging.interop/nf-windows-graphics-imaging-interop-isoftwarebitmapnative-getdata
+        - name: исофтваребитмапнативефактори
+          href: /windows/win32/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnativefactory
+          items:
+            - name: Метод CreateFromMF2DBuffer2
+              href: /windows/win32/api/windows.graphics.imaging.interop/nf-windows-graphics-imaging-interop-isoftwarebitmapnativefactory-createfrommf2dbuffer2
+            - name: Метод Креатефромвикбитмап
+              href: /windows/win32/api/windows.graphics.imaging.interop/nf-windows-graphics-imaging-interop-isoftwarebitmapnativefactory-createfromwicbitmap
+        - name: исторажефолдерхандлеакцесс
+          href: /windows/win32/api/windowsstoragecom/nn-windowsstoragecom-istoragefolderhandleaccess
+          items:
+            - name: Метод создания
+              href: /windows/win32/api/windowsstoragecom/nf-windowsstoragecom-istoragefolderhandleaccess-create
+        - name: исторажеитемхандлеакцесс
+          href: /windows/win32/api/windowsstoragecom/nn-windowsstoragecom-istorageitemhandleaccess
+          items:
+            - name: Метод создания
+              href: /windows/win32/api/windowsstoragecom/nf-windowsstoragecom-istorageitemhandleaccess-create
+        - name: IStringable
+          href: /windows/win32/api/windows.foundation/nn-windows-foundation-istringable
+          items:
+            - name: 'ToString, метод'
+              href: /windows/win32/api/windows.foundation/nf-windows-foundation-istringable-tostring
+        - name: исурфацеимажесаурцеманажернативе
+          href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcemanagernative
+          items:
+            - name: Метод Флушаллсурфацесвисдевице
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcemanagernative-flushallsurfaceswithdevice
+        - name: ISurfaceImageSourceNativeWithD2D
+          href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d
+          items:
+            - name: Метод Бегиндрав
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-begindraw
+            - name: Метод EndDraw
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-enddraw
+            - name: Метод Ресумедрав
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-resumedraw
+            - name: Метод Сетдевице
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-setdevice
+            - name: Метод Суспенддрав
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d-suspenddraw
+        - name: исурфацеимажесаурценативе
+          href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenative
+          items:
+            - name: Метод Сетдевице
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenative-setdevice
+            - name: Метод Бегиндрав
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenative-begindraw
+            - name: Метод EndDraw
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenative-enddraw
+        - name: исуспендингдеферрал
+          href: isuspendingdeferral.md
+          items:
+            - name: Метод Complete
+              href: isuspendingdeferral-complete.md
+        - name: исуспендинжевентаргс
+          href: isuspendingeventargs.md
+          items:
+            - name: 'Суспендингоператион, свойство'
+              href: isuspendingeventargs-suspendingoperation.md
+        - name: исуспендингоператион
+          href: isuspendingoperation.md
+          items:
+            - name: Свойство крайний срок
+              href: isuspendingoperation-deadline.md
+            - name: Метод откладывания
+              href: isuspendingoperation-getdeferral.md
+        - name: исвапчаинбаккграундпанелнативе
+          href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainbackgroundpanelnative
+          items:
+            - name: Метод Сетсвапчаин
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainbackgroundpanelnative-setswapchain
+        - name: ISwapChainPanelNative
+          href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative
+          items:
+            - name: Метод Сетсвапчаин
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative-setswapchain
+        - name: ISwapChainPanelNative2
+          href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative2
+          items:
+            - name: Метод Сетсвапчаинхандле
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative2-setswapchainhandle
+        - name: 'Итипедевенсандлер<TSender, Таргс>'
+          href: /previous-versions//hh438424(v=vs.85)
+          items:
+            - name: Invoke - метод
+              href: /previous-versions//hh438425(v=vs.85)
+        - name: иунбуффередфилехандлеоплокккаллбакк
+          href: /windows/win32/api/windowsstoragecom/nn-windowsstoragecom-iunbufferedfilehandleoplockcallback
+          items:
+            - name: Метод Онброкенкаллбакк
+              href: /windows/win32/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleoplockcallback-onbrokencallback
+        - name: иунбуффередфилехандлепровидер
+          href: /windows/win32/api/windowsstoragecom/nn-windowsstoragecom-iunbufferedfilehandleprovider
+          items:
+            - name: Метод Клосеунбуффередфилехандле
+              href: /windows/win32/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-closeunbufferedfilehandle
+            - name: Метод Опенунбуффередфилехандле
+              href: /windows/win32/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-openunbufferedfilehandle
+        - name: IVector<T>
+          href: /previous-versions//br224590(v=vs.85)
+          items:
+            - name: Append - метод
+              href: /previous-versions//br224598(v=vs.85)
+            - name: Clear - метод
+              href: /previous-versions//br224599(v=vs.85)
+            - name: метод get_Size
+              href: /previous-versions//br224602(v=vs.85)
+            - name: Метод GetAt
+              href: /previous-versions//br224600(v=vs.85)
+            - name: Метод onview
+              href: /previous-versions//br224601(v=vs.85)
+            - name: IndexOf - метод
+              href: /previous-versions//br224603(v=vs.85)
+            - name: Метод Инсертат
+              href: /previous-versions//br224604(v=vs.85)
+            - name: 'RemoveAt, метод'
+              href: /previous-versions//br224605(v=vs.85)
+            - name: Метод Ремовеатенд
+              href: /previous-versions//br224606(v=vs.85)
+            - name: Метод SetAt
+              href: /previous-versions//br224607(v=vs.85)
+        - name: ивекторчанжедевентаргс
+          href: ivectorchangedeventargs.md
+          items:
+            - name: метод get_CollectionChange
+              href: ivectorchangedeventargs-get-collectionchange.md
+            - name: метод get_Index
+              href: ivectorchangedeventargs-get-index.md
+        - name: 'IVectorView<T> '
+          href: /previous-versions//br224594(v=vs.85)
+          items:
+            - name: метод get_Size
+              href: /previous-versions//br224596(v=vs.85)
+            - name: Метод GetAt
+              href: /previous-versions//br224595(v=vs.85)
+            - name: IndexOf - метод
+              href: /previous-versions//br224597(v=vs.85)
+        - name: ивидеофраменативе
+          href: /windows/win32/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative
+          items:
+            - name: Метод GetData
+              href: ivideoframenative-getdata.md
+            - name: Метод метода WebMethod
+              href: ivideoframenative-getdevice.md
+        - name: ивидеофраменативефактори
+          href: /windows/win32/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenativefactory
+          items:
+            - name: Метод Креатефроммфсампле
+              href: /windows/win32/api/windows.media.core.interop/nf-windows-media-core-interop-ivideoframenativefactory-createfrommfsample
+        - name: ивиевпровидер
+          href: /previous-versions//hh438426(v=vs.85)
+        - name: ивиевпровидерфактори
+          href: /previous-versions//hh438427(v=vs.85)
+        - name: ивиртуалсурфацеимажесаурценативе
+          href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative
+          items:
+            - name: Сделать недействительным метод
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-invalidate
+            - name: Метод Жетупдатеректкаунт
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-getupdaterectcount
+            - name: Метод Жетупдатеректс
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-getupdaterects
+            - name: Метод Жетвисиблебаундс
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-getvisiblebounds
+            - name: Метод Регистерфорупдатеснидед
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-registerforupdatesneeded
+            - name: Метод изменения размера
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-resize
+        - name: ивиртуалсурфацеупдатескаллбаккнативе
+          href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative
+          items:
+            - name: Метод Упдатеснидед
+              href: /windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative-updatesneeded
+        - name: IWeakReference
+          href: /windows/win32/api/weakreference/nn-weakreference-iweakreference
+          items:
+            - name: Resolve - метод
+              href: /windows/win32/api/weakreference/nf-weakreference-iweakreference-resolve(refiid_iinspectable)
+        - name: IWeakReferenceSource
+          href: /windows/win32/api/weakreference/nn-weakreference-iweakreferencesource
+          items:
+            - name: GetWeakReference - метод
+              href: /windows/win32/api/weakreference/nf-weakreference-iweakreferencesource-getweakreference
+        - name: 'Мапчанжедевенсандлер<K, V>'
+          href: /previous-versions//br224612(v=vs.85)
+          items:
+            - name: Invoke - метод
+              href: /previous-versions//br224613(v=vs.85)
+        - name: VectorChangedEventHandler<T>
+          href: /previous-versions//br224626(v=vs.85)
+          items:
+            - name: Invoke - метод
+              href: /previous-versions//br224627(v=vs.85)
+    - name: Структуры
+      href: structures.md
+      items:
+        - name: APARTMENT_SHUTDOWN_REGISTRATION_COOKIE
+          href: /previous-versions//jj219262(v=vs.85)
+        - name: EventRegistrationToken
+          href: /windows/win32/api/eventtoken/ns-eventtoken-eventregistrationtoken
+        - name: Дата/время
+          href: /windows/win32/api/windows.foundation/ns-windows-foundation-datetime
+        - name: HSTRING_HEADER
+          href: /windows/win32/api/hstring/ns-hstring-hstring_header
+        - name: иросимплеметадатабуилдер
+          href: /windows/win32/api/roparameterizediid/ns-roparameterizediid-irosimplemetadatabuilder
+          items:
+            - name: Метод Сетделегате
+              href: /previous-versions/hh438407(v=vs.85)
+            - name: Метод Сетенум
+              href: /previous-versions/hh438408(v%3Dvs.85)
+            - name: Метод Сетинтерфацеграуппараметеризеддефаулт
+              href: /previous-versions/hh438409(v=vs.85)
+            - name: Метод Сетинтерфацеграупсимпледефаулт
+              href: /previous-versions/hh438410(v=vs.85)
+            - name: Метод Сетпараметеризедделегате
+              href: /previous-versions/hh438411(v%3Dvs.85)
+            - name: Метод Сетпараметеризединтерфаце
+              href: /previous-versions/hh438412(v=vs.90)
+            - name: Метод Сетрунтимекласспараметеризеддефаулт
+              href: /previous-versions/hh438413(v%3Dvs.85)
+            - name: Метод Сетрунтимекласссимпледефаулт
+              href: /previous-versions/hh438414(v%3Dvs.85)
+            - name: Метод Сетструкт
+              href: /previous-versions/hh438415(v%3Dvs.85)
+            - name: Метод Сетвинртинтерфаце
+              href: /previous-versions/hh438416(v%3Dvs.85)
+        - name: ирометадаталокатор
+          href: /windows/win32/api/roparameterizediid/ns-roparameterizediid-irometadatalocator
+          items:
+            - name: Определение метода
+              href: /previous-versions//hh438405(v=vs.85)
+        - name: Точка
+          href: /windows/win32/api/windows.foundation/ns-windows-foundation-point
+        - name: PDF_RENDER_PARAMS
+          href: /windows/win32/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params
+        - name: Rect
+          href: /windows/win32/api/windows.foundation/ns-windows-foundation-rect
+        - name: ServerInformation
+          href: /windows/win32/api/combaseapi/ns-combaseapi-serverinformation
+        - name: Размер
+          href: /windows/win32/api/windows.foundation/ns-windows-foundation-size
+        - name: TextRange
+          href: /previous-versions//dn302173(v=vs.85)
+        - name: TimeSpan
+          href: /windows/win32/api/windows.foundation/ns-windows-foundation-timespan

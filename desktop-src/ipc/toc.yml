@@ -1,0 +1,170 @@
+- name: Обмен данными между процессами
+  href: interprocess-communications.md
+  items:
+    - name: маилслотс
+      href: mailslots.md
+      items:
+        - name: О Маилслотс
+          href: about-mailslots.md
+          items:
+            - name: Имена слотов
+              href: mailslot-names.md
+            - name: Операции с слотом
+              href: mailslot-operations.md
+        - name: Использование Маилслотс
+          href: using-mailslots.md
+          items:
+            - name: Создание слота сообщений
+              href: creating-a-mailslot.md
+            - name: Запись в почтовый слот
+              href: writing-to-a-mailslot.md
+            - name: Чтение из слота сообщений
+              href: reading-from-a-mailslot.md
+        - name: Справочник по слотам
+          href: mailslot-reference.md
+          items:
+            - name: Функции слота
+              href: mailslot-functions.md
+              items:
+                - name: креатемаилслот
+                  href: /windows/desktop/api/Winbase/nf-winbase-createmailslota
+                - name: жетмаилслотинфо
+                  href: /windows/desktop/api/Winbase/nf-winbase-getmailslotinfo
+                - name: сетмаилслотинфо
+                  href: /windows/desktop/api/Winbase/nf-winbase-setmailslotinfo
+    - name: Сетевой платформа динамических данных Exchange
+      href: network-dynamic-data-exchange.md
+      items:
+        - name: О сетевом DDE
+          href: about-network-dde.md
+          items:
+            - name: Агент сетевого DDE
+              href: network-dde-agent.md
+            - name: Общие ресурсы DDE
+              href: dde-shares.md
+            - name: Доверенные общие ресурсы и безопасность
+              href: trusted-shares-and-security.md
+            - name: Управление общими ресурсами DDE
+              href: managing-dde-shares.md
+        - name: Справочник по сетевому DDE
+          href: network-dde-reference.md
+          items:
+            - name: Сетевые функции DDE
+              href: network-dde-functions.md
+              items:
+                - name: нддежетеррорстринг
+                  href: nddegeterrorstring.md
+                - name: нддежетшаресекурити
+                  href: nddegetsharesecurity.md
+                - name: нддежеттрустедшаре
+                  href: nddegettrustedshare.md
+                - name: нддеисвалидапптопиклист
+                  href: nddeisvalidapptopiclist.md
+                - name: нддеисвалидшаренаме
+                  href: nddeisvalidsharename.md
+                - name: нддесетшаресекурити
+                  href: nddesetsharesecurity.md
+                - name: нддесеттрустедшаре
+                  href: nddesettrustedshare.md
+                - name: нддешареадд
+                  href: nddeshareadd.md
+                - name: нддешаредел
+                  href: nddesharedel.md
+                - name: нддешаринум
+                  href: nddeshareenum.md
+                - name: нддешарежетинфо
+                  href: nddesharegetinfo.md
+                - name: нддешаресетинфо
+                  href: nddesharesetinfo.md
+                - name: нддетрустедшаринум
+                  href: nddetrustedshareenum.md
+            - name: Структуры сетевого DDE
+              href: network-dde-structures.md
+              items:
+                - name: нддешареинфо
+                  href: nddeshareinfo-str.md
+    - name: Каналы
+      href: pipes.md
+      items:
+        - name: О каналах
+          href: about-pipes.md
+          items:
+            - name: Анонимные каналы
+              href: anonymous-pipes.md
+              items:
+                - name: Операции с анонимным каналом
+                  href: anonymous-pipe-operations.md
+                - name: Наследование обработчика канала
+                  href: pipe-handle-inheritance.md
+                - name: Безопасность анонимных каналов и права доступа
+                  href: anonymous-pipe-security-and-access-rights.md
+            - name: Именованные каналы
+              href: named-pipes.md
+              items:
+                - name: Имена каналов
+                  href: pipe-names.md
+                - name: Режимы открытия именованных каналов
+                  href: named-pipe-open-modes.md
+                - name: 'Типы именованных каналов, чтение и режимы ожидания'
+                  href: named-pipe-type-read-and-wait-modes.md
+                - name: Экземпляры именованного канала
+                  href: named-pipe-instances.md
+                - name: Операции именованного канала
+                  href: named-pipe-operations.md
+                - name: Синхронный и перекрытый конвейерный ввод-вывод
+                  href: synchronous-and-overlapped-input-and-output.md
+                - name: Безопасность именованного канала и права доступа
+                  href: named-pipe-security-and-access-rights.md
+                - name: Олицетворение клиента именованного канала
+                  href: impersonating-a-named-pipe-client.md
+        - name: Использование каналов
+          href: using-pipes.md
+          items:
+            - name: Многопотоковый сервер каналов
+              href: multithreaded-pipe-server.md
+            - name: 'Сервер именованных каналов, использующий перекрывающиеся операции ввода-вывода'
+              href: named-pipe-server-using-overlapped-i-o.md
+            - name: 'Сервер именованных каналов, использующий подпрограммы завершения'
+              href: named-pipe-server-using-completion-routines.md
+            - name: Клиент именованного канала
+              href: named-pipe-client.md
+            - name: Транзакции по именованным каналам
+              href: transactions-on-named-pipes.md
+        - name: Ссылка на канал
+          href: pipe-reference.md
+          items:
+            - name: Функции канала
+              href: pipe-functions.md
+              items:
+                - name: каллнамедпипе
+                  href: /windows/desktop/api/Winbase/nf-winbase-callnamedpipea
+                - name: коннектнамедпипе
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe
+                - name: CreateNamedPipe
+                  href: /windows/desktop/api/Winbase/nf-winbase-createnamedpipea
+                - name: CreatePipe
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe
+                - name: дисконнектнамедпипе
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-disconnectnamedpipe
+                - name: жетнамедпипеклиенткомпутернаме
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeclientcomputernamea
+                - name: жетнамедпипеклиентпроцессид
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeclientprocessid
+                - name: жетнамедпипеклиентсессионид
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeclientsessionid
+                - name: жетнамедпипехандлестате
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipehandlestatea
+                - name: жетнамедпипеинфо
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-getnamedpipeinfo
+                - name: жетнамедпипесерверпроцессид
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeserverprocessid
+                - name: жетнамедпипесерверсессионид
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeserversessionid
+                - name: пикнамедпипе
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe
+                - name: сетнамедпипехандлестате
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate
+                - name: трансактнамедпипе
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe
+                - name: ваитнамедпипе
+                  href: /windows/desktop/api/Winbase/nf-winbase-waitnamedpipea

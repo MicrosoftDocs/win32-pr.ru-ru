@@ -1,0 +1,53 @@
+- name: API игрового контроллера Ксинпут
+  href: xinput-game-controller-apis-portal.md
+  items:
+    - name: Руководство по программированию
+      href: programming-guide.md
+      items:
+        - name: начало работы с Ксинпут
+          href: getting-started-with-xinput.md
+        - name: Версии Ксинпут
+          href: xinput-versions.md
+        - name: Ксинпут и Директинпут
+          href: xinput-and-directinput.md
+        - name: Устройства Директинпут и КСУСБ
+          href: directinput-and-xusb-devices.md
+        - name: КСИНПУТ и подтипы контроллера
+          href: xinput-and-controller-subtypes.md
+    - name: Справочник по программированию
+      href: programming-reference.md
+      items:
+        - name: Функции
+          href: functions.md
+          items:
+            - name: ксинпутенабле
+              href: /windows/desktop/api/XInput/nf-xinput-xinputenable
+            - name: ксинпутжетаудиодевицеидс
+              href: /windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids
+            - name: ксинпутжетбаттеринформатион
+              href: /windows/desktop/api/XInput/nf-xinput-xinputgetbatteryinformation
+            - name: ксинпутжеткапабилитиес
+              href: /windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities
+            - name: ксинпутжетдсаундаудиодевицегуидс
+              href: /windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids
+            - name: ксинпутжеткэйстроке
+              href: /windows/desktop/api/XInput/nf-xinput-xinputgetkeystroke
+            - name: ксинпутжетстате
+              href: /windows/desktop/api/XInput/nf-xinput-xinputgetstate
+            - name: ксинпутсетстате
+              href: /windows/desktop/api/XInput/nf-xinput-xinputsetstate
+        - name: Структуры
+          href: structures.md
+          items:
+            - name: XINPUT_BATTERY_INFORMATION
+              href: /windows/win32/api/XInput/ns-xinput-xinput_battery_information
+            - name: XINPUT_CAPABILITIES
+              href: /windows/win32/api/XInput/ns-xinput-xinput_capabilities
+            - name: XINPUT_GAMEPAD
+              href: /windows/win32/api/XInput/ns-xinput-xinput_gamepad
+            - name: XINPUT_KEYSTROKE
+              href: /windows/win32/api/XInput/ns-xinput-xinput_keystroke
+            - name: XINPUT_STATE
+              href: /windows/win32/api/XInput/ns-xinput-xinput_state
+            - name: XINPUT_VIBRATION
+              href: /windows/win32/api/XInput/ns-xinput-xinput_vibration
