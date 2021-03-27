@@ -1,0 +1,886 @@
+- name: Меню и другие ресурсы
+  href: resources.md
+  items:
+    - name: Общие сведения о ресурсах
+      href: introduction-to-resources.md
+      items:
+        - name: Обзоры ресурсов
+          href: resources-overviews.md
+          items:
+            - name: 'Добавление, удаление и замена ресурсов'
+              href: adding-deleting-and-replacing-resources.md
+            - name: Перечисление ресурсов
+              href: enumerating-resources.md
+            - name: Поиск и загрузка ресурсов
+              href: finding-and-loading-resources.md
+            - name: Форматы файлов ресурсов
+              href: resource-file-formats.md
+            - name: Использование ресурсов
+              href: using-resources.md
+        - name: Ссылка на ресурс
+          href: resources-reference.md
+          items:
+            - name: Функции ресурсов
+              href: resources-functions.md
+              items:
+                - name: бегинупдатересаурце
+                  href: /windows/desktop/api/Winbase/nf-winbase-beginupdateresourcea
+                - name: креатересаурцеиндексер
+                  href: /windows/desktop/api/resourceindexer/nf-resourceindexer-createresourceindexer
+                - name: CopyImage
+                  href: /windows/desktop/api/Winuser/nf-winuser-copyimage
+                - name: дестройиндекседресултс
+                  href: /windows/desktop/api/resourceindexer/nf-resourceindexer-destroyindexedresults
+                - name: дестройресаурцеиндексер
+                  href: /windows/desktop/api/resourceindexer/nf-resourceindexer-destroyresourceindexer
+                - name: ендупдатересаурце
+                  href: /windows/desktop/api/Winbase/nf-winbase-endupdateresourcea
+                - name: енумреслангпрок
+                  href: /previous-versions/windows/desktop/legacy/ms648033(v=vs.85)
+                - name: енумреснамепрок
+                  href: /previous-versions/windows/desktop/legacy/ms648034(v=vs.85)
+                - name: енумресаурцелангуажес
+                  href: /windows/desktop/api/Winbase/nf-winbase-enumresourcelanguagesa
+                - name: енумресаурцелангуажесекс
+                  href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+                - name: енумресаурценамес
+                  href: /windows/desktop/api/Winbase/nf-winbase-enumresourcenamesa
+                - name: енумресаурценамесекс
+                  href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw
+                - name: енумресаурцетипес
+                  href: /windows/desktop/api/Winbase/nf-winbase-enumresourcetypesa
+                - name: енумресаурцетипесекс
+                  href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw
+                - name: енумрестипепрок
+                  href: /previous-versions/windows/desktop/legacy/ms648041(v=vs.85)
+                - name: FindResource
+                  href: /windows/desktop/api/Winbase/nf-winbase-findresourcea
+                - name: финдресаурцеекс
+                  href: /windows/desktop/api/Winbase/nf-winbase-findresourceexa
+                - name: фриресаурце
+                  href: /windows/desktop/api/libloaderapi/nf-libloaderapi-freeresource
+                - name: индексфилепас
+                  href: /windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath
+                - name: лоадимаже
+                  href: /windows/desktop/api/Winuser/nf-winuser-loadimagea
+                - name: лоадресаурце
+                  href: /windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource
+                - name: локкресаурце
+                  href: /windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource
+                - name: сизеофресаурце
+                  href: /windows/desktop/api/libloaderapi/nf-libloaderapi-sizeofresource
+                - name: —
+                  href: /windows/desktop/api/Winbase/nf-winbase-updateresourcea
+            - name: Макросы ресурсов
+              href: resources-macros.md
+              items:
+                - name: IS_INTRESOURCE
+                  href: /windows/desktop/api/Winuser/nf-winuser-is_intresource
+                - name: макеинтресаурце
+                  href: /windows/desktop/api/winuser/nf-winuser-makeintresourcea
+            - name: Структуры ресурсов
+              href: resources-structures.md
+              items:
+                - name: акцелтаблинтри
+                  href: acceltableentry.md
+                - name: курсордир
+                  href: cursordir.md
+                - name: курсоршапе
+                  href: /windows/win32/api/Winuser/ns-winuser-cursorshape
+                - name: Аренда
+                  href: direntry.md
+                - name: фонтдирентри
+                  href: fontdirentry.md
+                - name: фонтграуфдр
+                  href: fontgrouphdr.md
+                - name: иконресдир
+                  href: iconresdir.md
+                - name: индекседресаурцекуалифиер
+                  href: /windows/desktop/api/resourceindexer/ns-resourceindexer-indexedresourcequalifier
+                - name: локалхеадер
+                  href: localheader.md
+                - name: менухеадер
+                  href: menuheader.md
+                - name: менухелпид
+                  href: menuhelpid.md
+                - name: MESSAGE_RESOURCE_BLOCK
+                  href: /windows/win32/api/Winnt/ns-winnt-message_resource_block
+                - name: MESSAGE_RESOURCE_DATA
+                  href: /windows/win32/api/Winnt/ns-winnt-message_resource_data
+                - name: MESSAGE_RESOURCE_ENTRY
+                  href: /windows/win32/api/Winnt/ns-winnt-message_resource_entry
+                - name: невхеадер
+                  href: newheader.md
+                - name: нормалменуитем
+                  href: normalmenuitem.md
+                - name: попупменуитем
+                  href: popupmenuitem.md
+                - name: ресдир
+                  href: resdir.md
+                - name: ресаурцехеадер
+                  href: resourceheader.md
+            - name: Типы ресурсов
+              href: resource-types.md
+    - name: Крышки
+      href: carets.md
+      items:
+        - name: Около крышки
+          href: about-carets.md
+        - name: Использование крышки
+          href: using-carets.md
+        - name: Ссылка на курсор
+          href: caret-reference.md
+          items:
+            - name: Функции курсора
+              href: caret-functions.md
+              items:
+                - name: креатекарет
+                  href: /windows/desktop/api/Winuser/nf-winuser-createcaret
+                - name: дестройкарет
+                  href: /windows/desktop/api/Winuser/nf-winuser-destroycaret
+                - name: жеткаретблинктиме
+                  href: /windows/desktop/api/Winuser/nf-winuser-getcaretblinktime
+                - name: жеткаретпос
+                  href: /windows/desktop/api/Winuser/nf-winuser-getcaretpos
+                - name: хидекарет
+                  href: /windows/desktop/api/Winuser/nf-winuser-hidecaret
+                - name: сеткаретблинктиме
+                  href: /windows/desktop/api/Winuser/nf-winuser-setcaretblinktime
+                - name: сеткаретпос
+                  href: /windows/desktop/api/Winuser/nf-winuser-setcaretpos
+                - name: шовкарет
+                  href: /windows/desktop/api/Winuser/nf-winuser-showcaret
+    - name: Курсоры
+      href: cursors.md
+      items:
+        - name: О курсорах
+          href: about-cursors.md
+        - name: Использование курсоров
+          href: using-cursors.md
+        - name: Справочник по курсорам
+          href: cursor-reference.md
+          items:
+            - name: Функции работы с курсорами
+              href: cursor-functions.md
+              items:
+                - name: клипкурсор
+                  href: /windows/desktop/api/Winuser/nf-winuser-clipcursor
+                - name: копикурсор
+                  href: /windows/desktop/api/Winuser/nf-winuser-copycursor
+                - name: креатекурсор
+                  href: /windows/desktop/api/Winuser/nf-winuser-createcursor
+                - name: дестройкурсор
+                  href: /windows/desktop/api/Winuser/nf-winuser-destroycursor
+                - name: жетклипкурсор
+                  href: /windows/desktop/api/Winuser/nf-winuser-getclipcursor
+                - name: Навести курсор
+                  href: /windows/desktop/api/Winuser/nf-winuser-getcursor
+                - name: жеткурсоринфо
+                  href: /windows/desktop/api/Winuser/nf-winuser-getcursorinfo
+                - name: жеткурсорпос
+                  href: /windows/desktop/api/Winuser/nf-winuser-getcursorpos
+                - name: жетфисикалкурсорпос
+                  href: /windows/desktop/api/Winuser/nf-winuser-getphysicalcursorpos
+                - name: лоадкурсор
+                  href: /windows/desktop/api/Winuser/nf-winuser-loadcursora
+                - name: лоадкурсорфромфиле
+                  href: /windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea
+                - name: сеткурсор
+                  href: /windows/desktop/api/Winuser/nf-winuser-setcursor
+                - name: SetCursorPos
+                  href: /windows/desktop/api/Winuser/nf-winuser-setcursorpos
+                - name: сетфисикалкурсорпос
+                  href: /windows/desktop/api/Winuser/nf-winuser-setphysicalcursorpos
+                - name: сетсистемкурсор
+                  href: /windows/desktop/api/Winuser/nf-winuser-setsystemcursor
+                - name: шовкурсор
+                  href: /windows/desktop/api/Winuser/nf-winuser-showcursor
+            - name: Уведомления курсора
+              href: cursor-notifications.md
+              items:
+                - name: WM_SETCURSOR
+                  href: wm-setcursor.md
+            - name: Структуры курсоров
+              href: cursor-structures.md
+              items:
+                - name: курсоринфо
+                  href: /windows/win32/api/Winuser/ns-winuser-cursorinfo
+    - name: Значки
+      href: icons.md
+      items:
+        - name: О значках
+          href: about-icons.md
+        - name: Использование значков
+          href: using-icons.md
+        - name: Ссылка на значок
+          href: icon-reference.md
+          items:
+            - name: Функции значков
+              href: icon-functions.md
+              items:
+                - name: копикон
+                  href: /windows/desktop/api/Winuser/nf-winuser-copyicon
+                - name: креатеикон
+                  href: /windows/desktop/api/Winuser/nf-winuser-createicon
+                - name: креатеиконфромресаурце
+                  href: /windows/desktop/api/Winuser/nf-winuser-createiconfromresource
+                - name: креатеиконфромресаурцеекс
+                  href: /windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex
+                - name: креатеикониндирект
+                  href: /windows/desktop/api/Winuser/nf-winuser-createiconindirect
+                - name: дестройикон
+                  href: /windows/desktop/api/Winuser/nf-winuser-destroyicon
+                - name: дравикон
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawicon
+                - name: дравиконекс
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawiconex
+                - name: дупликатеикон
+                  href: /windows/desktop/api/Shellapi/nf-shellapi-duplicateicon
+                - name: екстрактассоЦиатедикон
+                  href: /windows/desktop/api/Shellapi/nf-shellapi-extractassociatedicona
+                - name: екстрактикон
+                  href: /windows/desktop/api/Shellapi/nf-shellapi-extracticona
+                - name: екстрактиконекс
+                  href: /windows/desktop/api/Shellapi/nf-shellapi-extracticonexa
+                - name: жетиконинфо
+                  href: /windows/desktop/api/Winuser/nf-winuser-geticoninfo
+                - name: жетиконинфоекс
+                  href: /windows/desktop/api/Winuser/nf-winuser-geticoninfoexa
+                - name: лоадикон
+                  href: /windows/desktop/api/Winuser/nf-winuser-loadicona
+                - name: лукупиконидфромдиректори
+                  href: /windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectory
+                - name: лукупиконидфромдиректорекс
+                  href: /windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex
+                - name: приватикстрактиконс
+                  href: /windows/desktop/api/Winuser/nf-winuser-privateextracticonsa
+            - name: Структуры значков
+              href: icon-structures.md
+              items:
+                - name: иконинфо
+                  href: /windows/win32/api/Winuser/ns-winuser-iconinfo
+                - name: иконинфоекс
+                  href: /windows/win32/api/Winuser/ns-winuser-iconinfoexa
+                - name: иконметрикс
+                  href: /windows/win32/api/Winuser/ns-winuser-iconmetricsa
+    - name: Шрифты и текстовые метрики
+      href: fonts-and-font-metrics.md
+    - name: Сочетания клавиш
+      href: keyboard-accelerators.md
+      items:
+        - name: О сочетаниях клавиш
+          href: about-keyboard-accelerators.md
+        - name: Использование сочетаний клавиш
+          href: using-keyboard-accelerators.md
+        - name: Справочник по сочетанию клавиш
+          href: keyboard-accelerator-reference.md
+          items:
+            - name: Функции сочетаний клавиш
+              href: keyboard-accelerator-functions.md
+              items:
+                - name: копякцелератортабле
+                  href: /windows/desktop/api/Winuser/nf-winuser-copyacceleratortablea
+                - name: креатеакцелератортабле
+                  href: /windows/desktop/api/Winuser/nf-winuser-createacceleratortablea
+                - name: дестройакцелератортабле
+                  href: /windows/desktop/api/Winuser/nf-winuser-destroyacceleratortable
+                - name: лоадакцелераторс
+                  href: /windows/desktop/api/Winuser/nf-winuser-loadacceleratorsa
+                - name: TranslateAccelerator
+                  href: /windows/desktop/api/Winuser/nf-winuser-translateacceleratora
+            - name: Сообщения ускорителя клавиатуры
+              href: keyboard-accelerator-messages.md
+              items:
+                - name: WM_CHANGEUISTATE
+                  href: wm-changeuistate.md
+                - name: WM_INITMENU
+                  href: wm-initmenu.md
+                - name: WM_QUERYUISTATE
+                  href: wm-queryuistate.md
+                - name: WM_UPDATEUISTATE
+                  href: wm-updateuistate.md
+            - name: Уведомления сочетаний клавиш
+              href: keyboard-accelerator-notifications.md
+              items:
+                - name: WM_INITMENUPOPUP
+                  href: wm-initmenupopup.md
+                - name: WM_MENUCHAR
+                  href: wm-menuchar.md
+                - name: WM_MENUSELECT
+                  href: wm-menuselect.md
+                - name: WM_SYSCHAR
+                  href: wm-syschar.md
+                - name: WM_SYSCOMMAND
+                  href: wm-syscommand.md
+            - name: Структуры сочетаний клавиш
+              href: keyboard-accelerator-structures.md
+              items:
+                - name: НЕКОТОРАЯ
+                  href: /windows/win32/api/Winuser/ns-winuser-accel
+    - name: Меню
+      href: menus.md
+      items:
+        - name: О меню
+          href: about-menus.md
+        - name: Использование меню
+          href: using-menus.md
+        - name: Справочник по меню
+          href: menu-reference.md
+          items:
+            - name: Функции меню
+              href: menu-functions.md
+              items:
+                - name: аппендмену
+                  href: /windows/desktop/api/Winuser/nf-winuser-appendmenua
+                - name: чеккменуитем
+                  href: /windows/desktop/api/Winuser/nf-winuser-checkmenuitem
+                - name: чеккменурадиоитем
+                  href: /windows/desktop/api/Winuser/nf-winuser-checkmenuradioitem
+                - name: креатемену
+                  href: /windows/desktop/api/Winuser/nf-winuser-createmenu
+                - name: креатепопупмену
+                  href: /windows/desktop/api/Winuser/nf-winuser-createpopupmenu
+                - name: делетемену
+                  href: /windows/desktop/api/Winuser/nf-winuser-deletemenu
+                - name: дестроймену
+                  href: /windows/desktop/api/Winuser/nf-winuser-destroymenu
+                - name: дравменубар
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawmenubar
+                - name: енаблеменуитем
+                  href: /windows/desktop/api/Winuser/nf-winuser-enablemenuitem
+                - name: ендмену
+                  href: /windows/desktop/api/Winuser/nf-winuser-endmenu
+                - name: GetMenu
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenu
+                - name: GetMenuBarInfo
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenubarinfo
+                - name: жетменучеккмаркдименсионс
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenucheckmarkdimensions
+                - name: жетменудефаултитем
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenudefaultitem
+                - name: жетменуинфо
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenuinfo
+                - name: жетменуитемкаунт
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenuitemcount
+                - name: жетменуитемид
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenuitemid
+                - name: жетменуитеминфо
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenuiteminfoa
+                - name: жетменуитемрект
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenuitemrect
+                - name: жетменустате
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenustate
+                - name: жетменустринг
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmenustringa
+                - name: Вложенное меню
+                  href: /windows/desktop/api/Winuser/nf-winuser-getsubmenu
+                - name: жетсистеммену
+                  href: /windows/desktop/api/Winuser/nf-winuser-getsystemmenu
+                - name: хилитеменуитем
+                  href: /windows/desktop/api/Winuser/nf-winuser-hilitemenuitem
+                - name: инсертмену
+                  href: /windows/desktop/api/Winuser/nf-winuser-insertmenua
+                - name: инсертменуитем
+                  href: /windows/desktop/api/Winuser/nf-winuser-insertmenuitema
+                - name: Меню
+                  href: /windows/desktop/api/Winuser/nf-winuser-ismenu
+                - name: лоадмену
+                  href: /windows/desktop/api/Winuser/nf-winuser-loadmenua
+                - name: лоадменуиндирект
+                  href: /windows/desktop/api/Winuser/nf-winuser-loadmenuindirecta
+                - name: менуитемфромпоинт
+                  href: /windows/desktop/api/Winuser/nf-winuser-menuitemfrompoint
+                - name: модифимену
+                  href: /windows/desktop/api/Winuser/nf-winuser-modifymenua
+                - name: ремовемену
+                  href: /windows/desktop/api/Winuser/nf-winuser-removemenu
+                - name: сетмену
+                  href: /windows/desktop/api/Winuser/nf-winuser-setmenu
+                - name: сетменудефаултитем
+                  href: /windows/desktop/api/Winuser/nf-winuser-setmenudefaultitem
+                - name: сетменуинфо
+                  href: /windows/desktop/api/Winuser/nf-winuser-setmenuinfo
+                - name: сетменуитембитмапс
+                  href: /windows/desktop/api/Winuser/nf-winuser-setmenuitembitmaps
+                - name: сетменуитеминфо
+                  href: /windows/desktop/api/Winuser/nf-winuser-setmenuiteminfoa
+                - name: Метод TrackPopupMenu
+                  href: /windows/desktop/api/Winuser/nf-winuser-trackpopupmenu
+                - name: траккпопупменуекс
+                  href: /windows/desktop/api/Winuser/nf-winuser-trackpopupmenuex
+            - name: Уведомления меню
+              href: menu-notifications.md
+              items:
+                - name: WM_COMMAND
+                  href: wm-command.md
+                - name: WM_CONTEXTMENU
+                  href: wm-contextmenu.md
+                - name: WM_ENTERMENULOOP
+                  href: wm-entermenuloop.md
+                - name: WM_EXITMENULOOP
+                  href: wm-exitmenuloop.md
+                - name: WM_GETTITLEBARINFOEX
+                  href: wm-gettitlebarinfoex.md
+                - name: WM_MENUCOMMAND
+                  href: wm-menucommand.md
+                - name: WM_MENUDRAG
+                  href: wm-menudrag.md
+                - name: WM_MENUGETOBJECT
+                  href: wm-menugetobject.md
+                - name: WM_MENURBUTTONUP
+                  href: wm-menurbuttonup.md
+                - name: WM_NEXTMENU
+                  href: wm-nextmenu.md
+                - name: WM_UNINITMENUPOPUP
+                  href: wm-uninitmenupopup.md
+            - name: Структуры меню
+              href: menu-structures.md
+              items:
+                - name: мдинекстмену
+                  href: /windows/win32/api/Winuser/ns-winuser-mdinextmenu
+                - name: менубаринфо
+                  href: /windows/win32/api/Winuser/ns-winuser-menubarinfo
+                - name: MENUEX_TEMPLATE_HEADER
+                  href: menuex-template-header.md
+                - name: MENUEX_TEMPLATE_ITEM
+                  href: menuex-template-item.md
+                - name: менужетобжектинфо
+                  href: /windows/win32/api/Winuser/ns-winuser-menugetobjectinfo
+                - name: менуинфо
+                  href: /windows/win32/api/Winuser/ns-winuser-menuinfo
+                - name: ОБЪЕКТАМИ MENUITEMINFO
+                  href: /windows/win32/api/Winuser/ns-winuser-menuiteminfoa
+                - name: менуитемтемплате
+                  href: /windows/desktop/api/Winuser/ns-winuser-menuitemtemplate
+                - name: менуитемтемплатехеадер
+                  href: /windows/desktop/api/Winuser/ns-winuser-menuitemtemplateheader
+                - name: тпмпарамс
+                  href: /windows/win32/api/Winuser/ns-winuser-tpmparams
+    - name: Строки
+      href: strings.md
+      items:
+        - name: Сведения о строках
+          href: about-strings.md
+        - name: О Стрсафе. h
+          href: strsafe-ovw.md
+        - name: Ссылка на строку
+          href: string-reference.md
+          items:
+            - name: Строковые функции
+              href: string-functions.md
+              items:
+                - name: чарловер
+                  href: /windows/desktop/api/Winuser/nf-winuser-charlowera
+                - name: чарловербуфф
+                  href: /windows/desktop/api/Winuser/nf-winuser-charlowerbuffa
+                - name: чарнекст
+                  href: /windows/desktop/api/Winuser/nf-winuser-charnexta
+                - name: чарнекстекса
+                  href: /windows/desktop/api/Winuser/nf-winuser-charnextexa
+                - name: чарпрев
+                  href: /windows/desktop/api/Winuser/nf-winuser-charpreva
+                - name: чарпревекса
+                  href: /windows/desktop/api/Winuser/nf-winuser-charprevexa
+                - name: чартуем
+                  href: /windows/desktop/api/Winuser/nf-winuser-chartooema
+                - name: чартуембуфф
+                  href: /windows/desktop/api/Winuser/nf-winuser-chartooembuffa
+                - name: чаруппер
+                  href: /windows/desktop/api/Winuser/nf-winuser-charuppera
+                - name: чаруппербуфф
+                  href: /windows/desktop/api/Winuser/nf-winuser-charupperbuffa
+                - name: исчаралфа
+                  href: /windows/desktop/api/Winuser/nf-winuser-ischaralphaa
+                - name: исчаралфанумерик
+                  href: /windows/desktop/api/Winuser/nf-winuser-ischaralphanumerica
+                - name: исчарловер
+                  href: /windows/desktop/api/Winuser/nf-winuser-ischarlowera
+                - name: исчаруппер
+                  href: /windows/desktop/api/Winuser/nf-winuser-ischaruppera
+                - name: лоадстринг
+                  href: /windows/desktop/api/Winuser/nf-winuser-loadstringa
+                - name: лстркат
+                  href: /windows/desktop/api/Winbase/nf-winbase-lstrcata
+                - name: лстркмп
+                  href: /windows/desktop/api/Winbase/nf-winbase-lstrcmpa
+                - name: лстркмпи
+                  href: /windows/desktop/api/Winbase/nf-winbase-lstrcmpia
+                - name: лстркпи
+                  href: /windows/desktop/api/Winbase/nf-winbase-lstrcpya
+                - name: лстркпин
+                  href: /windows/desktop/api/Winbase/nf-winbase-lstrcpyna
+                - name: lstrlen
+                  href: /windows/desktop/api/Winbase/nf-winbase-lstrlena
+                - name: оемточар
+                  href: /windows/desktop/api/Winuser/nf-winuser-oemtochara
+                - name: оемточарбуфф
+                  href: /windows/desktop/api/Winuser/nf-winuser-oemtocharbuffa
+                - name: вспринтф
+                  href: /windows/desktop/api/Winuser/nf-winuser-wsprintfa
+                - name: ввспринтф
+                  href: /windows/desktop/api/Winuser/nf-winuser-wvsprintfa
+            - name: Функции стрсафе
+              href: string-overviews.md
+              items:
+                - name: стрингкбкат
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcata
+                - name: стрингкбкатекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcatexa
+                - name: стрингкбкатн
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcatna
+                - name: стрингкбкатнекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcatnexa
+                - name: стрингкбкопи
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcopya
+                - name: стрингкбкопекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcopyexa
+                - name: стрингкбкопин
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcopyna
+                - name: стрингкбкопинекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbcopynexa
+                - name: стрингкбжетс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbgetsa
+                - name: стрингкбжетсекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbgetsexa
+                - name: стрингкбленгс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcblengtha
+                - name: StringCbPrintf_l
+                  href: /windows/desktop/api/StrSafe/nf-strsafe-stringcbprintf_la
+                - name: StringCbPrintf_lEx
+                  href: /windows/desktop/api/StrSafe/nf-strsafe-stringcbprintf_lexa
+                - name: стрингкбпринтф
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbprintfa
+                - name: стрингкбпринтфекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbprintfexa
+                - name: StringCbVPrintf_l
+                  href: /windows/desktop/api/StrSafe/nf-strsafe-stringcbvprintf_la
+                - name: StringCbVPrintf_lEx
+                  href: /windows/desktop/api/StrSafe/nf-strsafe-stringcbvprintf_lexa
+                - name: стрингкбвпринтф
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbvprintfa
+                - name: стрингкбвпринтфекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcbvprintfexa
+                - name: стрингкчкат
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcata
+                - name: стрингкчкатекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcatexa
+                - name: стрингкчкатн
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcatna
+                - name: стрингкчкатнекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcatnexa
+                - name: стрингкчкопи
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcopya
+                - name: стрингкчкопекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcopyexa
+                - name: стрингкчкопин
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcopyna
+                - name: стрингкчкопинекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchcopynexa
+                - name: стрингкчжетс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchgetsa
+                - name: стрингкчжетсекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchgetsexa
+                - name: стрингкчленгс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchlengtha
+                - name: StringCchPrintf_l
+                  href: /windows/desktop/api/StrSafe/nf-strsafe-stringcchprintf_la
+                - name: StringCchPrintf_lEx
+                  href: /windows/desktop/api/StrSafe/nf-strsafe-stringcchprintf_lexa
+                - name: стрингкчпринтф
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchprintfa
+                - name: стрингкчпринтфекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchprintfexa
+                - name: StringCchVPrintf_l
+                  href: /windows/desktop/api/StrSafe/nf-strsafe-stringcchvprintf_la
+                - name: StringCchVPrintf_lEx
+                  href: /windows/desktop/api/StrSafe/nf-strsafe-stringcchvprintf_lexa
+                - name: стрингкчвпринтф
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchvprintfa
+                - name: стрингкчвпринтфекс
+                  href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchvprintfexa
+                - name: уналигнедстрингкбленгс
+                  href: /previous-versions/windows/desktop/legacy/hh305643(v=vs.85)
+                - name: уналигнедстрингкчленгс
+                  href: /previous-versions/windows/desktop/legacy/hh305644(v=vs.85)
+    - name: Сведения о версии
+      href: version-information.md
+      items:
+        - name: Сведения о версии
+          href: about-version-information.md
+        - name: Использование сведений о версии
+          href: using-version-information.md
+        - name: Справочник по сведениям о версии
+          href: version-information-reference.md
+          items:
+            - name: Функции сведений о версии
+              href: version-information-functions.md
+              items:
+                - name: GetFileVersionInfo
+                  href: /windows/desktop/api/Winver/nf-winver-getfileversioninfoa
+                - name: жетфилеверсионинфоекс
+                  href: /windows/desktop/api/Winver/nf-winver-getfileversioninfoexa
+                - name: Ошибка getfileversioninfosize
+                  href: /windows/desktop/api/Winver/nf-winver-getfileversioninfosizea
+                - name: жетфилеверсионинфосизикс
+                  href: /windows/desktop/api/Winver/nf-winver-getfileversioninfosizeexa
+                - name: верфиндфиле
+                  href: /windows/desktop/api/Winver/nf-winver-verfindfilea
+                - name: веринсталлфиле
+                  href: /windows/desktop/api/Winver/nf-winver-verinstallfilea
+                - name: верлангуаженаме
+                  href: /windows/desktop/api/Winver/nf-winver-verlanguagenamea
+                - name: VerQueryValue
+                  href: /windows/desktop/api/Winver/nf-winver-verqueryvaluea
+            - name: Структуры сведений о версии
+              href: version-information-structures.md
+              items:
+                - name: Строка
+                  href: string-str.md
+                - name: стрингфилеинфо
+                  href: stringfileinfo.md
+                - name: StringTable
+                  href: stringtable.md
+                - name: Var
+                  href: var-str.md
+                - name: варфилеинфо
+                  href: varfileinfo.md
+                - name: VS_FIXEDFILEINFO
+                  href: /windows/win32/api/VerRsrc/ns-verrsrc-vs_fixedfileinfo
+                - name: VS_VERSIONINFO
+                  href: vs-versioninfo.md
+    - name: компилятор ресурсов
+      href: resource-compiler.md
+      items:
+        - name: Сведения о файлах ресурсов
+          href: about-resource-files.md
+          items:
+            - name: Комментарии
+              href: comments.md
+            - name: Предустановленный макрос
+              href: predefined-macros.md
+            - name: Директивы препроцессора
+              href: preprocessor-directives.md
+              items:
+                - name: '#define'
+                  href: '-define.md'
+                - name: '##elif'
+                  href: '-elif.md'
+                - name: '#else'
+                  href: '-else.md'
+                - name: '#endif'
+                  href: '-endif.md'
+                - name: '#if'
+                  href: '-if.md'
+                - name: '#ifdef'
+                  href: '-ifdef.md'
+                - name: '#ifndef'
+                  href: '-ifndef.md'
+                - name: '#include'
+                  href: '-include.md'
+                - name: '#undef'
+                  href: '-undef.md'
+            - name: Операторы препроцессора
+              href: preprocessor-operators.md
+            - name: Директивы Pragma
+              href: pragma-directives.md
+            - name: Операторы Resource-Definition
+              href: resource-definition-statements.md
+              items:
+                - name: Ресурс УСКОРИТЕЛей
+                  href: accelerators-resource.md
+                - name: Элемент управления AUTO3STATE
+                  href: auto3state-control.md
+                - name: Элемент управления "автофлажок"
+                  href: autocheckbox-control.md
+                - name: Элемент управления автоradiobutton
+                  href: autoradiobutton-control.md
+                - name: Ресурс ТОЧЕЧного рисунка
+                  href: bitmap-resource.md
+                - name: 'ЗАГОЛОВОК, инструкция'
+                  href: caption-statement.md
+                - name: Оператор характеристик
+                  href: characteristics-statement.md
+                - name: Элемент управления CHECKBOX
+                  href: checkbox-control.md
+                - name: Оператор класса
+                  href: class-statement.md
+                - name: Элемент управления COMBOBOX
+                  href: combobox-control.md
+                - name: Элемент управления
+                  href: control-control.md
+                - name: Элемент управления столбец CTEXT
+                  href: ctext-control.md
+                - name: Ресурс КУРСОРа
+                  href: cursor-resource.md
+                - name: Элемент управления ДЕФПУШБУТТОН
+                  href: defpushbutton-control.md
+                - name: Ресурс ДИАЛОГового окна
+                  href: dialog-resource.md
+                - name: Ресурс ДИАЛОЖЕКС
+                  href: dialogex-resource.md
+                - name: Элемент управления EDITTEXT
+                  href: edittext-control.md
+                - name: 'ОПЕРАТОРЕ EXSTYLE, инструкция'
+                  href: exstyle-statement.md
+                - name: ШРИФТовый ресурс
+                  href: font-resource.md
+                - name: 'FONT, инструкция'
+                  href: font-statement.md
+                - name: Элемент управления GROUPBOX
+                  href: groupbox-control.md
+                - name: Ресурс HTML
+                  href: html-resource.md
+                - name: Ресурс ЗНАЧКа
+                  href: icon-resource.md
+                - name: ЗНАЧОК элемента управления
+                  href: icon-control.md
+                - name: 'LANGUAGE, инструкция'
+                  href: language-statement.md
+                - name: Элемент управления LISTBOX
+                  href: listbox-control.md
+                - name: Элемент управления ЛТЕКСТ
+                  href: ltext-control.md
+                - name: Ресурс меню
+                  href: menu-resource.md
+                - name: Оператор меню
+                  href: menu-statement.md
+                - name: Ресурс МЕНУЕКС
+                  href: menuex-resource.md
+                - name: 'MENUITEM, инструкция'
+                  href: menuitem-statement.md
+                - name: Ресурс МЕССАЖЕТАБЛЕ
+                  href: messagetable-resource.md
+                - name: Ресурс всплывающего окна
+                  href: popup-resource.md
+                - name: Элемент управления ПУШБОКС
+                  href: pushbox-control.md
+                - name: Кнопка элемента управления
+                  href: pushbutton-control.md
+                - name: Элемент управления RADIOBUTTON
+                  href: radiobutton-control.md
+                - name: Ресурс RCDATA
+                  href: rcdata-resource.md
+                - name: Элемент управления РТЕКСТ
+                  href: rtext-control.md
+                - name: Элемент управления SCROLLBAR
+                  href: scrollbar-control.md
+                - name: Элемент управления STATE3
+                  href: state3-control.md
+                - name: Ресурс STRINGTABLE
+                  href: stringtable-resource.md
+                - name: Оператор STYLE
+                  href: style-statement.md
+                - name: Ресурс User-Defined
+                  href: user-defined-resource.md
+                - name: 'VERSION, инструкция'
+                  href: version-statement.md
+                - name: Ресурс VERSIONINFO
+                  href: versioninfo-resource.md
+                  items:
+                    - name: Блок Стрингфилеинфо
+                      href: stringfileinfo-block.md
+                    - name: Блок Варфилеинфо
+                      href: varfileinfo-block.md
+                - name: Общие параметры управления
+                  href: common-control-parameters.md
+                - name: Общие атрибуты ресурсов
+                  href: common-resource-attributes.md
+            - name: Пример файла Resource-Definition
+              href: sample-resource-definition-file.md
+        - name: Использование компилятора ресурсов (командная строка RC)
+          href: using-rc-the-rc-command-line-.md
+          items:
+            - name: Определение имен для препроцессора
+              href: defining-names-for-the-preprocessor.md
+            - name: Переименование скомпилированного файла ресурсов
+              href: renaming-the-compiled-resource-file.md
+            - name: Поиск файлов
+              href: searching-for-files.md
+            - name: Отображение сообщений о ходе выполнения
+              href: displaying-progress-messages.md
+            - name: Диагностические сообщения RC
+              href: rc-diagnostic-messages.md
+              items:
+                - name: Объект
+                  href: a.md
+                - name: B
+                  href: b.md
+                - name: C
+                  href: c.md
+                - name: E
+                  href: e.md
+                - name: C
+                  href: f.md
+                - name: I
+                  href: i.md
+                - name: Нет
+                  href: n.md
+                - name: O
+                  href: o.md
+                - name: R
+                  href: r.md
+                - name: T
+                  href: t.md
+                - name: U
+                  href: u.md
+                - name: V
+                  href: v.md
+                - name: W
+                  href: w.md
+    - name: Справочник по API PRI
+      href: pri-indexing-reference.md
+      items:
+        - name: Функция Мрмкреатеконфиг
+          href: mrmcreateconfig.md
+        - name: Функция Мрмкреатеконфигинмемори
+          href: mrmcreateconfiginmemory.md
+        - name: Функция Мрмкреатересаурцефиле
+          href: mrmcreateresourcefile.md
+        - name: Функция Мрмкреатересаурцефилеинмемори
+          href: mrmcreateresourcefileinmemory.md
+        - name: Функция Мрмкреатересаурцеиндексер
+          href: mrmcreateresourceindexer.md
+        - name: Функция Мрмкреатересаурцеиндексерфромпревиауспридата
+          href: mrmcreateresourceindexerfrompreviouspridata-.md
+        - name: Функция Мрмкреатересаурцеиндексерфромпревиаусприфиле
+          href: mrmcreateresourceindexerfrompreviousprifile.md
+        - name: Функция Мрмкреатересаурцеиндексерфромпревиауссчемадата
+          href: mrmcreateresourceindexerfrompreviousschemadata.md
+        - name: Функция Мрмкреатересаурцеиндексерфромпревиауссчемафиле
+          href: mrmcreateresourceindexerfrompreviousschemafile.md
+        - name: Функция Мрмдестройиндексерандмессажес
+          href: mrmdestroyindexerandmessages.md
+        - name: Функция Мрмдумпприфиле
+          href: mrmdumpprifile.md
+        - name: Функция Мрмдумпприфилеинмемори
+          href: mrmdumpprifileinmemory.md
+        - name: Функция Мрмдумппридатаинмемори
+          href: mrmdumppridatainmemory.md
+        - name: Функция Мрмфримемори
+          href: mrmfreememory.md
+        - name: Функция Мрминдексембеддеддата
+          href: mrmindexembeddeddata.md
+        - name: Функция Мрминдексфиле
+          href: mrmindexfile.md
+        - name: Функция Мрминдексфилеаутокуалифиерс
+          href: mrmindexfileautoqualifiers.md
+        - name: Функция Мрминдексресаурцеконтаинераутокуалифиерс
+          href: mrmindexresourcecontainerautoqualifiers.md
+        - name: Функция Мрминдексстринг
+          href: mrmindexstring.md
+        - name: Функция Мрмпикресаурцеиндексермессажес
+          href: mrmpeekresourceindexermessages.md
+        - name: Структура Мрмресаурцеиндексерхандле
+          href: mrmresourceindexerhandle.md
+        - name: Структура Мрмресаурцеиндексермессаже
+          href: mrmresourceindexermessage.md
+        - name: Перечисление Мрмдумптипе
+          href: mrmdumptype.md
+        - name: Перечисление Мрмпаккагингмоде
+          href: mrmpackagingmode.md
+        - name: Перечисление Мрмпаккагингоптионс
+          href: mrmpackagingoptions.md
+        - name: Перечисление Мрмплатформверсион
+          href: mrmplatformversion.md
+        - name: Перечисление Мрмресаурцеиндексермессажесеверити
+          href: mrmresourceindexermessageseverity.md
