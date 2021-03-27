@@ -1,0 +1,314 @@
+- name: Службы HTTP Windows (WinHTTP)
+  href: winhttp-start-page.md
+  items:
+    - name: Сведения о WinHTTP
+      href: about-winhttp.md
+      items:
+        - name: Сравнение WinHTTP и WinINet
+          href: winhttp-vs-wininet.md
+        - name: Версии WinHTTP
+          href: winhttp-versions.md
+        - name: 'Новые возможности в WinHTTP 5,1'
+          href: what-s-new-in-winhttp-5-1.md
+        - name: Новые возможности Windows Server 2008 и Windows Vista
+          href: what-s-new-in-windows-longhorn.md
+        - name: Терминология сети
+          href: network-terminology.md
+        - name: Выбор интерфейса WinHTTP
+          href: choosing-a-winhttp-interface.md
+        - name: Вопросы безопасности WinHTTP
+          href: winhttp-security-considerations.md
+        - name: Перенос приложений WinINet в WinHTTP
+          href: porting-wininet-applications-to-winhttp.md
+    - name: Использование WinHTTP
+      href: using-winhttp.md
+      items:
+        - name: Использование API WinHTTP C/C++
+          href: using-the-winhttp-c-c---api.md
+          items:
+            - name: Общие сведения о сеансах WinHTTP
+              href: winhttp-sessions-overview.md
+            - name: Дескрипторы ХИНТЕРНЕТ в WinHTTP
+              href: hinternet-handles-in-winhttp.md
+            - name: Универсальные указатели ресурсов (URL-адреса) в WinHTTP
+              href: uniform-resource-locators--urls--in-winhttp.md
+            - name: Проверка подлинности в WinHTTP
+              href: authentication-in-winhttp.md
+            - name: Проверка подлинности Passport в WinHTTP
+              href: passport-authentication-in-winhttp.md
+            - name: SSL в WinHTTP
+              href: ssl-in-winhttp.md
+            - name: Использование WinHTTP в качестве параллельной сборки
+              href: using-winhttp-as-a-side-by-side-assembly.md
+            - name: Обработка файлов cookie в WinHttp
+              href: cookie-handling-in-winhttp.md
+            - name: Обработка ошибок в WinHTTP
+              href: error-handling-in-winhttp.md
+            - name: Поддержка автопрокси WinHTTP
+              href: winhttp-autoproxy-support.md
+              items:
+                - name: Функции автопрокси WinHTTP
+                  href: winhttp-autoproxy-api.md
+                - name: Обнаружение без файла автоматической настройки
+                  href: discovery-without-an-auto-config-file.md
+                - name: Проблемы с автопрокси в WinHTTP
+                  href: autoproxy-issues-in-winhttp.md
+                - name: Настройка конфигураций прокси-сервера WinInet в WinHTTP
+                  href: setting-wininet-proxy-configurations-in-winhttp.md
+                - name: Кэш автопрокси
+                  href: autoproxy-cache.md
+                - name: Расширения IPv6 для формата файла автоматической настройки Navigator
+                  href: ipv6-extensions-to-navigator-auto-config-file-format.md
+                  items:
+                    - name: Определения API модуля поддержки IPv6-Aware прокси-сервера
+                      href: ipv6-aware-proxy-helper-api-definitions.md
+                      items:
+                        - name: исресолвабликс
+                          href: isresolvableex.md
+                        - name: исиннетекс
+                          href: isinnetex.md
+                        - name: днсресолвикс
+                          href: dnsresolveex.md
+                        - name: мипаддрессекс
+                          href: myipaddressex.md
+                        - name: сортипаддресслист
+                          href: sortipaddresslist.md
+                        - name: жетклиентверсион
+                          href: getclientversion.md
+                    - name: IPv6-Aware и устаревшие вспомогательные функции WPAD
+                      href: differences-between-ipv6-aware-wpad-helper-functions-and-legacy-wpad-helper-functions.md
+        - name: Использование COM-объекта WinHttpRequest
+          href: using-the-winhttprequest-com-object.md
+          items:
+            - name: Извлечение данных с помощью скрипта
+              href: retrieving-data-using-script.md
+            - name: Проверка подлинности с помощью скрипта
+              href: authentication-using-script.md
+        - name: Использование средств WinHTTP
+          href: using-winhttp-tools.md
+          items:
+            - name: 'WinHttpCertCfg.exe, средство настройки сертификатов'
+              href: winhttpcertcfg-exe--a-certificate-configuration-tool.md
+            - name: Netsh.exe и ProxyCfg.exe прокси Средства настройки
+              href: proxycfg-exe--a-proxy-configuration-tool.md
+            - name: 'WinHttpTraceCfg.exe, средство настройки трассировки'
+              href: winhttptracecfg-exe--a-trace-configuration-tool.md
+    - name: Справочник по WinHTTP
+      href: winhttp-reference.md
+      items:
+        - name: Справочник по API WinHTTP C/C++
+          href: winhttp-c-c---api-reference.md
+          items:
+            - name: Интерфейсы WinHTTP
+              href: winhttp-interfaces.md
+              items:
+                - name: ивинхттпрекуест
+                  href: iwinhttprequest-interface.md
+                  items:
+                    - name: Методы
+                      href: methods.md
+                      items:
+                        - name: Метод Abort
+                          href: iwinhttprequest-abort.md
+                        - name: Метод Жеталлреспонсехеадерс
+                          href: iwinhttprequest-getallresponseheaders.md
+                        - name: Метод Жетреспонсехеадер
+                          href: iwinhttprequest-getresponseheader.md
+                        - name: Метод Open
+                          href: iwinhttprequest-open.md
+                        - name: Метод Send
+                          href: iwinhttprequest-send.md
+                        - name: Метод Сетаутологонполици
+                          href: iwinhttprequest-setautologonpolicy.md
+                        - name: Метод Сетклиентцертификате
+                          href: iwinhttprequest-setclientcertificate.md
+                        - name: Метод Сеткредентиалс
+                          href: iwinhttprequest-setcredentials.md
+                        - name: Метод Сетпрокси
+                          href: iwinhttprequest-setproxy.md
+                        - name: Метод Сетрекуессеадер
+                          href: iwinhttprequest-setrequestheader.md
+                        - name: Метод Сеттимеаутс
+                          href: iwinhttprequest-settimeouts.md
+                        - name: Метод Ваитфорреспонсе
+                          href: iwinhttprequest-waitforresponse.md
+                    - name: Свойства
+                      href: properties.md
+                      items:
+                        - name: Свойство Option
+                          href: iwinhttprequest-option.md
+                        - name: 'Респонсебоди, свойство'
+                          href: iwinhttprequest-responsebody.md
+                        - name: 'ResponseStream, свойство'
+                          href: iwinhttprequest-responsestream.md
+                        - name: 'Респонсетекст, свойство'
+                          href: iwinhttprequest-responsetext.md
+                        - name: Свойство Status
+                          href: iwinhttprequest-status.md
+                        - name: Свойство StatusText
+                          href: iwinhttprequest-statustext.md
+                - name: ивинхттпрекуестевентс
+                  href: iwinhttprequestevents-interface.md
+                  items:
+                    - name: Событие OnError
+                      href: iwinhttprequestevents-onerror.md
+                    - name: Событие Онреспонседатааваилабле
+                      href: iwinhttprequestevents-onresponsedataavailable.md
+                    - name: Событие Онреспонсефинишед
+                      href: iwinhttprequestevents-onresponsefinished.md
+                    - name: Событие Онреспонсестарт
+                      href: iwinhttprequestevents-onresponsestart.md
+            - name: Функции WinHTTP
+              href: winhttp-functions.md
+              items:
+                - name: винхттпаддрекуессеадерс
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpaddrequestheaders
+                - name: винхттпчеккплатформ
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpcheckplatform
+                - name: WinHttpCloseHandle
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpclosehandle
+                - name: винхттпконнект
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpconnect
+                - name: винхттпкраккурл
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpcrackurl
+                - name: винхттпкреатепроксиресолвер
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpcreateproxyresolver
+                - name: винхттпкреатеурл
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpcreateurl
+                - name: винхттпдетектаутопроксиконфигурл
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpdetectautoproxyconfigurl
+                - name: винхттпфрипроксиресулт
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpfreeproxyresult
+                - name: винхттпжетдефаултпроксиконфигуратион
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpgetdefaultproxyconfiguration
+                - name: винхттпжетиепроксиконфигфоркуррентусер
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser
+                - name: WinHttpGetProxyForUrl
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpgetproxyforurl
+                - name: винхттпжетпроксифорурлекс
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpgetproxyforurlex
+                - name: винхттпжетпроксиресулт
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpgetproxyresult
+                - name: WinHttpOpen
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpopen
+                - name: WinHttpOpenRequest
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpopenrequest
+                - name: винхттпкуеряуссчемес
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpqueryauthschemes
+                - name: WinHttpQueryDataAvailable
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpquerydataavailable
+                - name: WinHttpQueryHeaders
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpqueryheaders
+                - name: винхттпкуерйоптион
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpqueryoption
+                - name: WinHttpReadData
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpreaddata
+                - name: WinHttpReceiveResponse
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpreceiveresponse
+                - name: винхттпресетаутопрокси
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpresetautoproxy
+                - name: WinHttpSendRequest
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpsendrequest
+                - name: винхттпсеткредентиалс
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpsetcredentials
+                - name: винхттпсетдефаултпроксиконфигуратион
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpsetdefaultproxyconfiguration
+                - name: винхттпсетоптион
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpsetoption
+                - name: WinHttpSetStatusCallback
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpsetstatuscallback
+                - name: винхттпсеттимеаутс
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpsettimeouts
+                - name: винхттптимефромсистемтиме
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttptimefromsystemtime
+                - name: винхттптиметосистемтиме
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttptimetosystemtime
+                - name: WinHttpWriteData
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpwritedata
+                - name: винхттпвебсоккетклосе
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpwebsocketclose
+                - name: винхттпвебсоккеткомплетеупграде
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpwebsocketcompleteupgrade
+                - name: винхттпвебсоккеткуериклосестатус
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpwebsocketqueryclosestatus
+                - name: винхттпвебсоккетрецеиве
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpwebsocketreceive
+                - name: винхттпвебсоккетсенд
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpwebsocketsend
+                - name: винхттпвебсоккетшутдовн
+                  href: /windows/win32/api/winhttp/nf-winhttp-winhttpwebsocketshutdown
+            - name: Обратные вызовы WinHTTP
+              href: winhttp-prototypes.md
+              items:
+                - name: WINHTTP_STATUS_CALLBACK
+                  href: /windows/win32/api/winhttp/nc-winhttp-winhttp_status_callback
+            - name: Структуры WinHTTP
+              href: winhttp-structures.md
+              items:
+                - name: HTTP_VERSION_INFO
+                  href: /windows/win32/api/winhttp/ns-winhttp-http_version_info
+                - name: URL_COMPONENTS
+                  href: /windows/win32/api/winhttp/ns-winhttp-url_components
+                - name: WINHTTP_ASYNC_RESULT
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_async_result
+                - name: WINHTTP_AUTOPROXY_OPTIONS
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_autoproxy_options
+                - name: WINHTTP_CERTIFICATE_INFO
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info
+                - name: WINHTTP_CONNECTION_INFO
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_connection_info
+                - name: WINHTTP_CREDS
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_creds
+                - name: WINHTTP_CREDS_EX
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex
+                - name: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config
+                - name: WINHTTP_PROXY_INFO
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info
+                - name: WINHTTP_PROXY_RESULT
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_result
+                - name: WINHTTP_PROXY_RESULT_ENTRY
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_result_entry
+                - name: WINHTTP_REQUEST_STATS
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_request_stats
+                - name: WINHTTP_REQUEST_TIMES
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_request_times
+                - name: WINHTTP_WEB_SOCKET_ASYNC_RESULT
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_web_socket_async_result
+                - name: WINHTTP_WEB_SOCKET_STATUS
+                  href: /windows/win32/api/winhttp/ns-winhttp-winhttp_web_socket_status
+            - name: Перечисления WinHTTP
+              href: winhttp-enumerations.md
+              items:
+                - name: винхттпрекуестаутологонполици
+                  href: winhttprequestautologonpolicy.md
+                - name: винхттпрекуестоптион
+                  href: winhttprequestoption.md
+                - name: WINHTTP_WEB_SOCKET_BUFFER_TYPE
+                  href: /windows/win32/api/winhttp/ne-winhttp-winhttp_web_socket_buffer_type
+                - name: WINHTTP_WEB_SOCKET_CLOSE_STATUS
+                  href: /windows/win32/api/winhttp/ne-winhttp-winhttp_web_socket_close_status
+                - name: WINHTTP_WEB_SOCKET_OPERATION
+                  href: /windows/win32/api/winhttp/ne-winhttp-winhttp_web_socket_operation
+            - name: Константы WinHTTP
+              href: winhttp-constants.md
+              items:
+                - name: сообщения об ошибках
+                  href: error-messages.md
+                - name: Коды состояния HTTP
+                  href: http-status-codes.md
+                - name: INTERNET_PORT
+                  href: internet-port.md
+                - name: INTERNET_SCHEME
+                  href: internet-scheme.md
+                - name: Флаги параметров
+                  href: option-flags.md
+                - name: Флаги сведений о запросе
+                  href: query-info-flags.md
+        - name: Ссылка на объект WinHttpRequest
+          href: winhttprequest-object-reference.md
+          items:
+            - name: WinHttpRequest
+              href: winhttprequest.md
+    - name: Словарь терминов
+      href: glossary.md

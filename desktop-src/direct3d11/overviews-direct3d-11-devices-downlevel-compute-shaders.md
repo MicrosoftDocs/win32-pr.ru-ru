@@ -1,0 +1,122 @@
+---
+title: Вычисление шейдеров на низкоуровневых устройствах
+description: В этом разделе описывается использование шейдеров вычислений в приложении Direct3D 11 на оборудовании Direct3D 10.
+ms.assetid: b864269f-c1f7-4253-888d-04d1ed3e6587
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e77214e917d4d74b0e1eebcc3de245d136157976
+ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "104070830"
+---
+# <a name="compute-shaders-on-downlevel-hardware"></a><span data-ttu-id="eebae-103">Вычисление шейдеров на низкоуровневых устройствах</span><span class="sxs-lookup"><span data-stu-id="eebae-103">Compute Shaders on Downlevel Hardware</span></span>
+
+<span data-ttu-id="eebae-104">Direct3D 11 предоставляет возможность использования [шейдеров вычислений](direct3d-11-advanced-stages-compute-shader.md) , которые работают на оборудовании с большинством Direct3D 10. x, с некоторыми ограничениями на работу.</span><span class="sxs-lookup"><span data-stu-id="eebae-104">Direct3D 11 provides the ability to use [compute shaders](direct3d-11-advanced-stages-compute-shader.md) that operate on most Direct3D 10.x hardware, with some limitations to operation.</span></span> <span data-ttu-id="eebae-105">Технология вычислений с шейдером также называется технологией DirectCompute.</span><span class="sxs-lookup"><span data-stu-id="eebae-105">The compute shader technology is also known as the DirectCompute technology.</span></span> <span data-ttu-id="eebae-106">В этом разделе описывается использование [шейдеров вычислений](direct3d-11-advanced-stages-compute-shader.md) в приложении Direct3D 11 на оборудовании Direct3D 10.</span><span class="sxs-lookup"><span data-stu-id="eebae-106">This topic discusses how to make use of [compute shaders](direct3d-11-advanced-stages-compute-shader.md) in a Direct3D 11 app on Direct3D 10 hardware.</span></span>
+
+<span data-ttu-id="eebae-107">Поддержка шейдеров вычислений на оборудовании нижнего уровня предназначена только для устройств, совместимых с Direct3D 10. x.</span><span class="sxs-lookup"><span data-stu-id="eebae-107">Support for compute shaders on downlevel hardware is only for devices compatible with Direct3D 10.x.</span></span> <span data-ttu-id="eebae-108">Использование шейдеров вычислений на оборудовании Direct3D 9. x не допускается.</span><span class="sxs-lookup"><span data-stu-id="eebae-108">Compute shaders cannot be used on Direct3D 9.x hardware.</span></span>
+
+<span data-ttu-id="eebae-109">Чтобы проверить, поддерживает ли оборудование Direct3D 10. x аппаратные шейдеры вычислений, вызовите [**ID3D11Device:: чеккфеатуресуппорт**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport).</span><span class="sxs-lookup"><span data-stu-id="eebae-109">To check if Direct3D 10.x hardware supports compute shaders, call [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport).</span></span> <span data-ttu-id="eebae-110">В вызове **чеккфеатуресуппорт** передайте значение параметра \_ \_ оборудования D3D10 \_ x \_ в \_ параметре *Feature* , передайте указатель в структуру [**\_ \_ \_ \_ \_ \_ параметров оборудования D3D11 Feature Data D3D10 x**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d10_x_hardware_options) в параметр *пфеатуресуппортдата* и передайте размер структуры **\_ \_ \_ \_ \_ \_ параметров оборудования D3D11 компонентов D3D10 x** в параметр *феатуресуппортдатасизе* .</span><span class="sxs-lookup"><span data-stu-id="eebae-110">In the **CheckFeatureSupport** call, pass the D3D11\_FEATURE\_D3D10\_X\_HARDWARE\_OPTIONS value to the *Feature* parameter, pass a pointer to the [**D3D11\_FEATURE\_DATA\_D3D10\_X\_HARDWARE\_OPTIONS**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d10_x_hardware_options) structure to the *pFeatureSupportData* parameter, and pass the size of the **D3D11\_FEATURE\_DATA\_D3D10\_X\_HARDWARE\_OPTIONS** structure to the *FeatureSupportDataSize* parameter.</span></span> <span data-ttu-id="eebae-111">**Чеккфеатуресуппорт** возвращает **значение true** в параметре **компутешадерс \_ Plus \_ равандструктуредбуфферс \_ через \_ шейдер \_ 4 \_ x** элемента **D3D11 \_ Feature \_ Data \_ D3D10 \_ x \_ \_ Параметры оборудования** , если оборудование Direct3D 10. x поддерживает шейдеры вычислений.</span><span class="sxs-lookup"><span data-stu-id="eebae-111">**CheckFeatureSupport** returns **TRUE** in the **ComputeShaders\_Plus\_RawAndStructuredBuffers\_Via\_Shader\_4\_x** member of **D3D11\_FEATURE\_DATA\_D3D10\_X\_HARDWARE\_OPTIONS** if the Direct3D 10.x hardware supports compute shaders.</span></span>
+
+<span data-ttu-id="eebae-112">В разделе [справочника 10Level9](d3d11-graphics-reference-10level9.md) перечислены различия между различными методами [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3d11-id3d11device) и [**ссылку ID3D11DeviceContext**](/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext) на различных уровнях функций 10Level9.</span><span class="sxs-lookup"><span data-stu-id="eebae-112">The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3d11-id3d11device) and [**ID3D11DeviceContext**](/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext) methods behave at various 10Level9 feature levels.</span></span>
+
+-   [<span data-ttu-id="eebae-113">Неупорядоченные представления доступа (Уавс)</span><span class="sxs-lookup"><span data-stu-id="eebae-113">Unordered Access Views (UAVs)</span></span>](#unordered-access-views-uavs)
+-   [<span data-ttu-id="eebae-114">Представления ресурсов шейдера (СРВС)</span><span class="sxs-lookup"><span data-stu-id="eebae-114">Shader Resource Views (SRVs)</span></span>](#shader-resource-views-srvs)
+-   [<span data-ttu-id="eebae-115">Группы потоков</span><span class="sxs-lookup"><span data-stu-id="eebae-115">Thread Groups</span></span>](#thread-groups)
+    -   [<span data-ttu-id="eebae-116">Измерения группы потоков</span><span class="sxs-lookup"><span data-stu-id="eebae-116">Thread Group Dimensions</span></span>](#thread-group-dimensions)
+    -   [<span data-ttu-id="eebae-117">Двухмерные индексы потоков</span><span class="sxs-lookup"><span data-stu-id="eebae-117">Two-Dimensional Thread Indices</span></span>](#two-dimensional-thread-indices)
+    -   [<span data-ttu-id="eebae-118">Общая память группы потоков (ТГСМ)</span><span class="sxs-lookup"><span data-stu-id="eebae-118">Thread Group Shared Memory (TGSM)</span></span>](#thread-group-shared-memory-tgsm)
+-   [<span data-ttu-id="eebae-119">D3DCompile с \_ \_ оптимизацией D3DCompile Skip</span><span class="sxs-lookup"><span data-stu-id="eebae-119">D3DCompile with D3DCOMPILE\_SKIP\_OPTIMIZATION</span></span>](/windows)
+-   [<span data-ttu-id="eebae-120">См. также</span><span class="sxs-lookup"><span data-stu-id="eebae-120">Related topics</span></span>](#related-topics)
+
+## <a name="unordered-access-views-uavs"></a><span data-ttu-id="eebae-121">Неупорядоченные представления доступа (Уавс)</span><span class="sxs-lookup"><span data-stu-id="eebae-121">Unordered Access Views (UAVs)</span></span>
+
+<span data-ttu-id="eebae-122">Неупорядоченные представления доступа RAW ([рвбитеаддрессбуффер](/windows/desktop/direct3dhlsl/sm5-object-rwbyteaddressbuffer)) и Structured ([рвструктуредбуффер](/windows/desktop/direct3dhlsl/sm5-object-rwstructuredbuffer)) поддерживаются на оборудовании нижнего уровня со следующими ограничениями.</span><span class="sxs-lookup"><span data-stu-id="eebae-122">Raw ([RWByteAddressBuffer](/windows/desktop/direct3dhlsl/sm5-object-rwbyteaddressbuffer)) and Structured ([RWStructuredBuffer](/windows/desktop/direct3dhlsl/sm5-object-rwstructuredbuffer)) Unordered Access Views are supported on downlevel hardware, with the following limitations:</span></span>
+
+-   <span data-ttu-id="eebae-123">Только одна UAV может быть привязана к конвейеру за раз через [**ссылку ID3D11DeviceContext:: кссетунордередакцессвиевс**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-cssetunorderedaccessviews).</span><span class="sxs-lookup"><span data-stu-id="eebae-123">Only a single UAV may be bound to a pipeline at a time through [**ID3D11DeviceContext::CSSetUnorderedAccessViews**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-cssetunorderedaccessviews).</span></span>
+-   <span data-ttu-id="eebae-124">Базовое смещение необработанного UAV должно быть выровнено по границе 256 байт (вместо 16-байтового выравнивания, необходимого для оборудования Direct3D 11).</span><span class="sxs-lookup"><span data-stu-id="eebae-124">The base offset for a Raw UAV must be aligned on a 256-byte boundary (instead of 16-byte alignment required for Direct3D 11 hardware).</span></span>
+
+<span data-ttu-id="eebae-125">Типизированные Уавс не поддерживаются на оборудовании нижнего уровня.</span><span class="sxs-lookup"><span data-stu-id="eebae-125">Typed UAVs are not supported on downlevel hardware.</span></span> <span data-ttu-id="eebae-126">Сюда входят [Texture1D](/windows/desktop/direct3dhlsl/sm5-object-rwtexture1d), [Texture2D](/windows/desktop/direct3dhlsl/sm5-object-rwtexture2d)и [Texture3D](/windows/desktop/direct3dhlsl/sm5-object-rwtexture3d) уавс.</span><span class="sxs-lookup"><span data-stu-id="eebae-126">This includes [Texture1D](/windows/desktop/direct3dhlsl/sm5-object-rwtexture1d), [Texture2D](/windows/desktop/direct3dhlsl/sm5-object-rwtexture2d), and [Texture3D](/windows/desktop/direct3dhlsl/sm5-object-rwtexture3d) UAVs.</span></span>
+
+<span data-ttu-id="eebae-127">Шейдеры пикселей на оборудовании нижнего уровня не поддерживают неупорядоченный доступ.</span><span class="sxs-lookup"><span data-stu-id="eebae-127">Pixel Shaders on downlevel hardware do not support unordered access.</span></span>
+
+## <a name="shader-resource-views-srvs"></a><span data-ttu-id="eebae-128">Представления ресурсов шейдера (СРВС)</span><span class="sxs-lookup"><span data-stu-id="eebae-128">Shader Resource Views (SRVs)</span></span>
+
+<span data-ttu-id="eebae-129">Необработанные и структурированные буферы в качестве представлений ресурсов шейдеров поддерживаются на оборудовании нижнего уровня для доступа только для чтения, так как они находятся на оборудовании Direct3D 11.</span><span class="sxs-lookup"><span data-stu-id="eebae-129">Raw and Structured Buffers as Shader Resource Views are supported on downlevel hardware for read-only access, as they are on Direct3D 11 hardware.</span></span> <span data-ttu-id="eebae-130">Эти типы ресурсов поддерживаются для шейдеров вершин, шейдеров Geometry, шейдеров пикселей и шейдеров вычислений.</span><span class="sxs-lookup"><span data-stu-id="eebae-130">These resource types are supported for Vertex Shaders, Geometry Shaders, Pixel Shaders as well as Compute Shaders.</span></span>
+
+## <a name="thread-groups"></a><span data-ttu-id="eebae-131">Группы потоков</span><span class="sxs-lookup"><span data-stu-id="eebae-131">Thread Groups</span></span>
+
+<span data-ttu-id="eebae-132">Шейдер вычислений может выполняться во многих потоках параллельно внутри группы потоков.</span><span class="sxs-lookup"><span data-stu-id="eebae-132">A compute shader can execute on many threads in parallel, within a thread group.</span></span>
+
+<span data-ttu-id="eebae-133">Группы потоков поддерживаются на оборудовании нижнего уровня со следующими ограничениями.</span><span class="sxs-lookup"><span data-stu-id="eebae-133">Thread groups are supported on downlevel hardware, with the following limitations:</span></span>
+
+### <a name="thread-group-dimensions"></a><span data-ttu-id="eebae-134">Измерения группы потоков</span><span class="sxs-lookup"><span data-stu-id="eebae-134">Thread Group Dimensions</span></span>
+
+<span data-ttu-id="eebae-135">Группы потоков, определенные для аппаратного обеспечения нижнего уровня, ограничены измерениями X и Y, равными 768.</span><span class="sxs-lookup"><span data-stu-id="eebae-135">Thread groups defined for downlevel hardware are limited to X and Y dimensions of 768.</span></span> <span data-ttu-id="eebae-136">Это значение меньше максимального значения 1024 для оборудования Direct3D 11.</span><span class="sxs-lookup"><span data-stu-id="eebae-136">This is less than the maximum values of 1024 for Direct3D 11 hardware.</span></span> <span data-ttu-id="eebae-137">Максимальное значение Z-измерения 64 не изменяется.</span><span class="sxs-lookup"><span data-stu-id="eebae-137">The maximum Z dimension of 64 is unchanged.</span></span>
+
+<span data-ttu-id="eebae-138">Общее число потоков в группе (X × Y × Z) ограничено 768.</span><span class="sxs-lookup"><span data-stu-id="eebae-138">The total number of threads in the group (X × Y × Z) is limited to 768.</span></span> <span data-ttu-id="eebae-139">Это значение меньше, чем ограничение 1024 для оборудования Direct3D 11.</span><span class="sxs-lookup"><span data-stu-id="eebae-139">This is less than the limit of 1024 for Direct3D 11 hardware.</span></span>
+
+<span data-ttu-id="eebae-140">Если эти числа превышены, компиляция шейдера завершится ошибкой.</span><span class="sxs-lookup"><span data-stu-id="eebae-140">If these numbers are exceeded, shader compilation will fail.</span></span>
+
+### <a name="two-dimensional-thread-indices"></a><span data-ttu-id="eebae-141">Индексы потоков Two-Dimensional</span><span class="sxs-lookup"><span data-stu-id="eebae-141">Two-Dimensional Thread Indices</span></span>
+
+<span data-ttu-id="eebae-142">Определенный поток в группе потоков индексируется с помощью трехмерного вектора, заданного (x, y, z).</span><span class="sxs-lookup"><span data-stu-id="eebae-142">A particular thread within a thread group is indexed using a 3D vector given by (x,y,z).</span></span>
+
+<span data-ttu-id="eebae-143">Для вычислений в виде шейдеров, работающих на устройствах нижнего уровня, группы потоков поддерживают только два измерения.</span><span class="sxs-lookup"><span data-stu-id="eebae-143">For compute shaders operating on downlevel hardware, thread groups only support two dimensions.</span></span> <span data-ttu-id="eebae-144">Это означает, что значение Z в трехмерном векторе всегда должно быть равно 1.</span><span class="sxs-lookup"><span data-stu-id="eebae-144">This means that the Z value in the 3D vector must always be 1.</span></span>
+
+<span data-ttu-id="eebae-145">Это ограничение относится к следующим параметрам:</span><span class="sxs-lookup"><span data-stu-id="eebae-145">This limitation specifically applies to the following:</span></span>
+
+-   <span data-ttu-id="eebae-146">[**Ссылку ID3D11DeviceContext::D Patch**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatch)— аргумент *среадграупкаунтз* должен быть равен 1.</span><span class="sxs-lookup"><span data-stu-id="eebae-146">[**ID3D11DeviceContext::Dispatch**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatch)— The *ThreadGroupCountZ* argument must be 1.</span></span>
+-   <span data-ttu-id="eebae-147">[**Ссылку ID3D11DeviceContext::D испатчиндирект**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatchindirect)— эта функция не поддерживается на оборудовании нижнего уровня.</span><span class="sxs-lookup"><span data-stu-id="eebae-147">[**ID3D11DeviceContext::DispatchIndirect**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatchindirect)— This function is not supported on downlevel hardware.</span></span>
+-   <span data-ttu-id="eebae-148">[numthreads](/windows/desktop/direct3dhlsl/sm5-attributes-numthreads)— значение Z должно быть равно 1.</span><span class="sxs-lookup"><span data-stu-id="eebae-148">[numthreads](/windows/desktop/direct3dhlsl/sm5-attributes-numthreads)— The Z value must be 1.</span></span>
+
+### <a name="thread-group-shared-memory-tgsm"></a><span data-ttu-id="eebae-149">Общая память группы потоков (ТГСМ)</span><span class="sxs-lookup"><span data-stu-id="eebae-149">Thread Group Shared Memory (TGSM)</span></span>
+
+<span data-ttu-id="eebae-150">Общая память группы потоков ограничена 16 КБ на оборудовании нижнего уровня.</span><span class="sxs-lookup"><span data-stu-id="eebae-150">Thread Group Shared Memory is limited to 16Kb on downlevel hardware.</span></span> <span data-ttu-id="eebae-151">Это меньше, чем 32 КБ, доступное для оборудования Direct3D 11.</span><span class="sxs-lookup"><span data-stu-id="eebae-151">This is less than the 32Kb that is available to Direct3D 11 hardware.</span></span>
+
+<span data-ttu-id="eebae-152">Поток шейдера вычислений может выполнять запись только в собственный регион ТГСМ.</span><span class="sxs-lookup"><span data-stu-id="eebae-152">A Compute Shader thread may only write to its own region of TGSM.</span></span> <span data-ttu-id="eebae-153">Размер этой области, доступной только для записи, не должен превышать 256 байт, а максимальное уменьшение количества потоков, объявленных для группы, увеличится.</span><span class="sxs-lookup"><span data-stu-id="eebae-153">This write-only region has a maximum size of 256 bytes or less, with the maximum decreasing as the number of threads declared for the group increases.</span></span>
+
+<span data-ttu-id="eebae-154">В следующей таблице определяется максимальный размер каждого потока ТГСМ региона для числа потоков в группе.</span><span class="sxs-lookup"><span data-stu-id="eebae-154">The following table defines the per-thread maximum size of a TGSM region for the number of threads in the group:</span></span>
+
+
+
+| <span data-ttu-id="eebae-155">Число потоков в группе</span><span class="sxs-lookup"><span data-stu-id="eebae-155">Number of Threads in Group</span></span> | <span data-ttu-id="eebae-156">Максимальный размер ТГСМ на поток</span><span class="sxs-lookup"><span data-stu-id="eebae-156">Maximum TGSM Size Per Thread</span></span> |
+|----------------------------|------------------------------|
+| <span data-ttu-id="eebae-157">0-64</span><span class="sxs-lookup"><span data-stu-id="eebae-157">0-64</span></span>                       | <span data-ttu-id="eebae-158">256</span><span class="sxs-lookup"><span data-stu-id="eebae-158">256</span></span>                          |
+| <span data-ttu-id="eebae-159">65-68</span><span class="sxs-lookup"><span data-stu-id="eebae-159">65-68</span></span>                      | <span data-ttu-id="eebae-160">240</span><span class="sxs-lookup"><span data-stu-id="eebae-160">240</span></span>                          |
+| <span data-ttu-id="eebae-161">69-72</span><span class="sxs-lookup"><span data-stu-id="eebae-161">69-72</span></span>                      | <span data-ttu-id="eebae-162">224</span><span class="sxs-lookup"><span data-stu-id="eebae-162">224</span></span>                          |
+| <span data-ttu-id="eebae-163">73-76</span><span class="sxs-lookup"><span data-stu-id="eebae-163">73-76</span></span>                      | <span data-ttu-id="eebae-164">208</span><span class="sxs-lookup"><span data-stu-id="eebae-164">208</span></span>                          |
+| <span data-ttu-id="eebae-165">77-84</span><span class="sxs-lookup"><span data-stu-id="eebae-165">77-84</span></span>                      | <span data-ttu-id="eebae-166">192</span><span class="sxs-lookup"><span data-stu-id="eebae-166">192</span></span>                          |
+| <span data-ttu-id="eebae-167">85-92</span><span class="sxs-lookup"><span data-stu-id="eebae-167">85-92</span></span>                      | <span data-ttu-id="eebae-168">176</span><span class="sxs-lookup"><span data-stu-id="eebae-168">176</span></span>                          |
+| <span data-ttu-id="eebae-169">93-100</span><span class="sxs-lookup"><span data-stu-id="eebae-169">93-100</span></span>                     | <span data-ttu-id="eebae-170">160</span><span class="sxs-lookup"><span data-stu-id="eebae-170">160</span></span>                          |
+| <span data-ttu-id="eebae-171">101-112</span><span class="sxs-lookup"><span data-stu-id="eebae-171">101-112</span></span>                    | <span data-ttu-id="eebae-172">144</span><span class="sxs-lookup"><span data-stu-id="eebae-172">144</span></span>                          |
+| <span data-ttu-id="eebae-173">113-128</span><span class="sxs-lookup"><span data-stu-id="eebae-173">113-128</span></span>                    | <span data-ttu-id="eebae-174">128</span><span class="sxs-lookup"><span data-stu-id="eebae-174">128</span></span>                          |
+| <span data-ttu-id="eebae-175">129-144</span><span class="sxs-lookup"><span data-stu-id="eebae-175">129-144</span></span>                    | <span data-ttu-id="eebae-176">112</span><span class="sxs-lookup"><span data-stu-id="eebae-176">112</span></span>                          |
+| <span data-ttu-id="eebae-177">145-168</span><span class="sxs-lookup"><span data-stu-id="eebae-177">145-168</span></span>                    | <span data-ttu-id="eebae-178">96</span><span class="sxs-lookup"><span data-stu-id="eebae-178">96</span></span>                           |
+| <span data-ttu-id="eebae-179">169-204</span><span class="sxs-lookup"><span data-stu-id="eebae-179">169-204</span></span>                    | <span data-ttu-id="eebae-180">80</span><span class="sxs-lookup"><span data-stu-id="eebae-180">80</span></span>                           |
+| <span data-ttu-id="eebae-181">205-256</span><span class="sxs-lookup"><span data-stu-id="eebae-181">205-256</span></span>                    | <span data-ttu-id="eebae-182">64</span><span class="sxs-lookup"><span data-stu-id="eebae-182">64</span></span>                           |
+| <span data-ttu-id="eebae-183">257-340</span><span class="sxs-lookup"><span data-stu-id="eebae-183">257-340</span></span>                    | <span data-ttu-id="eebae-184">48</span><span class="sxs-lookup"><span data-stu-id="eebae-184">48</span></span>                           |
+| <span data-ttu-id="eebae-185">341-512</span><span class="sxs-lookup"><span data-stu-id="eebae-185">341-512</span></span>                    | <span data-ttu-id="eebae-186">32</span><span class="sxs-lookup"><span data-stu-id="eebae-186">32</span></span>                           |
+| <span data-ttu-id="eebae-187">513-768</span><span class="sxs-lookup"><span data-stu-id="eebae-187">513-768</span></span>                    | <span data-ttu-id="eebae-188">16</span><span class="sxs-lookup"><span data-stu-id="eebae-188">16</span></span>                           |
+
+
+
+ 
+
+<span data-ttu-id="eebae-189">Поток шейдера вычислений может считывать ТГСМ из любого расположения.</span><span class="sxs-lookup"><span data-stu-id="eebae-189">A Compute Shader thread may read the TGSM from any location.</span></span>
+
+## <a name="d3dcompile-with-d3dcompile_skip_optimization"></a><span data-ttu-id="eebae-190">D3DCompile с \_ \_ оптимизацией D3DCompile Skip</span><span class="sxs-lookup"><span data-stu-id="eebae-190">D3DCompile with D3DCOMPILE\_SKIP\_OPTIMIZATION</span></span>
+
+<span data-ttu-id="eebae-191">[**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile) возвращает **E \_ нотимпл** при передаче CS \_ 4 \_ 0 в качестве целевого объекта шейдера вместе с параметром [**D3DCompile \_ пропустить \_ оптимизацию**](/windows/desktop/direct3dhlsl/d3dcompile-constants) .</span><span class="sxs-lookup"><span data-stu-id="eebae-191">[**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile) returns **E\_NOTIMPL** when you pass cs\_4\_0 as the shader target along with the [**D3DCOMPILE\_SKIP\_OPTIMIZATION**](/windows/desktop/direct3dhlsl/d3dcompile-constants) compile option.</span></span> <span data-ttu-id="eebae-192">\_ \_ Целевой объект шейдера CS 5 0 работает с **\_ \_ оптимизацией D3DCOMPILE Skip**.</span><span class="sxs-lookup"><span data-stu-id="eebae-192">The cs\_5\_0 shader target works with **D3DCOMPILE\_SKIP\_OPTIMIZATION**.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="eebae-193">См. также</span><span class="sxs-lookup"><span data-stu-id="eebae-193">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="eebae-194">Direct3D 11 на оборудовании нижнего уровня</span><span class="sxs-lookup"><span data-stu-id="eebae-194">Direct3D 11 on Downlevel Hardware</span></span>](overviews-direct3d-11-devices-downlevel.md)
+</dt> </dl>
+
+ 
+
+ 
