@@ -1,0 +1,787 @@
+- name: Сетевой монитор
+  href: network-monitor.md
+  items:
+    - name: Пакет SDK для сетевой монитор
+      href: the-network-monitor-sdk.md
+      items:
+        - name: Требования к системе
+          href: system-requirements.md
+        - name: 'Получение сетевой монитор 2,1'
+          href: obtaining-network-monitor-2-1.md
+        - name: Установка файлов сетевой монитор
+          href: installing-network-monitor-files.md
+    - name: 'Сведения о сетевой монитор 2,1'
+      href: about-network-monitor-2-1.md
+      items:
+        - name: Архитектура сетевой монитор
+          href: network-monitor-architecture.md
+          items:
+            - name: Архитектура эксперта и анализатора
+              href: expert-and-parser-architecture.md
+            - name: Мониторинг архитектуры
+              href: monitor-architecture.md
+        - name: Мониторы
+          href: monitors.md
+          items:
+            - name: Записи в режиме реального времени
+              href: real-time-captures.md
+            - name: Мониторинг событий
+              href: monitor-events.md
+            - name: Мониторинг страниц ссылок на события
+              href: monitor-event-reference-pages.md
+            - name: Конфигурация монитора
+              href: monitor-configuration.md
+            - name: Local-Only и неизбирательные режимы
+              href: local-only-and-promiscuous-modes.md
+        - name: Эксперты
+          href: experts.md
+        - name: Анализаторы
+          href: parsers.md
+          items:
+            - name: Архитектура библиотеки DLL средства синтаксического анализа
+              href: parser-dll-architecture.md
+            - name: Структуры свойств и экземпляров свойств
+              href: property-definition-and-property-instance-structures.md
+        - name: Поставщики сетевых пакетов
+          href: network-packet-providers.md
+          items:
+            - name: Выбор сетевой карты
+              href: selecting-a-network-interface-card.md
+              items:
+                - name: Выбор зарегистрированного сетевого адаптера
+                  href: selecting-a-registered-nic.md
+                - name: Выбор сетевой карты из указанной таблицы больших двоичных объектов НПП
+                  href: selecting-a-nic-from-a-supplied-npp-blob-table.md
+                - name: Выбор сетевой карты из возвращенной таблицы больших двоичных объектов НПП
+                  href: selecting-a-nic-from-a-returned-npp-blob-table.md
+                - name: Указание фильтра BLOB
+                  href: specifying-a-filter-blob.md
+            - name: Выбор интерфейса НПП
+              href: selecting-an-npp-interface.md
+            - name: Процесс отслеживания
+              href: the-capture-process.md
+        - name: сетевой монитор большие двоичные объекты
+          href: network-monitor-blobs.md
+          items:
+            - name: Типы больших двоичных объектов
+              href: blob-types.md
+            - name: Компоненты BLOB-объектов
+              href: blob-components.md
+            - name: Специальные записи BLOB-объектов
+              href: special-blob-entries.md
+        - name: Страница ссылки на событие
+          href: event-reference-page.md
+          items:
+            - name: Сведения о страницах ссылок на события
+              href: about-event-reference-pages.md
+        - name: Фильтры записи
+          href: capture-filters.md
+          items:
+            - name: О фильтрах записи
+              href: about-capture-filters.md
+            - name: Структура КАПТУРЕФИЛТЕР
+              href: the-capturefilter-structure.md
+    - name: 'Использование сетевой монитор 2,1'
+      href: using-network-monitor-2-1.md
+      items:
+        - name: Мониторинг Real-Time сетевых данных
+          href: monitoring-real-time-network-data.md
+          items:
+            - name: Указание сведений о протоколе
+              href: specifying-protocol-information.md
+            - name: Настройка частоты ответного вызова
+              href: setting-the-callback-frequency.md
+            - name: Установка монитора для сетевой монитор
+              href: installing-a-monitor-to-network-monitor.md
+            - name: Создание фильтра записи монитора
+              href: creating-a-monitor-capture-filter.md
+              items:
+                - name: Настройка ETYPE или SAP Filter
+                  href: setting-the-etype-or-sap-filter.md
+                - name: Установка соответствия шаблону
+                  href: setting-a-pattern-match.md
+                - name: Обработка данных кадра
+                  href: processing-frame-data.md
+            - name: Тестирование монитора
+              href: testing-a-monitor.md
+            - name: Отладка монитора
+              href: debugging-a-monitor.md
+        - name: Анализ сетевого трафика
+          href: analyzing-network-traffic.md
+          items:
+            - name: Настройка экспертов
+              href: configuring-experts.md
+            - name: Запуск и запуск экспертов
+              href: starting-and-running-experts.md
+            - name: Программирование эксперта
+              href: programming-an-expert.md
+            - name: Использование Microsoft Foundation Classes
+              href: using-microsoft-foundation-classes.md
+            - name: Управление памятью
+              href: managing-memory.md
+            - name: Создание эксперта
+              href: building-an-expert.md
+            - name: 'Установка эксперта в сетевой монитор 2,1'
+              href: installing-an-expert-to-network-monitor-2-1.md
+            - name: Отладка эксперта
+              href: debugging-an-expert.md
+            - name: Просмотр свойств библиотеки DLL экспертов
+              href: viewing-expert-dll-properties.md
+        - name: Написание средства синтаксического анализа протокола
+          href: writing-a-protocol-parser.md
+          items:
+            - name: Замечания по программированию
+              href: programming-considerations.md
+            - name: Реализация функций экспорта средства синтаксического анализа
+              href: implementing-parser-export-functions.md
+              items:
+                - name: Реализация Парсераутоинсталлинфо
+                  href: implementing-parserautoinstallinfo.md
+                - name: Реализация средства синтаксического анализа DllMain
+                  href: implementing-dllmain-parser.md
+                - name: Реализация регистра
+                  href: implementing-register.md
+                - name: Реализация Рекогнизефраме
+                  href: implementing-recognizeframe.md
+                - name: Реализация Аттачпропертиес
+                  href: implementing-attachproperties.md
+                - name: Реализация Форматпропертиес
+                  href: implementing-formatproperties.md
+                - name: Реализация отмены регистрации
+                  href: implementing-deregister.md
+            - name: Указание переданного набора
+              href: specifying-a-handoff-set.md
+            - name: Указание набора следования
+              href: specifying-a-follow-set.md
+            - name: Форматирование отображаемых данных
+              href: formatting-displayed-data.md
+              items:
+                - name: Выходные данные универсального модуля форматирования
+                  href: generic-formatter-output.md
+        - name: Просмотр проанализированных данных
+          href: viewing-parsed-information.md
+        - name: Предоставление статистики сети и сведений о пакетах
+          href: providing-network-statistics-and-packet-information.md
+          items:
+            - name: Выбор сетевого адаптера с помощью Жетнппблобфромуи
+              href: selecting-a-nic-using-getnppblobfromui.md
+            - name: Использование Жетнппблобтабле
+              href: using-getnppblobtable.md
+        - name: Создание страниц со ссылками на события экспертов и мониторинга
+          href: creating-expert-and-monitor-event-reference-pages.md
+          items:
+            - name: Создание страницы ссылки на событие
+              href: writing-an-event-reference-page.md
+            - name: Именование страницы ссылки на события
+              href: naming-an-event-reference-page.md
+            - name: 'Установка существующих ERP в сетевой монитор 2,1'
+              href: installing-existing-erps-to-network-monitor-2-1.md
+            - name: Тестирование страницы ссылки на событие
+              href: testing-an-event-reference-page.md
+        - name: Создание фильтров записи
+          href: creating-capture-filters.md
+          items:
+            - name: Создание части фильтра ETYPE или SAP
+              href: writing-etypesap-filter-portion.md
+            - name: Запись части фильтра АДДРЕССТАБЛЕ
+              href: writing-addresstable-filter-portion.md
+            - name: Написание фильтра ПАТТЕРНМАТЧ
+              href: writing-the-patternmatch-filter.md
+            - name: Обрезка рамки
+              href: clipping-a-frame.md
+            - name: Реализация кода фильтра записи
+              href: implementing-the-capture-filter-code.md
+    - name: Справочник
+      href: reference.md
+      items:
+        - name: Интерфейсы монитора
+          href: monitor-interfaces.md
+          items:
+            - name: имонитор
+              href: imonitor.md
+              items:
+                - name: Метод Доинитиализе
+                  href: imonitor-doinitialize.md
+                - name: Метод Доконфигуре
+                  href: imonitor-doconfigure.md
+                - name: Метод onframe
+                  href: imonitor-onframes.md
+                - name: Метод OnStart
+                  href: imonitor-onstart.md
+                - name: Метод OnStatus
+                  href: imonitor-onstatus.md
+                - name: Метод OnStop
+                  href: imonitor-onstop.md
+            - name: имониторевентер
+              href: imonitoreventer.md
+              items:
+                - name: Метод Фриевентдата
+                  href: imonitoreventer-freeeventdata.md
+                - name: Метод Жетевентдата
+                  href: imonitoreventer-geteventdata.md
+                - name: Метод Сенднмевент
+                  href: imonitoreventer-sendnmevent.md
+        - name: Мониторинг функций
+          href: monitor-functions.md
+          items:
+            - name: дллжетмониторобжект
+              href: dllgetmonitorobject.md
+            - name: хтмлвалуетауникоде
+              href: htmlvaluetounicode.md
+            - name: лоаддворд
+              href: loaddword.md
+            - name: лоадипаддрессес
+              href: loadipaddresses.md
+            - name: лоадипксаддрессес
+              href: loadipxaddresses.md
+            - name: лоадмакаддрессес
+              href: loadmacaddresses.md
+            - name: лоадстрингаддр
+              href: loadstringaddr.md
+            - name: лоадтчар
+              href: loadtchar.md
+            - name: онлоадингдлл
+              href: onloadingdll.md
+        - name: 'Экспертные функции, структуры и перечисления'
+          href: expert-functions-structures-and-enumerations.md
+          items:
+            - name: Функции экспорта DLL эксперта
+              href: expert-dll-export-functions.md
+              items:
+                - name: Эксперт по DllMain
+                  href: dllmain-expert.md
+                - name: Регистрация экспертов
+                  href: register-expert.md
+                - name: Configure
+                  href: configure.md
+                - name: Выполнить
+                  href: run.md
+            - name: Экспертные функции
+              href: expert-functions.md
+              items:
+                - name: експерталлокмемори
+                  href: expertallocmemory.md
+                - name: експертфримемори
+                  href: expertfreememory.md
+                - name: експертжетфраме
+                  href: expertgetframe.md
+                - name: експертжетстартупинфо
+                  href: expertgetstartupinfo.md
+                - name: експертиндикатестатус
+                  href: expertindicatestatus.md
+                - name: експертмеморисизе
+                  href: expertmemorysize.md
+                - name: експертреаллокмемори
+                  href: expertreallocmemory.md
+                - name: експертсубмитевент
+                  href: expertsubmitevent.md
+            - name: Экспертные структуры
+              href: expert-structures.md
+              items:
+                - name: конфигуредексперт
+                  href: configuredexpert.md
+                - name: експертконфиг
+                  href: expertconfig.md
+                - name: експертенуминфо
+                  href: expertenuminfo.md
+                - name: експертфрамедескриптор
+                  href: expertframedescriptor.md
+                - name: експертстартупинфо
+                  href: expertstartupinfo.md
+                - name: експертстатус
+                  href: expertstatus.md
+                - name: филтеробжект
+                  href: filterobject.md
+                - name: GROUPINFO
+                  href: groupinfo.md
+                - name: нмевентдата
+                  href: nmeventdata.md
+                - name: нмколумнинфо
+                  href: nmcolumninfo.md
+                - name: нмколумнвариант
+                  href: nmcolumnvariant.md
+                - name: нмколумнтипе
+                  href: nmcolumntype.md
+                - name: протоколтабле
+                  href: protocoltable.md
+            - name: Перечисления экспертов
+              href: expert-enumerations.md
+              items:
+                - name: експертстатусенумератион
+                  href: expertstatusenumeration.md
+        - name: Функции и структуры средства синтаксического анализа
+          href: parser-functions-and-structures.md
+          items:
+            - name: Функции экспорта библиотеки DLL средства синтаксического анализа
+              href: parser-dll-export-functions.md
+              items:
+                - name: Средство синтаксического анализа DllMain
+                  href: dllmain-parser.md
+                - name: аттачпропертиес
+                  href: attachproperties.md
+                - name: Отмена регистрации
+                  href: deregister.md
+                - name: форматпропертиес
+                  href: formatproperties.md
+                - name: рекогнизефраме
+                  href: recognizeframe.md
+                - name: Регистрация средства синтаксического анализа
+                  href: register-parser.md
+                - name: парсераутоинсталлинфо
+                  href: parserautoinstallinfo.md
+            - name: Функции средства синтаксического анализа
+              href: parser-functions.md
+              items:
+                - name: AddProperty
+                  href: /previous-versions/bb251873(v=msdn.10)
+                - name: аддресстостринг
+                  href: addresstostring.md
+                - name: аттачпропертинстанце
+                  href: attachpropertyinstance.md
+                - name: аттачпропертинстанцеекс
+                  href: attachpropertyinstanceex.md
+                - name: бержесеадер
+                  href: bergetheader.md
+                - name: бержетинтежер
+                  href: bergetinteger.md
+                - name: бержетстринг
+                  href: bergetstring.md
+                - name: буилдинипас
+                  href: buildinipath.md
+                - name: кчеапаллок
+                  href: ccheapalloc.md
+                - name: кчеапфри
+                  href: ccheapfree.md
+                - name: кчеапреаллок
+                  href: ccheaprealloc.md
+                - name: кчеапсизе
+                  href: ccheapsize.md
+                - name: креатехандоффтабле
+                  href: createhandofftable.md
+                - name: креатепропертидатабасе
+                  href: createpropertydatabase.md
+                - name: креатепротокол
+                  href: createprotocol.md
+                - name: дестройхандоффтабле
+                  href: destroyhandofftable.md
+                - name: дестройпропертидатабасе
+                  href: destroypropertydatabase.md
+                - name: дестройпротокол
+                  href: destroyprotocol.md
+                - name: финднекстфраме
+                  href: findnextframe.md
+                - name: финдпревиаусфраме
+                  href: findpreviousframe.md
+                - name: форматпропертинстанце
+                  href: formatpropertyinstance.md
+                - name: жеткЦинстптр
+                  href: getccinstptr.md
+                - name: жетфрамедестаддресс
+                  href: getframedestaddress.md
+                - name: жетфрамесаурцеаддресс
+                  href: getframesourceaddress.md
+                - name: жетпротоколфромтабле
+                  href: getprotocolfromtable.md
+                - name: жетпротоколстартоффсет
+                  href: getprotocolstartoffset.md
+                - name: лукупбитесетстринг
+                  href: lookupbytesetstring.md
+                - name: лукупдвордсетстринг
+                  href: lookupdwordsetstring.md
+                - name: лукупвордсетстринг
+                  href: lookupwordsetstring.md
+                - name: парсертемпорарилоккфраме
+                  href: parsertemporarylockframe.md
+                - name: сеткЦинстптр
+                  href: setccinstptr.md
+                - name: стрингтоаддресс
+                  href: stringtoaddress.md
+                - name: варленсмаллинттодворд
+                  href: varlensmallinttodword.md
+            - name: Структуры синтаксического анализатора
+              href: parser-structures.md
+              items:
+                - name: ENTRYPOINT
+                  href: entrypoints.md
+                - name: хандоффентри
+                  href: handoffentry.md
+                - name: хандоффтабле
+                  href: handofftable.md
+                - name: LABELED_BIT
+                  href: labeled-bit.md
+                - name: LABELED_BYTE
+                  href: labeled-byte.md
+                - name: LABELED_DWORD
+                  href: labeled-dword.md
+                - name: LABELED_LARGEINT
+                  href: labeled-largeint.md
+                - name: LABELED_SYSTEMTIME
+                  href: labeled-systemtime.md
+                - name: LABELED_WORD
+                  href: labeled-word.md
+                - name: ларжеинт
+                  href: largeint.md
+                - name: макфраме
+                  href: macframe.md
+                - name: PF_FOLLOWENTRY
+                  href: pf-followentry.md
+                - name: PF_FOLLOWSET
+                  href: pf-followset.md
+                - name: PF_HANDOFFENTRY
+                  href: pf-handoffentry.md
+                - name: PF_HANDOFFSET
+                  href: pf-handoffset.md
+                - name: PF_PARSERDLLINFO
+                  href: pf-parserdllinfo.md
+                - name: PF_PARSERINFO
+                  href: pf-parserinfo.md
+                - name: PROPERTYINFO
+                  href: propertyinfo.md
+                - name: пропертинст
+                  href: propertyinst.md
+                - name: пропертинстекс
+                  href: propertyinstex.md
+                - name: протоколинфо
+                  href: protocolinfo.md
+                - name: RANGE
+                  href: range.md
+                - name: SET
+                  href: set.md
+        - name: Общие функции эксперта и средства синтаксического анализа
+          href: expert-and-parser-common-functions.md
+          items:
+            - name: компареаддрессес
+              href: compareaddresses.md
+            - name: компарефрамедестаддресс
+              href: compareframedestaddress.md
+            - name: компарефрамесаурцеаддресс
+              href: compareframesourceaddress.md
+            - name: филтераддобжект
+              href: filteraddobject.md
+            - name: финдпропертинстанце
+              href: findpropertyinstance.md
+            - name: финдпропертинстанцерестарт
+              href: findpropertyinstancerestart.md
+            - name: жеткаптурекоммент
+              href: getcapturecomment.md
+            - name: жеткаптурекомментфромфиленаме
+              href: getcapturecommentfromfilename.md
+            - name: жеткаптуремактипе
+              href: getcapturemactype.md
+            - name: жеткаптуретиместамп
+              href: getcapturetimestamp.md
+            - name: жеткаптуретоталфрамес
+              href: getcapturetotalframes.md
+            - name: жетенабледпротоколс
+              href: getenabledprotocols.md
+            - name: GetFrame
+              href: getframe.md
+            - name: жетфрамекаптурехандле
+              href: getframecapturehandle.md
+            - name: жетфрамедстаддрессоффсет
+              href: getframedstaddressoffset.md
+            - name: жетфрамефромфрамехандле
+              href: getframefromframehandle.md
+            - name: жетфрамеленгс
+              href: getframelength.md
+            - name: жетфрамемачеадерленгс
+              href: getframemacheaderlength.md
+            - name: жетфрамемактипе
+              href: getframemactype.md
+            - name: жетфраменумбер
+              href: getframenumber.md
+            - name: жетфрамерекогнизедата
+              href: getframerecognizedata.md
+            - name: жетфрамесркаддрессоффсет
+              href: getframesrcaddressoffset.md
+            - name: жетфраместоредленгс
+              href: getframestoredlength.md
+            - name: жетфраметиместамп
+              href: getframetimestamp.md
+            - name: жетпревиауспротоколоффсетбинаме
+              href: getpreviousprotocoloffsetbyname.md
+            - name: GetProperty
+              href: getproperty.md
+            - name: GetPropertyInfo
+              href: getpropertyinfo.md
+            - name: жетпропертитекст
+              href: getpropertytext.md
+            - name: жетпротоколфромнаме
+              href: getprotocolfromname.md
+            - name: жетпротоколинфо
+              href: getprotocolinfo.md
+            - name: жетпротоколстартоффсесандле
+              href: getprotocolstartoffsethandle.md
+            - name: мактипетоаддресстипе
+              href: mactypetoaddresstype.md
+            - name: модифифраме
+              href: modifyframe.md
+        - name: Интерфейсы НПП
+          href: npp-interfaces.md
+          items:
+            - name: иделайдк
+              href: idelaydc.md
+              items:
+                - name: Метод Configure
+                  href: idelaydc-configure.md
+                - name: Метод Connect
+                  href: idelaydc-connect.md
+                - name: Метод Disconnect
+                  href: idelaydc-disconnect.md
+                - name: Метод Жетконтролстате
+                  href: idelaydc-getcontrolstate.md
+                - name: Метод Жетконверсатионстатистикс
+                  href: idelaydc-getconversationstatistics.md
+                - name: Метод Жеттоталстатистикс
+                  href: idelaydc-gettotalstatistics.md
+                - name: Приостановить метод
+                  href: idelaydc-pause.md
+                - name: Метод Куеристатионс
+                  href: idelaydc-querystations.md
+                - name: Метод QueryStatus
+                  href: idelaydc-querystatus.md
+                - name: Метод Resume
+                  href: idelaydc-resume.md
+                - name: Метод Start
+                  href: idelaydc-start.md
+                - name: Метод Stop
+                  href: idelaydc-stop.md
+            - name: иесп
+              href: iesp.md
+              items:
+                - name: Метод Configure
+                  href: iesp-configure.md
+                - name: Метод Connect
+                  href: iesp-connect.md
+                - name: Метод Disconnect
+                  href: iesp-disconnect.md
+                - name: Метод Жетконтролстате
+                  href: iesp-getcontrolstate.md
+                - name: Приостановить метод
+                  href: iesp-pause.md
+                - name: Метод Куеристатионс
+                  href: iesp-querystations.md
+                - name: Метод QueryStatus
+                  href: iesp-querystatus.md
+                - name: Метод Resume
+                  href: iesp-resume.md
+                - name: Метод Start
+                  href: iesp-start.md
+                - name: Метод Stop
+                  href: iesp-stop.md
+            - name: иртк
+              href: irtc.md
+              items:
+                - name: Метод Configure
+                  href: irtc-configure.md
+                - name: Метод Connect
+                  href: irtc-connect.md
+                - name: Метод Disconnect
+                  href: irtc-disconnect.md
+                - name: Метод Жетконтролстате
+                  href: irtc-getcontrolstate.md
+                - name: Метод Жетконверсатионстатистикс
+                  href: irtc-getconversationstatistics.md
+                - name: Метод Жеттоталстатистикс
+                  href: irtc-gettotalstatistics.md
+                - name: Приостановить метод
+                  href: irtc-pause.md
+                - name: Метод Куеристатионс
+                  href: irtc-querystations.md
+                - name: Метод QueryStatus
+                  href: irtc-querystatus.md
+                - name: Метод Resume
+                  href: irtc-resume.md
+                - name: Метод Start
+                  href: irtc-start.md
+                - name: Метод Stop
+                  href: irtc-stop.md
+            - name: истатс
+              href: istats.md
+              items:
+                - name: Метод Configure
+                  href: istats-configure.md
+                - name: Метод Connect
+                  href: istats-connect.md
+                - name: Метод Disconnect
+                  href: istats-disconnect.md
+                - name: Метод Жетконтролстате
+                  href: istats-getcontrolstate.md
+                - name: Метод Жетконверсатионстатистикс
+                  href: istats-getconversationstatistics.md
+                - name: Метод Жеттоталстатистикс
+                  href: istats-gettotalstatistics.md
+                - name: Приостановить метод
+                  href: istats-pause.md
+                - name: Метод Куеристатионс
+                  href: istats-querystations.md
+                - name: Метод QueryStatus
+                  href: istats-querystatus.md
+                - name: Метод Resume
+                  href: istats-resume.md
+                - name: Метод Start
+                  href: istats-start.md
+                - name: Метод Stop
+                  href: istats-stop.md
+        - name: Структуры НПП
+          href: npp-structures.md
+          items:
+            - name: сессионстатс
+              href: sessionstats.md
+            - name: статионстатс
+              href: stationstats.md
+            - name: STATISTICS
+              href: statistics.md
+            - name: куеритабле
+              href: querytable.md
+            - name: статионкуери
+              href: stationquery.md
+            - name: NETWORKSTATUS
+              href: networkstatus.md
+        - name: Функции больших двоичных объектов
+          href: blob-functions.md
+          items:
+            - name: CreateBlob
+              href: createblob.md
+            - name: креатенппинтерфаце
+              href: createnppinterface.md
+            - name: дестройблоб
+              href: destroyblob.md
+            - name: дупликатеблоб
+              href: duplicateblob.md
+            - name: жетбулфромблоб
+              href: getboolfromblob.md
+            - name: жетклассидфромблоб
+              href: getclassidfromblob.md
+            - name: жетдвордфромблоб
+              href: getdwordfromblob.md
+            - name: жетмакаддрессфромблоб
+              href: getmacaddressfromblob.md
+            - name: жетнетворкинфофромблоб
+              href: getnetworkinfofromblob.md
+            - name: жетнппаддрессфилтерфромблоб
+              href: getnppaddressfilterfromblob.md
+            - name: жетнппблобфромуи
+              href: getnppblobfromui.md
+            - name: жетнппблобтабле
+              href: getnppblobtable.md
+            - name: жетнппетипесапфилтер
+              href: getnppetypesapfilter.md
+            - name: жетнппмактипеаснумбер
+              href: getnppmactypeasnumber.md
+            - name: жетнпппаттернфилтерфромблоб
+              href: getnpppatternfilterfromblob.md
+            - name: жетнпптригжерфромблоб
+              href: getnpptriggerfromblob.md
+            - name: жетстрингфромблоб
+              href: getstringfromblob.md
+            - name: жетстрингсфромблоб
+              href: getstringsfromblob.md
+            - name: исремотенпп
+              href: isremotenpp.md
+            - name: мержеблоб
+              href: mergeblob.md
+            - name: реадблобфромфиле
+              href: readblobfromfile.md
+            - name: регкреатеблобкэй
+              href: regcreateblobkey.md
+            - name: регопенблобкэй
+              href: regopenblobkey.md
+            - name: ремовефромблоб
+              href: removefromblob.md
+            - name: селектнппблобфромтабле
+              href: selectnppblobfromtable.md
+            - name: сетбулинблоб
+              href: setboolinblob.md
+            - name: сетклассидинблоб
+              href: setclassidinblob.md
+            - name: сетдвординблоб
+              href: setdwordinblob.md
+            - name: сетмакаддрессинблоб
+              href: setmacaddressinblob.md
+            - name: сетнетворкинфоинблоб
+              href: setnetworkinfoinblob.md
+            - name: сетнппаддрессфилтеринблоб
+              href: setnppaddressfilterinblob.md
+            - name: сетнппетипесапфилтер
+              href: setnppetypesapfilter.md
+            - name: сетнпппаттернфилтеринблоб
+              href: setnpppatternfilterinblob.md
+            - name: сетнпптригжеринблоб
+              href: setnpptriggerinblob.md
+            - name: сетстрингинблоб
+              href: setstringinblob.md
+            - name: вритеблобтофиле
+              href: writeblobtofile.md
+        - name: Структуры больших двоичных объектов
+          href: blob-structures.md
+          items:
+            - name: ADDRESS
+              href: address.md
+            - name: ADDRESS2
+              href: address2.md
+            - name: аддресспаир
+              href: addresspair.md
+            - name: аддресстабле
+              href: addresstable.md
+            - name: андексп
+              href: andexp.md
+            - name: BLOB_TABLE
+              href: blob-table.md
+            - name: CAPTUREFILE_HEADER_VALUES
+              href: capturefile-header-values.md
+            - name: каптурефилтер
+              href: capturefilter.md
+            - name: ВЫРАЖЕНИЕ
+              href: expression.md
+            - name: NOFRAMES
+              href: frame.md
+            - name: FRAME_DESCRIPTOR
+              href: frame-descriptor.md
+            - name: фраметабле
+              href: frametable.md
+            - name: GENERIC_PORT
+              href: generic-port.md
+            - name: IPX_ADDRESS
+              href: ipx-address.md
+            - name: нетворкинфо
+              href: networkinfo.md
+            - name: паттернматч
+              href: patternmatch.md
+            - name: TRIGGER
+              href: trigger.md
+            - name: UPDATE_EVENT
+              href: update-event.md
+            - name: VINES_IP_ADDRESS
+              href: vines-ip-address.md
+    - name: Глоссарий
+      href: glossary.md
+      items:
+        - name: Объект
+          href: a.md
+        - name: B
+          href: b.md
+        - name: C
+          href: c.md
+        - name: D
+          href: d.md
+        - name: E
+          href: e.md
+        - name: C
+          href: f.md
+        - name: G
+          href: g.md
+        - name: H
+          href: h.md
+        - name: M
+          href: m.md
+        - name: Нет
+          href: n.md
+        - name: С
+          href: p.md
+        - name: S
+          href: s.md
+        - name: T
+          href: t.md
+        - name: W
+          href: w.md
