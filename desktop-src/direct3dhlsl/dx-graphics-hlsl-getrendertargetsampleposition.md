@@ -1,0 +1,88 @@
+---
+title: жетрендертаржетсамплепоситион
+description: Возвращает позиции выборки (x, y) для данного образца индекса.
+ms.assetid: 07f14d1c-4fe5-4838-acce-d664cdc641e6
+keywords:
+- Жетрендертаржетсамплепоситион HLSL
+topic_type:
+- apiref
+api_name:
+- GetRenderTargetSamplePosition
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: 3b0cd944b175522ab7d722ae791f3548c6633b71
+ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "103783312"
+---
+# <a name="getrendertargetsampleposition"></a>жетрендертаржетсамплепоситион
+
+Возвращает позиции выборки (x, y) для данного образца индекса.
+
+
+
+|                                                                                  |
+|----------------------------------------------------------------------------------|
+| float<2> Жетрендертаржетсамплепоситион (в int<1> индекс<br/>); |
+
+
+
+ 
+
+## <a name="parameters"></a>Параметры
+
+
+
+| Элемент                                                                                       | Описание                                  |
+|--------------------------------------------------------------------------------------------|----------------------------------------------|
+| <span id="Index"></span><span id="index"></span><span id="INDEX"></span>*Номер*<br/> | \[в \] индексе выборки с отсчетом от нуля.<br/> |
+
+
+
+ 
+
+## <a name="return-value"></a>Возвращаемое значение
+
+Координата (x, y) данного образца.
+
+## <a name="remarks"></a>Примечания
+
+Используйте эту функцию и [**жетрендертаржетсамплекаунт**](dx-graphics-hlsl-getrendertargetsamplecount.md) , чтобы узнать число и положение местоположений выборки для целевого объекта прорисовки.
+
+## <a name="minimum-shader-model"></a>Минимальная модель шейдера
+
+Эта функция поддерживается в следующих моделях шейдеров.
+
+
+
+| Модель шейдера                                                        | Поддерживается |
+|---------------------------------------------------------------------|-----------|
+| [Модели шейдеров 4](dx-graphics-hlsl-sm4.md) и более поздних шейдеров | да       |
+| [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)           | Нет        |
+| [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md)           | Нет        |
+| [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)           | Нет        |
+
+
+
+ 
+
+## <a name="see-also"></a>См. также
+
+<dl> <dt>
+
+[**Встроенные функции (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
