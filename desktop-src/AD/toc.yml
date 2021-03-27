@@ -1,0 +1,1592 @@
+- name: Доменные службы Active Directory
+  href: active-directory-domain-services.md
+  items:
+    - name: Сведения о службах домен Active Directory
+      href: about-active-directory-domain-services.md
+      items:
+        - name: Основные понятия домен Active Directory служб
+          href: core-concepts-of-active-directory-domain-services.md
+          items:
+            - name: Атрибуты
+              href: attributes.md
+            - name: Контейнеры и листья
+              href: containers-and-leaves.md
+            - name: Имена и удостоверения объектов
+              href: object-names-and-identities.md
+            - name: Контексты именования и разделы каталога
+              href: naming-contexts-and-partitions.md
+              items:
+                - name: Сведения о разделах каталога приложений
+                  href: about-application-directory-partitions.md
+            - name: Деревья доменов
+              href: domain-trees.md
+            - name: Леса
+              href: forests.md
+            - name: Серверы Active Directory и динамические DNS
+              href: active-directory-servers-and-dynamic-dns.md
+            - name: Репликация и целостность данных
+              href: replication-and-data-integrity.md
+              items:
+                - name: Модель репликации в службах домен Active Directory
+                  href: replication-model-in-active-directory-domain-services.md
+                  items:
+                    - name: Функции модели репликации для служб домен Active Directory Services
+                      href: features-of-the-replication-model-for-active-directory-domain-services.md
+                    - name: Почему службы домен Active Directory используют эту модель репликации
+                      href: why-active-directory-domain-services-uses-this-replication-model.md
+                    - name: Модель репликации программиста в службах домен Active Directory Services
+                      href: a-programmerampaposs-model-of-replication-in-active-directory-domain-services.md
+                - name: Поведение репликации в службах домен Active Directory Services
+                  href: replication-behavior-in-active-directory-domain-services.md
+                  items:
+                    - name: Влияние на Directory-Enabled приложения
+                      href: impact-on-directory-enabled-applications.md
+                - name: Обнаружение и предотвращение задержки репликации
+                  href: detecting-and-avoiding-replication-latency.md
+                  items:
+                    - name: 'Что можно узнать, а когда это вы узнаете?'
+                      href: what-can-you-know-and-when-can-you-know-it.md
+                    - name: Временная локализация
+                      href: temporal-locality.md
+                    - name: Сигнал о нестандартном канале
+                      href: out-of-band-signaling.md
+                    - name: Дата и время вступления в силу
+                      href: effective-date-and-time.md
+                    - name: Контрольные суммы и счетчики объектов
+                      href: checksums-and-object-counts.md
+                    - name: Идентификаторы GUID согласованности
+                      href: consistency-guids.md
+                    - name: Управление версиями и резервные стратегии
+                      href: versioning-and-fallback-strategies.md
+        - name: Архитектура служб домен Active Directory
+          href: active-directory-domain-services-architecture.md
+          items:
+            - name: Системный агент каталога
+              href: directory-system-agent.md
+            - name: Модель данных
+              href: data-model.md
+            - name: схема
+              href: schema.md
+            - name: Модель администрирования
+              href: administration-model.md
+            - name: Глобальный каталог
+              href: global-catalog.md
+        - name: Безопасность в домен Active Directory Services
+          href: security-in-active-directory-domain-services.md
+          items:
+            - name: Защита объектов и атрибутов
+              href: object-and-attribute-protection.md
+            - name: Делегирование
+              href: delegation.md
+            - name: Наследование
+              href: inheritance.md
+        - name: Схема Active Directory
+          href: active-directory-schema.md
+          items:
+            - name: Сведения о схеме Active Directory
+              href: about-the-active-directory-schema.md
+            - name: Read-Only DCs и схема Active Directory
+              href: rodc-and-active-directory-schema.md
+            - name: Реализация схемы
+              href: schema-implementation.md
+              items:
+                - name: Идентификаторы объектов
+                  href: object-identifiers.md
+            - name: Характеристики классов объектов
+              href: characteristics-of-object-classes.md
+              items:
+                - name: 'Структурные, абстрактные и вспомогательные классы'
+                  href: structural-abstract-and-auxiliary-classes.md
+                - name: Наследование классов в схеме Active Directory
+                  href: class-inheritance-in-the-active-directory-schema.md
+                - name: Класс объекта и категория объекта
+                  href: object-class-and-object-category.md
+            - name: Характеристики атрибутов
+              href: characteristics-of-attributes.md
+              items:
+                - name: Синтаксис атрибутов в домен Active Directory Services
+                  href: syntaxes-for-attributes-in-active-directory-domain-services.md
+                - name: Индексированные атрибуты
+                  href: indexed-attributes.md
+                - name: Включение атрибутов в глобальный каталог
+                  href: attributes-included-in-the-global-catalog.md
+                - name: Связанные атрибуты
+                  href: linked-attributes.md
+            - name: Абстрактная схема
+              href: the-abstract-schema.md
+    - name: Использование доменных служб Active Directory
+      href: using-active-directory-domain-services.md
+      items:
+        - name: Привязка к службам домен Active Directory
+          href: binding-to-active-directory-domain-services.md
+          items:
+            - name: Бессерверная привязка и RootDSE
+              href: serverless-binding-and-rootdse.md
+              items:
+                - name: Пример кода для получения различающегося имени домена
+                  href: example-code-for-getting-the-distinguished-name-of-the-domain.md
+            - name: Привязка к глобальному каталогу
+              href: binding-to-the-global-catalog.md
+              items:
+                - name: Пример кода для поиска в лесу
+                  href: example-code-for-searching-a-forest.md
+            - name: Использование objectGUID для привязки к объекту
+              href: using-objectguid-to-bind-to-an-object.md
+              items:
+                - name: Пример кода для создания связываемого строкового представления GUID
+                  href: example-code-for-creating-a-bindable-string-representation-of-a-guid.md
+                - name: Считывание objectGUID объекта и создание строкового представления GUID
+                  href: reading-an-objectampaposs-objectguid-and-creating-a-string-representation-of-the-guid.md
+            - name: Привязка к Well-Known объектам с помощью ВКГУИД
+              href: binding-to-well-known-objects-using-wkguid.md
+              items:
+                - name: Пример кода для привязки к хорошо известным объектам
+                  href: example-code-for-binding-to-well-known-objects.md
+            - name: Привязка к объекту с помощью идентификатора безопасности
+              href: binding-to-an-object-using-a-sid.md
+            - name: Включение привязки Rename-Safe с помощью свойства otherWellKnownObjects
+              href: enabling-rename-safe-binding-with-the-otherwellknownobjects-property.md
+              items:
+                - name: Пример кода для создания объекта-контейнера
+                  href: example-code-for-creating-a-container-object.md
+            - name: Аутентификация
+              href: authentication.md
+        - name: Поиск в домен Active Directory Services
+          href: searching-in-active-directory-domain-services.md
+          items:
+            - name: Выбор искомых
+              href: deciding-what-to-find.md
+              items:
+                - name: Пример кода для поиска пользователей
+                  href: example-code-for-searching-for-users.md
+            - name: Выбор места поиска
+              href: where-to-search.md
+              items:
+                - name: Поиск содержимого домена
+                  href: searching-domain-contents.md
+                - name: Поиск в глобальном каталоге
+                  href: searching-global-catalog-contents.md
+            - name: Выбор технологии поиска
+              href: choosing-the-search-technology.md
+            - name: Создание фильтра запросов
+              href: creating-a-query-filter.md
+              items:
+                - name: Поиск объектов по классу
+                  href: finding-objects-by-class.md
+                - name: Поиск объектов по имени
+                  href: finding-objects-by-name.md
+                - name: Поиск списка атрибутов для запроса
+                  href: finding-a-list-of-attributes-to-query.md
+                - name: Проверка синтаксиса фильтра запросов
+                  href: checking-the-query-filter-syntax.md
+                - name: Как указать значения для сравнения
+                  href: how-to-specify-comparison-values.md
+            - name: Выбор извлекаемых атрибутов для каждого найденного объекта
+              href: listing-properties-to-retrieve-for-each-object-found.md
+              items:
+                - name: Получение атрибута objectClass
+                  href: retrieving-the-objectclass-property.md
+            - name: Привязка к начальной точке поиска
+              href: binding-to-a-search-start-point.md
+            - name: Указание области поиска
+              href: search-scope.md
+            - name: Задание других параметров поиска
+              href: specifying-other-search-options.md
+            - name: Обработка результатов поиска
+              href: processing-query-results.md
+            - name: Влияние безопасности при поиске
+              href: effects-of-security-on-queries.md
+            - name: Создание эффективных запросов
+              href: creating-efficient-queries.md
+            - name: Как работает индексирование кортежей
+              href: how-tuple-indexing-works.md
+            - name: 'Начальные, срединного и окончательные строки поиска'
+              href: search-string-types.md
+            - name: Рекомендации
+              href: referrals.md
+              items:
+                - name: При создании ссылок
+                  href: when-referrals-are-generated.md
+                - name: Создание внешней ссылки
+                  href: creating-an-external-referral.md
+                  items:
+                    - name: Пример кода для создания внешнего объекта crossRef
+                      href: example-code-for-creating-an-external-crossref-object.md
+            - name: Перечисление контроллеров домена
+              href: enumerating-domain-controllers.md
+        - name: Создание и удаление объектов в службах домен Active Directory Services
+          href: creating-and-deleting-objects-in-active-directory-domain-services.md
+          items:
+            - name: Получение удаленных объектов
+              href: retrieving-deleted-objects.md
+            - name: Восстановление удаленных объектов
+              href: restoring-deleted-objects.md
+        - name: Перемещение объектов
+          href: moving-objects.md
+          items:
+            - name: Пример кода для перемещения объекта
+              href: example-code-for-moving-an-object.md
+        - name: Чтение и запись атрибутов объектов в службах домен Active Directory Services
+          href: reading-and-writing-attributes-of-objects-in-active-directory-domain-services.md
+          items:
+            - name: Определение типа атрибута
+              href: determining-an-attribute-type.md
+        - name: Управление доступом к объектам в службах домен Active Directory Services
+          href: controlling-access-to-objects-in-active-directory-domain-services.md
+          items:
+            - name: Как работает управление доступом в службах домен Active Directory Services
+              href: how-access-control-works-in-active-directory-domain-services.md
+              items:
+                - name: Управление доступом к объектам и их свойствам
+                  href: controlling-access-to-objects-and-their-properties.md
+                - name: Права доступа для объектов служб домен Active Directory Services
+                  href: access-rights-for-active-directory-domain-services-objects.md
+                - name: Контексты безопасности и службы домен Active Directory
+                  href: security-contexts-and-active-directory-domain-services.md
+            - name: Влияние безопасности на операции в службах домен Active Directory Services
+              href: how-security-affects-operations-in-active-directory-domain-services.md
+              items:
+                - name: Операции контроля доступа и чтения
+                  href: access-control-and-read-operations.md
+                - name: Операции управления доступом и записи
+                  href: access-control-and-write-operations.md
+                - name: Управление доступом и создание объектов
+                  href: access-control-and-object-creation.md
+                - name: Управление доступом и удаление объектов
+                  href: access-control-and-object-deletion.md
+            - name: Интерфейсы API для работы с дескрипторами безопасности
+              href: apis-for-working-with-security-descriptors.md
+              items:
+                - name: Использование метода IADs для получения дескриптора безопасности
+                  href: using-iads-to-get-a-security-descriptor.md
+                - name: Использование Идиректорйобжект для получения дескриптора безопасности
+                  href: using-idirectoryobject-to-get-a-security-descriptor.md
+                - name: Компоненты дескриптора безопасности
+                  href: security-descriptor-components.md
+                - name: Получение списка DACL объекта
+                  href: retrieving-an-objectampaposs-dacl.md
+                - name: Получение списка SACL объекта
+                  href: retrieving-an-objectampaposs-sacl.md
+                - name: Считывание дескриптора безопасности объекта
+                  href: reading-an-objectampaposs-security-descriptor.md
+                - name: Пример кода для создания дескриптора безопасности
+                  href: example-code-for-creating-a-security-descriptor.md
+                - name: Пример кода для перечисления списка управления доступом объекта в службах домен Active Directory Services
+                  href: example-code-for-enumerating-the-acl-of-an-active-directory-object.md
+            - name: Установка прав доступа для объекта
+              href: setting-access-rights-on-an-object.md
+              items:
+                - name: Пример кода для настройки элемента управления доступом на объекте каталога
+                  href: example-code-for-setting-an-ace-on-a-directory-object.md
+                - name: Установка прав доступа ко всему объекту
+                  href: setting-access-rights-on-the-entire-object.md
+                  items:
+                    - name: Пример кода для установки прав на чтение свойств объекта
+                      href: example-code-for-setting-read-property-rights-on-an-object.md
+                - name: Установка разрешений для определенного свойства
+                  href: setting-permissions-to-a-specific-property.md
+                - name: Установка разрешений для группы свойств
+                  href: setting-permissions-on-a-group-of-properties.md
+                  items:
+                    - name: Пример кода для настройки разрешений для группы свойств
+                      href: example-code-for-setting-permissions-on-a-group-of-properties.md
+                - name: Установка разрешений для операций с дочерними объектами
+                  href: setting-permissions-on-child-object-operations.md
+                  items:
+                    - name: Пример кода для настройки разрешений для операций с дочерними объектами
+                      href: example-code-for-setting-permissions-on-child-object-operations.md
+            - name: Как устанавливаются дескрипторы безопасности для новых объектов каталога
+              href: how-security-descriptors-are-set-on-new-directory-objects.md
+            - name: Создание дескриптора безопасности для нового объекта каталога
+              href: creating-a-security-descriptor-for-a-new-directory-object.md
+            - name: Наследование и делегирование администрирования
+              href: inheritance-and-delegation-of-administration.md
+              items:
+                - name: Наследование управления доступом
+                  href: access-control-inheritance.md
+                - name: Установка прав для конкретных типов объектов
+                  href: setting-rights-to-specific-types-of-objects.md
+                  items:
+                    - name: Пример кода для установки прав на определенные типы объектов
+                      href: example-code-for-setting-rights-to-specific-types-of-objects.md
+                - name: Установка прав на определенные свойства объектов конкретных типов
+                  href: setting-rights-to-specific-properties-of-specific-types-of-objects.md
+                - name: Защита объектов от воздействия наследуемых прав
+                  href: protecting-objects-from-the-effects-of-inherited-rights.md
+                  items:
+                    - name: Пример кода для настройки и удаления списка SACL и защиты списка DACL
+                      href: example-code-for-setting-and-removing-sacl-and-dacl-protection.md
+            - name: Дескриптор безопасности по умолчанию
+              href: default-security-descriptor.md
+              items:
+                - name: Чтение Дефаултсекуритидескриптор для класса Object
+                  href: reading-the-defaultsecuritydescriptor-for-an-object-class.md
+                  items:
+                    - name: Пример кода для чтения Дефаултсекуритидескриптор
+                      href: example-code-for-reading-defaultsecuritydescriptor.md
+                - name: Изменение Дефаултсекуритидескриптор для класса Object
+                  href: modifying-the-defaultsecuritydescriptor-for-an-object-class.md
+            - name: Управление правами доступа
+              href: control-access-rights.md
+              items:
+                - name: Создание права доступа к элементу управления
+                  href: creating-a-control-access-right.md
+                  items:
+                    - name: Пример кода для создания права доступа к элементу управления
+                      href: example-code-for-creating-a-control-access-right.md
+                - name: Установка элемента управления право доступа ACE в ACL объекта
+                  href: setting-a-control-access-right-ace-in-an-objectampaposs-acl.md
+                  items:
+                    - name: Пример кода для настройки элемента управления права доступа ACE
+                      href: example-code-for-setting-a-control-access-right-ace.md
+                - name: Проверка прав доступа к элементу управления в ACL объекта
+                  href: checking-a-control-access-right-in-an-objectampaposs-acl.md
+                  items:
+                    - name: Пример кода для проверки прав доступа к элементу управления в ACL объекта
+                      href: example-code-for-checking-a-control-access-right-in-an-objectampaposs-acl.md
+                - name: Чтение набора прав доступа к элементу управления в ACL объекта
+                  href: reading-a-control-access-right-set-in-an-objectampaposs-acl.md
+                  items:
+                    - name: Пример кода для проверки права доступа к элементу управления в записи ACE
+                      href: example-code-for-checking-for-a-control-access-right-in-an-ace.md
+            - name: Использование Дсаддсидхистори
+              href: using-dsaddsidhistory.md
+            - name: Управление видимостью объекта
+              href: controlling-object-visibility.md
+            - name: Списки DACL NULL и пустые списки DACL
+              href: null-dacls-and-empty-dacls.md
+        - name: Расширение схемы
+          href: extending-the-schema.md
+          items:
+            - name: Рекомендации по привязке к схеме
+              href: guidelines-for-binding-to-the-schema.md
+            - name: Чтение абстрактной схемы
+              href: reading-the-abstract-schema.md
+              items:
+                - name: 'Пример кода для перечисления классов, атрибутов и синтаксисов схем'
+                  href: example-code-for-enumerating-schema-classes-attributes-and-syntaxes.md
+            - name: Чтение объектов attributeSchema и classSchema
+              href: reading-attributeschema-and-classschema-objects.md
+              items:
+                - name: Пример кода для поиска объектов схемы
+                  href: example-code-for-searching-for-schema-objects.md
+            - name: Что необходимо узнать перед расширением схемы
+              href: what-you-must-know-before-extending-the-schema.md
+              items:
+                - name: Влияние изменений схемы
+                  href: impact-of-schema-changes.md
+                - name: Когда следует расширять схему
+                  href: when-to-extend-the-schema.md
+                - name: Ограничения на расширение схемы
+                  href: restrictions-on-schema-extension.md
+                  items:
+                    - name: Запрос для объектов схемы категории 1 или 2
+                      href: querying-for-category-1-or-2-schema-objects.md
+            - name: Расширение схемы
+              href: how-to-extend-the-schema.md
+              items:
+                - name: Присвоение имен атрибутам и классам
+                  href: naming-attributes-and-classes.md
+                - name: Отключение существующих классов и атрибутов
+                  href: disabling-existing-classes-and-attributes.md
+                - name: Получение идентификатора ссылки
+                  href: obtaining-a-link-id.md
+                - name: Получение идентификатора объекта
+                  href: obtaining-an-object-identifier.md
+                  items:
+                    - name: Получение корневого OID из центра регистрации имен ISO
+                      href: obtaining-a-root-oid-from-an-iso-name-registration-authority.md
+                    - name: Получение идентификатора объекта от Майкрософт
+                      href: obtaining-an-object-identifier-from-microsoft.md
+                - name: Интеграция расширений схемы с пользовательским интерфейсом
+                  href: integrating-schema-extensions-with-the-user-interface.md
+                - name: Определение нового атрибута
+                  href: defining-a-new-attribute.md
+                  items:
+                    - name: Пример кода для создания атрибута
+                      href: example-code-for-creating-an-attribute.md
+                    - name: Выбор синтаксиса
+                      href: choosing-a-syntax.md
+                - name: Определение нового класса
+                  href: defining-a-new-class.md
+                  items:
+                    - name: Пример кода для создания класса
+                      href: example-code-for-creating-a-class.md
+                - name: Установка расширений схемы
+                  href: installing-schema-extensions.md
+                  items:
+                    - name: Документирование расширений схемы
+                      href: documenting-schema-extensions.md
+                    - name: Что должна делать установка
+                      href: what-the-installation-must-do.md
+                      items:
+                        - name: Обновление кэша схемы
+                          href: updating-the-schema-cache.md
+                    - name: Необходимые условия для установки расширения схемы
+                      href: prerequisites-for-installing-a-schema-extension.md
+                      items:
+                        - name: Определение хозяина схемы
+                          href: detecting-the-schema-master.md
+                        - name: Включение изменений схемы на хозяине схемы
+                          href: enabling-schema-changes-at-the-schema-master.md
+                    - name: Рекомендации для приложений расширения схемы
+                      href: recommendations-for-schema-extension-applications.md
+                      items:
+                        - name: Пример кода для проверки прав на создание объектов схемы
+                          href: example-code-for-checking-for-rights-to-create-schema-objects.md
+                        - name: Пример кода для обновления кэша схемы
+                          href: example-code-for-updating-the-schema-cache.md
+                        - name: Пример кода для обнаружения конфликтов именования схемы
+                          href: example-code-for-detecting-schema-naming-collisions.md
+                    - name: Поддерживаемые механизмы установки
+                      href: supported-installation-mechanisms.md
+                      items:
+                        - name: Сценарии LDIF
+                          href: ldif-scripts.md
+                        - name: Скрипты значений с разделителями-запятыми (CSV)
+                          href: comma-separated-value-csv-scripts.md
+                        - name: Программное расширение
+                          href: programmatic-extension.md
+                          items:
+                            - name: Пример кода для программного расширения схемы
+                              href: example-code-for-extending-the-schema-programmatically.md
+        - name: Расширение пользовательского интерфейса для объектов каталога
+          href: extending-the-user-interface-for-directory-objects.md
+          items:
+            - name: Сведения о пользовательских интерфейсах служб домен Active Directory Services
+              href: about-the-user-interfaces-of-active-directory-domain-services.md
+            - name: Описатели экрана
+              href: display-specifiers.md
+              items:
+                - name: Контейнер ДисплайспеЦифиерс
+                  href: displayspecifiers-container.md
+            - name: Отображаемые имена классов и атрибутов
+              href: class-and-attribute-display-names.md
+            - name: Значки классов
+              href: class-icons.md
+            - name: Просмотр контейнеров в виде конечных узлов
+              href: viewing-containers-as-leaf-nodes.md
+            - name: Изменение существующих пользовательских интерфейсов
+              href: modifying-existing-user-interfaces.md
+            - name: Расширение пользовательского интерфейса для новых классов объектов
+              href: user-interface-extension-for-new-object-classes.md
+            - name: Страницы свойств для использования с описателем экрана
+              href: property-pages-for-use-with-display-specifiers.md
+              items:
+                - name: Реализация COM-объекта страницы свойств
+                  href: implementing-the-property-page-com-object.md
+                  items:
+                    - name: Пример кода для реализации COM-объекта страницы свойств
+                      href: example-code-for-implementation-of-the-property-sheet-com-object.md
+                - name: Регистрация COM-объекта страницы свойств в спецификаторе экрана
+                  href: registering-the-property-page-com-object-in-a-display-specifier.md
+            - name: Контекстные меню для использования с описателем экрана
+              href: context-menus-for-use-with-display-specifiers.md
+              items:
+                - name: Реализация COM-объекта контекстного меню
+                  href: implementing-the-context-menu-com-object.md
+                  items:
+                    - name: Пример кода для реализации COM-объекта контекстного меню
+                      href: example-code-for-implementation-of-the-context-menu-com-object.md
+                - name: Регистрация COM-объекта контекстного меню в спецификаторе экрана
+                  href: registering-the-context-menu-com-object-in-a-display-specifier.md
+                - name: Регистрация статического элемента контекстного меню
+                  href: registering-a-static-context-menu-item.md
+                  items:
+                    - name: Пример кода для установки статического элемента контекстного меню
+                      href: example-code-for-installing-a-static-context-menu-item.md
+            - name: Мастера создания объектов
+              href: object-creation-wizards.md
+              items:
+                - name: Реализация COM-объекта расширения создания объекта
+                  href: implementing-the-object-creation-extension-com-object.md
+                - name: Регистрация расширения создания объекта
+                  href: registering-the-object-creation-extension.md
+                - name: Вызов мастеров создания из приложения
+                  href: invoking-creation-wizards-from-your-application.md
+            - name: Использование стандартных диалоговых окон для управления объектами в службах домен Active Directory Services
+              href: using-standard-dialog-boxes-to-handle-objects-in-active-directory-domain-services.md
+              items:
+                - name: Средство выбора объектов каталога
+                  href: directory-object-picker.md
+                - name: Браузер домена
+                  href: domain-browser.md
+                - name: Обозреватель контейнеров
+                  href: container-browser.md
+                - name: Вкладки свойств «пользователи и компьютеры Active Directory»
+                  href: active-directory-users-and-computers-property-sheets.md
+            - name: Административные обработчики уведомлений
+              href: administrative-notification-handlers.md
+            - name: Распространение компонентов пользовательского интерфейса
+              href: distributing-user-interface-components.md
+            - name: Как приложения должны использовать описатели отображения
+              href: how-applications-should-use-display-specifiers.md
+            - name: Отладка расширения Active Directory
+              href: debugging-an-active-directory-extension.md
+        - name: Управление пользователями
+          href: managing-users.md
+          items:
+            - name: Пользователи в службах домен Active Directory Services
+              href: users-in-active-directory-domain-services.md
+            - name: Субъекты безопасности
+              href: security-principals.md
+            - name: Что такое пользователь?
+              href: what-is-a-user.md
+            - name: Пример кода для привязки к контейнеру пользователя
+              href: example-code-for-binding-to-the-users-container.md
+            - name: Атрибуты объекта «пользователь»
+              href: user-object-attributes.md
+              items:
+                - name: Атрибуты именования пользователей
+                  href: naming-properties.md
+                - name: Атрибуты безопасности пользователя
+                  href: security-properties.md
+                - name: Атрибуты адресной книги пользователя
+                  href: address-book-properties.md
+            - name: Создание пользователя
+              href: creating-a-user.md
+              items:
+                - name: Пример кода для создания пользователя
+                  href: example-code-for-creating-a-user.md
+            - name: Перечисление пользователей
+              href: enumerating-users.md
+            - name: Запросы пользователей
+              href: querying-for-users.md
+              items:
+                - name: Пример кода для использования глобального каталога для поиска пользователей в лесу
+                  href: example-code-for-using-the-global-catalog-to-find-users-in-a-forest.md
+            - name: Управление пользователями на рядовых серверах и Windows 2000 Professional
+              href: managing-users-on-member-servers-and-windows-2000-professional.md
+              items:
+                - name: Перечисление пользователей рядовых серверов и Windows 2000 Professional
+                  href: enumerating-users-on-member-servers-and-windows-2000-professional.md
+                  items:
+                    - name: Пример кода для перечисления пользователей на рядовом сервере
+                      href: example-code-for-enumerating-users-on-a-member-server.md
+                - name: Создание пользователей на рядовых серверах и Windows 2000 Professional
+                  href: creating-users-on-member-servers-and-windows-2000-professional.md
+                  items:
+                    - name: Пример кода для создания пользователей на рядовом сервере или в Windows 2000 Professional
+                      href: example-code-for-creating-users-on-a-member-server-or-windows-2000-professional.md
+                - name: Удаление пользователей на рядовых серверах и Windows 2000 Professional
+                  href: deleting-users-on-member-servers-and-windows-2000-professional.md
+                  items:
+                    - name: Пример кода для удаления пользователей на рядовом сервере или в Windows 2000 Professional
+                      href: example-code-for-deleting-users-on-a-member-server-or-windows-2000-professional.md
+            - name: Значения для свойств Каунтрикоде и c
+              href: values-for-the-countrycode-and-c-properties.md
+        - name: Управление группами
+          href: managing-groups.md
+          items:
+            - name: Объекты группы.
+              href: group-objects.md
+            - name: Использование групп безопасности в управлении доступом
+              href: how-security-groups-are-used-in-access-control.md
+            - name: Создание групп в домене
+              href: creating-groups-in-a-domain.md
+              items:
+                - name: Пример кода для создания группы
+                  href: example-code-for-creating-a-group.md
+            - name: Добавление членов в группы в домене
+              href: adding-members-to-groups-in-a-domain.md
+              items:
+                - name: Пример кода для добавления члена в группу
+                  href: example-code-for-adding-a-member-to-a-group.md
+                - name: Пример кода для преобразования objectSid в строку с возможностью привязки
+                  href: example-code-for-converting-an-objectsid-into-a-bindable-string-.md
+            - name: Удаление членов из групп в домене
+              href: removing-members-from-groups-in-a-domain.md
+              items:
+                - name: Пример кода для удаления члена из группы
+                  href: example-code-for-removing-a-member-from-a-group.md
+            - name: Вложение группы в другую группу
+              href: nesting-a-group-in-another-group.md
+              items:
+                - name: Вложенность в собственном режиме
+                  href: nesting-in-native-mode.md
+                - name: Вложение в смешанном режиме
+                  href: nesting-in-mixed-mode.md
+                - name: Общие ошибки
+                  href: common-errors.md
+            - name: Определение членства пользователя или группы в группе
+              href: determining-a-userampaposs-or-groupampaposs-membership-in-a-group.md
+              items:
+                - name: Пример кода для проверки членства в группе
+                  href: example-code-for-checking-for-membership-in-a-group.md
+            - name: Перечисление групп
+              href: enumerating-groups.md
+              items:
+                - name: Перечисление групп в домене
+                  href: enumerating-groups-in-a-domain.md
+                - name: Поиск групп по области или типу в домене
+                  href: searching-for-groups-by-scope-or-type-in-a-domain.md
+                - name: Перечисление членов в группе
+                  href: enumerating-members-in-a-group.md
+                  items:
+                    - name: Пример кода для отображения членов группы
+                      href: example-code-for-displaying-members-of-a-group.md
+                - name: 'Перечисление групп, содержащих много элементов'
+                  href: enumerating-groups-that-contain-many-members.md
+            - name: Запрос групп в домене
+              href: querying-for-groups-in-a-domain.md
+              items:
+                - name: Пример кода для поиска групп в домене
+                  href: example-code-for-performing-a-query-in-a-domain.md
+            - name: Изменение области или типа группы
+              href: changing-a-groupampaposs-scope-or-type.md
+              items:
+                - name: Пример кода для изменения области группы
+                  href: example-code-for-changing-the-scope-of-a-group.md
+            - name: Получение имени домена Account-Style группы
+              href: getting-the-domain-account-style-name-of-a-group.md
+            - name: Группы на рядовых серверах и Windows 2000 Professional
+              href: groups-on-member-servers-and-windows-2000-professional.md
+              items:
+                - name: Перечисление локальных групп
+                  href: enumerating-local-groups.md
+                  items:
+                    - name: Пример кода для перечисления локальных групп
+                      href: example-code-for-enumerating-local-groups.md
+                - name: Создание локальных групп
+                  href: creating-local-groups.md
+                  items:
+                    - name: Пример кода для создания локальной группы
+                      href: example-code-for-creating-a-local-group.md
+                - name: Удаление локальных групп
+                  href: deleting-local-groups.md
+                  items:
+                    - name: Пример кода для удаления локальной группы
+                      href: example-code-for-deleting-a-local-group.md
+                - name: Добавление объектов домена в локальные группы
+                  href: adding-domain-objects-to-local-groups.md
+                  items:
+                    - name: Пример кода для добавления пользователя или группы домена в локальную группу
+                      href: example-code-for-adding-a-domain-user-or-group-to-a-local-group.md
+            - name: Какие разработчики приложений и служб должны знать о группах
+              href: what-application-and-service-developers-need-to-know-about-groups.md
+        - name: Отслеживание изменений
+          href: tracking-changes.md
+          items:
+            - name: Общие сведения о методах Отслеживание изменений
+              href: overview-of-change-tracking-techniques.md
+            - name: Уведомления об изменениях в службах домен Active Directory Services
+              href: change-notifications-in-active-directory-domain-services.md
+              items:
+                - name: Пример кода для получения уведомлений об изменениях
+                  href: example-code-for-receiving-change-notifications.md
+            - name: Опрос изменений с помощью элемента управления DirSync
+              href: polling-for-changes-using-the-dirsync-control.md
+              items:
+                - name: Пример кода с использованием ADS_SEARCHPREF_DIRSYNC
+                  href: example-code-using-ads-searchpref-dirsync.md
+            - name: Опрос изменений с помощью USNChanged
+              href: polling-for-changes-using-usnchanged.md
+              items:
+                - name: Пример кода для получения изменений с помощью USNChanged
+                  href: example-code-to-retrieve-changes-using-usnchanged.md
+        - name: Публикация службы
+          href: service-publication.md
+          items:
+            - name: О публикации службы
+              href: about-service-publication.md
+              items:
+                - name: Проблемы безопасности для публикации службы
+                  href: security-issues-for-service-publication.md
+                - name: Точки подключения
+                  href: connection-points.md
+            - name: Публикация с точками подключения службы
+              href: publishing-with-service-connection-points.md
+              items:
+                - name: Где можно создать точку подключения службы
+                  href: where-to-create-a-service-connection-point.md
+                  items:
+                    - name: Публикация в объекте компьютера
+                      href: publishing-under-a-computer-object.md
+                    - name: Публикация в контейнере системы домена
+                      href: publishing-in-a-domain-system-container.md
+                - name: 'Точки подключения службы для реплицированных, основанных на узлах служб и баз данных'
+                  href: service-connection-points-for-replicated-host-based-and-database-services.md
+                - name: Свойства точки подключения службы
+                  href: service-connection-point-properties.md
+                - name: Создание и обслуживание точки подключения службы
+                  href: creating-and-maintaining-a-service-connection-point.md
+                  items:
+                    - name: Примеры скриптов для управления точками подключения службы
+                      href: script-samples-for-managing-service-connection-points.md
+                      items:
+                        - name: Макросы Excel для управления точками подключения службы
+                          href: excel-macros-for-managing-service-connection-points.md
+                        - name: Скрипт VB со списком всех точек подключения службы
+                          href: vb-script-listing-all-service-connection-points.md
+                    - name: Примеры кода для управления точками подключения службы
+                      href: code-samples-for-managing-service-connection-points.md
+                      items:
+                        - name: Создание точки подключения службы
+                          href: creating-a-service-connection-point.md
+                        - name: Обновление точки подключения службы
+                          href: updating-a-service-connection-point.md
+                        - name: Как клиенты находят и используют точку подключения службы
+                          href: how-clients-find-and-use-a-service-connection-point.md
+            - name: Публикация с помощью службы имен RPC (Рпкнс)
+              href: publishing-with-the-rpc-name-service-rpcns.md
+            - name: Публикация с регистрацией и разрешением Windows Sockets
+              href: publishing-with-windows-sockets-registration-and-resolution.md
+              items:
+                - name: Пример кода для установки класса службы РНР
+                  href: example-code-for-installing-an-rnr-service-class.md
+                - name: Пример кода для реализации службы Winsock с публикацией РНР
+                  href: example-code-for-implementing-a-winsock-service-with-an-rnr-publication.md
+                - name: Пример кода для публикации точки подключения РНР
+                  href: example-code-for-publishing-the-rnr-connection-point.md
+                - name: Пример кода для удаления точки подключения РНР
+                  href: example-code-for-removing-the-rnr-connection-point.md
+                - name: Пример кода для поиска службы с помощью запроса РНР
+                  href: example-code-for-a-winsock-client-locating-a-service-using-an-rnr-query.md
+            - name: Публикация служб COM+
+              href: publishing-com-services.md
+        - name: Учетные записи входа в службу
+          href: service-logon-accounts.md
+          items:
+            - name: Сведения об учетных записях входа в службу
+              href: about-service-logon-accounts.md
+            - name: Рекомендации по выбору учетной записи входа в службу
+              href: guidelines-for-selecting-a-service-logon-account.md
+              items:
+                - name: Использование учетной записи локального пользователя в качестве учетной записи входа службы
+                  href: local-user-accounts.md
+                - name: Использование учетной записи пользователя домена в качестве учетной записи входа службы
+                  href: domain-user-accounts.md
+                - name: Использование учетной записи LocalSystem в качестве учетной записи входа службы
+                  href: the-localsystem-account.md
+            - name: Настройка учетной записи пользователя службы
+              href: setting-up-a-serviceampaposs-user-account.md
+            - name: Установка службы на главном компьютере
+              href: installing-a-service-on-a-host-computer.md
+              items:
+                - name: Предоставление прав на вход в качестве службы на главном компьютере
+                  href: granting-logon-as-service-right-on-the-host-computer.md
+                - name: Проверка работы на контроллере домена
+                  href: testing-whether-running-on-a-domain-controller.md
+            - name: Предоставление прав доступа учетной записи входа в службу
+              href: granting-access-rights-to-the-service-logon-account.md
+              items:
+                - name: Включение учетной записи службы доступа к свойствам SCP
+                  href: enabling-service-account-to-access-scp-properties.md
+            - name: Задачи обслуживания учетной записи входа
+              href: logon-account-maintenance-tasks.md
+              items:
+                - name: Изменение пароля для учетной записи пользователя службы
+                  href: changing-the-password-on-a-serviceampaposs-user-account.md
+                - name: Перечисление реплик службы
+                  href: enumerating-the-replicas-of-a-service.md
+            - name: Преобразование форматов имен учетных записей домена
+              href: converting-domain-account-name-formats.md
+        - name: Взаимная проверка подлинности с помощью Kerberos
+          href: mutual-authentication-using-kerberos.md
+          items:
+            - name: О взаимной проверке подлинности с помощью Kerberos
+              href: about-mutual-authentication-using-kerberos.md
+              items:
+                - name: Поставщики безопасности
+                  href: security-providers.md
+                - name: Целостность и конфиденциальность
+                  href: integrity-and-privacy.md
+                - name: Ограничения взаимной проверки подлинности с помощью Kerberos
+                  href: limitations-of-mutual-authentication-with-kerberos.md
+            - name: Имена субъектов-служб
+              href: service-principal-names.md
+              items:
+                - name: Форматы имен для уникальных имен участников-служб
+                  href: name-formats-for-unique-spns.md
+                - name: Как служба формирует свои имена участников-служб
+                  href: how-a-service-composes-its-spns.md
+                - name: Как служба регистрирует свои имена участников-служб
+                  href: how-a-service-registers-its-spns.md
+                - name: Создание клиентами SPN службы
+                  href: how-clients-compose-a-serviceampaposs-spn.md
+            - name: Взаимная проверка подлинности в службе сокетов Windows с SCP
+              href: mutual-authentication-in-a-windows-sockets-service-with-an-scp.md
+              items:
+                - name: Проверка подлинности клиента службы сокетов Windows на основе SCP
+                  href: how-a-client-authenticates-an-scp-based-windows-sockets-service.md
+                - name: Составление и регистрация имен участников-служб для службы сокетов Windows на основе SCP
+                  href: composing-and-registering-spns-for-an-scp-based-windows-sockets-service.md
+                  items:
+                    - name: Составление имен участников-служб для службы с SCP
+                      href: composing-the-spns-for-a-service-with-an-scp.md
+                    - name: Регистрация имен участников-служб для службы
+                      href: registering-the-spns-for-a-service.md
+                - name: Проверка подлинности клиента службой сокетов Windows
+                  href: how-a-windows-sockets-service-authenticates-a-client.md
+            - name: Взаимная проверка подлинности в приложениях RPC
+              href: mutual-authentication-in-rpc-applications.md
+              items:
+                - name: Составление имен участников-служб для службы Рпкнс
+                  href: composing-spns-for-an-rpcns-service.md
+            - name: Взаимная проверка подлинности в приложениях Windows Sockets
+              href: mutual-authentication-in-windows-sockets-applications.md
+        - name: Резервное копирование и восстановление сервера Active Directory
+          href: backing-up-and-restoring-an-active-directory-server.md
+          items:
+            - name: Рекомендации по резервному копированию домен Active Directory Services
+              href: considerations-for-active-directory-domain-services-backup.md
+            - name: Резервное копирование сервера Active Directory
+              href: backing-up-an-active-directory-server.md
+            - name: Восстановление сервера Active Directory
+              href: restoring-an-active-directory-server.md
+        - name: Сохранение платформа динамических данных
+          href: storing-dynamic-data.md
+          items:
+            - name: Динамические объекты
+              href: dynamic-objects.md
+              items:
+                - name: Создание динамических объектов
+                  href: creating-dynamic-objects.md
+                - name: Обновление динамического объекта
+                  href: refreshing-a-dynamic-object.md
+                - name: Настройка ограничений TTL
+                  href: configuration-of-ttl-limits.md
+            - name: Динамические вспомогательные классы
+              href: dynamic-auxiliary-classes.md
+              items:
+                - name: Динамически связываемые вспомогательные классы
+                  href: dynamically-linked-auxiliary-classes.md
+                - name: Статически связанные вспомогательные классы
+                  href: statically-linked-auxiliary-classes.md
+                - name: 'Определение классов, связанных с экземпляром объекта'
+                  href: determining-the-classes-associated-with-an-object-instance.md
+                - name: Добавление вспомогательного класса к экземпляру объекта
+                  href: adding-an-auxiliary-class-to-an-object-instance.md
+        - name: Разделы каталога приложений
+          href: application-directory-partitions.md
+          items:
+            - name: Репликация разделов каталога приложений
+              href: application-directory-partition-replication.md
+            - name: Безопасность раздела каталога приложений
+              href: application-directory-partition-security.md
+            - name: Создание раздела каталога приложений
+              href: creating-an-application-directory-partition.md
+              items:
+                - name: Пример кода для создания раздела каталога приложений
+                  href: example-code-for-creating-an-application-directory-partition.md
+                - name: Пример кода для поиска контейнера секций
+                  href: example-code-for-locating-the-partitions-container.md
+            - name: Удаление раздела каталога приложений
+              href: deleting-an-application-directory-partition.md
+              items:
+                - name: Пример кода для удаления раздела каталога приложений
+                  href: example-code-for-deleting-an-application-directory-partition.md
+            - name: Перечисление разделов каталога приложений в лесу
+              href: enumerating-application-directory-partitions-in-a-forest.md
+            - name: Поиск сервера узла раздела каталога приложений
+              href: locating-an-application-directory-partition-host-server.md
+              items:
+                - name: Пример кода для поиска сервера узла раздела каталога приложений
+                  href: example-code-for-locating-an-application-directory-partition-host-server.md
+            - name: Добавление или удаление реплики раздела каталога приложений
+              href: adding-or-deleting-an-application-directory-partition-replica.md
+            - name: Перечисление реплик раздела каталога приложений
+              href: enumerating-replicas-of-an-application-directory-partition.md
+            - name: Изменение конфигурации раздела каталога приложений
+              href: modifying-application-directory-partition-configuration.md
+        - name: Обнаружение режима работы домена
+          href: detecting-the-operation-mode-of-a-domain.md
+          items:
+            - name: Пример кода для определения режима работы
+              href: example-code-for-determining-the-operation-mode.md
+    - name: Справочник по службам домен Active Directory
+      href: active-directory-domain-services-reference.md
+      items:
+        - name: Константы в домен Active Directory Services
+          href: constants-in-active-directory-domain-services.md
+          items:
+            - name: Идентификаторы GUID элементов пользовательского интерфейса
+              href: guids-of-user-interface-elements.md
+            - name: 'Сообщения, отправляемые через пользовательские интерфейсы'
+              href: messages-communicated-through-user-interfaces.md
+              items:
+                - name: CQPM_CLEARFORM
+                  href: cqpm-clearform.md
+                - name: CQPM_ENABLE
+                  href: cqpm-enable.md
+                - name: CQPM_GETPARAMETERS
+                  href: cqpm-getparameters.md
+                - name: CQPM_HANDLERSPECIFIC
+                  href: cqpm-handlerspecific.md
+                - name: CQPM_HELP
+                  href: cqpm-help.md
+                - name: CQPM_INITIALIZE
+                  href: cqpm-initialize.md
+                - name: CQPM_PERSIST
+                  href: cqpm-persist.md
+                - name: CQPM_RELEASE
+                  href: cqpm-release.md
+                - name: CQPM_SETDEFAULTPARAMETERS
+                  href: cqpm-setdefaultparameters.md
+            - name: CFSTR_DS_DISPLAY_SPEC_OPTIONS
+              href: cfstr-ds-display-spec-options.md
+            - name: CFSTR_DS_MULTISELECTPROPPAGE
+              href: cfstr-ds-multiselectproppage.md
+            - name: CFSTR_DS_PARENTHWND
+              href: cfstr-ds-parenthwnd.md
+            - name: CFSTR_DS_PROPSHEETCONFIG
+              href: cfstr-ds-propsheetconfig.md
+            - name: CFSTR_DSOBJECTNAMES
+              href: cfstr-dsobjectnames.md
+            - name: CFSTR_DSOP_DS_SELECTION_LIST
+              href: cfstr-dsop-ds-selection-list.md
+            - name: CFSTR_DSPROPERTYPAGEINFO
+              href: cfstr-dspropertypageinfo.md
+            - name: CFSTR_DSQUERYPARAMS
+              href: cfstr-dsqueryparams.md
+            - name: CFSTR_DSQUERYSCOPE
+              href: cfstr-dsqueryscope.md
+            - name: Константы БФТ
+              href: bft-constants.md
+        - name: Структуры в службах домен Active Directory Services
+          href: structures-in-active-directory-domain-services.md
+          items:
+            - name: Структуры администрирования в службах домен Active Directory Services
+              href: admin-structures-in-active-directory-domain-services.md
+              items:
+                - name: 'DSA_NEWOBJ_DISPINFO '
+                  href: /windows/desktop/api/DSAdmin/ns-dsadmin-dsa_newobj_dispinfo
+            - name: Отображение структур в службах домен Active Directory Services
+              href: display-structures-in-active-directory-domain-services.md
+              items:
+                - name: ккформ
+                  href: /windows/desktop/api/Cmnquery/ns-cmnquery-cqform
+                - name: ккпаже
+                  href: /windows/win32/api/Cmnquery/ns-cmnquery-cqpage
+                - name: DSA_SEC_PAGE_INFO
+                  href: dsa-sec-page-info.md
+                - name: домаиндеск
+                  href: /windows/win32/api/Dsclient/ns-dsclient-domaindesc
+                - name: домаинтри
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-domain_tree
+                - name: дсбитем
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsbitema
+                - name: дсбровсеинфо
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsbrowseinfoa
+                - name: дскласскреатионинфо
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsclasscreationinfo
+                - name: дсколумн
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dscolumn
+                - name: дсдисплайспекоптионс
+                  href: /windows/win32/api/Dsclient/ns-dsclient-dsdisplayspecoptions
+                - name: дсобжект
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsobject
+                - name: дсобжектнамес
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames
+                - name: дспропертипажеинфо
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dspropertypageinfo
+                - name: дскуерикласслист
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dsqueryclasslist
+                - name: дскуеринитпарамс
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dsqueryinitparams
+                - name: дскуерипарамс
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams
+                - name: опенкуеривиндов
+                  href: /windows/desktop/api/Cmnquery/ns-cmnquery-openquerywindow
+                - name: пропшиткфг
+                  href: propsheetcfg.md
+            - name: Структуры страниц свойств MMC в службах домен Active Directory Services
+              href: mmc-property-page-structures-in-active-directory-domain-services.md
+              items:
+                - name: адспроперрор
+                  href: /windows/win32/api/Adsprop/ns-adsprop-adsproperror
+                - name: адспропинитпарамс
+                  href: /windows/win32/api/Adsprop/ns-adsprop-adspropinitparams
+            - name: Структуры управления репликацией и контроллером домена
+              href: domain-controller-and-replication-management-structures.md
+              items:
+                - name: DS_DOMAIN_CONTROLLER_INFO_1
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_1a
+                - name: DS_DOMAIN_CONTROLLER_INFO_2
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_2a
+                - name: DS_DOMAIN_CONTROLLER_INFO_3
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_3a
+                - name: DS_NAME_RESULT
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_name_resulta
+                - name: DS_NAME_RESULT_ITEM
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_name_result_itema
+                - name: DS_REPL_ATTR_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data
+                - name: DS_REPL_ATTR_META_DATA_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_2
+                - name: DS_REPL_ATTR_META_DATA_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_blob
+                - name: DS_REPL_ATTR_VALUE_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data
+                - name: DS_REPL_ATTR_VALUE_META_DATA_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_2
+                - name: DS_REPL_ATTR_VALUE_META_DATA_EXT
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_ext
+                - name: DS_REPL_CURSOR
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor
+                - name: DS_REPL_CURSOR_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_2
+                - name: DS_REPL_CURSOR_3
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_3w
+                - name: DS_REPL_CURSOR_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_blob
+                - name: DS_REPL_CURSORS
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors
+                - name: DS_REPL_CURSORS_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors_2
+                - name: DS_REPL_CURSORS_3
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors_3w
+                - name: DS_REPL_KCC_DSA_FAILURE
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew
+                - name: DS_REPL_KCC_DSA_FAILURES
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw
+                - name: DS_REPL_KCC_DSA_FAILUREW_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew_blob
+                - name: DS_REPL_NEIGHBOR
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborw
+                - name: DS_REPL_NEIGHBORS
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborsw
+                - name: DS_REPL_NEIGHBORW_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborw_blob
+                - name: DS_REPL_OBJ_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data
+                - name: DS_REPL_OBJ_META_DATA_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2
+                - name: DS_REPL_OP
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_opw
+                - name: DS_REPL_OPW_BLOB
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_opw_blob
+                - name: DS_REPL_PENDING_OPS
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_pending_opsw
+                - name: DS_REPL_QUEUE_STATISTICSW
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_queue_statisticsw
+                - name: DS_REPL_VALUE_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data
+                - name: DS_REPL_VALUE_META_DATA_2
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2
+                - name: DS_REPL_VALUE_META_DATA_BLOB
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_blob
+                - name: DS_REPL_VALUE_META_DATA_BLOB_EXT
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_blob_ext
+                - name: DS_REPL_VALUE_META_DATA_EXT
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_ext
+                - name: DS_REPSYNCALL_ERRINFO
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa
+                - name: DS_REPSYNCALL_SYNC
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repsyncall_synca
+                - name: DS_REPSYNCALL_UPDATE
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repsyncall_updatea
+                - name: DS_SCHEMA_GUID_MAP
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_schema_guid_mapa
+                - name: DS_SITE_COST_INFO
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_site_cost_info
+                - name: SCHEDULE
+                  href: /windows/win32/api/Schedule/ns-schedule-schedule
+                - name: SCHEDULE_HEADER
+                  href: /windows/win32/api/Schedule/ns-schedule-schedule_header
+            - name: Структуры службы каталогов
+              href: directory-service-structures.md
+              items:
+                - name: DOMAIN_CONTROLLER_INFO
+                  href: /windows/win32/api/Dsgetdc/ns-dsgetdc-domain_controller_infoa
+                - name: DS_DOMAIN_TRUSTS
+                  href: /windows/win32/api/Dsgetdc/ns-dsgetdc-ds_domain_trustsa
+                - name: DSROLE_OPERATION_STATE_INFO
+                  href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_operation_state_info
+                - name: DSROLE_PRIMARY_DOMAIN_INFO_BASIC
+                  href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_primary_domain_info_basic
+                - name: DSROLE_UPGRADE_STATUS_INFO
+                  href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_upgrade_status_info
+            - name: Структуры резервного копирования каталога
+              href: directory-backup-structures.md
+              items:
+                - name: EDB_RSTMAP
+                  href: edb-rstmap.md
+            - name: Структуры диалогового окна выбора объектов
+              href: object-picker-dialog-box-structures.md
+              items:
+                - name: DS_SELECTION
+                  href: /windows/win32/api/Objsel/ns-objsel-ds_selection
+                - name: DS_SELECTION_LIST
+                  href: /windows/win32/api/Objsel/ns-objsel-ds_selection_list
+                - name: DSOP_FILTER_FLAGS
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_filter_flags
+                - name: DSOP_INIT_INFO
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_init_info
+                - name: DSOP_SCOPE_INIT_INFO
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_scope_init_info
+                - name: DSOP_UPLEVEL_FILTER_FLAGS
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_uplevel_filter_flags
+        - name: Перечисления в службах домен Active Directory Services
+          href: enumerations-in-active-directory-domain-services.md
+          items:
+            - name: DS_KCC_TASKID
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_kcc_taskid
+            - name: DS_MANGLE_FOR
+              href: /windows/win32/api/Dsparse/ne-dsparse-ds_mangle_for
+            - name: DS_NAME_ERROR
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_error
+            - name: DS_NAME_FLAGS
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_flags
+            - name: DS_NAME_FORMAT
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_format
+            - name: DS_REPL_INFO_TYPE
+              href: /windows/win32/api/Ntdsapi/ne-ntdsapi-ds_repl_info_type
+            - name: DS_REPL_OP_TYPE
+              href: /windows/win32/api/Ntdsapi/ne-ntdsapi-ds_repl_op_type
+            - name: DS_REPSYNCALL_ERROR
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_repsyncall_error
+            - name: DS_REPSYNCALL_EVENT
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_repsyncall_event
+            - name: DS_SPN_NAME_TYPE
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_spn_name_type
+            - name: DS_SPN_WRITE_OP
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_spn_write_op
+            - name: DSROLE_MACHINE_ROLE
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_machine_role
+            - name: DSROLE_OPERATION_STATE
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_operation_state
+            - name: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_primary_domain_info_level
+            - name: DSROLE_SERVER_STATE
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_server_state
+        - name: Функции в домен Active Directory Services
+          href: functions-in-active-directory-domain-services.md
+          items:
+            - name: Отображение функций в домен Active Directory Services
+              href: display-functions-in-active-directory-domain-services.md
+              items:
+                - name: бффкаллбакк
+                  href: /windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback
+                - name: ккаддформспрок
+                  href: /windows/desktop/api/Cmnquery/nc-cmnquery-lpcqaddformsproc
+                - name: ккаддпажеспрок
+                  href: /windows/desktop/api/Cmnquery/nc-cmnquery-lpcqaddpagesproc
+                - name: ккпажепрок
+                  href: /windows/desktop/api/Cmnquery/nc-cmnquery-lpcqpageproc
+                - name: дсбровсефорконтаинер
+                  href: /windows/desktop/api/Dsclient/nf-dsclient-dsbrowseforcontainera
+                - name: дсенуматтрибутескаллбакк
+                  href: /windows/desktop/api/Dsclient/nc-dsclient-lpdsenumattributes
+                - name: дсжетфриендликласснаме
+                  href: /windows/desktop/api/Dsclient/nf-dsclient-dsgetfriendlyclassname
+                - name: дсжетикон
+                  href: /windows/desktop/api/Dsclient/nf-dsclient-dsgeticon
+            - name: Функции страницы свойств MMC в службах домен Active Directory Services
+              href: mmc-property-page-functions-in-active-directory-domain-services.md
+              items:
+                - name: адспропчеккифвритабле
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropcheckifwritable
+                - name: адспропкреатенотифйобж
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj
+                - name: адспропжетинитинфо
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropgetinitinfo
+                - name: адспропсендеррормессаже
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropsenderrormessage
+                - name: адспропсесвнд
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd
+                - name: адспропсесвндвиститле
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropsethwndwithtitle
+                - name: адспропшоверрордиалог
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog
+            - name: Контроллеры домена и функции управления репликацией
+              href: dc-and-replication-management-functions.md
+              items:
+                - name: дсаддсидхистори
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya
+                - name: дсбинд
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbinda
+                - name: дсбиндингсеттимеаут
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindingsettimeout
+                - name: дсбиндтоистг
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindtoistga
+                - name: дсбиндвискред
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindwithcreda
+                - name: дсбиндвисспн
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindwithspna
+                - name: дсбиндвисспнекс
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindwithspnexa
+                - name: дсклиентмакеспнфортаржетсервер
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsclientmakespnfortargetservera
+                - name: DsCrackNames
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dscracknamesa
+                - name: дскраккспн
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dscrackspna
+                - name: дскраккункуотедмангледрдн
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dscrackunquotedmangledrdna
+                - name: дсфридомаинконтроллеринфо
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreedomaincontrollerinfoa
+                - name: дсфринамересулт
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreenameresulta
+                - name: дсфрипассвордкредентиалс
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreepasswordcredentials
+                - name: дсфрисчемагуидмап
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreeschemaguidmapa
+                - name: дсфриспнаррай
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreespnarraya
+                - name: дсжетдомаинконтроллеринфо
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa
+                - name: дсжетрднв
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsgetrdnw
+                - name: дсжетспн
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna
+                - name: дсинхеритсекуритидентити
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsinheritsecurityidentitya
+                - name: дсисмангледдн
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsismangleddna
+                - name: дсисмангледрднвалуе
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsismangledrdnvaluea
+                - name: дслистдомаинсинсите
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistdomainsinsitea
+                - name: дслистинфофорсервер
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistinfoforservera
+                - name: дслистролес
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistrolesa
+                - name: дслистсерверсфордомаининсите
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistserversfordomaininsitea
+                - name: дслистсерверсинсите
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistserversinsitea
+                - name: дслистситес
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistsitesa
+                - name: дсмакепассвордкредентиалс
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa
+                - name: дсмакеспн
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsmakespna
+                - name: дсмапсчемагуидс
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsmapschemaguidsa
+                - name: дскуериситесбикост
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsquerysitesbycosta
+                - name: дскуериситесфри
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsquerysitesfree
+                - name: дскуотерднвалуе
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsquoterdnvaluea
+                - name: дсремоведсдомаин
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsremovedsdomaina
+                - name: дсремоведссервер
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsremovedsservera
+                - name: дсрепликаадд
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaadda
+                - name: дсрепликаконсистенцичекк
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaconsistencycheck
+                - name: дсрепликадел
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicadela
+                - name: дсрепликафриинфо
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicafreeinfo
+                - name: дсрепликажетинфо
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicagetinfow
+                - name: DsReplicaGetInfo2
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicagetinfo2w
+                - name: дсрепликамодифи
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicamodifya
+                - name: дсрепликасинк
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicasynca
+                - name: дсрепликасинкалл
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicasyncalla
+                - name: дсрепликаупдатерефс
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaupdaterefsa
+                - name: дсрепликаверифйобжектс
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaverifyobjectsa
+                - name: дссерверрегистерспн
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsserverregisterspna
+                - name: дсунбинд
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsunbinda
+                - name: дсункуотерднвалуе
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsunquoterdnvaluea
+                - name: дсвритеаккаунтспн
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna
+                - name: синкупдатепрок
+                  href: /previous-versions/windows/desktop/legacy/ms677968(v=vs.85)
+            - name: Функции службы каталогов
+              href: directory-service-functions.md
+              items:
+                - name: дсаддресстоситенамес
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsaddresstositenamesa
+                - name: дсаддресстоситенамесекс
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsaddresstositenamesexa
+                - name: дсдерегистердншострекордс
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsderegisterdnshostrecordsa
+                - name: дсенумератедомаинтрустс
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa
+                - name: дсжетдкклосе
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew
+                - name: Процедуру
+                  href: /windows/desktop/api/DsGetDC/nf-dsgetdc-dsgetdcnamea
+                - name: дсжетдкнекст
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta
+                - name: дсжетдкопен
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena
+                - name: дсжетдкситековераже
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcsitecoveragea
+                - name: дсжетфоресттрустинформатионв
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetforesttrustinformationw
+                - name: дсжетситенаме
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetsitenamea
+                - name: дсмержефоресттрустинформатионв
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsmergeforesttrustinformationw
+                - name: дсролефримемори
+                  href: /windows/desktop/api/Dsrole/nf-dsrole-dsrolefreememory
+                - name: дсролежетпримаридомаининформатион
+                  href: /windows/desktop/api/Dsrole/nf-dsrole-dsrolegetprimarydomaininformation
+                - name: дсвалидатесубнетнаме
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsvalidatesubnetnamea
+            - name: Функции резервного копирования каталога
+              href: directory-backup-functions.md
+              items:
+                - name: дсбаккупклосе
+                  href: dsbackupclose.md
+                - name: дсбаккупенд
+                  href: dsbackupend.md
+                - name: дсбаккупфри
+                  href: dsbackupfree.md
+                - name: дсбаккупжетбаккуплогс
+                  href: dsbackupgetbackuplogs.md
+                - name: дсбаккупжетдатабасенамес
+                  href: dsbackupgetdatabasenames.md
+                - name: дсбаккупопенфиле
+                  href: dsbackupopenfile.md
+                - name: дсбаккуппрепаре
+                  href: dsbackupprepare.md
+                - name: дсбаккупреад
+                  href: dsbackupread.md
+                - name: дсбаккуптрункателогс
+                  href: dsbackuptruncatelogs.md
+                - name: дсиснтдсонлине
+                  href: dsisntdsonline.md
+                - name: дсресторинд
+                  href: dsrestoreend.md
+                - name: дсресторежетдатабаселокатионс
+                  href: dsrestoregetdatabaselocations.md
+                - name: дсресторепрепаре
+                  href: dsrestoreprepare.md
+                - name: дсресторерегистер
+                  href: dsrestoreregister.md
+                - name: дсресторерегистеркомплете
+                  href: dsrestoreregistercomplete.md
+                - name: дссетаусидентити
+                  href: dssetauthidentity.md
+                - name: дссеткуррентбаккуплог
+                  href: dssetcurrentbackuplog.md
+        - name: Интерфейсы для служб домен Active Directory
+          href: interfaces-for-active-directory-domain-services.md
+          items:
+            - name: Интерфейсы администратора в службах домен Active Directory Services
+              href: admin-interfaces-in-active-directory-domain-services.md
+              items:
+                - name: идсадминкреатеобж
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj
+                  items:
+                    - name: 'Идсадминкреатеобж:: Креатемодал'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-createmodal
+                    - name: 'Идсадминкреатеобж:: Initialize'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-initialize
+                - name: идсадминневобж
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnewobj
+                  items:
+                    - name: 'Идсадминневобж:: Жетпажекаунтс'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobj-getpagecounts
+                    - name: 'Идсадминневобж:: Сетбуттонс'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobj-setbuttons
+                - name: идсадминневобжпримарисите
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnewobjprimarysite
+                  items:
+                    - name: 'Идсадминневобжпримарисите:: Commit'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjprimarysite-commit
+                    - name: 'Идсадминневобжпримарисите:: CreateNew'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjprimarysite-createnew
+                - name: идсадминневобжекст
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnewobjext
+                  items:
+                    - name: 'Идсадминневобжекст:: Аддпажес'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-addpages
+                    - name: 'Идсадминневобжекст:: Жетсуммаринфо'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-getsummaryinfo
+                    - name: 'Идсадминневобжекст:: Initialize'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-initialize
+                    - name: 'Идсадминневобжекст:: OnError'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-onerror
+                    - name: 'Идсадминневобжекст:: SetObject'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-setobject
+                    - name: 'Идсадминневобжекст:: WriteData'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-writedata
+                - name: идсадминнотифихандлер
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnotifyhandler
+                  items:
+                    - name: 'Идсадминнотифихандлер:: Begin'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-begin
+                    - name: 'Идсадминнотифихандлер:: end'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-end
+                    - name: 'Идсадминнотифихандлер:: Initialize'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-initialize
+                    - name: 'Идсадминнотифихандлер:: notify'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-notify
+            - name: Отображение интерфейсов в домен Active Directory Services
+              href: display-interfaces-in-active-directory-domain-services.md
+              items:
+                - name: икоммонкуери
+                  href: /windows/desktop/api/cmnquery/nn-cmnquery-icommonquery
+                  items:
+                    - name: 'Икоммонкуери:: Опенкуеривиндов'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow
+                - name: идсбровседомаинтри
+                  href: /windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree
+                  items:
+                    - name: 'Идсбровседомаинтри:: Бровсето'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-browseto
+                    - name: 'Идсбровседомаинтри:: Флушкачеддомаинс'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains
+                    - name: 'Идсбровседомаинтри:: Фридомаинс'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains
+                    - name: 'Идсбровседомаинтри:: "домены"'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains
+                    - name: 'Идсбровседомаинтри:: Сеткомпутер'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer
+                - name: идсдисплайспеЦифиер
+                  href: /windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier
+                  items:
+                    - name: 'ИдсдисплайспеЦифиер:: Енумклассаттрибутес'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes
+                    - name: 'ИдсдисплайспеЦифиер:: Жетаттрибутеадстипе'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getattributeadstype
+                    - name: 'ИдсдисплайспеЦифиер:: Жеткласскреатионинфо'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo
+                    - name: 'ИдсдисплайспеЦифиер:: ЖетдисплайспеЦифиер'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier
+                    - name: 'ИдсдисплайспеЦифиер:: Жетфриендляттрибутенаме'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyattributename
+                    - name: 'ИдсдисплайспеЦифиер:: Жетфриендликласснаме'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname
+                    - name: 'ИдсдисплайспеЦифиер:: "Icon"'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon
+                    - name: 'ИдсдисплайспеЦифиер:: Жетиконлокатион'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticonlocation
+                    - name: 'ИдсдисплайспеЦифиер:: Исклассконтаинер'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-isclasscontainer
+                    - name: 'ИдсдисплайспеЦифиер:: Сетлангуажеид'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setlanguageid
+                    - name: 'ИдсдисплайспеЦифиер:: Сетсервер'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setserver
+                - name: иперсисткуери
+                  href: /windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery
+                  items:
+                    - name: 'Иперсисткуери:: Clear'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-clear
+                    - name: 'Иперсисткуери:: ReadInt'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readint
+                    - name: 'Иперсисткуери:: ReadString'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstring
+                    - name: 'Иперсисткуери:: Реадструкт'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstruct
+                    - name: 'Иперсисткуери:: Вритеинт'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writeint
+                    - name: 'Иперсисткуери:: WriteString'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestring
+                    - name: 'Иперсисткуери:: Вритеструкт'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestruct
+                - name: икуериформ
+                  href: /windows/desktop/api/cmnquery/nn-cmnquery-iqueryform
+                  items:
+                    - name: 'Икуериформ:: Аддформс'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms
+                    - name: 'Икуериформ:: Аддпажес'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addpages
+                    - name: 'Икуериформ:: Initialize'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-initialize
+            - name: Интерфейсы диалоговых окон средства выбора объектов
+              href: object-picker-dialog-box-interfaces.md
+              items:
+                - name: идсобжектпиккеркредентиалс
+                  href: /windows/desktop/api/Objsel/nn-objsel-idsobjectpickercredentials
+                  items:
+                    - name: 'Метод Идсобжектпиккеркредентиалс:: Сеткредентиалс'
+                      href: /windows/desktop/api/Objsel/nf-objsel-idsobjectpickercredentials-setcredentials
+                - name: идсобжектпиккер
+                  href: /windows/desktop/api/Objsel/nn-objsel-idsobjectpicker
+                  items:
+                    - name: 'Идсобжектпиккер:: Initialize'
+                      href: /windows/desktop/api/Objsel/nf-objsel-idsobjectpicker-initialize
+                    - name: 'Идсобжектпиккер:: Инвокедиалог'
+                      href: /windows/desktop/api/Objsel/nf-objsel-idsobjectpicker-invokedialog
+        - name: Сообщения в домен Active Directory Services
+          href: messages-in-active-directory-domain-services.md
+          items:
+            - name: WM_ADSPROP_NOTIFY_APPLY
+              href: wm-adsprop-notify-apply.md
+            - name: WM_ADSPROP_NOTIFY_CHANGE
+              href: wm-adsprop-notify-change.md
+            - name: WM_ADSPROP_NOTIFY_ERROR
+              href: wm-adsprop-notify-error.md
+            - name: WM_ADSPROP_NOTIFY_EXIT
+              href: wm-adsprop-notify-exit.md
+            - name: WM_ADSPROP_NOTIFY_FOREGROUND
+              href: wm-adsprop-notify-foreground.md
+            - name: WM_ADSPROP_NOTIFY_PAGEHWND
+              href: wm-adsprop-notify-pagehwnd.md
+            - name: WM_ADSPROP_NOTIFY_PAGEINIT
+              href: wm-adsprop-notify-pageinit.md
+            - name: WM_ADSPROP_NOTIFY_SETFOCUS
+              href: wm-adsprop-notify-setfocus.md
+            - name: WM_ADSPROP_SHEET_CREATE
+              href: wm-adsprop-sheet-create.md
+            - name: WM_DSA_SHEET_CLOSE_NOTIFY
+              href: wm-dsa-sheet-close-notify.md
+            - name: WM_DSA_SHEET_CREATE_NOTIFY
+              href: wm-dsa-sheet-create-notify.md
+        - name: Возвращаемые значения для функций в домен Active Directory Services
+          href: return-values-for-functions-in-active-directory-domain-services.md
+          items:
+            - name: Успешно
+              href: success.md
+            - name: Ошибки резервного копирования в службах домен Active Directory
+              href: backup-errors-in-active-directory-domain-services.md
+            - name: Системные ошибки в службах домен Active Directory
+              href: system-errors-in-active-directory-domain-services.md
+            - name: Ошибки диспетчера каталогов
+              href: directory-manager-errors.md
+            - name: Регистрация и восстановление ошибок в функциях в домен Active Directory Services
+              href: logging-and-recovery-errors-in-functions-in-active-directory-domain-services.md
+        - name: Сопоставления пользовательского интерфейса в службах домен Active Directory Services
+          href: user-interface-mappings-in-active-directory-domain-services.md
+          items:
+            - name: Сопоставления для оснастки "пользователи и компьютеры" Active Directory
+              href: mappings-for-the-active-directory-users-and-computers-snap-in.md
+              items:
+                - name: Сопоставление пользовательского интерфейса объекта "компьютер"
+                  href: computer-object-user-interface-mapping.md
+                - name: Сопоставление пользовательского интерфейса объекта домена
+                  href: domain-object-user-interface-mapping.md
+                - name: Сопоставление пользовательского интерфейса объекта группы
+                  href: group-object-user-interface-mapping.md
+                - name: Страница свойств объекта
+                  href: object-property-sheet.md
+                - name: Сопоставление пользовательского интерфейса подразделения
+                  href: organizational-unit-user-interface-mapping.md
+                - name: Сопоставление пользовательского интерфейса объекта принтера
+                  href: printer-object-user-interface-mapping.md
+                - name: Сопоставление пользовательского интерфейса объекта общей папки
+                  href: shared-folder-object-user-interface-mapping.md
+                - name: Сопоставление пользовательского интерфейса и объекта-пользователя
+                  href: user-object-user-interface-mapping.md
+        - name: Справочник по поставщику WMI для служб домен Active Directory Services
+          href: wmi-provider-reference-for-active-directory-domain-services.md
+          items:
+            - name: Классы поставщиков WMI в службах домен Active Directory Services
+              href: wmi-provider-classes-in-active-directory-domain-services.md
+              items:
+                - name: ReplicationProvider1
+                  href: replicationprovider1.md
+                - name: MSAD_DomainController
+                  href: msad-domaincontroller.md
+                  items:
+                    - name: Метод Ексекутеккк класса MSAD_DomainController
+                      href: executekcc-msad-domaincontroller.md
+                - name: MSAD_NamingContext
+                  href: msad-namingcontext.md
+                - name: MSAD_ReplCursor
+                  href: msad-replcursor.md
+                - name: MSAD_ReplNeighbor
+                  href: msad-replneighbor.md
+                  items:
+                    - name: Метод Синкнамингконтекст класса MSAD_ReplNeighbor
+                      href: syncnamingcontext-msad-replneighbor.md
+                - name: MSAD_ReplPendingOp
+                  href: msad-replpendingop.md
