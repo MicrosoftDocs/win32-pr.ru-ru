@@ -1,0 +1,150 @@
+---
+description: Классы определяются в \\ корневом \\ пространстве имен WMI.
+ms.assetid: b86c3863-b92c-4f6c-b953-3e0638bc915e
+title: Классы MOF трассировки событий
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c0a94fb5608ddcdd8a13df2d221adf3d032f6be8
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103990940"
+---
+# <a name="event-tracing-mof-classes"></a>Классы MOF трассировки событий
+
+Классы определяются в \\ корневом \\ пространстве имен WMI. Квалификатор **евентверсион** для событий ядра связывает класс с определенной операционной системой. Например, нулевая версия связана с Windows 2000, версией 1 с Windows XP и Windows Server 2003, а второй — с Windows Vista.
+
+Следующие классы MOF определяют классы событий ETW.
+
+-   [**евенттраце**](eventtrace.md)
+-   [**\_Заголовок евенттраце**](eventtrace-header.md)
+-   [**евенттрацеевент**](eventtraceevent.md)
+-   [**Потерянное \_ событие**](lost-event.md)
+-   [**МСНТ \_ системтраце**](msnt-systemtrace.md)
+-   [**\_ЛОСТЕВЕНТ RT**](rt-lostevent.md)
+
+Следующие классы MOF определяют классы событий ядра.
+
+-   [**ALPC**](alpc.md)
+-   [**ALPC \_ — \_ сообщение о получении**](alpc-receive-message.md)
+-   [**ALPC — \_ Отправка \_ сообщения**](alpc-send-message.md)
+-   [**ALPC, \_ неожидание**](alpc-unwait.md)
+-   [**ALPC. \_ Ожидание \_ \_ нового \_ сообщения**](alpc-wait-for-new-message.md)
+-   [**ALPC. \_ Ожидание \_ \_ ответа**](alpc-wait-for-reply.md)
+-   [**ксвитч**](cswitch.md)
+-   [**DPC**](dpc.md)
+-   [**дискио**](diskio.md)
+-   [**Дискио \_ TypeGroup1**](diskio-typegroup1.md)
+-   [**Дискио \_ TypeGroup2**](diskio-typegroup2.md)
+-   [**Дискио \_ TypeGroup3**](diskio-typegroup3.md)
+-   [**дриверкомплетерекуест**](drivercompleterequest.md)
+-   [**дриверкомплетерекуестретурн**](drivercompleterequestreturn.md)
+-   [**дриверкомплетионраутине**](drivercompletionroutine.md)
+-   [**дривермажорфунктионкалл**](drivermajorfunctioncall.md)
+-   [**дривермажорфунктионретурн**](drivermajorfunctionreturn.md)
+-   [**FileIo**](fileio.md)
+-   [**\_Создание FileIo**](fileio-create.md)
+-   [**FileIo \_ диренум**](fileio-direnum.md)
+-   [**\_Сведения о FileIo**](fileio-info.md)
+-   [**\_Имя FileIo**](fileio-name.md)
+-   [**FileIo \_ открытый**](fileio-opend.md)
+-   [**FileIo \_ ReadWrite**](fileio-readwrite.md)
+-   [**FileIo \_ симплеоп**](fileio-simpleop.md)
+-   [**FileIo \_ v0**](fileio-v0.md)
+-   [**\_Имя v0 \_ FileIo**](fileio-v0-name.md)
+-   [**FileIo \_ v1**](fileio-v1.md)
+-   [**\_Имя FileIo v1 \_**](fileio-v1-name.md)
+-   [**хвконфиг**](hwconfig.md)
+-   [**\_ЦП хвконфиг**](hwconfig-cpu.md)
+-   [**Хвконфиг \_ логдиск**](hwconfig-logdisk.md)
+-   [**\_Сетевой адаптер хвконфиг**](hwconfig-nic.md)
+-   [**Хвконфиг \_ фидиск**](hwconfig-phydisk.md)
+-   [**Образ —**](image.md)
+-   [**\_Загрузка образа**](image-load.md)
+-   [**\_V0 изображения**](image-v0.md)
+-   [**\_Загрузка образа v0 \_**](image-v0-load.md)
+-   [**Образ \_ v1**](image-v1.md)
+-   [**\_Загрузка образа v1 \_**](image-v1-load.md)
+-   [**ISR**](isr.md)
+-   [**PageFault \_ v2**](pagefault-v2.md)
+-   [**PageFault \_ хардфаулт**](pagefault-hardfault.md)
+-   [**PageFault \_ имажелоадбаккед**](pagefault-imageloadbacked.md)
+-   [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md)
+-   [**перфинфо**](perfinfo.md)
+-   [**Процесс**](process.md)
+-   [**Обработка \_ TypeGroup1**](process-typegroup1.md)
+-   [**Обработка \_ v0**](process-v0.md)
+-   [**Процесс \_ v0 \_ TypeGroup1**](process-v0-typegroup1.md)
+-   [**Процесс \_ v1**](process-v1.md)
+-   [**Процесс \_ v1, \_ TypeGroup1**](process-v1-typegroup1.md)
+-   [**Процесс \_ версии 2**](process-v2.md)
+-   [**\_TypeGroup1 процесса v2 \_**](process-v2-typegroup1.md)
+-   [**\_TypeGroup2 процесса v2 \_**](process-v2-typegroup2.md)
+-   [**реадисреад**](readythread.md)
+-   [**Реестр**](registry.md)
+-   [**\_TypeGroup1 реестра**](registry-typegroup1.md)
+-   [**\_V0 реестра**](registry-v0.md)
+-   [**Реестр \_ v0 \_ TypeGroup1**](registry-v0-typegroup1.md)
+-   [**Реестр \_ v1**](registry-v1.md)
+-   [**Реестр \_ v1 \_ TypeGroup1**](registry-v1-typegroup1.md)
+-   [**сампледпрофиле**](sampledprofile.md)
+-   [**сплитио**](splitio.md)
+-   [**\_Сведения о сплитио**](splitio-info.md)
+-   [**сискаллентер**](syscallenter.md)
+-   [**сискаллексит**](syscallexit.md)
+-   [**системконфиг**](systemconfig.md)
+-   [**\_ЦП системконфиг**](systemconfig-cpu.md)
+-   [**Системконфиг \_ идечаннел**](systemconfig-idechannel.md)
+-   [**Системконфиг \_ IRQ**](systemconfig-irq.md)
+-   [**Системконфиг \_ логдиск**](systemconfig-logdisk.md)
+-   [**Системконфиг \_ сеть**](systemconfig-network.md)
+-   [**\_Сетевой адаптер системконфиг**](systemconfig-nic.md)
+-   [**Системконфиг \_ фидиск**](systemconfig-phydisk.md)
+-   [**Системконфиг \_ PnP**](systemconfig-pnp.md)
+-   [**Системконфиг \_**](systemconfig-power.md)
+-   [**Системконфиг \_ Services**](systemconfig-services.md)
+-   [**\_Видео системконфиг**](systemconfig-video.md)
+-   [**\_ЦП системконфиг v0 \_**](systemconfig-v0-cpu.md)
+-   [**Системконфиг \_ v0 \_ логдиск**](systemconfig-v0-logdisk.md)
+-   [**\_ \_ Сетевой адаптер системконфиг v0**](systemconfig-v0-nic.md)
+-   [**Системконфиг \_ v0 \_ фидиск**](systemconfig-v0-phydisk.md)
+-   [**Системконфиг \_ v0 \_**](systemconfig-v0-power.md)
+-   [**Системконфиг \_ v0 \_ Services**](systemconfig-v0-services.md)
+-   [**\_Видео системконфиг v0 \_**](systemconfig-v0-video.md)
+-   [**TcpIp**](tcpip.md)
+-   [**Сбой TCP/IP \_**](tcpip-fail.md)
+-   [**TCP/IP \_ SendIPV4**](tcpip-sendipv4.md)
+-   [**TCP/IP \_ SendIPV6**](tcpip-sendipv6.md)
+-   [**TCP/IP \_ TypeGroup1**](tcpip-typegroup1.md)
+-   [**TCP/IP \_ TypeGroup2**](tcpip-typegroup2.md)
+-   [**TCP/IP \_ TypeGroup3**](tcpip-typegroup3.md)
+-   [**TCP/IP \_ TypeGroup4**](tcpip-typegroup4.md)
+-   [**TCP/IP \_ v0**](tcpip-v0.md)
+-   [**TcpIp \_ v0 \_ TypeGroup1**](tcpip-v0-typegroup1.md)
+-   [**TcpIp \_ v1**](tcpip-v1.md)
+-   [**TcpIp \_ v1, \_ TypeGroup1**](tcpip-v1-typegroup1.md)
+-   [**Поток**](thread.md)
+-   [**\_TypeGroup1 потока**](thread-typegroup1.md)
+-   [**\_V0 потока**](thread-v0.md)
+-   [**Thread \_ v0 \_ TypeGroup1**](thread-v0-typegroup1.md)
+-   [**Поток \_ v1**](thread-v1.md)
+-   [**Поток \_ v1, \_ TypeGroup1**](thread-v1-typegroup1.md)
+-   [**Поток \_ v1, \_ TypeGroup2**](thread-v1-typegroup2.md)
+-   [**Поток \_ версии 2**](thread-v2.md)
+-   [**\_TypeGroup1 Thread v2 \_**](thread-v2-typegroup1.md)
+-   [**удпип**](udpip.md)
+-   [**\_Сбой удпип**](udpip-fail.md)
+-   [**Удпип \_ TypeGroup1**](udpip-typegroup1.md)
+-   [**Удпип \_ TypeGroup2**](udpip-typegroup2.md)
+-   [**Удпип \_ v0**](udpip-v0.md)
+-   [**Удпип \_ v0 \_ TypeGroup1**](udpip-v0-typegroup1.md)
+-   [**Удпип \_ v1**](udpip-v1.md)
+-   [**\_TypeGroup1 удпип v1 \_**](udpip-v1-typegroup1.md)
+
+ 
+
+ 
+
+
+
