@@ -1,0 +1,36 @@
+---
+description: В этом разделе описываются классы оболочки Windows.
+ms.assetid: 3b9d876c-32a9-429f-9605-efcc4a1c1570
+title: Классы оболочки
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 24bc306215d6ecdc9c60ff6aa5bc70e85ad27b2a
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104997234"
+---
+# <a name="shell-classes"></a><span data-ttu-id="8958a-103">Классы оболочки</span><span class="sxs-lookup"><span data-stu-id="8958a-103">Shell Classes</span></span>
+
+<span data-ttu-id="8958a-104">В этом разделе описываются классы оболочки Windows.</span><span class="sxs-lookup"><span data-stu-id="8958a-104">This section describes the Windows Shell classes.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="8958a-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="8958a-105">In this section</span></span>
+
+
+
+| <span data-ttu-id="8958a-106">Раздел</span><span class="sxs-lookup"><span data-stu-id="8958a-106">Topic</span></span>                                                               | <span data-ttu-id="8958a-107">Описание</span><span class="sxs-lookup"><span data-stu-id="8958a-107">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                  |
+|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="8958a-108">[**кксксеарчапиинтерфаце**](/previous-versions/windows/desktop/legacy/cc448312(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="8958a-108">[**CCscSearchApiInterface**](/previous-versions/windows/desktop/legacy/cc448312(v=vs.85))</span></span><br/> | <span data-ttu-id="8958a-109">Предоставляет методы для взаимодействия со службой CSC (кэширование на стороне клиента, также известной как автономные файлы) библиотека API поиска.</span><span class="sxs-lookup"><span data-stu-id="8958a-109">Exposes methods for interacting with the CSC (Client Side Caching, also known as Offline Files) search API library.</span></span><br/>                                                                                                                                                                                                                                                                               |
+| [<span data-ttu-id="8958a-110">**кфолдеритемс**</span><span class="sxs-lookup"><span data-stu-id="8958a-110">**CFolderItems**</span></span>](class-cfolderitems-class.md)<br/>         | <span data-ttu-id="8958a-111">[**Кфолдеритемс**](class-cfolderitems-class.md) — это коллекция [**фолдеритемс**](folderitems.md).</span><span class="sxs-lookup"><span data-stu-id="8958a-111">[**CFolderItems**](class-cfolderitems-class.md) is a collection of [**FolderItems**](folderitems.md).</span></span> <span data-ttu-id="8958a-112">Он реализует следующие интерфейсы: [**иперсистфолдер**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder), [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite), [**FolderItems3**](folderitems3-object.md), [**иобжектсафети**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768224(v=vs.85)), [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch).</span><span class="sxs-lookup"><span data-stu-id="8958a-112">It implements the following interfaces: [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder), [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite), [**FolderItems3**](folderitems3-object.md), [**IObjectSafety**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768224(v=vs.85)), [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch).</span></span><br/> |
+| [<span data-ttu-id="8958a-113">**кфолдеритемсфдф**</span><span class="sxs-lookup"><span data-stu-id="8958a-113">**CFolderItemsFDF**</span></span>](class-cfolderitemsfdf-class.md)<br/>   | <span data-ttu-id="8958a-114">[**Кфолдеритемсфдф**](class-cfolderitemsfdf-class.md) — это коллекция [**фолдеритемс**](folderitems.md).</span><span class="sxs-lookup"><span data-stu-id="8958a-114">[**CFolderItemsFDF**](class-cfolderitemsfdf-class.md) is a collection of [**FolderItems**](folderitems.md).</span></span> <span data-ttu-id="8958a-115">Он реализует интерфейс [**иинсертитем**](/windows/desktop/api/Shobjidl/nn-shobjidl-iinsertitem) .</span><span class="sxs-lookup"><span data-stu-id="8958a-115">It implements the [**IInsertItem**](/windows/desktop/api/Shobjidl/nn-shobjidl-iinsertitem) interface.</span></span><br/>                                                                                                                                                                                                                     |
+| [<span data-ttu-id="8958a-116">**Цитемидфактори**</span><span class="sxs-lookup"><span data-stu-id="8958a-116">**CItemIDFactory**</span></span>](/windows/desktop/api/shidfact/nl-shidfact-citemidfactory)<br/>                 | <span data-ttu-id="8958a-117">Предоставляет методы для взаимодействия с источниками данных оболочки.</span><span class="sxs-lookup"><span data-stu-id="8958a-117">Exposes methods for interacting with Shell data sources.</span></span><br/>                                                                                                                                                                                                                                                                                                                                          |
+| [<span data-ttu-id="8958a-118">**виртуалдесктопманажер**</span><span class="sxs-lookup"><span data-stu-id="8958a-118">**VirtualDesktopManager**</span></span>](virtualdesktopmanager.md)<br/>   | <span data-ttu-id="8958a-119">[**Виртуалдесктопманажер**](virtualdesktopmanager.md) реализует интерфейс [**ивиртуалдесктопманажер**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager) .</span><span class="sxs-lookup"><span data-stu-id="8958a-119">[**VirtualDesktopManager**](virtualdesktopmanager.md) implements the [**IVirtualDesktopManager**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager) interface.</span></span><br/>                                                                                                                                                                                                                                                         |
+
+
+
+ 
+
+ 
+
+ 
