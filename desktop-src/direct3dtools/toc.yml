@@ -1,0 +1,549 @@
+- name: Средства для графики DirectX
+  href: dx-graphics-tools.md
+  items:
+    - name: Удаленная отладка приложений DirectX
+      href: debugging-directx-apps-remotely.md
+    - name: Инструмент Effect-Compiler
+      href: fxc.md
+      items:
+        - name: Синтаксис
+          href: dx-graphics-tools-fxc-syntax.md
+        - name: Автономная компиляция
+          href: dx-graphics-tools-fxc-using.md
+    - name: Справочник по интерфейсу для захвата диагностики Direct3D
+      href: vspixengine-reference.md
+      items:
+        - name: Интерфейсы интерфейса захвата диагностики Direct3D
+          href: vspixengine-interfaces.md
+          items:
+            - name: иневфрамескаллбакк
+              href: inewframescallback.md
+              items:
+                - name: невфрамесаваилабле
+                  href: inewframescallback-newframesavailable.md
+                - name: канцелусингкаллбакк
+                  href: inewframescallback-cancelusingcallback-iunknown-ptr.md
+                - name: канцелусингкукие
+                  href: inewframescallback-cancelusingcookie-dword.md
+                - name: канцелалл
+                  href: inewframescallback-cancelall.md
+            - name: ипиксканцелаблерекуест
+              href: ipixcancelablerequest.md
+            - name: ипиксерроркаллбакк
+              href: ipixerrorcallback.md
+              items:
+                - name: еррорлисткаллбакк
+                  href: ipixerrorcallback-errorlistcallback-dword-issue-arr-dword-issue-arr.md
+                - name: варнинглисткаллбакк
+                  href: ipixerrorcallback-warninglistcallback.md
+                - name: мессажескаллбакк
+                  href: ipixerrorcallback-messagescallback-dword-issue-arr.md
+            - name: ипикспрогресскаллбакк
+              href: ipixprogresscallback.md
+              items:
+                - name: Ход выполнения
+                  href: ipixprogresscallback-progress-dword-dword.md
+            - name: ипикселхисторикаллбакк
+              href: ipixelhistorycallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: ipixelhistorycallback-resultcallback-dword-pixelhistoryoperation-arr.md
+            - name: ипикселхисторирекуест
+              href: ipixelhistoryrequest.md
+              items:
+                - name: рекуестасинк
+                  href: ipixelhistoryrequest-requestasync-dword-point2d-dword-ipixelhistorycallback-ptr-dword-dword.md
+            - name: IPixelHistoryCallback2
+              href: ipixelhistorycallback2.md
+              items:
+                - name: интерсектионскаллбакк
+                  href: ipixelhistorycallback2-intersectionscallback-dword-pixelhistoryintersection-arr.md
+                - name: примитивескаллбакк
+                  href: ipixelhistorycallback2-primitivescallback-dword-pixelhistoryoperation-arr.md
+            - name: IPixelHistoryRequest2
+              href: ipixelhistoryrequest2.md
+              items:
+                - name: рекуестинтерсектионс
+                  href: ipixelhistoryrequest2-requestintersections-dword-point2d-dword-ipixelhistorycallback2-ptr-dword-dword.md
+                - name: рекуестпримитивес
+                  href: ipixelhistoryrequest2-requestprimitives-pixelhistoryintersection-ptr-ipixelhistorycallback2-ptr-dword-dword.md
+            - name: ифрамебуфферкаллбакк
+              href: iframebuffercallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: iframebuffercallback-resultcallback-dword-dword-dword-dword-double-dword-byte-arr.md
+            - name: ифрамебуфферрекуест
+              href: iframebufferrequest.md
+              items:
+                - name: рекуестасинк
+                  href: iframebufferrequest-requestasync-dword-eventid-dword-iframebuffercallback-ptr-dword-dword.md
+            - name: идебугшадеррекуест
+              href: idebugshaderrequest.md
+              items:
+                - name: бегиндебугшадер
+                  href: idebugshaderrequest-begindebugshader-ipixerrorcallback-ptr-eventid-dword-dword-point2d-pipelinestages-pixelhistoryoperation-ptr-dword-ptr.md
+            - name: идебугшадеркаллбакк
+              href: idebugshadercallback.md
+              items:
+                - name: ресултинструктионс
+                  href: idebugshadercallback-resultinstructions-dword-byte-arr.md
+            - name: IDebugShaderRequest2
+              href: idebugshaderrequest2.md
+              items:
+                - name: женератеинструктионс
+                  href: idebugshaderrequest2-generateinstructions-ipixerrorcallback-ptr-debugshaderrequestinfo-ptr-pixelhistoryoperation-ptr-idebugshadercallback-ptr.md
+                - name: бегиндебугшадер
+                  href: idebugshaderrequest2-begindebugshader-ipixerrorcallback-ptr-dword-byte-arr-dword-ptr.md
+            - name: идебугшадерканцел
+              href: idebugshadercancel.md
+              items:
+                - name: канцелженерате
+                  href: idebugshadercancel-cancelgenerate-debugshaderrequestinfo-ptr-pixelhistoryoperation-ptr.md
+            - name: идебугливешадеррекуест
+              href: idebugliveshaderrequest.md
+              items:
+                - name: бегиндебугливешадер
+                  href: idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr.md
+            - name: иженерикбуффердатакаллбакк
+              href: igenericbufferdatacallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: igenericbufferdatacallback-resultcallback-dword-byte-arr-bstr.md
+            - name: иженерикбуффердатарекуест
+              href: igenericbufferdatarequest.md
+              items:
+                - name: рекуестасинк
+                  href: igenericbufferdatarequest-requestasync-dumpertype-eventid-dword-igenericbufferdatacallback-ptr-dword-dword.md
+            - name: ибуфферобжектдатакаллбакк
+              href: ibufferobjectdatacallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: ibufferobjectdatacallback-resultcallback-bstr.md
+            - name: ибуфферобжектдатарекуест
+              href: ibufferobjectdatarequest.md
+              items:
+                - name: рекуестасинк
+                  href: ibufferobjectdatarequest-requestasync-eventid-dword-bstr-bstr-ibufferobjectdatacallback-ptr-dword-dword.md
+            - name: итекстурекаллбакк
+              href: itexturecallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: itexturecallback-resultcallback.md
+            - name: итекстуререкуест
+              href: itexturerequest.md
+              items:
+                - name: рекуестасинк
+                  href: itexturerequest-requestasync-eventid-dword-bstr-itexturecallback-ptr-dword-dword.md
+            - name: итилерекуест
+              href: itilerequest.md
+              items:
+                - name: рекуесттекстуретилеасинк
+                  href: itilerequest-requesttexturetileasync-eventid-dword-uint-uint-uint-uint-bstr-itexturecallback-ptr-dword-dword.md
+                - name: рекуестбуффертилеасинк
+                  href: itilerequest-requestbuffertileasync-eventid-dword-bstr-uint-ibufferobjectdatacallback-ptr-dword-dword.md
+            - name: ипипелинестажескаллбакк
+              href: ipipelinestagescallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: ipipelinestagescallback-resultcallback-pipelinestagesid-eventid-dword-dword-dword-dword-byte-arr.md
+                - name: мешдатаверткаллбакк
+                  href: ipipelinestagescallback-meshdatavertcallback-uint-uint-meshdatabufferlayoutentry-arr-uint-uint-byte-arr-uint-byte-arr-uint-uint-uint-uint-bool-uint-uint.md
+                - name: жетсуппортедстажес
+                  href: ipipelinestagescallback-getsupportedstages-dword-pipelinestage-arr-uint-uint.md
+                - name: мешдатанотаваилаблекаллбакк
+                  href: ipipelinestagescallback-meshdatanotavailablecallback-uint-pipelinestageerror-arr-uint-uint-eventid.md
+            - name: IPipeLineStagesCallback2
+              href: ipipelinestagescallback2.md
+              items:
+                - name: среаддатадименсионкаллбакк
+                  href: ipipelinestagescallback2-threaddatadimensioncallback-threaddata3d-threaddata3d.md
+                - name: среаддатанотаваилаблекаллбакк
+                  href: ipipelinestagescallback2-threaddatanotavailablecallback-pipelinestageerror-eventid.md
+            - name: IPipeLineStagesCallback3
+              href: ipipelinestagescallback3.md
+              items:
+                - name: мешфилереадикаллбакк
+                  href: ipipelinestagescallback3-meshfilereadycallback-bstr.md
+            - name: ипипелинестажесрекуест
+              href: ipipelinestagesrequest.md
+              items:
+                - name: рекуестасинк
+                  href: ipipelinestagesrequest-requestasync-eventid-dword-pipelinestagesid-arr-dword-dword-ipipelinestagescallback-ptr-bool-dword-dword.md
+                - name: рекуестсуппортедстажесасинк
+                  href: ipipelinestagesrequest-requestsupportedstagesasync-dword-eventid-ipipelinestagescallback-ptr-dword-dword.md
+            - name: IPipeLineStagesRequest2
+              href: ipipelinestagesrequest2.md
+              items:
+                - name: рекуесткомпутешадердатаасинк
+                  href: ipipelinestagesrequest2-requestcomputeshaderdataasync-eventid-ipipelinestagescallback2-ptr-dword-dword.md
+                - name: рекуесткомпутешадерстажеасинк
+                  href: ipipelinestagesrequest2-requestcomputeshaderstageasync-dword-eventid-ipipelinestagescallback-ptr-dword-dword.md
+            - name: IPipeLineStagesRequest3
+              href: ipipelinestagesrequest3.md
+              items:
+                - name: рекуестмешасинк
+                  href: ipipelinestagesrequest3-requestmeshasync-eventid-bstr-ipipelinestagescallback3-ptr-dword-dword.md
+            - name: икаллстакккаллбакк
+              href: icallstackcallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: icallstackcallback-resultcallback-dword-callstackframe-arr.md
+            - name: икаллстаккрекуест
+              href: icallstackrequest.md
+              items:
+                - name: рекуестасинк
+                  href: icallstackrequest-requestasync-eventid-icallstackcallback-ptr-dword-dword.md
+            - name: исимболсеттингс
+              href: isymbolsettings.md
+              items:
+                - name: упдатесимболсеттингс
+                  href: isymbolsettings-updatesymbolsettings-symbolserverinfo.md
+            - name: исаурцефилеинфокаллбакк
+              href: isourcefileinfocallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: isourcefileinfocallback-resultcallback-dword-sourcefileinfo-arr.md
+            - name: исаурцефилеинфорекуест
+              href: isourcefileinforequest.md
+              items:
+                - name: рекуестасинк
+                  href: isourcefileinforequest-requestasync-eventid-isourcefileinfocallback-ptr-dword-dword.md
+            - name: ирунексперименткаллбакк
+              href: irunexperimentcallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: irunexperimentcallback-resultcallback-dword.md
+            - name: ирунактионкаллбакк
+              href: irunactioncallback.md
+              items:
+                - name: RequestResult
+                  href: irunactioncallback-requestresult-iunknown-ptr.md
+            - name: ирунактионрекуест
+              href: irunactionrequest.md
+              items:
+                - name: рекуестасинк
+                  href: irunactionrequest-requestasync-refguid-iunknown-ptr-irunactioncallback-ptr-dword-dword.md
+            - name: ифрамелисткаллбакк
+              href: iframelistcallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: iframelistcallback-resultcallback-dword-dword-arr-dword-arr.md
+            - name: ифрамелистрекуест
+              href: iframelistrequest.md
+              items:
+                - name: рекуестасинк
+                  href: iframelistrequest-requestasync-iframelistcallback-ptr-dword-dword.md
+            - name: исуммарикаллбакк
+              href: isummarycallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: isummarycallback-resultcallback-dword-summaryitem-arr.md
+            - name: исуммарирекуест
+              href: isummaryrequest.md
+              items:
+                - name: рекуестасинк
+                  href: isummaryrequest-requestasync-isummarycallback-ptr-dword-dword.md
+            - name: имешкаллбакк
+              href: imeshcallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: imeshcallback-resultcallback-dword-byte-arr.md
+            - name: имешрекуест
+              href: imeshrequest.md
+              items:
+                - name: рекуестасинк
+                  href: imeshrequest-requestasync-pipelinestages-imeshcallback-ptr-dword-dword.md
+            - name: ифрамивентскаллбакк
+              href: iframeeventscallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: iframeeventscallback-resultcallback-dword-dword-dword-dword-variant-arr.md
+                - name: жетсуппортедевентколумнс
+                  href: iframeeventscallback-getsupportedeventcolumns-dword-eventcolumnid-arr-bstr-arr.md
+            - name: исингливентрекуест
+              href: isingleeventrequest.md
+              items:
+                - name: рекуестасинк
+                  href: isingleeventrequest-requestasync-dword-dword-dword-arr-iframeeventscallback-ptr-dword-dword.md
+                - name: рекуестсуппортедколумнсасинк
+                  href: isingleeventrequest-requestsupportedcolumnsasync-iframeeventscallback-ptr-dword.md
+            - name: ифрамивентсрекуест
+              href: iframeeventsrequest.md
+              items:
+                - name: рекуестасинк
+                  href: iframeeventsrequest-requestasync-dword-dword-dword-arr-iframeeventscallback-ptr-dword-dword.md
+                - name: рекуестсуппортедколумнсасинк
+                  href: iframeeventsrequest-requestsupportedcolumnsasync-iframeeventscallback-ptr-dword.md
+            - name: иобжекттаблекаллбакк
+              href: iobjecttablecallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: iobjecttablecallback-resultcallback-dword-dword-dword-variant-arr.md
+                - name: жетсуппортедколумнс
+                  href: iobjecttablecallback-getsupportedcolumns-dword-objecttablecolumnid-arr-bstr-arr.md
+            - name: иобжекттаблерекуест
+              href: iobjecttablerequest.md
+              items:
+                - name: рекуестасинк
+                  href: iobjecttablerequest-requestasync-dword-dword-dword-arr-iobjecttablecallback-ptr-dword-dword.md
+                - name: рекуестсуппортедколумнсасинк
+                  href: iobjecttablerequest-requestsupportedcolumnsasync-iobjecttablecallback-ptr-dword.md
+            - name: ифилеиокаллбакк
+              href: ifileiocallback.md
+              items:
+                - name: ресулткаллбакк
+                  href: ifileiocallback-resultcallback-dword.md
+            - name: IPixEngine2
+              href: ipixengine2.md
+              items:
+                - name: онневдатааваилабле
+                  href: ipixengine2-onnewdataavailable-bool-bool-int64-int64-int32-byte-arr.md
+                - name: жетплайбаккмачине
+                  href: ipixengine2-getplaybackmachine-bstr-bool-ptr-bstr-ptr.md
+                - name: сетплайбаккмачине
+                  href: ipixengine2-setplaybackmachine-bstr-bool-bstr.md
+                - name: ендексперимент
+                  href: ipixengine2-endexperiment-bstr-ifileiocallback-ptr.md
+            - name: ипиксенгине
+              href: ipixengine.md
+              items:
+                - name: сетпарентпроцесс
+                  href: ipixengine-setparentprocess-dword.md
+                - name: OpenFile
+                  href: ipixengine-openfile-bstr-bstr-inewframescallback-ptr-ifileiocallback-ptr-lcid.md
+                - name: рунексперимент
+                  href: ipixengine-runexperiment-experiment-irunexperimentcallback-ptr-inewframescallback-ptr-ifileiocallback-ptr-dword-experimenttrigger-arr.md
+                - name: SaveFile
+                  href: ipixengine-savefile-bstr-ifileiocallback-ptr.md
+                - name: Закрытия
+                  href: ipixengine-shutdown.md
+            - name: ипиртопиренгине
+              href: ipeertopeerengine.md
+              items:
+                - name: жетплайбаккендпоинт
+                  href: ipeertopeerengine-getplaybackendpoint-bool-bstr-ptr-bstr-ptr-remotingversion-ptr.md
+                - name: сетплайбаккендпоинт
+                  href: ipeertopeerengine-setplaybackendpoint-bool-bstr-bstr-remotingversion.md
+                - name: канцелсетплайбаккендпоинт
+                  href: ipeertopeerengine-cancelsetplaybackendpoint.md
+            - name: исерверконнектионкаллбакк
+              href: iserverconnectioncallback.md
+              items:
+                - name: коннекттоенгине
+                  href: iserverconnectioncallback-connecttoengine-bool-bstr-ipixengine-ptr-ptr.md
+                - name: WaitForShutdown
+                  href: iserverconnectioncallback-waitforshutdown-ipixengine-ptr.md
+            - name: IPixEngine3
+              href: ipixengine3.md
+              items:
+                - name: сетупресаурцес
+                  href: ipixengine3-setupresources-resourcepair-arr-uint.md
+            - name: IPixEngine4
+              href: ipixengine4.md
+              items:
+                - name: UpdateObject
+                  href: ipixengine4-updateobject-uint-dword-byte-arr.md
+            - name: иупдатеобжекткаллбакк
+              href: iupdateobjectcallback.md
+              items:
+                - name: упдатекомплете
+                  href: iupdateobjectcallback-updatecomplete-uint-hresult.md
+            - name: иупдатеобжект
+              href: iupdateobject.md
+              items:
+                - name: UpdateObject
+                  href: iupdateobject-updateobject-uint-dword-byte-arr-iupdateobjectcallback-ptr.md
+            - name: IPixEngine5Callbacks
+              href: ipixengine5callbacks.md
+              items:
+                - name: фритекстурекомплете
+                  href: ipixengine5callbacks-freetexturecomplete.md
+                - name: лоадтекстурефромфилекомплете
+                  href: ipixengine5callbacks-loadtexturefromfilecomplete-short-name.md
+                - name: лоадтекстуреслицекомплете
+                  href: ipixengine5callbacks-loadtextureslicecomplete-pixenginetextureslicedescriptor-pixenginehistogram-ptr.md
+                - name: лоадхистограмкомплете
+                  href: ipixengine5callbacks-loadhistogramcomplete-pixenginehistogram-ptr.md
+                - name: рендертекстурекомплете
+                  href: ipixengine5callbacks-rendertexturecomplete.md
+                - name: реадтекселвалуекомплете
+                  href: ipixengine5callbacks-readtexelvaluecomplete-uint-bstr-arr-double-arr.md
+                - name: саветекстурекомплете
+                  href: ipixengine5callbacks-savetexturecomplete.md
+            - name: IPixEngine5
+              href: ipixengine5.md
+              items:
+                - name: фритекстуреасинк
+                  href: ipixengine5-freetextureasync-uint-ipixengine5callbacks-ptr-dword-dword.md
+                - name: лоадтекстурефромфилеасинк
+                  href: ipixengine5-loadtexturefromfileasync-bstr-bstr-ipixengine5callbacks-ptr-dword-dword.md
+                - name: лоадтекстуреслицеасинк
+                  href: ipixengine5-loadtexturesliceasync-uint-pixenginetexturesliceindex-int-bstr-ipixengine5callbacks-ptr-dword-dword.md
+                - name: лоадхистограмасинк
+                  href: ipixengine5-loadhistogramasync-uint-pixenginetexturesliceindex-int-bstr-ipixengine5callbacks-ptr-dword-dword.md
+                - name: рендертекстуреасинк
+                  href: ./ipixengine5-rendertextureasync-uint-pixenginetexturesliceindex-short-name.md
+                - name: реадтекселвалуеасинк
+                  href: ipixengine5-readtexelvalueasync-uint-pixenginetexturesliceindex-int-int-int-ipixengine5callbacks-ptr-dword-dword.md
+                - name: саветекстуреасинк
+                  href: ipixengine5-savetextureasync-uint-bstr-ipixengine5callbacks-ptr-dword-dword.md
+            - name: IPixEngine6
+              href: ipixengine6.md
+              items:
+                - name: жетремотингверсион
+                  href: ipixengine6-getremotingversion-remotingversion-ptr.md
+            - name: иверсионкаллбакк
+              href: iversioncallback.md
+              items:
+                - name: версионтаблереади
+                  href: iversioncallback-versiontableready-guid-arr-uint.md
+            - name: IPixEngine7
+              href: ipixengine7.md
+              items:
+                - name: инитенгинеасинк
+                  href: ipixengine7-initengineasync-resourcepair-arr-uint-iversioncallback-ptr-dword-dword.md
+                - name: сетплайбаккендпоинтасинк
+                  href: ipixengine7-setplaybackendpointasync-bool-bstr-bstr-remotingversion-iversioncallback-ptr-dword-dword.md
+            - name: иоффлинеаналисискаллбакк
+              href: iofflineanalysiscallback.md
+              items:
+                - name: оффлинеаналисиспрогресс
+                  href: iofflineanalysiscallback-offlineanalysisprogress-dword-double.md
+                - name: оффлинеаналисискомплете
+                  href: iofflineanalysiscallback-offlineanalysiscomplete-dword-hresult-bstr.md
+            - name: иоффлинеаналисисрекуест
+              href: iofflineanalysisrequest.md
+              items:
+                - name: рекуестоффлинеаналисисасинк
+                  href: iofflineanalysisrequest-requestofflineanalysisasync-enumofflineanalysissource-bstr-bstr-dword-bstr-dword-bstr-iofflineanalysiscallback-ptr.md
+                - name: канцелоффлинеаналисисасинк
+                  href: iofflineanalysisrequest-cancelofflineanalysisasync-dword.md
+            - name: иоффлинеаналисискачекаллбакк
+              href: iofflineanalysiscachecallback.md
+              items:
+                - name: оффлинеаналайсисрепортаваилабилитикаллбакк
+                  href: iofflineanalysiscachecallback-offlineanalaysisreportavailabilitycallback-dword-dword-arr.md
+            - name: иоффлинеаналисискачерекуест
+              href: iofflineanalysiscacherequest.md
+              items:
+                - name: рекуестоффлинеаналисисрепортаваилабилитясинк
+                  href: iofflineanalysiscacherequest-requestofflineanalysisreportavailabilityasync-dword-dword-arr-iofflineanalysiscachecallback-ptr.md
+            - name: истатускаллбакк
+              href: istatuscallback.md
+              items:
+                - name: Состояние
+                  href: istatuscallback-status-dword-dword-dword.md
+            - name: ипиксенгинесинглетон
+              href: ipixenginesingleton.md
+            - name: IPixEngineWin10
+              href: ipixenginewin10.md
+        - name: Структуры интерфейса захвата диагностики Direct3D
+          href: vspixengine-structures.md
+          items:
+            - name: ресаурцепаир
+              href: resourcepair.md
+            - name: дескрипторхеапрекорд
+              href: descriptorheaprecord.md
+            - name: пипелинестажееррор
+              href: pipelinestageerror.md
+            - name: пипелинестаже
+              href: pipelinestage.md
+            - name: експерименттригжер
+              href: experimenttrigger.md
+            - name: паккедкаллпкг
+              href: packedcallpkg.md
+            - name: симболсерверинфо
+              href: symbolserverinfo.md
+            - name: каллстаккфраме
+              href: callstackframe.md
+            - name: саурцефилеинфо
+              href: sourcefileinfo.md
+            - name: суммаритем
+              href: summaryitem.md
+            - name: дебугшадер
+              href: debugshader.md
+            - name: Эксперимент
+              href: experiment.md
+            - name: Проблема
+              href: issue.md
+            - name: Point2D
+              href: point2d.md
+            - name: ThreadData3D
+              href: threaddata3d.md
+            - name: инпутлайаутструкт
+              href: inputlayoutstruct.md
+            - name: пикселхисторйоператион
+              href: pixelhistoryoperation.md
+            - name: пикселхисторинтерсектион
+              href: pixelhistoryintersection.md
+            - name: мешдатабуфферлайаутентри
+              href: meshdatabufferlayoutentry.md
+            - name: дебугшадеррекуестинфо
+              href: debugshaderrequestinfo.md
+            - name: PixEngineInt4
+              href: pixengineint4.md
+            - name: PixEnginePoint4D
+              href: pixenginepoint4d.md
+            - name: пиксенгинечаннелдеск
+              href: pixenginechanneldesc.md
+            - name: пиксенгинетекстуреформатдеск
+              href: pixenginetextureformatdesc.md
+            - name: пиксенгинетекстуредескриптор
+              href: pixenginetexturedescriptor.md
+            - name: пиксенгинетекстуреслицедескриптор
+              href: pixenginetextureslicedescriptor.md
+            - name: пиксенгинетекстуреслицеиндекс
+              href: pixenginetexturesliceindex.md
+            - name: пиксенгинехистограм
+              href: pixenginehistogram.md
+        - name: Перечисления интерфейса записи диагностики Direct3D
+          href: vspixengine-enumerations.md
+          items:
+            - name: Xml_Resource_Ids
+              href: xml-resource-ids.md
+            - name: Resource_Id
+              href: resource-id.md
+            - name: HRESULT
+              href: hresult.md
+            - name: ремотекоммандтипе
+              href: remotecommandtype.md
+            - name: каллбакккоммандтипе
+              href: callbackcommandtype.md
+            - name: пикспипереспонсе
+              href: pixpiperesponse.md
+            - name: ремотингверсион
+              href: remotingversion.md
+            - name: пикселкиллреасон
+              href: pixelkillreason.md
+            - name: пикселхисторифлагс
+              href: pixelhistoryflags.md
+            - name: евентколумнид
+              href: eventcolumnid.md
+            - name: обжектстатетипе
+              href: objectstatetype.md
+            - name: обжекттаблеколумнид
+              href: objecttablecolumnid.md
+            - name: пипелинестажес
+              href: pipelinestages.md
+            - name: чекксумалгорисм
+              href: checksumalgorithm.md
+            - name: EVENTTYPE
+              href: eventtype.md
+            - name: DESCRIPTOR_HEAP_HEADER_COLUMNS
+              href: descriptor-heap-header-columns.md
+            - name: DESCRIPTOR_HEAP_COLUMNS
+              href: descriptor-heap-columns.md
+            - name: експерименттипе
+              href: experimenttype.md
+            - name: думпертипе
+              href: dumpertype.md
+            - name: експерименттригжертипе
+              href: experimenttriggertype.md
+            - name: REGISTER_FORMAT
+              href: register-format.md
+            - name: PRIMITIVE_TOPOLOGY
+              href: primitive-topology.md
+            - name: оффлинеаналисисстаже
+              href: offlineanalysisstage.md
+            - name: оффлинеаналисиссаурце
+              href: offlineanalysissource.md

@@ -1,0 +1,111 @@
+- name: Сеть Windows (Внет)
+  href: windows-networking-wnet-.md
+  items:
+    - name: О сети Windows
+      href: about-windows-networking.md
+      items:
+        - name: Функции Внет
+          href: wnet-functions.md
+        - name: Сетевые операции Windows
+          href: windows-networking-operations.md
+    - name: Использование сети Windows
+      href: using-windows-networking.md
+      items:
+        - name: Использование диалогового окна «соединения»
+          href: using-the-connections-dialog-box.md
+        - name: Перечисление сетевых ресурсов
+          href: enumerating-network-resources.md
+        - name: Добавление сетевого подключения
+          href: adding-a-network-connection.md
+        - name: Назначение диска общему ресурсу
+          href: assigning-a-drive-to-a-share.md
+        - name: Определение расположения общей папки
+          href: determining-the-location-of-a-share.md
+        - name: Получение имени подключения
+          href: retrieving-the-connection-name.md
+        - name: Получение имени пользователя
+          href: retrieving-the-user-name.md
+        - name: Отмена сетевого подключения
+          href: canceling-a-network-connection.md
+        - name: Получение сведений о сетевом ресурсе
+          href: retrieving-information-about-a-network-resource.md
+        - name: Получение сетевых ошибок
+          href: retrieving-network-errors.md
+    - name: Справочник по сетям Windows
+      href: windows-networking-reference.md
+      items:
+        - name: Обратные вызовы в сети Windows
+          href: windows-networking-callbacks.md
+          items:
+            - name: пфнжетпрофилепас
+              href: /previous-versions/windows/desktop/legacy/aa385358(v=vs.85)
+            - name: пфнпроцессполиЦиес
+              href: /previous-versions/windows/desktop/legacy/aa385360(v=vs.85)
+            - name: пфнреконЦилепрофиле
+              href: /previous-versions/windows/desktop/legacy/aa385364(v=vs.85)
+        - name: Сетевые функции Windows
+          href: windows-networking-functions.md
+          items:
+            - name: мултинетжетконнектионперформанце
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-multinetgetconnectionperformancea
+            - name: внетаддконнектион
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona
+            - name: WNetAddConnection2
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a
+            - name: WNetAddConnection3
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a
+            - name: внетканцелконнектион
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona
+            - name: WNetCancelConnection2
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a
+            - name: внетклосинум
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetcloseenum
+            - name: внетконнектиондиалог
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog
+            - name: WNetConnectionDialog1
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a
+            - name: внетдисконнектдиалог
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog
+            - name: WNetDisconnectDialog1
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a
+            - name: внетенумресаурце
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea
+            - name: внетжетконнектион
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona
+            - name: внетжетластеррор
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora
+            - name: внетжетнетворкинформатион
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa
+            - name: внетжетпровидернаме
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetprovidernamea
+            - name: внетжетресаурцеинформатион
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa
+            - name: внетжетресаурцепарент
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceparenta
+            - name: внетжетуниверсалнаме
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetuniversalnamea
+            - name: внетжетусер
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetusera
+            - name: внетопененум
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma
+            - name: внетрестореконнектионв
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetrestoreconnectionw
+            - name: внетусеконнектион
+              href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona
+        - name: Сетевые структуры Windows
+          href: windows-networking-structures.md
+          items:
+            - name: коннектдлгструкт
+              href: /windows/win32/api/winnetwk/ns-winnetwk-connectdlgstructa
+            - name: дискдлгструкт
+              href: /windows/win32/api/winnetwk/ns-winnetwk-discdlgstructa
+            - name: нетконнектинфострукт
+              href: /windows/win32/api/Winnetwk/ns-winnetwk-netconnectinfostruct
+            - name: нетинфострукт
+              href: /windows/win32/api/winnetwk/ns-winnetwk-netinfostruct
+            - name: нетресаурце
+              href: /windows/win32/api/Winnetwk/ns-winnetwk-netresourcea
+            - name: REMOTE_NAME_INFO
+              href: /windows/win32/api/Winnetwk/ns-winnetwk-remote_name_infoa
+            - name: UNIVERSAL_NAME_INFO
+              href: /windows/win32/api/Winnetwk/ns-winnetwk-universal_name_infoa
