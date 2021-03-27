@@ -1,0 +1,945 @@
+- name: Пакет SDK для Windows Media диспетчер устройств 11
+  href: windows-media-device-manager-11-sdk.md
+  items:
+    - name: Приступая к работе
+      href: getting-started.md
+      items:
+        - name: Что входит в состав пакета SDK
+          href: whats-included-with-the-sdk.md
+        - name: Архитектура диспетчер устройств Windows Media
+          href: windows-media-device-manager-architecture.md
+        - name: Средства для разработки
+          href: tools-for-development.md
+        - name: Примеры
+          href: samples.md
+          items:
+            - name: Пример классического приложения
+              href: sample-desktop-application.md
+              items:
+                - name: Компиляция примера приложения с помощью Visual Studio
+                  href: compiling-the-sample-application-using-visual-studio.md
+                - name: Использование примера классического приложения
+                  href: using-the-sample-desktop-application.md
+                - name: Структура примера классического приложения
+                  href: structure-of-the-sample-desktop-application.md
+            - name: Образец поставщика услуг
+              href: sample-service-provider.md
+              items:
+                - name: Компиляция образца поставщика услуг с помощью NMAKE
+                  href: compiling-the-sample-service-provider-using-nmake.md
+                - name: Компиляция примера поставщика служб с помощью Visual Studio
+                  href: compiling-the-sample-service-provider-using-visual-studio.md
+                - name: Файлы кода для примера поставщика источника
+                  href: code-files-for-the-source-provider-sample.md
+    - name: Руководство по программированию
+      href: programming-guide.md
+      items:
+        - name: 'Задачи, общие для приложений и поставщиков служб'
+          href: tasks-common-to-applications-and-service-providers.md
+          items:
+            - name: 'Компиляция IDL-файлов, предоставляемых с помощью пакета SDK'
+              href: compiling-the-idl-files-supplied-with-the-sdk.md
+            - name: Включение журнала
+              href: enabling-logging.md
+            - name: Использование защищенных каналов с проверкой подлинности
+              href: using-secure-authenticated-channels.md
+              items:
+                - name: Проверка подлинности компонента
+                  href: component-authentication.md
+                - name: Шифрование и расшифровка
+                  href: encryption-and-decryption.md
+                - name: Проверка подлинности сообщений
+                  href: message-authentication.md
+            - name: Обработка защищенного содержимого
+              href: handling-protected-content.md
+            - name: Получение и установка метаданных и атрибутов
+              href: getting-and-setting-metadata-and-attributes.md
+        - name: Создание приложения диспетчер устройств Windows Media
+          href: creating-a-windows-media-device-manager-application.md
+          items:
+            - name: Заявление о конфиденциальности
+              href: privacy-statement.md
+            - name: Необходимые файлы библиотек и заголовков для приложения
+              href: required-library-and-header-files-for-an-application.md
+            - name: Проверка подлинности приложения
+              href: authenticating-the-application.md
+            - name: Перечисление устройств
+              href: enumerating-devices.md
+            - name: Изучение устройства
+              href: exploring-a-device.md
+            - name: Доступ к метаданным и атрибутам в приложении
+              href: getting-and-setting-metadata-and-attributes-in-the-application.md
+            - name: Обработка защищенного содержимого в приложении
+              href: handling-protected-content-in-the-application.md
+            - name: Чтение файлов с устройства
+              href: reading-files-from-the-device.md
+            - name: Запись файлов на устройство
+              href: writing-files-to-the-device.md
+              items:
+                - name: Обнаружение формата файла
+                  href: discovering-a-files-format.md
+                - name: Обнаружение возможностей форматирования устройств
+                  href: discovering-device-format-capabilities.md
+                - name: Получение возможностей форматирования через IWMDMDevice3
+                  href: getting-format-capabilities-on-devices-that-support-iwmdmdevice3.md
+                - name: Получение возможностей форматирования через Ивмдмдевице
+                  href: getting-format-capabilities-on-devices-that-support-only-iwmdmdevice.md
+                - name: Задание метаданных для файла
+                  href: setting-metadata-on-a-file.md
+                - name: Отправка файла на устройство
+                  href: sending-the-file-to-the-device.md
+            - name: Обработка передачи файлов вручную
+              href: handling-file-transfers-manually.md
+            - name: Создание списка воспроизведения на устройстве
+              href: creating-a-playlist-on-the-device.md
+            - name: Включение уведомлений
+              href: enabling-notifications.md
+            - name: Использование содержимого измерения
+              href: metering-content-usage.md
+            - name: Сопоставление RSS-каналов со свойствами диспетчер устройств Windows Media
+              href: mapping-rss-feeds-to-windows-media-device-manager-properties.md
+        - name: Создание поставщика услуг
+          href: creating-a-service-provider.md
+          items:
+            - name: Необходимые библиотеки и заголовки для поставщика услуг
+              href: required-libraries-and-headers-for-a-service-provider.md
+            - name: Параметры устройства
+              href: device-parameters.md
+            - name: Выбор потоковой модели для поставщика услуг
+              href: choosing-a-threading-model-for-the-service-provider.md
+            - name: Регистрация поставщика услуг
+              href: registering-the-service-provider.md
+            - name: Включение PnP для устройств
+              href: enabling-pnp-for-devices.md
+            - name: Перечисление устройств
+              href: enumerating-devices-service-provider.md
+            - name: Проверка подлинности поставщика услуг
+              href: authenticating-the-service-provider.md
+            - name: Обязательные и необязательные интерфейсы
+              href: mandatory-and-optional-interfaces.md
+            - name: Обработка защищенного содержимого в поставщике услуг
+              href: handling-protected-content-in-the-service-provider.md
+            - name: Включение синхронизации с проигрывателем Windows Media
+              href: enabling-synchronization-with-windows-media-player.md
+            - name: Требования к отображению портативных проигрывателей в проводнике Windows
+              href: requirements-for-portable-audio-players-to-appear-in-windows-explorer.md
+    - name: Справочник по программированию
+      href: programming-reference.md
+      items:
+        - name: Интерфейсы для приложений
+          href: interfaces-for-applications.md
+          items:
+            - name: Класс Ксекуречаннелклиент
+              href: csecurechannelclient-class.md
+              items:
+                - name: 'Ксекуречаннелклиент:: проверка подлинности'
+                  href: /previous-versions/ms983906(v=msdn.10)
+                - name: 'Ксекуречаннелклиент::D Екриптпарам'
+                  href: /previous-versions/bb231586(v=vs.85)
+                - name: 'Ксекуречаннелклиент:: Енкриптпарам'
+                  href: /previous-versions/bb231587(v=vs.85)
+                - name: 'Ксекуречаннелклиент:: Фисаусентикатед'
+                  href: /previous-versions/ms868497(v=msdn.10)
+                - name: 'Ксекуречаннелклиент:: Жетаппсек'
+                  href: /previous-versions/ms868498(v=msdn.10)
+                - name: 'Ксекуречаннелклиент:: Жетсессионкэй'
+                  href: /previous-versions/bb231590(v=vs.85)
+                - name: 'Ксекуречаннелклиент:: Макфинал'
+                  href: /previous-versions/bb231591(v=vs.85)
+                - name: 'Ксекуречаннелклиент:: МаЦинит'
+                  href: /previous-versions/bb231592(v=vs.85)
+                - name: 'Ксекуречаннелклиент:: Макупдате'
+                  href: /previous-versions/bb231593(v=vs.85)
+                - name: 'Ксекуречаннелклиент:: Сетцертификате'
+                  href: /previous-versions/ms868504(v=msdn.10)
+                - name: 'Ксекуречаннелклиент:: Сетинтерфаце'
+                  href: /previous-versions/bb231595(v=vs.85)
+                - name: 'Ксекуречаннелклиент:: Сетсессионкэй'
+                  href: /previous-versions/ms868506(v=msdn.10)
+            - name: Интерфейс Ивмдевицеманажер
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager
+              items:
+                - name: 'Ивмдевицеманажер:: Енумдевицес'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices
+                - name: 'Ивмдевицеманажер:: Жетдевицекаунт'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-getdevicecount
+                - name: 'Ивмдевицеманажер:: "редакция"'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-getrevision
+            - name: Интерфейс IWMDeviceManager2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2
+              items:
+                - name: 'IWMDeviceManager2:: Жетдевицефромканоникалнаме'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname
+                - name: 'IWMDeviceManager2::EnumDevices2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2
+                - name: 'IWMDeviceManager2:: повторная инициализация'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-reinitialize
+            - name: Интерфейс IWMDeviceManager3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager3
+              items:
+                - name: 'IWMDeviceManager3:: Сетдевицеенумпреференце'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager3-setdeviceenumpreference
+            - name: Интерфейс Ивмдмдевице
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice
+              items:
+                - name: 'Ивмдмдевице:: Енумстораже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-enumstorage
+                - name: 'Ивмдмдевице:: Жетдевицеикон'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getdeviceicon
+                - name: 'Ивмдмдевице:: Жетформатсуппорт'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getformatsupport
+                - name: 'Ивмдмдевице:: поставщик'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getmanufacturer
+                - name: 'Ивмдмдевице:: Name'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getname
+                - name: 'Ивмдмдевице:: Жетповерсаурце'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getpowersource
+                - name: 'Ивмдмдевице:: Жетсериалнумбер'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getserialnumber
+                - name: 'Ивмдмдевице::/Status'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getstatus
+                - name: 'Ивмдмдевице:: GetType'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-gettype
+                - name: 'Ивмдмдевице::/версия'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getversion
+                - name: 'Ивмдмдевице:: Сендопакуекомманд'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-sendopaquecommand
+            - name: Интерфейс IWMDMDevice2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2
+              items:
+                - name: 'IWMDMDevice2:: Жетканоникалнаме'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname
+                - name: 'IWMDMDevice2::GetFormatSupport2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getformatsupport2
+                - name: 'IWMDMDevice2:: ЖетспеЦифипропертипажес'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getspecifypropertypages
+                - name: 'IWMDMDevice2:: в хранилище'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getstorage
+            - name: Интерфейс IWMDMDevice3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice3
+              items:
+                - name: 'IWMDMDevice3::D Евицеиоконтрол'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol
+                - name: 'IWMDMDevice3:: Финдстораже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-findstorage
+                - name: 'IWMDMDevice3:: Жетформаткапабилити'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability
+                - name: 'IWMDMDevice3:: Property'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty
+                - name: 'IWMDMDevice3:: SetProperty'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-setproperty
+            - name: Интерфейс Ивмдмдевицеконтрол
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol
+              items:
+                - name: 'Возможности Ивмдмдевицеконтрол:: Capabilities'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-getcapabilities
+                - name: 'Ивмдмдевицеконтрол::/Status'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-getstatus
+                - name: 'Ивмдмдевицеконтрол::P Аусе'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause
+                - name: 'Ивмдмдевицеконтрол::Pный макет'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-play
+                - name: 'Ивмдмдевицеконтрол:: Record'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-record
+                - name: 'Ивмдмдевицеконтрол:: Resume'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-resume
+                - name: 'Ивмдмдевицеконтрол:: Seek'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-seek
+                - name: 'Ивмдмдевицеконтрол:: останавливаться'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-stop
+            - name: Интерфейс Ивмдмдевицесессион
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicesession
+              items:
+                - name: 'Ивмдмдевицесессион:: BeginSession'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-beginsession
+                - name: 'Ивмдмдевицесессион:: EndSession'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession
+            - name: Интерфейс Ивмдменумдевице
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice
+              items:
+                - name: 'Ивмдменумдевице:: Clone'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-clone
+                - name: 'Ивмдменумдевице:: Next'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-next
+                - name: 'Ивмдменумдевице:: Reset'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-reset
+                - name: 'Ивмдменумдевице:: Skip'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-skip
+            - name: Интерфейс Ивмдменумстораже
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumstorage
+              items:
+                - name: 'Ивмдменумстораже:: Clone'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-clone
+                - name: 'Ивмдменумстораже:: Next'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-next
+                - name: 'Ивмдменумстораже:: Reset'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-reset
+                - name: 'Ивмдменумстораже:: Skip'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-skip
+            - name: Интерфейс Ивмдмметадата
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata
+              items:
+                - name: 'Ивмдмметадата:: AddItem'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-additem
+                - name: 'Ивмдмметадата:: GetItemCount'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-getitemcount
+                - name: 'Ивмдмметадата:: Куерибиндекс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex
+                - name: 'Ивмдмметадата:: Куерибинаме'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyname
+            - name: Интерфейс Ивмдмнотификатион
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification
+              items:
+                - name: 'Ивмдмнотификатион:: Вмдммессаже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmnotification-wmdmmessage
+            - name: Интерфейс Ивмдмобжектинфо
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo
+              items:
+                - name: 'Ивмдмобжектинфо:: Жетластплайпоситион'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-getlastplayposition
+                - name: 'Ивмдмобжектинфо:: Жетлонжестплайпоситион'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-getlongestplayposition
+                - name: 'Ивмдмобжектинфо:: Жетплайленгс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-getplaylength
+                - name: 'Ивмдмобжектинфо:: Жетплайоффсет'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-getplayoffset
+                - name: 'Ивмдмобжектинфо:: Жеттоталленгс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-gettotallength
+                - name: 'Ивмдмобжектинфо:: Сетплайленгс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-setplaylength
+                - name: 'Ивмдмобжектинфо:: Сетплайоффсет'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-setplayoffset
+            - name: Интерфейс Ивмдмоператион
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation
+              items:
+                - name: 'Ивмдмоператион:: BeginRead'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginread
+                - name: 'Ивмдмоператион:: BeginWrite'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite
+                - name: 'Ивмдмоператион:: end'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-end
+                - name: 'Ивмдмоператион:: Жетобжектаттрибутес'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectattributes
+                - name: 'Ивмдмоператион:: Жетобжектнаме'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectname
+                - name: 'Ивмдмоператион:: Жетобжекттоталсизе'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjecttotalsize
+                - name: 'Ивмдмоператион:: Сетобжектаттрибутес'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectattributes
+                - name: 'Ивмдмоператион:: Сетобжектнаме'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectname
+                - name: 'Ивмдмоператион:: Сетобжекттоталсизе'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjecttotalsize
+                - name: 'Ивмдмоператион:: Трансферобжектдата'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata
+            - name: Интерфейс IWMDMOperation2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation2
+              items:
+                - name: 'IWMDMOperation2::GetObjectAttributes2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-getobjectattributes2
+                - name: 'IWMDMOperation2::SetObjectAttributes2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-setobjectattributes2
+            - name: Интерфейс IWMDMOperation3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation3
+              items:
+                - name: 'IWMDMOperation3:: Трансферобжектдатаонклеарчаннел'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation3-transferobjectdataonclearchannel
+            - name: Интерфейс Ивмдмпрогресс
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress
+              items:
+                - name: 'Ивмдмпрогресс:: Begin'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-begin
+                - name: 'Ивмдмпрогресс:: end'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-end
+                - name: 'Ивмдмпрогресс::P рогресс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress
+            - name: Интерфейс IWMDMProgress2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress2
+              items:
+                - name: 'IWMDMProgress2:: элемента End2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress2-end2
+            - name: Интерфейс IWMDMProgress3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3
+              items:
+                - name: 'IWMDMProgress3::Begin3'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-begin3
+                - name: 'IWMDMProgress3::End3'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3
+                - name: 'IWMDMProgress3::P rogress3'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-progress3
+            - name: Интерфейс Ивмдмревокед
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmrevoked
+              items:
+                - name: 'Ивмдмревокед:: Жетревокатионурл'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmrevoked-getrevocationurl
+            - name: Интерфейс Ивмдмстораже
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage
+              items:
+                - name: 'Ивмдмстораже:: Енумстораже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage
+                - name: 'Ивмдмстораже:: OutAttribute'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes
+                - name: 'Ивмдмстораже:: GETDATE'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getdate
+                - name: 'Ивмдмстораже:: Name'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getname
+                - name: 'Ивмдмстораже:: направо'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights
+                - name: 'Ивмдмстораже:: DataSize'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getsize
+                - name: 'Ивмдмстораже:: Жетсторажеглобалс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getstorageglobals
+                - name: 'Ивмдмстораже:: Сендопакуекомманд'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-sendopaquecommand
+                - name: 'Ивмдмстораже:: Сетаттрибутес'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes
+            - name: Интерфейс IWMDMStorage2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2
+              items:
+                - name: 'IWMDMStorage2::GetAttributes2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getattributes2
+                - name: 'IWMDMStorage2:: в хранилище'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getstorage
+                - name: 'IWMDMStorage2::SetAttributes2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-setattributes2
+            - name: Интерфейс IWMDMStorage3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3
+              items:
+                - name: 'IWMDMStorage3:: Креатимптиметадатаобжект'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject
+                - name: 'IWMDMStorage3:: Metadata'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata
+                - name: 'IWMDMStorage3:: Сетенумпреференце'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setenumpreference
+                - name: 'IWMDMStorage3:: Сетметадата'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata
+            - name: Интерфейс IWMDMStorage4
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4
+              items:
+                - name: 'IWMDMStorage4:: Финдстораже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-findstorage
+                - name: 'IWMDMStorage4:: Parent'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getparent
+                - name: 'IWMDMStorage4:: IsReference'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getreferences
+                - name: 'IWMDMStorage4:: Жетригхтсвиспрогресс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getrightswithprogress
+                - name: 'IWMDMStorage4:: ЖетспеЦифиедметадата'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata
+                - name: 'IWMDMStorage4:: Сетреференцес'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-setreferences
+            - name: Интерфейс Ивмдмсторажеконтрол
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol
+              items:
+                - name: 'Ивмдмсторажеконтрол::D удалить'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-delete
+                - name: 'Ивмдмсторажеконтрол:: INSERT'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert
+                - name: 'Ивмдмсторажеконтрол:: Move'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-move
+                - name: 'Ивмдмсторажеконтрол:: Read'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read
+                - name: 'Ивмдмсторажеконтрол:: Rename'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-rename
+            - name: Интерфейс IWMDMStorageControl2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol2
+              items:
+                - name: 'IWMDMStorageControl2::Insert2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol2-insert2
+            - name: Интерфейс IWMDMStorageControl3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol3
+              items:
+                - name: 'IWMDMStorageControl3::Insert3'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3
+            - name: Интерфейс Ивмдмсторажеглобалс
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals
+              items:
+                - name: 'Возможности Ивмдмсторажеглобалс:: Capabilities'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-getcapabilities
+                - name: 'Ивмдмсторажеглобалс:: Жетсериалнумбер'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-getserialnumber
+                - name: 'Ивмдмсторажеглобалс::/Status'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-getstatus
+                - name: 'Ивмдмсторажеглобалс:: Жеттоталбад'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-gettotalbad
+                - name: 'Ивмдмсторажеглобалс:: Жеттоталфри'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-gettotalfree
+                - name: 'Ивмдмсторажеглобалс:: GetTotalSize'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-gettotalsize
+                - name: 'Ивмдмсторажеглобалс:: Initialize'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-initialize
+            - name: Интерфейс Ивмдрмдевицеапп
+              href: iwmdrmdeviceapp.md
+              items:
+                - name: 'Ивмдрмдевицеапп:: Аккуиредевицедата'
+                  href: iwmdrmdeviceapp-acquiredevicedata.md
+                - name: 'Ивмдрмдевицеапп:: Женератеметерчалленже'
+                  href: iwmdrmdeviceapp-generatemeterchallenge.md
+                - name: 'Ивмдрмдевицеапп::P Роцессметерреспонсе'
+                  href: iwmdrmdeviceapp-processmeterresponse.md
+                - name: 'Ивмдрмдевицеапп:: Куеридевицестатус'
+                  href: iwmdrmdeviceapp-querydevicestatus.md
+                - name: 'Ивмдрмдевицеапп:: Синчронизелиценсес'
+                  href: iwmdrmdeviceapp-synchronizelicenses.md
+            - name: Интерфейс IWMDRMDeviceApp2
+              href: iwmdrmdeviceapp2.md
+              items:
+                - name: 'IWMDRMDeviceApp2::QueryDeviceStatus2'
+                  href: iwmdrmdeviceapp2-querydevicestatus2.md
+        - name: Интерфейсы для поставщиков услуг
+          href: interfaces-for-service-providers.md
+          items:
+            - name: Класс Ксекуречаннелсервер
+              href: csecurechannelserver-class.md
+              items:
+                - name: 'Ксекуречаннелсервер::D Екриптпарам'
+                  href: /previous-versions/bb231598(v=vs.85)
+                - name: 'Ксекуречаннелсервер:: Енкриптпарам'
+                  href: /previous-versions/ms868509(v=msdn.10)
+                - name: 'Ксекуречаннелсервер:: Фисаусентикатед'
+                  href: /previous-versions/bb231600(v=vs.85)
+                - name: 'Ксекуречаннелсервер:: Жетаппсек'
+                  href: /previous-versions/bb231601(v=vs.85)
+                - name: 'Ксекуречаннелсервер:: Жетсессионкэй'
+                  href: /previous-versions/bb231602(v=vs.85)
+                - name: 'Ксекуречаннелсервер:: Макфинал'
+                  href: /previous-versions/ms868513(v=msdn.10)
+                - name: 'Ксекуречаннелсервер:: МаЦинит'
+                  href: /previous-versions/ms868514(v=msdn.10)
+                - name: 'Ксекуречаннелсервер:: Макупдате'
+                  href: /previous-versions/ms868515(v=msdn.10)
+                - name: 'Ксекуречаннелсервер:: Сакаус'
+                  href: /previous-versions/ms868516(v=msdn.10)
+                - name: 'Ксекуречаннелсервер:: Сакжетпротоколс'
+                  href: /previous-versions/ms868517(v=msdn.10)
+                - name: 'Ксекуречаннелсервер:: Сетцертификате'
+                  href: /previous-versions/ms868518(v=msdn.10)
+                - name: 'Ксекуречаннелсервер:: Сетсессионкэй'
+                  href: /previous-versions/ms868519(v=msdn.10)
+            - name: Интерфейс Имдсервицепровидер
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider
+              items:
+                - name: 'Имдсервицепровидер:: Енумдевицес'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider-enumdevices
+                - name: 'Имдсервицепровидер:: Жетдевицекаунт'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider-getdevicecount
+            - name: Интерфейс IMDServiceProvider2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2
+              items:
+                - name: 'IMDServiceProvider2:: Креатедевице'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider2-createdevice
+            - name: Интерфейс IMDServiceProvider3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider3
+              items:
+                - name: 'IMDServiceProvider3:: Сетдевицеенумпреференце'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider3-setdeviceenumpreference
+            - name: Интерфейс Имдспдевице
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice
+              items:
+                - name: 'Имдспдевице:: Енумстораже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-enumstorage
+                - name: 'Имдспдевице:: Жетдевицеикон'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getdeviceicon
+                - name: 'Имдспдевице:: Жетформатсуппорт'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getformatsupport
+                - name: 'Имдспдевице:: поставщик'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getmanufacturer
+                - name: 'Имдспдевице:: Name'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getname
+                - name: 'Имдспдевице:: Жетповерсаурце'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getpowersource
+                - name: 'Имдспдевице:: Жетсериалнумбер'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getserialnumber
+                - name: 'Имдспдевице::/Status'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getstatus
+                - name: 'Имдспдевице:: GetType'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-gettype
+                - name: 'Имдспдевице::/версия'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getversion
+                - name: 'Имдспдевице:: Сендопакуекомманд'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-sendopaquecommand
+            - name: Интерфейс IMDSPDevice2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice2
+              items:
+                - name: 'IMDSPDevice2:: Жетканоникалнаме'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getcanonicalname
+                - name: 'IMDSPDevice2::GetFormatSupport2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getformatsupport2
+                - name: 'IMDSPDevice2:: ЖетспеЦифипропертипажес'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getspecifypropertypages
+                - name: 'IMDSPDevice2:: в хранилище'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getstorage
+            - name: Интерфейс IMDSPDevice3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice3
+              items:
+                - name: 'IMDSPDevice3::D Евицеиоконтрол'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-deviceiocontrol
+                - name: 'IMDSPDevice3:: Финдстораже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-findstorage
+                - name: 'IMDSPDevice3:: Жетформаткапабилити'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-getformatcapability
+                - name: 'IMDSPDevice3:: Property'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-getproperty
+                - name: 'IMDSPDevice3:: SetProperty'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-setproperty
+            - name: Интерфейс Имдспдевицеконтрол
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol
+              items:
+                - name: 'Возможности Имдспдевицеконтрол:: Capabilities'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-getcapabilities
+                - name: 'Имдспдевицеконтрол:: Жетдкстатус'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-getdcstatus
+                - name: 'Имдспдевицеконтрол::P Аусе'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-pause
+                - name: 'Имдспдевицеконтрол::Pный макет'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-play
+                - name: 'Имдспдевицеконтрол:: Record'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-record
+                - name: 'Имдспдевицеконтрол:: Resume'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-resume
+                - name: 'Имдспдевицеконтрол:: Seek'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-seek
+                - name: 'Имдспдевицеконтрол:: останавливаться'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-stop
+            - name: Интерфейс Имдспдиректтрансфер
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspdirecttransfer
+              items:
+                - name: 'Имдспдиректтрансфер:: Трансфертодевице'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspdirecttransfer-transfertodevice
+            - name: Интерфейс Имдспенумдевице
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspenumdevice
+              items:
+                - name: 'Имдспенумдевице:: Clone'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspenumdevice-clone
+                - name: 'Имдспенумдевице:: Next'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspenumdevice-next
+                - name: 'Имдспенумдевице:: Reset'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspenumdevice-reset
+                - name: 'Имдспенумдевице:: Skip'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspenumdevice-skip
+            - name: Интерфейс Имдспенумстораже
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspenumstorage
+              items:
+                - name: 'Имдспенумстораже:: Clone'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspenumstorage-clone
+                - name: 'Имдспенумстораже:: Next'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspenumstorage-next
+                - name: 'Имдспенумстораже:: Reset'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspenumstorage-reset
+                - name: 'Имдспенумстораже:: Skip'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspenumstorage-skip
+            - name: Интерфейс Имдспобжект
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspobject
+              items:
+                - name: 'Имдспобжект:: Close'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-close
+                - name: 'Имдспобжект::D удалить'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-delete
+                - name: 'Имдспобжект:: Move'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-move
+                - name: 'Имдспобжект:: Open'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-open
+                - name: 'Имдспобжект:: Read'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read
+                - name: 'Имдспобжект:: Rename'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-rename
+                - name: 'Имдспобжект:: Seek'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-seek
+                - name: 'Имдспобжект:: Write'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write
+            - name: Интерфейс IMDSPObject2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspobject2
+              items:
+                - name: 'IMDSPObject2:: Реадонклеарчаннел'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobject2-readonclearchannel
+                - name: 'IMDSPObject2:: Вритеонклеарчаннел'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobject2-writeonclearchannel
+            - name: Интерфейс Имдспобжектинфо
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspobjectinfo
+              items:
+                - name: 'Имдспобжектинфо:: Жетластплайпоситион'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getlastplayposition
+                - name: 'Имдспобжектинфо:: Жетлонжестплайпоситион'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getlongestplayposition
+                - name: 'Имдспобжектинфо:: Жетплайленгс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getplaylength
+                - name: 'Имдспобжектинфо:: Жетплайоффсет'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getplayoffset
+                - name: 'Имдспобжектинфо:: Жеттоталленгс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-gettotallength
+                - name: 'Имдспобжектинфо:: Сетплайленгс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplaylength
+                - name: 'Имдспобжектинфо:: Сетплайоффсет'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplayoffset
+            - name: Интерфейс Имдспревокед
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdsprevoked
+              items:
+                - name: 'Имдспревокед:: Жетревокатионурл'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdsprevoked-getrevocationurl
+            - name: Интерфейс Имдспстораже
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage
+              items:
+                - name: 'Имдспстораже:: Креатестораже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-createstorage
+                - name: 'Имдспстораже:: Енумстораже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-enumstorage
+                - name: 'Имдспстораже:: OutAttribute'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getattributes
+                - name: 'Имдспстораже:: GETDATE'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getdate
+                - name: 'Имдспстораже:: Name'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getname
+                - name: 'Имдспстораже:: направо'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getrights
+                - name: 'Имдспстораже:: DataSize'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getsize
+                - name: 'Имдспстораже:: Жетсторажеглобалс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getstorageglobals
+                - name: 'Имдспстораже:: Сендопакуекоммандс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-sendopaquecommand
+                - name: 'Имдспстораже:: Сетаттрибутес'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-setattributes
+            - name: Интерфейс IMDSPStorage2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2
+              items:
+                - name: 'IMDSPStorage2::CreateStorage2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2
+                - name: 'IMDSPStorage2::GetAttributes2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-getattributes2
+                - name: 'IMDSPStorage2:: в хранилище'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-getstorage
+                - name: 'IMDSPStorage2::SetAttributes2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-setattributes2
+            - name: Интерфейс IMDSPStorage3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3
+              items:
+                - name: 'IMDSPStorage3:: Metadata'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage3-getmetadata
+                - name: 'IMDSPStorage3:: Сетметадата'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage3-setmetadata
+            - name: Интерфейс IMDSPStorage4
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4
+              items:
+                - name: 'IMDSPStorage4:: Креатесторажевисметадата'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-createstoragewithmetadata
+                - name: 'IMDSPStorage4:: Финдстораже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-findstorage
+                - name: 'IMDSPStorage4:: Parent'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getparent
+                - name: 'IMDSPStorage4:: IsReference'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getreferences
+                - name: 'IMDSPStorage4:: ЖетспеЦифиедметадата'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getspecifiedmetadata
+                - name: 'IMDSPStorage4:: Сетреференцес'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-setreferences
+            - name: Интерфейс Имдспсторажеглобалс
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-imdspstorageglobals
+              items:
+                - name: 'Возможности Имдспсторажеглобалс:: Capabilities'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getcapabilities
+                - name: 'Имдспсторажеглобалс:: наустройство'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getdevice
+                - name: 'Имдспсторажеглобалс:: Жетрутстораже'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getrootstorage
+                - name: 'Имдспсторажеглобалс:: Жетсериалнумбер'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getserialnumber
+                - name: 'Имдспсторажеглобалс::/Status'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getstatus
+                - name: 'Имдспсторажеглобалс:: Жеттоталбад'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-gettotalbad
+                - name: 'Имдспсторажеглобалс:: Жеттоталфри'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-gettotalfree
+                - name: 'Имдспсторажеглобалс:: GetTotalSize'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-gettotalsize
+                - name: 'Имдспсторажеглобалс:: Initialize'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-initialize
+        - name: Интерфейсы DRM-Implemented Windows Media
+          href: windows-media-drm-implemented-interfaces.md
+          items:
+            - name: Интерфейс Ивмдрмдевице
+              href: iwmdrmdevice.md
+              items:
+                - name: 'Ивмдрмдевице:: Клеандатасторе'
+                  href: iwmdrmdevice-cleandatastore.md
+                - name: 'Ивмдрмдевице:: Жетдевицецертификате'
+                  href: iwmdrmdevice-getdevicecertificate.md
+                - name: 'Ивмдрмдевице:: Жетметерчалленже'
+                  href: iwmdrmdevice-getmeterchallenge.md
+                - name: 'Ивмдрмдевице:: Жетсекуреклокк'
+                  href: iwmdrmdevice-getsecureclock.md
+                - name: 'Ивмдрмдевице:: Жетсекуреклоккчалленже'
+                  href: iwmdrmdevice-getsecureclockchallenge.md
+                - name: 'Ивмдрмдевице:: Жетсинклист'
+                  href: iwmdrmdevice-getsynclist.md
+                - name: 'Ивмдрмдевице:: Исвмдрмдевице'
+                  href: iwmdrmdevice-iswmdrmdevice.md
+                - name: 'Ивмдрмдевице:: Сетлиценсереспонсе'
+                  href: iwmdrmdevice-setlicenseresponse.md
+                - name: 'Ивмдрмдевице:: Сетметерреспонсе'
+                  href: iwmdrmdevice-setmeterresponse.md
+                - name: 'Ивмдрмдевице:: Сетсекуреклоккреспонсе'
+                  href: iwmdrmdevice-setsecureclockresponse.md
+            - name: Интерфейс IWMDRMDevice2
+              href: iwmdrmdevice2.md
+              items:
+                - name: 'IWMDRMDevice2:: Жетлиценсестате'
+                  href: iwmdrmdevice2-getlicensestate.md
+                - name: 'IWMDRMDevice2:: Жетпартиалсинклист'
+                  href: iwmdrmdevice2-getpartialsynclist.md
+        - name: Интерфейсы для поставщиков служб и приложений
+          href: interfaces-for-service-providers-and-applications.md
+          items:
+            - name: Интерфейс Ивмдмлогжер
+              href: /windows/desktop/api/wmdmlog/nn-wmdmlog-iwmdmlogger
+              items:
+                - name: 'Ивмдмлогжер:: enable'
+                  href: /windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-enable
+                - name: 'Ивмдмлогжер:: Жетлогфиленаме'
+                  href: /windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-getlogfilename
+                - name: 'Ивмдмлогжер:: Жетсизепарамс'
+                  href: /windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-getsizeparams
+                - name: 'Ивмдмлогжер:: enable'
+                  href: /windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-isenabled
+                - name: 'Ивмдмлогжер:: Логдворд'
+                  href: /windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-logdword
+                - name: 'Ивмдмлогжер:: Логстринг'
+                  href: /windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-logstring
+                - name: 'Ивмдмлогжер:: Reset'
+                  href: /windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-reset
+                - name: 'Ивмдмлогжер:: Сетлогфиленаме'
+                  href: /windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-setlogfilename
+                - name: 'Ивмдмлогжер:: Сетсизепарамс'
+                  href: /windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-setsizeparams
+            - name: Интерфейс Икомпонентаусентикате
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate
+              items:
+                - name: 'Икомпонентаусентикате:: Сакаус'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth
+                - name: 'Икомпонентаусентикате:: Сакжетпротоколс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols
+        - name: Интерфейсы для поставщиков защищенного содержимого
+          href: interfaces-for-secure-content-providers.md
+          items:
+            - name: Интерфейс Искпсекуреаусентикате
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureauthenticate
+              items:
+                - name: 'Искпсекуреаусентикате:: Жетсекурекуери'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureauthenticate-getsecurequery
+            - name: Интерфейс ISCPSecureAuthenticate2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureauthenticate2
+              items:
+                - name: 'ISCPSecureAuthenticate2:: Жетскпсессион'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureauthenticate2-getscpsession
+            - name: Интерфейс Искпсекуриксчанже
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange
+              items:
+                - name: 'Искпсекуриксчанже:: ObjectData'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata
+                - name: 'Искпсекуриксчанже:: Трансферкомплете'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete
+                - name: 'Искпсекуриксчанже:: Трансферконтаинердата'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata
+            - name: Интерфейс ISCPSecureExchange2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange2
+              items:
+                - name: 'ISCPSecureExchange2::TransferContainerData2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange2-transfercontainerdata2
+            - name: Интерфейс ISCPSecureExchange3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange3
+              items:
+                - name: 'ISCPSecureExchange3:: Жетобжектдатаонклеарчаннел'
+                  href: iscpsecureexchange3--getobjectdataonclearchannel.md
+                - name: 'ISCPSecureExchange3:: Трансферкомплетефордевице'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercompletefordevice
+                - name: 'ISCPSecureExchange3:: Трансферконтаинердатаонклеарчаннел'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercontainerdataonclearchannel
+            - name: Интерфейс Искпсекурекуери
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery
+              items:
+                - name: 'Искпсекурекуери:: Ексаминедата'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata
+                - name: 'Искпсекурекуери:: Жетдатадемандс'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands
+                - name: 'Искпсекурекуери:: направо'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getrights
+                - name: 'Искпсекурекуери:: МакедеЦисион'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-makedecision
+            - name: Интерфейс ISCPSecureQuery2
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2
+              items:
+                - name: 'ISCPSecureQuery2::MakeDecision2'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery2-makedecision2
+            - name: Интерфейс ISCPSecureQuery3
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery3
+              items:
+                - name: 'ISCPSecureQuery3:: Жетригхтсонклеарчаннел'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery3-getrightsonclearchannel
+                - name: 'ISCPSecureQuery3:: МакедеЦисиононклеарчаннел'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery3-makedecisiononclearchannel
+            - name: Интерфейс Искпсессион
+              href: /windows/desktop/api/mswmdm/nn-mswmdm-iscpsession
+              items:
+                - name: 'Искпсессион:: BeginSession'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsession-beginsession
+                - name: 'Искпсессион:: EndSession'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsession-endsession
+                - name: 'Искпсессион:: Жетсекурекуери'
+                  href: /windows/desktop/api/mswmdm/nf-mswmdm-iscpsession-getsecurequery
+        - name: Структуры
+          href: structures.md
+          items:
+            - name: _BITMAPINFOHEADER
+              href: '-bitmapinfoheader.md'
+            - name: MTP_COMMAND_DATA_IN
+              href: /windows/win32/api/MtpExt/ns-mtpext-mtp_command_data_in
+            - name: MTP_COMMAND_DATA_OUT
+              href: /windows/win32/api/MtpExt/ns-mtpext-mtp_command_data_out
+            - name: опакуекомманд
+              href: opaquecommand.md
+            - name: _VIDEOINFOHEADER
+              href: '-videoinfoheader.md'
+            - name: _WAVEFORMATEX
+              href: '-waveformatex.md'
+            - name: WMDM_FORMAT_CAPABILITY
+              href: wmdm-format-capability.md
+            - name: WMDM_PROP_CONFIG
+              href: wmdm-prop-config.md
+            - name: WMDM_PROP_DESC
+              href: wmdm-prop-desc.md
+            - name: WMDM_PROP_VALUES_ENUM
+              href: wmdm-prop-values-enum.md
+            - name: WMDM_PROP_VALUES_RANGE
+              href: wmdm-prop-values-range.md
+            - name: вмдмдатетиме
+              href: wmdmdatetime.md
+            - name: вмдмид
+              href: wmdmid.md
+            - name: вмдмметадатавиев
+              href: wmdmmetadataview.md
+            - name: вмдмригхтс
+              href: wmdmrights.md
+            - name: вмфилекапабилитиес
+              href: wmfilecapabilities.md
+        - name: Типы перечисления
+          href: enumeration-types.md
+          items:
+            - name: WMDM_ENUM_PROP_VALID_VALUES_FORM
+              href: wmdm-enum-prop-valid-values-form.md
+            - name: WMDM_FIND_SCOPE
+              href: wmdm-find-scope.md
+            - name: WMDM_FORMATCODE
+              href: wmdm-formatcode.md
+            - name: WMDM_SESSION_TYPE
+              href: wmdm-session-type.md
+            - name: WMDM_STORAGE_ENUM_MODE
+              href: wmdm-storage-enum-mode.md
+            - name: WMDM_TAG_DATATYPE
+              href: wmdm-tag-datatype.md
+            - name: вмдммессаже
+              href: wmdmmessage.md
+        - name: Константы метаданных
+          href: metadata-constants.md
+        - name: Коды ошибок
+          href: error-codes.md
+    - name: Словарь терминов
+      href: wmdm-glossary.md
