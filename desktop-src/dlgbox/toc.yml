@@ -1,0 +1,300 @@
+- name: Диалоговые окна
+  href: dialog-boxes.md
+  items:
+    - name: Обзоры диалоговых окон
+      href: dialog-box-overviews.md
+      items:
+        - name: диалоговые окна «О программе»
+          href: about-dialog-boxes.md
+        - name: Рекомендации по программированию диалоговых окон
+          href: dlgbox-programming-considerations.md
+        - name: Использование диалоговых окон
+          href: using-dialog-boxes.md
+    - name: Справочник по диалоговым окнам
+      href: dialog-box-reference.md
+      items:
+        - name: Функции диалоговых окон
+          href: dialog-box-functions.md
+          items:
+            - name: креатедиалог
+              href: /windows/desktop/api/Winuser/nf-winuser-createdialoga
+            - name: креатедиалогиндирект
+              href: /windows/desktop/api/Winuser/nf-winuser-createdialogindirecta
+            - name: креатедиалогиндиректпарам
+              href: /windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama
+            - name: креатедиалогпарам
+              href: /windows/desktop/api/Winuser/nf-winuser-createdialogparama
+            - name: дефдлгпрок
+              href: /windows/desktop/api/Winuser/nf-winuser-defdlgprocw
+            - name: диалогбокс
+              href: /windows/desktop/api/Winuser/nf-winuser-dialogboxa
+            - name: диалогбоксиндирект
+              href: /windows/desktop/api/Winuser/nf-winuser-dialogboxindirecta
+            - name: диалогбоксиндиректпарам
+              href: /windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama
+            - name: диалогбокспарам
+              href: /windows/desktop/api/Winuser/nf-winuser-dialogboxparama
+            - name: длгпрок
+              href: /windows/desktop/api/winuser/nc-winuser-dlgproc
+            - name: EndDialog
+              href: /windows/desktop/api/Winuser/nf-winuser-enddialog
+            - name: жетдиалогбасеунитс
+              href: /windows/desktop/api/Winuser/nf-winuser-getdialogbaseunits
+            - name: жетдлгктрлид
+              href: /windows/desktop/api/Winuser/nf-winuser-getdlgctrlid
+            - name: жетдлгитем
+              href: /windows/desktop/api/Winuser/nf-winuser-getdlgitem
+            - name: жетдлгитеминт
+              href: /windows/desktop/api/Winuser/nf-winuser-getdlgitemint
+            - name: жетдлгитемтекст
+              href: /windows/desktop/api/Winuser/nf-winuser-getdlgitemtexta
+            - name: жетнекстдлгграупитем
+              href: /windows/desktop/api/Winuser/nf-winuser-getnextdlggroupitem
+            - name: жетнекстдлгтабитем
+              href: /windows/desktop/api/Winuser/nf-winuser-getnextdlgtabitem
+            - name: исдиалогмессаже
+              href: /windows/desktop/api/Winuser/nf-winuser-isdialogmessagea
+            - name: мапдиалогрект
+              href: /windows/desktop/api/Winuser/nf-winuser-mapdialogrect
+            - name: MB_GetString
+              href: mb-getstring.md
+            - name: MessageBox
+              href: /windows/desktop/api/Winuser/nf-winuser-messagebox
+            - name: мессажебоксекс
+              href: /windows/desktop/api/Winuser/nf-winuser-messageboxexa
+            - name: мессажебоксиндирект
+              href: /windows/desktop/api/Winuser/nf-winuser-messageboxindirecta
+            - name: сенддлгитеммессаже
+              href: /windows/desktop/api/Winuser/nf-winuser-senddlgitemmessagea
+            - name: сетдлгитеминт
+              href: /windows/desktop/api/Winuser/nf-winuser-setdlgitemint
+            - name: сетдлгитемтекст
+              href: /windows/desktop/api/Winuser/nf-winuser-setdlgitemtexta
+        - name: Сообщения диалогового окна
+          href: dialog-box-messages.md
+          items:
+            - name: DM_GETDEFID
+              href: dm-getdefid.md
+            - name: DM_REPOSITION
+              href: dm-reposition.md
+            - name: DM_SETDEFID
+              href: dm-setdefid.md
+        - name: Уведомления диалоговых окон
+          href: dialog-box-notifications.md
+          items:
+            - name: WM_CTLCOLORDLG
+              href: wm-ctlcolordlg.md
+            - name: WM_ENTERIDLE
+              href: wm-enteridle.md
+            - name: WM_GETDLGCODE
+              href: wm-getdlgcode.md
+            - name: WM_INITDIALOG
+              href: wm-initdialog.md
+            - name: WM_NEXTDLGCTL
+              href: wm-nextdlgctl.md
+        - name: Структуры диалоговых окон
+          href: dialog-box-structures.md
+          items:
+            - name: длгитемтемплате
+              href: /windows/desktop/api/Winuser/ns-winuser-dlgitemtemplate
+            - name: длгитемтемплатикс
+              href: dlgitemtemplateex.md
+            - name: длгтемплате
+              href: /windows/desktop/api/Winuser/ns-winuser-dlgtemplate
+            - name: длгтемплатикс
+              href: dlgtemplateex.md
+            - name: мсгбокспарамс
+              href: /windows/win32/api/Winuser/ns-winuser-msgboxparamsa
+        - name: Стили диалоговых окон
+          href: dialog-box-styles.md
+    - name: Библиотека общих диалоговых окон
+      href: common-dialog-box-library.md
+      items:
+        - name: Обзоры общих библиотек диалоговых окон
+          href: common-dialog-box-library-overviews.md
+          items:
+            - name: Общие типы диалоговых окон
+              href: dialog-box-types.md
+              items:
+                - name: Диалоговое окно "Цвет"
+                  href: color-dialog-box.md
+                - name: Диалоговые окна поиска и замены
+                  href: find-and-replace-dialog-boxes.md
+                - name: Диалоговое окно "Шрифт"
+                  href: font-dialog-box.md
+                - name: Открытие и сохранение диалоговых окон
+                  href: open-and-save-as-dialog-boxes.md
+                - name: Диалоговое окно «Параметры страницы»
+                  href: page-setup-dialog-box.md
+                - name: Диалоговое окно «Печать»
+                  href: print-dialog-box.md
+                - name: Страница свойств печати
+                  href: print-property-sheet.md
+            - name: Флаги общего диалогового окна
+              href: common-dialog-box-initialization-flags.md
+            - name: Настройка общих диалоговых окон
+              href: customizing-common-dialog-boxes.md
+            - name: Использование общих диалоговых окон
+              href: using-common-dialog-boxes.md
+        - name: Общие ссылки на диалоговые окна
+          href: common-dialog-box-reference.md
+          items:
+            - name: Общие функции диалоговых окон
+              href: common-dialog-box-functions.md
+              items:
+                - name: кчукпрок
+                  href: /windows/desktop/api/commdlg/nc-commdlg-lpcchookproc
+                - name: лпкфхукпрок
+                  href: /windows/desktop/api/commdlg/nc-commdlg-lpcfhookproc
+                - name: чусеколор
+                  href: /previous-versions/windows/desktop/legacy/ms646912(v=vs.85)
+                - name: ChooseFont
+                  href: /windows/win32/api/Commdlg/ns-commdlg-choosefonta
+                - name: коммдлжекстендедеррор
+                  href: /windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror
+                - name: Строки FindText
+                  href: /windows/desktop/api/Commdlg/nf-commdlg-findtexta
+                - name: лпфрхукпрок
+                  href: /windows/desktop/api/commdlg/nc-commdlg-lpfrhookproc
+                - name: жетфилетитле
+                  href: /windows/desktop/api/Commdlg/nf-commdlg-getfiletitlea
+                - name: GetOpenFileName
+                  href: /windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea
+                - name: жетсавефиленаме
+                  href: /windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea
+                - name: лпофнхукпрок
+                  href: /windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc
+                - name: лппажепаинсук
+                  href: /windows/desktop/api/commdlg/nc-commdlg-lppagepainthook
+                - name: пажесетупдлг
+                  href: /previous-versions/windows/desktop/legacy/ms646937(v=vs.85)
+                - name: лппажесетуфук
+                  href: /windows/desktop/api/commdlg/nc-commdlg-lppagesetuphook
+                - name: принтдлг
+                  href: /previous-versions/windows/desktop/legacy/ms646940(v=vs.85)
+                - name: принтдлжекс
+                  href: /previous-versions/windows/desktop/legacy/ms646942(v=vs.85)
+                - name: лппринсукпрок
+                  href: /windows/desktop/api/commdlg/nc-commdlg-lpprinthookproc
+                - name: реплацетекст
+                  href: /windows/desktop/api/Commdlg/nf-commdlg-replacetexta
+                - name: лпсетуфукпрок
+                  href: /windows/desktop/api/commdlg/nc-commdlg-lpsetuphookproc
+            - name: Общие интерфейсы диалоговых окон
+              href: common-dialog-box-interfaces.md
+              items:
+                - name: ипринтдиалогкаллбакк
+                  href: /windows/desktop/api/commdlg/nn-commdlg-iprintdialogcallback
+                  items:
+                    - name: хандлемессаже
+                      href: /windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-handlemessage
+                    - name: инитдоне
+                      href: /windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-initdone
+                    - name: SelectionChange
+                      href: /windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-selectionchange
+                - name: ипринтдиалогсервицес
+                  href: /windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices
+                  items:
+                    - name: жеткуррентдевмоде
+                      href: /windows/desktop/api/Commdlg/nf-commdlg-iprintdialogservices-getcurrentdevmode
+                    - name: жеткуррентпортнаме
+                      href: /windows/desktop/api/Commdlg/nf-commdlg-iprintdialogservices-getcurrentportname
+                    - name: жеткуррентпринтернаме
+                      href: /windows/desktop/api/Commdlg/nf-commdlg-iprintdialogservices-getcurrentprintername
+            - name: Сообщения общего диалогового окна
+              href: common-dialog-box-messages.md
+              items:
+                - name: CDM_GETFILEPATH
+                  href: cdm-getfilepath.md
+                - name: CDM_GETFOLDERIDLIST
+                  href: cdm-getfolderidlist.md
+                - name: CDM_GETFOLDERPATH
+                  href: cdm-getfolderpath.md
+                - name: CDM_GETSPEC
+                  href: cdm-getspec.md
+                - name: CDM_HIDECONTROL
+                  href: cdm-hidecontrol.md
+                - name: CDM_SETCONTROLTEXT
+                  href: cdm-setcontroltext.md
+                - name: CDM_SETDEFEXT
+                  href: cdm-setdefext.md
+                - name: сетргбстринг
+                  href: setrgbstring.md
+                - name: WM_CHOOSEFONT_GETLOGFONT
+                  href: wm-choosefont-getlogfont.md
+                - name: WM_CHOOSEFONT_SETFLAGS
+                  href: wm-choosefont-setflags.md
+                - name: WM_CHOOSEFONT_SETLOGFONT
+                  href: wm-choosefont-setlogfont.md
+            - name: Общие уведомления о диалоговых окнах
+              href: common-dialog-box-notifications.md
+              items:
+                - name: CDN_FILEOK
+                  href: cdn-fileok.md
+                - name: CDN_FOLDERCHANGE
+                  href: cdn-folderchange.md
+                - name: CDN_HELP
+                  href: cdn-help.md
+                - name: CDN_INCLUDEITEM
+                  href: cdn-includeitem.md
+                - name: CDN_INITDONE
+                  href: cdn-initdone.md
+                - name: CDN_SELCHANGE
+                  href: cdn-selchange.md
+                - name: CDN_SHAREVIOLATION
+                  href: cdn-shareviolation.md
+                - name: CDN_TYPECHANGE
+                  href: cdn-typechange.md
+                - name: колорокстринг
+                  href: colorokstring.md
+                - name: филеокстринг
+                  href: fileokstring.md
+                - name: финдмсгстринг
+                  href: findmsgstring.md
+                - name: хелпмсгстринг
+                  href: helpmsgstring.md
+                - name: лбселчстринг
+                  href: lbselchstring.md
+                - name: шаревистринг
+                  href: sharevistring.md
+                - name: WM_PSD_ENVSTAMPRECT
+                  href: wm-psd-envstamprect.md
+                - name: WM_PSD_FULLPAGERECT
+                  href: wm-psd-fullpagerect.md
+                - name: WM_PSD_GREEKTEXTRECT
+                  href: wm-psd-greektextrect.md
+                - name: WM_PSD_MARGINRECT
+                  href: wm-psd-marginrect.md
+                - name: WM_PSD_MINMARGINRECT
+                  href: wm-psd-minmarginrect.md
+                - name: WM_PSD_PAGESETUPDLG
+                  href: wm-psd-pagesetupdlg.md
+                - name: WM_PSD_YAFULLPAGERECT
+                  href: wm-psd-yafullpagerect.md
+            - name: Общие структуры диалоговых окон
+              href: common-dialog-box-structures.md
+              items:
+                - name: чусеколор
+                  href: /windows/win32/api/Commdlg/ns-commdlg-choosecolora-r1
+                - name: CHOOSEFONT
+                  href: /windows/win32/api/Commdlg/ns-commdlg-choosefonta
+                - name: DEVNAMES
+                  href: /windows/win32/api/Commdlg/ns-commdlg-devnames
+                - name: финдреплаце
+                  href: /windows/win32/api/Commdlg/ns-commdlg-findreplacea
+                - name: офнотифи
+                  href: /windows/win32/api/Commdlg/ns-commdlg-ofnotifya
+                - name: офнотифекс
+                  href: /windows/win32/api/Commdlg/ns-commdlg-ofnotifyexa
+                - name: OPENFILENAME
+                  href: /windows/win32/api/Commdlg/ns-commdlg-openfilenamea
+                - name: OPENFILENAME_NT4
+                  href: /windows/win32/api/Commdlg/ns-commdlg-openfilename_nt4a
+                - name: пажесетупдлг
+                  href: /windows/desktop/api/Commdlg/ns-commdlg-pagesetupdlga
+                - name: принтдлг
+                  href: /windows/desktop/api/Commdlg/ns-commdlg-printdlga
+                - name: принтдлжекс
+                  href: /windows/desktop/api/Commdlg/ns-commdlg-printdlgexa
+                - name: принтпажеранже
+                  href: /windows/win32/api/Commdlg/ns-commdlg-printpagerange
