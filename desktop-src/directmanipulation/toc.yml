@@ -1,0 +1,264 @@
+- name: Непосредственная манипуляция
+  href: direct-manipulation-portal.md
+  items:
+    - name: Окна просмотра и содержимое
+      href: directmanipulation-viewports-and-content.md
+    - name: Использование нескольких окон просмотра в Директманипулатион
+      href: directmanipulation-multiple-vieports.md
+    - name: Обработка входных данных с помощью Директманипулатион
+      href: directmanipulation-processing-input-with-directmanipulation.md
+    - name: Механизм композиции
+      href: directmanipulation-composition-engine.md
+    - name: Ссылка на прямую манипуляцию
+      href: direct-manipulation-reference.md
+      items:
+        - name: Константы прямой манипуляции
+          href: direct-manipulation-constants.md
+        - name: Идентификаторы GUID прямого управления
+          href: direct-manipulation-guids.md
+        - name: Перечисление прямых манипуляций
+          href: direct-manipulation-enumerations.md
+          items:
+            - name: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_autoscroll_configuration
+            - name: DIRECTMANIPULATION_CONFIGURATION
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_configuration
+            - name: DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_configuration
+            - name: DIRECTMANIPULATION_DRAG_DROP_STATUS
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_status
+            - name: DIRECTMANIPULATION_GESTURE_CONFIGURATION
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_gesture_configuration
+            - name: DIRECTMANIPULATION_HITTEST_TYPE
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_hittest_type
+            - name: DIRECTMANIPULATION_HORIZONTALALIGNMENT
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_horizontalalignment
+            - name: DIRECTMANIPULATION_INPUT_MODE
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_input_mode
+            - name: DIRECTMANIPULATION_INTERACTION_TYPE
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_interaction_type
+            - name: DIRECTMANIPULATION_MOTION_TYPES
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_motion_types
+            - name: DIRECTMANIPULATION_SNAPPOINT_COORDINATE
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_snappoint_coordinate
+            - name: DIRECTMANIPULATION_SNAPPOINT_TYPE
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_snappoint_type
+            - name: DIRECTMANIPULATION_STATUS
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_status
+            - name: DIRECTMANIPULATION_VERTICALALIGNMENT
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_verticalalignment
+            - name: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+              href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_viewport_options
+        - name: Интерфейсы прямого управления
+          href: direct-manipulation-interfaces.md
+          items:
+            - name: идиректманипулатионаутоскроллбехавиор
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationautoscrollbehavior
+              items:
+                - name: Метод Сетконфигуратион
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationautoscrollbehavior-setconfiguration
+            - name: идиректманипулатионкомпоситор
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor
+              items:
+                - name: Метод AddContent
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-addcontent
+                - name: Метод Flush
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-flush
+                - name: Метод RemoveContent
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-removecontent
+                - name: Метод Сетупдатеманажер
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-setupdatemanager
+            - name: IDirectManipulationCompositor2
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor2
+              items:
+                - name: Метод Аддконтентвискросспроцессчаининг
+                  href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationcompositor2-addcontentwithcrossprocesschaining
+            - name: идиректманипулатионконтент
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcontent
+              items:
+                - name: Метод Жетконтентрект
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getcontentrect
+                - name: Метод Жетконтенттрансформ
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getcontenttransform
+                - name: Метод Жетаутпуттрансформ
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getoutputtransform
+                - name: Метод Жеттаг
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-gettag
+                - name: Метод onокна просмотра
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getviewport
+                - name: Метод Сетконтентрект
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-setcontentrect
+                - name: Метод Сеттаг
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-settag
+                - name: Метод Синкконтенттрансформ
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-synccontenttransform
+            - name: идиректманипулатиондеферконтактсервице
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdefercontactservice
+              items:
+                - name: Метод Канцелконтакт
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-cancelcontact
+                - name: Метод Канцелдеферрал
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-canceldeferral
+                - name: Метод Деферконтакт
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-defercontact
+            - name: идиректманипулатиондрагдропбехавиор
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdragdropbehavior
+              items:
+                - name: Метод Сетконфигуратион
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropbehavior-setconfiguration
+                - name: Метод GetStatus
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropbehavior-getstatus
+            - name: идиректманипулатиондрагдропевенсандлер
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdragdropeventhandler
+              items:
+                - name: Метод Ондрагдропстатусчанже
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropeventhandler-ondragdropstatuschange
+            - name: идиректманипулатионфрамеинфопровидер
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationframeinfoprovider
+              items:
+                - name: Метод Жетнекстфрамеинфо
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationframeinfoprovider-getnextframeinfo
+            - name: идиректманипулатионинтерактионевенсандлер
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationinteractioneventhandler
+              items:
+                - name: Метод взаимодействий
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationinteractioneventhandler-oninteraction
+            - name: идиректманипулатионманажер
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager
+              items:
+                - name: Метод Activate
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-activate
+                - name: Метод CreateContent
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-createcontent
+                - name: Метод Креатевиевпорт
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-createviewport
+                - name: Метод Deactivate
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-deactivate
+                - name: Метод Жетупдатеманажер
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-getupdatemanager
+                - name: Метод ProcessInput
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-processinput
+                - name: Метод Регистерхиттесттаржет
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-registerhittesttarget
+            - name: IDirectManipulationManager2
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager2
+              items:
+                - name: Метод Креатебехавиор
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager2-createbehavior
+            - name: IDirectManipulationManager3
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager3
+              items:
+                - name: Метод метода WebMethod
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager3-getservice
+            - name: идиректманипулатионпримариконтент
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationprimarycontent
+              items:
+                - name: Метод Жетцентерпоинт
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-getcenterpoint
+                - name: Метод Жетинертиаендтрансформ
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-getinertiaendtransform
+                - name: Метод Сесоризонталалигнмент
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-sethorizontalalignment
+                - name: Метод Сетснапкурдинате
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapcoordinate
+                - name: Метод Сетснапинтервал
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapinterval
+                - name: Метод Сетснаппоинтс
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnappoints
+                - name: Метод Сетснаптипе
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnaptype
+                - name: Метод Сетвертикалалигнмент
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setverticalalignment
+                - name: Метод Сетзумбаундариес
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setzoomboundaries
+            - name: идиректманипулатионупдатехандлер
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationupdatehandler
+              items:
+                - name: Метод Update
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatehandler-update
+            - name: идиректманипулатионупдатеманажер
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationupdatemanager
+              items:
+                - name: Метод Регистерваисандлекаллбакк
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-registerwaithandlecallback
+                - name: Метод Унрегистерваисандлекаллбакк
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-unregisterwaithandlecallback
+                - name: Метод Update
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-update
+            - name: идиректманипулатионвиевпорт
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewport
+              items:
+                - name: Метод прерывания
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-abandon
+                - name: Метод Активатеконфигуратион
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration
+                - name: Метод Аддконфигуратион
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addconfiguration
+                - name: Метод Аддконтент
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addcontent
+                - name: Метод Аддевенсандлер
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addeventhandler
+                - name: 'Disable, метод'
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-disable
+                - name: 'Enable, метод'
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-enable
+                - name: Метод Жетпримариконтент
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getprimarycontent
+                - name: Методического состояния
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getstatus
+                - name: Метод Жеттаг
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-gettag
+                - name: Метод Жетвиевпортрект
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getviewportrect
+                - name: Метод Релеасеаллконтактс
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-releaseallcontacts
+                - name: Метод Релеасеконтакт
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-releasecontact
+                - name: Метод RemoveConfiguration
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removeconfiguration
+                - name: Метод RemoveContent
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removecontent
+                - name: Метод Ремовивенсандлер
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removeeventhandler
+                - name: Метод Сетчаининг
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setchaining
+                - name: Метод Сетконтакт
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact
+                - name: Метод Сетинпутмоде
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setinputmode
+                - name: Метод Сетмануалжестуре
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setmanualgesture
+                - name: Метод Сеттаг
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-settag
+                - name: Метод Сетупдатемоде
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setupdatemode
+                - name: Метод Сетвиевпортоптионс
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportoptions
+                - name: Метод Сетвиевпортрект
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportrect
+                - name: Метод Сетвиевпорттрансформ
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewporttransform
+                - name: Метод Stop
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-stop
+                - name: Метод Синкдисплайтрансформ
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-syncdisplaytransform
+                - name: Метод Зумторект
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-zoomtorect
+            - name: IDirectManipulationViewport2
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewport2
+              items:
+                - name: Метод Аддбехавиор
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-addbehavior
+                - name: Метод Ремовебехавиор
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-removebehavior
+                - name: Метод Ремовеаллбехавиорс
+                  href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-removeallbehaviors
+            - name: идиректманипулатионвиевпортевенсандлер
+              href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewporteventhandler
+              items:
+                - name: Метод Онконтентупдатед
+                  href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-oncontentupdated
+                - name: Метод Онвиевпортстатусчанжед
+                  href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-onviewportstatuschanged
+                - name: Метод Онвиевпортупдатед
+                  href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-onviewportupdated
