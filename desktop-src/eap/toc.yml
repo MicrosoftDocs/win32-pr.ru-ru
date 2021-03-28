@@ -1,0 +1,110 @@
+- name: Расширяемый протокол проверки подлинности
+  href: eap-start-page.md
+  items:
+    - name: О протоколах EAP и EAPHost
+      href: about-extenstible-authentication-protocol-and-eaphhost.md
+      items:
+        - name: О EAP
+          href: about-extensible-authentication-protocol.md
+        - name: Об EAPHost
+          href: about-eaphost.md
+    - name: Использование расширяемого протокола проверки подлинности
+      href: using-extenstible-authentication-protocol.md
+      items:
+        - name: Часто задаваемые вопросы о EAP
+          href: eap-frequently-asked-questions.md
+        - name: Установка EAP
+          href: eap-installation.md
+          items:
+            - name: Значения реестра протокола проверки подлинности
+              href: authentication-protocol-registry-values.md
+            - name: Пример значений реестра
+              href: registry-values-example.md
+        - name: Проверка подлинности пользователей
+          href: user-authentication.md
+        - name: Сведения о реализации EAP
+          href: eap-implementation-details.md
+          items:
+            - name: Инициализация точки доступа EAP
+              href: ras-initialization-of-eap.md
+            - name: Инициализация протокола проверки подлинности
+              href: authentication-protocol-initialization.md
+            - name: Взаимодействие протокола точки доступа и проверки подлинности во время проверки подлинности
+              href: ras-and-authentication-protocol-interaction-during-authentication.md
+            - name: Завершение сеанса проверки подлинности
+              href: completion-of-the-authentication-session.md
+        - name: Пользовательский интерфейс конфигурации
+          href: configuration-user-interface.md
+          items:
+            - name: Пользовательский интерфейс настройки Server-Side
+              href: server-side-configuration-user-interface.md
+            - name: Пользовательский интерфейс настройки Client-Side
+              href: client-side-configuration-user-interface.md
+        - name: Получение сведений об удостоверении
+          href: obtaining-identity-information.md
+        - name: Интерактивный пользовательский интерфейс
+          href: interactive-user-interface.md
+        - name: Многоканальные соединения и подключения обратного вызова
+          href: multilink-and-callback-connections.md
+        - name: Рекомендации по написанию DLL-библиотек EAP
+          href: guidelines-for-writing-eap-plug-ins.md
+    - name: Ссылка на протокол расширенной проверки подлинности
+      href: extensible-authentication-protocol-reference.md
+      items:
+        - name: Перечисления EAP
+          href: eap-enumerations.md
+          items:
+            - name: PPP_EAP_ACTION
+              href: /windows/win32/api/raseapif/ne-raseapif-ppp_eap_action
+            - name: RAS_AUTH_ATTRIBUTE_TYPE
+              href: /windows/desktop/api/raseapif/ne-raseapif-ras_auth_attribute_type
+        - name: Функции EAP
+          href: eap-functions.md
+          items:
+            - name: расеапбегин
+              href: /previous-versions/windows/desktop/legacy/aa363520(v=vs.85)
+            - name: расеапенд
+              href: /previous-versions/windows/desktop/legacy/aa363521(v=vs.85)
+            - name: расеапфримемори
+              href: /windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory
+            - name: расеапжетидентити
+              href: /windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity
+            - name: расеапжетинфо
+              href: /windows/desktop/api/Raseapif/nf-raseapif-raseapgetinfo
+            - name: расеапинитиализе
+              href: /previous-versions/windows/desktop/legacy/aa363527(v=vs.85)
+            - name: расеапинвокеконфигуи
+              href: /windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeconfigui
+            - name: расеапинвокеинтерактивеуи
+              href: /windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeinteractiveui
+            - name: расеапмакемессаже
+              href: /previous-versions/windows/desktop/legacy/aa363532(v=vs.85)
+        - name: Интерфейсы EAP
+          href: eap-interfaces.md
+          items:
+            - name: иеаппровидерконфиг
+              href: /windows/desktop/api/Rrascfg/nn-rrascfg-ieapproviderconfig
+              items:
+                - name: Метод Initialize
+                  href: /windows/desktop/api/Rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+                - name: Метод Раутеринвокеконфигуи
+                  href: /windows/desktop/api/Rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokeconfigui
+                - name: Метод Раутеринвокекредентиалсуи
+                  href: /windows/desktop/api/Rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokecredentialsui
+                - name: Метод Серверинвокеконфигуи
+                  href: /windows/desktop/api/Rrascfg/nf-rrascfg-ieapproviderconfig-serverinvokeconfigui
+                - name: Метод Uninitialize
+                  href: /windows/desktop/api/Rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize
+        - name: Структуры EAP
+          href: eap-structures.md
+          items:
+            - name: PPP_EAP_INFO
+              href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_info
+            - name: PPP_EAP_INPUT
+              href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_input
+            - name: PPP_EAP_OUTPUT
+              href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_output
+            - name: PPP_EAP_PACKET
+              href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_packet
+            - name: RAS_AUTH_ATTRIBUTE
+              href: /windows/win32/api/Raseapif/ns-raseapif-ras_auth_attribute

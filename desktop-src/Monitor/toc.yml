@@ -1,0 +1,126 @@
+- name: Конфигурация монитора
+  href: monitor-configuration.md
+  items:
+    - name: Сведения о конфигурации монитора
+      href: about-monitor-configuration.md
+    - name: Использование конфигурации монитора
+      href: using-monitor-configuration.md
+      items:
+        - name: Использование функций настройки монитора High-Level
+          href: using-the-high-level-monitor-configuration-functions.md
+        - name: Использование функций настройки монитора Low-Level
+          href: using-the-low-level-monitor-configuration-functions.md
+    - name: Справочник по конфигурации монитора
+      href: monitor-configuration-reference.md
+      items:
+        - name: Мониторинг функций конфигурации
+          href: monitor-configuration-functions.md
+          items:
+            - name: Функция Капабилитиесрекуестандкапабилитиесрепли
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-capabilitiesrequestandcapabilitiesreply
+            - name: ддкЦижеткапабилитиесстринг
+              href: ddccigetcapabilitiesstring.md
+            - name: ддкЦижеткапабилитиесстрингленгс
+              href: ddccigetcapabilitiesstringlength.md
+            - name: ддкЦижеттимингрепорт
+              href: ddccigettimingreport.md
+            - name: ддкЦижетвкпфеатуре
+              href: ddccigetvcpfeature.md
+            - name: ддкЦисавекуррентсеттингс
+              href: ddccisavecurrentsettings.md
+            - name: ддкЦисетвкпфеатуре
+              href: ddccisetvcpfeature.md
+            - name: Функция Дегауссмонитор
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-degaussmonitor
+            - name: Функция Дестройфисикалмонитор
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-destroyphysicalmonitor
+            - name: дестройфисикалмониторинтернал
+              href: destroyphysicalmonitorinternal.md
+            - name: Функция Дестройфисикалмониторс
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-destroyphysicalmonitors
+            - name: Функция Жеткапабилитиесстрингленгс
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-getcapabilitiesstringlength
+            - name: Функция Жетмониторбригхтнесс
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorbrightness
+            - name: Функция Жетмониторкапабилитиес
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorcapabilities
+            - name: Функция Жетмониторколортемпературе
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorcolortemperature
+            - name: Функция Жетмониторконтраст
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorcontrast
+            - name: Функция Жетмонитордисплайареапоситион
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitordisplayareaposition
+            - name: Функция Жетмонитордисплайареасизе
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitordisplayareasize
+            - name: Функция Жетмониторредгринорблуедриве
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluedrive
+            - name: Функция Жетмониторредгринорблуегаин
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluegain
+            - name: Функция Жетмонитортечнологитипе
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitortechnologytype
+            - name: жетнумбероффисикалмониторс
+              href: getnumberofphysicalmonitors.md
+            - name: Функция Жетнумбероффисикалмониторсфромхмонитор
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getnumberofphysicalmonitorsfromhmonitor
+            - name: Функция GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getnumberofphysicalmonitorsfromidirect3ddevice9
+            - name: жетфисикалмонитордескриптион
+              href: getphysicalmonitordescription.md
+            - name: жетфисикалмониторс
+              href: getphysicalmonitors.md
+            - name: Функция Жетфисикалмониторсфромхмонитор
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor
+            - name: Функция GetPhysicalMonitorsFromIDirect3DDevice9
+              href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9
+            - name: Функция Жеттимингрепорт
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-gettimingreport
+            - name: Функция Жетвкпфеатуреандвкпфеатуререпли
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-getvcpfeatureandvcpfeaturereply
+            - name: Функция Ресторемониторфакториколордефаултс
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-restoremonitorfactorycolordefaults
+            - name: Функция Ресторемониторфакторидефаултс
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults
+            - name: Функция Савекуррентмониторсеттингс
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-savecurrentmonitorsettings
+            - name: Функция Савекуррентсеттингс
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-savecurrentsettings
+            - name: Функция Сетмониторбригхтнесс
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitorbrightness
+            - name: Функция Сетмониторколортемпературе
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitorcolortemperature
+            - name: Функция Сетмониторконтраст
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitorcontrast
+            - name: Функция Сетмонитордисплайареапоситион
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitordisplayareaposition
+            - name: Функция Сетмонитордисплайареасизе
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitordisplayareasize
+            - name: Функция Сетмониторредгринорблуедриве
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluedrive
+            - name: Функция Сетмониторредгринорблуегаин
+              href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluegain
+            - name: Функция Сетвкпфеатуре
+              href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-setvcpfeature
+        - name: Мониторинг структур конфигурации
+          href: monitor-configuration-structures.md
+          items:
+            - name: Структура MC_TIMING_REPORT
+              href: /windows/win32/api/LowLevelMonitorConfigurationAPI/ns-lowlevelmonitorconfigurationapi-mc_timing_report
+            - name: Структура PHYSICAL_MONITOR
+              href: /windows/win32/api/PhysicalMonitorEnumerationAPI/ns-physicalmonitorenumerationapi-physical_monitor
+        - name: Отслеживание типов перечисления конфигурации
+          href: monitor-configuration-enumeration-types.md
+          items:
+            - name: Перечисление MC_COLOR_TEMPERATURE
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_color_temperature
+            - name: Перечисление MC_DISPLAY_TECHNOLOGY_TYPE
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_display_technology_type
+            - name: Перечисление MC_DRIVE_TYPE
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_drive_type
+            - name: Перечисление MC_GAIN_TYPE
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_gain_type
+            - name: Перечисление MC_POSITION_TYPE
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_position_type
+            - name: Перечисление MC_SIZE_TYPE
+              href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_size_type
+            - name: Перечисление MC_VCP_CODE_TYPE
+              href: /windows/win32/api/LowLevelMonitorConfigurationAPI/ne-lowlevelmonitorconfigurationapi-mc_vcp_code_type

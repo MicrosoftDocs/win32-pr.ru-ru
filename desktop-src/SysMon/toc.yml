@@ -1,0 +1,235 @@
+- name: Системный монитор
+  href: system-monitor-portal.md
+  items:
+    - name: Новые возможности системного монитора
+      href: what-s-new-in-system-monitor.md
+    - name: Использование системного монитора
+      href: using-system-monitor.md
+    - name: Справочник по системному монитору
+      href: system-monitor-reference.md
+      items:
+        - name: Классы СИСМОН
+          href: sysmon-classes.md
+          items:
+            - name: каунтеритем
+              href: counteritem.md
+              items:
+                - name: Методы Каунтеритем
+                  href: counteritem-methods.md
+                  items:
+                    - name: Каунтеритем. Жетдатаат
+                      href: counteritem-getdataat.md
+                    - name: Каунтеритем. статистики
+                      href: counteritem-getstatistics.md
+                    - name: Каунтеритем. GetValue
+                      href: counteritem-getvalue.md
+                - name: Свойства Каунтеритем
+                  href: counteritem-properties.md
+                  items:
+                    - name: Каунтеритем. Color
+                      href: counteritem-color.md
+                    - name: Каунтеритем. Линестиле
+                      href: counteritem-linestyle.md
+                    - name: Каунтеритем. путь
+                      href: counteritem-path.md
+                    - name: Каунтеритем. Скалефактор
+                      href: counteritem-scalefactor.md
+                    - name: Каунтеритем. выбрано
+                      href: counteritem-selected.md
+                    - name: Каунтеритем. Value
+                      href: counteritem-value.md
+                    - name: Каунтеритем. Visible
+                      href: counteritem-visible.md
+                    - name: Каунтеритем. Width
+                      href: counteritem-width.md
+            - name: Counters
+              href: counters.md
+              items:
+                - name: Методы счетчиков
+                  href: counters--methods.md
+                  items:
+                    - name: Счетчики. Добавить
+                      href: counters-add.md
+                    - name: Счетчики. удалить
+                      href: counters-remove.md
+                - name: Свойства счетчиков
+                  href: counters--properties.md
+                  items:
+                    - name: Счетчики. Счетчик
+                      href: counters-count.md
+                    - name: Счетчики. элемент
+                      href: counters-item.md
+            - name: логфилеитем
+              href: logfileitem.md
+              items:
+                - name: Свойства Логфилеитем
+                  href: logfileitem--properties.md
+                  items:
+                    - name: Логфилеитем. путь
+                      href: logfileitem-path.md
+            - name: LogFiles
+              href: logfiles.md
+              items:
+                - name: Методы файлов журнала
+                  href: logfiles--methods.md
+                  items:
+                    - name: Файлы журнала. Добавить
+                      href: systemmonitor-logfiles-add.md
+                    - name: Файлы журнала. Remove
+                      href: systemmonitor-logfiles-remove.md
+                - name: Свойства файлов журнала
+                  href: logfiles--properties.md
+                  items:
+                    - name: Файлы журнала. Count
+                      href: systemmonitor-logfiles-count.md
+                    - name: Файл журнала. элемент
+                      href: systemmonitor-logfiles-item.md
+            - name: системмонитор
+              href: systemmonitor.md
+              items:
+                - name: События Системмонитор
+                  href: systemmonitor--events.md
+                  items:
+                    - name: Системмонитор. Онкаунтераддед
+                      href: systemmonitor-oncounteradded.md
+                    - name: Системмонитор. Онкаунтерделетед
+                      href: '-systemmonitor-oncounterdeleted.md'
+                    - name: Системмонитор. Онкаунтерселектед
+                      href: '-systemmonitor-oncounterselected.md'
+                    - name: Системмонитор. Ондблкликк
+                      href: '-systemmonitor-ondblclick.md'
+                    - name: Системмонитор. Онсамплеколлектед
+                      href: '-systemmonitor-onsamplecollected.md'
+                - name: Методы Системмонитор
+                  href: systemmonitor--methods.md
+                  items:
+                    - name: SystemMonitor.BatЧинглокк
+                      href: systemmonitor-batchinglock.md
+                    - name: Системмонитор. Бровсекаунтерс
+                      href: systemmonitor-browsecounters.md
+                    - name: Системмонитор. Клеардата
+                      href: systemmonitor-cleardata.md
+                    - name: Системмонитор. Коллектсампле
+                      href: systemmonitor-collectsample.md
+                    - name: Системмонитор. Copy
+                      href: systemmonitor-copy.md
+                    - name: Системмонитор. DisplayProperties
+                      href: systemmonitor-displayproperties.md
+                    - name: Системмонитор. Жетлогвиевранже
+                      href: systemmonitor-getlogviewrange.md
+                    - name: Системмонитор. Лоадсеттингс
+                      href: systemmonitor-loadsettings.md
+                    - name: Системмонитор. Paste
+                      href: systemmonitor-paste.md
+                    - name: Системмонитор. Relog
+                      href: systemmonitor-relog.md
+                    - name: Системмонитор. Reset
+                      href: systemmonitor-reset.md
+                    - name: Системмонитор. SaveAs
+                      href: systemmonitor-saveas.md
+                    - name: Системмонитор. Скалетофит
+                      href: systemmonitor-scaletofit.md
+                    - name: Системмонитор. Сетлогвиевранже
+                      href: systemmonitor-setlogviewrange.md
+                    - name: Системмонитор. Упдатеграф
+                      href: systemmonitor-updategraph.md
+                - name: Свойства Системмонитор
+                  href: systemmonitor--properties.md
+                  items:
+                    - name: Системмонитор. внешний вид
+                      href: systemmonitor-appearance.md
+                    - name: Системмонитор. BackColor
+                      href: systemmonitor-backcolor.md
+                    - name: Системмонитор. Баккколорктл
+                      href: systemmonitor-backcolorctl.md
+                    - name: Системмонитор. BorderStyle
+                      href: systemmonitor-borderstyle.md
+                    - name: Системмонитор. Чартскролл
+                      href: systemmonitor-chartscroll.md
+                    - name: Системмонитор. счетчики
+                      href: systemmonitor-counters.md
+                    - name: Системмонитор. Датапоинткаунт
+                      href: systemmonitor-datapointcount.md
+                    - name: Системмонитор. DataSourceType
+                      href: systemmonitor-datasourcetype.md
+                    - name: Системмонитор. Дисплайтипе
+                      href: systemmonitor-displaytype.md
+                    - name: Системмонитор. Енабледигитграупинг
+                      href: systemmonitor-enabledigitgrouping.md
+                    - name: Системмонитор. Енаблетултипс
+                      href: systemmonitor-enabletooltips.md
+                    - name: Системмонитор. Font
+                      href: systemmonitor-font.md
+                    - name: Системмонитор. ForeColor
+                      href: systemmonitor-forecolor.md
+                    - name: Системмонитор. Графтитле
+                      href: systemmonitor-graphtitle.md
+                    - name: Системмонитор. Гридколор
+                      href: systemmonitor-gridcolor.md
+                    - name: Системмонитор. выделение
+                      href: systemmonitor-highlight.md
+                    - name: Системмонитор. LogFileName
+                      href: systemmonitor-logfilename.md
+                    - name: Системмонитор. файл_журнала
+                      href: systemmonitor-logfiles.md
+                    - name: Системмонитор. Логсаурцестарттиме
+                      href: systemmonitor-logsourcestarttime.md
+                    - name: Системмонитор. Логсаурцестоптиме
+                      href: systemmonitor-logsourcestoptime.md
+                    - name: Системмонитор. Логвиевстарт
+                      href: systemmonitor-logviewstart.md
+                    - name: Системмонитор. Логвиевстоп
+                      href: systemmonitor-logviewstop.md
+                    - name: Системмонитор. Мануалупдате
+                      href: systemmonitor-manualupdate.md
+                    - name: Системмонитор. Максимумскале
+                      href: systemmonitor-maximumscale.md
+                    - name: Системмонитор. Минимумскале
+                      href: systemmonitor-minimumscale.md
+                    - name: Системмонитор. Монитордупликатеинстанцес
+                      href: systemmonitor-monitorduplicateinstances.md
+                    - name: Системмонитор. ReadOnly
+                      href: systemmonitor-readonly.md
+                    - name: Системмонитор. Репортвалуетипе
+                      href: systemmonitor-reportvaluetype.md
+                    - name: Системмонитор. Шовхоризонталгрид
+                      href: systemmonitor-showhorizontalgrid.md
+                    - name: Системмонитор. Шовлеженд
+                      href: systemmonitor-showlegend.md
+                    - name: Системмонитор. Шовскалелабелс
+                      href: systemmonitor-showscalelabels.md
+                    - name: Системмонитор. Шовтимеаксислабелс
+                      href: systemmonitor-showtimeaxislabels.md
+                    - name: Системмонитор. Шовтулбар
+                      href: systemmonitor-showtoolbar.md
+                    - name: Системмонитор. Шоввалуебар
+                      href: systemmonitor-showvaluebar.md
+                    - name: Системмонитор. Шоввертикалгрид
+                      href: systemmonitor-showverticalgrid.md
+                    - name: Системмонитор. Склдсннаме
+                      href: systemmonitor-sqldsnname.md
+                    - name: Системмонитор. Скллогсетнаме
+                      href: systemmonitor-sqllogsetname.md
+                    - name: Системмонитор. Тимебарколор
+                      href: systemmonitor-timebarcolor.md
+                    - name: Системмонитор. Упдатеинтервал
+                      href: systemmonitor-updateinterval.md
+                    - name: Системмонитор. Яксислабел
+                      href: systemmonitor-yaxislabel.md
+        - name: Перечисления СИСМОН
+          href: sysmon-enumerations.md
+          items:
+            - name: датасаурцетипеконстантс
+              href: /windows/win32/api/isysmon/ne-isysmon-datasourcetypeconstants
+            - name: дисплайтипеконстантс
+              href: /windows/win32/api/isysmon/ne-isysmon-displaytypeconstants
+            - name: репортвалуетипеконстантс
+              href: /windows/win32/api/isysmon/ne-isysmon-reportvaluetypeconstants
+            - name: сисмонбатчреасон
+              href: /windows/win32/api/ISysmon/ne-isysmon-sysmonbatchreason
+            - name: сисмондататипе
+              href: /windows/win32/api/ISysmon/ne-isysmon-sysmondatatype
+            - name: сисмонфилетипе
+              href: /windows/win32/api/ISysmon/ne-isysmon-sysmonfiletype
+        - name: Возвращаемые значения СИСМОН
+          href: sysmon-return-values.md

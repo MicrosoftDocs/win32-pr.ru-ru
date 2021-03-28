@@ -1,0 +1,749 @@
+- name: Окна и сообщения
+  href: windowing.md
+  items:
+    - name: Windows
+      href: windows.md
+      items:
+        - name: Обзоры окон
+          href: window-overviews.md
+          items:
+            - name: О Windows
+              href: about-windows.md
+            - name: Характеристики окон
+              href: window-features.md
+            - name: Использование Windows
+              href: using-windows.md
+        - name: Ссылка на окно
+          href: window-reference.md
+          items:
+            - name: Константы окна
+              href: constants.md
+              items:
+                - name: Расширенные стили окна
+                  href: extended-window-styles.md
+                - name: Стили окна
+                  href: window-styles.md
+            - name: Оконные функции
+              href: window-functions.md
+              items:
+                - name: аджуствиндоврект
+                  href: /windows/desktop/api/winuser/nf-winuser-adjustwindowrect
+                - name: аджуствиндовректекс
+                  href: /windows/desktop/api/winuser/nf-winuser-adjustwindowrectex
+                - name: алловсетфореграундвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow
+                - name: аниматевиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-animatewindow
+                - name: анипопуп
+                  href: /windows/desktop/api/winuser/nf-winuser-anypopup
+                - name: арранжеикониквиндовс
+                  href: /windows/desktop/api/winuser/nf-winuser-arrangeiconicwindows
+                - name: бегиндефервиндовпос
+                  href: /windows/desktop/api/winuser/nf-winuser-begindeferwindowpos
+                - name: брингвиндовтотоп
+                  href: /windows/desktop/api/winuser/nf-winuser-bringwindowtotop
+                - name: калкулатепопупвиндовпоситион
+                  href: /windows/desktop/api/winuser/nf-winuser-calculatepopupwindowposition
+                - name: каскадевиндовс
+                  href: /windows/desktop/api/winuser/nf-winuser-cascadewindows
+                - name: чанжевиндовмессажефилтер
+                  href: /windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter
+                - name: чанжевиндовмессажефилтерекс
+                  href: /windows/desktop/api/winuser/nf-winuser-changewindowmessagefilterex
+                - name: чилдвиндовфромпоинт
+                  href: /windows/desktop/api/winuser/nf-winuser-childwindowfrompoint
+                - name: чилдвиндовфромпоинтекс
+                  href: /windows/desktop/api/winuser/nf-winuser-childwindowfrompointex
+                - name: клосевиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-closewindow
+                - name: CreateWindow
+                  href: /windows/desktop/api/winuser/nf-winuser-createwindowa
+                - name: CreateWindowEx
+                  href: /windows/desktop/api/winuser/nf-winuser-createwindowexa
+                - name: дефервиндовпос
+                  href: /windows/desktop/api/winuser/nf-winuser-deferwindowpos
+                - name: дерегистершеллхуквиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-deregistershellhookwindow
+                - name: дестройвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-destroywindow
+                - name: енддефервиндовпос
+                  href: /windows/desktop/api/winuser/nf-winuser-enddeferwindowpos
+                - name: ендтаск
+                  href: /windows/desktop/api/winuser/nf-winuser-endtask
+                - name: енумчилдпрок
+                  href: /previous-versions/windows/desktop/legacy/ms633493(v=vs.85)
+                - name: енумчилдвиндовс
+                  href: /windows/desktop/api/winuser/nf-winuser-enumchildwindows
+                - name: енумсреадвиндовс
+                  href: /windows/desktop/api/winuser/nf-winuser-enumthreadwindows
+                - name: енумсреадвндпрок
+                  href: /previous-versions/windows/desktop/legacy/ms633496(v=vs.85)
+                - name: EnumWindows
+                  href: /windows/desktop/api/winuser/nf-winuser-enumwindows
+                - name: енумвиндовспрок
+                  href: /previous-versions/windows/desktop/legacy/ms633498(v=vs.85)
+                - name: FindWindow
+                  href: /windows/desktop/api/winuser/nf-winuser-findwindowa
+                - name: FindWindowEx
+                  href: /windows/desktop/api/winuser/nf-winuser-findwindowexa
+                - name: жеталттабинфо
+                  href: /windows/desktop/api/winuser/nf-winuser-getalttabinfoa
+                - name: GetAncestor
+                  href: /windows/desktop/api/winuser/nf-winuser-getancestor
+                - name: жетклиентрект
+                  href: /windows/desktop/api/winuser/nf-winuser-getclientrect
+                - name: жетдесктопвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-getdesktopwindow
+                - name: жетфореграундвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-getforegroundwindow
+                - name: жетгуисреадинфо
+                  href: /windows/desktop/api/winuser/nf-winuser-getguithreadinfo
+                - name: жетластактивепопуп
+                  href: /windows/desktop/api/winuser/nf-winuser-getlastactivepopup
+                - name: жетлайередвиндоваттрибутес
+                  href: /windows/desktop/api/winuser/nf-winuser-getlayeredwindowattributes
+                - name: жетнекствиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-getnextwindow
+                - name: GetParent
+                  href: /windows/desktop/api/winuser/nf-winuser-getparent
+                - name: жетпроцессдефаултлайаут
+                  href: /windows/desktop/api/winuser/nf-winuser-getprocessdefaultlayout
+                - name: жетшеллвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-getshellwindow
+                - name: жетсисколор
+                  href: /windows/desktop/api/winuser/nf-winuser-getsyscolor
+                - name: жеттитлебаринфо
+                  href: /windows/desktop/api/winuser/nf-winuser-gettitlebarinfo
+                - name: жеттопвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-gettopwindow
+                - name: Окно
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindow
+                - name: жетвиндовдисплайаффинити
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindowdisplayaffinity
+                - name: жетвиндовинфо
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindowinfo
+                - name: жетвиндовмодулефиленаме
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindowmodulefilenamea
+                - name: жетвиндовплацемент
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindowplacement
+                - name: жетвиндоврект
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindowrect
+                - name: жетвиндовтекст
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindowtexta
+                - name: жетвиндовтекстленгс
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindowtextlengtha
+                - name: жетвиндовсреадпроцессид
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid
+                - name: интерналжетвиндовтекст
+                  href: /windows/desktop/api/winuser/nf-winuser-internalgetwindowtext
+                - name: IsChild
+                  href: /windows/desktop/api/winuser/nf-winuser-ischild
+                - name: исгуисреад
+                  href: /windows/desktop/api/winuser/nf-winuser-isguithread
+                - name: ишунгаппвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-ishungappwindow
+                - name: Значок
+                  href: /windows/desktop/api/winuser/nf-winuser-isiconic
+                - name: испроцессдпиаваре
+                  href: /windows/desktop/api/winuser/nf-winuser-isprocessdpiaware
+                - name: Окно
+                  href: /windows/desktop/api/winuser/nf-winuser-iswindow
+                - name: исвиндовуникоде
+                  href: /windows/desktop/api/winuser/nf-winuser-iswindowunicode
+                - name: исвиндоввисибле
+                  href: /windows/desktop/api/winuser/nf-winuser-iswindowvisible
+                - name: С масштабом
+                  href: /windows/desktop/api/winuser/nf-winuser-iszoomed
+                - name: локксетфореграундвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-locksetforegroundwindow
+                - name: логикалтофисикалпоинт
+                  href: /windows/desktop/api/winuser/nf-winuser-logicaltophysicalpoint
+                - name: мовевиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-movewindow
+                - name: опеникон
+                  href: /windows/desktop/api/winuser/nf-winuser-openicon
+                - name: фисикалтологикалпоинт
+                  href: /windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint
+                - name: реалчилдвиндовфромпоинт
+                  href: /windows/desktop/api/winuser/nf-winuser-realchildwindowfrompoint
+                - name: реалжетвиндовкласс
+                  href: /windows/desktop/api/winuser/nf-winuser-realgetwindowclassw
+                - name: регистершеллхуквиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-registershellhookwindow
+                - name: сетфореграундвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-setforegroundwindow
+                - name: SetLayeredWindowAttributes
+                  href: /windows/desktop/api/winuser/nf-winuser-setlayeredwindowattributes
+                - name: сетпарент
+                  href: /windows/desktop/api/winuser/nf-winuser-setparent
+                - name: сетпроцессдефаултлайаут
+                  href: /windows/desktop/api/winuser/nf-winuser-setprocessdefaultlayout
+                - name: сетпроцессдпиаваре
+                  href: /windows/desktop/api/winuser/nf-winuser-setprocessdpiaware
+                - name: сетсисколорс
+                  href: /windows/desktop/api/winuser/nf-winuser-setsyscolors
+                - name: сетвиндовдисплайаффинити
+                  href: /windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity
+                - name: сетвиндовфидбакксеттингс
+                  href: /previous-versions/windows/desktop/legacy/hh405402(v=vs.85)
+                - name: сетвиндовплацемент
+                  href: /windows/desktop/api/winuser/nf-winuser-setwindowplacement
+                - name: SetWindowPos
+                  href: /windows/desktop/api/winuser/nf-winuser-setwindowpos
+                - name: SetWindowText
+                  href: /windows/desktop/api/winuser/nf-winuser-setwindowtexta
+                - name: шововнедпопупс
+                  href: /windows/desktop/api/winuser/nf-winuser-showownedpopups
+                - name: ShowWindow
+                  href: /windows/desktop/api/winuser/nf-winuser-showwindow
+                - name: ShowWindowAsync
+                  href: /windows/desktop/api/winuser/nf-winuser-showwindowasync
+                - name: Установка
+                  href: /windows/desktop/api/winuser/nf-winuser-soundsentry
+                - name: свитчтосисвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-switchtothiswindow
+                - name: тилевиндовс
+                  href: /windows/desktop/api/winuser/nf-winuser-tilewindows
+                - name: упдателайередвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-updatelayeredwindow
+                - name: UpdateLayeredWindowIndirect
+                  href: /previous-versions/windows/desktop/legacy/ms633557(v=vs.85)
+                - name: виндовфромфисикалпоинт
+                  href: /windows/desktop/api/winuser/nf-winuser-windowfromphysicalpoint
+                - name: виндовфромпоинт
+                  href: /windows/desktop/api/winuser/nf-winuser-windowfrompoint
+                - name: WinMain
+                  href: /windows/desktop/api/winbase/nf-winbase-winmain
+            - name: Макросы окна
+              href: window-macros.md
+              items:
+                - name: GET_X_LPARAM
+                  href: /windows/desktop/api/windowsx/nf-windowsx-get_x_lparam
+                - name: GET_Y_LPARAM
+                  href: /windows/desktop/api/windowsx/nf-windowsx-get_y_lparam
+                - name: хибите
+                  href: /previous-versions/windows/desktop/legacy/ms632656(v=vs.85)
+                - name: HIWORD
+                  href: /previous-versions/windows/desktop/legacy/ms632657(v=vs.85)
+                - name: лобите
+                  href: /previous-versions/windows/desktop/legacy/ms632658(v=vs.85)
+                - name: ловорд
+                  href: /previous-versions/windows/desktop/legacy/ms632659(v=vs.85)
+                - name: макелонг
+                  href: /previous-versions/windows/desktop/legacy/ms632660(v=vs.85)
+                - name: макелпарам
+                  href: /windows/desktop/api/winuser/nf-winuser-makelparam
+                - name: макелресулт
+                  href: /windows/desktop/api/winuser/nf-winuser-makelresult
+                - name: макеворд
+                  href: /previous-versions/windows/desktop/legacy/ms632663(v=vs.85)
+                - name: макевпарам
+                  href: /windows/desktop/api/winuser/nf-winuser-makewparam
+            - name: Сообщения окна
+              href: window-messages.md
+              items:
+                - name: MN_GETHMENU
+                  href: mn-gethmenu.md
+                - name: WM_ERASEBKGND
+                  href: wm-erasebkgnd.md
+                - name: WM_GETFONT
+                  href: wm-getfont.md
+                - name: WM_GETTEXT
+                  href: wm-gettext.md
+                - name: WM_GETTEXTLENGTH
+                  href: wm-gettextlength.md
+                - name: WM_SETFONT
+                  href: wm-setfont.md
+                - name: WM_SETICON
+                  href: wm-seticon.md
+                - name: WM_SETTEXT
+                  href: wm-settext.md
+            - name: Уведомления окна
+              href: window-notifications.md
+              items:
+                - name: WM_ACTIVATEAPP
+                  href: wm-activateapp.md
+                - name: WM_CANCELMODE
+                  href: wm-cancelmode.md
+                - name: WM_CHILDACTIVATE
+                  href: wm-childactivate.md
+                - name: WM_CLOSE
+                  href: wm-close.md
+                - name: WM_COMPACTING
+                  href: wm-compacting.md
+                - name: WM_CREATE
+                  href: wm-create.md
+                - name: WM_DESTROY
+                  href: wm-destroy.md
+                - name: WM_ENABLE
+                  href: wm-enable.md
+                - name: WM_ENTERSIZEMOVE
+                  href: wm-entersizemove.md
+                - name: WM_EXITSIZEMOVE
+                  href: wm-exitsizemove.md
+                - name: WM_GETICON
+                  href: wm-geticon.md
+                - name: WM_GETMINMAXINFO
+                  href: wm-getminmaxinfo.md
+                - name: WM_INPUTLANGCHANGE
+                  href: wm-inputlangchange.md
+                - name: WM_INPUTLANGCHANGEREQUEST
+                  href: wm-inputlangchangerequest.md
+                - name: WM_MOVE
+                  href: wm-move.md
+                - name: WM_MOVING
+                  href: wm-moving.md
+                - name: WM_NCACTIVATE
+                  href: wm-ncactivate.md
+                - name: WM_NCCALCSIZE
+                  href: wm-nccalcsize.md
+                - name: WM_NCCREATE
+                  href: wm-nccreate.md
+                - name: WM_NCDESTROY
+                  href: wm-ncdestroy.md
+                - name: WM_NULL
+                  href: wm-null.md
+                - name: WM_QUERYDRAGICON
+                  href: wm-querydragicon.md
+                - name: WM_QUERYOPEN
+                  href: wm-queryopen.md
+                - name: WM_QUIT
+                  href: wm-quit.md
+                - name: WM_SHOWWINDOW
+                  href: wm-showwindow.md
+                - name: WM_SIZE
+                  href: wm-size.md
+                - name: WM_SIZING
+                  href: wm-sizing.md
+                - name: WM_STYLECHANGED
+                  href: wm-stylechanged.md
+                - name: WM_STYLECHANGING
+                  href: wm-stylechanging.md
+                - name: WM_THEMECHANGED
+                  href: wm-themechanged.md
+                - name: WM_USERCHANGED
+                  href: wm-userchanged.md
+                - name: WM_WINDOWPOSCHANGED
+                  href: wm-windowposchanged.md
+                - name: WM_WINDOWPOSCHANGING
+                  href: wm-windowposchanging.md
+            - name: Структуры окон
+              href: window-structures.md
+              items:
+                - name: алттабинфо
+                  href: /windows/win32/api/winuser/ns-winuser-alttabinfo
+                - name: чанжефилтерструкт
+                  href: /windows/win32/api/winuser/ns-winuser-changefilterstruct
+                - name: клиенткреатеструкт
+                  href: /windows/win32/api/winuser/ns-winuser-clientcreatestruct
+                - name: CREATESTRUCT
+                  href: /windows/win32/api/winuser/ns-winuser-createstructa
+                - name: гуисреадинфо
+                  href: /windows/win32/api/winuser/ns-winuser-guithreadinfo
+                - name: минмаксинфо
+                  href: /windows/win32/api/winuser/ns-winuser-minmaxinfo
+                - name: NCCALCSIZE_PARAMS
+                  href: /windows/win32/api/winuser/ns-winuser-nccalcsize_params
+                - name: стилеструкт
+                  href: /windows/win32/api/winuser/ns-winuser-stylestruct
+                - name: титлебаринфо
+                  href: /windows/win32/api/winuser/ns-winuser-titlebarinfo
+                - name: титлебаринфоекс
+                  href: /windows/win32/api/winuser/ns-winuser-titlebarinfoex
+                - name: UPDATELAYEREDWINDOWINFO
+                  href: /windows/win32/api/winuser/ns-winuser-updatelayeredwindowinfo
+                - name: виндовинфо
+                  href: /windows/win32/api/winuser/ns-winuser-windowinfo
+                - name: виндовплацемент
+                  href: /windows/win32/api/winuser/ns-winuser-windowplacement
+                - name: WINDOWPOS
+                  href: /windows/win32/api/winuser/ns-winuser-windowpos
+    - name: Классы окон
+      href: window-classes.md
+      items:
+        - name: Обзоры классов окон
+          href: window-class-overviews.md
+          items:
+            - name: О классах окон
+              href: about-window-classes.md
+            - name: Использование классов окон
+              href: using-window-classes.md
+        - name: Справочник по классам окон
+          href: window-class-reference.md
+          items:
+            - name: Функции класса Window
+              href: window-class-functions.md
+              items:
+                - name: жетклассинфо
+                  href: /windows/desktop/api/winuser/nf-winuser-getclassinfoa
+                - name: жетклассинфоекс
+                  href: /windows/desktop/api/winuser/nf-winuser-getclassinfoexa
+                - name: жеткласслонг
+                  href: /windows/desktop/api/winuser/nf-winuser-getclasslonga
+                - name: жеткласслонгптр
+                  href: /windows/desktop/api/winuser/nf-winuser-getclasslongptra
+                - name: ClassName
+                  href: /windows/desktop/api/winuser/nf-winuser-getclassname
+                - name: жетклассворд
+                  href: /windows/desktop/api/winuser/nf-winuser-getclassword
+                - name: жетвиндовлонг
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindowlonga
+                - name: жетвиндовлонгптр
+                  href: /windows/desktop/api/winuser/nf-winuser-getwindowlongptra
+                - name: RegisterClass
+                  href: /windows/desktop/api/winuser/nf-winuser-registerclassa
+                - name: RegisterClassEx
+                  href: /windows/desktop/api/winuser/nf-winuser-registerclassexa
+                - name: сеткласслонг
+                  href: /windows/desktop/api/winuser/nf-winuser-setclasslonga
+                - name: сеткласслонгптр
+                  href: /windows/desktop/api/winuser/nf-winuser-setclasslongptra
+                - name: сетклассворд
+                  href: /windows/desktop/api/winuser/nf-winuser-setclassword
+                - name: SetWindowLong
+                  href: /windows/desktop/api/winuser/nf-winuser-setwindowlonga
+                - name: сетвиндовлонгптр
+                  href: /windows/desktop/api/winuser/nf-winuser-setwindowlongptra
+                - name: унрегистеркласс
+                  href: /windows/desktop/api/winuser/nf-winuser-unregisterclassa
+            - name: Структуры классов окон
+              href: window-class-structures.md
+              items:
+                - name: WNDCLASS
+                  href: /windows/win32/api/winuser/ns-winuser-wndclassa
+                - name: вндклассекс
+                  href: /windows/win32/api/winuser/ns-winuser-wndclassexa
+            - name: Стили классов окон
+              href: window-class-styles.md
+    - name: Процедуры окна
+      href: window-procedures.md
+      items:
+        - name: Обзоры оконных процедур
+          href: window-procedure-overviews.md
+          items:
+            - name: О процедурах окна
+              href: about-window-procedures.md
+            - name: Использование оконных процедур
+              href: using-window-procedures.md
+        - name: Справочник по процедурам окна
+          href: window-procedure-reference.md
+          items:
+            - name: Функции оконных процедур
+              href: window-procedure-functions.md
+              items:
+                - name: каллвиндовпрок
+                  href: /windows/desktop/api/winuser/nf-winuser-callwindowproca
+                - name: дефвиндовпрок
+                  href: /windows/desktop/api/winuser/nf-winuser-defwindowproca
+                - name: WindowProc
+                  href: /previous-versions/windows/desktop/legacy/ms633573(v=vs.85)
+    - name: Сообщения и очереди сообщений
+      href: messages-and-message-queues.md
+      items:
+        - name: Обзоры сообщений и очередей сообщений
+          href: message-and-message-queue-overviews.md
+          items:
+            - name: Сведения о сообщениях и очередях сообщений
+              href: about-messages-and-message-queues.md
+            - name: Использование сообщений и очередей сообщений
+              href: using-messages-and-message-queues.md
+        - name: Ссылка на сообщение
+          href: message-and-message-queue-reference.md
+          items:
+            - name: Функции сообщений
+              href: message-and-message-queue-functions.md
+              items:
+                - name: броадкастсистеммессаже
+                  href: /windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage
+                - name: броадкастсистеммессажеекс
+                  href: /windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa
+                - name: DispatchMessage
+                  href: /windows/desktop/api/winuser/nf-winuser-dispatchmessage
+                - name: жетинпутстате
+                  href: /windows/desktop/api/winuser/nf-winuser-getinputstate
+                - name: GetMessage
+                  href: /windows/desktop/api/winuser/nf-winuser-getmessage
+                - name: жетмессажеекстраинфо
+                  href: /windows/desktop/api/winuser/nf-winuser-getmessageextrainfo
+                - name: жетмессажепос
+                  href: /windows/desktop/api/winuser/nf-winuser-getmessagepos
+                - name: жетмессажетиме
+                  href: /windows/desktop/api/winuser/nf-winuser-getmessagetime
+                - name: жеткуеуестатус
+                  href: /windows/desktop/api/winuser/nf-winuser-getqueuestatus
+                - name: SendMessage
+                  href: /windows/desktop/api/winuser/nf-winuser-insendmessage
+                - name: инсендмессажеекс
+                  href: /windows/desktop/api/winuser/nf-winuser-insendmessageex
+                - name: PeekMessage
+                  href: /windows/desktop/api/winuser/nf-winuser-peekmessagea
+                - name: PostMessage
+                  href: /windows/desktop/api/winuser/nf-winuser-postmessagea
+                - name: посткуитмессаже
+                  href: /windows/desktop/api/winuser/nf-winuser-postquitmessage
+                - name: постсреадмессаже
+                  href: /windows/desktop/api/winuser/nf-winuser-postthreadmessagea
+                - name: регистервиндовмессаже
+                  href: /windows/desktop/api/winuser/nf-winuser-registerwindowmessagea
+                - name: реплимессаже
+                  href: /windows/desktop/api/winuser/nf-winuser-replymessage
+                - name: сендасинкпрок
+                  href: /windows/desktop/api/winuser/nc-winuser-sendasyncproc
+                - name: SendMessage
+                  href: /windows/desktop/api/winuser/nf-winuser-sendmessage
+                - name: сендмессажекаллбакк
+                  href: /windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka
+                - name: Функции sendmessagetimeout
+                  href: /windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta
+                - name: сенднотифимессаже
+                  href: /windows/desktop/api/winuser/nf-winuser-sendnotifymessagea
+                - name: сетмессажеекстраинфо
+                  href: /windows/desktop/api/winuser/nf-winuser-setmessageextrainfo
+                - name: TranslateMessage
+                  href: /windows/desktop/api/winuser/nf-winuser-translatemessage
+                - name: ваитмессаже
+                  href: /windows/desktop/api/winuser/nf-winuser-waitmessage
+            - name: Структуры сообщений
+              href: message-and-message-queue-structures.md
+              items:
+                - name: бсминфо
+                  href: /windows/desktop/api/winuser/ns-winuser-bsminfo
+                - name: ОБ
+                  href: /windows/win32/api/winuser/ns-winuser-msg
+            - name: Константы сообщений
+              href: message-and-message-queue-notifications.md
+              items:
+                - name: OCM__BASE
+                  href: ocm--base.md
+                - name: WM_APP
+                  href: wm-app.md
+                - name: WM_USER
+                  href: wm-user.md
+    - name: Таймеры
+      href: timers.md
+      items:
+        - name: Обзоры таймеров
+          href: timer-overviews.md
+          items:
+            - name: О таймерах
+              href: about-timers.md
+            - name: Использование таймеров
+              href: using-timers.md
+        - name: Справочник по таймеру
+          href: timer-reference.md
+          items:
+            - name: Функции таймера
+              href: timer-functions.md
+              items:
+                - name: киллтимер
+                  href: /windows/desktop/api/winuser/nf-winuser-killtimer
+                - name: сеткоалескаблетимер
+                  href: /windows/desktop/api/winuser/nf-winuser-setcoalescabletimer
+                - name: сеттимер
+                  href: /windows/desktop/api/winuser/nf-winuser-settimer
+                - name: тимерпрок
+                  href: /windows/desktop/api/winuser/nc-winuser-timerproc
+            - name: Уведомления таймера
+              href: timer-notifications.md
+              items:
+                - name: WM_TIMER
+                  href: wm-timer.md
+    - name: Свойства окна
+      href: window-properties.md
+      items:
+        - name: Обзоры свойств окна
+          href: window-property-overviews.md
+          items:
+            - name: Сведения о свойствах окна
+              href: about-window-properties.md
+            - name: Использование свойств окна
+              href: using-window-properties.md
+        - name: Справочник по свойствам окна
+          href: window-property-reference.md
+          items:
+            - name: Функции свойств окна
+              href: window-property-functions.md
+              items:
+                - name: енумпропс
+                  href: /windows/desktop/api/winuser/nf-winuser-enumpropsa
+                - name: енумпропсекс
+                  href: /windows/desktop/api/winuser/nf-winuser-enumpropsexa
+                - name: Prop
+                  href: /windows/desktop/api/winuser/nf-winuser-getpropa
+                - name: пропенумпрок
+                  href: /windows/desktop/api/winuser/nc-winuser-propenumproca
+                - name: пропенумпроцекс
+                  href: /windows/desktop/api/winuser/nc-winuser-propenumprocexa
+                - name: ремовепроп
+                  href: /windows/desktop/api/winuser/nf-winuser-removepropa
+                - name: Сбой setprop
+                  href: /windows/desktop/api/winuser/nf-winuser-setpropa
+    - name: Конфигурация
+      href: configuration.md
+      items:
+        - name: Справочник по настройке
+          href: configuration-reference.md
+          items:
+            - name: Константы конфигурации
+              href: configuration-constants.md
+              items:
+                - name: Связь с визуализацией
+                  href: contact-visualization.md
+                - name: Визуализация жестов
+                  href: gesture-visualization.md
+                - name: Визуализация пера
+                  href: pen-visualization.md
+            - name: жетсистемметрикс
+              href: /windows/desktop/api/winuser/nf-winuser-getsystemmetrics
+            - name: системпараметерсинфо
+              href: /windows/desktop/api/winuser/nf-winuser-systemparametersinfoa
+              items:
+                - name: аниматионинфо
+                  href: /windows/win32/api/winuser/ns-winuser-animationinfo
+                - name: аудиодескриптион
+                  href: /windows/win32/api/winuser/ns-winuser-audiodescription
+                - name: минимизедметрикс
+                  href: /windows/win32/api/winuser/ns-winuser-minimizedmetrics
+                - name: нонклиентметрикс
+                  href: /windows/win32/api/winuser/ns-winuser-nonclientmetricsa
+                - name: WM_SETTINGCHANGE
+                  href: wm-settingchange.md
+                - name: WM_WININICHANGE
+                  href: wm-wininichange.md
+    - name: Обработчики
+      href: hooks.md
+      items:
+        - name: Общие сведения о обработчике
+          href: about-hooks.md
+        - name: Использование перехватчиков
+          href: using-hooks.md
+        - name: Ссылка на обработчик
+          href: hook-reference.md
+          items:
+            - name: Функции-ловушки
+              href: hook-functions.md
+              items:
+                - name: каллмсгфилтер
+                  href: /windows/desktop/api/winuser/nf-winuser-callmsgfiltera
+                - name: каллнекссукекс
+                  href: /windows/desktop/api/winuser/nf-winuser-callnexthookex
+                - name: каллвндпрок
+                  href: /previous-versions/windows/desktop/legacy/ms644975(v=vs.85)
+                - name: каллвндретпрок
+                  href: /windows/desktop/api/winuser/nc-winuser-hookproc
+                - name: кбтпрок
+                  href: /previous-versions/windows/desktop/legacy/ms644977(v=vs.85)
+                - name: дебугпрок
+                  href: /previous-versions/windows/desktop/legacy/ms644978(v=vs.85)
+                - name: фореграундидлепрок
+                  href: /previous-versions/windows/desktop/legacy/ms644980(v=vs.85)
+                - name: жетмсгпрок
+                  href: /previous-versions/windows/desktop/legacy/ms644981(v=vs.85)
+                - name: жаурналплайбаккпрок
+                  href: /previous-versions/windows/desktop/legacy/ms644982(v=vs.85)
+                - name: жаурналрекордпрок
+                  href: /previous-versions/windows/desktop/legacy/ms644983(v=vs.85)
+                - name: кэйбоардпрок
+                  href: /previous-versions/windows/desktop/legacy/ms644984(v=vs.85)
+                - name: ловлевелкэйбоардпрок
+                  href: /previous-versions/windows/desktop/legacy/ms644985(v=vs.85)
+                - name: ловлевелмаусепрок
+                  href: /previous-versions/windows/desktop/legacy/ms644986(v=vs.85)
+                - name: MessageProc
+                  href: /previous-versions/windows/desktop/legacy/ms644987(v=vs.85)
+                - name: маусепрок
+                  href: /previous-versions/windows/desktop/legacy/ms644988(v=vs.85)
+                - name: сетвиндовшукекс
+                  href: /windows/desktop/api/winuser/nf-winuser-setwindowshookexa
+                - name: шеллпрок
+                  href: /previous-versions/windows/desktop/legacy/ms644991(v=vs.85)
+                - name: сисмсгпрок
+                  href: /previous-versions/windows/desktop/legacy/ms644992(v=vs.85)
+                - name: унхуквиндовшукекс
+                  href: /windows/desktop/api/winuser/nf-winuser-unhookwindowshookex
+            - name: Уведомления о ловушках
+              href: hook-notifications.md
+              items:
+                - name: WM_CANCELJOURNAL
+                  href: wm-canceljournal.md
+                - name: WM_QUEUESYNC
+                  href: wm-queuesync.md
+            - name: Структуры обработчиков
+              href: hook-structures.md
+              items:
+                - name: CBT_CREATEWND
+                  href: /windows/win32/api/winuser/ns-winuser-cbt_createwnda
+                - name: кбтактиватеструкт
+                  href: /windows/win32/api/winuser/ns-winuser-cbtactivatestruct
+                - name: квпретструкт
+                  href: /windows/win32/api/winuser/ns-winuser-cwpretstruct
+                - name: квпструкт
+                  href: /windows/win32/api/winuser/ns-winuser-cwpstruct
+                - name: дебугхукинфо
+                  href: /windows/win32/api/winuser/ns-winuser-debughookinfo
+                - name: евентмсг
+                  href: /windows/win32/api/winuser/ns-winuser-eventmsg
+                - name: кбдллхукструкт
+                  href: /windows/win32/api/winuser/ns-winuser-kbdllhookstruct
+                - name: маусехукструкт
+                  href: /windows/win32/api/winuser/ns-winuser-mousehookstruct
+                - name: маусехукструктекс
+                  href: /windows/win32/api/winuser/ns-winuser-mousehookstructex
+                - name: мсллхукструкт
+                  href: /windows/win32/api/winuser/ns-winuser-msllhookstruct
+    - name: Многодокументный интерфейс (MDI)
+      href: multiple-document-interface.md
+      items:
+        - name: Обзоры MDI
+          href: multiple-document-interface-overviews.md
+          items:
+            - name: Сведения об интерфейсе нескольких документов
+              href: about-the-multiple-document-interface.md
+            - name: Использование интерфейса нескольких документов
+              href: using-the-multiple-document-interface.md
+        - name: Справочник по интерфейсу MDI
+          href: multiple-document-interface-reference.md
+          items:
+            - name: Функции MDI
+              href: multiple-document-interface-functions.md
+              items:
+                - name: креатемдивиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-createmdiwindowa
+                - name: деффрамепрок
+                  href: /windows/desktop/api/winuser/nf-winuser-defframeproca
+                - name: дефмдичилдпрок
+                  href: /windows/desktop/api/winuser/nf-winuser-defmdichildproca
+                - name: транслатемдисисакцел
+                  href: /windows/desktop/api/winuser/nf-winuser-translatemdisysaccel
+            - name: Сообщения MDI
+              href: multiple-document-interface-messages.md
+              items:
+                - name: WM_MDIACTIVATE
+                  href: wm-mdiactivate.md
+                - name: WM_MDICASCADE
+                  href: wm-mdicascade.md
+                - name: WM_MDICREATE
+                  href: wm-mdicreate.md
+                - name: WM_MDIDESTROY
+                  href: wm-mdidestroy.md
+                - name: WM_MDIGETACTIVE
+                  href: wm-mdigetactive.md
+                - name: WM_MDIICONARRANGE
+                  href: wm-mdiiconarrange.md
+                - name: WM_MDIMAXIMIZE
+                  href: wm-mdimaximize.md
+                - name: WM_MDINEXT
+                  href: wm-mdinext.md
+                - name: WM_MDIREFRESHMENU
+                  href: wm-mdirefreshmenu.md
+                - name: WM_MDIRESTORE
+                  href: wm-mdirestore.md
+                - name: WM_MDISETMENU
+                  href: wm-mdisetmenu.md
+                - name: WM_MDITILE
+                  href: wm-mditile.md
+            - name: Структуры MDI
+              href: multiple-document-interface-structures.md
+              items:
+                - name: мдикреатеструкт
+                  href: /windows/win32/api/winuser/ns-winuser-mdicreatestructa?redirectedfrom=MSDN
