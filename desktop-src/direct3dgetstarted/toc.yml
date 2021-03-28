@@ -1,0 +1,18 @@
+- name: Создание первого приложения Windows с помощью DirectX
+  href: building-your-first-directx-app.md
+  items:
+    - name: Необходимые условия для разработки с помощью DirectX
+      href: pre-requisites-for-developing-a-tailored-c---with-directx-app.md
+    - name: Начало работы с DirectX для Windows
+      href: getting-started-with-a-directx-game.md
+      items:
+        - name: Работа с ресурсами устройств DirectX
+          href: work-with-dxgi.md
+        - name: Общие сведения о конвейере визуализации Direct3D 11
+          href: understand-the-directx-11-2-graphics-pipeline.md
+        - name: Работа с шейдерами и ресурсами шейдера
+          href: work-with-shaders-and-shader-resources.md
+        - name: Полный код для платформы DirectX
+          href: complete-code-sample-for-using-a-corewindow-with-directx.md
+    - name: Дорожная карта для классических приложений DirectX
+      href: roadmap-for-metro-style-apps-using-directx.md

@@ -1,0 +1,258 @@
+- name: Службы
+  href: services.md
+  items:
+    - name: Новые возможности служб для Windows 8
+      href: what-s-new-in-services-for-windows-8.md
+    - name: Новые возможности служб для Windows 7
+      href: what-s-new-in-services.md
+    - name: Изменения служб для Windows Vista
+      href: service-changes-for-windows-vista.md
+    - name: О службах
+      href: about-services.md
+      items:
+        - name: Диспетчер служб
+          href: service-control-manager.md
+          items:
+            - name: База данных установленных служб
+              href: database-of-installed-services.md
+            - name: Автоматический запуск служб
+              href: automatically-starting-services.md
+            - name: Запуск служб по требованию
+              href: starting-services-on-demand.md
+            - name: Список записей службы
+              href: service-record-list.md
+            - name: Дескрипторы SCM
+              href: scm-handles.md
+        - name: Служебные программы
+          href: service-programs.md
+          items:
+            - name: Точка входа службы
+              href: service-entry-point.md
+            - name: Функция ServiceMain службы
+              href: service-servicemain-function.md
+            - name: Функция обработчика управления службой
+              href: service-control-handler-function.md
+            - name: Переходы состояния службы
+              href: service-status-transitions.md
+            - name: Получение событий в службе
+              href: receiving-events-in-a-service.md
+            - name: Многопоточные службы
+              href: multithreaded-services.md
+            - name: Службы и реестр
+              href: services-and-the-registry.md
+            - name: Службы и перенаправленные диски
+              href: services-and-redirected-drives.md
+            - name: Службы и RPC/TCP
+              href: services-and-rpc-tcp.md
+        - name: Программы настройки служб
+          href: service-configuration-programs.md
+          items:
+            - name: 'Установка, удаление и перечисление служб'
+              href: service-installation-removal-and-enumeration.md
+            - name: Конфигурация службы
+              href: service-configuration.md
+            - name: Настройка службы с помощью SC
+              href: configuring-a-service-using-sc.md
+        - name: Программы управления службами
+          href: service-control-programs.md
+          items:
+            - name: Запуск службы
+              href: service-startup.md
+            - name: Запросы управления службами
+              href: service-control-requests.md
+            - name: Управление службой с помощью SC
+              href: controlling-a-service-using-sc.md
+        - name: Учетные записи пользователей службы
+          href: service-user-accounts.md
+          items:
+            - name: Учетная запись LocalService
+              href: localservice-account.md
+            - name: Учетная запись NetworkService
+              href: networkservice-account.md
+            - name: Учетная запись LocalSystem
+              href: localsystem-account.md
+        - name: Интерактивные службы
+          href: interactive-services.md
+        - name: Права доступа и безопасности службы
+          href: service-security-and-access-rights.md
+        - name: Debugging a Service (Отладка службы)
+          href: debugging-a-service.md
+        - name: События триггера службы
+          href: service-trigger-events.md
+        - name: Защита служб защиты от вредоносных программ
+          href: protecting-anti-malware-services-.md
+    - name: Использование служб
+      href: using-services.md
+      items:
+        - name: Задачи служебной программы
+          href: service-program-tasks.md
+          items:
+            - name: Написание основной функции служебной программы
+              href: writing-a-service-program-s-main-function.md
+            - name: Написание функции ServiceMain
+              href: writing-a-servicemain-function.md
+            - name: Написание функции обработчика элемента управления
+              href: writing-a-control-handler-function.md
+        - name: Задачи программы настройки службы
+          href: service-configuration-program-tasks.md
+          items:
+            - name: Установка службы
+              href: installing-a-service.md
+            - name: Удаление службы
+              href: deleting-a-service.md
+            - name: Изменение конфигурации службы
+              href: changing-a-service-configuration.md
+            - name: Запрос конфигурации службы
+              href: querying-a-service-s-configuration.md
+        - name: Задачи программы управления службами
+          href: service-control-program-tasks.md
+          items:
+            - name: Запуск службы
+              href: starting-a-service.md
+            - name: Остановка службы
+              href: stopping-a-service.md
+            - name: Изменение списка DACL для службы
+              href: modifying-the-dacl-for-a-service.md
+        - name: Полный пример службы
+          href: the-complete-service-sample.md
+          items:
+            - name: Sample.mc
+              href: sample-mc.md
+            - name: Svc.cpp
+              href: svc-cpp.md
+            - name: SvcConfig.cpp
+              href: svcconfig-cpp.md
+            - name: Свкконтрол. cpp
+              href: svccontrol-cpp.md
+    - name: Ссылка на службу
+      href: service-reference.md
+      items:
+        - name: Перечисления служб
+          href: service-enumerations.md
+          items:
+            - name: SC_EVENT_TYPE
+              href: sc-event-type.md
+        - name: Функции службы
+          href: service-functions.md
+          items:
+            - name: чанжесервицеконфиг
+              href: /windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfiga
+            - name: ChangeServiceConfig2
+              href: /windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfig2a
+            - name: клосесервицехандле
+              href: /windows/desktop/api/Winsvc/nf-winsvc-closeservicehandle
+            - name: ControlService
+              href: /windows/desktop/api/Winsvc/nf-winsvc-controlservice
+            - name: контролсервицеекс
+              href: /windows/desktop/api/Winsvc/nf-winsvc-controlserviceexa
+            - name: CreateService
+              href: /windows/desktop/api/Winsvc/nf-winsvc-createservicea
+            - name: DeleteService
+              href: /windows/desktop/api/Winsvc/nf-winsvc-deleteservice
+            - name: енумдепендентсервицес
+              href: /windows/desktop/api/Winsvc/nf-winsvc-enumdependentservicesa
+            - name: енумсервицесстатус
+              href: /windows/desktop/api/Winsvc/nf-winsvc-enumservicesstatusa
+            - name: енумсервицесстатусекс
+              href: /windows/desktop/api/Winsvc/nf-winsvc-enumservicesstatusexa
+            - name: жетсервицедисплайнаме
+              href: /windows/desktop/api/Winsvc/nf-winsvc-getservicedisplaynamea
+            - name: жетсервицекэйнаме
+              href: /windows/desktop/api/Winsvc/nf-winsvc-getservicekeynamea
+            - name: Обработчик
+              href: /windows/desktop/api/Winsvc/nc-winsvc-lphandler_function
+            - name: хандлерекс
+              href: /windows/desktop/api/WinSvc/nc-winsvc-lphandler_function_ex
+            - name: инсталлеламцертификатеинфо
+              href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-installelamcertificateinfo
+            - name: локксервицедатабасе
+              href: /windows/desktop/api/Winsvc/nf-winsvc-lockservicedatabase
+            - name: нотифибутконфигстатус
+              href: /windows/desktop/api/Winsvc/nf-winsvc-notifybootconfigstatus
+            - name: NotifyServiceStatusChange
+              href: /windows/desktop/api/Winsvc/nf-winsvc-notifyservicestatuschangea
+            - name: OpenSCManager
+              href: /windows/desktop/api/Winsvc/nf-winsvc-openscmanagera
+            - name: OpenService
+              href: /windows/desktop/api/Winsvc/nf-winsvc-openservicea
+            - name: куерисервицеконфиг
+              href: /windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga
+            - name: QueryServiceConfig2
+              href: /windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a
+            - name: куерисервицединамиЦинформатион
+              href: /windows/desktop/api/Winsvc/nf-winsvc-queryservicedynamicinformation
+            - name: куерисервицелоккстатус
+              href: /windows/desktop/api/Winsvc/nf-winsvc-queryservicelockstatusa
+            - name: куерисервицестатус
+              href: /windows/desktop/api/Winsvc/nf-winsvc-queryservicestatus
+            - name: куерисервицестатусекс
+              href: /windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex
+            - name: регистерсервицектрлхандлер
+              href: /windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlera
+            - name: регистерсервицектрлхандлерекс
+              href: /windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlerexa
+            - name: LPSERVICE_MAIN_FUNCTION
+              href: /windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona
+            - name: сетсервицебитс
+              href: /windows/desktop/api/Lmserver/nf-lmserver-setservicebits
+            - name: Сбой SetServiceStatus
+              href: /windows/desktop/api/Winsvc/nf-winsvc-setservicestatus
+            - name: Запуск службы
+              href: /windows/desktop/api/Winsvc/nf-winsvc-startservicea
+            - name: Сбой StartServiceCtrlDispatcher
+              href: /windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera
+            - name: субскрибесервицечанженотификатионс
+              href: subscribeservicechangenotifications.md
+            - name: унлокксервицедатабасе
+              href: /windows/desktop/api/Winsvc/nf-winsvc-unlockservicedatabase
+            - name: унсубскрибесервицечанженотификатионс
+              href: unsubscribeservicechangenotifications.md
+        - name: Структуры служб
+          href: service-structures.md
+          items:
+            - name: ENUM_SERVICE_STATUS
+              href: /windows/win32/api/Winsvc/ns-winsvc-enum_service_statusa
+            - name: ENUM_SERVICE_STATUS_PROCESS
+              href: /windows/win32/api/Winsvc/ns-winsvc-enum_service_status_processa
+            - name: QUERY_SERVICE_CONFIG
+              href: /windows/win32/api/Winsvc/ns-winsvc-query_service_configa
+            - name: QUERY_SERVICE_LOCK_STATUS
+              href: /windows/win32/api/Winsvc/ns-winsvc-query_service_lock_statusa
+            - name: SC_ACTION
+              href: /windows/win32/api/Winsvc/ns-winsvc-sc_action
+            - name: SERVICE_CONTROL_STATUS_REASON_PARAMS
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_control_status_reason_paramsa
+            - name: SERVICE_DELAYED_AUTO_START_INFO
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_delayed_auto_start_info
+            - name: SERVICE_DESCRIPTION
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_descriptiona
+            - name: SERVICE_FAILURE_ACTIONS
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_failure_actionsa
+            - name: SERVICE_FAILURE_ACTIONS_FLAG
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_failure_actions_flag
+            - name: SERVICE_LAUNCH_PROTECTED_INFO
+              href: /windows/win32/api/WinSvc/ns-winsvc-service_launch_protected_info
+            - name: SERVICE_NOTIFY
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_notify_2a
+            - name: SERVICE_PREFERRED_NODE_INFO
+              href: /windows/win32/api/winsvc/ns-winsvc-service_preferred_node_info
+            - name: SERVICE_PRESHUTDOWN_INFO
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_preshutdown_info
+            - name: SERVICE_REQUIRED_PRIVILEGES_INFO
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_required_privileges_infoa
+            - name: SERVICE_SID_INFO
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_sid_info
+            - name: SERVICE_STATUS
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_status
+            - name: SERVICE_STATUS_PROCESS
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_status_process
+            - name: SERVICE_TABLE_ENTRY
+              href: /windows/win32/api/Winsvc/ns-winsvc-service_table_entrya
+            - name: SERVICE_TIMECHANGE_INFO
+              href: /windows/win32/api/winsvc/ns-winsvc-service_timechange_info
+            - name: SERVICE_TRIGGER
+              href: /windows/win32/api/winsvc/ns-winsvc-service_trigger
+            - name: SERVICE_TRIGGER_INFO
+              href: /windows/win32/api/winsvc/ns-winsvc-service_trigger_info
+            - name: SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+              href: /windows/win32/api/winsvc/ns-winsvc-service_trigger_specific_data_item
