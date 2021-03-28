@@ -1,0 +1,60 @@
+- name: Завершение работы системы
+  href: system-shutdown.md
+  items:
+    - name: Изменения завершения работы Windows Vista
+      href: shutdown-changes-for-windows-vista.md
+    - name: О завершении работы системы
+      href: about-system-shutdown.md
+      items:
+        - name: Выход из системы
+          href: logging-off.md
+        - name: Завершение работы
+          href: shutting-down.md
+        - name: Средство регистрации событий завершения работы
+          href: shutdown-event-tracker.md
+    - name: Использование системы завершение работы
+      href: using-system-shutdown.md
+      items:
+        - name: Завершение работы системы
+          href: how-to-shut-down-the-system.md
+        - name: Выход из системы текущего пользователя
+          href: how-to-log-off-the-current-user.md
+        - name: Как заблокировать рабочую станцию
+          href: how-to-lock-the-workstation.md
+        - name: Отображение диалогового окна «Завершение работы»
+          href: displaying-the-shutdown-dialog-box.md
+    - name: Справочник по выключению системы
+      href: system-shutdown-reference.md
+      items:
+        - name: Функции завершения работы системы
+          href: system-shutdown-functions.md
+          items:
+            - name: абортсистемшутдовн
+              href: /windows/desktop/api/Winreg/nf-winreg-abortsystemshutdowna
+            - name: екситвиндовс
+              href: /windows/desktop/api/Winuser/nf-winuser-exitwindows
+            - name: Функцию
+              href: /windows/desktop/api/Winuser/nf-winuser-exitwindowsex
+            - name: инитиатешутдовн
+              href: /windows/desktop/api/Winreg/nf-winreg-initiateshutdowna
+            - name: инитиатесистемшутдовн
+              href: /windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna
+            - name: инитиатесистемшутдовнекс
+              href: /windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdownexa
+            - name: локкворкстатион
+              href: /windows/desktop/api/Winuser/nf-winuser-lockworkstation
+            - name: шутдовнблоккреасонкреате
+              href: /windows/desktop/api/Winuser/nf-winuser-shutdownblockreasoncreate
+            - name: шутдовнблоккреасондестрой
+              href: /windows/desktop/api/Winuser/nf-winuser-shutdownblockreasondestroy
+            - name: шутдовнблоккреасонкуери
+              href: /windows/desktop/api/Winuser/nf-winuser-shutdownblockreasonquery
+        - name: Сообщения о завершении работы системы
+          href: system-shutdown-messages.md
+          items:
+            - name: WM_ENDSESSION
+              href: wm-endsession.md
+            - name: WM_QUERYENDSESSION
+              href: wm-queryendsession.md
+        - name: Коды причин завершения работы системы
+          href: system-shutdown-reason-codes.md

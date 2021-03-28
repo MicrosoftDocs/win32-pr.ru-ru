@@ -1,0 +1,38 @@
+- name: Протокол Teredo
+  href: portal.md
+  items:
+    - name: О Teredo
+      href: about-teredo.md
+      items:
+        - name: Компоненты Teredo
+          href: teredo-components.md
+        - name: Адреса Teredo
+          href: teredo-addresses.md
+        - name: Подключение IPv6 и Teredo
+          href: ipv6-connectivity-and-teredo.md
+        - name: Разрешение имен для Teredo
+          href: name-resolution-for-teredo.md
+        - name: Модель безопасности Teredo
+          href: the-teredo-security-model.md
+    - name: Использование Teredo
+      href: using-teredo.md
+      items:
+        - name: Реализация Teredo
+          href: implementing-teredo.md
+        - name: Реализация модели безопасности Teredo
+          href: implementing-the-teredo-security-model.md
+          items:
+            - name: Реализация фильтров брандмауэра для Teredo
+              href: implementing-firewall-filters-for-teredo.md
+            - name: Требуемые исключения брандмауэра для Teredo
+              href: required-firewall-exceptions-for-teredo.md
+            - name: Исключения платформы фильтрации Windows для Teredo
+              href: required-windows-filtering-platform-exceptions-for-teredo.md
+        - name: Получение запрошенного трафика через Teredo
+          href: receiving-solicited-traffic-over-teredo.md
+        - name: Получение незапрошенного трафика через Teredo
+          href: receiving-unsolicited-traffic-over-teredo.md
+        - name: Использование Teredo с вспомогательным модулем IP
+          href: using-teredo-with-ip-helper.md
+        - name: Использование Teredo в Windows XP
+          href: using-teredo-in-windows-xp.md
