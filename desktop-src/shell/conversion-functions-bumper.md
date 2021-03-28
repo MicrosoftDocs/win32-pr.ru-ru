@@ -1,0 +1,217 @@
+---
+description: Функции преобразования
+title: Функции преобразования
+ms.topic: article
+ms.date: 05/31/2018
+ms.assetid: 4f63e5af-e756-4a2f-99ba-fea608fa23c6
+api_name: ''
+api_type: ''
+api_location: ''
+topic_type:
+- kbArticle
+ms.openlocfilehash: 6f966ab31644a41ff745e19b99fb06be8691a2d7
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104984341"
+---
+# <a name="conversion-functions"></a><span data-ttu-id="0e09f-103">Функции преобразования</span><span class="sxs-lookup"><span data-stu-id="0e09f-103">Conversion Functions</span></span>
+
+-   [<span data-ttu-id="0e09f-104">**битеточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-104">**ByteToChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-bytetochar)
+-   [<span data-ttu-id="0e09f-105">**ByteToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-105">**ByteToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-bytetoint8)
+-   <span data-ttu-id="0e09f-106">[**двордптртоинт**](/previous-versions/windows/desktop/legacy/bb776679(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-106">[**DWordPtrToInt**](/previous-versions/windows/desktop/legacy/bb776679(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-107">[**DWordPtrToInt64**](/previous-versions/windows/desktop/legacy/bb776680(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-107">[**DWordPtrToInt64**](/previous-versions/windows/desktop/legacy/bb776680(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-108">[**двордтолонгптр**](/previous-versions/windows/desktop/legacy/bb776694(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-108">[**DWordToLongPtr**](/previous-versions/windows/desktop/legacy/bb776694(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-109">[**двордтоссизет**](/previous-versions/windows/desktop/legacy/bb776697(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-109">[**DWordToSSIZET**](/previous-versions/windows/desktop/legacy/bb776697(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-110">[**Int64ToInt**](/previous-versions/windows/desktop/legacy/bb776705(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-110">[**Int64ToInt**](/previous-versions/windows/desktop/legacy/bb776705(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-111">[**Int64ToIntPtr**](/previous-versions/windows/desktop/legacy/bb776706(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-111">[**Int64ToIntPtr**](/previous-versions/windows/desktop/legacy/bb776706(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-112">[**Int64ToLong**](/previous-versions/windows/desktop/legacy/bb776707(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-112">[**Int64ToLong**](/previous-versions/windows/desktop/legacy/bb776707(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-113">[**Int64ToLongPtr**](/previous-versions/windows/desktop/legacy/bb776708(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-113">[**Int64ToLongPtr**](/previous-versions/windows/desktop/legacy/bb776708(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-114">[**Int64ToULongLong**](/previous-versions/windows/desktop/legacy/bb776716(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-114">[**Int64ToULongLong**](/previous-versions/windows/desktop/legacy/bb776716(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-115">[**Int64ToULongPtr**](/previous-versions/windows/desktop/legacy/bb776717(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-115">[**Int64ToULongPtr**](/previous-versions/windows/desktop/legacy/bb776717(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-116">**Int8ToUChar**</span><span class="sxs-lookup"><span data-stu-id="0e09f-116">**Int8ToUChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-int8touchar)
+-   [<span data-ttu-id="0e09f-117">**Int8ToUInt**</span><span class="sxs-lookup"><span data-stu-id="0e09f-117">**Int8ToUInt**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-int8touint)
+-   [<span data-ttu-id="0e09f-118">**Int8ToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-118">**Int8ToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-int8touint8)
+-   [<span data-ttu-id="0e09f-119">**Int8ToUIntPtr**</span><span class="sxs-lookup"><span data-stu-id="0e09f-119">**Int8ToUIntPtr**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-int8touintptr)
+-   [<span data-ttu-id="0e09f-120">**Int8ToULong**</span><span class="sxs-lookup"><span data-stu-id="0e09f-120">**Int8ToULong**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-int8toulong)
+-   [<span data-ttu-id="0e09f-121">**Int8ToULongLong**</span><span class="sxs-lookup"><span data-stu-id="0e09f-121">**Int8ToULongLong**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-int8toulonglong)
+-   [<span data-ttu-id="0e09f-122">**Int8ToULongPtr**</span><span class="sxs-lookup"><span data-stu-id="0e09f-122">**Int8ToULongPtr**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-int8toulongptr)
+-   [<span data-ttu-id="0e09f-123">**Int8ToUShort**</span><span class="sxs-lookup"><span data-stu-id="0e09f-123">**Int8ToUShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-int8toushort)
+-   [<span data-ttu-id="0e09f-124">**интптрточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-124">**IntPtrToChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-intptrtochar)
+-   <span data-ttu-id="0e09f-125">[**интптртодворд**](/previous-versions/windows/desktop/legacy/bb776718(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-125">[**IntPtrToDWord**](/previous-versions/windows/desktop/legacy/bb776718(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-126">[**интптртодвордптр**](/previous-versions/windows/desktop/legacy/bb776719(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-126">[**IntPtrToDWordPtr**](/previous-versions/windows/desktop/legacy/bb776719(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-127">**интптртоинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-127">**IntPtrToInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-intptrtoint)
+-   [<span data-ttu-id="0e09f-128">**IntPtrToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-128">**IntPtrToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-intptrtoint8)
+-   [<span data-ttu-id="0e09f-129">**интптртолонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-129">**IntPtrToLong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-intptrtolong)
+-   [<span data-ttu-id="0e09f-130">**интптртолонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-130">**IntPtrToLongPtr**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-intptrtolongptr)
+-   [<span data-ttu-id="0e09f-131">**интптртошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-131">**IntPtrToShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-intptrtoshort)
+-   <span data-ttu-id="0e09f-132">[**интптртосизет**](/previous-versions/windows/desktop/legacy/bb776722(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-132">[**IntPtrToSizeT**](/previous-versions/windows/desktop/legacy/bb776722(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-133">**интптртаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-133">**IntPtrToUChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-intptrtouchar)
+-   [<span data-ttu-id="0e09f-134">**интптртауинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-134">**IntPtrToUInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-intptrtouint)
+-   [<span data-ttu-id="0e09f-135">**интптртауинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-135">**IntPtrToUIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-intptrtouintptr)
+-   [<span data-ttu-id="0e09f-136">**IntPtrToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-136">**IntPtrToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-intptrtouint8)
+-   [<span data-ttu-id="0e09f-137">**интптртаулонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-137">**IntPtrToULong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-intptrtoulong)
+-   [<span data-ttu-id="0e09f-138">**интптртаулонглонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-138">**IntPtrToULongLong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-intptrtoulonglong)
+-   [<span data-ttu-id="0e09f-139">**интптртаулонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-139">**IntPtrToULongPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-intptrtoulongptr)
+-   [<span data-ttu-id="0e09f-140">**интптртаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-140">**IntPtrToUShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-intptrtoushort)
+-   <span data-ttu-id="0e09f-141">[**инттобите**](/previous-versions/windows/desktop/legacy/bb776729(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-141">[**IntToByte**](/previous-versions/windows/desktop/legacy/bb776729(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-142">**интточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-142">**IntToChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-inttochar)
+-   <span data-ttu-id="0e09f-143">[**инттодворд**](/previous-versions/windows/desktop/legacy/bb776731(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-143">[**IntToDWord**](/previous-versions/windows/desktop/legacy/bb776731(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-144">**IntToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-144">**IntToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-inttoint8)
+-   [<span data-ttu-id="0e09f-145">**инттошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-145">**IntToShort**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-inttoshort)
+-   [<span data-ttu-id="0e09f-146">**инттаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-146">**IntToUChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-inttouchar)
+-   [<span data-ttu-id="0e09f-147">**инттауинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-147">**IntToUInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-inttouint)
+-   [<span data-ttu-id="0e09f-148">**IntToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-148">**IntToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-inttouint8)
+-   [<span data-ttu-id="0e09f-149">**инттауинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-149">**IntToUIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-inttoulonglong)
+-   [<span data-ttu-id="0e09f-150">**инттаулонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-150">**IntToULong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-inttoulong)
+-   <span data-ttu-id="0e09f-151">[**инттаулонглонг**](/previous-versions/windows/desktop/legacy/bb776740(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-151">[**IntToULongLong**](/previous-versions/windows/desktop/legacy/bb776740(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-152">**инттаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-152">**IntToUShort**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-inttoushort)
+-   [<span data-ttu-id="0e09f-153">**лонглонгточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-153">**LongLongToChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtochar)
+-   [<span data-ttu-id="0e09f-154">**лонглонгтоинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-154">**LongLongToInt**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtoint)
+-   [<span data-ttu-id="0e09f-155">**LongLongToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-155">**LongLongToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtoint8)
+-   [<span data-ttu-id="0e09f-156">**лонглонгтоинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-156">**LongLongToIntPtr**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtointptr)
+-   [<span data-ttu-id="0e09f-157">**лонглонгтолонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-157">**LongLongToLong**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtolong)
+-   [<span data-ttu-id="0e09f-158">**лонглонгтолонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-158">**LongLongToLongPtr**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtolongptr)
+-   [<span data-ttu-id="0e09f-159">**лонглонгтошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-159">**LongLongToShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtoshort)
+-   [<span data-ttu-id="0e09f-160">**лонглонгтаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-160">**LongLongToUChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtouchar)
+-   [<span data-ttu-id="0e09f-161">**лонглонгтауинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-161">**LongLongToUInt**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtouint)
+-   [<span data-ttu-id="0e09f-162">**LongLongToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-162">**LongLongToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtouint8)
+-   [<span data-ttu-id="0e09f-163">**лонглонгтаулонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-163">**LongLongToULong**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtoulong)
+-   [<span data-ttu-id="0e09f-164">**лонглонгтаулонглонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-164">**LongLongToULongLong**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtoulonglong)
+-   [<span data-ttu-id="0e09f-165">**лонглонгтаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-165">**LongLongToUShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longlongtoushort)
+-   [<span data-ttu-id="0e09f-166">**лонгптрточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-166">**LongPtrToChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longptrtochar)
+-   <span data-ttu-id="0e09f-167">[**лонгптртодворд**](/previous-versions/windows/desktop/legacy/bb776744(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-167">[**LongPtrToDWord**](/previous-versions/windows/desktop/legacy/bb776744(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-168">[**лонгптртодвордптр**](/previous-versions/windows/desktop/legacy/bb776745(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-168">[**LongPtrToDWordPtr**](/previous-versions/windows/desktop/legacy/bb776745(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-169">**лонгптртоинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-169">**LongPtrToInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longptrtoint)
+-   [<span data-ttu-id="0e09f-170">**LongPtrToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-170">**LongPtrToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longptrtoint8)
+-   [<span data-ttu-id="0e09f-171">**лонгптртоинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-171">**LongPtrToIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longptrtointptr)
+-   [<span data-ttu-id="0e09f-172">**лонгптртолонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-172">**LongPtrToLong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longptrtolong)
+-   [<span data-ttu-id="0e09f-173">**лонгптртошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-173">**LongPtrToShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longptrtoshort)
+-   [<span data-ttu-id="0e09f-174">**лонгптртаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-174">**LongPtrToUChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longptrtouchar)
+-   [<span data-ttu-id="0e09f-175">**лонгптртауинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-175">**LongPtrToUInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longptrtouint)
+-   [<span data-ttu-id="0e09f-176">**LongPtrToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-176">**LongPtrToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longptrtouint8)
+-   [<span data-ttu-id="0e09f-177">**лонгптртауинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-177">**LongPtrToUIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longptrtouintptr)
+-   [<span data-ttu-id="0e09f-178">**лонгптртаулонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-178">**LongPtrToULong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longptrtoulong)
+-   [<span data-ttu-id="0e09f-179">**лонгптртаулонглонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-179">**LongPtrToULongLong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longptrtoulonglong)
+-   [<span data-ttu-id="0e09f-180">**лонгптртаулонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-180">**LongPtrToULongPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longptrtoulongptr)
+-   [<span data-ttu-id="0e09f-181">**лонгптртаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-181">**LongPtrToUShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longptrtoushort)
+-   <span data-ttu-id="0e09f-182">[**лонгтобите**](/previous-versions/windows/desktop/legacy/bb776756(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-182">[**LongToByte**](/previous-versions/windows/desktop/legacy/bb776756(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-183">**лонгточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-183">**LongToChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtochar)
+-   <span data-ttu-id="0e09f-184">[**лонгтодворд**](/previous-versions/windows/desktop/legacy/bb776758(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-184">[**LongToDWord**](/previous-versions/windows/desktop/legacy/bb776758(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-185">**лонгтоинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-185">**LongToInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtoint)
+-   [<span data-ttu-id="0e09f-186">**LongToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-186">**LongToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longtoint8)
+-   [<span data-ttu-id="0e09f-187">**лонгтоинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-187">**LongToIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtointptr)
+-   [<span data-ttu-id="0e09f-188">**лонгтошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-188">**LongToShort**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtoshort)
+-   <span data-ttu-id="0e09f-189">[**лонгтосизет**](/previous-versions/windows/desktop/legacy/bb776764(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-189">[**LongToSizeT**](/previous-versions/windows/desktop/legacy/bb776764(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-190">**лонгтаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-190">**LongToUChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtouchar)
+-   [<span data-ttu-id="0e09f-191">**лонгтауинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-191">**LongToUInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtouint)
+-   [<span data-ttu-id="0e09f-192">**LongToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-192">**LongToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-longtouint8)
+-   [<span data-ttu-id="0e09f-193">**лонгтауинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-193">**LongToUIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtouintptr)
+-   [<span data-ttu-id="0e09f-194">**лонгтаулонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-194">**LongToULong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtoulong)
+-   [<span data-ttu-id="0e09f-195">**лонгтаулонглонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-195">**LongToULongLong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtoulonglong)
+-   [<span data-ttu-id="0e09f-196">**лонгтаулонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-196">**LongToULongPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtoulongptr)
+-   [<span data-ttu-id="0e09f-197">**лонгтаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-197">**LongToUShort**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-longtoushort)
+-   <span data-ttu-id="0e09f-198">[**шорттобите**](/previous-versions/windows/desktop/legacy/bb762359(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-198">[**ShortToByte**](/previous-versions/windows/desktop/legacy/bb762359(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-199">**шортточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-199">**ShortToChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-shorttochar)
+-   [<span data-ttu-id="0e09f-200">**шорттодвордптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-200">**ShortToDWordPtr**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-shorttodwordptr)
+-   [<span data-ttu-id="0e09f-201">**ShortToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-201">**ShortToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-shorttoint8)
+-   [<span data-ttu-id="0e09f-202">**шорттаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-202">**ShortToUChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-shorttouchar)
+-   [<span data-ttu-id="0e09f-203">**шорттауинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-203">**ShortToUInt**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-shorttouint)
+-   [<span data-ttu-id="0e09f-204">**ShortToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-204">**ShortToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-shorttouint8)
+-   [<span data-ttu-id="0e09f-205">**шорттауинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-205">**ShortToUIntPtr**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-shorttouintptr)
+-   [<span data-ttu-id="0e09f-206">**шорттаулонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-206">**ShortToULong**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-shorttoulong)
+-   [<span data-ttu-id="0e09f-207">**шорттаулонглонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-207">**ShortToULongLong**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-shorttoulonglong)
+-   [<span data-ttu-id="0e09f-208">**шорттаулонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-208">**ShortToULongPtr**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-shorttoulongptr)
+-   [<span data-ttu-id="0e09f-209">**шорттаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-209">**ShortToUShort**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-shorttoushort)
+-   <span data-ttu-id="0e09f-210">[**Сизеттодворд \_ 1**](/previous-versions/windows/desktop/legacy/bb762365(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-210">[**SIZETToDWord\_1**](/previous-versions/windows/desktop/legacy/bb762365(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-211">**сизеттоинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-211">**SizeTToInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongptrtoint)
+-   [<span data-ttu-id="0e09f-212">**Сизеттоинт \_ 1**</span><span class="sxs-lookup"><span data-stu-id="0e09f-212">**SIZETToInt\_1**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uintptrtoint)
+-   [<span data-ttu-id="0e09f-213">**SIZETToInt64 \_ 1**</span><span class="sxs-lookup"><span data-stu-id="0e09f-213">**SIZETToInt64\_1**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongptrtolonglong)
+-   <span data-ttu-id="0e09f-214">[**сизеттоинтптр**](/previous-versions/windows/desktop/legacy/bb762370(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-214">[**SizeTToIntPtr**](/previous-versions/windows/desktop/legacy/bb762370(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-215">**сизеттолонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-215">**SizeTToLong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uintptrtolong)
+-   <span data-ttu-id="0e09f-216">[**сизеттолонгптр**](/previous-versions/windows/desktop/legacy/bb762374(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-216">[**SizeTToLongPtr**](/previous-versions/windows/desktop/legacy/bb762374(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-217">[**сизеттауинт**](/previous-versions/windows/desktop/legacy/bb762380(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-217">[**SizeTToUInt**](/previous-versions/windows/desktop/legacy/bb762380(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-218">**UInt8ToChar**</span><span class="sxs-lookup"><span data-stu-id="0e09f-218">**UInt8ToChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uint8tochar)
+-   [<span data-ttu-id="0e09f-219">**UInt8ToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-219">**UInt8ToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uint8toint8)
+-   [<span data-ttu-id="0e09f-220">**уинтптрточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-220">**UIntPtrToChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uintptrtochar)
+-   <span data-ttu-id="0e09f-221">[**уинтптртоинт**](/previous-versions/windows/desktop/legacy/bb762396(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-221">[**UIntPtrToInt**](/previous-versions/windows/desktop/legacy/bb762396(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-222">**UIntPtrToInt16**</span><span class="sxs-lookup"><span data-stu-id="0e09f-222">**UIntPtrToInt16**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uintptrtoint16)
+-   [<span data-ttu-id="0e09f-223">**UIntPtrToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-223">**UIntPtrToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uintptrtoint8)
+-   [<span data-ttu-id="0e09f-224">**уинтптртоинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-224">**UIntPtrToIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uintptrtointptr)
+-   <span data-ttu-id="0e09f-225">[**уинтптртолонг**](/previous-versions/windows/desktop/legacy/bb762399(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-225">[**UIntPtrToLong**](/previous-versions/windows/desktop/legacy/bb762399(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-226">**уинтптртолонглонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-226">**UIntPtrToLongLong**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uintptrtolonglong)
+-   [<span data-ttu-id="0e09f-227">**уинтптртолонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-227">**UIntPtrToLongPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uintptrtolongptr)
+-   [<span data-ttu-id="0e09f-228">**уинтптртошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-228">**UIntPtrToShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uintptrtoshort)
+-   [<span data-ttu-id="0e09f-229">**уинтптртаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-229">**UIntPtrToUChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uintptrtouchar)
+-   [<span data-ttu-id="0e09f-230">**уинтптртауинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-230">**UIntPtrToUInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uintptrtouint)
+-   [<span data-ttu-id="0e09f-231">**UIntPtrToUInt16**</span><span class="sxs-lookup"><span data-stu-id="0e09f-231">**UIntPtrToUInt16**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uintptrtouint16)
+-   [<span data-ttu-id="0e09f-232">**UIntPtrToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-232">**UIntPtrToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uintptrtouint8)
+-   [<span data-ttu-id="0e09f-233">**уинтптртаулонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-233">**UIntPtrToULong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uintptrtoulong)
+-   [<span data-ttu-id="0e09f-234">**уинтптртаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-234">**UIntPtrToUShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uintptrtoushort)
+-   <span data-ttu-id="0e09f-235">[**уинттобите**](/previous-versions/windows/desktop/legacy/bb762404(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-235">[**UIntToByte**](/previous-versions/windows/desktop/legacy/bb762404(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-236">**уинтточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-236">**UIntToChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uinttochar)
+-   [<span data-ttu-id="0e09f-237">**уинттоинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-237">**UIntToInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uinttoint)
+-   [<span data-ttu-id="0e09f-238">**UIntToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-238">**UIntToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uinttoint8)
+-   [<span data-ttu-id="0e09f-239">**уинттоинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-239">**UIntToIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uinttointptr)
+-   [<span data-ttu-id="0e09f-240">**уинттолонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-240">**UIntToLong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uinttolong)
+-   [<span data-ttu-id="0e09f-241">**уинттолонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-241">**UIntToLongPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uinttolongptr)
+-   [<span data-ttu-id="0e09f-242">**уинттошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-242">**UIntToShort**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uinttoshort)
+-   [<span data-ttu-id="0e09f-243">**уинттаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-243">**UIntToUChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uinttouchar)
+-   [<span data-ttu-id="0e09f-244">**UIntToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-244">**UIntToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-uinttouint8)
+-   [<span data-ttu-id="0e09f-245">**уинттаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-245">**UIntToUShort**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-uinttoushort)
+-   [<span data-ttu-id="0e09f-246">**улонглонгточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-246">**ULongLongToChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulonglongtochar)
+-   <span data-ttu-id="0e09f-247">[**улонглонгтодворд**](/previous-versions/windows/desktop/legacy/bb762416(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-247">[**ULongLongToDWord**](/previous-versions/windows/desktop/legacy/bb762416(v=vs.85))</span></span>
+-   <span data-ttu-id="0e09f-248">[**улонглонгтодвордптр**](/previous-versions/windows/desktop/legacy/bb762417(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-248">[**ULongLongToDWordPtr**](/previous-versions/windows/desktop/legacy/bb762417(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-249">**улонглонгтоинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-249">**ULongLongToInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulonglongtoint)
+-   <span data-ttu-id="0e09f-250">[**ULongLongToInt64**](/previous-versions/windows/desktop/legacy/bb762419(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-250">[**ULongLongToInt64**](/previous-versions/windows/desktop/legacy/bb762419(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-251">**ULongLongToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-251">**ULongLongToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulonglongtoint8)
+-   [<span data-ttu-id="0e09f-252">**улонглонгтоинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-252">**ULongLongToIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulonglongtolonglong)
+-   [<span data-ttu-id="0e09f-253">**улонглонгтолонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-253">**ULongLongToLong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulonglongtolong)
+-   <span data-ttu-id="0e09f-254">[**улонглонгтолонглонг**](/previous-versions/windows/desktop/legacy/hh707135(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-254">[**ULongLongToLongLong**](/previous-versions/windows/desktop/legacy/hh707135(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-255">**улонглонгтолонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-255">**ULongLongToLongPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulonglongtolongptr)
+-   [<span data-ttu-id="0e09f-256">**улонглонгтошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-256">**ULongLongToShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulonglongtoshort)
+-   <span data-ttu-id="0e09f-257">[**улонглонгтосизет**](/previous-versions/windows/desktop/legacy/bb762424(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-257">[**ULongLongToSizeT**](/previous-versions/windows/desktop/legacy/bb762424(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-258">**улонглонгтаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-258">**ULongLongToUChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulonglongtouchar)
+-   [<span data-ttu-id="0e09f-259">**улонглонгтауинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-259">**ULongLongToUInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulonglongtouint)
+-   [<span data-ttu-id="0e09f-260">**ULongLongToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-260">**ULongLongToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulonglongtouint8)
+-   [<span data-ttu-id="0e09f-261">**улонглонгтауинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-261">**ULongLongToUIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulonglongtouintptr)
+-   [<span data-ttu-id="0e09f-262">**улонглонгтаулонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-262">**ULongLongToULong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulonglongtoulong)
+-   [<span data-ttu-id="0e09f-263">**улонглонгтаулонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-263">**ULongLongToULongPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulonglongtoulongptr)
+-   [<span data-ttu-id="0e09f-264">**улонглонгтаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-264">**ULongLongToUShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulonglongtoushort)
+-   [<span data-ttu-id="0e09f-265">**улонгптрточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-265">**ULongPtrToChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulongptrtochar)
+-   <span data-ttu-id="0e09f-266">[**улонгптртоинт**](/previous-versions/windows/desktop/legacy/bb762432(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-266">[**ULongPtrToInt**](/previous-versions/windows/desktop/legacy/bb762432(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-267">**ULongPtrToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-267">**ULongPtrToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulongptrtoint8)
+-   [<span data-ttu-id="0e09f-268">**улонгптртоинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-268">**ULongPtrToIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongptrtointptr)
+-   [<span data-ttu-id="0e09f-269">**улонгптртолонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-269">**ULongPtrToLong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongptrtolong)
+-   <span data-ttu-id="0e09f-270">[**улонгптртолонглонг**](/previous-versions/windows/desktop/legacy/hh707142(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-270">[**ULongPtrToLongLong**](/previous-versions/windows/desktop/legacy/hh707142(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-271">**улонгптртолонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-271">**ULongPtrToLongPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongptrtolongptr)
+-   [<span data-ttu-id="0e09f-272">**улонгптртошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-272">**ULongPtrToShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulongptrtoshort)
+-   [<span data-ttu-id="0e09f-273">**улонгптртаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-273">**ULongPtrToUChar**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulongptrtouchar)
+-   [<span data-ttu-id="0e09f-274">**улонгптртауинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-274">**ULongPtrToUInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongptrtouint)
+-   [<span data-ttu-id="0e09f-275">**ULongPtrToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-275">**ULongPtrToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulongptrtouint8)
+-   [<span data-ttu-id="0e09f-276">**улонгптртауинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-276">**ULongPtrToUIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongptrtouintptr)
+-   [<span data-ttu-id="0e09f-277">**улонгптртаулонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-277">**ULongPtrToULong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongptrtoulong)
+-   [<span data-ttu-id="0e09f-278">**улонгптртаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-278">**ULongPtrToUShort**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulongptrtoushort)
+-   [<span data-ttu-id="0e09f-279">**улонгточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-279">**ULongToChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongtochar)
+-   [<span data-ttu-id="0e09f-280">**улонгтоинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-280">**ULongToInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongtoint)
+-   [<span data-ttu-id="0e09f-281">**ULongToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-281">**ULongToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulongtoint8)
+-   [<span data-ttu-id="0e09f-282">**улонгтоинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-282">**ULongToIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongtointptr)
+-   [<span data-ttu-id="0e09f-283">**улонгтолонг**</span><span class="sxs-lookup"><span data-stu-id="0e09f-283">**ULongToLong**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongtolong)
+-   [<span data-ttu-id="0e09f-284">**улонгтолонгптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-284">**ULongToLongPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongtolongptr)
+-   [<span data-ttu-id="0e09f-285">**улонгтошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-285">**ULongToShort**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongtoshort)
+-   [<span data-ttu-id="0e09f-286">**улонгтаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-286">**ULongToUChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongtouchar)
+-   [<span data-ttu-id="0e09f-287">**улонгтауинт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-287">**ULongToUInt**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongtouint)
+-   [<span data-ttu-id="0e09f-288">**ULongToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-288">**ULongToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ulongtouint8)
+-   [<span data-ttu-id="0e09f-289">**улонгтауинтптр**</span><span class="sxs-lookup"><span data-stu-id="0e09f-289">**ULongToUIntPtr**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongtouintptr)
+-   [<span data-ttu-id="0e09f-290">**улонгтаушорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-290">**ULongToUShort**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ulongtoushort)
+-   <span data-ttu-id="0e09f-291">[**ушорттобите**](/previous-versions/windows/desktop/legacy/bb762457(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="0e09f-291">[**UShortToByte**](/previous-versions/windows/desktop/legacy/bb762457(v=vs.85))</span></span>
+-   [<span data-ttu-id="0e09f-292">**ушортточар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-292">**UShortToChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ushorttochar)
+-   [<span data-ttu-id="0e09f-293">**UShortToInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-293">**UShortToInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ushorttoint8)
+-   [<span data-ttu-id="0e09f-294">**ушорттошорт**</span><span class="sxs-lookup"><span data-stu-id="0e09f-294">**UShortToShort**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ushorttoshort)
+-   [<span data-ttu-id="0e09f-295">**ушорттаучар**</span><span class="sxs-lookup"><span data-stu-id="0e09f-295">**UShortToUChar**</span></span>](/windows/desktop/api/Intsafe/nf-intsafe-ushorttouchar)
+-   [<span data-ttu-id="0e09f-296">**UShortToUInt8**</span><span class="sxs-lookup"><span data-stu-id="0e09f-296">**UShortToUInt8**</span></span>](/windows/desktop/api/intsafe/nf-intsafe-ushorttouint8)
+
+ 
+
+ 
