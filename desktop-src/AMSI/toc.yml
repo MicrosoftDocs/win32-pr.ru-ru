@@ -1,0 +1,60 @@
+- name: Интерфейс Antimalware Scan Interface (AMSI)
+  href: antimalware-scan-interface-portal.md
+  items:
+    - name: Как AMSI помогает
+      href: how-amsi-helps.md
+    - name: 'Аудитория разработчика, примеры'
+      href: dev-audience.md
+    - name: Справочник по AMSI
+      href: antimalware-scan-interface-reference.md
+      items:
+        - name: Перечисления AMSI
+          href: antimalware-scan-interface-enumerations.md
+          items:
+            - name: AMSI_ATTRIBUTE
+              href: /windows/desktop/api/amsi/ne-amsi-amsi_attribute
+            - name: AMSI_RESULT
+              href: /windows/desktop/api/amsi/ne-amsi-amsi_result
+        - name: Функции AMSI
+          href: antimalware-scan-interface-functions.md
+          items:
+            - name: амсиклосесессион
+              href: /windows/desktop/api/amsi/nf-amsi-amsiclosesession
+            - name: амсиинитиализе
+              href: /windows/desktop/api/amsi/nf-amsi-amsiinitialize
+            - name: амсиопенсессион
+              href: /windows/desktop/api/amsi/nf-amsi-amsiopensession
+            - name: амсиресултисмалваре
+              href: /windows/desktop/api/amsi/nf-amsi-amsiresultismalware
+            - name: амсисканбуффер
+              href: /windows/desktop/api/amsi/nf-amsi-amsiscanbuffer
+            - name: амсисканстринг
+              href: /windows/desktop/api/amsi/nf-amsi-amsiscanstring
+            - name: амсиунинитиализе
+              href: /windows/desktop/api/amsi/nf-amsi-amsiuninitialize
+        - name: Интерфейсы AMSI
+          href: antimalware-scan-interface-interfaces.md
+          items:
+            - name: иамсистреам
+              href: /windows/desktop/api/amsi/nn-amsi-iamsistream
+              items:
+                - name: Метод InAttribute
+                  href: /windows/desktop/api/amsi/nf-amsi-iamsistream-getattribute
+                - name: Метод Read
+                  href: /windows/desktop/api/amsi/nf-amsi-iamsistream-read
+            - name: иантималваре
+              href: /windows/desktop/api/amsi/nn-amsi-iantimalware
+              items:
+                - name: Метод сбой операции CloseSession
+                  href: /windows/desktop/api/amsi/nf-amsi-iantimalware-closesession
+                - name: Способ проверки
+                  href: /windows/desktop/api/amsi/nf-amsi-iantimalware-scan
+            - name: иантималварепровидер
+              href: /windows/desktop/api/amsi/nn-amsi-iantimalwareprovider
+              items:
+                - name: Метод сбой операции CloseSession
+                  href: /windows/desktop/api/amsi/nf-amsi-iantimalwareprovider-closesession
+                - name: 'DisplayName, метод'
+                  href: /windows/desktop/api/amsi/nf-amsi-iantimalwareprovider-displayname
+                - name: Способ проверки
+                  href: /windows/desktop/api/amsi/nf-amsi-iantimalwareprovider-scan
