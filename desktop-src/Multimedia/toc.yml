@@ -1,0 +1,3162 @@
+- name: Мультимедиа Windows
+  href: windows-multimedia-start-page.md
+  items:
+    - name: MCI
+      href: mci.md
+      items:
+        - name: О MCI
+          href: about-mci.md
+          items:
+            - name: Строки и сообщения команд MCI
+              href: mci-command-strings-and-messages.md
+              items:
+                - name: Командные строки
+                  href: command-strings.md
+                - name: Сообщения команды
+                  href: command-messages.md
+            - name: Классификация команд MCI
+              href: classifications-of-mci-commands.md
+            - name: 'Функции MCI, макросы и сообщения'
+              href: mci-functions-macros-and-messages.md
+            - name: 'Флаги ожидания, уведомления и проверки'
+              href: the-wait-notify-and-test-flags.md
+              items:
+                - name: Флаг ожидания
+                  href: the-wait-flag.md
+                - name: Флаг уведомления
+                  href: the-notify-flag.md
+                - name: Флаг теста
+                  href: the-test-flag.md
+            - name: Ярлыки и варианты команд
+              href: command-shortcuts-and-variations.md
+            - name: Устройства MCI
+              href: mci-devices.md
+              items:
+                - name: Управление устройством
+                  href: device-control.md
+                - name: Воспроизведение и позиционирование
+                  href: playback-and-positioning.md
+                - name: Типы устройств
+                  href: device-types.md
+                - name: Имена устройств
+                  href: device-names.md
+                - name: Поддержка драйверов для команд MCI
+                  href: driver-support-for-mci-commands.md
+                - name: Поведение драйверов по умолчанию
+                  href: default-behavior-of-drivers.md
+            - name: Работа с устройствами MCI
+              href: working-with-mci-devices.md
+              items:
+                - name: Открытие устройства
+                  href: opening-a-device.md
+                - name: Получение сведений об устройстве
+                  href: retrieving-information-about-a-device.md
+                - name: Получение сведений о системе MCI
+                  href: obtaining-mci-system-information.md
+                - name: Воспроизведение устройства
+                  href: playing-a-device.md
+                - name: Запись
+                  href: recording.md
+                - name: 'Остановка, приостановка и возобновление работы устройства'
+                  href: stopping-pausing-and-resuming-a-device.md
+                - name: Закрытие устройства
+                  href: closing-a-device.md
+            - name: Реализации MCI для конкретных устройств
+              href: mci-implementations-for-specific-devices.md
+              items:
+                - name: мЦиави
+                  href: mciavi.md
+                - name: Службы ВИДЕОМАГНИТОФОНА
+                  href: vcr-services.md
+            - name: Наборы команд Device-Specific
+              href: device-specific-command-sets.md
+              items:
+                - name: Набор команд CD Audio
+                  href: cd-audio-command-set.md
+                - name: Набор команд Digital-Video
+                  href: digital-video-command-set.md
+                - name: Набор команд MIDI Sequencer
+                  href: midi-sequencer-command-set.md
+                - name: Набор команд ВИДЕОМАГНИТОФОНА
+                  href: vcr-command-set.md
+                - name: Набор команд видеодиск
+                  href: videodisc-command-set.md
+                - name: Набор команд Video-Overlay
+                  href: video-overlay-command-set.md
+                - name: Набор команд Waveform-Audio
+                  href: waveform-audio-command-set.md
+        - name: Использование командных строк MCI
+          href: using-mci-command-strings.md
+          items:
+            - name: Отправка команды
+              href: sending-a-command.md
+            - name: Открытие нескольких файлов AVI
+              href: opening-multiple-avi-files.md
+            - name: Изменение состояния воспроизведения
+              href: changing-the-playback-state.md
+            - name: Преобразование строк
+              href: converting-strings.md
+        - name: Использование командных сообщений MCI
+          href: using-mci-command-messages.md
+          items:
+            - name: 'Закрытие всех устройств MCI, используемых приложением'
+              href: closing-all-mci-devices-used-by-an-application.md
+            - name: Открытие простого устройства с помощью имени устройства
+              href: opening-a-simple-device-by-using-the-device-name.md
+            - name: Открытие простого устройства с помощью Device-Typeной константы
+              href: opening-a-simple-device-by-using-the-device-type-constant.md
+            - name: Открытие составного устройства с помощью имени файла
+              href: opening-a-compound-device-by-using-the-filename.md
+            - name: Проверка выходного устройства
+              href: verifying-the-output-device.md
+            - name: Обработка ошибок MCI
+              href: handling-mci-errors.md
+            - name: Воспроизведение файла Waveform-Audio
+              href: playing-a-waveform-audio-file.md
+            - name: Воспроизведение файла MIDI
+              href: playing-a-midi-file.md
+            - name: Воспроизведение записи компакт-диска
+              href: playing-a-compact-disc-track.md
+            - name: Воспроизведение фильма
+              href: playing-a-movie.md
+              items:
+                - name: Открытие окна воспроизведения
+                  href: opening-the-playback-window.md
+                - name: Настройка окна воспроизведения
+                  href: setting-up-the-playback-window.md
+                - name: Воспроизведение файла AVI
+                  href: playing-the-avi-file.md
+            - name: Изменение текущей должности
+              href: changing-the-current-position.md
+            - name: Задание формата времени
+              href: setting-the-time-format.md
+            - name: Изменение синхронизации Sequencer
+              href: changing-sequencer-synchronization.md
+            - name: Использование флага MCI_NOTIFY
+              href: using-the-mci-notify-flag.md
+            - name: Получение сведений о фильме
+              href: retrieving-information-about-a-movie.md
+            - name: Получение сведений о Track-Specific компактных дисков
+              href: retrieving-compact-disc-track-specific-information.md
+            - name: Запись с помощью устройства Waveform-Audio
+              href: recording-with-a-waveform-audio-device.md
+        - name: Справочник по MCI
+          href: mci-reference.md
+          items:
+            - name: Функции MCI
+              href: mci-functions.md
+            - name: Структуры MCI
+              href: mci-structures.md
+            - name: Сообщения MCI
+              href: mci-messages.md
+            - name: Макросы MCI
+              href: mci-macros.md
+            - name: Команды MCI
+              href: mci-commands.md
+            - name: Строки команд MCI
+              href: mci-command-strings.md
+    - name: Класс окна МЦивнд
+      href: mciwnd-window-class.md
+      items:
+        - name: О классе окна МЦивнд
+          href: about-the-mciwnd-window-class.md
+          items:
+            - name: Пользовательский интерфейс окна МЦивнд
+              href: mciwnd-window-user-interface.md
+            - name: Воспроизведение мультимедиа
+              href: multimedia-playback.md
+              items:
+                - name: Добавление User-Controlled воспроизведения
+                  href: adding-user-controlled-playback.md
+                - name: Автоматизация воспроизведения
+                  href: automating-playback.md
+                - name: Использование стилей окна для изменения окна МЦивнд
+                  href: using-window-styles-to-change-the-mciwnd-window.md
+                - name: Разрешение пользователю указывать устройства и файлы
+                  href: allowing-the-user-to-specify-devices-and-files.md
+            - name: Элементы управления воспроизведением
+              href: playback-controls.md
+              items:
+                - name: Определение и изменение текущей должности
+                  href: determining-and-changing-the-current-position.md
+                - name: 'Запуск, приостановка и возобновление воспроизведения'
+                  href: starting-pausing-and-resuming-playback.md
+                - name: Определение области воспроизведения
+                  href: defining-playback-scope.md
+                - name: Обратное воспроизведение
+                  href: reversing-playback.md
+                - name: Циклическое воспроизведение
+                  href: looping-playback.md
+            - name: Запись мультимедиа
+              href: multimedia-recording.md
+            - name: Сохранение записанного содержимого
+              href: saving-recorded-content.md
+            - name: Усовершенствования воспроизведения
+              href: playback-enhancements.md
+              items:
+                - name: Указание форматов времени
+                  href: specifying-time-formats.md
+                - name: 'Настройка скорости, объема и масштаба'
+                  href: adjusting-speed--volume--and-zoom.md
+                - name: Предоставление элементов управления для обрезки и растяжения изображений
+                  href: providing-controls-for-cropping-and-stretching-images.md
+                - name: Использование палитр МЦивнд
+                  href: using-mciwnd-palettes.md
+                - name: Предоставление обновлений состояния
+                  href: providing-status-updates.md
+                - name: Использование многодокументного интерфейса
+                  href: using-a-multiple-document-interface.md
+            - name: Сообщения об ошибках и уведомления
+              href: error-messages-and-notifications.md
+            - name: Взаимодействие с устройствами MCI
+              href: communicating-with-mci-devices.md
+              items:
+                - name: Связь с устройствами MCI
+                  href: communication-with-mci-devices.md
+                - name: Возможности устройства MCI
+                  href: mci-device-capabilities.md
+        - name: Использование класса окна МЦивнд
+          href: using-the-mciwnd-window-class.md
+          items:
+            - name: Создание окна МЦивнд
+              href: creating-an-mciwnd-window.md
+            - name: Автоматизация воспроизведения для МЦивнд
+              href: automating-playback-for-mciwnd.md
+            - name: Приостановка и возобновление воспроизведения
+              href: pausing-and-resuming-playback.md
+            - name: Ограничение области воспроизведения
+              href: limiting-the-playback-scope.md
+            - name: Запись с помощью элементов управления МЦивнд
+              href: recording-with-mciwnd-controls.md
+            - name: Настройка процесса записи
+              href: customizing-the-recording-process.md
+            - name: Обрезка изображения
+              href: cropping-an-image.md
+            - name: Растяжение изображения
+              href: stretching-an-image.md
+            - name: Растяжение изображения и окна
+              href: stretching-an-image-and-window.md
+        - name: Справочник по МЦивнд
+          href: mciwnd-reference.md
+          items:
+            - name: Функции МЦивнд
+              href: mciwnd-functions.md
+            - name: Сообщения МЦивнд
+              href: mciwnd-messages.md
+            - name: МЦивнд макросы
+              href: mciwnd-macros.md
+    - name: Мультимедийные аудио
+      href: multimedia-audio.md
+      items:
+        - name: Диспетчер аудиосжатия
+          href: audio-compression-manager.md
+          items:
+            - name: О диспетчере аудиосжатия
+              href: about-the-audio-compression-manager.md
+              items:
+                - name: Сопоставление устройств Waveform-Audio
+                  href: mapping-waveform-audio-devices.md
+                - name: Как работает диспетчер аудиосжатия
+                  href: how-the-audio-compression-manager-works.md
+                - name: Функции и структуры диспетчера аудиосжатия
+                  href: audio-compression-manager-functions-and-structures.md
+                - name: 'Функции, вызываемые системой'
+                  href: functions-called-by-the-system.md
+            - name: Использование диспетчера аудиосжатия
+              href: using-the-audio-compression-manager.md
+              items:
+                - name: 'Получение строки, описывающей фильтр'
+                  href: retrieving-a-string-that-describes-a-filter.md
+                - name: Создание диалогового окна для выбора фильтра
+                  href: producing-a-dialog-box-for-selecting-a-filter.md
+                - name: Создание диалогового окна для выбора определенного типа формата
+                  href: producing-a-dialog-box-for-selecting-a-specific-type-of-format.md
+                - name: Создание диалогового окна для выбора форматов с ограниченным доступом
+                  href: producing-a-dialog-box-for-selecting-restricted-formats.md
+                - name: Создание диалогового окна для выбора формата для сохранения
+                  href: producing-a-dialog-box-for-selecting-a-format-for-saving.md
+                - name: Создание диалогового окна для выбора формата записи
+                  href: producing-a-dialog-box-for-selecting-a-format-for-recording.md
+                - name: Преобразование данных из одного формата в другой
+                  href: converting-data-from-one-format-to-another.md
+                - name: Многошаговое преобразование формата
+                  href: multistep-format-conversion.md
+                - name: Поиск определенного формата
+                  href: finding-a-specific-format.md
+                - name: Поиск конкретного драйвера
+                  href: finding-a-specific-driver.md
+                - name: Добавление драйверов в приложение
+                  href: adding-drivers-within-an-application.md
+                - name: Создание нестандартного формата
+                  href: generating-a-nonstandard-format.md
+            - name: Справочник по диспетчеру аудиосжатия
+              href: audio-compression-manager-reference.md
+              items:
+                - name: Функции сжатия звука
+                  href: audio-compression-functions.md
+                - name: Структуры сжатия звука
+                  href: audio-compression-structures.md
+                - name: Сообщения сжатия звука
+                  href: audio-compression-messages.md
+        - name: Аудио Миксерс
+          href: audio-mixers.md
+          items:
+            - name: О программе Audio Миксерс
+              href: about-audio-mixers.md
+              items:
+                - name: Архитектура микшера
+                  href: mixer-architecture.md
+                - name: Типы элементов управления
+                  href: control-types.md
+                  items:
+                    - name: Пользовательские элементы управления для микшера звука
+                      href: audio-mixer-custom-controls.md
+                    - name: фадерс
+                      href: faders.md
+                    - name: Списки
+                      href: lists.md
+                    - name: Приборов
+                      href: meters.md
+                    - name: С помощью чисел
+                      href: numbers.md
+                    - name: Ползунки
+                      href: sliders.md
+                    - name: коммутаторы;
+                      href: switches.md
+                    - name: Элементы управления времени
+                      href: time-controls.md
+                - name: Запросы устройства микшера
+                  href: mixer-device-queries.md
+                - name: Открытие и закрытие микшерных устройств
+                  href: opening-and-closing-mixer-devices.md
+                - name: Службы обратного вызова окна
+                  href: window-callback-services.md
+                - name: Звуковые линии и управляющие запросы
+                  href: audio-line-and-control-queries.md
+                - name: Audio Миксерс в Windows Vista
+                  href: audio-mixers-in-windows-vista.md
+            - name: Справочник по звуковым микшерам
+              href: audio-mixer-reference.md
+              items:
+                - name: Функции микшера звука
+                  href: audio-mixer-functions.md
+                - name: Структуры микшера звука
+                  href: audio-mixer-structures.md
+                - name: Сообщения микшера звука
+                  href: audio-mixer-messages.md
+        - name: Цифровой интерфейс музыкальных инструментов (MIDI)
+          href: musical-instrument-digital-interface--midi.md
+          items:
+            - name: О MIDI
+              href: about-midi.md
+              items:
+                - name: Средство сопоставления MIDI
+                  href: the-midi-mapper.md
+                  items:
+                    - name: Средство сопоставления MIDI и Windows
+                      href: the-midi-mapper-and-windows.md
+                    - name: Архитектура сопоставителя MIDI
+                      href: the-midi-mapper-architecture.md
+                    - name: Схема канала
+                      href: the-channel-map.md
+                    - name: Карты исправлений
+                      href: patch-maps.md
+                    - name: Скалярный том
+                      href: the-volume-scalar.md
+                    - name: Карты ключей
+                      href: key-maps.md
+                    - name: Сводка по картам и сообщениям MIDI
+                      href: summary-of-maps-and-midi-messages.md
+                - name: Интерфейс управления мультимедиа (MCI)
+                  href: media-control-interface--mci.md
+                - name: Буферы потока
+                  href: stream-buffers.md
+                  items:
+                    - name: Формат буфера потока
+                      href: stream-buffer-format.md
+                    - name: Сведения о времени
+                      href: timing-information.md
+                    - name: Типы событий MIDI
+                      href: midi-event-types.md
+                    - name: Потоки MIDI
+                      href: midi-streams.md
+                - name: Службы MIDI
+                  href: midi-services.md
+                  items:
+                    - name: Запрос устройств MIDI
+                      href: querying-midi-devices.md
+                    - name: Открытие и закрытие драйверов устройств
+                      href: opening-and-closing-device-drivers.md
+                    - name: Выделение и подготовка блоков данных MIDI
+                      href: allocating-and-preparing-midi-data-blocks.md
+                    - name: Управление блоками данных MIDI
+                      href: managing-midi-data-blocks.md
+                    - name: Запрос форматов времени
+                      href: requesting-time-formats.md
+                    - name: Обработка ошибок с помощью функций MIDI
+                      href: handling-errors-with-midi-functions.md
+                - name: Воспроизведение файлов MIDI
+                  href: playing-midi-files.md
+                  items:
+                    - name: Типы выходных данных MIDI
+                      href: midi-output-data-types.md
+                    - name: Запросы к выходным устройствам MIDI
+                      href: querying-midi-output-devices.md
+                    - name: Открытие выходных устройств MIDI
+                      href: opening-midi-output-devices.md
+                    - name: Отправка сообщений MIDI с помощью буферов потоков
+                      href: sending-midi-messages-with-stream-buffers.md
+                    - name: Отправка отдельных сообщений MIDI
+                      href: sending-individual-midi-messages.md
+                    - name: Отправка сообщений System-Exclusive
+                      href: sending-system-exclusive-messages.md
+                    - name: Использование окна или потока для управления воспроизведением в буфере
+                      href: using-a-window-or-thread-to-manage-buffered-playback.md
+                    - name: Использование функции обратного вызова для управления воспроизведением в буфере
+                      href: using-a-callback-function-to-manage-buffered-playback.md
+                    - name: Использование обратного вызова события для управления воспроизведением в буфере
+                      href: using-an-callback-to-manage-buffered-playback.md
+                    - name: Сброс выходных данных MIDI
+                      href: resetting-midi-output.md
+                    - name: Изменение внутреннего тома MIDI синтезатор
+                      href: changing-internal-midi-synthesizer-volume.md
+                    - name: Предварительная загрузка исправлений с помощью внутренних синтезаторов MIDI
+                      href: preloading-patches-with-internal-midi-synthesizers.md
+                - name: Запись звука MIDI
+                  href: recording-midi-audio.md
+                  items:
+                    - name: Типы входных данных MIDI
+                      href: midi-input-data-types.md
+                    - name: Запрос устройств ввода MIDI
+                      href: querying-midi-input-devices.md
+                    - name: Открытие устройств ввода MIDI
+                      href: opening-midi-input-devices.md
+                    - name: Управление записью MIDI
+                      href: managing-midi-recording.md
+                    - name: Управление MIDI
+                      href: managing-midi-thru.md
+                    - name: Получение Time-Stamped сообщений MIDI
+                      href: receiving-time-stamped-midi-messages.md
+                    - name: Получение сообщений Running-Status
+                      href: receiving-running-status-messages.md
+                - name: Обработка данных MIDI из двух источников MIDI
+                  href: processing-midi-data-from-two-midi-sources.md
+                - name: Создание файлов MIDI
+                  href: creating-midi-files.md
+                  items:
+                    - name: Рекомендации по созданию файлов MIDI
+                      href: authoring-guidelines-for-midi-files.md
+                    - name: Назначения исправлений MIDI Standard
+                      href: standard-midi-patch-assignments.md
+                    - name: Стандартные сочетания клавиш MIDI
+                      href: standard-midi-key-assignments.md
+            - name: Использование MIDI
+              href: using-midi.md
+              items:
+                - name: Использование секвенсора MIDI MCI
+                  href: using-the-mci-midi-sequencer.md
+                  items:
+                    - name: Получение типа деления последовательности
+                      href: retrieving-the-sequence-division-type.md
+                    - name: Запрос и установка темп
+                      href: querying-and-setting-the-tempo.md
+                - name: Использование Мидиаутшортмсг для отправки отдельных сообщений MIDI
+                  href: using-midioutshortmsg-to-send-individual-midi-messages.md
+            - name: Справочник по MIDI
+              href: midi-reference.md
+              items:
+                - name: Функции MIDI
+                  href: midi-functions.md
+                - name: Структуры MIDI
+                  href: midi-structures.md
+                - name: Сообщения MIDI
+                  href: midi-messages.md
+                - name: Макросы MIDI
+                  href: midi-macros.md
+                - name: Типы MIDI
+                  href: midi-types.md
+        - name: Звуковая волна
+          href: waveform-audio.md
+          items:
+            - name: О звуковой волны
+              href: about-waveform-audio.md
+              items:
+                - name: Простое воспроизведение звука
+                  href: simple-audio-playback.md
+                  items:
+                    - name: Функция PlaySound
+                      href: the-playsound-function.md
+                      items:
+                        - name: Использование функции PlaySound для воспроизведения Waveform-Audio файлов
+                          href: using-playsound-to-play-waveform-audio-files.md
+                        - name: Использование функции PlaySound для цикла звуков
+                          href: using-playsound-to-loop-sounds.md
+                        - name: Использование функции PlaySound для воспроизведения системных звуков
+                          href: using-playsound-to-play-system-sounds.md
+                - name: Интерфейс Waveform-Audio
+                  href: waveform-audio-interface.md
+                  items:
+                    - name: Устройства и типы данных
+                      href: devices-and-data-types.md
+                    - name: Воспроизведение Waveform-Audio файлов
+                      href: playing-waveform-audio-files.md
+                      items:
+                        - name: Использование оконных сообщений для управления воспроизведением Waveform-Audio
+                          href: using-window-messages-to-manage-waveform-audio-playback.md
+                        - name: Получение текущей позицией воспроизведения
+                          href: retrieving-the-current-playback-position.md
+                        - name: 'Остановка, приостановка и перезапуск воспроизведения'
+                          href: stopping-pausing-and-restarting-playback.md
+                        - name: Циклическое воспроизведение
+                          href: looping-playback-wav.md
+                        - name: Изменение объема Waveform-Audio воспроизведения
+                          href: changing-the-volume-of-waveform-audio-playback.md
+                        - name: Изменение высоты и скорости воспроизведения
+                          href: changing-pitch-and-playback-rate.md
+                    - name: Запись звука звукозаписи
+                      href: recording-waveform-audio.md
+                      items:
+                        - name: Типы входных данных Waveform-Audio
+                          href: waveform-audio-input-data-types.md
+                        - name: Запрос Waveform-Audio устройств ввода
+                          href: querying-waveform-audio-input-devices.md
+                        - name: Открытие Waveform-Audio устройств ввода
+                          href: opening-waveform-audio-input-devices.md
+                        - name: Управление записью Waveform-Audio
+                          href: managing-waveform-audio-recording.md
+                        - name: Использование оконных сообщений для управления записью Waveform-Audio
+                          href: using-window-messages-to-manage-waveform-audio-recording.md
+                - name: Вспомогательный звуковой интерфейс
+                  href: auxiliary-audio-interface.md
+                  items:
+                    - name: Запрос вспомогательных звуковых устройств
+                      href: querying-auxiliary-audio-devices.md
+                    - name: Изменение объема дополнительного Audio-Devices
+                      href: changing-the-volume-of-auxiliary-audio-devices.md
+                - name: Звуковые блоки данных
+                  href: audio-data-blocks.md
+                  items:
+                    - name: Использование функции обратного вызова для обработки сообщений драйвера
+                      href: using-a-callback-function-to-process-driver-messages.md
+                    - name: Использование обратного вызова события для обработки сообщений драйвера
+                      href: using-an-callback-to-process-driver-messages.md
+                    - name: Использование окна или потока для обработки сообщений драйвера
+                      href: using-a-window-or-thread-to-process-driver-messages.md
+                    - name: Управление блоками данных путем опроса
+                      href: managing-data-blocks-by-polling.md
+                - name: Обработка ошибок с помощью звуковых функций
+                  href: handling-errors-with-audio-functions.md
+            - name: Использование волны и вспомогательного звука
+              href: using-waveform-and-auxiliary-audio.md
+              items:
+                - name: Воспроизведение ЗВУКовых ресурсов
+                  href: playing-wave-resources.md
+                - name: Использование структуры ВАВЕФОРМАТЕКС
+                  href: using-the-waveformatex-structure.md
+                - name: Определение поддержки нестандартного формата
+                  href: determining-nonstandard-format-support.md
+                - name: Пример записи данных волны
+                  href: example-of-writing-waveform-data.md
+                - name: Обработка сообщения MM_WOM_DONE
+                  href: processing-the-mm-wom-done-message.md
+            - name: Справочник по Waveform Audio
+              href: waveform-audio-reference.md
+              items:
+                - name: Функции волны
+                  href: waveform-functions.md
+                - name: Структуры волны
+                  href: waveform-structures.md
+                - name: Сообщения волны
+                  href: waveform-messages.md
+    - name: Входные данные мультимедиа
+      href: multimedia-input.md
+      items:
+        - name: Файловый ввод-вывод мультимедиа
+          href: multimedia-file-i-o.md
+          items:
+            - name: О файловых операциях ввода-вывода мультимедиа
+              href: about-multimedia-file-i-o.md
+              items:
+                - name: Службы файлового ввода-вывода мультимедиа
+                  href: multimedia-file-i-o-services.md
+                  items:
+                    - name: Основные службы
+                      href: basic-services.md
+                    - name: Буферизируемые службы
+                      href: buffered-services.md
+                    - name: Службы формата файлов обмена ресурсами
+                      href: resource-interchange-file-format-services.md
+                    - name: Настраиваемые службы
+                      href: custom-services.md
+            - name: Использование файлового ввода-вывода мультимедиа
+              href: using-multimedia-file-i-o.md
+              items:
+                - name: Открытие файла с помощью Ммиупен
+                  href: opening-a-file-with-mmioopen.md
+                - name: Создание и удаление файла
+                  href: creating-and-deleting-a-file.md
+                - name: Поиск новой позицией в файле
+                  href: seeking-to-a-new-position-in-a-file.md
+                - name: Изменение размера буфера ввода-вывода
+                  href: changing-the-i-o-buffer-size.md
+                - name: Доступ к буферу файлового ввода-вывода
+                  href: accessing-a-file-i-o-buffer.md
+                - name: Создание кодов Four-Character
+                  href: generating-four-character-codes.md
+                - name: Создание фрагмента Metallica
+                  href: creating-a-riff-chunk.md
+                - name: Поиск фрагмента Metallica
+                  href: searching-for-a-riff-chunk.md
+                - name: Поиск подфрагмента
+                  href: searching-for-a-subchunk.md
+                - name: Выполнение файлового ввода-вывода для файлов Metallica
+                  href: performing-file-i-o-on-riff-files.md
+                - name: Выполнение файлового ввода-вывода в памяти
+                  href: performing-memory-file-i-o.md
+                - name: Установка пользовательских процедур ввода-вывода
+                  href: installing-custom-i-o-procedures.md
+                - name: Совместное использование процедуры ввода-вывода с другими приложениями
+                  href: sharing-an-i-o-procedure-with-other-applications.md
+            - name: Справочник по операциям файлового ввода-вывода мультимедиа
+              href: multimedia-file-i-o-reference.md
+              items:
+                - name: Функции файлового ввода-вывода мультимедиа
+                  href: multimedia-file-i-o-functions.md
+                - name: Структуры файлового ввода-вывода мультимедиа
+                  href: multimedia-file-i-o-structures.md
+                - name: Сообщения файлового ввода-вывода мультимедиа
+                  href: multimedia-file-i-o-messages.md
+        - name: Джойстики
+          href: joysticks.md
+          items:
+            - name: О джойстиках
+              href: about-joysticks.md
+              items:
+                - name: Возможности джойстика
+                  href: joystick-capabilities.md
+                - name: Расположение джойстика
+                  href: joystick-position.md
+                - name: Уведомления джойстика
+                  href: joystick-notifications.md
+                  items:
+                    - name: Уведомления Time-Based
+                      href: time-based-notifications.md
+                    - name: Уведомления Event-Based
+                      href: event-based-notifications.md
+                    - name: Сообщения уведомления джойстика
+                      href: joystick-notification-messages.md
+            - name: Использование джойстиков
+              href: using-joysticks.md
+              items:
+                - name: Получение возможностей драйвера
+                  href: getting-the-driver-capabilities.md
+                - name: Запись входных данных джойстика
+                  href: capturing-joystick-input.md
+                - name: Обработка сообщений джойстика
+                  href: processing-joystick-messages.md
+            - name: Справочник по джойстику
+              href: joystick-reference.md
+              items:
+                - name: Функции джойстика мультимедийных функций
+                  href: multimedia-joystick-functions.md
+                - name: Мультимедийные структуры джойстика
+                  href: multimedia-joystick-structures.md
+                - name: Мультимедийные сообщения джойстика
+                  href: multimedia-joystick-messages.md
+        - name: Таймеры мультимедиа
+          href: multimedia-timers.md
+          items:
+            - name: О таймерах мультимедиа
+              href: about-multimedia-timers.md
+              items:
+                - name: Получение системного времени
+                  href: obtaining-the-system-time.md
+                - name: Разрешение таймера
+                  href: timer-resolution.md
+                - name: Операции с событиями таймера
+                  href: timer-operations.md
+            - name: Использование таймеров мультимедиа
+              href: using-multimedia-timers.md
+              items:
+                - name: Получение и Настройка разрешения таймера
+                  href: obtaining-and-setting-timer-resolution.md
+                - name: Запуск одного события таймера
+                  href: starting-a-single-timer.md
+                - name: Написание функции обратного вызова таймера
+                  href: writing-a-timer-callback-function.md
+                - name: Отмена события таймера
+                  href: canceling-a-timer-event.md
+            - name: Справочник по таймеру мультимедиа
+              href: multimedia-timer-reference.md
+              items:
+                - name: Функции таймера мультимедиа
+                  href: multimedia-timer-functions.md
+                - name: Структуры таймера мультимедиа
+                  href: multimedia-timer-structures.md
+    - name: Видео для Windows
+      href: video-for-windows.md
+      items:
+        - name: Функции и макросы Авифиле
+          href: avifile-functions-and-macros.md
+          items:
+            - name: О функциях и макросах Авифиле
+              href: about-avifile-functions-and-macros.md
+              items:
+                - name: Типы данных и возвращаемые значения функции
+                  href: function-data-types-and-return-values.md
+                - name: Операции Авифиле
+                  href: avifile-operations.md
+                  items:
+                    - name: Открытие и закрытие файлов
+                      href: opening-and-closing-files.md
+                    - name: Чтение из файла
+                      href: reading-from-a-file.md
+                    - name: Запись в файл
+                      href: writing-to-a-file.md
+                    - name: Использование буфера обмена с файлами AVI
+                      href: using-the-clipboard-with-avi-files.md
+                - name: Потоковые операции
+                  href: stream-operations.md
+                  items:
+                    - name: Открытие и закрытие потоков
+                      href: opening-and-closing-streams.md
+                    - name: Чтение из потока
+                      href: reading-from-a-stream.md
+                    - name: Работа с сжатыми данными видео в потоке
+                      href: working-with-compressed-video-data-in-a-stream.md
+                    - name: Создание файла из существующих потоков
+                      href: creating-a-file-from-existing-streams.md
+                    - name: Запись потоков в файл
+                      href: writing-streams-to-a-file.md
+                    - name: Размещение в потоках
+                      href: positioning-in-streams.md
+                    - name: Создание временных потоков
+                      href: creating-temporary-streams.md
+                    - name: Изменение потоков
+                      href: editing-streams.md
+            - name: Использование функций и макросов Авифиле
+              href: using-avifile-functions-and-macros.md
+              items:
+                - name: Открытие файла AVI
+                  href: opening-an-avi-file.md
+                - name: Открытие потоков в файле AVI и закрытие файла
+                  href: opening-streams-in-an-avi-file-and-closing-the-file.md
+                - name: Чтение потоков из файла AVI
+                  href: reading-streams-from-an-avi-file.md
+                - name: Чтение из одного потока и запись в другой
+                  href: reading-from-one-stream-and-writing-to-another.md
+                - name: Использование функций редактирования и помещение файла в буфер обмена
+                  href: using-the-editing-functions-and-putting-a-file-on-the-clipboard.md
+            - name: Справочник по Авифиле
+              href: avifile-reference.md
+              items:
+                - name: Функции Авифиле
+                  href: avifile-functions.md
+                - name: Структуры Авифиле
+                  href: avifile-structures.md
+                - name: Авифиле макросы
+                  href: avifile-macros.md
+        - name: Диспетчер сжатия видео
+          href: video-compression-manager.md
+          items:
+            - name: О диспетчере сжатия видео
+              href: about-the-video-compression-manager.md
+              items:
+                - name: Архитектура ВКМ
+                  href: vcm-architecture.md
+                - name: 'Системные записи для сжатия, декомпрессоров и модулей подготовки отчетов'
+                  href: system-entries-for-compressors-decompressors-and-renderers.md
+                - name: ВКМ Services
+                  href: vcm-services.md
+                  items:
+                    - name: Основы сжатия и декомпрессора
+                      href: compressor-and-decompressor-basics.md
+                    - name: User-Selected программы сжатия
+                      href: user-selected-compressors.md
+                    - name: Установка и удаление программы сжатия и распаковки
+                      href: compressor-and-decompressor-installation-and-removal.md
+                    - name: Настройка программы сжатия и распаковки
+                      href: compressor-and-decompressor-configuration.md
+                    - name: Получение сведений об упаковщиках и декомпрессорах
+                      href: getting-information-about-compressors-and-decompressors.md
+                    - name: Сжатие Single-Image
+                      href: single-image-compression.md
+                    - name: Сжатие последовательностей
+                      href: sequence-compression.md
+                    - name: Сжатие Image-Data
+                      href: image-data-compression.md
+                    - name: Распаковка Single-Image
+                      href: single-image-decompression.md
+                    - name: Распаковка Image-Data
+                      href: image-data-decompression.md
+                    - name: Мониторинг хода сжатия и распаковки
+                      href: monitoring-the-progress-of-compressors-and-decompressors.md
+                    - name: Возможности рисования оборудования
+                      href: hardware-drawing-capabilities.md
+            - name: Использование диспетчера сжатия видео
+              href: using-the-video-compression-manager.md
+              items:
+                - name: Поиск и открытие компрессоров и декомпрессоров
+                  href: locating-and-opening-compressors-and-decompressors.md
+                - name: Установка компрессоров и декомпрессоров
+                  href: installing-compressors-and-decompressors.md
+                - name: Настройка сжатия и декомпрессоров
+                  href: configuring-compressors-and-decompressors.md
+                - name: Получение сведений об упаковщиках и декомпрессорах
+                  href: obtaining-information-about-compressors-and-decompressors.md
+                - name: Определение формата выходных данных программы сжатия
+                  href: determining-a-compressors-output-format.md
+                - name: Сжатие данных
+                  href: compressing-data.md
+                - name: Определение формата вывода декомпрессора
+                  href: determining-a-decompressors-output-format.md
+                - name: Распаковка данных
+                  href: decompressing-data.md
+                - name: 'Определение того, может ли драйвер управлять входным форматом'
+                  href: determining-if-a-driver-can-handle-the-input-format.md
+                - name: Подготовка к рисованию данных
+                  href: preparing-to-draw-data.md
+                - name: Рисование данных
+                  href: drawing-data.md
+                - name: Мониторинг хода выполнения программы сжатия и распаковки
+                  href: monitoring-compressor-and-decompressor-progress.md
+            - name: Справочник по диспетчеру сжатия видео
+              href: video-compression-manager-reference.md
+              items:
+                - name: Функции сжатия видео
+                  href: video-compression-functions.md
+                - name: Структуры сжатия видео
+                  href: video-compression-structures.md
+                - name: Сообщения о сжатии видео
+                  href: video-compression-messages.md
+                - name: Макросы сжатия видео
+                  href: video-compression-macros.md
+        - name: Видеозапись
+          href: video-capture.md
+          items:
+            - name: Сведения о записи видео
+              href: about-video-capture.md
+              items:
+                - name: 'Видеозапись: минимальный подход'
+                  href: video-capture--a-minimal-approach.md
+                - name: Основные параметры записи
+                  href: basic-capture-options.md
+                  items:
+                    - name: Частота захвата
+                      href: capture-rate.md
+                    - name: Завершение записи ключей
+                      href: keys-ending-capture.md
+                    - name: Ограничение времени
+                      href: time-limit.md
+                - name: Окна захвата
+                  href: capture-windows.md
+                  items:
+                    - name: Создание окна Авикап Capture
+                      href: creating-an-avicap-capture-window.md
+                    - name: Подключение окна записи к драйверу записи
+                      href: connecting-a-capture-window-to-a-capture-driver.md
+                    - name: Взаимодействие с окном Parent-Child
+                      href: parent-child-window-interaction.md
+                    - name: Состояние окна записи
+                      href: capture-window-status.md
+                - name: Драйверы записи и аудио
+                  href: capture-and-audio-drivers.md
+                  items:
+                    - name: Возможности записи драйверов
+                      href: capture-driver-capabilities.md
+                    - name: Диалоговые окна видео
+                      href: video-dialog-boxes.md
+                    - name: Режимы просмотра и наложения
+                      href: preview-and-overlay-modes.md
+                    - name: Формат видео
+                      href: video-format.md
+                    - name: Параметры видеозаписи
+                      href: video-capture-settings.md
+                    - name: Формат аудио
+                      href: audio-format.md
+                - name: Запись файлов и буферов
+                  href: capture-file-and-buffers.md
+                  items:
+                    - name: Записать имя файла
+                      href: capture-filename.md
+                    - name: Сохранение захваченных данных в новый файл
+                      href: saving-captured-data-to-a-new-file.md
+                    - name: Предварительное выделение дискового пространства для файла записи
+                      href: disk-space-preallocation-for-the-capture-file.md
+                    - name: Размер индексов
+                      href: index-size.md
+                    - name: Гранулярность фрагментов видео и звука
+                      href: video-and-audio-chunk-granularity.md
+                    - name: Буферы видео
+                      href: video-buffers.md
+                    - name: Звуковые буферы
+                      href: audio-buffers.md
+                - name: Варианты захвата
+                  href: capture-variations.md
+                  items:
+                    - name: Ручная запись кадров
+                      href: manual-frame-capture.md
+                    - name: Запись Still-Image
+                      href: still-image-capture.md
+                    - name: Захват без использования Хранилище дисков
+                      href: capture-without-using-disk-storage.md
+                    - name: Потоковая передача данных с устройства MCI
+                      href: streaming-capture-from-an-mci-device.md
+                - name: Дополнительные параметры записи
+                  href: advanced-capture-options.md
+                  items:
+                    - name: Измерение качества видео
+                      href: measuring-video-quality.md
+                    - name: Запись User-Initiated
+                      href: user-initiated-capture.md
+                    - name: Работа с палитрами
+                      href: working-with-palettes.md
+                    - name: Внедрение фрагментов сведений в файл AVI
+                      href: embedding-information-chunks-in-an-avi-file.md
+                    - name: Сообщения данных пользователя
+                      href: user-data-messages.md
+                - name: Функции обратного вызова Авикап
+                  href: avicap-callback-functions.md
+                  items:
+                    - name: Точный контроль захвата
+                      href: precise-capture-control.md
+                    - name: Error
+                      href: error.md
+                    - name: Frame
+                      href: frame.md
+                    - name: Функции обратного вызова состояния
+                      href: status-callback-functions.md
+                    - name: Videostream
+                      href: videostream.md
+                    - name: вавестреам
+                      href: wavestream.md
+                    - name: Функции обратного вызова yield
+                      href: yield-callback-functions.md
+                    - name: Отключение функций обратного вызова
+                      href: disabling-callback-functions.md
+            - name: Использование видеозаписи
+              href: using-video-capture.md
+              items:
+                - name: Создание окна записи
+                  href: creating-a-capture-window.md
+                - name: Подключение к драйверу записи
+                  href: connecting-to-a-capture-driver.md
+                - name: Перечисление установленных драйверов записи
+                  href: enumerating-installed-capture-drivers.md
+                - name: Получение возможностей драйвера записи
+                  href: obtaining-the-capabilities-of-a-capture-driver.md
+                - name: Получение состояния окна записи
+                  href: obtaining-the-status-of-a-capture-window.md
+                - name: Отображение диалоговых окон для установки характеристик видео
+                  href: displaying-dialog-boxes-to-set-video-characteristics.md
+                - name: Получение и установка формата видео
+                  href: obtaining-and-setting-the-video-format.md
+                - name: Предварительный просмотр видео
+                  href: previewing-video.md
+                - name: Включение наложения видео
+                  href: enabling-video-overlay.md
+                - name: Присвоение имени файлу записи
+                  href: naming-the-capture-file.md
+                - name: Форматирование записи звука
+                  href: formatting-audio-capture.md
+                - name: Изменение параметра видеозаписи
+                  href: changing-a-video-capture-setting.md
+                - name: Запись данных
+                  href: capturing-data.md
+                - name: Добавление информационного блока
+                  href: adding-an-information-chunk.md
+                - name: Добавление функций обратного вызова в приложение
+                  href: adding-callback-functions-to-an-application.md
+                - name: Создание функции обратного вызова состояния
+                  href: creating-a-status-callback-function.md
+                - name: Создание функции обратного вызова ошибки
+                  href: creating-an-error-callback-function.md
+                - name: Создание функции обратного вызова Frame
+                  href: creating-a-frame-callback-function.md
+            - name: Справочник по видеозаписи
+              href: video-capture-reference.md
+              items:
+                - name: Функции видеозаписи
+                  href: video-capture-functions.md
+                - name: Структуры видеозаписи
+                  href: video-capture-structures.md
+                - name: Сообщения видеозаписи
+                  href: video-capture-messages.md
+                - name: Макросы записи видео
+                  href: video-capture-macros.md
+        - name: Пользовательские обработчики файлов и потоков
+          href: custom-file-and-stream-handlers.md
+          items:
+            - name: О пользовательских обработчиках файлов и потоков
+              href: about-custom-file-and-stream-handlers.md
+              items:
+                - name: Архитектура обработчика
+                  href: handler-architecture.md
+                - name: Основные понятия программирования C++ и OLE
+                  href: c---and-ole-programming-concepts.md
+                  items:
+                    - name: 'Классы, объекты и интерфейсы'
+                      href: classes-objects-and-interfaces.md
+                    - name: Оператор разрешения области в C++
+                      href: the-scope-resolution-operator-in-c.md
+                    - name: Таблицы виртуальных функций
+                      href: virtual-function-tables.md
+                    - name: Объектная модель OLE Component
+                      href: the-ole-component-object-model.md
+                - name: Интерфейсы Иавистреам и Иавифиле
+                  href: iavistream-and-iavifile-interfaces.md
+                - name: Установка обработчика файлов и потоков
+                  href: file-and-stream-handler-installation.md
+            - name: Использование пользовательских обработчиков файлов и потоков
+              href: using-custom-file-and-stream-handlers.md
+              items:
+                - name: Создание файла или обработчика потока
+                  href: creating-a-file-or-stream-handler.md
+                - name: Создание таблицы виртуальной функции для обработчика потока
+                  href: creating-a-virtual-function-table-for-a-stream-handler.md
+                - name: Создание указателя на объект
+                  href: creating-an-object-pointer.md
+                - name: Получение адреса таблицы виртуальной функции
+                  href: obtaining-the-address-of-a-virtual-function-table.md
+                - name: Создание экземпляра File-Handler в библиотеке DLL
+                  href: creating-a-file-handler-instance-in-a-dll.md
+                - name: 'Определение интерфейса, который поддерживает объект'
+                  href: determining-which-interface-an-object-supports.md
+                - name: Увеличение счетчика ссылок на обработчик
+                  href: incrementing-the-handler-reference-count.md
+                - name: Удаление объекта
+                  href: deleting-an-object.md
+            - name: Справочник по пользовательскому файлу и обработчику потока
+              href: custom-file-and-stream-handler-reference.md
+              items:
+                - name: Пользовательские функции файлов и обработчиков потоков
+                  href: custom-file-and-stream-handler-functions.md
+                - name: Пользовательские интерфейсы обработчика файлов и потоков
+                  href: custom-file-and-stream-handler-interfaces.md
+        - name: дравдиб
+          href: drawdib.md
+          items:
+            - name: О функциях Дравдиб
+              href: about-the-drawdib-functions.md
+              items:
+                - name: Операции Дравдиб
+                  href: drawdib-operations.md
+                - name: Рендеринг изображений
+                  href: image-rendering.md
+                  items:
+                    - name: Последовательности изображений
+                      href: sequences-of-images.md
+                    - name: Палитр
+                      href: palettes.md
+                    - name: Временные свойства
+                      href: timing.md
+            - name: Использование Дравдиб
+              href: using-drawdib.md
+              items:
+                - name: Добавление обработчиков сообщений палитры
+                  href: adding-palette-message-handlers.md
+                - name: Рисование контекста отображения
+                  href: drawing-a-display-context.md
+                - name: Анимация палитры
+                  href: animating-a-palette.md
+            - name: Справочник по Дравдиб
+              href: drawdib-reference.md
+              items:
+                - name: Функции Дравдиб
+                  href: drawdib-functions.md
+                - name: Структуры Дравдиб
+                  href: drawdib-structures.md
+                - name: Дравдиб макросы
+                  href: drawdib-macros.md
+    - name: Мультимедийное приложение
+      href: multimedia-appendix.md
+      items:
+        - name: Спецификации мультимедийных ПК
+          href: multimedia-pc-specifications.md
+          items:
+            - name: Спецификация уровня 1
+              href: level-1-specification.md
+              items:
+                - name: Системные ресурсы уровня 1
+                  href: level-1-system-resources.md
+                - name: Оптическое хранилище уровня 1
+                  href: level-1-optical-storage.md
+                - name: Требования к аудио уровня 1
+                  href: level-1-audio-requirements.md
+            - name: Спецификация уровня 2
+              href: level-2-specification.md
+              items:
+                - name: Системные ресурсы уровня 2
+                  href: level-2-system-resources.md
+                - name: Оптическое хранилище уровня 2
+                  href: level-2-optical-storage.md
+                - name: Требования к аудиосистеме уровня 2
+                  href: level-2-audio-requirements.md
+        - name: Идентификаторы производителя и продукта
+          href: manufacturer-and-product-identifiers.md
+          items:
+            - name: Идентификаторы производителей
+              href: manufacturer-identifiers.md
+            - name: Идентификаторы продуктов корпорации Майкрософт
+              href: microsoft-corporation-product-identifiers.md
+            - name: Драйверы звуковых систем Microsoft Windows
+              href: microsoft-windows-sound-system-drivers.md
+            - name: Идентификаторы продуктов
+              href: product-identifiers.md
+        - name: Устанавливаемые драйверы
+          href: installable-drivers.md
+          items:
+            - name: Сведения об устанавливаемых драйверах
+              href: about-installable-drivers.md
+              items:
+                - name: Формат устанавливаемого драйвера
+                  href: installable-driver-format.md
+                  items:
+                    - name: Сообщения драйвера
+                      href: driver-messages.md
+                    - name: Экземпляры драйверов
+                      href: driver-instances.md
+                    - name: Конфигурация
+                      href: configuration.md
+                    - name: Установка
+                      href: installation.md
+                    - name: Функции обратного вызова
+                      href: callback-functions.md
+                    - name: Установочный файл Module-Definition диска
+                      href: installable-drive-module-definition-file.md
+                - name: 'Функции и сообщения, устанавливаемые драйвером'
+                  href: installable-driver-functions-and-messages.md
+            - name: Использование устанавливаемых драйверов
+              href: using-installable-drivers.md
+              items:
+                - name: Создание функции Дриверпрок
+                  href: creating-a-driverproc-function.md
+                - name: Настройка устанавливаемого драйвера
+                  href: configuring-an-installable-driver.md
+            - name: Справочник по устанавливаемому драйверу
+              href: installable-driver-reference.md
+              items:
+                - name: Устанавливаемые функции драйвера
+                  href: installable-driver-functions.md
+                  items:
+                    - name: клоседривер
+                      href: /previous-versions//dd797785(v=vs.85)
+                    - name: дрвжетмодулехандле
+                      href: /previous-versions//dd797924(v=vs.85)
+                    - name: жетдривермодулехандле
+                      href: /previous-versions//dd797983(v=vs.85)
+                    - name: опендривер
+                      href: /previous-versions//dd743639(v=vs.85)
+                    - name: сенддривермессаже
+                      href: /previous-versions//dd798653(v=vs.85)
+                - name: Функции драйвера
+                  href: driver-functions.md
+                  items:
+                    - name: дефдриверпрок
+                      href: /previous-versions//dd797870(v=vs.85)
+                    - name: дриверпрок
+                      href: /previous-versions//dd797918(v=vs.85)
+                    - name: дриверкаллбакк
+                      href: /previous-versions//dd797917(v=vs.85)
+                - name: Устанавливаемые сообщения драйверов
+                  href: installable-driver-messages.md
+                  items:
+                    - name: DRV_CLOSE
+                      href: drv-close.md
+                    - name: DRV_CONFIGURE
+                      href: drv-configure.md
+                    - name: DRV_DISABLE
+                      href: drv-disable.md
+                    - name: DRV_ENABLE
+                      href: drv-enable.md
+                    - name: DRV_EXITSESSION
+                      href: drv-exitsession.md
+                    - name: DRV_FREE
+                      href: drv-free.md
+                    - name: DRV_INSTALL
+                      href: drv-install.md
+                    - name: DRV_LOAD
+                      href: drv-load.md
+                    - name: DRV_OPEN
+                      href: drv-open.md
+                    - name: DRV_POWER
+                      href: drv-power.md
+                    - name: DRV_QUERYCONFIGURE
+                      href: drv-queryconfigure.md
+                    - name: DRV_REMOVE
+                      href: drv-remove.md
+                - name: Устанавливаемые структуры драйверов
+                  href: installable-driver-structures.md
+                  items:
+                    - name: дрвконфигинфо
+                      href: /previous-versions//dd797923(v=vs.85)
+    - name: Ссылка на мультимедиа
+      href: multimedia-reference.md
+      items:
+        - name: Функции для мультимедиа
+          href: multimedia-functions.md
+          items:
+            - name: акмдриверадд
+              href: /windows/desktop/api/Msacm/nf-msacm-acmdriveradd
+            - name: акмдриверклосе
+              href: /windows/desktop/api/Msacm/nf-msacm-acmdriverclose
+            - name: акмдривердетаилс
+              href: /windows/desktop/api/Msacm/nf-msacm-acmdriverdetails
+            - name: акмдриверенум
+              href: /windows/desktop/api/Msacm/nf-msacm-acmdriverenum
+            - name: акмдриверенумкб
+              href: /previous-versions//dd742891(v=vs.85)
+            - name: акмдриверид
+              href: /windows/desktop/api/Msacm/nf-msacm-acmdriverid
+            - name: акмдривермессаже
+              href: /windows/desktop/api/Msacm/nf-msacm-acmdrivermessage
+            - name: акмдриверопен
+              href: /windows/desktop/api/Msacm/nf-msacm-acmdriveropen
+            - name: акмдриверприорити
+              href: /windows/desktop/api/Msacm/nf-msacm-acmdriverpriority
+            - name: акмдриверпрок
+              href: /windows/desktop/api/Msacm/nc-msacm-acmdriverproc
+            - name: акмдриверремове
+              href: /windows/desktop/api/Msacm/nf-msacm-acmdriverremove
+            - name: акмфилтерчусе
+              href: /windows/desktop/api/Msacm/nf-msacm-acmfilterchoose
+            - name: акмфилтерчусехукпрок
+              href: /windows/desktop/api/Msacm/nc-msacm-acmfilterchoosehookproc
+            - name: акмфилтердетаилс
+              href: /windows/desktop/api/Msacm/nf-msacm-acmfilterdetails
+            - name: акмфилтеренум
+              href: /windows/desktop/api/Msacm/nf-msacm-acmfilterenum
+            - name: акмфилтеренумкб
+              href: /windows/desktop/api/Msacm/nc-msacm-acmfilterenumcb
+            - name: акмфилтертагдетаилс
+              href: /windows/desktop/api/Msacm/nf-msacm-acmfiltertagdetails
+            - name: акмфилтертаженум
+              href: /windows/desktop/api/Msacm/nf-msacm-acmfiltertagenum
+            - name: акмфилтертаженумкб
+              href: /windows/desktop/api/Msacm/nc-msacm-acmfiltertagenumcb
+            - name: акмформатчусе
+              href: /windows/desktop/api/Msacm/nf-msacm-acmformatchoose
+            - name: акмформатчусехукпрок
+              href: /windows/desktop/api/Msacm/nc-msacm-acmformatchoosehookproc
+            - name: акмформатдетаилс
+              href: /windows/desktop/api/Msacm/nf-msacm-acmformatdetails
+            - name: акмформатенум
+              href: /windows/desktop/api/Msacm/nf-msacm-acmformatenum
+            - name: акмформатенумкб
+              href: /windows/desktop/api/Msacm/nc-msacm-acmformatenumcb
+            - name: акмформатсугжест
+              href: /windows/desktop/api/Msacm/nf-msacm-acmformatsuggest
+            - name: акмформаттагдетаилс
+              href: /windows/desktop/api/Msacm/nf-msacm-acmformattagdetails
+            - name: акмформаттаженум
+              href: /windows/desktop/api/Msacm/nf-msacm-acmformattagenum
+            - name: акмформаттаженумкб
+              href: /windows/desktop/api/Msacm/nc-msacm-acmformattagenumcb
+            - name: акмжетверсион
+              href: /windows/desktop/api/Msacm/nf-msacm-acmgetversion
+            - name: акмметрикс
+              href: /windows/desktop/api/Msacm/nf-msacm-acmmetrics
+            - name: акмстреамклосе
+              href: /windows/desktop/api/Msacm/nf-msacm-acmstreamclose
+            - name: акмстреамконверт
+              href: /windows/desktop/api/Msacm/nf-msacm-acmstreamconvert
+            - name: акмстреаммессаже
+              href: /windows/desktop/api/Msacm/nf-msacm-acmstreammessage
+            - name: акмстреамопен
+              href: /windows/desktop/api/Msacm/nf-msacm-acmstreamopen
+            - name: акмстреампрепарехеадер
+              href: /windows/desktop/api/Msacm/nf-msacm-acmstreamprepareheader
+            - name: акмстреамресет
+              href: /windows/desktop/api/Msacm/nf-msacm-acmstreamreset
+            - name: акмстреамсизе
+              href: /windows/desktop/api/Msacm/nf-msacm-acmstreamsize
+            - name: акмстреамунпрепарехеадер
+              href: /windows/desktop/api/Msacm/nf-msacm-acmstreamunprepareheader
+            - name: ауксжетдевкапс
+              href: /previous-versions//dd756712(v=vs.85)
+            - name: ауксжетнумдевс
+              href: /previous-versions//dd756713(v=vs.85)
+            - name: ауксжетволуме
+              href: /previous-versions//dd756714(v=vs.85)
+            - name: ауксаутмессаже
+              href: /previous-versions//dd756716(v=vs.85)
+            - name: аукссетволуме
+              href: /previous-versions//dd756717(v=vs.85)
+            - name: авибуилдфилтер
+              href: /windows/desktop/api/Vfw/nf-vfw-avibuildfiltera
+            - name: авиклеарклипбоард
+              href: /windows/desktop/api/Vfw/nf-vfw-aviclearclipboard
+            - name: авифилеаддреф
+              href: /windows/desktop/api/Vfw/nf-vfw-avifileaddref
+            - name: авифилекреатестреам
+              href: /windows/desktop/api/Vfw/nf-vfw-avifilecreatestream
+            - name: авифилиндрекорд
+              href: /windows/desktop/api/Vfw/nf-vfw-avifileendrecord
+            - name: авифиликсит
+              href: /windows/desktop/api/Vfw/nf-vfw-avifileexit
+            - name: авифилежетстреам
+              href: /windows/desktop/api/Vfw/nf-vfw-avifilegetstream
+            - name: авифилеинфо
+              href: /windows/desktop/api/Vfw/nf-vfw-avifileinfo
+            - name: авифилеинит
+              href: /windows/desktop/api/Vfw/nf-vfw-avifileinit
+            - name: авифилеопен
+              href: /windows/desktop/api/Vfw/nf-vfw-avifileopen
+            - name: авифилереаддата
+              href: /windows/desktop/api/Vfw/nf-vfw-avifilereaddata
+            - name: авифилерелеасе
+              href: /windows/desktop/api/Vfw/nf-vfw-avifilerelease
+            - name: авифилевритедата
+              href: /windows/desktop/api/Vfw/nf-vfw-avifilewritedata
+            - name: авижетфромклипбоард
+              href: /windows/desktop/api/Vfw/nf-vfw-avigetfromclipboard
+            - name: авимакекомпресседстреам
+              href: /windows/desktop/api/Vfw/nf-vfw-avimakecompressedstream
+            - name: авимакефилефромстреамс
+              href: /windows/desktop/api/Vfw/nf-vfw-avimakefilefromstreams
+            - name: авимакестреамфромклипбоард
+              href: /windows/desktop/api/Vfw/nf-vfw-avimakestreamfromclipboard
+            - name: авипутфилеонклипбоард
+              href: /windows/desktop/api/Vfw/nf-vfw-aviputfileonclipboard
+            - name: ависаве
+              href: /windows/desktop/api/Vfw/nf-vfw-avisavea
+            - name: ависавеоптионс
+              href: /windows/desktop/api/Vfw/nf-vfw-avisaveoptions
+            - name: ависавеоптионсфри
+              href: /windows/desktop/api/Vfw/nf-vfw-avisaveoptionsfree
+            - name: ависавев
+              href: /windows/desktop/api/Vfw/nf-vfw-avisaveva
+            - name: авистреамаддреф
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamaddref
+            - name: авистреамбегинстреаминг
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreambeginstreaming
+            - name: авистреамкреате
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamcreate
+            - name: авистреамендстреаминг
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamendstreaming
+            - name: авистреамфиндсампле
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamfindsample
+            - name: авистреамжетфраме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamgetframe
+            - name: авистреамжетфрамеклосе
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamgetframeclose
+            - name: авистреамжетфрамеопен
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamgetframeopen
+            - name: авистреаминфо
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreaminfoa
+            - name: авистреамленгс
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamlength
+            - name: авистреамопенфромфиле
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamopenfromfilea
+            - name: авистреамреад
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamread
+            - name: авистреамреаддата
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamreaddata
+            - name: авистреамреадформат
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamreadformat
+            - name: авистреамрелеасе
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamrelease
+            - name: авистреамсамплетотиме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamsampletotime
+            - name: авистреамсетформат
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamsetformat
+            - name: авистреамстарт
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamstart
+            - name: авистреамтиметосампле
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamtimetosample
+            - name: авистреамврите
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamwrite
+            - name: авистреамвритедата
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamwritedata
+            - name: капкреатекаптуревиндов
+              href: /windows/desktop/api/Vfw/nf-vfw-capcreatecapturewindowa
+            - name: капконтролкаллбакк
+              href: /windows/desktop/api/Vfw/nc-vfw-capcontrolcallback
+            - name: капжетдривердескриптион
+              href: /windows/desktop/api/Vfw/nf-vfw-capgetdriverdescriptiona
+            - name: каперроркаллбакк
+              href: /windows/desktop/api/Vfw/nc-vfw-caperrorcallbacka
+            - name: капстатускаллбакк
+              href: /windows/desktop/api/Vfw/nc-vfw-capstatuscallbacka
+            - name: капвидеостреамкаллбакк
+              href: /windows/desktop/api/Vfw/nc-vfw-capvideocallback
+            - name: капвавестреамкаллбакк
+              href: /windows/desktop/api/Vfw/nc-vfw-capwavecallback
+            - name: капиелдкаллбакк
+              href: /windows/desktop/api/Vfw/nc-vfw-capyieldcallback
+            - name: креатидитаблестреам
+              href: /windows/desktop/api/Vfw/nf-vfw-createeditablestream
+            - name: DllGetClassObject
+              href: /previous-versions//dd797891(v=vs.85)
+            - name: дравдиббегин
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibbegin
+            - name: дравдибчанжепалетте
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibchangepalette
+            - name: дравдибклосе
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibclose
+            - name: дравдибдрав
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibdraw
+            - name: дравдибенд
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibend
+            - name: дравдибжетбуффер
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibgetbuffer
+            - name: дравдибжетпалетте
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibgetpalette
+            - name: дравдибопен
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibopen
+            - name: дравдибпрофиледисплай
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibprofiledisplay
+            - name: дравдибреализе
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibrealize
+            - name: дравдибсетпалетте
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibsetpalette
+            - name: дравдибстарт
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibstart
+            - name: дравдибстоп
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibstop
+            - name: дравдибтиме
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibtime
+            - name: едитстреамклоне
+              href: /windows/desktop/api/Vfw/nf-vfw-editstreamclone
+            - name: едитстреамкопи
+              href: /windows/desktop/api/Vfw/nf-vfw-editstreamcopy
+            - name: едитстреамкут
+              href: /windows/desktop/api/Vfw/nf-vfw-editstreamcut
+            - name: едитстреампасте
+              href: /windows/desktop/api/Vfw/nf-vfw-editstreampaste
+            - name: едитстреамсетинфо
+              href: /windows/desktop/api/Vfw/nf-vfw-editstreamsetinfoa
+            - name: едитстреамсетнаме
+              href: /windows/desktop/api/Vfw/nf-vfw-editstreamsetnamea
+            - name: жетопенфиленамепревиев
+              href: /windows/desktop/api/Vfw/nf-vfw-getopenfilenamepreviewa
+            - name: жетсавефиленамепревиев
+              href: /windows/desktop/api/Vfw/nf-vfw-getsavefilenamepreviewa
+            - name: икклосе
+              href: /windows/desktop/api/Vfw/nf-vfw-icclose
+            - name: иккомпресс
+              href: /windows/desktop/api/Vfw/nf-vfw-iccompress
+            - name: иккомпрессорчусе
+              href: /windows/desktop/api/Vfw/nf-vfw-iccompressorchoose
+            - name: иккомпрессорфри
+              href: /windows/desktop/api/Vfw/nf-vfw-iccompressorfree
+            - name: икдекомпресс
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompress
+            - name: икдекомпрессекс
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressex
+            - name: икдекомпрессексбегин
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressexbegin
+            - name: икдекомпрессекскуери
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressexquery
+            - name: икдрав
+              href: /windows/desktop/api/Vfw/nf-vfw-icdraw
+            - name: икдравбегин
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawbegin
+            - name: икдравсугжестформат
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawsuggestformat
+            - name: икжетдисплайформат
+              href: /windows/desktop/api/Vfw/nf-vfw-icgetdisplayformat
+            - name: икжетинфо
+              href: /windows/desktop/api/Vfw/nf-vfw-icgetinfo
+            - name: иЦимажекомпресс
+              href: /windows/desktop/api/Vfw/nf-vfw-icimagecompress
+            - name: иЦимажедекомпресс
+              href: /windows/desktop/api/Vfw/nf-vfw-icimagedecompress
+            - name: иЦинфо
+              href: /windows/desktop/api/Vfw/nf-vfw-icinfo
+            - name: иЦинсталл
+              href: /windows/desktop/api/Vfw/nf-vfw-icinstall
+            - name: иклокате
+              href: /windows/desktop/api/Vfw/nf-vfw-iclocate
+            - name: икопен
+              href: /windows/desktop/api/Vfw/nf-vfw-icopen
+            - name: икопенфунктион
+              href: /windows/desktop/api/Vfw/nf-vfw-icopenfunction
+            - name: икремове
+              href: /windows/desktop/api/Vfw/nf-vfw-icremove
+            - name: иксендмессаже
+              href: /windows/desktop/api/Vfw/nf-vfw-icsendmessage
+            - name: иксеккомпрессфраме
+              href: /windows/desktop/api/Vfw/nf-vfw-icseqcompressframe
+            - name: иксеккомпрессфраминд
+              href: /windows/desktop/api/Vfw/nf-vfw-icseqcompressframeend
+            - name: иксеккомпрессфраместарт
+              href: /windows/desktop/api/Vfw/nf-vfw-icseqcompressframestart
+            - name: иксетстатуспрок
+              href: /windows/desktop/api/Vfw/nf-vfw-icsetstatusproc
+            - name: иопрок
+              href: /previous-versions//dd757098(v=vs.85)
+            - name: жойконфигчанжед
+              href: /windows/desktop/api/joystickapi/nf-joystickapi-joyconfigchanged
+            - name: жойжетдевкапс
+              href: /previous-versions//dd757105(v=vs.85)
+            - name: жойжетнумдевс
+              href: /previous-versions//dd757106(v=vs.85)
+            - name: жойжетпос
+              href: /previous-versions//dd757107(v=vs.85)
+            - name: жойжетпосекс
+              href: /previous-versions//dd757108(v=vs.85)
+            - name: жойжетсрешолд
+              href: /previous-versions//dd757109(v=vs.85)
+            - name: жойрелеасекаптуре
+              href: /previous-versions//dd757113(v=vs.85)
+            - name: жойсеткаптуре
+              href: /previous-versions//dd757114(v=vs.85)
+            - name: жойсетсрешолд
+              href: /previous-versions//dd757115(v=vs.85)
+            - name: лптимекаллбакк
+              href: /previous-versions//ff728861(v=vs.85)
+            - name: мЦиексекуте
+              href: /previous-versions//dd757154(v=vs.85)
+            - name: мЦижеткреатортаск
+              href: /previous-versions//dd757155(v=vs.85)
+            - name: мЦижетдевицеид
+              href: /previous-versions//dd757156(v=vs.85)
+            - name: мЦижетдевицеидфромелементид
+              href: /previous-versions//dd757157(v=vs.85)
+            - name: мЦижетеррорстринг
+              href: /previous-versions//dd757158(v=vs.85)
+            - name: мЦижетиелдпрок
+              href: /previous-versions//dd757159(v=vs.85)
+            - name: мЦисендкомманд
+              href: /previous-versions//dd757160(v=vs.85)
+            - name: mciSendString
+              href: /previous-versions//dd757161(v=vs.85)
+            - name: мЦисетиелдпрок
+              href: /previous-versions//dd757163(v=vs.85)
+            - name: мЦивндкреате
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndcreatea
+            - name: мЦивндрегистеркласс
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndregisterclass
+            - name: мидиконнект
+              href: /previous-versions//dd798446(v=vs.85)
+            - name: мидидисконнект
+              href: /previous-versions//dd798447(v=vs.85)
+            - name: мидиинаддбуффер
+              href: /previous-versions//dd798450(v=vs.85)
+            - name: мидиинклосе
+              href: /previous-versions//dd798452(v=vs.85)
+            - name: мидиинжетдевкапс
+              href: /previous-versions//dd798453(v=vs.85)
+            - name: мидиинжетеррортекст
+              href: /previous-versions//dd798454(v=vs.85)
+            - name: мидиинжетид
+              href: /previous-versions//dd798455(v=vs.85)
+            - name: мидиинжетнумдевс
+              href: /previous-versions//dd798456(v=vs.85)
+            - name: мидиинмессаже
+              href: /previous-versions//dd798457(v=vs.85)
+            - name: мидиинопен
+              href: /previous-versions//dd798458(v=vs.85)
+            - name: мидиинпрепарехеадер
+              href: /previous-versions//dd798459(v=vs.85)
+            - name: мидиинпрок
+              href: /previous-versions//dd798460(v=vs.85)
+            - name: мидиинресет
+              href: /previous-versions//dd798461(v=vs.85)
+            - name: мидиинстарт
+              href: /previous-versions//dd798462(v=vs.85)
+            - name: мидиинстоп
+              href: /previous-versions//dd798463(v=vs.85)
+            - name: мидиинунпрепарехеадер
+              href: /previous-versions//dd798464(v=vs.85)
+            - name: мидиауткачедрумпатчес
+              href: /previous-versions//dd798465(v=vs.85)
+            - name: мидиауткачепатчес
+              href: /previous-versions//dd798466(v=vs.85)
+            - name: мидиаутклосе
+              href: /previous-versions//dd798468(v=vs.85)
+            - name: мидиаутжетдевкапс
+              href: /previous-versions//dd798469(v=vs.85)
+            - name: мидиаутжетеррортекст
+              href: /previous-versions//dd798470(v=vs.85)
+            - name: мидиаутжетид
+              href: /previous-versions//dd798471(v=vs.85)
+            - name: мидиаутжетнумдевс
+              href: /previous-versions//dd798472(v=vs.85)
+            - name: мидиаутжетволуме
+              href: /previous-versions//dd798473(v=vs.85)
+            - name: мидиаутлонгмсг
+              href: /previous-versions//dd798474(v=vs.85)
+            - name: мидиаутмессаже
+              href: /previous-versions//dd798475(v=vs.85)
+            - name: мидиаутопен
+              href: /previous-versions//dd798476(v=vs.85)
+            - name: мидиаутпрепарехеадер
+              href: /previous-versions//dd798477(v=vs.85)
+            - name: мидиаутпрок
+              href: /previous-versions//dd798478(v=vs.85)
+            - name: мидиаутресет
+              href: /previous-versions//dd798479(v=vs.85)
+            - name: мидиаутсетволуме
+              href: /previous-versions//dd798480(v=vs.85)
+            - name: мидиаутшортмсг
+              href: /previous-versions//dd798481(v=vs.85)
+            - name: мидиаутунпрепарехеадер
+              href: /previous-versions//dd798482(v=vs.85)
+            - name: мидистреамклосе
+              href: /previous-versions//dd798485(v=vs.85)
+            - name: мидистреамопен
+              href: /previous-versions//dd798486(v=vs.85)
+            - name: мидистреамаут
+              href: /previous-versions//dd798487(v=vs.85)
+            - name: мидистреампаусе
+              href: /previous-versions//dd798488(v=vs.85)
+            - name: мидистреампоситион
+              href: /previous-versions//dd798489(v=vs.85)
+            - name: мидистреампроперти
+              href: /previous-versions//dd798490(v=vs.85)
+            - name: мидистреамрестарт
+              href: /previous-versions//dd798491(v=vs.85)
+            - name: мидистреамстоп
+              href: /previous-versions//dd798492(v=vs.85)
+            - name: миксерклосе
+              href: /previous-versions//dd757292(v=vs.85)
+            - name: миксержетконтролдетаилс
+              href: /previous-versions//dd757299(v=vs.85)
+            - name: миксержетдевкапс
+              href: /previous-versions//dd757300(v=vs.85)
+            - name: миксержетид
+              href: /previous-versions//dd757301(v=vs.85)
+            - name: миксержетлинеконтролс
+              href: /previous-versions//dd757302(v=vs.85)
+            - name: миксержетлинеинфо
+              href: /previous-versions//dd757303(v=vs.85)
+            - name: миксержетнумдевс
+              href: /previous-versions//dd757304(v=vs.85)
+            - name: миксермессаже
+              href: /previous-versions//dd757307(v=vs.85)
+            - name: миксеропен
+              href: /previous-versions//dd757308(v=vs.85)
+            - name: миксерсетконтролдетаилс
+              href: /previous-versions//dd757309(v=vs.85)
+            - name: ммжеткурренттаск
+              href: /windows/desktop/api/Mmddk/nf-mmddk-mmgetcurrenttask
+            - name: ммиоадванце
+              href: /previous-versions//dd757314(v=vs.85)
+            - name: ммиоасценд
+              href: /previous-versions//dd757315(v=vs.85)
+            - name: ммиоклосе
+              href: /previous-versions//dd757316(v=vs.85)
+            - name: ммиокреатечунк
+              href: /previous-versions//dd757317(v=vs.85)
+            - name: ммиодесценд
+              href: /previous-versions//dd757318(v=vs.85)
+            - name: ммиофлуш
+              href: /previous-versions//dd757319(v=vs.85)
+            - name: ммиожетинфо
+              href: /previous-versions//dd757321(v=vs.85)
+            - name: ммиоинсталлиопрок
+              href: /previous-versions//dd757323(v=vs.85)
+            - name: ммиупен
+              href: /previous-versions//dd757331(v=vs.85)
+            - name: ммиопрок
+              href: /previous-versions//dd757332(v=vs.85)
+            - name: ммиореад
+              href: /previous-versions//dd757334(v=vs.85)
+            - name: ммиоренаме
+              href: /previous-versions//dd757335(v=vs.85)
+            - name: ммиосик
+              href: /previous-versions//dd757336(v=vs.85)
+            - name: ммиосендмессаже
+              href: /previous-versions//dd757337(v=vs.85)
+            - name: ммиосетбуффер
+              href: /previous-versions//dd757338(v=vs.85)
+            - name: ммиосетинфо
+              href: /previous-versions//dd757339(v=vs.85)
+            - name: ммиострингтофауркк
+              href: /previous-versions//dd757340(v=vs.85)
+            - name: ммиоврите
+              href: /previous-versions//dd757341(v=vs.85)
+            - name: ммсистемжетверсион
+              href: /previous-versions//dd757342(v=vs.85)
+            - name: ммтаскблокк
+              href: /windows/desktop/api/Mmddk/nf-mmddk-mmtaskblock
+            - name: ммтасккреате
+              href: /windows/desktop/api/Mmddk/nf-mmddk-mmtaskcreate
+            - name: ммтасксигнал
+              href: /windows/desktop/api/Mmddk/nf-mmddk-mmtasksignal
+            - name: ммтаскиелд
+              href: /windows/desktop/api/Mmddk/nf-mmddk-mmtaskyield
+            - name: мистатуспрок
+              href: /previous-versions//dd743620(v=vs.85)
+            - name: PlaySound
+              href: /previous-versions//dd743680(v=vs.85)
+            - name: сндопенсаунд
+              href: /windows/desktop/api/mmiscapi/nf-mmiscapi-sndopensound
+            - name: сндплайсаунд
+              href: /previous-versions//dd798676(v=vs.85)
+            - name: стретчдиб
+              href: /windows/desktop/api/Vfw/nf-vfw-stretchdib
+            - name: тимебегинпериод
+              href: /windows/desktop/api/TimeAPI/nf-timeapi-timebeginperiod
+            - name: тиминдпериод
+              href: /windows/desktop/api/TimeAPI/nf-timeapi-timeendperiod
+            - name: тимежетдевкапс
+              href: /windows/desktop/api/TimeAPI/nf-timeapi-timegetdevcaps
+            - name: тимежетсистемтиме
+              href: /windows/desktop/api/TimeAPI/nf-timeapi-timegetsystemtime
+            - name: тимежеттиме
+              href: /windows/desktop/api/TimeAPI/nf-timeapi-timegettime
+            - name: тимекиллевент
+              href: /previous-versions//dd757630(v=vs.85)
+            - name: тимепрок
+              href: /previous-versions//dd757631(v=vs.85)
+            - name: тимесетевент
+              href: /previous-versions//dd757634(v=vs.85)
+            - name: вавеинаддбуффер
+              href: /previous-versions//dd743838(v=vs.85)
+            - name: вавеинклосе
+              href: /previous-versions//dd743840(v=vs.85)
+            - name: вавеинжетдевкапс
+              href: /previous-versions//dd743841(v=vs.85)
+            - name: вавеинжетеррортекст
+              href: /previous-versions//dd743842(v=vs.85)
+            - name: вавеинжетид
+              href: /previous-versions//dd743843(v=vs.85)
+            - name: вавеинжетнумдевс
+              href: /previous-versions//dd743844(v=vs.85)
+            - name: вавеинжетпоситион
+              href: /previous-versions//dd743845(v=vs.85)
+            - name: вавеинмессаже
+              href: /previous-versions//dd743846(v=vs.85)
+            - name: вавеинопен
+              href: /previous-versions//dd743847(v=vs.85)
+            - name: вавеинпрепарехеадер
+              href: /previous-versions//dd743848(v=vs.85)
+            - name: вавеинпрок
+              href: /previous-versions//dd743849(v=vs.85)
+            - name: вавеинресет
+              href: /previous-versions//dd743850(v=vs.85)
+            - name: вавеинстарт
+              href: /previous-versions//dd743851(v=vs.85)
+            - name: вавеинстоп
+              href: /previous-versions//dd743852(v=vs.85)
+            - name: вавеинунпрепарехеадер
+              href: /previous-versions//dd743853(v=vs.85)
+            - name: вавеаутбреаклуп
+              href: /previous-versions//dd743854(v=vs.85)
+            - name: вавеаутклосе
+              href: /previous-versions//dd743856(v=vs.85)
+            - name: вавеаутжетдевкапс
+              href: /previous-versions//dd743857(v=vs.85)
+            - name: вавеаутжетеррортекст
+              href: /previous-versions//dd743858(v=vs.85)
+            - name: вавеаутжетид
+              href: /previous-versions//dd743859(v=vs.85)
+            - name: вавеаутжетнумдевс
+              href: /previous-versions//dd743860(v=vs.85)
+            - name: вавеаутжетпитч
+              href: /previous-versions//dd743861(v=vs.85)
+            - name: вавеаутжетплайбаккрате
+              href: /previous-versions//dd743862(v=vs.85)
+            - name: вавеаутжетпоситион
+              href: /previous-versions//dd743863(v=vs.85)
+            - name: вавеаутжетволуме
+              href: /previous-versions//dd743864(v=vs.85)
+            - name: вавеаутмессаже
+              href: /previous-versions//dd743865(v=vs.85)
+            - name: вавеаутопен
+              href: /previous-versions//dd743866(v=vs.85)
+            - name: вавеаутпаусе
+              href: /previous-versions//dd743867(v=vs.85)
+            - name: вавеаутпрепарехеадер
+              href: /previous-versions//dd743868(v=vs.85)
+            - name: вавеаутпрок
+              href: /previous-versions//dd743869(v=vs.85)
+            - name: вавеаутресет
+              href: /previous-versions//dd743870(v=vs.85)
+            - name: вавеаутрестарт
+              href: /previous-versions//dd743871(v=vs.85)
+            - name: вавеаутсетпитч
+              href: /previous-versions//dd743872(v=vs.85)
+            - name: вавеаутсетплайбаккрате
+              href: /previous-versions//dd743873(v=vs.85)
+            - name: вавеаутсетволуме
+              href: /previous-versions//dd743874(v=vs.85)
+            - name: вавеаутунпрепарехеадер
+              href: /previous-versions//dd743875(v=vs.85)
+            - name: вавеаутврите
+              href: /previous-versions//dd743876(v=vs.85)
+        - name: Структуры мультимедиа
+          href: multimedia-structures.md
+          items:
+            - name: акмдривердетаилс
+              href: /windows/desktop/api/Msacm/ns-msacm-acmdriverdetails
+            - name: акмфилтерчусе
+              href: /windows/desktop/api/Msacm/ns-msacm-acmfilterchoose
+            - name: акмфилтердетаилс
+              href: /windows/desktop/api/Msacm/ns-msacm-acmfilterdetails
+            - name: акмфилтертагдетаилс
+              href: /windows/desktop/api/Msacm/ns-msacm-acmfiltertagdetails
+            - name: акмформатчусе
+              href: /windows/desktop/api/Msacm/ns-msacm-acmformatchoose
+            - name: акмформатдетаилс
+              href: /windows/desktop/api/Msacm/ns-msacm-acmformatdetails
+            - name: акмформаттагдетаилс
+              href: /windows/desktop/api/Msacm/ns-msacm-acmformattagdetails
+            - name: акмстреамхеадер
+              href: /windows/desktop/api/Msacm/ns-msacm-acmstreamheader
+            - name: аукскапс
+              href: /previous-versions//dd756711(v=vs.85)
+            - name: авикомпрессоптионс
+              href: /windows/desktop/api/Vfw/ns-vfw-avicompressoptions
+            - name: авифилеинфо
+              href: /windows/win32/api/Vfw/ns-vfw-avifileinfoa
+            - name: авистреаминфо
+              href: /windows/win32/api/Vfw/ns-vfw-avistreaminfoa
+            - name: капдриверкапс
+              href: /windows/win32/api/Vfw/ns-vfw-capdrivercaps
+            - name: капинфочунк
+              href: /windows/win32/api/Vfw/ns-vfw-capinfochunk
+            - name: капстатус
+              href: /windows/win32/api/Vfw/ns-vfw-capstatus
+            - name: каптурепармс
+              href: /windows/win32/api/Vfw/ns-vfw-captureparms
+            - name: компварс
+              href: /windows/desktop/api/Vfw/ns-vfw-compvars
+            - name: дравдибтиме
+              href: /windows/desktop/api/Vfw/ns-vfw-drawdibtime
+            - name: иккомпресс
+              href: /windows/desktop/api/Vfw/ns-vfw-iccompress
+            - name: иккомпрессфрамес
+              href: /windows/desktop/api/Vfw/ns-vfw-iccompressframes
+            - name: икдекомпресс
+              href: /windows/desktop/api/Vfw/ns-vfw-icdecompress
+            - name: икдекомпрессекс
+              href: /windows/desktop/api/Vfw/ns-vfw-icdecompressex
+            - name: икдрав
+              href: /windows/desktop/api/Vfw/ns-vfw-icdraw
+            - name: икдравбегин
+              href: /windows/desktop/api/Vfw/ns-vfw-icdrawbegin
+            - name: икдравсугжест
+              href: /windows/desktop/api/Vfw/ns-vfw-icdrawsuggest
+            - name: иЦинфо
+              href: /windows/desktop/api/Vfw/ns-vfw-icinfo
+            - name: икопен
+              href: /windows/desktop/api/Vfw/ns-vfw-icopen
+            - name: иксетстатуспрок
+              href: /windows/desktop/api/Vfw/ns-vfw-icsetstatusproc
+            - name: жойкапс
+              href: /previous-versions//dd757103(v=vs.85)
+            - name: жойинфо
+              href: /previous-versions//dd757110(v=vs.85)
+            - name: жойинфоекс
+              href: /previous-versions//dd757112(v=vs.85)
+            - name: MCI_BREAK_PARMS
+              href: mci-break-parms.md
+            - name: MCI_DGV_CAPTURE_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_capture_parmsa
+            - name: MCI_DGV_CUE_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_cue_parms
+            - name: MCI_DGV_COPY_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_copy_parms
+            - name: MCI_DGV_CUT_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_cut_parms
+            - name: MCI_DGV_DELETE_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_delete_parms
+            - name: MCI_DGV_FREEZE_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_rect_parms
+            - name: MCI_DGV_INFO_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_info_parmsa
+            - name: MCI_DGV_LIST_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_list_parmsa
+            - name: MCI_DGV_LOAD_PARMS
+              href: /previous-versions//dd743391(v=vs.85)
+            - name: MCI_DGV_MONITOR_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_monitor_parms
+            - name: MCI_DGV_OPEN_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_open_parmsa
+            - name: MCI_DGV_PASTE_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_paste_parms
+            - name: MCI_DGV_PAUSE_PARMS
+              href: /previous-versions//dd743395(v=vs.85)
+            - name: MCI_DGV_PLAY_PARMS
+              href: /previous-versions//dd743396(v=vs.85)
+            - name: MCI_DGV_PUT_PARMS
+              href: /previous-versions//dd743397(v=vs.85)
+            - name: MCI_DGV_QUALITY_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_quality_parmsa
+            - name: MCI_DGV_RECORD_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_record_parms
+            - name: MCI_DGV_RECT_PARMS
+              href: /windows/desktop/api/digitalv/ns-digitalv-mci_dgv_rect_parms
+            - name: MCI_DGV_RESERVE_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_reserve_parmsa
+            - name: MCI_DGV_RESTORE_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_restore_parmsa
+            - name: MCI_DGV_RESUME_PARMS
+              href: /previous-versions//dd743403(v=vs.85)
+            - name: MCI_DGV_SAVE_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_save_parmsa
+            - name: MCI_DGV_SET_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_set_parms
+            - name: MCI_DGV_SETAUDIO_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_setaudio_parmsa
+            - name: MCI_DGV_SETVIDEO_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_setvideo_parmsa
+            - name: MCI_DGV_SIGNAL_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_signal_parms
+            - name: MCI_DGV_STATUS_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_status_parmsa
+            - name: MCI_DGV_STEP_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_step_parms
+            - name: MCI_DGV_STOP_PARMS
+              href: /previous-versions//dd743411(v=vs.85)
+            - name: MCI_DGV_UPDATE_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_update_parms
+            - name: MCI_DGV_WINDOW_PARMS
+              href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_window_parmsa
+            - name: MCI_GENERIC_PARMS
+              href: mci-generic-parms.md
+            - name: MCI_GETDEVCAPS_PARMS
+              href: mci-getdevcaps-parms.md
+            - name: MCI_INFO_PARMS
+              href: mci-info-parms.md
+            - name: MCI_LOAD_PARMS
+              href: mci-load-parms.md
+            - name: MCI_OPEN_PARMS
+              href: mci-open-parms.md
+            - name: MCI_OVLY_LOAD_PARMS
+              href: mci-ovly-load-parms.md
+            - name: MCI_OVLY_OPEN_PARMS
+              href: mci-ovly-open-parms.md
+            - name: MCI_OVLY_RECT_PARMS
+              href: mci-ovly-rect-parms.md
+            - name: MCI_OVLY_SAVE_PARMS
+              href: /previous-versions//dd743447(v=vs.85)
+            - name: MCI_OVLY_WINDOW_PARMS
+              href: mci-ovly-window-parms.md
+            - name: MCI_PLAY_PARMS
+              href: mci-play-parms.md
+            - name: MCI_RECORD_PARMS
+              href: mci-record-parms.md
+            - name: MCI_SAVE_PARMS
+              href: mci-save-parms.md
+            - name: MCI_SEEK_PARMS
+              href: mci-seek-parms.md
+            - name: MCI_SEQ_SET_PARMS
+              href: mci-seq-set-parms.md
+            - name: MCI_SET_PARMS
+              href: mci-set-parms.md
+            - name: MCI_STATUS_PARMS
+              href: mci-status-parms.md
+            - name: MCI_SYSINFO_PARMS
+              href: mci-sysinfo-parms.md
+            - name: MCI_VCR_CUE_PARMS
+              href: mci-vcr-cue-parms.md
+            - name: MCI_VCR_LIST_PARMS
+              href: mci-vcr-list-parms.md
+            - name: MCI_VCR_PLAY_PARMS
+              href: mci-vcr-play-parms.md
+            - name: MCI_VCR_RECORD_PARMS
+              href: mci-vcr-record-parms.md
+            - name: MCI_VCR_SEEK_PARMS
+              href: mci-vcr-seek-parms.md
+            - name: MCI_VCR_SET_PARMS
+              href: mci-vcr-set-parms.md
+            - name: MCI_VCR_SETAUDIO_PARMS
+              href: mci-vcr-setaudio-parms.md
+            - name: MCI_VCR_SETTUNER_PARMS
+              href: mci-vcr-settuner-parms.md
+            - name: MCI_VCR_SETVIDEO_PARMS
+              href: mci-vcr-setvideo-parms.md
+            - name: MCI_VCR_STATUS_PARMS
+              href: mci-vcr-status-parms.md
+            - name: MCI_VCR_STEP_PARMS
+              href: mci-vcr-step-parms.md
+            - name: MCI_VD_ESCAPE_PARMS
+              href: mci-vd-escape-parms.md
+            - name: MCI_VD_PLAY_PARMS
+              href: mci-vd-play-parms.md
+            - name: MCI_VD_STEP_PARMS
+              href: mci-vd-step-parms.md
+            - name: MCI_WAVE_DELETE_PARMS
+              href: mci-wave-delete-parms.md
+            - name: MCI_WAVE_OPEN_PARMS
+              href: mci-wave-open-parms.md
+            - name: MCI_WAVE_SET_PARMS
+              href: mci-wave-set-parms.md
+            - name: мидиевент
+              href: /previous-versions//dd798448(v=vs.85)
+            - name: мидихдр
+              href: /previous-versions//dd798449(v=vs.85)
+            - name: мидиинкапс
+              href: /previous-versions//dd798451(v=vs.85)
+            - name: мидиауткапс
+              href: /previous-versions//dd798467(v=vs.85)
+            - name: мидипроптемпо
+              href: /previous-versions//dd798483(v=vs.85)
+            - name: мидипроптимедив
+              href: /previous-versions//dd798484(v=vs.85)
+            - name: мидистрмбуффвер
+              href: /previous-versions//dd798493(v=vs.85)
+            - name: миксеркапс
+              href: /windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa
+            - name: миксерконтрол
+              href: /windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola
+            - name: миксерконтролдетаилс
+              href: /windows/win32/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta
+            - name: MIXERCONTROLDETAILS_BOOLEAN
+              href: /previous-versions//dd757295(v=vs.85)
+            - name: MIXERCONTROLDETAILS_LISTTEXT
+              href: /previous-versions//dd757296(v=vs.85)
+            - name: MIXERCONTROLDETAILS_SIGNED
+              href: /previous-versions//dd757297(v=vs.85)
+            - name: MIXERCONTROLDETAILS_UNSIGNED
+              href: /previous-versions//dd757298(v=vs.85)
+            - name: миксерлине
+              href: /windows/desktop/api/mmeapi/ns-mmeapi-mixerlinea
+            - name: миксерлинеконтролс
+              href: /windows/desktop/api/mmeapi/ns-mmeapi-mixerlinecontrolsa
+            - name: ммккинфо
+              href: /previous-versions//dd757312(v=vs.85)
+            - name: ммиоинфо
+              href: /previous-versions//dd757322(v=vs.85)
+            - name: ммтиме
+              href: /previous-versions//dd757347(v=vs.85)
+            - name: пкмвавеформат
+              href: /previous-versions//dd743663(v=vs.85)
+            - name: тимекапс
+              href: /windows/win32/api/TimeAPI/ns-timeapi-timecaps
+            - name: видеохдр
+              href: /windows/win32/api/Vfw/ns-vfw-videohdr
+            - name: вавефилтер
+              href: /windows/win32/api/Mmreg/ns-mmreg-wavefilter
+            - name: вавеформат
+              href: /windows/desktop/api/mmeapi/ns-mmeapi-waveformat
+            - name: вавеформатекс
+              href: /previous-versions//dd757713(v=vs.85)
+            - name: вавеформатекстенсибле
+              href: /windows/desktop/api/mmreg/ns-mmreg-waveformatextensible
+            - name: вавехдр
+              href: /previous-versions//dd743837(v=vs.85)
+            - name: вавеинкапс
+              href: /previous-versions//dd743839(v=vs.85)
+            - name: вавеауткапс
+              href: /previous-versions//dd743855(v=vs.85)
+        - name: Мультимедийные макросы
+          href: multimedia-macros.md
+          items:
+            - name: авистреамдатасизе
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamdatasize
+            - name: авистреаменд
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamend
+            - name: авистреамендтиме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamendtime
+            - name: авистреамформатсизе
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamformatsize
+            - name: авистреамискэйфраме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamiskeyframe
+            - name: авистреамленгстиме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamlengthtime
+            - name: авистреамнеаресткэйфраме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamnearestkeyframe
+            - name: авистреамнеаресткэйфраметиме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamnearestkeyframetime
+            - name: авистреамнеарестсампле
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamnearestsample
+            - name: авистреамнеарестсамплетиме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamnearestsampletime
+            - name: авистреамнексткэйфраме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamnextkeyframe
+            - name: авистреамнексткэйфраметиме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamnextkeyframetime
+            - name: авистреамнекстсампле
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamnextsample
+            - name: авистреамнекстсамплетиме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamnextsampletime
+            - name: авистреампревкэйфраме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamprevkeyframe
+            - name: авистреампревкэйфраметиме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamprevkeyframetime
+            - name: авистреампревсампле
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamprevsample
+            - name: авистреампревсамплетиме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamprevsampletime
+            - name: авистреамсамплесизе
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamsamplesize
+            - name: авистреамсамплетосампле
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamsampletosample
+            - name: авистреамстарттиме
+              href: /windows/desktop/api/Vfw/nf-vfw-avistreamstarttime
+            - name: капкаптуреаборт
+              href: /windows/desktop/api/Vfw/nf-vfw-capcaptureabort
+            - name: капкаптурежетсетуп
+              href: /windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup
+            - name: капкаптуресекуенце
+              href: /windows/desktop/api/Vfw/nf-vfw-capcapturesequence
+            - name: капкаптуресекуенценофиле
+              href: /windows/desktop/api/Vfw/nf-vfw-capcapturesequencenofile
+            - name: капкаптуресетсетуп
+              href: /windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup
+            - name: капкаптуресинглефраме
+              href: /windows/desktop/api/Vfw/nf-vfw-capcapturesingleframe
+            - name: капкаптуресинглефрамеклосе
+              href: /windows/desktop/api/Vfw/nf-vfw-capcapturesingleframeclose
+            - name: капкаптуресинглефрамеопен
+              href: /windows/desktop/api/Vfw/nf-vfw-capcapturesingleframeopen
+            - name: капкаптурестоп
+              href: /windows/desktop/api/Vfw/nf-vfw-capcapturestop
+            - name: капдлгвидеокомпрессион
+              href: /windows/desktop/api/Vfw/nf-vfw-capdlgvideocompression
+            - name: капдлгвидеодисплай
+              href: /windows/desktop/api/Vfw/nf-vfw-capdlgvideodisplay
+            - name: капдлгвидеоформат
+              href: /windows/desktop/api/Vfw/nf-vfw-capdlgvideoformat
+            - name: капдлгвидеосаурце
+              href: /windows/desktop/api/Vfw/nf-vfw-capdlgvideosource
+            - name: капдриверконнект
+              href: /windows/desktop/api/Vfw/nf-vfw-capdriverconnect
+            - name: капдривердисконнект
+              href: /windows/desktop/api/Vfw/nf-vfw-capdriverdisconnect
+            - name: капдривержеткапс
+              href: /windows/desktop/api/Vfw/nf-vfw-capdrivergetcaps
+            - name: капдривержетнаме
+              href: /windows/desktop/api/Vfw/nf-vfw-capdrivergetname
+            - name: капдривержетверсион
+              href: /windows/desktop/api/Vfw/nf-vfw-capdrivergetversion
+            - name: капедиткопи
+              href: /windows/desktop/api/Vfw/nf-vfw-capeditcopy
+            - name: капфилеаллок
+              href: /windows/desktop/api/Vfw/nf-vfw-capfilealloc
+            - name: капфилежеткаптурефиле
+              href: /windows/desktop/api/Vfw/nf-vfw-capfilegetcapturefile
+            - name: капфилесавеас
+              href: /windows/desktop/api/Vfw/nf-vfw-capfilesaveas
+            - name: капфилесаведиб
+              href: /windows/desktop/api/Vfw/nf-vfw-capfilesavedib
+            - name: капфилесеткаптурефиле
+              href: /windows/desktop/api/Vfw/nf-vfw-capfilesetcapturefile
+            - name: капфилесетинфочунк
+              href: /windows/desktop/api/Vfw/nf-vfw-capfilesetinfochunk
+            - name: капжетаудиоформат
+              href: /windows/desktop/api/Vfw/nf-vfw-capgetaudioformat
+            - name: капжетаудиоформатсизе
+              href: /windows/desktop/api/Vfw/nf-vfw-capgetaudioformatsize
+            - name: капжетмЦидевиценаме
+              href: /windows/desktop/api/Vfw/nf-vfw-capgetmcidevicename
+            - name: капжетстатус
+              href: /windows/desktop/api/Vfw/nf-vfw-capgetstatus
+            - name: капжетусердата
+              href: /windows/desktop/api/Vfw/nf-vfw-capgetuserdata
+            - name: капжетвидеоформат
+              href: /windows/desktop/api/Vfw/nf-vfw-capgetvideoformat
+            - name: капжетвидеоформатсизе
+              href: /windows/desktop/api/Vfw/nf-vfw-capgetvideoformatsize
+            - name: капграбфраме
+              href: /windows/desktop/api/Vfw/nf-vfw-capgrabframe
+            - name: капграбфраменостоп
+              href: /windows/desktop/api/Vfw/nf-vfw-capgrabframenostop
+            - name: каповерлай
+              href: /windows/desktop/api/Vfw/nf-vfw-capoverlay
+            - name: каппалеттеауто
+              href: /windows/desktop/api/Vfw/nf-vfw-cappaletteauto
+            - name: каппалеттемануал
+              href: /windows/desktop/api/Vfw/nf-vfw-cappalettemanual
+            - name: каппалеттеопен
+              href: /windows/desktop/api/Vfw/nf-vfw-cappaletteopen
+            - name: каппалеттепасте
+              href: /windows/desktop/api/Vfw/nf-vfw-cappalettepaste
+            - name: каппалеттесаве
+              href: /windows/desktop/api/Vfw/nf-vfw-cappalettesave
+            - name: каппревиев
+              href: /windows/desktop/api/Vfw/nf-vfw-cappreview
+            - name: каппревиеврате
+              href: /windows/desktop/api/Vfw/nf-vfw-cappreviewrate
+            - name: каппревиевскале
+              href: /windows/desktop/api/Vfw/nf-vfw-cappreviewscale
+            - name: капсетаудиоформат
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetaudioformat
+            - name: капсеткаллбакконкапконтрол
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetcallbackoncapcontrol
+            - name: капсеткаллбакконеррор
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetcallbackonerror
+            - name: капсеткаллбакконфраме
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetcallbackonframe
+            - name: капсеткаллбакконстатус
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetcallbackonstatus
+            - name: капсеткаллбакконвидеостреам
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetcallbackonvideostream
+            - name: капсеткаллбакконвавестреам
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetcallbackonwavestream
+            - name: капсеткаллбаккониелд
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetcallbackonyield
+            - name: капсетмЦидевиценаме
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetmcidevicename
+            - name: капсетскроллпос
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetscrollpos
+            - name: капсетусердата
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetuserdata
+            - name: капсетвидеоформат
+              href: /windows/desktop/api/Vfw/nf-vfw-capsetvideoformat
+            - name: дравдибупдате
+              href: /windows/desktop/api/Vfw/nf-vfw-drawdibupdate
+            - name: икабаут
+              href: /windows/desktop/api/Vfw/nf-vfw-icabout
+            - name: иккомпрессбегин
+              href: /windows/desktop/api/Vfw/nf-vfw-iccompressbegin
+            - name: иккомпрессенд
+              href: /windows/desktop/api/Vfw/nf-vfw-iccompressend
+            - name: иккомпрессжетформат
+              href: /windows/desktop/api/Vfw/nf-vfw-iccompressgetformat
+            - name: иккомпрессжетформатсизе
+              href: /windows/desktop/api/Vfw/nf-vfw-iccompressgetformatsize
+            - name: иккомпрессжетсизе
+              href: /windows/desktop/api/Vfw/nf-vfw-iccompressgetsize
+            - name: иккомпресскуери
+              href: /windows/desktop/api/Vfw/nf-vfw-iccompressquery
+            - name: икконфигуре
+              href: /windows/desktop/api/Vfw/nf-vfw-icconfigure
+            - name: икдекомпрессбегин
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressbegin
+            - name: икдекомпрессенд
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressend
+            - name: икдекомпрессексенд
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressexend
+            - name: икдекомпрессжетформат
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressgetformat
+            - name: икдекомпрессжетформатсизе
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressgetformatsize
+            - name: икдекомпрессжетпалетте
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressgetpalette
+            - name: икдекомпрессопен
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressopen
+            - name: икдекомпресскуери
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompressquery
+            - name: икдекомпресссетпалетте
+              href: /windows/desktop/api/Vfw/nf-vfw-icdecompresssetpalette
+            - name: икдравчанжепалетте
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawchangepalette
+            - name: икдравенд
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawend
+            - name: икдравфлуш
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawflush
+            - name: икдравжеттиме
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawgettime
+            - name: икдравопен
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawopen
+            - name: икдравкуери
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawquery
+            - name: икдравреализе
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawrealize
+            - name: икдраврендербуффер
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawrenderbuffer
+            - name: икдравсеттиме
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawsettime
+            - name: икдравстарт
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawstart
+            - name: икдравстартплай
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawstartplay
+            - name: икдравстоп
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawstop
+            - name: икдравстопплай
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawstopplay
+            - name: икдраввиндов
+              href: /windows/desktop/api/Vfw/nf-vfw-icdrawwindow
+            - name: икжетбуфферсвантед
+              href: /windows/desktop/api/Vfw/nf-vfw-icgetbufferswanted
+            - name: икжетдефаулткэйфрамерате
+              href: /windows/desktop/api/Vfw/nf-vfw-icgetdefaultkeyframerate
+            - name: икжетдефаулткуалити
+              href: /windows/desktop/api/Vfw/nf-vfw-icgetdefaultquality
+            - name: икжетстате
+              href: /windows/desktop/api/Vfw/nf-vfw-icgetstate
+            - name: икжетстатесизе
+              href: /windows/desktop/api/Vfw/nf-vfw-icgetstatesize
+            - name: иккуерябаут
+              href: /windows/desktop/api/Vfw/nf-vfw-icqueryabout
+            - name: иккуериконфигуре
+              href: /windows/desktop/api/Vfw/nf-vfw-icqueryconfigure
+            - name: иксетстате
+              href: /windows/desktop/api/Vfw/nf-vfw-icsetstate
+            - name: max
+              href: max.md
+            - name: MCI_HMS_HOUR
+              href: mci-hms-hour.md
+            - name: MCI_HMS_MINUTE
+              href: mci-hms-minute.md
+            - name: MCI_HMS_SECOND
+              href: mci-hms-second.md
+            - name: MCI_MAKE_HMS
+              href: mci-make-hms.md
+            - name: MCI_MAKE_MSF
+              href: mci-make-msf.md
+            - name: MCI_MAKE_TMSF
+              href: mci-make-tmsf.md
+            - name: MCI_MSF_FRAME
+              href: /previous-versions//dd743438(v=vs.85)
+            - name: MCI_MSF_MINUTE
+              href: mci-msf-minute.md
+            - name: MCI_MSF_SECOND
+              href: mci-msf-second.md
+            - name: MCI_TMSF_FRAME
+              href: mci-tmsf-frame.md
+            - name: MCI_TMSF_MINUTE
+              href: mci-tmsf-minute.md
+            - name: MCI_TMSF_SECOND
+              href: mci-tmsf-second.md
+            - name: MCI_TMSF_TRACK
+              href: mci-tmsf-track.md
+            - name: мЦивндканконфиг
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndcanconfig
+            - name: мЦивндканежект
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndcaneject
+            - name: мЦивндканплай
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndcanplay
+            - name: мЦивндканрекорд
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndcanrecord
+            - name: мЦивндкансаве
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndcansave
+            - name: мЦивндканвиндов
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndcanwindow
+            - name: мЦивндчанжестилес
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndchangestyles
+            - name: мЦивндклосе
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndclose
+            - name: мЦивнддестрой
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwnddestroy
+            - name: мЦивндежект
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndeject
+            - name: мЦивнденд
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndend
+            - name: мЦивнджетактиветимер
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetactivetimer
+            - name: мЦивнджеталиас
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetalias
+            - name: мЦивнджетдест
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetdest
+            - name: мЦивнджетдевице
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetdevice
+            - name: мЦивнджетдевицеид
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetdeviceid
+            - name: мЦивнджетенд
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetend
+            - name: мЦивнджетеррор
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgeterror
+            - name: мЦивнджетфиленаме
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetfilename
+            - name: мЦивнджетинактиветимер
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetinactivetimer
+            - name: мЦивнджетленгс
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetlength
+            - name: мЦивнджетмоде
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetmode
+            - name: мЦивнджетпалетте
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetpalette
+            - name: мЦивнджетпоситион
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetposition
+            - name: мЦивнджетпоситионстринг
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetpositionstring
+            - name: мЦивнджетрепеат
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetrepeat
+            - name: мЦивнджетсаурце
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetsource
+            - name: мЦивнджетспид
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetspeed
+            - name: мЦивнджетстарт
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetstart
+            - name: мЦивнджетстилес
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetstyles
+            - name: мЦивнджеттимеформат
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgettimeformat
+            - name: мЦивнджетволуме
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetvolume
+            - name: мЦивнджетзум
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndgetzoom
+            - name: мЦивндхоме
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndhome
+            - name: мЦивнднев
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndnew
+            - name: мЦивндопен
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndopen
+            - name: мЦивндопендиалог
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndopendialog
+            - name: мЦивндопенинтерфаце
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndopeninterface
+            - name: мЦивндпаусе
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndpause
+            - name: мЦивндплай
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndplay
+            - name: мЦивндплайфром
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndplayfrom
+            - name: мЦивндплайфромто
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndplayfromto
+            - name: мЦивндплайреверсе
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndplayreverse
+            - name: мЦивндплайто
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndplayto
+            - name: мЦивндпутдест
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndputdest
+            - name: мЦивндпутсаурце
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndputsource
+            - name: мЦивндреализе
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndrealize
+            - name: мЦивндрекорд
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndrecord
+            - name: мЦивндресуме
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndresume
+            - name: мЦивндретурнстринг
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndreturnstring
+            - name: мЦивндсаве
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsave
+            - name: мЦивндсаведиалог
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsavedialog
+            - name: мЦивндсик
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndseek
+            - name: мЦивндсендстринг
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsendstring
+            - name: мЦивндсетактиветимер
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsetactivetimer
+            - name: мЦивндсетинактиветимер
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsetinactivetimer
+            - name: мЦивндсетовнер
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsetowner
+            - name: мЦивндсетпалетте
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsetpalette
+            - name: мЦивндсетрепеат
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsetrepeat
+            - name: мЦивндсетспид
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsetspeed
+            - name: мЦивндсеттимеформат
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsettimeformat
+            - name: мЦивндсеттимерс
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsettimers
+            - name: мЦивндсетволуме
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsetvolume
+            - name: мЦивндсетзум
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndsetzoom
+            - name: мЦивндстеп
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndstep
+            - name: мЦивндстоп
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndstop
+            - name: мЦивндусефрамес
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwnduseframes
+            - name: мЦивндусетиме
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndusetime
+            - name: мЦивндвалидатемедиа
+              href: /windows/desktop/api/Vfw/nf-vfw-mciwndvalidatemedia
+            - name: MEVT_EVENTPARM
+              href: /previous-versions//dd798441(v=vs.85)
+            - name: MEVT_EVENTTYPE
+              href: /previous-versions//dd798442(v=vs.85)
+            - name: мин
+              href: min.md
+            - name: ммиофауркк
+              href: /windows/desktop/api/vfw/nf-vfw-mmiofourcc
+            - name: сндалиас
+              href: /previous-versions//dd798675(v=vs.85)
+        - name: Мультимедийные сообщения
+          href: multimedia-messages.md
+          items:
+            - name: ICM_ABOUT
+              href: icm-about.md
+            - name: ICM_COMPRESS
+              href: icm-compress.md
+            - name: ICM_COMPRESS_BEGIN
+              href: icm-compress-begin.md
+            - name: ICM_COMPRESS_END
+              href: icm-compress-end.md
+            - name: ICM_COMPRESS_FRAMES_INFO
+              href: icm-compress-frames-info.md
+            - name: ICM_COMPRESS_GET_FORMAT
+              href: icm-compress-get-format.md
+            - name: ICM_COMPRESS_GET_SIZE
+              href: icm-compress-get-size.md
+            - name: ICM_COMPRESS_QUERY
+              href: icm-compress-query.md
+            - name: ICM_CONFIGURE
+              href: icm-configure.md
+            - name: ICM_DECOMPRESS
+              href: icm-decompress.md
+            - name: ICM_DECOMPRESS_BEGIN
+              href: icm-decompress-begin.md
+            - name: ICM_DECOMPRESS_END
+              href: icm-decompress-end.md
+            - name: ICM_DECOMPRESS_GET_FORMAT
+              href: icm-decompress-get-format.md
+            - name: ICM_DECOMPRESS_GET_PALETTE
+              href: icm-decompress-get-palette.md
+            - name: ICM_DECOMPRESS_QUERY
+              href: icm-decompress-query.md
+            - name: ICM_DECOMPRESS_SET_PALETTE
+              href: icm-decompress-set-palette.md
+            - name: ICM_DECOMPRESSEX
+              href: icm-decompressex.md
+            - name: ICM_DECOMPRESSEX_BEGIN
+              href: icm-decompressex-begin.md
+            - name: ICM_DECOMPRESSEX_END
+              href: icm-decompressex-end.md
+            - name: ICM_DECOMPRESSEX_QUERY
+              href: icm-decompressex-query.md
+            - name: ICM_DRAW
+              href: icm-draw.md
+            - name: ICM_DRAW_BEGIN
+              href: icm-draw-begin.md
+            - name: ICM_DRAW_CHANGEPALETTE
+              href: icm-draw-changepalette.md
+            - name: ICM_DRAW_END
+              href: icm-draw-end.md
+            - name: ICM_DRAW_FLUSH
+              href: icm-draw-flush.md
+            - name: ICM_DRAW_GET_PALETTE
+              href: icm-draw-get-palette.md
+            - name: ICM_DRAW_GETTIME
+              href: icm-draw-gettime.md
+            - name: ICM_DRAW_QUERY
+              href: icm-draw-query.md
+            - name: ICM_DRAW_REALIZE
+              href: icm-draw-realize.md
+            - name: ICM_DRAW_RENDERBUFFER
+              href: icm-draw-renderbuffer.md
+            - name: ICM_DRAW_SETTIME
+              href: icm-draw-settime.md
+            - name: ICM_DRAW_START
+              href: icm-draw-start.md
+            - name: ICM_DRAW_START_PLAY
+              href: icm-draw-start-play.md
+            - name: ICM_DRAW_STOP
+              href: icm-draw-stop.md
+            - name: ICM_DRAW_STOP_PLAY
+              href: icm-draw-stop-play.md
+            - name: ICM_DRAW_SUGGESTFORMAT
+              href: icm-draw-suggestformat.md
+            - name: ICM_DRAW_WINDOW
+              href: icm-draw-window.md
+            - name: ICM_GET
+              href: icm-get.md
+            - name: ICM_GETBUFFERSWANTED
+              href: icm-getbufferswanted.md
+            - name: ICM_GETDEFAULTKEYFRAMERATE
+              href: icm-getdefaultkeyframerate.md
+            - name: ICM_GETDEFAULTQUALITY
+              href: icm-getdefaultquality.md
+            - name: ICM_GETINFO
+              href: icm-getinfo.md
+            - name: ICM_GETQUALITY
+              href: icm-getquality.md
+            - name: ICM_GETSTATE
+              href: icm-getstate.md
+            - name: ICM_SET_STATUS_PROC
+              href: icm-set-status-proc.md
+            - name: ICM_SETQUALITY
+              href: icm-setquality.md
+            - name: ICM_SETSTATE
+              href: icm-setstate.md
+            - name: MCIWNDM_CAN_CONFIG
+              href: mciwndm-can-config.md
+            - name: MCIWNDM_CAN_EJECT
+              href: mciwndm-can-eject.md
+            - name: MCIWNDM_CAN_PLAY
+              href: mciwndm-can-play.md
+            - name: MCIWNDM_CAN_RECORD
+              href: mciwndm-can-record.md
+            - name: MCIWNDM_CAN_SAVE
+              href: mciwndm-can-save.md
+            - name: MCIWNDM_CAN_WINDOW
+              href: mciwndm-can-window.md
+            - name: MCIWNDM_CHANGESTYLES
+              href: mciwndm-changestyles.md
+            - name: MCIWNDM_EJECT
+              href: mciwndm-eject.md
+            - name: MCIWNDM_GETACTIVETIMER
+              href: mciwndm-getactivetimer.md
+            - name: MCIWNDM_GETALIAS
+              href: mciwndm-getalias.md
+            - name: MCIWNDM_GET_DEST
+              href: mciwndm-get-dest.md
+            - name: MCIWNDM_GETDEVICE
+              href: mciwndm-getdevice.md
+            - name: MCIWNDM_GETDEVICEID
+              href: mciwndm-getdeviceid.md
+            - name: MCIWNDM_GETEND
+              href: mciwndm-getend.md
+            - name: MCIWNDM_GETERROR
+              href: mciwndm-geterror.md
+            - name: MCIWNDM_GETFILENAME
+              href: mciwndm-getfilename.md
+            - name: MCIWNDM_GETINACTIVETIMER
+              href: mciwndm-getinactivetimer.md
+            - name: MCIWNDM_GETLENGTH
+              href: mciwndm-getlength.md
+            - name: MCIWNDM_GETMODE
+              href: mciwndm-getmode.md
+            - name: MCIWNDM_GETPALETTE
+              href: mciwndm-getpalette.md
+            - name: MCIWNDM_GETPOSITION
+              href: mciwndm-getposition.md
+            - name: MCIWNDM_GETREPEAT
+              href: mciwndm-getrepeat.md
+            - name: MCIWNDM_GET_SOURCE
+              href: mciwndm-get-source.md
+            - name: MCIWNDM_GETSPEED
+              href: mciwndm-getspeed.md
+            - name: MCIWNDM_GETSTART
+              href: mciwndm-getstart.md
+            - name: MCIWNDM_GETSTYLES
+              href: mciwndm-getstyles.md
+            - name: MCIWNDM_GETTIMEFORMAT
+              href: mciwndm-gettimeformat.md
+            - name: MCIWNDM_GETVOLUME
+              href: mciwndm-getvolume.md
+            - name: MCIWNDM_GETZOOM
+              href: mciwndm-getzoom.md
+            - name: MCIWNDM_NEW
+              href: mciwndm-new.md
+            - name: MCIWNDM_NOTIFYERROR
+              href: mciwndm-notifyerror.md
+            - name: MCIWNDM_NOTIFYMEDIA
+              href: mciwndm-notifymedia.md
+            - name: MCIWNDM_NOTIFYMODE
+              href: mciwndm-notifymode.md
+            - name: MCIWNDM_NOTIFYPOS
+              href: mciwndm-notifypos.md
+            - name: MCIWNDM_NOTIFYSIZE
+              href: mciwndm-notifysize.md
+            - name: MCIWNDM_OPEN
+              href: mciwndm-open.md
+            - name: MCIWNDM_OPENINTERFACE
+              href: mciwndm-openinterface.md
+            - name: MCIWNDM_PLAYFROM
+              href: mciwndm-playfrom.md
+            - name: MCIWNDM_PLAYTO
+              href: mciwndm-playto.md
+            - name: MCIWNDM_PLAYREVERSE
+              href: mciwndm-playreverse.md
+            - name: MCIWNDM_PUT_DEST
+              href: mciwndm-put-dest.md
+            - name: MCIWNDM_PUT_SOURCE
+              href: mciwndm-put-source.md
+            - name: MCIWNDM_REALIZE
+              href: mciwndm-realize.md
+            - name: MCIWNDM_RETURNSTRING
+              href: mciwndm-returnstring.md
+            - name: MCIWNDM_SENDSTRING
+              href: mciwndm-sendstring.md
+            - name: MCIWNDM_SETACTIVETIMER
+              href: mciwndm-setactivetimer.md
+            - name: MCIWNDM_SETINACTIVETIMER
+              href: mciwndm-setinactivetimer.md
+            - name: MCIWNDM_SETOWNER
+              href: mciwndm-setowner.md
+            - name: MCIWNDM_SETPALETTE
+              href: mciwndm-setpalette.md
+            - name: MCIWNDM_SETREPEAT
+              href: mciwndm-setrepeat.md
+            - name: MCIWNDM_SETSPEED
+              href: mciwndm-setspeed.md
+            - name: MCIWNDM_SETTIMEFORMAT
+              href: mciwndm-settimeformat.md
+            - name: MCIWNDM_SETTIMERS
+              href: mciwndm-settimers.md
+            - name: MCIWNDM_SETVOLUME
+              href: mciwndm-setvolume.md
+            - name: MCIWNDM_SETZOOM
+              href: mciwndm-setzoom.md
+            - name: MCIWNDM_VALIDATEMEDIA
+              href: mciwndm-validatemedia.md
+            - name: MIM_CLOSE
+              href: mim-close.md
+            - name: MIM_DATA
+              href: mim-data.md
+            - name: MIM_ERROR
+              href: mim-error.md
+            - name: MIM_LONGDATA
+              href: mim-longdata.md
+            - name: MIM_LONGERROR
+              href: mim-longerror.md
+            - name: MIM_MOREDATA
+              href: mim-moredata.md
+            - name: MIM_OPEN
+              href: mim-open.md
+            - name: MM_ACM_FILTERCHOOSE
+              href: mm-acm-filterchoose.md
+            - name: MM_ACM_FORMATCHOOSE
+              href: mm-acm-formatchoose.md
+            - name: MM_JOY1BUTTONDOWN
+              href: mm-joy1buttondown.md
+            - name: MM_JOY1BUTTONUP
+              href: mm-joy1buttonup.md
+            - name: MM_JOY1MOVE
+              href: mm-joy1move.md
+            - name: MM_JOY1ZMOVE
+              href: mm-joy1zmove.md
+            - name: MM_JOY2BUTTONDOWN
+              href: mm-joy2buttondown.md
+            - name: MM_JOY2BUTTONUP
+              href: mm-joy2buttonup.md
+            - name: MM_JOY2MOVE
+              href: mm-joy2move.md
+            - name: MM_JOY2ZMOVE
+              href: mm-joy2zmove.md
+            - name: MM_MCINOTIFY
+              href: mm-mcinotify.md
+            - name: MM_MCISIGNAL
+              href: mm-mcisignal.md
+            - name: MM_MIM_CLOSE
+              href: mm-mim-close.md
+            - name: MM_MIM_DATA
+              href: mm-mim-data.md
+            - name: MM_MIM_ERROR
+              href: mm-mim-error.md
+            - name: MM_MIM_LONGDATA
+              href: mm-mim-longdata.md
+            - name: MM_MIM_LONGERROR
+              href: mm-mim-longerror.md
+            - name: MM_MIM_MOREDATA
+              href: mm-mim-moredata.md
+            - name: MM_MIM_OPEN
+              href: mm-mim-open.md
+            - name: MM_MIXM_CONTROL_CHANGE
+              href: mm-mixm-control-change.md
+            - name: MM_MIXM_LINE_CHANGE
+              href: mm-mixm-line-change.md
+            - name: MM_MOM_CLOSE
+              href: mm-mom-close.md
+            - name: MM_MOM_DONE
+              href: mm-mom-done.md
+            - name: MM_MOM_OPEN
+              href: mm-mom-open.md
+            - name: MM_MOM_POSITIONCB
+              href: mm-mom-positioncb.md
+            - name: MMIOM_CLOSE
+              href: mmiom-close.md
+            - name: MMIOM_OPEN
+              href: mmiom-open.md
+            - name: MMIOM_READ
+              href: mmiom-read.md
+            - name: MMIOM_RENAME
+              href: mmiom-rename.md
+            - name: MMIOM_SEEK
+              href: mmiom-seek.md
+            - name: MMIOM_WRITE
+              href: mmiom-write.md
+            - name: MMIOM_WRITEFLUSH
+              href: mmiom-writeflush.md
+            - name: MM_WIM_CLOSE
+              href: mm-wim-close.md
+            - name: MM_WIM_DATA
+              href: mm-wim-data.md
+            - name: MM_WIM_OPEN
+              href: mm-wim-open.md
+            - name: MM_WOM_CLOSE
+              href: mm-wom-close.md
+            - name: MM_WOM_DONE
+              href: mm-wom-done.md
+            - name: MM_WOM_OPEN
+              href: mm-wom-open.md
+            - name: MOM_CLOSE
+              href: mom-close.md
+            - name: MOM_DONE
+              href: mom-done.md
+            - name: MOM_OPEN
+              href: mom-open.md
+            - name: MOM_POSITIONCB
+              href: mom-positioncb.md
+            - name: WIM_CLOSE
+              href: wim-close.md
+            - name: WIM_DATA
+              href: wim-data.md
+            - name: WIM_OPEN
+              href: wim-open.md
+            - name: WM_CAP_ABORT
+              href: wm-cap-abort.md
+            - name: WM_CAP_DLG_VIDEOCOMPRESSION
+              href: wm-cap-dlg-videocompression.md
+            - name: WM_CAP_DLG_VIDEODISPLAY
+              href: wm-cap-dlg-videodisplay.md
+            - name: WM_CAP_DLG_VIDEOFORMAT
+              href: wm-cap-dlg-videoformat.md
+            - name: WM_CAP_DLG_VIDEOSOURCE
+              href: wm-cap-dlg-videosource.md
+            - name: WM_CAP_DRIVER_CONNECT
+              href: wm-cap-driver-connect.md
+            - name: WM_CAP_DRIVER_DISCONNECT
+              href: wm-cap-driver-disconnect.md
+            - name: WM_CAP_DRIVER_GET_CAPS
+              href: wm-cap-driver-get-caps.md
+            - name: WM_CAP_DRIVER_GET_NAME
+              href: wm-cap-driver-get-name.md
+            - name: WM_CAP_DRIVER_GET_VERSION
+              href: wm-cap-driver-get-version.md
+            - name: WM_CAP_EDIT_COPY
+              href: wm-cap-edit-copy.md
+            - name: WM_CAP_FILE_ALLOCATE
+              href: wm-cap-file-allocate.md
+            - name: WM_CAP_FILE_GET_CAPTURE_FILE
+              href: wm-cap-file-get-capture-file.md
+            - name: WM_CAP_FILE_SAVEAS
+              href: wm-cap-file-saveas.md
+            - name: WM_CAP_FILE_SAVEDIB
+              href: wm-cap-file-savedib.md
+            - name: WM_CAP_FILE_SET_CAPTURE_FILE
+              href: wm-cap-file-set-capture-file.md
+            - name: WM_CAP_FILE_SET_INFOCHUNK
+              href: wm-cap-file-set-infochunk.md
+            - name: WM_CAP_GET_AUDIOFORMAT
+              href: wm-cap-get-audioformat.md
+            - name: WM_CAP_GET_MCI_DEVICE
+              href: wm-cap-get-mci-device.md
+            - name: WM_CAP_GET_SEQUENCE_SETUP
+              href: wm-cap-get-sequence-setup.md
+            - name: WM_CAP_GET_STATUS
+              href: wm-cap-get-status.md
+            - name: WM_CAP_GET_USER_DATA
+              href: wm-cap-get-user-data.md
+            - name: WM_CAP_GET_VIDEOFORMAT
+              href: wm-cap-get-videoformat.md
+            - name: WM_CAP_GRAB_FRAME
+              href: wm-cap-grab-frame.md
+            - name: WM_CAP_GRAB_FRAME_NOSTOP
+              href: wm-cap-grab-frame-nostop.md
+            - name: WM_CAP_PAL_AUTOCREATE
+              href: wm-cap-pal-autocreate.md
+            - name: WM_CAP_PAL_MANUALCREATE
+              href: wm-cap-pal-manualcreate.md
+            - name: WM_CAP_PAL_OPEN
+              href: wm-cap-pal-open.md
+            - name: WM_CAP_PAL_PASTE
+              href: wm-cap-pal-paste.md
+            - name: WM_CAP_PAL_SAVE
+              href: wm-cap-pal-save.md
+            - name: WM_CAP_SEQUENCE
+              href: wm-cap-sequence.md
+            - name: WM_CAP_SEQUENCE_NOFILE
+              href: wm-cap-sequence-nofile.md
+            - name: WM_CAP_SET_AUDIOFORMAT
+              href: wm-cap-set-audioformat.md
+            - name: WM_CAP_SET_CALLBACK_CAPCONTROL
+              href: wm-cap-set-callback-capcontrol.md
+            - name: WM_CAP_SET_CALLBACK_ERROR
+              href: wm-cap-set-callback-error.md
+            - name: WM_CAP_SET_CALLBACK_FRAME
+              href: wm-cap-set-callback-frame.md
+            - name: WM_CAP_SET_CALLBACK_STATUS
+              href: wm-cap-set-callback-status.md
+            - name: WM_CAP_SET_CALLBACK_VIDEOSTREAM
+              href: wm-cap-set-callback-videostream.md
+            - name: WM_CAP_SET_CALLBACK_WAVESTREAM
+              href: wm-cap-set-callback-wavestream.md
+            - name: WM_CAP_SET_CALLBACK_YIELD
+              href: wm-cap-set-callback-yield.md
+            - name: WM_CAP_SET_MCI_DEVICE
+              href: wm-cap-set-mci-device.md
+            - name: WM_CAP_SET_OVERLAY
+              href: wm-cap-set-overlay.md
+            - name: WM_CAP_SET_PREVIEW
+              href: wm-cap-set-preview.md
+            - name: WM_CAP_SET_PREVIEWRATE
+              href: wm-cap-set-previewrate.md
+            - name: WM_CAP_SET_SCALE
+              href: wm-cap-set-scale.md
+            - name: WM_CAP_SET_SCROLL
+              href: wm-cap-set-scroll.md
+            - name: WM_CAP_SET_SEQUENCE_SETUP
+              href: wm-cap-set-sequence-setup.md
+            - name: WM_CAP_SET_USER_DATA
+              href: wm-cap-set-user-data.md
+            - name: WM_CAP_SET_VIDEOFORMAT
+              href: wm-cap-set-videoformat.md
+            - name: WM_CAP_SINGLE_FRAME
+              href: wm-cap-single-frame.md
+            - name: WM_CAP_SINGLE_FRAME_CLOSE
+              href: wm-cap-single-frame-close.md
+            - name: WM_CAP_SINGLE_FRAME_OPEN
+              href: wm-cap-single-frame-open.md
+            - name: WM_CAP_STOP
+              href: wm-cap-stop.md
+            - name: WOM_CLOSE
+              href: wom-close.md
+            - name: WOM_DONE
+              href: wom-done.md
+            - name: WOM_OPEN
+              href: wom-open.md
+        - name: Мультимедийные интерфейсы
+          href: multimedia-interfaces.md
+          items:
+            - name: иавиедитстреам
+              href: /windows/desktop/api/Vfw/nn-vfw-iavieditstream
+              items:
+                - name: 'Иавиедитстреам:: Clone'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavieditstream-clone
+                - name: 'Иавиедитстреам:: Copy'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavieditstream-copy
+                - name: 'Иавиедитстреам:: Cut'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavieditstream-cut
+                - name: 'Иавиедитстреам::P вставить'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavieditstream-paste
+                - name: 'Иавиедитстреам:: Сетинфо'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavieditstream-setinfo
+            - name: иавифиле
+              href: /windows/desktop/api/Vfw/nn-vfw-iavifile
+              items:
+                - name: 'Иавифиле:: Креатестреам'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavifile-createstream
+                - name: 'Иавифиле:: Ендрекорд'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavifile-endrecord
+                - name: 'Иавифиле:: Stream'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavifile-getstream
+                - name: 'Иавифиле:: info'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavifile-info
+                - name: 'Иавифиле:: ReadData'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavifile-readdata
+                - name: 'Иавифиле:: WriteData'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavifile-writedata
+            - name: иавистреам
+              href: /windows/desktop/api/Vfw/nn-vfw-iavistream
+              items:
+                - name: 'Иавистреам:: Create'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistream-create
+                - name: 'Иавистреам::D удалить'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistream-delete
+                - name: 'Иавистреам:: info'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistream-info
+                - name: 'Иавистреам:: Финдсампле'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistream-findsample
+                - name: 'Иавистреам:: Read'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistream-read
+                - name: 'Иавистреам:: ReadData'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistream-readdata
+                - name: 'Иавистреам:: Реадформат'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistream-readformat
+                - name: 'Иавистреам:: Сетформат'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistream-setformat
+                - name: 'Иавистреам:: Write'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistream-write
+                - name: 'Иавистреам:: WriteData'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistream-writedata
+            - name: иавистреаминг
+              href: /windows/desktop/api/Vfw/nn-vfw-iavistreaming
+              items:
+                - name: 'Иавистреаминг:: Begin'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistreaming-begin
+                - name: 'Иавистреаминг:: end'
+                  href: /windows/desktop/api/Vfw/nf-vfw-iavistreaming-end
+            - name: ижетфраме
+              href: /windows/desktop/api/Vfw/nn-vfw-igetframe
+              items:
+                - name: 'Ижетфраме:: Begin'
+                  href: /windows/desktop/api/Vfw/nf-vfw-igetframe-begin
+                - name: 'Ижетфраме:: end'
+                  href: /windows/desktop/api/Vfw/nf-vfw-igetframe-end
+                - name: 'Ижетфраме:: NOFRAMES'
+                  href: /windows/desktop/api/Vfw/nf-vfw-igetframe-getframe
+                - name: 'Ижетфраме:: Сетформат'
+                  href: /windows/desktop/api/Vfw/nf-vfw-igetframe-setformat
+        - name: Команды мультимедиа
+          href: multimedia-commands.md
+          items:
+            - name: MCI_BREAK
+              href: mci-break.md
+            - name: MCI_CAPTURE
+              href: mci-capture.md
+            - name: MCI_CLOSE
+              href: mci-close.md
+            - name: MCI_CONFIGURE
+              href: mci-configure.md
+            - name: MCI_COPY
+              href: mci-copy.md
+            - name: MCI_CUE
+              href: mci-cue.md
+            - name: MCI_CUT
+              href: mci-cut.md
+            - name: MCI_DELETE
+              href: mci-delete.md
+            - name: MCI_ESCAPE
+              href: mci-escape.md
+            - name: MCI_FREEZE
+              href: mci-freeze.md
+            - name: MCI_GETDEVCAPS
+              href: mci-getdevcaps.md
+            - name: MCI_INDEX
+              href: mci-index.md
+            - name: MCI_INFO
+              href: mci-info.md
+            - name: MCI_LIST
+              href: mci-list.md
+            - name: MCI_LOAD
+              href: mci-load.md
+            - name: MCI_MARK
+              href: mci-mark.md
+            - name: MCI_MONITOR
+              href: mci-monitor.md
+            - name: MCI_OPEN
+              href: mci-open.md
+            - name: MCI_PASTE
+              href: mci-paste.md
+            - name: MCI_PAUSE
+              href: mci-pause.md
+            - name: MCI_PLAY
+              href: mci-play.md
+            - name: MCI_PUT
+              href: mci-put.md
+            - name: MCI_QUALITY
+              href: mci-quality.md
+            - name: MCI_REALIZE
+              href: mci-realize.md
+            - name: MCI_RECORD
+              href: mci-record.md
+            - name: MCI_RESERVE
+              href: mci-reserve.md
+            - name: MCI_RESTORE
+              href: mci-restore.md
+            - name: MCI_RESUME
+              href: mci-resume.md
+            - name: MCI_SAVE
+              href: mci-save.md
+            - name: MCI_SEEK
+              href: mci-seek.md
+            - name: MCI_SET
+              href: mci-set.md
+            - name: MCI_SETAUDIO
+              href: mci-setaudio.md
+            - name: MCI_SETTIMECODE
+              href: mci-settimecode.md
+            - name: MCI_SETTUNER
+              href: mci-settuner.md
+            - name: MCI_SETVIDEO
+              href: mci-setvideo.md
+            - name: MCI_SIGNAL
+              href: mci-signal.md
+            - name: MCI_SPIN
+              href: mci-spin.md
+            - name: MCI_STATUS
+              href: mci-status.md
+            - name: MCI_STEP
+              href: mci-step.md
+            - name: MCI_STOP
+              href: mci-stop.md
+            - name: MCI_SYSINFO
+              href: mci-sysinfo.md
+            - name: MCI_UNDO
+              href: mci-undo.md
+            - name: MCI_UNFREEZE
+              href: mci-unfreeze.md
+            - name: MCI_UPDATE
+              href: mci-update.md
+            - name: MCI_WHERE
+              href: mci-where.md
+            - name: MCI_WINDOW
+              href: mci-window.md
+        - name: Строки команд мультимедиа
+          href: multimedia-command-strings.md
+          items:
+            - name: break
+              href: break.md
+            - name: capability
+              href: capability.md
+            - name: Сфотографировать
+              href: capture.md
+            - name: close
+              href: close.md
+            - name: Настройка
+              href: configure.md
+            - name: copy
+              href: copy.md
+            - name: cue
+              href: cue.md
+            - name: вырезать
+              href: cut.md
+            - name: удалить
+              href: delete.md
+            - name: escape-знак
+              href: escape.md
+            - name: freeze
+              href: freeze.md
+            - name: index
+              href: index-command.md
+            - name: сведения
+              href: info.md
+            - name: list
+              href: list.md
+            - name: load
+              href: load.md
+            - name: mark
+              href: mark.md
+            - name: monitor
+              href: monitor.md
+            - name: open
+              href: open.md
+            - name: вставка
+              href: paste.md
+            - name: pause
+              href: pause.md
+            - name: играть
+              href: play.md
+            - name: put
+              href: put.md
+            - name: качество
+              href: quality.md
+            - name: повысить
+              href: realize.md
+            - name: запись
+              href: record.md
+            - name: reserve
+              href: reserve.md
+            - name: Восстановление
+              href: restore.md
+            - name: resume
+              href: resume.md
+            - name: Сохранить
+              href: save.md
+            - name: поиска
+              href: seek.md
+            - name: set
+              href: set.md
+            - name: сетаудио
+              href: setaudio.md
+            - name: сеттимекоде
+              href: settimecode.md
+            - name: сеттунер
+              href: settuner.md
+            - name: сетвидео
+              href: setvideo.md
+            - name: signal
+              href: signal.md
+            - name: оборот
+              href: spin.md
+            - name: status
+              href: status.md
+            - name: Шаг
+              href: step.md
+            - name: stop
+              href: stop.md
+            - name: сисинфо
+              href: sysinfo.md
+            - name: отмена
+              href: undo.md
+            - name: освободить
+              href: unfreeze.md
+            - name: обновить
+              href: update.md
+            - name: где
+              href: where.md
+            - name: window
+              href: window.md
+        - name: Типы мультимедиа
+          href: multimedia-types.md
+          items:
+            - name: кэйаррай
+              href: keyarray.md
+            - name: патчаррай
+              href: patcharray.md
+        - name: Константы мультимедиа
+          href: multimedia-constants.md
+          items:
+            - name: Типы устройств MCI
+              href: mci-device-types.md
+            - name: Возвращаемые значения МЦИЕРР
+              href: mcierr-return-values.md
+              items:
+                - name: Общие ошибки MCI
+                  href: general-mci-errors.md
+                - name: Ошибки mciSendString
+                  href: mcisendstring-errors.md
+                - name: Ошибки Digital-Video
+                  href: digital-video-errors.md
+                - name: Ошибки Sequencer
+                  href: sequencer-errors.md
+                - name: Ошибки Waveform-Audio
+                  href: waveform-audio-errors.md
+    - name: Глоссарий мультимедиа
+      href: multimedia.md
