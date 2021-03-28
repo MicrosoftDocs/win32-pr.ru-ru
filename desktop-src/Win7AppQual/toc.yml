@@ -1,0 +1,181 @@
+- name: 'Windows 7 и Windows Server 2008 R2 качество приложения, Cookbook'
+  href: windows-7-application-quality-cookbook.md
+  items:
+    - name: Совместимость
+      href: compatibility.md
+      items:
+        - name: Общая совместимость
+          href: general-compatibility.md
+          items:
+            - name: Обновление для совместимости за счет эмуляции дисков с 512-байтовыми секторами (512e)
+              href: 512-byte-emulation--512e--disk-compatibility-update.md
+            - name: Управление версиями операционной системы
+              href: operating-system-versioning.md
+            - name: Удаление почты Windows
+              href: removal-of-windows-mail.md
+            - name: Удаление Windows Movie Maker
+              href: removal-of-windows-movie-maker.md
+            - name: Изменения сортировки NLS
+              href: nls-sorting-changes.md
+            - name: Internet Explorer 8 — строка агента пользователя
+              href: internet-explorer-8---user-agent-string.md
+            - name: Дополнительные защита ресурсов Windows по разделам реестра
+              href: additional-windows-resource-protection-on-registry-keys.md
+            - name: Удаление Microsoft Agent
+              href: removal-of-microsoft-agent.md
+            - name: 'Использование платформа .NET Framework 4 с приложениями, созданными на основе более ранних версий'
+              href: using--net-framework-4-with-applications-built-on-earlier-versions.md
+            - name: AppInit_DLLs в Windows 7 и Windows Server 2008 R2
+              href: appinit-dlls-in-windows-7-and-windows-server-2008-r2.md
+            - name: Удаление отражения реестра Windows
+              href: removal-of-windows-registry-reflection.md
+            - name: Удаление драйвера WPDUSB.SYS для переносных устройств Windows
+              href: removal-of-wpdusb-sys-driver-for-windows-portable-devices.md
+            - name: Очередь сообщений Майкрософт (MSMQ) — SHA 2 является алгоритмом хэширования по умолчанию.
+              href: microsoft-message-queuing--msmq----sha-2-is-the-default-hash-algorithm.md
+        - name: Устранение совместимости приложений при переходе на Internet Explorer 8
+          href: addressing-application-compatibility-when-migrating-to-internet-explorer-8.md
+          items:
+            - name: Введение
+              href: introduction.md
+            - name: Основные сведения о вызове совместимости приложений
+              href: understanding-the-application-compatibility-challenge.md
+            - name: Веб-стандарты и совместимость приложений
+              href: web-standards-and-application-compatibility.md
+            - name: 'Разработка обновлений, влияющих на совместимость браузеров'
+              href: design-updates-that-impact-compatibility-between-browsers.md
+              items:
+                - name: Управление версиями
+                  href: versioning.md
+                - name: Стандарты
+                  href: standards.md
+                - name: Безопасность
+                  href: security.md
+                - name: Архитектура
+                  href: architecture.md
+            - name: Устранение проблем совместимости в веб-приложениях и Add-Ons
+              href: remediating-web-applications-and-add-ons.md
+              items:
+                - name: Устранение проблем совместимости в веб-приложениях с помощью представления совместимости
+                  href: remediating-web-applications-with-compatibility-view.md
+                  items:
+                    - name: Что такое представление совместимости?
+                      href: what-is-compatibility-view-.md
+                    - name: Зачем нужно представление совместимости?
+                      href: why-do-you-need-compatibility-view-.md
+                    - name: Использование тега meta для обеспечения совместимости в будущем
+                      href: use-the-meta-tag-to-ensure-future-compatibility.md
+                - name: Устранение проблем совместимости установки ActiveX для обычных пользователей
+                  href: remediating-activex-installation-for-standard-users.md
+                - name: Изменения отрисовки и макета
+                  href: rendering-and-layout-changes.md
+                - name: Векторы версий
+                  href: version-vectors.md
+                - name: Строка браузера
+                  href: user-agent-string.md
+                - name: Защита DEP/NX
+                  href: dep-nx-protection.md
+                - name: Совместимость
+                  href: remediating-compatibility.md
+                - name: AJAX
+                  href: ajax.md
+                - name: Защищенный режим
+                  href: protected-mode.md
+                - name: Нотация объектов JavaScript (JSON)
+                  href: javascript-object-notation--json-.md
+            - name: Средства для отладки веб-приложений и Add-Ons
+              href: tools-for-debugging-web-applications-and-add-ons.md
+              items:
+                - name: Предварительная версия Microsoft Expression Web
+                  href: microsoft-expression-web-superpreview.md
+                - name: Средство проверки совместимости с Internet Explorer (IECTT)
+                  href: inernet-explorer-compatibility-test-tool--iectt-.md
+                - name: Средства для разработчиков Internet Explorer 8
+                  href: internet-explorer-8-developer-tools.md
+                - name: Мастер совместимости Internet Explorer 8 (Aggiorno)
+                  href: inernet-explorer-8-compatibility-wizard--aggiorno-.md
+                - name: Средство веб-отладчика Fiddler
+                  href: fiddler-web-debugger-tool.md
+                - name: Тестирование совместимости приложений с помощью образов Virtual PC
+                  href: application-compatibility-testing-using-virtual-pc-images.md
+            - name: Приложение 1. изменения браузера Internet Explorer 6 для Internet Explorer 8
+              href: appendix-1--internet-explorer-6-to-internet-explorer-8-browser-changes.md
+            - name: Приложение 2. сценарии тестовых сценариев
+              href: appendix-2--test-script-scenarios.md
+        - name: Совместимость с Windows Server 2008 R2
+          href: windows-server-2008-r2-compatibility.md
+          items:
+            - name: Служба репликации файлов (FRS) является устаревшей в Windows Server 2008 R2
+              href: file-replication-service--frs--is-deprecated-in-windows-server-2008-r2.md
+            - name: Очередь сообщений Майкрософт (MSMQ) — удаление службы поддержки клиентов Windows 2000
+              href: microsoft-message-queuing--msmq----removal-of-windows-2000-client-support-ser.md
+            - name: Новые Low-Level двоичные файлы
+              href: new-low-level-binaries.md
+            - name: Удаление служб UDDI с серверной ОС
+              href: removal-of-uddi-services-from-server-os.md
+            - name: Только 64-разрядная версия
+              href: 64-bit-only.md
+            - name: Подсистема WoW64 теперь является дополнительным компонентом для Server Core
+              href: wow64-is-now-an-optional-feature-for-server-core.md
+            - name: 'Подмножество .NET 2,0 теперь в Server Core'
+              href: subset-of--net-2-0-now-on-server-core.md
+            - name: '.NET 3,0 и 3,5 теперь в Server Core'
+              href: '-net-3-0-and-3-5-now-on-server-core.md'
+    - name: Новые возможности и улучшения
+      href: new-features-and-enhancements.md
+      items:
+        - name: Библиотека файлов заменяет папку документа
+          href: file-library-replaces-document-folder.md
+        - name: 'Интерфейс пользователя: поддержка определения высоких значений DPI'
+          href: user-interface---high-dpi-awareness.md
+        - name: Отказоустойчивая куча
+          href: fault-tolerant-heap.md
+        - name: Internet Explorer 8 — Защита выполнения данных/NX
+          href: internet-explorer-8---data-execution-protection-nx.md
+        - name: Динамическое распределение памяти
+          href: dynamic-memory.md
+        - name: Пользовательский интерфейс — обновления диалогового окна управления учетными записями пользователей
+          href: user-interface---user-account-control-dialog-updates.md
+        - name: ChooseFont () общее диалоговое окно Win32
+          href: choosefont-win32-common-dialog.md
+        - name: Манифест приложения
+          href: compatibility---application-manifest.md
+        - name: Сервер Hyper-V
+          href: server-hyper-v.md
+        - name: Включение поддержки Windows 7 для Intel AVX
+          href: enable-windows-7-support-for-intel-avx.md
+        - name: Очередь сообщений Майкрософт (MSMQ) — Улучшенная обработка очередей
+          href: microsoft-message-queuing--msmq----improved-queue-handling.md
+        - name: Службы удаленных рабочих столов
+          href: terminal-services.md
+    - name: 'Средства, рекомендации и рекомендации'
+      href: tools--resources--and-guidance.md
+      items:
+        - name: Набор средств для обеспечения совместимости приложений
+          href: application-compatibility-toolkit--act-.md
+        - name: Администратор совместимости
+          href: compatibility-administrator.md
+        - name: Анализатор доступа учетных записей (SUA) и соответствующий мастер
+          href: standard-user-analyzer--sua--tool-and-standard-user-analyzer-wizard--sua-wizard-.md
+        - name: средство проверки приложений
+          href: application-verifier.md
+        - name: Рекомендации по повышению производительности
+          href: best-practices-for-on-off-performance.md
+        - name: Предотвращение утечек памяти в приложениях Windows
+          href: preventing-memory-leaks-in-windows-applications.md
+        - name: Предотвращение зависаний в приложениях для Windows
+          href: preventing-hangs-in-windows-applications.md
+        - name: Система обслуживания образов развертывания и управления ими (DISM)
+          href: dism-replaces-pkgmgr-peimg-and-intlconfg-tools.md
+        - name: Устранение неполадок Windows
+          href: compatibility---windows-troubleshooting.md
+        - name: Средство записи действий отчеты об ошибках Windows проблем
+          href: windows-error-reporting-problem-steps-recorder.md
+        - name: Рекомендации по эффективному энергопотреблению
+          href: energy-efficiency-best-practices.md
+        - name: Рекомендации по минимизации неотвечающих служб
+          href: performance-improvement---minimizing-unresponsive-services.md
+        - name: Программа клиента Windows 7 Client Software Logo
+          href: certification-for-windows-7-and-windows-server-2008-r2-applications.md
+        - name: Программа Windows Server 2008 R2 Logo Program для программного обеспечения
+          href: windows-server-2008-r2-logo-program-for-software.md
