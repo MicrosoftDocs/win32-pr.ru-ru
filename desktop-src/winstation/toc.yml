@@ -1,0 +1,71 @@
+- name: Оконные станции и рабочие столы
+  href: window-stations-and-desktops.md
+  items:
+    - name: О станциях окон и настольных компьютерах
+      href: about-window-stations-and-desktops.md
+      items:
+        - name: Оконные станции
+          href: window-stations.md
+        - name: Настольные системы
+          href: desktops.md
+        - name: Создание оконной станции и рабочего стола
+          href: window-station-and-desktop-creation.md
+        - name: Обработка подключения к оконной станции
+          href: process-connection-to-a-window-station.md
+        - name: Подключение потока к рабочему столу
+          href: thread-connection-to-a-desktop.md
+        - name: Права доступа и безопасность оконной станции
+          href: window-station-security-and-access-rights.md
+        - name: Безопасность настольных систем и права доступа
+          href: desktop-security-and-access-rights.md
+    - name: Справочник по Windows Station и Desktop
+      href: window-station-and-desktop-reference.md
+      items:
+        - name: Оконные функции и рабочие станции
+          href: window-station-and-desktop-functions.md
+          items:
+            - name: клоседесктоп
+              href: /windows/desktop/api/winuser/nf-winuser-closedesktop
+            - name: клосевиндовстатион
+              href: /windows/desktop/api/winuser/nf-winuser-closewindowstation
+            - name: креатедесктоп
+              href: /windows/desktop/api/winuser/nf-winuser-createdesktopa
+            - name: креатедесктопекс
+              href: /windows/desktop/api/winuser/nf-winuser-createdesktopexa
+            - name: креатевиндовстатион
+              href: /windows/desktop/api/winuser/nf-winuser-createwindowstationa
+            - name: енумдесктоппрок
+              href: /previous-versions/windows/desktop/legacy/ms682612(v=vs.85)
+            - name: енумдесктопс
+              href: /windows/desktop/api/winuser/nf-winuser-enumdesktopsa
+            - name: енумдесктопвиндовс
+              href: /windows/desktop/api/winuser/nf-winuser-enumdesktopwindows
+            - name: енумвиндовстатионс
+              href: /windows/desktop/api/winuser/nf-winuser-enumwindowstationsa
+            - name: енумвиндовстатионпрок
+              href: /previous-versions/windows/desktop/legacy/ms682643(v=vs.85)
+            - name: жетпроцессвиндовстатион
+              href: /windows/desktop/api/winuser/nf-winuser-getprocesswindowstation
+            - name: жетсреаддесктоп
+              href: /windows/desktop/api/winuser/nf-winuser-getthreaddesktop
+            - name: жетусеробжектинформатион
+              href: /windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa
+            - name: опендесктоп
+              href: /windows/desktop/api/winuser/nf-winuser-opendesktopa
+            - name: опенинпутдесктоп
+              href: /windows/desktop/api/winuser/nf-winuser-openinputdesktop
+            - name: опенвиндовстатион
+              href: /windows/desktop/api/winuser/nf-winuser-openwindowstationa
+            - name: сетпроцессвиндовстатион
+              href: /windows/desktop/api/winuser/nf-winuser-setprocesswindowstation
+            - name: сетсреаддесктоп
+              href: /windows/desktop/api/winuser/nf-winuser-setthreaddesktop
+            - name: сетусеробжектинформатион
+              href: /windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa
+            - name: свитчдесктоп
+              href: /windows/desktop/api/winuser/nf-winuser-switchdesktop
+        - name: Структуры оконной станции и рабочего стола
+          href: window-station-and-desktop-structures.md
+          items:
+            - name: усеробжектфлагс
+              href: /windows/win32/api/winuser/ns-winuser-userobjectflags

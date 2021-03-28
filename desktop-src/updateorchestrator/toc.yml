@@ -1,0 +1,15 @@
+- name: Обновление Orchestrator
+  href: index.md
+- name: Справочник по обновлению Orchestrator
+  items:
+    - name: Интерфейсы
+      items:
+        - name: иуниверсалорчестратор
+          href: universalorchestrator-iuniversalorchestrator.md
+          items:
+            - name: ':: Счедулеворк'
+              href: universalorchestrator-schedulework.md
+            - name: ':: Ворккомплетед'
+              href: universalorchestrator-workcompleted.md
+            - name: ':: Хасмораториумпассед'
+              href: universalorchestrator-hasmoratoriumpassed.md
