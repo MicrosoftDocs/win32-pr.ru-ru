@@ -1,0 +1,62 @@
+---
+title: Регистры — vs_5_0
+description: В шейдере вершин версии 5 0 реализованы следующие входные и выходные регистры \_ .
+ms.assetid: 475753C7-C055-4DB7-9DC3-6C734413A92B
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 6eb1dc211f5f3dd8819577c796849dcb86012cc0
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104983728"
+---
+# <a name="registers---vs_5_0"></a><span data-ttu-id="2fd7f-103">Регистры — VS \_ 5 \_ 0</span><span class="sxs-lookup"><span data-stu-id="2fd7f-103">Registers - vs\_5\_0</span></span>
+
+<span data-ttu-id="2fd7f-104">В шейдере вершин версии 5 0 реализованы следующие входные и выходные регистры \_ .</span><span class="sxs-lookup"><span data-stu-id="2fd7f-104">The following input and output registers are implemented in the vertex shader version 5\_0.</span></span>
+
+## <a name="input-registers"></a><span data-ttu-id="2fd7f-105">Входные регистры</span><span class="sxs-lookup"><span data-stu-id="2fd7f-105">Input Registers</span></span>
+
+
+
+| <span data-ttu-id="2fd7f-106">Тип регистра</span><span class="sxs-lookup"><span data-stu-id="2fd7f-106">Register Type</span></span>                                      | <span data-ttu-id="2fd7f-107">Count</span><span class="sxs-lookup"><span data-stu-id="2fd7f-107">Count</span></span>              | <span data-ttu-id="2fd7f-108">Чтение-запись</span><span class="sxs-lookup"><span data-stu-id="2fd7f-108">R/W</span></span> | <span data-ttu-id="2fd7f-109">Измерение</span><span class="sxs-lookup"><span data-stu-id="2fd7f-109">Dimension</span></span> | <span data-ttu-id="2fd7f-110">Индексация по r\#</span><span class="sxs-lookup"><span data-stu-id="2fd7f-110">Indexable by r\#</span></span> | <span data-ttu-id="2fd7f-111">Значения по умолчанию</span><span class="sxs-lookup"><span data-stu-id="2fd7f-111">Defaults</span></span> | <span data-ttu-id="2fd7f-112">Требуется ДКЛ</span><span class="sxs-lookup"><span data-stu-id="2fd7f-112">Requires DCL</span></span> |
+|----------------------------------------------------|--------------------|-----|-----------|------------------|----------|--------------|
+| <span data-ttu-id="2fd7f-113">32-разрядная временная (r \# )</span><span class="sxs-lookup"><span data-stu-id="2fd7f-113">32-bit Temp (r\#)</span></span>                                  | <span data-ttu-id="2fd7f-114">4096 (r \# + x \# \[ n \] )</span><span class="sxs-lookup"><span data-stu-id="2fd7f-114">4096(r\#+x\#\[n\])</span></span> | <span data-ttu-id="2fd7f-115">Чтение-запись</span><span class="sxs-lookup"><span data-stu-id="2fd7f-115">R/W</span></span> | <span data-ttu-id="2fd7f-116">4</span><span class="sxs-lookup"><span data-stu-id="2fd7f-116">4</span></span>         | <span data-ttu-id="2fd7f-117">нет</span><span class="sxs-lookup"><span data-stu-id="2fd7f-117">No</span></span>               | <span data-ttu-id="2fd7f-118">None</span><span class="sxs-lookup"><span data-stu-id="2fd7f-118">None</span></span>     | <span data-ttu-id="2fd7f-119">Да</span><span class="sxs-lookup"><span data-stu-id="2fd7f-119">Yes</span></span>          |
+| <span data-ttu-id="2fd7f-120">32-битовый индексируемый массив Temp (x \# \[ n \] )</span><span class="sxs-lookup"><span data-stu-id="2fd7f-120">32-bit indexable Temp Array (x\#\[n\])</span></span>             | <span data-ttu-id="2fd7f-121">4096 (r \# + x \# \[ n \] )</span><span class="sxs-lookup"><span data-stu-id="2fd7f-121">4096(r\#+x\#\[n\])</span></span> | <span data-ttu-id="2fd7f-122">Чтение-запись</span><span class="sxs-lookup"><span data-stu-id="2fd7f-122">R/W</span></span> | <span data-ttu-id="2fd7f-123">4</span><span class="sxs-lookup"><span data-stu-id="2fd7f-123">4</span></span>         | <span data-ttu-id="2fd7f-124">Да</span><span class="sxs-lookup"><span data-stu-id="2fd7f-124">Yes</span></span>              | <span data-ttu-id="2fd7f-125">Нет</span><span class="sxs-lookup"><span data-stu-id="2fd7f-125">None</span></span>     | <span data-ttu-id="2fd7f-126">Да</span><span class="sxs-lookup"><span data-stu-id="2fd7f-126">Yes</span></span>          |
+| <span data-ttu-id="2fd7f-127">32-разрядный вход (v \# )</span><span class="sxs-lookup"><span data-stu-id="2fd7f-127">32-bit input (v\#)</span></span>                                 | <span data-ttu-id="2fd7f-128">32</span><span class="sxs-lookup"><span data-stu-id="2fd7f-128">32</span></span>                 | <span data-ttu-id="2fd7f-129">R</span><span class="sxs-lookup"><span data-stu-id="2fd7f-129">R</span></span>   | <span data-ttu-id="2fd7f-130">4</span><span class="sxs-lookup"><span data-stu-id="2fd7f-130">4</span></span>         | <span data-ttu-id="2fd7f-131">Да</span><span class="sxs-lookup"><span data-stu-id="2fd7f-131">Yes</span></span>              | <span data-ttu-id="2fd7f-132">Нет</span><span class="sxs-lookup"><span data-stu-id="2fd7f-132">None</span></span>     | <span data-ttu-id="2fd7f-133">Да</span><span class="sxs-lookup"><span data-stu-id="2fd7f-133">Yes</span></span>          |
+| <span data-ttu-id="2fd7f-134">Элемент во входном ресурсе (t \# )</span><span class="sxs-lookup"><span data-stu-id="2fd7f-134">Element in an input resource (t\#)</span></span>                 | <span data-ttu-id="2fd7f-135">128</span><span class="sxs-lookup"><span data-stu-id="2fd7f-135">128</span></span>                | <span data-ttu-id="2fd7f-136">R</span><span class="sxs-lookup"><span data-stu-id="2fd7f-136">R</span></span>   | <span data-ttu-id="2fd7f-137">1</span><span class="sxs-lookup"><span data-stu-id="2fd7f-137">1</span></span>         | <span data-ttu-id="2fd7f-138">Нет</span><span class="sxs-lookup"><span data-stu-id="2fd7f-138">No</span></span>               | <span data-ttu-id="2fd7f-139">None</span><span class="sxs-lookup"><span data-stu-id="2fd7f-139">None</span></span>     | <span data-ttu-id="2fd7f-140">Да</span><span class="sxs-lookup"><span data-stu-id="2fd7f-140">Yes</span></span>          |
+| <span data-ttu-id="2fd7f-141">Образцы \#</span><span class="sxs-lookup"><span data-stu-id="2fd7f-141">Sampler (s\#)</span></span>                                      | <span data-ttu-id="2fd7f-142">16</span><span class="sxs-lookup"><span data-stu-id="2fd7f-142">16</span></span>                 | <span data-ttu-id="2fd7f-143">R</span><span class="sxs-lookup"><span data-stu-id="2fd7f-143">R</span></span>   | <span data-ttu-id="2fd7f-144">1</span><span class="sxs-lookup"><span data-stu-id="2fd7f-144">1</span></span>         | <span data-ttu-id="2fd7f-145">Нет</span><span class="sxs-lookup"><span data-stu-id="2fd7f-145">No</span></span>               | <span data-ttu-id="2fd7f-146">None</span><span class="sxs-lookup"><span data-stu-id="2fd7f-146">None</span></span>     | <span data-ttu-id="2fd7f-147">Да</span><span class="sxs-lookup"><span data-stu-id="2fd7f-147">Yes</span></span>          |
+| <span data-ttu-id="2fd7f-148">Справочник по Константбуффер ( \# \[ индекс CB \] )</span><span class="sxs-lookup"><span data-stu-id="2fd7f-148">ConstantBuffer reference (cb\#\[index\])</span></span>           | <span data-ttu-id="2fd7f-149">15</span><span class="sxs-lookup"><span data-stu-id="2fd7f-149">15</span></span>                 | <span data-ttu-id="2fd7f-150">R</span><span class="sxs-lookup"><span data-stu-id="2fd7f-150">R</span></span>   | <span data-ttu-id="2fd7f-151">4</span><span class="sxs-lookup"><span data-stu-id="2fd7f-151">4</span></span>         | <span data-ttu-id="2fd7f-152">Да (содержимое)</span><span class="sxs-lookup"><span data-stu-id="2fd7f-152">Yes(contents)</span></span>    | <span data-ttu-id="2fd7f-153">Нет</span><span class="sxs-lookup"><span data-stu-id="2fd7f-153">None</span></span>     | <span data-ttu-id="2fd7f-154">Да</span><span class="sxs-lookup"><span data-stu-id="2fd7f-154">Yes</span></span>          |
+| <span data-ttu-id="2fd7f-155">Справочник по Ииммедиате Константбуффер ( \[ индекс блока ICB \] )</span><span class="sxs-lookup"><span data-stu-id="2fd7f-155">iImmediate ConstantBuffer reference (icb\[index\])</span></span> | <span data-ttu-id="2fd7f-156">1</span><span class="sxs-lookup"><span data-stu-id="2fd7f-156">1</span></span>                  | <span data-ttu-id="2fd7f-157">R</span><span class="sxs-lookup"><span data-stu-id="2fd7f-157">R</span></span>   | <span data-ttu-id="2fd7f-158">4</span><span class="sxs-lookup"><span data-stu-id="2fd7f-158">4</span></span>         | <span data-ttu-id="2fd7f-159">Да (содержимое)</span><span class="sxs-lookup"><span data-stu-id="2fd7f-159">Yes(contents)</span></span>    | <span data-ttu-id="2fd7f-160">Нет</span><span class="sxs-lookup"><span data-stu-id="2fd7f-160">None</span></span>     | <span data-ttu-id="2fd7f-161">Да</span><span class="sxs-lookup"><span data-stu-id="2fd7f-161">Yes</span></span>          |
+
+
+
+ 
+
+## <a name="output-registers"></a><span data-ttu-id="2fd7f-162">Выходные регистры</span><span class="sxs-lookup"><span data-stu-id="2fd7f-162">Output Registers</span></span>
+
+
+
+| <span data-ttu-id="2fd7f-163">Тип регистра</span><span class="sxs-lookup"><span data-stu-id="2fd7f-163">Register Type</span></span>                                                      | <span data-ttu-id="2fd7f-164">Count</span><span class="sxs-lookup"><span data-stu-id="2fd7f-164">Count</span></span> | <span data-ttu-id="2fd7f-165">Чтение-запись</span><span class="sxs-lookup"><span data-stu-id="2fd7f-165">R/W</span></span> | <span data-ttu-id="2fd7f-166">Измерение</span><span class="sxs-lookup"><span data-stu-id="2fd7f-166">Dimension</span></span> | <span data-ttu-id="2fd7f-167">Индексация по r\#</span><span class="sxs-lookup"><span data-stu-id="2fd7f-167">Indexable by r\#</span></span> | <span data-ttu-id="2fd7f-168">Значения по умолчанию</span><span class="sxs-lookup"><span data-stu-id="2fd7f-168">Defaults</span></span> | <span data-ttu-id="2fd7f-169">Требуется ДКЛ</span><span class="sxs-lookup"><span data-stu-id="2fd7f-169">Requires DCL</span></span> |
+|--------------------------------------------------------------------|-------|-----|-----------|------------------|----------|--------------|
+| <span data-ttu-id="2fd7f-170">NULL (результат отмены, полезен для операций с несколькими результатами)</span><span class="sxs-lookup"><span data-stu-id="2fd7f-170">NULL (discard result, useful for operations with multiple results)</span></span> | <span data-ttu-id="2fd7f-171">Недоступно</span><span class="sxs-lookup"><span data-stu-id="2fd7f-171">N/A</span></span>   | <span data-ttu-id="2fd7f-172">W</span><span class="sxs-lookup"><span data-stu-id="2fd7f-172">W</span></span>   | <span data-ttu-id="2fd7f-173">Недоступно</span><span class="sxs-lookup"><span data-stu-id="2fd7f-173">N/A</span></span>       | <span data-ttu-id="2fd7f-174">Недоступно</span><span class="sxs-lookup"><span data-stu-id="2fd7f-174">N/A</span></span>              | <span data-ttu-id="2fd7f-175">Недоступно</span><span class="sxs-lookup"><span data-stu-id="2fd7f-175">N/A</span></span>      | <span data-ttu-id="2fd7f-176">Нет</span><span class="sxs-lookup"><span data-stu-id="2fd7f-176">No</span></span>           |
+| <span data-ttu-id="2fd7f-177">32-разрядный выходной элемент данных вершины (o \# )</span><span class="sxs-lookup"><span data-stu-id="2fd7f-177">32-bit output Vertex Data Element (o\#)</span></span>                            | <span data-ttu-id="2fd7f-178">32</span><span class="sxs-lookup"><span data-stu-id="2fd7f-178">32</span></span>    | <span data-ttu-id="2fd7f-179">W</span><span class="sxs-lookup"><span data-stu-id="2fd7f-179">W</span></span>   | <span data-ttu-id="2fd7f-180">4</span><span class="sxs-lookup"><span data-stu-id="2fd7f-180">4</span></span>         | <span data-ttu-id="2fd7f-181">Недоступно</span><span class="sxs-lookup"><span data-stu-id="2fd7f-181">N/A</span></span>              | <span data-ttu-id="2fd7f-182">Недоступно</span><span class="sxs-lookup"><span data-stu-id="2fd7f-182">N/A</span></span>      | <span data-ttu-id="2fd7f-183">Да</span><span class="sxs-lookup"><span data-stu-id="2fd7f-183">Yes</span></span>          |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="2fd7f-184">См. также</span><span class="sxs-lookup"><span data-stu-id="2fd7f-184">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="2fd7f-185">Модель шейдера 5</span><span class="sxs-lookup"><span data-stu-id="2fd7f-185">Shader Model 5</span></span>](d3d11-graphics-reference-sm5.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
