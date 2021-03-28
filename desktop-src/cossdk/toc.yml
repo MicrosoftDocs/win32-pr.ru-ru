@@ -1,0 +1,2408 @@
+- name: COM+ (службы компонентов)
+  href: component-services-portal.md
+  items:
+    - name: 'Новые возможности COM+ 1,5'
+      href: what-s-new-in-com--1-5.md
+    - name: Обзор разработчиков COM+
+      href: com--developers-overview.md
+      items:
+        - name: Общие сведения о программировании COM+
+          href: com--programming-overview.md
+        - name: Общие сведения о приложении COM+
+          href: com--application-overview.md
+          items:
+            - name: Типы приложений COM+
+              href: types-of-com--applications.md
+            - name: Части приложения COM+
+              href: parts-of-a-com--application.md
+            - name: Разработка приложений COM+
+              href: developing-com--applications.md
+        - name: Контексты COM+ и модели потоков
+          href: com--contexts-and-threading-models.md
+          items:
+            - name: Контексты COM+
+              href: com--contexts.md
+              items:
+                - name: Активация контекста
+                  href: context-activation.md
+                - name: Перехват вызовов между контекстами
+                  href: interception-of-cross-context-calls.md
+            - name: Модели потоков COM+
+              href: com--threading-models.md
+              items:
+                - name: Атрибут модели потоков
+                  href: threading-model-attribute.md
+                - name: Нейтральные подразделения
+                  href: neutral-apartments.md
+        - name: Учебник по службам COM+
+          href: com--services-primer.md
+          items:
+            - name: Шаг 1. Создание транзакционного компонента
+              href: step-1--creating-a-transactional-component.md
+            - name: Шаг 2. расширение транзакции между компонентами
+              href: step-2--extending-a-transaction-across-multiple-components.md
+            - name: Шаг 3. повторное использование компонентов
+              href: step-3--reusing-components.md
+    - name: Службы COM+
+      href: com--services.md
+      items:
+        - name: Группирование приложений COM+
+          href: com--application-pooling.md
+          items:
+            - name: Основные понятия пула приложений COM+
+              href: com--application-pooling-concepts.md
+            - name: Задачи пула приложений COM+
+              href: com--application-pooling-tasks.md
+              items:
+                - name: Настройка значений пула приложений COM+
+                  href: configuring-com--application-pooling-values.md
+        - name: Перезапуск приложений COM+
+          href: com--application-recycling.md
+          items:
+            - name: Основные понятия перезапуска приложений COM+
+              href: com--application-recycling-concepts.md
+            - name: Задачи перезапуска приложений COM+
+              href: com--application-recycling-tasks.md
+              items:
+                - name: Настройка значений перезапуска приложения COM+
+                  href: configuring-com--application-recycling-values.md
+        - name: 'Приложения COM+, выполняющиеся как приложения служб'
+          href: com--applications-running-as-service-applications.md
+          items:
+            - name: Основные понятия приложения службы COM+
+              href: com--service-application-concepts.md
+            - name: Задачи приложения службы COM+
+              href: com--service-application-tasks.md
+              items:
+                - name: Настройка серверного приложения COM+ как приложения службы
+                  href: configuring-a-com--server-application-as-a-service-application.md
+        - name: Компенсирующие диспетчер ресурсов COM+
+          href: com--compensating-resource-manager.md
+          items:
+            - name: Основные понятия о компенсации диспетчер ресурсов COM+
+              href: com--compensating-resource-manager-concepts.md
+              items:
+                - name: Вопросы безопасности COM+ CRM
+                  href: com--crm-security-considerations.md
+                - name: Операционный процесс COM+ CRM
+                  href: com--crm-operating-process.md
+                - name: Запуск и восстановление COM+ CRM
+                  href: com--crm-startup-and-recovery.md
+                - name: Использование COM+ CRM в среде кластера
+                  href: using-the-com--crm-in-a-cluster-environment.md
+                - name: Обработка ошибок в COM+ CRM
+                  href: error-handling-in-the-com--crm.md
+                - name: Параметры реестра COM+ CRM
+                  href: com--crm-registry-settings.md
+                - name: Устранение неполадок COM+ CRM
+                  href: troubleshooting-the-com--crm.md
+                - name: Предложения по проектированию для разработки COM+ CRM
+                  href: design-suggestions-for-developing-a-com--crm.md
+                - name: Интерфейсы мониторинга COM+ CRM
+                  href: com--crm-monitoring-interfaces.md
+                - name: Интерфейсы COM+ CRM
+                  href: com--crm-interfaces.md
+            - name: Задачи компенсирующих диспетчер ресурсов COM+
+              href: com--compensating-resource-manager-tasks.md
+              items:
+                - name: Настройка компонентов COM+ CRM
+                  href: configuring-com--crm-components.md
+        - name: События COM+
+          href: com--events.md
+          items:
+            - name: Основные понятия событий COM+
+              href: com--events-concepts.md
+              items:
+                - name: Объект класса событий COM+
+                  href: the-com--event-class-object.md
+                - name: Подписки
+                  href: subscriptions.md
+                - name: Публикация и доставка событий в COM+
+                  href: publishing-and-delivering-events-in-com-.md
+                - name: Фильтрация событий в COM+
+                  href: filtering-events-in-com-.md
+                - name: Использование событий COM+ с компонентами в очереди COM+
+                  href: using-com--events-with-com--queued-components.md
+            - name: Вопросы безопасности событий COM+
+              href: com--events-security-considerations.md
+            - name: Задачи событий COM+
+              href: com--events-tasks.md
+              items:
+                - name: Регистрация класса событий
+                  href: registering-an-event-class.md
+                - name: Регистрация подписки
+                  href: registering-a-subscription.md
+                - name: Регистрация временной подписки
+                  href: registering-a-transient-subscription.md
+                - name: Публикация события
+                  href: publishing-an-event.md
+                - name: Создание фильтра издателя
+                  href: creating-a-publisher-filter.md
+        - name: Основные понятия инструментария COM+
+          href: com--instrumentation-concepts.md
+          items:
+            - name: Интерфейсы инструментария COM+
+              href: com--instrumentation-interfaces.md
+        - name: JIT-активация COM+
+          href: com--just-in-time-activation.md
+          items:
+            - name: Основные понятия JIT-активации COM+
+              href: com--just-in-time-activation-concepts.md
+              items:
+                - name: Транзакции и JIT-активация COM+
+                  href: transactions-and-com--jit-activation.md
+                - name: Объединение объектов в пул и JIT-активация COM+
+                  href: object-pooling-and-com--jit-activation.md
+            - name: Задачи JIT-активации COM+
+              href: com--just-in-time-activation-tasks.md
+              items:
+                - name: Включение JIT-активации для компонента
+                  href: enabling-jit-activation-for-a-component.md
+                - name: Установка бита done
+                  href: setting-the-done-bit.md
+                - name: Включение автоматического завершения для метода
+                  href: enabling-auto-done-for-a-method.md
+                - name: Принудительная активация в контексте по умолчанию
+                  href: enforcing-activation-in-the-default-context.md
+                - name: Принудительная активация в контексте вызывающего объекта
+                  href: enforcing-activation-in-the-caller-s-context.md
+        - name: Шлюзы активации COM+ Low-Memory
+          href: com--low-memory-activation-gates.md
+          items:
+            - name: Основные понятия о шлюзах активации COM+ Low-Memory
+              href: com--low-memory-activation-gates-concepts.md
+            - name: Задачи шлюза активации COM+ Low-Memory
+              href: com--low-memory-activation-gates-tasks.md
+        - name: Строки конструктора объектов COM+
+          href: com--object-constructor-strings.md
+          items:
+            - name: Основные понятия о строках конструктора объектов COM+
+              href: com--object-constructor-strings-concepts.md
+            - name: Задачи строк конструктора объектов COM+
+              href: com--object-constructor-strings-tasks.md
+              items:
+                - name: Указание строки конструктора объекта для компонента
+                  href: specifying-an-object-constructor-string-for-a-component.md
+                - name: Использование строки конструктора объекта для создания компонента
+                  href: using-an-object-constructor-string-to-construct-a-component.md
+        - name: Группирование объектов COM+
+          href: com--object-pooling.md
+          items:
+            - name: Основные понятия пула объектов COM+
+              href: com--object-pooling-concepts.md
+              items:
+                - name: Как работает пул объектов
+                  href: how-object-pooling-works.md
+                - name: Повышение производительности с помощью пула объектов
+                  href: improving-performance-with-object-pooling.md
+                - name: Требования к объектам в пуле
+                  href: requirements-for-poolable-objects.md
+                - name: Группирование транзакционных объектов в пул
+                  href: pooling-transactional-objects.md
+                - name: Управление временем существования и состоянием объекта
+                  href: controlling-object-lifetime-and-state.md
+            - name: Задачи пула объектов COM+
+              href: com--object-pooling-tasks.md
+              items:
+                - name: Настройка компонента для объединения в пул
+                  href: configuring-a-component-to-be-pooled.md
+                - name: Мониторинг статистики объектов
+                  href: monitoring-object-statistics.md
+        - name: Разделы COM+
+          href: com--partitions.md
+          items:
+            - name: Основные понятия о разделах COM+
+              href: com--partitions-concepts.md
+              items:
+                - name: Что такое разделы COM+?
+                  href: what-are-com--partitions-.md
+                - name: Реализация секционирования
+                  href: partition-implementation.md
+                  items:
+                    - name: Локальные секции
+                      href: local-partitions.md
+                    - name: Секции и Active Directory
+                      href: partitions-and-active-directory.md
+                    - name: Секции по умолчанию
+                      href: default-partitions.md
+                    - name: Глобальный раздел
+                      href: the-global-partition.md
+                    - name: Свойства секции
+                      href: partition-properties.md
+                - name: Регистрация и Активация компонентов в секциях
+                  href: registering-and-activating-components-in-partitions.md
+                  items:
+                    - name: Поиск секций во время активации
+                      href: locating-partitions-during-activation.md
+                    - name: Поиск компонента для активации
+                      href: locating-a-component-for-activation.md
+                - name: 'Компоненты и разделы, помещенные в очередь COM+'
+                  href: com--queued-components-and-partitions.md
+                - name: Ограничения разработки приложений
+                  href: application-design-restrictions.md
+            - name: Задачи секций COM+
+              href: com--partitions-tasks.md
+              items:
+                - name: Создание и Настройка разделов COM+
+                  href: creating-and-configuring-com--partitions.md
+                - name: Управление локальными секциями
+                  href: managing-local-partitions.md
+                - name: Управление секциями в Active Directory
+                  href: managing-partitions-within-active-directory.md
+                - name: Установка прав администратора для секции
+                  href: setting-administrative-rights-for-a-partition.md
+                - name: Группирование приложений в секции
+                  href: grouping-applications-into-partitions.md
+                - name: Сбор метрик секции
+                  href: collecting-partition-metrics.md
+                - name: Настройка кэша секций
+                  href: configuring-the-partition-cache.md
+        - name: Компоненты в очереди COM+
+          href: com--queued-components.md
+          items:
+            - name: Основные понятия COM+ в очереди компонентов
+              href: com--queued-components-concepts.md
+              items:
+                - name: Преимущества обработки в очереди
+                  href: benefits-of-queued-processing.md
+                - name: Архитектура очередей компонентов
+                  href: queued-components-architecture.md
+                - name: Транзакционная очередь сообщений
+                  href: transactional-message-queuing.md
+                - name: Безопасность очередей компонентов
+                  href: queued-components-security.md
+                - name: Разработка компонентов в очереди
+                  href: developing-queued-components.md
+                  items:
+                    - name: Передача объектов в качестве параметров
+                      href: passing-objects-as-parameters.md
+                    - name: Ограничения безопасности в режиме рабочей группы
+                      href: security-limitations-in-workgroup-mode.md
+                    - name: Особенности работы с потоками
+                      href: threading-considerations.md
+                    - name: Получение ответа
+                      href: receiving-a-response.md
+                - name: Ошибки компонентов в очереди
+                  href: queued-components-errors.md
+                  items:
+                    - name: Ошибки Server-Side
+                      href: server-side-errors.md
+                    - name: Ошибки Client-Side
+                      href: client-side-errors.md
+                    - name: Постоянные сбои Client-Side
+                      href: persistent-client-side-failures.md
+            - name: 'Задачи компонентов, поставленных в очередь COM+'
+              href: com--queued-components-tasks.md
+              items:
+                - name: Создание компонентов Куеуабле
+                  href: creating-queuable-components.md
+                - name: Создание очередей компонентов
+                  href: creating-component-queues.md
+                - name: Указание протокола проверки подлинности
+                  href: specifying-the-authentication-protocol.md
+                - name: Активация очередей компонентов
+                  href: activating-component-queues.md
+                - name: Использование моникера очереди
+                  href: using-the-queue-moniker.md
+                - name: Обработка ошибок в компонентах в очереди
+                  href: handling-errors-in-queued-components.md
+        - name: Служба распределителя ресурсов COM+
+          href: com--resource-dispenser-service.md
+          items:
+            - name: Основные понятия распределителя ресурсов COM+
+              href: com--resource-dispenser-concepts.md
+              items:
+                - name: Диспетчер распределителя COM+
+                  href: com--dispenser-manager.md
+                - name: Типы потоков распределителя ресурсов COM+
+                  href: com--resource-dispenser-thread-types.md
+                - name: 'Состояния ресурсов в пуле, доступные для распределителя ресурсов COM+'
+                  href: pooled-resource-states-available-to-com--resource-dispenser.md
+                - name: Прикрепление ресурса в транзакции
+                  href: enlisting-a-resource-in-a-transaction.md
+                - name: Процесс выделения ресурсов распределителя ресурсов
+                  href: resource-dispenser-resource-allocation-process.md
+                - name: Отслеживание нераспределенных ресурсов
+                  href: tracking-non-allocated-resources.md
+                - name: Автоматическое освобождение ресурсов
+                  href: automatic-resource-reclamation.md
+                - name: 'Типы, используемые в интерфейсах распределителя ресурсов COM+'
+                  href: types-used-in-com--resource-dispenser-interfaces.md
+                - name: Интерфейсы распределителя ресурсов COM+
+                  href: com--resource-dispenser-interfaces.md
+            - name: Задачи распределителя ресурсов COM+
+              href: com--resource-dispenser-tasks.md
+              items:
+                - name: Реализация распределителя ресурсов COM+
+                  href: implementing-a-com--resource-dispenser.md
+        - name: Безопасность COM+
+          href: com--security.md
+          items:
+            - name: Основные понятия безопасности COM+
+              href: com--security-concepts.md
+              items:
+                - name: Role-Based администрирование безопасности
+                  href: role-based-security-administration.md
+                  items:
+                    - name: Использование ролей для авторизации клиентов
+                      href: using-roles-for-client-authorization.md
+                    - name: Эффективное проектирование ролей
+                      href: designing-roles-effectively.md
+                    - name: Границы безопасности
+                      href: security-boundaries.md
+                    - name: Сведения о контексте вызова безопасности
+                      href: security-call-context-information.md
+                    - name: Свойство контекста безопасности
+                      href: security-context-property.md
+                - name: Безопасность программных компонентов
+                  href: programmatic-component-security.md
+                  items:
+                    - name: Проверка членства в роли
+                      href: checking-role-membership.md
+                    - name: 'Определение того, включена ли безопасность Role-Based'
+                      href: determining-whether-role-based-security-is-enabled.md
+                    - name: Доступ к сведениям о контексте вызова безопасности
+                      href: accessing-security-call-context-information.md
+                - name: Аутентификация клиента
+                  href: client-authentication.md
+                  items:
+                    - name: Согласование уровня проверки подлинности
+                      href: negotiation-of-authentication-level.md
+                - name: Олицетворение и делегирование клиента
+                  href: client-impersonation-and-delegation.md
+                  items:
+                    - name: Client-Side требования для олицетворения
+                      href: client-side-requirements-for-impersonation.md
+                    - name: Server-Side требования для олицетворения
+                      href: server-side-requirements-for-impersonation.md
+                    - name: Маскировка
+                      href: cloaking.md
+                - name: Использование политики ограниченного использования программ в COM+
+                  href: using-the-software-restriction-policy-in-com-.md
+                - name: Безопасность библиотечных приложений
+                  href: library-application-security.md
+                  items:
+                    - name: Настройка безопасности для библиотечных приложений
+                      href: configuring-security-for-library-applications.md
+                - name: Многоуровневая защита приложений
+                  href: multi-tier-application-security.md
+                  items:
+                    - name: Выбор места для обеспечения безопасности
+                      href: deciding-where-to-enforce-security.md
+                    - name: Основные сценарии защиты данных в многоуровневых приложениях
+                      href: basic-scenarios-for-securing-data-in-multi-tier-applications.md
+            - name: Задачи безопасности COM+
+              href: com--security-tasks.md
+              items:
+                - name: Настройка безопасности Role-Based
+                  href: configuring-role-based-security.md
+                  items:
+                    - name: Включение проверок доступа для приложения
+                      href: enabling-access-checks-for-an-application.md
+                    - name: Настройка уровня безопасности для проверок доступа
+                      href: setting-a-security-level-for-access-checks.md
+                    - name: Включение проверок доступа на уровне компонентов
+                      href: enabling-access-checks-at-the-component-level.md
+                    - name: Определение ролей для приложения
+                      href: defining-roles-for-an-application.md
+                    - name: 'Назначение ролей компонентам, интерфейсам или методам'
+                      href: assigning-roles-to-components--interfaces--or-methods.md
+                - name: Управление пользователями в ролях
+                  href: managing-users-in-roles.md
+                  items:
+                    - name: Включение проверки авторизации Role-Based
+                      href: enabling-role-based-authorization-checking.md
+                    - name: Назначение роли учетной записи пользователя или группы
+                      href: assigning-a-user-account-or-group-to-a-role.md
+                    - name: Удаление учетной записи пользователя или группы из роли
+                      href: removing-a-user-account-or-group-from-a-role.md
+                    - name: Перемещение учетной записи пользователя или группы в другую роль
+                      href: moving-a-user-account-or-group-to-a-different-role.md
+                - name: Установка уровня проверки подлинности для серверного приложения
+                  href: setting-an-authentication-level-for-a-server-application.md
+                - name: Включение проверки подлинности для библиотечного приложения
+                  href: enabling-authentication-for-a-library-application.md
+                - name: Установка уровня олицетворения
+                  href: setting-an-impersonation-level.md
+                - name: Настройка политики ограниченного использования программ
+                  href: configuring-the-software-restriction-policy.md
+        - name: Службы COM+ без компонентов
+          href: com--services-without-components.md
+          items:
+            - name: Службы COM+ без компонентов концепции
+              href: com--services-without-components-concepts.md
+            - name: Задачи служб COM+ без компонентов
+              href: com--services-without-components-tasks.md
+              items:
+                - name: Настройка служб COM+ с помощью Ксервицеконфиг
+                  href: configuring-com--services-with-cserviceconfig.md
+                - name: Использование служб COM+ через Кокреатеактивити
+                  href: using-com--services-through-cocreateactivity.md
+                - name: Использование служб COM+ через Коентерсервицедомаин и Колеавесервицедомаин
+                  href: using-com--services-through-coenterservicedomain-and-coleaveservicedomain.md
+        - name: Общие диспетчер свойств COM+
+          href: com--shared-property-manager.md
+          items:
+            - name: Общие понятия диспетчер свойств COM+
+              href: com--shared-property-manager-concepts.md
+              items:
+                - name: Общие группы свойств
+                  href: shared-property-groups.md
+            - name: Пример общего диспетчер свойств COM+
+              href: com--shared-property-manager-sample.md
+        - name: Служба COM+ SOAP
+          href: com--soap-service.md
+          items:
+            - name: Основные понятия службы COM+ SOAP
+              href: com--soap-service-concepts.md
+              items:
+                - name: Общие сведения о службе COM+ SOAP
+                  href: com--soap-service-overview.md
+                - name: Вопросы безопасности службы COM+ SOAP
+                  href: com--soap-service-security-considerations.md
+            - name: Задачи службы COM+ SOAP
+              href: com--soap-service-tasks.md
+              items:
+                - name: Создание веб-служб XML
+                  href: creating-xml-web-services.md
+                - name: Защита веб-служб XML
+                  href: securing-xml-web-services.md
+                - name: Доступ к веб-службам XML в режиме ВКО
+                  href: accessing-xml-web-services-in-wko-mode.md
+                - name: Доступ к веб-службам XML в режиме Као
+                  href: accessing-xml-web-services-in-cao-mode.md
+                - name: Экспорт приложения SOAP-Enabled
+                  href: exporting-a-soap-enabled-application.md
+                - name: Импорт SOAP-Enabled приложения
+                  href: importing-a-soap-enabled-application.md
+        - name: Синхронизация COM+
+          href: com--synchronization.md
+          items:
+            - name: Основные понятия синхронизации COM+
+              href: com--synchronization-concepts.md
+              items:
+                - name: Значения атрибутов синхронизации
+                  href: synchronization-attribute-values.md
+                - name: Зависимости синхронизации
+                  href: synchronization-dependencies.md
+            - name: Задачи синхронизации COM+
+              href: com--synchronization-tasks.md
+              items:
+                - name: Настройка атрибута синхронизации
+                  href: setting-the-synchronization-attribute.md
+        - name: Отслеживание COM+
+          href: com--tracking.md
+        - name: Транзакции COM+
+          href: com--transactions.md
+          items:
+            - name: Концепции транзакций COM+
+              href: com--transactions-concepts.md
+              items:
+                - name: Свойства ACID
+                  href: acid-properties.md
+                - name: Настройка транзакций
+                  href: configuring-transactions.md
+                - name: Настройка уровней изоляции транзакций
+                  href: configuring-transaction-isolation-levels.md
+                - name: Управление автоматическими транзакциями в COM+
+                  href: managing-automatic-transactions-in-com-.md
+                  items:
+                    - name: Флаги consistent и Done
+                      href: consistent-and-done-flags.md
+                    - name: Ускорение транзакций путем уведомления корневого объекта
+                      href: speeding-transactions-by-notifying-the-root-object.md
+                    - name: Завершение автоматической транзакции путем вызова Сеткомплете
+                      href: terminating-an-automatic-transaction-by-calling-setcomplete.md
+                - name: Использование нетранзакционных компонентов в транзакции
+                  href: using-non-transactional-components-in-a-transaction.md
+                - name: Приведите собственную транзакцию (BYOT)
+                  href: bring-your-own-transaction--byot-.md
+                  items:
+                    - name: Наследование ручных транзакций
+                      href: inheriting-manual-transactions.md
+            - name: Задачи транзакций COM+
+              href: com--transactions-tasks.md
+              items:
+                - name: Установка атрибута Transaction
+                  href: setting-the-transaction-attribute.md
+                - name: Установка уровня изоляции транзакций
+                  href: setting-the-transaction-isolation-level.md
+                - name: Настройка Time-Out транзакций
+                  href: setting-the-transaction-time-out.md
+                - name: Установка флагов consistent и Done
+                  href: setting-the-consistent-and-done-flags.md
+                - name: Создание объектов BYOT
+                  href: creating-byot-objects.md
+    - name: Общие задачи COM+
+      href: com--general-tasks.md
+      items:
+        - name: Создание приложений COM+
+          href: creating-com--applications.md
+          items:
+            - name: Создание нового приложения COM+
+              href: creating-a-new-com--application.md
+            - name: Установка новых компонентов
+              href: installing-new-components.md
+            - name: Импорт компонентов
+              href: importing-components.md
+            - name: Удаление компонента из приложения COM+
+              href: removing-a-component-from-a-com--application.md
+            - name: Перемещение компонентов
+              href: moving-components.md
+            - name: Копирование компонентов
+              href: copying-components.md
+            - name: Удаление приложения COM+
+              href: deleting-a-com--application.md
+        - name: Настройка приложений COM+
+          href: configuring-com--applications.md
+          items:
+            - name: Настройка библиотечных приложений
+              href: configuring-library-applications.md
+            - name: Использование файлов конфигурации Per-Application
+              href: using-per-application-configuration-files.md
+        - name: Развертывание приложений COM+
+          href: deploying-com--applications.md
+          items:
+            - name: Создание пакетов установки для приложений COM+
+              href: creating-installation-packages-for-com--applications.md
+            - name: Развертывание прокси приложения
+              href: deploying-application-proxies.md
+            - name: Каталог COM+
+              href: the-com--catalog.md
+            - name: Служебная программа репликации COMREPL
+              href: the-comrepl-replication-utility.md
+              items:
+                - name: Использование COMREPL
+                  href: using-comrepl.md
+                - name: Что реплицируется
+                  href: what-gets-replicated.md
+                - name: Этапы репликации
+                  href: replication-phases.md
+                - name: Управление файлами
+                  href: file-management.md
+                - name: Ведение журнала и отчеты об ошибках
+                  href: logging-and-error-reporting.md
+        - name: Отладка приложений COM+
+          href: debugging-com--applications.md
+          items:
+            - name: 'Отладка компонентов, написанных на Visual C++'
+              href: debugging-components-written-in-visual-c--.md
+            - name: 'Отладка компонентов, написанных на Visual Basic'
+              href: debugging-components-written-in-visual-basic.md
+              items:
+                - name: Отладка в интегрированной среде разработки Visual Basic
+                  href: debugging-in-the-visual-basic-ide.md
+                - name: Отладка скомпилированных компонентов Visual Basic
+                  href: debugging-compiled-visual-basic-components.md
+                - name: Поддержка отладки Visual Basic COM+ отличается от MTS
+                  href: com--visual-basic-debugging-support-contrasted-with-mts.md
+        - name: Обработка ошибок в COM+
+          href: handling-errors-in-com-.md
+          items:
+            - name: Стратегии обработки ошибок в COM+
+              href: strategies-for-handling-errors-in-com-.md
+            - name: Изменение возвращаемых значений COM+
+              href: how-com--modifies-return-values.md
+            - name: Изоляция сбоев и политика FailFast
+              href: fault-isolation-and-failfast-policy.md
+            - name: Поиск источника ошибки
+              href: finding-the-source-of-an-error.md
+            - name: Анализ кодов ошибок
+              href: interpreting-error-codes.md
+            - name: Устранение неполадок
+              href: troubleshooting.md
+            - name: Обращение в службу поддержки
+              href: contacting-support.md
+        - name: Автоматизация администрирования COM+
+          href: automating-com--administration.md
+          items:
+            - name: Общие сведения об объектах Комадмин
+              href: overview-of-the-comadmin-objects.md
+              items:
+                - name: Доступ к каталогу COM+
+                  href: accessing-the-com--catalog.md
+                - name: Сводное описание классов Комадмин
+                  href: summary-description-of-the-comadmin-classes.md
+            - name: Получение коллекций в каталоге COM+
+              href: retrieving-collections-on-the-com--catalog.md
+              items:
+                - name: Навигация по иерархии коллекции COM+
+                  href: navigating-the-com--collection-hierarchy.md
+                - name: Заполнение коллекций COM+
+                  href: populating-com--collections.md
+                - name: Запросы к доступным связанным коллекциям
+                  href: querying-for-available-related-collections.md
+            - name: Изменение свойств в каталоге COM+
+              href: setting-properties-and-saving-changes-to-the-com--catalog.md
+              items:
+                - name: Получение и задание свойств
+                  href: getting-and-setting-properties.md
+                - name: Сохранение или Отмена изменений
+                  href: saving-or-discarding-changes.md
+                - name: Взаимозависимости между свойствами
+                  href: interdependencies-between-properties.md
+                - name: Запрос доступных свойств
+                  href: querying-for-available-properties.md
+            - name: Обработка ошибок администрирования COM+
+              href: handling-com--administration-errors.md
+            - name: Операции администрирования COM+ в транзакциях
+              href: com--administration-operations-within-transactions.md
+            - name: Вводный пример с использованием каталога администрирования COM+
+              href: introductory-example-using-the-com--administration-catalog.md
+        - name: Проектирование приложений COM+
+          href: designing-com--applications.md
+          items:
+            - name: Предположения и принципы разработки COM+
+              href: com--design-assumptions-and-principles.md
+              items:
+                - name: Основные рекомендации по проектированию приложений COM+
+                  href: basic-guidelines-for-designing-com--applications.md
+            - name: Другие средства Майкрософт для создания распределенных приложений
+              href: other-microsoft-tools-for-building-distributed-applications.md
+            - name: Проектирование приложения COM+ с помощью UML
+              href: designing-the-com--application-using-uml.md
+              items:
+                - name: 'Концептуальная модель: требования к приложениям'
+                  href: the-conceptual-model--application-requirements.md
+                - name: 'Логическая модель: определение приложения и планирование'
+                  href: the-logical-model--application-definition-and-planning.md
+                  items:
+                    - name: Использование модели архитектуры Three-Tier
+                      href: using-a-three-tier-architecture-model.md
+                - name: 'Физическая модель: архитектура приложения'
+                  href: the-physical-model--application-architecture.md
+            - name: Общие рекомендации по проектированию для использования COM+
+              href: general-design-tips-for-using-com-.md
+              items:
+                - name: Проектирование для масштабируемости
+                  href: designing-for-scalability.md
+                - name: Проектирование для обеспечения доступности
+                  href: designing-for-availability.md
+                - name: Разработка для обеспечения безопасности
+                  href: designing-for-security.md
+                - name: Проектирование для развертывания
+                  href: designing-for-deployment.md
+                  items:
+                    - name: Развертывание для ускорения обмена данными
+                      href: deploying-for-faster-communication.md
+            - name: Оптимизация взаимодействия с уровнем бизнес-логики COM+
+              href: optimizing-interactions-with-the-com--business-logic-tier.md
+              items:
+                - name: Оптимизация взаимодействия между уровнем представления и бизнес-логики COM+
+                  href: optimizing-interactions-between-the-com--business-logic-tier-and-the-presentation-tier.md
+                - name: Оптимизация взаимодействия между уровнем бизнес-логики COM+ и уровнем данных
+                  href: optimizing-interactions-between-the-com--business-logic-tier-and-the-data-tier.md
+        - name: Преобразование пакетов MTS в приложения COM+
+          href: conversion-of-mts-packages-to-com--applications.md
+          items:
+            - name: Автоматическое преобразование из MTS
+              href: automatic-conversion-from-mts.md
+            - name: Ручное преобразование из MTS
+              href: manual-conversion-from-mts.md
+            - name: Результаты и проблемы преобразования COM+
+              href: com--conversion-results-and-issues.md
+            - name: Библиотека администрирования MTS
+              href: mts-administration-library.md
+    - name: Справочник по COM+
+      href: com--reference.md
+      items:
+        - name: Справочник по администрированию COM+
+          href: com--administration-reference.md
+          items:
+            - name: Классы администрирования COM+
+              href: com--administration-classes.md
+              items:
+                - name: комадминкаталог
+                  href: comadmincatalog.md
+                - name: комадминкаталогколлектион
+                  href: comadmincatalogcollection.md
+                - name: комадминкаталогобжект
+                  href: comadmincatalogobject.md
+            - name: Коллекции администрирования COM+
+              href: com--administration-collections.md
+              items:
+                - name: аппликатионклустер
+                  href: applicationcluster.md
+                - name: аппликатионинстанцес
+                  href: applicationinstances.md
+                - name: Приложения
+                  href: applications.md
+                - name: Components
+                  href: components.md
+                - name: компутерлист
+                  href: computerlist.md
+                - name: дкомпротоколс
+                  href: dcomprotocols.md
+                - name: ErrorInfo
+                  href: errorinfo.md
+                - name: евентклассесфориид
+                  href: eventclassesforiid.md
+                - name: филесфоримпорт
+                  href: filesforimport.md
+                - name: инпроксерверс
+                  href: inprocservers.md
+                - name: интерфацесфоркомпонент
+                  href: interfacesforcomponent.md
+                - name: легацикомпонентс
+                  href: legacycomponents.md
+                - name: легацисерверс
+                  href: legacyservers.md
+                - name: локалкомпутер
+                  href: localcomputer.md
+                - name: месодсфоринтерфаце
+                  href: methodsforinterface.md
+                - name: Секции
+                  href: partitions.md
+                - name: партитионусерс
+                  href: partitionusers.md
+                - name: PropertyInfo
+                  href: propertyinfo.md
+                - name: публишерпропертиес
+                  href: publisherproperties.md
+                - name: релатедколлектионинфо
+                  href: relatedcollectioninfo.md
+                - name: Роли
+                  href: roles.md
+                - name: ролесфоркомпонент
+                  href: rolesforcomponent.md
+                - name: ролесфоринтерфаце
+                  href: rolesforinterface.md
+                - name: ролесформесод
+                  href: rolesformethod.md
+                - name: ролесфорпартитион
+                  href: rolesforpartition.md
+                - name: Root
+                  href: root.md
+                - name: субскриберпропертиес
+                  href: subscriberproperties.md
+                - name: субскриптионсфоркомпонент
+                  href: subscriptionsforcomponent.md
+                - name: трансиентпублишерпропертиес
+                  href: transientpublisherproperties.md
+                - name: трансиентсубскриберпропертиес
+                  href: transientsubscriberproperties.md
+                - name: трансиентсубскриптионс
+                  href: transientsubscriptions.md
+                - name: усерсинпартитионроле
+                  href: usersinpartitionrole.md
+                - name: усерсинроле
+                  href: usersinrole.md
+                - name: вовинпроксерверс
+                  href: wowinprocservers.md
+                - name: вовлегацисерверс
+                  href: wowlegacyservers.md
+            - name: Интерфейсы администрирования COM+
+              href: com--administration-interfaces.md
+              items:
+                - name: икаталогколлектион
+                  href: /windows/desktop/api/ComAdmin/nn-comadmin-icatalogcollection
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-get__newenum
+                    - name: Добавить метод.
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add
+                    - name: 'Адденаблед, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-get_addenabled
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-get_count
+                    - name: 'Датасторемажорверсион, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-get_datastoremajorversion
+                    - name: 'Датастореминорверсион, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-get_datastoreminorversion
+                    - name: Метод IsCollection
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-getcollection
+                    - name: Метод Жетутилинтерфаце
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-getutilinterface
+                    - name: Свойство Item
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-get_item
+                    - name: Свойство Name
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-get_name
+                    - name: Заполнить метод
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-populate
+                    - name: Метод Популатебикэй
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-populatebykey
+                    - name: Метод Популатебикуери
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-populatebyquery
+                    - name: Удалить метод
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove
+                    - name: 'Ремовинаблед, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-get_removeenabled
+                    - name: Метод SaveChanges
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges
+                - name: икаталогобжект
+                  href: /windows/desktop/api/ComAdmin/nn-comadmin-icatalogobject
+                  items:
+                    - name: Метод Испропертиреадонли
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-ispropertyreadonly
+                    - name: Метод Испропертивритеонли
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-ispropertywriteonly
+                    - name: Ключевое свойство
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key
+                    - name: Свойство Name
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name
+                    - name: Допустимое свойство
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_valid
+                    - name: Свойство Value
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_value
+                - name: икомадминкаталог
+                  href: /windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog
+                  items:
+                    - name: Метод Баккупрегдб
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-backupregdb
+                    - name: Метод Connect
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-connect
+                    - name: Метод Експортаппликатион
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-exportapplication
+                    - name: Метод IsCollection
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection
+                    - name: Метод Жетколлектионбикуери
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollectionbyquery
+                    - name: Метод Жетевентклассесфориид
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-geteventclassesforiid
+                    - name: Метод Жетмултиплекомпонентсинфо
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getmultiplecomponentsinfo
+                    - name: Метод Импорткомпонент
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-importcomponent
+                    - name: Метод InstallApplication
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-installapplication
+                    - name: Метод Инсталлкомпонент
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-installcomponent
+                    - name: Метод Инсталлевенткласс
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-installeventclass
+                    - name: Метод Инсталлмултиплекомпонентс
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-installmultiplecomponents
+                    - name: Метод Инсталлмултипливентклассес
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-installmultipleeventclasses
+                    - name: 'MajorVersion, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-get_majorversion
+                    - name: Свойство MinorVersion
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-get_minorversion
+                    - name: Метод Куеряппликатионфиле
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-queryapplicationfile
+                    - name: Метод Рефрешкомпонентс
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-refreshcomponents
+                    - name: Метод Рефрешраутер
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-refreshrouter
+                    - name: Метод Ресторерегдб
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-restoreregdb
+                    - name: Метод Сервицечекк
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-servicecheck
+                    - name: Метод Шутдовнаппликатион
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-shutdownapplication
+                    - name: Метод Стартаппликатион
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-startapplication
+                    - name: Метод Стартраутер
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-startrouter
+                    - name: Метод Стопраутер
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-stoprouter
+                - name: ICOMAdminCatalog2
+                  href: /windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2
+                  items:
+                    - name: Метод Алиаскомпонент
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-aliascomponent
+                    - name: Метод Ареаппликатионинстанцеспаусед
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-areapplicationinstancespaused
+                    - name: Метод Копяппликатионс
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-copyapplications
+                    - name: Метод Копикомпонентс
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-copycomponents
+                    - name: Метод Креатесервицефораппликатион
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-createserviceforapplication
+                    - name: 'Куррентпартитион, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-put_currentpartition
+                    - name: 'Куррентпартитионид, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-get_currentpartitionid
+                    - name: 'Куррентпартитионнаме, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-get_currentpartitionname
+                    - name: Метод Делетесервицефораппликатион
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-deleteserviceforapplication
+                    - name: Метод Думпаппликатионинстанце
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-dumpapplicationinstance
+                    - name: Метод Експортпартитион
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-exportpartition
+                    - name: Метод Флушпартитионкаче
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-flushpartitioncache
+                    - name: Метод Жетаппликатионинстанцеидфромпроцессид
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-getapplicationinstanceidfromprocessid
+                    - name: Метод GetCollectionByQuery2
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-getcollectionbyquery2
+                    - name: Метод Жеткомпонентверсионкаунт
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-getcomponentversioncount
+                    - name: Метод Жетпартитионид
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-getpartitionid
+                    - name: Метод Жетпартитионнаме
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-getpartitionname
+                    - name: 'Глобалпартитионид, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-get_globalpartitionid
+                    - name: Метод Импорткомпонентс
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-importcomponents
+                    - name: Метод Импортунконфигуредкомпонентс
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-importunconfiguredcomponents
+                    - name: Метод Инсталлпартитион
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-installpartition
+                    - name: 'Is64BitCatalogServer, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-get_is64bitcatalogserver
+                    - name: 'Исаппликатионинстанцедумпсуппортед, свойство'
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-get_isapplicationinstancedumpsupported
+                    - name: Метод Иссафетоделете
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-issafetodelete
+                    - name: Метод Мовекомпонентс
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-movecomponents
+                    - name: Метод Паусеаппликатионинстанцес
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-pauseapplicationinstances
+                    - name: Метод Промотеунконфигуредкомпонентс
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-promoteunconfiguredcomponents
+                    - name: Метод QueryApplicationFile2
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-queryapplicationfile2
+                    - name: Метод Рециклеаппликатионинстанцес
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-recycleapplicationinstances
+                    - name: Метод Ресумеаппликатионинстанцес
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-resumeapplicationinstances
+                    - name: Метод Шутдовнаппликатионинстанцес
+                      href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog2-shutdownapplicationinstances
+        - name: Справочник по программированию COM+
+          href: com--programming-reference.md
+          items:
+            - name: Классы COM+
+              href: com--classes.md
+              items:
+                - name: аппдомаинхелпер
+                  href: appdomainhelper.md
+                - name: клрассемблилокатор
+                  href: clrassemblylocator.md
+                - name: ксервицеконфиг
+                  href: cserviceconfig.md
+                - name: секуритикаллконтекст
+                  href: securitycallcontext.md
+                - name: секуритикаллерс
+                  href: securitycallers.md
+                - name: секуритидентити
+                  href: securityidentity.md
+                - name: шаредпроперти
+                  href: sharedproperty.md
+                - name: шаредпропертиграуп
+                  href: sharedpropertygroup.md
+                - name: шаредпропертиграупманажер
+                  href: sharedpropertygroupmanager.md
+                - name: трансактионконтекст
+                  href: transactioncontext.md
+                - name: трансактионконтекстекс
+                  href: transactioncontextex.md
+            - name: Перечисления COM+
+              href: com--enumerations.md
+              items:
+                - name: комадминтксисолатионлевелоптионс
+                  href: /windows/desktop/api/ComAdmin/ne-comadmin-comadmintxisolationleveloptions
+                - name: COMPLUS_APPTYPE
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-complus_apptype
+                - name: крмфлагс
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-crmflags
+                - name: крмрегфлагс
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-crmregflags
+                - name: крмтрансактионстате
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-crmtransactionstate
+                - name: CSC_Binding
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_binding
+                - name: CSC_COMTIIntrinsicsConfig
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_comtiintrinsicsconfig
+                - name: CSC_IISIntrinsicsConfig
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_iisintrinsicsconfig
+                - name: CSC_InheritanceConfig
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_inheritanceconfig
+                - name: CSC_PartitionConfig
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_partitionconfig
+                - name: CSC_SxsConfig
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_sxsconfig
+                - name: CSC_SynchronizationConfig
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_synchronizationconfig
+                - name: CSC_ThreadPool
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_threadpool
+                - name: CSC_TrackerConfig
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_trackerconfig
+                - name: CSC_TransactionConfig
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_transactionconfig
+                - name: EOC_ChangeType
+                  href: /windows/desktop/api/Eventsys/ne-eventsys-eoc_changetype
+                - name: жетапптраккердатафлагс
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-getapptrackerdataflags
+                - name: TRACKING_COLL_TYPE
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-tracking_coll_type
+                - name: трансактионвоте
+                  href: /windows/win32/api/ComSvcs/ne-comsvcs-transactionvote
+            - name: Функции COM+
+              href: com--functions.md
+              items:
+                - name: кокреатеактивити
+                  href: /windows/desktop/api/ComSvcs/nf-comsvcs-cocreateactivity
+                - name: коентерсервицедомаин
+                  href: /windows/desktop/api/ComSvcs/nf-comsvcs-coenterservicedomain
+                - name: кожетдефаултконтекст
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetdefaultcontext
+                - name: колеавесервицедомаин
+                  href: /windows/desktop/api/ComSvcs/nf-comsvcs-coleaveservicedomain
+                - name: жетдиспенсерманажер
+                  href: /windows/desktop/api/MtxDM/nf-mtxdm-getdispensermanager
+                - name: жетманажедекстенсионс
+                  href: /windows/desktop/api/ComSvcs/nf-comsvcs-getmanagedextensions
+                - name: Класс ObjectContext
+                  href: /windows/desktop/api/ComSvcs/nf-comsvcs-getobjectcontext
+                - name: мтскреатеактивити
+                  href: /windows/desktop/api/ComSvcs/nf-comsvcs-mtscreateactivity
+                - name: рециклесуррогате
+                  href: /windows/desktop/api/ComSvcs/nf-comsvcs-recyclesurrogate
+                - name: сафереф
+                  href: /windows/desktop/api/ComSvcs/nf-comsvcs-saferef
+            - name: Интерфейсы COM+
+              href: com--interfaces.md
+              items:
+                - name: контекстинфо
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-contextinfo
+                  items:
+                    - name: Метод Жетактивитид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-contextinfo-getactivityid
+                    - name: Метод Жетконтекстид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-contextinfo-getcontextid
+                    - name: Метод транзакции
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-contextinfo-gettransaction
+                    - name: Метод Жеттрансактионид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-contextinfo-gettransactionid
+                    - name: Метод Исинтрансактион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-contextinfo-isintransaction
+                - name: ContextInfo2
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-contextinfo2
+                  items:
+                    - name: Метод Жетаппликатионид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-contextinfo2-getapplicationid
+                    - name: Метод Жетаппликатионинстанцеид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-contextinfo2-getapplicationinstanceid
+                    - name: Метод Жетпартитионид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-contextinfo2-getpartitionid
+                - name: иаппдомаинхелпер
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iappdomainhelper
+                  items:
+                    - name: Метод DoCallback
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iappdomainhelper-docallback
+                    - name: Метод Initialize
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iappdomainhelper-initialize
+                - name: иассемблилокатор
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iassemblylocator
+                  items:
+                    - name: Метод modules
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iassemblylocator-getmodules
+                - name: иасинцеррорнотифи
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iasyncerrornotify
+                  items:
+                    - name: Метод OnError
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iasyncerrornotify-onerror
+                - name: ичеккскссконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-ichecksxsconfig
+                  items:
+                    - name: Метод Иссамескссконфиг
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ichecksxsconfig-issamesxsconfig
+                - name: икомактивитевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomactivityevents
+                  items:
+                    - name: Метод Онактивитикреате
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomactivityevents-onactivitycreate
+                    - name: Метод Онактивитидестрой
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomactivityevents-onactivitydestroy
+                    - name: Метод Онактивитентер
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomactivityevents-onactivityenter
+                    - name: Метод Онактивитилеаве
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomactivityevents-onactivityleave
+                    - name: Метод Онактивитилеавесаме
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomactivityevents-onactivityleavesame
+                    - name: Метод Онактивитиринтер
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomactivityevents-onactivityreenter
+                    - name: Метод Онактивититимеаут
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomactivityevents-onactivitytimeout
+                - name: икомаппевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomappevents
+                  items:
+                    - name: Метод Онаппактиватион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomappevents-onappactivation
+                    - name: Метод Онаппфорцешутдовн
+                      href: /windows/desktop/api/comsvcs/nf-comsvcs-icomappevents-onappforceshutdown
+                    - name: Метод Онаппшутдовн
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomappevents-onappshutdown
+                - name: IComApp2Events
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomapp2events
+                  items:
+                    - name: Метод OnAppActivation2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomapp2events-onappactivation2
+                    - name: Метод OnAppForceShutdown2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomapp2events-onappforceshutdown2
+                    - name: Метод OnAppPaused2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomapp2events-onapppaused2
+                    - name: Метод OnAppRecycle2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomapp2events-onapprecycle2
+                    - name: Метод OnAppShutdown2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomapp2events-onappshutdown2
+                - name: икомкрмевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomcrmevents
+                  items:
+                    - name: Метод Онкрмаборт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmabort
+                    - name: Метод Онкрманализе
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmanalyze
+                    - name: Метод Онкрмбегин
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmbegin
+                    - name: Метод Онкрмчеккпоинт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmcheckpoint
+                    - name: Метод Онкрмкоммит
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmcommit
+                    - name: Метод Онкрмделивер
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmdeliver
+                    - name: Метод Онкрмдоне
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmdone
+                    - name: Метод Онкрмфорце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmforce
+                    - name: Метод Онкрмфоржет
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmforget
+                    - name: Метод Онкрминдаубт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmindoubt
+                    - name: Метод Онкрмпрепаре
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmprepare
+                    - name: Метод Онкрмрековеридоне
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmrecoverydone
+                    - name: Метод Онкрмрековеристарт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmrecoverystart
+                    - name: Метод Онкрмрелеасе
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmrelease
+                    - name: Метод Онкрмврите
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomcrmevents-oncrmwrite
+                - name: икомексцептионевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomexceptionevents
+                  items:
+                    - name: Метод Онексцептионусер
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomexceptionevents-onexceptionuser
+                - name: икомидентитевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents
+                  items:
+                    - name: Метод Ониисрекуестинфо
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomidentityevents-oniisrequestinfo
+                - name: икоминстанцеевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icominstanceevents
+                  items:
+                    - name: Метод Онобжекткреате
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icominstanceevents-onobjectcreate
+                    - name: Метод Онобжектдестрой
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icominstanceevents-onobjectdestroy
+                - name: IComInstance2Events
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icominstance2events
+                  items:
+                    - name: Метод OnObjectCreate2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icominstance2events-onobjectcreate2
+                    - name: Метод OnObjectDestroy2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icominstance2events-onobjectdestroy2
+                - name: икомлбаргументс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomlbarguments
+                  items:
+                    - name: Метод класса CLSID
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomlbarguments-getclsid
+                    - name: Метод Жетмачиненаме
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomlbarguments-getmachinename
+                    - name: Метод Сетклсид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomlbarguments-setclsid
+                    - name: Метод Сетмачиненаме
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomlbarguments-setmachinename
+                - name: икомлтксевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomltxevents
+                  items:
+                    - name: Метод Онлткстрансактионаборт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomltxevents-onltxtransactionabort
+                    - name: Метод Онлткстрансактионкоммит
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomltxevents-onltxtransactioncommit
+                    - name: Метод Онлткстрансактионпрепаре
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomltxevents-onltxtransactionprepare
+                    - name: Метод Онлткстрансактионпромоте
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomltxevents-onltxtransactionpromote
+                    - name: Метод Онлткстрансактионстарт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomltxevents-onltxtransactionstart
+                - name: икоммесодевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icommethodevents
+                  items:
+                    - name: Метод Онмесодкалл
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icommethodevents-onmethodcall
+                    - name: Метод Онмесодексцептион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icommethodevents-onmethodexception
+                    - name: Метод Онмесодретурн
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icommethodevents-onmethodreturn
+                - name: IComMethod2Events
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icommethod2events
+                  items:
+                    - name: Метод OnMethodCall2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icommethod2events-onmethodcall2
+                    - name: Метод OnMethodException2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icommethod2events-onmethodexception2
+                    - name: Метод OnMethodReturn2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icommethod2events-onmethodreturn2
+                - name: икомобжектконструктионевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomobjectconstructionevents
+                  items:
+                    - name: Метод Онобжектконструкт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectconstructionevents-onobjectconstruct
+                - name: IComObjectConstruction2Events
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomobjectconstruction2events
+                  items:
+                    - name: Метод OnObjectConstruct2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectconstruction2events-onobjectconstruct2
+                - name: икомобжектевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomobjectevents
+                  items:
+                    - name: Метод Ондисаблекоммит
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectevents-ondisablecommit
+                    - name: Метод Оненаблекоммит
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectevents-onenablecommit
+                    - name: Метод Онобжектактивате
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectevents-onobjectactivate
+                    - name: Метод Онобжектдеактивате
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectevents-onobjectdeactivate
+                    - name: Метод Онсеткомплете
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectevents-onsetcomplete
+                - name: икомобжектпулевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomobjectpoolevents
+                  items:
+                    - name: Метод Онобжпулжетфромткс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolgetfromtx
+                    - name: Метод Онобжпулжетобжект
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolgetobject
+                    - name: Метод Онобжпулпутобжект
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolputobject
+                    - name: Метод Онобжпулрециклетоткс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpoolevents-onobjpoolrecycletotx
+                - name: IComObjectPool2Events
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomobjectpool2events
+                  items:
+                    - name: Метод OnObjPoolGetFromTx2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpool2events-onobjpoolgetfromtx2
+                    - name: Метод OnObjPoolGetObject2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpool2events-onobjpoolgetobject2
+                    - name: Метод OnObjPoolPutObject2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpool2events-onobjpoolputobject2
+                    - name: Метод OnObjPoolRecycleToTx2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpool2events-onobjpoolrecycletotx2
+                - name: IComObjectPoolEvents2
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomobjectpoolevents2
+                  items:
+                    - name: Метод ОнобжпулкреатедеЦисион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreatedecision
+                    - name: Метод Онобжпулкреатеобжект
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreateobject
+                    - name: Метод Онобжпулкреатепул
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreatepool
+                    - name: Метод Онобжпулдестройобжект
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpoolevents2-onobjpooldestroyobject
+                    - name: Метод Онобжпултимеаут
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomobjectpoolevents2-onobjpooltimeout
+                - name: икомкцевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomqcevents
+                  items:
+                    - name: Метод Онккмоветодеадкуеуе
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomqcevents-onqcmovetodeadqueue
+                    - name: Метод Онккмоветоретрикуеуе
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomqcevents-onqcmovetoretryqueue
+                    - name: Метод Онккплайбакк
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomqcevents-onqcplayback
+                    - name: Метод Онкккуеуеопен
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomqcevents-onqcqueueopen
+                    - name: Метод Онккрецеиве
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomqcevents-onqcreceive
+                    - name: Метод Онккрецеивефаил
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomqcevents-onqcreceivefail
+                    - name: Метод Онккрекорд
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomqcevents-onqcrecord
+                - name: икомресаурцеевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomresourceevents
+                  items:
+                    - name: Метод Онресаурцеаллокате
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomresourceevents-onresourceallocate
+                    - name: Метод Онресаурцекреате
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomresourceevents-onresourcecreate
+                    - name: Метод Онресаурцедестрой
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomresourceevents-onresourcedestroy
+                    - name: Метод Онресаурцерецикле
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomresourceevents-onresourcerecycle
+                    - name: Метод Онресаурцетракк
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomresourceevents-onresourcetrack
+                - name: икомсекуритевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomsecurityevents
+                  items:
+                    - name: Метод onauthenticat
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomsecurityevents-onauthenticate
+                    - name: Метод Онаусентикатефаил
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomsecurityevents-onauthenticatefail
+                - name: икомсреадевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomthreadevents
+                  items:
+                    - name: Метод Онсреадассигнапартмент
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomthreadevents-onthreadassignapartment
+                    - name: Метод Онсреадбиндтоапартмент
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomthreadevents-onthreadbindtoapartment
+                    - name: Метод Онсреадстарт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomthreadevents-onthreadstart
+                    - name: Метод Онсреадтерминате
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomthreadevents-onthreadterminate
+                    - name: Метод Онсреадунассигнапартмент
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomthreadevents-onthreadunassignapartment
+                    - name: Метод Онсреадунбинд
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomthreadevents-onthreadunbind
+                - name: икомтраккингинфоколлектион
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomtrackinginfocollection
+                  items:
+                    - name: 'Count, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtrackinginfocollection-count
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtrackinginfocollection-item
+                    - name: Метод типа
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtrackinginfocollection-type
+                - name: икомтраккингинфоевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomtrackinginfoevents
+                  items:
+                    - name: Метод Онневтраккингинфо
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtrackinginfoevents-onnewtrackinginfo
+                - name: икомтраккингинфубжект
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomtrackinginfoobject
+                  items:
+                    - name: Метод GetValue
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtrackinginfoobject-getvalue
+                - name: икомтраккингинфопропертиес
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomtrackinginfoproperties
+                  items:
+                    - name: Метод Жетпропнаме
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtrackinginfoproperties-getpropname
+                    - name: Метод Пропкаунт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtrackinginfoproperties-propcount
+                - name: икомтрансактионевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomtransactionevents
+                  items:
+                    - name: Метод Онтрансактионаборт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtransactionevents-ontransactionabort
+                    - name: Метод Онтрансактионкоммит
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtransactionevents-ontransactioncommit
+                    - name: Метод Онтрансактионпрепаре
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtransactionevents-ontransactionprepare
+                    - name: Метод Онтрансактионстарт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtransactionevents-ontransactionstart
+                - name: IComTransaction2Events
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomtransaction2events
+                  items:
+                    - name: Метод OnTransactionAbort2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtransaction2events-ontransactionabort2
+                    - name: Метод OnTransactionCommit2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtransaction2events-ontransactioncommit2
+                    - name: Метод OnTransactionPrepare2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtransaction2events-ontransactionprepare2
+                    - name: Метод OnTransactionStart2
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomtransaction2events-ontransactionstart2
+                - name: икомусеревент
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icomuserevent
+                  items:
+                    - name: Метод Онусеревент
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icomuserevent-onuserevent
+                - name: иконтекстпропертиес
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icontextproperties
+                  items:
+                    - name: 'Count, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icontextproperties-count
+                    - name: Метод Енумнамес
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icontextproperties-enumnames
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icontextproperties-getproperty
+                    - name: Метод RemoveProperty
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icontextproperties-removeproperty
+                    - name: Метод SetProperty
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icontextproperties-setproperty
+                - name: иконтекстстате
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icontextstate
+                  items:
+                    - name: Метод Жетдеактиватеонретурн
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icontextstate-getdeactivateonreturn
+                    - name: Метод Жетмитрансактионвоте
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icontextstate-getmytransactionvote
+                    - name: Метод Сетдеактиватеонретурн
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icontextstate-setdeactivateonreturn
+                    - name: Метод Сетмитрансактионвоте
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icontextstate-setmytransactionvote
+                - name: иконтексттрансактионинфо
+                  href: icontexttransactioninfo.md
+                  items:
+                    - name: Метод Фетчтрансактион
+                      href: icontexttransactioninfo-fetchtransaction.md
+                    - name: Метод Жеттксисолатионлевеландтимеаут
+                      href: icontexttransactioninfo-gettxisolationlevelandtimeout.md
+                    - name: Метод Регистертрансактионпрокси
+                      href: icontexttransactioninfo-registertransactionproxy.md
+                - name: икреатевислокалтрансактион
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icreatewithlocaltransaction
+                  items:
+                    - name: Метод Креатеинстанцевиссисткс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icreatewithlocaltransaction-createinstancewithsystx
+                - name: икреатевистиптрансактионекс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icreatewithtiptransactionex
+                  items:
+                    - name: 'CreateInstance, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icreatewithtiptransactionex-createinstance
+                - name: икреатевистрансактионекс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icreatewithtransactionex
+                  items:
+                    - name: 'CreateInstance, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icreatewithtransactionex-createinstance
+                - name: икрмкомпенсатор
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icrmcompensator
+                  items:
+                    - name: Метод Абортрекорд
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensator-abortrecord
+                    - name: Метод Бегинаборт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensator-beginabort
+                    - name: Метод Бегинкоммит
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensator-begincommit
+                    - name: Метод Бегинпрепаре
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensator-beginprepare
+                    - name: Метод Коммитрекорд
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensator-commitrecord
+                    - name: Метод Ендаборт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensator-endabort
+                    - name: Метод EndCommit
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensator-endcommit
+                    - name: Метод Ендпрепаре
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensator-endprepare
+                    - name: Метод Препаререкорд
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensator-preparerecord
+                    - name: Метод Сетлогконтрол
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensator-setlogcontrol
+                - name: икрмкомпенсаторвариантс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icrmcompensatorvariants
+                  items:
+                    - name: Метод Абортрекордвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensatorvariants-abortrecordvariants
+                    - name: Метод Бегинабортвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensatorvariants-beginabortvariants
+                    - name: Метод Бегинкоммитвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensatorvariants-begincommitvariants
+                    - name: Метод Бегинпрепаревариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensatorvariants-beginpreparevariants
+                    - name: Метод Коммитрекордвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensatorvariants-commitrecordvariants
+                    - name: Метод Ендабортвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensatorvariants-endabortvariants
+                    - name: Метод Ендкоммитвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensatorvariants-endcommitvariants
+                    - name: Метод Ендпрепаревариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensatorvariants-endpreparevariants
+                    - name: Метод Препаререкордвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensatorvariants-preparerecordvariants
+                    - name: Метод Сетлогконтролвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmcompensatorvariants-setlogcontrolvariants
+                - name: икрмформатлогрекордс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icrmformatlogrecords
+                  items:
+                    - name: Метод GetColumn
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmformatlogrecords-getcolumn
+                    - name: Метод GetColumnCount
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmformatlogrecords-getcolumncount
+                    - name: Метод Жетколумнхеадерс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmformatlogrecords-getcolumnheaders
+                    - name: Метод Жетколумнвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmformatlogrecords-getcolumnvariants
+                - name: икрмлогконтрол
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icrmlogcontrol
+                  items:
+                    - name: Метод Форцелог
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmlogcontrol-forcelog
+                    - name: Метод Форцетрансактионтоаборт
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmlogcontrol-forcetransactiontoabort
+                    - name: Метод Форжетлогрекорд
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmlogcontrol-forgetlogrecord
+                    - name: Метод get_TransactionUOW
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmlogcontrol-get_transactionuow
+                    - name: Метод Регистеркомпенсатор
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmlogcontrol-registercompensator
+                    - name: Метод Врителогрекорд
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmlogcontrol-writelogrecord
+                    - name: Метод Врителогрекордвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmlogcontrol-writelogrecordvariants
+                - name: икрммонитор
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icrmmonitor
+                  items:
+                    - name: Метод для клерков
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitor-getclerks
+                    - name: Метод Холдклерк
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitor-holdclerk
+                - name: икрммониторклеркс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icrmmonitorclerks
+                  items:
+                    - name: 'ActivityId, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorclerks-activityid
+                    - name: Метод Description
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorclerks-description
+                    - name: Метод get__NewEnum
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorclerks-get__newenum
+                    - name: Метод get_Count
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorclerks-get_count
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorclerks-item
+                    - name: Метод Прогидкомпенсатор
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorclerks-progidcompensator
+                    - name: Метод Трансактионуов
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorclerks-transactionuow
+                - name: икрммониторлогрекордс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-icrmmonitorlogrecords
+                  items:
+                    - name: Метод get_Count
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorlogrecords-get_count
+                    - name: Метод get_StructuredRecords
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorlogrecords-get_structuredrecords
+                    - name: Метод get_TransactionState
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorlogrecords-get_transactionstate
+                    - name: Метод Жетлогрекорд
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorlogrecords-getlogrecord
+                    - name: Метод Жетлогрекордвариантс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-icrmmonitorlogrecords-getlogrecordvariants
+                - name: идиспенсердривер
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-idispenserdriver
+                  items:
+                    - name: Метод Креатересаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-idispenserdriver-createresource
+                    - name: Метод Дестройресаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-idispenserdriver-destroyresource
+                    - name: Метод Дестройресаурцес
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-idispenserdriver-destroyresources
+                    - name: Метод Енлистресаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-idispenserdriver-enlistresource
+                    - name: Метод Ратересаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-idispenserdriver-rateresource
+                    - name: Метод Ресетресаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-idispenserdriver-resetresource
+                - name: идиспенсерманажер
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-idispensermanager
+                  items:
+                    - name: Метод GetContext
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-idispensermanager-getcontext
+                    - name: Метод Регистердиспенсер
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-idispensermanager-registerdispenser
+                - name: иенумевентобжект
+                  href: /windows/desktop/api/Eventsys/nn-eventsys-ienumeventobject
+                  items:
+                    - name: Метод Clone
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ienumeventobject-clone
+                    - name: Метод Next
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ienumeventobject-next
+                    - name: Метод Reset
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ienumeventobject-reset
+                    - name: Метод Skip
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ienumeventobject-skip
+                - name: иенумнамес
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-ienumnames
+                  items:
+                    - name: Метод Clone
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ienumnames-clone
+                    - name: Метод Next
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ienumnames-next
+                    - name: Метод Reset
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ienumnames-reset
+                    - name: Метод Skip
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ienumnames-skip
+                - name: иевенткласс
+                  href: /windows/desktop/api/eventsys/nn-eventsys-ieventclass
+                  items:
+                    - name: 'Кустомконфигклсид, свойство'
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass-get_customconfigclsid
+                    - name: Свойство Description
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass-get_description
+                    - name: 'Евентклассид, свойство'
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass-get_eventclassid
+                    - name: 'Евенткласснаме, свойство'
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass-get_eventclassname
+                    - name: 'Фирингинтерфацеид, свойство'
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass-get_firinginterfaceid
+                    - name: 'OwnerSID, свойство'
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass-get_ownersid
+                    - name: 'TypeLib, свойство'
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass-get_typelib
+                - name: IEventClass2
+                  href: /windows/desktop/api/eventsys/nn-eventsys-ieventclass2
+                  items:
+                    - name: 'Алловинпрокактиватион, свойство'
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass2-get_allowinprocactivation
+                    - name: 'Фиреинпараллел, свойство'
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass2-get_fireinparallel
+                    - name: 'Мултиинтерфацепублишерфилтерклсид, свойство'
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass2-get_multiinterfacepublisherfilterclsid
+                    - name: 'PublisherID, свойство'
+                      href: /windows/desktop/api/eventsys/nf-eventsys-ieventclass2-get_publisherid
+                - name: иевентконтрол
+                  href: /windows/desktop/api/Eventsys/nn-eventsys-ieventcontrol
+                  items:
+                    - name: 'Алловинпрокактиватион, свойство'
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventcontrol-get_allowinprocactivation
+                    - name: Метод "подписку"
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventcontrol-getsubscriptions
+                    - name: Метод Сетдефаулткуери
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventcontrol-setdefaultquery
+                    - name: Метод Сетпублишерфилтер
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventcontrol-setpublisherfilter
+                - name: иевентобжектчанже
+                  href: /windows/desktop/api/Eventsys/nn-eventsys-ieventobjectchange
+                  items:
+                    - name: Метод Чанжедевенткласс
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectchange-changedeventclass
+                    - name: Метод Чанжедпублишер
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectchange-changedpublisher
+                    - name: Метод Чанжедсубскриптион
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectchange-changedsubscription
+                - name: IEventObjectChange2
+                  href: /windows/desktop/api/Eventsys/nn-eventsys-ieventobjectchange2
+                  items:
+                    - name: Метод Чанжедевенткласс
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectchange2-changedeventclass
+                    - name: Метод Чанжедсубскриптион
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectchange2-changedsubscription
+                - name: иевентобжектколлектион
+                  href: /windows/desktop/api/Eventsys/nn-eventsys-ieventobjectcollection
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectcollection-get__newenum
+                    - name: Добавить метод.
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectcollection-add
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectcollection-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectcollection-get_item
+                    - name: Свойство NewEnum
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectcollection-get_newenum
+                    - name: Удалить метод
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectcollection-remove
+                - name: иевентпроперти
+                  href: /windows/desktop/api/Eventsys/nn-eventsys-ieventproperty
+                  items:
+                    - name: Свойство Name
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventproperty-get_name
+                    - name: Свойство Value
+                      href: /windows/desktop/api/Eventsys/nf-eventsys-ieventproperty-get_value
+                - name: иевентсубскриптион
+                  href: /windows/desktop/api/EventSys/nn-eventsys-ieventsubscription
+                  items:
+                    - name: Свойство Description
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_description
+                    - name: Свойство Enabled
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_enabled
+                    - name: 'Евентклассид, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_eventclassid
+                    - name: Метод Жетпублишерпроперти
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-getpublisherproperty
+                    - name: Метод Жетпублишерпропертиколлектион
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-getpublisherpropertycollection
+                    - name: Метод Жетсубскриберпроперти
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-getsubscriberproperty
+                    - name: Метод Жетсубскриберпропертиколлектион
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-getsubscriberpropertycollection
+                    - name: 'InterfaceID, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_interfaceid
+                    - name: 'MachineName, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_machinename
+                    - name: 'Имя_метода, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_methodname
+                    - name: 'OwnerSID, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_ownersid
+                    - name: Свойство "изучение"
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_peruser
+                    - name: 'PublisherID, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_publisherid
+                    - name: Метод Путпублишерпроперти
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-putpublisherproperty
+                    - name: Метод Путсубскриберпроперти
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-putsubscriberproperty
+                    - name: Метод Ремовепублишерпроперти
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-removepublisherproperty
+                    - name: Метод Ремовесубскриберпроперти
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-removesubscriberproperty
+                    - name: 'Субскриберклсид, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_subscriberclsid
+                    - name: 'Субскриберинтерфаце, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_subscriberinterface
+                    - name: 'SubscriptionID, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_subscriptionid
+                    - name: 'SubscriptionName, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsubscription-get_subscriptionname
+                - name: IEventSubscription2
+                  href: ieventsubscription2.md
+                  items:
+                    - name: 'Параметром filterCriteria, свойство'
+                      href: ieventsubscription2-filtercriteria.md
+                    - name: 'Субскрибермоникер, свойство'
+                      href: ieventsubscription2-subscribermoniker.md
+                - name: IEventSubscription3
+                  href: ieventsubscription3.md
+                  items:
+                    - name: 'Евентклассаппликатионид, свойство'
+                      href: ieventsubscription3-eventclassapplicationid.md
+                    - name: 'Евенткласспартитионид, свойство'
+                      href: ieventsubscription3-eventclasspartitionid.md
+                    - name: 'Субскрибераппликатионид, свойство'
+                      href: ieventsubscription3-subscriberapplicationid.md
+                    - name: 'Субскриберпартитионид, свойство'
+                      href: ieventsubscription3-subscriberpartitionid.md
+                - name: иевентсистем
+                  href: /windows/desktop/api/EventSys/nn-eventsys-ieventsystem
+                  items:
+                    - name: 'Евентобжектчанжеевентклассид, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsystem-get_eventobjectchangeeventclassid
+                    - name: Метод запроса
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsystem-query
+                    - name: Метод запросов
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsystem-querys
+                    - name: Удалить метод
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsystem-remove
+                    - name: Удаляет метод
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsystem-removes
+                    - name: Метод Store
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventsystem-store
+                - name: IEventSystem2
+                  href: ieventsystem2.md
+                  items:
+                    - name: Метод GetVersion
+                      href: ieventsystem2-getversion.md
+                    - name: Метод Верифитрансиентсубскриберс
+                      href: ieventsystem2-verifytransientsubscribers.md
+                - name: ифирингконтрол
+                  href: /windows/desktop/api/EventSys/nn-eventsys-ifiringcontrol
+                  items:
+                    - name: Метод Фиресубскриптион
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ifiringcontrol-firesubscription
+                - name: ижетапптраккердата
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-igetapptrackerdata
+                  items:
+                    - name: Метод Жетаппликатионпроцессдетаилс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetapptrackerdata-getapplicationprocessdetails
+                    - name: Метод Жетаппликатионпроцессес
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetapptrackerdata-getapplicationprocesses
+                    - name: Метод Жетаппликатионсинпроцесс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetapptrackerdata-getapplicationsinprocess
+                    - name: Метод Жеткомпонентдетаилс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetapptrackerdata-getcomponentdetails
+                    - name: Метод Жеткомпонентсинпроцесс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetapptrackerdata-getcomponentsinprocess
+                    - name: Метод Жетсугжестедполлингинтервал
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetapptrackerdata-getsuggestedpollinginterval
+                    - name: Метод Жеттраккердатаасколлектионобжект
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetapptrackerdata-gettrackerdataascollectionobject
+                - name: ижетконтекстпропертиес
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-igetcontextproperties
+                  items:
+                    - name: 'Count, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetcontextproperties-count
+                    - name: Метод Енумнамес
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetcontextproperties-enumnames
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetcontextproperties-getproperty
+                - name: ижетсекуритикаллконтекст
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-igetsecuritycallcontext
+                  items:
+                    - name: Метод Жетсекуритикаллконтекст
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext
+                - name: ихолдер
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iholder
+                  items:
+                    - name: Метод Аллокресаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iholder-allocresource
+                    - name: Метод Close
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iholder-close
+                    - name: Метод Фриресаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iholder-freeresource
+                    - name: Метод Рекуестдестройресаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iholder-requestdestroyresource
+                    - name: Метод Траккресаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iholder-trackresource
+                    - name: Метод Траккресаурцес
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iholder-trackresources
+                    - name: Метод Унтраккресаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iholder-untrackresource
+                    - name: Метод Унтраккресаурцес
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iholder-untrackresources
+                - name: иманажедактиватионевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imanagedactivationevents
+                  items:
+                    - name: Метод Креатеманажедстуб
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imanagedactivationevents-createmanagedstub
+                    - name: Метод Дестройманажедстуб
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imanagedactivationevents-destroymanagedstub
+                - name: иманажедобжектинфо
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imanagedobjectinfo
+                  items:
+                    - name: Метод Жетиобжектконтрол
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imanagedobjectinfo-getiobjectcontrol
+                    - name: Метод "IUnknown"
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imanagedobjectinfo-getiunknown
+                    - name: Метод Сетинпул
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imanagedobjectinfo-setinpool
+                    - name: Метод Сетврапперстренгс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imanagedobjectinfo-setwrapperstrength
+                - name: иманажедпулактион
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imanagedpoolaction
+                  items:
+                    - name: Метод Ластрелеасе
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imanagedpoolaction-lastrelease
+                - name: иманажедпуледобж
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imanagedpooledobj
+                  items:
+                    - name: Метод Сеселд
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imanagedpooledobj-setheld
+                - name: имессажемовер
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imessagemover
+                  items:
+                    - name: Метод get_CommitBatchSize
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imessagemover-get_commitbatchsize
+                    - name: Метод get_DestPath
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imessagemover-get_destpath
+                    - name: Метод get_SourcePath
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imessagemover-get_sourcepath
+                    - name: Метод Мовемессажес
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imessagemover-movemessages
+                    - name: Метод put_CommitBatchSize
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imessagemover-put_commitbatchsize
+                    - name: Метод put_DestPath
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imessagemover-put_destpath
+                    - name: Метод put_SourcePath
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imessagemover-put_sourcepath
+                - name: имтсактивити
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imtsactivity
+                  items:
+                    - name: Метод Асинккалл
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsactivity-asynccall
+                    - name: Метод Биндтокуррентсреад
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsactivity-bindtocurrentthread
+                    - name: Метод Синчронаускалл
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsactivity-synchronouscall
+                    - name: Метод Унбиндфромсреад
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsactivity-unbindfromthread
+                - name: имтскалл
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imtscall
+                  items:
+                    - name: Метод OnCall
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtscall-oncall
+                - name: имтсевентинфо
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imtseventinfo
+                  items:
+                    - name: Метод get_Count
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtseventinfo-get_count
+                    - name: Метод get_DisplayName
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtseventinfo-get_displayname
+                    - name: Метод get_EventID
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtseventinfo-get_eventid
+                    - name: Метод get_Names
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtseventinfo-get_names
+                    - name: Метод get_Value
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtseventinfo-get_value
+                - name: имтсевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imtsevents
+                  items:
+                    - name: Метод get_FireEvents
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsevents-get_fireevents
+                    - name: Метод get_PackageGuid
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsevents-get_packageguid
+                    - name: Метод get_PackageName
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsevents-get_packagename
+                    - name: Метод GetProcessID
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsevents-getprocessid
+                    - name: Метод с четным
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsevents-postevent
+                - name: имтсгрп
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imtsgrp
+                  items:
+                    - name: Метод get_Count
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsgrp-get_count
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsgrp-item
+                    - name: Метод Refresh
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtsgrp-refresh
+                - name: имтслокатор
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-imtslocator
+                  items:
+                    - name: Метод Жетевентдиспатчер
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-imtslocator-geteventdispatcher
+                - name: имултиинтерфацеевентконтрол
+                  href: /windows/desktop/api/EventSys/nn-eventsys-imultiinterfaceeventcontrol
+                  items:
+                    - name: 'Алловинпрокактиватион, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-imultiinterfaceeventcontrol-get_allowinprocactivation
+                    - name: 'Фиреинпараллел, свойство'
+                      href: /windows/desktop/api/EventSys/nf-eventsys-imultiinterfaceeventcontrol-get_fireinparallel
+                    - name: Метод "подписку"
+                      href: /windows/desktop/api/EventSys/nf-eventsys-imultiinterfaceeventcontrol-getsubscriptions
+                    - name: Метод Сетдефаулткуери
+                      href: /windows/desktop/api/EventSys/nf-eventsys-imultiinterfaceeventcontrol-setdefaultquery
+                    - name: Метод Сетмултиинтерфацепублишерфилтер
+                      href: /windows/desktop/api/EventSys/nf-eventsys-imultiinterfaceeventcontrol-setmultiinterfacepublisherfilter
+                - name: имултиинтерфацепублишерфилтер
+                  href: /windows/desktop/api/EventSys/nn-eventsys-imultiinterfacepublisherfilter
+                  items:
+                    - name: Метод Initialize
+                      href: /windows/desktop/api/EventSys/nf-eventsys-imultiinterfacepublisherfilter-initialize
+                    - name: Метод Препаретофире
+                      href: /windows/desktop/api/EventSys/nf-eventsys-imultiinterfacepublisherfilter-preparetofire
+                - name: IObjectConstruct
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iobjectconstruct
+                  items:
+                    - name: Метод конструирования
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectconstruct-construct
+                - name: иобжектконструктстринг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iobjectconstructstring
+                  items:
+                    - name: Метод get_ConstructString
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectconstructstring-get_constructstring
+                - name: иобжектконтекст
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontext
+                  items:
+                    - name: 'CreateInstance, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance
+                    - name: Метод Дисаблекоммит
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-disablecommit
+                    - name: Метод Енаблекоммит
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-enablecommit
+                    - name: Метод Искаллеринроле
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-iscallerinrole
+                    - name: Метод Исинтрансактион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-isintransaction
+                    - name: Метод Иссекуритенаблед
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-issecurityenabled
+                    - name: Метод SetAbort
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setabort
+                    - name: Метод Сеткомплете
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete
+                - name: иобжектконтекстактивити
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontextactivity
+                  items:
+                    - name: Метод Жетактивитид
+                      href: /windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextactivity-getactivityid
+                - name: иобжектконтекстинфо
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontextinfo
+                  items:
+                    - name: Метод Жетактивитид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontextinfo-getactivityid
+                    - name: Метод Жетконтекстид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontextinfo-getcontextid
+                    - name: Метод транзакции
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontextinfo-gettransaction
+                    - name: Метод Жеттрансактионид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontextinfo-gettransactionid
+                    - name: Метод Исинтрансактион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontextinfo-isintransaction
+                - name: IObjectContextInfo2
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontextinfo2
+                  items:
+                    - name: Метод Жетаппликатионид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontextinfo2-getapplicationid
+                    - name: Метод Жетаппликатионинстанцеид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontextinfo2-getapplicationinstanceid
+                    - name: Метод Жетпартитионид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontextinfo2-getpartitionid
+                - name: иобжектконтексттип
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontexttip
+                  items:
+                    - name: Метод Жеттипурл
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontexttip-gettipurl
+                - name: IObjectControl
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontrol
+                  items:
+                    - name: Метод Activate
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-activate
+                    - name: Метод Канбепулед
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled
+                    - name: Метод Deactivate
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-deactivate
+                - name: иобжпул
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iobjpool
+                  items:
+                    - name: Метод Путендткс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iobjpool-putendtx
+                - name: иплайбаккконтрол
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iplaybackcontrol
+                  items:
+                    - name: Метод Финалклиентретри
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iplaybackcontrol-finalclientretry
+                    - name: Метод Финалсерверретри
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iplaybackcontrol-finalserverretry
+                - name: ипулманажер
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-ipoolmanager
+                  items:
+                    - name: Метод Шутдовнпул
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ipoolmanager-shutdownpool
+                - name: ипроцессинитиализер
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iprocessinitializer
+                  items:
+                    - name: Метод Shutdown
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iprocessinitializer-shutdown
+                    - name: Метод запуска
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iprocessinitializer-startup
+                - name: ипублишерфилтер
+                  href: /windows/desktop/api/EventSys/nn-eventsys-ipublisherfilter
+                  items:
+                    - name: Метод Initialize
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ipublisherfilter-initialize
+                    - name: Метод Препаретофире
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ipublisherfilter-preparetofire
+                - name: исекуритикаллконтекст
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext
+                  items:
+                    - name: Метод get__NewEnum
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-get__newenum
+                    - name: Метод get_Count
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-get_count
+                    - name: Метод get_Item
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-get_item
+                    - name: Метод Искаллеринроле
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-iscallerinrole
+                    - name: Метод Иссекуритенаблед
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-issecurityenabled
+                    - name: Метод Исусеринроле
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-isuserinrole
+                - name: исекуритикаллерсколл
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallerscoll
+                  items:
+                    - name: Метод get__NewEnum
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallerscoll-get__newenum
+                    - name: Метод get_Count
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallerscoll-get_count
+                    - name: Метод get_Item
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallerscoll-get_item
+                - name: исекуритидентитиколл
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-isecurityidentitycoll
+                  items:
+                    - name: Метод get__NewEnum
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecurityidentitycoll-get__newenum
+                    - name: Метод get_Count
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecurityidentitycoll-get_count
+                    - name: Метод get_Item
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecurityidentitycoll-get_item
+                - name: исекуритипроперти
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-isecurityproperty
+                  items:
+                    - name: Метод Жетдиректкаллерсид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecurityproperty-getdirectcallersid
+                    - name: Метод Жетдиректкреаторсид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecurityproperty-getdirectcreatorsid
+                    - name: Метод Жеторигиналкаллерсид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecurityproperty-getoriginalcallersid
+                    - name: Метод Жеторигиналкреаторсид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecurityproperty-getoriginalcreatorsid
+                    - name: Метод Релеасесид
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isecurityproperty-releasesid
+                - name: иселекткомлбсервер
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iselectcomlbserver
+                  items:
+                    - name: Метод Жетлбсервер
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iselectcomlbserver-getlbserver
+                    - name: Метод Init
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iselectcomlbserver-init
+                - name: исендмесодевентс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-isendmethodevents
+                  items:
+                    - name: Метод Сендмесодкалл
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isendmethodevents-sendmethodcall
+                    - name: Метод Сендмесодретурн
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isendmethodevents-sendmethodreturn
+                - name: исервицеактивити
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iserviceactivity
+                  items:
+                    - name: Метод Асинчронаускалл
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iserviceactivity-asynchronouscall
+                    - name: Метод Биндтокуррентсреад
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iserviceactivity-bindtocurrentthread
+                    - name: Метод Синчронаускалл
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iserviceactivity-synchronouscall
+                    - name: Метод Унбиндфромсреад
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iserviceactivity-unbindfromthread
+                - name: исервицекалл
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicecall
+                  items:
+                    - name: Метод OnCall
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicecall-oncall
+                - name: исервицекомтиинтринсиксконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicecomtiintrinsicsconfig
+                  items:
+                    - name: Метод Комтиинтринсиксконфиг
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicecomtiintrinsicsconfig-comtiintrinsicsconfig
+                - name: исервицеиисинтринсиксконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iserviceiisintrinsicsconfig
+                  items:
+                    - name: Метод Иисинтринсиксконфиг
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iserviceiisintrinsicsconfig-iisintrinsicsconfig
+                - name: исервицеинхеританцеконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iserviceinheritanceconfig
+                  items:
+                    - name: Метод Контаинингконтексттреатмент
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iserviceinheritanceconfig-containingcontexttreatment
+                - name: исервицепартитионконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicepartitionconfig
+                  items:
+                    - name: Метод Партитионконфиг
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepartitionconfig-partitionconfig
+                    - name: 'PartitionID, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepartitionconfig-partitionid
+                - name: исервицепул
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicepool
+                  items:
+                    - name: Метод GetObject
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepool-getobject
+                    - name: Метод Initialize
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepool-initialize
+                    - name: Метод Shutdown
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepool-shutdown
+                - name: исервицепулконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicepoolconfig
+                  items:
+                    - name: Метод get_ClassFactory
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepoolconfig-get_classfactory
+                    - name: Метод get_CreationTimeout
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepoolconfig-get_creationtimeout
+                    - name: Метод get_MaxPoolSize
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepoolconfig-get_maxpoolsize
+                    - name: Метод get_MinPoolSize
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepoolconfig-get_minpoolsize
+                    - name: Метод get_TransactionAffinity
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepoolconfig-get_transactionaffinity
+                    - name: Метод put_ClassFactory
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepoolconfig-put_classfactory
+                    - name: Метод put_CreationTimeout
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepoolconfig-put_creationtimeout
+                    - name: Метод put_MaxPoolSize
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepoolconfig-put_maxpoolsize
+                    - name: Метод put_MinPoolSize
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepoolconfig-put_minpoolsize
+                    - name: Метод put_TransactionAffinity
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicepoolconfig-put_transactionaffinity
+                - name: исервицескссконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicesxsconfig
+                  items:
+                    - name: Метод Скссконфиг
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicesxsconfig-sxsconfig
+                    - name: Метод Скссдиректори
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicesxsconfig-sxsdirectory
+                    - name: Метод Сксснаме
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicesxsconfig-sxsname
+                - name: исервицесинчронизатионконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicesynchronizationconfig
+                  items:
+                    - name: Метод Конфигуресинчронизатион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicesynchronizationconfig-configuresynchronization
+                - name: исервицесисткснконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicesystxnconfig
+                  items:
+                    - name: Метод Конфигуребйотсистксн
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicesystxnconfig-configurebyotsystxn
+                - name: исервицесреадпулконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicethreadpoolconfig
+                  items:
+                    - name: Метод Селектсреадпул
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicethreadpoolconfig-selectthreadpool
+                    - name: Метод Сетбиндингинфо
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicethreadpoolconfig-setbindinginfo
+                - name: исервицетраккерконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicetrackerconfig
+                  items:
+                    - name: Метод Траккерконфиг
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicetrackerconfig-trackerconfig
+                - name: исервицетрансактионконфиг
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicetransactionconfig
+                  items:
+                    - name: Метод Конфигуребйот
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicetransactionconfig-configurebyot
+                - name: исервицетрансактионконфигбасе
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-iservicetransactionconfigbase
+                  items:
+                    - name: Метод Брингйоуровнтрансактион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicetransactionconfigbase-bringyourowntransaction
+                    - name: Метод Конфигуретрансактион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicetransactionconfigbase-configuretransaction
+                    - name: Метод IsolationLevel
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicetransactionconfigbase-isolationlevel
+                    - name: Метод Невтрансактиондескриптион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicetransactionconfigbase-newtransactiondescription
+                    - name: Метод Трансактионтимеаут
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-iservicetransactionconfigbase-transactiontimeout
+                - name: ишаредпроперти
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-isharedproperty
+                  items:
+                    - name: Метод get_Value
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isharedproperty-get_value
+                    - name: Метод put_Value
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isharedproperty-put_value
+                - name: ишаредпропертиграуп
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroup
+                  items:
+                    - name: Метод CreateProperty
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createproperty
+                    - name: Метод Креатепропертибипоситион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition
+                    - name: Метод get_Property
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-get_property
+                    - name: Метод get_PropertyByPosition
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-get_propertybyposition
+                - name: ишаредпропертиграупманажер
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroupmanager
+                  items:
+                    - name: Метод Креатепропертиграуп
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroupmanager-createpropertygroup
+                    - name: Метод get__NewEnum
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroupmanager-get__newenum
+                    - name: Метод get_Group
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroupmanager-get_group
+                - name: исистемаппевентдата
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-isystemappeventdata
+                  items:
+                    - name: Метод Ондатачанжед
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isystemappeventdata-ondatachanged
+                    - name: Метод запуска
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-isystemappeventdata-startup
+                - name: исреадпулкнобс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-ithreadpoolknobs
+                  items:
+                    - name: Метод Жеткурренткуеуедрекуестс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ithreadpoolknobs-getcurrentqueuedrequests
+                    - name: Метод Жеткуррентсреадс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ithreadpoolknobs-getcurrentthreads
+                    - name: Метод Жетделетеделай
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ithreadpoolknobs-getdeletedelay
+                    - name: Метод Жетмакскуеуедрекуестс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ithreadpoolknobs-getmaxqueuedrequests
+                    - name: Метод GetMaxThreads
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ithreadpoolknobs-getmaxthreads
+                    - name: Метод Сетделетеделай
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ithreadpoolknobs-setdeletedelay
+                    - name: Метод Сетмакскуеуедрекуестс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ithreadpoolknobs-setmaxqueuedrequests
+                    - name: Метод SetMaxThreads
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ithreadpoolknobs-setmaxthreads
+                    - name: Метод SetMinThreads
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ithreadpoolknobs-setminthreads
+                    - name: Метод Сеткуеуедепс
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-ithreadpoolknobs-setqueuedepth
+                - name: итрансактионконтекст
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-itransactioncontext
+                  items:
+                    - name: Метод Abort
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactioncontext-abort
+                    - name: Метод Commit
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactioncontext-commit
+                    - name: 'CreateInstance, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactioncontext-createinstance
+                - name: итрансактионконтекстекс
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-itransactioncontextex
+                  items:
+                    - name: Метод Abort
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactioncontextex-abort
+                    - name: Метод Commit
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactioncontextex-commit
+                    - name: 'CreateInstance, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactioncontextex-createinstance
+                - name: итрансактионпроперти
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-itransactionproperty
+                  items:
+                    - name: Метод Жеттрансактионресаурцепул
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionproperty-gettransactionresourcepool
+                - name: итрансактионпрокси
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-itransactionproxy
+                  items:
+                    - name: Метод Abort
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionproxy-abort
+                    - name: Метод Commit
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionproxy-commit
+                    - name: Метод Креатевотер
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionproxy-createvoter
+                    - name: Метод "методом"
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionproxy-getidentifier
+                    - name: Метод Жетисолатионлевел
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionproxy-getisolationlevel
+                    - name: Метод Исреусабле
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionproxy-isreusable
+                    - name: Метод Promote
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionproxy-promote
+                - name: итрансактионресаурцепул
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-itransactionresourcepool
+                  items:
+                    - name: Метод.
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionresourcepool-getresource
+                    - name: Метод Путресаурце
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionresourcepool-putresource
+                - name: итрансактионстатус
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-itransactionstatus
+                  items:
+                    - name: Метод Жеттрансактионстатус
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionstatus-gettransactionstatus
+                    - name: Метод Сеттрансактионстатус
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-itransactionstatus-settransactionstatus
+                - name: ObjectContext
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-objectcontext
+                  items:
+                    - name: 'CreateInstance, метод'
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-createinstance
+                    - name: Метод Дисаблекоммит
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-disablecommit
+                    - name: Метод Енаблекоммит
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-enablecommit
+                    - name: Метод get__NewEnum
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-get__newenum
+                    - name: Метод get_ContextInfo
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-get_contextinfo
+                    - name: Метод get_Count
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-get_count
+                    - name: Метод get_Item
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-get_item
+                    - name: Метод get_Security
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-get_security
+                    - name: Метод Искаллеринроле
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-iscallerinrole
+                    - name: Метод Исинтрансактион
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-isintransaction
+                    - name: Метод Иссекуритенаблед
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-issecurityenabled
+                    - name: Метод SetAbort
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-setabort
+                    - name: Метод Сеткомплете
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontext-setcomplete
+                - name: обжектконтрол
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-objectcontrol
+                  items:
+                    - name: Метод Activate
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontrol-activate
+                    - name: Метод Канбепулед
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontrol-canbepooled
+                    - name: Метод Deactivate
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-objectcontrol-deactivate
+                - name: секуритипроперти
+                  href: /windows/desktop/api/ComSvcs/nn-comsvcs-securityproperty
+                  items:
+                    - name: Метод Жетдиректкаллернаме
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-securityproperty-getdirectcallername
+                    - name: Метод Жетдиректкреаторнаме
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-securityproperty-getdirectcreatorname
+                    - name: Метод Жеторигиналкаллернаме
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-securityproperty-getoriginalcallername
+                    - name: Метод Жеторигиналкреаторнаме
+                      href: /windows/desktop/api/ComSvcs/nf-comsvcs-securityproperty-getoriginalcreatorname
+            - name: Структуры COM+
+              href: com--structures.md
+              items:
+                - name: аппликатионпроцессрециклеинфо
+                  href: /windows/win32/api/ComSvcs/ns-comsvcs-applicationprocessrecycleinfo
+                - name: аппликатионпроцессстатистикс
+                  href: /windows/win32/api/ComSvcs/ns-comsvcs-applicationprocessstatistics
+                - name: аппликатионпроцесссуммари
+                  href: /windows/win32/api/ComSvcs/ns-comsvcs-applicationprocesssummary
+                - name: аппликатионсуммари
+                  href: /windows/win32/api/ComSvcs/ns-comsvcs-applicationsummary
+                - name: комевентсисчанжеинфо
+                  href: /windows/win32/api/EventSys/ns-eventsys-comeventsyschangeinfo
+                - name: компоненсангмониторинфо
+                  href: /windows/win32/api/ComSvcs/ns-comsvcs-componenthangmonitorinfo
+                - name: компонентстатистикс
+                  href: /windows/win32/api/ComSvcs/ns-comsvcs-componentstatistics
+                - name: компонентсуммари
+                  href: /windows/win32/api/ComSvcs/ns-comsvcs-componentsummary
+                - name: комсвксевентинфо
+                  href: /windows/win32/api/ComSvcs/ns-comsvcs-comsvcseventinfo
+                - name: крмлогрекордреад
+                  href: /windows/win32/api/ComSvcs/ns-comsvcs-crmlogrecordread
+        - name: Глоссарий COM+
+          href: com--glossary.md
