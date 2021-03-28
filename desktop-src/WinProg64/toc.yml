@@ -1,0 +1,82 @@
+- name: Руководство по программированию для 64-разрядных версий Windows
+  href: programming-guide-for-64-bit-windows.md
+  items:
+    - name: Подготовка к 64-разрядной версии Windows
+      href: getting-ready-for-64-bit-windows.md
+      items:
+        - name: Абстрактные модели данных
+          href: abstract-data-models.md
+        - name: Новые типы данных
+          href: the-new-data-types.md
+        - name: Среда
+          href: the-environment.md
+        - name: Средства
+          href: the-tools.md
+        - name: Правила использования указателей
+          href: rules-for-using-pointers.md
+        - name: Виртуальное адресное пространство
+          href: virtual-address-space.md
+        - name: Ошибки выравнивания
+          href: fault-alignments.md
+        - name: Взаимодействие процессов
+          href: process-interoperability.md
+        - name: 'драйверы,'
+          href: drivers.md
+    - name: 'Проектирование интерфейсов, совместимых с 64-bit'
+      href: designing-64-bit-compatible-interfaces.md
+      items:
+        - name: Изменение существующего интерфейса
+          href: changing-an-existing-interface.md
+        - name: Предотвращение скрытия информации
+          href: avoiding-information-hiding.md
+        - name: Предотвращение полиморфизма
+          href: avoiding-polymorphism.md
+        - name: Использование новых типов данных в IDL-файле
+          href: using-new-data-types-in-your-idl-file.md
+        - name: Подготовка приложения для 64-разрядной версии Windows
+          href: preparing-your-application-for-64-bit-windows.md
+    - name: Выполнение 32-разрядных приложений
+      href: running-32-bit-applications.md
+      items:
+        - name: Производительность и использование памяти в эмуляторе WOW64
+          href: performance-and-memory-consumption.md
+        - name: Сведения о реализации WOW64
+          href: wow64-implementation-details.md
+        - name: Перенаправитель реестра
+          href: registry-redirector.md
+          items:
+            - name: Отражение реестра
+              href: registry-reflection.md
+            - name: 'Разделы реестра, относящиеся к WOW64'
+              href: shared-registry-keys.md
+            - name: Доступ к альтернативному представлению реестра
+              href: accessing-an-alternate-registry-view.md
+            - name: Пример перенаправления реестра в эмуляторе WOW64
+              href: example-of-registry-reflection-and-redirection-on-wow64.md
+            - name: Удаленный доступ к реестру в 64-разрядной версии Windows
+              href: remote-registry-access-in-64-bit-windows.md
+        - name: Перенаправитель файловой системы
+          href: file-system-redirector.md
+        - name: Управление памятью в эмуляторе WOW64
+          href: memory-management.md
+        - name: Соответствие процессоров в WOW64
+          href: processor-affinity.md
+        - name: Межпроцессное взаимодействие между 32-разрядными и 64-разрядными приложениями
+          href: interprocess-communication.md
+        - name: Установка приложения в 64-разрядных системах
+          href: application-installation.md
+        - name: Обработка исключений в WOW64
+          href: exception-handling-under-wow64.md
+        - name: Отладка WOW64
+          href: debugging-wow64.md
+    - name: Советы по миграции
+      href: migration-tips.md
+      items:
+        - name: Общие рекомендации по переносу
+          href: general-porting-guidelines.md
+        - name: Сохранение 64-разрядного значения
+          href: storing-a-64-bit-value.md
+        - name: Распространенные ошибки компилятора
+          href: common-compiler-errors.md
+        - name: Дополнительные сведения
+          href: additional-considerations.md

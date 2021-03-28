@@ -1,0 +1,35 @@
+- name: защита ресурсов Windows
+  href: windows-resource-protection-portal.md
+  items:
+    - name: О защита ресурсов Windows
+      href: about-windows-file-protection.md
+      items:
+        - name: Список защищенных ресурсов
+          href: protected-file-list.md
+        - name: Обнаружение замены ресурсов
+          href: detecting-file-replacement.md
+        - name: Поддерживаемые механизмы замены ресурсов
+          href: supported-file-replacement-mechanisms.md
+        - name: ' средство проверки системных файлов'
+          href: system-file-checker.md
+        - name: Рекомендации по удаленному администрированию WFP
+          href: remote-administration-considerations.md
+    - name: Справочник по защита ресурсов Windows
+      href: windows-file-protection-reference.md
+      items:
+        - name: Функции WRP
+          href: wfp-functions.md
+          items:
+            - name: сфкжетфилес
+              href: sfcgetfiles.md
+              items:
+                - name: PPROTECT_FILE_ENTRY
+                  href: pprotect-file-entry.md
+            - name: сфкжетнекстпротектедфиле
+              href: /windows/desktop/api/Sfc/nf-sfc-sfcgetnextprotectedfile
+            - name: сфЦисфилепротектед
+              href: /windows/desktop/api/Sfc/nf-sfc-sfcisfileprotected
+            - name: сфЦискэйпротектед
+              href: /windows/desktop/api/Sfc/nf-sfc-sfciskeyprotected
+        - name: Значения реестра WFP
+          href: wfp-registry-values.md
