@@ -1,0 +1,633 @@
+- name: Диспетчер анимации Windows
+  href: '-main-portal.md'
+  items:
+    - name: Руководством по разработке анимации Windows
+      href: windows-animation-developer-guide.md
+      items:
+        - name: Общие сведения о анимации Windows
+          href: scenic-animation-api-overview.md
+        - name: Общие сведения о раскадровке
+          href: storyboard-construction.md
+        - name: Задачи анимации Windows
+          href: using-windows-animation.md
+          items:
+            - name: Создание основных объектов анимации
+              href: adding-animation-to-an-application.md
+            - name: Создание переменных анимации
+              href: create-animation-variables.md
+            - name: Обновление диспетчера анимации и рисование кадров
+              href: introducing-windows-animation-manager.md
+            - name: Чтение значений переменных анимации
+              href: updating---application-driven-animation.md
+            - name: Создание раскадровки и добавление переходов
+              href: updating---timer-driven-animation.md
+            - name: Планирование раскадровки
+              href: scheduling-a-storyboard.md
+    - name: Справочник по анимации Windows
+      href: windows-animation-reference.md
+      items:
+        - name: Константы
+          href: constants.md
+          items:
+            - name: UI_ANIMATION_DIMENSION_UNKNOWN
+              href: ui-animation-dimension-unknown.md
+            - name: UI_ANIMATION_ITERATION_NONE
+              href: '-ui-animation-iteration-none.md'
+            - name: UI_ANIMATION_KEYFRAME_STORYBOARD_START
+              href: /previous-versions/windows/desktop/legacy/dd756780(v=vs.85)
+            - name: UI_ANIMATION_REPEAT_INDEFINITELY
+              href: ui-animation-repeat-indefinitely.md
+            - name: UI_ANIMATION_REPEAT_INDEFINITELY_CONCLUDE_AT_END
+              href: ui-animation-repeat-indefinitely-conclude-at-end.md
+            - name: UI_ANIMATION_REPEAT_INDEFINITELY_CONCLUDE_AT_START
+              href: ui-animation-repeat-indefinitely-conclude-at-start.md
+            - name: UI_ANIMATION_SECONDS_EVENTUALLY
+              href: ui-animation-seconds-eventually.md
+            - name: UI_ANIMATION_SECONDS_INFINITE
+              href: ui-animation-seconds-infinite.md
+        - name: Типы данных
+          href: data-types.md
+          items:
+            - name: UI_ANIMATION_KEYFRAME
+              href: /windows/desktop/api/UIAnimation/ns-uianimation-__midl___midl_itf_uianimation_0000_0002_0003
+            - name: UI_ANIMATION_SECONDS
+              href: ui-animation-seconds.md
+        - name: Перечисления
+          href: '-enumerations-main.md'
+          items:
+            - name: UI_ANIMATION_DEPENDENCIES
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_dependencies
+            - name: UI_ANIMATION_IDLE_BEHAVIOR
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_idle_behavior
+            - name: UI_ANIMATION_MANAGER_STATUS
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_manager_status
+            - name: UI_ANIMATION_MODE
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_mode
+            - name: UI_ANIMATION_PRIORITY_EFFECT
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_priority_effect
+            - name: UI_ANIMATION_REPEAT_MODE
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_repeat_mode
+            - name: UI_ANIMATION_ROUNDING_MODE
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_rounding_mode
+            - name: UI_ANIMATION_SCHEDULING_RESULT
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_scheduling_result
+            - name: UI_ANIMATION_SLOPE
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_slope
+            - name: UI_ANIMATION_STORYBOARD_STATUS
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_storyboard_status
+            - name: UI_ANIMATION_TIMER_CLIENT_STATUS
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_timer_client_status
+            - name: UI_ANIMATION_UPDATE_RESULT
+              href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_update_result
+        - name: Интерфейсы
+          href: '-interfaces-main.md'
+          items:
+            - name: Интерфейсы управления анимацией
+              href: animation-management-interfaces.md
+              items:
+                - name: иуианиматионманажер
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationmanager
+                  items:
+                    - name: Метод Абандоналлсторибоардс
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-abandonallstoryboards
+                    - name: Метод Креатеаниматионвариабле
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-createanimationvariable
+                    - name: Метод Креатесторибоард
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-createstoryboard
+                    - name: Метод Финишаллсторибоардс
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-finishallstoryboards
+                    - name: Методического состояния
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-getstatus
+                    - name: Метод Жетсторибоардфромтаг
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-getstoryboardfromtag
+                    - name: Метод Жетвариаблефромтаг
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-getvariablefromtag
+                    - name: Приостановить метод
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-pause
+                    - name: Метод Resume
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-resume
+                    - name: Метод Счедулетранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-scheduletransition
+                    - name: Метод Сетаниматионмоде
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-setanimationmode
+                    - name: Метод Сетканцелприоритикомпарисон
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-setcancelprioritycomparison
+                    - name: Метод Сеткомпрессприоритикомпарисон
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-setcompressprioritycomparison
+                    - name: Метод Сетконклудеприоритикомпарисон
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-setconcludeprioritycomparison
+                    - name: Метод Сетдефаултлонжестакцептабледелай
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-setdefaultlongestacceptabledelay
+                    - name: Метод Сетманажеревенсандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-setmanagereventhandler
+                    - name: Метод Сеттримприоритикомпарисон
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-settrimprioritycomparison
+                    - name: Метод Shutdown
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-shutdown
+                    - name: Метод Update
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-update
+                - name: IUIAnimationManager2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationmanager2
+                  items:
+                    - name: Метод Абандоналлсторибоардс
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-abandonallstoryboards
+                    - name: Метод Креатеаниматионвариабле
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-createanimationvariable
+                    - name: Метод Креатеаниматионвекторвариабле
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-createanimationvectorvariable
+                    - name: Метод Креатесторибоард
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-createstoryboard
+                    - name: Метод Естиматенекстевенттиме
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-estimatenexteventtime
+                    - name: Метод Финишаллсторибоардс
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-finishallstoryboards
+                    - name: Методического состояния
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-getstatus
+                    - name: Метод Жетсторибоардфромтаг
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-getstoryboardfromtag
+                    - name: Метод Жетвариаблефромтаг
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-getvariablefromtag
+                    - name: Приостановить метод
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-pause
+                    - name: Метод Resume
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-resume
+                    - name: Метод Счедулетранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-scheduletransition
+                    - name: Метод Сетаниматионмоде
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-setanimationmode
+                    - name: Метод Сетканцелприоритикомпарисон
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-setcancelprioritycomparison
+                    - name: Метод Сеткомпрессприоритикомпарисон
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-setcompressprioritycomparison
+                    - name: Метод Сетконклудеприоритикомпарисон
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-setconcludeprioritycomparison
+                    - name: Метод Сетдефаултлонжестакцептабледелай
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-setdefaultlongestacceptabledelay
+                    - name: Метод Сетманажеревенсандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-setmanagereventhandler
+                    - name: Метод Сеттримприоритикомпарисон
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-settrimprioritycomparison
+                    - name: Метод Shutdown
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-shutdown
+                    - name: Метод Update
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager2-update
+                - name: иуианиматионманажеревенсандлер
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationmanagereventhandler
+                  items:
+                    - name: Метод Онманажерстатусчанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanagereventhandler-onmanagerstatuschanged
+                - name: IUIAnimationManagerEventHandler2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationmanagereventhandler2
+                  items:
+                    - name: Метод Онманажерстатусчанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanagereventhandler2-onmanagerstatuschanged
+            - name: Интерфейсы раскадровки
+              href: storyboard-interfaces.md
+              items:
+                - name: иуианиматионсторибоард
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationstoryboard
+                  items:
+                    - name: Метод прерывания
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-abandon
+                    - name: Метод Аддкэйфрамеафтертранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addkeyframeaftertransition
+                    - name: Метод Аддкэйфрамеатоффсет
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addkeyframeatoffset
+                    - name: Метод Аддтранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransition
+                    - name: Метод Аддтранситионаткэйфраме
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransitionatkeyframe
+                    - name: Метод Аддтранситионбетвинкэйфрамес
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransitionbetweenkeyframes
+                    - name: Заключительный метод
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-conclude
+                    - name: Метод Finish
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-finish
+                    - name: Метод Жетелапседтиме
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-getelapsedtime
+                    - name: Методического состояния
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-getstatus
+                    - name: Метод Жеттаг
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-gettag
+                    - name: Метод Холдвариабле
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-holdvariable
+                    - name: Метод Репеатбетвинкэйфрамес
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-repeatbetweenkeyframes
+                    - name: Метод Schedule
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-schedule
+                    - name: Метод Сетлонжестакцептабледелай
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-setlongestacceptabledelay
+                    - name: Метод Сетсторибоардевенсандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-setstoryboardeventhandler
+                    - name: Метод Сеттаг
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-settag
+                - name: IUIAnimationStoryboard2
+                  href: /windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2
+                  items:
+                    - name: Метод прерывания
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-abandon
+                    - name: Метод Аддкэйфрамеафтертранситион
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeaftertransition
+                    - name: Метод Аддкэйфрамеатоффсет
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeatoffset
+                    - name: Метод Аддтранситион
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransition
+                    - name: Метод Аддтранситионаткэйфраме
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransitionatkeyframe
+                    - name: Метод Аддтранситионбетвинкэйфрамес
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransitionbetweenkeyframes
+                    - name: Заключительный метод
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-conclude
+                    - name: Метод Finish
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-finish
+                    - name: Метод Жетелапседтиме
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getelapsedtime
+                    - name: Методического состояния
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getstatus
+                    - name: Метод Жеттаг
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-gettag
+                    - name: Метод Холдвариабле
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-holdvariable
+                    - name: Метод Репеатбетвинкэйфрамес
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-repeatbetweenkeyframes
+                    - name: Метод Schedule
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-schedule
+                    - name: Метод Сетскипдуратион
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setskipduration
+                    - name: Метод Сетлонжестакцептабледелай
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setlongestacceptabledelay
+                    - name: Метод Сетсторибоардевенсандлер
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setstoryboardeventhandler
+                    - name: Метод Сеттаг
+                      href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-settag
+                - name: иуианиматионсторибоардевенсандлер
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationstoryboardeventhandler
+                  items:
+                    - name: Метод Онсторибоардстатусчанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboardeventhandler-onstoryboardstatuschanged
+                    - name: Метод Онсторибоардупдатед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboardeventhandler-onstoryboardupdated
+                - name: IUIAnimationStoryboardEventHandler2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationstoryboardeventhandler2
+                  items:
+                    - name: Метод Онсторибоардстатусчанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboardeventhandler2-onstoryboardstatuschanged
+                    - name: Метод Онсторибоардупдатед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboardeventhandler2-onstoryboardupdated
+                - name: IUIAnimationLoopIterationChangeHandler2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationloopiterationchangehandler2
+                  items:
+                    - name: Метод Онлупитератиончанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationloopiterationchangehandler2-onloopiterationchanged
+                - name: иуианиматионприоритикомпарисон
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationprioritycomparison
+                  items:
+                    - name: Метод Хасприорити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationprioritycomparison-haspriority
+                - name: IUIAnimationPriorityComparison2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationprioritycomparison2
+                  items:
+                    - name: Метод Хасприорити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationprioritycomparison2-haspriority
+            - name: Интерфейсы перехода
+              href: transition-interfaces.md
+              items:
+                - name: иуианиматионинтерполатор
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationinterpolator
+                  items:
+                    - name: Метод "Dependencies"
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator-getdependencies
+                    - name: Метод Duration
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator-getduration
+                    - name: Метод Жетфиналвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator-getfinalvalue
+                    - name: Метод Интерполатевалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator-interpolatevalue
+                    - name: Метод ИнтерполатевелоЦити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator-interpolatevelocity
+                    - name: Метод Сетдуратион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator-setduration
+                    - name: Метод СетинитиалвалуеандвелоЦити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator-setinitialvalueandvelocity
+                - name: IUIAnimationInterpolator2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationinterpolator2
+                  items:
+                    - name: Метод "Dependencies"
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator2-getdependencies
+                    - name: Метод Dimension
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator2-getdimension
+                    - name: Метод Duration
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator2-getduration
+                    - name: Метод Жетфиналвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator2-getfinalvalue
+                    - name: Метод Жетпримитивеинтерполатион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator2-getprimitiveinterpolation
+                    - name: Метод Интерполатевалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator2-interpolatevalue
+                    - name: Метод ИнтерполатевелоЦити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator2-interpolatevelocity
+                    - name: Метод Сетдуратион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator2-setduration
+                    - name: Метод СетинитиалвалуеандвелоЦити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationinterpolator2-setinitialvalueandvelocity
+                - name: иуианиматионпримитивеинтерполатион
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationprimitiveinterpolation
+                  items:
+                    - name: Метод Аддкубик
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationprimitiveinterpolation-addcubic
+                    - name: Метод Аддсинусоидал
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationprimitiveinterpolation-addsinusoidal
+                - name: иуианиматионтранситион
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransition
+                  items:
+                    - name: Метод Duration
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition-getduration
+                    - name: Метод Исдуратионкновн
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition-isdurationknown
+                    - name: Метод Сетинитиалвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition-setinitialvalue
+                    - name: Метод СетинитиалвелоЦити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition-setinitialvelocity
+                - name: IUIAnimationTransition2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransition2
+                  items:
+                    - name: Метод Сетинитиалвекторвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition2-setinitialvectorvalue
+                    - name: Метод СетинитиалвекторвелоЦити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition2-setinitialvectorvelocity
+                    - name: Метод Исдуратионкновн
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition2-isdurationknown
+                    - name: Метод Duration
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition2-getduration
+                    - name: Метод Dimension
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition2-getdimension
+                    - name: Метод Сетинитиалвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition2-setinitialvalue
+                    - name: Метод СетинитиалвелоЦити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransition2-setinitialvelocity
+                - name: иуианиматионтранситионфактори
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionfactory
+                  items:
+                    - name: Метод Креатетранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionfactory-createtransition
+                - name: IUIAnimationTransitionFactory2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionfactory2
+                  items:
+                    - name: Метод Креатетранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionfactory2-createtransition
+                - name: иуианиматионтранситионлибрари
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionlibrary
+                  items:
+                    - name: Метод Креатеакцелератедецелератетранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createacceleratedeceleratetransition
+                    - name: Метод Креатеконстанттранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createconstanttransition
+                    - name: Метод Креатекубиктранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createcubictransition
+                    - name: Метод Креатедискрететранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-creatediscretetransition
+                    - name: Метод Креатеинстантанеаустранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createinstantaneoustransition
+                    - name: Метод Креателинеартранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createlineartransition
+                    - name: Метод Креателинеартранситионфромспид
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createlineartransitionfromspeed
+                    - name: Метод Креатесмусстоптранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createsmoothstoptransition
+                    - name: Метод Креатепараболиктранситионфромакцелератион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createparabolictransitionfromacceleration
+                    - name: Метод Креатереверсалтранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createreversaltransition
+                    - name: Метод Креатесинусоидалтранситионфромранже
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createsinusoidaltransitionfromrange
+                    - name: Метод КреатесинусоидалтранситионфромвелоЦити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createsinusoidaltransitionfromvelocity
+                - name: IUIAnimationTransitionLibrary2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionlibrary2
+                  items:
+                    - name: Метод Креатеакцелератедецелератетранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createacceleratedeceleratetransition
+                    - name: Метод Креатеконстанттранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createconstanttransition
+                    - name: Метод Креатекубикбезиерлинеартранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createcubicbezierlineartransition
+                    - name: Метод Креатекубикбезиерлинеарвектортранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createcubicbezierlinearvectortransition
+                    - name: Метод Креатекубиктранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createcubictransition
+                    - name: Метод Креатекубиквектортранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createcubicvectortransition
+                    - name: Метод Креатедискрететранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-creatediscretetransition
+                    - name: Метод Креатедискретевектортранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-creatediscretevectortransition
+                    - name: Метод Креатеинстантанеаустранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createinstantaneoustransition
+                    - name: Метод Креатеинстантанеаусвектортранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createinstantaneousvectortransition
+                    - name: Метод Креателинеартранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createlineartransition
+                    - name: Метод Креателинеарвектортранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createlinearvectortransition
+                    - name: Метод Креателинеартранситионфромспид
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createlineartransitionfromspeed
+                    - name: Метод Креателинеарвектортранситионфромспид
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createlinearvectortransitionfromspeed
+                    - name: Метод Креатепараболиктранситионфромакцелератион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createparabolictransitionfromacceleration
+                    - name: Метод Креатереверсалтранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createreversaltransition
+                    - name: Метод Креатесинусоидалтранситионфромранже
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createsinusoidaltransitionfromrange
+                    - name: Метод КреатесинусоидалтранситионфромвелоЦити
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createsinusoidaltransitionfromvelocity
+                    - name: Метод Креатесмусстоптранситион
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary2-createsmoothstoptransition
+                - name: иуианиматионвариабле
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationvariable
+                  items:
+                    - name: Метод Жеткуррентсторибоард
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getcurrentstoryboard
+                    - name: Метод Жетфиналинтежервалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getfinalintegervalue
+                    - name: Метод Жетфиналвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getfinalvalue
+                    - name: Метод Жетинтежервалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getintegervalue
+                    - name: Метод Жетпревиаусинтежервалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getpreviousintegervalue
+                    - name: Метод Жетпревиаусвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getpreviousvalue
+                    - name: Метод Жеттаг
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-gettag
+                    - name: Метод GetValue
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue
+                    - name: Метод Сетловербаунд
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-setlowerbound
+                    - name: Метод Сетраундингмоде
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-setroundingmode
+                    - name: Метод Сеттаг
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-settag
+                    - name: Метод Сетуппербаунд
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-setupperbound
+                    - name: Метод Сетвариаблечанжехандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-setvariablechangehandler
+                    - name: Метод Сетвариаблеинтежерчанжехандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-setvariableintegerchangehandler
+                - name: IUIAnimationVariable2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationvariable2
+                  items:
+                    - name: Метод Жеткуррентсторибоард
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getcurrentstoryboard
+                    - name: Метод кривых
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getcurve
+                    - name: Метод Dimension
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getdimension
+                    - name: Метод Жетфиналинтежервалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getfinalintegervalue
+                    - name: Метод Жетфиналинтежервекторвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getfinalintegervectorvalue
+                    - name: Метод Жетфиналвекторвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getfinalvectorvalue
+                    - name: Метод Жетфиналвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getfinalvalue
+                    - name: Метод Жетинтежервалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getintegervalue
+                    - name: Метод Жетинтежервекторвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getintegervectorvalue
+                    - name: Метод Жетпревиаусинтежервалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getpreviousintegervalue
+                    - name: Метод Жетпревиаусинтежервекторвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getpreviousintegervectorvalue
+                    - name: Метод Жетпревиаусвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getpreviousvalue
+                    - name: Метод Жетпревиаусвекторвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getpreviousvectorvalue
+                    - name: Метод Жеттаг
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-gettag
+                    - name: Метод GetValue
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getvalue
+                    - name: Метод Жетвекторкурве
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getvectorcurve
+                    - name: Метод Жетвекторвалуе
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-getvectorvalue
+                    - name: Метод Сетловербаунд
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-setlowerbound
+                    - name: Метод Сетловербаундвектор
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-setlowerboundvector
+                    - name: Метод Сетраундингмоде
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-setroundingmode
+                    - name: Метод Сеттаг
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-settag
+                    - name: Метод Сетуппербаунд
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-setupperbound
+                    - name: Метод Сетуппербаундвектор
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-setupperboundvector
+                    - name: Метод Сетвариаблечанжехандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-setvariablechangehandler
+                    - name: Метод Сетвариаблекурвечанжехандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-setvariablecurvechangehandler
+                    - name: Метод Сетвариаблеинтежерчанжехандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable2-setvariableintegerchangehandler
+                - name: иуианиматионвариаблечанжехандлер
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationvariablechangehandler
+                  items:
+                    - name: Метод Онвалуечанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariablechangehandler-onvaluechanged
+                - name: IUIAnimationVariableChangeHandler2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationvariablechangehandler2
+                  items:
+                    - name: Метод Онвалуечанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariablechangehandler2-onvaluechanged
+                - name: иуианиматионвариаблеинтежерчанжехандлер
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationvariableintegerchangehandler
+                  items:
+                    - name: Метод Онинтежервалуечанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariableintegerchangehandler-onintegervaluechanged
+                - name: IUIAnimationVariableIntegerChangeHandler2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationvariableintegerchangehandler2
+                  items:
+                    - name: Метод Онинтежервалуечанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariableintegerchangehandler2-onintegervaluechanged
+                - name: IUIAnimationVariableCurveChangeHandler2
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationvariablecurvechangehandler2
+                  items:
+                    - name: Метод Онкурвечанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariablecurvechangehandler2-oncurvechanged
+            - name: Интерфейсы таймера анимации
+              href: animation-timer-interfaces.md
+              items:
+                - name: иуианиматионтимер
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimer
+                  items:
+                    - name: 'Disable, метод'
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimer-disable
+                    - name: 'Enable, метод'
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimer-enable
+                    - name: Метод метода Time
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimer-gettime
+                    - name: Включенный метод
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimer-isenabled
+                    - name: Метод Сетфрамератесрешолд
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimer-setframeratethreshold
+                    - name: Метод Сеттимеревенсандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimer-settimereventhandler
+                    - name: Метод Сеттимерупдатехандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimer-settimerupdatehandler
+                - name: иуианиматионтимерклиентевенсандлер
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimerclienteventhandler
+                  items:
+                    - name: Метод Онтимерклиентстатусчанжед
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimerclienteventhandler-ontimerclientstatuschanged
+                - name: иуианиматионтимеревенсандлер
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimereventhandler
+                  items:
+                    - name: Метод Онпоступдате
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimereventhandler-onpostupdate
+                    - name: Метод Онпреупдате
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimereventhandler-onpreupdate
+                    - name: Метод Онрендерингтуслов
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimereventhandler-onrenderingtooslow
+                - name: иуианиматионтимерупдатехандлер
+                  href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimerupdatehandler
+                  items:
+                    - name: Метод Клеартимерклиентевенсандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimerupdatehandler-cleartimerclienteventhandler
+                    - name: Метод OnUpdate
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimerupdatehandler-onupdate
+                    - name: Метод Сеттимерклиентевенсандлер
+                      href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimerupdatehandler-settimerclienteventhandler
+        - name: Объекты
+          href: '-objects-main.md'
+          items:
+            - name: уианиматионманажер
+              href: /previous-versions/windows/desktop/legacy/dd317019(v=vs.85)
+            - name: UIAnimationManager2
+              href: /previous-versions/windows/desktop/legacy/hh448665(v=vs.85)
+            - name: уианиматионтимер
+              href: /previous-versions/windows/desktop/legacy/dd317021(v=vs.85)
+            - name: уианиматионтранситионфактори
+              href: /previous-versions/windows/desktop/legacy/dd317024(v=vs.85)
+            - name: UIAnimationTransitionFactory2
+              href: /previous-versions/windows/desktop/legacy/hh448667(v=vs.85)
+            - name: уианиматионтранситионлибрари
+              href: /previous-versions/windows/desktop/legacy/dd317028(v=vs.85)
+            - name: UIAnimationTransitionLibrary2
+              href: /previous-versions/windows/desktop/legacy/hh448668(v=vs.85)
+        - name: Коды ошибок анимации Windows
+          href: uianimation-error-codes.md
+    - name: Примеры анимации Windows
+      href: windows-animation-samples.md
+      items:
+        - name: Пример анимации Application-Driven
+          href: application-driven-animation-sample.md
+        - name: Пример анимации Timer-Driven
+          href: timer-driven-animation-sample.md
+        - name: Пользовательский пример интерполяции
+          href: custom-interpolator-sample.md
+        - name: Образец макета сетки
+          href: grid-layout-sample.md
+        - name: Пример сравнения приоритетов
+          href: priority-comparison-sample.md
+    - name: Глоссарий анимации Windows
+      href: '-ui-animation-glossary.md'
