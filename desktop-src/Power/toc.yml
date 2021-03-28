@@ -1,0 +1,379 @@
+- name: Управление питанием
+  href: power-management-portal.md
+  items:
+    - name: Новые возможности управления питанием
+      href: what-s-new-in-power-management.md
+    - name: Сведения об управлении питанием
+      href: about-power-management.md
+      items:
+        - name: Управление питанием Windows
+          href: windows-power-management.md
+        - name: Состояние питания системы
+          href: system-power-status.md
+        - name: Состояния питания системы
+          href: system-power-states.md
+        - name: События управления питанием системы
+          href: system-power-management-events.md
+        - name: Сообщения WM_POWERBROADCAST
+          href: wm-powerbroadcast-messages.md
+          items:
+            - name: Регистрация для событий питания
+              href: registering-for-power-events.md
+        - name: Критерии спящего режима системы
+          href: system-sleep-criteria.md
+        - name: События пробуждения системы
+          href: system-wake-up-events.md
+        - name: Сведения о батарее
+          href: battery-information.md
+        - name: Интерфейс управления подсветкой
+          href: backlight-control-interface.md
+        - name: Схемы управления питанием
+          href: power-schemes.md
+          items:
+            - name: Параметры политики электропитания
+              href: power-policy-settings.md
+            - name: Управление схемами управления питанием
+              href: managing-power-schemes.md
+            - name: Переопределения администратора
+              href: administrator-overrides.md
+        - name: Управление питанием устройств
+          href: device-power-management.md
+    - name: Использование управления питанием
+      href: using-power-management.md
+      items:
+        - name: Перечисление устройств с батареей
+          href: enumerating-battery-devices.md
+        - name: Использование API питания устройства
+          href: using-the-device-power-api.md
+    - name: Справочник по управлению питанием
+      href: power-management-reference.md
+      items:
+        - name: Константы управления питанием
+          href: power-management-constants.md
+          items:
+            - name: Константы политики разрядов
+              href: discharge-policy-constants.md
+            - name: Константы глобальных флагов
+              href: global-flags-constants.md
+            - name: Константы политики управления производительностью процессора
+              href: processor-performance-control-policy-constants.md
+            - name: Идентификаторы GUID параметров питания
+              href: power-setting-guids.md
+        - name: Управляющие коды управления питанием
+          href: power-management-control-codes.md
+          items:
+            - name: IOCTL_BATTERY_QUERY_INFORMATION
+              href: ioctl-battery-query-information.md
+            - name: IOCTL_BATTERY_QUERY_STATUS
+              href: ioctl-battery-query-status.md
+            - name: IOCTL_BATTERY_QUERY_TAG
+              href: ioctl-battery-query-tag.md
+            - name: IOCTL_BATTERY_SET_INFORMATION
+              href: ioctl-battery-set-information.md
+            - name: IOCTL_VIDEO_QUERY_DISPLAY_BRIGHTNESS
+              href: ioctl-video-query-display-brightness.md
+            - name: IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS
+              href: ioctl-video-query-supported-brightness.md
+            - name: IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS
+              href: ioctl-video-set-display-brightness.md
+        - name: Типы перечислений управления питанием
+          href: power-management-enumeration-types.md
+          items:
+            - name: EFFECTIVE_POWER_MODE
+              href: /windows/desktop/api/powersetting/ne-powersetting-effective_power_mode
+            - name: POWER_ACTION
+              href: /windows/desktop/api/WinNT/ne-winnt-power_action
+            - name: POWER_DATA_ACCESSOR
+              href: /windows/win32/api/PowrProf/ne-powrprof-power_data_accessor
+            - name: POWER_PLATFORM_ROLE
+              href: /windows/win32/api/WinNT/ne-winnt-power_platform_role
+            - name: SYSTEM_POWER_CONDITION
+              href: /windows/desktop/api/WinNT/ne-winnt-system_power_condition
+            - name: SYSTEM_POWER_STATE
+              href: /windows/win32/api/WinNT/ne-winnt-system_power_state
+        - name: События управления питанием
+          href: power-management-events.md
+          items:
+            - name: PBT_APMBATTERYLOW
+              href: pbt-apmbatterylow.md
+            - name: PBT_APMOEMEVENT
+              href: pbt-apmoemevent.md
+            - name: PBT_APMPOWERSTATUSCHANGE
+              href: pbt-apmpowerstatuschange.md
+            - name: PBT_APMQUERYSUSPEND
+              href: pbt-apmquerysuspend.md
+            - name: PBT_APMQUERYSUSPENDFAILED
+              href: pbt-apmquerysuspendfailed.md
+            - name: PBT_APMRESUMEAUTOMATIC
+              href: pbt-apmresumeautomatic.md
+            - name: PBT_APMRESUMECRITICAL
+              href: pbt-apmresumecritical.md
+            - name: PBT_APMRESUMESUSPEND
+              href: pbt-apmresumesuspend.md
+            - name: PBT_APMSUSPEND
+              href: pbt-apmsuspend.md
+            - name: PBT_POWERSETTINGCHANGE
+              href: pbt-powersettingchange.md
+        - name: Функции управления питанием
+          href: power-management-functions.md
+          items:
+            - name: каллнтповеринформатион
+              href: /windows/desktop/api/Powerbase/nf-powerbase-callntpowerinformation
+            - name: канусервритепврсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-canuserwritepwrscheme
+            - name: делетепврсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-deletepwrscheme
+            - name: девиценотификаллбаккраутине
+              href: /windows/desktop/api/Powrprof/nc-powrprof-device_notify_callback_routine
+            - name: девицеповерклосе
+              href: /windows/desktop/api/PowrProf/nf-powrprof-devicepowerclose
+            - name: девицеповеренумдевицес
+              href: /windows/desktop/api/PowrProf/nf-powrprof-devicepowerenumdevices
+            - name: девицеповеропен
+              href: /windows/desktop/api/PowrProf/nf-powrprof-devicepoweropen
+            - name: девицеповерсетдевицестате
+              href: /windows/desktop/api/PowrProf/nf-powrprof-devicepowersetdevicestate
+            - name: енумпврсчемес
+              href: /windows/desktop/api/PowrProf/nf-powrprof-enumpwrschemes
+            - name: EFFECTIVE_POWER_MODE_CALLBACK
+              href: /windows/desktop/api/powersetting/nf-powersetting-effective_power_mode_callback
+            - name: жетактивепврсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-getactivepwrscheme
+            - name: жеткуррентповерполиЦиес
+              href: /windows/desktop/api/PowrProf/nf-powrprof-getcurrentpowerpolicies
+            - name: жетдевицеповерстате
+              href: /windows/desktop/api/Winbase/nf-winbase-getdevicepowerstate
+            - name: жетпвркапабилитиес
+              href: /windows/desktop/api/Powerbase/nf-powerbase-getpwrcapabilities
+            - name: жетпврдискспиндовнранже
+              href: /windows/desktop/api/PowrProf/nf-powrprof-getpwrdiskspindownrange
+            - name: GetSystemPowerStatus
+              href: /windows/desktop/api/Winbase/nf-winbase-getsystempowerstatus
+            - name: испврхибернатеалловед
+              href: /windows/desktop/api/PowrProf/nf-powrprof-ispwrhibernateallowed
+            - name: испвршутдовналловед
+              href: /windows/desktop/api/PowrProf/nf-powrprof-ispwrshutdownallowed
+            - name: испврсуспендалловед
+              href: /windows/desktop/api/PowrProf/nf-powrprof-ispwrsuspendallowed
+            - name: иссистемресумеаутоматик
+              href: /windows/desktop/api/Winbase/nf-winbase-issystemresumeautomatic
+            - name: поверканрестореиндивидуалдефаултповерсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powercanrestoreindividualdefaultpowerscheme
+            - name: поверклеаррекуест
+              href: /windows/desktop/api/winbase/nf-winbase-powerclearrequest
+            - name: поверкреатепоссиблесеттинг
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powercreatepossiblesetting
+            - name: поверкреатерекуест
+              href: /windows/desktop/api/winbase/nf-winbase-powercreaterequest
+            - name: поверкреатесеттинг
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powercreatesetting
+            - name: поверделетесчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerdeletescheme
+            - name: повердетерминеплатформроле
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerdetermineplatformrole
+            - name: повердетерминеплатформроликс
+              href: /windows/desktop/api/Powerbase/nf-powerbase-powerdetermineplatformroleex
+            - name: повердупликатесчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerduplicatescheme
+            - name: поверенумерате
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerenumerate
+            - name: повержетактивесчеме
+              href: /windows/desktop/api/Powersetting/nf-powersetting-powergetactivescheme
+            - name: поверимпортповерсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerimportpowerscheme
+            - name: повериссеттингранжедефинед
+              href: /windows/desktop/api/Powrprof/nf-powrprof-powerissettingrangedefined
+            - name: поверреадакдефаултиндекс
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadacdefaultindex
+            - name: поверреадаквалуе
+              href: /windows/desktop/api/Powersetting/nf-powersetting-powerreadacvalue
+            - name: поверреадаквалуеиндекс
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadacvalueindex
+            - name: поверреаддкдефаултиндекс
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreaddcdefaultindex
+            - name: поверреаддквалуе
+              href: /windows/desktop/api/Powersetting/nf-powersetting-powerreaddcvalue
+            - name: поверреаддквалуеиндекс
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreaddcvalueindex
+            - name: поверреаддескриптион
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreaddescription
+            - name: поверреадфриендлинаме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadfriendlyname
+            - name: поверреадиконресаурцеспеЦифиер
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadiconresourcespecifier
+            - name: поверреадпоссибледескриптион
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadpossibledescription
+            - name: поверреадпоссиблефриендлинаме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadpossiblefriendlyname
+            - name: поверреадпоссиблевалуе
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadpossiblevalue
+            - name: поверреадсеттингаттрибутес
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadsettingattributes
+            - name: поверреадвалуеинкремент
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadvalueincrement
+            - name: поверреадвалуемакс
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadvaluemax
+            - name: поверреадвалуемин
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadvaluemin
+            - name: поверреадвалуеунитсспеЦифиер
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadvalueunitsspecifier
+            - name: поверрегистерфореффективеповермоденотификатионс
+              href: /windows/desktop/api/powersetting/nf-powersetting-powerregisterforeffectivepowermodenotifications
+            - name: поверрегистерсуспендресуменотификатион
+              href: /windows/desktop/api/Powerbase/nf-powerbase-powerregistersuspendresumenotification
+            - name: поверремовеповерсеттинг
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerremovepowersetting
+            - name: поверреплацедефаултповерсчемес
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreplacedefaultpowerschemes
+            - name: поверрепортсермалевент
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerreportthermalevent
+            - name: поверресторедефаултповерсчемес
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerrestoredefaultpowerschemes
+            - name: поверрестореиндивидуалдефаултповерсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerrestoreindividualdefaultpowerscheme
+            - name: поверсетактивесчеме
+              href: /windows/desktop/api/Powersetting/nf-powersetting-powersetactivescheme
+            - name: поверсетрекуест
+              href: /windows/desktop/api/winbase/nf-winbase-powersetrequest
+            - name: поверсеттингакцессчекк
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powersettingaccesscheck
+            - name: поверсеттингакцессчеккекс
+              href: /windows/desktop/api/Powrprof/nf-powrprof-powersettingaccesscheckex
+            - name: поверсеттингрегистернотификатион
+              href: /windows/desktop/api/Powersetting/nf-powersetting-powersettingregisternotification
+            - name: поверсеттингунрегистернотификатион
+              href: /windows/desktop/api/Powersetting/nf-powersetting-powersettingunregisternotification
+            - name: поверунрегистерфромеффективеповермоденотификатионс
+              href: /windows/desktop/api/Powersetting/nf-powersetting-powersettingunregisternotification
+            - name: поверунрегистерсуспендресуменотификатион
+              href: /windows/desktop/api/Powerbase/nf-powerbase-powerunregistersuspendresumenotification
+            - name: повервритеакдефаултиндекс
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwriteacdefaultindex
+            - name: повервритеаквалуеиндекс
+              href: /windows/desktop/api/Powersetting/nf-powersetting-powerwriteacvalueindex
+            - name: повервритедкдефаултиндекс
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritedcdefaultindex
+            - name: повервритедквалуеиндекс
+              href: /windows/desktop/api/Powersetting/nf-powersetting-powerwritedcvalueindex
+            - name: повервритедескриптион
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritedescription
+            - name: повервритефриендлинаме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritefriendlyname
+            - name: повервритеиконресаурцеспеЦифиер
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwriteiconresourcespecifier
+            - name: повервритепоссибледескриптион
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritepossibledescription
+            - name: повервритепоссиблефриендлинаме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritepossiblefriendlyname
+            - name: повервритепоссиблевалуе
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritepossiblevalue
+            - name: повервритесеттингаттрибутес
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritesettingattributes
+            - name: повервритевалуеинкремент
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritevalueincrement
+            - name: повервритевалуемакс
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritevaluemax
+            - name: повервритевалуемин
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritevaluemin
+            - name: повервритевалуеунитсспеЦифиер
+              href: /windows/desktop/api/PowrProf/nf-powrprof-powerwritevalueunitsspecifier
+            - name: реадглобалпврполици
+              href: /windows/desktop/api/PowrProf/nf-powrprof-readglobalpwrpolicy
+            - name: реадпроцессорпврсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-readprocessorpwrscheme
+            - name: реадпврсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-readpwrscheme
+            - name: RegisterPowerSettingNotification
+              href: /windows/desktop/api/WinUser/nf-winuser-registerpowersettingnotification
+            - name: регистерсуспендресуменотификатион
+              href: /windows/desktop/api/Winuser/nf-winuser-registersuspendresumenotification
+            - name: рекуествакеуплатенци
+              href: /windows/desktop/api/WinBase/nf-winbase-requestwakeuplatency
+            - name: сетактивепврсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-setactivepwrscheme
+            - name: сетсуспендстате
+              href: /windows/desktop/api/PowrProf/nf-powrprof-setsuspendstate
+            - name: сетсистемповерстате
+              href: /windows/desktop/api/WinBase/nf-winbase-setsystempowerstate
+            - name: SetThreadExecutionState
+              href: /windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate
+            - name: UnregisterPowerSettingNotification
+              href: /windows/desktop/api/WinUser/nf-winuser-unregisterpowersettingnotification
+            - name: унрегистерсуспендресуменотификатион
+              href: /windows/desktop/api/Winuser/nf-winuser-unregistersuspendresumenotification
+            - name: вритеглобалпврполици
+              href: /windows/desktop/api/PowrProf/nf-powrprof-writeglobalpwrpolicy
+            - name: вритепроцессорпврсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-writeprocessorpwrscheme
+            - name: вритепврсчеме
+              href: /windows/desktop/api/PowrProf/nf-powrprof-writepwrscheme
+        - name: Сообщения управления питанием
+          href: power-management-messages.md
+          items:
+            - name: WM_POWER
+              href: wm-power.md
+            - name: WM_POWERBROADCAST
+              href: wm-powerbroadcast.md
+        - name: Структуры управления питанием
+          href: power-management-structures.md
+          items:
+            - name: ADMINISTRATOR_POWER_POLICY
+              href: /windows/win32/api/WinNT/ns-winnt-administrator_power_policy
+            - name: BATTERY_INFORMATION
+              href: battery-information-str.md
+            - name: BATTERY_MANUFACTURE_DATE
+              href: battery-manufacture-date-str.md
+            - name: BATTERY_QUERY_INFORMATION
+              href: battery-query-information-str.md
+            - name: BATTERY_REPORTING_SCALE
+              href: /windows/desktop/api/WinNT/ns-winnt-battery_reporting_scale
+            - name: BATTERY_SET_INFORMATION
+              href: battery-set-information-str.md
+            - name: BATTERY_STATUS
+              href: battery-status-str.md
+            - name: BATTERY_WAIT_STATUS
+              href: battery-wait-status-str.md
+            - name: DISPLAY_BRIGHTNESS
+              href: /previous-versions/windows/desktop/legacy/aa372686(v=vs.85)
+            - name: DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
+              href: /windows/win32/api/Powrprof/ns-powrprof-device_notify_subscribe_parameters
+            - name: GLOBAL_MACHINE_POWER_POLICY
+              href: /windows/win32/api/PowrProf/ns-powrprof-global_machine_power_policy
+            - name: GLOBAL_POWER_POLICY
+              href: /windows/win32/api/PowrProf/ns-powrprof-global_power_policy
+            - name: GLOBAL_USER_POWER_POLICY
+              href: /windows/win32/api/PowrProf/ns-powrprof-global_user_power_policy
+            - name: MACHINE_POWER_POLICY
+              href: /windows/win32/api/PowrProf/ns-powrprof-machine_power_policy
+            - name: MACHINE_PROCESSOR_POWER_POLICY
+              href: /windows/win32/api/PowrProf/ns-powrprof-machine_processor_power_policy
+            - name: POWER_ACTION_POLICY
+              href: /windows/desktop/api/WinNT/ns-winnt-power_action_policy
+            - name: POWER_POLICY
+              href: /windows/win32/api/PowrProf/ns-powrprof-power_policy
+            - name: POWERBROADCAST_SETTING
+              href: /windows/desktop/api/WinUser/ns-winuser-powerbroadcast_setting
+            - name: PROCESSOR_POWER_INFORMATION
+              href: processor-power-information-str.md
+            - name: PROCESSOR_POWER_POLICY
+              href: /windows/win32/api/WinNT/ns-winnt-processor_power_policy
+            - name: PROCESSOR_POWER_POLICY_INFO
+              href: /windows/win32/api/WinNT/ns-winnt-processor_power_policy_info
+            - name: REASON_CONTEXT
+              href: /windows/win32/api/MinWinBase/ns-minwinbase-reason_context
+            - name: SYSTEM_BATTERY_STATE
+              href: /windows/desktop/api/WinNT/ns-winnt-system_battery_state
+            - name: SYSTEM_POWER_CAPABILITIES
+              href: /windows/desktop/api/WinNT/ns-winnt-system_power_capabilities
+            - name: SYSTEM_POWER_INFORMATION
+              href: system-power-information-str.md
+            - name: SYSTEM_POWER_LEVEL
+              href: /windows/desktop/api/WinNT/ns-winnt-system_power_level
+            - name: SYSTEM_POWER_POLICY
+              href: /windows/win32/api/WinNT/ns-winnt-system_power_policy
+            - name: SYSTEM_POWER_STATUS
+              href: /windows/win32/api/Winbase/ns-winbase-system_power_status
+            - name: THERMAL_EVENT
+              href: /windows/win32/api/PowrProf/ns-powrprof-thermal_event
+            - name: USER_POWER_POLICY
+              href: /windows/win32/api/PowrProf/ns-powrprof-user_power_policy
