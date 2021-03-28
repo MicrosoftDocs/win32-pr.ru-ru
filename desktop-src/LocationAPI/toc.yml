@@ -1,0 +1,177 @@
+- name: API расположения
+  href: windows-location-api-portal.md
+  items:
+    - name: Справочник по программированию API расположения C++
+      href: windows-location-programming-reference.md
+      items:
+        - name: Интерфейсы COM
+          href: com-interfaces.md
+          items:
+            - name: иЦивикаддрессрепорт
+              href: /windows/desktop/api/LocationApi/nn-locationapi-icivicaddressreport
+              items:
+                - name: Метод GetAddressLine1
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline1
+                - name: Метод GetAddressLine2
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline2
+                - name: Метод «город»
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getcity
+                - name: Метод Жеткаунтрирегион
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getcountryregion
+                - name: Метод Жетдетаиллевел
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getdetaillevel
+                - name: Метод Жетпосталкоде
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getpostalcode
+                - name: Метод Жетстатепровинце
+                  href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getstateprovince
+            - name: идефаултлокатион
+              href: /windows/desktop/api/LocationApi/nn-locationapi-idefaultlocation
+              items:
+                - name: Метод with
+                  href: /windows/win32/api/locationapi/nf-locationapi-idefaultlocation-getreport
+                - name: Метод Сетрепорт
+                  href: /windows/win32/api/locationapi/nf-locationapi-idefaultlocation-setreport
+            - name: илатлонгрепорт
+              href: /windows/desktop/api/LocationApi/nn-locationapi-ilatlongreport
+              items:
+                - name: Метод ' ' Высота ' '
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getaltitude
+                - name: Метод Жеталтитудиррор
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getaltitudeerror
+                - name: Метод Жетерроррадиус
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-geterrorradius
+                - name: Метод с широтой
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getlatitude
+                - name: Метод долготы
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getlongitude
+            - name: илокатион
+              href: /windows/desktop/api/LocationApi/nn-locationapi-ilocation
+              items:
+                - name: Метод Жетдесиредаккураци
+                  href: /windows/desktop/api/LocationApi/nf-locationapi-ilocation-getdesiredaccuracy
+                - name: Метод with
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreport
+                - name: Метод Жетрепортинтервал
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreportinterval
+                - name: Метод Жетрепортстатус
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreportstatus
+                - name: Метод Регистерфоррепорт
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-registerforreport
+                - name: Метод Рекуестпермиссионс
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-requestpermissions
+                - name: Метод Сетдесиредаккураци
+                  href: /windows/desktop/api/LocationApi/nf-locationapi-ilocation-setdesiredaccuracy
+                - name: Метод Сетрепортинтервал
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-setreportinterval
+                - name: Метод Унрегистерфоррепорт
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocation-unregisterforreport
+            - name: илокатионевентс
+              href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationevents
+              items:
+                - name: Метод Онлокатиончанжед
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationevents-onlocationchanged
+                - name: Метод Онстатусчанжед
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged
+            - name: илокатионповер
+              href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationpower
+              items:
+                - name: Метод Connect
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationpower-connect
+                - name: Метод Disconnect
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationpower-disconnect
+            - name: илокатионрепорт
+              href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationreport
+              items:
+                - name: Метод Жетсенсорид
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-getsensorid
+                - name: Метод timestamp
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-gettimestamp
+                - name: Метод GetValue
+                  href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-getvalue
+        - name: Структуры и типы перечислений
+          href: structures-and-enumeration-types.md
+          items:
+            - name: LOCATION_DESIRED_ACCURACY
+              href: /previous-versions/windows/desktop/legacy/dd756639(v=vs.85)
+            - name: LOCATION_REPORT_STATUS
+              href: /windows/win32/api/locationapi/ne-locationapi-location_report_status
+    - name: Справочник по объектной модели API расположения
+      href: windows-location-script-programming-reference.md
+      items:
+        - name: Локатиондисп. ДиспЦивикаддрессрепорт
+          href: locationdisp-dispcivicaddressreport.md
+          items:
+            - name: 'AddressLine1, свойство'
+              href: locationdisp-dispcivicaddressreport-addressline1.md
+            - name: 'AddressLine2, свойство'
+              href: locationdisp-dispcivicaddressreport-addressline2.md
+            - name: 'City, свойство'
+              href: locationdisp-dispcivicaddressreport-city.md
+            - name: Свойство страна
+              href: locationdisp-civicaddressreport-countryregion.md
+            - name: 'Детаиллевел, свойство'
+              href: locationdisp-dispcivicaddressreport-detaillevel.md
+            - name: 'PostalCode, свойство'
+              href: locationdisp-dispcivicaddressreport-postalcode.md
+            - name: 'StateProvince, свойство'
+              href: locationdisp-dispcivicaddressreport-stateprovince.md
+            - name: Свойство Timestamp
+              href: locationdisp-dispcivicaddressreport-timestamp.md
+        - name: Локатиондисп. Цивикаддрессрепортфактори
+          href: locationdisp-civicaddressreportfactory.md
+          items:
+            - name: 'Цивикаддрессрепорт, свойство'
+              href: locationdisp-dispcivicaddressreport-civicaddressreport.md
+            - name: 'Десиредаккураци, свойство'
+              href: locationdisp-civicaddressreportfactory-desiredaccuracy.md
+            - name: Метод Листенфоррепортс
+              href: locationdisp-civicaddressreportfactory-listenforreports.md
+            - name: 'Репортинтервал, свойство'
+              href: locationdisp-civicaddressreportfactory-reportinterval.md
+            - name: Метод Рекуестпермиссионс
+              href: locationdisp-civicaddressreportfactory-requestpermissions.md
+            - name: Свойство Status
+              href: locationdisp-civicaddressreportfactory-status.md
+            - name: Метод Стоплистенингфоррепортс
+              href: locationdisp-civicaddressreportfactory-stoplisteningforreports.md
+        - name: Локатиондисп. Дисплатлонгрепорт
+          href: locationdisp-displatlongreport.md
+          items:
+            - name: 'Высота, свойство'
+              href: locationdisp-displatlongreport-altitude.md
+            - name: 'Алтитудиррор, свойство'
+              href: locationdisp-displatlongreport-altitudeerror.md
+            - name: 'Ерроррадиус, свойство'
+              href: locationdisp-displatlongreport-errorradius.md
+            - name: Свойство широты
+              href: locationdisp-displatlongreport-latitude.md
+            - name: 'Долгота, свойство'
+              href: locationdisp-displatlongreport-longitude.md
+            - name: Свойство Timestamp
+              href: locationdisp-displatlongreport-timestamp.md
+        - name: Локатиондисп. Латлонгрепортфактори
+          href: locationdisp-latlongreportfactory.md
+          items:
+            - name: 'Десиредаккураци, свойство'
+              href: locationdisp-latlongreportfactory-desiredaccuracy.md
+            - name: 'Латлонгрепорт, свойство'
+              href: locationdisp-latlongreportfactory-latlongreport.md
+            - name: Метод Листенфоррепортс
+              href: locationdisp-latlongreportfactory-listenforreports.md
+            - name: 'Репортинтервал, свойство'
+              href: locationdisp-latlongreportfactory-reportinterval.md
+            - name: Метод Рекуестпермиссионс
+              href: locationdisp-latlongreportfactory-requestpermissions.md
+            - name: Свойство Status
+              href: locationdisp-latlongreportfactory-status.md
+            - name: Метод Стоплистенингфоррепортс
+              href: /previous-versions/windows/desktop/legacy/dd317718(v=vs.85)
+        - name: События Локатиондисп
+          href: locationdisp-events.md
+          items:
+            - name: Событие НевЦивикаддрессрепорт
+              href: newcivicaddressreport.md
+            - name: Событие Невлатлонгрепорт
+              href: newlatlongreport.md
+            - name: Событие Статусчанжед
+              href: statuschanged.md
