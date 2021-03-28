@@ -1,0 +1,1135 @@
+- name: Служба теневого копирования томов
+  href: volume-shadow-copy-service-portal.md
+  items:
+    - name: Обзор служба теневого копирования томов
+      href: volume-shadow-copy-service-overview.md
+      items:
+        - name: Новые возможности VSS
+          href: what-s-new-in-vss.md
+          items:
+            - name: Новые возможности VSS в Windows Server 2008 R2 и Windows 7
+              href: what-s-new-in-vss-in-windows-server-2008-r2-and-windows-7.md
+            - name: Новые возможности VSS в Windows Server 2008 и Windows Vista SP1
+              href: what-s-new-in-vss-in-windows-server-2008-and-windows-vista-sp1.md
+            - name: Новые возможности VSS в Windows Vista
+              href: what-s-new-in-vss-in-windows-vista.md
+              items:
+                - name: Совместимость приложений для резервного копирования и восстановления
+                  href: application-compatibility-for-backup-and-restore.md
+                  items:
+                    - name: Перенос приложений резервного копирования
+                      href: porting-backup-applications.md
+                    - name: Резервное копирование и восстановление состояния системы
+                      href: locating-additional-system-files.md
+                    - name: Работа с файловой системой и функциями безопасности
+                      href: working-with-file-system-and-security-features.md
+                    - name: Точки соединения
+                      href: junction-points.md
+            - name: Новые возможности VSS в Windows Server 2003 с пакетом обновления 1 (SP1)
+              href: what-s-new-in-vss-in-windows-server-2003-sp1.md
+            - name: Новые возможности VSS в Windows Server 2003
+              href: what-s-new-in-vss-in-windows-server-2003.md
+              items:
+                - name: Сводка изменений API VSS в Windows Server 2003
+                  href: summary-of-vss-api-changes-in-the-current-release.md
+                - name: 'Новые функции, доступные в Windows Server 2003'
+                  href: new-functionality-available-in-the-current-release.md
+                - name: 'Функции, удаленные из Windows Server 2003'
+                  href: functionality-removed-from-the-current-release.md
+                - name: Семантические изменения в Windows Server 2003
+                  href: semantic-changes-to-the-current-release.md
+                - name: Ограничения в Windows Server 2003
+                  href: restrictions-in-the-current-release-of-vss.md
+        - name: Сведения о служба теневого копирования томов
+          href: about-the-volume-shadow-copy-service.md
+          items:
+            - name: Распространенные проблемы резервного копирования томов
+              href: common-volume-backup-issues.md
+            - name: Модель VSS
+              href: the-vss-model.md
+            - name: Основные понятия VSS
+              href: basic-vss-concepts.md
+              items:
+                - name: служба теневого копирования томов
+                  href: the-volume-shadow-copy-service.md
+                - name: Теневые копии и наборы теневых копий
+                  href: shadow-copies-and-shadow-copy-sets.md
+                - name: Поставщики
+                  href: providers.md
+                - name: Инициаторы запроса
+                  href: requestors.md
+                - name: Writers
+                  href: writers.md
+            - name: Встроенные модули записи VSS
+              href: in-box-vss-writers.md
+        - name: Использование служба теневого копирования томов
+          href: using-the-volume-shadow-copy-service.md
+          items:
+            - name: Совместимость приложений VSS
+              href: usage-conventions.md
+            - name: Настройка VSS
+              href: configuring-vss.md
+              items:
+                - name: Конфигурации контекста теневого копирования
+                  href: shadow-copy-context-configurations.md
+                - name: Конфигурации резервного копирования VSS
+                  href: vss-backup-configurations.md
+                  items:
+                    - name: Состояние резервного копирования VSS
+                      href: vss-backup-state.md
+                    - name: Поддержка схемы резервного копирования модуля записи
+                      href: writer-backup-schema-support.md
+                    - name: Поддержка схемы на уровне файлов
+                      href: file-level-schema-support.md
+                - name: Конфигурации восстановления VSS
+                  href: vss-restore-configurations.md
+                  items:
+                    - name: Состояние восстановления VSS
+                      href: vss-restore-state.md
+                    - name: Настройка методов восстановления VSS
+                      href: setting-vss-restore-methods.md
+                    - name: Настройка целевых объектов восстановления VSS
+                      href: setting-vss-restore-targets.md
+                    - name: Настройка параметров восстановления VSS
+                      href: setting-vss-restore-options.md
+            - name: Метаданные VSS
+              href: vss-metadata.md
+              items:
+                - name: Работа с документом метаданных модуля записи
+                  href: working-with-the-writer-metadata-document.md
+                  items:
+                    - name: Жизненный цикл документа метаданных модуля записи
+                      href: writer-metadata-document-life-cycle.md
+                    - name: Содержимое документа метаданных модуля записи
+                      href: writer-metadata-document-contents.md
+                - name: Работа с документом компонентов резервного копирования
+                  href: working-with-the-backup-components-document.md
+                  items:
+                    - name: Жизненный цикл документа компонентов резервного копирования
+                      href: backup-components-document-life-cycle.md
+                    - name: Содержимое документа компонентов резервного копирования
+                      href: backup-components-document-contents.md
+                - name: Компоненты метаданных VSS
+                  href: vss-metadata-components.md
+                  items:
+                    - name: Типы компонентов
+                      href: component-types.md
+                    - name: Определение компонентов по модулям записи
+                      href: definition-of-components-by-writers.md
+                    - name: Использование компонентов инициатором запроса
+                      href: use-of-components-by-the-requestor.md
+            - name: Работа с выборкой и логическими путями
+              href: working-with-selectability-and-logical-paths.md
+              items:
+                - name: Логическое расположение компонентов
+                  href: logical-pathing-of-components.md
+                - name: Работа с выборкой для резервного копирования
+                  href: working-with-selectability-for-backup.md
+                - name: Работа с выборкой для восстановления и подкомпонентов
+                  href: working-with-selectability-for-restore-and-subcomponents.md
+                - name: Выбор и работа со свойствами компонентов
+                  href: selectability-and-working-with-component-properties.md
+                - name: 'Зависимости между компонентами, управляемыми разными модулями записи'
+                  href: dependencies-between-components-managed-by-different-writers.md
+            - name: Общие сведения об обработке резервной копии в VSS
+              href: overview-of-processing-a-backup-under-vss.md
+              items:
+                - name: Общие сведения об инициализации резервного копирования
+                  href: overview-of-backup-initialization.md
+                - name: Обзор фазы обнаружения резервных копий
+                  href: overview-of-the-backup-discovery-phase.md
+                - name: 'Общие сведения о задачах, выполняемых перед резервным копированием'
+                  href: overview-of-pre-backup-tasks.md
+                - name: Общие сведения о фактическом резервном копировании файлов
+                  href: overview-of-actual-backup-of-files.md
+                - name: Общие сведения о завершении резервного копирования
+                  href: overview-of-backup-termination.md
+            - name: Общие сведения об обработке восстановления в VSS
+              href: overview-of-processing-a-restore-under-vss.md
+              items:
+                - name: Общие сведения об инициализации восстановления
+                  href: overview-of-restore-initialization.md
+                - name: Общие сведения о подготовке к восстановлению
+                  href: overview-of-preparing-for-restore.md
+                - name: Общие сведения о фактическом восстановлении файлов
+                  href: overview-of-actual-file-restoration.md
+                - name: Общие сведения о сбросе и завершении восстановления
+                  href: overview-of-restore-clean-up-and-termination.md
+            - name: Разработка поставщиков оборудования VSS
+              href: developing-vss-hardware-providers.md
+              items:
+                - name: Регистрация и загрузка поставщика теневого копирования
+                  href: shadow-copy-provider-registration-and-loading.md
+                - name: Создание теневых копий для поставщиков
+                  href: shadow-copy-creation-for-providers.md
+                - name: Взаимодействие и поведение поставщика оборудования
+                  href: hardware-provider-interactions-and-behaviors.md
+                  items:
+                    - name: Процесс создания теневой копии
+                      href: the-shadow-copy-creation-process.md
+                    - name: Требуемые поведения для поставщиков теневого копирования
+                      href: required-behaviors-for-shadow-copy-providers.md
+                    - name: Переходы состояний в поставщиках теневого копирования
+                      href: state-transitions-in-shadow-copy-providers.md
+                    - name: Обработка ошибок в поставщиках теневого копирования
+                      href: error-handling-in-shadow-copy-providers.md
+        - name: Сведения о реализации VSS
+          href: vss-implementation-details.md
+          items:
+            - name: Сведения о реализации резервных копий VSS
+              href: implementation-details-for-vss-backups.md
+              items:
+                - name: Создание резервного набора данных
+                  href: generating-a-backup-set.md
+                - name: Добавочные и разностные резервные копии
+                  href: incremental-and-differential-backups.md
+                  items:
+                    - name: Роль модуля записи в добавочных и разностных резервных копиях VSS
+                      href: writer-role-in-vss-incremental-and-differential-backups.md
+                    - name: Роль инициатора запроса в добавочных и разностных резервных копиях VSS
+                      href: requestor-role-in-vss-incremental-and-differential-backups.md
+                    - name: Роль модуля записи при резервном копировании сложных хранилищ
+                      href: writer-role-in-backing-up-complex-stores.md
+                    - name: Роль инициатора запроса при резервном копировании сложных хранилищ
+                      href: requestor-role-in-backing-up-complex-stores.md
+                - name: Резервные копии без участия в записи
+                  href: backups-without-writer-participation.md
+                - name: Работа с подключенными папками и точками повторного анализа
+                  href: working-with-reparse-and-mount-points.md
+            - name: Сведения о реализации для восстановления VSS
+              href: implementation-details-for-vss-restores.md
+              items:
+                - name: Создание набора восстановления
+                  href: generating-a-restore-set.md
+                - name: Восстановление добавочных и разностных резервных копий
+                  href: restoring-incremental-and-differential-backups.md
+                - name: Восстановление без участия в записи
+                  href: restores-without-writer-participation.md
+            - name: Расположения резервного копирования и восстановления не по умолчанию
+              href: non-default-backup-and-restore-locations.md
+              items:
+                - name: Работа с альтернативными путями во время резервного копирования
+                  href: working-with-alternate-paths-during-backup.md
+                - name: Работа с альтернативными расположениями во время восстановления
+                  href: working-with-alternate-locations-during-restore.md
+                - name: Работа с новыми целевыми объектами во время восстановления
+                  href: working-with-new-targets-during-restore.md
+                - name: Работа с частичными файлами
+                  href: working-with-partial-files.md
+                - name: Работа с направленными целями
+                  href: working-with-directed-targets.md
+            - name: Сведения о реализации для создания теневых копий
+              href: implementation-details-for-creating-shadow-copies.md
+              items:
+                - name: Создание простой теневой копии для резервного копирования
+                  href: simple-shadow-copy-creation-for-backup.md
+                - name: Сведения о создании теневой копии
+                  href: shadow-copy-creation-details.md
+                - name: Исключение файлов из теневых копий
+                  href: excluding-files-from-shadow-copies.md
+                - name: Выбор поставщиков
+                  href: selecting-providers.md
+            - name: Сведения о реализации для использования теневых копий
+              href: implementation-details-for-using-shadow-copies.md
+              items:
+                - name: Доступ инициатора запроса к теневым скопированным данным
+                  href: requestor-access-to-shadow-copied-data.md
+                - name: Импорт переносимых теневых скопированных томов
+                  href: importing-transportable-shadow-copied-volumes.md
+                  items:
+                    - name: Быстрое восстановление с помощью переносимых теневых скопированных томов
+                      href: fast-recovery-using-transportable-shadow-copied-volumes.md
+                - name: Предоставление и отображая теневых скопированных томов
+                  href: exposing-and-surfacing-shadow-copied-volumes.md
+                - name: Критические теневые копии
+                  href: breaking-shadow-copies.md
+        - name: Устранение неполадок приложений VSS
+          href: troubleshooting-vss-applications.md
+          items:
+            - name: Обработка событий и ошибок в VSS
+              href: event-and-error-handling-under-vss.md
+              items:
+                - name: Определение состояния модуля записи
+                  href: determining-writer-status.md
+                - name: Ведение журнала ошибок VSS
+                  href: vss-error-logging.md
+                - name: Ошибки и запреты модуля записи
+                  href: writer-errors-and-vetoes.md
+                - name: Прерывание операций VSS
+                  href: aborting-vss-operations.md
+                - name: Обработка событий Баккупшутдовн
+                  href: handling-backupshutdown-events.md
+            - name: Проблемы безопасности VSS
+              href: vss-security-issues.md
+              items:
+                - name: Вопросы безопасности для модулей записи
+                  href: security-considerations-for-writers.md
+                - name: Вопросы безопасности для запрашивающих стороны
+                  href: security-considerations-for-requestors.md
+            - name: Специальные варианты использования VSS
+              href: special-vss-usage-cases.md
+              items:
+                - name: Остановка служб для восстановления с помощью инициаторов запроса
+                  href: stopping-services-for-restore-by-requestors.md
+                - name: Резервное копирование и восстановление состояния системы в Windows Server 2003 R2 и Windows Server 2003 SP1
+                  href: backing-up-and-restoring-system-state-under-vss.md
+                - name: Использование автоматического восстановления системы VSS для аварийного восстановления
+                  href: using-vss-automated-system-recovery-for-disaster-recovery.md
+                  items:
+                    - name: Использование средств трассировки с приложениями ASR
+                      href: using-tracing-tools-with-vss-asr-applications.md
+                - name: Пользовательские резервные копии и восстановления
+                  href: custom-backups-and-restores.md
+                  items:
+                    - name: Резервное копирование и восстановление VSS для Active Directory
+                      href: vss-backup-and-restore-of-the-active-directory.md
+                    - name: Резервное копирование и восстановление папки FRS-Replicated SYSVOL
+                      href: backing-up-and-restoring-an-frs-replicated-sysvol-folder.md
+                    - name: Резервное копирование и восстановление VSS для базы данных кластера
+                      href: vss-backups-and-restores-of-the-cluster-database.md
+                    - name: Операции резервного копирования и восстановления реестра в VSS
+                      href: registry-backup-and-restore-operations-under-vss.md
+                    - name: Резервное копирование и восстановление базы данных регистрации классов COM+ в VSS
+                      href: backing-up-and-restoring-the-com-class-registration-database-under-vss.md
+        - name: Средства и примеры VSS
+          href: vss-tools-and-samples.md
+          items:
+            - name: Использование средств трассировки с VSS
+              href: using-tracing-tools-with-vss.md
+            - name: Использование диагностики VSS
+              href: using-vss-diagnostics.md
+            - name: Средство Всссамплепровидер и пример
+              href: vsssampleprovider-tool-and-sample.md
+            - name: Средство Вшадов и пример
+              href: vshadow-tool-and-sample.md
+              items:
+                - name: Примеры инструментов Вшадов
+                  href: vshadow-tool-examples.md
+            - name: Средство тестирования
+              href: betest-tool.md
+            - name: Средство записи тестов VSS
+              href: vss-test-writer-tool.md
+    - name: Справочник по теневым копиям томов
+      href: volume-shadow-copy-reference.md
+      items:
+        - name: Классы API теневого копирования томов
+          href: volume-shadow-copy-api-classes.md
+          items:
+            - name: квссвритер
+              href: /windows/desktop/api/VsWriter/nl-vswriter-cvsswriter
+              items:
+                - name: Метод Квссвритер
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-cvsswriter
+                - name: '~ Квссвритер, метод'
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-~cvsswriter
+                - name: Метод Арекомпонентсселектед
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-arecomponentsselected
+                - name: Метод Жетбаккуптипе
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getbackuptype
+                - name: Метод GetContext
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcontext
+                - name: Метод Жеткуррентлевел
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcurrentlevel
+                - name: Метод Жеткуррентснапшотсетид
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcurrentsnapshotsetid
+                - name: Метод Жеткуррентволумеаррай
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcurrentvolumearray
+                - name: Метод Жеткуррентволумекаунт
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcurrentvolumecount
+                - name: Метод Жетресторетипе
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getrestoretype
+                - name: Метод Жетснапшотдевиценаме
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getsnapshotdevicename
+                - name: Метод Initialize
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-initialize
+                - name: Метод Инсталлалтернатевритер
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-installalternatewriter
+                - name: Метод Исбутаблесистемстатебаккедуп
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-isbootablesystemstatebackedup
+                - name: Метод Испартиалфилесуппортенаблед
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-ispartialfilesupportenabled
+                - name: Метод Испасаффектед
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-ispathaffected
+                - name: Метод OnAbort
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onabort
+                - name: Метод Онбаккоффиунволуме
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackoffioonvolume
+                - name: Метод Онконтинуеиунволуме
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-oncontinueioonvolume
+                - name: Метод Онбаккупкомплете
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete
+                - name: Метод Онбаккупшутдовн
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupshutdown
+                - name: Метод onfreeze
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onfreeze
+                - name: Метод onidentify
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onidentify
+                - name: Метод Онпостресторе
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpostrestore
+                - name: Метод Онпостснапшот
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpostsnapshot
+                - name: Метод Онпрепаребаккуп
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpreparebackup
+                - name: Метод Онпрепареснапшот
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpreparesnapshot
+                - name: Метод Онпрересторе
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onprerestore
+                - name: Метод разморозки
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onthaw
+                - name: Метод Онвссаппликатионстартуп
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onvssapplicationstartup
+                - name: Метод Онвссшутдовн
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onvssshutdown
+                - name: Метод Сетвритерфаилуре
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-setwriterfailure
+                - name: 'Subscribe, метод'
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-subscribe
+                - name: 'Отмена подписки, метод'
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-unsubscribe
+            - name: квссвритерекс
+              href: /windows/desktop/api/VsWriter/nl-vswriter-cvsswriterex
+              items:
+                - name: Метод Жетидентифинформатион
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex-getidentifyinformation
+                - name: Метод Инитиализикс
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex-initializeex
+                - name: Метод Онидентифекс
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex-onidentifyex
+                - name: Метод Субскрибикс
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex-subscribeex
+            - name: CVssWriterEx2
+              href: /windows/desktop/api/VsWriter/nl-vswriter-cvsswriterex2
+              items:
+                - name: Метод с идентификатором SessionId
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex2-getsessionid
+                - name: Метод Исвритершуттингдовн
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex2-iswritershuttingdown
+                - name: Метод Сетвритерфаилурикс
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-cvsswriterex2-setwriterfailureex
+        - name: Типы данных API теневого копирования томов
+          href: volume-shadow-copy-api-data-types.md
+        - name: Перечисления API теневого копирования томов
+          href: volume-shadow-copy-api-enumeration-types.md
+          items:
+            - name: VSS_ALTERNATE_WRITER_STATE
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_alternate_writer_state
+            - name: VSS_APPLICATION_LEVEL
+              href: /windows/win32/api/Vss/ne-vss-vss_application_level
+            - name: VSS_BACKUP_SCHEMA
+              href: /windows/win32/api/Vss/ne-vss-vss_backup_schema
+            - name: VSS_BACKUP_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_backup_type
+            - name: VSS_COMPONENT_FLAGS
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_component_flags
+            - name: VSS_COMPONENT_TYPE
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_component_type
+            - name: VSS_FILE_RESTORE_STATUS
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_file_restore_status
+            - name: VSS_FILE_SPEC_BACKUP_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_file_spec_backup_type
+            - name: _VSS_HARDWARE_OPTIONS
+              href: /windows/win32/api/Vss/ne-vss-vss_hardware_options
+            - name: VSS_MGMT_OBJECT_TYPE
+              href: /windows/win32/api/VsMgmt/ne-vsmgmt-vss_mgmt_object_type
+            - name: VSS_OBJECT_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_object_type
+            - name: VSS_PROTECTION_FAULT
+              href: /windows/win32/api/VsMgmt/ne-vsmgmt-vss_protection_fault
+            - name: VSS_PROTECTION_LEVEL
+              href: /windows/win32/api/VsMgmt/ne-vsmgmt-vss_protection_level
+            - name: _VSS_PROVIDER_CAPABILITIES
+              href: /windows/win32/api/vss/ne-vss-vss_provider_capabilities
+            - name: VSS_PROVIDER_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_provider_type
+            - name: VSS_RECOVERY_OPTIONS
+              href: /windows/win32/api/Vss/ne-vss-vss_recovery_options
+            - name: VSS_RESTORE_TARGET
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_restore_target
+            - name: VSS_RESTORE_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_restore_type
+            - name: VSS_RESTOREMETHOD_ENUM
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_restoremethod_enum
+            - name: VSS_ROLLFORWARD_TYPE
+              href: /windows/win32/api/Vss/ne-vss-vss_rollforward_type
+            - name: VSS_SNAPSHOT_COMPATIBILITY
+              href: /windows/win32/api/Vss/ne-vss-vss_snapshot_compatibility
+            - name: _VSS_SNAPSHOT_CONTEXT
+              href: /windows/win32/api/Vss/ne-vss-vss_snapshot_context
+            - name: VSS_SNAPSHOT_PROPERTY_ID
+              href: /windows/win32/api/Vss/ne-vss-vss_snapshot_property_id
+            - name: VSS_SNAPSHOT_STATE
+              href: /windows/win32/api/Vss/ne-vss-vss_snapshot_state
+            - name: VSS_SOURCE_TYPE
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_source_type
+            - name: VSS_SUBSCRIBE_MASK
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_subscribe_mask
+            - name: VSS_USAGE_TYPE
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_usage_type
+            - name: _VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+              href: /windows/win32/api/Vss/ne-vss-vss_volume_snapshot_attributes
+            - name: VSS_WRITER_STATE
+              href: /windows/win32/api/Vss/ne-vss-vss_writer_state
+            - name: VSS_WRITERRESTORE_ENUM
+              href: /windows/desktop/api/VsWriter/ne-vswriter-vss_writerrestore_enum
+        - name: Функции API теневого копирования томов
+          href: volume-shadow-copy-api-functions.md
+          items:
+            - name: креатевссбаккупкомпонентс
+              href: /windows/desktop/api/VsBackup/nf-vsbackup-createvssbackupcomponents
+            - name: креатевссексаминевритерметадата
+              href: /windows/desktop/api/VsBackup/nf-vsbackup-createvssexaminewritermetadata
+            - name: креатевссекспрессвритер
+              href: /windows/desktop/api/VsWriter/nf-vswriter-createvssexpresswriter
+            - name: CreateWriter
+              href: /windows/desktop/api/vswriter/nf-vswriter-createwriter
+            - name: креатевритерекс
+              href: /windows/desktop/api/vswriter/nf-vswriter-createwriterex
+            - name: исволумеснапшоттед
+              href: /windows/desktop/api/VsBackup/nf-vsbackup-isvolumesnapshotted
+            - name: шаулдблоккреверт
+              href: /windows/desktop/api/VsBackup/nf-vsbackup-shouldblockrevert
+            - name: вссфриснапшотпропертиес
+              href: /windows/desktop/api/VsBackup/nf-vsbackup-vssfreesnapshotproperties
+        - name: Интерфейсы API теневого копирования томов
+          href: volume-shadow-copy-api-interfaces.md
+          items:
+            - name: ивссадмин
+              href: /windows/desktop/api/VsAdmin/nn-vsadmin-ivssadmin
+              items:
+                - name: Метод Аборталлснапшотсинпрогресс
+                  href: /windows/desktop/api/VsAdmin/nf-vsadmin-ivssadmin-abortallsnapshotsinprogress
+                - name: Метод Куерипровидерс
+                  href: /windows/desktop/api/VsAdmin/nf-vsadmin-ivssadmin-queryproviders
+                - name: Метод RegisterProvider
+                  href: /windows/desktop/api/VsAdmin/nf-vsadmin-ivssadmin-registerprovider
+                - name: Метод Унрегистерпровидер
+                  href: /windows/desktop/api/VsAdmin/nf-vsadmin-ivssadmin-unregisterprovider
+            - name: ивссасинк
+              href: /windows/desktop/api/Vss/nn-vss-ivssasync
+              items:
+                - name: Метод Cancel
+                  href: /windows/desktop/api/Vss/nf-vss-ivssasync-cancel
+                - name: Метод QueryStatus
+                  href: /windows/desktop/api/Vss/nf-vss-ivssasync-querystatus
+                - name: Метод Wait
+                  href: /windows/desktop/api/Vss/nf-vss-ivssasync-wait
+            - name: ивссбаккупкомпонентс
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents
+              items:
+                - name: Метод Абортбаккуп
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup
+                - name: Метод Аддалтернативелокатионмаппинг
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping
+                - name: Метод AddComponent
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent
+                - name: Метод Аддневтаржет
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addnewtarget
+                - name: Метод Аддресторесубкомпонент
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent
+                - name: Метод Аддтоснапшотсет
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset
+                - name: Метод Баккупкомплете
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete
+                - name: Метод Бреакснапшотсет
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset
+                - name: Метод Делетеснапшотс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots
+                - name: Метод Дисаблевритерклассес
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-disablewriterclasses
+                - name: Метод Дисаблевритеринстанцес
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances
+                - name: Метод Доснапшотсет
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset
+                - name: Метод Енаблевритерклассес
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses
+                - name: Метод Експосеснапшот
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot
+                - name: Метод Фривритерметадата
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-freewritermetadata
+                - name: Метод Фривритерстатус
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus
+                - name: Метод Гасервритерметадата
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata
+                - name: Метод Гасервритерстатус
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus
+                - name: Метод Жетснапшотпропертиес
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties
+                - name: Метод Жетвритеркомпонентс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents
+                - name: Метод Жетвритеркомпонентскаунт
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount
+                - name: Метод Жетвритерметадата
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata
+                - name: Метод Жетвритерметадатакаунт
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadatacount
+                - name: Метод Жетвритерстатус
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus
+                - name: Метод Жетвритерстатускаунт
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatuscount
+                - name: Метод Импортснапшотс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-importsnapshots
+                - name: Метод Инитиализефорбаккуп
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup
+                - name: Метод Инитиализефорресторе
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-initializeforrestore
+                - name: Метод Исволумесуппортед
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-isvolumesupported
+                - name: Метод Restore
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-postrestore
+                - name: Метод PrepareForBackup
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup
+                - name: Метод Restore
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore
+                - name: Метод запроса
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-query
+                - name: Метод Куериревертстатус
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-queryrevertstatus
+                - name: Метод Реверттоснапшот
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-reverttosnapshot
+                - name: Метод Савеасксмл
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml
+                - name: Метод Сетаддитионалресторес
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores
+                - name: Метод Сетбаккупоптионс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupoptions
+                - name: Метод Сетбаккупстате
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate
+                - name: Метод Сетбаккупсукцеедед
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded
+                - name: Метод SetContext
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setcontext
+                - name: Метод Сетфилересторестатус
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setfilerestorestatus
+                - name: Метод Сетпревиаусбаккупстамп
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp
+                - name: Метод Сетранжесфилепас
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath
+                - name: Метод Сетрестореоптионс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions
+                - name: Метод Сетресторестате
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestorestate
+                - name: Метод Сетселектедфорресторе
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore
+                - name: Метод Стартснапшотсет
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset
+            - name: ивссбаккупкомпонентсекс
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponentsex
+              items:
+                - name: Метод Жетвритерметадатаекс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex-getwritermetadataex
+                - name: Метод Сетселектедфорресторикс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex
+            - name: IVssBackupComponentsEx2
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponentsex2
+              items:
+                - name: Метод Бреакснапшотсетекс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex
+                - name: Метод Фастрековери
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-fastrecovery
+                - name: Метод Префастрековери
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-prefastrecovery
+                - name: Метод Сетаусоритативересторе
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setauthoritativerestore
+                - name: Метод Сетресторенаме
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename
+                - name: Метод Сетроллфорвард
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward
+                - name: Метод Унекспосеснапшот
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-unexposesnapshot
+            - name: IVssBackupComponentsEx3
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponentsex3
+              items:
+                - name: Метод Аддснапшотторековерисет
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex3-addsnapshottorecoveryset
+                - name: Метод с идентификатором SessionId
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex3-getsessionid
+                - name: Метод Жетвритерстатусекс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex3-getwriterstatusex
+                - name: Метод RECOVERING
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex3-recoverset
+            - name: IVssBackupComponentsEx4
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponentsex4
+              items:
+                - name: Метод Жетрутандлогикалпрефикспасс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex4-getrootandlogicalprefixpaths
+            - name: ивсскомпонент
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent
+              items:
+                - name: Метод Адддифференцедфилесбиластмодифилсн
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifylsn
+                - name: Метод Адддифференцедфилесбиластмодифитиме
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime
+                - name: Метод Адддиректедтаржет
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddirectedtarget
+                - name: Метод Аддпартиалфиле
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-addpartialfile
+                - name: Метод Жетаддитионалресторес
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getadditionalrestores
+                - name: Метод Жеталтернателокатионмаппинг
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getalternatelocationmapping
+                - name: Метод Жеталтернателокатионмаппингкаунт
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getalternatelocationmappingcount
+                - name: Метод Жетбаккупметадата
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupmetadata
+                - name: Метод Жетбаккупоптионс
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupoptions
+                - name: Метод Жетбаккупстамп
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupstamp
+                - name: Метод Жетбаккупсукцеедед
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupsucceeded
+                - name: Метод Жеткомпонентнаме
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getcomponentname
+                - name: Метод Жеткомпоненттипе
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getcomponenttype
+                - name: Метод Жетдифференцедфиле
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile
+                - name: Метод Жетдифференцедфилескаунт
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfilescount
+                - name: Метод Жетдиректедтаржет
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdirectedtarget
+                - name: Метод Жетдиректедтаржеткаунт
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdirectedtargetcount
+                - name: Метод Жетфилересторестатус
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getfilerestorestatus
+                - name: Метод Жетлогикалпас
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getlogicalpath
+                - name: Метод Жетневтаржет
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getnewtarget
+                - name: Метод Жетневтаржеткаунт
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getnewtargetcount
+                - name: Метод Жетпартиалфиле
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfile
+                - name: Метод Жетпартиалфилекаунт
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfilecount
+                - name: Метод Жетпостресторефаилуремсг
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpostrestorefailuremsg
+                - name: Метод Жетпрересторефаилуремсг
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getprerestorefailuremsg
+                - name: Метод Жетпревиаусбаккупстамп
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpreviousbackupstamp
+                - name: Метод Жетрестореметадата
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoremetadata
+                - name: Метод Жетрестореоптионс
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoreoptions
+                - name: Метод Жетресторесубкомпонент
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoresubcomponent
+                - name: Метод Жетресторесубкомпоненткаунт
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoresubcomponentcount
+                - name: Метод Жетресторетаржет
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoretarget
+                - name: Метод Исселектедфорресторе
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-isselectedforrestore
+                - name: Метод Сетбаккупметадата
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setbackupmetadata
+                - name: Метод Сетбаккупстамп
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setbackupstamp
+                - name: Метод Сетпостресторефаилуремсг
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setpostrestorefailuremsg
+                - name: Метод Сетпрересторефаилуремсг
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setprerestorefailuremsg
+                - name: Метод Сетрестореметадата
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setrestoremetadata
+                - name: Метод Сетресторетаржет
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setrestoretarget
+            - name: ивсскомпонентекс
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscomponentex
+              items:
+                - name: Метод Жетаусоритативересторе
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-getauthoritativerestore
+                - name: Метод Жетпостснапшотфаилуремсг
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-getpostsnapshotfailuremsg
+                - name: Метод Жетпрепарефорбаккупфаилуремсг
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-getprepareforbackupfailuremsg
+                - name: Метод Жетресторенаме
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-getrestorename
+                - name: Метод Жетроллфорвард
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-getrollforward
+                - name: Метод Сетпостснапшотфаилуремсг
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-setpostsnapshotfailuremsg
+                - name: Метод Сетпрепарефорбаккупфаилуремсг
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscomponentex-setprepareforbackupfailuremsg
+            - name: IVssComponentEx2
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscomponentex2
+              items:
+                - name: Метод не удалось
+                  href: /windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-getfailure
+                - name: Метод Сетфаилуре
+                  href: /windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-setfailure
+            - name: ивсскреатикспрессвритерметадата
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscreateexpresswritermetadata
+              items:
+                - name: Метод AddComponent
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-addcomponent
+                - name: Метод Аддкомпонентдепенденци
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-addcomponentdependency
+                - name: Метод Аддексклудефилес
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-addexcludefiles
+                - name: Метод Аддфилестофилеграуп
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-addfilestofilegroup
+                - name: Метод Савеасксмл
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-saveasxml
+                - name: Метод Сетбаккупсчема
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-setbackupschema
+                - name: Метод Сетресторемесод
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreateexpresswritermetadata-setrestoremethod
+            - name: ивсскреатевритерметадата
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscreatewritermetadata
+              items:
+                - name: Метод Аддалтернателокатионмаппинг
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping
+                - name: Метод AddComponent
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponent
+                - name: Метод Аддкомпонентдепенденци
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency
+                - name: Метод Адддатабасефилес
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles
+                - name: Метод Адддатабаселогфилес
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles
+                - name: Метод Аддексклудефилес
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles
+                - name: Метод Аддфилестофилеграуп
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup
+                - name: Метод Аддинклудефилес
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addincludefiles
+                - name: Метод GetDocument
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-getdocument
+                - name: Метод Савеасксмл
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-saveasxml
+                - name: Метод Сетбаккупсчема
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema
+                - name: Метод Сетресторемесод
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod
+            - name: ивсскреатевритерметадатаекс
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsscreatewritermetadataex
+              items:
+                - name: Метод Аддексклудефилесфромснапшот
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadataex-addexcludefilesfromsnapshot
+            - name: ивссдифферентиалсофтвареснапшотмгмт
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt
+              items:
+                - name: Метод Адддиффареа
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea
+                - name: Метод Чанжедиффареамаксимумсизе
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize
+                - name: Метод Куеридиффареасфорснапшот
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforsnapshot
+                - name: Метод Куеридиффареасфорволуме
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforvolume
+                - name: Метод Куеридиффареасонволуме
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasonvolume
+                - name: Метод Куериволумессуппортедфордиффареас
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-queryvolumessupportedfordiffareas
+            - name: IVssDifferentialSoftwareSnapshotMgmt2
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2
+              items:
+                - name: Метод Чанжедиффареамаксимумсизикс
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-changediffareamaximumsizeex
+                - name: Метод Мигратедиффареас
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-migratediffareas
+                - name: Метод Куеримигратионстатус
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-querymigrationstatus
+                - name: Метод Сетснапшотприорити
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-setsnapshotpriority
+            - name: IVssDifferentialSoftwareSnapshotMgmt3
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3
+              items:
+                - name: Метод Клеарволумепротектфаулт
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-clearvolumeprotectfault
+                - name: Метод Делетеунуседдиффареас
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-deleteunuseddiffareas
+                - name: Метод Жетволумепротектлевел
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-getvolumeprotectlevel
+                - name: Метод Куериснапшотделтабитмап
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-querysnapshotdeltabitmap
+                - name: Метод Сетволумепротектлевел
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-setvolumeprotectlevel
+            - name: ивссенуммгмтобжект
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivssenummgmtobject
+              items:
+                - name: Метод Clone
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssenummgmtobject-clone
+                - name: Метод Next
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssenummgmtobject-next
+                - name: Метод Reset
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssenummgmtobject-reset
+                - name: Метод Skip
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivssenummgmtobject-skip
+            - name: ивссенумобжект
+              href: /windows/desktop/api/Vss/nn-vss-ivssenumobject
+              items:
+                - name: Метод Clone
+                  href: /windows/desktop/api/Vss/nf-vss-ivssenumobject-clone
+                - name: Метод Next
+                  href: /windows/desktop/api/Vss/nf-vss-ivssenumobject-next
+                - name: Метод Reset
+                  href: /windows/desktop/api/Vss/nf-vss-ivssenumobject-reset
+                - name: Метод Skip
+                  href: /windows/desktop/api/Vss/nf-vss-ivssenumobject-skip
+            - name: ивссексаминевритерметадата
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssexaminewritermetadata
+              items:
+                - name: Метод Жеталтернателокатионмаппинг
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping
+                - name: Метод Жетбаккупсчема
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema
+                - name: Метод компонента
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent
+                - name: Метод GetDocument
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getdocument
+                - name: Метод Жетексклудефиле
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getexcludefile
+                - name: Метод Жетфилекаунтс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getfilecounts
+                - name: Метод Identity
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getidentity
+                - name: Метод Жетинклудефиле
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getincludefile
+                - name: Метод Жетресторемесод
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod
+                - name: Метод LoadFromXML
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-loadfromxml
+                - name: Метод Савеасксмл
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml
+            - name: ивссексаминевритерметадатаекс
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssexaminewritermetadataex
+              items:
+                - name: Метод Жетидентитекс
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadataex-getidentityex
+            - name: IVssExamineWriterMetadataEx2
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivssexaminewritermetadataex2
+              items:
+                - name: Метод Жетексклудефромснапшоткаунт
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotcount
+                - name: Метод Жетексклудефромснапшотфиле
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile
+                - name: Метод GetVersion
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadataex2-getversion
+            - name: ивссекспрессвритер
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivssexpresswriter
+              items:
+                - name: Метод Креатеметадата
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivssexpresswriter-createmetadata
+                - name: Метод Лоадметадата
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivssexpresswriter-loadmetadata
+                - name: Метод Register
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivssexpresswriter-register
+                - name: Отменить регистрацию метода
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivssexpresswriter-unregister
+            - name: ивссфилешареснапшотпровидер
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivssfilesharesnapshotprovider
+              items:
+                - name: Метод Бегинпрепареснапшот
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-beginpreparesnapshot
+                - name: Метод Делетеснапшотс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-deletesnapshots
+                - name: Метод Жетснапшотпропертиес
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-getsnapshotproperties
+                - name: Метод Испасснапшоттед
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-ispathsnapshotted
+                - name: Метод Испассуппортед
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-ispathsupported
+                - name: Метод запроса
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-query
+                - name: Метод SetContext
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-setcontext
+                - name: Метод Сетснапшотпроперти
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssfilesharesnapshotprovider-setsnapshotproperty
+            - name: ивсшардвареснапшотпровидер
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivsshardwaresnapshotprovider
+              items:
+                - name: Метод Арелунссуппортед
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported
+                - name: Метод Бегинпрепареснапшот
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot
+                - name: Метод Филлинлунинфо
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-fillinluninfo
+                - name: Метод Жеттаржетлунс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns
+                - name: Метод Локателунс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-locateluns
+                - name: Метод Онлунемпти
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-onlunempty
+            - name: ивсшардвареснапшотпровидерекс
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivsshardwaresnapshotproviderex
+              items:
+                - name: Метод Жетпровидеркапабилитиес
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotproviderex-getprovidercapabilities
+                - name: Метод Онлунстатечанже
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange
+                - name: Метод Онреуселунс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotproviderex-onreuseluns
+                - name: Метод Ресинклунс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotproviderex-resyncluns
+            - name: ивсспровидеркреатеснапшотсет
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivssprovidercreatesnapshotset
+              items:
+                - name: Метод Абортснапшотс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots
+                - name: Метод Коммитснапшотс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots
+                - name: Метод Ендпрепареснапшотс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-endpreparesnapshots
+                - name: Метод Посткоммитснапшотс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-postcommitsnapshots
+                - name: Метод Постфиналкоммитснапшотс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-postfinalcommitsnapshots
+                - name: Метод Прекоммитснапшотс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-precommitsnapshots
+                - name: Метод Префиналкоммитснапшотс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-prefinalcommitsnapshots
+            - name: ивсспровидернотификатионс
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivssprovidernotifications
+              items:
+                - name: Метод OnLoad
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidernotifications-onload
+                - name: Метод Unload
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivssprovidernotifications-onunload
+            - name: ивссснапшотмгмт
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivsssnapshotmgmt
+              items:
+                - name: Метод Жетпровидермгмтинтерфаце
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivsssnapshotmgmt-getprovidermgmtinterface
+                - name: Метод Куериснапшотсбиволуме
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivsssnapshotmgmt-querysnapshotsbyvolume
+                - name: Метод Куериволумессуппортедфорснапшотс
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivsssnapshotmgmt-queryvolumessupportedforsnapshots
+            - name: IVssSnapshotMgmt2
+              href: /windows/desktop/api/VsMgmt/nn-vsmgmt-ivsssnapshotmgmt2
+              items:
+                - name: Метод Жетминдиффареасизе
+                  href: /windows/desktop/api/VsMgmt/nf-vsmgmt-ivsssnapshotmgmt2-getmindiffareasize
+            - name: ивсссофтвареснапшотпровидер
+              href: /windows/desktop/api/VsProv/nn-vsprov-ivsssoftwaresnapshotprovider
+              items:
+                - name: Метод Бегинпрепареснапшот
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-beginpreparesnapshot
+                - name: Метод Делетеснапшотс
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-deletesnapshots
+                - name: Метод Жетснапшотпропертиес
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-getsnapshotproperties
+                - name: Метод Исволумеснапшоттед
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-isvolumesnapshotted
+                - name: Метод Исволумесуппортед
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-isvolumesupported
+                - name: Метод запроса
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-query
+                - name: Метод Куериревертстатус
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-queryrevertstatus
+                - name: Метод Реверттоснапшот
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-reverttosnapshot
+                - name: Метод SetContext
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-setcontext
+                - name: Метод Сетснапшотпроперти
+                  href: /windows/desktop/api/VsProv/nf-vsprov-ivsssoftwaresnapshotprovider-setsnapshotproperty
+            - name: ивссвмкомпонент
+              href: /windows/desktop/api/VsBackup/nl-vsbackup-ivsswmcomponent
+              items:
+                - name: Метод Фрикомпонентинфо
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-freecomponentinfo
+                - name: Метод Жеткомпонентинфо
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getcomponentinfo
+                - name: Метод Жетдатабасефиле
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getdatabasefile
+                - name: Метод Жетдатабаселогфиле
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile
+                - name: Метод dependency
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getdependency
+                - name: Метод onfile
+                  href: /windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getfile
+            - name: ивссвмдепенденци
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsswmdependency
+              items:
+                - name: Метод Жетвритерид
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmdependency-getwriterid
+                - name: Метод Жетлогикалпас
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmdependency-getlogicalpath
+                - name: Метод Жеткомпонентнаме
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmdependency-getcomponentname
+            - name: ивссвмфиледеск
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsswmfiledesc
+              items:
+                - name: Метод Жеталтернателокатион
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getalternatelocation
+                - name: Метод Жетбаккуптипемаск
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getbackuptypemask
+                - name: Метод Жетфилеспек
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getfilespec
+                - name: Метод Path
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getpath
+                - name: Метод Жетрекурсиве
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getrecursive
+            - name: ивссвритеркомпонентс
+              href: /windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents
+              items:
+                - name: Метод компонента
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponent
+                - name: Метод Жеткомпоненткаунт
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponentcount
+                - name: Метод Жетвритеринфо
+                  href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getwriterinfo
+            - name: ивссвритеркомпонентсекст
+              href: /windows/desktop/api/vsbackup/nl-vsbackup-ivsswritercomponentsext
+        - name: Структуры API теневого копирования томов
+          href: volume-shadow-copy-api-structures.md
+          items:
+            - name: VSS_COMPONENTINFO
+              href: /windows/win32/api/VsBackup/ns-vsbackup-vss_componentinfo
+            - name: VSS_DIFF_AREA_PROP
+              href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_diff_area_prop
+            - name: VSS_DIFF_VOLUME_PROP
+              href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_diff_volume_prop
+            - name: VSS_MGMT_OBJECT_PROP
+              href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_mgmt_object_prop
+            - name: VSS_MGMT_OBJECT_UNION
+              href: /windows/desktop/api/VsMgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001
+            - name: VSS_OBJECT_PROP
+              href: /windows/win32/api/Vss/ns-vss-vss_object_prop
+            - name: VSS_OBJECT_UNION
+              href: /windows/desktop/api/Vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001
+            - name: VSS_PROVIDER_PROP
+              href: /windows/win32/api/Vss/ns-vss-vss_provider_prop
+            - name: VSS_SNAPSHOT_PROP
+              href: /windows/win32/api/Vss/ns-vss-vss_snapshot_prop
+            - name: VSS_VOLUME_PROP
+              href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_volume_prop
+            - name: VSS_VOLUME_PROTECTION_INFO
+              href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_volume_protection_info
+    - name: Глоссарий по теневым копиям томов
+      href: volume-shadow-copy-glossary.md
+      items:
+        - name: Объект
+          href: vssgloss-a.md
+        - name: B
+          href: vssgloss-b.md
+        - name: C
+          href: vssgloss-c.md
+        - name: D
+          href: vssgloss-d.md
+        - name: E
+          href: vssgloss-e.md
+        - name: C
+          href: vssgloss-f.md
+        - name: G
+          href: vssgloss-g.md
+        - name: H
+          href: vssgloss-h.md
+        - name: I
+          href: vssgloss-i.md
+        - name: L
+          href: vssgloss-l.md
+        - name: Нет
+          href: vssgloss-n.md
+        - name: O
+          href: vssgloss-o.md
+        - name: С
+          href: vssgloss-p.md
+        - name: R
+          href: vssgloss-r.md
+        - name: S
+          href: vssgloss-s.md
+        - name: T
+          href: vssgloss-t.md
+        - name: V
+          href: vssgloss-v.md
+        - name: W
+          href: vssgloss-w.md

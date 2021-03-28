@@ -1,0 +1,388 @@
+- name: Интерфейсы API UPnP
+  href: universal-plug-and-play-start-page.md
+  items:
+    - name: Новые возможности API-интерфейсов UPnP
+      href: what-s-new-in-upnp.md
+    - name: Общие сведения об архитектуре UPnP
+      href: overview-of-universal-plug-and-play.md
+    - name: Параметры конфигурации
+      href: configuration-settings.md
+    - name: API контрольной точки
+      href: control-point-api.md
+      items:
+        - name: Сведения об API контрольной точки
+          href: about-the-control-point-api-with-upnp-technology.md
+          items:
+            - name: Основы контрольных точек
+              href: control-point-basics.md
+              items:
+                - name: Что такое объектная модель контрольной точки?
+                  href: what-is-the-control-point-object-model.md
+                - name: Каковы основные действия API контрольной точки?
+                  href: what-are-the-basic-actions-of-the-control-point-api.md
+            - name: Поиск устройств
+              href: finding-devices.md
+              items:
+                - name: Создание устройства поиска устройств
+                  href: creating-the-device-finder.md
+                - name: Асинхронный поиск
+                  href: asynchronous-searching.md
+                - name: Синхронный поиск
+                  href: synchronous-searching.md
+                - name: 'Коллекции устройств, возвращенные синхронным поиском'
+                  href: device-collections-returned-by-synchronous-searches.md
+            - name: Описание устройств
+              href: describing-devices.md
+            - name: Управление устройствами
+              href: controlling-devices.md
+              items:
+                - name: Получение объектов службы
+                  href: obtaining-service-objects.md
+                - name: Регистрация обратного вызова
+                  href: registering-a-callback.md
+                - name: Запрос переменных состояния
+                  href: querying-state-variables.md
+                - name: Вызов действий
+                  href: invoking-actions.md
+        - name: Использование API контрольной точки
+          href: using-the-control-point-api-with-upnp-technology.md
+          items:
+            - name: Вопросы безопасности контрольной точки
+              href: upnp-control-point-security-considerations.md
+            - name: Вопросы программирования контрольной точки
+              href: upnp-control-point-programming-considerations.md
+            - name: Асинхронный поиск в C++
+              href: searching-asynchronously-in-c-.md
+            - name: Регистрация обратного вызова в Visual Basic
+              href: registering-a-callback-in-visual-basic.md
+            - name: Создание веб-страницы презентации
+              href: creating-a-presentation-web-page.md
+            - name: Коды ошибок устройства
+              href: device-error-codes.md
+            - name: Использование образца кода универсальной точки управления
+              href: using-the-generic-control-point-sample-code.md
+              items:
+                - name: Управление устройством
+                  href: controlling-a-device.md
+                - name: Обнаружение устройств
+                  href: discovering-devices.md
+                - name: Универсальное приложение пользовательской точки управления
+                  href: generic-user-control-point-application.md
+        - name: Справочник по API контрольной точки
+          href: control-point-api-with-upnp-technology-reference.md
+          items:
+            - name: иупнпаддрессфамиликонтрол
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpaddressfamilycontrol
+              items:
+                - name: Метод Жетаддрессфамили
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpaddressfamilycontrol-getaddressfamily
+                - name: Метод Сетаддрессфамили
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpaddressfamilycontrol-setaddressfamily
+            - name: иупнпасинкресулт
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpasyncresult
+              items:
+                - name: Метод Асинкоператионкомплете
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete
+            - name: иупнпдескриптиондокумент
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdescriptiondocument
+              items:
+                - name: Метод Abort
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-abort
+                - name: Метод Девицебюдн
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-devicebyudn
+                - name: Метод загрузки
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-load
+                - name: Метод LoadAsync
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-loadasync
+                - name: Метод Лоадресулт
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_loadresult
+                - name: 'ReadyState, метод'
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_readystate
+                - name: Метод Рутдевице
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocument-rootdevice
+            - name: иупнпдескриптиондокументкаллбакк
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdescriptiondocumentcallback
+              items:
+                - name: Метод LoadComplete
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdescriptiondocumentcallback-loadcomplete
+            - name: иупнпдевице
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevice
+              items:
+                - name: Дочерний метод
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_children
+                - name: Метод Description
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_description
+                - name: 'FriendlyName, метод'
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_friendlyname
+                - name: Метод HasChildren
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_haschildren
+                - name: Метод Иконурл
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevice-iconurl
+                - name: Метод Исрутдевице
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_isrootdevice
+                - name: Метод ManufacturerName
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_manufacturername
+                - name: Метод Мануфактурерурл
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_manufacturerurl
+                - name: Метод ModelName
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelname
+                - name: Метод Моделнумбер
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelnumber
+                - name: Метод Моделурл
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelurl
+                - name: Метод Парентдевице
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_parentdevice
+                - name: Метод Пресентатионурл
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_presentationurl
+                - name: Метод Рутдевице
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_rootdevice
+                - name: Метод SerialNumber
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_serialnumber
+                - name: Метод служб
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_services
+                - name: Метод типа
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_type
+                - name: Метод Уникуедевиценаме
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename
+                - name: 'UPC, метод'
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_upc
+            - name: иупнпдевицедокументакцесс
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicedocumentaccess
+              items:
+                - name: Метод Жетдокументурл
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicedocumentaccess-getdocumenturl
+            - name: иупнпдевицедокументакцессекс
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicedocumentaccessex
+              items:
+                - name: Метод GetDocument
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicedocumentaccessex-getdocument
+            - name: иупнпдевицефиндер
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicefinder
+              items:
+                - name: Метод Канцеласинкфинд
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-cancelasyncfind
+                - name: Метод Креатеасинкфинд
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-createasyncfind
+                - name: Метод Финдбитипе
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-findbytype
+                - name: Метод Финдбюдн
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-findbyudn
+                - name: Метод Стартасинкфинд
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-startasyncfind
+            - name: иупнпдевицефиндераддкаллбакквисинтерфаце
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface
+              items:
+                - name: Метод Девицеаддедвисинтерфаце
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinderaddcallbackwithinterface-deviceaddedwithinterface
+            - name: иупнпдевицефиндеркаллбакк
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevicefindercallback
+              items:
+                - name: Метод Девицеаддед
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefindercallback-deviceadded
+                - name: Метод Девицеремовед
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefindercallback-deviceremoved
+                - name: Метод Сеарчкомплете
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpdevicefindercallback-searchcomplete
+            - name: иупнпдевицес
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpdevices
+              items:
+                - name: Метод _NewEnum
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevices-get__newenum
+                - name: 'Count, метод'
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_count
+                - name: 'Item, метод'
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_item
+            - name: иупнфттфеадерконтрол
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnphttpheadercontrol
+              items:
+                - name: Метод Аддрекуессеадерс
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnphttpheadercontrol-addrequestheaders
+            - name: иупнпсервице
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpservice
+              items:
+                - name: Метод Аддкаллбакк
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservice-addcallback
+                - name: 'ID, метод'
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservice-get_id
+                - name: Метод Инвокеактион
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservice-invokeaction
+                - name: Метод Ласттранспортстатус
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus
+                - name: Метод Куеристатевариабле
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservice-querystatevariable
+                - name: Метод Сервицетипеидентифиер
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservice-get_servicetypeidentifier
+            - name: иупнпсервицеасинк
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpserviceasync
+              items:
+                - name: Метод Бегининвокеактион
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-begininvokeaction
+                - name: Метод Ендинвокеактион
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-endinvokeaction
+                - name: Метод Бегинкуеристатевариабле
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable
+                - name: Метод Ендкуеристатевариабле
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-endquerystatevariable
+                - name: Метод Бегинсубскрибетоевентс
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-beginsubscribetoevents
+                - name: Метод Ендсубскрибетоевентс
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-endsubscribetoevents
+                - name: Метод Бегинскпддовнлоад
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-beginscpddownload
+                - name: Метод Ендскпддовнлоад
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-endscpddownload
+                - name: Метод Канцеласинкоператион
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceasync-cancelasyncoperation
+            - name: иупнпсервицекаллбакк
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpservicecallback
+              items:
+                - name: Метод Сервицеинстанцедиед
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservicecallback-serviceinstancedied
+                - name: Метод Статевариаблечанжед
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservicecallback-statevariablechanged
+            - name: иупнпсервицедокументакцесс
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpservicedocumentaccess
+              items:
+                - name: Метод Жетдокументурл
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservicedocumentaccess-getdocumenturl
+                - name: Метод GetDocument
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpservicedocumentaccess-getdocument
+            - name: иупнпсервицеенумпроперти
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpserviceenumproperty
+              items:
+                - name: Метод Сетсервицеенумпроперти
+                  href: /windows/desktop/api/Upnp/nf-upnp-iupnpserviceenumproperty-setserviceenumproperty
+            - name: иупнпсервицес
+              href: /windows/desktop/api/Upnp/nn-upnp-iupnpservices
+              items:
+                - name: Метод _NewEnum
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservices-get__newenum
+                - name: 'Count, метод'
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservices-get_count
+                - name: 'Item, метод'
+                  href: /windows/desktop/api/upnp/nf-upnp-iupnpservices-get_item
+    - name: API узла устройства
+      href: device-host-api.md
+      items:
+        - name: Сведения об API узла устройства
+          href: about-the-device-host-api-with-upnp-technology.md
+          items:
+            - name: Реализация размещенного устройства
+              href: implementing-a-hosted-device.md
+              items:
+                - name: Создание описания устройства
+                  href: creating-a-device-description.md
+                - name: Реализация поведения устройства
+                  href: implementing-device-behavior.md
+            - name: Регистрация размещенного устройства на узле устройства
+              href: registering-a-hosted-device-with-the-device-host.md
+            - name: Поставщики устройств
+              href: device-providers.md
+            - name: Обработка событий
+              href: eventing.md
+            - name: Уровень представления
+              href: presentation.md
+        - name: Использование API узла устройства
+          href: using-the-device-host-api-with-upnp-technology.md
+          items:
+            - name: Вопросы безопасности узла устройства
+              href: device-host-security-considerations.md
+            - name: Рекомендации по программированию на узле устройств
+              href: device-host-programming-considerations.md
+            - name: Обработка ошибок объекта службы
+              href: service-object-error-handling.md
+            - name: Сопоставление типов данных описания службы с типами данных IDL
+              href: mapping-service-description-data-types-to-idl-data-types.md
+            - name: Как зарегистрировать устройство с помощью узла устройства
+              href: how-to-register-a-device-with-the-device-host.md
+            - name: Отмена регистрации устройства
+              href: unregistering-a-device.md
+            - name: Реализация поставщика устройства
+              href: implementing-a-device-provider.md
+            - name: Использование примера кода устройства DIMM
+              href: using-the-dimmer-device-sample-code.md
+        - name: Справочник по API узла устройства
+          href: device-host-api-with-upnp-technology-reference.md
+          items:
+            - name: иупнпдевицеконтрол
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpdevicecontrol
+              items:
+                - name: Метод Жетсервицеобжект
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpdevicecontrol-getserviceobject
+                - name: Метод Initialize
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpdevicecontrol-initialize
+            - name: иупнпдевицепровидер
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpdeviceprovider
+              items:
+                - name: Метод Start
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpdeviceprovider-start
+                - name: Метод Stop
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpdeviceprovider-stop
+            - name: иупнпевентсинк
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpeventsink
+              items:
+                - name: Метод Онстатечанжед
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsink-onstatechanged
+                - name: Метод Онстатечанжедсафе
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsink-onstatechangedsafe
+            - name: иупнпевентсаурце
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpeventsource
+              items:
+                - name: Метод advise
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsource-advise
+                - name: Метод unadvise
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsource-unadvise
+            - name: иупнпрегистрар
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpregistrar
+              items:
+                - name: Метод Жетуникуедевиценаме
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-getuniquedevicename
+                - name: Метод RegisterDevice
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-registerdevice
+                - name: Метод Регистердевицепровидер
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-registerdeviceprovider
+                - name: Метод Регистерруннингдевице
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice
+                - name: Метод Унрегистердевице
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-unregisterdevice
+                - name: Метод Унрегистердевицепровидер
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-unregisterdeviceprovider
+            - name: иупнпремотиндпоинтинфо
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpremoteendpointinfo
+              items:
+                - name: Метод Жетдвордвалуе
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpremoteendpointinfo-getdwordvalue
+                - name: Метод Жетгуидвалуе
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpremoteendpointinfo-getguidvalue
+                - name: Метод GetStringValue
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpremoteendpointinfo-getstringvalue
+            - name: иупнпререгистрар
+              href: /windows/desktop/api/Upnphost/nn-upnphost-iupnpreregistrar
+              items:
+                - name: Метод Ререгистердевице
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpreregistrar-reregisterdevice
+                - name: Метод Ререгистерруннингдевице
+                  href: /windows/desktop/api/Upnphost/nf-upnphost-iupnpreregistrar-reregisterrunningdevice
+    - name: Глоссарий
+      href: glossary-gly.md
+      items:
+        - name: Объект
+          href: a-gly.md
+        - name: C
+          href: c-gly.md
+        - name: D
+          href: d-gly.md
+        - name: E
+          href: e-gly.md
+        - name: H
+          href: h-gly.md
+        - name: Нет
+          href: n-gly.md
+        - name: С
+          href: p-gly.md
+        - name: R
+          href: r-gly.md
+        - name: S
+          href: s-gly.md
+        - name: U
+          href: u-gly.md
