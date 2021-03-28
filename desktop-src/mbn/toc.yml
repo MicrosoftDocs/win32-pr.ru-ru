@@ -1,0 +1,805 @@
+- name: Широкополосное мобильное подключение
+  href: mobile-broadband-networks-portal.md
+  items:
+    - name: Рекомендации по API мобильного широкополосного подключения
+      href: mobile-broadband-best-practices.md
+    - name: Справочник по API мобильного широкополосного подключения
+      href: mobile-broadband-networks-api-reference.md
+      items:
+        - name: Перечисления API мобильного широкополосного подключения
+          href: mobile-broadband-networks-api-enumerations.md
+          items:
+            - name: MBN_ACTIVATION_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_activation_state
+            - name: MBN_AUTH_PROTOCOL
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_auth_protocol
+            - name: MBN_BAND_CLASS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_band_class
+            - name: MBN_CELLULAR_CLASS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class
+            - name: MBN_COMPRESSION
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_compression
+            - name: MBN_CONNECTION_MODE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_connection_mode
+            - name: MBN_CONTEXT_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_context_constants
+            - name: MBN_CONTEXT_TYPE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_context_type
+            - name: MBN_CTRL_CAPS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_ctrl_caps
+            - name: MBN_DATA_CLASS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_data_class
+            - name: MBN_DEVICE_SERVICES_INTERFACE_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_device_services_interface_state
+            - name: MBN_INTERFACE_CAPS_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_interface_caps_constants
+            - name: MBN_MSG_STATUS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_msg_status
+            - name: MBN_PIN_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_constants
+            - name: MBN_PIN_FORMAT
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_format
+            - name: MBN_PIN_MODE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_mode
+            - name: MBN_PIN_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_state
+            - name: MBN_PIN_TYPE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_pin_type
+            - name: MBN_PROVIDER_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_provider_constants
+            - name: MBN_PROVIDER_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_provider_state
+            - name: MBN_RADIO
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_radio
+            - name: MBN_READY_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_ready_state
+            - name: MBN_REGISTER_MODE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_register_mode
+            - name: MBN_REGISTER_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_register_state
+            - name: MBN_REGISTRATION_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_registration_constants
+            - name: MBN_SIGNAL_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_signal_constants
+            - name: MBN_SMS_CAPS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_caps
+            - name: MBN_SMS_CDMA_ENCODING
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_encoding
+            - name: MBN_SMS_CDMA_LANG
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_lang
+            - name: MBN_SMS_CONSTANTS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-wwaext_sms_constants
+            - name: MBN_SMS_FLAG
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_flag
+            - name: MBN_SMS_FORMAT
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_format
+            - name: MBN_SMS_STATUS_FLAG
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_status_flag
+            - name: MBN_VOICE_CALL_STATE
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_voice_call_state
+            - name: MBN_VOICE_CLASS
+              href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_voice_class
+        - name: Интерфейсы API мобильного широкополосного подключения
+          href: mobile-broadband-networks-api-interfaces.md
+          items:
+            - name: имбнконнектион
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection
+              items:
+                - name: Метод Connect
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-connect
+                - name: Метод Disconnect
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-disconnect
+                - name: Метод Жетактиватионнетворкеррор
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getactivationnetworkerror
+                - name: Метод Жетконнектионстате
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getconnectionstate
+                - name: Метод Жетвоицекаллстате
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getvoicecallstate
+                - name: 'ConnectionID, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-get_connectionid
+                - name: 'InterfaceID, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-get_interfaceid
+            - name: имбнконнектионконтекст
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext
+              items:
+                - name: Метод Жетпровисионедконтекстс
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontext-getprovisionedcontexts
+                - name: Метод Сетпровисионедконтекст
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontext-setprovisionedcontext
+            - name: имбнконнектионконтекстевентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents
+              items:
+                - name: Метод Онпровисионедконтекстлистчанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onprovisionedcontextlistchange
+                - name: Метод Онсетпровисионедконтексткомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onsetprovisionedcontextcomplete
+            - name: имбнконнектионевентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents
+              items:
+                - name: Метод Онконнекткомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectcomplete
+                - name: Метод Онконнектстатечанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectstatechange
+                - name: Метод Ондисконнекткомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-ondisconnectcomplete
+                - name: Метод Онвоицекаллстатечанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onvoicecallstatechange
+            - name: имбнконнектионманажер
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanager
+              items:
+                - name: Метод соединения
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanager-getconnection
+                - name: Метод соединений
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanager-getconnections
+            - name: имбнконнектионманажеревентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanagerevents
+              items:
+                - name: Метод Онконнектионарривал
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanagerevents-onconnectionarrival
+                - name: Метод Онконнектионремовал
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionmanagerevents-onconnectionremoval
+            - name: имбнконнектионпрофиле
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile
+              items:
+                - name: Метод Delete
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-delete
+                - name: Метод Жетпрофилексмлдата
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-getprofilexmldata
+                - name: Метод Упдатепрофиле
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-updateprofile
+            - name: имбнконнектионпрофиливентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofileevents
+              items:
+                - name: Метод Онпрофилеупдате
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofileevents-onprofileupdate
+            - name: имбнконнектионпрофилеманажер
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager
+              items:
+                - name: Метод Креатеконнектионпрофиле
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-createconnectionprofile
+                - name: Метод Жетконнектионпрофиле
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofile
+                - name: Метод Жетконнектионпрофилес
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofiles
+            - name: имбнконнектионпрофилеманажеревентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents
+              items:
+                - name: Метод Онконнектионпрофилеарривал
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofilearrival
+                - name: Метод Онконнектионпрофилеремовал
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofileremoval
+            - name: имбндевицесервице
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice
+              items:
+                - name: Метод Куерисуппортедкоммандс
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querysupportedcommands
+                - name: Метод Опенкоммандсессион
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opencommandsession
+                - name: Метод Клосекоммандсессион
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closecommandsession
+                - name: Метод Сеткомманд
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-setcommand
+                - name: Метод Куерикомманд
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querycommand
+                - name: Метод Опендатасессион
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opendatasession
+                - name: Метод Клоседатасессион
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closedatasession
+                - name: Метод WriteData
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-writedata
+                - name: 'Исдатасессионопен, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_isdatasessionopen
+                - name: 'InterfaceID, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_interfaceid
+                - name: 'Девицесервицеид, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_deviceserviceid
+                - name: 'Искоммандсессионопен, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_iscommandsessionopen
+            - name: имбндевицесервицесконтекст
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext
+              items:
+                - name: Метод Енумератедевицесервицес
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-enumeratedeviceservices
+                - name: Метод Жетдевицесервице
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-getdeviceservice
+                - name: 'Макскоммандсизе, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxcommandsize
+                - name: 'Максдатасизе, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxdatasize
+            - name: имбндевицесервицесевентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents
+              items:
+                - name: Метод Онкуерисуппортедкоммандскомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onquerysupportedcommandscomplete
+                - name: Метод Онопенкоммандсессионкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopencommandsessioncomplete
+                - name: Метод Онклосекоммандсессионкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosecommandsessioncomplete
+                - name: Метод Онсеткоммандкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onsetcommandcomplete
+                - name: Метод Онкуерикоммандкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onquerycommandcomplete
+                - name: Метод Оневентнотификатион
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oneventnotification
+                - name: Метод Онопендатасессионкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopendatasessioncomplete
+                - name: Метод Онклоседатасессионкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosedatasessioncomplete
+                - name: Метод Онвритедатакомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onwritedatacomplete
+                - name: Метод Онреаддата
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onreaddata
+                - name: Метод Онинтерфацестатечанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-oninterfacestatechange
+            - name: имбндевицесервицесманажер
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesmanager
+              items:
+                - name: Метод Жетдевицесервицесконтекст
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesmanager-getdeviceservicescontext
+            - name: имбнинтерфаце
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterface
+              items:
+                - name: Метод соединения
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getconnection
+                - name: Метод Жетинтерфацекапабилити
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getinterfacecapability
+                - name: Метод Жесомепровидер
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-gethomeprovider
+                - name: Метод Жетпреферредпровидерс
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getpreferredproviders
+                - name: Метод Жетреадистате
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getreadystate
+                - name: Метод Жетсубскриберинформатион
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getsubscriberinformation
+                - name: Метод Жетвисиблепровидерс
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getvisibleproviders
+                - name: Метод Инемерженцимоде
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-inemergencymode
+                - name: Метод Сканнетворк
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-scannetwork
+                - name: Метод Сетпреферредпровидерс
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-setpreferredproviders
+                - name: 'InterfaceID, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-get_interfaceid
+            - name: имбнинтерфацеевентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents
+              items:
+                - name: Метод Онемерженцимодечанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onemergencymodechange
+                - name: Метод Онинтерфацекапабилитяваилабле
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-oninterfacecapabilityavailable
+                - name: Метод Онхомепровидераваилабле
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onhomeprovideravailable
+                - name: Метод Онпреферредпровидерсчанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onpreferredproviderschange
+                - name: Метод OnReadyStateChange
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onreadystatechange
+                - name: Метод Онсетпреферредпровидерскомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onsetpreferredproviderscomplete
+                - name: Метод Онсканнетворккомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onscannetworkcomplete
+                - name: Метод Онсубскриберинформатиончанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onsubscriberinformationchange
+            - name: имбнинтерфацеманажер
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanager
+              items:
+                - name: Метод GetInterface
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanager-getinterface
+                - name: Метод WebMethod
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanager-getinterfaces
+            - name: имбнинтерфацеманажеревентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanagerevents
+              items:
+                - name: Метод Онинтерфацеарривал
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanagerevents-oninterfacearrival
+                - name: Метод Онинтерфацеремовал
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanagerevents-oninterfaceremoval
+            - name: имбнмултикарриер
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier
+              items:
+                - name: Метод Сесомепровидер
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-sethomeprovider
+                - name: Метод Жетпреферредпровидерс
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getpreferredproviders
+                - name: Метод Жетвисиблепровидерс
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders
+                - name: Метод Жетсуппортедцеллуларклассес
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getsupportedcellularclasses
+                - name: Метод Жеткуррентцеллуларкласс
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getcurrentcellularclass
+                - name: Метод Сканнетворк
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-scannetwork
+            - name: имбнмултикарриеревентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents
+              items:
+                - name: Метод Онсесомепровидеркомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onsethomeprovidercomplete
+                - name: Метод Онкуррентцеллуларклассчанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-oncurrentcellularclasschange
+                - name: Метод Онинтерфацекапабилитичанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-oninterfacecapabilitychange
+                - name: Метод Онпреферредпровидерсчанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onpreferredproviderschange
+                - name: Метод Онсканнетворккомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onscannetworkcomplete
+            - name: имбнпин
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpin
+              items:
+                - name: Изменение метода
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-change
+                - name: 'Disable, метод'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-disable
+                - name: 'Enable, метод'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enable
+                - name: Метод Enter
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enter
+                - name: Метод Жетпинманажер
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-getpinmanager
+                - name: Метод Unblock
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock
+                - name: 'Пинформат, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinformat
+                - name: 'Пинленгсмакс, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinlengthmax
+                - name: 'Пинленгсмин, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinlengthmin
+                - name: 'Пинмоде, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinmode
+                - name: 'Пинтипе, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pintype
+            - name: имбнпиневентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpinevents
+              items:
+                - name: Метод Ончанжекомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onchangecomplete
+                - name: Метод Ондисаблекомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-ondisablecomplete
+                - name: Метод Оненаблекомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onenablecomplete
+                - name: Метод Онентеркомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onentercomplete
+                - name: Метод Онунблокккомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onunblockcomplete
+            - name: имбнпинманажер
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager
+              items:
+                - name: Метод Жетпин
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpin
+                - name: Метод Жетпинлист
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinlist
+                - name: Метод Жетпинстате
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinstate
+            - name: имбнпинманажеревентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanagerevents
+              items:
+                - name: Метод Онжетпинстатекомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanagerevents-ongetpinstatecomplete
+                - name: Метод Онпинлиставаилабле
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanagerevents-onpinlistavailable
+            - name: имбнрадио
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnradio
+              items:
+                - name: Метод Сетсофтварерадиостате
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradio-setsoftwareradiostate
+                - name: 'Хардварерадиостате, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradio-get_hardwareradiostate
+                - name: 'Софтварерадиостате, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradio-get_softwareradiostate
+            - name: имбнрадиоевентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents
+              items:
+                - name: Метод Онрадиостатечанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onradiostatechange
+                - name: Метод Онсетсофтварерадиостатекомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onsetsoftwareradiostatecomplete
+            - name: имбнрегистратион
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration
+              items:
+                - name: Метод Жетаваилабледатаклассес
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getavailabledataclasses
+                - name: Метод Жеткуррентдатакласс
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getcurrentdataclass
+                - name: Метод Жетпаккетаттачнетворкеррор
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getpacketattachnetworkerror
+                - name: Метод Жетпровидерид
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getproviderid
+                - name: Метод Жетпровидернаме
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getprovidername
+                - name: Метод Жетрегистермоде
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistermode
+                - name: Метод Жетрегистерстате
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregisterstate
+                - name: Метод Жетрегистратионнетворкеррор
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistrationnetworkerror
+                - name: Метод Жетроамингтекст
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getroamingtext
+                - name: Метод Сетрегистермоде
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-setregistermode
+            - name: имбнрегистратионевентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents
+              items:
+                - name: Метод Онпаккетсервицестатечанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onpacketservicestatechange
+                - name: Метод Онрегистермодеаваилабле
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregistermodeavailable
+                - name: Метод Онрегистерстатечанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onregisterstatechange
+                - name: Метод Онсетрегистермодекомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onsetregistermodecomplete
+            - name: имбнсервицеактиватион
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivation
+              items:
+                - name: Метод Activate
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnserviceactivation-activate
+            - name: имбнсервицеактиватионевентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivationevents
+              items:
+                - name: Метод Онактиватионкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnserviceactivationevents-onactivationcomplete
+            - name: имбнсигнал
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal
+              items:
+                - name: Метод Жетсигналеррор
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalerror
+                - name: Метод Жетсигналстренгс
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalstrength
+            - name: имбнсигналевентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents
+              items:
+                - name: Метод Онсигналстатечанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange
+            - name: имбнсмс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsms
+              items:
+                - name: Метод Жетсмсконфигуратион
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsconfiguration
+                - name: Метод Жетсмсстатус
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsstatus
+                - name: Метод Сетсмсконфигуратион
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-setsmsconfiguration
+                - name: Метод Смсделете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsdelete
+                - name: Метод Смсреад
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsread
+                - name: Метод Смссендкдма
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdma
+                - name: Метод Смссендкдмапду
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdmapdu
+                - name: Метод Смссендпду
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendpdu
+            - name: имбнсмсконфигуратион
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration
+              items:
+                - name: 'Кдмашортмсгсизе, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_cdmashortmsgsize
+                - name: 'Максмессажеиндекс, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_maxmessageindex
+                - name: 'Сервицецентераддресс, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_servicecenteraddress
+                - name: 'Смсформат, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsconfiguration-get_smsformat
+            - name: имбнсмсевентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents
+              items:
+                - name: Метод Онсетсмсконфигуратионкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsetsmsconfigurationcomplete
+                - name: Метод Онсмсконфигуратиончанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsconfigurationchange
+                - name: Метод Онсмсделетекомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsdeletecomplete
+                - name: Метод OnSmsNewClass0Message
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsnewclass0message
+                - name: Метод Онсмсреадкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsreadcomplete
+                - name: Метод Онсмссендкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmssendcomplete
+                - name: Метод Онсмсстатусчанже
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsstatuschange
+            - name: имбнсмсреадмсгпду
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu
+              items:
+                - name: Свойство Index
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_index
+                - name: Свойство сообщения
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_message
+                - name: 'Пдудата, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_pdudata
+                - name: Свойство Status
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_status
+            - name: имбнсмсреадмсгтексткдма
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma
+              items:
+                - name: Свойство Address
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_address
+                - name: 'Енкодингид, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_encodingid
+                - name: Свойство Index
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_index
+                - name: 'LanguageID, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_languageid
+                - name: Свойство сообщения
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_message
+                - name: 'Сизеинчарактерс, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_sizeincharacters
+                - name: Свойство Status
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_status
+                - name: Свойство Timestamp
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgtextcdma-get_timestamp
+            - name: имбнсубскриберинформатион
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation
+              items:
+                - name: 'СимикЦид, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_simiccid
+                - name: 'Субскриберид, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_subscriberid
+                - name: 'Телефоненумберс, свойство'
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_telephonenumbers
+            - name: имбнвендорспеЦифицевентс
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificevents
+              items:
+                - name: Метод Оневентнотификатион
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificevents-oneventnotification
+                - name: Метод ОнсетвендорспеЦификкомплете
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificevents-onsetvendorspecificcomplete
+            - name: имбнвендорспеЦификоператион
+              href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificoperation
+              items:
+                - name: Метод СетвендорспеЦифик
+                  href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificoperation-setvendorspecific
+        - name: Структуры API мобильного широкополосного подключения
+          href: mobile-broadband-networks-api-structures.md
+          items:
+            - name: MBN_CONTEXT
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_context
+            - name: MBN_DEVICE_SERVICE
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_device_service
+            - name: MBN_INTERFACE_CAPS
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps
+            - name: MBN_PIN_INFO
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_pin_info
+            - name: MBN_PROVIDER
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider
+            - name: MBN_PROVIDER2
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider2
+            - name: MBN_SMS_FILTER
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_filter
+            - name: MBN_SMS_STATUS_INFO
+              href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_status_info
+    - name: Справочник по схеме профиля мобильного широкополосного подключения
+      href: schema-schema.md
+      items:
+        - name: Схема профиля мобильного широкополосного подключения v1
+          href: mobile-broadband-profile-schema.md
+          items:
+            - name: Элементы схемы профиля мобильного широкополосного подключения v1
+              href: schema-elements.md
+              items:
+                - name: 'Акцессстринг (contextType), элемент'
+                  href: schema-accessstring-contexttype-element.md
+                - name: 'Ауспротокол (contextType), элемент'
+                  href: schema-authprotocol-contexttype-element.md
+                - name: 'Аутоконнектонинтернет (Мбнпрофиле), элемент'
+                  href: schema-autoconnectoninternet-mbnprofile-element.md
+                - name: Элемент Compression (contextType)
+                  href: schema-compression-contexttype-element.md
+                - name: 'ConnectionMode (Мбнпрофиле), элемент'
+                  href: schema-connectionmode-mbnprofile-element.md
+                - name: Элемент context (Мбнпрофиле)
+                  href: schema-context-mbnprofile-element.md
+                - name: 'Датароамингпартнерс (Мбнпрофиле), элемент'
+                  href: schema-dataroamingpartners-mbnprofile-element.md
+                - name: Элемент Description (Мбнпрофиле)
+                  href: schema-description-mbnprofile-element.md
+                - name: 'Хомепровидернаме (Мбнпрофиле), элемент'
+                  href: schema-homeprovidername-mbnprofile-element.md
+                - name: 'Иконфилепас (Мбнпрофиле), элемент'
+                  href: schema-iconfilepath-mbnprofile-element.md
+                - name: 'Игнорепассворд (Усерлогонкред), элемент'
+                  href: schema-ignorepassword-userlogoncred-element.md
+                - name: 'Default (Мбнпрофиле), элемент'
+                  href: schema-isdefault-mbnprofile-element.md
+                - name: 'Мбнпрофиле, элемент'
+                  href: schema-mbnprofile-element.md
+                - name: Элемент Name (Мбнпрофиле)
+                  href: schema-name-mbnprofile-element.md
+                - name: 'Password (Усерлогонкред), элемент'
+                  href: schema-password-userlogoncred-element.md
+                - name: 'Профилекреатионтипе (Мбнпрофиле), элемент'
+                  href: schema-profilecreationtype-mbnprofile-element.md
+                - name: Элемент Provider (Датароамингпартнерс)
+                  href: schema-provider-dataroamingpartners-element.md
+                - name: Элемент ProviderID (providerType)
+                  href: schema-providerid-providertype-element.md
+                - name: Элемент ProviderName (providerType)
+                  href: schema-providername-providertype-element.md
+                - name: 'СимикЦид (Мбнпрофиле), элемент'
+                  href: schema-simiccid-mbnprofile-element.md
+                - name: 'Субскриберид (Мбнпрофиле), элемент'
+                  href: schema-subscriberid-mbnprofile-element.md
+                - name: 'Усерлогонкред (contextType), элемент'
+                  href: schema-userlogoncred-contexttype-element.md
+                - name: Элемент UserName (Усерлогонкред)
+                  href: schema-username-userlogoncred-element.md
+            - name: Простые типы схемы профиля мобильного широкополосного подключения v1
+              href: schema-simple-types.md
+              items:
+                - name: Простой тип Иконфилетипе
+                  href: schema-iconfiletype-simpletype.md
+                - name: Простой тип Наметипе
+                  href: schema-nametype-simpletype.md
+                - name: Простой тип Провидеридтипе
+                  href: schema-provideridtype-simpletype.md
+                - name: Простой тип Провидернаметипе
+                  href: schema-providernametype-simpletype.md
+                - name: Простой тип СимикЦидтипе
+                  href: schema-simiccidtype-simpletype.md
+                - name: Простой тип Субскриберидтипе
+                  href: schema-subscriberidtype-simpletype.md
+            - name: Сложные типы схемы профиля мобильной широкополосной связи v1
+              href: schema-complex-types.md
+              items:
+                - name: Сложный тип contextType
+                  href: schema-contexttype-complextype.md
+                - name: Сложный тип providerType
+                  href: schema-providertype-complextype.md
+        - name: Схема профиля мобильного широкополосного подключения v2
+          href: mobile-broadband-profile-schema-v2.md
+          items:
+            - name: Элементы схемы профиля Mobile широкополосной сети v2
+              href: mobile-broadband-profile-schema-v2-elements.md
+              items:
+                - name: дисплайпровидернаме
+                  href: element-displayprovidername.md
+                - name: испурчасепрофиле
+                  href: element-ispurchaseprofile.md
+        - name: Схема профиля мобильного широкополосного подключения v3
+          href: mobile-broadband-profile-schema-v3.md
+          items:
+            - name: Элементы схемы профиля Mobile широкополосной сети v3
+              href: mobile-broadband-profile-schema-v3-elements.md
+              items:
+                - name: исаддитионалпдпконтекстпрофиле
+                  href: element-isadditionalpdpcontextprofile.md
+        - name: Схема профиля мобильного широкополосного подключения v4
+          href: schema-root.md
+          items:
+            - name: Элементы схемы профиля Mobile широкополосной сети v4
+              href: root-elements.md
+              items:
+                - name: MBNProfileExt
+                  href: element-mbnprofileext.md
+                  items:
+                    - name: Имя
+                      href: element-name.md
+                    - name: Описание
+                      href: element-description.md
+                    - name: иконфилепас
+                      href: element-iconfilepath.md
+                    - name: IsDefault
+                      href: element-isdefault.md
+                    - name: профилекреатионтипе
+                      href: element-profilecreationtype.md
+                    - name: субскриберид
+                      href: element-subscriberid.md
+                    - name: симикЦид
+                      href: element-simiccid.md
+                    - name: HomeProviderName
+                      href: element-homeprovidername.md
+                    - name: аутоконнектонинтернет
+                      href: element-autoconnectoninternet.md
+                    - name: ConnectionMode
+                      href: element-connectionmode.md
+                    - name: Контекст
+                      href: element-context.md
+                      items:
+                        - name: AccessString
+                          href: element-accessstring.md
+                        - name: UserLogonCred
+                          href: element-userlogoncred.md
+                          items:
+                            - name: UserName
+                              href: element-username.md
+                            - name: игнорепассворд
+                              href: element-ignorepassword.md
+                            - name: Пароль
+                              href: element-password.md
+                        - name: сжатие;
+                          href: element-compression.md
+                        - name: AuthProtocol
+                          href: element-authprotocol.md
+                        - name: IPType
+                          href: element-iptype.md
+                    - name: DataRoamingPartners
+                      href: element-dataroamingpartners.md
+                      items:
+                        - name: Поставщик
+                          href: element-provider.md
+                    - name: пурпосеграупс
+                      href: element-purposegroups.md
+                      items:
+                        - name: пурпосеграупгуид
+                          href: element-purposegroupguid.md
+                    - name: профилекондитионедон
+                      href: element-profileconditionedon.md
+                      items:
+                        - name: целлуларкласс
+                          href: element-cellularclass.md
+                        - name: ратаппликабилити
+                          href: element-ratapplicability.md
+                        - name: роамаппликабилити
+                          href: element-roamapplicability.md
+                        - name: IMSI
+                          href: element-imsi.md
+                        - name: ивланаппликабилити
+                          href: element-iwlanapplicability.md
+                    - name: испровисионингпрофиле
+                      href: element-isprovisioningprofile.md
+                    - name: апнид
+                      href: element-apnid.md
+                    - name: админенабле
+                      href: element-adminenable.md
+                    - name: админроамконтрол
+                      href: element-adminroamcontrol.md
+                    - name: исексклусиветусер
+                      href: element-isexclusivetoother.md
+                    - name: ислонгстандингаддитионалпдпконтекстпрофиле
+                      href: element-islongstandingadditionalpdpcontextprofile.md
+                    - name: ммсконфигуратион
+                      href: element-mmsconfiguration.md
+                      items:
+                        - name: MmscUrl
+                          href: element-mmscurl.md
+                        - name: MmscPort
+                          href: element-mmscport.md
+                        - name: MmsMaximumMessageSize
+                          href: element-mmsmaximummessagesize.md
+                - name: ModemDMConfigProfile
+                  href: element-modemdmconfigprofile.md
+                  items:
+                    - name: Имя
+                      href: element-1-name.md
+                    - name: симикЦид
+                      href: element-1-simiccid.md
+                    - name: апнид
+                      href: element-1-apnid.md
+                    - name: оемконнектионид
+                      href: element-oemconnectionid.md
+                    - name: роамаппликабилити
+                      href: element-1-roamapplicability.md
+                    - name: Контекст
+                      href: element-1-context.md
+                      items:
+                        - name: AccessString
+                          href: element-1-accessstring.md
+                        - name: UserLogonCred
+                          href: element-1-userlogoncred.md
+                          items:
+                            - name: UserName
+                              href: element-1-username.md
+                            - name: игнорепассворд
+                              href: element-1-ignorepassword.md
+                            - name: Пароль
+                              href: element-1-password.md
+                        - name: сжатие;
+                          href: element-1-compression.md
+                        - name: AuthProtocol
+                          href: element-1-authprotocol.md
+                        - name: IPType
+                          href: element-1-iptype.md
+                    - name: админенабле
+                      href: element-1-adminenable.md
+                    - name: админроамконтрол
+                      href: element-1-adminroamcontrol.md
+                    - name: профилекреатионтипе
+                      href: element-1-profilecreationtype.md
+            - name: Простые типы схемы профиля мобильного широкополосного подключения v4
+              href: simple-types.md
+              items:
+                - name: Простой тип Гуидтипе
+                  href: simpletype-guidtype.md
+                - name: Простой тип Ивланаппликабилититипе
+                  href: simpletype-iwlanapplicabilitytype.md
+                - name: Простой тип Роамаппликабилититипе
+                  href: simpletype-roamapplicabilitytype.md
+                - name: Простой тип Роамконтролтипе
+                  href: simpletype-roamcontroltype.md
