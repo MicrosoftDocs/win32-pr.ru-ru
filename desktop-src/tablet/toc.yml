@@ -1,0 +1,3068 @@
+- name: Планшетный ПК
+  href: tablet-pc-development-guide.md
+  items:
+    - name: Приступая к работе
+      href: getting-started.md
+      items:
+        - name: Журнал платформы Tablet PC
+          href: tablet-pc-platform-history.md
+        - name: Новые возможности разработки для планшетных ПК
+          href: what-s-new-in-tablet-pc-development.md
+        - name: Среда разработки
+          href: the-development-environment.md
+        - name: Ссылка на пакет SDK из Microsoft Visual Studio
+          href: referencing-the-sdk-from-microsoft-visual-studio.md
+          items:
+            - name: Версия библиотеки для ссылки
+              href: which-library-version-to-reference.md
+            - name: Управляемая библиотека и элементы управления (планшетный ПК)
+              href: managed-library-and-controls--tablet-pc.md
+            - name: Windows Presentation Foundation (планшетный ПК)
+              href: windows-presentation-foundation--tablet-pc.md
+            - name: Библиотека COM и элементы ActiveX (планшетный ПК)
+              href: com-library-and-activex-controls--tablet-pc.md
+        - name: Вопросы и ответы
+          href: frequently-asked-questions.md
+    - name: Программирование для планшетных ПК
+      href: programming-the-tablet-pc.md
+      items:
+        - name: О распознавании рукописного текста
+          href: about-handwriting-recognition.md
+          items:
+            - name: Распознаватели текста
+              href: text-recognizers.md
+            - name: Распознаватели объектов
+              href: object-recognizers.md
+            - name: Использование коллекции распознавателей
+              href: using-the-recognizers-collection.md
+            - name: Контекст распознавателя
+              href: recognizer-context.md
+            - name: Использование контекста для повышения точности
+              href: using-context-to-improve-accuracy.md
+              items:
+                - name: Использование контекста платформой Tablet PC
+                  href: how-the-tablet-pc-platform-uses-context.md
+                  items:
+                    - name: О языковых моделях
+                      href: about-language-models.md
+                    - name: Области ввода и Фактоидс
+                      href: input-scopes-and-factoids.md
+                    - name: Словари и списки фраз
+                      href: dictionaries-and-phrase-lists.md
+                - name: Настройка контекста с помощью API-интерфейсов Сетинпутскопе
+                  href: setting-context-with-the-setinputscope-apis.md
+                - name: Настройка контекста для элементов управления Ink-Enabled
+                  href: setting-context-for-ink-enabled-controls.md
+                - name: Настройка контекста для безоконных элементов управления
+                  href: setting-context-for-windowless-controls.md
+                - name: Пользовательские области ввода с регулярными выражениями
+                  href: custom-input-scopes-with-regular-expressions.md
+                  items:
+                    - name: Справочник по синтаксису регулярных выражений
+                      href: regular-expression-syntax-reference.md
+                    - name: Примеры регулярных выражений
+                      href: regular-expression-examples.md
+                - name: Поддерживаемые Фактоидс из версии 1
+                  href: supported-factoids-from-version-1.md
+                  items:
+                    - name: 'Фактоидс, общие для разных языков'
+                      href: factoids-common-across-languages.md
+                    - name: Фактоидс для западных языков
+                      href: factoids-for-western-languages.md
+                      items:
+                        - name: Английский (США) Фактоидс
+                          href: english--united-states--factoids.md
+                        - name: Английский (по всему миру) Фактоидс
+                          href: english--worldwide--factoids.md
+                        - name: Французский Фактоидс
+                          href: french-factoids.md
+                        - name: Немецкий Фактоидс
+                          href: german-factoids.md
+                        - name: Испанская Фактоидс
+                          href: spanish-factoids.md
+                    - name: Фактоидс для восточно-азиатских языков
+                      href: factoids-for-east-asian-languages.md
+                      items:
+                        - name: Японская Фактоидс
+                          href: japanese-factoids.md
+                        - name: Китайский (упрощенное письмо) Фактоидс
+                          href: chinese--simplified--factoids.md
+                        - name: Китайский (традиционное письмо) Фактоидс
+                          href: chinese--traditional--factoids.md
+                        - name: Корейский Фактоидс
+                          href: korean-factoids.md
+            - name: Словари и Фактоидс
+              href: dictionaries-and-factoids.md
+            - name: Сегменты распознавания
+              href: recognition-segments.md
+            - name: Распознавание повернутого текста
+              href: recognition-of-angled-text.md
+            - name: Поддержка переупорядочивания перьев распознавателя
+              href: recognizer-stroke-reordering-support.md
+            - name: Использование словарей приложений
+              href: using-application-dictionaries.md
+              items:
+                - name: 'Общие сведения о списках слов, контексте распознавателя и Фактоидс'
+                  href: understanding-wordlists--the-recognizercontext--and-factoids.md
+                - name: Использование словарей приложений с интерфейсами API платформы Tablet PC
+                  href: using-application-dictionaries-with-the-tablet-pc-platform-apis.md
+                - name: Создание пользовательских словарей для распознавания рукописного текста в Windows 7 и Windows Server 2008 R2
+                  href: creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2.md
+            - name: 'Свойство достоверности [о распознавании'
+              href: confidence-property--about-recognition.md
+            - name: Варианты
+              href: alternates.md
+            - name: Сегменты и варианты рукописного ввода
+              href: ink-segments-and-alternates.md
+            - name: Создание распознавателя
+              href: creating-a-recognizer.md
+              items:
+                - name: Архитектура API распознавания
+                  href: recognition-api-architecture.md
+                - name: ХРЕКОГНИЗЕР и ХРЕКОКОНТЕКСТ
+                  href: hrecognizer-and-hrecocontext.md
+                - name: Структура Lattice распознавателя
+                  href: recognizer-lattice-structure.md
+                - name: Регистрация библиотеки DLL распознавателя
+                  href: registering-your-recognizer-dll.md
+                - name: Рекомендации по потокам распознавателя
+                  href: recognizer-threading-considerations.md
+                - name: Типичная последовательность вызовов
+                  href: typical-calling-sequence.md
+                - name: Пример шаблона библиотеки DLL распознавателя
+                  href: recognizer-dll-sample-template.md
+                - name: Значения диапазона Юникода для жестов
+                  href: unicode-range-values-of-gestures.md
+        - name: Доступ к вводу пера и управление им
+          href: accessing-and-manipulating-stylus-input.md
+          items:
+            - name: Архитектура API-интерфейсов Стилусинпут
+              href: architecture-of-the-stylusinput-apis.md
+            - name: Работа с API-интерфейсами Стилусинпут
+              href: working-with-the-stylusinput-apis.md
+              items:
+                - name: Работа с классом RealTimeStylus
+                  href: working-with-the-realtimestylus-class.md
+                - name: Подключаемые модули и класс RealTimeStylus
+                  href: plug-ins-and-the-realtimestylus-class.md
+                - name: Данные подключаемого модуля и класс RealTimeStylus
+                  href: plug-in-data-and-the-realtimestylus-class.md
+                - name: Примечания по реализации для API-интерфейсов Стилусинпут
+                  href: implementation-notes-for-the-stylusinput-apis.md
+                - name: Подключаемые модули Ink-Collection
+                  href: ink-collection-plug-ins.md
+                - name: Подключаемые модули Dynamic-Renderer
+                  href: dynamic-renderer-plug-ins.md
+                - name: Подключаемые модули распознавателя
+                  href: recognizer-plug-ins.md
+            - name: Рекомендации по использованию API Стилусинпут
+              href: considerations-when-using-the-stylusinput-apis.md
+              items:
+                - name: Рекомендации по проектированию для API Стилусинпут
+                  href: design-considerations-for-the-stylusinput-apis.md
+                - name: Рекомендации по потокам для API Стилусинпут
+                  href: threading-considerations-for-the-stylusinput-apis.md
+                - name: Модель каскадного RealTimeStylus
+                  href: the-cascaded-realtimestylus-model.md
+                - name: Рекомендации по обработке ошибок для API Стилусинпут
+                  href: error-handling-considerations-for-the-stylusinput-apis.md
+                - name: Рекомендации по производительности для API Стилусинпут
+                  href: performance-considerations-for-the-stylusinput-apis.md
+                - name: Рекомендации по частичному доверию для API Стилусинпут
+                  href: partial-trust-considerations-for-the-stylusinput-apis.md
+        - name: Создание распространяемой программы установки
+          href: creating-a-redistributable-setup.md
+        - name: 'Определение того, является ли компьютер планшетным ПК'
+          href: determining-whether-a-pc-is-a-tablet-pc.md
+        - name: Стирание рукописного ввода с помощью пера
+          href: erasing-ink-with-the-pen.md
+          items:
+            - name: Стирание с помощью объекта InkOverlay
+              href: erasing-by-using-the-inkoverlay-object.md
+            - name: Стирание с помощью пера
+              href: erasing-by-using-the-pen.md
+        - name: Анализ рукописного ввода
+          href: ink-analysis-overview.md
+          items:
+            - name: Использование API анализа рукописного ввода
+              href: ink-analysis-api-usage.md
+            - name: Базовый анализ и распознавание рукописного текста
+              href: basic-recognition-and-ink-analysis.md
+            - name: Прокси-сервер данных с анализом рукописного ввода
+              href: data-proxy-with-ink-analysis.md
+            - name: Поток событий прокси-сервера данных
+              href: data-proxy-event-flow.md
+            - name: Объект разделителя
+              href: the-divider-object.md
+              items:
+                - name: Рукописный оценке с помощью объекта разделителя
+                  href: ink-analyis-with-the-divider-object.md
+                - name: Анализ макета
+                  href: layout-analysis.md
+                - name: Работа с объектом разделителя
+                  href: working-with-the-divider-object.md
+                - name: Работа с объектом Дивисионресулт
+                  href: working-with-the-divisionresult-object.md
+                - name: Работа с объектом Дивисионунит
+                  href: working-with-the-divisionunit-object.md
+                - name: Работа с коллекцией штрихов
+                  href: working-with-a-strokes-collection.md
+                - name: Работа с контекстом распознавателя
+                  href: working-with-a-recognizer-context.md
+                - name: Другие аспекты использования разделителя
+                  href: other-divider-considerations.md
+        - name: Элементы управления рукописным вводом
+          href: ink-controls.md
+          items:
+            - name: Добавление элементов управления рукописного ввода в проект
+              href: adding-ink-controls-to-a-project.md
+            - name: Элемент управления InkEdit
+              href: inkedit-control.md
+              items:
+                - name: Создание экземпляра InkEdit
+                  href: instantiating-inkedit.md
+                - name: Сравнение слов и распознавания символов
+                  href: word-vs--character-recognition.md
+                - name: Отображение рукописного ввода в виде рукописного текста
+                  href: displaying-ink-as-ink.md
+                - name: Использование InkEdit в более ранних версиях Windows
+                  href: using-inkedit-on-earlier-versions-of-windows.md
+                - name: Использование словаря приложения с InkEdit
+                  href: using-an-application-dictionary-with-inkedit.md
+            - name: Элемент управления InkPicture
+              href: inkpicture-control.md
+              items:
+                - name: Работа с изображениями
+                  href: working-with-pictures.md
+                - name: Использование функции InkPicture в более ранних версиях Windows
+                  href: using-inkpicture-on-earlier-versions-of-windows.md
+        - name: Взаимодействие рукописного ввода
+          href: ink-interoperability.md
+          items:
+            - name: Форматы данных рукописного ввода
+              href: ink-data-formats.md
+            - name: Важные сценарии взаимодействия
+              href: important-interoperability-scenarios.md
+            - name: Форматы сохраняемости
+              href: persistence-formats.md
+            - name: Выбор поддерживаемых форматов
+              href: choosing-which-formats-to-support.md
+            - name: Стандартные блоки
+              href: building-blocks.md
+              items:
+                - name: Приемники и объекты Тинк
+                  href: sink-and-tink-objects.md
+            - name: Сохранение рукописного ввода в формате HTML
+              href: storing-ink-in-html.md
+        - name: Рукописный ввод в Интернете
+          href: ink-on-the-web.md
+          items:
+            - name: Без сенсорного развертывания
+              href: no-touch-deployment.md
+            - name: Веб-элементы управления
+              href: web-controls.md
+            - name: Ink-Enabled веб-приложений
+              href: ink-enabled-web-applications.md
+            - name: Безопасность и доверие
+              href: security-and-trust.md
+        - name: 'Ввод, ввод и распознавание с помощью пера'
+          href: pen-input--ink--and-recognition.md
+          items:
+            - name: Коллекция рукописных данных
+              href: ink-collection.md
+            - name: Рукописные данные
+              href: ink-data.md
+            - name: Распознавание рукописного ввода
+              href: ink-recognition.md
+            - name: Анализ рукописного ввода
+              href: ink-analysis.md
+            - name: Распознавание рукописного текста в Windows Server 2008 R2
+              href: handwriting-recognition-in-windows-server-2008-r2.md
+        - name: Программирование элемента управления математическими данными
+          href: programming-the-math-input-control.md
+          items:
+            - name: Создание элемента управления для математических входных данных
+              href: creating-a-math-input-control.md
+            - name: Настройка элемента управления Math input
+              href: customizing-the-math-input-control.md
+            - name: Получение входных данных из элемента управления математическими данными
+              href: receiving-input-from-the-math-input-control.md
+        - name: Программирование панели ввода текста
+          href: programming-the-text-input-panel.md
+          items:
+            - name: Текстинпутпанел для пользователей Пенинпутпанел
+              href: textinputpanel-for-users-of-peninputpanel.md
+            - name: Использование автозаполнения панели ввода
+              href: using-input-panel-autocomplete.md
+            - name: Включение исправления текста для пользовательских сборов рукописных данных
+              href: enabling-text-correction-for-custom-ink-collectors.md
+            - name: Программирование панели ввода с помощью класса Пенинпутпанел
+              href: programming-the-input-panel-using-the-peninputpanel-class.md
+              items:
+                - name: Сведения о панели ввода
+                  href: about-the-input-panel.md
+                - name: Создание экземпляра класса Пенинпутпанел
+                  href: instantiating-the-peninputpanel-class.md
+                  items:
+                    - name: Создание объекта Пенинпутпанел
+                      href: creating-a-peninputpanel-object.md
+                    - name: Использование Пенинпутпанел с полями со списком
+                      href: using-the-peninputpanel-with-combo-boxes.md
+                    - name: Отображение панели ввода
+                      href: displaying-the-input-panel.md
+                - name: Поддержка фактоид
+                  href: factoid-support.md
+                - name: инфраструктуры текстовых служб (TSF)
+                  href: text-services-framework.md
+                - name: Рекомендации
+                  href: best-practices.md
+        - name: Рекомендации по потокам для планшетных ПК
+          href: tablet-pc-threading-considerations.md
+          items:
+            - name: Общие рекомендации по потокам
+              href: general-threading-considerations.md
+            - name: Рекомендации по потокам управляемых библиотек
+              href: managed-library-threading-considerations.md
+            - name: Рекомендации по потокам COM и автоматизации
+              href: com-and-automation-threading-considerations.md
+            - name: 'Потоки, в которых может срабатывать событие'
+              href: threads-on-which-an-event-can-fire.md
+              items:
+                - name: События объектов рукописного ввода
+                  href: ink-object-events.md
+                - name: События объекта InkCollector
+                  href: inkcollector-object-events.md
+                - name: События элемента управления InkEdit
+                  href: inkedit-control-events.md
+                - name: События объекта InkOverlay
+                  href: inkoverlay-object-events.md
+                - name: События элемента управления InkPicture
+                  href: inkpicture-control-events.md
+                - name: События объекта Пенинпутпанел
+                  href: peninputpanel-object-events.md
+                - name: События объекта Рекогнизерконтекст
+                  href: recognizercontext-object-events.md
+                - name: События коллекции штрихов
+                  href: strokes-collection-events.md
+        - name: Поддержка ножниц в Windows Vista
+          href: snipping-tool-support-in-windows-vista.md
+        - name: Речь и специальные возможности
+          href: speech-and-accessibility.md
+          items:
+            - name: Использование Microsoft Active Accessibility
+              href: using-microsoft-active-accessibility.md
+            - name: Предоставление доступа к элементам управления и меню
+              href: exposing-controls-and-menus.md
+              items:
+                - name: Использование стандартных элементов управления Windows
+                  href: using-standard-windows-controls.md
+                - name: Использование пользовательских элементов управления
+                  href: using-custom-controls.md
+                - name: Использование Active Accessibility для предоставления настраиваемых элементов управления
+                  href: using-active-accessibility-to-expose-custom-controls.md
+                - name: Методы для предоставления настраиваемых элементов управления с подстандартом
+                  href: substandard-techniques-for-exposing-custom-controls.md
+                - name: Использование меню Owner-Drawn
+                  href: using-owner-drawn-menus.md
+                - name: Именование элементов управления в диалоговых окнах
+                  href: naming-controls-in-dialog-boxes.md
+                  items:
+                    - name: Элементы управления без свойств субтитров
+                      href: controls-without-caption-properties.md
+            - name: Предоставление доступа к окну
+              href: exposing-a-window.md
+              items:
+                - name: Правильное именование окна
+                  href: naming-a-window-appropriately.md
+                - name: Определение окна по его функции
+                  href: identifying-a-window-by-its-function.md
+                - name: Предоставление содержимого окна
+                  href: exposing-the-contents-of-a-window.md
+            - name: Предоставление текста программным способом
+              href: exposing-text-programmatically.md
+              items:
+                - name: Использование Active Accessibility для представления текста
+                  href: using-active-accessibility-to-expose-text.md
+            - name: Ссылки
+              href: references.md
+        - name: Примеры планшетов и сенсорного ввода
+          href: mobile-pc-and-tablet-pc-samples.md
+          items:
+            - name: Пример расширенного распознавания
+              href: advanced-recognition-sample.md
+            - name: Пример формы Auto Claims
+              href: auto-claims-form-sample.md
+            - name: Базовый анализ рукописного ввода — пример
+              href: basic-ink-analysis-sample.md
+            - name: Пример базового распознавания
+              href: basic-recognition-sample.md
+            - name: Пример приемников событий C++
+              href: c---event-sinks-sample.md
+            - name: Пример автозаполнения символов
+              href: character-autocomplete-sample.md
+            - name: Бумажная форма анализа рукописного текста
+              href: ink-analysis-scanned-paper-form.md
+            - name: Пример веб-примера рукописного блога
+              href: ink-blog-web-sample.md
+            - name: Пример рукописного буфера обмена
+              href: ink-clipboard-sample.md
+            - name: Образец рукописного сбора
+              href: ink-collection-sample.md
+            - name: Пример рукописного разделителя
+              href: ink-divider-sample.md
+            - name: Пример стирания рукописного ввода
+              href: ink-erasing-sample.md
+            - name: Пример проверки нажатия рукописного ввода
+              href: ink-hit-test-sample.md
+            - name: Пример распознавания рукописного ввода
+              href: ink-recognition-sample.md
+            - name: Пример сериализации рукописного ввода
+              href: ink-serialization-sample.md
+            - name: Пример веб-элемента управления рукописного ввода
+              href: ink-web-control-sample.md
+            - name: Пример масштабирования рукописного ввода
+              href: ink-zoom-sample.md
+            - name: Пример использования нескольких распознавателей
+              href: multiple-recognizers-sample.md
+            - name: Пример веб-примера развертывания No-Touch
+              href: no-touch-deployment-web-sample.md
+            - name: Пример Пенинпутпанел
+              href: peninputpanel-sample.md
+            - name: Пример подключаемого модуля RealTimeStylus
+              href: realtimestylus-plug-in-sample.md
+            - name: Пример коллекции рукописных данных RealTimeStylus
+              href: realtimestylus-ink-collection-sample.md
+            - name: Образец печатной формы
+              href: scanned-paper-form-sample.md
+            - name: Пример сведений о платформе Tablet PC
+              href: tablet-pc-platform-info-sample.md
+        - name: Поддержка сенсорного ввода в Windows Vista
+          href: touch-input-support-in-windows-vista.md
+        - name: Использование жестов
+          href: using-gestures.md
+          items:
+            - name: Системные жесты
+              href: system-gestures.md
+              items:
+                - name: Системные события и сообщения мыши
+                  href: system-events-and-mouse-messages.md
+                - name: Прослушивание системных событий
+                  href: listening-to-system-events.md
+                - name: Временная шкала сообщений и системных событий мыши
+                  href: timeline-of-mouse-messages-and-system-events.md
+                - name: Несколько функциональных возможностей с одним пером
+                  href: multiple-functionality-with-one-pen.md
+            - name: Жесты приложения
+              href: application-gestures.md
+              items:
+                - name: Жесты и семантическое поведение приложений
+                  href: application-gestures-and-semantic-behavior.md
+                - name: Использование только распознавателя жестов Майкрософт
+                  href: using-the-microsoft-gesture-recognizer-only.md
+                - name: Использование пользовательского распознавателя жестов
+                  href: using-a-custom-gesture-recognizer.md
+                - name: Потенциальные конфликты с жестами приложений
+                  href: potential-conflicts-with-application-gestures.md
+                  items:
+                    - name: Конфликты между жестами приложения
+                      href: conflicts-between-application-gestures.md
+                    - name: Конфликты между жестами приложения и символами и символами
+                      href: conflicts-between-application-gestures-and-characters-and-symbols.md
+                      items:
+                        - name: Конфликты с восточноазиатскими символами и символами
+                          href: conflicts-with-latin-characters-and-symbols.md
+                        - name: Конфликты с East-Asianными символами
+                          href: conflicts-with-east-asian-characters.md
+                - name: 'Документирование жестов, используемых приложениями'
+                  href: documenting-the-gestures-used-by-your-applications.md
+                - name: Нереализованные глифы
+                  href: unimplemented-glyphs.md
+            - name: Жесты жестов
+              href: flicks-gestures.md
+        - name: Использование библиотеки COM
+          href: using-the-com-library.md
+        - name: Использование компонента чтения журнала
+          href: using-the-journal-reader-component.md
+          items:
+            - name: Справочник по схеме чтения журнала
+              href: journal-reader-schema-reference.md
+              items:
+                - name: Элементы пространства имен средства чтения журнала
+                  href: journal-reader-namespace-elements.md
+                  items:
+                    - name: Альтернативный элемент
+                      href: alternate-element.md
+                    - name: 'Алтернателист, элемент'
+                      href: alternatelist-element.md
+                    - name: Элемент Background
+                      href: background-element.md
+                    - name: Базовый элемент
+                      href: baseline-element.md
+                    - name: 'Bitmap, элемент'
+                      href: bitmap-element.md
+                    - name: 'Канреклассифи, элемент'
+                      href: canreclassify-element.md
+                    - name: Элемент достоверности
+                      href: confidence-element.md
+                    - name: 'Элемент Content [средство чтения журнала'
+                      href: content-element--journal-reader.md
+                    - name: Элемент Date
+                      href: date-element.md
+                    - name: 'ДоЦимаже, элемент'
+                      href: docimage-element.md
+                    - name: Элемент Drawing
+                      href: drawing-element.md
+                    - name: 'Flag, элемент'
+                      href: flag-element.md
+                    - name: 'Граупноде, элемент'
+                      href: groupnode-element.md
+                    - name: Горизонтальный элемент
+                      href: horizontal-element.md
+                    - name: Элемент Image
+                      href: image-element.md
+                    - name: 'Инккласс, элемент'
+                      href: inkclass-element.md
+                    - name: 'Инкобжект, элемент'
+                      href: inkobject-element.md
+                    - name: 'Инкворд, элемент'
+                      href: inkword-element.md
+                    - name: 'Жаурналдокумент, элемент'
+                      href: journaldocument-element.md
+                    - name: 'Жаурналпаже, элемент'
+                      href: journalpage-element.md
+                    - name: 'Line, элемент'
+                      href: line-element.md
+                    - name: 'Линелайаут, элемент'
+                      href: linelayout-element.md
+                    - name: Элемент Margin
+                      href: margin-element.md
+                    - name: Элемент абзаца
+                      href: paragraph-element.md
+                    - name: 'Параграфлинеметрикс, элемент'
+                      href: paragraphlinemetrics-element.md
+                    - name: 'Path, элемент'
+                      href: path-element.md
+                    - name: Перекомпоновка элемента
+                      href: reflow-element.md
+                    - name: 'Скалартрансформ, элемент'
+                      href: scalartransform-element.md
+                    - name: Элемент бланка
+                      href: stationery-element.md
+                    - name: 'Text, элемент'
+                      href: text-element.md
+                    - name: Элемент Title
+                      href: title-element.md
+                    - name: 'Титлеареа, элемент'
+                      href: titlearea-element.md
+                    - name: 'Титлеинфо, элемент'
+                      href: titleinfo-element.md
+                    - name: Вертикальный элемент
+                      href: vertical-element.md
+                - name: Типы пространств имен для модуля чтения журнала
+                  href: journal-reader-namespace-types.md
+                  items:
+                    - name: Алтернатеслисттипе complexType
+                      href: alternateslisttype-complex-type.md
+                    - name: Баккграундимажетипе complexType
+                      href: backgroundimagetype-complex-type.md
+                    - name: Баккграундтипе complexType
+                      href: backgroundtype-complex-type.md
+                    - name: BaselineType complexType
+                      href: baselinetype-complex-type.md
+                    - name: Баундстипе attributeGroup
+                      href: boundstype-attributegroup.md
+                    - name: Колортипе simpleType
+                      href: colortype-simple-type.md
+                    - name: Группа Контентграуп
+                      href: contentgroup-group.md
+                    - name: 'ContentType, complexType'
+                      href: contenttype-complex-type.md
+                    - name: Контенттипетипе simpleType
+                      href: contenttypetype-simple-type.md
+                    - name: Дравингтипе complexType
+                      href: drawingtype-complex-type.md
+                    - name: Флагтипе complexType
+                      href: flagtype-complex-type.md
+                    - name: Граупнодетипе complexType
+                      href: groupnodetype-complex-type.md
+                    - name: Хоризонталтипе complexType
+                      href: horizontaltype-complex-type.md
+                    - name: ImageType complexType
+                      href: imagetype-complex-type.md
+                    - name: Инквордтипе complexType
+                      href: inkwordtype-complex-type.md
+                    - name: Жаурналпажетипе complexType
+                      href: journalpagetype-complex-type.md
+                    - name: Линелайауттипе complexType
+                      href: linelayouttype-complex-type.md
+                    - name: Линелайаутстилетипе simpleType
+                      href: linelayoutstyletype-simple-type.md
+                    - name: Линетипе complexType
+                      href: linetype-complex-type.md
+                    - name: Маргинтипе complexType
+                      href: margintype-complex-type.md
+                    - name: Маргинтипетипе simpleType
+                      href: margintypetype-simple-type.md
+                    - name: Параграфтипе complexType
+                      href: paragraphtype-complex-type.md
+                    - name: Параграфлинеметрикстипе complexType
+                      href: paragraphlinemetricstype-complex-type.md
+                    - name: Рефловтипе complexType
+                      href: reflowtype-complex-type.md
+                    - name: Скалартрансформтипе complexType
+                      href: scalartransformtype-complex-type.md
+                    - name: Статионеритипе complexType
+                      href: stationerytype-complex-type.md
+                    - name: Тексттипе complexType
+                      href: texttype-complex-type.md
+                    - name: Титлеареатипе complexType
+                      href: titleareatype-complex-type.md
+                    - name: Титлеинфотипе complexType
+                      href: titleinfotype-complex-type.md
+                    - name: Титлетипе complexType
+                      href: titletype-complex-type.md
+                    - name: Вертикалтипе complexType
+                      href: verticaltype-complex-type.md
+                - name: Определение схемы чтения журнала
+                  href: journal-reader-schema-definition.md
+        - name: Использование управляемой библиотеки
+          href: using-the-managed-library.md
+    - name: Справочник по API для планшетных ПК
+      href: tablet-pc-api-reference.md
+      items:
+        - name: Справочник по основным ПК на платформе Tablet PC
+          href: core-reference---tablet-pc-com-library.md
+          items:
+            - name: Классы и интерфейсы для основных ПК на платформе Tablet PC
+              href: classes-and-interfaces---tablet-pc-com-library.md
+              items:
+                - name: Интерфейс Иинккурсор
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor
+                  items:
+                    - name: Свойство Buttons
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_buttons
+                    - name: 'DrawingAttributes, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_drawingattributes
+                    - name: Свойство "Идентификатор"
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_id
+                    - name: Инвертированное свойство
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_inverted
+                    - name: Свойство Name
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_name
+                    - name: Свойство планшета
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_tablet
+                - name: Интерфейс Иинккурсорбуттон
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton
+                  items:
+                    - name: Свойство Name
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_name
+                    - name: Свойство ID
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_id
+                    - name: Свойство State
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_state
+                - name: Интерфейс Иинккурсорбуттонс
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbuttons
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbuttons-get_count
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbuttons-item
+                - name: Интерфейс Иинккурсорс
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursors-get_count
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcursors-item
+                - name: Интерфейс Иинккустомстрокес
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes
+                  items:
+                    - name: Добавить метод.
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-add
+                    - name: Метод Clear
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-clear
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-get_count
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-item
+                    - name: Удалить метод
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcustomstrokes-remove
+                - name: Интерфейс Иинкдивисионресулт
+                  href: /windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult
+                  items:
+                    - name: Метод Ресултбитипе
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-resultbytype
+                    - name: 'Stroke, свойство'
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes
+                - name: Интерфейс Иинкдивисионунит
+                  href: /windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit
+                  items:
+                    - name: 'Дивисионтипе, свойство'
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_divisiontype
+                    - name: 'Рекогнитионстринг, свойство'
+                      href: /previous-versions/windows/desktop/legacy/ms703283(v=vs.85)
+                    - name: 'RotationTransform, свойство'
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_rotationtransform
+                    - name: 'Stroke, свойство'
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_strokes
+                    - name: Метод ToString
+                      href: /previous-versions/windows/desktop/legacy/ms699557(v=vs.85)
+                - name: Интерфейс Иинкдивисионунитс
+                  href: /windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunits-get_count
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunits-item
+                - name: Интерфейс Иинкекстендедпропертиес
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties
+                  items:
+                    - name: Добавить метод.
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-add
+                    - name: Метод Clear
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-clear
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-get_count
+                    - name: Метод Доеспропертексист
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-doespropertyexist
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-item
+                    - name: Удалить метод
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove
+                - name: Интерфейс Иинкекстендедпроперти
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty
+                  items:
+                    - name: 'Data, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperty-get_data
+                    - name: 'GUID, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperty-get_guid
+                - name: Интерфейс Иинкжестуре
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture
+                  items:
+                    - name: Свойство достоверности
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_confidence
+                    - name: Метод Жесотпоинт
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-gethotpoint
+                    - name: Свойство "Идентификатор"
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_id
+                - name: Интерфейс Иинкрекогнитионалтернате
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate
+                  items:
+                    - name: Метод Алтернатесвисконстантпропертивалуес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-alternateswithconstantpropertyvalues
+                    - name: Свойство Ascend
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_ascender
+                    - name: Свойство "базовый"
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_baseline
+                    - name: Свойство достоверности
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidence
+                    - name: 'Конфиденцеалтернатес, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates
+                    - name: Свойство по убыванию
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_descender
+                    - name: Метод Жетстрокесфромстрокеранжес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromstrokeranges
+                    - name: Метод Жетстрокесфромтекстранже
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromtextrange
+                    - name: Метод Жеттекстранжефромстрокес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-gettextrangefromstrokes
+                    - name: Метод Жетпропертивалуе
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getpropertyvalue
+                    - name: 'Линеалтернатес, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates
+                    - name: 'Номер_строки, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linenumber
+                    - name: 'Заполнение нажатием клавиши, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_midline
+                    - name: Строковое свойство
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_string
+                    - name: 'Stroke, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_strokes
+                    - name: Метод ToString
+                      href: /previous-versions/windows/desktop/legacy/dd314585(v=vs.85)
+                - name: Интерфейс Иинкрекогнитионалтернатес
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-get_count
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-item
+                    - name: 'Stroke, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-get_strokes
+                - name: Интерфейс Иинкрекогнитионресулт
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult
+                  items:
+                    - name: Метод Жеталтернатесфромселектион
+                      href: /previous-versions/windows/desktop/legacy/ms698186(v=vs.85)
+                    - name: Метод Модифитопалтернате
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-modifytopalternate
+                    - name: Метод Сетресултонстрокес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-setresultonstrokes
+                    - name: 'Stroke, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_strokes
+                    - name: 'Топалтернате, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topalternate
+                    - name: 'Топконфиденце, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topconfidence
+                    - name: 'Топстринг, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topstring
+                - name: Интерфейс Иинкрекогнизер
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer
+                  items:
+                    - name: Свойство Capabilities
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_capabilities
+                    - name: Метод Креатерекогнизерконтекст
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-createrecognizercontext
+                    - name: Свойство Languages
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_languages
+                    - name: Свойство Name
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_name
+                    - name: 'Преферредпаккетдескриптион, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_preferredpacketdescription
+                    - name: 'Суппортедпропертиес, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_supportedproperties
+                    - name: Метод ToString
+                      href: /previous-versions/windows/desktop/legacy/dd314588(v=vs.85)
+                    - name: Свойство Vendor
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_vendor
+                - name: Интерфейс IInkRecognizer2
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer2
+                  items:
+                    - name: Метод get_Id
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_id
+                    - name: Метод get_UnicodeRanges
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_unicoderanges
+                - name: Интерфейс IInkRecognizerContext2
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizercontext2
+                  items:
+                    - name: 'Енабледуникодеранжес, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext2-get_enabledunicoderanges
+                - name: Интерфейс Иинкстрокедисп
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp
+                  items:
+                    - name: 'Безиеркуспс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_beziercusps
+                    - name: 'Безиерпоинтс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_bezierpoints
+                    - name: Метод Clip
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip
+                    - name: Удаленное свойство
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_deleted
+                    - name: 'DrawingAttributes, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_drawingattributes
+                    - name: 'Расширенных свойств, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_extendedproperties
+                    - name: Метод Финдинтерсектионс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-findintersections
+                    - name: Метод Жетбаундингбокс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox
+                    - name: Метод Жетфлаттенедбезиерпоинтс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getflattenedbezierpoints
+                    - name: Метод Жетпаккетдата
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdata
+                    - name: Метод Жетпаккетдескриптионпропертиметрикс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics
+                    - name: Метод Жетпаккетвалуесбипроперти
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketvaluesbyproperty
+                    - name: Метод «с точками»
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpoints
+                    - name: Метод Жетректанглеинтерсектионс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getrectangleintersections
+                    - name: Метод HitTest
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-hittestcircle
+                    - name: Свойство "Идентификатор"
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id
+                    - name: 'Ink, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_ink
+                    - name: 'Move, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-move
+                    - name: Метод Неарестпоинт
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-nearestpoint
+                    - name: 'Паккеткаунт, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetcount
+                    - name: 'Паккетдескриптион, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetdescription
+                    - name: 'PacketSize, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetsize
+                    - name: 'Полилинекуспс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_polylinecusps
+                    - name: Метод вращения
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-rotate
+                    - name: Метод Скалеторектангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletorectangle
+                    - name: Метод ScaleTransform
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletransform
+                    - name: 'Селфинтерсектионс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_selfintersections
+                    - name: Метод Сетпаккетвалуесбипроперти
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty
+                    - name: Метод Сетпоинтс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpoints
+                    - name: Метод сдвига
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-shear
+                    - name: Метод Split
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-split
+                    - name: 'Transform, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-transform
+                - name: Интерфейс Иинктаблет
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinktablet
+                  items:
+                    - name: Метод Жетпропертиметрикс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics
+                    - name: Метод Испаккетпропертисуппортед
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-ispacketpropertysupported
+                    - name: Свойство Name
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_name
+                    - name: 'Хардварекапабилитиес, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_hardwarecapabilities
+                    - name: 'Максимуминпутректангле, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_maximuminputrectangle
+                    - name: 'Плугандплайид, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_plugandplayid
+                - name: Интерфейс IInkTablet2
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinktablet2
+                  items:
+                    - name: 'Девицекинд, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet2-get_devicekind
+                - name: Интерфейс IInkTablet3
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinktablet3
+                  items:
+                    - name: 'Исмултитауч, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet3-get_ismultitouch
+                    - name: 'Максимумкурсорс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablet3-get_maximumcursors
+                - name: Интерфейс IInkWordList2
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2
+                  items:
+                    - name: Метод Аддвордс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist2-addwords
+                - name: Класс InkCollector
+                  href: inkcollector-class.md
+                  items:
+                    - name: 'Ауторедрав, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_autoredraw
+                    - name: 'Коллектингинк, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectingink
+                    - name: 'Режиме CollectionMode, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode
+                    - name: 'Cursor, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_cursors
+                    - name: Событие Курсорбуттондовн
+                      href: inkcollector-cursorbuttondown.md
+                    - name: Событие Курсорбуттонуп
+                      href: inkcollector-cursorbuttonup.md
+                    - name: Событие Курсордовн
+                      href: inkcollector-cursordown.md
+                    - name: Событие Курсоринранже
+                      href: inkcollector-cursorinrange.md
+                    - name: Событие Курсораутофранже
+                      href: inkcollector-cursoroutofrange.md
+                    - name: Событие DoubleClick
+                      href: inkcollector-doubleclick.md
+                    - name: 'DefaultDrawingAttributes, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_defaultdrawingattributes
+                    - name: 'Десиредпаккетдескриптион, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription
+                    - name: 'Динамикрендеринг, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_dynamicrendering
+                    - name: Свойство Enabled
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled
+                    - name: Событие жеста
+                      href: inkcollector-gesture.md
+                    - name: Метод Жетевентинтерест
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-geteventinterest
+                    - name: Метод Жетжестурестатус
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus
+                    - name: Метод Жетвиндовинпутректангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getwindowinputrectangle
+                    - name: 'hWnd, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd
+                    - name: 'Ink, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_ink
+                    - name: 'Маргинкс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginx
+                    - name: Свойство Margin
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginy
+                    - name: 'Маусеикон, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mouseicon
+                    - name: 'MousePointer, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mousepointer
+                    - name: 'MouseDown, событие'
+                      href: inkcollector-mousedown.md
+                    - name: Событие MouseMove
+                      href: inkcollector-mousemove.md
+                    - name: 'MouseUp, событие'
+                      href: inkcollector-mouseup.md
+                    - name: Событие Маусевхил
+                      href: inkcollector-mousewheel.md
+                    - name: Событие Невинаирпаккетс
+                      href: inkcollector-newinairpackets.md
+                    - name: Событие Невпаккетс
+                      href: inkcollector-newpackets.md
+                    - name: Свойство модуля подготовки отчетов
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_renderer
+                    - name: Метод Сеталлтаблетсмоде
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setalltabletsmode
+                    - name: Метод Сетевентинтерест
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-seteventinterest
+                    - name: Метод Сетжестурестатус
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus
+                    - name: Метод Сетсинглетаблетинтегратедмоде
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setsingletabletintegratedmode
+                    - name: Метод Сетвиндовинпутректангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setwindowinputrectangle
+                    - name: Событие Stroke
+                      href: inkcollector-stroke.md
+                    - name: 'Суппорсигхконтрастинк, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_supporthighcontrastink
+                    - name: Событие Системжестуре
+                      href: inkcollector-systemgesture.md
+                    - name: Свойство планшета
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_tablet
+                    - name: Событие Таблетаддед
+                      href: inkcollector-tabletadded.md
+                    - name: Событие Таблетремовед
+                      href: inkcollector-tabletremoved.md
+                - name: Класс Инкдисп
+                  href: inkdisp-class.md
+                  items:
+                    - name: Метод Аддстрокесатректангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-addstrokesatrectangle
+                    - name: Метод Канпасте
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-canpaste
+                    - name: Метод Clip
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clip
+                    - name: Метод Клипбоардкопи
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy
+                    - name: Метод Клипбоардкопивисректангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle
+                    - name: Метод Клипбоардпасте
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardpaste
+                    - name: Метод Clone
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone
+                    - name: Метод Креатестроке
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstroke
+                    - name: Метод Креатестрокес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes
+                    - name: 'Кустомстрокес, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_customstrokes
+                    - name: Метод Делетестроке
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke
+                    - name: Метод Делетестрокес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestrokes
+                    - name: «Грязное» свойство
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_dirty
+                    - name: 'Расширенных свойств, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_extendedproperties
+                    - name: Метод Екстрактстрокес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes
+                    - name: Метод Екстрактвисректангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractwithrectangle
+                    - name: Метод Жетбаундингбокс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-getboundingbox
+                    - name: Метод ХиттестЦиркле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle
+                    - name: Метод Хиттествислассо
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithlasso
+                    - name: Метод Хиттествисректангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithrectangle
+                    - name: Событие Инкаддед
+                      href: inkdisp-inkadded.md
+                    - name: Событие Инкделетед
+                      href: inkdisp-inkdeleted.md
+                    - name: Метод загрузки
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load
+                    - name: Метод Неарестпоинт
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-nearestpoint
+                    - name: Метод Save
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save
+                    - name: 'Stroke, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_strokes
+                - name: Класс Инкдивидер
+                  href: inkdivider-class.md
+                  items:
+                    - name: Метод деления
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-divide
+                    - name: 'LineHeight, свойство'
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight
+                    - name: 'Рекогнизерконтекст, свойство'
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_recognizercontext
+                    - name: 'Stroke, свойство'
+                      href: /windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes
+                - name: Класс Инкдравингаттрибутес
+                  href: inkdrawingattributes-class.md
+                  items:
+                    - name: Свойство со сглаживанием
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_antialiased
+                    - name: Метод Clone
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-clone
+                    - name: Свойство Color
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_color
+                    - name: 'Расширенных свойств, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_extendedproperties
+                    - name: 'Фиттокурве, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_fittocurve
+                    - name: 'Height, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_height
+                    - name: 'Игнорепрессуре, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_ignorepressure
+                    - name: 'Пентип, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_pentip
+                    - name: 'Растероператион, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation
+                    - name: Свойство прозрачности
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_transparency
+                    - name: 'Width, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width
+                - name: Класс InkOverlay
+                  href: inkoverlay-class.md
+                  items:
+                    - name: 'Аттачмоде, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_attachmode
+                    - name: 'Ауторедрав, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_autoredraw
+                    - name: 'Коллектингинк, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_collectingink
+                    - name: 'Режиме CollectionMode, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_collectionmode
+                    - name: Событие Курсорбуттондовн
+                      href: inkoverlay-cursorbuttondown.md
+                    - name: Событие Курсорбуттонуп
+                      href: inkoverlay-cursorbuttonup.md
+                    - name: Событие Курсордовн
+                      href: inkoverlay-cursordown.md
+                    - name: Событие Курсоринранже
+                      href: inkoverlay-cursorinrange.md
+                    - name: Событие Курсораутофранже
+                      href: inkoverlay-cursoroutofrange.md
+                    - name: 'Cursor, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_cursors
+                    - name: 'DefaultDrawingAttributes, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_defaultdrawingattributes
+                    - name: 'Десиредпаккетдескриптион, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_desiredpacketdescription
+                    - name: Событие DoubleClick
+                      href: inkoverlay-doubleclick.md
+                    - name: Метод Draw
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-draw
+                    - name: 'Динамикрендеринг, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering
+                    - name: 'EditingMode, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode
+                    - name: Свойство Enabled
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_enabled
+                    - name: 'Ерасермоде, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode
+                    - name: 'Ерасервидс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_eraserwidth
+                    - name: Событие жеста
+                      href: inkoverlay-gesture.md
+                    - name: Метод Жетевентинтерест
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-geteventinterest
+                    - name: Метод Жетжестурестатус
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-getgesturestatus
+                    - name: Метод Жетвиндовинпутректангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-getwindowinputrectangle
+                    - name: Метод Хиттестселектион
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-hittestselection
+                    - name: 'hWnd, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_hwnd
+                    - name: 'Ink, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_ink
+                    - name: 'Маргинкс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_marginx
+                    - name: Свойство Margin
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_marginy
+                    - name: 'MouseDown, событие'
+                      href: inkoverlay-mousedown.md
+                    - name: 'Маусеикон, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_mouseicon
+                    - name: Событие MouseMove
+                      href: inkoverlay-mousemove.md
+                    - name: 'MousePointer, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_mousepointer
+                    - name: 'MouseUp, событие'
+                      href: inkoverlay-mouseup.md
+                    - name: Событие Маусевхил
+                      href: inkoverlay-mousewheel.md
+                    - name: Событие Невинаирпаккетс
+                      href: inkoverlay-newinairpackets.md
+                    - name: Событие Невпаккетс
+                      href: inkoverlay-newpackets.md
+                    - name: Закрашиваемое событие
+                      href: inkoverlay-painted.md
+                    - name: Событие рисования
+                      href: inkoverlay-painting.md
+                    - name: Свойство модуля подготовки отчетов
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_renderer
+                    - name: Свойство Selection
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection
+                    - name: Событие SelectionChanged
+                      href: inkoverlay-selectionchanged.md
+                    - name: Событие Селектиончангинг
+                      href: inkoverlay-selectionchanging.md
+                    - name: Событие Селектионмовед
+                      href: inkoverlay-selectionmoved.md
+                    - name: Событие Селектионмовинг
+                      href: inkoverlay-selectionmoving.md
+                    - name: Событие Селектионресизед
+                      href: inkoverlay-selectionresized.md
+                    - name: Событие Селектионресизинг
+                      href: inkoverlay-selectionresizing.md
+                    - name: Метод Сеталлтаблетсмоде
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setalltabletsmode
+                    - name: Метод Сетевентинтерест
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-seteventinterest
+                    - name: Метод Сетжестурестатус
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setgesturestatus
+                    - name: Метод Сетсинглетаблетинтегратедмоде
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setsingletabletintegratedmode
+                    - name: Метод Сетвиндовинпутректангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-setwindowinputrectangle
+                    - name: Событие Stroke
+                      href: inkoverlay-stroke.md
+                    - name: Событие Строкесделетед
+                      href: inkoverlay-strokesdeleted.md
+                    - name: Событие Строкесделетинг
+                      href: inkoverlay-strokesdeleting.md
+                    - name: 'Суппорсигхконтрастинк, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_supporthighcontrastink
+                    - name: 'Суппорсигхконтрастселектионуи, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_supporthighcontrastselectionui
+                    - name: Событие Системжестуре
+                      href: inkoverlay-systemgesture.md
+                    - name: Свойство планшета
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_tablet
+                    - name: Событие Таблетаддед
+                      href: inkoverlay-tabletadded.md
+                    - name: Событие Таблетремовед
+                      href: inkoverlay-tabletremoved.md
+                - name: Класс Инкрекогнизерконтекст
+                  href: inkrecognizercontext-class.md
+                  items:
+                    - name: Метод Баккграундрекогнизе
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize
+                    - name: Метод Баккграундрекогнизевисалтернатес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates
+                    - name: 'Чарактераутокомплетион, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_characterautocompletionmode
+                    - name: Метод Clone
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-clone
+                    - name: Метод Ендинкинпут
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-endinkinput
+                    - name: 'Фактоид, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid
+                    - name: Свойство Guide
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_guide
+                    - name: Метод Исстрингсуппортед
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-isstringsupported
+                    - name: 'Префикстекст, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext
+                    - name: Событие распознавания
+                      href: inkrecognizercontext-recognition.md
+                    - name: 'Рекогнитионфлагс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags
+                    - name: Событие Рекогнитионвисалтернатес
+                      href: inkrecognizercontext-recognitionwithalternates.md
+                    - name: Метод распознавания
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize
+                    - name: Свойство распознавателя
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognizer
+                    - name: Метод Стопбаккграундрекогнитион
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-stopbackgroundrecognition
+                    - name: 'Stroke, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes
+                    - name: 'Суффикстекст, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext
+                    - name: Список слов
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist
+                - name: Класс Инкрекогнизергуиде
+                  href: inkrecognizerguide-class.md
+                  items:
+                    - name: 'Columns, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns
+                    - name: 'Дравнбокс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox
+                    - name: 'Гуидедата, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_guidedata
+                    - name: 'Заполнение нажатием клавиши, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_midline
+                    - name: 'Rows, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows
+                    - name: 'Вритингбокс, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox
+                - name: Коллекция Инкрекогнизерс
+                  href: /previous-versions/windows/desktop/legacy/ms702438(v=vs.85)
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-get_count
+                    - name: Метод Жетдефаултрекогнизер
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-getdefaultrecognizer
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-item
+                - name: Класс Инкректангле
+                  href: inkrectangle-class.md
+                  items:
+                    - name: Свойство Bottom
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom
+                    - name: 'Data, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_data
+                    - name: Метод копрямоугольника
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-getrectangle
+                    - name: Свойство Left
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left
+                    - name: Свойство Right
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right
+                    - name: Метод Сетректангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-setrectangle
+                    - name: Свойство Top
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top
+                - name: Класс Инкрендерер
+                  href: inkrenderer-class.md
+                  items:
+                    - name: Метод Draw
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-draw
+                    - name: Метод Дравстроке
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-drawstroke
+                    - name: Метод Жетобжекттрансформ
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getobjecttransform
+                    - name: Метод Жетвиевтрансформ
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform
+                    - name: Метод Инкспацетопиксел
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel
+                    - name: Метод Инкспацетопикселфромпоинтс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixelfrompoints
+                    - name: 'Measure, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measure
+                    - name: Метод Меасурестроке
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measurestroke
+                    - name: 'Move, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-move
+                    - name: Метод Пикселтоинкспаце
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspace
+                    - name: Метод Пикселтоинкспацефромпоинтс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints
+                    - name: Метод вращения
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-rotate
+                    - name: Метод ScaleTransform
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-scaletransform
+                    - name: Метод Сетобжекттрансформ
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform
+                    - name: Метод Сетвиевтрансформ
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform
+                - name: Коллекция Инкстрокес
+                  href: /previous-versions/windows/desktop/legacy/ms703293(v=vs.85)
+                  items:
+                    - name: Добавить метод.
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-add
+                    - name: Метод Аддстрокес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes
+                    - name: Метод Clip
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-clip
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_count
+                    - name: Метод Жетбаундингбокс
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-getboundingbox
+                    - name: 'Ink, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_ink
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-item
+                    - name: Метод Модифидравингаттрибутес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes
+                    - name: 'Move, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-move
+                    - name: 'Рекогнитионресулт, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_recognitionresult
+                    - name: Удалить метод
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-remove
+                    - name: Метод Ремоверекогнитионресулт
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-removerecognitionresult
+                    - name: Метод Ремовестрокес
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-removestrokes
+                    - name: Метод вращения
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-rotate
+                    - name: Метод Скалеторектангле
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-scaletorectangle
+                    - name: Метод ScaleTransform
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-scaletransform
+                    - name: Метод сдвига
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-shear
+                    - name: Событие Строкесаддед
+                      href: inkstrokes-strokesadded.md
+                    - name: Событие Строкесремовед
+                      href: inkstrokes-strokesremoved.md
+                    - name: Метод ToString
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-tostring
+                    - name: 'Transform, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-transform
+                - name: Коллекция Инктаблетс
+                  href: /previous-versions/windows/desktop/legacy/ms704832(v=vs.85)
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_count
+                    - name: 'Дефаулттаблет, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_defaulttablet
+                    - name: Метод Испаккетпропертисуппортед
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-ispacketpropertysupported
+                    - name: 'Item, метод'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-item
+                - name: Класс Инктрансформ
+                  href: inktransform-class.md
+                  items:
+                    - name: 'Data, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_data
+                    - name: 'eDx, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_edx
+                    - name: 'Еди, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_edy
+                    - name: 'eM11, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em11
+                    - name: 'eM12, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em12
+                    - name: 'eM21, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em21
+                    - name: 'eM22, свойство'
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em22
+                    - name: Метод Transform
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-gettransform
+                    - name: Метод отражения
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reflect
+                    - name: Метод Reset
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reset
+                    - name: Метод вращения
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-rotate
+                    - name: Метод ScaleTransform
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-scaletransform
+                    - name: Метод Сеттрансформ
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-settransform
+                    - name: Метод сдвига
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-shear
+                    - name: Метод преобразования
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-translate
+                - name: Класс Инквордлист
+                  href: inkwordlist-class.md
+                  items:
+                    - name: Метод Аддворд
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword
+                    - name: Метод Merge
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-merge
+                    - name: Метод Ремовеворд
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword
+                - name: Класс Пенинпутпанел
+                  href: peninputpanel-class.md
+                  items:
+                    - name: 'Аттачедедитвиндов, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_attachededitwindow
+                    - name: Свойство "Автоотображение"
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow
+                    - name: Свойство Busy
+                      href: /windows/desktop/api/Peninputpanel/nf-peninputpanel-ipeninputpanel-get_busy
+                    - name: Метод Коммитпендингинпут
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-commitpendinginput
+                    - name: 'Куррентпанел, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel
+                    - name: 'Дефаултпанел, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_defaultpanel
+                    - name: Метод Енаблетсф
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-enabletsf
+                    - name: 'Фактоид, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_factoid
+                    - name: 'Height, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_height
+                    - name: 'HorizontalOffset, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_horizontaloffset
+                    - name: Событие Инпутфаилед
+                      href: peninputpanel-inputfailed.md
+                    - name: Свойство Left
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left
+                    - name: 'MoveTo, метод'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto
+                    - name: Событие Панелчанжед
+                      href: peninputpanel-panelchanged.md
+                    - name: Событие Панелмовинг
+                      href: peninputpanel-panelmoving.md
+                    - name: Метод Refresh
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh
+                    - name: Свойство Top
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top
+                    - name: 'VerticalOffset, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset
+                    - name: Свойство Visible
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible
+                    - name: Событие Висиблечанжед
+                      href: peninputpanel-visiblechanged.md
+                    - name: 'Width, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_width
+            - name: Константы основных ПК для планшетов
+              href: constants---tablet-pc-com-library.md
+              items:
+                - name: Константы фактоид
+                  href: factoid-constants.md
+                - name: Константы Паккетпропертигуидс
+                  href: packetpropertyguids-constants.md
+                - name: Константы Рекогнитионпроперти
+                  href: recognitionproperty-constants.md
+            - name: Базовые перечисления для планшетных ПК
+              href: enumerations--tablet-pc-com-library.md
+              items:
+                - name: Перечисление Инкаппликатионжестуре
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture
+                - name: Перечисление Инкбаундингбоксмоде
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkboundingboxmode
+                - name: Перечисление Инкклипбоардформатс
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats
+                - name: Перечисление Инкклипбоардмодес
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes
+                - name: Перечисление Инкколлектионмоде
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkcollectionmode
+                - name: Перечисление Инкколлекторевентинтерест
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest
+                - name: Перечисление Инккурсорбуттонстате
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkcursorbuttonstate
+                - name: Перечисление Инкдивисионтипе
+                  href: /windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype
+                - name: Перечисление Инкекстрактфлагс
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags
+                - name: Перечисление Инкмаусебуттон
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkmousebutton
+                - name: Перечисление Инкмаусепоинтер
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkmousepointer
+                - name: Перечисление Инковерлайаттачмоде
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayattachmode
+                - name: Перечисление Инковерлайедитингмоде
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode
+                - name: Перечисление Инковерлайерасермоде
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode
+                - name: Перечисление Инкпентип
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpentip
+                - name: Перечисление Инкперсистенцекомпрессионмоде
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpersistencecompressionmode
+                - name: Перечисление Инкперсистенцеформат
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat
+                - name: Перечисление Инкрастероператион
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrasteroperation
+                - name: Перечисление Инкрекогнитионалтернатесселектион
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionalternatesselection
+                - name: Перечисление Инкрекогнитионконфиденце
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionconfidence
+                - name: Перечисление Инкрекогнитионмодес
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionmodes
+                - name: Перечисление Инкрекогнитионстатус
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionstatus
+                - name: Перечисление Инкрекогнизеркапабилитиес
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognizercapabilities
+                - name: Перечисление Инкрекогнизерчарактераутокомплетионмоде
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognizercharacterautocompletionmode
+                - name: Перечисление Инкрекогуиде
+                  href: /windows/win32/api/msinkaut/ns-msinkaut-inkrecoguide
+                - name: Перечисление Инкшифткэймодифиерфлагс
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkshiftkeymodifierflags
+                - name: Перечисление Инксистемжестуре
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture
+                - name: Перечисление Итемселектионконстантс
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants
+                - name: Перечисление Панелтипе
+                  href: /windows/desktop/api/peninputpanel/ne-peninputpanel-paneltype
+                - name: Перечисление Селектионхитресулт
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult
+                - name: Перечисление Таблесардварекапабилитиес
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-tablethardwarecapabilities
+                - name: Перечисление Таблетпропертиметрикунит
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit
+            - name: Основные функции планшетных ПК
+              href: functions.md
+              items:
+                - name: Функция Аддонестроке
+                  href: addonestroke.md
+                - name: Функция Каллдивиде
+                  href: calldivide.md
+                - name: Функция Каллдивидересултс
+                  href: calldivideresults.md
+                - name: Функция Каллдивидересултсстрокеидс
+                  href: calldivideresultsstrokeids.md
+                - name: Функция Креатеинкдивидер
+                  href: createinkdivider.md
+                - name: Функция Делетеинкдивидер
+                  href: deleteinkdivider.md
+                - name: Функция Инвокеидиспатч
+                  href: invokeidispatch.md
+                - name: Функция Рекогнизерконтекстсет
+                  href: recognizercontextset.md
+                - name: Функция Ремовестрокес
+                  href: /previous-versions/windows/desktop/legacy/cc836538(v=vs.85)
+                - name: Функция Сетлинехеигхт
+                  href: setlineheight.md
+                - name: Функция Сетлинерекокаллбакк
+                  href: setlinerecocallback.md
+        - name: Справочник по жестам
+          href: flicks-api-reference.md
+          items:
+            - name: Жесты сообщений
+              href: flicks-messages.md
+              items:
+                - name: WM_TABLET_FLICK
+                  href: wm-tablet-flick-message.md
+                - name: WM_TABLET_QUERYSYSTEMGESTURESTATUS
+                  href: wm-tablet-querysystemgesturestatus-message.md
+            - name: Перечисление жестов
+              href: flicks-enumerations.md
+              items:
+                - name: Перечисление ФЛИККДИРЕКТИОН
+                  href: /windows/desktop/api/tabflicks/ne-tabflicks-flickdirection
+                - name: Перечисление ФЛИККМОДЕ
+                  href: /windows/desktop/api/tabflicks/ne-tabflicks-flickmode
+                - name: Перечисление FLICKACTION_COMMANDMODE
+                  href: /windows/desktop/api/tabflicks/ne-tabflicks-flickaction_commandcode
+                - name: Перечисление СКРОЛЛДИРЕКТИОН
+                  href: /windows/desktop/api/tabflicks/ne-tabflicks-scrolldirection
+                - name: Перечисление КЭЙМОДИФИЕР
+                  href: /windows/desktop/api/tabflicks/ne-tabflicks-keymodifier
+            - name: Структуры жестов
+              href: flicks-structures.md
+              items:
+                - name: Структура FLICK_POINT
+                  href: /windows/desktop/api/tabflicks/ns-tabflicks-flick_point
+                - name: Структура FLICK_DATA
+                  href: /windows/desktop/api/tabflicks/ns-tabflicks-flick_data
+            - name: Константы жестов
+              href: flicks-constants.md
+        - name: Справочник по анализу рукописного ввода
+          href: ink-analysis-reference.md
+          items:
+            - name: Классы и интерфейсы анализа рукописного ввода
+              href: classes-and-interfaces---ink-analysis.md
+              items:
+                - name: Класс Аналисисрегион
+                  href: analysisregion.md
+                - name: Класс InkAnalyzer
+                  href: inkanalyzer.md
+                - name: Интерфейс Ианалисисалтернате
+                  href: ianalysisalternate.md
+                  items:
+                    - name: Метод Жеталтернатенодес
+                      href: ianalysisalternate-getalternatenodes.md
+                    - name: Метод Жетрекогнитионконфиденце
+                      href: ianalysisalternate-getrecognitionconfidence.md
+                    - name: Метод Жетрекогнизедстринг
+                      href: ianalysisalternate-getrecognizedstring.md
+                    - name: Метод Жетстрокеидс
+                      href: ianalysisalternate-getstrokeids.md
+                - name: Интерфейс Ианалисисалтернатес
+                  href: ianalysisalternates.md
+                  items:
+                    - name: Метод Жетаналисисалтернате
+                      href: ianalysisalternates-getanalysisalternate.md
+                    - name: Метод GetCount
+                      href: ianalysisalternates-getcount.md
+                - name: Интерфейс Ианалисисрегион
+                  href: ianalysisregion.md
+                  items:
+                    - name: Метод Clone
+                      href: ianalysisregion-clone.md
+                    - name: Метод Екуалсрегион
+                      href: ianalysisregion-equalsregion.md
+                    - name: Метод Ексклудеректангле
+                      href: ianalysisregion-excluderectangle.md
+                    - name: Метод Ексклудерегион
+                      href: ianalysisregion-excluderegion.md
+                    - name: Метод "Bounds"
+                      href: ianalysisregion-getbounds.md
+                    - name: Метод Жетрегионсканс
+                      href: ianalysisregion-getregionscans.md
+                    - name: Метод Интерсектректангле
+                      href: ianalysisregion-intersectrectangle.md
+                    - name: Метод Интерсектрегион
+                      href: ianalysisregion-intersectregion.md
+                    - name: Метод Интерсектсвис
+                      href: ianalysisregion-intersectswith.md
+                    - name: Метод IsEmpty
+                      href: ianalysisregion-isempty.md
+                    - name: Метод бесконечности
+                      href: ianalysisregion-isinfinite.md
+                    - name: Метод Макимпти
+                      href: ianalysisregion-makeempty.md
+                    - name: Метод Макеинфините
+                      href: ianalysisregion-makeinfinite.md
+                    - name: Метод Унионректангле
+                      href: ianalysisregion-unionrectangle.md
+                    - name: Метод Унионрегион
+                      href: ianalysisregion-unionregion.md
+                - name: Интерфейс Ианалисисстатус
+                  href: ianalysisstatus.md
+                  items:
+                    - name: Метод Жетапплиедчанжесрегион
+                      href: ianalysisstatus-getappliedchangesregion.md
+                    - name: Методических предупреждений
+                      href: ianalysisstatus-getwarnings.md
+                    - name: Метод с успешным выполнением
+                      href: ianalysisstatus-issuccessful.md
+                - name: Интерфейс Ианалисисварнинг
+                  href: ianalysiswarning.md
+                  items:
+                    - name: Метод Жетбаккграундеррор
+                      href: ianalysiswarning-getbackgrounderror.md
+                    - name: Метод метода OPTIMIZE
+                      href: ianalysiswarning-gethint.md
+                    - name: Метод Жетнодеидс
+                      href: ianalysiswarning-getnodeids.md
+                    - name: Метод Жетварнингкоде
+                      href: ianalysiswarning-getwarningcode.md
+                - name: Интерфейс Ианалисисварнингс
+                  href: ianalysiswarnings.md
+                  items:
+                    - name: Метод Жетаналисисварнинг
+                      href: ianalysiswarnings-getanalysiswarning.md
+                    - name: Метод GetCount
+                      href: ianalysiswarnings-getcount.md
+                - name: Интерфейс Иконтекстлинк
+                  href: icontextlink.md
+                  items:
+                    - name: жетконтекстлинкдиректион
+                      href: icontextlink-getcontextlinkdirection.md
+                    - name: жетдестинатионноде
+                      href: icontextlink-getdestinationnode.md
+                    - name: жетсаурценоде
+                      href: icontextlink-getsourcenode.md
+                - name: Интерфейс Иконтекстлинкс
+                  href: icontextlinks.md
+                  items:
+                    - name: Метод Жетконтекстлинк
+                      href: icontextlinks-getcontextlink.md
+                    - name: Метод GetCount
+                      href: icontextlinks-getcount.md
+                - name: Интерфейс Иконтекстноде
+                  href: icontextnode.md
+                  items:
+                    - name: Метод Аддконтекстлинк
+                      href: icontextnode-addcontextlink.md
+                    - name: Метод Аддпропертидата
+                      href: icontextnode-addpropertydata.md
+                    - name: Метод Confirm
+                      href: icontextnode-confirm.md
+                    - name: Метод Контаинспропертидата
+                      href: icontextnode-containspropertydata.md
+                    - name: Метод Креатепартиаллипопулатедсубноде
+                      href: icontextnode-createpartiallypopulatedsubnode.md
+                    - name: Метод Креатесубноде
+                      href: icontextnode-createsubnode.md
+                    - name: Метод Делетеконтекстлинк
+                      href: icontextnode-deletecontextlink.md
+                    - name: Метод Делетесубноде
+                      href: icontextnode-deletesubnode.md
+                    - name: Метод Жетконтекстлинкс
+                      href: icontextnode-getcontextlinks.md
+                    - name: Метод GetID
+                      href: icontextnode-getid.md
+                    - name: Метод метода OnLocation
+                      href: icontextnode-getlocation.md
+                    - name: Метод Жетпарентноде
+                      href: icontextnode-getparentnode.md
+                    - name: Метод Жетпартиаллипопулатед
+                      href: icontextnode-getpartiallypopulated.md
+                    - name: Метод Жетпропертидата
+                      href: icontextnode-getpropertydata.md
+                    - name: Метод Жетпропертидатаидс
+                      href: icontextnode-getpropertydataids.md
+                    - name: Метод Жетстрокекаунт
+                      href: icontextnode-getstrokecount.md
+                    - name: Метод Жетстрокеид
+                      href: icontextnode-getstrokeid.md
+                    - name: Метод Жетстрокеидс
+                      href: icontextnode-getstrokeids.md
+                    - name: Метод Жетстрокепаккетдатабид
+                      href: icontextnode-getstrokepacketdatabyid.md
+                    - name: Метод Жетстрокепаккетдескриптионбид
+                      href: icontextnode-getstrokepacketdescriptionbyid.md
+                    - name: Метод Жетсубнодес
+                      href: icontextnode-getsubnodes.md
+                    - name: Метод GetType
+                      href: icontextnode-gettype.md
+                    - name: Метод имя_типа
+                      href: icontextnode-gettypename.md
+                    - name: Метод Исалтернатестрингсуппортед
+                      href: icontextnode-isalternatestringsupported.md
+                    - name: Метод Confirm
+                      href: icontextnode-isconfirmed.md
+                    - name: Метод Исстрингсуппортед
+                      href: icontextnode-isstringsupported.md
+                    - name: Метод Лоадпропертиесдата
+                      href: icontextnode-loadpropertiesdata.md
+                    - name: Метод Мовесубнодетопоситион
+                      href: icontextnode-movesubnodetoposition.md
+                    - name: Метод Ремовепропертидата
+                      href: icontextnode-removepropertydata.md
+                    - name: Метод переподчинения
+                      href: icontextnode-reparent.md
+                    - name: Метод Репарентстрокебидтоноде
+                      href: icontextnode-reparentstrokebyidtonode.md
+                    - name: Метод Савепропертиесдата
+                      href: icontextnode-savepropertiesdata.md
+                    - name: Метод SetLocation
+                      href: icontextnode-setlocation.md
+                    - name: Метод Сетпартиаллипопулатед
+                      href: icontextnode-setpartiallypopulated.md
+                    - name: Метод Сетстрокес
+                      href: icontextnode-setstrokes.md
+                - name: Интерфейс Иконтекстнодес
+                  href: icontextnodes.md
+                  items:
+                    - name: Метод Аддконтекстноде
+                      href: icontextnodes-addcontextnode.md
+                    - name: Метод GetCount
+                      href: icontextnodes-getcount.md
+                    - name: Метод Жетконтекстноде
+                      href: icontextnodes-getcontextnode.md
+                    - name: Метод Ремовеконтекстноде
+                      href: icontextnodes-removecontextnode.md
+                - name: Интерфейс Иинканалисисрекогнизер
+                  href: iinkanalysisrecognizer.md
+                  items:
+                    - name: Метод capabilities
+                      href: iinkanalysisrecognizer-getcapabilities.md
+                    - name: Метод GetGuid
+                      href: iinkanalysisrecognizer-getguid.md
+                    - name: Метод языка
+                      href: iinkanalysisrecognizer-getlanguages.md
+                    - name: Метод GetName
+                      href: iinkanalysisrecognizer-getname.md
+                    - name: Метод Жетсуппортедпропертиес
+                      href: iinkanalysisrecognizer-getsupportedproperties.md
+                    - name: Метод Жетуникодеранжес
+                      href: iinkanalysisrecognizer-getunicoderanges.md
+                    - name: Метод поставщика
+                      href: iinkanalysisrecognizer-getvendor.md
+                    - name: Метод Сеташигхестприоритинканалисисрекогнизер
+                      href: iinkanalysisrecognizer-setashighestpriorityinkanalysisrecognizer.md
+                - name: Интерфейс Иинканалисисрекогнизерс
+                  href: iinkanalysisrecognizers.md
+                  items:
+                    - name: Метод GetCount
+                      href: iinkanalysisrecognizers-getcount.md
+                    - name: Метод Жетинканалисисрекогнизер
+                      href: iinkanalysisrecognizers-getinkanalysisrecognizer.md
+                - name: Интерфейс Иинканализер
+                  href: iinkanalyzer.md
+                  items:
+                    - name: Метод Abort
+                      href: iinkanalyzer-abort.md
+                    - name: Метод Аддстроке
+                      href: iinkanalyzer-addstroke.md
+                    - name: Метод Аддстрокефорлангуаже
+                      href: iinkanalyzer-addstrokeforlanguage.md
+                    - name: Метод Аддстрокес
+                      href: iinkanalyzer-addstrokes.md
+                    - name: Метод Аддстрокесфорлангуаже
+                      href: iinkanalyzer-addstrokesforlanguage.md
+                    - name: Метод Аддстрокетокустомрекогнизер
+                      href: iinkanalyzer-addstroketocustomrecognizer.md
+                    - name: Метод Аддстрокестокустомрекогнизер
+                      href: iinkanalyzer-addstrokestocustomrecognizer.md
+                    - name: Метод Analyze
+                      href: iinkanalyzer-analyze.md
+                    - name: Метод Баккграунданализе
+                      href: iinkanalyzer-backgroundanalyze.md
+                    - name: Метод Клеарстрокедата
+                      href: iinkanalyzer-clearstrokedata.md
+                    - name: Метод Креатеаналисишинт
+                      href: iinkanalyzer-createanalysishint.md
+                    - name: Метод Креатеконтекстнодес
+                      href: iinkanalyzer-createcontextnodes.md
+                    - name: Метод Креатекустомрекогнизер
+                      href: iinkanalyzer-createcustomrecognizer.md
+                    - name: Метод Делетеаналисишинт
+                      href: iinkanalyzer-deleteanalysishint.md
+                    - name: Метод Финдинклеафнодес
+                      href: iinkanalyzer-findinkleafnodes.md
+                    - name: Метод Финдинклеафнодесфорстрокес
+                      href: iinkanalyzer-findinkleafnodesforstrokes.md
+                    - name: Метод Финдлеафнодес
+                      href: iinkanalyzer-findleafnodes.md
+                    - name: Метод Финдноде
+                      href: iinkanalyzer-findnode.md
+                    - name: Метод Финднодесофтипе
+                      href: iinkanalyzer-findnodesoftype.md
+                    - name: Метод Финднодесофтипефорстрокес
+                      href: iinkanalyzer-findnodesoftypeforstrokes.md
+                    - name: Метод Финднодесофтипеинсубтри
+                      href: iinkanalyzer-findnodesoftypeinsubtree.md
+                    - name: Метод Финднодесвискаллбакк
+                      href: iinkanalyzer-findnodeswithcallback.md
+                    - name: Метод Финднодесвискаллбаккинсубтри
+                      href: iinkanalyzer-findnodeswithcallbackinsubtree.md
+                    - name: Метод Alternate
+                      href: iinkanalyzer-getalternates.md
+                    - name: Метод Жеталтернатесфорконтекстнодес
+                      href: iinkanalyzer-getalternatesforcontextnodes.md
+                    - name: жеталтернатесфорстрокес
+                      href: iinkanalyzer-getalternatesforstrokes.md
+                    - name: Метод Жетаналисишинтс
+                      href: iinkanalyzer-getanalysishints.md
+                    - name: Метод Жетаналисишинтсбинаме
+                      href: iinkanalyzer-getanalysishintsbyname.md
+                    - name: Метод Жетаналисисмодес
+                      href: iinkanalyzer-getanalysismodes.md
+                    - name: Метод Жетдиртирегион
+                      href: iinkanalyzer-getdirtyregion.md
+                    - name: Метод Жетинканалисисрекогнизерсбиприорити
+                      href: iinkanalyzer-getinkanalysisrecognizersbypriority.md
+                    - name: Метод Жетнодесфромтекстранже
+                      href: iinkanalyzer-getnodesfromtextrange.md
+                    - name: Метод Жетрекогнизедстринг
+                      href: iinkanalyzer-getrecognizedstring.md
+                    - name: Метод Жетрутноде
+                      href: iinkanalyzer-getrootnode.md
+                    - name: Метод Жетстрокелангуажеид
+                      href: iinkanalyzer-getstrokelanguageid.md
+                    - name: Метод Жетстрокетипе
+                      href: iinkanalyzer-getstroketype.md
+                    - name: Метод Жеттекстранжефромнодес
+                      href: iinkanalyzer-gettextrangefromnodes.md
+                    - name: Метод анализа
+                      href: iinkanalyzer-isanalyzing.md
+                    - name: Метод Лоадресултс
+                      href: iinkanalyzer-loadresults.md
+                    - name: Метод Модифитопалтернате
+                      href: iinkanalyzer-modifytopalternate.md
+                    - name: Метод Модифитопалтернатевисконфирматион
+                      href: iinkanalyzer-modifytopalternatewithconfirmation.md
+                    - name: Метод Reconcile
+                      href: iinkanalyzer-reconcile.md
+                    - name: Метод Ремовестроке
+                      href: iinkanalyzer-removestroke.md
+                    - name: Метод Ремовестрокес
+                      href: iinkanalyzer-removestrokes.md
+                    - name: Метод Савересултс
+                      href: iinkanalyzer-saveresults.md
+                    - name: Метод Савересултсфорнодес
+                      href: iinkanalyzer-saveresultsfornodes.md
+                    - name: Метод Савересултсфорстрокес
+                      href: iinkanalyzer-saveresultsforstrokes.md
+                    - name: Метод Search
+                      href: iinkanalyzer-search.md
+                    - name: Метод Сеарчвислангуажеид
+                      href: iinkanalyzer-searchwithlanguageid.md
+                    - name: Метод Сетаналисисмодес
+                      href: iinkanalyzer-setanalysismodes.md
+                    - name: Метод Сетдиртирегион
+                      href: iinkanalyzer-setdirtyregion.md
+                    - name: Метод Сесигхестприоритинканалисисрекогнизер
+                      href: iinkanalyzer-sethighestpriorityinkanalysisrecognizer.md
+                    - name: Метод Сетстрокелангуажеид
+                      href: iinkanalyzer-setstrokelanguageid.md
+                    - name: Метод Сетстрокеслангуажеид
+                      href: iinkanalyzer-setstrokeslanguageid.md
+                    - name: Метод Сетстрокестипе
+                      href: iinkanalyzer-setstrokestype.md
+                    - name: Метод Сетстрокетипе
+                      href: iinkanalyzer-setstroketype.md
+                    - name: Метод Упдатестрокесдата
+                      href: iinkanalyzer-updatestrokesdata.md
+                - name: Интерфейс Иматческритериакаллбакк
+                  href: imatchescriteriacallback.md
+                  items:
+                    - name: Метод Евалуатеконтекстноде
+                      href: imatchescriteriacallback-evaluatecontextnode.md
+            - name: Константы анализа рукописного ввода
+              href: ink-analysis-constants.md
+              items:
+                - name: Свойства указания по анализу
+                  href: analysis-hint-properties.md
+                - name: Свойства узла контекста
+                  href: context-node-properties.md
+                - name: Типы узлов контекста
+                  href: context-node-types.md
+            - name: Перечисления анализа рукописного ввода
+              href: ink-analysis-enumerations.md
+              items:
+                - name: Перечисление Аналисисмодес
+                  href: analysismodes.md
+                - name: Перечисление Аналисисварнингкоде
+                  href: analysiswarningcode.md
+                - name: Перечисление Конфирматионтипе
+                  href: confirmationtype.md
+                - name: Контекстлинкдиректион Енумератионенумератион
+                  href: contextlinkdirection.md
+                - name: рекогнитионконфиденце
+                  href: recognitionconfidence.md
+                - name: Перечисление Рекогнизеркапабилитиес
+                  href: recognizercapabilities.md
+                - name: строкетипе
+                  href: stroketype.md
+            - name: События анализа рукописного ввода
+              href: ink-analysis-events.md
+              items:
+                - name: _IAnalysisEvents
+                  href: '-ianalysisevents.md'
+                  items:
+                    - name: Событие действия
+                      href: '-ianalysisevents-activity.md'
+                    - name: Событие Интермедиатересултс
+                      href: '-ianalysisevents-intermediateresults.md'
+                    - name: Событие РеадитореконЦиле
+                      href: '-ianalysisevents-readytoreconcile.md'
+                    - name: Событие Results
+                      href: '-ianalysisevents-results.md'
+                    - name: Событие Упдатестрокескаче
+                      href: '-ianalysisevents-updatestrokescache.md'
+                - name: _IAnalysisProxyEvents
+                  href: '-ianalysisproxyevents.md'
+                  items:
+                    - name: Событие Контекстнодекреатед
+                      href: '-ianalysisproxyevents-contextnodecreated.md'
+                    - name: Событие Контекстнодеделетинг
+                      href: '-ianalysisproxyevents-contextnodedeleting.md'
+                    - name: Событие Контекстноделинкаддинг
+                      href: '-ianalysisproxyevents-contextnodelinkadding.md'
+                    - name: Событие Контекстноделинкделетинг
+                      href: '-ianalysisproxyevents-contextnodelinkdeleting.md'
+                    - name: Событие Контекстнодемовингтопоситион
+                      href: '-ianalysisproxyevents-contextnodemovingtoposition.md'
+                    - name: Событие Контекстнодепропертиесупдатед
+                      href: '-ianalysisproxyevents-contextnodepropertiesupdated.md'
+                    - name: Событие Контекстнодерепарентинг
+                      href: '-ianalysisproxyevents-contextnodereparenting.md'
+                    - name: Событие Инканализерстатечангинг
+                      href: '-ianalysisproxyevents-inkanalyzerstatechanging.md'
+                    - name: Событие Популатеконтекстноде
+                      href: '-ianalysisproxyevents-populatecontextnode.md'
+                    - name: Событие Строкерепарентед
+                      href: '-ianalysisproxyevents-strokereparented.md'
+            - name: Структуры анализа рукописного ввода
+              href: ink-analysis-structures.md
+              items:
+                - name: Структура Инканалисисрекогнизергуиде
+                  href: inkanalysisrecognizerguide.md
+        - name: Ссылка на элемент управления InkEdit
+          href: inkedit-control-reference.md
+          items:
+            - name: События InkEdit
+              href: inkedit-events.md
+              items:
+                - name: Событие изменения
+                  href: inkedit-change.md
+                - name: Событие "Щелчок"
+                  href: inkedit-click.md
+                - name: Двойное событие
+                  href: inkedit-dblclick.md
+                - name: 'Событие жеста [элемент управления InkEdit'
+                  href: inkedit-gesture.md
+                - name: 'Событие KeyDown [элемент управления InkEdit'
+                  href: inkedit-keydown.md
+                - name: 'Событие KeyPress [элемент управления InkEdit'
+                  href: inkedit-keypress.md
+                - name: 'KeyUp, событие [элемент управления InkEdit'
+                  href: inkedit-keyup.md
+                - name: 'MouseDown, событие [элемент управления InkEdit'
+                  href: inkedit-mousedown.md
+                - name: 'MouseMove, событие [элемент управления InkEdit'
+                  href: inkedit-mousemove.md
+                - name: 'MouseUp, событие [элемент управления InkEdit'
+                  href: inkedit-mouseup.md
+                - name: Событие Рекогнитионресулт
+                  href: inkedit-recognitionresult.md
+                - name: Событие Селчанже
+                  href: inkedit-selchange.md
+                - name: 'Stroke, событие [элемент управления InkEdit'
+                  href: inkedit-stroke.md
+                - name: 'Метод Жетжестурестатус [элемент управления InkEdit'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-getgesturestatus
+                - name: 'Метод Recognize [элемент управления InkEdit'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-recognize
+                - name: 'Метод Refresh [элемент управления InkEdit'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-refresh
+                - name: 'Метод Сетжестурестатус [элемент управления InkEdit'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus
+                - name: Свойство Appearance
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_appearance
+                - name: Свойство BackColor
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_backcolor
+                - name: 'BorderStyle, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_borderstyle
+                - name: 'Дисабленоскролл, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_disablenoscroll
+                - name: 'Свойство DrawingAttributes [элемент управления InkEdit'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_drawingattributes
+                - name: Свойство Enabled
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_enabled
+                - name: 'Свойство фактоид [элемент управления InkEdit'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_factoid
+                - name: 'Font, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_font
+                - name: 'hWnd, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_hwnd
+                - name: 'Инкинсертмоде, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_inkinsertmode
+                - name: 'Инкмоде, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_inkmode
+                - name: Заблокированное свойство
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_locked
+                - name: 'MaxLength, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_maxlength
+                - name: 'Маусеикон, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_mouseicon
+                - name: 'MousePointer, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_mousepointer
+                - name: Многострочное свойство
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_multiline
+                - name: 'Рекотимеаут, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout
+                - name: 'Свойство распознавателя [элемент управления InkEdit'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_recognizer
+                - name: Свойство полосы прокрутки
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_scrollbars
+                - name: 'Селалигнмент, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selalignment
+                - name: 'Селболд, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selbold
+                - name: 'Селчароффсет, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selcharoffset
+                - name: 'Селколор, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selcolor
+                - name: 'Селфонтнаме, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selfontname
+                - name: 'Селфонтсизе, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selfontsize
+                - name: 'Селинкс, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selinks
+                - name: 'Селинксдисплаймоде, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selinksdisplaymode
+                - name: 'Селиталик, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selitalic
+                - name: 'Селленгс, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_sellength
+                - name: 'Селртф, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selrtf
+                - name: 'Селстарт, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selstart
+                - name: 'Селтекст, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_seltext
+                - name: 'Селундерлине, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_selunderline
+                - name: Свойство Status
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_status
+                - name: Свойство Text
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_text
+                - name: 'Текстртф, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_textrtf
+                - name: 'Усемаусефоринпут, свойство'
+                  href: /windows/desktop/api/inked/nf-inked-iinkedit-get_usemouseforinput
+            - name: Перечисления InkEdit
+              href: inkedit-enumerations.md
+              items:
+                - name: Перечисление Аппеаранцеконстантс
+                  href: /windows/desktop/api/inked/ne-inked-appearanceconstants
+                - name: Перечисление Бордерстилеконстантс
+                  href: /windows/desktop/api/inked/ne-inked-borderstyleconstants
+                - name: Перечисление Инкдисплаймоде
+                  href: /windows/desktop/api/inked/ne-inked-inkdisplaymode
+                - name: Перечисление Инкедитстатус
+                  href: /windows/desktop/api/inked/ne-inked-inkeditstatus
+                - name: Перечисление Инкинсертмоде
+                  href: /windows/desktop/api/inked/ne-inked-inkinsertmode
+                - name: Перечисление Инкмоде
+                  href: /windows/desktop/api/inked/ne-inked-inkmode
+                - name: Перечисление Маусебуттон
+                  href: /windows/desktop/api/inked/ne-inked-mousebutton
+                - name: Перечисление Скроллбарсконстантс
+                  href: /windows/desktop/api/inked/ne-inked-scrollbarsconstants
+                - name: Перечисление Селалигнментконстантс
+                  href: /windows/desktop/api/inked/ne-inked-selalignmentconstants
+            - name: 'InkEdit, сообщения'
+              href: inkedit-messages.md
+              items:
+                - name: Сообщения InkEdit (только Win32)
+                  href: inkedit-messages--win32-only-.md
+            - name: Методы InkEdit
+              href: inkedit-methods.md
+            - name: Свойства InkEdit
+              href: inkedit-properties.md
+            - name: Структуры InkEdit
+              href: inkedit-structures.md
+              items:
+                - name: Структура IEC_GESTUREINFO (только Win32)
+                  href: /windows/desktop/api/inked/ns-inked-iec_gestureinfo
+                - name: Структура IEC_RECOGNITIONRESULTINFO (только Win32)
+                  href: /windows/desktop/api/inked/ns-inked-iec_recognitionresultinfo
+                - name: Структура IEC_STROKEINFO (только Win32)
+                  href: /windows/desktop/api/inked/ns-inked-iec_strokeinfo
+        - name: Справочник по элементу управления InkPicture
+          href: inkpicture-control-reference.md
+          items:
+            - name: Перечисления InkPicture
+              href: inkpicture-enumerations.md
+              items:
+                - name: Перечисление Инкпиктуресиземоде
+                  href: /windows/desktop/api/msinkaut/ne-msinkaut-inkpicturesizemode
+            - name: События InkPicture
+              href: inkpicture-events.md
+              items:
+                - name: Событие "Щелчок"
+                  href: inkpicture-click.md
+                - name: Событие Курсорбуттондовн
+                  href: inkpicture-cursorbuttondown.md
+                - name: Событие Курсорбуттонуп
+                  href: inkpicture-cursorbuttonup.md
+                - name: Событие Курсордовн
+                  href: inkpicture-cursordown.md
+                - name: Событие Курсоринранже
+                  href: inkpicture-cursorinrange.md
+                - name: Событие Курсораутофранже
+                  href: inkpicture-cursoroutofrange.md
+                - name: Двойное событие
+                  href: inkpicture-dblclick.md
+                - name: Событие жеста
+                  href: inkpicture-gesture.md
+                - name: Событие KeyDown
+                  href: inkpicture-keydown.md
+                - name: Событие KeyPress
+                  href: inkpicture-keypress.md
+                - name: Событие KeyUp
+                  href: inkpicture-keyup.md
+                - name: 'MouseDown, событие'
+                  href: inkpicture-mousedown.md
+                - name: Событие MouseEnter
+                  href: inkpicture-mouseenter.md
+                - name: Событие Маусеховер
+                  href: inkpicture-mousehover.md
+                - name: 'MouseLeave, событие'
+                  href: inkpicture-mouseleave.md
+                - name: Событие MouseMove
+                  href: inkpicture-mousemove.md
+                - name: 'MouseUp, событие'
+                  href: inkpicture-mouseup.md
+                - name: Событие Маусевхил
+                  href: inkpicture-mousewheel.md
+                - name: Событие Невинаирпаккетс
+                  href: inkpicture-newinairpackets.md
+                - name: Событие Невпаккетс
+                  href: inkpicture-newpackets.md
+                - name: Закрашиваемое событие
+                  href: inkpicture-painted.md
+                - name: Событие рисования
+                  href: inkpicture-painting.md
+                - name: Событие изменения размера
+                  href: inkpicture-resize.md
+                - name: Событие SelectionChanged
+                  href: inkpicture-selectionchanged.md
+                - name: Событие Селектиончангинг
+                  href: inkpicture-selectionchanging.md
+                - name: Событие Селектионмовед
+                  href: inkpicture-selectionmoved.md
+                - name: Событие Селектионмовинг
+                  href: inkpicture-selectionmoving.md
+                - name: Событие Селектионресизед
+                  href: inkpicture-selectionresized.md
+                - name: Событие Селектионресизинг
+                  href: inkpicture-selectionresizing.md
+                - name: Событие SizeChanged
+                  href: inkpicture-sizechanged.md
+                - name: Событие Сиземодечанжед
+                  href: inkpicture-sizemodechanged.md
+                - name: Событие Stroke
+                  href: inkpicture-stroke.md
+                - name: Событие Строкесаддед
+                  href: inkpicture-strokesadded.md
+                - name: Событие Строкесделетед
+                  href: inkpicture-strokesdeleted.md
+                - name: Событие Строкесделетинг
+                  href: inkpicture-strokesdeleting.md
+                - name: Событие Системколорсчанжед
+                  href: inkpicture-systemcolorschanged.md
+                - name: Событие Системжестуре
+                  href: inkpicture-systemgesture.md
+                - name: Событие Таблетаддед
+                  href: inkpicture-tabletadded.md
+                - name: Событие Таблетремовед
+                  href: inkpicture-tabletremoved.md
+            - name: Методы InkPicture
+              href: inkpicture-methods.md
+              items:
+                - name: Метод Жетевентинтерест
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-geteventinterest
+                - name: Метод Жетжестурестатус
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getgesturestatus
+                - name: Метод Жетвиндовинпутректангле
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-getwindowinputrectangle
+                - name: Метод Хиттестселектион
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-hittestselection
+                - name: Метод Сеталлтаблетсмоде
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setalltabletsmode
+                - name: Метод Сетевентинтерест
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-seteventinterest
+                - name: Метод Сетжестурестатус
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setgesturestatus
+                - name: Метод Сетсинглетаблетинтегратедмоде
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setsingletabletintegratedmode
+                - name: Метод Сетвиндовинпутректангле
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle
+            - name: Свойства InkPicture
+              href: inkpicture-properties.md
+              items:
+                - name: 'Ауторедрав, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw
+                - name: Свойство BackColor
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor
+                - name: 'Коллектингинк, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink
+                - name: 'Свойство режиме CollectionMode [элемент управления InkPicture'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode
+                - name: 'Cursor, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors
+                - name: 'Свойство Кустомстрокес [элемент управления InkPicture'
+                  href: /previous-versions/windows/desktop/legacy/ms703274(v=vs.85)
+                - name: 'DefaultDrawingAttributes, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes
+                - name: 'Десиредпаккетдескриптион, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription
+                - name: 'Динамикрендеринг, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering
+                - name: 'Свойство EditingMode [элемент управления InkPicture'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode
+                - name: 'Свойство Ерасермоде [элемент управления InkPicture'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode
+                - name: 'Enabled, свойство [элемент управления InkPicture'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled
+                - name: 'Свойство Ерасервидс [элемент управления InkPicture'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth
+                - name: 'hWnd, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd
+                - name: 'Ink, свойство [элемент управления InkPicture'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink
+                - name: 'Инкенаблед, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled
+                - name: 'Маргинкс, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginx
+                - name: Свойство Margin
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginy
+                - name: 'Маусеикон, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mouseicon
+                - name: 'MousePointer, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer
+                - name: Свойство Picture
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture
+                - name: Свойство модуля подготовки отчетов
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer
+                - name: 'Свойство Selection [элемент управления InkPicture'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection
+                - name: 'Сиземоде, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode
+                - name: 'Суппорсигхконтрастинк, свойство'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastink
+                - name: 'Свойство Суппорсигхконтрастселектионуи [элемент управления InkPicture'
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastselectionui
+                - name: Свойство планшета
+                  href: /windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_tablet
+        - name: Справочник по компоненту чтения журнала
+          href: journal-reader-component-reference.md
+          items:
+            - name: Классы и интерфейсы компонентов средства чтения журнала
+              href: journal-reader-component-classes-and-interfaces.md
+              items:
+                - name: Интерфейс Ижаурналреадер
+                  href: ijournalreader.md
+                  items:
+                    - name: Метод Реадфромстреам
+                      href: ijournalreader-readfromstream.md
+            - name: Идентификаторы GUID средства чтения журнала
+              href: journal-reader-guids.md
+              items:
+                - name: Идентификаторы GUID настраиваемых свойств
+                  href: custom-property-guids.md
+        - name: Справочник по элементу управления математическим вводом
+          href: math-input-control-reference.md
+          items:
+            - name: Классы и интерфейсы для ввода математических символов
+              href: mic-classes-and-interfaces.md
+              items:
+                - name: _IMathInputControlEvents
+                  href: /windows/desktop/api/micaut/nn-micaut-_imathinputcontrolevents
+                  items:
+                    - name: Метод Clear
+                      href: /previous-versions/windows/desktop/legacy/dd317350(v=vs.85)
+                    - name: Метод Close
+                      href: /previous-versions/windows/desktop/legacy/dd317351(v=vs.85)
+                    - name: Вставить метод
+                      href: /previous-versions/windows/desktop/legacy/dd317352(v=vs.85)
+                    - name: Метод Paint
+                      href: /previous-versions/windows/desktop/legacy/dd317353(v=vs.85)
+                - name: имасинпутконтрол
+                  href: /windows/desktop/api/micaut/nn-micaut-imathinputcontrol
+                  items:
+                    - name: Метод Аддфунктионнаме
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-addfunctionname
+                    - name: Метод Clear
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-clear
+                    - name: Метод Енаблеаутогров
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-enableautogrow
+                    - name: Метод Енабликстендедбуттонс
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-enableextendedbuttons
+                    - name: Метод Жесоверикон
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-gethovericon
+                    - name: Метод метода Disposition
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition
+                    - name: Метод Жетпревиевхеигхт
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getpreviewheight
+                    - name: 'Hide, метод'
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-hide
+                    - name: 'Visible, метод'
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-isvisible
+                    - name: Метод Лоадинк
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-loadink
+                    - name: Метод Ремовефунктионнаме
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-removefunctionname
+                    - name: Метод Сеткаптионтекст
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setcaptiontext
+                    - name: Метод Сеткустомпаинт
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setcustompaint
+                    - name: Метод Сетовнервиндов
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setownerwindow
+                    - name: Метод SetPosition
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition
+                    - name: Метод Сетпревиевхеигхт
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setpreviewheight
+                    - name: Метод отображения
+                      href: /windows/desktop/api/micaut/nf-micaut-imathinputcontrol-show
+            - name: Математические входные перечисления
+              href: mip-enumerations.md
+              items:
+                - name: Перечисление МИКУИЕЛЕМЕНТ
+                  href: /windows/win32/api/micaut/ne-micaut-micuielement
+                - name: Перечисление МИКУИЕЛЕМЕНТСТАТЕ
+                  href: /windows/win32/api/micaut/ne-micaut-micuielementstate
+        - name: Ссылка RealTimeStylus
+          href: realtimestylus-reference.md
+          items:
+            - name: Классы и интерфейсы RealTimeStylus
+              href: realtimestylus-classes-and-interfaces.md
+              items:
+                - name: Класс DynamicRenderer
+                  href: /previous-versions/windows/desktop/legacy/ms701168(v=vs.85)
+                - name: Класс GestureRecognizer
+                  href: gesturerecognizer-class.md
+                - name: Интерфейс Идинамикрендерер
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-idynamicrenderer
+                  items:
+                    - name: 'Клипректангле, свойство'
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_cliprectangle
+                    - name: 'Клипрегион, свойство'
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_clipregion
+                    - name: датакачинаблед
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_datacacheenabled
+                    - name: Свойство метода Draw
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-draw
+                    - name: 'DrawingAttributes, свойство'
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_drawingattributes
+                    - name: Свойство Enabled
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_enabled
+                    - name: 'HWND, свойство'
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_hwnd
+                    - name: Метод Refresh
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-refresh
+                    - name: Метод Релеасекачеддата
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-releasecacheddata
+                - name: Интерфейс Ижестуререкогнизер
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-igesturerecognizer
+                  items:
+                    - name: Метод Енаблежестурес
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-enablegestures
+                    - name: Свойство Enabled
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-get_enabled
+                    - name: 'Максстрокекаунт, свойство'
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-get_maxstrokecount
+                    - name: Метод Reset
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-igesturerecognizer-reset
+                - name: Интерфейс Иреалтиместилус
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus
+                  items:
+                    - name: Метод Аддкустомстилусдататокуеуе
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-addcustomstylusdatatoqueue
+                    - name: Метод Аддстилусасинкплугин
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-addstylusasyncplugin
+                    - name: Метод Аддстилуссинкплугин
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-addstylussyncplugin
+                    - name: 'Чилдреалтиместилусплугин, свойство'
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_childrealtimestylusplugin
+                    - name: Метод Клеарстилускуеуес
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-clearstylusqueues
+                    - name: Включенный метод свойства
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_enabled
+                    - name: Метод Жеталлтаблетконтекстидс
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getalltabletcontextids
+                    - name: Метод Жетдесиредпаккетдескриптион
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getdesiredpacketdescription
+                    - name: Метод Жетпаккетдескриптиондата
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getpacketdescriptiondata
+                    - name: Метод Жетстилусасинкплугин
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylusasyncplugin
+                    - name: Метод Жетстилусасинкплугинкаун
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylusasyncplugincount
+                    - name: Метод пере
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstyluses
+                    - name: Метод Жетстилусфорид
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylusforid
+                    - name: Метод Жетстилуссинкплугин
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylussyncplugin
+                    - name: Метод Жетстилуссинкплугинкаунт
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-getstylussyncplugincount
+                    - name: Метод DataTable
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-gettablet
+                    - name: Метод Жеттаблетконтекстидфромтаблет
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-gettabletcontextidfromtablet
+                    - name: Метод Жеттаблетфромтаблетконтекстид
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-gettabletfromtabletcontextid
+                    - name: 'HWND, свойство'
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_hwnd
+                    - name: Метод Ремовеаллстилусасинкплугинс
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removeallstylusasyncplugins
+                    - name: Метод Ремовеаллстилуссинкплугинс
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removeallstylussyncplugins
+                    - name: Метод Ремовестилусасинкплугин
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removestylusasyncplugin
+                    - name: Метод Ремовестилуссинкплугин
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-removestylussyncplugin
+                    - name: Метод Сеталлтаблетсмоде
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-setalltabletsmode
+                    - name: Метод Сетдесиредпаккетдескриптион
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-setdesiredpacketdescription
+                    - name: Метод Сетсинглетаблетмоде
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-setsingletabletmode
+                    - name: 'Виндовинпутректангле, свойство'
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus-get_windowinputrectangle
+                - name: Интерфейс IRealTimeStylus2
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus2
+                  items:
+                    - name: Метод get_FlicksEnabled
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus2-get_flicksenabled
+                    - name: Метод put_FlicksEnabled
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylus2-put_flicksenabled
+                - name: IRealTimeStylus3
+                  href: /windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3
+                  items:
+                    - name: 'Мултитаученаблед, свойство'
+                      href: /windows/desktop/api/rtscom/nf-rtscom-irealtimestylus3-get_multitouchenabled
+                - name: Интерфейс Иреалтиместилуссинчронизатион
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-irealtimestylussynchronization
+                  items:
+                    - name: Метод Аккуирелокк
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylussynchronization-acquirelock
+                    - name: Метод ReleaseLock
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-irealtimestylussynchronization-releaselock
+                - name: Интерфейс Истрокебуилдер
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-istrokebuilder
+                  items:
+                    - name: Метод Аппендпаккетс
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-appendpackets
+                    - name: Метод Бегинстроке
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-beginstroke
+                    - name: Метод Креатестроке
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-createstroke
+                    - name: Метод Ендстроке
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-endstroke
+                    - name: 'Ink, свойство'
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istrokebuilder-get_ink
+                - name: Интерфейс Истилусасинкплугин
+                  href: /windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin
+                - name: Интерфейс Истилусплугин
+                  href: /windows/desktop/api/RTSCom/nn-rtscom-istylusplugin
+                  items:
+                    - name: Метод Кустомстилусдатааддед
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-customstylusdataadded
+                    - name: Метод in
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-datainterest
+                    - name: Метод Error
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-error
+                    - name: Метод Инаирпаккетс
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-inairpackets
+                    - name: Метод пакетов
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-packets
+                    - name: Метод Реалтиместилусенаблед
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-realtimestylusenabled
+                    - name: Метод Реалтиместилусдисаблед
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-realtimestylusdisabled
+                    - name: Метод Стилусбуттондовн
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusbuttondown
+                    - name: Метод Стилусбуттонуп
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusbuttonup
+                    - name: Метод Стилусдовн
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusdown
+                    - name: Метод Системевент
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-systemevent
+                    - name: Метод Стилусинранже
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusinrange
+                    - name: Метод Стилусаутофранже
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusoutofrange
+                    - name: Метод Стилусуп
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusup
+                    - name: Метод Таблетаддед
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-tabletadded
+                    - name: Метод Таблетремовед
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-tabletremoved
+                    - name: Метод UpdateMapping
+                      href: /windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-updatemapping
+                - name: Интерфейс Истилуссинкплугин
+                  href: /windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin
+                - name: Класс RealTimeStylus
+                  href: realtimestylus-class.md
+                - name: Класс Строкебуилдер
+                  href: strokebuilder-class.md
+            - name: Перечисления RealTimeStylus
+              href: realtimestylus-enumerations.md
+              items:
+                - name: Перечисления Реалтиместилусдатаинтерест
+                  href: /windows/desktop/api/RTSCom/ne-rtscom-realtimestylusdatainterest
+                - name: Перечисления Реалтиместилуслокктипе
+                  href: /windows/desktop/api/RTSCom/ne-rtscom-realtimestyluslocktype
+                - name: Перечисления Стилускуеуе
+                  href: /windows/desktop/api/RTSCom/ne-rtscom-stylusqueue
+            - name: Структуры RealTimeStylus
+              href: realtimestylus-structures.md
+              items:
+                - name: Структура Стилусинфо
+                  href: /windows/desktop/api/RTSCom/ns-rtscom-stylusinfo
+                - name: Структура SYSTEM_EVENT_DATA
+                  href: /windows/win32/api/tpcshrd/ns-tpcshrd-system_event_data
+        - name: Справочник по распознавателю
+          href: recognizer-apis.md
+          items:
+            - name: 'ХРЕКОАЛТ, обработчик'
+              href: hrecoalt-handle.md
+              items:
+                - name: Функция Дестройалтернате
+                  href: /windows/desktop/api/recapis/nf-recapis-destroyalternate
+                - name: Функция Жетконфиденцелевел
+                  href: /previous-versions/windows/desktop/legacy/ms704829(v=vs.85)
+                - name: Функция Жетгуидеиндекс
+                  href: /previous-versions/windows/desktop/legacy/ms701152(v=vs.85)
+                - name: Функция "с метриками"
+                  href: /previous-versions/windows/desktop/legacy/ms695560(v=vs.85)
+                - name: Функция Жетпропертиранжес
+                  href: /previous-versions/windows/desktop/legacy/ms695602(v=vs.85)
+                - name: Функция Жетсегменталтернателист
+                  href: /previous-versions/windows/desktop/legacy/ms701702(v=vs.85)
+                - name: 'GetString, функция'
+                  href: /previous-versions/windows/desktop/legacy/ms704890(v=vs.85)
+                - name: Функция Жетстрокеранжес
+                  href: /previous-versions/windows/desktop/legacy/ms705304(v=vs.85)
+            - name: 'ХРЕКОКОНТЕКСТ, обработчик'
+              href: hrecocontext-handle.md
+              items:
+                - name: Функция Аддстроке
+                  href: /windows/desktop/api/recapis/nf-recapis-addstroke
+                - name: Функция Адвисеинкчанже
+                  href: /windows/desktop/api/recapis/nf-recapis-adviseinkchange
+                - name: Функция Клонеконтекст
+                  href: /windows/desktop/api/recapis/nf-recapis-clonecontext
+                - name: Функция Ендинкинпут
+                  href: /windows/desktop/api/recapis/nf-recapis-endinkinput
+                - name: Функция Жеталтернателист
+                  href: /previous-versions/windows/desktop/legacy/ms698163(v=vs.85)
+                - name: Функция Жетбесталтернате
+                  href: /previous-versions/windows/desktop/legacy/ms699575(v=vs.85)
+                - name: Функция Жетбестресултстринг
+                  href: /windows/desktop/api/recapis/nf-recapis-getbestresultstring
+                - name: жетконтекстпреференцефлагс
+                  href: /windows/desktop/api/recapis/nf-recapis-getcontextpreferenceflags
+                - name: Функция Жетконтекстпропертилист
+                  href: /windows/desktop/api/recapis/nf-recapis-getcontextpropertylist
+                - name: Функция Жетконтекстпропертивалуе
+                  href: /windows/desktop/api/recapis/nf-recapis-getcontextpropertyvalue
+                - name: Функция Жетенабледуникодеранжес
+                  href: /windows/desktop/api/recapis/nf-recapis-getenabledunicoderanges
+                - name: Функция onguide
+                  href: /windows/desktop/api/recapis/nf-recapis-getguide
+                - name: Функция Жетлаттицептр
+                  href: /windows/desktop/api/recapis/nf-recapis-getlatticeptr
+                - name: жетлефтсепаратор
+                  href: /windows/desktop/api/recapis/nf-recapis-getleftseparator
+                - name: жетригхтсепаратор
+                  href: /windows/desktop/api/recapis/nf-recapis-getrightseparator
+                - name: Функция Исстрингсуппортед
+                  href: /windows/desktop/api/recapis/nf-recapis-isstringsupported
+                - name: 'Process, функция'
+                  href: /windows/desktop/api/recapis/nf-recapis-process
+                - name: Функция Ресетконтекст
+                  href: /windows/desktop/api/recapis/nf-recapis-resetcontext
+                - name: Функция Сеткакмоде
+                  href: /windows/desktop/api/recapis/nf-recapis-setcacmode
+                - name: Функция Сетконтекстпропертивалуе
+                  href: /windows/desktop/api/recapis/nf-recapis-setcontextpropertyvalue
+                - name: Функция Сетенабледуникодеранжес
+                  href: /windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges
+                - name: Функция Сетфактоид
+                  href: /windows/desktop/api/recapis/nf-recapis-setfactoid
+                - name: Функция Сетфлагс
+                  href: /windows/desktop/api/recapis/nf-recapis-setflags
+                - name: Функция Сетгуиде
+                  href: /windows/desktop/api/recapis/nf-recapis-setguide
+                - name: Функция Сеттекстконтекст
+                  href: /windows/desktop/api/recapis/nf-recapis-settextcontext
+                - name: Функция Сетвордлист
+                  href: /windows/desktop/api/recapis/nf-recapis-setwordlist
+            - name: 'ХРЕКОГНИЗЕР, обработчик'
+              href: hrecognizer-handle.md
+              items:
+                - name: Функция CreateContext
+                  href: /windows/desktop/api/recapis/nf-recapis-createcontext
+                - name: Функция Креатерекогнизер
+                  href: /windows/desktop/api/recapis/nf-recapis-createrecognizer
+                - name: Функция Дестройконтекст
+                  href: /windows/desktop/api/recapis/nf-recapis-destroycontext
+                - name: Функция Дестройрекогнизер
+                  href: /windows/desktop/api/recapis/nf-recapis-destroyrecognizer
+                - name: жеталлрекогнизерс
+                  href: /windows/desktop/api/recapis/nf-recapis-getallrecognizers
+                - name: Функция Жетпреферредпаккетдескриптион
+                  href: /windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription
+                - name: Функция Жетрекоаттрибутес
+                  href: /windows/desktop/api/recapis/nf-recapis-getrecoattributes
+                - name: Функция Жетресултпропертилист
+                  href: /windows/desktop/api/recapis/nf-recapis-getresultpropertylist
+                - name: Функция Жетуникодеранжес
+                  href: /windows/desktop/api/recapis/nf-recapis-getunicoderanges
+                - name: лоадкачедаттрибутес
+                  href: /windows/desktop/api/recapis/nf-recapis-loadcachedattributes
+            - name: 'ХРЕКОВОРДЛИСТ, обработчик'
+              href: hrecowordlist-handle.md
+              items:
+                - name: Функция Аддвордстовордлист
+                  href: /windows/desktop/api/recapis/nf-recapis-addwordstowordlist
+                - name: Функция Дестройвордлист
+                  href: /windows/desktop/api/recapis/nf-recapis-destroywordlist
+                - name: Функция Макевордлист
+                  href: /windows/desktop/api/recapis/nf-recapis-makewordlist
+            - name: Перечисления модуля распознавания
+              href: recognizer-api-enumerations.md
+              items:
+                - name: Перечисление ALT_BREAKS
+                  href: /windows/win32/api/rectypes/ne-rectypes-alt_breaks
+                - name: Перечисление CONFIDENCE_LEVEL
+                  href: /windows/win32/api/rectypes/ne-rectypes-confidence_level
+                - name: Перечисление LINE_METRICS
+                  href: /windows/win32/api/rectypes/ne-rectypes-line_metrics
+                - name: Перечисление PROPERTY_UNITS
+                  href: /windows/win32/api/tpcshrd/ne-tpcshrd-property_units
+            - name: Структуры распознавателя
+              href: recognizer-api-structures.md
+              items:
+                - name: Структура CHARACTER_RANGE
+                  href: /windows/win32/api/rectypes/ns-rectypes-character_range
+                - name: Структура LATTICE_METRICS
+                  href: /windows/win32/api/rectypes/ns-rectypes-lattice_metrics
+                - name: Структура LINE_SEGMENT
+                  href: /windows/win32/api/rectypes/ns-rectypes-line_segment
+                - name: Структура PACKET_DESCRIPTION
+                  href: /windows/win32/api/tpcshrd/ns-tpcshrd-packet_description
+                - name: Структура PACKET_PROPERTY
+                  href: /windows/win32/api/tpcshrd/ns-tpcshrd-packet_property
+                - name: Структура PROPERTY_METRICS
+                  href: /windows/win32/api/tpcshrd/ns-tpcshrd-property_metrics
+                - name: Структура RECO_ATTRS
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_attrs
+                - name: Структура RECO_GUIDE
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_guide
+                - name: Структура RECO_LATTICE
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice
+                - name: Структура RECO_LATTICE_COLUMN
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_column
+                - name: Структура RECO_LATTICE_ELEMENT
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_element
+                - name: Структура RECO_LATTICE_PROPERTIES
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_properties
+                - name: Структура RECO_LATTICE_PROPERTY
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_property
+                - name: Структура RECO_RANGE
+                  href: /windows/win32/api/rectypes/ns-rectypes-reco_range
+                - name: Структура STROKE_RANGE
+                  href: /windows/win32/api/tpcshrd/ns-tpcshrd-stroke_range
+            - name: Идентификаторы GUID распознавателя
+              href: recognizer-guids.md
+              items:
+                - name: Идентификаторы GUID Паккетпроперти
+                  href: packetproperty-guids.md
+                - name: Идентификаторы GUID свойств
+                  href: property-guids.md
+        - name: Справочник по панели ввода текста
+          href: text-input-panel-reference.md
+          items:
+            - name: Сообщения на панели ввода текста
+              href: tip-messages.md
+              items:
+                - name: Сообщение MICROSOFT_TIP_OPENING_MSG
+                  href: microsoft-tip-opening-msg.md
+            - name: Перечисления на панели ввода текста
+              href: text-input-panel-enumerations.md
+              items:
+                - name: Перечисление Корректионмоде
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode
+                - name: Перечисление Корректионпоситион
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-correctionposition
+                - name: Перечисление Евентмаск
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-eventmask
+                - name: Перечисление Инплацедиректион
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-inplacedirection
+                - name: Перечисление Инплацестате
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate
+                - name: Перечисление Интерактионмоде
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode
+                - name: Перечисление Панелинпутареа
+                  href: /windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea
+            - name: Интерфейсы панели ввода текста
+              href: text-input-panel-interfaces.md
+              items:
+                - name: Интерфейс Ихандвриттентекстинсертион
+                  href: /windows/desktop/api/peninputpanel/nn-peninputpanel-ihandwrittentextinsertion
+                  items:
+                    - name: Метод Инсертинкрекогнитионресулт
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertinkrecognitionresult
+                    - name: Метод Инсертрекогнитионресултсаррай
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertrecognitionresultsarray
+                - name: Интерфейс Итекстинпутпанел
+                  href: /windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel
+                  items:
+                    - name: Метод advise
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-advise
+                    - name: 'Аттачедедитвиндов, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_attachededitwindow
+                    - name: Метод Коммитпендингинпут
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-commitpendinginput
+                    - name: 'Курренткорректионмоде, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentcorrectionmode
+                    - name: 'Куррентинплацестате, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinplacestate
+                    - name: 'Куррентинпутареа, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinputarea
+                    - name: 'Куррентинтерактионмоде, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinteractionmode
+                    - name: 'Дефаултинплацестате, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_defaultinplacestate
+                    - name: 'Дефаултинпутареа, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_defaultinputarea
+                    - name: 'Експандпостинсертионкорректион, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_expandpostinsertioncorrection
+                    - name: 'Инплацебаундингректангле, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_inplaceboundingrectangle
+                    - name: 'Инплацевисиблеонфокус, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_inplacevisibleonfocus
+                    - name: 'Попдовнкорректионхеигхт, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_popdowncorrectionheight
+                    - name: 'Попупкорректионхеигхт, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_popupcorrectionheight
+                    - name: 'Преферрединплацедиректион, свойство'
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_preferredinplacedirection
+                    - name: Метод Сетинплацеховертаржетпоситион
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacehovertargetposition
+                    - name: Метод Сетинплацепоситион
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplaceposition
+                    - name: Метод Сетинплацевисибилити
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplacevisibility
+                    - name: Метод unadvise
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-unadvise
+                - name: Интерфейс Итекстинпутпанелевентсинк
+                  href: /windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpaneleventsink
+                  items:
+                    - name: Метод Корректионмодечанжед
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanged
+                    - name: Метод Корректионмодечангинг
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-correctionmodechanging
+                    - name: Метод Инплацесизечанжед
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanged
+                    - name: Метод Инплацесизечангинг
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacesizechanging
+                    - name: Метод Инплацестатечанжед
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanged
+                    - name: Метод Инплацестатечангинг
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacestatechanging
+                    - name: Метод Инплацевисибилитичанжед
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanged
+                    - name: Метод Инплацевисибилитичангинг
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanging
+                    - name: Метод Инпутареачанжед
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanged
+                    - name: Метод Инпутареачангинг
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanging
+                    - name: Метод Текстинсертед
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserted
+                    - name: Метод Текстинсертинг
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserting
+                - name: Интерфейс Итекстинпутпанелрунинфо
+                  href: /windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanelruninfo
+                  items:
+                    - name: Метод Истипруннинг
+                      href: /windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanelruninfo-istiprunning
+                - name: Интерфейс Итипаутокомплетеклиент
+                  href: itipautocompleteclient.md
+                  items:
+                    - name: Метод Адвисепровидер
+                      href: itipautocompleteclient-adviseprovider.md
+                    - name: Метод Преферредректс
+                      href: itipautocompleteclient-preferredrects.md
+                    - name: Метод Рекуестшовуи
+                      href: itipautocompleteclient-requestshowui.md
+                    - name: Метод Унадвисепровидер
+                      href: itipautocompleteclient-unadviseprovider.md
+                    - name: Метод Усерселектион
+                      href: itipautocompleteclient-userselection.md
+                - name: Интерфейс Итипаутокомплетепровидер
+                  href: itipautocompleteprovider.md
+                  items:
+                    - name: Метод Упдатепендингтекст
+                      href: itipautocompleteprovider-updatependingtext.md
+                    - name: Метод отображения
+                      href: itipautocompleteprovider-show.md
+    - name: Приложений для планшетных ПК
+      href: appendices.md
+      items:
+        - name: 'COM API, используемый Windows Presentation Foundation'
+          href: com-apis-used-by-windows-presentation-foundation.md
+          items:
+            - name: 'Сообщения, используемые WPF'
+              href: messages--wisp-apis.md
+              items:
+                - name: WM_TABLET_ADDED
+                  href: wm-tablet-added.md
+                - name: WM_TABLET_DELETED
+                  href: wm-tablet-deleted.md
+            - name: 'Интерфейсы, используемые WPF'
+              href: interfaces--wisp-apis.md
+              items:
+                - name: Интерфейс Итаблет
+                  href: itablet.md
+                  items:
+                    - name: Метод CreateContext
+                      href: itablet-createcontext.md
+                    - name: Метод oncursor
+                      href: /previous-versions/windows/desktop/legacy/aa373535(v=vs.85)
+                    - name: Метод Жеткурсоркаунт
+                      href: itablet-getcursorcount.md
+                    - name: Метод Жетдефаултконтекстсеттингс
+                      href: itablet-getdefaultcontextsettings.md
+                    - name: Метод Жесардварекапс
+                      href: itablet-gethardwarecaps.md
+                    - name: Метод Жетмаксинпутрект
+                      href: itablet-getmaxinputrect.md
+                    - name: Метод GetName
+                      href: itablet-getname.md
+                    - name: Метод Жетплугандплайид
+                      href: itablet-getplugandplayid.md
+                    - name: Метод Жетпропертиметрикс
+                      href: /previous-versions/windows/desktop/legacy/aa367722(v=vs.85)
+                - name: Интерфейс ITablet2
+                  href: itablet2.md
+                  items:
+                    - name: Метод Жетдевицекинд
+                      href: itablet2-getdevicekind.md
+                - name: ITablet3
+                  href: itablet3.md
+                  items:
+                    - name: Метод Жетмаксимумкурсорс
+                      href: itablet3-getmaximumcursors.md
+                    - name: Метод Исмултитауч
+                      href: itablet3-ismultitouch.md
+                - name: итаблетконтекст
+                  href: itabletcontext.md
+                - name: Интерфейс Итаблетконтекстп
+                  href: itabletcontextp.md
+                  items:
+                    - name: Метод Истопмоссук
+                      href: itabletcontextp-istopmosthook.md
+                    - name: Метод перекрытия
+                      href: itabletcontextp-overlap.md
+                    - name: Метод Траккинпутрект
+                      href: itabletcontextp-trackinputrect.md
+                    - name: Метод Усенамедшаредмеморикоммуникатионс
+                      href: itabletcontextp-usenamedsharedmemorycommunications.md
+                    - name: Метод Усешаредмеморикоммуникатионс
+                      href: itabletcontextp-usesharedmemorycommunications.md
+                - name: Интерфейс Итаблеткурсор
+                  href: itabletcursor.md
+                  items:
+                    - name: Метод "Кнопка"
+                      href: itabletcursor-getbutton.md
+                    - name: Метод Жетбуттонкаунт
+                      href: itabletcursor-getbuttoncount.md
+                    - name: Метод GetID
+                      href: itabletcursor-getid.md
+                    - name: Метод GetName
+                      href: itabletcursor-getname.md
+                    - name: Метод инверсии
+                      href: itabletcursor-isinverted.md
+                - name: Интерфейс Итаблеткурсорбуттон
+                  href: itabletcursorbutton.md
+                  items:
+                    - name: Метод GetGuid
+                      href: itabletcursorbutton-getguid.md
+                    - name: Метод GetName
+                      href: itabletcursorbutton-getname.md
+                - name: Интерфейс Итаблетевентсинк
+                  href: itableteventsink.md
+                  items:
+                    - name: Метод Контексткреате
+                      href: itableteventsink-contextcreate.md
+                    - name: Метод Контекстдестрой
+                      href: itableteventsink-contextdestroy.md
+                    - name: Метод Курсордовн
+                      href: itableteventsink-cursordown.md
+                    - name: Метод Курсоринранже
+                      href: itableteventsink-cursorinrange.md
+                    - name: Метод Курсормове
+                      href: itableteventsink-cursormove.md
+                    - name: Метод Курсорнев
+                      href: itableteventsink-cursornew.md
+                    - name: Метод Курсораутофранже
+                      href: itableteventsink-cursoroutofrange.md
+                    - name: Метод Курсоруп
+                      href: itableteventsink-cursorup.md
+                    - name: Метод пакетов
+                      href: itableteventsink-packets.md
+                    - name: Метод Системевент
+                      href: itableteventsink-systemevent.md
+                - name: Интерфейс Итаблетманажер
+                  href: itabletmanager.md
+                  items:
+                    - name: Метод DataTable
+                      href: /previous-versions/windows/desktop/legacy/aa373683(v=vs.85)
+                    - name: Метод Жеттаблеткаунт
+                      href: itabletmanager-gettabletcount.md
+            - name: 'Перечисления, используемые WPF'
+              href: enumerations--wisp-apis.md
+              items:
+                - name: Перечисление CONTEXT_ENABLE_TYPE
+                  href: context-enable-type.md
+                - name: Перечисление TABLET_DEVICE_KIND
+                  href: tablet-device-kind.md
+            - name: 'Структуры, используемые WPF'
+              href: structures--wisp-apis.md
+              items:
+                - name: SHAREDMEMORY_HEADER
+                  href: sharedmemory-header.md
+                - name: SYSTEM_EVENT_DATA
+                  href: system-event-data.md
+                - name: Структура TABLET_CONTEXT_SETTINGS
+                  href: tablet-context-settings.md
+        - name: Работа с объектом рукописного ввода текста
+          href: working-with-the-text-ink-object.md
+          items:
+            - name: Преобразование объекта рукописного ввода текста в рукописный текст
+              href: converting-a-text-ink-object-to-ink.md
+            - name: Справочник по рукописному вводу текста
+              href: text-ink-apis.md
+              items:
+                - name: Интерфейс Иинклинеинфо
+                  href: /windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo
+                  items:
+                    - name: Метод-кандидат
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getcandidate
+                    - name: Методического формата
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat
+                    - name: Метод Жетинкекстент
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent
+                    - name: Метод распознавания
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-recognize
+                    - name: Метод Сеткандидате
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setcandidate
+                    - name: Метод Сетформат
+                      href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat
+            - name: Структура ИНКМЕТРИК
+              href: /windows/win32/api/msinkaut/ns-msinkaut-inkmetric
+    - name: Глоссарий API для планшетных ПК
+      href: glossary.md

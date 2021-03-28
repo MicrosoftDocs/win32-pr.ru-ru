@@ -1,0 +1,47 @@
+- name: API сжатия
+  href: '-compression-portal.md'
+  items:
+    - name: Использование API сжатия
+      href: using-the-compression-api.md
+      items:
+        - name: Использование API сжатия в режиме буфера
+          href: using-the-compression-api-in-buffer-mode.md
+        - name: Использование API сжатия в блочном режиме
+          href: using-the-compression-api-in-block-mode.md
+    - name: Функции API сжатия
+      href: compression-api-functions.md
+      items:
+        - name: клосекомпрессор
+          href: /windows/desktop/api/compressapi/nf-compressapi-closecompressor
+        - name: клоседекомпрессор
+          href: /windows/desktop/api/compressapi/nf-compressapi-closedecompressor
+        - name: Сжать
+          href: /windows/desktop/api/compressapi/nf-compressapi-compress
+        - name: креатекомпрессор
+          href: /windows/desktop/api/compressapi/nf-compressapi-createcompressor
+        - name: креатедекомпрессор
+          href: /windows/desktop/api/compressapi/nf-compressapi-createdecompressor
+        - name: Распаковать
+          href: /windows/desktop/api/compressapi/nf-compressapi-decompress
+        - name: куерикомпрессоринформатион
+          href: /windows/desktop/api/compressapi/nf-compressapi-querycompressorinformation
+        - name: куеридекомпрессоринформатион
+          href: /windows/desktop/api/compressapi/nf-compressapi-querydecompressorinformation
+        - name: ресеткомпрессор
+          href: /windows/desktop/api/compressapi/nf-compressapi-resetcompressor
+        - name: ресетдекомпрессор
+          href: /windows/desktop/api/compressapi/nf-compressapi-resetdecompressor
+        - name: сеткомпрессоринформатион
+          href: /windows/desktop/api/compressapi/nf-compressapi-setcompressorinformation
+        - name: сетдекомпрессоринформатион
+          href: /windows/desktop/api/compressapi/nf-compressapi-setdecompressorinformation
+    - name: Структуры API сжатия
+      href: compression-api-structures.md
+      items:
+        - name: COMPRESS_ALLOCATION_ROUTINES
+          href: /windows/win32/api/compressapi/ns-compressapi-compress_allocation_routines
+    - name: Перечисления API сжатия
+      href: compression-api-enumerations.md
+      items:
+        - name: COMPRESS_INFORMATION_CLASS
+          href: /windows/desktop/api/compressapi/ne-compressapi-compress_information_class
