@@ -1,0 +1,767 @@
+---
+title: 10Level9 ID3D11Device методы
+description: В этом разделе перечислены различия между каждым уровнем функций 10Level9 и уровнем D3D \_ уровня \_ \_ 11 \_ 0 и более высоким уровнем функций для методов ID3D11Device.
+ms.assetid: c3bc32a9-8d97-430b-be6a-b4935d7ac56c
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 400c7f321981f13b3e184a25139782c8a9d9a2ba
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104413403"
+---
+# <a name="10level9-id3d11device-methods"></a>10Level9 ID3D11Device методы
+
+В этом разделе перечислены различия между каждым уровнем функций 10Level9 и уровнем D3D \_ уровня \_ \_ 11 \_ 0 и более высоким уровнем функций для методов [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3d11-id3d11device) .
+
+-   [ID3D11Device:: Чекккаунтер](#id3d11devicecheckcounter)
+-   [ID3D11Device:: Чеккформатсуппорт](#id3d11devicecheckformatsupport)
+-   [ID3D11Device:: Чеккмултисамплекуалитилевелс](#id3d11devicecheckmultisamplequalitylevels)
+-   [ID3D11Device:: Креатеблендстате](#id3d11devicecreateblendstate)
+-   [ID3D11Device::CreateBlendState1](#id3d11devicecreateblendstate1)
+-   [ID3D11Device:: CreateBuffer](#id3d11devicecreatebuffer)
+-   [ID3D11Device:: Креатекаунтер](#id3d11devicecreatecounter)
+-   [ID3D11Device:: КреатедепсстенЦилвиев](#id3d11devicecreatedepthstencilview)
+-   [ID3D11Device:: Креатедомаиншадер](#id3d11devicecreatedomainshader)
+-   [ID3D11Device:: Креатежеометришадер](#id3d11devicecreategeometryshader)
+-   [ID3D11Device:: Креатежеометришадервисстреамаутпут](#id3d11devicecreategeometryshaderwithstreamoutput)
+-   [ID3D11Device:: Креатехуллшадер](#id3d11devicecreatehullshader)
+-   [ID3D11Device:: Креатеинпутлайаут](#id3d11devicecreateinputlayout)
+-   [ID3D11Device:: Креатепикселшадер](#id3d11devicecreatepixelshader)
+-   [ID3D11Device:: Креатепредикате](#id3d11devicecreatepredicate)
+-   [ID3D11Device:: CreateQuery](#id3d11devicecreatequery)
+-   [ID3D11Device:: Креатерастеризерстате](#id3d11devicecreaterasterizerstate)
+-   [ID3D11Device:: Креатерендертаржетвиев](#id3d11devicecreaterendertargetview)
+-   [ID3D11Device:: Креатесамплерстате](#id3d11devicecreatesamplerstate)
+-   [ID3D11Device:: Креатешадерресаурцевиев](#id3d11devicecreateshaderresourceview)
+-   [ID3D11Device::CreateTexture1D](#id3d11devicecreatetexture1d)
+-   [ID3D11Device::CreateTexture2D](#id3d11devicecreatetexture2d)
+-   [ID3D11Device::CreateTexture3D](#id3d11devicecreatetexture3d)
+-   [ID3D11Device:: Креатеунордередакцессвиев](#id3d11devicecreateunorderedaccessview)
+-   [ID3D11Device:: Креатевертексшадер](#id3d11devicecreatevertexshader)
+-   [ID3D11Device:: Опеншаредресаурце](#id3d11deviceopensharedresource)
+-   [См. также](#related-topics)
+
+## <a name="id3d11devicecheckcounter"></a>ID3D11Device:: Чекккаунтер
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Необязательно поддерживаются счетчики, зависящие от устройства. Для определения поддержки используйте <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkcounterinfo"><strong>ID3D11Device:: чекккаунтеринфо</strong></a> . $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecheckformatsupport"></a>ID3D11Device:: Чеккформатсуппорт
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">См. раздел Поддержка формата по <a href="overviews-direct3d-11-devices-downlevel-intro.md">уровням функций</a>$ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecheckmultisamplequalitylevels"></a>ID3D11Device:: Чеккмултисамплекуалитилевелс
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Уровни функций не гарантируют поддержку MSAA. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreateblendstate"></a>ID3D11Device:: Креатеблендстате
+
+
+
+| Уровень компонентов              | Различия в поведении                                                                                                                                                                                                                                                                                                                                             |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| D3D \_ \_ уровень возможностей \_ 9 \_ 1  | Алфатоковеражеенабле должно иметь **значение false**.<br/> Первые четыре Бленденаблес должны иметь одинаковое значение.<br/> D3D11 \_ Blend \_ src \_ алфасат не поддерживается.<br/> Смешанный цвет смешения цветов не поддерживается (любой Сркбленд или Дестбленд с SRC1 в имени)<br/>                                                                                |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 2  | Алфатоковеражеенабле должно иметь **значение false**.<br/> Первые четыре Бленденаблес должны иметь одинаковое значение.<br/> Первые четыре Рендертаржетвритемаскс должны иметь одинаковое значение.<br/> D3D11 \_ Blend \_ src \_ алфасат не поддерживается.<br/> Смешанный цвет смешения цветов не поддерживается (любой Сркбленд или Дестбленд с SRC1 в имени)<br/> |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 3  | Алфатоковеражеенабле должно иметь **значение false**.<br/> Первые четыре Бленденаблес должны иметь одинаковое значение.<br/> D3D11 \_ Blend \_ src \_ алфасат не поддерживается.<br/> Смешанный цвет смешения цветов не поддерживается (любой Сркбленд или Дестбленд с SRC1 в имени)<br/>                                                                                |
+| \_Уровень компонентов \_ D3D \_ 10 \_ 0 | Добавляет альфа-в покрытие                                                                                                                                                                                                                                                                                                                                           |
+
+
+
+ 
+
+## <a name="id3d11devicecreateblendstate1"></a>ID3D11Device::CreateBlendState1
+
+
+
+| Уровень компонентов              | Различия в поведении                                                                                                                                                                                                                                                                                                                                         |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| D3D \_ \_ уровень возможностей \_ 9 \_ 1  | Не поддерживается<br/>                                                                                                                                                                                                                                                                                                                                       |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 2  | Не поддерживается<br/>                                                                                                                                                                                                                                                                                                                                       |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 3  | Не поддерживается<br/>                                                                                                                                                                                                                                                                                                                                       |
+| \_Уровень компонентов \_ D3D \_ 10 \_ 0 | Член *аутпутмержерлогикоп* добавлен в [**\_ \_ \_ \_ Параметры D3D11 данных D3D11**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options), чтобы определить поддержку логических операций (побитовых логических операций между выходным шейдером пиксельных построителей и содержимым целевого объекта прорисовки), см. в разделе [**D3D11 \_ \_ целевой объект рендеринга \_ Blend \_ DESC1**](/windows/desktop/api/D3D11_1/ns-d3d11_1-d3d11_render_target_blend_desc1)). |
+
+
+
+ 
+
+## <a name="id3d11devicecreatebuffer"></a>ID3D11Device:: CreateBuffer
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td>Буферы не могут иметь представления целевого объекта прорисовки.<br/> Буферы должны иметь ровно один из D3D11_BIND_VERTEX_BUFFER, D3D11_BIND_INDEX_BUFFER или D3D11_BIND_CONSTANT_BUFFER.<br/> Разрешает только буферы индексов с форматом DXGI_FORMAT_R16_UINT. <br/></td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+<td rowspan="2"> Буферы не могут иметь представления целевого объекта прорисовки.<br/> Буферы должны иметь ровно один из D3D11_BIND_VERTEX_BUFFER, D3D11_BIND_INDEX_BUFFER или D3D11_BIND_CONSTANT_BUFFER.<br/> Разрешает буферы индексов с форматами DXGI_FORMAT_R16_UINT и DXGI_FORMAT_R32_UINT, такими как D3D_FEATURE_LEVEL_10_0 и выше. <br/> $ {REMOVE} $<br />
+</td>
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreatecounter"></a>ID3D11Device:: Креатекаунтер
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreatedepthstencilview"></a>ID3D11Device:: КреатедепсстенЦилвиев
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Не поддерживает двусторонние наборы элементов. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreatedomainshader"></a>ID3D11Device:: Креатедомаиншадер
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {REMOVE} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_10_0</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_10_1</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreategeometryshader"></a>ID3D11Device:: Креатежеометришадер
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreategeometryshaderwithstreamoutput"></a>ID3D11Device:: Креатежеометришадервисстреамаутпут
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreatehullshader"></a>ID3D11Device:: Креатехуллшадер
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_10_0</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_10_1</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreateinputlayout"></a>ID3D11Device:: Креатеинпутлайаут
+
+
+
+| Уровень компонентов             | Различия в поведении                                                                                              |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------|
+| D3D \_ \_ уровень возможностей \_ 9 \_ 1 | Не поддерживает \_ входные \_ данные D3D11 для каждого \_ экземпляра \_                                                                |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 2 | Не поддерживает \_ входные \_ данные D3D11 для каждого \_ экземпляра \_                                                                |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 3 | Нулевой поток вершин должен иметь \_ D3D11 \_ Вход \_ на \_ данные вершины, если в потоках есть \_ входные данные D3D11 \_ для \_ \_ данных вершин |
+
+
+
+ 
+
+Дополнительные сведения о том, какие форматы можно использовать для данных вершин на каждом уровне компонентов, см. в разделе Диаграмма поддержка по [уровням функций](overviews-direct3d-11-devices-downlevel-intro.md) .
+
+## <a name="id3d11devicecreatepixelshader"></a>ID3D11Device:: Креатепикселшадер
+
+
+
+| Уровень компонентов             | Различия в поведении                                    |
+|---------------------------|---------------------------------------------------------|
+| D3D \_ \_ уровень возможностей \_ 9 \_ 1 | Необходимо использовать PS \_ 4 \_ 0 \_ уровня \_ 9 \_ 1                          |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 2 | Необходимо использовать PS \_ 4 \_ 0 \_ уровня \_ 9 \_ 1                          |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 3 | Необходимо использовать PS \_ 4 \_ 0 \_ уровня \_ 9 \_ 3 или PS \_ 4 \_ 0 \_ уровня \_ 9 \_ 1 |
+
+
+
+ 
+
+## <a name="id3d11devicecreatepredicate"></a>ID3D11Device:: Креатепредикате
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreatequery"></a>ID3D11Device:: CreateQuery
+
+
+
+| Уровень компонентов             | Различия в поведении                                                                                                                                  |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| D3D \_ \_ уровень возможностей \_ 9 \_ 1 | Поддерживаются запросы событий. Запросы меток времени необязательны: вызовите [**CreateQuery**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createquery) , чтобы определить поддержку.               |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 2 | Поддерживаются запросы Event и перекрытия. Запросы меток времени необязательны: вызовите [**CreateQuery**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createquery) , чтобы определить поддержку. |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 3 | Поддерживаются запросы Event и перекрытия. Запросы меток времени необязательны: вызовите [**CreateQuery**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createquery) , чтобы определить поддержку. |
+
+
+
+ 
+
+## <a name="id3d11devicecreaterasterizerstate"></a>ID3D11Device:: Креатерастеризерстате
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Депсклипенабле должно иметь <strong>значение true</strong>. Депсбиаскламп должно иметь значение 0. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreaterendertargetview"></a>ID3D11Device:: Креатерендертаржетвиев
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Поддерживает только целевые представления прорисовки объектов Texture2D. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreatesamplerstate"></a>ID3D11Device:: Креатесамплерстате
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td>Фильтр сравнения не поддерживается.<br/> Цвет границы должен быть в пределах [0, 1]<br/> Min Лод не может быть дробной частью<br/> Максимальная Лод должна быть FLT_MAX<br/> Максимальная анизотропная — 2.<br/> D3D11_TEXTURE_ADDRESS_MIRRORONCE не поддерживается.<br/></td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+<td rowspan="2"> Фильтр сравнения не поддерживается.<br/> Цвет границы должен быть в пределах [0, 1]<br/> Min Лод не может быть дробной частью<br/> Максимальная Лод должна быть FLT_MAX<br/> Максимальная анизотропная — 16.<br/> $ {REMOVE} $<br />
+</td>
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreateshaderresourceview"></a>ID3D11Device:: Креатешадерресаурцевиев
+
+
+
+| Уровень компонентов             | Мостдетаиледмип Plus Миплевелс должен включать наименьший Лод (наименьший подресурс | Представление должно включать все элементы массива ресурсов |
+|---------------------------|------------------------------------------------------------------------------|-----------------------------------------------|
+| D3D \_ \_ уровень возможностей \_ 9 \_ 1 | Да                                                                          | да                                           |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 2 | Да                                                                          | Да                                           |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 3 | Да                                                                          | Да                                           |
+
+
+
+ 
+
+## <a name="id3d11devicecreatetexture1d"></a>ID3D11Device::CreateTexture1D
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreatetexture2d"></a>ID3D11Device::CreateTexture2D
+
+Ресурсы Texture2D имеют ограничения по ширине и высоте, которые отличаются на [уровне функций](overviews-direct3d-11-devices-downlevel-intro.md). В уровнях функций 9 \_ 3 гарантируется прыжка, а отдельные реализации могут превысить требования.
+
+
+
+| Уровень компонентов             | Если Мипкаунт > 1, измерения должны быть целыми степенями двух | Минимальное поддерживаемое измерение текстуры | Измерения текстур Куба должны быть степенью двух | Если \_ задан параметр "Прочие текстурекубе", размера массива имеет следующее значение: | Если параметр \_ "Прочие текстурекубе" не задан, размера массива имеет значение. |
+|---------------------------|--------------------------------------------------------------|-------------------------------------|-----------------------------------------------|------------------------------------------------|----------------------------------------------------|
+| D3D \_ \_ уровень возможностей \_ 9 \_ 1 | Да                                                          | 2048                                | Да                                           | 6                                              | 1                                                  |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 2 | Да                                                          | 2048                                | Да                                           | 6                                              | 1                                                  |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 3 | Да                                                          | 4096                                | Да                                           | 6                                              | 1                                                  |
+
+
+
+ 
+
+В предыдущей таблице полное имя **\_ Текстурекубе** — [**D3D11 \_ Resource \_ \_ текстурекубе**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag).
+
+Для всех 9 \_ \* [уровней компонентов](overviews-direct3d-11-devices-downlevel-intro.md)справедливы следующие условия:
+
+-   При использовании \_ \_ неизменяемого значения по умолчанию D3D11 или D3D11 использование \_ \_ биндфлагс не может быть нулевым.
+-   При использовании \_ \_ набора элементов глубины привязки D3D11 \_ миплевелс должен быть равен 1.
+-   При использовании \_ \_ ресурса шейдера привязки D3D11 \_ сампледеск. Count должно быть равно 1.
+-   Если используется \_ Привязка D3D11 \_ , ресурс не может иметь \_ \_ ресурс шейдера D3D11 BIND \_ .
+-   При использовании \_ \_ общего доступа к ресурсам DDI D3D10 \_ \_ Формат не может иметь формат DXGI \_ \_ R8G8B8A8 \_ UNORM или \_ DXGI \_ R8G8B8A8 \_ UNORM \_ sRGB.
+
+## <a name="id3d11devicecreatetexture3d"></a>ID3D11Device::CreateTexture3D
+
+
+
+| Уровень компонентов             | Максимальное измерение (любая ось) | Размеры должны быть степенями двух |
+|---------------------------|------------------------------|---------------------------------|
+| D3D \_ \_ уровень возможностей \_ 9 \_ 1 | 256                          | Да                             |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 2 | 512                          | Да                             |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 3 | 512                          | Да                             |
+
+
+
+ 
+
+Если ресурс D3D11 \_ использование \_ по умолчанию или D3D11 \_ использование \_ неизменным, биндфлагс не может быть нулевым.
+
+## <a name="id3d11devicecreateunorderedaccessview"></a>ID3D11Device:: Креатеунордередакцессвиев
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="id3d11devicecreatevertexshader"></a>ID3D11Device:: Креатевертексшадер
+
+
+
+| Уровень компонентов             | Различия в поведении                                    |
+|---------------------------|---------------------------------------------------------|
+| D3D \_ \_ уровень возможностей \_ 9 \_ 1 | Необходимо использовать VS \_ 4 \_ 0 \_ уровня \_ 9 \_ 1                          |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 2 | Необходимо использовать VS \_ 4 \_ 0 \_ уровня \_ 9 \_ 1                          |
+| D3D \_ \_ уровень возможностей \_ 9 \_ 3 | Необходимо использовать VS \_ 4 \_ 0 \_ уровня \_ 9 \_ 3 или VS \_ 4 \_ 0 \_ уровня \_ 9 \_ 1 |
+
+
+
+ 
+
+## <a name="id3d11deviceopensharedresource"></a>ID3D11Device:: Опеншаредресаурце
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Уровень компонентов</th>
+<th>Различия в поведении</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_1</td>
+<td rowspan="3"> Используйте <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport"><strong>ID3D11Device:: чеккфеатуресуппорт</strong></a> со значением <a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature"><strong>D3D11_FEATURE_FORMAT_SUPPORT2</strong></a> и структурой <a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support2"><strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong></a> , чтобы определить, можно ли предоставить общий доступ к формату. Если формат можно использовать совместно, <strong>чеккфеатуресуппорт</strong> возвращает флаг <a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2_SHAREABLE</strong></a> .<br/>
+<blockquote>
+[!Note]<br />
+[<strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong>] (/Виндовс/десктоп/АПИ/дксгиформат/не-дксгиформат-dxgi_format) и <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> никогда не являются общими при использовании уровня функции 9, даже если устройство указывает на поддержку дополнительных компонентов для <strong>D3D11_FORMAT_SUPPORT_SHAREABLE</strong>. Попытка создать общие ресурсы с помощью форматов DXGI <strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong> и <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> будет завершаться ошибкой, если только уровень компонента не 10_0 или выше.
+</blockquote>
+<br/> $ {REMOVE} $<br />
+</td>
+</tr>
+<tr class="even">
+<td>D3D_FEATURE_LEVEL_9_2</td>
+
+</tr>
+<tr class="odd">
+<td>D3D_FEATURE_LEVEL_9_3</td>
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="related-topics"></a>См. также
+
+<dl> <dt>
+
+[Справочник по 10Level9](d3d11-graphics-reference-10level9.md)
+</dt> </dl>
+
+ 
+

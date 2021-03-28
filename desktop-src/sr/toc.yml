@@ -1,0 +1,74 @@
+- name: '"Восстановление системы"'
+  href: system-restore-portal.md
+  items:
+    - name: О восстановлении системы
+      href: about-system-restore.md
+      items:
+        - name: Мониторинг системы
+          href: monitoring-the-system.md
+        - name: Восстановление системы
+          href: restoring-the-system.md
+        - name: Точки восстановления
+          href: restore-points.md
+        - name: API восстановления системы
+          href: system-restore-api.md
+          items:
+            - name: Вызов Срсетресторепоинт
+              href: calling-srsetrestorepoint.md
+            - name: Текст описания точки восстановления
+              href: restore-point-description-text.md
+            - name: Вложенные вызовы Срсетресторепоинт
+              href: nested-calls-to-srsetrestorepoint.md
+            - name: Настройка восстановления системы
+              href: configuring-system-restore.md
+    - name: Использование восстановления системы
+      href: using-system-restore.md
+    - name: Справочник по восстановлению системы
+      href: system-restore-reference.md
+      items:
+        - name: Функции восстановления системы
+          href: system-restore-functions.md
+          items:
+            - name: срремовересторепоинт
+              href: /windows/desktop/api/SRRestorePtAPI/nf-srrestoreptapi-srremoverestorepoint
+            - name: срсетресторепоинт
+              href: /windows/desktop/api/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa
+        - name: Структуры восстановления системы
+          href: system-restore-structures.md
+          items:
+            - name: ресторепоинтинфо
+              href: /windows/win32/api/srrestoreptapi/ns-srrestoreptapi-restorepointinfoa
+            - name: статемгрстатус
+              href: /windows/win32/api/srrestoreptapi/ns-srrestoreptapi-statemgrstatus
+        - name: Классы WMI для восстановления системы
+          href: system-restore-wmi-classes.md
+          items:
+            - name: SystemRestore
+              href: systemrestore.md
+              items:
+                - name: Метод Креатересторепоинт
+                  href: createrestorepoint-systemrestore.md
+                - name: 'Disable, метод'
+                  href: disable-systemrestore.md
+                - name: 'Enable, метод'
+                  href: enable-systemrestore.md
+                - name: Метод Жетластресторестатус
+                  href: getlastrestorestatus-systemrestore.md
+                - name: Метод Restore
+                  href: restore-systemrestore.md
+            - name: системрестореконфиг
+              href: systemrestoreconfig.md
+        - name: Отслеживаемые расширения имен файлов
+          href: monitored-file-extensions.md
+    - name: Устаревшая ссылка на восстановление системы
+      href: legacy-system-restore-reference.md
+      items:
+        - name: Устаревшие структуры восстановления системы
+          href: legacy-system-restore-structures.md
+          items:
+            - name: CHANGE_LOG_ENTRY
+              href: change-log-entry.md
+            - name: CHANGE_LOG_HEADER
+              href: change-log-header.md
+            - name: RECORD_HEADER
+              href: record-header.md
