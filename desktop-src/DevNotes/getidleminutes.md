@@ -1,0 +1,78 @@
+---
+description: Возвращает продолжительность времени (в минутах) с момента последнего действия пользователя.
+ms.assetid: 2d1e68ad-6f65-4e64-afbf-505b2c9d3423
+title: Функция Жетидлеминутес
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- GetIdleMinutes
+api_type:
+- DllExport
+api_location:
+- Msidle.dll
+ms.openlocfilehash: da3064ea96eb8e9835ed1e9d2f564bf922d2f091
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "105648113"
+---
+# <a name="getidleminutes-function"></a>Функция Жетидлеминутес
+
+\[Эта функция не поддерживается и может быть изменена или недоступна в будущем. Вместо этого используйте функцию **жетластинпутинфо** .\]
+
+Возвращает продолжительность времени (в минутах) с момента последнего действия пользователя.
+
+## <a name="syntax"></a>Синтаксис
+
+
+```C++
+DWORD WINAPI GetIdleMinutes(
+   DWORD dwReserved
+);
+```
+
+
+
+## <a name="parameters"></a>Параметры
+
+<dl> <dt>
+
+*двресервед* 
+</dt> <dd>
+
+Этот параметр должен иметь значение 0.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Возвращаемое значение
+
+Возвращает количество минут с момента последнего действия пользователя.
+
+## <a name="remarks"></a>Комментарии
+
+Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) . Эта функция не экспортируется по имени; При вызове **GetProcAddress** укажите порядковый номер 8.
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|----------------|---------------------------------------------------------------------------------------|
+| DLL<br/> | <dl> <dt>Msidle.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[**жетластинпутинфо**](/windows/win32/api/winuser/nf-winuser-getlastinputinfo)
+</dt> </dl>
+
+ 
+
+ 
