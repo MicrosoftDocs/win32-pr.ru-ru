@@ -1,0 +1,101 @@
+- name: Поставщик ядра WMI
+  href: wmi-core-provider-.md
+  items:
+    - name: мсмониторкласс
+      href: msmonitorclass.md
+    - name: Классы МСМКА
+      href: msmca-classes.md
+      items:
+        - name: MSMCAEvent_CPUError
+          href: msmcaevent-cpuerror.md
+        - name: MSMCAEvent_Header
+          href: msmcaevent-header.md
+        - name: MSMCAEvent_InvalidError
+          href: msmcaevent-invaliderror.md
+        - name: MSMCAEvent_MemoryError
+          href: msmcaevent-memoryerror.md
+        - name: MSMCAEvent_MemoryPageRemoved
+          href: msmcaevent-memorypageremoved.md
+        - name: MSMCAEvent_PCIBusError
+          href: msmcaevent-pcibuserror.md
+        - name: MSMCAEvent_PCIComponentError
+          href: msmcaevent-pcicomponenterror.md
+        - name: MSMCAEvent_PlatformSpecificError
+          href: msmcaevent-platformspecificerror.md
+        - name: MSMCAEvent_SMBIOSError
+          href: msmcaevent-smbioserror.md
+        - name: MSMCAEvent_SwitchToCMCPolling
+          href: msmcaevent-switchtocmcpolling.md
+        - name: MSMCAEvent_SystemEventError
+          href: msmcaevent-systemeventerror.md
+        - name: мсмкаинфо
+          href: msmcainfo.md
+        - name: MSMCAInfo_Entry
+          href: msmcainfo-entry.md
+        - name: MSMCAInfo_RawCMCEvent
+          href: msmcainfo-rawcmcevent.md
+        - name: MSMCAInfo_RawCorrectedPlatformEvent
+          href: msmcainfo-rawcorrectedplatformevent.md
+        - name: MSMCAInfo_RawMCAData
+          href: msmcainfo-rawmcadata.md
+        - name: MSMCAInfo_RawMCAEvent
+          href: msmcainfo-rawmcaevent.md
+    - name: фрекуенциранжедескриптор
+      href: frequencyrangedescriptor.md
+    - name: суппортеддисплайфеатуресдескриптор
+      href: supporteddisplayfeaturesdescriptor.md
+    - name: видеомодедескриптор
+      href: videomodedescriptor.md
+    - name: WMIEvent
+      href: wmievent.md
+    - name: вмимонитораналогвидеоинпутпарамс
+      href: wmimonitoranalogvideoinputparams.md
+    - name: вмимониторбасикдисплайпарамс
+      href: wmimonitorbasicdisplayparams.md
+    - name: вмимониторбригхтнесс
+      href: wmimonitorbrightness.md
+    - name: вмимониторбригхтнессевент
+      href: wmimonitorbrightnessevent.md
+    - name: вмимониторбригхтнессмесодс
+      href: wmimonitorbrightnessmethods.md
+      items:
+        - name: Методы Вмимониторбригхтнессмесодс
+          href: wmimonitorbrightnessmethods-methods.md
+          items:
+            - name: Метод Вмиреверттополицибригхтнесс
+              href: wmireverttopolicybrightness-method-in-class-wmimonitorbrightnessmethods.md
+            - name: Метод Вмисеталсбригхтнессстате
+              href: wmisetalsbrightnessstate-method-in-class-wmimonitorbrightnessmethods.md
+            - name: Метод Вмисеталсбригхтнесс
+              href: wmisetalsbrightness-method-in-class-wmimonitorbrightnessmethods.md
+            - name: Метод Вмисетбригхтнесс
+              href: wmisetbrightness-method-in-class-wmimonitorbrightnessmethods.md
+    - name: вмимониторколорчарактеристикс
+      href: wmimonitorcolorcharacteristics.md
+    - name: вмимониторконнектионпарамс
+      href: wmimonitorconnectionparams.md
+    - name: вмимонитордескриптормесодс
+      href: wmimonitordescriptormethods.md
+      items:
+        - name: Методы Вмимонитордескриптормесодс
+          href: wmimonitordescriptormethods-methods.md
+          items:
+            - name: Метод WmiGetMonitorRawEEdidV1Block
+              href: wmigetmonitorraweedidv1block-wmimonitordescriptormethods.md
+    - name: вмимонитордигиталвидеоинпутпарамс
+      href: wmimonitordigitalvideoinputparams.md
+    - name: вмимониторид
+      href: wmimonitorid.md
+    - name: вмимониторлистедфрекуенциранжес
+      href: wmimonitorlistedfrequencyranges.md
+    - name: вмимониторлистедсуппортедсаурцемодес
+      href: wmimonitorlistedsupportedsourcemodes.md
+    - name: WmiMonitorRawEEdidV1Block
+      href: wmimonitorraweedidv1block.md
+    - name: ксизинЦие
+      href: xyzincie.md
+- name: Поставщик WDM
+  href: wdm-provider.md
+  items:
+    - name: вмибинаримофресаурце
+      href: wmibinarymofresource.md
