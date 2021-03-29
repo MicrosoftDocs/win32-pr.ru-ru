@@ -1,0 +1,33 @@
+---
+title: Компоненты дескриптора безопасности
+description: При использовании метода IADs. Get для получения указателя на интерфейс Иадссекуритидескриптор можно использовать свойства Иадссекуритидескриптор для чтения или записи компонентов дескриптора безопасности объекта каталога.
+ms.assetid: 35d3d16b-d7fc-4967-ba5c-5a77e058a9ae
+ms.tgt_platform: multiple
+keywords:
+- Active Directory, компоненты дескрипторов безопасности
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: ef87b0e23f60fdbb4d0b03b421012d5918ed3c83
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "103789468"
+---
+# <a name="security-descriptor-components"></a><span data-ttu-id="7ad99-104">Компоненты дескриптора безопасности</span><span class="sxs-lookup"><span data-stu-id="7ad99-104">Security Descriptor Components</span></span>
+
+<span data-ttu-id="7ad99-105">При использовании метода [**iAds. Get**](/windows/desktop/api/iads/nf-iads-iads-get) для получения указателя на интерфейс [**иадссекуритидескриптор**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) можно использовать свойства **иадссекуритидескриптор** для чтения или записи компонентов дескриптора безопасности объекта каталога.</span><span class="sxs-lookup"><span data-stu-id="7ad99-105">Having used the [**IADs.Get**](/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve an [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) interface pointer, you can use the **IADsSecurityDescriptor** properties to read or write the components of a directory object's security descriptor.</span></span> <span data-ttu-id="7ad99-106">Например, чтобы получить или задать список DACL объекта, используйте свойство [**дискретионарякл**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) .</span><span class="sxs-lookup"><span data-stu-id="7ad99-106">For example, to get or set the object's DACL, use the [**DiscretionaryAcl**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) property.</span></span>
+
+<span data-ttu-id="7ad99-107">Дескриптор безопасности может хранить следующие данные:</span><span class="sxs-lookup"><span data-stu-id="7ad99-107">A security descriptor can store the following data:</span></span>
+
+-   <span data-ttu-id="7ad99-108">Идентификатор безопасности (SID), определяющий владельца объекта: владелец объекта имеет неявное право на изменение списка DACL и данных владельца в дескрипторе безопасности объекта.</span><span class="sxs-lookup"><span data-stu-id="7ad99-108">A security identifier (SID) that identifies the owner of the object: The owner of an object has the implicit right to modify the DACL and owner data in the object's security descriptor.</span></span>
+-   <span data-ttu-id="7ad99-109">Список управления доступом (DACL), определяющий пользователей и группы, которые могут выполнять различные операции с объектом: список DACL содержит перечень записей управления доступом (ACE).</span><span class="sxs-lookup"><span data-stu-id="7ad99-109">A discretionary access-control list (DACL) that identifies the users and groups who can perform various operations on the object: A DACL contains a list of access-control entries (ACEs).</span></span> <span data-ttu-id="7ad99-110">Каждый ACE разрешает или запрещает указанный набор прав доступа для указанной учетной записи пользователя, учетной записи группы или другого доверенного лица.</span><span class="sxs-lookup"><span data-stu-id="7ad99-110">Each ACE allows or denies a specified set of access rights to a specified user account, group account, or other trustee.</span></span> <span data-ttu-id="7ad99-111">Дополнительные сведения см. в разделе [Получение списка DACL объекта](retrieving-an-objectampaposs-dacl.md).</span><span class="sxs-lookup"><span data-stu-id="7ad99-111">For more information, see [Retrieving an Object's DACL](retrieving-an-objectampaposs-dacl.md).</span></span>
+-   <span data-ttu-id="7ad99-112">Системный список управления доступом (SACL), который управляет тем, как аудит системы пытается получить доступ к объекту: каждый элемент ACE в списке SACL указывает типы попыток доступа, которые создают запись в журнале аудита для указанной учетной записи пользователя, учетной записи группы или другого доверенного лица.</span><span class="sxs-lookup"><span data-stu-id="7ad99-112">A system access-control list (SACL) that controls how the system audits attempts to access the object: Each ACE in a SACL specifies the types of access attempts that generate an audit log entry for a specified user account, group account, or other trustee.</span></span> <span data-ttu-id="7ad99-113">Дополнительные сведения см. в разделе [Получение списка SACL объекта](retrieving-an-objectampaposs-sacl.md).</span><span class="sxs-lookup"><span data-stu-id="7ad99-113">For more information, see [Retrieving an Object's SACL](retrieving-an-objectampaposs-sacl.md).</span></span>
+-   <span data-ttu-id="7ad99-114">Набор контрольных флагов управления **\_ дескрипторами \_ безопасности** , которые определяют значение дескриптора безопасности или его компонентов: например, флаг **\_ \_ защищенного списка DACL** позволяет защитить список DACL дескриптора безопасности от наследования ACE от родительского объекта.</span><span class="sxs-lookup"><span data-stu-id="7ad99-114">A set of **SECURITY\_DESCRIPTOR\_CONTROL** control flags that qualify the meaning of a security descriptor or its components: For example, the **SE\_DACL\_PROTECTED** flag protects the security descriptor's DACL from inheriting ACEs from its parent object.</span></span>
+-   <span data-ttu-id="7ad99-115">Идентификатор безопасности (SID), определяющий основную группу объекта: службы домен Active Directory не используют этот компонент.</span><span class="sxs-lookup"><span data-stu-id="7ad99-115">A security identifier (SID) that identifies the primary group of the object: Active Directory Domain Services do not use this component.</span></span>
+
+<span data-ttu-id="7ad99-116">Дополнительные сведения и пример кода, который можно использовать для чтения и отображения данных в дескрипторе безопасности объекта и списке DACL, см. в разделе [чтение дескриптора безопасности объекта](reading-an-objectampaposs-security-descriptor.md).</span><span class="sxs-lookup"><span data-stu-id="7ad99-116">For more information and a code example that can be used to read and display the data in an object security descriptor and DACL, see [Reading an Object's Security Descriptor](reading-an-objectampaposs-security-descriptor.md).</span></span>
+
+ 
+
+ 

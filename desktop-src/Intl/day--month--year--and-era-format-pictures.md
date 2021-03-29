@@ -1,0 +1,90 @@
+---
+description: Приложение использует элементы, описанные в этом разделе, для создания строки изображения в формате, завершающейся нулем.
+ms.assetid: c18868a9-6912-46fd-93f5-d8021937b049
+title: Изображения дня, месяца, года и эры
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c83439cc33c1caf067b5c6f41234a6f1ddc4dcc9
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103912552"
+---
+# <a name="day-month-year-and-era-format-pictures"></a><span data-ttu-id="401c9-103">Изображения дня, месяца, года и эры</span><span class="sxs-lookup"><span data-stu-id="401c9-103">Day, Month, Year, and Era Format Pictures</span></span>
+
+<span data-ttu-id="401c9-104">Приложение использует элементы, описанные в этом разделе, для создания строки изображения в формате, завершающейся нулем.</span><span class="sxs-lookup"><span data-stu-id="401c9-104">The application uses the elements described in this topic to construct a null-terminated format picture string.</span></span> <span data-ttu-id="401c9-105">Если для разделения элементов в строке используются пробелы, эти пробелы будут отображаться в одном и том же месте в выходной строке.</span><span class="sxs-lookup"><span data-stu-id="401c9-105">If spaces are used to separate the elements in the string, these spaces will appear in the same location in the output string.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="401c9-106">Типы форматов "d", "g" и "y" должны быть строчными, а буква "M" должна быть прописной.</span><span class="sxs-lookup"><span data-stu-id="401c9-106">The format types "d", "g", and "y" must be lowercase and the letter "M" must be uppercase.</span></span>
+
+ 
+
+<span data-ttu-id="401c9-107">Например, чтобы получить строку даты "Среда, Авг 31 94", приложение использует строку изображения "ddd", "МММ дд гг".</span><span class="sxs-lookup"><span data-stu-id="401c9-107">For example, to get the date string "Wed, Aug 31 94", the application uses the picture string "ddd',' MMM dd yy".</span></span>
+
+<span data-ttu-id="401c9-108">Приложение использует одинарные кавычки для обозначения символов, которые должны отображаться точно так, как указано.</span><span class="sxs-lookup"><span data-stu-id="401c9-108">The application uses single quotation marks to mark characters to display exactly as specified.</span></span> <span data-ttu-id="401c9-109">Если приложение должно отображать одинарные кавычки, оно должно содержать две одинарные кавычки в строке.</span><span class="sxs-lookup"><span data-stu-id="401c9-109">If the application must display a single quotation mark, it should place two single quotation marks in a row.</span></span> <span data-ttu-id="401c9-110">Например, "ABC" "Bar" отображается как "абк'бар".</span><span class="sxs-lookup"><span data-stu-id="401c9-110">For example, 'abc''bar', is displayed as "abc'bar".</span></span>
+
+<span data-ttu-id="401c9-111">В следующей таблице определены типы форматов, используемые для представления дней.</span><span class="sxs-lookup"><span data-stu-id="401c9-111">The following table defines the format types used to represent days.</span></span>
+
+
+
+| <span data-ttu-id="401c9-112">Тип формата</span><span class="sxs-lookup"><span data-stu-id="401c9-112">Format type</span></span> | <span data-ttu-id="401c9-113">Значение</span><span class="sxs-lookup"><span data-stu-id="401c9-113">Meaning</span></span>                                                                                                                                                                                                                                                                                                                                                                   |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="401c9-114">d</span><span class="sxs-lookup"><span data-stu-id="401c9-114">d</span></span>           | <span data-ttu-id="401c9-115">День месяца в виде цифр без начальных нулей для дней, состоящих из одной цифры.</span><span class="sxs-lookup"><span data-stu-id="401c9-115">Day of the month as digits without leading zeros for single-digit days.</span></span>                                                                                                                                                                                                                                                                                                   |
+| <span data-ttu-id="401c9-116">дд</span><span class="sxs-lookup"><span data-stu-id="401c9-116">dd</span></span>          | <span data-ttu-id="401c9-117">День месяца в виде цифр с начальными нулями для дней, состоящих из одной цифры.</span><span class="sxs-lookup"><span data-stu-id="401c9-117">Day of the month as digits with leading zeros for single-digit days.</span></span>                                                                                                                                                                                                                                                                                                      |
+| <span data-ttu-id="401c9-118">ddd</span><span class="sxs-lookup"><span data-stu-id="401c9-118">ddd</span></span>         | <span data-ttu-id="401c9-119">Сокращенный день недели, заданный значением [ \_ саббревдайнаме \* локали](locale-sabbrev-constants.md) , например "Пн" на английском языке (США).**Windows Vista и более поздние версии:** если требуется сокращенная версия дня недели, приложение должно использовать константы [ \_ \* сшортестдайнаме локали](locale-sshortestdayname-constants.md) .</span><span class="sxs-lookup"><span data-stu-id="401c9-119">Abbreviated day of the week as specified by a [LOCALE\_SABBREVDAYNAME\*](locale-sabbrev-constants.md) value, for example, "Mon" in English (United States).**Windows Vista and later:** If a short version of the day of the week is required, your application should use the [LOCALE\_SSHORTESTDAYNAME\*](locale-sshortestdayname-constants.md) constants.</span></span><br/> |
+| <span data-ttu-id="401c9-120">dddd</span><span class="sxs-lookup"><span data-stu-id="401c9-120">dddd</span></span>        | <span data-ttu-id="401c9-121">День недели, заданный значением [ \_ сдайнаме \* локали](locale-sdayname-constants.md) .</span><span class="sxs-lookup"><span data-stu-id="401c9-121">Day of the week as specified by a [LOCALE\_SDAYNAME\*](locale-sdayname-constants.md) value.</span></span>                                                                                                                                                                                                                                                                              |
+
+
+
+ 
+
+<span data-ttu-id="401c9-122">В следующей таблице определены типы форматов, используемые для представления месяцев.</span><span class="sxs-lookup"><span data-stu-id="401c9-122">The following table defines the format types used to represent months.</span></span>
+
+
+
+| <span data-ttu-id="401c9-123">Тип формата</span><span class="sxs-lookup"><span data-stu-id="401c9-123">Format type</span></span> | <span data-ttu-id="401c9-124">Значение</span><span class="sxs-lookup"><span data-stu-id="401c9-124">Meaning</span></span>                                                                                                                                                                          |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="401c9-125">M</span><span class="sxs-lookup"><span data-stu-id="401c9-125">M</span></span>           | <span data-ttu-id="401c9-126">Месяц как цифры без начальных нулей для месяцев, состоящих из одной цифры.</span><span class="sxs-lookup"><span data-stu-id="401c9-126">Month as digits without leading zeros for single-digit months.</span></span>                                                                                                                   |
+| <span data-ttu-id="401c9-127">ММ</span><span class="sxs-lookup"><span data-stu-id="401c9-127">MM</span></span>          | <span data-ttu-id="401c9-128">Месяцы в виде цифр с начальными нулями для месяцев, состоящих из одной цифры.</span><span class="sxs-lookup"><span data-stu-id="401c9-128">Month as digits with leading zeros for single-digit months.</span></span>                                                                                                                      |
+| <span data-ttu-id="401c9-129">MMM</span><span class="sxs-lookup"><span data-stu-id="401c9-129">MMM</span></span>         | <span data-ttu-id="401c9-130">Сокращенный месяц, заданный значением [ \_ саббревмонснаме \* локали](locale-sabbrev-constants.md) , например "Ноя" на английском языке (США).</span><span class="sxs-lookup"><span data-stu-id="401c9-130">Abbreviated month as specified by a [LOCALE\_SABBREVMONTHNAME\*](locale-sabbrev-constants.md) value, for example, "Nov" in English (United States).</span></span>                             |
+| <span data-ttu-id="401c9-131">ММММ:</span><span class="sxs-lookup"><span data-stu-id="401c9-131">MMMM</span></span>        | <span data-ttu-id="401c9-132">Месяц в соответствии со значением [ \_ смонснаме \* локали](locale-smonthname-constants.md) , например "Ноябрь" для английского языка (США) и "новиембре" для испанского языка (Испания).</span><span class="sxs-lookup"><span data-stu-id="401c9-132">Month as specified by a [LOCALE\_SMONTHNAME\*](locale-smonthname-constants.md) value, for example, "November" for English (United States), and "Noviembre" for Spanish (Spain).</span></span> |
+
+
+
+ 
+
+<span data-ttu-id="401c9-133">В следующей таблице определены типы форматов, используемые для представления лет.</span><span class="sxs-lookup"><span data-stu-id="401c9-133">The following table defines the format types used to represent years.</span></span>
+
+
+
+| <span data-ttu-id="401c9-134">Тип формата</span><span class="sxs-lookup"><span data-stu-id="401c9-134">Format type</span></span> | <span data-ttu-id="401c9-135">Значение</span><span class="sxs-lookup"><span data-stu-id="401c9-135">Meaning</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="401c9-136">да</span><span class="sxs-lookup"><span data-stu-id="401c9-136">y</span></span>           | <span data-ttu-id="401c9-137">Год представлен только последней цифрой.</span><span class="sxs-lookup"><span data-stu-id="401c9-137">Year represented only by the last digit.</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| <span data-ttu-id="401c9-138">yy</span><span class="sxs-lookup"><span data-stu-id="401c9-138">yy</span></span>          | <span data-ttu-id="401c9-139">Год представлен только двумя последними цифрами.</span><span class="sxs-lookup"><span data-stu-id="401c9-139">Year represented only by the last two digits.</span></span> <span data-ttu-id="401c9-140">Начальный ноль добавляется к годам, состоящих из одной цифры.</span><span class="sxs-lookup"><span data-stu-id="401c9-140">A leading zero is added for single-digit years.</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| <span data-ttu-id="401c9-141">гггг</span><span class="sxs-lookup"><span data-stu-id="401c9-141">yyyy</span></span>        | <span data-ttu-id="401c9-142">Год, представленный четырьмя или пятью цифрами, в зависимости от используемого календаря.</span><span class="sxs-lookup"><span data-stu-id="401c9-142">Year represented by a full four or five digits, depending on the calendar used.</span></span> <span data-ttu-id="401c9-143">В тайском и корейском календарях год имеет пять цифр.</span><span class="sxs-lookup"><span data-stu-id="401c9-143">Thai Buddhist and Korean calendars have five-digit years.</span></span> <span data-ttu-id="401c9-144">Шаблон "yyyy" отображает пять цифр для этих двух календарей и четыре цифры для всех других поддерживаемых календарей.</span><span class="sxs-lookup"><span data-stu-id="401c9-144">The "yyyy" pattern shows five digits for these two calendars, and four digits for all other supported calendars.</span></span> <span data-ttu-id="401c9-145">Календари, для которых используются двузначные или двузначные цифры, например для японской эры императора, представляются по-разному.</span><span class="sxs-lookup"><span data-stu-id="401c9-145">Calendars that have single-digit or two-digit years, such as for the Japanese Emperor era, are represented differently.</span></span> <span data-ttu-id="401c9-146">Год с одной цифрой представляется нулем в начале, например "03".</span><span class="sxs-lookup"><span data-stu-id="401c9-146">A single-digit year is represented with a leading zero, for example, "03".</span></span> <span data-ttu-id="401c9-147">Год, состоящих из двух цифр, представлен двумя цифрами, например 13.</span><span class="sxs-lookup"><span data-stu-id="401c9-147">A two-digit year is represented with two digits, for example, "13".</span></span> <span data-ttu-id="401c9-148">Дополнительные начальные нули не отображаются.</span><span class="sxs-lookup"><span data-stu-id="401c9-148">No additional leading zeros are displayed.</span></span> |
+| <span data-ttu-id="401c9-149">ггггг</span><span class="sxs-lookup"><span data-stu-id="401c9-149">yyyyy</span></span>       | <span data-ttu-id="401c9-150">Ведет себя так же, как «гггг».</span><span class="sxs-lookup"><span data-stu-id="401c9-150">Behaves identically to "yyyy".</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+
+
+ 
+
+<span data-ttu-id="401c9-151">В следующей таблице определяются типы форматов, используемые для представления периода или эры.</span><span class="sxs-lookup"><span data-stu-id="401c9-151">The following table defines the format types used to represent a period or era.</span></span>
+
+
+
+| <span data-ttu-id="401c9-152">Тип формата</span><span class="sxs-lookup"><span data-stu-id="401c9-152">Format type</span></span> | <span data-ttu-id="401c9-153">Значение</span><span class="sxs-lookup"><span data-stu-id="401c9-153">Meaning</span></span>                                                                                                                                                                              |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="401c9-154">g, GG</span><span class="sxs-lookup"><span data-stu-id="401c9-154">g, gg</span></span>       | <span data-ttu-id="401c9-155">Строка периода/эры, отформатированная в соответствии со \_ значением СЕРАСТРИНГ CAL.</span><span class="sxs-lookup"><span data-stu-id="401c9-155">Period/era string formatted as specified by the CAL\_SERASTRING value.</span></span> <span data-ttu-id="401c9-156">Изображения в формате "g" и "GG" в строке даты игнорируются, если нет связанной эры или строки периода.</span><span class="sxs-lookup"><span data-stu-id="401c9-156">The "g" and "gg" format pictures in a date string are ignored if there is no associated era or period string.</span></span> |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
