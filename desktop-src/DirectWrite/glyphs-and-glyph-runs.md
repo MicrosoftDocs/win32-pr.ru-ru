@@ -1,0 +1,69 @@
+---
+title: Глифы и запуски глифов
+description: Глифы и запуски глифов доступны на нижнем уровне функциональных возможностей API DirectWrite, слоя визуализации глифов.
+ms.assetid: e670cb65-1fcb-46fd-ac0b-02eaaaa51996
+keywords:
+- DirectWrite, глифы
+- DirectWrite, выполнение глифов
+- выполнение глифов
+- глифы
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 32c5c6b30c9a44cde4704e6afd231cebbc91d2be
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104134091"
+---
+# <a name="glyphs-and-glyph-runs"></a><span data-ttu-id="e48c0-107">Глифы и запуски глифов</span><span class="sxs-lookup"><span data-stu-id="e48c0-107">Glyphs and Glyph Runs</span></span>
+
+<span data-ttu-id="e48c0-108">Глифы и запуски глифов доступны на нижнем уровне функциональных возможностей API [DirectWrite](direct-write-portal.md) , слоя визуализации глифов.</span><span class="sxs-lookup"><span data-stu-id="e48c0-108">Glyphs and glyph runs are available at the lowest layer of functionality of the [DirectWrite](direct-write-portal.md) API, the glyph-rendering layer.</span></span>
+
+## <a name="glyphs"></a><span data-ttu-id="e48c0-109">Глифы</span><span class="sxs-lookup"><span data-stu-id="e48c0-109">Glyphs</span></span>
+
+<span data-ttu-id="e48c0-110">Глиф — это физическое представление символа в заданном шрифте.</span><span class="sxs-lookup"><span data-stu-id="e48c0-110">A glyph is a physical representation of a character in a given font.</span></span> <span data-ttu-id="e48c0-111">Символы могут иметь много глифов, при этом каждый шрифт в системе может определить другой глиф для этого символа.</span><span class="sxs-lookup"><span data-stu-id="e48c0-111">Characters might have many glyphs, with each font on a system potentially defining a different glyph for that character.</span></span>
+
+<span data-ttu-id="e48c0-112">Два или более глифов также можно объединить в один глиф, этот процесс называется композицией глифов.</span><span class="sxs-lookup"><span data-stu-id="e48c0-112">Two or more glyphs can also be combined into a single glyph, this process is called glyph composition.</span></span> <span data-ttu-id="e48c0-113">Это также можно сделать в обратном направлении. один глиф разбивается на несколько глифов, называемых декомпозицией глифов.</span><span class="sxs-lookup"><span data-stu-id="e48c0-113">This can also be done in the opposite direction, a single glyph being split into multiple glyphs, known as glyph decomposition.</span></span>
+
+### <a name="alternate-glyphs"></a><span data-ttu-id="e48c0-114">Альтернативные глифы</span><span class="sxs-lookup"><span data-stu-id="e48c0-114">Alternate Glyphs</span></span>
+
+<span data-ttu-id="e48c0-115">Шрифты могут предоставлять дополнительные глифы для символов, например стилистические альтернативные глифы шрифта OpenType Pericles, как показано на следующем снимке экрана.</span><span class="sxs-lookup"><span data-stu-id="e48c0-115">Fonts may provide alternate glyphs for characters, such as the stylistic alternate glyphs for the Pericles OpenType font, as shown in the following screen shot.</span></span> <span data-ttu-id="e48c0-116">Символы "A", "E" и "O" подготавливаются с помощью стилистических альтернативных глифов.</span><span class="sxs-lookup"><span data-stu-id="e48c0-116">The 'A', 'E', and 'O' characters are rendered with stylistic alternate glyphs.</span></span>
+
+![снимок экрана: «античного Green мифологии» с символами «a», «e» и «o» с использованием альтернативных глифов](images/opentypealternateglyphs.png)
+
+<span data-ttu-id="e48c0-118">Еще один пример альтернативных глифов — глифы swash.</span><span class="sxs-lookup"><span data-stu-id="e48c0-118">Another example of alternate glyphs are swash glyphs.</span></span> <span data-ttu-id="e48c0-119">На следующем снимке экрана показаны стандартные и swash глифы для шрифта Pescadero.</span><span class="sxs-lookup"><span data-stu-id="e48c0-119">The following screen shot shows standard and swash glyphs for the Pescadero font.</span></span>
+
+![снимок экрана с буквами "a" до "n" в стандартном и swash-глифах](images/opentypeswashstandard.png)
+
+<span data-ttu-id="e48c0-121">Глифы и другие типографские функции, в том числе более сложные глифы, доступны через [OpenType](../intl/opentype-font-format.md).</span><span class="sxs-lookup"><span data-stu-id="e48c0-121">Swashes and other typographic features, including more elaborate alternate glyphs, are available through [OpenType](../intl/opentype-font-format.md).</span></span> <span data-ttu-id="e48c0-122">Типографские функции OpenType можно применять к текстовому диапазону с помощью [**идвритетекстлайаут:: сеттипографи**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-settypography) и передачи константы перечисления [**\_ \_ \_ тегов функции шрифта дврите**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag) , связанной с требуемой функцией.</span><span class="sxs-lookup"><span data-stu-id="e48c0-122">OpenType typographic features can be applied to a text range by using the [**IDWriteTextLayout::SetTypography**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-settypography) and passing the [**DWRITE\_FONT\_FEATURE\_TAG**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag) enumeration constant associated with the desired feature.</span></span>
+
+## <a name="glyph-runs"></a><span data-ttu-id="e48c0-123">Выполнение глифов</span><span class="sxs-lookup"><span data-stu-id="e48c0-123">Glyph Runs</span></span>
+
+<span data-ttu-id="e48c0-124">Запуск глифа представляет собой непрерывный набор глифов, имеющих одинаковый шрифт и размер шрифта, а также один и тот же результат рисования клиента, если таковые имеются.</span><span class="sxs-lookup"><span data-stu-id="e48c0-124">A glyph run represents a contiguous set of glyphs that all have the same font face and size, as well as the same client drawing effect, if any.</span></span> <span data-ttu-id="e48c0-125">Подчеркивание и зачеркивание не являются частью запуска глифа для текстового диапазона, к которому они применяются, и рисуются позже.</span><span class="sxs-lookup"><span data-stu-id="e48c0-125">Underline and strikethrough are not part of the glyph run for the text range they are applied to, and are drawn later.</span></span> <span data-ttu-id="e48c0-126">Встроенные объекты, такие как изображения, также отображаются отдельно, так как они не являются частью шрифта.</span><span class="sxs-lookup"><span data-stu-id="e48c0-126">Inline objects, such as images, are also drawn separately, as they are not part of a font.</span></span>
+
+### <a name="the-idwritefontface-interface"></a><span data-ttu-id="e48c0-127">Интерфейс Идвритефонтфаце</span><span class="sxs-lookup"><span data-stu-id="e48c0-127">The IDWriteFontFace Interface</span></span>
+
+<span data-ttu-id="e48c0-128">[DirectWrite](direct-write-portal.md) использует ту же систему для классификации шрифтов, что и Windows песентатион Foundation (WPF), поэтому для каждого семейства шрифтов может существовать несколько физических шрифтов.</span><span class="sxs-lookup"><span data-stu-id="e48c0-128">[DirectWrite](direct-write-portal.md) uses the same system for font classification as Windows Pesentation Foundation (WPF), so there can be multiple physical fonts per each font family.</span></span> <span data-ttu-id="e48c0-129">Начертание шрифта, например интерфейс [**идвритефонтфаце**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) в DirectWrite, представляет физический шрифт с заданным весом, наклоном и растяжением.</span><span class="sxs-lookup"><span data-stu-id="e48c0-129">A font face, such as the [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) interface in DirectWrite, represents a physical font, with a specific weight, slant, and stretch.</span></span> <span data-ttu-id="e48c0-130">Он содержит тип начертания шрифта, соответствующие ссылки на файлы, идентификационные данные лица и различные данные шрифта, такие как метрики, имена и контуры глифов.</span><span class="sxs-lookup"><span data-stu-id="e48c0-130">It contains the font face type, appropriate file references, face identification data and various font data such as metrics, names and glyph outlines.</span></span>
+
+<span data-ttu-id="e48c0-131">[**Идвритефонтфаце**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) можно создать непосредственно из имени шрифта или получить из коллекции шрифтов.</span><span class="sxs-lookup"><span data-stu-id="e48c0-131">The [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) can be created directly from a font name or obtained from a font collection.</span></span>
+
+### <a name="glyph-metrics"></a><span data-ttu-id="e48c0-132">Метрики глифа</span><span class="sxs-lookup"><span data-stu-id="e48c0-132">Glyph Metrics</span></span>
+
+<span data-ttu-id="e48c0-133">С отдельными глифами связаны метрики.</span><span class="sxs-lookup"><span data-stu-id="e48c0-133">Individual glyphs have metrics associated with them.</span></span> <span data-ttu-id="e48c0-134">Метрики для всех глифов в глифе можно получить с помощью метода [**идвритефонтфаце:: жетдесигнглифметрикс**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getdesignglyphmetrics) .</span><span class="sxs-lookup"><span data-stu-id="e48c0-134">You can obtain the metrics for all of the glyphs in a glyph run by using the [**IDWriteFontFace::GetDesignGlyphMetrics**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getdesignglyphmetrics) method.</span></span> <span data-ttu-id="e48c0-135">Это возвращает структуру [**\_ \_ метрик глифов дврите**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_metrics) , которая имеет предварительную ширину, левую и правую сторону, а также верхнюю и нижнюю границы, а также высоту и вертикальный исходный план.</span><span class="sxs-lookup"><span data-stu-id="e48c0-135">This returns a [**DWRITE\_GLYPH\_METRICS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_metrics) structure that has the advance width, the left and right side bearing, the top and bottom side bearing, the height and the vertical baseline origin.</span></span>
+
+<span data-ttu-id="e48c0-136">На следующей диаграмме показаны различные метрики двух различных символов глифа.</span><span class="sxs-lookup"><span data-stu-id="e48c0-136">The following diagram shows various metrics of two different glyph characters.</span></span>
+
+![Схема метрик двух различных глифов](images/twoglyphs.png)
+
+## <a name="drawing-a-glyph-run"></a><span data-ttu-id="e48c0-138">Рисование выполнения глифа</span><span class="sxs-lookup"><span data-stu-id="e48c0-138">Drawing a Glyph Run</span></span>
+
+<span data-ttu-id="e48c0-139">При реализации пользовательского модуля подготовки к тексту отрисовка глифов обрабатывается методом [**идвритетекстрендерер::D равглифрун**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun), который реализуется как часть класса, производного от [**идвритетекстрендерер**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer).</span><span class="sxs-lookup"><span data-stu-id="e48c0-139">When implementing a custom text renderer, the rendering of glyphs is handled by the [**IDWriteTextRenderer::DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun), a callback method that you implement as part of a class derived from [**IDWriteTextRenderer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer).</span></span> <span data-ttu-id="e48c0-140">Структура [**\_ \_ выполнения глифа дврите**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run) , которая передается в [**DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) , содержит объект [**идвритефонтфаце**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) с именем *фонтфаце*, представляющий начертание шрифта для всего выполнения глифа.</span><span class="sxs-lookup"><span data-stu-id="e48c0-140">The [**DWRITE\_GLYPH\_RUN**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run) structure that is passed to [**DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) contains a [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) object, named *fontFace*, that represents the font face for the entire glyph run.</span></span>
+
+<span data-ttu-id="e48c0-141">Объект [**идвритефонтфаце**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) также предоставляет метод [**жетглифрунаутлине**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphrunoutline) , который выполняет вычисление контуров глифов с помощью указанного обратного вызова приемника геометрии, например [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) при отрисовке с [Direct2D](../direct2d/direct2d-portal.md).</span><span class="sxs-lookup"><span data-stu-id="e48c0-141">The [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) object also provides the [**GetGlyphRunOutline**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphrunoutline) method, which computes the glyph outlines by using a specified geometry sink callback, such as [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) when rendering with [Direct2D](../direct2d/direct2d-portal.md).</span></span>
+
+<span data-ttu-id="e48c0-142">Дополнительные сведения см. в разделе [Реализация пользовательского модуля подготовки текста](how-to-implement-a-custom-text-renderer.md) .</span><span class="sxs-lookup"><span data-stu-id="e48c0-142">For more information, see the [How to Implement a Custom Text Renderer](how-to-implement-a-custom-text-renderer.md) topic.</span></span>
+
+ 
+
+ 
