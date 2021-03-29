@@ -1,0 +1,99 @@
+---
+description: Представляет связь между заданием и управляемым элементом, создавшим задание.
+ms.assetid: 08c33a81-0a3f-4545-9812-96a854a7509e
+title: Класс CIM_OwningJobElement
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- CIM_OwningJobElement
+- CIM_OwningJobElement.OwningElement
+- CIM_OwningJobElement.OwnedElement
+api_type:
+- DllExport
+api_location:
+- vmms.exe
+ms.openlocfilehash: 9d3879104a8f7406ff24dc2f63b79b51eb2fa58c
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105664337"
+---
+# <a name="cim_owningjobelement-class"></a>\_Класс CIM овнингжобелемент
+
+Представляет связь между заданием и управляемым элементом, создавшим задание. Так как задание может перемещаться между системами, а управляемый элемент может не существовать в течение всего задания, в некоторых случаях такая ассоциация может быть невозможной или может существовать только для части существования задания.
+
+## <a name="syntax"></a>Синтаксис
+
+``` syntax
+[Association, Abstract, Version("2.7.0"), UMLPackagePath("CIM::System::Processing"), ModelCorrespondence("CIM_Job.Owner"), AMENDMENT]
+class CIM_OwningJobElement
+{
+  CIM_ManagedElement REF OwningElement;
+  CIM_Job            REF OwnedElement;
+};
+```
+
+## <a name="members"></a>Члены
+
+Класс **CIM \_ овнингжобелемент** имеет следующие типы членов:
+
+-   [Свойства](#properties)
+
+### <a name="properties"></a>Свойства
+
+Класс **CIM \_ овнингжобелемент** имеет следующие свойства.
+
+<dl> <dt>
+
+**овнеделемент**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **\_ Задание CIM** .
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> <dt>
+
+Квалификаторы: [ **ключ**](/windows/desktop/WmiSdk/key-qualifier)
+</dt> </dl>
+
+Ссылка на задание, созданное управляемым элементом.
+
+</dd> <dt>
+
+**овнинжелемент**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **CIM \_ манажеделемент**
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> <dt>
+
+Квалификаторы: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
+</dt> </dl>
+
+Ссылка на управляемый элемент, создавший задание.
+
+</dd> </dl>
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| Минимальная версия клиента<br/> | Windows 8<br/>                                                                                    |
+| Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                                          |
+| Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
+| MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
+
+
+
+ 
+
