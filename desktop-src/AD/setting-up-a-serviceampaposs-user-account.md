@@ -1,0 +1,29 @@
+---
+title: Настройка учетной записи пользователя службы
+description: Установщик службы может предложить учетную запись входа по умолчанию для экземпляра службы и позволить администратору выбрать учетную запись по умолчанию или указать другую.
+ms.assetid: 37285c23-8922-4da5-9f0b-922ea5e5794e
+ms.tgt_platform: multiple
+keywords:
+- Настройка AD учетной записи пользователя службы
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 705fa16d8d2cce137755f4a5086716aaaef8046a
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "103789456"
+---
+# <a name="setting-up-a-services-user-account"></a><span data-ttu-id="918c0-104">Настройка учетной записи пользователя службы</span><span class="sxs-lookup"><span data-stu-id="918c0-104">Setting up a Service's User Account</span></span>
+
+<span data-ttu-id="918c0-105">Установщик службы может предложить учетную запись входа по умолчанию для экземпляра службы и позволить администратору выбрать учетную запись по умолчанию или указать другую.</span><span class="sxs-lookup"><span data-stu-id="918c0-105">Your service installer can suggest a default logon account for a service instance and allow the administrator to select the default account or specify a different one.</span></span> <span data-ttu-id="918c0-106">Если администратор выбирает учетную запись пользователя, а не учетную запись LocalSystem, учетная запись должна существовать до вызова функции [**CreateService**](/windows/desktop/api/winsvc/nf-winsvc-createservicea) для установки экземпляра службы на сервере узла.</span><span class="sxs-lookup"><span data-stu-id="918c0-106">If the administrator selects a user account, rather than the LocalSystem account, the account must exist before you call the [**CreateService**](/windows/desktop/api/winsvc/nf-winsvc-createservicea) function to install an instance of the service on a host server.</span></span> <span data-ttu-id="918c0-107">Дополнительные сведения и пример кода, который можно использовать для создания нового объекта пользователя домена в домен Active Directory Services, см. в разделе [Создание пользователя](creating-a-user.md).</span><span class="sxs-lookup"><span data-stu-id="918c0-107">For more information and a code example that can be used to create a new domain user object in Active Directory Domain Services, see [Creating a User](creating-a-user.md).</span></span>
+
+<span data-ttu-id="918c0-108">В идеале каждый экземпляр службы, на котором размещена или реплицируемая служба, должен иметь собственную учетную запись пользователя домена.</span><span class="sxs-lookup"><span data-stu-id="918c0-108">Ideally, each instance of a service, whether a host-based or replicable service, should have its own domain user account.</span></span> <span data-ttu-id="918c0-109">Использование отдельных учетных записей для каждого экземпляра службы является более безопасным, чем наличие нескольких экземпляров, совместно использующих одну и ту же учетную запись.</span><span class="sxs-lookup"><span data-stu-id="918c0-109">Using separate accounts for each service instance is more secure than having multiple instances share the same account.</span></span> <span data-ttu-id="918c0-110">Кроме того, использование отдельных учетных записей позволяет выполнять аудит действий каждого экземпляра службы.</span><span class="sxs-lookup"><span data-stu-id="918c0-110">Also, using separate accounts makes it possible to audit the activities of each service instance.</span></span>
+
+<span data-ttu-id="918c0-111">Когда установщик предлагает учетную запись входа по умолчанию, он должен указать имя новой учетной записи, которая будет создана для нового экземпляра службы.</span><span class="sxs-lookup"><span data-stu-id="918c0-111">When your installer suggests a default logon account, it should specify the name of a new account to be created for the new service instance.</span></span> <span data-ttu-id="918c0-112">Имя учетной записи может состоять из тех же элементов, которые используются для создания имени субъекта-службы, например класса службы, главного компьютера и имени службы.</span><span class="sxs-lookup"><span data-stu-id="918c0-112">The account name could be composed from the same elements used to compose a service principal name, such as the service class, host computer, and service name.</span></span> <span data-ttu-id="918c0-113">Дополнительные сведения об именах субъектов-служб см. в [этом разделе](service-principal-names.md).</span><span class="sxs-lookup"><span data-stu-id="918c0-113">For more information, see [Service Principal Names](service-principal-names.md).</span></span> <span data-ttu-id="918c0-114">Как правило, учетная запись создается в контейнере "Пользователи" в домене главного компьютера.</span><span class="sxs-lookup"><span data-stu-id="918c0-114">Typically, you create the account in the Users container on the domain of the host computer.</span></span>
+
+<span data-ttu-id="918c0-115">Необходимо создать пароль для каждой учетной записи.</span><span class="sxs-lookup"><span data-stu-id="918c0-115">You must generate a password for each account.</span></span> <span data-ttu-id="918c0-116">Дополнительные сведения о написании средства, автоматизирующих задачу обновления паролей учетных записей служб, см. в разделе [изменение пароля учетной записи пользователя службы](changing-the-password-on-a-serviceampaposs-user-account.md).</span><span class="sxs-lookup"><span data-stu-id="918c0-116">For more information about how to write a tool that automates the task of updating service account passwords, see [Changing the Password on a Service's User Account](changing-the-password-on-a-serviceampaposs-user-account.md).</span></span>
+
+ 
+
+ 

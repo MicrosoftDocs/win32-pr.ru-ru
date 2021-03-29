@@ -1,0 +1,27 @@
+---
+description: Цель этого руководством — помочь пользователям устранять ошибки, возникающие при использовании API-интерфейсов обнаружения WSDAPI, при создании узла или прокси устройства WSDAPI, а также при использовании функций операционной системы (таких как обнаружение функций или сетевой обозреватель), зависящих от WSDAPI.
+ms.assetid: fc01fc66-627a-497f-98dd-613f5d85f6cb
+title: Руководство по устранению неполадок WSDAPI
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 4c28e9a1fe4cc5b24b386cfb88e39276edc14cb3
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105647251"
+---
+# <a name="wsdapi-troubleshooting-guide"></a><span data-ttu-id="89852-103">Руководство по устранению неполадок WSDAPI</span><span class="sxs-lookup"><span data-stu-id="89852-103">WSDAPI Troubleshooting Guide</span></span>
+
+<span data-ttu-id="89852-104">Цель этого руководством — помочь пользователям устранять ошибки, возникающие при использовании API-интерфейсов обнаружения WSDAPI, при создании узла или прокси устройства WSDAPI, а также при использовании функций операционной системы (таких как [обнаружение функций](/previous-versions/windows/desktop/fundisc/fd-portal) или сетевой обозреватель), ЗАВИСЯЩИХ от WSDAPI.</span><span class="sxs-lookup"><span data-stu-id="89852-104">The purpose of this guide is to help users troubleshoot failures encountered when using WSDAPI discovery APIs, when creating a WSDAPI host or device proxy, or when using operating system functions (such as [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal) or the Network Explorer) that rely on WSDAPI.</span></span> <span data-ttu-id="89852-105">Основной целью является помощь в устранении неполадок, когда клиент и узел не видят друг друга в сети.</span><span class="sxs-lookup"><span data-stu-id="89852-105">The primary goal is to help troubleshoot when a client and host cannot see each other on the network.</span></span>
+
+<span data-ttu-id="89852-106">Для пользователей WSDAPI это средство содержит сведения, которые помогут вам успешно устранять неполадки прокси-сервера устройства (с помощью [**всдкреатедевицепрокси**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxy)), поставщика обнаружения (с помощью [**всдкреатедисковерипровидер**](/windows/desktop/api/WsdDisco/nf-wsddisco-wsdcreatediscoveryprovider)) или издателя обнаружения (с помощью [**всдкреатедисковерипублишер**](/windows/desktop/api/WsdDisco/nf-wsddisco-wsdcreatediscoverypublisher)).</span><span class="sxs-lookup"><span data-stu-id="89852-106">For WSDAPI users, this guide contains information that will help you successfully troubleshoot a device proxy (using [**WSDCreateDeviceProxy**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxy)), a discovery provider (using [**WSDCreateDiscoveryProvider**](/windows/desktop/api/WsdDisco/nf-wsddisco-wsdcreatediscoveryprovider)), or a discovery publisher (using [**WSDCreateDiscoveryPublisher**](/windows/desktop/api/WsdDisco/nf-wsddisco-wsdcreatediscoverypublisher)).</span></span>
+
+<span data-ttu-id="89852-107">В этом учебнике предполагается, что клиент и узел могут правильно взаимодействовать с WSDAPI в управляемой среде.</span><span class="sxs-lookup"><span data-stu-id="89852-107">This guide assumes that both the client and host can correctly interoperate with WSDAPI in a controlled environment.</span></span> <span data-ttu-id="89852-108">Соответственно, это средство не предназначено для устранения неполадок в стеках DPWS, которые могут формировать неправильные сообщения WS.</span><span class="sxs-lookup"><span data-stu-id="89852-108">Accordingly, this guide is not intended to help troubleshoot DPWS stacks that may be generating improper WS messages.</span></span> <span data-ttu-id="89852-109">Сведения о тестировании взаимодействия с WSDAPI см. в разделе [средство взаимодействия Basic (всдбит) для WSDAPI](https://msdn.microsoft.com/library/cc264250.aspx) в комплекте драйверов Windows (WDK).</span><span class="sxs-lookup"><span data-stu-id="89852-109">For information on testing interoperability with WSDAPI, see the [WSDAPI Basic Interoperability Tool (WSDBIT)](https://msdn.microsoft.com/library/cc264250.aspx) in the Windows Driver Kit (WDK).</span></span>
+
+<span data-ttu-id="89852-110">Прежде чем начать устранение неполадок приложения, необходимо ознакомиться с [шаблонами сообщений обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md).</span><span class="sxs-lookup"><span data-stu-id="89852-110">Before you begin troubleshooting your application, you should familiarize yourself with [Discovery and Metadata Exchange Message Patterns](discovery-and-metadata-exchange-message-patterns.md).</span></span>
+
+<span data-ttu-id="89852-111">Данное руководство содержит следующие разделы.</span><span class="sxs-lookup"><span data-stu-id="89852-111">This guide contains the following sections.</span></span>
+
+-   [<span data-ttu-id="89852-112">начало работы с разрешениями WSDAPI</span><span class="sxs-lookup"><span data-stu-id="89852-112">Getting Started with WSDAPI Troubleshooting</span></span>](getting-started-with-wsdapi-troubleshooting.md)
+-   [<span data-ttu-id="89852-113">Процедуры диагностики WSDAPI</span><span class="sxs-lookup"><span data-stu-id="89852-113">WSDAPI Diagnostic Procedures</span></span>](wsdapi-diagnostic-procedures.md)

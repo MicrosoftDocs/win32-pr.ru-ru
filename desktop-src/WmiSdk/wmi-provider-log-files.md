@@ -1,0 +1,68 @@
+---
+description: Поставщики WMI также могут поддерживать журналы. Файлы журналов, отображаемые в системе, зависят от того, какие поставщики установлены.
+ms.assetid: 04f041e5-4f2c-4c94-9aba-b040d941b46d
+ms.tgt_platform: multiple
+title: Файлы журналов поставщика WMI
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f0b485c16c44ad5ac26c51db7551baa423ad1a58
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103898522"
+---
+# <a name="wmi-provider-log-files"></a><span data-ttu-id="7b3d4-104">Файлы журналов поставщика WMI</span><span class="sxs-lookup"><span data-stu-id="7b3d4-104">WMI Provider Log Files</span></span>
+
+<span data-ttu-id="7b3d4-105">Поставщики WMI также могут поддерживать журналы.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-105">WMI providers also may maintain logs.</span></span> <span data-ttu-id="7b3d4-106">Файлы журналов, отображаемые в системе, зависят от того, какие поставщики установлены.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-106">Which log files appear on a system depends on which providers are installed.</span></span>
+
+<span data-ttu-id="7b3d4-107">Эти журналы могут располагаться в каталоге% systemroot% \\ system32 \\ WBEM \\ .</span><span class="sxs-lookup"><span data-stu-id="7b3d4-107">These logs may be located in the %systemroot%\\system32\\wbem\\logs directory.</span></span>
+
+-   [<span data-ttu-id="7b3d4-108">Вмипров. log</span><span class="sxs-lookup"><span data-stu-id="7b3d4-108">Wmiprov.log</span></span>](#wmiprovlog)
+-   [<span data-ttu-id="7b3d4-109">Нтевт. log</span><span class="sxs-lookup"><span data-stu-id="7b3d4-109">Ntevt.log</span></span>](#ntevtlog)
+-   [<span data-ttu-id="7b3d4-110">Дспровидер. log</span><span class="sxs-lookup"><span data-stu-id="7b3d4-110">Dsprovider.log</span></span>](#dsproviderlog)
+-   [<span data-ttu-id="7b3d4-111">См. также</span><span class="sxs-lookup"><span data-stu-id="7b3d4-111">Related topics</span></span>](#related-topics)
+
+## <a name="wmiprovlog"></a><span data-ttu-id="7b3d4-112">Вмипров. log</span><span class="sxs-lookup"><span data-stu-id="7b3d4-112">Wmiprov.log</span></span>
+
+<span data-ttu-id="7b3d4-113">Файл Вмипров. log содержит данные и события управления из драйверов WDM (WDM) с поддержкой WMI и [поставщика WDM](/windows/desktop/WmiCoreProv/wdm-provider).</span><span class="sxs-lookup"><span data-stu-id="7b3d4-113">The Wmiprov.log file contains management data and events from WMI-enabled Windows Driver Model (WDM) drivers and the [WDM Provider](/windows/desktop/WmiCoreProv/wdm-provider).</span></span> <span data-ttu-id="7b3d4-114">Он предоставляет сведения о предупреждениях и ошибках в основном для устранения неполадок и отладки поставщика и клиентских приложений, которые его используют.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-114">It supplies warning and error information primarily for troubleshooting and debugging the provider and client applications that use it.</span></span>
+
+<span data-ttu-id="7b3d4-115">Вмипров. log содержит:</span><span class="sxs-lookup"><span data-stu-id="7b3d4-115">The Wmiprov.log contains:</span></span>
+
+-   <span data-ttu-id="7b3d4-116">Ошибки [поставщика WDM](/windows/desktop/WmiCoreProv/wdm-provider) или драйвера устройства, например двоичная ошибка компиляции MOF или Сбой получения данных.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-116">Errors from the [WDM Provider](/windows/desktop/WmiCoreProv/wdm-provider) or the device driver such as the binary MOF compile failing or failure to retrieve data.</span></span>
+-   <span data-ttu-id="7b3d4-117">Состояние компиляции MOF для каждого из драйверов, использующих формат MOF.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-117">The status of the MOF compile for each of the drivers which use MOF format.</span></span>
+-   <span data-ttu-id="7b3d4-118">События создания и деконструирования поставщика.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-118">Provider construction and deconstruction events.</span></span>
+-   <span data-ttu-id="7b3d4-119">Печать ВНОДЕ.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-119">Printout of WNODE.</span></span>
+
+## <a name="ntevtlog"></a><span data-ttu-id="7b3d4-120">Нтевт. log</span><span class="sxs-lookup"><span data-stu-id="7b3d4-120">Ntevt.log</span></span>
+
+<span data-ttu-id="7b3d4-121">Файл Нтевт. log содержит сообщения трассировки от [поставщика журнала событий](/previous-versions/windows/desktop/eventlogprov/event-log-provider).</span><span class="sxs-lookup"><span data-stu-id="7b3d4-121">The Ntevt.log file contains trace messages from the [Event Log Provider](/previous-versions/windows/desktop/eventlogprov/event-log-provider).</span></span>
+
+## <a name="dsproviderlog"></a><span data-ttu-id="7b3d4-122">Дспровидер. log</span><span class="sxs-lookup"><span data-stu-id="7b3d4-122">Dsprovider.log</span></span>
+
+<span data-ttu-id="7b3d4-123">Файл Дспровидер. log содержит сведения о трассировке и сообщения об ошибках для [поставщика Active Directory](/previous-versions/windows/desktop/dsprov/active-directory-provider).</span><span class="sxs-lookup"><span data-stu-id="7b3d4-123">The Dsprovider.log file contains trace information and error messages for the [Active Directory Provider](/previous-versions/windows/desktop/dsprov/active-directory-provider).</span></span>
+
+<span data-ttu-id="7b3d4-124">В следующей таблице перечислены некоторые распространенные проблемы, которые могут возникать, и предлагаются возможные причины и решения.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-124">The following table lists some common problems that can occur and offers possible causes and solutions.</span></span>
+
+
+
+| <span data-ttu-id="7b3d4-125">Сообщение</span><span class="sxs-lookup"><span data-stu-id="7b3d4-125">Message</span></span>                                                                                                                                                                                                                                                                                                        | <span data-ttu-id="7b3d4-126">Описание</span><span class="sxs-lookup"><span data-stu-id="7b3d4-126">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="7b3d4-127">Сбой Клдапкласспровидер:: Инитиализелдаппровидер Адсжетобжект on RootDSE: <hresult></span><span class="sxs-lookup"><span data-stu-id="7b3d4-127">CLDAPClassProvider::InitializeLDAPProvider ADsGetObject on RootDSE FAILED : <hresult></span></span>                                                                                                                                                                                                                    | <span data-ttu-id="7b3d4-128">Сбой вызова ADSI при попытке получить корень служб каталогов.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-128">The ADSI call failed while trying to get the root of your directory services.</span></span> <span data-ttu-id="7b3d4-129">Убедитесь, что компьютер является членом домена.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-129">Verify that your computer is a member of a domain.</span></span>                                                                                                                                                                                                                                                                             |
+| <span data-ttu-id="7b3d4-130">Сбой Жетклассфромкачеорадси Кдскласспровидер:: Жетобжектасинк () для <class name> с <hresult></span><span class="sxs-lookup"><span data-stu-id="7b3d4-130">CDSClassProvider::GetObjectAsync() GetClassFromCacheOrADSI FAILED for <class name> with <hresult></span></span>                                                                                                                                                                                                  | <span data-ttu-id="7b3d4-131">Класс, который вы пытаетесь получить, не является допустимым классом в каталоге.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-131">The class you are trying to get is not a valid class in the directory.</span></span> <span data-ttu-id="7b3d4-132">Проверьте правильность имени класса.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-132">Verify that the class name is correct.</span></span>                                                                                                                                                                                                                                                                                                |
+| <span data-ttu-id="7b3d4-133">Клдапинстанцепровидер::P Утинстанцеасинк () Модифексистингинстанце не выполнено для LDAP://кН = Foo1, CN = Users, DC = дспровидер, DC = нттест, DC = Microsoft, DC = com с <hresult></span><span class="sxs-lookup"><span data-stu-id="7b3d4-133">CLDAPInstanceProvider::PutInstanceAsync() ModifyExistingInstance FAILED for LDAP://CN=foo1, CN=Users, DC=dsprovider,DC=nttest, DC=Microsoft, DC=com with <hresult></span></span>                                                                                                                                       | <span data-ttu-id="7b3d4-134">Поставщику не удалось записать измененный экземпляр в службы каталогов.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-134">The provider was unable to write a modified instance to directory services.</span></span> <span data-ttu-id="7b3d4-135">Убедитесь, что вы используете интерфейс [**ивбемконтекст**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) , чтобы указать набор свойств, которые вы изменяете.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-135">Ensure that you are using the [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) interface to specify the set of properties that you are modifying.</span></span> <span data-ttu-id="7b3d4-136">Дополнительные сведения об использовании интерфейса **ивбемконтекст** с [**PutInstance**](/windows/desktop/api/Provider/nf-provider-provider-putinstance(constcinstance__long))см. в разделе [обновление всего экземпляра](updating-an-entire-instance.md).</span><span class="sxs-lookup"><span data-stu-id="7b3d4-136">For more information about how to use the **IWbemContext** interface with [**PutInstance**](/windows/desktop/api/Provider/nf-provider-provider-putinstance(constcinstance__long)), see [Updating an Entire Instance](updating-an-entire-instance.md).</span></span> |
+| <span data-ttu-id="7b3d4-137">Сбой Клдафелпер:: Жетадсиинстанце ADsOpenObject () <class name> с <hresult></span><span class="sxs-lookup"><span data-stu-id="7b3d4-137">CLDAPHelper::GetADSIInstance ADsOpenObject() FAILED on <class name> with <hresult></span></span><br/> <span data-ttu-id="7b3d4-138">Сбой Клдапинстанцепровидер:: Жетобжектасинк: Жетадсиинстанце () с <hresult></span><span class="sxs-lookup"><span data-stu-id="7b3d4-138">CLDAPInstanceProvider::GetObjectAsync : GetADSIInstance() FAILED with <hresult></span></span><br/> <span data-ttu-id="7b3d4-139">Сбой Клдапинстанцепровидер:: Жетобжектасинк () для \_ пользователя DS. Адсипас = "<class name></span><span class="sxs-lookup"><span data-stu-id="7b3d4-139">CLDAPInstanceProvider::GetObjectAsync() FAILED for ds\_user.ADSIPath="<class name></span></span><br/> | <span data-ttu-id="7b3d4-140">Эти три сообщения указывают, что экземпляр, который вы пытаетесь получить, не существует в службе каталогов.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-140">These three messages indicate that the instance you are trying to get does not exist in the directory service.</span></span> <span data-ttu-id="7b3d4-141">Проверьте правильность значения **адсипас** и имени класса.</span><span class="sxs-lookup"><span data-stu-id="7b3d4-141">Verify that the **ADSIPath** value and class name are correct.</span></span>                                                                                                                                                                                                                                |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="7b3d4-142">См. также</span><span class="sxs-lookup"><span data-stu-id="7b3d4-142">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="7b3d4-143">Файлы журналов WMI</span><span class="sxs-lookup"><span data-stu-id="7b3d4-143">WMI Log Files</span></span>](wmi-log-files.md)
+</dt> </dl>
+
+ 
+
