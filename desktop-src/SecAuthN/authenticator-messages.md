@@ -1,0 +1,24 @@
+---
+description: В простом протоколе, использующем проверку подлинности с помощью секретного ключа, клиент представляет сообщение средства проверки подлинности в виде фрагмента данных, зашифрованных в сеансе ключа.
+ms.assetid: 984c84db-96d5-479e-8917-25a0270b3b59
+title: Сообщения средства проверки подлинности
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 7e76cf171d163ac2f1d0d4a7fcaab53a7fa0ace0
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104265019"
+---
+# <a name="authenticator-messages"></a><span data-ttu-id="a7b31-103">Сообщения средства проверки подлинности</span><span class="sxs-lookup"><span data-stu-id="a7b31-103">Authenticator Messages</span></span>
+
+<span data-ttu-id="a7b31-104">В простом протоколе, использующем проверку подлинности с помощью секретного ключа, клиент представляет сообщение средства проверки подлинности в виде фрагмента данных, зашифрованных в [*сеансе ключа*](/windows/desktop/SecGloss/s-gly).</span><span class="sxs-lookup"><span data-stu-id="a7b31-104">In a simple protocol using secret key authentication, a client presents an authenticator message in the form of a piece of information encrypted in the [*session key*](/windows/desktop/SecGloss/s-gly).</span></span> <span data-ttu-id="a7b31-105">Сведения в сообщении средства проверки подлинности должны быть разными при каждом выполнении протокола аутентификации, или зашифрованное сообщение проверки подлинности может быть повторно использовано неавторизованной сущностью.</span><span class="sxs-lookup"><span data-stu-id="a7b31-105">The information in the authenticator message must be different each time the authentication protocol is executed, or an encrypted authenticator message could be reused by an unauthorized entity.</span></span>
+
+<span data-ttu-id="a7b31-106">При получении сообщения средства проверки подлинности сервер расшифровывает его и может сообщать из содержимого расшифрованного сообщения о том, была ли расшифровка успешной.</span><span class="sxs-lookup"><span data-stu-id="a7b31-106">On receiving the authenticator message, the server decrypts it and can tell from the contents of the decrypted message whether decryption was successful.</span></span> <span data-ttu-id="a7b31-107">Если расшифрованное сообщение не вам, сервер знает, что клиент, представляя сообщение средства проверки подлинности, использовал правильный ключ для шифрования сообщения.</span><span class="sxs-lookup"><span data-stu-id="a7b31-107">If the decrypted message is not gibberish, the server knows that the client presenting the authenticator message used the correct key to encrypt the message.</span></span> <span data-ttu-id="a7b31-108">Только две сущности имеют доступ к [*ключу сеанса*](/windows/desktop/SecGloss/s-gly) , и если сервер является одним из них, клиент, который зашифровал сообщение средства проверки подлинности, должен быть другим.</span><span class="sxs-lookup"><span data-stu-id="a7b31-108">Only two entities have access to the [*session key*](/windows/desktop/SecGloss/s-gly) and if the server is one of those, the client who encrypted the authenticator message must be the other.</span></span>
+
+<span data-ttu-id="a7b31-109">Для взаимной проверки подлинности выполняется аналогичный протокол.</span><span class="sxs-lookup"><span data-stu-id="a7b31-109">For mutual authentication, a similar protocol is executed.</span></span> <span data-ttu-id="a7b31-110">Сервер извлекает часть информации из расшифрованного, исходного сообщения средства проверки подлинности, шифрует его с помощью общего ключа сеанса и отправляет зашифрованное сообщение клиенту.</span><span class="sxs-lookup"><span data-stu-id="a7b31-110">The server extracts part of the information from the decrypted, original authenticator message, encrypts it with the shared session key, and sends the encrypted message to the client.</span></span> <span data-ttu-id="a7b31-111">Клиент расшифровывает сообщение и сравнивает результат с исходным.</span><span class="sxs-lookup"><span data-stu-id="a7b31-111">The client decrypts the message and compares the result with the original.</span></span> <span data-ttu-id="a7b31-112">Если расшифрованное сообщение соответствует правильной части исходного сообщения, клиент знает, что сервер смог расшифровать исходное сообщение с помощью общего секретного ключа сеанса и смог повторно зашифровать часть этого сообщения с тем же общим секретным [*ключом сеанса*](/windows/desktop/SecGloss/s-gly).</span><span class="sxs-lookup"><span data-stu-id="a7b31-112">If the decrypted message matches the correct part of the original message, the client knows that the server was able to decrypt the original message with the shared secret session key and was able to re-encrypt a portion of that message with that same shared secret [*session key*](/windows/desktop/SecGloss/s-gly).</span></span>
+
+ 
+
+ 
