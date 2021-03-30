@@ -1,0 +1,31 @@
+---
+description: Код продукта — это идентификатор GUID, который является основным идентификатором приложения или продукта.
+ms.assetid: 6fbad59b-27b7-4ac1-bad5-8a608c7b270f
+title: Коды продуктов
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: edca03d54dcd14068e89b2314b729e672b0c631c
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104265947"
+---
+# <a name="product-codes"></a><span data-ttu-id="f3545-103">Коды продуктов</span><span class="sxs-lookup"><span data-stu-id="f3545-103">Product Codes</span></span>
+
+<span data-ttu-id="f3545-104">Код продукта — это идентификатор GUID, который является основным идентификатором приложения или продукта.</span><span class="sxs-lookup"><span data-stu-id="f3545-104">The product code is a GUID that is the principal identification of an application or product.</span></span> <span data-ttu-id="f3545-105">Дополнительные сведения см. в описании свойства [**ProductCode**](productcode.md) .</span><span class="sxs-lookup"><span data-stu-id="f3545-105">For more information, see the [**ProductCode**](productcode.md) property.</span></span> <span data-ttu-id="f3545-106">Если в продукт вносятся существенные изменения, код продукта также должен быть изменен в соответствии с этим.</span><span class="sxs-lookup"><span data-stu-id="f3545-106">If significant changes are made to a product then the product code should also be changed to reflect this.</span></span> <span data-ttu-id="f3545-107">Однако не требуется, чтобы код продукта был изменен, если изменения в продукте относительно незначительны.</span><span class="sxs-lookup"><span data-stu-id="f3545-107">It is not however a requirement that the product code be changed if the changes to the product are relatively minor.</span></span>
+
+<span data-ttu-id="f3545-108">32-разрядная и 64-разрядная версии пакета приложения должны иметь разные коды продуктов.</span><span class="sxs-lookup"><span data-stu-id="f3545-108">The 32-bit and 64-bit versions of an application's package must have different product codes.</span></span> <span data-ttu-id="f3545-109">Если любой 32-разрядный компонент приложения перекомпилируется в 64-разрядный компонент, необходимо назначить новый код продукта.</span><span class="sxs-lookup"><span data-stu-id="f3545-109">If any 32-bit component of an application is recompiled into a 64-bit component, a new product code must be assigned.</span></span>
+
+<span data-ttu-id="f3545-110">Если сервер, представленный в [таблице публишкомпонент](publishcomponent-table.md) , перекомпилируется с 32 бит на 64-bit, то GUID в этой таблице также может потребоваться изменить, чтобы 32-разрядные и 64-разрядные клиенты могли определять соответствующую категорию компонентов.</span><span class="sxs-lookup"><span data-stu-id="f3545-110">If a server exposed in the [PublishComponent Table](publishcomponent-table.md) is recompiled from 32-bits to 64-bits, the GUID in this table may also need to be changed so that 32-bit and 64-bit clients can identify the appropriate qualified component category.</span></span> <span data-ttu-id="f3545-111">В этом случае необходимо также изменить код продукта.</span><span class="sxs-lookup"><span data-stu-id="f3545-111">In this case, the product code must also be changed.</span></span>
+
+<span data-ttu-id="f3545-112">Обратите внимание, что буквы в идентификаторах GUID кода продукта должны быть прописными буквами.</span><span class="sxs-lookup"><span data-stu-id="f3545-112">Note that letters in product code GUIDs must be uppercase.</span></span> <span data-ttu-id="f3545-113">Такие служебные программы, как GUIDGEN, создают идентификаторы GUID, содержащие строчные буквы.</span><span class="sxs-lookup"><span data-stu-id="f3545-113">Utilities such as GUIDGEN generate GUIDs containing lowercase letters.</span></span> <span data-ttu-id="f3545-114">Строчные буквы в этих идентификаторах GUID необходимо изменить на прописные, чтобы они использовались в качестве кода продукта или пакета.</span><span class="sxs-lookup"><span data-stu-id="f3545-114">The lowercase letters in these GUIDs must be changed to uppercase to be used as a product code or package code.</span></span> <span data-ttu-id="f3545-115">Дополнительные сведения см. [в разделе изменение кода продукта](changing-the-product-code.md).</span><span class="sxs-lookup"><span data-stu-id="f3545-115">For more information, see [Changing the Product Code](changing-the-product-code.md).</span></span>
+
+<span data-ttu-id="f3545-116">Код пакета — это идентификатор GUID, определяющий конкретный [*пакет*](p-gly.md)установщик Windows.</span><span class="sxs-lookup"><span data-stu-id="f3545-116">The package code is a GUID identifying a particular Windows Installer [*package*](p-gly.md).</span></span> <span data-ttu-id="f3545-117">Код пакета связывает MSI файл с приложением или продуктом и может также использоваться для проверки источников.</span><span class="sxs-lookup"><span data-stu-id="f3545-117">The package code associates an .msi file with an application or product and can also be used for the verification of sources.</span></span> <span data-ttu-id="f3545-118">Коды продуктов и пакетов не взаимозаменяемы.</span><span class="sxs-lookup"><span data-stu-id="f3545-118">The product and package codes are not interchangeable.</span></span> <span data-ttu-id="f3545-119">Ни один из двух неидентичных MSI-файлов никогда не должен иметь одинаковый код пакета.</span><span class="sxs-lookup"><span data-stu-id="f3545-119">No two nonidentical .msi files should ever have the same package code.</span></span> <span data-ttu-id="f3545-120">Хотя обычно для доставки приложения, имеющего тот же код пакета и код продукта, эти два значения могут отличаться при обновлении приложения.</span><span class="sxs-lookup"><span data-stu-id="f3545-120">Although it is common to ship an application that has the same package code and product code, the two values can diverge as the application is updated.</span></span> <span data-ttu-id="f3545-121">Дополнительные сведения см. в разделе [коды пакетов](package-codes.md).</span><span class="sxs-lookup"><span data-stu-id="f3545-121">For more information, see [Package Codes](package-codes.md).</span></span>
+
+ 
+
+ 
+
+
+

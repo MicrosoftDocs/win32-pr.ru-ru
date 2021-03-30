@@ -1,0 +1,53 @@
+---
+title: Получение уведомлений об изменениях
+description: Многие клиенты могут одновременно обновлять таблицу маршрутизации, а клиенты должны получать уведомления об изменениях в сведениях о маршрутизации.
+ms.assetid: d42e16e2-32b2-4178-967b-e937730b3cca
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: bacd8d1d0329cf29be82a890be30b602b9330249
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104410836"
+---
+# <a name="receiving-notification-of-changes"></a><span data-ttu-id="f17a8-103">Получение уведомлений об изменениях</span><span class="sxs-lookup"><span data-stu-id="f17a8-103">Receiving Notification of Changes</span></span>
+
+<span data-ttu-id="f17a8-104">Многие клиенты могут одновременно обновлять таблицу маршрутизации, а клиенты должны получать уведомления об изменениях в сведениях о маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="f17a8-104">Many clients can simultaneously update the routing table, and clients must be notified when changes to routing information occur.</span></span> <span data-ttu-id="f17a8-105">Например, клиент, не уведомляющий об изменениях другого клиента в таблице маршрутизации, может объявить устаревшие сведения о маршруте.</span><span class="sxs-lookup"><span data-stu-id="f17a8-105">For example, a client that is not notified of another client's changes to the routing table could advertise outdated route information.</span></span> <span data-ttu-id="f17a8-106">Это может быть предотвращено, если клиенты зарегистрируются в диспетчере таблиц маршрутизации, чтобы получать уведомления об изменениях в таблице маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="f17a8-106">This can be prevented by programming clients to register with the routing table manager to be notified of changes in the routing table.</span></span> <span data-ttu-id="f17a8-107">Диспетчер таблиц маршрутизации отправляет уведомления об изменениях всем клиентам, которые регистрируются для их получения.</span><span class="sxs-lookup"><span data-stu-id="f17a8-107">The routing table manager sends notifications of changes to all clients that register to receive them.</span></span>
+
+<span data-ttu-id="f17a8-108">Уведомление об изменении применяется только к местам назначения.</span><span class="sxs-lookup"><span data-stu-id="f17a8-108">Change notification applies only to destinations.</span></span> <span data-ttu-id="f17a8-109">Невозможно запросить в диспетчере таблиц маршрутизации изменения, внесенные в конкретный маршрут.</span><span class="sxs-lookup"><span data-stu-id="f17a8-109">There is no way to query the routing table manager for changes to a particular route.</span></span>
+
+<span data-ttu-id="f17a8-110">При внесении изменений в один из маршрутов к назначению диспетчер таблиц маршрутизации отправляет уведомление о том, что произошло изменение.</span><span class="sxs-lookup"><span data-stu-id="f17a8-110">When a change is made to one of the routes to a destination, the routing table manager sends out a notification that a change has occurred.</span></span> <span data-ttu-id="f17a8-111">Это уведомление отправляется только тем клиентам, которые зарегистрированы в диспетчере таблиц маршрутизации для типа произошедших изменений.</span><span class="sxs-lookup"><span data-stu-id="f17a8-111">This notification goes only to those clients that have registered with the routing table manager for the type of change that has occurred.</span></span> <span data-ttu-id="f17a8-112">Все изменения в сведениях о маршрутизации в диспетчере таблиц маршрутизации выполняются в одном или нескольких представлениях, а сообщения об изменении уведомлений могут запрашиваться в любом подмножестве поддерживаемых представлений.</span><span class="sxs-lookup"><span data-stu-id="f17a8-112">All changes to routing information in the routing table manager occur in one or more views, and change notification messages can be requested in any subset of supported views.</span></span>
+
+<span data-ttu-id="f17a8-113">В настоящее время существует три типа уведомлений об изменениях, для которых клиент может зарегистрироваться:</span><span class="sxs-lookup"><span data-stu-id="f17a8-113">There are currently three types of change notifications for which a client can register:</span></span>
+
+-   <span data-ttu-id="f17a8-114">Уведомление о любом изменении маршрутов назначения.</span><span class="sxs-lookup"><span data-stu-id="f17a8-114">Notification of any change to the routes for the destination.</span></span> <span data-ttu-id="f17a8-115">Этот запрос выполняется с помощью \_ \_ флага изменения типа изменений RTM \_ .</span><span class="sxs-lookup"><span data-stu-id="f17a8-115">This request is made using the RTM\_CHANGE\_TYPE\_ALL flag.</span></span>
+-   <span data-ttu-id="f17a8-116">Уведомление, если оптимальный маршрут изменяется, или любая из следующих сведений для текущих лучших маршрутов.</span><span class="sxs-lookup"><span data-stu-id="f17a8-116">Notification if the best route to the destination changes, or any of the following information for the current best route changes:</span></span>
+
+    -   <span data-ttu-id="f17a8-117">Предпочтение</span><span class="sxs-lookup"><span data-stu-id="f17a8-117">Preference</span></span>
+    -   <span data-ttu-id="f17a8-118">Следующие прыжки</span><span class="sxs-lookup"><span data-stu-id="f17a8-118">Next hops</span></span>
+    -   <span data-ttu-id="f17a8-119">Флаги маршрута</span><span class="sxs-lookup"><span data-stu-id="f17a8-119">Route flags</span></span>
+
+    <span data-ttu-id="f17a8-120">Этот запрос выполняется с помощью \_ \_ \_ наилучшего флага изменения типа RTM.</span><span class="sxs-lookup"><span data-stu-id="f17a8-120">This request is made using the RTM\_CHANGE\_TYPE\_BEST flag.</span></span>
+
+-   <span data-ttu-id="f17a8-121">Рекомендуется уведомление обо всех изменениях типа изменений RTM \_ \_ \_ , за исключением изменений в флагах, не пересылаемых в оптимальном маршруте.</span><span class="sxs-lookup"><span data-stu-id="f17a8-121">Notification of all changes of the type RTM\_CHANGE\_TYPE\_BEST, except changes in non-forwarding flags in the best route.</span></span> <span data-ttu-id="f17a8-122">Например, диспетчер маршрутизаторов ожидает изменения этого типа в представлении одноадресной рассылки и обновляет сведения в одноадресном пересылке.</span><span class="sxs-lookup"><span data-stu-id="f17a8-122">For example, the router manager waits for changes of this type in the unicast view, and updates information in the unicast forwarder.</span></span> <span data-ttu-id="f17a8-123">Этот запрос выполняется с помощью \_ \_ \_ флага перенаправления типа изменения RTM.</span><span class="sxs-lookup"><span data-stu-id="f17a8-123">This request is made using the RTM\_CHANGE\_TYPE\_FORWARDING flag.</span></span>
+
+<span data-ttu-id="f17a8-124">Запросы уведомлений об изменениях также могут быть ограничены подмножеством назначений путем регистрации уведомлений об изменениях только в "помеченных" местах назначения.</span><span class="sxs-lookup"><span data-stu-id="f17a8-124">Requests for notifications of changes can also be restricted to a subset of destinations by registering for notifications of changes only to "marked" destinations.</span></span> <span data-ttu-id="f17a8-125">Клиент может пометить место назначения для уведомления об изменении, вызвав [**ртммаркдестфорчанженотификатион**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmmarkdestforchangenotification).</span><span class="sxs-lookup"><span data-stu-id="f17a8-125">The client can mark a destination for change notification by calling [**RtmMarkDestForChangeNotification**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmmarkdestforchangenotification).</span></span>
+
+<span data-ttu-id="f17a8-126">Когда происходит изменение, диспетчер таблиц маршрутизации проверяет наличие клиентов, которые должны получать уведомления об этом изменении.</span><span class="sxs-lookup"><span data-stu-id="f17a8-126">When a change occurs, the routing table manager checks to see if there are any clients that must be notified of this change.</span></span> <span data-ttu-id="f17a8-127">Клиент должен получать уведомления об изменении, если выполняются все перечисленные ниже условия.</span><span class="sxs-lookup"><span data-stu-id="f17a8-127">A client must be notified of a change if all of the following conditions are met:</span></span>
+
+-   <span data-ttu-id="f17a8-128">Тип произошедшего изменения — это тип, для которого клиент зарегистрировался для уведомления.</span><span class="sxs-lookup"><span data-stu-id="f17a8-128">The type of change that occurred is a type for which the client has registered for notification</span></span>
+-   <span data-ttu-id="f17a8-129">Изменения в назначении, отмеченные клиентом, или какие-либо назначения, если клиент запросил изменения для всех назначений</span><span class="sxs-lookup"><span data-stu-id="f17a8-129">Changes to a destination that the client has marked have occurred or any destination, if the client has requested changes for all destinations</span></span>
+-   <span data-ttu-id="f17a8-130">Запрошенное клиентом уведомление об изменении для представления, в котором произошло это изменение</span><span class="sxs-lookup"><span data-stu-id="f17a8-130">The client requested change notification for the view in which this change occurred</span></span>
+
+<span data-ttu-id="f17a8-131">Если изменение соответствует всем указанным выше критериям, изменение кэшируется и клиент получает уведомления.</span><span class="sxs-lookup"><span data-stu-id="f17a8-131">If the change meets all of the above criteria, the change is cached and the client is notified.</span></span>
+
+<span data-ttu-id="f17a8-132">В уведомлении не указываются фактические изменения, а только те, которые они имели.</span><span class="sxs-lookup"><span data-stu-id="f17a8-132">The notification does not specify what the actual changes are, only that they have occurred.</span></span> <span data-ttu-id="f17a8-133">Клиент должен получить изменения, вызвав [**ртмжетчанжеддестс**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetchangeddests) , используя маркер уведомления, полученный из предыдущего вызова метода [**ртмрегистерфорчанженотификатион**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmregisterforchangenotification).</span><span class="sxs-lookup"><span data-stu-id="f17a8-133">The client must retrieve the changes by calling [**RtmGetChangedDests**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetchangeddests) using the notification handle that was obtained from a previous call to [**RtmRegisterForChangeNotification**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmregisterforchangenotification).</span></span>
+
+ 
+
+ 
+
+
+
+
