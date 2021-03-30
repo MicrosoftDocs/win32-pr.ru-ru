@@ -1,0 +1,214 @@
+---
+description: Дополнительные сведения о функции JetExternalRestore2
+title: Функция JetExternalRestore2
+TOCTitle: JetExternalRestore2 Function
+ms:assetid: 66331be0-7abc-43a0-8b8b-dbdd227c918e
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269272(v=EXCHG.10)
+ms:contentKeyID: 32765574
+ms.date: 04/11/2016
+ms.topic: reference
+api_name:
+- JetExternalRestore2W
+- JetExternalRestore2A
+- JetExternalRestore2
+topic_type:
+- apiref
+- kbArticle
+api_type:
+- COM
+- DLLExport
+api_location:
+- ESENT.DLL
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: c96314e401a81271f5a71bc056faa95fc1ae0dbe
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103998957"
+---
+# <a name="jetexternalrestore2-function"></a>Функция JetExternalRestore2
+
+
+_**Применимо к:** Windows | Windows Server_
+
+## <a name="jetexternalrestore2-function"></a>Функция JetExternalRestore2
+
+Функция **JetExternalRestore2** восстанавливает внешнюю резервную копию, созданную с помощью внешних API-интерфейсов резервного копирования, и предоставляет контрольные точки, используемые для циклического ведения журнала. Это называется жесткое восстановление, которое аналогично, но отличается от программного восстановления, выполняемого функцией [жетинит](./jetinit-function.md) .
+
+**Windows XP: JetExternalRestore2** появился в Windows XP.
+
+```cpp
+    JET_ERR JET_API JetExternalRestore2(
+      __in          JET_PSTR szCheckpointFilePath,
+      __in          JET_PSTR szLogPath,
+      __in_opt      JET_RSTMAP* rgrstmap,
+      __in          long crstfilemap,
+      __in          JET_PSTR szBackupLogPath,
+      __in_out      JET_LOGINFO* pLogInfo,
+      __in_opt      JET_PSTR szTargetInstanceName,
+      __in_opt      JET_PSTR szTargetInstanceLogPath,
+      __in_opt      JET_PSTR szTargetInstanceCheckpointPath,
+      __in          JET_PFNSTATUS pfn
+    );
+```
+
+### <a name="parameters"></a>Параметры
+
+*сзчеккпоинтфилепас*
+
+Путь к файлу контрольных точек, который будет использоваться во время восстановления, если *сзтаржетинстанцечеккпоинтпас* не указан или этот путь имеет активный или выполняющийся экземпляр.
+
+*сзлогпас*
+
+Путь или каталог журналов для последнего этапа (отмены) восстановления и, возможно, для журналов наката. Этот путь может быть таким же, как и *сзбаккуплогпас*.
+
+*ргрстмап*
+
+Это массив структур [JET_RSTMAP](./jet-rstmap-structure.md) . Это схема старых и новых путей к базам данных или имен файлов. Это используется, так как базы данных могут быть восстановлены в расположении, отличном от расположения, из которого они были созданы. В случае, когда несколько баз данных присоединены к одному набору журналов, на карте восстановления можно указать подмножество восстанавливаемых баз данных.
+
+*крстфилемап*
+
+Число записей в параметре массива *ргрстмап* .
+
+*сзбаккуплогпас*
+
+Путь к каталогу, в который восстанавливаются файлы журнала. Это журналы, которые были считаны во время внешней последовательности резервного копирования. Этот путь может быть таким же, как и *сзлогпас*.
+
+*плогинфо*
+
+*Плогинфо* описывает несколько аспектов восстановления журналов резервного копирования. Этот параметр позволяет **JetExternalRestore2** использовать явные параметры *женлов* и *женхигх* , которые имеют **JetExternalRestore2** , а также базовое имя журнала вместо предполагаемого базового имени журнала "edb".
+
+*сзтаржетинстанценаме*
+
+Этот параметр является устаревшим и не может использоваться в приложении.
+
+*сзтаржетинстанцелогпас*
+
+Путь для наката журналов, если расположение журналов для наката находится в активном наборе или экземпляре ведения журнала. Не следует указывать, если целевой экземпляр использует циклическое ведение журнала.
+
+*сзтаржетинстанцечеккпоинтпас*
+
+Путь для контрольной точки во время восстановления, если на этом целевом объекте не работает активный экземпляр. Не следует указывать, если целевой экземпляр использует циклическое ведение журнала.
+
+*PFN*
+
+Обратный вызов состояния, который сообщает о ходе восстановления.
+
+### <a name="return-value"></a>Возвращаемое значение
+
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Код возврата</p></th>
+<th><p>Описание</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>JET_errSuccess</p></td>
+<td><p>Операция выполнена успешно.</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_errBadRestoreTargetInstance</p></td>
+<td><p>Указанный <em>сзтаржетинстанцелогпас</em> не принадлежит инициализированному экземпляру. Эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_errDatabaseCorrupted</p></td>
+<td><p>Это указывает, что база данных повреждена или нераспознанный файл.</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_errEndingRestoreLogTooLow</p></td>
+<td><p>Эта ошибка возвращается, если одна из файлов журнала в <em>сзбаккуплогпас</em>имеет более позднюю версию журнала, указанную в <em>женхигх</em> или <em>плогинфо. улженхигх</em>.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_errFileNotFound</p></td>
+<td><p>Не удалось выполнить операцию, так как не удалось открыть запрошенный файл, так как он не найден по указанному пути.</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_errInvalidParameter</p></td>
+<td><p>Один из указанных параметров содержит непредвиденное значение или содержит значение, которое не имеет смысла при объединении со значением другого параметра. Это может произойти для <a href="gg294088(v=exchg.10).md">жетекстерналресторе</a>и т. д., если <em>сзтаржетчеккпоинтпас</em> и <em>сзтаржетинстанцелогпас</em> либо не указаны одновременно, либо не указаны одновременно. То есть они должны сопоставляться и быть одновременно указаны, либо не указаны одновременно.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_errInvalidPath</p></td>
+<td><p>Не удалось выполнить операцию, так как не удалось найти указанный путь.</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_errOutOfMemory</p></td>
+<td><p>Не удалось выполнить операцию из-за нехватки памяти, выделенной для ее завершения.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_errRestoreOfNonBackupDatabase</p></td>
+<td><p>Эта ошибка возвращается, если файл базы данных, указанный во время восстановления, не является базой данных, для которой была создана резервная копия с внешней резервной копией.</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_errRunningInOneInstanceMode</p></td>
+<td><p>Ядру СУБД не удается выполнить внешнее восстановление или принудительное восстановление в режиме одиночного экземпляра. Эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_errStartingRestoreLogTooHigh</p></td>
+<td><p>Эта ошибка возвращается, если один из файлов журнала в <em>сзбаккуплогпас</em>имеет следующее создание журнала, заданное <em>женлов</em> или <em>плогинфо. улженлов</em>.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+При успешном выполнении все базы данных из *ргрстмап* полностью восстанавливаются, а в состоянии чистого или устойчивого состояния. На этом этапе базу данных можно повторно подключить к существующему экземпляру.
+
+В случае сбоя подсистема не смогла восстановить базу данных. База данных находится в недопустимом состоянии, и для повторного восстановления необходимо восстановить всю базу данных. Как правило, источником такой ситуации является повреждение диска или журнала, а также другой вид непостоянного управления журналом или ненепрерывный набор журналов.
+
+#### <a name="remarks"></a>Комментарии
+
+См. [жетекстерналресторе](./jetexternalrestore-function.md).
+
+#### <a name="requirements"></a>Требования
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Клиент</strong></p></td>
+<td><p>Требуется Windows Vista или Windows XP.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Server</strong></p></td>
+<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>Header</strong></p></td>
+<td><p>Объявлено в ESENT. h.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Библиотека</strong></p></td>
+<td><p>Используйте ESENT. lib.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>КОМПОНОВКИ</strong></p></td>
+<td><p>Требуется ESENT.dll.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Юникод</strong></p></td>
+<td><p>Реализуется как <strong>JetExternalRestore2W</strong> (Юникод) и <strong>JetExternalRestore2A</strong> (ANSI).</p></td>
+</tr>
+</tbody>
+</table>
+
+
+#### <a name="see-also"></a>См. также:
+
+[JET_ERR](./jet-err.md)  
+[JET_LOGINFO](./jet-loginfo-structure.md)  
+[JET_PFNSTATUS](./jet-pfnstatus-callback-function.md)  
+[JET_RSTMAP](./jet-rstmap-structure.md)  
+[жетбегинекстерналбаккуп](./jetbeginexternalbackup-function.md)  
+[жетекстерналресторе](./jetexternalrestore-function.md)  
+[жетинит](./jetinit-function.md)
