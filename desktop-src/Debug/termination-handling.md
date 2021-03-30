@@ -1,0 +1,29 @@
+---
+description: Обработчик завершения гарантирует, что определенный блок кода будет выполняться всякий раз, когда поток управления покидает определенный защищенный текст кода. Обработчик завершения состоит из следующих элементов.
+ms.assetid: 899e2939-e028-4be1-9f08-9a79bf97eb37
+title: Обработка завершения
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e926a47a3c0bb4f2cb8a8df350807aee89b49bab
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103895913"
+---
+# <a name="termination-handling"></a><span data-ttu-id="d1473-104">Обработка завершения</span><span class="sxs-lookup"><span data-stu-id="d1473-104">Termination Handling</span></span>
+
+<span data-ttu-id="d1473-105">*Обработчик завершения* гарантирует, что определенный блок кода будет выполняться всякий раз, когда поток управления покидает определенный защищенный текст кода.</span><span class="sxs-lookup"><span data-stu-id="d1473-105">A *termination handler* ensures that a specific block of code is executed whenever flow of control leaves a particular guarded body of code.</span></span> <span data-ttu-id="d1473-106">Обработчик завершения состоит из следующих элементов.</span><span class="sxs-lookup"><span data-stu-id="d1473-106">A termination handler consists of the following elements.</span></span>
+
+-   <span data-ttu-id="d1473-107">Защищенный текст кода</span><span class="sxs-lookup"><span data-stu-id="d1473-107">A guarded body of code</span></span>
+-   <span data-ttu-id="d1473-108">Блок кода завершения, который должен быть выполнен, когда поток управления оставляет защищенный текст</span><span class="sxs-lookup"><span data-stu-id="d1473-108">A block of termination code to be executed when the flow of control leaves the guarded body</span></span>
+
+<span data-ttu-id="d1473-109">Обработчики завершения объявляются в синтаксисе, зависящем от языка.</span><span class="sxs-lookup"><span data-stu-id="d1473-109">Termination handlers are declared in language-specific syntax.</span></span> <span data-ttu-id="d1473-110">При использовании оптимизирующих компиляторов Microsoft C/C++ они реализуются с помощью **\_ \_ try** и, **\_ \_ наконец**.</span><span class="sxs-lookup"><span data-stu-id="d1473-110">Using the Microsoft C/C++ Optimizing Compiler, they are implemented using **\_\_try** and **\_\_finally**.</span></span> <span data-ttu-id="d1473-111">Дополнительные сведения см. в разделе [синтаксис обработчика](handler-syntax.md).</span><span class="sxs-lookup"><span data-stu-id="d1473-111">For more information, see [Handler Syntax](handler-syntax.md).</span></span>
+
+<span data-ttu-id="d1473-112">Защищенный текст кода может быть блоком кода, набором вложенных блоков или целой процедурой или функцией.</span><span class="sxs-lookup"><span data-stu-id="d1473-112">The guarded body of code can be a block of code, a set of nested blocks, or an entire procedure or function.</span></span> <span data-ttu-id="d1473-113">При каждом выполнении защищенного текста будет выполнен блок кода завершения.</span><span class="sxs-lookup"><span data-stu-id="d1473-113">Whenever the guarded body is executed, the block of termination code will be executed.</span></span> <span data-ttu-id="d1473-114">Единственным исключением является то, что поток завершается во время выполнения защищенного текста (например, если функция [**ExitThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread) или [**ExitProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) вызывается из защищенного тела).</span><span class="sxs-lookup"><span data-stu-id="d1473-114">The only exception to this is when the thread terminates during execution of the guarded body (for example, if the [**ExitThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread) or [**ExitProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) function is called from within the guarded body).</span></span>
+
+<span data-ttu-id="d1473-115">Блок завершения выполняется, когда поток управления оставляет защищенный текст, независимо от того, завершается ли защищенный текст обычно или аварийно.</span><span class="sxs-lookup"><span data-stu-id="d1473-115">The termination block is executed when the flow of control leaves the guarded body, regardless of whether the guarded body terminated normally or abnormally.</span></span> <span data-ttu-id="d1473-116">Защищенный текст считается завершенным нормально при выполнении последней инструкции в блоке, а управление последовательно завершается в блоке завершения.</span><span class="sxs-lookup"><span data-stu-id="d1473-116">The guarded body is considered to have terminated normally when the last statement in the block is executed and control proceeds sequentially into the termination block.</span></span> <span data-ttu-id="d1473-117">Аварийное завершение происходит, когда поток управления оставляет защищенный текст из-за исключения или из-за оператора управления, такого как **return**, **goto**, **break** или **Continue**.</span><span class="sxs-lookup"><span data-stu-id="d1473-117">Abnormal termination occurs when the flow of control leaves the guarded body due to an exception, or due to a control statement such as **return**, **goto**, **break**, or **continue**.</span></span> <span data-ttu-id="d1473-118">Функцию [**абнормалтерминатион**](abnormaltermination.md) можно вызвать из блока завершения, чтобы определить, завершается ли защищенный текст обычным образом.</span><span class="sxs-lookup"><span data-stu-id="d1473-118">The [**AbnormalTermination**](abnormaltermination.md) function can be called from within the termination block to determine whether the guarded body terminated normally.</span></span>
+
+ 
+
+ 
