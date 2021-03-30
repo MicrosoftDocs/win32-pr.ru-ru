@@ -1,0 +1,200 @@
+---
+title: Структура CHANGE_LOG_ENTRY
+description: Запись журнала изменений.
+ms.assetid: adbdc6e6-895e-486d-a194-c74d2cbd0052
+keywords:
+- Восстановление системы структуры CHANGE_LOG_ENTRY
+- Восстановление системы указателей на структуру PCHANGE_LOG_ENTRY
+topic_type:
+- apiref
+api_name:
+- CHANGE_LOG_ENTRY
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: 4a129b7c8368e6af1d259d6c19a9dde963d9deef
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104071266"
+---
+# <a name="change_log_entry-structure"></a>\_ \_ Структура записи журнала изменений
+
+\[Эти сведения относятся только к Windows XP с пакетом обновления 2 (SP2).\]
+
+Запись журнала изменений.
+
+## <a name="syntax"></a>Синтаксис
+
+
+```C++
+typedef struct _CHANGE_LOG_ENTRY {
+  RECORD_HEADER RecordHeader;
+  DWORD         dwMagicNum;
+  DWORD         dwEntryType;
+  DWORD         dwEntryFlags;
+  DWORD         dwAttributes;
+  INT64         i64SequenceNum;
+  WCHAR         szProcName[16];
+} CHANGE_LOG_ENTRY, *PCHANGE_LOG_ENTRY;
+```
+
+
+
+## <a name="members"></a>Члены
+
+<dl> <dt>
+
+**рекордхеадер**
+</dt> <dd>
+
+Структура [**\_ заголовка записи**](record-header.md) . Элемент **дврекордтипе** должен иметь значение **рекордтипеложентри** (1).
+
+</dd> <dt>
+
+**двмагикнум**
+</dt> <dd>
+
+Этот элемент должен иметь значение 0xabcdef12.
+
+</dd> <dt>
+
+**двентритипе**
+</dt> <dd>
+
+Этот элемент может принимать одно из следующих значений:
+
+<dl><span id="CHANGE_LOG_ENTRYTYPES_ACLCHANGE__0x2_"></span><span id="change_log_entrytypes_aclchange__0x2_"></span><span id="CHANGE_LOG_ENTRYTYPES_ACLCHANGE__0X2_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ аклчанже * * (0x2) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_ATTRCHANGE__0x4_"></span><span id="change_log_entrytypes_attrchange__0x4_"></span><span id="CHANGE_LOG_ENTRYTYPES_ATTRCHANGE__0X4_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ аттрчанже * * (0x4) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_DIRCREATE__0x80_"></span><span id="change_log_entrytypes_dircreate__0x80_"></span><span id="CHANGE_LOG_ENTRYTYPES_DIRCREATE__0X80_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ диркреате * * (0x80) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_DIRRENAME__0x100_"></span><span id="change_log_entrytypes_dirrename__0x100_"></span><span id="CHANGE_LOG_ENTRYTYPES_DIRRENAME__0X100_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ дирренаме * * (0x100) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_DIRDELETE__0x200_"></span><span id="change_log_entrytypes_dirdelete__0x200_"></span><span id="CHANGE_LOG_ENTRYTYPES_DIRDELETE__0X200_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ дирделете * * (0x200) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_FILECREATE__0x20_"></span><span id="change_log_entrytypes_filecreate__0x20_"></span><span id="CHANGE_LOG_ENTRYTYPES_FILECREATE__0X20_"></span><dt>
+
+\_Ентритипес журнал \_ изменений \_ филекреате * * (0x20) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_FILEDELETE__0x10_"></span><span id="change_log_entrytypes_filedelete__0x10_"></span><span id="CHANGE_LOG_ENTRYTYPES_FILEDELETE__0X10_"></span><dt>
+
+\_Ентритипес журнал \_ изменений \_ выполнить операцию filedelete * * (0x10) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_FILERENAME__0x40_"></span><span id="change_log_entrytypes_filerename__0x40_"></span><span id="CHANGE_LOG_ENTRYTYPES_FILERENAME__0X40_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ филеренаме * * (0x40) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_INPRECREATE__0x100000_"></span><span id="change_log_entrytypes_inprecreate__0x100000_"></span><span id="CHANGE_LOG_ENTRYTYPES_INPRECREATE__0X100000_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ инпрекреате * * (0x100000) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_ISDIR__0x20000_"></span><span id="change_log_entrytypes_isdir__0x20000_"></span><span id="CHANGE_LOG_ENTRYTYPES_ISDIR__0X20000_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ исдир * * (0x20000) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_ISNOTDIR__0x40000_"></span><span id="change_log_entrytypes_isnotdir__0x40000_"></span><span id="CHANGE_LOG_ENTRYTYPES_ISNOTDIR__0X40000_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ иснотдир * * (0x40000) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_MOUNTCREATE__0x400_"></span><span id="change_log_entrytypes_mountcreate__0x400_"></span><span id="CHANGE_LOG_ENTRYTYPES_MOUNTCREATE__0X400_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ маунткреате * * (0x400) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_MOUNTDELETE__0x800_"></span><span id="change_log_entrytypes_mountdelete__0x800_"></span><span id="CHANGE_LOG_ENTRYTYPES_MOUNTDELETE__0X800_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ маунтделете * * (0x800) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_NOOPTIMIZE__0x10000_"></span><span id="change_log_entrytypes_nooptimize__0x10000_"></span><span id="CHANGE_LOG_ENTRYTYPES_NOOPTIMIZE__0X10000_"></span><dt>
+
+CHANGE \_ журнала \_ ЕНТРИТИПЕС \_ unoptimize * * (0x10000) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_OPENBYID__0x200000_"></span><span id="change_log_entrytypes_openbyid__0x200000_"></span><span id="CHANGE_LOG_ENTRYTYPES_OPENBYID__0X200000_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ опенбид * * (0x200000) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_SIMULATEDELETE__0x80000_"></span><span id="change_log_entrytypes_simulatedelete__0x80000_"></span><span id="CHANGE_LOG_ENTRYTYPES_SIMULATEDELETE__0X80000_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ симулатеделете * * (0x80000) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_STREAMCHANGE__0x1_"></span><span id="change_log_entrytypes_streamchange__0x1_"></span><span id="CHANGE_LOG_ENTRYTYPES_STREAMCHANGE__0X1_"></span><dt>
+
+\_Ентритипес журнал \_ изменений \_ стреамчанже * * (0x1) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_STREAMCREATE__0x2000_"></span><span id="change_log_entrytypes_streamcreate__0x2000_"></span><span id="CHANGE_LOG_ENTRYTYPES_STREAMCREATE__0X2000_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ стреамкреате * * (0x2000) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_STREAMOVERWRITE__0x8_"></span><span id="change_log_entrytypes_streamoverwrite__0x8_"></span><span id="CHANGE_LOG_ENTRYTYPES_STREAMOVERWRITE__0X8_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ стреамоверврите * * (0x8) * *
+</dt><span id="CHANGE_LOG_ENTRYTYPES_VOLUMEERROR__0x1000_"></span><span id="change_log_entrytypes_volumeerror__0x1000_"></span><span id="CHANGE_LOG_ENTRYTYPES_VOLUMEERROR__0X1000_"></span><dt>
+
+\_Журнал изменений \_ ентритипес \_ волумиррор * * (0x1000) * *
+</dt> </dl> </dd> <dt>
+
+**двентрифлагс**
+</dt> <dd>
+
+Этот элемент может принимать одно из следующих значений:
+
+<dl><span id="CHANGE_LOG_ENTRYFLAGS_ACLINFO__0x4_"></span><span id="change_log_entryflags_aclinfo__0x4_"></span><span id="CHANGE_LOG_ENTRYFLAGS_ACLINFO__0X4_"></span><dt>
+
+**\_Журнал изменений \_ ентрифлагс \_ аклинфо (0x4)**
+</dt><span id="CHANGE_LOG_ENTRYFLAGS_DEBUGINFO__0x8_"></span><span id="change_log_entryflags_debuginfo__0x8_"></span><span id="CHANGE_LOG_ENTRYFLAGS_DEBUGINFO__0X8_"></span><dt>
+
+**\_Журнал изменений \_ ентрифлагс \_ дебугинфо (0x8)**
+</dt><span id="CHANGE_LOG_ENTRYFLAGS_SECONDPATH__0x2_"></span><span id="change_log_entryflags_secondpath__0x2_"></span><span id="CHANGE_LOG_ENTRYFLAGS_SECONDPATH__0X2_"></span><dt>
+
+**\_Журнал изменений \_ ентрифлагс \_ секондпас (0x2)**
+</dt><span id="CHANGE_LOG_ENTRYFLAGS_SHORTNAME__0x10_"></span><span id="change_log_entryflags_shortname__0x10_"></span><span id="CHANGE_LOG_ENTRYFLAGS_SHORTNAME__0X10_"></span><dt>
+
+**\_Журнал изменений \_ ентрифлагс \_ SHORTNAME (0x10)**
+</dt><span id="CHANGE_LOG_ENTRYFLAGS_TEMPPATH__0x1_"></span><span id="change_log_entryflags_temppath__0x1_"></span><span id="CHANGE_LOG_ENTRYFLAGS_TEMPPATH__0X1_"></span><dt>
+
+**\_Журнал изменений \_ ентрифлагс \_ темппас (0x1)**
+</dt> </dl> </dd> <dt>
+
+**дваттрибутес**
+</dt> <dd>
+
+Атрибуты файла журнала изменений. Если атрибуты не указаны, это значение должно быть равно 0xFFFFFFFF.
+
+</dd> <dt>
+
+**i64SequenceNum**
+</dt> <dd>
+
+Порядковый номер, назначенный записи журнала изменений.
+
+</dd> <dt>
+
+**сзпрокнаме**
+</dt> <dd>
+
+Имя процесса, выполняющего изменение.
+
+</dd> </dl>
+
+## <a name="remarks"></a>Комментарии
+
+За этой структурой следует переменное число записей данных переменной длины, а также значение **DWORD** , которое должно быть идентично значению элемента **дврекордсизе** в **рекордхеадер**.
+
+Записи данных переменной длины состоят из структуры [**\_ заголовка записи**](record-header.md) и данных, которые можно использовать для восстановления записи журнала изменений. Формат данных зависит от значения элемента **дврекордтипе** структуры **\_ заголовка записи** .
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|------------------------------------------------------|
+| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 2 \[\]<br/> |
+| Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                            |
+| Окончание поддержки клиента<br/>    | Windows XP с пакетом обновления 2 (SP2)<br/>                       |
+
+
+
+ 
+
+ 
+
+
+
+
+
