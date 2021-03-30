@@ -1,0 +1,34 @@
+---
+title: Структуры резервного копирования каталога
+description: Функции резервного копирования каталога используют следующую структуру.
+ms.assetid: 3d8c5fe1-29aa-492d-a49b-e6382d796a88
+ms.tgt_platform: multiple
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 0cdf5ecbcb7bccdbcf6a12bc807b2738cc1cc28d
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104067394"
+---
+# <a name="directory-backup-structures"></a>Структуры резервного копирования каталога
+
+Функции резервного копирования каталога используют следующую структуру:
+
+-   [**\_РСТМАП EDB**](edb-rstmap.md)
+
+## <a name="related-topics"></a>См. также
+
+<dl> <dt>
+
+[Структуры Active Directory](structures-in-active-directory-domain-services.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
