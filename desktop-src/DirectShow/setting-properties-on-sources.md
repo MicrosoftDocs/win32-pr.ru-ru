@@ -1,0 +1,44 @@
+---
+description: Задание свойств источников
+ms.assetid: fa1c7c40-915b-4577-aa33-6bd06707d93a
+title: Задание свойств источников
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5de58e25cc9fdec34ed285ebbfc2e9cfd3dcdf95
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "103894025"
+---
+# <a name="setting-properties-on-sources"></a><span data-ttu-id="56e14-103">Задание свойств источников</span><span class="sxs-lookup"><span data-stu-id="56e14-103">Setting Properties on Sources</span></span>
+
+<span data-ttu-id="56e14-104">\[Этот API не поддерживается и может быть изменен или недоступен в будущем.\]</span><span class="sxs-lookup"><span data-stu-id="56e14-104">\[This API is not supported and may be altered or unavailable in the future.\]</span></span>
+
+<span data-ttu-id="56e14-105">При создании нового исходного объекта необходимо задать несколько свойств и другие параметры, которые можно задать.</span><span class="sxs-lookup"><span data-stu-id="56e14-105">When you create a new source object, there are a few properties you are required to set and others you can optionally set.</span></span> <span data-ttu-id="56e14-106">Необходимо задать следующие свойства.</span><span class="sxs-lookup"><span data-stu-id="56e14-106">You must set the following properties.</span></span>
+
+-   <span data-ttu-id="56e14-107">Время начала и окончания работы относительно оставшейся части временной шкалы.</span><span class="sxs-lookup"><span data-stu-id="56e14-107">The start and stop times, relative to the rest of the timeline.</span></span> <span data-ttu-id="56e14-108">Вызовите метод [**иамтимелинеобж:: сетстартстоп**](iamtimelineobj-setstartstop.md) .</span><span class="sxs-lookup"><span data-stu-id="56e14-108">Call the [**IAMTimelineObj::SetStartStop**](iamtimelineobj-setstartstop.md) method.</span></span> <span data-ttu-id="56e14-109">Не задавайте перекрывающиеся значения времени на объекты источника в той же дорожке или вызовет неопределенное поведение.</span><span class="sxs-lookup"><span data-stu-id="56e14-109">Do not set overlapping times on source objects within the same track, or it will cause undefined behavior.</span></span>
+-   <span data-ttu-id="56e14-110">Файл мультимедиа, используемый в качестве исходного клипа.</span><span class="sxs-lookup"><span data-stu-id="56e14-110">The media file to use as a source clip.</span></span> <span data-ttu-id="56e14-111">Вызовите метод [**иамтимелинесрк:: сетмедианаме**](iamtimelinesrc-setmedianame.md).</span><span class="sxs-lookup"><span data-stu-id="56e14-111">Call the [**IAMTimelineSrc::SetMediaName**](iamtimelinesrc-setmedianame.md).</span></span>
+-   <span data-ttu-id="56e14-112">Время начала и окончания воспроизведения носителя относительно исходного файла исходного кода.</span><span class="sxs-lookup"><span data-stu-id="56e14-112">The media start and stop times, relative to the original source file.</span></span> <span data-ttu-id="56e14-113">Вызовите метод [**иамтимелинесрк:: сетмедиатимес**](iamtimelinesrc-setmediatimes.md) .</span><span class="sxs-lookup"><span data-stu-id="56e14-113">Call the [**IAMTimelineSrc::SetMediaTimes**](iamtimelinesrc-setmediatimes.md) method.</span></span> <span data-ttu-id="56e14-114">Исключение: Если источник является изображением по-прежнему, не указывайте время носителя.</span><span class="sxs-lookup"><span data-stu-id="56e14-114">Exception: If the source is a still image, do not specify the media times.</span></span> <span data-ttu-id="56e14-115">Дополнительные сведения о времени мультимедиа см. [в разделе время в службах редактирования DirectShow](time-in-directshow-editing-services.md).</span><span class="sxs-lookup"><span data-stu-id="56e14-115">For more information about media times, see [Time in DirectShow Editing Services](time-in-directshow-editing-services.md).</span></span>
+
+<span data-ttu-id="56e14-116">Исходный объект наследует тип мультимедиа от родительской группы, поэтому нет необходимости указывать тип носителя.</span><span class="sxs-lookup"><span data-stu-id="56e14-116">A source object inherits its media type from the parent group, so it is not necessary to specify a media type.</span></span>
+
+<span data-ttu-id="56e14-117">К дополнительным свойствам относятся следующие:</span><span class="sxs-lookup"><span data-stu-id="56e14-117">Optional properties include the following:</span></span>
+
+-   <span data-ttu-id="56e14-118">Режим Stretch.</span><span class="sxs-lookup"><span data-stu-id="56e14-118">The stretch mode.</span></span> <span data-ttu-id="56e14-119">Режим Stretch определяет, как Microsoft® DirectShow® Editing Services (DES) визуализирует источник, размер которого не соответствует выходным измерениям.</span><span class="sxs-lookup"><span data-stu-id="56e14-119">The stretch mode specifies how Microsoft® DirectShow® Editing Services (DES) renders a source whose size does not match the output dimensions.</span></span> <span data-ttu-id="56e14-120">По умолчанию DES растягивает изображение без сохранения пропорций.</span><span class="sxs-lookup"><span data-stu-id="56e14-120">By default, DES stretches an image without preserving the aspect ratio.</span></span> <span data-ttu-id="56e14-121">Кроме того, DES может обрезать изображение или создать леттербокс.</span><span class="sxs-lookup"><span data-stu-id="56e14-121">Alternatively, DES can crop an image or create a letterbox.</span></span> <span data-ttu-id="56e14-122">Вызовите метод [**иамтимелинесрк:: сетстретчмоде**](iamtimelinesrc-setstretchmode.md) , чтобы указать режим Stretch.</span><span class="sxs-lookup"><span data-stu-id="56e14-122">Call the [**IAMTimelineSrc::SetStretchMode**](iamtimelinesrc-setstretchmode.md) method to specify the stretch mode.</span></span>
+-   <span data-ttu-id="56e14-123">Длительность исходного файла.</span><span class="sxs-lookup"><span data-stu-id="56e14-123">The duration of the source file.</span></span> <span data-ttu-id="56e14-124">Если задать это свойство, прежде чем задавать время передачи данных, DES проверяет время завершения носителя и усекает время окончания, если оно превышает длительность файла.</span><span class="sxs-lookup"><span data-stu-id="56e14-124">If you set this property before setting the media times, DES validates the media stop time and truncates the stop time if it exceeds the file duration.</span></span> <span data-ttu-id="56e14-125">Это может помочь избежать ошибок отрисовки позже.</span><span class="sxs-lookup"><span data-stu-id="56e14-125">This can help avoid rendering errors later.</span></span> <span data-ttu-id="56e14-126">Длительность файла можно получить с помощью средства обнаружения мультимедиа, как описано в разделе [Использование программы обнаружения носителей](using-the-media-detector.md).</span><span class="sxs-lookup"><span data-stu-id="56e14-126">You can obtain the duration of the file using the media detector, as described in [Using the Media Detector](using-the-media-detector.md).</span></span> <span data-ttu-id="56e14-127">Вызовите метод [**иамтимелинесрк:: сетмедиаленгс**](iamtimelinesrc-setmedialength.md) , чтобы указать длительность файла.</span><span class="sxs-lookup"><span data-stu-id="56e14-127">Call the [**IAMTimelineSrc::SetMediaLength**](iamtimelinesrc-setmedialength.md) method to specify the file duration.</span></span>
+-   <span data-ttu-id="56e14-128">Номер потока.</span><span class="sxs-lookup"><span data-stu-id="56e14-128">The stream number.</span></span> <span data-ttu-id="56e14-129">По умолчанию исходный объект использует первый поток в файле, соответствующий типу носителя родительской группы.</span><span class="sxs-lookup"><span data-stu-id="56e14-129">By default, a source object uses the first stream in the file that matches the media type of the parent group.</span></span> <span data-ttu-id="56e14-130">Если файл содержит два или более потока одного типа мультимедиа, выберите используемый поток, вызвав [**иамтимелинесрк:: сетстреамнумбер**](iamtimelinesrc-setstreamnumber.md).</span><span class="sxs-lookup"><span data-stu-id="56e14-130">If a file contains two or more streams of the same media type, select which stream to use by calling [**IAMTimelineSrc::SetStreamNumber**](iamtimelinesrc-setstreamnumber.md).</span></span> <span data-ttu-id="56e14-131">Для поиска количества потоков можно использовать средство обнаружения мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="56e14-131">You can use the media detector to find the number of streams.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="56e14-132">См. также</span><span class="sxs-lookup"><span data-stu-id="56e14-132">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="56e14-133">Работа с источниками</span><span class="sxs-lookup"><span data-stu-id="56e14-133">Working with Sources</span></span>](working-with-sources.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
