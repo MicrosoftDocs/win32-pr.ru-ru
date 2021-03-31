@@ -1,0 +1,232 @@
+---
+description: '\_Класс WMI взаимосвязей Win32 идеконтроллердевице связывает контроллер интегрированной системы управления устройствами (IDE) и логическое устройство, подключенное к, например, к диску.'
+ms.assetid: 1b0a551c-d836-4147-91ed-a0a7d97f4a5b
+ms.tgt_platform: multiple
+title: Класс Win32_IDEControllerDevice
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Win32_IDEControllerDevice
+- Win32_IDEControllerDevice.NegotiatedDataWidth
+- Win32_IDEControllerDevice.NegotiatedSpeed
+- Win32_IDEControllerDevice.AccessState
+- Win32_IDEControllerDevice.NumberOfHardResets
+- Win32_IDEControllerDevice.NumberOfSoftResets
+- Win32_IDEControllerDevice.Antecedent
+- Win32_IDEControllerDevice.Dependent
+api_type:
+- DllExport
+api_location:
+- CIMWin32.dll
+ms.openlocfilehash: bc690aadd442d656132b2d9e4539cc27961c3ef9
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104423466"
+---
+# <a name="win32_idecontrollerdevice-class"></a>\_Класс Win32 идеконтроллердевице
+
+[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) взаимосвязей **Win32 \_ идеконтроллердевице** связывает контроллер интегрированной системы управления устройствами (IDE) и логическое устройство, подключенное к, например, к диску.
+
+Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
+
+## <a name="syntax"></a>Синтаксис
+
+``` syntax
+[Dynamic, Provider("CIMWin32"), UUID("{5BC42B62-C7A1-11d2-911D-0060081A46FD}"), AMENDMENT]
+class Win32_IDEControllerDevice : CIM_ControlledBy
+{
+  uint32                  NegotiatedDataWidth;
+  uint64                  NegotiatedSpeed;
+  uint16                  AccessState;
+  uint32                  NumberOfHardResets;
+  uint32                  NumberOfSoftResets;
+  Win32_IDEController REF Antecedent;
+  CIM_LogicalDevice   REF Dependent;
+};
+```
+
+## <a name="members"></a>Члены
+
+Класс **Win32 \_ идеконтроллердевице** имеет следующие типы членов:
+
+-   [Свойства](#properties)
+
+### <a name="properties"></a>Свойства
+
+Класс **Win32 \_ идеконтроллердевице** имеет следующие свойства.
+
+<dl> <dt>
+
+**акцессстате**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **UInt16**
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> </dl>
+
+Указывает, является ли контроллер активной командой или доступом к устройству. Эти сведения необходимы в том случае, если логическое устройство может быть командо или доступно через несколько контроллеров.
+
+Это свойство наследуется от [**CIM \_ контролледби**](cim-controlledby.md).
+
+<dt>
+
+<span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
+
+**Неизвестно** (0)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Active"></span><span id="active"></span><span id="ACTIVE"></span>
+
+**Активно** (1)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Inactive"></span><span id="inactive"></span><span id="INACTIVE"></span>
+
+**Неактивно** (2)
+
+
+</dt> <dd></dd> </dl>
+
+</dd> <dt>
+
+**Завершил**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **Win32 \_ идеконтроллер**
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> <dt>
+
+Квалификаторы: [**ключ**](/windows/desktop/WmiSdk/key-qualifier), [**Переопределение**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM \| Win32 \_ идеконтроллер")
+</dt> </dl>
+
+[**\_ Идеконтроллер Win32**](win32-idecontroller.md) , представляющий контроллер IDE, связанный с этим устройством.
+
+</dd> <dt>
+
+**Него**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **CIM \_** с типом "модель"
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> <dt>
+
+Квалификаторы: [**ключ**](/windows/desktop/WmiSdk/key-qualifier), [**Переопределение**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM \| CIM \_ ")
+</dt> </dl>
+
+Логическая [**модель \_ CIM**](cim-logicaldevice.md) , представляющая логическое устройство, подключенное к контроллеру IDE.
+
+</dd> <dt>
+
+**неготиатеддатавидс**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **UInt32**
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> <dt>
+
+Квалификаторы: [**единицы**](/windows/desktop/WmiSdk/standard-qualifiers) ("биты")
+</dt> </dl>
+
+Если возможно несколько значений ширины данных для шины или соединения, это свойство определяет, какое из них используется между устройствами. Ширина данных указывается в битах. Если ширина данных не согласована или если эта информация недоступна или важна для управления устройствами, свойство должно иметь значение 0 (ноль).
+
+Это свойство наследуется от [**CIM \_ девицеконнектион**](cim-deviceconnection.md).
+
+</dd> <dt>
+
+**неготиатедспид**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **UInt64**
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> <dt>
+
+Квалификаторы: [**единицы**](/windows/desktop/WmiSdk/standard-qualifiers) ("бит в секунду")
+</dt> </dl>
+
+Если возможны несколько скоростей шины или соединения, это свойство определяет, какое из них используется между устройствами. Скорость указывается в битах в секунду. Если скорость подключения или шины не согласована или если эта информация недоступна или не важна для управления устройствами, свойство должно иметь значение 0 (ноль).
+
+Дополнительные сведения об использовании значений **UInt64** в скриптах см. [в разделе Создание сценариев в WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
+
+Это свойство наследуется от [**CIM \_ девицеконнектион**](cim-deviceconnection.md).
+
+</dd> <dt>
+
+**нумберофхардресетс**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **UInt32**
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> </dl>
+
+Число жестких сбросов, выданных контроллером. При жесткой сбросе устройство возвращается в состояние инициализации или загрузки. Все внутренние сведения о состоянии устройства и данные теряются.
+
+Это свойство наследуется от [**CIM \_ контролледби**](cim-controlledby.md).
+
+</dd> <dt>
+
+**нумберофсофтресетс**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **UInt32**
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> </dl>
+
+Количество мягких сбросов, выданных контроллером. При мягком сбросе текущее состояние и данные устройства не полностью очищаются. Точная семантика зависит от устройства и от протоколов и механизмов, используемых для связи с ним.
+
+Это свойство наследуется от [**CIM \_ контролледби**](cim-controlledby.md).
+
+</dd> </dl>
+
+## <a name="remarks"></a>Комментарии
+
+Класс **Win32 \_ идеконтроллердевице** является производным от [**CIM \_ контролледби**](cim-controlledby.md).
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
+| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
+| Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
+| MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[**\_КОНТРОЛЛЕДБИ CIM**](cim-controlledby.md)
+</dt> <dt>
+
+[Аппаратные классы системы компьютера](computer-system-hardware-classes.md)
+</dt> </dl>
+
+ 
+

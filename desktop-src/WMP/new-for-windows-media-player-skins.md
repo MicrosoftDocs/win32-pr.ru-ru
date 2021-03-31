@@ -1,0 +1,146 @@
+---
+title: Новые для обложек проигрывателя Windows Media
+description: Новые для обложек проигрывателя Windows Media
+ms.assetid: 72ca819a-267d-4c7a-9b1e-b28c1a7a85cc
+keywords:
+- Проигрыватель Windows Media, новые возможности
+- Проигрыватель Windows Media, новые функции
+- Обложки проигрывателя Windows Media, новые возможности
+- Обложки проигрывателя Windows Media, новые функции
+- обложки, новые возможности
+- обложки, новые функции
+- новые возможности, обложки
+- новые функции, обложки
+- версии проигрывателя Windows Media, новые функции в обложках
+- совместимость, обложки
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 512f23c3cd4dca45ae84a2ae96a3c78c98a73268
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104411244"
+---
+# <a name="new-for-windows-media-player-skins"></a>Новые для обложек проигрывателя Windows Media
+
+В проигрывателе Windows Media 7,0 появилась технология обложки. Доступные элементы и атрибуты остались неизменными для проигрывателя Windows Media 7,1 и проигрывателя Windows Media для Windows XP. В серии проигрывателя Windows Media 9 появились новые элементы и атрибуты, которые можно использовать. Проигрыватель Windows Media 10 вводит один новый атрибут.
+
+Каждый раздел в разделе Справочник по программированию обложки содержит раздел требований, в котором перечислены минимальные требования для отдельного элемента, метода, обработчика события или атрибута. В следующем списке также приведены новые элементы для конкретных версий проигрывателя Windows Media.
+
+## <a name="added-for-windows-media-player-for-windows-xp"></a>Добавлено для проигрывателя Windows Media для Windows XP
+
+-   [EFFECTs. Еффекткангофуллскрин](effects-effectcangofullscreen.md)
+-   [EFFECTs. Еффекткаунт](effects-effectcount.md)
+
+## <a name="added-for-windows-media-player-9-series"></a>Добавлено для проигрывателя Windows Media 9 Series
+
+-   [Амбиентаттрибутес. аккдескриптион,](ambientattributes-accdescription.md) атрибут
+-   [Амбиентаттрибутес. акккэйбоардшорткут,](ambientattributes-acckeyboardshortcut.md) атрибут
+-   [Амбиентаттрибутес. аккнаме,](ambientattributes-accname.md) атрибут
+-   [Амбиентаттрибутес. алфабленд,](ambientattributes-alphablend.md) атрибут
+-   [Амбиентаттрибутес. алфаблендто,](ambientattributes-alphablendto.md) метод
+-   [Элемент АВТОМЕНЮ](automenu-element.md)
+-   [Баланцеслидер](balanceslider.md) Предопределенный элемент
+-   Метод [буттонелемент. Click](buttonelement-click.md)
+-   Атрибут [буттонелемент. index](buttonelement-index.md)
+-   [BUTTONGROUP. буттонкаунт,](buttongroup-buttoncount.md) атрибут
+-   Метод [BUTTONGROUP. Click](buttongroup-click.md)
+-   Метод [BUTTONGROUP. «Кнопка»](buttongroup-getbutton.md)
+-   [BUTTONGROUP. хуешифт,](buttongroup-hueshift.md) атрибут
+-   Атрибут [BUTTONGROUP. насыщенности](buttongroup-saturation.md)
+-   [CLOSEBUTTON](closebutton.md) Предопределенный элемент
+-   [COLUMN, элемент](column-element.md)
+-   [Куррентпоситионтекст](currentpositiontext.md) Предопределенный элемент
+-   [Дропдовнплайлист](dropdownplaylist.md) Предопределенный элемент
+-   [Дуратионтекст](durationtext.md) Предопределенный элемент
+-   [EDITBOX](editbox-element.md) Дерев
+-   Метод [Effects. еффекттитле](effects-effecttitle.md)
+-   Метод [Effects. еффекттипе](effects-effecttype.md)
+-   [Екуализерсеттингс. плавный](equalizersettings-crossfade.md) атрибут
+-   [Екуализерсеттингс. кроссфадевиндов,](equalizersettings-crossfadewindow.md) атрибут
+-   [Екуализерсеттингс. куррентспеакернаме,](equalizersettings-currentspeakername.md) атрибут
+-   [Екуализерсеттингс. енаблесплинетенсион,](equalizersettings-enablesplinetension.md) атрибут
+-   [Екуализерсеттингс. енханцедаудио,](equalizersettings-enhancedaudio.md) атрибут
+-   [Екуализерсеттингс. Нормализация](equalizersettings-normalization.md) атрибута
+-   [Екуализерсеттингс. нормализатионавераже,](equalizersettings-normalizationaverage.md) атрибут
+-   [Екуализерсеттингс. нормализатионпеак,](equalizersettings-normalizationpeak.md) атрибут
+-   [Екуализерсеттингс. пресеттитле,](equalizersettings-presettitle.md) метод
+-   [Екуализерсеттингс. спеакерсизе,](equalizersettings-speakersize.md) атрибут
+-   [Екуализерсеттингс. сплинетенсион,](equalizersettings-splinetension.md) атрибут
+-   [Екуализерсеттингс. трубасслевел,](equalizersettings-trubasslevel.md) атрибут
+-   [Екуализерсеттингс. вовлевел,](equalizersettings-wowlevel.md) атрибут
+-   [ITEM, элемент](item-element.md)
+-   [Итемсплайлист](itemsplaylist.md) Предопределенный элемент
+-   [Элемент LISTBOX](listbox-element.md)
+-   [Минимизебуттон](minimizebutton.md) Предопределенный элемент
+-   [Мутебуттон](mutebutton.md) Предопределенный элемент
+-   [онендалфабленд](onendalphablend.md) Обработчик событий
+-   [ПЛАЙЕРАППЛИКАТИОН, элемент](playerapplication-element.md)
+-   Атрибут [списка воспроизведения. дропдовнбаккграундимаже](playlist-dropdownbackgroundimage.md)
+-   Атрибут [списка воспроизведения. дропдовнимаже](playlist-dropdownimage.md)
+-   Атрибут [списка воспроизведения. едитбуттонвисибле](playlist-editbuttonvisible.md)
+-   Метод [списка воспроизведения. getNextCheckedItem2](playlist-getnextcheckeditem2.md)
+-   Метод [списка воспроизведения. getNextSelectedItem2](playlist-getnextselecteditem2.md)
+-   Атрибут [списка воспроизведения. хуешифт](playlist-hueshift.md)
+-   Атрибут [списка воспроизведения. ItemCount](playlist-itemcount.md)
+-   Атрибут [списка воспроизведения. итемеррорколор](playlist-itemerrorcolor.md)
+-   Атрибут [списка воспроизведения. итеммедиа](playlist-itemmedia.md)
+-   Атрибут [списка воспроизведения. итемплайлист](playlist-itemplaylist.md)
+-   Атрибут [списка воспроизведения. лефтстатус](playlist-leftstatus.md)
+-   Атрибут [списка воспроизведения. ригхтстатус](playlist-rightstatus.md)
+-   Атрибут [списка воспроизведения. насыщенность](playlist-saturation.md)
+-   Метод [списка воспроизведения. setCheckedState2](playlist-setcheckedstate2.md)
+-   Метод [списка воспроизведения. setSelectedState2](playlist-setselectedstate2.md)
+-   Атрибут [списка воспроизведения. статусколор](playlist-statuscolor.md)
+-   [REPEATBUTTON](repeatbutton.md) Предопределенный элемент
+-   [Ретурнбуттон](returnbutton.md) Предопределенный элемент
+-   [Сикслидер](seekslider.md) Предопределенный элемент
+-   [Шуффлебуттон](shufflebutton.md) Предопределенный элемент
+-   [STATUSTEXT](statustext.md) Предопределенный элемент
+-   [Theme. PlaySound,](theme-playsound.md) метод
+-   [Траккнаметекст](tracknametext.md) Предопределенный элемент
+-   Атрибут [View. баккграундимажехуешифт](view-backgroundimagehueshift.md)
+-   Атрибут [View. баккграундимажесатуратион](view-backgroundimagesaturation.md)
+-   Атрибут [View. ресизебаккграундимаже](view-resizebackgroundimage.md)
+-   [Волумеслидер](volumeslider.md) Предопределенный элемент
+-   [Вмпеффектс](wmpeffects.md) Предопределенный элемент
+-   [Вмпвидео](wmpvideo.md) Предопределенный элемент
+
+## <a name="added-for-windows-media-player-10"></a>Добавлено для проигрывателя Windows Media 10
+
+-   [Список воспроизведения. Тулбарвисибле](playlist-toolbarvisible.md)
+-   [Список воспроизведения. Итемселектедбаккграундколор](playlist-itemselectedbackgroundcolor.md)
+-   [Список воспроизведения. итемселектедбаккграундфокуслостколор](playlist-itemselectedbackgroundfocuslostcolor.md) r
+-   [Список воспроизведения. Итемселектедколор](playlist-itemselectedcolor.md)
+-   [Список воспроизведения. Итемселектедфокуслостколор](playlist-itemselectedfocuslostcolor.md)
+
+## <a name="added-for-windows-media-player-11"></a>Добавлено для проигрывателя Windows Media 11
+
+-   [Амбиентаттрибутес. Bottom](ambientattributes-bottom.md)
+-   [Амбиентаттрибутес. Мовесизето](ambientattributes-movesizeto.md)
+-   [Амбиентаттрибутес. Нинегридмаргинс](ambientattributes-ninegridmargins.md)
+-   [Амбиентаттрибутес. Ресизеимажес](ambientattributes-resizeimages.md)
+-   [Амбиентаттрибутес. Right](ambientattributes-right.md)
+-   [Амбиентаттрибутес. Слидето](ambientattributes-slideto.md)
+
+## <a name="related-topics"></a>См. также
+
+<dl> <dt>
+
+[О обложках](about-skins.md)
+</dt> <dt>
+
+[Справочник по программированию для обложки](skin-programming-reference.md)
+</dt> <dt>
+
+[Что нового в проигрывателе Windows Media 11](what-was-new-in-windows-media-player-11.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

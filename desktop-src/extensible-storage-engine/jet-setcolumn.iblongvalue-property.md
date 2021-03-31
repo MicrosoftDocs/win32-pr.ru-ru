@@ -1,0 +1,75 @@
+---
+description: 'Дополнительные сведения о свойстве: JET_SETCOLUMN. Иблонгвалуе'
+title: Свойство JET_SETCOLUMN. Иблонгвалуе
+TOCTitle: 'ibLongValue property '
+ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.ibLongValue
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_setcolumn.iblongvalue(v=EXCHG.10)
+ms:contentKeyID: 55103931
+ms.date: 07/30/2014
+ms.topic: reference
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.ibLongValue
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name:
+- Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.get_ibLongValue
+- Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.ibLongValue
+- Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.set_ibLongValue
+topic_type:
+- kbSyntax
+- apiref
+api_type:
+- Managed
+api_location:
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: 3d98f1b49f5e4815f2ffaeb5d796c6139ad582e4
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103809034"
+---
+# <a name="jet_setcolumniblongvalue-property"></a>Свойство JET_SETCOLUMN. Иблонгвалуе
+
+Возвращает или задает смещение для первого байта, который необходимо задать в столбце типа [лонгбинари](./jet-coltyp-enumeration.md) или [LongText](./jet-coltyp-enumeration.md).
+
+**Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
+**Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)
+
+## <a name="syntax"></a>Синтаксис
+
+``` vb
+'Declaration
+Public Property ibLongValue As Integer
+    Get
+    Set
+'Usage
+Dim instance As JET_SETCOLUMN
+Dim value As Integer
+
+value = instance.ibLongValue
+
+instance.ibLongValue = value
+```
+
+``` csharp
+public int ibLongValue { get; set; }
+```
+
+#### <a name="property-value"></a>Значение свойства
+
+Тип: [System. Int32](/dotnet/api/system.int32)  
+
+## <a name="see-also"></a>См. также раздел
+
+#### <a name="reference"></a>Справочник
+
+[Класс JET_SETCOLUMN](./jet-setcolumn-class.md)
+
+[Элементы JET_SETCOLUMN](./jet-setcolumn-members.md)
+
+[Пространство имен Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)
