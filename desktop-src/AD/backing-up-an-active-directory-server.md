@@ -1,0 +1,41 @@
+---
+title: Резервное копирование сервера Active Directory
+description: Резервное копирование Active Directory Server требует резервного копирования базы данных и журналов транзакций. В этом разделе содержится пошаговое руководство по резервному копированию службы каталогов Active Directory в приложении резервного копирования.
+ms.assetid: 250b2f40-6d43-4aa5-a588-b0cd4839828d
+ms.tgt_platform: multiple
+keywords:
+- Резервное копирование Active Directory
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5affde952ee543afe1bb9b794cce074a74382aa7
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104067275"
+---
+# <a name="backing-up-an-active-directory-server"></a><span data-ttu-id="4fc58-105">Резервное копирование сервера Active Directory</span><span class="sxs-lookup"><span data-stu-id="4fc58-105">Backing Up an Active Directory Server</span></span>
+
+<span data-ttu-id="4fc58-106">Резервное копирование Active Directory Server требует резервного копирования базы данных и журналов транзакций.</span><span class="sxs-lookup"><span data-stu-id="4fc58-106">An Active Directory server backup requires you to back up the database and the transaction logs.</span></span> <span data-ttu-id="4fc58-107">В этом разделе содержится пошаговое руководство по резервному копированию службы каталогов Active Directory в приложении резервного копирования.</span><span class="sxs-lookup"><span data-stu-id="4fc58-107">This topic provides a walkthrough of how a backup application backs up the Active Directory directory service.</span></span>
+
+<span data-ttu-id="4fc58-108">Вызывающий эти функции резервного копирования должен иметь привилегию **SE \_ BACKUP \_ Name** .</span><span class="sxs-lookup"><span data-stu-id="4fc58-108">The caller of these backup functions must have the **SE\_BACKUP\_NAME** privilege.</span></span> <span data-ttu-id="4fc58-109">Для задания контекста безопасности, в котором вызываются функции резервного копирования и восстановления каталога, можно использовать функцию [**дссетаусидентити**](dssetauthidentity.md) .</span><span class="sxs-lookup"><span data-stu-id="4fc58-109">You can use the [**DsSetAuthIdentity**](dssetauthidentity.md) function to set the security context under which the directory backup/restore functions are called.</span></span>
+
+<span data-ttu-id="4fc58-110">**Чтобы создать резервную копию сервера Active Directory, выполните следующие действия.**</span><span class="sxs-lookup"><span data-stu-id="4fc58-110">**To backup an Active Directory server, perform the following steps**</span></span>
+
+1.  <span data-ttu-id="4fc58-111">Вызовите функцию [**дсиснтдсонлине**](dsisntdsonline.md) , чтобы определить, работают ли службы домен Active Directory.</span><span class="sxs-lookup"><span data-stu-id="4fc58-111">Call the [**DsIsNTDSOnline**](dsisntdsonline.md) function to determine if Active Directory Domain Services are running.</span></span>
+2.  <span data-ttu-id="4fc58-112">Если службы домен Active Directory работают, вызовите функцию [**дсбаккуппрепаре**](dsbackupprepare.md) , чтобы инициализировать маркер контекста резервного копирования.</span><span class="sxs-lookup"><span data-stu-id="4fc58-112">If Active Directory Domain Services are running, call the [**DsBackupPrepare**](dsbackupprepare.md) function to initialize a backup context handle.</span></span> <span data-ttu-id="4fc58-113">Если службы домен Active Directory не работают, резервное копирование невозможно, и приложение резервного копирования должно завершить операцию резервного копирования.</span><span class="sxs-lookup"><span data-stu-id="4fc58-113">If Active Directory Domain Services are not running, it cannot be backed up and the backup application must fail the backup operation.</span></span>
+3.  <span data-ttu-id="4fc58-114">Вызовите функцию [**дсбаккупжетдатабасенамес**](dsbackupgetdatabasenames.md) , чтобы получить список файлов для резервного копирования.</span><span class="sxs-lookup"><span data-stu-id="4fc58-114">Call the [**DsBackupGetDatabaseNames**](dsbackupgetdatabasenames.md) function to get a list of files to back up.</span></span> <span data-ttu-id="4fc58-115">Чтобы освободить память, возвращенную этой функцией, вызовите функцию [**дсбаккупфри**](dsbackupfree.md) .</span><span class="sxs-lookup"><span data-stu-id="4fc58-115">To release the memory returned by this function, call the [**DsBackupFree**](dsbackupfree.md) function.</span></span>
+4.  <span data-ttu-id="4fc58-116">Для каждого имени в возвращенном списке файлов вызовите функцию [**дсбаккупопенфиле**](dsbackupopenfile.md) , а затем повторяющиеся вызовы функции [**дсбаккупреад**](dsbackupread.md) до тех пор, пока не будет считан весь файл.</span><span class="sxs-lookup"><span data-stu-id="4fc58-116">For each name in the returned list of files, call the [**DsBackupOpenFile**](dsbackupopenfile.md) function followed by repeated calls to the [**DsBackupRead**](dsbackupread.md) function until the entire file has been read.</span></span> <span data-ttu-id="4fc58-117">Завершив чтение файла, вызовите функцию [**дсбаккупклосе**](dsbackupclose.md) , чтобы закрыть ее.</span><span class="sxs-lookup"><span data-stu-id="4fc58-117">When you have finished reading the file, call the [**DsBackupClose**](dsbackupclose.md) function to close it.</span></span>
+5.  <span data-ttu-id="4fc58-118">После резервного копирования всех файлов базы данных вызовите функцию [**дсбаккупжетбаккуплогс**](dsbackupgetbackuplogs.md) , чтобы получить список журналов транзакций.</span><span class="sxs-lookup"><span data-stu-id="4fc58-118">After all database files are backed up, call the [**DsBackupGetBackupLogs**](dsbackupgetbackuplogs.md) function to get a list of transaction logs.</span></span> <span data-ttu-id="4fc58-119">Этот список обрабатывается так же, как список файлов базы данных.</span><span class="sxs-lookup"><span data-stu-id="4fc58-119">This list is handled just like the list of database files.</span></span>
+6.  <span data-ttu-id="4fc58-120">После завершения резервного копирования журнала транзакций вызовите функцию [**дсбаккуптрункателогс**](dsbackuptruncatelogs.md) , чтобы удалить все зафиксированные журналы транзакций, резервные копии которых были созданы.</span><span class="sxs-lookup"><span data-stu-id="4fc58-120">When you have finished backing up the transaction log, call the [**DsBackupTruncateLogs**](dsbackuptruncatelogs.md) function to delete all committed transaction logs that were backed up.</span></span>
+7.  <span data-ttu-id="4fc58-121">Сохраните содержимое токена срока действия, предоставленного функцией [**дсбаккуппрепаре**](dsbackupprepare.md) .</span><span class="sxs-lookup"><span data-stu-id="4fc58-121">Save the contents of the expiry token provided by the [**DsBackupPrepare**](dsbackupprepare.md) function.</span></span> <span data-ttu-id="4fc58-122">Его можно сохранить в файле или в какой-либо другой долговременной памяти.</span><span class="sxs-lookup"><span data-stu-id="4fc58-122">This can be saved in a file or some other persistent memory.</span></span> <span data-ttu-id="4fc58-123">Этот токен должен быть передан функции [**дсресторепрепаре**](dsrestoreprepare.md) для инициации операции восстановления.</span><span class="sxs-lookup"><span data-stu-id="4fc58-123">This token must be passed to the [**DsRestorePrepare**](dsrestoreprepare.md) function to initiate a restore operation.</span></span>
+8.  <span data-ttu-id="4fc58-124">Освободите память для токена истечения срока действия, передав указатель маркера функции [**дсбаккупфри**](dsbackupfree.md) .</span><span class="sxs-lookup"><span data-stu-id="4fc58-124">Free the memory for the expiry token by passing the token pointer to the [**DsBackupFree**](dsbackupfree.md) function.</span></span>
+9.  <span data-ttu-id="4fc58-125">Наконец, вызовите функцию [**дсбаккупенд**](dsbackupend.md) , чтобы освободить все ресурсы, связанные с этим маркером контекста резервного копирования.</span><span class="sxs-lookup"><span data-stu-id="4fc58-125">Finally, call the [**DsBackupEnd**](dsbackupend.md) function to release all resources associated with the backup context handle.</span></span>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,49 @@
+---
+title: Архитектура расширения ADSI
+description: Расширения ADSI основаны на модели агрегирования COM с помощью нескольких усовершенствований. Расширения должны соответствовать всем правилам COM. Дополнительные сведения см. в спецификации COM.
+ms.assetid: 59e39273-1f66-4bdd-89ed-31947a268d1f
+ms.tgt_platform: multiple
+keywords:
+- расширения ADSI, Архитектура расширения
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 377409f4b9ac36d72d6885e89860b9e6e680b103
+ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "103793866"
+---
+# <a name="adsi-extension-architecture"></a><span data-ttu-id="13aa6-106">Архитектура расширения ADSI</span><span class="sxs-lookup"><span data-stu-id="13aa6-106">ADSI Extension Architecture</span></span>
+
+<span data-ttu-id="13aa6-107">Расширения ADSI основаны на модели агрегирования COM с помощью нескольких усовершенствований.</span><span class="sxs-lookup"><span data-stu-id="13aa6-107">ADSI extensions are based on the COM aggregation model with several enhancements.</span></span> <span data-ttu-id="13aa6-108">Расширения должны соответствовать всем правилам COM.</span><span class="sxs-lookup"><span data-stu-id="13aa6-108">Extensions must adhere to all COM rules.</span></span> <span data-ttu-id="13aa6-109">Дополнительные сведения см. в спецификации COM.</span><span class="sxs-lookup"><span data-stu-id="13aa6-109">For more information, see the COM specification.</span></span>
+
+<span data-ttu-id="13aa6-110">Ниже приведена проверка модели агрегирования COM.</span><span class="sxs-lookup"><span data-stu-id="13aa6-110">Here is a review of the COM aggregation model.</span></span>
+
+![модель агрегирования com](images/comagmod.png)
+
+<span data-ttu-id="13aa6-112">Статистическое выражение, также называемое внутренним объектом, представляет собой объект, создаваемый агрегатором.</span><span class="sxs-lookup"><span data-stu-id="13aa6-112">An aggregate, also known as an inner object, is an object that an aggregator creates.</span></span> <span data-ttu-id="13aa6-113">Объект расширения является агрегатом.</span><span class="sxs-lookup"><span data-stu-id="13aa6-113">Your extension object is an aggregate.</span></span>
+
+<span data-ttu-id="13aa6-114">Агрегатор, также называемый внешним объектом, является объектом, который создает статистическое выражение.</span><span class="sxs-lookup"><span data-stu-id="13aa6-114">An aggregator, also known as an outer object, is an object that creates an aggregate.</span></span> <span data-ttu-id="13aa6-115">ADSI является агрегатором.</span><span class="sxs-lookup"><span data-stu-id="13aa6-115">ADSI is an aggregator.</span></span>
+
+<span data-ttu-id="13aa6-116">Внутренний объект делегирует свой [**интерфейс**](/windows/win32/api/unknwn/nn-unknwn-iunknown) IUnknown интерфейсу **IUnknown** агрегатора.</span><span class="sxs-lookup"><span data-stu-id="13aa6-116">The inner object delegates its [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) to the aggregator's **IUnknown**.</span></span>
+
+<span data-ttu-id="13aa6-117">Расширения ADSI добавляют следующие улучшения в агрегирование COM для удовлетворения своих требований:</span><span class="sxs-lookup"><span data-stu-id="13aa6-117">ADSI extensions add the following enhancements to COM aggregation to satisfy its requirements:</span></span>
+
+-   <span data-ttu-id="13aa6-118">Позволяет каждому модулю записи расширений расширять объекты ADSI.</span><span class="sxs-lookup"><span data-stu-id="13aa6-118">Enables each extension writer to extend ADSI objects.</span></span> <span data-ttu-id="13aa6-119">Модуль записи расширений может зарегистрировать свое расширение в ADSI и не повлияет на существование других расширений.</span><span class="sxs-lookup"><span data-stu-id="13aa6-119">An extension writer can register its extension with ADSI and not be affected by the existence of other extensions.</span></span> <span data-ttu-id="13aa6-120">В модели агрегирования COM агрегатор должен иметь CLSID агрегата.</span><span class="sxs-lookup"><span data-stu-id="13aa6-120">In the COM aggregation model, the aggregator must have the aggregate's CLSID.</span></span> <span data-ttu-id="13aa6-121">ADSI ослабляет это требование, делая его средством агрегации для всех расширений.</span><span class="sxs-lookup"><span data-stu-id="13aa6-121">ADSI relaxes this requirement by making itself act as the aggregator for all extensions.</span></span> <span data-ttu-id="13aa6-122">Таким образом, вместо формирования слоя вложенных компонентов расширения находятся на одном уровне.</span><span class="sxs-lookup"><span data-stu-id="13aa6-122">Therefore, instead of forming a layer of nested components, extensions are at the same level.</span></span>
+-   <span data-ttu-id="13aa6-123">Разрешает один объект, один интерфейс IDispatch.</span><span class="sxs-lookup"><span data-stu-id="13aa6-123">Allows one object, one IDispatch.</span></span> <span data-ttu-id="13aa6-124">Поддержка автоматизации является одной из важнейших функций ADSI.</span><span class="sxs-lookup"><span data-stu-id="13aa6-124">Automation support is one of the most important features of ADSI.</span></span> <span data-ttu-id="13aa6-125">Поддержка автоматизации достигается благодаря тому, что ADSI поддерживает интерфейс [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) .</span><span class="sxs-lookup"><span data-stu-id="13aa6-125">Automation support is achieved because ADSI supports the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface.</span></span> <span data-ttu-id="13aa6-126">Модули записи расширений рекомендуется поддерживать интерфейс **IDispatch** .</span><span class="sxs-lookup"><span data-stu-id="13aa6-126">Extension writers are encouraged to support the **IDispatch** interface.</span></span> <span data-ttu-id="13aa6-127">Однако для данного объекта должен быть только один интерфейс **IDispatch** .</span><span class="sxs-lookup"><span data-stu-id="13aa6-127">However, there should be only one **IDispatch** interface on a given object.</span></span> <span data-ttu-id="13aa6-128">ADSI интегрирует и собирает многие интерфейсы **IDispatch** из разных расширений и представляет их как единый интерфейс **IDispatch** для контроллера автоматизации.</span><span class="sxs-lookup"><span data-stu-id="13aa6-128">ADSI integrates and collects the many **IDispatch** interfaces from different extensions and presents them as one consistent **IDispatch** to the Automation controller.</span></span> <span data-ttu-id="13aa6-129">Каждое расширение, при выполнении статистической обработки, должно перенаправлять вызовы **IDispatch** в интерфейс **IDispatch** , предоставляемый ADSI.</span><span class="sxs-lookup"><span data-stu-id="13aa6-129">Each extension, when aggregated, must re-route its **IDispatch** calls to the **IDispatch** provided by ADSI.</span></span>
+
+<span data-ttu-id="13aa6-130">Все эти решения возможны из-за служб, предоставляемых диспетчером объектов ADSI, которые располагаются на каждом поставщике ADSI.</span><span class="sxs-lookup"><span data-stu-id="13aa6-130">All these solutions are possible because of services that the ADSI Object Manager provides, which reside on each ADSI provider.</span></span>
+
+<span data-ttu-id="13aa6-131">На следующем рисунке показана архитектура модели расширения ADSI.</span><span class="sxs-lookup"><span data-stu-id="13aa6-131">The following figure shows the ADSI Extension Model architecture.</span></span>
+
+![Архитектура модели расширения ADSI](images/adsiexmo.png)
+
+<span data-ttu-id="13aa6-133">ADSI поддерживает два уровня расширения:</span><span class="sxs-lookup"><span data-stu-id="13aa6-133">ADSI supports two levels of extension:</span></span>
+
+-   <span data-ttu-id="13aa6-134">Поддержка раннего связывания.</span><span class="sxs-lookup"><span data-stu-id="13aa6-134">Early Binding Support.</span></span> <span data-ttu-id="13aa6-135">Это первый уровень расширения.</span><span class="sxs-lookup"><span data-stu-id="13aa6-135">This is the first level of extension.</span></span> <span data-ttu-id="13aa6-136">Расширение должно поддерживать регистрацию и реализовывать новые интерфейсы.</span><span class="sxs-lookup"><span data-stu-id="13aa6-136">An extension must support registration and implement new interfaces.</span></span> <span data-ttu-id="13aa6-137">Потребители расширений должны использовать средства или узлы сценариев, поддерживающие раннее связывание, например Visual C++, Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="13aa6-137">The extension consumers must use tools or scripting hosts that support early binding, for example, Visual C++ , Visual Basic.</span></span>
+-   <span data-ttu-id="13aa6-138">Поддержка поздних привязок.</span><span class="sxs-lookup"><span data-stu-id="13aa6-138">Late Binding Support.</span></span> <span data-ttu-id="13aa6-139">Это происходит, когда расширение удовлетворяет всем требованиям раннего связывания и реализует дополнительный интерфейс [**иадсекстенсион**](/windows/desktop/api/Iads/nn-iads-iadsextension).</span><span class="sxs-lookup"><span data-stu-id="13aa6-139">This happens when an extension satisfies all early binding requirements, and implements an additional interface, [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension).</span></span> <span data-ttu-id="13aa6-140">Разработчики расширений могут использовать любое средство, работающее в качестве контроллера автоматизации, например сервер сценариев Windows, Active Server страницы или HTML с помощью VBScript.</span><span class="sxs-lookup"><span data-stu-id="13aa6-140">Extension implementers can use any tool that operates as an Automation controller, such as the Windows Script Host, Active Server Pages, or HTML with VBScript.</span></span>
+
+ 
+
+ 
