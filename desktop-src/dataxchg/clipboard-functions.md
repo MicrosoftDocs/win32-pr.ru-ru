@@ -1,0 +1,45 @@
+---
+title: Функции буфера обмена
+description: . | Функции буфера обмена
+ms.assetid: 54addf54-921d-4246-b21e-ae993f8bcb02
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 96a6a0304c55e4c97f2243599909decd997758e9
+ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "104273543"
+---
+# <a name="clipboard-functions"></a>Функции буфера обмена
+
+## <a name="in-this-section"></a>Содержание раздела
+
+-   [**аддклипбоардформатлистенер**](/windows/desktop/api/Winuser/nf-winuser-addclipboardformatlistener)
+-   [**чанжеклипбоардчаин**](/windows/desktop/api/Winuser/nf-winuser-changeclipboardchain)
+-   [**клосеклипбоард**](/windows/desktop/api/Winuser/nf-winuser-closeclipboard)
+-   [**каунтклипбоардформатс**](/windows/desktop/api/Winuser/nf-winuser-countclipboardformats)
+-   [**емптиклипбоард**](/windows/desktop/api/Winuser/nf-winuser-emptyclipboard)
+-   [**енумклипбоардформатс**](/windows/desktop/api/Winuser/nf-winuser-enumclipboardformats)
+-   [**жетклипбоарддата**](/windows/desktop/api/Winuser/nf-winuser-getclipboarddata)
+-   [**жетклипбоардформатнаме**](/windows/desktop/api/Winuser/nf-winuser-getclipboardformatnamea)
+-   [**жетклипбоардовнер**](/windows/desktop/api/Winuser/nf-winuser-getclipboardowner)
+-   [**жетклипбоардсекуенценумбер**](/windows/desktop/api/Winuser/nf-winuser-getclipboardsequencenumber)
+-   [**жетклипбоардвиевер**](/windows/desktop/api/Winuser/nf-winuser-getclipboardviewer)
+-   [**жетопенклипбоардвиндов**](/windows/desktop/api/Winuser/nf-winuser-getopenclipboardwindow)
+-   [**жетприоритиклипбоардформат**](/windows/desktop/api/Winuser/nf-winuser-getpriorityclipboardformat)
+-   [**жетупдатедклипбоардформатс**](/windows/desktop/api/Winuser/nf-winuser-getupdatedclipboardformats)
+-   [**исклипбоардформатаваилабле**](/windows/desktop/api/Winuser/nf-winuser-isclipboardformatavailable)
+-   [**опенклипбоард**](/windows/desktop/api/Winuser/nf-winuser-openclipboard)
+-   [**регистерклипбоардформат**](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata)
+-   [**ремовеклипбоардформатлистенер**](/windows/desktop/api/Winuser/nf-winuser-removeclipboardformatlistener)
+-   [**сетклипбоарддата**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata)
+-   [**сетклипбоардвиевер**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer)
+
+ 
+
+ 
+
+
+
+
