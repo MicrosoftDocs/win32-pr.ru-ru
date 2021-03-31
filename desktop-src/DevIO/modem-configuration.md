@@ -1,0 +1,36 @@
+---
+description: Функции настройки модема позволяют настроить модем перед подключением.
+ms.assetid: 67d8f3c4-0295-4028-8b12-1a5e26979df5
+title: Конфигурация модема
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: b7abd6c5319011b8821487b6adf0351dc799e61f
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103896245"
+---
+# <a name="modem-configuration"></a><span data-ttu-id="cc7e0-103">Конфигурация модема</span><span class="sxs-lookup"><span data-stu-id="cc7e0-103">Modem Configuration</span></span>
+
+<span data-ttu-id="cc7e0-104">Функции настройки модема позволяют настроить модем перед подключением.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-104">Modem configuration functions enable you to configure a modem before making a connection.</span></span> <span data-ttu-id="cc7e0-105">Приложение может устанавливать параметры модема и определять возможности модема без использования команд, относящихся к любому модемному устройству.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-105">An application can set modem options and determine the features of a modem without using commands specific to any modem device.</span></span> <span data-ttu-id="cc7e0-106">Ниже приведены общие функции, которые приложение может установить перед вызовом:</span><span class="sxs-lookup"><span data-stu-id="cc7e0-106">Following are the general features an application may set before making a call:</span></span>
+
+-   <span data-ttu-id="cc7e0-107">Основной режим работы (синхронный, асинхронный, а также включено ли Управление ошибками).</span><span class="sxs-lookup"><span data-stu-id="cc7e0-107">Primary mode of operation (synchronous, asynchronous, and whether error control is enabled).</span></span>
+-   <span data-ttu-id="cc7e0-108">V. 42. Управление ошибками (определено рекомендацией CCITT V. 42), включая определенные параметры.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-108">V.42 error control (defined by CCITT recommendation V.42), including specific parameters.</span></span> <span data-ttu-id="cc7e0-109">CCITT означает Международный телеграфа и Консултативеный Комитет.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-109">CCITT stands for the International Telegraph and Telephone Consultative Committee.</span></span>
+-   <span data-ttu-id="cc7e0-110">V. 42bis (определяется в соответствии с рекомендацией CCITT V. 42bis) и MNP5 Data Compression.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-110">V.42bis (defined by CCITT recommendation V.42bis) and MNP5 data compression.</span></span>
+-   <span data-ttu-id="cc7e0-111">Параметры времени ожидания, включая настройку вызова, неактивность и доставку буферизованных данных.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-111">Time-out options, including call setup, inactivity, and buffered data delivery.</span></span>
+
+<span data-ttu-id="cc7e0-112">Перед настройкой конфигурации модема приложение должно определить возможности модемного устройства с помощью функции [**жеткоммпропертиес**](/windows/desktop/api/Winbase/nf-winbase-getcommproperties) .</span><span class="sxs-lookup"><span data-stu-id="cc7e0-112">Before setting a modem's configuration, an application should determine the capabilities of the modem device by using the [**GetCommProperties**](/windows/desktop/api/Winbase/nf-winbase-getcommproperties) function.</span></span> <span data-ttu-id="cc7e0-113">Эта функция заполняет структуру [**коммпроп**](/windows/desktop/api/WinBase/ns-winbase-commprop) .</span><span class="sxs-lookup"><span data-stu-id="cc7e0-113">This function fills in a [**COMMPROP**](/windows/desktop/api/WinBase/ns-winbase-commprop) structure.</span></span> <span data-ttu-id="cc7e0-114">Эта структура содержит как общую часть, которая применяется ко всем устройствам связи, так и часть, относящуюся к каждому подтипу поставщика.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-114">This structure contains both a general portion, which applies to all communications devices, and a portion that is specific to each provider subtype.</span></span> <span data-ttu-id="cc7e0-115">Для модемных устройств часть структуры **коммпроп** , относящаяся к конкретному поставщику, является структурой [**модемдевкапс**](/windows/desktop/api/Mcx/ns-mcx-modemdevcaps) .</span><span class="sxs-lookup"><span data-stu-id="cc7e0-115">For modem devices, the provider-specific portion of the **COMMPROP** structure is a [**MODEMDEVCAPS**](/windows/desktop/api/Mcx/ns-mcx-modemdevcaps) structure.</span></span>
+
+<span data-ttu-id="cc7e0-116">Приложение может получить и задать текущую конфигурацию модема с помощью функций [**жеткоммконфиг**](/windows/desktop/api/Winbase/nf-winbase-getcommconfig) и [**сеткоммконфиг**](/windows/desktop/api/Winbase/nf-winbase-setcommconfig) , в которых используется структура [**коммконфиг**](/windows/desktop/api/Winbase/ns-winbase-commconfig) .</span><span class="sxs-lookup"><span data-stu-id="cc7e0-116">An application can get and set the current configuration of a modem by using the [**GetCommConfig**](/windows/desktop/api/Winbase/nf-winbase-getcommconfig) and [**SetCommConfig**](/windows/desktop/api/Winbase/nf-winbase-setcommconfig) functions, both of which use a [**COMMCONFIG**](/windows/desktop/api/Winbase/ns-winbase-commconfig) structure.</span></span> <span data-ttu-id="cc7e0-117">Эта структура содержит как общую часть, которая применяется ко всем устройствам связи, так и часть, относящуюся к каждому подтипу поставщика.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-117">This structure contains both a general portion, which applies to all communications devices, and a portion that is specific to each provider subtype.</span></span> <span data-ttu-id="cc7e0-118">Для модемных устройств часть структуры **коммконфиг** , относящаяся к конкретному поставщику, является структурой [**модемсеттингс**](/windows/desktop/api/Mcx/ns-mcx-modemsettings) .</span><span class="sxs-lookup"><span data-stu-id="cc7e0-118">For modem devices, the provider-specific portion of the **COMMCONFIG** structure is a [**MODEMSETTINGS**](/windows/desktop/api/Mcx/ns-mcx-modemsettings) structure.</span></span>
+
+<span data-ttu-id="cc7e0-119">После настройки модема приложение может использовать интерфейс программирования приложений телефонии (TAPI) для фактического установления соединения.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-119">After configuring a modem, an application can use the Telephony Application Programming Interface (TAPI) to actually establish a connection.</span></span>
+
+<span data-ttu-id="cc7e0-120">Функции настройки модема не предоставляют долгосрочного управления и обслуживания модема.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-120">The modem configuration functions do not provide for long-term management and maintenance of a modem.</span></span> <span data-ttu-id="cc7e0-121">Для этой цели поставщики услуг модема должны предоставлять диалоговые окна настройки модема.</span><span class="sxs-lookup"><span data-stu-id="cc7e0-121">Modem service providers should supply modem configuration dialog boxes for this purpose.</span></span>
+
+ 
+
+ 
+
+
+

@@ -1,0 +1,33 @@
+---
+description: Сервер автоматического распределения вызовов (ACD) — это сочетание оборудования и программного обеспечения, которое классифицирует, ставит очереди и распределяет входящие вызовы агентам или исходящим вызовам строк.
+ms.assetid: 29fb0bd7-0ca9-4490-82d2-39550f00a97b
+title: ACD-прокси
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c345fbcac3ac3471098e964336a0c3135fd1f582
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103998999"
+---
+# <a name="acd-proxy"></a><span data-ttu-id="be2ec-103">ACD-прокси</span><span class="sxs-lookup"><span data-stu-id="be2ec-103">ACD Proxy</span></span>
+
+<span data-ttu-id="be2ec-104">Сервер автоматического распределения вызовов (ACD) — это сочетание оборудования и программного обеспечения, которое классифицирует, ставит очереди и распределяет входящие вызовы агентам или исходящим вызовам строк.</span><span class="sxs-lookup"><span data-stu-id="be2ec-104">An Automatic Call Distribution (ACD) server is a combination of hardware and software that classifies, queues, and distributes incoming calls to agents or outgoing calls to lines.</span></span>
+
+<span data-ttu-id="be2ec-105">Приложение ACD сервера — это прокси-приложение TAPI, которое для максимальной эффективности должно выполняться на том же сервере, что и поставщик услуг телефонии (TSP).</span><span class="sxs-lookup"><span data-stu-id="be2ec-105">The Server ACD application is a TAPI proxy application, which for maximum efficiency should run on the same server as the telephony service provider (TSP).</span></span> <span data-ttu-id="be2ec-106">При использовании традиционного параметра ACD прокси-приложение будет взаимодействовать с внутренним ACD коммутатора и предоставлять свою операцию.</span><span class="sxs-lookup"><span data-stu-id="be2ec-106">With a traditional ACD switch, the proxy application would interface to the switch's internal ACD and expose its operation.</span></span> <span data-ttu-id="be2ec-107">Программное или «виртуальное» прокси-приложение должно полностью отвечать за отслеживание вызовов, очередей, групп и агентов и использовать стандартные интерфейсы TAPI для управления оборудованием коммутации.</span><span class="sxs-lookup"><span data-stu-id="be2ec-107">A software-based or "virtual" ACD proxy application would be fully responsible for the tracking of calls, queues, groups, and agents and would use the standard TAPI interfaces to control the switching hardware.</span></span> <span data-ttu-id="be2ec-108">Клиентские приложения агента обычно выполняются на рабочих станциях отдельных агентов и используют поставщик удаленных услуг TAPI для обмена данными с ТАПИСРВ на компьютере сервера и, следовательно, с прокси-приложением.</span><span class="sxs-lookup"><span data-stu-id="be2ec-108">Agent client applications will typically run on the individual agent's workstations and make use of the TAPI Remote Service Provider to communicate with the TAPISRV on the server machine, and hence the proxy application.</span></span>
+
+<span data-ttu-id="be2ec-109">Классификация входящих вызовов предназначена для получения вызова агента, который сможет эффективно обрабатывать его.</span><span class="sxs-lookup"><span data-stu-id="be2ec-109">Classification of incoming calls is designed to get a call to an agent who will be able to handle it effectively.</span></span> <span data-ttu-id="be2ec-110">Классификация может основываться на номере набора, системе интерактивного распознавания речи (IVR) или других условиях.</span><span class="sxs-lookup"><span data-stu-id="be2ec-110">Classification may be based on the number dialed, an interactive voice recognition (IVR) system, or other criteria.</span></span> <span data-ttu-id="be2ec-111">Для представления этой операции TAPI использует концепцию [ACD](about-call-center-controls.md) .</span><span class="sxs-lookup"><span data-stu-id="be2ec-111">TAPI uses the concept of an [ACD Group](about-call-center-controls.md) to represent this operation.</span></span>
+
+<span data-ttu-id="be2ec-112">Очереди — это корректное и ожидаемое средство для центров обработки вызовов с большим периодом нагрузки.</span><span class="sxs-lookup"><span data-stu-id="be2ec-112">Queues are a graceful and expected way for call centers to deal with heavy load periods.</span></span> <span data-ttu-id="be2ec-113">Очередь обычно связана с ACD-группой, но может быть создана для обработки исходящих строк или входящих вызовов, ожидающих приложения IVR.</span><span class="sxs-lookup"><span data-stu-id="be2ec-113">A queue is normally associated with an ACD Group but may be created to handle outgoing lines or incoming calls waiting for an IVR application.</span></span> <span data-ttu-id="be2ec-114">Дополнительные сведения см. в разделе [очереди](about-call-center-controls.md) .</span><span class="sxs-lookup"><span data-stu-id="be2ec-114">See [Queues](about-call-center-controls.md) for more information.</span></span>
+
+<span data-ttu-id="be2ec-115">Распределение вызовов для агентов или групп агентов может быть универсальным, но обычно основано на таких данных, как сведения о вызове, доступность агента и возможность.</span><span class="sxs-lookup"><span data-stu-id="be2ec-115">Call distribution to agents or groups of agents may be uniform but typically is based on data such as call information, agent availability, and ability.</span></span> <span data-ttu-id="be2ec-116">[Обработчик агента](about-call-center-controls.md) TAPI предоставляет доступ к информации, такой как доступность агента и адреса для перемещения вызовов агентов.</span><span class="sxs-lookup"><span data-stu-id="be2ec-116">TAPI's [Agent Handler](about-call-center-controls.md) provides access to information such as agent availability and addresses for the transfer of calls to agents.</span></span>
+
+<span data-ttu-id="be2ec-117">Помимо основного распределения вызовов, система ACD обеспечивает управление производительностью системы и создание отчетов по ней.</span><span class="sxs-lookup"><span data-stu-id="be2ec-117">In addition to basic call distribution, an ACD system provides for managing and reporting on the system performance.</span></span> <span data-ttu-id="be2ec-118">Статистика, собранная по очередям вызовов, группам и агентам, используется для уточнения и повышения производительности системы и обычно используется в качестве основания для агента ремунератион.</span><span class="sxs-lookup"><span data-stu-id="be2ec-118">Statistics gathered on call queues, groups, and agents are used to refine and enhance the performance of the system and are typically used as the basis for Agent remuneration.</span></span>
+
+ 
+
+ 
+
+
+
