@@ -1,0 +1,24 @@
+---
+title: Неявные и явные дескрипторы
+description: Чтобы объявить маркер сериализации, используйте тип маркера-примитива \_ t.
+ms.assetid: 70d8665f-d793-46fc-bcbf-ecb24e746786
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: bcead663ae7eee8d0cdb95a73e7ae58935773cef
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103890965"
+---
+# <a name="implicit-vs-explicit-handles"></a><span data-ttu-id="46bf4-103">Неявные и явные дескрипторы</span><span class="sxs-lookup"><span data-stu-id="46bf4-103">Implicit vs. Explicit Handles</span></span>
+
+<span data-ttu-id="46bf4-104">Чтобы объявить маркер сериализации, используйте тип маркера-примитива [**\_ t**](/windows/desktop/Midl/handle-t).</span><span class="sxs-lookup"><span data-stu-id="46bf4-104">To declare a serialization handle, use the primitive handle type [**handle\_t**](/windows/desktop/Midl/handle-t).</span></span> <span data-ttu-id="46bf4-105">Дескрипторы сериализации могут быть явно или неявными.</span><span class="sxs-lookup"><span data-stu-id="46bf4-105">Serialization handles can be explicit or implicit.</span></span> <span data-ttu-id="46bf4-106">Укажите неявные дескрипторы в ACFе приложения с помощью атрибута **\[ неявного \_ дескриптора \]** .</span><span class="sxs-lookup"><span data-stu-id="46bf4-106">Specify implicit handles in your application's ACF by using the **\[implicit\_handle\]** attribute.</span></span> <span data-ttu-id="46bf4-107">Компилятор MIDL создаст переменную глобального обработчика сериализации.</span><span class="sxs-lookup"><span data-stu-id="46bf4-107">The MIDL compiler will generate a global serialization handle variable.</span></span> <span data-ttu-id="46bf4-108">Процедуры сериализации с неявным обработчиком используют эту глобальную переменную для доступа к допустимому контексту сериализации.</span><span class="sxs-lookup"><span data-stu-id="46bf4-108">Serialization procedures with an implicit handle use this global variable in order to access a valid serializing context.</span></span>
+
+<span data-ttu-id="46bf4-109">При использовании кодировки типов созданные подпрограммы, поддерживающие сериализацию определенного типа, используют глобальный неявный обработчик для доступа к контексту сериализации.</span><span class="sxs-lookup"><span data-stu-id="46bf4-109">When using type encoding, the generated routines supporting serialization of a particular type use the global implicit handle to access the serialization context.</span></span> <span data-ttu-id="46bf4-110">Обратите внимание, что удаленным подпрограммым может потребоваться использовать неявный обработчик в качестве маркера привязки.</span><span class="sxs-lookup"><span data-stu-id="46bf4-110">Note that remote routines may need to use the implicit handle as a binding handle.</span></span> <span data-ttu-id="46bf4-111">Убедитесь, что для неявного маркера задан допустимый обработчик сериализации перед выполнением вызова сериализации.</span><span class="sxs-lookup"><span data-stu-id="46bf4-111">Be sure that the implicit handle is set to a valid serializing handle prior to making a serializing call.</span></span>
+
+<span data-ttu-id="46bf4-112">Явный маркер указывается в качестве параметра прототипа процедуры сериализации в IDL-файле или может быть указан с помощью **\[ явного атрибута \_ Handle \]** в ACF.</span><span class="sxs-lookup"><span data-stu-id="46bf4-112">An explicit handle is specified as a parameter of the serialization procedure prototype in the IDL file, or it can also be specified by using the **\[explicit\_handle\]** attribute in the ACF.</span></span> <span data-ttu-id="46bf4-113">Параметр явного обработчика используется для установления надлежащего контекста сериализации для процедуры.</span><span class="sxs-lookup"><span data-stu-id="46bf4-113">The explicit handle parameter is used to establish the proper serialization context for the procedure.</span></span> <span data-ttu-id="46bf4-114">Чтобы установить правильный контекст в случае сериализации типа, компилятор создает вспомогательные подпрограммы, в которых в качестве маркера сериализации используется явный параметр [**Handle \_ t**](/windows/desktop/Midl/handle-t) .</span><span class="sxs-lookup"><span data-stu-id="46bf4-114">To establish the correct context in the case of type serialization, the compiler generates the supporting routines that use explicit [**handle\_t**](/windows/desktop/Midl/handle-t) parameter as the serialization handle.</span></span> <span data-ttu-id="46bf4-115">При вызове процедуры сериализации или подпрограммы поддержки типа сериализации необходимо указать допустимый описатель сериализации.</span><span class="sxs-lookup"><span data-stu-id="46bf4-115">You must supply a valid serializing handle when calling a serialization procedure or serialization type support routine.</span></span>
+
+ 
+
+ 
