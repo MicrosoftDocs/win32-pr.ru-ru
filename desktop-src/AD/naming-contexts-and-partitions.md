@@ -1,0 +1,33 @@
+---
+title: Контексты именования и разделы каталога
+description: Каждый контроллер домена в лесу домена, управляемом службами домен Active Directory Services, включает разделы каталога.
+ms.assetid: 77ac171c-2031-46d7-b81e-dd9ae0c70ccb
+ms.tgt_platform: multiple
+keywords:
+- Контексты именования и объявления о разделах каталогов
+- ОБЪЯВЛЕНИЯ контекстов именования, о
+- Разделы каталога Active Directory, сведения
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 39934f0236e927bff281230c41a303f5e6d2bb0f
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "103987320"
+---
+# <a name="naming-contexts-and-directory-partitions"></a><span data-ttu-id="1d40d-106">Контексты именования и разделы каталога</span><span class="sxs-lookup"><span data-stu-id="1d40d-106">Naming Contexts and Directory Partitions</span></span>
+
+<span data-ttu-id="1d40d-107">Каждый контроллер домена в лесу домена, управляемом службами домен Active Directory Services, включает [*разделы каталога*](/previous-versions/windows/desktop/legacy/ms681901(v=vs.85)).</span><span class="sxs-lookup"><span data-stu-id="1d40d-107">Each domain controller in a domain forest controlled by Active Directory Domain Services includes [*directory partitions*](/previous-versions/windows/desktop/legacy/ms681901(v=vs.85)).</span></span> <span data-ttu-id="1d40d-108">Разделы каталога также называются [*контекстами именования*](/previous-versions/windows/desktop/legacy/ms681918(v=vs.85)).</span><span class="sxs-lookup"><span data-stu-id="1d40d-108">Directory partitions are also known as [*naming contexts*](/previous-versions/windows/desktop/legacy/ms681918(v=vs.85)).</span></span> <span data-ttu-id="1d40d-109">Раздел каталога — это непрерывная часть общего каталога, в которой есть независимая область репликации и данные планирования.</span><span class="sxs-lookup"><span data-stu-id="1d40d-109">A directory partition is a contiguous portion of the overall directory that has independent replication scope and scheduling data.</span></span> <span data-ttu-id="1d40d-110">По умолчанию служба домен Active Directory для предприятия содержит следующие разделы:</span><span class="sxs-lookup"><span data-stu-id="1d40d-110">By default, the Active Directory Domain Service for an enterprise contains the following partitions:</span></span>
+
+-   <span data-ttu-id="1d40d-111">[*Секция схемы*](/previous-versions/windows/desktop/legacy/ms681936(v=vs.85)): Секция схемы содержит объекты **classSchema** и **attributeSchema** , которые определяют типы объектов, которые могут существовать в лесу.</span><span class="sxs-lookup"><span data-stu-id="1d40d-111">[*Schema Partition*](/previous-versions/windows/desktop/legacy/ms681936(v=vs.85)): The schema partition contains the **classSchema** and **attributeSchema** objects that define the types of objects that can exist in the forest.</span></span> <span data-ttu-id="1d40d-112">Каждый контроллер домена в лесу имеет реплику того же раздела схемы.</span><span class="sxs-lookup"><span data-stu-id="1d40d-112">Every domain controller in the forest has a replica of the same schema partition.</span></span>
+-   <span data-ttu-id="1d40d-113">[*Раздел конфигурации*](/previous-versions/windows/desktop/legacy/ms681898(v=vs.85)): раздел конфигурации содержит топологию репликации и другие данные конфигурации, которые должны реплицироваться в пределах леса.</span><span class="sxs-lookup"><span data-stu-id="1d40d-113">[*Configuration Partition*](/previous-versions/windows/desktop/legacy/ms681898(v=vs.85)): The configuration partition contains replication topology and other configuration data that must be replicated throughout the forest.</span></span> <span data-ttu-id="1d40d-114">Каждый контроллер домена в лесу имеет реплику одного и того же раздела конфигурации.</span><span class="sxs-lookup"><span data-stu-id="1d40d-114">Every domain controller in the forest has a replica of the same configuration partition.</span></span>
+-   <span data-ttu-id="1d40d-115">[*Раздел домена*](/previous-versions/windows/desktop/legacy/ms681901(v=vs.85)): раздел домена содержит объекты каталога, такие как пользователи и компьютеры, связанные с локальным доменом.</span><span class="sxs-lookup"><span data-stu-id="1d40d-115">[*Domain Partition*](/previous-versions/windows/desktop/legacy/ms681901(v=vs.85)): The domain partition contains the directory objects, such as users and computers, associated with the local domain.</span></span> <span data-ttu-id="1d40d-116">Домен может иметь несколько контроллеров домена, а лес может иметь несколько доменов.</span><span class="sxs-lookup"><span data-stu-id="1d40d-116">A domain can have multiple domain controllers and a forest can have multiple domains.</span></span> <span data-ttu-id="1d40d-117">Каждый контроллер домена хранит полную реплику раздела домена для своего локального домена, но не сохраняет реплики разделов домена для других доменов.</span><span class="sxs-lookup"><span data-stu-id="1d40d-117">Each domain controller stores a full replica of the domain partition for its local domain, but does not store replicas of the domain partitions for other domains.</span></span>
+
+<span data-ttu-id="1d40d-118">В Windows Server 2003 появился *раздел каталога приложений*, который предоставляет возможность управлять областью репликации и разрешать размещение реплик в более подходящем для динамических данных образом.</span><span class="sxs-lookup"><span data-stu-id="1d40d-118">Windows Server 2003 introduces the *Application Directory Partition*, which provides the ability to control the scope of replication and allow the placement of replicas in a manner more suitable for dynamic data.</span></span> <span data-ttu-id="1d40d-119">Дополнительные сведения о разделах каталога приложений см. в разделе [сведения о разделах каталога приложений](about-application-directory-partitions.md).</span><span class="sxs-lookup"><span data-stu-id="1d40d-119">For more information about application directory partitions, see [About Application Directory Partitions](about-application-directory-partitions.md).</span></span>
+
+<span data-ttu-id="1d40d-120">Дополнительные сведения о том, как службы домен Active Directory поддерживают согласованность между различными репликами раздела каталога, см. в разделе [репликация и целостность данных](replication-and-data-integrity.md).</span><span class="sxs-lookup"><span data-stu-id="1d40d-120">For more information about how Active Directory Domain Services maintain consistency between the various replicas of a directory partition, see [Replication and Data Integrity](replication-and-data-integrity.md).</span></span>
+
+ 
+
+ 
