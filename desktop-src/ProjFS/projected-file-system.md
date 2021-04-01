@@ -1,0 +1,36 @@
+---
+title: Проектируемая файловая система Windows
+description: Общие сведения о проектируемой файловой системе Windows (Прожфс)
+ms.assetid: <GUID-GOES-HERE>
+ms.date: 09/14/2018
+ms.topic: article
+ms.openlocfilehash: 8391ec63f23c9ebae5b47e4cac862f6ab3079ceb
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103890725"
+---
+# <a name="windows-projected-file-system-projfs"></a><span data-ttu-id="783de-103">Проецируемая файловая система Windows (Прожфс)</span><span class="sxs-lookup"><span data-stu-id="783de-103">Windows Projected File System (ProjFS)</span></span>
+
+<span data-ttu-id="783de-104">Проецируемая файловая система Windows (Прожфс) позволяет приложению пользовательского режима, называемому «поставщиком», проецировать иерархические данные из резервного хранилища данных в файловую систему, что делает их отображаемыми в файловой системе как файлами и каталогами.</span><span class="sxs-lookup"><span data-stu-id="783de-104">The Windows Projected File System (ProjFS) allows a user-mode application called a "provider" to project hierarchical data from a backing data store into the file system, making it appear as files and directories in the file system.</span></span> <span data-ttu-id="783de-105">Например, простой поставщик может проецировать реестр Windows в файловую систему, что позволяет использовать разделы и значения реестра в качестве файлов и каталогов соответственно.</span><span class="sxs-lookup"><span data-stu-id="783de-105">For example, a simple provider could project the Windows registry into the file system, making registry keys and values appear as files and directories, respectively.</span></span> <span data-ttu-id="783de-106">Примером более сложного поставщика является [VFS для Git](https://github.com/Microsoft/VFSForGit), который используется для виртуализации очень большого репозиториев Git.</span><span class="sxs-lookup"><span data-stu-id="783de-106">An example of a more complex provider is [VFS for Git](https://github.com/Microsoft/VFSForGit), which is used to virtualize very large git repos.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="783de-107">Прожфс предназначен для использования с высокоскоростными резервными хранилищами данных.</span><span class="sxs-lookup"><span data-stu-id="783de-107">ProjFS is designed for use with high-speed backing data stores.</span></span> <span data-ttu-id="783de-108">Одна из целей проектирования состоит в том, чтобы сделать прогнозируемые данные, как будто они были локально представлены, скрывая тот факт, что данные могут быть удаленными.</span><span class="sxs-lookup"><span data-stu-id="783de-108">One of its design goals is to make the projected data appear as if it were locally present, hiding the fact that the data may be remote.</span></span> <span data-ttu-id="783de-109">Таким образом, Прожфс не предоставляет следующие механизмы для создания отчетов о ходе отзыва данных. Указывает на состояние файла в сети и вне сети; и другие возможности, которые могут быть желательны при работе с резервными хранилищами данных, которые выполняются слишком долго.</span><span class="sxs-lookup"><span data-stu-id="783de-109">As such, ProjFS doesn't provide: mechanisms for reporting progress of data recall; indication of the online versus offline state of a file; nor other features that may be desirable when working with backing data stores that are slow.</span></span> <span data-ttu-id="783de-110">Для таких сценариев вместо этого рекомендуется использовать [API облачных файлов](../cfapi/cloud-files-api-portal.md).</span><span class="sxs-lookup"><span data-stu-id="783de-110">For such scenarios, consider instead using the [Cloud Files API](../cfapi/cloud-files-api-portal.md).</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="783de-111">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="783de-111">In this section</span></span>
+
+| <span data-ttu-id="783de-112">Раздел</span><span class="sxs-lookup"><span data-stu-id="783de-112">Topic</span></span>                                                                                                       | <span data-ttu-id="783de-113">Описание</span><span class="sxs-lookup"><span data-stu-id="783de-113">Description</span></span> |
+|-------------------------------------------------------------------------------------------------------------|-------------|
+| [<span data-ttu-id="783de-114">Руководством по программированию для проектируемой файловой системы Windows</span><span class="sxs-lookup"><span data-stu-id="783de-114">Windows Projected File System Programming Guide</span></span>](projfs-programming-guide.md)                              | <span data-ttu-id="783de-115">Основные сведения о реализации приложения поставщика Прожфс.</span><span class="sxs-lookup"><span data-stu-id="783de-115">Conceptual information on implementing a ProjFS provider application.</span></span>
+| [<span data-ttu-id="783de-116">Справочник по API для проектируемой файловой системы Windows</span><span class="sxs-lookup"><span data-stu-id="783de-116">Windows Projected File System API Reference</span></span>](projfs-reference.md)                                          | <span data-ttu-id="783de-117">Справочные сведения по интерфейсу программирования Прожфс.</span><span class="sxs-lookup"><span data-stu-id="783de-117">Reference information for the ProjFS programming interface.</span></span>
+| [<span data-ttu-id="783de-118">Глоссарий файловой системы Windows</span><span class="sxs-lookup"><span data-stu-id="783de-118">Windows Projected File System glossary</span></span>](projfs-glossary.md)                                                | <span data-ttu-id="783de-119">Специальные термины, используемые в Прожфс.</span><span class="sxs-lookup"><span data-stu-id="783de-119">Special terms used in ProjFS.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="783de-120">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="783de-120">Additional Resources</span></span>
+
+|                                                                                                              |                                                                                   |
+|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [<span data-ttu-id="783de-121">Пример Регфс</span><span class="sxs-lookup"><span data-stu-id="783de-121">RegFS Sample</span></span>](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/ProjectedFileSystem) | <span data-ttu-id="783de-122">Пример поставщика Прожфс, который проецирует реестр Windows в файловую систему.</span><span class="sxs-lookup"><span data-stu-id="783de-122">A sample ProjFS provider that projects the Windows registry into the file system.</span></span> |
+<!--
+| [ProjFS.Managed API](https://github.com/Microsoft/URL_TBD)                                                   | A .NET wrapper for the ProjFS API.                                                |
+-->
