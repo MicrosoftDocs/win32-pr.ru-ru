@@ -1,0 +1,64 @@
+---
+description: 'Дополнительные сведения о: Вистагрбитс. Индексдисалловтрункатион поле'
+title: Поле Вистагрбитс. Индексдисалловтрункатион (Microsoft. ISAM. ESENT. Interop. Vista)
+TOCTitle: IndexDisallowTruncation field
+ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.IndexDisallowTruncation
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistagrbits.indexdisallowtruncation(v=EXCHG.10)
+ms:contentKeyID: 55104424
+ms.date: 07/30/2014
+ms.topic: reference
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.IndexDisallowTruncation
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name:
+- Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.IndexDisallowTruncation
+topic_type:
+- apiref
+- kbSyntax
+api_type:
+- Managed
+api_location:
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: d359acea8de5b72bc7137feefbc1d1281c07ed57
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104081621"
+---
+# <a name="vistagrbitsindexdisallowtruncation-field"></a>Вистагрбитс. Индексдисалловтрункатион, поле
+
+При указании этого флага любое обновление индекса приведет к сбою усечения ключа с [кэйтрункатед](./jet-err-enumeration.md). В противном случае ключи будут обрезаны без уведомления.
+
+**Пространство имен:**  [Microsoft. ISAM. ESENT. Interop. Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
+**Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)
+
+## <a name="syntax"></a>Синтаксис
+
+``` vb
+'Declaration
+Public Const IndexDisallowTruncation As CreateIndexGrbit
+'Usage
+Dim value As CreateIndexGrbit
+
+value = VistaGrbits.IndexDisallowTruncation
+```
+
+``` csharp
+public const CreateIndexGrbit IndexDisallowTruncation
+```
+
+## <a name="see-also"></a>См. также раздел
+
+#### <a name="reference"></a>Справочник
+
+[Класс Вистагрбитс](./vistagrbits-class.md)
+
+[Элементы Вистагрбитс](./vistagrbits-members.md)
+
+[Пространство имен Microsoft. ISAM. ESENT. Interop. Vista](./microsoft.isam.esent.interop.vista-namespace.md)

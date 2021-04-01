@@ -1,0 +1,57 @@
+---
+description: Объекты GDI поддерживают только один обработчик для каждого объекта. Дескрипторы объектов GDI являются частными для процесса. То есть только процесс, создавший объект GDI, может использовать этот маркер объекта.
+ms.assetid: 699de25c-083d-4be3-a997-67418b7173e1
+title: Объекты GDI
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c0d57d4a1cfa99c392783dec23a090e7ccf09eb0
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104081634"
+---
+# <a name="gdi-objects"></a>Объекты GDI
+
+Объекты GDI поддерживают только один обработчик для каждого объекта. Дескрипторы объектов GDI являются частными для процесса. То есть только процесс, создавший объект GDI, может использовать этот маркер объекта.
+
+Существует теоретический предел в 65 536 дескрипторов GDI на сеанс. Однако максимальное количество дескрипторов GDI, которые могут быть открыты для сеанса, обычно меньше, так как на него влияет доступная память.
+
+**Windows 2000:** Существует ограничение в 16 384 дескрипторов GDI на сеанс.
+
+Существует также ограничение по умолчанию для обработки дескрипторов GDI. Чтобы изменить это ограничение, задайте следующее значение реестра:
+
+**HKey \_ \_** \\ **Программное обеспечение** локального компьютера \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Windows** \\ **гдипроцесшандлекуота**
+
+Для этого значения можно задать число от 256 до 65 536.
+
+**Windows 2000:** Для этого значения можно задать число от 256 до 16 384.
+
+## <a name="managing-gdi-objects"></a>Управление объектами GDI
+
+В следующей таблице перечислены объекты GDI, а также функции создателя и уничтожения каждого объекта. Функции Creator создают объект и обработчик объекта или просто возвращают существующий объектный обработчик. Функции уничтожения удаляют объект из памяти, что делает недействительным обработку объекта.
+
+
+
+| GDI, объект           | Функция Creator                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Функция уничтожения                                           |
+|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Bitmap               | [**Креатебитмап**](/windows/desktop/api/wingdi/nf-wingdi-createbitmap), [**креатебитмапиндирект**](/windows/desktop/api/wingdi/nf-wingdi-createbitmapindirect), [**креатекомпатиблебитмап**](/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap), [**креатедибитмап**](/windows/desktop/api/wingdi/nf-wingdi-createdibitmap), [**креатедибсектион**](/windows/desktop/api/wingdi/nf-wingdi-createdibsection), [**CreateDiscardableBitmap**](/windows/desktop/api/wingdi/nf-wingdi-creatediscardablebitmap)                                                                                                                                                                                 | [**DeleteObject**](/windows/desktop/api/wingdi/nf-wingdi-deleteobject)                         |
+| Brush                | [**Креатебрушиндирект**](/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect), [**креатедибпаттернбруш**](/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush), [**креатедибпаттернбрушпт**](/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrushpt), [**креатехатчбруш**](/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush), [**CreatePatternBrush**](/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush), [**CreateSolidBrush**](/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush)                                                                                                                                                                     | [**DeleteObject**](/windows/desktop/api/wingdi/nf-wingdi-deleteobject)                         |
+| DC                   | [**креатедк**](/windows/desktop/api/wingdi/nf-wingdi-createdca)                                                                                                                                                                                                                                                                                                                                                                                                                                                             | [**Делетедк**](/windows/desktop/api/wingdi/nf-wingdi-deletedc), [ **релеаседк**](/windows/desktop/api/winuser/nf-winuser-releasedc) |
+| Расширенный метафайл    | [**креатинхметафиле**](/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea)                                                                                                                                                                                                                                                                                                                                                                                                                                           | [**делетинхметафиле**](/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile)               |
+| Контроллер домена расширенного метафайла | [**креатинхметафиле**](/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea)                                                                                                                                                                                                                                                                                                                                                                                                                                           | [**клосинхметафиле**](/windows/desktop/api/wingdi/nf-wingdi-closeenhmetafile)                 |
+| Шрифт                 | [**CreateFont**](/windows/desktop/api/wingdi/nf-wingdi-createfonta), [ **CreateFontIndirect**](/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta)                                                                                                                                                                                                                                                                                                                                                                                                       | [**DeleteObject**](/windows/desktop/api/wingdi/nf-wingdi-deleteobject)                         |
+| DC памяти            | [**креатекомпатибледк**](/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc)                                                                                                                                                                                                                                                                                                                                                                                                                                         | [**делетедк**](/windows/desktop/api/wingdi/nf-wingdi-deletedc)                                 |
+| Метафайл             | [**креатеметафиле**](/windows/desktop/api/wingdi/nf-wingdi-createmetafilea)                                                                                                                                                                                                                                                                                                                                                                                                                                                 | [**делетеметафиле**](/windows/desktop/api/wingdi/nf-wingdi-deletemetafile)                     |
+| Метафайл DC          | [**креатеметафиле**](/windows/desktop/api/wingdi/nf-wingdi-createmetafilea)                                                                                                                                                                                                                                                                                                                                                                                                                                                 | [**клосеметафиле**](/windows/desktop/api/wingdi/nf-wingdi-closemetafile)                       |
+| Палитра              | [**креатепалетте**](/windows/desktop/api/wingdi/nf-wingdi-createpalette)                                                                                                                                                                                                                                                                                                                                                                                                                                                   | [**DeleteObject**](/windows/desktop/api/wingdi/nf-wingdi-deleteobject)                         |
+| Перо и расширенное перо | [**Креатепен**](/windows/desktop/api/wingdi/nf-wingdi-createpen), [**креатепениндирект**](/windows/desktop/api/wingdi/nf-wingdi-createpenindirect), [**ексткреатепен**](/windows/desktop/api/wingdi/nf-wingdi-extcreatepen)                                                                                                                                                                                                                                                                                                                                                                     | [**DeleteObject**](/windows/desktop/api/wingdi/nf-wingdi-deleteobject)                         |
+| Регион               | [**Комбинергн**](/windows/desktop/api/wingdi/nf-wingdi-combinergn), [**креатиллиптикргн**](/windows/desktop/api/wingdi/nf-wingdi-createellipticrgn), [**креатиллиптикргниндирект**](/windows/desktop/api/wingdi/nf-wingdi-createellipticrgnindirect), [**креатеполигонргн**](/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn), [**креатеполиполигонргн**](/windows/desktop/api/wingdi/nf-wingdi-createpolypolygonrgn), [**CreateRectRgn**](/windows/desktop/api/wingdi/nf-wingdi-createrectrgn), [**CreateRectRgnIndirect**](/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect), [**CreateRoundRectRgn**](/windows/desktop/api/wingdi/nf-wingdi-createroundrectrgn), [**ExtCreateRegion**](/windows/desktop/api/wingdi/nf-wingdi-extcreateregion), [**PathToRegion**](/windows/desktop/api/wingdi/nf-wingdi-pathtoregion) | [**DeleteObject**](/windows/desktop/api/wingdi/nf-wingdi-deleteobject)                         |
+
+
+
+ 
+
+ 
+
+ 
