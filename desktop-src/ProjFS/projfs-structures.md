@@ -1,0 +1,31 @@
+---
+title: Структуры Прожфс
+description: Следующие структуры объявляются в прожектедфслиб. h.
+ms.assetid: <GUID-GOES-HERE>
+ms.date: 01/17/2020
+ms.topic: article
+ms.openlocfilehash: 0bf72bd479e273c6c8cbdaa9ed588625298f4f95
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "104262175"
+---
+# <a name="projfs-structures"></a><span data-ttu-id="23ede-103">Структуры Прожфс</span><span class="sxs-lookup"><span data-stu-id="23ede-103">ProjFS structures</span></span>
+
+<span data-ttu-id="23ede-104">Следующие структуры объявляются в прожектедфслиб. h.</span><span class="sxs-lookup"><span data-stu-id="23ede-104">The following structures are declared in projectedfslib.h.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="23ede-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="23ede-105">In this section</span></span>
+
+| <span data-ttu-id="23ede-106">Раздел</span><span class="sxs-lookup"><span data-stu-id="23ede-106">Topic</span></span> | <span data-ttu-id="23ede-107">Описание</span><span class="sxs-lookup"><span data-stu-id="23ede-107">Description</span></span> |
+|-|-|
+| [<span data-ttu-id="23ede-108">**PRJ_CALLBACK_DATA**</span><span class="sxs-lookup"><span data-stu-id="23ede-108">**PRJ_CALLBACK_DATA**</span></span>](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_callback_data) | <span data-ttu-id="23ede-109">Определяет стандартные сведения, передаваемые поставщику для каждого обратного вызова операции.</span><span class="sxs-lookup"><span data-stu-id="23ede-109">Defines the standard information passed to a provider for every operation callback.</span></span> |
+| [<span data-ttu-id="23ede-110">**PRJ_CALLBACKS**</span><span class="sxs-lookup"><span data-stu-id="23ede-110">**PRJ_CALLBACKS**</span></span>](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_callbacks) | <span data-ttu-id="23ede-111">Набор указателей, в которых поставщик хранит свои реализации подпрограмм обратного вызова.</span><span class="sxs-lookup"><span data-stu-id="23ede-111">A set of pointers to where the provider stores its implementations of the callback routines.</span></span> |
+| [<span data-ttu-id="23ede-112">**PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS**</span><span class="sxs-lookup"><span data-stu-id="23ede-112">**PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS**</span></span>](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_complete_command_extended_parameters) | <span data-ttu-id="23ede-113">Указывает параметры, необходимые для завершения определенных обратных вызовов.</span><span class="sxs-lookup"><span data-stu-id="23ede-113">Specifies parameters required for completing certain callbacks.</span></span> |
+| [<span data-ttu-id="23ede-114">**PRJ_FILE_BASIC_INFO**</span><span class="sxs-lookup"><span data-stu-id="23ede-114">**PRJ_FILE_BASIC_INFO**</span></span>](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_file_basic_info) | <span data-ttu-id="23ede-115">Основные сведения об элементе.</span><span class="sxs-lookup"><span data-stu-id="23ede-115">Basic information about an item.</span></span> |
+| [<span data-ttu-id="23ede-116">**PRJ_NOTIFICATION_MAPPING**</span><span class="sxs-lookup"><span data-stu-id="23ede-116">**PRJ_NOTIFICATION_MAPPING**</span></span>](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_notification_mapping) | <span data-ttu-id="23ede-117">Описывает сопоставление уведомлений, которое представляет собой пару между каталогом (называется "корневым каталогом уведомлений") и набором уведомлений, выраженным битовой маской.</span><span class="sxs-lookup"><span data-stu-id="23ede-117">Describes a notification mapping, which is a pairing between a directory (referred to as a "notification root") and a set of notifications, expressed as a bit mask.</span></span> |
+| [<span data-ttu-id="23ede-118">**PRJ_NOTIFICATION_PARAMETERS**</span><span class="sxs-lookup"><span data-stu-id="23ede-118">**PRJ_NOTIFICATION_PARAMETERS**</span></span>](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_notification_parameters) | <span data-ttu-id="23ede-119">Дополнительные параметры для уведомлений.</span><span class="sxs-lookup"><span data-stu-id="23ede-119">Extra parameters for notifications.</span></span> |
+| [<span data-ttu-id="23ede-120">**PRJ_PLACEHOLDER_INFO**</span><span class="sxs-lookup"><span data-stu-id="23ede-120">**PRJ_PLACEHOLDER_INFO**</span></span>](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_placeholder_info) | <span data-ttu-id="23ede-121">Буфер метаданных для файла или каталога заполнителя.</span><span class="sxs-lookup"><span data-stu-id="23ede-121">A buffer of metadata for the placeholder file or directory.</span></span> |
+| [<span data-ttu-id="23ede-122">**PRJ_PLACEHOLDER_VERSION_INFO**</span><span class="sxs-lookup"><span data-stu-id="23ede-122">**PRJ_PLACEHOLDER_VERSION_INFO**</span></span>](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_placeholder_version_info) | <span data-ttu-id="23ede-123">Сведения, однозначно определяющие содержимое файла заполнителя.</span><span class="sxs-lookup"><span data-stu-id="23ede-123">Information that uniquely identifies the contents of a placeholder file.</span></span> |
+| [<span data-ttu-id="23ede-124">**PRJ_STARTVIRTUALIZING_OPTIONS**</span><span class="sxs-lookup"><span data-stu-id="23ede-124">**PRJ_STARTVIRTUALIZING_OPTIONS**</span></span>](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_startvirtualizing_options) | <span data-ttu-id="23ede-125">Параметры, которые необходимо указать при запуске экземпляра виртуализации.</span><span class="sxs-lookup"><span data-stu-id="23ede-125">Options to provide when starting a virtualization instance.</span></span> |
+| [<span data-ttu-id="23ede-126">**PRJ_VIRTUALIZATION_INSTANCE_INFO**</span><span class="sxs-lookup"><span data-stu-id="23ede-126">**PRJ_VIRTUALIZATION_INSTANCE_INFO**</span></span>](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_virtualization_instance_info) | <span data-ttu-id="23ede-127">Сведения об экземпляре виртуализации.</span><span class="sxs-lookup"><span data-stu-id="23ede-127">Information about a virtualization instance.</span></span> |
