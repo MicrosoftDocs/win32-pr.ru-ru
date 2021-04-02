@@ -1,0 +1,35 @@
+---
+title: Графические эффекты
+description: Список функций, которые следует отключить при работе в качестве удаленного сеанса в среде службы удаленных рабочих столов.
+ms.assetid: 229a1058-acba-4d4b-ba52-824dda4f91a5
+ms.tgt_platform: multiple
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 711f850b8bac5d084419b1f15c2e0efe619da5b0
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103986519"
+---
+# <a name="graphic-effects"></a><span data-ttu-id="5ad5a-103">Графические эффекты</span><span class="sxs-lookup"><span data-stu-id="5ad5a-103">Graphic effects</span></span>
+
+<span data-ttu-id="5ad5a-104">Сервер службы удаленных рабочих столов использует сеть для передачи всех входных и выходных данных на клиентские терминалы.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-104">A Remote Desktop Services server relies on the network to transmit all input and output to its client terminals.</span></span> <span data-ttu-id="5ad5a-105">Следовательно, приложения, которые сильно используют графические эффекты, могут повлиять на производительность всех службы удаленных рабочих столов клиентов, замедление работы сети.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-105">Consequently, applications that make excessive use of graphic effects can affect performance for all Remote Desktop Services clients by slowing down the network.</span></span> <span data-ttu-id="5ad5a-106">Кроме того, более низкая скорость передачи по сети может привести к тому, что эти специальные эффекты могут оказаться менее привлекательными, чем в локальной видеосреде.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-106">In addition, the slower transmission speed over a network might cause these special effects to appear less pleasing than they would be in a local video environment.</span></span>
+
+<span data-ttu-id="5ad5a-107">В частности, приложения должны отключать или сокращать использование следующих функций при работе в среде службы удаленных рабочих столов в качестве удаленного сеанса.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-107">In particular, applications should disable or minimize the use of the following features when running in a Remote Desktop Services environment as a remote session:</span></span>
+
+-   <span data-ttu-id="5ad5a-108">Экраны-заставки — графические сведения о продукте или компании, отображаемые при запуске приложения.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-108">Splash screens—graphical product or company information displayed while an application is starting.</span></span> <span data-ttu-id="5ad5a-109">Передача экрана-заставки на клиент подключение к удаленному рабочему столу (RDC) потребляет лишнюю пропускную способность сети и заставляет пользователя ждать, прежде чем получить доступ к приложению.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-109">Transmitting a splash screen to a Remote Desktop Connection (RDC) client consumes extra network bandwidth and forces the user to wait before accessing the application.</span></span>
+-   <span data-ttu-id="5ad5a-110">Анимация, использующая время ЦП и пропускную способность сети.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-110">Animations, which consume both CPU time and network bandwidth.</span></span>
+-   <span data-ttu-id="5ad5a-111">Прямой ввод или вывод на экран.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-111">Direct input or output to the screen.</span></span> <span data-ttu-id="5ad5a-112">Если необходимо читать биты с экрана, сохраняйте отдельную автономную копию буфера видео.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-112">If you need to read bits from the screen, maintain a separate, off-screen copy of the video buffer.</span></span> <span data-ttu-id="5ad5a-113">Аналогичным образом, если необходимо выполнить сложные выходные данные на экране (например, наложение нескольких изображений на окончательный составной экран), сделайте это в буфере экрана, а затем отправьте результаты в реальный буфер видео.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-113">Similarly, if you need to do elaborate screen output—for example, overlaying several images to arrive at a final composite screen—do that work in an off-screen buffer, and then send the results to the actual video buffer.</span></span>
+
+<span data-ttu-id="5ad5a-114">Дополнительные сведения об обнаружении удаленных сеансов см. [в разделе Обнаружение среды службы удаленных рабочих столов](detecting-the-terminal-services-environment.md).</span><span class="sxs-lookup"><span data-stu-id="5ad5a-114">For more information about detecting remote sessions, see [Detecting the Remote Desktop Services Environment](detecting-the-terminal-services-environment.md).</span></span>
+
+<span data-ttu-id="5ad5a-115">По возможности используйте библиотеку классов Microsoft Foundation Class или MFC.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-115">Use the Microsoft Foundation Class library, or MFC, whenever possible.</span></span> <span data-ttu-id="5ad5a-116">В MFC имеется длинный список классов, которые попробовали и являются верными, для выполнения самых разнообразных задач.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-116">The MFC has a long list of tried-and-true classes for performing a wide variety of tasks.</span></span> <span data-ttu-id="5ad5a-117">Большинство из этих классов хорошо работает в службы удаленных рабочих столовной среде, как правило, гораздо лучше, чем повторное конструирование решений.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-117">Most of these classes work well in a Remote Desktop Services environment—usually much better than re-engineered solutions.</span></span> <span data-ttu-id="5ad5a-118">Хорошим примером является класс, предоставляющий контекстно-зависимый текст справки — текст справки, отображаемый на экране при наведении указателя мыши на кнопку или пункт меню.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-118">A good example is the class that provides context-sensitive help text—help text that appears on-screen when the mouse pointer hovers over a button or menu item.</span></span> <span data-ttu-id="5ad5a-119">Если приложение использует реализацию MFC для реализации этой функции, оно будет работать достаточно хорошо в настольной системе.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-119">If an application uses the MFC implementation to provide this feature, it will work reasonably well on the desktop system.</span></span> <span data-ttu-id="5ad5a-120">Но если приложение реализует эту функцию с помощью диалоговых окон или альтернативного подхода, окончательный результат может не работать, а также в среде службы удаленных рабочих столов.</span><span class="sxs-lookup"><span data-stu-id="5ad5a-120">But if the application implements this feature by using dialog boxes or an alternate approach, the final result might not function as well in a Remote Desktop Services environment.</span></span>
+
+ 
+
+ 
+
+
+
+
