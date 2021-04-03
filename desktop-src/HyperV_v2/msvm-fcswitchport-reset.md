@@ -1,0 +1,79 @@
+---
+description: Запрашивает сброс.
+ms.assetid: c56ed3ae-381e-4359-a0c7-53284b19364f
+title: Метод Reset класса Msvm_FcSwitchPort
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Msvm_FcSwitchPort.Reset
+api_type:
+- COM
+api_location:
+- vmms.exe
+ms.openlocfilehash: 01a58ac83fd7841234259628edbf87f4eaa1fd47
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103810444"
+---
+# <a name="reset-method-of-the-msvm_fcswitchport-class"></a>Метод Reset \_ класса мсвм фксвитчпорт
+
+Запрашивает сброс.
+
+## <a name="syntax"></a>Синтаксис
+
+
+```mof
+uint32 Reset();
+```
+
+
+
+## <a name="parameters"></a>Параметры
+
+Этот метод не имеет параметров.
+
+## <a name="return-value"></a>Возвращаемое значение
+
+Этот метод возвращает одно из следующих значений:
+
+<dl> <dt>
+
+**Завершено без ошибок** (0)
+</dt> <dt>
+
+**Не поддерживается** (1)
+</dt> </dl>
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
+| MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[**Мсвм \_ фксвитчпорт**](msvm-fcswitchport.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
