@@ -1,0 +1,35 @@
+---
+title: Пользовательские элементы пользовательского интерфейса
+description: Разработчики сервера могут проектировать доступные объекты на основе пользовательского интерфейса приложения.
+ms.assetid: d9453fb0-9b4a-4103-81e3-1255091255a0
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: b32a086b977a1737a17206261aaaa94faa754d93
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103887884"
+---
+# <a name="custom-user-interface-elements"></a><span data-ttu-id="fcdb7-103">Пользовательские элементы пользовательского интерфейса</span><span class="sxs-lookup"><span data-stu-id="fcdb7-103">Custom User Interface Elements</span></span>
+
+<span data-ttu-id="fcdb7-104">Разработчики сервера могут проектировать доступные объекты на основе пользовательского интерфейса приложения.</span><span class="sxs-lookup"><span data-stu-id="fcdb7-104">Server developers design accessible objects based on an application's UI.</span></span> <span data-ttu-id="fcdb7-105">Поскольку [Active Accessibility реализует интерфейс IAccessible от имени предоставляемых системой элементов пользовательского интерфейса](appendix-a--supported-user-interface-elements-reference.md) , таких как списки, меню и элементы управления TrackBar, необходимо реализовать интерфейс [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) только для следующих видов настраиваемых элементов пользовательского интерфейса:</span><span class="sxs-lookup"><span data-stu-id="fcdb7-105">Because [Active Accessibility implements the IAccessible interface on behalf of system-provided user interface elements](appendix-a--supported-user-interface-elements-reference.md) such as list boxes, menus, and trackbar controls, you need to implement the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface only for the following kinds of custom UI elements:</span></span>
+
+-   <span data-ttu-id="fcdb7-106">Пользовательские элементы управления, созданные путем регистрации определяемого приложением класса окна</span><span class="sxs-lookup"><span data-stu-id="fcdb7-106">Custom controls created by registering an application-defined window class</span></span>
+-   <span data-ttu-id="fcdb7-107">Пользовательские элементы управления, нарисованные непосредственно на экране без связанного **HWND**</span><span class="sxs-lookup"><span data-stu-id="fcdb7-107">Custom controls drawn directly on the screen that do not have an associated **HWND**</span></span>
+-   <span data-ttu-id="fcdb7-108">Пользовательские элементы управления, такие как Microsoft ActiveX и элементы управления Java</span><span class="sxs-lookup"><span data-stu-id="fcdb7-108">Custom controls such as Microsoft ActiveX and Java controls</span></span>
+-   <span data-ttu-id="fcdb7-109">Элементы управления или объекты в клиентском окне приложения, которые еще не предоставлены</span><span class="sxs-lookup"><span data-stu-id="fcdb7-109">Controls or objects in the application's client window that aren't already exposed</span></span>
+
+<span data-ttu-id="fcdb7-110">Элементы управления и меню, рисуемые владельцем, доступны при условии, что соблюдены рекомендации, описанные в разделе [сочетания клавиш для предоставления настраиваемых элементов пользовательского интерфейса](shortcuts-for-exposing-custom-user-interface-elements.md).</span><span class="sxs-lookup"><span data-stu-id="fcdb7-110">Owner-drawn controls and menus are accessible as long as you follow the guidelines discussed in [Shortcuts for Exposing Custom User Interface Elements](shortcuts-for-exposing-custom-user-interface-elements.md).</span></span> <span data-ttu-id="fcdb7-111">Если следовать этим рекомендациям, то не нужно реализовывать интерфейс [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) для элементов управления и меню, рисуемых владельцем.</span><span class="sxs-lookup"><span data-stu-id="fcdb7-111">If you follow these guidelines, then you do not need to implement the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface for owner-drawn controls and menus.</span></span>
+
+<span data-ttu-id="fcdb7-112">В большинстве случаев элементы управления с помощью классов и подклассов становятся доступными, так как система обрабатывает основные функциональные возможности элемента управления.</span><span class="sxs-lookup"><span data-stu-id="fcdb7-112">In most cases, superclassed and subclassed controls are accessible because the system handles the basic functionality of the control.</span></span> <span data-ttu-id="fcdb7-113">Однако, если элемент управления с избыточным классом или подклассом значительно изменяет поведение предоставляемого системой элемента управления, на котором он основан, необходимо реализовать интерфейс [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) .</span><span class="sxs-lookup"><span data-stu-id="fcdb7-113">However, if a superclassed or subclassed control significantly modifies the behavior of the system-provided control on which it is based, then you must implement the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface.</span></span> <span data-ttu-id="fcdb7-114">Дополнительные сведения см. [в разделе предоставление элементов управления на основе системных элементов управления](exposing-controls-based-on-system-controls.md).</span><span class="sxs-lookup"><span data-stu-id="fcdb7-114">For more information, see [Exposing Controls Based on System Controls](exposing-controls-based-on-system-controls.md).</span></span>
+
+<span data-ttu-id="fcdb7-115">Если приложение использует только предоставляемые системой элементы пользовательского интерфейса, не требуется реализовывать [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible), за исключением клиентского окна.</span><span class="sxs-lookup"><span data-stu-id="fcdb7-115">If an application uses only system-provided user interface elements, then it does not need to implement [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible), except for its client window.</span></span> <span data-ttu-id="fcdb7-116">Например, приложение, содержащее текстовый редактор, не реализованное с помощью элемента управления "поле ввода", предоставляет строки текста как доступные объекты.</span><span class="sxs-lookup"><span data-stu-id="fcdb7-116">For example, an application that includes a text editor, not implemented using an edit control, exposes lines of text as accessible objects.</span></span> <span data-ttu-id="fcdb7-117">Обратите внимание, что Microsoft Active Accessibility автоматически предоставляет текст в элементах управления Edit и Rich Edit как одну строку текста в свойстве [**value**](value-property.md) элемента управления.</span><span class="sxs-lookup"><span data-stu-id="fcdb7-117">Note that Microsoft Active Accessibility automatically exposes the text in edit and rich edit controls as a single string of text in the [**Value**](value-property.md) property of the control.</span></span>
+
+ 
+
+ 
+
+
+
+
