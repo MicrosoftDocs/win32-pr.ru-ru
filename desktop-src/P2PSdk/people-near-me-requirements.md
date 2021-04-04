@@ -1,0 +1,56 @@
+---
+description: Требования "Соседние пользователи"
+ms.assetid: c7ab73fc-56a6-4b6c-820a-3f8e4a97cfaf
+title: Требования "Соседние пользователи"
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: ff6afb97800041e0fcd9a10a6d95334b832fb363
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103909767"
+---
+# <a name="people-near-me-requirements"></a><span data-ttu-id="bbe3b-103">Требования "Соседние пользователи"</span><span class="sxs-lookup"><span data-stu-id="bbe3b-103">People Near Me Requirements</span></span>
+
+<span data-ttu-id="bbe3b-104">Чтобы пользователи [применялись](about-people-near-me.md) для обеспечения бесперебойной работы и удобного взаимодействия с пользователями для приложений одноранговых сетей Windows, выполняются следующие действия.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-104">In order for [People Near Me](about-people-near-me.md) to provide seamless connectivity and easy collaboration to users for Windows Peer Networking applications, the following is accomplished:</span></span>
+
+### <a name="people-discovery"></a><span data-ttu-id="bbe3b-105">Обнаружение людей</span><span class="sxs-lookup"><span data-stu-id="bbe3b-105">People Discovery</span></span>
+
+<span data-ttu-id="bbe3b-106">Обнаружение пользователей позволяет пользователю обнаруживать и отображать набор одноранговых узлов, расположенных в локальной подсети.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-106">People Discovery allows a user to discover and display the set of peers that are located on the local subnet.</span></span> <span data-ttu-id="bbe3b-107">Все компьютеры в локальной подсети должны объявлять имена одноранговых узлов.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-107">Any computers on the local subnet must advertise the names of logged-on peers.</span></span> <span data-ttu-id="bbe3b-108">Одноранговые узлы, перечисленные после запроса обнаружения, представляют собой набор пользователей, работающих под управлением Windows Vista, которые настроены на объявление псевдонима другим пользователям с помощью функции " [соседние](about-people-near-me.md)пользователи".</span><span class="sxs-lookup"><span data-stu-id="bbe3b-108">The peers listed after a discovery query are the set of users running Windows Vista that are configured to advertise a nickname to other users using [People Near Me](about-people-near-me.md).</span></span> <span data-ttu-id="bbe3b-109">Эта возможность отключена по умолчанию и должна быть включена для вошедшего в систему пользователя.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-109">This capability is disabled by default and must be enabled by the logged-in user.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="bbe3b-110">Удаленные одноранговые узлы, обнаруженные во время процесса обнаружения "Соседние пользователи", не обязательно являются ожидаемыми пользователями, связанными с обнаруженными одноранговыми узлами.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-110">Remote peers discovered during the 'People Near Me' discovery process are not necessarily the anticipated users associated with the discovered peers.</span></span>
+
+ 
+
+### <a name="extended-data-discovery"></a><span data-ttu-id="bbe3b-111">Обнаружение расширенных данных</span><span class="sxs-lookup"><span data-stu-id="bbe3b-111">Extended Data Discovery</span></span>
+
+<span data-ttu-id="bbe3b-112">Обнаружение расширенных данных позволяет выполнять поиск пользователей, имеющих определенные интересы.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-112">Extended Data Discovery allows searches for users that have specific interests.</span></span> <span data-ttu-id="bbe3b-113">Пользователи также могут указать, что им нужно объявлять дополнительные данные о себе.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-113">It is also possible for users to specify that they want to advertise additional data about themselves.</span></span> <span data-ttu-id="bbe3b-114">Например, данные могут структурировать определенные профессиональные интересы на Конференции отрасли в дополнение к псевдониму вошедшего в систему пользователя.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-114">For example the data could outline specific professional interests at an industry conference, in addition to the nickname of the logged in user.</span></span>
+
+### <a name="application-discovery"></a><span data-ttu-id="bbe3b-115">Обнаружение приложений</span><span class="sxs-lookup"><span data-stu-id="bbe3b-115">Application Discovery</span></span>
+
+<span data-ttu-id="bbe3b-116">Точная природа нерегламентированной совместной работы, включенной для пользователей "Соседние пользователи", зависит от приложений.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-116">The exact nature of the ad hoc collaboration enabled by People Near Me is specific to applications.</span></span> <span data-ttu-id="bbe3b-117">Например, совместная работа может представлять собой беседы или обмениваться фотографиями, в которых требуются определенные приложения.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-117">For example, the collaboration might be chatting or sharing photos, both requiring specific applications.</span></span> <span data-ttu-id="bbe3b-118">Чтобы пользователи могли включить совместную работу, набор приложений, доступных для сценариев "Соседние пользователи", также должен быть объявлен и обнаруживаемым.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-118">In order for People Near Me to enable collaboration activities, the set of applications that are available for People Near Me scenarios must also be advertised and discoverable.</span></span>
+
+### <a name="subscription"></a><span data-ttu-id="bbe3b-119">Подписка</span><span class="sxs-lookup"><span data-stu-id="bbe3b-119">Subscription</span></span>
+
+<span data-ttu-id="bbe3b-120">Используя подписку, приложения могут подписаться на отправку сведений о присутствии, приложениях и изменениях объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-120">Using a subscription, applications can subscribe to track a person's presence, applications, and object changes.</span></span>
+
+### <a name="invitation"></a><span data-ttu-id="bbe3b-121">Принять</span><span class="sxs-lookup"><span data-stu-id="bbe3b-121">Invitation</span></span>
+
+<span data-ttu-id="bbe3b-122">После обнаружения людей, интересов и приложений вы можете начать совместную работу, используя приложение "Соседние пользователи", и принять приглашение и обмен сообщениями.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-122">After the people, interests, and applications have been discovered, peer collaboration, using a People Near Me application, can begin an invitation and acceptance exchange.</span></span> <span data-ttu-id="bbe3b-123">Инициирующий узел отправляет сообщение приглашения другому одноранговому узлу или одноранговому узлу.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-123">The initiating peer sends an invitation message to another peer or peers.</span></span> <span data-ttu-id="bbe3b-124">Пользователи, получившие приглашение, могут принять или отклонить приглашение.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-124">The users receiving the invitation can accept or decline the invitation.</span></span> <span data-ttu-id="bbe3b-125">Когда приглашение принимается, запускается соответствующее однорангическое приложение для запрошенного действия.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-125">When the invitation is accepted the appropriate peer application for the requested activity is launched.</span></span>
+
+### <a name="add-as-a-contact"></a><span data-ttu-id="bbe3b-126">Добавить как контакт</span><span class="sxs-lookup"><span data-stu-id="bbe3b-126">Add As A Contact</span></span>
+
+<span data-ttu-id="bbe3b-127">Если пользователи устанавливают действие совместной работы через "Соседние пользователи" и хотят поддерживать контакт со временем, они могут добавить друг друга в качестве контакта.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-127">If users establish a collaboration activity through People Near Me and want to maintain contact over time, they can add each other as a contact.</span></span> <span data-ttu-id="bbe3b-128">После этого можно наблюдать за состоянием присутствия пользователя (например, в сети, вне сети или отсутствовать) и приглашать его в любое время через Интернет.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-128">Once this is accomplished they can observe the presence status of a user (such as online, offline, or away) and invite them to a collaboration activity at any time across the Internet.</span></span> <span data-ttu-id="bbe3b-129">Любое действие, которое было возможно с человеком, когда они находятся поблизости, также возможно с помощью контакта через Интернет.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-129">Any activity that was possible with the person when they were located nearby is also possible with a contact over the Internet.</span></span>
+
+### <a name="security"></a><span data-ttu-id="bbe3b-130">Безопасность</span><span class="sxs-lookup"><span data-stu-id="bbe3b-130">Security</span></span>
+
+<span data-ttu-id="bbe3b-131">Чтобы защитить пользователей и данные, которыми обмениваются операции совместной работы, пользователи имеют контроль над тем, что объявляется.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-131">To protect the users and the data being exchanged in a peer collaboration activity, users have configuration control over what is being advertised.</span></span> <span data-ttu-id="bbe3b-132">Пользователи также должны принять приглашение до начала совместной работы в одноранговой сети.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-132">Users must also accept an invitation before peer collaboration can begin.</span></span> <span data-ttu-id="bbe3b-133">Действие совместной работы шифруется с помощью канала с шифрованием SSL (SSL) (также известного как Schannel).</span><span class="sxs-lookup"><span data-stu-id="bbe3b-133">The collaboration activity is encrypted with a Secure Sockets Layer (SSL)-encrypted channel (also known as Schannel).</span></span> <span data-ttu-id="bbe3b-134">SSL — это криптографический протокол для защиты связи на основе TCP.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-134">SSL is a cryptographic protocol to protect TCP-based communications.</span></span> <span data-ttu-id="bbe3b-135">Дополнительные сведения см. в статье о [SChannel](windows-vista-components-for-people-near-me.md).</span><span class="sxs-lookup"><span data-stu-id="bbe3b-135">For more information, see [SChannel](windows-vista-components-for-people-near-me.md).</span></span> <span data-ttu-id="bbe3b-136">Эти требования поддерживаются новым набором компонентов в архитектуре [одноранговых сетей Windows](what-is-peer-networking-.md)в Windows Vista.</span><span class="sxs-lookup"><span data-stu-id="bbe3b-136">These requirements are supported by a new set of components in the [Windows Peer Networking](what-is-peer-networking-.md)architecture in Windows Vista.</span></span>
+
+ 
+
+ 
+
+
+
