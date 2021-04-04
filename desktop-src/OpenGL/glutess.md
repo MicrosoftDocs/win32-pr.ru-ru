@@ -1,0 +1,224 @@
+---
+title: Функция Глутесскаллбакк (GLU. h)
+description: Функция Глутесскаллбакк определяет обратный вызов для объекта тесселяции.
+ms.assetid: a9709919-d34c-42c4-82b8-6a503f2b39b0
+keywords:
+- Функция Глутесскаллбакк OpenGL
+topic_type:
+- apiref
+api_name:
+- gluTessCallback
+api_location:
+- Glu32.dll
+api_type:
+- DllExport
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 17cdba8b9dd9a3e762a93923a3c353fbc9578377
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "103989263"
+---
+# <a name="glutesscallback-function"></a>Функция Глутесскаллбакк
+
+Функция **глутесскаллбакк** определяет обратный вызов для объекта тесселяции.
+
+## <a name="syntax"></a>Синтаксис
+
+
+```C++
+void WINAPI gluTessCallback(
+   GLUtesselator *tess,
+   GLenum        which,
+   void (CALLBACK *fn)()
+);
+```
+
+
+
+## <a name="parameters"></a>Параметры
+
+<dl> <dt>
+
+*тесс* 
+</dt> <dd>
+
+Объект тесселяции (созданный с помощью [**глуневтесс**](glunewtess.md)).
+
+</dd> <dt>
+
+*какую* 
+</dt> <dd>
+
+Определяемый обратный вызов. Допустимы следующие значения: GLU \_ Тесс \_ Begin, Glu \_ Тесс \_ Begin \_ Data, Glu Тесс, \_ \_ \_ флаг Glu \_ ТЕСС \_ ребра \_ \_ , Glu \_ Тесс \_ вершина, Glu \_ ТЕСС \_ вершинные данные \_ , Glu \_ ТЕСС \_ End, GLU \_ Тесс \_ конечные \_ данные, Glu \_ Тесс \_ Combine, Glu \_ Тесс \_ объединить \_ данные, Glu \_ Тесс \_ Error и Glu \_ Тесс \_ данные об ошибках \_ .
+
+Дополнительные сведения об этих обратных вызовах см. в следующем разделе "Примечания".
+
+</dd> <dt>
+
+*FN* 
+</dt> <dd>
+
+Вызываемая функция.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Возвращаемое значение
+
+Эта функция не возвращает значение.
+
+## <a name="remarks"></a>Комментарии
+
+Используйте **глутесскаллбакк** для указания обратного вызова, который будет использоваться объектом тесселяции. Если указанный обратный вызов уже определен, он заменяется. Если *fn* имеет **значение NULL**, то существующий обратный вызов становится неопределенным.
+
+Объект тесселяции использует эти обратные вызовы для описания того, как заданный многоугольник разбивается на треугольники.
+
+Существует две версии каждого обратного вызова, один с данными многоугольников, который можно определить, и один без. Если указаны обе версии конкретного обратного вызова, будут использоваться обратный вызов с указанными данными многоугольников. Параметр *\_ данных Polygon* объекта [**глутессбегинполигон**](glutessbeginpolygon.md) является копией указателя, который был указан при вызове **глутессбегинполигон** .
+
+Ниже приведены допустимые обратные вызовы.
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Обратный вызов</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GLU_TESS_BEGIN</td>
+<td>Обратный вызов GLU_TESS_BEGIN вызывается как <a href="glbegin.md"><strong>глбегин</strong></a> для указания начала (треугольника) примитива. Функция принимает один аргумент типа <strong>гленум</strong>. Если для свойства GLU_TESS_BOUNDARY_ONLY задано значение GL_FALSE, для аргумента задается значение GL_TRIANGLE_FAN, GL_TRIANGLE_STRIP или GL_TRIANGLES. Если для свойства GLU_TESS_BOUNDARY_ONLY задано значение GL_TRUE, аргументу присваивается значение GL_LINE_LOOP. Прототип функции для этого обратного вызова выглядит следующим образом: <strong>void</strong> <strong>Begin</strong> ( <em>тип</em><strong>гленум</strong> );<br/></td>
+</tr>
+<tr class="even">
+<td>GLU_TESS_BEGIN_DATA</td>
+<td>GLU_TESS_BEGIN_DATA совпадает с обратным вызовом GLU_TESS_BEGIN, за исключением того, что он принимает дополнительный аргумент указателя. Этот указатель идентичен непрозрачному указателю, указанному при вызове <a href="glutessbeginpolygon.md"><strong>глутессбегинполигон</strong></a>. Прототип функции для этого обратного вызова: <strong>void</strong> <strong>бегиндата</strong> (<strong></strong> <em>тип</em>гленум, <strong>void</strong> * <em>polygon_data</em>);<br/></td>
+</tr>
+<tr class="odd">
+<td>GLU_TESS_EDGE_FLAG</td>
+<td>Обратный вызов GLU_TESS_EDGE_FLAG аналогичен <a href="gledgeflag-functions.md"><strong>гледжефлаг</strong></a>. Функция принимает один логический флаг, указывающий, какие грани находятся на границе многоугольника. Если флаг имеет значение GL_TRUE, каждая вершина, расположенная ниже, начинает ребро, которое зависит от границы многоугольника; то есть ребро, которое отделяет внутреннюю область от внешней. Если флаг имеет значение GL_FALSE, каждая вершина, расположенная ниже, начинает ребро, которое находится внутри многоугольника. Перед обратным вызовом первого вершин вызывается обратный вызов GLU_TESS_EDGE_FLAG (если он определен). Так как вентиляторы треугольника и ленты треугольников не поддерживают пограничные флаги, обратный вызов не вызывается с GL_TRIANGLE_FAN или GL_TRIANGLE_STRIP, если предоставлен обратный вызов пограничной флага. Вместо этого вентиляторы и полосы преобразуются в независимые треугольники. Прототип функции для этого обратного вызова:<br/> <strong>void</strong> <strong>еджефлаг</strong> (<strong></strong> <em>флаг</em>глбулеан);<br/></td>
+</tr>
+<tr class="even">
+<td>GLU_TESS_EDGE_FLAG_DATA</td>
+<td>Обратный вызов GLU_TESS_EDGE_FLAG_DATA совпадает с обратным вызовом GLU_TESS_EDGE_FLAG, за исключением того, что он принимает дополнительный аргумент указателя. Этот указатель идентичен непрозрачному указателю, указанному при вызове <a href="glutessbeginpolygon.md"><strong>глутессбегинполигон</strong></a>. Прототип функции для этого обратного вызова: <strong>void</strong> <strong>еджефлагдата</strong> (<strong></strong> <em>флаг</em>глбулеан, <strong>void</strong> * <em>polygon_data</em>);<br/></td>
+</tr>
+<tr class="odd">
+<td>GLU_TESS_VERTEX</td>
+<td>Обратный вызов GLU_TESS_VERTEX вызывается между обратными вызовами Begin и End. Он аналогичен Глвертекс и определяет вершины треугольников, созданных процессом тесселяции. Функция принимает указатель в качестве единственного аргумента. Этот указатель идентичен непрозрачному указателю, указанному при определении вершины (см. <a href="glutessvertex.md"><strong>глутессвертекс</strong></a>). Прототип функции для этого обратного вызова: <strong>void</strong> <strong>vertex</strong> (<strong>void</strong> * <em>vertex_data</em>);<br/></td>
+</tr>
+<tr class="even">
+<td>GLU_TESS_VERTEX_DATA</td>
+<td>GLU_TESS_VERTEX_DATA совпадает с обратным вызовом GLU_TESS_VERTEX, за исключением того, что он принимает дополнительный аргумент указателя. Этот указатель идентичен непрозрачному указателю, указанному при вызове <a href="glutessbeginpolygon.md"><strong>глутессбегинполигон</strong></a>. Прототип функции для этого обратного вызова: <strong>void</strong>  <strong>вертексдата</strong> (void * <em>vertex_data</em>, <strong>void</strong> * <em>polygon_data</em>);<br/></td>
+</tr>
+<tr class="odd">
+<td>GLU_TESS_END</td>
+<td>Обратный вызов GLU_TESS_END выполняет ту же цель, что и <a href="glend.md"><strong>гленд</strong></a>. Указывает конец примитива и не принимает аргументов. Прототип функции для этого обратного вызова: <strong>void</strong> <strong>End</strong> (<strong>void</strong>);<br/></td>
+</tr>
+<tr class="even">
+<td>GLU_TESS_END_DATA</td>
+<td>Обратный вызов GLU_TESS_END_DATA совпадает с обратным вызовом GLU_TESS_END, за исключением того, что он принимает дополнительный аргумент указателя. Этот указатель идентичен непрозрачному указателю, указанному при вызове <a href="glutessbeginpolygon.md"><strong>глутессбегинполигон</strong></a>. Прототип функции для этого обратного вызова: <strong>void</strong> <strong>енддата</strong> (<strong>void</strong> * <em>polygon_data</em>);<br/></td>
+</tr>
+<tr class="odd">
+<td>GLU_TESS_COMBINE</td>
+<td>Вызовите обратный вызов GLU_TESS_COMBINE, чтобы создать новую вершину, когда тесселяция обнаружит пересечение или выполнить слияние компонентов. Функция принимает четыре аргумента: массив из трех элементов, каждый из которых имеет тип Глдаубле.<br/> Массив из четырех указателей.<br/> Массив из четырех элементов, каждый из которых имеет тип Глфлоат.<br/> Указатель на указатель.<br/> Прототип функции для этого обратного вызова: <br/> <strong>void</strong> <strong>Combine</strong>(<strong>глдаубле</strong> <em>CoOrds</em>[3], <strong>void</strong> * <em>vertex_data</em>[4], <strong>глфлоат</strong> <em>Weight</em>[4], <strong>void</strong>  ** <em>Data</em>);<br/> Вершина определяется как линейное сочетание до четырех существующих вершин, хранимых в vertex_data. Коэффициенты линейной комбинации задаются по весу. Эти весовые коэффициенты всегда суммируются до 1,0. Все указатели вершин действительны, даже если некоторые из весов равны нулю. Параметр CoOrds задает расположение новой вершины.<br/> Выделение другой вершины, интерполяция параметров с помощью vertex_data и веса и возврат нового указателя вершины в данных. Этот маркер предоставляется во время обратных вызовов отрисовки. Освободите память некоторое время после вызова <a href="glutessendpolygon.md"><strong>глутессендполигон</strong></a>.<br/> Например, если Многоугольник располагается в произвольной плоскости в трехмерном пространстве и вы связываете цвет с каждой вершиной, то обратный вызов GLU_TESS_COMBINE может выглядеть следующим образом:<br/>
+<pre data-space="preserve"><code>void myCombine( GLdouble coords[3], VERTEX *d[4], 
+                GLfloat w[4], VERTEX **dataOut ) 
+{ 
+    VERTEX *newVertex = new_vertex(); 
+    newVertex->x = coords[0]; 
+    newVertex->y = coords[1]; 
+    newVertex->z = coords[2]; 
+    newVertex->r = w[0]*d[0]->r + w[1]*d[1]->r + w[2]*d[2]->r + 
+                   w[3]*d[3]->r; 
+    newVertex->g = w[0]*d[0]->g + w[1]*d[1]->g + w[2]*d[2]->g + 
+                   w[3]*d[3]->g; 
+    newVertex->b = w[0]*d[0]->b + w[1]*d[1]->b + w[2]*d[2]->b + 
+                   w[3]*d[3]->b; 
+    newVertex->a = w[0]*d[0]->a + w[1]*d[1]->a + w[2]*d[2]->a + 
+                   w[3]*d[3]->a; 
+    *dataOut = newVertex; 
+}</code></pre>
+Когда тесселяция обнаруживает пересечение, должен быть определен обратный вызов GLU_TESS_COMBINE или GLU_TESS_COMBINE_DATA (см. ниже), который должен записывать в данные указатель, отличный от<strong>null</strong> . В противном случае возникает ошибка GLU_TESS_NEED_COMBINE_CALLBACK, и выходные данные не создаются. (Это единственная ошибка, которая может возникнуть во время тесселяции и отрисовки.)<br/></td>
+</tr>
+<tr class="even">
+<td>GLU_TESS_COMBINE_DATA</td>
+<td>Обратный вызов GLU_TESS_COMBINE_DATA совпадает с обратным вызовом GLU_TESS_COMBINE, за исключением того, что он принимает дополнительный аргумент указателя. Этот указатель идентичен непрозрачному указателю, указанному при вызове <a href="glutessbeginpolygon.md"><strong>глутессбегинполигон</strong></a>. Прототип функции для этого обратного вызова: <strong>void</strong> <strong>комбинедата</strong> (<strong>глдаубле</strong> <em>CoOrds</em>[3], <strong>void</strong> *<em>vertex_data</em>[4], <strong>глфлоат</strong> <em>Weight</em>[4], <strong>void</strong>  ** <em>Data</em>, <strong>void</strong> * <em>polygon_data</em>);<br/></td>
+</tr>
+<tr class="odd">
+<td>GLU_TESS_ERROR</td>
+<td>Обратный вызов GLU_TESS_ERROR вызывается при возникновении ошибки. Один аргумент имеет тип <strong>гленум</strong>; указывает конкретную ошибку, которая была вызвана, и для нее задано одно из следующих: GLU_TESS_MISSING_BEGIN_POLYGON<br/> GLU_TESS_MISSING_END_POLYGON<br/> GLU_TESS_MISSING_BEGIN_CONTOUR<br/> GLU_TESS_MISSING_END_CONTOUR<br/> GLU_TESS_COORD_TOO_LARGE<br/> GLU_TESS_NEED_COMBINE_CALLBACK<br/> Вызовите Глуеррорстринг, чтобы получить символьные строки, описывающие эти ошибки. Прототип функции для этого обратного вызова выглядит следующим образом:<br/> <strong></strong> <strong>Ошибка</strong> void (<strong>гленум</strong> <em>);</em><br/> Библиотека GLU восстанавливает из первых четырех ошибок, вставляя недостающий вызов или вызовы. GLU_TESS_COORD_TOO_LARGE указывает, что в некоторых координатах вершины превышена предопределенная константа GLU_TESS_MAX_COORD в абсолютном значении и что значение было обработано. (Значения координат должны быть достаточно малыми, чтобы два из них можно было умножить без переполнения.) GLU_TESS_NEED_COMBINE_CALLBACK указывает, что тесселяция обнаружила пересечение между двумя краями во входных данных, а обратный вызов GLU_TESS_COMBINE или GLU_TESS_COMBINE_DATA не был предоставлен. Выходные данные создаваться не будут.<br/></td>
+</tr>
+<tr class="even">
+<td>GLU_TESS_ERROR_DATA</td>
+<td>Обратный вызов GLU_TESS_ERROR_DATA совпадает с обратным вызовом GLU_TESS_ERROR, за исключением того, что он принимает дополнительный аргумент указателя. Этот указатель идентичен непрозрачному указателю, указанному при вызове <a href="glutessbeginpolygon.md"><strong>глутессбегинполигон</strong></a>. Прототип функции для этого обратного вызова имеет <strong>следующий тип: void</strong> <strong>errorData</strong> (<strong>гленум</strong> <em>No</em>, <strong>void</strong> * <em>polygon_data</em>);<br/></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|--------------------------------------------------------------------------------------|
+| Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                           |
+| Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Glu. h</dt> </dl>     |
+| Библиотека<br/>                  | <dl> <dt>Glu32. lib</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[**глбегин**](glbegin.md)
+</dt> <dt>
+
+[**гледжефлаг**](gledgeflag-functions.md)
+</dt> <dt>
+
+[**гленд**](glend.md)
+</dt> <dt>
+
+[**глвертекс**](glvertex-functions.md)
+</dt> <dt>
+
+[**глуделететесс**](gludeletetess.md)
+</dt> <dt>
+
+[**глуеррорстринг**](gluerrorstring.md)
+</dt> <dt>
+
+[**глуневтесс**](glunewtess.md)
+</dt> <dt>
+
+[**глутессбегинполигон**](glutessbeginpolygon.md)
+</dt> <dt>
+
+[**глутессендполигон**](glutessendpolygon.md)
+</dt> <dt>
+
+[**глутессвертекс**](glutessvertex.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
