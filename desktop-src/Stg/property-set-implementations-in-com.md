@@ -1,0 +1,61 @@
+---
+title: Реализация наборов свойств в COM
+description: Реализация наборов свойств в COM
+ms.assetid: 52d7b534-f81a-4cc9-b5ea-9538bfff056c
+keywords:
+- Структурированное хранилище Стрктд STG, using, использование набора свойств в COM
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: cb8ee68fcd36958e0b7b0648e40f6e3c480f31d3
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103987612"
+---
+# <a name="property-set-implementations-in-com"></a><span data-ttu-id="0f317-104">Реализация наборов свойств в COM</span><span class="sxs-lookup"><span data-stu-id="0f317-104">Property Set Implementations in COM</span></span>
+
+<span data-ttu-id="0f317-105">Хотя возможность использования постоянных наборов свойств не была полностью нажата, в настоящее время существует два основных применения:</span><span class="sxs-lookup"><span data-stu-id="0f317-105">While the potential for uses of persistent property sets is not fully tapped, there are currently two primary uses:</span></span>
+
+-   <span data-ttu-id="0f317-106">Хранение сводных данных с помощью объекта, например документа</span><span class="sxs-lookup"><span data-stu-id="0f317-106">Storing summary information with an object such as a document</span></span>
+-   <span data-ttu-id="0f317-107">Передача данных свойств между объектами</span><span class="sxs-lookup"><span data-stu-id="0f317-107">Transferring property data between objects</span></span>
+
+<span data-ttu-id="0f317-108">Наборы свойств COM предназначены для хранения данных, которые предназначены для представления в виде коллекции детализированных значений с умеренным размером.</span><span class="sxs-lookup"><span data-stu-id="0f317-108">COM property sets were designed to store data that is suited to representation as a moderately sized collection of fine-grained values.</span></span> <span data-ttu-id="0f317-109">Слишком большие наборы данных должны разбиваться на отдельные потоки, хранилища и/или наборы свойств.</span><span class="sxs-lookup"><span data-stu-id="0f317-109">Data sets that are too large for this to be feasible should be broken into separate streams, storages, and/or property sets.</span></span> <span data-ttu-id="0f317-110">Формат данных "набор свойств COM" не предназначен для замены базы данных с множеством маленьких объектов.</span><span class="sxs-lookup"><span data-stu-id="0f317-110">The COM property set data format was not meant to provide a substitute for a database of many tiny objects.</span></span>
+
+<span data-ttu-id="0f317-111">COM предоставляет реализации интерфейсов набора свойств для различных объектов, а также три вспомогательные функции.</span><span class="sxs-lookup"><span data-stu-id="0f317-111">COM provides implementations of the property set interfaces for various objects, along with three helper functions.</span></span> <span data-ttu-id="0f317-112">В следующем разделе описываются некоторые характеристики производительности этих реализаций.</span><span class="sxs-lookup"><span data-stu-id="0f317-112">The following section describes some performance characteristics of these implementations.</span></span> <span data-ttu-id="0f317-113">Дополнительные сведения о конкретных интерфейсах и о том, как получить указатель на эти интерфейсы, см. в разделе Справочник по COM:</span><span class="sxs-lookup"><span data-stu-id="0f317-113">For more information on specific interfaces and how to get a pointer to these interfaces, refer to the following in the COM reference section:</span></span>
+
+-   [<span data-ttu-id="0f317-114">IPropertySetStorage — реализация составного файла</span><span class="sxs-lookup"><span data-stu-id="0f317-114">IPropertySetStorage–Compound File Implementation</span></span>](ipropertysetstorage-compound-file-implementation.md)
+
+    <span data-ttu-id="0f317-115">Реализация составного файла, которая предоставляет интерфейсы [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) и [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) , также предоставляет интерфейсы [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) и [**ипропертистораже**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) .</span><span class="sxs-lookup"><span data-stu-id="0f317-115">The compound file implementation, which provides the [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) and [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) interfaces, also provides the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) and [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) interfaces.</span></span> <span data-ttu-id="0f317-116">Учитывая реализацию составного файла **IStorage**, интерфейс **IPropertySetStorage** можно получить, вызвав [**IUnknown:: QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)).</span><span class="sxs-lookup"><span data-stu-id="0f317-116">Given a compound file implementation of **IStorage**, the **IPropertySetStorage** interface can be obtained by calling [**IUnknown::QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)).</span></span>
+
+-   [<span data-ttu-id="0f317-117">IPropertySetStorage — реализация файловой системы NTFS</span><span class="sxs-lookup"><span data-stu-id="0f317-117">IPropertySetStorage–NTFS File System Implementation</span></span>](ipropertysetstorage-ntfs-file-system-implementation.md)
+
+    <span data-ttu-id="0f317-118">Интерфейсы [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) и [**ипропертистораже**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) также можно получить для файлов NTFS, которые не являются составными файлами.</span><span class="sxs-lookup"><span data-stu-id="0f317-118">The [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) and [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) interfaces can also be obtained for NTFS files that are not compound files.</span></span> <span data-ttu-id="0f317-119">Таким образом, эти интерфейсы можно получить для всех файлов на томе NTFS.</span><span class="sxs-lookup"><span data-stu-id="0f317-119">Therefore, it is possible to obtain these interfaces for all files on an NTFS volume.</span></span>
+
+-   [<span data-ttu-id="0f317-120">IPropertySetStorage — изолированная реализация</span><span class="sxs-lookup"><span data-stu-id="0f317-120">IPropertySetStorage–Stand-alone Implementation</span></span>](ipropertysetstorage-stand-alone-implementation.md)
+
+    <span data-ttu-id="0f317-121">При создании этой реализации [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) и [**ипропертистораже**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) ему присваивается указатель на объект, поддерживающий интерфейс [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) .</span><span class="sxs-lookup"><span data-stu-id="0f317-121">When this implementation of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) and [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) is instantiated, it is given a pointer to an object that supports the [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) interface.</span></span> <span data-ttu-id="0f317-122">Затем он управляет хранилищами наборов свойств в пределах этого объекта хранилища.</span><span class="sxs-lookup"><span data-stu-id="0f317-122">It then manipulates property set storages within that storage object.</span></span> <span data-ttu-id="0f317-123">Таким же доступом к наборам свойств можно обращаться к любому объекту, который поддерживает.</span><span class="sxs-lookup"><span data-stu-id="0f317-123">Thus, it is possible to access and manipulate property sets on any object that supports .</span></span>
+
+-   [<span data-ttu-id="0f317-124">Рекомендации по реализации IPropertySetStorage</span><span class="sxs-lookup"><span data-stu-id="0f317-124">IPropertySetStorage Implementation Considerations</span></span>](ipropertysetstorage-implementation-considerations.md)
+
+    <span data-ttu-id="0f317-125">Существует несколько вопросов, которые следует учитывать при предоставлении реализации интерфейса [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) .</span><span class="sxs-lookup"><span data-stu-id="0f317-125">There are several issues to consider in providing an implementation of the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface.</span></span> <span data-ttu-id="0f317-126">Дополнительные *сведения о реализации* см. в разделе Справочник по com.</span><span class="sxs-lookup"><span data-stu-id="0f317-126">Please refer to these *Implementation Considerations* in the COM Reference section.</span></span>
+
+<span data-ttu-id="0f317-127">Кроме того, существует четыре вспомогательные функции, предназначенные для работы со свойствами, считанными из набора свойств в память (в структуру [**пропвариант**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) ):</span><span class="sxs-lookup"><span data-stu-id="0f317-127">In addition, there are four helper functions, designed to aid in dealing with properties that have been read from a property set into memory (into a [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structure):</span></span>
+
+-   [<span data-ttu-id="0f317-128">**пропвариантинит**</span><span class="sxs-lookup"><span data-stu-id="0f317-128">**PropVariantInit**</span></span>](/windows/desktop/api/PropIdl/nf-propidl-propvariantinit)
+-   [<span data-ttu-id="0f317-129">**пропвариантклеар**</span><span class="sxs-lookup"><span data-stu-id="0f317-129">**PropVariantClear**</span></span>](/windows/win32/api/combaseapi/nf-combaseapi-propvariantclear)
+-   [<span data-ttu-id="0f317-130">**фрипропвариантаррай**</span><span class="sxs-lookup"><span data-stu-id="0f317-130">**FreePropVariantArray**</span></span>](/windows/win32/api/combaseapi/nf-combaseapi-freepropvariantarray)
+-   [<span data-ttu-id="0f317-131">**пропварианткопи**</span><span class="sxs-lookup"><span data-stu-id="0f317-131">**PropVariantCopy**</span></span>](/windows/win32/api/combaseapi/nf-combaseapi-propvariantcopy)
+
+<span data-ttu-id="0f317-132">В следующих разделах более подробно обсуждаются реализации наборов свойств в COM:</span><span class="sxs-lookup"><span data-stu-id="0f317-132">The following sections discuss property set implementations in COM in greater detail:</span></span>
+
+-   [<span data-ttu-id="0f317-133">Управление наборами свойств</span><span class="sxs-lookup"><span data-stu-id="0f317-133">Managing Property Sets</span></span>](managing-property-sets.md)
+-   [<span data-ttu-id="0f317-134">Рекомендации по установке свойств</span><span class="sxs-lookup"><span data-stu-id="0f317-134">Property Set Considerations</span></span>](property-set-considerations.md)
+-   [<span data-ttu-id="0f317-135">Хранение наборов свойств</span><span class="sxs-lookup"><span data-stu-id="0f317-135">Storing Property Sets</span></span>](storing-property-sets.md)
+-   [<span data-ttu-id="0f317-136">Характеристики производительности</span><span class="sxs-lookup"><span data-stu-id="0f317-136">Performance Characteristics</span></span>](performance-characteristics.md)
+-   [<span data-ttu-id="0f317-137">Реализация набора свойств сводных данных</span><span class="sxs-lookup"><span data-stu-id="0f317-137">Implementing the Summary Information Property Set</span></span>](implementing-the-summary-information-property-set.md)
+-   [<span data-ttu-id="0f317-138">Рекомендации по реализации IPropertySetStorage</span><span class="sxs-lookup"><span data-stu-id="0f317-138">IPropertySetStorage Implementation Considerations</span></span>](ipropertysetstorage-implementation-considerations.md)
+
+ 
+
+ 
