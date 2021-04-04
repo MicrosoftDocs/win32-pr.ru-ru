@@ -1,0 +1,73 @@
+---
+title: Сообщение RB_DRAGMOVE (Коммктрл. h)
+description: Обновляет расположение перетаскивания в элементе управления главной панели после предыдущего \_ сообщения RB бегиндраг.
+ms.assetid: 0d2ce7fe-4172-45d9-932b-50f3e4cf2d8e
+keywords:
+- Элементы управления Windows для RB_DRAGMOVE сообщений
+topic_type:
+- apiref
+api_name:
+- RB_DRAGMOVE
+api_location:
+- Commctrl.h
+api_type:
+- HeaderDef
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: d8657d8f8f73c798f934262804dda83b359b0c0c
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "103988990"
+---
+# <a name="rb_dragmove-message"></a><span data-ttu-id="d46b0-104">\_Сообщение ДРАГМОВЕ RB</span><span class="sxs-lookup"><span data-stu-id="d46b0-104">RB\_DRAGMOVE message</span></span>
+
+<span data-ttu-id="d46b0-105">Обновляет расположение перетаскивания в элементе управления главной панели после предыдущего сообщения [**RB \_ бегиндраг**](rb-begindrag.md) .</span><span class="sxs-lookup"><span data-stu-id="d46b0-105">Updates the drag position in the rebar control after a previous [**RB\_BEGINDRAG**](rb-begindrag.md) message.</span></span>
+
+## <a name="parameters"></a><span data-ttu-id="d46b0-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="d46b0-106">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="d46b0-107">*wParam*</span><span class="sxs-lookup"><span data-stu-id="d46b0-107">*wParam*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="d46b0-108">Должен равняться нулю.</span><span class="sxs-lookup"><span data-stu-id="d46b0-108">Must be zero.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="d46b0-109">*lParam*</span><span class="sxs-lookup"><span data-stu-id="d46b0-109">*lParam*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="d46b0-110">Значение **типа DWORD** , содержащее новые координаты мыши.</span><span class="sxs-lookup"><span data-stu-id="d46b0-110">**DWORD** value that contains the new mouse coordinates.</span></span> <span data-ttu-id="d46b0-111">Горизонтальная координата содержится в [**ловорд**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) , а вертикальная координата содержится в [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)).</span><span class="sxs-lookup"><span data-stu-id="d46b0-111">The horizontal coordinate is contained in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the vertical coordinate is contained in the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)).</span></span> <span data-ttu-id="d46b0-112">Если передать (DWORD) значение 1, элемент управления "Главная панель" будет использовать расположение мыши во время последнего потока элемента управления [**с именем "**](/windows/desktop/api/winuser/nf-winuser-getmessage) [**PeekMessage**](/windows/desktop/DevNotes/-peekmessage)".</span><span class="sxs-lookup"><span data-stu-id="d46b0-112">If you pass (DWORD)-1, the rebar control will use the position of the mouse the last time the control's thread called [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/desktop/DevNotes/-peekmessage).</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="d46b0-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="d46b0-113">Return value</span></span>
+
+<span data-ttu-id="d46b0-114">Возвращаемое значение для этого сообщения не используется.</span><span class="sxs-lookup"><span data-stu-id="d46b0-114">The return value for this message is not used.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="d46b0-115">Требования</span><span class="sxs-lookup"><span data-stu-id="d46b0-115">Requirements</span></span>
+
+
+
+| <span data-ttu-id="d46b0-116">Требование</span><span class="sxs-lookup"><span data-stu-id="d46b0-116">Requirement</span></span> | <span data-ttu-id="d46b0-117">Значение</span><span class="sxs-lookup"><span data-stu-id="d46b0-117">Value</span></span> |
+|-------------------------------------|---------------------------------------------------------------------------------------|
+| <span data-ttu-id="d46b0-118">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="d46b0-118">Minimum supported client</span></span><br/> | <span data-ttu-id="d46b0-119">Только для \[ классических приложений Windows Vista\]</span><span class="sxs-lookup"><span data-stu-id="d46b0-119">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="d46b0-120">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="d46b0-120">Minimum supported server</span></span><br/> | <span data-ttu-id="d46b0-121">\[Только для настольных приложений Windows Server 2003\]</span><span class="sxs-lookup"><span data-stu-id="d46b0-121">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="d46b0-122">Header</span><span class="sxs-lookup"><span data-stu-id="d46b0-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="d46b0-123"><dt>Коммктрл. h</dt></span><span class="sxs-lookup"><span data-stu-id="d46b0-123"><dt>Commctrl.h</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="d46b0-124">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="d46b0-124">See also</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="d46b0-125">**Ссылки**</span><span class="sxs-lookup"><span data-stu-id="d46b0-125">**Reference**</span></span>
+</dt> <dt>
+
+[<span data-ttu-id="d46b0-126">**\_ЕНДДРАГ RB**</span><span class="sxs-lookup"><span data-stu-id="d46b0-126">**RB\_ENDDRAG**</span></span>](rb-enddrag.md)
+</dt> </dl>
+
+ 
+
