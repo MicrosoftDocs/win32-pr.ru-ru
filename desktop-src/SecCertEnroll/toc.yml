@@ -1,0 +1,2305 @@
+- name: API регистрации сертификатов
+  href: certenroll-portal.md
+  items:
+    - name: Сведения об API регистрации сертификатов
+      href: about-the-certificate-enrollment-api.md
+      items:
+        - name: Инфраструктура открытых ключей
+          href: public-key-infrastructure.md
+          items:
+            - name: Сертификаты открытого ключа X. 509
+              href: about-x-509-public-key-certificates.md
+              items:
+                - name: Основные поля
+                  href: about-basic-fields.md
+                - name: Поля версии 2
+                  href: about-version-2-fields.md
+                - name: Расширения версии 3
+                  href: about-version-3-extensions.md
+            - name: Элементы PKI
+              href: about-pki-components.md
+              items:
+                - name: Центры сертификации
+                  href: about-certification-authorities.md
+                - name: Каталог сертификатов
+                  href: about-certificate-directory.md
+                - name: Сервер восстановления ключей
+                  href: about-key-recovery-server.md
+            - name: Модели доверия
+              href: about-trust-models.md
+              items:
+                - name: Иерархия сертификатов
+                  href: about-certificate-hierarchy.md
+                - name: Перекрестная сертификация
+                  href: about-cross-certification.md
+                - name: Цепочка сертификатов
+                  href: about-certificate-chain.md
+        - name: Кодирование запроса сертификата
+          href: about-certificate-request-encoding.md
+          items:
+            - name: Общие сведения о синтаксисе и кодировке ASN. 1
+              href: about-introduction-to-asn-1-syntax-and-encoding.md
+            - name: Система типов ASN. 1
+              href: about-asn-1-type-system.md
+              items:
+                - name: Базовые типы
+                  href: about-basic-types.md
+                - name: Строковые типы
+                  href: about-string-types.md
+                - name: Сконструированные типы
+                  href: about-constructed-types.md
+            - name: Distinguished Encoding Rules
+              href: distinguished-encoding-rules.md
+              items:
+                - name: Синтаксис преобразования DER
+                  href: about-der-transfer-syntax.md
+                  items:
+                    - name: Байты закодированного тега
+                      href: about-encoded-tag-bytes.md
+                    - name: Закодированная Длина и байты значений
+                      href: about-encoded-length-and-value-bytes.md
+                - name: Кодировка DER для типов ASN. 1
+                  href: about-der-encoding-of-asn-1-types.md
+                  items:
+                    - name: БИТОВАЯ СТРОКА
+                      href: about-bit-string.md
+                    - name: BOOLEAN
+                      href: about-boolean.md
+                    - name: INTEGER
+                      href: about-integer.md
+                    - name: 'NULL'
+                      href: about-null.md
+                    - name: ИДЕНТИФИКАТОР ОБЪЕКТА
+                      href: about-object-identifier.md
+                    - name: СТРОКА ОКТЕТА
+                      href: about-octet-string.md
+                    - name: бмпстринг
+                      href: about-bmpstring.md
+                    - name: IA5String
+                      href: about-ia5string.md
+                    - name: принтаблестринг
+                      href: about-printablestring.md
+                    - name: Образец UTF8String
+                      href: about-utf8string.md
+                    - name: SEQUENCE
+                      href: about-sequence.md
+                    - name: SET
+                      href: about-set.md
+        - name: Запросы сертификатов
+          href: certificate-requests.md
+          items:
+            - name: Имена субъектов
+              href: subject-names.md
+              items:
+                - name: Создание имени субъекта
+                  href: creating-a-subject-name.md
+                - name: Кодирование имени субъекта
+                  href: encoding-a-subject-name.md
+            - name: Атрибуты
+              href: attributes.md
+              items:
+                - name: Поддерживаемые атрибуты
+                  href: supported-attributes.md
+                - name: Архитектура атрибута
+                  href: attribute-architecture.md
+                - name: 'Атрибуты PKCS #7'
+                  href: pkcs--7-attributes.md
+                - name: 'Атрибуты PKCS #10'
+                  href: pkcs--10-attributes.md
+                - name: Атрибуты CMC
+                  href: cmc-attributes.md
+            - name: Расширения
+              href: extensions.md
+              items:
+                - name: Поддерживаемые расширения
+                  href: supported-extensions.md
+                - name: 'Расширения PKCS #10'
+                  href: pkcs--10-extensions.md
+                - name: Расширения CMC
+                  href: cmc-extensions.md
+        - name: Образец запросов
+          href: sample-requests.md
+          items:
+            - name: 'Запрос PKCS #10'
+              href: pkcs--10-request.md
+              items:
+                - name: 'PKCS #10 в кодировке ASN. 1'
+                  href: pkcs--10-encoded-asn-1.md
+            - name: Запрос CMC
+              href: cmc-request.md
+              items:
+                - name: В формате CMC с кодировкой ASN. 1
+                  href: cmc-encoded-asn-1.md
+            - name: 'Запрос на продление #7 PKCS'
+              href: pkcs--7--renewal-request.md
+              items:
+                - name: 'Обновление PKCS #7 с кодировкой ASN. 1'
+                  href: pkcs--7-renewal-encoded-asn-1.md
+            - name: Запрос на продление CMC
+              href: cmc-renewal-request.md
+              items:
+                - name: Обновление CMC в кодировке ASN. 1
+                  href: cmc--renewal-encoded-asn-1.md
+            - name: Запрос на создание ключа
+              href: key-generation-request.md
+              items:
+                - name: 'Создание ключа, закодированное ASN. 1'
+                  href: key-generation-encoded-asn-1.md
+            - name: 'Запрос PKCS #7 ЕОБО'
+              href: pkcs--7-eobo-request.md
+              items:
+                - name: 'PKCS #7 ЕОБО в кодировке ASN. 1'
+                  href: pkcs--7-eobo-encoded-asn-1.md
+            - name: Запрос ЕОБО CMC
+              href: cmc-eobo-request.md
+              items:
+                - name: CMC ЕОБО с кодировкой ASN. 1
+                  href: cmc-eobo-encoded-asn-1.md
+            - name: Запрос на архивацию ключа CMC
+              href: cmc-key-archival-request.md
+              items:
+                - name: Заархивированный ключ CMC с кодированием ASN. 1
+                  href: cmc-key-archival-encoded-asn-1.md
+    - name: Использование API регистрации сертификатов
+      href: using-the-certificate-enrollment-api.md
+      items:
+        - name: Сопоставление Xenroll.dll CertEnroll.dll
+          href: mapping-xenroll-dll-to-certenroll-dll.md
+          items:
+            - name: Функции запроса сертификата
+              href: certificate-request-functions.md
+            - name: Функции ответа на сертификат
+              href: certificate-response-functions.md
+            - name: Функции атрибутов
+              href: attribute-functions.md
+            - name: Функции расширения
+              href: extension-functions.md
+            - name: Функции внешних свойств
+              href: external-property-functions.md
+            - name: Функции закрытых и открытых ключей
+              href: private-and-public-key-functions.md
+            - name: Функции поставщика служб шифрования
+              href: cryptographic-service-provider-functions.md
+            - name: Функции хранилища сертификатов
+              href: certificate-store-functions.md
+            - name: Функции обмена личной информацией
+              href: personal-information-exchange-functions.md
+            - name: Вспомогательные функции
+              href: helper-functions.md
+        - name: Использование прилагаемых примеров
+          href: using-the-included-samples.md
+          items:
+            - name: креатекнгкустомкмк
+              href: createcngcustomcmc.md
+            - name: енроллкоммон
+              href: enrollcommon.md
+            - name: енроллкустомкмк
+              href: enrollcustomcmc.md
+            - name: enrollCustomPKCS10
+              href: enrollcustompkcs10.md
+            - name: enrollCustomPKCS10_2
+              href: enrollcustompkcs10-2.md
+            - name: енроллеобокмк
+              href: enrolleobocmc.md
+            - name: енроллфромпубликкэй
+              href: enrollfrompublickey.md
+            - name: енроллкэйарчивалкмк
+              href: enrollkeyarchivalcmc.md
+            - name: енроллнестедкмк
+              href: enrollnestedcmc.md
+            - name: enrollPKCS7
+              href: enrollpkcs7.md
+            - name: enrollRenewalPKCS7
+              href: enrollrenewalpkcs7.md
+            - name: енроллсимплемачинецерт
+              href: enrollsimplemachinecert.md
+            - name: енроллсимплеусерцерт
+              href: enrollsimpleusercert.md
+            - name: enrollWithIX509EnrollmentHelper
+              href: enrollwithix509enrollmenthelper.md
+            - name: инсталлреспонсефромпфкс
+              href: installresponsefrompfx.md
+        - name: Общие сведения о поставщиках служб шифрования
+          href: understanding-cryptographic-providers.md
+          items:
+            - name: Поставщики служб шифрования CryptoAPI
+              href: cryptoapi-cryptographic-service-providers.md
+            - name: Поставщики алгоритмов шифрования CNG
+              href: cng-cryptographic-algorithm-providers.md
+            - name: Поставщики хранилища ключей CNG
+              href: cng-key-storage-providers.md
+            - name: Перечисление установленных поставщиков
+              href: enumerating-installed-providers.md
+    - name: Справочник по API регистрации сертификатов
+      href: certificate-enrollment-api-reference.md
+      items:
+        - name: Интерфейсы Цертенролл
+          href: certenroll-interfaces.md
+          items:
+            - name: Интерфейсы запросов сертификатов
+              href: certificate-request-interfaces.md
+              items:
+                - name: IX509CertificateRequest
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequest
+                  items:
+                    - name: Методы IX509CertificateRequest
+                      href: ix509certificaterequest-methods.md
+                      items:
+                        - name: Метод кодирования
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-encode
+                        - name: Метод Жетиннеррекуест
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-getinnerrequest
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-initialize
+                        - name: Метод Ресетфоренкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-resetforencode
+                    - name: Свойства IX509CertificateRequest
+                      href: ix509certificaterequest-properties.md
+                      items:
+                        - name: 'Алтернатесигнатуреалгорисм, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_alternatesignaturealgorithm
+                        - name: 'ClientId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_clientid
+                        - name: 'Кспинформатионс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_cspinformations
+                        - name: 'Енроллментконтекст, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_enrollmentcontext
+                        - name: 'HashAlgorithm, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_hashalgorithm
+                        - name: 'Парентвиндов, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_parentwindow
+                        - name: 'RawData, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_rawdata
+                        - name: 'Реневалцертификате, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_renewalcertificate
+                        - name: Свойство без уведомления
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_silent
+                        - name: 'Суппрессдефаултс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_suppressdefaults
+                        - name: Свойство Type
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_type
+                        - name: 'Уиконтекстмессаже, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_uicontextmessage
+                - name: IX509CertificateRequestCertificate
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestcertificate
+                  items:
+                    - name: Методы IX509CertificateRequestCertificate
+                      href: ix509certificaterequestcertificate-methods.md
+                      items:
+                        - name: Метод Чеккпубликкэйсигнатуре
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-checkpublickeysignature
+                    - name: Свойства IX509CertificateRequestCertificate
+                      href: ix509certificaterequestcertificate-properties.md
+                      items:
+                        - name: Свойство Issuer
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-get_issuer
+                        - name: 'NotAfter, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-get_notafter
+                        - name: 'NotBefore, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-get_notbefore
+                        - name: Свойство SerialNumber
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-get_serialnumber
+                        - name: 'Сигнерцертификате, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcertificate-get_signercertificate
+                - name: IX509CertificateRequestCertificate2
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificaterequestcertificate2
+                  items:
+                    - name: Методы IX509CertificateRequestCertificate2
+                      href: ix509certificaterequestcertificate2-methods.md
+                      items:
+                        - name: Метод Инитиализефромприватекэйтемплате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcertificate2-initializefromprivatekeytemplate
+                        - name: Метод Инитиализефромтемплате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcertificate2-initializefromtemplate
+                    - name: Свойства IX509CertificateRequestCertificate2
+                      href: ix509certificaterequestcertificate2-properties.md
+                      items:
+                        - name: 'Полицисервер, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcertificate2-get_policyserver
+                        - name: Свойство шаблона
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcertificate2-get_template
+                - name: IX509CertificateRequestCmc
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestcmc
+                  items:
+                    - name: Методы IX509CertificateRequestCmc
+                      href: ix509certificaterequestcmc-methods.md
+                      items:
+                        - name: Метод Инитиализефроминнеррекуесттемплатенаме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-initializefrominnerrequesttemplatename
+                    - name: Свойства IX509CertificateRequestCmc
+                      href: ix509certificaterequestcmc-properties.md
+                      items:
+                        - name: 'Арчивеприватекэй, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_archiveprivatekey
+                        - name: 'Критикалекстенсионс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_criticalextensions
+                        - name: 'Криптаттрибутес, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_cryptattributes
+                        - name: 'Енкриптедкэйхаш, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_encryptedkeyhash
+                        - name: 'EncryptionAlgorithm, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_encryptionalgorithm
+                        - name: 'Енкриптионстренгс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_encryptionstrength
+                        - name: 'Кэйарчивалцертификате, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_keyarchivalcertificate
+                        - name: 'Намевалуепаирс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_namevaluepairs
+                        - name: 'Нуллсигнед, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_nullsigned
+                        - name: 'Сендернонце, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_sendernonce
+                        - name: 'Сигнатуреинформатион, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_signatureinformation
+                        - name: 'Сигнерцертификатес, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_signercertificates
+                        - name: 'Суппрессоидс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_suppressoids
+                        - name: 'Темплатеобжектид, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_templateobjectid
+                        - name: 'ИД транзакции, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_transactionid
+                        - name: 'X509Extensions, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_x509extensions
+                - name: IX509CertificateRequestCmc2
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificaterequestcmc2
+                  items:
+                    - name: Методы IX509CertificateRequestCmc2
+                      href: ix509certificaterequestcmc2-methods.md
+                      items:
+                        - name: Метод Чеккцертификатесигнатуре
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-checkcertificatesignature
+                        - name: Метод CheckSignature
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-checksignature
+                        - name: Метод Инитиализефроминнеррекуесттемплате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-initializefrominnerrequesttemplate
+                        - name: Метод Инитиализефромтемплате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-initializefromtemplate
+                    - name: Свойства IX509CertificateRequestCmc2
+                      href: ix509certificaterequestcmc2-properties.md
+                      items:
+                        - name: 'Полицисервер, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-get_policyserver
+                        - name: Свойство шаблона
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestcmc2-get_template
+                - name: IX509CertificateRequestPkcs10
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10
+                  items:
+                    - name: Методы IX509CertificateRequestPkcs10
+                      href: ix509certificaterequestpkcs10-methods.md
+                      items:
+                        - name: Метод CheckSignature
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-checksignature
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-initializedecode
+                        - name: Метод Инитиализефромцертификате
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromcertificate
+                        - name: Метод Инитиализефромприватекэй
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromprivatekey
+                        - name: Метод Инитиализефромпубликкэй
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-initializefrompublickey
+                        - name: Метод Инитиализефромтемплатенаме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromtemplatename
+                        - name: Метод Иссмарткард
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-issmartcard
+                        - name: Метод Жеткспстатусес
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-getcspstatuses
+                    - name: Свойства IX509CertificateRequestPkcs10
+                      href: ix509certificaterequestpkcs10-properties.md
+                      items:
+                        - name: 'Критикалекстенсионс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_criticalextensions
+                        - name: 'Криптаттрибутес, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_cryptattributes
+                        - name: 'Кспстатусес, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_cspstatuses
+                        - name: 'Кэйконтаинернамепрефикс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_keycontainernameprefix
+                        - name: 'Нуллсигнед, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_nullsigned
+                        - name: 'Олдцертификате, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_oldcertificate
+                        - name: 'PrivateKey, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_privatekey
+                        - name: 'PublicKey, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_publickey
+                        - name: 'Равдататобесигнед, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_rawdatatobesigned
+                        - name: 'Реусекэй, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_reusekey
+                        - name: Свойство Signature
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_signature
+                        - name: 'Сигнатуреинформатион, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_signatureinformation
+                        - name: 'Смимекапабилитиес, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_smimecapabilities
+                        - name: Свойство Subject
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_subject
+                        - name: 'Суппрессоидс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_suppressoids
+                        - name: 'Темплатеобжектид, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_templateobjectid
+                        - name: 'X509Extensions, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_x509extensions
+                - name: IX509CertificateRequestPkcs10V2
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificaterequestpkcs10v2
+                  items:
+                    - name: Методы IX509CertificateRequestPkcs10V2
+                      href: ix509certificaterequestpkcs10v2-methods.md
+                      items:
+                        - name: Метод Инитиализефромприватекэйтемплате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-initializefromprivatekeytemplate
+                        - name: Метод Инитиализефромпубликкэйтемплате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-initializefrompublickeytemplate
+                        - name: Метод Инитиализефромтемплате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-initializefromtemplate
+                    - name: Свойства IX509CertificateRequestPkcs10V2
+                      href: ix509certificaterequestpkcs10v2-properties.md
+                      items:
+                        - name: 'Полицисервер, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-get_policyserver
+                        - name: Свойство шаблона
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v2-get_template
+                - name: IX509CertificateRequestPkcs10V3
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificaterequestpkcs10v3
+                  items:
+                    - name: Свойства IX509CertificateRequestPkcs10V3
+                      href: ix509certificaterequestpkcs10v3-properties.md
+                      items:
+                        - name: 'Аттестатионенкриптионцертификате, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_attestationencryptioncertificate
+                        - name: 'Аттестприватекэй, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_attestprivatekey
+                        - name: 'Чалленжепассворд, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_challengepassword
+                        - name: 'EncryptionAlgorithm, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_encryptionalgorithm
+                        - name: 'Енкриптионстренгс, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_encryptionstrength
+                        - name: 'Намевалуепаирс, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_namevaluepairs
+                - name: IX509CertificateRequestPkcs7
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs7
+                  items:
+                    - name: Методы IX509CertificateRequestPkcs7
+                      href: ix509certificaterequestpkcs7-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializedecode
+                        - name: Метод Инитиализефромцертификате
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromcertificate
+                        - name: Метод Инитиализефроминнеррекуест
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializefrominnerrequest
+                        - name: Метод Инитиализефромтемплатенаме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromtemplatename
+                    - name: Свойства IX509CertificateRequestPkcs7
+                      href: ix509certificaterequestpkcs7-properties.md
+                      items:
+                        - name: 'Рекуестернаме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-get_requestername
+                        - name: 'Сигнерцертификате, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-get_signercertificate
+                - name: IX509CertificateRequestPkcs7V2
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificaterequestpkcs7v2
+                  items:
+                    - name: Методы IX509CertificateRequestPkcs7V2
+                      href: ix509certificaterequestpkcs7v2-methods.md
+                      items:
+                        - name: Метод Чеккцертификатесигнатуре
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs7v2-checkcertificatesignature
+                        - name: Метод Инитиализефромтемплате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs7v2-initializefromtemplate
+                    - name: Свойства IX509CertificateRequestPkcs7V2
+                      href: ix509certificaterequestpkcs7v2-properties.md
+                      items:
+                        - name: 'Полицисервер, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs7v2-get_policyserver
+                        - name: Свойство шаблона
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificaterequestpkcs7v2-get_template
+            - name: Интерфейсы регистрации сертификатов
+              href: certificate-enrollment-interfaces.md
+              items:
+                - name: IX509Enrollment
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment
+                  items:
+                    - name: Методы IX509Enrollment
+                      href: ix509enrollment-methods.md
+                      items:
+                        - name: Метод Креатепфкс
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createpfx
+                        - name: Метод Креатерекуест
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createrequest
+                        - name: Метод регистрации
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-enroll
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-initialize
+                        - name: Метод Инитиализефромрекуест
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-initializefromrequest
+                        - name: Метод Инитиализефромтемплатенаме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-initializefromtemplatename
+                        - name: Метод Инсталлреспонсе
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse
+                    - name: Свойства IX509Enrollment
+                      href: ix509enrollment-properties.md
+                      items:
+                        - name: 'Каконфигстринг, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_caconfigstring
+                        - name: Свойство Certificate
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_certificate
+                        - name: 'Цертификатедескриптион, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_certificatedescription
+                        - name: 'CertificateFriendlyName, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_certificatefriendlyname
+                        - name: 'Енроллментконтекст, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_enrollmentcontext
+                        - name: 'Намевалуепаирс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_namevaluepairs
+                        - name: 'Парентвиндов, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_parentwindow
+                        - name: Свойство запроса
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_request
+                        - name: 'RequestId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_requestid
+                        - name: Свойство ответа
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_response
+                        - name: Свойство без уведомления
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_silent
+                        - name: Свойство Status
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_status
+                - name: IX509Enrollment2
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509enrollment2
+                  items:
+                    - name: Методы IX509Enrollment2
+                      href: ix509enrollment2-methods.md
+                      items:
+                        - name: Метод Инитиализефромтемплате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-initializefromtemplate
+                        - name: Метод InstallResponse2
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-installresponse2
+                    - name: Свойства IX509Enrollment2
+                      href: ix509enrollment2-properties.md
+                      items:
+                        - name: 'Полицисервер, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-get_policyserver
+                        - name: 'Рекуестидстринг, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-get_requestidstring
+                        - name: Свойство шаблона
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollment2-get_template
+                - name: IX509EnrollmentHelper
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509enrollmenthelper
+                  items:
+                    - name: Методы IX509EnrollmentHelper
+                      href: ix509enrollmenthelper-methods.md
+                      items:
+                        - name: Метод Адденроллментсервер
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmenthelper-addenrollmentserver
+                        - name: Метод Аддполицисервер
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmenthelper-addpolicyserver
+                        - name: Метод регистрации
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmenthelper-enroll
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmenthelper-initialize
+                - name: IX509EnrollmentStatus
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollmentstatus
+                  items:
+                    - name: Методы IX509EnrollmentStatus
+                      href: ix509enrollmentstatus-methods.md
+                      items:
+                        - name: Метод AppendText
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-appendtext
+                    - name: Свойства IX509EnrollmentStatus
+                      href: ix509enrollmentstatus-properties.md
+                      items:
+                        - name: Отображаемое свойство
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_display
+                        - name: 'Error, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_error
+                        - name: 'ErrorText, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_errortext
+                        - name: Выбранное свойство
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_selected
+                        - name: Свойство Status
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_status
+                        - name: Свойство Text
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentstatus-get_text
+                - name: IX509SCEPEnrollment
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509scepenrollment
+                  items:
+                    - name: Методы IX509SCEPEnrollment
+                      href: ix509scepenrollment-methods.md
+                      items:
+                        - name: Метод Креатерекуестмессаже
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-createrequestmessage
+                        - name: Метод Креатеретриевецертификатемессаже
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-createretrievecertificatemessage
+                        - name: Метод Креатеретриевепендингмессаже
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-createretrievependingmessage
+                        - name: Метод Делетерекуест
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-deleterequest
+                        - name: Initialize - метод
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-initialize
+                        - name: Метод Инитиализефорпендинг
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-initializeforpending
+                        - name: Метод Процессреспонсемессаже
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-processresponsemessage
+                    - name: Свойства IX509SCEPEnrollment
+                      href: ix509scepenrollment-properties.md
+                      items:
+                        - name: Свойство Certificate
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_certificate
+                        - name: 'CertificateFriendlyName, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_certificatefriendlyname
+                        - name: 'Фаилинфо, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_failinfo
+                        - name: 'Олдцертификате, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_oldcertificate
+                        - name: Свойство запроса
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_request
+                        - name: 'Серверкапабилитиес, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-put_servercapabilities
+                        - name: 'Сигнерцертификате, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_signercertificate
+                        - name: Свойство без уведомления
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-put_silent
+                        - name: Свойство Status
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_status
+                        - name: 'ИД транзакции, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509scepenrollment-get_transactionid
+            - name: Интерфейсы фабрики регистрации сертификатов
+              href: certificate-enrollment-factory-interfaces.md
+              items:
+                - name: IX509EnrollmentWebClassFactory
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollmentwebclassfactory
+                  items:
+                    - name: Методы IX509EnrollmentWebClassFactory
+                      href: ix509enrollmentwebclassfactory-methods.md
+                      items:
+                        - name: Метод CreateObject
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollmentwebclassfactory-createobject
+                - name: IX509MachineEnrollmentFactory
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509machineenrollmentfactory
+                  items:
+                    - name: Методы IX509MachineEnrollmentFactory
+                      href: ix509machineenrollmentfactory-methods.md
+                      items:
+                        - name: Метод CreateObject
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509machineenrollmentfactory-createobject
+            - name: Интерфейсы расширения сертификата
+              href: certificate-extension-interfaces.md
+              items:
+                - name: иалтернативенаме
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ialternativename
+                  items:
+                    - name: Методы Иалтернативенаме
+                      href: ialternativename-methods.md
+                      items:
+                        - name: Метод Инитиализефромосернаме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-initializefromothername
+                        - name: Метод Инитиализефромравдата
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-initializefromrawdata
+                        - name: Метод Инитиализефромстринг
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-initializefromstring
+                    - name: Свойства Иалтернативенаме
+                      href: ialternativename-properties.md
+                      items:
+                        - name: 'ObjectId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-get_objectid
+                        - name: 'RawData, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-get_rawdata
+                        - name: 'StrValue, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-get_strvalue
+                        - name: Свойство Type
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativename-get_type
+                - name: иалтернативенамес
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ialternativenames
+                  items:
+                    - name: Методы Иалтернативенамес
+                      href: ialternativenames-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-remove
+                    - name: Свойства Иалтернативенамес
+                      href: ialternativenames-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ialternativenames-get_itembyindex
+                - name: ицертификатеполици
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertificatepolicy
+                  items:
+                    - name: Методы Ицертификатеполици
+                      href: icertificatepolicy-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicy-initialize
+                    - name: Свойства Ицертификатеполици
+                      href: icertificatepolicy-properties.md
+                      items:
+                        - name: 'ObjectId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicy-get_objectid
+                        - name: 'Полицикуалифиерс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicy-get_policyqualifiers
+                - name: ицертификатеполиЦиес
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertificatepolicies
+                  items:
+                    - name: Методы ИцертификатеполиЦиес
+                      href: icertificatepolicies-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-remove
+                    - name: Свойства ИцертификатеполиЦиес
+                      href: icertificatepolicies-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertificatepolicies-get_itembyindex
+                - name: иполицикуалифиер
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifier
+                  items:
+                    - name: Методы Иполицикуалифиер
+                      href: ipolicyqualifier-methods.md
+                      items:
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-initializeencode
+                    - name: Свойства Иполицикуалифиер
+                      href: ipolicyqualifier-properties.md
+                      items:
+                        - name: 'ObjectId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_objectid
+                        - name: Свойство квалификатора
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_qualifier
+                        - name: 'RawData, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_rawdata
+                        - name: Свойство Type
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifier-get_type
+                - name: иполицикуалифиерс
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ipolicyqualifiers
+                  items:
+                    - name: Методы Иполицикуалифиерс
+                      href: ipolicyqualifiers-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-remove
+                    - name: Свойства Иполицикуалифиерс
+                      href: ipolicyqualifiers-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ipolicyqualifiers-get_itembyindex
+                - name: IX509Extension
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extension
+                  items:
+                    - name: Методы IX509Extension
+                      href: ix509extension-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extension-initialize
+                    - name: Свойства IX509Extension
+                      href: ix509extension-properties.md
+                      items:
+                        - name: Критическое свойство
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extension-get_critical
+                        - name: 'ObjectId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extension-get_objectid
+                        - name: 'RawData, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extension-get_rawdata
+                - name: IX509ExtensionAlternativeNames
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionalternativenames
+                  items:
+                    - name: Методы IX509ExtensionAlternativeNames
+                      href: ix509extensionalternativenames-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionalternativenames-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionalternativenames-initializeencode
+                    - name: Свойства IX509ExtensionAlternativeNames
+                      href: ix509extensionalternativenames-properties.md
+                      items:
+                        - name: 'Алтернативенамес, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionalternativenames-get_alternativenames
+                - name: IX509ExtensionAuthorityKeyIdentifier
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionauthoritykeyidentifier
+                  items:
+                    - name: Методы IX509ExtensionAuthorityKeyIdentifier
+                      href: ix509extensionauthoritykeyidentifier-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionauthoritykeyidentifier-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionauthoritykeyidentifier-initializeencode
+                    - name: Свойства IX509ExtensionAuthorityKeyIdentifier
+                      href: ix509extensionauthoritykeyidentifier-properties.md
+                      items:
+                        - name: 'Аусоритикэйидентифиер, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionauthoritykeyidentifier-get_authoritykeyidentifier
+                - name: IX509ExtensionBasicConstraints
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionbasicconstraints
+                  items:
+                    - name: Методы IX509ExtensionBasicConstraints
+                      href: ix509extensionbasicconstraints-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-initializeencode
+                    - name: Свойства IX509ExtensionBasicConstraints
+                      href: ix509extensionbasicconstraints-properties.md
+                      items:
+                        - name: 'Иска, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-get_isca
+                        - name: 'Пасленконстраинт, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionbasicconstraints-get_pathlenconstraint
+                - name: IX509ExtensionCertificatePolicies
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensioncertificatepolicies
+                  items:
+                    - name: Методы IX509ExtensionCertificatePolicies
+                      href: ix509extensioncertificatepolicies-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensioncertificatepolicies-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensioncertificatepolicies-initializeencode
+                    - name: Свойства IX509ExtensionCertificatePolicies
+                      href: ix509extensioncertificatepolicies-properties.md
+                      items:
+                        - name: 'Политика, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensioncertificatepolicies-get_policies
+                - name: IX509ExtensionMSApplicationPolicies
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionmsapplicationpolicies
+                  items:
+                    - name: Методы IX509ExtensionMSApplicationPolicies
+                      href: ix509extensionmsapplicationpolicies-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionmsapplicationpolicies-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionmsapplicationpolicies-initializeencode
+                    - name: Свойства IX509ExtensionMSApplicationPolicies
+                      href: ix509extensionmsapplicationpolicies-properties.md
+                      items:
+                        - name: 'Политика, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionmsapplicationpolicies-get_policies
+                - name: IX509ExtensionEnhancedKeyUsage
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionenhancedkeyusage
+                  items:
+                    - name: Методы IX509ExtensionEnhancedKeyUsage
+                      href: ix509extensionenhancedkeyusage-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionenhancedkeyusage-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionenhancedkeyusage-initializeencode
+                    - name: Свойства IX509ExtensionEnhancedKeyUsage
+                      href: ix509extensionenhancedkeyusage-properties.md
+                      items:
+                        - name: 'Енханцедкэйусаже, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionenhancedkeyusage-get_enhancedkeyusage
+                - name: IX509ExtensionKeyUsage
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionkeyusage
+                  items:
+                    - name: Методы IX509ExtensionKeyUsage
+                      href: ix509extensionkeyusage-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionkeyusage-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionkeyusage-initializeencode
+                    - name: Свойства IX509ExtensionKeyUsage
+                      href: ix509extensionkeyusage-properties.md
+                      items:
+                        - name: 'Кэйусаже, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionkeyusage-get_keyusage
+                - name: IX509Extensions
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensions
+                  items:
+                    - name: Методы IX509Extensions
+                      href: ix509extensions-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-add
+                        - name: Метод AddRange
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-addrange
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-remove
+                    - name: Свойства IX509Extensions
+                      href: ix509extensions-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-get_count
+                        - name: 'Индексбйобжектид, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-get_indexbyobjectid
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensions-get_itembyindex
+                - name: IX509ExtensionSmimeCapabilities
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionsmimecapabilities
+                  items:
+                    - name: Методы IX509ExtensionSmimeCapabilities
+                      href: ix509extensionsmimecapabilities-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsmimecapabilities-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsmimecapabilities-initializeencode
+                    - name: Свойства IX509ExtensionSmimeCapabilities
+                      href: ix509extensionsmimecapabilities-properties.md
+                      items:
+                        - name: 'Смимекапабилитиес, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsmimecapabilities-get_smimecapabilities
+                - name: IX509ExtensionSubjectKeyIdentifier
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionsubjectkeyidentifier
+                  items:
+                    - name: Методы IX509ExtensionSubjectKeyIdentifier
+                      href: ix509extensionsubjectkeyidentifier-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsubjectkeyidentifier-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsubjectkeyidentifier-initializeencode
+                    - name: Свойства IX509ExtensionSubjectKeyIdentifier
+                      href: ix509extensionsubjectkeyidentifier-properties.md
+                      items:
+                        - name: 'Субжекткэйидентифиер, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensionsubjectkeyidentifier-get_subjectkeyidentifier
+                - name: IX509ExtensionTemplate
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensiontemplate
+                  items:
+                    - name: Методы IX509ExtensionTemplate
+                      href: ix509extensiontemplate-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplate-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplate-initializeencode
+                    - name: Свойства IX509ExtensionTemplate
+                      href: ix509extensiontemplate-properties.md
+                      items:
+                        - name: 'MajorVersion, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplate-get_majorversion
+                        - name: Свойство MinorVersion
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplate-get_minorversion
+                        - name: 'Темплатеоид, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplate-get_templateoid
+                - name: IX509ExtensionTemplateName
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509extensiontemplatename
+                  items:
+                    - name: Методы IX509ExtensionTemplateName
+                      href: ix509extensiontemplatename-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplatename-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplatename-initializeencode
+                    - name: Свойства IX509ExtensionTemplateName
+                      href: ix509extensiontemplatename-properties.md
+                      items:
+                        - name: 'TemplateName, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509extensiontemplatename-get_templatename
+                - name: исмимекапабилитиес
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ismimecapabilities
+                  items:
+                    - name: Методы Исмимекапабилитиес
+                      href: ismimecapabilities-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-add
+                        - name: Метод Аддаваилаблесмимекапабилитиес
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-addavailablesmimecapabilities
+                        - name: Метод Аддфромксп
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-addfromcsp
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-remove
+                    - name: Свойства Исмимекапабилитиес
+                      href: ismimecapabilities-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapabilities-get_itembyindex
+                - name: исмимекапабилити
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ismimecapability
+                  items:
+                    - name: Методы Исмимекапабилити
+                      href: ismimecapability-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapability-initialize
+                    - name: Свойства Исмимекапабилити
+                      href: ismimecapability-properties.md
+                      items:
+                        - name: 'Биткаунт, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapability-get_bitcount
+                        - name: 'ObjectId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ismimecapability-get_objectid
+            - name: Интерфейсы атрибутов сертификата
+              href: certificate-attribute-interfaces.md
+              items:
+                - name: икриптаттрибуте
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icryptattribute
+                  items:
+                    - name: Методы Икриптаттрибуте
+                      href: icryptattribute-methods.md
+                      items:
+                        - name: Метод Инитиализефромобжектид
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-initializefromobjectid
+                        - name: Метод Инитиализефромвалуес
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-initializefromvalues
+                    - name: Свойства Икриптаттрибуте
+                      href: icryptattribute-properties.md
+                      items:
+                        - name: 'ObjectId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-get_objectid
+                        - name: Свойство Values
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattribute-get_values
+                - name: икриптаттрибутес
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icryptattributes
+                  items:
+                    - name: Методы Икриптаттрибутес
+                      href: icryptattributes-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-add
+                        - name: Метод AddRange
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-addrange
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-remove
+                    - name: Свойства Икриптаттрибутес
+                      href: icryptattributes-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-get_count
+                        - name: 'Индексбйобжектид, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-get_indexbyobjectid
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icryptattributes-get_itembyindex
+                - name: IX509Attribute
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attribute
+                  items:
+                    - name: Методы IX509Attribute
+                      href: ix509attribute-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attribute-initialize
+                    - name: Свойства IX509Attribute
+                      href: ix509attribute-properties.md
+                      items:
+                        - name: 'ObjectId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attribute-get_objectid
+                        - name: 'RawData, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attribute-get_rawdata
+                - name: IX509AttributeClientId
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeclientid
+                  items:
+                    - name: Методы IX509AttributeClientId
+                      href: ix509attributeclientid-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-initializeencode
+                    - name: Свойства IX509AttributeClientId
+                      href: ix509attributeclientid-properties.md
+                      items:
+                        - name: 'ClientId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_clientid
+                        - name: 'Мачинеднснаме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_machinednsname
+                        - name: 'ProcessName, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_processname
+                        - name: 'Усерсамнаме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeclientid-get_usersamname
+                - name: IX509AttributeExtensions
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeextensions
+                  items:
+                    - name: Методы IX509AttributeExtensions
+                      href: ix509attributeextensions-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeextensions-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeextensions-initializeencode
+                    - name: Свойства IX509AttributeExtensions
+                      href: ix509attributeextensions-properties.md
+                      items:
+                        - name: 'X509Extensions, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeextensions-get_x509extensions
+                - name: IX509AttributeArchiveKey
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekey
+                  items:
+                    - name: Методы IX509AttributeArchiveKey
+                      href: ix509attributearchivekey-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-initializeencode
+                    - name: Свойства IX509AttributeArchiveKey
+                      href: ix509attributearchivekey-properties.md
+                      items:
+                        - name: 'EncryptionAlgorithm, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptionalgorithm
+                        - name: 'Енкриптедкэйблоб, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptedkeyblob
+                        - name: 'Енкриптионстренгс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekey-get_encryptionstrength
+                - name: IX509AttributeArchiveKeyHash
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributearchivekeyhash
+                  items:
+                    - name: Методы IX509AttributeArchiveKeyHash
+                      href: ix509attributearchivekeyhash-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-initializedecode
+                        - name: Метод Инитиализинкодефроменкриптедкэйблоб
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-initializeencodefromencryptedkeyblob
+                    - name: Свойства IX509AttributeArchiveKeyHash
+                      href: ix509attributearchivekeyhash-properties.md
+                      items:
+                        - name: 'Енкриптедкэйхашблоб, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributearchivekeyhash-get_encryptedkeyhashblob
+                - name: IX509AttributeCspProvider
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributecspprovider
+                  items:
+                    - name: Методы IX509AttributeCspProvider
+                      href: ix509attributecspprovider-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-initializeencode
+                    - name: Свойства IX509AttributeCspProvider
+                      href: ix509attributecspprovider-properties.md
+                      items:
+                        - name: 'KeySpec, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-get_keyspec
+                        - name: 'ProviderName, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-get_providername
+                        - name: Свойство Signature
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributecspprovider-get_signature
+                - name: IX509AttributeOSVersion
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributeosversion
+                  items:
+                    - name: Методы IX509AttributeOSVersion
+                      href: ix509attributeosversion-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeosversion-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeosversion-initializeencode
+                    - name: Свойства IX509AttributeOSVersion
+                      href: ix509attributeosversion-properties.md
+                      items:
+                        - name: 'OSVersion, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributeosversion-get_osversion
+                - name: IX509AttributeRenewalCertificate
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributerenewalcertificate
+                  items:
+                    - name: Методы IX509AttributeRenewalCertificate
+                      href: ix509attributerenewalcertificate-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributerenewalcertificate-initializedecode
+                        - name: Метод Инитиализинкоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributerenewalcertificate-initializeencode
+                    - name: Свойства IX509AttributeRenewalCertificate
+                      href: ix509attributerenewalcertificate-properties.md
+                      items:
+                        - name: 'Реневалцертификате, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributerenewalcertificate-get_renewalcertificate
+                - name: IX509Attributes
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes
+                  items:
+                    - name: Методы IX509Attributes
+                      href: ix509attributes-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-remove
+                    - name: Свойства IX509Attributes
+                      href: ix509attributes-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-get_itembyindex
+                - name: IX509NameValuePair
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509namevaluepair
+                  items:
+                    - name: Методы IX509NameValuePair
+                      href: ix509namevaluepair-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepair-initialize
+                    - name: Свойства IX509NameValuePair
+                      href: ix509namevaluepair-properties.md
+                      items:
+                        - name: Свойство Name
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepair-get_name
+                        - name: Свойство Value
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepair-get_value
+                - name: IX509NameValuePairs
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509namevaluepairs
+                  items:
+                    - name: Методы IX509NameValuePairs
+                      href: ix509namevaluepairs-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-remove
+                    - name: Свойства IX509NameValuePairs
+                      href: ix509namevaluepairs-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509namevaluepairs-get_itembyindex
+            - name: Интерфейсы свойств сертификата
+              href: certificate-property-interfaces.md
+              items:
+                - name: ицертпропертиес
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertproperties
+                  items:
+                    - name: Методы Ицертпропертиес
+                      href: icertproperties-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-clear
+                        - name: Метод Инитиализефромцертификате
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-initializefromcertificate
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-remove
+                    - name: Свойства Ицертпропертиес
+                      href: icertproperties-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperties-get_itembyindex
+                - name: ицертпроперти
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertproperty
+                  items:
+                    - name: Методы Ицертпроперти
+                      href: icertproperty-methods.md
+                      items:
+                        - name: Метод Инитиализедекоде
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-initializedecode
+                        - name: Метод Инитиализефромцертификате
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-initializefromcertificate
+                        - name: Метод Ремовефромцертификате
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-removefromcertificate
+                        - name: Метод Сетвалуеонцертификате
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-setvalueoncertificate
+                    - name: Свойства Ицертпроперти
+                      href: icertproperty-properties.md
+                      items:
+                        - name: 'PropertyId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-get_propertyid
+                        - name: 'RawData, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertproperty-get_rawdata
+                - name: ицертпропертярчивед
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyarchived
+                  items:
+                    - name: Методы Ицертпропертярчивед
+                      href: icertpropertyarchived-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyarchived-initialize
+                    - name: Свойства Ицертпропертярчивед
+                      href: icertpropertyarchived-properties.md
+                      items:
+                        - name: Заархивированное свойство
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyarchived-get_archived
+                - name: ицертпропертярчиведкэйхаш
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyarchivedkeyhash
+                  items:
+                    - name: Методы Ицертпропертярчиведкэйхаш
+                      href: icertpropertyarchivedkeyhash-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyarchivedkeyhash-initialize
+                    - name: Свойства Ицертпропертярчиведкэйхаш
+                      href: icertpropertyarchivedkeyhash-properties.md
+                      items:
+                        - name: 'Арчиведкэйхаш, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyarchivedkeyhash-get_archivedkeyhash
+                - name: ицертпропертяутоенролл
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyautoenroll
+                  items:
+                    - name: Методы Ицертпропертяутоенролл
+                      href: icertpropertyautoenroll-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyautoenroll-initialize
+                    - name: Свойства Ицертпропертяутоенролл
+                      href: icertpropertyautoenroll-properties.md
+                      items:
+                        - name: 'TemplateName, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyautoenroll-get_templatename
+                - name: ицертпропертибаккедуп
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertybackedup
+                  items:
+                    - name: Методы Ицертпропертибаккедуп
+                      href: icertpropertybackedup-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-initialize
+                        - name: Метод Инитиализефромкурренттиме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-initializefromcurrenttime
+                    - name: Свойства Ицертпропертибаккедуп
+                      href: icertpropertybackedup-properties.md
+                      items:
+                        - name: 'Баккедупвалуе, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-get_backedupvalue
+                        - name: 'Баккедуптиме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertybackedup-get_backeduptime
+                - name: ицертпропертидескриптион
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertydescription
+                  items:
+                    - name: Методы Ицертпропертидескриптион
+                      href: icertpropertydescription-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertydescription-initialize
+                    - name: Свойства Ицертпропертидескриптион
+                      href: icertpropertydescription-properties.md
+                      items:
+                        - name: Свойство Description
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertydescription-get_description
+                - name: ицертпропертенроллмент
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyenrollment
+                  items:
+                    - name: Методы Ицертпропертенроллмент
+                      href: icertpropertyenrollment-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-initialize
+                    - name: Свойства Ицертпропертенроллмент
+                      href: icertpropertyenrollment-properties.md
+                      items:
+                        - name: 'Каднснаме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_cadnsname
+                        - name: 'Имя_цс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_caname
+                        - name: Свойство FriendlyName
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_friendlyname
+                        - name: 'RequestId, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyenrollment-get_requestid
+                - name: ицертпропертенроллментполицисервер
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver
+                  items:
+                    - name: Методы Ицертпропертенроллментполицисервер
+                      href: icertpropertyenrollmentpolicyserver-methods.md
+                      items:
+                        - name: Метод проверки подлинности
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getauthentication
+                        - name: Метод Жетенроллментсервераусентикатион
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getenrollmentserverauthentication
+                        - name: Метод Жетенроллментсерверурл
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getenrollmentserverurl
+                        - name: Метод Жетполицисерверид
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverid
+                        - name: Метод Жетполицисерверурл
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl
+                        - name: Метод Жетпропертифлагс
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpropertyflags
+                        - name: Метод Жетрекуестидстринг
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getrequestidstring
+                        - name: Метод Жетурлфлагс
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-geturlflags
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize
+                - name: ицертпропертифриендлинаме
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyfriendlyname
+                  items:
+                    - name: Методы Ицертпропертифриендлинаме
+                      href: icertpropertyfriendlyname-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyfriendlyname-initialize
+                    - name: Свойства Ицертпропертифриендлинаме
+                      href: icertpropertyfriendlyname-properties.md
+                      items:
+                        - name: Свойство FriendlyName
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyfriendlyname-get_friendlyname
+                - name: ицертпропертикэйпровинфо
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertykeyprovinfo
+                  items:
+                    - name: Методы Ицертпропертикэйпровинфо
+                      href: icertpropertykeyprovinfo-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertykeyprovinfo-initialize
+                    - name: Свойства Ицертпропертикэйпровинфо
+                      href: icertpropertykeyprovinfo-properties.md
+                      items:
+                        - name: 'PrivateKey, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertykeyprovinfo-get_privatekey
+                - name: ицертпропертиреневал
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyrenewal
+                  items:
+                    - name: Методы Ицертпропертиреневал
+                      href: icertpropertyrenewal-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrenewal-initialize
+                        - name: Метод Инитиализефромцертификатехаш
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrenewal-initializefromcertificatehash
+                    - name: Свойства Ицертпропертиреневал
+                      href: icertpropertyrenewal-properties.md
+                      items:
+                        - name: Свойство продления
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrenewal-get_renewal
+                - name: ицертпропертирекуесторигинатор
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertyrequestoriginator
+                  items:
+                    - name: Методы Ицертпропертирекуесторигинатор
+                      href: icertpropertyrequestoriginator-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrequestoriginator-initialize
+                        - name: Метод Инитиализефромлокалрекуесторигинатор
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrequestoriginator-initializefromlocalrequestoriginator
+                    - name: Свойства Ицертпропертирекуесторигинатор
+                      href: icertpropertyrequestoriginator-properties.md
+                      items:
+                        - name: 'Рекуесторигинатор, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertyrequestoriginator-get_requestoriginator
+                - name: ICertPropertySHA1Hash
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icertpropertysha1hash
+                  items:
+                    - name: Методы ICertPropertySHA1Hash
+                      href: icertpropertysha1hash-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertysha1hash-initialize
+                    - name: Свойства ICertPropertySHA1Hash
+                      href: icertpropertysha1hash-properties.md
+                      items:
+                        - name: 'SHA1Hash, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icertpropertysha1hash-get_sha1hash
+            - name: Интерфейсы шаблонов сертификатов
+              href: certificate-template-interfaces.md
+              items:
+                - name: IX509CertificateTemplate
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificatetemplate
+                  items:
+                    - name: Свойства IX509CertificateTemplate
+                      href: ix509certificatetemplate-properties.md
+                      items:
+                        - name: Свойство Property
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplate-get_property
+                - name: IX509CertificateTemplates
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificatetemplates
+                  items:
+                    - name: Методы IX509CertificateTemplates
+                      href: ix509certificatetemplates-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-remove
+                    - name: Свойства IX509CertificateTemplates
+                      href: ix509certificatetemplates-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-get_count
+                        - name: 'Итембинаме, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-get_itembyname
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-get_itembyindex
+                        - name: 'Итембйоид, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplates-get_itembyoid
+                - name: IX509CertificateTemplateWritable
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509certificatetemplatewritable
+                  items:
+                    - name: Методы IX509CertificateTemplateWritable
+                      href: ix509certificatetemplatewritable-methods.md
+                      items:
+                        - name: Метод Commit
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplatewritable-commit
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplatewritable-initialize
+                    - name: Свойства IX509CertificateTemplateWritable
+                      href: ix509certificatetemplatewritable-properties.md
+                      items:
+                        - name: Свойство Property
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplatewritable-get_property
+                        - name: Свойство шаблона
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509certificatetemplatewritable-get_template
+            - name: Интерфейсы сервера политики сертификатов
+              href: certificate-policy-server-interfaces.md
+              items:
+                - name: IX509EnrollmentPolicyServer
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509enrollmentpolicyserver
+                  items:
+                    - name: Методы IX509EnrollmentPolicyServer
+                      href: ix509enrollmentpolicyserver-methods.md
+                      items:
+                        - name: Метод экспорта
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-export
+                        - name: Метод Жеталловунтрустедка
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getallowuntrustedca
+                        - name: Метод Жетаусфлагс
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getauthflags
+                        - name: Метод Жеткачедир
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcachedir
+                        - name: Метод Жеткачепас
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcachepath
+                        - name: Метод Жеткас
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcas
+                        - name: Метод Жеткасфортемплате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcasfortemplate
+                        - name: Метод Жеткустомоидс
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcustomoids
+                        - name: Метод Жетфриендлинаме
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getfriendlyname
+                        - name: Метод Жетисдефаултцеп
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getisdefaultcep
+                        - name: Метод Жетластупдатетиме
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getlastupdatetime
+                        - name: Метод Жетнекступдатетиме
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getnextupdatetime
+                        - name: Метод Жетполицисерверид
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getpolicyserverid
+                        - name: Метод Жетполицисерверурл
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getpolicyserverurl
+                        - name: Метод DataTemplate
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-gettemplates
+                        - name: Метод Жетусеклиентид
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-getuseclientid
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-initialize
+                        - name: Метод Инитиализеимпорт
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-initializeimport
+                        - name: Метод Лоадполици
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy
+                        - name: Метод Куеричанжес
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-querychanges
+                        - name: Метод Сеткредентиал
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-setcredential
+                        - name: Метод Validate
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-validate
+                    - name: Свойства IX509EnrollmentPolicyServer
+                      href: ix509enrollmentpolicyserver-properties.md
+                      items:
+                        - name: Свойство "стоимость"
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-get_cost
+                - name: IX509PolicyServerListManager
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509policyserverlistmanager
+                  items:
+                    - name: Методы IX509PolicyServerListManager
+                      href: ix509policyserverlistmanager-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-clear
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-initialize
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-remove
+                    - name: Свойства IX509PolicyServerListManager
+                      href: ix509policyserverlistmanager-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509policyserverlistmanager-get_itembyindex
+                - name: IX509PolicyServerUrl
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509policyserverurl
+                  items:
+                    - name: Методы IX509PolicyServerUrl
+                      href: ix509policyserverurl-methods.md
+                      items:
+                        - name: Метод Жетстрингпроперти
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-getstringproperty
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-initialize
+                        - name: Метод Ремовефромрегистри
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-removefromregistry
+                        - name: Метод Сетстрингпроперти
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-setstringproperty
+                        - name: Метод UpdateRegistry
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-updateregistry
+                    - name: Свойства IX509PolicyServerUrl
+                      href: ix509policyserverurl-properties.md
+                      items:
+                        - name: 'AuthFlags, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-get_authflags
+                        - name: Свойство "стоимость"
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-get_cost
+                        - name: Свойство по умолчанию
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-get_default
+                        - name: 'Flags, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-get_flags
+                        - name: Свойство URL-адреса
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509policyserverurl-get_url
+            - name: Сигнатуры сертификата и интерфейсы ключей
+              href: certificate-signature-and-key-interfaces.md
+              items:
+                - name: исигнерцертификате
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-isignercertificate
+                  items:
+                    - name: Методы Исигнерцертификате
+                      href: isignercertificate-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-initialize
+                    - name: Свойства Исигнерцертификате
+                      href: isignercertificate-properties.md
+                      items:
+                        - name: Свойство Certificate
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_certificate
+                        - name: 'Парентвиндов, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_parentwindow
+                        - name: Закрепить свойство
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-put_pin
+                        - name: 'PrivateKey, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_privatekey
+                        - name: 'Сигнатуреинформатион, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_signatureinformation
+                        - name: Свойство без уведомления
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_silent
+                        - name: 'Уиконтекстмессаже, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificate-get_uicontextmessage
+                - name: исигнерцертификатес
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-isignercertificates
+                  items:
+                    - name: Методы Исигнерцертификатес
+                      href: isignercertificates-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-clear
+                        - name: Метод Find
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-find
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-remove
+                    - name: Свойства Исигнерцертификатес
+                      href: isignercertificates-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-isignercertificates-get_itembyindex
+                - name: IX509PrivateKey
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509privatekey
+                  items:
+                    - name: Методы IX509PrivateKey
+                      href: ix509privatekey-methods.md
+                      items:
+                        - name: Метод Close
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-close
+                        - name: Создать метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-create
+                        - name: Метод Delete
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-delete
+                        - name: Метод экспорта
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-export
+                        - name: Метод Експортпубликкэй
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-exportpublickey
+                        - name: Метод импорта
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-import
+                        - name: Метод Open
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-open
+                        - name: Метод Verify
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-verify
+                    - name: Свойства IX509PrivateKey
+                      href: ix509privatekey-properties.md
+                      items:
+                        - name: Свойство Algorithm
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_algorithm
+                        - name: Свойство Certificate
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_certificate
+                        - name: 'ContainerName, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_containername
+                        - name: 'Контаинернамепрефикс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_containernameprefix
+                        - name: 'Кспинформатионс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_cspinformations
+                        - name: 'Кспстатус, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_cspstatus
+                        - name: 'Дефаултконтаинер, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_defaultcontainer
+                        - name: Свойство Description
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_description
+                        - name: Существующее свойство
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_existing
+                        - name: 'Експортполици, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_exportpolicy
+                        - name: Свойство FriendlyName
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_friendlyname
+                        - name: 'Кэйпротектион, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_keyprotection
+                        - name: 'KeySpec, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_keyspec
+                        - name: 'Кэйусаже, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_keyusage
+                        - name: 'Легациксп, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_legacycsp
+                        - name: Свойство Length
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_length
+                        - name: 'Мачинеконтекст, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_machinecontext
+                        - name: Открытое свойство
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_opened
+                        - name: 'Парентвиндов, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_parentwindow
+                        - name: Закрепить свойство
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-put_pin
+                        - name: 'ProviderName, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_providername
+                        - name: Свойство ProviderType
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_providertype
+                        - name: 'Реадернаме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_readername
+                        - name: 'SecurityDescriptor, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_securitydescriptor
+                        - name: Свойство без уведомления
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_silent
+                        - name: 'Уиконтекстмессаже, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_uicontextmessage
+                        - name: 'Уникуеконтаинернаме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509privatekey-get_uniquecontainername
+                - name: IX509PublicKey
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509publickey
+                  items:
+                    - name: Методы IX509PublicKey
+                      href: ix509publickey-methods.md
+                      items:
+                        - name: Метод Компутекэйидентифиер
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-computekeyidentifier
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-initialize
+                        - name: Метод Инитиализефроменкодедпубликкэйинфо
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-initializefromencodedpublickeyinfo
+                    - name: Свойства IX509PublicKey
+                      href: ix509publickey-properties.md
+                      items:
+                        - name: Свойство Algorithm
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-get_algorithm
+                        - name: 'Енкодедкэй, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-get_encodedkey
+                        - name: 'Енкодедпараметерс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-get_encodedparameters
+                        - name: Свойство Length
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509publickey-get_length
+                - name: IX509SignatureInformation
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix509signatureinformation
+                  items:
+                    - name: Методы IX509SignatureInformation
+                      href: ix509signatureinformation-methods.md
+                      items:
+                        - name: Метод Жетсигнатуреалгорисм
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm
+                        - name: Метод Сетдефаултвалуес
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-setdefaultvalues
+                    - name: Свойства IX509SignatureInformation
+                      href: ix509signatureinformation-properties.md
+                      items:
+                        - name: 'Алтернатесигнатуреалгорисм, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithm
+                        - name: 'Алтернатесигнатуреалгорисмсет, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithmset
+                        - name: 'HashAlgorithm, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_hashalgorithm
+                        - name: 'Нуллсигнед, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_nullsigned
+                        - name: Свойство Parameters
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_parameters
+                        - name: 'Публиккэйалгорисм, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix509signatureinformation-get_publickeyalgorithm
+            - name: Интерфейсы центра сертификации
+              href: certification-authority-interfaces.md
+              items:
+                - name: ицертификатионаусоритиес
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-icertificationauthorities
+                  items:
+                    - name: Методы Ицертификатионаусоритиес
+                      href: icertificationauthorities-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-clear
+                        - name: Метод Компутеситекостс
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-computesitecosts
+                        - name: Удалить метод
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-remove
+                    - name: Свойства Ицертификатионаусоритиес
+                      href: icertificationauthorities-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-get_itembyindex
+                        - name: 'Итембинаме, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthorities-get_itembyname
+                - name: ицертификатионаусорити
+                  href: /windows/desktop/api/certenroll/nn-certenroll-icertificationauthority
+                  items:
+                    - name: Свойства Ицертификатионаусорити
+                      href: icertificationauthority-properties.md
+                      items:
+                        - name: Свойство Property
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificationauthority-get_property
+            - name: Интерфейсы поставщика служб шифрования
+              href: cryptographic-provider-interfaces.md
+              items:
+                - name: икспалгорисм
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspalgorithm
+                  items:
+                    - name: Методы Икспалгорисм
+                      href: icspalgorithm-methods.md
+                      items:
+                        - name: Метод Жеталгорисмоид
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-getalgorithmoid
+                    - name: Свойства Икспалгорисм
+                      href: icspalgorithm-properties.md
+                      items:
+                        - name: 'Дефаултленгс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_defaultlength
+                        - name: 'Инкрементленгс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_incrementlength
+                        - name: 'LongName, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_longname
+                        - name: 'MaxLength, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_maxlength
+                        - name: 'MinLength, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_minlength
+                        - name: Свойство Name
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_name
+                        - name: Свойство Operations
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_operations
+                        - name: Свойство Type
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_type
+                        - name: Допустимое свойство
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithm-get_valid
+                - name: икспалгорисмс
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspalgorithms
+                  items:
+                    - name: Методы Икспалгорисмс
+                      href: icspalgorithms-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-remove
+                    - name: Свойства Икспалгорисмс
+                      href: icspalgorithms-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-get_count
+                        - name: 'Индексбйобжектид, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-get_indexbyobjectid
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-get_itembyindex
+                        - name: 'Итембинаме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspalgorithms-get_itembyname
+                - name: икспинформатион
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspinformation
+                  items:
+                    - name: Методы Икспинформатион
+                      href: icspinformation-methods.md
+                      items:
+                        - name: Метод Жеткспстатусфромоператионс
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-getcspstatusfromoperations
+                        - name: Метод Жетдефаултсекуритидескриптор
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-getdefaultsecuritydescriptor
+                        - name: Метод Инитиализефромнаме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-initializefromname
+                        - name: Метод Инитиализефромтипе
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-initializefromtype
+                    - name: Свойства Икспинформатион
+                      href: icspinformation-properties.md
+                      items:
+                        - name: 'Кспалгорисмс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_cspalgorithms
+                        - name: 'Хашардварерандомнумберженератор, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_hashardwarerandomnumbergenerator
+                        - name: 'Ишардваредевице, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_ishardwaredevice
+                        - name: Свойство «не задано»
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_isremovable
+                        - name: 'Иссмарткард, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_issmartcard
+                        - name: 'Иссофтваредевице, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_issoftwaredevice
+                        - name: 'KeySpec, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_keyspec
+                        - name: 'Легациксп, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_legacycsp
+                        - name: 'Макскэйконтаинернамеленгс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_maxkeycontainernamelength
+                        - name: Свойство Name
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_name
+                        - name: Свойство Type
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_type
+                        - name: Допустимое свойство
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_valid
+                        - name: Свойство Version
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformation-get_version
+                - name: икспинформатионс
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspinformations
+                  items:
+                    - name: Методы Икспинформатионс
+                      href: icspinformations-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-add
+                        - name: Метод Аддаваилаблекспс
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-addavailablecsps
+                        - name: Метод Жеткспстатусесфромоператионс
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-getcspstatusesfromoperations
+                        - name: Метод Жеткспстатусфромпровидернаме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-getcspstatusfromprovidername
+                        - name: Метод Жетенкриптионкспалгорисмс
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-getencryptioncspalgorithms
+                        - name: Метод Жесашалгорисмс
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-gethashalgorithms
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-remove
+                    - name: Свойства Икспинформатионс
+                      href: icspinformations-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-get_itembyindex
+                        - name: 'Итембинаме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspinformations-get_itembyname
+                - name: икспстатус
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspstatus
+                  items:
+                    - name: Методы Икспстатус
+                      href: icspstatus-methods.md
+                      items:
+                        - name: Метод Initialize
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-initialize
+                    - name: Свойства Икспстатус
+                      href: icspstatus-properties.md
+                      items:
+                        - name: 'Кспалгорисм, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-get_cspalgorithm
+                        - name: 'Кспинформатион, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-get_cspinformation
+                        - name: Свойство DisplayName
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-get_displayname
+                        - name: 'Енроллментстатус, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-get_enrollmentstatus
+                        - name: Свойство Ordinal
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatus-get_ordinal
+                - name: икспстатусес
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-icspstatuses
+                  items:
+                    - name: Методы Икспстатусес
+                      href: icspstatuses-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-add
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-remove
+                    - name: Свойства Икспстатусес
+                      href: icspstatuses-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_itembyindex
+                        - name: 'Итембинаме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_itembyname
+                        - name: 'Итембйоператионс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_itembyoperations
+                        - name: 'Итембйординал, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_itembyordinal
+                        - name: 'Итембипровидер, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-icspstatuses-get_itembyprovider
+            - name: Вспомогательные интерфейсы
+              href: helper-interfaces.md
+              items:
+                - name: ибинариконвертер
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ibinaryconverter
+                  items:
+                    - name: Методы Ибинариконвертер
+                      href: ibinaryconverter-methods.md
+                      items:
+                        - name: Метод Стрингтостринг
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ibinaryconverter-stringtostring
+                        - name: Метод Стрингтовариантбитеаррай
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ibinaryconverter-stringtovariantbytearray
+                        - name: Метод Вариантбитеаррайтостринг
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ibinaryconverter-variantbytearraytostring
+                - name: ицертификатеаттестатиончалленже
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-icertificateattestationchallenge
+                  items:
+                    - name: Методы Ицертификатеаттестатиончалленже
+                      href: icertificateattestationchallenge-methods.md
+                      items:
+                        - name: Метод Декриптчалленже
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificateattestationchallenge-decryptchallenge
+                        - name: Initialize - метод
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificateattestationchallenge-initialize
+                    - name: Свойства Ицертификатеаттестатиончалленже
+                      href: icertificateattestationchallenge-properties.md
+                      items:
+                        - name: 'RequestID, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-icertificateattestationchallenge-get_requestid
+                - name: иобжектид
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-iobjectid
+                  items:
+                    - name: Методы Иобжектид
+                      href: iobjectid-methods.md
+                      items:
+                        - name: Метод Инитиализефромалгорисмнаме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-initializefromalgorithmname
+                        - name: Метод Инитиализефромнаме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-initializefromname
+                        - name: Метод Инитиализефромвалуе
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-initializefromvalue
+                        - name: Метод Жеталгорисмнаме
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-getalgorithmname
+                    - name: Свойства Иобжектид
+                      href: iobjectid-properties.md
+                      items:
+                        - name: Свойство FriendlyName
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-get_friendlyname
+                        - name: Свойство Name
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-get_name
+                        - name: Свойство Value
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectid-get_value
+                - name: иобжектидс
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-iobjectids
+                  items:
+                    - name: Методы Иобжектидс
+                      href: iobjectids-methods.md
+                      items:
+                        - name: Добавить метод.
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-add
+                        - name: Метод AddRange
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-addrange
+                        - name: Метод Clear
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-clear
+                        - name: Удалить метод
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-remove
+                    - name: Свойства Иобжектидс
+                      href: iobjectids-properties.md
+                      items:
+                        - name: '_NewEnum, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get__newenum
+                        - name: 'Count, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get_count
+                        - name: 'Итембиндекс, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-iobjectids-get_itembyindex
+                - name: IX500DistinguishedName
+                  href: /windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname
+                  items:
+                    - name: Методы IX500DistinguishedName
+                      href: ix500distinguishedname-methods.md
+                      items:
+                        - name: Метод дешифровки
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix500distinguishedname-decode
+                        - name: Метод кодирования
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix500distinguishedname-encode
+                    - name: Свойства IX500DistinguishedName
+                      href: ix500distinguishedname-properties.md
+                      items:
+                        - name: 'Енкодеднаме, свойство'
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix500distinguishedname-get_encodedname
+                        - name: Свойство Name
+                          href: /windows/desktop/api/CertEnroll/nf-certenroll-ix500distinguishedname-get_name
+                - name: IX509EndorsementKey
+                  href: /windows/desktop/api/Certenroll/nn-certenroll-ix509endorsementkey
+                  items:
+                    - name: Методы IX509EndorsementKey
+                      href: ix509endorsementkey-methods.md
+                      items:
+                        - name: Метод Аддцертификате
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-addcertificate
+                        - name: Метод Close
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-close
+                        - name: Метод Експортпубликкэй
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-exportpublickey
+                        - name: Метод Жетцертификатебиндекс
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-getcertificatebyindex
+                        - name: Метод Жетцертификатекаунт
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-getcertificatecount
+                        - name: 'Open, метод'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-open
+                        - name: 'RemoveCertificate, метод'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-removecertificate
+                    - name: Свойства IX509EndorsementKey
+                      href: ix509endorsementkey-properties.md
+                      items:
+                        - name: Свойство Length
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-get_length
+                        - name: Открытое свойство
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-get_opened
+                        - name: 'ProviderName, свойство'
+                          href: /windows/desktop/api/Certenroll/nf-certenroll-ix509endorsementkey-get_providername
+        - name: Перечисления Цертенролл
+          href: certenroll-enumerations.md
+          items:
+            - name: алгорисмфлагс
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-algorithmflags
+            - name: алгорисмоператионфлагс
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-algorithmoperationflags
+            - name: алгорисмтипе
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-algorithmtype
+            - name: алтернативенаметипе
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-alternativenametype
+            - name: CERTENROLL_OBJECTID
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-certenroll_objectid
+            - name: CERTENROLL_PROPERTYID
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-certenroll_propertyid
+            - name: коммиттемплатефлагс
+              href: /windows/desktop/api/Certenroll/ne-certenroll-committemplateflags
+            - name: енкодингтипе
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-encodingtype
+            - name: енроллменткапроперти
+              href: /windows/desktop/api/Certenroll/ne-certenroll-enrollmentcaproperty
+            - name: енроллментдисплайстатус
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-enrollmentdisplaystatus
+            - name: енроллментенроллстатус
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-enrollmentenrollstatus
+            - name: енроллментполицифлагс
+              href: /windows/desktop/api/Certenroll/ne-certenroll-enrollmentpolicyflags
+            - name: енроллментполицисерверпропертифлагс
+              href: /windows/desktop/api/Certenroll/ne-certenroll-enrollmentpolicyserverpropertyflags
+            - name: енроллментселектионстатус
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-enrollmentselectionstatus
+            - name: енроллменттемплатепроперти
+              href: /windows/desktop/api/Certenroll/ne-certenroll-enrollmenttemplateproperty
+            - name: иннеррекуестлевел
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-innerrequestlevel
+            - name: инсталлреспонсерестриктионфлагс
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-installresponserestrictionflags
+            - name: кэйидентифиерхашалгорисм
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-keyidentifierhashalgorithm
+            - name: обжектидграупид
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-objectidgroupid
+            - name: обжектидпубликкэйфлагс
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-objectidpublickeyflags
+            - name: пфксекспортоптионс
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-pfxexportoptions
+            - name: Pkcs10AllowedSignatureTypes
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-pkcs10allowedsignaturetypes
+            - name: полицикуалифиертипе
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-policyqualifiertype
+            - name: полицисерверурлфлагс
+              href: /windows/desktop/api/Certenroll/ne-certenroll-policyserverurlflags
+            - name: полицисерверурлпропертид
+              href: /windows/desktop/api/Certenroll/ne-certenroll-policyserverurlpropertyid
+            - name: рекуестклиентинфоклиентид
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-requestclientinfoclientid
+            - name: вебенроллментфлагс
+              href: /windows/desktop/api/Certenroll/ne-certenroll-webenrollmentflags
+            - name: вебсекуритилевел
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-websecuritylevel
+            - name: X500NameFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x500nameflags
+            - name: X509CertificateEnrollmentContext
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509certificateenrollmentcontext
+            - name: X509CertificateTemplateEnrollmentFlag
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509certificatetemplateenrollmentflag
+            - name: X509CertificateTemplateGeneralFlag
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509certificatetemplategeneralflag
+            - name: X509CertificateTemplatePrivateKeyFlag
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509certificatetemplateprivatekeyflag
+            - name: X509CertificateTemplateSubjectNameFlag
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509certificatetemplatesubjectnameflag
+            - name: X509EnrollmentPolicyExportFlags
+              href: /windows/desktop/api/Certenroll/ne-certenroll-x509enrollmentpolicyexportflags
+            - name: X509EnrollmentPolicyLoadOption
+              href: /windows/desktop/api/Certenroll/ne-certenroll-x509enrollmentpolicyloadoption
+            - name: X509KeySpec
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509keyspec
+            - name: X509KeyUsageFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509keyusageflags
+            - name: X509PrivateKeyExportFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509privatekeyexportflags
+            - name: X509PrivateKeyProtection
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509privatekeyprotection
+            - name: X509PrivateKeyUsageFlags
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509privatekeyusageflags
+            - name: X509PrivateKeyVerify
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509privatekeyverify
+            - name: X509ProviderType
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509providertype
+            - name: X509RequestInheritOptions
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509requestinheritoptions
+            - name: X509RequestType
+              href: /windows/desktop/api/CertEnroll/ne-certenroll-x509requesttype
+            - name: X509SCEPDisposition
+              href: /windows/desktop/api/certpol/ne-certpol-x509scepdisposition
+            - name: X509SCEPFailInfo
+              href: /windows/desktop/api/certpol/ne-certpol-x509scepfailinfo
