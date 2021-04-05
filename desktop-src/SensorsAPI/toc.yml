@@ -1,0 +1,218 @@
+- name: API датчика
+  href: portal.md
+  items:
+    - name: Приступая к работе
+      href: getting-started.md
+      items:
+        - name: Обзор платформы датчиков и расположения Windows
+          href: introduction-to-the-sensor-and-location-platform-in-windows.md
+        - name: Конфиденциальность и безопасность на платформе датчиков и расположений
+          href: privacy-and-security-in-the-sensor-and-location-platform.md
+        - name: Общие требования для разработки приложений
+          href: general-requirements-for-application-development.md
+        - name: О примерах и средствах
+          href: about-the-samples.md
+    - name: Сведения об API датчика
+      href: about-the-sensor-api.md
+      items:
+        - name: Объект диспетчера датчиков
+          href: the-sensor-manager.md
+        - name: Объект датчика
+          href: the-sensor-object.md
+        - name: Объект коллекции датчиков
+          href: the-sensor-collection-object.md
+        - name: Объект отчета с данными датчика
+          href: the-sensor-data-report-object.md
+        - name: Сведения о событиях API датчика
+          href: about-sensor-events.md
+        - name: Сведения о константах датчика
+          href: about-sensor-constants.md
+        - name: Управление разрешениями пользователей
+          href: managing-user-permissions.md
+        - name: О логических датчиках
+          href: about-logical-sensors.md
+    - name: Программное руководством по программированию API датчика
+      href: sensor-api-programming-guide.md
+      items:
+        - name: Получение объекта датчика
+          href: retrieving-a-sensor.md
+        - name: Запрос разрешений пользователя
+          href: requesting-user-permissions.md
+        - name: Извлечение и задание свойств датчика
+          href: setting-and-retrieving-sensor-properties.md
+        - name: Проверка поддерживаемых полей данных датчика
+          href: checking-for-supported-sensor-data-fields.md
+        - name: Использование событий API датчика
+          href: using-sensor-api-events.md
+        - name: Получение значений данных датчика
+          href: retrieving-sensor-data-fields.md
+        - name: Получение типов векторов
+          href: retrieving-vector-types.md
+        - name: Использование логических датчиков
+          href: using-logical-sensors.md
+        - name: Создание пользовательских интерфейсов Light-Aware
+          href: creating-light-aware-user-interfaces.md
+          items:
+            - name: Основные принципы работы Light-Aware пользовательских интерфейсов
+              href: fundamentals-of-light-aware-user-interfaces.md
+            - name: Примеры пользовательских интерфейсов Light-Aware
+              href: examples-of-light-aware-user-interfaces.md
+            - name: Оптимизация взаимодействия с пользователем
+              href: optimizing-the-user-experience.md
+            - name: Основные сведения и интерпретация значений Lux
+              href: understanding-and-interpreting-lux-values.md
+            - name: Использование данных освещения
+              href: handling-data-from-multiple-light-sensors.md
+    - name: Справочник по программированию API датчика
+      href: sensor-api-programming-reference.md
+      items:
+        - name: Интерфейсы COM
+          href: windows-sensors-com-interfaces.md
+          items:
+            - name: илокатионпермиссионс
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions
+              items:
+                - name: Метод Жетглобаллокатионпермиссион
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-getgloballocationpermission
+                - name: Метод Чекклокатионкапабилити
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-checklocationcapability
+            - name: илогикалсенсорманажер
+              href: /previous-versions/windows/desktop/legacy/dd318934(v=vs.85)
+              items:
+                - name: Метод Connect
+                  href: /previous-versions/windows/desktop/legacy/dd374029(v=vs.85)
+                - name: Метод Disconnect
+                  href: /previous-versions/windows/desktop/legacy/dd374030(v=vs.85)
+                - name: Метод удаления
+                  href: /previous-versions/windows/desktop/legacy/dd374031(v=vs.85)
+            - name: исенсор
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensor
+              items:
+                - name: Метод Category
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getcategory
+                - name: Метод GetData
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getdata
+                - name: Метод Жетевентинтерест
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-geteventinterest
+                - name: Метод Жетфриендлинаме
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getfriendlyname
+                - name: Метод GetID
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getid
+                - name: Метод WebMethod
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties
+                - name: Метод GetProperty
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperty
+                - name: Метод WebMethod
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getstate
+                - name: Метод Жетсуппортеддатафиелдс
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getsupporteddatafields
+                - name: Метод GetType
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-gettype
+                - name: Метод Сетевентинтерест
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest
+                - name: Метод Сетевентсинк
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventsink
+                - name: Метод SetProperties
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-setproperties
+                - name: Метод Суппортсдатафиелд
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-supportsdatafield
+                - name: Метод Суппортсевент
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-supportsevent
+            - name: исенсорколлектион
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection
+              items:
+                - name: Добавить метод.
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-add
+                - name: Метод Clear
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-clear
+                - name: Метод GetAt
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-getat
+                - name: Метод GetCount
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-getcount
+                - name: Удалить метод
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-remove
+                - name: Метод Ремовебид
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-removebyid
+            - name: исенсордатарепорт
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport
+              items:
+                - name: Метод Жетсенсорвалуе
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensordatareport-getsensorvalue
+                - name: Метод Жетсенсорвалуес
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensordatareport-getsensorvalues
+                - name: Метод timestamp
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensordatareport-gettimestamp
+            - name: исенсоревентс
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents
+              items:
+                - name: Метод OnEvent
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onevent
+                - name: Метод Ондатаупдатед
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-ondataupdated
+                - name: Метод Leave
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onleave
+                - name: Метод Онстатечанжед
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onstatechanged
+            - name: исенсорманажер
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager
+              items:
+                - name: Метод Жетсенсорбид
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorbyid
+                - name: Метод Жетсенсорсбикатегори
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorsbycategory
+                - name: Метод Жетсенсорсбитипе
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorsbytype
+                - name: Метод Рекуестпермиссионс
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions
+                - name: Метод Сетевентсинк
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-seteventsink
+            - name: исенсорманажеревентс
+              href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents
+              items:
+                - name: Метод Онсенсорентер
+                  href: /windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanagerevents-onsensorenter
+        - name: Типы перечисления
+          href: enumeration-types.md
+          items:
+            - name: магнетометераккураци
+              href: /windows/desktop/api/sensorsapi/ne-sensorsapi-magnetometeraccuracy
+            - name: сенсорконнектионтипе
+              href: /windows/desktop/api/sensorsapi/ne-sensorsapi-sensorconnectiontype
+            - name: сенсорстате
+              href: /windows/desktop/api/sensorsapi/ne-sensorsapi-sensorstate
+        - name: Константы
+          href: constants.md
+          items:
+            - name: 'Категории, типы и поля данных датчика'
+              href: sensor-categories--types--and-datafields.md
+              items:
+                - name: SENSOR_CATEGORY_ALL
+                  href: sensor-category-all.md
+                - name: SENSOR_CATEGORY_BIOMETRIC
+                  href: sensor-category-biometric.md
+                - name: SENSOR_CATEGORY_ELECTRICAL
+                  href: sensor-category-electrical.md
+                - name: SENSOR_CATEGORY_ENVIRONMENTAL
+                  href: sensor-category-environmental.md
+                - name: SENSOR_CATEGORY_LIGHT
+                  href: sensor-category-light.md
+                - name: SENSOR_CATEGORY_LOCATION
+                  href: sensor-category-location.md
+                - name: SENSOR_CATEGORY_MECHANICAL
+                  href: sensor-category-mechanical.md
+                - name: SENSOR_CATEGORY_MOTION
+                  href: sensor-category-motion.md
+                - name: SENSOR_CATEGORY_ORIENTATION
+                  href: sensor-category-orientation.md
+                - name: SENSOR_CATEGORY_OTHER
+                  href: sensor-category-other.md
+                - name: SENSOR_CATEGORY_SCANNER
+                  href: sensor-category-scanner.md
+                - name: SENSOR_CATEGORY_UNSUPPORTED
+                  href: sensor-category-unsupported.md
+            - name: Свойства датчика
+              href: sensor-properties.md
+            - name: Константы событий
+              href: event-constants.md
+    - name: Глоссарий API датчика
+      href: sensors-glossary.md
