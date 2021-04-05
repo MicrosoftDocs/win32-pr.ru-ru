@@ -1,0 +1,111 @@
+---
+description: Представляет связь между экземпляром Мсвм \_ ComputerSystem, представляющей виртуальную машину, и экземпляром мсвм \_ репликатионрелатионшип, который представляет отношение репликации виртуальной машины.
+ms.assetid: 23E7BF91-9527-434C-A571-05879E83950E
+title: Класс Msvm_SystemReplicationRelationship
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Msvm_SystemReplicationRelationship
+- Msvm_SystemReplicationRelationship.Antecedent
+- Msvm_SystemReplicationRelationship.Dependent
+api_type:
+- DllExport
+api_location:
+- vmms.exe
+ms.openlocfilehash: dd5ada4eef811a7d542c01c0a3be66d53cca0916
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103990931"
+---
+# <a name="msvm_systemreplicationrelationship-class"></a>\_Класс мсвм системрепликатионрелатионшип
+
+Представляет связь между экземпляром [**мсвм \_ ComputerSystem**](msvm-computersystem.md) , представляющей виртуальную машину, и экземпляром [**мсвм \_ репликатионрелатионшип**](msvm-replicationrelationship.md) , который представляет отношение репликации виртуальной машины. Этот класс является производным от [**класса \_ зависимостей CIM**](/windows/desktop/CIMWin32Prov/cim-dependency) .
+
+Следующий синтаксис упрощен из MOF-кода и включает все унаследованные свойства.
+
+## <a name="syntax"></a>Синтаксис
+
+``` syntax
+[Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
+class Msvm_SystemReplicationRelationship : CIM_Dependency
+{
+  Msvm_ComputerSystem          REF Antecedent;
+  Msvm_ReplicationRelationship REF Dependent;
+};
+```
+
+## <a name="members"></a>Члены
+
+Класс **мсвм \_ системрепликатионрелатионшип** имеет следующие типы членов:
+
+-   [Свойства](#properties)
+
+### <a name="properties"></a>Свойства
+
+Класс **мсвм \_ системрепликатионрелатионшип** имеет следующие свойства.
+
+<dl> <dt>
+
+**Завершил**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **мсвм \_ ComputerSystem**
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> <dt>
+
+Квалификаторы: [**Переопределение**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM \_ dependency. Antecedent")
+</dt> </dl>
+
+Ссылка на экземпляр класса [**\_ ComputerSystem мсвм**](msvm-computersystem.md) , представляющий виртуальную машину.
+
+</dd> <dt>
+
+**Него**
+</dt> <dd> <dl> <dt>
+
+Тип данных: **мсвм \_ репликатионрелатионшип**
+</dt> <dt>
+
+Тип доступа: только для чтения
+</dt> <dt>
+
+Квалификаторы: [**override**](/windows/desktop/WmiSdk/standard-qualifiers) (" \_ зависимость CIM. Dependent")
+</dt> </dl>
+
+Ссылка на экземпляр класса [**мсвм \_ репликатионрелатионшип**](msvm-replicationrelationship.md) , представляющий отношение репликации виртуальной системы.
+
+</dd> </dl>
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                                 |
+| Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
+| MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[**\_Зависимость CIM**](cim-dependency.md)
+</dt> <dt>
+
+[**\_Зависимость CIM**](/windows/desktop/CIMWin32Prov/cim-dependency)
+</dt> </dl>
+
+ 
+
