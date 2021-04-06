@@ -1,0 +1,56 @@
+---
+description: Служба событий COM+ использует объект класса событий для управления соединением между издателем и подписчиком.
+ms.assetid: 877c5890-588d-4978-8fb2-b4ecf4134068
+title: Объект класса событий COM+
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: aae397f647354ac24395fa073365160829a687a2
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103990539"
+---
+# <a name="the-com-event-class-object"></a><span data-ttu-id="89ac4-103">Объект класса событий COM+</span><span class="sxs-lookup"><span data-stu-id="89ac4-103">The COM+ Event Class Object</span></span>
+
+<span data-ttu-id="89ac4-104">Служба событий COM+ использует *объект класса событий* для управления соединением между издателем и подписчиком.</span><span class="sxs-lookup"><span data-stu-id="89ac4-104">The COM+ Events service uses an *event class object* to manage the connection between publisher and subscriber.</span></span> <span data-ttu-id="89ac4-105">Объект класса событий — это компонент COM+, который управляется и хранится в системе событий COM+ и содержит интерфейсы и методы, используемые издателем для запуска событий.</span><span class="sxs-lookup"><span data-stu-id="89ac4-105">The event class object is a COM+ component that is managed and stored by the COM+ Events system and contains the interfaces and methods used by a publisher to fire events.</span></span> <span data-ttu-id="89ac4-106">Это постоянный объект, указывающий события, которые могут возникнуть и, при необходимости, идентифицирует издателя.</span><span class="sxs-lookup"><span data-stu-id="89ac4-106">It is a persistent object that indicates the events that can occur and, optionally, identifies the publisher.</span></span> <span data-ttu-id="89ac4-107">Вы указываете интерфейсы и методы, которые должен содержать класс событий, предоставляя библиотеку типов.</span><span class="sxs-lookup"><span data-stu-id="89ac4-107">You specify the interfaces and methods you want an event class to contain by providing a type library.</span></span>
+
+<span data-ttu-id="89ac4-108">Чтобы запустить событие, издатель создает экземпляр объекта класса событий, вызывая [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) или метод Microsoft Visual Basic **CreateObject** и запрашивая интерфейс события.</span><span class="sxs-lookup"><span data-stu-id="89ac4-108">To fire an event, the publisher instantiates the event class object by calling [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) or the Microsoft Visual Basic **CreateObject** method and requesting the event interface be returned.</span></span> <span data-ttu-id="89ac4-109">Объект класса событий с экземпляром содержит реализацию системы событий запрошенного интерфейса.</span><span class="sxs-lookup"><span data-stu-id="89ac4-109">The instantiated event class object contains the event system's implementation of the requested interface.</span></span> <span data-ttu-id="89ac4-110">Заинтересованный подписчик также должен реализовать интерфейс класса событий для получения событий от данного издателя.</span><span class="sxs-lookup"><span data-stu-id="89ac4-110">An interested subscriber must also implement the event class interface to receive events from a given publisher.</span></span> <span data-ttu-id="89ac4-111">При создании экземпляра объекта класса событий система событий связывает его с соответствующими подписчиками.</span><span class="sxs-lookup"><span data-stu-id="89ac4-111">When the event class object is instantiated, the event system associates it with the appropriate subscribers.</span></span> <span data-ttu-id="89ac4-112">Список подписчиков сохраняется в течение времени существования объекта класса событий.</span><span class="sxs-lookup"><span data-stu-id="89ac4-112">The list of subscribers is maintained for the lifetime of the event class object.</span></span> <span data-ttu-id="89ac4-113">Событие может быть доставлено нескольким подписчикам последовательно или параллельно.</span><span class="sxs-lookup"><span data-stu-id="89ac4-113">An event can be delivered to multiple subscribers either serially or in parallel.</span></span>
+
+<span data-ttu-id="89ac4-114">При реализации объекта класса событий необходимо предоставить самостоятельную библиотеку DLL, которая экспортирует функции [**DllRegisterServer**](/windows/desktop/api/olectl/nf-olectl-dllregisterserver) и [**DllUnregisterServer**](/windows/desktop/api/olectl/nf-olectl-dllunregisterserver) .</span><span class="sxs-lookup"><span data-stu-id="89ac4-114">When you implement an event class object, you should provide a self-registering DLL that exports the [**DllRegisterServer**](/windows/desktop/api/olectl/nf-olectl-dllregisterserver) and [**DllUnregisterServer**](/windows/desktop/api/olectl/nf-olectl-dllunregisterserver) functions.</span></span> <span data-ttu-id="89ac4-115">Функция **DllRegisterServer** регистрирует COM-класс, а функция **DllUnregisterServer** отменяет регистрацию компонента.</span><span class="sxs-lookup"><span data-stu-id="89ac4-115">The **DllRegisterServer** function registers a COM class, and the **DllUnregisterServer** function unregisters the component.</span></span> <span data-ttu-id="89ac4-116">Объекты класса событий хранятся в каталоге COM+ либо с помощью средства администрирования служб компонентов, либо программно с помощью методов интерфейсов [**икомадминкаталог:: инсталлевенткласс**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-installeventclass) или [**Икомадминкаталог:: инсталлмултипливентклассес**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-installmultipleeventclasses) .</span><span class="sxs-lookup"><span data-stu-id="89ac4-116">Event class objects are stored in the COM+ catalog, either by using the Component Services administration tool or programmatically by using the methods of the [**ICOMAdminCatalog::InstallEventClass**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-installeventclass) or [**ICOMAdminCatalog::InstallMultipleEventClasses**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-installmultipleeventclasses) interfaces.</span></span> <span data-ttu-id="89ac4-117">Подробные сведения о регистрации объектов класса событий см. в разделе [Регистрация класса событий](registering-an-event-class.md).</span><span class="sxs-lookup"><span data-stu-id="89ac4-117">For detailed information about registering event class objects, see [Registering an Event Class](registering-an-event-class.md).</span></span>
+
+<span data-ttu-id="89ac4-118">Поскольку объекты класса событий — это компоненты, другие атрибуты, такие как очереди, транзакции, безопасность и т. д., могут быть настроены для них с помощью средства администрирования служб компонентов или функций административного пакета SDK для COM+.</span><span class="sxs-lookup"><span data-stu-id="89ac4-118">Because event class objects are configured components, other attributes, such as queuing, transactions, security, and so on, can be configured for them by using either the Component Services administration tool or the COM+ Administrative SDK functions.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="89ac4-119">Служба событий COM+ использует маршалирование библиотеки типов.</span><span class="sxs-lookup"><span data-stu-id="89ac4-119">The COM+ Events service uses type library marshaling.</span></span> <span data-ttu-id="89ac4-120">Это накладывает некоторые ограничения на интерфейсы класса событий.</span><span class="sxs-lookup"><span data-stu-id="89ac4-120">This places some restrictions on event class interfaces.</span></span> <span data-ttu-id="89ac4-121">Например, модуль упаковки библиотеки типов не поддерживает [**размер \_**](/windows/desktop/Midl/size-is) атрибутов MIDL, а [**length \_ имеет длину**](/windows/desktop/Midl/length-is).</span><span class="sxs-lookup"><span data-stu-id="89ac4-121">For example, the type library marshaler does not support the MIDL attributes [**size\_is**](/windows/desktop/Midl/size-is) and [**length\_is**](/windows/desktop/Midl/length-is).</span></span>
+
+ 
+
+<span data-ttu-id="89ac4-122">Объект класса событий обладает атрибутами публикации, которые определяют способ публикации событий, а также следующие свойства:</span><span class="sxs-lookup"><span data-stu-id="89ac4-122">An event class object possesses publication attributes that determine the way events are published, as well as the following properties:</span></span>
+
+-   <span data-ttu-id="89ac4-123">**Евентклсид**.</span><span class="sxs-lookup"><span data-stu-id="89ac4-123">**EventCLSID**.</span></span> <span data-ttu-id="89ac4-124">Уникальный идентификатор, указывающий идентификатор CLSID компонента.</span><span class="sxs-lookup"><span data-stu-id="89ac4-124">A unique identifier that specifies the CLSID of the component.</span></span>
+-   <span data-ttu-id="89ac4-125">**Евенткласснаме**.</span><span class="sxs-lookup"><span data-stu-id="89ac4-125">**EventClassName**.</span></span> <span data-ttu-id="89ac4-126">Уникальный идентификатор, указывающий идентификатор PROGID компонента.</span><span class="sxs-lookup"><span data-stu-id="89ac4-126">A unique identifier that specifies the PROGID of the component.</span></span>
+-   <span data-ttu-id="89ac4-127">**Библиотеку типов**.</span><span class="sxs-lookup"><span data-stu-id="89ac4-127">**TypeLibrary**.</span></span> <span data-ttu-id="89ac4-128">Предоставляет список интерфейсов, предоставляемых объектом класса событий.</span><span class="sxs-lookup"><span data-stu-id="89ac4-128">Provides a list of interfaces offered by the event class object.</span></span> <span data-ttu-id="89ac4-129">Нет необходимости реализовывать интерфейсы обработки, указанные в библиотеке типов.</span><span class="sxs-lookup"><span data-stu-id="89ac4-129">There is no need to implement the firing interfaces specified in the type library.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="89ac4-130">См. также</span><span class="sxs-lookup"><span data-stu-id="89ac4-130">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="89ac4-131">Вопросы безопасности событий COM+</span><span class="sxs-lookup"><span data-stu-id="89ac4-131">COM+ Events Security Considerations</span></span>](com--events-security-considerations.md)
+</dt> <dt>
+
+[<span data-ttu-id="89ac4-132">Фильтрация событий в COM+</span><span class="sxs-lookup"><span data-stu-id="89ac4-132">Filtering Events in COM+</span></span>](filtering-events-in-com-.md)
+</dt> <dt>
+
+[<span data-ttu-id="89ac4-133">Публикация и доставка событий в COM+</span><span class="sxs-lookup"><span data-stu-id="89ac4-133">Publishing and Delivering Events in COM+</span></span>](publishing-and-delivering-events-in-com-.md)
+</dt> <dt>
+
+[<span data-ttu-id="89ac4-134">Подписки</span><span class="sxs-lookup"><span data-stu-id="89ac4-134">Subscriptions</span></span>](subscriptions.md)
+</dt> <dt>
+
+[<span data-ttu-id="89ac4-135">Использование событий COM+ с компонентами в очереди COM+</span><span class="sxs-lookup"><span data-stu-id="89ac4-135">Using COM+ Events with COM+ Queued Components</span></span>](using-com--events-with-com--queued-components.md)
+</dt> </dl>
+
+ 
+
+ 
