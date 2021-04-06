@@ -1,0 +1,87 @@
+---
+title: Суббота (Дайсофвиктипе), элемент
+description: Указывает, что задача выполняется в субботу.
+ms.assetid: def26a72-c143-466a-b5b0-6105078afffa
+keywords:
+- Элемент субботы планировщик задач
+topic_type:
+- apiref
+api_name:
+- Saturday
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: 1b5f7cb36002b2add64cdea541caa2fd28df37ff
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "103803322"
+---
+# <a name="saturday-daysofweektype-element"></a>Суббота (Дайсофвиктипе), элемент
+
+Указывает, что задача выполняется в субботу.
+
+``` syntax
+<xs:element name="Saturday">
+    <xs:complexType />
+</xs:element>
+```
+
+Элемент **субботы** определяется сложным типом [**дайсофвиктипе**](taskschedulerschema-daysofweektype-complextype.md) .
+
+## <a name="parent-element"></a>Родительский элемент
+
+
+
+| Элемент                                                                                                                  | Унаследован от                                                             | Описание                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [**DaysOfWeek (Монслидайофвиксчедулетипе)**](taskschedulerschema-daysofweek-monthlydayofweekscheduletype-element.md) | [**дайсофвиктипе**](taskschedulerschema-daysofweektype-complextype.md) | Указывает дни недели, в которых задача выполняется для ежемесячного расписания недели.<br/> |
+| [**DaysOfWeek (Виклисчедулетипе)**](taskschedulerschema-daysofweek-weeklyscheduletype-element.md)                     | [**дайсофвиктипе**](taskschedulerschema-daysofweektype-complextype.md) | Указывает дни недели, в которых задача выполняется для еженедельного расписания.<br/>              |
+
+
+
+## <a name="examples"></a>Примеры
+
+Следующий XML-код определяет календарь дня недели, который запускает задачу в субботу.
+
+
+```XML
+<DaysOfWeek>
+    <Saturday/>
+</DaysOfWeek>
+```
+
+
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|------------------------------------------------------|
+| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
+| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[планировщик задач элементы схемы](task-scheduler-schema-elements.md)
+</dt> <dt>
+
+[Планировщик заданий](task-scheduler-start-page.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
