@@ -70,7 +70,7 @@ ms.locfileid: "103912363"
 <td style="text-align: left;">Запускает указанное приложение панели управления (*. cpl). Если приложение уже открыто, будет активирован запущенный экземпляр. <br/>
 <blockquote>
 <p>[!Note]<br />
-Начиная с Windows Vista, большинство приложений панели управления являются элементами оболочки и не могут быть открыты с помощью этой функции. Чтобы открыть эти приложения панели управления, передайте каноническое имя в control.exe. Например:</p>
+Начиная с Windows Vista, большинство приложений панели управления являются элементами оболочки и не могут быть открыты с помощью этой функции. Чтобы открыть эти приложения панели управления, передайте каноническое имя в control.exe. Пример:</p>
 <pre class="syntax" data-space="preserve"><code>control.exe /name Microsoft.Personalization</code></pre>
 </blockquote>
 <br/></td>
@@ -132,7 +132,7 @@ ms.locfileid: "103912363"
 <td style="text-align: left;">Создает и возвращает объект <a href="folder.md"><strong>Folder</strong></a> для указанной папки.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="shell-open.md"><strong>Открыт</strong></a></td>
+<td style="text-align: left;"><a href="shell-open.md"><strong>Открыть</strong></a></td>
 <td style="text-align: left;">Открывает указанную папку.<br/></td>
 </tr>
 <tr class="odd">
