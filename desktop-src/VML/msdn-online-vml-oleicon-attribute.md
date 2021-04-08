@@ -1,0 +1,43 @@
+---
+title: Атрибут Олеикон VML
+description: Атрибут Олеикон VML
+ms.assetid: 52a664c6-7424-4d1d-929b-fe9fb3fefb88
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a5272acb80808b5cb29d3654643c56de52870a5e
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103987837"
+---
+# <a name="vml-oleicon-attribute"></a><span data-ttu-id="f4acf-103">Атрибут Олеикон VML</span><span class="sxs-lookup"><span data-stu-id="f4acf-103">VML OLEIcon Attribute</span></span>
+
+<span data-ttu-id="f4acf-104">В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9.</span><span class="sxs-lookup"><span data-stu-id="f4acf-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="f4acf-105">Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.</span><span class="sxs-lookup"><span data-stu-id="f4acf-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="f4acf-106">По состоянию на Декабрь 2011 этот раздел был архивирован.</span><span class="sxs-lookup"><span data-stu-id="f4acf-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="f4acf-107">В результате он больше не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="f4acf-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="f4acf-108">Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/).</span><span class="sxs-lookup"><span data-stu-id="f4acf-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="f4acf-109">Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).</span><span class="sxs-lookup"><span data-stu-id="f4acf-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+
+ 
+
+<span data-ttu-id="f4acf-110">Определяет, будет ли объект OLE отображаться в виде значка.</span><span class="sxs-lookup"><span data-stu-id="f4acf-110">Determines whether an OLE object will be displayed as an icon.</span></span> <span data-ttu-id="f4acf-111">Read/write.</span><span class="sxs-lookup"><span data-stu-id="f4acf-111">Read/write.</span></span> <span data-ttu-id="f4acf-112">**Вгтристате**.</span><span class="sxs-lookup"><span data-stu-id="f4acf-112">**VgTriState**.</span></span>
+
+<span data-ttu-id="f4acf-113">**Применимо к**:</span><span class="sxs-lookup"><span data-stu-id="f4acf-113">**Applies To**</span></span>
+
+[<span data-ttu-id="f4acf-114">Фигурная</span><span class="sxs-lookup"><span data-stu-id="f4acf-114">Shape</span></span>](shape-element--vml.md)
+
+<span data-ttu-id="f4acf-115">**Синтаксис тега**</span><span class="sxs-lookup"><span data-stu-id="f4acf-115">**Tag Syntax**</span></span>
+
+<span data-ttu-id="f4acf-116"><v: *element* о:олеикон = " *выражение* " ></span><span class="sxs-lookup"><span data-stu-id="f4acf-116"><v: *element* o:oleicon=" *expression* "></span></span>
+
+<span data-ttu-id="f4acf-117">**Замечания**</span><span class="sxs-lookup"><span data-stu-id="f4acf-117">**Remarks**</span></span>
+
+<span data-ttu-id="f4acf-118">Значение по умолчанию — **False**.</span><span class="sxs-lookup"><span data-stu-id="f4acf-118">Default is **False**.</span></span> <span data-ttu-id="f4acf-119">Если **значение — true**, объект OLE отображается в виде значка.</span><span class="sxs-lookup"><span data-stu-id="f4acf-119">If **True**, the OLE object is displayed as an icon.</span></span>
+
+<span data-ttu-id="f4acf-120">Этот атрибут используется Microsoft Office но не используется обозревателем Microsoft Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="f4acf-120">This attribute is used by Microsoft Office but is not used by Microsoft Internet Explorer.</span></span>
+
+<span data-ttu-id="f4acf-121">*Атрибут расширений Microsoft Office*</span><span class="sxs-lookup"><span data-stu-id="f4acf-121">*Microsoft Office Extensions Attribute*</span></span>
+
+ 
+
+ 
