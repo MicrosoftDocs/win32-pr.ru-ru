@@ -1,0 +1,31 @@
+---
+title: API-интерфейсы виндовснумерикс. h
+description: Файл заголовка виндовснумерикс. h определяет векторные и Матричные типы C++ в пространстве имен Windows. Foundation. Numerics. Он расширяет структуры из Windows. Foundation. numeric с помощью диапазона математических операторов и функций.
+ms.assetid: 7aa15f80-c440-4dcb-a9a6-f1000a3a95da
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 268caf0a0215c3d25a86a22fb51204472af481fe
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103793345"
+---
+# <a name="windowsnumericsh-apis"></a><span data-ttu-id="cb5ad-104">API-интерфейсы виндовснумерикс. h</span><span class="sxs-lookup"><span data-stu-id="cb5ad-104">windowsnumerics.h APIs</span></span>
+
+<span data-ttu-id="cb5ad-105">Файл заголовка виндовснумерикс. h определяет векторные и Матричные типы C++ в пространстве имен [**Windows. Foundation. Numerics**](/uwp/api/Windows.Foundation.Numerics) .</span><span class="sxs-lookup"><span data-stu-id="cb5ad-105">The windowsnumerics.h header file defines C++ vector and matrix types in the [**Windows.Foundation.Numerics**](/uwp/api/Windows.Foundation.Numerics) namespace.</span></span> <span data-ttu-id="cb5ad-106">Он расширяет структуры из **Windows. Foundation. numeric** с помощью диапазона математических операторов и функций.</span><span class="sxs-lookup"><span data-stu-id="cb5ad-106">It extends the structs from **Windows.Foundation.Numerics** with a range of mathematical operators and functions.</span></span>
+
+<span data-ttu-id="cb5ad-107">Это пространство имен доступно только в C++.</span><span class="sxs-lookup"><span data-stu-id="cb5ad-107">This namespace is available only in C++.</span></span> <span data-ttu-id="cb5ad-108">Его эквивалент .NET — [System. Numerics](/dotnet/api/system.numerics?view=netframework-4.8).</span><span class="sxs-lookup"><span data-stu-id="cb5ad-108">Its .NET equivalent is [System.Numerics](/dotnet/api/system.numerics?view=netframework-4.8).</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="cb5ad-109">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="cb5ad-109">In this section</span></span>
+
+| <span data-ttu-id="cb5ad-110">Раздел</span><span class="sxs-lookup"><span data-stu-id="cb5ad-110">Topic</span></span> | <span data-ttu-id="cb5ad-111">Описание</span><span class="sxs-lookup"><span data-stu-id="cb5ad-111">Description</span></span> |
+|-|-|
+| [<span data-ttu-id="cb5ad-112">**Структура float2**</span><span class="sxs-lookup"><span data-stu-id="cb5ad-112">**float2 structure**</span></span>](float2-structure.md) | <span data-ttu-id="cb5ad-113">Вектор с двумя компонентами.</span><span class="sxs-lookup"><span data-stu-id="cb5ad-113">A vector with two components.</span></span> |
+| [<span data-ttu-id="cb5ad-114">**Структура float3**</span><span class="sxs-lookup"><span data-stu-id="cb5ad-114">**float3 structure**</span></span>](float3-structure.md) | <span data-ttu-id="cb5ad-115">Вектор с тремя компонентами.</span><span class="sxs-lookup"><span data-stu-id="cb5ad-115">A vector with three components.</span></span> |
+| [<span data-ttu-id="cb5ad-116">**Структура float3x2**</span><span class="sxs-lookup"><span data-stu-id="cb5ad-116">**float3x2 structure**</span></span>](float3x2-structure.md) | <span data-ttu-id="cb5ad-117">Матрица 3x2, используемая для двумерных преобразований.</span><span class="sxs-lookup"><span data-stu-id="cb5ad-117">A 3x2 matrix, used for 2D transforms.</span></span> |
+| [<span data-ttu-id="cb5ad-118">**Структура float4**</span><span class="sxs-lookup"><span data-stu-id="cb5ad-118">**float4 structure**</span></span>](float4-structure.md) | <span data-ttu-id="cb5ad-119">Вектор с четырьмя компонентами.</span><span class="sxs-lookup"><span data-stu-id="cb5ad-119">A vector with four components.</span></span> |
+| [<span data-ttu-id="cb5ad-120">**Структура float4x4**</span><span class="sxs-lookup"><span data-stu-id="cb5ad-120">**float4x4 structure**</span></span>](float4x4-structure.md) | <span data-ttu-id="cb5ad-121">Матрица 4x4, используемая для трехмерных преобразований.</span><span class="sxs-lookup"><span data-stu-id="cb5ad-121">A 4x4 matrix, used for 3D transforms.</span></span> |
+| [<span data-ttu-id="cb5ad-122">**Структура плоскости**</span><span class="sxs-lookup"><span data-stu-id="cb5ad-122">**plane structure**</span></span>](plane-structure.md) | <span data-ttu-id="cb5ad-123">Эта структура представляет плоскость с использованием нормали трехмерного вектора и значения расстояния.</span><span class="sxs-lookup"><span data-stu-id="cb5ad-123">This structure represents a plane using a 3D vector normal and a distance value.</span></span> |
+| [<span data-ttu-id="cb5ad-124">**Структура кватерниона**</span><span class="sxs-lookup"><span data-stu-id="cb5ad-124">**quaternion structure**</span></span>](quaternion-structure.md) | <span data-ttu-id="cb5ad-125">4-мерный вектор, используемый для представления вращения.</span><span class="sxs-lookup"><span data-stu-id="cb5ad-125">A four dimensional vector, used to represent a rotation.</span></span> |
+| [<span data-ttu-id="cb5ad-126">**Функции numeric и Директксмас Interop API**</span><span class="sxs-lookup"><span data-stu-id="cb5ad-126">**Windows numerics and DirectXMath interop APIs**</span></span>](windows-numerics-and-directxmath-interop-apis.md) | <span data-ttu-id="cb5ad-127">Эти функции преобразуют типы [**Windows. Foundation. numeric**](/uwp/api/Windows.Foundation.Numerics) в и из директксмас SIMD Types [ксмвектор](../dxmath/xmvector-data-type.md) и [ксмматрикс](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).</span><span class="sxs-lookup"><span data-stu-id="cb5ad-127">These functions convert [**Windows.Foundation.Numerics**](/uwp/api/Windows.Foundation.Numerics) types to and from the DirectXMath SIMD types [XMVECTOR](../dxmath/xmvector-data-type.md) and [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).</span></span> |
