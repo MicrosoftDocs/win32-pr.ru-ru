@@ -1,0 +1,39 @@
+---
+title: Поддержка языков программирования
+description: Клиентские приложения ADSI можно писать на многих языках.
+ms.assetid: 47460d57-936d-4c5f-8ff6-a4d9d60d0b68
+ms.tgt_platform: multiple
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d4946f05806a6e24ff466d08dc141aadf9c995e5
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103887500"
+---
+# <a name="programming-language-support"></a><span data-ttu-id="fde73-103">Поддержка языков программирования</span><span class="sxs-lookup"><span data-stu-id="fde73-103">Programming Language Support</span></span>
+
+<span data-ttu-id="fde73-104">Клиентские приложения ADSI можно писать на многих языках.</span><span class="sxs-lookup"><span data-stu-id="fde73-104">You can write ADSI client applications in many languages.</span></span> <span data-ttu-id="fde73-105">Для большинства административных задач ADSI определяет интерфейсы и объекты, доступные на языках, совместимых с автоматизацией.</span><span class="sxs-lookup"><span data-stu-id="fde73-105">For the majority of administrative tasks, ADSI defines interfaces and objects accessible from languages compliant with Automation.</span></span> <span data-ttu-id="fde73-106">Например, система разработки Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition (VBScript) и Java, а также более производительные и эффективные языки, такие как C и C++.</span><span class="sxs-lookup"><span data-stu-id="fde73-106">For example, the Microsoft Visual Basic development system, Microsoft Visual Basic Scripting Edition (VBScript), and Java, as well as more performance and efficiency-conscious languages such as C and C++.</span></span>
+
+<span data-ttu-id="fde73-107">Гладкая интеграция с Active Server страницами и VBScript упрощает написание интернет приложений, обращающихся к службам каталогов.</span><span class="sxs-lookup"><span data-stu-id="fde73-107">Smooth integration with Active Server Pages and VBScript make it easy to write Internet applications that access directory services.</span></span> <span data-ttu-id="fde73-108">Для интеграции с OLE DB приложениями ADSI предоставляет поставщик OLE DB, поддерживающий подмножество интерфейсов OLE DB запросов.</span><span class="sxs-lookup"><span data-stu-id="fde73-108">For integration with OLE DB applications, ADSI supplies an OLE DB provider by supporting a subset of the OLE DB query interfaces.</span></span> <span data-ttu-id="fde73-109">Поставщик OLE DB поддерживает доступ только для чтения к Active Directory.</span><span class="sxs-lookup"><span data-stu-id="fde73-109">The OLE DB provider supports read-only access to Active Directory.</span></span>
+
+<span data-ttu-id="fde73-110">Для Интернет-приложений использование сценариев в файлах Active Server страниц (ASP) позволяет создавать объекты ADSI на сервере и управлять ими, а также отображать результаты на веб-странице.</span><span class="sxs-lookup"><span data-stu-id="fde73-110">For Internet applications, using scripting in Active Server Page (ASP) files can create and manipulate ADSI objects on the server and display the results in a webpage.</span></span> <span data-ttu-id="fde73-111">В консоли управления (Майкрософт) оснастки "Администрирование службы каталогов" могут использовать интерфейсы ADSI для поиска интересующих вас служб каталогов.</span><span class="sxs-lookup"><span data-stu-id="fde73-111">In Microsoft Management Console, directory-service administration snap-ins can use ADSI to find directory services of interest.</span></span> <span data-ttu-id="fde73-112">Вкратце, Active Directory интерфейсы служб могут предоставлять доступ к широкому и разнообразному набору служб каталогов, включая те, которые еще не созданы.</span><span class="sxs-lookup"><span data-stu-id="fde73-112">In short, Active Directory Service Interfaces can provide access to a broad and diverse set of directory services — including those not yet built.</span></span>
+
+<span data-ttu-id="fde73-113">Для доступа к структурам, использующим традиционные API, архитектура ADSI определяет низкоуровневые интерфейсы, которые не поддерживают автоматизацию, доступную из таких языков, как C и C++.</span><span class="sxs-lookup"><span data-stu-id="fde73-113">For access to structures that use traditional APIs, the ADSI architecture defines low-level interfaces that do not support Automation that are accessible from languages like C and C++.</span></span> <span data-ttu-id="fde73-114">Эти интерфейсы немного больше, чем оболочки COM для сетевых протоколов в службе каталогов.</span><span class="sxs-lookup"><span data-stu-id="fde73-114">These interfaces are little more than COM wrappers for network protocols to a directory service.</span></span>
+
+<span data-ttu-id="fde73-115">Написание кода для опубликованных интерфейсов позволяет приложению обращаться к службам каталогов для всех установленных поставщиков ADSI и интегрировать полученные данные.</span><span class="sxs-lookup"><span data-stu-id="fde73-115">Writing code to the published interfaces allows your application to reach directory services for all installed ADSI providers and integrate the resulting data.</span></span> <span data-ttu-id="fde73-116">При незначительном изменении кода приложение может продолжать получать доступ к дополнительным службам каталогов в сети по мере установки новых поставщиков ADSI.</span><span class="sxs-lookup"><span data-stu-id="fde73-116">With little or no changes to your code, your application can continue to access additional directory services on your network as new ADSI providers are installed.</span></span>
+
+<span data-ttu-id="fde73-117">На следующем рисунке показано, как ADSI соответствует среде приложения.</span><span class="sxs-lookup"><span data-stu-id="fde73-117">The following figure shows how ADSI fits into an application environment.</span></span> <span data-ttu-id="fde73-118">Независимо от того, написано ли приложение на Visual Basic, C/C++, VBScript, Microsoft JScript Development System или в виде веб-приложения с помощью Active Server страниц, Active Directory интерфейсы служб предоставляют простой и удобный доступ к базовым службам каталогов без использования собственных сетевых интерфейсов API.</span><span class="sxs-lookup"><span data-stu-id="fde73-118">Whether the application is written in Visual Basic, C/C++, VBScript, Microsoft JScript development system, or as a web application using Active Server Pages, Active Directory Service Interfaces provide a clean and easy-to-use access to the underlying directory services without having to use the native network APIs.</span></span>
+
+![Поддержка ADSI для языков программирования](images/ds2layr.png)
+
+<span data-ttu-id="fde73-120">Как показано на предыдущем рисунке, клиенты, которые не поддерживают автоматизацию, имеют доступ ко всем интерфейсам ADSI, включая чистые интерфейсы COM с соглашением об именовании **идиректорикскскс** и интерфейсы автоматизации com с соглашением об именовании **иадскскскс**.</span><span class="sxs-lookup"><span data-stu-id="fde73-120">As shown in the preceding figure, clients that do not support Automation have access to all ADSI interfaces, including both pure COM interfaces with the naming convention **IDirectoryXXX** and Automation COM interfaces with the naming convention **IADsXXX**.</span></span> <span data-ttu-id="fde73-121">Так как клиенты в основном запрашивают информацию из служб каталогов, модель гибкого запроса ADSI через OLE DB и [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) эффективна.</span><span class="sxs-lookup"><span data-stu-id="fde73-121">Because clients predominantly request information from directory services, the ADSI flexible query model through OLE DB and [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) is effective.</span></span>
+
+ 
+
+ 
+
+
+
+
