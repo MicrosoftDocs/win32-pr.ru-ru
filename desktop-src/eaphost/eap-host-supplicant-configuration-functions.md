@@ -1,0 +1,43 @@
+---
+title: Функции настройки запрашивающего устройства EAPHost
+description: Дополнительные сведения о функциях настройки запрашивающей сторона EAPHost, таких как EapHostPeerConfigBlob2Xml и Еафостпиржетмесодс.
+ms.assetid: 92a1df11-10f9-4e55-a7ec-db026aaf5c24
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3ab4580127d4c477f99e949ca1e88fe999ea2636
+ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "104070607"
+---
+# <a name="eaphost-supplicant-configuration-functions"></a>Функции настройки запрашивающего устройства EAPHost
+
+Функции настройки API для запрашивающего устройства EAP приведены ниже.
+
+
+
+| Функция                                                                                                           | Описание                                                                                                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**EapHostPeerConfigBlob2Xml**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigblob2xml)                                                 | Преобразует большой двоичный объект конфигурации в формат XML.                                                                                                                                                                                                                                              |
+| [**EapHostPeerConfigXml2Blob**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob)                                                 | Преобразует XML в большой двоичный объект конфигурации.                                                                                                                                                                                                                                            |
+| [**EapHostPeerCredentialsXml2Blob**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob)                                       | Создает большой двоичный объект учетных данных.                                                                                                                                                                                                                                                      |
+| [**еафостпирфриеррормемори**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory)                                               | Освобождает память, выделенную для [**структуры \_ ошибок EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_error) .                                                                                                                                                                                                              |
+| [**еафостпирфримемори**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory)                                                         | Освобождает память, возвращенную API конфигурации. Эта функция не должна использоваться для освобождения памяти с ошибками. Чтобы освободить память с ошибками, используйте функцию [**еафостпирфриеаперрор**](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror) или [**еафостпирфриерррормемори**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory) . |
+| [**еафостпиржетмесодпропертиес**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties)                                           | Извлекает свойства метода EAP по заданному соединению и пользовательским данным.                                                                                                                                                                                                            |
+| [**еафостпиржетмесодс**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethods)                                                         | Перечисляет все методы EAP, установленные и доступные для использования, включая устаревшие методы EAP.                                                                                                                                                                                            |
+| [**еафостпиринвокеконфигуи**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui)                                                     | Запускает пользовательский интерфейс конфигурации указанного метода EAP.                                                                                                                                                                                                                 |
+| [**еафостпиринвокеидентитюи**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeidentityui)                                                 | Запускает пользовательский интерфейс удостоверений.                                                                                                                                                                                                                                                  |
+| [**еафостпиринвокеинтерактивеуи**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeinteractiveui)                                       | Предоставляет пользователю Интерактивные учетные данные, например смарт-карту и ПИН-код.                                                                                                                                                                                            |
+| [**еафостпиркуерикредентиалинпутфиелдс**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields)                             | Позволяет пользователю определить, какой тип учетных данных требуется для выполнения методов проверки подлинности. Он также получает поля, которые должны отображаться в пользовательском интерфейсе.                                                                                                       |
+| [**еафостпиркуеринтерактивеуиинпутфиелдс**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryinteractiveuiinputfields)                       | Получает поля ввода для интерактивных компонентов пользовательского интерфейса, которые вызываются на запрашивающем.                                                                                                                                                                                       |
+| [**еафостпиркуерюиблобфроминтерактивеуиинпутфиелдс**](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuiblobfrominteractiveuiinputfields)       | Преобразует сведения о пользователе в большой двоичный объект пользователя, который может использоваться функциями времени выполнения EAPHost.                                                                                                                                                                                          |
+| [**еафостпиркуерюсерблобфромкредентиалинпутфиелдс**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields) | Получает большой двоичный объект учетных данных, который можно использовать для запуска проверки подлинности после получения входных данных от пользовательского интерфейса от единого входа.                                                                                                                                 |
+
+
+
+ 
+
+ 
+
+ 
