@@ -1,0 +1,26 @@
+---
+title: Управление проверкой подлинности клиента
+description: Лучшим методом проверки подлинности клиента является установка функции обратного вызова безопасности с помощью функции RpcServerRegisterIf2 или Рпксерверрегистерифекс. либо принимает функцию обратного вызова безопасности в качестве аргумента.
+ms.assetid: 3e858a71-9190-44a3-bc63-08cfbd02d443
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3508e99b351cd57fb67a3727710b60562ffe25dc
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103888240"
+---
+# <a name="controlling-client-authentication"></a><span data-ttu-id="fdc30-103">Управление проверкой подлинности клиента</span><span class="sxs-lookup"><span data-stu-id="fdc30-103">Controlling Client Authentication</span></span>
+
+<span data-ttu-id="fdc30-104">Лучшим методом проверки подлинности клиента является установка функции обратного вызова безопасности с помощью функции [**RpcServerRegisterIf2**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif2) или [**рпксерверрегистерифекс**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterifex) . либо принимает функцию обратного вызова безопасности в качестве аргумента.</span><span class="sxs-lookup"><span data-stu-id="fdc30-104">The best method for authenticating a client is installing a security callback function using the [**RpcServerRegisterIf2**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif2) or [**RpcServerRegisterIfEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterifex) function; either accepts a security callback function as an argument.</span></span> <span data-ttu-id="fdc30-105">При вызове функции обратного вызова безопасности выполните необходимые проверки.</span><span class="sxs-lookup"><span data-stu-id="fdc30-105">When the security callback function is called, make the necessary checks.</span></span> <span data-ttu-id="fdc30-106">Можно проверить атрибуты соединения, удостоверения вызывающего объекта или и того, и другого.</span><span class="sxs-lookup"><span data-stu-id="fdc30-106">The attributes on the connection, identity of the caller, or both, can be checked.</span></span> <span data-ttu-id="fdc30-107">Чтобы проверить атрибуты соединения, вызовите функцию [**рпксерверинккаллаттрибутес**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcserverinqcallattributesa) или [**рпкбиндингинкаусклиент**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) .</span><span class="sxs-lookup"><span data-stu-id="fdc30-107">To check the attributes of a connection, call the [**RpcServerInqCallAttributes**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcserverinqcallattributesa) or [**RpcBindingInqAuthClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) function.</span></span> <span data-ttu-id="fdc30-108">Это обеспечивает фильтрацию клиентов, не прошедших проверку подлинности, клиентов, использующих конкретный поставщик безопасности, или клиентов, которые не используют надежную защиту (например, конфиденциальность).</span><span class="sxs-lookup"><span data-stu-id="fdc30-108">This enables the filtering of clients that are not authenticated, clients that use a specific security provider, or clients that do not use strong enough protection (like privacy).</span></span>
+
+<span data-ttu-id="fdc30-109">Чтобы разрешить доступ к подмножеству пользователей, прошедших проверку подлинности, используйте [**рпкжетаусоризатионконтекстфорклиент**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient).</span><span class="sxs-lookup"><span data-stu-id="fdc30-109">To allow access to a subset of the authenticated users, use [**RpcGetAuthorizationContextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient).</span></span> <span data-ttu-id="fdc30-110">Эта функция возвращает контекст клиента authz, который можно использовать для выполнения очень сложных проверок доступа.</span><span class="sxs-lookup"><span data-stu-id="fdc30-110">This function returns an Authz client context that can be used to make very sophisticated access checks.</span></span> <span data-ttu-id="fdc30-111">Например, этот метод можно использовать, чтобы разрешить доступ только к вице президентов в Организации в течение рабочего времени, а также к Генеральному директору в течение любого часа с помощью Active Directory Services, чтобы связать имя пользователя с его названием.</span><span class="sxs-lookup"><span data-stu-id="fdc30-111">For example, this method could be used to allow access only to the vice presidents in an organization during normal business hours, and to the CEO during any hour using Active Directory services to map a user name to their title.</span></span> <span data-ttu-id="fdc30-112">Пользователь может быть олицетворенным и полученным именем.</span><span class="sxs-lookup"><span data-stu-id="fdc30-112">The user can be impersonated, and their name obtained.</span></span> <span data-ttu-id="fdc30-113">После того как удостоверение известно, можно выполнить все необходимые проверки.</span><span class="sxs-lookup"><span data-stu-id="fdc30-113">Once their identity is known, any desired checks can be made.</span></span>
+
+ 
+
+ 
+
+
+
+
