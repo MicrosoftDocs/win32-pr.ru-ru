@@ -1,0 +1,76 @@
+---
+title: Флажок (Справочник по элементу пользовательского интерфейса MSAA)
+description: Флажки используются для включения или отключения одного или нескольких компонентов или параметров из набора, обычно в диалоговом окне. Как правило, флажок содержит небольшое поле с примыкающим текстом. Если выбран параметр, в поле отображается галочка.
+ms.assetid: cdbaa152-82c2-4a5b-82a8-fed9b8ed63b4
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f8baacf729e9512b24a6d576a81cab093cffc93c
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104070303"
+---
+# <a name="check-box-msaa-ui-element-reference"></a>Флажок (Справочник по элементу пользовательского интерфейса MSAA)
+
+> [!Note]  
+> В этом разделе описываются объекты **флажков** для ссылки на элемент ПОЛЬЗОВАТЕЛЬСКОГО интерфейса MSAA. Создание объектов с **флажками** в различных ПЛАТФОРМАХ пользовательского интерфейса не описывается здесь. См. справочную документацию по API для платформы пользовательского интерфейса, которую вы используете.
+
+ 
+
+Флажки используются для включения или отключения одного или нескольких компонентов или параметров из набора, обычно в диалоговом окне. Как правило, флажок содержит небольшое поле с примыкающим текстом. Если выбран параметр, в поле отображается галочка.
+
+Имя класса окна для флажка — "Кнопка".
+
+## <a name="iaccessible-methods"></a>Методы IAccessible
+
+Флажки поддерживают следующие методы [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) :
+
+
+
+| Метод                                                                    | Комментарии                                                                                                                                                                                                                         |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**аккдодефаултактион**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) | Метод [**аккдодефаултактион**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) вызывает [**сообщение onmessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) с сообщением о нажатии кнопки [**BM \_**](/windows/desktop/Controls/bm-click) , чтобы установить флажок. |
+| [**акчиттест**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest)                 |                                                                                                                                                                                                                                  |
+| [**акклокатион**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation)               |                                                                                                                                                                                                                                  |
+| [**аккнавигате**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accnavigate)               |                                                                                                                                                                                                                                  |
+| [**аккселект**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accselect)                   |                                                                                                                                                                                                                                  |
+
+
+
+ 
+
+## <a name="iaccessible-properties"></a>Свойства IAccessible
+
+Флажки поддерживают следующие свойства [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) :
+
+
+
+| Свойство                                                                        | Комментарии                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**получить \_ аккчилд**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchild)                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**получить \_ аккчилдкаунт**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount)        | Свойство **ChildCount** равно нулю.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [**получить \_ аккдефаултактион**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction)  | Свойство **DefaultAction** флажка зависит от того, выбрано ли оно. Флажок, который не выбран, имеет значение "проверить" в качестве **DefaultAction**, а установленный флажок "снять флажок" в качестве **DefaultAction**. **DefaultAction** для флажка с тремя состояниями — "переключить".                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**получить \_ аккдескриптион**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdescription)      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**аккфокус**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accfocus)                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**акккэйбоардшорткут**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut) | Свойство **кэйбоардшорткут** — это ключ доступа к флажку, который является подчеркнутым символом в тексте окна элемента управления. Эта строка содержит символ клавиши доступа, добавленный к строке "Alt +".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [**акчелп**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelp)                         | Свойство **Name** берется из текста окна элемента управления (или заголовка), которое отображается вместе с флажком.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [**акчелптопик**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelptopic)               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**аккнаме**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname)                         | Свойство **Name** берется из текста окна элемента управления (или заголовка), которое отображается вместе с флажком.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [**аккпарент**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent)                     | **Родительское** свойство является окном ( [**\_ \_ окно системы ролей**](object-roles.md) ), которое окружает элемент управления и имеет то же имя **Свойства и класса окна, что и элемент управления.**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [**аккроле**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)                         | Свойство **Role** имеет [**роль \_ System \_ чеккбуттон**](object-roles.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [**аккстате**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate)                       | Свойство **State** представляет собой сочетание одного или нескольких из следующих [значений](object-state-constants.md):[**\_ \_ невидимая**](object-state-constants.md) система состояния системная система состояния \| [**\_ \_ недоступна**](object-state-constants.md) система состояний с \| [**\_ \_**](object-state-constants.md) \| [**\_ \_ фокусом**](object-state-constants.md) системы состояние системы в \| [**\_ \_ смешанном**](object-state-constants.md) \| [**\_ \_**](object-state-constants.md) \| [**\_ \_**](object-state-constants.md) состоянии системная система среднего состояния<br/> |
+
+
+
+ 
+
+## <a name="related-topics"></a>См. также
+
+<dl> <dt>
+
+[Интерфейс IAccessible](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)
+</dt> </dl>
+
+ 
+
