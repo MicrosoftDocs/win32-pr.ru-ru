@@ -1,0 +1,97 @@
+---
+description: ICE38 проверяет, что каждый компонент, устанавливаемый в профиль текущего пользователя, также указывает раздел реестра в \_ \_ корневом каталоге hKey текущего пользователя в столбце ключевого пути таблицы Component.
+ms.assetid: f1548b04-78c2-461a-a729-9a8c4856d0d8
+title: ICE38
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2d001d244160f939a73e697e677bf43a1f5f825f
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104081063"
+---
+# <a name="ice38"></a><span data-ttu-id="38ad0-103">ICE38</span><span class="sxs-lookup"><span data-stu-id="38ad0-103">ICE38</span></span>
+
+<span data-ttu-id="38ad0-104">ICE38 проверяет, что каждый компонент, устанавливаемый в профиль текущего пользователя, также указывает раздел реестра в корневом каталоге **hKey \_ текущего \_ пользователя** в столбце ключевого пути [таблицы Component](component-table.md).</span><span class="sxs-lookup"><span data-stu-id="38ad0-104">ICE38 validates that every component being installed under the current user's profile also specifies a registry key under the **HKEY\_CURRENT\_USER** root in the KeyPath column of the [Component table](component-table.md).</span></span>
+
+## <a name="result"></a><span data-ttu-id="38ad0-105">Результат</span><span class="sxs-lookup"><span data-stu-id="38ad0-105">Result</span></span>
+
+<span data-ttu-id="38ad0-106">ICE38 отправляет сообщение об ошибке, если компонент, установленный в профиле пользователя, не указывает раздел реестра HKCU.</span><span class="sxs-lookup"><span data-stu-id="38ad0-106">ICE38 posts an error if a component installed under the user's profile does not specify a HKCU registry key.</span></span>
+
+## <a name="example"></a><span data-ttu-id="38ad0-107">Пример</span><span class="sxs-lookup"><span data-stu-id="38ad0-107">Example</span></span>
+
+<span data-ttu-id="38ad0-108">ICE38 сообщает о следующих ошибках в приведенном примере.</span><span class="sxs-lookup"><span data-stu-id="38ad0-108">ICE38 reports the following errors for the sample shown.</span></span>
+
+
+
+| <span data-ttu-id="38ad0-109">ICE38, ошибка</span><span class="sxs-lookup"><span data-stu-id="38ad0-109">ICE38 error</span></span>                                                                                                                         | <span data-ttu-id="38ad0-110">Описание</span><span class="sxs-lookup"><span data-stu-id="38ad0-110">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="38ad0-111">Компонент Component1 устанавливает в профиль пользователя.</span><span class="sxs-lookup"><span data-stu-id="38ad0-111">Component Component1 installs to user profile.</span></span> <span data-ttu-id="38ad0-112">Он должен использовать раздел реестра HKCU в качестве ключевого пути, а не файл.</span><span class="sxs-lookup"><span data-stu-id="38ad0-112">It must use a registry key under HKCU as its KeyPath, not a file.</span></span>                    | <span data-ttu-id="38ad0-113">Значение столбца Attributes объекта Component1 равно 0, что означает, что компонент должен использовать файл в качестве ключевого пути.</span><span class="sxs-lookup"><span data-stu-id="38ad0-113">The value of the attributes column of Component1 is 0, meaning that the component must use a file as its KeyPath.</span></span> <span data-ttu-id="38ad0-114">Это вызывает проблемы, когда несколько пользователей устанавливают компонент на одном компьютере.</span><span class="sxs-lookup"><span data-stu-id="38ad0-114">This causes difficulties when multiple users install the component on the same computer.</span></span> <span data-ttu-id="38ad0-115">Чтобы устранить эту ошибку в Component1, установите бит Регистрикэйпас в столбце Attributes [таблицы Component](component-table.md) и измените запись в столбце Ключевой путь на значение, указанное в столбце реестра [таблицы Registry](registry-table.md).</span><span class="sxs-lookup"><span data-stu-id="38ad0-115">To fix this error on Component1, set the RegistryKeyPath bit in the Attributes column of the [Component table](component-table.md) and change the entry in the KeyPath column to a value listed in the Registry column of the [Registry table](registry-table.md).</span></span><br/>                                                                                |
+| <span data-ttu-id="38ad0-116">Компонент Component2 устанавливает в профиль пользователя.</span><span class="sxs-lookup"><span data-stu-id="38ad0-116">Component Component2 installs to user profile.</span></span> <span data-ttu-id="38ad0-117">Он должен использовать раздел реестра в разделе HKCU в качестве ключевого пути.</span><span class="sxs-lookup"><span data-stu-id="38ad0-117">It must use a registry key under HKCU as its KeyPath.</span></span> <span data-ttu-id="38ad0-118">В настоящее время ключевой путь имеет значение NULL.</span><span class="sxs-lookup"><span data-stu-id="38ad0-118">The KeyPath is currently NULL.</span></span> | <span data-ttu-id="38ad0-119">Component2 имеет бит Регистрикэйпас, установленный в столбце Attributes [таблицы Component](component-table.md).</span><span class="sxs-lookup"><span data-stu-id="38ad0-119">Component2 has the RegistryKeyPath bit set in the Attributes column of the [Component table](component-table.md).</span></span> <span data-ttu-id="38ad0-120">Таким образом, поле ключевого пути должно содержать ключ к столбцу реестра [таблицы реестра](registry-table.md) , но ключевой столбец имеет значение null.</span><span class="sxs-lookup"><span data-stu-id="38ad0-120">The KeyPath field must therefore contain a key to the Registry column of the [Registry Table](registry-table.md) but the KeyPath column is Null.</span></span> <span data-ttu-id="38ad0-121">Чтобы устранить эту ошибку, измените значение ключевого слова на допустимую запись в таблицу реестра.</span><span class="sxs-lookup"><span data-stu-id="38ad0-121">To fix this error, change the KeyPath value to a valid entry into the Registry table.</span></span><br/>                                                                                                                                                                                                     |
+| <span data-ttu-id="38ad0-122">Компонент Component3 устанавливает в профиль пользователя.</span><span class="sxs-lookup"><span data-stu-id="38ad0-122">Component Component3 installs to user profile.</span></span> <span data-ttu-id="38ad0-123">Раздел реестра ключевого раздела должен находиться в разделе HKCU.</span><span class="sxs-lookup"><span data-stu-id="38ad0-123">It's KeyPath registry key must fall under HKCU.</span></span>                                      | <span data-ttu-id="38ad0-124">Component3 имеет бит Регистрикэйпас, заданный в столбце Attributes [таблицы Component](component-table.md) , но в корне записи реестра, указанной в корневом столбце таблицы реестра, указан **\_ локальный \_ компьютер hKey** , а не **\_ текущий \_ пользователь hKey**.</span><span class="sxs-lookup"><span data-stu-id="38ad0-124">Component3 has the RegistryKeyPath bit set in the Attributes column of the [Component table](component-table.md) but the root of the registry entry specified in the Root column of the Registry table specifies **HKEY\_LOCAL\_MACHINE** rather than **HKEY\_CURRENT\_USER**.</span></span> <span data-ttu-id="38ad0-125">Чтобы устранить эту ошибку, используйте допустимую запись реестра в разделе **hKey \_ Local \_ Machine** в качестве ключевого пути для этого компонента или измените значение в корневом столбце [таблицы реестра](registry-table.md) на-1 или 1.</span><span class="sxs-lookup"><span data-stu-id="38ad0-125">To fix this error, use a valid registry entry under **HKEY\_LOCAL\_MACHINE** as the KeyPath for this component or change the value in the Root column of the [Registry table](registry-table.md) to -1 or 1.</span></span><br/>                                                                  |
+| <span data-ttu-id="38ad0-126">Запись реестра ключевого слова для компонента Component4 не существует.</span><span class="sxs-lookup"><span data-stu-id="38ad0-126">The KeyPath registry entry for component Component4 does not exist.</span></span>                                                                 | <span data-ttu-id="38ad0-127">Component4 имеет бит Регистрикэйпас, установленный в столбце Attributes [таблицы Component](component-table.md) , но запись в столбце ключевого слова не существует в [таблице реестра](registry-table.md).</span><span class="sxs-lookup"><span data-stu-id="38ad0-127">Component4 has the RegistryKeyPath bit set in the Attributes column of the [Component table](component-table.md) but the entry in the KeyPath column does not exist in the [Registry Table](registry-table.md).</span></span> <span data-ttu-id="38ad0-128">Чтобы устранить эту ошибку, добавьте запись для Reg4 в таблицу реестра, которая находится в разделе " **\_ текущий \_ пользователь hKey**".</span><span class="sxs-lookup"><span data-stu-id="38ad0-128">To fix this error, add an entry for Reg4 to the Registry table that is a under **HKEY\_CURRENT\_USER**.</span></span><br/>                                                                                                                                                                                                                                      |
+| <span data-ttu-id="38ad0-129">Запись реестра Reg5 задается в качестве ключевого пути для компонента Component5, но эта запись реестра не принадлежит Component5.</span><span class="sxs-lookup"><span data-stu-id="38ad0-129">The Registry Entry Reg5 is set as the KeyPath for component Component5, but that registry entry does not belong to Component5.</span></span>      | <span data-ttu-id="38ad0-130">Запись реестра, на которую ссылается ключевой столбец компонента, найдена и находится в дереве HKCU, но столбец компонента записи реестра \_ не ссылается на тот же компонент, который был указан в качестве ключевого пути.</span><span class="sxs-lookup"><span data-stu-id="38ad0-130">The Registry entry referenced in the KeyPath column of the component was found and lies under the HKCU tree, but the registry entry's Component\_ column does not refer back to the same component that listed it as the KeyPath.</span></span> <span data-ttu-id="38ad0-131">Это означает, что запись реестра, используемая в качестве ключевого параметра компонента, будет создана только при установке какого бы то ни было другого компонента.</span><span class="sxs-lookup"><span data-stu-id="38ad0-131">This means that the registry entry used as the KeyPath of the component would only be created when some other component was installed.</span></span> <span data-ttu-id="38ad0-132">Чтобы устранить эту ошибку, измените значение ключевого слова, чтобы оно ссылалось на запись реестра, принадлежащую данному компоненту, или измените запись реестра на принадлежащую компоненту, используя его в качестве ключевого пути.</span><span class="sxs-lookup"><span data-stu-id="38ad0-132">To fix this error change the KeyPath value to refer to a registry entry that belongs to the component, or change the registry entry to belong to the component using it as a KeyPath.</span></span><br/> |
+
+
+
+ 
+
+<span data-ttu-id="38ad0-133">[Таблица каталогов](directory-table.md) (частичная)</span><span class="sxs-lookup"><span data-stu-id="38ad0-133">[Directory Table](directory-table.md) (partial)</span></span>
+
+
+
+| <span data-ttu-id="38ad0-134">Каталог</span><span class="sxs-lookup"><span data-stu-id="38ad0-134">Directory</span></span> | <span data-ttu-id="38ad0-135">\_Родительский каталог</span><span class="sxs-lookup"><span data-stu-id="38ad0-135">Directory\_Parent</span></span> | <span data-ttu-id="38ad0-136">дефаултдир</span><span class="sxs-lookup"><span data-stu-id="38ad0-136">DefaultDir</span></span>      |
+|-----------|-------------------|-----------------|
+| <span data-ttu-id="38ad0-137">Dir1</span><span class="sxs-lookup"><span data-stu-id="38ad0-137">Dir1</span></span>      |                   | <span data-ttu-id="38ad0-138">Programmenufolder</span><span class="sxs-lookup"><span data-stu-id="38ad0-138">StartMenuFolder</span></span> |
+| <span data-ttu-id="38ad0-139">Dir2</span><span class="sxs-lookup"><span data-stu-id="38ad0-139">Dir2</span></span>      |                   | <span data-ttu-id="38ad0-140">DesktopFolder</span><span class="sxs-lookup"><span data-stu-id="38ad0-140">DesktopFolder</span></span>   |
+| <span data-ttu-id="38ad0-141">Dir3</span><span class="sxs-lookup"><span data-stu-id="38ad0-141">Dir3</span></span>      | <span data-ttu-id="38ad0-142">Dir3</span><span class="sxs-lookup"><span data-stu-id="38ad0-142">Dir3</span></span>              | <span data-ttu-id="38ad0-143">AppData</span><span class="sxs-lookup"><span data-stu-id="38ad0-143">AppData</span></span>         |
+| <span data-ttu-id="38ad0-144">Dir4</span><span class="sxs-lookup"><span data-stu-id="38ad0-144">Dir4</span></span>      | <span data-ttu-id="38ad0-145">Dir3</span><span class="sxs-lookup"><span data-stu-id="38ad0-145">Dir3</span></span>              | <span data-ttu-id="38ad0-146">SubDir</span><span class="sxs-lookup"><span data-stu-id="38ad0-146">SubDir</span></span>          |
+
+
+
+ 
+
+<span data-ttu-id="38ad0-147">[Таблица Component](component-table.md) (частичная)</span><span class="sxs-lookup"><span data-stu-id="38ad0-147">[Component Table](component-table.md) (partial)</span></span>
+
+
+
+| <span data-ttu-id="38ad0-148">Компонент</span><span class="sxs-lookup"><span data-stu-id="38ad0-148">Component</span></span>  | <span data-ttu-id="38ad0-149">Каталог\_</span><span class="sxs-lookup"><span data-stu-id="38ad0-149">Directory\_</span></span> | <span data-ttu-id="38ad0-150">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="38ad0-150">Attributes</span></span> | <span data-ttu-id="38ad0-151">Путь</span><span class="sxs-lookup"><span data-stu-id="38ad0-151">KeyPath</span></span> |
+|------------|-------------|------------|---------|
+| <span data-ttu-id="38ad0-152">Component1</span><span class="sxs-lookup"><span data-stu-id="38ad0-152">Component1</span></span> | <span data-ttu-id="38ad0-153">Dir1</span><span class="sxs-lookup"><span data-stu-id="38ad0-153">Dir1</span></span>        | <span data-ttu-id="38ad0-154">0</span><span class="sxs-lookup"><span data-stu-id="38ad0-154">0</span></span>          | <span data-ttu-id="38ad0-155">Файл1</span><span class="sxs-lookup"><span data-stu-id="38ad0-155">File1</span></span>   |
+| <span data-ttu-id="38ad0-156">Component2</span><span class="sxs-lookup"><span data-stu-id="38ad0-156">Component2</span></span> | <span data-ttu-id="38ad0-157">Dir2</span><span class="sxs-lookup"><span data-stu-id="38ad0-157">Dir2</span></span>        | <span data-ttu-id="38ad0-158">4</span><span class="sxs-lookup"><span data-stu-id="38ad0-158">4</span></span>          |         |
+| <span data-ttu-id="38ad0-159">Component3</span><span class="sxs-lookup"><span data-stu-id="38ad0-159">Component3</span></span> | <span data-ttu-id="38ad0-160">Dir3</span><span class="sxs-lookup"><span data-stu-id="38ad0-160">Dir3</span></span>        | <span data-ttu-id="38ad0-161">4</span><span class="sxs-lookup"><span data-stu-id="38ad0-161">4</span></span>          | <span data-ttu-id="38ad0-162">Reg3</span><span class="sxs-lookup"><span data-stu-id="38ad0-162">Reg3</span></span>    |
+| <span data-ttu-id="38ad0-163">Component4</span><span class="sxs-lookup"><span data-stu-id="38ad0-163">Component4</span></span> | <span data-ttu-id="38ad0-164">Dir4</span><span class="sxs-lookup"><span data-stu-id="38ad0-164">Dir4</span></span>        | <span data-ttu-id="38ad0-165">4</span><span class="sxs-lookup"><span data-stu-id="38ad0-165">4</span></span>          | <span data-ttu-id="38ad0-166">Reg4</span><span class="sxs-lookup"><span data-stu-id="38ad0-166">Reg4</span></span>    |
+| <span data-ttu-id="38ad0-167">Component5</span><span class="sxs-lookup"><span data-stu-id="38ad0-167">Component5</span></span> | <span data-ttu-id="38ad0-168">Dir5</span><span class="sxs-lookup"><span data-stu-id="38ad0-168">Dir5</span></span>        | <span data-ttu-id="38ad0-169">4</span><span class="sxs-lookup"><span data-stu-id="38ad0-169">4</span></span>          | <span data-ttu-id="38ad0-170">Reg5</span><span class="sxs-lookup"><span data-stu-id="38ad0-170">Reg5</span></span>    |
+
+
+
+ 
+
+<span data-ttu-id="38ad0-171">[Таблица реестра](registry-table.md) (частичная)</span><span class="sxs-lookup"><span data-stu-id="38ad0-171">[Registry Table](registry-table.md) (partial)</span></span>
+
+
+
+| <span data-ttu-id="38ad0-172">Реестр</span><span class="sxs-lookup"><span data-stu-id="38ad0-172">Registry</span></span> | <span data-ttu-id="38ad0-173">Root</span><span class="sxs-lookup"><span data-stu-id="38ad0-173">Root</span></span> | <span data-ttu-id="38ad0-174">Значение</span><span class="sxs-lookup"><span data-stu-id="38ad0-174">Value</span></span> | <span data-ttu-id="38ad0-175">Компонент\_</span><span class="sxs-lookup"><span data-stu-id="38ad0-175">Component\_</span></span> |
+|----------|------|-------|-------------|
+| <span data-ttu-id="38ad0-176">Reg3</span><span class="sxs-lookup"><span data-stu-id="38ad0-176">Reg3</span></span>     | <span data-ttu-id="38ad0-177">2</span><span class="sxs-lookup"><span data-stu-id="38ad0-177">2</span></span>    |       | <span data-ttu-id="38ad0-178">Component3</span><span class="sxs-lookup"><span data-stu-id="38ad0-178">Component3</span></span>  |
+| <span data-ttu-id="38ad0-179">Reg5</span><span class="sxs-lookup"><span data-stu-id="38ad0-179">Reg5</span></span>     | <span data-ttu-id="38ad0-180">0</span><span class="sxs-lookup"><span data-stu-id="38ad0-180">0</span></span>    |       | <span data-ttu-id="38ad0-181">Component4</span><span class="sxs-lookup"><span data-stu-id="38ad0-181">Component4</span></span>  |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="38ad0-182">См. также</span><span class="sxs-lookup"><span data-stu-id="38ad0-182">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="38ad0-183">Справочник по ICE</span><span class="sxs-lookup"><span data-stu-id="38ad0-183">ICE Reference</span></span>](ice-reference.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
