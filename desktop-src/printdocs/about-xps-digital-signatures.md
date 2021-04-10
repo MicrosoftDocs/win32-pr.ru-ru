@@ -1,0 +1,47 @@
+---
+description: В этом разделе содержится обзор API цифровой подписи XPS.
+ms.assetid: 895974df-d5e8-4974-b057-ec7e5e59d805
+title: О API цифровых подписей XPS
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 1ba2bad4ef10d8800e9a4cb59289fccb75cc2d89
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104156447"
+---
+# <a name="about-xps-digital-signature-api"></a><span data-ttu-id="72d3e-103">О API цифровых подписей XPS</span><span class="sxs-lookup"><span data-stu-id="72d3e-103">About XPS Digital Signature API</span></span>
+
+<span data-ttu-id="72d3e-104">Документы XPS могут иметь цифровые подписи, позволяющие пользователям подписывать документ, проверять удостоверение подписавшего и указывать, изменился ли документ XPS с момента подписания.</span><span class="sxs-lookup"><span data-stu-id="72d3e-104">XPS documents can have digital signatures to allow users to sign a document, verify the identity of the signer, and indicate whether an XPS document has changed since it was signed.</span></span> <span data-ttu-id="72d3e-105">Собственное приложение Windows может использовать интерфейсы API цифровой подписи XPS для выполнения операций с цифровыми подписями в документе XPS.</span><span class="sxs-lookup"><span data-stu-id="72d3e-105">A native Windows application can use the interfaces of the XPS Digital Signature API to perform digital signature operations on an XPS document.</span></span> <span data-ttu-id="72d3e-106">В этом разделе содержится обзор API цифровой подписи XPS.</span><span class="sxs-lookup"><span data-stu-id="72d3e-106">This section provides an overview of the XPS Digital Signature API.</span></span>
+
+<span data-ttu-id="72d3e-107">Интерфейс [**икспссигнатуреманажер**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) управляет операциями цифровой подписи в документе XPS.</span><span class="sxs-lookup"><span data-stu-id="72d3e-107">The [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) interface manages the digital signature operations on an XPS document.</span></span> <span data-ttu-id="72d3e-108">Прежде чем приложение сможет получить доступ к цифровым подписям документа XPS, приложение должно вызвать [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) , чтобы создать **икспссигнатуреманажер** , а затем вызвать [**Икспссигнатуреманажер:: Лоадпаккажефиле**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagefile) или [**ИКСПССИГНАТУРЕМАНАЖЕР:: LoadPackageStream**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream) для загрузки документа XPS.</span><span class="sxs-lookup"><span data-stu-id="72d3e-108">Before an application can access the digital signatures of an XPS document, the application must call [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) to create an **IXpsSignatureManager** and then call [**IXpsSignatureManager::LoadPackageFile**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagefile) or [**IXpsSignatureManager::LoadPackageStream**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream) to load the XPS document.</span></span> <span data-ttu-id="72d3e-109">Дополнительные сведения об этом процессе инициализации см. [в разделе Инициализация диспетчера подписей](initialize-the-signature-manager.md).</span><span class="sxs-lookup"><span data-stu-id="72d3e-109">For more information about this initialization process, see [Initialize the Signature Manager](initialize-the-signature-manager.md).</span></span>
+
+<span data-ttu-id="72d3e-110">После загрузки документа XPS в интерфейс [**икспссигнатуреманажер**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) приложение может получить доступ к цифровым подписям документа и запросам цифровой подписи.</span><span class="sxs-lookup"><span data-stu-id="72d3e-110">After an XPS document has been loaded into an [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) interface, an application can then access the document's digital signatures and digital signature requests.</span></span> <span data-ttu-id="72d3e-111">Доступ к цифровым подписям можно получить с помощью интерфейса [**икспссигнатуре**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignature) в интерфейсе [**икспссигнатуреколлектион**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturecollection) диспетчера подписей.</span><span class="sxs-lookup"><span data-stu-id="72d3e-111">You can access the digital signatures by using an [**IXpsSignature**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignature) interface from the signature manager's [**IXpsSignatureCollection**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturecollection) interface.</span></span> <span data-ttu-id="72d3e-112">Приложение также может добавлять и удалять интерфейсы **икспссигнатуре** из коллекции.</span><span class="sxs-lookup"><span data-stu-id="72d3e-112">An application can also add and remove **IXpsSignature** interfaces from the collection.</span></span> <span data-ttu-id="72d3e-113">Доступ к запросам на подпись осуществляется с помощью [**икспссигнатуререкуест**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturerequest) , собираемых в интерфейсе [**икспссигнатуререкуестколлектион**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturerequestcollection) .</span><span class="sxs-lookup"><span data-stu-id="72d3e-113">Signature requests are accessed by using [**IXpsSignatureRequest**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturerequest) which are collected in an [**IXpsSignatureRequestCollection**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturerequestcollection) interface.</span></span> <span data-ttu-id="72d3e-114">**Икспссигнатуререкуестколлектион** является частью интерфейса [**икспссигнатуреблокк**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblock) , который собираются в [**икспссигнатуреблоккколлектион**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblockcollection) диспетчера сигнатур.</span><span class="sxs-lookup"><span data-stu-id="72d3e-114">The **IXpsSignatureRequestCollection** is part of an [**IXpsSignatureBlock**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblock) interface which are collected in the [**IXpsSignatureBlockCollection**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblockcollection) of the signature manager.</span></span>
+
+<span data-ttu-id="72d3e-115">Приложения могут использовать [**икспссигнингоптионс**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions) диспетчера подписей для доступа к параметрам цифровой подписи и их настройки.</span><span class="sxs-lookup"><span data-stu-id="72d3e-115">Applications can use the [**IXpsSigningOptions**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions) of the signature manager to access and set digital signature options.</span></span>
+
+<span data-ttu-id="72d3e-116">Примеры доступа к цифровым подписям документа XPS см. в разделе [Общие задачи программирования цифровых подписей](basic-digital-signature-programming-tasks.md).</span><span class="sxs-lookup"><span data-stu-id="72d3e-116">For examples of how to access the digital signatures of an XPS document, see [Common Digital Signature Programming Tasks](basic-digital-signature-programming-tasks.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="72d3e-117">См. также</span><span class="sxs-lookup"><span data-stu-id="72d3e-117">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="72d3e-118">Использование API цифровых подписей XPS</span><span class="sxs-lookup"><span data-stu-id="72d3e-118">Using XPS Digital Signature API</span></span>](using-digital-signatures-in-xps-documents.md)
+</dt> <dt>
+
+[<span data-ttu-id="72d3e-119">Справочник по API цифровых подписей XPS</span><span class="sxs-lookup"><span data-stu-id="72d3e-119">XPS Digital Signature API Reference</span></span>](xps-digital-signatures-programming-reference.md)
+</dt> <dt>
+
+[<span data-ttu-id="72d3e-120">Упаковка</span><span class="sxs-lookup"><span data-stu-id="72d3e-120">Packaging</span></span>](/previous-versions/windows/desktop/opc/packaging)
+</dt> <dt>
+
+[<span data-ttu-id="72d3e-121">XPS</span><span class="sxs-lookup"><span data-stu-id="72d3e-121">XML Paper Specification</span></span>](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+</dt> <dt>
+
+[<span data-ttu-id="72d3e-122">Стандартные ECMA-376, форматы файлов Office Open XML</span><span class="sxs-lookup"><span data-stu-id="72d3e-122">Standard ECMA-376, Office Open XML File Formats</span></span>](https://www.ecma-international.org/publications/standards/Ecma-376.htm)
+</dt> </dl>
+
+ 
+
+ 
