@@ -1,0 +1,27 @@
+---
+description: Интерфейс Ичаинконтекст предоставляет следующие методы.
+ms.assetid: C1E2DE25-7364-4258-9FFD-D45C8441144C
+title: Методы Ичаинконтекст
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: d26b454ee76ffeb18fea9c698e51b9635c260ea5
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104081130"
+---
+# <a name="ichaincontext-methods"></a>Методы Ичаинконтекст
+
+Интерфейс [**ичаинконтекст**](ichaincontext.md) предоставляет следующие методы.
+
+## <a name="in-this-section"></a>Содержание раздела
+
+-   [**Метод Фриконтекст**](ichaincontext-freecontext.md)
+
+ 
+
+ 
+
+
+
