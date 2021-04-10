@@ -1,0 +1,77 @@
+---
+description: 'Дополнительные сведения о: Есентинвалидбукмаркексцептион Class'
+title: Класс Есентинвалидбукмаркексцептион
+TOCTitle: EsentInvalidBookmarkException class
+ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidBookmarkException
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinvalidbookmarkexception(v=EXCHG.10)
+ms:contentKeyID: 55101901
+ms.date: 07/30/2014
+ms.topic: reference
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.EsentInvalidBookmarkException
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name:
+- Microsoft.Isam.Esent.Interop.EsentInvalidBookmarkException
+topic_type:
+- apiref
+- kbSyntax
+api_type:
+- Managed
+api_location:
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: 79878d5740f15935ec86ed82e6507fdc8d6d46fa
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104266072"
+---
+# <a name="esentinvalidbookmarkexception-class"></a>Класс Есентинвалидбукмаркексцептион
+
+Базовый класс для JET_err. Исключения Инвалидбукмарк.
+
+## <a name="inheritance-hierarchy"></a>Иерархия наследования
+
+[System.Object](/dotnet/api/system.object)  
+  [System. Exception](/dotnet/api/system.exception)  
+    [Microsoft. ISAM. ESENT. Есентексцептион](./esentexception-class.md)  
+      [Microsoft. ISAM. ESENT. Interop. Есентеррорексцептион](./esenterrorexception-class.md)  
+        [Microsoft. ISAM. ESENT. Interop. Есентапиексцептион](./esentapiexception-class.md)  
+          [Microsoft. ISAM. ESENT. Interop. Есентусажеексцептион](./esentusageexception-class.md)  
+            Microsoft. ISAM. ESENT. Interop. Есентинвалидбукмаркексцептион  
+
+**Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
+**Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)
+
+## <a name="syntax"></a>Синтаксис
+
+``` vb
+'Declaration
+<SerializableAttribute> _
+Public NotInheritable Class EsentInvalidBookmarkException _
+    Inherits EsentUsageException
+'Usage
+Dim instance As EsentInvalidBookmarkException
+```
+
+``` csharp
+[SerializableAttribute]
+public sealed class EsentInvalidBookmarkException : EsentUsageException
+```
+
+## <a name="thread-safety"></a>Потокобезопасность
+
+Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
+
+## <a name="see-also"></a>См. также раздел
+
+#### <a name="reference"></a>Справочник
+
+[Элементы Есентинвалидбукмаркексцептион](./esentinvalidbookmarkexception-members.md)
+
+[Пространство имен Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)

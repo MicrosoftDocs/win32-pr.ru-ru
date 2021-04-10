@@ -1,0 +1,63 @@
+---
+description: 'Дополнительные сведения о: конструктор Есентфилесистемкорруптионексцептион'
+title: Конструктор Есентфилесистемкорруптионексцептион
+TOCTitle: 'EsentFileSystemCorruptionException constructor '
+ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException.#ctor
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentfilesystemcorruptionexception.esentfilesystemcorruptionexception(v=EXCHG.10)
+ms:contentKeyID: 55101717
+ms.date: 07/30/2014
+ms.topic: reference
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException.EsentFileSystemCorruptionException
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name:
+- Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException..ctor
+topic_type:
+- kbSyntax
+- apiref
+api_type:
+- Managed
+api_location:
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: fad504c9757bbf3188426619e2bbe59a32a4ddf3
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104266076"
+---
+# <a name="esentfilesystemcorruptionexception-constructor"></a>Конструктор Есентфилесистемкорруптионексцептион
+
+Инициализирует новый экземпляр класса Есентфилесистемкорруптионексцептион.
+
+**Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
+**Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)
+
+## <a name="syntax"></a>Синтаксис
+
+``` vb
+'Declaration
+Public Sub New
+'Usage
+
+Dim instance As New EsentFileSystemCorruptionException()
+```
+
+``` csharp
+public EsentFileSystemCorruptionException()
+```
+
+## <a name="see-also"></a>См. также раздел
+
+#### <a name="reference"></a>Справочник
+
+[Класс Есентфилесистемкорруптионексцептион](./esentfilesystemcorruptionexception-class.md)
+
+[Элементы Есентфилесистемкорруптионексцептион](./esentfilesystemcorruptionexception-members.md)
+
+[Пространство имен Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)
