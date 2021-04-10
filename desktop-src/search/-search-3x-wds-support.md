@@ -1,0 +1,79 @@
+---
+description: .
+ms.assetid: 378e346b-2067-484f-85e9-76673a35550b
+title: Обработка уведомлений в Windows Search
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 0c7dd37979eab7ef32a5a8917ba6a3589e976105
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104144155"
+---
+# <a name="notifications-process-in-windows-search"></a><span data-ttu-id="51a29-103">Обработка уведомлений в Windows Search</span><span class="sxs-lookup"><span data-stu-id="51a29-103">Notifications Process in Windows Search</span></span>
+
+<span data-ttu-id="51a29-104">Этот раздел организован следующим образом:</span><span class="sxs-lookup"><span data-stu-id="51a29-104">This topic is organized as follows:</span></span>
+
+-   [<span data-ttu-id="51a29-105">Обзор процесса уведомлений</span><span class="sxs-lookup"><span data-stu-id="51a29-105">Overview of the Notifications Process</span></span>](#overview-of-the-notifications-process)
+-   [<span data-ttu-id="51a29-106">Сканирование</span><span class="sxs-lookup"><span data-stu-id="51a29-106">Crawls</span></span>](#crawls)
+-   [<span data-ttu-id="51a29-107">Уведомления, управляемые индексатором</span><span class="sxs-lookup"><span data-stu-id="51a29-107">Indexer-Managed Notifications</span></span>](#indexer-managed-notifications)
+-   [<span data-ttu-id="51a29-108">Уведомления, управляемые поставщиком</span><span class="sxs-lookup"><span data-stu-id="51a29-108">Provider-Managed Notifications</span></span>](#provider-managed-notifications)
+-   [<span data-ttu-id="51a29-109">Уведомления в наборах строк</span><span class="sxs-lookup"><span data-stu-id="51a29-109">Notifications on Rowsets</span></span>](#notifications-on-rowsets)
+-   [<span data-ttu-id="51a29-110">См. также</span><span class="sxs-lookup"><span data-stu-id="51a29-110">Related topics</span></span>](#related-topics)
+
+## <a name="overview-of-the-notifications-process"></a><span data-ttu-id="51a29-111">Обзор процесса уведомлений</span><span class="sxs-lookup"><span data-stu-id="51a29-111">Overview of the Notifications Process</span></span>
+
+<span data-ttu-id="51a29-112">Существует три подхода, с помощью которых можно индексировать данные из хранилища данных:</span><span class="sxs-lookup"><span data-stu-id="51a29-112">There are three approaches by which data from your data store can be indexed:</span></span>
+
+-   <span data-ttu-id="51a29-113">Сканирование</span><span class="sxs-lookup"><span data-stu-id="51a29-113">Crawls</span></span>
+-   <span data-ttu-id="51a29-114">Уведомления, управляемые индексатором</span><span class="sxs-lookup"><span data-stu-id="51a29-114">Indexer-managed notifications</span></span>
+-   <span data-ttu-id="51a29-115">Уведомления, управляемые поставщиком</span><span class="sxs-lookup"><span data-stu-id="51a29-115">Provider-managed notifications</span></span>
+
+<span data-ttu-id="51a29-116">Все эти подходы описаны в следующих разделах.</span><span class="sxs-lookup"><span data-stu-id="51a29-116">The merits of each approach are described in the following sections.</span></span>
+
+## <a name="crawls"></a><span data-ttu-id="51a29-117">Сканирование</span><span class="sxs-lookup"><span data-stu-id="51a29-117">Crawls</span></span>
+
+<span data-ttu-id="51a29-118">Источники с поддержкой уведомлений выполняют добавочное сканирование при запуске, а затем полагаются на уведомления или явную команду для повторного сканирования.</span><span class="sxs-lookup"><span data-stu-id="51a29-118">Notification-enabled sources do an incremental crawl on start-up and then rely on notifications or an explicit command to crawl again.</span></span> <span data-ttu-id="51a29-119">Это происходит автоматически в Windows Vista и более поздних версиях.</span><span class="sxs-lookup"><span data-stu-id="51a29-119">This happens automatically on Windows Vista and later.</span></span> <span data-ttu-id="51a29-120">В операционных системах, предшествовавших Windows Vista, необходимо настроить запланированное событие в [планировщик задач](../taskschd/task-scheduler-start-page.md) , которое вызывает код для запуска сканирования на начальных страницах.</span><span class="sxs-lookup"><span data-stu-id="51a29-120">On operating systems prior to Windows Vista, you must set up a scheduled event in the [Task Scheduler](../taskschd/task-scheduler-start-page.md) that calls into your code to initiate a crawl over your start page(s).</span></span> <span data-ttu-id="51a29-121">Не нужно реализовывать никакие формы уведомлений.</span><span class="sxs-lookup"><span data-stu-id="51a29-121">You do not need to implement any form of notifications.</span></span> <span data-ttu-id="51a29-122">В качестве фонового процесса индексатор проходит по области обхода содержимого, выполняя поиск изменений и обновление каталога.</span><span class="sxs-lookup"><span data-stu-id="51a29-122">As a background process, the indexer traverses its crawl scope, looking for changes and updating the catalog.</span></span> <span data-ttu-id="51a29-123">Этот параметр рекомендуется использовать почти во всех ситуациях.</span><span class="sxs-lookup"><span data-stu-id="51a29-123">This option is recommended for almost all situations.</span></span>
+
+## <a name="indexer-managed-notifications"></a><span data-ttu-id="51a29-124">Уведомления Indexer-Managed</span><span class="sxs-lookup"><span data-stu-id="51a29-124">Indexer-Managed Notifications</span></span>
+
+<span data-ttu-id="51a29-125">С помощью уведомлений, управляемых индексатором, вы реализуете стратегию уведомления, которая уведомляет индексатор об изменении данных в хранилище данных, а индексатор управляет отслеживанием уведомлений и индексацией данных.</span><span class="sxs-lookup"><span data-stu-id="51a29-125">With indexer-managed notifications, you implement a notification strategy that notifies the indexer when data in the data store has changed, and the indexer manages tracking the notifications and indexing the data.</span></span> <span data-ttu-id="51a29-126">В этом случае компонент (который мы вызываем поставщик уведомлений) наблюдает за хранилищем данных, собирает сведения об изменениях в хранилище, а затем периодически уведомляет индексатор со списком элементов, для которых требуется индексирование.</span><span class="sxs-lookup"><span data-stu-id="51a29-126">In this situation, your component (which we'll call a notifications provider) monitors the data store, collects information about changes to the store, and then periodically notifies the indexer with a list of items that need indexing.</span></span> <span data-ttu-id="51a29-127">Индексатор отвечает за восстановление и разрешение уведомлений в случае сбоя.</span><span class="sxs-lookup"><span data-stu-id="51a29-127">The indexer is responsible for recovering and resolving notifications in case of failure.</span></span> <span data-ttu-id="51a29-128">Этот вариант, который можно считать стратегией «отправить и забыть ИТ», сокращает частоту сканирования индексатора.</span><span class="sxs-lookup"><span data-stu-id="51a29-128">This option, which you can think of as the "send it and forget it" strategy, reduces the frequency of indexer crawls.</span></span>
+
+## <a name="provider-managed-notifications"></a><span data-ttu-id="51a29-129">Уведомления Provider-Managed</span><span class="sxs-lookup"><span data-stu-id="51a29-129">Provider-Managed Notifications</span></span>
+
+<span data-ttu-id="51a29-130">С помощью уведомлений, управляемых поставщиком, вы реализуете стратегию уведомления, похожую на второй подход, за исключением того, что поставщик уведомлений должен следить за уведомлениями и отвечать за восстановление и разрешение уведомлений в случае сбоя.</span><span class="sxs-lookup"><span data-stu-id="51a29-130">With provider-managed notifications, you implement a notification strategy that is similar to the second approach, except that your notifications provider must track notifications and is responsible for recovering and resolving notifications in case of failure.</span></span> <span data-ttu-id="51a29-131">В этом случае поставщик уведомлений наблюдает за хранилищем данных, собирает и обслуживает сведения об изменениях в хранилище, периодически уведомляет индексатор со списком элементов, которые нуждаются в индексировании, получает обновления состояния от индексатора и повторно отправляет уведомления в случае сбоя.</span><span class="sxs-lookup"><span data-stu-id="51a29-131">In this situation, your notifications provider monitors the data store, collects and maintains information about changes to the store, periodically notifies the indexer with a list of items that need indexing, receives status updates from the indexer, and re-sends notifications in case of failure.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="51a29-132">Этот вариант **не рекомендуется использовать, если** не предполагается, что добавочный обход хранилища данных значительно снижает производительность, и вам требуется детальный контроль состояния индексирования.</span><span class="sxs-lookup"><span data-stu-id="51a29-132">This option is **not recommended unless** you expect incremental crawls of your data store to hinder performance significantly, and you require granular control over or insight into the indexing status.</span></span>
+
+ 
+
+## <a name="notifications-on-rowsets"></a><span data-ttu-id="51a29-133">Уведомления в наборах строк</span><span class="sxs-lookup"><span data-stu-id="51a29-133">Notifications on Rowsets</span></span>
+
+<span data-ttu-id="51a29-134">В Windows 7 и более поздних версиях индексирование событий позволяет поставщикам получать уведомления о наборах строк.</span><span class="sxs-lookup"><span data-stu-id="51a29-134">In Windows 7 and later, indexing eventing enables providers to receive notifications about their rowsets.</span></span> <span data-ttu-id="51a29-135">Поставщики, использующие индексирование событий, могут поддерживать свои наборы строк способом, похожим на поведение фактических расположений файловой системы.</span><span class="sxs-lookup"><span data-stu-id="51a29-135">Providers that use indexing eventing can maintain their rowsets in a manner that resembles the behavior of actual file system locations.</span></span> <span data-ttu-id="51a29-136">Библиотеки и поиск являются основными примерами расположений, отличных от файловых систем, в Windows 7.</span><span class="sxs-lookup"><span data-stu-id="51a29-136">Libraries and searches are the primary examples of non-file-system locations in Windows 7.</span></span> <span data-ttu-id="51a29-137">События индексатора — это представления библиотек в виде уведомлений, которые относятся к представлениям файловых папок.</span><span class="sxs-lookup"><span data-stu-id="51a29-137">Indexer eventing is to library views as notifications are to file-folder views.</span></span> <span data-ttu-id="51a29-138">Для получения уведомлений о событиях интерфейс [**ировсетевентс**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents) должен быть реализован.</span><span class="sxs-lookup"><span data-stu-id="51a29-138">The [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents) interface must be implemented in order to receive notifications of events.</span></span> <span data-ttu-id="51a29-139">Уровень данных является основным клиентом событий индексатора и определяет, что делать с событиями в пользовательском интерфейсе представления элементов.</span><span class="sxs-lookup"><span data-stu-id="51a29-139">The data layer is the primary client of indexer eventing, and decides what to do with events in the Items View UI.</span></span> <span data-ttu-id="51a29-140">Дополнительные сведения см. [в разделе индексирование определения приоритетов и событий набора строк в Windows 7](indexing-prioritization-and-rowset-events.md).</span><span class="sxs-lookup"><span data-stu-id="51a29-140">For more information, see [Indexing Prioritization and Rowset Events in Windows 7](indexing-prioritization-and-rowset-events.md).</span></span>
+
+<span data-ttu-id="51a29-141">В отличие от этого, в Windows Vista представления, основанные на запросах, не имеют связанных событий, за исключением того, что кэш оболочки изменяет свойства файла.</span><span class="sxs-lookup"><span data-stu-id="51a29-141">In contrast, in Windows Vista, query based views have no associated eventing, except for the Shell cache for file property edits.</span></span> <span data-ttu-id="51a29-142">При выполнении поиска возвращаемые результаты являются статическими.</span><span class="sxs-lookup"><span data-stu-id="51a29-142">When you perform a search, the results that are returned are static.</span></span> <span data-ttu-id="51a29-143">Таким образом, если в систему добавляется другой документ, соответствующий поисковому слову, представление не обновляется и не включает в себя новое добавление.</span><span class="sxs-lookup"><span data-stu-id="51a29-143">Hence, if another document is added to your system that matches your search term, your view is not updated to include the new addition.</span></span> <span data-ttu-id="51a29-144">Такое поведение является стандартным для статических веб-результатов.</span><span class="sxs-lookup"><span data-stu-id="51a29-144">This behavior is standard for static web-based results.</span></span> <span data-ttu-id="51a29-145">Однако статические результаты менее приемлемы, если вы пытаетесь предоставить представление, основанное на запросах, в месте хранения.</span><span class="sxs-lookup"><span data-stu-id="51a29-145">However, static results are less acceptable when you are trying to provide a query-based view over a storage location.</span></span> <span data-ttu-id="51a29-146">Пользователи предполагают, что содержимое индексатора является актуальным.</span><span class="sxs-lookup"><span data-stu-id="51a29-146">Users expect that content from the indexer is current.</span></span> <span data-ttu-id="51a29-147">Дополнительные сведения см. [в разделе уведомление об изменениях в индексе](-search-3x-wds-notifyingofchanges.md).</span><span class="sxs-lookup"><span data-stu-id="51a29-147">For more information, see [Notifying the Index of Changes](-search-3x-wds-notifyingofchanges.md).</span></span> <span data-ttu-id="51a29-148">Справочную документацию см. в разделе [Интерфейсы уведомлений](-search-notifications-interfaces-entry-page.md).</span><span class="sxs-lookup"><span data-stu-id="51a29-148">For reference documentation, see [Notifications Interfaces](-search-notifications-interfaces-entry-page.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="51a29-149">См. также</span><span class="sxs-lookup"><span data-stu-id="51a29-149">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="51a29-150">Индексирование, запросы и уведомления в Windows Search</span><span class="sxs-lookup"><span data-stu-id="51a29-150">Indexing, Querying and Notifications in Windows Search</span></span>](-search-3x-wds-included-in-index.md)
+</dt> <dt>
+
+[<span data-ttu-id="51a29-151">Что включено в индекс</span><span class="sxs-lookup"><span data-stu-id="51a29-151">What is Included in the Index</span></span>](-search-indexing-process-overview.md)
+</dt> <dt>
+
+[<span data-ttu-id="51a29-152">Процесс индексирования в Windows Search</span><span class="sxs-lookup"><span data-stu-id="51a29-152">Indexing Process in Windows Search</span></span>](-search-indexing-process-overview.md)
+</dt> <dt>
+
+[<span data-ttu-id="51a29-153">Запрос процесса в Windows Search</span><span class="sxs-lookup"><span data-stu-id="51a29-153">Querying Process in Windows Search</span></span>](querying-process--windows-search-.md)
+</dt> <dt>
+
+[<span data-ttu-id="51a29-154">Требования к форматированию URL-адресов</span><span class="sxs-lookup"><span data-stu-id="51a29-154">URL Formatting Requirements</span></span>](url-formatting-requirements.md)
+</dt> </dl>
+
+ 
+
+ 
