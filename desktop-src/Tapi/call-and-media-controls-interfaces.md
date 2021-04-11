@@ -1,0 +1,128 @@
+---
+description: Ниже приведен вызов TAPI 3. x и интерфейсы элементов управления мультимедиа. Список этих интерфейсов по функциональным возможностям см. в разделе Краткий справочник по вызовам и средствам управления носителями.
+ms.assetid: aa43013d-826e-487b-b0a3-2d890f93a512
+title: Интерфейсы элементов управления Call и Media
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d9e80ea4ae8abcdad4c3629249faeaf30a1472d3
+ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "103999906"
+---
+# <a name="call-and-media-controls-interfaces"></a><span data-ttu-id="f8520-104">Интерфейсы элементов управления Call и Media</span><span class="sxs-lookup"><span data-stu-id="f8520-104">Call and Media Controls Interfaces</span></span>
+
+<span data-ttu-id="f8520-105">Ниже приведен вызов TAPI 3. x и интерфейсы элементов управления мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="f8520-105">The following are the TAPI 3.x call and media controls interfaces.</span></span> <span data-ttu-id="f8520-106">Список этих интерфейсов по функциональным возможностям см. в разделе [краткий справочник по вызовам и средствам управления носителями](call-and-media-controls-quick-reference.md).</span><span class="sxs-lookup"><span data-stu-id="f8520-106">For a listing of these interfaces by functionality, see [Call and Media Controls Quick Reference](call-and-media-controls-quick-reference.md).</span></span>
+
+-   [<span data-ttu-id="f8520-107">**иенумаддресс**</span><span class="sxs-lookup"><span data-stu-id="f8520-107">**IEnumAddress**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress)
+-   [<span data-ttu-id="f8520-108">**иенумбстр**</span><span class="sxs-lookup"><span data-stu-id="f8520-108">**IEnumBstr**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumbstr)
+-   [<span data-ttu-id="f8520-109">**иенумкалл**</span><span class="sxs-lookup"><span data-stu-id="f8520-109">**IEnumCall**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall)
+-   [<span data-ttu-id="f8520-110">**иенумкаллхуб**</span><span class="sxs-lookup"><span data-stu-id="f8520-110">**IEnumCallHub**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub)
+-   [<span data-ttu-id="f8520-111">**иенумкаллингкард**</span><span class="sxs-lookup"><span data-stu-id="f8520-111">**IEnumCallingCard**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallingcard)
+-   [<span data-ttu-id="f8520-112">**иенумлокатион**</span><span class="sxs-lookup"><span data-stu-id="f8520-112">**IEnumLocation**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumlocation)
+-   [<span data-ttu-id="f8520-113">**иенумпартиЦипант**</span><span class="sxs-lookup"><span data-stu-id="f8520-113">**IEnumParticipant**</span></span>](ienumparticipant.md)
+-   [<span data-ttu-id="f8520-114">**иенумфоне**</span><span class="sxs-lookup"><span data-stu-id="f8520-114">**IEnumPhone**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone)
+-   [<span data-ttu-id="f8520-115">**иенумплуггаблесуперклассинфо**</span><span class="sxs-lookup"><span data-stu-id="f8520-115">**IEnumPluggableSuperclassInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggablesuperclassinfo)
+-   [<span data-ttu-id="f8520-116">**иенумплуггаблетерминалклассинфо**</span><span class="sxs-lookup"><span data-stu-id="f8520-116">**IEnumPluggableTerminalClassInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggableterminalclassinfo)
+-   [<span data-ttu-id="f8520-117">**иенумтерминал**</span><span class="sxs-lookup"><span data-stu-id="f8520-117">**IEnumTerminal**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminal)
+-   [<span data-ttu-id="f8520-118">**иенумтерминалкласс**</span><span class="sxs-lookup"><span data-stu-id="f8520-118">**IEnumTerminalClass**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass)
+-   [<span data-ttu-id="f8520-119">**IH323LineEx**</span><span class="sxs-lookup"><span data-stu-id="f8520-119">**IH323LineEx**</span></span>](ih323lineex.md)
+-   [<span data-ttu-id="f8520-120">**икэйфрамеконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-120">**IKeyFrameControl**</span></span>](ikeyframecontrol.md)
+-   [<span data-ttu-id="f8520-121">**имултикастконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-121">**IMulticastControl**</span></span>](imulticastcontrol.md)
+-   [<span data-ttu-id="f8520-122">**итаддресс**</span><span class="sxs-lookup"><span data-stu-id="f8520-122">**ITAddress**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddress)
+-   [<span data-ttu-id="f8520-123">**ITAddress2**</span><span class="sxs-lookup"><span data-stu-id="f8520-123">**ITAddress2**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddress2)
+-   [<span data-ttu-id="f8520-124">**итаддресскапабилитиес**</span><span class="sxs-lookup"><span data-stu-id="f8520-124">**ITAddressCapabilities**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities)
+-   [<span data-ttu-id="f8520-125">**итаддрессдевицеспеЦифицевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-125">**ITAddressDeviceSpecificEvent**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itaddressdevicespecificevent)
+-   [<span data-ttu-id="f8520-126">**итаддрессевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-126">**ITAddressEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent)
+-   [<span data-ttu-id="f8520-127">**итаддресстранслатион**</span><span class="sxs-lookup"><span data-stu-id="f8520-127">**ITAddressTranslation**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation)
+-   [<span data-ttu-id="f8520-128">**итаддресстранслатионинфо**</span><span class="sxs-lookup"><span data-stu-id="f8520-128">**ITAddressTranslationInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo)
+-   [<span data-ttu-id="f8520-129">**италлокаторпропертиес**</span><span class="sxs-lookup"><span data-stu-id="f8520-129">**ITAllocatorProperties**</span></span>](/windows/win32/api/tapi3/nn-tapi3-itallocatorproperties)
+-   [<span data-ttu-id="f8520-130">**итаммедиаформат**</span><span class="sxs-lookup"><span data-stu-id="f8520-130">**ITAMMediaFormat**</span></span>](/windows/win32/api/tapi3/nn-tapi3-itammediaformat)
+-   [<span data-ttu-id="f8520-131">**итасртерминалевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-131">**ITASRTerminalEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itasrterminalevent)
+-   [<span data-ttu-id="f8520-132">**итаудиодевицеконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-132">**ITAudioDeviceControl**</span></span>](itaudiodevicecontrol.md)
+-   [<span data-ttu-id="f8520-133">**итаудиосеттингс**</span><span class="sxs-lookup"><span data-stu-id="f8520-133">**ITAudioSettings**</span></span>](itaudiosettings.md)
+-   [<span data-ttu-id="f8520-134">**итаутоматедфонеконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-134">**ITAutomatedPhoneControl**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol)
+-   [<span data-ttu-id="f8520-135">**итбасикаудиотерминал**</span><span class="sxs-lookup"><span data-stu-id="f8520-135">**ITBasicAudioTerminal**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal)
+-   [<span data-ttu-id="f8520-136">**итбасиккаллконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-136">**ITBasicCallControl**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol)
+-   [<span data-ttu-id="f8520-137">**ITBasicCallControl2**</span><span class="sxs-lookup"><span data-stu-id="f8520-137">**ITBasicCallControl2**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2)
+-   [<span data-ttu-id="f8520-138">**иткаллхуб**</span><span class="sxs-lookup"><span data-stu-id="f8520-138">**ITCallHub**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub)
+-   [<span data-ttu-id="f8520-139">**иткаллхубевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-139">**ITCallHubEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent)
+-   [<span data-ttu-id="f8520-140">**иткаллинфо**</span><span class="sxs-lookup"><span data-stu-id="f8520-140">**ITCallInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo)
+-   [<span data-ttu-id="f8520-141">**ITCallInfo2**</span><span class="sxs-lookup"><span data-stu-id="f8520-141">**ITCallInfo2**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo2)
+-   [<span data-ttu-id="f8520-142">**иткаллинфочанжеевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-142">**ITCallInfoChangeEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfochangeevent)
+-   [<span data-ttu-id="f8520-143">**иткаллингкард**</span><span class="sxs-lookup"><span data-stu-id="f8520-143">**ITCallingCard**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallingcard)
+-   [<span data-ttu-id="f8520-144">**иткаллмедиаевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-144">**ITCallMediaEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent)
+-   [<span data-ttu-id="f8520-145">**иткаллнотификатионевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-145">**ITCallNotificationEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent)
+-   [<span data-ttu-id="f8520-146">**иткаллкуалитиконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-146">**ITCallQualityControl**</span></span>](itcallqualitycontrol.md)
+-   [<span data-ttu-id="f8520-147">**иткаллстативент**</span><span class="sxs-lookup"><span data-stu-id="f8520-147">**ITCallStateEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent)
+-   [<span data-ttu-id="f8520-148">**итколлектион**</span><span class="sxs-lookup"><span data-stu-id="f8520-148">**ITCollection**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection)
+-   [<span data-ttu-id="f8520-149">**ITCollection2**</span><span class="sxs-lookup"><span data-stu-id="f8520-149">**ITCollection2**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itcollection2)
+-   [<span data-ttu-id="f8520-150">**иткустомтоне**</span><span class="sxs-lookup"><span data-stu-id="f8520-150">**ITCustomTone**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itcustomtone)
+-   [<span data-ttu-id="f8520-151">**итдетекттоне**</span><span class="sxs-lookup"><span data-stu-id="f8520-151">**ITDetectTone**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itdetecttone)
+-   [<span data-ttu-id="f8520-152">**итдигитдетектионевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-152">**ITDigitDetectionEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent)
+-   [<span data-ttu-id="f8520-153">**итдигитженератионевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-153">**ITDigitGenerationEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itdigitgenerationevent)
+-   [<span data-ttu-id="f8520-154">**итдигитсгасередевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-154">**ITDigitsGatheredEvent**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itdigitsgatheredevent)
+-   [<span data-ttu-id="f8520-155">**итдиспатчмаппер**</span><span class="sxs-lookup"><span data-stu-id="f8520-155">**ITDispatchMapper**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itdispatchmapper)
+-   [<span data-ttu-id="f8520-156">**итфилетерминалевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-156">**ITFileTerminalEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itfileterminalevent)
+-   [<span data-ttu-id="f8520-157">**итфилетракк**</span><span class="sxs-lookup"><span data-stu-id="f8520-157">**ITFileTrack**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itfiletrack)
+-   [<span data-ttu-id="f8520-158">**итформатконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-158">**ITFormatControl**</span></span>](itformatcontrol.md)
+-   [<span data-ttu-id="f8520-159">**итфорвардинформатион**</span><span class="sxs-lookup"><span data-stu-id="f8520-159">**ITForwardInformation**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation)
+-   [<span data-ttu-id="f8520-160">**ITForwardInformation2**</span><span class="sxs-lookup"><span data-stu-id="f8520-160">**ITForwardInformation2**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itforwardinformation2)
+-   [<span data-ttu-id="f8520-161">**итлегациаддрессмедиаконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-161">**ITLegacyAddressMediaControl**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol)
+-   [<span data-ttu-id="f8520-162">**ITLegacyAddressMediaControl2**</span><span class="sxs-lookup"><span data-stu-id="f8520-162">**ITLegacyAddressMediaControl2**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itlegacyaddressmediacontrol2)
+-   [<span data-ttu-id="f8520-163">**итлегацикаллмедиаконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-163">**ITLegacyCallMediaControl**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol)
+-   [<span data-ttu-id="f8520-164">**ITLegacyCallMediaControl2**</span><span class="sxs-lookup"><span data-stu-id="f8520-164">**ITLegacyCallMediaControl2**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itlegacycallmediacontrol2)
+-   [<span data-ttu-id="f8520-165">**итлегацивавесуппорт**</span><span class="sxs-lookup"><span data-stu-id="f8520-165">**ITLegacyWaveSupport**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacywavesupport)
+-   [<span data-ttu-id="f8520-166">**итлокалпартиЦипант**</span><span class="sxs-lookup"><span data-stu-id="f8520-166">**ITLocalParticipant**</span></span>](itlocalparticipant.md)
+-   [<span data-ttu-id="f8520-167">**итлокатионинфо**</span><span class="sxs-lookup"><span data-stu-id="f8520-167">**ITLocationInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itlocationinfo)
+-   [<span data-ttu-id="f8520-168">**итмедиаконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-168">**ITMediaControl**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itmediacontrol)
+-   [<span data-ttu-id="f8520-169">**итмедиаплайбакк**</span><span class="sxs-lookup"><span data-stu-id="f8520-169">**ITMediaPlayback**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itmediaplayback)
+-   [<span data-ttu-id="f8520-170">**итмедиарекорд**</span><span class="sxs-lookup"><span data-stu-id="f8520-170">**ITMediaRecord**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord)
+-   [<span data-ttu-id="f8520-171">**итмедиасуппорт**</span><span class="sxs-lookup"><span data-stu-id="f8520-171">**ITMediaSupport**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport)
+-   [<span data-ttu-id="f8520-172">**итмултитракктерминал**</span><span class="sxs-lookup"><span data-stu-id="f8520-172">**ITMultiTrackTerminal**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itmultitrackterminal)
+-   [<span data-ttu-id="f8520-173">**итпартиЦипант**</span><span class="sxs-lookup"><span data-stu-id="f8520-173">**ITParticipant**</span></span>](itparticipant.md)
+-   [<span data-ttu-id="f8520-174">**итпартиЦипантконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-174">**ITParticipantControl**</span></span>](itparticipantcontrol.md)
+-   [<span data-ttu-id="f8520-175">**итпартиЦипантевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-175">**ITParticipantEvent**</span></span>](itparticipantevent.md)
+-   [<span data-ttu-id="f8520-176">**итпартиЦипантсубстреамконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-176">**ITParticipantSubStreamControl**</span></span>](itparticipantsubstreamcontrol.md)
+-   [<span data-ttu-id="f8520-177">**ITPhone**</span><span class="sxs-lookup"><span data-stu-id="f8520-177">**ITPhone**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itphone)
+-   [<span data-ttu-id="f8520-178">**итфонедевицеспеЦифицевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-178">**ITPhoneDeviceSpecificEvent**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itphonedevicespecificevent)
+-   [<span data-ttu-id="f8520-179">**итфонивент**</span><span class="sxs-lookup"><span data-stu-id="f8520-179">**ITPhoneEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent)
+-   [<span data-ttu-id="f8520-180">**итплуггаблетерминалклассинфо**</span><span class="sxs-lookup"><span data-stu-id="f8520-180">**ITPluggableTerminalClassInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalclassinfo)
+-   [<span data-ttu-id="f8520-181">**итплуггаблетерминалклассрегистратион**</span><span class="sxs-lookup"><span data-stu-id="f8520-181">**ITPluggableTerminalClassRegistration**</span></span>](/windows/desktop/api/Termmgr/nn-termmgr-itpluggableterminalclassregistration)
+-   [<span data-ttu-id="f8520-182">**итплуггаблетерминалевентсинк**</span><span class="sxs-lookup"><span data-stu-id="f8520-182">**ITPluggableTerminalEventSink**</span></span>](/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsink)
+-   [<span data-ttu-id="f8520-183">**итплуггаблетерминалевентсинкрегистратион**</span><span class="sxs-lookup"><span data-stu-id="f8520-183">**ITPluggableTerminalEventSinkRegistration**</span></span>](/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsinkregistration)
+-   [<span data-ttu-id="f8520-184">**итплуггаблетерминалинитиализатион**</span><span class="sxs-lookup"><span data-stu-id="f8520-184">**ITPluggableTerminalInitialization**</span></span>](/windows/desktop/api/Termmgr/nn-termmgr-itpluggableterminalinitialization)
+-   [<span data-ttu-id="f8520-185">**итплуггаблетерминалсуперклассинфо**</span><span class="sxs-lookup"><span data-stu-id="f8520-185">**ITPluggableTerminalSuperclassInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalsuperclassinfo)
+-   [<span data-ttu-id="f8520-186">**итплуггаблетерминалсуперклассрегистратион**</span><span class="sxs-lookup"><span data-stu-id="f8520-186">**ITPluggableTerminalSuperclassRegistration**</span></span>](/windows/desktop/api/Termmgr/nn-termmgr-itpluggableterminalsuperclassregistration)
+-   [<span data-ttu-id="f8520-187">**итпривативент**</span><span class="sxs-lookup"><span data-stu-id="f8520-187">**ITPrivateEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itprivateevent)
+-   [<span data-ttu-id="f8520-188">**иткосаппликатионид**</span><span class="sxs-lookup"><span data-stu-id="f8520-188">**ITQOSApplicationID**</span></span>](itqosapplicationid.md)
+-   [<span data-ttu-id="f8520-189">**иткосевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-189">**ITQOSEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent)
+-   [<span data-ttu-id="f8520-190">**итрекуест**</span><span class="sxs-lookup"><span data-stu-id="f8520-190">**ITRequest**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itrequest)
+-   [<span data-ttu-id="f8520-191">**итрекуестевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-191">**ITRequestEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent)
+-   [<span data-ttu-id="f8520-192">**итскриптаблеаудиоформат**</span><span class="sxs-lookup"><span data-stu-id="f8520-192">**ITScriptableAudioFormat**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat)
+-   [<span data-ttu-id="f8520-193">**итстатикаудиотерминал**</span><span class="sxs-lookup"><span data-stu-id="f8520-193">**ITStaticAudioTerminal**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itstaticaudioterminal)
+-   [<span data-ttu-id="f8520-194">**итстреамкуалитиконтрол**</span><span class="sxs-lookup"><span data-stu-id="f8520-194">**ITStreamQualityControl**</span></span>](itstreamqualitycontrol.md)
+-   [<span data-ttu-id="f8520-195">**иттапи**</span><span class="sxs-lookup"><span data-stu-id="f8520-195">**ITTAPI**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ittapi)
+-   [<span data-ttu-id="f8520-196">**ITTAPI2**</span><span class="sxs-lookup"><span data-stu-id="f8520-196">**ITTAPI2**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2)
+-   [<span data-ttu-id="f8520-197">**иттапикаллцентер**</span><span class="sxs-lookup"><span data-stu-id="f8520-197">**ITTAPICallCenter**</span></span>](/windows/win32/api/tapi3cc/nn-tapi3cc-ittapicallcenter)
+-   [<span data-ttu-id="f8520-198">**иттапиевентнотификатион**</span><span class="sxs-lookup"><span data-stu-id="f8520-198">**ITTAPIEventNotification**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-ittapieventnotification)
+-   [<span data-ttu-id="f8520-199">**иттапиобжектевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-199">**ITTAPIObjectEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent)
+-   [<span data-ttu-id="f8520-200">**ITTAPIObjectEvent2**</span><span class="sxs-lookup"><span data-stu-id="f8520-200">**ITTAPIObjectEvent2**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent2)
+-   [<span data-ttu-id="f8520-201">**иттонедетектионевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-201">**ITToneDetectionEvent**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-ittonedetectionevent)
+-   [<span data-ttu-id="f8520-202">**иттонетерминалевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-202">**ITToneTerminalEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ittoneterminalevent)
+-   [<span data-ttu-id="f8520-203">**итттстерминалевент**</span><span class="sxs-lookup"><span data-stu-id="f8520-203">**ITTTSTerminalEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itttsterminalevent)
+
+<span data-ttu-id="f8520-204">Если с вызовом связан MSP, доступны следующие интерфейсы.</span><span class="sxs-lookup"><span data-stu-id="f8520-204">The following interfaces are available if an MSP is associated with the call.</span></span> <span data-ttu-id="f8520-205">Интерфейсы MSP управляют потоковой передачей мультимедиа и терминалами для вызова.</span><span class="sxs-lookup"><span data-stu-id="f8520-205">The MSP interfaces control media streaming and terminals for the call.</span></span>
+
+-   [<span data-ttu-id="f8520-206">**Итстреам (МСПИ)**</span><span class="sxs-lookup"><span data-stu-id="f8520-206">**ITStream (MSPI)**</span></span>](itstream-mspi-.md)
+-   [<span data-ttu-id="f8520-207">**Итстреамконтрол (МСПИ)**</span><span class="sxs-lookup"><span data-stu-id="f8520-207">**ITStreamControl (MSPI)**</span></span>](itstreamcontrol-mspi-.md)
+-   [<span data-ttu-id="f8520-208">**Итсубстреам (МСПИ)**</span><span class="sxs-lookup"><span data-stu-id="f8520-208">**ITSubStream (MSPI)**</span></span>](itsubstream-mspi-.md)
+-   [<span data-ttu-id="f8520-209">**Итсубстреамконтрол (МСПИ)**</span><span class="sxs-lookup"><span data-stu-id="f8520-209">**ITSubStreamControl (MSPI)**</span></span>](itsubstreamcontrol-mspi-.md)
+-   [<span data-ttu-id="f8520-210">**Иттерминал (МСПИ)**</span><span class="sxs-lookup"><span data-stu-id="f8520-210">**ITTerminal (MSPI)**</span></span>](itterminal-mspi-.md)
+-   [<span data-ttu-id="f8520-211">**Иттерминалевент (МСПИ)**</span><span class="sxs-lookup"><span data-stu-id="f8520-211">**ITTerminalEvent (MSPI)**</span></span>](itterminalevent-mspi-.md)
+-   [<span data-ttu-id="f8520-212">**Иттерминалсуппорт (МСПИ)**</span><span class="sxs-lookup"><span data-stu-id="f8520-212">**ITTerminalSupport (MSPI)**</span></span>](itterminalsupport-mspi-.md)
+
+ 
+
+ 
