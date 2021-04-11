@@ -1,0 +1,128 @@
+---
+description: Ниже приведен вызов TAPI 3. x и интерфейсы элементов управления мультимедиа. Список этих интерфейсов по функциональным возможностям см. в разделе Краткий справочник по вызовам и средствам управления носителями.
+ms.assetid: aa43013d-826e-487b-b0a3-2d890f93a512
+title: Интерфейсы элементов управления Call и Media
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d9e80ea4ae8abcdad4c3629249faeaf30a1472d3
+ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "103999906"
+---
+# <a name="call-and-media-controls-interfaces"></a>Интерфейсы элементов управления Call и Media
+
+Ниже приведен вызов TAPI 3. x и интерфейсы элементов управления мультимедиа. Список этих интерфейсов по функциональным возможностям см. в разделе [краткий справочник по вызовам и средствам управления носителями](call-and-media-controls-quick-reference.md).
+
+-   [**иенумаддресс**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress)
+-   [**иенумбстр**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumbstr)
+-   [**иенумкалл**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall)
+-   [**иенумкаллхуб**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub)
+-   [**иенумкаллингкард**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallingcard)
+-   [**иенумлокатион**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumlocation)
+-   [**иенумпартиЦипант**](ienumparticipant.md)
+-   [**иенумфоне**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone)
+-   [**иенумплуггаблесуперклассинфо**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggablesuperclassinfo)
+-   [**иенумплуггаблетерминалклассинфо**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggableterminalclassinfo)
+-   [**иенумтерминал**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminal)
+-   [**иенумтерминалкласс**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass)
+-   [**IH323LineEx**](ih323lineex.md)
+-   [**икэйфрамеконтрол**](ikeyframecontrol.md)
+-   [**имултикастконтрол**](imulticastcontrol.md)
+-   [**итаддресс**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddress)
+-   [**ITAddress2**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddress2)
+-   [**итаддресскапабилитиес**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities)
+-   [**итаддрессдевицеспеЦифицевент**](/windows/desktop/api/Tapi3if/nn-tapi3if-itaddressdevicespecificevent)
+-   [**итаддрессевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent)
+-   [**итаддресстранслатион**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation)
+-   [**итаддресстранслатионинфо**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo)
+-   [**италлокаторпропертиес**](/windows/win32/api/tapi3/nn-tapi3-itallocatorproperties)
+-   [**итаммедиаформат**](/windows/win32/api/tapi3/nn-tapi3-itammediaformat)
+-   [**итасртерминалевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itasrterminalevent)
+-   [**итаудиодевицеконтрол**](itaudiodevicecontrol.md)
+-   [**итаудиосеттингс**](itaudiosettings.md)
+-   [**итаутоматедфонеконтрол**](/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol)
+-   [**итбасикаудиотерминал**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal)
+-   [**итбасиккаллконтрол**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol)
+-   [**ITBasicCallControl2**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2)
+-   [**иткаллхуб**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub)
+-   [**иткаллхубевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent)
+-   [**иткаллинфо**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo)
+-   [**ITCallInfo2**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo2)
+-   [**иткаллинфочанжеевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfochangeevent)
+-   [**иткаллингкард**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallingcard)
+-   [**иткаллмедиаевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent)
+-   [**иткаллнотификатионевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent)
+-   [**иткаллкуалитиконтрол**](itcallqualitycontrol.md)
+-   [**иткаллстативент**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent)
+-   [**итколлектион**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection)
+-   [**ITCollection2**](/windows/desktop/api/Tapi3if/nn-tapi3if-itcollection2)
+-   [**иткустомтоне**](/windows/desktop/api/Tapi3if/nn-tapi3if-itcustomtone)
+-   [**итдетекттоне**](/windows/desktop/api/Tapi3if/nn-tapi3if-itdetecttone)
+-   [**итдигитдетектионевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent)
+-   [**итдигитженератионевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itdigitgenerationevent)
+-   [**итдигитсгасередевент**](/windows/desktop/api/Tapi3if/nn-tapi3if-itdigitsgatheredevent)
+-   [**итдиспатчмаппер**](/windows/desktop/api/tapi3if/nn-tapi3if-itdispatchmapper)
+-   [**итфилетерминалевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itfileterminalevent)
+-   [**итфилетракк**](/windows/desktop/api/tapi3if/nn-tapi3if-itfiletrack)
+-   [**итформатконтрол**](itformatcontrol.md)
+-   [**итфорвардинформатион**](/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation)
+-   [**ITForwardInformation2**](/windows/desktop/api/Tapi3if/nn-tapi3if-itforwardinformation2)
+-   [**итлегациаддрессмедиаконтрол**](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol)
+-   [**ITLegacyAddressMediaControl2**](/windows/desktop/api/Tapi3if/nn-tapi3if-itlegacyaddressmediacontrol2)
+-   [**итлегацикаллмедиаконтрол**](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol)
+-   [**ITLegacyCallMediaControl2**](/windows/desktop/api/Tapi3if/nn-tapi3if-itlegacycallmediacontrol2)
+-   [**итлегацивавесуппорт**](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacywavesupport)
+-   [**итлокалпартиЦипант**](itlocalparticipant.md)
+-   [**итлокатионинфо**](/windows/desktop/api/tapi3if/nn-tapi3if-itlocationinfo)
+-   [**итмедиаконтрол**](/windows/desktop/api/tapi3if/nn-tapi3if-itmediacontrol)
+-   [**итмедиаплайбакк**](/windows/desktop/api/tapi3if/nn-tapi3if-itmediaplayback)
+-   [**итмедиарекорд**](/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord)
+-   [**итмедиасуппорт**](/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport)
+-   [**итмултитракктерминал**](/windows/desktop/api/tapi3if/nn-tapi3if-itmultitrackterminal)
+-   [**итпартиЦипант**](itparticipant.md)
+-   [**итпартиЦипантконтрол**](itparticipantcontrol.md)
+-   [**итпартиЦипантевент**](itparticipantevent.md)
+-   [**итпартиЦипантсубстреамконтрол**](itparticipantsubstreamcontrol.md)
+-   [**ITPhone**](/windows/desktop/api/tapi3if/nn-tapi3if-itphone)
+-   [**итфонедевицеспеЦифицевент**](/windows/desktop/api/Tapi3if/nn-tapi3if-itphonedevicespecificevent)
+-   [**итфонивент**](/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent)
+-   [**итплуггаблетерминалклассинфо**](/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalclassinfo)
+-   [**итплуггаблетерминалклассрегистратион**](/windows/desktop/api/Termmgr/nn-termmgr-itpluggableterminalclassregistration)
+-   [**итплуггаблетерминалевентсинк**](/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsink)
+-   [**итплуггаблетерминалевентсинкрегистратион**](/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsinkregistration)
+-   [**итплуггаблетерминалинитиализатион**](/windows/desktop/api/Termmgr/nn-termmgr-itpluggableterminalinitialization)
+-   [**итплуггаблетерминалсуперклассинфо**](/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalsuperclassinfo)
+-   [**итплуггаблетерминалсуперклассрегистратион**](/windows/desktop/api/Termmgr/nn-termmgr-itpluggableterminalsuperclassregistration)
+-   [**итпривативент**](/windows/desktop/api/tapi3if/nn-tapi3if-itprivateevent)
+-   [**иткосаппликатионид**](itqosapplicationid.md)
+-   [**иткосевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent)
+-   [**итрекуест**](/windows/desktop/api/tapi3if/nn-tapi3if-itrequest)
+-   [**итрекуестевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent)
+-   [**итскриптаблеаудиоформат**](/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat)
+-   [**итстатикаудиотерминал**](/windows/desktop/api/tapi3if/nn-tapi3if-itstaticaudioterminal)
+-   [**итстреамкуалитиконтрол**](itstreamqualitycontrol.md)
+-   [**иттапи**](/windows/desktop/api/tapi3if/nn-tapi3if-ittapi)
+-   [**ITTAPI2**](/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2)
+-   [**иттапикаллцентер**](/windows/win32/api/tapi3cc/nn-tapi3cc-ittapicallcenter)
+-   [**иттапиевентнотификатион**](/windows/desktop/api/Tapi3if/nn-tapi3if-ittapieventnotification)
+-   [**иттапиобжектевент**](/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent)
+-   [**ITTAPIObjectEvent2**](/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent2)
+-   [**иттонедетектионевент**](/windows/desktop/api/Tapi3if/nn-tapi3if-ittonedetectionevent)
+-   [**иттонетерминалевент**](/windows/desktop/api/tapi3if/nn-tapi3if-ittoneterminalevent)
+-   [**итттстерминалевент**](/windows/desktop/api/tapi3if/nn-tapi3if-itttsterminalevent)
+
+Если с вызовом связан MSP, доступны следующие интерфейсы. Интерфейсы MSP управляют потоковой передачей мультимедиа и терминалами для вызова.
+
+-   [**Итстреам (МСПИ)**](itstream-mspi-.md)
+-   [**Итстреамконтрол (МСПИ)**](itstreamcontrol-mspi-.md)
+-   [**Итсубстреам (МСПИ)**](itsubstream-mspi-.md)
+-   [**Итсубстреамконтрол (МСПИ)**](itsubstreamcontrol-mspi-.md)
+-   [**Иттерминал (МСПИ)**](itterminal-mspi-.md)
+-   [**Иттерминалевент (МСПИ)**](itterminalevent-mspi-.md)
+-   [**Иттерминалсуппорт (МСПИ)**](itterminalsupport-mspi-.md)
+
+ 
+
+ 
