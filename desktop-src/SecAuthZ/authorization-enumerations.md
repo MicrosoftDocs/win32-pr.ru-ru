@@ -1,0 +1,51 @@
+---
+description: Перечисления, используемые с приложениями авторизации.
+ms.assetid: e2f22838-102e-432c-9c82-06a3e0741374
+title: Перечисления авторизации
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c9363ca8039c326a81ad2e08a9136f5f65363146
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104265396"
+---
+# <a name="authorization-enumerations"></a>Перечисления авторизации
+
+В приложениях авторизации используются следующие перечисления.
+
+## <a name="in-this-section"></a>В этом разделе
+
+
+
+| Раздел                                                                                          | Описание                                                                                                                                                                                                                                                                           |
+|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**\_режим доступа**](/windows/win32/api/accctrl/ne-accctrl-access_mode)<br/>                                                 | Содержит значения, указывающие, как права доступа в [**явной структуре \_ доступа**](/windows/desktop/api/AccCtrl/ns-accctrl-explicit_access_a) применяются к доверенному лицу.<br/>                                                                                                                                      |
+| [**\_класс сведений \_ ACL**](/windows/desktop/api/Winnt/ne-winnt-acl_information_class)<br/>                            | Содержит значения, указывающие тип сведений, назначаемых или извлекаемых из [списка управления доступом](/windows/desktop/SecGloss/a-gly) (ACL).<br/>                                                               |
+| [**\_Тип события \_ аудита**](/windows/desktop/api/Winnt/ne-winnt-audit_event_type)<br/>                                      | Определяет значения, указывающие тип объекта, для которого выполняется аудит. Функции [**акцессчеккбитипеандаудиталарм**](/windows/desktop/api/Winbase/nf-winbase-accesscheckbytypeandauditalarma) и [**акцессчеккбитипересултлистандаудиталарм**](/windows/desktop/api/Winbase/nf-winbase-accesscheckbytyperesultlistandauditalarma) используют эти значения.<br/>   |
+| [**\_тип параметра \_ аудита**](/windows/desktop/api/Adtgen/ne-adtgen-audit_param_type)<br/>                                      | Определяет тип доступных параметров аудита.<br/>                                                                                                                                                                                                                   |
+| [**\_ \_ класс сведений о контексте AUTHZ \_**](/windows/desktop/api/Authz/ne-authz-authz_context_information_class)<br/>       | Указывает тип данных, извлекаемых из существующего Аусзклиентконтекст. Это перечисление используется функцией [**аусзжетинформатионфромконтекст**](/windows/desktop/api/Authz/nf-authz-authzgetinformationfromcontext) .<br/>                                                                  |
+| [**\_операция с \_ атрибутом безопасности AUTHZ \_**](/windows/desktop/api/Authz/ne-authz-authz_security_attribute_operation)<br/> | Указывает тип изменений, которые необходимо внести в атрибуты безопасности с помощью вызова функции [**аусзмодифисекуритяттрибутес**](/windows/desktop/api/Authz/nf-authz-authzmodifysecurityattributes) .<br/>                                                                                                     |
+| [**\_Операция ИД безопасности AUTHZ \_**](/windows/desktop/api/Authz/ne-authz-authz_sid_operation)<br/>                                | Указывает тип операций SID, которые могут быть сделаны при вызове функции [**аусзмодифисидс**](/windows/desktop/api/Authz/nf-authz-authzmodifysids) .<br/>                                                                                                                                                |
+| [**AZ \_ prop, \_ константы**](/windows/win32/api/azroles/ne-azroles-az_prop_constants)<br/>                                    | Определяет константы, используемые диспетчером авторизации.<br/>                                                                                                                                                                                                                           |
+| [**ОБЯЗАТЕЛЬНЫй \_ уровень**](/windows/desktop/api/Winnt/ne-winnt-mandatory_level)<br/>                                         | Список возможных уровней безопасности.<br/>                                                                                                                                                                                                                                        |
+| [**МНОЖЕСТВЕННая \_ операция с доверенным лицом \_**](/windows/desktop/api/AccCtrl/ne-accctrl-multiple_trustee_operation)<br/>                  | Содержит значения, указывающие, является ли структура [**доверенного**](/windows/desktop/api/AccCtrl/ns-accctrl-trustee_a) лица доверенным лицом для олицетворения.<br/>                                                                                                                                                                  |
+| [**\_параметр PROG Invoke \_**](/windows/win32/api/accctrl/ne-accctrl-prog_invoke_setting)<br/>                                | Указывает начальную настройку функции, используемой для отслеживания хода выполнения вызова функции [**трисетнамедсекуритинфо**](/windows/desktop/api/Aclapi/nf-aclapi-treesetnamedsecurityinfoa) или [**триресетнамедсекуритинфо**](/windows/desktop/api/Aclapi/nf-aclapi-treeresetnamedsecurityinfoa) .<br/>                                       |
+| [**\_тип объекта \_ SE**](/windows/desktop/api/AccCtrl/ne-accctrl-se_object_type)<br/>                                          | Содержит значения, соответствующие типам объектов Windows, поддерживающих безопасность.<br/>                                                                                                                                                                                     |
+| [**\_уровень олицетворения безопасности \_**](/windows/desktop/api/Winnt/ne-winnt-security_impersonation_level)<br/>              | Содержит значения, определяющие уровни олицетворения безопасности. Уровни олицетворения безопасности управляют степенью, до которой серверный процесс может действовать от имени клиентского [процесса](/windows/desktop/SecGloss/p-gly).<br/>                                 |
+| [**\_тип страницы \_ Si**](/windows/desktop/api/Aclui/ne-aclui-si_page_type)<br/>                                              | Содержит значения, указывающие типы страниц свойств в окне свойств редактора управления доступом.<br/>                                                                                                                                                                      |
+| [**\_использование имени идентификатора безопасности \_**](/windows/desktop/api/Winnt/ne-winnt-sid_name_use)<br/>                                              | Содержит значения, указывающие тип [идентификатора безопасности](/windows/desktop/SecGloss/s-gly) (SID).<br/>                                                                                                                |
+| [**\_тип повышения прав маркера \_**](/windows/desktop/api/Winnt/ne-winnt-token_elevation_type)<br/>                             | Указывает тип повышения прав маркера, запрашиваемого функцией [**GetTokenInformation**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-gettokeninformation) или устанавливаемого функцией [**сеттокенинформатион**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-settokeninformation) .<br/>                                                                          |
+| [**\_класс сведений о токене \_**](/windows/desktop/api/Winnt/ne-winnt-token_information_class)<br/>                        | Содержит значения, указывающие тип сведений, назначаемых или получаемых из [маркера доступа](/windows/desktop/SecGloss/a-gly).<br/>                                                                                          |
+| [**Тип ТОКЕНа \_**](/windows/desktop/api/Winnt/ne-winnt-token_type)<br/>                                                   | Содержит значения, которые различают между [основным маркером](/windows/desktop/SecGloss/p-gly) и [маркером олицетворения](/windows/desktop/SecGloss/i-gly).<br/>                     |
+| [**форма ДОВЕРЕНного лица \_**](/windows/desktop/api/AccCtrl/ne-accctrl-trustee_form)<br/>                                               | Значения, указывающие тип данных, на который указывает элемент **птстрнаме** структуры [**доверенного лица**](/windows/desktop/api/AccCtrl/ns-accctrl-trustee_a) .<br/>                                                                                                                                                  |
+| [**Тип ДОВЕРЕНного лица \_**](/windows/desktop/api/AccCtrl/ne-accctrl-trustee_type)<br/>                                               | Значения, указывающие тип доверенного лица, идентифицируемого структурой [**доверенного лица**](/windows/desktop/api/AccCtrl/ns-accctrl-trustee_a) .<br/>                                                                                                                                                                             |
+| [**\_известный \_ тип идентификатора безопасности \_**](/windows/desktop/api/Winnt/ne-winnt-well_known_sid_type)<br/>                               | Список часто используемых [идентификаторов безопасности](/windows/desktop/SecGloss/s-gly) (SID). Программы могут передать эти значения функции [**креатевеллкновнсид**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-createwellknownsid) , чтобы создать идентификатор SID из этого списка.<br/> |
+
+
+
+ 
+
+ 
+
