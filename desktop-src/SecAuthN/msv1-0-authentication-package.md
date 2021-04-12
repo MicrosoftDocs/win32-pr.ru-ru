@@ -1,0 +1,32 @@
+---
+description: Корпорация Майкрософт предоставляет \_ пакет проверки подлинности MSV1 0 для входа на локальный компьютер, для которого не требуется пользовательская проверка подлинности.
+ms.assetid: 8b85588d-0a79-43af-b526-7a5fc8248f99
+title: Пакет проверки подлинности MSV1_0
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 662ae65f60bec61c30b12271a34dc9d3c2883d94
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104265802"
+---
+# <a name="msv1_0-authentication-package"></a><span data-ttu-id="c1058-103">\_Пакет проверки подлинности MSV1 0</span><span class="sxs-lookup"><span data-stu-id="c1058-103">MSV1\_0 Authentication Package</span></span>
+
+<span data-ttu-id="c1058-104">Корпорация Майкрософт предоставляет \_ [*пакет проверки подлинности*](../secgloss/a-gly.md) MSV1 0 для входа на локальный компьютер, для которого не требуется пользовательская проверка подлинности.</span><span class="sxs-lookup"><span data-stu-id="c1058-104">Microsoft provides the MSV1\_0 [*authentication package*](../secgloss/a-gly.md) for local machine logons that do not require custom authentication.</span></span> <span data-ttu-id="c1058-105">[*Локальный центр безопасности*](../secgloss/l-gly.md) (LSA) вызывает \_ пакет проверки подлинности MSV1 0 для обработки данных входа, собираемых [*GINA*](../secgloss/g-gly.md) , для процесса входа в систему [*Winlogon*](../secgloss/w-gly.md) .</span><span class="sxs-lookup"><span data-stu-id="c1058-105">The [*Local Security Authority*](../secgloss/l-gly.md) (LSA) calls the MSV1\_0 authentication package to process logon data collected by the [*GINA*](../secgloss/g-gly.md) for the [*Winlogon*](../secgloss/w-gly.md) logon process.</span></span> <span data-ttu-id="c1058-106">Пакет MSV1 \_ 0 проверяет локальную базу данных диспетчера учетных записей безопасности, чтобы определить, принадлежат ли данные входа к допустимому [*субъекту безопасности*](../secgloss/s-gly.md) , а затем возвращает результат попытки входа в систему LSA.</span><span class="sxs-lookup"><span data-stu-id="c1058-106">The MSV1\_0 package checks the local security accounts manager (SAM) database to determine whether the logon data belongs to a valid [*security principal*](../secgloss/s-gly.md) and then returns the result of the logon attempt to the LSA.</span></span>
+
+<span data-ttu-id="c1058-107">MSV1 \_ 0 также поддерживает вход в домен.</span><span class="sxs-lookup"><span data-stu-id="c1058-107">MSV1\_0 also supports domain logons.</span></span> <span data-ttu-id="c1058-108">MSV1 \_ 0 обрабатывает вход в домен с помощью сквозной проверки подлинности, как показано на следующей схеме.</span><span class="sxs-lookup"><span data-stu-id="c1058-108">MSV1\_0 processes domain logons using pass-through authentication, as illustrated in the following diagram.</span></span>
+
+![\-пакет проверки подлинности msv1 0](images/lsaint4.png)
+
+<span data-ttu-id="c1058-110">В случае сквозной проверки подлинности локальный экземпляр MSV1 \_ 0 использует службу Netlogon для вызова экземпляра MSV1 \_ 0, работающего на контроллере домена.</span><span class="sxs-lookup"><span data-stu-id="c1058-110">In pass-through authentication, the local instance of MSV1\_0 uses the Netlogon service to call the instance of MSV1\_0 running on the domain controller.</span></span> <span data-ttu-id="c1058-111">Затем экземпляр MSV1 0 контроллера домена \_ проверяет базу данных SAM контроллера домена и возвращает результат входа на экземпляр MSV1 \_ 0 на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="c1058-111">The domain controller's instance of MSV1\_0 then checks the SAM database of the domain controller and returns the logon result to the instance of MSV1\_0 on the local machine.</span></span> <span data-ttu-id="c1058-112">Локальная версия MSV1 \_ 0 пересылает результат входа экземпляру LSA на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="c1058-112">The local version of MSV1\_0 forwards the logon result to the instance of the LSA on the local machine.</span></span>
+
+<span data-ttu-id="c1058-113">Если контроллер домена недоступен и LSA содержит кэшированные [*учетные данные*](../secgloss/c-gly.md) для пользователя, локальный экземпляр MSV1 \_ 0 может проверить подлинность пользователя с помощью кэшированных данных входа.</span><span class="sxs-lookup"><span data-stu-id="c1058-113">If the domain controller is not available, and the LSA contains cached [*credentials*](../secgloss/c-gly.md) for the user, the local instance of MSV1\_0 can authenticate the user using the cached logon data.</span></span>
+
+<span data-ttu-id="c1058-114">Пакет проверки подлинности MSV1 \_ 0 также поддерживает [пакеты проверки подлинности](subauthentication-packages.md).</span><span class="sxs-lookup"><span data-stu-id="c1058-114">The MSV1\_0 authentication package also supports [subauthentication packages](subauthentication-packages.md).</span></span> <span data-ttu-id="c1058-115">Пакет проверки подлинности — это библиотека DLL, которая может заменить часть критериев проверки подлинности и проверки, используемую \_ пакетом проверки подлинности MSV1 0.</span><span class="sxs-lookup"><span data-stu-id="c1058-115">A subauthentication package is a DLL that can replace part of the authentication and validation criteria used by the MSV1\_0 authentication package.</span></span>
+
+<span data-ttu-id="c1058-116">\_Пакет проверки подлинности MSV1 0 определяет основную пару "ключ-значение" [*учетных данных*](../secgloss/p-gly.md) .</span><span class="sxs-lookup"><span data-stu-id="c1058-116">The MSV1\_0 authentication package defines a [*primary credentials*](../secgloss/p-gly.md) key/string value pair.</span></span> <span data-ttu-id="c1058-117">Строка основных учетных данных содержит учетные данные, полученные из данных, предоставленных во время входа.</span><span class="sxs-lookup"><span data-stu-id="c1058-117">The primary credentials string holds the credentials derived from the data provided at logon time.</span></span> <span data-ttu-id="c1058-118">Он включает в себя имя пользователя, а также формы с учетом регистра и без учета регистра для пароля пользователя.</span><span class="sxs-lookup"><span data-stu-id="c1058-118">It includes the user name and both case-sensitive and case-insensitive forms of the user's password.</span></span>
+
+ 
+
+ 
