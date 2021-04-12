@@ -1,0 +1,104 @@
+---
+description: Конструкторы, предоставляемые XMXDECN4.
+ms.assetid: 6b8a319d-1ffb-4a19-a27c-a692109a71e2
+title: Конструкторы XMXDECN4
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name: ''
+api_type:
+- NA
+api_location: ''
+ms.openlocfilehash: 5ef68998e3e131223e6f64637cbccb4d5a5a3d9d
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104263546"
+---
+# <a name="xmxdecn4-constructors"></a>Конструкторы XMXDECN4
+
+Конструкторы, предоставляемые `XMXDECN4` .
+
+Конструирует экземпляры структуры [**XMXDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmxdecn4) .
+
+> [!Note]  
+> Перечисленные здесь конструкторы доступны только в C++.
+
+ 
+
+### <a name="overload-list"></a>Список перегрузок
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Конструктор</th>
+<th style="text-align: left;">Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmxdecn4-xmxdecn4(constfloat)"><strong>XMXDECN4 ()</strong></a></td>
+<td style="text-align: left;">Конструктор по умолчанию для <code>XMXDECN4</code> . <br/> Конструктор по умолчанию для <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4"><strong>XMXDECN4</strong></a>. <br/>
+<blockquote>
+[!Note]<br />
+Этот конструктор доступен только в C++.
+</blockquote>
+<br/></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmxdecn4-xmxdecn4(uint32_t)"><strong>XMXDECN4 (uint32_t)</strong></a></td>
+<td style="text-align: left;">Инициализирует новый экземпляр <code>XMXDECN4</code> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате. <br/> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4"><strong>XMXDECN4</strong></a> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате. <br/>
+<blockquote>
+[!Note]<br />
+Этот конструктор доступен только в C++.
+</blockquote>
+<br/></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmxdecn4-xmxdecn4(constfloat)"><strong>XMXDECN4 (const float *)</strong></a></td>
+<td style="text-align: left;">Инициализирует новый экземпляр <code>XMXDECN4</code> из четырех <code>float</code> аргументов массива элементов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4"><strong>XMXDECN4</strong></a> из четырех <code>float</code> аргументов массива элементов. <br/>
+<blockquote>
+[!Note]<br />
+Этот конструктор доступен только в C++.
+</blockquote>
+<br/></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmxdecn4-xmxdecn4(float_float_float_float)"><strong>XMXDECN4 (float, float, float, float)</strong></a></td>
+<td style="text-align: left;">Инициализирует новый экземпляр класса <code>XMXDECN4</code> из четырех нормализованных <code>float</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4"><strong>XMXDECN4</strong></a> из четырех нормализованных <code>float</code> аргументов. <br/>
+<blockquote>
+[!Note]<br />
+Этот конструктор доступен только в C++.
+</blockquote>
+<br/></td>
+</tr>
+</tbody>
+</table>
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[Расширения XMXDECN4](ovw-xmxdecn4-extensions.md)
+</dt> <dt>
+
+**Ссылки**
+</dt> <dt>
+
+[**XMXDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmxdecn4)
+</dt> </dl>
+
+ 
+
+ 
