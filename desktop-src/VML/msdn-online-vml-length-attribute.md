@@ -1,0 +1,41 @@
+---
+title: Атрибут длины VML
+description: Атрибут длины VML
+ms.assetid: b646b827-4b8d-4491-abdf-f1f88e3a6fbc
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 509ce6f08ec9ae214f8ebee4f72a2c1e1d1a94fb
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104413317"
+---
+# <a name="vml-length-attribute"></a><span data-ttu-id="ac7bf-103">Атрибут длины VML</span><span class="sxs-lookup"><span data-stu-id="ac7bf-103">VML Length Attribute</span></span>
+
+<span data-ttu-id="ac7bf-104">В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9.</span><span class="sxs-lookup"><span data-stu-id="ac7bf-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="ac7bf-105">Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.</span><span class="sxs-lookup"><span data-stu-id="ac7bf-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="ac7bf-106">По состоянию на Декабрь 2011 этот раздел был архивирован.</span><span class="sxs-lookup"><span data-stu-id="ac7bf-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="ac7bf-107">В результате он больше не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="ac7bf-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="ac7bf-108">Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/).</span><span class="sxs-lookup"><span data-stu-id="ac7bf-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="ac7bf-109">Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).</span><span class="sxs-lookup"><span data-stu-id="ac7bf-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+
+ 
+
+<span data-ttu-id="ac7bf-110">Определяет длину выноски.</span><span class="sxs-lookup"><span data-stu-id="ac7bf-110">Defines the length of the callout.</span></span> <span data-ttu-id="ac7bf-111">Read/write.</span><span class="sxs-lookup"><span data-stu-id="ac7bf-111">Read/write.</span></span> <span data-ttu-id="ac7bf-112">**Вгнумбер**.</span><span class="sxs-lookup"><span data-stu-id="ac7bf-112">**VgNumber**.</span></span>
+
+<span data-ttu-id="ac7bf-113">**Применимо к**:</span><span class="sxs-lookup"><span data-stu-id="ac7bf-113">**Applies To**</span></span>
+
+[<span data-ttu-id="ac7bf-114">Выноска</span><span class="sxs-lookup"><span data-stu-id="ac7bf-114">Callout</span></span>](msdn-online-vml-callout-element.md)
+
+<span data-ttu-id="ac7bf-115">**Синтаксис тега**</span><span class="sxs-lookup"><span data-stu-id="ac7bf-115">**Tag Syntax**</span></span>
+
+<span data-ttu-id="ac7bf-116"><o: Length *элемента* = " *выражение* " ></span><span class="sxs-lookup"><span data-stu-id="ac7bf-116"><o: *element* length=" *expression* "></span></span>
+
+<span data-ttu-id="ac7bf-117">**Замечания**</span><span class="sxs-lookup"><span data-stu-id="ac7bf-117">**Remarks**</span></span>
+
+<span data-ttu-id="ac7bf-118">Этот атрибут задает длину первой части многосегментной линии выноски.</span><span class="sxs-lookup"><span data-stu-id="ac7bf-118">This attribute specifies the length of the first part of a multisegmented callout line.</span></span> <span data-ttu-id="ac7bf-119">Значение по умолчанию — 0.</span><span class="sxs-lookup"><span data-stu-id="ac7bf-119">The default value is 0.</span></span>
+
+<span data-ttu-id="ac7bf-120">*Атрибут расширений Microsoft Office*</span><span class="sxs-lookup"><span data-stu-id="ac7bf-120">*Microsoft Office Extensions Attribute*</span></span>
+
+ 
+
+ 
