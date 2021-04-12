@@ -1,0 +1,181 @@
+---
+description: Показывает регистрацию (создание) и открытие системного хранилища, регистрацию физического хранилища в качестве члена системного хранилища и отмену регистрации (удаление) системного хранилища.
+ms.assetid: 857ab592-68c7-4660-b37d-b165aeee14f4
+title: 'Пример программы на языке C: регистрация физических и системных хранилищ сертификатов'
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 708a840767b4e49bd1ba5c70dd5ae63f0f9ab7bd
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104346545"
+---
+# <a name="example-c-program-registering-physical-and-system-certificate-stores"></a>Пример программы на языке C: регистрация физических и системных хранилищ сертификатов
+
+Физические хранилища могут быть созданы более или менее постоянными членами системного хранилища. Если физическое хранилище является членом системного хранилища, операции в системном хранилище, такие как поиск сертификата, будут искать все физические хранилища, зарегистрированные как члены системного хранилища. Физическое хранилище можно удалить из членства в системном хранилище с помощью функции отмены регистрации.
+
+В этом примере показаны следующие задачи и функции CryptoAPI:
+
+-   Регистрация (создание) нового системного хранилища с помощью [**цертрегистерсистемсторе**](/windows/desktop/api/Wincrypt/nf-wincrypt-certregistersystemstore).
+-   Открытие только что созданного системного хранилища с помощью [**цертопенсторе**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopenstore).
+-   Регистрация физического хранилища в качестве члена системного хранилища с помощью [**цертрегистерфисикалсторе**](/windows/desktop/api/Wincrypt/nf-wincrypt-certregisterphysicalstore).
+-   Отмена регистрации (удаление) системного хранилища с помощью [**цертунрегистерсистемсторе**](/windows/desktop/api/Wincrypt/nf-wincrypt-certunregistersystemstore).
+
+В этом примере также демонстрируется создание и удаление системных хранилищ.
+
+
+```C++
+// This example uses CertRegisterSystemStore.
+#pragma comment(lib, "crypt32.lib")
+
+// Copyright (C) Microsoft.  All rights reserved.
+#include <stdio.h>
+#include <windows.h>
+#include <Wincrypt.h>
+#define MY_ENCODING_TYPE  (PKCS_7_ASN_ENCODING | X509_ASN_ENCODING)
+void MyHandleError(char *s);
+
+void main()
+{
+
+
+// Declare and initialize variables.
+
+HCERTSTORE hSystemStore;
+DWORD dwFlags= CERT_SYSTEM_STORE_CURRENT_USER;
+LPCWSTR pvSystemName= L"NEWSTORE";  // For this setting of 
+                                    // dwFlags, the store name may 
+                                    // be prefixed with a user name.
+CERT_PHYSICAL_STORE_INFO PhysicalStoreInfo;
+BYTE fResponse  = 'n';
+
+if(CertRegisterSystemStore(
+    pvSystemName,
+    dwFlags,
+    NULL,
+    NULL))
+  printf("System store %S is registered. \n",pvSystemName);
+else
+  printf("The system store did not register. \n");
+
+
+// Open the NEWSTORE as a system store.
+
+if(hSystemStore = CertOpenStore(
+   CERT_STORE_PROV_SYSTEM,   // the store provider type
+   0,                        // the encoding type is not needed
+   NULL,                     // use the default HCRYPTPROV
+   CERT_SYSTEM_STORE_CURRENT_USER,
+                             // set the store location in a registry
+                             // location
+   pvSystemName ))           // the store name as a Unicode string
+{
+     printf("The new store has been opened as a system store.\n");
+}
+else
+{
+     printf("The new store was not opened as a system store.\n");
+}
+if(hSystemStore)
+{
+    if(CertCloseStore(hSystemStore,0))
+    {
+        printf("The system store has been closed.\n");
+    }
+    else
+    {
+        printf("The system store could not be closed.\n");
+    }
+}
+else
+{
+   printf("The system store did not need to be closed.\n");
+}
+
+
+// Initialize PhysicalStoreInfo.
+
+PhysicalStoreInfo.cbSize=sizeof(CERT_PHYSICAL_STORE_INFO);
+PhysicalStoreInfo.pszOpenStoreProvider=(LPSTR)
+    CERT_STORE_PROV_FILENAME;
+PhysicalStoreInfo.dwFlags=CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG;
+
+
+// Replace the path below with one that is appropriate for you.
+
+PhysicalStoreInfo.OpenParameters.pbData = 
+    (BYTE *) L"C:\\temp\\mystore";
+PhysicalStoreInfo.OpenParameters.cbData = 
+    (wcslen((LPWSTR) PhysicalStoreInfo.OpenParameters.pbData) + 1) * 
+    sizeof(WCHAR);
+
+PhysicalStoreInfo.dwPriority=1;
+PhysicalStoreInfo.dwOpenEncodingType=MY_ENCODING_TYPE;
+
+
+// Register the physical store.
+
+if(CertRegisterPhysicalStore(
+      L"NEWSTORE",
+      dwFlags,
+      L"TESTOR.STO",
+      &PhysicalStoreInfo,
+      NULL
+      ))
+{
+       printf("Physical store is registered. \n");
+}
+else
+{
+       printf("The physical store was not registered.\n");
+}  
+
+
+//  Next, unregister the store.
+
+printf("Would you like to unregister the %S store? (y/n) "
+       ,pvSystemName);
+scanf_s("%c",&fResponse);
+
+if(fResponse=='y')
+{
+   if(CertUnregisterSystemStore(
+     pvSystemName,
+     dwFlags))
+   {
+      printf("System store %S has been unregistered.\n"
+          ,pvSystemName);
+   }
+   else
+   {
+      printf("The system store was not unregistered.\n");
+   }
+}
+}  // end main
+
+
+//  This example uses the function MyHandleError, a simple error
+//  handling function, to print an error message to  
+//  the standard error (stderr) file and exit the program. 
+//  For most applications, replace this function with one 
+//  that does more extensive error reporting.
+
+void MyHandleError(char *s)
+{
+    fprintf(stderr,"An error occurred in running the program. \n");
+    fprintf(stderr,"%s\n",s);
+    fprintf(stderr, "Error number %x.\n", GetLastError());
+    fprintf(stderr, "Program terminating. \n");
+    exit(1);
+} // end of MyHandleError
+```
+
+
+
+ 
+
+ 
+
+
+
