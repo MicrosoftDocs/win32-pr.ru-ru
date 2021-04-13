@@ -1,0 +1,40 @@
+---
+title: Тип данных Ивгаджустментс VML
+description: Тип данных Ивгаджустментс VML
+ms.assetid: d605632b-3ee2-44fd-8122-f38b1f91e965
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a29f85f93218db098ca247fa66b1f493e9c622a5
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104487880"
+---
+# <a name="vml-ivgadjustments-data-type"></a><span data-ttu-id="180e0-103">Тип данных Ивгаджустментс VML</span><span class="sxs-lookup"><span data-stu-id="180e0-103">VML IVgAdjustments Data Type</span></span>
+
+<span data-ttu-id="180e0-104">В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9.</span><span class="sxs-lookup"><span data-stu-id="180e0-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="180e0-105">Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.</span><span class="sxs-lookup"><span data-stu-id="180e0-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="180e0-106">По состоянию на Декабрь 2011 этот раздел был архивирован.</span><span class="sxs-lookup"><span data-stu-id="180e0-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="180e0-107">В результате он больше не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="180e0-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="180e0-108">Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/).</span><span class="sxs-lookup"><span data-stu-id="180e0-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="180e0-109">Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).</span><span class="sxs-lookup"><span data-stu-id="180e0-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+
+ 
+
+<span data-ttu-id="180e0-110">Коллекция корректировок для фигуры, которую можно использовать в формулах.</span><span class="sxs-lookup"><span data-stu-id="180e0-110">Collection of adjustments to a shape that can be used in formulas.</span></span> <span data-ttu-id="180e0-111">Корректировки можно использовать как временные заполнители или по любой причине для использования переменных.</span><span class="sxs-lookup"><span data-stu-id="180e0-111">Adjustments can be used as temporary placeholders or for any reason you would use variables.</span></span> <span data-ttu-id="180e0-112">В коллекции доступно только 8 корректировок.</span><span class="sxs-lookup"><span data-stu-id="180e0-112">There are only 8 adjustments in the collection.</span></span>
+
+
+
+| <span data-ttu-id="180e0-113">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="180e0-113">Attributes</span></span> | <span data-ttu-id="180e0-114">Описание</span><span class="sxs-lookup"><span data-stu-id="180e0-114">Description</span></span>                                                                                                                                                                                                                                                                                                                            |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="180e0-115">Длина</span><span class="sxs-lookup"><span data-stu-id="180e0-115">Length</span></span>     | <span data-ttu-id="180e0-116">**Integer**.</span><span class="sxs-lookup"><span data-stu-id="180e0-116">**Integer**.</span></span> <span data-ttu-id="180e0-117">Число корректировок.</span><span class="sxs-lookup"><span data-stu-id="180e0-117">Number of adjustments.</span></span> <span data-ttu-id="180e0-118">Не может быть больше 8.</span><span class="sxs-lookup"><span data-stu-id="180e0-118">Can be no greater than 8.</span></span>                                                                                                                                                                                                                                                                          |
+| <span data-ttu-id="180e0-119">Элемент</span><span class="sxs-lookup"><span data-stu-id="180e0-119">Item</span></span>       | <span data-ttu-id="180e0-120">**Длинное целое**.</span><span class="sxs-lookup"><span data-stu-id="180e0-120">**Long**.</span></span> <span data-ttu-id="180e0-121">Массив корректировок, индексируемых от 0 до 7.</span><span class="sxs-lookup"><span data-stu-id="180e0-121">Array of adjustments indexed from 0 to 7.</span></span> <span data-ttu-id="180e0-122">Обратите внимание, что корректировки могут быть указаны с SPARC. то есть значения промежуточных массивов могут не всегда заполняться.</span><span class="sxs-lookup"><span data-stu-id="180e0-122">Note that adjustments may be sparcely specified; that is, intermediate array values may not always be filled.</span></span> <span data-ttu-id="180e0-123">Например, элементы 1, 3 и 5 могут иметь значения длиной 3, для которых задан элемент (0), элемент (2) и элемент (4).</span><span class="sxs-lookup"><span data-stu-id="180e0-123">For example, item 1, 3, and 5 could have values for a length of 3, with item(0), item(2), and item(4) specified.</span></span> <span data-ttu-id="180e0-124">Чтобы узнать, существует ли элемент, используйте атрибут EXISTS.</span><span class="sxs-lookup"><span data-stu-id="180e0-124">To see if an item exists, use the Exists attribute.</span></span> |
+| <span data-ttu-id="180e0-125">Exists</span><span class="sxs-lookup"><span data-stu-id="180e0-125">Exists</span></span>     | <span data-ttu-id="180e0-126">**Ивгтристате**.</span><span class="sxs-lookup"><span data-stu-id="180e0-126">**IVgTriState**.</span></span> <span data-ttu-id="180e0-127">Определяет, существует ли указанная корректировка.</span><span class="sxs-lookup"><span data-stu-id="180e0-127">Determines whether a specified adjustment exists.</span></span> <span data-ttu-id="180e0-128">Обратите внимание, что необходимо использовать индекс. то есть для получения существования элемента должен использоваться существующий (Item).</span><span class="sxs-lookup"><span data-stu-id="180e0-128">Note that an index must be used; that is, exists(item) must be used to retrieve the existence of an item.</span></span>                                                                                                                                                           |
+| <span data-ttu-id="180e0-129">Значение</span><span class="sxs-lookup"><span data-stu-id="180e0-129">Value</span></span>      | <span data-ttu-id="180e0-130">**Строка**.</span><span class="sxs-lookup"><span data-stu-id="180e0-130">**String**.</span></span> <span data-ttu-id="180e0-131">Текстовое представление числовых значений с запятыми между каждым числом.</span><span class="sxs-lookup"><span data-stu-id="180e0-131">Text representation of numeric values, with commas between each number.</span></span>                                                                                                                                                                                                                                                    |
+
+
+
+ 
+
+ 
+
+ 

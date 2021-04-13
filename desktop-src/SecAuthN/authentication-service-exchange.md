@@ -1,0 +1,33 @@
+---
+description: Пользователь начинает входить в сеть, вводя имя для входа и пароль. Клиент Kerberos на рабочей станции пользователя преобразует пароль в ключ шифрования и сохраняет результат в программной переменной.
+ms.assetid: fcb3b601-9953-474c-9a08-1fa25706f3d7
+title: Проверка подлинности службы Exchange
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c14121ed33ae0ac169c590b03dfb0b395306d11f
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105647445"
+---
+# <a name="authentication-service-exchange"></a><span data-ttu-id="30415-104">Проверка подлинности службы Exchange</span><span class="sxs-lookup"><span data-stu-id="30415-104">Authentication Service Exchange</span></span>
+
+<span data-ttu-id="30415-105">Пользователь начинает входить в сеть, вводя имя для входа и пароль.</span><span class="sxs-lookup"><span data-stu-id="30415-105">The user begins logging on to the network by typing a logon name and password.</span></span> <span data-ttu-id="30415-106">Клиент [*Kerberos*](/windows/desktop/SecGloss/k-gly) на рабочей станции пользователя преобразует пароль в ключ шифрования и сохраняет результат в программной переменной.</span><span class="sxs-lookup"><span data-stu-id="30415-106">The [*Kerberos*](/windows/desktop/SecGloss/k-gly) client on the user's workstation converts the password to an encryption key and saves the result in a program variable.</span></span>
+
+<span data-ttu-id="30415-107">Затем клиент запрашивает [*учетные данные*](/windows/desktop/SecGloss/c-gly) для службы предоставления билетов (TGS) [*центр распространения ключей*](/windows/desktop/SecGloss/k-gly) (KDC), отправив службе проверки подлинности KDC сообщение типа КРБ \_ As \_ req (запрос на обслуживание проверки подлинности Kerberos).</span><span class="sxs-lookup"><span data-stu-id="30415-107">The client then requests [*credentials*](/windows/desktop/SecGloss/c-gly) for the ticket-granting service (TGS) of the [*Key Distribution Center*](/windows/desktop/SecGloss/k-gly) (KDC) by sending the KDC's authentication service a message of type KRB\_AS\_REQ (Kerberos Authentication Service Request).</span></span> <span data-ttu-id="30415-108">Первая часть этого сообщения указывает пользователя и запрашиваемую службу TGS.</span><span class="sxs-lookup"><span data-stu-id="30415-108">The first part of this message identifies the user and the TGS service being requested.</span></span> <span data-ttu-id="30415-109">Вторая часть сообщения содержит данные предварительной проверки подлинности, предназначенные для подтверждения того, что пользователь знает пароль.</span><span class="sxs-lookup"><span data-stu-id="30415-109">The second part of this message contains preauthentication data intended to prove that the user knows the password.</span></span> <span data-ttu-id="30415-110">Это просто сообщение средства проверки подлинности, которое шифруется с помощью [*главного ключа*](/windows/desktop/SecGloss/m-gly) , полученного из пароля входа пользователя.</span><span class="sxs-lookup"><span data-stu-id="30415-110">This is simply an authenticator message that is encrypted with the [*master key*](/windows/desktop/SecGloss/m-gly) derived from the user's logon password.</span></span>
+
+<span data-ttu-id="30415-111">Когда KDC получает КРБ \_ в качестве \_ требования, он находит пользователя в своей базе данных, получает главный ключ связанного пользователя, расшифровывает данные предварительной проверки подлинности и вычисляет метку времени в.</span><span class="sxs-lookup"><span data-stu-id="30415-111">When the KDC receives KRB\_AS\_REQ, it looks up the user in its database, gets the associated user's master key, decrypts the preauthentication data, and evaluates the time stamp inside.</span></span> <span data-ttu-id="30415-112">Если метка времени допустима, KDC может быть уверен, что данные предварительной проверки подлинности были зашифрованы с помощью главного ключа пользователя и поэтому клиент является подлинным.</span><span class="sxs-lookup"><span data-stu-id="30415-112">If the time stamp is valid, the KDC can be assured that the preauthentication data was encrypted with the user's master key and thus that the client is genuine.</span></span>
+
+<span data-ttu-id="30415-113">После того как KDC проверит удостоверение пользователя, он создает учетные данные, которые клиент может предоставить TGS, следующим образом.</span><span class="sxs-lookup"><span data-stu-id="30415-113">After the KDC has verified the user's identity, it creates credentials that the client can present to the TGS, as follows:</span></span>
+
+1.  <span data-ttu-id="30415-114">KDC продает [*ключ сеанса*](/windows/desktop/SecGloss/s-gly) входа и шифрует копию с помощью главного ключа пользователя.</span><span class="sxs-lookup"><span data-stu-id="30415-114">The KDC invents a logon [*session key*](/windows/desktop/SecGloss/s-gly) and encrypts a copy with the user's master key.</span></span>
+2.  <span data-ttu-id="30415-115">KDC внедряет еще одну копию ключа сеанса входа и данные авторизации пользователя в билет предоставления билетов (TGT) и шифрует билет TGT с помощью собственного главного ключа KDC.</span><span class="sxs-lookup"><span data-stu-id="30415-115">The KDC embeds another copy of the logon session key and the user's authorization data in a ticket-granting ticket (TGT), and encrypts the TGT with the KDC's own master key.</span></span>
+3.  <span data-ttu-id="30415-116">KDC отправляет эти учетные данные обратно клиенту, отвечая на сообщение типа КРБ \_ As \_ представитель (ответ службы проверки подлинности Kerberos).</span><span class="sxs-lookup"><span data-stu-id="30415-116">The KDC sends these credentials back to the client by replying with a message of type KRB\_AS\_REP (Kerberos Authentication Service Reply).</span></span>
+4.  <span data-ttu-id="30415-117">Когда клиент получает ответ, он использует ключ, полученный от пароля пользователя, для расшифровки нового ключа сеанса входа.</span><span class="sxs-lookup"><span data-stu-id="30415-117">When the client receives the reply, it uses the key derived from the user's password to decrypt the new logon session key.</span></span>
+5.  <span data-ttu-id="30415-118">Клиент сохраняет новый ключ в кэше билетов.</span><span class="sxs-lookup"><span data-stu-id="30415-118">The client stores the new key in its ticket cache.</span></span>
+6.  <span data-ttu-id="30415-119">Клиент извлекает TGT из сообщения и сохраняет его в кэше билетов.</span><span class="sxs-lookup"><span data-stu-id="30415-119">The client extracts the TGT from the message and stores that in its ticket cache as well.</span></span>
+
+ 
+
+ 

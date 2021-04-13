@@ -1,0 +1,54 @@
+---
+title: Регистрация класса при установке
+description: Если класс должен быть доступен клиентам в любое время, как и большинство приложений, обычно его можно зарегистрировать с помощью программы установки и установки.
+ms.assetid: 6d78c2ce-56d8-4866-9801-35125ec9cac4
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 4253c40cb3feb7e737368c947c0b20715f5becbd
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "104339364"
+---
+# <a name="registering-a-class-at-installation"></a><span data-ttu-id="e3ee4-103">Регистрация класса при установке</span><span class="sxs-lookup"><span data-stu-id="e3ee4-103">Registering a Class at Installation</span></span>
+
+<span data-ttu-id="e3ee4-104">Если класс должен быть доступен клиентам в любое время, как и большинство приложений, обычно его можно зарегистрировать с помощью программы установки и установки.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-104">If a class is intended to be available to clients at any time, as most applications are, you usually register it through an installation and setup program.</span></span> <span data-ttu-id="e3ee4-105">Это означает, что в реестр помещаются сведения о приложении, в том числе способ и место создания экземпляров его объектов.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-105">This means putting information about the application into the registry, including how and where its objects are to be instantiated.</span></span> <span data-ttu-id="e3ee4-106">Эти сведения должны быть зарегистрированы для всех идентификаторов CLSID.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-106">This information must be registered for all CLSIDs.</span></span> <span data-ttu-id="e3ee4-107">Другие сведения являются необязательными.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-107">Other information is optional.</span></span> <span data-ttu-id="e3ee4-108">Такие средства, как regsvr32, упрощают написание программы установки, которая регистрирует серверы при установке.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-108">Tools such as Regsvr32 make it simple to write a setup program that registers servers at installation.</span></span>
+
+<span data-ttu-id="e3ee4-109">Если вы не полагаетесь на системные значения по умолчанию, в реестре есть два важных ключа: CLSID и AppID.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-109">If you are not relying on system defaults, there are two important keys in the registry: the CLSID and the AppID.</span></span> <span data-ttu-id="e3ee4-110">Между важными сведениями в этих разделах описывается создание экземпляра объекта.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-110">Among the important pieces of information under these keys is how the object is to be instantiated.</span></span> <span data-ttu-id="e3ee4-111">Объекты можно назначить как внутрипроцессный, вне процесса локального или вне процесса удаленного выполнения.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-111">Objects can be designated as in-process, out-of-process local, or out-of-process remote.</span></span>
+
+<span data-ttu-id="e3ee4-112">В разделе AppID — это несколько значений, которые определяют сведения, относящиеся к этому приложению.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-112">Under the AppID key are several values that define information specific to that application.</span></span> <span data-ttu-id="e3ee4-113">К ним относятся [ремотесервернаме](remoteservername.md) и [активатеатстораже](activateatstorage.md), которые можно использовать, чтобы позволить клиенту создавать объект, при этом клиент не имеет встроенных знаний о расположении сервера.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-113">Among these are [RemoteServerName](remoteservername.md) and [ActivateAtStorage](activateatstorage.md), both of which can be used to permit a client to create an object, with the client having no built-in knowledge of the location of the server.</span></span> <span data-ttu-id="e3ee4-114">(Дополнительные сведения об удаленном создании экземпляров см. в разделе расположение [вспомогательных функций для создания](instance-creation-helper-functions.md) [удаленного объекта](locating-a-remote-object.md) и экземпляра.)</span><span class="sxs-lookup"><span data-stu-id="e3ee4-114">(For more information about remote instantiation, see [Locating a Remote Object](locating-a-remote-object.md) and [Instance Creation Helper Functions](instance-creation-helper-functions.md).)</span></span>
+
+<span data-ttu-id="e3ee4-115">Сервер также может быть установлен как служба или выполняться с определенной учетной записью пользователя.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-115">A server can also be installed as a service, or to run under a specific user account.</span></span> <span data-ttu-id="e3ee4-116">Дополнительные сведения см. в разделе [Установка в качестве приложения службы](installing-as-a-service-application.md).</span><span class="sxs-lookup"><span data-stu-id="e3ee4-116">For more information, see [Installing as a Service Application](installing-as-a-service-application.md).</span></span>
+
+<span data-ttu-id="e3ee4-117">Сервер или объект ROT, который не является службой или работает под определенной учетной записью пользователя, может называться сервером "Активация в качестве активатора".</span><span class="sxs-lookup"><span data-stu-id="e3ee4-117">A server or ROT object that is not a service or running under a specific user account can be referred to as an "activate as activator" server.</span></span> <span data-ttu-id="e3ee4-118">Для этих серверов контекст безопасности и Оконная станция или Рабочий стол клиента должны соответствовать серверу.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-118">For these servers, the security context and the window station/desktop of the client must match the server's.</span></span> <span data-ttu-id="e3ee4-119">Клиент, пытающийся соединиться с удаленным сервером, считается, что он имеет **пустую** оконную станцию или Рабочий стол, поэтому в этом экземпляре сравнивается только контекст безопасности сервера.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-119">A client attempting to connect to a remote server is considered to have a **NULL** window station/desktop, so only the server security context is compared in this instance.</span></span> <span data-ttu-id="e3ee4-120">(Дополнительные сведения об идентификаторах безопасности см. [в разделе Security in com](security-in-com.md).) COM кэширует станцию окна или Рабочий стол процесса, когда процесс сначала подключается к распределенной службе COM.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-120">(For more information about SIDs, see [Security in COM](security-in-com.md).) COM caches the window station/desktop of a process when the process first connects to the distributed COM service.</span></span> <span data-ttu-id="e3ee4-121">Таким образом, клиенты и серверы COM не должны изменять рабочие станции и потоки процесса после вызова функции [**CoInitialize**](/windows/desktop/api/Objbase/nf-objbase-coinitialize) или [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex).</span><span class="sxs-lookup"><span data-stu-id="e3ee4-121">Therefore, COM clients and servers should not change their window station or thread desktops of the process after calling [**CoInitialize**](/windows/desktop/api/Objbase/nf-objbase-coinitialize) or [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex).</span></span>
+
+<span data-ttu-id="e3ee4-122">Когда класс регистрируется как внутрипроцессный, вызов [**кожетклассобжект**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject) для создания его объекта класса автоматически передается com в функцию [**DllGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject) , которую класс должен реализовать, чтобы передать вызывающему объекту указатель на его объект Class.</span><span class="sxs-lookup"><span data-stu-id="e3ee4-122">When a class is registered as in-process, a call to [**CoGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject) to create its class object is automatically passed by COM to the [**DllGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject) function, which the class must implement to give the calling object a pointer to its class object.</span></span>
+
+<span data-ttu-id="e3ee4-123">Классы, реализованные в исполняемых файлах, могут указывать, что COM должен выполнить свой процесс и подождать, пока процесс не зарегистрирует интерфейс [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) объекта класса с помощью вызова функции [**CoRegisterClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject) .</span><span class="sxs-lookup"><span data-stu-id="e3ee4-123">Classes implemented in executables can specify that COM should execute their process and wait for the process to register their class object's [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) interface through a call to the [**CoRegisterClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject) function.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="e3ee4-124">См. также</span><span class="sxs-lookup"><span data-stu-id="e3ee4-124">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="e3ee4-125">Разделы реестра COM</span><span class="sxs-lookup"><span data-stu-id="e3ee4-125">COM Registry Keys</span></span>](com-registry-keys.md)
+</dt> <dt>
+
+[<span data-ttu-id="e3ee4-126">Установка в качестве приложения службы</span><span class="sxs-lookup"><span data-stu-id="e3ee4-126">Installing as a Service Application</span></span>](installing-as-a-service-application.md)
+</dt> <dt>
+
+[<span data-ttu-id="e3ee4-127">Регистрация работающего сервера EXE</span><span class="sxs-lookup"><span data-stu-id="e3ee4-127">Registering a Running EXE Server</span></span>](registering-a-running-exe-server.md)
+</dt> <dt>
+
+[<span data-ttu-id="e3ee4-128">Регистрация компонентов</span><span class="sxs-lookup"><span data-stu-id="e3ee4-128">Registering Components</span></span>](registering-components.md)
+</dt> <dt>
+
+[<span data-ttu-id="e3ee4-129">Регистрация объектов в таблице ROT</span><span class="sxs-lookup"><span data-stu-id="e3ee4-129">Registering Objects in the ROT</span></span>](registering-objects-in-the-rot.md)
+</dt> <dt>
+
+[<span data-ttu-id="e3ee4-130">Самостоятельная регистрация</span><span class="sxs-lookup"><span data-stu-id="e3ee4-130">Self-Registration</span></span>](self-registration.md)
+</dt> </dl>
+
+ 
+
+ 

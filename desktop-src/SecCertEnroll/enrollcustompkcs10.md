@@ -1,0 +1,51 @@
+---
+description: Создает пользовательский запрос PKCS \# 10, отправляет его в автономный центр сертификации (ЦС) и устанавливает выданный сертификат в хранилище сертификатов.
+ms.assetid: dcb69d7e-457e-457b-9eea-15676ed710aa
+title: enrollCustomPKCS10
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 86ad95f483d4bc82136865e94a70ad46e90e1c24
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105647199"
+---
+# <a name="enrollcustompkcs10"></a><span data-ttu-id="b09da-103">enrollCustomPKCS10</span><span class="sxs-lookup"><span data-stu-id="b09da-103">enrollCustomPKCS10</span></span>
+
+<span data-ttu-id="b09da-104">Пример enrollCustomPKCS10 создает пользовательский \# запрос PKCS 10, отправляет его в автономный центр сертификации (ЦС) и устанавливает выданный сертификат в хранилище сертификатов.</span><span class="sxs-lookup"><span data-stu-id="b09da-104">The enrollCustomPKCS10 sample creates a custom PKCS \#10 request, submits it to a stand-alone certification authority (CA), and installs the issued certificate in the certificate store.</span></span> <span data-ttu-id="b09da-105">Изолированный ЦС не требует Active Directory и не использует шаблоны.</span><span class="sxs-lookup"><span data-stu-id="b09da-105">A stand-alone CA does not require Active Directory and does not use templates.</span></span>
+
+## <a name="location"></a><span data-ttu-id="b09da-106">Расположение</span><span class="sxs-lookup"><span data-stu-id="b09da-106">Location</span></span>
+
+<span data-ttu-id="b09da-107">При установке пакета средств разработки программного обеспечения (SDK) для Microsoft Windows этот образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security SSL \\ Certificate \\ \\ enrollCustomPKCS10.</span><span class="sxs-lookup"><span data-stu-id="b09da-107">When you install the Microsoft Windows Software Development Kit (SDK), the sample is installed, by default, in the *%ProgramFiles%*\\Microsoft SDKs\\Windows\\v7.0\\Samples\\Security\\X509 Certificate Enrollment\\VC\\enrollCustomPKCS10 folder.</span></span>
+
+## <a name="discussion"></a><span data-ttu-id="b09da-108">Разговор</span><span class="sxs-lookup"><span data-stu-id="b09da-108">Discussion</span></span>
+
+<span data-ttu-id="b09da-109">Пример enrollCustomPKCS10:</span><span class="sxs-lookup"><span data-stu-id="b09da-109">The enrollCustomPKCS10 sample:</span></span>
+
+1.  <span data-ttu-id="b09da-110">Обрабатывает аргументы командной строки.</span><span class="sxs-lookup"><span data-stu-id="b09da-110">Processes the command line arguments.</span></span> <span data-ttu-id="b09da-111">Командная строка должна содержать имя субъекта сертификата X. 500, имя электронной почты (RFC822) и идентификатор объекта расширенного использования ключа (OID).</span><span class="sxs-lookup"><span data-stu-id="b09da-111">The command line should contain the X.500 certificate subject name, the email (RFC822) name, and an Enhanced Key Usage (EKU) object identifier (OID).</span></span> <span data-ttu-id="b09da-112">Например, можно указать следующие аргументы для регистрации *user1@example.com* :</span><span class="sxs-lookup"><span data-stu-id="b09da-112">For example, you can specify the following arguments to enroll *user1@example.com*:</span></span>
+    -   <span data-ttu-id="b09da-113">Имя субъекта: "*CN = User1, DC = example, DC = com*"</span><span class="sxs-lookup"><span data-stu-id="b09da-113">Subject name: "*CN=user1,DC=example,DC=com*"</span></span>
+    -   <span data-ttu-id="b09da-114">Имя RFC822: *user1@example.com*</span><span class="sxs-lookup"><span data-stu-id="b09da-114">RFC822 name: *user1@example.com*</span></span>
+    -   <span data-ttu-id="b09da-115">Идентификатор объекта EKU проверки подлинности клиента: 1.3.6.1.5.5.7.3.2</span><span class="sxs-lookup"><span data-stu-id="b09da-115">Client authentication EKU OID: 1.3.6.1.5.5.7.3.2</span></span>
+2.  <span data-ttu-id="b09da-116">Создает объект [**IX509CertificateRequestPkcs10**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10) и инициализирует его для конечного пользователя, указывая значение **контекстусер** перечисления [**X509CertificateEnrollmentContext**](/windows/desktop/api/CertEnroll/ne-certenroll-x509certificateenrollmentcontext) .</span><span class="sxs-lookup"><span data-stu-id="b09da-116">Creates an [**IX509CertificateRequestPkcs10**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10) object and initializes it for the end user by specifying the **ContextUser** value of the [**X509CertificateEnrollmentContext**](/windows/desktop/api/CertEnroll/ne-certenroll-x509certificateenrollmentcontext) enumeration.</span></span>
+3.  <span data-ttu-id="b09da-117">Создает объект [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) , использует объект для кодирования имени субъекта в массив байтов и добавляет массив в \# объект запроса PKCS 10.</span><span class="sxs-lookup"><span data-stu-id="b09da-117">Creates an [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) object, uses the object to encode the subject name to a byte array, and adds the array to the PKCS \#10 request object.</span></span>
+4.  <span data-ttu-id="b09da-118">Создает объект [**иобжектид**](/windows/desktop/api/CertEnroll/nn-certenroll-iobjectid) , инициализирует его с помощью идентификатора объекта EKU (OID), указанного в командной строке, создает коллекцию [**иобжектидс**](/windows/desktop/api/CertEnroll/nn-certenroll-iobjectids) , добавляет новый объект **иобжектид** (EKU) в коллекцию, использует коллекцию для инициализации объекта [**IX509ExtensionEnhancedKeyUsage**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionenhancedkeyusage) и добавляет этот объект в запрос.</span><span class="sxs-lookup"><span data-stu-id="b09da-118">Creates an [**IObjectId**](/windows/desktop/api/CertEnroll/nn-certenroll-iobjectid) object, initializes it by using the EKU object identifier (OID) specified on the command line, creates an [**IObjectIds**](/windows/desktop/api/CertEnroll/nn-certenroll-iobjectids) collection, adds the new **IObjectId** (EKU) object to the collection, uses the collection to initialize an [**IX509ExtensionEnhancedKeyUsage**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionenhancedkeyusage) object and adds this object to the request.</span></span>
+5.  <span data-ttu-id="b09da-119">Создает объект [**иалтернативенаме**](/windows/desktop/api/CertEnroll/nn-certenroll-ialternativename) , инициализирует его с помощью имени RFC822, указанного в командной строке, создает коллекцию [**иалтернативенамес**](/windows/desktop/api/CertEnroll/nn-certenroll-ialternativenames) , добавляет в коллекцию новый объект **иалтернативенаме** (RFC822 имя), создает объект [**IX509ExtensionAlternativeNames**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionalternativenames) и добавляет этот объект в запрос.</span><span class="sxs-lookup"><span data-stu-id="b09da-119">Creates an [**IAlternativeName**](/windows/desktop/api/CertEnroll/nn-certenroll-ialternativename) object, initializes it by using the RFC822 name specified on the command line, Creates an [**IAlternativeNames**](/windows/desktop/api/CertEnroll/nn-certenroll-ialternativenames) collection, adds the new **IAlternativeName** (RFC822 name ) object to the collection, creates an [**IX509ExtensionAlternativeNames**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionalternativenames) object and adds this object to the request.</span></span>
+6.  <span data-ttu-id="b09da-120">Создает объект [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) , инициализирует его с помощью объекта [**IX509CertificateRequestPkcs10**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10) и получает строку, содержащую запрос в кодировке Base64.</span><span class="sxs-lookup"><span data-stu-id="b09da-120">Creates an [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) object, initializes it by using the [**IX509CertificateRequestPkcs10**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10) object, and retrieves a string that contains a base64-encoded request.</span></span>
+7.  <span data-ttu-id="b09da-121">Создает объект [**ицертконфиг**](/windows/desktop/api/certcli/nn-certcli-icertconfig) и использует его для получения строки, СОДЕРЖАЩЕЙ конфигурацию ЦС.</span><span class="sxs-lookup"><span data-stu-id="b09da-121">Creates an [**ICertConfig**](/windows/desktop/api/certcli/nn-certcli-icertconfig) object and uses it to retrieve a string that contains the CA configuration.</span></span>
+8.  <span data-ttu-id="b09da-122">Создает объект CryptoAPI [**ICertRequest2**](/windows/desktop/api/certcli/nn-certcli-icertrequest2) и использует его вместе со строками, содержащими конфигурацию ЦС и запросом сертификата для отправки запроса в ЦС.</span><span class="sxs-lookup"><span data-stu-id="b09da-122">Creates a CryptoAPI [**ICertRequest2**](/windows/desktop/api/certcli/nn-certcli-icertrequest2) object and uses it plus the strings that contain the CA configuration and the certificate request to submit the request to the CA.</span></span>
+9.  <span data-ttu-id="b09da-123">Проверяет состояние отправки, и, если регистрация прошла успешно, устанавливает сертификат в хранилище сертификатов.</span><span class="sxs-lookup"><span data-stu-id="b09da-123">Checks the submission status and, if enrollment is successful, installs the certificate to the certificate store.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="b09da-124">См. также</span><span class="sxs-lookup"><span data-stu-id="b09da-124">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="b09da-125">\#Запрос PKCS 10</span><span class="sxs-lookup"><span data-stu-id="b09da-125">PKCS \#10 Request</span></span>](pkcs--10-request.md)
+</dt> <dt>
+
+[<span data-ttu-id="b09da-126">Использование прилагаемых примеров</span><span class="sxs-lookup"><span data-stu-id="b09da-126">Using the Included Samples</span></span>](using-the-included-samples.md)
+</dt> </dl>
+
+ 
+
+ 
