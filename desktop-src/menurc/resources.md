@@ -1,0 +1,44 @@
+---
+title: Меню и другие ресурсы
+description: В разделе Resources описываются такие ресурсы окон, как значки, курсоры и диалоговые окна.
+ms.assetid: vs|winui|~\winui\windowsuserinterface\resources.htm
+keywords:
+- ресурсы, сведения
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: b701d2d6aeb039b146ddca78ee3ba27d185574f9
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "104412832"
+---
+# <a name="menus-and-other-resources"></a><span data-ttu-id="9a133-104">Меню и другие ресурсы</span><span class="sxs-lookup"><span data-stu-id="9a133-104">Menus and Other Resources</span></span>
+
+<span data-ttu-id="9a133-105">*Ресурс* — это двоичные данные, которые можно добавить в исполняемый файл приложения на основе Windows.</span><span class="sxs-lookup"><span data-stu-id="9a133-105">A *resource* is binary data that you can add to the executable file of a Windows-based application.</span></span> <span data-ttu-id="9a133-106">Ресурс может быть либо стандартным, либо определенным.</span><span class="sxs-lookup"><span data-stu-id="9a133-106">A resource can be either standard or defined.</span></span> <span data-ttu-id="9a133-107">Данные в *стандартном ресурсе* описывают значок, курсор, меню, диалоговое окно, точечный рисунок, расширенный метафайл, шрифт, таблицу сочетаний клавиш, запись таблицы сообщений, запись в таблице строк или сведения о версии.</span><span class="sxs-lookup"><span data-stu-id="9a133-107">The data in a *standard resource* describes an icon, cursor, menu, dialog box, bitmap, enhanced metafile, font, accelerator table, message-table entry, string-table entry, or version information.</span></span> <span data-ttu-id="9a133-108">*Определяемый приложением ресурс*, также называемый *пользовательским ресурсом*, содержит все данные, необходимые конкретному приложению.</span><span class="sxs-lookup"><span data-stu-id="9a133-108">An *application-defined resource*, also called a *custom resource*, contains any data required by a specific application.</span></span>
+
+### <a name="in-this-section"></a><span data-ttu-id="9a133-109">в этом разделе</span><span class="sxs-lookup"><span data-stu-id="9a133-109">In This Section</span></span>
+
+
+
+| <span data-ttu-id="9a133-110">Имя</span><span class="sxs-lookup"><span data-stu-id="9a133-110">Name</span></span>                                                                    | <span data-ttu-id="9a133-111">Описание</span><span class="sxs-lookup"><span data-stu-id="9a133-111">Description</span></span>                                                                                                                                                 |
+|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="9a133-112">Общие сведения о ресурсах</span><span class="sxs-lookup"><span data-stu-id="9a133-112">Introduction to Resources</span></span>](introduction-to-resources.md)              | <span data-ttu-id="9a133-113">Содержит общие сведения о ресурсах.</span><span class="sxs-lookup"><span data-stu-id="9a133-113">Provides an overview of resources.</span></span><br/>                                                                                                               |
+| [<span data-ttu-id="9a133-114">Крышки</span><span class="sxs-lookup"><span data-stu-id="9a133-114">Carets</span></span>](carets.md)                                                    | <span data-ttu-id="9a133-115">Описывает крышки, которые мигающие линии, блоки или растровые изображения в клиентской области окна.</span><span class="sxs-lookup"><span data-stu-id="9a133-115">Discusses carets, which are blinking lines, blocks, or bitmaps in the client area of a window.</span></span><br/>                                                   |
+| [<span data-ttu-id="9a133-116">Курсоры</span><span class="sxs-lookup"><span data-stu-id="9a133-116">Cursors</span></span>](cursors.md)                                                  | <span data-ttu-id="9a133-117">Обсуждаются курсоры, которые представляют собой небольшие изображения, расположение которых на экране управляется указывающим устройством, например мышью, пером или трекболом.</span><span class="sxs-lookup"><span data-stu-id="9a133-117">Discusses cursors, which are small pictures whose location on the screen is controlled by a pointing device, such as a mouse, pen, or trackball.</span></span><br/> |
+| [<span data-ttu-id="9a133-118">Значки</span><span class="sxs-lookup"><span data-stu-id="9a133-118">Icons</span></span>](icons.md)                                                      | <span data-ttu-id="9a133-119">Описание значков, которые представляют собой точечные рисунки в сочетании с маской для создания прозрачных областей на изображении.</span><span class="sxs-lookup"><span data-stu-id="9a133-119">Discusses icons, which are bitmap images combined with a mask to create transparent areas in the picture.</span></span><br/>                                        |
+| [<span data-ttu-id="9a133-120">Сочетания клавиш</span><span class="sxs-lookup"><span data-stu-id="9a133-120">Keyboard Accelerators</span></span>](keyboard-accelerators.md)                      | <span data-ttu-id="9a133-121">Обсуждаются сочетания клавиш, которые являются нажатиями клавиш, которые предоставляют доступ к командам для приложения.</span><span class="sxs-lookup"><span data-stu-id="9a133-121">Discusses keyboard accelerators, which are keystrokes that provide access to the commands for an application.</span></span><br/>                                    |
+| [<span data-ttu-id="9a133-122">Меню</span><span class="sxs-lookup"><span data-stu-id="9a133-122">Menus</span></span>](menus.md)                                                      | <span data-ttu-id="9a133-123">Описывает меню.</span><span class="sxs-lookup"><span data-stu-id="9a133-123">Discusses menus.</span></span><br/>                                                                                                                                 |
+| [<span data-ttu-id="9a133-124">Строки</span><span class="sxs-lookup"><span data-stu-id="9a133-124">Strings</span></span>](strings.md)                                                  | <span data-ttu-id="9a133-125">Описывает строковые функции.</span><span class="sxs-lookup"><span data-stu-id="9a133-125">Discusses the string functions.</span></span><br/>                                                                                                                  |
+| [<span data-ttu-id="9a133-126">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="9a133-126">Version Information</span></span>](version-information.md)                          | <span data-ttu-id="9a133-127">Описывает ресурс сведений о версии.</span><span class="sxs-lookup"><span data-stu-id="9a133-127">Discusses the version-information resource.</span></span><br/>                                                                                                      |
+| [<span data-ttu-id="9a133-128">Компилятор ресурсов</span><span class="sxs-lookup"><span data-stu-id="9a133-128">Resource Compiler</span></span>](resource-compiler.md)                              | <span data-ttu-id="9a133-129">Обсуждаются компилятор ресурсов, Rc.exe и файлы определения ресурсов.</span><span class="sxs-lookup"><span data-stu-id="9a133-129">Discusses the resource compiler, Rc.exe, and resource-definition files.</span></span><br/>                                                                          |
+| [<span data-ttu-id="9a133-130">Справочник по индексированию ресурсов пакетов (PRI)</span><span class="sxs-lookup"><span data-stu-id="9a133-130">Package resource indexing (PRI) reference</span></span>](pri-indexing-reference.md) | <span data-ttu-id="9a133-131">Набор API-интерфейсов для работы с индексатором ресурсов.</span><span class="sxs-lookup"><span data-stu-id="9a133-131">A set of APIs for working with a resource indexer.</span></span> <span data-ttu-id="9a133-132">Индексатор ресурсов используется для создания файлов индекса ресурсов пакета (PRI) для приложения UWP.</span><span class="sxs-lookup"><span data-stu-id="9a133-132">A resource indexer is used to generate package resource index (PRI) files for a UWP app.</span></span><br/>      |
+
+
+
+ 
+
+<span data-ttu-id="9a133-133">Дополнительные сведения о создании ресурсов сообщений см. в разделе [**компилятор сообщений**](/windows/desktop/WES/message-compiler--mc-exe-).</span><span class="sxs-lookup"><span data-stu-id="9a133-133">For more information about creating message resources, see [**Message Compiler**](/windows/desktop/WES/message-compiler--mc-exe-).</span></span>
+
+ 
+
