@@ -1,0 +1,168 @@
+---
+title: планировщик задач элементы схемы
+description: Перечисленные здесь элементы определяются схемой планировщик задач. Эти элементы используются при чтении или записи XML для задачи.
+ms.assetid: a4c983fd-ded8-47ad-830e-b7c9907b778f
+ms.topic: article
+ms.date: 05/31/2018
+topic_type:
+- kbArticle
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 1a78b277de7fb96782a562ca6fa7458bce417e4a
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104410579"
+---
+# <a name="task-scheduler-schema-elements"></a><span data-ttu-id="ee4d6-104">планировщик задач элементы схемы</span><span class="sxs-lookup"><span data-stu-id="ee4d6-104">Task Scheduler Schema Elements</span></span>
+
+<span data-ttu-id="ee4d6-105">Перечисленные здесь элементы определяются схемой планировщик задач.</span><span class="sxs-lookup"><span data-stu-id="ee4d6-105">The elements listed here are defined by the Task Scheduler schema.</span></span> <span data-ttu-id="ee4d6-106">Эти элементы используются при чтении или записи XML для задачи.</span><span class="sxs-lookup"><span data-stu-id="ee4d6-106">These elements are used when reading or writing XML for a task.</span></span>
+
+<span data-ttu-id="ee4d6-107">Темы в этом разделе включают описание элемента; как оно определено в XSD; и сведения обо всех связанных родительских, дочерних и вложенных элементах и атрибутах.</span><span class="sxs-lookup"><span data-stu-id="ee4d6-107">The topics in this section include a description of the element; how it is defined in the XSD;, and information about all related parents, children, and attributes.</span></span>
+
+-   [<span data-ttu-id="ee4d6-108">**Действия (taskType)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-108">**Actions (taskType)**</span></span>](taskschedulerschema-actions-tasktype-element.md)
+-   [<span data-ttu-id="ee4d6-109">**Алловхардтерминате (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-109">**AllowHardTerminate (settingsType)**</span></span>](taskschedulerschema-allowhardterminate-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-110">**Алловстартондеманд (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-110">**AllowStartOnDemand (settingsType)**</span></span>](taskschedulerschema-allowstartondemand-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-111">**Апрель (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-111">**April (monthsType)**</span></span>](taskschedulerschema-april-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-112">**Аргументы (Ексектипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-112">**Arguments (execType)**</span></span>](taskschedulerschema-arguments-exectype-element.md)
+-   [<span data-ttu-id="ee4d6-113">**Вложения (Сендмаилтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-113">**Attachments (sendMailType)**</span></span>](taskschedulerschema-attachments-sendemailtype-element.md)
+-   [<span data-ttu-id="ee4d6-114">**Август (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-114">**August (monthsType)**</span></span>](taskschedulerschema-august-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-115">**Автор (Регистратионинфотипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-115">**Author (registrationInfoType)**</span></span>](taskschedulerschema-author-registrationinfotype-element.md)
+-   [<span data-ttu-id="ee4d6-116">**Текст (Сендмаилтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-116">**Body (sendMailType)**</span></span>](taskschedulerschema-body-sendemailtype-element.md)
+-   [<span data-ttu-id="ee4d6-117">**Текст (Шовмессажетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-117">**Body (showMessageType)**</span></span>](taskschedulerschema-body-showmessagetype-element.md)
+-   [<span data-ttu-id="ee4d6-118">**Буттригжер (Тригжерграуп)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-118">**BootTrigger (triggerGroup)**</span></span>](taskschedulerschema-boottrigger-triggergroup-element.md)
+-   [<span data-ttu-id="ee4d6-119">**СК (Сендмаилтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-119">**Bcc (sendMailType)**</span></span>](taskschedulerschema-bcc-sendemailtype-element.md)
+-   [<span data-ttu-id="ee4d6-120">**Календартригжер (Тригжерграуп)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-120">**CalendarTrigger (triggerGroup)**</span></span>](taskschedulerschema-calendartrigger-triggergroup-element.md)
+-   [<span data-ttu-id="ee4d6-121">**CC (Сендмаилтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-121">**Cc (sendMailType)**</span></span>](taskschedulerschema-cc-sendemailtype-element.md)
+-   [<span data-ttu-id="ee4d6-122">**ClassId (Комхандлертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-122">**ClassId (comHandlerType)**</span></span>](taskschedulerschema-classid-comhandlertype-element.md)
+-   [<span data-ttu-id="ee4d6-123">**Комхандлер (actionGroup)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-123">**ComHandler (actionGroup)**</span></span>](taskschedulerschema-comhandler-actiongroup-element.md)
+-   [<span data-ttu-id="ee4d6-124">**Команда (Ексектипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-124">**Command (execType)**</span></span>](taskschedulerschema-command-exectype-element.md)
+-   [<span data-ttu-id="ee4d6-125">**Количество (Рестарттипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-125">**Count (restartType)**</span></span>](taskschedulerschema-count-restarttype-element.md)
+-   [<span data-ttu-id="ee4d6-126">**Данные (Комхандлертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-126">**Data (comHandlerType)**</span></span>](taskschedulerschema-data-comhandlertype-element.md)
+-   [<span data-ttu-id="ee4d6-127">**Данные (taskType)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-127">**Data (taskType)**</span></span>](taskschedulerschema-data-tasktype-element.md)
+-   [<span data-ttu-id="ee4d6-128">**Дата (Регистратионинфотипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-128">**Date (registrationInfoType)**</span></span>](taskschedulerschema-date-registrationinfotype-element.md)
+-   [<span data-ttu-id="ee4d6-129">**День (Дайсофмонстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-129">**Day (daysOfMonthType)**</span></span>](taskschedulerschema-day-daysofmonthtype-element.md)
+-   [<span data-ttu-id="ee4d6-130">**Дайсинтервал (Даилисчедулетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-130">**DaysInterval (dailyScheduleType)**</span></span>](taskschedulerschema-daysinterval-dailyscheduletype-element.md)
+-   [<span data-ttu-id="ee4d6-131">**DaysOfMonth (Монслисчедулетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-131">**DaysOfMonth (monthlyScheduleType)**</span></span>](taskschedulerschema-daysofmonth-monthlyscheduletype-element.md)
+-   [<span data-ttu-id="ee4d6-132">**DaysOfWeek (Монслидайофвиксчедулетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-132">**DaysOfWeek (monthlyDayOfWeekScheduleType)**</span></span>](taskschedulerschema-daysofweek-monthlydayofweekscheduletype-element.md)
+-   [<span data-ttu-id="ee4d6-133">**DaysOfWeek (Виклисчедулетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-133">**DaysOfWeek (weeklyScheduleType)**</span></span>](taskschedulerschema-daysofweek-weeklyscheduletype-element.md)
+-   [<span data-ttu-id="ee4d6-134">**Декабрь (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-134">**December (monthsType)**</span></span>](taskschedulerschema-december-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-135">**Задержка (Буттригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-135">**Delay (bootTriggerType)**</span></span>](taskschedulerschema-delay-boottriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-136">**Задержка (Евенттригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-136">**Delay (eventTriggerType)**</span></span>](taskschedulerschema-delay-eventtriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-137">**Задержка (Логонтригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-137">**Delay (logonTriggerType)**</span></span>](taskschedulerschema-delay-logontriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-138">**Задержка (Регистратионтригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-138">**Delay (registrationTriggerType)**</span></span>](taskschedulerschema-delay-registrationtriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-139">**Задержка (Сессионстатечанжетригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-139">**Delay (sessionStateChangeTriggerType)**</span></span>](taskschedulerschema-delay-sessionstatechangetriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-140">**Делетикспиредтаскафтер (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-140">**DeleteExpiredTaskAfter (settingsType)**</span></span>](taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-141">**Описание (Регистратионинфотипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-141">**Description (registrationInfoType)**</span></span>](taskschedulerschema-description-registrationinfotype-element.md)
+-   [<span data-ttu-id="ee4d6-142">**Дисалловстартифонбаттериес (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-142">**DisallowStartIfOnBatteries (settingsType)**</span></span>](taskschedulerschema-disallowstartifonbatteries-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-143">**Дисалловстартонремотеаппсессион (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-143">**DisallowStartOnRemoteAppSession (settingsType)**</span></span>](taskschedulerschema-disallowstartonremoteappsession-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-144">**DisplayName (ПринЦипалтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-144">**DisplayName (principalType)**</span></span>](taskschedulerschema-displayname-principaltype-element.md)
+-   [<span data-ttu-id="ee4d6-145">**Документация (Регистратионинфотипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-145">**Documentation (registrationInfoType)**</span></span>](taskschedulerschema-documentation-registrationinfotype-element.md)
+-   [<span data-ttu-id="ee4d6-146">**Длительность (Идлесеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-146">**Duration (idleSettingsType)**</span></span>](taskschedulerschema-duration-idlesettingstype-element.md)
+-   [<span data-ttu-id="ee4d6-147">**Длительность (Репетитионтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-147">**Duration (repetitionType)**</span></span>](taskschedulerschema-duration-repetitiontype-element.md)
+-   [<span data-ttu-id="ee4d6-148">**Включено (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-148">**Enabled (settingsType)**</span></span>](taskschedulerschema-enabled-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-149">**Включено (Тригжербасетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-149">**Enabled (triggerBaseType)**</span></span>](taskschedulerschema-enabled-triggerbasetype-element.md)
+-   [<span data-ttu-id="ee4d6-150">**Ендбаундари (Тригжербасетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-150">**EndBoundary (triggerBaseType)**</span></span>](taskschedulerschema-endboundary-triggerbasetype-element.md)
+-   [<span data-ttu-id="ee4d6-151">**EventTrigger (Тригжерграуп)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-151">**EventTrigger (triggerGroup)**</span></span>](taskschedulerschema-eventtrigger-triggergroup-element.md)
+-   [<span data-ttu-id="ee4d6-152">**Exec (actionGroup)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-152">**Exec (actionGroup)**</span></span>](taskschedulerschema-exec-actiongroup-element.md)
+-   [<span data-ttu-id="ee4d6-153">**Ексекутионтимелимит (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-153">**ExecutionTimeLimit (settingsType)**</span></span>](taskschedulerschema-executiontimelimit-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-154">**Ексекутионтимелимит (Тригжербасетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-154">**ExecutionTimeLimit (triggerBaseType)**</span></span>](taskschedulerschema-executiontimelimit-triggerbasetype-element.md)
+-   [<span data-ttu-id="ee4d6-155">**Февраль (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-155">**February (monthsType)**</span></span>](taskschedulerschema-february-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-156">**Файл (Аттачментстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-156">**File (attachmentsType)**</span></span>](taskschedulerschema-file-attachmentstype-element.md)
+-   [<span data-ttu-id="ee4d6-157">**Пятница (Дайсофвиктипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-157">**Friday (daysOfWeekType)**</span></span>](taskschedulerschema-friday-daysofweektype-element.md)
+-   [<span data-ttu-id="ee4d6-158">**Из (Сендмаилтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-158">**From (sendMailType)**</span></span>](taskschedulerschema-from-sendemailtype-element.md)
+-   [<span data-ttu-id="ee4d6-159">**GroupId (ПринЦипалтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-159">**GroupId (principalType)**</span></span>](taskschedulerschema-groupid-principaltype-element.md)
+-   [<span data-ttu-id="ee4d6-160">**Хеадерфиелдс (Сендмаилтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-160">**HeaderFields (sendMailType)**</span></span>](taskschedulerschema-headerfields-sendemailtype-element.md)
+-   [<span data-ttu-id="ee4d6-161">**Хеадерфиелд (Хеадерфиелдстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-161">**HeaderField (headerFieldsType)**</span></span>](taskschedulerschema-headerfield-headerfieldstype-element.md)
+-   [<span data-ttu-id="ee4d6-162">**Скрыто (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-162">**Hidden (settingsType)**</span></span>](taskschedulerschema-hidden-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-163">**Идлесеттингс (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-163">**IdleSettings (settingsType)**</span></span>](taskschedulerschema-idlesettings-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-164">**Идлетригжер (Тригжерграуп)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-164">**IdleTrigger (triggerGroup)**</span></span>](taskschedulerschema-idletrigger-triggergroup-element.md)
+-   [<span data-ttu-id="ee4d6-165">**Идентификатор (Нетворксеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-165">**Id (networkSettingsType)**</span></span>](taskschedulerschema-id-networksettingstype-element.md)
+-   [<span data-ttu-id="ee4d6-166">**Интервал (Репетитионтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-166">**Interval (repetitionType)**</span></span>](taskschedulerschema-interval-repetitiontype-element.md)
+-   [<span data-ttu-id="ee4d6-167">**Интервал (Рестарттипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-167">**Interval (restartType)**</span></span>](taskschedulerschema-interval-restarttype-element.md)
+-   [<span data-ttu-id="ee4d6-168">**Январь (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-168">**January (monthsType)**</span></span>](taskschedulerschema-january-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-169">**Июль (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-169">**July (monthsType)**</span></span>](taskschedulerschema-july-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-170">**Июнь (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-170">**June (monthsType)**</span></span>](taskschedulerschema-june-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-171">**Логонтригжер (Тригжерграуп)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-171">**LogonTrigger (triggerGroup)**</span></span>](taskschedulerschema-logontrigger-triggergroup-element.md)
+-   [<span data-ttu-id="ee4d6-172">**LogonType (ПринЦипалтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-172">**LogonType (principalType)**</span></span>](taskschedulerschema-logontype-principaltype-element.md)
+-   [<span data-ttu-id="ee4d6-173">**Март (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-173">**March (monthsType)**</span></span>](taskschedulerschema-march-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-174">**Май (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-174">**May (monthsType)**</span></span>](taskschedulerschema-may-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-175">**Понедельник (Дайсофвиктипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-175">**Monday (daysOfWeekType)**</span></span>](taskschedulerschema-monday-daysofweektype-element.md)
+-   [<span data-ttu-id="ee4d6-176">**Месяцы (Монслидайофвиксчедулетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-176">**Months (monthlyDayOfWeekScheduleType)**</span></span>](taskschedulerschema-months-monthlydayofweekscheduletype-element.md)
+-   [<span data-ttu-id="ee4d6-177">**Месяцы (Монслисчедулетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-177">**Months (monthlyScheduleType)**</span></span>](taskschedulerschema-months-monthlyscheduletype-element.md)
+-   [<span data-ttu-id="ee4d6-178">**Мултиплеинстанцесполици (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-178">**MultipleInstancesPolicy (settingsType)**</span></span>](taskschedulerschema-multipleinstancespolicy-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-179">**Имя (Хеадерфиелдтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-179">**Name (headerFieldType)**</span></span>](taskschedulerschema-name-headerfieldtype-element.md)
+-   [<span data-ttu-id="ee4d6-180">**Имя (Нетворксеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-180">**Name (networkSettingsType)**</span></span>](taskschedulerschema-name-networksettingstype-element.md)
+-   [<span data-ttu-id="ee4d6-181">**Ноябрь (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-181">**November (monthsType)**</span></span>](taskschedulerschema-november-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-182">**Октябрь (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-182">**October (monthsType)**</span></span>](taskschedulerschema-october-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-183">**Субъект (ПринЦипалстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-183">**Principal (principalsType)**</span></span>](taskschedulerschema-principal-principaltype-element.md)
+-   [<span data-ttu-id="ee4d6-184">**Участники (taskType)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-184">**Principals (taskType)**</span></span>](taskschedulerschema-principals-tasktype-element.md)
+-   [<span data-ttu-id="ee4d6-185">**Процесстокенсидтипе (ПринЦипалтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-185">**ProcessTokenSidType (principalType)**</span></span>](taskschedulerschema-processtokensidtype-principaltype-element.md)
+-   [<span data-ttu-id="ee4d6-186">**Приоритет (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-186">**Priority (settingsType)**</span></span>](taskschedulerschema-priority-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-187">**Привилегия (Рекуиредпривилежестипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-187">**Privilege (requiredPrivilegesType)**</span></span>](taskschedulerschema-privilege-requiredprivilegestype-element.md)
+-   [<span data-ttu-id="ee4d6-188">**Рандомделай (Календартригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-188">**RandomDelay (calendarTriggerType)**</span></span>](taskschedulerschema-randomdelay-calendartriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-189">**Рандомделай (Тиметригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-189">**RandomDelay (timeTriggerType)**</span></span>](taskschedulerschema-randomdelay-timetriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-190">**Регистратионинфо (taskType)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-190">**RegistrationInfo (taskType)**</span></span>](taskschedulerschema-registrationinfo-tasktype-element.md)
+-   [<span data-ttu-id="ee4d6-191">**Регистратионтригжер (Тригжерграуп)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-191">**RegistrationTrigger (triggerGroup)**</span></span>](taskschedulerschema-registrationtrigger-triggergroup-element.md)
+-   [<span data-ttu-id="ee4d6-192">**Повторение (Тригжербасетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-192">**Repetition (triggerBaseType)**</span></span>](taskschedulerschema-repetition-triggerbasetype-element.md)
+-   [<span data-ttu-id="ee4d6-193">**Рекуиредпривилежес (Рекуиредпривилежестипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-193">**RequiredPrivileges (requiredPrivilegesType)**</span></span>](taskschedulerschema-requiredprivileges-requiredprivilegestype-element.md)
+-   [<span data-ttu-id="ee4d6-194">**ReplyTo (Сендмаилтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-194">**ReplyTo (sendMailType)**</span></span>](taskschedulerschema-replyto-sendemailtype-element.md)
+-   [<span data-ttu-id="ee4d6-195">**Рестартонфаилуре (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-195">**RestartOnFailure (settingsType)**</span></span>](taskschedulerschema-restartonfailure-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-196">**Рестартонидле (Идлесеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-196">**RestartOnIdle (idleSettingsType)**</span></span>](taskschedulerschema-restartonidle-idlesettingstype-element.md)
+-   [<span data-ttu-id="ee4d6-197">**RunLevel (ПринЦипалтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-197">**RunLevel (principalType)**</span></span>](taskschedulerschema-runlevel-principaltype-element.md)
+-   [<span data-ttu-id="ee4d6-198">**Рунонлифидле (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-198">**RunOnlyIfIdle (settingsType)**</span></span>](taskschedulerschema-runonlyifidle-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-199">**Рунонлифнетворкаваилабле (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-199">**RunOnlyIfNetworkAvailable (settingsType)**</span></span>](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-200">**Суббота (Дайсофвиктипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-200">**Saturday (daysOfWeekType)**</span></span>](taskschedulerschema-saturday-daysofweektype-element.md)
+-   [<span data-ttu-id="ee4d6-201">**Счедулебидай (Календартригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-201">**ScheduleByDay (calendarTriggerType)**</span></span>](taskschedulerschema-schedulebyday-calendartriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-202">**Счедулебимонсдайофвик (Календартригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-202">**ScheduleByMonthDayOfWeek (calendarTriggerType)**</span></span>](taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-203">**Счедулебимонс (Календартригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-203">**ScheduleByMonth (calendarTriggerType)**</span></span>](taskschedulerschema-schedulebymonth-calendartriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-204">**Счедулебивик (Календартригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-204">**ScheduleByWeek (calendarTriggerType)**</span></span>](taskschedulerschema-schedulebyweek-calendartriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-205">**SecurityDescriptor (Регистратионинфотипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-205">**SecurityDescriptor (registrationInfoType)**</span></span>](taskschedulerschema-securitydescriptor-registrationinfotype-element.md)
+-   [<span data-ttu-id="ee4d6-206">**Элемент SendEmail (actionGroup)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-206">**SendEmail (actionGroup) Element**</span></span>](taskschedulerschema-sendemail-actiongroup-element.md)
+-   [<span data-ttu-id="ee4d6-207">**Сентябрь (Монсстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-207">**September (monthsType)**</span></span>](taskschedulerschema-september-monthstype-element.md)
+-   [<span data-ttu-id="ee4d6-208">**Сессионстатечанжетригжер (Тригжерграуп)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-208">**SessionStateChangeTrigger (triggerGroup)**</span></span>](taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md)
+-   [<span data-ttu-id="ee4d6-209">**Сервер (Сендмаилтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-209">**Server (sendMailType)**</span></span>](taskschedulerschema-server-sendemailtype-element.md)
+-   [<span data-ttu-id="ee4d6-210">**Параметры (taskType)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-210">**Settings (taskType)**</span></span>](taskschedulerschema-settings-tasktype-element.md)
+-   [<span data-ttu-id="ee4d6-211">**ShowMessage (actionGroup)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-211">**ShowMessage (actionGroup)**</span></span>](taskschedulerschema-showmessage-actiongroup-element.md)
+-   [<span data-ttu-id="ee4d6-212">**Источник (Регистратионинфотипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-212">**Source (registrationInfoType)**</span></span>](taskschedulerschema-source-registrationinfotype-element.md)
+-   [<span data-ttu-id="ee4d6-213">**Стартбаундари (Тригжербасетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-213">**StartBoundary (triggerBaseType)**</span></span>](taskschedulerschema-startboundary-triggerbasetype-element.md)
+-   [<span data-ttu-id="ee4d6-214">**Стартвхенаваилабле (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-214">**StartWhenAvailable (settingsType)**</span></span>](taskschedulerschema-startwhenavailable-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-215">**StateChange (Сессионстатечанжетригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-215">**StateChange (sessionStateChangeTriggerType)**</span></span>](taskschedulerschema-statechange-sessionstatechangetriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-216">**Стопатдуратионенд (Репетитионтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-216">**StopAtDurationEnd (repetitionType)**</span></span>](taskschedulerschema-stopatdurationend-repetitiontype-element.md)
+-   [<span data-ttu-id="ee4d6-217">**Стопифгоингонбаттериес (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-217">**StopIfGoingOnBatteries (settingsType)**</span></span>](taskschedulerschema-stopifgoingonbatteries-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-218">**Стопонидлинд (Идлесеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-218">**StopOnIdleEnd (idleSettingsType)**</span></span>](taskschedulerschema-terminateonidleend-idlesettingstype-element.md)
+-   [<span data-ttu-id="ee4d6-219">**Тема (Сендмаилтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-219">**Subject (sendMailType)**</span></span>](taskschedulerschema-subject-sendemailtype-element.md)
+-   [<span data-ttu-id="ee4d6-220">**Подписка (Евенттригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-220">**Subscription (eventTriggerType)**</span></span>](taskschedulerschema-subscription-eventtriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-221">**Воскресенье (Дайсофвиктипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-221">**Sunday (daysOfWeekType)**</span></span>](taskschedulerschema-sunday-daysofweektype-element.md)
+-   [<span data-ttu-id="ee4d6-222">**Задача**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-222">**Task**</span></span>](taskschedulerschema-task-element.md)
+-   [<span data-ttu-id="ee4d6-223">**Четверг (Дайсофвиктипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-223">**Thursday (daysOfWeekType)**</span></span>](taskschedulerschema-thursday-daysofweektype-element.md)
+-   [<span data-ttu-id="ee4d6-224">**Тиметригжер (Тригжерграуп)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-224">**TimeTrigger (triggerGroup)**</span></span>](taskschedulerschema-timetrigger-triggergroup-element.md)
+-   [<span data-ttu-id="ee4d6-225">**Элемент title (Шовмессажетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-225">**Title (showMessageType) Element**</span></span>](taskschedulerschema-title-showmessagetype-element.md)
+-   [<span data-ttu-id="ee4d6-226">**To (Сендмаилтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-226">**To (sendMailType)**</span></span>](taskschedulerschema-to-sendemailtype-element.md)
+-   [<span data-ttu-id="ee4d6-227">**Триггеры (taskType)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-227">**Triggers (taskType)**</span></span>](taskschedulerschema-triggers-tasktype-element.md)
+-   [<span data-ttu-id="ee4d6-228">**Вторник (Дайсофвиктипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-228">**Tuesday (daysOfWeekType)**</span></span>](taskschedulerschema-tuesday-daysofweektype-element.md)
+-   [<span data-ttu-id="ee4d6-229">**URI (Регистратионинфотипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-229">**URI (registrationInfoType)**</span></span>](taskschedulerschema-uri-registrationinfotype-element.md)
+-   [<span data-ttu-id="ee4d6-230">**UserId (Логонтригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-230">**UserId (logonTriggerType)**</span></span>](taskschedulerschema-userid-logontriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-231">**UserId (ПринЦипалтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-231">**UserId (principalType)**</span></span>](taskschedulerschema-userid-principaltype-element.md)
+-   [<span data-ttu-id="ee4d6-232">**UserId (Сессионстатечанжетригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-232">**UserId (sessionStateChangeTriggerType)**</span></span>](taskschedulerschema-userid-sessionstatechangetriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-233">**Усеунифиедсчедулинженгине (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-233">**UseUnifiedSchedulingEngine (settingsType)**</span></span>](taskschedulerschema-useunifiedschedulingengine-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-234">**Валуекуериес (Евенттригжертипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-234">**ValueQueries (eventTriggerType)**</span></span>](taskschedulerschema-valuequeries-eventtriggertype-element.md)
+-   [<span data-ttu-id="ee4d6-235">**Значение (Хеадерфиелдтипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-235">**Value (headerFieldType)**</span></span>](taskschedulerschema-value-headerfieldtype-element.md)
+-   [<span data-ttu-id="ee4d6-236">**Версия (Регистратионинфотипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-236">**Version (registrationInfoType)**</span></span>](taskschedulerschema-version-registrationinfotype-element.md)
+-   [<span data-ttu-id="ee4d6-237">**Ваиттимеаут (Идлесеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-237">**WaitTimeout (idleSettingsType)**</span></span>](taskschedulerschema-waittimeout-idlesettingstype-element.md)
+-   [<span data-ttu-id="ee4d6-238">**Вакеторун (Сеттингстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-238">**WakeToRun (settingsType)**</span></span>](taskschedulerschema-waketorun-settingstype-element.md)
+-   [<span data-ttu-id="ee4d6-239">**Среда (Дайсофвиктипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-239">**Wednesday (daysOfWeekType)**</span></span>](taskschedulerschema-wednesday-daysofweektype-element.md)
+-   [<span data-ttu-id="ee4d6-240">**Week (Викстипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-240">**Week (weeksType)**</span></span>](taskschedulerschema-week-weekstype-element.md)
+-   [<span data-ttu-id="ee4d6-241">**Виксинтервал (Виклисчедулетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-241">**WeeksInterval (weeklyScheduleType)**</span></span>](taskschedulerschema-weeksinterval-weeklyscheduletype-element.md)
+-   [<span data-ttu-id="ee4d6-242">**Weeks (Монслидайофвиксчедулетипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-242">**Weeks (monthlyDayOfWeekScheduleType)**</span></span>](taskschedulerschema-weeks-monthlydayofweekscheduletype-element.md)
+-   [<span data-ttu-id="ee4d6-243">**WorkingDirectory (Ексектипе)**</span><span class="sxs-lookup"><span data-stu-id="ee4d6-243">**WorkingDirectory (execType)**</span></span>](taskschedulerschema-workingdirectory-exectype-element.md)
+
+ 
+
+ 
+
+
+
+
