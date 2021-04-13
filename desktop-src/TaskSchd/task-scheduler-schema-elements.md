@@ -1,0 +1,168 @@
+---
+title: планировщик задач элементы схемы
+description: Перечисленные здесь элементы определяются схемой планировщик задач. Эти элементы используются при чтении или записи XML для задачи.
+ms.assetid: a4c983fd-ded8-47ad-830e-b7c9907b778f
+ms.topic: article
+ms.date: 05/31/2018
+topic_type:
+- kbArticle
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 1a78b277de7fb96782a562ca6fa7458bce417e4a
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104410579"
+---
+# <a name="task-scheduler-schema-elements"></a>планировщик задач элементы схемы
+
+Перечисленные здесь элементы определяются схемой планировщик задач. Эти элементы используются при чтении или записи XML для задачи.
+
+Темы в этом разделе включают описание элемента; как оно определено в XSD; и сведения обо всех связанных родительских, дочерних и вложенных элементах и атрибутах.
+
+-   [**Действия (taskType)**](taskschedulerschema-actions-tasktype-element.md)
+-   [**Алловхардтерминате (Сеттингстипе)**](taskschedulerschema-allowhardterminate-settingstype-element.md)
+-   [**Алловстартондеманд (Сеттингстипе)**](taskschedulerschema-allowstartondemand-settingstype-element.md)
+-   [**Апрель (Монсстипе)**](taskschedulerschema-april-monthstype-element.md)
+-   [**Аргументы (Ексектипе)**](taskschedulerschema-arguments-exectype-element.md)
+-   [**Вложения (Сендмаилтипе)**](taskschedulerschema-attachments-sendemailtype-element.md)
+-   [**Август (Монсстипе)**](taskschedulerschema-august-monthstype-element.md)
+-   [**Автор (Регистратионинфотипе)**](taskschedulerschema-author-registrationinfotype-element.md)
+-   [**Текст (Сендмаилтипе)**](taskschedulerschema-body-sendemailtype-element.md)
+-   [**Текст (Шовмессажетипе)**](taskschedulerschema-body-showmessagetype-element.md)
+-   [**Буттригжер (Тригжерграуп)**](taskschedulerschema-boottrigger-triggergroup-element.md)
+-   [**СК (Сендмаилтипе)**](taskschedulerschema-bcc-sendemailtype-element.md)
+-   [**Календартригжер (Тригжерграуп)**](taskschedulerschema-calendartrigger-triggergroup-element.md)
+-   [**CC (Сендмаилтипе)**](taskschedulerschema-cc-sendemailtype-element.md)
+-   [**ClassId (Комхандлертипе)**](taskschedulerschema-classid-comhandlertype-element.md)
+-   [**Комхандлер (actionGroup)**](taskschedulerschema-comhandler-actiongroup-element.md)
+-   [**Команда (Ексектипе)**](taskschedulerschema-command-exectype-element.md)
+-   [**Количество (Рестарттипе)**](taskschedulerschema-count-restarttype-element.md)
+-   [**Данные (Комхандлертипе)**](taskschedulerschema-data-comhandlertype-element.md)
+-   [**Данные (taskType)**](taskschedulerschema-data-tasktype-element.md)
+-   [**Дата (Регистратионинфотипе)**](taskschedulerschema-date-registrationinfotype-element.md)
+-   [**День (Дайсофмонстипе)**](taskschedulerschema-day-daysofmonthtype-element.md)
+-   [**Дайсинтервал (Даилисчедулетипе)**](taskschedulerschema-daysinterval-dailyscheduletype-element.md)
+-   [**DaysOfMonth (Монслисчедулетипе)**](taskschedulerschema-daysofmonth-monthlyscheduletype-element.md)
+-   [**DaysOfWeek (Монслидайофвиксчедулетипе)**](taskschedulerschema-daysofweek-monthlydayofweekscheduletype-element.md)
+-   [**DaysOfWeek (Виклисчедулетипе)**](taskschedulerschema-daysofweek-weeklyscheduletype-element.md)
+-   [**Декабрь (Монсстипе)**](taskschedulerschema-december-monthstype-element.md)
+-   [**Задержка (Буттригжертипе)**](taskschedulerschema-delay-boottriggertype-element.md)
+-   [**Задержка (Евенттригжертипе)**](taskschedulerschema-delay-eventtriggertype-element.md)
+-   [**Задержка (Логонтригжертипе)**](taskschedulerschema-delay-logontriggertype-element.md)
+-   [**Задержка (Регистратионтригжертипе)**](taskschedulerschema-delay-registrationtriggertype-element.md)
+-   [**Задержка (Сессионстатечанжетригжертипе)**](taskschedulerschema-delay-sessionstatechangetriggertype-element.md)
+-   [**Делетикспиредтаскафтер (Сеттингстипе)**](taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md)
+-   [**Описание (Регистратионинфотипе)**](taskschedulerschema-description-registrationinfotype-element.md)
+-   [**Дисалловстартифонбаттериес (Сеттингстипе)**](taskschedulerschema-disallowstartifonbatteries-settingstype-element.md)
+-   [**Дисалловстартонремотеаппсессион (Сеттингстипе)**](taskschedulerschema-disallowstartonremoteappsession-settingstype-element.md)
+-   [**DisplayName (ПринЦипалтипе)**](taskschedulerschema-displayname-principaltype-element.md)
+-   [**Документация (Регистратионинфотипе)**](taskschedulerschema-documentation-registrationinfotype-element.md)
+-   [**Длительность (Идлесеттингстипе)**](taskschedulerschema-duration-idlesettingstype-element.md)
+-   [**Длительность (Репетитионтипе)**](taskschedulerschema-duration-repetitiontype-element.md)
+-   [**Включено (Сеттингстипе)**](taskschedulerschema-enabled-settingstype-element.md)
+-   [**Включено (Тригжербасетипе)**](taskschedulerschema-enabled-triggerbasetype-element.md)
+-   [**Ендбаундари (Тригжербасетипе)**](taskschedulerschema-endboundary-triggerbasetype-element.md)
+-   [**EventTrigger (Тригжерграуп)**](taskschedulerschema-eventtrigger-triggergroup-element.md)
+-   [**Exec (actionGroup)**](taskschedulerschema-exec-actiongroup-element.md)
+-   [**Ексекутионтимелимит (Сеттингстипе)**](taskschedulerschema-executiontimelimit-settingstype-element.md)
+-   [**Ексекутионтимелимит (Тригжербасетипе)**](taskschedulerschema-executiontimelimit-triggerbasetype-element.md)
+-   [**Февраль (Монсстипе)**](taskschedulerschema-february-monthstype-element.md)
+-   [**Файл (Аттачментстипе)**](taskschedulerschema-file-attachmentstype-element.md)
+-   [**Пятница (Дайсофвиктипе)**](taskschedulerschema-friday-daysofweektype-element.md)
+-   [**Из (Сендмаилтипе)**](taskschedulerschema-from-sendemailtype-element.md)
+-   [**GroupId (ПринЦипалтипе)**](taskschedulerschema-groupid-principaltype-element.md)
+-   [**Хеадерфиелдс (Сендмаилтипе)**](taskschedulerschema-headerfields-sendemailtype-element.md)
+-   [**Хеадерфиелд (Хеадерфиелдстипе)**](taskschedulerschema-headerfield-headerfieldstype-element.md)
+-   [**Скрыто (Сеттингстипе)**](taskschedulerschema-hidden-settingstype-element.md)
+-   [**Идлесеттингс (Сеттингстипе)**](taskschedulerschema-idlesettings-settingstype-element.md)
+-   [**Идлетригжер (Тригжерграуп)**](taskschedulerschema-idletrigger-triggergroup-element.md)
+-   [**Идентификатор (Нетворксеттингстипе)**](taskschedulerschema-id-networksettingstype-element.md)
+-   [**Интервал (Репетитионтипе)**](taskschedulerschema-interval-repetitiontype-element.md)
+-   [**Интервал (Рестарттипе)**](taskschedulerschema-interval-restarttype-element.md)
+-   [**Январь (Монсстипе)**](taskschedulerschema-january-monthstype-element.md)
+-   [**Июль (Монсстипе)**](taskschedulerschema-july-monthstype-element.md)
+-   [**Июнь (Монсстипе)**](taskschedulerschema-june-monthstype-element.md)
+-   [**Логонтригжер (Тригжерграуп)**](taskschedulerschema-logontrigger-triggergroup-element.md)
+-   [**LogonType (ПринЦипалтипе)**](taskschedulerschema-logontype-principaltype-element.md)
+-   [**Март (Монсстипе)**](taskschedulerschema-march-monthstype-element.md)
+-   [**Май (Монсстипе)**](taskschedulerschema-may-monthstype-element.md)
+-   [**Понедельник (Дайсофвиктипе)**](taskschedulerschema-monday-daysofweektype-element.md)
+-   [**Месяцы (Монслидайофвиксчедулетипе)**](taskschedulerschema-months-monthlydayofweekscheduletype-element.md)
+-   [**Месяцы (Монслисчедулетипе)**](taskschedulerschema-months-monthlyscheduletype-element.md)
+-   [**Мултиплеинстанцесполици (Сеттингстипе)**](taskschedulerschema-multipleinstancespolicy-settingstype-element.md)
+-   [**Имя (Хеадерфиелдтипе)**](taskschedulerschema-name-headerfieldtype-element.md)
+-   [**Имя (Нетворксеттингстипе)**](taskschedulerschema-name-networksettingstype-element.md)
+-   [**Ноябрь (Монсстипе)**](taskschedulerschema-november-monthstype-element.md)
+-   [**Октябрь (Монсстипе)**](taskschedulerschema-october-monthstype-element.md)
+-   [**Субъект (ПринЦипалстипе)**](taskschedulerschema-principal-principaltype-element.md)
+-   [**Участники (taskType)**](taskschedulerschema-principals-tasktype-element.md)
+-   [**Процесстокенсидтипе (ПринЦипалтипе)**](taskschedulerschema-processtokensidtype-principaltype-element.md)
+-   [**Приоритет (Сеттингстипе)**](taskschedulerschema-priority-settingstype-element.md)
+-   [**Привилегия (Рекуиредпривилежестипе)**](taskschedulerschema-privilege-requiredprivilegestype-element.md)
+-   [**Рандомделай (Календартригжертипе)**](taskschedulerschema-randomdelay-calendartriggertype-element.md)
+-   [**Рандомделай (Тиметригжертипе)**](taskschedulerschema-randomdelay-timetriggertype-element.md)
+-   [**Регистратионинфо (taskType)**](taskschedulerschema-registrationinfo-tasktype-element.md)
+-   [**Регистратионтригжер (Тригжерграуп)**](taskschedulerschema-registrationtrigger-triggergroup-element.md)
+-   [**Повторение (Тригжербасетипе)**](taskschedulerschema-repetition-triggerbasetype-element.md)
+-   [**Рекуиредпривилежес (Рекуиредпривилежестипе)**](taskschedulerschema-requiredprivileges-requiredprivilegestype-element.md)
+-   [**ReplyTo (Сендмаилтипе)**](taskschedulerschema-replyto-sendemailtype-element.md)
+-   [**Рестартонфаилуре (Сеттингстипе)**](taskschedulerschema-restartonfailure-settingstype-element.md)
+-   [**Рестартонидле (Идлесеттингстипе)**](taskschedulerschema-restartonidle-idlesettingstype-element.md)
+-   [**RunLevel (ПринЦипалтипе)**](taskschedulerschema-runlevel-principaltype-element.md)
+-   [**Рунонлифидле (Сеттингстипе)**](taskschedulerschema-runonlyifidle-settingstype-element.md)
+-   [**Рунонлифнетворкаваилабле (Сеттингстипе)**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md)
+-   [**Суббота (Дайсофвиктипе)**](taskschedulerschema-saturday-daysofweektype-element.md)
+-   [**Счедулебидай (Календартригжертипе)**](taskschedulerschema-schedulebyday-calendartriggertype-element.md)
+-   [**Счедулебимонсдайофвик (Календартригжертипе)**](taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md)
+-   [**Счедулебимонс (Календартригжертипе)**](taskschedulerschema-schedulebymonth-calendartriggertype-element.md)
+-   [**Счедулебивик (Календартригжертипе)**](taskschedulerschema-schedulebyweek-calendartriggertype-element.md)
+-   [**SecurityDescriptor (Регистратионинфотипе)**](taskschedulerschema-securitydescriptor-registrationinfotype-element.md)
+-   [**Элемент SendEmail (actionGroup)**](taskschedulerschema-sendemail-actiongroup-element.md)
+-   [**Сентябрь (Монсстипе)**](taskschedulerschema-september-monthstype-element.md)
+-   [**Сессионстатечанжетригжер (Тригжерграуп)**](taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md)
+-   [**Сервер (Сендмаилтипе)**](taskschedulerschema-server-sendemailtype-element.md)
+-   [**Параметры (taskType)**](taskschedulerschema-settings-tasktype-element.md)
+-   [**ShowMessage (actionGroup)**](taskschedulerschema-showmessage-actiongroup-element.md)
+-   [**Источник (Регистратионинфотипе)**](taskschedulerschema-source-registrationinfotype-element.md)
+-   [**Стартбаундари (Тригжербасетипе)**](taskschedulerschema-startboundary-triggerbasetype-element.md)
+-   [**Стартвхенаваилабле (Сеттингстипе)**](taskschedulerschema-startwhenavailable-settingstype-element.md)
+-   [**StateChange (Сессионстатечанжетригжертипе)**](taskschedulerschema-statechange-sessionstatechangetriggertype-element.md)
+-   [**Стопатдуратионенд (Репетитионтипе)**](taskschedulerschema-stopatdurationend-repetitiontype-element.md)
+-   [**Стопифгоингонбаттериес (Сеттингстипе)**](taskschedulerschema-stopifgoingonbatteries-settingstype-element.md)
+-   [**Стопонидлинд (Идлесеттингстипе)**](taskschedulerschema-terminateonidleend-idlesettingstype-element.md)
+-   [**Тема (Сендмаилтипе)**](taskschedulerschema-subject-sendemailtype-element.md)
+-   [**Подписка (Евенттригжертипе)**](taskschedulerschema-subscription-eventtriggertype-element.md)
+-   [**Воскресенье (Дайсофвиктипе)**](taskschedulerschema-sunday-daysofweektype-element.md)
+-   [**Задача**](taskschedulerschema-task-element.md)
+-   [**Четверг (Дайсофвиктипе)**](taskschedulerschema-thursday-daysofweektype-element.md)
+-   [**Тиметригжер (Тригжерграуп)**](taskschedulerschema-timetrigger-triggergroup-element.md)
+-   [**Элемент title (Шовмессажетипе)**](taskschedulerschema-title-showmessagetype-element.md)
+-   [**To (Сендмаилтипе)**](taskschedulerschema-to-sendemailtype-element.md)
+-   [**Триггеры (taskType)**](taskschedulerschema-triggers-tasktype-element.md)
+-   [**Вторник (Дайсофвиктипе)**](taskschedulerschema-tuesday-daysofweektype-element.md)
+-   [**URI (Регистратионинфотипе)**](taskschedulerschema-uri-registrationinfotype-element.md)
+-   [**UserId (Логонтригжертипе)**](taskschedulerschema-userid-logontriggertype-element.md)
+-   [**UserId (ПринЦипалтипе)**](taskschedulerschema-userid-principaltype-element.md)
+-   [**UserId (Сессионстатечанжетригжертипе)**](taskschedulerschema-userid-sessionstatechangetriggertype-element.md)
+-   [**Усеунифиедсчедулинженгине (Сеттингстипе)**](taskschedulerschema-useunifiedschedulingengine-settingstype-element.md)
+-   [**Валуекуериес (Евенттригжертипе)**](taskschedulerschema-valuequeries-eventtriggertype-element.md)
+-   [**Значение (Хеадерфиелдтипе)**](taskschedulerschema-value-headerfieldtype-element.md)
+-   [**Версия (Регистратионинфотипе)**](taskschedulerschema-version-registrationinfotype-element.md)
+-   [**Ваиттимеаут (Идлесеттингстипе)**](taskschedulerschema-waittimeout-idlesettingstype-element.md)
+-   [**Вакеторун (Сеттингстипе)**](taskschedulerschema-waketorun-settingstype-element.md)
+-   [**Среда (Дайсофвиктипе)**](taskschedulerschema-wednesday-daysofweektype-element.md)
+-   [**Week (Викстипе)**](taskschedulerschema-week-weekstype-element.md)
+-   [**Виксинтервал (Виклисчедулетипе)**](taskschedulerschema-weeksinterval-weeklyscheduletype-element.md)
+-   [**Weeks (Монслидайофвиксчедулетипе)**](taskschedulerschema-weeks-monthlydayofweekscheduletype-element.md)
+-   [**WorkingDirectory (Ексектипе)**](taskschedulerschema-workingdirectory-exectype-element.md)
+
+ 
+
+ 
+
+
+
+
