@@ -1,0 +1,44 @@
+---
+title: Классы (API потоковой передачи мультимедиа)
+description: API потоковой передачи мультимедиа предоставляет следующие классы.
+ms.assetid: E537FCE0-5AE5-41BC-903D-AE67CE9F4D78
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: b90ace112563a5c1bf1fee7455877434371adb26
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "104414633"
+---
+# <a name="classes-media-streaming-api"></a>Классы (API потоковой передачи мультимедиа)
+
+[API потоковой передачи мультимедиа](media-streaming-api-portal.md) предоставляет следующие классы.
+
+## <a name="in-this-section"></a>В этом разделе
+
+
+
+| Раздел                                                                                   | Описание                                                                                                                                                                                                                                                                                                                                                                         |
+|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**активебасикдевице**](/previous-versions/windows/desktop/legacy/dn385755(v=vs.85))<br/>                               | Реализует интерфейс [**иактивебасикдевице**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice) , представляющий активное устройство Digital живая Network Alliance (DLNA).<br/>                                                                                                                                                                                                                       |
+| [**басикдевице**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))<br/>                                           | Реализует интерфейс [**ибасикдевице**](ibasicdevice.md) , представляющий устройство DLNA.<br/>                                                                                                                                                                                                                                                                             |
+| [**креатемедиарендерероператион**](createmediarendereroperation.md)<br/>         | Регистрирует обработчик событий, вызываемый при завершении асинхронной операции, запущенной [**креатемедиарендерерасинк**](imediarendererfactory-createmediarendererasync.md) или [**креатемедиарендерерфромбасикдевицеасинк**](imediarendererfactory-createmediarendererfrombasicdeviceasync.md) , и предоставляет метод, возвращающий результаты операции.<br/> |
+| [**девицеконтроллер**](/previous-versions/windows/desktop/legacy/hh828842(v=vs.85))<br/>                                 | Реализует интерфейс [**идевицеконтроллер**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-idevicecontroller) , который получает список кэшированных модулей подготовки цифровых носителей (ДМРС) и (или) серверов цифрового мультимедиа (дмсс) или для асинхронного поиска ДМРС и/или дмсс, находящихся в данный момент в сети.<br/>                                                                                                            |
+| [**девицепаир**](/previous-versions/windows/desktop/legacy/dn385771(v=vs.85))<br/>                                             | Реализует интерфейс [**идевицепаир**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-idevicepair) , представляющий пару объектов [**активебасикдевице**](/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)) , которые состоят из модуля подготовки отчетов и сервера.<br/>                                                                                                                                                                              |
+| [**жетмутеоператион**](getmuteoperation.md)<br/>                                 | Регистрирует обработчик событий, вызываемый при завершении асинхронной операции, запущенной [**жетмутеасинк**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getmuteasync) , и предоставляет метод, возвращающий результаты операции.<br/>                                                                                                                                                    |
+| [**жетпоситионинформатионоператион**](getpositioninformationoperation.md)<br/>   | Регистрирует обработчик событий, вызываемый при завершении асинхронной операции, запущенной [**жетпоситионинформатионасинк**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getpositioninformationasync) , и предоставляет метод, возвращающий результаты операции.<br/>                                                                                                                      |
+| [**жетстреампропертиесоператион**](getstreampropertiesoperation.md)<br/>         | Регистрирует обработчик событий, вызываемый при завершении асинхронной операции, запущенной [**жетстреампропертиесасинк**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) , и предоставляет метод, возвращающий результаты операции.<br/>                                                                                                                            |
+| [**жеттранспортинформатионоператион**](gettransportinformationoperation.md)<br/> | Регистрирует обработчик событий, вызываемый при завершении асинхронной операции, запущенной [**жеттранспортинформатионасинк**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-gettransportinformationasync) , и предоставляет метод, возвращающий результаты операции.<br/>                                                                                                                    |
+| [**жетволумеоператион**](getvolumeoperation.md)<br/>                             | Регистрирует обработчик событий, вызываемый при завершении асинхронной операции, запущенной [**жетволумеасинк**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getvolumeasync) , и предоставляет метод, возвращающий результаты операции.<br/>                                                                                                                                                |
+| [**медиарендерер**](mediarenderer.md)<br/>                                       | Реализует интерфейс [**имедиарендерер**](imediarenderer.md) , представляющий устройство воспроизведения цифрового мультимедиа DLNA (ДМР).<br/>                                                                                                                                                                                                                                            |
+| [**плайбаккоператион**](playbackoperation.md)<br/>                               | Регистрирует обработчик событий, который вызывается, когда завершается асинхронная операция, запущенная одним из методов воспроизведения [**медиарендерер**](mediarenderer.md) , и предоставляет метод, возвращающий результаты операции.<br/>                                                                                                                                      |
+| [**стреамселектоператион**](streamselectoperation.md)<br/>                       | Регистрирует обработчик событий, вызываемый при завершении асинхронной операции, запущенной [**жетмутеасинк**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getmuteasync) , и предоставляет метод, возвращающий результаты операции.<br/>                                                                                                                                                    |
+| [**стреамселектор**](streamselector.md)<br/>                                     | Реализует интерфейс [**истреамселекторстатикс**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-istreamselectorstatics) и позволяет выбрать поток.<br/>                                                                                                                                                                                                                                                        |
+
+
+
+ 
+
+ 
+
