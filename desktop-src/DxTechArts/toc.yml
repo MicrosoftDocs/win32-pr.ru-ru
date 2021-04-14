@@ -1,0 +1,75 @@
+- name: Технические статьи
+  href: dx9-technical-articles.md
+  items:
+    - name: 64-разрядное программирование для разработчиков игр
+      href: sixty-four-bit-programming-for-game-developers.md
+    - name: Подписывание Authenticode для разработчиков игр
+      href: authenticode-signing-for-game-developers.md
+    - name: Советы и рекомендации по разработке игр
+      href: best-security-practices-in-game-development.md
+    - name: Каскадные карты теней
+      href: cascaded-shadow-maps.md
+    - name: Написание программного кода для многоядерных процессоров Xbox 360 и Windows
+      href: coding-for-multiple-cores.md
+    - name: Распространенные методики по улучшению карт глубины теней
+      href: common-techniques-to-improve-shadow-depth-maps.md
+    - name: Анализ аварийного дампа
+      href: crash-dump-analysis.md
+    - name: Отладка с использованием символов
+      href: debugging-with-symbols.md
+    - name: "Вопросы и ответы по Direct3D\_10"
+      href: direct3d10-frequently-asked-questions.md
+    - name: Часто задаваемые вопросы о DirectX
+      href: directx-9-frequently-asked-questions.md
+    - name: Установка DirectX для разработчиков игр
+      href: directx-setup-for-game-developers.md
+    - name: Отключение сочетаний клавиш в играх
+      href: disabling-shortcut-keys-in-games.md
+    - name: Расписание игры и многоядерный процессор
+      href: game-timing-and-multicore-processors.md
+    - name: Игры для технических требований Windows
+      href: games-for-windows-technical-requirements-1-1-0006.md
+    - name: Игры для тестовых случаев Windows
+      href: games-for-windows-test-requirements-1-0-0006.md
+    - name: Игры с Least-Privileged учетными записями пользователей
+      href: gaming-with-least-privileged-user-accounts.md
+    - name: Установка по запросу для игр
+      href: install-on-demand-for-games.md
+    - name: Установка и обслуживание игр
+      href: installation-and-maintenance-of-games.md
+    - name: Соображения по поводу программирования без использования блокировок для Xbox 360 и Microsoft Windows
+      href: lockless-programming.md
+    - name: Рекомендации по установке для массовых многопользовательских интернет-игр
+      href: mmo-installation-best-practices.md
+    - name: Установка и использование редакторов метода ввода
+      href: installing-and-using-input-method-editors.md
+    - name: Знакомство с 10-футовым интерфейсом для разработчиков игр Windows
+      href: introduction-to-the-10-foot-experience-for-windows-game-developers.md
+    - name: 'Предоставление доступа к видеоматериалам: деловые обоснования и рекомендации по проектированию'
+      href: accessibility-best-practices.md
+    - name: Оптимизация производительности DVD для игр Windows
+      href: optimizing-dvd-performance-for-windows-games.md
+    - name: 'Установка исправлений для игр в Windows XP, Windows Vista и Windows 7'
+      href: patching-methods-in-windows-xp-and-vista.md
+    - name: Рекомендации по управлению ресурсами
+      href: resource-management-best-practices.md
+    - name: Упрощение установки игр
+      href: simplifying-game-installation.md
+    - name: Использование преимуществ High-Definition перемещения мыши
+      href: taking-advantage-of-high-dpi-mouse-movement.md
+    - name: Конвейер преобразования Direct3D
+      href: the-direct3d-transformation-pipeline.md
+    - name: Основные проблемы с заголовками Windows
+      href: top-issues-for-windows-titles.md
+    - name: Лучшие средства и методы для создания более надежных игр Windows
+      href: top-tools-and-techniques-for-making-more-robust-windows-games.md
+    - name: Контроль учетных записей для разработчиков игр
+      href: user-account-control-for-game-developers.md
+    - name: Использование редактора метода ввода в игре
+      href: using-an-input-method-editor-in-a-game.md
+    - name: Брандмауэр Windows для разработчиков игр
+      href: games-and-firewalls.md
+    - name: Обозреватель игр Windows для разработчиков игр
+      href: windows-game-explorer-integration.md
+    - name: установщик Windows для разработчиков игр
+      href: windows-installer-for-game-developers.md
