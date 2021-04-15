@@ -1,0 +1,161 @@
+---
+title: атрибут Buildingname ограничение
+description: Имя здания, на котором основано организация или подразделение.
+ms.assetid: b7c263cc-23cd-4ae8-9abe-ffd40f307162
+ms.tgt_platform: multiple
+keywords:
+- Схема AD атрибута Buildingname ограничение
+topic_type:
+- apiref
+api_name:
+- buildingName
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: d0745997a562360301cceef7d04b5fb862b048a9
+ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "105655514"
+---
+# <a name="buildingname-attribute"></a>атрибут Buildingname ограничение
+
+Имя здания, на котором основано организация или подразделение.
+
+
+
+| Ввод | Значение |
+|-------------------|---------------------------------------------|
+| CN                | Buildingname ограничение                                |
+| LDAP-отображаемое имя | Buildingname ограничение                                |
+| Размер              | \-                                          |
+| Привилегия обновления  | \-                                          |
+| Частота обновления  | \-                                          |
+| Attribute-Id      | 0.9.2342.19200300.100.1.48                  |
+| System-ID — GUID    | f87fa54b-b2c5-4fd7-88c0-daccb21d93c5        |
+| Синтаксис            | [**String(Юникод)**](s-string-unicode.md) |
+
+
+
+## <a name="implementations"></a>Варианты реализации решения
+
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
+
+## <a name="windows-server-2003"></a>Windows Server 2003
+
+
+
+| Ввод | Значение |
+|------------------------|--------------|
+| Идентификатор ссылки                | \-           |
+| MAPI-Id                | \-           |
+| System-Only            | Неверно        |
+| Является однозначным       | Неверно        |
+| Индексируется             | Неверно        |
+| В глобальном каталоге      | Неверно        |
+| NT-Security-дескриптор | О:БАГ: BAD: S: |
+| Range-Lower            | 1            |
+| Range-Upper            | 256          |
+| Search-Flags           | 0x00000000   |
+| System-Flags           | 0x00000000   |
+| Классы, используемые в        | \-           |
+
+
+
+## <a name="windows-server-2003-r2"></a>Windows Server 2003 R2
+
+
+
+| Ввод | Значение |
+|------------------------|--------------|
+| Идентификатор ссылки                | \-           |
+| MAPI-Id                | \-           |
+| System-Only            | Неверно        |
+| Является однозначным       | Неверно        |
+| Индексируется             | Неверно        |
+| В глобальном каталоге      | Неверно        |
+| NT-Security-дескриптор | О:БАГ: BAD: S: |
+| Range-Lower            | 1            |
+| Range-Upper            | 256          |
+| Search-Flags           | 0x00000000   |
+| System-Flags           | 0x00000000   |
+| Классы, используемые в        | \-           |
+
+
+
+## <a name="windows-server-2008"></a>Windows Server 2008
+
+
+
+| Ввод | Значение |
+|------------------------|--------------|
+| Идентификатор ссылки                | \-           |
+| MAPI-Id                | \-           |
+| System-Only            | Неверно        |
+| Является однозначным       | Неверно        |
+| Индексируется             | Неверно        |
+| В глобальном каталоге      | Неверно        |
+| NT-Security-дескриптор | О:БАГ: BAD: S: |
+| Range-Lower            | 1            |
+| Range-Upper            | 256          |
+| Search-Flags           | 0x00000000   |
+| System-Flags           | 0x00000000   |
+| Классы, используемые в        | \-           |
+
+
+
+## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
+
+
+
+| Ввод | Значение |
+|------------------------|--------------|
+| Идентификатор ссылки                | \-           |
+| MAPI-Id                | \-           |
+| System-Only            | Неверно        |
+| Является однозначным       | Неверно        |
+| Индексируется             | Неверно        |
+| В глобальном каталоге      | Неверно        |
+| NT-Security-дескриптор | О:БАГ: BAD: S: |
+| Range-Lower            | 1            |
+| Range-Upper            | 256          |
+| Search-Flags           | 0x00000000   |
+| System-Flags           | 0x00000000   |
+| Классы, используемые в        | \-           |
+
+
+
+## <a name="windows-server-2012"></a>Windows Server 2012
+
+
+
+| Ввод | Значение |
+|------------------------|--------------|
+| Идентификатор ссылки                | \-           |
+| MAPI-Id                | \-           |
+| System-Only            | Неверно        |
+| Является однозначным       | Неверно        |
+| Индексируется             | Неверно        |
+| В глобальном каталоге      | Неверно        |
+| NT-Security-дескриптор | О:БАГ: BAD: S: |
+| Range-Lower            | 1            |
+| Range-Upper            | 256          |
+| Search-Flags           | 0x00000000   |
+| System-Flags           | 0x00000000   |
+| Классы, используемые в        | \-           |
+
+
+
+ 
+
+ 
+
+
+
+

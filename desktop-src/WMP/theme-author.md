@@ -1,0 +1,61 @@
+---
+title: Тема. Author
+description: Атрибут Author указывает или получает имя автора обложки.
+ms.assetid: 05d91024-38ea-4327-8ee1-a9242a13fd73
+keywords:
+- Тема. Создание проигрывателя Windows Media Player
+topic_type:
+- apiref
+api_name:
+- THEME.author
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: ed6930ea13994fc860f614766663983d46167eb0
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "105648654"
+---
+# <a name="themeauthor"></a>Тема. Author
+
+Атрибут **Author** указывает или получает имя автора обложки.
+
+``` syntax
+theme.author
+```
+
+## <a name="possible-values"></a>Возможные значения
+
+Этот атрибут является **строкой** для чтения и записи и не имеет значения по умолчанию.
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|--------------------|------------------------------------------------------|
+| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[**Элемент THEME**](theme-element.md)
+</dt> <dt>
+
+[**THEME. Аусорверсион**](theme-authorversion.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
