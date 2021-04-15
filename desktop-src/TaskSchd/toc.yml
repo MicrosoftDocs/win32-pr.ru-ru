@@ -1,0 +1,1839 @@
+- name: Планировщик заданий
+  href: task-scheduler-start-page.md
+  items:
+    - name: Новые возможности планировщик задач
+      href: what-s-new-in-task-scheduler.md
+    - name: Сведения о планировщик задач
+      href: about-the-task-scheduler.md
+      items:
+        - name: Задачи
+          href: tasks.md
+        - name: Действия задач
+          href: task-actions.md
+        - name: Триггеры задач
+          href: task-triggers.md
+          items:
+            - name: Типы триггеров
+              href: trigger-types.md
+            - name: Интерфейсы триггера
+              href: trigger-interfaces.md
+            - name: 'Триггеры планировщик задач 1,0'
+              href: task-scheduler-1-0-triggers.md
+              items:
+                - name: 'Структуры триггеров для планировщик задач 1,0'
+                  href: trigger-structures.md
+                - name: 'Триггеры бездействия для планировщик задач 1,0'
+                  href: idle-triggers.md
+        - name: Сведения о регистрации задачи
+          href: task-registration-information.md
+        - name: Условия простоя задачи
+          href: task-idle-conditions.md
+        - name: Контексты безопасности для задач
+          href: security-contexts-for-running-tasks.md
+        - name: Усиление безопасности задач
+          href: task-security-hardening.md
+        - name: Повторение задачи
+          href: repeating-a-task.md
+        - name: Автоматическое обслуживание
+          href: task-maintenence.md
+        - name: 'Сведения о задаче планировщик задач 1,0'
+          href: task-scheduler-1-0-task-informatation.md
+          items:
+            - name: Замечания по программированию
+              href: programming-considerations.md
+            - name: Перечисление задач
+              href: enumerating-tasks.md
+            - name: Запланированные рабочие элементы
+              href: scheduled-work-items.md
+              items:
+                - name: Добавление рабочих элементов
+                  href: adding-work-items.md
+                - name: Управление рабочими элементами
+                  href: managing-work-items.md
+    - name: Использование планировщик задач
+      href: using-the-task-scheduler.md
+      items:
+        - name: Запуск исполняемого файла в определенное время
+          href: starting-an-executable-at-a-spcific-time.md
+          items:
+            - name: Пример триггера времени (сценарии)
+              href: time-trigger-example--scripting-.md
+            - name: Пример триггера времени (C++)
+              href: time-trigger-example--c---.md
+            - name: Пример триггера времени (XML)
+              href: time-trigger-example--xml-.md
+        - name: Запуск исполняемого файла ежедневно
+          href: starting-an-executable-daily.md
+          items:
+            - name: Пример ежедневного триггера (сценарии)
+              href: daily-trigger-example--scripting-.md
+            - name: Пример ежедневного триггера (C++)
+              href: daily-trigger-example--c---.md
+            - name: Пример ежедневного триггера (XML)
+              href: daily-trigger-example--xml-.md
+        - name: Запуск исполняемого файла при регистрации задачи
+          href: starting-an-executable-when-a-task-is-registered.md
+          items:
+            - name: Пример триггера регистрации (сценарии)
+              href: registration-trigger-example--scripting-.md
+            - name: Пример триггера регистрации (C++)
+              href: registration-trigger-example--c---.md
+            - name: Пример триггера регистрации (XML)
+              href: registration-trigger-example--xml-.md
+        - name: Запуск исполняемого файла еженедельно
+          href: starting-an-executable-weekly.md
+          items:
+            - name: Пример еженедельного триггера (скрипт)
+              href: weekly-trigger-example--scripting-.md
+            - name: Пример еженедельного триггера (C++)
+              href: weekly-trigger-example--c---.md
+            - name: Пример еженедельного триггера (XML)
+              href: weekly-trigger-example--xml-.md
+        - name: Запуск исполняемого файла при входе пользователя в систему
+          href: starting-an-executable-when-a-user-logs-on.md
+          items:
+            - name: Пример триггера LOGON (скрипт)
+              href: logon-trigger-example--scripting-.md
+            - name: Пример триггера LOGON (C++)
+              href: logon-trigger-example--c---.md
+            - name: Пример триггера LOGON (XML)
+              href: logon-trigger-example--xml-.md
+        - name: Запуск исполняемого файла при загрузке системы
+          href: starting-an-executable-on-system-boot.md
+          items:
+            - name: Пример триггера загрузки (написание сценариев)
+              href: boot-trigger-example--scripting-.md
+            - name: Пример триггера Boot (C++)
+              href: boot-trigger-example--c---.md
+            - name: Пример триггера Boot (XML)
+              href: boot-trigger-example--xml-.md
+        - name: Перечисление задач и отображение сведений о задачах
+          href: enumerating-tasks-and-displaying-task-information.md
+          items:
+            - name: Отображение имен и состояний задач (написание сценариев)
+              href: displaying-task-names-and-state--scripting-.md
+            - name: Отображение имен и состояний задач (C++)
+              href: displaying-task-names-and-state--c---.md
+        - name: 'Примеры планировщик задач 1,0'
+          href: task-scheduler-1-0-examples.md
+          items:
+            - name: Создание задачи с помощью примера Невворкитем
+              href: creating-a-task-using-newworkitem-example.md
+              items:
+                - name: Пример кода C/C++. Создание задачи с помощью Невворкитем
+                  href: c-c-code-example-creating-a-task-using-newworkitem.md
+            - name: Пример перечисления задач
+              href: enumerating-tasks-example.md
+              items:
+                - name: Пример кода C/C++. Перечисление задач
+                  href: c-c-code-example-enumerating-tasks.md
+            - name: Пример запуска задачи
+              href: starting-a-task-example.md
+              items:
+                - name: 'Пример кода C/C++: запуск задачи'
+                  href: c-c-code-example-starting-a-task.md
+            - name: Изменение рабочего элемента с помощью страниц свойств
+              href: editing-a-work-item-using-property-pages.md
+              items:
+                - name: 'Пример кода C/C++: изменение рабочего элемента'
+                  href: c-c-code-example-editing-a-work-item.md
+            - name: Получение примеров свойств рабочего элемента
+              href: retrieving-work-item-property-examples.md
+              items:
+                - name: 'Пример кода C/C++: получение сведений об учетной записи задачи'
+                  href: c-c-code-example-retrieving-task-account-information.md
+                - name: 'Пример кода C/C++: получение комментария к задаче'
+                  href: c-c-code-example-retrieving-a-task-comment.md
+                - name: 'Пример кода C/C++: получение создателя задачи'
+                  href: c-c-code-example-retrieving-the-task-creator.md
+                - name: 'Пример кода C/C++: получение кода завершения задачи'
+                  href: c-c-code-example-retrieving-task-exit-code.md
+                - name: 'Пример кода C/C++: получение времени ожидания задачи'
+                  href: c-c-code-example-retrieving-task-idle-wait-time.md
+                - name: 'Пример кода C/C++: получение времени Мострецентрун задачи'
+                  href: c-c-code-example-retrieving-the-task-mostrecentrun-time.md
+                - name: 'Пример кода C/C++: получение времени Некструн задачи'
+                  href: c-c-code-example-retrieving-the-task-nextrun-time.md
+                - name: 'Пример кода C/C++: получение времени выполнения задачи'
+                  href: c-c-code-example-retrieving-task-run-times.md
+                - name: 'Пример кода C/C++: получение состояния задачи'
+                  href: c-c-code-example-retrieving-task-status.md
+            - name: Примеры настройки свойств рабочих элементов
+              href: setting-work-item-property-examples.md
+              items:
+                - name: 'Пример кода C/C++: Задание сведений об учетной записи задачи'
+                  href: c-c-code-example-setting-task-account-information.md
+                - name: 'Пример кода C/C++: Задание комментария к задаче'
+                  href: c-c-code-example-setting-task-comment.md
+            - name: Получение примеров свойств задачи
+              href: retrieving-task-property-examples.md
+              items:
+                - name: 'Пример кода C/C++: получение имени приложения задачи'
+                  href: c-c-code-example-retrieving-the-task-application-name.md
+                - name: 'Пример кода C/C++: получение Максрунтиме задачи'
+                  href: c-c-code-example-retrieving-the-task-maxruntime.md
+                - name: Пример кода C/C++. получение параметров задачи
+                  href: c-c-code-example-retrieving-task-parameters.md
+                - name: 'Пример кода C/C++: получение приоритета задачи'
+                  href: c-c-code-example-retrieving-task-priority.md
+                - name: 'Пример кода C/C++: получение рабочего каталога задачи'
+                  href: c-c-code-example-retrieving-the-task-working-directory.md
+            - name: Примеры свойств задач
+              href: setting-task-property-examples.md
+              items:
+                - name: 'Пример кода C/C++: Задание имени приложения'
+                  href: c-c-code-example-setting-application-name.md
+                - name: 'Пример кода C/C++: Настройка Максрунтиме'
+                  href: c-c-code-example-setting-maxruntime.md
+                - name: 'Пример кода C/C++: Задание параметров задачи'
+                  href: c-c-code-example-setting-task-parameters.md
+                - name: 'Пример кода C/C++: Настройка приоритета задачи'
+                  href: c-c-code-example-setting-task-priority.md
+                - name: 'Пример кода C/C++: Настройка рабочего каталога'
+                  href: c-c-code-example-setting-working-directory.md
+            - name: Получение примера страницы задачи
+              href: retrieving-a-task-page-example.md
+              items:
+                - name: 'Пример кода C/C++: получение страницы задачи'
+                  href: c-c-code-example-retrieving-a-task-page.md
+            - name: Создание нового триггера
+              href: creating-a-new-trigger.md
+              items:
+                - name: 'Пример кода C/C++: Создание триггера задачи'
+                  href: c-c-code-example-creating-a-task-trigger.md
+            - name: Пример создания триггера Idle
+              href: creating-an-idle-trigger-example.md
+              items:
+                - name: Пример кода C/C++. Создание триггера Idle
+                  href: c-c-code-example-creating-an-idle-trigger.md
+            - name: Пример завершения задачи
+              href: terminating-a-task-example.md
+              items:
+                - name: 'Пример кода C/C++: завершение задачи'
+                  href: c-c-code-example-terminating-a-task.md
+            - name: Пример получения строк триггера
+              href: retrieving-trigger-strings-example.md
+              items:
+                - name: 'Пример кода C/C++: получение строк триггера'
+                  href: c-c-code-example-retrieving-trigger-strings.md
+    - name: Справочник по планировщик задач
+      href: task-scheduler-reference.md
+      items:
+        - name: планировщик задач объектов скрипта
+          href: task-scheduler-objects.md
+          items:
+            - name: Действие
+              href: action.md
+              items:
+                - name: Action.Id
+                  href: action-id.md
+                - name: Action. Type
+                  href: action-type.md
+            - name: ActionCollection
+              href: actioncollection.md
+              items:
+                - name: ActionCollection. Context
+                  href: actioncollection-context.md
+                - name: ActionCollection. Count
+                  href: actioncollection-count.md
+                - name: ActionCollection. Item
+                  href: actioncollection-item.md
+                - name: ActionCollection.Xmlтекст
+                  href: actioncollection-xmltext.md
+                - name: ActionCollection. Clear
+                  href: actioncollection-clear.md
+                - name: ActionCollection. Create
+                  href: actioncollection-create.md
+                - name: ActionCollection. Remove
+                  href: actioncollection-remove.md
+            - name: буттригжер
+              href: boottrigger.md
+              items:
+                - name: Буттригжер. Delay
+                  href: boottrigger-delay.md
+            - name: комхандлерактион
+              href: comhandleraction.md
+              items:
+                - name: Комхандлерактион. ClassId
+                  href: comhandleraction-classid.md
+                - name: Комхандлерактион. Data
+                  href: comhandleraction-data.md
+            - name: даилитригжер
+              href: dailytrigger.md
+              items:
+                - name: Даилитригжер. Дайсинтервал
+                  href: dailytrigger-daysinterval.md
+                - name: Даилитригжер. Рандомделай
+                  href: dailytrigger-randomdelay.md
+            - name: емаилактион
+              href: emailaction.md
+              items:
+                - name: Емаилактион. вложения
+                  href: emailaction-attachments.md
+                - name: Емаилактион. СК
+                  href: emailaction-bcc.md
+                - name: Емаилактион. Body
+                  href: emailaction-body.md
+                - name: EmailAction.Cc
+                  href: emailaction-cc.md
+                - name: Емаилактион. from
+                  href: emailaction-from.md
+                - name: Емаилактион. Хеадерфиелдс
+                  href: emailaction-headerfields.md
+                - name: Емаилактион. ReplyTo
+                  href: emailaction-replyto.md
+                - name: Емаилактион. Server
+                  href: emailaction-server.md
+                - name: Емаилактион. subject
+                  href: emailaction-subject.md
+                - name: EmailAction.To
+                  href: emailaction-to.md
+            - name: EventTrigger
+              href: eventtrigger.md
+              items:
+                - name: EventTrigger. Delay
+                  href: eventtrigger-delay.md
+                - name: EventTrigger. Subscription
+                  href: eventtrigger-subscription.md
+                - name: EventTrigger. Валуекуериес
+                  href: eventtrigger-valuequeries.md
+            - name: ексекактион
+              href: execaction.md
+              items:
+                - name: Ексекактион. Arguments
+                  href: execaction-arguments.md
+                - name: Ексекактион. путь
+                  href: execaction-path.md
+                - name: Ексекактион. WorkingDirectory
+                  href: execaction-workingdirectory.md
+            - name: идлесеттингс
+              href: idlesettings.md
+              items:
+                - name: Идлесеттингс. Идледуратион
+                  href: idlesettings-idleduration.md
+                - name: Идлесеттингс. Рестартонидле
+                  href: idlesettings-restartonidle.md
+                - name: Идлесеттингс. Стопонидлинд
+                  href: idlesettings-stoponidleend.md
+                - name: Идлесеттингс. Ваиттимеаут
+                  href: idlesettings-waittimeout.md
+            - name: идлетригжер
+              href: idletrigger.md
+            - name: логонтригжер
+              href: logontrigger.md
+              items:
+                - name: Логонтригжер. Delay
+                  href: logontrigger-delay.md
+                - name: Логонтригжер. UserId
+                  href: logontrigger-userid.md
+            - name: монслидовтригжер
+              href: monthlydowtrigger.md
+              items:
+                - name: Монслидовтригжер. DaysOfWeek
+                  href: monthlydowtrigger-daysofweek.md
+                - name: Монслидовтригжер. Монссофеар
+                  href: monthlydowtrigger-monthsofyear.md
+                - name: Монслидовтригжер. Рандомделай
+                  href: monthlydowtrigger-randomdelay.md
+                - name: Монслидовтригжер. Рунонластвикофмонс
+                  href: monthlydowtrigger-runonlastweekofmonth.md
+                - name: Монслидовтригжер. Виксофмонс
+                  href: monthlydowtrigger-weeksofmonth.md
+            - name: монслитригжер
+              href: monthlytrigger.md
+              items:
+                - name: Монслитригжер. DaysOfMonth
+                  href: monthlytrigger-daysofmonth.md
+                - name: Монслитригжер. Монссофеар
+                  href: monthlytrigger-monthsofyear.md
+                - name: Монслитригжер. Рандомделай
+                  href: monthlytrigger-randomdelay.md
+                - name: Монслитригжер. Рунонластдайофмонс
+                  href: monthlytrigger-runonlastdayofmonth.md
+            - name: NetworkSettings
+              href: networksettings.md
+              items:
+                - name: NetworkSettings.Id
+                  href: networksettings-id.md
+                - name: NetworkSettings.Name
+                  href: networksettings-name.md
+            - name: Основной
+              href: principal.md
+              items:
+                - name: Principal. DisplayName
+                  href: principal-displayname.md
+                - name: Principal. GroupId
+                  href: principal-groupid.md
+                - name: Principal.Id
+                  href: principal-id.md
+                - name: Principal. LogonType
+                  href: principal-logontype.md
+                - name: Principal. UserId
+                  href: principal-userid.md
+                - name: Principal. RunLevel
+                  href: principal-runlevel.md
+            - name: регистередтаск
+              href: registeredtask.md
+              items:
+                - name: Регистередтаск. definition
+                  href: registeredtask-definition.md
+                - name: Регистередтаск. Enabled
+                  href: registeredtask-enabled.md
+                - name: Регистередтаск. Ластрунтиме
+                  href: registeredtask-lastruntime.md
+                - name: Регистередтаск. Ласттаскресулт
+                  href: registeredtask-lasttaskresult.md
+                - name: RegisteredTask.Name
+                  href: registeredtask-name.md
+                - name: Регистередтаск. Расчетное nextruntime
+                  href: registeredtask-nextruntime.md
+                - name: Регистередтаск. Нумберофмисседрунс
+                  href: registeredtask-numberofmissedruns.md
+                - name: Регистередтаск. путь
+                  href: registeredtask-path.md
+                - name: Регистередтаск. штат
+                  href: registeredtask-state.md
+                - name: RegisteredTask.XML
+                  href: registeredtask-xml.md
+                - name: Регистередтаск.
+                  href: registeredtask-getinstances.md
+                - name: Регистередтаск. среды выполнения
+                  href: registeredtask-getruntimes.md
+                - name: Регистередтаск. Жетсекуритидескриптор
+                  href: registeredtask-getsecuritydescriptor.md
+                - name: Регистередтаск. Run
+                  href: registeredtask-run.md
+                - name: Регистередтаск. Рунекс
+                  href: registeredtask-runex.md
+                - name: Регистередтаск. Сетсекуритидескриптор
+                  href: registeredtask-setsecuritydescriptor.md
+                - name: Регистередтаск.
+                  href: registeredtask-stop.md
+            - name: регистередтаскколлектион
+              href: registeredtaskcollection.md
+              items:
+                - name: Регистередтаскколлектион. Count
+                  href: registeredtaskcollection-count.md
+                - name: Регистередтаскколлектион. Item
+                  href: registeredtaskcollection-item.md
+            - name: регистратионинфо
+              href: registrationinfo.md
+              items:
+                - name: Регистратионинфо. Author
+                  href: registrationinfo-author.md
+                - name: Регистратионинфо. Дата
+                  href: registrationinfo-date.md
+                - name: Регистратионинфо. Описание
+                  href: registrationinfo-description.md
+                - name: RegistrationInfo.Docументатион
+                  href: registrationinfo-documentation.md
+                - name: Регистратионинфо. SecurityDescriptor
+                  href: registrationinfo-securitydescriptor.md
+                - name: Регистратионинфо. Source
+                  href: registrationinfo-source.md
+                - name: Регистратионинфо. URI
+                  href: registrationinfo-uri.md
+                - name: Регистратионинфо. версия
+                  href: registrationinfo-version.md
+                - name: RegistrationInfo.Xmlтекст
+                  href: registrationinfo-xmltext.md
+            - name: регистратионтригжер
+              href: registrationtrigger.md
+              items:
+                - name: Регистратионтригжер. Delay
+                  href: registrationtrigger-delay.md
+            - name: репетитионпаттерн
+              href: repetitionpattern.md
+              items:
+                - name: Репетитионпаттерн. Длительность
+                  href: repetitionpattern-duration.md
+                - name: Репетитионпаттерн. Interval
+                  href: repetitionpattern-interval.md
+                - name: Репетитионпаттерн. Стопатдуратионенд
+                  href: repetitionpattern-stopatdurationend.md
+            - name: руннингтаск
+              href: runningtask.md
+              items:
+                - name: Руннингтаск. Куррентактион
+                  href: runningtask-currentaction.md
+                - name: Руннингтаск. Енгинепид
+                  href: runningtask-enginepid.md
+                - name: Руннингтаск. Инстанцегуид
+                  href: runningtask-instanceguid.md
+                - name: RunningTask.Name
+                  href: runningtask-name.md
+                - name: Руннингтаск. путь
+                  href: runningtask-path.md
+                - name: Руннингтаск. штат
+                  href: runningtask-state.md
+                - name: Руннингтаск. Refresh
+                  href: runningtask-refresh.md
+                - name: Руннингтаск.
+                  href: runningtask-stop.md
+            - name: руннингтаскколлектион
+              href: runningtaskcollection.md
+              items:
+                - name: Руннингтаскколлектион. Count
+                  href: runningtaskcollection-count.md
+                - name: Руннингтаскколлектион. Item
+                  href: runningtaskcollection-item.md
+            - name: сессионстатечанжетригжер
+              href: sessionstatechangetrigger.md
+              items:
+                - name: Сессионстатечанжетригжер. Delay
+                  href: sessionstatechangetrigger-delay.md
+                - name: Сессионстатечанжетригжер. StateChange
+                  href: sessionstatechangetrigger-statechange.md
+                - name: Сессионстатечанжетригжер. UserId
+                  href: sessionstatechangetrigger-userid.md
+            - name: шовмессажеактион
+              href: showmessageaction.md
+              items:
+                - name: Шовмессажеактион. MessageBody
+                  href: showmessageaction-messagebody.md
+                - name: Шовмессажеактион. Title
+                  href: showmessageaction-title.md
+            - name: таскдефинитион
+              href: taskdefinition.md
+              items:
+                - name: Таскдефинитион. Actions
+                  href: taskdefinition-actions.md
+                - name: Таскдефинитион. Data
+                  href: taskdefinition-data.md
+                - name: Таскдефинитион. Principal
+                  href: taskdefinition-principal.md
+                - name: Таскдефинитион. Регистратионинфо
+                  href: taskdefinition-registrationinfo.md
+                - name: Таскдефинитион. Settings
+                  href: taskdefinition-settings.md
+                - name: Таскдефинитион. triggers
+                  href: taskdefinition-triggers.md
+                - name: TaskDefinition.Xmlтекст
+                  href: taskdefinition-xmltext.md
+            - name: таскфолдер
+              href: taskfolder.md
+              items:
+                - name: Таскфолдер. Креатефолдер
+                  href: taskfolder-createfolder.md
+                - name: Таскфолдер. Делетефолдер
+                  href: taskfolder-deletefolder.md
+                - name: Таскфолдер. Делететаск
+                  href: taskfolder-deletetask.md
+                - name: Таскфолдер.
+                  href: taskfolder-getfolder.md
+                - name: Папки Таскфолдер.
+                  href: taskfolder-getfolders.md
+                - name: Таскфолдер. Жетсекуритидескриптор
+                  href: taskfolder-getsecuritydescriptor.md
+                - name: Таскфолдер. о задаче
+                  href: taskfolder-gettask.md
+                - name: Таскфолдер. о задачах
+                  href: taskfolder-gettasks.md
+                - name: TaskFolder.Name
+                  href: taskfolder-name.md
+                - name: Таскфолдер. путь
+                  href: taskfolder-path.md
+                - name: Таскфолдер. Регистертаск
+                  href: taskfolder-registertask.md
+                - name: Таскфолдер. Регистертаскдефинитион
+                  href: taskfolder-registertaskdefinition.md
+                - name: Таскфолдер. Сетсекуритидескриптор
+                  href: taskfolder-setsecuritydescriptor.md
+            - name: таскфолдерколлектион
+              href: taskfoldercollection.md
+              items:
+                - name: Таскфолдерколлектион. Count
+                  href: taskfoldercollection-count.md
+                - name: Таскфолдерколлектион. Item
+                  href: taskfoldercollection-item.md
+            - name: таскнамедвалуеколлектион
+              href: tasknamedvaluecollection.md
+              items:
+                - name: Таскнамедвалуеколлектион. Clear
+                  href: tasknamedvaluecollection-clear.md
+                - name: Таскнамедвалуеколлектион. Count
+                  href: tasknamedvaluecollection-count.md
+                - name: Таскнамедвалуеколлектион. Create
+                  href: tasknamedvaluecollection-create.md
+                - name: Таскнамедвалуеколлектион. Item
+                  href: tasknamedvaluecollection-item.md
+                - name: Таскнамедвалуеколлектион. Remove
+                  href: tasknamedvaluecollection-remove.md
+            - name: таскнамедвалуепаир
+              href: tasknamedvaluepair.md
+              items:
+                - name: TaskNamedValuePair.Name
+                  href: tasknamedvaluepair-name.md
+                - name: Таскнамедвалуепаир. Value
+                  href: tasknamedvaluepair-value.md
+            - name: TaskService
+              href: taskservice.md
+              items:
+                - name: TaskService. Connect
+                  href: taskservice-connect.md
+                - name: TaskService. Connected
+                  href: taskservice-connected.md
+                - name: TaskService. Коннектеддомаин
+                  href: taskservice-connecteddomain.md
+                - name: TaskService. Коннектедусер
+                  href: taskservice-connecteduser.md
+                - name: TaskService.
+                  href: taskservice-getfolder.md
+                - name: TaskService. Жетруннингтаскс
+                  href: taskservice-getrunningtasks.md
+                - name: TaskService. Хигхестверсион
+                  href: taskservice-highestversion.md
+                - name: TaskService.
+                  href: taskservice-newtask.md
+                - name: TaskService. TargetServer
+                  href: taskservice-targetserver.md
+            - name: тасксеттингс
+              href: tasksettings.md
+              items:
+                - name: Тасксеттингс. Алловдемандстарт
+                  href: tasksettings-allowdemandstart.md
+                - name: Тасксеттингс. Алловхардтерминате
+                  href: tasksettings-allowhardterminate.md
+                - name: Тасксеттингс. Compatibility
+                  href: tasksettings-compatibility.md
+                - name: Тасксеттингс. Делетикспиредтаскафтер
+                  href: tasksettings-deleteexpiredtaskafter.md
+                - name: Тасксеттингс. Дисалловстартифонбаттериес
+                  href: tasksettings-disallowstartifonbatteries.md
+                - name: Тасксеттингс. Enabled
+                  href: tasksettings-enabled.md
+                - name: TaskSettings.ExeКутионтимелимит
+                  href: tasksettings-executiontimelimit.md
+                - name: Тасксеттингс. Hidden
+                  href: tasksettings-hidden.md
+                - name: Тасксеттингс. Идлесеттингс
+                  href: tasksettings-idlesettings.md
+                - name: Тасксеттингс. Мултиплеинстанцес
+                  href: tasksettings-multipleinstances.md
+                - name: Тасксеттингс. Нетворксеттингс
+                  href: tasksettings-networksettings.md
+                - name: Тасксеттингс. Priority
+                  href: tasksettings-priority.md
+                - name: Тасксеттингс. Рестарткаунт
+                  href: tasksettings-restartcount.md
+                - name: Тасксеттингс. Рестартинтервал
+                  href: tasksettings-restartinterval.md
+                - name: Тасксеттингс. Рунонлифидле
+                  href: tasksettings-runonlyifidle.md
+                - name: Тасксеттингс. Рунонлифнетворкаваилабле
+                  href: tasksettings-runonlyifnetworkavailable.md
+                - name: Тасксеттингс. Стартвхенаваилабле
+                  href: tasksettings-startwhenavailable.md
+                - name: Тасксеттингс. Стопифгоингонбаттериес
+                  href: tasksettings-stopifgoingonbatteries.md
+                - name: Тасксеттингс. Вакеторун
+                  href: tasksettings-waketorun.md
+                - name: TaskSettings.Xmlтекст
+                  href: tasksettings-xmltext.md
+            - name: тасквариаблес
+              href: taskvariables.md
+              items:
+                - name: Тасквариаблес. DataContext
+                  href: taskvariables-getcontext.md
+                - name: Тасквариаблес. вход
+                  href: taskvariables-getinput.md
+                - name: Тасквариаблес. Сетаутпут
+                  href: taskvariables-setoutput.md
+            - name: TimeTrigger
+              href: timetrigger.md
+              items:
+                - name: Тиметригжер. Рандомделай
+                  href: timetrigger-randomdelay.md
+            - name: Триггер
+              href: trigger.md
+              items:
+                - name: Триггер. Enabled.
+                  href: trigger-enabled.md
+                - name: Триггер. Ендбаундари
+                  href: trigger-endboundary.md
+                - name: Trigger.ExeКутионтимелимит
+                  href: trigger-executiontimelimit.md
+                - name: Trigger.Id
+                  href: trigger-id.md
+                - name: Триггер. повторение
+                  href: trigger-repetition.md
+                - name: Триггер. Стартбаундари
+                  href: trigger-startboundary.md
+                - name: Тип триггера
+                  href: trigger-type.md
+            - name: тригжерколлектион
+              href: triggercollection.md
+              items:
+                - name: Тригжерколлектион. Count
+                  href: triggercollection-count.md
+                - name: Тригжерколлектион. Item
+                  href: triggercollection-item.md
+                - name: Тригжерколлектион. Clear
+                  href: triggercollection-clear.md
+                - name: Тригжерколлектион. Create
+                  href: triggercollection-create.md
+                - name: Тригжерколлектион. Remove
+                  href: triggercollection-remove.md
+            - name: виклитригжер
+              href: weeklytrigger.md
+              items:
+                - name: Виклитригжер. DaysOfWeek
+                  href: weeklytrigger-daysofweek.md
+                - name: Виклитригжер. Рандомделай
+                  href: weeklytrigger-randomdelay.md
+                - name: Виклитригжер. Виксинтервал
+                  href: weeklytrigger-weeksinterval.md
+        - name: Интерфейсы планировщик задач
+          href: task-scheduler-interfaces.md
+          items:
+            - name: 'Интерфейсы планировщик задач 1,0'
+              href: task-scheduler-1-0-interfaces.md
+              items:
+                - name: иенумворкитемс
+                  href: /windows/desktop/api/Mstask/nn-mstask-ienumworkitems
+                  items:
+                    - name: 'Иенумворкитемс:: Clone'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-clone
+                    - name: 'Иенумворкитемс:: Next'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-next
+                    - name: 'Иенумворкитемс:: Reset'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-reset
+                    - name: 'Иенумворкитемс:: Skip'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ienumworkitems-skip
+                - name: ипровидетаскпаже
+                  href: /windows/desktop/api/Mstask/nn-mstask-iprovidetaskpage
+                  items:
+                    - name: 'Ипровидетаскпаже:: @ Page'
+                      href: /windows/desktop/api/Mstask/nf-mstask-iprovidetaskpage-getpage
+                - name: исчедуледворкитем
+                  href: /windows/desktop/api/Mstask/nn-mstask-ischeduledworkitem
+                  items:
+                    - name: 'Исчедуледворкитем:: CreateTrigger'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-createtrigger
+                    - name: 'Исчедуледворкитем::D Елететригжер'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-deletetrigger
+                    - name: 'Исчедуледворкитем:: Едитворкитем'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-editworkitem
+                    - name: 'Исчедуледворкитем:: Жетаккаунтинформатион'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getaccountinformation
+                    - name: 'Исчедуледворкитем:: "комментарий"'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getcomment
+                    - name: 'Исчедуледворкитем:: Creator'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getcreator
+                    - name: 'Исчедуледворкитем:: Жетеррорретрикаунт'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-geterrorretrycount
+                    - name: 'Исчедуледворкитем:: Жетеррорретринтервал'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-geterrorretryinterval
+                    - name: 'Исчедуледворкитем:: Жетекситкоде'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getexitcode
+                    - name: 'Флаги Исчедуледворкитем:: "'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getflags
+                    - name: 'Исчедуледворкитем:: Жетидлеваит'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getidlewait
+                    - name: 'Исчедуледворкитем:: Жетмострецентрунтиме'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getmostrecentruntime
+                    - name: 'Исчедуледворкитем:: Жетнекструнтиме'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getnextruntime
+                    - name: 'Исчедуледворкитем:: среды выполнения'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getruntimes
+                    - name: 'Исчедуледворкитем::/Status'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getstatus
+                    - name: 'Исчедуледворкитем:: Trigger'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-gettrigger
+                    - name: 'Исчедуледворкитем:: Жеттригжеркаунт'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-gettriggercount
+                    - name: 'Исчедуледворкитем:: Жеттригжерстринг'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-gettriggerstring
+                    - name: 'Исчедуледворкитем:: Жетворкитемдата'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-getworkitemdata
+                    - name: 'Исчедуледворкитем:: Run'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-run
+                    - name: 'Исчедуледворкитем:: Сетаккаунтинформатион'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setaccountinformation
+                    - name: 'Исчедуледворкитем:: Сеткоммент'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setcomment
+                    - name: 'Исчедуледворкитем:: Сеткреатор'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setcreator
+                    - name: 'Исчедуледворкитем:: Сетеррорретрикаунт'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-seterrorretrycount
+                    - name: 'Исчедуледворкитем:: Сетеррорретринтервал'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-seterrorretryinterval
+                    - name: 'Исчедуледворкитем:: Сетфлагс'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setflags
+                    - name: 'Исчедуледворкитем:: Сетидлеваит'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setidlewait
+                    - name: 'Исчедуледворкитем:: Сетворкитемдата'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-setworkitemdata
+                    - name: 'Исчедуледворкитем:: Terminate'
+                      href: /windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-terminate
+                - name: ITask
+                  href: /windows/desktop/api/Mstask/nn-mstask-itask
+                  items:
+                    - name: 'ITask:: имя_приложения'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-getapplicationname
+                    - name: 'ITask:: Жетмаксрунтиме'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-getmaxruntime
+                    - name: 'ITask:: Parameters'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-getparameters
+                    - name: 'ITask:: предшествовал'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-getpriority
+                    - name: 'ITask:: Жеттаскфлагс'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-gettaskflags
+                    - name: 'ITask:: Жетворкингдиректори'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-getworkingdirectory
+                    - name: 'ITask:: SetApplicationName'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-setapplicationname
+                    - name: 'ITask:: Сетмаксрунтиме'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-setmaxruntime
+                    - name: 'ITask:: SetParameters'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-setparameters
+                    - name: 'ITask:: SetPriority'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-setpriority
+                    - name: 'ITask:: Сеттаскфлагс'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-settaskflags
+                    - name: 'ITask:: Сетворкингдиректори'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itask-setworkingdirectory
+                - name: итасксчедулер
+                  href: /windows/desktop/api/Mstask/nn-mstask-itaskscheduler
+                  items:
+                    - name: 'Итасксчедулер:: Activate'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-activate
+                    - name: 'Итасксчедулер:: Аддворкитем'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-addworkitem
+                    - name: 'Итасксчедулер::D удалить'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-delete
+                    - name: 'Итасксчедулер:: Enum'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-enum
+                    - name: 'Итасксчедулер:: Жеттаржеткомпутер'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-gettargetcomputer
+                    - name: 'Итасксчедулер:: IsOfType'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-isoftype
+                    - name: 'Итасксчедулер:: Невворкитем'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-newworkitem
+                    - name: 'Итасксчедулер:: Сеттаржеткомпутер'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itaskscheduler-settargetcomputer
+                - name: итасктригжер
+                  href: /windows/desktop/api/Mstask/nn-mstask-itasktrigger
+                  items:
+                    - name: 'Итасктригжер:: Trigger'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itasktrigger-gettrigger
+                    - name: 'Итасктригжер:: Жеттригжерстринг'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itasktrigger-gettriggerstring
+                    - name: 'Итасктригжер:: Сеттригжер'
+                      href: /windows/desktop/api/Mstask/nf-mstask-itasktrigger-settrigger
+            - name: 'Интерфейсы планировщик задач 2,0'
+              href: task-scheduler-2-0-interfaces.md
+              items:
+                - name: IAction
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iaction
+                  items:
+                    - name: Свойство ID объекта IAction
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iaction-get_id
+                    - name: Свойство Type объекта IAction
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iaction-get_type
+                - name: IActionCollection
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iactioncollection
+                  items:
+                    - name: Свойство Context объекта IActionCollection
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_context
+                    - name: Свойство Count объекта IActionCollection
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_count
+                    - name: Свойство Item объекта IActionCollection
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_item
+                    - name: Свойство XmlText объекта IActionCollection
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get_xmltext
+                    - name: Свойство _NewEnum IActionCollection
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-get__newenum
+                    - name: 'IActionCollection:: Clear'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-clear
+                    - name: 'IActionCollection:: Create'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-create
+                    - name: 'IActionCollection:: Remove'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iactioncollection-remove
+                - name: ибуттригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iboottrigger
+                  items:
+                    - name: Свойство Delay объекта Ибуттригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iboottrigger-get_delay
+                - name: икомхандлерактион
+                  href: /windows/desktop/api/taskschd/nn-taskschd-icomhandleraction
+                  items:
+                    - name: Свойство ClassId объекта Икомхандлерактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_classid
+                    - name: Свойство Data объекта Икомхандлерактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data
+                - name: идаилитригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-idailytrigger
+                  items:
+                    - name: Свойство Дайсинтервал объекта Идаилитригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-idailytrigger-get_daysinterval
+                    - name: Свойство Рандомделай объекта Идаилитригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-idailytrigger-get_randomdelay
+                - name: иемаилактион
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iemailaction
+                  items:
+                    - name: Свойство "вложения" для Иемаилактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_attachments
+                    - name: Свойство BCC объекта Иемаилактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc
+                    - name: Свойство Body объекта Иемаилактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_body
+                    - name: Свойство CC объекта Иемаилактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_cc
+                    - name: 'From, свойство объекта Иемаилактион'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_from
+                    - name: Свойство Хеадерфиелдс объекта Иемаилактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_headerfields
+                    - name: 'ReplyTo, свойство Иемаилактион'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_replyto
+                    - name: Свойство сервера Иемаилактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_server
+                    - name: Свойство Subject объекта Иемаилактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_subject
+                    - name: Для свойства Иемаилактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_to
+                - name: иевенттригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-ieventtrigger
+                  items:
+                    - name: Свойство Delay объекта Иевенттригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_delay
+                    - name: Свойство Subscription объекта Иевенттригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_subscription
+                    - name: Свойство Валуекуериес объекта Иевенттригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_valuequeries
+                - name: иексекактион
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iexecaction
+                  items:
+                    - name: Свойство Arguments объекта Иексекактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments
+                    - name: Свойство Path объекта Иексекактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_path
+                    - name: Свойство WorkingDirectory объекта Иексекактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory
+                - name: иидлесеттингс
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iidlesettings
+                  items:
+                    - name: Свойство Идледуратион объекта Иидлесеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_idleduration
+                    - name: Свойство Рестартонидле объекта Иидлесеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_restartonidle
+                    - name: Свойство Стопонидлинд объекта Иидлесеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_stoponidleend
+                    - name: Свойство Ваиттимеаут объекта Иидлесеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_waittimeout
+                - name: иидлетригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iidletrigger
+                - name: илогонтригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-ilogontrigger
+                  items:
+                    - name: Свойство Delay объекта Илогонтригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ilogontrigger-get_delay
+                    - name: 'UserId, свойство Илогонтригжер'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ilogontrigger-get_userid
+                - name: имаинтенанцесеттингс
+                  href: /windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings
+                  items:
+                    - name: Свойство крайний срок
+                      href: /windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_deadline
+                    - name: Эксклюзивное свойство
+                      href: /windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_exclusive
+                    - name: Свойство period
+                      href: /windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_period
+                - name: имонслидовтригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger
+                  items:
+                    - name: Свойство DaysOfWeek объекта Имонслидовтригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_daysofweek
+                    - name: Свойство Монссофеар объекта Имонслидовтригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_monthsofyear
+                    - name: Свойство Рандомделай объекта Имонслидовтригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_randomdelay
+                    - name: Свойство Рунонластвикофмонс объекта Имонслидовтригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_runonlastweekofmonth
+                    - name: Свойство Виксофмонс объекта Имонслидовтригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlydowtrigger-get_weeksofmonth
+                - name: имонслитригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger
+                  items:
+                    - name: Свойство DaysOfMonth объекта Имонслитригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_daysofmonth
+                    - name: Свойство Монссофеар объекта Имонслитригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_monthsofyear
+                    - name: Свойство Рандомделай объекта Имонслитригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_randomdelay
+                    - name: Свойство Рунонластдайофмонс объекта Имонслитригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-imonthlytrigger-get_runonlastdayofmonth
+                - name: инетворксеттингс
+                  href: /windows/desktop/api/taskschd/nn-taskschd-inetworksettings
+                  items:
+                    - name: Свойство ID объекта Инетворксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-inetworksettings-get_id
+                    - name: Свойство Name объекта Инетворксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-inetworksettings-get_name
+                - name: IPrincipal
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iprincipal
+                  items:
+                    - name: Свойство DisplayName для IPrincipal
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_displayname
+                    - name: Свойство GroupId класса IPrincipal
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_groupid
+                    - name: Свойство ID класса IPrincipal
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_id
+                    - name: Свойство LogonType класса IPrincipal
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_logontype
+                    - name: 'UserId, свойство IPrincipal'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid
+                    - name: Свойство RunLevel класса IPrincipal
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel
+                - name: IPrincipal2
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iprincipal2
+                  items:
+                    - name: Метод Аддрекуиредпривилеже
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-addrequiredprivilege
+                    - name: 'Процесстокенсидтипе, свойство'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_processtokensidtype
+                    - name: 'Рекуиредпривилеже, свойство'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_requiredprivilege
+                    - name: 'Рекуиредпривилежекаунт, свойство'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_requiredprivilegecount
+                - name: ирегистередтаск
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iregisteredtask
+                  items:
+                    - name: Свойство определения объекта Ирегистередтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_definition
+                    - name: Свойство Enabled объекта Ирегистередтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_enabled
+                    - name: Свойство Ластрунтиме объекта Ирегистередтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_lastruntime
+                    - name: Свойство Ласттаскресулт объекта Ирегистередтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_lasttaskresult
+                    - name: Свойство Name объекта Ирегистередтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_name
+                    - name: Свойство расчетное nextruntime объекта Ирегистередтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_nextruntime
+                    - name: Свойство Нумберофмисседрунс объекта Ирегистередтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_numberofmissedruns
+                    - name: Свойство Path объекта Ирегистередтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_path
+                    - name: Свойство State объекта Ирегистередтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_state
+                    - name: Свойство XML объекта Ирегистередтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_xml
+                    - name: 'Ирегистередтаск:: @ экземпляры'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getinstances
+                    - name: 'Ирегистередтаск:: среды выполнения'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getruntimes
+                    - name: 'Ирегистередтаск:: Жетсекуритидескриптор'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getsecuritydescriptor
+                    - name: 'Ирегистередтаск:: Run'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run
+                    - name: 'Ирегистередтаск:: Рунекс'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-runex
+                    - name: 'Ирегистередтаск:: Сетсекуритидескриптор'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-setsecuritydescriptor
+                    - name: 'Ирегистередтаск:: останавливаться'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-stop
+                - name: ирегистередтаскколлектион
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iregisteredtaskcollection
+                  items:
+                    - name: Свойство Count объекта Ирегистередтаскколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtaskcollection-get_count
+                    - name: Свойство Item объекта Ирегистередтаскколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtaskcollection-get_item
+                    - name: Свойство _NewEnum Ирегистередтаскколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregisteredtaskcollection-get__newenum
+                - name: ирегистратионинфо
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iregistrationinfo
+                  items:
+                    - name: Свойство Author объекта Ирегистратионинфо
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_author
+                    - name: Свойство Date объекта Ирегистратионинфо
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_date
+                    - name: Свойство Description объекта Ирегистратионинфо
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_description
+                    - name: Свойство Documentation объекта Ирегистратионинфо
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_documentation
+                    - name: Свойство SecurityDescriptor объекта Ирегистратионинфо
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_securitydescriptor
+                    - name: Свойство Source объекта Ирегистратионинфо
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_source
+                    - name: Свойство URI объекта Ирегистратионинфо
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_uri
+                    - name: Свойство Version объекта Ирегистратионинфо
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_version
+                    - name: Свойство XmlText объекта Ирегистратионинфо
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_xmltext
+                - name: ирегистратионтригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iregistrationtrigger
+                  items:
+                    - name: Свойство Delay объекта Ирегистратионтригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iregistrationtrigger-get_delay
+                - name: ирепетитионпаттерн
+                  href: /windows/desktop/api/taskschd/nn-taskschd-irepetitionpattern
+                  items:
+                    - name: Свойство Duration объекта Ирепетитионпаттерн
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irepetitionpattern-get_duration
+                    - name: Свойство Interval объекта Ирепетитионпаттерн
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irepetitionpattern-get_interval
+                    - name: Свойство Стопатдуратионенд объекта Ирепетитионпаттерн
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irepetitionpattern-get_stopatdurationend
+                - name: ируннингтаск
+                  href: /windows/desktop/api/taskschd/nn-taskschd-irunningtask
+                  items:
+                    - name: Свойство Куррентактион объекта Ируннингтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_currentaction
+                    - name: Свойство Енгинепид объекта Ируннингтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_enginepid
+                    - name: Свойство Инстанцегуид объекта Ируннингтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_instanceguid
+                    - name: Свойство Name объекта Ируннингтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_name
+                    - name: Свойство Path объекта Ируннингтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_path
+                    - name: Свойство State объекта Ируннингтаск
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_state
+                    - name: 'Ируннингтаск:: Refresh'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-refresh
+                    - name: 'Ируннингтаск:: останавливаться'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtask-stop
+                - name: ируннингтаскколлектион
+                  href: /windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection
+                  items:
+                    - name: Свойство Count объекта Ируннингтаскколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtaskcollection-get_count
+                    - name: Свойство Item объекта Ируннингтаскколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtaskcollection-get_item
+                    - name: Свойство _NewEnum Ируннингтаскколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-irunningtaskcollection-get__newenum
+                - name: исессионстатечанжетригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-isessionstatechangetrigger
+                  items:
+                    - name: Свойство Delay объекта Исессионстатечанжетригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-isessionstatechangetrigger-get_delay
+                    - name: Свойство StateChange объекта Исессионстатечанжетригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-isessionstatechangetrigger-get_statechange
+                    - name: 'UserId, свойство Исессионстатечанжетригжер'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-isessionstatechangetrigger-get_userid
+                - name: ишовмессажеактион
+                  href: /windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction
+                  items:
+                    - name: Свойство MessageBody объекта Ишовмессажеактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_messagebody
+                    - name: Свойство Title объекта Ишовмессажеактион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_title
+                - name: итаскдефинитион
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskdefinition
+                  items:
+                    - name: Свойство Actions объекта Итаскдефинитион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_actions
+                    - name: Свойство Data объекта Итаскдефинитион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_data
+                    - name: Свойство Principal объекта Итаскдефинитион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal
+                    - name: Свойство Регистратионинфо объекта Итаскдефинитион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_registrationinfo
+                    - name: Свойство Settings объекта Итаскдефинитион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_settings
+                    - name: Свойство Triggers объекта Итаскдефинитион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_triggers
+                    - name: Свойство XmlText объекта Итаскдефинитион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_xmltext
+                - name: ITaskFolder
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskfolder
+                  items:
+                    - name: Свойство Name объекта ITaskFolder
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_name
+                    - name: Свойство Path объекта ITaskFolder
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_path
+                    - name: 'ITaskFolder:: Креатефолдер'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-createfolder
+                    - name: 'ITaskFolder::D Елетефолдер'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletefolder
+                    - name: 'ITaskFolder::D Елететаск'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletetask
+                    - name: 'ITaskFolder:: @ Folder'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolder
+                    - name: 'ITaskFolder::.'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolders
+                    - name: 'ITaskFolder:: Жетсекуритидескриптор'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getsecuritydescriptor
+                    - name: 'ITaskFolder:: Task'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettask
+                    - name: 'ITaskFolder:: i Tasks'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettasks
+                    - name: 'ITaskFolder:: Регистертаск'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask
+                    - name: 'ITaskFolder:: Регистертаскдефинитион'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition
+                    - name: 'ITaskFolder:: Сетсекуритидескриптор'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfolder-setsecuritydescriptor
+                - name: итаскфолдерколлектион
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskfoldercollection
+                  items:
+                    - name: Свойство Count объекта Итаскфолдерколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfoldercollection-get_count
+                    - name: Свойство Item объекта Итаскфолдерколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfoldercollection-get_item
+                    - name: Свойство _NewEnum Итаскфолдерколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskfoldercollection-get__newenum
+                - name: ITaskHandler
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskhandler
+                  items:
+                    - name: 'ITaskHandler::P Аусе'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-pause
+                    - name: 'ITaskHandler:: Resume'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-resume
+                    - name: 'ITaskHandler:: Start'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-start
+                    - name: 'ITaskHandler:: останавливаться'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandler-stop
+                - name: ITaskHandlerStatus
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskhandlerstatus
+                  items:
+                    - name: 'ITaskHandlerStatus:: UpdateStatus'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-updatestatus
+                    - name: 'ITaskHandlerStatus:: TaskCompleted'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-taskcompleted
+                - name: итаскнамедвалуеколлектион
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluecollection
+                  items:
+                    - name: Свойство Count объекта Итаскнамедвалуеколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get_count
+                    - name: Свойство Item объекта Итаскнамедвалуеколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get_item
+                    - name: Свойство _NewEnum Итаскнамедвалуеколлектион
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get__newenum
+                    - name: 'Итаскнамедвалуеколлектион:: Clear'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-clear
+                    - name: 'Итаскнамедвалуеколлектион:: Create'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-create
+                    - name: 'Итаскнамедвалуеколлектион:: Remove'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-remove
+                - name: итаскнамедвалуепаир
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluepair
+                  items:
+                    - name: Свойство Name объекта Итаскнамедвалуепаир
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluepair-get_name
+                    - name: Свойство Value объекта Итаскнамедвалуепаир
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluepair-get_value
+                - name: GetFolder интерфейса ITaskService
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskservice
+                  items:
+                    - name: Свойство Connected объекта GetFolder интерфейса ITaskService
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connected
+                    - name: Свойство Коннектеддомаин объекта GetFolder интерфейса ITaskService
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connecteddomain
+                    - name: Свойство Коннектедусер объекта GetFolder интерфейса ITaskService
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connecteduser
+                    - name: Свойство Хигхестверсион объекта GetFolder интерфейса ITaskService
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_highestversion
+                    - name: Свойство TargetServer объекта GetFolder интерфейса ITaskService
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver
+                    - name: 'GetFolder интерфейса ITaskService:: Connect'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect
+                    - name: 'GetFolder интерфейса ITaskService:: @ Folder'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-getfolder
+                    - name: 'GetFolder интерфейса ITaskService:: Жетруннингтаскс'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-getrunningtasks
+                    - name: 'GetFolder интерфейса ITaskService:: о команде'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-newtask
+                - name: итасксеттингс
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itasksettings
+                  items:
+                    - name: Свойство Алловдемандстарт объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_allowdemandstart
+                    - name: Свойство Алловхардтерминате объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_allowhardterminate
+                    - name: Свойство Compatibility объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility
+                    - name: Свойство Делетикспиредтаскафтер объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_deleteexpiredtaskafter
+                    - name: Свойство Дисалловстартифонбаттериес объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_disallowstartifonbatteries
+                    - name: Свойство Enabled объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_enabled
+                    - name: Свойство Ексекутионтимелимит объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_executiontimelimit
+                    - name: Свойство Hidden объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_hidden
+                    - name: Свойство Идлесеттингс объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_idlesettings
+                    - name: Свойство Мултиплеинстанцес объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_multipleinstances
+                    - name: Свойство Нетворксеттингс объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_networksettings
+                    - name: Свойство Priority объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_priority
+                    - name: Свойство Рестарткаунт объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartcount
+                    - name: Свойство Рестартинтервал объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartinterval
+                    - name: Свойство Рунонлифидле объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_runonlyifidle
+                    - name: Свойство Рунонлифнетворкаваилабле объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_runonlyifnetworkavailable
+                    - name: Свойство Стартвхенаваилабле объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_startwhenavailable
+                    - name: Свойство Стопифгоингонбаттериес объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_stopifgoingonbatteries
+                    - name: Свойство Вакеторун объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_waketorun
+                    - name: Свойство XmlText объекта Итасксеттингс
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_xmltext
+                - name: ITaskSettings2
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itasksettings2
+                  items:
+                    - name: 'Дисалловстартонремотеаппсессион, свойство'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings2-get_disallowstartonremoteappsession
+                    - name: 'Усеунифиедсчедулинженгине, свойство'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itasksettings2-get_useunifiedschedulingengine
+                - name: ITaskSettings3
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itasksettings3
+                  items:
+                    - name: Метод Креатемантенанцесеттингс
+                      href: /previous-versions/windows/desktop/legacy/hh832149(v=vs.85)
+                    - name: 'Маинтенанцесеттингс, свойство'
+                      href: /windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings
+                    - name: Свойство volatile
+                      href: /windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_volatile
+                - name: итасквариаблес
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itaskvariables
+                  items:
+                    - name: 'Итасквариаблес:: SPContext'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getcontext
+                    - name: 'Итасквариаблес:: входные данные'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getinput
+                    - name: 'Итасквариаблес:: Сетаутпут'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itaskvariables-setoutput
+                - name: итиметригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itimetrigger
+                  items:
+                    - name: Свойство Рандомделай объекта Итиметригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itimetrigger-get_randomdelay
+                - name: итригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itrigger
+                  items:
+                    - name: Свойство Enabled объекта Итригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_enabled
+                    - name: Свойство Ендбаундари объекта Итригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_endboundary
+                    - name: Свойство Ексекутионтимелимит объекта Итригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_executiontimelimit
+                    - name: Свойство ID объекта Итригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_id
+                    - name: Свойство повторения объекта Итригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_repetition
+                    - name: Свойство Стартбаундари объекта Итригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_startboundary
+                    - name: Свойство Type объекта Итригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type
+                - name: ITriggerCollection
+                  href: /windows/desktop/api/taskschd/nn-taskschd-itriggercollection
+                  items:
+                    - name: Свойство Count объекта ITriggerCollection
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get_count
+                    - name: Свойство Item объекта ITriggerCollection
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get_item
+                    - name: Свойство _NewEnum ITriggerCollection
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get__newenum
+                    - name: 'ITriggerCollection:: Clear'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-clear
+                    - name: 'ITriggerCollection:: Create'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-create
+                    - name: 'ITriggerCollection:: Remove'
+                      href: /windows/desktop/api/taskschd/nf-taskschd-itriggercollection-remove
+                - name: ивиклитригжер
+                  href: /windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger
+                  items:
+                    - name: Свойство DaysOfWeek объекта Ивиклитригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_daysofweek
+                    - name: Свойство Рандомделай объекта Ивиклитригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_randomdelay
+                    - name: Свойство Виксинтервал объекта Ивиклитригжер
+                      href: /windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_weeksinterval
+        - name: планировщик задач структур и объединений
+          href: task-scheduler-structures-and-unions.md
+          items:
+            - name: ЕЖЕДНЕВНО
+              href: /windows/win32/api/Mstask/ns-mstask-daily
+            - name: монслидате
+              href: /windows/win32/api/Mstask/ns-mstask-monthlydate
+            - name: монслидов
+              href: /windows/win32/api/Mstask/ns-mstask-monthlydow
+            - name: TASK_TRIGGER
+              href: /windows/win32/api/Mstask/ns-mstask-task_trigger
+            - name: TRIGGER_TYPE_UNION
+              href: /windows/win32/api/Mstask/ns-mstask-trigger_type_union
+            - name: Запуск
+              href: /windows/win32/api/Mstask/ns-mstask-weekly
+        - name: планировщик задач перечислимых типов
+          href: task-scheduler-enumerated-types.md
+          items:
+            - name: 'Перечислимые типы планировщик задач 1,0'
+              href: task-scheduler-1-0-enumerated-types.md
+              items:
+                - name: TASK_TRIGGER_TYPE
+                  href: /windows/win32/api/Mstask/ne-mstask-task_trigger_type
+                - name: таскпаже
+                  href: /windows/win32/api/Mstask/ne-mstask-taskpage
+            - name: 'Перечислимые типы планировщик задач 2,0'
+              href: task-scheduler-2-0-enumerated-types.md
+              items:
+                - name: TASK_ACTION_TYPE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_action_type
+                - name: TASK_COMPATIBILITY
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_compatibility
+                - name: TASK_CREATION
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_creation
+                - name: TASK_ENUM_FLAGS
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_enum_flags
+                - name: TASK_INSTANCES_POLICY
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_instances_policy
+                - name: TASK_LOGON_TYPE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_logon_type
+                - name: TASK_PROCESSTOKENSID_TYPE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_processtokensid_type
+                - name: TASK_RUNLEVEL_TYPE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_runlevel_type
+                - name: TASK_RUN_FLAGS
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_run_flags
+                - name: TASK_SESSION_STATE_CHANGE_TYPE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_session_state_change_type
+                - name: TASK_STATE
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_state
+                - name: TASK_TRIGGER_TYPE2
+                  href: /windows/win32/api/taskschd/ne-taskschd-task_trigger_type2
+        - name: Схема планировщик задач
+          href: task-scheduler-schema.md
+          items:
+            - name: планировщик задач элементы схемы
+              href: task-scheduler-schema-elements.md
+              items:
+                - name: 'Actions (taskType), элемент'
+                  href: taskschedulerschema-actions-tasktype-element.md
+                - name: 'Алловхардтерминате (Сеттингстипе), элемент'
+                  href: taskschedulerschema-allowhardterminate-settingstype-element.md
+                - name: 'Алловстартондеманд (Сеттингстипе), элемент'
+                  href: taskschedulerschema-allowstartondemand-settingstype-element.md
+                - name: 'Апрель (Монсстипе), элемент'
+                  href: taskschedulerschema-april-monthstype-element.md
+                - name: Элемент arguments (Ексектипе)
+                  href: taskschedulerschema-arguments-exectype-element.md
+                - name: Элемент вложений (Сендемаилтипе)
+                  href: taskschedulerschema-attachments-sendemailtype-element.md
+                - name: Элемент августе (Монсстипе)
+                  href: taskschedulerschema-august-monthstype-element.md
+                - name: 'Author (Регистратионинфотипе), элемент'
+                  href: taskschedulerschema-author-registrationinfotype-element.md
+                - name: Элемент Body (Сендемаилтипе)
+                  href: taskschedulerschema-body-sendemailtype-element.md
+                - name: Элемент Body (Шовмессажетипе)
+                  href: taskschedulerschema-body-showmessagetype-element.md
+                - name: 'Буттригжер (Буттригжертипе), элемент'
+                  href: taskschedulerschema-boottrigger-triggergroup-element.md
+                - name: Элемент BCC (Сендемаилтипе)
+                  href: taskschedulerschema-bcc-sendemailtype-element.md
+                - name: 'Календартригжер (Календартригжертипе), элемент'
+                  href: taskschedulerschema-calendartrigger-triggergroup-element.md
+                - name: Элемент CC (Сендемаилтипе)
+                  href: taskschedulerschema-cc-sendemailtype-element.md
+                - name: Элемент ClassId (Комхандлертипе)
+                  href: taskschedulerschema-classid-comhandlertype-element.md
+                - name: 'Комхандлер (actionGroup), элемент'
+                  href: taskschedulerschema-comhandler-actiongroup-element.md
+                - name: Элемент Command (Ексектипе)
+                  href: taskschedulerschema-command-exectype-element.md
+                - name: 'Count (Рестарттипе), элемент'
+                  href: taskschedulerschema-count-restarttype-element.md
+                - name: Элемент Data (Комхандлертипе)
+                  href: taskschedulerschema-data-comhandlertype-element.md
+                - name: Элемент Data (taskType)
+                  href: taskschedulerschema-data-tasktype-element.md
+                - name: Элемент Date (Регистратионинфотипе)
+                  href: taskschedulerschema-date-registrationinfotype-element.md
+                - name: 'Day (Дайсофмонстипе), элемент'
+                  href: taskschedulerschema-day-daysofmonthtype-element.md
+                - name: 'Дайсинтервал (Даилисчедулетипе), элемент'
+                  href: taskschedulerschema-daysinterval-dailyscheduletype-element.md
+                - name: 'DaysOfMonth (Монслисчедулетипе), элемент'
+                  href: taskschedulerschema-daysofmonth-monthlyscheduletype-element.md
+                - name: 'DaysOfWeek (Монслидайофвиксчедулетипе), элемент'
+                  href: taskschedulerschema-daysofweek-monthlydayofweekscheduletype-element.md
+                - name: 'DaysOfWeek (Виклисчедулетипе), элемент'
+                  href: taskschedulerschema-daysofweek-weeklyscheduletype-element.md
+                - name: Элемент крайний срок
+                  href: taskschedulerschema-deadline-element.md
+                - name: 'Декабрь (Монсстипе), элемент'
+                  href: taskschedulerschema-december-monthstype-element.md
+                - name: Элемент Delay (Буттригжертипе)
+                  href: taskschedulerschema-delay-boottriggertype-element.md
+                - name: Элемент Delay (Евенттригжертипе)
+                  href: taskschedulerschema-delay-eventtriggertype-element.md
+                - name: Элемент Delay (Логонтригжертипе)
+                  href: taskschedulerschema-delay-logontriggertype-element.md
+                - name: Элемент Delay (Регистратионтригжертипе)
+                  href: taskschedulerschema-delay-registrationtriggertype-element.md
+                - name: Элемент Delay (Сессионстатечанжетригжертипе)
+                  href: taskschedulerschema-delay-sessionstatechangetriggertype-element.md
+                - name: 'Делетикспиредтаскафтер (Сеттингстипе), элемент'
+                  href: taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md
+                - name: Элемент Description (Регистратионинфотипе)
+                  href: taskschedulerschema-description-registrationinfotype-element.md
+                - name: 'Дисалловстартифонбаттериес (Сеттингстипе), элемент'
+                  href: taskschedulerschema-disallowstartifonbatteries-settingstype-element.md
+                - name: 'Дисалловстартонремотеаппсессион (Сеттингстипе), элемент'
+                  href: taskschedulerschema-disallowstartonremoteappsession-settingstype-element.md
+                - name: Элемент DisplayName (ПринЦипалтипе)
+                  href: taskschedulerschema-displayname-principaltype-element.md
+                - name: Элемент Documentation (Регистратионинфотипе)
+                  href: taskschedulerschema-documentation-registrationinfotype-element.md
+                - name: 'Duration (Идлесеттингстипе), элемент'
+                  href: taskschedulerschema-duration-idlesettingstype-element.md
+                - name: 'Duration (Репетитионтипе), элемент'
+                  href: taskschedulerschema-duration-repetitiontype-element.md
+                - name: Включенный (Сеттингстипе) элемент
+                  href: taskschedulerschema-enabled-settingstype-element.md
+                - name: Включенный (Тригжербасетипе) элемент
+                  href: taskschedulerschema-enabled-triggerbasetype-element.md
+                - name: 'Ендбаундари (Тригжербасетипе), элемент'
+                  href: taskschedulerschema-endboundary-triggerbasetype-element.md
+                - name: Элемент EventTrigger (Тригжерграуп)
+                  href: taskschedulerschema-eventtrigger-triggergroup-element.md
+                - name: Эксклюзивный элемент
+                  href: taskschedulerschema-exclusive-element.md
+                - name: 'Exec (actionGroup), элемент'
+                  href: taskschedulerschema-exec-actiongroup-element.md
+                - name: 'Ексекутионтимелимит (Сеттингстипе), элемент'
+                  href: taskschedulerschema-executiontimelimit-settingstype-element.md
+                - name: 'Ексекутионтимелимит (Тригжербасетипе), элемент'
+                  href: taskschedulerschema-executiontimelimit-triggerbasetype-element.md
+                - name: Элемент Февраль (Монсстипе)
+                  href: taskschedulerschema-february-monthstype-element.md
+                - name: Элемент File (Аттачментстипе)
+                  href: taskschedulerschema-file-attachmentstype-element.md
+                - name: 'Пятница (Дайсофвиктипе), элемент'
+                  href: taskschedulerschema-friday-daysofweektype-element.md
+                - name: 'From (Сендемаилтипе), элемент'
+                  href: taskschedulerschema-from-sendemailtype-element.md
+                - name: Элемент GroupId (ПринЦипалтипе)
+                  href: taskschedulerschema-groupid-principaltype-element.md
+                - name: 'Хеадерфиелдс (Сендемаилтипе), элемент'
+                  href: taskschedulerschema-headerfields-sendemailtype-element.md
+                - name: 'Хеадерфиелд (Хеадерфиелдстипе), элемент'
+                  href: taskschedulerschema-headerfield-headerfieldstype-element.md
+                - name: 'Hidden (Сеттингстипе), элемент'
+                  href: taskschedulerschema-hidden-settingstype-element.md
+                - name: 'Идлесеттингс (Сеттингстипе), элемент'
+                  href: taskschedulerschema-idlesettings-settingstype-element.md
+                - name: 'Идлетригжер (Тригжерграуп), элемент'
+                  href: taskschedulerschema-idletrigger-triggergroup-element.md
+                - name: Элемент ID (Нетворксеттингстипе)
+                  href: taskschedulerschema-id-networksettingstype-element.md
+                - name: Элемент Interval (Репетитионтипе)
+                  href: taskschedulerschema-interval-repetitiontype-element.md
+                - name: Элемент Interval (Рестарттипе)
+                  href: taskschedulerschema-interval-restarttype-element.md
+                - name: Элемент Январь (Монсстипе)
+                  href: taskschedulerschema-january-monthstype-element.md
+                - name: Элемент Июль (Монсстипе)
+                  href: taskschedulerschema-july-monthstype-element.md
+                - name: Элемент Июнь (Монсстипе)
+                  href: taskschedulerschema-june-monthstype-element.md
+                - name: 'Логонтригжер (Тригжерграуп), элемент'
+                  href: taskschedulerschema-logontrigger-triggergroup-element.md
+                - name: 'LogonType (ПринЦипалтипе), элемент'
+                  href: taskschedulerschema-logontype-principaltype-element.md
+                - name: 'Маинтенанцесеттингс (Маинтенанцесеттингстипе), элемент'
+                  href: taskschedulerschema-maintenancesettings-maintenancesettingstype-element.md
+                - name: Элемент Март (Монсстипе)
+                  href: taskschedulerschema-march-monthstype-element.md
+                - name: 'Май (Монсстипе), элемент'
+                  href: taskschedulerschema-may-monthstype-element.md
+                - name: 'Понедельник (Виклисчедулетипе), элемент'
+                  href: taskschedulerschema-monday-daysofweektype-element.md
+                - name: 'Months (Монслидайофвиксчедулетипе), элемент'
+                  href: taskschedulerschema-months-monthlydayofweekscheduletype-element.md
+                - name: 'Months (Монслисчедулетипе), элемент'
+                  href: taskschedulerschema-months-monthlyscheduletype-element.md
+                - name: 'Мултиплеинстанцесполици (Мултиплеинстанцесполицитипе), элемент'
+                  href: taskschedulerschema-multipleinstancespolicy-settingstype-element.md
+                - name: Элемент Name (Хеадерфиелдтипе)
+                  href: taskschedulerschema-name-headerfieldtype-element.md
+                - name: Элемент Name (Нетворксеттингстипе)
+                  href: taskschedulerschema-name-networksettingstype-element.md
+                - name: 'Нетворкпрофиленаме (Сеттингстипе), элемент'
+                  href: taskschedulerschema-networkprofilename-settingstype-element.md
+                - name: 'Нетворксеттингс (Сеттингстипе), элемент'
+                  href: taskschedulerschema-networksettings-settingstype-element.md
+                - name: 'Ноябрь (Монсстипе), элемент'
+                  href: taskschedulerschema-november-monthstype-element.md
+                - name: Элемент Октябрь (Монсстипе)
+                  href: taskschedulerschema-october-monthstype-element.md
+                - name: 'Period, элемент'
+                  href: taskschedulerschema-period-element.md
+                - name: Элемент Principal (ПринЦипалтипе)
+                  href: taskschedulerschema-principal-principaltype-element.md
+                - name: 'Principal (taskType), элемент'
+                  href: taskschedulerschema-principals-tasktype-element.md
+                - name: Элемент Privilege (Рекуиредпривилежестипе)
+                  href: taskschedulerschema-privilege-requiredprivilegestype-element.md
+                - name: 'Процесстокенсидтипе (ПринЦипалтипе), элемент'
+                  href: taskschedulerschema-processtokensidtype-principaltype-element.md
+                - name: Элемент Priority (Сеттингстипе)
+                  href: taskschedulerschema-priority-settingstype-element.md
+                - name: 'Рандомделай (Календартригжертипе), элемент'
+                  href: taskschedulerschema-randomdelay-calendartriggertype-element.md
+                - name: 'Рандомделай (Тиметригжертипе), элемент'
+                  href: taskschedulerschema-randomdelay-timetriggertype-element.md
+                - name: 'Регистратионинфо (taskType), элемент'
+                  href: taskschedulerschema-registrationinfo-tasktype-element.md
+                - name: 'Регистратионтригжер (Регистратионтригжертипе), элемент'
+                  href: taskschedulerschema-registrationtrigger-triggergroup-element.md
+                - name: Элемент повторения (Тригжербасетипе)
+                  href: taskschedulerschema-repetition-triggerbasetype-element.md
+                - name: 'ReplyTo (Сендемаилтипе), элемент'
+                  href: taskschedulerschema-replyto-sendemailtype-element.md
+                - name: 'Рекуиредпривилежес (Рекуиредпривилежестипе), элемент'
+                  href: taskschedulerschema-requiredprivileges-requiredprivilegestype-element.md
+                - name: 'Рестартонфаилуре (Сеттингстипе), элемент'
+                  href: taskschedulerschema-restartonfailure-settingstype-element.md
+                - name: 'Рестартонидле (Идлесеттингстипе), элемент'
+                  href: taskschedulerschema-restartonidle-idlesettingstype-element.md
+                - name: 'RunLevel (Рунлевелтипе), элемент'
+                  href: taskschedulerschema-runlevel-principaltype-element.md
+                - name: 'Рунонлифидле (Сеттингстипе), элемент'
+                  href: taskschedulerschema-runonlyifidle-settingstype-element.md
+                - name: 'Рунонлифнетворкаваилабле (Сеттингстипе), элемент'
+                  href: taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md
+                - name: 'Суббота (Дайсофвиктипе), элемент'
+                  href: taskschedulerschema-saturday-daysofweektype-element.md
+                - name: 'Счедулебидай (Календартригжертипе), элемент'
+                  href: taskschedulerschema-schedulebyday-calendartriggertype-element.md
+                - name: 'Счедулебимонсдайофвик (Монслидайофвиксчедулетипе), элемент'
+                  href: taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md
+                - name: 'Счедулебимонс (Календартригжертипе), элемент'
+                  href: taskschedulerschema-schedulebymonth-calendartriggertype-element.md
+                - name: 'Счедулебивик (Календартригжертипе), элемент'
+                  href: taskschedulerschema-schedulebyweek-calendartriggertype-element.md
+                - name: 'SecurityDescriptor (Регистратионинфотипе), элемент'
+                  href: taskschedulerschema-securitydescriptor-registrationinfotype-element.md
+                - name: Элемент SendEmail (actionGroup)
+                  href: taskschedulerschema-sendemail-actiongroup-element.md
+                - name: 'Сентябрь (Монсстипе), элемент'
+                  href: taskschedulerschema-september-monthstype-element.md
+                - name: 'Сервер (Сендемаилтипе), элемент'
+                  href: taskschedulerschema-server-sendemailtype-element.md
+                - name: 'Сессионстатечанжетригжер (Тригжерграуп), элемент'
+                  href: taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md
+                - name: Элемент Settings (taskType)
+                  href: taskschedulerschema-settings-tasktype-element.md
+                - name: 'ShowMessage (actionGroup), элемент'
+                  href: taskschedulerschema-showmessage-actiongroup-element.md
+                - name: Элемент Source (Регистратионинфотипе)
+                  href: taskschedulerschema-source-registrationinfotype-element.md
+                - name: 'Стартбаундари (Тригжербасетипе), элемент'
+                  href: taskschedulerschema-startboundary-triggerbasetype-element.md
+                - name: 'Стартвхенаваилабле (Сеттингстипе), элемент'
+                  href: taskschedulerschema-startwhenavailable-settingstype-element.md
+                - name: 'StateChange (Сессионстатечанжетригжертипе), элемент'
+                  href: taskschedulerschema-statechange-sessionstatechangetriggertype-element.md
+                - name: 'Стопатдуратионенд (Репетитионтипе), элемент'
+                  href: taskschedulerschema-stopatdurationend-repetitiontype-element.md
+                - name: 'Стопифгоингонбаттериес (Сеттингстипе), элемент'
+                  href: taskschedulerschema-stopifgoingonbatteries-settingstype-element.md
+                - name: 'Стопонидлинд (Идлесеттингстипе), элемент'
+                  href: taskschedulerschema-terminateonidleend-idlesettingstype-element.md
+                - name: Элемент subject (Сендемаилтипе)
+                  href: taskschedulerschema-subject-sendemailtype-element.md
+                - name: Элемент Subscription (Евенттригжертипе)
+                  href: taskschedulerschema-subscription-eventtriggertype-element.md
+                - name: 'Воскресенье (Дайсофвиктипе), элемент'
+                  href: taskschedulerschema-sunday-daysofweektype-element.md
+                - name: Элемент Task
+                  href: taskschedulerschema-task-element.md
+                - name: 'Четверг (Дайсофвиктипе), элемент'
+                  href: taskschedulerschema-thursday-daysofweektype-element.md
+                - name: 'Тиметригжер (Тригжерграуп), элемент'
+                  href: taskschedulerschema-timetrigger-triggergroup-element.md
+                - name: Элемент title (Шовмессажетипе)
+                  href: taskschedulerschema-title-showmessagetype-element.md
+                - name: 'To (Сендемаилтипе), элемент'
+                  href: taskschedulerschema-to-sendemailtype-element.md
+                - name: Элемент Triggers (Тригжерстипе)
+                  href: taskschedulerschema-triggers-tasktype-element.md
+                - name: Элемент вторника (Дайсофвиктипе)
+                  href: taskschedulerschema-tuesday-daysofweektype-element.md
+                - name: 'URI (Регистратионинфотипе), элемент'
+                  href: taskschedulerschema-uri-registrationinfotype-element.md
+                - name: 'UserId (Логонтригжертипе), элемент'
+                  href: taskschedulerschema-userid-logontriggertype-element.md
+                - name: 'UserId (ПринЦипалтипе), элемент'
+                  href: taskschedulerschema-userid-principaltype-element.md
+                - name: 'UserId (Сессионстатечанжетригжертипе), элемент'
+                  href: taskschedulerschema-userid-sessionstatechangetriggertype-element.md
+                - name: 'Усеунифиедсчедулинженгине (Сеттингстипе), элемент'
+                  href: taskschedulerschema-useunifiedschedulingengine-settingstype-element.md
+                - name: 'Валуекуериес (Евенттригжертипе), элемент'
+                  href: taskschedulerschema-valuequeries-eventtriggertype-element.md
+                - name: Элемент value (Хеадерфиелдтипе)
+                  href: taskschedulerschema-value-headerfieldtype-element.md
+                - name: Элемент value (Намедвалуес)
+                  href: taskschedulerschema-value-namedvalues-element.md
+                - name: 'Version (Регистратионинфотипе), элемент'
+                  href: taskschedulerschema-version-registrationinfotype-element.md
+                - name: Элемент volatile
+                  href: taskschedulerschema-volatile-element.md
+                - name: 'Ваиттимеаут (Идлесеттингстипе), элемент'
+                  href: taskschedulerschema-waittimeout-idlesettingstype-element.md
+                - name: 'Вакеторун (Сеттингстипе), элемент'
+                  href: taskschedulerschema-waketorun-settingstype-element.md
+                - name: 'Среда (Дайсофвиктипе), элемент'
+                  href: taskschedulerschema-wednesday-daysofweektype-element.md
+                - name: 'Week (Викстипе), элемент'
+                  href: taskschedulerschema-week-weekstype-element.md
+                - name: 'Виксинтервал (Виклисчедулетипе), элемент'
+                  href: taskschedulerschema-weeksinterval-weeklyscheduletype-element.md
+                - name: 'Weeks (Монслидайофвиксчедулетипе), элемент'
+                  href: taskschedulerschema-weeks-monthlydayofweekscheduletype-element.md
+                - name: 'WorkingDirectory (Ексектипе), элемент'
+                  href: taskschedulerschema-workingdirectory-exectype-element.md
+            - name: Простые типы схемы планировщик задач
+              href: task-scheduler-schema-simple-types.md
+              items:
+                - name: Простой тип Дайофмонстипе
+                  href: taskschedulerschema-dayofmonthtype-simpletype.md
+                - name: Простой тип Гуидтипе
+                  href: taskschedulerschema-guidtype-simpletype.md
+                - name: Простой тип logonType
+                  href: taskschedulerschema-logontype-simpletype.md
+                - name: Простой тип Мултиплеинстанцесполицитипе
+                  href: taskschedulerschema-multipleinstancespolicytype-simpletype.md
+                - name: Простой тип Нонемптистринг
+                  href: taskschedulerschema-nonemptystring-simpletype.md
+                - name: Простой тип Пастипе
+                  href: taskschedulerschema-pathtype-simpletype.md
+                - name: Простой тип Приорититипе
+                  href: taskschedulerschema-prioritytype-simpletype.md
+                - name: Простой тип Привилежетипе
+                  href: taskschedulerschema-privilegetype-simpletype.md
+                - name: Простой тип Процесстокенсидтипе
+                  href: taskschedulerschema-processtokensidtype-simpletype.md
+                - name: Простой тип Рунлевелтипе
+                  href: taskschedulerschema-runleveltype-simpletype.md
+                - name: Простой тип Сессионстатечанжетипе
+                  href: taskschedulerschema-sessionstatechangetype-simpletype.md
+                - name: Простой тип Версионтипе
+                  href: taskschedulerschema-versiontype-simpletype.md
+                - name: Простой тип Виктипе
+                  href: taskschedulerschema-weektype-simpletype.md
+            - name: планировщик задач сложные типы схемы
+              href: task-scheduler-schema-complex-types.md
+              items:
+                - name: Сложный тип Актионбасетипе
+                  href: taskschedulerschema-actionbasetype-complextype.md
+                - name: Сложный тип Актионстипе
+                  href: taskschedulerschema-actionstype-complextype.md
+                - name: Сложный тип attachmentType
+                  href: taskschedulerschema-attachmentstype-complextype.md
+                - name: Сложный тип Буттригжертипе
+                  href: taskschedulerschema-boottriggertype-complextype.md
+                - name: Сложный тип Календартригжертипе
+                  href: taskschedulerschema-calendartriggertype-complextype.md
+                - name: Сложный тип Комхандлертипе
+                  href: taskschedulerschema-comhandlertype-complextype.md
+                - name: Сложный тип Даилисчедулетипе
+                  href: taskschedulerschema-dailyscheduletype-complextype.md
+                - name: Сложный тип dataType
+                  href: taskschedulerschema-datatype-complextype.md
+                - name: Сложный тип Дайсофмонстипе
+                  href: taskschedulerschema-daysofmonthtype-complextype.md
+                - name: Сложный тип Дайсофвиктипе
+                  href: taskschedulerschema-daysofweektype-complextype.md
+                - name: Сложный тип Евенттригжертипе
+                  href: taskschedulerschema-eventtriggertype-complextype.md
+                - name: Сложный тип Ексектипе
+                  href: taskschedulerschema-exectype-complextype.md
+                - name: Сложный тип Хеадерфиелдстипе
+                  href: taskschedulerschema-headerfieldstype-complextype.md
+                - name: Сложный тип Хеадерфиелдтипе
+                  href: taskschedulerschema-headerfieldtype-complextype.md
+                - name: Сложный тип Идлесеттингстипе
+                  href: taskschedulerschema-idlesettingstype-complextype.md
+                - name: Сложный тип Идлетригжертипе
+                  href: taskschedulerschema-idletriggertype-complextype.md
+                - name: Сложный тип Логонтригжертипе
+                  href: taskschedulerschema-logontriggertype-complextype.md
+                - name: Сложный тип Маинтенанцесеттингстипе
+                  href: taskschedulerschema-maintenancesettingstype-complextype.md
+                - name: Сложный тип Монслидайофвиксчедулетипе
+                  href: taskschedulerschema-monthlydayofweekscheduletype-complextype.md
+                - name: Сложный тип Монслисчедулетипе
+                  href: taskschedulerschema-monthlyscheduletype-complextype.md
+                - name: Сложный тип Монсстипе
+                  href: taskschedulerschema-monthstype-complextype.md
+                - name: Сложный тип Намедвалуес
+                  href: taskschedulerschema-namedvalues-complextype.md
+                - name: Сложный тип Намедвалуе
+                  href: schema-namedvalue-complextype.md
+                - name: Сложный тип Нетворксеттингстипе
+                  href: taskschedulerschema-networksettingstype-complextype.md
+                - name: Сложный тип ПринЦипалстипе
+                  href: taskschedulerschema-principalstype-complextype.md
+                - name: Сложный тип ПринЦипалтипе
+                  href: taskschedulerschema-principaltype-complextype.md
+                - name: Сложный тип Регистратионинфотипе
+                  href: taskschedulerschema-registrationinfotype-complextype.md
+                - name: Сложный тип Регистратионтригжертипе
+                  href: taskschedulerschema-registrationtriggertype-complextype.md
+                - name: Сложный тип Репетитионтипе
+                  href: taskschedulerschema-repetitiontype-complextype.md
+                - name: Сложный тип Рекуиредпривилежестипе
+                  href: taskschedulerschema-requiredprivilegestype-complextype.md
+                - name: Сложный тип Рестарттипе
+                  href: taskschedulerschema-restarttype-complextype.md
+                - name: Сложный тип Сендмаилтипе
+                  href: taskschedulerschema-sendemailtype-complextype.md
+                - name: Сложный тип Сессионстатечанжетригжертипе
+                  href: taskschedulerschema-sessionstatechangetriggertype-complextype.md
+                - name: Сложный тип Сеттингстипе
+                  href: taskschedulerschema-settingstype-complextype.md
+                - name: Сложный тип Шовмессажетипе
+                  href: taskschedulerschema-showmessagetype-complextype.md
+                - name: Сложный тип taskType
+                  href: taskschedulerschema-tasktype-complextype.md
+                - name: Сложный тип Тиметригжертипе
+                  href: taskschedulerschema-timetriggertype-complextype.md
+                - name: Сложный тип Тригжербасетипе
+                  href: taskschedulerschema-triggerbasetype-complextype.md
+                - name: Сложный тип Тригжерстипе
+                  href: taskschedulerschema-triggerstype-complextype.md
+                - name: Сложный тип Виклисчедулетипе
+                  href: taskschedulerschema-weeklyscheduletype-complextype.md
+                - name: Сложный тип Викстипе
+                  href: taskschedulerschema-weekstype-complextype.md
+            - name: планировщик задач группы схем
+              href: task-scheduler-schema-groups.md
+              items:
+                - name: Группа actionGroup
+                  href: taskschedulerschema-actiongroup-group.md
+                - name: Группа Тригжерграуп
+                  href: taskschedulerschema-triggergroup-group.md
+        - name: планировщик задач константы ошибок и успешности
+          href: task-scheduler-error-and-success-constants.md
+        - name: Schtasks.exe
+          href: schtasks.md
+    - name: Глоссарий планировщик задач
+      href: task-scheduler-glossary.md
+      items:
+        - name: E
+          href: e.md
+        - name: I
+          href: i.md
+        - name: С
+          href: p.md
+        - name: S
+          href: s.md
+        - name: T
+          href: t.md
+        - name: W
+          href: w.md
