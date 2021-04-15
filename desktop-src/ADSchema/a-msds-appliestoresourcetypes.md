@@ -1,0 +1,75 @@
+---
+title: Атрибут ms-DS-Примна-to-Resource-Types
+description: Для свойства ресурса этот атрибут указывает, к каким типам ресурсов применяется это свойство ресурса.
+ms.assetid: 51b6b8ed-63d8-46dc-ac73-79b4c0c801cf
+ms.tgt_platform: multiple
+keywords:
+- Схема AD атрибута Active-DS-"применяется к ресурсу-тип"
+- Схема AD атрибута msDS-Апплиесторесаурцетипес
+topic_type:
+- apiref
+api_name:
+- ms-DS-Applies-To-Resource-Types
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 1df924371276e13dc9d8cdb96fc685ce8ee6aae2
+ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "105655214"
+---
+# <a name="ms-ds-applies-to-resource-types-attribute"></a>Атрибут ms-DS-Примна-to-Resource-Types
+
+Для свойства ресурса этот атрибут указывает, к каким типам ресурсов применяется это свойство ресурса.
+
+
+
+| Ввод | Значение |
+|-------------------|---------------------------------------------|
+| CN                | MS-DS-применяется к типам ресурсов             |
+| LDAP-отображаемое имя | msDS-Апплиесторесаурцетипес                 |
+| Размер              | \-                                          |
+| Привилегия обновления  | \-                                          |
+| Частота обновления  | \-                                          |
+| Attribute-Id      | 1.2.840.113556.1.4.2195                     |
+| System-ID — GUID    | 693f2006-5764-3d4a-8439-58f04aab4b59        |
+| Синтаксис            | [**String(Юникод)**](s-string-unicode.md) |
+
+
+
+## <a name="implementations"></a>Варианты реализации решения
+
+-   [**Windows Server 2012**](#windows-server-2012)
+
+## <a name="windows-server-2012"></a>Windows Server 2012
+
+
+
+| Ввод | Значение |
+|------------------------|-----------------------------------------------------------------------|
+| Идентификатор ссылки                | \-                                                                    |
+| MAPI-Id                | \-                                                                    |
+| System-Only            | Неверно                                                                 |
+| Является однозначным       | Неверно                                                                 |
+| Индексируется             | Неверно                                                                 |
+| В глобальном каталоге      | Неверно                                                                 |
+| NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |
+| Range-Lower            | \-                                                                    |
+| Range-Upper            | \-                                                                    |
+| Search-Flags           | 0x00000000                                                            |
+| System-Flags           | 0x00000010                                                            |
+| Классы, используемые в        | [**MS-DS-Resource-свойство**](c-msds-resourceproperty.md)<br/> |
+
+
+
+ 
+
+ 
+
+
+
+
+

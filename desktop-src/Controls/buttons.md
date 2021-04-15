@@ -1,0 +1,250 @@
+---
+title: Кнопка (элементы управления Windows)
+description: В этом разделе содержатся сведения об элементах программирования, используемых с элементами управления "Кнопка". Кнопка — это элемент управления, который пользователь может щелкнуть, чтобы предоставить входные данные приложению.
+ms.assetid: vs|controls|~\controls\buttons\buttons.htm
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: babe31ec9f11ee445167e57394da0fa88fd781dd
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "104488721"
+---
+# <a name="button-windows-controls"></a>Кнопка (элементы управления Windows)
+
+В этом разделе содержатся сведения об элементах программирования, используемых с элементами управления "Кнопка". *Кнопка* — это элемент управления, который пользователь может щелкнуть, чтобы предоставить входные данные приложению.
+
+### <a name="overviews"></a>Разделы общих сведений
+
+
+
+| Раздел                                       | Содержимое                                                                                                           |
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| [Сообщения кнопки](button-messages.md)      | В этом разделе обсуждаются сообщения, используемые с кнопками.<br/>                                               |
+| [Состояния кнопок](button-states.md)          | В этом разделе описывается, как при выборе кнопки изменяется состояние и как приложение должно отвечать.<br/> |
+| [Типы кнопок](button-types-and-styles.md) | В этом разделе обсуждаются различные виды кнопок.<br/>                                                    |
+| [Использование кнопок](using-buttons.md)          | В этом разделе объясняется, как выполнять определенные задачи, связанные с кнопками.<br/>                            |
+
+
+
+ 
+
+### <a name="functions"></a>Функции
+
+
+
+| Раздел                                            | Содержимое                                                                                                                                                                                                  |
+|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**чеккдлгбуттон**](/windows/desktop/api/Winuser/nf-winuser-checkdlgbutton)         | Изменяет состояние проверки элемента управления "Кнопка".<br/>                                                                                                                                                   |
+| [**чеккрадиобуттон**](/windows/desktop/api/Winuser/nf-winuser-checkradiobutton)     | Добавляет флажок в (проверяет) указанный переключатель в группе и снимает флажок с (очистка) всех остальных переключателей в группе. <br/>                                                |
+| [**исдлгбуттончеккед**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) | Функция [**исдлгбуттончеккед**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) определяет, установлен ли элемент управления "Кнопка" или элемент управления "Кнопка" с тремя состояниями: установлен, неустановленный или неопределенный. <br/> |
+
+
+
+ 
+
+### <a name="macros"></a>Макросы
+
+
+
+| Раздел                                                                         | Содержимое                                                                                                                                                                                                                                          |
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**Кнопка " \_ включить"**](/windows/desktop/api/Windowsx/nf-windowsx-button_enable)                                       | Включает или отключает кнопку.<br/>                                                                                                                                                                                                          |
+| [**Кнопка " \_ проверить"**](/windows/desktop/api/Windowsx/nf-windowsx-button_getcheck)                                   | Возвращает состояние флажка для переключателя или флажка. Вы можете использовать этот макрос или явно отправить сообщение [**BM \_ Check**](bm-getcheck.md) . <br/>                                                                                       |
+| [**Кнопка " \_ жетидеалсизе"**](/windows/desktop/api/Commctrl/nf-commctrl-button_getidealsize)                           | Возвращает размер кнопки, которая лучше соответствует тексту и изображению, если имеется список изображений. Вы можете использовать этот макрос или явно отправить [**сообщение \_ жетидеалсизе BCM**](bcm-getidealsize.md) . <br/>                                      |
+| [**Кнопка/список \_ ImageList**](/windows/desktop/api/Commctrl/nf-commctrl-button_getimagelist)                           | Возвращает структуру [**\_ IMAGELIST**](/windows/desktop/api/Commctrl/ns-commctrl-button_imagelist) , описывающую список изображений, заданный для элемента управления "Кнопка". Вы можете использовать этот макрос или явно отправить сообщение [**BCM \_ ImageList**](bcm-getimagelist.md) . <br/> |
+| [**Кнопка " \_ заметка"**](/windows/desktop/api/Commctrl/nf-commctrl-button_getnote)                                     | Возвращает текст заметки, связанной с кнопкой ссылки на команду. Вы можете использовать этот макрос или явно отправить сообщение в виде сообщения [**BCM \_**](bcm-getnote.md) .<br/>                                                                            |
+| [**Кнопка " \_ жетнотеленгс"**](/windows/desktop/api/Commctrl/nf-commctrl-button_getnotelength)                         | Возвращает длину текста примечания, который может отображаться в описании ссылки на команду. Используйте этот макрос или явно отправьте [**сообщение \_ жетнотеленгс BCM**](bcm-getnotelength.md) .<br/>                                           |
+| [**Кнопка " \_ жетсплитинфо"**](/windows/desktop/api/Commctrl/nf-commctrl-button_getsplitinfo)                           | Получает сведения для указанного элемента управления "кнопка разворачивающейся кнопки". Используйте этот макрос или явно отправьте [**сообщение \_ жетсплитинфо BCM**](bcm-getsplitinfo.md) .<br/>                                                                                    |
+| [**Кнопка " \_ состояние"**](/windows/desktop/api/Windowsx/nf-windowsx-button_getstate)                                   | Возвращает состояние флажка для переключателя или флажка. Вы можете использовать этот макрос или явно отправить сообщение [**BMного \_ состояния**](bm-getstate.md) . <br/>                                                                                       |
+| [**Кнопка " \_ gettext"**](/windows/desktop/api/Windowsx/nf-windowsx-button_gettext)                                     | Возвращает текст кнопки.<br/>                                                                                                                                                                                                             |
+| [**Кнопка " \_ жеттекстленгс"**](/windows/desktop/api/Windowsx/nf-windowsx-button_gettextlength)                         | Возвращает количество символов в тексте кнопки.<br/>                                                                                                                                                                                 |
+| [**Кнопка " \_ жеттекстмаргин"**](/windows/desktop/api/Commctrl/nf-commctrl-button_gettextmargin)                         | Возвращает поля, используемые для рисования текста в элементе управления "Кнопка". Вы можете использовать этот макрос или явно отправить [**сообщение \_ жеттекстмаргин BCM**](bcm-gettextmargin.md) . <br/>                                                                        |
+| [**Кнопка " \_ сетчекк"**](/windows/desktop/api/Windowsx/nf-windowsx-button_setcheck)                                   | Задает состояние флажка для переключателя или флажка. Вы можете использовать этот макрос или явно отправить сообщение [**BM \_ сетчекк**](bm-setcheck.md) . <br/>                                                                                       |
+| [**Кнопка " \_ сетдропдовнстате"**](/windows/desktop/api/Commctrl/nf-commctrl-button_setdropdownstate)                   | Задает раскрывающееся состояние для указанной кнопки с стилем [**\_ SPLITBUTTON**](button-styles.md). Используйте этот макрос или явно отправьте [**сообщение \_ сетдропдовнстате BCM**](bcm-setdropdownstate.md) . <br/>           |
+| [**Кнопка " \_ сетелеватионрекуиредстате"**](/windows/desktop/api/Commctrl/nf-commctrl-button_setelevationrequiredstate) | Задает состояние, необходимое для повышения прав доступа к указанной кнопке или ссылке на команду для отображения значка с повышенными привилегиями. Используйте этот макрос или явно отправьте [**сообщение \_ сетшиелд BCM**](bcm-setshield.md) . <br/>                                          |
+| [**Кнопка " \_ сетимажелист"**](/windows/desktop/api/Commctrl/nf-commctrl-button_setimagelist)                           | Присваивает список изображений элементу управления "Кнопка". Вы можете использовать этот макрос или явно отправить [**сообщение \_ сетимажелист BCM**](bcm-setimagelist.md) . <br/>                                                                                       |
+| [**Кнопка " \_ сетноте"**](/windows/desktop/api/Commctrl/nf-commctrl-button_setnote)                                     | Задает текст примечания, связанного с указанной кнопкой ссылки на команду. Вы можете использовать этот макрос или явно отправить [**сообщение \_ сетноте BCM**](bcm-setnote.md) .<br/>                                                                  |
+| [**Кнопка " \_ сетсплитинфо"**](/windows/desktop/api/Commctrl/nf-commctrl-button_setsplitinfo)                           | Задает сведения для указанного элемента управления "кнопка разворачивающейся кнопки". Используйте этот макрос или явно отправьте [**сообщение \_ сетсплитинфо BCM**](bcm-setsplitinfo.md) .<br/>                                                                                    |
+| [**Кнопка " \_ SetState"**](/windows/desktop/api/Windowsx/nf-windowsx-button_setstate)                                   | Задает состояние выделения для кнопки. Состояние выделения указывает, будет ли кнопка выделена, как будто пользователь отправил ее. Вы можете использовать этот макрос или явно отправить сообщение [**BM \_ SETSTATE**](bm-setstate.md) . <br/>        |
+| [**Кнопка " \_ SetStyle"**](/windows/desktop/api/Windowsx/nf-windowsx-button_setstyle)                                   | Задает стиль кнопки. Вы можете использовать этот макрос или явно отправить сообщение [**BM \_ SETSTYLE**](bm-setstyle.md) . <br/>                                                                                                                |
+| [**Кнопка " \_ SetText"**](/windows/desktop/api/Windowsx/nf-windowsx-button_settext)                                     | Задает текст кнопки.<br/>                                                                                                                                                                                                             |
+| [**Кнопка " \_ сеттекстмаргин"**](/windows/desktop/api/Commctrl/nf-commctrl-button_settextmargin)                         | Задает поля для рисования текста в элементе управления "Кнопка". Вы можете использовать этот макрос или явно отправить [**сообщение \_ сеттекстмаргин BCM**](bcm-settextmargin.md) . <br/>                                                                         |
+
+
+
+ 
+
+### <a name="messages"></a>Сообщения
+
+
+
+| Раздел                                                 | Содержимое                                                                                                                                                                                                                                                                                            |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**Диспетчер BCM \_ жетидеалсизе**](bcm-getidealsize.md)         | Возвращает размер кнопки, которая лучше подходит для текста и изображения, если имеется список изображений. Это сообщение можно отправить явным образом или воспользоваться макросом [**кнопки \_ жетидеалсизе**](/windows/desktop/api/Commctrl/nf-commctrl-button_getidealsize) .<br/>                                                                                   |
+| [**BCM/ \_ ImageList**](bcm-getimagelist.md)         | Возвращает структуру [**\_ IMAGELIST**](/windows/desktop/api/Commctrl/ns-commctrl-button_imagelist) , описывающую список изображений, назначенных элементу управления "Кнопка". Это сообщение можно отправить явным образом или воспользоваться макросом [**"Кнопка" \_**](/windows/desktop/api/Commctrl/nf-commctrl-button_getimagelist) .<br/>                                                  |
+| [**BCM, \_ ЗАметка**](bcm-getnote.md)                   | Возвращает текст заметки, связанной с кнопкой ссылки на команду. Это сообщение можно отправить явным образом или воспользоваться макросом [**"Кнопка" \_**](/windows/desktop/api/Commctrl/nf-commctrl-button_getnote) .<br/>                                                                                                                        |
+| [**Диспетчер BCM \_ жетнотеленгс**](bcm-getnotelength.md)       | Возвращает длину текста примечания, который может отображаться в описании кнопки ссылки на команду. Отправляйте это сообщение явным образом или с помощью макроса [**кнопки \_ жетнотеленгс**](/windows/desktop/api/Commctrl/nf-commctrl-button_getnotelength) .<br/>                                                                           |
+| [**Диспетчер BCM \_ жетсплитинфо**](bcm-getsplitinfo.md)         | Возвращает сведения для элемента управления "кнопка разворачивающейся кнопки". Отправляйте это сообщение явным образом или с помощью макроса [**кнопки \_ жетсплитинфо**](/windows/desktop/api/Commctrl/nf-commctrl-button_getsplitinfo) . <br/>                                                                                                                                    |
+| [**Диспетчер BCM \_ жеттекстмаргин**](bcm-gettextmargin.md)       | Возвращает поля, используемые для рисования текста в элементе управления "Кнопка". Это сообщение можно отправить явным образом или воспользоваться макросом [**кнопки \_ жеттекстмаргин**](/windows/desktop/api/Commctrl/nf-commctrl-button_gettextmargin) .<br/>                                                                                                                     |
+| [**Диспетчер BCM \_ сетдропдовнстате**](bcm-setdropdownstate.md) | Задает раскрывающееся состояние для кнопки с [**\_ раскрывающимся списком Style тбстиле**](toolbar-control-and-button-styles.md). Отправляйте это сообщение явным образом или с помощью макроса [**кнопки \_ сетдропдовнстате**](/windows/desktop/api/Commctrl/nf-commctrl-button_setdropdownstate) .<br/>                                        |
+| [**Диспетчер BCM \_ сетимажелист**](bcm-setimagelist.md)         | Присваивает список изображений элементу управления "Кнопка". Это сообщение можно отправить явным образом или воспользоваться макросом [**кнопки \_ сетимажелист**](/windows/desktop/api/Commctrl/nf-commctrl-button_setimagelist) .<br/>                                                                                                                                    |
+| [**Диспетчер BCM \_ сетноте**](bcm-setnote.md)                   | Задает текст примечания, связанного с кнопкой ссылки на команду. Это сообщение можно отправить явным образом или воспользоваться макросом [**кнопки \_ сетноте**](/windows/desktop/api/Commctrl/nf-commctrl-button_setnote) .<br/>                                                                                                                        |
+| [**Диспетчер BCM \_ сетшиелд**](bcm-setshield.md)               | Задает состояние, необходимое для повышения прав доступа к указанной кнопке или ссылке на команду для отображения значка с повышенными привилегиями. Отправляйте это сообщение явным образом или с помощью макроса [**кнопки \_ сетелеватионрекуиредстате**](/windows/desktop/api/Commctrl/nf-commctrl-button_setelevationrequiredstate) .<br/>                                                  |
+| [**Диспетчер BCM \_ сетсплитинфо**](bcm-setsplitinfo.md)         | Задает сведения для элемента управления "разворачивающаяся кнопка". Отправляйте это сообщение явным образом или с помощью макроса [**кнопки \_ сетсплитинфо**](/windows/desktop/api/Commctrl/nf-commctrl-button_setsplitinfo) .<br/>                                                                                                                                     |
+| [**Диспетчер BCM \_ сеттекстмаргин**](bcm-settextmargin.md)       | Сообщение [**\_ сеттекстмаргин BCM**](bcm-settextmargin.md) задает поля для рисования текста в элементе управления "Кнопка". <br/>                                                                                                                                                                      |
+| [**BM \_ щелкните**](bm-click.md)                         | Имитирует нажатие пользователем кнопки. Это сообщение приводит к тому, что кнопка получает сообщения [**WM \_ Лбуттондовн**](/windows/desktop/inputdev/wm-lbuttondown) и [**WM \_ лбуттонуп**](/windows/desktop/inputdev/wm-lbuttonup) , а родительское окно кнопки — для получения [млрд доллного \_](bn-clicked.md) кода уведомления.<br/> |
+| [**BM \_**](bm-getcheck.md)                   | Возвращает состояние флажка для переключателя или флажка. Это сообщение можно отправить явным образом или с помощью макроса с [**кнопкой "выполнить \_ проверку"**](/windows/desktop/api/Windowsx/nf-windowsx-button_getcheck) .<br/>                                                                                                                                  |
+| [**BM, \_ образ**](bm-getimage.md)                   | Извлекает маркер изображения (значок или растровое изображение), связанного с кнопкой.<br/>                                                                                                                                                                                                             |
+| [**BM \_**](bm-getstate.md)                   | Получает состояние кнопки или флажка. Это сообщение можно отправить явным образом или воспользоваться макросом [**"Кнопка" \_**](/windows/desktop/api/Windowsx/nf-windowsx-button_getstate) .<br/>                                                                                                                                         |
+| [**BM \_ сетчекк**](bm-setcheck.md)                   | Задает состояние флажка для переключателя или флажка. Это сообщение можно отправить явно или с помощью макроса [**кнопки \_ сетчекк**](/windows/desktop/api/Windowsx/nf-windowsx-button_setcheck) .<br/>                                                                                                                             |
+| [**BM \_ сетдонткликк**](bm-setdontclick.md)           | Устанавливает флаг на переключателе, который управляет созданием [млрд доллных сообщений \_ ](bn-clicked.md) , когда кнопка получает фокус.<br/>                                                                                                                                                     |
+| [**BM \_ сетимаже**](bm-setimage.md)                   | Связывает новый образ (значок или растровое изображение) с кнопкой.<br/>                                                                                                                                                                                                                                 |
+| [**BM \_ SETSTATE**](bm-setstate.md)                   | Задает состояние выделения для кнопки. Состояние выделения указывает, будет ли кнопка выделена, как будто пользователь отправил ее. Это сообщение можно отправить явным образом или воспользоваться макросом [**кнопки \_ SetState**](/windows/desktop/api/Windowsx/nf-windowsx-button_setstate) .<br/>                                                   |
+| [**BM \_ SETSTYLE**](bm-setstyle.md)                   | Задает стиль кнопки. Это сообщение можно отправить явным образом или воспользоваться макросом [**кнопки \_ SetStyle**](/windows/desktop/api/Windowsx/nf-windowsx-button_setstyle) .<br/>                                                                                                                                                           |
+
+
+
+ 
+
+### <a name="notifications"></a>Уведомления
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Раздел</th>
+<th>Содержимое</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="bcn-dropdown.md">BCN_DROPDOWN</a></td>
+<td>Посылается, когда пользователь щелкает стрелку раскрывающегося списка на кнопке. Родительское окно элемента управления получает этот код уведомления в виде <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> сообщения.<br/></td>
+</tr>
+<tr class="even">
+<td><a href="bcn-hotitemchange.md">BCN_HOTITEMCHANGE</a></td>
+<td>Уведомляет владельца элемента управления "Кнопка", что указатель мыши вводит или выходит за пределы клиентской области элемента управления "Кнопка". Элемент управления "Кнопка" отправляет этот код уведомления в виде <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> сообщения.<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-clicked.md">BN_CLICKED</a></td>
+<td>Посылается, когда пользователь нажимает кнопку. <br/> Родительское окно кнопки получает <a href="bn-clicked.md">BN_CLICKED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
+</tr>
+<tr class="even">
+<td><a href="bn-dblclk.md">BN_DBLCLK</a></td>
+<td>Посылается, когда пользователь дважды нажимает кнопку. Этот код уведомления отправляется автоматически для кнопок <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>и <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> . Другие типы кнопок отправляют <a href="bn-dblclk.md">BN_DBLCLK</a> только в том случае, если они имеют стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> .<br/> Родительское окно кнопки получает <a href="bn-dblclk.md">BN_DBLCLK</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-disable.md">BN_DISABLE</a></td>
+<td>Посылается, когда кнопка отключена.
+<blockquote>
+[!Note]<br />
+Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
+</blockquote>
+<br/> <br/> Родительское окно кнопки получает <a href="bn-disable.md">BN_DISABLE</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="even">
+<td><a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a></td>
+<td>Посылается, когда пользователь дважды нажимает кнопку. Этот код уведомления отправляется автоматически для кнопок <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>и <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> . Другие типы кнопок отправляют <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> только в том случае, если они имеют стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> .<br/> Родительское окно кнопки получает <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-hilite.md">BN_HILITE</a></td>
+<td>Посылается, когда пользователь нажимает кнопку.
+<blockquote>
+[!Note]<br />
+Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
+</blockquote>
+<br/> <br/> Родительское окно кнопки получает <a href="bn-hilite.md">BN_HILITE</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="even">
+<td><a href="bn-killfocus.md">BN_KILLFOCUS</a></td>
+<td>Посылается, когда кнопка теряет фокус клавиатуры. Для отправки этого кода уведомления кнопка должна иметь стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> . <br/> Родительское окно кнопки получает <a href="bn-killfocus.md">BN_KILLFOCUS</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-paint.md">BN_PAINT</a></td>
+<td>Посылается, когда кнопка должна быть окрашена.
+<blockquote>
+[!Note]<br />
+Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
+</blockquote>
+<br/> <br/> Родительское окно кнопки получает <a href="bn-paint.md">BN_PAINT</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
+</tr>
+<tr class="even">
+<td><a href="bn-pushed.md">BN_PUSHED</a></td>
+<td>Посылается, когда для кнопки задано состояние pushd.
+<blockquote>
+[!Note]<br />
+Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
+</blockquote>
+<br/> <br/> Родительское окно кнопки получает <a href="bn-pushed.md">BN_PUSHED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-setfocus.md">BN_SETFOCUS</a></td>
+<td>Посылается, когда кнопка получает фокус клавиатуры. Для отправки этого кода уведомления кнопка должна иметь стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> . <br/> Родительское окно кнопки получает <a href="bn-setfocus.md">BN_SETFOCUS</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="even">
+<td><a href="bn-unhilite.md">BN_UNHILITE</a></td>
+<td>Посылается, когда выделение должно быть удалено из кнопки.
+<blockquote>
+[!Note]<br />
+Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
+</blockquote>
+<br/> <br/> Родительское окно кнопки получает <a href="bn-unhilite.md">BN_UNHILITE</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-unpushed.md">BN_UNPUSHED</a></td>
+<td>Посылается, когда для кнопки задано значение unpushd.
+<blockquote>
+[!Note]<br />
+Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
+</blockquote>
+<br/> <br/> Родительское окно кнопки получает <a href="bn-unpushed.md">BN_UNPUSHED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="even">
+<td><a href="nm-customdraw-button.md">NM_CUSTOMDRAW (кнопка)</a></td>
+<td>Сообщает родительскому окну элемента управления "Кнопка" о пользовательских операциях рисования на кнопке. <br/> Элемент управления "Кнопка" отправляет этот код уведомления в виде <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> сообщения.<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a></td>
+<td>Сообщение <a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a> отправляется в родительское окно кнопки перед рисованием кнопки. Родительское окно может изменять цвета текста и фона кнопки. Однако только рисуемые владельцем кнопки реагируют на родительское окно, обрабатывающее это сообщение. <br/></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+### <a name="structures"></a>Структуры
+
+
+
+| Раздел                                         | Содержимое                                                                                                                                                                                                                                                                                                                |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**Кнопка \_ IMAGELIST**](/windows/desktop/api/Commctrl/ns-commctrl-button_imagelist) | Содержит сведения о списке изображений, который используется с элементом управления "Кнопка".<br/>                                                                                                                                                                                                                                 |
+| [**Кнопка " \_ сплитинфо"**](/windows/win32/api/commctrl/ns-commctrl-button_splitinfo) | Содержит сведения, определяющие разворачивающуюся [**кнопку \_ (и**](button-styles.md) стили [**\_ дефсплитбуттона**](button-styles.md) BS). Используется с сообщениями [**BCM \_ Жетсплитинфо**](bcm-getsplitinfo.md) и [**BCM \_ сетсплитинфо**](bcm-setsplitinfo.md) .<br/> |
+| [**нмбкдропдовн**](/windows/win32/api/commctrl/ns-commctrl-nmbcdropdown)          | Содержит сведения об уведомлении в [ \_ раскрывающемся списке BCN](bcn-dropdown.md) .<br/>                                                                                                                                                                                                                                 |
+| [**нмбчотитем**](/windows/win32/api/commctrl/ns-commctrl-nmbchotitem)            | Содержит сведения о перемещении указателя мыши на элемент управления Button.<br/>                                                                                                                                                                                                                                  |
+
+
+
+ 
+
+### <a name="constants"></a>Константы
+
+
+
+| Раздел                              | Содержимое                                                                                                                                                                                                                                                            |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Стили кнопок](button-styles.md) | Задает сочетание стилей кнопок. При создании кнопки с помощью класса BUTTON с функцией [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) или [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) можно указать любой из перечисленных ниже стилей кнопок.<br/> |
+
+
+
+ 
+
