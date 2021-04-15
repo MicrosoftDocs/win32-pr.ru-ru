@@ -1,0 +1,97 @@
+- name: Ведение журнала событий
+  href: event-logging.md
+  items:
+    - name: Сведения о ведении журнала событий
+      href: about-event-logging.md
+      items:
+        - name: Типы событий
+          href: event-types.md
+        - name: Рекомендации по ведению журнала
+          href: logging-guidelines.md
+        - name: Элементы ведения журнала событий
+          href: event-logging-elements.md
+          items:
+            - name: Ключ EventLog
+              href: eventlog-key.md
+            - name: Источники событий
+              href: event-sources.md
+            - name: Категории событий
+              href: event-categories.md
+            - name: Идентификаторы событий
+              href: event-identifiers.md
+            - name: Файлы сообщений
+              href: message-files.md
+              items:
+                - name: Текстовые файлы сообщений
+                  href: message-text-files.md
+                - name: Образец текстового файла сообщения
+                  href: sample-message-text-file.md
+            - name: Записи журнала событий
+              href: event-log-records.md
+            - name: Данные о событиях
+              href: event-data.md
+        - name: Операции ведения журнала событий
+          href: event-logging-operations.md
+        - name: Модель ведения журнала событий
+          href: event-logging-model.md
+          items:
+            - name: Формат файла журнала событий
+              href: event-log-file-format.md
+            - name: Чтение из журнала событий
+              href: reading-from-the-event-log.md
+            - name: Просмотр журнала событий
+              href: viewing-the-event-log.md
+        - name: Безопасность ведения журнала событий
+          href: event-logging-security.md
+    - name: Использование ведения журнала событий
+      href: using-event-logging.md
+      items:
+        - name: Запрос сведений о событии
+          href: querying-for-event-source-messages.md
+        - name: Уведомление о событиях
+          href: reporting-an-event.md
+        - name: Получение уведомления о событии
+          href: receiving-event-notification.md
+    - name: Справочник по ведению журнала событий
+      href: event-logging-reference.md
+      items:
+        - name: Функции ведения журнала событий
+          href: event-logging-functions.md
+          items:
+            - name: баккупевентлог
+              href: /windows/desktop/api/Winbase/nf-winbase-backupeventloga
+            - name: клеаревентлог
+              href: /windows/desktop/api/Winbase/nf-winbase-cleareventloga
+            - name: клосивентлог
+              href: /windows/desktop/api/Winbase/nf-winbase-closeeventlog
+            - name: дерегистеревентсаурце
+              href: /windows/desktop/api/Winbase/nf-winbase-deregistereventsource
+            - name: жетевентлогинформатион
+              href: /windows/desktop/api/Winbase/nf-winbase-geteventloginformation
+            - name: жетнумберофевентлогрекордс
+              href: /windows/desktop/api/Winbase/nf-winbase-getnumberofeventlogrecords
+            - name: жетолдестевентлогрекорд
+              href: /windows/desktop/api/Winbase/nf-winbase-getoldesteventlogrecord
+            - name: нотифичанжеевентлог
+              href: /windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog
+            - name: опенбаккупевентлог
+              href: /windows/desktop/api/Winbase/nf-winbase-openbackupeventloga
+            - name: опеневентлог
+              href: /windows/desktop/api/Winbase/nf-winbase-openeventloga
+            - name: реадевентлог
+              href: /windows/desktop/api/Winbase/nf-winbase-readeventloga
+            - name: регистеревентсаурце
+              href: /windows/desktop/api/Winbase/nf-winbase-registereventsourcea
+            - name: репортевент
+              href: /windows/desktop/api/Winbase/nf-winbase-reporteventa
+        - name: Структуры ведения журнала событий
+          href: event-logging-structures.md
+          items:
+            - name: ELF_EOF_RECORD
+              href: /previous-versions/windows/desktop/legacy/bb309022(v=vs.85)
+            - name: ELF_LOGFILE_HEADER
+              href: /previous-versions/windows/desktop/legacy/bb309024(v=vs.85)
+            - name: EVENTLOG_FULL_INFORMATION
+              href: /windows/win32/api/Winbase/ns-winbase-eventlog_full_information
+            - name: EVENTLOGRECORD
+              href: /windows/win32/api/Winnt/ns-winnt-eventlogrecord

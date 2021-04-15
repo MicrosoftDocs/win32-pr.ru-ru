@@ -1,0 +1,627 @@
+- name: "Журнал событий\_Windows"
+  href: windows-event-log.md
+  items:
+    - name: What's New
+      href: what-s-new.md
+    - name: Использование журнала событий Windows
+      href: using-windows-event-log.md
+      items:
+        - name: Написание манифеста инструментирования
+          href: writing-an-instrumentation-manifest.md
+          items:
+            - name: Определение поставщика
+              href: identifying-the-provider.md
+            - name: Определение каналов
+              href: defining-channels.md
+            - name: Определение уровней серьезности
+              href: defining-severity-levels.md
+            - name: Определение задач и кодов операций
+              href: defining-tasks-and-opcodes.md
+            - name: 'Определение ключевых слов, используемых для классификации типов событий'
+              href: defining-keywords-used-to-classify-types-of-events.md
+            - name: Определение фильтров
+              href: defining-filters.md
+            - name: Определение сопоставлений имен и значений
+              href: defining-name-value-mappings.md
+            - name: Определение шаблонов данных событий
+              href: defining-event-data-templates.md
+            - name: Определение событий
+              href: defining-events.md
+            - name: Локализация строк сообщений
+              href: localizing-message-strings.md
+        - name: Компиляция манифеста инструментирования
+          href: compiling-an-instrumentation-manifest.md
+        - name: Разработка поставщика
+          href: developing-a-provider.md
+        - name: Использование событий
+          href: consuming-events.md
+          items:
+            - name: Запрос событий
+              href: querying-for-events.md
+            - name: Подписка на события
+              href: subscribing-to-events.md
+            - name: События отрисовки
+              href: rendering-events.md
+              items:
+                - name: Форматирование сообщений о событиях
+                  href: formatting-event-messages.md
+            - name: События закладок
+              href: bookmarking-events.md
+        - name: Получение и установка &apos; свойств конфигурации каналов s
+          href: getting-and-setting-a-channel-s-configuration-properties.md
+        - name: Получение метаданных поставщика &apos;
+          href: getting-a-provider-s-metadata-.md
+        - name: Доступ к удаленным компьютерам
+          href: accessing-remote-computers.md
+        - name: Сохранение событий в файл журнала
+          href: saving-events-to-a-log-file.md
+    - name: Справочник по журналам событий Windows
+      href: windows-event-log-reference.md
+      items:
+        - name: Схема Евентманифест
+          href: eventmanifestschema-schema.md
+          items:
+            - name: Элементы схемы Евентманифест
+              href: eventmanifestschema-elements.md
+              items:
+                - name: Элемент автоархивации (Чаннеллоггингтипе)
+                  href: eventmanifestschema-autobackup-channelloggingtype-element.md
+                - name: 'Binary (Темплатеитемтипе), элемент'
+                  href: eventmanifestschema-binary-templateitemtype-element.md
+                - name: Элемент bitMap (Маптипе)
+                  href: eventmanifestschema-bitmap-maptype-element.md
+                - name: 'bufferSize (Чаннелпублишингтипе), элемент'
+                  href: eventmanifestschema-buffersize-channelpublishingtype-element.md
+                - name: Элемент Channel (Чаннеллисттипе)
+                  href: eventmanifestschema-channel-channellisttype-element.md
+                - name: 'каналы (Метадататипе), элемент'
+                  href: eventmanifestschema-channels-metadatatype-element.md
+                - name: Элемент channels (ProviderType)
+                  href: eventmanifestschema-channels-providertype-element.md
+                - name: 'Клокктипе (Чаннелпублишингтипе), элемент'
+                  href: eventmanifestschema-clocktype-channelpublishingtype-element.md
+                - name: 'Контролгуид (Чаннелпублишингтипе), элемент'
+                  href: eventmanifestschema-controlguid-channelpublishingtype-element.md
+                - name: Элемент Data (Структдефинитионтипе)
+                  href: eventmanifestschema-data-structdefinitiontype-element.md
+                - name: Элемент Data (Темплатеитемтипе)
+                  href: eventmanifestschema-data-templateitemtype-element.md
+                - name: 'Description (InputType), элемент'
+                  href: eventmanifestschema-description-inputtype-element.md
+                - name: Элемент Event (Дефинитионтипе)
+                  href: eventmanifestschema-event-definitiontype-element.md
+                - name: Элемент Event (код операции)
+                  href: eventmanifestschema-event-opcode-element.md
+                - name: Элемент Event (Таскевентдефинитионтипе)
+                  href: eventmanifestschema-event-taskeventdefinitiontype-element.md
+                - name: Элемент Events (Инструментатионтипе)
+                  href: eventmanifestschema-events-instrumentationtype-element.md
+                - name: Элемент Events (ProviderType)
+                  href: eventmanifestschema-events-providertype-element.md
+                - name: 'Импортчаннел (Чаннеллисттипе), элемент'
+                  href: eventmanifestschema-importchannel-channellisttype-element.md
+                - name: 'Инструментатионманифест, элемент'
+                  href: eventmanifestschema-instrumentationmanifest-element.md
+                - name: Элемент инструментирования (Инструментатионманифест)
+                  href: eventmanifestschema-instrumentation-instrumentationmanifest-element.md
+                - name: Элемент Type (Инпуттипелисттипе)
+                  href: eventmanifestschema-intype-inputtypelisttype-element.md
+                - name: Элемент Types (Типелисттипе)
+                  href: eventmanifestschema-intypes-typelisttype-element.md
+                - name: Элемент Keyword (Кэйвордлисттипе)
+                  href: eventmanifestschema-keyword-keywordlisttype-element.md
+                - name: Элемент keywords (Чаннелпублишингтипе)
+                  href: eventmanifestschema-keywords-channelpublishingtype-element.md
+                - name: Элемент keywords (Метадататипе)
+                  href: eventmanifestschema-keywords-metadatatype-element.md
+                - name: Элемент keywords (ProviderType)
+                  href: eventmanifestschema-keywords-providertype-element.md
+                - name: Элемент задержки (Чаннелпублишингтипе)
+                  href: eventmanifestschema-latency-channelpublishingtype-element.md
+                - name: Элемент Level (Чаннелпублишингтипе)
+                  href: eventmanifestschema-level-channelpublishingtype-element.md
+                - name: Элемент Level (Левеллисттипе)
+                  href: eventmanifestschema-level-levellisttype-element.md
+                - name: Элемент Levels (Метадататипе)
+                  href: eventmanifestschema-levels-metadatatype-element.md
+                - name: Элемент Levels (ProviderType)
+                  href: eventmanifestschema-levels-providertype-element.md
+                - name: Элемент Localization (Инструментатионманифест)
+                  href: eventmanifestschema-localization-instrumentationmanifest-element.md
+                - name: Элемент Logging (Чаннелтипе)
+                  href: eventmanifestschema-logging-channeltype-element.md
+                - name: 'Map (Битмаптипе), элемент'
+                  href: eventmanifestschema-map-bitmaptype-element.md
+                - name: 'Map (Паттернмаптипе), элемент'
+                  href: eventmanifestschema-map-patternmaptype-element.md
+                - name: 'Map (Валуемаптипе), элемент'
+                  href: eventmanifestschema-map-valuemaptype-element.md
+                - name: Элемент Maps (ProviderType)
+                  href: eventmanifestschema-maps-providertype-element.md
+                - name: 'Максбуфферс (Чаннелпублишингтипе), элемент'
+                  href: eventmanifestschema-maxbuffers-channelpublishingtype-element.md
+                - name: 'maxSize (Чаннеллоггингтипе), элемент'
+                  href: eventmanifestschema-maxsize-channelloggingtype-element.md
+                - name: Элемент Message (Мессажетабле)
+                  href: eventmanifestschema-message-messagetable-element.md
+                - name: 'Мессажетабле (Евентстипе), элемент'
+                  href: eventmanifestschema-messagetable-instrumentationtype-element.md
+                - name: 'Мессажетабле (Метадататипе), элемент'
+                  href: eventmanifestschema-messagetable-metadatatype-element.md
+                - name: Элемент Metadata (Инструментатионманифест)
+                  href: eventmanifestschema-metadata-instrumentationmanifest-element.md
+                - name: 'Минбуфферс (Чаннелпублишингтипе), элемент'
+                  href: eventmanifestschema-minbuffers-channelpublishingtype-element.md
+                - name: 'Намедкуериес (Метадататипе), элемент'
+                  href: eventmanifestschema-namedqueries-metadatatype-element.md
+                - name: 'Намедкуериес (ProviderType), элемент'
+                  href: eventmanifestschema-namedqueries-providertype-element.md
+                - name: 'opcode, элемент (Опкоделисттипе)'
+                  href: eventmanifestschema-opcode-opcodelisttype-element.md
+                - name: 'opcode, элемент (Таскевентдефинитионтипе)'
+                  href: eventmanifestschema-opcode-taskeventdefinitiontype-element.md
+                - name: 'opcode, элемент (Метадататипе)'
+                  href: eventmanifestschema-opcodes-metadatatype-element.md
+                - name: Элемент кодов операций (ProviderType)
+                  href: eventmanifestschema-opcodes-providertype-element.md
+                - name: 'opcode, элемент (TaskType)'
+                  href: eventmanifestschema-opcodes-tasktype-element.md
+                - name: Элемент Type (InputType)
+                  href: eventmanifestschema-outtype-inputtype-element.md
+                - name: 'Паттернмап (Паттернмаплисттипе), элемент'
+                  href: eventmanifestschema-patternmap-patternmaplisttype-element.md
+                - name: 'Паттернмапс (Намедкуеритипе), элемент'
+                  href: eventmanifestschema-patternmaps-namedquerytype-element.md
+                - name: Элемент Provider (Евентстипе)
+                  href: eventmanifestschema-provider-eventstype-element.md
+                - name: 'Publishing (Чаннелтипе), элемент'
+                  href: eventmanifestschema-publishing-channeltype-element.md
+                - name: 'Resources (Локализатионтипе), элемент'
+                  href: eventmanifestschema-resources-localizationtype-element.md
+                - name: Элемент retention (Чаннеллоггингтипе)
+                  href: eventmanifestschema-retention-channelloggingtype-element.md
+                - name: 'Идентификатор типа безопасности (Чаннелпублишингтипе), элемент'
+                  href: eventmanifestschema-sidtype-channelpublishingtype-element.md
+                - name: 'String (Стрингтаблетипе), элемент'
+                  href: eventmanifestschema-string-stringtabletype-element.md
+                - name: Элемент stringTable (Локализатионтипе)
+                  href: eventmanifestschema-stringtable-localizationtype-element.md
+                - name: Элемент stringTable (Resources)
+                  href: eventmanifestschema-stringtable-resources-element.md
+                - name: Элемент struct (Темплатеитемтипе)
+                  href: eventmanifestschema-struct-templateitemtype-element.md
+                - name: Элемент Task (Дефинитионтипе)
+                  href: eventmanifestschema-task-definitiontype-element.md
+                - name: Элемент Task (Тасклисттипе)
+                  href: eventmanifestschema-task-tasklisttype-element.md
+                - name: 'Tasks (ProviderType), элемент'
+                  href: eventmanifestschema-tasks-providertype-element.md
+                - name: Элемент Template (Темплателисттипе)
+                  href: eventmanifestschema-template-templatelisttype-element.md
+                - name: Элемент Templates (ProviderType)
+                  href: eventmanifestschema-templates-providertype-element.md
+                - name: 'Types (Метадататипе), элемент'
+                  href: eventmanifestschema-types-metadatatype-element.md
+                - name: Элемент UserData (Темплатеитемтипе)
+                  href: eventmanifestschema-userdata-templateitemtype-element.md
+                - name: Элемент valueMap (Маптипе)
+                  href: eventmanifestschema-valuemap-maptype-element.md
+                - name: 'xmlType (Ксмлтипелисттипе), элемент'
+                  href: eventmanifestschema-xmltype-xmltypelisttype-element.md
+                - name: 'Ксмлтипес (Типелисттипе), элемент'
+                  href: eventmanifestschema-xmltypes-typelisttype-element.md
+            - name: Простые типы схемы Евентманифест
+              href: eventmanifestschema-simple-types.md
+              items:
+                - name: Простой тип Каунттипе
+                  href: eventmanifestschema-counttype-simpletype.md
+                - name: Простой тип Ксимболтипе
+                  href: eventmanifestschema-csymboltype-simpletype.md
+                - name: Простой тип filePath
+                  href: eventmanifestschema-filepath-simpletype.md
+                - name: Простой тип Гуидтипе
+                  href: eventmanifestschema-guidtype-simpletype.md
+                - name: Простой тип HexInt8Type
+                  href: eventmanifestschema-hex8type-simpletype.md
+                - name: Простой тип HexInt16Type
+                  href: eventmanifestschema-hex16type-simpletype.md
+                - name: Простой тип HexInt32Type
+                  href: eventmanifestschema-hex32type-simpletype.md
+                - name: Простой тип HexInt64Type
+                  href: eventmanifestschema-hex64type-simpletype.md
+                - name: Простой тип UInt8Type
+                  href: eventmanifestschema-hexint8type-simpletype.md
+                - name: Простой тип UInt16Type
+                  href: eventmanifestschema-hexint16type-simpletype.md
+                - name: Простой тип UInt32Type
+                  href: eventmanifestschema-hexint32type-simpletype.md
+                - name: Простой тип UInt64Type
+                  href: eventmanifestschema-hexint64type-simpletype.md
+                - name: Простой тип Ленгстипе
+                  href: eventmanifestschema-lengthtype-simpletype.md
+                - name: Простой тип Кнамелист
+                  href: eventmanifestschema-qnamelist-simpletype.md
+                - name: Простой тип Стртаблереф
+                  href: eventmanifestschema-strtableref-simpletype.md
+            - name: Сложные типы схемы Евентманифест
+              href: eventmanifestschema-complex-types.md
+              items:
+                - name: Сложный тип Битмаптипе
+                  href: eventmanifestschema-bitmaptype-complextype.md
+                - name: Сложный тип Битмапвалуетипе
+                  href: eventmanifestschema-bitmapvaluetype-complextype.md
+                - name: Сложный тип Чаннеллисттипе
+                  href: eventmanifestschema-channellisttype-complextype.md
+                - name: Сложный тип Чаннеллоггингтипе
+                  href: eventmanifestschema-channelloggingtype-complextype.md
+                - name: Сложный тип Чаннелпублишингтипе
+                  href: eventmanifestschema-channelpublishingtype-complextype.md
+                - name: Сложный тип Чаннелтипе
+                  href: eventmanifestschema-channeltype-complextype.md
+                - name: Сложный тип Датадефинитионтипе
+                  href: eventmanifestschema-datadefinitiontype-complextype.md
+                - name: Сложный тип Дефинитионтипе
+                  href: eventmanifestschema-definitiontype-complextype.md
+                - name: Сложный тип Евентдефинитионтипе
+                  href: eventmanifestschema-eventdefinitiontype-complextype.md
+                - name: Сложный тип Евентстипе
+                  href: eventmanifestschema-eventstype-complextype.md
+                - name: Сложный тип Филтерлисттипе
+                  href: eventmanifestschema-filterlisttype-complextype.md
+                - name: Сложный тип FilterType
+                  href: eventmanifestschema-filtertype-complextype.md
+                - name: Сложный тип Импортчаннелтипе
+                  href: eventmanifestschema-importchanneltype-complextype.md
+                - name: Сложный тип InputType
+                  href: eventmanifestschema-inputtype-complextype.md
+                - name: Сложный тип Инпуттипелисттипе
+                  href: eventmanifestschema-inputtypelisttype-complextype.md
+                - name: Сложный тип Инструментатионманифесттипе
+                  href: eventmanifestschema-instrumentationmanifesttype-complextype.md
+                - name: Сложный тип Инструментатионтипе
+                  href: eventmanifestschema-instrumentationtype-complextype.md
+                - name: Сложный тип Кэйвордлисттипе
+                  href: eventmanifestschema-keywordlisttype-complextype.md
+                - name: Сложный тип Кэйвордтипе
+                  href: eventmanifestschema-keywordtype-complextype.md
+                - name: Сложный тип Левеллисттипе
+                  href: eventmanifestschema-levellisttype-complextype.md
+                - name: Сложный тип Левелтипе
+                  href: eventmanifestschema-leveltype-complextype.md
+                - name: Сложный тип Локализатионтипе
+                  href: eventmanifestschema-localizationtype-complextype.md
+                - name: Сложный тип Маптипе
+                  href: eventmanifestschema-maptype-complextype.md
+                - name: Сложный тип Метадататипе
+                  href: eventmanifestschema-metadatatype-complextype.md
+                - name: Сложный тип Намедкуеритипе
+                  href: eventmanifestschema-namedquerytype-complextype.md
+                - name: Сложный тип Опкоделисттипе
+                  href: eventmanifestschema-opcodelisttype-complextype.md
+                - name: Сложный тип Опкодетипе
+                  href: eventmanifestschema-opcodetype-complextype.md
+                - name: Сложный тип OutputType
+                  href: eventmanifestschema-outputtype-complextype.md
+                - name: Сложный тип Паттернмаплисттипе
+                  href: eventmanifestschema-patternmaplisttype-complextype.md
+                - name: Сложный тип Паттернмаптипе
+                  href: eventmanifestschema-patternmaptype-complextype.md
+                - name: Сложный тип Паттернмапвалуетипе
+                  href: eventmanifestschema-patternmapvaluetype-complextype.md
+                - name: Сложный тип ProviderType
+                  href: eventmanifestschema-providertype-complextype.md
+                - name: Сложный тип Стрингтаблетипе
+                  href: eventmanifestschema-stringtabletype-complextype.md
+                - name: Сложный тип Структдефинитионтипе
+                  href: eventmanifestschema-structdefinitiontype-complextype.md
+                - name: Сложный тип Таскевентдефинитионтипе
+                  href: eventmanifestschema-taskeventdefinitiontype-complextype.md
+                - name: Сложный тип Тасклисттипе
+                  href: eventmanifestschema-tasklisttype-complextype.md
+                - name: Сложный тип TaskType
+                  href: eventmanifestschema-tasktype-complextype.md
+                - name: Сложный тип Темплатеитемтипе
+                  href: eventmanifestschema-templateitemtype-complextype.md
+                - name: Сложный тип Темплателисттипе
+                  href: eventmanifestschema-templatelisttype-complextype.md
+                - name: Сложный тип Типелисттипе
+                  href: eventmanifestschema-typelisttype-complextype.md
+                - name: Сложный тип Валуемаптипе
+                  href: eventmanifestschema-valuemaptype-complextype.md
+                - name: Сложный тип Валуемапвалуетипе
+                  href: eventmanifestschema-valuemapvaluetype-complextype.md
+                - name: Сложный тип XmlType
+                  href: eventmanifestschema-xmltype-complextype.md
+                - name: Сложный тип Ксмлтипелисттипе
+                  href: eventmanifestschema-xmltypelisttype-complextype.md
+        - name: Схема событий
+          href: eventschema-schema.md
+          items:
+            - name: Элементы схемы событий
+              href: eventschema-elements.md
+              items:
+                - name: Элемент Бинаревентдата (EventType)
+                  href: eventschema-binaryeventdata-eventtype-element.md
+                - name: 'Binary (Евентдататипе), элемент'
+                  href: eventschema-binary-eventdatatype-element.md
+                - name: Элемент Channel (Рендерингинфотипе)
+                  href: eventschema-channel-renderinginfotype-element.md
+                - name: Элемент Channel (Системпропертиестипе)
+                  href: eventschema-channel-systempropertiestype-element.md
+                - name: 'Комплексдата (Евентдататипе), элемент'
+                  href: eventschema-complexdata-eventdatatype-element.md
+                - name: Элемент Component (Дебугдататипе)
+                  href: eventschema-component-debugdatatype-element.md
+                - name: 'Computer (Системпропертиестипе), элемент'
+                  href: eventschema-computer-systempropertiestype-element.md
+                - name: Элемент Correlation (Системпропертиестипе)
+                  href: eventschema-correlation-systempropertiestype-element.md
+                - name: 'Датаитемнаме (Процессинжеррордататипе), элемент'
+                  href: eventschema-dataitemname-processingerrordatatype-element.md
+                - name: Элемент Data (Комплексдататипе)
+                  href: eventschema-data-complexdatatype-element.md
+                - name: Элемент Data (Евентдататипе)
+                  href: eventschema-data-eventdatatype-element.md
+                - name: Элемент Дебугдата (EventType)
+                  href: eventschema-debugdata-eventtype-element.md
+                - name: 'ErrorCode (Процессинжеррордататипе), элемент'
+                  href: eventschema-errorcode-processingerrordatatype-element.md
+                - name: Элемент Event
+                  href: eventschema-event-element.md
+                - name: Элемент EventData (EventType)
+                  href: eventschema-eventdata-eventtype-element.md
+                - name: Элемент EventID (Системпропертиестипе)
+                  href: eventschema-eventid-systempropertiestype-element.md
+                - name: 'Евентпайлоад (Процессинжеррордататипе), элемент'
+                  href: eventschema-eventpayload-processingerrordatatype-element.md
+                - name: 'Евентрекордид (Системпропертиестипе), элемент'
+                  href: eventschema-eventrecordid-systempropertiestype-element.md
+                - name: 'Execution (Системпропертиестипе), элемент'
+                  href: eventschema-execution-systempropertiestype-element.md
+                - name: 'Филелине (Дебугдататипе), элемент'
+                  href: eventschema-fileline-debugdatatype-element.md
+                - name: 'FlagName (Дебугдататипе), элемент'
+                  href: eventschema-flagname-debugdatatype-element.md
+                - name: Элемент Function (Дебугдататипе)
+                  href: eventschema-function-debugdatatype-element.md
+                - name: 'Ключевое слово (keywords), элемент'
+                  href: eventschema-keyword-keywords-element.md
+                - name: Элемент keywords (Рендерингинфотипе)
+                  href: eventschema-keywords-renderingtype-element.md
+                - name: Элемент keywords (Системпропертиестипе)
+                  href: eventschema-keywords-systempropertiestype-element.md
+                - name: Элемент Level (Рендерингинфотипе)
+                  href: eventschema-level-renderingtype-element.md
+                - name: Элемент Level (Системпропертиестипе)
+                  href: eventschema-level-systempropertiestype-element.md
+                - name: 'LevelName (Дебугдататипе), элемент'
+                  href: eventschema-levelname-debugdatatype-element.md
+                - name: Элемент Message (Дебугдататипе)
+                  href: eventschema-message-debugdatatype-element.md
+                - name: Элемент Message (Рендерингинфотипе)
+                  href: eventschema-message-renderingtype-element.md
+                - name: 'Opcode, элемент (Рендерингинфотипе)'
+                  href: eventschema-opcode-renderingtype-element.md
+                - name: 'Opcode, элемент (Системпропертиестипе)'
+                  href: eventschema-opcode-systempropertiestype-element.md
+                - name: Элемент Процессинжеррордата (EventType)
+                  href: eventschema-processingerrordata-eventtype-element.md
+                - name: Элемент Provider (Системпропертиестипе)
+                  href: eventschema-provider-systempropertiestype-element.md
+                - name: Элемент Provider (Рендерингинфотипе)
+                  href: eventschema-publisher-renderinginfotype-element.md
+                - name: Элемент Рендерингинфо (EventType)
+                  href: eventschema-renderinginfo-eventtype-element.md
+                - name: Элемент Security (Системпропертиестипе)
+                  href: eventschema-security-systempropertiestype-element.md
+                - name: 'SequenceNumber (Дебугдататипе), элемент'
+                  href: eventschema-sequencenumber-debugdatatype-element.md
+                - name: Элемент подкомпонента (Дебугдататипе)
+                  href: eventschema-subcomponent-debugdatatype-element.md
+                - name: Элемент System (EventType)
+                  href: eventschema-system-eventtype-element.md
+                - name: Элемент Task (Рендерингинфотипе)
+                  href: eventschema-task-renderingtype-element.md
+                - name: Элемент Task (Системпропертиестипе)
+                  href: eventschema-task-systempropertiestype-element.md
+                - name: 'TimeCreated (Системпропертиестипе), элемент'
+                  href: eventschema-timecreated-systempropertiestype-element.md
+                - name: 'UserData (EventType), элемент'
+                  href: eventschema-userdata-eventtype-element.md
+                - name: 'Version (Системпропертиестипе), элемент'
+                  href: schema-version-systempropertiestype-element.md
+            - name: Простые типы схемы событий
+              href: eventschema-simple-types.md
+              items:
+                - name: Простой тип Гуидтипе
+                  href: eventschema-guidtype-simpletype.md
+                - name: Простой тип HexInt32Type
+                  href: eventschema-hexint32type-simpletype.md
+                - name: Простой тип HexInt64Type
+                  href: eventschema-hexint64type-simpletype.md
+            - name: Сложные типы схемы событий
+              href: eventschema-complex-types.md
+              items:
+                - name: Сложный тип Комплексдататипе
+                  href: eventschema-complexdatatype-complextype.md
+                - name: Сложный тип DataType
+                  href: eventschema-datafieldtype-complextype.md
+                - name: Сложный тип Дебугдататипе
+                  href: eventschema-debugdatatype-complextype.md
+                - name: Сложный тип Евентдататипе
+                  href: eventschema-eventdatatype-complextype.md
+                - name: Сложный тип EventType
+                  href: eventschema-eventtype-complextype.md
+                - name: Сложный тип Процессинжеррордататипе
+                  href: eventschema-processingerrordatatype-complextype.md
+                - name: Сложный тип Рендерингинфотипе
+                  href: eventschema-renderingtype-complextype.md
+                - name: Сложный тип Системпропертиестипе
+                  href: eventschema-systempropertiestype-complextype.md
+                - name: Сложный тип Усердататипе
+                  href: eventschema-userdatatype-complextype.md
+        - name: Схема запроса
+          href: queryschema-schema.md
+          items:
+            - name: Элементы схемы запроса
+              href: queryschema-elements.md
+              items:
+                - name: 'Куерилист, элемент'
+                  href: queryschema-querylist-element.md
+                - name: 'Query (Куерилисттипе), элемент'
+                  href: queryschema-query-querylisttype-element.md
+                - name: Элемент SELECT (QueryType)
+                  href: queryschema-select-querytype-element.md
+                - name: Подавлять (QueryType) элемент
+                  href: queryschema-suppress-querytype-element.md
+            - name: Сложные типы схемы запросов
+              href: queryschema-complex-types.md
+              items:
+                - name: Сложный тип Куерилисттипе
+                  href: queryschema-querylisttype-complextype.md
+                - name: Сложный тип QueryType
+                  href: queryschema-querytype-complextype.md
+        - name: Константы журнала событий Windows
+          href: windows-event-log-constants.md
+        - name: Типы данных журнала событий Windows
+          href: windows-event-log-data-types.md
+        - name: Константы ошибки журнала событий Windows
+          href: windows-event-log-error-constants.md
+        - name: Перечисления журнала событий Windows
+          href: windows-event-log-enumerations.md
+          items:
+            - name: EVT_CHANNEL_CLOCK_TYPE
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_clock_type
+            - name: EVT_CHANNEL_CONFIG_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_config_property_id
+            - name: EVT_CHANNEL_ISOLATION_TYPE
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_isolation_type
+            - name: EVT_CHANNEL_REFERENCE_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_reference_flags
+            - name: EVT_CHANNEL_SID_TYPE
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_sid_type
+            - name: EVT_CHANNEL_TYPE
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_type
+            - name: EVT_EVENT_METADATA_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_event_metadata_property_id
+            - name: EVT_EVENT_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_event_property_id
+            - name: EVT_EXPORTLOG_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_exportlog_flags
+            - name: EVT_FORMAT_MESSAGE_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_format_message_flags
+            - name: EVT_LOG_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_log_property_id
+            - name: EVT_LOGIN_CLASS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_login_class
+            - name: EVT_OPEN_LOG_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_open_log_flags
+            - name: EVT_PUBLISHER_METADATA_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_publisher_metadata_property_id
+            - name: EVT_QUERY_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_query_flags
+            - name: EVT_QUERY_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_query_property_id
+            - name: EVT_RENDER_CONTEXT_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_render_context_flags
+            - name: EVT_RENDER_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_render_flags
+            - name: EVT_RPC_LOGIN_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_rpc_login_flags
+            - name: EVT_SEEK_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_seek_flags
+            - name: EVT_SUBSCRIBE_FLAGS
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_subscribe_flags
+            - name: EVT_SUBSCRIBE_NOTIFY_ACTION
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_subscribe_notify_action
+            - name: EVT_SYSTEM_PROPERTY_ID
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_system_property_id
+            - name: EVT_VARIANT_TYPE
+              href: /windows/win32/api/WinEvt/ne-winevt-evt_variant_type
+        - name: Функции журнала событий Windows
+          href: windows-event-log-functions.md
+          items:
+            - name: EVT_SUBSCRIBE_CALLBACK
+              href: /windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback
+            - name: евтарчивикспортедлог
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtarchiveexportedlog
+            - name: евтканцел
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtcancel
+            - name: евтклеарлог
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtclearlog
+            - name: евтклосе
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtclose
+            - name: евткреатебукмарк
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtcreatebookmark
+            - name: евткреатерендерконтекст
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtcreaterendercontext
+            - name: евтекспортлог
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtexportlog
+            - name: евтформатмессаже
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtformatmessage
+            - name: евтжетчаннелконфигпроперти
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetchannelconfigproperty
+            - name: евтжетевентинфо
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgeteventinfo
+            - name: евтжетевентметадатапроперти
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgeteventmetadataproperty
+            - name: евтжетекстендедстатус
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetextendedstatus
+            - name: евтжетлогинфо
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetloginfo
+            - name: евтжетобжектаррайпроперти
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetobjectarrayproperty
+            - name: евтжетобжектаррайсизе
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetobjectarraysize
+            - name: евтжетпублишерметадатапроперти
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetpublishermetadataproperty
+            - name: евтжеткуеринфо
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtgetqueryinfo
+            - name: евтнекст
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtnext
+            - name: евтнекстчаннелпас
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtnextchannelpath
+            - name: евтнекстевентметадата
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtnexteventmetadata
+            - name: евтнекстпублишерид
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtnextpublisherid
+            - name: евтопенчаннелконфиг
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopenchannelconfig
+            - name: евтопенчаннеленум
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopenchannelenum
+            - name: евтопеневентметадатаенум
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopeneventmetadataenum
+            - name: евтопенлог
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopenlog
+            - name: евтопенпублишеренум
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopenpublisherenum
+            - name: евтопенпублишерметадата
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopenpublishermetadata
+            - name: евтопенсессион
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtopensession
+            - name: евткуери
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtquery
+            - name: евтрендер
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtrender
+            - name: евтсавечаннелконфиг
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtsavechannelconfig
+            - name: евтсик
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtseek
+            - name: евтсетчаннелконфигпроперти
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtsetchannelconfigproperty
+            - name: евтсубскрибе
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtsubscribe
+            - name: евтупдатебукмарк
+              href: /windows/desktop/api/WinEvt/nf-winevt-evtupdatebookmark
+        - name: Структуры журнала событий Windows
+          href: windows-event-log-structures.md
+          items:
+            - name: EVT_RPC_LOGIN
+              href: /windows/win32/api/WinEvt/ns-winevt-evt_rpc_login
+            - name: EVT_VARIANT
+              href: /windows/win32/api/WinEvt/ns-winevt-evt_variant
+        - name: Средства журнала событий Windows
+          href: windows-event-log-tools.md
+          items:
+            - name: Компилятор сообщений (MC.exe)
+              href: message-compiler--mc-exe-.md

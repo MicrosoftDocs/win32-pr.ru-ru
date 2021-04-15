@@ -1,0 +1,302 @@
+- name: Сенсорный ввод
+  href: windows-touch-portal.md
+  items:
+    - name: О программе Windows Touch
+      href: about-the-multi-touch-sdk.md
+    - name: Руководство по программированию
+      href: programming-guide.md
+      items:
+        - name: Основные сведения об архитектуре
+          href: architectural-overview.md
+        - name: Выбор правильного подхода к Windows Touch
+          href: choosing-the-right-approach-to-windows-touch.md
+        - name: Устранение неполадок приложений
+          href: troubleshooting-applications.md
+        - name: Сенсорный ввод Windows
+          href: guide-multi-touch-input.md
+          items:
+            - name: начало работы с сообщениями касания Windows
+              href: getting-started-with-multi-touch-messages.md
+            - name: Обнаружение и отслеживание нескольких точек касания
+              href: detecting-and-tracking-multiple-touch-points.md
+        - name: Сенсорные жесты Windows
+          href: guide-multi-touch-gestures.md
+          items:
+            - name: Общие сведения о сенсорных жестах Windows
+              href: windows-touch-gestures-overview.md
+            - name: начало работы с помощью сенсорных жестов Windows
+              href: getting-started-with-multi-touch-gestures.md
+            - name: Устаревшая поддержка панорамирования с помощью полос прокрутки
+              href: legacy-support-for-panning-with-scrollbars.md
+            - name: Улучшение возможностей панорамирования с одним пальцем
+              href: improving-the-single-finger-panning-experience.md
+        - name: Манипуляции и инерция
+          href: manipulation-and-inertia.md
+          items:
+            - name: Манипуляции
+              href: getting-started-with-manipulations.md
+              items:
+                - name: Добавление поддержки манипуляций в неуправляемый код
+                  href: adding-manipulation-support-in-unmanaged-code.md
+                - name: Расширенные манипуляции
+                  href: advanced-manipulations.md
+                  items:
+                    - name: Обзор расширенных манипуляций
+                      href: advanced-manipulations-overview.md
+                    - name: Расширенное расширение
+                      href: advanced-expansion.md
+                    - name: Расширенный Поворот
+                      href: advanced-rotation.md
+                    - name: Расширенный перевод
+                      href: advanced-translation.md
+                - name: Поворот одного пальца
+                  href: single-finger-rotation.md
+            - name: Инерция
+              href: getting-started-with-inertia.md
+              items:
+                - name: Механика инерции
+                  href: inertia-mechanics.md
+                - name: Обработка инерции в неуправляемом коде
+                  href: handling-inertia-in-unmanaged-code.md
+    - name: Примеры Windows Touch
+      href: windows-touch-samples.md
+      items:
+        - name: Пример манипуляции и инерции
+          href: manipulation-and-inertia-sample.md
+        - name: Пример сенсорного жеста Windows (Мтжестурес)
+          href: windows-touch-gesture-sample--mtgestures-.md
+        - name: Жесты касания Windows в C# — пример (Мтжестурескс)
+          href: windows-touch-gestures-in-c--sample--mtgesturescs-.md
+        - name: Пример управления касанием Windows (Мтманипулатион)
+          href: windows-touch-manipulation-sample--mtmanipulation-.md
+        - name: Пример с сенсорным блокнотом Windows (C++)
+          href: windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md
+        - name: Пример сенсорного ввода Windows (C#)
+          href: windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md
+        - name: Блокнот для сенсорного ввода Windows с помощью примера пера в режиме реального времени (C++)
+          href: windows-touch-scratchpad-using-the-real-time-stylus-sample--mtscratchpadrtstylus-.md
+        - name: Блокнот для сенсорного ввода Windows с помощью примера Real-Timeного пера (C#)
+          href: windows-touch-scratchpad-using-the-real-time-stylus-in-c--sample--mtscratchpadrtstyluscs-.md
+    - name: Справочник по программированию касания Windows
+      href: windows-touch-programming-reference.md
+      items:
+        - name: Отзыв о границе
+          href: boundary-feedback.md
+          items:
+            - name: Функции
+              href: boundary-feedback-functions.md
+              items:
+                - name: бегинпаннингфидбакк
+                  href: /windows/desktop/api/uxtheme/nf-uxtheme-beginpanningfeedback
+                - name: ендпаннингфидбакк
+                  href: /windows/desktop/api/uxtheme/nf-uxtheme-endpanningfeedback
+                - name: упдатепаннингфидбакк
+                  href: /windows/desktop/api/uxtheme/nf-uxtheme-updatepanningfeedback
+        - name: Инерция и манипуляция
+          href: inertia-and-manipulation-reference.md
+          items:
+            - name: Классы и интерфейсы
+              href: intertmanip-classes-and-interfaces.md
+              items:
+                - name: _IManipulationEvents
+                  href: /windows/desktop/api/manipulations/nn-manipulations-_imanipulationevents
+                  items:
+                    - name: Методы
+                      href: '-imanipulationevents-methods.md'
+                      items:
+                        - name: Метод ManipulationStarted
+                          href: /windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted
+                        - name: Метод ManipulationDelta
+                          href: /windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta
+                        - name: Метод ManipulationCompleted
+                          href: /windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted
+                - name: IInertiaProcessor
+                  href: /windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor
+                  items:
+                    - name: Методы
+                      href: imanipulationprocessor-methods.md
+                      items:
+                        - name: Метод Reset
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-reset
+                        - name: Метод Process
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-process
+                        - name: Метод Процесстиме
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-processtime
+                        - name: Метод Complete
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete
+                        - name: Метод Комплететиме
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-completetime
+                    - name: Свойства
+                      href: iinertiaprocessor-properties.md
+                      items:
+                        - name: 'Инитиалоригинкс, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialoriginx
+                        - name: 'Инитиалоригини, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialoriginy
+                        - name: 'ИнитиалвелоЦитикс, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityx
+                        - name: 'ИнитиалвелоЦитии, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityy
+                        - name: 'ИнитиалангуларвелоЦити, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialangularvelocity
+                        - name: 'ИнитиалекспансионвелоЦити, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialexpansionvelocity
+                        - name: 'Инитиалрадиус, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialradius
+                        - name: 'Баундарилефт, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryleft
+                        - name: 'Баундаритоп, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarytop
+                        - name: 'Баундариригхт, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryright
+                        - name: 'Баундариботтом, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarybottom
+                        - name: 'Еластикмаргинлефт, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginleft
+                        - name: 'Еластикмаргинтоп, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmargintop
+                        - name: 'Еластикмаргинригхт, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginright
+                        - name: 'Еластикмаргинботтом, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginbottom
+                        - name: 'Десиредангулардецелератион, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration
+                        - name: 'DesiredRotation, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredrotation
+                        - name: 'Десиредекспансион, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredexpansion
+                        - name: 'Десиредекспансиондецелератион, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredexpansiondeceleration
+                        - name: 'DesiredDeceleration, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration
+                        - name: 'Десиреддисплацемент, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddisplacement
+                        - name: 'Инитиалтиместамп, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialtimestamp
+                - name: IManipulationProcessor
+                  href: /windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor
+                  items:
+                    - name: Методы
+                      href: mtmethods.md
+                      items:
+                        - name: Метод Комплетеманипулатион
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-completemanipulation
+                        - name: Метод ЖетангуларвелоЦити
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getangularvelocity
+                        - name: Метод ЖетекспансионвелоЦити
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getexpansionvelocity
+                        - name: Метод ЖетвелоЦитикс
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityx
+                        - name: Метод с методом скорости
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityy
+                        - name: Метод Процессдовн
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdown
+                        - name: Метод Процессмове
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmove
+                        - name: Метод Процессуп
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processup
+                        - name: Метод Процессдовнвистиме
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime
+                        - name: Метод Процессмовевистиме
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime
+                        - name: Метод Процессупвистиме
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime
+                    - name: Свойства
+                      href: mtproperties.md
+                      items:
+                        - name: 'Минимумскалеротатерадиус, свойство'
+                          href: imanipulationprocessor-minimumscalerotateradius.md
+                        - name: 'Пивотпоинткс, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx
+                        - name: 'Пивотпоинти, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy
+                        - name: 'Пивотрадиус, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius
+                        - name: 'Суппортедманипулатионс, свойство'
+                          href: /windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_supportedmanipulations
+            - name: Константы
+              href: imanipulationprocessor-constants.md
+            - name: Перечисления
+              href: rts-functions.md
+              items:
+                - name: MANIPULATION_PROCESSOR_MANIPULATIONS
+                  href: /windows/desktop/api/manipulations/ne-manipulations-manipulation_processor_manipulations
+        - name: Сенсорные жесты Windows
+          href: multi-touch-gestures.md
+          items:
+            - name: Константы
+              href: constants.md
+              items:
+                - name: Сенсорные жесты Windows
+                  href: windows-touch-gestures-constants.md
+            - name: Функции
+              href: mtgfunctions.md
+              items:
+                - name: клосежестуреинфохандле
+                  href: /windows/desktop/api/winuser/nf-winuser-closegestureinfohandle
+                - name: жетжестурикстрааргс
+                  href: /windows/desktop/api/winuser/nf-winuser-getgestureextraargs
+                - name: жетжестуреинфо
+                  href: /windows/desktop/api/winuser/nf-winuser-getgestureinfo
+                - name: жетжестуреконфиг
+                  href: /windows/desktop/api/winuser/nf-winuser-getgestureconfig
+                - name: сетжестуреконфиг
+                  href: /windows/desktop/api/winuser/nf-winuser-setgestureconfig
+            - name: Макросы
+              href: macros.md
+              items:
+                - name: GID_ROTATE_ANGLE_FROM_ARGUMENT
+                  href: /windows/desktop/api/winuser/nf-winuser-gid_rotate_angle_from_argument
+                - name: GID_ROTATE_ANGLE_TO_ARGUMENT
+                  href: /windows/desktop/api/winuser/nf-winuser-gid_rotate_angle_to_argument
+            - name: Уведомления
+              href: notifications.md
+              items:
+                - name: WM_GESTURE
+                  href: wm-gesture.md
+                - name: WM_GESTURENOTIFY
+                  href: wm-gesturenotify.md
+            - name: Структуры
+              href: mtstructures.md
+              items:
+                - name: жестуреконфиг
+                  href: /windows/win32/api/winuser/ns-winuser-gestureconfig
+                - name: GESTUREINFO
+                  href: /windows/win32/api/winuser/ns-winuser-gestureinfo
+                - name: жестуренотифиструкт
+                  href: /windows/win32/api/winuser/ns-winuser-gesturenotifystruct
+        - name: Сенсорный ввод Windows
+          href: multi-touch-input.md
+          items:
+            - name: Макросы
+              href: touch-macros.md
+              items:
+                - name: TOUCH_COORD_TO_PIXEL
+                  href: /windows/desktop/api/winuser/nf-winuser-touch_coord_to_pixel
+            - name: Функции
+              href: mtfunctions.md
+              items:
+                - name: клосетаучинпусандле
+                  href: /windows/desktop/api/winuser/nf-winuser-closetouchinputhandle
+                - name: жеттаучинпутинфо
+                  href: /windows/desktop/api/winuser/nf-winuser-gettouchinputinfo
+                - name: истаучвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-istouchwindow
+                - name: регистертаучвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-registertouchwindow
+                - name: унрегистертаучвиндов
+                  href: /windows/desktop/api/winuser/nf-winuser-unregistertouchwindow
+                - name: 'SendMessage, сообщение и связанные функции'
+                  href: sendmessage--postmessage--and-related-functions.md
+            - name: Сообщения
+              href: messages.md
+              items:
+                - name: WM_TOUCH
+                  href: wm-touchdown.md
+            - name: Структуры
+              href: structures.md
+              items:
+                - name: таучинпут
+                  href: /windows/win32/api/winuser/ns-winuser-touchinput
+    - name: Глоссарий Windows Touch
+      href: glossary.md
