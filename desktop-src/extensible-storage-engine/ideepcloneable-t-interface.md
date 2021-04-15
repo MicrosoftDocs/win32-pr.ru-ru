@@ -1,0 +1,65 @@
+---
+description: 'Дополнительные сведения о: <T> интерфейс идипклонеабле'
+title: Интерфейс Идипклонеабле (T)
+TOCTitle: IDeepCloneable(T) interface
+ms:assetid: T:Microsoft.Isam.Esent.Interop.IDeepCloneable`1
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh565368(v=EXCHG.10)
+ms:contentKeyID: 39513544
+ms.date: 07/30/2014
+ms.topic: reference
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.IDeepCloneable`1
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name:
+- Microsoft.Isam.Esent.Interop.IDeepCloneable`1
+topic_type:
+- kbSyntax
+- apiref
+api_type:
+- Managed
+api_location:
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: 5e1aa6ee4ce199438149b65984335ae24930596d
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104543994"
+---
+# <a name="ideepcloneablet-interface"></a>\<T\>Интерфейс идипклонеабле
+
+Интерфейс для объектов, которые могут быть клонированы. При этом создается глубокая копия объекта. Он используется для клонирования объектов meta-данных.
+
+**Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
+**Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)
+
+## <a name="syntax"></a>Синтаксис
+
+``` vb
+'Declaration
+Public Interface IDeepCloneable(Of T)
+'Usage
+Dim instance As IDeepCloneable(Of T)
+```
+
+``` csharp
+public interface IDeepCloneable<T>
+```
+
+#### <a name="type-parameters"></a>Параметры типа
+
+  - T  
+    Тип объекта.
+
+## <a name="see-also"></a>См. также раздел
+
+#### <a name="reference"></a>Справочник
+
+[\<T\>Элементы идипклонеабле](./ideepcloneable-t-members.md)
+
+[Пространство имен Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)
