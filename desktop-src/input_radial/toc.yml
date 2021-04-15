@@ -1,0 +1,16 @@
+- name: Входные данные радиального контроллера
+  href: radialcontroller-portal.md
+  items:
+    - name: Интерфейсы радиального контроллера
+      href: radial-controller-interfaces.md
+      items:
+        - name: ирадиалконтроллерконфигуратионинтероп
+          href: /windows/desktop/api/RadialControllerInterop/nn-radialcontrollerinterop-iradialcontrollerconfigurationinterop
+          items:
+            - name: Метод Жетфорвиндов
+              href: /windows/desktop/api/RadialControllerInterop/nf-radialcontrollerinterop-iradialcontrollerconfigurationinterop-getforwindow
+        - name: ирадиалконтроллеринтероп
+          href: /windows/desktop/api/RadialControllerInterop/nn-radialcontrollerinterop-iradialcontrollerinterop
+          items:
+            - name: Метод Креатефорвиндов
+              href: /windows/desktop/api/RadialControllerInterop/nf-radialcontrollerinterop-iradialcontrollerinterop-createforwindow
