@@ -1,0 +1,67 @@
+---
+description: Возвращает сведения о том, какие столбцы (типы данных объектов) поддерживаются таблицей объектов.
+MS-HAID: vspixengine.IObjectTableCallback\_GetSupportedColumns\_DWORD\_ObjectTableColumnID\_arr\_BSTR\_arr
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/desktop
+title: 'Метод Иобжекттаблекаллбакк:: Жетсуппортедколумнс'
+ms.topic: reference
+ms.date: 05/31/2018
+ms.assetid: 148AB80D-9833-4B57-9F34-CEDFFF8E905A
+api_name:
+- IObjectTableCallback.GetSupportedColumns
+api_type:
+- COM
+api_location:
+- vspixengine.h
+topic_type:
+- APIRef
+- kbSyntax
+ms.openlocfilehash: 2ed077e0921043245e4ff3dda4b1c33dd4e3f20d
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104494709"
+---
+# <a name="span-idvspixengineiobjecttablecallback_getsupportedcolumns_dword_objecttablecolumnid_arr_bstr_arrspaniobjecttablecallbackgetsupportedcolumns-method"></a><span id="vspixengine.iobjecttablecallback_getsupportedcolumns_dword_objecttablecolumnid_arr_bstr_arr"></span>Метод Иобжекттаблекаллбакк:: Жетсуппортедколумнс
+
+Возвращает сведения о том, какие столбцы (типы данных объектов) поддерживаются таблицей объектов.
+
+## <a name="syntax"></a>Синтаксис
+
+
+```C++
+HRESULT GetSupportedColumns(
+   DWORD                  numColumns,
+   ObjectTableColumnID [] count0_pIDs,
+   BSTR []                count0_pBstrNames
+);
+```
+
+## <a name="parameters"></a>Параметры
+
+*нумколумнс*   
+Число столбцов, поддерживаемое таблицей объектов.
+
+*count0_pIDs*   
+Идентификаторы каждого столбца, поддерживаемого таблицей объектов.
+
+*count0_pBstrNames*   
+Имена каждого столбца в виде строки COM, поддерживаемой таблицей объектов.
+
+## <a name="return-value"></a>Возвращаемое значение
+
+Если этот метод завершается с ошибкой, возвращается **S_OK**. В противном случае возвращается код ошибки **HRESULT** .
+
+## <a name="requirements"></a>Требования
+
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+
+## <a name="span-idsee_alsospansee-also"></a><span id="see_also"></span> См. также
+
+[**иобжекттаблекаллбакк**](/windows/desktop/direct3dtools/iobjecttablecallback)
+
+ 
+
+ 
