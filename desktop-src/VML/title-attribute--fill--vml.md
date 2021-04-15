@@ -1,0 +1,41 @@
+---
+title: Атрибут заголовка (Fill) (VML)
+description: Атрибут заголовка (Fill) (VML)
+ms.assetid: f137a8d8-287c-40be-b859-51a4f615a022
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: dbf02d5c7f085b5cfad1b93b341404998ba89cb0
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104337692"
+---
+# <a name="title-attribute-fillvml"></a><span data-ttu-id="b036b-103">Атрибут заголовка (Fill) (VML)</span><span class="sxs-lookup"><span data-stu-id="b036b-103">Title Attribute (Fill)(VML)</span></span>
+
+<span data-ttu-id="b036b-104">В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9.</span><span class="sxs-lookup"><span data-stu-id="b036b-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="b036b-105">Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.</span><span class="sxs-lookup"><span data-stu-id="b036b-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="b036b-106">По состоянию на Декабрь 2011 этот раздел был архивирован.</span><span class="sxs-lookup"><span data-stu-id="b036b-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="b036b-107">В результате он больше не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="b036b-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="b036b-108">Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/).</span><span class="sxs-lookup"><span data-stu-id="b036b-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="b036b-109">Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).</span><span class="sxs-lookup"><span data-stu-id="b036b-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+
+ 
+
+<span data-ttu-id="b036b-110">Определяет заголовок изображения заливки.</span><span class="sxs-lookup"><span data-stu-id="b036b-110">Defines the title of a fill image.</span></span> <span data-ttu-id="b036b-111">Read/write.</span><span class="sxs-lookup"><span data-stu-id="b036b-111">Read/write.</span></span> <span data-ttu-id="b036b-112">**Строка**.</span><span class="sxs-lookup"><span data-stu-id="b036b-112">**String**.</span></span>
+
+<span data-ttu-id="b036b-113">**Применимо к**:</span><span class="sxs-lookup"><span data-stu-id="b036b-113">**Applies To**</span></span>
+
+[<span data-ttu-id="b036b-114">Заполнить</span><span class="sxs-lookup"><span data-stu-id="b036b-114">Fill</span></span>](msdn-online-vml-fill-element.md)
+
+<span data-ttu-id="b036b-115">**Синтаксис тега**</span><span class="sxs-lookup"><span data-stu-id="b036b-115">**Tag Syntax**</span></span>
+
+<span data-ttu-id="b036b-116"><v: *element* о:титле = " *выражение* " ></span><span class="sxs-lookup"><span data-stu-id="b036b-116"><v: *element* o:title=" *expression* "></span></span>
+
+<span data-ttu-id="b036b-117">**Замечания**</span><span class="sxs-lookup"><span data-stu-id="b036b-117">**Remarks**</span></span>
+
+<span data-ttu-id="b036b-118">Если этот атрибут имеет значение, то изображение штриха внедряется.</span><span class="sxs-lookup"><span data-stu-id="b036b-118">If this attribute has a value, then the stroke image is embedded.</span></span> <span data-ttu-id="b036b-119">Фактическое значение атрибута — это текст, отображаемый вместе с изображением при наведении указателя мыши на изображение.</span><span class="sxs-lookup"><span data-stu-id="b036b-119">The actual value of the attribute is the text to be displayed with the picture when the mouse pointer passes over the image.</span></span>
+
+<span data-ttu-id="b036b-120">**Атрибут расширений Microsoft Office**</span><span class="sxs-lookup"><span data-stu-id="b036b-120">**Microsoft Office Extensions Attribute**</span></span>
+
+ 
+
+ 
