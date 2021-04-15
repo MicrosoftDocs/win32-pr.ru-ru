@@ -1,0 +1,31 @@
+---
+description: Поле базы данных типа данных Форматтедсддлтекст содержит текстовую строку, описывающую дескриптор безопасности, используя допустимый язык определения дескрипторов безопасности (SDDL). Этот тип данных используется полем Сддлтекст таблицы Мсилоккпермиссионсекс для защиты выбранного объекта. Обратите внимание, что поле Сддлтекст таблицы Мсилоккпермиссионсекс не поддерживает закрытые или открытые свойства.
+ms.assetid: a36e257d-ef3c-45db-a50e-94d7fd4e09e2
+title: форматтедсддлтекст
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 06ddfeac55f05ebea5f1603def6adcbac32aa9d8
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105662709"
+---
+# <a name="formattedsddltext"></a><span data-ttu-id="d8357-104">форматтедсддлтекст</span><span class="sxs-lookup"><span data-stu-id="d8357-104">FormattedSDDLText</span></span>
+
+<span data-ttu-id="d8357-105">Поле базы данных типа данных **форматтедсддлтекст** содержит текстовую строку, описывающую дескриптор безопасности, используя допустимый [язык определения дескрипторов безопасности](../secauthz/security-descriptor-definition-language.md) (SDDL). Этот тип данных используется полем Сддлтекст [таблицы мсилоккпермиссионсекс](msilockpermissionsex-table.md) для защиты выбранного объекта.</span><span class="sxs-lookup"><span data-stu-id="d8357-105">A database field of the **FormattedSDDLText** data type holds a text string that describes a security descriptor using valid [security descriptor definition language](../secauthz/security-descriptor-definition-language.md) (SDDL.) This data type is used by the SDDLText field of the [MsiLockPermissionsEx Table](msilockpermissionsex-table.md) to secure a selected object.</span></span> <span data-ttu-id="d8357-106">Обратите внимание, что поле Сддлтекст таблицы Мсилоккпермиссионсекс не поддерживает закрытые или открытые свойства.</span><span class="sxs-lookup"><span data-stu-id="d8357-106">Note that the SDDLText field of the MsiLockPermissionsEx Table does not support private or public properties.</span></span>
+
+<span data-ttu-id="d8357-107">**[Установщик Windows 4,5 или более ранней версии](not-supported-in-windows-installer-4-5.md):** Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="d8357-107">**[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported.</span></span> <span data-ttu-id="d8357-108">Этот тип данных доступен, начиная с установщик Windows 5,0.</span><span class="sxs-lookup"><span data-stu-id="d8357-108">This data type is available beginning with Windows Installer 5.0.</span></span>
+
+<span data-ttu-id="d8357-109">Тип данных **форматтедсддлтекст** может содержать строку SDDL, написанную в допустимом [формате строки дескриптора безопасности](../secauthz/security-descriptor-string-format.md).</span><span class="sxs-lookup"><span data-stu-id="d8357-109">The **FormattedSDDLText** data type can hold a SDDL string written in valid [Security Descriptor String Format](../secauthz/security-descriptor-string-format.md).</span></span> <span data-ttu-id="d8357-110">Дополнительные сведения о SDDL см. в разделе " [Управление доступом](../secauthz/access-control.md) " [пакета средств разработки программного обеспечения Microsoft Windows (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/).</span><span class="sxs-lookup"><span data-stu-id="d8357-110">For more information about SDDL, see the [Access Control](../secauthz/access-control.md) section of the [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/).</span></span> <span data-ttu-id="d8357-111">Кроме того, в текстовой строке **форматтедсддлтекст** можно использовать угловые скобки (<>), чтобы указать домен и имя пользователя, чей идентификатор безопасности учетной записи должен быть определен.</span><span class="sxs-lookup"><span data-stu-id="d8357-111">In addition, a **FormattedSDDLText** text string can use angle brackets (<>) to contain the domain and user name of the user whose account SID is to be determined.</span></span>
+
+<span data-ttu-id="d8357-112">Если пользователь с именем пользователя *SampleUser* принадлежит домену с именем *сампледомаин*, то значение **форматтедсддлтекст** может опознать владельца с помощью строки идентификатора безопасности, имени пользователя и имени домена или переменных среды Windows.</span><span class="sxs-lookup"><span data-stu-id="d8357-112">If the user having user name *SampleUser* belongs to a domain named *SampleDomain*, then the **FormattedSDDLText** value can identify the owner using the SID string, the user name and domain name, or the Windows environment variables.</span></span> <span data-ttu-id="d8357-113">Например, можно использовать следующие строки.</span><span class="sxs-lookup"><span data-stu-id="d8357-113">For example, the following strings would be possible.</span></span>
+
+<dl> <span data-ttu-id="d8357-114">O:*\_ \_ Строка идентификатора безопасности владельца* г:Бад: (D; оиЦи; GA;;; BG) (A; ОИЦИ; ГРГВГКС;;; *\_ \_ Строка идентификатора безопасности владельца*) (A; оиЦи; GA;;; BA) С:АРАИ (AU; САФА; FA;;; WD</span><span class="sxs-lookup"><span data-stu-id="d8357-114">O:*owner\_sid\_string* G:BAD:(D;OICI;GA;;;BG)(A;OICI;GRGWGX;;;*owner\_sid\_string*)(A;OICI;GA;;;BA)S:ARAI(AU;SAFA;FA;;;WD)</span></span>  
+<span data-ttu-id="d8357-115">O: <*сампледомаин \\ SAMPLEUSER*>Г:Бад: (D; оиЦи; GA;;; BG) (A; ОИЦИ; ГРГВГКС;;; <*сампледомаин \\ SampleUser*>) (A; оиЦи; GA;;; BA) С:АРАИ (AU; САФА; FA;;; WD</span><span class="sxs-lookup"><span data-stu-id="d8357-115">O:<*SampleDomain\\SampleUser*>G:BAD:(D;OICI;GA;;;BG)(A;OICI;GRGWGX;;;<*SampleDomain\\SampleUser*>)(A;OICI;GA;;;BA)S:ARAI(AU;SAFA;FA;;;WD)</span></span>  
+<span data-ttu-id="d8357-116">O: <\[ % доменпользователя \] \\ \[ % username \]>г:Бад: (D; оиЦи; GA;;; BG) (A; ОИЦИ; ГРГВГКС;;; <\[ % доменпользователя \] \\ \[ % username \]>) (A; оиЦи; GA;;; BA) С:АРАИ (AU; САФА; FA;;; WD</span><span class="sxs-lookup"><span data-stu-id="d8357-116">O:<\[%USERDOMAIN\]\\\[%USERNAME\]>G:BAD:(D;OICI;GA;;;BG)(A;OICI;GRGWGX;;;<\[%USERDOMAIN\]\\\[%USERNAME\]>)(A;OICI;GA;;;BA)S:ARAI(AU;SAFA;FA;;;WD)</span></span>
+</dl>
+
+ 
+
+ 
