@@ -1,0 +1,119 @@
+---
+title: MS-DS-продвижение-атрибут параметров
+description: Для компьютера содержит XML-строку, используемую для повышения делегированного DSA.
+ms.assetid: 5256da96-7713-4bc1-b2e7-a830ad508644
+ms.tgt_platform: multiple
+keywords:
+- MS-DS-продвижение-схема AD атрибута Active Directory
+- Схема AD атрибута msDS-Промотионсеттингс
+topic_type:
+- apiref
+api_name:
+- ms-DS-Promotion-Settings
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 10026c2afca6c10785903f0f4e8cb5c52e9183ae
+ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "105655428"
+---
+# <a name="ms-ds-promotion-settings-attribute"></a>MS-DS-продвижение-атрибут параметров
+
+Для компьютера содержит XML-строку, используемую для повышения делегированного DSA.
+
+
+
+| Ввод | Значение |
+|-------------------|---------------------------------------------|
+| CN                | MS-DS-продвижение-параметры                    |
+| LDAP-отображаемое имя | msDS-Промотионсеттингс                      |
+| Размер              | \-                                          |
+| Привилегия обновления  | \-                                          |
+| Частота обновления  | \-                                          |
+| Attribute-Id      | 1.2.840.113556.1.4.1962                     |
+| System-ID — GUID    | c881b4e2-43c0-4ebe-b9bb-5250aa9b434c        |
+| Синтаксис            | [**String(Юникод)**](s-string-unicode.md) |
+
+
+
+## <a name="implementations"></a>Варианты реализации решения
+
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
+
+## <a name="windows-server-2008"></a>Windows Server 2008
+
+
+
+| Ввод | Значение |
+|------------------------|-------------------------------------------|
+| Идентификатор ссылки                | \-                                        |
+| MAPI-Id                | \-                                        |
+| System-Only            | True                                      |
+| Является однозначным       | True                                      |
+| Индексируется             | Неверно                                     |
+| В глобальном каталоге      | Неверно                                     |
+| NT-Security-дескриптор | О:БАГ: BAD: S:                              |
+| Range-Lower            | \-                                        |
+| Range-Upper            | \-                                        |
+| Search-Flags           | 0x00000000                                |
+| System-Flags           | 0x00000010                                |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> |
+
+
+
+## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
+
+
+
+| Ввод | Значение |
+|------------------------|-------------------------------------------|
+| Идентификатор ссылки                | \-                                        |
+| MAPI-Id                | \-                                        |
+| System-Only            | True                                      |
+| Является однозначным       | True                                      |
+| Индексируется             | Неверно                                     |
+| В глобальном каталоге      | Неверно                                     |
+| NT-Security-дескриптор | О:БАГ: BAD: S:                              |
+| Range-Lower            | \-                                        |
+| Range-Upper            | \-                                        |
+| Search-Flags           | 0x00000000                                |
+| System-Flags           | 0x00000010                                |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> |
+
+
+
+## <a name="windows-server-2012"></a>Windows Server 2012
+
+
+
+| Ввод | Значение |
+|------------------------|-------------------------------------------|
+| Идентификатор ссылки                | \-                                        |
+| MAPI-Id                | \-                                        |
+| System-Only            | True                                      |
+| Является однозначным       | True                                      |
+| Индексируется             | Неверно                                     |
+| В глобальном каталоге      | Неверно                                     |
+| NT-Security-дескриптор | О:БАГ: BAD: S:                              |
+| Range-Lower            | \-                                        |
+| Range-Upper            | \-                                        |
+| Search-Flags           | 0x00000000                                |
+| System-Flags           | 0x00000010                                |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> |
+
+
+
+ 
+
+ 
+
+
+
+
+
