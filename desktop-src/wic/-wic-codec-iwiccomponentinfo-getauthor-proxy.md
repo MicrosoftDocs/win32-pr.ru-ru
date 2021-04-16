@@ -1,0 +1,110 @@
+---
+description: Функция-посредник для метода WebMethod.
+ms.assetid: fb76009e-cc01-4dec-9403-04bf6b53db80
+title: Функция IWICComponentInfo_GetAuthor_Proxy
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IWICComponentInfo_GetAuthor_Proxy
+api_type:
+- DllExport
+api_location:
+- Windowscodecs.dll
+- Wincodec.lib
+ms.openlocfilehash: f181a567ae4089870d324c7a7e0d67a34b965b5a
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105702908"
+---
+# <a name="iwiccomponentinfo_getauthor_proxy-function"></a>\_ \_ Функция прокси Ивиккомпонентинфо-Author
+
+Функция-посредник для [**метода WebMethod**](/windows/desktop/api/Wincodec/nf-wincodec-iwiccomponentinfo-getauthor) .
+
+## <a name="syntax"></a>Синтаксис
+
+
+```C++
+HRESULT IWICComponentInfo_GetAuthor_Proxy(
+  _In_    IWICComponentInfo *THIS_PTR,
+  _In_    UINT              cchAuthor,
+  _Inout_ WCHAR             *wzAuthor,
+  _Out_   UINT              *pcchActual
+);
+```
+
+
+
+## <a name="parameters"></a>Параметры
+
+<dl> <dt>
+
+*Этот \_* \[ Вход в\]
+</dt> <dd>
+
+Тип: **[**ивиккомпонентинфо**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo) \** _
+
+Указатель на этот объект [_ *ивиккомпонентинфо* *](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo) .
+
+</dd> <dt>
+
+*кчаусор* \[ окне\]
+</dt> <dd>
+
+Тип: **uint**
+
+Размер буфера *взаусор* .
+
+</dd> <dt>
+
+*взаусор* \[ в, out\]
+</dt> <dd>
+
+Тип: **WCHAR \** _
+
+Указатель, получающий имя автора компонента.
+
+Возвращаемая строка зависит от языкового стандарта, 1033 по умолчанию.
+
+</dd> <dt>
+
+_pcchActual * \[ out\]
+</dt> <dd>
+
+Тип: **uint \** _
+
+Указатель, получающий фактическую длину имени авторов компонента.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Возвращаемое значение
+
+Тип: _ *HRESULT**
+
+Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
+
+## <a name="remarks"></a>Remarks
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения Windows Vista\]<br/>                                                                                              |
+| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                                                                             |
+| DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Винкодек. lib</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+
