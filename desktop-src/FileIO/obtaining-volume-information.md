@@ -1,0 +1,37 @@
+---
+description: Перед доступом к файлам и каталогам на заданном томе следует определить возможности файловой системы с помощью функции Жетволумеинформатион.
+ms.assetid: 008e0cc4-bc12-47e8-a8b7-d4fa9395fceb
+title: Получение сведений о томе
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8fc5323c3f82db1115a81902f156e9366abad31e
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104542751"
+---
+# <a name="obtaining-volume-information"></a><span data-ttu-id="b1df2-103">Получение сведений о томе</span><span class="sxs-lookup"><span data-stu-id="b1df2-103">Obtaining Volume Information</span></span>
+
+<span data-ttu-id="b1df2-104">Функция [**жетволумеинформатион**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) извлекает сведения о файловой системе на заданном томе.</span><span class="sxs-lookup"><span data-stu-id="b1df2-104">The [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) function retrieves information about the file system on a given volume.</span></span> <span data-ttu-id="b1df2-105">Эти сведения включают имя тома, серийный номер тома, имя файловой системы, флаги файловой системы, максимальную длину имени файла и т. д.</span><span class="sxs-lookup"><span data-stu-id="b1df2-105">This information includes the volume name, volume serial number, file system name, file system flags, maximum length of a file name, and so on.</span></span> <span data-ttu-id="b1df2-106">Перед доступом к файлам и каталогам на заданном томе следует определить возможности файловой системы с помощью функции [**жетволумеинформатион**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) .</span><span class="sxs-lookup"><span data-stu-id="b1df2-106">Before you access files and directories on a given volume, you should determine the capabilities of the file system by using the [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) function.</span></span> <span data-ttu-id="b1df2-107">Эта функция возвращает значения, которые можно использовать для адаптации приложения к эффективной работе с файловой системой.</span><span class="sxs-lookup"><span data-stu-id="b1df2-107">This function returns values that you can use to adapt your application to work effectively with the file system.</span></span>
+
+<span data-ttu-id="b1df2-108">Как правило, следует избегать использования статических буферов для имен файлов и путей.</span><span class="sxs-lookup"><span data-stu-id="b1df2-108">In general, you should avoid using static buffers for file names and paths.</span></span> <span data-ttu-id="b1df2-109">Вместо этого используйте значения, возвращенные [**жетволумеинформатион**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) , для выделения буферов по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="b1df2-109">Instead, use the values returned by [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) to allocate buffers as you need them.</span></span> <span data-ttu-id="b1df2-110">Если необходимо использовать статические буферы, зарезервируйте 256 символов в именах файлов и 260 символов для путей.</span><span class="sxs-lookup"><span data-stu-id="b1df2-110">If you must use static buffers, reserve 256 characters for file names and 260 characters for paths.</span></span>
+
+<span data-ttu-id="b1df2-111">Функции [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) и [**жетвиндовсдиректори**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) извлекают пути к системному каталогу и каталогу Windows соответственно.</span><span class="sxs-lookup"><span data-stu-id="b1df2-111">The [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) and [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) functions retrieve the paths to the system directory and the Windows directory, respectively.</span></span>
+
+<span data-ttu-id="b1df2-112">Функция [**жетдискфриспаце**](/windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespacea) извлекает организационную информацию о томе, включая число байт на сектор, число секторов на кластер, количество свободных кластеров и общее количество кластеров.</span><span class="sxs-lookup"><span data-stu-id="b1df2-112">The [**GetDiskFreeSpace**](/windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespacea) function retrieves organizational information about a volume, including the number of bytes per sector, the number of sectors per cluster, the number of free clusters, and the total number of clusters.</span></span> <span data-ttu-id="b1df2-113">Однако **жетдискфриспаце** не может сообщать о размерах томов, превышающих 2 ГБ.</span><span class="sxs-lookup"><span data-stu-id="b1df2-113">However, **GetDiskFreeSpace** cannot report volume sizes that are greater than 2 GB.</span></span> <span data-ttu-id="b1df2-114">Чтобы обеспечить работу приложения с жесткими дисками с большими возможностями, используйте функцию [**жетдискфриспацеекс**](/windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespaceexa) .</span><span class="sxs-lookup"><span data-stu-id="b1df2-114">To ensure that your application works with large capacity hard drives, use the [**GetDiskFreeSpaceEx**](/windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespaceexa) function.</span></span>
+
+<span data-ttu-id="b1df2-115">Функция [**жетдриветипе**](/windows/desktop/api/FileAPI/nf-fileapi-getdrivetypea) указывает, является ли том, на который ссылается указанная буква диска, съемным, фиксированным, компактным, ОЗУ или сетевым диском.</span><span class="sxs-lookup"><span data-stu-id="b1df2-115">The [**GetDriveType**](/windows/desktop/api/FileAPI/nf-fileapi-getdrivetypea) function indicates whether the volume referenced by the specified drive letter is a removable, fixed, CD-ROM, RAM, or network drive.</span></span>
+
+<span data-ttu-id="b1df2-116">Функция [**жетлогикалдривес**](/windows/desktop/api/FileAPI/nf-fileapi-getlogicaldrives) определяет существующие тома.</span><span class="sxs-lookup"><span data-stu-id="b1df2-116">The [**GetLogicalDrives**](/windows/desktop/api/FileAPI/nf-fileapi-getlogicaldrives) function identifies the volumes present.</span></span> <span data-ttu-id="b1df2-117">Функция [**жетлогикалдривестрингс**](/windows/desktop/api/FileAPI/nf-fileapi-getlogicaldrivestringsw) извлекает строку, завершающуюся нулем, для каждого присутствующего тома.</span><span class="sxs-lookup"><span data-stu-id="b1df2-117">The [**GetLogicalDriveStrings**](/windows/desktop/api/FileAPI/nf-fileapi-getlogicaldrivestringsw) function retrieves a null-terminated string for each volume present.</span></span> <span data-ttu-id="b1df2-118">Используйте эти строки всякий раз, когда требуется корневой каталог.</span><span class="sxs-lookup"><span data-stu-id="b1df2-118">Use these strings whenever a root directory is required.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="b1df2-119">См. также</span><span class="sxs-lookup"><span data-stu-id="b1df2-119">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="b1df2-120">Распознавание файловой системы</span><span class="sxs-lookup"><span data-stu-id="b1df2-120">File System Recognition</span></span>](file-system-recognition.md)
+</dt> </dl>
+
+ 
+
+ 
