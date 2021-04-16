@@ -1,0 +1,51 @@
+---
+description: API-интерфейс CNG предоставляет набор функций, выполняющих базовые криптографические операции, такие как создание хэшей или шифрование и расшифровка данных. Дополнительные сведения об этих функциях см. в разделе CNG Cryptographic-примитивные функции.
+ms.assetid: 925848ae-9f4f-444a-81ff-14a1997434b2
+title: Криптографические примитивы
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: bd0f390b36bc500bf80b5b2ef0065651cf99f5e5
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104539847"
+---
+# <a name="cryptographic-primitives"></a><span data-ttu-id="41b8d-104">Криптографические примитивы</span><span class="sxs-lookup"><span data-stu-id="41b8d-104">Cryptographic Primitives</span></span>
+
+<span data-ttu-id="41b8d-105">API-интерфейс CNG предоставляет набор функций, выполняющих базовые криптографические операции, такие как создание хэшей или шифрование и расшифровка данных.</span><span class="sxs-lookup"><span data-stu-id="41b8d-105">The CNG API provides a set of functions that perform basic cryptographic operations such as creating hashes or encrypting and decrypting data.</span></span> <span data-ttu-id="41b8d-106">Дополнительные сведения об этих функциях см. в разделе [CNG Cryptographic-примитивные функции](cng-cryptographic-primitive-functions.md).</span><span class="sxs-lookup"><span data-stu-id="41b8d-106">For more information about these functions, see [CNG Cryptographic Primitive Functions](cng-cryptographic-primitive-functions.md).</span></span>
+
+<span data-ttu-id="41b8d-107">CNG реализует многочисленные алгоритмы шифрования.</span><span class="sxs-lookup"><span data-stu-id="41b8d-107">CNG implements numerous cryptographic algorithms.</span></span> <span data-ttu-id="41b8d-108">Каждый алгоритм или класс алгоритмов предоставляет свой собственный примитив API.</span><span class="sxs-lookup"><span data-stu-id="41b8d-108">Each algorithm or class of algorithms exposes its own primitive API.</span></span> <span data-ttu-id="41b8d-109">Одновременно можно установить несколько реализаций данного алгоритма. Однако в любой момент времени по умолчанию будет использоваться только одна реализация.</span><span class="sxs-lookup"><span data-stu-id="41b8d-109">Multiple implementations of a given algorithm can be installed at the same time; however, only one implementation will be the default at any given time.</span></span>
+
+<span data-ttu-id="41b8d-110">Каждый класс алгоритма в CNG представлен примитивным маршрутизатором.</span><span class="sxs-lookup"><span data-stu-id="41b8d-110">Each algorithm class in CNG is represented by a primitive router.</span></span> <span data-ttu-id="41b8d-111">Приложения, использующие примитивные функции CNG, будут ссылаться на двоичный файл маршрутизатора Bcrypt.dll в пользовательском режиме или Ksecdd.sys в режиме ядра перед вызовом функций.</span><span class="sxs-lookup"><span data-stu-id="41b8d-111">Applications using the CNG primitive functions will link to the router binary file Bcrypt.dll in user mode, or Ksecdd.sys in kernel mode before calling the functions.</span></span> <span data-ttu-id="41b8d-112">Различные подпрограммы маршрутизации управляют всеми примитивами алгоритмов.</span><span class="sxs-lookup"><span data-stu-id="41b8d-112">Various router routines manage all of the algorithm primitives.</span></span> <span data-ttu-id="41b8d-113">Эти маршрутизаторы отправляют каждую установленную в системе реализацию алгоритма и передают каждый вызов функции соответствующему модулю примитивного поставщика.</span><span class="sxs-lookup"><span data-stu-id="41b8d-113">These routers track each algorithm implementation installed on the system and route each function call to the appropriate primitive provider module.</span></span>
+
+<span data-ttu-id="41b8d-114">CNG предоставляет примитивы для следующих классов алгоритмов.</span><span class="sxs-lookup"><span data-stu-id="41b8d-114">CNG provides primitives for the following classes of algorithms.</span></span>
+
+
+
+| <span data-ttu-id="41b8d-115">Класс Algorithm</span><span class="sxs-lookup"><span data-stu-id="41b8d-115">Algorithm class</span></span>                                                                                                                                                  | <span data-ttu-id="41b8d-116">Описание</span><span class="sxs-lookup"><span data-stu-id="41b8d-116">Description</span></span>                                                                                                  |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="41b8d-117"><span id="Random_number_generator"></span><span id="random_number_generator"></span><span id="RANDOM_NUMBER_GENERATOR"></span>Генератор случайных чисел</span><span class="sxs-lookup"><span data-stu-id="41b8d-117"><span id="Random_number_generator"></span><span id="random_number_generator"></span><span id="RANDOM_NUMBER_GENERATOR"></span>Random number generator</span></span><br/> | <span data-ttu-id="41b8d-118">Создание подключаемого случайного числа (РНГ).</span><span class="sxs-lookup"><span data-stu-id="41b8d-118">Pluggable random number generation (RNG).</span></span><br/>                                                         |
+| <span data-ttu-id="41b8d-119"><span id="Hashing"></span><span id="hashing"></span><span id="HASHING"></span>Хэширования</span><span class="sxs-lookup"><span data-stu-id="41b8d-119"><span id="Hashing"></span><span id="hashing"></span><span id="HASHING"></span>Hashing</span></span><br/>                                                                 | <span data-ttu-id="41b8d-120">Алгоритмы, используемые для хэширования, такие как SHA1 и SHA2.</span><span class="sxs-lookup"><span data-stu-id="41b8d-120">Algorithms used for hashing, such as SHA1 and SHA2.</span></span><br/>                                               |
+| <span data-ttu-id="41b8d-121"><span id="Symmetric_encryption"></span><span id="symmetric_encryption"></span><span id="SYMMETRIC_ENCRYPTION"></span>Симметричное шифрование</span><span class="sxs-lookup"><span data-stu-id="41b8d-121"><span id="Symmetric_encryption"></span><span id="symmetric_encryption"></span><span id="SYMMETRIC_ENCRYPTION"></span>Symmetric encryption</span></span><br/>             | <span data-ttu-id="41b8d-122">Алгоритмы, используемые для симметричного шифрования, такие как AES, 3DES и RC4.</span><span class="sxs-lookup"><span data-stu-id="41b8d-122">Algorithms used for symmetric encryption, such as AES, 3DES, and RC4.</span></span><br/>                             |
+| <span data-ttu-id="41b8d-123"><span id="Asymmetric_encryption"></span><span id="asymmetric_encryption"></span><span id="ASYMMETRIC_ENCRYPTION"></span>Асимметричное шифрование</span><span class="sxs-lookup"><span data-stu-id="41b8d-123"><span id="Asymmetric_encryption"></span><span id="asymmetric_encryption"></span><span id="ASYMMETRIC_ENCRYPTION"></span>Asymmetric encryption</span></span><br/>         | <span data-ttu-id="41b8d-124">Алгоритмы асимметричного (открытого ключа), поддерживающие шифрование, например RSA.</span><span class="sxs-lookup"><span data-stu-id="41b8d-124">Asymmetric (public key) algorithms that support encryption, such as RSA.</span></span><br/>                          |
+| <span data-ttu-id="41b8d-125"><span id="Signature"></span><span id="signature"></span><span id="SIGNATURE"></span>Образец</span><span class="sxs-lookup"><span data-stu-id="41b8d-125"><span id="Signature"></span><span id="signature"></span><span id="SIGNATURE"></span>Signature</span></span><br/>                                                         | <span data-ttu-id="41b8d-126">Алгоритмы подписи, такие как DSA и ECDSA.</span><span class="sxs-lookup"><span data-stu-id="41b8d-126">Signature algorithms such as DSA and ECDSA.</span></span> <span data-ttu-id="41b8d-127">Этот класс также можно использовать с RSA.</span><span class="sxs-lookup"><span data-stu-id="41b8d-127">This class can also be used with RSA.</span></span><br/>                 |
+| <span data-ttu-id="41b8d-128"><span id="Secret_agreement"></span><span id="secret_agreement"></span><span id="SECRET_AGREEMENT"></span>Секретное соглашение</span><span class="sxs-lookup"><span data-stu-id="41b8d-128"><span id="Secret_agreement"></span><span id="secret_agreement"></span><span id="SECRET_AGREEMENT"></span>Secret agreement</span></span><br/>                             | <span data-ttu-id="41b8d-129">Алгоритмы секретного соглашения, такие как Diffie-Hellman (DH) и эллиптическая кривая Diffie-Hellman (ECDH).</span><span class="sxs-lookup"><span data-stu-id="41b8d-129">Secret agreement algorithms such as Diffie-Hellman (DH) and elliptic curve Diffie-Hellman (ECDH).</span></span><br/> |
+
+
+
+ 
+
+<span data-ttu-id="41b8d-130">На следующем рисунке показана схема и функция криптографических примитивов CNG.</span><span class="sxs-lookup"><span data-stu-id="41b8d-130">The following illustration shows the design and function of the CNG cryptographic primitives.</span></span>
+
+![Проектирование и функционирование криптографических примитивов CNG](images/ssdk-cng1c.png)
+
+<span data-ttu-id="41b8d-132">Файл заголовка BCrypt. h определяет константу **\_ \_ поставщика простых примитивов MS** как "поставщик простых поставщиков (Майкрософт)".</span><span class="sxs-lookup"><span data-stu-id="41b8d-132">The header file Bcrypt.h defines the **MS\_PRIMITIVE\_PROVIDER** constant as "Microsoft Primitive Provider".</span></span> <span data-ttu-id="41b8d-133">Чтобы использовать поставщик примитивов Майкрософт, передайте это значение в [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider).</span><span class="sxs-lookup"><span data-stu-id="41b8d-133">To use the Microsoft Primitive Provider, pass this value to [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider).</span></span>
+
+ 
+
+ 
+
+
+
+
