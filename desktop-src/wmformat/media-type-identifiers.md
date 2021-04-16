@@ -1,6 +1,6 @@
 ---
-title: Идентификаторы типов мультимедиа
-description: Идентификаторы типов мультимедиа
+title: Идентификаторы типов носителей для пакета SDK Windows Media Format
+description: Сведения об идентификаторах типов носителей, используемых для определения формата носителя, используемого с пакетом SDK Windows Media Format.
 ms.assetid: 5d903953-cd6b-4fba-b877-8c7ad3aeb87d
 keywords:
 - Windows Media Format SDK, идентификаторы типов мультимедиа
@@ -9,14 +9,14 @@ keywords:
 - типы носителей, идентификаторы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 615bb90454da8d06242408db3677e53566b08b59
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f8e4c01ba134dec4d4474a1949310fd5217cf7e6
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654245"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106187821"
 ---
-# <a name="media-type-identifiers"></a>Идентификаторы типов мультимедиа
+# <a name="media-type-identifiers-for-the-windows-media-format-sdk"></a>Идентификаторы типов носителей для пакета SDK Windows Media Format
 
 Для определения формата носителя, используемого с пакетом SDK Windows Media Format, необходимо использовать типы носителей. Описание различных типов носителей см. в разделе [типы носителей](media-types.md).
 
@@ -81,9 +81,9 @@ ms.locfileid: "105654245"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -93,9 +93,9 @@ ms.locfileid: "105654245"
 [**Типы носителей**](media-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

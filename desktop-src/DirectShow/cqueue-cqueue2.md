@@ -1,7 +1,7 @@
 ---
-description: Метод конструктора.
+description: Этот метод конструктора Ккуеуе. Ккуеуе (Вксутил. h) не имеет параметров.
 ms.assetid: 5ad31d31-7c1c-4877-bc39-218859e4137c
-title: Конструктор Ккуеуе. Ккуеуе (Вксутил. h)
+title: Ккуеуе. Ккуеуе-конструктор (Вксутил. h) — нет параметров
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3dd9ab7ed2122697254e4bd476ccfaac515902a6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: afdb22dc265989e923ab285a190753fd63c6842d
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669091"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106187901"
 ---
-# <a name="cqueuecqueue-constructor-wxutilh"></a>Конструктор Ккуеуе. Ккуеуе (Вксутил. h)
+# <a name="cqueuecqueue-constructor-wxutilh---no-parameters"></a>Ккуеуе. Ккуеуе-конструктор (Вксутил. h) — нет параметров
 
 Метод конструктора.
 
@@ -40,7 +40,7 @@ CQueue();
 
 Этот конструктор не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В качестве размера очереди задано значение по УМОЛЧАНИю \_ куеуесизе.
 
@@ -50,10 +50,8 @@ CQueue();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксутил. h (включение Streams. h)</dt> </dl>                                                                                    |
-| Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
-
-
+| Заголовок  | Вксутил. h (включение Streams. h)                                                                                   |
+| Библиотека | Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
 ## <a name="see-also"></a>См. также раздел
 

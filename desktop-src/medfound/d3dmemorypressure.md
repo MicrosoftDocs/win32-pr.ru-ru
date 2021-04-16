@@ -1,7 +1,7 @@
 ---
-description: Содержит данные для отчетов о нехватке памяти.
+description: Эта структура содержит данные для отчетов о нехватке памяти.
 ms.assetid: 42cf0922-53cc-48b9-8359-b88583ef5f1c
-title: Структура D3DMEMORYPRESSURE (D3d9types. h)
+title: Структура D3DMEMORYPRESSURE (D3d9types. h) для Microsoft Media Foundation
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,14 +13,14 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 6d92cad29bda795a9589dbe0c94863bd743505bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7400c4822b61a84ab288f0424cfa84e825e69dc9
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143150"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106188029"
 ---
-# <a name="d3dmemorypressure-structure-d3d9typesh"></a>Структура D3DMEMORYPRESSURE (D3d9types. h)
+# <a name="d3dmemorypressure-structure-d3d9typesh-for-microsoft-media-foundation"></a>Структура D3DMEMORYPRESSURE (D3d9types. h) для Microsoft Media Foundation
 
 Содержит данные для отчетов о нехватке памяти.
 
@@ -68,9 +68,9 @@ typedef struct _D3DMEMORYPRESSURE {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                 |
-| Header<br/>                   | <dl> <dt>D3d9types. h (включение D3d9. h)</dt> </dl> |
+| Минимальная версия клиента | \[Только классические приложения Windows 7\]                                                              |
+| Минимальная версия сервера | Только классические приложения Windows Server 2008 R2 \[\]                                                 |
+| Заголовок                  | D3d9types. h (включение D3d9. h) |
 
 
 

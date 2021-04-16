@@ -1,7 +1,7 @@
 ---
-description: Метод Жетмедиатипе извлекает предпочтительный тип мультимедиа.
+description: Метод Жетмедиатипе извлекает предпочтительный тип мультимедиа. Этот метод использует параметры *интерфейс* и *пмедиатипе* .
 ms.assetid: c5c5f498-a9a3-4ce7-8cf5-941397aa649d
-title: Метод Ксаурцестреам. Жетмедиатипе (Source. h)
+title: Ксаурцестреам. Жетмедиатипе, метод (Source. h) — параметры интерфейс и Пмедиатипе
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8475a26bf10ff10993925a5e313c941dcce720bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d8936f08b952af069812859736a6a13ea9c0e4e
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657628"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106187941"
 ---
-# <a name="csourcestreamgetmediatype-method-sourceh"></a>Метод Ксаурцестреам. Жетмедиатипе (Source. h)
+# <a name="csourcestreamgetmediatype-method-sourceh---iposition-and-pmediatype-parameters"></a>Ксаурцестреам. Жетмедиатипе, метод (Source. h) — параметры интерфейс и Пмедиатипе
 
 Метод **жетмедиатипе** извлекает предпочтительный тип мультимедиа.
 
@@ -74,7 +74,7 @@ virtual HRESULT GetMediaType(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Существует две версии этого метода. Одна версия переопределяет метод [**кбасепин:: жетмедиатипе**](cbasepin-getmediatype.md) и принимает значение индекса в качестве параметра. Другая версия предназначена для получения одного типа мультимедиа, поэтому в нем отсутствует параметр index.
 
@@ -89,10 +89,8 @@ virtual HRESULT GetMediaType(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Source. h (включение Streams. h)</dt> </dl>                                                                                    |
-| Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
-
-
+| Заголовок  | Source. h (включение Streams. h)                                                                                    |
+| Библиотека | Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
 ## <a name="see-also"></a>См. также раздел
 

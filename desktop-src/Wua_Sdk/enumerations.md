@@ -1,17 +1,17 @@
 ---
 description: Перечисления (элементы управления и страницы свойств)
 ms.assetid: 2ac80d0f-94c2-4d70-a48a-1b0060f91902
-title: Перечисления
+title: Элементы управления и перечисление страниц свойств на WUA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2dd179b02d1d141876296c9942a253b225266bf
-ms.sourcegitcommit: aab10824ee4883c70e1afba428b679a17915a5aa
+ms.openlocfilehash: 99c2058023d636e6680c36d6032e11f14727a3e7
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "104081836"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106188037"
 ---
-# <a name="enumerations"></a>Перечисления
+# <a name="wua-controls-and-property-pages-enumerations"></a>Элементы управления и перечисление страниц свойств на WUA
 
 Агент Центр обновления Windows (WUA) использует перечисления, перечисленные в следующей таблице, чтобы представить состояние операций.
 
