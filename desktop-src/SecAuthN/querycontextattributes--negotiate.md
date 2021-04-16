@@ -1,0 +1,153 @@
+---
+description: Позволяет транспортному приложению запрашивать согласованный [*пакет безопасности*](../secgloss/s-gly.md) для определенных атрибутов [*контекста безопасности*](../secgloss/s-gly.md).
+ms.assetid: 9e499161-d5fb-4a64-ac36-f82031a3a7c9
+title: Функция QueryContextAttributes (Negotiate) (Sspi.h)
+ms.topic: reference
+ms.date: 07/25/2019
+ms.openlocfilehash: e46d49a8e1219c35073df96193612b2e3497b87d
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105719332"
+---
+# <a name="querycontextattributes-negotiate-function"></a>Функция QueryContextAttributes (Negotiate)
+
+Функция **QueryContextAttributes (Negotiate)** позволяет транспортному приложению запрашивать согласованный [*пакет безопасности*](../secgloss/s-gly.md) для определенных [*атрибутов*](../secgloss/a-gly.md#_security_attribute_gly) [*контекста безопасности*](../secgloss/s-gly.md).
+
+## <a name="syntax"></a>Синтаксис
+
+
+```C++
+SECURITY_STATUS SEC_ENTRY QueryContextAttributes(
+  _In_  PCtxtHandle phContext,
+  _In_  ULONG       ulAttribute,
+  _Out_ PVOID       pBuffer
+);
+```
+
+
+
+## <a name="parameters"></a>Параметры
+
+<dl> <dt>
+
+*фконтекст* \[ окне\]
+</dt> <dd>
+
+Описатель [*контекста безопасности*](../secgloss/s-gly.md) для запроса.
+
+</dd> <dt>
+
+*улаттрибуте* \[ окне\]
+</dt> <dd>
+
+Указывает атрибут возвращаемого контекста. Этот параметр может принимать одно из указанных ниже значений.
+
+
+
+| Значение                                                                                                                                                                                                                                                                                          | Значение                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span id="SECPKG_ATTR_ACCESS_TOKEN"></span><span id="secpkg_attr_access_token"></span><dl> <dt>**SECPKG \_ \_ \_ Маркер доступа attr**</dt> <dt>18</dt> </dl>                                       | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ AccessToken**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_accesstoken) .<br/> Возвращает маркер маркера доступа.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| <span id="SECPKG_ATTR_AUTHORITY"></span><span id="secpkg_attr_authority"></span><dl> <dt>**SECPKG \_ \_Полномочия на attr**</dt> <dt>6</dt> </dl>                                                  | Параметр *pBuffer* содержит указатель на структуру [**\_ центра секпкгконтекст**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_authoritya) .<br/> Запрашивает имя центра проверки подлинности.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| <span id="SECPKG_ATTR_CLIENT_SPECIFIED_TARGET"></span><span id="secpkg_attr_client_specified_target"></span><dl> <dt>**SECPKG \_ \_Указанный клиент attr имеет \_ \_ целевой объект**</dt> <dt>27</dt> </dl>     | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ клиентспеЦифиедтаржет**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_clientspecifiedtarget) , представляющую имя участника-службы (SPN) первоначального целевого объекта, предоставленного клиентом. <br/> Это значение поддерживается только при использовании привязок каналов.<br/> Windows **server 2008, Windows Vista, Windows server 2003 и Windows XP:** Это значение не поддерживается.<br/>                                                                                                                                                                                                                                                                                                                                                                    |
+| <span id="SECPKG_ATTR_CREDS_2"></span><span id="secpkg_attr_creds_2"></span><dl> <dt>**SECPKG \_ \_ \_**</dt> Учетные <dt>0x80000086и</dt> с учетом атрибутов 2 </dl>                                              | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ клиенткредс**](/windows/win32/api/credssp/ns-credssp-secpkgcontext_clientcreds) , указывающую учетные данные клиента. <br/> Если учетные данные клиента являются именем пользователя и паролем, то буфер является упакованной структурой [**\_ интерактивного \_ входа в Kerberos**](/windows/win32/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon) .<br/> Если учетные данные клиента имеют имя пользователя и PIN-код, буфер является упакованной структурой [**\_ \_ входа в Kerberos сертификат**](/windows/win32/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon) .<br/> Если учетные данные клиента являются учетными данными удостоверения в сети, то буфер представляет собой EX2 структуру с упакованной [**\_ \_ \_ идентификацией \_ с помощью WinNT auth Identity**](/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2) .<br/> Этот атрибут поддерживается только на сервере CredSSP.<br/> **Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 и Windows XP:** Это значение не поддерживается.<br/> |
+| <span id="SECPKG_ATTR_DCE_INFO"></span><span id="secpkg_attr_dce_info"></span><dl> <dt>**SECPKG \_ ATTR \_ , \_ сведения**</dt> <dt>3</dt> </dl>                                                    | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ дцеинфо**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_dceinfo) .<br/> Запросы на данные авторизации, используемые службами DCE.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| <span id="SECPKG_ATTR_FLAGS"></span><span id="secpkg_attr_flags"></span><dl> <dt>**SECPKG \_ \_Флаги attr**</dt> <dt>14</dt> </dl>                                                             | Параметр *pBuffer* содержит указатель на структуру [**\_ флагов секпкгконтекст**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_flags) .<br/> Возвращает сведения о согласованных флагах контекста.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| <span id="SECPKG_ATTR_KEY_INFO"></span><span id="secpkg_attr_key_info"></span><dl> <dt>**SECPKG \_ \_ \_ Сведения о ключе attr**</dt> <dt>5</dt> </dl>                                                    | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ KeyInfo**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_keyinfoa) .<br/> Запрашивает сведения о ключах, используемых в [*контексте безопасности*](../secgloss/s-gly.md).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <span id="SECPKG_ATTR_LAST_CLIENT_TOKEN_STATUS"></span><span id="secpkg_attr_last_client_token_status"></span><dl> <dt>**SECPKG \_ \_Состояние последнего \_ \_ маркера \_ клиента attr**</dt> <dt>30</dt> </dl> | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ ластклиенттокенстатус**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_lastclienttokenstatus) , которая указывает, является ли маркер последнего вызова функции [**InitializeSecurityContext**](initializesecuritycontext--general.md) последним токеном от клиента.<br/> Windows **server 2008, Windows Vista, Windows server 2003 и Windows XP:** Это значение не поддерживается.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| <span id="SECPKG_ATTR_LIFESPAN"></span><span id="secpkg_attr_lifespan"></span><dl> <dt>**SECPKG \_ Срок \_ существования attr**</dt> <dt>2</dt> </dl>                                                     | Параметр *pBuffer* содержит указатель на структуру секпкгконтекст в течение срока [**\_ существования**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_lifespan) .<br/> Запрашивает жизненный диапазон контекста.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <span id="SECPKG_ATTR_LOCAL_CRED"></span><span id="secpkg_attr_local_cred"></span><dl> <dt>**локальный учет SECPKG \_ attr \_ \_**</dt> </dl>                                                                                                     | Параметр *pBuffer* содержит указатель на структуру **секпкгконтекст \_ локалкредентиалинфо** . (Является устаревшим.)<br/> Заменяется \_ \_ \_ контекстом локального сертификата SECPKG attr \_ .<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| <span id="SECPKG_ATTR_NAMES"></span><span id="secpkg_attr_names"></span><dl> <dt>**SECPKG \_ \_Имена attr**</dt> <dt>1</dt> </dl>                                                              | Параметр *pBuffer* содержит указатель на структуру [**\_ имен секпкгконтекст**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_namesa) .<br/> Запрашивает имя, связанное с контекстом.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| <span id="SECPKG_ATTR_NATIVE_NAMES"></span><span id="secpkg_attr_native_names"></span><dl> <dt>**SECPKG \_ \_Собственные \_ имена attr**</dt> <dt>13</dt> </dl>                                       | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ нативенамес**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-_secpkgcontext_nativenamesa) .<br/> Возвращает имя участника (CNAME) из исходящего билета.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| <span id="SECPKG_ATTR_NEGOTIATION_INFO"></span><span id="secpkg_attr_negotiation_info"></span><dl> <dt>**SECPKG \_ \_ \_ Сведения о согласовании attr**</dt> <dt>12</dt> </dl>                           | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ неготиатионинфо**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_negotiationinfoa) .<br/> Возвращает сведения о [*пакете безопасности*](../secgloss/s-gly.md) , который будет использоваться в процессе согласования, и текущее состояние согласования для использования этого пакета.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| <span id="SECPKG_ATTR_PACKAGE_INFO"></span><span id="secpkg_attr_package_info"></span><dl> <dt>**SECPKG \_ \_ \_ Сведения о пакете attr**</dt> <dt>10</dt> </dl>                                       | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ PackageInfo**](/windows/win32/api/sspi/ns-sspi-secpkginfoa) .<br/> Возвращает сведения о используемом поставщике служб.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| <span id="SECPKG_ATTR_PASSWORD_EXPIRY"></span><span id="secpkg_attr_password_expiry"></span><dl> <dt>**SECPKG \_ \_ \_ Срок действия пароля attr истек**</dt> <dt>8</dt> </dl>                               | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ пассвордекспири**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_passwordexpiry) .<br/> Возвращает сведения об истечении срока действия пароля.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| <span id="SECPKG_ATTR_ROOT_STORE"></span><span id="secpkg_attr_root_store"></span><dl> <dt>**SECPKG \_ 0x55 \_ корневого \_ хранилища attr**</dt> <dt></dt> </dl>                                           | Параметр *pBuffer* содержит указатель на **хцертконтекст**. <br/> Находит контекст сертификата, который содержит сертификат, предоставленный корневым хранилищем.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| <span id="SECPKG_ATTR_SESSION_KEY"></span><span id="secpkg_attr_session_key"></span><dl> <dt>**SECPKG \_ \_ \_ Ключ сеанса attr**</dt> <dt>9</dt> </dl>                                           | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ сессионкэй**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_sessionkey) .<br/> Возвращает сведения о [*ключах сеанса*](../secgloss/s-gly.md).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| <span id="SECPKG_ATTR_SIZES"></span><span id="secpkg_attr_sizes"></span><dl> <dt>**SECPKG \_ ATTR, \_ размеры**</dt> <dt>0</dt> </dl>                                                              | Параметр *pBuffer* содержит указатель на структуру [**\_ размеров секпкгконтекст**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_sizes) .<br/> Запрашивает размеры структур, используемых в функциях для каждого сообщения.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| <span id="SECPKG_ATTR_TARGET_INFORMATION"></span><span id="secpkg_attr_target_information"></span><dl> <dt>**SECPKG \_ \_Целевая \_ информация attr**</dt> <dt>17</dt> </dl>                     | Параметр *pBuffer* содержит указатель на структуру [**секпкгконтекст \_ таржетинформатион**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_targetinformation) .<br/> Возвращает сведения об имени удаленного сервера.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+
+
+ 
+
+</dd> <dt>
+
+*pBuffer* \[ заполняет\]
+</dt> <dd>
+
+Указатель на структуру, которая получает атрибуты. Тип структуры, на которую указывает, зависит от значения, указанного в параметре *улаттрибуте* .
+
+</dd> </dl>
+
+## <a name="return-value"></a>Возвращаемое значение
+
+Если функция выполнена успешно, возвращается значение в СЕКУНДах, равное \_ E \_ ОК.
+
+Если функция завершается ошибкой, возвращаемое значение является ненулевым кодом ошибки.
+
+## <a name="remarks"></a>Комментарии
+
+Структура, на которую указывает параметр *pBuffer* , зависит от запрашиваемого атрибута. Вызывающий объект должен выделить структуру *pBuffer* , но SSP выделяет всю память, необходимую для хранения членов переменной размера структуры *pBuffer* . Память, выделенная поставщиком общих служб, может быть освобождена путем вызова функции [**фриконтекстбуффер**](/windows/win32/api/sspi/nf-sspi-freecontextbuffer) .
+
+После \_ \_ \_ \_ считывания значения контекста удаленного сертификата SECPKG attr или \_ локального сертификата SECPKG attr для \_ \_ \_ элемента **хцертсторе** будет задан маркер хранилища сертификатов, содержащего промежуточные сертификаты, если таковые имеются. Кроме того, приложение отвечает за вызов [**цертфрицертификатеконтекст**](/windows/win32/api/wincrypt/nf-wincrypt-certfreecertificatecontext) для освобождения памяти, используемой контекстом сертификата.
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------|
+| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                            |
+| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                   |
+| Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
+| DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
+| Имя в кодировке Юникод и ANSI<br/>   | **Куериконтекстаттрибутесв** (Юникод) и **куериконтекстаттрибутеса** (ANSI)<br/>                |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[Функции SSPI](authentication-functions.md#sspi-functions)
+</dt> <dt>
+
+[**\_контекст сертификата**](/windows/win32/api/wincrypt/ns-wincrypt-cert_context)
+</dt> <dt>
+
+[**фриконтекстбуффер**](/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
+</dt> <dt>
+
+[**\_Центр секпкгконтекст**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_authoritya)
+</dt> <dt>
+
+[**Секпкгконтекст \_ ConnectionInfo**](/windows/win32/api/schannel/ns-schannel-secpkgcontext_connectioninfo)
+</dt> <dt>
+
+[**Секпкгконтекст \_ дцеинфо**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_dceinfo)
+</dt> <dt>
+
+[**Секпкгконтекст \_ иссуерлистинфоекс**](/windows/win32/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex)
+</dt> <dt>
+
+[**Секпкгконтекст \_ KeyInfo**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_keyinfoa)
+</dt> <dt>
+
+[**Срок \_ существования секпкгконтекст**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_lifespan)
+</dt> <dt>
+
+[**\_Имена секпкгконтекст**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_namesa)
+</dt> <dt>
+
+[**\_Размеры секпкгконтекст**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_sizes)
+</dt> <dt>
+
+[**Секпкгконтекст \_ стреамсизес**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_streamsizes)
+</dt> </dl>
+
+ 
+
+ 
