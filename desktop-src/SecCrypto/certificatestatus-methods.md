@@ -1,0 +1,29 @@
+---
+description: Объект Цертификатестатус предоставляет следующие свойства.
+ms.assetid: 6CF8E280-01F6-43E3-9F17-64CF7D707A59
+title: Методы Цертификатестатус
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: a96798c41632a77abe87da2c275289aae6bc4fa4
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105664010"
+---
+# <a name="certificatestatus-methods"></a>Методы Цертификатестатус
+
+Объект [**цертификатестатус**](certificatestatus.md) предоставляет следующие свойства.
+
+## <a name="in-this-section"></a>Содержание раздела
+
+-   [**Метод АппликатионполиЦиес**](certificatestatus-applicationpolicies.md)
+-   [**Метод ЦертификатеполиЦиес**](certificatestatus-certificatepolicies.md)
+-   [**Метод EKU**](certificatestatus-eku.md)
+
+ 
+
+ 
+
+
+
