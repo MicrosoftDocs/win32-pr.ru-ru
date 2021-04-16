@@ -1,0 +1,45 @@
+---
+title: Общие сведения об API-интерфейсе для основного образа
+description: Эта документация посвящена описанию внедрения IMAPI для Microsoft (IMAPIv1) в Adaptec.
+ms.assetid: 596ec3ea-17d1-4e60-8789-528ff00ae421
+keywords:
+- API-интерфейс для создания образов, описанный в IMAPI
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3db1dc7846d2e47483abf2ca8856d593b874467f
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104566263"
+---
+# <a name="about-the-image-mastering-api"></a><span data-ttu-id="117c1-104">Общие сведения об API-интерфейсе для основного образа</span><span class="sxs-lookup"><span data-stu-id="117c1-104">About the Image Mastering API</span></span>
+
+<span data-ttu-id="117c1-105">Эта документация посвящена описанию внедрения IMAPI для Microsoft (IMAPIv1) в Adaptec.</span><span class="sxs-lookup"><span data-stu-id="117c1-105">This documentation focuses on a description of the Adaptec implementation of IMAPI for Microsoft (IMAPIv1).</span></span> <span data-ttu-id="117c1-106">В этом документе содержатся описания четырех основных COM-объектов и их интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="117c1-106">As such, descriptions of the four main COM objects and their interfaces are included in this document.</span></span> <span data-ttu-id="117c1-107">Ниже приведены четыре основных объекта: **мсдискмастеробж**, **мсдискрекордеробж**, **мсдисксташобж** и **мсбурненгинеобж**.</span><span class="sxs-lookup"><span data-stu-id="117c1-107">The four main objects are as follows: **MSDiscMasterObj**, **MSDiscRecorderObj**, **MSDiscStashObj**, and **MSBurnEngineObj**.</span></span>
+
+<span data-ttu-id="117c1-108">В системе может быть создан несколько объектов **мсдискмастеробж** , но только одно приложение может получить доступ к средству записи за раз.</span><span class="sxs-lookup"><span data-stu-id="117c1-108">There can be multiple **MSDiscMasterObj** objects instantiated on a system, but only one application can access a recorder at a time.</span></span> <span data-ttu-id="117c1-109">**Мсдискмастеробж** реализует несколько интерфейсов, как показано на следующей схеме объектов.</span><span class="sxs-lookup"><span data-stu-id="117c1-109">The **MSDiscMasterObj** implements multiple interfaces, as shown in the following object diagram.</span></span>
+
+![мсдискмастеробж реализует несколько интерфейсов.](images/imapi.png)
+
+<span data-ttu-id="117c1-111">Приложения используют интерфейс [**идискмастер**](/windows/desktop/api/Imapi/nn-imapi-idiscmaster) для выполнения следующих задач:</span><span class="sxs-lookup"><span data-stu-id="117c1-111">Applications use the [**IDiscMaster**](/windows/desktop/api/Imapi/nn-imapi-idiscmaster) interface to perform the following tasks:</span></span>
+
+-   <span data-ttu-id="117c1-112">Открытие IMAPI</span><span class="sxs-lookup"><span data-stu-id="117c1-112">Open IMAPI</span></span>
+-   <span data-ttu-id="117c1-113">Перечисление поддерживаемых форматов (Жолиет и Редбук)</span><span class="sxs-lookup"><span data-stu-id="117c1-113">Enumerate supported formats (Joliet and Redbook)</span></span>
+-   <span data-ttu-id="117c1-114">Выберите формат</span><span class="sxs-lookup"><span data-stu-id="117c1-114">Select a format</span></span>
+-   <span data-ttu-id="117c1-115">Получение списка средств записи</span><span class="sxs-lookup"><span data-stu-id="117c1-115">Get a list of recorders</span></span>
+-   <span data-ttu-id="117c1-116">Выбор средства записи</span><span class="sxs-lookup"><span data-stu-id="117c1-116">Select a recorder</span></span>
+-   <span data-ttu-id="117c1-117">Начать запись</span><span class="sxs-lookup"><span data-stu-id="117c1-117">Start a burn</span></span>
+
+<span data-ttu-id="117c1-118">Интерфейсы [**ижолиетдискмастер**](/windows/desktop/api/Imapi/nn-imapi-ijolietdiscmaster) и [**иредбукдискмастер**](/windows/desktop/api/Imapi/nn-imapi-iredbookdiscmaster) возвращаются в приложение через интерфейс [**идискмастер**](/windows/desktop/api/Imapi/nn-imapi-idiscmaster) при выборе формата.</span><span class="sxs-lookup"><span data-stu-id="117c1-118">The [**IJolietDiscMaster**](/windows/desktop/api/Imapi/nn-imapi-ijolietdiscmaster) and [**IRedbookDiscMaster**](/windows/desktop/api/Imapi/nn-imapi-iredbookdiscmaster) interfaces are returned to an application through the [**IDiscMaster**](/windows/desktop/api/Imapi/nn-imapi-idiscmaster) interface when a format is selected.</span></span> <span data-ttu-id="117c1-119">Эти интерфейсы управляют содержимым данных или аудио-диска соответственно.</span><span class="sxs-lookup"><span data-stu-id="117c1-119">These interfaces control the content of a data or audio disc, respectively.</span></span> <span data-ttu-id="117c1-120">Не ожидается, что каждое приложение понимает определенные интерфейсы формата.</span><span class="sxs-lookup"><span data-stu-id="117c1-120">It is not expected that every application understand the specific format interfaces.</span></span> <span data-ttu-id="117c1-121">Приложения могут обращаться к универсальным свойствам интерфейса **ижолиетдискмастер** , таким как имя тома или имя устаревшего файла.</span><span class="sxs-lookup"><span data-stu-id="117c1-121">Applications can access generic properties of the **IJolietDiscMaster** interface, such as volume name or legacy file name.</span></span>
+
+<span data-ttu-id="117c1-122">Доступ к объектам **мсдискрекордеробж** осуществляется через интерфейс [**идискрекордер**](/windows/desktop/api/Imapi/nn-imapi-idiscrecorder) .</span><span class="sxs-lookup"><span data-stu-id="117c1-122">**MSDiscRecorderObj** objects are accessed through the [**IDiscRecorder**](/windows/desktop/api/Imapi/nn-imapi-idiscrecorder) interface.</span></span> <span data-ttu-id="117c1-123">Каждое устройство CD-R или CD-RW, совместимое с IMAPI, имеет соответствующий объект **мсдискрекордеробж** .</span><span class="sxs-lookup"><span data-stu-id="117c1-123">Every CD-R or CD-RW device that is compatible with IMAPI has a corresponding **MSDiscRecorderObj** object.</span></span> <span data-ttu-id="117c1-124">Приложение использует указатели на интерфейс **идискрекордер** для этих объектов, чтобы выбрать устройство, которое будет использоваться IMAPI для записи компакт-диска.</span><span class="sxs-lookup"><span data-stu-id="117c1-124">An application uses pointers to the **IDiscRecorder** interface on those objects to select which device will be used by IMAPI to record a CD.</span></span> <span data-ttu-id="117c1-125">Кроме того, приложения могут обращаться к универсальным свойствам средства записи через **идискрекордер**.</span><span class="sxs-lookup"><span data-stu-id="117c1-125">In addition, applications can access generic properties of a recorder through **IDiscRecorder**.</span></span> <span data-ttu-id="117c1-126">Сюда входят такие свойства, как скорость записи или другие параметры записи.</span><span class="sxs-lookup"><span data-stu-id="117c1-126">This includes such properties as writer speed or other burn parameters.</span></span>
+
+<span data-ttu-id="117c1-127">Остальные объекты, **мсдисксташобж** и **мсбурненгинеобж**, являются внутренними объектами, к которым обращается IMAPI.</span><span class="sxs-lookup"><span data-stu-id="117c1-127">The remaining objects, **MSDiscStashObj** and **MSBurnEngineObj**, are internal objects accessed by IMAPI.</span></span> <span data-ttu-id="117c1-128">Они упомянуты здесь только для уточнения архитектуры IMAPI.</span><span class="sxs-lookup"><span data-stu-id="117c1-128">They are mentioned here only to clarify the IMAPI architecture.</span></span> <span data-ttu-id="117c1-129">**Мсдисксташобж** представляет необработанный файл  размером до 800 МБ, который используется **мсдискмастеробж** для создания аудио-изображений или записываемых дисков данных.</span><span class="sxs-lookup"><span data-stu-id="117c1-129">The **MSDiscStashObj** represents (through the **IDiscStash** interface) a raw file up to 800 MB in size that is used by **MSDiscMasterObj** to create audio images or data discs to be burned.</span></span> <span data-ttu-id="117c1-130">Скрытый объект передается в **мсбурненгинеобж** (через интерфейс **имсбурненгине** ) при запросе записи от обработчика нижнего уровня.</span><span class="sxs-lookup"><span data-stu-id="117c1-130">The stash is passed to the **MSBurnEngineObj** (through the **IMSBurnEngine** interface) when a burn is requested from the lower-level engine.</span></span> <span data-ttu-id="117c1-131">Объект **мсбурненгинеобж** ждет, что содержимое файла скрытия будет в известном формате.</span><span class="sxs-lookup"><span data-stu-id="117c1-131">The **MSBurnEngineObj** object expects the contents of the stash to be in a known format.</span></span> <span data-ttu-id="117c1-132">В этом отношении **мсдискмастеробж** и **мсбурненгинеобж** имеют контракт, относящийся к содержимому образа.</span><span class="sxs-lookup"><span data-stu-id="117c1-132">In this respect, **MSDiscMasterObj** and **MSBurnEngineObj** have a contract regarding the contents of the stash.</span></span>
+
+ 
+
+ 
+
+
+
+

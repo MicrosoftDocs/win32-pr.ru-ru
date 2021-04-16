@@ -1,0 +1,45 @@
+---
+description: Schannel имеет четко определенный набор поведений для неполных или избыточных сведений, включаемых в Входные буферы для этих функций.
+ms.assetid: 5fad1e76-6520-4ff7-b2b0-2cc2061062a1
+title: Дополнительные буферы, возвращаемые SChannel
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5b0c9ce7a468b1b04389ad19f91785b64fb50e74
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105651102"
+---
+# <a name="extra-buffers-returned-by-schannel"></a><span data-ttu-id="93220-103">Дополнительные буферы, возвращаемые SChannel</span><span class="sxs-lookup"><span data-stu-id="93220-103">Extra Buffers Returned by Schannel</span></span>
+
+<span data-ttu-id="93220-104">Данные должны передаваться между клиентом и сервером во время установки [*контекста безопасности*](/windows/desktop/SecGloss/s-gly) и последующего выполнения, поскольку защищенные сообщения обмениваются с помощью функций шифрования и расшифровки, предоставляемых SChannel.</span><span class="sxs-lookup"><span data-stu-id="93220-104">Information must be sent between the client and server while a [*security context*](/windows/desktop/SecGloss/s-gly) is being established and afterward because secure messages are exchanged by using the encryption and decryption features provided by Schannel.</span></span> <span data-ttu-id="93220-105">Для выполнения этих задач используются следующие функции.</span><span class="sxs-lookup"><span data-stu-id="93220-105">The following functions are used to accomplish these tasks:</span></span>
+
+-   [<span data-ttu-id="93220-106">**AcceptSecurityContext (Общие)**</span><span class="sxs-lookup"><span data-stu-id="93220-106">**AcceptSecurityContext (General)**</span></span>](/windows/win32/api/sspi/nf-sspi-acceptsecuritycontext)
+-   [<span data-ttu-id="93220-107">**InitializeSecurityContext (Общие)**</span><span class="sxs-lookup"><span data-stu-id="93220-107">**InitializeSecurityContext (General)**</span></span>](/windows/win32/api/sspi/nf-sspi-initializesecuritycontexta)
+-   [<span data-ttu-id="93220-108">**Декриптмессаже (Общие)**</span><span class="sxs-lookup"><span data-stu-id="93220-108">**DecryptMessage (General)**</span></span>](/windows/win32/api/sspi/nf-sspi-decryptmessage)
+
+<span data-ttu-id="93220-109">Schannel имеет четко определенный набор поведений для неполных или избыточных сведений, включаемых в Входные буферы для этих функций.</span><span class="sxs-lookup"><span data-stu-id="93220-109">Schannel has a well-defined set of behaviors for incomplete or excess information included in the input buffers to these functions.</span></span> <span data-ttu-id="93220-110">Обмен данными между клиентом и сервером осуществляется следующим образом:</span><span class="sxs-lookup"><span data-stu-id="93220-110">Information is exchanged between the client and server in the following manner:</span></span>
+
+1.  <span data-ttu-id="93220-111">Локальная сторона взаимодействует с SChannel, вызывая функцию SSPI и передая сведения.</span><span class="sxs-lookup"><span data-stu-id="93220-111">The local party interacts with Schannel by calling an SSPI function and passing in information.</span></span> <span data-ttu-id="93220-112">Как правило, эта информация была получена от удаленной стороны.</span><span class="sxs-lookup"><span data-stu-id="93220-112">Typically, the information was received from the remote party.</span></span>
+2.  <span data-ttu-id="93220-113">Функция возвращает код состояния и буферы вывода, содержащие сведения.</span><span class="sxs-lookup"><span data-stu-id="93220-113">The function returns a status code and output buffers containing information.</span></span>
+3.  <span data-ttu-id="93220-114">В зависимости от кода состояния выходные буферы отправляются удаленной стороне с помощью некоторого механизма связи.</span><span class="sxs-lookup"><span data-stu-id="93220-114">Depending on the status code, the output buffers are sent to the remote party by means of some communication mechanism.</span></span>
+4.  <span data-ttu-id="93220-115">Удаленная сторона читает информацию, отправленную местным лицом.</span><span class="sxs-lookup"><span data-stu-id="93220-115">The remote party reads information sent by the local party.</span></span>
+5.  <span data-ttu-id="93220-116">Цикл повторяется, и локальные и удаленные стороны взаимоменяются.</span><span class="sxs-lookup"><span data-stu-id="93220-116">The loop repeats, with the local and remote parties interchanged.</span></span> <span data-ttu-id="93220-117">(Удаленная сторона вызывает функцию SSPI и передает сведения, считанные на предыдущем шаге.)</span><span class="sxs-lookup"><span data-stu-id="93220-117">(The remote party calls an SSPI function and passes in the information read in the previous step.)</span></span>
+
+<span data-ttu-id="93220-118">Все работает правильно, если входной буфер функции SSPI содержит только необходимые сведения.</span><span class="sxs-lookup"><span data-stu-id="93220-118">Everything works as expected when the input buffer to the SSPI function contains exactly the information needed.</span></span> <span data-ttu-id="93220-119">Однако из-за особенностей потоковой передачи некоторых протоколов связи это может быть не так. блок информации, полученной от удаленной стороны, может содержать меньше данных, чем требуется или больше, чем может обработать канал Schannel в одном вызове функции.</span><span class="sxs-lookup"><span data-stu-id="93220-119">However, due to the stream-oriented nature of some communications protocols this may not be the case; a block of information received from a remote party may contain less data than is required or more data than can be processed by Schannel in a single function call.</span></span>
+
+<span data-ttu-id="93220-120">Если входной буфер содержит слишком мало информации, функция возвращает \_ \_ сообщение о неполном отсутствии \_ .</span><span class="sxs-lookup"><span data-stu-id="93220-120">If the input buffer contains too little information, the functions return SEC\_E\_INCOMPLETE\_MESSAGE.</span></span> <span data-ttu-id="93220-121">Вызывающий объект должен получить дополнительные данные от удаленной стороны и вызвать функцию еще раз.</span><span class="sxs-lookup"><span data-stu-id="93220-121">The caller must obtain additional data from the remote party and call the function again.</span></span>
+
+<span data-ttu-id="93220-122">Если входные буферы содержат слишком много сведений, SChannel не обрабатывает это как ошибку.</span><span class="sxs-lookup"><span data-stu-id="93220-122">When the input buffers contains too much information, Schannel does not treat this as an error.</span></span> <span data-ttu-id="93220-123">Функция обрабатывает как можно больше входных данных и возвращает код состояния для этого действия обработки.</span><span class="sxs-lookup"><span data-stu-id="93220-123">The function processes as much of the input as it can, and returns the status code for that processing activity.</span></span> <span data-ttu-id="93220-124">Кроме того, SChannel указывает на наличие необработанной информации во входных буферах, возвращая выходной буфер типа PVBUFFER " \_ дополнительный".</span><span class="sxs-lookup"><span data-stu-id="93220-124">In addition, Schannel indicates the presence of unprocessed information in the input buffers by returning an output buffer of type SECBUFFER\_EXTRA.</span></span> <span data-ttu-id="93220-125">Тестирование буферов вывода для этого типа буфера является единственным способом обнаружения такой ситуации.</span><span class="sxs-lookup"><span data-stu-id="93220-125">Testing the output buffers for this type of buffer is the only way to detect this situation.</span></span> <span data-ttu-id="93220-126">Поле **кббуффер** в структуре дополнительных буферов показывает, сколько байтов входных данных не было обработано.</span><span class="sxs-lookup"><span data-stu-id="93220-126">The **cbBuffer** field of the extra buffer structure indicates how many bytes of input were not processed.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="93220-127">Поле **пвбуффер** в лишнем буфере не содержит копии лишних данных.</span><span class="sxs-lookup"><span data-stu-id="93220-127">The **pvBuffer** field of the extra buffer does not contain a copy of the excess data.</span></span>
+
+ 
+
+<span data-ttu-id="93220-128">При получении дополнительного буфера из функции SSPI необходимо удалить уже обработанные данные из входного буфера и вызвать функцию снова.</span><span class="sxs-lookup"><span data-stu-id="93220-128">If you receive an extra buffer from a SSPI function, you must remove the already processed information from the input buffer and call the function again.</span></span> <span data-ttu-id="93220-129">Schannel может и часто возвращать только дополнительный буфер, а не все остальные в выходных буферах.</span><span class="sxs-lookup"><span data-stu-id="93220-129">Schannel can, and often does, return only the extra buffer and nothing else in the output buffers.</span></span>
+
+ 
+
+ 
