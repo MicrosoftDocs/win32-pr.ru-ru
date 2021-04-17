@@ -28,12 +28,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8def1e7ff8e3011d5ca6c2df303818bea36eca65
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b0be949b106c1fa88b37e0c7764dbddb0546ded7
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141046"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106187917"
 ---
 # <a name="win32_processstartup-class"></a>\_Класс Win32 процессстартуп
 
@@ -456,141 +456,7 @@ class Win32_ProcessStartup : Win32_MethodParameterClass
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| процессов и структур потоков \| [**стартупинфо**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) \| вшоввиндов")
 </dt> </dl>
 
-Способ отображения окна для пользователя.
-
-<dt>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>**SW \_ СКРЫТЬ** (0)
-
-
-</dt> <dd>
-
-Скрывает окно и активирует другое окно.
-
-</dd> <dt>
-
-<span id="SW_NORMAL"></span><span id="sw_normal"></span>
-
-<span id="SW_NORMAL"></span><span id="sw_normal"></span>**SW \_ Обычная** (1)
-
-
-</dt> <dd>
-
-Активирует и отображает окно. Если окно свернется или разворачивается, система восстанавливает исходный размер и расположение. Приложение задает этот флаг при первом отображении окна.
-
-</dd> <dt>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>**SW \_ ШОВМИНИМИЗЕД** (2)
-
-
-</dt> <dd>
-
-Активирует окно и отображает его в виде уменьшенного окна.
-
-</dd> <dt>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>**SW \_ ШОВМАКСИМИЗЕД** (3)
-
-
-</dt> <dd>
-
-Активирует окно и отображает его как развернутое окно.
-
-</dd> <dt>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>**SW \_ ШОВНОАКТИВАТЕ** (4)
-
-
-</dt> <dd>
-
-Отображает окно в самом последнем размере и положении. Это значение аналогично **\_ стандарту SW**, за исключением того, что окно не активировано.
-
-</dd> <dt>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>**SW \_ ПОКАЗЫВАТЬ** (5)
-
-
-</dt> <dd>
-
-Активирует окно и отображает его в текущем размере и позиции.
-
-</dd> <dt>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>**SW \_ MINIMIZE** (6)
-
-
-</dt> <dd>
-
-Свертывает указанное окно и активирует следующее окно верхнего уровня в Z-порядке.
-
-</dd> <dt>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>**SW \_ ШОВМИННОАКТИВЕ** (7)
-
-
-</dt> <dd>
-
-Отображает окно в виде уменьшенного окна. Это значение аналогично **SW \_ шовминимзед**, за исключением того, что окно не активировано.
-
-</dd> <dt>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>**SW \_ Показано** (8)
-
-
-</dt> <dd>
-
-Отображает окно по текущему размеру и положению. Это значение аналогично **\_ показу SW**, за исключением того, что окно не активировано.
-
-</dd> <dt>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>**SW \_ Восстановление** (9)
-
-
-</dt> <dd>
-
-Активирует и отображает окно. Если окно свернется или разворачивается, система восстанавливает исходный размер и расположение. Приложение задает этот флаг при восстановлении окна, которое было уменьшено.
-
-</dd> <dt>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>**SW \_ ШОВДЕФАУЛТ** (10)
-
-
-</dt> <dd>
-
-Устанавливает состояние отображения на основе значения **SW \_ \** _, указанного в структуре [_ *стартупинфо* *](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) , передаваемой в функцию [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) программой, запускающей приложение.
-
-</dd> <dt>
-
-<span id="SW_FORCEMINIMIZE"></span><span id="sw_forceminimize"></span>
-
-<span id="SW_FORCEMINIMIZE"></span><span id="sw_forceminimize"></span>**SW \_ ФОРЦЕМИНИМИЗЕ** (11)
-
-
-</dt> <dd>
-
-Свертывает окно, даже если поток, владеющий окном, перестает отвечать на запросы. Этот флаг следует использовать только при минимизации Windows из другого потока.
-
-</dd> </dl>
+Способ отображения окна для пользователя. Это может быть любое из значений, которое можно указать в параметре *нкмдшов* для функции [ShowWindow](/windows/desktop/api/winuser/nf-winuser-showwindow) .
 
 </dd> <dt>
 
@@ -752,7 +618,7 @@ class Win32_ProcessStartup : Win32_MethodParameterClass
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот класс является производным от [**Win32 \_ месодпараметеркласс**](win32-methodparameterclass.md).
 

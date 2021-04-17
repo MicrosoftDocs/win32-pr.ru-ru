@@ -1,7 +1,7 @@
 ---
-description: Метод Регистермедиатиме кэширует метки времени из текущего образца.
+description: Метод Регистермедиатиме кэширует метки времени из текущего образца. Этот метод использует параметры *StartTime* и *EndTime* .
 ms.assetid: 65755906-cf54-46d6-8149-5ad982be55f3
-title: Крендерерпоспасссру. Регистермедиатиме, метод (Ктлутил. h)
+title: Метод Крендерерпоспасссру. Регистермедиатиме (Ктлутил. h) — параметры StartTime и EndTime
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ff741e58f74770c8a97c13252302d4ef86868af1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e7d9fca04be9381fc739467647fedfa064040a0
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665470"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106187829"
 ---
-# <a name="crendererpospassthruregistermediatime-method-ctlutilh"></a>Крендерерпоспасссру. Регистермедиатиме, метод (Ктлутил. h)
+# <a name="crendererpospassthruregistermediatime-method-ctlutilh---starttime-and-endtime-parameters"></a>Метод Крендерерпоспасссру. Регистермедиатиме (Ктлутил. h) — параметры StartTime и EndTime
 
 Метод [**регистермедиатиме**](crendererpospassthru-registermediatime.md) кэширует метки времени из текущего образца.
 
@@ -71,7 +71,7 @@ HRESULT RegisterMediaTime(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод сохраняет значения меток времени, заданные в параметрах *StartTime* и *EndTime*. Метод [**крендерерпоспасссру:: жетмедиатиме**](crendererpospassthru-getmediatime.md) получает те же значения.
 
@@ -83,8 +83,8 @@ HRESULT RegisterMediaTime(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
-| Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
+| Заголовок  | Ктлутил. h (включение Streams. h)                                                                                   |
+| Библиотека | Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
 
 
