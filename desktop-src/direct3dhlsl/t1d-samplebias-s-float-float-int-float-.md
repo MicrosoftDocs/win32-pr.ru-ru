@@ -1,6 +1,6 @@
 ---
-title: 'Функция Самплебиас:: Самплебиас (S, float, float, int, float)'
-description: 'Демонстрирует выбор текстуры после применения значения смещения к уровню mipmap с дополнительным значением для создания среза образцов значений уровня детализации (Лод). | Функция Самплебиас:: Самплебиас (S, float, float, int, float)'
+title: 'Функция функции Самплебиас:: Самплебиас (S, float, float, int, float) для Texture1D'
+description: 'Функция Самплебиас:: Самплебиас (S, float, float, int, float) выбирает текстуру после применения значения смещения к уровню mipmap.'
 ms.assetid: 88BC4E99-B33D-4DAA-9A77-849B2F5FE6A7
 keywords:
 - Функция Самплебиас HLSL
@@ -13,14 +13,14 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3af7ddaf3c015c2254761cce1d7cd30a2a68629b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1f7c6979d9781964d6bdd89914602c1946ce481c
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998130"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106187897"
 ---
-# <a name="samplebiassamplebiassfloatfloatintfloat-function"></a>Функция Самплебиас:: Самплебиас (S, float, float, int, float)
+# <a name="samplebiassamplebiassfloatfloatintfloat-function-for-texture1d"></a>Функция Самплебиас:: Самплебиас (S, float, float, int, float) для Texture1D
 
 Демонстрирует выбор текстуры после применения значения смещения к уровню mipmap с дополнительным значением для создания среза образцов значений уровня детализации (Лод).
 

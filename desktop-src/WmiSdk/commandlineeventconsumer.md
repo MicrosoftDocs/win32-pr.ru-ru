@@ -42,12 +42,12 @@ api_type:
 - DllExport
 api_location:
 - Wbemcons.dll
-ms.openlocfilehash: 6219186cf498a4fb3f68c38ba8d73ed8907aead8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1784ba116417f6ed94aed2249a797cf8de4b3527
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712472"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106187937"
 ---
 # <a name="commandlineeventconsumer-class"></a>Класс Коммандлинивентконсумер
 
@@ -391,7 +391,7 @@ class CommandLineEventConsumer : __EventConsumer
 
 </dd> <dt>
 
-**Name**
+**имя**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -474,130 +474,7 @@ class CommandLineEventConsumer : __EventConsumer
 Тип доступа: только для чтения
 </dt> </dl>
 
-Отображение состояния окна.
-
-<dt>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>**SW \_ СКРЫТЬ** (0 (0x0))
-
-
-</dt> <dd>
-
-Скрывает окно и активирует другое окно.
-
-</dd> <dt>
-
-<span id="SW_SHOWNORMAL"></span><span id="sw_shownormal"></span>
-
-<span id="SW_SHOWNORMAL"></span><span id="sw_shownormal"></span>**SW \_ ШОВНОРМАЛ** (1 (0x1))
-
-
-</dt> <dd>
-
-Активирует и отображает окно. Если окно является сведенным или развернутым, система восстанавливает его исходный размер и расположение. Приложение должно задать этот флаг при первом отображении окна.
-
-</dd> <dt>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>**SW \_ ШОВМИНИМИЗЕД** (2 (0x2))
-
-
-</dt> <dd>
-
-Активирует окно и отображает его в виде уменьшенного окна.
-
-</dd> <dt>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>**SW \_ ШОВМАКСИМИЗЕД** (3 (0x3))
-
-
-</dt> <dd>
-
-Активирует окно и отображает его как развернутое окно.
-
-</dd> <dt>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>**SW \_ ШОВНОАКТИВАТЕ** (4 (0x4))
-
-
-</dt> <dd>
-
-Отображает окно в самом последнем размере и положении. Это значение аналогично SW \_ шовнормал, за исключением того, что окно не активировано.
-
-</dd> <dt>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>**SW \_ ПОКАЗЫВАТЬ** (5 (0x5))
-
-
-</dt> <dd>
-
-Активирует окно и отображает его в текущем размере и положении.
-
-</dd> <dt>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>**SW \_ MINIMIZE** (6 (0x6))
-
-
-</dt> <dd>
-
-Свертывает окно и активизирует следующее окно верхнего уровня.
-
-</dd> <dt>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>**SW \_ ШОВМИННОАКТИВЕ** (7 (0x7))
-
-
-</dt> <dd>
-
-Отображает окно в виде уменьшенного окна.
-
-</dd> <dt>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>**SW \_ Показано** (8 (0x8))
-
-
-</dt> <dd>
-
-Отображает окно в текущем размере и положении. Это значение аналогично \_ показу SW, за исключением того, что окно не активировано.
-
-</dd> <dt>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>**SW \_ Восстановление** (9 (0x9))
-
-
-</dt> <dd>
-
-Активирует и отображает окно с самыми последними размерами и положением. Приложение должно указать это значение при восстановлении окна, которое было уменьшено.
-
-</dd> <dt>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>**SW \_ ШОВДЕФАУЛТ** ("10 (0xA))"
-
-
-</dt> <dd>
-
-Устанавливает состояние отображения на основе значения **SW \_ \** _, указанного в структуре [_ *стартупинфо* *](/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa) , передаваемой в функцию [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) программой, запускающей приложение.
-
-</dd> </dl>
+Отображение состояния окна. Это может быть любое из значений, которое можно указать в параметре *нкмдшов* для функции [ShowWindow](/windows/desktop/api/winuser/nf-winuser-showwindow) .
 
 </dd> <dt>
 
@@ -718,7 +595,7 @@ class CommandLineEventConsumer : __EventConsumer
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **коммандлинивентконсумер** является производным от абстрактного класса [**\_ \_ евентконсумер**](--eventconsumer.md) .
 
