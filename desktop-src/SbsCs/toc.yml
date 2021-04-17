@@ -1,0 +1,276 @@
+- name: Изолированные приложения и параллельные сборки
+  href: isolated-applications-and-side-by-side-assemblies-portal.md
+  items:
+    - name: Сведения о изолированных приложениях и параллельных сборках
+      href: about-isolated-applications-and-side-by-side-assemblies.md
+      items:
+        - name: Изолированные приложения
+          href: isolated-applications.md
+        - name: Сведения о параллельных сборках
+          href: about-side-by-side-assemblies-.md
+        - name: Манифесты
+          href: manifests.md
+        - name: Общие сведения о общих сборках
+          href: about-shared-assemblies-.md
+        - name: О закрытых сборках
+          href: about-private-assemblies-.md
+        - name: Последовательность поиска сборок
+          href: assembly-searching-sequence.md
+        - name: Совместное использование сборок параллельно
+          href: side-by-side-assembly-sharing.md
+        - name: Конфигурация
+          href: configuration.md
+          items:
+            - name: Конфигурация по умолчанию
+              href: default-configuration.md
+            - name: Конфигурация издателя
+              href: publisher-configuration.md
+            - name: Конфигурация для каждого приложения
+              href: per-application-configuration.md
+            - name: Настройка для каждого приложения в Windows XP
+              href: per-application-configuration-on-windows-xp.md
+        - name: Контексты активации
+          href: activation-contexts.md
+        - name: Версии сборки
+          href: assembly-versions.md
+        - name: Перенаправление библиотек DLL/COM в Windows
+          href: dll-com-redirection-on-windows.md
+    - name: Использование изолированных приложений и параллельных сборок
+      href: using-isolated-applications-and-side-by-side-assemblies.md
+      items:
+        - name: Использование параллельных сборок
+          href: using-side-by-side-assemblies.md
+        - name: Установка параллельных сборок
+          href: installing-side-by-side-assemblies.md
+          items:
+            - name: Установка параллельных сборок в качестве закрытых сборок
+              href: installing-side-by-side-assemblies-as-private-assemblies.md
+            - name: Установка параллельных сборок в качестве общих сборок
+              href: installing-side-by-side-assemblies-as-shared-assemblies.md
+              items:
+                - name: Создание подписанных файлов и каталогов
+                  href: creating-signed-files-and-catalogs.md
+                - name: Пример подписывания сборки
+                  href: assembly-signing-example.md
+        - name: 'Включение сборки в приложении, где размещается библиотека DLL, расширение или панель управления'
+          href: enabling-an-assembly-in-an-application-hosting-a-dll-extension-or-control-panel.md
+        - name: Включение сборки в приложении без расширений
+          href: enabling-an-assembly-in-an-application-without-extensions.md
+        - name: 'Включение обновленных общих элементов управления, стилей оформления и тем'
+          href: enabling-updated-common-controls-visual-styles-and-themes.md
+        - name: Использование API контекста активации
+          href: using-the-activation-context-api.md
+          items:
+            - name: Контексты активации подсчета ссылок
+              href: reference-counting-activation-contexts.md
+            - name: Поиск сборок
+              href: searching-for-assemblies.md
+            - name: Поиск файлов сборки
+              href: searching-for-assembly-files.md
+            - name: Создание параллельных классов Windows
+              href: creating-side-by-side-windows-classes.md
+            - name: Создание Registration-Free COM-объектов
+              href: creating-registration-free-com-objects.md
+            - name: 'Использование потоков, асинхронных процедур и оконных сообщений'
+              href: using-threads--asynchronous-procedures--and-window-messages.md
+            - name: Указание контекста активации по умолчанию
+              href: specifying-a-default-activation-context.md
+            - name: Обновление компонентов приложения
+              href: updating-application-components.md
+            - name: Вызов сборок
+              href: calling-into-assemblies.md
+            - name: Вызов за пределами сборки
+              href: calling-outside-an-assembly.md
+            - name: Использование обратных вызовов из размещенных компонентов
+              href: using-callbacks-from-hosted-components.md
+            - name: Изоляция компонентов
+              href: isolating-components.md
+        - name: Использование сборок с многоязыковым пользовательским интерфейсом
+          href: using-assemblies-with-a-multilanguage-user-interface.md
+        - name: Использование параллельных сборок в качестве ресурса
+          href: using-side-by-side-assemblies-as-a-resource.md
+        - name: Исправление существующего приложения с помощью закрытой сборки
+          href: fixing-an-existing-application-using-a-private-assembly.md
+    - name: Рекомендации по созданию параллельных сборок
+      href: guidelines-for-creating-side-by-side-assemblies.md
+      items:
+        - name: Следует ли предоставлять общий компонент в качестве параллельной сборки?
+          href: should-you-provide-a-shared-component-as-a-side-by-side-assembly.md
+        - name: Создание библиотеки DLL для параллельной сборки
+          href: authoring-a-dll-for-a-side-by-side-assembly.md
+        - name: Создание хранилища состояний для параллельных сборок
+          href: authoring-state-storage-for-side-by-side-assemblies.md
+    - name: Ссылка на параллельные сборки
+      href: side-by-side-assemblies-reference.md
+      items:
+        - name: Параллельный API сборки
+          href: side-by-side-assembly-api.md
+          items:
+            - name: Параллельные перечисления сборок
+              href: enumerations.md
+              items:
+                - name: ASM_CMP_FLAGS
+                  href: /windows/win32/api/Winsxs/ne-winsxs-asm_cmp_flags
+                - name: ASM_DISPLAY_FLAGS
+                  href: /windows/win32/api/Winsxs/ne-winsxs-asm_display_flags
+                - name: ASM_NAME
+                  href: /windows/win32/api/Winsxs/ne-winsxs-asm_name
+                - name: CREATE_ASM_NAME_OBJ_FLAGS
+                  href: /windows/win32/api/Winsxs/ne-winsxs-create_asm_name_obj_flags
+            - name: Параллельные функции сборки
+              href: side-by-side-assembly-functions.md
+              items:
+                - name: креатеассембликаче
+                  href: /windows/desktop/api/Winsxs/nf-winsxs-createassemblycache
+                - name: креатеассемблинамеобжект
+                  href: /windows/desktop/api/Winsxs/nf-winsxs-createassemblynameobject
+            - name: Параллельные интерфейсы сборки
+              href: side-by-side-assembly-interfaces.md
+              items:
+                - name: IAssemblyCache
+                  href: /windows/desktop/api/winsxs/nn-winsxs-iassemblycache
+                  items:
+                    - name: Метод CreateAssemblyCacheItem
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycache-createassemblycacheitem
+                    - name: Метод InstallAssembly
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycache-installassembly
+                    - name: Метод QueryAssemblyInfo
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycache-queryassemblyinfo
+                    - name: Метод UninstallAssembly
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycache-uninstallassembly
+                - name: IAssemblyCacheItem
+                  href: /windows/desktop/api/winsxs/nn-winsxs-iassemblycacheitem
+                  items:
+                    - name: Метод Commit
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycacheitem-commit
+                    - name: Метод CreateStream
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycacheitem-createstream
+                - name: IAssemblyName
+                  href: /windows/desktop/api/winsxs/nn-winsxs-iassemblyname
+                  items:
+                    - name: Метод Clone
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-clone
+                    - name: Метод Finalize
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-finalize
+                    - name: Метод GetDisplayName
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getdisplayname
+                    - name: Метод GetName
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getname
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getproperty
+                    - name: Метод IsEqual
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-isequal
+                    - name: Метод SetProperty
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-setproperty
+            - name: Параллельные структуры сборок
+              href: structures.md
+              items:
+                - name: ASSEMBLY_INFO
+                  href: /windows/win32/api/Winsxs/ns-winsxs-assembly_info
+                - name: FUSION_INSTALL_REFERENCE
+                  href: /windows/win32/api/winsxs/ns-winsxs-fusion_install_reference
+        - name: Справочник по файлам манифеста
+          href: manifest-files-reference.md
+          items:
+            - name: Манифесты сборки
+              href: assembly-manifests.md
+            - name: Манифесты приложений
+              href: application-manifests.md
+            - name: Файлы конфигурации приложений
+              href: application-configuration-files.md
+            - name: Файлы конфигурации издателя
+              href: publisher-configuration-files.md
+            - name: Схема файла манифеста
+              href: manifest-file-schema.md
+            - name: Схема файла конфигурации приложения
+              href: application-configuration-file-schema.md
+            - name: Схема файла конфигурации издателя
+              href: publisher-configuration-file-schema.md
+        - name: Справочник по контексту активации
+          href: activation-context-reference.md
+          items:
+            - name: активатеакткткс
+              href: /windows/desktop/api/Winbase/nf-winbase-activateactctx
+            - name: аддрефакткткс
+              href: /windows/desktop/api/Winbase/nf-winbase-addrefactctx
+            - name: креатеакткткс
+              href: /windows/desktop/api/Winbase/nf-winbase-createactctxa
+            - name: деактиватеакткткс
+              href: /windows/desktop/api/Winbase/nf-winbase-deactivateactctx
+            - name: финдакткткссектионгуид
+              href: /windows/desktop/api/Winbase/nf-winbase-findactctxsectionguid
+            - name: финдакткткссектионстринг
+              href: /windows/desktop/api/Winbase/nf-winbase-findactctxsectionstringa
+            - name: жеткуррентакткткс
+              href: /windows/desktop/api/Winbase/nf-winbase-getcurrentactctx
+            - name: исолатионавареклеануп
+              href: /previous-versions/windows/desktop/legacy/aa375204(v=vs.85)
+            - name: куеряктктксв
+              href: /windows/desktop/api/Winbase/nf-winbase-queryactctxw
+            - name: куерякткткссеттингсв
+              href: /windows/desktop/api/Winbase/nf-winbase-queryactctxsettingsw
+            - name: релеасеакткткс
+              href: /windows/desktop/api/Winbase/nf-winbase-releaseactctx
+            - name: зомбифякткткс
+              href: /windows/desktop/api/Winbase/nf-winbase-zombifyactctx
+            - name: ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-activation_context_assembly_detailed_information
+            - name: ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-activation_context_compatibility_information
+            - name: ACTIVATION_CONTEXT_DETAILED_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-activation_context_detailed_information
+            - name: ACTIVATION_CONTEXT_QUERY_INDEX
+              href: /windows/win32/api/Winnt/ns-winnt-activation_context_query_index
+            - name: акткткс
+              href: /windows/win32/api/Winbase/ns-winbase-actctxa
+            - name: ACTCTX_SECTION_KEYED_DATA
+              href: /windows/win32/api/Winbase/ns-winbase-actctx_section_keyed_data
+            - name: ASSEMBLY_FILE_DETAILED_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-assembly_file_detailed_information
+            - name: ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-activation_context_run_level_information
+            - name: COMPATIBILITY_CONTEXT_ELEMENT
+              href: /windows/win32/api/Winnt/ns-winnt-compatibility_context_element
+            - name: ACTCTX_COMPATIBILITY_ELEMENT_TYPE
+              href: /windows/desktop/api/Winnt/ne-winnt-actctx_compatibility_element_type
+            - name: ACTCTX_REQUESTED_RUN_LEVEL
+              href: /windows/desktop/api/Winnt/ne-winnt-actctx_requested_run_level
+        - name: Поддерживаемые параллельные сборки Майкрософт
+          href: supported-microsoft-side-by-side-assemblies.md
+        - name: Средства разработки параллельных сборок
+          href: side-by-side-assembly-development-tools.md
+          items:
+            - name: Manifestchk.vbs
+              href: manifestchk-vbs.md
+            - name: Mt.exe
+              href: mt-exe.md
+            - name: Pktextract.exe
+              href: pktextract-exe.md
+        - name: Объект Microsoft. Windows. Акткткс
+          href: microsoft-windows-actctx-object.md
+          items:
+            - name: Свойство manifest
+              href: manifest.md
+            - name: Метод CreateObject
+              href: createobject.md
+            - name: Метод GetObject
+              href: getobject.md
+    - name: Глоссарий
+      href: glossary-sbscs.md
+      items:
+        - name: Объект
+          href: a-sbscs-gly.md
+        - name: D
+          href: d-sbscs-gly.md
+        - name: G
+          href: g-sbscs-gly.md
+        - name: I
+          href: i-sbscs-gly.md
+        - name: M
+          href: m-sbscs-gly.md
+        - name: С
+          href: p-sbscs-gly.md
+        - name: R
+          href: r-sbscs-gly.md
+        - name: S
+          href: s-sbscs-gly.md
