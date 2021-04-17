@@ -1517,7 +1517,7 @@
                   href: windowsvolume.md
             - name: Значения свойств операционной системы
               href: operating-system-property-values.md
-            - name: Удалить раздел реестра
+            - name: Свойства раздела реестра Uninstall
               href: uninstall-registry-key.md
         - name: Сводный поток информации
           href: summary-information-stream.md
@@ -3391,7 +3391,7 @@
                     - name: Типы данных столбцов
                       href: column-data-types.md
                       items:
-                        - name: Текст
+                        - name: текст
                           href: text.md
                         - name: UpperCase
                           href: uppercase.md
