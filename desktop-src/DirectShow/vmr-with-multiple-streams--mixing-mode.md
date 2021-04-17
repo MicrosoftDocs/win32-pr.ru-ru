@@ -1,0 +1,51 @@
+---
+description: VMR с несколькими потоками (режим смешения)
+ms.assetid: 053edb70-8631-4fe4-a137-2fe54e02ab9e
+title: VMR с несколькими потоками (режим смешения)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a21a954b0ad78afbceabf0fde493f920961b90dd
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105673981"
+---
+# <a name="vmr-with-multiple-streams-mixing-mode"></a><span data-ttu-id="38e4d-103">VMR с несколькими потоками (режим смешения)</span><span class="sxs-lookup"><span data-stu-id="38e4d-103">VMR with Multiple Streams (Mixing Mode)</span></span>
+
+<span data-ttu-id="38e4d-104">VMR может визуализировать несколько входных потоков.</span><span class="sxs-lookup"><span data-stu-id="38e4d-104">The VMR can render multiple input streams.</span></span> <span data-ttu-id="38e4d-105">В этой конфигурации, именуемой режимом смешения, VMR загружает микшер и компоновщик для смешения и смешения перед отрисовкой.</span><span class="sxs-lookup"><span data-stu-id="38e4d-105">In this configuration, called mixing mode, the VMR loads its mixer and compositor to perform the mixing and blending prior to rendering.</span></span> <span data-ttu-id="38e4d-106">Режим смешения можно использовать, когда VMR находится в оконном режиме или в режиме без окон.</span><span class="sxs-lookup"><span data-stu-id="38e4d-106">Mixing mode can be used either while the VMR is in windowed mode or windowless mode.</span></span>
+
+<span data-ttu-id="38e4d-107">Режим смешения требует, чтобы графический драйвер поддерживал \_ флаги возможностей ддкапс блтфауркк и ддкапс \_ блтстретч (преобразование цветового пространства и растяжение блиттинг, соответственно).</span><span class="sxs-lookup"><span data-stu-id="38e4d-107">Mixing mode requires that the graphics driver supports the DDCAPS\_BLTFOURCC and DDCAPS\_BLTSTRETCH capability flags (color space conversion and stretch blitting, respectively).</span></span> <span data-ttu-id="38e4d-108">Почти все новые графические драйверы обладают этими возможностями.</span><span class="sxs-lookup"><span data-stu-id="38e4d-108">Almost all new graphics drivers have those capabilities.</span></span> <span data-ttu-id="38e4d-109">Кроме того, драйвер должен поддерживать создание целевых объектов рендеринга Direct3D для текущей глубины отображаемого пикселя.</span><span class="sxs-lookup"><span data-stu-id="38e4d-109">In addition, the driver must support the creation of Direct3D render targets for the current display pixel depth.</span></span> <span data-ttu-id="38e4d-110">Некоторые устройства не поддерживают операции Direct3D, если для экрана задано значение 24 бита на пиксель.</span><span class="sxs-lookup"><span data-stu-id="38e4d-110">Some devices do not support Direct3D operations when the display is set to 24 bits per pixel.</span></span> <span data-ttu-id="38e4d-111">Дополнительные сведения см. в документации по DirectX Graphics SDK.</span><span class="sxs-lookup"><span data-stu-id="38e4d-111">For more information, see the DirectX Graphics SDK documentation.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="38e4d-112">Когда VMR смешивает несколько видеопотоков, граф фильтра не выполняет поиск правильно.</span><span class="sxs-lookup"><span data-stu-id="38e4d-112">When the VMR mixes multiple video streams, the filter graph does not seek correctly.</span></span> <span data-ttu-id="38e4d-113">Если необходимо найти несколько видеопотоков, необходимо создать отдельные графы фильтров, которые используют один и тот же пользовательский объект распределителя-Presenter.</span><span class="sxs-lookup"><span data-stu-id="38e4d-113">If you need to seek multiple video streams, you must create separate filter graphs that share the same custom allocator-presenter object.</span></span>
+
+ 
+
+<span data-ttu-id="38e4d-114">**Настройка VMR-7 для нескольких потоков**</span><span class="sxs-lookup"><span data-stu-id="38e4d-114">**Configuring the VMR-7 for Multiple Streams**</span></span>
+
+<span data-ttu-id="38e4d-115">Чтобы отобразить несколько входных потоков с помощью VMR-7, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="38e4d-115">To render multiple input streams with the VMR-7, do the following:</span></span>
+
+1.  <span data-ttu-id="38e4d-116">Перед подключением любого из входных ПИН-кодов VMR вызовите метод [**ивмрфилтерконфиг:: сетнумберофстреамс**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams) с числом потоков.</span><span class="sxs-lookup"><span data-stu-id="38e4d-116">Before connecting any of the VMR's input pins, call the [**IVMRFilterConfig::SetNumberOfStreams**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams) method with the number of streams.</span></span> <span data-ttu-id="38e4d-117">Это заставляет VMR загрузить микшер и компоновщик и создать указанное число входных ПИН-кодов.</span><span class="sxs-lookup"><span data-stu-id="38e4d-117">This causes the VMR to load the mixer and compositor and to create the specified number of input pins.</span></span>
+2.  <span data-ttu-id="38e4d-118">Вызовите метод [**ивмрфилтерконфиг:: сетрендерингпрефс**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setrenderingprefs) , чтобы указать различные параметры отрисовки.</span><span class="sxs-lookup"><span data-stu-id="38e4d-118">Call [**IVMRFilterConfig::SetRenderingPrefs**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setrenderingprefs) to specify various rendering preferences.</span></span>
+3.  <span data-ttu-id="38e4d-119">Подключите контакты к вышестоящим фильтрам.</span><span class="sxs-lookup"><span data-stu-id="38e4d-119">Connect the pins to the upstream filters.</span></span> <span data-ttu-id="38e4d-120">Самый простой способ сделать это — вызвать метод [**играфбуилдер:: renderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) для каждого входного потока.</span><span class="sxs-lookup"><span data-stu-id="38e4d-120">The easiest way to do this is to call [**IGraphBuilder::RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) for each input stream.</span></span> <span data-ttu-id="38e4d-121">Если закрепление вывода в вышестоящем фильтре (обычно в декодере) и в закреплении ввода на VMR не может согласовать соединение, будет создан новый экземпляр VMR с параметрами по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="38e4d-121">If the output pin on the upstream filter (usually a decoder) and the input pin on the VMR cannot agree on a connection, then a new instance of the VMR with default settings will be created.</span></span> <span data-ttu-id="38e4d-122">Это приведет к созданию нового окна с «ActiveMovie» в строке заголовка.</span><span class="sxs-lookup"><span data-stu-id="38e4d-122">This will result in a new window with "ActiveMovie" in the title bar.</span></span> <span data-ttu-id="38e4d-123">Чтобы предотвратить это, приложение должно всегда проверять, используется ли правильный экземпляр VMR, вызывая метод, например [**Ипин:: коннектедто**](/windows/desktop/api/Strmif/nf-strmif-ipin-connectedto).</span><span class="sxs-lookup"><span data-stu-id="38e4d-123">To prevent this from happening, the application should always verify that the correct instance of the VMR is being used by calling a method such as [**IPin::ConnectedTo**](/windows/desktop/api/Strmif/nf-strmif-ipin-connectedto).</span></span> <span data-ttu-id="38e4d-124">Другой вариант — Добавить фильтр источника, а затем подключить ПИН-код с помощью **играфбуилдер:: Connect**.</span><span class="sxs-lookup"><span data-stu-id="38e4d-124">Another option is to add the source filter and then connect the pins using **IGraphBuilder::Connect**.</span></span>
+4.  <span data-ttu-id="38e4d-125">Используйте интерфейс [**ивмрмиксерконтрол**](/windows/desktop/api/Strmif/nn-strmif-ivmrmixercontrol) на VMR для управления параметрами каждого потока, например альфа-значения, порядка Z и прямоугольника вывода.</span><span class="sxs-lookup"><span data-stu-id="38e4d-125">Use the [**IVMRMixerControl**](/windows/desktop/api/Strmif/nn-strmif-ivmrmixercontrol) interface on the VMR to control parameters for each stream, such as the alpha value, the Z-ordering, and the output rectangle.</span></span>
+5.  <span data-ttu-id="38e4d-126">Запустите граф фильтра.</span><span class="sxs-lookup"><span data-stu-id="38e4d-126">Run the filter graph.</span></span>
+
+<span data-ttu-id="38e4d-127">**Настройка VMR-9 для нескольких потоков**</span><span class="sxs-lookup"><span data-stu-id="38e4d-127">**Configuring the VMR-9 for Multiple Streams**</span></span>
+
+<span data-ttu-id="38e4d-128">По умолчанию VMR-9 создает четыре входных контакта.</span><span class="sxs-lookup"><span data-stu-id="38e4d-128">By default, the VMR-9 creates four input pins.</span></span> <span data-ttu-id="38e4d-129">Если вы хотите смешивать более четырех потоков видео, вызовите [**IVMRFilterConfig9:: сетнумберофстреамс**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams) , прежде чем подключать любые входные ПИН-коды.</span><span class="sxs-lookup"><span data-stu-id="38e4d-129">If you want to mix more than four video streams, call [**IVMRFilterConfig9::SetNumberOfStreams**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams) before connecting any input pins.</span></span> <span data-ttu-id="38e4d-130">Используйте интерфейс [**IVMRMixerControl9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrmixercontrol9) , чтобы задать параметры потока, такие как альфа, Z-порядок и расположение.</span><span class="sxs-lookup"><span data-stu-id="38e4d-130">Use the [**IVMRMixerControl9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrmixercontrol9) interface to set the stream parameters, such as alpha, Z-order, and position.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="38e4d-131">См. также</span><span class="sxs-lookup"><span data-stu-id="38e4d-131">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="38e4d-132">Использование режима смешения VMR</span><span class="sxs-lookup"><span data-stu-id="38e4d-132">Using VMR Mixing Mode</span></span>](using-vmr-mixing-mode.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

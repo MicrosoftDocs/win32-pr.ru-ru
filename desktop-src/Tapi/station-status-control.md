@@ -1,0 +1,23 @@
+---
+description: Есть три основные функции состояния, которые требуют управления индикаторами ожидания сообщений, пересылка и не беспокоить.
+ms.assetid: 4a6dc47f-caff-4f2b-8858-0e9bec32b137
+title: Управление состоянием станции
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 37f6ddd1b1ce6df1ad2f3dc61e891ed6952a7f05
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105673703"
+---
+# <a name="station-status-control"></a><span data-ttu-id="84aae-103">Управление состоянием станции</span><span class="sxs-lookup"><span data-stu-id="84aae-103">Station Status Control</span></span>
+
+<span data-ttu-id="84aae-104">Есть три основные функции состояния, которым требуется контроль: сообщения о состоянии ожидания сообщений, пересылка и не беспокоить.</span><span class="sxs-lookup"><span data-stu-id="84aae-104">There are three major station status functions that need control: Message Waiting lights, Forwarding, and Do Not Disturb.</span></span> <span data-ttu-id="84aae-105">Пересылка и не беспокоить являются управляемыми через существующую функцию [**линефорвард**](/windows/desktop/api/Tapi/nf-tapi-lineforward) (которая зависит от адреса) и запрашиваются с помощью [**линежетаддрессстатус**](/windows/desktop/api/Tapi/nf-tapi-linegetaddressstatus).</span><span class="sxs-lookup"><span data-stu-id="84aae-105">Forwarding and Do Not Disturb are controllable through the existing [**lineForward**](/windows/desktop/api/Tapi/nf-tapi-lineforward) function (which is address-specific), and queried using [**lineGetAddressStatus**](/windows/desktop/api/Tapi/nf-tapi-linegetaddressstatus).</span></span> <span data-ttu-id="84aae-106">ЛИНЕДЕВСТАТУСФЛАГС \_ мсгваит bit в **двдевстатусфлагс** [**линедевстатус**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus) указывает состояние ожидающего сообщения на устройстве, а также \_ отправляется сообщение линедевстате мсгваитон или LINEDEVSTATE \_ MSGWAITOFF, указывающее, когда изменяется состояние.</span><span class="sxs-lookup"><span data-stu-id="84aae-106">The LINEDEVSTATUSFLAGS\_MSGWAIT bit in the **dwDevStatusFlags** member of [**LINEDEVSTATUS**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus) indicates the status of the message waiting light on the device, and a LINEDEVSTATE\_MSGWAITON or LINEDEVSTATE\_MSGWAITOFF message is sent to indicate when the state changes.</span></span> <span data-ttu-id="84aae-107">Функция [**линесетлинедевстатус**](/windows/desktop/api/Tapi/nf-tapi-linesetlinedevstatus) позволяет контролировать состояние ожидания сообщений без необходимости реализации телефонного устройства TAPI только для этой цели.</span><span class="sxs-lookup"><span data-stu-id="84aae-107">The [**lineSetLineDevStatus**](/windows/desktop/api/Tapi/nf-tapi-linesetlinedevstatus) function allows the message waiting light to be controlled without having to implement a TAPI phone device just for that purpose.</span></span> <span data-ttu-id="84aae-108">ЛИНЕФЕАТУРЕ \_ сетдевстатус bit (в **двлинефеатурес** члене [**линедевкапс**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps) и **линедевстатус**) указывает, когда можно вызывать, а **двсеттабледевстатус** член LINEDEVCAPS позволяет приложению определить,  какие параметры состояния устройства можно контролировать из приложения.</span><span class="sxs-lookup"><span data-stu-id="84aae-108">The LINEFEATURE\_SETDEVSTATUS bit (in the **dwLineFeatures** member of [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps) and **LINEDEVSTATUS**) indicates when it can be called, and the **dwSettableDevStatus** member of **LINEDEVCAPS** allows the application to detect which device status settings can be controlled from the application.</span></span> <span data-ttu-id="84aae-109">Помимо разрешения управления функцией, ожидающей сообщения, она также позволяет установить состояние подключенного, необслуживаемого и заблокированного устройства, в степень, поддерживаемую коммутатором или другим оборудованием.</span><span class="sxs-lookup"><span data-stu-id="84aae-109">In addition to allowing the message waiting feature to be controlled, it also allows the device's Connected, Inservice, and Locked status to be set, to the extent that these are supported by the switch or other hardware.</span></span> <span data-ttu-id="84aae-110">Вызовы этой функции приводят к отправке соответствующих сообщений [**строки \_ линедевстате**](line-linedevstate.md) в соответствии с новым состоянием.</span><span class="sxs-lookup"><span data-stu-id="84aae-110">Calls to this function result in appropriate [**LINE\_LINEDEVSTATE**](line-linedevstate.md) messages being sent to reflect the new status.</span></span>
+
+ 
+
+ 
+
+
+
