@@ -1,0 +1,105 @@
+---
+title: аппидфлагс
+description: Набор флагов, которые управляют поведением активации сервера COM.
+ms.assetid: ab98e7d3-85c6-4328-84c4-1d4583df69ce
+keywords:
+- COM-значение реестра Аппидфлагс
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: cdad2b80625d6a60460d43f242d7897e0ae7eb40
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "105710387"
+---
+# <a name="appidflags"></a><span data-ttu-id="760ac-104">аппидфлагс</span><span class="sxs-lookup"><span data-stu-id="760ac-104">AppIDFlags</span></span>
+
+<span data-ttu-id="760ac-105">Набор флагов, которые управляют поведением активации сервера COM.</span><span class="sxs-lookup"><span data-stu-id="760ac-105">A set of flags that control the activation behavior of a COM server.</span></span>
+
+## <a name="registry-entry"></a><span data-ttu-id="760ac-106">Запись реестра</span><span class="sxs-lookup"><span data-stu-id="760ac-106">Registry Entry</span></span>
+
+```
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
+   {AppID_GUID}
+      AppIDFlags = flags
+```
+
+## <a name="remarks"></a><span data-ttu-id="760ac-107">Комментарии</span><span class="sxs-lookup"><span data-stu-id="760ac-107">Remarks</span></span>
+
+<span data-ttu-id="760ac-108">Это значение **reg \_ DWORD** .</span><span class="sxs-lookup"><span data-stu-id="760ac-108">This is a **REG\_DWORD** value.</span></span>
+
+
+
+| <span data-ttu-id="760ac-109">Значение флага</span><span class="sxs-lookup"><span data-stu-id="760ac-109">Flag Value</span></span> | <span data-ttu-id="760ac-110">Константа</span><span class="sxs-lookup"><span data-stu-id="760ac-110">Constant</span></span>                                              |
+|------------|-------------------------------------------------------|
+| <span data-ttu-id="760ac-111">0x1</span><span class="sxs-lookup"><span data-stu-id="760ac-111">0x1</span></span>        | <span data-ttu-id="760ac-112">АППИДРЕГФЛАГС \_ активировать \_ иусервер \_ Desktop</span><span class="sxs-lookup"><span data-stu-id="760ac-112">APPIDREGFLAGS\_ACTIVATE\_IUSERVER\_INDESKTOP</span></span>          |
+| <span data-ttu-id="760ac-113">0x2</span><span class="sxs-lookup"><span data-stu-id="760ac-113">0x2</span></span>        | <span data-ttu-id="760ac-114">АППИДРЕГФЛАГС \_ безопасный \_ Серверный \_ процесс \_ SD \_ и \_ BIND</span><span class="sxs-lookup"><span data-stu-id="760ac-114">APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND</span></span> |
+| <span data-ttu-id="760ac-115">0x4</span><span class="sxs-lookup"><span data-stu-id="760ac-115">0x4</span></span>        | <span data-ttu-id="760ac-116">RPC АППИДРЕГФЛАГС для \_ \_ активации \_ \_ при \_ обнаружении</span><span class="sxs-lookup"><span data-stu-id="760ac-116">APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY</span></span>   |
+
+
+
+ 
+
+### <a name="appidregflags_activate_iuserver_indesktop-description"></a><span data-ttu-id="760ac-117">\_Описание аппидрегфлагс активации \_ ИУСЕРВЕР для \_ рабочего стола</span><span class="sxs-lookup"><span data-stu-id="760ac-117">APPIDREGFLAGS\_ACTIVATE\_IUSERVER\_INDESKTOP Description</span></span>
+
+<span data-ttu-id="760ac-118">Если флажок **аппидрегфлагс \_ активировать \_ ИУСЕРВЕР для \_ рабочего стола** в **аппидфлагс** или если **аппидфлагс** отсутствует, клиент в сеансе сервера терминалов, выполняющий запрос на активацию для [интерактивного ПОЛЬЗОВАТЕЛЬСКОГО](interactive-user.md) COM-сервера, привязывается к серверу com или запускается и связывается с сервером, на рабочем столе "по умолчанию" рабочей [станции](/windows/desktop/winstation/window-stations) "winsta0" сеанса в запросе на активацию.</span><span class="sxs-lookup"><span data-stu-id="760ac-118">If the **APPIDREGFLAGS\_ACTIVATE\_IUSERVER\_INDESKTOP** flag is cleared in **AppIDFlags** or if **AppIDFlags** is not present, the client in a terminal server session making an activation request for an [Interactive User](interactive-user.md) COM server, will either bind to, or launch and bind to, the COM server in the "default" desktop of the "winsta0" [window station](/windows/desktop/winstation/window-stations) of the session in the activation request.</span></span> <span data-ttu-id="760ac-119">Например, если клиент работает под управлением «winsta0 \\ desktop1» сеанса 3, запрос на активацию для сеанса 3 будет либо привязан к, либо запущен и привязан к серверу com в «winsta0 \\ Default» сеанса 3, даже если экземпляр COM-сервера уже запущен в «winsta0 \\ desktop1» сеанса 3.</span><span class="sxs-lookup"><span data-stu-id="760ac-119">For example, if the client is running "winsta0\\desktop1" of session 3, the activation request for session 3 will either bind to, or launch and bind to, the COM server in "winsta0\\default" of session 3, even if an instance of the COM server is already running in "winsta0\\desktop1" of session 3.</span></span>
+
+<span data-ttu-id="760ac-120">Если в значении **аппидфлагс** установлен флаг **АППИДРЕГФЛАГС \_ активировать \_ иусервер \_ Desktop** , com будет либо привязан к, либо запущен и привязан к, серверный процесс, запущенный на рабочем столе клиента, и сеанс в запросе активации.</span><span class="sxs-lookup"><span data-stu-id="760ac-120">If the **APPIDREGFLAGS\_ACTIVATE\_IUSERVER\_INDESKTOP** flag is set in the **AppIDFlags** value, COM will either bind to, or launch and bind to, the server process running in the client's desktop and the session in the activation request.</span></span> <span data-ttu-id="760ac-121">Например, если на клиенте выполняется "winsta0 \\ desktop1" в сеансе 3, запрос на активацию для сеанса 3 будет либо привязан к, либо запущен и привязан к серверу com в "winsta0 \\ desktop1" в сеансе 3, даже если экземпляр COM-сервера уже выполняется в сеансе 3 в "winsta0 \\ Default".</span><span class="sxs-lookup"><span data-stu-id="760ac-121">For example, if the client is running "winsta0\\desktop1" in session 3, the activation request for session 3 will either bind to, or launch and bind to, the COM server in "winsta0\\desktop1" in session 3, even if an instance of the COM server is already running in "winsta0\\default" in session 3.</span></span>
+
+<span data-ttu-id="760ac-122">Клиент может использовать [моникер сеанса](/windows/desktop/TermServ/session-monikers) , чтобы указать сеанс, отличный от сеанса клиента при выполнении запроса на активацию.</span><span class="sxs-lookup"><span data-stu-id="760ac-122">The client can use the [session moniker](/windows/desktop/TermServ/session-monikers) to specify a session different than the client's session when it makes the activation request.</span></span>
+
+<span data-ttu-id="760ac-123">Флаг **аппидрегфлагс \_ активировать \_ иусервер \_ Desktop** применяется только к серверам COM, настроенным для запуска runas "[Интерактивный пользователь](interactive-user.md)".</span><span class="sxs-lookup"><span data-stu-id="760ac-123">The **APPIDREGFLAGS\_ACTIVATE\_IUSERVER\_INDESKTOP** flag applies only to COM servers that are configured to RunAs "[Interactive User](interactive-user.md)".</span></span>
+
+### <a name="appidregflags_secure_server_process_sd_and_bind-description"></a><span data-ttu-id="760ac-124">АППИДРЕГФЛАГС \_ безопасный \_ Серверный \_ процесс \_ SD \_ и \_ Описание привязки</span><span class="sxs-lookup"><span data-stu-id="760ac-124">APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND Description</span></span>
+
+<span data-ttu-id="760ac-125">Если в **аппидфлагс** установлен флаг **\_ \_ \_ \_ привязки SD \_ и \_ BIND для аппидрегфлагс Secure Server** , то серверы COM, настроенные для запуска runas "Активатор", будут запущены с дескриптором безопасности процесса, который позволяет [обрабатывать \_ весь \_ доступ](/windows/desktop/ProcThread/process-security-and-access-rights) к идентификатору безопасности логонид маркера процесса.</span><span class="sxs-lookup"><span data-stu-id="760ac-125">If the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is set in **AppIDFlags**, COM servers that are configured to RunAs "Activator" will be launched with a process security descriptor that allows [PROCESS\_ALL\_ACCESS](/windows/desktop/ProcThread/process-security-and-access-rights) to the LogonID SID of the process token.</span></span> <span data-ttu-id="760ac-126">Кроме того, владельцем дескриптора безопасности будет задаваться идентификатор безопасности Логонид маркера процесса.</span><span class="sxs-lookup"><span data-stu-id="760ac-126">In addition, the owner of the security descriptor will be set to the LogonID SID of the process token.</span></span>
+
+<span data-ttu-id="760ac-127">Если в **аппидфлагс** установлен флаг **\_ \_ \_ \_ привязки SD \_ и \_ BIND для аппидрегфлагс Secure Server** , то серверы COM, настроенные для запуска runas "Этот пользователь", будут запущены с дескриптором безопасности процесса, который позволяет [обрабатывать \_ все \_ права доступа](/windows/desktop/ProcThread/process-security-and-access-rights) в логонид SID маркера процесса.</span><span class="sxs-lookup"><span data-stu-id="760ac-127">If the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is set in **AppIDFlags**, COM servers that are configured to RunAs "This User" will be launched with a process security descriptor that allows [PROCESS\_ALL\_ACCESS](/windows/desktop/ProcThread/process-security-and-access-rights) in the LogonID SID of the process token.</span></span> <span data-ttu-id="760ac-128">Кроме того, владельцем дескриптора безопасности будет задаваться идентификатор безопасности Логонид маркера процесса.</span><span class="sxs-lookup"><span data-stu-id="760ac-128">In addition, the owner of the security descriptor will be set to the LogonID SID of the process token.</span></span> <span data-ttu-id="760ac-129">Кроме того, диспетчер управления службами COM (SCM) изменяет маркер серверного процесса COM следующим образом:</span><span class="sxs-lookup"><span data-stu-id="760ac-129">Further, the COM Service Control Manager (SCM) modifies the token of the COM server process as follows:</span></span>
+
+-   <span data-ttu-id="760ac-130">Он добавляет идентификатор SID APPID в маркер.</span><span class="sxs-lookup"><span data-stu-id="760ac-130">It adds an APPID SID to the token.</span></span> <span data-ttu-id="760ac-131">Он предоставляет ИД безопасности APPID полный доступ в списке управления доступом по умолчанию для маркеров (DACL).</span><span class="sxs-lookup"><span data-stu-id="760ac-131">It grants the APPID SID full access in the token default discretionary access control list (DACL).</span></span> <span data-ttu-id="760ac-132">В Windows Vista и более поздних версиях Windows она предоставляет разрешение CONTROL Овнерригхтс с \_ правами на чтение в списке DACL маркера по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="760ac-132">In Windows Vista and later versions of Windows, it grants the OwnerRights SID READ\_CONTROL permission in the token default DACL.</span></span> <span data-ttu-id="760ac-133">В версиях Windows, предшествующих Windows Vista, владельцем маркера присваивается идентификатор SID APPID.</span><span class="sxs-lookup"><span data-stu-id="760ac-133">In pre-Windows Vista versions of Windows, it sets the token owner to the APPID SID.</span></span>
+
+<span data-ttu-id="760ac-134">При использовании **аппидрегфлагс \_ безопасного \_ серверного \_ процесса \_ SD \_ и \_** флага привязки необходимо учитывать следующие аспекты безопасности.</span><span class="sxs-lookup"><span data-stu-id="760ac-134">The following security considerations must be taken into account when using the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag:</span></span>
+
+-   <span data-ttu-id="760ac-135">Флаг **аппидрегфлагс \_ Secure \_ Server \_ процесс \_ SD \_ и \_ BIND** предназначен для настройки серверами COM, которые запускаются в одном из встроенных контекстов безопасности службы. это учетная запись NetworkService или LocalService.</span><span class="sxs-lookup"><span data-stu-id="760ac-135">The **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is meant to be set by COM servers that are launched under one of the built-in service security contexts; either the NetworkService or the LocalService accounts.</span></span> <span data-ttu-id="760ac-136">Если серверы олицетворяют привилегированных клиентов и если не установлен флаг **аппидрегфлагс \_ Secure \_ Server \_ процесс \_ SD \_ и \_ BIND** , вредоносный код, выполняемый в других процессах с тем же контекстом безопасности, может повысить привилегию, перехватить маркеры олицетворения привилегированных клиентов из процесса COM-сервера.</span><span class="sxs-lookup"><span data-stu-id="760ac-136">If the servers impersonate privileged clients and if the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is not set, malicious code running in other processes with the same security context can elevate privilege by hijacking the impersonation tokens of the privileged clients from the COM server process.</span></span>
+-   <span data-ttu-id="760ac-137">Если установлен **флаг \_ \_ \_ \_ \_ привязки SD и \_ BIND для аппидрегфлагс Secure Server** , com ЗАФИКСИРУЕТ дескриптор безопасности объекта Process в случае COM-серверов "Активатор" для запуска от имени.</span><span class="sxs-lookup"><span data-stu-id="760ac-137">When the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is set, COM hardens the security descriptor of the process object in the case of RunAs "Activator" COM servers.</span></span> <span data-ttu-id="760ac-138">Для таких серверов ожидается, что клиент COM зафиксирует маркер, используемый для активации COM.</span><span class="sxs-lookup"><span data-stu-id="760ac-138">For such servers, the COM client is expected to harden the token that it uses for the COM activation.</span></span>
+-   <span data-ttu-id="760ac-139">Если установлен **флаг \_ \_ \_ \_ \_ привязки SD и \_ BIND для аппидрегфлагс Secure Server** , COM фиксирует дескриптор безопасности объекта Process в случае COM-серверов "этого пользователя".</span><span class="sxs-lookup"><span data-stu-id="760ac-139">When the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is set, COM hardens the security descriptor of the process object in the case of RunAs "This User" COM servers.</span></span> <span data-ttu-id="760ac-140">Он также фиксирует маркер процесса COM-сервера, так как COM SCM — это сущность, которая создает маркер.</span><span class="sxs-lookup"><span data-stu-id="760ac-140">It also hardens the process token of the COM server since the COM SCM is the entity that creates the token.</span></span>
+
+<span data-ttu-id="760ac-141">Флаг **аппидрегфлагс \_ Secure \_ Server для \_ процесса \_ SD \_ и \_ BIND** поддерживается в Windows XP, Windows server 2003, Windows Vista и Windows Server 2008 только при применении исправления MSRC8322 ([бюллетень по безопасности MS09-012](https://support.microsoft.com/kb/959454)).</span><span class="sxs-lookup"><span data-stu-id="760ac-141">The **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is supported in Windows XP, Windows Server 2003, Windows Vista, and Windows Server 2008 only when the MSRC8322 patch ([security bulletin MS09-012](https://support.microsoft.com/kb/959454)) is applied.</span></span> <span data-ttu-id="760ac-142">Он изначально поддерживается в Windows 7 и более поздних версиях Windows.</span><span class="sxs-lookup"><span data-stu-id="760ac-142">It is natively supported in Windows 7 and later versions of Windows.</span></span>
+
+<span data-ttu-id="760ac-143">Флаг **аппидрегфлагс \_ Secure \_ Server \_ процесс \_ SD \_ и \_ BIND** применяется только к серверам COM, настроенным для запуска runas "Активатор" или "Этот пользователь".</span><span class="sxs-lookup"><span data-stu-id="760ac-143">The **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag applies only to COM servers that are configured to RunAs "Activator" or "This User".</span></span> <span data-ttu-id="760ac-144">Он не применяется к COM-серверам, которые являются службами NT.</span><span class="sxs-lookup"><span data-stu-id="760ac-144">It does not apply to COM servers that are NT services.</span></span>
+
+### <a name="appidregflags_issue_activation_rpc_at_identify-description"></a><span data-ttu-id="760ac-145">\_ \_ RPC Activation аппидрегфлагс для активации \_ \_ в \_ определении описания</span><span class="sxs-lookup"><span data-stu-id="760ac-145">APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY Description</span></span>
+
+<span data-ttu-id="760ac-146">Если в **аппидфлагс** установлен флаг **аппидрегфлагс для \_ \_ активации \_ RPC \_ по \_** определению, то com SCM выдаст запросы на активацию объектов в серверный процесс com, используя уровень олицетворения на [ \_ \_ \_ уровне \_ идентификаторов для RPC C](impersonation-levels.md).</span><span class="sxs-lookup"><span data-stu-id="760ac-146">If the **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag is set in **AppIDFlags**, the COM SCM will issue object activation requests to the COM server process using an impersonation level of [RPC\_C\_IMP\_LEVEL\_IDENTIFY](impersonation-levels.md).</span></span>
+
+<span data-ttu-id="760ac-147">Если не установлен флаг **аппидрегфлагс для \_ \_ активации \_ RPC \_ по \_ определению** , com SCM выдает запросы на активацию объектов на серверные процессы, используя уровень олицетворения для [ \_ \_ \_ \_ олицетворения на уровне Imp RPC C](impersonation-levels.md).</span><span class="sxs-lookup"><span data-stu-id="760ac-147">If the **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag is not set, the COM SCM will issue object activation requests to the COM server processes using an impersonation level of [RPC\_C\_IMP\_LEVEL\_IMPERSONATE](impersonation-levels.md).</span></span>
+
+<span data-ttu-id="760ac-148">При использовании флага **\_ \_ RPC активации аппидрегфлагс \_ в процессе \_ \_ обнаружения** необходимо учитывать следующие аспекты безопасности.</span><span class="sxs-lookup"><span data-stu-id="760ac-148">The following security considerations must be taken into account when using the **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag:</span></span>
+
+-   <span data-ttu-id="760ac-149">Флаг **\_ \_ \_ вызова RPC \_ at \_ аппидрегфлагс для активации проблемы** предназначен для использования серверами COM, которые не выполняют работу от имени клиентов в запросах на активацию объектов.</span><span class="sxs-lookup"><span data-stu-id="760ac-149">The **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag is meant to be used by COM servers that do not perform work on behalf of clients in object activation requests.</span></span> <span data-ttu-id="760ac-150">Для таких серверов наличие запросов на активацию объектов COM SCM на [ \_ \_ уровне Imp RPC с \_ \_ определяет](impersonation-levels.md) сокращение вероятности использования привилегированных токенов на [**уровне \_ олицетворения \_ имен**](/windows/desktop/SecAuthZ/privilege-constants) , отображаемых в процессе.</span><span class="sxs-lookup"><span data-stu-id="760ac-150">For such servers, having the COM SCM issue object activation requests at [RPC\_C\_IMP\_LEVEL\_IDENTIFY](impersonation-levels.md) minimizes the chances of privileged tokens with [**SE\_IMPERSONATE\_NAME**](/windows/desktop/SecAuthZ/privilege-constants) level appearing in the process.</span></span>
+
+<span data-ttu-id="760ac-151">Флаг **\_ \_ активации \_ RPC \_ at \_ аппидрегфлагс** поддерживается в Windows 7 и более поздних версиях Windows.</span><span class="sxs-lookup"><span data-stu-id="760ac-151">The **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag is supported in Windows 7 and later versions of Windows.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="760ac-152">См. также</span><span class="sxs-lookup"><span data-stu-id="760ac-152">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="760ac-153">Настольные системы</span><span class="sxs-lookup"><span data-stu-id="760ac-153">Desktops</span></span>](/windows/desktop/winstation/desktops)
+</dt> <dt>
+
+[<span data-ttu-id="760ac-154">Уровни олицетворения</span><span class="sxs-lookup"><span data-stu-id="760ac-154">Impersonation Levels</span></span>](impersonation-levels.md)
+</dt> <dt>
+
+[<span data-ttu-id="760ac-155">Интерактивный пользователь</span><span class="sxs-lookup"><span data-stu-id="760ac-155">Interactive User</span></span>](interactive-user.md)
+</dt> <dt>
+
+[<span data-ttu-id="760ac-156">Моникеры сеанса</span><span class="sxs-lookup"><span data-stu-id="760ac-156">Session Monikers</span></span>](/windows/desktop/TermServ/session-monikers)
+</dt> <dt>
+
+[<span data-ttu-id="760ac-157">Оконные станции</span><span class="sxs-lookup"><span data-stu-id="760ac-157">Window Stations</span></span>](/windows/desktop/winstation/window-stations)
+</dt> </dl>
+
+ 
+
+ 
