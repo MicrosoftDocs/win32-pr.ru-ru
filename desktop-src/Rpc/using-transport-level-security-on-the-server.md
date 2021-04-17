@@ -1,0 +1,32 @@
+---
+title: Использование безопасности на уровне транспорта на сервере
+description: Использование безопасности на транспортном уровне на сервере с удаленным вызовом процедур (RPC).
+ms.assetid: 8ad86d46-cdc8-44f0-bb56-4d5069f33e64
+keywords:
+- Удаленный вызов процедур RPC, задачи, использование безопасности на уровне транспорта на сервере
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 39af5b8fb43a57683804eb7b91067ca9faad4390
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104487868"
+---
+# <a name="using-transport-level-security-on-the-server"></a><span data-ttu-id="b4e6a-104">Использование безопасности на уровне транспорта на сервере</span><span class="sxs-lookup"><span data-stu-id="b4e6a-104">Using Transport-level Security on the Server</span></span>
+
+<span data-ttu-id="b4e6a-105">В этом разделе рассматриваются вопросы безопасности на транспортном уровне, разделенные на следующие темы:</span><span class="sxs-lookup"><span data-stu-id="b4e6a-105">This section presents discussions of transport-level security, divided into the following topics:</span></span>
+
+-   [<span data-ttu-id="b4e6a-106">Использование Transport-Level безопасности на клиенте</span><span class="sxs-lookup"><span data-stu-id="b4e6a-106">Using Transport-Level Security on the Client</span></span>](using-transport-level-security-on-the-client.md)
+
+<span data-ttu-id="b4e6a-107">При использовании [нкакн \_ NP](/windows/desktop/Midl/ncacn-np) или [нкалрпк](/windows/desktop/Midl/ncalrpc) в качестве последовательности протокола сервер указывает дескриптор безопасности для конечной точки во время выбора последовательности протокола.</span><span class="sxs-lookup"><span data-stu-id="b4e6a-107">When you use [ncacn\_np](/windows/desktop/Midl/ncacn-np) or [ncalrpc](/windows/desktop/Midl/ncalrpc) as the protocol sequence, the server specifies a security descriptor for the endpoint at the time it selects the protocol sequence.</span></span> <span data-ttu-id="b4e6a-108">Дополнительные сведения о последовательностях протоколов см. в разделе [Указание последовательностей протоколов](specifying-protocol-sequences.md).</span><span class="sxs-lookup"><span data-stu-id="b4e6a-108">For more information on protocol sequences, see [Specifying Protocol Sequences](specifying-protocol-sequences.md).</span></span> <span data-ttu-id="b4e6a-109">Приложение предоставляет дескриптор безопасности как дополнительный параметр (расширение для стандартных параметров использование-DCE) для всех функций, начинающихся с префиксов [**рпксерверусепротсек**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseq) и [**рпксерверусеаллпротсекс**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs).</span><span class="sxs-lookup"><span data-stu-id="b4e6a-109">Your application provides the security descriptor as an additional parameter (an extension to the standard OSF-DCE parameters) on all functions that start with the prefixes [**RpcServerUseProtseq**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseq) and [**RpcServerUseAllProtseqs**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs).</span></span> <span data-ttu-id="b4e6a-110">Дескриптор безопасности определяет, может ли клиент подключиться к конечной точке.</span><span class="sxs-lookup"><span data-stu-id="b4e6a-110">The security descriptor controls whether a client can connect to the endpoint.</span></span>
+
+<span data-ttu-id="b4e6a-111">Каждый процесс и поток связан с маркером безопасности.</span><span class="sxs-lookup"><span data-stu-id="b4e6a-111">Each process and thread is associated with a security token.</span></span> <span data-ttu-id="b4e6a-112">Этот маркер включает дескриптор безопасности по умолчанию, который используется для любых объектов, создаваемых процессом, таких как конечная точка.</span><span class="sxs-lookup"><span data-stu-id="b4e6a-112">This token includes a default security descriptor that is used for any objects that the process creates, such as the endpoint.</span></span> <span data-ttu-id="b4e6a-113">Если в приложении не задан дескриптор безопасности при вызове функции с префиксами [**рпксерверусепротсек**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseq) и [**рпксерверусеаллпротсекс**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs), то библиотека времени выполнения RPC применяет дескриптор безопасности по умолчанию из токена безопасности процесса к конечной точке.</span><span class="sxs-lookup"><span data-stu-id="b4e6a-113">If your application does not specify a security descriptor when calling a function with the prefixes [**RpcServerUseProtseq**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseq) and [**RpcServerUseAllProtseqs**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs), the RPC run-time library applies the default security descriptor from the process security token to the endpoint.</span></span>
+
+<span data-ttu-id="b4e6a-114">Чтобы гарантировать доступность серверного приложения для всех клиентов, администратор должен запустить серверное приложение в процессе, который имеет дескриптор безопасности по умолчанию, который все клиенты могут использовать.</span><span class="sxs-lookup"><span data-stu-id="b4e6a-114">To guarantee that the server application is accessible to all clients, the administrator should start the server application on a process that has a default security descriptor that all clients can use.</span></span> <span data-ttu-id="b4e6a-115">Как правило, только системные процессы имеют дескриптор безопасности по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="b4e6a-115">Generally, only system processes have a default security descriptor.</span></span>
+
+<span data-ttu-id="b4e6a-116">Дополнительные сведения об этих функциях и функциях [**рпЦимперсонатеклиент**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient) и [**рпкреверттоселф**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcreverttoself).</span><span class="sxs-lookup"><span data-stu-id="b4e6a-116">For more information about these functions and the functions [**RpcImpersonateClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient) and [**RpcRevertToSelf**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcreverttoself).</span></span>
+
+ 
+
+ 
