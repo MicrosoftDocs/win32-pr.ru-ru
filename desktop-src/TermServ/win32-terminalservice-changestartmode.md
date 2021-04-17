@@ -1,0 +1,339 @@
+---
+title: Метод Чанжестартмоде класса Win32_Service (службы удаленных рабочих столов)
+description: Изменяет режим запуска Win32 \_ терминалсервице.
+ms.assetid: 4F4B8CFC-B38C-47C6-A2BA-D498EC2B7F55
+ms.tgt_platform: multiple
+keywords:
+- службы удаленных рабочих столов метода Чанжестартмоде
+- Службы удаленных рабочих столов метода Чанжестартмоде, класс Win32_Service
+- Класс Win32_Service службы удаленных рабочих столов, метод Чанжестартмоде
+topic_type:
+- apiref
+api_name:
+- Win32_Service.ChangeStartMode
+api_location:
+- TSCfgWmi.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 8a46c6b72fbb070dac32b2b6990a217068c77da9
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "105681870"
+---
+# <a name="changestartmode-method-of-the-win32_service-class-remote-desktop-services"></a>Метод Чанжестартмоде класса Win32_Service (службы удаленных рабочих столов)
+
+Метод  [класса WMI](/windows/desktop/WmiSdk/retrieving-a-class) Чанжестартмоде изменяет режим запуска [**Win32 \_ терминалсервице**](win32-terminalservice.md).
+
+В этом разделе используется синтаксис MOF-файл (MOF). Дополнительные сведения об использовании этого метода см. [в разделе вызов метода](/windows/desktop/WmiSdk/calling-a-method).
+
+## <a name="syntax"></a>Синтаксис
+
+
+```mof
+uint32 ChangeStartMode(
+  [in] string StartMode
+);
+```
+
+
+
+## <a name="parameters"></a>Параметры
+
+<dl> <dt>
+
+*StartMode* \[ окне\]
+</dt> <dd>
+
+Режим запуска базовой службы Windows.
+
+<dt>
+
+<span id="Boot"></span><span id="boot"></span><span id="BOOT"></span>
+
+<span id="Boot"></span><span id="boot"></span><span id="BOOT"></span>**Файле**
+
+
+</dt> <dd>
+
+Драйвер устройства запущен загрузчиком операционной системы. Это значение допустимо только для служб драйверов.
+
+</dd> <dt>
+
+<span id="System"></span><span id="system"></span><span id="SYSTEM"></span>
+
+<span id="System"></span><span id="system"></span><span id="SYSTEM"></span>**Системой**
+
+
+</dt> <dd>
+
+Драйвер устройства запущен процессом инициализации операционной системы. Это значение допустимо только для служб драйверов.
+
+</dd> <dt>
+
+<span id="Automatic"></span><span id="automatic"></span><span id="AUTOMATIC"></span>
+
+<span id="Automatic"></span><span id="automatic"></span><span id="AUTOMATIC"></span>**Автоматически**
+
+
+</dt> <dd>
+
+Служба запускается автоматически диспетчером управления службами во время запуска системы.
+
+</dd> <dt>
+
+<span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>
+
+<span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>**Вручную**
+
+
+</dt> <dd>
+
+Служба, запускаемая диспетчером управления службами, когда процесс вызывает метод [**StartService**](win32-terminalservice-startservice.md) .
+
+</dd> <dt>
+
+<span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span>
+
+<span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span>**Доступ**
+
+
+</dt> <dd>
+
+Служба, которая больше не может быть запущена.
+
+</dd> </dl> </dd> </dl>
+
+## <a name="return-value"></a>Возвращаемое значение
+
+Возвращает одно из значений, перечисленных в следующем списке, или любое другое значение, указывающее на ошибку. Дополнительные коды ошибок см. в разделе [**константы WMI Error**](/windows/desktop/WmiSdk/wmi-error-constants) или [**вбемерроренум**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Общие значения **HRESULT** см. в разделе [коды системных ошибок](/windows/desktop/Debug/system-error-codes).
+
+<dl> <dt>
+
+**0**
+</dt> <dd>
+
+Запрос принят.
+
+</dd> <dt>
+
+**1**
+</dt> <dd>
+
+Запрос не поддерживается.
+
+</dd> <dt>
+
+**2**
+</dt> <dd>
+
+У пользователя нет необходимых прав доступа.
+
+</dd> <dt>
+
+**3**
+</dt> <dd>
+
+Службу нельзя остановить, так как от нее зависят другие работающие службы.
+
+</dd> <dt>
+
+**4**
+</dt> <dd>
+
+Запрошенный управляющий код недопустим или неприемлем для данной службы.
+
+</dd> <dt>
+
+**5**
+</dt> <dd>
+
+Запрошенный управляющий код не может быть отправлен в службу, так как это состояние службы ([**Win32 \_ басесервице**](/windows/desktop/CIMWin32Prov/win32-baseservice).**Свойство State** ) равно 0, 1 или 2.
+
+</dd> <dt>
+
+**6**
+</dt> <dd>
+
+Служба не запущена.
+
+</dd> <dt>
+
+**7**
+</dt> <dd>
+
+Служба не ответила на запрос запуска за отведенное время.
+
+</dd> <dt>
+
+**8**
+</dt> <dd>
+
+Неизвестный сбой при запуске службы.
+
+</dd> <dt>
+
+**9**
+</dt> <dd>
+
+Не найден путь к каталогу исполняемого файла службы.
+
+</dd> <dt>
+
+**10**
+</dt> <dd>
+
+Служба уже запущена.
+
+</dd> <dt>
+
+**11**
+</dt> <dd>
+
+База данных для добавления новой службы заблокирована.
+
+</dd> <dt>
+
+**12**
+</dt> <dd>
+
+Зависимость, от которой зависит эта служба, удалена из системы.
+
+</dd> <dt>
+
+**13**
+</dt> <dd>
+
+Этой службе не удалось найти службу, которая необходима зависимой службе.
+
+</dd> <dt>
+
+**14**
+</dt> <dd>
+
+Эта служба была отключена в системе.
+
+</dd> <dt>
+
+**15**
+</dt> <dd>
+
+Эта служба не поддерживает проверку подлинности, необходимую для работы в системе.
+
+</dd> <dt>
+
+**16**
+</dt> <dd>
+
+Эта служба удаляется из системы.
+
+</dd> <dt>
+
+**17**
+</dt> <dd>
+
+Служба не имеет потока выполнения.
+
+</dd> <dt>
+
+**стр**
+</dt> <dd>
+
+Служба имеет циклические зависимости при запуске.
+
+</dd> <dt>
+
+**стр**
+</dt> <dd>
+
+Служба выполняется с тем же именем.
+
+</dd> <dt>
+
+**20**
+</dt> <dd>
+
+Имя службы содержит недопустимые символы.
+
+</dd> <dt>
+
+**открыт**
+</dt> <dd>
+
+Службе переданы недопустимые параметры.
+
+</dd> <dt>
+
+**22**
+</dt> <dd>
+
+Учетная запись, под которой работает эта служба, либо недопустима, либо не имеет разрешений на запуск службы.
+
+</dd> <dt>
+
+**23**
+</dt> <dd>
+
+Служба существует в базе данных доступных в системе служб.
+
+</dd> <dt>
+
+**24**
+</dt> <dd>
+
+Служба в данный момент приостановлена в системе.
+
+</dd> </dl>
+
+## <a name="examples"></a>Примеры
+
+Следующее [изменение StartMode примера службы](https://Gallery.TechNet.Microsoft.Com/6d0f06ed-f840-4228-ad2d-e16ebe6a3aed) PowerShell, извлеченного из коллекции TechNet, изменяет режим запуска службы.
+
+
+```PowerShell
+$wmi = get-wmiobject -class win32_service -namespace root\cimv2 -computername lisbon | 
+where-object { $_.name -eq 'bits' } 
+ 
+$rtn = $wmi.changestartmode("manual") 
+if($rtn.returnvalue -eq 0) { "success" } 
+ELSE 
+  { " $($rtn.returnvalue) was reported" }
+```
+
+
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
+| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
+| Пространство имен<br/>                | Корневой \\ CIMv2 \\ терминалсервицес<br/>                                                |
+| MOF<br/>                      | <dl> <dt>Тскфгвми. mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[**\_Служба Win32**](/windows/desktop/CIMWin32Prov/win32-service)
+</dt> <dt>
+
+[Классы операционной системы](/windows/desktop/CIMWin32Prov/operating-system-classes)
+</dt> <dt>
+
+[**\_Терминалсервице Win32**](win32-terminalservice.md)
+</dt> <dt>
+
+[Задачи WMI: службы](/windows/desktop/WmiSdk/wmi-tasks--services)
+</dt> </dl>
+
+ 
+
