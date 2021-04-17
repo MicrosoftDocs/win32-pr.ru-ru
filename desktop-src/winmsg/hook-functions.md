@@ -1,0 +1,38 @@
+---
+description: .
+ms.assetid: a1ff74b4-c015-4a82-a1fe-f4af1eaee705
+title: Функции-ловушки
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 1d6a189ec637df19b8e0eb95b41bf4a45c51ca67
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105702901"
+---
+# <a name="hook-functions"></a>Функции-ловушки
+
+-   [**каллмсгфилтер**](/windows/win32/api/winuser/nf-winuser-callmsgfiltera)
+-   [**каллнекссукекс**](/windows/win32/api/winuser/nf-winuser-callnexthookex)
+-   [*каллвндпрок*](/previous-versions/windows/desktop/legacy/ms644975(v=vs.85))
+-   [*каллвндретпрок*](/windows/win32/api/winuser/nc-winuser-hookproc)
+-   [*кбтпрок*](/previous-versions/windows/desktop/legacy/ms644977(v=vs.85))
+-   [*дебугпрок*](/previous-versions/windows/desktop/legacy/ms644978(v=vs.85))
+-   [*фореграундидлепрок*](/previous-versions/windows/desktop/legacy/ms644980(v=vs.85))
+-   [*жетмсгпрок*](getmsgproc.md)
+-   [*жаурналплайбаккпрок*](journalplaybackproc.md)
+-   [*жаурналрекордпрок*](journalrecordproc.md)
+-   [*кэйбоардпрок*](keyboardproc.md)
+-   [*ловлевелкэйбоардпрок*](lowlevelkeyboardproc.md)
+-   [*ловлевелмаусепрок*](lowlevelmouseproc.md)
+-   [*MessageProc*](messageproc.md)
+-   [*маусепрок*](mouseproc.md)
+-   [**сетвиндовшукекс**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)
+-   [*шеллпрок*](shellproc.md)
+-   [*сисмсгпрок*](sysmsgproc.md)
+-   [**унхуквиндовшукекс**](/windows/win32/api/winuser/nf-winuser-unhookwindowshookex)
+
+ 
+
+ 
