@@ -1,6 +1,6 @@
 ---
-title: Типы носителей
-description: Типы носителей
+title: Типы носителей для пакета SDK Windows Media Format
+description: Сведения о типах носителей, которые могут использоваться пакетом SDK Windows Media Format. Типы мультимедиа — это значения GUID, назначенные константам в пакете SDK.
 ms.assetid: 00dcbb20-09ed-44c5-992c-20f3d17ad47c
 keywords:
 - Windows Media Format SDK, типы мультимедиа
@@ -9,14 +9,14 @@ keywords:
 - типы носителей, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35005498e8b0625f404e9a54a51cddc65fbfd7bc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1d6d15255ab311c67562a6c9dde83650240b0803
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104133034"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106187813"
 ---
-# <a name="media-types"></a>Типы носителей
+# <a name="media-types-for-windows-media-format-sdk"></a>Типы носителей для пакета SDK Windows Media Format
 
 Типы носителей определяют различные типы носителей, которые могут использоваться пакетом SDK Windows Media Format. Все типы носителей — это значения GUID, которые были назначены константам в пакете SDK. Значения GUID, представленные константами, перечисленными в этом разделе, перечислены в разделе [идентификаторы типов мультимедиа](media-type-identifiers.md) этой ссылки.
 
@@ -35,7 +35,7 @@ ms.locfileid: "104133034"
 
 
 
- 
+ 
 
 В дополнение к явно поддерживаемым основным типам носителей можно создавать собственные произвольные типы данных. Для пользовательских произвольных типов данных необходимо убедиться, что используемый идентификатор GUID не соответствует существующему основному типу.
 
@@ -51,9 +51,9 @@ ms.locfileid: "104133034"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -63,9 +63,9 @@ ms.locfileid: "104133034"
 [**Справочник по программированию**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

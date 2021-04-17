@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b71990e230290403bca2a5af11eeca11b093402f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 47f47a937123ce252189aac57e922b10c2a015fc
+ms.sourcegitcommit: 8737f32d64e5f01c1d38aab92736e4088d6c446e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533272"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106098479"
 ---
 # <a name="texld---ps_2_0-and-up"></a>текслд-PS \_ 2 \_ 0 и выше
 
@@ -29,7 +29,7 @@ ms.locfileid: "104533272"
 
 
 
- 
+ 
 
 Где:
 
@@ -54,9 +54,9 @@ src1 должны быть [образцами (Direct3D 9 ASM-PS)](dx9-graphics
 
 ### <a name="ps_3_0"></a>PS \_ 3 \_ 0
 
-src1 должны быть [образцами (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md) без \# модификатора. Свиззле разрешен в src0 или src1. Свиззле применяется к текстуре курдинтатес перед поиском текстур.
+src1 должны быть [образцами (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md) без \# модификатора. Свиззле разрешен в src0 или src1. Свиззле применяется к координатам текстуры перед поиском текстур.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция поддерживается в следующих версиях:
 
@@ -68,7 +68,7 @@ src1 должны быть [образцами (Direct3D 9 ASM-PS)](dx9-graphics
 
 
 
- 
+ 
 
 Количество координат, необходимых для выполнения образца текстуры для src0, зависит от того, как был объявлен src1, а также от компонента. w. Типы образцов объявляются с помощью [дкл \_ самплертипе (SM2, SM3-PS ASM)](dcl-samplertype---ps.md). Если src1 объявлен как 2D-образец, src0 должен содержать координаты координат; Если src1 объявляется как образец куба или как образец объема, то src0 должен содержать координаты. xyz. Выборка текстуры с меньшей размерностью, чем есть в координатах текстуры, разрешена, так как дополнительные компоненты координат текстуры игнорируются.
 
@@ -86,15 +86,15 @@ src1 должны быть [образцами (Direct3D 9 ASM-PS)](dx9-graphics
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

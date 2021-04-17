@@ -1,17 +1,17 @@
 ---
-title: Константы
+title: Входные сообщения указателя и константы уведомлений
 description: В подразделах этого раздела приведены справочные спецификации для входных сообщений указателя и констант уведомлений.
 ms.assetid: 2224DCD0-DAE1-4AC2-AB36-23D114803138
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 26fbcc479a339cee67e578803c6feed228736a90
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6db54614e10c02cea5dfd4df9b7cf637abb3977c
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069912"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106188033"
 ---
-# <a name="constants"></a>Константы
+# <a name="pointer-input-messages-and-notifications-constants"></a>Входные сообщения указателя и константы уведомлений
 
 В подразделах этого раздела приведены справочные спецификации для [входных сообщений указателя и констант уведомлений](messages-and-notifications-portal.md) .
 
@@ -35,7 +35,7 @@ ms.locfileid: "104069912"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

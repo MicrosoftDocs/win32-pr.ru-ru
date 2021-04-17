@@ -1,0 +1,94 @@
+---
+title: Метод Сетстрингпроперти класса Win32_RDMSVirtualDesktopCollection (Цертенролл. h)
+description: Обновляет строковое свойство коллекции виртуальных рабочих столов.
+ms.assetid: d76d5f77-3b51-41b9-8ec5-a737ddc0a9d3
+ms.tgt_platform: multiple
+keywords:
+- службы удаленных рабочих столов метода Сетстрингпроперти
+- Службы удаленных рабочих столов метода Сетстрингпроперти, класс Win32_RDMSVirtualDesktopCollection
+- Класс Win32_RDMSVirtualDesktopCollection службы удаленных рабочих столов, метод Сетстрингпроперти
+topic_type:
+- apiref
+api_name:
+- Win32_RDMSVirtualDesktopCollection.SetStringProperty
+api_location:
+- RDMS.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 97fd85ef6611cd02dc80ca66816c5c4ce13f6cd9
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "105672746"
+---
+# <a name="setstringproperty-method-of-the-win32_rdmsvirtualdesktopcollection-class"></a>Метод Сетстрингпроперти \_ класса Win32 рдмсвиртуалдесктопколлектион
+
+Обновляет строковое свойство коллекции виртуальных рабочих столов.
+
+## <a name="syntax"></a>Синтаксис
+
+
+```mof
+uint32 SetStringProperty(
+  [in] string Key,
+  [in] string Value
+);
+```
+
+
+
+## <a name="parameters"></a>Параметры
+
+<dl> <dt>
+
+*Ключ* \[ окне\]
+</dt> <dd>
+
+Ключ, определяющий обновляемое свойство.
+
+</dd> <dt>
+
+*Значение* \[ окне\]
+</dt> <dd>
+
+Новое значение свойства.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Возвращаемое значение
+
+Возвращает значение 0 при успешном выполнении, в противном случае возвращает код ошибки WMI.
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|-------------------------------------|---------------------------------------------------------------------------------------------|
+| Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                   |
+| Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                              |
+| Пространство имен<br/>                | Корневой \\ \\ rdms CIMv2<br/>                                                                |
+| Header<br/>                   | <dl> <dt>Цертенролл. h</dt> </dl>     |
+| MOF<br/>                      | <dl> <dt>Рдманажемент. mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[**\_Рдмсвиртуалдесктопколлектион Win32**](win32-rdmsvirtualdesktopcollection.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
