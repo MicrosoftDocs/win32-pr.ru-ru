@@ -4,12 +4,12 @@ description: Каскадные теневые карты (Ксмс) — это 
 ms.assetid: d3570d0a-74e0-5b9c-6586-c933f630c4ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce6297e46f53bafbbe6abbba1629904f90f78d5e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ae70433f97f33c3cc28af8e282b14ea1f513cf4d
+ms.sourcegitcommit: 54db9e6a00a5c8f68e7c1a16b8c6d4943374498c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987694"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106165524"
 ---
 # <a name="cascaded-shadow-maps"></a>Каскадные карты теней
 
@@ -81,7 +81,7 @@ ms.locfileid: "103987694"
 
 **Рис. 4. Для различных конфигураций требуются разные фрустум разбиения**
 
-![для различных конфигураций требуются разные фрустум разбиения](images/different-configurations-require different-frustum-splits.png)
+![для различных конфигураций требуются разные фрустум разбиения](images/different-configurations-require-different-frustum-splits.png)
 
 Слева Если геометрический объект имеет большой динамический диапазон в Z, требуется много каскадных. Center Если геометрический объект имеет низкий динамический диапазон в Z, существует небольшое преимущество нескольких фрустумс. Справа Если динамический диапазон является средним, необходимы только три секции.
 
@@ -472,6 +472,6 @@ fPercentLit = pow( p_max, MAGIC_NUMBER );
 
 Енжел, Вофлганг F. раздел 4. Каскадные теневые карты. ShaderX5, дополнительные методы отрисовки, Волфганг F. Енжел, ED. Чарльз River Media, Бостон, Массачусетс. 2006. PP. 197 – 206.
 
- 
+ 
 
- 
+ 
