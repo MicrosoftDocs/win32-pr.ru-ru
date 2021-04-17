@@ -1,7 +1,7 @@
 ---
 description: Указывает, используют ли компьютеры встроенную службу автоматической настройки (автоконфигурации) для управления беспроводными подключениями.
 ms.assetid: c255e0a0-65ae-44a8-95cb-1a000394109d
-title: Элемент Енаблеаутоконфиг (Глобалфлагс) (LAN_policy)
+title: Элемент Енаблеаутоконфиг (Глобалфлагс) (LAN_policy) для WLAN
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -12,14 +12,14 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: c03e4c2afa9e8e98c07e1bc0cdec4099d3260aab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5105b8e634aa5affa8648b763a82bbd60cbaec17
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541039"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106188041"
 ---
-# <a name="enableautoconfig-globalflags-element-lan_policy"></a>Элемент Енаблеаутоконфиг (Глобалфлагс) (LAN_policy)
+# <a name="enableautoconfig-globalflags-element-lan_policy-for-wlan"></a>Элемент Енаблеаутоконфиг (Глобалфлагс) (LAN_policy) для WLAN 
 
 Элемент **енаблеаутоконфиг** (глобалфлагс) указывает, используют ли компьютеры встроенную службу автоматической настройки (автоконфигурации) для управления беспроводными подключениями. Если **енаблеаутоконфиг** имеет значение false, то компьютеры не должны использовать автоконфигурацию для управления беспроводными подключениями, а служба автонастройки реагирует только на запросы на включение службы. Если **енаблеаутоконфиг** имеет значение true, компьютеры могут использовать службу автонастройки.
 
