@@ -1,0 +1,50 @@
+---
+description: В этом разделе описываются структуры распознавателя.
+ms.assetid: 4c17391f-7af4-42ab-b77f-e3c39cadc0b6
+title: Структуры распознавателя
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: addaccf3e69f35b99379710d681fe8ac45559ea1
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105703044"
+---
+# <a name="recognizer-structures"></a><span data-ttu-id="54ca1-103">Структуры распознавателя</span><span class="sxs-lookup"><span data-stu-id="54ca1-103">Recognizer Structures</span></span>
+
+<span data-ttu-id="54ca1-104">В этом разделе описываются структуры распознавателя.</span><span class="sxs-lookup"><span data-stu-id="54ca1-104">This section describes the recognizer structures.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="54ca1-105">в этом разделе</span><span class="sxs-lookup"><span data-stu-id="54ca1-105">In This Section</span></span>
+
+
+
+| <span data-ttu-id="54ca1-106">Структура</span><span class="sxs-lookup"><span data-stu-id="54ca1-106">Structure</span></span>                                                    | <span data-ttu-id="54ca1-107">Описание</span><span class="sxs-lookup"><span data-stu-id="54ca1-107">Description</span></span>                                                                                                                                                   |
+|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="54ca1-108">**\_диапазон символов**</span><span class="sxs-lookup"><span data-stu-id="54ca1-108">**CHARACTER\_RANGE**</span></span>](/windows/win32/api/rectypes/ns-rectypes-character_range)                  | <span data-ttu-id="54ca1-109">Задает диапазон точек Юникода (символов).</span><span class="sxs-lookup"><span data-stu-id="54ca1-109">Specifies a range of Unicode points (characters).</span></span><br/>                                                                                                  |
+| [<span data-ttu-id="54ca1-110">**\_метрики LATTICE**</span><span class="sxs-lookup"><span data-stu-id="54ca1-110">**LATTICE\_METRICS**</span></span>](/windows/win32/api/rectypes/ns-rectypes-lattice_metrics)                  | <span data-ttu-id="54ca1-111">Описывает базовые показатели и высоту заполнение нажатием клавиши.</span><span class="sxs-lookup"><span data-stu-id="54ca1-111">Describes the baseline and the midline height.</span></span><br/>                                                                                                     |
+| [<span data-ttu-id="54ca1-112">**\_сегмент линии**</span><span class="sxs-lookup"><span data-stu-id="54ca1-112">**LINE\_SEGMENT**</span></span>](/windows/win32/api/rectypes/ns-rectypes-line_segment)                        | <span data-ttu-id="54ca1-113">Описывает начальную и конечную точки сегмента распознавания линии, такие как базовые показатели или заполнение нажатием клавиши.</span><span class="sxs-lookup"><span data-stu-id="54ca1-113">Describes the start and end points of a line recognition segment, such as the baseline or midline.</span></span><br/>                                                 |
+| [<span data-ttu-id="54ca1-114">**\_Описание пакета**</span><span class="sxs-lookup"><span data-stu-id="54ca1-114">**PACKET\_DESCRIPTION**</span></span>](/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description)            | <span data-ttu-id="54ca1-115">Описывает содержимое пакета для конкретного контекста планшета.</span><span class="sxs-lookup"><span data-stu-id="54ca1-115">Describes the content of the packet for a particular tablet context.</span></span><br/>                                                                               |
+| [<span data-ttu-id="54ca1-116">**\_свойство пакета**</span><span class="sxs-lookup"><span data-stu-id="54ca1-116">**PACKET\_PROPERTY**</span></span>](/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_property)                  | <span data-ttu-id="54ca1-117">Описывает свойство пакета, сообщаемое драйвером планшета.</span><span class="sxs-lookup"><span data-stu-id="54ca1-117">Describes a packet property that is reported by the tablet driver.</span></span><br/>                                                                                 |
+| [<span data-ttu-id="54ca1-118">**\_метрики свойств**</span><span class="sxs-lookup"><span data-stu-id="54ca1-118">**PROPERTY\_METRICS**</span></span>](/windows/desktop/api/tpcshrd/ns-tpcshrd-property_metrics)                | <span data-ttu-id="54ca1-119">Определяет диапазон и разрешение свойства пакета.</span><span class="sxs-lookup"><span data-stu-id="54ca1-119">Defines the range and resolution of a packet property.</span></span><br/>                                                                                             |
+| [<span data-ttu-id="54ca1-120">**СОСТО \_ attr**</span><span class="sxs-lookup"><span data-stu-id="54ca1-120">**RECO\_ATTRS**</span></span>](/windows/win32/api/rectypes/ns-rectypes-reco_attrs)                            | <span data-ttu-id="54ca1-121">Извлекает атрибуты распознавателя или определяет, какие атрибуты следует использовать при поиске установленного распознавателя.</span><span class="sxs-lookup"><span data-stu-id="54ca1-121">Retrieves the attributes of a recognizer or specifies which attributes to use when you search for an installed recognizer.</span></span><br/>                         |
+| [<span data-ttu-id="54ca1-122">**СОСТО \_ Guide**</span><span class="sxs-lookup"><span data-stu-id="54ca1-122">**RECO\_GUIDE**</span></span>](/windows/win32/api/rectypes/ns-rectypes-reco_guide)                            | <span data-ttu-id="54ca1-123">Определяет границы рукописного ввода для распознавателя.</span><span class="sxs-lookup"><span data-stu-id="54ca1-123">Defines the boundaries of the ink to the recognizer.</span></span><br/>                                                                                               |
+| [<span data-ttu-id="54ca1-124">**СОСТО \_ LATTICE**</span><span class="sxs-lookup"><span data-stu-id="54ca1-124">**RECO\_LATTICE**</span></span>](/windows/win32/api/rectypes/ns-rectypes-reco_lattice)                        | <span data-ttu-id="54ca1-125">Выступает в качестве точки входа в Lattice.</span><span class="sxs-lookup"><span data-stu-id="54ca1-125">Serves as the entry point into a lattice.</span></span><br/>                                                                                                          |
+| [<span data-ttu-id="54ca1-126">**СОСТО \_ LATTICE, \_ столбец**</span><span class="sxs-lookup"><span data-stu-id="54ca1-126">**RECO\_LATTICE\_COLUMN**</span></span>](/windows/win32/api/rectypes/ns-rectypes-reco_lattice_column)         | <span data-ttu-id="54ca1-127">Представляет столбец в Lattice.</span><span class="sxs-lookup"><span data-stu-id="54ca1-127">Represents a column in the lattice.</span></span><br/>                                                                                                                |
+| [<span data-ttu-id="54ca1-128">**СОСТО \_ LATTICE, \_ элемент**</span><span class="sxs-lookup"><span data-stu-id="54ca1-128">**RECO\_LATTICE\_ELEMENT**</span></span>](/windows/win32/api/rectypes/ns-rectypes-reco_lattice_element)       | <span data-ttu-id="54ca1-129">Соответствует одному слову или одному Восточно-Азиатскому символу, обычно; Однако элемент может также соответствовать жесту, фигуре или другому коду.</span><span class="sxs-lookup"><span data-stu-id="54ca1-129">Corresponds to one word or one East Asian character, typically; however, an element may also correspond to a gesture, a shape, or some other code.</span></span><br/> |
+| [<span data-ttu-id="54ca1-130">**\_Свойства LATTICE \_ состо**</span><span class="sxs-lookup"><span data-stu-id="54ca1-130">**RECO\_LATTICE\_PROPERTIES**</span></span>](/windows/win32/api/rectypes/ns-rectypes-reco_lattice_properties) | <span data-ttu-id="54ca1-131">Содержит массив указателей на структуры свойств.</span><span class="sxs-lookup"><span data-stu-id="54ca1-131">Contains an array of pointers to property structures.</span></span><br/>                                                                                              |
+| [<span data-ttu-id="54ca1-132">**СОСТО \_ LATTICE, \_ свойство**</span><span class="sxs-lookup"><span data-stu-id="54ca1-132">**RECO\_LATTICE\_PROPERTY**</span></span>](/windows/win32/api/rectypes/ns-rectypes-reco_lattice_property)     | <span data-ttu-id="54ca1-133">Содержит свойство, используемое в Lattice.</span><span class="sxs-lookup"><span data-stu-id="54ca1-133">Contains a property used in the lattice.</span></span><br/>                                                                                                           |
+| [<span data-ttu-id="54ca1-134">**\_диапазон состо**</span><span class="sxs-lookup"><span data-stu-id="54ca1-134">**RECO\_RANGE**</span></span>](/windows/win32/api/rectypes/ns-rectypes-reco_range)                            | <span data-ttu-id="54ca1-135">Определяет диапазон символов в результирующей строке.</span><span class="sxs-lookup"><span data-stu-id="54ca1-135">Identifies a range of characters in the result string.</span></span><br/>                                                                                             |
+| [<span data-ttu-id="54ca1-136">**\_диапазон штрихов**</span><span class="sxs-lookup"><span data-stu-id="54ca1-136">**STROKE\_RANGE**</span></span>](/windows/win32/api/tpcshrd/ns-tpcshrd-stroke_range)                        | <span data-ttu-id="54ca1-137">Задает диапазон штрихов в объекте [**инкдисп**](inkdisp-class.md) .</span><span class="sxs-lookup"><span data-stu-id="54ca1-137">Specifies a range of strokes in the [**InkDisp**](inkdisp-class.md) object.</span></span><br/>                                                                       |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
