@@ -1,0 +1,37 @@
+---
+title: Асинхронные и синхронные моникеры
+description: Асинхронные и синхронные моникеры
+ms.assetid: 79c7894d-956a-4c86-8806-2c6c7faa6034
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 6d54ee1b5f31941774944463baad893058fd15ad
+ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "104566188"
+---
+# <a name="asynchronous-and-synchronous-monikers"></a><span data-ttu-id="050cd-103">Асинхронные и синхронные моникеры</span><span class="sxs-lookup"><span data-stu-id="050cd-103">Asynchronous and Synchronous Monikers</span></span>
+
+<span data-ttu-id="050cd-104">Клиент стандартного, синхронного моникера OLE обычно создает и содержит ссылку на моникер, а также контекст привязки, используемый во время привязки.</span><span class="sxs-lookup"><span data-stu-id="050cd-104">A client of a standard, synchronous OLE moniker typically creates and holds a reference to the moniker, as well as the bind-context to be used during binding.</span></span> <span data-ttu-id="050cd-105">Компоненты, участвующие в использовании традиционных моникеров, показаны на следующей схеме.</span><span class="sxs-lookup"><span data-stu-id="050cd-105">The components involved in using traditional monikers are shown in the following diagram.</span></span>
+
+![Схема, на которой показан клиент, подключенный к контексту привязки или любому моникеру, предоставляемому системой.](images/1b29d6fe-f6e7-4eec-91e7-5043c09ca4dc.png)
+
+<span data-ttu-id="050cd-107">Обычно клиенты создают стандартные специальные имена, вызывая такие функции, как [**креатефилемоникер**](/windows/desktop/api/Objbase/nf-objbase-createfilemoniker), [**креатеитеммоникер**](/windows/desktop/api/Objbase/nf-objbase-createitemmoniker)или [**креатепоинтермоникер**](/windows/desktop/api/Objbase/nf-objbase-createpointermoniker) , так как они могут быть сохранены в постоянное хранилище с помощью [**олесаветостреам**](/windows/desktop/api/ole/nf-ole-olesavetostream) и [**олелоадфромстреам**](/windows/desktop/api/ole/nf-ole-oleloadfromstream).</span><span class="sxs-lookup"><span data-stu-id="050cd-107">Clients typically create standard monikers by calling functions such as [**CreateFileMoniker**](/windows/desktop/api/Objbase/nf-objbase-createfilemoniker), [**CreateItemMoniker**](/windows/desktop/api/Objbase/nf-objbase-createitemmoniker), or [**CreatePointerMoniker**](/windows/desktop/api/Objbase/nf-objbase-createpointermoniker) or, because they are can be saved to persistent storage, through [**OleSaveToStream**](/windows/desktop/api/ole/nf-ole-olesavetostream) and [**OleLoadFromStream**](/windows/desktop/api/ole/nf-ole-oleloadfromstream).</span></span> <span data-ttu-id="050cd-108">Моникеры также можно получить из объекта-контейнера, вызвав метод [**ибиндхост:: креатемоникер**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775075(v=vs.85)) .</span><span class="sxs-lookup"><span data-stu-id="050cd-108">Monikers may also be obtained from a container object by calling the [**IBindHost::CreateMoniker**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775075(v=vs.85)) method.</span></span> <span data-ttu-id="050cd-109">Клиенты создают контексты привязки путем вызова функции [**креатебиндкткс**](/windows/desktop/api/Objbase/nf-objbase-createbindctx) , а затем передают контекст привязки моникеру с вызовами [**IMoniker:: биндтостораже**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) или [**IMoniker:: биндтубжект**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtoobject).</span><span class="sxs-lookup"><span data-stu-id="050cd-109">Clients create bind contexts by calling the [**CreateBindCtx**](/windows/desktop/api/Objbase/nf-objbase-createbindctx) function and then pass the bind context to the moniker with calls to [**IMoniker::BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) or [**IMoniker::BindToObject**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtoobject).</span></span>
+
+<span data-ttu-id="050cd-110">Как показано на следующей схеме, клиент асинхронного моникера также создает и хранит ссылку на моникер и контекст привязки, используемые во время привязки.</span><span class="sxs-lookup"><span data-stu-id="050cd-110">As shown in the following diagram, a client of an asynchronous moniker also creates and holds a reference to the moniker and bind context to be used during binding.</span></span>
+
+![Схема, на которой показаны подключения между предоставленными клиентом, Монкер и предоставляемыми системой.](images/86872be9-bcbb-4ce8-b69a-38ae5bd7ba41.png)
+
+<span data-ttu-id="050cd-112">Чтобы получить асинхронное поведение, клиент реализует интерфейс [**метода интерфейса IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) в объекте обратного вызова состояния привязки и вызывает функцию [**Регистербиндстатускаллбакк**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775115(v=vs.85)) или функцию [**креатеасинкбиндкткс**](/windows/desktop/api/Urlmon/nf-urlmon-createasyncbindctx) для регистрации этого интерфейса в контексте привязки.</span><span class="sxs-lookup"><span data-stu-id="050cd-112">To get asynchronous behavior, the client implements the [**IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) interface on a bind-status-callback object and calls either the [**RegisterBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775115(v=vs.85)) function or the [**CreateAsyncBindCtx**](/windows/desktop/api/Urlmon/nf-urlmon-createasyncbindctx) function to register this interface with the bind context.</span></span> <span data-ttu-id="050cd-113">Моникер передает указатель на свой интерфейс [**ибиндинг**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775071(v=vs.85)) в вызове метода [**метода интерфейса IBindStatusCallback:: онстартбиндинг**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775065(v=vs.85)) .</span><span class="sxs-lookup"><span data-stu-id="050cd-113">The moniker passes a pointer to its [**IBinding**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775071(v=vs.85)) interface in a call to the [**IBindStatusCallback::OnStartBinding**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775065(v=vs.85)) method.</span></span> <span data-ttu-id="050cd-114">Клиент сообщает асинхронному моникеру, как он хочет выполнить привязку при возврате из вызова метода [**метода интерфейса IBindStatusCallback:: GetBindInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775058(v=vs.85)) в моникере.</span><span class="sxs-lookup"><span data-stu-id="050cd-114">The client tells the asynchronous moniker how it wants to bind on return from the moniker's call to [**IBindStatusCallback::GetBindInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775058(v=vs.85)) method.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="050cd-115">См. также</span><span class="sxs-lookup"><span data-stu-id="050cd-115">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="050cd-116">Асинхронные моникеры</span><span class="sxs-lookup"><span data-stu-id="050cd-116">Asynchronous Monikers</span></span>](asynchronous-monikers.md)
+</dt> </dl>
+
+ 
+
+ 
