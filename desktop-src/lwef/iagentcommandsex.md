@@ -1,0 +1,47 @@
+---
+title: иаженткоммандсекс
+description: иаженткоммандсекс
+ms.assetid: 6c354677-4cdb-4a74-9c41-2d0bf6f8dd55
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 7d16616ccb86bf109dad85a8ee2ac5d2bd009827
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "105710285"
+---
+# <a name="iagentcommandsex"></a><span data-ttu-id="bf014-103">иаженткоммандсекс</span><span class="sxs-lookup"><span data-stu-id="bf014-103">IAgentCommandsEx</span></span>
+
+<span data-ttu-id="bf014-104">\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]</span><span class="sxs-lookup"><span data-stu-id="bf014-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+
+<span data-ttu-id="bf014-105">[**Иаженткоммандсекс**](iagentcommandex.md) определяет интерфейс, расширяющий интерфейс [**иаженткоммандс**](iagentcommands.md) .</span><span class="sxs-lookup"><span data-stu-id="bf014-105">[**IAgentCommandsEx**](iagentcommandex.md) defines an interface that extends the [**IAgentCommands**](iagentcommands.md) interface.</span></span>
+
+<span data-ttu-id="bf014-106">**Методы в порядке таблицы Vtable**</span><span class="sxs-lookup"><span data-stu-id="bf014-106">**Methods in Vtable Order**</span></span>
+
+
+
+| <span data-ttu-id="bf014-107">Методы Иаженткоммандсекс</span><span class="sxs-lookup"><span data-stu-id="bf014-107">IAgentCommandsEx Methods</span></span>                                                             | <span data-ttu-id="bf014-108">Описание</span><span class="sxs-lookup"><span data-stu-id="bf014-108">Description</span></span>                                                                                                   |
+|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="bf014-109">сетдефаултид</span><span class="sxs-lookup"><span data-stu-id="bf014-109">SetDefaultID</span></span>](iagentcommandsex--setdefaultid.md)                                   | <span data-ttu-id="bf014-110">Задает команду по умолчанию для всплывающего меню символа.</span><span class="sxs-lookup"><span data-stu-id="bf014-110">Sets the default command for the character's pop-up menu.</span></span>                                                     |
+| [<span data-ttu-id="bf014-111">жетдефаултид</span><span class="sxs-lookup"><span data-stu-id="bf014-111">GetDefaultID</span></span>](iagentcommandsex--getdefaultid.md)                                   | <span data-ttu-id="bf014-112">Возвращает команду по умолчанию для всплывающего меню символа.</span><span class="sxs-lookup"><span data-stu-id="bf014-112">Returns the default command for the character's pop-up menu.</span></span>                                                  |
+| [<span data-ttu-id="bf014-113">**сеселпконтекстид**</span><span class="sxs-lookup"><span data-stu-id="bf014-113">**SetHelpContextID**</span></span>](iagentcommandex--sethelpcontextid.md)                        | <span data-ttu-id="bf014-114">Задает контекстно-зависимый идентификатор раздела справки для объекта [**команды**](/windows/desktop/lwef/the-command-object) .</span><span class="sxs-lookup"><span data-stu-id="bf014-114">Sets the context-sensitive help topic ID for a [**Command**](/windows/desktop/lwef/the-command-object) object.</span></span>                     |
+| [<span data-ttu-id="bf014-115">**жеселпконтекстид**</span><span class="sxs-lookup"><span data-stu-id="bf014-115">**GetHelpContextID**</span></span>](iagentcommandex--gethelpcontextid.md)                        | <span data-ttu-id="bf014-116">Возвращает контекстно-зависимый идентификатор раздела справки для объекта [**команды**](/windows/desktop/lwef/the-command-object) .</span><span class="sxs-lookup"><span data-stu-id="bf014-116">Returns the context-sensitive help topic ID for a [**Command**](/windows/desktop/lwef/the-command-object) object.</span></span>                  |
+| [<span data-ttu-id="bf014-117">сетфонтнаме</span><span class="sxs-lookup"><span data-stu-id="bf014-117">SetFontName</span></span>](iagentcommandsex--setfontname.md)                                     | <span data-ttu-id="bf014-118">Задает шрифт для использования во всплывающем меню символа.</span><span class="sxs-lookup"><span data-stu-id="bf014-118">Sets the font to use in the character's pop-up menu.</span></span>                                                          |
+| [<span data-ttu-id="bf014-119">GetFontName</span><span class="sxs-lookup"><span data-stu-id="bf014-119">GetFontName</span></span>](iagentcommandsex--getfontname.md)                                     | <span data-ttu-id="bf014-120">Возвращает шрифт, используемый во всплывающем меню символа.</span><span class="sxs-lookup"><span data-stu-id="bf014-120">Returns the font used in the character's pop-up menu.</span></span>                                                         |
+| [<span data-ttu-id="bf014-121">сетфонтсизе</span><span class="sxs-lookup"><span data-stu-id="bf014-121">SetFontSize</span></span>](iagentcommandsex--setfontsize.md)                                     | <span data-ttu-id="bf014-122">Задает размер шрифта для использования во всплывающем меню символа.</span><span class="sxs-lookup"><span data-stu-id="bf014-122">Sets the font size to use in the character's pop-up menu.</span></span>                                                     |
+| [<span data-ttu-id="bf014-123">GetFontSize</span><span class="sxs-lookup"><span data-stu-id="bf014-123">GetFontSize</span></span>](iagentcommandsex--getfontsize.md)                                     | <span data-ttu-id="bf014-124">Возвращает размер шрифта, используемый во всплывающем меню символа.</span><span class="sxs-lookup"><span data-stu-id="bf014-124">Returns the font size used in the character's pop-up menu.</span></span>                                                    |
+| [<span data-ttu-id="bf014-125">**сетвоицекаптион**</span><span class="sxs-lookup"><span data-stu-id="bf014-125">**SetVoiceCaption**</span></span>](iagentcommandex--setvoicecaption.md)                          | <span data-ttu-id="bf014-126">Задает заголовок голоса для объекта [**команды**](/windows/desktop/lwef/the-command-object) символа.</span><span class="sxs-lookup"><span data-stu-id="bf014-126">Sets the voice caption for the character's [**Command**](/windows/desktop/lwef/the-command-object) object.</span></span>                         |
+| [<span data-ttu-id="bf014-127">**жетвоицекаптион**</span><span class="sxs-lookup"><span data-stu-id="bf014-127">**GetVoiceCaption**</span></span>](iagentcommandex--getvoicecaption.md)                          | <span data-ttu-id="bf014-128">Возвращает заголовок голоса для объекта [**команды**](/windows/desktop/lwef/the-command-object) символа.</span><span class="sxs-lookup"><span data-stu-id="bf014-128">Returns the voice caption for the character's [**Command**](/windows/desktop/lwef/the-command-object) object.</span></span>                      |
+| [<span data-ttu-id="bf014-129">аддекс</span><span class="sxs-lookup"><span data-stu-id="bf014-129">AddEx</span></span>](iagentcommandsex--addex.md)                                                 | <span data-ttu-id="bf014-130">Добавляет объект [**Command**](/windows/desktop/lwef/the-command-object) в коллекцию [**Commands**](/windows/desktop/lwef/the-commands-collection-object) .</span><span class="sxs-lookup"><span data-stu-id="bf014-130">Adds a [**Command**](/windows/desktop/lwef/the-command-object) object to a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.</span></span>    |
+| [<span data-ttu-id="bf014-131">инсертекс</span><span class="sxs-lookup"><span data-stu-id="bf014-131">InsertEx</span></span>](iagentcommandsex--insertex.md)                                           | <span data-ttu-id="bf014-132">Вставляет объект [**Command**](/windows/desktop/lwef/the-command-object) в коллекцию [**Commands**](/windows/desktop/lwef/the-commands-collection-object) .</span><span class="sxs-lookup"><span data-stu-id="bf014-132">Inserts a [**Command**](/windows/desktop/lwef/the-command-object) object in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.</span></span> |
+| [<span data-ttu-id="bf014-133">сетглобалвоицекоммандсенаблед</span><span class="sxs-lookup"><span data-stu-id="bf014-133">SetGlobalVoiceCommandsEnabled</span></span>](iagentcommandsex--setglobalvoicecommandsenabled.md) | <span data-ttu-id="bf014-134">Включает грамматику голоса для глобальных команд агента.</span><span class="sxs-lookup"><span data-stu-id="bf014-134">Enables the voice grammar for Agent's global commands.</span></span>                                                        |
+| [<span data-ttu-id="bf014-135">жетглобалвоицекоммандсенаблед</span><span class="sxs-lookup"><span data-stu-id="bf014-135">GetGlobalVoiceCommandsEnabled</span></span>](iagentcommandsex--getglobalvoicecommandsenabled.md) | <span data-ttu-id="bf014-136">Возвращает значение, определяющее, включена ли грамматика голоса для глобальных команд агента.</span><span class="sxs-lookup"><span data-stu-id="bf014-136">Returns whether the voice grammar for Agent's global commands is enabled.</span></span>                                     |
+
+
+
+ 
+
+ 
+
+ 
