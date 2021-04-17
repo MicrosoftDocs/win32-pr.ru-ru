@@ -1,0 +1,84 @@
+---
+description: Дополнительные сведения о методе API. JetBeginTransaction2
+title: API. JetBeginTransaction2, метод
+TOCTitle: 'JetBeginTransaction2 method '
+ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetBeginTransaction2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.BeginTransactionGrbit)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.jetbegintransaction2(v=EXCHG.10)
+ms:contentKeyID: 55107226
+ms.date: 07/30/2014
+ms.topic: reference
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.Api.JetBeginTransaction2
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name:
+- Microsoft.Isam.Esent.Interop.Api.JetBeginTransaction2
+topic_type:
+- kbSyntax
+- apiref
+api_type:
+- Managed
+api_location:
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: 8d41652c4688bd736ac5f5164ca9b487a24edf8e
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104539731"
+---
+# <a name="apijetbegintransaction2-method"></a>API. JetBeginTransaction2, метод
+
+Заставляет сеанс войти в транзакцию или создать новую точку сохранения в существующей транзакции.
+
+**Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
+**Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)
+
+## <a name="syntax"></a>Синтаксис
+
+``` vb
+'Declaration
+Public Shared Sub JetBeginTransaction2 ( _
+    sesid As JET_SESID, _
+    grbit As BeginTransactionGrbit _
+)
+'Usage
+Dim sesid As JET_SESID
+Dim grbit As BeginTransactionGrbitApi.JetBeginTransaction2(sesid, _
+    grbit)
+```
+
+``` csharp
+public static void JetBeginTransaction2(
+    JET_SESID sesid,
+    BeginTransactionGrbit grbit
+)
+```
+
+#### <a name="parameters"></a>Параметры
+
+  - сесид  
+    Тип: [Microsoft.ISAM.ESENT.Interop.JET_SESID](./jet-sesid-structure.md)  
+    
+    Сеанс, для которого начинается транзакция.
+
+<!-- end list -->
+
+  - грбит  
+    Тип: [Microsoft. ISAM. ESENT. Interop. бегинтрансактионгрбит](./begintransactiongrbit-enumeration.md)  
+    
+    Параметры транзакций.
+
+## <a name="see-also"></a>См. также раздел
+
+#### <a name="reference"></a>Справочник
+
+[Класс API](./api-class.md)
+
+[Члены API](./api-members.md)
+
+[Пространство имен Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)
