@@ -1,0 +1,50 @@
+---
+description: Трассировка Winsock
+ms.assetid: 0c430fc2-28e7-4537-a887-4c36d24fedee
+title: Трассировка Winsock
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 803be6220d4d2d440811033786b0f043fab0ff9d
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105711007"
+---
+# <a name="winsock-tracing"></a><span data-ttu-id="bd83b-103">Трассировка Winsock</span><span class="sxs-lookup"><span data-stu-id="bd83b-103">Winsock Tracing</span></span>
+
+## <a name="introduction"></a><span data-ttu-id="bd83b-104">Введение</span><span class="sxs-lookup"><span data-stu-id="bd83b-104">Introduction</span></span>
+
+<span data-ttu-id="bd83b-105">Трассировка Winsock — это функция устранения неполадок, которую можно включить в двоичных файлах розничной торговли для трассировки определенных событий Windows Socket с минимальными издержками.</span><span class="sxs-lookup"><span data-stu-id="bd83b-105">Winsock tracing is a troubleshooting feature that can be enabled in retail binaries to trace certain Windows socket events with minimal overhead.</span></span> <span data-ttu-id="bd83b-106">Цель добавления трассировки розничной торговли в сокеты Windows — обеспечить улучшенные возможности диагностики для разработчиков и поддержки продуктов.</span><span class="sxs-lookup"><span data-stu-id="bd83b-106">The goal of adding retail tracing to Windows Sockets is to allow for better diagnostic capabilities for developers and product support.</span></span> <span data-ttu-id="bd83b-107">Трассировка событий сети Winsock поддерживает операции сокета трассировки для приложений IPv4 и IPv6.</span><span class="sxs-lookup"><span data-stu-id="bd83b-107">Winsock network event tracing supports tracing socket operations for IPv4 and IPv6 applications.</span></span> <span data-ttu-id="bd83b-108">Трассировка изменений каталога Winsock поддерживает трассировку изменений, внесенных в каталог Winsock с помощью многоуровневых поставщиков служб (LSP).</span><span class="sxs-lookup"><span data-stu-id="bd83b-108">Winsock catalog change tracing supports tracing changes made to the Winsock catalog by layered service providers (LSPs).</span></span> <span data-ttu-id="bd83b-109">Трассировка Winsock поддерживается в Windows Vista и более поздних версиях.</span><span class="sxs-lookup"><span data-stu-id="bd83b-109">Winsock tracing is supported on Windows Vista and later.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="bd83b-110">Многоуровневые поставщики служб являются устаревшими.</span><span class="sxs-lookup"><span data-stu-id="bd83b-110">Layered Service Providers are deprecated.</span></span> <span data-ttu-id="bd83b-111">Начиная с Windows 8 и Windows Server 2012, используйте [платформу фильтрации Windows](../fwp/windows-filtering-platform-start-page.md).</span><span class="sxs-lookup"><span data-stu-id="bd83b-111">Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md).</span></span>
+
+ 
+
+<span data-ttu-id="bd83b-112">При возникновении непредвиденной ошибки в сокете основным моментом для диагностики проблемы является возвращенный код ошибки.</span><span class="sxs-lookup"><span data-stu-id="bd83b-112">When an unexpected error occurs on a socket, the main clue to diagnose the problem is the error code returned.</span></span> <span data-ttu-id="bd83b-113">Очень часто в возвращенном коде ошибки не объясняется, почему произошла ошибка, особенно если ошибка инициируется базовым сетевым транспортом.</span><span class="sxs-lookup"><span data-stu-id="bd83b-113">Very often, the returned error code does not explain why the error happened, especially when the error is initiated by the underlying network transport.</span></span> <span data-ttu-id="bd83b-114">Трассировка Winsock предоставляет более подробный уровень трассировки, который может регистрировать дополнительные сведения для перехвата повреждений буфера и плохо написанных приложений.</span><span class="sxs-lookup"><span data-stu-id="bd83b-114">Winsock tracing provides a more verbose tracing level which can log additional information to catch buffer corruption and poorly written applications.</span></span>
+
+<span data-ttu-id="bd83b-115">Трассировка Winsock использует средство трассировки событий для Windows (ETW), предназначенное для общего назначения, высокоскоростной трассировки, обеспечиваемой операционной системой.</span><span class="sxs-lookup"><span data-stu-id="bd83b-115">Winsock tracing uses Event Tracing for Windows (ETW), a general-purpose, high-speed tracing facility provided by the operating system.</span></span> <span data-ttu-id="bd83b-116">Используя механизм буферизации и ведения журнала, реализованный в ядре, ETW предоставляет механизм трассировки для событий, создаваемых как приложениями пользовательского режима, так и драйверами устройств в режиме ядра.</span><span class="sxs-lookup"><span data-stu-id="bd83b-116">Using a buffering and logging mechanism implemented in the kernel, ETW provides a tracing mechanism for events raised by both user-mode applications and kernel-mode device drivers.</span></span> <span data-ttu-id="bd83b-117">Кроме того, ETW позволяет динамически включать и отключать ведение журнала, что упрощает выполнение подробной трассировки в рабочей среде без необходимости перезагрузки или перезапуска приложений.</span><span class="sxs-lookup"><span data-stu-id="bd83b-117">Additionally, ETW gives you the ability to enable and disable logging dynamically, making it easy to perform detailed tracing in production environments without requiring reboots or application restarts.</span></span> <span data-ttu-id="bd83b-118">Механизм ведения журнала использует буферы, которые записываются на диск потоком асинхронного модуля записи.</span><span class="sxs-lookup"><span data-stu-id="bd83b-118">The logging mechanism uses buffers that are written to disk by an asynchronous writer thread.</span></span> <span data-ttu-id="bd83b-119">Это позволяет крупномасштабным серверным приложениям записывать события с минимальным беспорядки.</span><span class="sxs-lookup"><span data-stu-id="bd83b-119">This allows large-scale server applications to write events with minimum disturbance.</span></span> <span data-ttu-id="bd83b-120">ETW впервые появился в Windows 2000.</span><span class="sxs-lookup"><span data-stu-id="bd83b-120">ETW was first introduced on Windows 2000.</span></span> <span data-ttu-id="bd83b-121">Поддержка трассировки Winsock с помощью ETW была добавлена в Windows Vista и более поздних версиях.</span><span class="sxs-lookup"><span data-stu-id="bd83b-121">Support for Winsock tracing using ETW was added on Windows Vista and later.</span></span> <span data-ttu-id="bd83b-122">Общие сведения о трассировке событий Windows см. в статье [улучшение отладки и настройка производительности с помощью ETW](/archive/msdn-magazine/2007/april/event-tracing-improve-debugging-and-performance-tuning-with-etw).</span><span class="sxs-lookup"><span data-stu-id="bd83b-122">For general information on ETW, see [Improve Debugging And Performance Tuning With ETW](/archive/msdn-magazine/2007/april/event-tracing-improve-debugging-and-performance-tuning-with-etw).</span></span>
+
+<span data-ttu-id="bd83b-123">Трассировку Winsock можно включить только на уровне операционной системы для всех процессов и потоков, выполняющихся на компьютере.</span><span class="sxs-lookup"><span data-stu-id="bd83b-123">Winsock tracing can only be enabled at the operating system level for all processes and threads running on a computer.</span></span> <span data-ttu-id="bd83b-124">Трассировку Winsock в настоящее время нельзя включить только для одного процесса или потока.</span><span class="sxs-lookup"><span data-stu-id="bd83b-124">Winsock tracing currently cannot be enabled for just a single process or thread.</span></span> <span data-ttu-id="bd83b-125">Если включена трассировка событий сети Winsock, все приложения сокетов (IPv4 и IPv6) на компьютере отслеживаются.</span><span class="sxs-lookup"><span data-stu-id="bd83b-125">When Winsock network event tracing is enabled, all socket applications (both IPv4 and IPv6) on a computer are traced.</span></span>
+
+<span data-ttu-id="bd83b-126">В следующих разделах подробно описывается трассировка Winsock:</span><span class="sxs-lookup"><span data-stu-id="bd83b-126">The following topics describe Winsock tracing in more detail:</span></span>
+
+-   [<span data-ttu-id="bd83b-127">Уровни трассировки Winsock</span><span class="sxs-lookup"><span data-stu-id="bd83b-127">Winsock Tracing Levels</span></span>](winsock-tracing-levels.md)
+-   [<span data-ttu-id="bd83b-128">Управление трассировкой Winsock</span><span class="sxs-lookup"><span data-stu-id="bd83b-128">Control of Winsock Tracing</span></span>](control-of-winsock-tracing.md)
+-   [<span data-ttu-id="bd83b-129">Сведения о трассировке событий сети Winsock</span><span class="sxs-lookup"><span data-stu-id="bd83b-129">Winsock Network Event Tracing Details</span></span>](winsock-tracing-event-details.md)
+-   [<span data-ttu-id="bd83b-130">Сведения о трассировке изменений каталога Winsock</span><span class="sxs-lookup"><span data-stu-id="bd83b-130">Winsock Catalog Change Tracing Details</span></span>](winsock-layered-service-provider-tracing-event-details.md)
+
+## <a name="related-topics"></a><span data-ttu-id="bd83b-131">См. также</span><span class="sxs-lookup"><span data-stu-id="bd83b-131">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="bd83b-132">Усовершенствованные отладка и настройка производительности с помощью приложения ETW</span><span class="sxs-lookup"><span data-stu-id="bd83b-132">Improve Debugging And Performance Tuning With ETW</span></span>](/archive/msdn-magazine/2007/april/event-tracing-improve-debugging-and-performance-tuning-with-etw)
+</dt> <dt>
+
+[<span data-ttu-id="bd83b-133">Средства отладки и трассировки</span><span class="sxs-lookup"><span data-stu-id="bd83b-133">Debug and Trace Facilities</span></span>](debug-and-trace-facilities-2.md)
+</dt> </dl>
+
+ 
+
+ 
