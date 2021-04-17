@@ -1,0 +1,77 @@
+---
+description: Объект Pack
+ms.assetid: e84a05a0-ea12-4bc1-83e1-1eb0dd291dc9
+title: Объект Pack
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 02b01978747df5ccc273a31ae2f516b35c01df96
+ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "104565387"
+---
+# <a name="pack-object"></a><span data-ttu-id="c167d-103">Объект Pack</span><span class="sxs-lookup"><span data-stu-id="c167d-103">Pack Object</span></span>
+
+<span data-ttu-id="c167d-104">\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]</span><span class="sxs-lookup"><span data-stu-id="c167d-104">\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]</span></span>
+
+<span data-ttu-id="c167d-105">Объект типа "Pack" моделирует группу дисков, коллекцию дисков и томов, управляемых базовым или динамическим поставщиком программного обеспечения.</span><span class="sxs-lookup"><span data-stu-id="c167d-105">A pack object models a disk group, a collection of disks and volumes managed by the basic or dynamic software provider.</span></span> <span data-ttu-id="c167d-106">Поставщик может содержать несколько объектов Pack.</span><span class="sxs-lookup"><span data-stu-id="c167d-106">A provider can contain multiple pack objects.</span></span>
+
+<span data-ttu-id="c167d-107">С помощью API приложения могут направлять VDS для добавления одного или нескольких дисков в пакет, привязывать диски к томам и при необходимости перемещать диски в виде единиц между узлами.</span><span class="sxs-lookup"><span data-stu-id="c167d-107">Using the API, applications can direct VDS to add one or more disks to a pack, bind the disks into volumes, and optionally move the disks as a unit between hosts.</span></span> <span data-ttu-id="c167d-108">Нельзя импортировать существующий том в пакет.</span><span class="sxs-lookup"><span data-stu-id="c167d-108">You cannot import an existing volume into a pack.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="c167d-109">Членство в пакете не подразумевает согласованность между дисками в отношении производительности, мультимедиа, протокола межсетевого подключения или других характеристик.</span><span class="sxs-lookup"><span data-stu-id="c167d-109">Membership in a pack does not imply consistency among disks with respect to performance, media, interconnection protocol, or other characteristics.</span></span>
+
+ 
+
+<span data-ttu-id="c167d-110">Объекты диска либо не распределены, либо управляются службой VDS, либо являются членами только одного пакета.</span><span class="sxs-lookup"><span data-stu-id="c167d-110">Disk objects are either unallocated, and managed by VDS, or are members of exactly one pack.</span></span> <span data-ttu-id="c167d-111">Базовый поставщик программного обеспечения может иметь ноль или более пакетов, каждый из которых содержит один базовый диск.</span><span class="sxs-lookup"><span data-stu-id="c167d-111">The basic software provider can have zero or more packs, each containing a single basic disk.</span></span> <span data-ttu-id="c167d-112">Поставщик накладывает ограничения на количество томов на базовом диске.</span><span class="sxs-lookup"><span data-stu-id="c167d-112">The provider imposes no limits to the number of volumes on a basic disk.</span></span> <span data-ttu-id="c167d-113">Динамический поставщик может иметь от нуля или более пакетов с несколькими динамическими дисками в каждом пакете.</span><span class="sxs-lookup"><span data-stu-id="c167d-113">The dynamic provider can have zero or more packs with multiple dynamic disks in each pack.</span></span> <span data-ttu-id="c167d-114">Этот поставщик ограничивает количество томов на диске в зависимости от размера в 1 МБ базы данных диспетчера логических дисков (LDM).</span><span class="sxs-lookup"><span data-stu-id="c167d-114">This provider limits the number of volumes on a disk, based on the one-megabyte size of the logical disk manager (LDM) database.</span></span> <span data-ttu-id="c167d-115">Учитывая, что том имеет по крайней мере один Плекс и один экстент диска, максимальное число томов для пакета составляет примерно 1000.</span><span class="sxs-lookup"><span data-stu-id="c167d-115">Given that a volume has at least one plex and one disk extent, the maximum number of volumes to a pack is approximately 1000.</span></span> <span data-ttu-id="c167d-116">Максимальное число выходит за пределы числа дисков.</span><span class="sxs-lookup"><span data-stu-id="c167d-116">The maximum number goes down as the number of disks goes up.</span></span>
+
+<span data-ttu-id="c167d-117">Помимо объектов-дисков, пакет может содержать один или несколько объектов LUN, реализованных одним или несколькими поставщиками оборудования.</span><span class="sxs-lookup"><span data-stu-id="c167d-117">In addition to disk objects, a pack can contain one or more LUN objects implemented by one or more hardware providers.</span></span> <span data-ttu-id="c167d-118">Для ядра Windows LUN — это просто другой диск.</span><span class="sxs-lookup"><span data-stu-id="c167d-118">To the Windows kernel, a LUN is just another disk.</span></span> <span data-ttu-id="c167d-119">(Объекты LUN должны быть раскрыты на компьютере, на котором работает программа поставщика.) Если диск является LUN, объект LUN предоставляет интерфейсы [**ивдслун**](/windows/desktop/api/Vds/nn-vds-ivdslun) и [**ивдсдиск**](/windows/desktop/api/Vds/nn-vds-ivdsdisk) .</span><span class="sxs-lookup"><span data-stu-id="c167d-119">(LUN objects must be unmasked to the computer that is executing the provider program.) When the disk is a LUN, the LUN object exposes both the [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) and [**IVdsDisk**](/windows/desktop/api/Vds/nn-vds-ivdsdisk) interfaces.</span></span> <span data-ttu-id="c167d-120">Объект Pack использует **ивдсдиск** вместо **Ивдслун** для перечисления LUN в пакете.</span><span class="sxs-lookup"><span data-stu-id="c167d-120">A pack object uses **IVdsDisk**, instead of **IVdsLun**, to enumerate the LUNs in a pack.</span></span> <span data-ttu-id="c167d-121">Более подробное описание LUN см. в разделе [объект LUN](lun-object.md).</span><span class="sxs-lookup"><span data-stu-id="c167d-121">For a more detailed description of a LUN, see the [LUN Object](lun-object.md).</span></span>
+
+<span data-ttu-id="c167d-122">На следующем рисунке показан пакет с двумя членами: диск и LUN.</span><span class="sxs-lookup"><span data-stu-id="c167d-122">The following illustration shows a pack with two members: a disk and a LUN.</span></span> <span data-ttu-id="c167d-123">Приложение может добавить эти объекты в веб-пакет и создать том из экстентов базового диска и диска, представленных на дисках.</span><span class="sxs-lookup"><span data-stu-id="c167d-123">An application can add these objects to an online pack and create a volume from the underlying disk and drive extents represented by spindles.</span></span>
+
+![Схема, на которой показан "Pack" с диском и LUN, добавляемый приложением для создания тома, представляемого "диск" и "шпиндель".](images/vdsdisksareluns.png)
+
+<span data-ttu-id="c167d-125">Используйте метод [**ивдссвпровидер:: креатепакк**](/windows/desktop/api/Vds/nf-vds-ivdsswprovider-createpack) для создания нового объекта Pack.</span><span class="sxs-lookup"><span data-stu-id="c167d-125">Use the [**IVdsSwProvider::CreatePack**](/windows/desktop/api/Vds/nf-vds-ivdsswprovider-createpack) method to create a new pack object.</span></span> <span data-ttu-id="c167d-126">Вызывающие объекты могут получить указатель на конкретный пакет, выбрав нужный объект Pack из перечисления, возвращаемого методом [**ивдссвпровидер:: куерипаккс**](/windows/desktop/api/Vds/nf-vds-ivdsswprovider-querypacks) .</span><span class="sxs-lookup"><span data-stu-id="c167d-126">Callers can get a pointer to a specific pack by selecting the desired pack object from the enumeration that is returned by the [**IVdsSwProvider:: QueryPacks**](/windows/desktop/api/Vds/nf-vds-ivdsswprovider-querypacks) method.</span></span> <span data-ttu-id="c167d-127">С помощью объекта Pack можно добавлять, удалять или заменять члены пакета.</span><span class="sxs-lookup"><span data-stu-id="c167d-127">With a pack object, you can add, remove, or replace the members of a pack.</span></span> <span data-ttu-id="c167d-128">При добавлении объекта диска в пакет служба VDS инициализирует диск для отмены привязки всех существующих томов.</span><span class="sxs-lookup"><span data-stu-id="c167d-128">When you add a disk object to a pack, VDS initializes a disk to unbind all existing volumes.</span></span> <span data-ttu-id="c167d-129">В отличие от этого, LUN при добавлении в пакет оставляет все сведения о привязке.</span><span class="sxs-lookup"><span data-stu-id="c167d-129">In contrast, a LUN retains all binding details when it is added to a pack.</span></span> <span data-ttu-id="c167d-130">При удалении последнего диска из пакета служба VDS удаляет объект Pack, когда вызывающая сторона освобождает последнюю ссылку на объект.</span><span class="sxs-lookup"><span data-stu-id="c167d-130">If you remove the last disk from a pack, VDS deletes the pack object when the caller releases the last reference to the object.</span></span>
+
+<span data-ttu-id="c167d-131">Свойства объекта включают в себя идентификатор объекта, имя, состояние пакета и флаги.</span><span class="sxs-lookup"><span data-stu-id="c167d-131">Object properties include an object identifier, a name, pack status, and flags.</span></span> <span data-ttu-id="c167d-132">Доступен сетевой пакет для настройки и использования. автономный пакет недоступен.</span><span class="sxs-lookup"><span data-stu-id="c167d-132">An online pack is available for configuration and use, an offline pack is unavailable.</span></span> <span data-ttu-id="c167d-133">Служба VDS поддерживает любое количество сетевых и автономных пакетов.</span><span class="sxs-lookup"><span data-stu-id="c167d-133">VDS supports any number of online and offline packs.</span></span>
+
+<span data-ttu-id="c167d-134">**Windows Server 2003:** Поддерживает только один сетевой пакет за раз.</span><span class="sxs-lookup"><span data-stu-id="c167d-134">**Windows Server 2003:** Supports only one online pack at a time.</span></span>
+
+<span data-ttu-id="c167d-135">Служба VDS принудительно применяет кворум сетевых дисков в пакете.</span><span class="sxs-lookup"><span data-stu-id="c167d-135">VDS enforces a quorum of online disks within a pack.</span></span> <span data-ttu-id="c167d-136">Кворум определяет, может ли пакет иметь состояние "в сети", и предотвращает предоставление нескольким узлам состояния "в сети" для одного и того же пакета.</span><span class="sxs-lookup"><span data-stu-id="c167d-136">The quorum determines whether a pack can have an online status, and prevents multiple hosts from granting an online status to the same pack.</span></span> <span data-ttu-id="c167d-137">Если число сетевых дисков в пакете падает ниже кворума (n/2 + 1), служба VDS переводит в автономный режим.</span><span class="sxs-lookup"><span data-stu-id="c167d-137">If the number of online disks in a pack falls below the quorum (n/2 + 1), VDS takes the online pack offline.</span></span>
+
+<span data-ttu-id="c167d-138">В следующей таблице перечислены связанные интерфейсы, перечисления и структуры.</span><span class="sxs-lookup"><span data-stu-id="c167d-138">The following table lists related interfaces, enumerations, and structures.</span></span>
+
+
+
+| <span data-ttu-id="c167d-139">Тип</span><span class="sxs-lookup"><span data-stu-id="c167d-139">Type</span></span>                                              | <span data-ttu-id="c167d-140">Элемент</span><span class="sxs-lookup"><span data-stu-id="c167d-140">Element</span></span>                                                                                                |
+|---------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="c167d-141">Интерфейсы, которые всегда предоставляются этим объектом</span><span class="sxs-lookup"><span data-stu-id="c167d-141">Interfaces that are always exposed by this object</span></span> | <span data-ttu-id="c167d-142">[**Ивдспакк**](/windows/desktop/api/Vds/nn-vds-ivdspack) и [**IVdsPack2**](/windows/desktop/api/Vds/nn-vds-ivdspack2) \* .</span><span class="sxs-lookup"><span data-stu-id="c167d-142">[**IVdsPack**](/windows/desktop/api/Vds/nn-vds-ivdspack) and [**IVdsPack2**](/windows/desktop/api/Vds/nn-vds-ivdspack2)\*.</span></span>                                     |
+| <span data-ttu-id="c167d-143">Связанные перечисления</span><span class="sxs-lookup"><span data-stu-id="c167d-143">Associated enumerations</span></span>                           | <span data-ttu-id="c167d-144">Служба [**VDS \_ \_Флаг пакета**](/windows/desktop/api/Vds/ne-vds-vds_pack_flag) и [**\_ \_ состояние пакета VDS**](/windows/desktop/api/Vds/ne-vds-vds_pack_status).</span><span class="sxs-lookup"><span data-stu-id="c167d-144">[**VDS\_PACK\_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_pack_flag) and [**VDS\_PACK\_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_pack_status).</span></span>             |
+| <span data-ttu-id="c167d-145">Связанные структуры</span><span class="sxs-lookup"><span data-stu-id="c167d-145">Associated structures</span></span>                             | <span data-ttu-id="c167d-146">Служба [**VDS \_ \_**](/windows/desktop/api/Vds/ns-vds-vds_pack_prop) [**\_ \_ Уведомление о**](/windows/desktop/api/Vds/ns-vds-vds_pack_notification)пакете Prop и пакет VDS.</span><span class="sxs-lookup"><span data-stu-id="c167d-146">[**VDS\_PACK\_PROP**](/windows/desktop/api/Vds/ns-vds-vds_pack_prop) and [**VDS\_PACK\_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_pack_notification).</span></span> |
+
+
+
+ 
+
+<span data-ttu-id="c167d-147">**\* Windows Server 2003:** этот интерфейс не поддерживается до Windows Vista.</span><span class="sxs-lookup"><span data-stu-id="c167d-147">**\*Windows Server 2003:** This interface is not supported until Windows Vista.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="c167d-148">См. также</span><span class="sxs-lookup"><span data-stu-id="c167d-148">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="c167d-149">Объекты поставщика программного обеспечения</span><span class="sxs-lookup"><span data-stu-id="c167d-149">Software Provider Objects</span></span>](software-provider-objects.md)
+</dt> <dt>
+
+[<span data-ttu-id="c167d-150">LUN, объект</span><span class="sxs-lookup"><span data-stu-id="c167d-150">LUN Object</span></span>](lun-object.md)
+</dt> <dt>
+
+[<span data-ttu-id="c167d-151">**ивдслун**</span><span class="sxs-lookup"><span data-stu-id="c167d-151">**IVdsLun**</span></span>](/windows/desktop/api/Vds/nn-vds-ivdslun)
+</dt> <dt>
+
+[<span data-ttu-id="c167d-152">**ивдсдиск**</span><span class="sxs-lookup"><span data-stu-id="c167d-152">**IVdsDisk**</span></span>](/windows/desktop/api/Vds/nn-vds-ivdsdisk)
+</dt> </dl>
+
+ 
+
+ 

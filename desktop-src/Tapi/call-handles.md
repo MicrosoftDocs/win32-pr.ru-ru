@@ -1,0 +1,28 @@
+---
+description: Как упоминалось в обзоре идентификатора сеанса, маркер вызова — это средство, с помощью которого приложение TAPI 2,2 определяет конкретный сеанс связи.
+ms.assetid: 5f6a7adf-c074-4bf6-9828-76604eb7609c
+title: Дескрипторы вызовов
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: aacad5b73d9d22caa006b734acaf8b992203d7d2
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105673356"
+---
+# <a name="call-handles"></a><span data-ttu-id="80c21-103">Дескрипторы вызовов</span><span class="sxs-lookup"><span data-stu-id="80c21-103">Call Handles</span></span>
+
+<span data-ttu-id="80c21-104">Как упоминалось в обзоре [идентификатора сеанса](./session-identifier-ovr.md) , маркер вызова — это средство, с помощью которого приложение TAPI 2,2 определяет конкретный сеанс связи.</span><span class="sxs-lookup"><span data-stu-id="80c21-104">As is mentioned in the [Session Identifier](./session-identifier-ovr.md) overview, a call handle is the means by which a TAPI 2.2 application identifies a particular communications session.</span></span> <span data-ttu-id="80c21-105">Когда приложение инициирует сеанс, TAPI возвращает маркер вызова для использования в дальнейших операциях или запросах.</span><span class="sxs-lookup"><span data-stu-id="80c21-105">When an application initiates a session, TAPI returns a call handle for use in further operations or queries.</span></span> <span data-ttu-id="80c21-106">Когда приложение получает уведомления о входящем сеансе, TAPI также передает маркер вызова.</span><span class="sxs-lookup"><span data-stu-id="80c21-106">When an application is notified of an incoming session, TAPI also passes in a call handle.</span></span>
+
+<span data-ttu-id="80c21-107">После завершения сеанса и состояния сеанса в состоянии бездействия обработчик вызова остается действительным до тех пор, пока приложение не выделит маркер или не закроет строку.</span><span class="sxs-lookup"><span data-stu-id="80c21-107">After a session has ended and the session state is idle, the call handle remains valid until the application deallocates the handle or the line is closed.</span></span> <span data-ttu-id="80c21-108">Строка может быть закрыта приложением, или же может появиться сообщение о [**\_ закрытии строки**](line-close.md) .</span><span class="sxs-lookup"><span data-stu-id="80c21-108">The line might be closed by the application, or it may receive a [**LINE\_CLOSE**](line-close.md) message.</span></span> <span data-ttu-id="80c21-109">Если строка закрыта, все дескрипторы вызовов в строке мгновенно становятся недействительными.</span><span class="sxs-lookup"><span data-stu-id="80c21-109">If a line is closed, all call handles to calls on the line instantly become invalid.</span></span>
+
+<span data-ttu-id="80c21-110">После того как вызов возвращается в состояние *простоя* , приложению по-прежнему разрешено считывать сведения о структуре и состоянии вызова.</span><span class="sxs-lookup"><span data-stu-id="80c21-110">After a call reverts to the *idle* state, the application is still allowed to read the call's information structure and status.</span></span> <span data-ttu-id="80c21-111">Это позволяет приложениям использовать такие операции, как [**линежеткаллинфо**](/windows/desktop/api/Tapi/nf-tapi-linegetcallinfo) , для получения сведений о вызовах в целях ведения журнала.</span><span class="sxs-lookup"><span data-stu-id="80c21-111">This enables applications to use operations such as [**lineGetCallInfo**](/windows/desktop/api/Tapi/nf-tapi-linegetcallinfo) to retrieve call information for logging purposes.</span></span>
+
+<span data-ttu-id="80c21-112">Если приложение больше не использует маркер неактивного вызова, оно должно вызывать [**линедеаллокатекалл**](/windows/desktop/api/Tapi/nf-tapi-linedeallocatecall) для освобождения памяти, выделенной системой, связанной с вызовом.</span><span class="sxs-lookup"><span data-stu-id="80c21-112">When the application has no further use for the handle of an idle call, it must call [**lineDeallocateCall**](/windows/desktop/api/Tapi/nf-tapi-linedeallocatecall) to free system-allocated memory related to the call.</span></span> <span data-ttu-id="80c21-113">TAPI выделяет память для каждого вызова для каждого из приложений, имеющих маркер вызова.</span><span class="sxs-lookup"><span data-stu-id="80c21-113">TAPI allocates memory for each call for each application that has a handle to the call.</span></span> <span data-ttu-id="80c21-114">Скорее всего, поставщики услуг будут выделять память для хранения информации о вызовах.</span><span class="sxs-lookup"><span data-stu-id="80c21-114">It is likely that service providers will allocate memory to hold call information as well.</span></span> <span data-ttu-id="80c21-115">Освобождение маркера вызова приложения позволяет библиотеке и поставщику услуг освободить эти ресурсы памяти.</span><span class="sxs-lookup"><span data-stu-id="80c21-115">Deallocation of an application's call handle allows the library and the service provider to reclaim these memory resources.</span></span> <span data-ttu-id="80c21-116">После успешного освобождения маркер приложения для вызова станет недействительным.</span><span class="sxs-lookup"><span data-stu-id="80c21-116">An application's handle for a call becomes void after a successful deallocation.</span></span>
+
+<span data-ttu-id="80c21-117">Приложение должно свободно освобождать память, связанную с вызовом, который был выделен для собственных целей.</span><span class="sxs-lookup"><span data-stu-id="80c21-117">The application must itself free memory related to the call that it allocated for its own purposes.</span></span>
+
+ 
+
+ 
