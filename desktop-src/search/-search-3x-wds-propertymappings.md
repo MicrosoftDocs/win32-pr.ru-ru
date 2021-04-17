@@ -1,0 +1,138 @@
+---
+description: Эта таблица сопоставляет структуры PROPERTYKEY схемы с структурами PROPERTYKEY схемы 3,01.
+ms.assetid: 5daee939-a6b7-4746-9821-15f4169042e6
+title: Сопоставления свойств (от WDS 2. x до 3. x)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 516ae708a636f5d342e48621c2d19a713b3211b9
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105673211"
+---
+# <a name="property-mappings-from-wds-2x-to-3x"></a>Сопоставления свойств (от WDS 2. x до 3. x)
+
+Эта таблица сопоставляет структуры PROPERTYKEY схемы с структурами PROPERTYKEY схемы 3,01.
+
+
+ 
+
+
+
+| Свойство                                    | 2. x PROPERTYKEY                                                     | 3. x PROPERTYKEY                            |
+|---------------------------------------------|---------------------------------------------------------------------|--------------------------------------------|
+| System. Итемфолдерпасдисплай                | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"DisplayFolder"                | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/6     |
+| System. Итемпасдисплай                      | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Дисплайурл"                   | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/7     |
+| System. Итемаусорс                          | F29F85E0-4FF9-1068-AB91-08002B27B3D9/4                              | D0A04F0A-462A-48A4-BB2F-3706E88DBD7D/100   |
+| System. Итемнамепрефикс                       | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Доктитлепрефикс"               | D7313FF1-A77A-401C-8C99-3DBDD68ADD36/100   |
+| System. ItemName                             | F29F85E0-4FF9-1068-AB91-08002B27B3D9/2                              | 6B8DA074-3B5C-43BC-886F-0A2CDCE00B6F/100   |
+| System. Итемтипетекст                         | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Филикстдеск"                  | B725F130-47EF-101A-A5F1-02608C9EEBAC/4     |
+| System. Итемфолдернамедисплай                | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"имя_папки"                   | B725F130-47EF-101A-A5F1-02608C9EEBAC/2     |
+| System. присоединение                         | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"присоединение"                 | F23F425C-71A1-4FA8-922F-678EA4A60408/100   |
+| System. isDeleted                            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"IsDeleted"                    | 5CDA5FC8-33EE-4FF3-9094-AE7BD8868C4D/100   |
+| System. Датеакцессед                         | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Ластвиевед"                   | B725F130-47EF-101A-A5F1-02608C9EEBAC/16    |
+| System. ИтемпартиЦипантс                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"люди"                       | D4D0AA16-9948-41A4-AA85-D97FF9646993/100   |
+| System. Kind                                 | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"PerceivedType"                | 1E3EE840-BC2B-476C-8237-2ACD1A839B22/3     |
+| System. Киндтекст                             | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Перцеиведтипенаме"            | F04BEF95-C585-4197-A2B7-DF46FDC9EE6D/100   |
+| System. Итемдате                             | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Примаридате"                  | F7DB74B4-4287-4103-AFBA-F1B13DCD75CF/100   |
+| System. DueDate                              | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"DueDate"                      | 3F8472B5-E0AF-4DB2-8071-C53FE76AE7CE/100   |
+| System. неполны                         | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"неполный"                 | 346C8BD1-2E6A-4C45-89A4-61B78E8E700F/100   |
+| System. Исфлагжедкомплете                    | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Исфлагжедкомплетед"           | A6F360D2-55F9-48DE-B909-620E090A647C/100   |
+| System. с пометкой                            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"с пометкой"                    | 5DA84765-E3FF-4278-86B0-A27967FBDD03/100   |
+| System. Флагстатустекст                       | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Флагтекст"                     | DC54FD2E-189D-4871-AA01-08C2F57A4ABC/100   |
+| System. Identity                             | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Identity"                     | A26F4AFC-7346-4299-BE47-EB1AE613139F/100   |
+| System. чтение                               | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"чтение"                       | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/10    |
+| System. важность                           | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"важность"                   | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/11    |
+| System. Search. Контаинерхаш                 | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Контаинерхаш"                | BCEEE283-35DF-4D53-826A-F36A3EEFC6BE/100   |
+| System.Search.Store                         | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"магазин"                        | A06992B3-8CAF-4ED7-A547-B259E32AC9FC/100   |
+| System. FileExtension                        | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Филикст"                      | E4F10A3C-49E6-405D-8288-A23BD4EEAA6C/100   |
+| System. имя_файла                             | B725F130-47EF-101A-A5F1-02608C9EEBAC/10                             | 41CF5AE0-F75A-4806-BD87-59C7D9248EB9/100   |
+| System. имя_файла                             | B725F130-47EF-101A-A5F1-02608C9EEBAC/20                             | 41CF5AE0-F75A-4806-BD87-59C7D9248EB9/100   |
+| System. Message. Аттачментнамес              | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Аттачментнамес"              | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/21    |
+| System. Message. Бккаддресс                   | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Бккаддресс"                   | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/2     |
+| System. Message. Бккнаме                      | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Бккнаме"                      | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/3     |
+| System. Message. Ккаддресс                    | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Ккаддресс"                    | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/4     |
+| System. Message. Ккнаме                       | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Ккнаме"                       | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/5     |
+| System. Message. Конверсатионид               | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Конверсатионид"               | DC8F80BD-AF1E-4289-85B6-3DFC1B493992/100   |
+| System. Message. Фромаддресс                  | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Фромаддресс"                  | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/13    |
+| System. Message. Фромнаме                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Фромнаме"                     | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/14    |
+| System. Message. Исфвдоррепли                 | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Фвдрпли"                      | 9A9BC088-4F6D-469E-9919-E705412040F9/100   |
+| System. Message. Хасаттачментс               | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Хасаттач"                    | 9C1FCF74-2D97-41BA-B4AE-CB2E3661A6E4/8     |
+| System. Message. Датерецеивед                 | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"дате и получения"                 | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/20    |
+| System. Message. Тоаддресс                    | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Тоаддресс"                    | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/16    |
+| System. Message. Тонаме                       | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Тонаме"                       | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/17    |
+| System. Communication. Таскстатустекст         | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"TaskStatus"                   | A6744477-C237-475B-A075-54F34498292A/100   |
+| System. EndDate                              | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"EndDate"                      | C75FAA05-96FD-49E7-9CB4-9F601082D553/100   |
+| System. Calendar. атрибут IsRecurring                 | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"атрибут IsRecurring"                  | 315B9C8D-80A9-4EF9-AE16-8E746DA51D70/100   |
+| System. StartDate                            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"StartDate"                    | 48FD6EC8-8A12-4CDF-A03E-4EC5A511EDDE/100   |
+| System. календар. Duration                    | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Длительность"                     | 293CA35A-09AA-4DD2-B180-1FE245728A52/100   |
+| System. Calendar. в сети                    | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"в сети"                     | BFEE9149-E3E2-49A7-A862-C05988145CEC/100   |
+| System. календар. Location                    | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"расположение"                     | F6272D18-CECC-40B1-B26A-3911717AA7BD/100   |
+| System. Contact. годовщина                  | D5CDD505-2E9C-101B-9397-08002B2CF9AE/годовщина                  | 9AD5BADB-CEA7-4470-A03D-B84E51B9949E/100   |
+| System. Contact. Ассистантнаме                | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Ассистантнаме"                | CD102C9C-5540-4A88-A6F6-64E4981C8CD1/100   |
+| System. Contact. Ассистанттелефоне           | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Ассистанттелефоне"           | 9A93244D-A7AD-4FF8-9B99-45EE4CC09AF6/100   |
+| System. Contact. день рождения                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"день рождения"                     | 176DC63C-2688-4E89-8143-A347800F25E9/47    |
+| System. Contact. БусинессаддрессЦити          | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"БусинессаддрессЦити"          | 402B5934-EC5A-48C3-93E6-85E86A2D934E/100   |
+| System. Contact. Бусинессаддресспосталкоде    | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Бусинессаддресспосталкоде"    | E1D4A09E-D758-4CD1-B6EC-34A8B5A73F80/100   |
+| System. Contact. Бусинессаддресспостоффицебокс | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Бусинессаддресспостоффицебокс" | BC4E71CE-17F9-48D5-BEE9-021DF0EA5409/100   |
+| System. Contact. Бусинессаддрессстате         | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Бусинессаддрессстате"         | 446F787F-10C4-41CB-A6C4-4D0343551597/100   |
+| System. Contact. Бусинессаддрессстрит        | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Бусинессаддрессстрит"        | DDD1460F-C0BF-4553-8CE4-10433C908FB0/100   |
+| System. Contact. Бусинессаддресскаунтри       | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Бусинессаддресскаунтри"       | B0B87314-FCF6-4FEB-8DFF-A50DA6AF561C/100   |
+| System. Contact. Бусинесшомепаже             | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Бусинесшомепаже"             | 56310920-2491-4919-99CE-EADB06FAFDB2/100   |
+| System. Contact. Каллбакктелефоне            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Каллбакктелефоне"            | BF53D1C3-49E0-4F7F-8567-5A821D8AC542/100   |
+| System. Contact. Картелефоне                 | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Картелефоне"                 | 8FDC6DEA-B929-412B-BA90-397A257465FE/100   |
+| System.Keywords                             | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"категории"                   | F29F85E0-4FF9-1068-AB91-08002B27B3D9/5     |
+| System. Contact. Children                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"дочерний элемент"                     | D4729704-8EF1-43EF-9024-2BD381187FD5/100   |
+| System. Contact. Компанимаинтелефоне         | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Компанимаинтелефоне"         | 8589E481-6040-473D-B171-7FA89C2708ED/100   |
+| System. Contact. EmailAddress                 | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"EmailAddress"                 | F8FA7FA3-D12B-4785-8A4E-691A94F7A3E7/100   |
+| System. Contact. Емаилнаме                    | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Емаилнаме"                    | CC6F4F24-6083-4BD4-8754-674D0DE87AB8/100   |
+| System. Contact. FirstName                    | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"FirstName"                    | 14977844-6B49-4AAD-A714-A4513BF60460/100   |
+| System. Contact. FullName                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/FullName                     | 635E9051-50A5-4BA2-B9DB-4ED056C77296/100   |
+| System. Contact. gender                       | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"пол"                       | 3C8CEE58-D4F0-4CF9-B756-4E5D24447BCD/100   |
+| System. Contact. Хобби                      | D5CDD505-2E9C-101B-9397-08002B2CF9AE/хобби                        | 5DC2253F-5E11-4ADF-9CFE-910DD01E3E70/100   |
+| System. Contact. ХомеаддрессЦити              | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"ХомеаддрессЦити"              | 176DC63C-2688-4E89-8143-A347800F25E9/65    |
+| System. Contact. Хомеаддресскаунтри           | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Хомеаддресскаунтри"           | 08A65AA1-F4C9-43DD-9DDF-A33D8E7EAD85/100   |
+| System. Contact. Хомеаддресспосталкоде        | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Хомеаддресспосталкоде"        | 8AFCC170-8A46-4B53-9EEE-90BAE7151E62/100   |
+| System. Contact. Хомеаддрессстате             | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Хомеаддрессстате"             | C89A23D0-7D6D-4EB8-87D4-776A82D493E5/100   |
+| System. Contact. Хомеаддрессстрит            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Хомеаддрессстрит"            | 0ADEF160-DB3F-4308-9A21-06237B16FA2A/100   |
+| System. Contact. Хомефакснумбер                | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Хомефакснумбер"                | 660E04D6-81AB-4977-A09F-82313113AB26/100   |
+| System. Contact. Бусинессфакснумбер            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Бусинессфакснумбер"            | 91EFF6F3-2E27-42CA-933E-7C999FBE310B/100   |
+| System. Contact. Хометелефоне                | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Хометелефоне"                | 176DC63C-2688-4E89-8143-A347800F25E9/20    |
+| System. Contact. a                    | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"адрес"                    | D68DBD8A-3374-4B81-9972-3EC30682DB3D/100   |
+| System. Contact. JobTitle                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"JobTitle"                     | 176DC63C-2688-4E89-8143-A347800F25E9/6     |
+| System. Contact. MiddleName                   | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"MiddleName"                   | 176DC63C-2688-4E89-8143-A347800F25E9/71    |
+| System. Contact. Мобилетелефоне              | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Мобилетелефоне"              | 176DC63C-2688-4E89-8143-A347800F25E9/35    |
+| System. Contact. псевдоним                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"псевдоним"                     | 176DC63C-2688-4E89-8143-A347800F25E9/74    |
+| System. Contact. Оффицелокатион               | D5CDD505-2E9C-101B-9397-08002B2CF9AE или "Office"                       | 176DC63C-2688-4E89-8143-A347800F25E9/7     |
+| System. Contact. Бусинесстелефоне            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Оффицетелефоне"              | 6A15E5A0-0A1E-4CD7-BB8C-D2F1B0C929BC/100   |
+| System. Contact. Пажертелефоне               | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Пажертелефоне"               | D6304E01-F8F5-4F45-8B15-D024A6296789/100   |
+| System. Contact. LastName                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"LastName"                     | 8F367200-C270-457C-B1D4-E07C5BCD90C7/100   |
+| System. Contact. Персоналтитле                | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Персоналтитле"                | 176DC63C-2688-4E89-8143-A347800F25E9/69    |
+| System. Contact. Примарителефоне             | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Примарителефоне"             | 176DC63C-2688-4E89-8143-A347800F25E9/25    |
+| System. Contact. Профессия                   | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Профессия"                   | 7268AF55-1CE4-4F6E-A41F-B6E4EF10E4A9/100   |
+| System. Contact. Спаусенаме                   | D5CDD505-2E9C-101B-9397-08002B2CF9AE/супруг                       | 9D2408B6-3167-422B-82B0-F583B7A7CFE3/100   |
+| System. Contact. суффикс                       | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"суффикс"                       | 176DC63C-2688-4E89-8143-A347800F25E9/73    |
+| System. Contact. Телекснумбер                  | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Телекснумбер"                  | C554493C-C1F7-40C1-A76C-EF8C0614003E/100   |
+| System. Contact. Ттитддтелефоне              | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Ттитддтелефоне"              | AAF16BAC-2B55-45E6-9F6D-415EB94910DF/100   |
+| System. Contact. веб-страница                      | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"веб-страница"                      | E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/18    |
+| System. Media. Duration                       | 56A3372E-CE9C-11D2-9F0E-006097C686F6/8                              | 64440490-4C8B-11D1-8B70-080036B11A03/3     |
+| System. photo. Датетакен                      | D5CDD505-2E9C-101B-9397-08002B2CF9AE/"Датетакен"                    | 14B81DA1-0135-4D31-96D9-6CBFC9671A99/36867 |
+| System. Image. Колорспаце                     | 6444048F-4C8B-11D1-8B70-080036B11A03/8                              | 14B81DA1-0135-4D31-96D9-6CBFC9671A99/40961 |
+| System. Image. Compression                    | 6444048F-4C8B-11D1-8B70-080036B11A03/9                              | 14B81DA1-0135-4D31-96D9-6CBFC9671A99/259   |
+| System. Video. Стреамнумбер                   | 64440491-4C8B-11D1-8B70-080036B11A03/7                              | 64440491-4C8B-11D1-8B70-080036B11A03/11    |
+
+
+
+ 
+
+## <a name="related-topics"></a>См. также
+
+<dl> <dt>
+
+[Система свойств Vista](../properties/building-property-handlers.md)
+</dt> </dl>
+
+ 
+
+ 
