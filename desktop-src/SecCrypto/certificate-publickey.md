@@ -1,0 +1,64 @@
+---
+description: Метод PublicKey возвращает объект открытого ключа для объекта сертификата.
+ms.assetid: 9a7ea6d5-365e-4360-ab50-2bafcfaecaa0
+title: Certificate. PublicKey, метод
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Certificate.PublicKey
+api_type:
+- COM
+api_location:
+- Capicom.dll
+ms.openlocfilehash: 472acee68aa653cc72787a5ac5ce2c2ace4ec70f
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "105685390"
+---
+# <a name="certificatepublickey-method"></a><span data-ttu-id="cf8ae-103">Certificate. PublicKey, метод</span><span class="sxs-lookup"><span data-stu-id="cf8ae-103">Certificate.PublicKey method</span></span>
+
+<span data-ttu-id="cf8ae-104">\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP.</span><span class="sxs-lookup"><span data-stu-id="cf8ae-104">\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP.</span></span> <span data-ttu-id="cf8ae-105">Вместо этого используйте [**класс X509Certificate2**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) в пространстве имен [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]</span><span class="sxs-lookup"><span data-stu-id="cf8ae-105">Instead, use the [**X509Certificate2 Class**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]</span></span>
+
+<span data-ttu-id="cf8ae-106">Метод **PublicKey** возвращает объект открытого ключа для объекта [**сертификата**](certificate.md) .</span><span class="sxs-lookup"><span data-stu-id="cf8ae-106">The **PublicKey** method returns the public key object for a [**Certificate**](certificate.md) object.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="cf8ae-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="cf8ae-107">Syntax</span></span>
+
+
+```VB
+Certificate.PublicKey()
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="cf8ae-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="cf8ae-108">Parameters</span></span>
+
+<span data-ttu-id="cf8ae-109">Этот метод не имеет параметров.</span><span class="sxs-lookup"><span data-stu-id="cf8ae-109">This method has no parameters.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="cf8ae-110">Требования</span><span class="sxs-lookup"><span data-stu-id="cf8ae-110">Requirements</span></span>
+
+
+
+| <span data-ttu-id="cf8ae-111">Требование</span><span class="sxs-lookup"><span data-stu-id="cf8ae-111">Requirement</span></span> | <span data-ttu-id="cf8ae-112">Значение</span><span class="sxs-lookup"><span data-stu-id="cf8ae-112">Value</span></span> |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| <span data-ttu-id="cf8ae-113">Окончание поддержки клиента</span><span class="sxs-lookup"><span data-stu-id="cf8ae-113">End of client support</span></span><br/> | <span data-ttu-id="cf8ae-114">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="cf8ae-114">Windows Vista</span></span><br/>                                                               |
+| <span data-ttu-id="cf8ae-115">Поддержка конца сервера</span><span class="sxs-lookup"><span data-stu-id="cf8ae-115">End of server support</span></span><br/> | <span data-ttu-id="cf8ae-116">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="cf8ae-116">Windows Server 2008</span></span><br/>                                                         |
+| <span data-ttu-id="cf8ae-117">Распространяемые компоненты</span><span class="sxs-lookup"><span data-stu-id="cf8ae-117">Redistributable</span></span><br/>       | <span data-ttu-id="cf8ae-118">CAPICOM 2,0 или более поздней версии на Windows Server 2003 и Windows XP</span><span class="sxs-lookup"><span data-stu-id="cf8ae-118">CAPICOM 2.0 or later on Windows Server 2003 and Windows XP</span></span><br/>                  |
+| <span data-ttu-id="cf8ae-119">DLL</span><span class="sxs-lookup"><span data-stu-id="cf8ae-119">DLL</span></span><br/>                   | <dl> <span data-ttu-id="cf8ae-120"><dt>Capicom.dll</dt></span><span class="sxs-lookup"><span data-stu-id="cf8ae-120"><dt>Capicom.dll</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="cf8ae-121">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="cf8ae-121">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="cf8ae-122">**Certificate**</span><span class="sxs-lookup"><span data-stu-id="cf8ae-122">**Certificate**</span></span>](certificate.md)
+</dt> </dl>
+
+ 
+
+ 

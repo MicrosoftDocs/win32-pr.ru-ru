@@ -1,0 +1,62 @@
+---
+title: Атрибут Арксизе VML
+description: Атрибут Арксизе VML
+ms.assetid: e67d1bae-2f54-4c43-8445-1f5109e4afde
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5d4a4027f079ffb284125032570dd2293b1ab69e
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "105691580"
+---
+# <a name="vml-arcsize-attribute"></a><span data-ttu-id="3cc89-103">Атрибут Арксизе VML</span><span class="sxs-lookup"><span data-stu-id="3cc89-103">VML ArcSize Attribute</span></span>
+
+<span data-ttu-id="3cc89-104">В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9.</span><span class="sxs-lookup"><span data-stu-id="3cc89-104">This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.</span></span> <span data-ttu-id="3cc89-105">Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.</span><span class="sxs-lookup"><span data-stu-id="3cc89-105">Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="3cc89-106">По состоянию на Декабрь 2011 этот раздел был архивирован.</span><span class="sxs-lookup"><span data-stu-id="3cc89-106">As of December 2011, this topic has been archived.</span></span> <span data-ttu-id="3cc89-107">В результате он больше не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="3cc89-107">As a result, it is no longer actively maintained.</span></span> <span data-ttu-id="3cc89-108">Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/).</span><span class="sxs-lookup"><span data-stu-id="3cc89-108">For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/).</span></span> <span data-ttu-id="3cc89-109">Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).</span><span class="sxs-lookup"><span data-stu-id="3cc89-109">For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).</span></span>
+
+ 
+
+<span data-ttu-id="3cc89-110">Определяет величину округления для скругленного прямоугольника.</span><span class="sxs-lookup"><span data-stu-id="3cc89-110">Defines the amount of roundness for a rounded rectangle.</span></span> <span data-ttu-id="3cc89-111">Read/write.</span><span class="sxs-lookup"><span data-stu-id="3cc89-111">Read/write.</span></span> <span data-ttu-id="3cc89-112">[Вгфрактион](msdn-online-vml-vgfraction-data-type.md) .</span><span class="sxs-lookup"><span data-stu-id="3cc89-112">[VgFraction](msdn-online-vml-vgfraction-data-type.md) .</span></span>
+
+<span data-ttu-id="3cc89-113">**Применимо к**:</span><span class="sxs-lookup"><span data-stu-id="3cc89-113">**Applies To**</span></span>
+
+[<span data-ttu-id="3cc89-114">раундрект</span><span class="sxs-lookup"><span data-stu-id="3cc89-114">RoundRect</span></span>](msdn-online-vml-roundrect-element.md)
+
+<span data-ttu-id="3cc89-115">**Синтаксис тега**</span><span class="sxs-lookup"><span data-stu-id="3cc89-115">**Tag Syntax**</span></span>
+
+<span data-ttu-id="3cc89-116"><v: *element* арксизе = " *выражение* " ></span><span class="sxs-lookup"><span data-stu-id="3cc89-116"><v: *element* arcsize=" *expression* "></span></span>
+
+<span data-ttu-id="3cc89-117">**Синтаксис сценария**</span><span class="sxs-lookup"><span data-stu-id="3cc89-117">**Script Syntax**</span></span>
+
+<span data-ttu-id="3cc89-118">*element* . арксизе = "*выражение*"</span><span class="sxs-lookup"><span data-stu-id="3cc89-118">*element* .arcSize="*expression*"</span></span>
+
+<span data-ttu-id="3cc89-119">*выражение* = *element*. арксизе</span><span class="sxs-lookup"><span data-stu-id="3cc89-119">*expression*=*element*.arcSize</span></span>
+
+<span data-ttu-id="3cc89-120">**Замечания**</span><span class="sxs-lookup"><span data-stu-id="3cc89-120">**Remarks**</span></span>
+
+<span data-ttu-id="3cc89-121">Определяет скругленные углы скругленного прямоугольника в процентах от половины меньшего измерения длины и ширины прямоугольника.</span><span class="sxs-lookup"><span data-stu-id="3cc89-121">Defines the rounded corners of a rounded rectangle as a percentage of half the smaller dimension of the length and width of a rectangle.</span></span> <span data-ttu-id="3cc89-122">0% будет иметь квадратные углы, и 100% будет формировать круглые углы.</span><span class="sxs-lookup"><span data-stu-id="3cc89-122">0% would have square corners, and 100% would form circular corners.</span></span> <span data-ttu-id="3cc89-123">Квадрат с **арксизе** значением 1,0 будет окружностью.</span><span class="sxs-lookup"><span data-stu-id="3cc89-123">A square with an **ArcSize** value of 1.0 would be a circle.</span></span> <span data-ttu-id="3cc89-124">Значение по умолчанию — 0,2 (20%).</span><span class="sxs-lookup"><span data-stu-id="3cc89-124">The default value is 0.2 (20%).</span></span>
+
+<span data-ttu-id="3cc89-125">*Стандартный атрибут VML*</span><span class="sxs-lookup"><span data-stu-id="3cc89-125">*VML Standard Attribute*</span></span>
+
+<span data-ttu-id="3cc89-126">**Пример**</span><span class="sxs-lookup"><span data-stu-id="3cc89-126">**Example**</span></span>
+
+<span data-ttu-id="3cc89-127">Скругленный прямоугольник рисуется с помощью строгого, но скругленного углов.</span><span class="sxs-lookup"><span data-stu-id="3cc89-127">The rounded rectangle is drawn with tight-but-rounded corners.</span></span>
+
+
+```HTML
+   <v:roundrect id=myrr
+   style="height:100;left:100;top:100;width:200"
+   fillcolor="red"
+   arcsize="5%">
+   </v:roundrect>
+```
+
+
+
+ 
+
+ 
