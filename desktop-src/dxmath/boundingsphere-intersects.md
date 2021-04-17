@@ -1,0 +1,56 @@
+---
+description: Проверяет Баундингсфере для пересечения с объектом.
+ms.assetid: 0326c5b4-c8c9-409d-b694-3203252a52a8
+title: Баундингсфере. intersects, методы
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name: ''
+api_type:
+- NA
+api_location: ''
+ms.openlocfilehash: e6b64cd56a6e222ad9f245c6d9e35b48edbf96ed
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105711536"
+---
+# <a name="boundingsphereintersects-methods"></a>Баундингсфере. intersects, методы
+
+Проверяет Баундингсфере для пересечения с объектом.
+
+### <a name="overload-list"></a>Список перегрузок
+
+
+
+| Метод                                                                                         | Описание                                                                                                                              |
+|:-----------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
+| [**Баундингсфере:: intersects (КСМВЕКТОР)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-intersects(fxmvector))                   | Проверяет Баундингсфере для пересечения с плоскостью.<br/>                                                                       |
+| [**Баундингсфере:: intersects (const BoundingBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-intersects(constboundingbox_))         | Проверяет Баундингсфере для пересечения с BoundingBox.<br/>                                                                 |
+| [**Баундингсфере:: intersects (const Баундингсфере&)**](/previous-versions/windows/desktop/legacy/hh437826(v=vs.85))      | Проверяет Баундингсфере для пересечения с Баундингсфере.<br/>                                                              |
+| [**Баундингсфере:: intersects (const Баундингфрустум&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-intersects(constboundingfrustum_))     | Протестируйте [**баундингсфере**](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) для пересечения с [**баундингфрустум**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>         |
+| [**Баундингсфере:: intersects (КСМВЕКТОР, КСМВЕКТОР, float&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-intersects(fxmvector_fxmvector_float_))   | Проверяет Баундингсфере для пересечения с лучом.<br/>                                                                         |
+| [**Баундингсфере:: intersects (КСМВЕКТОР, КСМВЕКТОР, КСМВЕКТОР)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-intersects(fxmvector_fxmvector_fxmvector)) | Проверяет Баундингсфере для пересечения с треугольником.<br/>                                                                    |
+| [**Баундингсфере:: intersects (const Баундингориентедбокс&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-intersects(constboundingorientedbox_)) | Протестируйте [**баундингсфере**](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) для пересечения с [**баундингориентедбокс**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/> |
+
+
+
+## <a name="see-also"></a>См. также
+
+<dl> <dt>
+
+[Методы](boundingsphere-methods.md)
+</dt> <dt>
+
+**Ссылки**
+</dt> <dt>
+
+[**баундингсфере**](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere)
+</dt> </dl>
+
+ 
+
+ 
