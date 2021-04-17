@@ -1,0 +1,60 @@
+---
+title: Методы Сеттоплефтрадиуси Идкомпоситионректанглеклип (Дкомп. h)
+description: Изменяет или анимируется значение свойства Топлефтрадиуси этого клипа. Свойство Топлефтрадиуси задает радиус эллипса по оси y, округляющий верхний левый угол клипа.
+ms.assetid: D188BCD0-00F2-406D-BF69-33E8E37C8E6B
+keywords:
+- Методы Сеттоплефтрадиуси DirectComposition
+topic_type:
+- apiref
+api_location:
+- Dcomp.dll
+api_type:
+- DllExport
+ms.date: 07/02/2019
+ms.topic: reference
+ms.openlocfilehash: 210bc07a8dba2f74584f5b92b92b8dc7effe6d4f
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "105682058"
+---
+# <a name="idcompositionrectangleclipsettopleftradiusy-methods"></a><span data-ttu-id="2afa5-105">Методы Идкомпоситионректанглеклип:: Сеттоплефтрадиуси</span><span class="sxs-lookup"><span data-stu-id="2afa5-105">IDCompositionRectangleClip::SetTopLeftRadiusY methods</span></span>
+
+<span data-ttu-id="2afa5-106">Изменяет или анимируется значение свойства Топлефтрадиуси этого клипа.</span><span class="sxs-lookup"><span data-stu-id="2afa5-106">Changes or animates the value of the TopLeftRadiusY property of this clip.</span></span> <span data-ttu-id="2afa5-107">Свойство Топлефтрадиуси задает радиус эллипса по оси y, округляющий верхний левый угол клипа.</span><span class="sxs-lookup"><span data-stu-id="2afa5-107">The TopLeftRadiusY property specifies the y radius of the ellipse that rounds the top-left corner of the clip.</span></span>
+
+### <a name="overload-list"></a><span data-ttu-id="2afa5-108">Список перегрузок</span><span class="sxs-lookup"><span data-stu-id="2afa5-108">Overload list</span></span>
+
+
+
+| <span data-ttu-id="2afa5-109">Метод</span><span class="sxs-lookup"><span data-stu-id="2afa5-109">Method</span></span>                                                                                                                     | <span data-ttu-id="2afa5-110">Описание</span><span class="sxs-lookup"><span data-stu-id="2afa5-110">Description</span></span>                                                                |
+|:---------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|
+| <span data-ttu-id="2afa5-111">[**Сеттоплефтрадиуси (float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusy(idcompositionanimation))</span><span class="sxs-lookup"><span data-stu-id="2afa5-111">[**SetTopLeftRadiusY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusy(idcompositionanimation))</span></span>                                     | <span data-ttu-id="2afa5-112">Изменяет значение свойства Топлефтрадиуси этого клипа.</span><span class="sxs-lookup"><span data-stu-id="2afa5-112">Changes the value of the TopLeftRadiusY property of this clip.</span></span><br/>  |
+| <span data-ttu-id="2afa5-113">[**Сеттоплефтрадиуси (Идкомпоситионаниматион \* )**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusy(idcompositionanimation))</span><span class="sxs-lookup"><span data-stu-id="2afa5-113">[**SetTopLeftRadiusY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusy(idcompositionanimation))</span></span> | <span data-ttu-id="2afa5-114">Анимируется значение свойства Топлефтрадиуси этого клипа.</span><span class="sxs-lookup"><span data-stu-id="2afa5-114">Animates the value of the TopLeftRadiusY property of this clip.</span></span><br/> |
+
+
+
+## <a name="requirements"></a><span data-ttu-id="2afa5-115">Требования</span><span class="sxs-lookup"><span data-stu-id="2afa5-115">Requirements</span></span>
+
+
+
+| <span data-ttu-id="2afa5-116">Требование</span><span class="sxs-lookup"><span data-stu-id="2afa5-116">Requirement</span></span> | <span data-ttu-id="2afa5-117">Значение</span><span class="sxs-lookup"><span data-stu-id="2afa5-117">Value</span></span> |
+|-------------------------------------|--------------------------------------------------------------------------------------|
+| <span data-ttu-id="2afa5-118">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="2afa5-118">Minimum supported client</span></span><br/> | <span data-ttu-id="2afa5-119">\[Только классические приложения Windows 8\]</span><span class="sxs-lookup"><span data-stu-id="2afa5-119">Windows�8 \[desktop apps only\]</span></span><br/>                                           |
+| <span data-ttu-id="2afa5-120">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="2afa5-120">Minimum supported server</span></span><br/> | <span data-ttu-id="2afa5-121">\[Только для настольных приложений Windows Server 2012\]</span><span class="sxs-lookup"><span data-stu-id="2afa5-121">Windows Server�2012 \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="2afa5-122">Header</span><span class="sxs-lookup"><span data-stu-id="2afa5-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="2afa5-123"><dt>Дкомп. h</dt></span><span class="sxs-lookup"><span data-stu-id="2afa5-123"><dt>Dcomp.h</dt></span></span> </dl>   |
+| <span data-ttu-id="2afa5-124">Библиотека</span><span class="sxs-lookup"><span data-stu-id="2afa5-124">Library</span></span><br/>                  | <dl> <span data-ttu-id="2afa5-125"><dt>Дкомп. lib</dt></span><span class="sxs-lookup"><span data-stu-id="2afa5-125"><dt>Dcomp.lib</dt></span></span> </dl> |
+| <span data-ttu-id="2afa5-126">DLL</span><span class="sxs-lookup"><span data-stu-id="2afa5-126">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2afa5-127"><dt>Dcomp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="2afa5-127"><dt>Dcomp.dll</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="2afa5-128">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="2afa5-128">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="2afa5-129">**идкомпоситионректанглеклип**</span><span class="sxs-lookup"><span data-stu-id="2afa5-129">**IDCompositionRectangleClip**</span></span>](/windows/win32/api/dcomp/nn-dcomp-idcompositionrectangleclip)
+</dt> </dl>
+
+<span data-ttu-id="2afa5-130">�</span><span class="sxs-lookup"><span data-stu-id="2afa5-130">�</span></span>
+
+<span data-ttu-id="2afa5-131">�</span><span class="sxs-lookup"><span data-stu-id="2afa5-131">�</span></span>
