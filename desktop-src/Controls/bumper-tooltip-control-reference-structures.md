@@ -1,0 +1,30 @@
+---
+title: Структуры элементов управления ToolTip
+description: Структуры элементов управления ToolTip
+ms.assetid: 9b79ea16-02a1-4d5d-8117-70b56e298b75
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d02525b3eba463e1aca92cb24c941136edcdb31d
+ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "105651515"
+---
+# <a name="tooltip-control-structures"></a>Структуры элементов управления ToolTip
+
+## <a name="in-this-section"></a>в этом разделе
+
+-   [**нмтткустомдрав**](/windows/win32/api/commctrl/ns-commctrl-nmttcustomdraw)
+-   [**нмттдиспинфо**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa)
+-   [**тулинфо**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa)
+-   [**ттжеттитле**](/windows/desktop/api/Commctrl/ns-commctrl-ttgettitle)
+-   [**тситтестинфо**](/windows/win32/api/commctrl/ns-commctrl-tthittestinfoa)
+
+ 
+
+ 
+
+
+
+
