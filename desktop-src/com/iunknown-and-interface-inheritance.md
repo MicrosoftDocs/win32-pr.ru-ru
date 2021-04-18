@@ -1,0 +1,33 @@
+---
+title: IUnknown и наследование интерфейсов
+description: IUnknown и наследование интерфейсов
+ms.assetid: c45f0947-6020-4aa1-9250-561603a46a68
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9ce4d9d164607745b78001bb92b7dc5331296abe
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "105710381"
+---
+# <a name="iunknown-and-interface-inheritance"></a><span data-ttu-id="14bd6-103">IUnknown и наследование интерфейсов</span><span class="sxs-lookup"><span data-stu-id="14bd6-103">IUnknown and Interface Inheritance</span></span>
+
+<span data-ttu-id="14bd6-104">Наследование в COM не означает повторное использование кода.</span><span class="sxs-lookup"><span data-stu-id="14bd6-104">Inheritance in COM does not mean code reuse.</span></span> <span data-ttu-id="14bd6-105">Поскольку никакие реализации не связаны с интерфейсами, наследование интерфейса не означает наследование кода.</span><span class="sxs-lookup"><span data-stu-id="14bd6-105">Because no implementations are associated with interfaces, interface inheritance does not mean code inheritance.</span></span> <span data-ttu-id="14bd6-106">Это означает, что контракт, связанный с интерфейсом, наследуется в режиме чистого виртуального базового класса C++ и изменен — либо путем добавления новых методов, либо путем дальнейшего уточнения разрешенного использования методов.</span><span class="sxs-lookup"><span data-stu-id="14bd6-106">It means only that the contract associated with an interface is inherited in a C++ pure-virtual base-class fashion and modified — either by adding new methods or by further qualifying the allowed usage of methods.</span></span> <span data-ttu-id="14bd6-107">В COM нет селективного наследования.</span><span class="sxs-lookup"><span data-stu-id="14bd6-107">There is no selective inheritance in COM.</span></span> <span data-ttu-id="14bd6-108">Если один интерфейс наследуется от другого, он включает все методы, определяемые другим интерфейсом.</span><span class="sxs-lookup"><span data-stu-id="14bd6-108">If one interface inherits from another, it includes all the methods that the other interface defines.</span></span>
+
+<span data-ttu-id="14bd6-109">Наследование используется в стандартных COM-интерфейсах с осторожностью.</span><span class="sxs-lookup"><span data-stu-id="14bd6-109">Inheritance is used sparingly in the predefined COM interfaces.</span></span> <span data-ttu-id="14bd6-110">Все предопределенные интерфейсы (и любые настраиваемые интерфейсы, определяемые пользователем) наследуют свои определения из важного интерфейса [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), который содержит три важных метода: [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)), [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)и [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release).</span><span class="sxs-lookup"><span data-stu-id="14bd6-110">All predefined interfaces (and any custom interfaces you define) inherit their definitions from the important interface [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), which contains three vital methods: [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)), [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref), and [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release).</span></span> <span data-ttu-id="14bd6-111">Все COM-объекты должны реализовывать интерфейс **IUnknown** , так как он предоставляет средства с помощью **QueryInterface**, чтобы свободно перемещаться между различными интерфейсами, которые поддерживает объект, а также средства для управления временем существования с использованием **AddRef** и **Release**.</span><span class="sxs-lookup"><span data-stu-id="14bd6-111">All COM objects must implement the **IUnknown** interface because it provides the means, using **QueryInterface**, to move freely between the different interfaces that an object supports as well as the means to manage its lifetime by using **AddRef** and **Release**.</span></span>
+
+<span data-ttu-id="14bd6-112">При создании объекта, поддерживающего [агрегирование](aggregation.md), необходимо реализовать один набор функций [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) для всех интерфейсов, а также изолированный интерфейс **IUnknown** .</span><span class="sxs-lookup"><span data-stu-id="14bd6-112">In creating an object that supports [aggregation](aggregation.md), you would need to implement one set of [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) functions for all interfaces as well as a stand-alone **IUnknown** interface.</span></span> <span data-ttu-id="14bd6-113">В любом случае любой объект, реализующий объекты, будет реализовывать методы **IUnknown** .</span><span class="sxs-lookup"><span data-stu-id="14bd6-113">In any case, any object implementor will implement **IUnknown** methods.</span></span> <span data-ttu-id="14bd6-114">Дополнительные сведения см. в разделе [использование и реализация IUnknown](using-and-implementing-iunknown.md) .</span><span class="sxs-lookup"><span data-stu-id="14bd6-114">See the section [Using and Implementing IUnknown](using-and-implementing-iunknown.md) for more information.</span></span>
+
+<span data-ttu-id="14bd6-115">Хотя существует несколько интерфейсов, которые наследуют свои определения от второго интерфейса в дополнение к [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), большинство просто наследует методы интерфейса **IUnknown** .</span><span class="sxs-lookup"><span data-stu-id="14bd6-115">While there are a few interfaces that inherit their definitions from a second interface in addition to [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), the majority simply inherit the **IUnknown** interface methods.</span></span> <span data-ttu-id="14bd6-116">Это делает большинство интерфейсов относительно компактными и простыми в инкапсуляции.</span><span class="sxs-lookup"><span data-stu-id="14bd6-116">This makes most interfaces relatively compact and easy to encapsulate.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="14bd6-117">См. также</span><span class="sxs-lookup"><span data-stu-id="14bd6-117">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="14bd6-118">COM-объекты и интерфейсы</span><span class="sxs-lookup"><span data-stu-id="14bd6-118">COM Objects and Interfaces</span></span>](com-objects-and-interfaces.md)
+</dt> </dl>
+
+ 
+
+ 
