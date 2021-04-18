@@ -1,0 +1,28 @@
+---
+description: 'API шифрования: следующее поколение (CNG) определяет следующие вспомогательные функции, которые используются для выполнения криптографических операций.'
+ms.assetid: 0a782c08-3fad-4071-ba0a-716435c1997d
+title: Вспомогательные функции CNG
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 526987171d1b09dcc04a3c866a439b6647e786b7
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105682394"
+---
+# <a name="cng-helper-functions"></a>Вспомогательные функции CNG
+
+API шифрования: следующее поколение (CNG) определяет следующие вспомогательные функции, которые используются для выполнения криптографических операций.
+
+-   [**бкриптдеривекэйкапи**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptderivekeycapi)
+-   [**BCryptDeriveKeyPBKDF2**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptderivekeypbkdf2)
+-   [**\_ \_ \_ сведения о режиме аутентификации BCRYPT init \_**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcrypt_init_auth_mode_info)
+-   [**SystemPrng**](systemprng.md)
+
+ 
+
+ 
+
+
+
