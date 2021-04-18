@@ -1,0 +1,98 @@
+---
+description: Функция-посредник для метода Сетколорконтекстс.
+ms.assetid: 985ae179-df59-42a0-9987-5dd863512e57
+title: Функция IWICBitmapFrameEncode_SetColorContexts_Proxy
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IWICBitmapFrameEncode_SetColorContexts_Proxy
+api_type:
+- DllExport
+api_location:
+- Windowscodecs.dll
+- Wincodec.lib
+ms.openlocfilehash: 8a960873340c15772113a3f1553a9b6e16c44338
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105701437"
+---
+# <a name="iwicbitmapframeencode_setcolorcontexts_proxy-function"></a><span data-ttu-id="7c407-103">Ивикбитмапфраминкоде \_ сетколорконтекстс \_ -функция</span><span class="sxs-lookup"><span data-stu-id="7c407-103">IWICBitmapFrameEncode\_SetColorContexts\_Proxy function</span></span>
+
+<span data-ttu-id="7c407-104">Функция-посредник для метода [**сетколорконтекстс**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-setcolorcontexts) .</span><span class="sxs-lookup"><span data-stu-id="7c407-104">Proxy function for the [**SetColorContexts**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-setcolorcontexts) method.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="7c407-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7c407-105">Syntax</span></span>
+
+
+```C++
+HRESULT IWICBitmapFrameEncode_SetColorContexts_Proxy(
+  _In_ IWICBitmapFrameEncode *THIS_PTR,
+  _In_ UINT                  cCount,
+  _In_ IWICColorContext      **ppIColorContext
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="7c407-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="7c407-106">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="7c407-107">*Этот \_* \[ Вход в\]</span><span class="sxs-lookup"><span data-stu-id="7c407-107">*THIS\_PTR* \[in\]</span></span>
+</dt> <dd>
+
+<span data-ttu-id="7c407-108">Тип: \**[**ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) \** _</span><span class="sxs-lookup"><span data-stu-id="7c407-108">Type: \**[**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)\** _</span></span>
+
+<span data-ttu-id="7c407-109">Указатель на этот объект [_ *ивикбитмапфраминкоде* \*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) .</span><span class="sxs-lookup"><span data-stu-id="7c407-109">Pointer to this [_ *IWICBitmapFrameEncode*\*](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) object.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="7c407-110">*учетная запись* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="7c407-110">*cCount* \[in\]</span></span>
+</dt> <dd>
+
+<span data-ttu-id="7c407-111">Тип: **uint**</span><span class="sxs-lookup"><span data-stu-id="7c407-111">Type: **UINT**</span></span>
+
+<span data-ttu-id="7c407-112">Число устанавливаемых профилей [**ивикколорконтекст**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext) .</span><span class="sxs-lookup"><span data-stu-id="7c407-112">The number of [**IWICColorContext**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext) profiles to set.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="7c407-113">*ппиколорконтекст* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="7c407-113">*ppIColorContext* \[in\]</span></span>
+</dt> <dd>
+
+<span data-ttu-id="7c407-114">Тип: **[ **ивикколорконтекст**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext)\*\***</span><span class="sxs-lookup"><span data-stu-id="7c407-114">Type: **[**IWICColorContext**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext)\*\***</span></span>
+
+<span data-ttu-id="7c407-115">Указатель на указатель [**ивикколорконтекст**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext) , содержащий профили контекстов цвета, которые должны быть заданы для рамки.</span><span class="sxs-lookup"><span data-stu-id="7c407-115">A pointer to an [**IWICColorContext**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext) pointer containing the color contexts profiles to set to the frame.</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="7c407-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7c407-116">Return value</span></span>
+
+<span data-ttu-id="7c407-117">Тип: **HRESULT**</span><span class="sxs-lookup"><span data-stu-id="7c407-117">Type: **HRESULT**</span></span>
+
+<span data-ttu-id="7c407-118">Если эта функция завершается успешно, возвращается значение **S \_ ОК**.</span><span class="sxs-lookup"><span data-stu-id="7c407-118">If this function succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="7c407-119">В противном случае возвращается код ошибки **HRESULT** .</span><span class="sxs-lookup"><span data-stu-id="7c407-119">Otherwise, it returns an **HRESULT** error code.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="7c407-120">Remarks</span><span class="sxs-lookup"><span data-stu-id="7c407-120">Remarks</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="7c407-121">Требования</span><span class="sxs-lookup"><span data-stu-id="7c407-121">Requirements</span></span>
+
+
+
+| <span data-ttu-id="7c407-122">Требование</span><span class="sxs-lookup"><span data-stu-id="7c407-122">Requirement</span></span> | <span data-ttu-id="7c407-123">Значение</span><span class="sxs-lookup"><span data-stu-id="7c407-123">Value</span></span> |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="7c407-124">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="7c407-124">Minimum supported client</span></span><br/> | <span data-ttu-id="7c407-125">Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения Windows Vista\]</span><span class="sxs-lookup"><span data-stu-id="7c407-125">Windows XP with SP2, Windows Vista \[desktop apps only\]</span></span><br/>                                                                                              |
+| <span data-ttu-id="7c407-126">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="7c407-126">Minimum supported server</span></span><br/> | <span data-ttu-id="7c407-127">\[Только для настольных приложений Windows Server 2008\]</span><span class="sxs-lookup"><span data-stu-id="7c407-127">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                                                                             |
+| <span data-ttu-id="7c407-128">DLL</span><span class="sxs-lookup"><span data-stu-id="7c407-128">DLL</span></span><br/>                      | <dl> <span data-ttu-id="7c407-129"><dt>Windowscodecs.dll; </dt> <dt>Винкодек. lib</dt></span><span class="sxs-lookup"><span data-stu-id="7c407-129"><dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt></span></span> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+
