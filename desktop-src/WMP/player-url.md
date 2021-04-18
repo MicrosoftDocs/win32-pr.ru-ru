@@ -1,0 +1,92 @@
+---
+title: Player. URL
+description: Свойство URL указывает или получает имя элемента мультимедиа для воспроизведения.
+ms.assetid: 74987ffd-c625-4d30-9f5f-5170119158f9
+keywords:
+- Проигрыватель Windows Media Player. URL
+topic_type:
+- apiref
+api_name:
+- Player.URL
+api_location:
+- wmp.dll
+api_type:
+- DllExport
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 62d4f0c75ac0dddeeaced0f1a3a6f1247df4ae36
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "105704341"
+---
+# <a name="playerurl"></a>Player. URL
+
+Свойство **URL** указывает или получает имя элемента мультимедиа для воспроизведения.
+
+## <a name="syntax"></a>Синтаксис
+
+*проигрыватель* . **URL-адрес**
+
+## <a name="possible-values"></a>Возможные значения
+
+Это свойство является **строкой** для чтения и записи и не имеет значения по умолчанию.
+
+## <a name="remarks"></a>Комментарии
+
+Этому свойству можно задать только URL-адрес в зоне безопасности с тем же или менее ограниченным, чем зона безопасности вызывающей программы или веб-страницы.
+
+Приложения, которые открывают элементы мультимедиа из защищенного брандмауэра, будут иметь лучшую производительность, если адрес указан с помощью DNS-имени, а не IP-адреса.
+
+Не вызывайте этот метод из кода обработчика событий. Вызов *проигрывателя*. **URL-адрес** из обработчика событий может привести к непредвиденным результатам.
+
+## <a name="examples"></a>Примеры
+
+В следующем примере создается HTML-элемент ввода текста и элемент ввода HTML-кнопки. Элемент TEXT позволяет пользователю ввести путь для указания файла цифрового мультимедиа для воспроизведения. Элемент BUTTON выполняет сценарий JScript, который открывает файл и запускает проигрыватель Windows Media. Объект **Player** создан с идентификатором "Player".
+
+
+```JScript
+<!-- Create an INPUT control to get a file path from the user. -->
+<INPUT Type = "TEXT" ID = "inputURL">
+
+<!-- Create a BUTTON control to execute the script. -->
+<INPUT  Type = "BUTTON"  ID = "openMedia"  VALUE = "Open Media"
+    onClick = "
+        /* Specify the URL obtained from user input. */
+        Player.URL = inputURL.value;
+
+        /* Start the Player. */
+        Player.controls.play();
+">
+
+```
+
+
+
+## <a name="requirements"></a>Требования
+
+
+
+| Требование | Значение |
+|--------------------|------------------------------------------------------------------------------------|
+| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[**Объект Player**](player-object.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
