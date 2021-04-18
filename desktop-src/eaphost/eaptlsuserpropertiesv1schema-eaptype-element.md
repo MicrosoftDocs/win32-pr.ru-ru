@@ -1,6 +1,6 @@
 ---
-title: Еаптипе, элемент
-description: Является производным типом элемента Еаптипе из схемы baseeapuserpropertiesv1. | Еаптипе, элемент
+title: Элемент Еаптипе (eaptlsuserpropertiesv1schema)
+description: Этот элемент является производным типом элемента Еаптипе из схемы baseeapuserpropertiesv1. Для eaptlsuserpropertiesv1schema.
 ms.assetid: c9117803-dbf0-498d-8f86-f44ac2e6b2dc
 keywords:
 - Элемент Еаптипе EAPHost
@@ -14,14 +14,14 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: be2fd00cde752cae1ae8af0fa0305cbed2cdfe7c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 53e5c1404c70542f3604b94aa6cae9c8fc39fd21
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273418"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106187757"
 ---
-# <a name="eaptype-element"></a>Еаптипе, элемент
+# <a name="eaptype-element-eaptlsuserpropertiesv1schema"></a>Элемент Еаптипе (eaptlsuserpropertiesv1schema)
 
 Элемент **еаптипе** является производным типом элемента [**еаптипе**](baseeapuserpropertiesv1schema-eaptype-element.md) из схемы [baseeapuserpropertiesv1](baseeapuserpropertiesv1schema-schema.md) .
 
@@ -65,7 +65,7 @@ ms.locfileid: "104273418"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **processContents** обеспечивает будущие улучшения схемы. Элемент **processContents** является необязательным.
 
