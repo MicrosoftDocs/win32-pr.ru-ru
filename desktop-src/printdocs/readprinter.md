@@ -1,37 +1,38 @@
 ---
-description: Функция Принтерпропертиес отображает страницу свойств принтера для указанного принтера.
-ms.assetid: 1d4c961b-178b-47af-b983-5b7327919f93
-title: Функция Принтерпропертиес (Винспул. h)
+description: Функция Реадпринтер извлекает данные с указанного принтера.
+ms.assetid: d7c3f186-c53e-424b-89bf-6742babb998f
+title: Функция Реадпринтер (Винспул. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
 - kbSyntax
 api_name:
-- PrinterProperties
+- ReadPrinter
 api_type:
 - DllExport
 api_location:
-- plotui.dll
-- winspool.drv
-ms.openlocfilehash: e7e2c8586c06b2cb64a0e499bd05a6b6016de0a6
-ms.sourcegitcommit: c77ed4d933c9f30af0ca0e095a75ad2bdd4d8bf8
+- Spoolss.dll
+ms.openlocfilehash: ddbdfc03b80557583c60f461f0c7e3a6fe2473fd
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106011184"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105693237"
 ---
-# <a name="printerproperties-function"></a>Функция Принтерпропертиес
+# <a name="readprinter-function"></a>Функция Реадпринтер
 
-Функция **принтерпропертиес** отображает страницу свойств принтера для указанного принтера.
+Функция **реадпринтер** извлекает данные с указанного принтера.
 
 ## <a name="syntax"></a>Синтаксис
 
 
 ```C++
-BOOL PrinterProperties(
-  _In_ HWND   hWnd,
-  _In_ HANDLE hPrinter
+BOOL ReadPrinter(
+  _In_  HANDLE  hPrinter,
+  _Out_ LPVOID  pBuf,
+  _In_  DWORD   cbBuf,
+  _Out_ LPDWORD pNoBytesRead
 );
 ```
 
@@ -41,17 +42,31 @@ BOOL PrinterProperties(
 
 <dl> <dt>
 
-*HWND* \[ окне\]
-</dt> <dd>
-
-Маркер родительского окна страницы свойств.
-
-</dd> <dt>
-
 *хпринтер* \[ окне\]
 </dt> <dd>
 
-Маркер объекта принтера. Используйте функцию [**опенпринтер**](openprinter.md) или [**аддпринтер**](addprinter.md) для получения маркера принтера.
+Описатель объекта принтера, для которого необходимо получить данные. Используйте функцию [**опенпринтер**](openprinter.md) для получения маркера объекта принтера. Используйте формат: Принтернаме, задание XXXX.
+
+</dd> <dt>
+
+*пбуф* \[ заполняет\]
+</dt> <dd>
+
+Указатель на буфер, который получает данные принтера.
+
+</dd> <dt>
+
+*кббуф* \[ окне\]
+</dt> <dd>
+
+Размер (в байтах) буфера, на который *пбуф* указывает.
+
+</dd> <dt>
+
+*пнобитесреад* \[ заполняет\]
+</dt> <dd>
+
+Указатель на переменную, которая получает число байтов данных, копируемых в массив, в который *пбуф* Points.
 
 </dd> </dl>
 
@@ -61,12 +76,14 @@ BOOL PrinterProperties(
 
 Если функция выполняется неудачно, возвращается нулевое значение.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 > [!Note]  
 > Это блокирующая или синхронная функция, которая может не возвращать значение немедленно. Скорость возврата этой функцией зависит от факторов времени выполнения, таких как состояние сети, Конфигурация сервера печати и факторы реализации драйвера принтера, которые трудно предсказать при написании приложения. Вызов этой функции из потока, который управляет взаимодействием с пользовательским интерфейсом, может привести к невозможности реагирования приложения.
 
  
+
+**Реадпринтер** возвращает ошибку, если устройство или принтер не являются двунаправленными.
 
 ## <a name="requirements"></a>Требования
 
@@ -78,7 +95,7 @@ BOOL PrinterProperties(
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
 | Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Винспул. lib</dt> </dl>                   |
-| DLL<br/>                      | <dl> <dt>винспул. drv</dt> </dl>                     |
+| DLL<br/>                      | <dl> <dt>Spoolss.dll</dt> </dl>                    |
 
 
 
@@ -90,9 +107,6 @@ BOOL PrinterProperties(
 </dt> <dt>
 
 [Функции API очереди печати принтера](printing-and-print-spooler-functions.md)
-</dt> <dt>
-
-[**DocumentProperties**](documentproperties.md)
 </dt> <dt>
 
 [**опенпринтер**](openprinter.md)
