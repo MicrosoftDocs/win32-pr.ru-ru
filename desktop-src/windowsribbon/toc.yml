@@ -1,0 +1,605 @@
+- name: Платформа ленты Windows
+  href: '-uiplat-windowsribbon-entry.md'
+  items:
+    - name: Обзоры платформы ленты
+      href: windowsribbon-overviews-entry.md
+      items:
+        - name: Знакомство с платформой Windows Ribbon
+          href: windowsribbon-introduction.md
+        - name: Объявление команд и элементов управления с разметкой ленты
+          href: windowsribbon-schema.md
+    - name: Руководства для разработчиков платформы Ribbon
+      href: windowsribbon-guides-entry.md
+      items:
+        - name: Создание приложения для ленты
+          href: windowsribbon-stepbystep.md
+        - name: Переход на платформу Windows Ribbon
+          href: ribbon-migration.md
+        - name: Основные сведения о командах и элементах управления
+          href: windowsribbon-commandscontrols.md
+        - name: Прослушивание событий ленты
+          href: listening-for-ribbon-events.md
+        - name: Указание ресурсов изображения ленты
+          href: windowsribbon-imageformats.md
+        - name: Настройка ленты с помощью определений размеров и политик масштабирования
+          href: windowsribbon-templates.md
+        - name: Работа с коллекциями
+          href: ribbon-controls-galleries.md
+        - name: Отображение контекстных вкладок
+          href: ribbon-contextualtabs.md
+        - name: Перенастройка ленты с помощью режимов приложения
+          href: ribbon-applicationmodes.md
+        - name: Настройка цветов ленты
+          href: ribbon-color.md
+        - name: Отображение ленты
+          href: ribbon-visibility.md
+        - name: Сохранение состояния ленты
+          href: ribbon-statepersistence.md
+        - name: Компиляция разметки ленты
+          href: windowsribbon-intentcl.md
+        - name: Основные сведения о сообщениях компилятора разметки
+          href: windowsribbon-compilationerrors.md
+    - name: Библиотека элементов управления платформы ленты
+      href: windowsribbon-controls-entry.md
+      items:
+        - name: Меню приложения
+          href: windowsribbon-controls-applicationmenu.md
+        - name: Кнопка
+          href: windowsribbon-controls-button.md
+        - name: Флажок
+          href: windowsribbon-controls-checkbox.md
+        - name: Combo Box
+          href: windowsribbon-controls-combobox.md
+        - name: Контекстное всплывающее окно
+          href: windowsribbon-controls-contextpopup.md
+        - name: Кнопка Drop-Down
+          href: windowsribbon-controls-dropdownbutton.md
+        - name: Средство выбора цвета Drop-Down
+          href: windowsribbon-controls-dropdowncolorpicker.md
+        - name: Коллекция Drop-Down
+          href: windowsribbon-controls-dropdowngallery.md
+        - name: Элемент управления шрифтами
+          href: windowsribbon-controls-fontcontrol.md
+        - name: Группа
+          href: windowsribbon-controls-group.md
+        - name: Кнопка "Справка"
+          href: windowsribbon-controls-helpbutton.md
+        - name: Коллекция In-Ribbon
+          href: windowsribbon-controls-inribbongallery.md
+        - name: Группа меню
+          href: windowsribbon-controls-menugroup.md
+        - name: Панель быстрого доступа
+          href: windowsribbon-controls-quickaccesstoolbar.md
+        - name: Недавние элементы
+          href: windowsribbon-controls-recentitems.md
+        - name: Spinner
+          href: windowsribbon-controls-spinner.md
+        - name: Разворачивающаяся кнопка
+          href: windowsribbon-controls-splitbutton.md
+        - name: Коллекция разделенных кнопок
+          href: windowsribbon-controls-splitbuttongallery.md
+        - name: Вкладка
+          href: windowsribbon-controls-tab.md
+        - name: Группа вкладок
+          href: windowsribbon-controls-tabgroup.md
+        - name: Выключатель
+          href: windowsribbon-controls-togglebutton.md
+    - name: Справочник по платформе ленты
+      href: windowsribbon-reference-entry.md
+      items:
+        - name: Элементы разметки
+          href: windowsribbon-reference-markup-elements.md
+          items:
+            - name: Команды и ресурсы
+              href: windowsribbon-reference-elements-command.md
+              items:
+                - name: Команда
+                  href: windowsribbon-element-command.md
+                  items:
+                    - name: Комментировать
+                      href: windowsribbon-element-command-comment.md
+                    - name: Идентификатор
+                      href: windowsribbon-element-command-id.md
+                    - name: Keytip
+                      href: windowsribbon-element-command-keytip.md
+                    - name: лабелдескриптион
+                      href: windowsribbon-element-command-labeldescription.md
+                    - name: лабелтитле
+                      href: windowsribbon-element-command-labeltitle.md
+                    - name: ларжехигхконтрастимажес
+                      href: windowsribbon-element-command-largehighcontrastimages.md
+                    - name: ларжеимажес
+                      href: windowsribbon-element-command-largeimages.md
+                    - name: Имя
+                      href: windowsribbon-element-command-name.md
+                    - name: смаллхигхконтрастимажес
+                      href: windowsribbon-element-command-smallhighcontrastimages.md
+                    - name: смаллимажес
+                      href: windowsribbon-element-command-smallimages.md
+                    - name: Символ
+                      href: windowsribbon-element-command-symbol.md
+                    - name: тултипдескриптион
+                      href: windowsribbon-element-command-tooltipdescription.md
+                    - name: тултиптитле
+                      href: windowsribbon-element-command-tooltiptitle.md
+                - name: "Образ\_—"
+                  href: windowsribbon-element-image.md
+                  items:
+                    - name: Источник
+                      href: windowsribbon-element-image-source.md
+                - name: Строка
+                  href: windowsribbon-element-string.md
+                  items:
+                    - name: Содержимое
+                      href: windowsribbon-element-string-content.md
+                    - name: Идентификатор
+                      href: windowsribbon-element-string-id.md
+                    - name: Символ
+                      href: windowsribbon-element-string-symbol.md
+            - name: Представления
+              href: windowsribbon-reference-elements-view.md
+              items:
+                - name: контекстпопуп
+                  href: windowsribbon-element-contextpopup.md
+                  items:
+                    - name: контекстмапс
+                      href: windowsribbon-element-contextpopup-contextmaps.md
+                    - name: ContextMenu
+                      href: windowsribbon-element-contextpopup-contextmenus.md
+                    - name: минитулбарс
+                      href: windowsribbon-element-contextpopup-minitoolbars.md
+                - name: Лента
+                  href: windowsribbon-element-ribbon.md
+                  items:
+                    - name: аппликатионмену
+                      href: windowsribbon-element-ribbon-applicationmenu.md
+                    - name: контекстуалтабс
+                      href: windowsribbon-element-ribbon-contextualtabs.md
+                    - name: хелпбуттон
+                      href: windowsribbon-element-ribbon-helpbutton.md
+                    - name: куиккакцесстулбар
+                      href: windowsribbon-element-ribbon-quickaccesstoolbar.md
+                    - name: сизедефинитионс
+                      href: windowsribbon-element-ribbon-sizedefinitions.md
+                    - name: Вкладки
+                      href: windowsribbon-element-ribbon-tabs.md
+            - name: Элементы управления
+              href: windowsribbon-reference-elements-control.md
+              items:
+                - name: аппликатионмену
+                  href: windowsribbon-element-applicationmenu.md
+                  items:
+                    - name: рецентитемс
+                      href: windowsribbon-element-applicationmenu-recentitems.md
+                - name: Кнопка
+                  href: windowsribbon-element-button.md
+                - name: CheckBox
+                  href: windowsribbon-element-checkbox.md
+                - name: ComboBox
+                  href: windowsribbon-element-combobox.md
+                - name: контекстмап
+                  href: windowsribbon-element-contextmap.md
+                - name: ContextMenu
+                  href: windowsribbon-element-contextmenu.md
+                - name: DropDownButton
+                  href: windowsribbon-element-dropdownbutton.md
+                - name: дропдовнколорпиккер
+                  href: windowsribbon-element-dropdowncolorpicker.md
+                - name: дропдовнгаллери
+                  href: windowsribbon-element-dropdowngallery.md
+                  items:
+                    - name: менуграупс
+                      href: windowsribbon-element-dropdowngallery-menugroups.md
+                    - name: менулайаут
+                      href: windowsribbon-element-dropdowngallery-menulayout.md
+                - name: фонтконтрол
+                  href: windowsribbon-element-fontcontrol.md
+                - name: Группа
+                  href: windowsribbon-element-group.md
+                - name: хелпбуттон
+                  href: windowsribbon-element-helpbutton.md
+                - name: инриббонгаллери
+                  href: windowsribbon-element-inribbongallery.md
+                  items:
+                    - name: менуграупс
+                      href: windowsribbon-element-inribbongallery-menugroups.md
+                    - name: менулайаут
+                      href: windowsribbon-element-inribbongallery-menulayout.md
+                - name: менуграуп
+                  href: windowsribbon-element-menugroup.md
+                - name: минитулбар
+                  href: windowsribbon-element-minitoolbar.md
+                - name: куиккакцесстулбар
+                  href: windowsribbon-element-quickaccesstoolbar.md
+                  items:
+                    - name: ApplicationDefaults
+                      href: windowsribbon-element-quickaccesstoolbar-applicationdefaults.md
+                - name: рецентитемс
+                  href: windowsribbon-element-recentitems.md
+                - name: Spinner
+                  href: windowsribbon-element-spinner.md
+                - name: SplitButton
+                  href: windowsribbon-element-splitbutton.md
+                  items:
+                    - name: буттонитем
+                      href: windowsribbon-element-splitbutton-buttonitem.md
+                    - name: менуграупс
+                      href: windowsribbon-element-splitbutton-menugroups.md
+                - name: сплитбуттонгаллери
+                  href: windowsribbon-element-splitbuttongallery.md
+                  items:
+                    - name: менуграупс
+                      href: windowsribbon-element-splitbuttongallery-menugroups.md
+                    - name: менулайаут
+                      href: windowsribbon-element-splitbuttongallery-menulayout.md
+                - name: Вкладка
+                  href: windowsribbon-element-tab.md
+                  items:
+                    - name: ScalingPolicy
+                      href: windowsribbon-element-tab-scalingpolicy.md
+                - name: Группа вкладок
+                  href: windowsribbon-element-tabgroup.md
+                - name: ToggleButton
+                  href: windowsribbon-element-togglebutton.md
+            - name: Другие
+              href: windowsribbon-reference-elements-other.md
+              items:
+                - name: Приложение
+                  href: windowsribbon-element-application.md
+                  items:
+                    - name: Команды
+                      href: windowsribbon-element-application-commands.md
+                    - name: Представления
+                      href: windowsribbon-element-application-views.md
+                - name: колумнбреак
+                  href: windowsribbon-element-columnbreak.md
+                - name: контролграуп
+                  href: windowsribbon-element-controlgroup.md
+                - name: контролнамедефинитион
+                  href: windowsribbon-element-controlnamedefinition.md
+                - name: контролнамемап
+                  href: windowsribbon-element-controlnamemap.md
+                - name: контролсизедефинитион
+                  href: windowsribbon-element-controlsizedefinition.md
+                - name: динамикуи
+                  href: windowsribbon-element-dynamicui.md
+                - name: фловменулайаут
+                  href: windowsribbon-element-flowmenulayout.md
+                - name: граупсизедефинитион
+                  href: windowsribbon-element-groupsizedefinition.md
+                - name: Строка
+                  href: windowsribbon-element-row.md
+                - name: Масштабирование
+                  href: windowsribbon-element-scale.md
+                - name: ScalingPolicy
+                  href: windowsribbon-element-scalingpolicy.md
+                  items:
+                    - name: идеалсизес
+                      href: windowsribbon-element-scalingpolicy-idealsizes.md
+                - name: сизедефинитион
+                  href: windowsribbon-element-sizedefinition.md
+                - name: вертикалменулайаут
+                  href: windowsribbon-element-verticalmenulayout.md
+        - name: Константы и перечисления
+          href: windowsribbon-reference-enumerations.md
+          items:
+            - name: UI_ALL_COMMANDS
+              href: windowsribbon-ui-all-commands.md
+            - name: UI_COLLECTION_INVALIDINDEX
+              href: windowsribbon-ui-collection-invalidindex.md
+            - name: UI_COLLECTIONCHANGE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_collectionchange
+            - name: UI_COMMANDCATEGORY
+              href: /previous-versions/windows/desktop/legacy/hh448736(v=vs.85)
+            - name: UI_COMMANDTYPE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_commandtype
+            - name: UI_CONTEXTAVAILABILITY
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_contextavailability
+            - name: UI_CONTROLDOCK
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_controldock
+            - name: UI_EVENTLOCATION
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_eventlocation
+            - name: UI_EVENTTYPE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_eventtype
+            - name: UI_EXECUTIONVERB
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_executionverb
+            - name: UI_FONTDELTASIZE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_fontdeltasize
+            - name: UI_FONTPROPERTIES
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_fontproperties
+            - name: UI_FONTUNDERLINE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_fontunderline
+            - name: UI_FONTVERTICALPOSITION
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_fontverticalposition
+            - name: UI_INVALIDATIONS
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_invalidations
+            - name: UI_OWNERSHIP
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_ownership
+            - name: UI_SWATCHCOLORMODE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_swatchcolormode
+            - name: UI_SWATCHCOLORTYPE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_swatchcolortype
+            - name: UI_VIEWTYPE
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_viewtype
+            - name: UI_VIEWVERB
+              href: /windows/desktop/api/Uiribbon/ne-uiribbon-ui_viewverb
+        - name: Интерфейсы
+          href: windowsribbon-reference-interfaces.md
+          items:
+            - name: иуиаппликатион
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiapplication
+              items:
+                - name: онкреатеуикомманд
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand
+                - name: ондестройуикомманд
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiapplication-ondestroyuicommand
+                - name: онвиевчанжед
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiapplication-onviewchanged
+            - name: иуиколлектион
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuicollection
+              items:
+                - name: Добавить
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-add
+                - name: Clear
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-clear
+                - name: GetCount
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-getcount
+                - name: GetItem
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-getitem
+                - name: Вставить
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-insert
+                - name: RemoveAt
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-removeat
+                - name: Заменить
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-replace
+            - name: иуиколлектиончанжедевент
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuicollectionchangedevent
+              items:
+                - name: С изменением
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged
+            - name: иуикоммандхандлер
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuicommandhandler
+              items:
+                - name: Execute
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicommandhandler-execute
+                - name: упдатепроперти
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicommandhandler-updateproperty
+            - name: иуиконтекстуалуи
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuicontextualui
+              items:
+                - name: шоватлокатион
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicontextualui-showatlocation
+            - name: иуиевентингманажер
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuieventingmanager
+              items:
+                - name: Метод Сетевентлогжер
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuieventingmanager-seteventlogger
+            - name: иуиевентлогжер
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuieventlogger
+              items:
+                - name: онуиевент
+                  href: /windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent
+            - name: иуифрамеворк
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiframework
+              items:
+                - name: Уничтожить
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-destroy
+                - name: флушпендингинвалидатионс
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-flushpendinginvalidations
+                - name: жетуикоммандпроперти
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-getuicommandproperty
+                - name: GetView
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-getview
+                - name: Инициализация
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-initialize
+                - name: инвалидатеуикомманд
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-invalidateuicommand
+                - name: лоадуи
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-loadui
+                - name: сетмодес
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-setmodes
+                - name: сетуикоммандпроперти
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiframework-setuicommandproperty
+            - name: иуиимаже
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiimage
+              items:
+                - name: Точечный рисунок
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiimage-getbitmap
+            - name: иуиимажефромбитмап
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiimagefrombitmap
+              items:
+                - name: креатеимаже
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiimagefrombitmap-createimage
+            - name: иуириббон
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuiribbon
+              items:
+                - name: Высота
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiribbon-getheight
+                - name: лоадсеттингсфромстреам
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream
+                - name: савесеттингстостреам
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuiribbon-savesettingstostream
+            - name: иуисимплепропертисет
+              href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuisimplepropertyset
+              items:
+                - name: GetValue
+                  href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue
+        - name: Объекты
+          href: windowsribbon-reference-objects.md
+          items:
+            - name: уириббонфрамеворк
+              href: /previous-versions/windows/desktop/legacy/dd742706(v=vs.85)
+            - name: уириббонимажефромбитмапфактори
+              href: /previous-versions/windows/desktop/legacy/dd742707(v=vs.85)
+        - name: Ключи свойств
+          href: windowsribbon-reference-properties.md
+          items:
+            - name: Свойства коллекции
+              href: windowsribbon-reference-properties-collection.md
+              items:
+                - name: UI_PKEY_Categories
+                  href: windowsribbon-reference-properties-uipkey-categories.md
+                - name: UI_PKEY_CategoryId
+                  href: windowsribbon-reference-properties-uipkey-categoryid.md
+                - name: UI_PKEY_CommandId
+                  href: windowsribbon-reference-properties-uipkey-commandid.md
+                - name: UI_PKEY_CommandType
+                  href: windowsribbon-reference-properties-uipkey-commandtype.md
+                - name: UI_PKEY_ItemImage
+                  href: windowsribbon-reference-properties-uipkey-itemimage.md
+                - name: UI_PKEY_ItemsSource
+                  href: windowsribbon-reference-properties-uipkey-itemssource.md
+                - name: UI_PKEY_SelectedItem
+                  href: windowsribbon-reference-properties-uipkey-selecteditem.md
+            - name: Свойства выбора цвета
+              href: windowsribbon-reference-properties-colorpicker.md
+              items:
+                - name: UI_PKEY_AutomaticColorLabel
+                  href: windowsribbon-reference-properties-uipkey-automaticcolorlabel.md
+                - name: UI_PKEY_Color
+                  href: windowsribbon-reference-properties-uipkey-color.md
+                - name: UI_PKEY_ColorMode
+                  href: ui-pkey-colormode.md
+                - name: UI_PKEY_ColorType
+                  href: windowsribbon-reference-properties-uipkey-colortype.md
+                - name: UI_PKEY_MoreColorsLabel
+                  href: windowsribbon-reference-properties-uipkey-morecolorslabel.md
+                - name: UI_PKEY_NoColorLabel
+                  href: windowsribbon-reference-properties-uipkey-nocolorlabel.md
+                - name: UI_PKEY_RecentColorsCategoryLabel
+                  href: windowsribbon-reference-properties-uipkey-recentcolorscategorylabel.md
+                - name: UI_PKEY_StandardColors
+                  href: windowsribbon-reference-properties-uipkey-standardcolors.md
+                - name: UI_PKEY_StandardColorsCategoryLabel
+                  href: windowsribbon-reference-properties-uipkey-standardcolorscategorylabel.md
+                - name: UI_PKEY_StandardColorsTooltips
+                  href: windowsribbon-reference-properties-uipkey-standardcolorstooltips.md
+                - name: UI_PKEY_ThemeColors
+                  href: windowsribbon-reference-properties-uipkey-themecolors.md
+                - name: UI_PKEY_ThemeColorsCategoryLabel
+                  href: windowsribbon-reference-properties-uipkey-themecolorscategorylabel.md
+                - name: UI_PKEY_ThemeColorsTooltips
+                  href: windowsribbon-reference-properties-uipkey-themecolorstooltips.md
+            - name: Свойства шрифта
+              href: windowsribbon-reference-properties-fontcontrol.md
+              items:
+                - name: UI_PKEY_FontProperties
+                  href: windowsribbon-reference-properties-uipkey-fontproperties.md
+                - name: UI_PKEY_FontProperties_BackgroundColor
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolor.md
+                - name: UI_PKEY_FontProperties_BackgroundColorType
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolortype.md
+                - name: UI_PKEY_FontProperties_Bold
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-bold.md
+                - name: UI_PKEY_FontProperties_ChangedProperties
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-changedproperties.md
+                - name: UI_PKEY_FontProperties_DeltaSize
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-deltasize.md
+                - name: UI_PKEY_FontProperties_Family
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-family.md
+                - name: UI_PKEY_FontProperties_ForegroundColor
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolor.md
+                - name: UI_PKEY_FontProperties_ForegroundColorType
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolortype.md
+                - name: UI_PKEY_FontProperties_Italic
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-italic.md
+                - name: UI_PKEY_FontProperties_Size
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-size.md
+                - name: UI_PKEY_FontProperties_Strikethrough
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-strikethrough.md
+                - name: UI_PKEY_FontProperties_Underline
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-underline.md
+                - name: UI_PKEY_FontProperties_VerticalPositioning
+                  href: windowsribbon-reference-properties-uipkey-fontproperties-verticalpositioning.md
+            - name: Свойства платформы
+              href: windowsribbon-reference-properties-framework.md
+              items:
+                - name: UI_PKEY_GlobalBackgroundColor
+                  href: windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md
+                - name: UI_PKEY_GlobalHighlightColor
+                  href: windowsribbon-reference-properties-uipkey-globalhighlightcolor.md
+                - name: UI_PKEY_GlobalTextColor
+                  href: windowsribbon-reference-properties-uipkey-globaltextcolor.md
+            - name: Свойства ресурсов
+              href: windowsribbon-reference-properties-resource.md
+              items:
+                - name: UI_PKEY_Keytip
+                  href: windowsribbon-reference-properties-uipkey-keytip.md
+                - name: UI_PKEY_Label
+                  href: windowsribbon-reference-properties-uipkey-label.md
+                - name: UI_PKEY_LabelDescription
+                  href: windowsribbon-reference-properties-uipkey-labeldescription.md
+                - name: UI_PKEY_LargeHighContrastImage
+                  href: windowsribbon-reference-properties-uipkey-largehighcontrastimage.md
+                - name: UI_PKEY_LargeImage
+                  href: windowsribbon-reference-properties-uipkey-largeimage.md
+                - name: UI_PKEY_SmallHighContrastImage
+                  href: windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md
+                - name: UI_PKEY_SmallImage
+                  href: windowsribbon-reference-properties-uipkey-smallimage.md
+                - name: UI_PKEY_TooltipDescription
+                  href: windowsribbon-reference-properties-uipkey-tooltipdescription.md
+                - name: UI_PKEY_TooltipTitle
+                  href: windowsribbon-reference-properties-uipkey-tooltiptitle.md
+            - name: Свойства ленты
+              href: windowsribbon-reference-properties-ribbon.md
+              items:
+                - name: UI_PKEY_Minimized
+                  href: windowsribbon-reference-properties-uipkey-minimized.md
+                - name: UI_PKEY_QuickAccessToolbarDock
+                  href: windowsribbon-reference-properties-uipkey-quickaccesstoolbardock.md
+                - name: UI_PKEY_Viewable
+                  href: windowsribbon-reference-properties-uipkey-viewable.md
+            - name: Свойства состояния
+              href: windowsribbon-reference-properties-state.md
+              items:
+                - name: UI_PKEY_BooleanValue
+                  href: windowsribbon-reference-properties-uipkey-booleanvalue.md
+                - name: UI_PKEY_ContextAvailable
+                  href: windowsribbon-reference-properties-uipkey-contextavailable.md
+                - name: UI_PKEY_DecimalPlaces
+                  href: windowsribbon-reference-properties-uipkey-decimalplaces.md
+                - name: UI_PKEY_DecimalValue
+                  href: windowsribbon-reference-properties-uipkey-decimalvalue.md
+                - name: UI_PKEY_Enabled
+                  href: windowsribbon-reference-properties-uipkey-enabled.md
+                - name: UI_PKEY_FormatString
+                  href: windowsribbon-reference-properties-uipkey-formatstring.md
+                - name: UI_PKEY_Increment
+                  href: windowsribbon-reference-properties-uipkey-increment.md
+                - name: UI_PKEY_MaxValue
+                  href: windowsribbon-reference-properties-uipkey-maxvalue.md
+                - name: UI_PKEY_MinValue
+                  href: windowsribbon-reference-properties-uipkey-minvalue.md
+                - name: UI_PKEY_Pinned
+                  href: windowsribbon-reference-properties-uipkey-pinned.md
+                - name: UI_PKEY_RecentItems
+                  href: windowsribbon-reference-properties-uipkey-recentitems.md
+                - name: UI_PKEY_RepresentativeString
+                  href: windowsribbon-reference-properties-uipkey-representativestring.md
+                - name: UI_PKEY_StringValue
+                  href: windowsribbon-reference-properties-uipkey-stringvalue.md
+        - name: Структуры
+          href: structures.md
+          items:
+            - name: UI_EVENTPARAMS
+              href: /windows/win32/api/Uiribbon/ns-uiribbon-ui_eventparams
+            - name: UI_EVENTPARAMS_COMMAND
+              href: /windows/win32/api/Uiribbon/ns-uiribbon-ui_eventparams_command
+    - name: Примеры платформы ленты
+      href: windowsribbon-samples-entry.md
+      items:
+        - name: Пример Симплериббон
+          href: windowsribbon-sample1.md
+        - name: Пример Контекстпопуп
+          href: windowsribbon-contextpopupsample.md
+        - name: Пример Дропдовнколорпиккер
+          href: windowsribbon-dropdowncolorpickersample.md
+        - name: Пример коллекции
+          href: windowsribbon-gallerysample.md
+        - name: Пример Хтмледитриббон
+          href: windowsribbon-htmleditribbonsample.md
+        - name: Пример Фонтконтрол
+          href: windowsribbon-fontcontrolsample.md
+    - name: Глоссарий платформы ленты
+      href: windowsribbon-glossary.md
