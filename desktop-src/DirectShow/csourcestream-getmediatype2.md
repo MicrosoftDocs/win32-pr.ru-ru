@@ -1,7 +1,7 @@
 ---
 description: Метод Жетмедиатипе извлекает предпочтительный тип мультимедиа.
 ms.assetid: 85605885-adb5-4f13-91af-48bf74684eca
-title: Метод Ксаурцестреам. Жетмедиатипе (Source. h)
+title: Ксаурцестреам. Жетмедиатипе, метод (Source. h) — параметр Пмедиатипе
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c62d79faab8d48d748f4a2c787dd1cbc8f6d2ed7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8306da8451d4af7da8ce4f4c7d4d3f6fd367e1ec
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689019"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389187"
 ---
 # <a name="csourcestreamgetmediatype-method-sourceh"></a>Метод Ксаурцестреам. Жетмедиатипе (Source. h)
 
@@ -66,7 +66,7 @@ virtual HRESULT GetMediaType(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Существует две версии этого метода. Одна версия переопределяет метод [**кбасепин:: жетмедиатипе**](cbasepin-getmediatype.md) и принимает значение индекса в качестве параметра. Другая версия предназначена для получения одного типа мультимедиа, поэтому в нем отсутствует параметр index.
 
@@ -81,12 +81,12 @@ virtual HRESULT GetMediaType(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Source. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>Source. h (включение Streams. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
