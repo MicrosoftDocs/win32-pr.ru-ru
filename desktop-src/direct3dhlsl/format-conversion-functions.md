@@ -9,19 +9,21 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2842236bfd0a2875576af7235aefa5dce2db8bd6
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 355fb59aa6a94e144daf05942b40d3f685daff51
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104997011"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222882"
 ---
 # <a name="format-conversion-functions-hlsl-reference"></a>Функции преобразования формата (Справочник по HLSL)
 
 Раздел содержит функции преобразования формата, используемые в шейдере вычислений и в построителейх пикселей.
 
 -   [Функции преобразователя](#converter-functions)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
+
+> Заголовок D3DX_DXGIFormatConvert. inl поставляется в устаревшем пакете SDK DirectX и полагается на поддержку Кснамас для C++. Он также включен в пакет NuGet [Microsoft. дкссдк. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) . В последней версии используется Директксмас для поддержки C++, а все функции определяются в пространстве имен **DirectX** C++.
 
 ## <a name="converter-functions"></a>Функции преобразователя
 
@@ -156,7 +158,7 @@ ms.locfileid: "104997011"
 [**D3DX \_ INT2 \_ \_ R16G16 \_ Синт**](d3dx-int2-to-r16g16-sint.md)  
 </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -166,10 +168,6 @@ ms.locfileid: "104997011"
 [Распаковка и \_ формат упаковки для редактирования образа In-Place](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
-
-
-
+ 
