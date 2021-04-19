@@ -1,7 +1,7 @@
 ---
 description: Метод конструктора.
 ms.assetid: 35198320-d028-42d4-823f-4f8346d8f977
-title: Конструктор Кмедиатипе. Кмедиатипе (Мтипе. h)
+title: Кмедиатипе. Кмедиатипе-конструктор (Мтипе. h) — параметры кмтипе и фр
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 776d59550d09396cc248937be611f2b4ec3699df
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a40929bb6f53df7ce721e20eefba3019eb71cb0e
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685054"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389068"
 ---
 # <a name="cmediatypecmediatype-constructor-mtypeh"></a>Конструктор Кмедиатипе. Кмедиатипе (Мтипе. h)
 
@@ -57,7 +57,7 @@ CMediaType(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Конструктор вызывает метод [**кмедиатипе:: инитмедиатипе**](cmediatype-initmediatype.md) для инициализации типа мультимедиа.
 
@@ -67,12 +67,12 @@ CMediaType(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

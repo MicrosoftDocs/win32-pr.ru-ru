@@ -1,6 +1,6 @@
 ---
 description: 'Дополнительные сведения: обновление. Сохранение списка перегрузок метода'
-title: Метод Update. Save
+title: Обновление. Сохранение списка перегрузок метода
 TOCTitle: 'Save method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Update.Save
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.update.save(v=EXCHG.10)
@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 1601652f704f8000e33aef17c2b373193466334f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbb960ad5be6e7774a52fed9dd75a4ff6c420197
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897654"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389201"
 ---
 # <a name="updatesave-method-overload-list"></a>Обновление. Сохранение списка перегрузок метода
 
@@ -32,7 +32,7 @@ ms.locfileid: "103897654"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Имя</th>
+<th>name</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -53,7 +53,7 @@ ms.locfileid: "103897654"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

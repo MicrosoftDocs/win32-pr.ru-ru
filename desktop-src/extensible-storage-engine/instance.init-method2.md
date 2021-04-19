@@ -1,6 +1,6 @@
 ---
 description: Дополнительные сведения см. в Instance.Iniсписке перегрузок метода t
-title: Метод Instance.Init
+title: Список перегрузок методов Instance.Init
 TOCTitle: 'Init method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Instance.Init
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.instance.init(v=EXCHG.10)
@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: a4f91eef99370eb4f79a62fe0a6e8854f900d849
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b93c2f08990af0af9618a86fb6be9c6718cfe25
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558408"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389145"
 ---
 # <a name="instanceinit-method-overload-list"></a>Список перегрузок методов Instance.Init
 
@@ -32,7 +32,7 @@ ms.locfileid: "104558408"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Имя</th>
+<th>name</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -58,7 +58,7 @@ ms.locfileid: "104558408"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

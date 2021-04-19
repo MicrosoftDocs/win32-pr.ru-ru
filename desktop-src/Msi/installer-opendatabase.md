@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 13256f0bbe2d5adad61c46ea091e8207f1a9351b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 897e683fd56ce3e7496dd945ee068a9e6f0c0f77
+ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651596"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "107492273"
 ---
 # <a name="installeropendatabase-method"></a>Метод Installer. Опендатабасе
 
@@ -72,9 +72,9 @@ Installer.OpenDatabase(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Этот метод не возвращает значение.
+Объект [**базы данных**](database-object.md) , представляющий существующую или новую открытую базу данных установщика.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При открытии базы данных в качестве выходных данных другой базы данных информационный поток выходной базы данных фактически является зеркальной базой данных, предназначенной только для чтения, и поэтому не может быть изменен. Кроме того, она не сохраняется в базе данных. Чтобы создать или изменить сводные данные для выходной базы данных, ее необходимо закрыть и повторно открыть.
 
