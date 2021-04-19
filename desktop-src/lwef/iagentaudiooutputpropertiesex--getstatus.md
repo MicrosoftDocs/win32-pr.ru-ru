@@ -4,12 +4,12 @@ description: Иажентаудиуутпутпропертиесекс
 ms.assetid: 29bf1379-eebe-4b8b-b8d0-b86d2da78b64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dd89f4b3d8101ff15b868551626775e6f2e341f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f851c8fc73e9f427bd725d7ef647b84a68be13e4
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411113"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380748"
 ---
 # <a name="iagentaudiooutputpropertiesexgetstatus"></a>Иажентаудиуутпутпропертиесекс::/Status
 
@@ -50,7 +50,7 @@ HRESULT GetStatus(
 
 </dd> </dl>
 
-Этот параметр позволяет клиентскому приложению запрашивать состояние канала вывода звука. С помощью этого метода можно определить, следует ли говорить, что ваш символ говорит, или попытаться включить режим прослушивания (с помощью [**иажентчарактерекс:: Listen**](lwef.iagentcharacterex::listen_method)).
+Этот параметр позволяет клиентскому приложению запрашивать состояние канала вывода звука. С помощью этого метода можно определить, следует ли говорить, что ваш символ говорит, или попытаться включить режим прослушивания (с помощью **иажентчарактерекс:: Listen**).
 
  
 
