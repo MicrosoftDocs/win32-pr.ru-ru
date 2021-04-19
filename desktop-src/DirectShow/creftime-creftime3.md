@@ -1,7 +1,7 @@
 ---
 description: Метод конструктора.
 ms.assetid: c1282676-6f2b-438a-850e-17bb6d7a2c68
-title: Конструктор Крефтиме. Крефтиме (Рефтиме. h)
+title: Крефтиме. Крефтиме-конструктор (Рефтиме. h) — параметр RT
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 57d99b2b5c7e628973d3434d6cffe8ad7bc702d7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d97175a07565c12033c5e1ea8f20c157657d9501
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656999"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389194"
 ---
 # <a name="creftimecreftime-constructor-reftimeh"></a>Конструктор Крефтиме. Крефтиме (Рефтиме. h)
 
@@ -49,7 +49,7 @@ CRefTime(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию время ссылки равно нулю.
 
@@ -59,7 +59,7 @@ CRefTime(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Рефтиме. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>Рефтиме. h (включение Streams. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

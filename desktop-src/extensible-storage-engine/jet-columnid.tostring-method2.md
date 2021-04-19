@@ -1,6 +1,6 @@
 ---
 description: 'Дополнительные сведения о: JET_COLUMNID. Метод ToString, список перегрузок'
-title: JET_COLUMNID. Метод ToString
+title: JET_COLUMNID. Метод ToString, список перегрузок
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_COLUMNID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_columnid.tostring(v=EXCHG.10)
@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: d928e6232d9f5039a68ca41b31cd4f01abe68bb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0d3a862e225e5eabfb5ffc46eef548e6205a366
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155018"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389166"
 ---
 # <a name="jet_columnidtostring-method-overload-list"></a>JET_COLUMNID. Метод ToString, список перегрузок
 
@@ -32,7 +32,7 @@ ms.locfileid: "104155018"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Имя</th>
+<th>name</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -53,7 +53,7 @@ ms.locfileid: "104155018"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 
