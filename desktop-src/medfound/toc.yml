@@ -582,7 +582,7 @@
                 - name: IDirect3DAuthenticatedChannel9
                   href: /windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9
                   items:
-                    - name: Configure
+                    - name: Настройка
                       href: /windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure
                     - name: Метода getcertificate
                       href: /windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-getcertificate
@@ -1896,7 +1896,7 @@
                     - name: иопмвидеуутпут
                       href: /windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput
                       items:
-                        - name: Configure
+                        - name: Настройка
                           href: /windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure
                         - name: коппкомпатиблежетинформатион
                           href: /windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation
@@ -3013,6 +3013,8 @@
                   href: mf-readwrite-mmcss-priority.md
                 - name: MF_READWRITE_MMCSS_PRIORITY_AUDIO
                   href: mf-readwrite-mmcss-priority-audio.md
+                - name: MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES
+                  href: mf-sa-d3d11-allocate-displayable-resources.md
                 - name: MF_SA_BUFFERS_PER_SAMPLE
                   href: mf-sa-buffers-per-sample.md
                 - name: MF_SA_D3D_AWARE
@@ -5463,7 +5465,7 @@
             - name: имфдесиредсампле
               href: /windows/desktop/api/evr/nn-evr-imfdesiredsample
               items:
-                - name: Clear
+                - name: Очистить
                   href: /windows/desktop/api/evr/nf-evr-imfdesiredsample-clear
                 - name: жетдесиредсамплетимеанддуратион
                   href: /windows/desktop/api/evr/nf-evr-imfdesiredsample-getdesiredsampletimeandduration
@@ -6137,7 +6139,7 @@
               items:
                 - name: AddRange
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-addrange
-                - name: Clear
+                - name: Очистить
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-clear
                 - name: контаинстиме
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-containstime
@@ -7386,7 +7388,7 @@
               items:
                 - name: AddNode
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-addnode
-                - name: Clear
+                - name: Очистить
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-clear
                 - name: клонефром
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-clonefrom
