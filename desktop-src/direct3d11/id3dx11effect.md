@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 395946ea4276bc57595abdeb18e7d1755ca0ff1d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 51c9b945f09ad0424ecd6b546aefe68bea276ffc
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998597"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314457"
 ---
 # <a name="id3dx11effect-interface"></a>Интерфейс ID3DX11Effect
 
@@ -62,7 +62,7 @@ ms.locfileid: "104998597"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Результат создается путем вызова [**D3DX11CreateEffectFromMemory**](d3dx11createeffectfrommemory.md).
 
@@ -89,29 +89,18 @@ ms.locfileid: "104998597"
 >     pIUnknown->AddRef();</code></pre></td>
 > </tr>
 > </tbody>
-> </table>
+> </table>>
 >  
->
-> ## <a name="requirements"></a>Требования
->
-> 
->
+
+## <a name="requirements"></a>Требования
+
 | Требование | Значение |
-> |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------| | Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    | | Библиотечная<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
->
-> 
->
-> ## <a name="see-also"></a>См. также раздел
->
-> <dl> <dt>
+|-------------|-------------------------------------------------------------------------------------------|
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
+
+## <a name="see-also"></a>См. также
 
 [Effects 11, интерфейсы](d3d11-graphics-reference-effects11-interfaces.md)
-</dt> <dt>
 
 [Интерфейсы D3DX](d3d11-graphics-reference-d3dx11-interfaces.md)
-</dt> </dl>
->
->  
->
->  
->
