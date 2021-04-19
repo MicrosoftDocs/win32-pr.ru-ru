@@ -1,0 +1,4931 @@
+---
+Description: Константы КНОВНФОЛДЕРИД представляют идентификаторы GUID, которые определяют стандартные папки, зарегистрированные в системе как известные папки.
+ms.assetid: f2c08ade-3083-44e4-82b0-dde45f0e3094
+title: КНОВНФОЛДЕРИД (Кновнфолдерс. h)
+ms.topic: reference
+ms.custom: snippet-project
+ms.date: 07/27/2020
+ms.openlocfilehash: 97748d074d6b0982708f51ea679f0629e8abfad6
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104987434"
+---
+# <a name="knownfolderid"></a>кновнфолдерид
+
+Константы **кновнфолдерид** представляют идентификаторы GUID, которые определяют стандартные папки, зарегистрированные в системе как [известные папки](known-folders.md). Эти папки устанавливаются вместе с Windows Vista и более поздними операционными системами, и на компьютере будут находиться только папки, соответствующие установленной версии. Описания этих папок см. в разделе [**CSid**](csidl.md).
+
+## <a name="example"></a>Например, .
+
+```c
+HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *prf)
+{
+    IKnownFolderManager *pManager;
+    HRESULT hr = CoCreateInstance(CLSID_KnownFolderManager, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pManager));
+    if (SUCCEEDED(hr))
+    {
+        UINT cCount;
+        KNOWNFOLDERID *pkfid;
+
+        hr = pManager->GetFolderIds(&pkfid, &cCount);
+        if (SUCCEEDED(hr))
+        {
+            for (UINT i = 0; i < cCount; i++)
+            {
+                IKnownFolder *pKnownFolder;
+                hr = pManager->GetFolder(pkfid[i], &pKnownFolder);
+                if (SUCCEEDED(hr))
+                {
+                    IShellItem *psi;
+                    hr = pKnownFolder->GetShellItem(0, IID_PPV_ARGS(&psi));
+                    if (SUCCEEDED(hr))
+                    {
+                        hr = prf->AddItem(psi);
+                        psi->Release();
+                    }
+                    pKnownFolder->Release();
+                }
+            }
+            CoTaskMemFree(pkfid);
+        }
+        pManager->Release();
+    }
+    return hr;
+}
+
+```
+
+Пример из [классической выборки Windows](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winui/shell/appplatform/ExplorerBrowserCustomContents/ExplorerBrowserCustomContents.cpp) на сайте GitHub.
+
+## <a name="constants"></a>Константы
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Константа</th>
+<th style="text-align: left;">Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_AccountPictures"></span><span id="folderid_accountpictures"></span><span id="FOLDERID_ACCOUNTPICTURES"></span><dl> <dt><strong>FOLDERID_AccountPictures</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{008ca0b1-55b4-4c56-b8a8-4de4b299d3be}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Аватары</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдата%\микрософт\виндовс\аккаунтпиктурес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_AddNewPrograms"></span><span id="folderid_addnewprograms"></span><span id="FOLDERID_ADDNEWPROGRAMS"></span><dl> <dt><strong>FOLDERID_AddNewPrograms</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{de61d971-5ebc-4f02-a3a9-6c82895e5c04}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Получение программ</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Добавление новых программ (находящихся в элементе <strong>Установка и удаление программ</strong> на панели управления)</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_AdminTools"></span><span id="folderid_admintools"></span><span id="FOLDERID_ADMINTOOLS"></span><dl> <dt><strong>FOLDERID_AdminTools</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{724EF170-A42D-4FEF-9F26-B60E846FBA4F}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>«Администрирование»</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Средства%Аппдата%\микрософт\виндовс\старт</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_ADMINTOOLS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>«Администрирование»</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Средства%Усерпрофиле%\старт</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_AppDataDesktop"></span><span id="folderid_appdatadesktop"></span><span id="FOLDERID_APPDATADESKTOP"></span><dl> <dt><strong>FOLDERID_AppDataDesktop</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{B2C5E279-7ADD-439F-B28C-C41FE1BBF672}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>аппдатадесктоп</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\десктоп</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 10, версия 1709</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p>
+<p>Этот FOLDERID используется внутренне приложениями .NET для реализации функциональных возможностей приложений на разных платформах. Он не предназначен для использования непосредственно из приложения.</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_AppDataDocuments"></span><span id="folderid_appdatadocuments"></span><span id="FOLDERID_APPDATADOCUMENTS"></span><dl> <dt><strong>FOLDERID_AppDataDocuments</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{7BE16610-1F7F-44AC-BFF0-83E15F2FFCA1}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>аппдатадокументс</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\документс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 10, версия 1709</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p>
+<p>Этот FOLDERID используется внутренне приложениями .NET для реализации функциональных возможностей приложений на разных платформах. Он не предназначен для использования непосредственно из приложения.</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_AppDataFavorites"></span><span id="folderid_appdatafavorites"></span><span id="FOLDERID_APPDATAFAVORITES"></span><dl> <dt><strong>FOLDERID_AppDataFavorites</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{7CFBEFBC-DE1F-45AA-B843-A542AC536CC9}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>аппдатафаворитес</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\фаворитес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 10, версия 1709</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p>
+<p>Этот FOLDERID используется внутренне приложениями .NET для реализации функциональных возможностей приложений на разных платформах. Он не предназначен для использования непосредственно из приложения.</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_AppDataProgramData"></span><span id="folderid_appdataprogramdata"></span><span id="FOLDERID_APPDATAPROGRAMDATA"></span><dl> <dt><strong>FOLDERID_AppDataProgramData</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{559D40A3-A036-40FA-AF61-84CB430A4D34}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>аппдатапрограмдата</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\програмдата</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 10, версия 1709</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p>
+<p>Этот FOLDERID используется внутренне приложениями .NET для реализации функциональных возможностей приложений на разных платформах. Он не предназначен для использования непосредственно из приложения.</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_ApplicationShortcuts"></span><span id="folderid_applicationshortcuts"></span><span id="FOLDERID_APPLICATIONSHORTCUTS"></span><dl> <dt><strong>FOLDERID_ApplicationShortcuts</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{A3918781-E5F2-4890-B3D9-A7E54332328C}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Ярлыки приложений</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Сочетания клавиш%Локалаппдата%\микрософт\виндовс\аппликатион</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_AppsFolder"></span><span id="folderid_appsfolder"></span><span id="FOLDERID_APPSFOLDER"></span><dl> <dt><strong>FOLDERID_AppsFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{1e87508d-89c2-42f0-8a7e-645a0f50ca58}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Приложения</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_AppUpdates"></span><span id="folderid_appupdates"></span><span id="FOLDERID_APPUPDATES"></span><dl> <dt><strong>FOLDERID_AppUpdates</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{a305ce99-f527-492b-8b1a-7e76fa98d6e4}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Установленные обновления</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Нет, значение, введенное в Windows Vista. В более ранних версиях Windows сведения на этой странице были включены в компонент " <strong>Установка и удаление программ</strong> ", если флажок " <strong>Показывать обновления</strong> " установлен.</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_CameraRoll"></span><span id="folderid_cameraroll"></span><span id="FOLDERID_CAMERAROLL"></span><dl> <dt><strong>FOLDERID_CameraRoll</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{AB5FB87B-7CE2-4F83-915D-550846C9537B}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Пленка</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Усерпрофиле%\пиктурес\камера</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8.1</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_CDBurning"></span><span id="folderid_cdburning"></span><span id="FOLDERID_CDBURNING"></span><dl> <dt><strong>FOLDERID_CDBurning</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{9E52AB10-F80D-49DF-ACB8-4330F5687855}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Временная папка для записи</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\микрософт\виндовс\бурн\бурн</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_CDBURN_AREA</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Запись компакт-диска</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Усерпрофиле%\локал Settings\Application Дата\микрософт\кд запись</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_ChangeRemovePrograms"></span><span id="folderid_changeremoveprograms"></span><span id="FOLDERID_CHANGEREMOVEPROGRAMS"></span><dl> <dt><strong>FOLDERID_ChangeRemovePrograms</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{df7266ac-9274-4867-8d55-3bd661de872d}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>"Программы и компоненты",</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Установка и удаление программ</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_CommonAdminTools"></span><span id="folderid_commonadmintools"></span><span id="FOLDERID_COMMONADMINTOOLS"></span><dl> <dt><strong>FOLDERID_CommonAdminTools</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{D0384E7D-BAC3-4797-8F14-CBA229B392B5}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>«Администрирование»</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Средства%Аллусерспрофиле%\микрософт\виндовс\старт</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_ADMINTOOLS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>«Администрирование»</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Средства%Аллусерспрофиле%\старт</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_CommonOEMLinks"></span><span id="folderid_commonoemlinks"></span><span id="FOLDERID_COMMONOEMLINKS"></span><dl> <dt><strong>FOLDERID_CommonOEMLinks</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{C1BAE2D0-10DF-4334-7AA20B227A9D}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Ссылки OEM</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Ссылки%АЛЛУСЕРСПРОФИЛЕ%\ОЕМ</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_OEM_LINKS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Ссылки OEM</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Ссылки%АЛЛУСЕРСПРОФИЛЕ%\ОЕМ</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_CommonPrograms"></span><span id="folderid_commonprograms"></span><span id="FOLDERID_COMMONPROGRAMS"></span><dl> <dt><strong>FOLDERID_CommonPrograms</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Programs</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Аллусерспрофиле%\микрософт\виндовс\старт Мену\програмс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_PROGRAMS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Programs</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Аллусерспрофиле%\старт Мену\програмс</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_CommonStartMenu"></span><span id="folderid_commonstartmenu"></span><span id="FOLDERID_COMMONSTARTMENU"></span><dl> <dt><strong>FOLDERID_CommonStartMenu</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{A4115719-D62E-491D-AA7C-E74B8BE3B067}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Меню "Пуск"</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Меню%Аллусерспрофиле%\микрософт\виндовс\старт</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_STARTMENU</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Меню "Пуск"</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Меню%Аллусерспрофиле%\старт</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_CommonStartup"></span><span id="folderid_commonstartup"></span><span id="FOLDERID_COMMONSTARTUP"></span><dl> <dt><strong>FOLDERID_CommonStartup</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{82A5EA35-D9CD-47C5-9629-E15D2F714E6E}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Запуск</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Аллусерспрофиле%\микрософт\виндовс\старт Мену\програмс\стартуп</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_STARTUP, CSIDL_COMMON_ALTSTARTUP</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Запуск</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Аллусерспрофиле%\старт Мену\програмс\стартуп</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_CommonTemplates"></span><span id="folderid_commontemplates"></span><span id="FOLDERID_COMMONTEMPLATES"></span><dl> <dt><strong>FOLDERID_CommonTemplates</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{B94237E7-57AC-4347-9151-B08C6C32D1F7}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Шаблоны</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аллусерспрофиле%\микрософт\виндовс\темплатес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_TEMPLATES</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Шаблоны</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%аллусерспрофиле%\темплатес</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_ComputerFolder"></span><span id="folderid_computerfolder"></span><span id="FOLDERID_COMPUTERFOLDER"></span><dl> <dt><strong>FOLDERID_ComputerFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{0AC0837C-BBF8-452A-850D-79D08E667CA7}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Компьютер</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_DRIVES</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Мой компьютер</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_ConflictFolder"></span><span id="folderid_conflictfolder"></span><span id="FOLDERID_CONFLICTFOLDER"></span><dl> <dt><strong>FOLDERID_ConflictFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{4bfefb45-347d-4006-a5be-ac0cb0567192}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Конфликты</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Не применяется Этот <strong>кновнфолдерид</strong> относится к диспетчеру синхронизации Windows Vista. Это не папка, на которую ссылается более старая <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>исинкмгрконфликтфолдер</strong></a>.</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_ConnectionsFolder"></span><span id="folderid_connectionsfolder"></span><span id="FOLDERID_CONNECTIONSFOLDER"></span><dl> <dt><strong>FOLDERID_ConnectionsFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{6F0CD92B-2E97-45D1-88FF-B0D186B8DEDD}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Сетевые подключения</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_CONNECTIONS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Сетевые подключения</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_Contacts"></span><span id="folderid_contacts"></span><span id="FOLDERID_CONTACTS"></span><dl> <dt><strong>FOLDERID_Contacts</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{56784854-C6CB-462b-8169-88E350ACB882}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Контакты</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\контактс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_ControlPanelFolder"></span><span id="folderid_controlpanelfolder"></span><span id="FOLDERID_CONTROLPANELFOLDER"></span><dl> <dt><strong>FOLDERID_ControlPanelFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{82A74AEB-AEB4-465C-A014-D097EE346D63}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Панель управления</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_CONTROLS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Панель управления</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_Cookies"></span><span id="folderid_cookies"></span><span id="FOLDERID_COOKIES"></span><dl> <dt><strong>FOLDERID_Cookies</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{2B0F765D-C0E9-4171-908E-08A611B84FF6}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Файлы cookie</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдата%\микрософт\виндовс\кукиес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COOKIES</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Файлы cookie</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%усерпрофиле%\кукиес</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Desktop"></span><span id="folderid_desktop"></span><span id="FOLDERID_DESKTOP"></span><dl> <dt><strong>FOLDERID_Desktop</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Персональный компьютер</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\десктоп</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_DESKTOP, CSIDL_DESKTOPDIRECTORY</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Персональный компьютер</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%усерпрофиле%\десктоп</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_DeviceMetadataStore"></span><span id="folderid_devicemetadatastore"></span><span id="FOLDERID_DEVICEMETADATASTORE"></span><dl> <dt><strong>FOLDERID_DeviceMetadataStore</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{5CE4A5E9-E4EB-479D-B89F-130C02886155}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>девицеметадатасторе</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аллусерспрофиле%\микрософт\виндовс\девицеметадатасторе</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Documents"></span><span id="folderid_documents"></span><span id="FOLDERID_DOCUMENTS"></span><dl> <dt><strong>FOLDERID_Documents</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{FDD39AD0-238F-46AF-ADB4-6C85480369C7}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Документы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\документс</td>
+</tr>
+<tr class="odd">
+<td>Эквиваленты CSID</td>
+<td>CSIDL_MYDOCUMENTS, CSIDL_PERSONAL</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Мои документы</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Документы%USERPROFILE%\My</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_DocumentsLibrary"></span><span id="folderid_documentslibrary"></span><span id="FOLDERID_DOCUMENTSLIBRARY"></span><dl> <dt><strong>FOLDERID_DocumentsLibrary</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{7B0DB17D-9CD2-4A93-9733-46CC89022E7C}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Документы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдата%\микрософт\виндовс\либрариес\документс.либрари-мс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Downloads"></span><span id="folderid_downloads"></span><span id="FOLDERID_DOWNLOADS"></span><dl> <dt><strong>FOLDERID_Downloads</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{374DE290-123F-4565-9164-39C4925E467B}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Скачиваемые файлы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\довнлоадс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_Favorites"></span><span id="folderid_favorites"></span><span id="FOLDERID_FAVORITES"></span><dl> <dt><strong>FOLDERID_Favorites</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{1777F761-68AD-4D8A-87BD-30B759FA33DD}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Избранное</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\фаворитес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_FAVORITES, CSIDL_COMMON_FAVORITES</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Избранное</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%усерпрофиле%\фаворитес</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Fonts"></span><span id="folderid_fonts"></span><span id="FOLDERID_FONTS"></span><dl> <dt><strong>FOLDERID_Fonts</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{FD228CB7-AE11-4AE3-864C-16F3910AB8FE}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Шрифты</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%виндир%\фонтс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_FONTS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Шрифты</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%виндир%\фонтс</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_Games"></span><span id="folderid_games"></span><span id="FOLDERID_GAMES"></span><dl> <dt><strong>FOLDERID_Games</strong></dt> </dl></td>
+<td style="text-align: left;"><div class="alert">
+<blockquote>
+[!Note]<br />
+Этот FOLDERID является устаревшим в Windows 10, версии 1803 и более поздних версиях. В этих версиях возвращается <strong>0x80070057-E_INVALIDARG</strong>
+</blockquote>
+</div>
+<div>
+ 
+</div>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{CAC52C1A-B53D-4edc-92D7-6B2E8AC19434}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Игры</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_GameTasks"></span><span id="folderid_gametasks"></span><span id="FOLDERID_GAMETASKS"></span><dl> <dt><strong>FOLDERID_GameTasks</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{054FAE61-4DD8-4787-80B6-090220C4B700}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>GameExplorer</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\микрософт\виндовс\гамиксплорер</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_History"></span><span id="folderid_history"></span><span id="FOLDERID_HISTORY"></span><dl> <dt><strong>FOLDERID_History</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{D9DC8A3B-B784-432E-A781-5A1130A75963}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Журнал</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\микрософт\виндовс\хистори</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_HISTORY</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Журнал</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Усерпрофиле%\локал Сеттингс\хистори</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_HomeGroup"></span><span id="folderid_homegroup"></span><span id="FOLDERID_HOMEGROUP"></span><dl> <dt><strong>FOLDERID_HomeGroup</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{52528A6B-B9E3-4ADD-B60D-588C2DBA842D}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Домашняя группа</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_HomeGroupCurrentUser"></span><span id="folderid_homegroupcurrentuser"></span><span id="FOLDERID_HOMEGROUPCURRENTUSER"></span><dl> <dt><strong>FOLDERID_HomeGroupCurrentUser</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{9B74B6A3-0DFD-4f11-9E78-5F7800F2E772}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Имя пользователя (% USERNAME%)</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_ImplicitAppShortcuts"></span><span id="folderid_implicitappshortcuts"></span><span id="FOLDERID_IMPLICITAPPSHORTCUTS"></span><dl> <dt><strong>FOLDERID_ImplicitAppShortcuts</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{BCB5256F-79F6-4CEE-B725-DC34E402FD46}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>имплиЦитаппшорткутс</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Аппдата%\микрософт\интернет Експлорер\куикк Лаунч\усер Пиннед\имплиЦитаппшорткутс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_InternetCache"></span><span id="folderid_internetcache"></span><span id="FOLDERID_INTERNETCACHE"></span><dl> <dt><strong>FOLDERID_InternetCache</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{352481E8-33BE-4251-BA85-6007CAEDCF9D}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>"Временные файлы Интернета".</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Локалаппдата%\микрософт\виндовс\темпорари файлы Интернета</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_INTERNET_CACHE</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>"Временные файлы Интернета".</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Усерпрофиле%\локал Сеттингс\темпорари файлы Интернета</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_InternetFolder"></span><span id="folderid_internetfolder"></span><span id="FOLDERID_INTERNETFOLDER"></span><dl> <dt><strong>FOLDERID_InternetFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{4D9F7874-4E0C-4904-967B-40B0D20C3E4B}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>сеть Интернет;</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_INTERNET</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Internet Explorer</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_Libraries"></span><span id="folderid_libraries"></span><span id="FOLDERID_LIBRARIES"></span><dl> <dt><strong>FOLDERID_Libraries</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{1B3EA5DC-B587-4786-B4EF-BD1DC332AEAE}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Библиотеки</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдата%\микрософт\виндовс\либрариес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Links"></span><span id="folderid_links"></span><span id="FOLDERID_LINKS"></span><dl> <dt><strong>FOLDERID_Links</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{bfb9d5e0-c6a9-404c-b2b2-ae6db6af4968}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Ссылки</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\линкс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_LocalAppData"></span><span id="folderid_localappdata"></span><span id="FOLDERID_LOCALAPPDATA"></span><dl> <dt><strong>FOLDERID_LocalAppData</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{F1B32785-6FBA-4FCF-9D55-7B8E7F157091}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Локальная</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>% LOCALAPPDATA% (%Усерпрофиле%\аппдата\локал)</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_LOCAL_APPDATA</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Данные приложений</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Усерпрофиле%\локал Settings\Application данные</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_LocalAppDataLow"></span><span id="folderid_localappdatalow"></span><span id="FOLDERID_LOCALAPPDATALOW"></span><dl> <dt><strong>FOLDERID_LocalAppDataLow</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{A520A1A4-1780-4FF6-BD18-167343C5AF16}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>локаллов</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\аппдата\локаллов</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_LocalizedResourcesDir"></span><span id="folderid_localizedresourcesdir"></span><span id="FOLDERID_LOCALIZEDRESOURCESDIR"></span><dl> <dt><strong>FOLDERID_LocalizedResourcesDir</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{2A00375E-224C-49DE-B8D1-440DF7EF3DDC}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Нет</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%WINDIR%\resources\0409 (кодовая страница)</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_RESOURCES_LOCALIZED</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Нет</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%WINDIR%\resources\0409 (кодовая страница)</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Music"></span><span id="folderid_music"></span><span id="FOLDERID_MUSIC"></span><dl> <dt><strong>FOLDERID_Music</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{4BD8D571-6D19-48D3-BE97-422220080E43}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Музыка</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\мусик</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_MYMUSIC</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Моя музыка</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%USERPROFILE%\My документы \ Моя музыка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_MusicLibrary"></span><span id="folderid_musiclibrary"></span><span id="FOLDERID_MUSICLIBRARY"></span><dl> <dt><strong>FOLDERID_MusicLibrary</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{2112AB0A-C86A-4FFE-A368-0DE96E47012E}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Музыка</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдата%\микрософт\виндовс\либрариес\мусик.либрари-мс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_NetHood"></span><span id="folderid_nethood"></span><span id="FOLDERID_NETHOOD"></span><dl> <dt><strong>FOLDERID_NetHood</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{C5ABBF53-E17F-4121-8900-86626FC2C973}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Ярлыки сети</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Сочетания клавиш%Аппдата%\микрософт\виндовс\нетворк</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_NETHOOD</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>несуд</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%усерпрофиле%\несуд</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_NetworkFolder"></span><span id="folderid_networkfolder"></span><span id="FOLDERID_NETWORKFOLDER"></span><dl> <dt><strong>FOLDERID_NetworkFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{D20BEEC4-5CA8-4905-AE3B-BF251EA09B53}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Сеть</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_NETWORK, CSIDL_COMPUTERSNEARME</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Мое сетевое окружение</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Objects3D"></span><span id="folderid_objects3d"></span><span id="FOLDERID_OBJECTS3D"></span><dl> <dt><strong>FOLDERID_Objects3D</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{31C0DD25-9439-4F12-BF41-7FF4EDA38722}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Трехмерные объекты</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Объекты%USERPROFILE%\3D</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 10, версия 1703</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_OriginalImages"></span><span id="folderid_originalimages"></span><span id="FOLDERID_ORIGINALIMAGES"></span><dl> <dt><strong>FOLDERID_OriginalImages</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{2C36C0AA-5812-4b87-BFD0-4CD0DFB19B39}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Исходные образы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Изображения%Локалаппдата%\микрософт\виндовс Photo Галлери\оригинал</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_PhotoAlbums"></span><span id="folderid_photoalbums"></span><span id="FOLDERID_PHOTOALBUMS"></span><dl> <dt><strong>FOLDERID_PhotoAlbums</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{69D2CF90-FC33-4FB7-9A0C-EBB0F0FCB43C}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Слайдовые шоу</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Усерпрофиле%\пиктурес\слиде показывает</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_PicturesLibrary"></span><span id="folderid_pictureslibrary"></span><span id="FOLDERID_PICTURESLIBRARY"></span><dl> <dt><strong>FOLDERID_PicturesLibrary</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{A990AE9F-A03B-4E80-94BC-9912D7504104}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Изображения</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдата%\микрософт\виндовс\либрариес\пиктурес.либрари-мс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Pictures"></span><span id="folderid_pictures"></span><span id="FOLDERID_PICTURES"></span><dl> <dt><strong>FOLDERID_Pictures</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{33E28130-4E1E-4676-835A-98395C3BC3BB}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Изображения</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\пиктурес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_MYPICTURES</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Мои рисунки</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%USERPROFILE%\My документы \ мои рисунки</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_Playlists"></span><span id="folderid_playlists"></span><span id="FOLDERID_PLAYLISTS"></span><dl> <dt><strong>FOLDERID_Playlists</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{DE92C1C7-837F-4F69-A3BB-86E631204A23}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Списки воспроизведения</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\мусик\плайлистс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_PrintersFolder"></span><span id="folderid_printersfolder"></span><span id="FOLDERID_PRINTERSFOLDER"></span><dl> <dt><strong>FOLDERID_PrintersFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{76FC4E2D-D6AD-4519-A663-37BD56068185}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>принтеры;</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_PRINTERS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Принтеры и факсы</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_PrintHood"></span><span id="folderid_printhood"></span><span id="FOLDERID_PRINTHOOD"></span><dl> <dt><strong>FOLDERID_PrintHood</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{9274BD8D-CFD1-41C3-B35E-B13F55A758F4}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Ярлыки принтеров</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Сочетания клавиш%Аппдата%\микрософт\виндовс\принтер</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_PRINTHOOD</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>принсуд</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%усерпрофиле%\принсуд</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Profile"></span><span id="folderid_profile"></span><span id="FOLDERID_PROFILE"></span><dl> <dt><strong>FOLDERID_Profile</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{5E6C858F-0E22-4760-9AFE-EA3317B67173}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Имя пользователя (% USERNAME%)</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>% USERPROFILE% (%Системдриве%\усерс \% имя пользователя%)</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_PROFILE</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Имя пользователя (% USERNAME%)</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>% USERPROFILE% (%Системдриве%\документс и параметры \% username%)</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_ProgramData"></span><span id="folderid_programdata"></span><span id="FOLDERID_PROGRAMDATA"></span><dl> <dt><strong>FOLDERID_ProgramData</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{62AB5D82-FDC1-4DC3-A9DD-070D1D495D97}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>ProgramData</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>% ALLUSERSPROFILE% (% папка ProgramData%,%Системдриве%\програмдата)</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_APPDATA</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Данные приложений</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Данные%Аллусерспрофиле%\аппликатион</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_ProgramFiles"></span><span id="folderid_programfiles"></span><span id="FOLDERID_PROGRAMFILES"></span><dl> <dt><strong>FOLDERID_ProgramFiles</strong></dt> </dl></td>
+<td style="text-align: left;"><p>Дополнительные сведения см. в разделе "Примечания".</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{905e63b6-c1bf-494e-b29c-65b732d3d21a}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Program Files</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>% ProgramFiles% (файлов%SystemDrive%\Program)</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_PROGRAM_FILES</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Program Files</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>% ProgramFiles% (файлов%SystemDrive%\Program)</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_ProgramFilesX64"></span><span id="folderid_programfilesx64"></span><span id="FOLDERID_PROGRAMFILESX64"></span><dl> <dt><strong>FOLDERID_ProgramFilesX64</strong></dt> </dl></td>
+<td style="text-align: left;"><p>Это значение не поддерживается в 32-разрядных операционных системах. Он также не поддерживается для 32-разрядных приложений, работающих в 64-разрядных операционных системах. Попытка использовать FOLDERID_ProgramFilesX64 в любой ситуации приведет к ошибке. Дополнительные сведения см. в разделе "Примечания".</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{6D809377-6AF0-444b-8957-A3773F02200E}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Program Files</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>% ProgramFiles% (файлов%SystemDrive%\Program)</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Program Files</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>% ProgramFiles% (файлов%SystemDrive%\Program)</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_ProgramFilesX86"></span><span id="folderid_programfilesx86"></span><span id="FOLDERID_PROGRAMFILESX86"></span><dl> <dt><strong>FOLDERID_ProgramFilesX86</strong></dt> </dl></td>
+<td style="text-align: left;"><p>Дополнительные сведения см. в разделе "Примечания".</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Program Files</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>% ProgramFiles% (файлов%SystemDrive%\Program)</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_PROGRAM_FILESX86</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Program Files</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>% ProgramFiles% (файлов%SystemDrive%\Program)</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_ProgramFilesCommon"></span><span id="folderid_programfilescommon"></span><span id="FOLDERID_PROGRAMFILESCOMMON"></span><dl> <dt><strong>FOLDERID_ProgramFilesCommon</strong></dt> </dl></td>
+<td style="text-align: left;"><p>Дополнительные сведения см. в разделе "Примечания".</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{F7F1ED05-9F6D-47A2-AAAE-29D317C6F066}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Общие файлы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Файлы%ProgramFiles%\Common</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_PROGRAM_FILES_COMMON</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Общие файлы</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Файлы%ProgramFiles%\Common</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_ProgramFilesCommonX64"></span><span id="folderid_programfilescommonx64"></span><span id="FOLDERID_PROGRAMFILESCOMMONX64"></span><dl> <dt><strong>FOLDERID_ProgramFilesCommonX64</strong></dt> </dl></td>
+<td style="text-align: left;"><p>Дополнительные сведения см. в разделе "Примечания".</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{6365D5A7-0F0D-45E5-87F6-0DA56B6A4F7D}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Общие файлы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Файлы%ProgramFiles%\Common</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Общие файлы</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Файлы%ProgramFiles%\Common</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_ProgramFilesCommonX86"></span><span id="folderid_programfilescommonx86"></span><span id="FOLDERID_PROGRAMFILESCOMMONX86"></span><dl> <dt><strong>FOLDERID_ProgramFilesCommonX86</strong></dt> </dl></td>
+<td style="text-align: left;"><p>Дополнительные сведения см. в разделе "Примечания".</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{DE974D24-D9C6-4D3E-BF91-F4455120B917}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Общие файлы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Файлы%ProgramFiles%\Common</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_PROGRAM_FILES_COMMONX86</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Общие файлы</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Файлы%ProgramFiles%\Common</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Programs"></span><span id="folderid_programs"></span><span id="FOLDERID_PROGRAMS"></span><dl> <dt><strong>FOLDERID_Programs</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Programs</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Аппдата%\микрософт\виндовс\старт Мену\програмс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_PROGRAMS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Programs</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Усерпрофиле%\старт Мену\програмс</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_Public"></span><span id="folderid_public"></span><span id="FOLDERID_PUBLIC"></span><dl> <dt><strong>FOLDERID_Public</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{DFDF76A2-C82A-4D63-906A-5644AC457385}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Общие</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>% ОБЩЕГО% (%Системдриве%\усерс\публик)</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, новое для Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_PublicDesktop"></span><span id="folderid_publicdesktop"></span><span id="FOLDERID_PUBLICDESKTOP"></span><dl> <dt><strong>FOLDERID_PublicDesktop</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{C4AA340D-F20F-4863-АФЕФ-F87EF2E6BA25}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Общедоступный Рабочий стол</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%публик%\десктоп</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_DESKTOPDIRECTORY</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Персональный компьютер</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%аллусерспрофиле%\десктоп</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_PublicDocuments"></span><span id="folderid_publicdocuments"></span><span id="FOLDERID_PUBLICDOCUMENTS"></span><dl> <dt><strong>FOLDERID_PublicDocuments</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{ED4824AF-DCE4-45A8-81E2-FC7965083634}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Общие документы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%публик%\документс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_DOCUMENTS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Общие документы</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%аллусерспрофиле%\документс</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_PublicDownloads"></span><span id="folderid_publicdownloads"></span><span id="FOLDERID_PUBLICDOWNLOADS"></span><dl> <dt><strong>FOLDERID_PublicDownloads</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{3D644C9B-1FB8-4f30-9B45-F670235F79C0}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Общие загрузки</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%публик%\довнлоадс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_PublicGameTasks"></span><span id="folderid_publicgametasks"></span><span id="FOLDERID_PUBLICGAMETASKS"></span><dl> <dt><strong>FOLDERID_PublicGameTasks</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{DEBF2536-E1A8-4c59-B6A2-414586476AEA}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>GameExplorer</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аллусерспрофиле%\микрософт\виндовс\гамиксплорер</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_PublicLibraries"></span><span id="folderid_publiclibraries"></span><span id="FOLDERID_PUBLICLIBRARIES"></span><dl> <dt><strong>FOLDERID_PublicLibraries</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{48DAF80B-E6CF-4F4E-B800-0E69D84EE384}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Библиотеки</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аллусерспрофиле%\микрософт\виндовс\либрариес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_PublicMusic"></span><span id="folderid_publicmusic"></span><span id="FOLDERID_PUBLICMUSIC"></span><dl> <dt><strong>FOLDERID_PublicMusic</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{3214FAB5-9757-4298-BB61-92A9DEAA44FF}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Общая музыка</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%публик%\мусик</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_MUSIC</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Общая музыка</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Аллусерспрофиле%\документс\ми музыка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_PublicPictures"></span><span id="folderid_publicpictures"></span><span id="FOLDERID_PUBLICPICTURES"></span><dl> <dt><strong>FOLDERID_PublicPictures</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{B6EBFB86-6907-413C-9AF7-4FC2ABF07CC5}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Общедоступные рисунки</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%публик%\пиктурес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_PICTURES</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Общие рисунки</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Аллусерспрофиле%\документс\ми изображения</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_PublicRingtones"></span><span id="folderid_publicringtones"></span><span id="FOLDERID_PUBLICRINGTONES"></span><dl> <dt><strong>FOLDERID_PublicRingtones</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{E555AB60-153B-4D17-9F04-A5FE99FC15EC}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Мелодии звонка</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аллусерспрофиле%\микрософт\виндовс\рингтонес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_PublicUserTiles"></span><span id="folderid_publicusertiles"></span><span id="FOLDERID_PUBLICUSERTILES"></span><dl> <dt><strong>FOLDERID_PublicUserTiles</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{0482af6c-08f1-4c34-8c90-e17ec98b1e17}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Изображения общедоступной учетной записи</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%публик%\аккаунтпиктурес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_PublicVideos"></span><span id="folderid_publicvideos"></span><span id="FOLDERID_PUBLICVIDEOS"></span><dl> <dt><strong>FOLDERID_PublicVideos</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{2400183A-6185-49FB-A2D8-4A392A602BA3}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Общие видео</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%публик%\видеос</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_COMMON_VIDEO</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Общее видео</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Видео%Аллусерспрофиле%\документс\ми</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_QuickLaunch"></span><span id="folderid_quicklaunch"></span><span id="FOLDERID_QUICKLAUNCH"></span><dl> <dt><strong>FOLDERID_QuickLaunch</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{52a4f021-7b75-48a9-9f6b-4b87a210bc8f}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Быстрый запуск</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Запуск Експлорер\куикк%Аппдата%\микрософт\интернет</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Быстрый запуск</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Запуск Експлорер\куикк%Аппдата%\микрософт\интернет</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_Recent"></span><span id="folderid_recent"></span><span id="FOLDERID_RECENT"></span><dl> <dt><strong>FOLDERID_Recent</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{AE50C081-EBD2-438A-8655-8A092E34987A}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Недавние элементы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдата%\микрософт\виндовс\рецент</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_RECENT</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Мои недавние документы</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%усерпрофиле%\рецент</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_RecordedTV"></span><span id="folderid_recordedtv"></span><span id="FOLDERID_RECORDEDTV"></span><dl> <dt><strong>FOLDERID_RecordedTV</strong></dt> </dl></td>
+<td style="text-align: left;"><p>Не используется. Это значение не определено в Windows 7.</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_RecordedTVLibrary"></span><span id="folderid_recordedtvlibrary"></span><span id="FOLDERID_RECORDEDTVLIBRARY"></span><dl> <dt><strong>FOLDERID_RecordedTVLibrary</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{1A6FDBA2-F42D-4358-A798-B74D745926C5}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>ТВ-записи</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%публик%\рекордедтв.либрари-мс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_RecycleBinFolder"></span><span id="folderid_recyclebinfolder"></span><span id="FOLDERID_RECYCLEBINFOLDER"></span><dl> <dt><strong>FOLDERID_RecycleBinFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{B7534046-3ECB-4C18-BE4E-64CD4CB7D6AC}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Корзина</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_BITBUCKET</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Корзина</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_ResourceDir"></span><span id="folderid_resourcedir"></span><span id="FOLDERID_RESOURCEDIR"></span><dl> <dt><strong>FOLDERID_ResourceDir</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{8AD10C31-2ADB-4296-A8F7-E4701232C972}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Ресурсы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%виндир%\ресаурцес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_RESOURCES</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Ресурсы</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%виндир%\ресаурцес</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Ringtones"></span><span id="folderid_ringtones"></span><span id="FOLDERID_RINGTONES"></span><dl> <dt><strong>FOLDERID_Ringtones</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{C870044B-F49E-4126-A9C3-B52A1FF411E8}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Мелодии звонка</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\микрософт\виндовс\рингтонес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_RoamingAppData"></span><span id="folderid_roamingappdata"></span><span id="FOLDERID_ROAMINGAPPDATA"></span><dl> <dt><strong>FOLDERID_RoamingAppData</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{3EB685DB-65F9-4CF6-A03A-E3EF65729F3D}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Роуминг</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>% APPDATA% (%Усерпрофиле%\аппдата\роаминг)</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_APPDATA</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Данные приложений</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>% APPDATA% (данные%USERPROFILE%\Application)</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_RoamedTileImages"></span><span id="folderid_roamedtileimages"></span><span id="FOLDERID_ROAMEDTILEIMAGES"></span><dl> <dt><strong>FOLDERID_RoamedTileImages</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{AAA8D5A5-F1D6-4259-BAA8-78E7EF60835E}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>роамедтилеимажес</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\микрософт\виндовс\роамедтилеимажес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_RoamingTiles"></span><span id="folderid_roamingtiles"></span><span id="FOLDERID_ROAMINGTILES"></span><dl> <dt><strong>FOLDERID_RoamingTiles</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{00BCFC5A-ED94-4e48-96A1-3F6217F21990}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>роамингтилес</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\микрософт\виндовс\роамингтилес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SampleMusic"></span><span id="folderid_samplemusic"></span><span id="FOLDERID_SAMPLEMUSIC"></span><dl> <dt><strong>FOLDERID_SampleMusic</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{B250C668-F57D-4EE1-A63C-290EE7D1AA1F}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Пример музыки</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Публик%\мусик\сампле музыка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Пример музыки</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Аллусерспрофиле%\документс\ми Мусик\сампле музыка</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SamplePictures"></span><span id="folderid_samplepictures"></span><span id="FOLDERID_SAMPLEPICTURES"></span><dl> <dt><strong>FOLDERID_SamplePictures</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{C4900540-2379-4C75-844B-64E6FAF8716B}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Образцы изображений</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Публик%\пиктурес\сампле изображения</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Образцы изображений</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Аллусерспрофиле%\документс\ми рисунки \ образцы изображения</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SamplePlaylists"></span><span id="folderid_sampleplaylists"></span><span id="FOLDERID_SAMPLEPLAYLISTS"></span><dl> <dt><strong>FOLDERID_SamplePlaylists</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{15CA69B3-30EE-49C1-ACE1-6B5EC372AFB5}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Образцы списков воспроизведения</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Списки воспроизведения%публик%\мусик\сампле</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SampleVideos"></span><span id="folderid_samplevideos"></span><span id="FOLDERID_SAMPLEVIDEOS"></span><dl> <dt><strong>FOLDERID_SampleVideos</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{859EAD94-2E85-48AD-A71A-0969CB56A6CD}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Примеры видеороликов</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Видео%публик%\видеос\сампле</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SavedGames"></span><span id="folderid_savedgames"></span><span id="FOLDERID_SAVEDGAMES"></span><dl> <dt><strong>FOLDERID_SavedGames</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{4C5C32FF-BB9D-43b0-B5B4-2D72E54EAAA4}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Сохраненные игры</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Усерпрофиле%\савед игры</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SavedPictures"></span><span id="folderid_savedpictures"></span><span id="FOLDERID_SAVEDPICTURES"></span><dl> <dt><strong>FOLDERID_SavedPictures</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{3B193882-D3AD-4eab-965A-69829D1FB59F}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Сохраненные изображения</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Усерпрофиле%\пиктурес\савед изображения</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SavedPicturesLibrary"></span><span id="folderid_savedpictureslibrary"></span><span id="FOLDERID_SAVEDPICTURESLIBRARY"></span><dl> <dt><strong>FOLDERID_SavedPicturesLibrary</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{E25B5812-BE88-4bd9-94B0-29233477B6C3}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Библиотека сохраненных изображений</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдате%\микрософт\виндовс\либрариес\саведпиктурес.либрари-мс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SavedSearches"></span><span id="folderid_savedsearches"></span><span id="FOLDERID_SAVEDSEARCHES"></span><dl> <dt><strong>FOLDERID_SavedSearches</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{7d1d3a04-debb-4115-95cf-2f29da2920da}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Поиск</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\сеарчес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Screenshots"></span><span id="folderid_screenshots"></span><span id="FOLDERID_SCREENSHOTS"></span><dl> <dt><strong>FOLDERID_Screenshots</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{b7bede81-df94-4682-a7d8-57a52620b86f}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Снимки экрана</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\пиктурес\скриншотс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SEARCH_CSC"></span><span id="folderid_search_csc"></span><dl> <dt><strong>FOLDERID_SEARCH_CSC</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{ee32e446-31ca-4aba-814f-a5ebd2fd6d5e}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Автономные файлы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SearchHistory"></span><span id="folderid_searchhistory"></span><span id="FOLDERID_SEARCHHISTORY"></span><dl> <dt><strong>FOLDERID_SearchHistory</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{0D4C3DB6-03A3-462F-A0E6-08924C41B5D4}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Журнал</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\микрософт\виндовс\коннектедсеарч\хистори</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8.1</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SearchHome"></span><span id="folderid_searchhome"></span><span id="FOLDERID_SEARCHHOME"></span><dl> <dt><strong>FOLDERID_SearchHome</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{190337d1-b8ca-4121-a639-6d472d16972a}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Результаты поиска</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SEARCH_MAPI"></span><span id="folderid_search_mapi"></span><dl> <dt><strong>FOLDERID_SEARCH_MAPI</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{98ec0e18-2098-4d44-8644-66979315a281}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Microsoft Office Outlook</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SearchTemplates"></span><span id="folderid_searchtemplates"></span><span id="FOLDERID_SEARCHTEMPLATES"></span><dl> <dt><strong>FOLDERID_SearchTemplates</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{7E636BFE-DFA9-4D5E-B456-D7B39851D8A9}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Шаблоны</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\микрософт\виндовс\коннектедсеарч\темплатес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8.1</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SendTo"></span><span id="folderid_sendto"></span><span id="FOLDERID_SENDTO"></span><dl> <dt><strong>FOLDERID_SendTo</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{8983036C-27C0-404B-8F08-102D10DCFD74}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Cервера</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдата%\микрософт\виндовс\сендто</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_SENDTO</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Cервера</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%усерпрофиле%\сендто</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SidebarDefaultParts"></span><span id="folderid_sidebardefaultparts"></span><span id="FOLDERID_SIDEBARDEFAULTPARTS"></span><dl> <dt><strong>FOLDERID_SidebarDefaultParts</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{7B396E54-9EC5-4300-BE0A-2482EBAE1A26}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Приложения</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>РАЗДЕЛЯЕМ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Програмфилес%\виндовс Сидебар\гаджетс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, новое для Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SidebarParts"></span><span id="folderid_sidebarparts"></span><span id="FOLDERID_SIDEBARPARTS"></span><dl> <dt><strong>FOLDERID_SidebarParts</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{A75D362E-50FC-4fb7-AC2C-A8BEAA314493}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Приложения</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Локалаппдата%\микрософт\виндовс Сидебар\гаджетс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, новое для Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SkyDrive"></span><span id="folderid_skydrive"></span><span id="FOLDERID_SKYDRIVE"></span><dl> <dt><strong>FOLDERID_SkyDrive</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{A52BBA46-E9E1-435f-B3D9-28DAA648C0F6}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>OneDrive</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\онедриве</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8.1</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SkyDriveCameraRoll"></span><span id="folderid_skydrivecameraroll"></span><span id="FOLDERID_SKYDRIVECAMERAROLL"></span><dl> <dt><strong>FOLDERID_SkyDriveCameraRoll</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{767E6811-49CB-4273-87C2-20F355E1085B}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Пленка</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Усерпрофиле%\онедриве\пиктурес\камера</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8.1</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SkyDriveDocuments"></span><span id="folderid_skydrivedocuments"></span><span id="FOLDERID_SKYDRIVEDOCUMENTS"></span><dl> <dt><strong>FOLDERID_SkyDriveDocuments</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{24D89E24-2F19-4534-9DDE-6A6671FBB8FE}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Документы</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\онедриве\документс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8.1</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SkyDrivePictures"></span><span id="folderid_skydrivepictures"></span><span id="FOLDERID_SKYDRIVEPICTURES"></span><dl> <dt><strong>FOLDERID_SkyDrivePictures</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{339719B5-8C47-4894-94C2-D8F77ADD44A6}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Изображения</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\онедриве\пиктурес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows 8.1</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_StartMenu"></span><span id="folderid_startmenu"></span><span id="FOLDERID_STARTMENU"></span><dl> <dt><strong>FOLDERID_StartMenu</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{625B53C3-AB48-4EC1-BA1F-A1EF4146FC19}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Меню "Пуск"</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Меню%Аппдата%\микрософт\виндовс\старт</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_STARTMENU</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Меню "Пуск"</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Меню%Усерпрофиле%\старт</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Startup"></span><span id="folderid_startup"></span><span id="FOLDERID_STARTUP"></span><dl> <dt><strong>FOLDERID_Startup</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{B97D20BB-F46A-4C97-BA10-5E3608430854}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Запуск</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Аппдата%\микрософт\виндовс\старт Мену\програмс\стартуп</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_STARTUP, CSIDL_ALTSTARTUP</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Запуск</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%Усерпрофиле%\старт Мену\програмс\стартуп</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SyncManagerFolder"></span><span id="folderid_syncmanagerfolder"></span><span id="FOLDERID_SYNCMANAGERFOLDER"></span><dl> <dt><strong>FOLDERID_SyncManagerFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{43668BF8-C14E-49B2-97C9-747784D784B7}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Центр синхронизации</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_SyncResultsFolder"></span><span id="folderid_syncresultsfolder"></span><span id="FOLDERID_SYNCRESULTSFOLDER"></span><dl> <dt><strong>FOLDERID_SyncResultsFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{289a9a43-be44-4057-a41b-587a76d7e7f9}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Результаты синхронизации</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SyncSetupFolder"></span><span id="folderid_syncsetupfolder"></span><span id="FOLDERID_SYNCSETUPFOLDER"></span><dl> <dt><strong>FOLDERID_SyncSetupFolder</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{0F214138-B1D3-4a90-BBA9-27CBC0C5389A}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Настройка синхронизации</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение, введенное в Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_System"></span><span id="folderid_system"></span><span id="FOLDERID_SYSTEM"></span><dl> <dt><strong>FOLDERID_System</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>System32</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%WINDIR%\System32</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_SYSTEM</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>папке</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%WINDIR%\System32</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_SystemX86"></span><span id="folderid_systemx86"></span><span id="FOLDERID_SYSTEMX86"></span><dl> <dt><strong>FOLDERID_SystemX86</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{D65231B0-B2F1-4857-A4CE-A8E7C6EA7D27}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>System32</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%WINDIR%\System32</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_SYSTEMX86</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>папке</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%WINDIR%\System32</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Templates"></span><span id="folderid_templates"></span><span id="FOLDERID_TEMPLATES"></span><dl> <dt><strong>FOLDERID_Templates</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{A63293E8-664E-48DB-A079-DF759E0509F7}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Шаблоны</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдата%\микрософт\виндовс\темплатес</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_TEMPLATES</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Шаблоны</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%усерпрофиле%\темплатес</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_TreeProperties"></span><span id="folderid_treeproperties"></span><span id="FOLDERID_TREEPROPERTIES"></span><dl> <dt><strong>FOLDERID_TreeProperties</strong></dt> </dl></td>
+<td style="text-align: left;"><p>Не используется в Windows Vista. Не поддерживается в Windows 7.</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_UserPinned"></span><span id="folderid_userpinned"></span><span id="FOLDERID_USERPINNED"></span><dl> <dt><strong>FOLDERID_UserPinned</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{9E3995AB-1F9C-4F13-B827-48B24B6C7174}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Пользователь закреплен</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%Аппдата%\микрософт\интернет Експлорер\куикк Лаунч\усер закреплена</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_UserProfiles"></span><span id="folderid_userprofiles"></span><span id="FOLDERID_USERPROFILES"></span><dl> <dt><strong>FOLDERID_UserProfiles</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{0762D272-C50A-4BB0-A382-697DCD729B80}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Пользователи</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%системдриве%\усерс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, новое для Windows Vista</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_UserProgramFiles"></span><span id="folderid_userprogramfiles"></span><span id="FOLDERID_USERPROGRAMFILES"></span><dl> <dt><strong>FOLDERID_UserProgramFiles</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{5CD7AEE2-2219-4A67-B85D-6C9CE15660CB}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Programs</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\програмс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_UserProgramFilesCommon"></span><span id="folderid_userprogramfilescommon"></span><span id="FOLDERID_USERPROGRAMFILESCOMMON"></span><dl> <dt><strong>FOLDERID_UserProgramFilesCommon</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{BCBD3057-CA5C-4622-B42D-BC56DB0AE516}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Programs</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%локалаппдата%\програмс\коммон</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_UsersFiles"></span><span id="folderid_usersfiles"></span><span id="FOLDERID_USERSFILES"></span><dl> <dt><strong>FOLDERID_UsersFiles</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{f3ce0f7c-4901-4acc-8648-d5d44b04ef8f}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Полное имя пользователя (например, Жан Philippe бублик), которое было указано при создании учетной записи пользователя.</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_UsersLibraries"></span><span id="folderid_userslibraries"></span><span id="FOLDERID_USERSLIBRARIES"></span><dl> <dt><strong>FOLDERID_UsersLibraries</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{A302545D-DEFF-464b-ABE8-61C8648D939B}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Библиотеки</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ВИРТУАЛИЗАЦИ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>Неприменимо — виртуальная папка</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Videos"></span><span id="folderid_videos"></span><span id="FOLDERID_VIDEOS"></span><dl> <dt><strong>FOLDERID_Videos</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{18989B1D-99B5-455B-841C-AB7C74E4DDFC}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Видео</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%усерпрофиле%\видеос</td>
+</tr>
+<tr class="odd">
+<td>CSID</td>
+<td>CSIDL_MYVIDEO</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Мои видеоролики</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Видео%USERPROFILE%\My документы</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span id="FOLDERID_VideosLibrary"></span><span id="folderid_videoslibrary"></span><span id="FOLDERID_VIDEOSLIBRARY"></span><dl> <dt><strong>FOLDERID_VideosLibrary</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{491E922F-5643-4AF4-A7EB-4E7A138D8174}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Видео</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>ИЗУЧЕНИЕ</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%аппдата%\микрософт\виндовс\либрариес\видеос.либрари-мс</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>Нет, значение введено в Windows 7</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>Неприменимо</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>Неприменимо</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span id="FOLDERID_Windows"></span><span id="folderid_windows"></span><span id="FOLDERID_WINDOWS"></span><dl> <dt><strong>FOLDERID_Windows</strong></dt> </dl></td>
+<td style="text-align: left;">
+<table>
+<tbody>
+<tr class="odd">
+<td>Код GUID</td>
+<td>{F38BF404-1D43-42F2-9305-67DE0B28FC23}</td>
+</tr>
+<tr class="even">
+<td>Отображаемое имя</td>
+<td>Windows</td>
+</tr>
+<tr class="odd">
+<td>Тип папки</td>
+<td>FIXED</td>
+</tr>
+<tr class="even">
+<td>Default Path</td>
+<td>%windir%</td>
+</tr>
+<tr class="odd">
+<td>Эквивалент CSID</td>
+<td>CSIDL_WINDOWS</td>
+</tr>
+<tr class="even">
+<td>Устаревшее отображаемое имя</td>
+<td>WINDOWS</td>
+</tr>
+<tr class="odd">
+<td>Устаревший путь по умолчанию</td>
+<td>%windir%</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p></td>
+</tr>
+</tbody>
+</table>
+
+
+
+## <a name="remarks"></a>Примечания
+
+Интерпретация определенных значений **кновнфолдерид** зависит от того, является ли папка частью 32-разрядного или 64-разрядного приложения и работает ли это приложение в 32-разрядной или 64-разрядной операционной системе. Если приложению необходимо различать, например **программные файлы** и **программные файлы (x86)**, необходимо использовать правильный **кновнфолдерид** для ситуации.
+
+В следующих таблицах приводится сводка использования **кновнфолдерид** в этих случаях.
+
+
+**FOLDERID \_ ProgramFiles** 
+
+| Операционная система | Приложение | кновнфолдерид | Default Path | Эквивалент CSID |
+|------------------|-------------|---------------|--------------|------------------|  
+| 32-разрядная | 32-разрядная | FOLDERID \_ ProgramFiles | % SystemDrive% \\ программных файлов | \_программные \_ файлы CSid |
+| 32-разрядная | 32-разрядная | FOLDERID \_ ProgramFilesX86 | % SystemDrive% \\ программных файлов | Код CSID \_ программы \_ FILESX86 |
+| 32-разрядная | 32-разрядная | FOLDERID \_ ProgramFilesX64 (не поддерживается в 32-разрядных операционных системах) | Неприменимо | Неприменимо |
+| 64-разрядная | 64-разрядная | FOLDERID \_ ProgramFiles | % SystemDrive% \\ программных файлов | \_программные \_ файлы CSid |
+| 64-разрядная | 64-разрядная | FOLDERID \_ ProgramFilesX86 | % SystemDrive% \\ Program Files (x86) | Код CSID \_ программы \_ FILESX86 |
+| 64-разрядная | 64-разрядная | FOLDERID \_ ProgramFilesX64 | % SystemDrive% \\ программных файлов | Нет |
+| 64-разрядная | 32-разрядная | FOLDERID \_ ProgramFiles | % SystemDrive% \\ Program Files (x86) | \_программные \_ файлы CSid |
+| 64-разрядная | 32-разрядная | FOLDERID \_ ProgramFilesX86 | % SystemDrive% \\ Program Files (x86) | Код CSID \_ программы \_ FILESX86 |
+| 64-разрядная | 32-разрядная | FOLDERID \_ ProgramFilesX64 (не поддерживается для 32-разрядных приложений) | Неприменимо | Неприменимо |
+
+
+**FOLDERID \_ програмфилескоммон**
+
+| Операционная система | Приложение | кновнфолдерид | Default Path | Эквивалент CSID |
+|------------------|-------------|---------------|--------------|------------------|  
+| 32-разрядная | 32-разрядная | FOLDERID \_ програмфилескоммон | % ProgramFiles% \\ общих файлов | \_Общие программные \_ файлы \_ CSid |
+| 32-разрядная | 32-разрядная | FOLDERID \_ ProgramFilesCommonX86 | % ProgramFiles% \\ общих файлов | \_Программные \_ файлы CSid \_ COMMONX86 |
+| 32-разрядная | 32-разрядная | FOLDERID \_ ProgramFilesCommonX64 (не определено) | Неприменимо | Неприменимо |
+| 64-разрядная | 64-разрядная | FOLDERID \_ програмфилескоммон | % ProgramFiles% \\ общих файлов | \_Общие программные \_ файлы \_ CSid |
+| 64-разрядная | 64-разрядная | FOLDERID \_ ProgramFilesCommonX86 | % ProgramFiles (x86)% \\ общих файлов | \_Программные \_ файлы CSid \_ COMMONX86 |
+| 64-разрядная | 64-разрядная | FOLDERID \_ ProgramFilesCommonX64 | % ProgramFiles% \\ общих файлов | Нет |
+| 64-разрядная | 32-разрядная | FOLDERID \_ програмфилескоммон | % ProgramFiles (x86)% \\ общих файлов | \_Общие программные \_ файлы \_ CSid |
+| 64-разрядная | 32-разрядная | FOLDERID \_ ProgramFilesCommonX86 | % ProgramFiles (x86)% \\ общих файлов | \_Программные \_ файлы CSid \_ COMMONX86 |
+| 64-разрядная | 32-разрядная | FOLDERID \_ ProgramFilesCommonX64 | % ProgramFiles% \\ общих файлов | Нет |
+
+
+**FOLDERID \_ система**
+
+| Операционная система | Приложение | кновнфолдерид | Default Path | Эквивалент CSID |
+|------------------|-------------|---------------|--------------|------------------|  
+| 32-разрядная | 32-разрядная | FOLDERID \_ система | % WINDIR% \\ system32 | система CSID \_ |
+| 32-разрядная | 32-разрядная | FOLDERID \_ SystemX86 | % WINDIR% \\ system32 | SYSTEMX86 CSID \_ |
+| 64-разрядная | 64-разрядная | FOLDERID \_ система | % WINDIR% \\ system32 | система CSID \_ |
+| 64-разрядная | 64-разрядная | FOLDERID \_ SystemX86 | % WINDIR% \\ SysWOW64 | SYSTEMX86 CSID \_ |
+| 64-разрядная | 32-разрядная | FOLDERID \_ система | % WINDIR% \\ system32 | система CSID \_ |
+| 64-разрядная | 32-разрядная | FOLDERID \_ SystemX86 | % WINDIR% \\ SysWOW64 | SYSTEMX86 CSID \_ |
+
+
+Мы использовали строки среды для предоставления универсальных путей в этой статье. В следующих таблицах приведены примеры путей, которые представляют эти строки среды. В некоторых случаях эти пути могут не совпадать с параметрами на определенном компьютере из-за выбора, сделанного во время установки или перенаправления папок более поздних версий. Обратите внимание, что некоторые пути для Windows Vista изменились.
+
+
+**Windows Vista и более поздние версии**
+
+| Строка среды | Пример пути |
+|--------------------|--------------|
+| ALLUSERSPROFILE | C: \\ папка ProgramData |
+| %APPDATA% | C: \\ Users \\ *username* \\ AppData \\ роуминг |
+| LocalAppData | C: \\ Users \\ *username* \\ AppData \\ Local |
+| Папка ProgramData | C: \\ папка ProgramData |
+| ProgramFiles | C: \\ Program Files |
+| %ProgramFiles(x86)% | C: \\ Program Files (x86) |
+| ЗАКРЫТЫЙ | В. \\ Пользователи, \\ открытые |
+| %SystemDrive% | В. |
+| Филе | C: \\ Users \\ *username* |
+| %windir% | C: \\ Windows |
+
+
+**Windows XP и более ранние версии**
+
+| Строка среды | Пример пути |
+|--------------------|--------------|
+| ALLUSERSPROFILE | В. \\ документы и параметры \\ все пользователи |
+| %APPDATA% | C: \\ Documents and Settings \\ *имя_пользователя* \\ Application Data |
+| ProgramFiles | C: \\ Program Files |
+| %SystemDrive% | В. |
+| Филе | C: \\ \\ *имя пользователя* документов и параметров |
+| %windir% | C: \\ Windows |
+
+
+## <a name="requirements"></a>Требования
+
+
+| Требование | Значение |
+|-------------------|-------------------------------------------------------------------------------------------|
+| Header<br/> | <dl> <dt>Кновнфолдерс. h</dt> </dl> |
+
+
+
+## <a name="see-also"></a>См. также раздел
+
+<dl> <dt>
+
+[**CSID**](csidl.md)
+</dt> <dt>
+
+[Известные папки](known-folders.md)
+</dt> <dt>
+
+[Работа с известными папками в приложениях](working-with-known-folders.md)
+</dt> <dt>
+
+[Расширение известных папок с помощью пользовательских папок](how-to-extend-known-folders-with-custom-folders.md)
+</dt> <dt>
+
+[Пример: известные папки](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
+</dt> </dl>
+
+ 
+
+ 
