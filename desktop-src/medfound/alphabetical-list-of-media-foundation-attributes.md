@@ -4,12 +4,12 @@ ms.assetid: 386ecdb9-dde5-470e-9ae8-d2e0acc065b1
 title: Алфавитный список атрибутов Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da1fad31eef65843fcb6eb95600d2cd0454818f1
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f4e33338ca60258551f59a7a52615fa56f10c639
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105684796"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222922"
 ---
 # <a name="alphabetical-list-of-media-foundation-attributes"></a>Алфавитный список атрибутов Media Foundation
 
@@ -309,6 +309,7 @@ ms.locfileid: "105684796"
 | [\_ \_ \_ звук класса MMCSS \_ (MF)](mf-readwrite-mmcss-class-audio.md)<br/>                                                                         | Указывает класс [мультимедиа класса службы планировщика мультимедийных](/windows/desktop/ProcThread/multimedia-class-scheduler-service) данных для потоков обработки звука в модуле чтения источника или в модуле записи приемника.<br/>                                                                                                                                                                                                                      |
 | [MF \_ с \_ \_ приоритетом MMCSS ReadWrite](mf-readwrite-mmcss-priority.md)<br/>                                                                                | Задает приоритет базового потока для модуля чтения исходного кода или средства записи приемника.<br/>                                                                                                                                                                                                                                                                                                                            |
 | [MF \_ с \_ \_ приоритетом \_ MMCSS](mf-readwrite-mmcss-priority-audio.md)<br/>                                                                   | Задает базовый приоритет для потоков обработки звука, созданных модулем чтения источника или модулем записи приемника.<br/>                                                                                                                                                                                                                                                                                               |
+| [MF \_ SA \_ — \_ выделить \_ отображаемые \_ ресурсы](mf-sa-d3d11-allocate-displayable-resources.md)<br/>                                                                                     | Указывает, должна ли в образце выделения MFT (SA) выделять базовую текстуру Direct3D с помощью флага D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE.<br/>                                                                                                                                                                                                                                                                                                          |
 | [\_ \_ буферов SA MF \_ на \_ выборку](mf-sa-buffers-per-sample.md)<br/>                                                                                     | Указывает, сколько буферов распределительного примера видеороликов создается для каждого примера видео. <br/>                                                                                                                                                                                                                                                                                                          |
 | [С \_ \_ поддержкой D3D \_ SA](mf-sa-d3d-aware-attribute.md)<br/>                                                                                              | Указывает, поддерживает ли преобразование Media Foundation (MFT) ускорение видео DirectX (ДКСВА). Этот атрибут применяется только к видео МФТС. <br/>                                                                                                                                                                                                                                                   |
 | [MF \_ SA \_ D3D11 с \_ поддержкой](mf-sa-d3d11-aware.md)<br/>                                                                                                    | Указывает, поддерживает ли преобразование Media Foundation (MFT) Microsoft Direct3D 11.<br/>                                                                                                                                                                                                                                                                                                           |
@@ -506,7 +507,7 @@ ms.locfileid: "105684796"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

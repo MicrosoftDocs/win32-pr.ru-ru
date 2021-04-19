@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c93bd37afa44e7fc5ca81d928974f56bf80d1b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b39075bddbd191f60a9f9bcbad745e213fe9a978
+ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136075"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107590871"
 ---
 # <a name="cdn_folderchange-notification-code"></a>\_Код уведомления ФОЛДЕРЧАНЖЕ CDN
 
-\[Начиная с Windows Vista, диалоговые окна " **Открыть** " и " **Сохранить как** " были заменены [диалоговым окном общих элементов](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). Рекомендуется использовать API-интерфейс общего элемента, а не эти диалоговые окна из библиотеки общих диалоговых окон.\]
+\[Начиная с Windows Vista, диалоговые окна " **Открыть** " и " **Сохранить как** " были заменены [диалоговым окном общих элементов](/windows/win32/shell/common-file-dialog). Рекомендуется использовать API-интерфейс общего элемента, а не эти диалоговые окна из библиотеки общих диалоговых окон.\]
 
 Отправляется диалоговым окном **открытия** или **сохранения в** стиле обозревателя при открытии новой папки.
 
@@ -59,7 +59,7 @@ ms.locfileid: "104136075"
 
 Возвращаемое значение игнорируется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Замечания
 
 Система отправляет это уведомление только в том случае, если диалоговое окно было создано с помощью значения **\_ обозревателя ОФН** .
 

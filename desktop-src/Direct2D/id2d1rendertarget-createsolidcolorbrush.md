@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: db0cf0913bc347cb36ac44cbd1befd7edb418a90
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f49876a5eb9d7700aeb347e5168ca3e8c1e239e0
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685277"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380628"
 ---
 # <a name="id2d1rendertargetcreatesolidcolorbrush-methods"></a>Методы ID2D1RenderTarget:: Креатесолидколорбруш
 
@@ -29,9 +29,9 @@ ms.locfileid: "105685277"
 
 | Метод                                                                                                                                                                                                           | Описание                                                                                                                             |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| [**Креатесолидколорбруш (D2D1 \_ Color \_ F&, ID2D1SolidColorBrush \* \* )**](id2d1rendertarget-createsolidcolorbrush-ref-color-f-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)                                                      | Создает новый [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) с указанным цветом и базовой прозрачностью 1,0 f. <br/> |
-| [**Креатесолидколорбруш (D2D1 \_ Color \_ F&, \_ свойства кисти D2D1 \_&, ID2D1SolidColorBrush \* \* )**](id2d1rendertarget-createsolidcolorbrush-ref-color-f-ref-d2d1-brush-properties-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)   | Создает новый [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) с указанным цветом и непрозрачностью. <br/>                |
-| [**Креатесолидколорбруш (D2D1 \_ Color \_ F \* , \_ Свойства кисти \_ D2D1 \* , ID2D1SolidColorBrush \* \* )**](id2d1rendertarget-createsolidcolorbrush-ptr-color-f-ptr-d2d1-brush-properties-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) | Создает новый [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) с указанным цветом и непрозрачностью. <br/>                |
+| [**Креатесолидколорбруш (D2D1 \_ Color \_ F&, ID2D1SolidColorBrush \* \* )**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)                                                      | Создает новый [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) с указанным цветом и базовой прозрачностью 1,0 f. <br/> |
+| [**Креатесолидколорбруш (D2D1 \_ Color \_ F&, \_ свойства кисти D2D1 \_&, ID2D1SolidColorBrush \* \* )**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)   | Создает новый [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) с указанным цветом и непрозрачностью. <br/>                |
+| [**Креатесолидколорбруш (D2D1 \_ Color \_ F \* , \_ Свойства кисти \_ D2D1 \* , ID2D1SolidColorBrush \* \* )**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) | Создает новый [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) с указанным цветом и непрозрачностью. <br/>                |
 
 
 
@@ -45,7 +45,7 @@ ms.locfileid: "105685277"
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl> |
 
