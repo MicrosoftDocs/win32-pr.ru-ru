@@ -4,12 +4,12 @@ ms.assetid: ''
 title: Руководство разработчика по распространяемой версии XAudio 2.9
 ms.topic: article
 ms.date: 10/17/2019
-ms.openlocfilehash: a87c2dc44179f2c189270dfa91d2cf2696ea98a7
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2b83f2811ada9a41591b4b556a34aa585002c83e
+ms.sourcegitcommit: b61ef7cdd575b086e96db4d4cf37b9fbeb388a47
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104000016"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107583825"
 ---
 # <a name="developer-guide-for-redistributable-version-of-xaudio-29"></a>Руководство разработчика по распространяемой версии XAudio 2.9
 
@@ -32,6 +32,8 @@ ms.locfileid: "104000016"
 Библиотека КСАПОБАСЕРЕДИСТ. LIB требуется только в том случае, если вы планируете импемент пользовательский объект обработки Ксаудио (КСАПО) и можете удалить его из *Microsoft. XAudio2. Redist. targets* , если он не используется.
 
 Можно также использовать другие средства для извлечения содержимого пакета NuGet или даже переименовать расширение файла в ZIP-файл и извлечь файлы с помощью любого средства извлечения ZIP-файлов.
+
+> Также доступен ``xaudio2redist`` порт, доступный для [диспетчера пакетов VC + +](https://github.com/microsoft/vcpkg).
 
 ## <a name="compiling-your-app"></a>Компиляция приложения
 
