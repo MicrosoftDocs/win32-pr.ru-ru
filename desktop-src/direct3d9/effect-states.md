@@ -4,12 +4,12 @@ ms.assetid: b62a6ccc-a1ea-455c-9659-544d4bcaf6a2
 title: Состояния эффектов (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 674e72d818cd280bfe75a2cb02733576bc68319e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1e208c0c7c14564a9967562ff2fd04a400cb7901
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104072256"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314767"
 ---
 # <a name="effect-states-direct3d-9"></a>Состояния эффектов (Direct3D 9)
 
@@ -75,7 +75,7 @@ effect state [ [index] ] = expression;
 
  
 
-Пример.
+Пример:
 
 
 ```
@@ -108,7 +108,7 @@ LightAmbient[0] = float4<0.7f, 0.0f, 0.0f, 1.0f>;
 
  
 
-Пример.
+Пример:
 
 
 ```
@@ -216,51 +216,56 @@ MaterialPower = 3.0f;
 <td>Те же значения, что и <a href="/windows/desktop/direct3d9/d3dblend"><strong>D3DBLEND</strong></a> без префикса D3DBLEND_.</td>
 </tr>
 <tr class="even">
+<td>сргбвритинабле</td>
+<td>bool</td>
+<td>Верно или неверно. Те же значения, что и D3DRS_SRGBWRITEENABLE.</td>
+</tr>
+<tr class="odd">
 <td>стенЦиленабле</td>
 <td>bool</td>
 <td>Верно или неверно. Те же значения, что и D3DRS_STENCILENABLE.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>стенЦилфаил</td>
 <td>dword</td>
 <td>Те же значения, что и <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> без префикса D3DSTENCILCAP_. См. D3DRS_STENCILFAIL.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>стенЦилфунк</td>
 <td>dword</td>
 <td>Те же значения, что и <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> без префикса D3DCMP_. См. D3DRS_STENCILFUNC.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>стенЦилмаск</td>
 <td>dword</td>
 <td>Те же значения, что и D3DRS_STENCILMASK.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>стенЦилпасс</td>
 <td>dword</td>
 <td>Те же значения, что и <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> без префикса D3DSTENCILCAP_. См. D3DRS_STENCILPASS.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>стенЦилреф</td>
 <td>INT</td>
 <td>Те же значения, что и D3DRS_STENCILREF.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>стенЦилвритемаск</td>
 <td>dword</td>
 <td>Те же значения, что и D3DRS_STENCILWRITEMASK.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>стенЦилзфаил</td>
 <td>dword</td>
 <td>Те же значения, что и <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> без префикса D3DSTENCILCAP_. См. D3DRS_STENCILZFAIL.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>текстурефактор</td>
 <td>dword</td>
 <td>Те же значения, что и <a href="d3dcolor.md"><strong>D3DCOLOR</strong></a>. Те же значения, что и D3DRS_TEXTUREFACTOR.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Wrap0 - Wrap15</td>
 <td>dword</td>
 <td>Значения совпадают со значениями, используемыми D3DRS_WRAP0. Допустимые значения:
@@ -274,17 +279,17 @@ MaterialPower = 3.0f;
 <li>W (соответствует D3DWRAP_W)</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>зенабле</td>
 <td>dword</td>
 <td>Те же значения, что и <a href="/windows/desktop/direct3d9/d3dzbuffertype"><strong>D3DZBUFFERTYPE</strong></a> без префикса D3DZB_.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>зфунк</td>
 <td>dword</td>
 <td>Те же значения, что и <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> без префикса D3DCMP_. См. D3DRS_ZFUNC.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>звритинабле</td>
 <td>bool</td>
 <td>Верно или неверно. См. D3DRS_ZWRITEENABLE.</td>
@@ -296,7 +301,7 @@ MaterialPower = 3.0f;
 
  
 
-Пример.
+Пример:
 
 
 ```
@@ -357,7 +362,7 @@ FillMode = WIREFRAME;
 
  
 
-Пример.
+Пример:
 
 
 ```
@@ -404,13 +409,13 @@ FogColor = 0xff0000;
 | Минфилтер \[ 16\]     | dword                        | Те же значения, что и \_ в D3DSAMP минфилтер без \_ префикса D3DSAMP.                                                                   |
 | Мипфилтер \[ 16\]     | dword                        | Те же значения, что и \_ в D3DSAMP мипфилтер без \_ префикса D3DSAMP.                                                                   |
 | Мипмаплодбиас \[ 16\] | FLOAT                        | Те же значения, что и \_ в D3DSAMP мипмаплодбиас без \_ префикса D3DSAMP.                                                               |
-| сргбтекстуре         | FLOAT                        | То же значение, что и D3DSAMP \_ сргбтекстуре без \_ префикса D3DSAMP.                                                                  |
+| сргбтекстуре         | bool                         | То же значение, что и D3DSAMP \_ сргбтекстуре без \_ префикса D3DSAMP.                                                                   |
 
 
 
  
 
-Пример.
+Пример:
 
 
 ```
@@ -439,7 +444,7 @@ AddressW[0] = CLAMP;
 
  
 
-Пример.
+Пример:
 
 
 ```
@@ -545,7 +550,7 @@ PixelShader  = NULL;
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
