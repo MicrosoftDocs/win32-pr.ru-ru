@@ -160,7 +160,7 @@
                       href: webviewfoldercontents-folder.md
                     - name: Parent
                       href: webviewfoldercontents-parent.md
-                    - name: Сценарий
+                    - name: Скрипт
                       href: webviewfoldercontents-script.md
                     - name: виевоптионс
                       href: webviewfoldercontents-viewoptions.md
@@ -1232,7 +1232,7 @@
                   href: '-search-2x-ipropertyfilter-logicoperator.md'
                 - name: нестингдепс
                   href: '-search-2x-ipropertyfilter-nestingdepth.md'
-                - name: Текст
+                - name: текст
                   href: '-search-2x-ipropertyfilter-text.md'
                 - name: ИД пользователя
                   href: '-search-2x-ipropertyfilter-uid.md'
@@ -1327,7 +1327,7 @@
                   href: '-search-2x-iresultverb-displayname.md'
                 - name: доит
                   href: '-search-2x-iresultverb-doit.md'
-                - name: Активировано
+                - name: Включено
                   href: '-search-2x-iresultverb-enabled.md'
                 - name: HelpText
                   href: '-search-2x-iresultverb-helptext.md'
@@ -1560,3 +1560,75 @@
                   href: mpthreat-stats-data.md
                 - name: MPVERSION_INFO
                   href: mpversion-info.md
+    - name: Защита от потери данных конечной точки
+      href: endpointdlp-endpoint-data-loss-prevention.md
+      items:
+        - name: Перечисления защиты от потери данных конечной точки
+          href: endpointdlp-enumerations.md
+          items:
+            - name: длпактионтипе
+              href: endpointdlp-dlpactiontype.md
+            - name: длпаппенфорцелевел
+              href: endpointdlp-dlpappenforcelevel.md
+        - name: Функции защиты от потери данных конечной точки
+          href: endpointdlp-functions.md
+          items:
+            - name: длпнотификлоседокумент
+              href: endpointdlp-dlpnotifyclosedocument.md
+            - name: длпнотификлоседокументфиле
+              href: endpointdlp-dlpnotifyclosedocumentfile.md
+            - name: длпнотифентердроптаржет
+              href: endpointdlp-dlpnotifyenterdroptarget.md
+            - name: длпинитиализинфорцементмоде
+              href: endpointdlp-dlpgetenforcementapiversion.md
+            - name: длпинитиализинфорцементмоде
+              href: endpointdlp-dlpinitializeenforcementmode.md
+            - name: длпмустпастефромсистемклипбоард
+              href: endpointdlp-dlpmustpastefromsystemclipboard.md
+            - name: длпнотифилеаведроптаржет
+              href: endpointdlp-dlpnotifyleavedroptarget.md
+            - name: длпнотифипосткопитоклипбоард
+              href: endpointdlp-dlpnotifypostcopytoclipboard.md
+            - name: длпнотифипостдрагдроп
+              href: endpointdlp-dlpnotifypostdragdrop.md
+            - name: длпнотифипостопендокумент
+              href: endpointdlp-dlpnotifypostopendocument.md
+            - name: длпнотифипостопендокументфиле
+              href: endpointdlp-dlpnotifypostopendocumentfile.md
+            - name: длпнотифипостпастефромклипбоард
+              href: endpointdlp-dlpnotifypostpastefromclipboard.md
+            - name: длпнотифипостпринт
+              href: endpointdlp-dlpnotifypostprint.md
+            - name: длпнотифипостсавеасдокумент
+              href: endpointdlp-dlpnotifypostsaveasdocument.md
+            - name: длпнотифипостстартпринт
+              href: endpointdlp-dlpnotifypoststartprint.md
+            - name: длпнотифипостсташклипбоард
+              href: endpointdlp-dlpnotifypoststashclipboard.md
+            - name: длпнотифипрекопитоклипбоард
+              href: endpointdlp-dlpnotifyprecopytoclipboard.md
+            - name: длпнотифипредрагдроп
+              href: endpointdlp-dlpnotifypredragdrop.md
+            - name: длпнотифипреопендокумент
+              href: endpointdlp-dlpnotifypreopendocument.md
+            - name: длпнотифипреопендокументфиле
+              href: endpointdlp-dlpnotifypreopendocumentfile.md
+            - name: длпнотифипрепастефромклипбоард
+              href: endpointdlp-dlpnotifyprepastefromclipboard.md
+            - name: длпнотифипрепринт
+              href: endpointdlp-dlpnotifypreprint.md
+            - name: длпнотифипресавеасдокумент
+              href: endpointdlp-dlpnotifypresaveasdocument.md
+            - name: длпнотифипресташклипбоард
+              href: endpointdlp-dlpnotifyprestashclipboard.md
+        - name: Структуры защиты от потери данных конечной точки
+          href: endpointdlp-structures.md
+          items:
+            - name: DLP_APP_OP_ENLIGHTENED_LEVEL
+              href: endpointdlp-dlp_app_op_enlightened_level.md
+            - name: DLP_DOCUMENT_INFO
+              href: endpointdlp-dlp_document_info.md
+            - name: DLP_POSTOP_STATUS
+              href: enpointdlp-dlp_postop_status.md
+            - name: DLP_PRINT_INFO
+              href: endpointdlp-dlp_print_info.md

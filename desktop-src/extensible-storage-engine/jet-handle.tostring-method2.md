@@ -20,21 +20,21 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b54ba66d4685f6821fd864dbe5c8c5e73fbf7b3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 715d46eddba81eaa8e8c234194f403e4192c45d0
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712884"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389117"
 ---
-# <a name="jet_handletostring-method"></a><span data-ttu-id="bb897-103">JET_HANDLE. Метод ToString</span><span class="sxs-lookup"><span data-stu-id="bb897-103">JET_HANDLE.ToString method</span></span>
+# <a name="jet_handletostring-method"></a><span data-ttu-id="7f0be-103">JET_HANDLE. Метод ToString</span><span class="sxs-lookup"><span data-stu-id="7f0be-103">JET_HANDLE.ToString method</span></span>
 
-<span data-ttu-id="bb897-104">Создает строковое представление структуры.</span><span class="sxs-lookup"><span data-stu-id="bb897-104">Generate a string representation of the structure.</span></span>
+<span data-ttu-id="7f0be-104">Создает строковое представление структуры.</span><span class="sxs-lookup"><span data-stu-id="7f0be-104">Generate a string representation of the structure.</span></span>
 
-<span data-ttu-id="bb897-105">**Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="bb897-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="bb897-106">**Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)</span><span class="sxs-lookup"><span data-stu-id="bb897-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="7f0be-105">**Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="7f0be-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="7f0be-106">**Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)</span><span class="sxs-lookup"><span data-stu-id="7f0be-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bb897-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="bb897-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7f0be-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7f0be-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,19 +50,19 @@ returnValue = instance.ToString()
 public override string ToString()
 ```
 
-#### <a name="return-value"></a><span data-ttu-id="bb897-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="bb897-108">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="7f0be-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7f0be-108">Return value</span></span>
 
-<span data-ttu-id="bb897-109">Тип: [System. String](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="bb897-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
-<span data-ttu-id="bb897-110">Структура в виде строки.</span><span class="sxs-lookup"><span data-stu-id="bb897-110">The structure as a string.</span></span>  
+<span data-ttu-id="7f0be-109">Тип: [System. String](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="7f0be-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
+<span data-ttu-id="7f0be-110">Структура в виде строки.</span><span class="sxs-lookup"><span data-stu-id="7f0be-110">The structure as a string.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="bb897-111">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="bb897-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7f0be-111">См. также</span><span class="sxs-lookup"><span data-stu-id="7f0be-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="bb897-112">Справочник</span><span class="sxs-lookup"><span data-stu-id="bb897-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="7f0be-112">Справочник</span><span class="sxs-lookup"><span data-stu-id="7f0be-112">Reference</span></span>
 
-[<span data-ttu-id="bb897-113">Структура JET_HANDLE</span><span class="sxs-lookup"><span data-stu-id="bb897-113">JET_HANDLE structure</span></span>](./jet-handle-structure.md)
+[<span data-ttu-id="7f0be-113">Структура JET_HANDLE</span><span class="sxs-lookup"><span data-stu-id="7f0be-113">JET_HANDLE structure</span></span>](./jet-handle-structure.md)
 
-[<span data-ttu-id="bb897-114">Элементы JET_HANDLE</span><span class="sxs-lookup"><span data-stu-id="bb897-114">JET_HANDLE members</span></span>](./jet-handle-members.md)
+[<span data-ttu-id="7f0be-114">Элементы JET_HANDLE</span><span class="sxs-lookup"><span data-stu-id="7f0be-114">JET_HANDLE members</span></span>](./jet-handle-members.md)
 
-[<span data-ttu-id="bb897-115">Перегрузка ToString</span><span class="sxs-lookup"><span data-stu-id="bb897-115">ToString overload</span></span>](./jet-handle.tostring-method.md)
+[<span data-ttu-id="7f0be-115">Перегрузка ToString</span><span class="sxs-lookup"><span data-stu-id="7f0be-115">ToString overload</span></span>](./jet-handle.tostring-method.md)
 
-[<span data-ttu-id="bb897-116">Пространство имен Microsoft. ISAM. ESENT. Interop</span><span class="sxs-lookup"><span data-stu-id="bb897-116">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="7f0be-116">Пространство имен Microsoft. ISAM. ESENT. Interop</span><span class="sxs-lookup"><span data-stu-id="7f0be-116">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

@@ -20,21 +20,21 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 30dcdf175c560fdc4bbdc6ac6f7b653ca477939b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b53cc699e0b6a1bfeac4a54adee075fe5f9c5c7
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693782"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389180"
 ---
-# <a name="jet_tableidtostring-method"></a><span data-ttu-id="7b764-103">JET_TABLEID. Метод ToString</span><span class="sxs-lookup"><span data-stu-id="7b764-103">JET_TABLEID.ToString method</span></span>
+# <a name="jet_tableidtostring-method"></a><span data-ttu-id="c8fc0-103">JET_TABLEID. Метод ToString</span><span class="sxs-lookup"><span data-stu-id="c8fc0-103">JET_TABLEID.ToString method</span></span>
 
-<span data-ttu-id="7b764-104">Создает строковое представление структуры.</span><span class="sxs-lookup"><span data-stu-id="7b764-104">Generate a string representation of the structure.</span></span>
+<span data-ttu-id="c8fc0-104">Создает строковое представление структуры.</span><span class="sxs-lookup"><span data-stu-id="c8fc0-104">Generate a string representation of the structure.</span></span>
 
-<span data-ttu-id="7b764-105">**Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="7b764-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
-<span data-ttu-id="7b764-106">**Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)</span><span class="sxs-lookup"><span data-stu-id="7b764-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
+<span data-ttu-id="c8fc0-105">**Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)</span><span class="sxs-lookup"><span data-stu-id="c8fc0-105">**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)</span></span>  
+<span data-ttu-id="c8fc0-106">**Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)</span><span class="sxs-lookup"><span data-stu-id="c8fc0-106">**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7b764-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7b764-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c8fc0-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c8fc0-107">Syntax</span></span>
 
 ``` vb
 'Declaration
@@ -50,19 +50,19 @@ returnValue = instance.ToString()
 public override string ToString()
 ```
 
-#### <a name="return-value"></a><span data-ttu-id="7b764-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7b764-108">Return value</span></span>
+#### <a name="return-value"></a><span data-ttu-id="c8fc0-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c8fc0-108">Return value</span></span>
 
-<span data-ttu-id="7b764-109">Тип: [System. String](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="7b764-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
-<span data-ttu-id="7b764-110">Структура в виде строки.</span><span class="sxs-lookup"><span data-stu-id="7b764-110">The structure as a string.</span></span>  
+<span data-ttu-id="c8fc0-109">Тип: [System. String](/dotnet/api/system.string)</span><span class="sxs-lookup"><span data-stu-id="c8fc0-109">Type: [System.String](/dotnet/api/system.string)</span></span>  
+<span data-ttu-id="c8fc0-110">Структура в виде строки.</span><span class="sxs-lookup"><span data-stu-id="c8fc0-110">The structure as a string.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="7b764-111">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="7b764-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c8fc0-111">См. также</span><span class="sxs-lookup"><span data-stu-id="c8fc0-111">See also</span></span>
 
-#### <a name="reference"></a><span data-ttu-id="7b764-112">Справочник</span><span class="sxs-lookup"><span data-stu-id="7b764-112">Reference</span></span>
+#### <a name="reference"></a><span data-ttu-id="c8fc0-112">Справочник</span><span class="sxs-lookup"><span data-stu-id="c8fc0-112">Reference</span></span>
 
-[<span data-ttu-id="7b764-113">Структура JET_TABLEID</span><span class="sxs-lookup"><span data-stu-id="7b764-113">JET_TABLEID structure</span></span>](./jet-tableid-structure.md)
+[<span data-ttu-id="c8fc0-113">Структура JET_TABLEID</span><span class="sxs-lookup"><span data-stu-id="c8fc0-113">JET_TABLEID structure</span></span>](./jet-tableid-structure.md)
 
-[<span data-ttu-id="7b764-114">Элементы JET_TABLEID</span><span class="sxs-lookup"><span data-stu-id="7b764-114">JET_TABLEID members</span></span>](./jet-tableid-members.md)
+[<span data-ttu-id="c8fc0-114">Элементы JET_TABLEID</span><span class="sxs-lookup"><span data-stu-id="c8fc0-114">JET_TABLEID members</span></span>](./jet-tableid-members.md)
 
-[<span data-ttu-id="7b764-115">Перегрузка ToString</span><span class="sxs-lookup"><span data-stu-id="7b764-115">ToString overload</span></span>](./jet-tableid.tostring-method.md)
+[<span data-ttu-id="c8fc0-115">Перегрузка ToString</span><span class="sxs-lookup"><span data-stu-id="c8fc0-115">ToString overload</span></span>](./jet-tableid.tostring-method.md)
 
-[<span data-ttu-id="7b764-116">Пространство имен Microsoft. ISAM. ESENT. Interop</span><span class="sxs-lookup"><span data-stu-id="7b764-116">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
+[<span data-ttu-id="c8fc0-116">Пространство имен Microsoft. ISAM. ESENT. Interop</span><span class="sxs-lookup"><span data-stu-id="c8fc0-116">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)
