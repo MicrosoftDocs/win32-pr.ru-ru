@@ -4,12 +4,12 @@ ms.assetid: b64a3983-ee75-4199-9778-1e5b7cec59e4
 title: Сообщение WM_DEVICECHANGE (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f631d75f89f306adc0594a3df6c63d63753e163
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 91cc45d7a7978d5501e51cc1355c43afcf12b956
+ms.sourcegitcommit: 8c1942ac6731488abbeae46a7dbe3da166fee2d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423297"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "107581506"
 ---
 # <a name="wm_devicechange-message"></a>\_Сообщение ДЕВИЦЕЧАНЖЕ WM
 
@@ -17,15 +17,12 @@ ms.locfileid: "104423297"
 
 Окно получает это сообщение через функцию [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) .
 
-
 ```C++
 LRESULT CALLBACK WindowProc(HWND   hwnd,     // handle to window
                             UINT   uMsg,     // WM_DEVICECHANGE
                             WPARAM wParam,   // device-change event
                             LPARAM lParam ); // event-specific data
 ```
-
-
 
 ## <a name="parameters"></a>Параметры
 
@@ -50,26 +47,20 @@ LRESULT CALLBACK WindowProc(HWND   hwnd,     // handle to window
 
 Произошедшее событие. Этот параметр может принимать одно из следующих значений из файла заголовка ДБТ. h.
 
-
-
-| Значение                                                                                                                                                                                                                                                                                                  | Значение                                                                                                                                |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="DBT_CONFIGCHANGECANCELED"></span><span id="dbt_configchangecanceled"></span><dl> <dt>**[ДБТ \_ КОНФИГЧАНЖЕКАНЦЕЛЕД](dbt-configchangecanceled.md)**</dt> <dt>0x0019</dt> </dl>             | Запрос на изменение текущей конфигурации (закрепления или отстыковки) отменен.<br/>                                           |
-| <span id="DBT_CONFIGCHANGED"></span><span id="dbt_configchanged"></span><dl> <dt>**[ДБТ \_ КОНФИГЧАНЖЕД](dbt-configchanged.md)**</dt> <dt>0x0018</dt> </dl>                                         | Текущая конфигурация изменилась из-за закрепления или открепления.<br/>                                                             |
-| <span id="DBT_CUSTOMEVENT"></span><span id="dbt_customevent"></span><dl> <dt>**[ДБТ \_ CUSTOMEVENT](dbt-customevent.md)**</dt> <dt>0x8006</dt> </dl>                                                 | Произошло пользовательское событие.<br/>                                                                                                |
-| <span id="DBT_DEVICEARRIVAL"></span><span id="dbt_devicearrival"></span><dl> <dt>**[ДБТ \_ ДЕВИЦЕАРРИВАЛ](dbt-devicearrival.md)**</dt> <dt>0x8000</dt> </dl>                                         | Устройство или носитель вставлены и теперь доступны.<br/>                                                          |
-| <span id="DBT_DEVICEQUERYREMOVE"></span><span id="dbt_devicequeryremove"></span><dl> <dt>**[ДБТ \_ ДЕВИЦЕКУЕРИРЕМОВЕ](dbt-devicequeryremove.md)**</dt> <dt>0x8001</dt> </dl>                         | Запрошено разрешение на удаление устройства или фрагмента носителя. Любое приложение может отклонить этот запрос и отменить удаление.<br/> |
-| <span id="DBT_DEVICEQUERYREMOVEFAILED"></span><span id="dbt_devicequeryremovefailed"></span><dl> <dt>**[ДБТ \_ ДЕВИЦЕКУЕРИРЕМОВЕФАИЛЕД](dbt-devicequeryremovefailed.md)**</dt> <dt>0x8002</dt> </dl> | Запрос на удаление устройства или носителя был отменен.<br/>                                                           |
-| <span id="DBT_DEVICEREMOVECOMPLETE"></span><span id="dbt_deviceremovecomplete"></span><dl> <dt>**[ДБТ \_ ДЕВИЦЕРЕМОВЕКОМПЛЕТЕ](dbt-deviceremovecomplete.md)**</dt> <dt>0x8004</dt> </dl>             | Устройство или носитель с носителем были удалены.<br/>                                                                                |
-| <span id="DBT_DEVICEREMOVEPENDING"></span><span id="dbt_deviceremovepending"></span><dl> <dt>**[ДБТ \_ ДЕВИЦЕРЕМОВЕПЕНДИНГ](dbt-deviceremovepending.md)**</dt> <dt>0x8003</dt> </dl>                 | Устройство или носитель будет удален. Нельзя запретить.<br/>                                                        |
-| <span id="DBT_DEVICETYPESPECIFIC"></span><span id="dbt_devicetypespecific"></span><dl> <dt>**[ДБТ \_ ДЕВИЦЕТИПЕСПЕЦИФИК](dbt-devicetypespecific.md)**</dt> <dt>0x8005</dt> </dl>                     | Произошло событие для конкретного устройства.<br/>                                                                                       |
-| <span id="DBT_DEVNODES_CHANGED"></span><span id="dbt_devnodes_changed"></span><dl> <dt>**[ДБТ \_ ДЕВНОДЕС \_ изменил](dbt-devnodes-changed.md)**</dt> <dt>0x0007</dt> </dl>                            | Устройство было добавлено в систему или удалено из нее.<br/>                                                                      |
-| <span id="DBT_QUERYCHANGECONFIG"></span><span id="dbt_querychangeconfig"></span><dl> <dt>**[ДБТ \_ КУЕРИЧАНЖЕКОНФИГ](dbt-querychangeconfig.md)**</dt> <dt>0x0017</dt> </dl>                         | Запрошено разрешение на изменение текущей конфигурации (закрепление или Отстыковка).<br/>                                               |
-| <span id="DBT_USERDEFINED"></span><span id="dbt_userdefined"></span><dl> <dt>**[ДБТ \_ ПОЛЬЗОВАТЕЛЯОПРЕДЕЛЕННЫЕ](dbt-userdefined.md)**</dt> <dt>0xFFFF</dt> </dl>                                                 | Значение этого сообщения определяется пользователем.<br/>                                                                                |
-
-
-
- 
+| Значение | Значение |
+|-------|---------|
+| **[ДБТ \_ девнодес \_ изменен](dbt-devnodes-changed.md)**</br>0x0007 | Устройство было добавлено в систему или удалено из нее. |
+| **[ДБТ \_ куеричанжеконфиг](dbt-querychangeconfig.md)**</br>0x0017 | Запрошено разрешение на изменение текущей конфигурации (закрепление или Отстыковка). |
+| **[ДБТ \_ конфигчанжед](dbt-configchanged.md)**</br>0x0018 | Текущая конфигурация изменилась из-за закрепления или открепления. |
+| **[ДБТ \_ конфигчанжеканцелед](dbt-configchangecanceled.md)**</br>0x0019 | Запрос на изменение текущей конфигурации (закрепления или отстыковки) отменен. |
+| **[ДБТ \_ девицеарривал](dbt-devicearrival.md)**</br>0x8000 | Устройство или носитель вставлены и теперь доступны. |
+| **[ДБТ \_ девицекуериремове](dbt-devicequeryremove.md)**</br>0x8001 | Запрошено разрешение на удаление устройства или фрагмента носителя. Любое приложение может отклонить этот запрос и отменить удаление. |
+| **[ДБТ \_ девицекуериремовефаилед](dbt-devicequeryremovefailed.md)**</br>0x8002 | Запрос на удаление устройства или носителя был отменен. |
+| **[ДБТ \_ девицеремовепендинг](dbt-deviceremovepending.md)**</br>0x8003 | Устройство или носитель будет удален. Нельзя запретить. |
+| **[ДБТ \_ девицеремовекомплете](dbt-deviceremovecomplete.md)**</br>0x8004 | Устройство или носитель с носителем были удалены. |
+| **[ДБТ \_ девицетипеспеЦифик](dbt-devicetypespecific.md)**</br>0x8005 | Произошло событие для конкретного устройства. |
+| **[ДБТ \_ CUSTOMEVENT](dbt-customevent.md)**</br>0x8006 | Произошло пользовательское событие. |
+| **[ДБТ \_ пользователяопределенные](dbt-userdefined.md)**</br>0xFFFF | Значение этого сообщения определяется пользователем. |
 
 </dd> <dt>
 
@@ -86,21 +77,17 @@ LRESULT CALLBACK WindowProc(HWND   hwnd,     // handle to window
 
 Верните **широковещательный \_ запрос \_ Deny** , чтобы отклонить запрос.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Замечания
 
 Для устройств, которые предлагают функции, управляемые программным обеспечением, такие как извлечение и блокировка, система обычно отправляет сообщение [ДБТ \_ девицеремовепендинг](dbt-deviceremovepending.md) , чтобы позволить приложениям и драйверам устройств правильно использовать устройство. Если система принудительно удаляет устройство, оно может не отправить сообщение [ДБТ \_ девицекуериремове](dbt-devicequeryremove.md) перед этим.
 
 ## <a name="requirements"></a>Требования
 
-
-
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP<br/>                                                                                             |
-| Минимальная версия сервера<br/> | Windows Server 2003<br/>                                                                                    |
-| Header<br/>                   | <dl> <dt>Winuser. h (включая Windows. h или ДБТ. h)</dt> </dl> |
-
-
+| Минимальная версия клиента | Windows XP |
+| Минимальная версия сервера | Windows Server 2003|
+| Заголовок | <dl> <dt>Winuser. h (включая Windows. h или ДБТ. h)</dt> </dl> |
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -141,6 +128,3 @@ LRESULT CALLBACK WindowProc(HWND   hwnd,     // handle to window
 
 [ДБТ \_ пользователяопределенные](dbt-userdefined.md)
 </dt> </dl>
-
- 
-
