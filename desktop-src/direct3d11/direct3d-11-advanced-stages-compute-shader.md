@@ -4,12 +4,12 @@ description: Шейдер вычислений — это программиру
 ms.assetid: 02c1f98e-fdd6-49b0-b8b2-efbd472ab599
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67c890e63b468a993e0d08f678d2276d6ce2adad
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 485e83ab965f14342d235a07810f210e18aadc53
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103797215"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222872"
 ---
 # <a name="compute-shader-overview"></a>Общие сведения о вычислении шейдера
 
@@ -30,7 +30,7 @@ ms.locfileid: "103797215"
 -   Только одно неупорядоченное представление доступа можно привязать к шейдеру (D3D11 \_ CS \_ 4 \_ X \_ UAV \_ registers \_ Count равен 1).
 -   В качестве неупорядоченных представлений доступа доступны только [рвструктуредбуффер](/windows/desktop/direct3dhlsl/sm5-object-rwstructuredbuffer)s и [рвбитеаддрессбуффер](/windows/desktop/direct3dhlsl/sm5-object-rwbyteaddressbuffer).
 -   Поток может получить доступ к собственному региону в памяти граупшаред для записи, хотя он может считывать из любого расположения.
--   [ОКП \_](/previous-versions/windows/desktop/legacy/ff471569(v=vs.85))При доступе к памяти **граупшаред** для записи необходимо использовать граупиндекс или [SV \_ диспатчсреадид](/windows/desktop/direct3dhlsl/sv-dispatchthreadid) .
+-   [ОКП \_](/previous-versions/windows/desktop/legacy/ff471569(v=vs.85))При доступе к памяти **граупшаред** для записи необходимо использовать граупиндекс или [SV \_ граупсреадид](/windows/desktop/direct3dhlsl/sv-groupthreadid) .
 -   Память **граупшаред** ограничена 16 КБ на группу.
 -   Один поток ограничен размером 256 байт **граупшаред** памяти для записи.
 -   Атомарные инструкции недоступны.
@@ -65,7 +65,7 @@ ms.locfileid: "103797215"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

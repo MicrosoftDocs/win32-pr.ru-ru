@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 06bf059aa110ae3795ea95bc74471b9e7c3f42b8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2b570bee337f1cb61a03701236d31b5256010a1d
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103987089"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222792"
 ---
 # <a name="inline-format-conversion-reference"></a>Ссылка на преобразование встроенного формата
 
@@ -23,7 +23,9 @@ ms.locfileid: "103987089"
 -   [Функции](format-conversion-functions.md)
 -   [Структуры](format-conversion-structures.md)
 
-## <a name="related-topics"></a>См. также
+> Заголовок D3DX_DXGIFormatConvert. inl поставляется в устаревшем пакете SDK DirectX и полагается на поддержку Кснамас для C++. Он также включен в пакет NuGet [Microsoft. дкссдк. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) . В последней версии используется Директксмас для поддержки C++, а все функции определяются в пространстве имен **DirectX** C++.
+
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -33,10 +35,6 @@ ms.locfileid: "103987089"
 [Распаковка и \_ формат упаковки для редактирования образа In-Place](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
-
-
-
+ 
