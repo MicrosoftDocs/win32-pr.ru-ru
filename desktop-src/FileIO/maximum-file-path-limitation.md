@@ -4,12 +4,12 @@ title: Ограничение максимальной длины пути
 ms.topic: article
 ms.custom: contperf-fy21q1
 ms.date: 09/15/2020
-ms.openlocfilehash: 995cd6d973a5bab02deae3068e39e8e3f3d51f40
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 3d71d87f69aeb224cde256ce78bd29fd0bf5c291
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "104273299"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314807"
 ---
 # <a name="maximum-path-length-limitation"></a>Ограничение максимальной длины пути
 
@@ -51,8 +51,8 @@ Windows Registry Editor Version 5.00
 
 ```
 
-    > [!NOTE]  
-    > This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
+> [!NOTE]  
+> Этот раздел реестра можно также контролировать с помощью групповая политика по адресу `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths` .
 
 * [Манифест приложения](../sbscs/application-manifests.md) также должен содержать `longPathAware` элемент.
 
