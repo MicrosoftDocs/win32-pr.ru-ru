@@ -5,12 +5,12 @@ ms.assetid: 45281b42-5cb2-42f9-9c7c-f3e3174b0f9d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e6d0303ee933b81f0c8553b6b0adae64db7f48d
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7e1099028bc85dc6492eade0315b7308b4c6aaa9
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103890267"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314617"
 ---
 # <a name="joining-heterogeneous-data"></a>Соединение разнородных данных
 
@@ -69,21 +69,21 @@ ms.locfileid: "103890267"
 
     В предыдущем примере запрос LDAP состоит из четырех частей:
 
-    -   " <LDAP://DC=Fabrikam,DC=COM> " — это различающееся имя сервера каталогов для поиска.
+    -   " \<LDAP://DC=Fabrikam,DC=COM> " — это различающееся имя сервера каталогов для поиска.
     -   "(& (objectCategory = Person) (objectClass = пользователь))" является фильтром поиска LDAP (см. [синтаксис фильтра поиска](search-filter-syntax.md)).
     -   «Name, ADsPath» — это имена извлекаемых атрибутов (с использованием формата отображаемого имени LDAP).
     -   "поддерево" указывает [область](scope-of-query.md) поиска.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Создание и исполнение представления](creating-and-executing-a-view.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
