@@ -1,5 +1,5 @@
 ---
-title: Акцептсервернаме (Пеапекстенсионстипе), элемент
+title: Элемент Акцептсервернаме (Пеапекстенсионстипе) (EAPHost)
 description: Указывает, проверяется ли имя сервера на соответствие строке имени, указанной в элементе ServerName (Сервервалидатионпараметерс). | Акцептсервернаме (Пеапекстенсионстипе), элемент
 ms.assetid: 95173b57-8100-44e4-98f0-4f2a3deabce7
 keywords:
@@ -14,14 +14,14 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1c877819fd559cb26cd93c5d5456631a93a49545
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ba4874b7c8761f35fa93387b23eaf5463a31bcf4
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104081786"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314607"
 ---
-# <a name="acceptservername-peapextensionstype-element"></a>Акцептсервернаме (Пеапекстенсионстипе), элемент
+# <a name="acceptservername-peapextensionstype-element-eaphost"></a>Элемент Акцептсервернаме (Пеапекстенсионстипе) (EAPHost)
 
 Элемент **акцептсервернаме (пеапекстенсионстипе)** указывает, проверяется ли имя сервера на соответствие строке имени, указанной в элементе [**ServerName (сервервалидатионпараметерс)**](mspeapconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md) .
 
@@ -34,7 +34,7 @@ ms.locfileid: "104081786"
 
 Элемент определяется элементом [**пеапекстенсионстипе**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **акцептсервернаме** является необязательным.
 
@@ -49,7 +49,7 @@ ms.locfileid: "104081786"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
