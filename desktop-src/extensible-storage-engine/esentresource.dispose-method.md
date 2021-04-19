@@ -1,6 +1,6 @@
 ---
 description: 'Дополнительные сведения о: Есентресаурце. Dispose список перегрузок метода'
-title: Есентресаурце. Dispose, метод
+title: Есентресаурце. Dispose, список перегруженных методов
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentResource.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentresource.dispose(v=EXCHG.10)
@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 01f417b2514b29b288adf8e99347fb9fb2577179
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a90411b937dbd4b7844837529fc19f27927bd035
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542610"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389026"
 ---
 # <a name="esentresourcedispose-method-overload-list"></a>Есентресаурце. Dispose, список перегруженных методов
 
@@ -32,7 +32,7 @@ ms.locfileid: "104542610"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Имя</th>
+<th>name</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -53,7 +53,7 @@ ms.locfileid: "104542610"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

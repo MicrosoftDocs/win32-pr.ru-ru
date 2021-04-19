@@ -4,12 +4,12 @@ description: Сбой развертывания приложения может
 ms.assetid: CE868296-87F6-4BD5-8AC5-914E429EDEBC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e0afe77ebfd478be5c652604ea575fc90b5d3ef
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 0b6f50dc5ff428e74f4928fc20775b13de7c3be9
+ms.sourcegitcommit: 784b5954a1646e2406cd4ee27a9e4f50e28ee9b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104412773"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106374835"
 ---
 # <a name="how-to-troubleshoot-app-package-signature-errors"></a>Устранение ошибок подписи пакета приложения
 
@@ -24,7 +24,7 @@ ms.locfileid: "104412773"
 -   [Упаковка, развертывание и запрос приложений Windows](appx-portal.md)
 -   [Проверка доверия сертификата](/windows/desktop/SecCrypto/certificate-trust-verification)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   [Журнал событий Windows](/windows/desktop/WES/windows-event-log) для диагностики сбоев при установке.
 -   [Задачи Certutil для управления сертификатами](/previous-versions/orphan-topics/ws.10/cc772898(v=ws.10)) для обработки хранилища сертификатов во время устранения неполадок
@@ -57,7 +57,7 @@ ms.locfileid: "104412773"
 
 
 
- 
+ 
 
 ### <a name="step-2-determine-the-certificate-chain-used-to-sign-the-app-package"></a>Шаг 2. Определение цепочки сертификатов, используемой для подписания пакета приложения
 
@@ -100,7 +100,7 @@ ms.locfileid: "104412773"
 
 Пакет может не установиться из-за ошибок цепочки сертификатов, даже если сертификат для подписи не является самозаверяющим и корневой сертификат находится в корневом хранилище локального компьютера. В этом случае может возникнуть проблема с доверием для промежуточных центров сертификации. Дополнительные сведения об этой ошибке см. [в разделе Работа с сертификатами](/previous-versions/dotnet/netframework-3.0/ms731899(v=vs.85)).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вы определили, что пакет не может быть развернут, так как сертификат для подписи не является доверенным, не устанавливайте пакет, если вы не уверены в его происхождении и доверяете ему.
 
@@ -143,14 +143,14 @@ ms.locfileid: "104412773"
 
 Добавив сертификат в [хранилища сертификатов локальной машины](/windows-hardware/drivers/install/local-machine-and-current-user-certificate-stores), вы меняете доверие сертификатов всех пользователей на компьютере. Рекомендуется установить все сертификаты подписи кода, необходимые для тестирования пакетов приложений в хранилище сертификатов "Доверенные лица". Немедленно удалите эти сертификаты, когда они больше не нужны, чтобы предотвратить их использование для компрометации доверия системы. Если вы создаете собственные тестовые сертификаты для подписания пакетов приложений, мы также рекомендуем ограничить привилегии, связанные с тестовым сертификатом. Сведения о создании тестовых сертификатов для подписи пакетов приложений см. [в разделе Создание сертификата для подписи пакета приложения](how-to-create-a-package-signing-certificate.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 **Примеры**
 </dt> <dt>
 
-[Пример создания пакета приложения]https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingCreateAppx)
+[Пример создания пакета приложения](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingCreateAppx)
 </dt> <dt>
 
 **Основные понятия**
@@ -162,6 +162,6 @@ ms.locfileid: "104412773"
 [Задачи Certutil для управления сертификатами](/previous-versions/orphan-topics/ws.10/cc772898(v=ws.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 
