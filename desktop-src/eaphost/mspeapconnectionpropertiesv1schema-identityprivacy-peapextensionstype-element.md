@@ -1,5 +1,5 @@
 ---
-title: Идентитиприваци (Пеапекстенсионстипе), элемент
+title: Элемент Идентитиприваци (Пеапекстенсионстипе) (v1)
 description: Указывает, отправляется ли истинное удостоверение пользователя или анонимное удостоверение. | Идентитиприваци (Пеапекстенсионстипе), элемент
 ms.assetid: 1ae5b6e8-b1f8-45a7-ad22-fdb57cc756a2
 keywords:
@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ed566e9be0b9e194d24106f1c82d9a9d6d1a199d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 748cf3ae8d5a4da4f8885332a72326bced45b398
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105674625"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389075"
 ---
 # <a name="identityprivacy-peapextensionstype-element"></a>Идентитиприваци (Пеапекстенсионстипе), элемент
 
@@ -34,7 +34,7 @@ ms.locfileid: "105674625"
 
 Элемент определяется элементом [**пеапекстенсионстипе**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **идентитиприваци** является необязательным.
 
@@ -49,7 +49,7 @@ ms.locfileid: "105674625"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
