@@ -4,15 +4,15 @@ MS-HAID: WWAN\_profile\_v4.element\_1\_ApnID
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: апнид
+title: Апнид (v4)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b9d1c2b15106ff113d723f78ec804963b65d1ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a3838a632359fcdf7bc32004103f6f90163d988
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897293"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106388865"
 ---
 # <a name="span-idwwan_profile_v4element_1_apnidspanmodemdmconfigprofileapnid-v4"></a><span id="WWAN_profile_v4.element_1_ApnID"></span>Модемдмконфигпрофиле \/ апнид (v4)
 
@@ -40,11 +40,11 @@ ms.locfileid: "103897293"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 

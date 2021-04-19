@@ -4,18 +4,18 @@ ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
 title: Флаги сведений о запросе (WinHTTP. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9ffc8f4ba4a947fe6fb277617c99460c43ffb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32ba15c258a37627cdbdd79f13859761fd671385
+ms.sourcegitcommit: df0933ad2b42f07031f4340330712c11cf712ff0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081007"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "107385892"
 ---
 # <a name="query-info-flags-winhttph"></a>Флаги сведений о запросе (WinHTTP. h)
 
-Эти атрибуты и модификаторы используются [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders).
+Эти атрибуты и модификаторы используются [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders).
 
-Флаги атрибута используются [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) для указания извлекаемой информации. Большинство флагов атрибутов сопоставляются непосредственно с конкретным заголовком HTTP. Также есть некоторые специальные флаги, такие как \_ \_ необработанные \_ заголовки запросов WinHTTP, которые не связаны с определенным заголовком.
+Флаги атрибута используются [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) для указания извлекаемой информации. Большинство флагов атрибутов сопоставляются непосредственно с конкретным заголовком HTTP. Также есть некоторые специальные флаги, такие как \_ \_ необработанные \_ заголовки запросов WinHTTP, которые не связаны с определенным заголовком.
 
 <dl> <dt>
 
@@ -84,7 +84,7 @@ ms.locfileid: "104081007"
 
 
 
-Получает [*HTTP-команду*](glossary.md)s, поддерживаемую сервером.
+Получает [**HTTP-команды**](glossary.md) , поддерживаемые сервером.
 
 
 </dt> </dl> </dd> <dt>
@@ -274,7 +274,7 @@ ms.locfileid: "104081007"
 
 
 
-Приводит к тому, что [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) ищет имя заголовка, указанное в параметре *pwszName* , и сохраняет сведения о заголовке в *лпбуффер*. Приложение может использовать **параметр WinHTTP \_ \_ \_ \_ время ожидания ответа** для ограничения максимального времени, в течение которого запрос ожидает получения всех заголовков.
+Приводит к тому, что [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) ищет имя заголовка, указанное в параметре *pwszName* , и сохраняет сведения о заголовке в *лпбуффер*. Приложение может использовать **параметр WinHTTP \_ \_ \_ \_ время ожидания ответа** для ограничения максимального времени, в течение которого запрос ожидает получения всех заголовков.
 
 
 </dt> </dl> </dd> <dt>
@@ -769,7 +769,7 @@ ms.locfileid: "104081007"
 
 </dt> </dl> </dd> </dl>
 
-Флаги модификатора используются вместе с флагом атрибута для изменения запроса. Флаги модификатора либо изменяют формат возвращаемых данных, либо указывают, где функция [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) должна искать информацию.
+Флаги модификатора используются вместе с флагом атрибута для изменения запроса. Флаги модификатора либо изменяют формат возвращаемых данных, либо указывают, где функция [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) должна искать информацию.
 
 <dl> <dt>
 
@@ -798,29 +798,19 @@ ms.locfileid: "104081007"
 
 
 
-Возвращает значение заголовка в виде структуры [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) , которое не требует от приложения анализа данных. Используйте для заголовков, значение которых является строкой даты и времени, например "Last-Modified-Time".
+Возвращает значение заголовка в виде структуры [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) , которое не требует от приложения анализа данных. Используйте для заголовков, значение которых является строкой даты и времени, например "Last-Modified-Time".
 
 
 </dt> </dl> </dd> </dl>
 
 ## <a name="requirements"></a>Требования
 
-
-
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>      |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>   |
-| Header<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
+| Минимальная версия клиента | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]      |
+| Минимальная версия сервера | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]   |
+| Заголовок                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
+## <a name="see-also"></a>См. также
 
-
-## <a name="see-also"></a>См. также раздел
-
-<dl> <dt>
-
-[Версии WinHTTP](winhttp-versions.md)
-</dt> </dl>
-
- 
-
+* [Версии WinHTTP](winhttp-versions.md)

@@ -62,12 +62,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 510f718608363c547c8333279826cc8bac141358
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e8979b4e4842a4c84317b456802ed8f1beefea35
+ms.sourcegitcommit: 1d3c59a7066a75facc0565027251cad1ca1dd9c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104273319"
+ms.lasthandoff: 04/18/2021
+ms.locfileid: "107594169"
 ---
 # <a name="semantics"></a>Семантика
 
@@ -98,7 +98,9 @@ ms.locfileid: "104273319"
 | ПСИЗЕ \[ n\] | Размер точки | FLOAT |
 | ТАНГЕНС \[ n\] | Тангенс | float4 |
 | ТЕКСКУРД \[ n\] | Координаты текстуры | float4 |
+
 | Выходные данные | Описание | Тип |
+|-|-|-|
 | ЦВЕТ \[ n\] | Рассеянный или отраженный цвет | float4 |
 | ТУМАН | Вершинный туман | FLOAT |
 | РАСПОЛОЖЕНИЕ \[ n\] | Расположение вершины в однородном пространстве. Расчетная единица в пространстве экрана путем деления (x, y, z) на w. Каждый шейдер вершин должен записывать параметр с этой семантикой. | float4 |
@@ -150,22 +152,22 @@ ms.locfileid: "104273319"
 <td>Расположение пикселя (x, y) в пространстве экрана. Чтобы преобразовать шейдер Direct3D 9 (который использует эту семантику) в шейдер Direct3D 10 и более поздних версий, см. раздел <a href="#direct3d-9-vpos-and-direct3d-10-sv_position">Direct3D 9 впос and Direct3D 10 SV_Position</a>).</td>
 <td>float2</td>
 </tr>
-<tr class="odd">
-<td>Выходные данные</td>
-<td>Описание</td>
-<td>Тип</td>
+</tbody>
+</table>
+
+<table>
+<th>Выходные данные</th>
+<th>Описание</th>
+<th>Тип</th>
 </tr>
-<tr class="even">
 <td>ЦВЕТ [n]</td>
 <td>Цвет вывода</td>
 <td>float4</td>
 </tr>
-<tr class="odd">
 <td>Глубина [n]</td>
 <td>Глубина вывода</td>
 <td>FLOAT</td>
 </tr>
-</tbody>
 </table>
 
 `n` Необязательное целое число от 0 до поддерживаемого количества ресурсов. Например, PSIZE0, COLOR1 и т. д.
@@ -281,7 +283,7 @@ float4 psMainD3D10( float4 screenSpace : SV_Position ) : COLOR
 
 Начиная с Windows 8, атрибут функции **клиппланес** можно использовать в [ОБЪЯВЛЕНии функции](dx-graphics-hlsl-function-syntax.md) HLSL, а не в SV \_ клипдистанце, чтобы сделать шейдер на [уровне функций](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 x, а \_ также на уровне функций 10 и выше. Дополнительные сведения см. [в статье пользовательские ролики на устройствах на уровне компонентов 9](./user-clip-planes-on-10level9.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Синтаксис языка](dx-graphics-hlsl-language-syntax.md)
 * [Переменные (DirectX HLSL)](dx-graphics-hlsl-variables.md)

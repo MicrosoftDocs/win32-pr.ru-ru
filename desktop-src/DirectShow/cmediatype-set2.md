@@ -1,7 +1,7 @@
 ---
 description: Метод Set задает тип мультимедиа из другого типа носителя.
 ms.assetid: b3cf65c2-48db-4ee0-9a74-c1652f017eed
-title: Метод Кмедиатипе. Set (Мтипе. h)
+title: Метод Кмедиатипе. Set (Мтипе. h) — мтипе [ref]
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: afe99c3f5ee10e6aacd3dadf69af320b110688af
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e8fd9145ee33dbe4b589b34833836466efa62ada
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665297"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389089"
 ---
 # <a name="cmediatypeset-method-mtypeh"></a>Метод Кмедиатипе. Set (Мтипе. h)
 
@@ -53,7 +53,7 @@ HRESULT Set(
 
 Возвращает S \_ OK или E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод копирует весь тип мультимедиа из *мтипе*.
 
@@ -63,12 +63,12 @@ HRESULT Set(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
