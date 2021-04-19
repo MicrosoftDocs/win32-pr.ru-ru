@@ -1,7 +1,7 @@
 ---
 description: Метод конструктора.
 ms.assetid: 6c300f14-5edf-431c-a882-251e87d4de21
-title: Конструктор Коарефтиме. Коарефтиме (Ктлутил. h)
+title: Конструктор Коарефтиме. Коарефтиме (Ктлутил. h) — параметр d
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a87fe0b1e53ede545b1ec3940bdc4afcebd5d4d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee664cbafde48aa0bb579d34937ed80a42b28487
+ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675901"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106389061"
 ---
 # <a name="coareftimecoareftime-constructor-ctlutilh"></a>Конструктор Коарефтиме. Коарефтиме (Ктлутил. h)
 
@@ -55,12 +55,12 @@ COARefTime(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

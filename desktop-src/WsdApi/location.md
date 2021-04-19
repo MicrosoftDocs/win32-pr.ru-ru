@@ -4,12 +4,12 @@ ms.assetid: ba489fd7-2304-426e-83a0-d174bb394065
 title: location - элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a82f4f95e9d66dce2d2f17aba5b86ce1ad4581d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 547160b30299b1143ae2255925f520712fcc63ce
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812646"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380678"
 ---
 # <a name="location-element"></a>location - элемент
 
@@ -35,7 +35,7 @@ ms.locfileid: "103812646"
 
 | Элемент                                     | Описание                                                                                                                             |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**импорсинт**](importhint.md)<br/> | Указывает расположение загрузки для директивы> <WSDL: Import, которая явно не задает расположение.<br/> <br/> |
+| [**импорсинт**](importhint.md)<br/> | Указывает расположение загрузки для \<wsdl:import> директивы, которая не указывает расположение явным образом.<br/> <br/> |
 
 
 

@@ -1,24 +1,24 @@
 ---
-title: Указание корневых подписей в HLSL
+title: Определение корневых подписей в HLSL
 description: Указание корневых подписей в модели шейдера HLSL 5,1 является альтернативой указанию их в коде C++.
 ms.assetid: 399F5E91-B017-4F5E-9037-DC055407D96F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 236876e22c3e1e0bb849ec1e1bc7d45692c900d6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2dad0da9f84d68fc1acbf53332d1cae4075f0faa
+ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548929"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "107492286"
 ---
-# <a name="specifying-root-signatures-in-hlsl"></a>Указание корневых подписей в HLSL
+# <a name="specifying-root-signatures-in-hlsl"></a>Определение корневых подписей в HLSL
 
 Указание корневых подписей в модели шейдера HLSL 5,1 является альтернативой указанию их в коде C++.
 
 -   [Пример корневой подписи HLSL](#an-example-hlsl-root-signature)
     -   [Корневая подпись версии 1,0](#root-signature-version-10)
-    -   [Корневая подпись версии 1,1](#root-signature-version-11)
+    -   [Корневая подпись версии 1.1](#root-signature-version-11)
 -   [рутфлагс](#rootflags)
 -   [Корневые константы](#root-constants)
 -   [Видимость](#visibility)
@@ -59,7 +59,16 @@ ms.locfileid: "104548929"
                              "filter = FILTER_MIN_MAG_MIP_LINEAR )"
 ```
 
-### <a name="root-signature-version-11"></a>Корневая подпись версии 1,1
+Это определение даст следующую корневую подпись, заметив следующее:
+
+-   Использование параметров по умолчанию.
+-   B0 и (B0, Space = 1) не конфликтуют
+-   U0 виден только для шейдера Geometry
+-   U4 и U5 имеют псевдонимы для одного и того же дескриптора в куче.
+
+![Корневая подпись, заданная с помощью языка шейдера высокого уровня](images/hlsl-root-signature.png)
+
+### <a name="root-signature-version-11"></a>Корневая подпись версии 1.1
 
 [Корневая подпись версии 1,1](root-signature-version-1-1.md) включает оптимизацию драйверов для дескрипторов и данных корневой подписи.
 
@@ -81,15 +90,6 @@ ms.locfileid: "104548929"
                              "addressU = TEXTURE_ADDRESS_CLAMP, " \
                              "filter = FILTER_MIN_MAG_MIP_LINEAR )"
 ```
-
-Это определение даст следующую корневую подпись, заметив следующее:
-
--   Использование параметров по умолчанию.
--   B0 и (B0, Space = 1) не конфликтуют
--   U0 виден только для шейдера Geometry
--   U4 и U5 имеют псевдонимы для одного и того же дескриптора в куче.
-
-![Корневая подпись, заданная с помощью языка шейдера высокого уровня](images/hlsl-root-signature.png)
 
 Язык подписи HLSL тесно соответствует API-интерфейсам корневой подписи C++ и имеет эквивалентную ковыразительные возможности. Корневая подпись указывается как последовательность предложений, разделенных запятыми. Порядок предложений важен, так как порядок анализа определяет расположение слота в корневой подписи. Каждое предложение принимает один или несколько именованных параметров. Однако порядок параметров не имеет значения.
 
@@ -297,21 +297,21 @@ fxc.exe /T rootsig_1_1 MyRS1.hlsl /E MyRS1 /Fo MyRS1.fxo
 
 
 
- 
+ 
 
-Функциональность, доступная через FXC, также доступна программно с помощью функции [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile) . Этот вызов компилирует шейдер с корневой подписью или автономной корневой подписью (с указанием \_ \_ целевого объекта рутсиг 1 0). [**D3DGetBlobPart**](/windows/desktop/direct3dhlsl/d3dgetblobpart) и [**D3DSetBlobPart**](/windows/desktop/direct3dhlsl/d3dsetblobpart) могут извлекать и подключать корневые подписи к существующему большому двоичному объекту.\_ \_ Корневая подпись BLOB \_ -объекта D3D используется для указания типа корневой части двоичного объекта подписи. [**D3DStripShader**](/windows/desktop/direct3dhlsl/d3dstripshader) удаляет корневую подпись (с помощью \_ \_ флага подписи корневой папки D3DCOMPILER \_ ) из большого двоичного объекта.
+Функциональность, доступная через FXC, также доступна программно с помощью функции [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile) . Этот вызов компилирует шейдер с корневой подписью или автономной корневой подписью (с указанием \_ \_ целевого объекта рутсиг 1 0). [**D3DGetBlobPart**](/windows/desktop/direct3dhlsl/d3dgetblobpart) и [**D3DSetBlobPart**](/windows/desktop/direct3dhlsl/d3dsetblobpart) могут извлекать и подключать корневые подписи к существующему большому двоичному объекту.  \_ \_ Корневая подпись BLOB \_ -объекта D3D используется для указания типа корневой части двоичного объекта подписи. [**D3DStripShader**](/windows/desktop/direct3dhlsl/d3dstripshader) удаляет корневую подпись (с помощью \_ \_ флага подписи корневой папки D3DCOMPILER \_ ) из большого двоичного объекта.
 
 ## <a name="notes"></a>Примечания
 
 > [!Note]  
 > В то время как настоятельно рекомендуется автономная компиляция шейдеров, если шейдеры должны компилироваться во время выполнения, см. примечания для [**D3DCompile2**](/windows/desktop/direct3dhlsl/d3dcompile2).
 
- 
+ 
 
 > [!Note]  
 > Для использования существующих ресурсов HLSL не требуется изменять их, чтобы обрабатывать корневые подписи.
 
- 
+ 
 
 ## <a name="related-topics"></a>Связанные темы
 
@@ -335,12 +335,12 @@ fxc.exe /T rootsig_1_1 MyRS1.hlsl /E MyRS1 /Fo MyRS1.fxo
 [Модель шейдера 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
-[Заданное значение ссылки на набор элементов в шейдере](shader-specified-stencil-reference-value.md)
+[Контрольное значение трафарета в шейдере](shader-specified-stencil-reference-value.md)
 </dt> <dt>
 
 [Загружаются неупорядоченные представления доступа](typed-unordered-access-view-loads.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
