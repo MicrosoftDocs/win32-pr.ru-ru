@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2b290e3a0bae1f8032b19d4d07203a64e1d1686
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: aa7f5c3a1831681cca2b3dc006ffb7a7d44a7a6a
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105674593"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734119"
 ---
 # <a name="monthlytriggerrandomdelay-property"></a>Монслитригжер. Рандомделай, свойство
 
@@ -38,7 +38,7 @@ MonthlyTrigger.RandomDelay As String
 
 ## <a name="property-value"></a>Значение свойства
 
-Время задержки, которое случайным образом добавляется к времени начала триггера. Формат этой строки — P <days> DT <hours> H <minutes> <seconds> S (например, P2DT5S — 2 дня, задержка 5 секунд).
+Время задержки, которое случайным образом добавляется к времени начала триггера. Формат этой строки — `P<days>DT<hours>H<minutes>M<seconds>S` (например, P2DT5S имеет 2 дня, 5 секунд задержки).
 
 ## <a name="requirements"></a>Требования
 

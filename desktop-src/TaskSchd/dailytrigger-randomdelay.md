@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd24fc5bd97a51cc0276e0fdfe800c0a9baa022a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 303192d578a2681e250784c1e1eb2831c98482cc
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684924"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734109"
 ---
 # <a name="dailytriggerrandomdelay-property"></a>Даилитригжер. Рандомделай, свойство
 
@@ -38,7 +38,7 @@ DailyTrigger.RandomDelay As String
 
 ## <a name="property-value"></a>Значение свойства
 
-Время задержки, которое случайным образом добавляется к времени начала триггера. Формат этой строки — P <days> DT <hours> H <minutes> <seconds> S (например, P2DT5S — 2 дня, задержка 5 секунд).
+Время задержки, которое случайным образом добавляется к времени начала триггера. Формат этой строки — `P<days>DT<hours>H<minutes>M<seconds>S` (например, P2DT5S имеет 2 дня, 5 секунд задержки).
 
 ## <a name="requirements"></a>Требования
 

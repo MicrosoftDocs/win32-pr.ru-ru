@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6f45434fa68b6300157a29318ba257f43bac5992
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a891f60d46f8826faed1cc4b95e4c55f6efa4f7f
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672758"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734169"
 ---
 # <a name="calendartriggertype-complex-type"></a>Сложный тип Календартригжертипе
 
@@ -62,7 +62,7 @@ ms.locfileid: "105672758"
 
 | Элемент                                                                                                      | Тип                                                                                                 | Описание                                                                                                                                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**рандомделай**](taskschedulerschema-randomdelay-calendartriggertype-element.md)                           | длительность                                                                                             | Содержит время задержки, которое случайным образом добавляется к времени начала триггера. Формат этой строки — P <days> DT <hours> H <minutes> <seconds> S (например, P2DT5S — 2 дня, задержка 5 секунд).<br/> |
+| [**рандомделай**](taskschedulerschema-randomdelay-calendartriggertype-element.md)                           | длительность                                                                                             | Содержит время задержки, которое случайным образом добавляется к времени начала триггера. Формат этой строки — `P<days>DT<hours>H<minutes>M<seconds>S` (например, P2DT5S имеет 2 дня, 5 секунд задержки).<br/> |
 | [**счедулебидай**](taskschedulerschema-schedulebyday-calendartriggertype-element.md)                       | [**даилисчедулетипе**](taskschedulerschema-dailyscheduletype-complextype.md)                       | Указывает ежедневное расписание. Например, задача запускается каждый день, каждый второй день, каждый третий день и т. д.<br/>                                                                                                               |
 | [**счедулебимонс**](taskschedulerschema-schedulebymonth-calendartriggertype-element.md)                   | [**монслисчедулетипе**](taskschedulerschema-monthlyscheduletype-complextype.md)                   | Указывает ежемесячное расписание. Например, задача начинается в 8:00 в определенные дни месяца в определенные месяцы. <br/>                                                                                                       |
 | [**счедулебимонсдайофвик**](taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md) | [**монслидайофвиксчедулетипе**](taskschedulerschema-monthlydayofweekscheduletype-complextype.md) | Указывает триггер, который запускает задание в месячном расписании недели. Например, задача запускается в определенные дни недели, недели месяца и месяцы года. <br/>                                               |
@@ -70,7 +70,7 @@ ms.locfileid: "105672758"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Замечания
 
 Помимо дочернего элемента, определенного здесь, элемент [**календартригжер**](taskschedulerschema-calendartrigger-triggergroup-element.md) также использует дочерние элементы, определенные сложным типом [**тригжербасетипе**](taskschedulerschema-triggerbasetype-complextype.md) .
 

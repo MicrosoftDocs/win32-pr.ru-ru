@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f511e43ebb1d61fd80f2fcab34aba092704b8338
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f127c5d434b5cb1e6dec6d8a3c68ee343fa00ffc
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801468"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734149"
 ---
 # <a name="tasksettingsrestartinterval-property"></a>Тасксеттингс. Рестартинтервал, свойство
 
@@ -40,9 +40,9 @@ TaskSettings.RestartInterval As String
 
 ## <a name="property-value"></a>Значение свойства
 
-Значение, указывающее, как долго планировщик задач будет пытаться перезапустить задачу. Если это свойство задано, также должно быть задано свойство [**рестарткаунт**](tasksettings-restartcount.md) . Формат этой строки — P <days> DT <hours> H <minutes> <seconds> S (например, "PT5M" — 5 минут, "PT1H" — 1 час, а "PT20M" — 20 минут). Максимально допустимое время — 31 день. минимальное допустимое время — 1 минута.
+Значение, указывающее, как долго планировщик задач будет пытаться перезапустить задачу. Если это свойство задано, также должно быть задано свойство [**рестарткаунт**](tasksettings-restartcount.md) . Формат этой строки — `P<days>DT<hours>H<minutes>M<seconds>S` (например, "PT5M" — 5 минут, "PT1H" — 1 час, а "PT20M" — 20 минут). Максимально допустимое время — 31 день. минимальное допустимое время — 1 минута.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Замечания
 
 При чтении или записи XML для задачи этот параметр указывается в элементе [**Interval**](taskschedulerschema-interval-restarttype-element.md) схемы планировщик задач.
 

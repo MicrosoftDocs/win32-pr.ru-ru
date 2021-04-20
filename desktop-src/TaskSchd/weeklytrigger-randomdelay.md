@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3a7d955956c119244a5b92a1ee0d81cd5add9b7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d2b320b0def6f8e9cb0dabff9ff04bdfea3d858e
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684978"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734159"
 ---
 # <a name="weeklytriggerrandomdelay-property"></a>Виклитригжер. Рандомделай, свойство
 
@@ -38,7 +38,7 @@ WeeklyTrigger.RandomDelay As String
 
 ## <a name="property-value"></a>Значение свойства
 
-Время задержки, которое случайным образом добавляется к времени начала триггера. Формат этой строки — P <days> DT <hours> H <minutes> <seconds> S (например, P2DT5S — 2 дня, задержка 5 секунд).
+Время задержки, которое случайным образом добавляется к времени начала триггера. Формат этой строки — `P<days>DT<hours>H<minutes>M<seconds>S` (например, P2DT5S имеет 2 дня, 5 секунд задержки).
 
 ## <a name="requirements"></a>Требования
 

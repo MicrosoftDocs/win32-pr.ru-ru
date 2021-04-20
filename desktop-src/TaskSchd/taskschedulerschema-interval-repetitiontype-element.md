@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9720bc2257d4c0b45116089bfdd4113335fc6b8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bfb87884438f1a39a5bd6f08eb9bb855311eb5d3
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988420"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734199"
 ---
 # <a name="interval-repetitiontype-element"></a>Элемент Interval (Репетитионтипе)
 
-Задает интервал времени между перезапусками задачи. Формат этой строки — P <days> DT <hours> H <minutes> <seconds> S (например, "PT5M" — 5 минут, "PT1H" — 1 час, а "PT20M" — 20 минут). Максимально допустимое время — 31 день. минимальное допустимое время — 1 минута.
+Задает интервал времени между перезапусками задачи. Формат этой строки — `P<days>DT<hours>H<minutes>M<seconds>S` (например, "PT5M" — 5 минут, "PT1H" — 1 час, а "PT20M" — 20 минут). Максимально допустимое время — 31 день. минимальное допустимое время — 1 минута.
 
 ``` syntax
 <xs:element name="Interval">
@@ -53,7 +53,7 @@ ms.locfileid: "103988420"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Замечания
 
 Для разработки сценариев интервал шаблона повторения указывается с помощью свойства [**репетитионпаттерн. Interval**](repetitionpattern-interval.md) .
 

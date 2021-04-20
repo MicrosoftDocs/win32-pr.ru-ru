@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c97e754e0b29a43d6ba419bd806404fe1b85b2b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e731582364df23bdef800ab5d2cf15dd5c882ae
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988294"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734189"
 ---
 # <a name="interval-restarttype-element"></a>Элемент Interval (Рестарттипе)
 
-Указывает, как долго планировщик задач будет пытаться перезапустить задачу. Формат этой строки — P <days> DT <hours> H <minutes> <seconds> S (например, "PT5M" — 5 минут, "PT1H" — 1 час, а "PT20M" — 20 минут). Максимально допустимое время — 31 день. минимальное допустимое время — 1 минута.
+Указывает, как долго планировщик задач будет пытаться перезапустить задачу. Формат этой строки — `P<days>DT<hours>H<minutes>M<seconds>S` (например, "PT5M" — 5 минут, "PT1H" — 1 час, а "PT20M" — 20 минут). Максимально допустимое время — 31 день. минимальное допустимое время — 1 минута.
 
 ``` syntax
 <xs:element name="Interval">
@@ -53,7 +53,7 @@ ms.locfileid: "103988294"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Замечания
 
 Если этот элемент указан, необходимо также указать элемент [**Count**](taskschedulerschema-count-restarttype-element.md) , чтобы сообщить планировщик задач, сколько раз оно должно попытаться перезапустить задачу.
 

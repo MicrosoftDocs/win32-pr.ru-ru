@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8ca21464df967ff473a767e814b9ce6969a56c00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f44f0959a9f67e4bfee0b0ef5dd7f095ffbadce
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672528"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734139"
 ---
 # <a name="timetriggertype-complex-type"></a>Сложный тип Тиметригжертипе
 
@@ -47,11 +47,11 @@ ms.locfileid: "105672528"
 
 | Элемент                                                                        | Тип     | Описание                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**рандомделай**](taskschedulerschema-randomdelay-timetriggertype-element.md) | длительность | Указывает время задержки, которое добавляется случайным образом к времени начала триггера. Формат этой строки — P <days> DT <hours> H <minutes> <seconds> S (например, P2DT5S — 2 дня, задержка 5 секунд). <br/> |
+| [**рандомделай**](taskschedulerschema-randomdelay-timetriggertype-element.md) | длительность | Указывает время задержки, которое добавляется случайным образом к времени начала триггера. Формат этой строки — `P<days>DT<hours>H<minutes>M<seconds>S` (например, P2DT5S имеет 2 дня, 5 секунд задержки). <br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Замечания
 
 Обратите внимание, что этот элемент не добавляет никаких дочерних элементов к элементам, определенным сложным типом [**тригжербасетипе**](taskschedulerschema-triggerbasetype-complextype.md) .
 

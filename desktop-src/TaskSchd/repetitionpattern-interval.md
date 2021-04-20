@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d62bb821f4c5e61d344e21fafa4ba1265c73470
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1e81920fffe5c9fd58dd36a028b924f54ebe6dd
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534601"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734179"
 ---
 # <a name="repetitionpatterninterval-property"></a>Репетитионпаттерн. Interval, свойство
 
@@ -38,9 +38,9 @@ RepetitionPattern.Interval As String
 
 ## <a name="property-value"></a>Значение свойства
 
-Промежуток времени между перезапусками задачи. Формат этой строки — P <days> DT <hours> H <minutes> <seconds> S (например, "PT5M" — 5 минут, "PT1H" — 1 час, а "PT20M" — 20 минут). Максимально допустимое время — 31 день. минимальное допустимое время — 1 минута.
+Промежуток времени между перезапусками задачи. Формат этой строки — `P<days>DT<hours>H<minutes>M<seconds>S` (например, "PT5M" — 5 минут, "PT1H" — 1 час, а "PT20M" — 20 минут). Максимально допустимое время — 31 день. минимальное допустимое время — 1 минута.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Замечания
 
 Если для задачи задана длительность повторения, необходимо также указать интервал повторения.
 
