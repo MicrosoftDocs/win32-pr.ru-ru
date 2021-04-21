@@ -44,23 +44,23 @@ api_location:
 - DirectML.h
 api_name:
 - DML_DEPTH_TO_SPACE1_OPERATOR_DESC
-ms.openlocfilehash: 639bda0b8d398d24b01649635d3cfcbd2301a211
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 89b62a9916ee77dd6907d01710624d6e9a40a20a
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105720001"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803270"
 ---
-# <a name="dml_depth_to_space1_operator_desc-structure-directmlh"></a><span data-ttu-id="78842-104">Структура DML_DEPTH_TO_SPACE1_OPERATOR_DESC (директмл. h)</span><span class="sxs-lookup"><span data-stu-id="78842-104">DML_DEPTH_TO_SPACE1_OPERATOR_DESC structure (directml.h)</span></span>
+# <a name="dml_depth_to_space1_operator_desc-structure-directmlh"></a><span data-ttu-id="a4735-104">Структура DML_DEPTH_TO_SPACE1_OPERATOR_DESC (директмл. h)</span><span class="sxs-lookup"><span data-stu-id="a4735-104">DML_DEPTH_TO_SPACE1_OPERATOR_DESC structure (directml.h)</span></span>
 
-<span data-ttu-id="78842-105">Переупорядочивает (пермутес) данные из глубины в блоки пространственных данных.</span><span class="sxs-lookup"><span data-stu-id="78842-105">Rearranges (permutes) data from depth into blocks of spatial data.</span></span> <span data-ttu-id="78842-106">Оператор выводит копию входного тензорные, где значения из измерения глубины перемещаются в пространственные блоки в измерения высоты и ширины.</span><span class="sxs-lookup"><span data-stu-id="78842-106">The operator outputs a copy of the input tensor where values from the depth dimension are moved in spatial blocks to the height and width dimensions.</span></span>
+<span data-ttu-id="a4735-105">Переупорядочивает (пермутес) данные из глубины в блоки пространственных данных.</span><span class="sxs-lookup"><span data-stu-id="a4735-105">Rearranges (permutes) data from depth into blocks of spatial data.</span></span> <span data-ttu-id="a4735-106">Оператор выводит копию входного тензорные, где значения из измерения глубины перемещаются в пространственные блоки в измерения высоты и ширины.</span><span class="sxs-lookup"><span data-stu-id="a4735-106">The operator outputs a copy of the input tensor where values from the depth dimension are moved in spatial blocks to the height and width dimensions.</span></span>
 
-<span data-ttu-id="78842-107">Это обратное преобразование [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md).</span><span class="sxs-lookup"><span data-stu-id="78842-107">This is the inverse transformation of [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md).</span></span>
+<span data-ttu-id="a4735-107">Это обратное преобразование [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md).</span><span class="sxs-lookup"><span data-stu-id="a4735-107">This is the inverse transformation of [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="78842-108">Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)).</span><span class="sxs-lookup"><span data-stu-id="78842-108">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="78842-109">См. также [Журнал версий директмл](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="78842-109">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="a4735-108">Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий).</span><span class="sxs-lookup"><span data-stu-id="a4735-108">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="a4735-109">См. также [Журнал версий директмл](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="a4735-109">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="78842-110">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="78842-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a4735-110">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a4735-110">Syntax</span></span>
 ```cpp
 struct DML_DEPTH_TO_SPACE1_OPERATOR_DESC {
   const DML_TENSOR_DESC *InputTensor;
@@ -72,42 +72,42 @@ struct DML_DEPTH_TO_SPACE1_OPERATOR_DESC {
 
 
 
-## <a name="members"></a><span data-ttu-id="78842-111">Члены</span><span class="sxs-lookup"><span data-stu-id="78842-111">Members</span></span>
+## <a name="members"></a><span data-ttu-id="a4735-111">Члены</span><span class="sxs-lookup"><span data-stu-id="a4735-111">Members</span></span>
 
 `InputTensor`
 
-<span data-ttu-id="78842-112">Тип: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="78842-112">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="a4735-112">Тип: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="a4735-112">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="78842-113">Тензорные, из которого производится чтение.</span><span class="sxs-lookup"><span data-stu-id="78842-113">The tensor to read from.</span></span> <span data-ttu-id="78842-114">К измерениям входного тензорные присвоено значение `{ BatchCount, InputChannelCount, InputHeight, InputWidth }` .</span><span class="sxs-lookup"><span data-stu-id="78842-114">The input tensor's dimensions are `{ BatchCount, InputChannelCount, InputHeight, InputWidth }`.</span></span>
+<span data-ttu-id="a4735-113">Тензорные, из которого производится чтение.</span><span class="sxs-lookup"><span data-stu-id="a4735-113">The tensor to read from.</span></span> <span data-ttu-id="a4735-114">К измерениям входного тензорные присвоено значение `{ BatchCount, InputChannelCount, InputHeight, InputWidth }` .</span><span class="sxs-lookup"><span data-stu-id="a4735-114">The input tensor's dimensions are `{ BatchCount, InputChannelCount, InputHeight, InputWidth }`.</span></span>
 
 
 `OutputTensor`
 
-<span data-ttu-id="78842-115">Тип: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="78842-115">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="a4735-115">Тип: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="a4735-115">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="78842-116">Объект тензорные, в который записываются результаты.</span><span class="sxs-lookup"><span data-stu-id="78842-116">The tensor to write the results to.</span></span> <span data-ttu-id="78842-117">Размеры выходных тензорные равны `{ BatchCount, OutputChannelCount, OutputHeight, OutputWidth }` , где:</span><span class="sxs-lookup"><span data-stu-id="78842-117">The output tensor's dimensions are `{ BatchCount, OutputChannelCount, OutputHeight, OutputWidth }`, where:</span></span>
+<span data-ttu-id="a4735-116">Объект тензорные, в который записываются результаты.</span><span class="sxs-lookup"><span data-stu-id="a4735-116">The tensor to write the results to.</span></span> <span data-ttu-id="a4735-117">Размеры выходных тензорные равны `{ BatchCount, OutputChannelCount, OutputHeight, OutputWidth }` , где:</span><span class="sxs-lookup"><span data-stu-id="a4735-117">The output tensor's dimensions are `{ BatchCount, OutputChannelCount, OutputHeight, OutputWidth }`, where:</span></span>
 
-* <span data-ttu-id="78842-118">Аутпутчаннелкаунт вычислено как Инпутчаннелкаунт/( `BlockSize`  \*  `BlockSize` )</span><span class="sxs-lookup"><span data-stu-id="78842-118">OutputChannelCount is computed as InputChannelCount / (`BlockSize` \* `BlockSize`)</span></span>
-* <span data-ttu-id="78842-119">Аутпусеигхт вычислено как Инпусеигхт \* `BlockSize`</span><span class="sxs-lookup"><span data-stu-id="78842-119">OutputHeight is computed as InputHeight \* `BlockSize`</span></span>
-* <span data-ttu-id="78842-120">Аутпутвидс вычислено как Инпутвидс \* `BlockSize`</span><span class="sxs-lookup"><span data-stu-id="78842-120">OutputWidth is computed as InputWidth \* `BlockSize`</span></span>
+* <span data-ttu-id="a4735-118">Аутпутчаннелкаунт вычислено как Инпутчаннелкаунт/( `BlockSize`  \*  `BlockSize` )</span><span class="sxs-lookup"><span data-stu-id="a4735-118">OutputChannelCount is computed as InputChannelCount / (`BlockSize` \* `BlockSize`)</span></span>
+* <span data-ttu-id="a4735-119">Аутпусеигхт вычислено как Инпусеигхт \* `BlockSize`</span><span class="sxs-lookup"><span data-stu-id="a4735-119">OutputHeight is computed as InputHeight \* `BlockSize`</span></span>
+* <span data-ttu-id="a4735-120">Аутпутвидс вычислено как Инпутвидс \* `BlockSize`</span><span class="sxs-lookup"><span data-stu-id="a4735-120">OutputWidth is computed as InputWidth \* `BlockSize`</span></span>
 
 
 `BlockSize`
 
-<span data-ttu-id="78842-121">Тип: [ **uint**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="78842-121">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
+<span data-ttu-id="a4735-121">Тип: [ **uint**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="a4735-121">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
 
-<span data-ttu-id="78842-122">Ширина и высота перемещаемых блоков.</span><span class="sxs-lookup"><span data-stu-id="78842-122">The width and height of the blocks that are moved.</span></span>
+<span data-ttu-id="a4735-122">Ширина и высота перемещаемых блоков.</span><span class="sxs-lookup"><span data-stu-id="a4735-122">The width and height of the blocks that are moved.</span></span>
 
 
 `Order`
 
-<span data-ttu-id="78842-123">Тип: **[DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md)**</span><span class="sxs-lookup"><span data-stu-id="78842-123">Type: **[DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md)**</span></span>
+<span data-ttu-id="a4735-123">Тип: **[DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md)**</span><span class="sxs-lookup"><span data-stu-id="a4735-123">Type: **[DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md)**</span></span>
 
-<span data-ttu-id="78842-124">См. [DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md).</span><span class="sxs-lookup"><span data-stu-id="78842-124">See [DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md).</span></span>
+<span data-ttu-id="a4735-124">См. [DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md).</span><span class="sxs-lookup"><span data-stu-id="a4735-124">See [DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md).</span></span>
 
-## <a name="examples"></a><span data-ttu-id="78842-125">Примеры</span><span class="sxs-lookup"><span data-stu-id="78842-125">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="a4735-125">Примеры</span><span class="sxs-lookup"><span data-stu-id="a4735-125">Examples</span></span>
 
-<span data-ttu-id="78842-126">В примерах, приведенных в этом разделе, используются следующие входные данные.</span><span class="sxs-lookup"><span data-stu-id="78842-126">The examples in this section all use the input below.</span></span>
+<span data-ttu-id="a4735-126">В примерах, приведенных в этом разделе, используются следующие входные данные.</span><span class="sxs-lookup"><span data-stu-id="a4735-126">The examples in this section all use the input below.</span></span>
 
 ```
 InputTensor: (Sizes:{1, 8, 2, 3}, DataType:UINT32)
@@ -129,7 +129,7 @@ InputTensor: (Sizes:{1, 8, 2, 3}, DataType:UINT32)
    [66, 67, 68]]]]
 ```
 
-### <a name="example-1-depth-column-row-order"></a><span data-ttu-id="78842-127">Пример 1.</span><span class="sxs-lookup"><span data-stu-id="78842-127">Example 1.</span></span> <span data-ttu-id="78842-128">Порядок строк в столбцах</span><span class="sxs-lookup"><span data-stu-id="78842-128">Depth-column-row order</span></span>
+### <a name="example-1-depth-column-row-order"></a><span data-ttu-id="a4735-127">Пример 1.</span><span class="sxs-lookup"><span data-stu-id="a4735-127">Example 1.</span></span> <span data-ttu-id="a4735-128">Порядок строк в столбцах</span><span class="sxs-lookup"><span data-stu-id="a4735-128">Depth-column-row order</span></span>
 
 ```
 BlockSize: 2
@@ -145,7 +145,7 @@ OutputTensor: (Sizes:{1, 2, 4, 6}, DataType:UINT32)
     [48, 66, 49, 67, 50, 68]]]]
 ```
 
-### <a name="example-2-column-row-depth-order"></a><span data-ttu-id="78842-129">Пример 2.</span><span class="sxs-lookup"><span data-stu-id="78842-129">Example 2.</span></span> <span data-ttu-id="78842-130">Порядок столбцов в строках</span><span class="sxs-lookup"><span data-stu-id="78842-130">Column-row-depth order</span></span>
+### <a name="example-2-column-row-depth-order"></a><span data-ttu-id="a4735-129">Пример 2.</span><span class="sxs-lookup"><span data-stu-id="a4735-129">Example 2.</span></span> <span data-ttu-id="a4735-130">Порядок столбцов в строках</span><span class="sxs-lookup"><span data-stu-id="a4735-130">Column-row-depth order</span></span>
 
 ```
 BlockSize: 2
@@ -162,28 +162,28 @@ OutputTensor: (Sizes:{1, 2, 4, 6}, DataType:UINT32)
 ```
 
 
-## <a name="remarks"></a><span data-ttu-id="78842-131">Комментарии</span><span class="sxs-lookup"><span data-stu-id="78842-131">Remarks</span></span>
-<span data-ttu-id="78842-132">Если для параметра *Order* задано значение [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](./ne-directml-dml_depth_space_order.md), **DML_DEPTH_TO_SPACE1_OPERATOR_DESC** эквивалентно [DML_DEPTH_TO_SPACE_OPERATOR_DESC]().</span><span class="sxs-lookup"><span data-stu-id="78842-132">When *Order* is set to [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](./ne-directml-dml_depth_space_order.md), **DML_DEPTH_TO_SPACE1_OPERATOR_DESC** is equivalent to [DML_DEPTH_TO_SPACE_OPERATOR_DESC]().</span></span>
+## <a name="remarks"></a><span data-ttu-id="a4735-131">Комментарии</span><span class="sxs-lookup"><span data-stu-id="a4735-131">Remarks</span></span>
+<span data-ttu-id="a4735-132">Если для параметра *Order* задано значение [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](./ne-directml-dml_depth_space_order.md), **DML_DEPTH_TO_SPACE1_OPERATOR_DESC** эквивалентно [DML_DEPTH_TO_SPACE_OPERATOR_DESC]().</span><span class="sxs-lookup"><span data-stu-id="a4735-132">When *Order* is set to [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](./ne-directml-dml_depth_space_order.md), **DML_DEPTH_TO_SPACE1_OPERATOR_DESC** is equivalent to [DML_DEPTH_TO_SPACE_OPERATOR_DESC]().</span></span>
 
-## <a name="availability"></a><span data-ttu-id="78842-133">Доступность</span><span class="sxs-lookup"><span data-stu-id="78842-133">Availability</span></span>
-<span data-ttu-id="78842-134">Этот оператор появился в `DML_FEATURE_LEVEL_2_1` .</span><span class="sxs-lookup"><span data-stu-id="78842-134">This operator was introduced in `DML_FEATURE_LEVEL_2_1`.</span></span>
+## <a name="availability"></a><span data-ttu-id="a4735-133">Доступность</span><span class="sxs-lookup"><span data-stu-id="a4735-133">Availability</span></span>
+<span data-ttu-id="a4735-134">Этот оператор появился в `DML_FEATURE_LEVEL_2_1` .</span><span class="sxs-lookup"><span data-stu-id="a4735-134">This operator was introduced in `DML_FEATURE_LEVEL_2_1`.</span></span>
 
-## <a name="tensor-constraints"></a><span data-ttu-id="78842-135">Ограничения тензорные</span><span class="sxs-lookup"><span data-stu-id="78842-135">Tensor constraints</span></span>
-<span data-ttu-id="78842-136">*Инпуттенсор* и *аутпуттенсор* должны иметь одинаковый *тип данных*.</span><span class="sxs-lookup"><span data-stu-id="78842-136">*InputTensor* and *OutputTensor* must have the same *DataType*.</span></span>
+## <a name="tensor-constraints"></a><span data-ttu-id="a4735-135">Ограничения тензорные</span><span class="sxs-lookup"><span data-stu-id="a4735-135">Tensor constraints</span></span>
+<span data-ttu-id="a4735-136">*Инпуттенсор* и *аутпуттенсор* должны иметь одинаковый *тип данных*.</span><span class="sxs-lookup"><span data-stu-id="a4735-136">*InputTensor* and *OutputTensor* must have the same *DataType*.</span></span>
 
-## <a name="tensor-support"></a><span data-ttu-id="78842-137">Поддержка тензорные</span><span class="sxs-lookup"><span data-stu-id="78842-137">Tensor support</span></span>
-| <span data-ttu-id="78842-138">Тензорные</span><span class="sxs-lookup"><span data-stu-id="78842-138">Tensor</span></span> | <span data-ttu-id="78842-139">Вид</span><span class="sxs-lookup"><span data-stu-id="78842-139">Kind</span></span> | <span data-ttu-id="78842-140">Измерения</span><span class="sxs-lookup"><span data-stu-id="78842-140">Dimensions</span></span> | <span data-ttu-id="78842-141">Поддерживаемые счетчики измерений</span><span class="sxs-lookup"><span data-stu-id="78842-141">Supported dimension counts</span></span> | <span data-ttu-id="78842-142">Поддерживаемые типы данных</span><span class="sxs-lookup"><span data-stu-id="78842-142">Supported data types</span></span> |
+## <a name="tensor-support"></a><span data-ttu-id="a4735-137">Поддержка тензорные</span><span class="sxs-lookup"><span data-stu-id="a4735-137">Tensor support</span></span>
+| <span data-ttu-id="a4735-138">Тензорные</span><span class="sxs-lookup"><span data-stu-id="a4735-138">Tensor</span></span> | <span data-ttu-id="a4735-139">Вид</span><span class="sxs-lookup"><span data-stu-id="a4735-139">Kind</span></span> | <span data-ttu-id="a4735-140">Измерения</span><span class="sxs-lookup"><span data-stu-id="a4735-140">Dimensions</span></span> | <span data-ttu-id="a4735-141">Поддерживаемые счетчики измерений</span><span class="sxs-lookup"><span data-stu-id="a4735-141">Supported dimension counts</span></span> | <span data-ttu-id="a4735-142">Поддерживаемые типы данных</span><span class="sxs-lookup"><span data-stu-id="a4735-142">Supported data types</span></span> |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
-| <span data-ttu-id="78842-143">инпуттенсор</span><span class="sxs-lookup"><span data-stu-id="78842-143">InputTensor</span></span> | <span data-ttu-id="78842-144">Входные данные</span><span class="sxs-lookup"><span data-stu-id="78842-144">Input</span></span> | <span data-ttu-id="78842-145">{Батчкаунт, Инпутчаннелкаунт, Инпусеигхт, Инпутвидс}</span><span class="sxs-lookup"><span data-stu-id="78842-145">{ BatchCount, InputChannelCount, InputHeight, InputWidth }</span></span> | <span data-ttu-id="78842-146">4</span><span class="sxs-lookup"><span data-stu-id="78842-146">4</span></span> | <span data-ttu-id="78842-147">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="78842-147">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
-| <span data-ttu-id="78842-148">аутпуттенсор</span><span class="sxs-lookup"><span data-stu-id="78842-148">OutputTensor</span></span> | <span data-ttu-id="78842-149">Выходные данные</span><span class="sxs-lookup"><span data-stu-id="78842-149">Output</span></span> | <span data-ttu-id="78842-150">{Батчкаунт, Аутпутчаннелкаунт, Аутпусеигхт, Аутпутвидс}</span><span class="sxs-lookup"><span data-stu-id="78842-150">{ BatchCount, OutputChannelCount, OutputHeight, OutputWidth }</span></span> | <span data-ttu-id="78842-151">4</span><span class="sxs-lookup"><span data-stu-id="78842-151">4</span></span> | <span data-ttu-id="78842-152">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="78842-152">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="a4735-143">инпуттенсор</span><span class="sxs-lookup"><span data-stu-id="a4735-143">InputTensor</span></span> | <span data-ttu-id="a4735-144">Входные данные</span><span class="sxs-lookup"><span data-stu-id="a4735-144">Input</span></span> | <span data-ttu-id="a4735-145">{Батчкаунт, Инпутчаннелкаунт, Инпусеигхт, Инпутвидс}</span><span class="sxs-lookup"><span data-stu-id="a4735-145">{ BatchCount, InputChannelCount, InputHeight, InputWidth }</span></span> | <span data-ttu-id="a4735-146">4</span><span class="sxs-lookup"><span data-stu-id="a4735-146">4</span></span> | <span data-ttu-id="a4735-147">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="a4735-147">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="a4735-148">аутпуттенсор</span><span class="sxs-lookup"><span data-stu-id="a4735-148">OutputTensor</span></span> | <span data-ttu-id="a4735-149">Выходные данные</span><span class="sxs-lookup"><span data-stu-id="a4735-149">Output</span></span> | <span data-ttu-id="a4735-150">{Батчкаунт, Аутпутчаннелкаунт, Аутпусеигхт, Аутпутвидс}</span><span class="sxs-lookup"><span data-stu-id="a4735-150">{ BatchCount, OutputChannelCount, OutputHeight, OutputWidth }</span></span> | <span data-ttu-id="a4735-151">4</span><span class="sxs-lookup"><span data-stu-id="a4735-151">4</span></span> | <span data-ttu-id="a4735-152">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="a4735-152">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
 
 
-## <a name="requirements"></a><span data-ttu-id="78842-153">Требования</span><span class="sxs-lookup"><span data-stu-id="78842-153">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="a4735-153">Требования</span><span class="sxs-lookup"><span data-stu-id="a4735-153">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="78842-154">**Header**</span><span class="sxs-lookup"><span data-stu-id="78842-154">**Header**</span></span> | <span data-ttu-id="78842-155">директмл. h</span><span class="sxs-lookup"><span data-stu-id="78842-155">directml.h</span></span> |
+| <span data-ttu-id="a4735-154">**Header**</span><span class="sxs-lookup"><span data-stu-id="a4735-154">**Header**</span></span> | <span data-ttu-id="a4735-155">директмл. h</span><span class="sxs-lookup"><span data-stu-id="a4735-155">directml.h</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="78842-156">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="78842-156">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a4735-156">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="a4735-156">See also</span></span>
 
-* [<span data-ttu-id="78842-157">DML_DEPTH_TO_SPACE_OPERATOR_DESC</span><span class="sxs-lookup"><span data-stu-id="78842-157">DML_DEPTH_TO_SPACE_OPERATOR_DESC</span></span>](/windows/win32/api/directml/ns-directml-dml_depth_to_space_operator_desc)
-* [<span data-ttu-id="78842-158">DML_SPACE_TO_DEPTH1_OPERATOR_DESC</span><span class="sxs-lookup"><span data-stu-id="78842-158">DML_SPACE_TO_DEPTH1_OPERATOR_DESC</span></span>](./ns-directml-dml_space_to_depth1_operator_desc.md)
+* [<span data-ttu-id="a4735-157">DML_DEPTH_TO_SPACE_OPERATOR_DESC</span><span class="sxs-lookup"><span data-stu-id="a4735-157">DML_DEPTH_TO_SPACE_OPERATOR_DESC</span></span>](/windows/win32/api/directml/ns-directml-dml_depth_to_space_operator_desc)
+* [<span data-ttu-id="a4735-158">DML_SPACE_TO_DEPTH1_OPERATOR_DESC</span><span class="sxs-lookup"><span data-stu-id="a4735-158">DML_SPACE_TO_DEPTH1_OPERATOR_DESC</span></span>](./ns-directml-dml_space_to_depth1_operator_desc.md)

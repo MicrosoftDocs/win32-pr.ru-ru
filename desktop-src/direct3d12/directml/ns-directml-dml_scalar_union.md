@@ -45,20 +45,20 @@ api_location:
 - DirectML.h
 api_name:
 - DML_SCALAR_UNION
-ms.openlocfilehash: 0abef8cd5a694fa82e0e54e334834773f1f75e20
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: d53ec7025d3da5a07a648849e366d436755ad3f1
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719944"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803950"
 ---
-# <a name="dml_scalar_union-union-directmlh"></a><span data-ttu-id="94b28-103">Объединение DML_SCALAR_UNION (директмл. h)</span><span class="sxs-lookup"><span data-stu-id="94b28-103">DML_SCALAR_UNION union (directml.h)</span></span>
-<span data-ttu-id="94b28-104">Объединение скалярных типов.</span><span class="sxs-lookup"><span data-stu-id="94b28-104">A union of scalar types.</span></span>
+# <a name="dml_scalar_union-union-directmlh"></a><span data-ttu-id="84166-103">Объединение DML_SCALAR_UNION (директмл. h)</span><span class="sxs-lookup"><span data-stu-id="84166-103">DML_SCALAR_UNION union (directml.h)</span></span>
+<span data-ttu-id="84166-104">Объединение скалярных типов.</span><span class="sxs-lookup"><span data-stu-id="84166-104">A union of scalar types.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="94b28-105">Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)).</span><span class="sxs-lookup"><span data-stu-id="94b28-105">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="94b28-106">См. также [Журнал версий директмл](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="94b28-106">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="84166-105">Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий).</span><span class="sxs-lookup"><span data-stu-id="84166-105">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="84166-106">См. также [Журнал версий директмл](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="84166-106">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="94b28-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="94b28-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="84166-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="84166-107">Syntax</span></span>
 ```cpp
 union DML_SCALAR_UNION {
   BYTE   Bytes[8];
@@ -77,65 +77,65 @@ union DML_SCALAR_UNION {
 
 
 
-## <a name="members"></a><span data-ttu-id="94b28-108">Члены</span><span class="sxs-lookup"><span data-stu-id="94b28-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="84166-108">Члены</span><span class="sxs-lookup"><span data-stu-id="84166-108">Members</span></span>
 
 `Bytes`
 
-<span data-ttu-id="94b28-109">8-байтовый массив.</span><span class="sxs-lookup"><span data-stu-id="94b28-109">An 8-byte array.</span></span>
+<span data-ttu-id="84166-109">8-байтовый массив.</span><span class="sxs-lookup"><span data-stu-id="84166-109">An 8-byte array.</span></span>
 
 
 `Int8`
 
-<span data-ttu-id="94b28-110">8-битовое целое число со знаком.</span><span class="sxs-lookup"><span data-stu-id="94b28-110">An 8-bit signed integer.</span></span>
+<span data-ttu-id="84166-110">8-битовое целое число со знаком.</span><span class="sxs-lookup"><span data-stu-id="84166-110">An 8-bit signed integer.</span></span>
 
 
 `UInt8`
 
-<span data-ttu-id="94b28-111">8-разрядное целое число без знака.</span><span class="sxs-lookup"><span data-stu-id="94b28-111">An 8-bit unsigned integer.</span></span>
+<span data-ttu-id="84166-111">8-разрядное целое число без знака.</span><span class="sxs-lookup"><span data-stu-id="84166-111">An 8-bit unsigned integer.</span></span>
 
 
 `Int16`
 
-<span data-ttu-id="94b28-112">16-разрядное знаковое целое число.</span><span class="sxs-lookup"><span data-stu-id="94b28-112">A 16-bit signed integer.</span></span>
+<span data-ttu-id="84166-112">16-разрядное знаковое целое число.</span><span class="sxs-lookup"><span data-stu-id="84166-112">A 16-bit signed integer.</span></span>
 
 
 `UInt16`
 
-<span data-ttu-id="94b28-113">16-разрядное целое число без знака.</span><span class="sxs-lookup"><span data-stu-id="94b28-113">A 16-bit unsigned integer.</span></span>
+<span data-ttu-id="84166-113">16-разрядное целое число без знака.</span><span class="sxs-lookup"><span data-stu-id="84166-113">A 16-bit unsigned integer.</span></span>
 
 
 `Int32`
 
-<span data-ttu-id="94b28-114">32-разрядное знаковое целое число.</span><span class="sxs-lookup"><span data-stu-id="94b28-114">A 32-bit signed integer.</span></span>
+<span data-ttu-id="84166-114">32-разрядное знаковое целое число.</span><span class="sxs-lookup"><span data-stu-id="84166-114">A 32-bit signed integer.</span></span>
 
 
 `UInt32`
 
-<span data-ttu-id="94b28-115">32-разрядное целое число без знака.</span><span class="sxs-lookup"><span data-stu-id="94b28-115">A 32-bit unsigned integer.</span></span>
+<span data-ttu-id="84166-115">32-разрядное целое число без знака.</span><span class="sxs-lookup"><span data-stu-id="84166-115">A 32-bit unsigned integer.</span></span>
 
 
 `Int64`
 
-<span data-ttu-id="94b28-116">64-разрядное целое число со знаком.</span><span class="sxs-lookup"><span data-stu-id="94b28-116">A 64-bit signed integer.</span></span>
+<span data-ttu-id="84166-116">64-разрядное целое число со знаком.</span><span class="sxs-lookup"><span data-stu-id="84166-116">A 64-bit signed integer.</span></span>
 
 
 `UInt64`
 
-<span data-ttu-id="94b28-117">64-разрядное целое число без знака.</span><span class="sxs-lookup"><span data-stu-id="94b28-117">A 64-bit unsigned integer.</span></span>
+<span data-ttu-id="84166-117">64-разрядное целое число без знака.</span><span class="sxs-lookup"><span data-stu-id="84166-117">A 64-bit unsigned integer.</span></span>
 
 
 `Float32`
 
-<span data-ttu-id="94b28-118">Число с плавающей запятой одиночной точности.</span><span class="sxs-lookup"><span data-stu-id="94b28-118">A single precision floating-point number.</span></span>
+<span data-ttu-id="84166-118">Число с плавающей запятой одиночной точности.</span><span class="sxs-lookup"><span data-stu-id="84166-118">A single precision floating-point number.</span></span>
 
 
 `Float64`
 
-<span data-ttu-id="94b28-119">Число с плавающей запятой двойной точности.</span><span class="sxs-lookup"><span data-stu-id="94b28-119">A double precision floating-point number.</span></span>
+<span data-ttu-id="84166-119">Число с плавающей запятой двойной точности.</span><span class="sxs-lookup"><span data-stu-id="84166-119">A double precision floating-point number.</span></span>
 
 
 
-## <a name="requirements"></a><span data-ttu-id="94b28-120">Требования</span><span class="sxs-lookup"><span data-stu-id="94b28-120">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="84166-120">Требования</span><span class="sxs-lookup"><span data-stu-id="84166-120">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="94b28-121">**Header**</span><span class="sxs-lookup"><span data-stu-id="94b28-121">**Header**</span></span> | <span data-ttu-id="94b28-122">директмл. h</span><span class="sxs-lookup"><span data-stu-id="94b28-122">directml.h</span></span> |
+| <span data-ttu-id="84166-121">**Header**</span><span class="sxs-lookup"><span data-stu-id="84166-121">**Header**</span></span> | <span data-ttu-id="84166-122">директмл. h</span><span class="sxs-lookup"><span data-stu-id="84166-122">directml.h</span></span> |
