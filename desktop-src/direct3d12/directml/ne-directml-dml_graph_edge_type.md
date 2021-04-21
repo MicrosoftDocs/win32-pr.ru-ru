@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GRAPH_EDGE_TYPE
-ms.openlocfilehash: 19b11686f3741c386ca03e84af5a41af1ce5cb52
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: d65649fcd2115cc7cdcc1b01da20ef44b0436e6f
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105720005"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803802"
 ---
 # <a name="dml_graph_edge_type-enumeration-directmlh"></a>Перечисление DML_GRAPH_EDGE_TYPE (директмл. h)
 
 Определяет константы, указывающие тип границы графа. Сведения об использовании этого перечисления см. в разделе [DML_GRAPH_EDGE_DESC](./ns-directml-dml_graph_edge_desc.md) .
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

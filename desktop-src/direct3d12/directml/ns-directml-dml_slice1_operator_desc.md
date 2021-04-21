@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_SLICE1_OPERATOR_DESC
-ms.openlocfilehash: 06721a7484426eb293494156a2ec23db6fbf0a6b
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f34525865be9541da879e66e88c29d4a2ab74f00
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719923"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803947"
 ---
 # <a name="dml_slice1_operator_desc-structure-directmlh"></a>Структура DML_SLICE1_OPERATOR_DESC (директмл. h)
 Извлекает одну подобласть (срез) входного тензорные.
@@ -83,7 +83,7 @@ MaxCopiedElements[i] = 1 + (InputWindowSize[i] - 1) / InputWindowStrides[i]
 Выходной тензорные не требуется для копирования всех достижимых элементов в окне. Срез допустим, пока `1 <= OutputSizes[i] <= MaxCopiedElements[i]` .
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

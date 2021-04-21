@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ROI_ALIGN_OPERATOR_DESC
-ms.openlocfilehash: 987aef7d7002892b8af3167fb8da2b74dc80a12e
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b9004a77d3b325dd3394d1a3a6b596e94997e9fd
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719945"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804009"
 ---
 # <a name="dml_roi_align_operator_desc-structure-directmlh"></a>Структура DML_ROI_ALIGN_OPERATOR_DESC (директмл. h)
 
 Выполняет операцию по согласованию рентабельности инвестиций, как описано в [документе Mask R-CNN](https://arxiv.org/abs/1703.06870). В целом операция извлекает кадрирование из входного изображения тензорные и изменяет их размер на общий размер выходных данных, заданный последними 2 измерениями *аутпуттенсор* , используя указанный *интерполатионмоде*.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -121,31 +121,31 @@ struct DML_ROI_ALIGN_OPERATOR_DESC
 
 `SpatialScaleX`
 
-Тип: <b> <a href="/windows/desktop/WinProg/windows-data-types">float</a></b>
+Тип: <b> <a href="/windows/win32/winprog/windows-data-types">float</a></b>
 
 Компонент X (или Width) коэффициента масштабирования для умножения координат *роитенсор* на, чтобы сделать их пропорциональными для *инпусеигхт* и *инпутвидс*. Например, если *роитенсор* содержит нормализованные координаты (значения в диапазоне [0.. 1]), то *спатиалскалекс* обычно имеют то же значение, что и *инпутвидс*.
 
 `SpatialScaleY`
 
-Тип: <b> <a href="/windows/desktop/WinProg/windows-data-types">float</a></b>
+Тип: <b> <a href="/windows/win32/winprog/windows-data-types">float</a></b>
 
 Компонент Y (или Height) коэффициента масштабирования для умножения координат *роитенсор* на, чтобы сделать их пропорциональными для *инпусеигхт* и *инпутвидс*. Например, если *роитенсор* содержит нормализованные координаты (значения в диапазоне [0.. 1]), *спатиалскалэй* обычно имеют то же значение, что и *инпусеигхт*.
 
 `OutOfBoundsInputValue`
 
-Тип: <b> <a href="/windows/desktop/WinProg/windows-data-types">float</a></b>
+Тип: <b> <a href="/windows/win32/winprog/windows-data-types">float</a></b>
 
 Значение для чтения из *инпуттенсор* , если РОИС выходит за границы *инпуттенсор*. Это может произойти, если значения, полученные после масштабирования *роитенсор* по *спатиалскалекс* и *Спатиалскалэй* , больше *инпутвидс* и *инпусеигхт*.
 
 `MinimumSamplesPerOutput`
 
-Тип: <b> <a href="/windows/desktop/WinProg/windows-data-types">uint</a></b>
+Тип: <b> <a href="/windows/win32/winprog/windows-data-types">uint</a></b>
 
 Минимальное число выборок входных данных, используемых для каждого выходного элемента. Оператор вычислит количество входных выборок `ScaledCropSize / OutputSize` , а затем получит его в *Минимумсамплеспераутпут* и *максимумсамплеспераутпут*.
 
 `MaximumSamplesPerOutput`
 
-Тип: <b> <a href="/windows/desktop/WinProg/windows-data-types">uint</a></b>
+Тип: <b> <a href="/windows/win32/winprog/windows-data-types">uint</a></b>
 
 Максимальное число выборок входных данных, используемых для каждого элемента Output. Оператор вычислит количество входных выборок `ScaledCropSize / OutputSize` , а затем получит его в *Минимумсамплеспераутпут* и *максимумсамплеспераутпут*.
 

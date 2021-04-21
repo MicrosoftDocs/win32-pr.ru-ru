@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 79a43e93f504e8d6f36553a4f672ef7e5845610f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5c2803fc300ca862d54a74aee1c864e9097e3d8e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719925"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803368"
 ---
 # <a name="dml_average_pooling_grad_operator_desc-structure-directmlh"></a>Структура DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC (директмл. h)
 
@@ -77,7 +77,7 @@ InputGradientTensor            OutputGradientTensor
 Обратите внимание, что значения в *аутпутградиенттенсор* представляют взвешенные вклады этого элемента в *аутпуттенсор* во время исходного оператора [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc) .
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -117,31 +117,31 @@ struct DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
 
 `Strides`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
 
 См. *шаг* в [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `WindowSize`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
 
 См. раздел *WindowSize* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `StartPadding`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
 
 См. раздел *стартпаддинг* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `EndPadding`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
 
 См. раздел *ендпаддинг* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `IncludePadding`
 
-Тип: <b> <a href="/windows/desktop/WinProg/windows-data-types">bool</a> .</b>
+Тип: <b> <a href="/windows/win32/winprog/windows-data-types">bool</a> .</b>
 
 См. раздел *инклудепаддинг* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 

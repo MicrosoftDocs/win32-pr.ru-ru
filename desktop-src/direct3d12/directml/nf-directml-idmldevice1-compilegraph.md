@@ -50,12 +50,12 @@ api_location:
 - DirectML.dll
 api_name:
 - IDMLDevice1.CompileGraph
-ms.openlocfilehash: 25dbc62fac9cd38d9728a295e336038441aee19f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8a9b4ce9bd8f8bd8b1d6f2a6bbd144009eb0d79d
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719908"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803744"
 ---
 # <a name="idmldevice1compilegraph-method-directmlh"></a>Метод IDMLDevice1:: Компилеграф (директмл. h)
 
@@ -66,7 +66,7 @@ ms.locfileid: "105719908"
 Скомпилированный оператор не использует объекты [идмлоператор](/windows/win32/api/directml/nn-directml-idmloperator) , предоставленные в описании графа, и не ссылается на них после того, как этот метод возвращает значение.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 

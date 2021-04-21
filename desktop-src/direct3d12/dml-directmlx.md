@@ -1,17 +1,17 @@
 ---
-title: директмлкс
+title: DirectMLX
 description: Директмлкс — это вспомогательная библиотека C++, предназначенная только для заголовков для Директмл, призванная упростить создание отдельных операторов в графах.
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 8388edd51b6ad3ca30fe1c65947167cee7dac5e6
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 2ddd6d9063002b76449224ebafdb6dd021b27fa0
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104549055"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803373"
 ---
-# <a name="directmlx"></a>директмлкс
+# <a name="directmlx"></a>DirectMLX
 
 Директмлкс — это вспомогательная библиотека C++, предназначенная только для заголовков для Директмл, призванная упростить создание отдельных операторов в графах.
 
@@ -45,10 +45,10 @@ IDMLDevice* device;
 
 /* ... */
 
-dml::Scope scope(device);
+dml::Graph graph(device);
 
 // Input tensor of type FLOAT32 and sizes { 1, 2, 3, 4 }
-auto x = dml::InputTensor(scope, 0, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, {1, 2, 3, 4}));
+auto x = dml::InputTensor(graph, 0, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, {1, 2, 3, 4}));
 
 // Create an operator to compute the square root of x
 auto y = dml::Sqrt(x);
@@ -56,7 +56,7 @@ auto y = dml::Sqrt(x);
 // Compile a DirectML operator from the graph. When executed, this compiled operator will compute
 // the square root of its input.
 DML_EXECUTION_FLAGS flags = DML_EXECUTION_FLAG_NONE;
-ComPtr<IDMLCompiledOperator> op = scope.Compile(flags, { y });
+ComPtr<IDMLCompiledOperator> op = graph.Compile(flags, { y });
 
 // Now initialize and dispatch the DML operator as usual
 ```
@@ -88,19 +88,19 @@ std::pair<dml::Expression, dml::Expression>
 
 /* ... */
 
-dml::Scope scope(device);
+dml::Graph graph(device);
 
 dml::TensorDimensions inputSizes = {1, 2, 3, 4};
-auto a = dml::InputTensor(scope, 0, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
-auto b = dml::InputTensor(scope, 1, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
-auto c = dml::InputTensor(scope, 2, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
+auto a = dml::InputTensor(graph, 0, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
+auto b = dml::InputTensor(graph, 1, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
+auto c = dml::InputTensor(graph, 2, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
 
 auto [x1, x2] = QuadraticFormula(a, b, c);
 
 // When executed with input tensors a, b, and c, this compiled operator computes the two outputs
 // of the quadratic formula, and returns them as two output tensors x1 and x2
 DML_EXECUTION_FLAGS flags = DML_EXECUTION_FLAG_NONE;
-ComPtr<IDMLCompiledOperator> op = scope.Compile(flags, { x1, x2 });
+ComPtr<IDMLCompiledOperator> op = graph.Compile(flags, { x1, x2 });
 
 // Now initialize and dispatch the DML operator as usual
 ```
@@ -109,7 +109,7 @@ ComPtr<IDMLCompiledOperator> op = scope.Compile(flags, { x1, x2 });
 
 Полные примеры использования Директмлкс можно найти в [репозитории Директмл GitHub](https://github.com/microsoft/DirectML/tree/master/Samples).
 
-## <a name="compile-time-options"></a>Параметры Compile-Time
+## <a name="compile-time-options"></a>Параметры времени компиляции
 
 Директмлкс поддерживает #define времени компиляции для настройки различных частей заголовка.
 
@@ -128,7 +128,7 @@ ComPtr<IDMLCompiledOperator> op = scope.Compile(flags, { x1, x2 });
 
 Директмлкс поддерживает возможность настройки этих выходных свойств тензорные с помощью объектов, известных как *политики тензорные*. **Тенсорполици** — это настраиваемый обратный вызов, который вызывается директмлкс и возвращает выходные свойства тензорные по заданному типу, флагам и размерам данных тензорные.
 
-Политики тензорные могут быть установлены для объекта **DML:: Scope** и будут использоваться для всех последующих операторов на этом графе. Политики тензорные также можно задать непосредственно при создании **тенсордеск**.
+Политики тензорные могут быть установлены для объекта **DML:: Graph** и будут использоваться для всех последующих операторов на этом графе. Политики тензорные также можно задать непосредственно при создании **тенсордеск**.
 
 Таким образом, макет десятков, созданных Директмлкс, можно контролировать путем установки **тенсорполици** , устанавливающего соответствующий шаг на его десятках.
 
@@ -151,9 +151,9 @@ dml::TensorProperties MyCustomPolicy(
     return props;
 };
 
-// Set the policy on the dml::Scope
-dml::Scope scope(/* ... */);
-scope.SetTensorPolicy(dml::TensorPolicy(&MyCustomPolicy));
+// Set the policy on the dml::Graph
+dml::Graph graph(/* ... */);
+graph.SetTensorPolicy(dml::TensorPolicy(&MyCustomPolicy));
 ```
 
 ### <a name="example-2"></a>Пример 2
@@ -161,9 +161,9 @@ scope.SetTensorPolicy(dml::TensorPolicy(&MyCustomPolicy));
 Директмлкс также предоставляет некоторые альтернативные политики тензорные, встроенные в. Например, политика **интерлеаведчаннел** предоставляется для удобства и может использоваться для создания десятков с шагами таким образом, чтобы они были написаны в нхвк порядке.
 
 ```cpp
-// Set the InterleavedChannel policy on the dml::Scope
-dml::Scope scope(/* ... */);
-scope.SetTensorPolicy(dml::TensorPolicy::InterleavedChannel());
+// Set the InterleavedChannel policy on the dml::Graph
+dml::Graph graph(/* ... */);
+graph.SetTensorPolicy(dml::TensorPolicy::InterleavedChannel());
 
 // When executed, the tensor `result` will be in NHWC layout (rather than the default NCHW)
 auto result = dml::Convolution(/* ... */);

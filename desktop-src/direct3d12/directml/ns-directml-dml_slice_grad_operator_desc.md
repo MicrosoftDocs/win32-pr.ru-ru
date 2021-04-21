@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_SLICE_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 63ea67454965d976247c3cdd50aa183f6a676138
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: a22efe9b0b74f5fdc7b498b97784086f40f243b9
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719943"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803965"
 ---
 # <a name="dml_slice_grad_operator_desc-structure-directmlh"></a>Структура DML_SLICE_GRAD_OPERATOR_DESC (директмл. h)
 
@@ -79,7 +79,7 @@ InputGradientTensor       OutputGradientTensor
 ```
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 

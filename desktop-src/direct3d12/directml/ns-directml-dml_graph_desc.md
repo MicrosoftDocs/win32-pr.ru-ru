@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GRAPH_DESC
-ms.openlocfilehash: e72209d19bb26524576783becbbfbf94566d8370
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: a42996fc9fd7825e13232b245ab764c6439f9489
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719976"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802881"
 ---
 # <a name="dml_graph_desc-structure-directmlh"></a>Структура DML_GRAPH_DESC (директмл. h)
 
 Описывает граф операторов Директмл, используемых для компиляции комбинированного, оптимизированного оператора. См. раздел [IDMLDevice1:: компилеграф](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

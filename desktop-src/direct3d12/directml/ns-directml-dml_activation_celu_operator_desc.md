@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ACTIVATION_CELU_OPERATOR_DESC
-ms.openlocfilehash: d474bd44c8a830117bb62927f4bda954a753b612
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b6497e995601d7e9e01696f39920672674be07c4
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719910"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803727"
 ---
 # <a name="dml_activation_celu_operator_desc-structure-directmlh"></a>Структура DML_ACTIVATION_CELU_OPERATOR_DESC (директмл. h)
 
@@ -68,7 +68,7 @@ f(x) = max(0, x) + min(0, Alpha * (exp(x / Alpha) - 1));
 Этот оператор поддерживает выполнение на месте. Это означает, что тензорные вывода может иметь псевдоним *инпуттенсор* во время привязки.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp
@@ -96,7 +96,7 @@ struct DML_ACTIVATION_CELU_OPERATOR_DESC
 
 `Alpha`
 
-Тип: <b> <a href="/windows/desktop/WinProg/windows-data-types">float</a></b>
+Тип: <b> <a href="/windows/win32/winprog/windows-data-types">float</a></b>
 
 Коэффициент альфа. Стандартное значение по умолчанию для этого параметра — 1,0.
 

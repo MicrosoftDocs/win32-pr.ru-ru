@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC
-ms.openlocfilehash: 4b292b1b6e12f4643e928022f59603fd75e080fb
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 3c8dddc3159ebcd857c7423b76856fbeba465d2e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719950"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803226"
 ---
 # <a name="dml_element_wise_bit_count_operator_desc-structure-directmlh"></a>Структура DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC (директмл. h)
 
@@ -59,7 +59,7 @@ ms.locfileid: "105719950"
 Входной и выходной тензорные должны иметь одинаковые *DimensionCount* и *размеры*, хотя они могут различаться в *DataType*.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 

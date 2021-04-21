@@ -45,18 +45,18 @@ api_location:
 - DirectML.h
 api_name:
 - DML_SCALAR_UNION
-ms.openlocfilehash: 0abef8cd5a694fa82e0e54e334834773f1f75e20
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: d53ec7025d3da5a07a648849e366d436755ad3f1
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719944"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803950"
 ---
 # <a name="dml_scalar_union-union-directmlh"></a>Объединение DML_SCALAR_UNION (директмл. h)
 Объединение скалярных типов.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

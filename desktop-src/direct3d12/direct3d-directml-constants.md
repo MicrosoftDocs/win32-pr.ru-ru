@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 11/04/2020
-ms.openlocfilehash: d6c3791812f3ac1191f1959150bd5ac7059c54fb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ad4ff8c409f79a03cb4021974fe374498926c3e2
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105664955"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803413"
 ---
 # <a name="directml-constants"></a>Константы DirectML
 
@@ -37,7 +37,7 @@ ms.locfileid: "105664955"
 
 | Требование | Значение |
 |-|-|
-| Header | D3D12. h |
+| Заголовок | Директмл. h |
 
 ## <a name="see-also"></a>См. также раздел
 

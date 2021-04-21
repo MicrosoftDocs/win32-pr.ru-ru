@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_DEPTH_TO_SPACE1_OPERATOR_DESC
-ms.openlocfilehash: 639bda0b8d398d24b01649635d3cfcbd2301a211
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 89b62a9916ee77dd6907d01710624d6e9a40a20a
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105720001"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803270"
 ---
 # <a name="dml_depth_to_space1_operator_desc-structure-directmlh"></a>Структура DML_DEPTH_TO_SPACE1_OPERATOR_DESC (директмл. h)
 
@@ -58,7 +58,7 @@ ms.locfileid: "105720001"
 Это обратное преобразование [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md).
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

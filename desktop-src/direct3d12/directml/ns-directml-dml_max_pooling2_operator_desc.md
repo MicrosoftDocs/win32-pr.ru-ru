@@ -37,18 +37,18 @@ api_name:
 f1_keywords:
 - DML_MAX_POOLING2_OPERATOR_DESC
 - directml/DML_MAX_POOLING2_OPERATOR_DESC
-ms.openlocfilehash: 7d2dc9d28e8afcaa5cc6277e26f1f663f3f6688f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 06e4d7eb01abab9c412238e353a73607df02b219
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719996"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803665"
 ---
 # <a name="dml_max_pooling2_operator_desc-structure-directmlh"></a>Структура DML_MAX_POOLING2_OPERATOR_DESC (директмл. h)
 Вычисление максимального значения для элементов в скользящем окне над входным тензорные и при необходимости возвращает индексы для выбранных максимальных значений.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

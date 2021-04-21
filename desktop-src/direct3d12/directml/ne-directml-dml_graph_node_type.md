@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GRAPH_NODE_TYPE
-ms.openlocfilehash: 1788dfcce20ce2a9e490bf7ed6e8ef84e306d659
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 0bb0712370da35c4b8c9278ad7721d2ffc7d875d
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719909"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803687"
 ---
 # <a name="dml_graph_node_type-enumeration-directmlh"></a>Перечисление DML_GRAPH_NODE_TYPE (директмл. h)
 
 Определяет константы, указывающие тип узла графа. Сведения об использовании этого перечисления см. в разделе [DML_GRAPH_NODE_DESC](./ns-directml-dml_graph_node_desc.md) .
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

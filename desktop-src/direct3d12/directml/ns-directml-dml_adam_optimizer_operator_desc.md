@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ADAM_OPTIMIZER_OPERATOR_DESC
-ms.openlocfilehash: a4acd26f5174bf6c6ae53f5edfdc28cc6c9b1a3d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 9943f70bd3d62faf57f4eca83f9f09ce0119881a
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719907"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803532"
 ---
 # <a name="dml_adam_optimizer_operator_desc-structure-directmlh"></a>Структура DML_ADAM_OPTIMIZER_OPERATOR_DESC (директмл. h)
 
@@ -82,7 +82,7 @@ OutputSecondMomentTensor = V
 Кроме вычисления обновленных параметров веса (возвращаемых в *аутпутпараметерстенсор*), этот оператор также возвращает обновленные первые и вторые оценки в *аутпутфирстмоменттенсор* и *аутпутсекондмоменттенсор* соответственно. Как правило, вы должны сохранить эти первые и вторые оценки и указать их в качестве входных данных на следующем этапе обучения.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

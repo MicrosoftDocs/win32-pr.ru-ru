@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_MODULUS_FLOOR_OPERATOR_DESC
-ms.openlocfilehash: a732a593fb10a5c8e18ec6dd9416ce8d62f43563
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8c70bd4649a57270807ac408802fe07edd36d98e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719902"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803071"
 ---
 # <a name="dml_element_wise_modulus_floor_operator_desc-structure-directmlh"></a>Структура DML_ELEMENT_WISE_MODULUS_FLOOR_OPERATOR_DESC (директмл. h)
 
@@ -64,7 +64,7 @@ f(a, b) = a - (b * floor(a / b))
 Этот оператор поддерживает выполнение на месте, что означает, что *аутпуттенсор* может использовать псевдонимы для одного из входных десятков во время привязки.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

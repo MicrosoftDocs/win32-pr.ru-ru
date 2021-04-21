@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 567a1de50c1c91de83a9fda2978f83af8daf1a6e
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: dea89f0e3366a07ee98f47703f07e2f5a9d4009d
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719933"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803674"
 ---
 # <a name="dml_activation_relu_grad_operator_desc-structure-directmlh"></a>Структура DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC (директмл. h)
 
@@ -66,7 +66,7 @@ OutputGradientTensor = (X > 0 ? dY : 0)
 Соответствующий оператор прямой передачи — [DML_ACTIVATION_RELU_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc).
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

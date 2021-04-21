@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_MODULUS_TRUNCATE_OPERATOR_DESC
-ms.openlocfilehash: f7cbfbf8613fb4309c6d336ccd807565d0dae53c
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 461a7882e17d86b25cf27e0a28c05673f8899cea
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719903"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803063"
 ---
 # <a name="dml_element_wise_modulus_truncate_operator_desc-structure-directmlh"></a>Структура DML_ELEMENT_WISE_MODULUS_TRUNCATE_OPERATOR_DESC (директмл. h)
 
@@ -64,7 +64,7 @@ f(a, b) = a - (b * trunc(a / b))
 Этот оператор поддерживает выполнение на месте, что означает, что *аутпуттенсор* может использовать псевдонимы для одного из входных десятков во время привязки.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

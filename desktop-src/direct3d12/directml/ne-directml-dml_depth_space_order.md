@@ -39,19 +39,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_DEPTH_SPACE_ORDER
-ms.openlocfilehash: 21ab43f81a5959fc6722f5f4dedc3f60319ba642
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 009686adfc054c7b6344f01edafedaf2921693d5
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719921"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803538"
 ---
 # <a name="dml_depth_space_order-enumeration-directmlh"></a>Перечисление DML_DEPTH_SPACE_ORDER (директмл. h)
 
 Определяет константы, управляющие преобразованием, применяемым в операторах Директмл [DML_OPERATOR_DEPTH_TO_SPACE1](/windows/win32/api/directml/ne-directml-dml_operator_type) и **DML_OPERATOR_SPACE_TO_DEPTH1**. Они используются в структурах [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md) и [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md) .
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

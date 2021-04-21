@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC
-ms.openlocfilehash: d0b20a37bca6ddf6083b116b53290a6b6b2084f4
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 0daeab63559a2d842582087d8874e802645f7809
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719995"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803565"
 ---
 # <a name="dml_quantized_linear_matrix_multiply_operator_desc-structure-directmlh"></a>Структура DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC (директмл. h)
 Выполняет функцию умножения матрицы для данных квантования. Этот оператор математически эквивалентен декуантизинг входным данным, затем выполняет умножение матрицы и затем куантизинг выходные данные.
@@ -71,7 +71,7 @@ f(Input, Scale, ZeroPoint) = clamp(round(Input / Scale) + ZeroPoint, Min, Max)
 ```
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

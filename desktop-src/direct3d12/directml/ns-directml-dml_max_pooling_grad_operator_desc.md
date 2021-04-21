@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_MAX_POOLING_GRAD_OPERATOR_DESC
-ms.openlocfilehash: b7314cb6b9456d9ac9f99e90100085e86f88ffd9
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 3b0b10fa8ee17c9d06e779c3c990f134bc4ae669
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105720057"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803429"
 ---
 # <a name="dml_max_pooling_grad_operator_desc-structure-directmlh"></a>Структура DML_MAX_POOLING_GRAD_OPERATOR_DESC (директмл. h)
 
@@ -79,7 +79,7 @@ InputTensor   InputGradientTensor            OutputGradientTensor
 В случае с привязкум (если более одного элемента в окне имеют одинаковое максимальное значение) выбирается элемент с наименьшим индексом логического элемента.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 

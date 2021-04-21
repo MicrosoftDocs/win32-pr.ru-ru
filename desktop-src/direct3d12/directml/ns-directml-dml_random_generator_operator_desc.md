@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RANDOM_GENERATOR_OPERATOR_DESC
-ms.openlocfilehash: 19e01ec8dc47e65ace996deef5954c35e21bf5bb
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 6807c3a1ac91716739075f51196a75ae76ca479b
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719896"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804068"
 ---
 # <a name="dml_random_generator_operator_desc-structure-directmlh"></a>Структура DML_RANDOM_GENERATOR_OPERATOR_DESC (директмл. h)
 
@@ -61,7 +61,7 @@ ms.locfileid: "105719896"
 Генераторы, реализованные этим оператором, не защищают криптографически. Поэтому этот оператор не следует использовать для шифрования, создания ключа или других приложений, которым требуется криптографически защищенное формирование случайных чисел.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 

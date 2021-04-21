@@ -39,19 +39,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_AXIS_DIRECTION
-ms.openlocfilehash: 18cd2189f88378245be0824e0a68e5f618008bc7
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: e54d2abed3843ea9b2a22cb3c385f9edd1541ba5
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719922"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803783"
 ---
 # <a name="dml_axis_direction-enumeration-directmlh"></a>Перечисление DML_AXIS_DIRECTION (директмл. h)
 
 Определяет константы, указывающие направление операции вдоль заданной оси для оператора (например, суммирование, выбор элементов Top-k, выбор минимального элемента).
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

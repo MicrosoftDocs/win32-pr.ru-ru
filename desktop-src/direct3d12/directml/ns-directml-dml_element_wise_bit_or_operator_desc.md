@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_BIT_OR_OPERATOR_DESC
-ms.openlocfilehash: e0afa89e18b6393efc976a782469d1a9765211f0
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 7138c6647e1bd4df5d8957468ca67f103f4a3f5a
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719940"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803218"
 ---
 # <a name="dml_element_wise_bit_or_operator_desc-structure-directmlh"></a>Структура DML_ELEMENT_WISE_BIT_OR_OPERATOR_DESC (директмл. h)
 
@@ -61,7 +61,7 @@ ms.locfileid: "105719940"
 Этот оператор поддерживает выполнение на месте. Это означает, что выходным тензорные может быть присвоен псевдоним одному или нескольким входным десяткам во время привязки.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 

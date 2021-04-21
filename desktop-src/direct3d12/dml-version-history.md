@@ -1,17 +1,17 @@
 ---
-title: Журнал версий Директмл
+title: Журнал версий DirectML
 description: Директмл распространяется как системный компонент Windows 10 и доступен как часть операционной системы Windows 10 (ОС) в Windows 10, версия 1903 (10,0; Сборка 18362) и более поздние версии.
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 04cb7a2c906d7674c793a9a99e21609ea874dbc1
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f5e0a478b2d4c6728a1cd53388ba09af8e5bbc0e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104549053"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803940"
 ---
-# <a name="directml-version-history"></a>Журнал версий Директмл
+# <a name="directml-version-history"></a>Журнал версий DirectML
 
 Директмл распространяется как системный компонент Windows 10 и доступен как часть операционной системы Windows 10 (ОС) в Windows 10, версия 1903 (10,0; Сборка 18362) и более поздние версии.
 
@@ -23,9 +23,10 @@ ms.locfileid: "104549053"
 
 |Версия Директмл|Поддерживаемый уровень компонентов (см. [Журнал уровня функций директмл](./dml-feature-level-history.md))|DML_TARGET_VERSION|Первый доступ в|Первый доступный в (распространяемый)|
 |-|-|-|-|-|-|
-|1.4.0<sup>1</sup>|DML_FEATURE_LEVEL_3_0|`0x3000`|Н/Д|[Директмл — 1.4.0](https://www.nuget.org/packages/Microsoft.AI.DirectML/)|
-|1.1.0|DML_FEATURE_LEVEL_2_0|`0x2000`|Windows 10, версия 2004 (10,0; Сборка 19041) (обновление Windows 10 может 2020). Так называемый "20H1".|Н/Д|
-|1.0.0|DML_FEATURE_LEVEL_1_0|`0x1000`|Windows 10, версия 1903 (10,0; Сборка 18362) (обновление Windows 10 может 2019). Так называемый "19H1".|Н/Д|
+|1.5.0|DML_FEATURE_LEVEL_3_1|`0x3100`|Недоступно|[Директмл — 1.5.0](https://www.nuget.org/packages/Microsoft.AI.DirectML/1.5.0)|
+|1.4.0<sup>1</sup>|DML_FEATURE_LEVEL_3_0|`0x3000`|Недоступно|[Директмл — 1.4.0](https://www.nuget.org/packages/Microsoft.AI.DirectML/1.4.0)|
+|1.1.0|DML_FEATURE_LEVEL_2_0|`0x2000`|Windows 10, версия 2004 (10,0; Сборка 19041) (обновление Windows 10 может 2020). Так называемый "20H1".|Недоступно|
+|1.0.0|DML_FEATURE_LEVEL_1_0|`0x1000`|Windows 10, версия 1903 (10,0; Сборка 18362) (обновление Windows 10 может 2019). Так называемый "19H1".|Недоступно|
 
 <sup>1</sup> 1.2.0 и 1.3.0 промежуточные выпуски директмл не были широко доступны.
 
@@ -70,6 +71,6 @@ ms.locfileid: "104549053"
 
 ## <a name="see-also"></a>См. также раздел
 
-Журнал уровня компонентов [директмл](./dml-feature-level-history.md) 
- [Перечисление DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level) 
- [Распространяемый пакет Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)
+* [Журнал уровня компонентов DirectML](./dml-feature-level-history.md)
+* [Перечисление DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level)
+* [Распространяемый пакет Microsoft. AI. Директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)

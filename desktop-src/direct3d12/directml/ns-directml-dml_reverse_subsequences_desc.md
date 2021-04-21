@@ -44,18 +44,18 @@ api_location:
 - DirectML.h
 api_name:
 - DML_REVERSE_SUBSEQUENCES_OPERATOR_DESC
-ms.openlocfilehash: 5baf16c5acd1ce5c5f44e68420e93aabaa276ea7
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 3deddea3d60db1a8689ceabfac92ff17393b7606
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719992"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803998"
 ---
 # <a name="dml_reverse_subsequences_operator_desc-structure-directmlh"></a>Структура DML_REVERSE_SUBSEQUENCES_OPERATOR_DESC (директмл. h)
 Меняет местами элементы одной или нескольких вложенных *последовательностей* тензорные. Набор подпоследовательностей, которые должны быть отменены, выбирается на основе указанной оси и длины последовательности.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

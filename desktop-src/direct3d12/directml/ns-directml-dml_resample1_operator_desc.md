@@ -39,12 +39,12 @@ api_name:
 f1_keywords:
 - DML_RESAMPLE1_OPERATOR_DESC
 - directml/DML_RESAMPLE1_OPERATOR_DESC
-ms.openlocfilehash: 669e828c4d8376e081ef6638aba4a13d517afd88
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: ac98813e15ab3dac71a9f8395333160ce37778b0
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719962"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804056"
 ---
 # <a name="dml_resample1_operator_desc-structure-directmlh"></a>Структура DML_RESAMPLE1_OPERATOR_DESC (директмл. h)
 Ресамплинг элементов из источника в целевой тензорные с использованием коэффициентов масштабирования для расчета размера целевого тензорные. Можно использовать линейный или ближайший к соседним режим интерполяции. Оператор поддерживает интерполяцию по нескольким измерениям, а не только к 2D. Таким образом, можно иметь одинаковый пространственный размер, но выполнять интерполяцию по каналам или по пакетам. Связь между входными и выходными координатами приведена ниже.
@@ -52,7 +52,7 @@ ms.locfileid: "105719962"
 `OutputTensorX = (InputTensorX + InputPixelOffset) * Scale + OutputPixelOffset`
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp
@@ -105,21 +105,21 @@ struct DML_RESAMPLE1_OPERATOR_DESC {
 
 `Scales`
 
-Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 Шкалы, применяемые при переборке входных данных, где масштабируется > 1. Увеличение масштаба изображения и масштабирование < 1 масштабирование изображения для этого измерения. Обратите внимание, что масштабы не обязательно должны быть в точности `OutputSize / InputSize` . Если входные данные после масштабирования больше, чем у границ выходных данных, мы обрезать его до размера выходных данных. С другой стороны, если входные данные после масштабирования меньше, чем граница выходных данных, края выходных данных будут обработаны.
 
 
 `InputPixelOffsets`
 
-Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 Смещение, применяемое к входным точкам до повторной выборки. Если это значение равно `0` , то вместо его центра используется верхний левый угол пикселя, который обычно не дает ожидаемого результата. Для повторной выборки изображения с помощью центра пикселов и для получения того же поведения, что и [DML_RESAMPLE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample_operator_desc), это значение должно быть `0.5` .
 
 
 `OutputPixelOffsets`
 
-Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 Смещение, применяемое к выходным пикселям после перевыборки. Если это значение равно `0` , то вместо его центра используется верхний левый угол пикселя, который обычно не дает ожидаемого результата. Для повторной выборки изображения с помощью центра пикселов и для получения того же поведения, что и [DML_RESAMPLE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample_operator_desc), это значение должно быть `-0.5` .
 

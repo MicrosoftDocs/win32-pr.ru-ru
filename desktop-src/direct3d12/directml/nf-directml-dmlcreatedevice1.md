@@ -44,19 +44,19 @@ api_location:
 - DirectML.dll
 api_name:
 - DMLCreateDevice1
-ms.openlocfilehash: f40c7e6aa82644b67303bc60f6a8b41fa08c6f8d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f722b12208bd808f01e177feb907f94c33541496
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719935"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803772"
 ---
 # <a name="dmlcreatedevice1-function-directmlh"></a>Функция DMLCreateDevice1 (директмл. h)
 
 Создает устройство Директмл для данного устройства Direct3D 12.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 

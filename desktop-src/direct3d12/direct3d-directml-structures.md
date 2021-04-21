@@ -5,12 +5,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: b1f9b85bad5095f31ef9d8c6b54d88b305e765a0
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 8f988131fa3c2222e64666130f9de168e93c6143
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105664851"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803579"
 ---
 # <a name="directml-structures"></a>Структуры DirectML
 
@@ -46,6 +46,7 @@ ms.locfileid: "105664851"
 | [**DML_ARGMAX_OPERATOR_DESC**](./directml/ns-directml-dml_argmax_operator_desc.md). Выводит индексы элементов с максимальным значением в одном или нескольких измерениях входного тензорные. |
 | [**DML_ARGMIN_OPERATOR_DESC**](./directml/ns-directml-dml_argmin_operator_desc.md). Выводит индексы элементов с минимальными значениями в одном или нескольких измерениях входного тензорные. |
 | [**DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC**](./directml/ns-directml-dml_average_pooling_grad_operator_desc.md). Вычисляет градиенты обратного распространения для среднего количества пулов (см. [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml//windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)). |
+| [**DML_BATCH_NORMALIZATION_GRAD_OPERATOR_DESC**](./directml/ns-directml-dml_batch_normalization_grad_operator_desc.md). Вычисляются градиенты обратного распространения для [нормализации пакетной обработки](/windows/win32/api/directml/ns-directml-dml_batch_normalization_operator_desc). |
 | [**DML_BATCH_NORMALIZATION_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_batch_normalization_operator_desc). Описывает оператор Директмл, который выполняет функцию нормализации пакетной службы для входных данных. |
 | [**DML_BINDING_DESC**](/windows/desktop/api/directml/ns-directml-dml_binding_desc). Содержит описание привязки, которое можно добавить в таблицу привязки с помощью вызова одного из методов [идмлбиндингтабле](/windows/desktop/api/directml/nn-directml-idmlbindingtable) . |
 | [**DML_BINDING_PROPERTIES**](/windows/desktop/api/directml/ns-directml-dml_binding_properties). Содержит сведения о требованиях к привязке для определенного скомпилированного оператора или инициализатора оператора. |
@@ -56,6 +57,7 @@ ms.locfileid: "105664851"
 | [**DML_CAST_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_cast_operator_desc). Описывает оператор реорганизации данных Директмл, который выполняет функцию CAST f (x) = CAST (x), приведение каждого элемента во входных данных к типу с выходным тензорные и сохранение результата в соответствующем элементе в выходных данных. |
 | [**DML_CONVOLUTION_INTEGER_OPERATOR_DESC**](./directml/ns-directml-dml_convolution_integer_operator_desc.md). Выполняет свертывание *филтертенсор* с *инпуттенсор*. Этот оператор выполняет пересылку по целочисленным данным. |
 | [**DML_CONVOLUTION_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_convolution_operator_desc). Описывает оператор умножения матрицы Директмл, который выполняет функцию свертки для входных данных. |
+| [**DML_CUMULATIVE_PRODUCT_OPERATOR_DESC**](./directml/ns-directml-dml_cumulative_product_operator_desc.md). Умножает элементы тензорные вдоль оси, записывая выполняющийся высокий коэффициент произведения в выходном тензорные. |
 | [**DML_CUMULATIVE_SUMMATION_OPERATOR_DESC**](./directml/ns-directml-dml_cumulative_summation_operator_desc.md). Суммирует элементы тензорные вдоль оси, записывая выполняющийся счетчик суммы в выходном тензорные. |
 | [**DML_DEPTH_TO_SPACE_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_depth_to_space_operator_desc). Описывает оператор реорганизации данных Директмл, который переупорядочивает (пермутес) данные из глубины в блоки пространственных данных. |
 | [**DML_DEPTH_TO_SPACE1_OPERATOR_DESC**](./directml/ns-directml-dml_depth_to_space1_operator_desc.md). Переупорядочивает (пермутес) данные из глубины в блоки пространственных данных. Оператор выводит копию входного тензорные, где значения из измерения глубины перемещаются в пространственные блоки в измерения высоты и ширины. |
@@ -69,6 +71,7 @@ ms.locfileid: "105664851"
 | [**DML_ELEMENT_WISE_ASINH_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_asinh_operator_desc). Описывает тригонометрический оператор Директмл, выполняющий обратный гиперболический синус функции f (x) = log (x + Sqrt (x * x + 1)) * масштабирования и смещения, где условия масштабирования и смещения являются необязательными. |
 | [**DML_ELEMENT_WISE_ATAN_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_atan_operator_desc). Описывает тригонометрический оператор Директмл, который выполняет функцию-арктангенс по элементу f (x) = ATAN (x * Scale + сдвиг), где условия масштабирования и смещения необязательны. |
 | [**DML_ELEMENT_WISE_ATANH_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_atanh_operator_desc). Описывает тригонометрический оператор Директмл, выполняющий обратную гиперболический тангенс функции f (x) = (log ((1 + x)/(1-x))/2) * масштабирования и смещения, где условия масштабирования и смещения необязательны. |
+| [**DML_ELEMENT_WISE_ATAN_YX_OPERATOR_DESC**](./directml/ns-directml-dml_element_wise_atan_yx_operator_desc.md). Выполняет вычисление двух аргументов-арктангенс для каждого элемента *атенсор* и *Бтенсор*, где *атенсор* — это *ось Y* , а *бтенсор* — *ось X*, помещая результат в соответствующий элемент *аутпуттенсор*. |
 | [**DML_ELEMENT_WISE_BIT_AND_OPERATOR_DESC**](./directml/ns-directml-dml_element_wise_bit_and_operator_desc.md). Вычисляются побитовое и между соответствующим элементом входных десятков и записывает результат в выходной тензорные. |
 | [**DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC**](./directml/ns-directml-dml_element_wise_bit_count_operator_desc.md). Выполняет побитовую операцию не для каждого элемента входного тензорные и записывает результат в выходной тензорные. |
 | [**DML_ELEMENT_WISE_BIT_NOT_OPERATOR_DESC**](./directml/ns-directml-dml_element_wise_bit_not_operator_desc.md). Выдает значение счетчика побитового заполнения (число бит, заданное равным 1) для каждого элемента входного тензорные и записывает результат в выходной тензорные. |
@@ -77,11 +80,13 @@ ms.locfileid: "105664851"
 | [**DML_ELEMENT_WISE_BIT_SHIFT_RIGHT_OPERATOR_DESC**](./directml/ns-directml-dml_element_wise_bit_shift_right_operator_desc.md). Выполняет логическую сдвиг вправо каждого элемента *атенсор* на количество битов, заданное соответствующим элементом *бтенсор*, помещая результат в соответствующий элемент *аутпуттенсор*. |
 | [**DML_ELEMENT_WISE_BIT_XOR_OPERATOR_DESC**](./directml/ns-directml-dml_element_wise_bit_xor_operator_desc.md). Выполняет побитовую операцию XOR (исключающее или) между каждым соответствующим элементом входных десятков и записывает результат в выходной тензорные. |
 | [**DML_ELEMENT_WISE_CEIL_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_ceil_operator_desc). Описывает оператор Директмл Math, который выполняет функцию поэлементного потолка f (x) = ceil (x * Scale + сдвиг), где условия масштабирования и смещения необязательны. |
+| [**DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC**](./directml/ns-directml-dml_element_wise_clip_grad_operator_desc.md). Вычисление градиентов обратного распространения для [элемента, ориентированного на элемент](/windows/win32/api/directml/ns-directml-dml_element_wise_clip_operator_desc). |
 | [**DML_ELEMENT_WISE_CLIP_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_clip_operator_desc). Описывает Директмл математический оператор, который выполняет функцию обрезки по элементу f (x) = срез (x * Scale + сдвиг, minValue, maxValue), где условия масштабирования и смещения являются необязательными и где «срез (x) = min (maxValue, Max (minValue, x)). |
 | [**DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_constant_pow_operator_desc). Описывает оператор Директмл, который выполняет функцию-константу на уровне элемента f (x) = Pow (x * Scale + сдвиг, экспонента), где условия масштабирования и смещения необязательны. |
 | [**DML_ELEMENT_WISE_COS_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_cos_operator_desc). Описывает тригонометрический оператор Директмл, который выполняет функцию-косинус по элементу f (x) = cos (x * Scale + сдвиг), где условия масштабирования и смещения необязательны. |
 | [**DML_ELEMENT_WISE_COSH_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_cosh_operator_desc). Описывает тригонометрический оператор Директмл, выполняющий гиперболический косинус функции f (x) = ((e ^ x + e ^-x)/2) * Scale + сдвиг, где условия масштабирования и смещения необязательны. |
 | [**DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_dequantize_linear_operator_desc). Описывает оператор Директмл, выполняющий линейную декуантизе функцию для каждого элемента в `InputTensor` с учетом соответствующего элемента в `ScaleTensor` и `ZeroPointTensor` . |
+| [**DML_ELEMENT_WISE_DIFFERENCE_SQUARE_OPERATOR_DESC**](./directml/ns-directml-dml_element_wise_difference_square_operator_desc.md). Вычитает каждый элемент из *бтенсор* из соответствующего элемента *атенсор*, умножает результат на себя и помещает результат в соответствующий элемент *аутпуттенсор*. |
 | [**DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_divide_operator_desc). Описывает оператор Директмл Math, который выполняет функцию деления каждого элемента в `ATensor` по соответствующему элементу в `BTensor` . |
 | [**DML_ELEMENT_WISE_ERF_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_erf_operator_desc). Описывает оператор Директмл Math, выполняющий естественную экспоненциальную функцию f (x) = EXP (x * Scale + сдвиг), где условия масштабирования и смещения необязательны. |
 | [**DML_ELEMENT_WISE_EXP_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_exp_operator_desc). Описывает оператор Директмл Math, выполняющий естественную экспоненциальную функцию f (x) = EXP (x * Scale + сдвиг), где условия масштабирования и смещения необязательны. |
@@ -134,6 +139,7 @@ ms.locfileid: "105664851"
 | [**DML_INPUT_GRAPH_EDGE_DESC**](./directml/ns-directml-dml_input_graph_edge_desc.md). Описывает соединение в графе операторов Директмл, определенных [DML_GRAPH_DESC](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_desc) и передаваемых в [IDMLDevice1:: компилеграф](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph). Эта структура используется для определения соединения из входных данных графа с входными данными внутреннего узла.|
 | [**DML_INTERMEDIATE_GRAPH_EDGE_DESC**](./directml/ns-directml-dml_intermediate_graph_edge_desc.md). Описывает соединение в графе операторов Директмл, определенных [DML_GRAPH_DESC](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_desc) и передаваемых в [IDMLDevice1:: компилеграф](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph). Эта структура используется для определения соединения между внутренними узлами.|
 | [**DML_JOIN_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_join_operator_desc). Описывает оператор Директмл, который выполняет функцию Join над массивом входных десятков. |
+| [**DML_LOCAL_RESPONSE_NORMALIZATION_GRAD_OPERATOR_DESC**](./directml/ns-directml-dml_local_response_normalization_grad_operator_desc.md). Вычисление градиентов обратного распространения для [нормализации локальных ответов](/windows/win32/api/directml/ns-directml-dml_local_response_normalization_operator_desc). |
 | [**DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_local_response_normalization_operator_desc). Описывает оператор Директмл, который выполняет функцию нормализации локального ответа (ЛРН) для входных данных. |
 | [**DML_LP_NORMALIZATION_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_lp_normalization_operator_desc). Описывает оператор Директмл, который выполняет функцию нормализации LP вдоль заданной оси входного тензорные. |
 | [**DML_LP_POOLING_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_lp_pooling_operator_desc). Описывает оператор Директмл, который выполняет функцию объединения в пул LP во входном тензорные. |
@@ -181,7 +187,7 @@ ms.locfileid: "105664851"
 | [**DML_UPSAMPLE_2D_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_upsample_2d_operator_desc). Описывает оператор Директмл Imaging, который выполнит выборку изображения, содержащегося во входном тензорные. |
 | [**DML_VALUE_SCALE_2D_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_value_scale_2d_operator_desc). Описывает оператор Директмл, который выполняет функцию масштабирования по элементу и по смещению для значений во входном тензорные. |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Справочник по DirectML](direct3d-directml-reference.md)
 * [Справочник по коду](direct3d-12-core-reference.md)

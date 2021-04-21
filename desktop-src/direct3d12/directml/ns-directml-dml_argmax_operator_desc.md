@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ARGMAX_OPERATOR_DESC
-ms.openlocfilehash: 17ccadc1228ea833ea1f1b3235e97430ac000514
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 0c466975ad3b88973f50bc06676f2197267c56a7
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719953"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803547"
 ---
 # <a name="dml_argmax_operator_desc-structure-directmlh"></a>Структура DML_ARGMAX_OPERATOR_DESC (директмл. h)
 
@@ -59,7 +59,7 @@ ms.locfileid: "105719953"
 Каждый элемент Output является результатом применения *аргмакс* сокращения для подмножества входных тензорные. Функция *аргмакс* выводит индекс элемента с максимальным значением в наборе входных элементов. Входные элементы, участвующие в каждом уменьшении, определяются предоставленными осями ввода. Аналогичным образом, каждый выходной индекс по отношению к предоставленным осям входных данных. Если указаны все входные оси, оператор применяет одно *аргмаксное* уменьшение и создает один выходной элемент.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp
@@ -92,13 +92,13 @@ struct DML_ARGMAX_OPERATOR_DESC
 
 `AxisCount`
 
-Тип: **[uint](/windows/desktop/WinProg/windows-data-types)**
+Тип: **[uint](/windows/win32/winprog/windows-data-types)**
 
 Число осей, которые необходимо уменьшить. Это поле определяет размер массива *осей* .
 
 `Axes`
 
-Тип: \_ Field_size \_ (аксискаунт) **const [uint](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ Field_size \_ (аксискаунт) **const [uint](/windows/win32/winprog/windows-data-types) \***
 
 Оси, которые необходимо уменьшить. Значения должны находиться в диапазоне `[0, InputTensor.DimensionCount - 1]` .
 

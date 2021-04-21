@@ -1,17 +1,17 @@
 ---
-title: Использование операторов плавких предохранителей для повышения производительности
+title: Использование совмещенных операторов для повышения производительности
 description: Некоторые операторы Директмл поддерживают концепцию, известную как *Fusion*. Fusion оператора — это способ повышения производительности путем слияния одного оператора (как правило, функции активации) к другому оператору, чтобы они выполнялись вместе без необходимости обмена данными с памятью.
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: b692727d52e252bb3752573e692bcf5beda794e2
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: bba4a9d0ef5c69976a5a344432bf82d31b00c0c7
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104549056"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803992"
 ---
-# <a name="using-fused-operators-to-improve-performance"></a>Использование операторов плавких предохранителей для повышения производительности
+# <a name="using-fused-operators-to-improve-performance"></a>Использование совмещенных операторов для повышения производительности
 
 Некоторые операторы Директмл поддерживают концепцию, известную как *Fusion*. Fusion оператора — это способ повышения производительности путем слияния одного оператора (как правило, функции активации) к другому оператору, чтобы они выполнялись вместе без необходимости обмена данными с памятью.
 
@@ -102,5 +102,5 @@ convDesc.FusedActivation = &activationDesc;
 
 ## <a name="see-also"></a>См. также раздел
 
-[Пример Директмлсуперресолутион](https://github.com/microsoft/DirectML/tree/master/Samples)    
-[DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc)
+* [Пример Директмлсуперресолутион](https://github.com/microsoft/DirectML/tree/master/Samples)    
+* [DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc)

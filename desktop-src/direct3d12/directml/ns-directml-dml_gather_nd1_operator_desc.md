@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GATHER_ND1_OPERATOR_DESC
-ms.openlocfilehash: dc7f33f50fa6a0c1cd2850b8e02aad30d75afeb1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b92c8aece88d8466357bb8e48fd3ce5a3b73d2e3
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105720852"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802856"
 ---
 # <a name="dml_gather_nd1_operator_desc-structure-directmlh"></a>Структура DML_GATHER_ND1_OPERATOR_DESC (директмл. h)
 
@@ -61,7 +61,7 @@ output[batch, ...] = input[batch, indices[batch, ...], ...]
 ```
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 

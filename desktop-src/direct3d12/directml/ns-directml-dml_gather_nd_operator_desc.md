@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GATHER_ND_OPERATOR_DESC
-ms.openlocfilehash: 6a48fd19621bed100a13412dbb1992974d125323
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8e74078eaf55f209fba92ba97737d22047a5e67c
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105720851"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802897"
 ---
 # <a name="dml_gather_nd_operator_desc-structure-directmlh"></a>Структура DML_GATHER_ND_OPERATOR_DESC (директмл. h)
 
@@ -60,7 +60,7 @@ output[...] = input[indices[...]]
 ```
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

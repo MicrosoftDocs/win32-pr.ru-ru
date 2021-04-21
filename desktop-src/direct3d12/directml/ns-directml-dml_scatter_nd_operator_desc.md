@@ -39,12 +39,12 @@ api_name:
 f1_keywords:
 - DML_SCATTER_ND_OPERATOR_DESC
 - directml/DML_SCATTER_ND_OPERATOR_DESC
-ms.openlocfilehash: ae9a3022a7070bbf0253e71550f2ca1ceced6768
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 6c987e01862d849c6215a2d25fe957ef0a22e7af
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719991"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803979"
 ---
 # <a name="dml_scatter_nd_operator_desc-structure-directmlh"></a>Структура DML_SCATTER_ND_OPERATOR_DESC (директмл. h)
 Копирует весь входной тензорные в выходные данные, а затем перезаписывает выбранные индексы соответствующими значениями из тензорные обновлений. Этот оператор выполняет следующий псевдокод, где "..." представляет ряд координат с точным поведением, определяемым осью и размером индексов.
@@ -57,7 +57,7 @@ output[indices[...]] = updates[...]
 Если два индекса элементов вывода перекрываются (что недопустимо), последняя запись WINS не гарантируется.
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp

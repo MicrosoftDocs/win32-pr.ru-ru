@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RESAMPLE_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 5808381f2e812ac20399b46672e51acd063bc6a5
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 0caba1a560b72a94ed04cacd824414964af82c35
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719993"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804052"
 ---
 # <a name="dml_resample_grad_operator_desc-structure-directmlh"></a>Структура DML_RESAMPLE_GRAD_OPERATOR_DESC (директмл. h)
 
@@ -79,7 +79,7 @@ InputGradientTensor           OutputGradientTensor
 Обратите внимание, что значения в *аутпутградиенттенсор* представляют взвешенные вклады этого элемента в *аутпуттенсор* во время исходного оператора **DML_RESAMPLE1_OPERATOR_DESC** .
 
 > [!IMPORTANT]
-> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/)). См. также [Журнал версий директмл](../dml-version-history.md).
+> Этот API доступен как часть автономного распространяемого пакета Директмл (см. [Microsoft. AI. директмл](https://www.nuget.org/packages/Microsoft.AI.DirectML/) версии 1,4 и более поздних версий). См. также [Журнал версий директмл](../dml-version-history.md).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -124,19 +124,19 @@ struct DML_RESAMPLE_GRAD_OPERATOR_DESC
 
 `Scales`
 
-Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 См. раздел *масштабирование* в [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
 `InputPixelOffsets`
 
-Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 См. раздел *инпутпикселоффсетс* in [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
 `OutputPixelOffsets`
 
-Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 См. раздел *аутпутпикселоффсетс* in [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
