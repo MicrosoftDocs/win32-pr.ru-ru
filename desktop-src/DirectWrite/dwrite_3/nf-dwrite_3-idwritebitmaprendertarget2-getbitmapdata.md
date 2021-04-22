@@ -39,12 +39,12 @@ api_location:
 - dwrite.dll
 api_name:
 - IDWriteBitmapRenderTarget2.GetBitmapData
-ms.openlocfilehash: dff9904eef692b3858cc044f7b400a5b3641456a
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 3dbc87697750ee07939602dc694468aa68f5c66d
+ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105719957"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107881853"
 ---
 # <a name="idwritebitmaprendertarget2getbitmapdata-method-dwrite_3h"></a>Метод IDWriteBitmapRenderTarget2::-BitmapData (dwrite_3. h)
 
@@ -82,11 +82,11 @@ HRESULT GetBitmapData(
 ## <a name="requirements"></a>Требования
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Минимальная версия клиента** | Windows 10, предварительная версия проекта Реюньон 0,1 [приложения Win32] |
+| **Минимальная версия клиента** | Windows 10, переобъединение проектов [приложения Win32] |
 | **Header** | dwrite_3. h (включает dwrite_core. h) |
 | **Библиотека** | Дврите. lib |
 | **КОМПОНОВКИ** | Dwrite.dll |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 [IDWriteBitmapRenderTarget2](/windows/win32/api/dwrite_1/nn-dwrite_3-idwritebitmaprendertarget2)

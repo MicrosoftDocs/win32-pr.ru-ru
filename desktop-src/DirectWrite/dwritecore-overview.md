@@ -5,17 +5,17 @@ keywords:
 - Ядро DirectWrite
 - DWriteCore
 ms.topic: article
-ms.date: 12/09/2020
-ms.openlocfilehash: 605cab8d0cd0511b5ca3b0b14d517cdc3f290573
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.date: 04/21/2021
+ms.openlocfilehash: 27a34656ce28a65267bd098974b4df9003a80e17
+ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104351035"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107881843"
 ---
 # <a name="dwritecore-overview"></a>Общие сведения о DWriteCore
 
-Двритекоре — это реализация [DirectWrite](./direct-write-portal.md)для [Реюньон проекта](/windows/apps/project-reunion/) . DWriteCore — это один из видов DirectWrite, который работает с версиями Windows вплоть до Windows 8 и позволяет использовать его на разных платформах.
+Двритекоре — это реализация [DirectWrite](./direct-write-portal.md) для повторного [объединения проектов](/windows/apps/project-reunion/) (DirectWrite — это API DirectX для высококачественной отрисовки текста, независимых от разрешения шрифтов, а также полной поддержки текста и макета в Юникоде). DWriteCore — это один из видов DirectWrite, который работает с версиями Windows вплоть до Windows 8 и позволяет использовать его на разных платформах.
 
 В этом вводном разделе описывается, что такое Двритекоре, и показано, как установить его в среду разработки и программировать вместе с ней.
 
@@ -35,9 +35,31 @@ ms.locfileid: "104351035"
 
 ## <a name="get-started-with-dwritecore"></a>Начало работы с Двритекоре
 
-В настоящее время в предварительном выпуске Project Реюньон 0,1 мы не поддерживаем установку пакета NuGet для повторного объединения проектов в собственные проекты. Вместо этого в настоящее время поддерживается возможность собственного программирования с помощью Двритекоре, которая начинается с проекта [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) Sample App и основывается на разработке проекта.
+Двритекоре является частью [проекта union 0,5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0). В этом разделе описывается настройка среды разработки для программирования с помощью Двритекоре.
 
-После этого можно удалить любой существующий исходный код (или файлы) из этого примера проекта, а также добавить в проект новый исходный код (или файлы). Дополнительные сведения о программировании с помощью Двритекоре см. в подразделе [программирование с помощью двритекоре](#programming-with-dwritecore) далее в этом разделе.
+### <a name="install-the-project-reunion-05-vsix"></a>Установка VSIX 0,5 проекта
+
+В Visual Studio щелкните **расширения**  >  **Управление расширениями**, выполните поиск по запросу *объединить в проект* и скачайте расширение Union проекта. Закройте и снова откройте Visual Studio и следуйте инструкциям по установке расширения.
+
+Дополнительные сведения см. в разделе [Project реюньон 0,5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0)и [Создание настольных приложений Windows с помощью предложения UNION 0,5](/windows/apps/project-reunion/#set-up-your-development-environment).
+
+### <a name="create-a-new-project"></a>Создание нового проекта
+
+В Visual Studio создайте новый проект из шаблона проекта " **пустое приложение", упакованное (винуи 3 в рабочем столе)** . Чтобы найти шаблон проекта, выберите язык: *C++*. Платформа: *объединение проектов*; Тип проекта: *Рабочий стол*.
+
+Дополнительные сведения см. в разделе [шаблоны проектов для винуи 3](/windows/apps/winui/winui3/winui-project-templates-in-visual-studio#project-templates-for-winui-3).
+
+### <a name="install-the-microsoftprojectreuniondwrite-nuget-package"></a>Установка пакета NuGet Microsoft. Прожектреунион. Дврите
+
+В Visual Studio щелкните **проект** \> **Управление пакетами NuGet...** \> **Обзор**, введите или вставьте **Microsoft. прожектреунион. дврите** в поле поиска, выберите элемент в результатах поиска и нажмите кнопку **установить** , чтобы установить пакет для этого проекта.
+
+### <a name="alternatively-begin-with-the-dwritecoregallery-sample-app"></a>Кроме того, начнем с примера приложения Двритекорегаллери.
+
+Кроме того, можно программировать с помощью Двритекоре, начиная с проекта примера приложения [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) , и основывать разработку на этом проекте. После этого можно удалить любой существующий исходный код (или файлы) из этого примера проекта, а также добавить в проект новый исходный код (или файлы).
+
+### <a name="use-dwritecore-in-your-project"></a>Использование Двритекоре в проекте
+
+Дополнительные сведения о программировании с помощью Двритекоре см. в подразделе [программирование с помощью двритекоре](#programming-with-dwritecore) далее в этом разделе.
 
 ## <a name="the-release-phases-of-dwritecore"></a>Фазы выпуска Двритекоре
 
@@ -69,17 +91,18 @@ ms.locfileid: "104351035"
 
 ## <a name="programming-with-dwritecore"></a>Программирование с помощью Двритекоре
 
-Как уже упоминалось, в предварительном выпуске Project Реюньон 0,1 параметр, поддерживаемый в настоящее время для собственного программирования с помощью Двритекоре, начинается с проекта [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) Sample App.
-
 Как и в случае с [DirectWrite](./direct-write-portal.md), вы запрограммироване с помощью двритекоре с помощью API-интерфейса COM через интерфейс [**идвритефактори**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) .
 
-**Двритекорегаллери** уже включает `dwrite_core.h` файл заголовка. Этот заголовок сначала определяет маркер *DWRITE_CORE*, а затем включает `dwrite_3.h` . Маркер *DWRITE_CORE* важен, так как он направляет все последующие включенные заголовки, чтобы сделать доступными все API-интерфейсы DirectWrite. После включения проекта `dwrite_core.h` можно выполнить написание кода, сборку и запуск.
+Чтобы использовать Двритекоре, необходимо включить `dwrite_core.h` заголовочный файл.
 
 ```cppwinrt
 // pch.h
 ...
+// DWriteCore header file.
 #include <dwrite_core.h>
 ```
+
+`dwrite_core.h`Сначала файл заголовка определяет маркер *DWRITE_CORE*, а затем включает `dwrite_3.h` . Маркер *DWRITE_CORE* важен, так как он направляет все последующие включенные заголовки, чтобы сделать доступными все API-интерфейсы DirectWrite. После включения проекта `dwrite_core.h` можно выполнить написание кода, сборку и запуск.
 
 ### <a name="apis-that-are-new-or-different-for-dwritecore"></a>Новые или разные API для Двритекоре
 
@@ -87,22 +110,22 @@ ms.locfileid: "104351035"
 
 #### <a name="create-a-restricted-factory-object"></a>Создание объекта ограниченной фабрики
 
-Перечисление [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) содержит новую константную &mdash; **DWRITE_FACTORY_TYPE_RESTRICTED**. Ограниченная фабрика больше заблокирована, чем изолированная фабрика. Он не взаимодействует с межпроцессным или постоянным кэшем шрифтов каким-либо образом. Кроме того, системная коллекция шрифтов, возвращаемая из этой фабрики, включает только хорошо известные шрифты. Ниже показано, как можно использовать **DWRITE_FACTORY_TYPE_RESTRICTED** для создания объекта ограниченной фабрики при вызове функции Free [**двритекреатефактори**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) .
+Перечисление [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) содержит новую константную &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**, обозначающую ограниченную фабрику. Ограниченная фабрика больше заблокирована, чем изолированная фабрика. Он не взаимодействует с межпроцессным или постоянным кэшем шрифтов каким-либо образом. Кроме того, системная коллекция шрифтов, возвращаемая из этой фабрики, включает только хорошо известные шрифты. Ниже показано, как можно использовать **DWRITE_FACTORY_TYPE_ISOLATED2** для создания объекта ограниченной фабрики при вызове функции Free [**двритекорекреатефактори**](/windows/win32/api/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) .
 
 ```cppwinrt
 // Create a factory that doesn't interact with any cross-process nor
 // persistent cache state.
 winrt::com_ptr<::IDWriteFactory7> spFactory;
 winrt::check_hresult(
-  ::DWriteCreateFactory(
-    DWRITE_FACTORY_TYPE_RESTRICTED,
+  ::DWriteCoreCreateFactory(
+    DWRITE_FACTORY_TYPE_ISOLATED2,
     __uuidof(spFactory),
     reinterpret_cast<IUnknown**>(spFactory.put())
   )
 );
 ```
 
-При передаче **DWRITE_FACTORY_TYPE_RESTRICTED** в более старую версию DirectWrite, которая не поддерживается, **двритекреатефактори** возвращает **E_INVALIDARG**.
+При передаче **DWRITE_FACTORY_TYPE_ISOLATED2** в более старую версию DirectWrite, которая не поддерживается, **двритекреатефактори** возвращает **E_INVALIDARG**.
 
 #### <a name="drawing-glyphs-to-a-system-memory-bitmap"></a>Рисование глифов в битовой карте системной памяти
 
