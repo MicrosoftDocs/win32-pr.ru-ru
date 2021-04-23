@@ -1,6 +1,6 @@
 ---
 title: countbits - функция
-description: Подсчитывает количество битов (на компонент) во входном числе.
+description: Подсчитывает количество битов (на компонент), заданных во входном целочисленном параметре.
 ms.assetid: c4fafbc8-e21c-48cb-b433-8241a989ec85
 keywords:
 - Функция каунтбитс HLSL
@@ -13,22 +13,22 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 60d3cd63502c6217e6fb0b0ff17685b2d2b5bf25
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 357aceca6e2aea261a9e94212b58ff6308c99560
+ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069136"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107925627"
 ---
 # <a name="countbits-function"></a>countbits - функция
 
-Подсчитывает количество битов (на компонент) во входном числе.
+Подсчитывает количество битов (на компонент), заданных во входном целочисленном параметре.
 
 ## <a name="syntax"></a>Синтаксис
 
 ``` syntax
 uint countbits(
-  in uint value
+  in uint value
 );
 ```
 
@@ -51,7 +51,7 @@ uint countbits(
 
 Число битов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 Также доступны следующие перегруженные версии:
 
@@ -74,21 +74,21 @@ uint4 count_bits(uint4 value);
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -98,9 +98,9 @@ uint4 count_bits(uint4 value);
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

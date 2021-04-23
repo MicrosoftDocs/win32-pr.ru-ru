@@ -4,12 +4,12 @@ ms.assetid: 0a226629-084c-40c5-bdd4-ad7355c807cf
 title: Формат строки дескриптора безопасности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f5182de796ee8d3c61f079d3704ab29ad552457
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42780c408908faf0a226584be7315ab6bf9e78e5
+ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897777"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107925687"
 ---
 # <a name="security-descriptor-string-format"></a>Формат строки дескриптора безопасности
 
@@ -60,7 +60,7 @@ S:sacl_flags(string_ace1)(string_ace2)... (string_acen)
 | Ш                   | \_ЗАЩИЩЕН SDDL          | \_ \_ Установлен флаг защищенного списка DACL SE.          |
 | AR                  | запрос на \_ Автоматическое \_ НАСЛЕДОВАНие SDDL \_ | \_ \_ \_ Установлен флаг автоматического наследования \_ req DACL. |
 | AI                  | \_Автоматический \_ НАСЛЕДОВАНный SDDL    | \_ \_ \_ Установлен флаг автоматического наследования DACL SE.    |
-| "без \_ \_ контроля доступа" | \_ACL NULL для языка SSDL \_          | Список ACL имеет значение null.                              |
+| "без \_ \_ контроля доступа" | \_список ACL со значением NULL SDDL \_          | Список ACL имеет значение null.                              |
 
 
 
@@ -250,7 +250,7 @@ DACL
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 97432b99-e89b-4d69-963d-a959f887e580
 title: Фильтр записи видео WDM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4cce63f3883d8688a8f930d68bfe87a52133441
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b17afb9b4ee534146ef7b8e8c34d9594f6b9e45e
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664694"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908642"
 ---
 # <a name="wdm-video-capture-filter"></a>Фильтр записи видео WDM
 
@@ -21,7 +21,7 @@ ms.locfileid: "105664694"
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Метка | Значение |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | Драйвер WDM для устройства может поддерживать один или несколько из следующих элементов: [**иаманалогвидеодекодер**](/windows/desktop/api/Strmif/nn-strmif-iamanalogvideodecoder), [**иамкамераконтрол**](/windows/desktop/api/Strmif/nn-strmif-iamcameracontrol), [**иамдевицеремовал**](/windows/desktop/api/Strmif/nn-strmif-iamdeviceremoval), [**иамдроппедфрамес**](/windows/desktop/api/Strmif/nn-strmif-iamdroppedframes), [**иамекстдевице**](/windows/desktop/api/Strmif/nn-strmif-iamextdevice), [**IAMExtTransport**](/windows/desktop/api/Strmif/nn-strmif-iamexttransport), [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags), [**IAMTimecodeReader**](/windows/desktop/api/Strmif/nn-strmif-iamtimecodereader), [**IAMVideoCompression**](/windows/desktop/api/Strmif/nn-strmif-iamvideocompression), [**IAMVideoControl**](/windows/desktop/api/Strmif/nn-strmif-iamvideocontrol), [**IAMVideoProcAmp**](/windows/desktop/api/Strmif/nn-strmif-iamvideoprocamp), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IKsPropertySet**](ikspropertyset.md), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IReferenceClock**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock), **ISpecifyPropertyPages**. |
 | Типы носителей входных закрепления                    | Зависит от драйвера.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -38,7 +38,7 @@ ms.locfileid: "105664694"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

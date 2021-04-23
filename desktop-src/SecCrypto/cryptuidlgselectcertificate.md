@@ -4,12 +4,12 @@ ms.assetid: 242c19a7-179b-4fc0-a050-a1b598566a6b
 title: Функция CryptUIDlgSelectCertificate
 ms.topic: reference
 ms.date: 05/29/2020
-ms.openlocfilehash: 65d9993cd1e035473e731056d33b7a391ef47b5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f015796671990491407d91cbd51761816c5434b
+ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272451"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107925695"
 ---
 # <a name="cryptuidlgselectcertificate-function"></a>Функция CryptUIDlgSelectCertificate
 
@@ -19,6 +19,8 @@ ms.locfileid: "104272451"
 
 
 ```C++
+PCCERT_CONTEXT WINAPI CryptUIDlgSelectCertificate(
+  _In_  PCCRYPTUI_SELECTCERTIFICATE_STRUCT pcsc
 );
 ```
 
@@ -47,7 +49,7 @@ ms.locfileid: "104272451"
 
 Если элемент **dwFlags** структуры [**\_ \_ структуры динамической компоновки Cryptui селектцертификате**](cryptui-selectcertificate-struct.md) имеет значение **динамической компоновки Cryptui \_ селектцерт \_ Legacy**, то отображается диалоговое окно прежних версий. В противном случае отображается диалоговое окно выбора текущего сертификата.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -62,16 +64,14 @@ ms.locfileid: "104272451"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**\_Структура СЕЛЕКТЦЕРТИФИКАТЕ \_ динамической компоновки Cryptui**](cryptui-selectcertificate-struct.md)
 </dt> </dl>
 
-�
 
-�
 
 
 

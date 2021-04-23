@@ -4,12 +4,12 @@ ms.assetid: a727c47c-b925-436c-b1e8-d5f407120dc9
 title: Элемент param (DirectShow)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb1d007a7f3e2dcffaa7b9163c76be604fed7a9a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8a10f902e85066f6cea14023e8cff9250126add0
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894910"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909042"
 ---
 # <a name="param-element"></a>Param, элемент
 
@@ -28,7 +28,7 @@ ms.locfileid: "103894910"
 
 
 
-|          |                                                                                                          |
+| Метка | Значение |
 |----------|----------------------------------------------------------------------------------------------------------|
 | Parent   | [**клип**](clip-element.md), [**результат**](effect-element.md), [**Переход**](transition-element.md) |
 | Дети | [**в**](at-element.md), [ **Линейная**](linear-element.md)                                               |
@@ -72,7 +72,7 @@ ms.locfileid: "103894910"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
