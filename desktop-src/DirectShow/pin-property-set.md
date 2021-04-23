@@ -4,12 +4,12 @@ ms.assetid: 0c01bd51-353d-4f48-b33c-796f740915e2
 title: Закрепить набор свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bc2d3ed55d7fed70d37a92427d1288ed58aef65
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e53955ba1f075094c4fb2f6324ed143ca54f72c2
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104416588"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909622"
 ---
 # <a name="pin-property-set"></a>Закрепить набор свойств
 
@@ -17,7 +17,7 @@ ms.locfileid: "104416588"
 
 
 
-|                   |                      |
+| Метка | Значение |
 |-------------------|----------------------|
 | Идентификатор GUID набора свойств | **\_ПИН-код ампропсетид** |
 
@@ -96,7 +96,7 @@ HRESULT GetPinCategory(IPin *pPin, GUID *pPinCategory)
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

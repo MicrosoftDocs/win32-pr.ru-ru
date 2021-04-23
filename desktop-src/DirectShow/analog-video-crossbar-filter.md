@@ -4,12 +4,12 @@ ms.assetid: 668f6a8b-a4ed-4e4a-956c-a87f165225fa
 title: Фильтр аналогового микшера видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2eb086b85859a3e1e895cd322c68c56916ac19a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d17d8700131dbc658a5233d56f339c39eac7a3a0
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103990076"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909602"
 ---
 # <a name="analog-video-crossbar-filter"></a>Фильтр аналогового микшера видео
 
@@ -23,7 +23,7 @@ ms.locfileid: "103990076"
 
 
 
-|                                          |                                                                                                |
+| Метка | Значение |
 |------------------------------------------|------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Иамкроссбар**](/windows/desktop/api/Strmif/nn-strmif-iamcrossbar), ИспеЦифипропертипажес, IPersistPropertyBag, IPersistStream |
 | Типы носителей входных закрепления                    | MEDIATYPE \_ аналогаудио, MediaType \_ аналогвидео                                                 |
@@ -40,7 +40,7 @@ ms.locfileid: "103990076"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 4f170736-516d-4420-a215-e0e414f036cd
 title: Свойство AM_RATE_ReverseMaxFullDataRate (Двдмедиа. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 679e83038a74e64d7a39e8757a9ffaf61fc88c93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31e376c6e95160c6a6c3c6637a765d868e282d33
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657673"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910242"
 ---
 # <a name="am_rate_reversemaxfulldatarate-property"></a>\_ \_ Свойство реверсемаксфуллдатарате Rate
 
@@ -23,7 +23,7 @@ ms.locfileid: "105657673"
 
 
 
-|                   |                                  |
+| Метка | Значение |
 |-------------------|----------------------------------|
 | Идентификатор GUID набора свойств | \_Кспропсетид \_ тсратечанже    |
 | Идентификатор свойства       | \_Ставка \_ реверсемаксфуллдатарате |
@@ -37,17 +37,17 @@ ms.locfileid: "105657673"
 
 Это свойство должно предоставлять декодеры, поддерживающие плавный обратный воспроизведение. Дополнительные сведения см. [в статье улучшения воспроизведения DVD в Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

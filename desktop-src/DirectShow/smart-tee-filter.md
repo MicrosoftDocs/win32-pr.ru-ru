@@ -4,12 +4,12 @@ ms.assetid: 25bfbd62-b6be-4d1f-aa4c-77798bbb9fc9
 title: Интеллектуальный фильтр Tee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 647e04ef2a24bde43c9d02b7986fd8a645a6b60c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c52077066f69e50fbb5218012a402a8d556c15c1
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495477"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909302"
 ---
 # <a name="smart-tee-filter"></a>Интеллектуальный фильтр Tee
 
@@ -23,7 +23,7 @@ ms.locfileid: "104495477"
 
 
 
-|                                          |                                                                                                                |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                             |
 | Типы носителей входных закрепления                    | \_Устройство MEDIATYPE, медиасубтипе \_ null                                                                           |
@@ -44,7 +44,7 @@ ms.locfileid: "104495477"
 
 ПИН-код записи является выходным закреплением 0, а предварительный ПИН-код — выходным закреплением 1.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

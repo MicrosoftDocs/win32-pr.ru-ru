@@ -4,12 +4,12 @@ ms.assetid: 209e0aa3-d7a3-4b5c-ae5a-5063a3804a9d
 title: KSPROPERTY_EXTXPORT_ATN_SEARCH
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc8ff454386c444ed6b55bfbeede60196a75127c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f4115c7ff1c4bc878b4ee80e284f11821c37909a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682182"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909451"
 ---
 # <a name="ksproperty_extxport_atn_search"></a>КСПРОПЕРТИ \_ ексткспорт \_ АТН \_ Search
 
@@ -17,7 +17,7 @@ ms.locfileid: "105682182"
 
 
 
-|                   |                                       |
+| Метка | Значение |
 |-------------------|---------------------------------------|
 | Идентификатор GUID набора свойств | ПРОПСЕТИД \_ ext \_ Transport             |
 | Идентификатор свойства       | КСПРОПЕРТИ \_ ексткспорт \_ АТН \_ Search     |
@@ -40,7 +40,7 @@ ms.locfileid: "105682182"
 
 Спецификация УВК не определяет, как устройство использует бит непрерывности. Структура **кспроперти \_ ексткспорт \_** описана в Windows DDK.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

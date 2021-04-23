@@ -4,12 +4,12 @@ ms.assetid: df3c7d11-7ecc-499a-af36-b74437e21999
 title: Фильтр разделителя AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e61b9a60c4c42aafa875c166ae08ccdf337793c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 24335511e9b7b866c85792c2036a4d4b6d089f2a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140531"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909662"
 ---
 # <a name="avi-splitter-filter"></a>Фильтр разделителя AVI
 
@@ -17,7 +17,7 @@ ms.locfileid: "104140531"
 
 
 
-|                                          |                                                                                                                                                                     |
+| Метка | Значение |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Иаммедиаконтент**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent), [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**иперсистмедиапропертибаг**](/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag)                        |
 | Типы носителей входных закрепления                    | \_Поток MEDIATYPE, медиасубтипе \_ AVI                                                                                                                                |
@@ -64,7 +64,7 @@ ms.locfileid: "104140531"
 
 В обоих случаях выходной ПИН-код для этого потока должен быть подключен к фильтру модуля подготовки отчетов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 40323e64-ad5f-4646-bad7-2a4e7d0ddcf6
 title: Элемент Clip
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fe975113f370b13e50ba695d6fb3388a43c3a74
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6d937f942ba7b564e65b0e37d9c11929805287da
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494499"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908672"
 ---
 # <a name="clip-element"></a>Элемент Clip
 
@@ -28,7 +28,7 @@ ms.locfileid: "104494499"
 
 
 
-|          |                                  |
+| Метка | Значение |
 |----------|----------------------------------|
 | Parent   | [**дорожк**](track-element.md)   |
 | Дети | [**тень**](effect-element.md) |
@@ -72,7 +72,7 @@ ms.locfileid: "104494499"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d57d023dff803caf5da7e61dea266670ec8bde5d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: db88c5818d31d65f361ae1a805bd50c285d4a5c2
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656980"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909812"
 ---
 # <a name="cbasecontrolwindowdosetwindowstyle-method"></a>Кбасеконтролвиндов. Досетвиндовстиле, метод
 
@@ -43,7 +43,7 @@ HRESULT DoSetWindowStyle(
 
 <dl> <dt>
 
-*Style* 
+*Стиль* 
 </dt> <dd>
 
 Соответствующие стили окна.
@@ -57,7 +57,7 @@ HRESULT DoSetWindowStyle(
 
 
 
-|              |                                      |
+| Метка | Значение |
 |--------------|--------------------------------------|
 | \_стиль ГВЛ   | Получение стилей окна.          |
 | ГВЛ \_ операторе EXSTYLE | Получение расширенных стилей окна. |
@@ -76,18 +76,18 @@ HRESULT DoSetWindowStyle(
 
 Эта функция члена вызывает функцию Win32 **SetWindowLong** для задания стиля окна, а затем повторно отображает окно в текущей позицией. Эта функция-член вызывается с помощью функций-членов [**кбасеконтролвиндов::p UT \_ WindowStyle**](cbasecontrolwindow-put-windowstyle.md) и [**кбасеконтролвиндов::p UT \_ виндовстиликс**](cbasecontrolwindow-put-windowstyleex.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

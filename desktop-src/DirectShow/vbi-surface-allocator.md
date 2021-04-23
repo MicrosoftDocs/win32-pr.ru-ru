@@ -4,12 +4,12 @@ ms.assetid: 51c73a25-1112-4fb4-a45f-967c6a1b5c55
 title: Распределитель поверхности ВБИ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4edd698ed37c7b180bee27d0a99e95096080d8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5849b23b8f21a7b49e477060386628ba4c19b2e5
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815257"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909012"
 ---
 # <a name="vbi-surface-allocator"></a>Распределитель поверхности ВБИ
 
@@ -17,7 +17,7 @@ ms.locfileid: "103815257"
 
 
 
-|                                          |                                                                                     |
+| Метка | Значение |
 |------------------------------------------|-------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                  |
 | Типы носителей входных закрепления                    | МУЛЬТИМЕДИЙное \_ видео, медиасубтипе \_ впвби                                               |
@@ -34,7 +34,7 @@ ms.locfileid: "103815257"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

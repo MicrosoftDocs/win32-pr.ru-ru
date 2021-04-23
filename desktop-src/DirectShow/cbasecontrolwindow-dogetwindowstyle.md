@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2667e4cbeef2d40bdc5bff8381ee3f07b3d0942f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d970ee52203c5c8dfe8a897c5612604becc2b2e1
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668519"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909822"
 ---
 # <a name="cbasecontrolwindowdogetwindowstyle-method"></a>Кбасеконтролвиндов. Дожетвиндовстиле, метод
 
@@ -57,7 +57,7 @@ HRESULT DoGetWindowStyle(
 
 
 
-|              |                                      |
+| Метка | Значение |
 |--------------|--------------------------------------|
 | \_стиль ГВЛ   | Получение стилей окна.          |
 | ГВЛ \_ операторе EXSTYLE | Получение расширенных стилей окна. |
@@ -76,18 +76,18 @@ HRESULT DoGetWindowStyle(
 
 Эта функция члена вызывает функцию Win32 **жетвиндовлонг** для получения стиля окна. Он вызывается функциями-членами [**кбасеконтролвиндов:: Get \_ WindowStyle**](cbasecontrolwindow-get-windowstyle.md) и [**кбасеконтролвиндов:: Get \_ виндовстиликс**](cbasecontrolwindow-get-windowstyleex.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

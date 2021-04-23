@@ -4,12 +4,12 @@ ms.assetid: aedb4491-f1f0-44b3-ad88-3fac8c90144d
 title: Элемент Effect (Гдиплусеффектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dd31e85407b99c3dffd4417a051be168f7c6d3a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d4c925e61578857415bb22248a9ad2b1df27cdac
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652151"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908662"
 ---
 # <a name="effect-element"></a>Элемент Effect
 
@@ -28,10 +28,10 @@ ms.locfileid: "105652151"
 
 
 
-|          |                                                                                                                                      |
+| Метка | Значение |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Parent   | [**составной**](composite-element.md), [**Группа**](group-element.md), [**Обрезка**](clip-element.md), [**запись**](track-element.md) |
-| Дети | [**байт**](param-element.md)                                                                                                       |
+| Дети | [**param**](param-element.md)                                                                                                       |
 
 
 
@@ -50,17 +50,17 @@ ms.locfileid: "105652151"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Гдиплусеффектс. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Гдиплусеффектс. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

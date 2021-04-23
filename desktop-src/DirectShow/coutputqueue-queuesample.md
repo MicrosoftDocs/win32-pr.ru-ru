@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 45b1295ea1a9ded145356e6b0495b7b873dff200
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8efe0ec3b2326d1af0d0075770bdc6443ab9dcad
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674883"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910072"
 ---
 # <a name="coutputqueuequeuesample-method"></a>Каутпуткуеуе. QueueSample, метод
 
@@ -61,7 +61,7 @@ void QueueSample(
 
 
 
-|               |                                        |
+| Метка | Значение |
 |---------------|----------------------------------------|
 | Сообщение       | Действие                                 |
 | \_пакет EOS   | Доставка уведомления об окончании потока. |
@@ -75,18 +75,18 @@ void QueueSample(
 
 Это защищенный метод, который класс **каутпуткуеуе** использует для внутренних целей.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Аутпутк. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>Аутпутк. h (включение Streams. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

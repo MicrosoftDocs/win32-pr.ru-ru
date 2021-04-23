@@ -4,12 +4,12 @@ ms.assetid: da3abefd-8f25-449d-8787-84d2cef928da
 title: Набор свойств защиты от копирования DVD (Dvdmedia.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a14146ce0be19a4ed49c23517987a2c91a85da87
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 382243a6071fa73361df13ae933d259979686a06
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679738"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909482"
 ---
 # <a name="dvd-copy-protection-property-set"></a>Набор свойств защиты копирования DVD-дисков
 
@@ -25,7 +25,7 @@ ms.locfileid: "105679738"
 
 
 
-|                   |                           |
+| Метка | Значение |
 |-------------------|---------------------------|
 | Идентификатор GUID набора свойств | \_Кспропсетид \_ копипрот |
 
@@ -99,17 +99,17 @@ ms.locfileid: "105679738"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

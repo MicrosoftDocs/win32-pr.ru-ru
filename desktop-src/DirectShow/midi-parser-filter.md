@@ -4,12 +4,12 @@ ms.assetid: a56576ad-f949-48fa-85e0-3e9898d2970d
 title: Фильтр средства синтаксического анализа MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b741b2c82eda224a24ffee8a56f8977cbb510f3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 60ce659559852497b8ec55709e77f9510a1deaf2
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103989920"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908432"
 ---
 # <a name="midi-parser-filter"></a>Фильтр средства синтаксического анализа MIDI
 
@@ -17,7 +17,7 @@ ms.locfileid: "103989920"
 
 
 
-|                                          |                                                                                                          |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Иаммедиаконтент**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent), [ **ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                           |
 | Типы носителей входных закрепления                    | \_Поток MEDIATYPE, медиасубтипе \_ MIDI                                                                    |
@@ -38,7 +38,7 @@ ms.locfileid: "103989920"
 
 Дополнительные сведения см. в разделе Модуль [**подготовки MIDI**](midi-renderer-filter.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

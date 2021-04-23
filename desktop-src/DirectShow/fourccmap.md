@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: fd30a0f04d98b4c6ba4b7716a1a72d527873dbff
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b9254986bebadeffafaa832817f59194bfc58e12
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140019"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908862"
 ---
 # <a name="fourccmap-class"></a>Класс Фаурккмап
 
@@ -37,7 +37,7 @@ ms.locfileid: "104140019"
 
 
 
-|                                          |                                                          |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------|
 | [**фаурккмап**](fourccmap-fourccmap.md) | Метод конструктора.                                      |
 | [**жетфауркк**](fourccmap-getfourcc.md) | Извлекает объект **FourCC** из объекта **фаурккмап** .    |

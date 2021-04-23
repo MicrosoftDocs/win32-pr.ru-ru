@@ -4,12 +4,12 @@ ms.assetid: 0a5f4e92-e703-4487-91b0-15265744004e
 title: Фильтр VGA 16 с оттенокм
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85db9d8fad706c96f19bb5bea6b0476b0ddec735
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11d343843b002eb205e1d0718b282546bdc19907
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081083"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908682"
 ---
 # <a name="vga-16-color-ditherer-filter"></a>Фильтр VGA 16 с оттенокм
 
@@ -17,7 +17,7 @@ ms.locfileid: "104081083"
 
 
 
-|                                          |                                                                                                                                                    |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                 |
 | Типы носителей входных закрепления                    | МУЛЬТИМЕДИЙное \_ видео, медиасубтипе \_ RGB8                                                                                                               |
@@ -34,7 +34,7 @@ ms.locfileid: "104081083"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

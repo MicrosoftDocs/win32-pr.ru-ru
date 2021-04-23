@@ -4,12 +4,12 @@ ms.assetid: 82b9f849-b9dc-439b-8ca7-9dcd992338ab
 title: Фильтр чтения WM ASF (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3df563667ed614a238e8fb31e08a2d71c721c2b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a35cea4b6dbf8c720f3059e0317484fd2f34d10
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264869"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908872"
 ---
 # <a name="wm-asf-reader-filter-directshow"></a>Фильтр чтения WM ASF (DirectShow)
 
@@ -17,7 +17,7 @@ ms.locfileid: "104264869"
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Метка | Значение |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**ифилесаурцефилтер**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter), [**иамекстендедсикинг**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamextendedseeking), **IServiceProvider** Кроме того, фильтр предоставляет следующие интерфейсы пакета SDK Windows Media Format: [**Ивмхеадеринфо**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo), [**ивмреадерадванцед**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced), [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2), [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) (через **IServiceProvider**).<br/> |
 | Типы носителей входных закрепления                    | Не применяется                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -53,7 +53,7 @@ ms.locfileid: "104264869"
 -   [**IWMReaderAdvanced2:: Сетлогклиентид**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setlogclientid)
 -   [**IWMReaderAdvanced2:: Сетплаймоде**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setplaymode)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

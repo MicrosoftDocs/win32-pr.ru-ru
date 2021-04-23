@@ -4,12 +4,12 @@ ms.assetid: fb907263-e7f3-42d6-80f9-a9f16fc21033
 title: Создание фильтров DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5553c4358f97809214ebbdea23c129aa7c214e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7090eed702b1abe8ee863d5fa3ac9c1fd413690e
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806454"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908622"
 ---
 # <a name="building-directshow-filters"></a>Создание фильтров DirectShow
 
@@ -34,7 +34,7 @@ ms.locfileid: "103806454"
 
 -   Ссылка на следующие lib файлы.
 
-    |              |                                      |
+| Метка | Значение |
     |--------------|--------------------------------------|
     | Отладочная сборка  | Стрмбасд. lib, MSVCRTD. lib, winmm. lib |
     | Розничная Сборка | Стрмбасе. lib, msvcrt. lib, winmm. lib  |
@@ -63,7 +63,7 @@ ms.locfileid: "103806454"
 
 Этот шаг не является обязательным для версии библиотеки базовых классов, доступной в DirectShow 9,0 и более поздних версиях.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

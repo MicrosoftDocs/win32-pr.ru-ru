@@ -4,12 +4,12 @@ ms.assetid: 0247dcb9-64ee-4562-944a-44bcfae80f2d
 title: Время системных ссылок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67fab63c4ba8bfd6a7db9c476179d6e649869fb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c8de8b208e32b6ea4772f3183c38a816ea43bb6
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674093"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909492"
 ---
 # <a name="system-reference-clock"></a>Время системных ссылок
 
@@ -17,7 +17,7 @@ ms.locfileid: "105674093"
 
 
 
-|                  |                                                                                                                                                          |
+| Метка | Значение |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор класса | \_СИСТЕМКЛОКК CLSID                                                                                                                                       |
 | Интерфейсы       | [**Иамклоккаджуст**](/windows/desktop/api/Strmif/nn-strmif-iamclockadjust), [**иреференцеклокк**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock), [**иреференцеклокктимерконтрол**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclocktimercontrol) |
@@ -26,7 +26,7 @@ ms.locfileid: "105674093"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

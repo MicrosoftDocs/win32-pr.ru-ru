@@ -4,12 +4,12 @@ ms.assetid: d70558a5-9820-432a-b4f3-ccf7bb2a34d5
 title: Диспетчер видеопортов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7ca884ff009584ef2904387d872733ddf8d53dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db4f030e6be9035432207dc608a775a0e1d30b09
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911055"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909202"
 ---
 # <a name="video-port-manager"></a>Диспетчер видеопортов
 
@@ -22,7 +22,7 @@ ms.locfileid: "103911055"
 
 
 
-|                                          |                                                                                                                                                                                                                      |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**ИамвидеодеЦиматионпропертиес**](/windows/desktop/api/Strmif/nn-strmif-iamvideodecimationproperties), [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**икспропертисет**](ikspropertyset.md), [**икуалпроп**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop), [**ивпманажер**](/windows/desktop/api/Strmif/nn-strmif-ivpmanager) |
 | Типы носителей входных закрепления                    | MEDIATYPE \_ Video, медиасубтипе \_ ВПВИДЕО или медиасубтипе \_ ВПВБИ, отформатировать \_ нет                                                                                                                                         |
@@ -47,7 +47,7 @@ ms.locfileid: "103911055"
 
 Тот факт, что ВПМ использует несколько поверхностей для входных буферов, означает, что для него требуется больше ресурсов, чем для предыдущей реализации видеопортов DirectShow. Дополнительная Блит от ВПМ к VMR-7 требует дополнительной пропускной способности видеопамяти. И так как автоматическое зеркальное отображение оборудования больше не используется, существует теоретическая вероятность потери кадров, но многофакторная очевидность предполагает, что это не происходит.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

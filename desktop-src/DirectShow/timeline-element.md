@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.ui.xaml.media.animation.h
-ms.openlocfilehash: ebbbbdf80ce750f0354eafa3b692be8ed4c9df35
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 97e87dbbcfbcefb8968f6bbe43e9df94277e3d7a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685214"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908802"
 ---
 # <a name="timeline-element"></a>Элемент Timeline
 
@@ -37,7 +37,7 @@ ms.locfileid: "105685214"
 
 
 
-|          |                                                       |
+| Метка | Значение |
 |----------|-------------------------------------------------------|
 | Parent   | Нет. Этот элемент должен быть корневым узлом в файле. |
 | Дети | [**сгруппировать**](group-element.md)                        |
@@ -55,17 +55,17 @@ ms.locfileid: "105685214"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Windows. UI. XAML. Media. Animation. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Windows. UI. XAML. Media. Animation. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

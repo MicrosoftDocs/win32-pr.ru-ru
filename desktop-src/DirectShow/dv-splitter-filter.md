@@ -4,12 +4,12 @@ ms.assetid: 099d1cc7-f0c5-4c50-a1d5-f2defde7e104
 title: Фильтр разделителя DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e59ada4f18a107f8e1b07571f3907aed5ddf50f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 74ca8e856f1a49ff22ee05f7dc0ae341fad6aa91
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536569"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908412"
 ---
 # <a name="dv-splitter-filter"></a>Фильтр разделителя DV
 
@@ -17,7 +17,7 @@ ms.locfileid: "104536569"
 
 
 
-|                                          |                                                                                                                                                    |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [ **идвсплиттер**](/windows/desktop/api/Strmif/nn-strmif-idvsplitter)                                                                             |
 | Типы носителей входных закрепления                    | MEDIATYPE \_ с чередованием, медиасубтипе \_ ДВСД, Format \_ двинфо                                                                                         |
@@ -46,7 +46,7 @@ ms.locfileid: "104536569"
 
 В дополнение к данным аудио и видео в каждом кадре DV содержатся метаданные. Эти метаданные могут изменяться от кадра к кадру. Приложения могут анализировать метаданные путем проверки входных образцов или видеороликов. Однако DirectShow не предоставляет прямой поддержки для синтаксического анализа метаданных DV. Дополнительные сведения см. в IEC 61834-4.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

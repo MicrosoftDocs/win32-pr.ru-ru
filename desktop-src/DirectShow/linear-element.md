@@ -4,12 +4,12 @@ ms.assetid: f6af4bf1-fc2d-439c-b1e3-8e095ecad503
 title: линейный элемент (Камерауиконтрол. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27080d08a1bbec98d5fa34b2739c63958e5d170a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e722dcbc68d24d76f34c80bdd17a91ad44423aa
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674889"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910092"
 ---
 # <a name="linear-element"></a>линейный элемент
 
@@ -28,9 +28,9 @@ ms.locfileid: "105674889"
 
 
 
-|          |                                |
+| Метка | Значение |
 |----------|--------------------------------|
-| Parent   | [**байт**](param-element.md) |
+| Parent   | [**param**](param-element.md) |
 | Дети | None                           |
 
 
@@ -46,17 +46,17 @@ ms.locfileid: "105674889"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Камерауиконтрол. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Камерауиконтрол. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

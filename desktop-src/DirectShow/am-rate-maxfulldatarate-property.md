@@ -4,12 +4,12 @@ ms.assetid: 66e6885b-7ad7-4912-85e4-ea36855bfde6
 title: Свойство AM_RATE_MaxFullDataRate (Двдмедиа. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 692d3a9acf3ab175d01cea63e970c8fcdad4b0cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c4e3b1ba4d15268ffb8a32c0e808393b85efe55b
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657678"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910292"
 ---
 # <a name="am_rate_maxfulldatarate-property"></a>\_ \_ Свойство максфуллдатарате Rate
 
@@ -21,7 +21,7 @@ ms.locfileid: "105657678"
 
 
 
-|                   |                                    |
+| Метка | Значение |
 |-------------------|------------------------------------|
 | Идентификатор GUID набора свойств | \_Кспропсетид \_ тсратечанже      |
 | Идентификатор свойства       | \_Ставка \_ максфуллдатарате          |
@@ -31,17 +31,17 @@ ms.locfileid: "105657678"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 5f3e06ec-adee-4bc7-8ea8-cce3030d3baa
 title: Фильтр неограниченного ПИН-кода Tee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90e9a80baf047cdd5559fadaa0f13ea1352d4ed0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3433a0c2f5fe55fa59c42ed6e02d34f6e2cf0e6d
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104423006"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909232"
 ---
 # <a name="infinite-pin-tee-filter"></a>Фильтр неограниченного ПИН-кода Tee
 
@@ -19,7 +19,7 @@ ms.locfileid: "104423006"
 
 
 
-|                                          |                                                                                                                                                    |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                 |
 | Типы носителей входных закрепления                    | Любой тип мультимедиа                                                                                                                                     |
@@ -36,7 +36,7 @@ ms.locfileid: "104423006"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

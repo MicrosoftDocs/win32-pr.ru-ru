@@ -4,12 +4,12 @@ ms.assetid: 9b09dd86-3c22-4565-82a0-106d5ca2e42d
 title: Фильтр средства синтаксического анализа SAMI (CC)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e0449bccd41a09fca952b5d84552ef919055526
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b77f0aa2d913b7f0295a078c8174ae483bb1cb62
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537682"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909682"
 ---
 # <a name="sami-cc-parser-filter"></a>Фильтр средства синтаксического анализа SAMI (CC)
 
@@ -21,7 +21,7 @@ ms.locfileid: "104537682"
 
 
 
-|                                          |                                                                                                          |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Иамстреамселект**](/windows/desktop/api/Strmif/nn-strmif-iamstreamselect), [ **ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                           |
 | Типы носителей входных закрепления                    | \_Поток MEDIATYPE                                                                                        |
@@ -173,7 +173,7 @@ void __cdecl main()
 
 Этот фильтр использует интерфейс [**иасинкреадер**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) для извлечения образцов из фильтра источника. Поэтому он не поддерживает интерфейс [**имеминпутпин**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) на входном ПИН-коде.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

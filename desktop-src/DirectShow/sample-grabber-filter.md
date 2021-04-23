@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 18cedd24b0ddcb8f71373641905228f8252ae4ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f0b0ddffe2bc769b7c2371ef93091d8c1daf379c
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674931"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909672"
 ---
 # <a name="sample-grabber-filter"></a>Образец фильтра захвата
 
@@ -33,7 +33,7 @@ ms.locfileid: "105674931"
 
 
 
-|                                          |                                                                                                                                                    |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [ **исамплеграббер**](isamplegrabber.md)                                                                       |
 | Типы носителей входных закрепления                    | Любой тип мультимедиа.                                                                                                                                    |
@@ -64,17 +64,17 @@ ms.locfileid: "105674931"
 
 В результате этот образец захвата не будет подключаться к модулю прорисовки видео (VMR) для некоторых типов видео.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Кедит. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Кедит. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

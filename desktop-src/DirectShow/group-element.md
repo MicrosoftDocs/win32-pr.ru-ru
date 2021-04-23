@@ -4,12 +4,12 @@ ms.assetid: db2f1fdd-bcb1-4401-91f4-5e167e4da215
 title: Элемент Group (DirectShow)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe0b8146586d93a53093a68bb1abc08e85c52f14
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 31502cef89c8383e935f409d76b9e31ca53a2da1
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103990255"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909252"
 ---
 # <a name="group-element"></a>Group, элемент
 
@@ -28,7 +28,7 @@ ms.locfileid: "103990255"
 
 
 
-|          |                                                                                                          |
+| Метка | Значение |
 |----------|----------------------------------------------------------------------------------------------------------|
 | Parent   | [**графика**](timeline-element.md)                                                                     |
 | Дети | [**составной**](composite-element.md), [**результат**](effect-element.md), [**трекинг**](track-element.md) |
@@ -50,7 +50,7 @@ ms.locfileid: "103990255"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

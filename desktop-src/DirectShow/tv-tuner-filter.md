@@ -4,12 +4,12 @@ ms.assetid: a8e101dc-78ab-495f-9086-7b1d1e87c357
 title: Фильтр ТВ-тюнера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81dd03b965275f5e9b9405b027c8e66a7fb0f157
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90f1fa68d7fc2723839882dd232e630dbe128634
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348555"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909032"
 ---
 # <a name="tv-tuner-filter"></a>Фильтр ТВ-тюнера
 
@@ -17,7 +17,7 @@ ms.locfileid: "104348555"
 
 
 
-|                                          |                                                                                                                                                                                   |
+| Метка | Значение |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**иамтвтунер**](/windows/desktop/api/Strmif/nn-strmif-iamtvtuner), **испеЦифипропертипажес**, **IPersistPropertyBag**, **иксобжект**, [**икспропертисет**](ikspropertyset.md) |
 | Типы носителей входных закрепления                    | Не применяется                                                                                                                                                                   |
@@ -34,7 +34,7 @@ ms.locfileid: "104348555"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

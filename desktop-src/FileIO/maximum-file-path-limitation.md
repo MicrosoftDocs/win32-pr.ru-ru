@@ -4,12 +4,12 @@ title: Ограничение максимальной длины пути
 ms.topic: article
 ms.custom: contperf-fy21q1
 ms.date: 09/15/2020
-ms.openlocfilehash: 3d71d87f69aeb224cde256ce78bd29fd0bf5c291
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 4bf5050f24827a2033c1e56fd9413c04f4e59500
+ms.sourcegitcommit: ece80b9b7082415b2f894b0696b6b3f0c8544d72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314807"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107899743"
 ---
 # <a name="maximum-path-length-limitation"></a>Ограничение максимальной длины пути
 
@@ -42,7 +42,9 @@ ms.locfileid: "107314807"
 
 * Раздел реестра `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled (Type: REG_DWORD)` должен существовать и иметь значение 1. Значение ключа будет кэшироваться системой (на процесс) после первого вызова затронутого файла или функции каталога Win32 (см. ниже для списка функций). Этот раздел реестра не будет перезагружен в течение времени существования процесса. Чтобы все приложения в системе могли распознать значение ключа, может потребоваться перезагрузка, так как некоторые процессы могли быть запущены до установки ключа.
 
-Кроме того, этот код можно скопировать в `.reg` файл, который можно задать следующим образом:
+Можно также скопировать этот код в `.reg` файл, который может задать это значение, или использовать команду PowerShell из окна терминала с повышенными привилегиями:
+# <a name="cmd"></a>[cmd](#tab/cmd)
+
 ```cmd
 Windows Registry Editor Version 5.00
 
@@ -50,6 +52,16 @@ Windows Registry Editor Version 5.00
 "LongPathsEnabled"=dword:00000001
 
 ```
+
+# <a name="powershell"></a>[PowerShell](#tab/powershell)
+
+```powershell
+New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
+-Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
+
+```
+
+---
 
 > [!NOTE]  
 > Этот раздел реестра можно также контролировать с помощью групповая политика по адресу `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths` .

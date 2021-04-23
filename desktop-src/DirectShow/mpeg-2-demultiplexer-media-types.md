@@ -4,12 +4,12 @@ ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: Типы носителей для демультиплексирования MPEG-2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b21eecff138b987c791ecd97056fb4cf417dd98d
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6b9b5276b975771ba62118976c8e63b4d5faa53d
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105684774"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910002"
 ---
 # <a name="mpeg-2-demultiplexer-media-types"></a>Типы носителей для демультиплексирования MPEG-2
 
@@ -64,7 +64,7 @@ ms.locfileid: "105684774"
 </tr>
 <tr class="odd">
 <td>Тип формата</td>
-<td>Нет</td>
+<td>None</td>
 </tr>
 </tbody>
 </table>
@@ -77,7 +77,7 @@ ms.locfileid: "105684774"
 
 
 
-|                  |                                          |
+| Метка | Значение |
 |------------------|------------------------------------------|
 | Основной тип       | **\_Видео MEDIATYPE**                     |
 | Subtype          | **\_Видео медиасубтипе MPEG2 \_**           |
@@ -92,7 +92,7 @@ ms.locfileid: "105684774"
 
 
 
-|                  |                                      |
+| Метка | Значение |
 |------------------|--------------------------------------|
 | Основной тип       | **MEDIATYPE \_ Audio**                 |
 | Subtype          | **МЕДИАСУБТИПЕ \_ MPEG2 \_ Audio**       |
@@ -103,7 +103,7 @@ ms.locfileid: "105684774"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

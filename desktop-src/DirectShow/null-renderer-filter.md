@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 7ff6c728276ca3fd69c14e304780b1d70c563265
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 64647cbcbcc836c400890fb173a29c76f8723029
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689031"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908812"
 ---
 # <a name="null-renderer-filter"></a>Фильтр визуализации null
 
@@ -31,7 +31,7 @@ ms.locfileid: "105689031"
 
 
 
-|                                          |                                                                                                                      |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**имедиапоситион**](/windows/desktop/api/Control/nn-control-imediaposition), [**имедиасикинг**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) |
 | Типы носителей входных закрепления                    | Любой тип мультимедиа                                                                                                       |
@@ -54,17 +54,17 @@ ms.locfileid: "105689031"
 
 Несмотря на то, что этот фильтр не отображает какие бы то ни было образцы, он ждет времени показа каждого примера перед отменой выборки. Поэтому граф будет выполняться по нормальной ставке. Если вы хотите, чтобы граф выполнялся как можно быстрее, установите для ссылочного времени **значение NULL**. Дополнительные сведения см. [в разделе Установка часов графа](setting-the-graph-clock.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Кедит. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Кедит. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

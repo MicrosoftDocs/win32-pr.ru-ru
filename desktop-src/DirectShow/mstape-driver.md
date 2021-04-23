@@ -4,12 +4,12 @@ ms.assetid: aa59f322-09b1-4b0a-be6f-d865c20f76e5
 title: Драйвер Мстапе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14f37e22c26866fca9519219d358e9733fb56151
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 951084f8827f925bba43028c0792736883d5ff0f
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894106"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909402"
 ---
 # <a name="mstape-driver"></a>Драйвер Мстапе
 
@@ -27,7 +27,7 @@ ms.locfileid: "103894106"
 
 
 
-|              |                                                            |
+| Метка | Значение |
 |--------------|------------------------------------------------------------|
 | Основной тип   | \_Поток MEDIATYPE                                          |
 | Subtype      | \_ \_ Шаг транспорта медиасубтипе \_ MPEG2                     |
@@ -42,7 +42,7 @@ ms.locfileid: "103894106"
 
 
 
-|              |                                        |
+| Метка | Значение |
 |--------------|----------------------------------------|
 | Основной тип   | \_Поток MEDIATYPE                      |
 | Subtype      | \_ \_ Шаг транспорта медиасубтипе \_ MPEG2 |
@@ -55,7 +55,7 @@ ms.locfileid: "103894106"
 
 
 
-|              |                                        |
+| Метка | Значение |
 |--------------|----------------------------------------|
 | Основной тип   | \_Поток MEDIATYPE                      |
 | Subtype      | \_ \_ Шаг транспорта медиасубтипе \_ MPEG2 |
@@ -94,7 +94,7 @@ ms.locfileid: "103894106"
 
 Дополнительные сведения об моникерах устройств см. [в разделе Использование перечислителя системных устройств](using-the-system-device-enumerator.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

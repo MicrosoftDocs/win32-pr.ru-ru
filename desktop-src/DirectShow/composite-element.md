@@ -4,12 +4,12 @@ ms.assetid: 7551da3a-1da6-426a-ba9d-f715df53718f
 title: составной элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1c81bf445769c049287bdfa7d23f4ab82bb0f8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b5eff3e0c16040f837e4c8a792ebac3124d723d1
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105672983"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908842"
 ---
 # <a name="composite-element"></a>составной элемент
 
@@ -28,7 +28,7 @@ ms.locfileid: "105672983"
 
 
 
-|          |                                                                                                                         |
+| Метка | Значение |
 |----------|-------------------------------------------------------------------------------------------------------------------------|
 | Parent   | `composite`, [ **Группа**](group-element.md)                                                                             |
 | Дети | `composite`, [**воздействие**](effect-element.md), [**Трассировка**](track-element.md), [**Переход**](transition-element.md) |
@@ -50,7 +50,7 @@ ms.locfileid: "105672983"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 3e342219-341e-49a2-9f8f-4188dd7bf719
 title: Свойство AM_RATE_ResetOnTimeDisc (Двдмедиа. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5c26763d32513652a08d38b52bf6fb745d3d321
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d465329c2c8de1a66f04a830d183b8cba88c0728
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689052"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910252"
 ---
 # <a name="am_rate_resetontimedisc-property"></a>\_ \_ Свойство ресетонтимедиск Rate
 
@@ -21,7 +21,7 @@ ms.locfileid: "105689052"
 
 
 
-|                   |                               |
+| Метка | Значение |
 |-------------------|-------------------------------|
 | Идентификатор GUID набора свойств | \_Кспропсетид \_ тсратечанже |
 | Идентификатор свойства       | \_Ставка \_ ресетонтимедиск     |
@@ -39,17 +39,17 @@ ms.locfileid: "105689052"
 
 Дополнительные сведения см. [в статье улучшения воспроизведения DVD в Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

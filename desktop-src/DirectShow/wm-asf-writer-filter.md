@@ -4,12 +4,12 @@ ms.assetid: 1b12f65f-8d77-4d38-aad9-92bb15cc0426
 title: Фильтр модуля записи WM ASF (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 672996124c88632228fff3a84525c9d47f2276b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bf09a99673b07e88198fd57b95a766ce821eb02
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155303"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909282"
 ---
 # <a name="wm-asf-writer-filter-directshow"></a>Фильтр модуля записи WM ASF (DirectShow)
 
@@ -19,7 +19,7 @@ ms.locfileid: "104155303"
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Метка | Значение |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Иамфилтермискфлагс**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags), [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**иконфигасфвритер**](/previous-versions/windows/desktop/api/Dshowasf/nn-dshowasf-iconfigasfwriter), [**IConfigAsfWriter2**](/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2), [**IFileSinkFilter2**](/windows/desktop/api/Strmif/nn-strmif-ifilesinkfilter2), [**имедиасикинг**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), **IPersistStream**, **IServiceProvider**, **испеЦифипропертипажес** Кроме того, фильтр предоставляет следующие интерфейсы пакета SDK Windows Media Format: **IWMIndexer2**, **IWMHeaderInfo**, **IWMWriterAdvanced2**<br/> |
 | Типы носителей входных закрепления                    | Зависит от профиля ASF. Обычно несжатые аудио и видео типы, хотя фильтр принимает сжатые типы, если они соответствуют профилю ASF.                                                                                                                                                                                                                                                                                                                                             |
@@ -82,7 +82,7 @@ if (SUCCEEDED(hr))
 
 Когда среда выполнения пакета SDK Windows Media Format отправляет \_ сообщения о состоянии ВМТ в фильтр модуля записи WM ASF, фильтр пересылает их в виде событий [**\_ \_ событий EC ВМТ**](ec-wmt-event.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

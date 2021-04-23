@@ -4,12 +4,12 @@ ms.assetid: 7719ed9d-e3b9-4c84-b587-4e120b5cabf8
 title: Фильтр модуля подготовки отчетов видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c71e72375a43a57ce94b38d01f48abba9309e603
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ca3becb4fbdbb52a9968481aade07d14d963828
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263479"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908422"
 ---
 # <a name="video-renderer-filter"></a>Фильтр модуля подготовки отчетов видео
 
@@ -29,7 +29,7 @@ ms.locfileid: "104263479"
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Метка | Значение |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**ибасиквидео**](/windows/desktop/api/Control/nn-control-ibasicvideo), [**IBasicVideo2**](/windows/desktop/api/Control/nn-control-ibasicvideo2), [**идиректдраввидео**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-idirectdrawvideo), [**икспропертисет**](ikspropertyset.md), [**имедиапоситион**](/windows/desktop/api/Control/nn-control-imediaposition), [**имедиасикинг**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop), [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) |
 | Типы носителей входных закрепления                    | Форматы видео без сжатия.                                                                                                                                                                                                                                                                                                                                                                              |
@@ -65,7 +65,7 @@ ms.locfileid: "104263479"
 
 Когда модуль обработки видео рисуется на поверхности наложения DirectDraw, он выделяет один буфер для входного ПИН-кода. Если вышестоящий фильтр пытается принудительно установить соединение с помощью нескольких буферов, модуль подготовки видео не сможет использовать область наложения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

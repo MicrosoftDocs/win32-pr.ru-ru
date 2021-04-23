@@ -4,12 +4,12 @@ ms.assetid: 0502d59a-0a9e-4192-af9f-1553cd13a69c
 title: KSPROPERTY_EXTXPORT_TIMECODE_SEARCH
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c52125f0c2e7ddd292cc1f93577a212d5c78a76
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6852dc44e6ef10eebb59721f16a276ac5d4306a3
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104072182"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909442"
 ---
 # <a name="ksproperty_extxport_timecode_search"></a>Поиск по времени КСПРОПЕРТИ \_ ексткспорт \_ \_
 
@@ -17,7 +17,7 @@ ms.locfileid: "104072182"
 
 
 
-|                   |                                        |
+| Метка | Значение |
 |-------------------|----------------------------------------|
 | Идентификатор GUID набора свойств | ПРОПСЕТИД \_ ext \_ Transport              |
 | Идентификатор свойства       | Поиск по времени КСПРОПЕРТИ \_ ексткспорт \_ \_ |
@@ -31,7 +31,7 @@ ms.locfileid: "104072182"
 
 Заполните **элемент времени в** структуре **кспроперти \_ ексткспорт \_ S** с нужным кадром, вторым, минутным и часовым. Структура **кспроперти \_ ексткспорт \_** описана в Windows DDK.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

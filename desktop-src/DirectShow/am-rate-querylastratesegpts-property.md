@@ -4,12 +4,12 @@ ms.assetid: 3c7006e7-48fd-4df8-b446-8ee2b024278b
 title: Свойство AM_RATE_QueryLastRateSegPTS (Двдмедиа. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 024ac26d8307dc9b8ff8e16603dfcc61b0704390
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72c6e3e00985ba6e714bf48d349fd5af5c9593b9
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657674"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910272"
 ---
 # <a name="am_rate_querylastratesegpts-property"></a>\_ \_ Свойство куериластратесегптс Rate
 
@@ -19,7 +19,7 @@ ms.locfileid: "105657674"
 
 
 
-|                   |                               |
+| Метка | Значение |
 |-------------------|-------------------------------|
 | Идентификатор GUID набора свойств | \_Кспропсетид \_ тсратечанже |
 | Идентификатор свойства       | \_Ставка \_ куериластратесегптс |
@@ -33,17 +33,17 @@ ms.locfileid: "105657674"
 
 Фильтр источника может использовать это свойство для синхронизации изменений скорости в нескольких потоках аудио и видео.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

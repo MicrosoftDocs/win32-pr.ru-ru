@@ -1232,7 +1232,7 @@
                   href: '-search-2x-ipropertyfilter-logicoperator.md'
                 - name: нестингдепс
                   href: '-search-2x-ipropertyfilter-nestingdepth.md'
-                - name: текст
+                - name: Текст
                   href: '-search-2x-ipropertyfilter-text.md'
                 - name: ИД пользователя
                   href: '-search-2x-ipropertyfilter-uid.md'
@@ -1295,7 +1295,7 @@
                   href: '-search-2x-iresultsviewer-propertyfilters.md'
                 - name: QueryText
                   href: '-search-2x-iresultsviewer-querytext.md'
-                - name: Обновить
+                - name: Обновление
                   href: '-search-2x-iresultsviewer-refresh.md'
                 - name: ресултсстиле
                   href: '-search-2x-iresultsviewer-resultsstyle.md'
@@ -1579,7 +1579,7 @@
               href: endpointdlp-dlpnotifyclosedocumentfile.md
             - name: длпнотифентердроптаржет
               href: endpointdlp-dlpnotifyenterdroptarget.md
-            - name: длпинитиализинфорцементмоде
+            - name: длпжетенфорцементапиверсион
               href: endpointdlp-dlpgetenforcementapiversion.md
             - name: длпинитиализинфорцементмоде
               href: endpointdlp-dlpinitializeenforcementmode.md

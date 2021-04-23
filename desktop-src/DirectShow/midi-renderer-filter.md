@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.devices.midi.h
-ms.openlocfilehash: 060bb00629b78fb1edbfbfd193aeaf7514c98ba4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5fa27ceda0c249f88f4684979382495167cb9238
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689200"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909412"
 ---
 # <a name="midi-renderer-filter"></a>Фильтр модуля подготовки MIDI
 
@@ -26,7 +26,7 @@ ms.locfileid: "105689200"
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                      |
+| Метка | Значение |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**Иамклоккславе**](/windows/desktop/api/Strmif/nn-strmif-iamclockslave), [**иамдиректсаунд**](/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound), [**иамресаурцеконтрол**](/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol), [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**ибасикаудио**](/windows/desktop/api/Control/nn-control-ibasicaudio), [**имедиапоситион**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IReferenceClock**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock) |
 | Типы носителей входных закрепления                    | MEDIATYPE \_ MIDI, медиасубтипе \_ null                                                                                                                                                                                                                                                                                                                                                  |
@@ -61,17 +61,17 @@ typedef struct _MIDIFORMAT {
 
 Примеры из фильтра средства синтаксического анализа MIDI содержат одну секунду данных MIDI. Модуль подготовки MIDI использует функцию **мидистреамаут** для отображения данных MIDI. Каждый пример представляет собой точку синхронизации: начало буфера содержит все команды, необходимые для задания правильного состояния визуализации буфера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Windows. Devices. MIDI. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Windows. Devices. MIDI. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

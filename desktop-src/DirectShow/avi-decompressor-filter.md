@@ -4,12 +4,12 @@ ms.assetid: 6a9914db-483a-429c-9b26-9451578951c9
 title: Фильтр распаковки AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9b6fcff61dd867c598e793fb5aa8fbff67dc6cd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 214ccfeee18a01fa9c8d52ffbf4593b9de5664bb
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806341"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910102"
 ---
 # <a name="avi-decompressor-filter"></a>Фильтр распаковки AVI
 
@@ -26,7 +26,7 @@ ms.locfileid: "103806341"
 
 
 
-|                                          |                                                                                                                                                                                                                    |
+| Метка | Значение |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра                        | [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                                                                                 |
 | Типы носителей входных закрепления                    | Основной тип: MEDIATYPE \_ видеосубтипе: должен соответствовать коду FourCC для типа сжатия. Дополнительные сведения см. в разделе [Коды FOURCC](fourcc-codes.md).<br/> Тип формата: формат \_ видеоинфо<br/> |
@@ -43,7 +43,7 @@ ms.locfileid: "103806341"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
