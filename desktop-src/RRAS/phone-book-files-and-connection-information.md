@@ -1,0 +1,26 @@
+---
+title: Phone-Book файлы и сведения о подключении
+description: Вызов RasDial должен указывать сведения, необходимые диспетчеру подключений удаленного доступа для установления соединения.
+ms.assetid: bc3885a4-3c1e-47bc-b622-072b33ac3b51
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 11d352772eec057edd6ab8c9f53640c50ea0fc73
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104134370"
+---
+# <a name="phone-book-files-and-connection-information"></a><span data-ttu-id="1c992-103">Phone-Book файлы и сведения о подключении</span><span class="sxs-lookup"><span data-stu-id="1c992-103">Phone-Book Files and Connection Information</span></span>
+
+<span data-ttu-id="1c992-104">Вызов [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) должен указывать сведения, необходимые диспетчеру подключений удаленного доступа для установления соединения.</span><span class="sxs-lookup"><span data-stu-id="1c992-104">A [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) call must specify the information that the Remote Access Connection Manager needs to establish the connection.</span></span> <span data-ttu-id="1c992-105">Как правило, вызов **rasdial** предоставляет сведения о соединении путем указания записи телефонной книги.</span><span class="sxs-lookup"><span data-stu-id="1c992-105">Typically, the **RasDial** call provides the connection information by specifying a phone-book entry.</span></span> <span data-ttu-id="1c992-106">Сведения о соединении в записи телефонной книги включают номера телефонов, скорости передачи [данных, сведения о проверке подлинности пользователя](user-authentication-information.md)и [другие сведения о соединении](other-connection-information.md).</span><span class="sxs-lookup"><span data-stu-id="1c992-106">The connection information in a phone-book entry includes phone numbers, bps rates, [user authentication information](user-authentication-information.md), and [other connection information](other-connection-information.md).</span></span>
+
+<span data-ttu-id="1c992-107">Клиент RAS использует параметры функции [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) для указания файла телефонной книги и записи в этом файле.</span><span class="sxs-lookup"><span data-stu-id="1c992-107">A RAS client uses the parameters of the [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) function to specify a phone-book file and an entry in that file.</span></span> <span data-ttu-id="1c992-108">Параметр *лпсзфонебукпас* может указывать имя файла телефонной книги или **значение NULL** , чтобы указать, что следует использовать файл телефонной книги по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="1c992-108">The *lpszPhonebookPath* parameter can specify the name of a phone-book file, or it can be **NULL** to indicate that the default phone-book file should be used.</span></span> <span data-ttu-id="1c992-109">Параметр *лпрасдиалпарамс* указывает на структуру [**расдиалпарамс**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)) , указывающую имя записи телефонной книги для использования.</span><span class="sxs-lookup"><span data-stu-id="1c992-109">The *lpRasDialParams* parameter points to a [**RASDIALPARAMS**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)) structure that specifies the name of the phone-book entry to use.</span></span>
+
+<span data-ttu-id="1c992-110">Чтобы отобразить список записей телефонной книги, из которых пользователь может выбрать подключение, клиент RAS может вызвать функцию [**расенументриес**](/windows/desktop/api/Ras/nf-ras-rasenumentriesa) для перечисления записей в файле телефонной книги.</span><span class="sxs-lookup"><span data-stu-id="1c992-110">To display a list of phone-book entries from which the user can select a connection, a RAS client can call the [**RasEnumEntries**](/windows/desktop/api/Ras/nf-ras-rasenumentriesa) function to enumerate the entries in a phone-book file.</span></span>
+
+<span data-ttu-id="1c992-111">Чтобы установить соединение без использования записи телефонной книги, в вызове [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) можно указать пустую строку для элемента **сзентринаме** структуры [**расдиалпарамс**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)) .</span><span class="sxs-lookup"><span data-stu-id="1c992-111">To make a connection without using a phone-book entry, the [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) call can specify an empty string for the **szEntryName** member of the [**RASDIALPARAMS**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)) structure.</span></span> <span data-ttu-id="1c992-112">Элемент **расдиалпарамс. сзфоненумбер** должен содержать число для вызова.</span><span class="sxs-lookup"><span data-stu-id="1c992-112">The **RASDIALPARAMS.szPhoneNumber** member must contain the number to call.</span></span> <span data-ttu-id="1c992-113">В этом случае диспетчер подключений удаленного доступа использует первый доступный порт модема и значения по умолчанию для всех остальных параметров.</span><span class="sxs-lookup"><span data-stu-id="1c992-113">In this case, the Remote Access Connection Manager uses the first available modem port and default values for all other settings.</span></span>
+
+ 
+
+ 

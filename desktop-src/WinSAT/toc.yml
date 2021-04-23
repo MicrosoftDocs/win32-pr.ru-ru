@@ -1,0 +1,84 @@
+- name: Средство оценки системы Windows
+  href: windows-system-assessment-tool-portal.md
+  items:
+    - name: Использование WinSAT
+      href: using-winsat.md
+    - name: Справочник по службе WinSAT
+      href: winsat-reference.md
+      items:
+        - name: Перечисления WinSAT
+          href: winsat-enumerations.md
+          items:
+            - name: WINSAT_ASSESSMENT_STATE
+              href: /windows/win32/api/Winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_state
+            - name: WINSAT_ASSESSMENT_TYPE
+              href: /windows/win32/api/Winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_type
+            - name: WINSAT_BITMAP_SIZE
+              href: /windows/win32/api/Winsatcominterfacei/ne-winsatcominterfacei-winsat_bitmap_size
+        - name: Интерфейсы WinSAT
+          href: winsat-interfaces.md
+          items:
+            - name: иинитиатевинсатассессмент
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment
+              items:
+                - name: Метод Канцелассессмент
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-cancelassessment
+                - name: Метод Инитиатеассессмент
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment
+                - name: Метод Инитиатеформалассессмент
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment
+            - name: ипровидевинсатассессментинфо
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo
+              items:
+                - name: Свойство Description
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_description
+                - name: 'Score, свойство'
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_score
+                - name: Свойство Title
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_title
+            - name: ипровидевинсатресултсинфо
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo
+              items:
+                - name: 'Ассессментдатетиме, свойство'
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentdatetime
+                - name: 'Ассессментстате, свойство'
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentstate
+                - name: 'Ратингстатедеск, свойство'
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_ratingstatedesc
+                - name: 'Системратинг, свойство'
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating
+                - name: Метод Жетассессментинфо
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-getassessmentinfo
+            - name: ипровидевинсатвисуалс
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatvisuals
+              items:
+                - name: Метод get_Bitmap
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatvisuals-get_bitmap
+            - name: икуеряллвинсатассессментс
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iqueryallwinsatassessments
+              items:
+                - name: 'Аллксмл, свойство'
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml
+            - name: икуерирецентвинсатассессмент
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment
+              items:
+                - name: 'INFO, свойство'
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_info
+                - name: 'XML, свойство'
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_xml
+            - name: ивинсатинитиативентс
+              href: /windows/desktop/api/Winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents
+              items:
+                - name: Метод Винсаткомплете
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete
+                - name: Метод Винсатупдате
+                  href: /windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatupdate
+        - name: Классы WinSAT MOF
+          href: winsat-mof-classes.md
+          items:
+            - name: Win32_WinSAT
+              href: win32-winsat.md
+        - name: Примеры WinSAT
+          href: winsat-samples.md
+        - name: Схема WinSAT
+          href: winsat-schema.md

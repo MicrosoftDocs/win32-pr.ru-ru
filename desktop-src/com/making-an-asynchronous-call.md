@@ -1,0 +1,76 @@
+---
+title: Выполнение асинхронного вызова
+description: Процедура выполнения синхронного вызова проста в том, что клиент получает указатель интерфейса на серверный объект и вызывает методы через этот указатель. Асинхронный вызов включает объект call, поэтому он включает еще несколько шагов.
+ms.assetid: ab65d38d-836a-48d4-87c1-8812cbc8ff92
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 22dcd7a6509cd07e12357a96222baa04f9e4c942
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "104413868"
+---
+# <a name="making-an-asynchronous-call"></a><span data-ttu-id="3fe28-104">Выполнение асинхронного вызова</span><span class="sxs-lookup"><span data-stu-id="3fe28-104">Making an Asynchronous Call</span></span>
+
+<span data-ttu-id="3fe28-105">Процедура выполнения синхронного вызова проста: клиент получает указатель интерфейса на серверный объект и вызывает методы через этот указатель.</span><span class="sxs-lookup"><span data-stu-id="3fe28-105">The procedure for making a synchronous call is straightforward: The client obtains an interface pointer on the server object and calls methods through that pointer.</span></span> <span data-ttu-id="3fe28-106">Асинхронный вызов включает объект call, поэтому он включает еще несколько шагов.</span><span class="sxs-lookup"><span data-stu-id="3fe28-106">Asynchronous calling involves a call object, so it involves a few more steps.</span></span>
+
+<span data-ttu-id="3fe28-107">Для каждого метода в синхронном интерфейсе соответствующий асинхронный интерфейс реализует два метода.</span><span class="sxs-lookup"><span data-stu-id="3fe28-107">For each method on a synchronous interface, the corresponding asynchronous interface implements two methods.</span></span> <span data-ttu-id="3fe28-108">Эти методы присоединяют префиксы Begin \_ и Finish \_ к имени синхронного метода.</span><span class="sxs-lookup"><span data-stu-id="3fe28-108">These methods attach the prefixes Begin\_ and Finish\_ to the name of the synchronous method.</span></span> <span data-ttu-id="3fe28-109">Например, если интерфейс с именем Исимплестреам имеет метод Read, то интерфейс АсинЦисимплестреам будет иметь \_ метод Begin Read и готово \_ Read.</span><span class="sxs-lookup"><span data-stu-id="3fe28-109">For example, if an interface named ISimpleStream has a Read method, the AsyncISimpleStream interface will have a Begin\_Read and a Finish\_Read method.</span></span> <span data-ttu-id="3fe28-110">Чтобы начать асинхронный вызов, клиент вызывает \_ метод Begin.</span><span class="sxs-lookup"><span data-stu-id="3fe28-110">To begin an asynchronous call, the client calls the Begin\_ method.</span></span>
+
+<span data-ttu-id="3fe28-111">**Начало асинхронного вызова**</span><span class="sxs-lookup"><span data-stu-id="3fe28-111">**To begin an asynchronous call**</span></span>
+
+1.  <span data-ttu-id="3fe28-112">Запросите объект сервера для интерфейса [**икаллфактори**](/windows/win32/api/objidlbase/nn-objidlbase-icallfactory) .</span><span class="sxs-lookup"><span data-stu-id="3fe28-112">Query the server object for the [**ICallFactory**](/windows/win32/api/objidlbase/nn-objidlbase-icallfactory) interface.</span></span> <span data-ttu-id="3fe28-113">Если [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) возвращает E без \_ интерфейса, серверный объект не поддерживает асинхронный вызов.</span><span class="sxs-lookup"><span data-stu-id="3fe28-113">If [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) returns E\_NOINTERFACE, the server object does not support asynchronous calling.</span></span>
+
+2.  <span data-ttu-id="3fe28-114">Вызовите метод [**икаллфактори:: креатекалл**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall) , чтобы создать объект вызова, соответствующий нужному интерфейсу, а затем отпустите указатель на [**икаллфактори**](/windows/win32/api/objidlbase/nn-objidlbase-icallfactory).</span><span class="sxs-lookup"><span data-stu-id="3fe28-114">Call [**ICallFactory::CreateCall**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall) to create a call object corresponding to the interface you want, and then release the pointer to [**ICallFactory**](/windows/win32/api/objidlbase/nn-objidlbase-icallfactory).</span></span>
+
+3.  <span data-ttu-id="3fe28-115">Если вы не запрашивали указатель на асинхронный интерфейс из вызова [**креатекалл**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall), запросите объект вызова для асинхронного интерфейса.</span><span class="sxs-lookup"><span data-stu-id="3fe28-115">If you did not request a pointer to the asynchronous interface from the call to [**CreateCall**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall), query the call object for the asynchronous interface.</span></span>
+
+4.  <span data-ttu-id="3fe28-116">Вызовите соответствующий \_ метод Begin.</span><span class="sxs-lookup"><span data-stu-id="3fe28-116">Call the appropriate Begin\_ method.</span></span>
+
+<span data-ttu-id="3fe28-117">Объект Server теперь обрабатывает асинхронный вызов, и клиент может выполнить другие действия, пока не потребуются результаты вызова.</span><span class="sxs-lookup"><span data-stu-id="3fe28-117">The server object is now processing the asynchronous call, and the client is free to do other work until it needs the results of the call.</span></span>
+
+<span data-ttu-id="3fe28-118">Объект вызова может обрабатывать только один асинхронный вызов за раз.</span><span class="sxs-lookup"><span data-stu-id="3fe28-118">A call object can process only one asynchronous call at a time.</span></span> <span data-ttu-id="3fe28-119">Если тот же или второй клиент вызывает \_ метод Begin до завершения ожидающего асинхронного вызова, \_ метод Begin ВОЗВРАТИТ \_ вызов RPC E \_ \_ в ожидании.</span><span class="sxs-lookup"><span data-stu-id="3fe28-119">If the same or a second client calls a Begin\_ method before a pending asynchronous call is finished, the Begin\_ method will return RPC\_E\_CALL\_PENDING.</span></span>
+
+<span data-ttu-id="3fe28-120">Если клиенту не нужны результаты \_ метода Begin, он может освободить объект вызова в конце этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="3fe28-120">If the client does not need the results of the Begin\_ method, it can release the call object at the end of this procedure.</span></span> <span data-ttu-id="3fe28-121">COM обнаруживает это условие и очищает вызов.</span><span class="sxs-lookup"><span data-stu-id="3fe28-121">COM detects this condition and cleans up the call.</span></span> <span data-ttu-id="3fe28-122">Метод Finish \_ не вызывается, и клиент не получает никаких параметров out или возвращаемого значения.</span><span class="sxs-lookup"><span data-stu-id="3fe28-122">The Finish\_ method is not called, and the client does not get any out parameters or a return value.</span></span>
+
+<span data-ttu-id="3fe28-123">Когда объект сервера готов к возврату из \_ метода Begin, он сигнализирует объекту вызова, что он выполнен.</span><span class="sxs-lookup"><span data-stu-id="3fe28-123">When the server object is ready to return from the Begin\_ method, it signals the call object that it is done.</span></span> <span data-ttu-id="3fe28-124">Когда клиент будет готов, он проверяет, сообщает ли объект вызова.</span><span class="sxs-lookup"><span data-stu-id="3fe28-124">When the client is ready, it checks to see whether the call object has been signaled.</span></span> <span data-ttu-id="3fe28-125">Если это так, клиент может завершить асинхронный вызов.</span><span class="sxs-lookup"><span data-stu-id="3fe28-125">If so, the client can complete the asynchronous call.</span></span>
+
+<span data-ttu-id="3fe28-126">Механизм для этой сигнализации и проверки между клиентом и сервером является интерфейсом [**исинчронизе**](/windows/win32/api/objidlbase/nn-objidlbase-isynchronize) на объекте вызова.</span><span class="sxs-lookup"><span data-stu-id="3fe28-126">The mechanism for this signaling and checking between client and server is the [**ISynchronize**](/windows/win32/api/objidlbase/nn-objidlbase-isynchronize) interface on the call object.</span></span> <span data-ttu-id="3fe28-127">Объект Call обычно реализует этот интерфейс, выполнив статистическую обработку объекта синхронизации, предоставленного системой.</span><span class="sxs-lookup"><span data-stu-id="3fe28-127">The call object normally implements this interface by aggregating a system-supplied synchronization object.</span></span> <span data-ttu-id="3fe28-128">Объект синхронизации служит оболочкой для дескриптора события, который сервер сообщает непосредственно перед возвратом из \_ метода Begin путем вызова [**исинчронизе:: Signal**](/windows/win32/api/objidlbase/nf-objidlbase-isynchronize-signal).</span><span class="sxs-lookup"><span data-stu-id="3fe28-128">The synchronization object wraps an event handle, which the server signals just before returning from the Begin\_ method by calling [**ISynchronize::Signal**](/windows/win32/api/objidlbase/nf-objidlbase-isynchronize-signal).</span></span>
+
+<span data-ttu-id="3fe28-129">**Завершение асинхронного вызова**</span><span class="sxs-lookup"><span data-stu-id="3fe28-129">**To complete an asynchronous call**</span></span>
+
+1.  <span data-ttu-id="3fe28-130">Запросите объект вызова для интерфейса [**исинчронизе**](/windows/win32/api/objidlbase/nn-objidlbase-isynchronize) .</span><span class="sxs-lookup"><span data-stu-id="3fe28-130">Query the call object for the [**ISynchronize**](/windows/win32/api/objidlbase/nn-objidlbase-isynchronize) interface.</span></span>
+
+2.  <span data-ttu-id="3fe28-131">Вызовите [**исинчронизе:: wait**](/windows/win32/api/objidlbase/nf-objidlbase-isynchronize-wait).</span><span class="sxs-lookup"><span data-stu-id="3fe28-131">Call [**ISynchronize::Wait**](/windows/win32/api/objidlbase/nf-objidlbase-isynchronize-wait).</span></span>
+
+3.  <span data-ttu-id="3fe28-132">Если [**Wait**](/windows/win32/api/objidlbase/nf-objidlbase-isynchronize-wait) возвращает RPC \_ E \_ timeout, метод Begin \_ не завершает обработку.</span><span class="sxs-lookup"><span data-stu-id="3fe28-132">If [**Wait**](/windows/win32/api/objidlbase/nf-objidlbase-isynchronize-wait) returns RPC\_E\_TIMEOUT, the Begin\_ method is not finished processing.</span></span> <span data-ttu-id="3fe28-133">Клиент может продолжить работу, а затем снова вызвать **Wait** .</span><span class="sxs-lookup"><span data-stu-id="3fe28-133">The client can continue with other work and call **Wait** again later.</span></span> <span data-ttu-id="3fe28-134">Он не может вызвать \_ метод Finish до  тех пор, пока не вернет значение S \_ ОК.</span><span class="sxs-lookup"><span data-stu-id="3fe28-134">It cannot call the Finish\_ method until **Wait** returns S\_OK.</span></span>
+
+    <span data-ttu-id="3fe28-135">Если [**Wait**](/windows/win32/api/objidlbase/nf-objidlbase-isynchronize-wait) возвращает S \_ , то \_ возвращается метод Begin.</span><span class="sxs-lookup"><span data-stu-id="3fe28-135">If [**Wait**](/windows/win32/api/objidlbase/nf-objidlbase-isynchronize-wait) returns S\_OK, the Begin\_ method has returned.</span></span> <span data-ttu-id="3fe28-136">Вызовите соответствующий \_ метод Finish.</span><span class="sxs-lookup"><span data-stu-id="3fe28-136">Call the appropriate Finish\_ method.</span></span>
+
+<span data-ttu-id="3fe28-137">Метод Finish \_ передает клиенту все параметры out.</span><span class="sxs-lookup"><span data-stu-id="3fe28-137">The Finish\_ method passes the client any out parameters.</span></span> <span data-ttu-id="3fe28-138">Поведение асинхронных методов, включая возвращаемое значение \_ метода Finish, должно точно совпадать с соответствующим синхронным методом.</span><span class="sxs-lookup"><span data-stu-id="3fe28-138">The behavior of the asynchronous methods, including the return value of the Finish\_ method, should match exactly that of the corresponding synchronous method.</span></span>
+
+<span data-ttu-id="3fe28-139">Клиент может освободить объект вызова, как только будет \_ возвращен метод завершения, или же он может содержать указатель на объект вызова для выполнения дополнительных вызовов.</span><span class="sxs-lookup"><span data-stu-id="3fe28-139">The client can release the call object as soon as the Finish\_ method returns, or it can hold a pointer to the call object to make additional calls.</span></span> <span data-ttu-id="3fe28-140">В любом случае клиент несет ответственность за освобождение объекта Call, когда объект больше не нужен.</span><span class="sxs-lookup"><span data-stu-id="3fe28-140">In either case, the client is responsible for releasing the call object when the object is no longer needed.</span></span>
+
+<span data-ttu-id="3fe28-141">Если метод Finish вызывается \_ , когда вызов не выполняется, метод возвратит \_ вызов RPC E \_ \_ .</span><span class="sxs-lookup"><span data-stu-id="3fe28-141">If you call a Finish\_ method when no call is in progress, the method will return RPC\_E\_CALL\_COMPLETE.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="3fe28-142">Если клиентские и серверные объекты находятся в одном апартаменте, вызовы [**икаллфактори:: креатекалл**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall) не гарантировано должным образом.</span><span class="sxs-lookup"><span data-stu-id="3fe28-142">If the client and server objects are in the same apartment, calls to [**ICallFactory::CreateCall**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall) are not guaranteed to succeed.</span></span> <span data-ttu-id="3fe28-143">Если объект сервера не поддерживает асинхронный вызов для определенного интерфейса, попытка создать объект вызова завершится ошибкой, и клиент должен использовать синхронный интерфейс.</span><span class="sxs-lookup"><span data-stu-id="3fe28-143">If the server object does not support asynchronous calling on a particular interface, the attempt to create a call object will fail and the client must use the synchronous interface.</span></span>
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="3fe28-144">См. также</span><span class="sxs-lookup"><span data-stu-id="3fe28-144">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="3fe28-145">Отмена асинхронного вызова</span><span class="sxs-lookup"><span data-stu-id="3fe28-145">Canceling an Asynchronous Call</span></span>](canceling-an-asynchronous-call.md)
+</dt> <dt>
+
+[<span data-ttu-id="3fe28-146">Client Security во время асинхронного вызова</span><span class="sxs-lookup"><span data-stu-id="3fe28-146">Client Security During an Asynchronous Call</span></span>](client-security-during-an-asynchronous-call.md)
+</dt> <dt>
+
+[<span data-ttu-id="3fe28-147">Олицетворение и асинхронные вызовы</span><span class="sxs-lookup"><span data-stu-id="3fe28-147">Impersonation and Asynchronous Calls</span></span>](impersonation-and-asynchronous-calls.md)
+</dt> </dl>
+
+ 
+
+ 

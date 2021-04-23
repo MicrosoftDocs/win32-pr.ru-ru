@@ -1,0 +1,47 @@
+---
+title: Определение COM-интерфейсов
+description: Корпорация Майкрософт определяет множество COM-интерфейсов. В большинстве случаев эти универсальные интерфейсы можно использовать повторно. Однако некоторые приложения имеют особые требования, которые делают его желательным или необходимым для определения собственных интерфейсов объектов.
+ms.assetid: 8a94bd7d-d101-411c-97de-9e9a46bf9591
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 516c02a2c337b2c76229094b0e42d75b44f65d16
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "104134635"
+---
+# <a name="defining-com-interfaces"></a><span data-ttu-id="aa4a4-105">Определение COM-интерфейсов</span><span class="sxs-lookup"><span data-stu-id="aa4a4-105">Defining COM Interfaces</span></span>
+
+<span data-ttu-id="aa4a4-106">Корпорация Майкрософт определяет множество COM-интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-106">Microsoft defines many COM interfaces.</span></span> <span data-ttu-id="aa4a4-107">В большинстве случаев эти универсальные интерфейсы можно использовать повторно.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-107">In most cases, you can reuse these generic interfaces.</span></span> <span data-ttu-id="aa4a4-108">Однако некоторые приложения имеют особые требования, которые делают его желательным или необходимым для определения собственных интерфейсов объектов.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-108">However, some applications have specific requirements that make it desirable or necessary to define your own object interfaces.</span></span>
+
+<span data-ttu-id="aa4a4-109">Все COM-интерфейсы должны быть прямо или косвенно производными от интерфейса [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) .</span><span class="sxs-lookup"><span data-stu-id="aa4a4-109">All COM interfaces must derive, directly or indirectly, from the [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) interface.</span></span> <span data-ttu-id="aa4a4-110">В рамках этого ограничения пользовательский интерфейс может поддерживать почти любой метод или параметр, включая асинхронные методы.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-110">Within that constraint, your custom interface can support almost any method or parameter, including asynchronous methods.</span></span> <span data-ttu-id="aa4a4-111">Можно также создать библиотеку типов для пользовательских интерфейсов, чтобы клиенты могли получать доступ к информации о методах объекта во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-111">You can also generate a type library for your custom interfaces so that clients can access information about your object's methods at run time.</span></span> <span data-ttu-id="aa4a4-112">После определения интерфейса опишите его в язык MIDL (MIDL), скомпилируйте и зарегистрируйте его, используйте его так же, как любой универсальный интерфейс.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-112">After you define an interface, describe it in Microsoft Interface Definition Language (MIDL), compile and register it, you use it just like any generic interface.</span></span> <span data-ttu-id="aa4a4-113">При использовании распределенной модели COM методы интерфейса доступны как для удаленных процессов, так и для других процессов на том же компьютере.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-113">With distributed COM, interface methods are available both to remote processes and to other processes on the same computer.</span></span>
+
+<span data-ttu-id="aa4a4-114">Наконец, для создания COM-интерфейсов требуется среда разработки, которая включает компилятор C/C++ и компилятор Midl.exe.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-114">Finally, building COM interfaces requires a development environment that includes a C/C++ compiler and the Midl.exe compiler.</span></span>
+
+<span data-ttu-id="aa4a4-115">Ниже приведены действия по созданию COM-интерфейса.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-115">The steps in creating a COM interface are as follows:</span></span>
+
+-   <span data-ttu-id="aa4a4-116">Решите, как будет обеспечиваться поддержка маршалирования для интерфейса. с управляемой библиотекой типов, а также с помощью прокси-библиотеки или DLL-заглушки.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-116">Decide how you want to provide marshaling support for your interface; either with type-library driven marshaling or with a proxy/stub DLL.</span></span> <span data-ttu-id="aa4a4-117">Даже находящиеся в процессе интерфейсы должны быть упакованы, если они должны использоваться в границах апартамента.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-117">Even in-process interfaces must be marshaled if they are to be used across apartment boundaries.</span></span> <span data-ttu-id="aa4a4-118">Рекомендуется создавать поддержку упаковки в каждый COM-интерфейс, даже если вы не считаете, что это потребуется.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-118">It is a good idea to build marshaling support into every COM interface, even if you don't think you will need it.</span></span> <span data-ttu-id="aa4a4-119">Дополнительные сведения см. в разделе [маршалирование интерфейса](interface-marshaling.md) .</span><span class="sxs-lookup"><span data-stu-id="aa4a4-119">See [Interface Marshaling](interface-marshaling.md) for more information.</span></span>
+-   <span data-ttu-id="aa4a4-120">Опишите интерфейс или интерфейсы в файле определения интерфейса (IDL).</span><span class="sxs-lookup"><span data-stu-id="aa4a4-120">Describe the interface or interfaces in an interface definition (IDL) file.</span></span> <span data-ttu-id="aa4a4-121">Кроме того, можно указать определенные локальные аспекты интерфейса в файле конфигурации приложения (ACF).</span><span class="sxs-lookup"><span data-stu-id="aa4a4-121">In addition, you can specify certain local aspects of your interface in an application configuration file (ACF).</span></span> <span data-ttu-id="aa4a4-122">Если используется управляемая библиотекой типов, то добавьте инструкцию [**Library**](/windows/desktop/Midl/library) , которая ссылается на интерфейсы, для которых нужно создать сведения о типе.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-122">If you are using type-library driven marshaling, add a [**library**](/windows/desktop/Midl/library) statement that references the interfaces for which you want to generate type information.</span></span>
+-   <span data-ttu-id="aa4a4-123">Используйте компилятор MIDL, чтобы создать файл библиотеки типов и файл заголовка, а также прокси-сервер языка C или файлы заглушки, файл идентификатора интерфейса, файл данных DLL и файл заголовка.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-123">Use the MIDL compiler to generate a type library file and header file, or C-language proxy/stub files, interface identifier file, DLL data file and header file.</span></span> <span data-ttu-id="aa4a4-124">Дополнительные сведения см. в разделе [Компиляция MIDL](midl-compilation.md) .</span><span class="sxs-lookup"><span data-stu-id="aa4a4-124">See [MIDL Compilation](midl-compilation.md) for more information.</span></span>
+-   <span data-ttu-id="aa4a4-125">В зависимости от выбранного метода маршалирования напишите файл определения модуля (DEF), скомпилируйте и свяжите все файлы, созданные MIDL, с одной прокси-БИБЛИОТЕКой и зарегистрируйте интерфейс в системном реестре или зарегистрируйте библиотеку типов.</span><span class="sxs-lookup"><span data-stu-id="aa4a4-125">Depending on the marshaling method you chose, write a module definition (DEF) file, compile and link all the MIDL-generated files into a single proxy DLL, and register the interface in the system registry, or register the type library.</span></span> <span data-ttu-id="aa4a4-126">Дополнительные сведения см. в статьях [Загрузка и регистрация библиотеки типов](loading-and-registering-a-type-library.md) и [Сборка и регистрация библиотеки DLL прокси-сервера](building-and-registering-a-proxy-dll.md) .</span><span class="sxs-lookup"><span data-stu-id="aa4a4-126">See [Loading and Registering a Type Library](loading-and-registering-a-type-library.md) and [Building and Registering a Proxy DLL](building-and-registering-a-proxy-dll.md) for more information.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="aa4a4-127">См. также</span><span class="sxs-lookup"><span data-stu-id="aa4a4-127">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="aa4a4-128">Анатомия IDL-файла</span><span class="sxs-lookup"><span data-stu-id="aa4a4-128">Anatomy of an IDL File</span></span>](anatomy-of-an-idl-file.md)
+</dt> <dt>
+
+[<span data-ttu-id="aa4a4-129">COM-клиенты и серверы</span><span class="sxs-lookup"><span data-stu-id="aa4a4-129">COM Clients and Servers</span></span>](com-clients-and-servers.md)
+</dt> <dt>
+
+[<span data-ttu-id="aa4a4-130">Правила проектирования интерфейсов</span><span class="sxs-lookup"><span data-stu-id="aa4a4-130">Interface Design Rules</span></span>](interface-design-rules.md)
+</dt> <dt>
+
+[<span data-ttu-id="aa4a4-131">Модель COM</span><span class="sxs-lookup"><span data-stu-id="aa4a4-131">The Component Object Model</span></span>](the-component-object-model.md)
+</dt> </dl>
+
+ 
+
+ 

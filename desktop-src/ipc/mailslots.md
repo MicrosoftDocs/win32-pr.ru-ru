@@ -1,0 +1,26 @@
+---
+description: Почтовый слот — это механизм одностороннего межпроцессного взаимодействия (IPC). Приложения могут хранить сообщения в слоте сообщений. Владелец слота сообщений может извлекать хранящиеся там сообщения.
+ms.assetid: e23894ca-edc7-49e6-bcc4-c82f357ecedf
+title: маилслотс
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 6886e8d6f08206c6104db22c050aa6bb9859f96f
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105712711"
+---
+# <a name="mailslots"></a><span data-ttu-id="0e7a4-105">маилслотс</span><span class="sxs-lookup"><span data-stu-id="0e7a4-105">Mailslots</span></span>
+
+<span data-ttu-id="0e7a4-106">*Почтовый слот* — это механизм одностороннего межпроцессного взаимодействия (IPC).</span><span class="sxs-lookup"><span data-stu-id="0e7a4-106">A *mailslot* is a mechanism for one-way interprocess communications (IPC).</span></span> <span data-ttu-id="0e7a4-107">Приложения могут хранить сообщения в слоте сообщений.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-107">Applications can store messages in a mailslot.</span></span> <span data-ttu-id="0e7a4-108">Владелец слота сообщений может извлекать хранящиеся там сообщения.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-108">The owner of the mailslot can retrieve messages that are stored there.</span></span> <span data-ttu-id="0e7a4-109">Эти сообщения обычно передаются по сети на указанный компьютер или на все компьютеры в указанном домене.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-109">These messages are typically sent over a network to either a specified computer or to all computers in a specified domain.</span></span> <span data-ttu-id="0e7a4-110">*Домен* — это группа рабочих станций и серверов, совместно использующих имя группы.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-110">A *domain* is a group of workstations and servers that share a group name.</span></span>
+
+-   [<span data-ttu-id="0e7a4-111">О Маилслотс</span><span class="sxs-lookup"><span data-stu-id="0e7a4-111">About Mailslots</span></span>](about-mailslots.md)
+-   [<span data-ttu-id="0e7a4-112">Использование Маилслотс</span><span class="sxs-lookup"><span data-stu-id="0e7a4-112">Using Mailslots</span></span>](using-mailslots.md)
+-   [<span data-ttu-id="0e7a4-113">Справочник по слотам</span><span class="sxs-lookup"><span data-stu-id="0e7a4-113">Mailslot Reference</span></span>](mailslot-reference.md)
+
+<span data-ttu-id="0e7a4-114">Для взаимодействия между процессами можно использовать [именованные каналы](named-pipes.md) или [сокеты Windows](/windows/desktop/WinSock/windows-sockets-start-page-2) вместо маилслотс.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-114">You can choose to use [named pipes](named-pipes.md) or [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2) instead of mailslots for interprocess communications.</span></span> <span data-ttu-id="0e7a4-115">Именованные каналы — это простой способ обмена сообщениями между двумя процессами.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-115">Named pipes are a simple way for two processes to exchange messages.</span></span> <span data-ttu-id="0e7a4-116">Маилслотс, с другой стороны, — это простой способ передачи сообщений в несколько процессов.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-116">Mailslots, on the other hand, are a simple way for a process to broadcast messages to multiple processes.</span></span> <span data-ttu-id="0e7a4-117">Одним из важных соображений является то, что маилслотс широковещательные сообщения с использованием датаграмм.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-117">One important consideration is that mailslots broadcast messages using datagrams.</span></span> <span data-ttu-id="0e7a4-118">*Датаграмма* — это небольшой пакет данных, который сеть отправляет по сети.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-118">A *datagram* is a small packet of information that the network sends along the wire.</span></span> <span data-ttu-id="0e7a4-119">Как и в радио или телевизионных вещаниях, датаграмма не дает подтверждения получения; нет способа гарантировать получение датаграммы.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-119">Like a radio or television broadcast, a datagram offers no confirmation of receipt; there is no way to guarantee that a datagram has been received.</span></span> <span data-ttu-id="0e7a4-120">Так же, как горы, крупные здания или помехи в сигналах, могут привести к потере радиосигнала или телевизионного сигнала, что может помешать получению датаграммы в определенное место назначения.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-120">Just as mountains, large buildings, or interfering signals might cause a radio or television signal to get lost, there are things that can prevent a datagram from reaching a particular destination.</span></span> <span data-ttu-id="0e7a4-121">Именованные каналы аналогичны телефонным звонкам: вы говорите только с одной стороной, но известно, что сообщение получено.</span><span class="sxs-lookup"><span data-stu-id="0e7a4-121">Named pipes are like telephone calls: you talk only to one party, but you know that the message is being received.</span></span>
+
+ 
+
+ 

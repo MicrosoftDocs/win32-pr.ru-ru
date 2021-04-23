@@ -1,0 +1,706 @@
+- name: ОДНО
+  href: '-wia-startpage.md'
+  items:
+    - name: Юридическая информация
+      href: '-wia-legal-information.md'
+    - name: 'Вопросы безопасности: получение образа Windows'
+      href: '-wia-security-considerations.md'
+    - name: Справочник
+      href: '-wia-reference.md'
+      items:
+        - name: 'Новые возможности в приобретении образов Windows (WIA) 2,0'
+          href: '-wia-whatsnew-longhorn.md'
+        - name: Интерфейс прикладного программирования WIA
+          href: '-wia-wia-application-programming-interface.md'
+          items:
+            - name: Интерфейсы
+              href: '-wia-interfaces.md'
+              items:
+                - name: IEnumWIA_DEV_CAPS
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps
+                  items:
+                    - name: Clone (Клонировать)
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-clone
+                    - name: GetCount
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-getcount
+                    - name: Следующая
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-next
+                    - name: Reset
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-reset
+                    - name: Пропустить
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-skip
+                - name: IEnumWIA_DEV_INFO
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info
+                  items:
+                    - name: Clone (Клонировать)
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-clone
+                    - name: GetCount
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-getcount
+                    - name: Следующая
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-next
+                    - name: Reset
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-reset
+                    - name: Пропустить
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-skip
+                - name: IEnumWIA_FORMAT_INFO
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info
+                  items:
+                    - name: Clone (Клонировать)
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-clone
+                    - name: GetCount
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-getcount
+                    - name: Следующая
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-next
+                    - name: Reset
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-reset
+                    - name: Пропустить
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-skip
+                - name: иенумвиаитем
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-ienumwiaitem
+                  items:
+                    - name: Clone (Клонировать)
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-clone
+                    - name: GetCount
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-getcount
+                    - name: Следующая
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-next
+                    - name: Reset
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-reset
+                    - name: Пропустить
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-skip
+                - name: IEnumWiaItem2
+                  href: '-wia-ienumwiaitem2.md'
+                  items:
+                    - name: Clone (Клонировать)
+                      href: '-wia-ienumwiaitem2-clone.md'
+                    - name: GetCount
+                      href: '-wia-ienumwiaitem2-getcount.md'
+                    - name: Следующая
+                      href: '-wia-ienumwiaitem2-next.md'
+                    - name: Reset
+                      href: '-wia-ienumwiaitem2-reset.md'
+                    - name: Пропустить
+                      href: '-wia-ienumwiaitem2-skip.md'
+                - name: исканпрофиле
+                  href: '-wia-iscanprofile.md'
+                  items:
+                    - name: жеталлпропидс
+                      href: '-wia-iscanprofile-getallpropids.md'
+                    - name: GetDeviceID
+                      href: '-wia-iscanprofile-getdeviceid.md'
+                    - name: GetGUID
+                      href: '-wia-iscanprofile-getguid.md'
+                    - name: GetItem
+                      href: '-wia-iscanprofile-getitem.md'
+                    - name: GetName
+                      href: '-wia-iscanprofile-getname.md'
+                    - name: жетнумпропидс
+                      href: '-wia-iscanprofile-getnumpropids.md'
+                    - name: GetProperty
+                      href: '-wia-iscanprofile-getproperty.md'
+                    - name: IsDefault
+                      href: '-wia-iscanprofile-isdefault.md'
+                    - name: RemoveProperty
+                      href: '-wia-iscanprofile-removeproperty.md'
+                    - name: Сохранить
+                      href: '-wia-iscanprofile-save.md'
+                    - name: сетитем
+                      href: '-wia-iscanprofile-setitem.md'
+                    - name: SetName
+                      href: '-wia-iscanprofile-setname.md'
+                    - name: SetProperty
+                      href: '-wia-iscanprofile-setproperty.md'
+                - name: исканпрофилемгр
+                  href: '-wia-iscanprofilemgr.md'
+                  items:
+                    - name: креатепрофиле
+                      href: '-wia-iscanprofilemgr-createprofile.md'
+                    - name: делетеаллпрофилес
+                      href: '-wia-iscanprofilemgr-deleteallprofiles.md'
+                    - name: делетеаллпрофилесфорусер
+                      href: '-wia-iscanprofilemgr-deleteallprofilesforuser.md'
+                    - name: делетепрофиле
+                      href: '-wia-iscanprofilemgr-deleteprofile.md'
+                    - name: жетдефаултпрофиле
+                      href: '-wia-iscanprofilemgr-getdefaultprofile.md'
+                    - name: жетнумпрофилес
+                      href: '-wia-iscanprofilemgr-getnumprofiles.md'
+                    - name: жетнумпрофилесфордевицеид
+                      href: '-wia-iscanprofilemgr-getnumprofilesfordeviceid.md'
+                    - name: Профили профилирования
+                      href: '-wia-iscanprofilemgr-getprofiles.md'
+                    - name: жетпрофилесфордевицеид
+                      href: '-wia-iscanprofilemgr-getprofilesfordeviceid.md'
+                    - name: опенпрофиле
+                      href: '-wia-iscanprofilemgr-openprofile.md'
+                    - name: Обновить
+                      href: '-wia-iscanprofilemgr-refresh.md'
+                    - name: SetDefault
+                      href: '-wia-iscanprofilemgr-setdefault.md'
+                - name: исканпрофилеуи
+                  href: '-wia-iscanprofileui.md'
+                  items:
+                    - name: сканпрофиледиалог
+                      href: '-wia-iscanprofileui-scanprofiledialog.md'
+                - name: ивиаапперрорхандлер
+                  href: '-wia-iwiaapperrorhandler.md'
+                  items:
+                    - name: Окно
+                      href: '-wia-iwiaapperrorhandler-getwindow.md'
+                    - name: репортстатус
+                      href: '-wia-iwiaapperrorhandler-reportstatus.md'
+                - name: ивиадатакаллбакк
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiadatacallback
+                  items:
+                    - name: бандеддатакаллбакк
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback
+                - name: ивиадататрансфер
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer
+                  items:
+                    - name: idtEnumWIA_FORMAT_INFO
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtenumwia_format_info
+                    - name: идтжетбандеддата
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetbandeddata
+                    - name: идтжетдата
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetdata
+                    - name: идтжетекстендедтрансферинфо
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetextendedtransferinfo
+                    - name: идткуерижетдата
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtquerygetdata
+                - name: ивиадевмгр
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr
+                  items:
+                    - name: адддевицедлг
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-adddevicedlg
+                    - name: креатедевице
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-createdevice
+                    - name: енумдевицеинфо
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo
+                    - name: жетимажедлг
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-getimagedlg
+                    - name: регистеревенткаллбаккклсид
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackclsid
+                    - name: регистеревенткаллбаккинтерфаце
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface
+                    - name: регистеревенткаллбаккпрограм
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackprogram
+                    - name: селектдевицедлг
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlg
+                    - name: селектдевицедлгид
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlgid
+                - name: IWiaDevMgr2
+                  href: '-wia-iwiadevmgr2.md'
+                  items:
+                    - name: креатедевице
+                      href: '-wia-iwiadevmgr2-createdevice.md'
+                    - name: енумдевицеинфо
+                      href: '-wia-iwiadevmgr2-enumdeviceinfo.md'
+                    - name: жетимажедлг
+                      href: '-wia-iwiadevmgr2-getimagedlg.md'
+                    - name: регистеревенткаллбаккклсид
+                      href: '-wia-iwiadevmgr2-registereventcallbackclsid.md'
+                    - name: регистеревенткаллбаккинтерфаце
+                      href: '-wia-iwiadevmgr2-registereventcallbackinterface.md'
+                    - name: регистеревенткаллбаккпрограм
+                      href: '-wia-iwiadevmgr2-registereventcallbackprogram.md'
+                    - name: селектдевицедлг
+                      href: '-wia-iwiadevmgr2-selectdevicedlg.md'
+                    - name: селектдевицедлгид
+                      href: '-wia-iwiadevmgr2-selectdevicedlgid.md'
+                - name: ивиаеррорхандлер
+                  href: '-wia-iwiaerrorhandler.md'
+                  items:
+                    - name: жетстатусдескриптион
+                      href: '-wia-iwiaerrorhandler-getstatusdescription.md'
+                    - name: репортстатус
+                      href: '-wia-iwiaerrorhandler-reportstatus.md'
+                - name: ивиаевенткаллбакк
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback
+                  items:
+                    - name: имажеевенткаллбакк
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaeventcallback-imageeventcallback
+                - name: ивиаимажефилтер
+                  href: '-wia-iwiaimagefilter.md'
+                  items:
+                    - name: апплипропертиес
+                      href: '-wia-iwiaimagefilter-applyproperties.md'
+                    - name: филтерпревиевимаже
+                      href: '-wia-iwiaimagefilter-filterpreviewimage.md'
+                    - name: инитиализефилтер
+                      href: '-wia-iwiaimagefilter-initializefilter.md'
+                    - name: сетневкаллбакк
+                      href: '-wia-iwiaimagefilter-setnewcallback.md'
+                - name: ивиаитем
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem
+                  items:
+                    - name: анализеитем
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-analyzeitem
+                    - name: креатечилдитем
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-createchilditem
+                    - name: DeleteItem
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-deleteitem
+                    - name: девицекомманд
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-devicecommand
+                    - name: девицедлг
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-devicedlg
+                    - name: диагностическая;
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-diagnostic
+                    - name: думпдрвитемдата
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-dumpdrvitemdata
+                    - name: думпитемдата
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-dumpitemdata
+                    - name: думптриитемдата
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-dumptreeitemdata
+                    - name: енумчилдитемс
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumchilditems
+                    - name: енумдевицекапабилитиес
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumdevicecapabilities
+                    - name: енумрегистеревентинфо
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumregistereventinfo
+                    - name: финдитембинаме
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-finditembyname
+                    - name: ItemType
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-getitemtype
+                    - name: жетрутитем
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-getrootitem
+                - name: IWiaItem2
+                  href: '-wia-iwiaitem2.md'
+                  items:
+                    - name: чеккекстенсион
+                      href: '-wia-iwiaitem2-checkextension.md'
+                    - name: креатечилдитем
+                      href: '-wia-iwiaitem2-createchilditem.md'
+                    - name: DeleteItem
+                      href: '-wia-iwiaitem2-deleteitem.md'
+                    - name: девицекомманд
+                      href: '-wia-iwiaitem2-devicecommand.md'
+                    - name: девицедлг
+                      href: '-wia-iwiaitem2-devicedlg.md'
+                    - name: диагностическая;
+                      href: '-wia-iwiaitem2-diagnostic.md'
+                    - name: енумчилдитемс
+                      href: '-wia-iwiaitem2-enumchilditems.md'
+                    - name: енумдевицекапабилитиес
+                      href: '-wia-iwiaitem2-enumdevicecapabilities.md'
+                    - name: енумрегистеревентинфо
+                      href: '-wia-iwiaitem2-enumregistereventinfo.md'
+                    - name: финдитембинаме
+                      href: '-wia-iwiaitem2-finditembyname.md'
+                    - name: Расширение расширения
+                      href: '-wia-iwiaitem2-getextension.md'
+                    - name: жетитемкатегори
+                      href: '-wia-iwiaitem2-getitemcategory.md'
+                    - name: ItemType
+                      href: '-wia-iwiaitem2-getitemtype.md'
+                    - name: жетпарентитем
+                      href: '-wia-iwiaitem2-getparentitem.md'
+                    - name: жетпревиевкомпонент
+                      href: '-wia-iwiaitem2-getpreviewcomponent.md'
+                    - name: жетрутитем
+                      href: '-wia-iwiaitem2-getrootitem.md'
+                - name: ивиаитемекстрас
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiaitemextras
+                  items:
+                    - name: канцелпендингио
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-cancelpendingio
+                    - name: ESC
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-escape
+                    - name: жетекстендедерроринфо
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitemextras-getextendederrorinfo
+                - name: ивиалог
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-iwialog
+                  items:
+                    - name: Состав
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialog-hresult
+                    - name: инитиализелог
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialog-initializelog
+                    - name: Журнал
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialog-log
+                - name: ивиаложекс
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-iwialogex
+                  items:
+                    - name: Состав
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-hresult
+                    - name: хресултекс
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-hresultex
+                    - name: инитиализеложекс
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-initializelogex
+                    - name: Журнал
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-log
+                    - name: ложекс
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-logex
+                - name: ивианотифидевмгр
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-iwianotifydevmgr
+                  items:
+                    - name: невдевицеарривал
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwianotifydevmgr-newdevicearrival
+                - name: ивиапревиев
+                  href: '-wia-iwiapreview.md'
+                  items:
+                    - name: Clear
+                      href: '-wia-iwiapreview-clear.md'
+                    - name: DetectRegions
+                      href: '-wia-iwiapreview-detectregions.md'
+                    - name: жетневпревиев
+                      href: '-wia-iwiapreview-getnewpreview.md'
+                    - name: упдатепревиев
+                      href: '-wia-iwiapreview-updatepreview.md'
+                - name: ивиапропертистораже
+                  href: /windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage
+                  items:
+                    - name: GetCount
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getcount
+                    - name: жетпропертяттрибутес
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertyattributes
+                    - name: жетпропертистреам
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream
+                    - name: сетпропертистреам
+                      href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream
+                - name: ивиасегментатионфилтер
+                  href: '-wia-iwiasegmentationfilter.md'
+                  items:
+                    - name: DetectRegions
+                      href: '-wia-iwiasegmentationfilter-detectregions.md'
+                - name: ивиатрансфер
+                  href: '-wia-iwiatransfer.md'
+                  items:
+                    - name: Отменить
+                      href: '-wia-iwiatransfer-cancel.md'
+                    - name: Скачивание
+                      href: '-wia-iwiatransfer-download.md'
+                    - name: EnumWIA_FORMAT_INFO
+                      href: '-wia-iwiatransfer-enumwia-format-info.md'
+                    - name: Передать
+                      href: '-wia-iwiatransfer-upload.md'
+                - name: ивиатрансферкаллбакк
+                  href: '-wia-iwiatransfercallback.md'
+                  items:
+                    - name: жетнекстстреам
+                      href: '-wia-iwiatransfercallback-getnextstream.md'
+                    - name: трансферкаллбакк
+                      href: '-wia-iwiatransfercallback-transfercallback.md'
+                - name: ивиауиекстенсион
+                  href: '-wia-iwiauiextension.md'
+                  items:
+                    - name: девицедиалог
+                      href: '-wia-iwiauiextension-devicedialog.md'
+                    - name: жетдевицебитмаплого
+                      href: '-wia-iwiauiextension-getdevicebitmaplogo.md'
+                    - name: жетдевицеикон
+                      href: '-wia-iwiauiextension-getdeviceicon.md'
+                - name: IWiaUIExtension2
+                  href: '-wia-iwiauiextension2.md'
+                  items:
+                    - name: девицедиалог
+                      href: '-wia-iwiauiextension2-devicedialog.md'
+                    - name: жетдевицеикон
+                      href: '-wia-iwiauiextension2-getdeviceicon.md'
+                - name: ивиавидео
+                  href: /windows/desktop/api/Wiavideo/nn-wiavideo-iwiavideo
+                  items:
+                    - name: креатевидеобидевнум
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-createvideobydevnum
+                    - name: креатевидеобинаме
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-createvideobyname
+                    - name: креатевидеобивиадевид
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-createvideobywiadevid
+                    - name: дестройвидео
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-destroyvideo
+                    - name: жеткуррентстате
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-getcurrentstate
+                    - name: имажесдиректори
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-get_imagesdirectory
+                    - name: Пауза
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-pause
+                    - name: Воспроизведение
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-play
+                    - name: превиеввисибле
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-get_previewvisible
+                    - name: ресизевидео
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-resizevideo
+                    - name: такепиктуре
+                      href: /windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-takepicture
+            - name: Функции
+              href: '-wia-functions.md'
+              items:
+                - name: девицедиалог
+                  href: '-wia-devicedialog.md'
+                - name: инсталлвиадевице
+                  href: '-wia-installwiadevice.md'
+                - name: виаадддевице
+                  href: '-wia-wiaadddevice.md'
+            - name: Структуры
+              href: '-wia-structures.md'
+              items:
+                - name: девицедиалогдата
+                  href: '-wia-devicedialogdata.md'
+                - name: DEVICEDIALOGDATA2
+                  href: '-wia-devicedialogdata2.md'
+                - name: WIA_DATA_CALLBACK_HEADER
+                  href: /windows/win32/api/wia_xp/ns-wia_xp-wia_data_callback_header
+                - name: WIA_DATA_TRANSFER_INFO
+                  href: /windows/win32/api/wia_xp/ns-wia_xp-wia_data_transfer_info
+                - name: WIA_DEV_CAP
+                  href: /windows/win32/api/wia_xp/ns-wia_xp-wia_dev_cap
+                - name: WIA_DITHER_PATTERN_DATA
+                  href: /windows/win32/api/wia_xp/ns-wia_xp-wia_dither_pattern_data
+                - name: WIA_EXTENDED_TRANSFER_INFO
+                  href: /windows/win32/api/wia_xp/ns-wia_xp-wia_extended_transfer_info
+                - name: WIA_FORMAT_INFO
+                  href: /windows/win32/api/wia_xp/ns-wia_xp-wia_format_info
+                - name: WIA_PROPID_TO_NAME
+                  href: /windows/win32/api/wia_xp/ns-wia_xp-wia_propid_to_name
+                - name: WIA_RAW_HEADER
+                  href: '-wia-wia-raw-header.md'
+                - name: виатрансферпарамс
+                  href: '-wia-wiatransferparams.md'
+            - name: Перечисления
+              href: '-wia-enumerations.md'
+              items:
+                - name: WIAVIDEO_STATE
+                  href: /windows/win32/api/Wiavideo/ne-wiavideo-wiavideo_state
+            - name: Константы
+              href: '-wia-constants.md'
+              items:
+                - name: Константы свойств устройства камеры
+                  href: '-wia-wiaitempropcameradevice.md'
+                - name: Константы свойства элемента WIA камеры
+                  href: '-wia-wiaitempropcameraitem.md'
+                - name: Общие константы свойств устройства
+                  href: '-wia-wiaitempropcommondevice.md'
+                - name: Стандартные константы свойств элементов WIA
+                  href: '-wia-wiaitempropcommonitem.md'
+                - name: Константы свойств сведений об устройстве
+                  href: '-wia-wiadeviceinfoprop.md'
+                - name: Коды ошибок
+                  href: '-wia-error-codes.md'
+                - name: Константы намерения образа
+                  href: '-wia-imageintentconstants.md'
+                - name: Атрибуты свойства
+                  href: '-wia-property-attributes.md'
+                - name: Константы свойств устройства сканера
+                  href: '-wia-wiaitempropscannerdevice.md'
+                - name: Константы свойства элемента сканера WIA
+                  href: '-wia-wiaitempropscanneritem.md'
+                - name: Константы свойств устройства WIA видео
+                  href: '-wia-wiaitempropvideodevice.md'
+                - name: 'Идентификаторы GUID категории элементов WIA 2,0'
+                  href: '-wia-wia2-itemcategoryguids.md'
+                - name: 'Константы размера страницы WIA 2,0'
+                  href: '-wia-wia2-pagesizeconstants.md'
+                - name: Команды устройства WIA
+                  href: '-wia-wia-device-commands.md'
+                - name: Описатели типа устройства WIA
+                  href: '-wia-wia-device-type-specifiers.md'
+                - name: Идентификаторы событий WIA
+                  href: '-wia-wia-event-identifiers.md'
+                - name: Флаги типа элемента WIA
+                  href: '-wia-wia-item-type-flags.md'
+                - name: Константы свойств WIA
+                  href: '-wia-wia-property-constants.md'
+                - name: виафлаг
+                  href: '-wia-wiaflag.md'
+        - name: Модель скриптов WIA
+          href: '-wia-wia-scripting-model.md'
+          items:
+            - name: Синтаксические обозначения
+              href: '-wia-syntax-conventions.md'
+            - name: Использование объектов коллекции WIA
+              href: '-wia-using-wia-collection-objects.md'
+            - name: Определения констант свойств WIA
+              href: '-wia-wia-property-constant-definitions.md'
+            - name: виаитемпропертид
+              href: '-wia-wiaitempropertyid.md'
+            - name: виадевицеинфопропертид
+              href: '-wia-wiadeviceinfopropertyid.md'
+            - name: Коллекция
+              href: '-wia-collection.md'
+              items:
+                - name: Count
+                  href: '-wia-icollection-count.md'
+                - name: Элемент
+                  href: '-wia-icollection-item.md'
+            - name: DeviceInfo
+              href: '-wia-deviceinfo.md'
+              items:
+                - name: Создать
+                  href: '-wia-iwiadeviceinfo-create.md'
+                - name: жетпропбид
+                  href: '-wia-iwiadeviceinfo-getpropbyid.md'
+                - name: Идентификатор
+                  href: '-wia-iwiadeviceinfo-id.md'
+                - name: Изготовитель
+                  href: '-wia-iwiadeviceinfo-manufacturer.md'
+                - name: Имя
+                  href: '-wia-iwiadeviceinfo-name.md'
+                - name: Порт
+                  href: '-wia-iwiadeviceinfo-port.md'
+                - name: Тип
+                  href: '-wia-iwiadeviceinfo-type.md'
+                - name: уиклсид
+                  href: '-wia-iwiadeviceinfo-uiclsid.md'
+            - name: Элемент
+              href: '-wia-item.md'
+              items:
+                - name: Дети
+                  href: '-wia-iwiadispatchitem-children.md'
+                - name: коннектстатус
+                  href: '-wia-iwiadispatchitem-connectstatus.md'
+                - name: FirmwareVersion
+                  href: '-wia-iwiadispatchitem-firmwareversion.md'
+                - name: FullName
+                  href: '-wia-iwiadispatchitem-fullname.md'
+                - name: жетитемсфромуи
+                  href: '-wia-iwiadispatchitem-getitemsfromui.md'
+                - name: жетпропбид
+                  href: '-wia-iwiadispatchitem-getpropbyid.md'
+                - name: Высота
+                  href: '-wia-iwiadispatchitem-height.md'
+                - name: ItemType
+                  href: '-wia-iwiadispatchitem-itemtype.md'
+                - name: Имя
+                  href: '-wia-iwiadispatchitem-name.md'
+                - name: пиктурехеигхт
+                  href: '-wia-iwiadispatchitem-pictureheight.md'
+                - name: пиктуревидс
+                  href: '-wia-iwiadispatchitem-picturewidth.md'
+                - name: такепиктуре
+                  href: '-wia-iwiadispatchitem-takepicture.md'
+                - name: сумбхеигхт
+                  href: '-wia-iwiadispatchitem-thumbheight.md'
+                - name: Thumbnail
+                  href: '-wia-iwiadispatchitem-thumbnail.md'
+                - name: сумбвидс
+                  href: '-wia-iwiadispatchitem-thumbwidth.md'
+                - name: Время
+                  href: '-wia-iwiadispatchitem-time.md'
+                - name: Перенос
+                  href: '-wia-iwiadispatchitem-transfer.md'
+                - name: Ширина
+                  href: '-wia-iwiadispatchitem-width.md'
+            - name: сафевиа
+              href: '-wia-safewia.md'
+              items:
+                - name: Создать
+                  href: '-wia-iwia-create.md'
+                - name: Устройства
+                  href: '-wia-iwia-devices.md'
+            - name: Одно
+              href: '-wia-wia.md'
+              items:
+                - name: Создать
+                  href: '-wia-iwia-create.md'
+                - name: Устройства
+                  href: '-wia-iwia-devices.md'
+                - name: ондевицеконнектед
+                  href: '-wia--iwiaevents-ondeviceconnected.md'
+                - name: ондевицедисконнектед
+                  href: '-wia--iwiaevents-ondevicedisconnected.md'
+                - name: онтрансферкомплете
+                  href: '-wia--iwiaevents-ontransfercomplete.md'
+    - name: Обзоры и учебники
+      href: bumper-wia-overviews-and-tutorials.md
+      items:
+        - name: О приобретении образа Windows
+          href: '-wia-about-windows-image-acquisition.md'
+          items:
+            - name: Архитектура WIA
+              href: '-wia-wia-architecture.md'
+            - name: Совместимость сти
+              href: '-wia-sti-compatibility.md'
+            - name: Совместимость с TWAIN
+              href: '-wia-twain-compatibility.md'
+            - name: диспетчер устройств WIA
+              href: '-wia-wia-device-manager.md'
+            - name: Библиотека WIA Минидривер Service
+              href: '-wia-wia-minidriver-service-library.md'
+            - name: WIA Минидривер
+              href: '-wia-wia-minidriver.md'
+        - name: Использование получения образа Windows
+          href: '-wia-using-windows-image-acquisition.md'
+          items:
+            - name: Использование объектов устройств WIA
+              href: '-wia-using-wia-device-objects.md'
+              items:
+                - name: Выбор устройства
+                  href: '-wia-selecting-a-device.md'
+                - name: Устройства камеры WIA
+                  href: '-wia-wia-camera-devices.md'
+                - name: Сведения о дереве элементов IWiaItem2
+                  href: '-wia-about-item-tree.md'
+                - name: 'Устройства сканера WIA в WIA 1,0'
+                  href: '-wia-wia-scanner-devices.md'
+            - name: Получение образов
+              href: '-wia-acquiring-images.md'
+            - name: Навигация по дереву элементов
+              href: '-wia-navigating-an-item-tree.md'
+            - name: Регистрация событий WIA
+              href: '-wia-registering-wia-events.md'
+            - name: Использование перечислителей WIA
+              href: '-wia-using-wia-enumerators.md'
+            - name: Чтение и задание свойств WIA
+              href: '-wia-reading-and-setting-wia-properties.md'
+              items:
+                - name: Проверка свойства WIA
+                  href: '-wia-wia-property-validation.md'
+                - name: Свойства сведений об устройстве (WIA_DIP_XXXX)
+                  href: '-wia-device-information-properties-wia-dip-xxxx.md'
+                - name: Свойства устройства
+                  href: '-wia-device-properties.md'
+                - name: Свойства элементов
+                  href: '-wia-item-properties.md'
+                - name: Дополнительные свойства WIA
+                  href: '-wia-additional-wia-properties.md'
+                - name: Определение пользовательских свойств
+                  href: '-wia-defining-custom-properties.md'
+                - name: Использование пользовательских свойств
+                  href: '-wia-using-custom-properties.md'
+                - name: Схема профиля сканирования
+                  href: '-wia-scan-profile-schema.md'
+            - name: Сведения об ошибке WIA
+              href: '-wia-wia-error-information.md'
+            - name: Использование нескольких потоков в приложении WIA
+              href: '-wia-using-multiple-threads.md'
+            - name: Взаимодействие с устройством WIA в нескольких потоках или приложениях
+              href: '-wia-communicating-with-a-wia-device.md'
+            - name: Использование видео WIA
+              href: '-wia-using-wia-video.md'
+              items:
+                - name: Предварительный просмотр видео
+                  href: '-wia-previewing-video.md'
+                - name: Запись изображения с изображением по-прежнему из потока видео
+                  href: '-wia-capturing-a-still-image-from-a-video-stream.md'
+            - name: Использование модели скриптов WIA
+              href: '-wia-using-the-wia-scripting-model.md'
+              items:
+                - name: Настройка среды разработки модели сценариев
+                  href: '-wia-setting-up-the-scripting-model.md'
+                - name: Подключение к устройству
+                  href: '-wia-connecting-to-a-device.md'
+                - name: Навигация по дереву объектов элементов
+                  href: '-wia-navigating-a-tree-of-item-objects.md'
+                - name: Передача данных
+                  href: '-wia-transferring-data.md'
+                - name: Ограничения модели скриптов
+                  href: '-wia-limitations-of-the-scripting-model.md'
+        - name: Учебник по WIA
+          href: '-wia-wia-tutorial.md'
+          items:
+            - name: Создание диспетчер устройств WIA
+              href: '-wia-creating-a-wia-device-manager.md'
+            - name: Перечисление системных устройств
+              href: '-wia-enumerating-system-devices.md'
+            - name: Чтение свойств устройства
+              href: '-wia-reading-device-properties.md'
+            - name: Создание устройства
+              href: '-wia-creating-a-device.md'
+            - name: Перечисление элементов
+              href: '-wia-enumerating-items.md'
+            - name: 'Передача данных изображения в WIA 1,0'
+              href: '-wia-transferring-image-data.md'
+            - name: 'Передача данных изображения в WIA 2,0'
+              href: '-wia-transferring-image-data-in-wia2.md'
+            - name: Регистрация в событиях
+              href: '-wia-registering-for-events.md'
+            - name: Запись изображения по-прежнему из потоковой передачи видео
+              href: '-wia-capturing-a-still-image-from-streaming-video.md'

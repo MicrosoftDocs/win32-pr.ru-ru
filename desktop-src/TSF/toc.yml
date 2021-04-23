@@ -1,0 +1,2041 @@
+- name: инфраструктуры текстовых служб (TSF)
+  href: text-services-framework.md
+  items:
+    - name: Сведения о безопасности TSF
+      href: tsf-security-information.md
+    - name: Новые возможности в TSF
+      href: new-features-in-tsf.md
+    - name: Сведения о TSF
+      href: about-text-services-framework.md
+      items:
+        - name: Что такое платформа текстовых служб?
+          href: what-is-text-services-framework.md
+        - name: Зачем использовать платформу текстовых служб?
+          href: why-use-text-services-framework.md
+        - name: Архитектура
+          href: architecture.md
+        - name: Как настроить платформу текстовых служб
+          href: how-to-set-up-tsf.md
+        - name: 64-разрядные замечания
+          href: 64-bit-platform-considerations.md
+    - name: Использование TSF
+      href: using-text-services-framework.md
+      items:
+        - name: Общие элементы
+          href: common-elements.md
+          items:
+            - name: Диспетчер потоков
+              href: thread-manager.md
+            - name: Идентификаторы клиентов
+              href: client-identifiers.md
+            - name: Диспетчер документов
+              href: document-manager.md
+            - name: Изменение контекстов
+              href: edit-contexts.md
+            - name: Диапазоны
+              href: ranges.md
+            - name: Свойства
+              href: properties.md
+            - name: Секции
+              href: compartments.md
+            - name: Композиции
+              href: compositions.md
+        - name: Приложения
+          href: applications.md
+          items:
+            - name: Хранилища текста
+              href: text-stores.md
+            - name: Блокировки документов
+              href: document-locks.md
+            - name: Использование атрибутов вывода
+              href: using-display-attributes.md
+            - name: Внедренные объекты
+              href: embedded-objects.md
+            - name: Языковая панель
+              href: language-bar-app.md
+            - name: Режим Уилесс
+              href: uiless-mode-overview.md
+        - name: Текстовые службы
+          href: text-services.md
+          items:
+            - name: Регистрация службы текстового ввода
+              href: text-service-registration.md
+            - name: Языковая панель
+              href: language-bar.md
+            - name: Сеансы изменения
+              href: edit-sessions.md
+            - name: Предоставление атрибутов вывода
+              href: providing-display-attributes.md
+    - name: Справочник по TSF
+      href: text-services-framework-reference.md
+      items:
+        - name: Интерфейсы TSF
+          href: text-services-framework-interfaces.md
+          items:
+            - name: ианчор
+              href: /windows/desktop/api/Textstor/nn-textstor-ianchor
+              items:
+                - name: клеарчанжехистори
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-clearchangehistory
+                - name: Клонировать
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-clone
+                - name: Сравнение
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-compare
+                - name: жетчанжехистори
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-getchangehistory
+                - name: Сила притяжения
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-getgravity
+                - name: IsEqual
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-isequal
+                - name: сетчанжехисторимаск
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-setchangehistorymask
+                - name: сетгравити
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-setgravity
+                - name: Сдвиг
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-shift
+                - name: шифтрегион
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-shiftregion
+                - name: шифтто
+                  href: /windows/desktop/api/Textstor/nf-textstor-ianchor-shiftto
+            - name: иенумитфкомпоситионвиев
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumitfcompositionview
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumitfcompositionview-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumitfcompositionview-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumitfcompositionview-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumitfcompositionview-skip
+            - name: иенумтфкандидатес
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-ienumtfcandidates
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-ienumtfcandidates-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-ienumtfcandidates-next
+                - name: Reset
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-ienumtfcandidates-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-ienumtfcandidates-skip
+            - name: иенумтфконтекстс
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumtfcontexts
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfcontexts-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfcontexts-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfcontexts-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfcontexts-skip
+            - name: иенумтфконтекствиевс
+              href: /windows/desktop/api/msctf/nn-msctf-ienumtfcontextviews
+              items:
+                - name: Клонировать
+                  href: ienumtfcontextviews-clone.md
+                - name: Следующая
+                  href: ienumtfcontextviews-next.md
+                - name: Reset
+                  href: ienumtfcontextviews-reset.md
+                - name: Пропустить
+                  href: ienumtfcontextviews-skip.md
+            - name: иенумтфдисплайаттрибутеинфо
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumtfdisplayattributeinfo
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfdisplayattributeinfo-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfdisplayattributeinfo-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfdisplayattributeinfo-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfdisplayattributeinfo-skip
+            - name: иенумтфдокументмгрс
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumtfdocumentmgrs
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfdocumentmgrs-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfdocumentmgrs-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfdocumentmgrs-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfdocumentmgrs-skip
+            - name: иенумтффунктионпровидерс
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumtffunctionproviders
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtffunctionproviders-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtffunctionproviders-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtffunctionproviders-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtffunctionproviders-skip
+            - name: иенумтфинпутпроцессорпрофилес
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumtfinputprocessorprofiles
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfinputprocessorprofiles-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfinputprocessorprofiles-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfinputprocessorprofiles-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfinputprocessorprofiles-skip
+            - name: иенумтфлангбаритемс
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-ienumtflangbaritems
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-ienumtflangbaritems-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-ienumtflangbaritems-next
+                - name: Reset
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-ienumtflangbaritems-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-ienumtflangbaritems-skip
+            - name: иенумтфлангуажепрофилес
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumtflanguageprofiles
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtflanguageprofiles-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtflanguageprofiles-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtflanguageprofiles-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtflanguageprofiles-skip
+            - name: иенумтфлаттицеелементс
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-ienumtflatticeelements
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-ienumtflatticeelements-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-ienumtflatticeelements-next
+                - name: Reset
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-ienumtflatticeelements-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-ienumtflatticeelements-skip
+            - name: иенумтфпропертиес
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumtfproperties
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfproperties-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfproperties-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfproperties-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfproperties-skip
+            - name: иенумтфпропертивалуе
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumtfpropertyvalue
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfpropertyvalue-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfpropertyvalue-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfpropertyvalue-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfpropertyvalue-skip
+            - name: иенумтфранжес
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumtfranges
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfranges-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfranges-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfranges-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfranges-skip
+            - name: иенумтфрендерингмаркуп
+              href: ienumtfrenderingmarkup.md
+              items:
+                - name: Клонировать
+                  href: ienumtfrenderingmarkup-clone.md
+                - name: Следующая
+                  href: ienumtfrenderingmarkup-next.md
+                - name: Reset
+                  href: ienumtfrenderingmarkup-reset.md
+                - name: Пропустить
+                  href: ienumtfrenderingmarkup-skip.md
+            - name: иенумтфуиелементс
+              href: /windows/desktop/api/Msctf/nn-msctf-ienumtfuielements
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfuielements-clone
+                - name: Следующая
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfuielements-next
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfuielements-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/Msctf/nf-msctf-ienumtfuielements-skip
+            - name: исофткбд
+              href: isoftkbd.md
+              items:
+                - name: Метод Адвисесофткэйбоардевентсинк
+                  href: isoftkbd-advisesoftkeyboardeventsink.md
+                - name: Метод Креатесофткэйбоардлайаутфромресаурце
+                  href: isoftkbd-createsoftkeyboardlayoutfromresource.md
+                - name: Метод Креатесофткэйбоардлайаутфромксмлфиле
+                  href: isoftkbd-createsoftkeyboardlayoutfromxmlfile.md
+                - name: Метод Креатесофткэйбоардвиндов
+                  href: isoftkbd-createsoftkeyboardwindow.md
+                - name: Метод Дестройсофткэйбоардвиндов
+                  href: isoftkbd-destroysoftkeyboardwindow.md
+                - name: Метод Енумсофткэйбоард
+                  href: isoftkbd-enumsoftkeyboard.md
+                - name: Метод Жетсофткэйбоардколорс
+                  href: isoftkbd-getsoftkeyboardcolors.md
+                - name: Метод Жетсофткэйбоардпоссизе
+                  href: isoftkbd-getsoftkeyboardpossize.md
+                - name: Метод Жетсофткэйбоардтекстфонт
+                  href: isoftkbd-getsoftkeyboardtextfont.md
+                - name: Метод Жетсофткэйбоардтипемоде
+                  href: isoftkbd-getsoftkeyboardtypemode.md
+                - name: Метод Initialize
+                  href: isoftkbd-initialize.md
+                - name: Метод Селектсофткэйбоард
+                  href: isoftkbd-selectsoftkeyboard.md
+                - name: Метод Сеткэйбоардлабелтекст
+                  href: isoftkbd-setkeyboardlabeltext.md
+                - name: Метод Сеткэйбоардлабелтексткомбинатион
+                  href: isoftkbd-setkeyboardlabeltextcombination.md
+                - name: Метод Сетсофткэйбоардколорс
+                  href: isoftkbd-setsoftkeyboardcolors.md
+                - name: Метод Сетсофткэйбоардпоссизе
+                  href: isoftkbd-setsoftkeyboardpossize.md
+                - name: Метод Сетсофткэйбоардтекстфонт
+                  href: isoftkbd-setsoftkeyboardtextfont.md
+                - name: Метод Сетсофткэйбоардтипемоде
+                  href: isoftkbd-setsoftkeyboardtypemode.md
+                - name: Метод Шовкэйсфоркэйсканмоде
+                  href: isoftkbd-showkeysforkeyscanmode.md
+                - name: Метод Шовсофткэйбоард
+                  href: isoftkbd-showsoftkeyboard.md
+                - name: Метод Унадвисесофткэйбоардевентсинк
+                  href: isoftkbd-unadvisesoftkeyboardeventsink.md
+            - name: ITextStoreACP
+              href: /windows/desktop/api/Textstor/nn-textstor-itextstoreacp
+              items:
+                - name: AdviseSink
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-advisesink
+                - name: финднекстаттртранситион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-findnextattrtransition
+                - name: жетакпфромпоинт
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-getacpfrompoint
+                - name: жетактивевиев
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-getactiveview
+                - name: Внедрение
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-getembedded
+                - name: жетендакп
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-getendacp
+                - name: жетформаттедтекст
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-getformattedtext
+                - name: жетскринекст
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-getscreenext
+                - name: Выборка
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-getselection
+                - name: GetStatus
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-getstatus
+                - name: GetText
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-gettext
+                - name: жеттекстекст
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-gettextext
+                - name: жетвнд
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-getwnd
+                - name: инсертембеддед
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-insertembedded
+                - name: инсертембеддедатселектион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-insertembeddedatselection
+                - name: инсерттекстатселектион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-inserttextatselection
+                - name: куеринсерт
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-queryinsert
+                - name: куеринсертембеддед
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-queryinsertembedded
+                - name: рекуестаттрсатпоситион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-requestattrsatposition
+                - name: рекуестаттрстранситионингатпоситион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-requestattrstransitioningatposition
+                - name: RequestLock
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-requestlock
+                - name: рекуестсуппортедаттрс
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-requestsupportedattrs
+                - name: ретриеверекуестедаттрс
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-retrieverequestedattrs
+                - name: сетселектион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-setselection
+                - name: SetText
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-settext
+                - name: унадвисесинк
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp-unadvisesink
+            - name: ITextStoreACP2
+              href: /windows/desktop/api/Textstor/nn-textstor-itextstoreacp2
+              items:
+                - name: Метод AdviseSink
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-advisesink
+                - name: Метод Финднекстаттртранситион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-findnextattrtransition
+                - name: Метод Жетакпфромпоинт
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-getacpfrompoint
+                - name: Метод Жетактивевиев
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-getactiveview
+                - name: Метод onembedded
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-getembedded
+                - name: Метод Жетендакп
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-getendacp
+                - name: Метод Жетформаттедтекст
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-getformattedtext
+                - name: Метод Жетскринекст
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-getscreenext
+                - name: Метод выбора
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-getselection
+                - name: Метод GetStatus
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-getstatus
+                - name: GetText - метод
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-gettext
+                - name: Метод Жеттекстекст
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-gettextext
+                - name: Метод Инсертембеддед
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-insertembedded
+                - name: Метод Инсертембеддедатселектион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-insertembeddedatselection
+                - name: Метод Инсерттекстатселектион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-inserttextatselection
+                - name: Метод Куеринсерт
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-queryinsert
+                - name: Метод Куеринсертембеддед
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-queryinsertembedded
+                - name: Метод Рекуестаттрсатпоситион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-requestattrsatposition
+                - name: Метод Рекуестаттрстранситионингатпоситион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-requestattrstransitioningatposition
+                - name: Метод RequestLock
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-requestlock
+                - name: Метод Рекуестсуппортедаттрс
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-requestsupportedattrs
+                - name: Метод Ретриеверекуестедаттрс
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-retrieverequestedattrs
+                - name: Метод Сетселектион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-setselection
+                - name: SetText - метод
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-settext
+                - name: Метод Унадвисесинк
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacp2-unadvisesink
+            - name: итекстстореакпсервицес
+              href: /windows/desktop/api/Msctf/nn-msctf-itextstoreacpservices
+              items:
+                - name: креатеранже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itextstoreacpservices-createrange
+                - name: форцелоадпроперти
+                  href: /windows/desktop/api/Msctf/nf-msctf-itextstoreacpservices-forceloadproperty
+                - name: Сериализация
+                  href: /windows/desktop/api/Msctf/nf-msctf-itextstoreacpservices-serialize
+                - name: Выполнить десериализацию
+                  href: /windows/desktop/api/Msctf/nf-msctf-itextstoreacpservices-unserialize
+            - name: ITextStoreACPSink
+              href: /windows/desktop/api/Textstor/nn-textstor-itextstoreacpsink
+              items:
+                - name: онаттрсчанже
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacpsink-onattrschange
+                - name: онендедиттрансактион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacpsink-onendedittransaction
+                - name: онлайаутчанже
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacpsink-onlayoutchange
+                - name: OnLockGranted
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacpsink-onlockgranted
+                - name: онселектиончанже
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacpsink-onselectionchange
+                - name: онстартедиттрансактион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacpsink-onstartedittransaction
+                - name: онстатусчанже
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacpsink-onstatuschange
+                - name: онтекстчанже
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreacpsink-ontextchange
+            - name: итекстстореанчор
+              href: /windows/desktop/api/Textstor/nn-textstor-itextstoreanchor
+              items:
+                - name: AdviseSink
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-advisesink
+                - name: финднекстаттртранситион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-findnextattrtransition
+                - name: жетактивевиев
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getactiveview
+                - name: жетанчорфромпоинт
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getanchorfrompoint
+                - name: Внедрение
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getembedded
+                - name: жетенд
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getend
+                - name: жетформаттедтекст
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getformattedtext
+                - name: жетскринекст
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getscreenext
+                - name: Выборка
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getselection
+                - name: При запуске
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getstart
+                - name: GetStatus
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getstatus
+                - name: GetText
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-gettext
+                - name: жеттекстекст
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-gettextext
+                - name: жетвнд
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getwnd
+                - name: инсертембеддед
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-insertembedded
+                - name: инсертембеддедатселектион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-insertembeddedatselection
+                - name: инсерттекстатселектион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-inserttextatselection
+                - name: куеринсерт
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-queryinsert
+                - name: куеринсертембеддед
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-queryinsertembedded
+                - name: рекуестаттрсатпоситион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-requestattrsatposition
+                - name: рекуестаттрстранситионингатпоситион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-requestattrstransitioningatposition
+                - name: RequestLock
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-requestlock
+                - name: рекуестсуппортедаттрс
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-requestsupportedattrs
+                - name: ретриеверекуестедаттрс
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-retrieverequestedattrs
+                - name: сетселектион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-setselection
+                - name: SetText
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-settext
+                - name: унадвисесинк
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-unadvisesink
+            - name: итекстстореанчорсинк
+              href: /windows/desktop/api/Textstor/nn-textstor-itextstoreanchorsink
+              items:
+                - name: онаттрсчанже
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchorsink-onattrschange
+                - name: онендедиттрансактион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchorsink-onendedittransaction
+                - name: онлайаутчанже
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchorsink-onlayoutchange
+                - name: OnLockGranted
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchorsink-onlockgranted
+                - name: онселектиончанже
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchorsink-onselectionchange
+                - name: онстартедиттрансактион
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchorsink-onstartedittransaction
+                - name: онстатусчанже
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchorsink-onstatuschange
+                - name: онтекстчанже
+                  href: /windows/desktop/api/Textstor/nf-textstor-itextstoreanchorsink-ontextchange
+            - name: итфактивелангуажепрофиленотифисинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfactivelanguageprofilenotifysink
+              items:
+                - name: OnActivated
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfactivelanguageprofilenotifysink-onactivated
+            - name: итфкандидателист
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itfcandidatelist
+              items:
+                - name: енумкандидатес
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfcandidatelist-enumcandidates
+                - name: Кандидат
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfcandidatelist-getcandidate
+                - name: жеткандидатенум
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfcandidatelist-getcandidatenum
+                - name: сетресулт
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfcandidatelist-setresult
+            - name: итфкандидателистуиелемент
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcandidatelistuielement
+              items:
+                - name: жетупдатедфлагс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielement-getupdatedflags
+                - name: жетдокументмгр
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielement-getdocumentmgr
+                - name: GetCount
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielement-getcount
+                - name: Выборка
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielement-getselection
+                - name: GetString
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielement-getstring
+                - name: жетпажеиндекс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielement-getpageindex
+                - name: сетпажеиндекс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielement-setpageindex
+                - name: жеткуррентпаже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielement-getcurrentpage
+            - name: итфкандидателистуиелементбехавиор
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcandidatelistuielementbehavior
+              items:
+                - name: сетселектион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielementbehavior-setselection
+                - name: Завершение
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielementbehavior-finalize
+                - name: Прервать
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielementbehavior-abort
+            - name: итфкандидатестринг
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itfcandidatestring
+              items:
+                - name: GetIndex
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfcandidatestring-getindex
+                - name: GetString
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfcandidatestring-getstring
+            - name: итфкатегоримгр
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcategorymgr
+              items:
+                - name: енумкатегориесинитем
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-enumcategoriesinitem
+                - name: енумитемсинкатегори
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-enumitemsincategory
+                - name: финдклосесткатегори
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-findclosestcategory
+                - name: GetGUID
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-getguid
+                - name: жетгуиддескриптион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-getguiddescription
+                - name: жетгуиддворд
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-getguiddword
+                - name: исекуалтфгуидатом
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-isequaltfguidatom
+                - name: регистеркатегори
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-registercategory
+                - name: регистергуид
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-registerguid
+                - name: регистергуиддескриптион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-registerguiddescription
+                - name: регистергуиддворд
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-registerguiddword
+                - name: унрегистеркатегори
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-unregistercategory
+                - name: унрегистергуиддескриптион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-unregisterguiddescription
+                - name: унрегистергуиддворд
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-unregisterguiddword
+            - name: итфклеанупконтекстдуратионсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcleanupcontextdurationsink
+              items:
+                - name: онендклеанупконтекст
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcleanupcontextdurationsink-onendcleanupcontext
+                - name: онстартклеанупконтекст
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcleanupcontextdurationsink-onstartcleanupcontext
+            - name: итфклеанупконтекстсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcleanupcontextsink
+              items:
+                - name: онклеанупконтекст
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcleanupcontextsink-oncleanupcontext
+            - name: итфклиентид
+              href: /windows/desktop/api/Msctf/nn-msctf-itfclientid
+              items:
+                - name: ClientId
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfclientid-getclientid
+            - name: итфкомпартмент
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcompartment
+              items:
+                - name: GetValue
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcompartment-getvalue
+                - name: SetValue
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcompartment-setvalue
+            - name: итфкомпартментевентсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcompartmenteventsink
+              items:
+                - name: OnChange
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcompartmenteventsink-onchange
+            - name: итфкомпартментмгр
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcompartmentmgr
+              items:
+                - name: клеаркомпартмент
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcompartmentmgr-clearcompartment
+                - name: енумкомпартментс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcompartmentmgr-enumcompartments
+                - name: Подсекция
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcompartmentmgr-getcompartment
+            - name: итфкомпоситион
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcomposition
+              items:
+                - name: ендкомпоситион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcomposition-endcomposition
+                - name: GetRange
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcomposition-getrange
+                - name: шифтенд
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcomposition-shiftend
+                - name: шифтстарт
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcomposition-shiftstart
+            - name: итфкомпоситионсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcompositionsink
+              items:
+                - name: онкомпоситионтерминатед
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcompositionsink-oncompositionterminated
+            - name: итфкомпоситионвиев
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcompositionview
+              items:
+                - name: жетовнерклсид
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcompositionview-getownerclsid
+                - name: GetRange
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcompositionview-getrange
+            - name: итфконфигуресистемкэйстрокефид
+              href: /windows/desktop/api/Msctf/nn-msctf-itfconfiguresystemkeystrokefeed
+              items:
+                - name: дисаблесистемкэйстрокефид
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfconfiguresystemkeystrokefeed-disablesystemkeystrokefeed
+                - name: енаблесистемкэйстрокефид
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfconfiguresystemkeystrokefeed-enablesystemkeystrokefeed
+            - name: ITfContext
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcontext
+              items:
+                - name: креатеранжебаккуп
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-createrangebackup
+                - name: EnumProperties
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-enumproperties
+                - name: енумвиевс
+                  href: itfcontext-enumviews.md
+                - name: жетактивевиев
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-getactiveview
+                - name: жетапппроперти
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-getappproperty
+                - name: жетдокументмгр
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-getdocumentmgr
+                - name: жетенд
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-getend
+                - name: GetProperty
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-getproperty
+                - name: Выборка
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-getselection
+                - name: При запуске
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-getstart
+                - name: GetStatus
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-getstatus
+                - name: инвритесессион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-inwritesession
+                - name: рекуестедитсессион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-requesteditsession
+                - name: сетселектион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-setselection
+                - name: траккпропертиес
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontext-trackproperties
+            - name: итфконтексткомпоситион
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcontextcomposition
+              items:
+                - name: енумкомпоситионс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextcomposition-enumcompositions
+                - name: финдкомпоситион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextcomposition-findcomposition
+                - name: старткомпоситион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextcomposition-startcomposition
+                - name: TakeOwnership
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextcomposition-takeownership
+            - name: итфконтексткэйевентсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcontextkeyeventsink
+              items:
+                - name: OnKeyDown
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextkeyeventsink-onkeydown
+                - name: OnKeyUp
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextkeyeventsink-onkeyup
+                - name: онтесткэйдовн
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextkeyeventsink-ontestkeydown
+                - name: онтесткэйуп
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextkeyeventsink-ontestkeyup
+            - name: итфконтекстовнер
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcontextowner
+              items:
+                - name: жетакпфромпоинт
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextowner-getacpfrompoint
+                - name: GetAttribute
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextowner-getattribute
+                - name: жетскринекст
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextowner-getscreenext
+                - name: GetStatus
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextowner-getstatus
+                - name: жеттекстекст
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextowner-gettextext
+                - name: жетвнд
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextowner-getwnd
+            - name: итфконтекстовнеркомпоситионсервицес
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcontextownercompositionservices
+              items:
+                - name: терминатекомпоситион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownercompositionservices-terminatecomposition
+            - name: итфконтекстовнеркомпоситионсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcontextownercompositionsink
+              items:
+                - name: онендкомпоситион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition
+                - name: онстарткомпоситион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownercompositionsink-onstartcomposition
+                - name: онупдатекомпоситион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownercompositionsink-onupdatecomposition
+            - name: итфконтекстовнерсервицес
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcontextownerservices
+              items:
+                - name: креатеранже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownerservices-createrange
+                - name: форцелоадпроперти
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownerservices-forceloadproperty
+                - name: онаттрибутечанже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownerservices-onattributechange
+                - name: онлайаутчанже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownerservices-onlayoutchange
+                - name: онстатусчанже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownerservices-onstatuschange
+                - name: Сериализация
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownerservices-serialize
+                - name: Выполнить десериализацию
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextownerservices-unserialize
+            - name: итфконтекстрендерингмаркуп
+              href: itfcontextrenderingmarkup.md
+              items:
+                - name: жетрендерингмаркуп
+                  href: itfcontextrenderingmarkup-getrenderingmarkup.md
+                - name: финднекстрендерингмаркуп
+                  href: itfcontextrenderingmarkup-findnextrenderingmarkup.md
+            - name: итфконтекствиев
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcontextview
+              items:
+                - name: жетранжефромпоинт
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextview-getrangefrompoint
+                - name: жетскринекст
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextview-getscreenext
+                - name: жеттекстекст
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextview-gettextext
+                - name: жетвнд
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcontextview-getwnd
+            - name: итфкреатепропертисторе
+              href: /windows/desktop/api/Msctf/nn-msctf-itfcreatepropertystore
+              items:
+                - name: креатепропертисторе
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcreatepropertystore-createpropertystore
+                - name: иссторесериализабле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfcreatepropertystore-isstoreserializable
+            - name: итфдисплайаттрибутеинфо
+              href: /windows/desktop/api/Msctf/nn-msctf-itfdisplayattributeinfo
+              items:
+                - name: жетаттрибутеинфо
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributeinfo-getattributeinfo
+                - name: GetDescription
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributeinfo-getdescription
+                - name: GetGUID
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributeinfo-getguid
+                - name: Reset
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributeinfo-reset
+                - name: сетаттрибутеинфо
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributeinfo-setattributeinfo
+            - name: итфдисплайаттрибутемгр
+              href: /windows/desktop/api/Msctf/nn-msctf-itfdisplayattributemgr
+              items:
+                - name: енумдисплайаттрибутеинфо
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributemgr-enumdisplayattributeinfo
+                - name: жетдисплайаттрибутеинфо
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo
+                - name: онупдатеинфо
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributemgr-onupdateinfo
+            - name: итфдисплайаттрибутенотифисинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfdisplayattributenotifysink
+              items:
+                - name: онупдатеинфо
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributenotifysink-onupdateinfo
+            - name: итфдисплайаттрибутепровидер
+              href: /windows/desktop/api/Msctf/nn-msctf-itfdisplayattributeprovider
+              items:
+                - name: енумдисплайаттрибутеинфо
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributeprovider-enumdisplayattributeinfo
+                - name: жетдисплайаттрибутеинфо
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdisplayattributeprovider-getdisplayattributeinfo
+            - name: ITfDocumentMgr
+              href: /windows/desktop/api/Msctf/nn-msctf-itfdocumentmgr
+              items:
+                - name: CreateContext
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdocumentmgr-createcontext
+                - name: енумконтекстс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdocumentmgr-enumcontexts
+                - name: GetBase
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdocumentmgr-getbase
+                - name: GetTop
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdocumentmgr-gettop
+                - name: Pop
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdocumentmgr-pop
+                - name: push
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfdocumentmgr-push
+            - name: итфедитрекорд
+              href: /windows/desktop/api/Msctf/nn-msctf-itfeditrecord
+              items:
+                - name: жетселектионстатус
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfeditrecord-getselectionstatus
+                - name: жеттекстандпропертюпдатес
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfeditrecord-gettextandpropertyupdates
+            - name: итфедитсессион
+              href: /windows/desktop/api/Msctf/nn-msctf-itfeditsession
+              items:
+                - name: доедитсессион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfeditsession-doeditsession
+            - name: итфедиттрансактионсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfedittransactionsink
+              items:
+                - name: онендедиттрансактион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfedittransactionsink-onendedittransaction
+                - name: онстартедиттрансактион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfedittransactionsink-onstartedittransaction
+            - name: итффнадвисетекст
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnadvisetext
+              items:
+                - name: онлаттицеупдате
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnadvisetext-onlatticeupdate
+                - name: онтекступдате
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnadvisetext-ontextupdate
+            - name: итффнбаллун
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnballoon
+              items:
+                - name: упдатебаллун
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnballoon-updateballoon
+            - name: итффнконфигуре
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnconfigure
+              items:
+                - name: Показать
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnconfigure-show
+            - name: итффнконфигуререгистереудк
+              href: /windows/desktop/api/ctffunc/nn-ctffunc-itffnconfigureregistereudc
+              items:
+                - name: Показать
+                  href: /windows/desktop/api/ctffunc/nf-ctffunc-itffnconfigureregistereudc-show
+            - name: итффнконфигуререгистерворд
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnconfigureregisterword
+              items:
+                - name: Показать
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnconfigureregisterword-show
+            - name: итффнжетлингуистикалтернатес
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffngetlinguisticalternates
+              items:
+                - name: Метод Alternate
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffngetlinguisticalternates-getalternates
+            - name: итффнжетпреферредтаучкэйбоардлайаут
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffngetpreferredtouchkeyboardlayout
+              items:
+                - name: Метод метода компоновки
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffngetpreferredtouchkeyboardlayout-getlayout
+            - name: итффнжетсапиобжект
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffngetsapiobject
+              items:
+                - name: Получить
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffngetsapiobject-get
+            - name: итффнлангпрофилеутил
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnlangprofileutil
+              items:
+                - name: испрофилеаваилаблефорланг
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnlangprofileutil-isprofileavailableforlang
+                - name: регистерактивепрофилес
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnlangprofileutil-registeractiveprofiles
+            - name: итффнлминтернал
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnlminternal
+              items:
+                - name: процесслаттице
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnlminternal-processlattice
+            - name: итффнлмпроцессор
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnlmprocessor
+              items:
+                - name: жетреконверсион
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnlmprocessor-getreconversion
+                - name: инвокефунк
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnlmprocessor-invokefunc
+                - name: инвокекэй
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnlmprocessor-invokekey
+                - name: QueryKey
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnlmprocessor-querykey
+                - name: куерилангид
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnlmprocessor-querylangid
+                - name: куериранже
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnlmprocessor-queryrange
+                - name: Повторно преобразовать
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnlmprocessor-reconvert
+            - name: итффнплайбакк
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnplayback
+              items:
+                - name: Воспроизведение
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnplayback-play
+                - name: куериранже
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnplayback-queryrange
+            - name: итффнпропертюистатус
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnpropertyuistatus
+              items:
+                - name: GetStatus
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnpropertyuistatus-getstatus
+                - name: SetStatus
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnpropertyuistatus-setstatus
+            - name: итффнреконверсион
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnreconversion
+              items:
+                - name: жетреконверсион
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnreconversion-getreconversion
+                - name: куериранже
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnreconversion-queryrange
+                - name: Повторно преобразовать
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnreconversion-reconvert
+            - name: итффнсеарчкандидатепровидер
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnsearchcandidateprovider
+              items:
+                - name: Метод Жетсеарчкандидатес
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnsearchcandidateprovider-getsearchcandidates
+                - name: Метод Сетресулт
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnsearchcandidateprovider-setresult
+            - name: итффншовхелп
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itffnshowhelp
+              items:
+                - name: Показать
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itffnshowhelp-show
+            - name: итффунктион
+              href: /windows/desktop/api/Msctf/nn-msctf-itffunction
+              items:
+                - name: Переdisplayname
+                  href: /windows/desktop/api/Msctf/nf-msctf-itffunction-getdisplayname
+            - name: итффунктионпровидер
+              href: /windows/desktop/api/Msctf/nn-msctf-itffunctionprovider
+              items:
+                - name: GetDescription
+                  href: /windows/desktop/api/Msctf/nf-msctf-itffunctionprovider-getdescription
+                - name: GetFunction
+                  href: /windows/desktop/api/Msctf/nf-msctf-itffunctionprovider-getfunction
+                - name: GetType
+                  href: /windows/desktop/api/Msctf/nf-msctf-itffunctionprovider-gettype
+            - name: итфтекстинпутпроцессорекс
+              href: /windows/desktop/api/Msctf/nn-msctf-itftextinputprocessorex
+              items:
+                - name: активатикс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itftextinputprocessorex-activateex
+            - name: итфинпутпроцессорпрофилес
+              href: /windows/desktop/api/Msctf/nn-msctf-itfinputprocessorprofiles
+              items:
+                - name: активателангуажепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-activatelanguageprofile
+                - name: аддлангуажепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile
+                - name: чанжекуррентлангуаже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-changecurrentlanguage
+                - name: енаблелангуажепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-enablelanguageprofile
+                - name: енаблелангуажепрофилебидефаулт
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-enablelanguageprofilebydefault
+                - name: енуминпутпроцессоринфо
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-enuminputprocessorinfo
+                - name: енумлангуажепрофилес
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-enumlanguageprofiles
+                - name: жетактивелангуажепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-getactivelanguageprofile
+                - name: жеткуррентлангуаже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-getcurrentlanguage
+                - name: жетдефаултлангуажепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-getdefaultlanguageprofile
+                - name: жетлангуажелист
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-getlanguagelist
+                - name: жетлангуажепрофиледескриптион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-getlanguageprofiledescription
+                - name: исенабледлангуажепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-isenabledlanguageprofile
+                - name: Регистрация
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-register
+                - name: ремовелангуажепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-removelanguageprofile
+                - name: сетдефаултлангуажепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-setdefaultlanguageprofile
+                - name: субститутекэйбоардлайаут
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-substitutekeyboardlayout
+                - name: 'Unregister; '
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-unregister
+            - name: итфинпутпроцессорпрофилеактиватионсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfinputprocessorprofileactivationsink
+              items:
+                - name: OnActivated
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofileactivationsink-onactivated
+            - name: итфинпутпроцессорпрофилемгр
+              href: /windows/desktop/api/Msctf/nn-msctf-itfinputprocessorprofilemgr
+              items:
+                - name: активатепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofilemgr-activateprofile
+                - name: деактиватепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofilemgr-deactivateprofile
+                - name: Профилирование
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofilemgr-getprofile
+                - name: енумпрофилес
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofilemgr-enumprofiles
+                - name: релеасеинпутпроцессор
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofilemgr-releaseinputprocessor
+                - name: регистерпрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofilemgr-registerprofile
+                - name: унрегистерпрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofilemgr-unregisterprofile
+                - name: жетактивепрофиле
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofilemgr-getactiveprofile
+            - name: итфинпутпроцессорпрофилесекс
+              href: /windows/desktop/api/Msctf/nn-msctf-itfinputprocessorprofilesex
+              items:
+                - name: сетлангуажепрофиледисплайнаме
+                  href: /windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilesex-setlanguageprofiledisplayname
+            - name: итфинпутпроцессорпрофилесубститутелайаут
+              href: /windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilesubstitutelayout
+              items:
+                - name: жетсубститутекэйбоардлайаут
+                  href: /windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilesubstitutelayout-getsubstitutekeyboardlayout
+            - name: итфинпутскопе
+              href: /windows/desktop/api/InputScope/nn-inputscope-itfinputscope
+              items:
+                - name: жетинпутскопе
+                  href: /windows/desktop/api/InputScope/nf-inputscope-itfinputscope-getinputscopes
+                - name: Фраза
+                  href: /windows/desktop/api/InputScope/nf-inputscope-itfinputscope-getphrase
+                - name: жетрегуларекспрессион
+                  href: /windows/desktop/api/InputScope/nf-inputscope-itfinputscope-getregularexpression
+                - name: SRGS
+                  href: /windows/desktop/api/InputScope/nf-inputscope-itfinputscope-getsrgs
+                - name: GetXML
+                  href: /windows/desktop/api/InputScope/nf-inputscope-itfinputscope-getxml
+            - name: ITfInputScope2
+              href: /windows/desktop/api/InputScope/nn-inputscope-itfinputscope2
+              items:
+                - name: енумвордлист
+                  href: /windows/desktop/api/InputScope/nf-inputscope-itfinputscope2-enumwordlist
+            - name: итфинсертатселектион
+              href: /windows/desktop/api/Msctf/nn-msctf-itfinsertatselection
+              items:
+                - name: инсертембеддедатселектион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinsertatselection-insertembeddedatselection
+                - name: инсерттекстатселектион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfinsertatselection-inserttextatselection
+            - name: итфинтегратаблекандидателистуиелемент
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itfintegratablecandidatelistuielement
+              items:
+                - name: Метод Финализиксакткомпоситионстринг
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-finalizeexactcompositionstring
+                - name: Метод Жетселектионстиле
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-getselectionstyle
+                - name: Метод OnKeyDown
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-onkeydown
+                - name: Метод Сетинтегратионстиле
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-setintegrationstyle
+                - name: Метод Шовкандидатенумберс
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-showcandidatenumbers
+            - name: итфкэйевентсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfkeyeventsink
+              items:
+                - name: OnKeyDown
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeyeventsink-onkeydown
+                - name: OnKeyUp
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeyeventsink-onkeyup
+                - name: онпресерведкэй
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeyeventsink-onpreservedkey
+                - name: OnSetFocus
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeyeventsink-onsetfocus
+                - name: онтесткэйдовн
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeyeventsink-ontestkeydown
+                - name: онтесткэйуп
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeyeventsink-ontestkeyup
+            - name: итфкэйстрокемгр
+              href: /windows/desktop/api/Msctf/nn-msctf-itfkeystrokemgr
+              items:
+                - name: адвисекэйевентсинк
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink
+                - name: Перепередний план
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-getforeground
+                - name: жетпресерведкэй
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-getpreservedkey
+                - name: жетпресерведкэйдескриптион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-getpreservedkeydescription
+                - name: испресерведкэй
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-ispreservedkey
+                - name: KeyDown
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-keydown
+                - name: KeyUp
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-keyup
+                - name: пресервекэй
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-preservekey
+                - name: сетпресерведкэйдескриптион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-setpreservedkeydescription
+                - name: симулатепресерведкэй
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-simulatepreservedkey
+                - name: тесткэйдовн
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-testkeydown
+                - name: тесткэйуп
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-testkeyup
+                - name: унадвисекэйевентсинк
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-unadvisekeyeventsink
+                - name: унпресервекэй
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeystrokemgr-unpreservekey
+            - name: итфкэйтрацеевентсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfkeytraceeventsink
+              items:
+                - name: онкэйтрацедовн
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeytraceeventsink-onkeytracedown
+                - name: онкэйтрацеуп
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfkeytraceeventsink-onkeytraceup
+            - name: итфлангбаревентсинк
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itflangbareventsink
+              items:
+                - name: жетитемфлоатингрект
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbareventsink-getitemfloatingrect
+                - name: онмодалинпут
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbareventsink-onmodalinput
+                - name: OnSetFocus
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbareventsink-onsetfocus
+                - name: онсреадитемчанже
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbareventsink-onthreaditemchange
+                - name: онсреадтерминате
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbareventsink-onthreadterminate
+                - name: шовфлоатинг
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbareventsink-showfloating
+            - name: итфлангбаритем
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itflangbaritem
+              items:
+                - name: GetInfo
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritem-getinfo
+                - name: GetStatus
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritem-getstatus
+                - name: жеттултипстринг
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritem-gettooltipstring
+                - name: Показать
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritem-show
+            - name: итфлангбаритембаллун
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itflangbaritemballoon
+              items:
+                - name: жетбаллунинфо
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemballoon-getballooninfo
+                - name: жетпреферредсизе
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemballoon-getpreferredsize
+                - name: OnClick
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemballoon-onclick
+            - name: итфлангбаритембитмап
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itflangbaritembitmap
+              items:
+                - name: дравбитмап
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembitmap-drawbitmap
+                - name: жетпреферредсизе
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembitmap-getpreferredsize
+                - name: OnClick
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembitmap-onclick
+            - name: итфлангбаритембитмапбуттон
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itflangbaritembitmapbutton
+              items:
+                - name: дравбитмап
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembitmapbutton-drawbitmap
+                - name: жетпреферредсизе
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembitmapbutton-getpreferredsize
+                - name: GetText
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembitmapbutton-gettext
+                - name: инитмену
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembitmapbutton-initmenu
+                - name: OnClick
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembitmapbutton-onclick
+                - name: онменуселект
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembitmapbutton-onmenuselect
+            - name: итфлангбаритембуттон
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itflangbaritembutton
+              items:
+                - name: Значок
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembutton-geticon
+                - name: GetText
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembutton-gettext
+                - name: инитмену
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembutton-initmenu
+                - name: OnClick
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembutton-onclick
+                - name: онменуселект
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembutton-onmenuselect
+            - name: итфлангбаритеммгр
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itflangbaritemmgr
+              items:
+                - name: AddItem
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-additem
+                - name: адвисеитемсинк
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemsink
+                - name: адвисеитемссинк
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemssink
+                - name: енумитемс
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-enumitems
+                - name: GetItem
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-getitem
+                - name: жетитемфлоатингрект
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-getitemfloatingrect
+                - name: жетитемнум
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-getitemnum
+                - name: GetItems
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-getitems
+                - name: жетитемсстатус
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-getitemsstatus
+                - name: RemoveItem
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-removeitem
+                - name: унадвисеитемсинк
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-unadviseitemsink
+                - name: унадвисеитемссинк
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-unadviseitemssink
+            - name: итфлангбаритемсинк
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itflangbaritemsink
+              items:
+                - name: OnUpdate
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemsink-onupdate
+            - name: итфлангбармгр
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itflangbarmgr
+              items:
+                - name: адвисивентсинк
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink
+                - name: жетинпутпроцессорпрофилес
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbarmgr-getinputprocessorprofiles
+                - name: жетшовфлоатингстатус
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbarmgr-getshowfloatingstatus
+                - name: жетсреадлангбаритеммгр
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbarmgr-getthreadlangbaritemmgr
+                - name: жетсреадмаршалинтерфаце
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbarmgr-getthreadmarshalinterface
+                - name: рестореластфокус
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbarmgr-restorelastfocus
+                - name: сетмодалинпут
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbarmgr-setmodalinput
+                - name: шовфлоатинг
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbarmgr-showfloating
+                - name: унадвисивентсинк
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itflangbarmgr-unadviseeventsink
+            - name: итфлангуажепрофиленотифисинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itflanguageprofilenotifysink
+              items:
+                - name: онлангуажечанже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itflanguageprofilenotifysink-onlanguagechange
+                - name: онлангуажечанжед
+                  href: /windows/desktop/api/Msctf/nf-msctf-itflanguageprofilenotifysink-onlanguagechanged
+            - name: итфлмлаттице
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-itflmlattice
+              items:
+                - name: енумлаттицеелементс
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-enumlatticeelements
+                - name: QueryType
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-itflmlattice-querytype
+            - name: итфмену
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itfmenu
+              items:
+                - name: аддменуитем
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itfmenu-addmenuitem
+            - name: итфмессажепумп
+              href: /windows/desktop/api/Msctf/nn-msctf-itfmessagepump
+              items:
+                - name: Сообщение а
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfmessagepump-getmessagea
+                - name: жетмессажев
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfmessagepump-getmessagew
+                - name: пикмессажеа
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfmessagepump-peekmessagea
+                - name: пикмессажев
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfmessagepump-peekmessagew
+            - name: итфмаусесинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfmousesink
+              items:
+                - name: онмаусивент
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfmousesink-onmouseevent
+            - name: итфмаусетраккер
+              href: /windows/desktop/api/Msctf/nn-msctf-itfmousetracker
+              items:
+                - name: адвисемаусесинк
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfmousetracker-advisemousesink
+                - name: унадвисемаусесинк
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfmousetracker-unadvisemousesink
+            - name: итфмаусетраккеракп
+              href: /windows/desktop/api/Msctf/nn-msctf-itfmousetrackeracp
+              items:
+                - name: адвисемаусесинк
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfmousetrackeracp-advisemousesink
+                - name: унадвисемаусесинк
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfmousetrackeracp-unadvisemousesink
+            - name: итфмсааконтрол
+              href: /windows/desktop/api/MSAAText/nn-msaatext-itfmsaacontrol
+              items:
+                - name: системдисаблемсаа
+                  href: /windows/desktop/api/MSAAText/nf-msaatext-itfmsaacontrol-systemdisablemsaa
+                - name: системенаблемсаа
+                  href: /windows/desktop/api/MSAAText/nf-msaatext-itfmsaacontrol-systemenablemsaa
+            - name: итфперсистентпропертилоадеракп
+              href: /windows/desktop/api/Msctf/nn-msctf-itfpersistentpropertyloaderacp
+              items:
+                - name: LoadProperty
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpersistentpropertyloaderacp-loadproperty
+            - name: итфпресерведкэйнотифисинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfpreservedkeynotifysink
+              items:
+                - name: Обновление
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpreservedkeynotifysink-onupdated
+            - name: итфпроперти
+              href: /windows/desktop/api/Msctf/nn-msctf-itfproperty
+              items:
+                - name: Clear
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfproperty-clear
+                - name: финдранже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfproperty-findrange
+                - name: SetValue
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfproperty-setvalue
+                - name: сетвалуесторе
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfproperty-setvaluestore
+            - name: итфпропертисторе
+              href: /windows/desktop/api/Msctf/nn-msctf-itfpropertystore
+              items:
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpropertystore-clone
+                - name: Divide
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpropertystore-divide
+                - name: GetData
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpropertystore-getdata
+                - name: Тип данных
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpropertystore-getdatatype
+                - name: жетпропертиранжекреатор
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpropertystore-getpropertyrangecreator
+                - name: GetType
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpropertystore-gettype
+                - name: онтекступдатед
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpropertystore-ontextupdated
+                - name: Сериализация
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpropertystore-serialize
+                - name: Сжать
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfpropertystore-shrink
+            - name: итфкуерембеддед
+              href: /windows/desktop/api/Msctf/nn-msctf-itfqueryembedded
+              items:
+                - name: куеринсертембеддед
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfqueryembedded-queryinsertembedded
+            - name: итфранже
+              href: /windows/desktop/api/Msctf/nn-msctf-itfrange
+              items:
+                - name: аджустфоринсерт
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-adjustforinsert
+                - name: Клонировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-clone
+                - name: Свернуть
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-collapse
+                - name: компаринд
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-compareend
+                - name: компарестарт
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-comparestart
+                - name: GetContext
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-getcontext
+                - name: Внедрение
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-getembedded
+                - name: жетформаттедтекст
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-getformattedtext
+                - name: Сила притяжения
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-getgravity
+                - name: GetText
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-gettext
+                - name: инсертембеддед
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-insertembedded
+                - name: IsEmpty
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-isempty
+                - name: исекуаленд
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-isequalend
+                - name: исекуалстарт
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-isequalstart
+                - name: сетгравити
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-setgravity
+                - name: SetText
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-settext
+                - name: шифтенд
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-shiftend
+                - name: шифтендрегион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-shiftendregion
+                - name: шифтендторанже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-shiftendtorange
+                - name: шифтстарт
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-shiftstart
+                - name: шифтстартрегион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-shiftstartregion
+                - name: шифтстартторанже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrange-shiftstarttorange
+            - name: итфранжеакп
+              href: /windows/desktop/api/Msctf/nn-msctf-itfrangeacp
+              items:
+                - name: Расширение
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrangeacp-getextent
+                - name: сетекстент
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrangeacp-setextent
+            - name: итфранжебаккуп
+              href: /windows/desktop/api/Msctf/nn-msctf-itfrangebackup
+              items:
+                - name: Восстановить
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfrangebackup-restore
+            - name: итфреадингинформатионуиелемент
+              href: /windows/desktop/api/Msctf/nn-msctf-itfreadinginformationuielement
+              items:
+                - name: жетупдатедфлагс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreadinginformationuielement-getupdatedflags
+                - name: GetContext
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreadinginformationuielement-getcontext
+                - name: GetString
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreadinginformationuielement-getstring
+                - name: жетмаксреадингстрингленгс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreadinginformationuielement-getmaxreadingstringlength
+                - name: жетеррориндекс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreadinginformationuielement-geterrorindex
+                - name: исвертикалордерпреферред
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreadinginformationuielement-isverticalorderpreferred
+            - name: итфреадонлипроперти
+              href: /windows/desktop/api/Msctf/nn-msctf-itfreadonlyproperty
+              items:
+                - name: енумранжес
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreadonlyproperty-enumranges
+                - name: GetContext
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreadonlyproperty-getcontext
+                - name: GetType
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreadonlyproperty-gettype
+                - name: GetValue
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreadonlyproperty-getvalue
+            - name: итфреверсеконверсион
+              href: /windows/desktop/api/Msctf/nn-msctf-itfreverseconversion
+              items:
+                - name: Метод Дореверсеконверсион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreverseconversion-doreverseconversion
+            - name: итфреверсеконверсионлист
+              href: /windows/desktop/api/Msctf/nn-msctf-itfreverseconversionlist
+              items:
+                - name: Метод GetLength
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreverseconversionlist-getlength
+                - name: Метод GetString
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreverseconversionlist-getstring
+            - name: итфреверсеконверсионмгр
+              href: /windows/desktop/api/Msctf/nn-msctf-itfreverseconversionmgr
+              items:
+                - name: Метод Жетреверсеконверсион
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfreverseconversionmgr-getreverseconversion
+            - name: итфсаурце
+              href: /windows/desktop/api/Msctf/nn-msctf-itfsource
+              items:
+                - name: AdviseSink
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfsource-advisesink
+                - name: унадвисесинк
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfsource-unadvisesink
+            - name: итфсаурцесингле
+              href: /windows/desktop/api/Msctf/nn-msctf-itfsourcesingle
+              items:
+                - name: адвисесинглесинк
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfsourcesingle-advisesinglesink
+                - name: унадвисесинглесинк
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfsourcesingle-unadvisesinglesink
+            - name: итфспичуисервер
+              href: /windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver
+              items:
+                - name: Инициализация
+                  href: /windows/desktop/api/ctfspui/nf-ctfspui-itfspeechuiserver-initialize
+                - name: Параметра showUI задано
+                  href: /windows/desktop/api/ctfspui/nf-ctfspui-itfspeechuiserver-showui
+                - name: упдатебаллун
+                  href: /windows/desktop/api/ctfspui/nf-ctfspui-itfspeechuiserver-updateballoon
+            - name: итфстатуссинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfstatussink
+              items:
+                - name: онстатусчанже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfstatussink-onstatuschange
+            - name: итфсистемдевицетипелангбаритем
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itfsystemdevicetypelangbaritem
+              items:
+                - name: жетиконмоде
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itfsystemdevicetypelangbaritem-geticonmode
+                - name: сетиконмоде
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itfsystemdevicetypelangbaritem-seticonmode
+            - name: итфсистемлангбаритем
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itfsystemlangbaritem
+              items:
+                - name: сетикон
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itfsystemlangbaritem-seticon
+                - name: сеттултипстринг
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itfsystemlangbaritem-settooltipstring
+            - name: итфсистемлангбаритемтекст
+              href: /windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemtext
+              items:
+                - name: сетитемтекст
+                  href: /windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemtext-setitemtext
+                - name: жетитемтекст
+                  href: /windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemtext-getitemtext
+            - name: итфсистемлангбаритемсинк
+              href: /windows/desktop/api/Ctfutb/nn-ctfutb-itfsystemlangbaritemsink
+              items:
+                - name: инитмену
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itfsystemlangbaritemsink-initmenu
+                - name: онменуселект
+                  href: /windows/desktop/api/Ctfutb/nf-ctfutb-itfsystemlangbaritemsink-onmenuselect
+            - name: итфтекстедитсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itftexteditsink
+              items:
+                - name: онендедит
+                  href: /windows/desktop/api/Msctf/nf-msctf-itftexteditsink-onendedit
+            - name: итфтекстинпутпроцессор
+              href: /windows/desktop/api/Msctf/nn-msctf-itftextinputprocessor
+              items:
+                - name: Активировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate
+                - name: Отключение
+                  href: /windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-deactivate
+            - name: итфтекстлайаутсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itftextlayoutsink
+              items:
+                - name: онлайаутчанже
+                  href: /windows/desktop/api/Msctf/nf-msctf-itftextlayoutsink-onlayoutchange
+            - name: итфсреадфокуссинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfthreadfocussink
+              items:
+                - name: онкиллсреадфокус
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadfocussink-onkillthreadfocus
+                - name: онсетсреадфокус
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadfocussink-onsetthreadfocus
+            - name: ITfThreadMgr
+              href: /windows/desktop/api/Msctf/nn-msctf-itfthreadmgr
+              items:
+                - name: Активировать
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-activate
+                - name: ассоЦиатефокус
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-associatefocus
+                - name: креатедокументмгр
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-createdocumentmgr
+                - name: Отключение
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-deactivate
+                - name: енумдокументмгрс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-enumdocumentmgrs
+                - name: енумфунктионпровидерс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-enumfunctionproviders
+                - name: Фокус ввода
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-getfocus
+                - name: жетфунктионпровидер
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-getfunctionprovider
+                - name: жетглобалкомпартмент
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-getglobalcompartment
+                - name: иссреадфокус
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-isthreadfocus
+                - name: SetFocus
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgr-setfocus
+            - name: ITfThreadMgr2
+              href: /windows/desktop/api/msctf/nn-msctf-itfthreadmgr2
+              items:
+                - name: Activate - метод
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-activate
+                - name: Метод Активатикс
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-activateex
+                - name: Метод Креатедокументмгр
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-createdocumentmgr
+                - name: Deactivate - метод
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-deactivate
+                - name: Метод Енумдокументмгрс
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-enumdocumentmgrs
+                - name: Метод Енумфунктионпровидерс
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-enumfunctionproviders
+                - name: Метод Жетактивефлагс
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getactiveflags
+                - name: Метод Focus
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getfocus
+                - name: Метод Жетфунктионпровидер
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getfunctionprovider
+                - name: Метод Жетглобалкомпартмент
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getglobalcompartment
+                - name: Метод Иссреадфокус
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-isthreadfocus
+                - name: Метод Ресумекэйстрокехандлинг
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-resumekeystrokehandling
+                - name: 'SetFocus, метод'
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-setfocus
+                - name: Метод Суспендкэйстрокехандлинг
+                  href: /windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-suspendkeystrokehandling
+            - name: итфсреадмгревентсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfthreadmgreventsink
+              items:
+                - name: онинитдокументмгр
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgreventsink-oninitdocumentmgr
+                - name: онпопконтекст
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgreventsink-onpopcontext
+                - name: онпушконтекст
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgreventsink-onpushcontext
+                - name: OnSetFocus
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgreventsink-onsetfocus
+                - name: онунинитдокументмгр
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgreventsink-onuninitdocumentmgr
+            - name: итфсреадмгрекс
+              href: /windows/desktop/api/Msctf/nn-msctf-itfthreadmgrex
+              items:
+                - name: активатикс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgrex-activateex
+                - name: жетактивефлагс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfthreadmgrex-getactiveflags
+            - name: итфтултипуиелемент
+              href: /windows/desktop/api/Msctf/nn-msctf-itftooltipuielement
+              items:
+                - name: GetString
+                  href: /windows/desktop/api/Msctf/nf-msctf-itftooltipuielement-getstring
+            - name: итфтранситорекстенсионсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itftransitoryextensionsink
+              items:
+                - name: онтранситорекстенсионупдатед
+                  href: /windows/desktop/api/Msctf/nf-msctf-itftransitoryextensionsink-ontransitoryextensionupdated
+            - name: итфтранситорекстенсионуиелемент
+              href: /windows/desktop/api/Msctf/nn-msctf-itftransitoryextensionuielement
+              items:
+                - name: жетдокументмгр
+                  href: /windows/desktop/api/Msctf/nf-msctf-itftransitoryextensionuielement-getdocumentmgr
+            - name: итфуиелемент
+              href: /windows/desktop/api/Msctf/nn-msctf-itfuielement
+              items:
+                - name: GetDescription
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielement-getdescription
+                - name: GetGUID
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielement-getguid
+                - name: Показать
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielement-show
+                - name: Отображается
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielement-isshown
+            - name: итфуиелементмгр
+              href: /windows/desktop/api/Msctf/nn-msctf-itfuielementmgr
+              items:
+                - name: бегинуиелемент
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielementmgr-beginuielement
+                - name: упдатеуиелемент
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielementmgr-updateuielement
+                - name: ендуиелемент
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielementmgr-enduielement
+                - name: UIElement
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielementmgr-getuielement
+                - name: енумуиелементс
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielementmgr-enumuielements
+            - name: итфуиелементсинк
+              href: /windows/desktop/api/Msctf/nn-msctf-itfuielementsink
+              items:
+                - name: бегинуиелемент
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielementsink-beginuielement
+                - name: упдатеуиелемент
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielementsink-updateuielement
+                - name: ендуиелемент
+                  href: /windows/desktop/api/Msctf/nf-msctf-itfuielementsink-enduielement
+            - name: иуиманажеревентсинк
+              href: /windows/desktop/api/Ctffunc/nn-ctffunc-iuimanagereventsink
+              items:
+                - name: Метод Онвиндовклосед
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-iuimanagereventsink-onwindowclosed
+                - name: Метод Онвиндовклосинг
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-iuimanagereventsink-onwindowclosing
+                - name: Метод Онвиндовопенед
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-iuimanagereventsink-onwindowopened
+                - name: Метод Онвиндовопенинг
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-iuimanagereventsink-onwindowopening
+                - name: Метод Онвиндовупдатед
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-iuimanagereventsink-onwindowupdated
+                - name: Метод Онвиндовупдатинг
+                  href: /windows/desktop/api/Ctffunc/nf-ctffunc-iuimanagereventsink-onwindowupdating
+        - name: Функции TSF
+          href: text-services-framework-functions.md
+          items:
+            - name: енуменабледлайаутортип
+              href: enumenabledlayoutortip.md
+            - name: енумлайаутортипфорсетуп
+              href: enumlayoutortipforsetup.md
+            - name: инсталллайаутортип
+              href: installlayoutortip.md
+            - name: инсталллайаутортипусеррег
+              href: installlayoutortipuserreg.md
+            - name: инитлокалмсктфмонитор
+              href: /windows/desktop/api/MsCtfMonitorApi/nf-msctfmonitorapi-initlocalmsctfmonitor
+            - name: мсимтфисвиндовфилтеред
+              href: msimtfiswindowfiltered.md
+            - name: куерилайаутортипстринг
+              href: querylayoutortipstring.md
+            - name: куерилайаутортипстрингусеррег
+              href: querylayoutortipstringuserreg.md
+            - name: саведефаултусеринпутсеттингс
+              href: savedefaultuserinputsettings.md
+            - name: савесистемакктинпутсеттингс
+              href: savesystemacctinputsettings.md
+            - name: сетдефаултлайаутортип
+              href: setdefaultlayoutortip.md
+            - name: сетдефаултлайаутортипусеррег
+              href: setdefaultlayoutortipuserreg.md
+            - name: сетинпутскопе
+              href: /windows/desktop/api/InputScope/nf-inputscope-setinputscope
+            - name: сетинпутскопес
+              href: /windows/desktop/api/InputScope/nf-inputscope-setinputscopes
+            - name: SetInputScopes2
+              href: /windows/desktop/api/InputScope/nf-inputscope-setinputscopes2
+            - name: сетинпутскопексмл
+              href: /windows/desktop/api/InputScope/nf-inputscope-setinputscopexml
+            - name: TF_CreateCategoryMgr
+              href: /windows/desktop/api/Msctf/nf-msctf-tf_createcategorymgr
+            - name: TF_CreateDisplayAttributeMgr
+              href: /windows/desktop/api/Msctf/nf-msctf-tf_createdisplayattributemgr
+            - name: TF_CreateInputProcessorProfiles
+              href: /windows/desktop/api/Msctf/nf-msctf-tf_createinputprocessorprofiles
+            - name: TF_CreateLangBarItemMgr
+              href: /windows/desktop/api/Msctf/nf-msctf-tf_createlangbaritemmgr
+            - name: TF_CreateLangBarMgr
+              href: /windows/desktop/api/Msctf/nf-msctf-tf_createlangbarmgr
+            - name: TF_CreateThreadMgr
+              href: /windows/desktop/api/Msctf/nf-msctf-tf_createthreadmgr
+            - name: TF_GetThreadMgr
+              href: /windows/desktop/api/Msctf/nf-msctf-tf_getthreadmgr
+            - name: TF_InvalidAssemblyListCacheIfExist
+              href: tf-invalidassemblylistcacheifexist.md
+            - name: унинитлокалмсктфмонитор
+              href: /windows/desktop/api/MsCtfMonitorApi/nf-msctfmonitorapi-uninitlocalmsctfmonitor
+        - name: Структуры TSF
+          href: text-services-framework-structures.md
+          items:
+            - name: TF_DA_COLOR
+              href: /windows/desktop/api/Msctf/ns-msctf-tf_da_color
+            - name: TF_DISPLAYATTRIBUTE
+              href: /windows/desktop/api/Msctf/ns-msctf-tf_displayattribute
+            - name: TF_HALTCOND
+              href: /windows/desktop/api/Msctf/ns-msctf-tf_haltcond
+            - name: TF_INPUTPROCESSORPROFILE
+              href: /windows/desktop/api/Msctf/ns-msctf-tf_inputprocessorprofile
+            - name: TF_LANGBARITEMINFO
+              href: /windows/desktop/api/Ctfutb/ns-ctfutb-tf_langbariteminfo
+            - name: TF_LANGUAGEPROFILE
+              href: /windows/desktop/api/Msctf/ns-msctf-tf_languageprofile
+            - name: TF_LBBALLOONINFO
+              href: /windows/desktop/api/Ctfutb/ns-ctfutb-tf_lbballooninfo
+            - name: TF_LMLATTELEMENT
+              href: /windows/desktop/api/Ctffunc/ns-ctffunc-tf_lmlattelement
+            - name: TF_PERSISTENT_PROPERTY_HEADER_ACP
+              href: /windows/desktop/api/Msctf/ns-msctf-tf_persistent_property_header_acp
+            - name: TF_PRESERVEDKEY
+              href: /windows/desktop/api/Msctf/ns-msctf-tf_preservedkey
+            - name: TF_PROPERTYVAL
+              href: /windows/desktop/api/Msctf/ns-msctf-tf_propertyval
+            - name: TF_RENDERINGMARKUP
+              href: tf-renderingmarkup.md
+            - name: TF_SELECTION
+              href: /windows/desktop/api/Msctf/ns-msctf-tf_selection
+            - name: TF_SELECTIONSTYLE
+              href: /windows/desktop/api/Msctf/ns-msctf-tf_selectionstyle
+            - name: TF_STATUS
+              href: /windows/win32/api/textstor/ns-textstor-ts_status
+            - name: TS_ATTRVAL
+              href: /windows/desktop/api/Textstor/ns-textstor-ts_attrval
+            - name: TS_RUNINFO
+              href: /windows/desktop/api/Textstor/ns-textstor-ts_runinfo
+            - name: TS_SELECTION_ACP
+              href: /windows/desktop/api/Textstor/ns-textstor-ts_selection_acp
+            - name: TS_SELECTION_ANCHOR
+              href: /windows/desktop/api/Textstor/ns-textstor-ts_selection_anchor
+            - name: TS_SELECTIONSTYLE
+              href: /windows/desktop/api/Textstor/ns-textstor-ts_selectionstyle
+            - name: TS_STATUS
+              href: /windows/desktop/api/Textstor/ns-textstor-ts_status
+            - name: TS_TEXTCHANGE
+              href: /windows/desktop/api/Textstor/ns-textstor-ts_textchange
+        - name: Перечисления TSF
+          href: text-services-framework-enumerations.md
+          items:
+            - name: 'COLORTYPE '
+              href: colortype.md
+            - name: InputScope
+              href: /windows/win32/api/InputScope/ne-inputscope-inputscope
+            - name: TF_DA_ATTR_INFO
+              href: /windows/win32/api/Msctf/ne-msctf-tf_da_attr_info
+            - name: TF_DA_COLORTYPE
+              href: /windows/win32/api/Msctf/ne-msctf-tf_da_colortype
+            - name: TF_DA_LINESTYLE
+              href: /windows/win32/api/Msctf/ne-msctf-tf_da_linestyle
+            - name: тфактивеселенд
+              href: /windows/win32/api/Msctf/ne-msctf-tfactiveselend
+            - name: тфанчор
+              href: /windows/win32/api/Msctf/ne-msctf-tfanchor
+            - name: тфкандидатересулт
+              href: /windows/win32/api/Ctffunc/ne-ctffunc-tfcandidateresult
+            - name: тфгравити
+              href: /windows/win32/api/Msctf/ne-msctf-tfgravity
+            - name: тфинтегратаблекандидателистселектионстиле
+              href: /windows/win32/api/ctffunc/ne-ctffunc-tfintegratablecandidatelistselectionstyle
+            - name: тфлайауткоде
+              href: /windows/win32/api/Msctf/ne-msctf-tflayoutcode
+            - name: тфлббаллунстиле
+              href: /windows/win32/api/Ctfutb/ne-ctfutb-tflbballoonstyle
+            - name: тфлбикликк
+              href: /windows/win32/api/Ctfutb/ne-ctfutb-tflbiclick
+            - name: тфсапиобжект
+              href: /windows/win32/api/Ctffunc/ne-ctffunc-tfsapiobject
+            - name: тфшифтдир
+              href: /windows/win32/api/Msctf/ne-msctf-tfshiftdir
+            - name: TITLEBAR_TYPE
+              href: titlebar-type.md
+            - name: ткблайауттипе
+              href: /windows/win32/api/Ctffunc/ne-ctffunc-tkblayouttype
+            - name: тсактивеселенд
+              href: /windows/win32/api/Textstor/ne-textstor-tsactiveselend
+            - name: тсгравити
+              href: /windows/win32/api/Textstor/ne-textstor-tsgravity
+            - name: тслайауткоде
+              href: /windows/win32/api/Textstor/ne-textstor-tslayoutcode
+            - name: тсрунтипе
+              href: /windows/win32/api/Textstor/ne-textstor-tsruntype
+            - name: тсшифтдир
+              href: /windows/win32/api/Textstor/ne-textstor-tsshiftdir
+            - name: типемоде
+              href: typemode.md
+        - name: Типы данных TSF
+          href: text-services-framework-data-types.md
+          items:
+            - name: тфклиентид
+              href: tfclientid.md
+            - name: тфедиткукие
+              href: tfeditcookie.md
+            - name: тфгуидатом
+              href: tfguidatom.md
+            - name: TS_ATTRID
+              href: ts-attrid.md
+            - name: тсвиевкукие
+              href: tsviewcookie.md
+        - name: Константы TSF
+          href: text-services-framework-constants.md
+          items:
+            - name: Константы службы текстового ввода TSF
+              href: tsf-text-service-constants.md
+              items:
+                - name: Типы Lattice
+                  href: lattice-types.md
+                - name: Различные константы службы текстового ввода TSF
+                  href: miscellaneous-tsf-text-service-constants.md
+                - name: Стандартные значения категорий
+                  href: predefined-category-values.md
+                - name: Стандартные секции
+                  href: predefined-compartments.md
+                - name: Стандартные атрибуты шрифтов
+                  href: predefined-font-attributes.md
+                - name: Стандартные атрибуты списка
+                  href: predefined-list-attributes.md
+                - name: Стандартные атрибуты текста
+                  href: predefined-text-attributes.md
+                - name: Другие предопределенные атрибуты
+                  href: other-predefined-attributes.md
+                - name: Константы распознавания речи
+                  href: speech-recognition-constants.md
+                - name: Флаги для режима преобразования
+                  href: flags-for-conversion-mode.md
+                - name: Значения для GUID_COMPARTMENT_TRANSITORYEXTENSION
+                  href: values-for-guid-compartment-transitoryextension.md
+            - name: Константы языковой панели
+              href: language-bar-constants.md
+              items:
+                - name: Стандартные элементы языковой панели
+                  href: predefined-lang-bar-items.md
+                - name: Различные константы языковой панели
+                  href: miscellaneous-language-bar-constants.md
+                - name: Константы TF_FLOATINGLANGBAR_ *
+                  href: tf-floatinglangbar--constants.md
+                - name: Константы TF_LBI_ *
+                  href: tf-lbi--constants.md
+                - name: Константы TF_LBI_STATUS_ *
+                  href: tf-lbi-status--constants.md
+                - name: Константы TF_LBI_STYLE_ *
+                  href: tf-lbi-style--constants.md
+                - name: Константы TF_LBMENUF_ *
+                  href: tf-lbmenuf--constants.md
+                - name: Константы TF_SFT_ *
+                  href: tf-sft--constants.md
+            - name: Константы платформы
+              href: framework-constants.md
+              items:
+                - name: Различные константы платформы
+                  href: miscellaneous-framework-constants.md
+                - name: Значения смещения режима
+                  href: mode-bias-values.md
+                - name: Предопределенные свойства
+                  href: predefined-properties.md
+                - name: Константы TF_ *
+                  href: tf--constants.md
+                - name: Константы TF_ES_ *
+                  href: tf-es--constants.md
+                - name: Константы TF_IAS_ *
+                  href: tf-ias--constants.md
+                - name: Константы TF_MOD_ *
+                  href: tf-mod--constants.md
+                - name: Константы TF_SD_ *
+                  href: tf-sd--constants.md
+                - name: Константы TF_SS_ *
+                  href: tf-ss--constants.md
+                - name: Константы TF_TF_ *
+                  href: tf-tf--constants.md
+            - name: Константы хранилища текста
+              href: text-store-constants.md
+              items:
+                - name: Константы GXFPF_ *
+                  href: gxfpf--constants.md
+                - name: Прочие константы хранилища текста
+                  href: miscellaneous-text-store-constants.md
+                - name: Константы TS_AS_ *
+                  href: ts-as--constants.md
+                - name: Константы TS_ATTR_ *
+                  href: ts-attr--constants.md
+                - name: Константы TS_CH_ *
+                  href: ts-ch--constants.md
+                - name: Константы TS_CHAR_ *
+                  href: ts-char--constants.md
+                - name: Константы TS_IAS_ *
+                  href: ts-ias--constants.md
+                - name: Константы TS_IE_ *
+                  href: ts-ie--constants.md
+                - name: Константы TS_LF_ *
+                  href: ts-lf--constants.md
+                - name: Константы TS_SD_ *
+                  href: ts-sd--constants.md
+                - name: Константы TS_SHIFT_ *
+                  href: ts-shift--constants.md
+                - name: Константы TS_SS_ *
+                  href: ts-ss--constants.md
+        - name: Возвращаемые значения TSF
+          href: text-services-framework-return-values.md
+          items:
+            - name: Возвращаемые значения службы текстового ввода
+              href: text-service-return-values.md
+            - name: Возвращаемые значения диспетчера
+              href: manager-return-values.md
+            - name: Возвращаемые значения хранилища текста
+              href: text-store-return-values.md
+        - name: Прототипы
+          href: prototypes.md
+    - name: Глоссарий
+      href: glossary.md
+      items:
+        - name: Объект
+          href: a.md
+        - name: B
+          href: b.md
+        - name: C
+          href: c.md
+        - name: D
+          href: d.md
+        - name: E
+          href: e.md
+        - name: C
+          href: f.md
+        - name: G
+          href: g.md
+        - name: H
+          href: h.md
+        - name: I
+          href: i.md
+        - name: J
+          href: j.md
+        - name: K
+          href: k.md
+        - name: L
+          href: l.md
+        - name: M
+          href: m.md
+        - name: Нет
+          href: n.md
+        - name: O
+          href: o.md
+        - name: P
+          href: p.md
+        - name: Q
+          href: q.md
+        - name: R
+          href: r.md
+        - name: S
+          href: s.md
+        - name: T
+          href: t.md
+        - name: U
+          href: u.md
+        - name: V
+          href: v.md
+        - name: W
+          href: w.md
+        - name: X
+          href: x.md
+        - name: Да
+          href: y.md
+        - name: Z
+          href: z.md

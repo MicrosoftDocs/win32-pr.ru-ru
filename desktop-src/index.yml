@@ -1,0 +1,95 @@
+### YamlMime:Landing
+title: Создание настольных приложений Windows с помощью API Win32
+summary: Узнайте, как создавать классические приложения для компьютеров с Windows с помощью C++ и API Win32.
+metadata:
+  author: mcleanbyron
+  description: Узнайте, как создавать классические приложения для компьютеров с Windows с помощью C++ и API Win32.
+  manager: jken
+  ms.author: mcleans
+  ms.date: 09/15/2019
+  ms.topic: landing-page
+  ms.openlocfilehash: 99090d109a717c1008a11e6a9c9e6cf7a31f2b7c
+  ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 08/19/2020
+  ms.locfileid: "104069842"
+landingContent:
+- title: Начало работы
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Настройка компьютера
+      url: /windows/desktop/desktop-programming
+  - linkListType: tutorial
+    links:
+    - text: Создание первого приложения с помощью Win32 и C++
+      url: ./learnwin32/learn-to-program-for-windows.md
+  - linkListType: download
+    links:
+    - text: Инструменты разработки
+      url: https://developer.microsoft.com/windows/downloads
+    - text: Примеры кода Windows
+      url: https://developer.microsoft.com/windows/samples
+- title: Разработка
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Функции и технологии Windows
+      url: desktop-app-technologies.md
+    - text: Приложения модернизировать для Windows 10
+      url: /windows/apps/desktop/modernize
+  - linkListType: reference
+    links:
+    - text: Справочник по API Win32 по компонентам
+      url: ./apiindex/windows-api-list.md
+    - text: Справочник по API Win32 по заголовку
+      url: /windows/win32/api/
+- title: Ресурсы и сообщество
+  linkLists:
+  - linkListType: download
+    links:
+    - text: Виртуальные машины Windows
+      url: https://developer.microsoft.com/windows/downloads/virtual-machines
+  - linkListType: overview
+    links:
+    - text: Программа для разработчиков классических приложений для Windows
+      url: /windows/desktop/appxpkg/windows-desktop-application-program
+    - text: Обеспечение совместимости с Windows 10
+      url: https://developer.microsoft.com/windows/desktop/app-compatibility
+    - text: Поддержка разработчиков для Windows
+      url: https://developer.microsoft.com/windows/support
+    - text: '@WindowsDocs в Twitter'
+      url: https://developer.microsoft.com/games
+    - text: OneDevMinute на YouTube
+      url: https://aka.ms/OneDevMinute
+- title: Связанная документация
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Выбор платформы для настольных ПК
+      url: /windows/apps/desktop/choose-your-platform
+    - text: C++/WinRT
+      url: /windows/uwp/cpp-and-winrt-apis/
+    - text: Упаковка и развертывание с использованием MSIX
+      url: /windows/msix/desktop/desktop-to-uwp-root
+    - text: UWP
+      url: /windows/uwp/
+    - text: .NET
+      url: //docs.microsoft.com/dotnet/
+    - text: Архив с документацией по Windows 8.x и более ранних версий
+      url: /previous-versions/windows/
+- title: Связанные технологии
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ИИ Windows
+      url: /windows/ai/
+    - text: Windows IoT
+      url: /windows/iot-core/
+    - text: Windows Mixed Reality
+      url: /windows/mixed-reality/
+    - text: Контейнеры Windows
+      url: /virtualization/#pivot=main&panel=containers
+    - text: Игры
+      url: https://developer.microsoft.com/games

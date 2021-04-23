@@ -1,0 +1,32 @@
+- name: Рекомендации по использованию API безопасности
+  href: best-practices-for-the-security-apis.md
+  items:
+    - name: Запуск с особыми привилегиями
+      href: running-with-special-privileges.md
+      items:
+        - name: Запуск с правами администратора
+          href: running-with-administrator-privileges.md
+        - name: Запрос учетных данных для пользователя
+          href: asking-the-user-for-credentials.md
+        - name: Изменение привилегий в токене
+          href: changing-privileges-in-a-token.md
+        - name: Назначение привилегий учетной записи
+          href: assigning-privileges-to-an-account.md
+    - name: Предотвращение переполнения буфера
+      href: avoiding-buffer-overruns.md
+    - name: Защита потока управления
+      href: control-flow-guard.md
+      items:
+        - name: Метаданные PE
+          href: pe-metadata.md
+    - name: Создание списка DACL
+      href: creating-a-dacl.md
+    - name: Обработка паролей
+      href: handling-passwords.md
+      items:
+        - name: Оценка угроз паролей
+          href: password-threat-assessment.md
+        - name: Методы устранения угроз
+          href: threat-mitigation-techniques.md
+    - name: Оптимизация поиска в библиотеке MSDN
+      href: how-to-optimize-your-msdn-library-search.md

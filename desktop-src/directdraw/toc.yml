@@ -1,0 +1,262 @@
+- name: Произведен
+  href: directdraw.md
+  items:
+    - name: Справочник по DirectDraw
+      href: directdraw-reference.md
+      items:
+        - name: Интерфейсы DirectDraw
+          href: directdraw-interfaces.md
+          items:
+            - name: IDirectDraw7
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdraw7
+              items:
+                - name: Метод Compact
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-compact
+                - name: Метод Креатеклиппер
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-createclipper
+                - name: Метод Креатепалетте
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-createpalette
+                - name: Метод Креатесурфаце
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-createsurface
+                - name: Метод Дупликатесурфаце
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-duplicatesurface
+                - name: Метод Енумдисплаймодес
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes
+                - name: Метод Енумсурфацес
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-enumsurfaces
+                - name: Метод Евалуатемоде
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-evaluatemode
+                - name: Метод Флиптогдисурфаце
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-fliptogdisurface
+                - name: Метод Жетаваилаблевидмем
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getavailablevidmem
+                - name: Метод Caps
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getcaps
+                - name: Метод Жетдевицеидентифиер
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getdeviceidentifier
+                - name: Метод Жетдисплаймоде
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getdisplaymode
+                - name: Метод Жетфауркккодес
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getfourcccodes
+                - name: Метод Жетгдисурфаце
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getgdisurface
+                - name: Метод Жетмониторфрекуенци
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getmonitorfrequency
+                - name: Метод Жетсканлине
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getscanline
+                - name: Метод Жетсурфацефромдк
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getsurfacefromdc
+                - name: Метод Жетвертикалбланкстатус
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getverticalblankstatus
+                - name: Метод Initialize
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-initialize
+                - name: Метод Рестореаллсурфацес
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-restoreallsurfaces
+                - name: Метод Ресторедисплаймоде
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-restoredisplaymode
+                - name: Метод Сеткуперативелевел
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-setcooperativelevel
+                - name: Метод Сетдисплаймоде
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-setdisplaymode
+                - name: Метод Стартмодетест
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-startmodetest
+                - name: Метод Тесткуперативелевел
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-testcooperativelevel
+                - name: Метод Ваитфорвертикалбланк
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-waitforverticalblank
+            - name: идиректдравклиппер
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawclipper
+              items:
+                - name: Метод Жетклиплист
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-getcliplist
+                - name: Метод HWnd
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-gethwnd
+                - name: Метод Initialize
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-initialize
+                - name: Метод Исклиплистчанжед
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-iscliplistchanged
+                - name: Метод Сетклиплист
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-setcliplist
+                - name: Метод Сесвнд
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-sethwnd
+            - name: идиректдравколорконтрол
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawcolorcontrol
+              items:
+                - name: Метод Жетколорконтролс
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawcolorcontrol-getcolorcontrols
+                - name: Метод Сетколорконтролс
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawcolorcontrol-setcolorcontrols
+            - name: идиректдравгаммаконтрол
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawgammacontrol
+              items:
+                - name: Метод Жетгаммарамп
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawgammacontrol-getgammaramp
+                - name: Метод Сетгаммарамп
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp
+            - name: идиректдравпалетте
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawpalette
+              items:
+                - name: Метод Caps
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-getcaps
+                - name: Метод операции with
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-getentries
+                - name: Метод Initialize
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-initialize
+                - name: Метод Сетентриес
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-setentries
+            - name: IDirectDrawSurface7
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawsurface7
+              items:
+                - name: Метод Аддаттачедсурфаце
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-addattachedsurface
+                - name: Метод Аддоверлайдиртирект
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-addoverlaydirtyrect
+                - name: Метод БЛТ
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-blt
+                - name: Метод Блтбатч
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-bltbatch
+                - name: Метод Блтфаст
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-bltfast
+                - name: Метод Чанжеуникуенессвалуе
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-changeuniquenessvalue
+                - name: Метод Делетеаттачедсурфаце
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-deleteattachedsurface
+                - name: Метод Енуматтачедсурфацес
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-enumattachedsurfaces
+                - name: Метод Енумоверлайзордерс
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-enumoverlayzorders
+                - name: Метод отражения
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-flip
+                - name: Метод Фриприватедата
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-freeprivatedata
+                - name: Метод Жетаттачедсурфаце
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getattachedsurface
+                - name: Метод Жетблтстатус
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getbltstatus
+                - name: Метод Caps
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getcaps
+                - name: Метод Методаической отсечения
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getclipper
+                - name: Метод Жетколоркэй
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getcolorkey
+                - name: Метод GetDC
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getdc
+                - name: Метод Жетддинтерфаце
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getddinterface
+                - name: Метод Жетфлипстатус
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getflipstatus
+                - name: Метод Жетлод
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getlod
+                - name: Метод Жетоверлайпоситион
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getoverlayposition
+                - name: Метод Palette
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getpalette
+                - name: Метод Жетпикселформат
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getpixelformat
+                - name: Метод GetPriority
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getpriority
+                - name: Метод Жетприватедата
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getprivatedata
+                - name: Метод Жетсурфацедеск
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getsurfacedesc
+                - name: Метод Жетуникуенессвалуе
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getuniquenessvalue
+                - name: Метод Initialize
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-initialize
+                - name: Метод Lost
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-islost
+                - name: 'Lock, метод'
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-lock
+                - name: Метод Пажелокк
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-pagelock
+                - name: Метод Пажеунлокк
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-pageunlock
+                - name: Метод Релеаседк
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-releasedc
+                - name: Метод Restore
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-restore
+                - name: Метод Сетклиппер
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setclipper
+                - name: Метод Сетколоркэй
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setcolorkey
+                - name: Метод Сетлод
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setlod
+                - name: Метод Сетоверлайпоситион
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setoverlayposition
+                - name: Метод Сетпалетте
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setpalette
+                - name: Метод SetPriority
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setpriority
+                - name: Метод Сетприватедата
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setprivatedata
+                - name: Метод Сетсурфацедеск
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setsurfacedesc
+                - name: Метод Unlock
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-unlock
+                - name: Метод Упдатеоверлай
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay
+                - name: Метод Упдатеоверлайдисплай
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-updateoverlaydisplay
+                - name: Метод Упдатеоверлайзордер
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-updateoverlayzorder
+        - name: Функции DirectDraw
+          href: directdraw-functions.md
+          items:
+            - name: директдравкреате
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawcreate
+            - name: директдравкреатеклиппер
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawcreateclipper
+            - name: директдравкреатикс
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawcreateex
+            - name: директдравенумерате
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawenumeratew
+            - name: директдравенумератикс
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawenumerateexa
+        - name: Функции обратного вызова DirectDraw
+          href: directdraw-callback-functions.md
+          items:
+            - name: лпдденумкаллбакк
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumcallbacka
+            - name: лпдденумкаллбаккекс
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumcallbackexa
+            - name: лпдденуммодескаллбакк
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenummodescallback
+            - name: LPDDENUMMODESCALLBACK2
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenummodescallback2
+            - name: лпдденумсурфацескаллбакк
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback
+            - name: LPDDENUMSURFACESCALLBACK2
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback2
+            - name: LPDDENUMSURFACESCALLBACK7
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback7
+        - name: Структуры DirectDraw
+          href: directdraw-structures.md
+          items:
+            - name: ддблтбатч
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddbltbatch
+            - name: ддблтфкс
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddbltfx
+            - name: ддкапс
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddcaps_dx3
+            - name: ддколорконтрол
+              href: /previous-versions/windows/hardware/drivers/ff549237(v=vs.85)
+            - name: ддколоркэй
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddcolorkey
+            - name: DDDEVICEIDENTIFIER2
+              href: /windows/win32/api/Ddraw/ns-ddraw-dddeviceidentifier2
+            - name: ддгаммарамп
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddgammaramp
+            - name: ддоверлайфкс
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddoverlayfx
+            - name: ддпикселформат
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddpixelformat
+            - name: ддскапс
+              href: /previous-versions/windows/hardware/drivers/ff550286(v=vs.85)
+            - name: DDSCAPS2
+              href: /previous-versions/windows/hardware/drivers/ff550292(v=vs.85)
+            - name: ддсурфацедеск
+              href: /previous-versions/windows/hardware/drivers/ff550339(v=vs.85)
+            - name: DDSURFACEDESC2
+              href: /previous-versions/windows/hardware/drivers/ff550340(v=vs.85)
+        - name: Коды возврата DirectDraw
+          href: directdraw-return-codes.md

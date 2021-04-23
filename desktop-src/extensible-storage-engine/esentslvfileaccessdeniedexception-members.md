@@ -1,0 +1,171 @@
+---
+description: 'Дополнительные сведения о: Есентслвфилеакцессдениедексцептион Members'
+title: Элементы Есентслвфилеакцессдениедексцептион
+TOCTitle: EsentSLVFileAccessDeniedException members
+ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvfileaccessdeniedexception_members(v=EXCHG.10)
+ms:contentKeyID: 55102796
+ms.date: 07/30/2014
+ms.topic: article
+ms.openlocfilehash: 7233837fa900e1256d397b291d5feca01fe63192
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104559494"
+---
+# <a name="esentslvfileaccessdeniedexception-members"></a><span data-ttu-id="ca307-103">Элементы Есентслвфилеакцессдениедексцептион</span><span class="sxs-lookup"><span data-stu-id="ca307-103">EsentSLVFileAccessDeniedException members</span></span>
+
+<span data-ttu-id="ca307-104">Включить защищенные члены</span><span class="sxs-lookup"><span data-stu-id="ca307-104">Include protected members</span></span>  
+<span data-ttu-id="ca307-105">Включить унаследованные члены</span><span class="sxs-lookup"><span data-stu-id="ca307-105">Include inherited members</span></span>  
+
+<span data-ttu-id="ca307-106">Тип [есентслвфилеакцессдениедексцептион](./esentslvfileaccessdeniedexception-class.md) предоставляет следующие члены.</span><span class="sxs-lookup"><span data-stu-id="ca307-106">The [EsentSLVFileAccessDeniedException](./esentslvfileaccessdeniedexception-class.md) type exposes the following members.</span></span>
+
+## <a name="constructors"></a><span data-ttu-id="ca307-107">Конструкторы</span><span class="sxs-lookup"><span data-stu-id="ca307-107">Constructors</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th><span data-ttu-id="ca307-108">Имя</span><span class="sxs-lookup"><span data-stu-id="ca307-108">Name</span></span></th>
+<th><span data-ttu-id="ca307-109">Описание</span><span class="sxs-lookup"><span data-stu-id="ca307-109">Description</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Открытый метод" alt="Public method" /></td>
+<td><span data-ttu-id="ca307-111"><a href="dn350729(v=exchg.10).md">есентслвфилеакцессдениедексцептион</a></span><span class="sxs-lookup"><span data-stu-id="ca307-111"><a href="dn350729(v=exchg.10).md">EsentSLVFileAccessDeniedException</a></span></span></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<span data-ttu-id="ca307-112">Начало</span><span class="sxs-lookup"><span data-stu-id="ca307-112">Top</span></span>
+
+## <a name="properties"></a><span data-ttu-id="ca307-113">Свойства</span><span class="sxs-lookup"><span data-stu-id="ca307-113">Properties</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th><span data-ttu-id="ca307-114">Имя</span><span class="sxs-lookup"><span data-stu-id="ca307-114">Name</span></span></th>
+<th><span data-ttu-id="ca307-115">Описание</span><span class="sxs-lookup"><span data-stu-id="ca307-115">Description</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
+<td><span data-ttu-id="ca307-117"><a href="/dotnet/api/system.exception.data#System_Exception_Data">Data</a></span><span class="sxs-lookup"><span data-stu-id="ca307-117"><a href="/dotnet/api/system.exception.data#System_Exception_Data">Data</a></span></span></td>
+<td><span data-ttu-id="ca307-118">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-118">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
+<td><span data-ttu-id="ca307-120"><a href="dn274313(v=exchg.10).md">Ошибка</a></span><span class="sxs-lookup"><span data-stu-id="ca307-120"><a href="dn274313(v=exchg.10).md">Error</a></span></span></td>
+<td><span data-ttu-id="ca307-121">Возвращает основную ошибку ESENT для этого исключения.</span><span class="sxs-lookup"><span data-stu-id="ca307-121">Gets the underlying Esent error for this exception.</span></span> <span data-ttu-id="ca307-122">(Наследуется от <a href="dn274314(v=exchg.10).md">есентеррорексцептион</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-122">(Inherited from <a href="dn274314(v=exchg.10).md">EsentErrorException</a>.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
+<td><span data-ttu-id="ca307-124"><a href="/dotnet/api/system.exception.helplink#System_Exception_HelpLink">HelpLink</a></span><span class="sxs-lookup"><span data-stu-id="ca307-124"><a href="/dotnet/api/system.exception.helplink#System_Exception_HelpLink">HelpLink</a></span></span></td>
+<td><span data-ttu-id="ca307-125">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-125">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Защищенное свойство" alt="Protected property" /></td>
+<td><span data-ttu-id="ca307-127"><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Состав</a></span><span class="sxs-lookup"><span data-stu-id="ca307-127"><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></span></span></td>
+<td><span data-ttu-id="ca307-128">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-128">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
+<td><span data-ttu-id="ca307-130"><a href="/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a></span><span class="sxs-lookup"><span data-stu-id="ca307-130"><a href="/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a></span></span></td>
+<td><span data-ttu-id="ca307-131">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-131">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
+<td><span data-ttu-id="ca307-133"><a href="/dotnet/api/system.exception.message#System_Exception_Message">Message</a></span><span class="sxs-lookup"><span data-stu-id="ca307-133"><a href="/dotnet/api/system.exception.message#System_Exception_Message">Message</a></span></span></td>
+<td><span data-ttu-id="ca307-134">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-134">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
+<td><span data-ttu-id="ca307-136"><a href="/dotnet/api/system.exception.source#System_Exception_Source">Источник</a></span><span class="sxs-lookup"><span data-stu-id="ca307-136"><a href="/dotnet/api/system.exception.source#System_Exception_Source">Source</a></span></span></td>
+<td><span data-ttu-id="ca307-137">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-137">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
+<td><span data-ttu-id="ca307-139"><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></span><span class="sxs-lookup"><span data-stu-id="ca307-139"><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></span></span></td>
+<td><span data-ttu-id="ca307-140">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-140">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Открытое свойство" alt="Public property" /></td>
+<td><span data-ttu-id="ca307-142"><a href="/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">TargetSite</a></span><span class="sxs-lookup"><span data-stu-id="ca307-142"><a href="/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">TargetSite</a></span></span></td>
+<td><span data-ttu-id="ca307-143">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-143">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+</tbody>
+</table>
+
+
+<span data-ttu-id="ca307-144">Начало</span><span class="sxs-lookup"><span data-stu-id="ca307-144">Top</span></span>
+
+## <a name="methods"></a><span data-ttu-id="ca307-145">Методы</span><span class="sxs-lookup"><span data-stu-id="ca307-145">Methods</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th><span data-ttu-id="ca307-146">Имя</span><span class="sxs-lookup"><span data-stu-id="ca307-146">Name</span></span></th>
+<th><span data-ttu-id="ca307-147">Описание</span><span class="sxs-lookup"><span data-stu-id="ca307-147">Description</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Открытый метод" alt="Public method" /></td>
+<td><span data-ttu-id="ca307-149"><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Равно</a></span><span class="sxs-lookup"><span data-stu-id="ca307-149"><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals</a></span></span></td>
+<td><span data-ttu-id="ca307-150">(Наследуется от <a href="/dotnet/api/system.object">Object</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-150">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Защищенный метод" alt="Protected method" /></td>
+<td><span data-ttu-id="ca307-152"><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></span><span class="sxs-lookup"><span data-stu-id="ca307-152"><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></span></span></td>
+<td><span data-ttu-id="ca307-153">(Наследуется от <a href="/dotnet/api/system.object">Object</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-153">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Открытый метод" alt="Public method" /></td>
+<td><span data-ttu-id="ca307-155"><a href="/dotnet/api/system.exception.getbaseexception#System_Exception_GetBaseException">жетбасиксцептион</a></span><span class="sxs-lookup"><span data-stu-id="ca307-155"><a href="/dotnet/api/system.exception.getbaseexception#System_Exception_GetBaseException">GetBaseException</a></span></span></td>
+<td><span data-ttu-id="ca307-156">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-156">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Открытый метод" alt="Public method" /></td>
+<td><span data-ttu-id="ca307-158"><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></span><span class="sxs-lookup"><span data-stu-id="ca307-158"><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></span></span></td>
+<td><span data-ttu-id="ca307-159">(Наследуется от <a href="/dotnet/api/system.object">Object</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-159">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Открытый метод" alt="Public method" /></td>
+<td><span data-ttu-id="ca307-161"><a href="dn334369(v=exchg.10).md">GetObjectData</a></span><span class="sxs-lookup"><span data-stu-id="ca307-161"><a href="dn334369(v=exchg.10).md">GetObjectData</a></span></span></td>
+<td><span data-ttu-id="ca307-162">При переопределении в производном классе задает объект <a href="/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a> с информацией об исключении.</span><span class="sxs-lookup"><span data-stu-id="ca307-162">When overridden in a derived class, sets the <a href="/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a> with information about the exception.</span></span> <span data-ttu-id="ca307-163">(Наследуется от <a href="dn274314(v=exchg.10).md">есентеррорексцептион</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-163">(Inherited from <a href="dn274314(v=exchg.10).md">EsentErrorException</a>.)</span></span></td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Открытый метод" alt="Public method" /></td>
+<td><span data-ttu-id="ca307-165"><a href="/dotnet/api/system.exception.gettype#System_Exception_GetType">GetType</a></span><span class="sxs-lookup"><span data-stu-id="ca307-165"><a href="/dotnet/api/system.exception.gettype#System_Exception_GetType">GetType</a></span></span></td>
+<td><span data-ttu-id="ca307-166">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-166">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Защищенный метод" alt="Protected method" /></td>
+<td><span data-ttu-id="ca307-168"><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">мембервисеклоне</a></span><span class="sxs-lookup"><span data-stu-id="ca307-168"><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></span></span></td>
+<td><span data-ttu-id="ca307-169">(Наследуется от <a href="/dotnet/api/system.object">Object</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-169">(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</span></span></td>
+</tr>
+<tr class="even">
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Открытый метод" alt="Public method" /></td>
+<td><span data-ttu-id="ca307-171"><a href="/dotnet/api/system.exception.tostring#System_Exception_ToString">ToString</a></span><span class="sxs-lookup"><span data-stu-id="ca307-171"><a href="/dotnet/api/system.exception.tostring#System_Exception_ToString">ToString</a></span></span></td>
+<td><span data-ttu-id="ca307-172">(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</span><span class="sxs-lookup"><span data-stu-id="ca307-172">(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</span></span></td>
+</tr>
+</tbody>
+</table>
+
+
+<span data-ttu-id="ca307-173">Начало</span><span class="sxs-lookup"><span data-stu-id="ca307-173">Top</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="ca307-174">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="ca307-174">See also</span></span>
+
+#### <a name="reference"></a><span data-ttu-id="ca307-175">Справочник</span><span class="sxs-lookup"><span data-stu-id="ca307-175">Reference</span></span>
+
+[<span data-ttu-id="ca307-176">Класс Есентслвфилеакцессдениедексцептион</span><span class="sxs-lookup"><span data-stu-id="ca307-176">EsentSLVFileAccessDeniedException class</span></span>](./esentslvfileaccessdeniedexception-class.md)
+
+[<span data-ttu-id="ca307-177">Пространство имен Microsoft. ISAM. ESENT. Interop</span><span class="sxs-lookup"><span data-stu-id="ca307-177">Microsoft.Isam.Esent.Interop namespace</span></span>](./microsoft.isam.esent.interop-namespace.md)

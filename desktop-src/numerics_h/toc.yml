@@ -1,0 +1,19 @@
+- name: API-интерфейсы виндовснумерикс. h
+  href: windowsnumerics-h-apis-portal.md
+  items:
+    - name: Структура float2
+      href: float2-structure.md
+    - name: Структура float3
+      href: float3-structure.md
+    - name: Структура float3x2
+      href: float3x2-structure.md
+    - name: Структура float4
+      href: float4-structure.md
+    - name: Структура float4x4
+      href: float4x4-structure.md
+    - name: Структура плоскости
+      href: plane-structure.md
+    - name: Структура кватерниона
+      href: quaternion-structure.md
+    - name: Функции numeric и Директксмас Interop API
+      href: windows-numerics-and-directxmath-interop-apis.md

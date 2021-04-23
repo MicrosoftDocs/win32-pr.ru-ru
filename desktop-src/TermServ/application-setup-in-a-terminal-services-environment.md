@@ -1,0 +1,29 @@
+---
+title: Настройка приложения
+description: Установка приложения для одного пользователя может привести к возникновению проблем в многопользовательской службы удаленных рабочих столов среде.
+ms.assetid: 3e60e95a-3580-48aa-a9f9-8fd899aa7fca
+ms.tgt_platform: multiple
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 58f3c53f2370f4123352489ac747546e3335c558
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104338681"
+---
+# <a name="application-setup"></a><span data-ttu-id="7b9dc-103">Настройка приложения</span><span class="sxs-lookup"><span data-stu-id="7b9dc-103">Application setup</span></span>
+
+<span data-ttu-id="7b9dc-104">Процедура автоматической установки для многих существующих приложений предполагает, что приложение устанавливается для одного пользователя.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-104">The automated setup procedure for many existing applications assumes that the application is being installed for a single user.</span></span> <span data-ttu-id="7b9dc-105">В многопользовательской службы удаленных рабочих столов среде это предположение может создавать следующие проблемы.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-105">In a multiuser Remote Desktop Services environment, this assumption can create the following problems:</span></span>
+
+-   <span data-ttu-id="7b9dc-106">Если процедура установки обновляет реестр и среду рабочего стола только для одного пользователя, дополнительные пользователи должны переустановить весь пакет или администратор должен вручную скопировать данные из реестра и рабочего стола одного пользователя в другие пользователи.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-106">If the setup procedure updates the registry and desktop environment for just one user, additional users must reinstall the entire package or an administrator must manually copy information from the registry and desktop of one user to the other users.</span></span>
+-   <span data-ttu-id="7b9dc-107">С помощью некоторых процедур установки можно настроить приложение во время установки, за исключением функций.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-107">With some setup procedures, you can customize the application at installation time by excluding features.</span></span> <span data-ttu-id="7b9dc-108">Если первоначальный установщик исключает часть приложения, дополнительные пользователи должны переустановить приложение, чтобы получить исключенные компоненты.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-108">If the initial installer excludes part of the application, additional users must reinstall the application to get the excluded features.</span></span>
+
+<span data-ttu-id="7b9dc-109">Чтобы избежать этих проблем, при установке приложения на сервере узла сеансов удаленный рабочий стол (удаленных рабочих столов) должны применяться следующие рекомендации.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-109">To avoid these problems, setup procedures should use the following guidelines when installing an application on a Remote Desktop Session Host (RD Session Host) server:</span></span>
+
+-   <span data-ttu-id="7b9dc-110">Установите приложения в среду пользователя по умолчанию, общую для всех пользователей.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-110">Install applications into the default user environment common to all users.</span></span> <span data-ttu-id="7b9dc-111">Перед установкой приложения выполните команду **change user/install** Console и после завершения установки выполните команду **change user/execute** Console.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-111">Before installing the application, execute the **change user /install** console command, and after installation is complete, execute the **change user /execute** console command.</span></span> <span data-ttu-id="7b9dc-112">Используйте скрипт совместимости службы удаленных рабочих столов для установки.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-112">Use a Remote Desktop Services compatibility script for the installation.</span></span>
+-   <span data-ttu-id="7b9dc-113">Поддержка пользовательской настройки с помощью профилей пользователей.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-113">Support user-specific customization through the use of user profiles.</span></span> <span data-ttu-id="7b9dc-114">Для этого создайте [файл административного шаблона](/previous-versions/windows/desktop/Policy/administrative-template-file-format) , чтобы администратор мог настроить реестр для указания функций, доступных каждому пользователю.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-114">To do this, create an [Administrative Template File Format](/previous-versions/windows/desktop/Policy/administrative-template-file-format) so an administrator can configure the registry to indicate the features available to each user.</span></span> <span data-ttu-id="7b9dc-115">Затем во время выполнения приложение может включать или отключать функции в зависимости от параметров в параметрах реестра текущего пользователя.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-115">Then, at run time, the application can enable or disable features depending on the settings in the current user's registry settings.</span></span> <span data-ttu-id="7b9dc-116">Приложение может сохранить конфигурацию каждого пользователя в кусте реестра **hKey Current User** и позволить каждому пользователю настраивать приложение в соответствии с их предпочтениями.</span><span class="sxs-lookup"><span data-stu-id="7b9dc-116">The application can store the per user configuration in the **HKEY CURRENT USER** registry hive and let every user configure the application according to their preferences.</span></span>
+
+ 
+
+ 

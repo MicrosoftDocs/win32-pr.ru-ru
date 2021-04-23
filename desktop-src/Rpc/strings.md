@@ -1,0 +1,31 @@
+---
+title: строковый атрибут (RPC)
+description: Атрибут \ String \ и удаленный вызов процедур (RPC).
+ms.assetid: 794e03f2-b1e9-42dc-8536-9ced5c0e3dad
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e413c0b3b8f5a379dc3448f07aed4a5a7a6aba07
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103987786"
+---
+# <a name="string-attribute-rpc"></a><span data-ttu-id="0b3ef-103">строковый атрибут (RPC)</span><span class="sxs-lookup"><span data-stu-id="0b3ef-103">string attribute (RPC)</span></span>
+
+<span data-ttu-id="0b3ef-104">Атрибут \[ [String](/windows/desktop/Midl/string) \] указывает, что параметр является указателем на массив типа [char](/windows/desktop/Midl/char-idl), [Byte](/windows/desktop/Midl/byte)или **w \_ char**.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-104">The \[ [string](/windows/desktop/Midl/string)\] attribute indicates that the parameter is a pointer to an array of type [char](/windows/desktop/Midl/char-idl), [byte](/windows/desktop/Midl/byte), or **w\_char**.</span></span> <span data-ttu-id="0b3ef-105">Как и в случае с согласованным массивом, размер параметра **\[ строки \]** определяется во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-105">As with a conformant array, the size of a **\[string\]** parameter is determined at run time.</span></span> <span data-ttu-id="0b3ef-106">В отличие от согласованного массива, разработчику не нужно указывать длину, связанную с массивом — атрибут **\[ \] String** указывает заглушке определить размер массива путем вызова **strlen**.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-106">Unlike a conformant array, the developer does not have to provide the length associated with the array—the **\[string\]** attribute tells the stub to determine the array size by calling **strlen**.</span></span> <span data-ttu-id="0b3ef-107">Невозможно одновременно использовать атрибут **\[ String \]** , так как \[ [Длина атрибута length \_](/windows/desktop/Midl/length-is) \] или \[ [Last \_ является](/windows/desktop/Midl/last-is) \] атрибутами.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-107">A **\[string\]** attribute cannot be used at the same time as the \[ [length\_is](/windows/desktop/Midl/length-is)\] or \[ [last\_is](/windows/desktop/Midl/last-is)\] attributes.</span></span>
+
+<span data-ttu-id="0b3ef-108">Сочетание атрибута **\[ in \]** указывает, что заглушка передает строку только от клиента на сервер.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-108">The **\[in, string\]** attribute combination directs the stub to pass the string from client to server only.</span></span> <span data-ttu-id="0b3ef-109">Объем памяти, выделенной на сервере, совпадает с размером передаваемого строки плюс один.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-109">The amount of memory allocated on the server is the same as the transmitted string size plus one.</span></span>
+
+<span data-ttu-id="0b3ef-110">\[ [Исходящие](/windows/desktop/Midl/out-idl)атрибуты **String** \] направляют заглушку для передачи строки с сервера на клиент.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-110">The \[ [out](/windows/desktop/Midl/out-idl), **string**\] attributes direct the stub to pass the string from server to client only.</span></span> <span data-ttu-id="0b3ef-111">Конструкция "вызов по значению" языка C настаивает на том, что все **\[ выходные \]** параметры должны быть указателями.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-111">The call-by-value design of the C language insists that all **\[out\]** parameters must be pointers.</span></span>
+
+<span data-ttu-id="0b3ef-112">**\[ Выходной \]** параметр должен быть указателем, и по умолчанию все параметры указателя являются ссылочными указателями.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-112">The **\[out\]** parameter must be a pointer and, by default, all pointer parameters are reference pointers.</span></span> <span data-ttu-id="0b3ef-113">Указатель ссылки не изменяется во время вызова — он указывает на ту же память, что и перед вызовом.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-113">The reference pointer does not change during the call—it points to the same memory as before the call.</span></span> <span data-ttu-id="0b3ef-114">Для указателей на строки дополнительное ограничение ссылочного указателя означает, что клиент должен выделить достаточный допустимый объем памяти перед выполнением удаленного вызова процедуры.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-114">For string pointers, the additional constraint of the reference pointer means the client must allocate sufficient valid memory before making the remote procedure call.</span></span> <span data-ttu-id="0b3ef-115">Заглушки передают строку, которая указывает, что **\[ строковые \]** атрибуты указывают на память, уже выделенную на стороне клиента.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-115">The stubs transmit the string that the **\[out, string\]** attributes indicate into the memory already allocated on the client side.</span></span>
+
+<span data-ttu-id="0b3ef-116">В следующих разделах описываются прототипы параметров удаленной процедуры для строк.</span><span class="sxs-lookup"><span data-stu-id="0b3ef-116">The following topics describe the remote procedure parameter prototypes for strings:</span></span>
+
+-   <span data-ttu-id="0b3ef-117">[\[в, out, строковый \] прототип](-in-out-string-prototype.md)</span><span class="sxs-lookup"><span data-stu-id="0b3ef-117">[\[in, out, string\] Prototype](-in-out-string-prototype.md)</span></span>
+-   <span data-ttu-id="0b3ef-118">[\[в, String \] и \[ out, строковый \] прототип](-in-string-and-out-string-prototype.md)</span><span class="sxs-lookup"><span data-stu-id="0b3ef-118">[\[in, string\] and \[out, string\] Prototype](-in-string-and-out-string-prototype.md)</span></span>
+
+ 
+
+ 

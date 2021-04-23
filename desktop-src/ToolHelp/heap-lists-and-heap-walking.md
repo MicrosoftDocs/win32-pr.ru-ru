@@ -1,0 +1,29 @@
+---
+title: Списки куч и проход по куче
+description: Моментальный снимок, включающий список куч для указанного процесса, содержит идентификационную информацию для каждой кучи, связанной с указанным процессом, и подробные сведения о каждой куче.
+ms.assetid: 631096fd-cb2c-4b19-aa71-d47060e2715c
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 1b5a9b8d30e2de1bf5ab37de03fdcb3fde663417
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103792127"
+---
+# <a name="heap-lists-and-heap-walking"></a><span data-ttu-id="eb942-103">Списки куч и проход по куче</span><span class="sxs-lookup"><span data-stu-id="eb942-103">Heap Lists and Heap Walking</span></span>
+
+<span data-ttu-id="eb942-104">Моментальный снимок, включающий список куч для указанного процесса, содержит идентификационную информацию для каждой кучи, связанной с указанным процессом, и подробные сведения о каждой куче.</span><span class="sxs-lookup"><span data-stu-id="eb942-104">A snapshot that includes the heap list for a specified process contains identification information for each heap associated with the specified process and detailed information about each heap.</span></span> <span data-ttu-id="eb942-105">Идентификатор для первой кучи списка кучи можно получить с помощью функции [**Heap32ListFirst**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listfirst) .</span><span class="sxs-lookup"><span data-stu-id="eb942-105">You can retrieve an identifier for the first heap of the heap list by using the [**Heap32ListFirst**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listfirst) function.</span></span> <span data-ttu-id="eb942-106">После получения первой кучи в списке можно просмотреть список куч для последующих куч, связанных с процессом, с помощью функции [**Heap32ListNext**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listnext) .</span><span class="sxs-lookup"><span data-stu-id="eb942-106">After retrieving the first heap in the list, you can traverse the heap list for subsequent heaps associated with the process by using the [**Heap32ListNext**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listnext) function.</span></span> <span data-ttu-id="eb942-107">**Heap32ListFirst** и **Heap32ListNext** заполняют структуру [**HEAPLIST32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heaplist32) идентификатором процесса, идентификатором кучи и флагами, описывающими кучу.</span><span class="sxs-lookup"><span data-stu-id="eb942-107">**Heap32ListFirst** and **Heap32ListNext** fill a [**HEAPLIST32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heaplist32) structure with the process identifier, the heap identifier, and flags describing the heap.</span></span>
+
+<span data-ttu-id="eb942-108">Сведения о первом блоке кучи можно получить с помощью функции [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first) .</span><span class="sxs-lookup"><span data-stu-id="eb942-108">You can retrieve information about the first block of a heap by using the [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first) function.</span></span> <span data-ttu-id="eb942-109">После получения первого блока кучи можно получить сведения о последующих блоках той же кучи с помощью функции [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) .</span><span class="sxs-lookup"><span data-stu-id="eb942-109">After retrieving the first block of a heap, you can retrieve information about subsequent blocks of the same heap by using the [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) function.</span></span> <span data-ttu-id="eb942-110">**Heap32First** и **Heap32Next** заполняют структуру [**HEAPENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heapentry32) информацией для соответствующего блока кучи.</span><span class="sxs-lookup"><span data-stu-id="eb942-110">**Heap32First** and **Heap32Next** fill a [**HEAPENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heapentry32) structure with information for the appropriate block of a heap.</span></span>
+
+<span data-ttu-id="eb942-111">Код расширенного состояния ошибки для [**Heap32ListFirst**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listfirst), [**Heap32ListNext**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listnext), [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first)и [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) можно получить с помощью функции [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) .</span><span class="sxs-lookup"><span data-stu-id="eb942-111">You can retrieve an extended error status code for [**Heap32ListFirst**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listfirst), [**Heap32ListNext**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listnext), [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first), and [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) by using the [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="eb942-112">Идентификатор кучи, указанный в элементе **th32HeapID** структуры [**HEAPENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heapentry32) , имеет значение только для функций справки средства.</span><span class="sxs-lookup"><span data-stu-id="eb942-112">The heap identifier, which is specified in the **th32HeapID** member of the [**HEAPENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heapentry32) structure, has meaning only to the tool help functions.</span></span> <span data-ttu-id="eb942-113">Он не является обработчиком и не может использоваться другими функциями.</span><span class="sxs-lookup"><span data-stu-id="eb942-113">It is not a handle, nor is it usable by other functions.</span></span>
+
+ 
+
+ 
+
+ 

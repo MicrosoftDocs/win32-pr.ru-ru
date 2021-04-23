@@ -1,0 +1,39 @@
+---
+description: Файловые объекты функционируют как логический интерфейс между процессами ядра и режима пользователя, а также данными файлов, находящиеся на физическом диске.
+ms.assetid: 53aabb35-4601-42d1-ac73-385473ff91e2
+title: Объекты файлов
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8e37793ad6c31ac86809047a3ec0d34afc3efc34
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105662748"
+---
+# <a name="file-objects"></a><span data-ttu-id="ecf88-103">Объекты файлов</span><span class="sxs-lookup"><span data-stu-id="ecf88-103">File Objects</span></span>
+
+<span data-ttu-id="ecf88-104">*Файловые объекты* функционируют как логический интерфейс между процессами ядра и режима пользователя, а также данными файлов, находящиеся на физическом диске.</span><span class="sxs-lookup"><span data-stu-id="ecf88-104">*File objects* function as the logical interface between kernel and user-mode processes and the file data that resides on the physical disk.</span></span> <span data-ttu-id="ecf88-105">Объект File содержит как данные, записанные в файл, так и следующий набор атрибутов, поддерживаемых ядром.</span><span class="sxs-lookup"><span data-stu-id="ecf88-105">A file object contains both the data written to the file and the following set of kernel-maintained attributes.</span></span>
+
+
+
+| <span data-ttu-id="ecf88-106">Тип информации</span><span class="sxs-lookup"><span data-stu-id="ecf88-106">Information type</span></span>                                              | <span data-ttu-id="ecf88-107">Назначение</span><span class="sxs-lookup"><span data-stu-id="ecf88-107">Purpose</span></span>                                                                                                                                                                                         |
+|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="ecf88-108">Имя файла</span><span class="sxs-lookup"><span data-stu-id="ecf88-108">File name</span></span>                                                     | <span data-ttu-id="ecf88-109">Называет соответствующий физический файл.</span><span class="sxs-lookup"><span data-stu-id="ecf88-109">Names the corresponding physical file.</span></span>                                                                                                                                                          |
+| <span data-ttu-id="ecf88-110">Текущее смещение в байтах</span><span class="sxs-lookup"><span data-stu-id="ecf88-110">Current byte offset</span></span>                                           | <span data-ttu-id="ecf88-111">Используется в синхронных файловых операциях ввода-вывода (описывается далее в этом разделе) для определения текущего начального расположения операций чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="ecf88-111">Used in synchronous file I/O (described later in this section) to identify the current starting location of read and write operations.</span></span>                                                          |
+| <span data-ttu-id="ecf88-112">Режим общего доступа</span><span class="sxs-lookup"><span data-stu-id="ecf88-112">Share mode</span></span>                                                    | <span data-ttu-id="ecf88-113">Указывает, может ли второй процесс открыть файл для чтения, записи или удаления, пока исходный процесс все еще обращается к нему.</span><span class="sxs-lookup"><span data-stu-id="ecf88-113">Specifies whether a second process can open a file for read, write, or delete access while the initial process is still accessing it.</span></span>                                                           |
+| <span data-ttu-id="ecf88-114">Режим ввода-вывода</span><span class="sxs-lookup"><span data-stu-id="ecf88-114">I/O mode</span></span>                                                      | <span data-ttu-id="ecf88-115">Указывает, должен ли начальный процесс открыть файл для [синхронного или асинхронного ввода-вывода](synchronous-and-asynchronous-i-o.md), кэшированного или некэшированного ввода-вывода, последовательного или случайного ввода-вывода и т. д.</span><span class="sxs-lookup"><span data-stu-id="ecf88-115">Specifies whether the initial process opened the file for [synchronous or asynchronous I/O](synchronous-and-asynchronous-i-o.md), cached or uncached I/O, sequential or random I/O, and so on.</span></span> |
+| <span data-ttu-id="ecf88-116">Указатель на объект устройства</span><span class="sxs-lookup"><span data-stu-id="ecf88-116">Pointer to device object</span></span>                                      | <span data-ttu-id="ecf88-117">Определяет физическое устройство, на котором находятся данные файла.</span><span class="sxs-lookup"><span data-stu-id="ecf88-117">Identifies the physical device the file data resides on.</span></span>                                                                                                                                        |
+| <span data-ttu-id="ecf88-118">Указатель на блок параметров тома или [ **ВПБ**](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_vpb)</span><span class="sxs-lookup"><span data-stu-id="ecf88-118">Pointer to the volume parameter block, or [**VPB**](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_vpb)</span></span> | <span data-ttu-id="ecf88-119">Определяет том или секцию, в которой находятся данные файла.</span><span class="sxs-lookup"><span data-stu-id="ecf88-119">Identifies the volume or partition the file data resides on.</span></span>                                                                                                                                    |
+| <span data-ttu-id="ecf88-120">Указатель на указатели на объекты секций</span><span class="sxs-lookup"><span data-stu-id="ecf88-120">Pointer to section object pointers</span></span>                            | <span data-ttu-id="ecf88-121">Определяет корневую структуру, описывающую [сопоставленный файл](/windows/desktop/Memory/file-mapping).</span><span class="sxs-lookup"><span data-stu-id="ecf88-121">Identifies a root structure that describes a [mapped file](/windows/desktop/Memory/file-mapping).</span></span>                                                                                                                  |
+| <span data-ttu-id="ecf88-122">Указатель на карту закрытого кэша</span><span class="sxs-lookup"><span data-stu-id="ecf88-122">Pointer to private cache map</span></span>                                  | <span data-ttu-id="ecf88-123">Определяет файловые данные, которые в данный момент кэшируются.</span><span class="sxs-lookup"><span data-stu-id="ecf88-123">Identifies the file data that is currently cached.</span></span>                                                                                                                                              |
+
+
+
+ 
+
+<span data-ttu-id="ecf88-124">Эти атрибуты определяются как часть структуры [**файловых \_ объектов**](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object) в нтддк. h.</span><span class="sxs-lookup"><span data-stu-id="ecf88-124">These attributes are defined as part of the [**FILE\_OBJECT**](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object) structure in Ntddk.h.</span></span> <span data-ttu-id="ecf88-125">Длина данных и типы значений см. в описании этой структуры в документации по Windows Driver Kit (WDK).</span><span class="sxs-lookup"><span data-stu-id="ecf88-125">Refer to the definition of this structure in the Windows Driver Kit (WDK) documentation for the data lengths and types of the values.</span></span>
+
+ 
+
+ 

@@ -1,0 +1,58 @@
+---
+description: Сведения о параметрах
+ms.assetid: 2600b200-f57a-46cd-8740-89b7f7aba540
+title: Сведения о параметрах
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3a1a311bbaa7907af0b3578ed88c28e573649f43
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104537793"
+---
+# <a name="parameter-information"></a><span data-ttu-id="ca117-103">Сведения о параметрах</span><span class="sxs-lookup"><span data-stu-id="ca117-103">Parameter Information</span></span>
+
+<span data-ttu-id="ca117-104">Метод [**имедиапараминфо:: жетпараминфо**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparaminfo-getparaminfo) возвращает структуру [**\_ параминфо MP**](/previous-versions/windows/desktop/api/Medparam/ns-medparam-mp_paraminfo) , описывающую параметр.</span><span class="sxs-lookup"><span data-stu-id="ca117-104">The [**IMediaParamInfo::GetParamInfo**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparaminfo-getparaminfo) method returns an [**MP\_PARAMINFO**](/previous-versions/windows/desktop/api/Medparam/ns-medparam-mp_paraminfo) structure that describes a parameter.</span></span> <span data-ttu-id="ca117-105">Эта структура содержит следующие сведения:</span><span class="sxs-lookup"><span data-stu-id="ca117-105">This structure contains the following information:</span></span>
+
+-   <span data-ttu-id="ca117-106">Элемент **мптипе** указывает тип данных значения параметра.</span><span class="sxs-lookup"><span data-stu-id="ca117-106">The **mpType** member indicates the data type of the parameter value.</span></span> <span data-ttu-id="ca117-107">Для повышения эффективности все параметры реализуются как 32-разрядные значения с плавающей точкой.</span><span class="sxs-lookup"><span data-stu-id="ca117-107">For efficiency, all parameters are implemented as 32-bit floating-point values.</span></span> <span data-ttu-id="ca117-108">Перечисление [**\_ типа MP**](/previous-versions/windows/desktop/api/Medparam/ne-medparam-mp_type) определяет, следует ли интерпретировать значение как целое число, значение с плавающей запятой, логическое или перечисление (целочисленные ряды).</span><span class="sxs-lookup"><span data-stu-id="ca117-108">The [**MP\_TYPE**](/previous-versions/windows/desktop/api/Medparam/ne-medparam-mp_type) enumeration defines whether to interpret the value as an integer, floating-point value, Boolean, or enumeration (integer series).</span></span>
+-   <span data-ttu-id="ca117-109">Элемент **мопкапс** указывает, какие кривые этот параметр поддерживает.</span><span class="sxs-lookup"><span data-stu-id="ca117-109">The **mopCaps** member indicates which curves this parameter supports.</span></span> <span data-ttu-id="ca117-110">Если тип данных является логическим или перечислением, единственная кривая, которую может поддерживать параметр, — «переход».</span><span class="sxs-lookup"><span data-stu-id="ca117-110">If the data type is Boolean or enumeration, the only curve that the parameter can support is "Jump."</span></span>
+-   <span data-ttu-id="ca117-111">Члены **мпдминвалуе** и **мпдмаксвалуе** определяют минимальное и максимальное значения для этого параметра.</span><span class="sxs-lookup"><span data-stu-id="ca117-111">The **mpdMinValue** and **mpdMaxValue** members define the minimum and maximum values for this parameter.</span></span> <span data-ttu-id="ca117-112">Все кривые для этого параметра должны находиться в пределах этого диапазона.</span><span class="sxs-lookup"><span data-stu-id="ca117-112">Any curves for this parameter must fall within this range.</span></span>
+-   <span data-ttu-id="ca117-113">Элемент **мпднеутралвалуе** является значением по умолчанию для параметра.</span><span class="sxs-lookup"><span data-stu-id="ca117-113">The **mpdNeutralValue** member is the default value of the parameter.</span></span>
+-   <span data-ttu-id="ca117-114">Элемент **сзлабел** является именем параметра, а член **сзуниттекст** — именем единицы измерения для параметра.</span><span class="sxs-lookup"><span data-stu-id="ca117-114">The **szLabel** member is the name of the parameter, and the **szUnitText** member is the name for the unit of measure for the parameter.</span></span> <span data-ttu-id="ca117-115">Примеры могут включать "Volume" и "децибел", "Frequency" и "кГц".</span><span class="sxs-lookup"><span data-stu-id="ca117-115">Examples might include "Volume" and "Decibels," or "Frequency" and "kHz."</span></span> <span data-ttu-id="ca117-116">Обе строки имеют английский язык и никогда не локализуются.</span><span class="sxs-lookup"><span data-stu-id="ca117-116">Both strings are English and are never localized.</span></span> <span data-ttu-id="ca117-117">DMO может предоставлять локализованные версии с помощью метода [**имедиапараминфо:: жетпарамтекст**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparaminfo-getparamtext) .</span><span class="sxs-lookup"><span data-stu-id="ca117-117">The DMO can provide localized versions through the [**IMediaParamInfo::GetParamText**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparaminfo-getparamtext) method.</span></span>
+
+<span data-ttu-id="ca117-118">Информация для каждого параметра остается фиксированной на протяжении всего времени существования DMO.</span><span class="sxs-lookup"><span data-stu-id="ca117-118">The information for each parameter remains fixed throughout the lifetime of the DMO.</span></span> <span data-ttu-id="ca117-119">Таким образом, клиент может запросить эти сведения один раз, а затем кэшировать его.</span><span class="sxs-lookup"><span data-stu-id="ca117-119">Therefore, the client can query for this information once and then cache it.</span></span>
+
+<span data-ttu-id="ca117-120">**Форматы времени**</span><span class="sxs-lookup"><span data-stu-id="ca117-120">**Time Formats**</span></span>
+
+<span data-ttu-id="ca117-121">Клиент должен отмечать входные данные меткой времени, чтобы объекты DMO могли вычислять соответствующие значения параметров.</span><span class="sxs-lookup"><span data-stu-id="ca117-121">The client must time stamp the input data, so that the DMO can calculate the corresponding parameter values.</span></span> <span data-ttu-id="ca117-122">По умолчанию метки времени представляют собой единицы 100 наносекунд, также называемые *временем ссылки*.</span><span class="sxs-lookup"><span data-stu-id="ca117-122">By default, time stamps represent units of 100 nanoseconds, also called *reference time*.</span></span> <span data-ttu-id="ca117-123">Однако эта единица времени неудобна для всех приложений, поэтому у DMO есть возможность поддерживать другие форматы времени.</span><span class="sxs-lookup"><span data-stu-id="ca117-123">This time unit is not convenient for every application, however, so a DMO has an option to support other time formats.</span></span> <span data-ttu-id="ca117-124">Форматы времени идентифицируются по идентификатору GUID.</span><span class="sxs-lookup"><span data-stu-id="ca117-124">Time formats are identified by GUID.</span></span>
+
+
+
+| <span data-ttu-id="ca117-125">**GUID**</span><span class="sxs-lookup"><span data-stu-id="ca117-125">**GUID**</span></span>              | <span data-ttu-id="ca117-126">Описание</span><span class="sxs-lookup"><span data-stu-id="ca117-126">Description</span></span>                   |
+|-----------------------|-------------------------------|
+| <span data-ttu-id="ca117-127">\_Справочник по времени GUID \_</span><span class="sxs-lookup"><span data-stu-id="ca117-127">GUID\_TIME\_REFERENCE</span></span> | <span data-ttu-id="ca117-128">Время ссылки</span><span class="sxs-lookup"><span data-stu-id="ca117-128">Reference time</span></span>                |
+| <span data-ttu-id="ca117-129">время в формате GUID для \_ \_ музыки</span><span class="sxs-lookup"><span data-stu-id="ca117-129">GUID\_TIME\_MUSIC</span></span>     | <span data-ttu-id="ca117-130">Штук в четверть заметки (ППКН)</span><span class="sxs-lookup"><span data-stu-id="ca117-130">Parts per quarter note (PPQN)</span></span> |
+| <span data-ttu-id="ca117-131">\_ \_ выборки времени GUID</span><span class="sxs-lookup"><span data-stu-id="ca117-131">GUID\_TIME\_SAMPLES</span></span>   | <span data-ttu-id="ca117-132">Выборок в секунду</span><span class="sxs-lookup"><span data-stu-id="ca117-132">Samples per second</span></span>            |
+
+
+
+ 
+
+<span data-ttu-id="ca117-133">Третьим сторонам рекомендуется определять собственные форматы времени по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="ca117-133">Third parties are encouraged to define their own time formats as needed.</span></span> <span data-ttu-id="ca117-134">Однако все дмос должны поддерживать справочное время.</span><span class="sxs-lookup"><span data-stu-id="ca117-134">However, all DMOs must support reference time.</span></span> <span data-ttu-id="ca117-135">Это предоставляет стандартный базовый уровень, который все могут использовать.</span><span class="sxs-lookup"><span data-stu-id="ca117-135">This provides a standard baseline that everyone can use.</span></span> <span data-ttu-id="ca117-136">Чтобы определить, сколько форматов времени поддерживает DMO, вызовите метод [**имедиапараминфо:: жетнумтимеформатс**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparaminfo-getnumtimeformats) .</span><span class="sxs-lookup"><span data-stu-id="ca117-136">To determine how many time formats a DMO supports, call the [**IMediaParamInfo::GetNumTimeFormats**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparaminfo-getnumtimeformats) method.</span></span> <span data-ttu-id="ca117-137">Чтобы перечислить Поддерживаемые форматы, вызовите метод [**имедиапараминфо:: жетсуппортедтимеформат**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparaminfo-getsupportedtimeformat) .</span><span class="sxs-lookup"><span data-stu-id="ca117-137">To enumerate the supported formats, call the [**IMediaParamInfo::GetSupportedTimeFormat**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparaminfo-getsupportedtimeformat) method.</span></span>
+
+<span data-ttu-id="ca117-138">Чтобы задать формат времени, вызовите [**имедиапарамс:: сеттимеформат**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparams-settimeformat).</span><span class="sxs-lookup"><span data-stu-id="ca117-138">To set the time format, call [**IMediaParams::SetTimeFormat**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparams-settimeformat).</span></span> <span data-ttu-id="ca117-139">Этот метод задает идентификатор GUID формата времени и *данные времени*, представляющие количество единиц на такт.</span><span class="sxs-lookup"><span data-stu-id="ca117-139">This method specifies the time format GUID and the *time data*, which is the number of units per clock tick.</span></span> <span data-ttu-id="ca117-140">Например, если формат времени — Samples в секунду, а данные времени — 32, то значение метки времени, равное 10, соответствует примерам 320.</span><span class="sxs-lookup"><span data-stu-id="ca117-140">For example, if the time format is samples per second, and the time data is 32, then a time stamp value of 10 corresponds to 320 samples.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="ca117-141">См. также</span><span class="sxs-lookup"><span data-stu-id="ca117-141">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="ca117-142">Параметры носителя</span><span class="sxs-lookup"><span data-stu-id="ca117-142">Media Parameters</span></span>](media-parameters.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

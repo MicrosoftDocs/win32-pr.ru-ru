@@ -1,0 +1,16 @@
+- name: Windows Mixed Reality
+  href: mixed-reality-portal.md
+  items:
+    - name: COM-интерфейсы Windows Mixed Reality
+      href: mixed-reality-com-interfaces.md
+      items:
+        - name: испатиалинтерактионманажеринтероп
+          href: /windows/desktop/api/spatialinteractionmanagerinterop/nn-spatialinteractionmanagerinterop-ispatialinteractionmanagerinterop
+          items:
+            - name: Метод Жетфорвиндов
+              href: /windows/desktop/api/spatialinteractionmanagerinterop/nf-spatialinteractionmanagerinterop-ispatialinteractionmanagerinterop-getforwindow
+        - name: ихолографикспацеинтероп
+          href: /windows/desktop/api/holographicspaceinterop/nn-holographicspaceinterop-iholographicspaceinterop
+          items:
+            - name: Метод Креатефорвиндов
+              href: /windows/desktop/api/holographicspaceinterop/nf-holographicspaceinterop-iholographicspaceinterop-createforwindow

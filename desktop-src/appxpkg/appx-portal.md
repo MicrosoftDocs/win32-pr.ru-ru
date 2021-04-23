@@ -1,0 +1,89 @@
+---
+title: Упаковка, развертывание и запрос приложений Windows
+description: Программное создание пакетов приложений для приложений Windows, установка, обновление, запрос и удаление пакетов приложений.
+ms.assetid: 4ea65e62-4878-41fd-9ad8-424b1546f02a
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9bfd1792e0b7b18f0dee04bca6f352e055b20f57
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "104133706"
+---
+# <a name="packaging-deployment-and-query-of-windows-apps"></a><span data-ttu-id="4cb16-103">Упаковка, развертывание и запрос приложений Windows</span><span class="sxs-lookup"><span data-stu-id="4cb16-103">Packaging, deployment, and query of Windows apps</span></span>
+
+<span data-ttu-id="4cb16-104">Развертывание, управление и обслуживание приложений Windows (включая Увпс и классические приложения) осуществляется через пакеты приложений msix/. appx на основе формата OPC.</span><span class="sxs-lookup"><span data-stu-id="4cb16-104">You deploy, manage, and service Windows apps (including UWPs and desktop apps) through .msix/.appx app packages based on the OPC format.</span></span> <span data-ttu-id="4cb16-105">Каждый пакет приложения содержит файлы, составляющие приложение, и файл манифеста, описывающий программное обеспечение для Windows.</span><span class="sxs-lookup"><span data-stu-id="4cb16-105">Each app package contains the files that constitute the app, and a manifest file that describes the software to Windows.</span></span>
+
+## <a name="introduction"></a><span data-ttu-id="4cb16-106">Введение</span><span class="sxs-lookup"><span data-stu-id="4cb16-106">Introduction</span></span>
+
+<span data-ttu-id="4cb16-107">Как правило, разработчики создают и подписывают пакеты приложений с помощью Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="4cb16-107">Typically, developers create and sign app packages using Visual Studio.</span></span> <span data-ttu-id="4cb16-108">Дополнительные сведения см. в статье [Упаковка приложения UWP с помощью Visual Studio](/windows/msix/package/packaging-uwp-apps).</span><span class="sxs-lookup"><span data-stu-id="4cb16-108">For more info, see [Package a UWP app with Visual Studio](/windows/msix/package/packaging-uwp-apps).</span></span>
+
+<span data-ttu-id="4cb16-109">Microsoft Store позволяет легко создавать, отправлять и продавать приложения клиентам по всему миру.</span><span class="sxs-lookup"><span data-stu-id="4cb16-109">The Microsoft Store makes it easy to build, submit, and sell your apps to customers around the world.</span></span> <span data-ttu-id="4cb16-110">Дополнительные сведения см. в разделе [Отправка приложений](/windows/uwp/publish/app-submissions).</span><span class="sxs-lookup"><span data-stu-id="4cb16-110">For more info, see [App submissions](/windows/uwp/publish/app-submissions).</span></span>
+
+<span data-ttu-id="4cb16-111">Командлеты Windows PowerShell позволяют устанавливать бизнес-приложения Windows и управлять ими без использования магазина.</span><span class="sxs-lookup"><span data-stu-id="4cb16-111">Windows PowerShell cmdlets enable you to install and manage line-of-business Windows apps without using the Store.</span></span> <span data-ttu-id="4cb16-112">Дополнительные сведения см. в разделе [командлеты модуля appx](/powershell/module/appx/index?view=win10-ps).</span><span class="sxs-lookup"><span data-stu-id="4cb16-112">For more info, see [Appx Module Cmdlets](/powershell/module/appx/index?view=win10-ps).</span></span>
+
+<span data-ttu-id="4cb16-113">С помощью API упаковки, развертывания и запросов можно программно выполнять следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="4cb16-113">Using the packaging, deployment, and query APIs, you can programmatically perform these tasks:</span></span>
+
+-   <span data-ttu-id="4cb16-114">Создание пакета приложения для приложения Windows</span><span class="sxs-lookup"><span data-stu-id="4cb16-114">Create an app package for a Windows app</span></span>
+-   <span data-ttu-id="4cb16-115">Развертывание упакованного приложения Windows</span><span class="sxs-lookup"><span data-stu-id="4cb16-115">Deploy a packaged Windows app</span></span>
+-   <span data-ttu-id="4cb16-116">Перечисление пакетов приложений, установленных в системе, и получение сведений о них из манифеста</span><span class="sxs-lookup"><span data-stu-id="4cb16-116">Enumerate the app packages installed on a system and get information about them from their manifest</span></span>
+-   <span data-ttu-id="4cb16-117">Использование содержимого пакета приложения</span><span class="sxs-lookup"><span data-stu-id="4cb16-117">Consume the contents of an app package</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="4cb16-118">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="4cb16-118">In this section</span></span>
+
+
+
+| <span data-ttu-id="4cb16-119">Раздел</span><span class="sxs-lookup"><span data-stu-id="4cb16-119">Topic</span></span>                                                                                                    | <span data-ttu-id="4cb16-120">Описание</span><span class="sxs-lookup"><span data-stu-id="4cb16-120">Description</span></span>                                                                                                                                                                           |
+|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="4cb16-121">Создание пакета приложения (C++)</span><span class="sxs-lookup"><span data-stu-id="4cb16-121">How to create an app package (C++)</span></span>](how-to-create-a-package.md)                                        | <span data-ttu-id="4cb16-122">Узнайте, как создать пакет приложения с помощью API упаковки.</span><span class="sxs-lookup"><span data-stu-id="4cb16-122">Learn how to create an app package using the packaging API.</span></span>                                                                                                                           |
+| [<span data-ttu-id="4cb16-123">Создание сертификата для подписи пакета приложения</span><span class="sxs-lookup"><span data-stu-id="4cb16-123">How to create an app package signing certificate</span></span>](how-to-create-a-package-signing-certificate.md)      | <span data-ttu-id="4cb16-124">Узнайте, как использовать [**MakeCert**](/windows-hardware/drivers/devtest/makecert) и [**Pvk2Pfx**](/windows-hardware/drivers/devtest/pvk2pfx) для создания тестового сертификата подписи кода, чтобы можно было подписать пакеты приложений.</span><span class="sxs-lookup"><span data-stu-id="4cb16-124">Learn how to use [**MakeCert**](/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx**](/windows-hardware/drivers/devtest/pvk2pfx) to create a test code signing certificate, so that you can sign your app packages.</span></span> |
+| <span data-ttu-id="4cb16-125">[How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md) (Подписывание пакета приложения с помощью SignTool)</span><span class="sxs-lookup"><span data-stu-id="4cb16-125">[How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md)</span></span>                    | <span data-ttu-id="4cb16-126">Узнайте, как подписывать пакеты приложений с помощью средства [**SignTool**](/windows-hardware/drivers/devtest/signtool) , чтобы их можно было развернуть.</span><span class="sxs-lookup"><span data-stu-id="4cb16-126">Learn how to use [**SignTool**](/windows-hardware/drivers/devtest/signtool) to sign your app packages so they can be deployed.</span></span>                                                                    |
+| [<span data-ttu-id="4cb16-127">Устранение ошибок подписи пакета приложения</span><span class="sxs-lookup"><span data-stu-id="4cb16-127">How to troubleshoot app package signature errors</span></span>](how-to-troubleshoot-app-package-signature-errors.md) | <span data-ttu-id="4cb16-128">Сбой развертывания приложения может быть вызван сбоем при проверке цифровой подписи пакета приложения.</span><span class="sxs-lookup"><span data-stu-id="4cb16-128">An app deployment failure can be caused by a failure to validate the digital signature of the app package.</span></span> <span data-ttu-id="4cb16-129">Узнайте, как распознать эти сбои и что делать с ними.</span><span class="sxs-lookup"><span data-stu-id="4cb16-129">Learn how to recognize these failures, and what to do about them.</span></span>          |
+| [<span data-ttu-id="4cb16-130">Как программно подписать пакет приложения (C++)</span><span class="sxs-lookup"><span data-stu-id="4cb16-130">How to programmatically sign an app package (C++)</span></span>](how-to-programmatically-sign-a-package.md)          | <span data-ttu-id="4cb16-131">Узнайте, как подписать пакет приложения с помощью функции [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) .</span><span class="sxs-lookup"><span data-stu-id="4cb16-131">Learn how to sign an app package by using the [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) function.</span></span>                                                                                   |
+| [<span data-ttu-id="4cb16-132">Разработка приложения OEM, использующего пользовательский файл</span><span class="sxs-lookup"><span data-stu-id="4cb16-132">How to develop an OEM app that uses a custom file</span></span>](how-to-develop-oem-app-with-custom-file.md)         | <span data-ttu-id="4cb16-133">Узнайте, как разработать приложение, использующее пользовательский файл для передачи сведений от изготовителя оборудования в приложение.</span><span class="sxs-lookup"><span data-stu-id="4cb16-133">Learn how to develop an app that uses a custom file to pass info from the OEM to the app.</span></span>                                                                                             |
+| [<span data-ttu-id="4cb16-134">Извлечение содержимого пакета приложения (C++)</span><span class="sxs-lookup"><span data-stu-id="4cb16-134">Extract app package contents (C++)</span></span>](how-to-extract-content-from-a-package.md)                          | <span data-ttu-id="4cb16-135">Узнайте, как извлечь файлы из пакета приложения с помощью API упаковки.</span><span class="sxs-lookup"><span data-stu-id="4cb16-135">Learn how to extract files from an app package using the packaging API.</span></span>                                                                                                               |
+| [<span data-ttu-id="4cb16-136">Сведения о манифесте пакета приложения запроса (C++)</span><span class="sxs-lookup"><span data-stu-id="4cb16-136">Query app package manifest info (C++)</span></span>](how-to-query-package-identity-information.md)                   | <span data-ttu-id="4cb16-137">Узнайте, как получить сведения из манифеста пакета приложения с помощью API упаковки.</span><span class="sxs-lookup"><span data-stu-id="4cb16-137">Learn how to get info from an app package manifest using the packaging API</span></span>                                                                                                            |
+| [<span data-ttu-id="4cb16-138">Устранение неполадок</span><span class="sxs-lookup"><span data-stu-id="4cb16-138">Troubleshooting</span></span>](troubleshooting.md)                                                                   | <span data-ttu-id="4cb16-139">Предоставляет сведения, помогающие устранять проблемы, возникающие при упаковке, развертывании или выполнении запросов к пакету приложения.</span><span class="sxs-lookup"><span data-stu-id="4cb16-139">Provides info to help you troubleshoot problems you experience when packaging, deploying, or querying an app package.</span></span>                                                                 |
+| [<span data-ttu-id="4cb16-140">Справочник по API упаковки</span><span class="sxs-lookup"><span data-stu-id="4cb16-140">Packaging API reference</span></span>](interfaces.md)                                                                | <span data-ttu-id="4cb16-141">API упаковки создает, считывает и записывает пакеты приложений.</span><span class="sxs-lookup"><span data-stu-id="4cb16-141">The packaging API creates, reads, and writes app packages.</span></span>                                                                                                                            |
+| [<span data-ttu-id="4cb16-142">Справочник по API развертывания</span><span class="sxs-lookup"><span data-stu-id="4cb16-142">Deployment API reference</span></span>](package-deployment-api.md)                                                   | <span data-ttu-id="4cb16-143">API развертывания устанавливает, обновляет и удаляет пакеты приложений.</span><span class="sxs-lookup"><span data-stu-id="4cb16-143">The deployment API installs, updates, and uninstalls app packages.</span></span>                                                                                                                    |
+| [<span data-ttu-id="4cb16-144">Справочник по API запроса</span><span class="sxs-lookup"><span data-stu-id="4cb16-144">Query API reference</span></span>](functions.md)                                                                     | <span data-ttu-id="4cb16-145">API запросов получает сведения о пакетах приложений, установленных в системе.</span><span class="sxs-lookup"><span data-stu-id="4cb16-145">The query API gets info about the app packages installed on the system.</span></span>                                                                                                               |
+| [<span data-ttu-id="4cb16-146">Средства и командлеты PowerShell</span><span class="sxs-lookup"><span data-stu-id="4cb16-146">Tools and PowerShell cmdlets</span></span>](appx-packaging-tools.md)                                                 | <span data-ttu-id="4cb16-147">Используйте эти средства и командлеты для создания, установки пакетов приложений и управления ими.</span><span class="sxs-lookup"><span data-stu-id="4cb16-147">Use these tools and cmdlets to create, install, and manage app packages.</span></span>                                                                                                              |
+| [<span data-ttu-id="4cb16-148">Примеры SDK</span><span class="sxs-lookup"><span data-stu-id="4cb16-148">SDK samples</span></span>](appx-packaging-samples.md)                                                                | <span data-ttu-id="4cb16-149">Загрузите примеры SDK, демонстрирующие интерфейсы API упаковки, развертывания и запросов для приложений Windows.</span><span class="sxs-lookup"><span data-stu-id="4cb16-149">Download SDK samples that demonstrate the packaging, deployment, and query APIs for Windows apps.</span></span>                                                                               |
+| [<span data-ttu-id="4cb16-150">Словарь терминов</span><span class="sxs-lookup"><span data-stu-id="4cb16-150">Glossary</span></span>](appx-packaging-glossary.md)                                                                  | <span data-ttu-id="4cb16-151">Сведения о терминах, связанных с упаковкой, развертыванием и запросом приложений Windows.</span><span class="sxs-lookup"><span data-stu-id="4cb16-151">Learn about the terms related to packaging, deployment, and query of Windows apps.</span></span>                                                                                              |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="4cb16-152">См. также</span><span class="sxs-lookup"><span data-stu-id="4cb16-152">Related topics</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="4cb16-153">**Основные понятия**</span><span class="sxs-lookup"><span data-stu-id="4cb16-153">**Concepts**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="4cb16-154">[Пакеты и развертывание приложений](/previous-versions/windows/apps/hh464929(v=win.10))</span><span class="sxs-lookup"><span data-stu-id="4cb16-154">[App packages and deployment](/previous-versions/windows/apps/hh464929(v=win.10))</span></span>
+</dt> <dt>
+
+<span data-ttu-id="4cb16-155">**Другая ссылка**</span><span class="sxs-lookup"><span data-stu-id="4cb16-155">**Other Reference**</span></span>
+</dt> <dt>
+
+[<span data-ttu-id="4cb16-156">Схема манифеста пакета приложений</span><span class="sxs-lookup"><span data-stu-id="4cb16-156">App package manifest schema</span></span>](/uwp/schemas/appxpackage/appx-package-manifest)
+</dt> <dt>
+
+[<span data-ttu-id="4cb16-157">**Windows. ApplicationModel. Package**</span><span class="sxs-lookup"><span data-stu-id="4cb16-157">**Windows.ApplicationModel.Package**</span></span>](/uwp/api/Windows.ApplicationModel.Package)
+</dt> <dt>
+
+[<span data-ttu-id="4cb16-158">**Windows. ApplicationModel. PackageId**</span><span class="sxs-lookup"><span data-stu-id="4cb16-158">**Windows.ApplicationModel.PackageId**</span></span>](/uwp/api/Windows.ApplicationModel.PackageId)
+</dt> <dt>
+
+[<span data-ttu-id="4cb16-159">**Windows.Management.Deployment.PackageManager**</span><span class="sxs-lookup"><span data-stu-id="4cb16-159">**Windows.Management.Deployment.PackageManager**</span></span>](/uwp/api/Windows.Management.Deployment.PackageManager)
+</dt> <dt>
+
+[<span data-ttu-id="4cb16-160">**Windows.Management.Deployment.PackageUserInformation**</span><span class="sxs-lookup"><span data-stu-id="4cb16-160">**Windows.Management.Deployment.PackageUserInformation**</span></span>](/uwp/api/Windows.Management.Deployment.PackageUserInformation)
+</dt> </dl>
+
+ 
+
+ 

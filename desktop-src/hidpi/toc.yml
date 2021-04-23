@@ -1,0 +1,90 @@
+- name: Высокое разрешение
+  href: high-dpi-desktop-application-development-on-windows.md
+  items:
+    - name: Настройка отслеживания количества точек на дюйм по умолчанию для процесса
+      href: setting-the-default-dpi-awareness-for-a-process.md
+    - name: Масштабирование Mixed-Mode DPI и API с поддержкой DPI
+      href: high-dpi-improvements-for-desktop-applications.md
+    - name: Разработка приложений WPF для мониторов с поддержкой определения DPI
+      href: declaring-managed-apps-dpi-aware.md
+    - name: Ссылка High DPI
+      href: high-dpi-reference.md
+      items:
+        - name: аджуствиндовректексфордпи
+          href: /windows/desktop/api/Winuser/nf-winuser-adjustwindowrectexfordpi
+        - name: аредпиаваренессконтекстсекуал
+          href: /windows/desktop/api/Winuser/nf-winuser-aredpiawarenesscontextsequal
+        - name: енабленонклиентдпискалинг
+          href: /windows/desktop/api/Winuser/nf-winuser-enablenonclientdpiscaling
+        - name: жетаваренессфромдпиаваренессконтекст
+          href: /windows/desktop/api/Winuser/nf-winuser-getawarenessfromdpiawarenesscontext
+        - name: жетдпиформонитор
+          href: /windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getdpiformonitor
+        - name: жетдпифорсистем
+          href: /windows/desktop/api/Winuser/nf-winuser-getdpiforsystem
+        - name: жетдпифорвиндов
+          href: /windows/desktop/api/Winuser/nf-winuser-getdpiforwindow
+        - name: жетпроцессдпиаваренесс
+          href: /windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getprocessdpiawareness
+        - name: жетсистемметриксфордпи
+          href: /windows/desktop/api/Winuser/nf-winuser-getsystemmetricsfordpi
+        - name: жетсреаддпиаваренессконтекст
+          href: /windows/desktop/api/Winuser/nf-winuser-getthreaddpiawarenesscontext
+        - name: жетвиндовдпиаваренессконтекст
+          href: /windows/desktop/api/Winuser/nf-winuser-getwindowdpiawarenesscontext
+        - name: исвалиддпиаваренессконтекст
+          href: /windows/desktop/api/Winuser/nf-winuser-isvaliddpiawarenesscontext
+        - name: логикалтофисикалпоинтфорпермонитордпи
+          href: /windows/desktop/api/winuser/nf-winuser-logicaltophysicalpointforpermonitordpi
+        - name: фисикалтологикалпоинтфорпермонитордпи
+          href: /windows/desktop/api/winuser/nf-winuser-physicaltologicalpointforpermonitordpi
+        - name: сетпроцессдпиаваренесс
+          href: /windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-setprocessdpiawareness
+        - name: сетсреаддпиаваренессконтекст
+          href: /windows/desktop/api/Winuser/nf-winuser-setthreaddpiawarenesscontext
+        - name: системпараметерсинфофордпи
+          href: /windows/desktop/api/Winuser/nf-winuser-systemparametersinfofordpi
+        - name: сетпроцессдпиаваренессконтекст
+          href: /windows/desktop/api/winuser/nf-winuser-setprocessdpiawarenesscontext
+        - name: сетдиалогдпичанжебехавиор
+          href: /windows/desktop/api/winuser/nf-winuser-setdialogdpichangebehavior
+        - name: жетдиалогдпичанжебехавиор
+          href: /windows/desktop/api/winuser/nf-winuser-getdialogdpichangebehavior
+        - name: сетдиалогконтролдпичанжебехавиор
+          href: /windows/desktop/api/winuser/nf-winuser-setdialogcontroldpichangebehavior
+        - name: жетдиалогконтролдпичанжебехавиор
+          href: /windows/desktop/api/winuser/nf-winuser-getdialogcontroldpichangebehavior
+        - name: опенсемедатафордпи
+          href: /windows/desktop/api/uxtheme/nf-uxtheme-openthemedatafordpi
+        - name: жетсистемдпифорпроцесс
+          href: /windows/desktop/api/winuser/nf-winuser-getsystemdpiforprocess
+        - name: жетдпифромдпиаваренессконтекст
+          href: /windows/desktop/api/winuser/nf-winuser-getdpifromdpiawarenesscontext
+        - name: сетсреаддпихостингбехавиор
+          href: /windows/desktop/api/winuser/nf-winuser-setthreaddpihostingbehavior
+        - name: жетсреаддпихостингбехавиор
+          href: /windows/desktop/api/winuser/nf-winuser-getthreaddpihostingbehavior
+        - name: жетвиндовдпихостингбехавиор
+          href: /windows/desktop/api/winuser/nf-winuser-getwindowdpihostingbehavior
+        - name: DPI_AWARENESS
+          href: /windows/desktop/api/windef/ne-windef-dpi_awareness
+        - name: DPI_AWARENESS_CONTEXT
+          href: dpi-awareness-context.md
+        - name: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
+          href: /windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors
+        - name: DIALOG_DPI_CHANGE_BEHAVIORS
+          href: /windows/desktop/api/winuser/ne-winuser-dialog_dpi_change_behaviors
+        - name: MONITOR_DPI_TYPE
+          href: /windows/desktop/api/ShellScalingApi/ne-shellscalingapi-monitor_dpi_type
+        - name: PROCESS_DPI_AWARENESS
+          href: /windows/desktop/api/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness
+        - name: _DPI_HOSTING_BEHAVIOR
+          href: /windows/desktop/api/windef/ne-windef-dpi_hosting_behavior
+        - name: WM_DPICHANGED
+          href: wm-dpichanged.md
+        - name: WM_DPICHANGED_BEFOREPARENT
+          href: wm-dpichanged-beforeparent.md
+        - name: WM_DPICHANGED_AFTERPARENT
+          href: wm-dpichanged-afterparent.md
+        - name: WM_GETDPISCALEDSIZE
+          href: wm-getdpiscaledsize.md

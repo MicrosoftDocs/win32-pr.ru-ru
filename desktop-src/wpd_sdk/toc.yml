@@ -1,0 +1,891 @@
+- name: Программный интерфейс WPD
+  href: wpd-application-programming-interface.md
+  items:
+    - name: Общие требования для разработки приложений
+      href: general-requirements-for-application-development.md
+      items:
+        - name: Поддерживаемые операционные системы
+          href: supported-operating-systems.md
+          items:
+            - name: Поддержка в Windows 7 и Windows Vista
+              href: support-in-windows-vista.md
+            - name: Поддержка в Windows XP
+              href: support-in-windows-xp.md
+    - name: Требования к приложениям DRM-Enabled Windows Media
+      href: requirements-for-windows-media-drm-enabled-applications.md
+    - name: Примеры
+      href: sample.md
+      items:
+        - name: Приложение Впдаписампле
+          href: wpdapisample-sample-application.md
+        - name: Приложение Впдсервицесаписампле
+          href: wpdapisample-sample-service-application.md
+    - name: Обзор приложений
+      href: application-overview.md
+      items:
+        - name: Поддерживаемые задачи в приложениях WPD
+          href: supported-tasks-in-wpd-applications.md
+        - name: WPD и более ранние технологии
+          href: wpd-and-earlier-technologies.md
+        - name: Общие сведения об архитектуре
+          href: architecture-overview.md
+        - name: Управление доступом
+          href: access-control.md
+        - name: Концептуальная модель
+          href: the-conceptual-model.md
+        - name: Представление устройства
+          href: device-representation.md
+        - name: Представление функциональных возможностей
+          href: representing-functionality.md
+        - name: Требования к объектам
+          href: requirements-for-objects.md
+          items:
+            - name: Объект устройства
+              href: device-object.md
+        - name: Пропертикэйс и GUID в портативных устройствах Windows
+          href: propertykeys-and-guids-in-windows-portable-devices.md
+    - name: Руководство по программированию
+      href: programming-guide.md
+      items:
+        - name: Перечисление устройств
+          href: enumerating-devices.md
+        - name: Выбор устройства
+          href: selecting-a-device.md
+          items:
+            - name: Установление подключения
+              href: establishing-a-connection.md
+              items:
+                - name: Указание сведений о клиенте
+                  href: specifying-client-information.md
+        - name: Перечисление содержимого
+          href: enumerating-content.md
+        - name: Получение свойств объекта
+          href: retrieving-object-properties.md
+          items:
+            - name: Получение свойств для одного объекта
+              href: retrieving-properties-for-a-single-object.md
+        - name: Задание свойств объекта
+          href: setting-object-properties.md
+          items:
+            - name: Задание свойств для одного объекта
+              href: setting-properties-for-a-single-object.md
+        - name: Получение сведений об устройстве
+          href: retrieving-device-information.md
+          items:
+            - name: 'Получение функциональных категорий, поддерживаемых устройством'
+              href: retrieving-the-functional-categories-supported-by-a-device.md
+            - name: 'Получение типов содержимого, поддерживаемых устройством'
+              href: retrieving-the-content-types-supported-by-a-device.md
+            - name: 'Получение событий, поддерживаемых устройством'
+              href: retrieving-the-events-supported-by-a-device.md
+        - name: Получение сведений об объекте
+          href: retrieving-object-information.md
+          items:
+            - name: Получение идентификатора объекта из постоянного уникального идентификатора
+              href: retrieving-an-object-identifier-from-a-persistent-unique-identifier.md
+            - name: Получение идентификаторов функциональных объектов для устройства
+              href: retrieving-the-functional-object-identifiers-for-a-device.md
+        - name: Работа с содержимым устройства
+          href: operating-on-device-content.md
+          items:
+            - name: Передача образа или музыкального файла на устройство
+              href: transferring-an-image-or-music-file-to-the-device.md
+            - name: Передача объекта Properties-Only на устройство
+              href: transferring-a-properties-only-object-to-the-device.md
+            - name: Передача содержимого с устройства на компьютер
+              href: transferring-content-from-the-device-to-a-pc.md
+            - name: Удаление содержимого с устройства
+              href: deleting-content-from-the-device.md
+        - name: Задачи службы устройств
+          href: device-service-tasks.md
+          items:
+            - name: Открытие службы
+              href: opening-a-service.md
+            - name: Перечисление содержимого службы
+              href: enumerating-service-content.md
+            - name: Перечисление служб
+              href: enumerating-services.md
+            - name: Получение поддерживаемых событий службы
+              href: retrieving-supported-events.md
+            - name: Получение поддерживаемых форматов службы
+              href: retrieving-supported-formats.md
+            - name: Получение поддерживаемых методов службы
+              href: retrieving-supported-methods.md
+            - name: Доступ к свойствам объекта службы
+              href: accessing-service-object-properties.md
+              items:
+                - name: Получение свойств содержимого объекта
+                  href: retrieving-content-object-properties.md
+                - name: Запись свойств содержимого объекта
+                  href: writing-content-object-properties.md
+            - name: Вызов методов службы
+              href: invoking-methods-synchronously.md
+            - name: Асинхронный вызов методов службы
+              href: invoking-methods-asynchronously.md
+        - name: Расширенные задачи
+          href: advanced-tasks.md
+          items:
+            - name: Получение свойств для нескольких объектов
+              href: retrieving-properties-for-multiple-objects.md
+            - name: Получение свойств для нескольких объектов по формату объектов
+              href: retrieving-properties-for-multiple-objects-by-object-format.md
+            - name: Задание свойств для нескольких объектов
+              href: setting-properties-for-multiple-objects.md
+            - name: 'Получение возможностей отрисовки, поддерживаемых устройством'
+              href: retrieving-the-rendering-capabilities-supported-by-a-device.md
+            - name: Добавление ресурса в объект
+              href: adding-a-resource-to-an-object.md
+            - name: Перемещение содержимого на устройстве
+              href: moving-content-on-the-device.md
+            - name: Обработка событий с устройства
+              href: handling-events-from-the-device.md
+            - name: Реализация расширений контекстного меню
+              href: implementing-context-menu-extensions.md
+              items:
+                - name: Регистрация обработчика контекстного меню
+                  href: registering-your-context-menu-handler.md
+                - name: Поддержка содержимого Device-Side
+                  href: supporting-device-side-content-context-menu.md
+            - name: Реализация расширений страницы свойств
+              href: implementing-property-sheet-extensions.md
+              items:
+                - name: Регистрация обработчика страницы свойств
+                  href: registering-your-property-sheet-handler.md
+                - name: Поддержка содержимого Device-Side
+                  href: supporting-device-side-content-property-sheet.md
+            - name: Поддержка автозапуска
+              href: supporting-autoplay.md
+            - name: Поддержка расширений MTP
+              href: supporting-mtp-extensions.md
+              items:
+                - name: Выдача команды Жетнумобжектс
+                  href: issuing-the-getdevicepropvalue-command.md
+                - name: Выдача команды Жетдевицепропвалуе
+                  href: issuing-the-getnumobjects-command.md
+                - name: Выдача команды Сетдевицепропвалуе
+                  href: issuing-the-setdevicepropvalue-command.md
+    - name: Справочник по программированию
+      href: programming-reference.md
+      items:
+        - name: Константы
+          href: constants.md
+          items:
+            - name: Идентификаторы GUID интерфейса устройства
+              href: device-interface-guids.md
+            - name: Общие константы
+              href: general-constants.md
+            - name: Константы ошибок
+              href: error-constants.md
+            - name: Константы событий
+              href: event-constants.md
+            - name: Идентификаторы GUID типов объектов
+              href: object-type-guids.md
+            - name: Идентификаторы GUID формата объектов
+              href: object-format-guids.md
+            - name: Идентификаторы GUID типов ресурсов
+              href: resource-type-guids.md
+        - name: Интерфейсы драйвера
+          href: driver-interfaces.md
+          items:
+            - name: ивпдсериализер
+              href: iwpdserializer.md
+              items:
+                - name: жетбуфферфромипортабледевицевалуес
+                  href: iwpdserializer-getbufferfromiportabledevicevalues.md
+                - name: жетипортабледевицевалуесфромбуффер
+                  href: iwpdserializer-getiportabledevicevaluesfrombuffer.md
+                - name: жетсериализедсизе
+                  href: iwpdserializer-getserializedsize.md
+                - name: вритеипортабледевицевалуестобуффер
+                  href: iwpdserializer-writeiportabledevicevaluestobuffer.md
+        - name: Интерфейсы коллекции
+          href: collection-interfaces.md
+          items:
+            - name: ипортабледевицекэйколлектион
+              href: iportabledevicekeycollection.md
+              items:
+                - name: Добавить
+                  href: iportabledevicekeycollection-add.md
+                - name: Clear
+                  href: iportabledevicekeycollection-clear.md
+                - name: GetAt
+                  href: iportabledevicekeycollection-getat.md
+                - name: GetCount
+                  href: iportabledevicekeycollection-getcount.md
+                - name: RemoveAt
+                  href: iportabledevicekeycollection-removeat.md
+            - name: ипортабледевицепропвариантколлектион
+              href: iportabledevicepropvariantcollection.md
+              items:
+                - name: Добавить
+                  href: iportabledevicepropvariantcollection-add.md
+                - name: ChangeType
+                  href: iportabledevicepropvariantcollection-changetype.md
+                - name: Clear
+                  href: iportabledevicepropvariantcollection-clear.md
+                - name: GetAt
+                  href: iportabledevicepropvariantcollection-getat.md
+                - name: GetCount
+                  href: iportabledevicepropvariantcollection-getcount.md
+                - name: GetType
+                  href: iportabledevicepropvariantcollection-gettype.md
+                - name: RemoveAt
+                  href: iportabledevicepropvariantcollection-removeat.md
+            - name: ипортабледевицевалуес
+              href: iportabledevicevalues.md
+              items:
+                - name: Clear
+                  href: iportabledevicevalues-clear.md
+                - name: копивалуесфромпропертисторе
+                  href: iportabledevicevalues-copyvaluesfrompropertystore.md
+                - name: копивалуестопропертисторе
+                  href: iportabledevicevalues-copyvaluestopropertystore.md
+                - name: GetAt
+                  href: iportabledevicevalues-getat.md
+                - name: жетбулвалуе
+                  href: iportabledevicevalues-getboolvalue.md
+                - name: жетбуффервалуе
+                  href: iportabledevicevalues-getbuffervalue.md
+                - name: GetCount
+                  href: iportabledevicevalues-getcount.md
+                - name: жетеррорвалуе
+                  href: iportabledevicevalues-geterrorvalue.md
+                - name: жетфлоатвалуе
+                  href: iportabledevicevalues-getfloatvalue.md
+                - name: жетгуидвалуе
+                  href: iportabledevicevalues-getguidvalue.md
+                - name: жетипортабледевицекэйколлектионвалуе
+                  href: iportabledevicevalues-getiportabledevicekeycollectionvalue.md
+                - name: жетипортабледевицепропвариантколлектионвалуе
+                  href: iportabledevicevalues-getiportabledevicepropvariantcollectionvalue.md
+                - name: жетипортабледевицевалуесколлектионвалуе
+                  href: iportabledevicevalues-getiportabledevicevaluescollectionvalue.md
+                - name: жетипортабледевицевалуесвалуе
+                  href: iportabledevicevalues-getiportabledevicevaluesvalue.md
+                - name: жетиункновнвалуе
+                  href: iportabledevicevalues-getiunknownvalue.md
+                - name: жеткэйвалуе
+                  href: iportabledevicevalues-getkeyvalue.md
+                - name: жетсигнединтежервалуе
+                  href: iportabledevicevalues-getsignedintegervalue.md
+                - name: жетсигнедларжеинтежервалуе
+                  href: iportabledevicevalues-getsignedlargeintegervalue.md
+                - name: GetStringValue
+                  href: iportabledevicevalues-getstringvalue.md
+                - name: жетунсигнединтежервалуе
+                  href: iportabledevicevalues-getunsignedintegervalue.md
+                - name: жетунсигнедларжеинтежервалуе
+                  href: iportabledevicevalues-getunsignedlargeintegervalue.md
+                - name: GetValue
+                  href: iportabledevicevalues-getvalue.md
+                - name: ремовевалуе
+                  href: iportabledevicevalues-removevalue.md
+                - name: SetBoolValue
+                  href: iportabledevicevalues-setboolvalue.md
+                - name: сетбуффервалуе
+                  href: iportabledevicevalues-setbuffervalue.md
+                - name: сетеррорвалуе
+                  href: iportabledevicevalues-seterrorvalue.md
+                - name: сетфлоатвалуе
+                  href: iportabledevicevalues-setfloatvalue.md
+                - name: сетгуидвалуе
+                  href: iportabledevicevalues-setguidvalue.md
+                - name: сетипортабледевицекэйколлектионвалуе
+                  href: iportabledevicevalues-setiportabledevicekeycollectionvalue.md
+                - name: сетипортабледевицепропвариантколлектионвалуе
+                  href: iportabledevicevalues-setiportabledevicepropvariantcollectionvalue.md
+                - name: сетипортабледевицевалуесколлектионвалуе
+                  href: iportabledevicevalues-setiportabledevicevaluescollectionvalue.md
+                - name: сетипортабледевицевалуесвалуе
+                  href: iportabledevicevalues-setiportabledevicevaluesvalue.md
+                - name: сетиункновнвалуе
+                  href: iportabledevicevalues-setiunknownvalue.md
+                - name: сеткэйвалуе
+                  href: iportabledevicevalues-setkeyvalue.md
+                - name: сетсигнединтежервалуе
+                  href: iportabledevicevalues-setsignedintegervalue.md
+                - name: сетсигнедларжеинтежервалуе
+                  href: iportabledevicevalues-setsignedlargeintegervalue.md
+                - name: SetStringValue
+                  href: iportabledevicevalues-setstringvalue.md
+                - name: сетунсигнединтежервалуе
+                  href: iportabledevicevalues-setunsignedintegervalue.md
+                - name: сетунсигнедларжеинтежервалуе
+                  href: iportabledevicevalues-setunsignedlargeintegervalue.md
+                - name: SetValue
+                  href: iportabledevicevalues-setvalue.md
+            - name: ипортабледевицевалуесколлектион
+              href: iportabledevicevaluescollection.md
+              items:
+                - name: Добавить
+                  href: iportabledevicevaluescollection-add.md
+                - name: Clear
+                  href: iportabledevicevaluescollection-clear.md
+                - name: GetAt
+                  href: iportabledevicevaluescollection-getat.md
+                - name: GetCount
+                  href: iportabledevicevaluescollection-getcount.md
+                - name: RemoveAt
+                  href: iportabledevicevaluescollection-removeat.md
+        - name: Клиентские интерфейсы
+          href: client-interfaces.md
+          items:
+            - name: иенумпортабледевицеобжектидс
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids
+              items:
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-cancel
+                - name: Клонировать
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-clone
+                - name: Следующая
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-next
+                - name: Reset
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-reset
+                - name: Пропустить
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-skip
+            - name: ипортабледевице
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevice
+              items:
+                - name: Извещен
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-advise
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-cancel
+                - name: Характеристики
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-capabilities
+                - name: Закрыть
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-close
+                - name: Содержимое
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-content
+                - name: жетпнпдевицеид
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-getpnpdeviceid
+                - name: Открыть
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open
+                - name: SendCommand
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand
+                - name: Unadvise
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-unadvise
+            - name: ипортабледевицекапабилитиес
+              href: /windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities
+              items:
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-cancel
+                - name: жеткоммандоптионс
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions
+                - name: жетевентоптионс
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-geteventoptions
+                - name: жетфикседпропертяттрибутес
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getfixedpropertyattributes
+                - name: жетфунктионалкатегориес
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getfunctionalcategories
+                - name: жетфунктионалобжектс
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getfunctionalobjects
+                - name: жетсуппортедкоммандс
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedcommands
+                - name: жетсуппортедконтенттипес
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedcontenttypes
+                - name: жетсуппортедевентс
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedevents
+                - name: жетсуппортедформатпропертиес
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedformatproperties
+                - name: жетсуппортедформатс
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedformats
+            - name: ипортабледевицеконтент
+              href: /windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent
+              items:
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-cancel
+                - name: Копировать
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-copy
+                - name: креатеобжектвиспропертиесанддата
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata
+                - name: креатеобжектвиспропертиесонли
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesonly
+                - name: DELETE
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-delete
+                - name: енумобжектс
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-enumobjects
+                - name: жетобжектидсфромперсистентуникуеидс
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-getobjectidsfrompersistentuniqueids
+                - name: Переместить
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-move
+                - name: Свойства
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-properties
+                - name: Перенос
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-transfer
+            - name: IPortableDeviceContent2
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2
+              items:
+                - name: упдатеобжектвиспропертиесанддата
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledevicecontent2-updateobjectwithpropertiesanddata
+            - name: ипортабледевицедатастреам
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicedatastream
+              items:
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicedatastream-cancel
+                - name: GetObjectID
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicedatastream-getobjectid
+            - name: ипортабледевицеевенткаллбакк
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceeventcallback
+              items:
+                - name: OnEvent
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceeventcallback-onevent
+            - name: ипортабледевицеманажер
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager
+              items:
+                - name: жетдевицедескриптион
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevicedescription
+                - name: жетдевицефриендлинаме
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevicefriendlyname
+                - name: жетдевицемануфактурер
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevicemanufacturer
+                - name: жетдевицепроперти
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdeviceproperty
+                - name: Устройства
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevices
+                - name: жетприватедевицес
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getprivatedevices
+                - name: рефрешдевицелист
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-refreshdevicelist
+            - name: ипортабледевицепропертиес
+              href: /windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties
+              items:
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-cancel
+                - name: DELETE
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-delete
+                - name: жетпропертяттрибутес
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes
+                - name: жетсуппортедпропертиес
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getsupportedproperties
+                - name: GetValues
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getvalues
+                - name: SetValue
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-setvalues
+            - name: ипортабледевицепропертиесбулк
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk
+              items:
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-cancel
+                - name: куеуежетвалуесбйобжектформат
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectformat
+                - name: куеуежетвалуесбйобжектлист
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectlist
+                - name: куеуесетвалуесбйобжектлист
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuesetvaluesbyobjectlist
+                - name: Начало
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start
+            - name: ипортабледевицепропертиесбулккаллбакк
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback
+              items:
+                - name: оненд
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onend
+                - name: OnProgress
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onprogress
+                - name: OnStart
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onstart
+            - name: ипортабледевицересаурцес
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceresources
+              items:
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-cancel
+                - name: CreateResource
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-createresource
+                - name: DELETE
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-delete
+                - name: жетресаурцеаттрибутес
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-getresourceattributes
+                - name: GetStream
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-getstream
+                - name: жетсуппортедресаурцес
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-getsupportedresources
+            - name: ипортабледевицесервице
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice
+              items:
+                - name: Извещен
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-advise
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-cancel
+                - name: Характеристики
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-capabilities
+                - name: Закрыть
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-close
+                - name: Содержимое
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-content
+                - name: жетпнпсервицеид
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-getpnpserviceid
+                - name: жетсервицеобжектид
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-getserviceobjectid
+                - name: Методы
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-methods
+                - name: Открыть
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open
+                - name: SendCommand
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-sendcommand
+                - name: Unadvise
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-unadvise
+            - name: ипортабледевицесервицекапабилитиес
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities
+              items:
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-cancel
+                - name: жеткоммандоптионс
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getcommandoptions
+                - name: жетевентаттрибутес
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventattributes
+                - name: жетевентпараметераттрибутес
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventparameterattributes
+                - name: жетформататтрибутес
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes
+                - name: жетформатпропертяттрибутес
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatpropertyattributes
+                - name: жетформатрендерингпрофилес
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatrenderingprofiles
+                - name: жетинхеритедсервицес
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getinheritedservices
+                - name: жетмесодаттрибутес
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodattributes
+                - name: жетмесодпараметераттрибутес
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodparameterattributes
+                - name: жетсуппортедкоммандс
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedcommands
+                - name: жетсуппортедевентс
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedevents
+                - name: жетсуппортедформатпропертиес
+                  href: /windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedformatproperties
+                - name: жетсуппортедформатс
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedformats
+                - name: жетсуппортедмесодс
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedmethods
+                - name: жетсуппортедмесодсбиформат
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedmethodsbyformat
+            - name: ипортабледевицесервицеманажер
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager
+              items:
+                - name: жетдевицефорсервице
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemanager-getdeviceforservice
+                - name: жетдевицесервицес
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemanager-getdeviceservices
+            - name: ипортабледевицесервицемесодкаллбакк
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethodcallback
+              items:
+                - name: OnComplete
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethodcallback-oncomplete
+            - name: ипортабледевицесервицемесодс
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods
+              items:
+                - name: Отменить
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethods-cancel
+                - name: Invoke
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethods-invoke
+                - name: InvokeAsync
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync
+            - name: ипортабледевицеунитсстреам
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceunitsstream
+              items:
+                - name: сикинунитс
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceunitsstream-seekinunits
+        - name: Интерфейсы подключения
+          href: connection-interfaces.md
+          items:
+            - name: иконнектионрекуесткаллбакк
+              href: iconnectionrequestcallback.md
+              items:
+                - name: OnComplete
+                  href: iconnectionrequestcallback-oncomplete.md
+            - name: иенумпортабледевицеконнекторс
+              href: ienumportabledeviceconnectors.md
+              items:
+                - name: Клонировать
+                  href: ienumportabledeviceconnectors-clone.md
+                - name: Следующая
+                  href: ienumportabledeviceconnectors-next.md
+                - name: Reset
+                  href: ienumportabledeviceconnectors-reset.md
+                - name: Пропустить
+                  href: ienumportabledeviceconnectors-skip.md
+            - name: ипортабледевицеконнектор
+              href: /windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector
+              items:
+                - name: Отменить
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-cancel
+                - name: Подключение
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect
+                - name: Отключение
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect
+                - name: жетпнпид
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-getpnpid
+                - name: GetProperty
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-getproperty
+                - name: SetProperty
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-setproperty
+        - name: Вспомогательные функции
+          href: helper-functions.md
+          items:
+            - name: фрипортабледевицепнпидс
+              href: freeportabledevicepnpids.md
+        - name: Свойства и атрибуты
+          href: properties-and-attributes.md
+          items:
+            - name: Атрибуты событий
+              href: wpd-event-attributes.md
+            - name: Атрибуты формата
+              href: wpd-format-attributes.md
+            - name: Атрибуты метода
+              href: wpd-method-attributes.md
+            - name: Атрибуты свойства
+              href: attributes.md
+            - name: Атрибуты ресурсов
+              href: resource-attributes.md
+            - name: Атрибуты параметра
+              href: wpd-attributes.md
+            - name: Свойства встречи
+              href: appointment-properties.md
+            - name: Свойства звука
+              href: audio-properties.md
+            - name: Свойства расширения класса
+              href: class-extension-properties.md
+            - name: Свойства клиента
+              href: client-properties.md
+            - name: Общие сведения о свойствах
+              href: common-information-properties.md
+            - name: Свойства контакта
+              href: contact-properties.md
+            - name: Свойства устройства
+              href: device-properties.md
+            - name: Свойства электронной почты
+              href: email-properties.md
+            - name: Свойства события
+              href: event-properties.md
+            - name: Свойства изображения
+              href: image-properties.md
+            - name: Свойства носителя
+              href: media-properties.md
+            - name: Прочие свойства
+              href: miscellaneous-properties.md
+            - name: Свойства музыки
+              href: music-properties.md
+            - name: Свойства сетевой ассоциации
+              href: network-association-properties.md
+            - name: Свойства объекта
+              href: object-properties.md
+            - name: Свойства атрибута ресурса
+              href: resource-attribute-properties.md
+            - name: Свойства атрибута раздела
+              href: section-attribute-properties.md
+            - name: Свойства SMS
+              href: sms-properties.md
+            - name: Свойства неподвижных изображений
+              href: still-image-properties.md
+            - name: Свойства хранилища
+              href: storage-properties.md
+            - name: Свойства задачи
+              href: task-properties.md
+            - name: Свойства видео
+              href: video-properties.md
+        - name: Структуры и типы перечислений
+          href: structures-and-enumeration-types.md
+          items:
+            - name: DELETE_OBJECT_OPTIONS
+              href: delete-object-options.md
+            - name: SMS_MESSAGE_TYPES
+              href: sms-message-types.md
+            - name: WPD_BITRATE_TYPES
+              href: wpd-bitrate-types.md
+            - name: WPD_CAPTURE_MODES
+              href: wpd-capture-modes.md
+            - name: WPD_COLOR_CORRECTED_STATUS_VALUES
+              href: wpd-color-corrected-status-values.md
+            - name: WPD_CROPPED_STATUS_VALUES
+              href: wpd-cropped-status-values.md
+            - name: WPD_DEVICE_TRANSPORTS
+              href: wpd-device-transports.md
+            - name: WPD_EFFECT_MODES
+              href: wpd-effect-modes.md
+            - name: WPD_EXPOSURE_METERING_MODES
+              href: wpd-exposure-metering-modes.md
+            - name: WPD_EXPOSURE_PROGRAM_MODES
+              href: wpd-exposure-program-modes.md
+            - name: WPD_FLASH_MODES
+              href: wpd-flash-modes.md
+            - name: WPD_FOCUS_METERING_MODES
+              href: wpd-focus-metering-modes.md
+            - name: WPD_FOCUS_MODES
+              href: wpd-focus-modes.md
+            - name: WPD_META_GENRES
+              href: wpd-meta-genres.md
+            - name: WPD_PARAMETER_ATTRIBUTE_FORM
+              href: wpd-parameter-attribute-form.md
+            - name: WPD_PARAMETER_USAGE_TYPES
+              href: wpd-parameter-usage-types.md
+            - name: WPD_POWER_SOURCES
+              href: wpd-power-sources.md
+            - name: WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
+              href: wpd-rendering-information-profile-entry-types.md
+            - name: WPD_SECTION_DATA_UNITS_VALUES
+              href: wpd-section-data-units-values.md
+            - name: WPD_SERVICE_INHERITANCE_TYPES
+              href: wpd-service-inheritance-types2.md
+            - name: WPD_SMS_ENCODING_TYPES
+              href: wpd-sms-encoding-types.md
+            - name: WPD_STREAM_UNITS
+              href: wpd-stream-units.md
+            - name: WPD_VIDEO_SCAN_TYPES
+              href: wpd-video-scan-types.md
+            - name: WPD_WHITE_BALANCE_SETTINGS
+              href: wpd-white-balance-settings.md
+            - name: впдаттрибутеформ
+              href: wpdattributeform.md
+            - name: WPD_DEVICE_TYPES
+              href: wpd-device-types.md
+            - name: WPD_OPERATION_STATES
+              href: wpd-operation-states.md
+            - name: WPD_STORAGE_TYPE_VALUES
+              href: wpd-storage-type-values.md
+        - name: Команды
+          href: commands.md
+          items:
+            - name: Параметры команд
+              href: common-properties.md
+            - name: Команда WPD_COMMAND_COMMON_RESET_DEVICE
+              href: wpd-command-common-reset-device-command.md
+            - name: Команда WPD_COMMAND_DEVICE_HINTS_GET_CONTENT_LOCATION
+              href: wpd-command-device-hints-get-content-location-command.md
+            - name: Команда WPD_COMMAND_OBJECT_PROPERTIES_GET_SUPPORTED
+              href: wpd-command-object-properties-get-supported2.md
+            - name: Команда WPD_COMMAND_SMS_SEND
+              href: wpd-command-sms-send-command.md
+            - name: Команда WPD_COMMAND_STORAGE_EJECT
+              href: wpd-command-storage-eject-command.md
+            - name: Команда WPD_COMMAND_STORAGE_FORMAT
+              href: wpd-command-storage-format-command.md
+            - name: Команда WPD_COMMAND_STILL_IMAGE_CAPTURE_INITIATE
+              href: wpd-command-still-image-capture-initiate-command.md
+        - name: Типы содержимого
+          href: content-types.md
+          items:
+            - name: WPD_CONTENT_TYPE_ALL
+              href: wpd-content-type-all.md
+            - name: WPD_CONTENT_TYPE_APPOINTMENT
+              href: wpd-content-type-appointment.md
+            - name: WPD_CONTENT_TYPE_AUDIO
+              href: wpd-content-type-audio.md
+            - name: WPD_CONTENT_TYPE_AUDIO_ALBUM
+              href: wpd-content-type-audio-album.md
+            - name: WPD_CONTENT_TYPE_CALENDAR
+              href: wpd-content-type-calendar.md
+            - name: WPD_CONTENT_TYPE_CERTIFICATE
+              href: wpd-content-type-certificate.md
+            - name: WPD_CONTENT_TYPE_CONTACT_GROUP
+              href: wpd-content-type-contact-group.md
+            - name: WPD_CONTENT_TYPE_CONTACT
+              href: wpd-content-type-contact.md
+            - name: WPD_CONTENT_TYPE_DOCUMENT
+              href: wpd-content-type-document.md
+            - name: WPD_CONTENT_TYPE_EMAIL
+              href: wpd-content-type-email.md
+            - name: WPD_CONTENT_TYPE_FOLDER
+              href: wpd-content-type-folder.md
+            - name: WPD_CONTENT_TYPE_FUNCTIONAL_OBJECT
+              href: wpd-content-type-functional-object.md
+              items:
+                - name: WPD_FUNCTIONAL_CATEGORY_ALL
+                  href: wpd-functional-category-all.md
+                - name: WPD_FUNCTIONAL_CATEGORY_AUDIO_CAPTURE
+                  href: wpd-functional-category-audio-capture.md
+                - name: WPD_FUNCTIONAL_CATEGORY_DEVICE
+                  href: wpd-functional-category-device.md
+                - name: WPD_FUNCTIONAL_CATEGORY_NETWORK_CONFIGURATION
+                  href: wpd-functional-category-network-configuration.md
+                - name: WPD_FUNCTIONAL_CATEGORY_RENDERING_INFORMATION
+                  href: wpd-functional-category-rendering-information.md
+                - name: WPD_FUNCTIONAL_CATEGORY_SMS
+                  href: wpd-functional-category-sms.md
+                - name: WPD_FUNCTIONAL_CATEGORY_STILL_IMAGE_CAPTURE
+                  href: wpd-functional-category-still-image-capture.md
+                - name: WPD_FUNCTIONAL_CATEGORY_STORAGE
+                  href: wpd-functional-category-storage.md
+                - name: WPD_FUNCTIONAL_CATEGORY_VIDEO_CAPTURE
+                  href: wpd-functional-category-video-capture.md
+            - name: WPD_CONTENT_TYPE_GENERIC_FILE
+              href: wpd-content-type-generic-file.md
+            - name: WPD_CONTENT_TYPE_GENERIC_MESSAGE
+              href: wpd-content-type-generic-message.md
+            - name: WPD_CONTENT_TYPE_IMAGE
+              href: wpd-content-type-image.md
+            - name: WPD_CONTENT_TYPE_IMAGE_ALBUM
+              href: wpd-content-type-image-album.md
+            - name: WPD_CONTENT_TYPE_MEMO
+              href: wpd-content-type-memo.md
+            - name: WPD_CONTENT_TYPE_MEDIA_CAST
+              href: wpd-content-type-media-cast.md
+            - name: WPD_CONTENT_TYPE_MIXED_CONTENT_ALBUM
+              href: wpd-content-type-mixed-content-album.md
+            - name: WPD_CONTENT_TYPE_PLAYLIST
+              href: wpd-content-type-playlist.md
+            - name: WPD_CONTENT_TYPE_PROGRAM
+              href: wpd-content-type-program.md
+            - name: WPD_CONTENT_TYPE_SECTION
+              href: wpd-content-type-section.md
+            - name: WPD_CONTENT_TYPE_SERVICE
+              href: wpd-content-type-service.md
+            - name: WPD_CONTENT_TYPE_TASK
+              href: wpd-content-type-task.md
+            - name: WPD_CONTENT_TYPE_TELEVISION
+              href: wpd-content-type-television.md
+            - name: WPD_CONTENT_TYPE_UNSPECIFIED
+              href: wpd-content-type-unspecified.md
+            - name: WPD_CONTENT_TYPE_VIDEO
+              href: wpd-content-type-video.md
+            - name: WPD_CONTENT_TYPE_VIDEO_ALBUM
+              href: wpd-content-type-video-album.md
+            - name: WPD_CONTENT_TYPE_NETWORK_ASSOCIATION
+              href: wpd-content-type-network-association.md
+            - name: WPD_CONTENT_TYPE_WIRELESS_PROFILE
+              href: wpd-content-type-wireless-profile.md
+            - name: Объект службы
+              href: service-object.md
+        - name: Требования к ресурсам
+          href: requirements-for-resources.md
+          items:
+            - name: WPD_RESOURCE_ALBUM_ART
+              href: wpd-resource-album-art.md
+            - name: WPD_RESOURCE_AUDIO_CLIP
+              href: wpd-resource-audio-clip.md
+            - name: WPD_RESOURCE_CONTACT_PHOTO
+              href: wpd-resource-contact-photo.md
+            - name: WPD_RESOURCE_DEFAULT
+              href: wpd-resource-default.md
+            - name: WPD_RESOURCE_GENERIC
+              href: wpd-resource-generic.md
+            - name: WPD_RESOURCE_ICON
+              href: wpd-resource-icon.md
+            - name: WPD_RESOURCE_THUMBNAIL
+              href: wpd-resource-thumbnail.md
+        - name: Расширения MTP
+          href: mtp-extensions.md
+          items:
+            - name: События расширения MTP
+              href: mtp-extension-events.md
+            - name: Форматы расширений MTP
+              href: mtp-extension-formats.md
+            - name: Свойства расширения MTP
+              href: mtp-extension-properties.md
+            - name: Команды расширения MTP
+              href: mtp-extension-commands.md
+              items:
+                - name: Команда WPD_COMMAND_MTP_EXT_END_DATA_TRANSFER
+                  href: wpd-command-mtp-ext-end-data-transfer.md
+                - name: Команда WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_READ
+                  href: wpd-command-mtp-ext-execute-command-with-data-to-read.md
+                - name: Команда WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_WRITE
+                  href: wpd-command-mtp-ext-execute-command-with-data-to-write.md
+                - name: Команда WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITHOUT_DATA_PHASE
+                  href: wpd-command-mtp-ext-execute-command-without-data-phase.md
+                - name: Команда WPD_COMMAND_MTP_EXT_GET_SUPPORTED_VENDOR_OPCODES
+                  href: wpd-command-mtp-ext-get-supported-vendor-opcodes.md
+                - name: Команда WPD_COMMAND_MTP_EXT_GET_VENDOR_EXTENSION_DESCRIPTION
+                  href: wpd-command-mtp-ext-get-vendor-extension-description.md
+                - name: Команда WPD_COMMAND_MTP_EXT_READ_DATA
+                  href: wpd-command-mtp-ext-read-data.md
+                - name: Команда WPD_COMMAND_MTP_EXT_WRITE_DATA
+                  href: wpd-command-mtp-ext-write-data.md

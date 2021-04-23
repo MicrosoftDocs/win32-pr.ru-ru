@@ -1,0 +1,895 @@
+- name: "Windows Virtual\_PC"
+  href: virtual-pc-portal.md
+  items:
+    - name: Справочник по виртуальным ПК Windows
+      href: virtual-pc-reference.md
+      items:
+        - name: Константы виртуальных ПК Windows
+          href: windows-virtual-pc-constants.md
+          items:
+            - name: 'Коды HRESULT, характерные для Windows Virtual PC'
+              href: hresult-codes-specific-to-windows-virtual-pc.md
+        - name: Перечисления Windows Virtual PC
+          href: virtual-pc-enumerations.md
+          items:
+            - name: вмдисплайвидеомоде
+              href: vmdisplayvideomode.md
+            - name: вмдривебустипе
+              href: vmdrivebustype.md
+            - name: вмдриветипе
+              href: vmdrivetype.md
+            - name: вмдвддривеаттачменттипе
+              href: vmdvddriveattachmenttype.md
+            - name: вмдвддрививент
+              href: vmdvddriveevent.md
+            - name: вмендпоинттипе
+              href: vmendpointtype.md
+            - name: вмфлоппидискимажетипе
+              href: vmfloppydiskimagetype.md
+            - name: вмфлоппидривеаттачменттипе
+              href: vmfloppydriveattachmenttype.md
+            - name: вмфлоппидрививент
+              href: vmfloppydriveevent.md
+            - name: вмхарддисктипе
+              href: vmharddisktype.md
+            - name: вмлогоффтипе
+              href: vmlogofftype.md
+            - name: вммаусебуттон
+              href: vmmousebutton.md
+            - name: вмсериалпорттипе
+              href: vmserialporttype.md
+            - name: вмшутдовнактион
+              href: vmshutdownaction.md
+            - name: вмстартупоптион
+              href: vmstartupoption.md
+            - name: вмтаскресулт
+              href: vmtaskresult.md
+            - name: вмундоактион
+              href: vmundoaction.md
+            - name: вмусбдевицеклассенум
+              href: vmusbdeviceclassenum.md
+            - name: вмвиртуалмачинивентс
+              href: vmvirtualmachineevents.md
+            - name: вмвиртуалпцевент
+              href: vmvirtualpcevent.md
+            - name: вмвмстате
+              href: vmvmstate.md
+        - name: Интерфейсы виртуальных ПК Windows
+          href: virtual-pc-interfaces.md
+          items:
+            - name: ивмаккаунтант
+              href: ivmaccountant.md
+              items:
+                - name: Свойства Ивмаккаунтант
+                  href: ivmaccountant-properties.md
+                  items:
+                    - name: 'График, свойство'
+                      href: ivmaccountant-cpuutilization.md
+                    - name: 'Кпуутилизатионхистори, свойство'
+                      href: ivmaccountant-cpuutilizationhistory.md
+                    - name: 'Дискбитесреад, свойство'
+                      href: ivmaccountant-diskbytesread.md
+                    - name: 'Дискбитесвриттен, свойство'
+                      href: ivmaccountant-diskbyteswritten.md
+                    - name: 'Нетворкбитесрецеивед, свойство'
+                      href: ivmaccountant-networkbytesreceived.md
+                    - name: 'Нетворкбитессент, свойство'
+                      href: ivmaccountant-networkbytessent.md
+                    - name: Свойство "время работы"
+                      href: ivmaccountant-uptime.md
+            - name: ивмдисплай
+              href: ivmdisplay.md
+              items:
+                - name: Методы Ивмдисплай
+                  href: ivmdisplay-methods.md
+                  items:
+                    - name: Метод _GenerateThumbnail
+                      href: ivmdisplay--generatethumbnail.md
+                    - name: Метод Сетдименсионс
+                      href: ivmdisplay-setdimensions.md
+                - name: Свойства Ивмдисплай
+                  href: ivmdisplay-properties.md
+                  items:
+                    - name: 'Канресизе, свойство'
+                      href: ivmdisplay-canresize.md
+                    - name: 'Height, свойство'
+                      href: ivmdisplay-height.md
+                    - name: Свойство эскиза
+                      href: ivmdisplay-thumbnail.md
+                    - name: 'Видеомоде, свойство'
+                      href: ivmdisplay-videomode.md
+                    - name: 'Width, свойство'
+                      href: ivmdisplay-width.md
+            - name: ивмдвддриве
+              href: ivmdvddrive.md
+              items:
+                - name: Методы Ивмдвддриве
+                  href: ivmdvddrive-methods.md
+                  items:
+                    - name: Метод Аттачхостдриве
+                      href: ivmdvddrive-attachhostdrive.md
+                    - name: Метод Аттачимаже
+                      href: ivmdvddrive-attachimage.md
+                    - name: Метод Релеасехостдриве
+                      href: ivmdvddrive-releasehostdrive.md
+                    - name: Метод Релеасеимаже
+                      href: ivmdvddrive-releaseimage.md
+                    - name: Метод Сетбуслокатион
+                      href: ivmdvddrive-setbuslocation.md
+                - name: Свойства Ивмдвддриве
+                  href: ivmdvddrive-properties.md
+                  items:
+                    - name: Свойство вложения
+                      href: ivmdvddrive-attachment.md
+                    - name: 'Буснумбер, свойство'
+                      href: ivmdvddrive-busnumber.md
+                    - name: 'Девиценумбер, свойство'
+                      href: ivmdvddrive-devicenumber.md
+                    - name: 'Хостдривелеттер, свойство'
+                      href: ivmdvddrive-hostdriveletter.md
+                    - name: 'ImageFile, свойство'
+                      href: ivmdvddrive-imagefile.md
+            - name: ивмдвддривеколлектион
+              href: ivmdvddrivecollection.md
+              items:
+                - name: Свойства Ивмдвддривеколлектион
+                  href: ivmdvddrivecollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: ivmdvddrivecollection--newenum.md
+                    - name: 'Count, свойство'
+                      href: ivmdvddrivecollection-count.md
+                    - name: Свойство Item
+                      href: ivmdvddrivecollection-item.md
+            - name: ивмдвддрививентс
+              href: ivmdvddriveevents.md
+              items:
+                - name: Методы Ивмдвддрививентс
+                  href: ivmdvddriveevents-methods.md
+                  items:
+                    - name: Метод Онмедиаежект
+                      href: ivmdvddriveevents-onmediaeject.md
+                    - name: Метод Онмедиаинсерт
+                      href: ivmdvddriveevents-onmediainsert.md
+            - name: ивмфлоппидриве
+              href: ivmfloppydrive.md
+              items:
+                - name: Методы Ивмфлоппидриве
+                  href: ivmfloppydrive-methods.md
+                  items:
+                    - name: Метод Аттачхостдриве
+                      href: ivmfloppydrive-attachhostdrive.md
+                    - name: Метод Аттачимаже
+                      href: ivmfloppydrive-attachimage.md
+                    - name: Метод Релеасехостдриве
+                      href: ivmfloppydrive-releasehostdrive.md
+                    - name: Метод Релеасеимаже
+                      href: ivmfloppydrive-releaseimage.md
+                - name: Свойства Ивмфлоппидриве
+                  href: ivmfloppydrive-properties.md
+                  items:
+                    - name: Свойство вложения
+                      href: ivmfloppydrive-attachment.md
+                    - name: 'Дривенумбер, свойство'
+                      href: ivmfloppydrive-drivenumber.md
+                    - name: 'Хостдривелеттер, свойство'
+                      href: ivmfloppydrive-hostdriveletter.md
+                    - name: 'ImageFile, свойство'
+                      href: ivmfloppydrive-imagefile.md
+            - name: ивмфлоппидривеколлектион
+              href: ivmfloppydrivecollection.md
+              items:
+                - name: Свойства Ивмфлоппидривеколлектион
+                  href: ivmfloppydrivecollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: ivmfloppydrivecollection--newenum.md
+                    - name: 'Count, свойство'
+                      href: ivmfloppydrivecollection-count.md
+                    - name: Свойство Item
+                      href: ivmfloppydrivecollection-item.md
+            - name: ивмфлоппидрививентс
+              href: ivmfloppydriveevents.md
+              items:
+                - name: Методы Ивмфлоппидрививентс
+                  href: ivmfloppydriveevents-methods.md
+                  items:
+                    - name: Метод Онмедиаежект
+                      href: ivmfloppydriveevents-onmediaeject.md
+                    - name: Метод Онмедиаинсерт
+                      href: ivmfloppydriveevents-onmediainsert.md
+            - name: ивмгуестос
+              href: ivmguestos.md
+              items:
+                - name: Методы Ивмгуестос
+                  href: ivmguestos-methods.md
+                  items:
+                    - name: Метод Жетосверсионинфо
+                      href: ivmguestos-getosversioninfo.md
+                    - name: Метод PARAMETERIZATION
+                      href: ivmguestos-getparameter.md
+                    - name: Метод Инсталлинтегратионкомпонентс
+                      href: ivmguestos-installintegrationcomponents.md
+                    - name: Метод Исусерлогжедон
+                      href: ivmguestos-isuserloggedon.md
+                    - name: Метод выхода из системы
+                      href: ivmguestos-logoff.md
+                    - name: Метод Restart
+                      href: ivmguestos-restart.md
+                    - name: Метод Сетпараметер
+                      href: ivmguestos-setparameter.md
+                    - name: Метод Shutdown
+                      href: ivmguestos-shutdown.md
+                - name: Свойства Ивмгуестос
+                  href: ivmguestos-properties.md
+                  items:
+                    - name: 'Каншутдовн, свойство'
+                      href: ivmguestos-canshutdown.md
+                    - name: 'ComputerName, свойство'
+                      href: ivmguestos-computername.md
+                    - name: 'Ксдверсион, свойство'
+                      href: ivmguestos-csdversion.md
+                    - name: 'Хеартбеатперцентаже, свойство'
+                      href: ivmguestos-heartbeatpercentage.md
+                    - name: 'Интегратионкомпонентсверсион, свойство'
+                      href: ivmguestos-integrationcomponentsversion.md
+                    - name: Свойство "Пульс"
+                      href: ivmguestos-isheartbeating.md
+                    - name: 'Ишосттимесинценаблед, свойство'
+                      href: ivmguestos-ishosttimesyncenabled.md
+                    - name: 'Мултиплеусерсессионсалловед, свойство'
+                      href: ivmguestos-multipleusersessionsallowed.md
+                    - name: 'Осбуилднумбер, свойство'
+                      href: ivmguestos-osbuildnumber.md
+                    - name: 'Дочерний osmajorversion, свойство'
+                      href: ivmguestos-osmajorversion.md
+                    - name: 'Дочерний osminorversion, свойство'
+                      href: ivmguestos-osminorversion.md
+                    - name: 'OSName, свойство'
+                      href: ivmguestos-osname.md
+                    - name: 'Осплатформид, свойство'
+                      href: ivmguestos-osplatformid.md
+                    - name: 'OSVersion, свойство'
+                      href: ivmguestos-osversion.md
+                    - name: 'Продукттипе, свойство'
+                      href: ivmguestos-producttype.md
+                    - name: 'Скринлоккед, свойство'
+                      href: ivmguestos-screenlocked.md
+                    - name: 'Сервицепаккмажор, свойство'
+                      href: ivmguestos-servicepackmajor.md
+                    - name: 'Сервицепаккминор, свойство'
+                      href: ivmguestos-servicepackminor.md
+                    - name: 'Суитемаск, свойство'
+                      href: ivmguestos-suitemask.md
+                    - name: 'Терминалсерверпорт, свойство'
+                      href: ivmguestos-terminalserverport.md
+                    - name: 'Терминалсервицесинитиализед, свойство'
+                      href: ivmguestos-terminalservicesinitialized.md
+            - name: ивмхарддиск
+              href: ivmharddisk.md
+              items:
+                - name: Методы Ивмхарддиск
+                  href: ivmharddisk-methods.md
+                  items:
+                    - name: Метод Compact
+                      href: ivmharddisk-compact.md
+                    - name: 'Convert, метод'
+                      href: ivmharddisk-convert.md
+                    - name: Метод Merge
+                      href: ivmharddisk-merge.md
+                    - name: Метод Мержето
+                      href: ivmharddisk-mergeto.md
+                - name: Свойства Ивмхарддиск
+                  href: ivmharddisk-properties.md
+                  items:
+                    - name: Свойство файла
+                      href: ivmharddisk-file.md
+                    - name: 'Хостфридискспаце, свойство'
+                      href: ivmharddisk-hostfreediskspace.md
+                    - name: Родительское свойство
+                      href: ivmharddisk-parent.md
+                    - name: 'Сизеингуест, свойство'
+                      href: ivmharddisk-sizeinguest.md
+                    - name: 'Сизеонхост, свойство'
+                      href: ivmharddisk-sizeonhost.md
+                    - name: Свойство Type
+                      href: ivmharddisk-type.md
+            - name: ивмхарддискконнектион
+              href: ivmharddiskconnection.md
+              items:
+                - name: Методы Ивмхарддискконнектион
+                  href: ivmharddiskconnection-methods.md
+                  items:
+                    - name: Метод Сетбуслокатион
+                      href: ivmharddiskconnection-setbuslocation.md
+                - name: Свойства Ивмхарддискконнектион
+                  href: ivmharddiskconnection-properties.md
+                  items:
+                    - name: 'Буснумбер, свойство'
+                      href: ivmharddiskconnection-busnumber.md
+                    - name: 'Девиценумбер, свойство'
+                      href: ivmharddiskconnection-devicenumber.md
+                    - name: Свойство жесткого диска
+                      href: ivmharddiskconnection-harddisk.md
+                    - name: 'Ундохарддиск, свойство'
+                      href: ivmharddiskconnection-undoharddisk.md
+            - name: ивмхарддискконнектионколлектион
+              href: ivmharddiskconnectioncollection.md
+              items:
+                - name: Свойства Ивмхарддискконнектионколлектион
+                  href: ivmharddiskconnectioncollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: ivmharddiskconnectioncollection--newenum.md
+                    - name: 'Count, свойство'
+                      href: ivmharddiskconnectioncollection-count.md
+                    - name: Свойство Item
+                      href: ivmharddiskconnectioncollection-item.md
+            - name: ивмхостинфо
+              href: ivmhostinfo.md
+              items:
+                - name: Свойства Ивмхостинфо
+                  href: ivmhostinfo-properties.md
+                  items:
+                    - name: 'Двддривес, свойство'
+                      href: ivmhostinfo-dvddrives.md
+                    - name: 'Флоппидривес, свойство'
+                      href: ivmhostinfo-floppydrives.md
+                    - name: 'Логикалпроцессоркаунт, свойство'
+                      href: ivmhostinfo-logicalprocessorcount.md
+                    - name: 'Memory, свойство'
+                      href: ivmhostinfo-memory.md
+                    - name: 'Меморяваил, свойство'
+                      href: ivmhostinfo-memoryavail.md
+                    - name: 'Меморяваилстринг, свойство'
+                      href: ivmhostinfo-memoryavailstring.md
+                    - name: 'Меморитоталстринг, свойство'
+                      href: ivmhostinfo-memorytotalstring.md
+                    - name: 'MMX, свойство'
+                      href: ivmhostinfo-mmx.md
+                    - name: 'Адаптера, свойство'
+                      href: ivmhostinfo-networkadapters.md
+                    - name: 'NetworkAddresses, свойство'
+                      href: ivmhostinfo-networkaddresses.md
+                    - name: Свойство операционной системы
+                      href: ivmhostinfo-operatingsystem.md
+                    - name: 'Дочерний osmajorversion, свойство'
+                      href: ivmhostinfo-osmajorversion.md
+                    - name: 'Дочерний osminorversion, свойство'
+                      href: ivmhostinfo-osminorversion.md
+                    - name: 'Оссервицепаккстринг, свойство'
+                      href: ivmhostinfo-osservicepackstring.md
+                    - name: 'Осверсионстринг, свойство'
+                      href: ivmhostinfo-osversionstring.md
+                    - name: 'Параллелпорт, свойство'
+                      href: ivmhostinfo-parallelport.md
+                    - name: 'Фисикалпроцессоркаунт, свойство'
+                      href: ivmhostinfo-physicalprocessorcount.md
+                    - name: 'Процессорфеатуресстринг, свойство'
+                      href: ivmhostinfo-processorfeaturesstring.md
+                    - name: 'Процессормануфактурерстринг, свойство'
+                      href: ivmhostinfo-processormanufacturerstring.md
+                    - name: 'ProcessorSpeed, свойство'
+                      href: ivmhostinfo-processorspeed.md
+                    - name: 'Процессорспидстринг, свойство'
+                      href: ivmhostinfo-processorspeedstring.md
+                    - name: 'Процессорверсионстринг, свойство'
+                      href: ivmhostinfo-processorversionstring.md
+                    - name: 'Сериалпортс, свойство'
+                      href: ivmhostinfo-serialports.md
+                    - name: Свойство SSE
+                      href: ivmhostinfo-sse.md
+                    - name: Свойство SSE2
+                      href: ivmhostinfo-sse2.md
+                    - name: 'Сриднов, свойство'
+                      href: ivmhostinfo-threednow.md
+                    - name: 'Утктиме, свойство'
+                      href: ivmhostinfo-utctime.md
+            - name: ивмкэйбоард
+              href: ivmkeyboard.md
+              items:
+                - name: Методы Ивмкэйбоард
+                  href: ivmkeyboard-methods.md
+                  items:
+                    - name: Метод с методом onPress
+                      href: ivmkeyboard-ispressed.md
+                    - name: Метод Прессандрелеасекэй
+                      href: ivmkeyboard-pressandreleasekey.md
+                    - name: Метод Пресскэй
+                      href: ivmkeyboard-presskey.md
+                    - name: Метод Релеасекэй
+                      href: ivmkeyboard-releasekey.md
+                    - name: Метод ТипеасЦиитекст
+                      href: ivmkeyboard-typeasciitext.md
+                    - name: Метод Типекэйсекуенце
+                      href: ivmkeyboard-typekeysequence.md
+                - name: Свойства Ивмкэйбоард
+                  href: ivmkeyboard-properties.md
+                  items:
+                    - name: 'Хасексклусивеакцесс, свойство'
+                      href: ivmkeyboard-hasexclusiveaccess.md
+            - name: ивммаусе
+              href: ivmmouse.md
+              items:
+                - name: Методы Ивммаусе
+                  href: ivmmouse-methods.md
+                  items:
+                    - name: Метод Click
+                      href: ivmmouse-click.md
+                    - name: Метод "Кнопка"
+                      href: ivmmouse-getbutton.md
+                    - name: Метод Сетбуттон
+                      href: ivmmouse-setbutton.md
+                - name: Свойства Ивммаусе
+                  href: ivmmouse-properties.md
+                  items:
+                    - name: 'Хоризонталпоситион, свойство'
+                      href: ivmmouse-horizontalposition.md
+                    - name: 'Скроллвхилпоситион, свойство'
+                      href: ivmmouse-scrollwheelposition.md
+                    - name: 'Усингабсолутекурдинатес, свойство'
+                      href: ivmmouse-usingabsolutecoordinates.md
+                    - name: 'Вертикалпоситион, свойство'
+                      href: ivmmouse-verticalposition.md
+            - name: ивмнетворкадаптер
+              href: ivmnetworkadapter.md
+              items:
+                - name: Методы Ивмнетворкадаптер
+                  href: ivmnetworkadapter-methods.md
+                  items:
+                    - name: Метод _ID
+                      href: ivmnetworkadapter--id.md
+                    - name: Метод Аттачтовиртуалнетворк
+                      href: ivmnetworkadapter-attachtovirtualnetwork.md
+                    - name: Метод Детачфромвиртуалнетворк
+                      href: ivmnetworkadapter-detachfromvirtualnetwork.md
+                - name: Свойства Ивмнетворкадаптер
+                  href: ivmnetworkadapter-properties.md
+                  items:
+                    - name: 'Есернетаддресс, свойство'
+                      href: ivmnetworkadapter-ethernetaddress.md
+                    - name: 'Исесернетаддрессдинамик, свойство'
+                      href: ivmnetworkadapter-isethernetaddressdynamic.md
+                    - name: 'VirtualMachine, свойство'
+                      href: ivmnetworkadapter-virtualmachine.md
+                    - name: 'VirtualNetwork, свойство'
+                      href: ivmnetworkadapter-virtualnetwork.md
+            - name: ивмнетворкадаптерколлектион
+              href: ivmnetworkadaptercollection.md
+              items:
+                - name: Свойства Ивмнетворкадаптерколлектион
+                  href: ivmnetworkadaptercollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: ivmnetworkadaptercollection--newenum.md
+                    - name: 'Count, свойство'
+                      href: ivmnetworkadaptercollection-count.md
+                    - name: Свойство Item
+                      href: ivmnetworkadaptercollection-item.md
+            - name: ивмпараллелпорт
+              href: ivmparallelport.md
+              items:
+                - name: Методы Ивмпараллелпорт
+                  href: ivmparallelport-methods.md
+                  items:
+                    - name: Метод _ID
+                      href: ivmparallelport--id.md
+                - name: Свойства Ивмпараллелпорт
+                  href: ivmparallelport-properties.md
+                  items:
+                    - name: Свойство Name
+                      href: ivmparallelport-name.md
+            - name: ивмпараллелпортколлектион
+              href: ivmparallelportcollection.md
+              items:
+                - name: Свойства Ивмпараллелпортколлектион
+                  href: ivmparallelportcollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: ivmparallelportcollection--newenum.md
+                    - name: 'Count, свойство'
+                      href: ivmparallelportcollection-count.md
+                    - name: Свойство Item
+                      href: ivmparallelportcollection-item.md
+            - name: ивмсериалпорт
+              href: ivmserialport.md
+              items:
+                - name: Методы Ивмсериалпорт
+                  href: ivmserialport-methods.md
+                  items:
+                    - name: Метод _ID
+                      href: ivmserialport--id.md
+                    - name: Метод Configure
+                      href: ivmserialport-configure.md
+                - name: Свойства Ивмсериалпорт
+                  href: ivmserialport-properties.md
+                  items:
+                    - name: 'Коннектиммедиатели, свойство'
+                      href: ivmserialport-connectimmediately.md
+                    - name: Свойство Name
+                      href: ivmserialport-name.md
+                    - name: Свойство Type
+                      href: ivmserialport-type.md
+            - name: ивмсериалпортколлектион
+              href: ivmserialportcollection.md
+              items:
+                - name: Свойства Ивмсериалпортколлектион
+                  href: ivmserialportcollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: ivmserialportcollection--newenum.md
+                    - name: 'Count, свойство'
+                      href: ivmserialportcollection-count.md
+                    - name: Свойство Item
+                      href: ivmserialportcollection-item.md
+            - name: ивмтаск
+              href: ivmtask.md
+              items:
+                - name: Методы Ивмтаск
+                  href: ivmtask-methods.md
+                  items:
+                    - name: Метод Cancel
+                      href: ivmtask-cancel.md
+                    - name: Метод Ваитфоркомплетион
+                      href: ivmtask-waitforcompletion.md
+                - name: Свойства Ивмтаск
+                  href: ivmtask-properties.md
+                  items:
+                    - name: Свойство Description
+                      href: ivmtask-description.md
+                    - name: 'Error, свойство'
+                      href: ivmtask-error.md
+                    - name: 'ErrorDescription, свойство'
+                      href: ivmtask-errordescription.md
+                    - name: Свойство "Идентификатор"
+                      href: ivmtask-id.md
+                    - name: 'Свойство, которое доменяется'
+                      href: ivmtask-iscancelable.md
+                    - name: Свойство AutoComplete
+                      href: ivmtask-iscomplete.md
+                    - name: 'Перценткомплетед, свойство'
+                      href: ivmtask-percentcompleted.md
+                    - name: Свойство Result
+                      href: ivmtask-result.md
+            - name: ивмтаскколлектион
+              href: ivmtaskcollection.md
+              items:
+                - name: Свойства Ивмтаскколлектион
+                  href: ivmtaskcollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: ivmtaskcollection--newenum.md
+                    - name: 'Count, свойство'
+                      href: ivmtaskcollection-count.md
+                    - name: Свойство Item
+                      href: ivmtaskcollection-item.md
+            - name: ивмусбдевице
+              href: ivmusbdevice.md
+              items:
+                - name: Свойства Ивмусбдевице
+                  href: ivmusbdevice-properties.md
+                  items:
+                    - name: 'Аттачедтовм, свойство'
+                      href: ivmusbdevice-attachedtovm.md
+                    - name: 'Девицекласс, свойство'
+                      href: ivmusbdevice-deviceclass.md
+                    - name: 'Девицестринг, свойство'
+                      href: ivmusbdevice-devicestring.md
+                    - name: 'Хубид, свойство'
+                      href: ivmusbdevice-hubid.md
+                    - name: 'Мануфактурерстринг, свойство'
+                      href: ivmusbdevice-manufacturerstring.md
+                    - name: Свойство порта
+                      href: ivmusbdevice-port.md
+            - name: ивмусбдевицеколлектион
+              href: ivmusbdevicecollection.md
+              items:
+                - name: Свойства Ивмусбдевицеколлектион
+                  href: ivmusbdevicecollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: ivmusbdevicecollection--newenum.md
+                    - name: 'Count, свойство'
+                      href: ivmusbdevicecollection-count.md
+                    - name: Свойство Item
+                      href: ivmusbdevicecollection-item.md
+            - name: ивмвиртуалмачине
+              href: ivmvirtualmachine.md
+              items:
+                - name: Методы Ивмвиртуалмачине
+                  href: ivmvirtualmachine-methods.md
+                  items:
+                    - name: Метод Адддвдромдриве
+                      href: ivmvirtualmachine-adddvdromdrive.md
+                    - name: Метод AddHardDiskConnection
+                      href: ivmvirtualmachine-addharddiskconnection.md
+                    - name: Метод Адднетворкадаптер
+                      href: ivmvirtualmachine-addnetworkadapter.md
+                    - name: Метод Аттачусбдевице
+                      href: ivmvirtualmachine-attachusbdevice.md
+                    - name: Метод Детачусбдевице
+                      href: ivmvirtualmachine-detachusbdevice.md
+                    - name: Метод Дискардсаведстате
+                      href: ivmvirtualmachine-discardsavedstate.md
+                    - name: Метод Дискардундодискс
+                      href: ivmvirtualmachine-discardundodisks.md
+                    - name: Метод Жетактиватионвалуе
+                      href: ivmvirtualmachine-getactivationvalue.md
+                    - name: Метод Жетконфигуратионвалуе
+                      href: ivmvirtualmachine-getconfigurationvalue.md
+                    - name: Метод Мержеундодискс
+                      href: ivmvirtualmachine-mergeundodisks.md
+                    - name: Приостановить метод
+                      href: ivmvirtualmachine-pause.md
+                    - name: Метод Ремовеактиватионвалуе
+                      href: ivmvirtualmachine-removeactivationvalue.md
+                    - name: Метод Ремовеконфигуратионвалуе
+                      href: ivmvirtualmachine-removeconfigurationvalue.md
+                    - name: Метод Ремоведвдромдриве
+                      href: ivmvirtualmachine-removedvdromdrive.md
+                    - name: Метод Ремовехарддискконнектион
+                      href: ivmvirtualmachine-removeharddiskconnection.md
+                    - name: Метод Ремовенетворкадаптер
+                      href: ivmvirtualmachine-removenetworkadapter.md
+                    - name: Метод Reset
+                      href: ivmvirtualmachine-reset.md
+                    - name: Метод Resume
+                      href: ivmvirtualmachine-resume.md
+                    - name: Метод Save
+                      href: ivmvirtualmachine-save.md
+                    - name: Метод Сетактиватионвалуе
+                      href: ivmvirtualmachine-setactivationvalue.md
+                    - name: Метод Сетконфигуратионвалуе
+                      href: ivmvirtualmachine-setconfigurationvalue.md
+                    - name: Метод Старткоммуникатиончаннел
+                      href: ivmvirtualmachine-startcommunicationchannel.md
+                    - name: Метод запуска
+                      href: ivmvirtualmachine-startup.md
+                    - name: Метод Startup2
+                      href: ivmvirtualmachine-startup2.md
+                    - name: Метод Турнофф
+                      href: ivmvirtualmachine-turnoff.md
+                - name: Свойства Ивмвиртуалмачине
+                  href: ivmvirtualmachine-properties.md
+                  items:
+                    - name: Свойство бухгалтера
+                      href: ivmvirtualmachine-accountant.md
+                    - name: 'Аттачеддриветипес, свойство'
+                      href: ivmvirtualmachine-attacheddrivetypes.md
+                    - name: 'Басебоардсериалнумбер, свойство'
+                      href: ivmvirtualmachine-baseboardserialnumber.md
+                    - name: 'БИОСГУИД, свойство'
+                      href: ivmvirtualmachine-biosguid.md
+                    - name: 'Биоссериалнумбер, свойство'
+                      href: ivmvirtualmachine-biosserialnumber.md
+                    - name: 'Чассисассеттаг, свойство'
+                      href: ivmvirtualmachine-chassisassettag.md
+                    - name: 'Чассиссериалнумбер, свойство'
+                      href: ivmvirtualmachine-chassisserialnumber.md
+                    - name: 'Конфигид, свойство'
+                      href: ivmvirtualmachine-configid.md
+                    - name: Отображаемое свойство
+                      href: ivmvirtualmachine-display.md
+                    - name: 'Двдромдривес, свойство'
+                      href: ivmvirtualmachine-dvdromdrives.md
+                    - name: Свойство файла
+                      href: ivmvirtualmachine-file.md
+                    - name: 'Флоппидривес, свойство'
+                      href: ivmvirtualmachine-floppydrives.md
+                    - name: 'Гуестос, свойство'
+                      href: ivmvirtualmachine-guestos.md
+                    - name: 'Харддискконнектионс, свойство'
+                      href: ivmvirtualmachine-harddiskconnections.md
+                    - name: 'Has3DNow, свойство'
+                      href: ivmvirtualmachine-has3dnow.md
+                    - name: 'Хасммкс, свойство'
+                      href: ivmvirtualmachine-hasmmx.md
+                    - name: 'Хасссе, свойство'
+                      href: ivmvirtualmachine-hassse.md
+                    - name: 'HasSSE2, свойство'
+                      href: ivmvirtualmachine-hassse2.md
+                    - name: Свойство клавиатуры
+                      href: ivmvirtualmachine-keyboard.md
+                    - name: 'Memory, свойство'
+                      href: ivmvirtualmachine-memory.md
+                    - name: Свойство мыши
+                      href: ivmvirtualmachine-mouse.md
+                    - name: Свойство Name
+                      href: ivmvirtualmachine-name.md
+                    - name: 'Адаптера, свойство'
+                      href: ivmvirtualmachine-networkadapters.md
+                    - name: Свойство Notes
+                      href: ivmvirtualmachine-notes.md
+                    - name: 'Параллелпортс, свойство'
+                      href: ivmvirtualmachine-parallelports.md
+                    - name: 'ProcessorSpeed, свойство'
+                      href: ivmvirtualmachine-processorspeed.md
+                    - name: 'Рдппипенаме, свойство'
+                      href: ivmvirtualmachine-rdppipename.md
+                    - name: 'Саведстатефилепас, свойство'
+                      href: ivmvirtualmachine-savedstatefilepath.md
+                    - name: 'Сериалпортс, свойство'
+                      href: ivmvirtualmachine-serialports.md
+                    - name: 'Шутдовнактиононкуит, свойство'
+                      href: ivmvirtualmachine-shutdownactiononquit.md
+                    - name: Свойство State
+                      href: ivmvirtualmachine-state.md
+                    - name: 'Свойство, которое следует отменить'
+                      href: ivmvirtualmachine-undoable.md
+                    - name: 'Ундоактион, свойство'
+                      href: ivmvirtualmachine-undoaction.md
+            - name: ивмвиртуалмачинеколлектион
+              href: ivmvirtualmachinecollection.md
+              items:
+                - name: Свойства Ивмвиртуалмачинеколлектион
+                  href: ivmvirtualmachinecollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: ivmvirtualmachinecollection--newenum.md
+                    - name: 'Count, свойство'
+                      href: ivmvirtualmachinecollection-count.md
+                    - name: Свойство Item
+                      href: ivmvirtualmachinecollection-item.md
+            - name: ивмвиртуалмачинивентс
+              href: ivmvirtualmachineevents.md
+              items:
+                - name: Методы Ивмвиртуалмачинивентс
+                  href: ivmvirtualmachineevents-methods.md
+                  items:
+                    - name: Метод Онаддитионсаваилабле
+                      href: ivmvirtualmachineevents-onadditionsavailable.md
+                    - name: Метод Онаддитионсунинсталлед
+                      href: ivmvirtualmachineevents-onadditionsuninstalled.md
+                    - name: Метод Онконфигуратиончанжед
+                      href: ivmvirtualmachineevents-onconfigurationchanged.md
+                    - name: Метод Ондискаутофспаце
+                      href: ivmvirtualmachineevents-ondiskoutofspace.md
+                    - name: Метод Оненханцедвидеомодечанжед
+                      href: ivmvirtualmachineevents-onenhancedvideomodechanged.md
+                    - name: Метод Онгуестлогофф
+                      href: ivmvirtualmachineevents-onguestlogoff.md
+                    - name: Метод Онгуестшутдовн
+                      href: ivmvirtualmachineevents-onguestshutdown.md
+                    - name: Метод Онхеартбеатстоппед
+                      href: ivmvirtualmachineevents-onheartbeatstopped.md
+                    - name: Метод Онрекуестшутдовн
+                      href: ivmvirtualmachineevents-onrequestshutdown.md
+                    - name: Метод OnReset
+                      href: ivmvirtualmachineevents-onreset.md
+                    - name: Метод Онстатечанже
+                      href: ivmvirtualmachineevents-onstatechange.md
+                    - name: Метод Онтриплефаулт
+                      href: ivmvirtualmachineevents-ontriplefault.md
+            - name: ивмвиртуалнетворк
+              href: ivmvirtualnetwork.md
+              items:
+                - name: Методы Ивмвиртуалнетворк
+                  href: ivmvirtualnetwork-methods.md
+                  items:
+                    - name: Метод _ID
+                      href: ivmvirtualnetwork--id.md
+                - name: Свойства Ивмвиртуалнетворк
+                  href: ivmvirtualnetwork-properties.md
+                  items:
+                    - name: 'Хостадаптер, свойство'
+                      href: ivmvirtualnetwork-hostadapter.md
+                    - name: Свойство MediaType
+                      href: /previous-versions/windows/desktop/legacy/dd796707(v=vs.85)
+                    - name: Свойство Name
+                      href: ivmvirtualnetwork-name.md
+                    - name: 'Адаптера, свойство'
+                      href: ivmvirtualnetwork-networkadapters.md
+            - name: ивмвиртуалнетворкколлектион
+              href: ivmvirtualnetworkcollection.md
+              items:
+                - name: Свойства Ивмвиртуалнетворкколлектион
+                  href: ivmvirtualnetworkcollection-properties.md
+                  items:
+                    - name: '_NewEnum, свойство'
+                      href: ivmvirtualnetworkcollection--newenum.md
+                    - name: 'Count, свойство'
+                      href: ivmvirtualnetworkcollection-count.md
+                    - name: Свойство Item
+                      href: ivmvirtualnetworkcollection-item.md
+            - name: ивмвиртуалпк
+              href: ivmvirtualpc.md
+              items:
+                - name: Методы Ивмвиртуалпк
+                  href: ivmvirtualpc-methods.md
+                  items:
+                    - name: Метод КреатедифференЦингвиртуалхарддиск
+                      href: ivmvirtualpc-createdifferencingvirtualharddisk.md
+                    - name: Метод Креатединамиквиртуалхарддиск
+                      href: ivmvirtualpc-createdynamicvirtualharddisk.md
+                    - name: Метод Креатефикседвиртуалхарддиск
+                      href: ivmvirtualpc-createfixedvirtualharddisk.md
+                    - name: Метод Креатефлоппидискимаже
+                      href: ivmvirtualpc-createfloppydiskimage.md
+                    - name: Метод Креатевиртуалмачине
+                      href: ivmvirtualpc-createvirtualmachine.md
+                    - name: Метод Делетевиртуалмачине
+                      href: ivmvirtualpc-deletevirtualmachine.md
+                    - name: Метод Финдвиртуалмачине
+                      href: ivmvirtualpc-findvirtualmachine.md
+                    - name: Метод Финдвиртуалнетворк
+                      href: ivmvirtualpc-findvirtualnetwork.md
+                    - name: Метод Жетконфигуратионвалуе
+                      href: ivmvirtualpc-getconfigurationvalue.md
+                    - name: Метод Жетдвдфилес
+                      href: ivmvirtualpc-getdvdfiles.md
+                    - name: Метод Жетфлоппидискфилес
+                      href: ivmvirtualpc-getfloppydiskfiles.md
+                    - name: Метод Жетфлоппидискимажетипе
+                      href: ivmvirtualpc-getfloppydiskimagetype.md
+                    - name: Метод Жесарддиск
+                      href: ivmvirtualpc-getharddisk.md
+                    - name: Метод Жесарддискфилес
+                      href: ivmvirtualpc-getharddiskfiles.md
+                    - name: Метод Жетвиртуалмачинефилес
+                      href: ivmvirtualpc-getvirtualmachinefiles.md
+                    - name: Метод Регистервиртуалмачине
+                      href: ivmvirtualpc-registervirtualmachine.md
+                    - name: Метод Ремовеконфигуратионвалуе
+                      href: ivmvirtualpc-removeconfigurationvalue.md
+                    - name: Метод Сетконфигуратионвалуе
+                      href: ivmvirtualpc-setconfigurationvalue.md
+                    - name: Метод Унрегистервиртуалмачине
+                      href: ivmvirtualpc-unregistervirtualmachine.md
+                - name: Свойства Ивмвиртуалпк
+                  href: ivmvirtualpc-properties.md
+                  items:
+                    - name: 'Дефаултвмконфигуратионпас, свойство'
+                      href: ivmvirtualpc-defaultvmconfigurationpath.md
+                    - name: 'Хостинфо, свойство'
+                      href: ivmvirtualpc-hostinfo.md
+                    - name: 'Максимумфлоппидривеспервм, свойство'
+                      href: ivmvirtualpc-maximumfloppydrivespervm.md
+                    - name: 'Максимуммеморипервм, свойство'
+                      href: ivmvirtualpc-maximummemorypervm.md
+                    - name: 'Максимумнетворкадаптерспервм, свойство'
+                      href: ivmvirtualpc-maximumnetworkadapterspervm.md
+                    - name: 'Максимумнумберофидебусес, свойство'
+                      href: ivmvirtualpc-maximumnumberofidebuses.md
+                    - name: 'Максимумпараллелпортспервм, свойство'
+                      href: ivmvirtualpc-maximumparallelportspervm.md
+                    - name: 'Максимумсериалпортспервм, свойство'
+                      href: ivmvirtualpc-maximumserialportspervm.md
+                    - name: 'Минимуммеморипервм, свойство'
+                      href: ivmvirtualpc-minimummemorypervm.md
+                    - name: Свойство Name
+                      href: ivmvirtualpc-name.md
+                    - name: 'Сеарчпасс, свойство'
+                      href: ivmvirtualpc-searchpaths.md
+                    - name: 'Сугжестедмаксимуммеморипервм, свойство'
+                      href: ivmvirtualpc-suggestedmaximummemorypervm.md
+                    - name: 'Tasks, свойство'
+                      href: ivmvirtualpc-tasks.md
+                    - name: 'Унконнектеднетворкадаптерс, свойство'
+                      href: ivmvirtualpc-unconnectednetworkadapters.md
+                    - name: Свойство "время работы"
+                      href: ivmvirtualpc-uptime.md
+                    - name: 'Усбдевицеколлектион, свойство'
+                      href: ivmvirtualpc-usbdevicecollection.md
+                    - name: Свойство Version
+                      href: ivmvirtualpc-version.md
+                    - name: 'VirtualMachines, свойство'
+                      href: ivmvirtualpc-virtualmachines.md
+                    - name: 'VirtualNetworks, свойство'
+                      href: ivmvirtualpc-virtualnetworks.md
+            - name: ивмвиртуалпцевентс
+              href: ivmvirtualpcevents.md
+              items:
+                - name: Методы Ивмвиртуалпцевентс
+                  href: ivmvirtualpcevents-methods.md
+                  items:
+                    - name: Метод Оневентлогжед
+                      href: ivmvirtualpcevents-oneventlogged.md
+                    - name: Метод Онвмстатечанже
+                      href: ivmvirtualpcevents-onvmstatechange.md
+        - name: Структуры виртуальных ПК Windows
+          href: windows-virtual-pc-structures.md
+          items:
+            - name: гуестосверсионинфоекс
+              href: guestosversioninfoex.md
+        - name: Последовательности ключей
+          href: key-sequences.md

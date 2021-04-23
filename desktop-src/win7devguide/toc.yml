@@ -1,0 +1,50 @@
+- name: Руководством для разработчиков Windows 7
+  href: windows-7-developer-guide.md
+  items:
+    - name: Введение
+      href: introduction.md
+    - name: Твердая основа
+      href: solid-foundation.md
+      items:
+        - name: Совместимость и надежность
+          href: compatibility-and-reliability.md
+        - name: Управление и развертывание
+          href: management-and-deployment.md
+        - name: Безопасность
+          href: security.md
+        - name: Производительность
+          href: performance.md
+        - name: Документы и периферийные устройства документов
+          href: documents-and-document-peripherals.md
+        - name: Доступность и Глобальная поддержка
+          href: accessibility-and-global-support.md
+    - name: Более широкие возможности приложений
+      href: richer-application-experiences.md
+      items:
+        - name: Интуитивно понятный пользовательский интерфейс
+          href: intuitive-user-experience.md
+        - name: Рукописный ввод и рукописный ввод
+          href: handwriting-and-ink.md
+        - name: Возможности рабочего стола
+          href: the-desktop-experience.md
+        - name: Управление файлами и данными
+          href: managing-files-and-data.md
+        - name: Высокое разрешение
+          href: high-dpi.md
+        - name: Высокая точность графики с помощью DirectX
+          href: high-fidelity-graphics-with-directx.md
+        - name: Платформа мультимедиа
+          href: media-platform.md
+        - name: Устройства
+          href: devices.md
+    - name: Лучшее из Windows и Интернета
+      href: the-best-of-windows-and-the-web.md
+      items:
+        - name: Службы
+          href: services.md
+        - name: Федеративный поиск
+          href: federated-search.md
+        - name: Платформа датчика
+          href: sensor-platform.md
+        - name: Internet Explorer 8
+          href: internet-explorer-8.md

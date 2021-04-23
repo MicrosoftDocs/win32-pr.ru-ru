@@ -1,0 +1,1234 @@
+- name: Поиск Windows
+  href: windows-search.md
+  items:
+    - name: Технический обзор
+      items:
+        - name: Технический обзор
+          href: '-search-3x-wds-overview.md'
+        - name: Windows Search как платформа разработки
+          href: '-search-3x-wds-development-ovr.md'
+        - name: Что включено в индекс
+          href: '-search-3x-wds-included-in-index.md'
+        - name: Процесс индексирования в Windows Search
+          href: '-search-indexing-process-overview.md'
+        - name: Запрос процесса в Windows Search
+          href: querying-process--windows-search-.md
+        - name: Обработка уведомлений в Windows Search
+          href: '-search-3x-wds-support.md'
+        - name: Требования к форматированию URL-адресов
+          href: url-formatting-requirements.md
+        - name: Новый для поиска Windows 7
+          href: new-for-windows-7-search.md
+        - name: Определение приоритетов индексирования и событий набора строк в Windows 7
+          href: indexing-prioritization-and-rowset-events.md
+        - name: Библиотеки оболочки Windows
+          href: '-search-win7-development-scenarios.md'
+        - name: 'Языки, поддерживаемые службой поиска Windows'
+          href: '-search-3x-wds-language-support.md'
+        - name: Использование управляемого кода с данными оболочки и Windows Search
+          href: '-search-3x-wds-managed-code.md'
+    - name: Руководством разработчика Windows Search
+      href: '-search-developers-guide-entry-page.md'
+      items:
+        - name: Управление индексом
+          href: '-search-3x-wds-mngidx-overview.md'
+          items:
+            - name: Интерфейсы для управления индексом
+              href: interfaces-for-managing-the-index.md
+            - name: Использование диспетчера поиска
+              href: '-search-3x-wds-mngidx-searchmanager.md'
+            - name: Использование диспетчера каталогов
+              href: '-search-3x-wds-mngidx-catalog-manager.md'
+            - name: Использование диспетчера области сканирования
+              href: '-search-3x-wds-extidx-csm.md'
+              items:
+                - name: Управление корнями поиска
+                  href: '-search-3x-wds-extidx-csm-searchroots.md'
+                - name: Управление правилами области
+                  href: '-search-3x-wds-extidx-csm-scoperules.md'
+        - name: Отправка программных запросов к индексу
+          href: '-search-3x-wds-qryidx-overview.md'
+          items:
+            - name: Использование методов SQL и АКС для запроса индекса
+              href: using-sql-and-aqs-to-query-the-index.md
+            - name: Запрос индекса с помощью Исеарчкуерихелпер
+              href: '-search-3x-wds-qryidx-searchqueryhelper.md'
+            - name: Запрос индекса с помощью протокола Search-MS
+              href: '-search-3x-wds-qryidx-searchms.md'
+              items:
+                - name: Начало работы с Parameter-Valueными аргументами
+                  href: getting-started-with-parameter-value-arguments.md
+                - name: Аргументы идентификатора языкового стандарта
+                  href: '-search-3x-wds-qryidx-localeidentifiers.md'
+                - name: Переданный аргумент
+                  href: '-search-3x-wds-qryidx-crumb.md'
+                - name: Аргумент СИНТАКСИСа
+                  href: '-search-3x-wds-qryidx-syntaxargument.md'
+                - name: 'СТАККЕДБИ, аргумент'
+                  href: '-search-3x-wds-qryidx-stackedby.md'
+                - name: Аргумент вложенного запроса
+                  href: '-search-3x-wds-qryidx-subquery.md'
+            - name: Запрос к индексу с помощью синтаксиса SQL для поиска Windows
+              href: '-search-sql-windowssearch-entry.md'
+              items:
+                - name: Общие сведения о синтаксисе SQL для службы поиска Windows
+                  href: '-search-sql-ovwofsearchquery.md'
+                - name: Общие сведения о языке запросов
+                  href: '-search-sql-generalqueryinfo.md'
+                  items:
+                    - name: Расширения SQL в Microsoft Windows Search
+                      href: '-search-sql-extensions-sps.md'
+                    - name: 'Функции SQL, недоступные в Microsoft Windows Search'
+                      href: '-search-sql-featuresunavailableinspssearch.md'
+                    - name: Идентификаторы
+                      href: '-search-sql-identifiers.md'
+                    - name: Литералы
+                      href: '-search-sql-literals.md'
+                    - name: Чувствительность к регистру при поиске
+                      href: '-search-sql-casesensitivityinsearches.md'
+                    - name: Чувствительность диакритических знаков в поиске
+                      href: '-search-sql-accentinsensitivitysearches.md'
+                    - name: Приведение типа данных столбца
+                      href: '-search-sql-castingdatacolumntype.md'
+                    - name: Сопоставления типов данных
+                      href: '-search-sql-datatypemappings.md'
+                    - name: Общие сведения о значимых значениях
+                      href: '-search-sql-understandingrelevancevalues.md'
+                    - name: Использование локализованных поисков
+                      href: '-search-sql-usinglocsearches.md'
+                      items:
+                        - name: Параметры языка документа и системы
+                          href: '-search-sql-docandlocalesystemsettings.md'
+                        - name: Указание языков
+                          href: '-search-sql-specifyinglanguages.md'
+                - name: ГРУППИРОВАТЬ ПО... ПОВЕРХ... Баланс
+                  href: '-search-sql-group-on-over.md'
+                  items:
+                    - name: ORDER в предложении GROUP
+                      href: '-search-sql-orderingroup.md'
+                    - name: Агрегатные функции
+                      href: '-search-sql-aggregates.md'
+                - name: Инструкция SELECT
+                  href: '-search-sql-select.md'
+                - name: Предложение FROM
+                  href: '-search-sql-from.md'
+                - name: ГДЕ предложения
+                  href: '-search-sql-where.md'
+                  items:
+                    - name: Функция Реусевхере
+                      href: '-search-sql-reusewhere.md'
+                    - name: Предикаты областей и каталогов
+                      href: '-search-sql-folderdepth.md'
+                    - name: С параметром--AS предикат псевдонима группы
+                      href: '-search-sql-with-as.md'
+                    - name: Предикаты Full-Text
+                      href: '-search-sql-fulltextpredicates.md'
+                      items:
+                        - name: Предикат CONTAINS
+                          href: '-search-sql-contains.md'
+                          items:
+                            - name: Использование подстановочных знаков в предикате CONTAINS
+                              href: '-search-sql-wildcards.md'
+                            - name: FORMSOF термин
+                              href: '-search-sql-formsof.md'
+                            - name: О термине
+                              href: '-search-sql-isabout.md'
+                            - name: БЛИЖАЙШЕе условие
+                              href: '-search-sql-near.md'
+                        - name: Предикат FREETEXT
+                          href: '-search-sql-freetext.md'
+                    - name: Неполнотекстовые предикаты
+                      href: '-search-sql-nonfulltextpredicates.md'
+                      items:
+                        - name: ВСЕ побитовое и SOME_BITWISE
+                          href: all-bitwise.md
+                        - name: Функция DATEADD
+                          href: '-search-sql-dateadd.md'
+                        - name: Предикат LIKE
+                          href: '-search-sql-like.md'
+                        - name: Сравнение литеральных значений
+                          href: '-search-sql-literalvaluecomparison.md'
+                        - name: Сравнения с несколькими значениями (МАССИВы)
+                          href: '-search-sql-multivaluedcomparisons.md'
+                        - name: Предикат NULL
+                          href: '-search-sql-null.md'
+                - name: Предложение ORDER BY
+                  href: '-search-sql-orderby.md'
+                - name: РАНЖИРОВАНие по предложению
+                  href: '-search-sql-rankby.md'
+                - name: Инструкция SET
+                  href: '-search-sql-set.md'
+                - name: Свойства набора строк
+                  href: '-search-sql-rowset-properties.md'
+            - name: Использование расширенного синтаксиса запросов программными средствами
+              href: '-search-3x-advancedquerysyntax.md'
+        - name: Расширение индекса
+          href: '-search-3x-wds-extidx-overview.md'
+          items:
+            - name: Разработка обработчиков фильтров для поиска Windows
+              href: '-search-ifilter-conceptual.md'
+              items:
+                - name: Основные сведения о обработчиках фильтров в поиске Windows
+                  href: '-search-ifilter-about.md'
+                - name: Рекомендации по созданию обработчиков фильтров в поиске Windows
+                  href: '-search-3x-wds-extidx-filters.md'
+                - name: Возвращение свойств из обработчика фильтра
+                  href: '-search-ifilter-property-filtering.md'
+                - name: 'Обработчики фильтров, поставляемые с Windows'
+                  href: '-search-ifilter-implementations.md'
+                - name: Реализация обработчиков фильтров в поиске Windows
+                  href: '-search-ifilter-constructing-filters.md'
+                - name: Регистрация обработчиков фильтров
+                  href: '-search-ifilter-registering-filters.md'
+                - name: Тестирование обработчиков фильтров
+                  href: '-search-ifilter-testing-filters.md'
+            - name: Разработка обработчиков свойств для поиска Windows
+              href: '-search-3x-wds-extidx-propertyhandlers.md'
+              items:
+                - name: Свойства System-Defined для пользовательских форматов файлов
+                  href: '-shell-systemdefinedpropertiesforfileformats.md'
+            - name: Разработка обработчиков протоколов для поиска Windows
+              href: '-search-3x-wds-phaddins.md'
+              items:
+                - name: Основные сведения о обработчиках протоколов
+                  href: '-search-3x-wds-extidx-prot-implementing.md'
+                - name: Уведомление индекса изменений
+                  href: '-search-3x-wds-notifyingofchanges.md'
+                - name: 'Добавление значков, предварительных версий и контекстных меню'
+                  href: '-search-3x-wds-ph-ui-extensions.md'
+                - name: 'Пример кода: расширения оболочки для обработчиков протоколов'
+                  href: '-search-3x-wds-ph-ui-samplecode.md'
+                - name: Установка и регистрация обработчиков протоколов
+                  href: '-search-3x-wds-ph-install-registration.md'
+                - name: Создание соединителя поиска для обработчика протокола
+                  href: '-search-3x-wds-ph-search-connector.md'
+                - name: Обработчики протокола отладки
+                  href: '-search-ws-protocolhandlertesting.md'
+        - name: Расширение языковых ресурсов
+          href: extending-language-resources-in-windows-search.md
+          items:
+            - name: Основные сведения о компонентах ресурсов языка
+              href: understanding-language-resource-components.md
+            - name: Реализация средств разбиения по словам и парадигматические модули
+              href: implementing-a-word-breaker-and-stemmer.md
+            - name: Рекомендации по лингвистическим правилам и Юникоду
+              href: linguistic-and-unicode-considerations.md
+              items:
+                - name: Нормализация формы поверхности
+                  href: surface-form-normalization.md
+                - name: Прочие лингвистические соглашения и Юникод
+                  href: miscellaneous-linguistic-and-unicode-considerations.md
+            - name: Устранение неполадок в языковых ресурсах и рекомендациях
+              href: troubleshooting-language-resources.md
+    - name: Справочник по поиску Windows
+      href: '-search-reference-entry-page.md'
+      items:
+        - name: Интерфейсы Windows Search
+          href: '-search-interfaces-entry-page.md'
+          items:
+            - name: Интерфейсы обработчиков протоколов
+              href: '-search-protocol-handlers-interfaces-entry-page.md'
+              items:
+                - name: иитемпропертибаг
+                  href: iitempropertybag.md
+                  items:
+                    - name: Метод Каунтпропертиес
+                      href: /previous-versions/windows/desktop/legacy/ff684387(v=vs.85)
+                    - name: Метод GetPropertyInfo
+                      href: iitempropertybag-getpropertyinfo.md
+                    - name: Метод Read
+                      href: iitempropertybag-read.md
+                    - name: Метод Write
+                      href: iitempropertybag-write.md
+                - name: иоплоккстатус
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-ioplockstatus
+                  items:
+                    - name: жетоплоккевенсандле
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ioplockstatus-getoplockeventhandle
+                    - name: исоплоккброкен
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ioplockstatus-isoplockbroken
+                    - name: исоплокквалид
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ioplockstatus-isoplockvalid
+                - name: ипротоколхандлерсервицес
+                  href: /previous-versions/windows/desktop/legacy/bb231447(v=vs.85)
+                  items:
+                    - name: CreateAccessor
+                      href: /previous-versions/windows/desktop/legacy/bb231445(v=vs.85)
+                    - name: Фильтр
+                      href: /previous-versions/windows/desktop/legacy/bb231446(v=vs.85)
+                - name: ипротоколхандлерсите
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-iprotocolhandlersite
+                  items:
+                    - name: Фильтр
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iprotocolhandlersite-getfilter
+                - name: исеарчпротокол
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchprotocol
+                  items:
+                    - name: клосеакцессор
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchprotocol-closeaccessor
+                    - name: CreateAccessor
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchprotocol-createaccessor
+                    - name: Init
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchprotocol-init
+                    - name: Закрытия
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchprotocol-shutdown
+                - name: ISearchProtocol2
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchprotocol2
+                  items:
+                    - name: креатеакцессорекс
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchprotocol2-createaccessorex
+                - name: исеарчпротоколсреадконтекст
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchprotocolthreadcontext
+                  items:
+                    - name: среадидле
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchprotocolthreadcontext-threadidle
+                    - name: среадинит
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchprotocolthreadcontext-threadinit
+                    - name: среадшутдовн
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchprotocolthreadcontext-threadshutdown
+                - name: исеарчпротоколуи
+                  href: '-search-isearchprotocolui.md'
+                  items:
+                    - name: жетсеарчитемфорурл
+                      href: '-search-isearchprotocolui-getsearchitemforurl.md'
+                - name: иурлакцессор
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor
+                  items:
+                    - name: аддрекуестпараметер
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-addrequestparameter
+                    - name: биндтофилтер
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-bindtofilter
+                    - name: биндтостреам
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-bindtostream
+                    - name: CLSID
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getclsid
+                    - name: жетдокформат
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getdocformat
+                    - name: GetFileName
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getfilename
+                    - name: Узел
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-gethost
+                    - name: жетластмодифиед
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getlastmodified
+                    - name: жетредиректедурл
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getredirectedurl
+                    - name: жетсекуритидескриптор
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getsecuritydescriptor
+                    - name: жетсекуритипровидер
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getsecurityprovider
+                    - name: GetSize
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getsize
+                    - name: Подкаталог
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-isdirectory
+                - name: IUrlAccessor2
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor2
+                  items:
+                    - name: Кодовая страница
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor2-getcodepage
+                    - name: жетдисплайурл
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor2-getdisplayurl
+                    - name: Документация
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor2-isdocument
+                - name: IUrlAccessor3
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor3
+                  items:
+                    - name: жетимперсонатионсидблобс
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor3-getimpersonationsidblobs
+                - name: IUrlAccessor4
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor4
+                  items:
+                    - name: шаулдиндекситемконтент
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent
+                    - name: Метод Шаулдиндекспроперти
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor4-shouldindexproperty
+            - name: Запросы интерфейсов
+              href: '-search-querying-interfaces-entry-page.md'
+              items:
+                - name: икондитион
+                  href: /windows/desktop/api/Structuredquerycondition/nn-structuredquerycondition-icondition
+                  items:
+                    - name: Клонировать
+                      href: /windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-clone
+                    - name: жеткомпарисонинфо
+                      href: /windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getcomparisoninfo
+                    - name: жеткондитионтипе
+                      href: /windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getconditiontype
+                    - name: жетинпуттермс
+                      href: /windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getinputterms
+                    - name: жетсубкондитионс
+                      href: /windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getsubconditions
+                    - name: жетвалуенормализатион
+                      href: /windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getvaluenormalization
+                    - name: ValueType
+                      href: /windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getvaluetype
+                - name: ICondition2
+                  href: /windows/desktop/api/Structuredquerycondition/nn-structuredquerycondition-icondition2
+                  items:
+                    - name: жетлеафкондитионинфо
+                      href: /windows/desktop/api/Structuredquerycondition/nf-structuredquerycondition-icondition2-getleafconditioninfo
+                    - name: GetLocale
+                      href: /windows/desktop/api/Structuredquerycondition/nf-structuredquerycondition-icondition2-getlocale
+                - name: икондитионфактори
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-iconditionfactory
+                  items:
+                    - name: макеандор
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory-makeandor
+                    - name: макелеаф
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory-makeleaf
+                    - name: макенот
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory-makenot
+                    - name: Разрешить
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory-resolve
+                - name: IConditionFactory2
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-iconditionfactory2
+                  items:
+                    - name: креатебулеанлеаф
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory2-createbooleanleaf
+                    - name: креатекомпаундфромаррай
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromarray
+                    - name: креатекомпаундфромобжектаррай
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromobjectarray
+                    - name: креатеинтежерлеаф
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory2-createintegerleaf
+                    - name: креателеаф
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory2-createleaf
+                    - name: креатенегатион
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory2-createnegation
+                    - name: креатестринглеаф
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory2-createstringleaf
+                    - name: креатетруефалсе
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory2-createtruefalse
+                    - name: ресолвекондитион
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditionfactory2-resolvecondition
+                - name: икондитионженератор
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-iconditiongenerator
+                  items:
+                    - name: дефаултфрасе
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditiongenerator-defaultphrase
+                    - name: женератефорлеаф
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditiongenerator-generateforleaf
+                    - name: Инициализация
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditiongenerator-initialize
+                    - name: рекогнизенамедентитиес
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iconditiongenerator-recognizenamedentities
+                - name: иентити
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-ientity
+                  items:
+                    - name: Основной
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-base
+                    - name: дефаултфрасе
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-defaultphrase
+                    - name: жетнамедентити
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-getnamedentity
+                    - name: Связность
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-getrelationship
+                    - name: Метаданных
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-metadata
+                    - name: Имя
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-name
+                    - name: намедентитиес
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-namedentities
+                    - name: Отношения
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-relationships
+                - name: иинтервал
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-iinterval
+                  items:
+                    - name: Пределы
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iinterval-getlimits
+                - name: иитемпревиеверекст
+                  href: '-search-iitempreviewerext.md'
+                  items:
+                    - name: жетлинкедконтент
+                      href: '-search-iitempreviewerext-getlinkedcontent.md'
+                    - name: жетрелатедпарт
+                      href: '-search-iitempreviewerext-getrelatedpart.md'
+                    - name: процесстрансформкомманд
+                      href: '-search-iitempreviewerext-processtransformcommand.md'
+                    - name: сугжестбровсерполици
+                      href: '-search-iitempreviewerext-suggestbrowserpolicy.md'
+                - name: иметадата
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-imetadata
+                  items:
+                    - name: GetData
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-imetadata-getdata
+                - name: инамедентити
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-inamedentity
+                  items:
+                    - name: дефаултфрасе
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-inamedentity-defaultphrase
+                    - name: GetValue
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-inamedentity-getvalue
+                - name: инамедентитиколлектор
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-inamedentitycollector
+                  items:
+                    - name: Добавить
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-inamedentitycollector-add
+                - name: икуерипарсер
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-iqueryparser
+                  items:
+                    - name: GetOption
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparser-getoption
+                    - name: жетсчемапровидер
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparser-getschemaprovider
+                    - name: Синтаксический анализ
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparser-parse
+                    - name: парсепропертивалуе
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparser-parsepropertyvalue
+                    - name: рестатепропертивалуетостринг
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparser-restatepropertyvaluetostring
+                    - name: рестатетостринг
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparser-restatetostring
+                    - name: сетмултиоптион
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparser-setmultioption
+                    - name: SetOption
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparser-setoption
+                - name: икуерипарсерманажер
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-iqueryparsermanager
+                  items:
+                    - name: креателоадедпарсер
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser
+                    - name: инитиализеоптионс
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparsermanager-initializeoptions
+                    - name: SetOption
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparsermanager-setoption
+                - name: икуерисолутион
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-iquerysolution
+                  items:
+                    - name: Выявление ошибок
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iquerysolution-geterrors
+                    - name: жетлексикалдата
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iquerysolution-getlexicaldata
+                    - name: GetQuery
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-iquerysolution-getquery
+                - name: ирелатионшип
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-irelationship
+                  items:
+                    - name: дефаултфрасе
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-defaultphrase
+                    - name: Назначение
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-destination
+                    - name: Real
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-isreal
+                    - name: Метаданных
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-metadata
+                    - name: Имя
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-name
+                - name: ириччунк
+                  href: /windows/desktop/api/Structuredquerycondition/nn-structuredquerycondition-irichchunk
+                  items:
+                    - name: GetData
+                      href: /windows/desktop/api/StructuredQueryCondition/nf-structuredquerycondition-irichchunk-getdata
+                    - name: Метод Ремотежетдата
+                      href: irichchunk-remotegetdata.md
+                - name: ировсетевентс
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-irowsetevents
+                  items:
+                    - name: ончанжедитем
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-irowsetevents-onchangeditem
+                    - name: онделетедитем
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-irowsetevents-ondeleteditem
+                    - name: онневитем
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-irowsetevents-onnewitem
+                    - name: онровсетевент
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-irowsetevents-onrowsetevent
+                - name: ировсетприоритизатион
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-irowsetprioritization
+                  items:
+                    - name: жетскопеприорити
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-irowsetprioritization-getscopepriority
+                    - name: жетскопестатистикс
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-irowsetprioritization-getscopestatistics
+                    - name: сетскопеприорити
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-irowsetprioritization-setscopepriority
+                - name: исчемалокализерсуппорт
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-ischemalocalizersupport
+                  items:
+                    - name: Localize
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ischemalocalizersupport-localize
+                - name: исчемапровидер
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-ischemaprovider
+                  items:
+                    - name: Сущности
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ischemaprovider-entities
+                    - name: GetEntity
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ischemaprovider-getentity
+                    - name: Localize
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ischemaprovider-localize
+                    - name: лукупаусореднамедентити
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ischemaprovider-lookupauthorednamedentity
+                    - name: Метаданных
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ischemaprovider-metadata
+                    - name: рутентити
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ischemaprovider-rootentity
+                    - name: савебинари
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-ischemaprovider-savebinary
+                - name: исеарчкуерихелпер
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper
+                  items:
+                    - name: женератесклфромусеркуери
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-generatesqlfromuserquery
+                    - name: get_ConnectionString
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_connectionstring
+                    - name: get_QueryContentLocale
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_querycontentlocale
+                    - name: get_QueryContentProperties
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_querycontentproperties
+                    - name: get_QueryKeywordLocale
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_querykeywordlocale
+                    - name: get_QueryMaxResults
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_querymaxresults
+                    - name: get_QuerySelectColumns
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_queryselectcolumns
+                    - name: get_QuerySorting
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_querysorting
+                    - name: get_QuerySyntax
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_querysyntax
+                    - name: get_QueryTermExpansion
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_querytermexpansion
+                    - name: get_QueryWhereRestrictions
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_querywhererestrictions
+                    - name: put_QueryContentLocale
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-put_querycontentlocale
+                    - name: put_QueryContentProperties
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-put_querycontentproperties
+                    - name: put_QueryKeywordLocale
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-put_querykeywordlocale
+                    - name: put_QueryMaxResults
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-put_querymaxresults
+                    - name: put_QuerySelectColumns
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-put_queryselectcolumns
+                    - name: put_QuerySorting
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-put_querysorting
+                    - name: put_QuerySyntax
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-put_querysyntax
+                    - name: put_QueryTermExpansion
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-put_querytermexpansion
+                    - name: put_QueryWhereRestrictions
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-put_querywhererestrictions
+                    - name: вритепропертиес
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-writeproperties
+                - name: итокенколлектион
+                  href: /windows/desktop/api/Structuredquery/nn-structuredquery-itokencollection
+                  items:
+                    - name: GetToken
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-itokencollection-gettoken
+                    - name: нумберофтокенс
+                      href: /windows/desktop/api/Structuredquery/nf-structuredquery-itokencollection-numberoftokens
+            - name: Интерфейсы области обхода содержимого
+              href: '-search-crawl-scope-interfaces-entry-page.md'
+              items:
+                - name: иенумсеарчрутс
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-ienumsearchroots
+                  items:
+                    - name: Клонировать
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ienumsearchroots-clone
+                    - name: Следующая
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ienumsearchroots-next
+                    - name: Reset
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ienumsearchroots-reset
+                    - name: Пропустить
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ienumsearchroots-skip
+                - name: иенумсеарчскоперулес
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-ienumsearchscoperules
+                  items:
+                    - name: Клонировать
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ienumsearchscoperules-clone
+                    - name: Следующая
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ienumsearchscoperules-next
+                    - name: Reset
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ienumsearchscoperules-reset
+                    - name: Пропустить
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-ienumsearchscoperules-skip
+                - name: исеарчкравлскопеманажер
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager
+                  items:
+                    - name: адддефаултскоперуле
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-adddefaultscoperule
+                    - name: аддхиерарчикалскопе
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-addhierarchicalscope
+                    - name: аддрут
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-addroot
+                    - name: аддусерскоперуле
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-adduserscoperule
+                    - name: енумератерутс
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-enumerateroots
+                    - name: енумератескоперулес
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-enumeratescoperules
+                    - name: жетпарентскопеверсионид
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-getparentscopeversionid
+                    - name: хасчилдскоперуле
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-haschildscoperule
+                    - name: хаспарентскоперуле
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-hasparentscoperule
+                    - name: инклудединкравлскопе
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscope
+                    - name: инклудединкравлскопикс
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscopeex
+                    - name: ремоведефаултскоперуле
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-removedefaultscoperule
+                    - name: ремоверут
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-removeroot
+                    - name: ремовескоперуле
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-removescoperule
+                    - name: реверттодефаултскопес
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-reverttodefaultscopes
+                    - name: SaveAll
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-saveall
+                - name: ISearchCrawlScopeManager2
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2
+                  items:
+                    - name: GetVersion
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager2-getversion
+                - name: исеарчрут
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchroot
+                  items:
+                    - name: get_AuthenticationType
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-get_authenticationtype
+                    - name: get_EnumerationDepth
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-get_enumerationdepth
+                    - name: get_FollowDirectories
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-get_followdirectories
+                    - name: get_HostDepth
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-get_hostdepth
+                    - name: get_IsHierarchical
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-get_ishierarchical
+                    - name: get_Password
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_password
+                    - name: get_ProvidesNotifications
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-get_providesnotifications
+                    - name: get_RootURL
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-get_rooturl
+                    - name: get_Schedule
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_schedule
+                    - name: get_UseNotificationsOnly
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-get_usenotificationsonly
+                    - name: get_User
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_user
+                    - name: put_AuthenticationType
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-put_authenticationtype
+                    - name: put_EnumerationDepth
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-put_enumerationdepth
+                    - name: put_FollowDirectories
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-put_followdirectories
+                    - name: put_HostDepth
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-put_hostdepth
+                    - name: put_IsHierarchical
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-put_ishierarchical
+                    - name: put_Password
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_password
+                    - name: put_ProvidesNotifications
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-put_providesnotifications
+                    - name: put_RootURL
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-put_rooturl
+                    - name: put_Schedule
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_schedule
+                    - name: метод put_UseNotificationsOnly
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchroot-put_usenotificationsonly
+                    - name: put_User
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_user
+                - name: исеарчскоперуле
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchscoperule
+                  items:
+                    - name: get_FollowFlags
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchscoperule-get_followflags
+                    - name: get_IsDefault
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchscoperule-get_isdefault
+                    - name: get_IsIncluded
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchscoperule-get_isincluded
+                    - name: get_PatternOrURL
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchscoperule-get_patternorurl
+                - name: исеарчитем
+                  href: '-search-isearchitem.md'
+                  items:
+                    - name: жетпарентфолдер
+                      href: '-search-isearchitem-getparentfolder.md'
+                    - name: жетуиобжектоф
+                      href: /previous-versions/windows/desktop/legacy/dd756721(v=vs.85)
+            - name: Интерфейсы надстроек данных
+              href: '-search-data-addins-interfaces-entry-page.md'
+              items:
+                - name: исимплекоммандкреатор
+                  href: /windows/desktop/api/indexsrv/nn-indexsrv-isimplecommandcreator
+                  items:
+                    - name: Метод Креатеикомманд
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-isimplecommandcreator-createicommand
+                    - name: Метод Жетдефаулткаталог
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-isimplecommandcreator-getdefaultcatalog
+                    - name: Метод Верификаталог
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-isimplecommandcreator-verifycatalog
+                - name: иколумнмаппер
+                  href: /windows/desktop/api/indexsrv/nn-indexsrv-icolumnmapper
+                  items:
+                    - name: Метод Енумпропинфо
+                      href: /windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-enumpropinfo
+                    - name: Метод Жетпропинфофромид
+                      href: /windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-getpropinfofromid
+                    - name: Метод Жетпропинфофромнаме
+                      href: /windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-getpropinfofromname
+                    - name: Метод Исмапуптодате
+                      href: /windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-ismapuptodate
+                - name: иколумнмапперкреатор
+                  href: /windows/desktop/api/indexsrv/nn-indexsrv-icolumnmappercreator
+                  items:
+                    - name: Метод Жетколумнмаппер
+                      href: /windows/desktop/api/indexsrv/nf-indexsrv-icolumnmappercreator-getcolumnmapper
+                - name: IFilter
+                  href: /windows/win32/api/filter/nn-filter-ifilter
+                  items:
+                    - name: биндрегион
+                      href: /windows/win32/api/filter/nf-filter-ifilter-bindregion
+                    - name: GetChunk
+                      href: /windows/win32/api/filter/nf-filter-ifilter-getchunk
+                    - name: GetText
+                      href: /windows/win32/api/filter/nf-filter-ifilter-gettext
+                    - name: GetValue
+                      href: /windows/win32/api/filter/nf-filter-ifilter-getvalue
+                    - name: Init
+                      href: /windows/win32/api/filter/nf-filter-ifilter-init
+                - name: илоадфилтер
+                  href: /windows/desktop/api/filtereg/nn-filtereg-iloadfilter
+                  items:
+                    - name: Метод Лоадифилтер
+                      href: /windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilter
+                    - name: Метод Лоадифилтерфромстораже
+                      href: /windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilterfromstorage
+                    - name: Метод Лоадифилтерфромстреам
+                      href: /windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilterfromstream
+                - name: ифрасесинк
+                  href: /windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink
+                  items:
+                    - name: Метод Путфрасе
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-iphrasesink-putphrase
+                    - name: Метод Путсмаллфрасе
+                      href: /windows/desktop/api/indexsrv/nf-indexsrv-iphrasesink-putsmallphrase
+                - name: исеарчлангуажесуппорт
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchlanguagesupport
+                  items:
+                    - name: енумератикспандедтермс
+                      href: /previous-versions/windows/desktop/legacy/bb266438(v=vs.85)
+                    - name: жетдиакритиксенситивити
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchlanguagesupport-getdiacriticsensitivity
+                    - name: исноисеворд
+                      href: /previous-versions/windows/desktop/legacy/bb266441(v=vs.85)
+                    - name: испрефикснормализед
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchlanguagesupport-isprefixnormalized
+                    - name: лоадстеммер
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchlanguagesupport-loadstemmer
+                    - name: лоадвордбреакер
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchlanguagesupport-loadwordbreaker
+                    - name: сетдиакритиксенситивити
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchlanguagesupport-setdiacriticsensitivity
+                - name: истеммер
+                  href: /windows/desktop/api/Indexsrv/nn-indexsrv-istemmer
+                  items:
+                    - name: женератевордформс
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-istemmer-generatewordforms
+                    - name: жетлиценсетаусе
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-istemmer-getlicensetouse
+                    - name: Init
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-istemmer-init
+                - name: ивордбреакер
+                  href: /windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker
+                  items:
+                    - name: бреактекст
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-breaktext
+                    - name: компосефрасе
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-composephrase
+                    - name: жетлиценсетаусе
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-getlicensetouse
+                    - name: Init
+                      href: /windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-init
+                - name: ивордформсинк
+                  href: /windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink
+                  items:
+                    - name: Метод Путалтворд
+                      href: iwordformsink-putphrase.md
+                    - name: Метод Путворд
+                      href: iwordformsink-putword.md
+                - name: ивордсинк
+                  href: iwordsink.md
+                  items:
+                    - name: Метод Ендалтфрасе
+                      href: iwordsink-endaltphrase.md
+                    - name: Метод Путалтворд
+                      href: iwordsink-putaltword.md
+                    - name: Метод Путбреак
+                      href: iwordsink-putbreak.md
+                    - name: Метод Путворд
+                      href: iwordsink-putword.md
+                    - name: Метод Старталтфрасе
+                      href: iwordsink-startaltphrase.md
+            - name: Интерфейсы управления индексами
+              href: '-search-index-mgt-interfaces-entry-page.md'
+              items:
+                - name: исеарчкаталогманажер
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager
+                  items:
+                    - name: енумератиксклудедекстенсионс
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-enumerateexcludedextensions
+                    - name: жеткаталогстатус
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus
+                    - name: жеткравлскопеманажер
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcrawlscopemanager
+                    - name: жетитемсчанжедсинк
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getitemschangedsink
+                    - name: Параметром PARAMETERIZATION
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-getparameter
+                    - name: жетперсистентитемсчанжедсинк
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getpersistentitemschangedsink
+                    - name: жеткуерихелпер
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getqueryhelper
+                    - name: жетурлиндексингстате
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-geturlindexingstate
+                    - name: get_ConnectTimeout
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_connecttimeout
+                    - name: get_DataTimeout
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_datatimeout
+                    - name: get_DiacriticSensitivity
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_diacriticsensitivity
+                    - name: get_Name
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name
+                    - name: нумберофитемс
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems
+                    - name: нумберофитемстоиндекс
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex
+                    - name: put_ConnectTimeout
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-put_connecttimeout
+                    - name: put_DataTimeout
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-put_datatimeout
+                    - name: put_DiacriticSensitivity
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-put_diacriticsensitivity
+                    - name: регистервиевфорнотификатион
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-registerviewfornotification
+                    - name: Повторная индексация
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reindex
+                    - name: реиндексматчингурлс
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reindexmatchingurls
+                    - name: реиндекссеарчрут
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reindexsearchroot
+                    - name: Reset
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reset
+                    - name: сетекстенсионклусион
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-setextensionclusion
+                    - name: сетпараметер
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-setparameter
+                    - name: унрегистервиевфорнотификатион
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-unregisterviewfornotification
+                    - name: урлбеингиндексед
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed
+                - name: ISearchCatalogManager2
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager2
+                  items:
+                    - name: приоритизематчингурлс
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager2-prioritizematchingurls
+                - name: исеарчманажер
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchmanager
+                  items:
+                    - name: Catalog
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog
+                    - name: жетиндексерверсион
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getindexerversion
+                    - name: жетиндексерверсионстр
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getindexerversionstr
+                    - name: Параметром PARAMETERIZATION
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchmanager-getparameter
+                    - name: get_BypassList
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-get_bypasslist
+                    - name: get_LocalBypass
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-get_localbypass
+                    - name: get_PortNumber
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-get_portnumber
+                    - name: get_ProxyName
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-get_proxyname
+                    - name: get_UseProxy
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-get_useproxy
+                    - name: get_UserAgent
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-get_useragent
+                    - name: put_UserAgent
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-put_useragent
+                    - name: сетпараметер
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setparameter
+                    - name: сетпрокси
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-setproxy
+                - name: ISearchManager2
+                  href: /windows/desktop/api/searchapi/nn-searchapi-isearchmanager2
+                  items:
+                    - name: Метод CreateCatalog
+                      href: isearchmanager2-createcatalog.md
+                    - name: Метод Делетекаталог
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchmanager2-deletecatalog
+            - name: Интерфейсы уведомлений
+              href: '-search-notifications-interfaces-entry-page.md'
+              items:
+                - name: игасеринлинестатус
+                  href: /previous-versions/windows/desktop/legacy/bb231473(v=vs.85)
+                  items:
+                    - name: сендинлинестатусчанже
+                      href: /previous-versions/windows/desktop/legacy/bb231474(v=vs.85)
+                - name: игасернотифинлине
+                  href: /previous-versions/windows/desktop/legacy/bb231470(v=vs.85)
+                  items:
+                    - name: Инициализация
+                      href: /previous-versions/windows/desktop/legacy/bb231471(v=vs.85)
+                    - name: ондатачанже
+                      href: /previous-versions/windows/desktop/legacy/bb231472(v=vs.85)
+                - name: игасернотифинлинеинтернал
+                  href: /previous-versions/windows/desktop/legacy/bb231465(v=vs.85)
+                  items:
+                    - name: ондатачанжеинлине
+                      href: /previous-versions/windows/desktop/legacy/bb231466(v=vs.85)
+                    - name: регистеринлиненотификатионклиент
+                      href: /previous-versions/windows/desktop/legacy/bb231467(v=vs.85)
+                    - name: релеасеинлиненотификатионклиент
+                      href: /previous-versions/windows/desktop/legacy/bb231468(v=vs.85)
+                    - name: сендитеминдекседстатусчанже
+                      href: /previous-versions/windows/desktop/legacy/bb231469(v=vs.85)
+                - name: исеарчитемсчанжедсинк
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchitemschangedsink
+                  items:
+                    - name: онитемсчанжед
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchitemschangedsink-onitemschanged
+                    - name: стартедмониторингскопе
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchitemschangedsink-startedmonitoringscope
+                    - name: стоппедмониторингскопе
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-stoppedmonitoringscope
+                - name: исеарчнотифинлинесите
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchnotifyinlinesite
+                  items:
+                    - name: онкаталогстатусчанже
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchnotifyinlinesite-oncatalogstatuschange
+                    - name: онитеминдекседстатусчанже
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchnotifyinlinesite-onitemindexedstatuschange
+                - name: исеарчперсистентитемсчанжедсинк
+                  href: /windows/desktop/api/Searchapi/nn-searchapi-isearchpersistentitemschangedsink
+                  items:
+                    - name: онитемсчанжед
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchpersistentitemschangedsink-onitemschanged
+                    - name: стартедмониторингскопе
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchpersistentitemschangedsink-startedmonitoringscope
+                    - name: стоппедмониторингскопе
+                      href: /windows/desktop/api/Searchapi/nf-searchapi-isearchpersistentitemschangedsink-stoppedmonitoringscope
+                - name: исеарчвиевчанжедсинк
+                  href: /windows/desktop/api/searchapi/nn-searchapi-isearchviewchangedsink
+                  items:
+                    - name: OnChange
+                      href: /windows/desktop/api/searchapi/nf-searchapi-isearchviewchangedsink-onchange
+        - name: Структуры поиска Windows
+          href: '-search-structures-entry-page.md'
+          items:
+            - name: AUTHENTICATION_INFO
+              href: /windows/win32/api/Searchapi/ns-searchapi-authentication_info
+            - name: FILTERED_DATA_SOURCES
+              href: /windows/win32/api/filtereg/ns-filtereg-filtered_data_sources
+            - name: филтеррегион
+              href: /windows/desktop/api/filter/ns-filter-filterregion
+            - name: фуллпропспек
+              href: /windows/desktop/api/filter/ns-filter-fullpropspec
+            - name: хитранже
+              href: /windows/win32/api/Structuredquery/ns-structuredquery-hitrange
+            - name: INCREMENTAL_ACCESS_INFO
+              href: /windows/win32/api/Searchapi/ns-searchapi-incremental_access_info
+            - name: INLINE_NOTIFY_DATA_CHANGE_ENTRY
+              href: /previous-versions/windows/desktop/legacy/aa965367(v=vs.85)
+            - name: ITEM_INFO
+              href: /windows/win32/api/Searchapi/ns-searchapi-item_info
+            - name: итемпроп
+              href: /windows/win32/api/subsmgr/ns-subsmgr-itemprop
+            - name: линкинфо
+              href: '-search-linkinfo.md'
+            - name: PROXY_INFO
+              href: /windows/win32/api/Searchapi/ns-searchapi-proxy_info
+            - name: SEARCH_COLUMN_PROPERTIES
+              href: /windows/win32/api/searchapi/ns-searchapi-search_column_properties
+            - name: SEARCH_ITEM_CHANGE
+              href: /windows/win32/api/Searchapi/ns-searchapi-search_item_change
+            - name: SEARCH_ITEM_INDEXING_STATUS
+              href: /windows/win32/api/Searchapi/ns-searchapi-search_item_indexing_status
+            - name: SEARCH_ITEM_PERSISTENT_CHANGE
+              href: /windows/win32/api/Searchapi/ns-searchapi-search_item_persistent_change
+            - name: STAT_CHUNK
+              href: /windows/desktop/api/filter/ns-filter-stat_chunk
+            - name: TEXT_SOURCE
+              href: /windows/win32/api/Indexsrv/ns-indexsrv-text_source
+            - name: TIMEOUT_INFO
+              href: /windows/win32/api/Searchapi/ns-searchapi-timeout_info
+        - name: Константы и перечисления поиска Windows
+          href: '-search-constants-and-enumerations-entry-page.md'
+          items:
+            - name: Сообщения об ошибках обработчика протокола поиска
+              href: '-search-prth-error-constants.md'
+            - name: AUTH_TYPE
+              href: /windows/win32/api/Searchapi/ne-searchapi-auth_type
+            - name: CASE_REQUIREMENT
+              href: /windows/desktop/api/Structuredquery/ne-structuredquery-case_requirement
+            - name: каталогпауседреасон
+              href: /windows/win32/api/Searchapi/ne-searchapi-catalogpausedreason
+            - name: каталогстатус
+              href: /windows/win32/api/Searchapi/ne-searchapi-catalogstatus
+            - name: чункстате
+              href: /windows/desktop/api/filter/ne-filter-chunkstate
+            - name: CHUNK_BREAKTYPE
+              href: /windows/desktop/api/filter/ne-filter-chunk_breaktype
+            - name: CLUSION_REASON
+              href: /windows/win32/api/Searchapi/ne-searchapi-clusion_reason
+            - name: CONDITION_CREATION_OPTIONS
+              href: /windows/desktop/api/Structuredquery/ne-structuredquery-condition_creation_options
+            - name: CONDITION_OPERATION
+              href: /windows/win32/api/Structuredquerycondition/ne-structuredquerycondition-condition_operation
+            - name: CONDITION_TYPE
+              href: /windows/win32/api/Structuredquerycondition/ne-structuredquerycondition-condition_type
+            - name: FOLLOW_FLAGS
+              href: /windows/win32/api/Searchapi/ne-searchapi-follow_flags
+            - name: дисплайстате
+              href: displaystate.md
+            - name: IFILTER_FLAGS
+              href: /windows/desktop/api/filter/ne-filter-ifilter_flags
+            - name: IFILTER_INIT
+              href: /previous-versions/windows/desktop/legacy/bb266511(v=vs.85)
+            - name: INTERVAL_LIMIT_KIND
+              href: /windows/win32/api/Structuredquery/ne-structuredquery-interval_limit_kind
+            - name: LINKTYPE
+              href: '-search-linktype.md'
+            - name: NAMED_ENTITY_CERTAINTY
+              href: /windows/win32/api/Structuredquery/ne-structuredquery-named_entity_certainty
+            - name: PRIORITIZE_FLAGS
+              href: /windows/desktop/api/Searchapi/ne-searchapi-tagprioritize_flags
+            - name: PRIORITY_LEVEL
+              href: /windows/win32/api/Searchapi/ne-searchapi-priority_level
+            - name: PROXY_ACCESS
+              href: /windows/win32/api/Searchapi/ne-searchapi-proxy_access
+            - name: QUERY_PARSER_MANAGER_OPTION
+              href: /windows/win32/api/Structuredquery/ne-structuredquery-query_parser_manager_option
+            - name: ROWSETEVENT_ITEMSTATE
+              href: /windows/win32/api/Searchapi/ne-searchapi-rowsetevent_itemstate
+            - name: ROWSETEVENT_TYPE
+              href: /windows/win32/api/Searchapi/ne-searchapi-rowsetevent_type
+            - name: SEARCH_INDEXING_PHASE
+              href: /windows/win32/api/Searchapi/ne-searchapi-search_indexing_phase
+            - name: SEARCH_KIND_OF_CHANGE
+              href: /windows/win32/api/Searchapi/ne-searchapi-search_kind_of_change
+            - name: SEARCH_NOTIFICATION_PRIORITY
+              href: /windows/win32/api/Searchapi/ne-searchapi-search_notification_priority
+            - name: SEARCH_QUERY_SYNTAX
+              href: /windows/win32/api/Searchapi/ne-searchapi-search_query_syntax
+            - name: SEARCH_TERM_EXPANSION
+              href: /windows/win32/api/Searchapi/ne-searchapi-search_term_expansion
+            - name: STRUCTURED_QUERY_MULTIOPTION
+              href: /windows/win32/api/Structuredquery/ne-structuredquery-structured_query_multioption
+            - name: STRUCTURED_QUERY_PARSE_ERROR
+              href: /windows/win32/api/Structuredquery/ne-structuredquery-structured_query_parse_error
+            - name: STRUCTURED_QUERY_RESOLVE_OPTION
+              href: /windows/desktop/api/Structuredquery/ne-structuredquery-structured_query_resolve_option
+            - name: STRUCTURED_QUERY_SINGLE_OPTION
+              href: /windows/win32/api/Structuredquery/ne-structuredquery-structured_query_single_option
+            - name: STRUCTURED_QUERY_SYNTAX
+              href: /windows/win32/api/Structuredquery/ne-structuredquery-structured_query_syntax
+            - name: WORDREP_BREAK_TYPE
+              href: /previous-versions/windows/desktop/legacy/ff819130(v=vs.85)
+        - name: Сопоставления свойств (от WDS 2. x до 3. x)
+          href: '-search-3x-wds-propertymappings.md'
+        - name: Формат сохраненного файла поиска
+          href: '-search-savedsearchfileformat.md'
+    - name: Примеры кода для поиска Windows
+      href: '-search-samples-ovw.md'
+      items:
+        - name: кравлскопекоммандлине
+          href: '-search-sample-crawlscopecommandline.md'
+        - name: дсеарч
+          href: '-search-sample-dsearch.md'
+        - name: ифилтерсампле
+          href: '-search-sample-ifiltersample.md'
+        - name: OpenSearch
+          href: '-search-sample-opensearch.md'
+        - name: PropertyEdit
+          href: '-search-sample-propertyedit.md'
+        - name: реиндексматчингурлс
+          href: '-search-sample-reindexmatchingurls.md'
+        - name: сеарчевентс
+          href: '-search-sample-searchevents.md'
+        - name: структуредкуерисампле
+          href: '-search-sample-structuredquerysample.md'
+        - name: всфромскрипт
+          href: '-search-sample-wsfromscript.md'
+        - name: всоледб
+          href: '-search-sample-wsoledb.md'
+        - name: всскл
+          href: '-search-sample-wssql.md'
+    - name: Федеративный поиск в Windows
+      href: '-search-federated-search-overview.md'
+      items:
+        - name: начало работы с федеративными поиском в Windows
+          href: getting-started-with-federated-search-in-windows.md
+        - name: Подключение веб-службы в Федеративной службе поиска Windows
+          href: '-search-federated-search-web-service.md'
+        - name: Включение хранилища данных в федеративный поиск Windows
+          href: '-search-federated-search-data-store.md'
+        - name: Создание файла описания OpenSearch в федеративного поиска Windows
+          href: '-search-federated-search-osdx-file.md'
+        - name: Следующие рекомендации по использованию федеративного поиска Windows
+          href: '-search-fedsearch-best.md'
+        - name: Развертывание соединителей поиска в федеративного поиска Windows
+          href: '-search-federated-search-deploying.md'
+        - name: Схема описания соединителя поиска
+          href: search-sconn-desc-schema-entry.md
+          items:
+            - name: Элемент Сеарчконнектордескриптионтипе (схема соединителя поиска)
+              href: search-schema-searchconnectordescription.md
+            - name: Элемент Иссеарчонлитем (схема соединителя поиска)
+              href: search-schema-sconn-issearchonlyitem.md
+            - name: Элемент Исдефаултсавелокатион (схема соединителя поиска)
+              href: search-schema-sconn-isdefaultsavelocation.md
+            - name: Элемент Исдефаултноновнерсавелокатион (схема соединителя поиска)
+              href: search-schema-sconn-isdefaultnonownersavelocation.md
+            - name: Элемент Description (схема соединителя поиска)
+              href: search-schema-sconn-description.md
+            - name: Элемент Иконреференце (схема соединителя поиска)
+              href: search-schema-sconn-iconreference.md
+            - name: Элемент Имажелинк (схема соединителя поиска)
+              href: search-schema-sconn-imagelink.md
+            - name: Элемент URL-адреса Имажелинк (схема соединителя поиска)
+              href: search-schema-sconn-imagelink-url.md
+            - name: Элемент Author (схема соединителя поиска)
+              href: search-schema-sconn-author.md
+            - name: Элемент dateCreated (схема соединителя поиска)
+              href: search-schema-sconn-datecreated.md
+            - name: Элемент Темплатеинфо (схема соединителя поиска)
+              href: search-schema-sconn-templateinfo.md
+            - name: Элемент Фолдертипе (схема соединителя поиска)
+              href: search-schema-sconn-foldertype.md
+            - name: Элемент Симплелокатион (схема соединителя поиска)
+              href: search-schema-sconn-simplelocation.md
+            - name: Элемент URL-адреса Симплелокатион (схема соединителя поиска)
+              href: search-schema-sconn-url.md
+            - name: Элемент Локатионпровидер (схема соединителя поиска)
+              href: search-schema-sconn-locationprovider.md
+            - name: Элемент propertyBag (схема соединителя поиска)
+              href: search-schema-sconn-propertybag.md
+            - name: Элемент Property элемента Локатионпровидер (схема соединителя поиска)
+              href: search-schema-sconn-locationproviderproperty.md
+            - name: Элемент Scope (схема соединителя поиска)
+              href: search-schema-sconn-scope.md
+            - name: Элемент Скопеитем (схема соединителя поиска)
+              href: search-schema-sconn-scopeitem.md
+            - name: Элемент Mode (схема соединителя поиска)
+              href: search-schema-sconn-scope-mode.md
+            - name: Элемент Depth (схема соединителя поиска)
+              href: search-schema-sconn-scope-depth.md
+            - name: Элемент URL-адреса Скопеитем (схема соединителя поиска)
+              href: search-schema-sconn-scope-url.md
+            - name: Элемент Пропертисторе (схема соединителя поиска)
+              href: search-schema-sconn-propertystore.md
+            - name: Элемент Property элемента Пропертисторе (схема соединителя поиска)
+              href: search-schema-sconn-propstore-property.md
+            - name: Элемент Инклудеинстартменускопе (схема соединителя поиска)
+              href: search-schema-sconn-includeinstartmenuscope.md
+            - name: Элемент domain (схема соединителя поиска)
+              href: search-schema-sconn-domain.md
+            - name: Элемент Суппортсадванцедкуерисинтакс (схема соединителя поиска)
+              href: search-schema-sconn-supportsadvancedquerysyntax.md
+            - name: Элемент с индексом (схема соединителя поиска)
+              href: search-schema-sconn-isindexed.md
+    - name: Связанные технологии поиска
+      href: '-search-3x-wds-sampleentry.md'
+    - name: Глоссарий поиска Windows
+      href: search-glossary.md

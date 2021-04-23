@@ -1,0 +1,616 @@
+- name: Приложения Win32 для классических приложений
+  href: ./index.yml
+  items:
+    - name: Начало работы
+      items:
+        - name: Обзор
+          href: ./desktop-programming.md
+        - name: Новые возможности
+          href: ./whats-new.md
+        - name: Создание первого приложения Win32 на C++
+          href: ./learnwin32/learn-to-program-for-windows.md
+        - name: Создание первого приложения Windows с помощью DirectX
+          href: ./direct3dgetstarted/building-your-first-directx-app.md
+        - name: Использование заголовков Windows
+          href: ./winprog/using-the-windows-headers.md
+        - name: Руководства по платформам
+          items:
+            - name: Руководство по программированию для 64-разрядных версий Windows
+              href: ./winprog64/programming-guide-for-64-bit-windows.md
+            - name: Cookbook совместимости для Windows
+              href: ./w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md
+            - name: Руководства по Windows 7
+              href: ./windows-7.md
+              items:
+                - name: 'Windows 7 и Windows Server 2008 R2 качество приложения, Cookbook'
+                  href: ./win7appqual/windows-7-application-quality-cookbook.md
+                - name: Руководством для разработчиков Windows 7
+                  href: ./win7devguide/windows-7-developer-guide.md
+                - name: Обновление платформы для Windows Vista
+                  href: ./win7ip/platform-update-for-windows-vista-portal.md
+    - name: Конструирование
+      href: ./uxguide/guidelines.md
+    - name: Разработка
+      href: null
+      items:
+        - name: Технологии классических приложений
+          items:
+            - name: Обзор
+              href: ./desktop-app-technologies.md
+            - name: Специальные возможности
+              items:
+                - name: Обзор
+                  href: ./accessibility/accessibility.md
+                - name: Что нового в области специальных возможностей и автоматизации Windows
+                  href: ./accessibility/accessibility-whatsnew.md
+                - name: Разработка приложений Windows с поддержкой специальных возможностей
+                  href: ./accessibility/accessibility-appdev.md
+                - name: Разработка доступных платформ пользовательского интерфейса
+                  href: accessibility/accessibility-uiframeworkdev.md
+                - name: Разработка вспомогательных технологий для Windows
+                  href: ./accessibility/accessibility-atdev.md
+                - name: Тестирование специальных возможностей
+                  href: ./accessibility/accessibility-testwithuia.md
+                - name: Устаревшие технологии обеспечения доступности и автоматизации
+                  href: ./accessibility/accessibility-legacy.md
+                - name: Справочник по функциям специальных возможностей и автоматизации
+                  href: ./accessibility/accessibility-reference-old.md
+            - name: Пользовательский интерфейс приложения для настольных систем
+              items:
+                - name: Обзор
+                  href: ./windows-application-ui-development.md
+                - name: начало работы разработке пользовательских интерфейсов для приложений Windows
+                  href: ./appuistart/getting-started-developing-user-interfaces-portal.md
+                - name: Интернационализация для приложений Windows
+                  href: ./intl/international-support.md
+                - name: Взаимодействие с пользователем
+                  items:
+                    - name: Обзор
+                      href: ./user-interaction.md
+                    - name: Непосредственная манипуляция
+                      href: ./directmanipulation/direct-manipulation-portal.md
+                    - name: Рукописный ввод
+                      href: ./input_ink/input-ink-portal.md
+                    - name: Настройка обратной связи для ввода
+                      href: ./input_feedback/input-feedback-configuration-portal.md
+                    - name: Идентификация источника входных данных
+                      href: ./input_sourceid/input-source-identification-portal.md
+                    - name: Контекст взаимодействия
+                      href: ./input_intcontext/interaction-context-portal.md
+                    - name: Стек устройств указателя
+                      href: ./input_pointerdevice/pointer-device-stack-portal.md
+                    - name: Входные сообщения и уведомления указателя
+                      href: ./inputmsg/messages-and-notifications-portal.md
+                    - name: Входные данные радиального контроллера
+                      href: ./input_radial/radialcontroller-portal.md
+                    - name: инфраструктуры текстовых служб (TSF)
+                      href: ./tsf/text-services-framework.md
+                    - name: Проверка нажатия сенсорного ввода
+                      href: ./input_touchhittest/touch-hit-testing-portal.md
+                    - name: Введение в сенсорный ввод
+                      href: ./input_touchinjection/touch-injection-portal.md
+                    - name: Функции взаимодействия пользователей прежних версий
+                      items:
+                        - name: Обзор
+                          href: ./legacy-user-interaction-features.md
+                        - name: Сенсорный ввод
+                          href: ./wintouch/windows-touch-portal.md
+                        - name: Ввод с клавиатуры и мыши
+                          href: ./inputdev/user-input.md
+                        - name: Мышь MultiPoint
+                          href: 'https://msdn.microsoft.com/library/windows/desktop/ff877472.aspx'
+                        - name: Планшетный ПК
+                          href: ./tablet/tablet-pc-development-guide.md
+                - name: Окна и сообщения
+                  href: ./winmsg/windowing.md
+                - name: Диспетчер окон рабочего стола
+                  href: ./dwm/dwm-overview.md
+                - name: Диалоговые окна
+                  href: ./dlgbox/dialog-boxes.md
+                - name: Меню и другие ресурсы
+                  href: ./menurc/resources.md
+                - name: Обмен данными
+                  href: ./dataxchg/data-exchange.md
+                - name: Высокое разрешение
+                  href: ./hidpi/high-dpi-desktop-application-development-on-windows.md
+                - name: Диспетчер анимации Windows
+                  href: ./uianimation/-main-portal.md
+                - name: Элементы управления Windows
+                  href: ./controls/window-controls.md
+                - name: Платформа ленты Windows
+                  href: ./windowsribbon/-uiplat-windowsribbon-entry.md
+            - name: Среда рабочего стола
+              items:
+                - name: Обзор
+                  href: ./user-interface.md
+                - name: Оболочка Windows
+                  href: ./shell/shell-entry.md
+                - name: Система свойств Windows
+                  href: ./properties/windows-properties-system.md
+                - name: Поиск Windows
+                  href: ./search/windows-search.md
+                - name: Оконные станции и рабочие столы
+                  href: ./winstation/window-stations-and-desktops.md
+                - name: Устаревшие функции среды Windows
+                  href: /windows/win32/api/_lwef/
+            - name: Установка и обслуживание приложения
+              items:
+                - name: Обзор
+                  href: ./application-installing-and-servicing.md
+                - name: Изолированные приложения и параллельные сборки
+                  href: ./sbscs/isolated-applications-and-side-by-side-assemblies-portal.md
+                - name: 'Упаковка, развертывание и запрос приложений UWP'
+                  href: ./appxpkg/appx-portal.md
+                - name: Лицензирование для разработчиков
+                  href: ./devlic/developer-licensing-portal.md
+                - name: Диспетчер перезапуска
+                  href: ./rstmgr/restart-manager-portal.md
+                - name: Обновление Orchestrator
+                  href: ./UpdateOrchestrator/index.md
+                - name: Установщик Windows
+                  href: ./msi/windows-installer-portal.md
+            - name: Аудио и видео
+              items:
+                - name: Обзор
+                  href: ./audio-and-video.md
+                - name: API-интерфейсы аудиоподсистемы Core
+                  href: ./coreaudio/core-audio-apis-in-windows-vista.md
+                - name: DirectShow
+                  href: ./directshow/directshow.md
+                - name: Microsoft Media Foundation
+                  href: ./medfound/microsoft-media-foundation-sdk.md
+                - name: Пакет SDK для Windows Media Format 11
+                  href: ./wmformat/windows-media-format-11-sdk.md
+                - name: Пакет SDK для проигрывателя Windows Media
+                  href: ./wmp/windows-media-player-sdk.md
+                - name: API потоковой передачи мультимедиа
+                  href: ./mediastreaming/media-streaming-api-portal.md
+                - name: Мультимедиа Windows
+                  href: ./multimedia/windows-multimedia-start-page.md
+            - name: Доступ к данным и хранилище
+              items:
+                - name: Обзор
+                  href: ./data-access-and-storage.md
+                - name: Фоновая интеллектуальная служба передачи
+                  href: ./bits/background-intelligent-transfer-service-portal.md
+                - name: Backup
+                  href: ./backup/backup.md
+                - name: Облачные модули синхронизации
+                  href: ./cfapi/cloud-files-api-portal.md
+                - name: распределенная файловая система
+                  href: /windows/win32/api/_dfs/
+                - name: Расширяемая подсистема хранилища
+                  href: ./extensible-storage-engine/extensible-storage-engine.md
+                - name: API-интерфейс для основного изображения
+                  href: ./imapi/portal.md
+                - name: API обработки изображений
+                  href: /previous-versions/msdn10/dd851933(v=msdn.10)
+                - name: Локальные файловые системы
+                  href: ./fileio/file-systems.md
+                - name: Плановая файловая система
+                  href: ./projfs/projected-file-system.md
+                - name: Программирование энергоустойчивой памяти
+                  href: ./persistent-memory-programming-in-windows---nvml-integration.md
+                - name: Виртуальное хранилище
+                  href: /windows/desktop/VStor/virtual-storage
+                - name: Служба виртуальных дисков
+                  href: /windows/desktop/VDS/virtual-disk-service-portal
+                - name: Служба теневого копирования томов
+                  href: ./vss/volume-shadow-copy-service-portal.md
+            - name: Устройства
+              items:
+                - name: Обзор
+                  href: ./devices.md
+                - name: Ресурсы для связи
+                  href: ./devio/communications-resources.md
+                - name: Доступ к устройству
+                  href: ./deviceaccess/device-access-broker-api-portal.md
+                - name: API расположения
+                  href: ./locationapi/windows-location-api-portal.md
+                - name: API датчика
+                  href: ./sensorsapi/portal.md
+                - name: Интерфейсы API UPnP
+                  href: ./upnp/universal-plug-and-play-start-page.md
+                - name: Веб-службы на устройствах
+                  href: wsdapi/wsd-portal.md
+                - name: ОДНО
+                  href: ./wsdapi/wsd-portal.md
+            - name: Пакет SDK для Windows Media диспетчер устройств 11
+              href: ./wmdm/windows-media-device-manager-11-sdk.md
+            - name: Портативные устройства Windows
+              items:
+                - name: Обзор
+                  href: windows-portable-devices.md
+                - name: Программный интерфейс WPD
+                  href: ./wpd_sdk/wpd-application-programming-interface.md
+            - name: Диагностика
+              items:
+                - name: Обзор
+                  href: ./diagnostics.md
+                - name: Отладка и обработка ошибок
+                  items:
+                    - name: Обзор
+                      href: ./debugging-and-error-handling.md
+                    - name: Восстановление приложений и перезагрузка
+                      href: ./recovery/application-recovery-and-restart-portal.md
+                    - name: Обработка ошибок
+                      href: ./debug/error-handling.md
+                - name: Инфраструктура диагностики сети
+                  href: ./ndf/portal.md
+                - name: Сетевой монитор
+                  href: ./netmon2/network-monitor.md
+                - name: Счетчики производительности
+                  href: ./perfctrs/performance-counters-portal.md
+                - name: Обработка значит
+                  href: /windows/win32/api/_proc_snap/
+                - name: API состояния процесса
+                  href: ./psapi/process-status-helper.md
+                - name: Служба уведомления о системных событиях
+                  href: ./sens/system-event-notification-service-portal.md
+                - name: Системный монитор
+                  href: ./sysmon/system-monitor-portal.md
+                - name: Библиотека справки по инструментам
+                  href: ./toolhelp/tool-help-library.md
+                - name: Отчеты об ошибках Windows
+                  href: ./wer/windows-error-reporting.md
+                - name: События Windows
+                  items:
+                    - name: Обзор
+                      href: ./events/windows-events.md
+                    - name: TraceLogging
+                      href: ./tracelogging/trace-logging-portal.md
+                    - name: Трассировка событий
+                      href: ./etw/event-tracing-portal.md
+                    - name: Ведение журналов событий
+                      href: ./eventlog/event-logging.md
+                    - name: "Журнал событий\_Windows"
+                      href: ./wes/windows-event-log.md
+                    - name: Сборщик событий Windows
+                      href: ./wec/windows-event-collector.md
+            - name: 'Документы и печать '
+              href: ./printdocs/documents-and-printing.md
+            - name: Графика и игры
+              items:
+                - name: Обзор
+                  href: ./graphics-and-multimedia.md
+                - name: Графика и игры DirectX
+                  items:
+                    - name: Обзор
+                      href: ./directx.md
+                    - name: Начало работы с графикой DirectX
+                      href: ./getting-started-with-directx-graphics.md
+                    - name: Программирование DirectX с помощью COM
+                      href: ./prog-dx-with-com.md
+                    - name: Direct2D
+                      href: ./direct2d/direct2d-portal.md
+                    - name: Direct3D
+                      items:
+                        - name: Обзор
+                          href: ./direct3d.md
+                        - name: Начало работы с Direct3D
+                          href: ./getting-started-with-direct3d.md
+                        - name: Графика Direct3D 12
+                          href: ./direct3d12/direct3d-12-graphics.md
+                        - name: Графика Direct3D 11
+                          href: ./direct3d11/atoc-dx-graphics-direct3d-11.md
+                        - name: DXGI
+                          href: ./direct3ddxgi/dx-graphics-dxgi.md
+                        - name: HLSL
+                          href: ./direct3dhlsl/dx-graphics-hlsl.md
+                        - name: DDS
+                          href: ./direct3ddds/dx-graphics-dds.md
+                    - name: DXCore
+                      href: ./dxcore/dxcore.md
+                    - name: DirectWrite
+                      href: ./directwrite/direct-write-portal.md
+                    - name: DirectXMath
+                      href: ./dxmath/directxmath-portal.md
+                    - name: API-интерфейсы виндовснумерикс. h
+                      href: ./numerics_h/windowsnumerics-h-apis-portal.md
+                    - name: Классическая графика DirectX
+                      items:
+                        - name: Обзор
+                          href: ./directx.md
+                        - name: Графика Direct3D 10
+                          href: ./direct3d10/d3d10-graphics.md
+                        - name: Графика Direct3D 9
+                          href: ./direct3d9/dx9-graphics-reference.md
+                        - name: Произведен
+                          href: ./directdraw/directdraw.md
+                        - name: Технические статьи
+                          href: ./dxtecharts/dx9-technical-articles.md
+                        - name: Где находится пакет SDK для DirectX?
+                          href: ./directx-sdk--august-2009-.md
+                    - name: Средства для графики DirectX
+                      href: /windows/desktop/direct3dtools/dx-graphics-tools
+                    - name: 'Статьи, посвященные графике DirectX'
+                      href: ./direct3darticles/directx-graphics-articles-portal.md
+                    - name: API-интерфейсы XAudio2
+                      href: ./xaudio2/xaudio2-apis-portal.md
+                    - name: API игрового контроллера Ксинпут
+                      href: ./xinput/xinput-game-controller-apis-portal.md
+                - name: DirectComposition
+                  href: ./directcomp/directcomposition-portal.md
+                - name: GDI+
+                  href: ./gdiplus/-gdiplus-gdi-start.md
+                - name: Windows GDI
+                  href: ./gdi/windows-gdi.md
+                - name: Конфигурация монитора
+                  href: ./monitor/monitor-configuration.md
+                - name: OpenGL
+                  href: ./opengl/opengl.md
+                - name: Компонент обработки изображений Windows
+                  href: ./wic/-wic-lh.md
+                - name: Windows Mixed Reality
+                  href: ./mixedreality/mixed-reality-portal.md
+                - name: Цветовая система Windows
+                  href: ./wcs/windows-color-system.md
+            - name: Сеть и Интернет
+              items:
+                - name: Обзор
+                  href: ./networking.md
+                - name: Оптимизация доставки
+                  href: delivery_optimization/delivery-optimization-portal.md
+                - name: Система доменных имен
+                  href: ./dns/dns-start-page.md
+                - name: API сервера HTTP
+                  href: ./http/http-api-start-page.md
+                - name: Вспомогательная служба IP
+                  href: ./iphlp/ip-helper-start-page.md
+                - name: служба очередей сообщений
+                  href: /previous-versions/windows/desktop/legacy/ms711472(v=vs.85)
+                - name: Сетевые интерфейсы
+                  href: ./network-interfaces.md
+                - name: Диспетчер списка сетей
+                  href: ./nla/portal.md
+                - name: Управление сетью
+                  href: ./netmgmt/network-management.md
+                - name: Управление сетевой общей папкой
+                  href: ./netshare/network-share-management.md
+                - name: Одноранговая сеть
+                  href: ./p2psdk/portal.md
+                - name: Удаленный вызов процедур
+                  href: ./rpc/rpc-start-page.md
+                - name: Служба маршрутизации и удаленного доступа
+                  href: ./rras/portal.md
+                - name: Протокол SNMP
+                  href: ./snmp/snmp-start-page.md
+                - name: Интерфейсы программирования приложений телефонии
+                  href: Tapi/telephony-application-programming-interfaces.md
+                - name: Протокол Teredo
+                  href: ./teredo/portal.md
+                - name: API компонента протокола WebSocket
+                  href: ./websock/web-socket-protocol-component-api-portal.md
+                - name: Платформа фильтрации Windows
+                  href: ./fwp/windows-filtering-platform-start-page.md
+                - name: Сетевые подключения Windows
+                  href: ./wnet/windows-networking-wnet-.md
+                - name: Сокеты Windows 2
+                  href: ./winsock/windows-sockets-start-page-2.md
+                - name: Беспроводная сеть
+                  items:
+                    - name: Обзор
+                      href: ./wireless-networking.md
+                    - name: Bluetooth
+                      href: ./bluetooth/bluetooth-start-page.md
+                    - name: Широкополосное мобильное подключение
+                      href: ./mbn/mobile-broadband-networks-portal.md
+                    - name: Встроенный WiFi
+                      href: ./nativewifi/portal.md
+                    - name: Windows Connect Now
+                      href: ./wcn/portal.md
+                    - name: Диспетчер подключений Windows
+                      href: ./wcm/windows-connection-manager-portal.md
+                - name: WebDAV
+                  href: ./webdav/webdav-portal.md
+                - name: Службы HTTP Windows
+                  href: ./winhttp/winhttp-start-page.md
+                - name: Windows Internet
+                  href: ./wininet/portal.md
+                - name: Веб-службы Windows
+                  href: ./wsw/portal.md
+            - name: Безопасность и удостоверения
+              items:
+                - name: Обзор
+                  href: ./security.md
+                - name: Интерфейс проверки наличия вредоносных программ
+                  href: ./amsi/antimalware-scan-interface-portal.md
+                - name: Аутентификация
+                  href: ./secauthn/authentication-portal.md
+                - name: Авторизация
+                  href: ./secauthz/authorization-portal.md
+                - name: Рекомендации по использованию API безопасности
+                  href: ./secbp/best-practices-for-the-security-apis.md
+                - name: API регистрации сертификатов
+                  href: ./seccertenroll/certenroll-portal.md
+                - name: Шифрование
+                  href: ./seccrypto/cryptography-portal.md
+                - name: 'API шифрования: следующее поколение'
+                  href: ./seccng/cng-portal.md
+                - name: 'Службы каталогов, удостоверений и доступа'
+                  href: null
+                  items:
+                    - name: Служба каталогов
+                      href: null
+                      items:
+                        - name: Каталоги
+                          href: null
+                          items:
+                            - name: Доменные службы Active Directory
+                              href: ./ad/active-directory-domain-services.md
+                            - name: Схема Active Directory
+                              href: ./adschema/active-directory-schema.md
+                        - name: Технологии доступа к каталогам
+                          href: null
+                          items:
+                            - name: Интерфейсы служб Active Directory
+                              href: ./adsi/active-directory-service-interfaces-adsi.md
+                    - name: Службы управления доступом
+                      href: null
+                      items:
+                        - name: Службы федерации Active Directory (AD FS)
+                          items:
+                            - name: Обзор
+                              href: ./srvnodes/active-directory-federation-services.md
+                            - name: Обзор служб федерации Active Directory
+                              href: /previous-versions/windows/desktop/legacy/ms674895(v=vs.85)
+                - name: Расширяемый протокол проверки подлинности
+                  href: ./eap/eap-start-page.md
+                - name: Узел протокола расширяемой проверки подлинности
+                  href: ./eaphost/portal.md
+                - name: Защита доступа к сети
+                  href: ./nap/network-access-protection-start-page.md
+                - name: Сервер политики сети
+                  href: ./nps/portal.md
+                - name: Родительский контроль
+                  href: ./parcon/parental-controls-portal.md
+                - name: Управление правами
+                  items:
+                    - name: Обзор
+                      href: ./srvnodes/rights-management.md
+                    - name: 'Сценарии RMS, код и средства'
+                      href: ./srvnodes/rms-code-samples-and-tools.md
+                - name: Управление безопасностью
+                  href: ./secmgmt/management-portal.md
+                - name: Глоссарий по безопасности
+                  href: ./secgloss/security-glossary.md
+                - name: Базовые службы TPM
+                  href: ./tbs/tpm-base-services-portal.md
+                - name: Биометрическая платформа Windows
+                  href: ./secbiomet/biometric-service-api-portal.md
+            - name: Системные службы
+              items:
+                - name: Обзор
+                  href: ./system-services.md
+                - name: модель COM
+                  href: ./com/component-object-model--com--portal.md
+                - name: язык MIDL
+                  href: ./midl/midl-start-page.md
+                - name: Структурированное хранилище
+                  href: ./stg/structured-storage-start-page.md
+                - name: COM+
+                  href: ./cossdk/component-services-portal.md
+                - name: API сжатия
+                  href: ./cmpapi/-compression-portal.md
+                - name: Библиотеки Dynamic-Link
+                  href: ./dlls/dynamic-link-libraries.md
+                - name: Обмен данными между процессами
+                  href: ./ipc/interprocess-communications.md
+                - name: Диспетчер транзакций ядра
+                  href: ./ktm/kernel-transaction-manager-portal.md
+                - name: Управление памятью
+                  href: ./memory/memory-management.md
+                - name: Управление питанием
+                  href: ./power/power-management-portal.md
+                - name: Процессы и потоки
+                  href: ./procthread/processes-and-threads.md
+                - name: Службы удаленных рабочих столов
+                  href: ./termserv/terminal-services-portal.md
+                - name: Службы
+                  href: ./services/services.md
+                - name: API установки
+                  href: ./setupapi/setup-api-portal.md
+                - name: Синхронизация
+                  href: ./sync/synchronization.md
+                - name: Сведения о системе Windows
+                  href: ./sysinfo/windows-system-information.md
+            - name: Windows Machine Learning
+              href: ./machinelearning/machine-learning-portal.md
+            - name: Примечания для разработчиков
+              href: ./devnotes/developer-notes.md
+        - name: Разработка с использованием серверных технологий
+          items:
+            - name: Обзор
+              href: ./server-and-system-technologies.md
+            - name: 'Службы каталогов, удостоверений и доступа'
+              href: ./srvnodes/directory--identity--and-access-services.md
+              items:
+                - name: Служба каталогов
+                  href: ./srvnodes/directory-services.md
+                  items:
+                    - name: Каталоги
+                      href: ./srvnodes/directories.md
+                    - name: Технологии доступа к каталогам
+                      href: ./srvnodes/directory-access-technologies.md
+                - name: Службы идентификации
+                  href: ./srvnodes/identity-services.md
+                  items:
+                    - name: Диспетчер жизненного цикла удостоверений 2007
+                      href: ./srvnodes/identity-lifecycle-manager-2007.md
+                - name: Службы управления доступом
+                  href: ./srvnodes/access-management-services.md
+                  items:
+                    - name: Службы федерации Active Directory (AD FS)
+                      href: ./srvnodes/active-directory-federation-services.md
+            - name: Управление правами
+              href: ./srvnodes/rights-management.md
+              items:
+                - name: Примеры кода и средства RMS
+                  href: ./srvnodes/rms-code-samples-and-tools.md
+            - name: Администрирование системы
+              href: ./srvnodes/system-administration.md
+              items:
+                - name: Групповая политика
+                  items:
+                    - name: Обзор
+                      href: ./srvnodes/group-policy.md
+                    - name: Справочник по библиотеке классов GPMC
+                      href: /previous-versions/windows/desktop/wmi_v2/class-library/gpmc-class-library-reference
+                - name: Консоль управления (MMC)
+                  href: ./srvnodes/microsoft-management-console--mmc-.md
+                  items:
+                    - name: Консоль управления (MMC) 3.0
+                      href: ./srvnodes/microsoft-management-console-3-0.md
+                - name: Службы WSUS
+                  href: ./srvnodes/windows-server-update-services.md
+                  items:
+                    - name: 'Библиотека классов Windows Server Update Services 2,0'
+                      href: ./srvnodes/windows-server-update-services-2-0-class-library.md
+            - name: Виртуализация
+              href: ./srvnodes/virtualization.md
+            - name: 'Поставщики WMI, MI и OMI'
+              href: ./srvnodes/wmi-mi-omi-providers.md
+            - name: Windows Server
+              href: ./srvnodes/windows-server.md
+              items:
+                - name: Новые возможности Windows Server 2012 R2 и Windows Server 2012
+                  href: ./srvnodes/what-s-new-for-windows-server-2012-r2.md
+                - name: Регистрация управления мобильными устройствами
+                  href: ./mdmreg/mobile-device-management-registration-portal.md
+                - name: '"Восстановление системы"'
+                  href: ./sr/system-restore-portal.md
+                - name: Завершение работы системы
+                  href: ./shutdown/system-shutdown.md
+                - name: Планировщик заданий
+                  href: ./taskschd/task-scheduler-start-page.md
+                - name: Windows Deployment Services
+                  href: ./wds/windows-deployment-services-portal.md
+                - name: Инструментарий управления Windows (WMI)
+                  href: ./wmisdk/wmi-start-page.md
+                - name: Управляемый API инфраструктуры управления Windows
+                  href: /previous-versions/windows/desktop/wmi_v2/mi-managed-api/mt738833(v=vs.85)
+                - name: Поставщики WMI
+                  href: null
+                  items:
+                    - name: Поставщик WMI сборщика событий загрузки
+                      href: ./bevtcolprov/boot-event-collector-wmi-provider-portal.md
+                    - name: Управление Hyper-V
+                      href: ./hyperv_v2/hyper-v-management.md
+                    - name: Поставщик WMI для моста MDM
+                      href: ./dmwmibridgeprov/mdm-bridge-wmi-provider-portal.md
+                    - name: Средство оценки системы Windows
+                      href: ./winsat/windows-system-assessment-tool-portal.md
+                    - name: Поставщик ядра WMI
+                      href: ./wmicoreprov/wmi-core-provider-.md
+                - name: Удаленное управление Windows
+                  href: ./winrm/portal.md
+                - name: защита ресурсов Windows
+                  href: ./wfp/windows-resource-protection-portal.md
+        - name: Индекс API
+          href: ./apiindex/api-index-portal.md
+        - name: Справочник по среда выполнения Windows C++
+          href: ./winrt/reference.md
+        - name: Сертификация Windows
+          href: ./win_cert/windows-certification-portal.md
+    - name: Примеры кода Win32 для классических приложений
+      href: ./desktop-win32-code-samples.md

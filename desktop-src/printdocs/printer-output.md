@@ -1,0 +1,26 @@
+---
+description: Так же, как приложение требует контекст устройства отображения (DC), прежде чем он сможет начать рисовать в клиентской области окна, ему требуется контроллер домена, прежде чем он сможет начать отправку выходных данных на принтер.
+ms.assetid: 5bdcec28-e28d-402d-8d80-e8aa5ecb4e74
+title: Контексты устройств принтера (документы и печать)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a1b75fb79d6ab8bb4198bf52bff10eccf5ec3cf0
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104264921"
+---
+# <a name="printer-device-contexts-documents-and-printing"></a><span data-ttu-id="f257e-103">Контексты устройств принтера (документы и печать)</span><span class="sxs-lookup"><span data-stu-id="f257e-103">Printer Device Contexts (Documents and Printing)</span></span>
+
+<span data-ttu-id="f257e-104">Так же, как приложение требует контекст устройства отображения (DC), прежде чем он сможет начать рисовать в клиентской области окна, ему требуется контроллер домена, прежде чем он сможет начать отправку выходных данных на принтер.</span><span class="sxs-lookup"><span data-stu-id="f257e-104">Just as an application requires a display device context (DC) before it can begin drawing in the client area of a window, it needs a printer DC before it can begin sending output to a printer.</span></span> <span data-ttu-id="f257e-105">Контроллер домена принтера похож на экранный контроллер домена в том, что он является внутренней структурой данных, определяющей набор графических объектов и связанных с ними атрибутов, а также задает графические режимы, влияющие на выходные данные.</span><span class="sxs-lookup"><span data-stu-id="f257e-105">A printer DC is similar to a display DC in that it is an internal data structure that defines a set of graphic objects and their associated attributes and specifies the graphic modes that affect output.</span></span> <span data-ttu-id="f257e-106">Графические объекты включают в себя перо для рисования линий, кисть для рисования и заливки, а также шрифт для вывода текста.</span><span class="sxs-lookup"><span data-stu-id="f257e-106">The graphic objects include a pen for line drawing, a brush for painting and filling, and a font for text output.</span></span>
+
+<span data-ttu-id="f257e-107">В отличие от контроллера домена, контроллер домена не принадлежит компоненту управления окнами и не может быть получен путем вызова функции [**GetDC**](/windows/desktop/api/winuser/nf-winuser-getdc) .</span><span class="sxs-lookup"><span data-stu-id="f257e-107">Unlike a display DC, a printer DC is not owned by the window management component, and it cannot be obtained by calling the [**GetDC**](/windows/desktop/api/winuser/nf-winuser-getdc) function.</span></span> <span data-ttu-id="f257e-108">Вместо этого приложение должно вызывать функцию [**креатедк**](/windows/desktop/api/wingdi/nf-wingdi-createdca) или [**принтдлжекс**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) .</span><span class="sxs-lookup"><span data-stu-id="f257e-108">Instead, an application must call the [**CreateDC**](/windows/desktop/api/wingdi/nf-wingdi-createdca) or [**PrintDlgEx**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) function.</span></span>
+
+<span data-ttu-id="f257e-109">Если приложение вызывает функцию [**креатедк**](/windows/desktop/api/wingdi/nf-wingdi-createdca) , оно должно предоставить драйвер и имя порта.</span><span class="sxs-lookup"><span data-stu-id="f257e-109">If your application calls the [**CreateDC**](/windows/desktop/api/wingdi/nf-wingdi-createdca) function, it must supply a driver and port name.</span></span> <span data-ttu-id="f257e-110">Чтобы получить эти имена, вызовите функцию [**енумпринтерс**](enumprinters.md) [**или.**](getprinter.md)</span><span class="sxs-lookup"><span data-stu-id="f257e-110">To retrieve these names, call the [**GetPrinter**](getprinter.md) or [**EnumPrinters**](enumprinters.md) function.</span></span>
+
+<span data-ttu-id="f257e-111">Если приложение вызывает функцию [**принтдлжекс**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) и ЗАДАЕТ \_ значение PD Ретурндк в элементе **flags** структуры [**принтдлжекс**](/windows/win32/api/commdlg/ns-commdlg-printdlgexa) , система возвращает маркер контекста устройства для принтера, выбранного пользователем.</span><span class="sxs-lookup"><span data-stu-id="f257e-111">If your application calls the [**PrintDlgEx**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) function and specifies the PD\_RETURNDC value in the **Flags** member of the [**PRINTDLGEX**](/windows/win32/api/commdlg/ns-commdlg-printdlgexa) structure, the system returns a handle to a device context for the printer selected by the user.</span></span> <span data-ttu-id="f257e-112">Дополнительные сведения см. в разделе [Печать страницы свойств](../dlgbox/print-property-sheet.md) и "использование страницы свойств печати" раздела [использование общих диалоговых](../dlgbox/using-common-dialog-boxes.md)окон.</span><span class="sxs-lookup"><span data-stu-id="f257e-112">For more information, see [Print Property Sheet](../dlgbox/print-property-sheet.md) and "Using the Print Property Sheet" in [Using Common Dialog Boxes](../dlgbox/using-common-dialog-boxes.md).</span></span>
+
+ 
+
+ 

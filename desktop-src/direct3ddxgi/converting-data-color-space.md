@@ -1,0 +1,82 @@
+---
+description: Для создания изображения или выполнения операций с плавающей запятой необходимо работать в правильном цветовом пространстве.
+ms.assetid: 1DD8E2D3-430F-4EE4-9C41-78736C904920
+title: Преобразование данных для цветового пространства
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 91b5dbec2f826c40d5274cbddb3b54d1cdd9f695
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "103805602"
+---
+# <a name="converting-data-for-the-color-space"></a><span data-ttu-id="dcf05-103">Преобразование данных для цветового пространства</span><span class="sxs-lookup"><span data-stu-id="dcf05-103">Converting data for the color space</span></span>
+
+<span data-ttu-id="dcf05-104">Для создания изображения или выполнения операций с плавающей запятой необходимо работать в правильном цветовом пространстве.</span><span class="sxs-lookup"><span data-stu-id="dcf05-104">To compose to the screen or perform floating-point operations, you need to work in the correct color space.</span></span> <span data-ttu-id="dcf05-105">Рекомендуется выполнять операции с плавающей запятой в линейном цветовом пространстве.</span><span class="sxs-lookup"><span data-stu-id="dcf05-105">We recommend that you perform floating point operations in a linear color space.</span></span> <span data-ttu-id="dcf05-106">Затем, чтобы показать изображения на экране, преобразуйте данные в стандартное цветовое пространство RGB (sRGB, гамма 2,2-исправлено).</span><span class="sxs-lookup"><span data-stu-id="dcf05-106">Then, to present your images to the screen, convert the data to standard RGB data (sRGB, gamma 2.2-corrected) color space.</span></span> <span data-ttu-id="dcf05-107">Представление экрана в цветовом пространстве sRGB имеет важное значение для точности цвета.</span><span class="sxs-lookup"><span data-stu-id="dcf05-107">Presenting to the screen in sRGB color space is important for color accuracy.</span></span> <span data-ttu-id="dcf05-108">Если изображения не являются гамма-2,2 — исправлены, они выделяют слишком много битов или слишком много пропускной способности, чтобы выделить, что пользователи не могут отличать и слишком мало разрядов или пропускной способности для теневых значений, с которыми они чувствительны, и поэтому требуют большего количества битов или пропускной способности для поддержания одинакового качества визуализации.</span><span class="sxs-lookup"><span data-stu-id="dcf05-108">If images are not gamma 2.2-corrected, they allocate too many bits or too much bandwidth to highlights that people can't differentiate, and too few bits or bandwidth to shadow values that people are sensitive to, and so would require more bits or bandwidth to maintain the same visual quality.</span></span> <span data-ttu-id="dcf05-109">Таким образом, чтобы обеспечить наилучшую точность цвета, выводятся изображения на экране с гаммой 2,2-исправленными.</span><span class="sxs-lookup"><span data-stu-id="dcf05-109">Therefore, to ensure the best color accuracy, present images to the screen that are gamma 2.2-corrected.</span></span>
+
+-   [<span data-ttu-id="dcf05-110">Точность цвета</span><span class="sxs-lookup"><span data-stu-id="dcf05-110">Color accuracy</span></span>](#color-accuracy)
+-   [<span data-ttu-id="dcf05-111">См. также</span><span class="sxs-lookup"><span data-stu-id="dcf05-111">Related topics</span></span>](#related-topics)
+
+## <a name="color-accuracy"></a><span data-ttu-id="dcf05-112">Точность цвета</span><span class="sxs-lookup"><span data-stu-id="dcf05-112">Color accuracy</span></span>
+
+<span data-ttu-id="dcf05-113">Форматы отображения с целочисленными значениями (например, [**\_ Формат DXGI \_ B8G8R8A8 \_ UNORM \_ sRGB**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**\_ Формат DXGI \_ R10G10B10 \_ XR \_ смещение \_ a2 \_ UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)и т. д.) всегда содержат исправленные данные sRGB.</span><span class="sxs-lookup"><span data-stu-id="dcf05-113">For presentation, integer-valued display formats (such as [**DXGI\_FORMAT\_B8G8R8A8\_UNORM\_SRGB**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R10G10B10\_XR\_BIAS\_A2\_UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), and so on) always contain sRGB gamma-corrected data.</span></span> <span data-ttu-id="dcf05-114">Форматы отображаемых значений с плавающей запятой (в настоящее время только в [**\_ формате DXGI \_ R16G16B16A16 \_ float**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)) содержат линейные значения.</span><span class="sxs-lookup"><span data-stu-id="dcf05-114">Float-valued display formats (currently only [**DXGI\_FORMAT\_R16G16B16A16\_FLOAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)) contain linear-valued data.</span></span>
+
+<span data-ttu-id="dcf05-115">\_ [Модификатор формата](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) sRGB указывает операционной системе, что приложение помещает данные sRGB на экране.</span><span class="sxs-lookup"><span data-stu-id="dcf05-115">The \_SRGB [format modifier](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) indicates to the operating system to help the app place sRGB data on the screen.</span></span> <span data-ttu-id="dcf05-116">Приложение всегда должно поместить данные sRGB в задние буферы с форматами с целочисленными значениями, чтобы представлять данные sRGB на экране, даже если у данных нет этого модификатора формата в имени формата.</span><span class="sxs-lookup"><span data-stu-id="dcf05-116">The app must always place sRGB data into back buffers with integer-valued formats to present the sRGB data to the screen, even if the data doesn't have this format modifier in its format name.</span></span> <span data-ttu-id="dcf05-117">Полный список форматов вывода для просмотра:</span><span class="sxs-lookup"><span data-stu-id="dcf05-117">For a complete list of display scan-out formats:</span></span>
+
+-   [<span data-ttu-id="dcf05-118">Поддержка формата DXGI для оборудования уровня компонентов Direct3D 12,1</span><span class="sxs-lookup"><span data-stu-id="dcf05-118">DXGI Format Support for Direct3D Feature Level 12.1 Hardware</span></span>](hardware-support-for-direct3d-12-1-formats.md)
+-   [<span data-ttu-id="dcf05-119">Поддержка формата DXGI для оборудования уровня компонентов Direct3D 12,0</span><span class="sxs-lookup"><span data-stu-id="dcf05-119">DXGI Format Support for Direct3D Feature Level 12.0 Hardware</span></span>](hardware-support-for-direct3d-12-0-formats.md)
+-   [<span data-ttu-id="dcf05-120">Поддержка формата DXGI для оборудования уровня компонентов Direct3D 11,1</span><span class="sxs-lookup"><span data-stu-id="dcf05-120">DXGI Format Support for Direct3D Feature Level 11.1 Hardware</span></span>](format-support-for-direct3d-11-1-feature-level-hardware.md)
+-   [<span data-ttu-id="dcf05-121">Поддержка формата DXGI для оборудования уровня компонентов Direct3D 11,0</span><span class="sxs-lookup"><span data-stu-id="dcf05-121">DXGI Format Support for Direct3D Feature Level 11.0 Hardware</span></span>](format-support-for-direct3d-11-0-feature-level-hardware.md)
+-   <span data-ttu-id="dcf05-122">[Аппаратная поддержка форматов Direct3D 10Level9](/previous-versions//ff471324(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="dcf05-122">[Hardware Support for Direct3D 10Level9 Formats](/previous-versions//ff471324(v=vs.85))</span></span>
+-   <span data-ttu-id="dcf05-123">[Аппаратная поддержка форматов Direct3D 10,1](/previous-versions//cc627091(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="dcf05-123">[Hardware Support for Direct3D 10.1 Formats](/previous-versions//cc627091(v=vs.85))</span></span>
+-   <span data-ttu-id="dcf05-124">[Поддержка оборудования для форматов Direct3D 10](/previous-versions//cc627090(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="dcf05-124">[Hardware Support for Direct3D 10 Formats](/previous-versions//cc627090(v=vs.85))</span></span>
+
+<span data-ttu-id="dcf05-125">При записи выходных значений с плавающей запятой из шейдера пикселей в представления визуализации (**рендертаржетвиев**) с помощью \_ [модификатора формата](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) sRGB, привязанного к [конвейеру](/windows/desktop/direct3d11/overviews-direct3d-11-graphics-pipeline), вы преобразуете их в гамма-2,2 — исправленное цветовое пространство.</span><span class="sxs-lookup"><span data-stu-id="dcf05-125">When you write floating-point output values from the pixel shader into render-target views (**RenderTargetView** s) with the \_SRGB [format modifier](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) that are bound to the [pipeline](/windows/desktop/direct3d11/overviews-direct3d-11-graphics-pipeline), you convert them to gamma 2.2-corrected color space.</span></span> <span data-ttu-id="dcf05-126">Аналогично, когда в конвейере привязываются представления ресурсов шейдера (**шадерресаурцевиев**) с \_ модификатором формата sRGB, вы преобразуете значения из гамма-2,2 коррекции в цветовую область до линейного цветового пространства при чтении их из **шадерресаурцевиев** s.</span><span class="sxs-lookup"><span data-stu-id="dcf05-126">Similarly, when shader-resource views (**ShaderResourceView** s) with the \_SRGB format modifier are bound to the pipeline, you convert the values from gamma 2.2-corrected color space to linear color space when you read them from the **ShaderResourceView** s.</span></span> <span data-ttu-id="dcf05-127">Затем шейдер может выполнять над ними операции.</span><span class="sxs-lookup"><span data-stu-id="dcf05-127">The shader can then perform operations on them.</span></span>
+
+<span data-ttu-id="dcf05-128">Например, используйте код, аналогичный приведенному ниже, для записи выходных значений с плавающей запятой из шейдера в формат **рендертаржетвиев** :</span><span class="sxs-lookup"><span data-stu-id="dcf05-128">For example, use code similar to this to write floating-point output values from a shader into a **RenderTargetView** format:</span></span>
+
+
+```
+struct PSOut
+{
+    float4 color : SV_Target;
+};
+
+PSOut S( PSIn input )
+{
+    PSOut output;
+    output.color = float4( 1.0, 0.0, 0.0, 1.0 );
+    return output;
+}
+```
+
+
+
+<span data-ttu-id="dcf05-129">При возврате подпрограммы «» значения с плавающей запятой (1, 0, 0, 1) преобразуются в формат **рендертаржетвиев** .</span><span class="sxs-lookup"><span data-stu-id="dcf05-129">When the 'S' routine returns, the floating point (1, 0, 0, 1) values are converted to the **RenderTargetView** format.</span></span> <span data-ttu-id="dcf05-130">Затем, если \_ для **рендертаржетвиев** назначается [Модификатор формата](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) sRGB, происходит преобразование гаммы.</span><span class="sxs-lookup"><span data-stu-id="dcf05-130">Then, if you assign the \_SRGB [format modifier](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) to the **RenderTargetView**, the gamma conversion occurs.</span></span>
+
+<span data-ttu-id="dcf05-131">Эти действия необходимо выполнить, чтобы убедиться, что отображаемое на экране содержимое имеет наилучшую цветовую точность.</span><span class="sxs-lookup"><span data-stu-id="dcf05-131">These are steps to follow to ensure that the content that is displayed on the screen has the best color accuracy.</span></span>
+
+<span data-ttu-id="dcf05-132">**Обеспечение точности цветов в конвейере**</span><span class="sxs-lookup"><span data-stu-id="dcf05-132">**To ensure color accuracy in the pipeline**</span></span>
+
+1.  <span data-ttu-id="dcf05-133">Если у текстуры есть содержимое sRGB, убедитесь, что в **шадерресаурцевиев** есть \_ [Модификатор формата](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) sRGB, поэтому при считывании из **шадерресаурцевиев** в шейдер вы преобразуете содержимое текстуры из гамма-2,2 — исправлено цветовое пространство в линейное цветовое пространство.</span><span class="sxs-lookup"><span data-stu-id="dcf05-133">If a texture has sRGB content, ensure the **ShaderResourceView** has the \_SRGB [format modifier](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) so when you read from the **ShaderResourceView** into the shader, you convert the texture content from gamma 2.2-corrected color space to linear color space.</span></span>
+2.  <span data-ttu-id="dcf05-134">Убедитесь, что **рендертаржетвиев** также имеет \_ [Модификатор формата](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) sRGB, чтобы выходные значения шейдера были преобразованы в гамму.</span><span class="sxs-lookup"><span data-stu-id="dcf05-134">Ensure the **RenderTargetView** also has the \_SRGB [format modifier](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) so the shader output values are gamma converted.</span></span>
+
+<span data-ttu-id="dcf05-135">При выполнении предыдущих шагов при вызове метода [**IDXGISwapChain1::P resent1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1) содержимое, отображаемое на экране, имеет наилучшую точность цвета.</span><span class="sxs-lookup"><span data-stu-id="dcf05-135">If you follow the preceding steps, when you call the [**IDXGISwapChain1::Present1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1) method, the content that is displayed on the screen has the best color accuracy.</span></span>
+
+<span data-ttu-id="dcf05-136">Вы можете использовать метод [**ID3D11Device:: креатерендертаржетвиев**](/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createrendertargetview) для создания **формата DXGI с \_ форматом \_ \* \_ sRGB** в задних буферах из цепочки буферов, созданной только с форматом **\_ \_ \* \_ UNORM формата DXGI** .</span><span class="sxs-lookup"><span data-stu-id="dcf05-136">You can use the [**ID3D11Device::CreateRenderTargetView**](/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createrendertargetview) method to create **DXGI\_FORMAT\_\*\_SRGB** views on back buffers from a swap chain that you create only with a **DXGI\_FORMAT\_\*\_UNORM** format.</span></span> <span data-ttu-id="dcf05-137">Это специальное исключение для правила создания представлений целевого объекта рендеринга, в котором говорится, что можно использовать другой формат с **ID3D11Device:: креатерендертаржетвиев** только в том случае, если вы создали ресурс, который вы хотите просмотреть с **\_ \_ \* \_ типом формата DXGI**.</span><span class="sxs-lookup"><span data-stu-id="dcf05-137">This is a special exception to the rule for creating render-target views, which states that you can use a different format with **ID3D11Device::CreateRenderTargetView** only if you created the resource that you want to view with **DXGI\_FORMAT\_\*\_TYPELESS**.</span></span>
+
+<span data-ttu-id="dcf05-138">Дополнительные сведения о правилах преобразования данных см. в разделе [правила преобразования данных](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-data-conversion).</span><span class="sxs-lookup"><span data-stu-id="dcf05-138">For more info about rules for converting data, see [Data Conversion Rules](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-data-conversion).</span></span>
+
+<span data-ttu-id="dcf05-139">Сведения о том, как одновременно считывать данные из текстуры и записывать их в текстуру, см. в разделе [Распаковка и упаковка \_ формата упаковки для In-Place редактирования изображений](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-unpacking-packing-dxgi-format).</span><span class="sxs-lookup"><span data-stu-id="dcf05-139">For info about how to simultaneously both read from and write to a texture, see [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-unpacking-packing-dxgi-format).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="dcf05-140">См. также</span><span class="sxs-lookup"><span data-stu-id="dcf05-140">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="dcf05-141">Улучшение представления с помощью модели перелистывания, "грязных" прямоугольников и областей с прокруткой</span><span class="sxs-lookup"><span data-stu-id="dcf05-141">Enhancing presentation with the flip model, dirty rectangles, and scrolled areas</span></span>](dxgi-1-2-presentation-improvements.md)
+</dt> </dl>
+
+ 
+
+ 

@@ -1,0 +1,62 @@
+---
+title: Событие "Щелчок"
+description: Событие "Щелчок"
+ms.assetid: 772029d5-97b6-49d8-a989-04f0fc429aca
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3956d19e833a3e0a5f71192b2846ef9cb270ad10
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104411221"
+---
+# <a name="click-event"></a><span data-ttu-id="f018e-103">Событие "Щелчок"</span><span class="sxs-lookup"><span data-stu-id="f018e-103">Click Event</span></span>
+
+<span data-ttu-id="f018e-104">\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]</span><span class="sxs-lookup"><span data-stu-id="f018e-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="f018e-105"><span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Nописание**</span><span class="sxs-lookup"><span data-stu-id="f018e-105"><span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="f018e-106">Происходит, когда пользователь щелкает символ или значок символа.</span><span class="sxs-lookup"><span data-stu-id="f018e-106">Occurs when the user clicks a character or the character's icon.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="f018e-107"><span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**</span><span class="sxs-lookup"><span data-stu-id="f018e-107"><span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="f018e-108"> *Подагент\ *\ *\ * \_ щелкните*\ *  **(ByVal** *чарактерид*, **ByVal** *Button*, **ByVal** *SHIFT*, **ByVal** *X*, **ByVal**\ *Y\ \**\ * *)*</span><span class="sxs-lookup"><span data-stu-id="f018e-108">**Sub** *agent\*\*\*\_Click*\* **(ByVal** *CharacterID*, **ByVal** *Button*, **ByVal** *Shift*, **ByVal** *X*, **ByVal** *Y\*\*\*)*\*</span></span>
+
+
+
+| <span data-ttu-id="f018e-109">Отделение</span><span class="sxs-lookup"><span data-stu-id="f018e-109">Part</span></span>          | <span data-ttu-id="f018e-110">Описание</span><span class="sxs-lookup"><span data-stu-id="f018e-110">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="f018e-111">*чарактерид*</span><span class="sxs-lookup"><span data-stu-id="f018e-111">*CharacterID*</span></span> | <span data-ttu-id="f018e-112">Возвращает идентификатор нажатого символа в виде строки.</span><span class="sxs-lookup"><span data-stu-id="f018e-112">Returns the ID of the clicked character as a string.</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| <span data-ttu-id="f018e-113">*Кнопка*</span><span class="sxs-lookup"><span data-stu-id="f018e-113">*Button*</span></span>      | <span data-ttu-id="f018e-114">Возвращает целое число, определяющее кнопку, которая была нажата и была вызвана для события.</span><span class="sxs-lookup"><span data-stu-id="f018e-114">Returns an integer that identifies the button that was pressed and released to cause the event.</span></span> <span data-ttu-id="f018e-115">Аргумент Button — это битовое битовое значение, соответствующее левой кнопке (бит 0), правой кнопке (бит 1) и средней кнопке (бит 2).</span><span class="sxs-lookup"><span data-stu-id="f018e-115">The button argument is a bitfield with bits corresponding to the left button (bit 0), right button (bit 1), and middle button (bit 2).</span></span> <span data-ttu-id="f018e-116">Эти биты соответствуют значениям 1, 2 и 4 соответственно.</span><span class="sxs-lookup"><span data-stu-id="f018e-116">These bits correspond to the values 1, 2, and 4, respectively.</span></span> <span data-ttu-id="f018e-117">Задан только один из битов, указывающий кнопку, вызвавшую событие.</span><span class="sxs-lookup"><span data-stu-id="f018e-117">Only one of the bits is set, indicating the button that caused the event.</span></span> <span data-ttu-id="f018e-118">Если символ содержит значок панели задач, а также установлен бит 13, щелчок на значке панели задач.</span><span class="sxs-lookup"><span data-stu-id="f018e-118">If the character includes a taskbar icon, and bit 13 is also set, the click occurred on the taskbar icon.</span></span>                                                                                                                                                                      |
+| <span data-ttu-id="f018e-119">*Сдвиг*</span><span class="sxs-lookup"><span data-stu-id="f018e-119">*Shift*</span></span>       | <span data-ttu-id="f018e-120">Возвращает целое число, соответствующее состоянию клавиш SHIFT, CTRL и ALT при нажатии или отпускании кнопки, заданной в аргументе Button.</span><span class="sxs-lookup"><span data-stu-id="f018e-120">Returns an integer that corresponds to the state of the SHIFT, CTRL, and ALT keys when the button specified in the button argument is pressed or released.</span></span> <span data-ttu-id="f018e-121">Если ключ не работает, устанавливается бит.</span><span class="sxs-lookup"><span data-stu-id="f018e-121">A bit is set if the key is down.</span></span> <span data-ttu-id="f018e-122">Аргумент сдвига является битовым битом с наименьшими значащими битами, соответствующими клавише SHIFT (бит 0), клавишей CTRL (бит 1) и клавишей ALT (бит 2).</span><span class="sxs-lookup"><span data-stu-id="f018e-122">The shift argument is a bitfield with the least-significant bits corresponding to the SHIFT key (bit 0), the CTRL key (bit 1), and the ALT key (bit 2).</span></span> <span data-ttu-id="f018e-123">Эти биты соответствуют значениям 1, 2 и 4 соответственно.</span><span class="sxs-lookup"><span data-stu-id="f018e-123">These bits correspond to the values 1, 2, and 4, respectively.</span></span> <span data-ttu-id="f018e-124">Аргумент shift указывает состояние этих ключей.</span><span class="sxs-lookup"><span data-stu-id="f018e-124">The shift argument indicates the state of these keys.</span></span> <span data-ttu-id="f018e-125">Можно установить некоторые, все или ни одного бита, указывая, что не нажаты некоторые, все или ни один из этих ключей.</span><span class="sxs-lookup"><span data-stu-id="f018e-125">Some, all, or none of the bits can be set, indicating that some, all, or none of the keys are pressed.</span></span> <span data-ttu-id="f018e-126">Например, при нажатии клавиш CTRL и ALT значение Shift будет равно 6.</span><span class="sxs-lookup"><span data-stu-id="f018e-126">For example, if both CTRL and ALT were pressed, the value of shift would be 6.</span></span> |
+| <span data-ttu-id="f018e-127">*X, Y*</span><span class="sxs-lookup"><span data-stu-id="f018e-127">*X,Y*</span></span>         | <span data-ttu-id="f018e-128">Возвращает целое число, указывающее текущее положение указателя мыши.</span><span class="sxs-lookup"><span data-stu-id="f018e-128">Returns an integer that specifies the current location of the mouse pointer.</span></span> <span data-ttu-id="f018e-129">Значения X и Y всегда выражаются в пикселях относительно левого верхнего угла экрана.</span><span class="sxs-lookup"><span data-stu-id="f018e-129">The X and Y values are always expressed in pixels, relative to the upper-left corner of the screen.</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+
+
+ 
+
+</dd> </dl>
+
+### <a name="remarks"></a><span data-ttu-id="f018e-130">Комментарии</span><span class="sxs-lookup"><span data-stu-id="f018e-130">Remarks</span></span>
+
+<span data-ttu-id="f018e-131">Это событие отправляется только клиенту ввода-активного клиента символа.</span><span class="sxs-lookup"><span data-stu-id="f018e-131">This event is sent only to the input-active client of a character.</span></span> <span data-ttu-id="f018e-132">Когда пользователь щелкает символ или его значок на панели задач без клиента input-Active, сервер отправляет событие активному клиенту.</span><span class="sxs-lookup"><span data-stu-id="f018e-132">When the user clicks a character or its taskbar icon with no input-active client, the server sends the event to its active client.</span></span> <span data-ttu-id="f018e-133">Если символ является видимым ([**видимым**](visible-property.md)  =  ), то в действии пользователя также задается Последний входной-активный клиент в качестве текущего клиента ввода, который отправляет событие [**активатеинпут**](activateinput-event.md) клиенту, а затем отправляет событие **Click** .</span><span class="sxs-lookup"><span data-stu-id="f018e-133">If the character is visible ([**Visible**](visible-property.md) = **True**), the user's action also sets the character's last input-active client as the current input-active client, sending the [**ActivateInput**](activateinput-event.md) event to that client, and then sending the **Click** event.</span></span> <span data-ttu-id="f018e-134">Если символ является скрытым (**видимым**  =  **false**) и пользователь щелкает значок символа на панели задач с помощью кнопки 1, этот символ также отображается автоматически.</span><span class="sxs-lookup"><span data-stu-id="f018e-134">If the character is hidden (**Visible** = **False**), and the user clicks the character's taskbar icon using button 1, the character is also automatically shown.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="f018e-135">При щелчке символа не отключаются все остальные символьные данные (все символы).</span><span class="sxs-lookup"><span data-stu-id="f018e-135">Clicking a character does not disable all other character output (all characters).</span></span> <span data-ttu-id="f018e-136">Тем не менее, при нажатии клавиши прослушивания происходит сброс выходных данных символа входа и активация события [**рекуесткомплете**](requestcomplete-event.md) с передачей [запроса. состояние](status-property.md) , указывающее на то, что очередь клиента была прервана.</span><span class="sxs-lookup"><span data-stu-id="f018e-136">However, pressing the Listening key does flush the input-active character's output and triggers the [**RequestComplete**](requestcomplete-event.md) event, passing a [Request.Status](status-property.md) that indicates that the client's queue was interrupted.</span></span>
+
+ 
+
+ 
+
+ 
+
+
+
+

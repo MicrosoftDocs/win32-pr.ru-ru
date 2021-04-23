@@ -1,0 +1,48 @@
+---
+title: Приобретение мультимедийного содержимого
+description: Приобретение мультимедийного содержимого
+ms.assetid: df4a3152-f9e3-4a97-b021-6d5e8de9c184
+keywords:
+- Интернет-магазины проигрывателя Windows Media, приобретение мультимедийного содержимого
+- Интернет-магазины, приобретение мультимедийного содержимого
+- Тип 1 Интернет-магазины, приобретение мультимедийного содержимого
+- Интернет-магазины проигрывателя Windows Media, покупки мультимедийного содержимого
+- Интернет-магазины, покупки содержимого мультимедиа
+- Тип 1 Интернет-магазины, покупки мультимедийного содержимого
+- мультимедийное содержимое, приобретение
+- приобретение мультимедийного содержимого
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e420f1dce607e1c596c48490d10bbe8a2a5a5f61
+ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "103987177"
+---
+# <a name="purchasing-media-content"></a><span data-ttu-id="abaeb-111">Приобретение мультимедийного содержимого</span><span class="sxs-lookup"><span data-stu-id="abaeb-111">Purchasing Media Content</span></span>
+
+<span data-ttu-id="abaeb-112">Когда проигрыватель Windows Media отображает музыкальное содержимое в представлении дерева библиотеки, Пользовательский интерфейс включает элементы, которые пользователь может щелкнуть для приобретения содержимого.</span><span class="sxs-lookup"><span data-stu-id="abaeb-112">When Windows Media Player displays music content in the library tree view, the user interface includes elements that the user can click to buy the content.</span></span> <span data-ttu-id="abaeb-113">Например, пользователь может нажать кнопку, чтобы купить отдельную песню или купить весь альбом.</span><span class="sxs-lookup"><span data-stu-id="abaeb-113">For example, the user might click a button to buy an individual song or to buy an entire album.</span></span>
+
+<span data-ttu-id="abaeb-114">Если активный Интернет-магазин является магазином типа 1, проигрыватель Windows Media имеет доступ к дорожкам, альбомам и прейскурантам в каталоге интернет-магазина.</span><span class="sxs-lookup"><span data-stu-id="abaeb-114">If the active online store is a Type 1 store, Windows Media Player has access to track, album, and list prices in the online store's catalog.</span></span> <span data-ttu-id="abaeb-115">Цены в каталоге представляют собой строки с форматом, понятным только в Интернет-магазине.</span><span class="sxs-lookup"><span data-stu-id="abaeb-115">Those prices in the catalog are strings that have a format understood only by the online store.</span></span> <span data-ttu-id="abaeb-116">Проигрыватель Windows Media не интерпретирует строки цен; они просто отображаются в элементах пользовательского интерфейса, таких как кнопки покупки.</span><span class="sxs-lookup"><span data-stu-id="abaeb-116">Windows Media Player does not interpret price strings; it merely displays them in user interface elements like Buy buttons.</span></span>
+
+<span data-ttu-id="abaeb-117">Когда проигрыватель Windows Media настраивает покупку для набора элементов мультимедиа, он передает идентификаторы и цены элементов мультимедиа подключаемому модулю партнера по содержимому, вызывая [ивмпконтентпартнер:: канбуйсилент](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-canbuysilent).</span><span class="sxs-lookup"><span data-stu-id="abaeb-117">When Windows Media Player sets up a purchase for a set of media items, it passes the IDs and prices of the media items to the content partner plug-in by calling [IWMPContentPartner::CanBuySilent](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-canbuysilent).</span></span> <span data-ttu-id="abaeb-118">На этом этапе подключаемый модуль может проверять цены, предоставляемые проигрывателем.</span><span class="sxs-lookup"><span data-stu-id="abaeb-118">At that point, the plug-in can inspect the prices provided by the Player.</span></span> <span data-ttu-id="abaeb-119">Это цены, которые пользователь должен оплатить. то есть цены, которые проигрыватель отображает пользователю.</span><span class="sxs-lookup"><span data-stu-id="abaeb-119">These are the prices that the user expects to pay; that is, the prices that the Player displayed to the user.</span></span> <span data-ttu-id="abaeb-120">На основе идентификаторов носителей и цен, предоставляемых проигрывателем, подключаемый модуль вычисляет общую цену, которая возвращается проигрывателю в параметре *бстртоталприце* .</span><span class="sxs-lookup"><span data-stu-id="abaeb-120">Based on the media IDs and prices provided by the Player, the plug-in calculates a total price, which it returns to the Player in the *bstrTotalPrice* parameter.</span></span> <span data-ttu-id="abaeb-121">Цены, которые проигрыватель передает в **канбуйсилент** , предоставляют подключаемый модуль с информацией, но они не отключают от подключаемого модуля возврата определенной общей цены.</span><span class="sxs-lookup"><span data-stu-id="abaeb-121">The prices that the Player passes to **CanBuySilent** provide the plug-in with information, but they do not obligate the plug-in to return a certain total price.</span></span> <span data-ttu-id="abaeb-122">Подключаемый модуль может вычислить общую цену по мере ее погонки.</span><span class="sxs-lookup"><span data-stu-id="abaeb-122">The plug-in can calculate the total price as it sees fit.</span></span>
+
+<span data-ttu-id="abaeb-123">Помимо расчета общей цены покупки, **канбуйсилент** определяет, может ли пурчаце продолжать работу автоматически. то есть без отображения диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="abaeb-123">In addition to calculating the total price of a purchase, **CanBuySilent** determines whether the purchace can proceed silently; that is, without displaying a dialog box.</span></span> <span data-ttu-id="abaeb-124">Если **канбуйсилент** возвращает **true**, проигрыватель Windows Media просто изменяет текст на кнопке "Купить", чтобы пользователю было предложено подтвердить покупку.</span><span class="sxs-lookup"><span data-stu-id="abaeb-124">If **CanBuySilent** returns **True**, Windows Media Player simply changes the text on the Buy button to prompt the user to confirm the purchase.</span></span> <span data-ttu-id="abaeb-125">Если **канбуйсилент** возвращает **значение false**, проигрыватель Windows Media отображает диалоговое окно, предлагающее пользователю подтвердить покупку.</span><span class="sxs-lookup"><span data-stu-id="abaeb-125">If **CanBuySilent** returns **False**, Windows Media Player displays a dialog box that prompts the user to confirm the purchase.</span></span> <span data-ttu-id="abaeb-126">Диалоговое окно предоставляет пользователю информацию, которая суммирует данные о приобретении, например число альбомов, число отдельных дорожек и общую цену (возвращенную подключаемым модулем).</span><span class="sxs-lookup"><span data-stu-id="abaeb-126">The dialog box provides the user with information that summarizes the purchase like number of albums, number of individual tracks, and the total price (as returned by the plug-in).</span></span>
+
+<span data-ttu-id="abaeb-127">После того как пользователь подтвердит покупку, игрок вызывает [ивмпконтентпартнер::](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-buy)Purchase.</span><span class="sxs-lookup"><span data-stu-id="abaeb-127">After the user confirms the purchase, the Player calls [IWMPContentPartner::Buy](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-buy).</span></span> <span data-ttu-id="abaeb-128">Этот вызов метода предоставляет подключаемый модуль с тем же списком контейнеров содержимого, что и **канбуйсилент**.</span><span class="sxs-lookup"><span data-stu-id="abaeb-128">This method call provides the plug-in with the same content container list as **CanBuySilent**.</span></span> <span data-ttu-id="abaeb-129">При вызове функции " **купить**" проигрыватель Windows Media также предоставляет файл cookie (просто значение **DWORD** , уникальное для сеанса), который подключаемый модуль может использовать для распознавания транзакции.</span><span class="sxs-lookup"><span data-stu-id="abaeb-129">When calling **Buy**, Windows Media Player also provides a cookie (simply a **DWORD** value, unique for the session) that the plug-in can use to identify the transaction.</span></span> <span data-ttu-id="abaeb-130">По завершении транзакции подключаемый модуль должен вызвать [ивмпконтентпартнеркаллбакк:: буйкомплете](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete), передав исходное значение файла cookie для параметра *двбуйкукие* , чтобы уведомить игрока о завершении транзакции.</span><span class="sxs-lookup"><span data-stu-id="abaeb-130">When the transaction is completed, the plug-in must call [IWMPContentPartnerCallback::BuyComplete](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete), passing the original cookie value for the *dwBuyCookie* parameter, to notify the Player that the transaction is finished.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="abaeb-131">См. также</span><span class="sxs-lookup"><span data-stu-id="abaeb-131">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="abaeb-132">**Справка по программированию для Интернет-магазинов типа 1**</span><span class="sxs-lookup"><span data-stu-id="abaeb-132">**Programming Guide for Type 1 Online Stores**</span></span>](programming-guide-for-type-1-online-stores.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

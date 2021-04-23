@@ -1,0 +1,38 @@
+---
+title: Асинхронные моникеры
+description: Асинхронные моникеры
+ms.assetid: 24c50f7b-f085-4086-aa44-81e5cab011cb
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e19323af3a972a2b83a290176a4b26fb79382da0
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "105710379"
+---
+# <a name="asynchronous-monikers"></a><span data-ttu-id="a3508-103">Асинхронные моникеры</span><span class="sxs-lookup"><span data-stu-id="a3508-103">Asynchronous Monikers</span></span>
+
+<span data-ttu-id="a3508-104">Архитектура моникера OLE предоставляет единую, расширяемую модель программирования для работы с объектами Интернета, предоставляя методы для синтаксического анализа имен, представляющие собой URL-адреса в качестве печатных имен, а также нахождения и привязки к объектам, представленным в строках URL-адресов.</span><span class="sxs-lookup"><span data-stu-id="a3508-104">The OLE moniker architecture provides a consistent, extensible programming model for working with Internet objects, providing methods for parsing names, representing Universal Resource Locators (URLs) as printable names, and locating and binding to the objects represented by URL strings.</span></span> <span data-ttu-id="a3508-105">(Также можно просмотреть [моникеры URL-адресов](url-monikers.md).) Однако стандартные моникеры OLE (особенно, моникеры элементов, файлов и указателей) не подходят для Интернета, так как они являются синхронными, возвращая указатель на объект или его хранилище только в тот момент, когда доступны все данные.</span><span class="sxs-lookup"><span data-stu-id="a3508-105">(Also see [URL Monikers](url-monikers.md).) Standard OLE monikers (notably, item, file, and pointer monikers), however, are inappropriate for the Internet because they are synchronous, returning a pointer to an object or its storage only at such time as all data is available.</span></span> <span data-ttu-id="a3508-106">В зависимости от объема загружаемых данных, привязка в синхронном режиме может связать пользовательский интерфейс клиента в течение длительных периодов.</span><span class="sxs-lookup"><span data-stu-id="a3508-106">Depending on the amount of data to be downloaded, binding synchronously can tie up the client's user interface for prolonged periods.</span></span>
+
+<span data-ttu-id="a3508-107">Интернет требует новых подходов к проектированию приложений.</span><span class="sxs-lookup"><span data-stu-id="a3508-107">The Internet requires new approaches to application design.</span></span> <span data-ttu-id="a3508-108">Приложения должны иметь возможность асинхронно выполнять все дорогостоящие сетевые операции, чтобы избежать зависания пользовательского интерфейса.</span><span class="sxs-lookup"><span data-stu-id="a3508-108">Applications should be able to perform all expensive network operations asynchronously to avoid stalling the user interface.</span></span> <span data-ttu-id="a3508-109">Приложение должно иметь возможность активировать операцию и получать уведомления о полном или частичном завершении.</span><span class="sxs-lookup"><span data-stu-id="a3508-109">An application should be able to trigger an operation and receive notification on full or partial completion.</span></span> <span data-ttu-id="a3508-110">На этом этапе приложение должно иметь возможность перейти к следующему шагу операции или предоставить дополнительные сведения по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="a3508-110">At that point, the application should have the choice either of proceeding with the next step of the operation or providing additional information as needed.</span></span> <span data-ttu-id="a3508-111">Как только загрузка будет продолжена, приложение также должно предоставить пользователям сведения о ходе выполнения и возможность отменить операцию в любое время.</span><span class="sxs-lookup"><span data-stu-id="a3508-111">As a download proceeds, an application should also be able to provide users with progress information and the opportunity to cancel the operation at any time.</span></span>
+
+<span data-ttu-id="a3508-112">Асинхронные моникеры предоставляют эти возможности, а также различные уровни асинхронного поведения привязки, обеспечивая обратную совместимость для приложений, которые либо не знают, либо не нуждаются в асинхронной работе.</span><span class="sxs-lookup"><span data-stu-id="a3508-112">Asynchronous monikers provide these capabilities, as well as various levels of asynchronous binding behavior, while providing backward compatibility for applications that are either unaware of or do not require asynchronous behavior.</span></span> <span data-ttu-id="a3508-113">Другая технология OLE, асинхронное хранилище, работает с асинхронными моникерами, чтобы обеспечить асинхронную загрузку постоянного состояния объекта Интернета.</span><span class="sxs-lookup"><span data-stu-id="a3508-113">Another OLE technology, asynchronous storage, works with asynchronous monikers to provide asynchronous downloading of an Internet object's persistent state.</span></span> <span data-ttu-id="a3508-114">Асинхронное специальное имя активирует операцию привязки и настраивает необходимые компоненты, в том числе объекты хранилища и потока, объекты байтовых массивов и приемники уведомлений.</span><span class="sxs-lookup"><span data-stu-id="a3508-114">The asynchronous moniker triggers the bind operation and sets up the necessary components, including storage and stream objects, byte-array objects, and notification sinks.</span></span> <span data-ttu-id="a3508-115">После подключения компонентов моникер становится недоступным, и оставшаяся часть привязки выполняется главным образом между компонентами, реализующими компоненты асинхронного хранилища и объект.</span><span class="sxs-lookup"><span data-stu-id="a3508-115">Once the components are connected, the moniker gets out of the way and the rest of the bind is executed mainly between the components implementing the asynchronous storage components and the object.</span></span>
+
+<span data-ttu-id="a3508-116">Дополнительные сведения см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="a3508-116">For more information, see the following topics:</span></span>
+
+-   [<span data-ttu-id="a3508-117">Асинхронные и синхронные моникеры</span><span class="sxs-lookup"><span data-stu-id="a3508-117">Asynchronous and Synchronous Monikers</span></span>](./asynchronous-vs.-synchronous-monikers.md)
+-   [<span data-ttu-id="a3508-118">Асинхронная и синхронная привязка</span><span class="sxs-lookup"><span data-stu-id="a3508-118">Asynchronous and Synchronous Binding</span></span>](./asynchronous-vs.-synchronous-binding.md)
+-   [<span data-ttu-id="a3508-119">Асинхронное и синхронное хранилище</span><span class="sxs-lookup"><span data-stu-id="a3508-119">Asynchronous and Synchronous Storage</span></span>](./asynchronous-vs.-synchronous-storage.md)
+-   [<span data-ttu-id="a3508-120">Модель извлечения данных и модель Data-Push</span><span class="sxs-lookup"><span data-stu-id="a3508-120">Data-Pull Model and Data-Push Model</span></span>](./data-pull-model-vs.-data-push-model.md)
+
+## <a name="related-topics"></a><span data-ttu-id="a3508-121">См. также</span><span class="sxs-lookup"><span data-stu-id="a3508-121">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="a3508-122">Моникеры URL-адресов</span><span class="sxs-lookup"><span data-stu-id="a3508-122">URL Monikers</span></span>](url-monikers.md)
+</dt> </dl>
+
+ 
+
+ 

@@ -1,0 +1,34 @@
+---
+title: Защита буфера МККП
+description: Начиная с Windows Vista, механизм маршалинга RPC выполняет дальнейшие действия, чтобы попытаться предотвратить переполнение буфера на стороне клиента из-за возвращенных данных. Эта возможность называется Mini Computeing Protection (МККП).
+ms.assetid: 37fe743b-c64e-469d-b8f4-abab9f05c813
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a70d04de57974bd9665d659129590d72513eb83e
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103793500"
+---
+# <a name="mccp-buffer-protection"></a><span data-ttu-id="61604-104">Защита буфера МККП</span><span class="sxs-lookup"><span data-stu-id="61604-104">MCCP Buffer Protection</span></span>
+
+<span data-ttu-id="61604-105">Начиная с Windows Vista, механизм маршалинга RPC выполняет дальнейшие действия, чтобы попытаться предотвратить переполнение буфера на стороне клиента из-за возвращенных данных.</span><span class="sxs-lookup"><span data-stu-id="61604-105">Starting with Windows Vista, the RPC Marshalling Engine takes further steps to try to prevent client-side buffer overruns due to returned data.</span></span> <span data-ttu-id="61604-106">Эта возможность называется Mini Computeing Protection (МККП).</span><span class="sxs-lookup"><span data-stu-id="61604-106">This facility is called Mini Compute Conformance Protection (MCCP).</span></span>
+
+<span data-ttu-id="61604-107">Когда клиент передает указатель на существующий буфер для \[ [**выходного**](/windows/desktop/Midl/out-idl) \] или \[ [**входного**](/windows/desktop/Midl/in) \] параметра, возвращаемые данные для этого параметра копируются в существующий буфер.</span><span class="sxs-lookup"><span data-stu-id="61604-107">When the client passes a pointer to an existing buffer to an \[[**out**](/windows/desktop/Midl/out-idl)\] or \[[**in**](/windows/desktop/Midl/in),**out**\] parameter, returned data for that parameter is copied into the existing buffer.</span></span> <span data-ttu-id="61604-108">Если возвращенные данные больше, чем переданный буфер, может произойти переполнение буфера, когда RPC копирует возвращенные данные в слишком маленький буфер.</span><span class="sxs-lookup"><span data-stu-id="61604-108">If the returned data is larger than the passed buffer, a buffer overrun can occur when RPC copies the returned data into the too-small buffer.</span></span> <span data-ttu-id="61604-109">См. раздел [указатели верхнего и внедренного уровня](top-level-and-embedded-pointers.md).</span><span class="sxs-lookup"><span data-stu-id="61604-109">See [Top-Level and Embedded Pointers](top-level-and-embedded-pointers.md).</span></span>
+
+<span data-ttu-id="61604-110">При использовании МККП RPC пытается обнаружить это условие и отклонить вызов, если он обнаружен.</span><span class="sxs-lookup"><span data-stu-id="61604-110">With MCCP, RPC attempts to detect this condition and reject the call if it is detected.</span></span> <span data-ttu-id="61604-111">Для буферов со значением корреляции, например \[ [**size \_**](/windows/desktop/Midl/size-is), \] Если возвращенные данные не помещаются в указанном размере буфера, вызов отклоняется, и \_ \_ \_ возникает исключение "ошибка прокси \_ -службы RPC X".</span><span class="sxs-lookup"><span data-stu-id="61604-111">For buffers with a correlation value, such as \[[**size\_is**](/windows/desktop/Midl/size-is)\], if the returned data does not fit in the specified buffer size, the call is rejected and RPC\_X\_BAD\_STUB\_DATA exception is raised.</span></span> <span data-ttu-id="61604-112">Для неразмерных строк вызов отклоняется, если размер существующего строки (Длина до **нулевого** терминатора) недостаточен для хранения возвращаемой строки, вызов отклоняется.</span><span class="sxs-lookup"><span data-stu-id="61604-112">For unsized strings, the call is rejected if the existing string size (length until the **null** terminator) is insufficient to hold the returned string, the call is rejected.</span></span> <span data-ttu-id="61604-113">RPC не может обнаруживать переполнения буфера во всех условиях, поэтому разработчику рекомендуется продолжать принимать обычные меры предосторожности относительно переполнения буфера.</span><span class="sxs-lookup"><span data-stu-id="61604-113">RPC cannot detect buffer overruns in all conditions, so the developer is advised to continue to take normal precautions against buffer overruns.</span></span>
+
+<span data-ttu-id="61604-114">Если клиент не передает существующий буфер для \[ [**выходного**](/windows/desktop/Midl/out-idl) \] параметра, а передает указатель разыменования в **null**, RPC будет следовать обычным правилам для выделения нового буфера от имени клиента.</span><span class="sxs-lookup"><span data-stu-id="61604-114">If the client does not pass an existing buffer for an \[[**out**](/windows/desktop/Midl/out-idl)\] parameter, but instead passes a dereferenced pointer to **NULL**, RPC will follow normal rules to allocate a new buffer on the client’s behalf.</span></span> <span data-ttu-id="61604-115">Этот буфер будет выделен с достаточным пространством для хранения возвращаемых данных.</span><span class="sxs-lookup"><span data-stu-id="61604-115">This buffer will be allocated with sufficient space to hold the returned data.</span></span>
+
+<span data-ttu-id="61604-116">Вторая защита заключается в том, что для коррелированных параметров RPC будет обеспечивать передачу буфера, отличного от **null** , если значение переменной счетчика корреляций не равно **null**.</span><span class="sxs-lookup"><span data-stu-id="61604-116">A second protection is that for correlated parameters, RPC will enforce that a non-**null** buffer is passed when the correlation count variable is non-**null**.</span></span>
+
+``` syntax
+HRESULT PassString( [in] DWORD Length, [in, unique, string, size_is( Length )]LPWSTR MyString );
+```
+
+<span data-ttu-id="61604-117">Если параметр *MyString* имеет **значение NULL**, то RPC отклонит вызов, если для параметра *length* задано значение 0.</span><span class="sxs-lookup"><span data-stu-id="61604-117">If *MyString* is **NULL**, RPC will reject the call unless *Length* is set to 0.</span></span> <span data-ttu-id="61604-118">Обратите внимание, что RPC допускает *длину* 0, в то время как *MyString* не имеет **значение NULL**, а RPC будет обрабатывать *MyString* как выделение буфера нулевой длины.</span><span class="sxs-lookup"><span data-stu-id="61604-118">Note that RPC will allow *Length* to be 0 while *MyString* is non-**NULL**, and RPC will treat *MyString* as a 0-length buffer allocation.</span></span>
+
+ 
+
+ 

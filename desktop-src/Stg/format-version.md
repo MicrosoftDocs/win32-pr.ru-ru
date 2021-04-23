@@ -1,0 +1,26 @@
+---
+title: Версия формата
+description: Значение версии формата — это тип данных WORD, который используется для указания версии формата этого потока.
+ms.assetid: 38362a45-4f49-4a85-aabe-452ff32c2812
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 503019a3bfe3224e4137ac3bfd43fadbe1e15a3c
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104533278"
+---
+# <a name="format-version"></a><span data-ttu-id="af92d-103">Версия формата</span><span class="sxs-lookup"><span data-stu-id="af92d-103">Format Version</span></span>
+
+<span data-ttu-id="af92d-104">Значение версии формата — это тип данных **Word** , который используется для указания версии формата этого потока.</span><span class="sxs-lookup"><span data-stu-id="af92d-104">The Format Version value is a **WORD** data type that is used to indicate the format version of this stream.</span></span> <span data-ttu-id="af92d-105">Он может быть равен нулю или одному.</span><span class="sxs-lookup"><span data-stu-id="af92d-105">It may be zero or one.</span></span> <span data-ttu-id="af92d-106">При считывании набора свойств необходимо проверить признак формата версии.</span><span class="sxs-lookup"><span data-stu-id="af92d-106">The format-version indicator should be checked when reading the property set.</span></span> <span data-ttu-id="af92d-107">Если он не равен нулю или 1, то поток был записан в другую спецификацию и не может быть прочитан кодом, разработанным в соответствии с этой спецификацией.</span><span class="sxs-lookup"><span data-stu-id="af92d-107">If it is not zero or one, then the stream was written to a different specification and cannot be read by code developed according to this specification.</span></span>
+
+<span data-ttu-id="af92d-108">Наборы свойств с версией формата 1 эквивалентны версии 0 со следующими дополнениями:</span><span class="sxs-lookup"><span data-stu-id="af92d-108">Property sets with Format Version 1 are equivalent to Version 0, with the following additions:</span></span>
+
+-   <span data-ttu-id="af92d-109">**Имена свойств с учетом регистра**.</span><span class="sxs-lookup"><span data-stu-id="af92d-109">**Case sensitive property names**.</span></span> <span data-ttu-id="af92d-110">Имена свойств хранятся в зарезервированном свойстве Dictionary, [идентификаторе свойства 0](/windows/desktop/Stg/reserved-property-identifiers).</span><span class="sxs-lookup"><span data-stu-id="af92d-110">Property names are stored in the reserved dictionary property, [Property ID 0](/windows/desktop/Stg/reserved-property-identifiers).</span></span> <span data-ttu-id="af92d-111">В наборах свойств версии 1 эти имена могут быть чувствительны к регистру.</span><span class="sxs-lookup"><span data-stu-id="af92d-111">In version 1 property sets, these names can be case sensitive.</span></span> <span data-ttu-id="af92d-112">Чувствительность к регистру определяется зарезервированным свойством Behavior, [идентификатором свойства 0x80000003](/windows/desktop/Stg/reserved-property-identifiers).</span><span class="sxs-lookup"><span data-stu-id="af92d-112">Case sensitivity is determined by the reserved Behavior property, [Property ID 0x80000003](/windows/desktop/Stg/reserved-property-identifiers).</span></span>
+-   <span data-ttu-id="af92d-113">**Длинные имена свойств**.</span><span class="sxs-lookup"><span data-stu-id="af92d-113">**Long property names**.</span></span> <span data-ttu-id="af92d-114">Наборы свойств версии 1, в отличие от наборов свойств версии 0, не ограничиваются длиной имен свойств.</span><span class="sxs-lookup"><span data-stu-id="af92d-114">Version 1 property sets, unlike version 0 property sets, are not limited in the length of property names.</span></span> <span data-ttu-id="af92d-115">Дополнительные сведения о именах свойств см. в разделе [свойство с идентификатором 0](/windows/desktop/Stg/reserved-property-identifiers) .</span><span class="sxs-lookup"><span data-stu-id="af92d-115">See [Property ID 0](/windows/desktop/Stg/reserved-property-identifiers) for more information on property names.</span></span>
+-   <span data-ttu-id="af92d-116">**Типы свойств**.</span><span class="sxs-lookup"><span data-stu-id="af92d-116">**Property types**.</span></span> <span data-ttu-id="af92d-117">Наборы свойств версии 1 могут содержать все типы свойств, которые могут храниться в наборе свойств версии 0, а также некоторые дополнительные типы.</span><span class="sxs-lookup"><span data-stu-id="af92d-117">Version 1 property sets can hold all the property types that can be held in a version 0 property set plus some additional types.</span></span> <span data-ttu-id="af92d-118">Дополнительные сведения об этих типах см. в разделе Структура [**пропвариант**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) .</span><span class="sxs-lookup"><span data-stu-id="af92d-118">See the [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structure for more information on these types.</span></span>
+
+ 
+
+ 

@@ -1,0 +1,29 @@
+- name: начало работы разработке пользовательских интерфейсов для приложений Windows
+  href: getting-started-developing-user-interfaces-portal.md
+  items:
+    - name: Общие сведения о процессе разработки пользовательского интерфейса
+      href: the-process.md
+    - name: Проектирование пользовательского интерфейса
+      href: designing-a-user-interface.md
+      items:
+        - name: Удобство использования в разработке программного обеспечения
+          href: usability-in-software-design.md
+        - name: Принципы пользовательского интерфейса
+          href: '-user-interface-principles.md'
+        - name: Следующие рекомендации по пользовательскому интерфейсу
+          href: following-guidelines.md
+        - name: Пользовательский интерфейс с индуктивностью
+          href: inductive-user-interface.md
+    - name: Реализация пользовательского интерфейса
+      href: implementing-a-user-interface.md
+      items:
+        - name: Создание прототипов пользовательского интерфейса
+          href: prototyping-a-user-interface.md
+        - name: Технологии пользовательского интерфейса
+          href: user-interface-technologies-for-windows-applications.md
+    - name: Тестирование пользовательского интерфейса
+      href: testing-a-user-interface.md
+    - name: 'Вопросы безопасности: Пользовательский интерфейс Windows'
+      href: sec-ui.md
+    - name: Другие ресурсы
+      href: other-resources.md

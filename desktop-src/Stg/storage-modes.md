@@ -1,0 +1,26 @@
+---
+title: Режимы хранения
+description: Асинхронное хранилище поддерживает два режима хранения, блокирующие и неблокируемые, которые клиент (либо браузер, либо сам объект) может указать, возвращая БИНДФ \_ асинкстораже из вызова моникера в метода интерфейса IBindStatusCallback GetBindInfo.
+ms.assetid: df8f9e2c-40d2-4997-b5f9-bdbc524437cf
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 827e893f5077a64485251111837e6b56657756f0
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104413379"
+---
+# <a name="storage-modes"></a><span data-ttu-id="03185-103">Режимы хранения</span><span class="sxs-lookup"><span data-stu-id="03185-103">Storage Modes</span></span>
+
+<span data-ttu-id="03185-104">Асинхронное хранилище поддерживает два режима хранения: Блокировка и неблокировка, которые клиент (как в браузере, так и сам объект) может указать, возвращая БИНДФ \_ асинкстораже из вызова моникера в [**метода интерфейса IBindStatusCallback:: GetBindInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775058(v=vs.85)).</span><span class="sxs-lookup"><span data-stu-id="03185-104">Asynchronous storage supports two storage modes: blocking and nonblocking, which a client (either a browser or the object itself) can specify by returning BINDF\_ASYNCSTORAGE from the moniker's call to [**IBindStatusCallback::GetBindInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775058(v=vs.85)).</span></span> <span data-ttu-id="03185-105">Если клиент указывает БИНДФ \_ асинкстораже, он получает указатель на Неблокирующее асинхронное хранилище.</span><span class="sxs-lookup"><span data-stu-id="03185-105">If a client specifies BINDF\_ASYNCSTORAGE, it receives a pointer to a nonblocking asynchronous storage.</span></span> <span data-ttu-id="03185-106">В противном случае он получает указатель на блокирующее асинхронное хранилище.</span><span class="sxs-lookup"><span data-stu-id="03185-106">Otherwise, it receives a pointer to a blocking asynchronous storage.</span></span> <span data-ttu-id="03185-107">Даже если клиент не запрашивает асинхронную операцию привязки (не зарегистрировав [**метода интерфейса IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) с контекстом привязки), моникер по-прежнему возвращает блокирующее асинхронное хранилище, что позволяет выполнять прогрессивную загрузку для устаревших приложений.</span><span class="sxs-lookup"><span data-stu-id="03185-107">Even if the client does not request an asynchronous binding operation (by not registering [**IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) with the bind context), the moniker still returns a blocking asynchronous storage, enabling progressive loading for legacy applications.</span></span>
+
+<span data-ttu-id="03185-108">В неблокирующем режиме асинхронное хранилище возвращается к \_ ожиданию, когда данные недоступны.</span><span class="sxs-lookup"><span data-stu-id="03185-108">In nonblocking mode, an asynchronous storage returns E\_PENDING when data is unavailable.</span></span> <span data-ttu-id="03185-109">После получения этого сообщения клиент ожидает уведомления о наличии дополнительных данных, прежде чем повторять попытку загрузки.</span><span class="sxs-lookup"><span data-stu-id="03185-109">Upon receiving this message, the client waits for notification that additional data is available before trying again to download it.</span></span>
+
+<span data-ttu-id="03185-110">В режиме блокировки, вместо возврата \_ в ожидании, асинхронное хранилище блокирует вызов до тех пор, пока новые данные не будут доступны, а затем разблокируют вызов и возвращают новые данные.</span><span class="sxs-lookup"><span data-stu-id="03185-110">In blocking mode, instead of returning E\_PENDING, the asynchronous storage blocks the call until new data is available, then unblocks the call and returns the new data.</span></span> <span data-ttu-id="03185-111">Клиент должен быть готов к приему данных.</span><span class="sxs-lookup"><span data-stu-id="03185-111">The client must be ready to receive the data.</span></span> <span data-ttu-id="03185-112">Пока поток заблокирован, данные, уже переданные клиенту, полностью доступны пользователю.</span><span class="sxs-lookup"><span data-stu-id="03185-112">While the thread is blocked, data already passed to the client is fully available to the user.</span></span>
+
+<span data-ttu-id="03185-113">Режим блокировки необходим, так как клиенты, не проявляющиеся асинхронным хранилищем, не распознают \_ ожидание и предполагают, что произошла неустранимая ошибка.</span><span class="sxs-lookup"><span data-stu-id="03185-113">Blocking mode is necessary because clients unaware of asynchronous storage will not recognize E\_PENDING and will assume that an unrecoverable error has occurred.</span></span> <span data-ttu-id="03185-114">Блокирование асинхронного хранилища позволяет существующим клиентам выполнять последовательную отрисовку.</span><span class="sxs-lookup"><span data-stu-id="03185-114">Blocking asynchronous storage enables existing clients to do progressive rendering.</span></span>
+
+ 
+
+ 

@@ -1,0 +1,33 @@
+---
+description: Полноэкранные приложения Direct3D предоставляют обработчику окна время выполнения Direct3D.
+ms.assetid: 66a9e14f-46c8-45e8-ae0e-4d8cf5106acc
+title: Проблемы многопоточности (Direct3D 9)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: aa8d163698e6cc1b4855668d255ed46fd28700d1
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104416508"
+---
+# <a name="multithreading-issues-direct3d-9"></a><span data-ttu-id="4db4f-103">Проблемы многопоточности (Direct3D 9)</span><span class="sxs-lookup"><span data-stu-id="4db4f-103">Multithreading Issues (Direct3D 9)</span></span>
+
+<span data-ttu-id="4db4f-104">Полноэкранные приложения Direct3D предоставляют обработчику окна время выполнения Direct3D.</span><span class="sxs-lookup"><span data-stu-id="4db4f-104">Full-screen Direct3D applications provide a window handle to the Direct3D run time.</span></span> <span data-ttu-id="4db4f-105">Окно подключается к времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="4db4f-105">The window is hooked by the run time.</span></span> <span data-ttu-id="4db4f-106">Это означает, что все сообщения, передаваемые в процедуру сообщения окна приложения, сначала проверялись собственной процедурой обработки сообщений во время выполнения Direct3D.</span><span class="sxs-lookup"><span data-stu-id="4db4f-106">This means that all messages passed to the application's window message procedure have first been examined by the Direct3D run time's own message-handling procedure.</span></span>
+
+<span data-ttu-id="4db4f-107">Изменения режима экрана зависят от подпрограмм поддержки, встроенных в базовую операционную систему.</span><span class="sxs-lookup"><span data-stu-id="4db4f-107">Display mode changes are affected by support routines built into the underlying operating system.</span></span> <span data-ttu-id="4db4f-108">Когда происходит изменение режима, система передает несколько сообщений всем приложениям.</span><span class="sxs-lookup"><span data-stu-id="4db4f-108">When mode changes occur, the system broadcasts several messages to all applications.</span></span> <span data-ttu-id="4db4f-109">В приложениях Direct3D сообщения принимаются в потоке окна процедуры, что не обязательно является тем же потоком, который вызвал [**IDirect3DDevice9:: Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset) или [**IDirect3D9:: креатедевице**](/windows/desktop/api) (или окончательный выпуск [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9), что может привести к изменению режима экрана).</span><span class="sxs-lookup"><span data-stu-id="4db4f-109">In Direct3D applications, the messages are received on the window procedure thread, which is not necessarily the same thread that called [**IDirect3DDevice9::Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset) or [**IDirect3D9::CreateDevice**](/windows/desktop/api) (or the final Release of [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9), which can cause a display mode change).</span></span> <span data-ttu-id="4db4f-110">Во время выполнения Direct3D поддерживаются несколько критических разделов.</span><span class="sxs-lookup"><span data-stu-id="4db4f-110">The Direct3D run time maintains several critical sections internally.</span></span> <span data-ttu-id="4db4f-111">Поскольку по крайней мере один из этих критических разделов удерживается через коммутатор режима, вызванный **IDirect3DDevice9:: Reset** или **IDirect3D9:: креатедевице**, эти критические разделы по-прежнему сохраняются, когда приложение получает сообщения окон режима, связанные с изменением состояния.</span><span class="sxs-lookup"><span data-stu-id="4db4f-111">Because at least one of these critical sections is held across the mode switch caused by **IDirect3DDevice9::Reset** or **IDirect3D9::CreateDevice**, these critical sections are still held when the application receives the mode-change related window messages.</span></span>
+
+<span data-ttu-id="4db4f-112">Эта схема имеет некоторые последствия для многопоточных приложений.</span><span class="sxs-lookup"><span data-stu-id="4db4f-112">This design has some implications for multithreaded applications.</span></span> <span data-ttu-id="4db4f-113">В частности, приложение должно строго разделять потоки обработки сообщений окна от своих потоков Direct3D.</span><span class="sxs-lookup"><span data-stu-id="4db4f-113">In particular, an application must be sure to strongly segregate its window message handling threads from its Direct3D threads.</span></span> <span data-ttu-id="4db4f-114">Приложение, которое вызывает изменение режима в одном потоке, но выполняет вызовы Direct3D в другом потоке в его процедуре окна, заключается в опасности взаимоблокировки.</span><span class="sxs-lookup"><span data-stu-id="4db4f-114">An application that causes a mode change on one thread but makes Direct3D calls on a different thread in its window procedure is in danger of deadlock.</span></span>
+
+<span data-ttu-id="4db4f-115">По этим причинам Direct3D спроектирован таким образом, что методы [**IDirect3DDevice9:: Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset), [**IDirect3D9:: креатедевице**](/windows/desktop/api), [**IDirect3DDevice9:: тесткуперативелевел**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-testcooperativelevel)или окончательный выпуск [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) могут вызываться только из того же потока, который обрабатывает сообщения окна.</span><span class="sxs-lookup"><span data-stu-id="4db4f-115">For these reasons, Direct3D is designed so that the methods [**IDirect3DDevice9::Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset), [**IDirect3D9::CreateDevice**](/windows/desktop/api), [**IDirect3DDevice9::TestCooperativeLevel**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-testcooperativelevel), or the final Release of [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) can only be called from the same thread that handles window messages.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="4db4f-116">См. также</span><span class="sxs-lookup"><span data-stu-id="4db4f-116">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="4db4f-117">Советы по программированию</span><span class="sxs-lookup"><span data-stu-id="4db4f-117">Programming Tips</span></span>](programming-tips.md)
+</dt> </dl>
+
+ 
+
+ 

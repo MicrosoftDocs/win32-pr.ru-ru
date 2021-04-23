@@ -1,0 +1,1824 @@
+- name: Управление Hyper-V
+  href: hyper-v-management.md
+  items:
+    - name: Сведения об управлении Hyper-V
+      href: about-hyper-v-management.md
+      items:
+        - name: Резервное копирование и восстановление виртуальных машин
+          href: backing-up-and-restoring-virtual-machines.md
+        - name: Идентификатор создания виртуальной машины
+          href: virtual-machine-generation-identifier.md
+    - name: Справочник по управлению Hyper-V
+      href: hyper-v-management-reference.md
+      items:
+        - name: Управляющие коды управления Hyper-V
+          href: hyper-v-management-control-codes.md
+          items:
+            - name: IOCTL_VMGENCOUNTER_READ
+              href: /windows/desktop/api/Vmgenerationcounter/ni-vmgenerationcounter-ioctl_vmgencounter_read
+        - name: Структуры управления Hyper-V
+          href: hyper-v-management-structures.md
+          items:
+            - name: VM_GENCOUNTER
+              href: /windows/win32/api/Vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter
+- name: Поставщик WMI Hyper-V (v2)
+  href: windows-virtualization-portal.md
+  items:
+    - name: Сведения о поставщике WMI Hyper-V
+      href: about-the-virtualization-wmi-provider.md
+      items:
+        - name: Служба управления виртуальными системами
+          href: virtual-system-management-service.md
+        - name: Служба управления ресурсами
+          href: resource-management-service.md
+        - name: Новые возможности поставщика WMI Hyper-V
+          href: what-s-new-in-hyper-v.md
+    - name: Использование поставщика WMI Hyper-V
+      href: using-the-virtualization-wmi-provider.md
+      items:
+        - name: Экспорт моментального снимка виртуальной машины
+          href: exporting-virtual-machines.md
+        - name: Экспорт конфигурации виртуальной машины
+          href: exporting-the-configuration-of-a-virtual-machine.md
+        - name: Получение DNS-имени виртуальной системы
+          href: getting-the-virtual-system-dns-name.md
+        - name: Миграция виртуальных машин
+          href: importing-virtual-machines.md
+        - name: Запрос сетевых объектов
+          href: querying-networking-objects.md
+        - name: Общие служебные программы для примеров виртуализации (v2)
+          href: common-utilities-for-the-virtualization-samples-v2.md
+    - name: Классы WMI Hyper-V
+      href: hyper-v-wmi-classes.md
+      items:
+        - name: Классы CIM
+          href: cim-classes.md
+          items:
+            - name: CIM_ActiveConnection
+              href: cim-activeconnection.md
+            - name: CIM_AffectedJobElement
+              href: cim-affectedjobelement.md
+            - name: CIM_AggregationMetricDefinition
+              href: cim-aggregationmetricdefinition.md
+            - name: CIM_AggregationMetricValue
+              href: cim-aggregationmetricvalue.md
+            - name: CIM_AlertIndication
+              href: cim-alertindication.md
+            - name: CIM_AllocationCapabilities
+              href: cim-allocationcapabilities.md
+            - name: CIM_BasedOn
+              href: cim-basedon.md
+            - name: CIM_BaseMetricDefinition
+              href: cim-basemetricdefinition.md
+            - name: CIM_BaseMetricValue
+              href: cim-basemetricvalue.md
+            - name: CIM_BindsTo
+              href: cim-bindsto.md
+            - name: CIM_BindsToLANEndpoint
+              href: cim-bindstolanendpoint.md
+            - name: CIM_BIOSElement
+              href: cim-bioselement.md
+            - name: CIM_Capabilities
+              href: cim-capabilities.md
+            - name: CIM_CDROMDrive
+              href: cim-cdromdrive.md
+            - name: CIM_CollectedMSEs
+              href: cim-collectedmses.md
+            - name: CIM_Collection
+              href: cim-collection.md
+            - name: CIM_CollectionOfMSEs
+              href: cim-collectionofmses.md
+            - name: CIM_Component
+              href: cim-component.md
+            - name: CIM_ComputerSystem
+              href: cim-computersystem.md
+              items:
+                - name: Метод SetPowerState
+                  href: cim-computersystem-setpowerstate.md
+            - name: CIM_ConcreteComponent
+              href: cim-concretecomponent.md
+            - name: CIM_ConcreteDependency
+              href: cim-concretedependency.md
+            - name: CIM_ConcreteJob
+              href: cim-concretejob.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: cim-concretejob-requeststatechange.md
+                - name: Метод метода с ошибками
+                  href: cim-concretejob-geterror.md
+            - name: CIM_ControlledBy
+              href: cim-controlledby.md
+            - name: CIM_Controller
+              href: cim-controller.md
+            - name: CIM_Dependency
+              href: cim-dependency.md
+            - name: CIM_DesktopMonitor
+              href: cim-desktopmonitor.md
+            - name: CIM_DeviceConnection
+              href: cim-deviceconnection.md
+            - name: CIM_DeviceSAPImplementation
+              href: cim-devicesapimplementation.md
+            - name: CIM_DiskDrive
+              href: cim-diskdrive.md
+            - name: CIM_DisketteDrive
+              href: cim-diskettedrive.md
+            - name: CIM_Display
+              href: cim-display.md
+            - name: CIM_DisplayController
+              href: cim-displaycontroller.md
+            - name: CIM_DVDDrive
+              href: cim-dvddrive.md
+            - name: CIM_DynamicForwardingEntry
+              href: cim-dynamicforwardingentry.md
+            - name: CIM_ElementAllocatedFromPool
+              href: cim-elementallocatedfrompool.md
+            - name: CIM_ElementCapabilities
+              href: cim-elementcapabilities.md
+            - name: CIM_ElementConformsToProfile
+              href: cim-elementconformstoprofile.md
+            - name: CIM_ElementSettingData
+              href: cim-elementsettingdata.md
+            - name: CIM_ElementView
+              href: cim-elementview.md
+            - name: CIM_EnabledLogicalElement
+              href: cim-enabledlogicalelement.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: cim-enabledlogicalelement-requeststatechange.md
+            - name: CIM_EnabledLogicalElementCapabilities
+              href: cim-enabledlogicalelementcapabilities.md
+            - name: CIM_Error
+              href: cim-error.md
+            - name: CIM_EthernetPort
+              href: cim-ethernetport.md
+            - name: CIM_EthernetPortAllocationSettingData
+              href: cim-ethernetportallocationsettingdata.md
+            - name: CIM_FCPort
+              href: cim-fcport.md
+            - name: CIM_ForwardingService
+              href: cim-forwardingservice.md
+            - name: CIM_ForwardsAmong
+              href: cim-forwardsamong.md
+            - name: CIM_HostedAccessPoint
+              href: cim-hostedaccesspoint.md
+            - name: CIM_HostedDependency
+              href: cim-hosteddependency.md
+            - name: CIM_HostedResourcePool
+              href: cim-hostedresourcepool.md
+            - name: CIM_HostedService
+              href: cim-hostedservice.md
+            - name: CIM_IDEController
+              href: cim-idecontroller.md
+            - name: CIM_Indication
+              href: cim-indication.md
+            - name: CIM_Job
+              href: cim-job.md
+              items:
+                - name: Метод Киллжоб
+                  href: cim-job-killjob.md
+            - name: CIM_LANEndpoint
+              href: cim-lanendpoint.md
+            - name: CIM_LastAppliedSnapshot
+              href: cim-lastappliedsnapshot.md
+            - name: CIM_LogicalDevice
+              href: cim-logicaldevice.md
+              items:
+                - name: Метод SetPowerState
+                  href: cim-logicaldevice-setpowerstate.md
+                - name: Reset - метод
+                  href: cim-logicaldevice-reset.md
+                - name: Метод Енабледевице
+                  href: cim-logicaldevice-enabledevice.md
+                - name: Метод Онлинедевице
+                  href: cim-logicaldevice-onlinedevice.md
+                - name: Метод Куиесцедевице
+                  href: cim-logicaldevice-quiescedevice.md
+                - name: Метод Савепропертиес
+                  href: cim-logicaldevice-saveproperties.md
+                - name: Метод Ресторепропертиес
+                  href: cim-logicaldevice-restoreproperties.md
+            - name: CIM_LogicalDisk
+              href: cim-logicaldisk.md
+            - name: CIM_LogicalElement
+              href: cim-logicalelement.md
+            - name: CIM_LogicalIdentity
+              href: cim-logicalidentity.md
+            - name: CIM_LogicalPort
+              href: cim-logicalport.md
+            - name: CIM_ManagedElement
+              href: cim-managedelement.md
+            - name: CIM_ManagedSystemElement
+              href: cim-managedsystemelement.md
+            - name: CIM_MediaAccessDevice
+              href: cim-mediaaccessdevice.md
+              items:
+                - name: Метод Локкмедиа
+                  href: cim-mediaaccessdevice-lockmedia.md
+            - name: CIM_MediaPresent
+              href: cim-mediapresent.md
+            - name: CIM_MemberOfCollection
+              href: cim-memberofcollection.md
+            - name: CIM_Memory
+              href: cim-memory.md
+            - name: CIM_MetricDefForME
+              href: cim-metricdefforme.md
+            - name: CIM_MetricForME
+              href: cim-metricforme.md
+            - name: CIM_MetricInstance
+              href: cim-metricinstance.md
+            - name: CIM_MetricService
+              href: cim-metricservice.md
+              items:
+                - name: Метод Шовметрикс
+                  href: cim-metricservice-showmetrics.md
+                - name: Метод Шовметриксбикласс
+                  href: cim-metricservice-showmetricsbyclass.md
+                - name: Метод Контролметрикс
+                  href: cim-metricservice-controlmetrics.md
+                - name: Метод Контролметриксбикласс
+                  href: cim-metricservice-controlmetricsbyclass.md
+                - name: Метод Жетметриквалуес
+                  href: cim-metricservice-getmetricvalues.md
+                - name: Метод Контролсамплетимес
+                  href: cim-metricservice-controlsampletimes.md
+            - name: CIM_MetricServiceCapabilities
+              href: cim-metricservicecapabilities.md
+            - name: CIM_MostCurrentSnapshotInBranch
+              href: cim-mostcurrentsnapshotinbranch.md
+            - name: CIM_NetworkPort
+              href: cim-networkport.md
+            - name: CIM_NetworkService
+              href: cim-networkservice.md
+            - name: CIM_OwningJobElement
+              href: cim-owningjobelement.md
+            - name: CIM_PointingDevice
+              href: cim-pointingdevice.md
+            - name: CIM_PortOnDevice
+              href: cim-portondevice.md
+            - name: CIM_ProcessIndication
+              href: cim-processindication.md
+            - name: CIM_Processor
+              href: cim-processor.md
+            - name: CIM_ProtocolController
+              href: cim-protocolcontroller.md
+            - name: CIM_ProtocolControllerForDevice
+              href: cim-protocolcontrollerfordevice.md
+            - name: CIM_ProtocolControllerForUnit
+              href: cim-protocolcontrollerforunit.md
+            - name: CIM_ProtocolEndpoint
+              href: cim-protocolendpoint.md
+            - name: CIM_ResourceAllocationFromPool
+              href: cim-resourceallocationfrompool.md
+            - name: CIM_ResourceAllocationSettingData
+              href: cim-resourceallocationsettingdata.md
+            - name: CIM_ResourcePool
+              href: cim-resourcepool.md
+            - name: CIM_ResourcePoolConfigurationCapabilities
+              href: cim-resourcepoolconfigurationcapabilities.md
+            - name: CIM_ResourcePoolConfigurationService
+              href: cim-resourcepoolconfigurationservice.md
+              items:
+                - name: Метод CreateResourcePool
+                  href: cim-resourcepoolconfigurationservice-createresourcepool.md
+                - name: Метод Креатечилдресаурцепул
+                  href: cim-resourcepoolconfigurationservice-createchildresourcepool.md
+                - name: Метод Делетересаурцепул
+                  href: cim-resourcepoolconfigurationservice-deleteresourcepool.md
+                - name: Метод Аддресаурцесторесаурцепул
+                  href: cim-resourcepoolconfigurationservice-addresourcestoresourcepool.md
+                - name: Метод Ремовересаурцесфромресаурцепул
+                  href: cim-resourcepoolconfigurationservice-removeresourcesfromresourcepool.md
+                - name: Метод Чанжепарентресаурцепул
+                  href: cim-resourcepoolconfigurationservice-changeparentresourcepool.md
+            - name: CIM_SAPSAPDependency
+              href: cim-sapsapdependency.md
+            - name: CIM_SCSIProtocolController
+              href: cim-scsiprotocolcontroller.md
+            - name: CIM_SerialController
+              href: cim-serialcontroller.md
+            - name: CIM_Service
+              href: cim-service.md
+              items:
+                - name: 'StartService, метод'
+                  href: cim-service-startservice.md
+                - name: 'StopService, метод'
+                  href: cim-service-stopservice.md
+            - name: CIM_ServiceAccessPoint
+              href: cim-serviceaccesspoint.md
+            - name: CIM_ServiceAffectsElement
+              href: cim-serviceaffectselement.md
+            - name: CIM_ServiceComponent
+              href: cim-servicecomponent.md
+            - name: CIM_ServiceSAPDependency
+              href: cim-servicesapdependency.md
+            - name: CIM_SettingData
+              href: cim-settingdata.md
+            - name: CIM_SettingsDefineCapabilities
+              href: cim-settingsdefinecapabilities.md
+            - name: CIM_SettingsDefineState
+              href: cim-settingsdefinestate.md
+            - name: CIM_SnapshotOfVirtualSystem
+              href: cim-snapshotofvirtualsystem.md
+            - name: CIM_SoftwareElement
+              href: cim-softwareelement.md
+            - name: CIM_StorageAllocationSettingData
+              href: cim-storageallocationsettingdata.md
+            - name: CIM_StorageExtent
+              href: cim-storageextent.md
+            - name: CIM_SwitchesAmong
+              href: cim-switchesamong.md
+            - name: CIM_SwitchPort
+              href: cim-switchport.md
+            - name: CIM_SwitchPortDynamicForwarding
+              href: cim-switchportdynamicforwarding.md
+            - name: CIM_SwitchService
+              href: cim-switchservice.md
+            - name: CIM_SwitchServiceTransparentBridging
+              href: cim-switchservicetransparentbridging.md
+            - name: CIM_System
+              href: cim-system.md
+            - name: CIM_SystemBIOS
+              href: cim-systembios.md
+            - name: CIM_SystemComponent
+              href: cim-systemcomponent.md
+            - name: CIM_SystemDevice
+              href: cim-systemdevice.md
+            - name: CIM_TapeDrive
+              href: cim-tapedrive.md
+            - name: CIM_TPM
+              href: cim-tpm.md
+              items:
+                - name: Метод Рекуесттпмстатечанже
+                  href: cim-tpm-requesttpmstatechange.md
+                - name: Метод Чанжеовнераус
+                  href: cim-tpm-changeownerauth.md
+            - name: CIM_TransparentBridgingDynamicForwarding
+              href: cim-transparentbridgingdynamicforwarding.md
+            - name: CIM_TransparentBridgingService
+              href: cim-transparentbridgingservice.md
+            - name: CIM_USBDevice
+              href: cim-usbdevice.md
+              items:
+                - name: Метод метода двухбайтовый
+                  href: cim-usbdevice-getdescriptor.md
+            - name: CIM_UserDevice
+              href: cim-userdevice.md
+            - name: CIM_VideoHead
+              href: cim-videohead.md
+            - name: CIM_VideoHeadOnController
+              href: cim-videoheadoncontroller.md
+            - name: CIM_View
+              href: cim-view.md
+            - name: CIM_VirtualEthernetSwitchSettingData
+              href: cim-virtualethernetswitchsettingdata.md
+            - name: CIM_VirtualSystemManagementCapabilities
+              href: cim-virtualsystemmanagementcapabilities.md
+            - name: CIM_VirtualSystemManagementService
+              href: cim-virtualsystemmanagementservice.md
+              items:
+                - name: Метод Аддресаурцесеттингс
+                  href: cim-virtualsystemmanagementservice-addresourcesettings.md
+                - name: Метод Дефинесистем
+                  href: cim-virtualsystemmanagementservice-definesystem.md
+                - name: Метод Дестройсистем
+                  href: cim-virtualsystemmanagementservice-destroysystem.md
+                - name: Метод Модифиресаурцесеттингс
+                  href: cim-virtualsystemmanagementservice-modifyresourcesettings.md
+                - name: Метод Модифисистемсеттингс
+                  href: cim-virtualsystemmanagementservice-modifysystemsettings.md
+                - name: Метод Ремовересаурцесеттингс
+                  href: cim-virtualsystemmanagementservice-removeresourcesettings.md
+            - name: CIM_VirtualSystemMigrationCapabilities
+              href: cim-virtualsystemmigrationcapabilities.md
+            - name: CIM_VirtualSystemMigrationService
+              href: cim-virtualsystemmigrationservice.md
+              items:
+                - name: Метод Мигратевиртуалсистемтохост
+                  href: cim-virtualsystemmigrationservice-migratevirtualsystemtohost.md
+                - name: Метод Мигратевиртуалсистемтосистем
+                  href: cim-virtualsystemmigrationservice-migratevirtualsystemtosystem.md
+                - name: Метод Чекквиртуалсистемисмигратаблетохост
+                  href: cim-virtualsystemmigrationservice-checkvirtualsystemismigratabletohost.md
+                - name: Метод Чекквиртуалсистемисмигратаблетосистем
+                  href: cim-virtualsystemmigrationservice-checkvirtualsystemismigratabletosystem.md
+            - name: CIM_VirtualSystemMigrationSettingData
+              href: cim-virtualsystemmigrationsettingdata.md
+            - name: CIM_VirtualSystemSettingData
+              href: cim-virtualsystemsettingdata.md
+            - name: CIM_VirtualSystemSettingDataComponent
+              href: cim-virtualsystemsettingdatacomponent.md
+            - name: CIM_VirtualSystemSnapshotService
+              href: cim-virtualsystemsnapshotservice.md
+              items:
+                - name: Метод CreateSnapshot
+                  href: cim-virtualsystemsnapshotservice-createsnapshot.md
+                - name: Метод Дестройснапшот
+                  href: cim-virtualsystemsnapshotservice-destroysnapshot.md
+                - name: Метод Апплиснапшот
+                  href: cim-virtualsystemsnapshotservice-applysnapshot.md
+            - name: CIM_VLANEndpoint
+              href: cim-vlanendpoint.md
+            - name: CIM_VLANEndpointSettingData
+              href: cim-vlanendpointsettingdata.md
+            - name: CIM_WiFiEndpoint
+              href: cim-wifiendpoint.md
+            - name: CIM_WiFiPort
+              href: cim-wifiport.md
+        - name: Классы BIOS
+          href: bios-classes.md
+          items:
+            - name: Msvm_BIOSElement
+              href: msvm-bioselement.md
+            - name: Msvm_SystemBIOS
+              href: msvm-systembios.md
+        - name: Входные классы
+          href: input-classes.md
+          items:
+            - name: Msvm_Keyboard
+              href: msvm-keyboard.md
+              items:
+                - name: Метод с нажатием клавиши
+                  href: iskeypressed-msvm-keyboard.md
+                - name: Метод Пресскэй
+                  href: presskey-msvm-keyboard.md
+                - name: Метод Релеасекэй
+                  href: releasekey-msvm-keyboard.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-keyboard-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-keyboard-reset.md
+                - name: Метод Типектрлалтдел
+                  href: typectrlaltdel-msvm-keyboard.md
+                - name: Метод Типекэй
+                  href: typekey-msvm-keyboard.md
+                - name: Метод Типесканкодес
+                  href: msvm-keyboard-typescancodes.md
+                - name: Метод TypeText
+                  href: typetext-msvm-keyboard.md
+            - name: Msvm_Ps2Mouse
+              href: msvm-ps2mouse.md
+              items:
+                - name: Метод Кликкбуттон
+                  href: clickbutton-msvm-ps2mouse.md
+                - name: Метод Жетбуттонстате
+                  href: getbuttonstate-msvm-ps2mouse.md
+                - name: Метод Сетбуттонстате
+                  href: setbuttonstate-msvm-ps2mouse.md
+                - name: Метод Сетрелативепоситион
+                  href: setrelativeposition-msvm-ps2mouse.md
+                - name: Метод Сетскроллпоситион
+                  href: setscrollposition-msvm-ps2mouse.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-ps2mouse-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-ps2mouse-reset.md
+            - name: Msvm_SyntheticMouse
+              href: msvm-syntheticmouse.md
+              items:
+                - name: Метод Кликкбуттон
+                  href: clickbutton-msvm-syntheticmouse.md
+                - name: Метод Жетбуттонстате
+                  href: getbuttonstate-msvm-syntheticmouse.md
+                - name: Метод Сетабсолутепоситион
+                  href: setabsoluteposition-msvm-syntheticmouse.md
+                - name: Метод Сетбуттонстате
+                  href: setbuttonstate-msvm-syntheticmouse.md
+                - name: Метод Сетскроллпоситион
+                  href: setscrollposition-msvm-syntheticmouse.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-syntheticmouse-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-syntheticmouse-reset.md
+        - name: Классы служб Integration Services
+          href: integration-services-classes.md
+          items:
+            - name: Msvm_CopyFileToGuestJob
+              href: msvm-copyfiletoguestjob.md
+              items:
+                - name: Метод метода с ошибками
+                  href: geterror-msvm-copyfiletoguestjob.md
+                - name: Метод Жетеррорекс
+                  href: geterrorex-msvm-copyfiletoguestjob.md
+                - name: 'RequestStateChange, метод'
+                  href: requeststatechange-msvm-copyfiletoguestjob.md
+            - name: Msvm_CopyFileToGuestSettingData
+              href: msvm-copyfiletoguestsettingdata.md
+            - name: Msvm_GuestFileService
+              href: msvm-guestfileservice.md
+              items:
+                - name: Метод Копифилестогуест
+                  href: copyfilestoguest-msvm-guestfileservice.md
+            - name: Msvm_GuestService
+              href: msvm-guestservice.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: requeststatechange-msvm-guestservice.md
+                - name: 'StartService, метод'
+                  href: startservice-msvm-guestservice.md
+                - name: 'StopService, метод'
+                  href: stopservice-msvm-guestservice.md
+            - name: Msvm_GuestServiceInterfaceComponent
+              href: msvm-guestserviceinterfacecomponent.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: requeststatechange-msvm-guestserviceinterfacecomponent.md
+            - name: Msvm_GuestServiceInterfaceComponentSettingData
+              href: msvm-guestserviceinterfacecomponentsettingdata.md
+            - name: Msvm_KvpExchangeComponent
+              href: msvm-kvpexchangecomponent.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-kvpexchangecomponent-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-kvpexchangecomponent-reset.md
+            - name: Msvm_KvpExchangeComponentSettingData
+              href: msvm-kvpexchangecomponentsettingdata.md
+            - name: Msvm_KvpExchangeDataItem
+              href: msvm-kvpexchangedataitem.md
+            - name: Msvm_RegisteredGuestService
+              href: msvm-registeredguestservice.md
+            - name: Msvm_ShutdownComponent
+              href: msvm-shutdowncomponent.md
+              items:
+                - name: Метод Инитиатешутдовн
+                  href: msvm-shutdowncomponent-initiateshutdown.md
+                - name: Метод Инитиатеребут
+                  href: msvm-shutdowncomponent-initiatereboot.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-shutdowncomponent-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-shutdowncomponent-reset.md
+            - name: Msvm_ShutdownComponentSettingData
+              href: msvm-shutdowncomponentsettingdata.md
+            - name: Msvm_TimeSyncComponent
+              href: msvm-timesynccomponent.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-timesynccomponent-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-timesynccomponent-reset.md
+            - name: Msvm_TimeSyncComponentSettingData
+              href: msvm-timesynccomponentsettingdata.md
+            - name: Msvm_VssComponent
+              href: msvm-vsscomponent.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-vsscomponent-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-vsscomponent-reset.md
+            - name: Msvm_VssComponentSettingData
+              href: msvm-vsscomponentsettingdata.md
+        - name: Классы памяти
+          href: memory-classes.md
+          items:
+            - name: Msvm_ElementAllocatedFromNumaNode
+              href: msvm-elementallocatedfromnumanode.md
+            - name: Msvm_Memory
+              href: msvm-memory.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-memory-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-memory-reset.md
+            - name: Msvm_MemorySettingData
+              href: msvm-memorysettingdata.md
+            - name: Msvm_NumaNode
+              href: msvm-numanode.md
+        - name: Классы процессоров
+          href: processor-classes.md
+          items:
+            - name: Msvm_Processor
+              href: msvm-processor.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-processor-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-processor-reset.md
+            - name: Msvm_ProcessorPool
+              href: msvm-processorpool.md
+              items:
+                - name: Метод Калкулатепоссиблересерве
+                  href: calculatepossiblereserve-msvm-processorpool.md
+            - name: Msvm_ProcessorSettingData
+              href: msvm-processorsettingdata.md
+        - name: Классы регистрации профилей
+          href: profile-registration-classes.md
+          items:
+            - name: Msvm_ElementConformsToProfile
+              href: msvm-elementconformstoprofile.md
+            - name: Msvm_HostedResourcePool
+              href: msvm-hostedresourcepool.md
+            - name: Msvm_ReferencedProfile
+              href: msvm-referencedprofile.md
+            - name: Msvm_RegisteredProfile
+              href: msvm-registeredprofile.md
+            - name: Msvm_ResourcePoolComponent
+              href: msvm-resourcepoolcomponent.md
+            - name: Msvm_ResourcePoolRegistration
+              href: msvm-resourcepoolregistration.md
+            - name: Msvm_ResourceTypeDefinition
+              href: msvm-resourcetypedefinition.md
+            - name: Msvm_VirtualizationComponent
+              href: msvm-virtualizationcomponent.md
+            - name: Msvm_VirtualizationComponentRegistration
+              href: msvm-virtualizationcomponentregistration.md
+            - name: Msvm_VirtualSystemResourceComponent
+              href: msvm-virtualsystemresourcecomponent.md
+            - name: Msvm_VirtualSystemResourceRegistration
+              href: msvm-virtualsystemresourceregistration.md
+        - name: Классы удаленный рабочий стол
+          href: remotefx-classes.md
+          items:
+            - name: Msvm_InteractiveSessionACE
+              href: msvm-interactivesessionace.md
+            - name: Msvm_Physical3dGraphicsProcessor
+              href: msvm-physical3dgraphicsprocessor.md
+            - name: Msvm_PhysicalGPUInfo
+              href: msvm-physicalgpuinfo.md
+            - name: Msvm_RdvComponent
+              href: msvm-rdvcomponent.md
+              items:
+                - name: Метод Енаблиндпоинтс
+                  href: enableendpoints-msvm-rdvcomponent.md
+            - name: Msvm_RdvComponentSettingData
+              href: msvm-rdvcomponentsettingdata.md
+            - name: Msvm_Synth3dVideoPool
+              href: msvm-synth3dvideopool.md
+              items:
+                - name: Метод Калкулатевидеомеморирекуирементс
+                  href: msvm-synth3dvideopool-calculatevideomemoryrequirements.md
+            - name: Msvm_Synthetic3DDisplayController
+              href: msvm-synthetic3ddisplaycontroller.md
+            - name: Msvm_Synthetic3DDisplayControllerSettingData
+              href: msvm-synthetic3ddisplaycontrollersettingdata.md
+            - name: Msvm_Synthetic3DService
+              href: msvm-synthetic3dservice.md
+              items:
+                - name: Метод Дисаблегпуфорвиртуализатион
+                  href: disablegpuforvirtualization-msvm-synthetic3dservice.md
+                - name: Метод Енаблегпуфорвиртуализатион
+                  href: enablegpuforvirtualization-msvm-synthetic3dservice.md
+                - name: Метод Модифисервицесеттингс
+                  href: modifyservicesettings-msvm-synthetic3dservice.md
+            - name: Msvm_Synthetic3DServiceSettingData
+              href: msvm-synthetic3dservicesettingdata.md
+            - name: Msvm_TerminalService
+              href: msvm-terminalservice.md
+              items:
+                - name: Метод Жетинтерактивесессионакл
+                  href: getinteractivesessionacl-msvm-terminalservice.md
+                - name: Метод Грантинтерактивесессионакцесс
+                  href: grantinteractivesessionaccess-msvm-terminalservice.md
+                - name: Метод Модифисервицесеттингс
+                  href: modifyservicesettings-msvm-terminalservice.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-terminalservice-requeststatechange.md
+                - name: Метод Ревокеинтерактивесессионакцесс
+                  href: revokeinteractivesessionaccess-msvm-terminalservice.md
+                - name: 'StartService, метод'
+                  href: msvm-terminalservice-startservice.md
+                - name: 'StopService, метод'
+                  href: msvm-terminalservice-stopservice.md
+            - name: Msvm_TerminalServiceSettingData
+              href: msvm-terminalservicesettingdata.md
+        - name: Классы управления ресурсами
+          href: resource-management-classes.md
+          items:
+            - name: Msvm_AbstractResourcePoolSettingData
+              href: msvm-abstractresourcepoolsettingdata.md
+            - name: Msvm_AllocationCapabilities
+              href: msvm-allocationcapabilities.md
+            - name: Msvm_ElementAllocatedFromPool
+              href: msvm-elementallocatedfrompool.md
+            - name: Msvm_ElementCapabilities
+              href: msvm-elementcapabilities.md
+            - name: Msvm_FeatureSettingData
+              href: msvm-featuresettingdata.md
+            - name: Msvm_FeatureSettingsDefineCapabilities
+              href: msvm-featuresettingsdefinecapabilities.md
+            - name: Msvm_ResourceAllocationFromPool
+              href: msvm-resourceallocationfrompool.md
+            - name: Msvm_ResourceAllocationSettingData
+              href: msvm-resourceallocationsettingdata.md
+            - name: Msvm_ResourcePool
+              href: msvm-resourcepool.md
+            - name: Msvm_ResourcePoolConfigurationCapabilities
+              href: msvm-resourcepoolconfigurationcapabilities.md
+            - name: Msvm_ResourcePoolConfigurationService
+              href: msvm-resourcepoolconfigurationservice.md
+              items:
+                - name: Метод CreatePool
+                  href: createpool-msvm-resourcepoolconfigurationservice.md
+                - name: Метод DeletePool
+                  href: deletepool-msvm-resourcepoolconfigurationservice.md
+                - name: Метод Модифипулресаурцес
+                  href: modifypoolresources-msvm-resourcepoolconfigurationservice.md
+                - name: Метод Модифипулсеттингс
+                  href: modifypoolsettings-msvm-resourcepoolconfigurationservice.md
+            - name: Msvm_ResourcePoolSettingData
+              href: msvm-resourcepoolsettingdata.md
+            - name: Msvm_SettingsDefineCapabilities
+              href: msvm-settingsdefinecapabilities.md
+        - name: Классы последовательных устройств
+          href: serial-devices-classes.md
+          items:
+            - name: Msvm_SerialController
+              href: msvm-serialcontroller.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-serialcontroller-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-serialcontroller-reset.md
+            - name: Msvm_SerialPort
+              href: msvm-serialport.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-serialport-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-serialport-reset.md
+            - name: Msvm_SerialPortOnSerialController
+              href: msvm-serialportonserialcontroller.md
+        - name: Классы хранения
+          href: storage-classes.md
+          items:
+            - name: Msvm_AffectedStorageJobElement
+              href: msvm-affectedstoragejobelement.md
+            - name: Msvm_BasedOn
+              href: msvm-basedon.md
+            - name: Msvm_ControlledBy
+              href: msvm-controlledby.md
+            - name: Msvm_DiskDrive
+              href: msvm-diskdrive.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-diskdrive-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-diskdrive-reset.md
+                - name: Метод Локкмедиа
+                  href: msvm-diskdrive-lockmedia.md
+            - name: Msvm_DisketteController
+              href: msvm-diskettecontroller.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-diskettecontroller-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-diskettecontroller-reset.md
+            - name: Msvm_DisketteDrive
+              href: msvm-diskettedrive.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-diskettedrive-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-diskettedrive-reset.md
+                - name: Метод Локкмедиа
+                  href: msvm-diskettedrive-lockmedia.md
+            - name: Msvm_DVDDrive
+              href: msvm-dvddrive.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-dvddrive-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-dvddrive-reset.md
+                - name: Метод Локкмедиа
+                  href: msvm-dvddrive-lockmedia.md
+            - name: Msvm_IDEController
+              href: msvm-idecontroller.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-idecontroller-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-idecontroller-reset.md
+            - name: Msvm_ImageManagementService
+              href: msvm-imagemanagementservice.md
+              items:
+                - name: Метод Аттачвиртуалхарддиск
+                  href: attachvirtualharddisk-msvm-imagemanagementservice.md
+                - name: Метод Компактвиртуалхарддиск
+                  href: compactvirtualharddisk-msvm-imagemanagementservice.md
+                - name: Метод Конвертвиртуалхарддиск
+                  href: convertvirtualharddisk-msvm-imagemanagementservice.md
+                - name: Метод Креатевиртуалхарддиск
+                  href: createvirtualharddisk-msvm-imagemanagementservice.md
+                - name: Метод Креатевиртуалфлоппидиск
+                  href: createvirtualfloppydisk-msvm-imagemanagementservice.md
+                - name: Метод Конвертвиртуалхарддисктовхдсет
+                  href: msvm-imagemanagementservice-convertvirtualharddisktovhdset.md
+                - name: Метод Делетевхдснапшот
+                  href: msvm-imagemanagementservice-deletevhdsnapshot.md
+                - name: Метод Финдмаунтедсторажеимажеинстанце
+                  href: msvm-imagemanagementservice-findmountedstorageimageinstance.md
+                - name: Метод Жетвиртуалдискчанжес
+                  href: msvm-imagemanagementservice-getvirtualdiskchanges.md
+                - name: Метод Жетвиртуалхарддисксеттингдата
+                  href: getvirtualharddisksettingdata-msvm-imagemanagementservice.md
+                - name: Метод Жетвиртуалхарддискстате
+                  href: getvirtualharddiskstate-msvm-imagemanagementservice.md
+                - name: Метод Жетвхдсетинформатион
+                  href: msvm-imagemanagementservice-getvhdsetinformation.md
+                - name: Метод Жетвхдснапшотинформатион
+                  href: msvm-imagemanagementservice-getvhdsnapshotinformation.md
+                - name: Метод Мержевиртуалхарддиск
+                  href: mergevirtualharddisk-msvm-imagemanagementservice.md
+                - name: Метод Оптимизевхдсет
+                  href: msvm-imagemanagementservice-optimizevhdset.md
+                - name: Метод Ресизевиртуалхарддиск
+                  href: resizevirtualharddisk-msvm-imagemanagementservice.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-imagemanagementservice-requeststatechange.md
+                - name: Метод Сетпарентвиртуалхарддиск
+                  href: setparentvirtualharddisk-msvm-imagemanagementservice.md
+                - name: Метод Сетвиртуалхарддисксеттингдата
+                  href: setvirtualharddisksettingdata-msvm-imagemanagementservice.md
+                - name: Метод Сетвхдснапшотинформатион
+                  href: msvm-imagemanagementservice-setvhdsnapshotinformation.md
+                - name: 'StartService, метод'
+                  href: msvm-imagemanagementservice-startservice.md
+                - name: 'StopService, метод'
+                  href: msvm-imagemanagementservice-stopservice.md
+                - name: Метод Валидатеперсистентресерватионсуппорт
+                  href: msvm-imagemanagementservice-validatepersistentreservationsupport.md
+                - name: Метод Валидатевиртуалхарддиск
+                  href: validatevirtualharddisk-msvm-imagemanagementservice.md
+            - name: Msvm_LogicalDisk
+              href: msvm-logicaldisk.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-logicaldisk-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-logicaldisk-reset.md
+            - name: Msvm_MediaPresent
+              href: msvm-mediapresent.md
+            - name: Msvm_MountedStorageImage
+              href: msvm-mountedstorageimage.md
+              items:
+                - name: Метод Детачвиртуалхарддиск
+                  href: detachvirtualharddisk-msvm-mountedstorageimage.md
+            - name: Msvm_ProtocolControllerForUnit
+              href: msvm-protocolcontrollerforunit.md
+            - name: Msvm_SCSIProtocolController
+              href: msvm-scsiprotocolcontroller.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-scsiprotocolcontroller-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-scsiprotocolcontroller-reset.md
+            - name: Msvm_StorageAlert
+              href: msvm-storagealert.md
+            - name: Msvm_StorageAllocationSettingData
+              href: msvm-storageallocationsettingdata.md
+            - name: Msvm_StorageJob
+              href: msvm-storagejob.md
+              items:
+                - name: Метод метода с ошибками
+                  href: msvm-storagejob-geterror.md
+                - name: Метод Жетеррорекс
+                  href: geterrorex-msvm-storagejob.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-storagejob-requeststatechange.md
+            - name: Msvm_VirtualHardDiskSettingData
+              href: msvm-virtualharddisksettingdata.md
+            - name: Msvm_VirtualHardDiskState
+              href: msvm-virtualharddiskstate.md
+        - name: Классы видео
+          href: video-classes.md
+          items:
+            - name: Msvm_S3DisplayController
+              href: msvm-s3displaycontroller.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-s3displaycontroller-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-s3displaycontroller-reset.md
+            - name: Msvm_SyntheticDisplayController
+              href: msvm-syntheticdisplaycontroller.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-syntheticdisplaycontroller-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-syntheticdisplaycontroller-reset.md
+            - name: Msvm_SystemTerminalConnection
+              href: msvm-systemterminalconnection.md
+            - name: Msvm_TerminalConnection
+              href: msvm-terminalconnection.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-terminalconnection-requeststatechange.md
+            - name: Msvm_VideoHead
+              href: msvm-videohead.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-videohead-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-videohead-reset.md
+            - name: Msvm_VideoHeadOnController
+              href: msvm-videoheadoncontroller.md
+        - name: Классы виртуальных систем
+          href: virtual-system-classes.md
+          items:
+            - name: Msvm_BootSourceComponent
+              href: msvm-bootsourcecomponent.md
+            - name: Msvm_BootSourceSettingData
+              href: msvm-bootsourcesettingdata.md
+            - name: Msvm_ComputerSystem
+              href: msvm-computersystem.md
+              items:
+                - name: Метод Инжектнонмаскаблеинтеррупт
+                  href: injectnonmaskableinterrupt-msvm-computersystem.md
+                - name: Метод Рекуестрепликатионстатечанже
+                  href: msvm-computersystem-requestreplicationstatechange.md
+                - name: Метод Рекуестрепликатионстатечанжеекс
+                  href: msvm-requestreplicationstatechangeex-computersystem.md
+                - name: 'RequestStateChange, метод'
+                  href: requeststatechange-msvm-computersystem.md
+            - name: Msvm_ConcreteComponent
+              href: msvm-concretecomponent.md
+            - name: Msvm_LogicalIdentity
+              href: msvm-logicalidentity.md
+            - name: Msvm_MostCurrentSnapshotInBranch
+              href: msvm-mostcurrentsnapshotinbranch.md
+            - name: Msvm_ParentChildSettingData
+              href: msvm-parentchildsettingdata.md
+            - name: Msvm_PlannedComputerSystem
+              href: msvm-plannedcomputersystem.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: requeststatechange-msvm-plannedcomputersystem.md
+            - name: Msvm_SnapshotOfVirtualSystem
+              href: msvm-snapshotofvirtualsystem.md
+            - name: Msvm_SummaryInformation
+              href: msvm-summaryinformation.md
+            - name: Msvm_SystemComponent
+              href: msvm-systemcomponent.md
+            - name: Msvm_SystemDevice
+              href: msvm-systemdevice.md
+            - name: Msvm_VirtualSystemCapabilities
+              href: msvm-virtualsystemcapabilities.md
+            - name: Msvm_VirtualSystemSettingData
+              href: msvm-virtualsystemsettingdata.md
+            - name: Msvm_VirtualSystemSettingDataComponent
+              href: msvm-virtualsystemsettingdatacomponent.md
+        - name: Классы управления виртуальной системой
+          href: virtual-system-management-classes.md
+          items:
+            - name: Msvm_AffectedJobElement
+              href: msvm-affectedjobelement.md
+            - name: Msvm_ConcreteJob
+              href: msvm-concretejob.md
+              items:
+                - name: Метод метода с ошибками
+                  href: geterror-msvm-concretejob.md
+                - name: Метод Жетеррорекс
+                  href: geterrorex-msvm-concretejob.md
+                - name: 'RequestStateChange, метод'
+                  href: requeststatechange-msvm-concretejob.md
+            - name: Msvm_DiskMergeSettingData
+              href: msvm-diskmergesettingdata.md
+            - name: Msvm_ElementSettingData
+              href: msvm-elementsettingdata.md
+            - name: Msvm_Error
+              href: msvm-error.md
+            - name: Msvm_HostedDependency
+              href: msvm-hosteddependency.md
+            - name: Msvm_HostedService
+              href: msvm-hostedservice.md
+            - name: Msvm_LastAppliedSnapshot
+              href: msvm-lastappliedsnapshot.md
+            - name: Msvm_OwningJobElement
+              href: msvm-owningjobelement.md
+            - name: Msvm_ServiceAffectsElement
+              href: msvm-serviceaffectselement.md
+            - name: Msvm_ServicingSettings
+              href: msvm-servicingsettings.md
+            - name: Msvm_SettingsDefineState
+              href: msvm-settingsdefinestate.md
+            - name: Msvm_SystemExportSettingData
+              href: msvm-systemexportsettingdata.md
+            - name: Msvm_VirtualSystemExportSettingData
+              href: msvm-virtualsystemexportsettingdata.md
+            - name: Msvm_VirtualSystemManagementCapabilities
+              href: msvm-virtualsystemmanagementcapabilities.md
+            - name: Msvm_VirtualSystemManagementService
+              href: msvm-virtualsystemmanagementservice.md
+              items:
+                - name: Метод Аддбутсаурцесеттингс
+                  href: msvm-virtualsystemmanagementservice-addbootsourcesettings.md
+                - name: Метод Аддфеатуресеттингс
+                  href: addfeaturesettings-msvm-virtualsystemmanagementservice.md
+                - name: Метод Аддгуестсервицесеттингс
+                  href: msvm-virtualsystemmanagementservice-addguestservicesettings.md
+                - name: Метод Аддфибречаннелчап
+                  href: addfibrechannelchap-msvm-virtualsystemmanagementservice.md
+                - name: Метод Аддквпитемс
+                  href: addkvpitems-msvm-virtualsystemmanagementservice.md
+                - name: Метод Аддресаурцесеттингс
+                  href: addresourcesettings-msvm-virtualsystemmanagementservice.md
+                - name: Метод Аддсистемкомпонентсеттингс
+                  href: msvm-virtualsystemmanagementservice-addsystemcomponentsettings.md
+                - name: Метод Дефинепланнедсистем
+                  href: msvm-virtualsystemmanagementservice-defineplannedsystem.md
+                - name: Метод Дефинесистем
+                  href: definesystem-msvm-virtualsystemmanagementservice.md
+                - name: Метод Дестройсистем
+                  href: destroysystem-msvm-virtualsystemmanagementservice.md
+                - name: Метод Диагносенетворкконнектион
+                  href: msvm-virtualsystemmanagementservice-diagnosenetworkconnection.md
+                - name: Метод Експортсистемдефинитион
+                  href: exportsystemdefinition-msvm-virtualsystemmanagementservice.md
+                - name: Метод Форматеррор
+                  href: formaterror-msvm-virtualsystemmanagementservice.md
+                - name: Метод Женератеввпн
+                  href: generatewwpn-msvm-virtualsystemmanagementservice.md
+                - name: Метод Жеткуррентввпнфромженератор
+                  href: getcurrentwwpnfromgenerator-msvm-virtualsystemmanagementservice.md
+                - name: Метод Жетдефинитионфилесуммаринформатион
+                  href: getdefinitionfilesummaryinformation-msvm-virtualsystemmanagementservice.md
+                - name: Метод Жетсизеофсистемфилес
+                  href: getsizeofsystemfiles-msvm-virtualsystemmanagementservice.md
+                - name: Метод Жетсуммаринформатион
+                  href: getsummaryinformation-msvm-virtualsystemmanagementservice.md
+                - name: Метод Жетвиртуалсистемсумбнаилимаже
+                  href: getvirtualsystemthumbnailimage-msvm-virtualsystemmanagementservice.md
+                - name: Метод Импортснапшотдефинитионс
+                  href: importsnapshotdefinitions-msvm-virtualsystemmanagementservice.md
+                - name: Метод Импортсистемдефинитион
+                  href: importsystemdefinition-msvm-virtualsystemmanagementservice.md
+                - name: Метод Модифидискмержесеттингс
+                  href: modifydiskmergesettings-msvm-virtualsystemmanagementservice.md
+                - name: Метод Модифифеатуресеттингс
+                  href: modifyfeaturesettings-msvm-virtualsystemmanagementservice.md
+                - name: Метод Модифигуестсервицесеттингс
+                  href: msvm-virtualsystemmanagementservice-modifyguestservicesettings.md
+                - name: Метод Модификвпитемс
+                  href: modifykvpitems-msvm-virtualsystemmanagementservice.md
+                - name: Метод Модифиресаурцесеттингс
+                  href: modifyresourcesettings-msvm-virtualsystemmanagementservice.md
+                - name: Метод Модифисервицесеттингс
+                  href: modifyservicesettings-msvm-virtualsystemmanagementservice.md
+                - name: Метод Модифисистемкомпонентсеттингс
+                  href: msvm-virtualsystemmanagementservice-modifysystemcomponentsettings.md
+                - name: Метод Модифисистемсеттингс
+                  href: modifysystemsettings-msvm-virtualsystemmanagementservice.md
+                - name: Метод Реализепланнедсистем
+                  href: realizeplannedsystem-msvm-virtualsystemmanagementservice.md
+                - name: Метод Ремовефеатуресеттингс
+                  href: removefeaturesettings-msvm-virtualsystemmanagementservice.md
+                - name: Метод Ремовебутсаурцесеттингс
+                  href: msvm-virtualsystemmanagementservice-removebootsourcesettings.md
+                - name: Метод Ремовефибречаннелчап
+                  href: removefibrechannelchap-msvm-virtualsystemmanagementservice.md
+                - name: Метод Ремовеквпитемс
+                  href: removekvpitems-msvm-virtualsystemmanagementservice.md
+                - name: Метод Ремовегуестсервицесеттингс
+                  href: msvm-virtualsystemmanagementservice-removeguestservicesettings.md
+                - name: Метод Ремовересаурцесеттингс
+                  href: removeresourcesettings-msvm-virtualsystemmanagementservice.md
+                - name: Метод Ремовесистемкомпонентсеттингс
+                  href: msvm-virtualsystemmanagementservice-removesystemcomponentsettings.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-virtualsystemmanagementservice-requeststatechange.md
+                - name: Метод Тестнетворкконнектион
+                  href: msvm-virtualsystemmanagementservice-testnetworkconnection.md
+                - name: Метод Сетгуестнетворкадаптерконфигуратион
+                  href: setguestnetworkadapterconfiguration-msvm-virtualsystemmanagementservice.md
+                - name: Метод Сетинитиалмачинеконфигуратиондата
+                  href: msvm-virtualsystemmanagementservice-setinitialmachineconfigurationdata.md
+                - name: 'StartService, метод'
+                  href: msvm-virtualsystemmanagementservice-startservice.md
+                - name: 'StopService, метод'
+                  href: msvm-virtualsystemmanagementservice-stopservice.md
+                - name: Метод Упградесистемверсион
+                  href: msvm-virtualsystemmanagementservice-upgradesystemversion.md
+                - name: Метод Валидатепланнедсистем
+                  href: validateplannedsystem-msvm-virtualsystemmanagementservice.md
+            - name: Msvm_VirtualSystemManagementServiceSettingData
+              href: msvm-virtualsystemmanagementservicesettingdata.md
+            - name: Msvm_VirtualSystemSnapshotService
+              href: msvm-virtualsystemsnapshotservice.md
+              items:
+                - name: Метод Апплиснапшот
+                  href: applysnapshot-msvm-virtualsystemsnapshotservice.md
+                - name: Метод Клеарснапшотстате
+                  href: clearsnapshotstate-msvm-virtualsystemsnapshotservice.md
+                - name: Метод CreateSnapshot
+                  href: createsnapshot-msvm-virtualsystemsnapshotservice.md
+                - name: Метод Дестройснапшот
+                  href: destroysnapshot-msvm-virtualsystemsnapshotservice.md
+                - name: Метод Дестройснапшоттри
+                  href: destroysnapshottree-msvm-virtualsystemsnapshotservice.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-virtualsystemsnapshotservice-requeststatechange.md
+                - name: Метод Конверттореференцепоинт
+                  href: msvm-virtualsystemsnapshotservice-converttoreferencepoint.md
+    - name: API мониторинга работоспособности приложений Hyper-V
+      href: hyper-v-application-health-monitoring-api.md
+      items:
+        - name: Справочник по API мониторинга работоспособности приложений Hyper-V
+          href: hyper-v-application-health-monitoring-api-reference.md
+          items:
+            - name: Перечисления мониторинга работоспособности приложений Hyper-V
+              href: hyper-v-application-health-monitoring-enumerations.md
+              items:
+                - name: APPLICATION_STATE
+                  href: application-state.md
+            - name: Интерфейсы мониторинга работоспособности приложений Hyper-V
+              href: hyper-v-application-health-monitoring-interfaces.md
+              items:
+                - name: ивмаппликатионхеалсмонитор
+                  href: ivmapplicationhealthmonitor.md
+                  items:
+                    - name: Метод Ресеталлаппликатионстате
+                      href: ivmapplicationhealthmonitor-resetallapplicationstate.md
+                    - name: Метод Сетаппликатионстате
+                      href: ivmapplicationhealthmonitor-setapplicationstate.md
+            - name: Классы WMI для мониторинга работоспособности приложений Hyper-V
+              href: hyper-v-application-health-monitoring-wmi-classes.md
+              items:
+                - name: Msvm_HeartbeatComponent
+                  href: msvm-heartbeatcomponent.md
+                  items:
+                    - name: 'RequestStateChange, метод'
+                      href: msvm-heartbeatcomponent-requeststatechange.md
+                    - name: Reset - метод
+                      href: msvm-heartbeatcomponent-reset.md
+                - name: Msvm_HeartbeatComponentSettingData
+                  href: msvm-heartbeatcomponentsettingdata.md
+    - name: API репликации Hyper-V
+      href: hyper-v-replication-api.md
+      items:
+        - name: Справочник по API репликации Hyper-V
+          href: hyper-v-replication-api-reference.md
+          items:
+            - name: Msvm_FailoverNetworkAdapterSettingData
+              href: msvm-failovernetworkadaptersettingdata.md
+            - name: Msvm_ReplicationProvider
+              href: msvm-replicationprovider.md
+            - name: Msvm_ReplicationRelationship
+              href: msvm-replicationrelationship.md
+            - name: Msvm_ReplicaSystemDependency
+              href: msvm-replicasystemdependency.md
+            - name: Msvm_ReplicationAuthorizationSettingData
+              href: msvm-replicationauthorizationsettingdata.md
+            - name: Msvm_ReplicationService
+              href: msvm-replicationservice.md
+              items:
+                - name: Метод Аддаусоризатионентри
+                  href: addauthorizationentry-msvm-replicationservice.md
+                - name: Метод Чанжерепликатионмодетопримари
+                  href: changereplicationmodetoprimary-msvm-replicationservice.md
+                - name: Метод Коммитфаиловер
+                  href: commitfailover-msvm-replicationservice.md
+                - name: Метод CreateReplicationRelationship
+                  href: createreplicationrelationship-msvm-replicationservice.md
+                - name: Метод Жетрепликатионстатистикс
+                  href: getreplicationstatistics-msvm-replicationservice.md
+                - name: Метод Жетрепликатионстатистиксекс
+                  href: getreplicationstatisticsex-msvm-replicationservice.md
+                - name: Метод Жетсистемцертификатес
+                  href: getsystemcertificates-msvm-replicationservice.md
+                - name: Метод Импортинитиалреплика
+                  href: importinitialreplica-msvm-replicationservice.md
+                - name: Метод Инитиатефаилбакк
+                  href: initiatefailback-msvm-replicationservice.md
+                - name: Метод Инитиатефаиловер
+                  href: initiatefailover-msvm-replicationservice.md
+                - name: Метод Модифяусоризатионентри
+                  href: modifyauthorizationentry-msvm-replicationservice.md
+                - name: Метод Модифирепликатионсеттингс
+                  href: modifyreplicationsettings-msvm-replicationservice.md
+                - name: Метод Модифисервицесеттингс
+                  href: modifyservicesettings-msvm-replicationservice.md
+                - name: Метод Ремовеаусоризатионентри
+                  href: removeauthorizationentry-msvm-replicationservice.md
+                - name: Метод Ремоверепликатионрелатионшип
+                  href: removereplicationrelationship-msvm-replicationservice.md
+                - name: Метод Ремоверепликатионрелатионшипекс
+                  href: removereplicationrelationshipex-msvm-replicationservice.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-replicationservice-requeststatechange.md
+                - name: Метод Ресетрепликатионстатистикс
+                  href: resetreplicationstatistics-msvm-replicationservice.md
+                - name: Метод Ресетрепликатионстатистиксекс
+                  href: resetreplicationstatisticsex-msvm-replicationservice.md
+                - name: Повторная синхронизация метода
+                  href: resynchronize-msvm-replicationservice.md
+                - name: Метод Реверсерепликатионрелатионшип
+                  href: reversereplicationrelationship-msvm-replicationservice.md
+                - name: Метод Ревертфаиловер
+                  href: revertfailover-msvm-replicationservice.md
+                - name: Метод Сетаусоризатионентри
+                  href: setauthorizationentry-msvm-replicationservice.md
+                - name: Метод Сетфаиловернетворкадаптерсеттингс
+                  href: setfailovernetworkadaptersettings-msvm-replicationservice.md
+                - name: Метод StartReplication
+                  href: startreplication-msvm-replicationservice.md
+                - name: 'StartService, метод'
+                  href: msvm-replicationservice-startservice.md
+                - name: 'StopService, метод'
+                  href: msvm-replicationservice-stopservice.md
+                - name: Метод Тестрепликасистем
+                  href: testreplicasystem-msvm-replicationservice.md
+                - name: Метод Тестрепликатионконнектион
+                  href: testreplicationconnection-msvm-replicationservice.md
+            - name: Msvm_ReplicationServiceSettingData
+              href: msvm-replicationservicesettingdata.md
+            - name: Msvm_ReplicationSettingData
+              href: msvm-replicationsettingdata.md
+            - name: Msvm_ReplicationStatistics
+              href: msvm-replicationstatistics.md
+            - name: Msvm_SystemReplicationRelationship
+              href: msvm-systemreplicationrelationship.md
+    - name: API метрик Hyper-V
+      href: hyper-v-metrics-api.md
+      items:
+        - name: Справочник по API метрик Hyper-V
+          href: hyper-v-metrics-api-reference.md
+          items:
+            - name: Msvm_AggregationMetricDefinition
+              href: msvm-aggregationmetricdefinition.md
+            - name: Msvm_AggregationMetricValue
+              href: msvm-aggregationmetricvalue.md
+            - name: Msvm_BaseMetricDefinition
+              href: msvm-basemetricdefinition.md
+            - name: Msvm_BaseMetricValue
+              href: msvm-basemetricvalue.md
+            - name: Msvm_MetricCollectionDependency
+              href: msvm-metriccollectiondependency.md
+            - name: Msvm_MetricDefForME
+              href: msvm-metricdefforme.md
+            - name: Msvm_MetricForME
+              href: msvm-metricforme.md
+            - name: Msvm_MetricInstance
+              href: msvm-metricinstance.md
+            - name: Msvm_MetricService
+              href: msvm-metricservice.md
+              items:
+                - name: Метод Контролметрикс
+                  href: controlmetrics-msvm-metricservice.md
+                - name: Метод Контролметриксбикласс
+                  href: msvm-metricservice-controlmetricsbyclass.md
+                - name: Метод Контролсамплетимес
+                  href: msvm-metricservice-controlsampletimes.md
+                - name: Метод Жетметриквалуес
+                  href: msvm-metricservice-getmetricvalues.md
+                - name: Метод Модифисервицесеттингс
+                  href: modifyservicesettings-msvm-metricservice.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-metricservice-requeststatechange.md
+                - name: Метод Шовметрикс
+                  href: msvm-metricservice-showmetrics.md
+                - name: Метод Шовметриксбикласс
+                  href: msvm-metricservice-showmetricsbyclass.md
+                - name: 'StartService, метод'
+                  href: msvm-metricservice-startservice.md
+                - name: 'StopService, метод'
+                  href: msvm-metricservice-stopservice.md
+            - name: Msvm_MetricServiceCapabilities
+              href: msvm-metricservicecapabilities.md
+            - name: Msvm_MetricServiceSettingData
+              href: msvm-metricservicesettingdata.md
+    - name: Сетевой интерфейс API Hyper-V
+      href: hyper-v-networking-api.md
+      items:
+        - name: Сетевая служба
+          href: networking-service.md
+        - name: Справочник по API сетевых интерфейсов Hyper-V
+          href: hyper-v-networking-classes.md
+          items:
+            - name: Msvm_ActiveConnection
+              href: msvm-activeconnection.md
+            - name: Msvm_BindsToLANEndpoint
+              href: msvm-bindstolanendpoint.md
+            - name: Msvm_ConcreteDependency
+              href: msvm-concretedependency.md
+            - name: Msvm_DeviceSAPImplementation
+              href: msvm-devicesapimplementation.md
+            - name: Msvm_DynamicForwardingEntry
+              href: msvm-dynamicforwardingentry.md
+            - name: Msvm_EmulatedEthernetPort
+              href: msvm-emulatedethernetport.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-emulatedethernetport-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-emulatedethernetport-reset.md
+            - name: Msvm_EmulatedEthernetPortSettingData
+              href: msvm-emulatedethernetportsettingdata.md
+            - name: Msvm_EthernetDeviceSAPImplementation
+              href: msvm-ethernetdevicesapimplementation.md
+            - name: Msvm_EthernetPortAllocationSettingData
+              href: msvm-ethernetportallocationsettingdata.md
+            - name: Msvm_EthernetPortData
+              href: msvm-ethernetportdata.md
+            - name: Msvm_EthernetPortFailoverSettingDataComponent
+              href: msvm-ethernetportfailoversettingdatacomponent.md
+            - name: Msvm_EthernetPortInfo
+              href: msvm-ethernetportinfo.md
+            - name: Msvm_EthernetPortSettingDataComponent
+              href: msvm-ethernetportsettingdatacomponent.md
+            - name: Msvm_EthernetSwitchBandwidthData
+              href: msvm-ethernetswitchbandwidthdata.md
+            - name: Msvm_EthernetSwitchData
+              href: msvm-ethernetswitchdata.md
+            - name: Msvm_EthernetSwitchExtension
+              href: msvm-ethernetswitchextension.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-ethernetswitchextension-requeststatechange.md
+            - name: Msvm_EthernetSwitchExtensionCapabilities
+              href: msvm-ethernetswitchextensioncapabilities.md
+            - name: Msvm_EthernetSwitchFeatureCapabilities
+              href: msvm-ethernetswitchfeaturecapabilities.md
+            - name: Msvm_EthernetSwitchFeatureSettingData
+              href: msvm-ethernetswitchfeaturesettingdata.md
+            - name: Msvm_EthernetSwitchHardwareOffloadData
+              href: msvm-ethernetswitchhardwareoffloaddata.md
+            - name: Msvm_EthernetSwitchInfo
+              href: msvm-ethernetswitchinfo.md
+            - name: Msvm_EthernetSwitchOperationalData
+              href: msvm-ethernetswitchoperationaldata.md
+            - name: Msvm_EthernetSwitchPort
+              href: msvm-ethernetswitchport.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-ethernetswitchport-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-ethernetswitchport-reset.md
+            - name: Msvm_EthernetSwitchPortAclSettingData
+              href: msvm-ethernetswitchportaclsettingdata.md
+            - name: Msvm_EthernetSwitchPortBandwidthData
+              href: msvm-ethernetswitchportbandwidthdata.md
+            - name: Msvm_EthernetSwitchPortBandwidthSettingData
+              href: msvm-ethernetswitchportbandwidthsettingdata.md
+            - name: Msvm_EthernetSwitchPortFeatureSettingData
+              href: msvm-ethernetswitchportfeaturesettingdata.md
+            - name: Msvm_EthernetSwitchPortOffloadData
+              href: msvm-ethernetswitchportoffloaddata.md
+            - name: Msvm_EthernetSwitchPortOffloadSettingData
+              href: msvm-ethernetswitchportoffloadsettingdata.md
+            - name: Msvm_EthernetSwitchPortProfileSettingData
+              href: msvm-ethernetswitchportprofilesettingdata.md
+            - name: Msvm_EthernetSwitchPortSecuritySettingData
+              href: msvm-ethernetswitchportsecuritysettingdata.md
+            - name: Msvm_EthernetSwitchPortVlanSettingData
+              href: msvm-ethernetswitchportvlansettingdata.md
+            - name: Msvm_ExternalEthernetPort
+              href: msvm-externalethernetport.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-externalethernetport-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-externalethernetport-reset.md
+            - name: Msvm_ExternalEthernetPortCapabilities
+              href: msvm-externalethernetportcapabilities.md
+            - name: Msvm_GuestNetworkAdapterConfiguration
+              href: msvm-guestnetworkadapterconfiguration.md
+            - name: Msvm_HostedEthernetSwitchExtension
+              href: msvm-hostedethernetswitchextension.md
+            - name: Msvm_HostedSwitchService
+              href: msvm-hostedswitchservice.md
+            - name: Msvm_InstalledEthernetSwitchExtension
+              href: msvm-installedethernetswitchextension.md
+            - name: Msvm_InternalEthernetPort
+              href: msvm-internalethernetport.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-internalethernetport-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-internalethernetport-reset.md
+            - name: Msvm_LANEndpoint
+              href: msvm-lanendpoint.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-lanendpoint-requeststatechange.md
+            - name: Msvm_ParentEthernetSwitchExtension
+              href: msvm-parentethernetswitchextension.md
+            - name: Msvm_SettingDataComponent
+              href: msvm-settingdatacomponent.md
+            - name: Msvm_SwitchPortDynamicForwarding
+              href: msvm-switchportdynamicforwarding.md
+            - name: Msvm_SyntheticEthernetPort
+              href: msvm-syntheticethernetport.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-syntheticethernetport-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-syntheticethernetport-reset.md
+            - name: Msvm_SyntheticEthernetPortSettingData
+              href: msvm-syntheticethernetportsettingdata.md
+            - name: Msvm_TransparentBridgingDynamicForwarding
+              href: msvm-transparentbridgingdynamicforwarding.md
+            - name: Msvm_TransparentBridgingService
+              href: msvm-transparentbridgingservice.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-transparentbridgingservice-requeststatechange.md
+                - name: 'StartService, метод'
+                  href: msvm-transparentbridgingservice-startservice.md
+                - name: 'StopService, метод'
+                  href: msvm-transparentbridgingservice-stopservice.md
+            - name: Msvm_VirtualEthernetSwitch
+              href: msvm-virtualethernetswitch.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-virtualethernetswitch-requeststatechange.md
+            - name: Msvm_VirtualEthernetSwitchBandwidthSettingData
+              href: msvm-virtualethernetswitchbandwidthsettingdata.md
+            - name: Msvm_VirtualEthernetSwitchManagementCapabilities
+              href: msvm-virtualethernetswitchmanagementcapabilities.md
+            - name: Msvm_VirtualEthernetSwitchManagementService
+              href: msvm-virtualethernetswitchmanagementservice.md
+              items:
+                - name: Метод Аддфеатуресеттингс
+                  href: addfeaturesettings-msvm-virtualethernetswitchmanagementservice.md
+                - name: Метод Аддресаурцесеттингс
+                  href: addresourcesettings-msvm-virtualethernetswitchmanagementservice.md
+                - name: Метод Дефинесистем
+                  href: definesystem-msvm-virtualethernetswitchmanagementservice.md
+                - name: Метод Дестройсистем
+                  href: destroysystem-msvm-virtualethernetswitchmanagementservice.md
+                - name: Метод Модифифеатуресеттингс
+                  href: modifyfeaturesettings-msvm-virtualethernetswitchmanagementservice.md
+                - name: Метод Модифиресаурцесеттингс
+                  href: modifyresourcesettings-msvm-virtualethernetswitchmanagementservice.md
+                - name: Метод Модифисистемсеттингс
+                  href: modifysystemsettings-msvm-virtualethernetswitchmanagementservice.md
+                - name: Метод Ремовефеатуресеттингс
+                  href: removefeaturesettings-msvm-virtualethernetswitchmanagementservice.md
+                - name: Метод Ремовересаурцесеттингс
+                  href: removeresourcesettings-msvm-virtualethernetswitchmanagementservice.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-virtualethernetswitchmanagementservice-requeststatechange.md
+                - name: 'StartService, метод'
+                  href: msvm-virtualethernetswitchmanagementservice-startservice.md
+                - name: 'StopService, метод'
+                  href: msvm-virtualethernetswitchmanagementservice-stopservice.md
+            - name: Msvm_VirtualEthernetSwitchSettingData
+              href: msvm-virtualethernetswitchsettingdata.md
+            - name: Msvm_VirtualEthernetSwitchSettingDataComponent
+              href: msvm-virtualethernetswitchsettingdatacomponent.md
+            - name: Msvm_VLANEndpoint
+              href: msvm-vlanendpoint.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-vlanendpoint-requeststatechange.md
+            - name: Msvm_WiFiDeviceSAPImplementation
+              href: msvm-wifidevicesapimplementation.md
+            - name: Msvm_WiFiEndpoint
+              href: msvm-wifiendpoint.md
+            - name: Msvm_WiFiPort
+              href: msvm-wifiport.md
+    - name: API миграции Hyper-V
+      href: hyper-v-storage-migration-api.md
+      items:
+        - name: Справочник по API миграции Hyper-V
+          href: hyper-v-storage-migration-classes.md
+          items:
+            - name: Msvm_MigrationJob
+              href: msvm-migrationjob.md
+              items:
+                - name: Метод метода с ошибками
+                  href: geterror-msvm-migrationjob.md
+                - name: Метод Жетеррорекс
+                  href: geterrorex-msvm-migrationjob.md
+                - name: 'RequestStateChange, метод'
+                  href: requeststatechange-msvm-migrationjob.md
+            - name: Msvm_VirtualSystemMigrationCapabilities
+              href: msvm-virtualsystemmigrationcapabilities.md
+            - name: Msvm_VirtualSystemMigrationNetworkSettingData
+              href: msvm-virtualsystemmigrationnetworksettingdata.md
+            - name: Msvm_VirtualSystemMigrationService
+              href: msvm-virtualsystemmigrationservice.md
+              items:
+                - name: Метод Адднетворксеттингс
+                  href: addnetworksettings-msvm-virtualsystemmigrationservice.md
+                - name: Метод Чекксистемкомпатибилитинфо
+                  href: checksystemcompatibilityinfo-msvm-virtualsystemmigrationservice.md
+                - name: Метод Чекквиртуалсистемисмигратабле
+                  href: checkvirtualsystemismigratable-msvm-virtualsystemmigrationservice.md
+                - name: Метод Чекквиртуалсистемисмигратаблетохост
+                  href: checkvirtualsystemismigratabletohost-msvm-virtualsystemmigrationservice.md
+                - name: Метод Чекквиртуалсистемисмигратаблетосистем
+                  href: msvm-virtualsystemmigrationservice-checkvirtualsystemismigratabletosystem.md
+                - name: Метод Жетсистемкомпатибилитинфо
+                  href: getsystemcompatibilityinfo-msvm-virtualsystemmigrationservice.md
+                - name: Метод Жетсистемкомпатибилитивекторс
+                  href: getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md
+                - name: Метод Мигратевиртуалсистемтохост
+                  href: migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md
+                - name: Метод Мигратевиртуалсистемтосистем
+                  href: migratevirtualsystemtosystem-msvm-virtualsystemmigrationservice.md
+                - name: Метод Модифинетворксеттингс
+                  href: modifynetworksettings-msvm-virtualsystemmigrationservice.md
+                - name: Метод Модифисервицесеттингс
+                  href: modifyservicesettings-msvm-virtualsystemmigrationservice.md
+                - name: Метод Ремовенетворксеттингс
+                  href: removenetworksettings-msvm-virtualsystemmigrationservice.md
+                - name: 'RequestStateChange, метод'
+                  href: msvm-virtualsystemmigrationservice-requeststatechange.md
+                - name: 'StartService, метод'
+                  href: msvm-virtualsystemmigrationservice-startservice.md
+                - name: 'StopService, метод'
+                  href: msvm-virtualsystemmigrationservice-stopservice.md
+            - name: Msvm_VirtualSystemMigrationServiceSettingData
+              href: msvm-virtualsystemmigrationservicesettingdata.md
+            - name: Msvm_VirtualSystemMigrationServiceSettingDataComponent
+              href: msvm-virtualsystemmigrationservicesettingdatacomponent.md
+            - name: Msvm_VirtualSystemMigrationSettingData
+              href: msvm-virtualsystemmigrationsettingdata.md
+    - name: Виртуальный Fibre Channel API Hyper-V
+      href: hyper-v-virtual-fiber-channels-api.md
+      items:
+        - name: Справочник по API виртуальных Fibre Channel Hyper-V
+          href: hyper-v-virtual-fiber-channels-api-reference.md
+          items:
+            - name: Msvm_ExternalFcPort
+              href: msvm-externalfcport.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-externalfcport-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-externalfcport-reset.md
+            - name: Msvm_FcActiveConnection
+              href: msvm-fcactiveconnection.md
+            - name: Msvm_FcDeviceSAPImplementation
+              href: msvm-fcdevicesapimplementation.md
+            - name: Msvm_FcEndpoint
+              href: msvm-fcendpoint.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-fcendpoint-requeststatechange.md
+            - name: Msvm_FcPortAllocationSettingData
+              href: msvm-fcportallocationsettingdata.md
+            - name: Msvm_FcSwitchPort
+              href: msvm-fcswitchport.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-fcswitchport-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-fcswitchport-reset.md
+            - name: Msvm_SyntheticFcPort
+              href: msvm-syntheticfcport.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-syntheticfcport-requeststatechange.md
+                - name: Reset - метод
+                  href: msvm-syntheticfcport-reset.md
+            - name: Msvm_SyntheticFcPortSettingData
+              href: msvm-syntheticfcportsettingdata.md
+            - name: Msvm_VirtualFcSwitch
+              href: msvm-virtualfcswitch.md
+              items:
+                - name: 'RequestStateChange, метод'
+                  href: msvm-virtualfcswitch-requeststatechange.md
+            - name: Msvm_VirtualFcSwitchSettingData
+              href: msvm-virtualfcswitchsettingdata.md
+    - name: API размещения виртуальных машин Hyper-V
+      href: hyper-v-vm-placement-api.md
+      items:
+        - name: Msvm_CompatibilityVector
+          href: msvm-compatibilityvector.md
+    - name: Классы пороговых значений
+      href: threshold-classes.md
+      items:
+        - name: Msvm_CollectedCollections
+          href: msvm-collectedcollections.md
+        - name: Msvm_CollectedReferencePoints
+          href: msvm-collectedreferencepoints.md
+        - name: Msvm_CollectedSnapshots
+          href: msvm-collectedsnapshots.md
+        - name: Msvm_CollectedVirtualSystems
+          href: msvm-collectedvirtualsystems.md
+        - name: Msvm_CollectionManagementService
+          href: msvm-collectionmanagementservice.md
+          items:
+            - name: Метод Дефинеколлектион
+              href: msvm-collectionmanagementservice-definecollection.md
+            - name: Метод Дестройколлектион
+              href: msvm-collectionmanagementservice-destroycollection.md
+            - name: Метод Ренамеколлектион
+              href: msvm-collectionmanagementservice-renamecollection.md
+            - name: Метод Аддмембер
+              href: msvm-collectionmanagementservice-addmember.md
+            - name: Метод Ремовемембер
+              href: msvm-collectionmanagementservice-removemember.md
+            - name: Метод Ремовемембербид
+              href: msvm-collectionmanagementservice-removememberbyid.md
+            - name: 'StartService, метод'
+              href: msvm-collectionmanagementservice-startservice.md
+            - name: 'StopService, метод'
+              href: msvm-collectionmanagementservice-stopservice.md
+        - name: Msvm_CollectionReferencePointExportSettingData
+          href: msvm-collectionreferencepointexportsettingdata.md
+        - name: Msvm_CollectionReferencePointService
+          href: msvm-collectionreferencepointservice.md
+          items:
+            - name: Метод Креатереференцепоинт
+              href: msvm-collectionreferencepointservice-createreferencepoint.md
+            - name: Метод Дестройреференцепоинт
+              href: msvm-collectionreferencepointservice-destroyreferencepoint.md
+            - name: Метод РемовеассоЦиатеддата
+              href: msvm-collectionreferencepointservice-removeassociateddata.md
+            - name: Метод Експортреференцепоинт
+              href: msvm-collectionreferencepointservice-exportreferencepoint.md
+        - name: Msvm_CollectionReferencePointSettingData
+          href: msvm-collectionreferencepointsettingdata.md
+        - name: Msvm_CollectionSettingData
+          href: msvm-collectionsettingdata.md
+        - name: Msvm_CollectionSnapshotExportSettingData
+          href: msvm-collectionsnapshotexportsettingdata.md
+        - name: Msvm_CollectionSnapshotService
+          href: msvm-collectionsnapshotservice.md
+          items:
+            - name: Метод CreateSnapshot
+              href: msvm-collectionsnapshotservice-createsnapshot.md
+            - name: Метод Дестройснапшот
+              href: msvm-collectionsnapshotservice-destroysnapshot.md
+            - name: Метод Експортснапшот
+              href: msvm-collectionsnapshotservice-exportsnapshot.md
+            - name: Метод Конверттореференцепоинт
+              href: msvm-collectionsnapshotservice-converttoreferencepoint.md
+            - name: Метод Апплиснапшот
+              href: msvm-collectionsnapshotservice-applysnapshot.md
+        - name: Msvm_ComputerSystemSummaryInformation
+          href: msvm-computersystemsummaryinformation.md
+        - name: Msvm_ElementConformsToProfile
+          href: msvm-elementconformstoprofile.md
+        - name: Msvm_EthernetSwitchPortExtendedAclSettingData
+          href: msvm-ethernetswitchportextendedaclsettingdata.md
+        - name: Msvm_EthernetSwitchPortIsolationSettingData
+          href: msvm-ethernetswitchportisolationsettingdata.md
+        - name: Msvm_EthernetSwitchPortRoutingDomainSettingData
+          href: msvm-ethernetswitchportroutingdomainsettingdata.md
+        - name: Msvm_EthernetSwitchPortVfpSettingData
+          href: msvm-ethernetswitchportvfpsettingdata.md
+        - name: Msvm_GuestClusterInformation
+          href: msvm-guestclusterinformation.md
+        - name: Msvm_GuestCommunicationService
+          href: msvm-guestcommunicationservice.md
+        - name: Msvm_GuestCommunicationServiceSettingData
+          href: msvm-guestcommunicationservicesettingdata.md
+        - name: Msvm_GuestServiceInterfaceSettingDataComponent
+          href: msvm-guestserviceinterfacesettingdatacomponent.md
+        - name: Msvm_ManagementCollection
+          href: msvm-managementcollection.md
+        - name: Msvm_MoveUnmanagedVhd
+          href: msvm-moveunmanagedvhd.md
+        - name: Msvm_ReferencePointCollection
+          href: msvm-referencepointcollection.md
+        - name: Msvm_ReferencePointOfVirtualSystem
+          href: msvm-referencepointofvirtualsystem.md
+        - name: Msvm_ReferencePointOfVirtualSystemCollection
+          href: msvm-referencepointofvirtualsystemcollection.md
+        - name: Msvm_ResourceDependentOnResource
+          href: msvm-resourcedependentonresource.md
+        - name: Msvm_SerialPortSettingData
+          href: msvm-serialportsettingdata.md
+        - name: Msvm_ServiceOfVssComponent
+          href: msvm-serviceofvsscomponent.md
+        - name: Msvm_SnapshotCollection
+          href: msvm-snapshotcollection.md
+        - name: Msvm_SnapshotOfVirtualSystemCollection
+          href: msvm-snapshotofvirtualsystemcollection.md
+        - name: Msvm_StandaloneV2ElementConformsToProfile
+          href: msvm-standalonev2elementconformstoprofile.md
+        - name: Msvm_SyntheticDisplayControllerSettingData
+          href: msvm-syntheticdisplaycontrollersettingdata.md
+        - name: Msvm_SyntheticKeyboard
+          href: msvm-synthetickeyboard.md
+          items:
+            - name: 'RequestStateChange, метод'
+              href: msvm-synthetickeyboard-requeststatechange.md
+            - name: Reset - метод
+              href: msvm-synthetickeyboard-reset.md
+        - name: Msvm_TPM
+          href: msvm-tpm.md
+        - name: Msvm_TPMSettingData
+          href: msvm-tpmsettingdata.md
+        - name: Msvm_VHDSetInformation
+          href: msvm-vhdsetinformation.md
+        - name: Msvm_VHDSnapshotInformation
+          href: msvm-vhdsnapshotinformation.md
+        - name: Msvm_VirtualEthernetSwitchNicTeamingMember
+          href: msvm-virtualethernetswitchnicteamingmember.md
+        - name: Msvm_VirtualEthernetSwitchNicTeamingSettingData
+          href: msvm-virtualethernetswitchnicteamingsettingdata.md
+        - name: Msvm_VirtualMachineToDisks
+          href: msvm-virtualmachinetodisks.md
+        - name: Msvm_VirtualSystemCollection
+          href: msvm-virtualsystemcollection.md
+        - name: Msvm_VirtualSystemReferencePoint
+          href: msvm-virtualsystemreferencepoint.md
+        - name: Msvm_VirtualSystemReferencePointExportSettingData
+          href: msvm-virtualsystemreferencepointexportsettingdata.md
+        - name: Msvm_VirtualSystemReferencePointService
+          href: msvm-virtualsystemreferencepointservice.md
+          items:
+            - name: Метод Креатереференцепоинт
+              href: msvm-virtualsystemreferencepointservice-createreferencepoint.md
+            - name: Метод Експортреференцепоинт
+              href: msvm-virtualsystemreferencepointservice-exportreferencepoint.md
+            - name: Метод Дестройреференцепоинт
+              href: msvm-virtualsystemreferencepointservice-destroyreferencepoint.md
+            - name: Метод РемовеассоЦиатеддата
+              href: msvm-virtualsystemreferencepointservice-removeassociateddata.md
+            - name: Метод Импортреференцепоинтметадата
+              href: msvm-virtualsystemreferencepointservice-importreferencepointmetadata.md
+        - name: Msvm_VirtualSystemReferencePointSettingData
+          href: msvm-virtualsystemreferencepointsettingdata.md
+        - name: Msvm_VirtualSystemSnapshotSettingData
+          href: msvm-virtualsystemsnapshotsettingdata.md
+        - name: Msvm_VssService
+          href: msvm-vssservice.md
+          items:
+            - name: Метод Куеригуестклустеринформатион
+              href: msvm-vssservice-queryguestclusterinformation.md
+    - name: Классы RS2
+      href: redstone-classes.md
+      items:
+        - name: Msvm_AssignableDeviceDismountSettingData
+          href: msvm-assignabledevicedismountsettingdata.md
+        - name: Msvm_AssignableDeviceService
+          href: msvm-assignabledeviceservice.md
+          items:
+            - name: Метод Дисмаунтассигнабледевице
+              href: msvm-assignabledeviceservice-dismountassignabledevice.md
+            - name: Метод Маунтассигнабледевице
+              href: msvm-assignabledeviceservice-mountassignabledevice.md
+        - name: Msvm_CollectionReferencePointExportJob
+          href: msvm-collectionreferencepointexportjob.md
+          items:
+            - name: 'RequestStateChange, метод'
+              href: msvm-collectionreferencepointexportjob-requeststatechange.md
+            - name: Метод метода с ошибками
+              href: msvm-collectionreferencepointexportjob-geterror.md
+            - name: Метод Жетеррорекс
+              href: msvm-collectionreferencepointexportjob-geterrorex.md
+        - name: Msvm_EthernetSwitchHardwareOffloadSettingData
+          href: msvm-ethernetswitchhardwareoffloadsettingdata.md
+        - name: Msvm_EthernetSwitchPortMigrationQosSettingData
+          href: msvm-ethernetswitchportmigrationqossettingdata.md
+        - name: Msvm_EthernetSwitchPortRdmaSettingData
+          href: msvm-ethernetswitchportrdmasettingdata.md
+        - name: Msvm_EthernetSwitchPortTeamMappingSettingData
+          href: msvm-ethernetswitchportteammappingsettingdata.md
+        - name: Msvm_GpuPartition
+          href: msvm-gpupartition.md
+        - name: Msvm_GpuPartitionSettingData
+          href: msvm-gpupartitionsettingdata.md
+        - name: Msvm_NetworkConnectionDiagnosticInformation
+          href: msvm-networkconnectiondiagnosticinformation.md
+        - name: Msvm_NetworkConnectionDiagnosticSettingData
+          href: msvm-networkconnectiondiagnosticsettingdata.md
+        - name: Msvm_PartitionableGpu
+          href: msvm-partitionablegpu.md
+        - name: Msvm_PciExpress
+          href: msvm-pciexpress.md
+        - name: Msvm_PciExpressSettingData
+          href: msvm-pciexpresssettingdata.md
+        - name: Msvm_SecurityElement
+          href: msvm-securityelement.md
+        - name: Msvm_SecurityService
+          href: msvm-securityservice.md
+          items:
+            - name: Метод Модифисекуритисеттингс
+              href: msvm-securityservice-modifysecuritysettings.md
+            - name: Метод Сетсекуритиполици
+              href: msvm-securityservice-setsecuritypolicy.md
+            - name: Метод Сеткэйпротектор
+              href: msvm-securityservice-setkeyprotector.md
+            - name: Метод Жеткэйпротектор
+              href: msvm-securityservice-getkeyprotector.md
+            - name: Метод Рестореласткновнгудкэйпротектор
+              href: msvm-securityservice-restorelastknowngoodkeyprotector.md
+            - name: 'StartService, метод'
+              href: msvm-securityservice-startservice.md
+            - name: 'StopService, метод'
+              href: msvm-securityservice-stopservice.md
+        - name: Msvm_SecuritySettingData
+          href: msvm-securitysettingdata.md
+        - name: Msvm_StorageSettingData
+          href: msvm-storagesettingdata.md
+        - name: Msvm_SummaryInformationBase
+          href: msvm-summaryinformationbase.md
+        - name: Msvm_SystemComponentSettingData
+          href: msvm-systemcomponentsettingdata.md
+        - name: Msvm_VirtualSystemReferencePointExportJob
+          href: msvm-virtualsystemreferencepointexportjob.md
+          items:
+            - name: 'RequestStateChange, метод'
+              href: msvm-virtualsystemreferencepointexportjob-requeststatechange.md
+            - name: Метод метода с ошибками
+              href: msvm-virtualsystemreferencepointexportjob-geterror.md
+            - name: Метод Жетеррорекс
+              href: msvm-virtualsystemreferencepointexportjob-geterrorex.md
+    - name: Классы RS3
+      href: rs3-classes.md
+      items:
+        - name: Msvm_Battery
+          href: msvm-battery.md
+        - name: Msvm_BatterySettingData
+          href: msvm-batterysettingdata.md
+        - name: Msvm_PersistentMemoryController
+          href: msvm-persistentmemorycontroller.md
+    - name: Глоссарий Hyper-V
+      href: virtualization-glossary.md

@@ -1,0 +1,227 @@
+- name: Bluetooth
+  href: bluetooth-start-page.md
+  items:
+    - name: Об Bluetooth
+      href: about-bluetooth.md
+      items:
+        - name: Поддержка сокетов Windows для Bluetooth
+          href: windows-sockets-support-for-bluetooth.md
+          items:
+            - name: Обнаружение устройств и служб Bluetooth
+              href: discovering-bluetooth-devices-and-services.md
+        - name: Управление устройствами и службами Bluetooth
+          href: managing-bluetooth-devices-and-services.md
+          items:
+            - name: Выбор устройства Bluetooth
+              href: selecting-a-bluetooth-device.md
+            - name: Сообщения Bluetooth и WM_DEVICECHANGE
+              href: bluetooth-and-wm-devicechange-messages.md
+    - name: Использование Bluetooth
+      href: using-bluetooth.md
+      items:
+        - name: Программирование Bluetooth с помощью сокетов Windows
+          href: bluetooth-programming-with-windows-sockets.md
+          items:
+            - name: Bluetooth и Accept
+              href: bluetooth-and-accept.md
+            - name: Bluetooth и привязка
+              href: bluetooth-and-bind.md
+            - name: Bluetooth и большой двоичный объект
+              href: bluetooth-and-blob.md
+            - name: Bluetooth и подключение
+              href: bluetooth-and-connect.md
+            - name: Bluetooth и функцию getaddrinfo
+              href: bluetooth-and-getaddrinfo.md
+            - name: Bluetooth и жетпирнаме
+              href: bluetooth-and-getpeername.md
+            - name: Bluetooth и жетсоккнаме
+              href: bluetooth-and-getsockname.md
+            - name: Bluetooth и жетсоккопт
+              href: bluetooth-and-getsockopt.md
+            - name: 'Bluetooth и прослушивание, выбор и функции closesocket'
+              href: bluetooth-and-listen-select-and-closesocket.md
+            - name: 'Bluetooth, операции чтения или записи'
+              href: bluetooth-and-read-or-write-operations.md
+            - name: Bluetooth и сетсоккопт
+              href: bluetooth-and-setsockopt.md
+            - name: Bluetooth и завершение работы
+              href: bluetooth-and-shutdown.md
+            - name: Bluetooth и сокет
+              href: bluetooth-and-socket.md
+            - name: Параметры Bluetooth и сокета
+              href: bluetooth-and-socket-options.md
+            - name: Bluetooth и Всааддресстостринг
+              href: bluetooth-and-wsaaddresstostring.md
+            - name: Bluetooth и Всалукупсервицебегин
+              href: bluetooth-and-wsalookupservicebegin.md
+              items:
+                - name: Bluetooth и Всалукупсервицебегин для запроса устройства
+                  href: bluetooth-and-wsalookupservicebegin-for-device-inquiry.md
+                - name: Bluetooth и Всалукупсервицебегин для обнаружения служб
+                  href: bluetooth-and-wsalookupservicebegin-for-service-discovery.md
+            - name: Bluetooth и Всалукупсервицеенд
+              href: bluetooth-and-wsalookupserviceend.md
+            - name: Bluetooth и Всалукупсервиценекст
+              href: bluetooth-and-wsalookupservicenext.md
+            - name: Bluetooth и ВСАКУЕРИСЕТ
+              href: bluetooth-and-wsaqueryset.md
+              items:
+                - name: Bluetooth и ВСАКУЕРИСЕТ для запроса устройства
+                  href: bluetooth-and-wsaqueryset-for-device-inquiry.md
+                - name: Bluetooth и ВСАКУЕРИСЕТ для запроса на обслуживание
+                  href: bluetooth-and-wsaqueryset-for-service-inquiry.md
+                - name: Bluetooth и ВСАКУЕРИСЕТ для Set Service
+                  href: bluetooth-and-wsaqueryset-for-set-service.md
+            - name: Bluetooth и Всасетсервице
+              href: bluetooth-and-wsasetservice.md
+    - name: Справочник по Bluetooth
+      href: bluetooth-reference.md
+      items:
+        - name: Обратные вызовы Bluetooth
+          href: bluetooth-callbacks.md
+          items:
+            - name: PFN_AUTHENTICATION_CALLBACK
+              href: /windows/desktop/api/BluetoothAPIs/nc-bluetoothapis-pfn_authentication_callback
+            - name: PFN_AUTHENTICATION_CALLBACK_EX
+              href: /windows/desktop/api/BluetoothAPIs/nc-bluetoothapis-pfn_authentication_callback_ex
+            - name: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
+              href: /windows/desktop/api/BluetoothAPIs/nc-bluetoothapis-pfn_bluetooth_enum_attributes_callback
+            - name: PFN_DEVICE_CALLBACK
+              href: /windows/desktop/api/BluetoothAPIs/nc-bluetoothapis-pfn_device_callback
+        - name: Перечисления Bluetooth
+          href: bluetooth-enumerations.md
+          items:
+            - name: BLUETOOTH_AUTHENTICATION_METHOD
+              href: /windows/win32/api/BluetoothAPIs/ne-bluetoothapis-bluetooth_authentication_method
+            - name: _AUTHENTICATION_REQUIREMENTS
+              href: /windows/win32/api/BluetoothAPIs/ne-bluetoothapis-bluetooth_authentication_requirements
+            - name: BLUETOOTH_IO_CAPABILITY
+              href: /windows/win32/api/BluetoothAPIs/ne-bluetoothapis-bluetooth_io_capability
+        - name: Функции Bluetooth
+          href: bluetooth-functions.md
+          items:
+            - name: блуетусаусентикатедевице
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice
+            - name: блуетусаусентикатедевицеекс
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedeviceex
+            - name: блуетусаусентикатемултипледевицес
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatemultipledevices
+            - name: блуетусдисплайдевицепропертиес
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothdisplaydeviceproperties
+            - name: блуетусенабледисковери
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothenablediscovery
+            - name: блуетусенаблеинкомингконнектионс
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothenableincomingconnections
+            - name: блуетусенумератеинсталледсервицес
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothenumerateinstalledservices
+            - name: блуетусфинддевицеклосе
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfinddeviceclose
+            - name: блуетусфиндфирстдевице
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindfirstdevice
+            - name: блуетусфиндфирстрадио
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindfirstradio
+            - name: блуетусфинднекстдевице
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindnextdevice
+            - name: блуетусфинднекстрадио
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindnextradio
+            - name: блуетусфиндрадиоклосе
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindradioclose
+            - name: блуетусжетдевицеинфо
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothgetdeviceinfo
+            - name: блуетусжетрадиоинфо
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothgetradioinfo
+            - name: блуетусисконнектабле
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothisconnectable
+            - name: блуетусисдисковерабле
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothisdiscoverable
+            - name: блуетусисверсионаваилабле
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothisversionavailable
+            - name: блуетусрегистерфораусентикатион
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothregisterforauthentication
+            - name: блуетусрегистерфораусентикатионекс
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothregisterforauthenticationex
+            - name: блуетусремоведевице
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothremovedevice
+            - name: блуетуссдпенуматтрибутес
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsdpenumattributes
+            - name: блуетуссдпжетаттрибутевалуе
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsdpgetattributevalue
+            - name: блуетуссдпжетконтаинерелементдата
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsdpgetcontainerelementdata
+            - name: блуетуссдпжетелементдата
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsdpgetelementdata
+            - name: блуетуссдпжетстринг
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsdpgetstring
+            - name: блуетусселектдевицес
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothselectdevices
+            - name: блуетусселектдевицесфри
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothselectdevicesfree
+            - name: блуетуссендаусентикатионреспонсе
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsendauthenticationresponse
+            - name: блуетуссендаусентикатионреспонсикс
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsendauthenticationresponseex
+            - name: блуетуссетлокалсервицеинфо
+              href: /previous-versions/windows/desktop/legacy/bb870603(v=vs.85)
+            - name: блуетуссетсервицестате
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsetservicestate
+            - name: блуетусунрегистераусентикатион
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothunregisterauthentication
+            - name: блуетусупдатедевицерекорд
+              href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothupdatedevicerecord
+        - name: Структуры Bluetooth
+          href: bluetooth-structures.md
+          items:
+            - name: BLUETOOTH_ADDRESS
+              href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_address_struct
+            - name: BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_authentication_callback_params
+            - name: BLUETOOTH_AUTHENTICATE_RESPONSE
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_authenticate_response
+            - name: BLUETOOTH_COD_PAIRS
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_cod_pairs
+            - name: BLUETOOTH_DEVICE_INFO
+              href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_device_info_struct
+            - name: BLUETOOTH_DEVICE_SEARCH_PARAMS
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_device_search_params
+            - name: BLUETOOTH_FIND_RADIO_PARAMS
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_find_radio_params
+            - name: BLUETOOTH_LOCAL_SERVICE_INFO
+              href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_local_service_info_struct
+            - name: BLUETOOTH_NUMERIC_COMPARISON_INFO
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_numeric_comparison_info
+            - name: BLUETOOTH_OOB_DATA_INFO
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_oob_data_info
+            - name: BLUETOOTH_PASSKEY_INFO
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_passkey_info
+            - name: BLUETOOTH_PIN_INFO
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_pin_info
+            - name: BLUETOOTH_RADIO_INFO
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_radio_info
+            - name: BLUETOOTH_SELECT_DEVICE_PARAMS
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_select_device_params
+            - name: BTH_DEVICE_INFO
+              href: /windows/win32/api/Bthdef/ns-bthdef-bth_device_info
+            - name: BTH_HCI_EVENT_INFO
+              href: /windows/win32/api/Bthdef/ns-bthdef-bth_hci_event_info
+            - name: BTH_L2CAP_EVENT_INFO
+              href: /windows/win32/api/Bthdef/ns-bthdef-bth_l2cap_event_info
+            - name: BTH_QUERY_DEVICE
+              href: /windows/win32/api/Ws2bth/ns-ws2bth-bth_query_device
+            - name: BTH_QUERY_SERVICE
+              href: /windows/win32/api/Ws2bth/ns-ws2bth-bth_query_service
+            - name: BTH_RADIO_IN_RANGE
+              href: /windows/win32/api/Bthdef/ns-bthdef-bth_radio_in_range
+            - name: BTH_SET_SERVICE
+              href: /windows/win32/api/Ws2bth/ns-ws2bth-bth_set_service
+            - name: SDP_ELEMENT_DATA
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-sdp_element_data
+            - name: SDP_STRING_TYPE_DATA
+              href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-sdp_string_type_data
+            - name: сдпаттрибутеранже
+              href: /windows/win32/api/Bthsdpdef/ns-bthsdpdef-sdpattributerange
+            - name: сдпкуерюуид
+              href: /windows/win32/api/Bthsdpdef/ns-bthsdpdef-sdpqueryuuid
+            - name: сдпкуерюуидунион
+              href: /windows/desktop/api/Bthsdpdef/ns-bthsdpdef-sdpqueryuuidunion
+            - name: SOCKADDR_BTH
+              href: /windows/win32/api/Ws2bth/ns-ws2bth-sockaddr_bth

@@ -1,0 +1,49 @@
+---
+title: О копировании компакт-дисков
+description: О копировании компакт-дисков
+ms.assetid: 1a179284-2909-4fc0-82be-996794ee4f31
+keywords:
+- Проигрыватель Windows Media, копирование компакт-дисков
+- Объектная модель проигрывателя Windows Media, копирование компакт-дисков
+- Объектная модель, копирование компакт-дисков
+- Элемент управления ActiveX проигрывателя Windows Media, копирование компакт-дисков
+- Элемент управления ActiveX, копирование компакт-дисков
+- Мобильный элемент управления ActiveX проигрывателя Windows Media, копирование компакт-дисков
+- Проигрыватель Windows Media Mobile, копирование компакт-дисков
+- Копирование компакт-дисков, сведения
+- Копирование компакт-дисков, о программе
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e28769c6af666e510fb97ebc98e44fadc7c3e472
+ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "105691454"
+---
+# <a name="about-cd-ripping"></a><span data-ttu-id="39c61-112">О копировании компакт-дисков</span><span class="sxs-lookup"><span data-stu-id="39c61-112">About CD Ripping</span></span>
+
+<span data-ttu-id="39c61-113">В пакете SDK для проигрывателя Windows Media 11 появились новые возможности копирования звуковых дорожек с компакт-дисков на компьютер пользователя.</span><span class="sxs-lookup"><span data-stu-id="39c61-113">The Windows Media Player 11 SDK introduces new functionality for copying audio tracks from CDs to the user's computer.</span></span> <span data-ttu-id="39c61-114">Этот процесс называется *копированием*.</span><span class="sxs-lookup"><span data-stu-id="39c61-114">This process is called *ripping*.</span></span>
+
+<span data-ttu-id="39c61-115">При копировании звуковых дорожек с помощью интерфейсов SDK проигрывателя Windows Media полученные музыкальные дорожки создаются с использованием параметров, определенных пользователем в диалоговом окне **Параметры** проигрывателя Windows Media.</span><span class="sxs-lookup"><span data-stu-id="39c61-115">When you rip audio tracks by using the Windows Media Player SDK interfaces, the resulting music tracks are created by using the settings that the user defined in the Windows Media Player **Options** dialog box.</span></span>
+
+<span data-ttu-id="39c61-116">Чтобы перечислить дисководы компакт-дисков на компьютере пользователя, используйте интерфейс **ивмпкдромколлектион** .</span><span class="sxs-lookup"><span data-stu-id="39c61-116">To enumerate the CD drives on the user's computer, use the **IWMPCdromCollection** interface.</span></span> <span data-ttu-id="39c61-117">Чтобы получить указатель на этот интерфейс, вызовите [ивмпкоре:: Get \_ кдромколлектион](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection).</span><span class="sxs-lookup"><span data-stu-id="39c61-117">You retrieve a pointer to this interface by calling [IWMPCore::get\_cdromCollection](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection).</span></span> <span data-ttu-id="39c61-118">С помощью методов **Count** и **Item** можно выполнить итерацию коллекции, чтобы получить указатель интерфейса **ивмпкдром** для каждого компакт-дисковода на компьютере пользователя.</span><span class="sxs-lookup"><span data-stu-id="39c61-118">By using the **count** and **item** methods, you can iterate the collection to retrieve an **IWMPCdrom** interface pointer for each CD drive on the user's computer.</span></span> <span data-ttu-id="39c61-119">Интерфейс **ивмпкдром** представляет отдельный компакт-диск.</span><span class="sxs-lookup"><span data-stu-id="39c61-119">The **IWMPCdrom** interface represents an individual CD drive.</span></span> <span data-ttu-id="39c61-120">Перед началом копирования компакт-диска необходимо сначала вызвать **QueryInterface** через указатель **ивмпкдром** , чтобы получить указатель на интерфейс **ивмпкдромрип** .</span><span class="sxs-lookup"><span data-stu-id="39c61-120">Before you begin ripping a CD, you must first call **QueryInterface** through an **IWMPCdrom** pointer to retrieve a pointer to the **IWMPCdromRip** interface.</span></span>
+
+<span data-ttu-id="39c61-121">Чтобы начать операцию копирования, просто вызовите [ивмпкдромрип:: стартрип](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-startrip).</span><span class="sxs-lookup"><span data-stu-id="39c61-121">To start the ripping operation, simply call [IWMPCdromRip::startRip](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-startrip).</span></span> <span data-ttu-id="39c61-122">Ход выполнения операции копирования можно отслеживать, периодически вызывая [ивмпкдромрип:: Get \_ риппрогресс](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-get_ripprogress).</span><span class="sxs-lookup"><span data-stu-id="39c61-122">You can monitor the progress of the ripping operation by periodically calling [IWMPCdromRip::get\_ripProgress](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-get_ripprogress).</span></span> <span data-ttu-id="39c61-123">Этот метод получает значение хода выполнения для всей операции копирования.</span><span class="sxs-lookup"><span data-stu-id="39c61-123">This method retrieves a progress value for the entire ripping operation.</span></span> <span data-ttu-id="39c61-124">Полученное значение является числом, представляющим процент завершения копирования.</span><span class="sxs-lookup"><span data-stu-id="39c61-124">The value retrieved is a number that represents the percentage of ripping completed.</span></span> <span data-ttu-id="39c61-125">Состояние операции копирования можно отслеживать, периодически вызывая [ивмпкдромрип:: Get \_ рипстате](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-get_ripstate).</span><span class="sxs-lookup"><span data-stu-id="39c61-125">You can monitor the state of the ripping operation by periodically calling [IWMPCdromRip::get\_ripState](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-get_ripstate).</span></span> <span data-ttu-id="39c61-126">Этот метод получает значение перечисления [вмприпстате](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpripstate) , указывающее, выполняется ли операция или она остановлена.</span><span class="sxs-lookup"><span data-stu-id="39c61-126">This method retrieves a [WMPRipState](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpripstate) enumeration value that indicates whether the operation is in progress or stopped.</span></span> <span data-ttu-id="39c61-127">Можно также отслеживать состояние операции копирования, обрабатывая событие [IWMPEvents3:: кдромрипстатечанже](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromripstatechange) .</span><span class="sxs-lookup"><span data-stu-id="39c61-127">You can also monitor the state of the ripping operation by handling the [IWMPEvents3::CdromRipStateChange](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromripstatechange) event.</span></span> <span data-ttu-id="39c61-128">Необходимо внимательно сравнить указатель **ивмпкдромрип** (предоставленный событием) с указателем, который представляет операцию копирования, чтобы убедиться, что событие было вызвано операцией.</span><span class="sxs-lookup"><span data-stu-id="39c61-128">You should be careful to compare the **IWMPCdromRip** pointer (provided by the event) to the pointer that represents your ripping operation to ensure that the event was raised by your operation.</span></span> <span data-ttu-id="39c61-129">Можно прерывать операцию копирования путем вызова [ивмпкдромрип:: стоприп](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-stoprip).</span><span class="sxs-lookup"><span data-stu-id="39c61-129">You can stop the ripping operation by calling [IWMPCdromRip::stopRip](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-stoprip).</span></span>
+
+<span data-ttu-id="39c61-130">Чтобы получать уведомления об ошибках операции копирования, можно выполнить обработку события [IWMPEvents3:: кдромрипмедиаеррор](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromripmediaerror) .</span><span class="sxs-lookup"><span data-stu-id="39c61-130">To receive error notifications about a ripping operation, you can handle the [IWMPEvents3::CdromRipMediaError](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromripmediaerror) event.</span></span> <span data-ttu-id="39c61-131">Как и **кдромрипстатечанже**, это событие предоставляет указатель интерфейса **ивмпкдромрип** , представляющий операцию копирования, вызвавшую событие.</span><span class="sxs-lookup"><span data-stu-id="39c61-131">Like **CdromRipStateChange**, this event provides an **IWMPCdromRip** interface pointer that represents the ripping operation that raised the event.</span></span> <span data-ttu-id="39c61-132">Событие также предоставляет указатель **IDispatch** , представляющий элемент мультимедиа, вызвавший событие.</span><span class="sxs-lookup"><span data-stu-id="39c61-132">The event also provides an **IDispatch** pointer that represents the media item that raised the event.</span></span> <span data-ttu-id="39c61-133">С помощью этого указателя можно вызвать метод **QueryInterface** , чтобы получить указатель **ивмпмедиа** .</span><span class="sxs-lookup"><span data-stu-id="39c61-133">You can call **QueryInterface** through this pointer to retrieve an **IWMPMedia** pointer.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="39c61-134">См. также</span><span class="sxs-lookup"><span data-stu-id="39c61-134">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="39c61-135">**Сведения об объектной модели проигрывателя**</span><span class="sxs-lookup"><span data-stu-id="39c61-135">**About the Player Object Model**</span></span>](about-the-player-object-model.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

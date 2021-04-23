@@ -1,0 +1,2077 @@
+- name: Авторизация
+  href: authorization-portal.md
+  items:
+    - name: Об авторизации
+      href: about-authorization.md
+      items:
+        - name: Управление доступом
+          href: access-control.md
+          items:
+            - name: Безопасность на уровне C2
+              href: c2-level-security.md
+            - name: Модель контроля доступа
+              href: access-control-model.md
+              items:
+                - name: Части модели управления доступом
+                  href: access-control-components.md
+                  items:
+                    - name: Маркеры доступа
+                      href: access-tokens.md
+                      items:
+                        - name: Ограниченные токены
+                          href: restricted-tokens.md
+                        - name: Атрибуты SID в маркере доступа
+                          href: sid-attributes-in-an-access-token.md
+                        - name: Права доступа для объектов Access-Token
+                          href: access-rights-for-access-token-objects.md
+                    - name: Дескрипторы безопасности
+                      href: security-descriptors.md
+                      items:
+                        - name: Операции с дескрипторами безопасности
+                          href: security-descriptor-operations.md
+                        - name: Дескрипторы безопасности для новых объектов
+                          href: security-descriptors-for-new-objects.md
+                          items:
+                            - name: DACL для нового объекта
+                              href: dacl-for-a-new-object.md
+                            - name: Список SACL для нового объекта
+                              href: sacl-for-a-new-object.md
+                            - name: Владелец нового объекта
+                              href: owner-of-a-new-object.md
+                            - name: Основная группа нового объекта
+                              href: primary-group-of-a-new-object.md
+                        - name: Строки дескрипторов безопасности
+                          href: security-descriptor-strings.md
+                    - name: Списки управления доступом
+                      href: access-control-lists.md
+                      items:
+                        - name: Получение сведений из ACL
+                          href: getting-information-from-an-acl.md
+                        - name: Создание или изменение списка управления доступом
+                          href: creating-or-modifying-an-acl.md
+                    - name: Записи контроля доступа
+                      href: access-control-entries.md
+                      items:
+                        - name: Доверенные лица
+                          href: trustees.md
+                        - name: Записи ACE для конкретного объекта
+                          href: object-specific-aces.md
+                        - name: Порядок элементов ACE в списке DACL
+                          href: order-of-aces-in-a-dacl.md
+                        - name: Наследование ACE
+                          href: ace-inheritance.md
+                        - name: Автоматическое распространение наследуемых ACE
+                          href: automatic-propagation-of-inheritable-aces.md
+                        - name: Правила наследования ACE
+                          href: ace-inheritance-rules.md
+                        - name: ACE для управления доступом к свойствам объекта
+                          href: aces-to-control-access-to-an-object-s-properties.md
+                    - name: Права доступа и маски доступа
+                      href: access-rights-and-access-masks.md
+                      items:
+                        - name: Формат маски доступа
+                          href: access-mask-format.md
+                        - name: Универсальные права доступа
+                          href: generic-access-rights.md
+                        - name: Стандартные права доступа
+                          href: standard-access-rights.md
+                        - name: Право доступа к SACL
+                          href: sacl-access-right.md
+                        - name: Права доступа к службам каталогов
+                          href: directory-services-access-rights.md
+                        - name: Запрос прав доступа к объекту
+                          href: requesting-access-rights-to-an-object.md
+                    - name: Централизованная политика авторизации
+                      href: centralized-authorization-policy.md
+                      items:
+                        - name: Централизованные политики авторизации
+                          href: central-authorization-policies.md
+                        - name: Правило централизованной политики авторизации
+                          href: central-authorization-policy-rule.md
+                    - name: Идентификаторы безопасности
+                      href: security-identifiers.md
+                      items:
+                        - name: Компоненты SID
+                          href: sid-components.md
+                        - name: Хорошо известные идентификаторы безопасности
+                          href: well-known-sids.md
+                - name: Как работает AccessCheck
+                  href: how-dacls-control-access-to-an-object.md
+                - name: Взаимодействие между потоками и защищаемыми объектами
+                  href: interaction-between-threads-and-securable-objects.md
+                - name: Списки DACL и ACE
+                  href: dacls-and-aces.md
+                - name: Списки DACL NULL и пустые списки DACL
+                  href: null-dacls-and-empty-dacls.md
+                - name: Разрешение анонимного доступа
+                  href: allowing-anonymous-access.md
+            - name: Язык определения дескрипторов безопасности
+              href: security-descriptor-definition-language.md
+              items:
+                - name: Формат строки дескриптора безопасности
+                  href: security-descriptor-string-format.md
+                - name: Язык определения дескрипторов безопасности для условных записей ACE.
+                  href: security-descriptor-definition-language-for-conditional-aces-.md
+                - name: Строки ACE
+                  href: ace-strings.md
+                - name: Строки идентификатора безопасности
+                  href: sid-strings.md
+            - name: Привилегии
+              href: privileges.md
+            - name: Создание записей аудита
+              href: audit-generation.md
+            - name: Защищаемые объекты
+              href: securable-objects.md
+            - name: Управление доступом низкого уровня
+              href: low-level-access-control.md
+              items:
+                - name: 'Функции дескрипторов безопасности низкого уровня '
+                  href: low-level-security-descriptor-functions.md
+                - name: Создание дескриптора безопасности низкого уровня
+                  href: low-level-security-descriptor-creation.md
+                - name: Абсолютные и Self-Relative дескрипторы безопасности
+                  href: absolute-and-self-relative-security-descriptors.md
+                - name: Низкоуровневые ACL и функции ACE низкого уровня
+                  href: low-level-acl-and-ace-functions.md
+        - name: Редактор управления доступом
+          href: access-control-editor.md
+          items:
+            - name: Страница свойств «базовая безопасность»
+              href: basic-security-property-page.md
+            - name: Страница свойств расширенной безопасности
+              href: advanced-security-property-sheet.md
+            - name: Страница свойств «разрешения»
+              href: permissions-property-page.md
+            - name: Страница свойств «аудит»
+              href: auditing-property-page.md
+            - name: Страница свойств Owner
+              href: owner-property-page.md
+        - name: Управление доступом клиента/сервера
+          href: client-server-access-control.md
+          items:
+            - name: Контекст Client Security
+              href: the-client-security-context.md
+            - name: Олицетворение клиента
+              href: client-impersonation.md
+              items:
+                - name: Уровни олицетворения
+                  href: impersonation-levels.md
+                - name: Токены олицетворения
+                  href: impersonation-tokens.md
+            - name: Сеансы входа клиента
+              href: client-logon-sessions.md
+            - name: Процессы в контексте Client Security
+              href: processes-in-the-client-security-context.md
+            - name: Клиентский доступ к сетевым ресурсам
+              href: client-access-to-network-resources.md
+            - name: Управление доступом на основе ACL
+              href: acl-based-access-control.md
+              items:
+                - name: Дескрипторы безопасности для закрытых объектов
+                  href: security-descriptors-for-private-objects.md
+                - name: Проверка доступа к частным объектам
+                  href: checking-access-to-private-objects.md
+                - name: Аудит доступа к частным объектам
+                  href: auditing-access-to-private-objects.md
+        - name: Контроль доступа для ресурсов приложения
+          href: access-control-for-application-resources.md
+          items:
+            - name: Управление доступом на основе ролей
+              href: role-based-access-control.md
+              items:
+                - name: Преимущества авторизации на основе ролей
+                  href: advantages-of-role-based-authorization.md
+                - name: Модель диспетчера авторизации
+                  href: authorization-manager-model.md
+                  items:
+                    - name: 'Хранилища политик, приложения и области'
+                      href: policy-stores--applications--and-scopes.md
+                    - name: Пользователи и группы
+                      href: users-and-groups.md
+                    - name: Операции и задачи
+                      href: operations-and-tasks.md
+                    - name: Роли
+                      href: roles.md
+                    - name: Бизнес-правила
+                      href: business-rules.md
+                    - name: Коллекции
+                      href: collections.md
+        - name: AppContainer для устаревших приложений
+          href: appcontainer-for-legacy-applications-.md
+          items:
+            - name: Изоляция AppContainer
+              href: appcontainer-isolation.md
+            - name: Реализация AppContainer
+              href: implementing-an-appcontainer.md
+        - name: контроль целостности учетных данных
+          href: mandatory-integrity-control.md
+        - name: контроль учетных записей
+          href: user-account-control.md
+          items:
+            - name: 'Разработка приложений, требующих прав администратора'
+              href: developing-applications-that-require-administrator-privilege.md
+              items:
+                - name: Модель брокера администратора
+                  href: administrator-broker-model.md
+                - name: Модель службы операционной системы
+                  href: operating-system-service-model.md
+                - name: Модель задач с повышенными правами
+                  href: elevated-task-model.md
+                - name: Модель COM-объектов администратора
+                  href: administrator-com-object-model.md
+    - name: Использование авторизации в C++
+      href: using-authorization-in-c--.md
+      items:
+        - name: Определение разрешений в C++
+          href: defining-permissions-in-c--.md
+        - name: Проверка клиентского доступа к запрошенному ресурсу в C++
+          href: verifying-client-access-to-a-requested-resource-in-c--.md
+        - name: Делегирование определения разрешений в C++
+          href: delegating-the-defining-of-permissions-in-c--.md
+        - name: Поддержка задач для авторизации в C++
+          href: supporting-tasks-for-authorization-in-c--.md
+          items:
+            - name: Создание хранилища политик авторизации в C++
+              href: creating-an-authorization-policy-store-in-c--.md
+              items:
+                - name: Создание объекта хранилища политики авторизации в C++
+                  href: creating-an-authorization-policy-store-object-in-c--.md
+                - name: Создание объекта приложения на C++
+                  href: creating-an-application-object-in-c--.md
+                - name: Определение операций в C++
+                  href: defining-operations-in-c--.md
+                - name: Группирование операций в задачи на C++
+                  href: grouping-operations-into-tasks-in-c--.md
+                - name: Группирование задач в роли в C++
+                  href: grouping-tasks-into-roles-in-c--.md
+                - name: Определение групп пользователей в C++
+                  href: defining-groups-of-users-in-c--.md
+                - name: Добавление пользователей в группу приложений в C++
+                  href: adding-users-to-an-application-group-in-c--.md
+            - name: Установка контекста клиента с помощью диспетчера авторизации в C++
+              href: establishing-a-client-context-with-authorization-manager-in-c--.md
+            - name: Квалификация доступа с помощью бизнес-логики в C++
+              href: qualifying-access-with-business-logic-in-c--.md
+            - name: Определение разрешений с помощью списков ACL в C++
+              href: defining-permissions-with-acls-in-c--.md
+              items:
+                - name: Изменение списков управления доступом объекта в C++
+                  href: modifying-the-acls-of-an-object-in-c--.md
+                - name: Создание дескриптора безопасности для нового объекта в C++
+                  href: creating-a-security-descriptor-for-a-new-object-in-c--.md
+                - name: Управление созданием дочерних объектов в C++
+                  href: controlling-child-object-creation-in-c--.md
+                - name: Включение и отключение привилегий в C++
+                  href: enabling-and-disabling-privileges-in-c--.md
+            - name: Установка контекста клиента из идентификатора безопасности в C++
+              href: establishing-a-client-context-from-a-sid-in-c--.md
+              items:
+                - name: Поиск идентификатора безопасности в маркере доступа в C++
+                  href: searching-for-a-sid-in-an-access-token-in-c--.md
+                - name: Преобразование двоичного кода безопасности в формат строки в C++
+                  href: converting-a-binary-sid-to-string-format-in-c--.md
+            - name: Проверка клиентского доступа с помощью списков ACL в C++
+              href: verifying-client-access-with-acls-in-c--.md
+            - name: Поиск владельца объекта файла в C++
+              href: finding-the-owner-of-a-file-object-in-c--.md
+            - name: Получение владения объектом в C++
+              href: taking-object-ownership-in-c--.md
+    - name: Использование авторизации в скрипте
+      href: using-authorization-in-script.md
+      items:
+        - name: Определение разрешений в скрипте
+          href: defining-permissions-in-script.md
+        - name: Проверка клиентского доступа к запрошенному ресурсу в скрипте
+          href: verifying-client-access-to-a-requested-resource-in-script.md
+        - name: Делегирование определения разрешений в скрипте
+          href: delegating-the-defining-of-permissions-in-script.md
+        - name: Вспомогательные задачи для авторизации в скрипте
+          href: supporting-tasks-for-authorization-in-script.md
+          items:
+            - name: Создание хранилища политики авторизации в скрипте
+              href: creating-an-authorization-policy-store-in-script.md
+              items:
+                - name: Создание объекта хранилища политики авторизации в скрипте
+                  href: creating-an-authorization-policy-store-object-in-script.md
+                - name: Создание объекта приложения в скрипте
+                  href: creating-an-application-object-in-script.md
+                - name: Определение операций в скрипте
+                  href: defining-operations-in-script.md
+                - name: Группирование операций в задачи в скрипте
+                  href: grouping-operations-into-tasks-in-script.md
+                - name: Группирование задач в роли в скрипте
+                  href: grouping-tasks-into-roles-in-script.md
+                - name: Определение групп пользователей в сценарии
+                  href: defining-groups-of-users-in-script.md
+                - name: Добавление пользователей в группу приложений в скрипте
+                  href: adding-users-to-an-application-group-in-script.md
+            - name: Установка контекста клиента в скрипте
+              href: establishing-a-client-context-in-script.md
+            - name: Уточнение доступа с помощью бизнес-логики в скрипте
+              href: qualifying-access-with-business-logic-in-script.md
+    - name: Использование API-интерфейса authz
+      href: using-authz-api.md
+      items:
+        - name: Инициализация контекста клиента
+          href: initializing-a-client-context.md
+        - name: Запрос контекста клиента
+          href: querying-a-client-context.md
+        - name: Добавление идентификаторов безопасности в контекст клиента
+          href: adding-sids-to-a-client-context.md
+        - name: Проверка доступа с помощью API-интерфейса authz
+          href: checking-access-with-authz-api.md
+        - name: Проверки доступа кэширования
+          href: caching-access-checks.md
+    - name: Справочник по авторизации
+      href: authorization-reference.md
+      items:
+        - name: Константы авторизации
+          href: authorization-constants.md
+          items:
+            - name: Константы прав учетной записи
+              href: account-rights-constants.md
+            - name: Константы SID контейнера приложений
+              href: app-container-sid-constants.md
+            - name: Константы аудита
+              href: auditing-constants.md
+            - name: Константы идентификатора безопасности возможностей
+              href: capability-sid-constants.md
+            - name: Константы прав доступа
+              href: privilege-constants.md
+        - name: Типы данных авторизации
+          href: authorization-data-types.md
+          items:
+            - name: ACCESS_MASK
+              href: access-mask.md
+            - name: SECURITY_DESCRIPTOR_CONTROL
+              href: security-descriptor-control.md
+            - name: SECURITY_INFORMATION
+              href: security-information.md
+        - name: Перечисления авторизации
+          href: authorization-enumerations.md
+          items:
+            - name: ACCESS_MODE
+              href: /windows/win32/api/accctrl/ne-accctrl-access_mode
+            - name: ACL_INFORMATION_CLASS
+              href: /windows/win32/api/Winnt/ne-winnt-acl_information_class
+            - name: AUDIT_EVENT_TYPE
+              href: /windows/win32/api/Winnt/ne-winnt-audit_event_type
+            - name: AUDIT_PARAM_TYPE
+              href: /windows/win32/api/Adtgen/ne-adtgen-audit_param_type
+            - name: AUTHZ_CONTEXT_INFORMATION_CLASS
+              href: /windows/win32/api/Authz/ne-authz-authz_context_information_class
+            - name: AUTHZ_SECURITY_ATTRIBUTE_OPERATION
+              href: /windows/desktop/api/Authz/ne-authz-authz_security_attribute_operation
+            - name: AUTHZ_SID_OPERATION
+              href: /windows/desktop/api/Authz/ne-authz-authz_sid_operation
+            - name: AZ_PROP_CONSTANTS
+              href: /windows/win32/api/Azroles/ne-azroles-az_prop_constants
+            - name: MANDATORY_LEVEL
+              href: /windows/win32/api/Winnt/ne-winnt-mandatory_level
+            - name: MULTIPLE_TRUSTEE_OPERATION
+              href: /windows/win32/api/AccCtrl/ne-accctrl-multiple_trustee_operation
+            - name: PROG_INVOKE_SETTING
+              href: /windows/win32/api/accctrl/ne-accctrl-prog_invoke_setting
+            - name: SE_OBJECT_TYPE
+              href: /windows/win32/api/AccCtrl/ne-accctrl-se_object_type
+            - name: SECURITY_IMPERSONATION_LEVEL
+              href: /windows/win32/api/Winnt/ne-winnt-security_impersonation_level
+            - name: SI_PAGE_TYPE
+              href: /windows/win32/api/Aclui/ne-aclui-si_page_type
+            - name: SID_NAME_USE
+              href: /windows/win32/api/Winnt/ne-winnt-sid_name_use
+            - name: TOKEN_ELEVATION_TYPE
+              href: /windows/win32/api/Winnt/ne-winnt-token_elevation_type
+            - name: TOKEN_INFORMATION_CLASS
+              href: /windows/win32/api/Winnt/ne-winnt-token_information_class
+            - name: TOKEN_TYPE
+              href: /windows/win32/api/Winnt/ne-winnt-token_type
+            - name: TRUSTEE_FORM
+              href: /windows/win32/api/AccCtrl/ne-accctrl-trustee_form
+            - name: TRUSTEE_TYPE
+              href: /windows/win32/api/AccCtrl/ne-accctrl-trustee_type
+            - name: WELL_KNOWN_SID_TYPE
+              href: /windows/desktop/api/Winnt/ne-winnt-well_known_sid_type
+        - name: Функции авторизации
+          href: authorization-functions.md
+          items:
+            - name: AccessCheck
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck
+            - name: акцессчеккандаудиталарм
+              href: /windows/desktop/api/Winbase/nf-winbase-accesscheckandauditalarma
+            - name: акцессчеккбитипе
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype
+            - name: акцессчеккбитипеандаудиталарм
+              href: /windows/desktop/api/Winbase/nf-winbase-accesscheckbytypeandauditalarma
+            - name: акцессчеккбитипересултлист
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytyperesultlist
+            - name: деривекапабилитисидсфромнаме
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-derivecapabilitysidsfromname
+            - name: акцессчеккбитипересултлистандаудиталарм
+              href: /windows/desktop/api/Winbase/nf-winbase-accesscheckbytyperesultlistandauditalarma
+            - name: акцессчеккбитипересултлистандаудиталармбихандле
+              href: /windows/desktop/api/Winbase/nf-winbase-accesscheckbytyperesultlistandauditalarmbyhandlea
+            - name: аддакцессалловедаце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedace
+            - name: аддакцессалловедацеекс
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedaceex
+            - name: аддакцессалловедобжектаце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedobjectace
+            - name: аддакцессдениедаце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedace
+            - name: аддакцессдениедацеекс
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex
+            - name: аддакцессдениедобжектаце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedobjectace
+            - name: аддаце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addace
+            - name: аддаудитакцессаце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessace
+            - name: аддаудитакцессацеекс
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessaceex
+            - name: аддаудитакцессобжектаце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessobjectace
+            - name: аддкондитионалаце
+              href: /windows/desktop/api/WinBase/nf-winbase-addconditionalace
+            - name: аддмандаторяце
+              href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-addmandatoryace
+            - name: аддресаурцеаттрибутеаце
+              href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-addresourceattributeace
+            - name: аддскопедполициидаце
+              href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-addscopedpolicyidace
+            - name: аджусттокенграупс
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokengroups
+            - name: AdjustTokenPrivileges
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges
+            - name: аллокатеандинитиализесид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid
+            - name: аллокателокаллюникуеид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocatelocallyuniqueid
+            - name: ареаллакцессесгрантед
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-areallaccessesgranted
+            - name: ареанякцессесгрантед
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-areanyaccessesgranted
+            - name: аудиткомпутиффективеполицибисид
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditcomputeeffectivepolicybysid
+            - name: аудиткомпутиффективеполицибитокен
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditcomputeeffectivepolicybytoken
+            - name: аудитенумератекатегориес
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditenumeratecategories
+            - name: аудитенумератеперусерполици
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditenumerateperuserpolicy
+            - name: аудитенумератесубкатегориес
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditenumeratesubcategories
+            - name: аудитфри
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditfree
+            - name: аудитлукупкатегоригуидфромкатегорид
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditlookupcategoryguidfromcategoryid
+            - name: аудитлукупкатегоридфромкатегоригуид
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditlookupcategoryidfromcategoryguid
+            - name: аудитлукупкатегоринаме
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditlookupcategorynamea
+            - name: аудитлукупсубкатегоринаме
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditlookupsubcategorynamea
+            - name: аудиткуериглобалсакл
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditqueryglobalsacla
+            - name: аудиткуериперусерполици
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditqueryperuserpolicy
+            - name: аудиткуерисекурити
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditquerysecurity
+            - name: аудиткуерисистемполици
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditquerysystempolicy
+            - name: аудитсетглобалсакл
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditsetglobalsacla
+            - name: аудитсетперусерполици
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditsetperuserpolicy
+            - name: аудитсетсекурити
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditsetsecurity
+            - name: аудитсетсистемполици
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditsetsystempolicy
+            - name: аусзакцессчекк
+              href: /windows/desktop/api/Authz/nf-authz-authzaccesscheck
+            - name: аусзакцессчекккаллбакк
+              href: authzaccesscheckcallback.md
+            - name: аусзаддсидстоконтекст
+              href: /windows/desktop/api/Authz/nf-authz-authzaddsidstocontext
+            - name: аусзкачедакцессчекк
+              href: /windows/desktop/api/Authz/nf-authz-authzcachedaccesscheck
+            - name: аусзкомпутеграупскаллбакк
+              href: authzcomputegroupscallback.md
+            - name: аусзенумератесекуритевентсаурцес
+              href: /windows/desktop/api/Authz/nf-authz-authzenumeratesecurityeventsources
+            - name: аусзфриаудитевент
+              href: /windows/desktop/api/Authz/nf-authz-authzfreeauditevent
+            - name: аусзфрицентралакцессполицикаче
+              href: /windows/desktop/api/Authz/nf-authz-authzfreecentralaccesspolicycache
+            - name: аусзфрицентралакцессполицикаллбакк
+              href: authzfreecentralaccesspolicycallback.md
+            - name: аусзфриконтекст
+              href: /windows/desktop/api/Authz/nf-authz-authzfreecontext
+            - name: аусзфриграупскаллбакк
+              href: authzfreegroupscallback.md
+            - name: аусзфрихандле
+              href: /windows/desktop/api/Authz/nf-authz-authzfreehandle
+            - name: аусзфриресаурцеманажер
+              href: /windows/desktop/api/Authz/nf-authz-authzfreeresourcemanager
+            - name: аусзжетцентралакцессполицикаллбакк
+              href: authzgetcentralaccesspolicycallback-.md
+            - name: аусзжетинформатионфромконтекст
+              href: /windows/desktop/api/Authz/nf-authz-authzgetinformationfromcontext
+            - name: аусзинитиализекомпаундконтекст
+              href: /windows/desktop/api/Authz/nf-authz-authzinitializecompoundcontext
+            - name: аусзинитиализеконтекстфромаусзконтекст
+              href: /windows/desktop/api/Authz/nf-authz-authzinitializecontextfromauthzcontext
+            - name: аусзинитиализеконтекстфромсид
+              href: /windows/desktop/api/Authz/nf-authz-authzinitializecontextfromsid
+            - name: аусзинитиализеконтекстфромтокен
+              href: /windows/desktop/api/Authz/nf-authz-authzinitializecontextfromtoken
+            - name: аусзинитиализеобжектакцессаудитевент
+              href: /windows/desktop/api/Authz/nf-authz-authzinitializeobjectaccessauditevent
+            - name: AuthzInitializeObjectAccessAuditEvent2
+              href: /windows/desktop/api/Authz/nf-authz-authzinitializeobjectaccessauditevent2
+            - name: аусзинитиализеремотересаурцеманажер
+              href: /windows/desktop/api/Authz/nf-authz-authzinitializeremoteresourcemanager
+            - name: аусзинитиализересаурцеманажер
+              href: /windows/desktop/api/Authz/nf-authz-authzinitializeresourcemanager
+            - name: аусзинитиализересаурцеманажерекс
+              href: /windows/desktop/api/Authz/nf-authz-authzinitializeresourcemanagerex
+            - name: аусзинсталлсекуритевентсаурце
+              href: /windows/desktop/api/Authz/nf-authz-authzinstallsecurityeventsource
+            - name: аусзмодификлаимс
+              href: /windows/desktop/api/Authz/nf-authz-authzmodifyclaims
+            - name: аусзмодифисекуритяттрибутес
+              href: /windows/desktop/api/Authz/nf-authz-authzmodifysecurityattributes
+            - name: аусзмодифисидс
+              href: /windows/desktop/api/Authz/nf-authz-authzmodifysids
+            - name: аусзопенобжектаудит
+              href: /windows/desktop/api/Authz/nf-authz-authzopenobjectaudit
+            - name: аусзрегистеркапчанженотификатион
+              href: /windows/desktop/api/Authz/nf-authz-authzregistercapchangenotification
+            - name: аусзрегистерсекуритевентсаурце
+              href: /windows/desktop/api/Authz/nf-authz-authzregistersecurityeventsource
+            - name: аусзрепортсекуритевент
+              href: /windows/desktop/api/Authz/nf-authz-authzreportsecurityevent
+            - name: аусзрепортсекуритевентфромпарамс
+              href: /windows/desktop/api/Authz/nf-authz-authzreportsecurityeventfromparams
+            - name: аусзсетаппконтаинеринформатион
+              href: /windows/desktop/api/Authz/nf-authz-authzsetappcontainerinformation
+            - name: аусзунинсталлсекуритевентсаурце
+              href: /windows/desktop/api/Authz/nf-authz-authzuninstallsecurityeventsource
+            - name: аусзунрегистеркапчанженотификатион
+              href: /windows/desktop/api/Authz/nf-authz-authzunregistercapchangenotification
+            - name: аусзунрегистерсекуритевентсаурце
+              href: /windows/desktop/api/Authz/nf-authz-authzunregistersecurityeventsource
+            - name: буилдексплиЦитакцессвиснаме
+              href: /windows/desktop/api/Aclapi/nf-aclapi-buildexplicitaccesswithnamea
+            - name: буилдимперсонатиксплиЦитакцессвиснаме
+              href: buildimpersonateexplicitaccesswithname.md
+            - name: буилдимперсонатетрусти
+              href: buildimpersonatetrustee.md
+            - name: буилдсекуритидескриптор
+              href: /windows/desktop/api/Aclapi/nf-aclapi-buildsecuritydescriptora
+            - name: буилдтрустивиснаме
+              href: /windows/desktop/api/Aclapi/nf-aclapi-buildtrusteewithnamea
+            - name: буилдтрустивисобжектсанднаме
+              href: /windows/desktop/api/Aclapi/nf-aclapi-buildtrusteewithobjectsandnamea
+            - name: буилдтрустивисобжектсандсид
+              href: /windows/desktop/api/Aclapi/nf-aclapi-buildtrusteewithobjectsandsida
+            - name: буилдтрустивиссид
+              href: /windows/desktop/api/Aclapi/nf-aclapi-buildtrusteewithsida
+            - name: чекктокенкапабилити
+              href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-checktokencapability
+            - name: чекктокенмембершип
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership
+            - name: чекктокенмембершипекс
+              href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-checktokenmembershipex
+            - name: конвертсекуритидескриптортострингсекуритидескриптор
+              href: /windows/desktop/api/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora
+            - name: Функция ConvertSidToStringSid вернула
+              href: /windows/desktop/api/Sddl/nf-sddl-convertsidtostringsida
+            - name: конвертстрингсекуритидескриптортосекуритидескриптор
+              href: /windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora
+            - name: конвертстрингсидтосид
+              href: /windows/desktop/api/Sddl/nf-sddl-convertstringsidtosida
+            - name: конверттоаутоинхеритприватеобжектсекурити
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-converttoautoinheritprivateobjectsecurity
+            - name: кописид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-copysid
+            - name: креатеприватеобжектсекурити
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity
+            - name: креатеприватеобжектсекуритекс
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex
+            - name: креатеприватеобжектсекуритивисмултиплеинхеританце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecuritywithmultipleinheritance
+            - name: CreateRestrictedToken
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken
+            - name: креатесекуритипаже
+              href: /windows/desktop/api/Aclui/nf-aclui-createsecuritypage
+            - name: креатевеллкновнсид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid
+            - name: делетеаце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-deleteace
+            - name: дестройприватеобжектсекурити
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity
+            - name: дскреатесекуритипаже
+              href: /windows/desktop/api/DSSec/nf-dssec-dscreatesecuritypage
+            - name: дскреатеисекуритинфубжект
+              href: /windows/desktop/api/DSSec/nf-dssec-dscreateisecurityinfoobject
+            - name: дскреатеисекуритинфубжектекс
+              href: /windows/desktop/api/DSSec/nf-dssec-dscreateisecurityinfoobjectex
+            - name: дседитсекурити
+              href: /windows/desktop/api/DSSec/nf-dssec-dseditsecurity
+            - name: Сбой duplicatetoken
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken
+            - name: дупликатетокенекс
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex
+            - name: едитсекурити
+              href: /windows/desktop/api/Aclui/nf-aclui-editsecurity
+            - name: едитсекуритядванцед
+              href: /windows/desktop/api/Aclui/nf-aclui-editsecurityadvanced
+            - name: екуалдомаинсид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-equaldomainsid
+            - name: екуалпрефикссид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid
+            - name: екуалсид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalsid
+            - name: финдфирстфриаце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-findfirstfreeace
+            - name: фриинхеритедфромаррай
+              href: /windows/desktop/api/Aclapi/nf-aclapi-freeinheritedfromarray
+            - name: фрисид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid
+            - name: жетаце
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace
+            - name: жетаклинформатион
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation
+            - name: жетаппконтаинернамедобжектпас
+              href: /windows/desktop/api/Securityappcontainer/nf-securityappcontainer-getappcontainernamedobjectpath
+            - name: жетаудитедпермиссионсфромакл
+              href: /windows/desktop/api/Aclapi/nf-aclapi-getauditedpermissionsfromacla
+            - name: жеткуррентпроцесстокен
+              href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocesstoken
+            - name: жеткуррентсреадеффективетокен
+              href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadeffectivetoken
+            - name: жеткуррентсреадтокен
+              href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadtoken
+            - name: жетеффективеригхтсфромакл
+              href: /windows/desktop/api/Aclapi/nf-aclapi-geteffectiverightsfromacla
+            - name: жетексплиЦитентриесфромакл
+              href: /windows/desktop/api/Aclapi/nf-aclapi-getexplicitentriesfromacla
+            - name: жетфилесекурити
+              href: /windows/desktop/api/Winbase/nf-winbase-getfilesecuritya
+            - name: жетинхеританцесаурце
+              href: /windows/desktop/api/Aclapi/nf-aclapi-getinheritancesourcea
+            - name: жеткернелобжектсекурити
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getkernelobjectsecurity
+            - name: жетленгссид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getlengthsid
+            - name: жетмултиплетрусти
+              href: getmultipletrustee.md
+            - name: жетмултиплетрустиоператион
+              href: getmultipletrusteeoperation.md
+            - name: жетнамедсекуритинфо
+              href: /windows/desktop/api/Aclapi/nf-aclapi-getnamedsecurityinfoa
+            - name: жетприватеобжектсекурити
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getprivateobjectsecurity
+            - name: жетсекуритидескрипторконтрол
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorcontrol
+            - name: жетсекуритидескриптордакл
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptordacl
+            - name: жетсекуритидескрипторграуп
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorgroup
+            - name: жетсекуритидескрипторленгс
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorlength
+            - name: Функций getsecuritydescriptorowner
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorowner
+            - name: жетсекуритидескрипторрмконтрол
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorrmcontrol
+            - name: жетсекуритидескрипторсакл
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl
+            - name: жетсекуритинфо
+              href: /windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo
+            - name: жетсидидентифиераусорити
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority
+            - name: жетсидленгсрекуиред
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidlengthrequired
+            - name: жетсидсубаусорити
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority
+            - name: жетсидсубаусоритикаунт
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthoritycount
+            - name: GetTokenInformation
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation
+            - name: жеттрустиформ
+              href: /windows/desktop/api/Aclapi/nf-aclapi-gettrusteeforma
+            - name: жеттрустинаме
+              href: /windows/desktop/api/Aclapi/nf-aclapi-gettrusteenamea
+            - name: жеттруститипе
+              href: /windows/desktop/api/Aclapi/nf-aclapi-gettrusteetypea
+            - name: жетусеробжектсекурити
+              href: /windows/desktop/api/Winuser/nf-winuser-getuserobjectsecurity
+            - name: жетвиндовсаккаунтдомаинсид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getwindowsaccountdomainsid
+            - name: имперсонатеанонимаустокен
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateanonymoustoken
+            - name: имперсонателогжедонусер
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser
+            - name: имперсонатенамедпипеклиент
+              href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-impersonatenamedpipeclient
+            - name: имперсонатеселф
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateself
+            - name: инитиализеакл
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl
+            - name: InitializeSecurityDescriptor
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor
+            - name: инитиализесид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesid
+            - name: истокенрестриктед
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-istokenrestricted
+            - name: исвалидакл
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidacl
+            - name: исвалидсекуритидескриптор
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsecuritydescriptor
+            - name: исвалидсид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid
+            - name: исвеллкновнсид
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-iswellknownsid
+            - name: LookupAccountName
+              href: /windows/desktop/api/Winbase/nf-winbase-lookupaccountnamea
+            - name: LookupAccountSid
+              href: /windows/desktop/api/Winbase/nf-winbase-lookupaccountsida
+            - name: лукупаккаунтсидлокал
+              href: /windows/desktop/api/Winbase/nf-winbase-lookupaccountsidlocala
+            - name: лукуппривилежедисплайнаме
+              href: /windows/desktop/api/Winbase/nf-winbase-lookupprivilegedisplaynamea
+            - name: лукуппривилеженаме
+              href: /windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea
+            - name: LookupPrivilegeValue
+              href: /windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea
+            - name: лукупсекуритидескрипторпартс
+              href: /windows/desktop/api/Aclapi/nf-aclapi-lookupsecuritydescriptorpartsa
+            - name: Предполагался сбой makeabsolutesd
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd
+            - name: макеселфрелативесд
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeselfrelativesd
+            - name: мапженерикмаск
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask
+            - name: нткомпаретокенс
+              href: ntcomparetokens.md
+            - name: обжектклосеаудиталарм
+              href: /windows/desktop/api/Winbase/nf-winbase-objectcloseauditalarma
+            - name: обжектделетеаудиталарм
+              href: /windows/desktop/api/Winbase/nf-winbase-objectdeleteauditalarma
+            - name: обжектопенаудиталарм
+              href: /windows/desktop/api/Winbase/nf-winbase-objectopenauditalarma
+            - name: обжектпривилежеаудиталарм
+              href: /windows/desktop/api/Winbase/nf-winbase-objectprivilegeauditalarma
+            - name: OpenProcessToken
+              href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken
+            - name: опенсреадтокен
+              href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken
+            - name: привилежечекк
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegecheck
+            - name: привилежедсервицеаудиталарм
+              href: /windows/desktop/api/Winbase/nf-winbase-privilegedserviceauditalarma
+            - name: куерисекуритякцессмаск
+              href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-querysecurityaccessmask
+            - name: куерисервицеобжектсекурити
+              href: /windows/desktop/api/Winsvc/nf-winsvc-queryserviceobjectsecurity
+            - name: регжеткэйсекурити
+              href: /windows/desktop/api/Winreg/nf-winreg-reggetkeysecurity
+            - name: регсеткэйсекурити
+              href: /windows/desktop/api/Winreg/nf-winreg-regsetkeysecurity
+            - name: RevertToSelf
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself
+            - name: ртлконвертсидтауникодестринг
+              href: /windows/desktop/api/Winternl/nf-winternl-rtlconvertsidtounicodestring
+            - name: сетаклинформатион
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation
+            - name: сетентриесинакл
+              href: /windows/desktop/api/Aclapi/nf-aclapi-setentriesinacla
+            - name: сетфилесекурити
+              href: /windows/desktop/api/Winbase/nf-winbase-setfilesecuritya
+            - name: сеткернелобжектсекурити
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity
+            - name: сетнамедсекуритинфо
+              href: /windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa
+            - name: сетприватеобжектсекурити
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity
+            - name: сетприватеобжектсекуритекс
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurityex
+            - name: сетсекуритякцессмаск
+              href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-setsecurityaccessmask
+            - name: сетсекуритидескрипторконтрол
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorcontrol
+            - name: SetSecurityDescriptorDacl
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl
+            - name: SetSecurityDescriptorGroup
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup
+            - name: SetSecurityDescriptorOwner
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner
+            - name: сетсекуритидескрипторрмконтрол
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorrmcontrol
+            - name: сетсекуритидескрипторсакл
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl
+            - name: сетсекуритинфо
+              href: /windows/desktop/api/Aclapi/nf-aclapi-setsecurityinfo
+            - name: сетсервицеобжектсекурити
+              href: /windows/desktop/api/Winsvc/nf-winsvc-setserviceobjectsecurity
+            - name: сетсреадтокен
+              href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadtoken
+            - name: сеттокенинформатион
+              href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation
+            - name: сетусеробжектсекурити
+              href: /windows/desktop/api/Winuser/nf-winuser-setuserobjectsecurity
+            - name: триресетнамедсекуритинфо
+              href: /windows/desktop/api/Aclapi/nf-aclapi-treeresetnamedsecurityinfoa
+            - name: трисетнамедсекуритинфо
+              href: /windows/desktop/api/Aclapi/nf-aclapi-treesetnamedsecurityinfoa
+        - name: Интерфейсы авторизации
+          href: authorization-interfaces.md
+          items:
+            - name: иазаппликатион
+              href: /windows/desktop/api/Azroles/nn-azroles-iazapplication
+              items:
+                - name: Методы Иазаппликатион
+                  href: iazapplication-methods.md
+                  items:
+                    - name: Метод Аддделегатедполициусер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-adddelegatedpolicyuser
+                    - name: Метод Аддделегатедполициусернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-adddelegatedpolicyusername
+                    - name: Метод Аддполициадминистратор
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-addpolicyadministrator
+                    - name: Метод Аддполициадминистраторнаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-addpolicyadministratorname
+                    - name: Метод Аддполициреадер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-addpolicyreader
+                    - name: Метод Аддполициреадернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-addpolicyreadername
+                    - name: Метод Аддпропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-addpropertyitem
+                    - name: Метод Креатеаппликатионграуп
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-createapplicationgroup
+                    - name: Метод CreateOperation
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-createoperation
+                    - name: Метод CreateRole
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-createrole
+                    - name: Метод Креатескопе
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-createscope
+                    - name: Метод CreateTask
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-createtask
+                    - name: Метод Делетеаппликатионграуп
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deleteapplicationgroup
+                    - name: Метод Делетеделегатедполициусер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deletedelegatedpolicyuser
+                    - name: Метод Делетеделегатедполициусернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deletedelegatedpolicyusername
+                    - name: Метод Делетеоператион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deleteoperation
+                    - name: Метод Делетеполициадминистратор
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deletepolicyadministrator
+                    - name: Метод Делетеполициадминистраторнаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deletepolicyadministratorname
+                    - name: Метод Делетеполициреадер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deletepolicyreader
+                    - name: Метод Делетеполициреадернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deletepolicyreadername
+                    - name: Метод Делетепропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deletepropertyitem
+                    - name: Метод Делетероле
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deleterole
+                    - name: Метод Делетескопе
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deletescope
+                    - name: Метод Делететаск
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-deletetask
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-getproperty
+                    - name: Метод Инитиализеклиентконтекстфромнаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-initializeclientcontextfromname
+                    - name: Метод Инитиализеклиентконтекстфромстрингсид
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-initializeclientcontextfromstringsid
+                    - name: Метод Инитиализеклиентконтекстфромтокен
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-initializeclientcontextfromtoken
+                    - name: Метод Опенаппликатионграуп
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-openapplicationgroup
+                    - name: Метод Опеноператион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-openoperation
+                    - name: Метод Опенроле
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-openrole
+                    - name: Метод OpenScope
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-openscope
+                    - name: Метод Опентаск
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-opentask
+                    - name: Метод SetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-setproperty
+                    - name: Метод Submit
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-submit
+                - name: Свойства Иазаппликатион
+                  href: iazapplication-properties.md
+                  items:
+                    - name: 'ApplicationData, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_applicationdata
+                    - name: 'Аппликатионграупс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_applicationgroups
+                    - name: 'Апплисторесакл, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_applystoresacl
+                    - name: 'Аусзинтерфацеклсид, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_authzinterfaceclsid
+                    - name: 'Делегатедполициусерс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_delegatedpolicyusers
+                    - name: 'Делегатедполициусерснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_delegatedpolicyusersname
+                    - name: Свойство Description
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_description
+                    - name: 'Женератеаудитс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_generateaudits
+                    - name: Свойство Name
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_name
+                    - name: Свойство Operations
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_operations
+                    - name: 'Полициадминистраторс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_policyadministrators
+                    - name: 'Полициадминистраторснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_policyadministratorsname
+                    - name: 'Полициреадерс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_policyreaders
+                    - name: 'Полициреадерснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_policyreadersname
+                    - name: 'Roles, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_roles
+                    - name: Свойство областей
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_scopes
+                    - name: 'Tasks, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_tasks
+                    - name: Свойство Version
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_version
+                    - name: Доступное для записи свойство
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_writable
+            - name: IAzApplication2
+              href: /windows/desktop/api/Azroles/nn-azroles-iazapplication2
+              items:
+                - name: Методы IAzApplication2
+                  href: iazapplication2-methods.md
+                  items:
+                    - name: Метод InitializeClientContext2
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication2-initializeclientcontext2
+                    - name: Метод InitializeClientContextFromToken2
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication2-initializeclientcontextfromtoken2
+            - name: IAzApplication3
+              href: /windows/desktop/api/Azroles/nn-azroles-iazapplication3
+              items:
+                - name: Методы IAzApplication3
+                  href: iazapplication3-methods.md
+                  items:
+                    - name: Метод Креатеролеассигнмент
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-createroleassignment
+                    - name: Метод Креатероледефинитион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-createroledefinition
+                    - name: Метод CreateScope2
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-createscope2
+                    - name: Метод Делетеролеассигнмент
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-deleteroleassignment
+                    - name: Метод Делетероледефинитион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-deleteroledefinition
+                    - name: Метод DeleteScope2
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-deletescope2
+                    - name: Метод Опенролеассигнмент
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-openroleassignment
+                    - name: Метод Опенроледефинитион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-openroledefinition
+                    - name: Метод OpenScope2
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-openscope2
+                    - name: Метод Скопиксистс
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-scopeexists
+                - name: Свойства IAzApplication3
+                  href: iazapplication3-properties.md
+                  items:
+                    - name: 'Бизрулесенаблед, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-get_bizrulesenabled
+                    - name: 'RoleAssignments, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-get_roleassignments
+                    - name: 'RoleDefinitions, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplication3-get_roledefinitions
+            - name: иазаппликатионс
+              href: /windows/desktop/api/Azroles/nn-azroles-iazapplications
+              items:
+                - name: Свойства Иазаппликатионс
+                  href: iazapplications-properties.md
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplications-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplications-get_item
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplications-get__newenum
+            - name: иазаппликатионграуп
+              href: /windows/desktop/api/Azroles/nn-azroles-iazapplicationgroup
+              items:
+                - name: Методы Иазаппликатионграуп
+                  href: iazapplicationgroup-methods.md
+                  items:
+                    - name: Метод Аддаппмембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-addappmember
+                    - name: Метод Аддаппнонмембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-addappnonmember
+                    - name: Метод Аддмембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-addmember
+                    - name: Метод Аддмембернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-addmembername
+                    - name: Метод Адднонмембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-addnonmember
+                    - name: Метод Адднонмембернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-addnonmembername
+                    - name: Метод Аддпропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-addpropertyitem
+                    - name: Метод Делетеаппмембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-deleteappmember
+                    - name: Метод Делетеаппнонмембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-deleteappnonmember
+                    - name: Метод Делетемембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-deletemember
+                    - name: Метод Делетемембернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-deletemembername
+                    - name: Метод Делетенонмембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-deletenonmember
+                    - name: Метод Делетенонмембернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-deletenonmembername
+                    - name: Метод Делетепропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-deletepropertyitem
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-getproperty
+                    - name: Метод SetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-setproperty
+                    - name: Метод Submit
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-submit
+                - name: Свойства Иазаппликатионграуп
+                  href: iazapplicationgroup-properties.md
+                  items:
+                    - name: 'Аппмемберс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_appmembers
+                    - name: 'Аппнонмемберс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_appnonmembers
+                    - name: Свойство Description
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_description
+                    - name: 'Лдапкуери, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_ldapquery
+                    - name: 'Members, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_members
+                    - name: 'Мемберснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_membersname
+                    - name: Свойство Name
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_name
+                    - name: 'Свойство, не являющиеся членами'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_nonmembers
+                    - name: 'Нонмемберснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_nonmembersname
+                    - name: Свойство Type
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_type
+                    - name: Доступное для записи свойство
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_writable
+            - name: IAzApplicationGroup2
+              href: /windows/desktop/api/Azroles/nn-azroles-iazapplicationgroup2
+              items:
+                - name: Свойства IAzApplicationGroup2
+                  href: iazapplicationgroup2-properties.md
+                  items:
+                    - name: 'Бизруле, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-get_bizrule
+                    - name: 'Бизрулеимпортедпас, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-get_bizruleimportedpath
+                    - name: 'Бизрулелангуаже, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-get_bizrulelanguage
+                    - name: 'RoleAssignments, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup2-roleassignments
+            - name: иазаппликатионграупс
+              href: /windows/desktop/api/Azroles/nn-azroles-iazapplicationgroups
+              items:
+                - name: Свойства Иазаппликатионграупс
+                  href: iazapplicationgroups-properties.md
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroups-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroups-get_item
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroups-get__newenum
+            - name: иазаусоризатионсторе
+              href: /windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore
+              items:
+                - name: Методы Иазаусоризатионсторе
+                  href: iazauthorizationstore-methods.md
+                  items:
+                    - name: Метод Аддделегатедполициусер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-adddelegatedpolicyuser
+                    - name: Метод Аддделегатедполициусернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-adddelegatedpolicyusername
+                    - name: Метод Аддполициадминистратор
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-addpolicyadministrator
+                    - name: Метод Аддполициадминистраторнаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-addpolicyadministratorname
+                    - name: Метод Аддполициреадер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-addpolicyreader
+                    - name: Метод Аддполициреадернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-addpolicyreadername
+                    - name: Метод Аддпропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-addpropertyitem
+                    - name: Метод Клосеаппликатион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-closeapplication
+                    - name: Метод CreateApplication
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-createapplication
+                    - name: Метод Креатеаппликатионграуп
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-createapplicationgroup
+                    - name: Метод Delete
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-delete
+                    - name: Метод DeleteApplication
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deleteapplication
+                    - name: Метод Делетеаппликатионграуп
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deleteapplicationgroup
+                    - name: Метод Делетеделегатедполициусер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyuser
+                    - name: Метод Делетеделегатедполициусернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyusername
+                    - name: Метод Делетеполициадминистратор
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deletepolicyadministrator
+                    - name: Метод Делетеполициадминистраторнаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deletepolicyadministratorname
+                    - name: Метод Делетеполициреадер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deletepolicyreader
+                    - name: Метод Делетеполициреадернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deletepolicyreadername
+                    - name: Метод Делетепропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-deletepropertyitem
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-getproperty
+                    - name: Метод Initialize
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-initialize
+                    - name: Метод Опенаппликатион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-openapplication
+                    - name: Метод Опенаппликатионграуп
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-openapplicationgroup
+                    - name: Метод SetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-setproperty
+                    - name: Метод Submit
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-submit
+                    - name: Метод Упдатекаче
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-updatecache
+                - name: Свойства Иазаусоризатионсторе
+                  href: iazauthorizationstore-properties.md
+                  items:
+                    - name: 'ApplicationData, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_applicationdata
+                    - name: 'Аппликатионграупс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_applicationgroups
+                    - name: 'Applications, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_applications
+                    - name: 'Апплисторесакл, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_applystoresacl
+                    - name: 'Делегатедполициусерс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_delegatedpolicyusers
+                    - name: 'Делегатедполициусерснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_delegatedpolicyusersname
+                    - name: Свойство Description
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_description
+                    - name: 'Домаинтимеаут, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_domaintimeout
+                    - name: 'Женератеаудитс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_generateaudits
+                    - name: 'Максскриптенгинес, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_maxscriptengines
+                    - name: 'Полициадминистраторс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_policyadministrators
+                    - name: 'Полициадминистраторснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_policyadministratorsname
+                    - name: 'Полициреадерс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_policyreaders
+                    - name: 'Полициреадерснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_policyreadersname
+                    - name: 'Скриптенгинетимеаут, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_scriptenginetimeout
+                    - name: 'Таржетмачине, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_targetmachine
+                    - name: Доступное для записи свойство
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_writable
+            - name: IAzAuthorizationStore2
+              href: /windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore2
+              items:
+                - name: Методы IAzAuthorizationStore2
+                  href: iazauthorizationstore2-methods.md
+                  items:
+                    - name: Метод CreateApplication2
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore2-createapplication2
+                    - name: Метод OpenApplication2
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore2-openapplication2
+            - name: IAzAuthorizationStore3
+              href: /windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore3
+              items:
+                - name: Методы IAzAuthorizationStore3
+                  href: iazauthorizationstore3-methods.md
+                  items:
+                    - name: Метод Бизрулеграупсуппортед
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore3-bizrulegroupsupported
+                    - name: Метод Жетсчемаверсион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore3-getschemaversion
+                    - name: Метод Исфунктионаллевелупградесуппортед
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore3-isfunctionallevelupgradesupported
+                    - name: Метод Исупдатенидед
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore3-isupdateneeded
+                    - name: Метод Упградесторесфунктионаллевел
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore3-upgradestoresfunctionallevel
+            - name: иазбизрулеконтекст
+              href: /windows/desktop/api/Azroles/nn-azroles-iazbizrulecontext
+              items:
+                - name: Свойства Иазбизрулеконтекст
+                  href: iazbizrulecontext-properties.md
+                  items:
+                    - name: 'Бусинессрулересулт, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizrulecontext-put_businessruleresult
+                    - name: 'Бусинессрулестринг, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizrulecontext-get_businessrulestring
+                    - name: Метод PARAMETERIZATION
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizrulecontext-getparameter
+            - name: иазбизрулеинтерфацес
+              href: /windows/desktop/api/Azroles/nn-azroles-iazbizruleinterfaces
+              items:
+                - name: Методы Иазбизрулеинтерфацес
+                  href: iazbizruleinterfaces-methods.md
+                  items:
+                    - name: Метод Аддинтерфаце
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-addinterface
+                    - name: Метод Аддинтерфацес
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-addinterfaces
+                    - name: Метод Жетинтерфацевалуе
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-getinterfacevalue
+                    - name: Удалить метод
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-remove
+                    - name: Метод RemoveAll
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-removeall
+                - name: Свойства Иазбизрулеинтерфацес
+                  href: iazbizruleinterfaces-properties.md
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleinterfaces-get_count
+            - name: иазбизрулепараметерс
+              href: /windows/desktop/api/Azroles/nn-azroles-iazbizruleparameters
+              items:
+                - name: Методы Иазбизрулепараметерс
+                  href: iazbizruleparameters-methods.md
+                  items:
+                    - name: Метод Аддпараметер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleparameters-addparameter
+                    - name: Метод Аддпараметерс
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleparameters-addparameters
+                    - name: Метод Жетпараметервалуе
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleparameters-getparametervalue
+                    - name: Удалить метод
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleparameters-remove
+                    - name: Метод RemoveAll
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleparameters-removeall
+                - name: Свойства Иазбизрулепараметерс
+                  href: iazbizruleparameters-properties.md
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazbizruleparameters-get_count
+            - name: иазклиентконтекст
+              href: /windows/desktop/api/Azroles/nn-azroles-iazclientcontext
+              items:
+                - name: Методы Иазклиентконтекст
+                  href: iazclientcontext-methods.md
+                  items:
+                    - name: 'AccessCheck, метод'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-accesscheck
+                    - name: Метод Жетбусинессрулестринг
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-getbusinessrulestring
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-getproperty
+                    - name: Методы Role
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-getroles
+                - name: Свойства Иазклиентконтекст
+                  href: iazclientcontext-properties.md
+                  items:
+                    - name: 'Ролефоракцессчекк, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-get_roleforaccesscheck
+                    - name: 'Усерканоникал, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-get_usercanonical
+                    - name: 'Усердисплай, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-get_userdisplay
+                    - name: 'Усердн, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-get_userdn
+                    - name: 'Усерднссамкомпат, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-get_userdnssamcompat
+                    - name: 'Усергуид, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-get_userguid
+                    - name: 'Усерсамкомпат, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-get_usersamcompat
+                    - name: 'Усерупн, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext-get_userupn
+            - name: IAzClientContext2
+              href: /windows/desktop/api/Azroles/nn-azroles-iazclientcontext2
+              items:
+                - name: Методы IAzClientContext2
+                  href: iazclientcontext2-methods.md
+                  items:
+                    - name: Метод Аддаппликатионграупс
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-addapplicationgroups
+                    - name: Метод Аддролес
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-addroles
+                    - name: Метод Аддстрингсидс
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-addstringsids
+                    - name: Метод Жетассигнедскопеспаже
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-getassignedscopespage
+                - name: Свойства IAzClientContext2
+                  href: iazclientcontext2-properties.md
+                  items:
+                    - name: 'Лдапкуеридн, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext2-get_ldapquerydn
+            - name: IAzClientContext3
+              href: /windows/desktop/api/Azroles/nn-azroles-iazclientcontext3
+              items:
+                - name: Методы IAzClientContext3
+                  href: iazclientcontext3-methods.md
+                  items:
+                    - name: Метод AccessCheck2
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext3-accesscheck2
+                    - name: Метод когруппу
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext3-getgroups
+                    - name: Метод выполнения операций
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext3-getoperations
+                    - name: Метод Tasks
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext3-gettasks
+                    - name: Метод Исинролеассигнмент
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext3-isinroleassignment
+                - name: Свойства IAzClientContext3
+                  href: iazclientcontext3-properties.md
+                  items:
+                    - name: 'Бизрулеинтерфацес, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext3-get_bizruleinterfaces
+                    - name: 'Бизрулепараметерс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext3-get_bizruleparameters
+                    - name: 'SID, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazclientcontext3-get_sids
+            - name: иазнамересолвер
+              href: /windows/desktop/api/Azroles/nn-azroles-iaznameresolver
+              items:
+                - name: Методы Иазнамересолвер
+                  href: iaznameresolver-methods.md
+                  items:
+                    - name: Метод Намефромсид
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaznameresolver-namefromsid
+                    - name: Метод Намесфромсидс
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaznameresolver-namesfromsids
+            - name: иазобжектпиккер
+              href: /windows/desktop/api/Azroles/nn-azroles-iazobjectpicker
+              items:
+                - name: Методы Иазобжектпиккер
+                  href: iazobjectpicker-methods.md
+                  items:
+                    - name: Метод-принципалы
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazobjectpicker-getprincipals
+                    - name: Свойство Name
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazobjectpicker-get_name
+            - name: иазоператион
+              href: /windows/desktop/api/Azroles/nn-azroles-iazoperation
+              items:
+                - name: Методы Иазоператион
+                  href: iazoperation-methods.md
+                  items:
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-getproperty
+                    - name: Метод SetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-setproperty
+                    - name: Метод Submit
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-submit
+                - name: Свойства Иазоператион
+                  href: iazoperation-properties.md
+                  items:
+                    - name: 'ApplicationData, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-get_applicationdata
+                    - name: Свойство Description
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-get_description
+                    - name: Свойство Name
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-get_name
+                    - name: Свойство с идентификатором
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-get_operationid
+                    - name: Доступное для записи свойство
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-get_writable
+            - name: IAzOperation2
+              href: /windows/desktop/api/Azroles/nn-azroles-iazoperation2
+              items:
+                - name: Методы IAzOperation2
+                  href: iazoperation2-methods.md
+                  items:
+                    - name: Метод RoleAssignments
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperation2-roleassignments
+            - name: иазоператионс
+              href: /windows/desktop/api/Azroles/nn-azroles-iazoperations
+              items:
+                - name: Свойства Иазоператионс
+                  href: iazoperations-properties.md
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperations-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperations-get_item
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazoperations-get__newenum
+            - name: иазпринЦипаллокатор
+              href: /windows/desktop/api/Azroles/nn-azroles-iazprincipallocator
+              items:
+                - name: Свойства ИазпринЦипаллокатор
+                  href: iazprincipallocator-properties.md
+                  items:
+                    - name: 'NameResolver, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazprincipallocator-get_nameresolver
+                    - name: 'Обжектпиккер, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazprincipallocator-get_objectpicker
+            - name: иазроле
+              href: /windows/desktop/api/Azroles/nn-azroles-iazrole
+              items:
+                - name: Методы Иазроле
+                  href: iazrole-methods.md
+                  items:
+                    - name: Метод Аддаппмембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-addappmember
+                    - name: Метод Аддмембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-addmember
+                    - name: Метод Аддмембернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-addmembername
+                    - name: Метод Аддоператион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-addoperation
+                    - name: Метод Аддпропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-addpropertyitem
+                    - name: Метод AddTask
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-addtask
+                    - name: Метод Делетеаппмембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-deleteappmember
+                    - name: Метод Делетемембер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-deletemember
+                    - name: Метод Делетемембернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-deletemembername
+                    - name: Метод Делетеоператион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-deleteoperation
+                    - name: Метод Делетепропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-deletepropertyitem
+                    - name: Метод Делететаск
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-deletetask
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-getproperty
+                    - name: Метод SetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-setproperty
+                    - name: Метод Submit
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-submit
+                - name: Свойства Иазроле
+                  href: iazrole-properties.md
+                  items:
+                    - name: 'ApplicationData, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_applicationdata
+                    - name: 'Аппмемберс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_appmembers
+                    - name: Свойство Description
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_description
+                    - name: 'Members, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_members
+                    - name: 'Мемберснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_membersname
+                    - name: Свойство Name
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_name
+                    - name: Свойство Operations
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_operations
+                    - name: 'Tasks, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_tasks
+                    - name: Доступное для записи свойство
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_writable
+            - name: иазролеассигнмент
+              href: /windows/desktop/api/Azroles/nn-azroles-iazroleassignment
+              items:
+                - name: Методы Иазролеассигнмент
+                  href: iazroleassignment-methods.md
+                  items:
+                    - name: Метод Аддроледефинитион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroleassignment-addroledefinition
+                    - name: Метод Делетероледефинитион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroleassignment-deleteroledefinition
+                - name: Свойства Иазролеассигнмент
+                  href: iazroleassignment-properties.md
+                  items:
+                    - name: 'RoleDefinitions, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroleassignment-get_roledefinitions
+                    - name: 'Scope, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroleassignment-get_scope
+            - name: иазролеассигнментс
+              href: /windows/desktop/api/Azroles/nn-azroles-iazroleassignments
+              items:
+                - name: Свойства Иазролеассигнментс
+                  href: iazroleassignments-properties.md
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroleassignments-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroleassignments-get_item
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroleassignments-get__newenum
+            - name: иазроледефинитион
+              href: /windows/desktop/api/Azroles/nn-azroles-iazroledefinition
+              items:
+                - name: Методы Иазроледефинитион
+                  href: iazroledefinition-methods.md
+                  items:
+                    - name: Метод Аддроледефинитион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroledefinition-addroledefinition
+                    - name: Метод Делетероледефинитион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroledefinition-deleteroledefinition
+                - name: Свойства Иазроледефинитион
+                  href: iazroledefinition-properties.md
+                  items:
+                    - name: 'RoleAssignments, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroledefinition-roleassignments
+                    - name: 'RoleDefinitions, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroledefinition-get_roledefinitions
+            - name: иазроледефинитионс
+              href: /windows/desktop/api/Azroles/nn-azroles-iazroledefinitions
+              items:
+                - name: Свойства Иазроледефинитионс
+                  href: iazroledefinitions-properties.md
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroledefinitions-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroledefinitions-get_item
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroledefinitions-get__newenum
+            - name: иазролес
+              href: /windows/desktop/api/Azroles/nn-azroles-iazroles
+              items:
+                - name: Свойства Иазролес
+                  href: iazroles-properties.md
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroles-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroles-get_item
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazroles-get__newenum
+            - name: иазскопе
+              href: /windows/desktop/api/Azroles/nn-azroles-iazscope
+              items:
+                - name: Методы Иазскопе
+                  href: iazscope-methods.md
+                  items:
+                    - name: Метод Аддполициадминистратор
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-addpolicyadministrator
+                    - name: Метод Аддполициадминистраторнаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-addpolicyadministratorname
+                    - name: Метод Аддполициреадер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-addpolicyreader
+                    - name: Метод Аддполициреадернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-addpolicyreadername
+                    - name: Метод Аддпропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-addpropertyitem
+                    - name: Метод Креатеаппликатионграуп
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-createapplicationgroup
+                    - name: Метод CreateRole
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-createrole
+                    - name: Метод CreateTask
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-createtask
+                    - name: Метод Делетеаппликатионграуп
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-deleteapplicationgroup
+                    - name: Метод Делетеполициадминистратор
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-deletepolicyadministrator
+                    - name: Метод Делетеполициадминистраторнаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-deletepolicyadministratorname
+                    - name: Метод Делетеполициреадер
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-deletepolicyreader
+                    - name: Метод Делетеполициреадернаме
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-deletepolicyreadername
+                    - name: Метод Делетепропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-deletepropertyitem
+                    - name: Метод Делетероле
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-deleterole
+                    - name: Метод Делететаск
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-deletetask
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-getproperty
+                    - name: Метод Опенаппликатионграуп
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-openapplicationgroup
+                    - name: Метод Опенроле
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-openrole
+                    - name: Метод Опентаск
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-opentask
+                    - name: Метод SetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-setproperty
+                    - name: Метод Submit
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-submit
+                - name: Свойства Иазскопе
+                  href: iazscope-properties.md
+                  items:
+                    - name: 'ApplicationData, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_applicationdata
+                    - name: 'Аппликатионграупс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_applicationgroups
+                    - name: 'Бизрулесвритабле, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_bizruleswritable
+                    - name: 'Канбеделегатед, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_canbedelegated
+                    - name: Свойство Description
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_description
+                    - name: Свойство Name
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_name
+                    - name: 'Полициадминистраторс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_policyadministrators
+                    - name: 'Полициадминистраторснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_policyadministratorsname
+                    - name: 'Полициреадерс, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_policyreaders
+                    - name: 'Полициреадерснаме, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_policyreadersname
+                    - name: 'Roles, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_roles
+                    - name: 'Tasks, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_tasks
+                    - name: Доступное для записи свойство
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_writable
+            - name: IAzScope2
+              href: /windows/desktop/api/Azroles/nn-azroles-iazscope2
+              items:
+                - name: Методы IAzScope2
+                  href: iazscope2-methods.md
+                  items:
+                    - name: Метод Креатеролеассигнмент
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope2-createroleassignment
+                    - name: Метод Креатероледефинитион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope2-createroledefinition
+                    - name: Метод Делетеролеассигнмент
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope2-deleteroleassignment
+                    - name: Метод Делетероледефинитион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope2-deleteroledefinition
+                    - name: Метод Опенролеассигнмент
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope2-openroleassignment
+                    - name: Метод Опенроледефинитион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope2-openroledefinition
+                - name: Свойства IAzScope2
+                  href: iazscope2-properties.md
+                  items:
+                    - name: 'RoleAssignments, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope2-get_roleassignments
+                    - name: 'RoleDefinitions, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscope2-get_roledefinitions
+            - name: иазскопес
+              href: /windows/desktop/api/Azroles/nn-azroles-iazscopes
+              items:
+                - name: Свойства Иазскопес
+                  href: iazscopes-properties.md
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscopes-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscopes-get_item
+                    - name: Свойство NewEnum
+                      href: /windows/desktop/api/Azroles/nf-azroles-iazscopes-get__newenum
+            - name: иазтаск
+              href: /windows/desktop/api/Azroles/nn-azroles-iaztask
+              items:
+                - name: Методы Иазтаск
+                  href: iaztask-methods.md
+                  items:
+                    - name: Метод Аддоператион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-addoperation
+                    - name: Метод Аддпропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-addpropertyitem
+                    - name: Метод AddTask
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-addtask
+                    - name: Метод Делетеоператион
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-deleteoperation
+                    - name: Метод Делетепропертитем
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-deletepropertyitem
+                    - name: Метод Делететаск
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-deletetask
+                    - name: Метод GetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-getproperty
+                    - name: Метод SetProperty
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-setproperty
+                    - name: Метод Submit
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-submit
+                - name: Свойства Иазтаск
+                  href: iaztask-properties.md
+                  items:
+                    - name: 'ApplicationData, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_applicationdata
+                    - name: 'Бизруле, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrule
+                    - name: 'Бизрулеимпортедпас, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizruleimportedpath
+                    - name: 'Бизрулелангуаже, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrulelanguage
+                    - name: Свойство Description
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_description
+                    - name: 'Исроледефинитион, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_isroledefinition
+                    - name: Свойство Name
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_name
+                    - name: Свойство Operations
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_operations
+                    - name: 'Tasks, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_tasks
+                    - name: Доступное для записи свойство
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_writable
+            - name: IAzTask2
+              href: /windows/desktop/api/Azroles/nn-azroles-iaztask2
+              items:
+                - name: Методы IAzTask2
+                  href: iaztask2-methods.md
+                  items:
+                    - name: Метод RoleAssignments
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztask2-roleassignments
+            - name: иазтаскс
+              href: /windows/desktop/api/Azroles/nn-azroles-iaztasks
+              items:
+                - name: Свойства Иазтаскс
+                  href: iaztasks-properties.md
+                  items:
+                    - name: 'Count, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztasks-get_count
+                    - name: Свойство Item
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztasks-get_item
+                    - name: '_NewEnum, свойство'
+                      href: /windows/desktop/api/Azroles/nf-azroles-iaztasks-get__newenum
+            - name: иеаксисервице
+              href: ieaxiservice.md
+              items:
+                - name: Методы Иеаксисервице
+                  href: ieaxiservice-methods.md
+                  items:
+                    - name: Метод Cleanup
+                      href: ieaxiservice-cleanup.md
+                    - name: Метод Initialize
+                      href: ieaxiservice-initialize.md
+            - name: иеаксисервицекаллбакк
+              href: ieaxiservicecallback.md
+              items:
+                - name: Методы Иеаксисервицекаллбакк
+                  href: ieaxiservicecallback-methods.md
+                  items:
+                    - name: Метод Верифифиле
+                      href: ieaxiservicecallback-verifyfile.md
+            - name: иеаксисистеминсталлер
+              href: ieaxisysteminstaller.md
+              items:
+                - name: Методы Иеаксисистеминсталлер
+                  href: ieaxisysteminstaller-methods.md
+                  items:
+                    - name: Метод Инитиализесистеминсталлер
+                      href: ieaxisysteminstaller-initializesysteminstaller.md
+            - name: иеффективепермиссион
+              href: /windows/desktop/api/aclui/nn-aclui-ieffectivepermission
+              items:
+                - name: Методы Иеффективепермиссион
+                  href: ieffectivepermission-methods.md
+                  items:
+                    - name: Метод Жетеффективепермиссион
+                      href: /windows/desktop/api/aclui/nf-aclui-ieffectivepermission-geteffectivepermission
+            - name: IEffectivePermission2
+              href: /windows/desktop/api/aclui/nn-aclui-ieffectivepermission2
+              items:
+                - name: Метод Компутиффективепермиссионвиссекондарисекурити
+                  href: /windows/desktop/api/aclui/nf-aclui-ieffectivepermission2-computeeffectivepermissionwithsecondarysecurity
+            - name: исекуритинформатион
+              href: /windows/desktop/api/aclui/nn-aclui-isecurityinformation
+              items:
+                - name: Методы Исекуритинформатион
+                  href: isecurityinformation-methods.md
+                  items:
+                    - name: Метод Жетакцессригхтс
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights
+                    - name: Метод Жетинхериттипес
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes
+                    - name: Метод Жетобжектинформатион
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation
+                    - name: Метод обеспечения безопасности
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity
+                    - name: Метод Мапженерик
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-mapgeneric
+                    - name: Метод Пропертишитпажекаллбакк
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-propertysheetpagecallback
+                    - name: Метод Сетсекурити
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity
+            - name: ISecurityInformation2
+              href: /windows/desktop/api/aclui/nn-aclui-isecurityinformation2
+              items:
+                - name: Методы ISecurityInformation2
+                  href: isecurityinformation2-methods.md
+                  items:
+                    - name: Метод Исдаклканоникал
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation2-isdaclcanonical
+                    - name: Метод Лукупсидс
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids
+            - name: ISecurityInformation3
+              href: /windows/desktop/api/aclui/nn-aclui-isecurityinformation3
+              items:
+                - name: Методы ISecurityInformation3
+                  href: isecurityinformation3-methods.md
+                  items:
+                    - name: Метод Жетфуллресаурценаме
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation3-getfullresourcename
+                    - name: Метод Опенелеватедедитор
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation3-openelevatededitor
+            - name: ISecurityInformation4
+              href: /windows/desktop/api/aclui/nn-aclui-isecurityinformation4
+              items:
+                - name: Метод Жетсекондарисекурити
+                  href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation4-getsecondarysecurity
+            - name: исекуритйобжекттипеинфо
+              href: /windows/desktop/api/aclui/nn-aclui-isecurityobjecttypeinfo
+              items:
+                - name: Методы Исекуритйобжекттипеинфо
+                  href: isecurityobjecttypeinfo-methods.md
+                  items:
+                    - name: Метод Жетинхеритсаурце
+                      href: /windows/desktop/api/aclui/nf-aclui-isecurityobjecttypeinfo-getinheritsource
+        - name: Объекты авторизации
+          href: authorization-objects.md
+          items:
+            - name: Циеаксиинсталлерсервице
+              href: cieaxiinstallerservice.md
+        - name: Структуры авторизации
+          href: authorization-structures.md
+          items:
+            - name: ACCESS_ALLOWED_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-access_allowed_ace
+            - name: ACCESS_ALLOWED_CALLBACK_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-access_allowed_callback_ace
+            - name: ACCESS_ALLOWED_CALLBACK_OBJECT_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-access_allowed_callback_object_ace
+            - name: ACCESS_ALLOWED_OBJECT_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-access_allowed_object_ace
+            - name: ACCESS_DENIED_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-access_denied_ace
+            - name: ACCESS_DENIED_CALLBACK_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-access_denied_callback_ace
+            - name: ACCESS_DENIED_CALLBACK_OBJECT_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-access_denied_callback_object_ace
+            - name: ACCESS_DENIED_OBJECT_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-access_denied_object_ace
+            - name: ТУЗ
+              href: ace.md
+            - name: ACE_HEADER
+              href: /windows/win32/api/Winnt/ns-winnt-ace_header
+            - name: СПИСКОМ
+              href: /windows/win32/api/Winnt/ns-winnt-acl
+            - name: ACL_REVISION_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-acl_revision_information
+            - name: ACL_SIZE_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-acl_size_information
+            - name: AUDIT_POLICY_INFORMATION
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-audit_policy_information
+            - name: AUTHZ_ACCESS_REPLY
+              href: /windows/win32/api/Authz/ns-authz-authz_access_reply
+            - name: AUTHZ_ACCESS_REQUEST
+              href: /windows/win32/api/Authz/ns-authz-authz_access_request
+            - name: AUTHZ_INIT_INFO
+              href: /windows/win32/api/Authz/ns-authz-authz_init_info
+            - name: AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
+              href: /windows/win32/api/Authz/ns-authz-authz_registration_object_type_name_offset
+            - name: AUTHZ_RPC_INIT_INFO_CLIENT
+              href: /windows/win32/api/Authz/ns-authz-authz_rpc_init_info_client
+            - name: AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
+              href: /windows/win32/api/Authz/ns-authz-authz_security_attribute_fqbn_value
+            - name: AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
+              href: /windows/win32/api/Authz/ns-authz-authz_security_attribute_octet_string_value
+            - name: AUTHZ_SECURITY_ATTRIBUTE_V1
+              href: /windows/win32/api/Authz/ns-authz-authz_security_attribute_v1
+            - name: AUTHZ_SECURITY_ATTRIBUTES_INFORMATION
+              href: /windows/win32/api/Authz/ns-authz-authz_security_attributes_information
+            - name: AUTHZ_SOURCE_SCHEMA_REGISTRATION
+              href: /windows/win32/api/Authz/ns-authz-authz_source_schema_registration
+            - name: CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
+              href: /windows/win32/api/Winnt/ns-winnt-claim_security_attribute_fqbn_value
+            - name: CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
+              href: /windows/win32/api/Winnt/ns-winnt-claim_security_attribute_octet_string_value
+            - name: CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
+              href: /windows/win32/api/Winnt/ns-winnt-claim_security_attribute_relative_v1
+            - name: CLAIM_SECURITY_ATTRIBUTE_V1
+              href: /windows/win32/api/Winnt/ns-winnt-claim_security_attribute_v1
+            - name: CLAIM_SECURITY_ATTRIBUTES_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-claim_security_attributes_information
+            - name: EFFPERM_RESULT_LIST
+              href: /windows/win32/api/Aclui/ns-aclui-effperm_result_list
+            - name: EXPLICIT_ACCESS
+              href: /windows/win32/api/AccCtrl/ns-accctrl-explicit_access_a
+            - name: GENERIC_MAPPING
+              href: /windows/win32/api/Winnt/ns-winnt-generic_mapping
+            - name: INHERITED_FROM
+              href: /windows/win32/api/AccCtrl/ns-accctrl-inherited_froma
+            - name: LUID
+              href: /windows/win32/api/Winnt/ns-winnt-luid
+            - name: LUID_AND_ATTRIBUTES
+              href: /windows/win32/api/Winnt/ns-winnt-luid_and_attributes
+            - name: OBJECT_TYPE_LIST
+              href: /windows/win32/api/Winnt/ns-winnt-object_type_list
+            - name: OBJECTS_AND_NAME
+              href: /windows/win32/api/AccCtrl/ns-accctrl-objects_and_name_a
+            - name: OBJECTS_AND_SID
+              href: /windows/win32/api/AccCtrl/ns-accctrl-objects_and_sid
+            - name: POLICY_AUDIT_SID_ARRAY
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-policy_audit_sid_array
+            - name: PRIVILEGE_SET
+              href: /windows/win32/api/Winnt/ns-winnt-privilege_set
+            - name: SECURITY_ATTRIBUTES
+              href: /previous-versions/windows/desktop/legacy/aa379560(v=vs.85)
+            - name: SECURITY_CAPABILITIES
+              href: /windows/win32/api/Winnt/ns-winnt-security_capabilities
+            - name: SECURITY_DESCRIPTOR
+              href: /windows/win32/api/Winnt/ns-winnt-security_descriptor
+            - name: SECURITY_OBJECT
+              href: /windows/win32/api/Aclui/ns-aclui-security_object
+            - name: SECURITY_QUALITY_OF_SERVICE
+              href: /windows/win32/api/Winnt/ns-winnt-security_quality_of_service
+            - name: SI_ACCESS
+              href: /windows/win32/api/Aclui/ns-aclui-si_access
+            - name: SI_INHERIT_TYPE
+              href: /windows/win32/api/Aclui/ns-aclui-si_inherit_type
+            - name: SI_OBJECT_INFO
+              href: /windows/win32/api/Aclui/ns-aclui-si_object_info
+            - name: SID
+              href: /windows/win32/api/Winnt/ns-winnt-sid
+            - name: SID_AND_ATTRIBUTES
+              href: /windows/win32/api/Winnt/ns-winnt-sid_and_attributes
+            - name: SID_AND_ATTRIBUTES_HASH
+              href: /windows/win32/api/Winnt/ns-winnt-sid_and_attributes_hash
+            - name: SID_IDENTIFIER_AUTHORITY
+              href: /windows/win32/api/Winnt/ns-winnt-sid_identifier_authority
+            - name: SID_INFO
+              href: /windows/win32/api/Aclui/ns-aclui-sid_info
+            - name: SID_INFO_LIST
+              href: /windows/win32/api/Aclui/ns-aclui-sid_info_list
+            - name: SYSTEM_ALARM_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-system_alarm_ace
+            - name: SYSTEM_ALARM_CALLBACK_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-system_alarm_callback_ace
+            - name: SYSTEM_ALARM_CALLBACK_OBJECT_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-system_alarm_callback_object_ace
+            - name: SYSTEM_ALARM_OBJECT_ACE
+              href: /windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace
+            - name: SYSTEM_AUDIT_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-system_audit_ace
+            - name: SYSTEM_AUDIT_CALLBACK_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-system_audit_callback_ace
+            - name: SYSTEM_AUDIT_CALLBACK_OBJECT_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-system_audit_callback_object_ace
+            - name: SYSTEM_AUDIT_OBJECT_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-system_alarm_object_ace
+            - name: SYSTEM_MANDATORY_LABEL_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-system_mandatory_label_ace
+            - name: SYSTEM_RESOURCE_ATTRIBUTE_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-system_resource_attribute_ace
+            - name: SYSTEM_SCOPED_POLICY_ID_ACE
+              href: /windows/win32/api/Winnt/ns-winnt-system_scoped_policy_id_ace
+            - name: TOKEN_ACCESS_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-token_access_information
+            - name: TOKEN_APPCONTAINER_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-token_appcontainer_information
+            - name: TOKEN_AUDIT_POLICY
+              href: /windows/win32/api/Winnt/ns-winnt-token_audit_policy
+            - name: TOKEN_CONTROL
+              href: /windows/win32/api/Winnt/ns-winnt-token_control
+            - name: TOKEN_DEFAULT_DACL
+              href: /windows/win32/api/Winnt/ns-winnt-token_default_dacl
+            - name: TOKEN_DEVICE_CLAIMS
+              href: /windows/win32/api/Winnt/ns-winnt-token_device_claims
+            - name: TOKEN_ELEVATION
+              href: /windows/win32/api/Winnt/ns-winnt-token_elevation
+            - name: TOKEN_GROUPS
+              href: /windows/win32/api/Winnt/ns-winnt-token_groups
+            - name: TOKEN_GROUPS_AND_PRIVILEGES
+              href: /windows/win32/api/Winnt/ns-winnt-token_groups_and_privileges
+            - name: TOKEN_LINKED_TOKEN
+              href: /windows/win32/api/Winnt/ns-winnt-token_linked_token
+            - name: TOKEN_MANDATORY_LABEL
+              href: /windows/win32/api/Winnt/ns-winnt-token_mandatory_label
+            - name: TOKEN_MANDATORY_POLICY
+              href: /windows/win32/api/Winnt/ns-winnt-token_mandatory_policy
+            - name: TOKEN_ORIGIN
+              href: /windows/win32/api/Winnt/ns-winnt-token_origin
+            - name: TOKEN_OWNER
+              href: /windows/win32/api/Winnt/ns-winnt-token_owner
+            - name: TOKEN_PRIMARY_GROUP
+              href: /windows/win32/api/Winnt/ns-winnt-token_primary_group
+            - name: TOKEN_PRIVILEGES
+              href: /windows/win32/api/Winnt/ns-winnt-token_privileges
+            - name: TOKEN_SOURCE
+              href: /windows/win32/api/Winnt/ns-winnt-token_source
+            - name: TOKEN_STATISTICS
+              href: /windows/win32/api/Winnt/ns-winnt-token_statistics
+            - name: TOKEN_USER
+              href: /windows/win32/api/Winnt/ns-winnt-token_user
+            - name: TOKEN_USER_CLAIMS
+              href: /windows/win32/api/Winnt/ns-winnt-token_user_claims
+            - name: ДОВЕРЕННОЕ лицо
+              href: /windows/win32/api/AccCtrl/ns-accctrl-trustee_a
+    - name: Сборка Microsoft. Interop. Security. Азролес
+      href: microsoft-interop-security-azroles-assembly.md
+      items:
+        - name: Microsoft. Interop. Security. Азролес. Иазаппликатион
+          href: microsoft-interop-security-azroles-iazapplication-interface.md
+        - name: Microsoft. Interop. Security. Азролес. IAzApplication2
+          href: microsoft-interop-security-azroles-iazapplication2-interface.md
+        - name: Microsoft. Interop. Security. Азролес. IAzApplication3
+          href: microsoft-interop-security-azroles-iazapplication3-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазаппликатионграуп
+          href: microsoft-interop-security-azroles-iazapplicationgroup-interface.md
+        - name: Microsoft. Interop. Security. Азролес. IAzApplicationGroup2
+          href: microsoft-interop-security-azroles-iazapplicationgroup2-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазаппликатионграупс
+          href: microsoft-interop-security-azroles-iazapplicationgroups-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазаппликатионс
+          href: microsoft-interop-security-azroles-iazapplications-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазаусоризатионсторе
+          href: microsoft-interop-security-azroles-azauthorizationstore-interface.md
+        - name: Microsoft. Interop. Security. Азролес. IAzAuthorizationStore2
+          href: microsoft-interop-security-azroles-iazauthorizationstore2-interfac.md
+        - name: Microsoft. Interop. Security. Азролес. IAzAuthorizationStore3
+          href: microsoft-interop-security-azroles-iazauthorizationstore3-interfac.md
+        - name: Microsoft. Interop. Security. Азролес. Иазбизрулеконтекст
+          href: microsoft-interop-security-azroles-azbizrulecontext-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазбизрулеинтерфацес
+          href: microsoft-interop-security-azroles-iazbizruleinterfaces-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазбизрулепараметерс
+          href: microsoft-interop-security-azroles-iazbizruleparameters-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазклиентконтекст
+          href: microsoft-interop-security-azroles-iazclientcontext-interface.md
+        - name: Microsoft. Interop. Security. Азролес. IAzClientContext2
+          href: microsoft-interop-security-azroles-iazclientcontext2-interface.md
+        - name: Microsoft. Interop. Security. Азролес. IAzClientContext3
+          href: microsoft-interop-security-azroles-iazclientcontext3-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазнамересолвер
+          href: microsoft-interop-security-azroles-iaznameresolver-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазобжектпиккер
+          href: microsoft-interop-security-azroles-iazobjectpicker-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазоператион
+          href: microsoft-interop-security-azroles-iazoperation-interface.md
+        - name: Microsoft. Interop. Security. Азролес. IAzOperation2
+          href: microsoft-interop-security-azroles-iazoperation2-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазоператионс
+          href: microsoft-interop-security-azroles-iazoperations-interface.md
+        - name: Microsoft. Interop. Security. Азролес. ИазпринЦипаллокатор
+          href: microsoft-interop-security-azroles-iazprincipallocator-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазроле
+          href: microsoft-interop-security-azroles-iazrole-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазролеассигнмент
+          href: microsoft-interop-security-azroles-iazroleassignment-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазролеассигнментс
+          href: microsoft-interop-security-azroles-iazroleassignments-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазроледефинитион
+          href: microsoft-interop-security-azroles-iazroledefinition-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазроледефинитионс
+          href: microsoft-interop-security-azroles-iazroledefinitions-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазролес
+          href: microsoft-interop-security-azroles-iazroles-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазскопе
+          href: microsoft-interop-security-azroles-iazscope-interface.md
+        - name: Microsoft. Interop. Security. Азролес. IAzScope2
+          href: microsoft-interop-security-azroles-iazscope2-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазскопес
+          href: microsoft-interop-security-azroles-iazscopes-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазтаск
+          href: microsoft-interop-security-azroles-iaztask-interface.md
+        - name: Microsoft. Interop. Security. Азролес. IAzTask2
+          href: microsoft-interop-security-azroles-iaztask2-interface.md
+        - name: Microsoft. Interop. Security. Азролес. Иазтаскс
+          href: microsoft-interop-security-azroles-iaztasks-interface.md

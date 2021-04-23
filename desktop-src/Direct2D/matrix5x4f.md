@@ -1,0 +1,80 @@
+---
+title: Класс Matrix5x4F (D2d1 \_ Helper. h)
+description: Класс Matrix5x4F представляет матрицу с 5 по 4 и предоставляет удобные методы для создания матриц.
+ms.assetid: F014694B-5117-48E1-89F7-2F943515AEC6
+keywords:
+- Класс Matrix5x4F Direct2D
+- Matrix5x4F класс Direct2D, описание
+topic_type:
+- apiref
+api_name:
+- Matrix5x4F
+api_location:
+- D2d1.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 328214224f23b4afafc52d8eb2883a58b5bf2f38
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104493287"
+---
+# <a name="matrix5x4f-class"></a><span data-ttu-id="4d896-105">Класс Matrix5x4F</span><span class="sxs-lookup"><span data-stu-id="4d896-105">Matrix5x4F class</span></span>
+
+<span data-ttu-id="4d896-106">Класс **Matrix5x4F** представляет матрицу с 5 по 4 и предоставляет удобные методы для создания матриц.</span><span class="sxs-lookup"><span data-stu-id="4d896-106">The **Matrix5x4F** class represents a 5-by-4 matrix and provides convenience methods for creating matrices.</span></span>
+
+## <a name="members"></a><span data-ttu-id="4d896-107">Элементы</span><span class="sxs-lookup"><span data-stu-id="4d896-107">Members</span></span>
+
+<span data-ttu-id="4d896-108">Класс **Matrix5x4F** наследует от [**D2D1 \_ Matrix \_ 5x4 \_ F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_5x4_f).</span><span class="sxs-lookup"><span data-stu-id="4d896-108">The **Matrix5x4F** class inherits from [**D2D1\_MATRIX\_5X4\_F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_5x4_f).</span></span> <span data-ttu-id="4d896-109">**Matrix5x4F** также имеет следующие типы членов:</span><span class="sxs-lookup"><span data-stu-id="4d896-109">**Matrix5x4F** also has these types of members:</span></span>
+
+-   [<span data-ttu-id="4d896-110">Конструкторы</span><span class="sxs-lookup"><span data-stu-id="4d896-110">Constructors</span></span>](#constructors)
+
+### <a name="constructors"></a><span data-ttu-id="4d896-111">Конструкторы</span><span class="sxs-lookup"><span data-stu-id="4d896-111">Constructors</span></span>
+
+<span data-ttu-id="4d896-112">Класс **Matrix5x4F** содержит эти конструкторы.</span><span class="sxs-lookup"><span data-stu-id="4d896-112">The **Matrix5x4F** class has these constructors.</span></span>
+
+
+
+| <span data-ttu-id="4d896-113">Конструктор</span><span class="sxs-lookup"><span data-stu-id="4d896-113">Constructor</span></span>                                                                                                                                                                                                                                                                                           | <span data-ttu-id="4d896-114">Описание</span><span class="sxs-lookup"><span data-stu-id="4d896-114">Description</span></span>                                                                                                                        |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="4d896-115">**Matrix5x4F()**</span><span class="sxs-lookup"><span data-stu-id="4d896-115">**Matrix5x4F()**</span></span>](matrix5x4f-matrix5x4f--.md)                                                                                                                                                                                                                                                       | <span data-ttu-id="4d896-116">Создает новый экземпляр неинициализированного класса **Matrix5x4F** .</span><span class="sxs-lookup"><span data-stu-id="4d896-116">Instantiates a new instance of an uninitialized **Matrix5x4F** class.</span></span><br/>                                                   |
+| [<span data-ttu-id="4d896-117">**Matrix5x4F (FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, float, FLOAT, float, float, float, float, float, float, float, float, float, float) (FLOAT, FLOAT, float, float, float, float, float, float, float, float, float, float, плавающее, float, float, float, float, float, float, float)**</span><span class="sxs-lookup"><span data-stu-id="4d896-117">**Matrix5x4F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)**</span></span>](matrix5x4f-matrix5x4f-floats-.md) | <span data-ttu-id="4d896-118">Создает новый экземпляр класса **Matrix5x4F** , инициализируемый всеми значениями матрицы с плавающей запятой.</span><span class="sxs-lookup"><span data-stu-id="4d896-118">Instantiates a new instance of a **Matrix5x4F** class that is initialized with all of the floating point matrix values.</span></span><br/> |
+
+
+
+ 
+
+## <a name="requirements"></a><span data-ttu-id="4d896-119">Требования</span><span class="sxs-lookup"><span data-stu-id="4d896-119">Requirements</span></span>
+
+
+
+| <span data-ttu-id="4d896-120">Требование</span><span class="sxs-lookup"><span data-stu-id="4d896-120">Requirement</span></span> | <span data-ttu-id="4d896-121">Значение</span><span class="sxs-lookup"><span data-stu-id="4d896-121">Value</span></span> |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="4d896-122">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="4d896-122">Minimum supported client</span></span><br/> | <span data-ttu-id="4d896-123">Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для \[ классических приложений Windows Vista \| приложения UWP\]</span><span class="sxs-lookup"><span data-stu-id="4d896-123">Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]</span></span><br/>                          |
+| <span data-ttu-id="4d896-124">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="4d896-124">Minimum supported server</span></span><br/> | <span data-ttu-id="4d896-125">Windows Server 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновление платформы для Windows Server 2008 классические \[ приложения \| UWP\]</span><span class="sxs-lookup"><span data-stu-id="4d896-125">Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]</span></span><br/> |
+| <span data-ttu-id="4d896-126">Минимальный поддерживаемый телефон</span><span class="sxs-lookup"><span data-stu-id="4d896-126">Minimum supported phone</span></span><br/>  | <span data-ttu-id="4d896-127">Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]</span><span class="sxs-lookup"><span data-stu-id="4d896-127">Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]</span></span><br/>                                                  |
+| <span data-ttu-id="4d896-128">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="4d896-128">Namespace</span></span><br/>                | <span data-ttu-id="4d896-129">D2D1</span><span class="sxs-lookup"><span data-stu-id="4d896-129">D2D1</span></span><br/>                                                                                                                          |
+| <span data-ttu-id="4d896-130">Header</span><span class="sxs-lookup"><span data-stu-id="4d896-130">Header</span></span><br/>                   | <dl> <span data-ttu-id="4d896-131"><dt>\_Вспомогательный метод D2d1. h</dt></span><span class="sxs-lookup"><span data-stu-id="4d896-131"><dt>D2d1\_helper.h</dt></span></span> </dl>                                                |
+| <span data-ttu-id="4d896-132">Библиотека</span><span class="sxs-lookup"><span data-stu-id="4d896-132">Library</span></span><br/>                  | <dl> <span data-ttu-id="4d896-133"><dt>D2d1. lib</dt></span><span class="sxs-lookup"><span data-stu-id="4d896-133"><dt>D2d1.lib</dt></span></span> </dl>                                                      |
+| <span data-ttu-id="4d896-134">DLL</span><span class="sxs-lookup"><span data-stu-id="4d896-134">DLL</span></span><br/>                      | <dl> <span data-ttu-id="4d896-135"><dt>D2d1.dll</dt></span><span class="sxs-lookup"><span data-stu-id="4d896-135"><dt>D2d1.dll</dt></span></span> </dl>                                                      |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="4d896-136">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="4d896-136">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="4d896-137">**D2D1 \_ Матрица \_ 5x4 \_ F**</span><span class="sxs-lookup"><span data-stu-id="4d896-137">**D2D1\_MATRIX\_5X4\_F**</span></span>](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_5x4_f)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

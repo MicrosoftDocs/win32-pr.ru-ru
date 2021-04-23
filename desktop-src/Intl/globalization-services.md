@@ -1,0 +1,28 @@
+---
+description: Службы глобализации
+ms.assetid: 24bf4d02-c8c9-4294-9a4c-54eb993bab3e
+title: Службы глобализации
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 4dff020a479a0c08b64fd0a7579b3749f4a2c8d0
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105650982"
+---
+# <a name="globalization-services"></a><span data-ttu-id="0c5b9-103">Службы глобализации</span><span class="sxs-lookup"><span data-stu-id="0c5b9-103">Globalization Services</span></span>
+
+<span data-ttu-id="0c5b9-104">Службы глобализации предоставляют базовую поддержку глобализации для языков и регионов, позволяя создавать глобализованные приложения, которые применяются к широкому спектру международных клиентов.</span><span class="sxs-lookup"><span data-stu-id="0c5b9-104">Globalization Services exposes core globalization support for languages and regions to enable creation of globalized applications that apply to a broad range of international customers.</span></span> <span data-ttu-id="0c5b9-105">Эта технология обеспечивает инфраструктуру глобализации для поддержки взаимодействия с пользователем Windows в соответствии с лингвистическими и региональными параметрами.</span><span class="sxs-lookup"><span data-stu-id="0c5b9-105">This technology supplies the globalization infrastructure to support a Windows user experience that is consistent, and linguistically and culturally appropriate.</span></span> <span data-ttu-id="0c5b9-106">Службы глобализации включают следующие технологии:</span><span class="sxs-lookup"><span data-stu-id="0c5b9-106">Globalization Services includes the following technologies:</span></span>
+
+-   <span data-ttu-id="0c5b9-107">[Расширенные лингвистические службы](extended-linguistic-services.md).</span><span class="sxs-lookup"><span data-stu-id="0c5b9-107">[Extended Linguistic Services](extended-linguistic-services.md).</span></span> <span data-ttu-id="0c5b9-108">Предоставляет ряд текстовых служб для разработчиков Windows (включая определение языка, транслитерацию и другие основные лингвистические функции), а также платформу и интерфейсы для приложений, которые позволяют легко использовать службы и интерфейсы, позволяющие разработчикам добавлять собственные службы.</span><span class="sxs-lookup"><span data-stu-id="0c5b9-108">Provides a range of text-based services for Windows developers (including language detection, transliteration, and other core linguistic functionality) and the platform and interfaces for applications to consume services easily, as well as interfaces to allow developers to add services of their own.</span></span>
+-   <span data-ttu-id="0c5b9-109">[Международные компоненты для Юникода (ICU)](international-components-for-unicode--icu-.md).</span><span class="sxs-lookup"><span data-stu-id="0c5b9-109">[International Components for Unicode (ICU)](international-components-for-unicode--icu-.md).</span></span> <span data-ttu-id="0c5b9-110">Предоставляет зрелый, широко используемый набор API-интерфейсов глобализации с открытым кодом.</span><span class="sxs-lookup"><span data-stu-id="0c5b9-110">Provides a mature, widely used set of open-source globalization APIs.</span></span> <span data-ttu-id="0c5b9-111">ICU использует обширный общий языковой стандарт Юникода (КЛДР) в качестве библиотеки данных, предоставляя поддержку глобализации для программных приложений.</span><span class="sxs-lookup"><span data-stu-id="0c5b9-111">ICU utilizes Unicode’s vast Common Locale Data Repository (CLDR) as it’s data library, providing Globalization support for software applications.</span></span> <span data-ttu-id="0c5b9-112">ICU является широко переносимым и дает приложениям одинаковые результаты во всех платформах.</span><span class="sxs-lookup"><span data-stu-id="0c5b9-112">ICU is widely portable and gives applications the same results across on all platforms.</span></span>
+-   <span data-ttu-id="0c5b9-113">[Поддержка национальных языков](national-language-support.md).</span><span class="sxs-lookup"><span data-stu-id="0c5b9-113">[National Language Support](national-language-support.md).</span></span> <span data-ttu-id="0c5b9-114">Предоставляет международные данные и интерфейсы API для поддержки форматирования даты, времени и календаря, раскладок клавиатуры, сортировки, аспектов включения текста и других основных сведений о языковых стандартах.</span><span class="sxs-lookup"><span data-stu-id="0c5b9-114">Provides international data and APIs to support date, time, and calendar formatting, keyboard layouts, sorting behavior, aspects of text enablement, and other core locale information.</span></span>
+-   <span data-ttu-id="0c5b9-115">[API проверки орфографии](spell-checker-api.md).</span><span class="sxs-lookup"><span data-stu-id="0c5b9-115">[Spell Checking API](spell-checker-api.md).</span></span> <span data-ttu-id="0c5b9-116">Предоставляет разработчикам API-интерфейс для использования возможностей проверки орфографии для проверки текста, получения предложений и сопровождения параметров и пользовательских словарей.</span><span class="sxs-lookup"><span data-stu-id="0c5b9-116">Provides an API for developers to consume spell-checking capability to check text, get suggestions, and maintain settings and user dictionaries.</span></span> <span data-ttu-id="0c5b9-117">Разработчики также могут создавать средства проверки орфографии, интегрированные в платформу проверки орфографии в качестве поставщиков.</span><span class="sxs-lookup"><span data-stu-id="0c5b9-117">Developers can also create spell checkers that are integrated into the spell-checking framework as providers.</span></span>
+
+ 
+
+ 
+
+
+

@@ -1,0 +1,74 @@
+---
+title: Вопросы производительности и рекомендации
+description: В этом разделе представлен набор рекомендаций по использованию интерфейсов API диспетчер окон рабочего стола (DWM).
+ms.assetid: 5b1f6ff8-1d3f-4a70-8efd-90f8802e8532
+keywords:
+- Диспетчер окон рабочего стола (DWM), рекомендации
+- DWM (диспетчер окон рабочего стола), рекомендации
+- Диспетчер окон рабочего стола (DWM), рекомендации по приложениям
+- DWM (диспетчер окон рабочего стола), рекомендации по приложениям
+- Диспетчер окон рабочего стола (DWM), способы рисования
+- DWM (диспетчер окон рабочего стола), рекомендации по рисованию
+- Диспетчер окон рабочего стола (DWM), размытие за эффектом
+- DWM (диспетчер окон рабочего стола), размытие за эффект
+- рекомендации по приложениям
+- способы рисования
+- Размытие за эффект
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: ec76a4920a91f9502940e866d58641a2550d9354
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "105700917"
+---
+# <a name="performance-considerations-and-best-practices"></a><span data-ttu-id="0730c-114">Вопросы производительности и рекомендации</span><span class="sxs-lookup"><span data-stu-id="0730c-114">Performance Considerations and Best Practices</span></span>
+
+<span data-ttu-id="0730c-115">В этом разделе представлен набор рекомендаций по использованию интерфейсов API диспетчер окон рабочего стола (DWM).</span><span class="sxs-lookup"><span data-stu-id="0730c-115">This topic presents a set of best practices for using the Desktop Window Manager (DWM) APIs.</span></span>
+
+<span data-ttu-id="0730c-116">В этом разделе содержатся следующие подразделы.</span><span class="sxs-lookup"><span data-stu-id="0730c-116">This topic contains the following sections:</span></span>
+
+-   [<span data-ttu-id="0730c-117">Рекомендации по приложениям для DWM</span><span class="sxs-lookup"><span data-stu-id="0730c-117">Application Practices for DWM</span></span>](#application-practices-for-dwm)
+-   [<span data-ttu-id="0730c-118">Методики рисования для DWM</span><span class="sxs-lookup"><span data-stu-id="0730c-118">Drawing Practices for DWM</span></span>](#drawing-practices-for-dwm)
+-   [<span data-ttu-id="0730c-119">Область клиента DWM Blur-Behind</span><span class="sxs-lookup"><span data-stu-id="0730c-119">DWM Blur-Behind Client Region</span></span>](#dwm-blur-behind-client-region)
+
+## <a name="application-practices-for-dwm"></a><span data-ttu-id="0730c-120">Рекомендации по приложениям для DWM</span><span class="sxs-lookup"><span data-stu-id="0730c-120">Application Practices for DWM</span></span>
+
+<span data-ttu-id="0730c-121">Если приложение обрабатывает масштабирование точек на дюйм, можно объявить приложение как поддерживающее dpi и запретить автоматическое масштабирование, установив флаг с учетом dpi в манифесте программы или вызвав функцию [**сетпроцессдпиаваре**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) во время инициализации программы.</span><span class="sxs-lookup"><span data-stu-id="0730c-121">If your application handles dots per inch (dpi) scaling, you can declare an application as dpi-aware and prevent automatic scaling by setting the dpi-aware flag in the program's manifest or by calling the [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function during program initialization.</span></span>
+
+<span data-ttu-id="0730c-122">Если композиция DWM включена, скрытые приложения больше не получают сообщения [**WM \_ Paint**](/windows/desktop/gdi/wm-paint) и не запрашивает повторное отображение.</span><span class="sxs-lookup"><span data-stu-id="0730c-122">With DWM composition turned on, obscured applications no longer receive [**WM\_PAINT**](/windows/desktop/gdi/wm-paint) messages and are not asked to re-render.</span></span> <span data-ttu-id="0730c-123">Содержимое каждого окна уже доступно для создания изображения экрана.</span><span class="sxs-lookup"><span data-stu-id="0730c-123">Each window's content is already available to compose the screen image.</span></span>
+
+<span data-ttu-id="0730c-124">[**\_ \_ Прозрачные**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) окна верхнего уровня WS ex следует объединять с **\_ \_ Многоуровневый стилем WS ex** в целях проверки попадания.</span><span class="sxs-lookup"><span data-stu-id="0730c-124">Top-level [**WS\_EX\_TRANSPARENT**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) windows should be combined with a **WS\_EX\_LAYERED** style for the purposes of hit testing.</span></span> <span data-ttu-id="0730c-125">**Служба WS \_ ПРИМЕРная \_ прозрачность** в классическом смысле, без перенаправления, полезна для дочерних окон в иерархии окон, принадлежащих одному и тому же потоку, но не предназначенной для окон верхнего уровня.</span><span class="sxs-lookup"><span data-stu-id="0730c-125">**WS\_EX\_TRANSPARENT** in the classic sense, without redirection, is useful for child windows in a hierarchy of windows that belong to the same thread, but is not intended for top-level windows.</span></span>
+
+<span data-ttu-id="0730c-126">Используйте области или слои для создания окон или смешивания.</span><span class="sxs-lookup"><span data-stu-id="0730c-126">Use regions or layering to create shaped or blended windows.</span></span> <span data-ttu-id="0730c-127">Обратите внимание, что в Windows Vista и более поздних версиях Windows пользовательское рисование только в части окна верхнего уровня не будет предоставлять необходимое устаревшее содержимое в нерисуемых регионах.</span><span class="sxs-lookup"><span data-stu-id="0730c-127">Note that in Windows Vista and later versions of Windows, custom drawing only part of a top-level window will not provide the desired stale content in undrawn regions.</span></span>
+
+<span data-ttu-id="0730c-128">Для определения определенных фактических значений можно использовать API-интерфейсы, такие как [**жетдкоржекс**](/windows/desktop/api/wingdi/nf-wingdi-getdcorgex) .</span><span class="sxs-lookup"><span data-stu-id="0730c-128">APIs such as [**GetDCOrgEx**](/windows/desktop/api/wingdi/nf-wingdi-getdcorgex) can be used to determine certain actual values.</span></span> <span data-ttu-id="0730c-129">При наличии контекста устройства (DC) для перенаправляемого окна Источник, возвращенный **жетдкоржекс** , не будет соответствовать источнику окна на экране.</span><span class="sxs-lookup"><span data-stu-id="0730c-129">If you have a device context (DC) for a redirected window, the origin returned by **GetDCOrgEx** will not match the origin of your window on the screen.</span></span> <span data-ttu-id="0730c-130">Вместо этого источником будет источник поверхности заднего буфера для окна: (0, 0).</span><span class="sxs-lookup"><span data-stu-id="0730c-130">The origin will instead be the origin of the back-buffer surface for your window: (0, 0).</span></span>
+
+<span data-ttu-id="0730c-131">Если все остальное не удается, отключите отрисовку окна, вызвав функцию [**двмсетвиндоваттрибуте**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetwindowattribute) .</span><span class="sxs-lookup"><span data-stu-id="0730c-131">When all else fails, disable window rendering by calling the [**DwmSetWindowAttribute**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetwindowattribute) function.</span></span>
+
+## <a name="drawing-practices-for-dwm"></a><span data-ttu-id="0730c-132">Методики рисования для DWM</span><span class="sxs-lookup"><span data-stu-id="0730c-132">Drawing Practices for DWM</span></span>
+
+<span data-ttu-id="0730c-133">Избегайте рисования непосредственно на основной поверхности отображения.</span><span class="sxs-lookup"><span data-stu-id="0730c-133">Avoid drawing directly to the primary display surface.</span></span> <span data-ttu-id="0730c-134">В этом случае диспетчер DWM будет вынужден отключить композицию, пока приложение не освободит поверхность основного устройства.</span><span class="sxs-lookup"><span data-stu-id="0730c-134">Doing so will force the DWM to disable composition until your application releases the primary device surface.</span></span>
+
+<span data-ttu-id="0730c-135">Оцените, должен ли приложение предоставлять собственную двойную буферизацию.</span><span class="sxs-lookup"><span data-stu-id="0730c-135">Evaluate whether your application must provide its own double buffering.</span></span> <span data-ttu-id="0730c-136">DWM фактически дважды замещает содержимое и представляет окно в одном кадре.</span><span class="sxs-lookup"><span data-stu-id="0730c-136">The DWM effectively double buffers content and presents the window in a single frame.</span></span>
+
+<span data-ttu-id="0730c-137">Избегайте чтения или записи в отображаемый контроллер домена.</span><span class="sxs-lookup"><span data-stu-id="0730c-137">Avoid reading from or writing to a display DC.</span></span> <span data-ttu-id="0730c-138">Хотя это и поддерживается DWM, мы не рекомендуем использовать его из-за снижения производительности.</span><span class="sxs-lookup"><span data-stu-id="0730c-138">Although supported by DWM, we do not recommend it because of decreased performance.</span></span>
+
+<span data-ttu-id="0730c-139">Избегайте прорисовки в области, не являющейся клиентской.</span><span class="sxs-lookup"><span data-stu-id="0730c-139">Avoid drawing in the non-client area.</span></span> <span data-ttu-id="0730c-140">Несмотря на то, что эта область может быть доступна для приложения, и отрисовка поддерживается в Microsoft Win32 API, это может привести к потере окон прозрачным обрамлением.</span><span class="sxs-lookup"><span data-stu-id="0730c-140">Although this area can be accessed by the application, and drawing there is supported by the Microsoft Win32 API, doing this can cause the window to lose any glass border it has.</span></span>
+
+<span data-ttu-id="0730c-141">Старайтесь не смешивать Windows интерфейс графических устройств (GDI) и Microsoft DirectX, если они не перекрываются.</span><span class="sxs-lookup"><span data-stu-id="0730c-141">Avoid mixing Windows Graphics Device Interface (GDI) and Microsoft DirectX unless they do not overlap.</span></span> <span data-ttu-id="0730c-142">Если требуется смешивание, разместите содержимое GDI на поверхности программного обеспечения DirectX и объедините их перед созданием на экране или нарисуйте их в отдельных окнах.</span><span class="sxs-lookup"><span data-stu-id="0730c-142">If mixing is necessary, either draw the GDI content into a DirectX software surface and combine them before composing to the screen, or else draw them in separate windows.</span></span>
+
+<span data-ttu-id="0730c-143">Используйте функцию [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) или [**СТРЕТЧБЛТ**](/windows/desktop/api/wingdi/nf-wingdi-stretchblt) вместо Windows GDI+ для представления документа для отрисовки.</span><span class="sxs-lookup"><span data-stu-id="0730c-143">Use [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) or [**StretchBlt**](/windows/desktop/api/wingdi/nf-wingdi-stretchblt) function instead of Windows GDI+ to present your drawing for rendering.</span></span> <span data-ttu-id="0730c-144">GDI+ отображает по одной строке сканирования за раз при отрисовке программного обеспечения.</span><span class="sxs-lookup"><span data-stu-id="0730c-144">GDI+ renders one scan line at a time with software rendering.</span></span> <span data-ttu-id="0730c-145">Это может вызвать мерцание в приложениях.</span><span class="sxs-lookup"><span data-stu-id="0730c-145">This can cause flickering in your applications.</span></span>
+
+## <a name="dwm-blur-behind-client-region"></a><span data-ttu-id="0730c-146">Область клиента DWM Blur-Behind</span><span class="sxs-lookup"><span data-stu-id="0730c-146">DWM Blur-Behind Client Region</span></span>
+
+<span data-ttu-id="0730c-147">Визуализация эффект размытия — это ресурсоемкие операции как для ЦП, так и для графического процессора.</span><span class="sxs-lookup"><span data-stu-id="0730c-147">Rendering the blur-behind effect is a resource-intensive operation for both the CPU and the graphics processing unit (GPU).</span></span> <span data-ttu-id="0730c-148">Разработчики приложений, законодателей, оценить последствия использования размытия в области клиента, чтобы он не потребляет чрезмерные ресурсы.</span><span class="sxs-lookup"><span data-stu-id="0730c-148">Application developers are urged to consider the implications of using client-area blur so that it does not consume excessive resources.</span></span> <span data-ttu-id="0730c-149">Следует соблюдать определенные меры предосторожности в следующих случаях.</span><span class="sxs-lookup"><span data-stu-id="0730c-149">You should use particular caution in the following cases:</span></span>
+
+-   <span data-ttu-id="0730c-150">Если предполагается, что размер размытия в клиентской области будет значительным, даже если в самой размытой области не произойдет никаких обновлений.</span><span class="sxs-lookup"><span data-stu-id="0730c-150">When you expect the size of the client-area blur to be significant, even if no updates will occur in the blurred area itself.</span></span> <span data-ttu-id="0730c-151">Размытие должно быть подготовлено к просмотру в случае, если обновления происходят в непрозрачной области окна, что влечет за собой затраты на ЦП и GPU.</span><span class="sxs-lookup"><span data-stu-id="0730c-151">The blur has to be rendered in case any updates occur under the blurred area of the window, which incurs CPU and GPU costs.</span></span> <span data-ttu-id="0730c-152">Кроме того, операции с окнами в окне (перемещение, изменение размера и переходов) приводят к дополнительным затратам.</span><span class="sxs-lookup"><span data-stu-id="0730c-152">In addition, window operations on the window (move/resize/transitions) will incur more costs.</span></span>
+-   <span data-ttu-id="0730c-153">Если вы планируете значительные обновления в области размытого клиента,</span><span class="sxs-lookup"><span data-stu-id="0730c-153">When you expect significant updates in the blurred client area.</span></span> <span data-ttu-id="0730c-154">Это потребует перерисовки размытия при каждом обновлении и потребляет чрезмерные ресурсы.</span><span class="sxs-lookup"><span data-stu-id="0730c-154">This will require a repaint of the blur on every update and consume excessive resources.</span></span>
+-   <span data-ttu-id="0730c-155">Если размытие должно охватывать значительную область, а также ожидаются обновления в этой области, настоятельно рекомендуется не премыть клиентской области.</span><span class="sxs-lookup"><span data-stu-id="0730c-155">If the blur is expected to cover a significant area, and updates to that area are also expected, we strongly recommended that you do not blur the client area.</span></span>
+
+ 
+
+ 

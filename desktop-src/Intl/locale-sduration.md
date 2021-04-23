@@ -1,0 +1,41 @@
+---
+description: сдуратион ЛОКАЛи \_
+ms.assetid: 45ffd7ed-f964-4948-8679-cf960b5c1e0e
+title: LOCALE_SDURATION
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d00740d2f041794b36e8f0e0d8ad2d25723bc12e
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105664746"
+---
+# <a name="locale_sduration"></a><span data-ttu-id="73e17-103">сдуратион ЛОКАЛи \_</span><span class="sxs-lookup"><span data-stu-id="73e17-103">LOCALE\_SDURATION</span></span>
+
+<span data-ttu-id="73e17-104">**Windows Vista и более поздние версии:** Формат длительности времени, состоящий из формата изображений, перечисленных в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="73e17-104">**Windows Vista and later:** Time duration format composed of format pictures listed in the following table.</span></span> <span data-ttu-id="73e17-105">Формат аналогичен формату для [языкового стандарта \_ стимеформат](locale-stime-constants.md).</span><span class="sxs-lookup"><span data-stu-id="73e17-105">The format is similar to the format for [LOCALE\_STIMEFORMAT](locale-stime-constants.md).</span></span> <span data-ttu-id="73e17-106">Как и для языкового стандарта \_ стимеформат, этот формат может также включать любую строку символов, заключенную в одинарные кавычки.</span><span class="sxs-lookup"><span data-stu-id="73e17-106">As for LOCALE\_STIMEFORMAT, this format can also include any string of characters enclosed in single quotes.</span></span> <span data-ttu-id="73e17-107">Форматы могут включать, например, "ч: СС", или "d 'd" х'х "".</span><span class="sxs-lookup"><span data-stu-id="73e17-107">Formats can include, for example, "h:mm:ss", or "d'd 'h'h 'm'm 's.fff's'".</span></span> <span data-ttu-id="73e17-108">В сравнении с языковыми стандартами \_ стимеформат для долей секунды существуют дополнительные форматы изображений.</span><span class="sxs-lookup"><span data-stu-id="73e17-108">In comparison with LOCALE\_STIMEFORMAT, there are additional format pictures for fractions of a second.</span></span> <span data-ttu-id="73e17-109">Так как этот формат имеет значение Duration, а не время, он не задает 12-или 24-часовую систему часов или включает индикатор AM/PM.</span><span class="sxs-lookup"><span data-stu-id="73e17-109">Because this format is for duration, not time, it does not specify a 12- or 24-hour clock system, or include an AM/PM indicator.</span></span> <span data-ttu-id="73e17-110">Эту константу можно использовать, например, для приложения с несколькими носителями, которое отображает время файла или приложение для спортивных событий, отображающее время окончания.</span><span class="sxs-lookup"><span data-stu-id="73e17-110">This constant might be used, for example, for a multi-media application that displays file time or a sporting event application that displays finish times.</span></span>
+
+
+
+| <span data-ttu-id="73e17-111">Значение</span><span class="sxs-lookup"><span data-stu-id="73e17-111">Value</span></span> | <span data-ttu-id="73e17-112">Значение</span><span class="sxs-lookup"><span data-stu-id="73e17-112">Meaning</span></span>                                                                                                                                                                                                                             |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="73e17-113">h</span><span class="sxs-lookup"><span data-stu-id="73e17-113">h</span></span>     | <span data-ttu-id="73e17-114">Часы без начальных нулей для однозначных часов</span><span class="sxs-lookup"><span data-stu-id="73e17-114">Hours without leading zeros for single-digit hours</span></span>                                                                                                                                                                                  |
+| <span data-ttu-id="73e17-115">hh</span><span class="sxs-lookup"><span data-stu-id="73e17-115">hh</span></span>    | <span data-ttu-id="73e17-116">Часы с начальными нулями для часов, состоящих из одной цифры</span><span class="sxs-lookup"><span data-stu-id="73e17-116">Hours with leading zeros for single-digit hours</span></span>                                                                                                                                                                                     |
+| <span data-ttu-id="73e17-117">m</span><span class="sxs-lookup"><span data-stu-id="73e17-117">m</span></span>     | <span data-ttu-id="73e17-118">Минуты без начальных нулей для минут с одной цифрой</span><span class="sxs-lookup"><span data-stu-id="73e17-118">Minutes without leading zeros for single-digit minutes</span></span>                                                                                                                                                                              |
+| <span data-ttu-id="73e17-119">ММ</span><span class="sxs-lookup"><span data-stu-id="73e17-119">mm</span></span>    | <span data-ttu-id="73e17-120">Минуты с начальными нулями для минут с одной цифрой</span><span class="sxs-lookup"><span data-stu-id="73e17-120">Minutes with leading zeros for single-digit minutes</span></span>                                                                                                                                                                                 |
+| <span data-ttu-id="73e17-121">s</span><span class="sxs-lookup"><span data-stu-id="73e17-121">s</span></span>     | <span data-ttu-id="73e17-122">Секунды без начальных нулей для однозначных секунд</span><span class="sxs-lookup"><span data-stu-id="73e17-122">Seconds without leading zeros for single-digit seconds</span></span>                                                                                                                                                                              |
+| <span data-ttu-id="73e17-123">сс</span><span class="sxs-lookup"><span data-stu-id="73e17-123">ss</span></span>    | <span data-ttu-id="73e17-124">Секунды с начальными нулями для однозначных секунд</span><span class="sxs-lookup"><span data-stu-id="73e17-124">Seconds with leading zeros for single-digit seconds</span></span>                                                                                                                                                                                 |
+| <span data-ttu-id="73e17-125">f</span><span class="sxs-lookup"><span data-stu-id="73e17-125">f</span></span>     | <span data-ttu-id="73e17-126">Десятые доли секунды</span><span class="sxs-lookup"><span data-stu-id="73e17-126">Tenths of a second</span></span>                                                                                                                                                                                                                  |
+| <span data-ttu-id="73e17-127">ff</span><span class="sxs-lookup"><span data-stu-id="73e17-127">ff</span></span>    | <span data-ttu-id="73e17-128">Сотые доли секунды</span><span class="sxs-lookup"><span data-stu-id="73e17-128">Hundredths of a second</span></span>                                                                                                                                                                                                              |
+| <span data-ttu-id="73e17-129">fff</span><span class="sxs-lookup"><span data-stu-id="73e17-129">fff</span></span>   | <span data-ttu-id="73e17-130">Доли секунды; символ "f" может возникать до девяти последовательных попыток (ффффффффф), хотя поддержка таймеров частоты ограничена 100 наносекунд; Если указаны девять символов, последние две цифры всегда равны нулю.</span><span class="sxs-lookup"><span data-stu-id="73e17-130">Thousandths of a second; character "f" can occur up to nine consecutive times (fffffffff), although support for frequency timers is limited to 100 nanoseconds; if nine characters are present, the last two digits are always zero</span></span> |
+
+
+
+ 
+
+ 
+
+ 
+
+
+

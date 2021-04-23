@@ -1,0 +1,35 @@
+---
+description: Показывает связь между параметрами функции, указывающими на структуры или массивы, и их инициализированные данные.
+ms.assetid: 89caf4d3-727f-472b-9a09-e81b4ff4d127
+title: Процедура для подписи данных
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: ba289928ab39c690e1c44bdbf65c77c18b7edab3
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105683499"
+---
+# <a name="procedure-for-signing-data"></a><span data-ttu-id="38636-103">Процедура для подписи данных</span><span class="sxs-lookup"><span data-stu-id="38636-103">Procedure for Signing Data</span></span>
+
+<span data-ttu-id="38636-104">Одна функция, [**криптсигнмессаже**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignmessage), выполняет все задачи, перечисленные при [создании подписанного сообщения](creating-a-signed-message.md).</span><span class="sxs-lookup"><span data-stu-id="38636-104">A single function, [**CryptSignMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignmessage), performs all of the tasks listed in [Creating a Signed Message](creating-a-signed-message.md).</span></span> <span data-ttu-id="38636-105">Тем не менее, все еще необходимо инициализировать структуры и другие данные.</span><span class="sxs-lookup"><span data-stu-id="38636-105">However, initialization of structures and other data is still necessary.</span></span> <span data-ttu-id="38636-106">На следующем рисунке показана связь между параметрами функции, которые указывают на структуры или массивы и их инициализированные данные.</span><span class="sxs-lookup"><span data-stu-id="38636-106">The following illustration shows the relationship between those function parameters that point to structures or arrays and their initialized data.</span></span> <span data-ttu-id="38636-107">На рисунке показаны только параметры функции и члены структуры, производные от других структур или функций.</span><span class="sxs-lookup"><span data-stu-id="38636-107">The illustration shows only the function parameters and structure members that are derived from other structures or functions.</span></span> <span data-ttu-id="38636-108">Остальные параметры являются простыми инициализациями.</span><span class="sxs-lookup"><span data-stu-id="38636-108">The rest of the parameters are straightforward initializations.</span></span>
+
+![Схема инициализации для вызова криптсигнмессаже](images/crypsign.png)
+
+<span data-ttu-id="38636-110">**Подписывание данных с помощью Криптсигнмессаже**</span><span class="sxs-lookup"><span data-stu-id="38636-110">**To sign data using CryptSignMessage**</span></span>
+
+1.  <span data-ttu-id="38636-111">Получение указателя на данные, которые должны быть подписаны.</span><span class="sxs-lookup"><span data-stu-id="38636-111">Get a pointer to the data that is to be signed.</span></span>
+2.  <span data-ttu-id="38636-112">Присвойте указатель на данные нулевому индексу массива "данные для подписи".</span><span class="sxs-lookup"><span data-stu-id="38636-112">Assign the pointer to the data to index zero of a "data to be signed" array.</span></span>
+3.  <span data-ttu-id="38636-113">Получение маркера для поставщика служб шифрования.</span><span class="sxs-lookup"><span data-stu-id="38636-113">Get a handle to the cryptographic provider.</span></span>
+4.  <span data-ttu-id="38636-114">Откройте [*хранилище сертификатов*](../secgloss/c-gly.md) , содержащее сертификат подписи.</span><span class="sxs-lookup"><span data-stu-id="38636-114">Open a [*certificate store*](../secgloss/c-gly.md) that contains the signer's certificate.</span></span>
+5.  <span data-ttu-id="38636-115">Получите адрес для сертификата подписи.</span><span class="sxs-lookup"><span data-stu-id="38636-115">Get an address to the signer's certificate.</span></span>
+6.  <span data-ttu-id="38636-116">Назначьте адрес сертификата нулевому индексу массива *мсгцерт* .</span><span class="sxs-lookup"><span data-stu-id="38636-116">Assign the address of the certificate to the zero index of the *MsgCert* array.</span></span>
+7.  <span data-ttu-id="38636-117">Назначьте адреса других сертификатов, которые будут включаться в сообщение, в массив *мсгцерт* .</span><span class="sxs-lookup"><span data-stu-id="38636-117">Assign the addresses of any other certificates to be included with the message to the *MsgCert* array.</span></span>
+8.  <span data-ttu-id="38636-118">Инициализируйте [**структуру \_ \_ идентификатора алгоритма шифрования**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_algorithm_identifier) , инициализируя элемент **псзобжид** для требуемого хэш-алгоритма и других элементов соответствующим образом.</span><span class="sxs-lookup"><span data-stu-id="38636-118">Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_algorithm_identifier) structure, initializing the **pszObjId** member to the desired hash algorithm and the other members as appropriate.</span></span>
+9.  <span data-ttu-id="38636-119">Инициализируйте [**структуру \_ \_ сообщения об \_ отшифровании**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_sign_message_para) с помощью знака «абзац», инициализируя член **псигнингцерт** по адресу сертификата подписывания, члену массива **мсгцерт** и адресу сертификатов подписавших и других, **HashAlgorithm** члену адрес структуры [**\_ \_ идентификатора алгоритма шифрования**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_algorithm_identifier) и другим элементам в соответствии с соответствующими правами.</span><span class="sxs-lookup"><span data-stu-id="38636-119">Initialize the [**CRYPT\_SIGN\_MESSAGE\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_sign_message_para) structure, initializing the **pSigningCert** member to the address of the signer's certificate, the **MsgCert** array member to the address of the signer's and other's certificates, the **HashAlgorithm** member to the address of the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_algorithm_identifier) structure, and the other members as appropriate.</span></span>
+10. <span data-ttu-id="38636-120">Вызовите функцию [**криптсигнмессаже**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignmessage) , передав в качестве значения параметра *псигнпара* структуру знаков для [**подписи шифрования, адрес массива "данные \_ \_ \_**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_sign_message_para) для подписи" для параметра *ргпбтобесигнед* , адрес для выходного параметра *пбсигнедблоб* и другие необходимые параметры.</span><span class="sxs-lookup"><span data-stu-id="38636-120">Call the [**CryptSignMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignmessage) function, passing the [**CRYPT\_SIGN\_MESSAGE\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_sign_message_para) structure for the *pSignPara* parameter, the address of the "data to be signed" array for the *rgpbToBeSigned* parameter, an address for the *pbSignedBlob* output parameter, and values for the other parameters as appropriate.</span></span>
+
+ 
+
+ 

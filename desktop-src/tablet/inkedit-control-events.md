@@ -1,0 +1,42 @@
+---
+description: 'В следующей таблице описаны потоки, на которых могут срабатывать события элемента управления InkEdit. Евентсреадсчанжефирес в пользовательском интерфейсе приложения Среадкликкфирес ПОЛЬЗОВАТЕЛЬСКОГО интерфейса приложения Среаддблкликкфирес в пользовательском интерфейсе приложения Среаджестурефирес в пользовательском интерфейсе приложения threadKeyDownFires в пользовательском интерфейсе приложения в threadKeyPressFires пользовательского интерфейса приложения threadKeyUpFires в пользовательском интерфейсе приложений в threadMouseDownFires в пользовательском интерфейсе приложения, в threadMouseMoveFires пользовательского интерфейса приложения в пользовательском интерфейсе приложения threadMouseUpFires (только управляемая библиотека). Срабатывает в пользовательском интерфейсе приложения, Среадрекогнитионресултфирес в ПОЛЬЗОВАТЕЛЬСКОМ интерфейсе приложения Среадселчанжефирес в пользовательском ИНТЕРФЕЙСе приложения Среадстрокефирес в потоке пользовательского интерфейса приложения. '
+ms.assetid: 8554a1ab-3288-4bdd-866b-dd2c25842b1f
+title: События элемента управления InkEdit
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8b1547df05b438e6ade49663f5095dfd6674dbe4
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103999264"
+---
+# <a name="inkedit-control-events"></a><span data-ttu-id="88c79-103">События элемента управления InkEdit</span><span class="sxs-lookup"><span data-stu-id="88c79-103">InkEdit Control Events</span></span>
+
+<span data-ttu-id="88c79-104">В следующей таблице описаны потоки, на которых могут срабатывать события элемента управления [InkEdit](inkedit-control-reference.md) .</span><span class="sxs-lookup"><span data-stu-id="88c79-104">The following table describes which threads the [InkEdit](inkedit-control-reference.md) control events can fire on.</span></span>
+
+
+
+| <span data-ttu-id="88c79-105">Событие</span><span class="sxs-lookup"><span data-stu-id="88c79-105">Event</span></span>                                                                          | <span data-ttu-id="88c79-106">Потоки</span><span class="sxs-lookup"><span data-stu-id="88c79-106">Threads</span></span>                                                          |
+|--------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [<span data-ttu-id="88c79-107">**Change**</span><span class="sxs-lookup"><span data-stu-id="88c79-107">**Change**</span></span>](inkedit-change.md)                                               | <span data-ttu-id="88c79-108">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-108">Fires on the application's user interface (UI) thread</span></span><br/> |
+| [<span data-ttu-id="88c79-109">**Щелкните**</span><span class="sxs-lookup"><span data-stu-id="88c79-109">**Click**</span></span>](inkedit-click.md)                                                 | <span data-ttu-id="88c79-110">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-110">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-111">**Кнопки**</span><span class="sxs-lookup"><span data-stu-id="88c79-111">**DblClick**</span></span>](inkedit-dblclick.md)                                           | <span data-ttu-id="88c79-112">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-112">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-113">**жесты**</span><span class="sxs-lookup"><span data-stu-id="88c79-113">**Gesture**</span></span>](inkedit-gesture.md)                                             | <span data-ttu-id="88c79-114">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-114">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-115">**KeyDown**</span><span class="sxs-lookup"><span data-stu-id="88c79-115">**KeyDown**</span></span>](inkedit-keydown.md)                                             | <span data-ttu-id="88c79-116">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-116">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-117">**Бытии**</span><span class="sxs-lookup"><span data-stu-id="88c79-117">**KeyPress**</span></span>](inkedit-keypress.md)                                           | <span data-ttu-id="88c79-118">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-118">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-119">**KeyUp**</span><span class="sxs-lookup"><span data-stu-id="88c79-119">**KeyUp**</span></span>](inkedit-keyup.md)                                                 | <span data-ttu-id="88c79-120">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-120">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-121">**Вниз**</span><span class="sxs-lookup"><span data-stu-id="88c79-121">**MouseDown**</span></span>](inkedit-mousedown.md)                                         | <span data-ttu-id="88c79-122">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-122">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-123">**Событие**</span><span class="sxs-lookup"><span data-stu-id="88c79-123">**MouseMove**</span></span>](inkedit-mousemove.md)                                         | <span data-ttu-id="88c79-124">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-124">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-125">**Кнопка**</span><span class="sxs-lookup"><span data-stu-id="88c79-125">**MouseUp**</span></span>](inkedit-mouseup.md)                                             | <span data-ttu-id="88c79-126">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-126">Fires on the application's UI thread</span></span><br/>                  |
+| <span data-ttu-id="88c79-127">[**Распознавание**](/previous-versions/ms567627(v=vs.100)) (только управляемая библиотека).</span><span class="sxs-lookup"><span data-stu-id="88c79-127">[**Recognition**](/previous-versions/ms567627(v=vs.100)) (Managed Library only).</span></span> | <span data-ttu-id="88c79-128">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-128">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-129">**рекогнитионресулт**</span><span class="sxs-lookup"><span data-stu-id="88c79-129">**RecognitionResult**</span></span>](inkedit-recognitionresult.md)                         | <span data-ttu-id="88c79-130">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-130">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-131">**селчанже**</span><span class="sxs-lookup"><span data-stu-id="88c79-131">**SelChange**</span></span>](inkedit-selchange.md)                                         | <span data-ttu-id="88c79-132">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-132">Fires on the application's UI thread</span></span><br/>                  |
+| [<span data-ttu-id="88c79-133">**Водок**</span><span class="sxs-lookup"><span data-stu-id="88c79-133">**Stroke**</span></span>](inkedit-stroke.md)                                               | <span data-ttu-id="88c79-134">Срабатывает в потоке пользовательского интерфейса приложения</span><span class="sxs-lookup"><span data-stu-id="88c79-134">Fires on the application's UI thread</span></span><br/>                  |
+
+
+
+ 
+
+ 
+

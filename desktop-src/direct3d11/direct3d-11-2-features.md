@@ -1,0 +1,120 @@
+---
+title: Функции Direct3D 11,2
+description: В Direct3D 11,2 добавлены следующие функциональные возможности, которые входят в состав Windows 8.1, Windows RT 8,1 и Windows Server 2012 R2.
+ms.assetid: 2A2D9BBB-F53A-4187-A25B-F4E58C896EE2
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 299b720bfb91297043c8e7d76beb50067eb64e17
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104984025"
+---
+# <a name="direct3d-112-features"></a><span data-ttu-id="fddd7-103">Функции Direct3D 11,2</span><span class="sxs-lookup"><span data-stu-id="fddd7-103">Direct3D 11.2 Features</span></span>
+
+<span data-ttu-id="fddd7-104">В Direct3D 11,2 добавлены следующие функциональные возможности, которые входят в состав Windows 8.1, Windows RT 8,1 и Windows Server 2012 R2.</span><span class="sxs-lookup"><span data-stu-id="fddd7-104">The following functionality has been added in Direct3D 11.2, which is included with Windows 8.1, Windows RT 8.1, and Windows Server 2012 R2.</span></span>
+
+-   [<span data-ttu-id="fddd7-105">Мозаичные ресурсы</span><span class="sxs-lookup"><span data-stu-id="fddd7-105">Tiled resources</span></span>](#tiled-resources)
+    -   [<span data-ttu-id="fddd7-106">Проверка поддержки мозаичных ресурсов</span><span class="sxs-lookup"><span data-stu-id="fddd7-106">Check tiled resources support</span></span>](#check-tiled-resources-support)
+-   [<span data-ttu-id="fddd7-107">Расширенная поддержка деформации устройств</span><span class="sxs-lookup"><span data-stu-id="fddd7-107">Extended support for WARP devices</span></span>](#extended-support-for-warp-devices)
+-   [<span data-ttu-id="fddd7-108">Создание заметка для команд графики</span><span class="sxs-lookup"><span data-stu-id="fddd7-108">Annotate graphics commands</span></span>](#annotate-graphics-commands)
+-   [<span data-ttu-id="fddd7-109">Связывание шейдера HLSL</span><span class="sxs-lookup"><span data-stu-id="fddd7-109">HLSL shader linking</span></span>](#hlsl-shader-linking)
+    -   [<span data-ttu-id="fddd7-110">Граф связывания функций (ФЛГ)</span><span class="sxs-lookup"><span data-stu-id="fddd7-110">Function linking graph (FLG)</span></span>](#function-linking-graph-flg)
+-   [<span data-ttu-id="fddd7-111">Компилятор HLSL входящих сообщений</span><span class="sxs-lookup"><span data-stu-id="fddd7-111">Inbox HLSL compiler</span></span>](#inbox-hlsl-compiler)
+-   [<span data-ttu-id="fddd7-112">См. также</span><span class="sxs-lookup"><span data-stu-id="fddd7-112">Related topics</span></span>](#related-topics)
+
+## <a name="tiled-resources"></a><span data-ttu-id="fddd7-113">Мозаичные ресурсы</span><span class="sxs-lookup"><span data-stu-id="fddd7-113">Tiled resources</span></span>
+
+<span data-ttu-id="fddd7-114">Direct3D 11,2 позволяет создавать мозаичные ресурсы, которые можно рассматривать как крупные логические ресурсы, использующие небольшие объемы физической памяти.</span><span class="sxs-lookup"><span data-stu-id="fddd7-114">Direct3D 11.2 lets you create tiled resources that can be thought of as large logical resources that use small amounts of physical memory.</span></span> <span data-ttu-id="fddd7-115">Мозаичные ресурсы полезны (например,) с ландшафта в играх и пользовательском интерфейсе приложения.</span><span class="sxs-lookup"><span data-stu-id="fddd7-115">Tiled resources are useful (for example) with terrain in games, and app UI.</span></span>
+
+<span data-ttu-id="fddd7-116">Мозаичные ресурсы создаются путем указания флага [**D3D11 \_ ресурса " \_ Разное \_**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag) ".</span><span class="sxs-lookup"><span data-stu-id="fddd7-116">Tiled resources are created by specifying the [**D3D11\_RESOURCE\_MISC\_TILED**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag) flag.</span></span> <span data-ttu-id="fddd7-117">Для работы с мозаичным ресурсом используйте следующие API:</span><span class="sxs-lookup"><span data-stu-id="fddd7-117">To work with tiled resource, use these API:</span></span>
+
+-   [<span data-ttu-id="fddd7-118">**ID3D11Device2:: Жетресаурцетилинг**</span><span class="sxs-lookup"><span data-stu-id="fddd7-118">**ID3D11Device2::GetResourceTiling**</span></span>](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11device2-getresourcetiling)
+-   [<span data-ttu-id="fddd7-119">**ID3D11DeviceContext2:: Упдатетилес**</span><span class="sxs-lookup"><span data-stu-id="fddd7-119">**ID3D11DeviceContext2::UpdateTiles**</span></span>](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-updatetiles)
+-   [<span data-ttu-id="fddd7-120">**ID3D11DeviceContext2:: Упдатетилемаппингс**</span><span class="sxs-lookup"><span data-stu-id="fddd7-120">**ID3D11DeviceContext2::UpdateTileMappings**</span></span>](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-updatetilemappings)
+-   [<span data-ttu-id="fddd7-121">**ID3D11DeviceContext2:: Копитилес**</span><span class="sxs-lookup"><span data-stu-id="fddd7-121">**ID3D11DeviceContext2::CopyTiles**</span></span>](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-copytiles)
+-   [<span data-ttu-id="fddd7-122">**ID3D11DeviceContext2:: Копитилемаппингс**</span><span class="sxs-lookup"><span data-stu-id="fddd7-122">**ID3D11DeviceContext2::CopyTileMappings**</span></span>](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-copytilemappings)
+-   [<span data-ttu-id="fddd7-123">**ID3D11DeviceContext2:: Ресизетилепул**</span><span class="sxs-lookup"><span data-stu-id="fddd7-123">**ID3D11DeviceContext2::ResizeTilePool**</span></span>](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-resizetilepool)
+-   [<span data-ttu-id="fddd7-124">**ID3D11DeviceContext2:: Тиледресаурцебарриер**</span><span class="sxs-lookup"><span data-stu-id="fddd7-124">**ID3D11DeviceContext2::TiledResourceBarrier**</span></span>](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-tiledresourcebarrier)
+-   <span data-ttu-id="fddd7-125">**D3D11 \_ \_Функция отладки \_ Отключить \_ \_ Отслеживание сопоставления ресурсов мозаики \_ и флаг \_ \_ \_ проверки** с помощью [ **ID3D11Debug:: сетфеатуремаск**](/windows/desktop/api/D3D11SDKLayers/nf-d3d11sdklayers-id3d11debug-setfeaturemask)</span><span class="sxs-lookup"><span data-stu-id="fddd7-125">**D3D11\_DEBUG\_FEATURE\_DISABLE\_TILED\_RESOURCE\_MAPPING\_TRACKING\_AND\_VALIDATION** flag with [**ID3D11Debug::SetFeatureMask**](/windows/desktop/api/D3D11SDKLayers/nf-d3d11sdklayers-id3d11debug-setfeaturemask)</span></span>
+
+<span data-ttu-id="fddd7-126">Дополнительные сведения о мозаичных ресурсах см. в разделе [мозаичные ресурсы](tiled-resources.md).</span><span class="sxs-lookup"><span data-stu-id="fddd7-126">For more info about tiled resources, see [Tiled resources](tiled-resources.md).</span></span>
+
+### <a name="check-tiled-resources-support"></a><span data-ttu-id="fddd7-127">Проверка поддержки мозаичных ресурсов</span><span class="sxs-lookup"><span data-stu-id="fddd7-127">Check tiled resources support</span></span>
+
+<span data-ttu-id="fddd7-128">Перед использованием мозаичных ресурсов необходимо выяснить, поддерживает ли устройство мозаичные ресурсы.</span><span class="sxs-lookup"><span data-stu-id="fddd7-128">Before you use tiled resources, you need to find out if the device supports tiled resources.</span></span> <span data-ttu-id="fddd7-129">Вот как проверяется поддержка мозаичных ресурсов:</span><span class="sxs-lookup"><span data-stu-id="fddd7-129">Here's how you check for support for tiled resources:</span></span>
+
+
+```C++
+HRESULT hr = D3D11CreateDevice(
+    nullptr,                    // Specify nullptr to use the default adapter.
+    D3D_DRIVER_TYPE_HARDWARE,   // Create a device using the hardware graphics driver.
+    0,                          // Should be 0 unless the driver is D3D_DRIVER_TYPE_SOFTWARE.
+    creationFlags,              // Set debug and Direct2D compatibility flags.
+    featureLevels,              // List of feature levels this app can support.
+    ARRAYSIZE(featureLevels),   // Size of the list above.
+    D3D11_SDK_VERSION,          // Always set this to D3D11_SDK_VERSION for Windows Store apps.
+    &device,                    // Returns the Direct3D device created.
+    &m_d3dFeatureLevel,         // Returns feature level of device created.
+    &context                    // Returns the device immediate context.
+    );
+
+if (SUCCEEDED(hr))
+{
+    D3D11_FEATURE_DATA_D3D11_OPTIONS1 featureData;
+    DX::ThrowIfFailed(
+        device->CheckFeatureSupport(D3D11_FEATURE_D3D11_OPTIONS1, &featureData, sizeof(featureData))
+        );
+
+    m_tiledResourcesTier = featureData.TiledResourcesTier;
+}
+```
+
+
+
+## <a name="extended-support-for-warp-devices"></a><span data-ttu-id="fddd7-130">Расширенная поддержка деформации устройств</span><span class="sxs-lookup"><span data-stu-id="fddd7-130">Extended support for WARP devices</span></span>
+
+<span data-ttu-id="fddd7-131">Direct3D 11,2 расширяет поддержку [деформации](overviews-direct3d-11-devices-create-warp.md) устройств, которые создаются путем передачи [**\_ \_ \_ искривленного типа драйвера D3D**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) в параметре *дривертипе* [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice).</span><span class="sxs-lookup"><span data-stu-id="fddd7-131">Direct3D 11.2 extends support for [WARP](overviews-direct3d-11-devices-create-warp.md) devices, which you create by passing [**D3D\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) in the *DriverType* parameter of [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice).</span></span> <span data-ttu-id="fddd7-132">Модуль обработки ИСКРИВЛЕНного программного обеспечения в Direct3D 11,2 добавляет полную поддержку для [уровня функций](overviews-direct3d-11-devices-downlevel-intro.md) Direct3D 11 \_ 1, включая [мозаичные ресурсы](#tiled-resources), [**IDXGIDevice3:: Trim**](/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidevice3-trim), общие поверхности BCn, минбленд и карту по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="fddd7-132">The WARP software renderer in Direct3D 11.2 adds full support for Direct3D [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11\_1, including [tiled resources](#tiled-resources), [**IDXGIDevice3::Trim**](/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidevice3-trim), shared BCn surfaces, minblend, and map default.</span></span> <span data-ttu-id="fddd7-133">Также включена [Двойная](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles) поддержка в шейдерах HLSL с поддержкой 16x MSAA.</span><span class="sxs-lookup"><span data-stu-id="fddd7-133">[Double](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles) support in HLSL shaders has also been enabled along with support for 16x MSAA.</span></span>
+
+## <a name="annotate-graphics-commands"></a><span data-ttu-id="fddd7-134">Создание заметка для команд графики</span><span class="sxs-lookup"><span data-stu-id="fddd7-134">Annotate graphics commands</span></span>
+
+<span data-ttu-id="fddd7-135">Direct3D 11,2 позволяет создавать заметки к графическим командам с помощью этих API:</span><span class="sxs-lookup"><span data-stu-id="fddd7-135">Direct3D 11.2 lets you annotate graphics commands with these API:</span></span>
+
+-   [<span data-ttu-id="fddd7-136">**ID3D11DeviceContext2:: Исаннотатионенаблед**</span><span class="sxs-lookup"><span data-stu-id="fddd7-136">**ID3D11DeviceContext2::IsAnnotationEnabled**</span></span>](/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11devicecontext2-isannotationenabled)
+-   [<span data-ttu-id="fddd7-137">**ID3D11DeviceContext2:: Бегиневентинт**</span><span class="sxs-lookup"><span data-stu-id="fddd7-137">**ID3D11DeviceContext2::BeginEventInt**</span></span>](/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11devicecontext2-begineventint)
+-   [<span data-ttu-id="fddd7-138">**ID3D11DeviceContext2:: Сетмаркеринт**</span><span class="sxs-lookup"><span data-stu-id="fddd7-138">**ID3D11DeviceContext2::SetMarkerInt**</span></span>](/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11devicecontext2-setmarkerint)
+-   [<span data-ttu-id="fddd7-139">**ID3D11DeviceContext2:: Ендевент**</span><span class="sxs-lookup"><span data-stu-id="fddd7-139">**ID3D11DeviceContext2::EndEvent**</span></span>](/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11devicecontext2-endevent)
+
+## <a name="hlsl-shader-linking"></a><span data-ttu-id="fddd7-140">Связывание шейдера HLSL</span><span class="sxs-lookup"><span data-stu-id="fddd7-140">HLSL shader linking</span></span>
+
+<span data-ttu-id="fddd7-141">Windows 8.1 добавляет отдельную компиляцию и связывание шейдеров HLSL, что позволяет графическим программистам создавать предкомпилированные функции HLSL, упаковывать их в библиотеки и связывать их с полными шейдерами во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="fddd7-141">Windows 8.1 adds separate compilation and linking of HLSL shaders, which allows graphics programmers to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run-time.</span></span> <span data-ttu-id="fddd7-142">По сути, это эквивалентно отдельной компиляции, библиотекам и компоновке C/C++, а также позволяет программистам создавать предкомпилированный код HLSL, когда становится доступной дополнительная информация для завершения вычислений.</span><span class="sxs-lookup"><span data-stu-id="fddd7-142">This is essentially an equivalent of C/C++ separate compilation, libraries, and linking, and it allows programmers to compose precompiled HLSL code when more information becomes available to finalize the computation.</span></span> <span data-ttu-id="fddd7-143">Дополнительные сведения об использовании связывания шейдеров см. в разделе [Использование связывания шейдеров](/windows/desktop/direct3dhlsl/using-shader-linking).</span><span class="sxs-lookup"><span data-stu-id="fddd7-143">For more info about how to use shader linking, see [Using shader linking](/windows/desktop/direct3dhlsl/using-shader-linking).</span></span>
+
+<span data-ttu-id="fddd7-144">Выполните следующие действия, чтобы создать окончательный шейдер с использованием динамической компоновки во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="fddd7-144">Complete these steps to create a final shader using dynamic linkage at run time.</span></span>
+
+<span data-ttu-id="fddd7-145">**Создание и использование связывания шейдера**</span><span class="sxs-lookup"><span data-stu-id="fddd7-145">**To create and use shader linking**</span></span>
+
+1.  <span data-ttu-id="fddd7-146">Создайте объект компоновщика [**ID3D11Linker**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linker) , который представляет контекст компоновки.</span><span class="sxs-lookup"><span data-stu-id="fddd7-146">Create a [**ID3D11Linker**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linker) linker object, which represents a linking context.</span></span> <span data-ttu-id="fddd7-147">Один контекст нельзя использовать для создания нескольких шейдеров. контекст компоновки используется для создания одного шейдера, после чего создается контекст компоновки.</span><span class="sxs-lookup"><span data-stu-id="fddd7-147">A single context can't be used to produce multiple shaders; a linking context is used to produce a single shader and then the linking context is thrown away.</span></span>
+2.  <span data-ttu-id="fddd7-148">Используйте [**D3DLoadModule**](/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule) для загрузки и установки библиотек из их BLOB-объектов библиотеки.</span><span class="sxs-lookup"><span data-stu-id="fddd7-148">Use [**D3DLoadModule**](/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule) to load and set libraries from their library blobs.</span></span>
+3.  <span data-ttu-id="fddd7-149">Используйте [**D3DLoadModule**](/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule) для загрузки и задания большого двоичного объекта шейдера записи или создания [шейдера флг](#function-linking-graph-flg).</span><span class="sxs-lookup"><span data-stu-id="fddd7-149">Use [**D3DLoadModule**](/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule) to load and set an entry shader blob, or create an [FLG shader](#function-linking-graph-flg).</span></span>
+4.  <span data-ttu-id="fddd7-150">Используйте [**ID3D11Module**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11module)::[**CreateInstance**](/windows/desktop/api/D3D11Shader/nf-d3d11shader-id3d11module-createinstance) для создания объектов [**ID3D11ModuleInstance**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11moduleinstance) , а затем вызывайте функции для этих объектов, чтобы повторно привязать ресурсы к их конечным слотам.</span><span class="sxs-lookup"><span data-stu-id="fddd7-150">Use [**ID3D11Module**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11module)::[**CreateInstance**](/windows/desktop/api/D3D11Shader/nf-d3d11shader-id3d11module-createinstance) to create [**ID3D11ModuleInstance**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11moduleinstance) objects, then call functions on these objects to rebind resources to their final slots.</span></span>
+5.  <span data-ttu-id="fddd7-151">Добавьте библиотеки в компоновщик, а затем вызовите [**ID3D11Linker**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linker)::[**Link**](/windows/desktop/api/D3D11Shader/nf-d3d11shader-id3d11linker-link) , чтобы создать окончательный байтовый код шейдера, который затем можно загрузить и использовать в среде выполнения так же, как полностью скомпилированный и связанный шейдер.</span><span class="sxs-lookup"><span data-stu-id="fddd7-151">Add the libraries to the linker, then call [**ID3D11Linker**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linker)::[**Link**](/windows/desktop/api/D3D11Shader/nf-d3d11shader-id3d11linker-link) to produce final shader byte code that can then be loaded and used in the runtime just like a fully precompiled and linked shader.</span></span>
+
+### <a name="function-linking-graph-flg"></a><span data-ttu-id="fddd7-152">Граф связывания функций (ФЛГ)</span><span class="sxs-lookup"><span data-stu-id="fddd7-152">Function linking graph (FLG)</span></span>
+
+<span data-ttu-id="fddd7-153">Windows 8.1 также добавляет граф связывания функций (ФЛГ).</span><span class="sxs-lookup"><span data-stu-id="fddd7-153">Windows 8.1 also adds the Function Linking Graph (FLG).</span></span> <span data-ttu-id="fddd7-154">ФЛГ можно использовать для создания шейдеров, состоящих из последовательности вызовов предкомпилированных функций, которые передают значения друг другу.</span><span class="sxs-lookup"><span data-stu-id="fddd7-154">You can use FLG to construct shaders that consist of a sequence of precompiled function invocations that pass values to each other.</span></span> <span data-ttu-id="fddd7-155">При использовании ФЛГ нет необходимости писать HLSL и вызывать компилятор HLSL.</span><span class="sxs-lookup"><span data-stu-id="fddd7-155">When using the FLG, there is no need to write HLSL and invoke the HLSL compiler.</span></span> <span data-ttu-id="fddd7-156">Вместо этого структура шейдера задается программно с помощью вызовов API C++.</span><span class="sxs-lookup"><span data-stu-id="fddd7-156">Instead, the shader structure is specified programmatically using C++ API calls.</span></span> <span data-ttu-id="fddd7-157">Узлы ФЛГ представляют входные и выходные подписи и вызовы функций предкомпилированных библиотек.</span><span class="sxs-lookup"><span data-stu-id="fddd7-157">FLG nodes represent input and output signatures and invocations of precompiled library functions.</span></span> <span data-ttu-id="fddd7-158">Порядок регистрации узлов вызова функции определяет последовательность вызовов.</span><span class="sxs-lookup"><span data-stu-id="fddd7-158">The order of registering the function-call nodes defines the sequence of invocations.</span></span> <span data-ttu-id="fddd7-159">Сначала необходимо указать входной узел подписи, а выходной узел подписи должен быть указан последним.</span><span class="sxs-lookup"><span data-stu-id="fddd7-159">The input signature node must be specified first, while the output signature node must be specified last.</span></span> <span data-ttu-id="fddd7-160">ФЛГ края определяют, как передаются значения из одного узла в другой.</span><span class="sxs-lookup"><span data-stu-id="fddd7-160">FLG edges define how values are passed from one node to another.</span></span> <span data-ttu-id="fddd7-161">Типы данных передаваемых значений должны быть одинаковыми. неявное преобразование типа отсутствует.</span><span class="sxs-lookup"><span data-stu-id="fddd7-161">The data types of passed values must be the same; there is no implicit type conversion.</span></span> <span data-ttu-id="fddd7-162">Правила Shape и группирующие следуют поведению HLSL, и значения могут передаваться в этой последовательности только вперед.</span><span class="sxs-lookup"><span data-stu-id="fddd7-162">Shape and swizzling rules follow the HLSL behavior and values can only be passed forward in this sequence.</span></span> <span data-ttu-id="fddd7-163">Сведения об API ФЛГ см. в разделе [**ID3D11FunctionLinkingGraph**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph).</span><span class="sxs-lookup"><span data-stu-id="fddd7-163">For info on the FLG API, see [**ID3D11FunctionLinkingGraph**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph).</span></span>
+
+## <a name="inbox-hlsl-compiler"></a><span data-ttu-id="fddd7-164">Компилятор HLSL входящих сообщений</span><span class="sxs-lookup"><span data-stu-id="fddd7-164">Inbox HLSL compiler</span></span>
+
+<span data-ttu-id="fddd7-165">Компилятор HLSL теперь является папкой "Входящие" Windows 8.1 и более поздних версий.</span><span class="sxs-lookup"><span data-stu-id="fddd7-165">The HLSL compiler is now inbox on Windows 8.1 and later.</span></span> <span data-ttu-id="fddd7-166">Теперь большинство API-интерфейсов для программирования шейдеров можно использовать в приложениях для Магазина Windows, созданных для Windows 8.1 и более поздних версий.</span><span class="sxs-lookup"><span data-stu-id="fddd7-166">Now, most APIs for shader programming can be used in Windows Store apps that are built for Windows 8.1 and later.</span></span> <span data-ttu-id="fddd7-167">Многие API-интерфейсы для программирования шейдеров не могут использоваться в приложениях для Магазина Windows, созданных для Windows 8; эталонные страницы для этих API были отмечены заметкой.</span><span class="sxs-lookup"><span data-stu-id="fddd7-167">Many APIs for shader programming couldn't be used in Windows Store apps that were built for Windows 8; the reference pages for these APIs were marked with a note.</span></span> <span data-ttu-id="fddd7-168">Но некоторые API-интерфейсы шейдера (например, [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile)) можно использовать только для разработки приложений для Магазина Windows, а не для приложений, которые вы отправляете в магазин Windows. справочные страницы для этих API по-прежнему отмечены заметкой.</span><span class="sxs-lookup"><span data-stu-id="fddd7-168">But some shader APIs (for example, [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile)) can still only be used to develop Windows Store apps, and not in apps that you submit to the Windows Store; the reference pages for these APIs are still marked with a note.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="fddd7-169">См. также</span><span class="sxs-lookup"><span data-stu-id="fddd7-169">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="fddd7-170">Новые возможности Direct3D 11</span><span class="sxs-lookup"><span data-stu-id="fddd7-170">What's new in Direct3D 11</span></span>](dx-graphics-overviews-introduction.md)
+</dt> </dl>
+
+ 
+
+ 

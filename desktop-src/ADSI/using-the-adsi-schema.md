@@ -1,0 +1,32 @@
+---
+title: Использование схемы ADSI
+description: Схема определяет совокупность объектов, хранящихся в каталоге.
+ms.assetid: 140a5dd0-6f50-4f84-8708-45c0f1c6bdc4
+ms.tgt_platform: multiple
+keywords:
+- Использование схемы ADSI
+- ADSI ADSI, использование, схема ADSI
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 478104a24d850f79cc52473f3d9e546936c56650
+ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "103891085"
+---
+# <a name="using-the-adsi-schema"></a><span data-ttu-id="e8a95-105">Использование схемы ADSI</span><span class="sxs-lookup"><span data-stu-id="e8a95-105">Using the ADSI Schema</span></span>
+
+<span data-ttu-id="e8a95-106">Схема определяет совокупность объектов, хранящихся в каталоге.</span><span class="sxs-lookup"><span data-stu-id="e8a95-106">A schema defines the universe of objects stored in a directory.</span></span> <span data-ttu-id="e8a95-107">В Active Directory схема указывает, какие атрибуты объекта службы каталогов могут или должны иметь.</span><span class="sxs-lookup"><span data-stu-id="e8a95-107">In Active Directory, the schema specifies what attributes a directory service object can, or must, have.</span></span> <span data-ttu-id="e8a95-108">Он также указывает диапазон значений и синтаксис атрибутов и указывает, поддерживают ли они одно или несколько значений.</span><span class="sxs-lookup"><span data-stu-id="e8a95-108">It also specifies the value range and the syntax of the attributes and whether they support single or multiple values.</span></span> <span data-ttu-id="e8a95-109">Вкратце, схема упорядочена по определениям классов, определениям атрибутов и синтаксису атрибутов.</span><span class="sxs-lookup"><span data-stu-id="e8a95-109">In short, the schema is organized by class definitions, attribute definitions, and attribute syntax.</span></span> <span data-ttu-id="e8a95-110">ADSI предоставляет три интерфейса для чтения данных атрибутов, классов и синтаксиса из схемы: [**иадскласс**](/windows/desktop/api/Iads/nn-iads-iadsclass), [**иадспроперти**](/windows/desktop/api/Iads/nn-iads-iadsproperty)и [**иадссинтакс**](/windows/desktop/api/Iads/nn-iads-iadssyntax).</span><span class="sxs-lookup"><span data-stu-id="e8a95-110">ADSI provides three interfaces for reading attribute, class, and syntax data from a schema: [**IADsClass**](/windows/desktop/api/Iads/nn-iads-iadsclass), [**IADsProperty**](/windows/desktop/api/Iads/nn-iads-iadsproperty), and [**IADsSyntax**](/windows/desktop/api/Iads/nn-iads-iadssyntax).</span></span>
+
+<span data-ttu-id="e8a95-111">Active Directory использует набор объектов схемы для динамического расширенного управления схемой.</span><span class="sxs-lookup"><span data-stu-id="e8a95-111">Active Directory uses a set of schema objects to provide dynamically extensible schema management.</span></span> <span data-ttu-id="e8a95-112">Дополнительные сведения о неизвестном объекте см. в подстановке связанных объектов схемы.</span><span class="sxs-lookup"><span data-stu-id="e8a95-112">For more information about an unknown object, look up its associated schema objects.</span></span> <span data-ttu-id="e8a95-113">Чтобы создать новое определение класса или расширить существующее определение класса, можно создать или расширить соответствующие объекты схемы.</span><span class="sxs-lookup"><span data-stu-id="e8a95-113">To create a new class definition or extend an existing class definition, you can create or extend the appropriate schema objects.</span></span> <span data-ttu-id="e8a95-114">Объекты схемы организованы в контейнер схемы заданного каталога.</span><span class="sxs-lookup"><span data-stu-id="e8a95-114">Schema objects are organized in the schema container of a given directory.</span></span> <span data-ttu-id="e8a95-115">Чтобы получить доступ к классу схемы объекта, используйте свойство [**iAds. Schema**](iads-property-methods.md) объекта, чтобы получить строку ADsPath и использовать ее для привязки к интерфейсу [**иадскласс**](/windows/desktop/api/Iads/nn-iads-iadsclass) в классе схемы объекта.</span><span class="sxs-lookup"><span data-stu-id="e8a95-115">To access an object schema class, use the [**IADs.Schema**](iads-property-methods.md) property of the object to obtain the ADsPath string and use that string to bind to an [**IADsClass**](/windows/desktop/api/Iads/nn-iads-iadsclass) interface on the object schema class.</span></span>
+
+<span data-ttu-id="e8a95-116">Чтобы определить определения атрибутов, то есть диапазон значений, синтаксис и т. д., проверьте объекты атрибутов схемы для каждого свойства, поддерживаемого объектом службы каталогов.</span><span class="sxs-lookup"><span data-stu-id="e8a95-116">To determine attribute definitions, that is, the range of values, the syntax, and so on, inspect the schema attribute objects for each property supported by the directory service object.</span></span> <span data-ttu-id="e8a95-117">Дополнительные сведения о доступе к объектам атрибутов схемы см. в разделе [**иадспроперти**](/windows/desktop/api/Iads/nn-iads-iadsproperty).</span><span class="sxs-lookup"><span data-stu-id="e8a95-117">For more information about how to access the schema attribute objects, see [**IADsProperty**](/windows/desktop/api/Iads/nn-iads-iadsproperty).</span></span>
+
+<span data-ttu-id="e8a95-118">При необходимости ADSI абстрагирует синтаксические данные и позволяет использовать [**иадссинтакс**](/windows/desktop/api/Iads/nn-iads-iadssyntax) для определения синтаксиса, необходимого для представления данных объекта.</span><span class="sxs-lookup"><span data-stu-id="e8a95-118">ADSI abstracts the syntax data as necessary and enables you to use [**IADsSyntax**](/windows/desktop/api/Iads/nn-iads-iadssyntax) to identify the syntax required to represent object data.</span></span>
+
+<span data-ttu-id="e8a95-119">Дополнительные сведения о схеме Active Directory см. в разделе [Active Directory Schema](/windows/desktop/AD/active-directory-schema).</span><span class="sxs-lookup"><span data-stu-id="e8a95-119">For more information about the Active Directory schema, see [Active Directory Schema](/windows/desktop/AD/active-directory-schema).</span></span> <span data-ttu-id="e8a95-120">Примеры кода, используемые для чтения контейнера схемы, см. [в разделе чтение схемы](reading-the-schema.md).</span><span class="sxs-lookup"><span data-stu-id="e8a95-120">For code examples to use to read the schema container, see [Reading the Schema](reading-the-schema.md).</span></span>
+
+ 
+
+ 

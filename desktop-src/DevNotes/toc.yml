@@ -1,0 +1,1656 @@
+- name: Примечания для разработчиков
+  href: developer-notes.md
+  items:
+    - name: База данных совместимости приложений
+      href: application-compatibility-database.md
+      items:
+        - name: APPHELP_DATA
+          href: apphelp-data.md
+        - name: аттринфо
+          href: attrinfo.md
+        - name: басефлушаппкомпаткаче
+          href: baseflushappcompatcache.md
+        - name: FIND_INFO
+          href: find-info.md
+        - name: индексид
+          href: indexid.md
+        - name: PATH_TYPE
+          href: path-type.md
+        - name: сдббегинврителисттаг
+          href: sdbbeginwritelisttag.md
+        - name: сдбклоседатабасе
+          href: sdbclosedatabase.md
+        - name: сдбклоседатабасеврите
+          href: sdbclosedatabasewrite.md
+        - name: сдбкоммитиндексес
+          href: sdbcommitindexes.md
+        - name: сдбкреатедатабасе
+          href: sdbcreatedatabase.md
+        - name: сдбдеклареиндекс
+          href: sdbdeclareindex.md
+        - name: сдбендврителисттаг
+          href: sdbendwritelisttag.md
+        - name: сдбфиндфирстдвординдекседтаг
+          href: sdbfindfirstdwordindexedtag.md
+        - name: сдбфиндфирсттаг
+          href: sdbfindfirsttag.md
+        - name: сдбфинднексттаг
+          href: sdbfindnexttag.md
+        - name: сдбформататтрибуте
+          href: sdbformatattribute.md
+        - name: сдбфрифилеаттрибутес
+          href: sdbfreefileattributes.md
+        - name: сдбжетапппатчдир
+          href: sdbgetapppatchdir.md
+        - name: сдбжетбинаритагдата
+          href: sdbgetbinarytagdata.md
+        - name: сдбжетфилеаттрибутес
+          href: sdbgetfileattributes.md
+        - name: сдбжетфирстчилд
+          href: sdbgetfirstchild.md
+        - name: сдбжетиндекс
+          href: sdbgetindex.md
+        - name: сдбжетматчинжексе
+          href: sdbgetmatchingexe.md
+        - name: сдбжетнекстчилд
+          href: sdbgetnextchild.md
+        - name: сдбжетстрингтагптр
+          href: sdbgetstringtagptr.md
+        - name: сдбжеттагфромтагид
+          href: sdbgettagfromtagid.md
+        - name: сдбинитдатабасе
+          href: sdbinitdatabase.md
+        - name: сдбисстандарддатабасе
+          href: sdbisstandarddatabase.md
+        - name: сдбмакеиндекскэйфромстринг
+          href: sdbmakeindexkeyfromstring.md
+        - name: сдбопенапфелпдетаилсдатабасе
+          href: sdbopenapphelpdetailsdatabase.md
+        - name: сдбопенапфелпресаурцефиле
+          href: sdbopenapphelpresourcefile.md
+        - name: сдбопендатабасе
+          href: sdbopendatabase.md
+        - name: сдбкуеридатаекстагид
+          href: sdbquerydataextagid.md
+        - name: сдбкуериресулт
+          href: sdbqueryresult.md
+        - name: сдбреадапфелпдетаилсдата
+          href: sdbreadapphelpdetailsdata.md
+        - name: сдбреадбинаритаг
+          href: sdbreadbinarytag.md
+        - name: сдбреаддвордтаг
+          href: sdbreaddwordtag.md
+        - name: сдбреадквордтаг
+          href: sdbreadqwordtag.md
+        - name: сдбреадстрингтаг
+          href: sdbreadstringtag.md
+        - name: сдбрегистердатабасикс
+          href: sdbregisterdatabaseex.md
+        - name: сдбрелеаседатабасе
+          href: sdbreleasedatabase.md
+        - name: сдбрелеасематчинжексе
+          href: sdbreleasematchingexe.md
+        - name: сдбстартиндексинг
+          href: sdbstartindexing.md
+        - name: сдбстопиндексинг
+          href: sdbstopindexing.md
+        - name: сдбтагрефтотагид
+          href: sdbtagreftotagid.md
+        - name: сдбтагтостринг
+          href: sdbtagtostring.md
+        - name: сдбунрегистердатабасе
+          href: sdbunregisterdatabase.md
+        - name: сдбвритебинаритаг
+          href: sdbwritebinarytag.md
+        - name: сдбвритебинаритагфромфиле
+          href: sdbwritebinarytagfromfile.md
+        - name: сдбвритедвордтаг
+          href: sdbwritedwordtag.md
+        - name: сдбвритенуллтаг
+          href: sdbwritenulltag.md
+        - name: сдбвритеквордтаг
+          href: sdbwriteqwordtag.md
+        - name: сдбвритестрингтаг
+          href: sdbwritestringtag.md
+        - name: сдбвритевордтаг
+          href: sdbwritewordtag.md
+        - name: Типы баз данных оболочек совместимости
+          href: shim-database-types.md
+        - name: шимфлушкаче
+          href: shimflushcache.md
+        - name: TAG
+          href: tag.md
+        - name: Типы тегов
+          href: tag-types.md
+        - name: TAGID
+          href: tagid.md
+        - name: тагреф
+          href: tagref.md
+    - name: средство проверки приложений
+      href: application-verifier.md
+      items:
+        - name: Перечисление ресурсов
+          href: resource-enumeration.md
+          items:
+            - name: Сведения о перечислении ресурсов
+              href: about-resource-enumeration.md
+            - name: Использование перечисления ресурсов
+              href: using-resource-enumeration.md
+            - name: Ссылка на перечисление ресурсов
+              href: resource-enumeration-reference.md
+              items:
+                - name: Перечисления перечислений ресурсов
+                  href: resource-enumeration-enumerations.md
+                  items:
+                    - name: еаврфресаурцетипес
+                      href: /windows/desktop/api/Avrfsdk/ne-avrfsdk-eavrfresourcetypes
+                    - name: eHANDLE_TRACE_OPERATIONS
+                      href: /windows/desktop/api/Avrfsdk/ne-avrfsdk-ehandle_trace_operations
+                    - name: ехеапаллокатионстате
+                      href: /windows/desktop/api/Avrfsdk/ne-avrfsdk-eheapallocationstate
+                    - name: ехеапенумератионлевел
+                      href: /windows/desktop/api/Avrfsdk/ne-avrfsdk-eheapenumerationlevel
+                    - name: еусераллокатионстате
+                      href: /windows/desktop/api/Avrfsdk/ne-avrfsdk-euserallocationstate
+                - name: Функции перечисления ресурсов
+                  href: resource-enumeration-functions.md
+                  items:
+                    - name: AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK
+                      href: /windows/desktop/api/Avrfsdk/nc-avrfsdk-avrf_handleoperation_enumerate_callback
+                    - name: AVRF_HEAP_ALLOCATION_ENUMERATE_CALLBACK
+                      href: /windows/desktop/api/Avrfsdk/nc-avrfsdk-avrf_heapallocation_enumerate_callback
+                    - name: AVRF_RESOURCE_ENUMERATE_CALLBACK
+                      href: /windows/desktop/api/Avrfsdk/nc-avrfsdk-avrf_resource_enumerate_callback
+                    - name: верифиеренумератересаурце
+                      href: /windows/desktop/api/Avrfsdk/nf-avrfsdk-verifierenumerateresource
+                - name: Структуры перечисления ресурсов
+                  href: resource-enumeration-structures.md
+                  items:
+                    - name: AVRF_BACKTRACE_INFORMATION
+                      href: /windows/win32/api/Avrfsdk/ns-avrfsdk-avrf_backtrace_information
+                    - name: AVRF_HANDLE_OPERATION
+                      href: /windows/win32/api/Avrfsdk/ns-avrfsdk-avrf_handle_operation
+                    - name: AVRF_HEAP_ALLOCATION
+                      href: /windows/win32/api/Avrfsdk/ns-avrfsdk-avrf_heap_allocation
+        - name: верифиерисперусерсеттингсенаблед
+          href: /windows/desktop/api/Avrfsdk/nf-avrfsdk-verifierisperusersettingsenabled
+    - name: Аудио и видео
+      href: audio-and-video-.md
+      items:
+        - name: икамерауиконтрол
+          href: /windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontrol
+          items:
+            - name: Метод отображения
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-show
+            - name: Метод Close
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-close
+            - name: Метод Suspend
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-suspend
+            - name: Метод Resume
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-resume
+            - name: Метод Жеткуррентвиевтипе
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getcurrentviewtype
+            - name: Метод Жетактивеитем
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getactiveitem
+            - name: Метод Жетселектедитемс
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getselecteditems
+            - name: Метод Ремовекаптуредитем
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-removecaptureditem
+        - name: икамерауиконтролевенткаллбакк
+          href: /windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontroleventcallback
+          items:
+            - name: Метод OnStartupComplete
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onstartupcomplete
+            - name: Метод Онсуспендкомплете
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onsuspendcomplete
+            - name: Метод Онитемкаптуред
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onitemcaptured
+            - name: Метод Онитемделетед
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onitemdeleted
+            - name: Oncloseый метод
+              href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onclosed
+        - name: Метод Сапкреатеинстанце
+          href: sapcreateinstance-method.md
+    - name: API CAB-файла
+      href: cabinet-api.md
+      items:
+        - name: Использование API CAB-файла
+          href: using-the-cabinet-api.md
+          items:
+            - name: Создание CAB-файла
+              href: creating-a-cabinet.md
+            - name: Извлечение файлов из CAB-файла
+              href: extracting-files-from-a-cabinet.md
+        - name: Справочник по API CAB-файлов
+          href: cabinet-api-reference.md
+          items:
+            - name: Функции API CAB-файла
+              href: cabinet-api-functions.md
+              items:
+                - name: делетикстрактедфилес
+                  href: deleteextractedfiles.md
+                - name: дллжетверсион
+                  href: dllgetversion.md
+                - name: Extract
+                  href: extract.md
+                - name: фЦиаддфиле
+                  href: /windows/desktop/api/Fci/nf-fci-fciaddfile
+                - name: фЦикреате
+                  href: /windows/desktop/api/Fci/nf-fci-fcicreate
+                - name: фЦидестрой
+                  href: /windows/desktop/api/Fci/nf-fci-fcidestroy
+                - name: фЦифлушкабинет
+                  href: /windows/desktop/api/Fci/nf-fci-fciflushcabinet
+                - name: фЦифлушфолдер
+                  href: /windows/desktop/api/Fci/nf-fci-fciflushfolder
+                - name: фдикопи
+                  href: /windows/desktop/api/Fdi/nf-fdi-fdicopy
+                - name: фдикреате
+                  href: /windows/desktop/api/Fdi/nf-fdi-fdicreate
+                - name: фдидестрой
+                  href: /windows/desktop/api/Fdi/nf-fdi-fdidestroy
+                - name: фдиискабинет
+                  href: /windows/desktop/api/Fdi/nf-fdi-fdiiscabinet
+                - name: фдитрункатекабинет
+                  href: /windows/desktop/api/Fdi/nf-fdi-fditruncatecabinet
+                - name: жетдллверсион
+                  href: getdllversion.md
+            - name: Макросы API CAB-файла
+              href: cabinet-api-macros.md
+              items:
+                - name: фналлок
+                  href: /windows/desktop/api/fdi/nf-fdi-fnalloc
+                - name: фнклосе
+                  href: /windows/desktop/api/fdi/nf-fdi-fnclose
+                - name: фнфЦиаллок
+                  href: /windows/desktop/api/fci/nf-fci-fnfcialloc
+                - name: фнфЦиклосе
+                  href: /windows/desktop/api/fci/nf-fci-fnfciclose
+                - name: фнфЦиделете
+                  href: /windows/desktop/api/fci/nf-fci-fnfcidelete
+                - name: фнфЦифилеплацед
+                  href: /windows/desktop/api/fci/nf-fci-fnfcifileplaced
+                - name: фнфЦифри
+                  href: /windows/desktop/api/fci/nf-fci-fnfcifree
+                - name: фнфЦижетнексткабинет
+                  href: /windows/desktop/api/fci/nf-fci-fnfcigetnextcabinet
+                - name: фнфЦижетопенинфо
+                  href: /windows/desktop/api/fci/nf-fci-fnfcigetopeninfo
+                - name: фнфЦижеттемпфиле
+                  href: /windows/desktop/api/fci/nf-fci-fnfcigettempfile
+                - name: фнфЦиопен
+                  href: /windows/desktop/api/fci/nf-fci-fnfciopen
+                - name: фнфЦиреад
+                  href: /windows/desktop/api/fci/nf-fci-fnfciread
+                - name: фнфЦисик
+                  href: /windows/desktop/api/fci/nf-fci-fnfciseek
+                - name: фнфЦистатус
+                  href: /windows/desktop/api/fci/nf-fci-fnfcistatus
+                - name: фнфЦиврите
+                  href: /windows/desktop/api/fci/nf-fci-fnfciwrite
+                - name: фнфдинотифи
+                  href: /windows/desktop/api/fdi/nf-fdi-fnfdinotify
+                - name: фнфри
+                  href: /windows/desktop/api/fdi/nf-fdi-fnfree
+                - name: фнопен
+                  href: /windows/desktop/api/fdi/nf-fdi-fnopen
+                - name: фнреад
+                  href: /windows/desktop/api/fdi/nf-fdi-fnread
+                - name: фнсик
+                  href: /windows/desktop/api/fdi/nf-fdi-fnseek
+                - name: фнврите
+                  href: /windows/desktop/api/fdi/nf-fdi-fnwrite
+                - name: ткомпфромлзксвиндов
+                  href: /windows/desktop/api/fdi_fci_types/nf-fdi_fci_types-tcompfromlzxwindow
+            - name: Структуры API CAB-файлов
+              href: cabinet-api-structures.md
+              items:
+                - name: кабинетдллверсионинфо
+                  href: cabinetdllversioninfo.md
+                - name: ккаб
+                  href: /windows/desktop/api/Fci/ns-fci-ccab
+                - name: ИНТЕГРИРОВАН
+                  href: /windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf
+                - name: фдикабинетинфо
+                  href: /windows/desktop/api/Fdi/ns-fdi-fdicabinetinfo
+                - name: фдинотификатион
+                  href: /windows/desktop/api/Fdi/ns-fdi-fdinotification
+                - name: SESSION
+                  href: session.md
+    - name: Отладка
+      href: debugging.md
+      items:
+        - name: Отладка виртуальной машины DOS
+          href: virtual-dos-machine-debug.md
+          items:
+            - name: процессвдмс
+              href: /previous-versions//bb963829(v=vs.85)
+            - name: процесстаскс
+              href: /previous-versions//bb963828(v=vs.85)
+            - name: вдменумпроцессвов
+              href: /windows/desktop/api/VdmDbg/nf-vdmdbg-vdmenumprocesswow
+            - name: вдменумтасквовекс
+              href: /windows/desktop/api/VdmDbg/nf-vdmdbg-vdmenumtaskwowex
+        - name: симболсервер
+          href: /previous-versions//ff797950(v=vs.85)
+        - name: симболсерверкаллбакк
+          href: /windows/desktop/api/DbgHelp/nc-dbghelp-psymbolservercallbackproc
+        - name: симболсерверклосе
+          href: /previous-versions//ff797952(v=vs.85)
+        - name: симболсервержетоптиондата
+          href: /previous-versions//mt732697(v=vs.85)
+        - name: симболсервержетоптионс
+          href: /previous-versions//ff797953(v=vs.85)
+        - name: симболсервериссторе
+          href: /previous-versions//mt732698(v=vs.85)
+        - name: симболсерверпингвекс
+          href: /previous-versions//mt732699(v=vs.85)
+        - name: симболсерверсесттпаусхеадер
+          href: /previous-versions//mt493460(v=vs.85)
+        - name: симболсерверсетоптионс
+          href: /previous-versions//ff797954(v=vs.85)
+        - name: симболсерверсторефиле
+          href: /previous-versions//ee942775(v=vs.85)
+    - name: Диагностика
+      href: Diagnostics.md
+      items:
+        - name: етвевентврите
+          href: etweventwrite.md
+        - name: етвевентвритефулл
+          href: etweventwritefull.md
+    - name: 'драйверы,'
+      href: drivers.md
+      items:
+        - name: Драйвер TCP
+          href: tcp-driver.md
+          items:
+            - name: референцеткпдривер
+              href: referencetcpdriver.md
+            - name: ReferenceTcpDriverV6
+              href: referencetcpdriverv6.md
+        - name: ThunkConnect32
+          href: thunkconnect32.md
+    - name: API обновления выпуска
+      href: edition-upgrade-api.md
+      items:
+        - name: иедитионупградехелпер
+          href: /windows/desktop/api/editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper
+          items:
+            - name: Метод Канупграде
+              href: /windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-canupgrade
+            - name: Метод Жетженуинелокалстатус
+              href: /windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getgenuinelocalstatus
+            - name: Метод Жетоспродуктконтентид
+              href: /windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getosproductcontentid
+            - name: Метод Шовпродукткэйуи
+              href: /windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-showproductkeyui
+            - name: Метод Упдатеоператингсистем
+              href: /windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-updateoperatingsystem
+    - name: Промежуточное хранение компонентов
+      href: feature-staging.md
+      items:
+        - name: FEATURE_ENABLED_STATE
+          href: /windows/desktop/api/featurestagingapi/ne-featurestagingapi-feature_enabled_state
+        - name: FEATURE_ERROR
+          href: /windows/desktop/api/featurestagingapi/ns-featurestagingapi-feature_error
+        - name: FEATURE_CHANGE_TIME
+          href: /windows/desktop/api/featurestagingapi/ne-featurestagingapi-feature_change_time
+        - name: жетфеатуринабледстате
+          href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-getfeatureenabledstate
+        - name: жетфеатуревариант
+          href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-getfeaturevariant
+        - name: рекордфеатуриррор
+          href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-recordfeatureerror
+        - name: рекордфеатуреусаже
+          href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-recordfeatureusage
+        - name: субскрибефеатурестатечанженотификатион
+          href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-subscribefeaturestatechangenotification
+        - name: унсубскрибефеатурестатечанженотификатион
+          href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-unsubscribefeaturestatechangenotification
+    - name: фидбаккхуб
+      href: feedbackhub.md
+      items:
+        - name: ифидбаккхубаппинфо
+          href: ifeebackhubappinfo.md
+          items:
+            - name: Метод Жетаумидфромапплистентри
+              href: ifeedbackhubappinfo-getaumidfromapplistentry.md
+            - name: Метод Жетинсталледлегациаппс
+              href: ifeedbackhubappinfo-getinstalledlegacyapps.md
+            - name: Метод Жетруннингаппс
+              href: ifeedbackhubappinfo-getrunningapps.md
+    - name: API истории файлов
+      href: file-history-api.md
+      items:
+        - name: FH_BACKUP_STATUS
+          href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_backup_status
+        - name: FH_DEVICE_VALIDATION_RESULT
+          href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_device_validation_result
+        - name: FH_LOCAL_POLICY_TYPE
+          href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_local_policy_type
+        - name: FH_PROTECTED_ITEM_CATEGORY
+          href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_protected_item_category
+        - name: FH_RETENTION_TYPES
+          href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_retention_types
+        - name: FH_TARGET_DRIVE_TYPES
+          href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_target_drive_types
+        - name: FH_TARGET_PROPERTY_TYPE
+          href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_target_property_type
+        - name: фхконфигмгр
+          href: fhconfigmgr.md
+        - name: FhManagew.exe
+          href: fhmanagew-exe.md
+        - name: фхреассоЦиатион
+          href: fhreassociation.md
+        - name: фхсервицеклосепипе
+          href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhserviceclosepipe
+        - name: фхсервицеопенпипе
+          href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhserviceopenpipe
+        - name: фхсервицерелоадконфигуратион
+          href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhservicereloadconfiguration
+        - name: фхсервицеблоккбаккуп
+          href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhserviceblockbackup
+        - name: фхсервицестартбаккуп
+          href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhservicestartbackup
+        - name: фхсервицестопбаккуп
+          href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhservicestopbackup
+        - name: фхсервицеунблоккбаккуп
+          href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhserviceunblockbackup
+        - name: ифхконфигмгр
+          href: /windows/desktop/api/Fhcfg/nn-fhcfg-ifhconfigmgr
+          items:
+            - name: Метод Аддремовиксклудеруле
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-addremoveexcluderule
+            - name: Метод Чанжедефаулттаржетрекоммендатион
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-changedefaulttargetrecommendation
+            - name: Метод Креатедефаултконфигуратион
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration
+            - name: Метод Жетбаккупстатус
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-getbackupstatus
+            - name: Метод Жетдефаулттаржет
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-getdefaulttarget
+            - name: Метод Жетинклудиксклудерулес
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules
+            - name: Метод Жетлокалполици
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-getlocalpolicy
+            - name: Метод Лоадконфигуратион
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-loadconfiguration
+            - name: Метод Провисионандсетневтаржет
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-provisionandsetnewtarget
+            - name: Метод Куерипротектионстатус
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-queryprotectionstatus
+            - name: Метод Савеконфигуратион
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-saveconfiguration
+            - name: Метод Сетбаккупстатус
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus
+            - name: Метод Сетлокалполици
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy
+            - name: Метод Валидатетаржет
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget
+        - name: ифхреассоЦиатион
+          href: /windows/desktop/api/Fhcfg/nn-fhcfg-ifhreassociation
+          items:
+            - name: Метод Жетконфигуратиондетаилс
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhreassociation-getconfigurationdetails
+            - name: Метод ПерформреассоЦиатион
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhreassociation-performreassociation
+            - name: Метод Скантаржетфорконфигуратионс
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations
+            - name: Метод Селектконфигуратион
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhreassociation-selectconfiguration
+            - name: Метод Валидатетаржет
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhreassociation-validatetarget
+        - name: ифхскопеитератор
+          href: /windows/desktop/api/Fhcfg/nn-fhcfg-ifhscopeiterator
+          items:
+            - name: Метод DataItem
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhscopeiterator-getitem
+            - name: Метод Моветонекститем
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhscopeiterator-movetonextitem
+        - name: ифхтаржет
+          href: /windows/desktop/api/Fhcfg/nn-fhcfg-ifhtarget
+          items:
+            - name: Метод Жетнумерикалпроперти
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhtarget-getnumericalproperty
+            - name: Метод Жетстрингпроперти
+              href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhtarget-getstringproperty
+    - name: Файлы
+      href: files.md
+      items:
+        - name: _lcreat
+          href: /windows/desktop/api/Winbase/nf-winbase-_lcreat
+        - name: _llseek
+          href: /windows/desktop/api/Winbase/nf-winbase-_llseek
+        - name: _lwrite
+          href: /windows/desktop/api/Winbase/nf-winbase-_lwrite
+        - name: FSCTL_SRV_REQUEST_RESUME_KEY
+          href: fsctl-srv-request-resume-key.md
+        - name: IOCTL_COPYCHUNK
+          href: ioctl-copychunk.md
+        - name: IOCTL_LMR_DISABLE_LOCAL_BUFFERING
+          href: ioctl-lmr-disable-local-buffering.md
+        - name: Основная таблица файлов
+          href: master-file-table.md
+          items:
+            - name: ATTRIBUTE_LIST_ENTRY
+              href: attribute-list-entry.md
+            - name: ATTRIBUTE_RECORD_HEADER
+              href: attribute-record-header.md
+            - name: FILE_NAME
+              href: file-name.md
+            - name: FILE_RECORD_SEGMENT_HEADER
+              href: file-record-segment-header.md
+            - name: MFT_SEGMENT_REFERENCE
+              href: mft-segment-reference.md
+            - name: MULTI_SECTOR_HEADER
+              href: multi-sector-header.md
+            - name: STANDARD_INFORMATION
+              href: standard-information.md
+        - name: NtCreateFile
+          href: /windows/desktop/api/Winternl/nf-winternl-ntcreatefile
+        - name: нтопендиректорйобжект
+          href: ntopendirectoryobject.md
+        - name: нтопенфиле
+          href: /windows/desktop/api/Winternl/nf-winternl-ntopenfile
+        - name: нтопенсимболиклинкобжект
+          href: ntopensymboliclinkobject.md
+        - name: нткуеридиректорйобжект
+          href: ntquerydirectoryobject.md
+        - name: нткуерисимболиклинкобжект
+          href: ntquerysymboliclinkobject.md
+        - name: нтреадфиле
+          href: ntreadfile.md
+        - name: RtlIsNameLegalDOS8Dot3
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlisnamelegaldos8dot3
+    - name: Общий ресурс IME
+      href: ime-share.md
+      items:
+        - name: ендимешаре
+          href: endimeshare.md
+        - name: фболдиместиле
+          href: fboldimestyle.md
+        - name: ффундаменталимеколорстиле
+          href: ffundamentalimecolorstyle.md
+        - name: финитимешаре
+          href: finitimeshare.md
+        - name: фиталиЦиместиле
+          href: fitalicimestyle.md
+        - name: фрефрешстиле
+          href: frefreshstyle.md
+        - name: фргбимеколорстиле
+          href: frgbimecolorstyle.md
+        - name: фспеЦиалимеколорстиле
+          href: fspecialimecolorstyle.md
+        - name: фспеЦиалтекстимеколорстиле
+          href: fspecialtextimecolorstyle.md
+        - name: фспеЦиалвиндовимеколорстиле
+          href: fspecialwindowimecolorstyle.md
+        - name: фулиместиле
+          href: fulimestyle.md
+        - name: фвинимеколорстиле
+          href: fwinimecolorstyle.md
+        - name: идулиместиле
+          href: idulimestyle.md
+        - name: пколорстилебаккфромиместиле
+          href: pcolorstylebackfromimestyle.md
+        - name: пколорстилетекстфромиместиле
+          href: pcolorstyletextfromimestyle.md
+        - name: пиместилефроматтр
+          href: pimestylefromattr.md
+        - name: ргбфромимеколорстиле
+          href: rgbfromimecolorstyle.md
+    - name: Поддержка клиентов Low-Level графики
+      href: '-dxgkernel-low-level-client-support.md'
+      items:
+        - name: дЦибегинакцесс
+          href: /windows/desktop/api/Dciman/nf-dciman-dcibeginaccess
+        - name: дЦиклосепровидер
+          href: /windows/desktop/api/Dciman/nf-dciman-dcicloseprovider
+        - name: дЦикреатепримари
+          href: /windows/desktop/api/Dciman/nf-dciman-dcicreateprimary
+        - name: дЦидестрой
+          href: /windows/desktop/api/Dciman/nf-dciman-dcidestroy
+        - name: дЦиендакцесс
+          href: /windows/desktop/api/Dciman/nf-dciman-dciendaccess
+        - name: дЦиопенпровидер
+          href: /windows/desktop/api/Dciman/nf-dciman-dciopenprovider
+        - name: ддаттачсурфаце
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddattachsurface
+        - name: ддкреатедибсектион
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatedibsection
+        - name: ддкреатедиректдравобжект
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatedirectdrawobject
+        - name: ддкреатесурфацеобжект
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatesurfaceobject
+        - name: ддделетедиректдравобжект
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-dddeletedirectdrawobject
+        - name: ддделетесурфацеобжект
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-dddeletesurfaceobject
+        - name: дджетдк
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddgetdc
+        - name: дджетдксхандле
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddgetdxhandle
+        - name: ддкуеридиректдравобжект
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject
+        - name: ддкуеридисплайсеттингсуникуенесс
+          href: /windows/desktop/api/DDrawGDI/nf-ddrawgdi-ddquerydisplaysettingsuniqueness
+        - name: ддринабледиректдравобжект
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddreenabledirectdrawobject
+        - name: ддрелеаседк
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddreleasedc
+        - name: ддресетвисргн
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddresetvisrgn
+        - name: ддсетгаммарамп
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddsetgammaramp
+        - name: ддсваптекстурехандлес
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddswaptexturehandles
+        - name: ддунаттачсурфаце
+          href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddunattachsurface
+        - name: NtGdiD3DContextCreate
+          href: '-dxgkernel-ntgdid3dcontextcreate.md'
+        - name: NtGdiD3DContextDestroy
+          href: '-dxgkernel-ntgdid3dcontextdestroy.md'
+        - name: NtGdiD3DContextDestroyAll
+          href: '-dxgkernel-ntgdid3dcontextdestroyall.md'
+        - name: NtGdiD3DDrawPrimitives2
+          href: '-dxgkernel-ntgdid3ddrawprimitives2.md'
+        - name: NtGdiD3DGetDriverState
+          href: '-dxgkernel-ntgdid3dgetdriverstate.md'
+        - name: NtGdiD3DValidateTextureStageState
+          href: '-dxgkernel-ntgdid3dvalidatetexturestagestate.md'
+        - name: нтгдиддаддаттачедсурфаце
+          href: '-dxgkernel-ntgdiddaddattachedsurface.md'
+        - name: нтгдиддаддалфаблт
+          href: '-dxgkernel-ntgdiddalphablt.md'
+        - name: нтгдиддаттачсурфаце
+          href: '-dxgkernel-ntgdiddattachsurface.md'
+        - name: нтгдиддбегинмокомпфраме
+          href: '-dxgkernel-ntgdiddbeginmocompframe.md'
+        - name: нтгдиддблт
+          href: '-dxgkernel-ntgdiddblt.md'
+        - name: NtGdiDdCanCreateD3DBuffer
+          href: '-dxgkernel-ntgdiddcancreated3dbuffer.md'
+        - name: нтгдиддканкреатесурфаце
+          href: '-dxgkernel-ntgdiddcancreatesurface.md'
+        - name: нтгдиддколорконтрол
+          href: '-dxgkernel-ntgdiddcolorcontrol.md'
+        - name: NtGdiDdCreateD3DBuffer
+          href: '-dxgkernel-ntgdiddcreated3dbuffer.md'
+        - name: нтгдиддкреатедиректдравобжект
+          href: '-dxgkernel-ntgdiddcreatedirectdrawobject.md'
+        - name: нтгдиддкреатемокомп
+          href: '-dxgkernel-ntgdiddcreatemocomp.md'
+        - name: нтгдиддкреатесурфаце
+          href: '-dxgkernel-ntgdiddcreatesurface.md'
+        - name: нтгдиддкреатесурфацеекс
+          href: '-dxgkernel-ntgdiddcreatesurfaceex.md'
+        - name: нтгдиддкреатесурфацеобжект
+          href: '-dxgkernel-ntgdiddcreatesurfaceobject.md'
+        - name: нтгдиддделетедиректдравобжект
+          href: '-dxgkernel-ntgdidddeletedirectdrawobject.md'
+        - name: нтгдиддделетесурфацеобжект
+          href: '-dxgkernel-ntgdidddeletesurfaceobject.md'
+        - name: NtGdiDdDestroyD3DBuffer
+          href: '-dxgkernel-ntgdidddestroyd3dbuffer.md'
+        - name: нтгдидддестроймокомп
+          href: '-dxgkernel-ntgdidddestroymocomp.md'
+        - name: нтгдидддестройсурфаце
+          href: '-dxgkernel-ntgdidddestroysurface.md'
+        - name: нтгдиддендмокомпфраме
+          href: '-dxgkernel-ntgdiddendmocompframe.md'
+        - name: нтгдиддфлип
+          href: '-dxgkernel-ntgdiddflip.md'
+        - name: нтгдиддфлиптогдисурфаце
+          href: '-dxgkernel-ntgdiddfliptogdisurface.md'
+        - name: нтгдидджетаваилдривермемори
+          href: '-dxgkernel-ntgdiddgetavaildrivermemory.md'
+        - name: нтгдидджетблтстатус
+          href: '-dxgkernel-ntgdiddgetbltstatus.md'
+        - name: нтгдидджетдк
+          href: '-dxgkernel-ntgdiddgetdc.md'
+        - name: нтгдидджетдриверинфо
+          href: '-dxgkernel-ntgdiddgetdriverinfo.md'
+        - name: нтгдидджетдксхандле
+          href: '-dxgkernel-ntgdiddgetdxhandle.md'
+        - name: нтгдидджетфлипстатус
+          href: '-dxgkernel-ntgdiddgetflipstatus.md'
+        - name: нтгдидджетинтерналмокомпинфо
+          href: '-dxgkernel-ntgdiddgetinternalmocompinfo.md'
+        - name: нтгдидджетмокомпбуффинфо
+          href: '-dxgkernel-ntgdiddgetmocompbuffinfo.md'
+        - name: нтгдидджетмокомпформатс
+          href: '-dxgkernel-ntgdiddgetmocompformats.md'
+        - name: нтгдидджетмокомпгуидс
+          href: '-dxgkernel-ntgdiddgetmocompguids.md'
+        - name: нтгдидджетсканлине
+          href: '-dxgkernel-ntgdiddgetscanline.md'
+        - name: нтгдиддлокк
+          href: '-dxgkernel-ntgdiddlock.md'
+        - name: NtGdiDdLockD3D
+          href: '-dxgkernel-ntgdiddlockd3d.md'
+        - name: нтгдиддкуеридиректдравобжект
+          href: '-dxgkernel-ntgdiddquerydirectdrawobject.md'
+        - name: нтгдиддкуеримокомпстатус
+          href: '-dxgkernel-ntgdiddquerymocompstatus.md'
+        - name: нтгдиддринабледиректдравобжект
+          href: '-dxgkernel-ntgdiddreenabledirectdrawobject.md'
+        - name: нтгдиддрелеаседк
+          href: '-dxgkernel-ntgdiddreleasedc.md'
+        - name: нтгдиддрендермокомп
+          href: '-dxgkernel-ntgdiddrendermocomp.md'
+        - name: нтгдиддресетвисргн
+          href: '-dxgkernel-ntgdiddresetvisrgn.md'
+        - name: нтгдиддсетколоркэй
+          href: '-dxgkernel-ntgdiddsetcolorkey.md'
+        - name: нтгдиддсетексклусивемоде
+          href: '-dxgkernel-ntgdiddsetexclusivemode.md'
+        - name: нтгдиддсетгаммарамп
+          href: '-dxgkernel-ntgdiddsetgammaramp.md'
+        - name: нтгдиддсетоверлайпоситион
+          href: '-dxgkernel-ntgdiddsetoverlayposition.md'
+        - name: нтгдиддунаттачсурфаце
+          href: '-dxgkernel-ntgdiddunattachsurface.md'
+        - name: нтгдиддунлокк
+          href: '-dxgkernel-ntgdiddunlock.md'
+        - name: NtGdiDdUnlockD3D
+          href: '-dxgkernel-ntgdiddunlockd3d.md'
+        - name: нтгдиддупдатеоверлай
+          href: '-dxgkernel-ntgdiddupdateoverlay.md'
+        - name: нтгдиддваитфорвертикалбланк
+          href: '-dxgkernel-ntgdiddwaitforverticalblank.md'
+    - name: Поддержка прочих Low-Level клиентов
+      href: '-win32-misclowlevelclientsupport.md'
+      items:
+        - name: __C_specific_handler
+          href: '--c-specific-handler2.md'
+        - name: _alldiv подпрограммы
+          href: '-win32-alldiv.md'
+        - name: _chkstk подпрограммы
+          href: '-win32-chkstk.md'
+        - name: _lclose
+          href: /windows/desktop/api/winbase/nf-winbase-_lclose
+        - name: _lread
+          href: /windows/desktop/api/winbase/nf-winbase-_lread
+        - name: _lopen
+          href: /windows/desktop/api/winbase/nf-winbase-_lopen
+        - name: аредвдкодексенаблед
+          href: /windows/desktop/api/comppkgsup/nf-comppkgsup-aredvdcodecsenabled
+        - name: дисаблепроцессвиндовсгхостинг
+          href: /windows/desktop/api/Winuser/nf-winuser-disableprocesswindowsghosting
+        - name: жетмедиакомпонентпаккажеинфо
+          href: /windows/desktop/api/comppkgsup/nf-comppkgsup-getmediacomponentpackageinfo
+        - name: жетмедиаекстенсионкоммуникатионфактори
+          href: /windows/desktop/api/comppkgsup/nf-comppkgsup-getmediaextensioncommunicationfactory
+        - name: жетсерверфорпмп
+          href: /windows/desktop/api/comppkgsup/nf-comppkgsup-getserverforpmp
+        - name: иместрукт
+          href: /windows/desktop/api/Ime/ns-ime-imestruct
+        - name: инстантиатекомпонентфромпаккаже
+          href: /windows/desktop/api/comppkgsup/nf-comppkgsup-instantiatecomponentfrompackage
+        - name: исмедиабехавиоренаблед
+          href: /windows/desktop/api/comppkgsup/nf-comppkgsup-ismediabehaviorenabled
+        - name: нтклосе
+          href: /windows/desktop/api/Winternl/nf-winternl-ntclose
+        - name: нтдевицеиоконтролфиле
+          href: /windows/desktop/api/Winternl/nf-winternl-ntdeviceiocontrolfile
+        - name: нтваитфорсинглеобжект
+          href: /windows/desktop/api/Winternl/nf-winternl-ntwaitforsingleobject
+        - name: регистерсерверфорпмп
+          href: /windows/desktop/api/comppkgsup/nf-comppkgsup-registerserverforpmp
+        - name: рекуиренетворкдурингмедиатасккомплетион
+          href: /windows/desktop/api/Comppkgsup/nf-comppkgsup-requirenetworkduringmediataskcompletion
+        - name: ртлансистрингтауникодестринг
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring
+        - name: ртлчартоинтежер
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlchartointeger
+        - name: ртлкомпареуникодестринг
+          href: rtlcompareunicodestring.md
+        - name: ртлфриансистринг
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlfreeansistring
+        - name: ртлфрихеап
+          href: rtlfreeheap.md
+        - name: ртлфриоемстринг
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlfreeoemstring
+        - name: ртлфриуникодестринг
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlfreeunicodestring
+        - name: ртлжетверсион
+          href: rtlgetversion.md
+        - name: ртлинитстринг
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlinitstring
+        - name: ртлинитуникодестринг
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlinitunicodestring
+        - name: ртлмовемемори
+          href: rtlmovememory.md
+        - name: ртлпрефиксуникодестринг
+          href: rtlprefixunicodestring.md
+        - name: ртлуникодестрингтоансистринг
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtoansistring
+        - name: ртлуникодестрингтуемстринг
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtooemstring
+        - name: ртлуникодетомултибитесизе
+          href: /windows/desktop/api/Winternl/nf-winternl-rtlunicodetomultibytesize
+        - name: RtlUnicodeToUTF8N
+          href: rtlunicodetoutf8n.md
+        - name: RtlUTF8ToUnicodeN
+          href: rtlutf8tounicoden.md
+        - name: сендимемессаже
+          href: /previous-versions/hh457667(v=vs.85)
+        - name: сендимемессажеекс
+          href: /windows/desktop/api/Ime/nf-ime-sendimemessageexa
+        - name: STRING
+          href: /windows/win32/api/Winternl/ns-winternl-string
+        - name: унрегистерсерверфорпмп
+          href: /windows/desktop/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp
+        - name: виннлсенаблеиме
+          href: /windows/desktop/api/Winnls32/nf-winnls32-winnlsenableime
+    - name: МОДУЛЕ
+      href: mshtml2.md
+      items:
+        - name: IWebBrowser2
+          href: /windows/desktop/api/Exdisp/nn-exdisp-iwebbrowser2
+          items:
+            - name: 'HWND, свойство'
+              href: /previous-versions//mt725310(v=vs.85)
+            - name: 'TheaterMode, свойство'
+              href: /windows/desktop/api/Exdisp/nf-exdisp-iwebbrowser2-get_theatermode
+            - name: 'ToolBar, свойство'
+              href: /previous-versions//mt725312(v=vs.85)
+    - name: Установка
+      href: installation.md
+      items:
+        - name: Соустановка
+          href: /windows/desktop/api/objbase/nf-objbase-coinstall
+          items:
+            - name: ксплатформ
+              href: /previous-versions//bb432231(v=vs.85)
+            - name: куериконтекст
+              href: /previous-versions//bb432414(v=vs.85)
+            - name: тиспек
+              href: tyspec.md
+        - name: икфгинсталлинеткомпонентс
+          href: icfginstallinetcomponents.md
+        - name: икфгнидинеткомпонентс
+          href: icfgneedinetcomponents.md
+        - name: инсталлкаталог
+          href: installcatalog.md
+        - name: инсталлкомпонентв
+          href: installcomponentw.md
+        - name: инсталлперфдлл
+          href: /windows/desktop/api/LoadPerf/nf-loadperf-installperfdlla
+        - name: лоадлибраришим
+          href: loadlibraryshim.md
+        - name: оЦинитиализе
+          href: ocinitialize.md
+          items:
+            - name: OCM_CLIENT_CALLBACKS
+              href: ocm-client-callbacks.md
+        - name: октерминате
+          href: octerminate.md
+        - name: псетупжетфилетитле
+          href: psetupgetfiletitle.md
+        - name: псетупжетглобалфлагс
+          href: psetupgetglobalflags.md
+        - name: псетупинсталлкаталог
+          href: psetupinstallcatalog.md
+        - name: псетуписусерадмин
+          href: psetupisuseradmin.md
+        - name: псетупсетглобалфлагс
+          href: psetupsetglobalflags.md
+        - name: псетупстрингтабледестрой
+          href: psetupstringtabledestroy.md
+        - name: псетупстрингтаблеаддстринжекс
+          href: psetupstringtableaddstringex.md
+        - name: псетупстрингтаблеинитиализикс
+          href: psetupstringtableinitializeex.md
+        - name: псетупстрингтаблеинитиализе
+          href: psetupstringtableinitialize.md
+        - name: псетупверификаталогфиле
+          href: psetupverifycatalogfile.md
+        - name: reload_config
+          href: reload-config.md
+        - name: сксслукупклргуид
+          href: sxslookupclrguid.md
+        - name: унинсталлкомпонент
+          href: uninstallcomponent.md
+        - name: верификаталогфиле
+          href: verifycatalogfile.md
+    - name: Pass-Through iSCSI Target
+      href: /powershell/module/iscsi
+      items:
+        - name: SENSE_DATA
+          href: sense-data.md
+    - name: Виртуальная машина Java
+      href: java-vm.md
+      items:
+        - name: довнлоаджаваекс
+          href: downloadjavaex.md
+        - name: JAVA_TRUST
+          href: /windows/win32/api/Capi/ns-capi-java_trust
+        - name: нотифибровсершутдовн
+          href: notifybrowsershutdown.md
+        - name: шовжаваконсоле
+          href: showjavaconsole.md
+    - name: Отладка Jet
+      href: jet-debugging.md
+      items:
+        - name: CchLszOfId2
+          href: cchlszofid2.md
+        - name: жетерридаравмессаже
+          href: jeterridarawmessage.md
+        - name: жетеррформаттедмессаже
+          href: jeterrformattedmessage.md
+        - name: жетеррравмессаже
+          href: jeterrrawmessage.md
+    - name: мсделта
+      href: msdelta.md
+      items:
+        - name: апплиделтаб
+          href: msdelta-applydeltab.md
+        - name: креатеделтаб
+          href: msdelta-createdeltab.md
+        - name: делтафри
+          href: msdelta-deltafree.md
+    - name: СЛУЖБЫ
+      href: msn.md
+      items:
+        - name: 'Определение того, находится ли MSN в состоянии входа'
+          href: determining-if-msn-is-in-the-signin-state.md
+    - name: 'MSXML 1,0 (устарело)'
+      href: msxml-1-0.md
+      items:
+        - name: иксмлелементколлектион
+          href: /windows/desktop/api/Msxml/nn-msxml-ixmlelementcollection
+          items:
+            - name: Метод item
+              href: /windows/desktop/api/Msxml/nf-msxml-ixmlelementcollection-item
+            - name: Метод get_length
+              href: /windows/desktop/api/Msxml/nf-msxml-ixmlelementcollection-get_length
+    - name: Сеть
+      href: networking.md
+      items:
+        - name: чеккконнектионвизард
+          href: /windows/desktop/api/Icwcfg/nf-icwcfg-checkconnectionwizard
+        - name: инетжетаутодиал
+          href: inetgetautodial.md
+        - name: I_NetLogonControl2
+          href: /windows/desktop/api/Lmaccess/nf-lmaccess-i_netlogoncontrol2
+          items:
+            - name: NETLOGON_INFO_1
+              href: /windows/win32/api/Lmaccess/ns-lmaccess-netlogon_info_1
+            - name: NETLOGON_INFO_2
+              href: /windows/win32/api/Lmaccess/ns-lmaccess-netlogon_info_2
+            - name: NETLOGON_INFO_3
+              href: /windows/win32/api/Lmaccess/ns-lmaccess-netlogon_info_3
+            - name: NETLOGON_INFO_4
+              href: /windows/win32/api/Lmaccess/ns-lmaccess-netlogon_info_4
+        - name: ресумесуспендеддовнлоад
+          href: /previous-versions//bb432423(v=vs.85)
+        - name: Подсистема доставки оповещений RPC
+          href: rpc-ndr-engine.md
+          items:
+            - name: ндркомплексаррайбуфферсизе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexarraybuffersize
+            - name: ндркомплексарраймаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexarraymarshall
+            - name: ндркомплексаррайунмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexarrayunmarshall
+            - name: ндркомплексструктбуфферсизе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexstructbuffersize
+            - name: ндркомплексструктмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexstructmarshall
+            - name: ндркомплексструктунмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexstructunmarshall
+            - name: ндркомформантаррайбуфферсизе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantarraybuffersize
+            - name: ндркомформантарраймаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantarraymarshall
+            - name: ндрсимплеструктбуфферсизе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrsimplestructbuffersize
+            - name: ндрсимплеструктмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrsimplestructmarshall
+            - name: ндрсимплеструктунмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrsimplestructunmarshall
+            - name: ндрусермаршалунмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalunmarshall
+    - name: NFS
+      href: nfs.md
+      items:
+        - name: DA_GET_NFS_ATTRIBUTES
+          href: da-get-nfs-attributes.md
+    - name: OpenCL
+      href: opencl.md
+    - name: патчапи
+      href: patchapi.md
+      items:
+        - name: креатепатчфиликс
+          href: patchapi-createpatchfileex.md
+        - name: екстрактпатчхеадертофиле
+          href: patchapi-extractpatchheadertofile.md
+    - name: Автономные файлы
+      href: offline-files.md
+      items:
+        - name: кскфиндклосе
+          href: cscfindclose.md
+        - name: кскфиндфирстфилев
+          href: cscfindfirstfilew.md
+        - name: кскфинднекстфилев
+          href: cscfindnextfilew.md
+        - name: кскжетспацеусажев
+          href: cscgetspaceusagew.md
+        - name: ксЦисксценаблед
+          href: csciscscenabled.md
+        - name: ксккуеридатабасестатус
+          href: cscquerydatabasestatus.md
+    - name: Библиотека автономных разделов реестра
+      href: offline-registry-library-portal.md
+      items:
+        - name: Сведения о библиотеке автономных разделов реестра
+          href: about-the-offline-registry-library.md
+        - name: Функции библиотеки автономного реестра
+          href: offline-registry-library-functions.md
+          items:
+            - name: орклосехиве
+              href: orclosehive.md
+            - name: орклосекэй
+              href: orclosekey.md
+            - name: оркреатехиве
+              href: orcreatehive.md
+            - name: оркреатекэй
+              href: orcreatekey.md
+            - name: орделетекэй
+              href: ordeletekey.md
+            - name: орделетевалуе
+              href: ordeletevalue.md
+            - name: оренумкэй
+              href: orenumkey.md
+            - name: оренумвалуе
+              href: orenumvalue.md
+            - name: оржеткэйсекурити
+              href: orgetkeysecurity.md
+            - name: оржетвалуе
+              href: orgetvalue.md
+            - name: оржетверсион
+              href: orgetversion.md
+            - name: оржетвиртуалфлагс
+              href: orgetvirtualflags.md
+            - name: оропенхиве
+              href: oropenhive.md
+            - name: оропенкэй
+              href: oropenkey.md
+            - name: оркуеринфокэй
+              href: orqueryinfokey.md
+            - name: орсавехиве
+              href: orsavehive.md
+            - name: орсеткэйсекурити
+              href: orsetkeysecurity.md
+            - name: орсетвалуе
+              href: orsetvalue.md
+            - name: орсетвиртуалфлагс
+              href: orsetvirtualflags.md
+    - name: PStore
+      href: pstore.md
+      items:
+        - name: иенумпстореитемс
+          href: ienumpstoreitems.md
+          items:
+            - name: Метод Clone
+              href: ienumpstoreitems-clone.md
+            - name: Метод Next
+              href: ienumpstoreitems-next.md
+            - name: Метод Reset
+              href: ienumpstoreitems-reset.md
+            - name: Метод Skip
+              href: ienumpstoreitems-skip.md
+        - name: иенумпсторепровидерс
+          href: ienumpstoreproviders.md
+          items:
+            - name: Метод Clone
+              href: ienumpstoreproviders-clone.md
+            - name: Метод Next
+              href: ienumpstoreproviders-next.md
+            - name: Метод Reset
+              href: ienumpstoreproviders-reset.md
+            - name: Метод Skip
+              href: ienumpstoreproviders-skip.md
+        - name: иенумпсторетипес
+          href: ienumpstoretypes.md
+          items:
+            - name: Метод Clone
+              href: ienumpstoretypes-clone.md
+            - name: Метод Next
+              href: ienumpstoretypes-next.md
+            - name: Метод Reset
+              href: ienumpstoretypes-reset.md
+            - name: Метод Skip
+              href: ienumpstoretypes-skip.md
+        - name: ипсторе
+          href: ipstore.md
+          items:
+            - name: Метод Клосеитем
+              href: ipstore-closeitem.md
+            - name: Метод Креатесубтипе
+              href: ipstore-createsubtype.md
+              items:
+                - name: PST_ACCESSCLAUSE
+                  href: pst-accessclause.md
+                - name: PST_ACCESSRULE
+                  href: pst-accessrule.md
+                - name: PST_ACCESSRULESET
+                  href: pst-accessruleset.md
+                - name: PST_TYPEINFO
+                  href: pst-typeinfo.md
+            - name: Метод CreateType
+              href: ipstore-createtype.md
+            - name: Метод DeleteItem
+              href: ipstore-deleteitem.md
+            - name: Метод Делетесубтипе
+              href: ipstore-deletesubtype.md
+            - name: Метод Делететипе
+              href: ipstore-deletetype.md
+            - name: Метод Енумитемс
+              href: ipstore-enumitems.md
+            - name: Метод Енумсубтипес
+              href: ipstore-enumsubtypes.md
+            - name: Метод Енумтипес
+              href: ipstore-enumtypes.md
+            - name: Метод получения сведений
+              href: ipstore-getinfo.md
+            - name: Метод Жетпровпарам
+              href: ipstore-getprovparam.md
+            - name: Метод Жетсубтипеинфо
+              href: ipstore-getsubtypeinfo.md
+            - name: Метод GetTypeInfo
+              href: ipstore-gettypeinfo.md
+            - name: Метод Опенитем
+              href: ipstore-openitem.md
+              items:
+                - name: PST_PROMPTINFO
+                  href: pst-promptinfo.md
+            - name: Метод Реадакцессрулесет
+              href: ipstore-readaccessruleset.md
+            - name: Метод ReadItem
+              href: ipstore-readitem.md
+            - name: Метод Сетпровпарам
+              href: ipstore-setprovparam.md
+            - name: Метод Вритеакцессрулесет
+              href: ipstore-writeaccessruleset.md
+            - name: Метод Вритеитем
+              href: ipstore-writeitem.md
+        - name: псторекреатеинстанце
+          href: pstorecreateinstance.md
+        - name: псторинумпровидерс
+          href: pstoreenumproviders.md
+        - name: Константы PStore
+          href: pstore-constants.md
+          items:
+            - name: PST_AUTHENTICODEDATA
+              href: pst-authenticodedata.md
+        - name: Типы PStore
+          href: pstore-types.md
+    - name: Значения реестра
+      href: registry-values.md
+      items:
+        - name: аддхижридате
+          href: addhijridate.md
+        - name: CEIPEnable
+          href: ceipenable.md
+        - name: SsASnoversion
+          href: connectto.md
+        - name: Exec
+          href: exec.md
+        - name: SCRNSAVE.EXE
+          href: scrnsave-exe.md
+    - name: Безопасность
+      href: security.md
+      items:
+        - name: иисолатедапплаунчер
+          href: /windows/desktop/api/isolatedapplauncher/nn-isolatedapplauncher-iisolatedapplauncher
+          items:
+            - name: Метод Испроцессинисолатедконтаинер
+              href: /windows/desktop/api/isolatedapplauncher/nn-isolatedapplauncher-iisolatedapplauncher
+        - name: фвинаблеравакцессв
+          href: fveenablerawaccessw.md
+        - name: Надстройки IPassportManager3
+          href: ipassportmanager3-add-ons.md
+          items:
+            - name: Метод get_Option
+              href: ipassportmanager3-get-option.md
+            - name: Метод put_Option
+              href: ipassportmanager3-put-option.md
+        - name: нтсекпкг
+          href: ntsecpkg.md
+          items:
+            - name: сеалмессаже
+              href: /previous-versions//bb432479(v=vs.85)
+            - name: унсеалмессаже
+              href: /previous-versions//bb432499(v=vs.85)
+        - name: Более безопасный API
+          href: safer-api.md
+          items:
+            - name: саферисеарчматчингхашрулес
+              href: saferisearchmatchinghashrules.md
+        - name: Центр обеспечения безопасности Windows
+          href: windows-security-center.md
+          items:
+            - name: Перечисления центра безопасности Windows
+              href: windows-security-center-enumerations.md
+              items:
+                - name: WSC_SECURITY_PRODUCT_STATE
+                  href: /windows/desktop/api/Iwscapi/ne-iwscapi-wsc_security_product_state
+                - name: WSC_SECURITY_PROVIDER
+                  href: /windows/win32/api/Wscapi/ne-wscapi-wsc_security_provider
+                - name: WSC_SECURITY_PROVIDER_HEALTH
+                  href: /windows/win32/api/Wscapi/ne-wscapi-wsc_security_provider_health
+                - name: WSC_SECURITY_SIGNATURE_STATUS
+                  href: /windows/win32/api/Iwscapi/ne-iwscapi-wsc_security_signature_status
+            - name: Интерфейсы центра безопасности Windows
+              href: windows-security-center-interfaces.md
+              items:
+                - name: ивскпродукт
+                  href: /windows/desktop/api/Iwscapi/nn-iwscapi-iwscproduct
+                  items:
+                    - name: 'ProductName, метод'
+                      href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproduct-get_productname
+                    - name: Метод Продуктстате
+                      href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproduct-get_productstate
+                    - name: Метод Продукттиместамп
+                      href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproduct-get_productstatetimestamp
+                    - name: Метод Ремедиатионпас
+                      href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproduct-get_remediationpath
+                    - name: Метод Сигнатурестатус
+                      href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproduct-get_signaturestatus
+                - name: ивскпродуктлист
+                  href: /windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist
+                  items:
+                    - name: 'Count, метод'
+                      href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-get_count
+                    - name: Initialize - метод
+                      href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-initialize
+                    - name: Item - метод
+                      href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-get_item
+            - name: Функции центра безопасности Windows
+              href: windows-security-center-functions.md
+              items:
+                - name: вскжетсекуритипровидерхеалс
+                  href: /windows/desktop/api/Wscapi/nf-wscapi-wscgetsecurityproviderhealth
+                - name: вскрегистерфорчанжес
+                  href: /windows/desktop/api/Wscapi/nf-wscapi-wscregisterforchanges
+                - name: вскунрегистерчанжес
+                  href: /windows/desktop/api/Wscapi/nf-wscapi-wscunregisterchanges
+    - name: SMTP
+      href: smtp.md
+      items:
+        - name: ) Asynctrace
+          href: asynctrace.md
+          items:
+            - name: асинкстрингтраце
+              href: '-asyncstringtrace.md'
+            - name: инитасинктраце
+              href: '-initasynctrace.md'
+            - name: сетасинктрацепарамсекс
+              href: '-setasynctraceparamsex.md'
+            - name: термасинктраце
+              href: '-termasynctrace.md'
+        - name: Методы Кшарелоккнх
+          href: csharelocknh-methods.md
+          items:
+            - name: Метод Ексклусивелокк
+              href: csharelocknh--exclusivelock.md
+            - name: Метод Ексклусиветопартиал
+              href: csharelocknh--exclusivetopartial.md
+            - name: Метод Ексклусивеунлокк
+              href: csharelocknh--exclusiveunlock.md
+            - name: Метод Фирстпартиалтоексклусиве
+              href: csharelocknh--firstpartialtoexclusive.md
+            - name: Метод Партиаллокк
+              href: csharelocknh--partiallock.md
+            - name: Метод Партиалунлокк
+              href: csharelocknh--partialunlock.md
+            - name: Метод Шаредтопартиал
+              href: csharelocknh--sharedtopartial.md
+            - name: Метод Шарелокк
+              href: csharelocknh--sharelock.md
+            - name: Метод Шареунлокк
+              href: csharelocknh--shareunlock.md
+            - name: Метод Трексклусивелокк
+              href: csharelocknh--tryexclusivelock.md
+        - name: Библиотека Фкачдлл
+          href: fcachdll-library.md
+          items:
+            - name: Обратные вызовы Фкачдлл
+              href: fcachdll-callbacks.md
+              items:
+                - name: CACHE_DESTROY_CALLBACK
+                  href: /windows/desktop/api/Filehc/nc-filehc-cache_destroy_callback
+                - name: CACHE_READ_CALLBACK
+                  href: /previous-versions//bb432262(v=vs.85)
+                - name: FCACHE_CREATE_CALLBACK
+                  href: /previous-versions//bb432261(v=vs.85)
+                - name: FCACHE_RICHCREATE_CALLBACK
+                  href: /previous-versions//bb432263(v=vs.85)
+            - name: Функции Фкачдлл
+              href: fcachdll-functions.md
+              items:
+                - name: ассоЦиатеконтекствиснаме
+                  href: /windows/desktop/api/Filehc/nf-filehc-associatecontextwithname
+                - name: ассоЦиатефиликс
+                  href: /windows/desktop/api/Filehc/nf-filehc-associatefileex
+                - name: качекреатефиле
+                  href: /windows/desktop/api/Filehc/nf-filehc-cachecreatefile
+                - name: качеричкреатефиле
+                  href: /windows/desktop/api/Filehc/nf-filehc-cacherichcreatefile
+                - name: финдоркреатенамекаче
+                  href: /windows/desktop/api/Filehc/nf-filehc-findorcreatenamecache
+                - name: финдсинкконтекстфромнаме
+                  href: /windows/desktop/api/Filehc/nf-filehc-findsynccontextfromname
+                - name: жетдотстуффстате
+                  href: /windows/desktop/api/Filehc/nf-filehc-getdotstuffstate
+                - name: жетфилесизефромконтекст
+                  href: /windows/desktop/api/Filehc/nf-filehc-getfilesizefromcontext
+                - name: инитиализекаче
+                  href: /windows/desktop/api/Filehc/nf-filehc-initializecache
+                - name: InsertFile
+                  href: /windows/desktop/api/Filehc/nf-filehc-insertfile
+                - name: инвалидатенаме
+                  href: /windows/desktop/api/Filehc/nf-filehc-invalidatename
+                - name: продуцедотстуффедконтекст
+                  href: /windows/desktop/api/Filehc/nf-filehc-producedotstuffedcontext
+                - name: релеасенамекаче
+                  href: /windows/desktop/api/Filehc/nf-filehc-releasenamecache
+                - name: сетдотстуффстате
+                  href: /windows/desktop/api/Filehc/nf-filehc-setdotstuffstate
+                - name: сетдотстуффингонвритес
+                  href: /windows/desktop/api/Filehc/nf-filehc-setdotstuffingonwrites
+                - name: терминатекаче
+                  href: /windows/desktop/api/Filehc/nf-filehc-terminatecache
+            - name: Структура Фкачдлл
+              href: fcachdll-structure.md
+              items:
+                - name: NAME_CACHE_CONTEXT
+                  href: /windows/desktop/api/Filehc/ns-filehc-name_cache_context
+    - name: Система
+      href: system.md
+      items:
+        - name: аддлокалалтернатекомпутернаме
+          href: addlocalalternatecomputername.md
+        - name: Дополнительная Библиотека
+          href: aux-library.md
+          items:
+            - name: ауксклибинитиализе
+              href: auxklibinitialize-func.md
+            - name: ауксклибкуеримодулеинформатион
+              href: auxklibquerymoduleinformation-func.md
+            - name: ауксулибинитиализе
+              href: /windows/desktop/api/Aux_ulib/nf-aux_ulib-auxulibinitialize
+            - name: ауксулибисдллсинчронизатионхелд
+              href: /windows/desktop/api/Aux_ulib/nf-aux_ulib-auxulibisdllsynchronizationheld
+            - name: ауксулибсетсистемфилекачесизе
+              href: /windows/desktop/api/Aux_ulib/nf-aux_ulib-auxulibsetsystemfilecachesize
+            - name: AUX_MODULE_BASIC_INFO
+              href: aux-module-basic-info-struct.md
+            - name: AUX_MODULE_EXTENDED_INFO
+              href: aux-module-extended-info-struct.md
+        - name: Delay-Loaded библиотеки DLL
+          href: delay-loaded-dlls.md
+          items:
+            - name: делайлоадфаилурехук
+              href: delayloadfailurehook.md
+            - name: ресолведелайлоадедапи
+              href: resolvedelayloadedapi.md
+            - name: ресолведелайлоадсфромдлл
+              href: resolvedelayloadsfromdll.md
+        - name: Обнаружение обратных вызовов Kernel-Mode
+          href: detecting-kernel-mode-callbacks.md
+        - name: Уведомление о загрузке библиотеки DLL
+          href: dll-load-notification.md
+          items:
+            - name: лдрдллнотификатион
+              href: ldrdllnotification.md
+            - name: лдрфастфаилинлоадеркаллаут
+              href: ldrfastfailinloadercallout.md
+            - name: лдррегистердллнотификатион
+              href: ldrregisterdllnotification.md
+            - name: лдрунрегистердллнотификатион
+              href: ldrunregisterdllnotification.md
+        - name: Мониторинг бездействия
+          href: inactivity-monitoring.md
+          items:
+            - name: бегинидледетектион
+              href: beginidledetection.md
+            - name: ендидледетектион
+              href: endidledetection.md
+            - name: жетидлеминутес
+              href: getidleminutes.md
+        - name: Инитиализекритикалсектионандспинкаунт (Кернелбасе)
+          href: /previous-versions//ee388306(v=vs.85)
+        - name: обфиндхандлефоробжект
+          href: obfindhandleforobject.md
+        - name: Указатели
+          href: pointers.md
+          items:
+            - name: декодепоинтер
+              href: /previous-versions//bb432242(v=vs.85)
+            - name: Декодепоинтер (Кернелбасе)
+              href: /previous-versions//ee388304(v=vs.85)
+            - name: декодеремотепоинтер
+              href: /previous-versions//dn877133(v=vs.85)
+            - name: декодесистемпоинтер
+              href: /previous-versions//bb432243(v=vs.85)
+            - name: енкодепоинтер
+              href: /previous-versions//bb432254(v=vs.85)
+            - name: Енкодепоинтер (Кернелбасе)
+              href: /previous-versions//ee388305(v=vs.85)
+            - name: енкодеремотепоинтер
+              href: /previous-versions//dn877135(v=vs.85)
+            - name: енкодесистемпоинтер
+              href: /previous-versions//bb432255(v=vs.85)
+        - name: Регделетекэйекс (API — MS-Win)
+          href: /previous-versions//ee361587(v=vs.85)
+        - name: Регделетекэйекс (Кернелбасе)
+          href: /previous-versions//ee125877(v=vs.85)
+        - name: Библиотека времени выполнения
+          href: run-time-library.md
+          items:
+            - name: ртлекстендединтежермултипли
+              href: rtlextendedintegermultiply.md
+            - name: ртлекстендедларжеинтежердивиде
+              href: rtlextendedlargeintegerdivide.md
+            - name: ртлраисиксцептион
+              href: /windows/desktop/api/RtlSupportApi/nf-rtlsupportapi-rtlraiseexception
+        - name: Сетсреадстаккгуаранти (Кернелбасе)
+          href: /previous-versions//ee388307(v=vs.85)
+        - name: SndVol32.exe
+          href: sndvol32-exe-.md
+        - name: uaw_wcslen
+          href: /windows/desktop/api/stralign/nf-stralign-uaw_wcslen
+        - name: винтернл
+          href: winternl.md
+          items:
+            - name: Вызов внутренних API
+              href: calling-internal-apis.md
+            - name: Получение идентификатора активного сеанса консоли
+              href: getting-the-active-console-session-id.md
+            - name: Получение идентификатора сеанса текущего процесса
+              href: getting-the-session-id-of-the-current-process.md
+            - name: IOCTL_TCP_QUERY_INFORMATION_EX
+              href: /windows/desktop/api/Tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex
+              items:
+                - name: TCP_REQUEST_QUERY_INFORMATION_EX
+                  href: /windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k
+                - name: ифентри
+                  href: /windows/desktop/api/Tcpioctl/ns-tcpioctl-ifentry
+                - name: ипаддрентри
+                  href: /windows/desktop/api/Tcpioctl/ns-tcpioctl-ipaddrentry
+                - name: ипинтерфацеинфо
+                  href: /windows/desktop/api/Tcpioctl/ns-tcpioctl-ipinterfaceinfo
+                - name: ипснмпинфо
+                  href: /windows/desktop/api/Tcpioctl/ns-tcpioctl-ipsnmpinfo
+                - name: тдиентитид
+                  href: /windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid
+                - name: тдиобжектид
+                  href: /windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid
+            - name: нтнотифичанжемултиплекэйс
+              href: /windows/desktop/api/Winternl/nf-winternl-ntnotifychangemultiplekeys
+            - name: нтопенсреад
+              href: ntopenthread.md
+            - name: нткуеряттрибутесфиле
+              href: ntqueryattributesfile.md
+            - name: нткуеримултиплевалуекэй
+              href: /windows/desktop/api/Winternl/nf-winternl-ntquerymultiplevaluekey
+            - name: нткуерйобжект
+              href: /windows/desktop/api/Winternl/nf-winternl-ntqueryobject
+            - name: нткуериперформанцекаунтер
+              href: ntqueryperformancecounter.md
+            - name: нтренамекэй
+              href: /windows/desktop/api/Winternl/nf-winternl-ntrenamekey
+            - name: нтсетинформатионкэй
+              href: /windows/desktop/api/Winternl/nf-winternl-ntsetinformationkey
+            - name: ртлжетфунктионтаблелиссеад
+              href: rtlgetfunctiontablelisthead.md
+            - name: ртлжетунлоадевенттраце
+              href: rtlgetunloadeventtrace.md
+            - name: ртлжетунлоадевенттрацеекс
+              href: rtlgetunloadeventtraceex.md
+            - name: ртлиснамеинекспрессион
+              href: rtlisnameinexpression.md
+            - name: ртлуниформ
+              href: /windows/desktop/api/Winternl/nf-winternl-rtluniform
+        - name: Оболочки
+          href: wrappers.md
+          items:
+            - name: _CreateFile
+              href: '-createfile.md'
+            - name: _CreateFontIndirect
+              href: '-createfontindirect.md'
+            - name: _DeleteFile
+              href: '-deletefile.md'
+            - name: _FindResource
+              href: '-findresource.md'
+            - name: _FormatMessage
+              href: '-formatmessage.md'
+            - name: _GetComputerName
+              href: '-getcomputername.md'
+            - name: _GetDiskFreeSpaceEx
+              href: '-getdiskfreespaceex.md'
+            - name: _GetModuleFileName
+              href: '-getmodulefilename.md'
+            - name: _GetObject
+              href: '-getobject.md'
+            - name: _Функция GetProcAddress_
+              href: '-getprocaddress-.md'
+            - name: _GetUserName
+              href: '-getusername.md'
+            - name: _GetVersionEx
+              href: '-getversionex.md'
+            - name: _GetWindowText
+              href: '-getwindowtext.md'
+            - name: _LoadCursor
+              href: '-loadcursor.md'
+            - name: _LoadLibrary
+              href: '-loadlibrary.md'
+            - name: _LoadString
+              href: '-loadstring.md'
+            - name: _MessageBox
+              href: '-messagebox.md'
+            - name: _MoveFile
+              href: '-movefile.md'
+            - name: _PeekMessage
+              href: '-peekmessage.md'
+            - name: _SendDlgItemMessage
+              href: '-senddlgitemmessage.md'
+            - name: _SendMessage
+              href: '-sendmessage.md'
+            - name: _SetDlgItemText
+              href: '-setdlgitemtext.md'
+            - name: _SetWindowText
+              href: '-setwindowtext.md'
+    - name: Режим установки сервера терминалов
+      href: terminal-server-install-mode.md
+      items:
+        - name: ктксжетинимаппинг
+          href: ctxgetinimapping.md
+        - name: термсрваппинсталлмоде
+          href: termsrvappinstallmode.md
+    - name: Пользовательский интерфейс
+      href: user-interface.md
+      items:
+        - name: апфелпчеккшеллобжект
+          href: /windows/desktop/api/AppCompatApi/nf-appcompatapi-apphelpcheckshellobject
+        - name: Ctl3dAutoSubclass
+          href: ctl3dautosubclass.md
+        - name: Ctl3dColorChange
+          href: ctl3dcolorchange.md
+        - name: Ctl3dCtlColorEx
+          href: ctl3dctlcolorex.md
+        - name: Ctl3dEnabled
+          href: ctl3denabled.md
+        - name: Ctl3dGetVer
+          href: ctl3dgetver.md
+        - name: Ctl3dRegister
+          href: ctl3dregister.md
+        - name: Ctl3dSubclassCtl
+          href: ctl3dsubclassctl.md
+        - name: Ctl3dSubclassDlgEx
+          href: ctl3dsubclassdlgex.md
+        - name: Ctl3dUnAutoSubclass
+          href: ctl3dunautosubclass.md
+        - name: Ctl3dUnsubclassCtl
+          href: ctl3dunsubclassctl.md
+        - name: Ctl3dUnregister
+          href: ctl3dunregister.md
+        - name: директсаундфуллдуплекскреате
+          href: directsoundfullduplexcreate.md
+        - name: иекстендер
+          href: iextender.md
+          items:
+            - name: 'Move, метод'
+              href: iextender-move.md
+        - name: кршовкэймгр
+          href: krshowkeymgr.md
+        - name: нммакецерт
+          href: nmmakecert.md
+        - name: сетшеллнекст
+          href: /windows/desktop/api/Icwcfg/nf-icwcfg-setshellnext
+        - name: WM_CTLCOLOR
+          href: wm-ctlcolor-.md
+    - name: Visual Studio
+      href: visual-studio.md
+      items:
+        - name: ипровидепропертибуилдер
+          href: iprovidepropertybuilder.md
+          items:
+            - name: Метод Ексекутебуилдер
+              href: iprovidepropertybuilder-executebuilder.md
+            - name: Метод Маппропертитобуилдер
+              href: iprovidepropertybuilder-mappropertytobuilder.md
+    - name: Политика безопасного режима Windows
+      href: windows-lockdown-policy.md
+      items:
+        - name: WLDP_HOST_ID
+          href: wldp-host-id.md
+        - name: WLDP_HOST_INFORMATION
+          href: wldp-host-information.md
+        - name: WLDP_WINDOWS_LOCKDOWN_MODE
+          href: wldp-windows-lockdown-mode.md
+        - name: влдписдинамиккодеполициенаблед
+          href: wldpisdynamiccodepolicyenabled.md
+        - name: влпдисклассинаппроведлист
+          href: wldpisclassinapprovedlist.md
+        - name: влпджетлоккдовнполици
+          href: wlpdgetlockdownpolicy.md
+        - name: влдпкуеридинамиккодетруст
+          href: wldpquerydynamiccodetrust.md
+        - name: влдпкуеривиндовслоккдовнмоде
+          href: wldpquerywindowslockdownmode.md
+        - name: влдпсетдинамиккодетруст
+          href: wldpsetdynamiccodetrust.md
+    - name: Средство разбиения по словам
+      href: word-breaker.md
+      items:
+        - name: ивординфо
+          href: iwordinfo.md
+          items:
+            - name: Метод Бреактекст
+              href: iwordinfo-breaktext.md
+        - name: WordInfo
+          href: wordinfo-coclass.md

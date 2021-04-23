@@ -1,0 +1,128 @@
+- name: распределенная файловая система
+  href: distributed-file-system.md
+  items:
+    - name: Функции распределенная файловая система (DFS)
+      href: distributed-file-system-dfs-functions.md
+    - name: Функции безопасности
+      href: security-functions.md
+    - name: Приоритетность целевого сервера DFS
+      href: dfs-server-target-prioritization.md
+    - name: Справочник по распределенная файловая система
+      href: distributed-file-system-reference.md
+      items:
+        - name: Коды управления распределенная файловая система
+          href: distributed-file-system-control-codes.md
+          items:
+            - name: FSCTL_DFS_GET_PKT_ENTRY_STATE
+              href: fsctl-dfs-get-pkt-entry-state.md
+        - name: Перечисления распределенная файловая система
+          href: distributed-file-system-enumeration-types.md
+          items:
+            - name: DFS_NAMESPACE_VERSION_ORIGIN
+              href: /windows/desktop/api/lmdfs/ne-lmdfs-dfs_namespace_version_origin
+            - name: DFS_TARGET_PRIORITY_CLASS
+              href: /windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1
+        - name: Функции распределенная файловая система
+          href: distributed-file-system-functions.md
+          items:
+            - name: Функция Нетдфсадд
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsadd
+            - name: Функция Нетдфсаддфтрут
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddftroot
+            - name: Функция Нетдфсаддруттаржет
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddroottarget
+            - name: Функция Нетдфсаддстдрут
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddstdroot
+            - name: Функция Нетдфсенум
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum
+            - name: Функция Нетдфсжетклиентинфо
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo
+            - name: Функция Нетдфсжетфтконтаинерсекурити
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetftcontainersecurity
+            - name: Функция Нетдфсжетинфо
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo
+            - name: Функция Нетдфсжетсекурити
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetsecurity
+            - name: Функция Нетдфсжетстдконтаинерсекурити
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetstdcontainersecurity
+            - name: Функция Нетдфсжетсуппортеднамеспацеверсион
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetsupportednamespaceversion
+            - name: Функция Нетдфсмове
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsmove
+            - name: Функция Нетдфсремове
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremove
+            - name: Функция Нетдфсремовефтрут
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftroot
+            - name: Функция Нетдфсремовефтрутфорцед
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftrootforced
+            - name: Функция Нетдфсремоверуттаржет
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveroottarget
+            - name: Функция Нетдфсремовестдрут
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremovestdroot
+            - name: Функция Нетдфссетклиентинфо
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetclientinfo
+            - name: Функция Нетдфссетфтконтаинерсекурити
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetftcontainersecurity
+            - name: Функция Нетдфссетинфо
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo
+            - name: Функция Нетдфссетсекурити
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetsecurity
+            - name: Функция Нетдфссетстдконтаинерсекурити
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetstdcontainersecurity
+        - name: Структуры распределенная файловая система
+          href: distributed-file-system-structures.md
+          items:
+            - name: DFS_GET_PKT_ENTRY_STATE_ARG
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_get_pkt_entry_state_arg
+            - name: Структура _DFS_INFO_1
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_1
+            - name: Структура _DFS_INFO_2
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_2
+            - name: Структура _DFS_INFO_3
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_3
+            - name: Структура _DFS_INFO_4
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_4
+            - name: Структура _DFS_INFO_5
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_5
+            - name: Структура _DFS_INFO_6
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_6
+            - name: Структура _DFS_INFO_7
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_7
+            - name: Структура _DFS_INFO_8
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_8
+            - name: Структура _DFS_INFO_9
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_9
+            - name: Структура _DFS_INFO_50
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_50
+            - name: Структура _DFS_INFO_100
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_100
+            - name: Структура _DFS_INFO_101
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_101
+            - name: Структура _DFS_INFO_102
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_102
+            - name: Структура _DFS_INFO_103
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_103
+            - name: Структура _DFS_INFO_104
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_104
+            - name: Структура _DFS_INFO_105
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_105
+            - name: Структура _DFS_INFO_106
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_106
+            - name: Структура _DFS_INFO_107
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_107
+            - name: Структура _DFS_INFO_150
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_150
+            - name: Структура _DFS_INFO_200
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_200
+            - name: Структура _DFS_INFO_300
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_300
+            - name: Структура _DFS_STORAGE_INFO
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_storage_info
+            - name: Структура _DFS_STORAGE_INFO_1
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_storage_info_1
+            - name: Структура _DFS_SUPPORTED_NAMESPACE_VERSION_INFO
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_supported_namespace_version_info
+            - name: Структура _DFS_TARGET_PRIORITY
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_target_priority
+            - name: Перечисление _DFS_TARGET_PRIORITY_CLASS
+              href: /windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1

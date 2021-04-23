@@ -1,0 +1,124 @@
+---
+description: WS-Discovery сообщение, используемое клиентом для поиска служб в сети по имени.
+ms.assetid: b963bd2a-47cb-4f8d-8272-a586e6d6a047
+title: Разрешить сообщение
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c3390d97aad972f001b98587c6b5e7cd7ac708b2
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105702039"
+---
+# <a name="resolve-message"></a><span data-ttu-id="c27f3-103">Разрешить сообщение</span><span class="sxs-lookup"><span data-stu-id="c27f3-103">Resolve Message</span></span>
+
+<span data-ttu-id="c27f3-104">Сообщение с разрешением — это WS-Discovery сообщение, используемое клиентом для поиска служб в сети по имени.</span><span class="sxs-lookup"><span data-stu-id="c27f3-104">A Resolve message is a WS-Discovery message used by a client to search for services on the network by name.</span></span> <span data-ttu-id="c27f3-105">Клиент будет отправлять сообщение с разрешением, только когда будет отправлено HTTP-сообщение (например, запрос на [Получение](get--metadata-exchange--http-request-and-message.md) метаданных или сообщение службы).</span><span class="sxs-lookup"><span data-stu-id="c27f3-105">A client will only send a Resolve message when an HTTP message (such as a [Get](get--metadata-exchange--http-request-and-message.md) metadata exchange request or a service message) will be sent.</span></span> <span data-ttu-id="c27f3-106">Дополнительные сведения о разрешении сообщений см. в разделе 6,1 [спецификации WS-Discovery](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf).</span><span class="sxs-lookup"><span data-stu-id="c27f3-106">For more information about Resolve messages, see section 6.1 of the [WS-Discovery Specification](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf).</span></span>
+
+<span data-ttu-id="c27f3-107">Сообщение с разрешением отправляется многоадресной передачей UDP на порт 3702.</span><span class="sxs-lookup"><span data-stu-id="c27f3-107">A Resolve message is sent by UDP multicast to port 3702.</span></span> <span data-ttu-id="c27f3-108">Одноадресные сообщения разрешения не поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="c27f3-108">Unicast Resolve messages are not supported.</span></span>
+
+<span data-ttu-id="c27f3-109">Клиенты DPWS отправляют сообщения разрешения.</span><span class="sxs-lookup"><span data-stu-id="c27f3-109">DPWS clients send Resolve messages.</span></span> <span data-ttu-id="c27f3-110">В следующем списке приведены сценарии, в которых WSDAPI отправляет сообщение с разрешением.</span><span class="sxs-lookup"><span data-stu-id="c27f3-110">The following list shows scenarios in which WSDAPI will send a Resolve message.</span></span>
+
+-   <span data-ttu-id="c27f3-111">Клиент обнаружения функции отправляет сообщение разрешения, если в сообщение [ProbeMatch](probematches-message.md) не включены ксаддрс.</span><span class="sxs-lookup"><span data-stu-id="c27f3-111">A Function Discovery client sends a Resolve message if no XAddrs are included in a [ProbeMatches](probematches-message.md) message.</span></span>
+-   <span data-ttu-id="c27f3-112">Клиент, вызывающий методы [**ивсдисковерипровидер:: сеарчбид**](/windows/desktop/api/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbyid) , отправит сообщение с разрешением.</span><span class="sxs-lookup"><span data-stu-id="c27f3-112">A client calling the [**IWSDiscoveryProvider::SearchById**](/windows/desktop/api/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbyid) methods will send a Resolve message.</span></span>
+-   <span data-ttu-id="c27f3-113">Клиент, вызывающий [**всдкреатедевицепрокси**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxy) , может отправить сообщение разрешения, если адрес логического устройства передается в *псздевицеид*.</span><span class="sxs-lookup"><span data-stu-id="c27f3-113">A client calling [**WSDCreateDeviceProxy**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxy) may send a Resolve message if a logical device address is passed to *pszDeviceId*.</span></span>
+-   <span data-ttu-id="c27f3-114">Клиент, вызывающий [**всдкреатедевицепроксядванцед**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxyadvanced) , отправит сообщение с разрешением, если функция вызывается с параметром пдевицеаддресс, установленным в **значение NULL**.</span><span class="sxs-lookup"><span data-stu-id="c27f3-114">A client calling [**WSDCreateDeviceProxyAdvanced**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxyadvanced) will send a Resolve message if the function is called with the pDeviceAddress parameter set to **NULL**.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="c27f3-115">В этом разделе показан пример сообщения DPWS, созданного WSDAPI-клиентами и узлами.</span><span class="sxs-lookup"><span data-stu-id="c27f3-115">This topic shows a sample DPWS message generated by WSDAPI clients and hosts.</span></span> <span data-ttu-id="c27f3-116">WSDAPI будет анализировать и принимать другие сообщения, соответствующие DPWS, которые не соответствуют этому примеру.</span><span class="sxs-lookup"><span data-stu-id="c27f3-116">WSDAPI will parse and accept other DPWS-compliant messages that do not conform to this sample.</span></span> <span data-ttu-id="c27f3-117">Не используйте этот пример для проверки взаимодействия DPWS. Используйте вместо него [базовое средство взаимодействия WSDAPI (всдбит)](https://msdn.microsoft.com/library/cc264250.aspx) .</span><span class="sxs-lookup"><span data-stu-id="c27f3-117">Do not use this sample to verify DPWS interoperability; use the [WSDAPI Basic Interoperability Tool (WSDBIT)](https://msdn.microsoft.com/library/cc264250.aspx) instead.</span></span>
+
+ 
+
+<span data-ttu-id="c27f3-118">В следующем сообщении SOAP показан пример сообщения о разрешении.</span><span class="sxs-lookup"><span data-stu-id="c27f3-118">The following SOAP message shows a sample Resolve message.</span></span>
+
+``` syntax
+<?xml version="1.0" encoding="utf-8" ?>
+<soap:Envelope
+    xmlns:soap="https://www.w3.org/2003/05/soap-envelope"
+    xmlns:wsa="https://schemas.xmlsoap.org/ws/2004/08/addressing"
+    xmlns:wsd="https://schemas.xmlsoap.org/ws/2005/04/discovery">
+<soap:Header>
+    <wsa:To>
+urn:schemas-xmlsoap-org:ws:2005:04:discovery
+</wsa:To>
+    <wsa:Action>
+        https://schemas.xmlsoap.org/ws/2005/04/discovery/Resolve
+    </wsa:Action>
+    <wsa:MessageID>
+        urn:uuid:38d1c3d9-8d73-4424-8861-6b7ee2af24d3
+    </wsa:MessageID>
+</soap:Header>
+<soap:Body>
+    <wsd:Resolve>
+        <wsa:EndpointReference>
+            <wsa:Address>
+                urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
+            </wsa:Address>
+        </wsa:EndpointReference>
+    </wsd:Resolve>
+</soap:Body>
+</soap:Envelope>
+```
+
+<span data-ttu-id="c27f3-119">Сообщение с разрешением имеет следующие фокусы.</span><span class="sxs-lookup"><span data-stu-id="c27f3-119">A Resolve message has the following focus points.</span></span>
+
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="c27f3-120">точка фокусировки;</span><span class="sxs-lookup"><span data-stu-id="c27f3-120">Focus point</span></span></th>
+<th><span data-ttu-id="c27f3-121">XML</span><span class="sxs-lookup"><span data-stu-id="c27f3-121">XML</span></span></th>
+<th><span data-ttu-id="c27f3-122">Описание</span><span class="sxs-lookup"><span data-stu-id="c27f3-122">Description</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="c27f3-123">Разрешить</span><span class="sxs-lookup"><span data-stu-id="c27f3-123">Resolve</span></span></td>
+<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+    https://schemas.xmlsoap.org/ws/2005/04/discovery/Resolve
+</wsa:Action></code></pre></td>
+<td><span data-ttu-id="c27f3-124">Действие "разрешить SOAP" определяет сообщение как сообщение для разрешения.</span><span class="sxs-lookup"><span data-stu-id="c27f3-124">The Resolve SOAP action identifies the message as a Resolve message.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="c27f3-125">MessageID</span><span class="sxs-lookup"><span data-stu-id="c27f3-125">MessageID</span></span></td>
+<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
+    urn:uuid:38d1c3d9-8d73-4424-8861-6b7ee2af24d3
+</wsa:MessageID></code></pre></td>
+<td><span data-ttu-id="c27f3-126">Содержит идентификатор сообщения, на который ссылается сообщение <a href="resolvematches-message.md">ресолвематчес</a> .</span><span class="sxs-lookup"><span data-stu-id="c27f3-126">Contains the message identifier, which is referenced in a <a href="resolvematches-message.md">ResolveMatches</a> message.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="c27f3-127">Адрес</span><span class="sxs-lookup"><span data-stu-id="c27f3-127">Address</span></span></td>
+<td><pre class="syntax" data-space="preserve"><code><wsa:Address>
+    urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
+</wsa:Address></code></pre></td>
+<td><span data-ttu-id="c27f3-128">Содержит адрес разрешенной конечной точки.</span><span class="sxs-lookup"><span data-stu-id="c27f3-128">Contains the address of the endpoint being resolved.</span></span></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="c27f3-129">См. также</span><span class="sxs-lookup"><span data-stu-id="c27f3-129">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="c27f3-130">Сообщения обнаружения и обмена метаданными</span><span class="sxs-lookup"><span data-stu-id="c27f3-130">Discovery and Metadata Exchange Messages</span></span>](discovery-and-metadata-exchange-message-patterns.md)
+</dt> <dt>
+
+[<span data-ttu-id="c27f3-131">Сообщение Ресолвематчес</span><span class="sxs-lookup"><span data-stu-id="c27f3-131">ResolveMatches Message</span></span>](resolvematches-message.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

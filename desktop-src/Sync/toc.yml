@@ -1,0 +1,557 @@
+- name: Синхронизация
+  href: synchronization.md
+  items:
+    - name: Новые возможности синхронизации
+      href: what-s-new-in-synchronization.md
+    - name: Сведения о синхронизации
+      href: about-synchronization.md
+      items:
+        - name: Функции Wait
+          href: wait-functions.md
+        - name: Объекты синхронизации
+          href: synchronization-objects.md
+          items:
+            - name: Объекты событий
+              href: event-objects.md
+            - name: Мьютексные объекты
+              href: mutex-objects.md
+            - name: Объекты семафора
+              href: semaphore-objects.md
+            - name: Ожидающие объекты таймера
+              href: waitable-timer-objects.md
+            - name: Безопасность объекта синхронизации и права доступа
+              href: synchronization-object-security-and-access-rights.md
+        - name: Синхронизация между процессами
+          href: interprocess-synchronization.md
+          items:
+            - name: Имена объектов
+              href: object-names.md
+            - name: Пространства имен объектов
+              href: object-namespaces.md
+            - name: Наследование объектов
+              href: object-inheritance.md
+            - name: Дублирование объектов
+              href: object-duplication.md
+        - name: Проблемы синхронизации и многопроцессорности
+          href: synchronization-and-multiprocessor-issues.md
+        - name: Синхронизация и перекрытие входных и выходных данных
+          href: synchronization-and-overlapped-input-and-output.md
+        - name: Асинхронные вызовы процедур
+          href: asynchronous-procedure-calls.md
+        - name: Объекты критических секций
+          href: critical-section-objects.md
+        - name: Переменные условия
+          href: condition-variables.md
+        - name: Упрощенные блокировки потоков чтения/записи (SRW)
+          href: slim-reader-writer--srw--locks.md
+        - name: Инициализация One-Time
+          href: one-time-initialization.md
+        - name: Доступ к блокируемым переменным
+          href: interlocked-variable-access.md
+        - name: Взаимозаблокированные однонаправленные списки
+          href: interlocked-singly-linked-lists.md
+        - name: Очереди таймера
+          href: timer-queues.md
+        - name: Барьеры синхронизации
+          href: synchronization-barriers.md
+    - name: Использование синхронизации
+      href: using-synchronization.md
+      items:
+        - name: Ожидание нескольких объектов
+          href: waiting-for-multiple-objects.md
+        - name: Использование именованных объектов
+          href: using-named-objects.md
+        - name: Использование объектов событий
+          href: using-event-objects.md
+        - name: Использование объектов Mutex
+          href: using-mutex-objects.md
+        - name: Использование объектов семафора
+          href: using-semaphore-objects.md
+        - name: Использование ожидающих объектов таймера
+          href: using-waitable-timer-objects.md
+        - name: Использование ожидающих таймеров при асинхронном вызове процедуры
+          href: using-a-waitable-timer-with-an-asynchronous-procedure-call.md
+        - name: Использование объектов критических секций
+          href: using-critical-section-objects.md
+        - name: Использование переменных условия
+          href: using-condition-variables.md
+        - name: Использование инициализации One-Time
+          href: using-one-time-initialization.md
+        - name: Использование однонаправленных списков
+          href: using-singly-linked-lists.md
+        - name: Использование очередей таймера
+          href: using-timer-queues.md
+    - name: Ссылка синхронизации
+      href: synchronization-reference.md
+      items:
+        - name: Функции синхронизации
+          href: synchronization-functions.md
+          items:
+            - name: AcquireSRWLockExclusive
+              href: /windows/desktop/api/synchapi/nf-synchapi-acquiresrwlockexclusive
+            - name: аккуиресрвлоккшаред
+              href: /windows/desktop/api/synchapi/nf-synchapi-acquiresrwlockshared
+            - name: аддсидтобаундаридескриптор
+              href: /windows/desktop/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor
+            - name: аддинтегритилабелтобаундаридескриптор
+              href: /windows/desktop/api/WinBase/nf-winbase-addintegritylabeltoboundarydescriptor
+            - name: апкпрок
+              href: /windows/desktop/api/winnt/nc-winnt-papcfunc
+            - name: канцелваитаблетимер
+              href: /windows/desktop/api/synchapi/nf-synchapi-cancelwaitabletimer
+            - name: чанжетимеркуеуетимер
+              href: /windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-changetimerqueuetimer
+            - name: клосеприватенамеспаце
+              href: /windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace
+            - name: креатебаундаридескриптор
+              href: /windows/desktop/api/WinBase/nf-winbase-createboundarydescriptora
+            - name: CreateEvent
+              href: /windows/desktop/api/synchapi/nf-synchapi-createeventa
+            - name: креативентекс
+              href: /windows/desktop/api/synchapi/nf-synchapi-createeventexa
+            - name: CreateMutex
+              href: /windows/desktop/api/synchapi/nf-synchapi-createmutexa
+            - name: креатемутексекс
+              href: /windows/desktop/api/synchapi/nf-synchapi-createmutexexa
+            - name: креатеприватенамеспаце
+              href: /windows/desktop/api/WinBase/nf-winbase-createprivatenamespacea
+            - name: Createsemaphore-
+              href: /windows/desktop/api/WinBase/nf-winbase-createsemaphorea
+            - name: креатесемафорикс
+              href: /windows/desktop/api/WinBase/nf-winbase-createsemaphoreexa
+            - name: CreateTimerQueue
+              href: /windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue
+            - name: CreateTimerQueueTimer
+              href: /windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer
+            - name: Сбой createwaitabletimer
+              href: /windows/desktop/api/WinBase/nf-winbase-createwaitabletimera
+            - name: креатеваитаблетимерекс
+              href: /windows/desktop/api/WinBase/nf-winbase-createwaitabletimerexa
+            - name: делетебаундаридескриптор
+              href: /windows/desktop/api/namespaceapi/nf-namespaceapi-deleteboundarydescriptor
+            - name: делетекритикалсектион
+              href: /windows/desktop/api/synchapi/nf-synchapi-deletecriticalsection
+            - name: делетесинчронизатионбарриер
+              href: /windows/desktop/api/SynchAPI/nf-synchapi-deletesynchronizationbarrier
+            - name: DeleteTimerQueue
+              href: /windows/desktop/api/WinBase/nf-winbase-deletetimerqueue
+            - name: делететимеркуеуикс
+              href: /windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex
+            - name: DeleteTimerQueueTimer
+              href: /windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer
+            - name: EnterCriticalSection
+              href: /windows/desktop/api/synchapi/nf-synchapi-entercriticalsection
+            - name: ентерсинчронизатионбарриер
+              href: /windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier
+            - name: GetOverlappedResult
+              href: /windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult
+            - name: жетоверлаппедресултекс
+              href: /windows/desktop/api/Ioapiset/nf-ioapiset-getoverlappedresultex
+            - name: InitializeConditionVariable
+              href: /windows/desktop/api/synchapi/nf-synchapi-initializeconditionvariable
+            - name: инитиализекритикалсектион
+              href: /windows/desktop/api/synchapi/nf-synchapi-initializecriticalsection
+            - name: инитиализекритикалсектионандспинкаунт
+              href: /windows/desktop/api/synchapi/nf-synchapi-initializecriticalsectionandspincount
+            - name: инитиализекритикалсектионекс
+              href: /windows/desktop/api/synchapi/nf-synchapi-initializecriticalsectionex
+            - name: инитиализеслиссеад
+              href: /windows/desktop/api/interlockedapi/nf-interlockedapi-initializeslisthead
+            - name: инитиализесрвлокк
+              href: /windows/desktop/api/synchapi/nf-synchapi-initializesrwlock
+            - name: инитиализесинчронизатионбарриер
+              href: /windows/desktop/api/SynchAPI/nf-synchapi-initializesynchronizationbarrier
+            - name: InitOnceBeginInitialize
+              href: /windows/desktop/api/synchapi/nf-synchapi-initoncebegininitialize
+            - name: PINIT_ONCE_FN
+              href: /windows/desktop/api/synchapi/nc-synchapi-pinit_once_fn
+            - name: InitOnceComplete
+              href: /windows/desktop/api/synchapi/nf-synchapi-initoncecomplete
+            - name: InitOnceExecuteOnce
+              href: /windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce
+            - name: инитонцеинитиализе
+              href: /windows/desktop/api/synchapi/nf-synchapi-initonceinitialize
+            - name: интерлоккедадд
+              href: /windows/desktop/api/Winnt/nf-winnt-interlockedadd
+            - name: интерлоккедаддаккуире
+              href: /windows/desktop/api/winnt/nf-winnt-_inlineinterlockedadd
+            - name: интерлоккедаддрелеасе
+              href: /previous-versions/windows/desktop/legacy/ms683513(v=vs.85)
+            - name: интерлоккедадднофенце
+              href: /previous-versions/windows/desktop/legacy/hh972629(v=vs.85)
+            - name: InterlockedAdd64
+              href: /windows/desktop/api/winnt/nf-winnt-_inlineinterlockedadd64
+            - name: InterlockedAddAcquire64
+              href: /previous-versions/windows/desktop/legacy/ms683510(v=vs.85)
+            - name: InterlockedAddRelease64
+              href: /previous-versions/windows/desktop/legacy/ms683514(v=vs.85)
+            - name: InterlockedAddNoFence64
+              href: /previous-versions/windows/desktop/legacy/hh972630(v=vs.85)
+            - name: интерлоккеданд
+              href: /windows/desktop/api/WinBase/nf-winbase-interlockedand
+            - name: интерлоккедандаккуире
+              href: /previous-versions/windows/desktop/legacy/ms683539(v=vs.85)
+            - name: интерлоккедандрелеасе
+              href: /previous-versions/windows/desktop/legacy/ms683543(v=vs.85)
+            - name: интерлоккеданднофенце
+              href: /previous-versions/windows/desktop/legacy/hh972634(v=vs.85)
+            - name: InterlockedAnd8
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedand8
+            - name: InterlockedAnd8Acquire
+              href: /previous-versions/windows/desktop/legacy/ms683535(v=vs.85)
+            - name: InterlockedAnd8Release
+              href: /previous-versions/windows/desktop/legacy/ms683537(v=vs.85)
+            - name: InterlockedAnd8NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972633(v=vs.85)
+            - name: InterlockedAnd16
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedand16
+            - name: InterlockedAnd16Acquire
+              href: /previous-versions/windows/desktop/legacy/ms683521(v=vs.85)
+            - name: InterlockedAnd16Release
+              href: /previous-versions/windows/desktop/legacy/ms683525(v=vs.85)
+            - name: InterlockedAnd16NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972631(v=vs.85)
+            - name: InterlockedAnd64
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedand64
+            - name: InterlockedAnd64Acquire
+              href: /previous-versions/windows/desktop/legacy/ms683529(v=vs.85)
+            - name: InterlockedAnd64Release
+              href: /previous-versions/windows/desktop/legacy/ms683530(v=vs.85)
+            - name: InterlockedAnd64NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972632(v=vs.85)
+            - name: интерлоккедбиттестандкомплемент
+              href: /previous-versions/windows/desktop/legacy/hh802759(v=vs.85)
+            - name: InterlockedBitTestAndComplement64
+              href: /previous-versions/windows/desktop/legacy/hh972635(v=vs.85)
+            - name: интерлоккедбиттестандресет
+              href: /windows/desktop/api/winnt/nf-winnt-_interlockedbittestandreset
+            - name: интерлоккедбиттестандресетаккуире
+              href: /previous-versions/windows/desktop/legacy/hh972636(v=vs.85)
+            - name: интерлоккедбиттестандресетрелеасе
+              href: /previous-versions/windows/desktop/legacy/hh972637(v=vs.85)
+            - name: InterlockedBitTestAndReset64
+              href: /windows/desktop/api/winnt/nf-winnt-_interlockedbittestandreset64
+            - name: интерлоккедбиттестандсет
+              href: /windows/desktop/api/winnt/nf-winnt-_interlockedbittestandset
+            - name: интерлоккедбиттестандсетаккуире
+              href: /previous-versions/windows/desktop/legacy/hh972638(v=vs.85)
+            - name: интерлоккедбиттестандсетрелеасе
+              href: /previous-versions/windows/desktop/legacy/hh972639(v=vs.85)
+            - name: InterlockedBitTestAndSet64
+              href: /windows/desktop/api/winnt/nf-winnt-_interlockedbittestandset64
+            - name: InterlockedCompare64Exchange128
+              href: /previous-versions/windows/desktop/legacy/ms683553(v=vs.85)
+            - name: InterlockedCompare64ExchangeAcquire128
+              href: /previous-versions/windows/desktop/legacy/ms683557(v=vs.85)
+            - name: InterlockedCompare64ExchangeRelease128
+              href: /previous-versions/windows/desktop/legacy/ms683558(v=vs.85)
+            - name: интерлоккедкомпариксчанже
+              href: /previous-versions/windows/embedded/ms919110(v%3dmsdn.10)
+            - name: интерлоккедкомпариксчанжеаккуире
+              href: /previous-versions/windows/desktop/legacy/ms683564(v=vs.85)
+            - name: интерлоккедкомпариксчанжерелеасе
+              href: /previous-versions/windows/desktop/legacy/ms683574(v=vs.85)
+            - name: интерлоккедкомпариксчанженофенце
+              href: /previous-versions/windows/desktop/legacy/hh972645(v=vs.85)
+            - name: InterlockedCompareExchange16
+              href: /windows/desktop/api/Winnt/nf-winnt-interlockedcompareexchange16
+            - name: InterlockedCompareExchange16Acquire
+              href: /previous-versions/windows/desktop/legacy/hh972642(v=vs.85)
+            - name: InterlockedCompareExchange16Release
+              href: /previous-versions/windows/desktop/legacy/hh972644(v=vs.85)
+            - name: InterlockedCompareExchange16NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972643(v=vs.85)
+            - name: InterlockedCompareExchange64
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedcompareexchange64
+            - name: InterlockedCompareExchangeAcquire64
+              href: /previous-versions/windows/desktop/legacy/ms683566(v=vs.85)
+            - name: InterlockedCompareExchangeRelease64
+              href: /previous-versions/windows/desktop/legacy/ms683576(v=vs.85)
+            - name: InterlockedCompareExchangeNoFence64
+              href: /previous-versions/windows/desktop/legacy/hh972646(v=vs.85)
+            - name: InterlockedCompareExchange128
+              href: /windows/desktop/api/Winnt/nf-winnt-interlockedcompareexchange128
+            - name: интерлоккедкомпариксчанжепоинтер
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedcompareexchangepointer
+            - name: интерлоккедкомпариксчанжепоинтераккуире
+              href: /previous-versions/windows/desktop/legacy/ms683570(v=vs.85)
+            - name: интерлоккедкомпариксчанжепоинтеррелеасе
+              href: /previous-versions/windows/desktop/legacy/ms683571(v=vs.85)
+            - name: интерлоккедкомпариксчанжепоинтернофенце
+              href: /previous-versions/windows/desktop/legacy/hh972647(v=vs.85)
+            - name: интерлоккеддекремент
+              href: /previous-versions/ms919120(v%3dmsdn.10)
+            - name: интерлоккеддекрементаккуире
+              href: /previous-versions/windows/desktop/legacy/ms683583(v=vs.85)
+            - name: интерлоккеддекрементрелеасе
+              href: /previous-versions/windows/desktop/legacy/ms683586(v=vs.85)
+            - name: интерлоккеддекрементнофенце
+              href: /previous-versions/windows/desktop/legacy/hh972652(v=vs.85)
+            - name: InterlockedDecrement16
+              href: /windows/desktop/api/Winnt/nf-winnt-interlockeddecrement16
+            - name: InterlockedDecrement16Acquire
+              href: /previous-versions/windows/desktop/legacy/hh972649(v=vs.85)
+            - name: InterlockedDecrement16Release
+              href: /previous-versions/windows/desktop/legacy/hh972651(v=vs.85)
+            - name: InterlockedDecrement16NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972650(v=vs.85)
+            - name: InterlockedDecrement64
+              href: /windows/desktop/api/winnt/nf-winnt-interlockeddecrement64
+            - name: InterlockedDecrementAcquire64
+              href: /previous-versions/windows/desktop/legacy/ms683585(v=vs.85)
+            - name: InterlockedDecrementRelease64
+              href: /previous-versions/windows/desktop/legacy/ms683588(v=vs.85)
+            - name: InterlockedDecrementNoFence64
+              href: /previous-versions/windows/desktop/legacy/hh972653(v=vs.85)
+            - name: интерлоккедексчанже
+              href: /previous-versions/aa909159(v%3dmsdn.10)
+            - name: интерлоккедексчанжеаккуире
+              href: /previous-versions/windows/desktop/legacy/ms683594(v=vs.85)
+            - name: интерлоккедексчанженофенце
+              href: /previous-versions/windows/desktop/legacy/hh972659(v=vs.85)
+            - name: InterlockedExchange8
+              href: /windows/desktop/api/Winnt/nf-winnt-interlockedexchange8
+            - name: InterlockedExchange16
+              href: /windows/desktop/api/Winnt/nf-winnt-interlockedexchange16
+            - name: InterlockedExchange16Acquire
+              href: /previous-versions/windows/desktop/legacy/hh972654(v=vs.85)
+            - name: InterlockedExchange16NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972655(v=vs.85)
+            - name: InterlockedExchange64
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedexchange64
+            - name: InterlockedExchangeAcquire64
+              href: /previous-versions/windows/desktop/legacy/ms683596(v=vs.85)
+            - name: InterlockedExchangeNoFence64
+              href: /previous-versions/windows/desktop/legacy/hh972660(v=vs.85)
+            - name: интерлоккедексчанжепоинтер
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedexchangepointer
+            - name: интерлоккедексчанжепоинтераккуире
+              href: /previous-versions/windows/desktop/legacy/ms683611(v=vs.85)
+            - name: интерлоккедексчанжепоинтернофенце
+              href: /previous-versions/windows/desktop/legacy/hh972661(v=vs.85)
+            - name: интерлоккедексчанжесубтракт
+              href: /windows/desktop/api/WinBase/nf-winbase-interlockedexchangesubtract
+            - name: интерлоккедексчанжеадд
+              href: /previous-versions/aa910697(v%3dmsdn.10)
+            - name: интерлоккедексчанжеаддаккуире
+              href: /previous-versions/windows/desktop/legacy/ms683601(v=vs.85)
+            - name: интерлоккедексчанжеаддрелеасе
+              href: /previous-versions/windows/desktop/legacy/ms683605(v=vs.85)
+            - name: интерлоккедексчанжеадднофенце
+              href: /previous-versions/windows/desktop/legacy/hh972657(v=vs.85)
+            - name: InterlockedExchangeAdd64
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedexchangeadd64
+            - name: InterlockedExchangeAddAcquire64
+              href: /previous-versions/windows/desktop/legacy/ms683604(v=vs.85)
+            - name: InterlockedExchangeAddRelease64
+              href: /previous-versions/windows/desktop/legacy/ms683607(v=vs.85)
+            - name: InterlockedExchangeAddNoFence64
+              href: /previous-versions/windows/desktop/legacy/hh972658(v=vs.85)
+            - name: интерлоккединкремент
+              href: /previous-versions/windows/embedded/ms919140(v%3dmsdn.10)
+            - name: интерлоккединкрементаккуире
+              href: /previous-versions/windows/desktop/legacy/ms683618(v=vs.85)
+            - name: интерлоккединкрементрелеасе
+              href: /previous-versions/windows/desktop/legacy/ms683622(v=vs.85)
+            - name: интерлоккединкрементнофенце
+              href: /previous-versions/windows/desktop/legacy/hh972667(v=vs.85)
+            - name: InterlockedIncrement16
+              href: /windows/desktop/api/Winnt/nf-winnt-interlockedincrement16
+            - name: InterlockedIncrement16Acquire
+              href: /previous-versions/windows/desktop/legacy/hh972663(v=vs.85)
+            - name: InterlockedIncrement16Release
+              href: /previous-versions/windows/desktop/legacy/hh972665(v=vs.85)
+            - name: InterlockedIncrement16NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972664(v=vs.85)
+            - name: InterlockedIncrement64
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedincrement64
+            - name: InterlockedIncrementAcquire64
+              href: /previous-versions/windows/desktop/legacy/ms683620(v=vs.85)
+            - name: InterlockedIncrementRelease64
+              href: /previous-versions/windows/desktop/legacy/ms683624(v=vs.85)
+            - name: InterlockedIncrementNoFence64
+              href: /previous-versions/windows/desktop/legacy/hh972668(v=vs.85)
+            - name: Взаимоблокировка
+              href: /windows/desktop/api/WinBase/nf-winbase-interlockedor
+            - name: интерлоккедораккуире
+              href: /previous-versions/windows/desktop/legacy/ms683643(v=vs.85)
+            - name: интерлоккедоррелеасе
+              href: /previous-versions/windows/desktop/legacy/ms683646(v=vs.85)
+            - name: интерлоккедорнофенце
+              href: /previous-versions/windows/desktop/legacy/hh972672(v=vs.85)
+            - name: InterlockedOr8
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedor8
+            - name: InterlockedOr8Acquire
+              href: /previous-versions/windows/desktop/legacy/ms683639(v=vs.85)
+            - name: InterlockedOr8Release
+              href: /previous-versions/windows/desktop/legacy/ms683640(v=vs.85)
+            - name: InterlockedOr8NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972671(v=vs.85)
+            - name: InterlockedOr16
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedor16
+            - name: InterlockedOr16Acquire
+              href: /previous-versions/windows/desktop/legacy/ms683629(v=vs.85)
+            - name: InterlockedOr16Release
+              href: /previous-versions/windows/desktop/legacy/ms683631(v=vs.85)
+            - name: InterlockedOr16NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972669(v=vs.85)
+            - name: InterlockedOr64
+              href: /previous-versions/windows/desktop/legacy/ms683633(v=vs.85)
+            - name: InterlockedOr64Acquire
+              href: /previous-versions/windows/desktop/legacy/ms683634(v=vs.85)
+            - name: InterlockedOr64Release
+              href: /previous-versions/windows/desktop/legacy/ms683636(v=vs.85)
+            - name: InterlockedOr64NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972670(v=vs.85)
+            - name: интерлоккедпопентрислист
+              href: /windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist
+            - name: интерлоккедпушентрислист
+              href: /windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist
+            - name: интерлоккедпушлистслист
+              href: /previous-versions/windows/desktop/legacy/hh448545(v=vs.85)
+            - name: интерлоккедпушлистслистекс
+              href: /windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushlistslistex
+            - name: интерлоккедфлушслист
+              href: /windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedflushslist
+            - name: интерлоккедксор
+              href: /windows/desktop/api/WinBase/nf-winbase-interlockedxor
+            - name: интерлоккедксораккуире
+              href: /previous-versions/windows/desktop/legacy/ms684117(v=vs.85)
+            - name: интерлоккедксоррелеасе
+              href: /previous-versions/windows/desktop/legacy/ms684118(v=vs.85)
+            - name: интерлоккедксорнофенце
+              href: /previous-versions/windows/desktop/legacy/hh972677(v=vs.85)
+            - name: InterlockedXor8
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedxor8
+            - name: InterlockedXor8Acquire
+              href: /previous-versions/windows/desktop/legacy/ms684112(v=vs.85)
+            - name: InterlockedXor8Release
+              href: /previous-versions/windows/desktop/legacy/ms684113(v=vs.85)
+            - name: InterlockedXor8NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972676(v=vs.85)
+            - name: InterlockedXor16
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedxor16
+            - name: InterlockedXor16Acquire
+              href: /previous-versions/windows/desktop/legacy/ms684026(v=vs.85)
+            - name: InterlockedXor16Release
+              href: /previous-versions/windows/desktop/legacy/ms684033(v=vs.85)
+            - name: InterlockedXor16NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972674(v=vs.85)
+            - name: InterlockedXor64
+              href: /windows/desktop/api/winnt/nf-winnt-interlockedxor64
+            - name: InterlockedXor64Acquire
+              href: /previous-versions/windows/desktop/legacy/ms684107(v=vs.85)
+            - name: InterlockedXor64Release
+              href: /previous-versions/windows/desktop/legacy/ms684108(v=vs.85)
+            - name: InterlockedXor64NoFence
+              href: /previous-versions/windows/desktop/legacy/hh972675(v=vs.85)
+            - name: LeaveCriticalSection
+              href: /windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection
+            - name: мсгваитформултиплеобжектс
+              href: /windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects
+            - name: мсгваитформултиплеобжектсекс
+              href: /windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex
+            - name: опеневент
+              href: /windows/desktop/api/synchapi/nf-synchapi-openeventa
+            - name: опенмутекс
+              href: /windows/desktop/api/WinBase/nf-winbase-openmutexa
+            - name: опенприватенамеспаце
+              href: /windows/desktop/api/WinBase/nf-winbase-openprivatenamespacea
+            - name: опенсемафоре
+              href: /windows/win32/api/synchapi/nf-synchapi-opensemaphorew
+            - name: опенваитаблетимер
+              href: /windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw
+            - name: PulseEvent
+              href: /windows/desktop/api/WinBase/nf-winbase-pulseevent
+            - name: куеридепсслист
+              href: /windows/desktop/api/interlockedapi/nf-interlockedapi-querydepthslist
+            - name: куеуеусерапк
+              href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc
+            - name: RegisterWaitForSingleObject
+              href: /windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject
+            - name: ReleaseMutex
+              href: /windows/desktop/api/synchapi/nf-synchapi-releasemutex
+            - name: ReleaseSemaphore
+              href: /windows/desktop/api/synchapi/nf-synchapi-releasesemaphore
+            - name: ReleaseSRWLockExclusive
+              href: /windows/desktop/api/synchapi/nf-synchapi-releasesrwlockexclusive
+            - name: ReleaseSRWLockShared
+              href: /windows/desktop/api/synchapi/nf-synchapi-releasesrwlockshared
+            - name: ресетевент
+              href: /windows/desktop/api/synchapi/nf-synchapi-resetevent
+            - name: ртлфирстентрислист
+              href: /windows/desktop/api/WinNT/nf-winnt-rtlfirstentryslist
+            - name: ртлинитиализеслиссеад
+              href: /windows/desktop/api/Winnt/nf-winnt-rtlinitializeslisthead
+            - name: ртлинтерлоккедфлушслист
+              href: /windows/desktop/api/Winnt/nf-winnt-rtlinterlockedflushslist
+            - name: ртлинтерлоккедпопентрислист
+              href: /windows/desktop/api/Winnt/nf-winnt-rtlinterlockedpopentryslist
+            - name: ртлинтерлоккедпушентрислист
+              href: /windows/desktop/api/Winnt/nf-winnt-rtlinterlockedpushentryslist
+            - name: ртлкуеридепсслист
+              href: /windows/desktop/api/Winnt/nf-winnt-rtlquerydepthslist
+            - name: сеткритикалсектионспинкаунт
+              href: /windows/desktop/api/synchapi/nf-synchapi-setcriticalsectionspincount
+            - name: '  SetEvent'
+              href: /windows/desktop/api/synchapi/nf-synchapi-setevent
+            - name: сетваитаблетимер
+              href: /windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer
+            - name: сетваитаблетимерекс
+              href: /windows/desktop/api/synchapi/nf-synchapi-setwaitabletimerex
+            - name: сигналобжектандваит
+              href: /windows/win32/api/synchapi/nf-synchapi-signalobjectandwait
+            - name: SleepConditionVariableCS
+              href: /windows/desktop/api/synchapi/nf-synchapi-sleepconditionvariablecs
+            - name: SleepConditionVariableSRW
+              href: /windows/desktop/api/synchapi/nf-synchapi-sleepconditionvariablesrw
+            - name: птимерапкраутине
+              href: /windows/desktop/api/synchapi/nc-synchapi-ptimerapcroutine
+            - name: тряккуиресрвлоккексклусиве
+              href: /windows/desktop/api/synchapi/nf-synchapi-tryacquiresrwlockexclusive
+            - name: тряккуиресрвлоккшаред
+              href: /windows/desktop/api/synchapi/nf-synchapi-tryacquiresrwlockshared
+            - name: трентеркритикалсектион
+              href: /windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection
+            - name: унрегистерваит
+              href: /windows/desktop/api/WinBase/nf-winbase-unregisterwait
+            - name: UnregisterWaitEx
+              href: unregisterwaitex.md
+            - name: WaitForMultipleObjects
+              href: /windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects
+            - name: ваитформултиплеобжектсекс
+              href: /windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex
+            - name: '  WaitForSingleObject'
+              href: /windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject
+            - name: WaitForSingleObjectEx
+              href: /windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex
+            - name: ваитонаддресс
+              href: /windows/desktop/api/SynchAPI/nf-synchapi-waitonaddress
+            - name: WaitOrTimerCallback
+              href: /previous-versions/windows/desktop/legacy/ms687066(v=vs.85)
+            - name: WakeAllConditionVariable
+              href: /windows/desktop/api/synchapi/nf-synchapi-wakeallconditionvariable
+            - name: вакебяддрессалл
+              href: /windows/desktop/api/SynchAPI/nf-synchapi-wakebyaddressall
+            - name: вакебяддресссингле
+              href: /windows/desktop/api/SynchAPI/nf-synchapi-wakebyaddresssingle
+            - name: WakeConditionVariable
+              href: /windows/desktop/api/synchapi/nf-synchapi-wakeconditionvariable
+        - name: Макросы синхронизации
+          href: synchronization-macros.md
+          items:
+            - name: хасоверлаппедиокомплетед
+              href: /windows/desktop/api/WinBase/nf-winbase-hasoverlappediocompleted
+            - name: префетчкачелине
+              href: /windows/desktop/api/Winnt/nf-winnt-prefetchcacheline
+            - name: меморибарриер
+              href: /windows/desktop/api/winnt/nf-winnt-memorybarrier
+            - name: иелдпроцессор
+              href: /windows/desktop/api/winnt/nf-winnt-yieldprocessor
+        - name: Структуры синхронизации
+          href: synchronization-structures.md
+          items:
+            - name: OVERLAPPED
+              href: /windows/win32/api/minwinbase/ns-minwinbase-overlapped
+            - name: SLIST_ENTRY
+              href: /windows/win32/api/winnt/ns-winnt-slist_entry

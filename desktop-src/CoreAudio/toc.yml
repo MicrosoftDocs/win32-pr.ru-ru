@@ -1,0 +1,1115 @@
+- name: API-интерфейсы аудиоподсистемы Core
+  href: core-audio-apis-in-windows-vista.md
+  items:
+    - name: Об API аудио Windows Core
+      href: about-the-windows-core-audio-apis.md
+      items:
+        - name: Новые возможности для основных API-интерфейсов аудиоподсистемы в Windows 7
+          href: what-s-new-for-core-audio-apis-in-windows-7.md
+        - name: Файлы заголовков и системные компоненты
+          href: header-files-and-system-components.md
+        - name: 'Примеры пакетов SDK, использующих основные API аудио'
+          href: sdk-samples-that-use-the-core-audio-apis.md
+          items:
+            - name: аекмикаррай
+              href: aecmicarray.md
+            - name: каптурешаредевентдривен
+              href: capturesharedeventdriven.md
+            - name: каптурешаредтимердривен
+              href: capturesharedtimerdriven.md
+            - name: дуккингкаптуресампле
+              href: duckingcapturesample.md
+            - name: дуккингмедиаплайер
+              href: duckingmediaplayer.md
+            - name: ендпоинтволуме
+              href: endpointvolume.md
+            - name: ОПЕРАЦИОННОЙ
+              href: osd.md
+            - name: рендерексклусививентдривен
+              href: renderexclusiveeventdriven.md
+            - name: рендерексклусиветимердривен
+              href: renderexclusivetimerdriven.md
+            - name: рендершаредевентдривен
+              href: rendersharedeventdriven.md
+            - name: рендершаредтимердривен
+              href: rendersharedtimerdriven.md
+    - name: Руководство по программированию
+      href: programming-guide.md
+      items:
+        - name: User-Mode звуковых компонентов
+          href: user-mode-audio-components.md
+        - name: Звуковой режим защищенного пользователя (PUMA)
+          href: protected-user-mode-audio--puma-.md
+        - name: Устройства конечных точек звука
+          href: audio-endpoint-devices.md
+          items:
+            - name: Сведения об API Ммдевице
+              href: mmdevice-api.md
+            - name: Перечисление звуковых устройств
+              href: enumerating-audio-devices.md
+            - name: Строки идентификатора конечной точки
+              href: endpoint-id-strings.md
+            - name: Свойства конечной точки аудио
+              href: audio-endpoint-properties.md
+            - name: Свойства устройства
+              href: device-properties.md
+            - name: События устройства
+              href: device-events.md
+            - name: Роли устройств
+              href: device-roles.md
+              items:
+                - name: Работа с ролями устройств
+                  href: device-roles-in-windows-vista.md
+                - name: Взаимодействие с устаревшими API аудио
+                  href: interoperability-with-legacy-audio-apis.md
+                  items:
+                    - name: Роли устройств для приложений DirectSound
+                      href: device-roles-for-directsound-applications.md
+                    - name: Роли устройств для приложений DirectShow
+                      href: device-roles-for-directshow-applications.md
+                    - name: Роли устройств для устаревших приложений мультимедиа Windows
+                      href: device-roles-for-legacy-windows-multimedia-applications.md
+                    - name: События аудио для устаревших звуковых приложений
+                      href: audio-events-for-legacy-audio-applications.md
+                    - name: Звуковые сигналы уведомлений для устаревших звуковых приложений
+                      href: notification-sounds-for-legacy-audio-applications.md
+            - name: Форматы устройств
+              href: device-formats.md
+              items:
+                - name: Представление форматов для передач IEC 61937
+                  href: representing-formats-for-iec-61937-transmissions.md
+        - name: Сеансы аудио
+          href: audio-sessions.md
+          items:
+            - name: События сеанса звука
+              href: audio-session-events.md
+            - name: Группирование параметров
+              href: grouping-parameters.md
+        - name: Регуляторы громкости
+          href: volume-controls.md
+          items:
+            - name: Элементы управления громкостью
+              href: session-volume-controls.md
+            - name: Элементы управления томами конечных точек
+              href: endpoint-volume-controls.md
+            - name: API Ендпоинтволуме
+              href: endpointvolume-api.md
+            - name: Audio-Tapered элементы управления громкостью
+              href: audio-tapered-volume-controls.md
+            - name: Пиковые показатели
+              href: peak-meters.md
+        - name: Управление потоками
+          href: stream-management.md
+          items:
+            - name: О ВАСАПИ
+              href: wasapi.md
+            - name: Отрисовка потока
+              href: rendering-a-stream.md
+            - name: Запись потока
+              href: capturing-a-stream.md
+            - name: Запись замыкания на себя
+              href: loopback-recording.md
+            - name: Exclusive-Modeные потоки
+              href: exclusive-mode-streams.md
+            - name: Восстановление после ошибки Invalid-Device
+              href: recovering-from-an-invalid-device-error.md
+            - name: Использование коммуникационного устройства
+              href: using-the-communication-device.md
+              items:
+                - name: Интерфейс Дуккинг по умолчанию
+                  href: stream-attenuation.md
+                - name: Отключение интерфейса Дуккинг по умолчанию
+                  href: disabling-the-ducking-experience.md
+                - name: Предоставление пользовательского поведения Дуккинг
+                  href: providing-a-custom-ducking-experience.md
+                - name: Рекомендации по реализации для уведомлений Дуккинг
+                  href: handling-audio-ducking-events-from-communication-devices.md
+                - name: Получение событий Дуккинг
+                  href: getting-ducking-events-from-a-communication-device.md
+            - name: Потоковая маршрутизация
+              href: stream-routing.md
+              items:
+                - name: Получение конечной точки устройства для маршрутизации потоков
+                  href: getting-the-default-device-endpoint-for-stream-routing.md
+                - name: Соответствующие уведомления для потоковой маршрутизации
+                  href: relevant-device-notifications-for-stream-routing.md
+                - name: Рекомендации по реализации потоковой маршрутизации
+                  href: stream-routing-implementation-considerations.md
+                - name: Автоматическая маршрутизация потоков
+                  href: automatic-stream-routing.md
+        - name: Топологии устройств
+          href: device-topologies.md
+          items:
+            - name: API Девицетопологи
+              href: devicetopology-api.md
+        - name: Использование интерфейса Иксконтрол для доступа к свойствам аудио
+          href: using-the-ikscontrol-interface-to-access-audio-properties.md
+        - name: 'Spatial Sound для разработчиков '
+          href: spatial-sound.md
+          items:
+            - name: Отображение пространственного звука с помощью пространственных звуковых объектов
+              href: render-spatial-sound-using-spatial-audio-objects.md
+            - name: Восстановление после ошибки Invalid-Device (пространственный звук)
+              href: recovering-from-an-invalid-device-error-spatial-sound.md
+    - name: Справочник по программированию
+      href: programming-reference.md
+      items:
+        - name: Основные типы аудиоданных
+          href: core-audio-datatypes.md
+          items:
+            - name: спатиалаудиохртфориентатион
+              href: spatialaudiohrtforientation.md
+        - name: Основные интерфейсы аудиоподсистемы
+          href: core-audio-interfaces.md
+          items:
+            - name: иаудиоендпоинтформатконтрол
+              href: /windows/desktop/api/AudioEndpoints/nn-audioendpoints-iaudioendpointformatcontrol
+              items:
+                - name: Метод Ресеттодефаулт
+                  href: /windows/desktop/api/AudioEndpoints/nf-audioendpoints-iaudioendpointformatcontrol-resettodefault
+            - name: иаудиоендпоинтластбуфферконтрол
+              href: /windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointlastbuffercontrol
+              items:
+                - name: Метод Исластбуфферконтролсуппортед
+                  href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointlastbuffercontrol-islastbuffercontrolsupported
+                - name: Метод Релеасеаутпутдатапоинтерфорластбуффер
+                  href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointlastbuffercontrol-releaseoutputdatapointerforlastbuffer
+            - name: иаудиоформатенумератор
+              href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-iaudioformatenumerator
+              items:
+                - name: GetCount - метод
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-iaudioformatenumerator-getcount
+                - name: Методического формата
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-iaudioformatenumerator-getformat
+            - name: IAudioSystemEffects2
+              href: /windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudiosystemeffects2
+              items:
+                - name: Метод Жетеффектслист
+                  href: /windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffects2-geteffectslist
+            - name: иактиватеаудиоинтерфацеасинкоператион
+              href: /windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfaceasyncoperation
+              items:
+                - name: Метод Жетактиватересулт
+                  href: /windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-iactivateaudiointerfaceasyncoperation-getactivateresult
+            - name: иактиватеаудиоинтерфацекомплетионхандлер
+              href: /windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfacecompletionhandler
+              items:
+                - name: Метод Активатекомплетед
+                  href: /windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-iactivateaudiointerfacecompletionhandler-activatecompleted
+            - name: иаудиоаутогаинконтрол
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudioautogaincontrol
+              items:
+                - name: GetEnabled
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioautogaincontrol-getenabled
+                - name: сетенаблед
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioautogaincontrol-setenabled
+            - name: иаудиобасс
+              href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass
+            - name: иаудиокаптуреклиент
+              href: /windows/desktop/api/Audioclient/nn-audioclient-iaudiocaptureclient
+              items:
+                - name: GetBuffer
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiocaptureclient-getbuffer
+                - name: жетнекстпаккетсизе
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiocaptureclient-getnextpacketsize
+                - name: релеасебуффер
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiocaptureclient-releasebuffer
+            - name: иаудиочаннелконфиг
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudiochannelconfig
+              items:
+                - name: жетчаннелконфиг
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiochannelconfig-getchannelconfig
+                - name: сетчаннелконфиг
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiochannelconfig-setchannelconfig
+            - name: иаудиоклиент
+              href: /windows/desktop/api/Audioclient/nn-audioclient-iaudioclient
+              items:
+                - name: жетбуфферсизе
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getbuffersize
+                - name: жеткуррентпаддинг
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getcurrentpadding
+                - name: жетдевицепериод
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getdeviceperiod
+                - name: жетмиксформат
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getmixformat
+                - name: GetService
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice
+                - name: жетстреамлатенци
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getstreamlatency
+                - name: Инициализация
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize
+                - name: исформатсуппортед
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-isformatsupported
+                - name: Reset
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-reset
+                - name: сетевенсандле
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-seteventhandle
+                - name: Начало
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-start
+                - name: Stop
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-stop
+            - name: IAudioClient2
+              href: /windows/desktop/api/Audioclient/nn-audioclient-iaudioclient2
+              items:
+                - name: жетбуфферсизелимитс
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient2-getbuffersizelimits
+                - name: исоффлоадкапабле
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient2-isoffloadcapable
+                - name: Метод Сетклиентпропертиес
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient2-setclientproperties
+            - name: IAudioClient3
+              href: /windows/desktop/api/audioclient/nn-audioclient-iaudioclient3
+              items:
+                - name: Метод Жеткуррентшаредмодингинепериод
+                  href: /windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getcurrentsharedmodeengineperiod
+                - name: Метод Жетшаредмодингинепериод
+                  href: /windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getsharedmodeengineperiod
+                - name: Метод Инитиализешаредаудиостреам
+                  href: /windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-initializesharedaudiostream
+            - name: иаудиоклокк
+              href: /windows/desktop/api/Audioclient/nn-audioclient-iaudioclock
+              items:
+                - name: Характеристики
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclock-getcharacteristics
+                - name: Частота
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclock-getfrequency
+                - name: Методом Disposition
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclock-getposition
+            - name: иаудиоклоккаджустмент
+              href: /windows/desktop/api/audioclient/nn-audioclient-iaudioclockadjustment
+              items:
+                - name: сетсамплерате
+                  href: /windows/desktop/api/audioclient/nf-audioclient-iaudioclockadjustment-setsamplerate
+            - name: IAudioClock2
+              href: /windows/desktop/api/audioclient/nn-audioclient-iaudioclock2
+              items:
+                - name: жетдевицепоситион
+                  href: /windows/desktop/api/audioclient/nf-audioclient-iaudioclock2-getdeviceposition
+            - name: иаудиоендпоинтоффлоадстреамметер
+              href: /windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammeter
+              items:
+                - name: жетметерчаннелкаунт
+                  href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammeter-getmeterchannelcount
+                - name: жетметерингдата
+                  href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammeter-getmeteringdata
+            - name: иаудиоендпоинтоффлоадстреаммуте
+              href: /windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammute
+              items:
+                - name: Включить звук
+                  href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammute-getmute
+                - name: сетмуте
+                  href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammute-setmute
+            - name: иаудиоендпоинтоффлоадстреамволуме
+              href: /windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreamvolume
+              items:
+                - name: жетчаннелволумес
+                  href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-getchannelvolumes
+                - name: жетволумечаннелкаунт
+                  href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-getvolumechannelcount
+                - name: сетчаннелволумес
+                  href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-setchannelvolumes
+            - name: иаудиоендпоинтволуме
+              href: /windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume
+              items:
+                - name: жетчаннелкаунт
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelcount
+                - name: жетчаннелволумелевел
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelvolumelevel
+                - name: жетчаннелволумелевелскалар
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelvolumelevelscalar
+                - name: жетмастерволумелевел
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getmastervolumelevel
+                - name: жетмастерволумелевелскалар
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getmastervolumelevelscalar
+                - name: Включить звук
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getmute
+                - name: жетволумеранже
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumerange
+                - name: жетволуместепинфо
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumestepinfo
+                - name: куерихардваресуппорт
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-queryhardwaresupport
+                - name: регистерконтролчанженотифи
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify
+                - name: сетчаннелволумелевел
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevel
+                - name: сетчаннелволумелевелскалар
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevelscalar
+                - name: сетмастерволумелевел
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevel
+                - name: сетмастерволумелевелскалар
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevelscalar
+                - name: сетмуте
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmute
+                - name: унрегистерконтролчанженотифи
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify
+                - name: волуместепдовн
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown
+                - name: волуместепуп
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup
+            - name: иаудиоендпоинтволумекаллбакк
+              href: /windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback
+              items:
+                - name: OnNotify
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify
+            - name: иаудиоендпоинтволумикс
+              href: /windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolumeex
+              items:
+                - name: жетволумеранжечаннел
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolumeex-getvolumerangechannel
+            - name: иаудиоинпутселектор
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudioinputselector
+              items:
+                - name: Выборка
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioinputselector-getselection
+                - name: сетселектион
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioinputselector-setselection
+            - name: иаудиолфксконтрол
+              href: /windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudiolfxcontrol
+              items:
+                - name: жетлокалеффектсстате
+                  href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-getlocaleffectsstate
+                - name: сетлокалеффектсстате
+                  href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-setlocaleffectsstate
+            - name: иаудиолауднесс
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudioloudness
+              items:
+                - name: GetEnabled
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioloudness-getenabled
+                - name: сетенаблед
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioloudness-setenabled
+            - name: иаудиометеринформатион
+              href: /windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudiometerinformation
+              items:
+                - name: жетчаннелспеаквалуес
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-getchannelspeakvalues
+                - name: жетметерингчаннелкаунт
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-getmeteringchannelcount
+                - name: жетпеаквалуе
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-getpeakvalue
+                - name: куерихардваресуппорт
+                  href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-queryhardwaresupport
+            - name: иаудиомидранже
+              href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange
+            - name: иаудиомуте
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudiomute
+              items:
+                - name: Включить звук
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiomute-getmute
+                - name: сетмуте
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiomute-setmute
+            - name: иаудиуутпутселектор
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudiooutputselector
+              items:
+                - name: Выборка
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiooutputselector-getselection
+                - name: сетселектион
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiooutputselector-setselection
+            - name: иаудиопеакметер
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudiopeakmeter
+              items:
+                - name: жетчаннелкаунт
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiopeakmeter-getchannelcount
+                - name: GetLevel
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudiopeakmeter-getlevel
+            - name: иаудиорендерклиент
+              href: /windows/desktop/api/Audioclient/nn-audioclient-iaudiorenderclient
+              items:
+                - name: GetBuffer
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiorenderclient-getbuffer
+                - name: релеасебуффер
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiorenderclient-releasebuffer
+            - name: иаудиосессионконтрол
+              href: /windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessioncontrol
+              items:
+                - name: жетиконпас
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-geticonpath
+                - name: Переdisplayname
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-getdisplayname
+                - name: жетграупингпарам
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-getgroupingparam
+                - name: GetState
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-getstate
+                - name: регистераудиосессионнотификатион
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification
+                - name: сетдисплайнаме
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setdisplayname
+                - name: сетграупингпарам
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setgroupingparam
+                - name: сетиконпас
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-seticonpath
+                - name: унрегистераудиосессионнотификатион
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-unregisteraudiosessionnotification
+            - name: IAudioSessionControl2
+              href: /windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2
+              items:
+                - name: GetProcessId
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getprocessid
+                - name: жетсессионидентифиер
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessionidentifier
+                - name: жетсессионинстанцеидентифиер
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessioninstanceidentifier
+                - name: иссистемсаундссессион
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-issystemsoundssession
+                - name: сетдуккингпреференце
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-setduckingpreference
+            - name: иаудиосессионенумератор
+              href: /windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionenumerator
+              items:
+                - name: GetCount
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getcount
+                - name: Метод getsession
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getsession
+            - name: иаудиосессионевентс
+              href: /windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessionevents
+              items:
+                - name: ончаннелволумечанжед
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onchannelvolumechanged
+                - name: ондисплайнамечанжед
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-ondisplaynamechanged
+                - name: онграупингпарамчанжед
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-ongroupingparamchanged
+                - name: ониконпасчанжед
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-oniconpathchanged
+                - name: онсессиондисконнектед
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsessiondisconnected
+                - name: онсимплеволумечанжед
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsimplevolumechanged
+                - name: онстатечанжед
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onstatechanged
+            - name: иаудиосессионманажер
+              href: /windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessionmanager
+              items:
+                - name: жетаудиосессионконтрол
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionmanager-getaudiosessioncontrol
+                - name: жетсимплеаудиоволуме
+                  href: /windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionmanager-getsimpleaudiovolume
+            - name: IAudioSessionManager2
+              href: /windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager2
+              items:
+                - name: жетсессионенумератор
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-getsessionenumerator
+                - name: регистердуккнотификатион
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registerducknotification
+                - name: регистерсессионнотификатион
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registersessionnotification
+                - name: унрегистердуккнотификатион
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregisterducknotification
+                - name: унрегистерсессионнотификатион
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregistersessionnotification
+            - name: иаудиосессионнотификатион
+              href: /windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification
+              items:
+                - name: онсессионкреатед
+                  href: /windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionnotification-onsessioncreated
+            - name: иаудиостреамволуме
+              href: /windows/desktop/api/Audioclient/nn-audioclient-iaudiostreamvolume
+              items:
+                - name: жеталлволумес
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-getallvolumes
+                - name: жетчаннелкаунт
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-getchannelcount
+                - name: жетчаннелволуме
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-getchannelvolume
+                - name: сеталлволумес
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-setallvolumes
+                - name: сетчаннелволуме
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-setchannelvolume
+            - name: иаудиотребле
+              href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble
+            - name: иаудиоволумелевел
+              href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel
+            - name: иаудиоволумедуккнотификатион
+              href: /windows/desktop/api/AudioPolicy/nn-audiopolicy-iaudiovolumeducknotification
+              items:
+                - name: онволумедуккнотификатион
+                  href: /windows/desktop/api/AudioPolicy/nf-audiopolicy-iaudiovolumeducknotification-onvolumeducknotification
+                - name: онволумеундуккнотификатион
+                  href: /windows/desktop/api/AudioPolicy/nf-audiopolicy-iaudiovolumeducknotification-onvolumeunducknotification
+            - name: ичаннелаудиоволуме
+              href: /windows/desktop/api/Audioclient/nn-audioclient-ichannelaudiovolume
+              items:
+                - name: жеталлволумес
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-ichannelaudiovolume-getallvolumes
+                - name: жетчаннелкаунт
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-ichannelaudiovolume-getchannelcount
+                - name: жетчаннелволуме
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-ichannelaudiovolume-getchannelvolume
+                - name: сеталлволумес
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-ichannelaudiovolume-setallvolumes
+                - name: сетчаннелволуме
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume
+            - name: иконнектор
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iconnector
+              items:
+                - name: SsASnoversion
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-connectto
+                - name: Отключение
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-disconnect
+                - name: жетконнекторидконнектедто
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-getconnectoridconnectedto
+                - name: жетконнектедто
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-getconnectedto
+                - name: жетдатафлов
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-getdataflow
+                - name: жетдевицеидконнектедто
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-getdeviceidconnectedto
+                - name: GetType
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-gettype
+                - name: Подсоединено
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iconnector-isconnected
+            - name: иконтролчанженотифи
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-icontrolchangenotify
+              items:
+                - name: OnNotify
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-icontrolchangenotify-onnotify
+            - name: иконтролинтерфаце
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-icontrolinterface
+              items:
+                - name: жетиид
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-icontrolinterface-getiid
+                - name: GetName
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-icontrolinterface-getname
+            - name: идевицеспеЦификпроперти
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-idevicespecificproperty
+              items:
+                - name: Get4BRange
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicespecificproperty-get4brange
+                - name: GetType
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicespecificproperty-gettype
+                - name: GetValue
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicespecificproperty-getvalue
+                - name: SetValue
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicespecificproperty-setvalue
+            - name: идевицетопологи
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-idevicetopology
+              items:
+                - name: Соединение с подключением
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getconnector
+                - name: жетконнекторкаунт
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getconnectorcount
+                - name: GetDeviceId
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getdeviceid
+                - name: жетпартбид
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getpartbyid
+                - name: жетсигналпас
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getsignalpath
+                - name: жетсубунит
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getsubunit
+                - name: жетсубуниткаунт
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-idevicetopology-getsubunitcount
+            - name: ихардвареаудиоенгинебасе
+              href: /windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-ihardwareaudioenginebase
+              items:
+                - name: жетаваилаблеоффлоадконнекторкаунт
+                  href: /windows/desktop/api/Audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getavailableoffloadconnectorcount
+                - name: жетенгинеформат
+                  href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getengineformat
+                - name: жетгфксстате
+                  href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getgfxstate
+                - name: сетенгинедевицеформат
+                  href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-setenginedeviceformat
+                - name: сетгфксстате
+                  href: /windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-setgfxstate
+            - name: иксформатсуппорт
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iksformatsupport
+              items:
+                - name: жетдевицепреферредформат
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksformatsupport-getdevicepreferredformat
+                - name: исформатсуппортед
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksformatsupport-isformatsupported
+            - name: иксжаккдескриптион
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iksjackdescription
+              items:
+                - name: жетжакккаунт
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksjackdescription-getjackcount
+                - name: жетжаккдескриптион
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksjackdescription-getjackdescription
+            - name: IKsJackDescription2
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iksjackdescription2
+              items:
+                - name: жетжакккаунт
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksjackdescription2-getjackcount
+                - name: GetJackDescription2
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksjackdescription2-getjackdescription2
+            - name: иксжакксинкинформатион
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iksjacksinkinformation
+              items:
+                - name: жетжакксинкинформатион
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iksjacksinkinformation-getjacksinkinformation
+            - name: иммдевице
+              href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice
+              items:
+                - name: Активировать
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate
+                - name: GetId
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-getid
+                - name: GetState
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-getstate
+                - name: опенпропертисторе
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore
+            - name: иммдевицеколлектион
+              href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevicecollection
+              items:
+                - name: GetCount
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevicecollection-getcount
+                - name: Элемент
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevicecollection-item
+            - name: иммдевицеенумератор
+              href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator
+              items:
+                - name: енумаудиоендпоинтс
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints
+                - name: жетдефаултаудиоендпоинт
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint
+                - name: GetDevice
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice
+                - name: регистерендпоинтнотификатионкаллбакк
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-registerendpointnotificationcallback
+                - name: унрегистерендпоинтнотификатионкаллбакк
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-unregisterendpointnotificationcallback
+            - name: иммендпоинт
+              href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immendpoint
+              items:
+                - name: жетдатафлов
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immendpoint-getdataflow
+            - name: иммнотификатионклиент
+              href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient
+              items:
+                - name: ондефаултдевицечанжед
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged
+                - name: ондевицеаддед
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondeviceadded
+                - name: ондевицеремовед
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondeviceremoved
+                - name: ондевицестатечанжед
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondevicestatechanged
+                - name: онпропертивалуечанжед
+                  href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-onpropertyvaluechanged
+            - name: исимплеаудиоволуме
+              href: /windows/desktop/api/Audioclient/nn-audioclient-isimpleaudiovolume
+              items:
+                - name: жетмастерволуме
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-isimpleaudiovolume-getmastervolume
+                - name: Включить звук
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-isimpleaudiovolume-getmute
+                - name: сетмастерволуме
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume
+                - name: сетмуте
+                  href: /windows/desktop/api/Audioclient/nf-audioclient-isimpleaudiovolume-setmute
+            - name: испатиалаудиоклиент
+              href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient
+              items:
+                - name: Метод Активатеспатиалаудиостреам
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream
+                - name: Метод Жетмаксдинамикобжекткаунт
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxdynamicobjectcount
+                - name: Метод Жетмаксфрамекаунт
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxframecount
+                - name: Метод Жетнативестатикобжекттипемаск
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getnativestaticobjecttypemask
+                - name: Метод Жетстатикобжектпоситион
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getstaticobjectposition
+                - name: Метод Жетсуппортедаудиубжектформатенумератор
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getsupportedaudioobjectformatenumerator
+                - name: Метод Исаудиубжектформатсуппортед
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-isaudioobjectformatsupported
+                - name: Метод Исспатиалаудиостреамаваилабле
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-isspatialaudiostreamavailable
+            - name: испатиалаудиометадатаклиент
+              href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadataclient
+              items:
+                - name: Метод Активатеспатиалаудиометадатакопиер
+                  href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadatacopier
+                - name: Метод Активатеспатиалаудиометадатаитемс
+                  href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadataitems
+                - name: Метод Активатеспатиалаудиометадатареадер
+                  href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadatareader
+                - name: Метод Активатеспатиалаудиометадатавритер
+                  href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadatawriter
+                - name: Метод Жетспатиалаудиометадатаитемсбуфферленгс
+                  href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-getspatialaudiometadataitemsbufferlength
+            - name: испатиалаудиометадатакопиер
+              href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadatacopier
+              items:
+                - name: 'Open, метод'
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-open
+                - name: Метод Close
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-close
+                - name: Метод Копиметадатафорфрамес
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-copymetadataforframes
+            - name: испатиалаудиометадатаитемс
+              href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadataitems
+              items:
+                - name: Метод Жетфрамекаунт
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getframecount
+                - name: Метод получения сведений
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getinfo
+                - name: Метод GetItemCount
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getitemcount
+                - name: Метод Жетмакситемкаунт
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getmaxitemcount
+                - name: Метод Жетмаксвалуебуфферленгс
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getmaxvaluebufferlength
+            - name: испатиалаудиометадатаитемсбуффер
+              href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer
+              items:
+                - name: Метод Аттачтобуффер
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-attachtobuffer
+                - name: Метод Аттачтопопулатедбуффер
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-attachtopopulatedbuffer
+                - name: Метод Детачбуффер
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-detachbuffer
+            - name: испатиалаудиометадатареадер
+              href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadatareader
+              items:
+                - name: Метод Close
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatareader-close
+                - name: 'Open, метод'
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatareader-open
+                - name: Метод Реадитемкаунтинфрамес
+                  href: /previous-versions/windows/desktop/legacy/mt798194(v=vs.85)
+                - name: Метод Реаднекститем
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatareader-readnextitem
+                - name: Метод Реаднекститемкомманд
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatareader-readnextitemcommand
+            - name: испатиалаудиометадатавритер
+              href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudiometadatawriter
+              items:
+                - name: Метод Close
+                  href: ispatialaudiometadatawriter-close.md
+                - name: 'Open, метод'
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatawriter-open
+                - name: Метод Вритенекститем
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatawriter-writenextitem
+                - name: Метод Вритенекститемкомманд
+                  href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatawriter-writenextitemcommand
+            - name: испатиалаудиубжект
+              href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject
+              items:
+                - name: Метод Жетаудиубжекттипе
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getaudioobjecttype
+                - name: GetBuffer - метод
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getbuffer
+                - name: IsActive - метод
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-isactive
+                - name: Метод Сетендофстреам
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-setendofstream
+                - name: Метод SetPosition
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobject-setposition
+                - name: Метод Сетволуме
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobject-setvolume
+            - name: испатиалаудиубжектфорхртф
+              href: /windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf
+              items:
+                - name: Метод Жетаудиубжекттипе
+                  href: /previous-versions/windows/desktop/legacy/mt779270(v=vs.85)
+                - name: GetBuffer - метод
+                  href: /previous-versions/windows/desktop/legacy/mt779271(v=vs.85)
+                - name: IsActive - метод
+                  href: /previous-versions/windows/desktop/legacy/mt779272(v=vs.85)
+                - name: Метод Сетдирективити
+                  href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setdirectivity
+                - name: Метод Сетдистанцедекай
+                  href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setdistancedecay
+                - name: Метод Сетендофстреам
+                  href: /previous-versions/windows/desktop/legacy/mt779275(v=vs.85)
+                - name: Метод Сетенвиронмент
+                  href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setenvironment
+                - name: Метод Сетгаин
+                  href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setgain
+                - name: Метод Сеториентатион
+                  href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setorientation
+                - name: Метод SetPosition
+                  href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setposition
+            - name: испатиалаудиубжектформетадатакоммандс
+              href: /windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectformetadatacommands
+              items:
+                - name: Метод Жетаудиубжекттипе
+                  href: /previous-versions/windows/desktop/legacy/mt798203(v=vs.85)
+                - name: GetBuffer - метод
+                  href: /previous-versions/windows/desktop/legacy/mt798204(v=vs.85)
+                - name: IsActive - метод
+                  href: /previous-versions/windows/desktop/legacy/mt798205(v=vs.85)
+                - name: Метод Сетендофстреам
+                  href: /previous-versions/windows/desktop/legacy/mt798206(v=vs.85)
+                - name: Метод Вритенекстметадатакомманд
+                  href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudioobjectformetadatacommands-writenextmetadatacommand
+            - name: испатиалаудиубжектформетадатаитемс
+              href: /windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectformetadataitems
+              items:
+                - name: Метод Жетаудиубжекттипе
+                  href: /previous-versions/windows/desktop/legacy/mt798211(v=vs.85)
+                - name: GetBuffer - метод
+                  href: /previous-versions/windows/desktop/legacy/mt798212(v=vs.85)
+                - name: Метод Жетспатиалаудиометадатаитемс
+                  href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudioobjectformetadataitems-getspatialaudiometadataitems
+                - name: IsActive - метод
+                  href: /previous-versions/windows/desktop/legacy/mt798214(v=vs.85)
+                - name: Метод Сетендофстреам
+                  href: /previous-versions/windows/desktop/legacy/mt798215(v=vs.85)
+            - name: испатиалаудиубжектрендерстреам
+              href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream
+              items:
+                - name: Метод Активатеспатиалаудиубжект
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstream-activatespatialaudioobject
+                - name: Метод Бегинупдатингаудиубжектс
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects
+                - name: Метод Ендупдатингаудиубжектс
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects
+                - name: Метод Жетаваилаблединамикобжекткаунт
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getavailabledynamicobjectcount
+                - name: Метод метода WebMethod
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getservice
+                - name: Reset - метод
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-reset
+                - name: Метод Start
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start
+                - name: Метод Stop
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop
+            - name: испатиалаудиубжектрендерстреамбасе
+              href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase
+              items:
+                - name: Метод Бегинупдатингаудиубжектс
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects
+                - name: Метод Ендупдатингаудиубжектс
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects
+                - name: Метод Жетаваилаблединамикобжекткаунт
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getavailabledynamicobjectcount
+                - name: Метод метода WebMethod
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getservice
+                - name: Reset - метод
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-reset
+                - name: Метод Start
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start
+                - name: Метод Stop
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop
+            - name: испатиалаудиорендерстреамфорхртф
+              href: /windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf
+              items:
+                - name: Метод Активатеспатиалаудиубжектфорхртф
+                  href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf-activatespatialaudioobjectforhrtf
+                - name: Метод Бегинупдатингаудиубжектс
+                  href: /previous-versions/windows/desktop/legacy/mt779299(v=vs.85)
+                - name: Метод Ендупдатингаудиубжектс
+                  href: /previous-versions/windows/desktop/legacy/mt779300(v=vs.85)
+                - name: Метод Жетаваилаблединамикобжекткаунт
+                  href: /previous-versions/windows/desktop/legacy/mt779301(v=vs.85)
+                - name: Метод метода WebMethod
+                  href: /previous-versions/windows/desktop/legacy/mt779302(v=vs.85)
+                - name: Reset - метод
+                  href: /previous-versions/windows/desktop/legacy/mt779303(v=vs.85)
+                - name: Метод Start
+                  href: /previous-versions/windows/desktop/legacy/mt779304(v=vs.85)
+                - name: Метод Stop
+                  href: /previous-versions/windows/desktop/legacy/mt779305(v=vs.85)
+            - name: испатиалаудиубжектрендерстреамформетадата
+              href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata
+              items:
+                - name: Метод Активатеспатиалаудиубжектформетадатакоммандс
+                  href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata-activatespatialaudioobjectformetadatacommands
+                - name: Метод Активатеспатиалаудиубжектформетадатаитемс
+                  href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata-activatespatialaudioobjectformetadataitems
+            - name: испатиалаудиубжектрендерстреамнотифи
+              href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreamnotify
+              items:
+                - name: Метод Онаваилаблединамикобжекткаунтчанже
+                  href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreamnotify-onavailabledynamicobjectcountchange
+            - name: ипарт
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-ipart
+              items:
+                - name: Активировать
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-activate
+                - name: енумпартсинкоминг
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-enumpartsincoming
+                - name: енумпартсаутгоинг
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-enumpartsoutgoing
+                - name: жетконтролинтерфаце
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getcontrolinterface
+                - name: жетконтролинтерфацекаунт
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getcontrolinterfacecount
+                - name: жетглобалид
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getglobalid
+                - name: жетлокалид
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getlocalid
+                - name: GetName
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getname
+                - name: жетпарттипе
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getparttype
+                - name: жетсубтипе
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-getsubtype
+                - name: жеттопологйобжект
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-gettopologyobject
+                - name: регистерконтролчанжекаллбакк
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-registercontrolchangecallback
+                - name: унрегистерконтролчанжекаллбакк
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback
+            - name: ипартслист
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-ipartslist
+              items:
+                - name: GetCount
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipartslist-getcount
+                - name: Часть
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-ipartslist-getpart
+            - name: иперчаннелдблевел
+              href: /windows/desktop/api/Devicetopology/nn-devicetopology-iperchanneldblevel
+              items:
+                - name: жетчаннелкаунт
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-getchannelcount
+                - name: GetLevel
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-getlevel
+                - name: жетлевелранже
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-getlevelrange
+                - name: сетлевел
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-setlevel
+                - name: сетлевелаллчаннелс
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-setlevelallchannels
+                - name: сетлевелуниформ
+                  href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-setleveluniform
+            - name: исубунит
+              href: /windows/desktop/api/devicetopology/nn-devicetopology-isubunit
+        - name: Основные аудио структуры
+          href: core-audio-structures.md
+          items:
+            - name: APOInitSystemEffects2
+              href: /previous-versions/windows/desktop/legacy/dn280314(v=vs.85)
+            - name: AUDIO_VOLUME_NOTIFICATION_DATA
+              href: /windows/desktop/api/Endpointvolume/ns-endpointvolume-audio_volume_notification_data
+            - name: аудиоклиентпропертиес
+              href: /windows/desktop/api/Audioclient/ns-audioclient-audioclientproperties-r1
+            - name: аудиоекстенсионпарамс
+              href: /windows/win32/api/mmdeviceapi/ns-mmdeviceapi-audioextensionparams
+            - name: DIRECTX_AUDIO_ACTIVATION_PARAMS
+              href: /windows/win32/api/Mmdeviceapi/ns-mmdeviceapi-directx_audio_activation_params
+            - name: KSJACK_DESCRIPTION
+              href: /windows/win32/api/Devicetopology/ns-devicetopology-ksjack_description
+            - name: KSJACK_DESCRIPTION2
+              href: /windows/desktop/api/Devicetopology/ns-devicetopology-ksjack_description2
+            - name: KSJACK_SINK_INFORMATION
+              href: /windows/desktop/api/Devicetopology/ns-devicetopology-ksjack_sink_information
+            - name: LUID
+              href: /windows/win32/api/Devicetopology/ns-devicetopology-luid
+            - name: спатиалаудиоклиентактиватионпарамс
+              href: /windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioclientactivationparams
+            - name: спатиалаудиохртфактиватионпарамс
+              href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfactivationparams
+            - name: спатиалаудиохртфдирективити
+              href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivity
+            - name: спатиалаудиохртфдирективитикардиоид
+              href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivitycardioid
+            - name: спатиалаудиохртфдирективитиконе
+              href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivitycone
+            - name: спатиалаудиохртфдистанцедекай
+              href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdistancedecay
+            - name: спатиалаудиохртфдирективитиконе
+              href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivitycone
+            - name: спатиалаудиометадатаитемсинфо
+              href: /windows/desktop/api/SpatialAudioMetadata/ns-spatialaudiometadata-spatialaudiometadataitemsinfo
+            - name: спатиалаудиубжектрендерстреамактиватионпарамс
+              href: /windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams
+            - name: спатиалаудиубжектрендерстреамформетадатаактиватионпарамс
+              href: /windows/desktop/api/spatialaudiometadata/ns-spatialaudiometadata-spatialaudioobjectrenderstreamformetadataactivationparams
+        - name: Основные объединения аудио
+          href: core-audio-unions.md
+          items:
+            - name: спатиалаудиохртфдирективитюнион
+              href: /windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivityunion
+        - name: Базовые перечисления аудио
+          href: core-audio-enumerations.md
+          items:
+            - name: _AUDCLNT_BUFFERFLAGS
+              href: /windows/desktop/api/Audioclient/ne-audioclient-_audclnt_bufferflags
+            - name: AUDCLNT_SHAREMODE
+              href: /windows/win32/api/Audiosessiontypes/ne-audiosessiontypes-audclnt_sharemode
+            - name: AUDCLNT_STREAMOPTIONS
+              href: /windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions
+            - name: AUDIO_STREAM_CATEGORY
+              href: /windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category
+            - name: аудиубжекттипе
+              href: /windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype
+            - name: аудиосессионстате
+              href: /windows/win32/api/Audiosessiontypes/ne-audiosessiontypes-audiosessionstate
+            - name: коннектортипе
+              href: /windows/win32/api/Devicetopology/ne-devicetopology-connectortype
+            - name: DataFlow
+              href: /windows/win32/api/Devicetopology/ne-devicetopology-dataflow
+            - name: едатафлов
+              href: /windows/win32/api/Mmdeviceapi/ne-mmdeviceapi-edataflow
+            - name: ендпоинтформфактор
+              href: /windows/win32/api/Mmdeviceapi/ne-mmdeviceapi-endpointformfactor
+            - name: ероле
+              href: /windows/win32/api/Mmdeviceapi/ne-mmdeviceapi-erole
+            - name: KSJACK_SINK_CONNECTIONTYPE
+              href: /windows/win32/api/Devicetopology/ne-devicetopology-ksjack_sink_connectiontype
+            - name: парттипе
+              href: /windows/win32/api/Devicetopology/ne-devicetopology-parttype
+            - name: спатиалаудиохртфдирективититипе
+              href: /windows/desktop/api/spatialaudiohrtf/ne-spatialaudiohrtf-spatialaudiohrtfdirectivitytype
+            - name: спатиалаудиохртфенвиронменттипе
+              href: /windows/desktop/api/spatialaudiohrtf/ne-spatialaudiohrtf-spatialaudiohrtfenvironmenttype
+            - name: спатиалаудиохртфдистанцедекайтипе
+              href: /windows/desktop/api/spatialaudiohrtf/ne-spatialaudiohrtf-spatialaudiohrtfdistancedecaytype
+            - name: спатиалаудиометадатавритероверфловмоде
+              href: /windows/desktop/api/SpatialAudioMetadata/ne-spatialaudiometadata-spatialaudiometadatawriteroverflowmode
+            - name: спатиалаудиометадатакопимоде
+              href: /windows/desktop/api/SpatialAudioMetadata/ne-spatialaudiometadata-spatialaudiometadatacopymode
+        - name: Константы аудиоподсистемы Core
+          href: core-audio-constants.md
+          items:
+            - name: Константы AUDCLNT_SESSIONFLAGS_XXX
+              href: audclnt-sessionflags-xxx-constants.md
+            - name: Константы AUDCLNT_STREAMFLAGS_XXX
+              href: audclnt-streamflags-xxx-constants.md
+            - name: Константы DEVICE_STATE_XXX
+              href: device-state-xxx-constants.md
+            - name: Константы ENDPOINT_HARDWARE_SUPPORT_XXX
+              href: endpoint-hardware-support-xxx-constants.md
+            - name: Константы SPATIAL_AUDIO_XXX
+              href: spatial-audio-xxx-constants.md
+        - name: Основные свойства звука
+          href: core-audio-properties.md
+          items:
+            - name: PKEY_AudioEndpoint_Association
+              href: pkey-audioendpoint-association.md
+            - name: PKEY_AudioEndpoint_ControlPanelPageProvider
+              href: pkey-audioendpoint-controlpanelpageprovider.md
+            - name: PKEY_AudioEndpoint_Disable_SysFx
+              href: pkey-audioendpoint-disable-sysfx.md
+            - name: PKEY_AudioEndpoint_FormFactor
+              href: pkey-audioendpoint-formfactor.md
+            - name: PKEY_AudioEndpoint_FullRangeSpeakers
+              href: pkey-audioendpoint-fullrangespeakers.md
+            - name: PKEY_AudioEndpoint_GUID
+              href: pkey-audioendpoint-guid.md
+            - name: PKEY_AudioEndpoint_JackSubType
+              href: pkey-audioendpoint-jacksubtype.md
+            - name: PKEY_AudioEndpoint_PhysicalSpeakers
+              href: pkey-audioendpoint-physicalspeakers.md
+            - name: PKEY_AudioEndpoint_Supports_EventDriven_Mode
+              href: pkey-audioendpoint-supports-eventdriven-mode.md
+            - name: PKEY_AudioEngine_DeviceFormat
+              href: pkey-audioengine-deviceformat.md
+            - name: PKEY_AudioEngine_OEMFormat
+              href: pkey-audioengine-oemformat.md
+            - name: PKEY_Device_DeviceDesc
+              href: pkey-device-devicedesc.md
+            - name: PKEY_Device_FriendlyName
+              href: pkey-device-friendlyname.md
+            - name: PKEY_DeviceInterface_FriendlyName
+              href: pkey-deviceinterface-friendlyname.md
+            - name: PKEY_EFX_ProcessingModes_Supported_For_Streaming
+              href: pkey-efx-processingmodes-supported-for-streaming.md
+            - name: PKEY_MFX_ProcessingModes_Supported_For_Streaming
+              href: pkey-mfx-processingmodes-supported-for-streaming.md
+            - name: PKEY_SFX_ProcessingModes_Supported_For_Streaming
+              href: pkey-sfx-processingmodes-supported-for-streaming.md
+        - name: Функции аудиоподсистемы Core
+          href: core-audio-functions.md
+          items:
+            - name: активатеаудиоинтерфацеасинк
+              href: /windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync
+        - name: Основные идентификаторы GUID для звука
+          href: core-audio-guids.md
+          items:
+            - name: Идентификаторы GUID DEVINTERFACE_XXX
+              href: devinterface-xxx-guids.md

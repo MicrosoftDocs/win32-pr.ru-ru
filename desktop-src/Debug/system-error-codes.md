@@ -1,0 +1,52 @@
+---
+description: Содержит ссылки на коды системных ошибок, определенные в файле заголовка WinError. h и предназначенные для разработчиков.
+ms.assetid: 4a3a8feb-a05f-4614-8f04-1f507da7e5b7
+title: Коды системных ошибок
+ms.topic: article
+ms.date: 10/31/2019
+ms.openlocfilehash: 072e1eb4a43c787055bc2793b3f58d69cdf6dd12
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104141538"
+---
+# <a name="system-error-codes"></a><span data-ttu-id="03abe-103">Коды системных ошибок</span><span class="sxs-lookup"><span data-stu-id="03abe-103">System Error Codes</span></span>
+
+<span data-ttu-id="03abe-104">Этот раздел предназначен для разработчиков, выполняющих отладку системных ошибок.</span><span class="sxs-lookup"><span data-stu-id="03abe-104">This section is intended for developers who are debugging system errors.</span></span> <span data-ttu-id="03abe-105">Если вы открыли эту страницу при поиске других ошибок, вот некоторые ссылки, которые могут помочь:</span><span class="sxs-lookup"><span data-stu-id="03abe-105">If you reached this page while searching for other errors, here are some links that might help:</span></span>
+
+* <span data-ttu-id="03abe-106">[Ошибки центр обновления Windows](https://support.microsoft.com/help/10164/fix-windows-update-errors) — для устранения проблем с центр обновления Windows.</span><span class="sxs-lookup"><span data-stu-id="03abe-106">[Windows Update errors](https://support.microsoft.com/help/10164/fix-windows-update-errors) - For help resolving issues with Windows Update.</span></span>
+* <span data-ttu-id="03abe-107">[Ошибки активации Windows](https://support.microsoft.com/help/10738/windows-10-get-help-with-activation-errors) — для получения помощи в проверке копии Windows.</span><span class="sxs-lookup"><span data-stu-id="03abe-107">[Windows activation errors](https://support.microsoft.com/help/10738/windows-10-get-help-with-activation-errors) - For help verifying your copy of Windows.</span></span>
+* <span data-ttu-id="03abe-108">[Устранение ошибок на синем экране](https://support.microsoft.com/help/14238/windows-10-troubleshoot-blue-screen-errors) — для справки по обнаружению причины ошибки.</span><span class="sxs-lookup"><span data-stu-id="03abe-108">[Troubleshooting blue screen errors](https://support.microsoft.com/help/14238/windows-10-troubleshoot-blue-screen-errors) - For help discovering what caused a stop error.</span></span>
+* <span data-ttu-id="03abe-109">[Служба поддержки Майкрософт](https://support.microsoft.com) — для поддержки продукта Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="03abe-109">[Microsoft Support](https://support.microsoft.com) - For support with a Microsoft product.</span></span>
+
+## <a name="more-ways-to-find-an-error-code"></a><span data-ttu-id="03abe-110">Другие способы поиска кода ошибки</span><span class="sxs-lookup"><span data-stu-id="03abe-110">More ways to find an error code</span></span>
+
+<span data-ttu-id="03abe-111">В этом разделе перечислены коды системных ошибок, упорядоченные по числу.</span><span class="sxs-lookup"><span data-stu-id="03abe-111">We've listed the system error codes in this section, organized by number.</span></span> <span data-ttu-id="03abe-112">Если вам требуется дополнительная помощь в отслеживании определенной ошибки, см. Дополнительные рекомендации.</span><span class="sxs-lookup"><span data-stu-id="03abe-112">If you need more help tracking down a specific error, here are some more recommendations:</span></span>
+
+* <span data-ttu-id="03abe-113">Используйте [средство поиска ошибок (Майкрософт](system-error-code-lookup-tool.md)).</span><span class="sxs-lookup"><span data-stu-id="03abe-113">Use the [Microsoft Error Lookup Tool](system-error-code-lookup-tool.md).</span></span>
+*  <span data-ttu-id="03abe-114">Установите средства отладки для Windows, загрузите файл дампа памяти, а затем выполните команду **\! Err \<code>** .</span><span class="sxs-lookup"><span data-stu-id="03abe-114">Install the Debugging Tools for Windows, load a memory dump file, and then run the **\!err \<code>** command.</span></span>
+* <span data-ttu-id="03abe-115">Поиск необработанного текста или кода ошибки на сайте протоколов Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="03abe-115">Search the Microsoft Protocols site for the raw text or error code.</span></span> <span data-ttu-id="03abe-116">Дополнительные сведения см. в разделе [[MS-ерреф]: коды ошибок Windows](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).</span><span class="sxs-lookup"><span data-stu-id="03abe-116">For more information, see [[MS-ERREF]: Windows Error Codes](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).</span></span>
+
+## <a name="third-party-error-codes"></a><span data-ttu-id="03abe-117">Коды ошибок сторонних производителей</span><span class="sxs-lookup"><span data-stu-id="03abe-117">Third party error codes</span></span>
+
+<span data-ttu-id="03abe-118">Другие коды ошибок могут создаваться сторонними службами или приложениями (например, **код ошибки:-118** может отображаться [службой игры Steam](https://support.steampowered.com/kb_cat.php?id=59)) и в этих ситуациях вы можете связаться со сторонней линией поддержки.</span><span class="sxs-lookup"><span data-stu-id="03abe-118">Other error codes may be generated by third party services or apps (for example, **Error Code: -118** may be displayed by the [Steam game service](https://support.steampowered.com/kb_cat.php?id=59)) and in those situations you would contact the third party's support line.</span></span>
+
+## <a name="system-error-codes"></a><span data-ttu-id="03abe-119">Коды системных ошибок</span><span class="sxs-lookup"><span data-stu-id="03abe-119">System Error Codes</span></span>
+
+<span data-ttu-id="03abe-120">Коды системных ошибок очень обширны: каждая из них может находиться в одном из нескольких сотен расположений в системе.</span><span class="sxs-lookup"><span data-stu-id="03abe-120">System Error Codes are very broad: each one can occur in one of many hundreds of locations in the system.</span></span> <span data-ttu-id="03abe-121">Следовательно, описания этих кодов не могут быть очень специфичными.</span><span class="sxs-lookup"><span data-stu-id="03abe-121">Consequently, the descriptions of these codes cannot be very specific.</span></span> <span data-ttu-id="03abe-122">Использование этих кодов требует некоторого количества исследований и анализа.</span><span class="sxs-lookup"><span data-stu-id="03abe-122">Use of these codes requires some amount of investigation and analysis.</span></span> <span data-ttu-id="03abe-123">Необходимо отметить как программное, так и контекст среды выполнения, в котором эти ошибки происходят.</span><span class="sxs-lookup"><span data-stu-id="03abe-123">You need to note both the programmatic and the runtime context in which these errors occur.</span></span> 
+
+<span data-ttu-id="03abe-124">Поскольку эти коды определены в файле WinError. h для всех пользователей, иногда коды возвращаются несистемным программным обеспечением.</span><span class="sxs-lookup"><span data-stu-id="03abe-124">Because these codes are defined in WinError.h for anyone to use, sometimes the codes are returned by non-system software.</span></span> <span data-ttu-id="03abe-125">И иногда код возвращается функцией глубоко в стеке и удаляется из кода, обрабатывающего ошибку.</span><span class="sxs-lookup"><span data-stu-id="03abe-125">And sometimes the code is returned by a function deep in the stack and far removed from code that is handling the error.</span></span>
+
+<span data-ttu-id="03abe-126">В следующих разделах приводятся списки кодов системных ошибок.</span><span class="sxs-lookup"><span data-stu-id="03abe-126">The following topics provide lists of system error codes.</span></span> <span data-ttu-id="03abe-127">Эти значения определены в файле заголовка WinError. h.</span><span class="sxs-lookup"><span data-stu-id="03abe-127">These values are defined in the WinError.h header file.</span></span>
+
+-   [<span data-ttu-id="03abe-128">Коды системных ошибок (0-499) (0x0 — 0x1F3)</span><span class="sxs-lookup"><span data-stu-id="03abe-128">System Error Codes (0-499) (0x0-0x1f3)</span></span>](system-error-codes--0-499-.md)
+-   [<span data-ttu-id="03abe-129">Коды системных ошибок (500-999) (0x1F4-0x3e7)</span><span class="sxs-lookup"><span data-stu-id="03abe-129">System Error Codes (500-999) (0x1f4-0x3e7)</span></span>](system-error-codes--500-999-.md)
+-   [<span data-ttu-id="03abe-130">Коды системных ошибок (1000-1299) (0x3e8-0x513)</span><span class="sxs-lookup"><span data-stu-id="03abe-130">System Error Codes (1000-1299) (0x3e8-0x513)</span></span>](system-error-codes--1000-1299-.md)
+-   [<span data-ttu-id="03abe-131">Коды системных ошибок (1300-1699) (0x514-0x6a3)</span><span class="sxs-lookup"><span data-stu-id="03abe-131">System Error Codes (1300-1699) (0x514-0x6a3)</span></span>](system-error-codes--1300-1699-.md)
+-   [<span data-ttu-id="03abe-132">Коды системных ошибок (1700-3999) (0x6a4-0xf9f)</span><span class="sxs-lookup"><span data-stu-id="03abe-132">System Error Codes (1700-3999) (0x6a4-0xf9f)</span></span>](system-error-codes--1700-3999-.md)
+-   [<span data-ttu-id="03abe-133">Коды системных ошибок (4000-5999) (0xfa0-0x176f)</span><span class="sxs-lookup"><span data-stu-id="03abe-133">System Error Codes (4000-5999) (0xfa0-0x176f)</span></span>](system-error-codes--4000-5999-.md)
+-   [<span data-ttu-id="03abe-134">Коды системных ошибок (6000-8199) (0x1770-0x2007)</span><span class="sxs-lookup"><span data-stu-id="03abe-134">System Error Codes (6000-8199) (0x1770-0x2007)</span></span>](system-error-codes--6000-8199-.md)
+-   [<span data-ttu-id="03abe-135">Коды системных ошибок (8200-8999) (0x2008-0x2327)</span><span class="sxs-lookup"><span data-stu-id="03abe-135">System Error Codes (8200-8999) (0x2008-0x2327)</span></span>](system-error-codes--8200-8999-.md)
+-   [<span data-ttu-id="03abe-136">Коды системных ошибок (9000-11999) (0x2328-0x2edf)</span><span class="sxs-lookup"><span data-stu-id="03abe-136">System Error Codes (9000-11999) (0x2328-0x2edf)</span></span>](system-error-codes--9000-11999-.md)
+-   [<span data-ttu-id="03abe-137">Коды системных ошибок (12000-15999) (0x2ee0-0x3e7f)</span><span class="sxs-lookup"><span data-stu-id="03abe-137">System Error Codes (12000-15999) (0x2ee0-0x3e7f)</span></span>](system-error-codes--12000-15999-.md)

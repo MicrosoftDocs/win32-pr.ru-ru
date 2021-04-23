@@ -1,0 +1,36 @@
+---
+title: API доступа к устройству
+description: Используйте API доступа к устройствам для создания приложений для устройств магазина Windows на специализированных устройствах, использующих пользовательские драйверы.
+ms.assetid: 51329746-291e-4ac6-9029-ebe4727d5d7d
+ms.topic: article
+ms.date: 02/11/2020
+ms.openlocfilehash: 6f054167d81f33ce852f7707e194058f4cee3c75
+ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "104414061"
+---
+# <a name="device-access-api"></a><span data-ttu-id="3b09f-103">API доступа к устройству</span><span class="sxs-lookup"><span data-stu-id="3b09f-103">Device Access API</span></span>
+
+## <a name="purpose"></a><span data-ttu-id="3b09f-104">Назначение</span><span class="sxs-lookup"><span data-stu-id="3b09f-104">Purpose</span></span>
+
+<span data-ttu-id="3b09f-105">API доступа к устройствам можно использовать для создания приложений для устройств магазина Windows на специализированных устройствах, использующих пользовательские драйверы.</span><span class="sxs-lookup"><span data-stu-id="3b09f-105">You can use the Device Access API to write Windows Store device apps for specialized devices that use custom drivers.</span></span> <span data-ttu-id="3b09f-106">API предоставляет методы для отправки управляющих кодов для взаимодействия с пользовательским драйвером устройства.</span><span class="sxs-lookup"><span data-stu-id="3b09f-106">The API provides methods for sending control codes to communicate with the device's custom driver.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="3b09f-107">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="3b09f-107">In this section</span></span>
+
+| <span data-ttu-id="3b09f-108">Раздел</span><span class="sxs-lookup"><span data-stu-id="3b09f-108">Topic</span></span> | <span data-ttu-id="3b09f-109">Описание</span><span class="sxs-lookup"><span data-stu-id="3b09f-109">Description</span></span> |
+|---|---|
+| [<span data-ttu-id="3b09f-110">Сведения об API доступа к устройствам</span><span class="sxs-lookup"><span data-stu-id="3b09f-110">About the Device Access API</span></span>](about-the-device-access-api.md)<br/> | <span data-ttu-id="3b09f-111">API доступа к устройствам предназначен для разработчиков на C++, создающих приложение Магазина Windows для взаимодействия с специализированными устройствами в Windows 8.</span><span class="sxs-lookup"><span data-stu-id="3b09f-111">The Device Access API is for C++ developers who are creating a Windows Store app to interact with specialized devices in Windows 8.</span></span> <span data-ttu-id="3b09f-112">В этом разделе описываются сценарии, к которым применяется API доступа к устройствам.</span><span class="sxs-lookup"><span data-stu-id="3b09f-112">This topic describes the scenarios that the Device Access API applies to.</span></span> <span data-ttu-id="3b09f-113">В нем также объясняется, как API доступа к устройствам применяет правила безопасности для приложений Магазина Windows в Windows 8.</span><span class="sxs-lookup"><span data-stu-id="3b09f-113">It also explains how the Device Access API applies security rules for Windows Store apps in Windows 8.</span></span><br/> |
+| [<span data-ttu-id="3b09f-114">Как использовать API доступа к устройствам</span><span class="sxs-lookup"><span data-stu-id="3b09f-114">How to Use the Device Access API</span></span>](using-the-device-access-api.md)<br/> | <span data-ttu-id="3b09f-115">В этом разделе содержатся задачи и рекомендации по проектированию для использования API доступа к устройствам.</span><span class="sxs-lookup"><span data-stu-id="3b09f-115">This topic contains tasks and design considerations for using the Device Access API.</span></span><br/> |
+| [<span data-ttu-id="3b09f-116">Справочник по программированию API доступа к устройствам C++</span><span class="sxs-lookup"><span data-stu-id="3b09f-116">Device Access API C++ Programming Reference</span></span>](device-access-api-c---programming-reference.md)<br/> | <span data-ttu-id="3b09f-117">Содержит справочные страницы по функциям и интерфейсам в API доступа к устройству.</span><span class="sxs-lookup"><span data-stu-id="3b09f-117">Provides reference pages for the functions and interfaces in the Device Access API.</span></span><br/> |
+| [<span data-ttu-id="3b09f-118">Глоссарий доступа к устройствам</span><span class="sxs-lookup"><span data-stu-id="3b09f-118">Device Access Glossary</span></span>](deviceaccess-glossary.md)<br/> | <span data-ttu-id="3b09f-119">Ниже приведены термины, используемые во всей документации по API доступа к устройствам.</span><span class="sxs-lookup"><span data-stu-id="3b09f-119">The following are terms used throughout the documentation for the Device Access API.</span></span><br/> |
+| [<span data-ttu-id="3b09f-120">Other APIs</span><span class="sxs-lookup"><span data-stu-id="3b09f-120">Other APIs</span></span>](other-apis.md)<br/> | <span data-ttu-id="3b09f-121">Эти интерфейсы не поддерживаются, и их не следует использовать.</span><span class="sxs-lookup"><span data-stu-id="3b09f-121">These interfaces are not supported and should not be used.</span></span> <span data-ttu-id="3b09f-122">Вместо этого используйте API-интерфейсы в [справочнике по программированию API для доступа к устройствам](device-access-api-c---programming-reference.md) .</span><span class="sxs-lookup"><span data-stu-id="3b09f-122">Use the APIs in the [Device Access API C++ Programming Reference](device-access-api-c---programming-reference.md) instead.</span></span><br/> |
+
+## <a name="developer-audience"></a><span data-ttu-id="3b09f-123">Аудитория разработчиков</span><span class="sxs-lookup"><span data-stu-id="3b09f-123">Developer audience</span></span>
+
+<span data-ttu-id="3b09f-124">API доступа к устройствам предназначен для независимых поставщиков оборудования (IHV) и OEM-разработчиков, знакомых с C++ и моделью компонентов (COM).</span><span class="sxs-lookup"><span data-stu-id="3b09f-124">The Device Access API is designed for independent hardware vendor (IHV) and OEM developers who are familiar with C++ and Component Object Model (COM).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="3b09f-125">См. также</span><span class="sxs-lookup"><span data-stu-id="3b09f-125">Related topics</span></span>
+
+<span data-ttu-id="3b09f-126">[Пример пользовательского доступа к драйверу](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [приложения для устройств UWP для внутренних устройств](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [центр разработки оборудования](/windows-hardware/drivers/)</span><span class="sxs-lookup"><span data-stu-id="3b09f-126">[Custom Driver Access Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [UWP device apps for internal devices](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Hardware Dev Center](/windows-hardware/drivers/)</span></span>

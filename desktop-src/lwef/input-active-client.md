@@ -1,0 +1,32 @@
+---
+title: Клиент Input-Active
+description: Клиент Input-Active
+ms.assetid: b46e91d3-eca7-4a4a-b1ce-27b5e6ad92a5
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3223ddc7bb412b333d628f93cc56b27efd0abb7a
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104331251"
+---
+# <a name="input-active-client"></a><span data-ttu-id="40683-103">Клиент Input-Active</span><span class="sxs-lookup"><span data-stu-id="40683-103">Input-Active Client</span></span>
+
+<span data-ttu-id="40683-104">\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]</span><span class="sxs-lookup"><span data-stu-id="40683-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+
+<span data-ttu-id="40683-105">Так как несколько клиентских приложений могут совместно использовать один и тот же символ, и несколько клиентов могут одновременно применять разные символы, сервер назначает один клиент в качестве клиента *входа* и отправляет входные данные мыши и голоса только в это клиентское приложение.</span><span class="sxs-lookup"><span data-stu-id="40683-105">Because multiple client applications can share the same character and because multiple clients can use different characters at the same time, the server designates one client as the *input-active* client and sends mouse and voice input only to that client application.</span></span> <span data-ttu-id="40683-106">Это обеспечивает упорядоченное управление вводом данных пользователем, чтобы соответствующий клиент отвечал на входные данные.</span><span class="sxs-lookup"><span data-stu-id="40683-106">This maintains the orderly management of user input, so that an appropriate client responds to the input.</span></span>
+
+<span data-ttu-id="40683-107">Как правило, взаимодействие с пользователем определяет, какое клиентское приложение преобразуется в input-Active.</span><span class="sxs-lookup"><span data-stu-id="40683-107">Typically, user interaction determines which client application becomes input-active.</span></span> <span data-ttu-id="40683-108">Например, если пользователь щелкнет символ, то клиентское приложение этого символа станет входным — активным.</span><span class="sxs-lookup"><span data-stu-id="40683-108">For example, if the user clicks a character, that character's client application becomes input-active.</span></span> <span data-ttu-id="40683-109">Аналогично, если пользователь говорит имя символа, он преобразуется в input-Active.</span><span class="sxs-lookup"><span data-stu-id="40683-109">Similarly, if a user speaks the name of a character, it becomes input-active.</span></span> <span data-ttu-id="40683-110">Кроме того, когда сервер обрабатывает метод [**отображения**](show-method.md) символа, клиент этого символа преобразуется в входной — активный.</span><span class="sxs-lookup"><span data-stu-id="40683-110">Also, when the server processes a character's [**Show**](show-method.md) method, the client of that character becomes input-active.</span></span>
+
+<span data-ttu-id="40683-111">Если символ скрыт, клиент этого символа больше не будет вводиться в качестве активного для этого символа.</span><span class="sxs-lookup"><span data-stu-id="40683-111">When a character is hidden, the client of that character will no longer be input-active for that character.</span></span> <span data-ttu-id="40683-112">Сервер автоматически делает активный клиент всех оставшихся входных символов активным.</span><span class="sxs-lookup"><span data-stu-id="40683-112">The server automatically makes the active client of any remaining character(s) input-active.</span></span> <span data-ttu-id="40683-113">Если все символы скрыты, ни один клиент не является активным.</span><span class="sxs-lookup"><span data-stu-id="40683-113">When all characters are hidden, no client is input-active.</span></span> <span data-ttu-id="40683-114">Однако в такой ситуации, если пользователь нажмет клавишу прослушивания, агент продолжит прослушивать свои команды (используя модуль распознавания речи, соответствующий верхнему символу последнего входного клиента).</span><span class="sxs-lookup"><span data-stu-id="40683-114">However, in this situation, if the user presses the Listening hotkey, Agent will continue to listen for its commands (using the speech recognition engine matching the topmost character of the last input-active client).</span></span>
+
+<span data-ttu-id="40683-115">Если несколько клиентов совместно используют один и тот же символ, сервер будет обозначать его *активным клиентом* как клиент ввода-активности.</span><span class="sxs-lookup"><span data-stu-id="40683-115">If multiple clients are sharing the same character, the server will designate its *active client* as input-active client.</span></span> <span data-ttu-id="40683-116">Активный символ является самым верхним в клиентском порядке.</span><span class="sxs-lookup"><span data-stu-id="40683-116">The active character is the topmost in the client order.</span></span> <span data-ttu-id="40683-117">Клиент можно настроить как активный или неактивный клиент с помощью метода [**Activate**](activate-method.md) .</span><span class="sxs-lookup"><span data-stu-id="40683-117">You can set your client to be the active or not-active client using the [**Activate**](activate-method.md) method.</span></span> <span data-ttu-id="40683-118">Можно также использовать метод **Activate** , чтобы явно сделать клиентский ввод в активном состоянии. но чтобы избежать нарушения работы других клиентов символа, это следует делать только в том случае, если клиентское приложение активно.</span><span class="sxs-lookup"><span data-stu-id="40683-118">You can also use the **Activate** method to explicitly make your client input-active; but to avoid disrupting other clients of the character, you should do so only when your client application is active.</span></span> <span data-ttu-id="40683-119">Например, если пользователь щелкнет окно приложения, активируя приложение, можно вызвать метод **Activate** , чтобы получить и обработать входные данные мыши и речи, направленные на символ.</span><span class="sxs-lookup"><span data-stu-id="40683-119">For example, if the user clicks your application's window, activating your application, you can call the **Activate** method to receive and process mouse and speech input directed to the character.</span></span>
+
+ 
+
+ 
+
+
+
+

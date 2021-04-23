@@ -1,0 +1,28 @@
+---
+description: Сервер отправляет клиенту ссылку на общий контекст безопасности, используя непрозрачную директиву запроса дайджеста.
+ms.assetid: 543c4bed-b224-4da7-9746-12c9993a40af
+title: Проверка подлинности последующих запросов с помощью Microsoft Digest
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8eecccc3be68fb541994e63cdfc5035187e04aa3
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103816224"
+---
+# <a name="authenticating-subsequent-requests-with-microsoft-digest"></a><span data-ttu-id="cfc73-103">Проверка подлинности последующих запросов с помощью Microsoft Digest</span><span class="sxs-lookup"><span data-stu-id="cfc73-103">Authenticating Subsequent Requests with Microsoft Digest</span></span>
+
+<span data-ttu-id="cfc73-104">Сервер отправляет клиенту ссылку на общий [*контекст безопасности*](/windows/desktop/SecGloss/s-gly) , используя непрозрачную директиву запроса дайджеста.</span><span class="sxs-lookup"><span data-stu-id="cfc73-104">The server sends the client a reference to their shared [*security context*](/windows/desktop/SecGloss/s-gly) using the opaque directive of the Digest challenge.</span></span> <span data-ttu-id="cfc73-105">После успешной проверки подлинности клиент должен указать это значение в последующих запросах к целевому серверу.</span><span class="sxs-lookup"><span data-stu-id="cfc73-105">After a successful authentication, the client must specify this value in subsequent requests to the target server.</span></span> <span data-ttu-id="cfc73-106">Включение непрозрачного значения в запросы ресурсов, доступных с помощью существующего контекста безопасности, устраняет необходимость повторной проверки подлинности на контроллере домена.</span><span class="sxs-lookup"><span data-stu-id="cfc73-106">Including the opaque value in requests for resources that are accessible using the existing security context eliminates the need to re-authenticate at the domain controller.</span></span> <span data-ttu-id="cfc73-107">Такие запросы проходят повторную проверку подлинности на сервере, используя [*ключ сеанса*](/windows/desktop/SecGloss/s-gly) дайджеста, кэшированный после первоначальной проверки подлинности.</span><span class="sxs-lookup"><span data-stu-id="cfc73-107">Such requests are re-authenticated at the server, using the Digest [*session key*](/windows/desktop/SecGloss/s-gly) cached after the initial authentication.</span></span>
+
+<span data-ttu-id="cfc73-108">На следующей схеме показаны шаги, выполняемые клиентом и сервером во время последующего запроса к ресурсам, защищенным доступом.</span><span class="sxs-lookup"><span data-stu-id="cfc73-108">The following diagram illustrates the steps taken by client and server during a subsequent request for access-protected resources.</span></span>
+
+![Проверка подлинности последующих запросов с помощью Microsoft Digest](images/digest2.png)
+
+<span data-ttu-id="cfc73-110">Чтобы запросить дополнительные ресурсы после успешной проверки подлинности, клиент вызывает функцию Microsoft Digest [**макесигнатуре**](/windows/desktop/api/Sspi/nf-sspi-makesignature) , чтобы создать ответ на запрос дайджеста.</span><span class="sxs-lookup"><span data-stu-id="cfc73-110">To request additional resources after a successful authentication, the client calls the Microsoft Digest [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature) function to generate a Digest challenge response.</span></span> <span data-ttu-id="cfc73-111">Непрозрачное значение включается в непрозрачную директиву ответа на запрос, отправляемого на сервер в качестве заголовка авторизации (отображается как HTTP-запрос).</span><span class="sxs-lookup"><span data-stu-id="cfc73-111">The opaque value is included in the opaque directive of the challenge response sent to the server as an Authorization header (shown as HTTP Request).</span></span>
+
+<span data-ttu-id="cfc73-112">Сервер вызывает функцию [**AcceptSecurityContext (Digest)**](/windows/win32/api/sspi/nf-sspi-acceptsecuritycontext) , чтобы определить наличие существующего [*контекста безопасности*](/windows/desktop/SecGloss/s-gly) для клиента.</span><span class="sxs-lookup"><span data-stu-id="cfc73-112">The server calls the [**AcceptSecurityContext (Digest)**](/windows/win32/api/sspi/nf-sspi-acceptsecuritycontext) function to determine whether there is an existing [*security context*](/windows/desktop/SecGloss/s-gly) for the client.</span></span> <span data-ttu-id="cfc73-113">При обнаружении существующего контекста функция возвращает значение в СЕКУНДах \_ , \_ \_ необходимое для указания того, что сервер должен вызвать функцию [**CompleteAuthToken**](/windows/desktop/api/Sspi/nf-sspi-completeauthtoken) .</span><span class="sxs-lookup"><span data-stu-id="cfc73-113">When an existing context is found, the function returns SEC\_E\_COMPLETE\_NEEDED to indicate the server must then call the [**CompleteAuthToken**](/windows/desktop/api/Sspi/nf-sspi-completeauthtoken) function.</span></span> <span data-ttu-id="cfc73-114">Эта функция выполняет проверку подлинности клиента с помощью [*ключа сеанса*](/windows/desktop/SecGloss/s-gly) дайджеста, кэшированного во время [первоначальной проверки подлинности](initial-authentication-using-microsoft-digest.md) , а не повторной проверки подлинности на контроллере домена.</span><span class="sxs-lookup"><span data-stu-id="cfc73-114">This function performs the client authentication using the Digest [*session key*](/windows/desktop/SecGloss/s-gly) cached during the [initial authentication](initial-authentication-using-microsoft-digest.md) instead of re-authenticating at the domain controller.</span></span>
+
+ 
+
+ 

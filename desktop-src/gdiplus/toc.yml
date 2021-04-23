@@ -1,0 +1,2886 @@
+- name: GDI+
+  href: '-gdiplus-gdi-start.md'
+  items:
+    - name: 'Вопросы безопасности: GDI+'
+      href: sec-gdiplus.md
+    - name: О GDI+
+      href: '-gdiplus-about-gdi--about.md'
+      items:
+        - name: Введение в GDI+
+          href: '-gdiplus-introduction-to-gdi--about.md'
+          items:
+            - name: Общие сведения о GDI+
+              href: '-gdiplus-overview-of-gdi--about.md'
+            - name: Три части GDI+
+              href: '-gdiplus-the-three-parts-of-gdi--about.md'
+            - name: Структура интерфейса на основе классов
+              href: '-gdiplus-the-structure-of-the-class-based-interface-about.md'
+        - name: Новые возможности GDI+
+          href: '-gdiplus-what-s-new-in-gdi--about.md'
+          items:
+            - name: Новые возможности
+              href: '-gdiplus-new-features-about.md'
+            - name: Изменения в модели программирования
+              href: '-gdiplus-changes-in-the-programming-model-about.md'
+        - name: Прямые и кривые линии и фигуры
+          href: '-gdiplus-lines-curves-and-shapes-about.md'
+          items:
+            - name: Обзор векторной графики
+              href: '-gdiplus-overview-of-vector-graphics-about.md'
+            - name: 'Перья, линии и прямоугольники'
+              href: '-gdiplus-pens-lines-and-rectangles-about.md'
+            - name: Эллипсы и дуги
+              href: '-gdiplus-ellipses-and-arcs-about.md'
+            - name: многоугольники
+              href: '-gdiplus-polygons-about.md'
+            - name: Фундаментальные сплайны
+              href: '-gdiplus-cardinal-splines-about.md'
+            - name: Сплайны Безье
+              href: '-gdiplus-bezier-splines-about.md'
+            - name: Пути
+              href: '-gdiplus-paths-about.md'
+            - name: Кисти и закрашенные фигуры
+              href: '-gdiplus-brushes-and-filled-shapes-about.md'
+            - name: Незамкнутые и замкнутые кривые
+              href: '-gdiplus-open-and-closed-curves-about.md'
+            - name: Регионы
+              href: '-gdiplus-regions-about.md'
+            - name: Усечение
+              href: '-gdiplus-clipping-about.md'
+            - name: Сведение путей
+              href: '-gdiplus-flattening-paths-about.md'
+            - name: Сглаживание прямых и кривых линий
+              href: '-gdiplus-antialiasing-with-lines-and-curves-about.md'
+        - name: 'Работа с растровыми и векторными изображениями с использованием классов Image, Bitmap и Metafile'
+          href: '-gdiplus-images-bitmaps-and-metafiles-about.md'
+          items:
+            - name: Типы точечных рисунков
+              href: '-gdiplus-types-of-bitmaps-about.md'
+            - name: Метафайлы
+              href: '-gdiplus-metafiles-about.md'
+            - name: 'Отрисовка, позиционирование и клонирование изображений'
+              href: '-gdiplus-drawing-positioning-and-cloning-images-about.md'
+            - name: Обрезка и масштабирование изображений
+              href: '-gdiplus-cropping-and-scaling-images-about.md'
+        - name: Системы координат и преобразования
+          href: '-gdiplus-coordinate-systems-and-transformations-about.md'
+          items:
+            - name: Типы систем координат
+              href: '-gdiplus-types-of-coordinate-systems-about.md'
+            - name: Матричное представление преобразований
+              href: '-gdiplus-matrix-representation-of-transformations-about.md'
+            - name: Глобальные и локальные преобразования
+              href: '-gdiplus-global-and-local-transformations-about.md'
+        - name: Графические контейнеры
+          href: '-gdiplus-graphics-containers-about.md'
+    - name: Использование GDI+
+      href: '-gdiplus-using-gdi--use.md'
+      items:
+        - name: Приступая к работе
+          href: '-gdiplus-getting-started-use.md'
+          items:
+            - name: Рисование линии
+              href: '-gdiplus-drawing-a-line-use.md'
+            - name: Рисование строки
+              href: '-gdiplus-drawing-a-string-use.md'
+        - name: Рисование линий и фигур с помощью пера
+          href: '-gdiplus-using-a-pen-to-draw-lines-and-shapes-use.md'
+          items:
+            - name: Рисование линий и прямоугольников с помощью пера
+              href: '-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use.md'
+            - name: Задание ширины и выравнивания пера
+              href: '-gdiplus-setting-pen-width-and-alignment-use.md'
+            - name: Рисование линии с наконечниками
+              href: '-gdiplus-drawing-a-line-with-line-caps-use.md'
+            - name: Соединение строк
+              href: '-gdiplus-joining-lines-use.md'
+            - name: Рисование пользовательской пунктирной линии
+              href: '-gdiplus-drawing-a-custom-dashed-line-use.md'
+            - name: 'Рисование линии, заполненной текстурой'
+              href: '-gdiplus-drawing-a-line-filled-with-a-texture-use.md'
+        - name: Использование кисти для заливки фигур
+          href: '-gdiplus-using-a-brush-to-fill-shapes-use.md'
+          items:
+            - name: Заполнение фигуры сплошным цветом
+              href: '-gdiplus-filling-a-shape-with-a-solid-color-use.md'
+            - name: Заполнение фигуры шаблоном штриховки
+              href: '-gdiplus-filling-a-shape-with-a-hatch-pattern-use.md'
+            - name: Заполнение фигуры текстурой изображения
+              href: '-gdiplus-filling-a-shape-with-an-image-texture-use.md'
+            - name: Мозаичное заполнение фигуры изображением
+              href: '-gdiplus-tiling-a-shape-with-an-image-use.md'
+            - name: Заливка фигуры цветным градиентом
+              href: '-gdiplus-filling-a-shape-with-a-color-gradient-use.md'
+        - name: 'Использование изображений, точечных рисунков и метафайлов'
+          href: '-gdiplus-using-images-bitmaps-and-metafiles-use.md'
+          items:
+            - name: Загрузка и отображение растровых изображений
+              href: '-gdiplus-loading-and-displaying-bitmaps-use.md'
+            - name: Загрузка и отображение метафайлов
+              href: '-gdiplus-loading-and-displaying-metafiles-use.md'
+            - name: Запись метафайлов
+              href: '-gdiplus-recording-metafiles-use.md'
+            - name: Обрезка и масштабирование изображений
+              href: '-gdiplus-cropping-and-scaling-images-use.md'
+            - name: 'Вращение, отражение и наклон изображений'
+              href: '-gdiplus-rotating-reflecting-and-skewing-images-use.md'
+            - name: Использование режима интерполяции для управления качеством изображения во время масштабирования
+              href: '-gdiplus-using-interpolation-mode-to-control-image-quality-during-scaling-use.md'
+            - name: Создание эскизов изображений
+              href: '-gdiplus-creating-thumbnail-images-use.md'
+            - name: Использование кэшированного точечного рисунка для повышения производительности
+              href: '-gdiplus-using-a-cached-bitmap-to-improve-performance-use.md'
+            - name: Повышение производительности за счет предотвращения автоматического масштабирования
+              href: '-gdiplus-improving-performance-by-avoiding-automatic-scaling-use.md'
+            - name: Чтение и запись метаданных
+              href: '-gdiplus-reading-and-writing-metadata-use.md'
+        - name: Использование кодировщиков и декодеров изображений
+          href: '-gdiplus-using-image-encoders-and-decoders-use.md'
+          items:
+            - name: Список установленных кодировщиков
+              href: '-gdiplus-listing-installed-encoders-use.md'
+            - name: Список установленных декодеров
+              href: '-gdiplus-listing-installed-decoders-use.md'
+            - name: Получение идентификатора класса для кодировщика
+              href: '-gdiplus-retrieving-the-class-identifier-for-an-encoder-use.md'
+            - name: 'Определение параметров, поддерживаемых кодировщиком'
+              href: '-gdiplus-determining-the-parameters-supported-by-an-encoder-use.md'
+              items:
+                - name: Использование перечисления Енкодервалуе
+                  href: '-gdiplus-using-the-encodervalue-enumeration-use.md'
+                - name: Вывод списка параметров и значений для всех кодировщиков
+                  href: '-gdiplus-listing-parameters-and-values-for-all-encoders-use.md'
+            - name: Преобразование изображения BMP в изображение PNG
+              href: '-gdiplus-converting-a-bmp-image-to-a-png-image-use.md'
+            - name: Задание уровня сжатия JPEG
+              href: '-gdiplus-setting-jpeg-compression-level-use.md'
+            - name: Преобразование JPEG-изображения без потерь
+              href: '-gdiplus-transforming-a-jpeg-image-without-loss-of-information-use.md'
+            - name: Создание и сохранение многокадрового изображения
+              href: '-gdiplus-creating-and-saving-a-multiple-frame-image-use.md'
+            - name: Копирование отдельных кадров из изображения с несколькими кадрами
+              href: '-gdiplus-copying-individual-frames-from-a-multiple-frame-image-use.md'
+        - name: Альфа-смешение цвета для линий и заливок
+          href: '-gdiplus-alpha-blending-lines-and-fills-use.md'
+          items:
+            - name: Рисование непрозрачных и частично прозрачных линий
+              href: '-gdiplus-drawing-opaque-and-semitransparent-lines-use.md'
+            - name: Рисование с помощью непрозрачных и полупрозрачных кистей
+              href: '-gdiplus-drawing-with-opaque-and-semitransparent-brushes-use.md'
+            - name: Использование режима компоновки для управления альфа-смешением
+              href: '-gdiplus-using-compositing-mode-to-control-alpha-blending-use.md'
+            - name: Использование матрицы цветов для настройки альфа-компонентов в изображениях
+              href: '-gdiplus-using-a-color-matrix-to-set-alpha-values-in-images-use.md'
+            - name: Установка альфа-значений отдельных пикселов
+              href: '-gdiplus-setting-the-alpha-values-of-individual-pixels-use.md'
+        - name: Использование текста и шрифтов
+          href: '-gdiplus-using-text-and-fonts-use.md'
+          items:
+            - name: Создание семейств шрифтов и шрифтов
+              href: '-gdiplus-constructing-font-families-and-fonts-use.md'
+            - name: Рисование текста
+              href: '-gdiplus-drawing-text-use.md'
+            - name: Форматирование текста
+              href: '-gdiplus-formatting-text-use.md'
+            - name: Перечисление установленных шрифтов
+              href: '-gdiplus-enumerating-installed-fonts-use.md'
+            - name: Создание частной коллекции шрифтов
+              href: '-gdiplus-creating-a-private-font-collection-use.md'
+            - name: Получение метрик шрифтов
+              href: '-gdiplus-obtaining-font-metrics-use.md'
+            - name: Сглаживание текста
+              href: '-gdiplus-antialiasing-with-text-use.md'
+        - name: Построение и рисование кривых
+          href: '-gdiplus-constructing-and-drawing-curves-use.md'
+          items:
+            - name: Рисование фундаментальных сплайнов
+              href: '-gdiplus-drawing-cardinal-splines-use.md'
+            - name: Рисование сплайнов Безье
+              href: '-gdiplus-drawing-bezier-splines-use.md'
+        - name: Заливка фигур с помощью градиентной кисти
+          href: '-gdiplus-filling-shapes-with-a-gradient-brush-use.md'
+          items:
+            - name: Создание линейного градиента
+              href: '-gdiplus-creating-a-linear-gradient-use.md'
+            - name: Создание градиента контура
+              href: '-gdiplus-creating-a-path-gradient-use.md'
+            - name: Применение гамма-коррекции к градиенту
+              href: '-gdiplus-applying-gamma-correction-to-a-gradient-use.md'
+        - name: Построение и рисование контуров
+          href: '-gdiplus-constructing-and-drawing-paths-use.md'
+          items:
+            - name: 'Создание геометрических объектов из линий, кривых и фигур'
+              href: '-gdiplus-creating-figures-from-lines-curves-and-shapes-use.md'
+            - name: Заполнение открытых фигур
+              href: '-gdiplus-filling-open-figures-use.md'
+        - name: Использование графических контейнеров
+          href: '-gdiplus-using-graphics-containers-use.md'
+          items:
+            - name: Состояние графического объекта
+              href: '-gdiplus-the-state-of-a-graphics-object-use.md'
+            - name: Вложенные графические контейнеры
+              href: '-gdiplus-nested-graphics-containers-use.md'
+        - name: Преобразования
+          href: '-gdiplus-transformations-use.md'
+          items:
+            - name: Использование объемного преобразования
+              href: '-gdiplus-using-the-world-transformation-use.md'
+            - name: Значение порядка преобразований
+              href: '-gdiplus-why-transformation-order-is-significant-use.md'
+        - name: Использование областей
+          href: '-gdiplus-using-regions-use.md'
+          items:
+            - name: Проверка нажатия с использованием региона
+              href: '-gdiplus-hit-testing-with-a-region-use.md'
+            - name: Обрезка с использованием региона
+              href: '-gdiplus-clipping-with-a-region-use.md'
+        - name: Перекрашивание
+          href: '-gdiplus-recoloring-use.md'
+          items:
+            - name: Использование матрицы цветов для преобразования одного цвета
+              href: '-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md'
+            - name: Преобразование цветов
+              href: '-gdiplus-translating-colors-use.md'
+            - name: Масштабирование цветов
+              href: '-gdiplus-scaling-colors-use.md'
+            - name: Вращение цветов
+              href: '-gdiplus-rotating-colors-use.md'
+            - name: Наклон цветов
+              href: '-gdiplus-shearing-colors-use.md'
+            - name: Использование таблицы преобразования цветов
+              href: '-gdiplus-using-a-color-remap-table-use.md'
+        - name: Печать
+          href: '-gdiplus-printing-use.md'
+          items:
+            - name: Отправка выходных данных GDI+ на принтер
+              href: '-gdiplus-sending-gdi-output-to-a-printer-use.md'
+            - name: Отображение диалогового окна «Печать»
+              href: '-gdiplus-displaying-a-print-dialog-box-use.md'
+            - name: Оптимизация печати через дескриптор принтера
+              href: '-gdiplus-optimizing-printing-by-providing-a-printer-handle-use.md'
+    - name: Справочник по GDI+
+      href: '-gdiplus-class-gdi-reference.md'
+      items:
+        - name: Обратный вызов Дебужевентпрок
+          href: /windows/win32/api/gdiplusinit/nc-gdiplusinit-debugeventproc
+        - name: Обратный вызов Енумератеметафилепрок
+          href: /windows/win32/api/gdiplustypes/nc-gdiplustypes-enumeratemetafileproc
+        - name: Обратный вызов Имажеаборт
+          href: /windows/win32/api/gdiplustypes/nc-gdiplustypes-imageabort
+        - name: Обратный вызов Нотификатионхукпрок
+          href: /windows/win32/api/gdiplusinit/nc-gdiplusinit-notificationhookproc
+        - name: Обратный вызов Нотификатионунхукпрок
+          href: /windows/win32/api/gdiplusinit/nc-gdiplusinit-notificationunhookproc
+        - name: Классы
+          href: '-gdiplus-class-classes.md'
+          items:
+            - name: аджустаблеарровкап
+              href: /windows/win32/api/gdipluslinecaps/nl-gdipluslinecaps-adjustablearrowcap
+              items:
+                - name: аджустаблеарровкап
+                  href: /windows/win32/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-adjustablearrowcap(inreal_inreal_inbool)
+                - name: Методы Аджустаблеарровкап
+                  href: '-gdiplus-class-adjustablearrowcap-methods.md'
+                  items:
+                    - name: Высота
+                      href: /windows/win32/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-getheight
+                    - name: жетмиддлеинсет
+                      href: /windows/win32/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-getmiddleinset
+                    - name: Полуширинные
+                      href: /windows/win32/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-getwidth
+                    - name: Заполненный
+                      href: /windows/win32/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-isfilled
+                    - name: сетфиллстате
+                      href: /windows/win32/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-setfillstate
+                    - name: сесеигхт
+                      href: /windows/win32/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-setheight
+                    - name: сетмиддлеинсет
+                      href: /windows/win32/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-setmiddleinset
+                    - name: сетвидс
+                      href: /windows/win32/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-setwidth
+            - name: Bitmap
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-bitmap
+              items:
+                - name: Перегруженный конструктор Bitmap
+                  href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-bitmap(inconstbitmapinfo_invoid)
+                  items:
+                    - name: Точечный рисунок (IDirectDrawSurface7 *)
+                      href: /previous-versions/ms536310(v=vs.85)
+                    - name: 'Точечный рисунок (INT, INT, Graphics *)'
+                      href: /previous-versions/ms536311(v=vs.85)
+                    - name: 'Точечный рисунок (БИТМАПИНФО *, void*)'
+                      href: /previous-versions/ms536312(v=vs.85)
+                    - name: 'Bitmap (INT, INT, PixelFormat)'
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-bitmap(inint_inint_inpixelformat)
+                    - name: 'Точечный рисунок (ХБИТМАП, ХПАЛЕТТЕ)'
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-bitmap(inhbitmap_inhpalette)
+                    - name: 'Точечный рисунок (INT, INT, INT, PixelFormat, BYTE *)'
+                      href: /previous-versions//ms536315(v=vs.85)
+                    - name: 'Bitmap (WCHAR *, BOOL)'
+                      href: /previous-versions//ms536316(v=vs.85)
+                    - name: 'Bitmap (HINSTANCE, WCHAR *)'
+                      href: /previous-versions//ms536317(v=vs.85)
+                    - name: Точечный рисунок (ХИКОН)
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-bitmap(inhicon)
+                    - name: 'Bitmap (IStream *, BOOL)'
+                      href: /previous-versions//ms536319(v=vs.85)
+                - name: Растровые методы
+                  href: '-gdiplus-class-bitmap-methods.md'
+                  items:
+                    - name: Клонировать перегруженный метод
+                      href: '-gdiplus-CLASS-Bitmap-Clone-Methods.md'
+                      items:
+                        - name: 'Clone (& Rect, PixelFormat)'
+                          href: /previous-versions//ms536302(v=vs.85)
+                        - name: 'Clone (Ректф&, PixelFormat)'
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-clone(inconstrectf__inpixelformat)
+                        - name: 'Клонирование (ВЕЩЕСТВЕНное, вещественное, вещественное, ФАКТическое, PixelFormat)'
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-clone(inreal_inreal_inreal_inreal_inpixelformat)
+                        - name: 'Clone (INT, INT, INT, INT, PixelFormat)'
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-clone(inint_inint_inint_inint_inpixelformat)
+                    - name: Апплеффект перегруженный метод
+                      href: '-gdiplus-CLASS-Bitmap-ApplyEffect-Methods.md'
+                      items:
+                        - name: 'Апплеффект (точечный рисунок **, int, Effect *, Rect*, Rect *, точечный рисунок**)'
+                          href: /previous-versions//ms536320(v=vs.85)
+                        - name: 'Апплеффект (результат *, Rect*)'
+                          href: /previous-versions//ms536321(v=vs.85)
+                    - name: конвертформат
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-convertformat
+                    - name: фромбитмапинфо
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-frombitmapinfo
+                    - name: FromDirectDrawSurface7
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-fromdirectdrawsurface7
+                    - name: фромфиле
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-fromfile
+                    - name: фромхбитмап
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-fromhbitmap
+                    - name: фромхикон
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-fromhicon
+                    - name: фромресаурце
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-fromresource
+                    - name: фромстреам
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-fromstream
+                    - name: жесбитмап
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-gethbitmap
+                    - name: жесикон
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-gethicon
+                    - name: Гистограмма
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-gethistogram
+                    - name: жесистограмсизе
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-gethistogramsize
+                    - name: С точкой
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-getpixel
+                    - name: инитиализепалетте
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-initializepalette
+                    - name: локкбитс
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-lockbits
+                    - name: SetPixel
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-setpixel
+                    - name: сетресолутион
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-setresolution
+                    - name: унлоккбитс
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-unlockbits
+            - name: BitmapData
+              href: /previous-versions//ms534421(v=vs.85)
+            - name: Размытие
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-blur
+              items:
+                - name: Размытие
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-blur-blur
+                - name: Методы размытия
+                  href: '-gdiplus-class-blur-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-blur-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-blur-setparameters
+            - name: бригхтнессконтраст
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-brightnesscontrast
+              items:
+                - name: бригхтнессконтраст
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-brightnesscontrast-brightnesscontrast
+                - name: Методы Бригхтнессконтраст
+                  href: '-gdiplus-class-brightnesscontrast-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-brightnesscontrast-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-brightnesscontrast-setparameters
+            - name: Brush
+              href: /windows/win32/api/gdiplusbrush/nl-gdiplusbrush-brush
+              items:
+                - name: Методы кисти
+                  href: '-gdiplus-class-brush-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-brush-clone
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-brush-getlaststatus
+                    - name: GetType
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-brush-gettype
+            - name: качедбитмап
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-cachedbitmap
+              items:
+                - name: качедбитмап
+                  href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-cachedbitmap-cachedbitmap(constcachedbitmap_)
+                - name: жетластстатус
+                  href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-cachedbitmap-getlaststatus
+            - name: чарактерранже
+              href: /windows/win32/api/gdiplustypes/nl-gdiplustypes-characterrange
+              items:
+                - name: Чарактерранже перегруженный конструктор
+                  href: '-gdiplus-CLASS-CharacterRange-Constructors.md'
+                  items:
+                    - name: Чарактерранже ()
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange~r2
+                    - name: 'Чарактерранже (INT, INT)'
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange(int_int)
+                - name: operator=
+                  href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-operator-assign
+            - name: Цвет
+              href: /windows/win32/api/gdipluscolor/nl-gdipluscolor-color
+              items:
+                - name: Конструктор с перегруженным цветом
+                  href: '-gdiplus-CLASS-Color-Constructors.md'
+                  items:
+                    - name: 'Цвет (байт, байт, байт)'
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color(inbyte_inbyte_inbyte_inbyte)
+                    - name: Color ()
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color(inargb)
+                    - name: 'Цвет (байт, байт, байт)'
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color(inbyte_inbyte_inbyte)
+                    - name: Цвет (ARGB)
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color(inargb)
+                - name: Методы цвета
+                  href: '-gdiplus-class-color-methods.md'
+                  items:
+                    - name: Есть
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-geta
+                    - name: Очень альфа
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-getalpha
+                    - name: жетб
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-getb
+                    - name: Синий
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-getblue
+                    - name: жетг
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-getg
+                    - name: Green
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-getgreen
+                    - name: жетр
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-getr
+                    - name: жетред
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-getred
+                    - name: GetValue
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-getvalue
+                    - name: макеаргб
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-makeargb
+                    - name: сетфромколорреф
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref
+                    - name: SetValue
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-setvalue
+                    - name: токолорреф
+                      href: /windows/win32/api/gdipluscolor/nf-gdipluscolor-color-tocolorref
+            - name: колорбаланце
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-colorbalance
+              items:
+                - name: колорбаланце
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colorbalance-colorbalance
+                - name: Методы Колорбаланце
+                  href: '-gdiplus-class-colorbalance-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colorbalance-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colorbalance-setparameters
+            - name: колоркурве
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-colorcurve
+              items:
+                - name: колоркурве
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colorcurve-colorcurve
+                - name: Методы Колоркурве
+                  href: '-gdiplus-class-colorcurve-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colorcurve-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colorcurve-setparameters
+            - name: колорлут
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-colorlut
+              items:
+                - name: колорлут
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colorlut-colorlut
+                - name: Методы Колорлут
+                  href: '-gdiplus-class-colorlut-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colorlut-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colorlut-setparameters
+            - name: колорматриксеффект
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-colormatrixeffect
+              items:
+                - name: колорматриксеффект
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colormatrixeffect-colormatrixeffect
+                - name: Методы Колорматриксеффект
+                  href: '-gdiplus-class-colormatrixeffect-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colormatrixeffect-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-colormatrixeffect-setparameters
+            - name: кустомлинекап
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-customlinecap
+              items:
+                - name: кустомлинекап
+                  href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-customlinecap(constcustomlinecap_)
+                - name: Методы Кустомлинекап
+                  href: '-gdiplus-class-customlinecap-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-clone
+                    - name: жетбасекап
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-getbasecap
+                    - name: жетбасеинсет
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-getbaseinset
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-getlaststatus
+                    - name: жетстрокекапс
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-getstrokecaps
+                    - name: жетстрокежоин
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-getstrokejoin
+                    - name: жетвидсскале
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-getwidthscale
+                    - name: сетбасекап
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-setbasecap
+                    - name: сетбасеинсет
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-setbaseinset
+                    - name: сетстрокекап
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-setstrokecap
+                    - name: сетстрокекапс
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-setstrokecaps
+                    - name: сетстрокежоин
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-setstrokejoin
+                    - name: сетвидсскале
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-setwidthscale
+            - name: Действие
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-effect
+              items:
+                - name: Действие
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-effect
+                - name: Методы эффектов
+                  href: '-gdiplus-class-effect-methods.md'
+                  items:
+                    - name: жетауксдата
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-getauxdata
+                    - name: жетауксдатасизе
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-getauxdatasize
+                    - name: жетпараметерсизе
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-getparametersize
+                    - name: усеауксдата
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-useauxdata
+            - name: EncoderParameter
+              href: /previous-versions//ms534434(v=vs.85)
+            - name: EncoderParameters
+              href: /previous-versions//ms534435(v=vs.85)
+            - name: Шрифт
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-font
+              items:
+                - name: Перегруженный конструктор шрифтов
+                  href: '-gdiplus-CLASS-Font-Constructors.md'
+                  items:
+                    - name: 'Шрифт (FontFamily *, REAL, INT, Unit)'
+                      href: /previous-versions//ms536203(v=vs.85)
+                    - name: 'Шрифт (HDC, ХФОНТ)'
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-font(inhdc_inconsthfont)
+                    - name: 'Шрифт (HDC, ЛОГФОНТА *)'
+                      href: /previous-versions//ms536205(v=vs.85)
+                    - name: 'Шрифт (HDC, ЛОГФОНТВ *)'
+                      href: /previous-versions//ms536206(v=vs.85)
+                    - name: 'Font (WCHAR *, вещественное, int, Unit, фонтколлектион*)'
+                      href: /previous-versions//ms536207(v=vs.85)
+                    - name: Шрифт (HDC)
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-font(inhdc)
+                - name: Методы шрифтов
+                  href: '-gdiplus-class-font-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-clone
+                    - name: Семейство
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getfamily
+                    - name: Перегруженный метод Height
+                      href: '-gdiplus-CLASS-Font-GetHeight-Methods.md'
+                      items:
+                        - name: Высота (графический *)
+                          href: /previous-versions//ms536201(v=vs.85)
+                        - name: Высота (REAL)
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getheight(inreal)
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getlaststatus
+                    - name: жетлогфонта
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getlogfonta
+                    - name: жетлогфонтв
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getlogfontw
+                    - name: GetSize
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getsize
+                    - name: Стиль
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getstyle
+                    - name: Единица измерения
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getunit
+                    - name: IsAvailable
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-isavailable
+            - name: фонтколлектион
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-fontcollection
+              items:
+                - name: фонтколлектион
+                  href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontcollection-fontcollection(constfontcollection_)
+                - name: Методы Фонтколлектион
+                  href: '-gdiplus-class-fontcollection-methods.md'
+                  items:
+                    - name: Семейства
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontcollection-getfamilies
+                    - name: жетфамиликаунт
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontcollection-getfamilycount
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontcollection-getlaststatus
+            - name: FontFamily
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-fontfamily
+              items:
+                - name: Перегруженный конструктор FontFamily
+                  href: '-gdiplus-CLASS-FontFamily-Constructors.md'
+                  items:
+                    - name: FontFamily ()
+                      href: /previous-versions//ms536182(v=vs.85)
+                    - name: 'FontFamily (WCHAR *, фонтколлектион*)'
+                      href: /previous-versions//ms536183(v=vs.85)
+                - name: Методы FontFamily
+                  href: '-gdiplus-class-fontfamily-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-clone
+                    - name: женерикмоноспаце
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-genericmonospace
+                    - name: женериксанссериф
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-genericsansserif
+                    - name: женериксериф
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-genericserif
+                    - name: жетцелласцент
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-getcellascent
+                    - name: жетцеллдесцент
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-getcelldescent
+                    - name: жетемхеигхт
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-getemheight
+                    - name: жетфамилинаме
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-getfamilyname
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-getlaststatus
+                    - name: жетлинеспаЦинг
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-getlinespacing
+                    - name: IsAvailable
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-isavailable
+                    - name: исстилеаваилабле
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-isstyleavailable
+            - name: гдиплусбасе
+              href: /windows/win32/api/gdiplusbase/nl-gdiplusbase-gdiplusbase
+              items:
+                - name: Методы GdiplusBase
+                  href: '-gdiplus-class-gdiplusbase-methods.md'
+                  items:
+                    - name: Оператор delete
+                      href: /windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete
+                    - name: 'Оператор delete ['
+                      href: /windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete_array
+                    - name: оператор new
+                      href: /windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew
+                    - name: 'оператор new ['
+                      href: /windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew_array
+            - name: Графика
+              href: /windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics
+              items:
+                - name: Перегруженный конструктор графики
+                  href: '-gdiplus-CLASS-Graphics-Constructors.md'
+                  items:
+                    - name: Графика (изображение *)
+                      href: /previous-versions//ms536159(v=vs.85)
+                    - name: Графика (HDC)
+                      href: /previous-versions//ms536160(v=vs.85)
+                    - name: 'Графика (HDC, HANDLE)'
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(inhdc_inhandle)
+                    - name: 'Графика (HWND, BOOL)'
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(inhwnd_inbool)
+                - name: Графические методы
+                  href: '-gdiplus-class-graphics-methods.md'
+                  items:
+                    - name: аддметафилекоммент
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-addmetafilecomment
+                    - name: Бегинконтаинер перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-BeginContainer-Methods.md'
+                      items:
+                        - name: Бегинконтаинер ()
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)
+                        - name: 'Бегинконтаинер (Ректф&, Ректф&, Unit)'
+                          href: /previous-versions//ms536157(v=vs.85)
+                        - name: 'Бегинконтаинер (Rect&,& Rect, Unit)'
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)
+                    - name: Clear
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-clear
+                    - name: Драварк перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-DrawArc-Methods.md'
+                      items:
+                        - name: 'Драварк (перо *, Rect&, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное)'
+                          href: /previous-versions//ms536152(v=vs.85)
+                        - name: 'Драварк (перо *, Ректф&, ВЕЩЕСТВЕНная, реальная)'
+                          href: /previous-versions//ms536153(v=vs.85)
+                        - name: 'Драварк (перо *, ВЕЩЕСТВЕНные, реальные, реальные, реальные, реальные, реальные)'
+                          href: /previous-versions//ms536154(v=vs.85)
+                        - name: 'Драварк (перо *, INT, INT, INT, INT, REAL, ВЕЩЕСТВЕНное)'
+                          href: /previous-versions//ms536155(v=vs.85)
+                    - name: Дравбезиер перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-DrawBezier-Methods.md'
+                      items:
+                        - name: 'Дравбезиер (перо *, точка&, точка&, точка&, точка&)'
+                          href: /previous-versions//ms536148(v=vs.85)
+                        - name: 'Дравбезиер (перо *, POINTF&, POINTF&, POINTF&, POINTF&)'
+                          href: /previous-versions//ms536149(v=vs.85)
+                        - name: 'Дравбезиер (перо *, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, вещественное, вещественное, вещественное, реальное, вещественное)'
+                          href: /previous-versions//ms536150(v=vs.85)
+                        - name: 'Дравбезиер (перо *, INT, INT, INT, INT, INT, INT, INT, INT)'
+                          href: /previous-versions//ms536151(v=vs.85)
+                    - name: Дравбезиерс перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-DrawBeziers-Methods.md'
+                      items:
+                        - name: 'Дравбезиерс (перо *, точка*, int)'
+                          href: /previous-versions//ms536146(v=vs.85)
+                        - name: 'Дравбезиерс (перо *, PointF*, int)'
+                          href: /previous-versions//ms536147(v=vs.85)
+                    - name: дравкачедбитмап
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawcachedbitmap
+                    - name: Дравклоседкурве перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-DrawClosedCurve-Methods.md'
+                      items:
+                        - name: 'Дравклоседкурве (перо *, точка*, int)'
+                          href: /previous-versions//ms536142(v=vs.85)
+                        - name: 'Дравклоседкурве (перо *, PointF*, int)'
+                          href: /previous-versions//ms536143(v=vs.85)
+                        - name: 'Дравклоседкурве (перо *, PointF*, int, Real)'
+                          href: /previous-versions//ms536144(v=vs.85)
+                        - name: 'Дравклоседкурве (перо *, точка*, int, вещественное)'
+                          href: /previous-versions//ms536145(v=vs.85)
+                    - name: Дравкурве перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-DrawCurve-Methods.md'
+                      items:
+                        - name: 'Дравкурве (перо *, точка*, int)'
+                          href: /previous-versions//ms536069(v=vs.85)
+                        - name: 'Дравкурве (перо *, PointF*, int)'
+                          href: /previous-versions//ms536070(v=vs.85)
+                        - name: 'Дравкурве (перо *, PointF*, int, Real)'
+                          href: /previous-versions//ms536072(v=vs.85)
+                        - name: 'Дравкурве (перо *, Point*, INT, INT, int, вещественное)'
+                          href: /previous-versions//ms536139(v=vs.85)
+                        - name: 'Дравкурве (перо *, PointF*, INT, INT, int, Real)'
+                          href: /previous-versions//ms536140(v=vs.85)
+                        - name: 'Дравкурве (перо *, точка*, int, вещественное)'
+                          href: /previous-versions//ms536141(v=vs.85)
+                    - name: дравдриверстринг
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawdriverstring
+                    - name: Перегруженный метод DrawEllipse
+                      href: '-gdiplus-CLASS-Graphics-DrawEllipse-Methods.md'
+                      items:
+                        - name: 'DrawEllipse (перо *, Rect&)'
+                          href: /previous-versions//ms536062(v=vs.85)
+                        - name: 'DrawEllipse (перо *, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, вещественное)'
+                          href: /previous-versions//ms536064(v=vs.85)
+                        - name: 'DrawEllipse (перо *, Ректф&)'
+                          href: /previous-versions//ms536065(v=vs.85)
+                        - name: 'DrawEllipse (перо *, INT, INT, INT, INT)'
+                          href: /previous-versions//ms536067(v=vs.85)
+                    - name: Перегруженный метод DrawImage
+                      href: '-gdiplus-CLASS-Graphics-DrawImage-Methods.md'
+                      items:
+                        - name: 'DrawImage (Image *, Point*, int)'
+                          href: /previous-versions//ms536028(v=vs.85)
+                        - name: 'DrawImage (Image *, INT, INT)'
+                          href: /previous-versions//ms536030(v=vs.85)
+                        - name: 'DrawImage (Image *, Point&)'
+                          href: /previous-versions//ms536032(v=vs.85)
+                        - name: 'DrawImage (Image *, REAL, REAL)'
+                          href: /previous-versions//ms536034(v=vs.85)
+                        - name: 'DrawImage (Image *, PointF&)'
+                          href: /previous-versions//ms536035(v=vs.85)
+                        - name: 'DrawImage (Image *, PointF*, int)'
+                          href: /previous-versions//ms536037(v=vs.85)
+                        - name: 'DrawImage (изображение *, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, вещественное, ФАКТическое, целое)'
+                          href: /previous-versions//ms536039(v=vs.85)
+                        - name: 'DrawImage (Image *, Ректф&)'
+                          href: /previous-versions//ms536041(v=vs.85)
+                        - name: 'DrawImage (Image *, INT, INT, INT, INT)'
+                          href: /previous-versions//ms536042(v=vs.85)
+                        - name: 'DrawImage (Image *, PointF*, int, REAL, вещественная, вещественная, вещественная, единица, ImageAttributes *, дравимажеаборт, void*)'
+                          href: /previous-versions//ms536044(v=vs.85)
+                        - name: 'DrawImage (Image *, Rect&, int, int, int, int, Unit, ImageAttributes*, ДРАВИМАЖЕАБОРТ, void *)'
+                          href: /previous-versions//ms536045(v=vs.85)
+                        - name: 'DrawImage (Image *, Point*, INT, INT, INT, INT, int, Unit, ImageAttributes *, дравимажеаборт, void*)'
+                          href: /previous-versions//ms536047(v=vs.85)
+                        - name: 'DrawImage (изображение *, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, реальное)'
+                          href: /previous-versions//ms536049(v=vs.85)
+                        - name: 'DrawImage (Image *, Rect&)'
+                          href: /previous-versions//ms536051(v=vs.85)
+                        - name: 'DrawImage (Image *, INT, INT, INT, INT, INT, INT, Unit)'
+                          href: /previous-versions//ms536053(v=vs.85)
+                        - name: 'DrawImage (Image *, ректф&, вещественная, вещественная, вещественная, реальная, единица, ImageAttributes*, ДРАВИМАЖЕАБОРТ, void *)'
+                          href: /previous-versions//ms536056(v=vs.85)
+                        - name: 'DrawImage (Image *, ректф&, ректф&, Unit, ImageAttributes*)'
+                          href: /previous-versions//ms536057(v=vs.85)
+                        - name: 'DrawImage (изображение *, ректф*, матрица *, воздействие*, ImageAttributes *, единица измерения*)'
+                          href: /previous-versions//ms536058(v=vs.85)
+                    - name: Метод DrawLine перегружен
+                      href: '-gdiplus-CLASS-Graphics-DrawLine-Methods.md'
+                      items:
+                        - name: 'DrawLine (перо *, точка&, точка&)'
+                          href: /previous-versions//ms536020(v=vs.85)
+                        - name: 'DrawLine (перо *, PointF&, Point&)'
+                          href: /previous-versions//ms536022(v=vs.85)
+                        - name: 'DrawLine (перо *, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, реальное)'
+                          href: /previous-versions//ms536024(v=vs.85)
+                        - name: 'DrawLine (перо *, INT, INT, INT, INT)'
+                          href: /previous-versions//ms536026(v=vs.85)
+                    - name: Дравлинес перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-DrawLines-Methods.md'
+                      items:
+                        - name: 'Дравлинес (перо *, точка*, int)'
+                          href: /previous-versions//ms536017(v=vs.85)
+                        - name: 'Дравлинес (перо *, PointF*, int)'
+                          href: /previous-versions//ms536019(v=vs.85)
+                    - name: дравпас
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath
+                    - name: Дравпие перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-DrawPie-Methods.md'
+                      items:
+                        - name: 'Дравпие (перо *, Rect&, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное)'
+                          href: /previous-versions//ms536011(v=vs.85)
+                        - name: 'Дравпие (перо *, INT, INT, INT, INT, REAL, ВЕЩЕСТВЕНное)'
+                          href: /previous-versions//ms536013(v=vs.85)
+                        - name: 'Дравпие (перо *, ВЕЩЕСТВЕНные, реальные, реальные, реальные, реальные, реальные)'
+                          href: /previous-versions//ms536014(v=vs.85)
+                        - name: 'Дравпие (перо *, Ректф&, ВЕЩЕСТВЕНная, реальная)'
+                          href: /previous-versions//ms536016(v=vs.85)
+                    - name: Дравполигон перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-DrawPolygon-Methods.md'
+                      items:
+                        - name: 'Дравполигон (перо *, точка*, int *)'
+                          href: /previous-versions//ms536008(v=vs.85)
+                        - name: 'Дравполигон (перо *, PointF*, int *)'
+                          href: /previous-versions//ms536009(v=vs.85)
+                    - name: DrawRectangle перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-DrawRectangle-Methods.md'
+                      items:
+                        - name: 'DrawRectangle (перо *, Rect&)'
+                          href: /previous-versions//ms536001(v=vs.85)
+                        - name: 'DrawRectangle (перо *, INT, INT, INT, INT)'
+                          href: /previous-versions//ms536003(v=vs.85)
+                        - name: 'DrawRectangle (перо *, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, реальное)'
+                          href: /previous-versions//ms536004(v=vs.85)
+                        - name: 'DrawRectangle (перо *, Ректф&)'
+                          href: /previous-versions//ms536006(v=vs.85)
+                    - name: Дравректанглес перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-DrawRectangles-Methods.md'
+                      items:
+                        - name: 'Дравректанглес (перо *, Rect*, int)'
+                          href: /previous-versions//ms535996(v=vs.85)
+                        - name: 'Дравректанглес (перо *, ректф*, int)'
+                          href: /previous-versions//ms535998(v=vs.85)
+                    - name: Перегруженный метод DrawString
+                      href: '-gdiplus-CLASS-Graphics-DrawString-Methods.md'
+                      items:
+                        - name: 'DrawString (WCHAR *, int, Font*, ректф&, StringFormat *, кисть*)'
+                          href: /previous-versions//ms535991(v=vs.85)
+                        - name: 'DrawString (WCHAR *, int, Font*, PointF&, кисть *)'
+                          href: /previous-versions//ms535993(v=vs.85)
+                        - name: 'DrawString (WCHAR *, int, Font*, PointF&, StringFormat *, кисть*)'
+                          href: /previous-versions//ms535994(v=vs.85)
+                    - name: ендконтаинер
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer
+                    - name: Енумератеметафиле перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-EnumerateMetafile-Methods.md'
+                      items:
+                        - name: 'Енумератеметафиле (метафайл *, метафайл&, енумератеметафилепрок, void*, ImageAttributes *)'
+                          href: /previous-versions//ms535977(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *, Point*, int, ЕНУМЕРАТЕМЕТАФИЛЕПРОК, void *, ImageAttributes*)'
+                          href: /previous-versions//ms535978(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *,& точки,& Rect, единица, енумератеметафилепрок, void*, ImageAttributes *)'
+                          href: /previous-versions//ms535979(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *, Point*, int, ЕНУМЕРАТЕМЕТАФИЛЕПРОК, void *, ImageAttributes*)'
+                          href: /previous-versions//ms535980(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *, Rect&, енумератеметафилепрок, void*, ImageAttributes *)'
+                          href: /previous-versions//ms535981(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *, ректф&, ректф&, единица, енумератеметафилепрок, void*, ImageAttributes *)'
+                          href: /previous-versions//ms535982(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *, ректф&, енумератеметафилепрок, void*, ImageAttributes *)'
+                          href: /previous-versions//ms535983(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *,& точки,& Rect, единица, енумератеметафилепрок, void*, ImageAttributes *)'
+                          href: /previous-versions//ms535984(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *, Point*, int, Rect&, единица, ЕНУМЕРАТЕМЕТАФИЛЕПРОК, void *, ImageAttributes*)'
+                          href: /previous-versions//ms535985(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *,& Rect,& Rect, единица, енумератеметафилепрок, void*, ImageAttributes *)'
+                          href: /previous-versions//ms535986(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *, точка*, int, ректф&, единица, ЕНУМЕРАТЕМЕТАФИЛЕПРОК, void *, ImageAttributes*)'
+                          href: /previous-versions//ms535988(v=vs.85)
+                        - name: 'Енумератеметафиле (метафайл *, PointF&, енумератеметафилепрок, void*, ImageAttributes *)'
+                          href: /previous-versions//ms535989(v=vs.85)
+                    - name: Ексклудеклип перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-ExcludeClip-Methods.md'
+                      items:
+                        - name: Ексклудеклип (Rect&)
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-excludeclip(inconstrect_)
+                        - name: Ексклудеклип (Ректф&)
+                          href: /previous-versions//ms535975(v=vs.85)
+                        - name: Ексклудеклип (регион *)
+                          href: /previous-versions//ms535976(v=vs.85)
+                    - name: Филлклоседкурве перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-FillClosedCurve-Methods.md'
+                      items:
+                        - name: 'Филлклоседкурве (кисть *, точка*, int)'
+                          href: /previous-versions//ms535970(v=vs.85)
+                        - name: 'Филлклоседкурве (кисть *, точка*, int, ФИЛЛМОДЕ, Real)'
+                          href: /previous-versions//ms535971(v=vs.85)
+                        - name: 'Филлклоседкурве (Brush *, PointF*, int)'
+                          href: /previous-versions//ms535972(v=vs.85)
+                        - name: 'Филлклоседкурве (кисть *, PointF*, int, ФИЛЛМОДЕ, Real)'
+                          href: /previous-versions//ms535973(v=vs.85)
+                    - name: Филлеллипсе перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-FillEllipse-Methods.md'
+                      items:
+                        - name: 'Филлеллипсе (кисть *, Rect&)'
+                          href: /previous-versions//ms535966(v=vs.85)
+                        - name: 'Филлеллипсе (кисть *, ВЕЩЕСТВЕНная, ВЕЩЕСТВЕНная, реальная, реальная)'
+                          href: /previous-versions//ms535967(v=vs.85)
+                        - name: 'Филлеллипсе (кисть *, Ректф&)'
+                          href: /previous-versions//ms535968(v=vs.85)
+                        - name: 'Филлеллипсе (Brush *, INT, INT, INT, INT)'
+                          href: /previous-versions//ms535969(v=vs.85)
+                    - name: филлпас
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpath
+                    - name: Филлпие перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-FillPie-Methods.md'
+                      items:
+                        - name: 'Филлпие (кисть *, Rect&, ВЕЩЕСТВЕНная, реальная)'
+                          href: /previous-versions//ms535962(v=vs.85)
+                        - name: 'Филлпие (кисть *, INT, INT, INT, INT, ВЕЩЕСТВЕНная, реальная)'
+                          href: /previous-versions//ms535963(v=vs.85)
+                        - name: 'Филлпие (кисть *, ВЕЩЕСТВЕНная, ВЕЩЕСТВЕНная, ВЕЩЕСТВЕНная, реальная, реальная, реальная)'
+                          href: /previous-versions//ms535964(v=vs.85)
+                        - name: 'Филлпие (кисть *, Ректф&, ВЕЩЕСТВЕНная, реальная)'
+                          href: /previous-versions//ms535965(v=vs.85)
+                    - name: Филлполигон перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-FillPolygon-Methods.md'
+                      items:
+                        - name: 'Филлполигон (кисть *, точка*, int)'
+                          href: /previous-versions//ms535958(v=vs.85)
+                        - name: 'Филлполигон (Brush *, PointF*, int)'
+                          href: /previous-versions//ms535959(v=vs.85)
+                        - name: 'Филлполигон (кисть *, точка*, int, филлмоде)'
+                          href: /previous-versions//ms535960(v=vs.85)
+                        - name: 'Филлполигон (Brush *, PointF*, int, филлмоде)'
+                          href: /previous-versions//ms535961(v=vs.85)
+                    - name: Филлректангле перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-FillRectangle-Methods.md'
+                      items:
+                        - name: 'Филлректангле (кисть *, Rect&)'
+                          href: /previous-versions//ms535954(v=vs.85)
+                        - name: 'Филлректангле (кисть *, Ректф&)'
+                          href: /previous-versions//ms535955(v=vs.85)
+                        - name: 'Филлректангле (кисть *, ВЕЩЕСТВЕНная, ВЕЩЕСТВЕНная, реальная, реальная)'
+                          href: /previous-versions//ms535956(v=vs.85)
+                        - name: 'Филлректангле (Brush *, INT, INT, INT, INT)'
+                          href: /previous-versions//ms535957(v=vs.85)
+                    - name: Филлректанглес перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-FillRectangles-Methods.md'
+                      items:
+                        - name: 'Филлректанглес (Brush *, Rect*, int)'
+                          href: /previous-versions//ms535952(v=vs.85)
+                        - name: 'Филлректанглес (Brush *, ректф*, int)'
+                          href: /previous-versions//ms535953(v=vs.85)
+                    - name: филлрегион
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillregion
+                    - name: Очистка
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-flush
+                    - name: Фромхдк перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-FromHDC-Methods.md'
+                      items:
+                        - name: Фромхдк (HDC)
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fromhdc(inhdc)
+                        - name: 'Фромхдк (HDC, HANDLE)'
+                          href: /previous-versions//ms535951(v=vs.85)
+                    - name: фромхвнд
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fromhwnd
+                    - name: FromImage
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fromimage
+                    - name: Clip
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getclip
+                    - name: Жетклипбаундс перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-GetClipBounds-Methods.md'
+                      items:
+                        - name: Жетклипбаундс (Rect *)
+                          href: /previous-versions//ms535948(v=vs.85)
+                        - name: Жетклипбаундс (Ректф *)
+                          href: /previous-versions//ms535949(v=vs.85)
+                    - name: жеткомпоситингмоде
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getcompositingmode
+                    - name: жеткомпоситингкуалити
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getcompositingquality
+                    - name: жетдпикс
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getdpix
+                    - name: жетдпий
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getdpiy
+                    - name: жесалфтонепалетте
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gethalftonepalette
+                    - name: жесдк
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gethdc
+                    - name: жетинтерполатионмоде
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getinterpolationmode
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getlaststatus
+                    - name: жетнеарестколор
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getnearestcolor
+                    - name: жетпажескале
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getpagescale
+                    - name: жетпажеунит
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getpageunit
+                    - name: жетпикселоффсетмоде
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getpixeloffsetmode
+                    - name: жетрендерингоригин
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getrenderingorigin
+                    - name: жетсмусингмоде
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getsmoothingmode
+                    - name: жеттекстконтраст
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gettextcontrast
+                    - name: жеттекстрендерингхинт
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gettextrenderinghint
+                    - name: Преобразование
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gettransform
+                    - name: Жетвисиблеклипбаундс перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-GetVisibleClipBounds-Methods.md'
+                      items:
+                        - name: Жетвисиблеклипбаундс (Rect *)
+                          href: /previous-versions//ms535946(v=vs.85)
+                        - name: Жетвисиблеклипбаундс (Ректф *)
+                          href: /previous-versions//ms535947(v=vs.85)
+                    - name: Интерсектклип перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-IntersectClip-Methods.md'
+                      items:
+                        - name: Интерсектклип (Rect&)
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-intersectclip(inconstrect_)
+                        - name: Интерсектклип (регион *)
+                          href: /previous-versions//ms535944(v=vs.85)
+                        - name: Интерсектклип (Ректф&)
+                          href: /previous-versions//ms535945(v=vs.85)
+                    - name: исклипемпти
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isclipempty
+                    - name: Невидимый перегруженный метод
+                      href: '-gdiplus-CLASS-Region-IsVisible-Methods.md'
+                      items:
+                        - name: Visible (точка&)
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstpoint_)
+                        - name: Visible (Rect&)
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstrect_)
+                        - name: 'Visible (ВЕЩЕСТВЕНная, реальная)'
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inreal_inreal)
+                        - name: Visible (Ректф&)
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstrectf_)
+                        - name: 'Visible (INT, INT, INT, INT)'
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inint_inint_inint_inint)
+                        - name: 'Visible (INT, INT)'
+                          href: /previous-versions//ms535940(v=vs.85)
+                        - name: Visible (PointF&)
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstpointf_)
+                        - name: 'Visible (ВЕЩЕСТВЕНная, вещественная, реальная, реальная)'
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inreal_inreal_inreal_inreal)
+                    - name: исвисиблеклипемпти
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisibleclipempty
+                    - name: меасуречарактерранжес
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges
+                    - name: меасуредриверстринг
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measuredriverstring
+                    - name: Меасурестринг перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-MeasureString-Methods.md'
+                      items:
+                        - name: 'Меасурестринг (WCHAR *, int, Font*, ректф&, ректф *)'
+                          href: /previous-versions//ms535829(v=vs.85)
+                        - name: 'Меасурестринг (WCHAR *, int, Font*, PointF&, StringFormat *, ректф*)'
+                          href: /previous-versions//ms535830(v=vs.85)
+                        - name: 'Меасурестринг (WCHAR *, int, Font*, ректф&, StringFormat *, ректф*, int *, int*)'
+                          href: /previous-versions//ms535831(v=vs.85)
+                        - name: 'Меасурестринг (WCHAR *, int, Font*, SizeF&, StringFormat *, SizeF*, int *, int*)'
+                          href: /previous-versions//ms535832(v=vs.85)
+                        - name: 'Меасурестринг (WCHAR *, int, Font*, PointF&, ректф *)'
+                          href: /previous-versions//ms535833(v=vs.85)
+                    - name: мултиплитрансформ
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-multiplytransform
+                    - name: релеасехдк
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-releasehdc
+                    - name: ресетклип
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-resetclip
+                    - name: ресеттрансформ
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-resettransform
+                    - name: Восстановить
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore
+                    - name: RotateTransform
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-rotatetransform
+                    - name: Сохранить
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save
+                    - name: ScaleTransform
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-scaletransform
+                    - name: SetAbort
+                      href: /windows/win32/api/gdiplusGraphics/nf-gdiplusgraphics-graphics-setabort
+                    - name: Сетклип перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-SetClip-Methods.md'
+                      items:
+                        - name: 'Сетклип (Graphics *, CombineMode)'
+                          href: /previous-versions//ms535823(v=vs.85)
+                        - name: 'Сетклип (GraphicsPath *, CombineMode)'
+                          href: /previous-versions//ms535824(v=vs.85)
+                        - name: 'Сетклип (регион *, CombineMode)'
+                          href: /previous-versions//ms535825(v=vs.85)
+                        - name: 'Сетклип (Rect&, CombineMode)'
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstrect__incombinemode)
+                        - name: 'Сетклип (ХРГН, CombineMode)'
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inhrgn_incombinemode)
+                        - name: 'Сетклип (Ректф&, CombineMode)'
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstrectf__incombinemode)
+                    - name: сеткомпоситингмоде
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingmode
+                    - name: сеткомпоситингкуалити
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingquality
+                    - name: сетинтерполатионмоде
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setinterpolationmode
+                    - name: сетпажескале
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpagescale
+                    - name: сетпажеунит
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpageunit
+                    - name: сетпикселоффсетмоде
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpixeloffsetmode
+                    - name: сетрендерингоригин
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setrenderingorigin
+                    - name: сетсмусингмоде
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setsmoothingmode
+                    - name: сеттекстконтраст
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-settextcontrast
+                    - name: сеттекстрендерингхинт
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-settextrenderinghint
+                    - name: сеттрансформ
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-settransform
+                    - name: трансформпоинтс
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-transformpoints(incoordinatespace_incoordinatespace_inoutpoint_inint)
+                    - name: Транслатеклип перегруженный метод
+                      href: '-gdiplus-CLASS-Graphics-TranslateClip-Methods.md'
+                      items:
+                        - name: 'Транслатеклип (INT, INT)'
+                          href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translateclip(inint_inint)
+                        - name: 'Транслатеклип (ВЕЩЕСТВЕНная, реальная)'
+                          href: /previous-versions//ms535822(v=vs.85)
+                    - name: TranslateTransform
+                      href: /windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translatetransform
+            - name: GraphicsPath
+              href: /windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath
+              items:
+                - name: Перегруженный конструктор GraphicsPath
+                  href: '-gdiplus-CLASS-GraphicsPath-Constructors.md'
+                  items:
+                    - name: 'GraphicsPath (точка *, байт*, int, филлмоде)'
+                      href: /previous-versions//ms535629(v=vs.85)
+                    - name: GraphicsPath (Филлмоде)
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-graphicspath(infillmode)
+                    - name: 'GraphicsPath (PointF *, Byte*, int, филлмоде)'
+                      href: /previous-versions//ms535631(v=vs.85)
+                - name: Методы GraphicsPath
+                  href: '-gdiplus-class-graphicspath-methods.md'
+                  items:
+                    - name: Аддарк перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddArc-Methods.md'
+                      items:
+                        - name: 'Аддарк (Rect&, REAL, REAL)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addarc(inconstrect__inreal_inreal)
+                        - name: 'Аддарк (Ректф&, REAL, REAL)'
+                          href: /previous-versions//ms535626(v=vs.85)
+                        - name: 'Аддарк (INT, INT, INT, INT, REAL, REAL)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addarc(inint_inint_inint_inint_inreal_inreal)
+                        - name: 'Аддарк (реальные, реальные, реальные, реальные, реальные, реальные)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addarc(inreal_inreal_inreal_inreal_inreal_inreal)
+                    - name: Аддбезиер перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddBezier-Methods.md'
+                      items:
+                        - name: 'Аддбезиер (точка&, точка&, точка&, точка&)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addbezier(inconstpoint__inconstpoint__inconstpoint__inconstpoint_)
+                        - name: 'Аддбезиер (реальные, реальные, реальные, реальные, реальные, реальные, реальные, реальные)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addbezier(inreal_inreal_inreal_inreal_inreal_inreal_inreal_inreal)
+                        - name: 'Аддбезиер (PointF&, PointF&, PointF&, PointF&)'
+                          href: /previous-versions//ms535623(v=vs.85)
+                        - name: 'Аддбезиер (INT, INT, INT, INT, INT, INT, INT, INT)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addbezier(inint_inint_inint_inint_inint_inint_inint_inint)
+                    - name: Аддбезиерс перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddBeziers-Methods.md'
+                      items:
+                        - name: 'Аддбезиерс (Point *, INT)'
+                          href: /previous-versions//ms535619(v=vs.85)
+                        - name: 'Аддбезиерс (PointF *, INT)'
+                          href: /previous-versions//ms535620(v=vs.85)
+                    - name: Аддклоседкурве перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddClosedCurve-Methods.md'
+                      items:
+                        - name: 'Аддклоседкурве (Point *, INT)'
+                          href: /previous-versions//ms535615(v=vs.85)
+                        - name: 'Аддклоседкурве (Point *, INT, REAL)'
+                          href: /previous-versions//ms535616(v=vs.85)
+                        - name: 'Аддклоседкурве (PointF *, INT, REAL)'
+                          href: /previous-versions//ms535617(v=vs.85)
+                        - name: 'Аддклоседкурве (PointF *, INT)'
+                          href: /previous-versions//ms535618(v=vs.85)
+                    - name: Аддкурве перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddCurve-Methods.md'
+                      items:
+                        - name: 'Аддкурве (Point *, INT)'
+                          href: /previous-versions//ms535609(v=vs.85)
+                        - name: 'Аддкурве (PointF *, INT, REAL)'
+                          href: /previous-versions//ms535610(v=vs.85)
+                        - name: 'Аддкурве (PointF *, INT)'
+                          href: /previous-versions//ms535611(v=vs.85)
+                        - name: 'Аддкурве (Point *, INT, INT, INT, REAL)'
+                          href: /previous-versions//ms535612(v=vs.85)
+                        - name: 'Аддкурве (Point *, INT, REAL)'
+                          href: /previous-versions//ms535613(v=vs.85)
+                        - name: 'Аддкурве (PointF *, INT, INT, INT, REAL)'
+                          href: /previous-versions//ms535614(v=vs.85)
+                    - name: AddEllipse перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddEllipse-Methods.md'
+                      items:
+                        - name: AddEllipse (Rect&)
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addellipse(inconstrect_)
+                        - name: AddEllipse (Ректф&)
+                          href: /previous-versions//ms535606(v=vs.85)
+                        - name: 'AddEllipse (INT, INT, INT, INT)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addellipse(inint_inint_inint_inint)
+                        - name: 'AddEllipse (ВЕЩЕСТВЕНная, ВЕЩЕСТВЕНная, вещественная)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addellipse(inreal_inreal_inreal_inreal)
+                    - name: Аддлине перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddLine-Methods.md'
+                      items:
+                        - name: 'Аддлине (точка&, точка&)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addline(inconstpoint__inconstpoint_)
+                        - name: 'Аддлине (PointF&, PointF&)'
+                          href: /previous-versions//ms535602(v=vs.85)
+                        - name: 'Аддлине (ВЕЩЕСТВЕНная, ВЕЩЕСТВЕНная, вещественная)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addline(inreal_inreal_inreal_inreal)
+                        - name: 'Аддлине (INT, INT, INT, INT)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addline(inint_inint_inint_inint)
+                    - name: Аддлинес перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddLines-Methods.md'
+                      items:
+                        - name: 'Аддлинес (Point *, INT)'
+                          href: /previous-versions//ms535599(v=vs.85)
+                        - name: 'Аддлинес (PointF *, INT)'
+                          href: /previous-versions//ms535600(v=vs.85)
+                    - name: аддпас
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpath
+                    - name: Аддпие перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddPie-Methods.md'
+                      items:
+                        - name: 'Аддпие (Rect&, REAL, REAL)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inconstrect__inreal_inreal)
+                        - name: 'Аддпие (INT, INT, INT, INT, REAL, REAL)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inint_inint_inint_inint_inreal_inreal)
+                        - name: 'Аддпие (реальные, реальные, реальные, реальные, реальные, реальные)'
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inreal_inreal_inreal_inreal_inreal_inreal)
+                        - name: 'Аддпие (Ректф&, REAL, REAL)'
+                          href: /previous-versions//ms535598(v=vs.85)
+                    - name: Аддполигон перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddPolygon-Methods.md'
+                      items:
+                        - name: 'Аддполигон (Point *, INT)'
+                          href: /previous-versions//ms535593(v=vs.85)
+                        - name: 'Аддполигон (PointF *, INT)'
+                          href: /previous-versions//ms535594(v=vs.85)
+                    - name: Аддректангле перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddRectangle-Methods.md'
+                      items:
+                        - name: Аддректангле (Rect&)
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addrectangle(inconstrect_)
+                        - name: Аддректангле (Ректф&)
+                          href: /previous-versions//ms535592(v=vs.85)
+                    - name: Аддректанглес перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddRectangles-Methods.md'
+                      items:
+                        - name: 'Аддректанглес (Rect *, INT)'
+                          href: /previous-versions//ms535589(v=vs.85)
+                        - name: 'Аддректанглес (Ректф *, INT)'
+                          href: /previous-versions//ms535590(v=vs.85)
+                    - name: AddString перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-AddString-Methods.md'
+                      items:
+                        - name: 'AddString (WCHAR *, int, FontFamily*, int, Real, Rect&, StringFormat *)'
+                          href: /previous-versions//ms535585(v=vs.85)
+                        - name: 'AddString (WCHAR *, int, FontFamily*, int, Real, PointF&, StringFormat *)'
+                          href: /previous-versions//ms535586(v=vs.85)
+                        - name: 'AddString (WCHAR *, int, FontFamily*, int, Real, Point&, StringFormat *)'
+                          href: /previous-versions//ms535587(v=vs.85)
+                        - name: 'AddString (WCHAR *, int, FontFamily*, int, Real, ректф&, StringFormat *)'
+                          href: /previous-versions//ms535588(v=vs.85)
+                    - name: клеармаркерс
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-clearmarkers
+                    - name: Клонировать
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-clone
+                    - name: клосеаллфигурес
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-closeallfigures
+                    - name: клосефигуре
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-closefigure
+                    - name: Преобразование в плоскую структуру
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-flatten
+                    - name: Перегруженный метод с привязкой
+                      href: '-gdiplus-CLASS-Region-GetBounds-Methods.md'
+                      items:
+                        - name: 'Привязкой (Rect *, Matrix*, перо *)'
+                          href: /previous-versions//ms535583(v=vs.85)
+                        - name: 'Привязкой (Ректф *, матрица*, перо *)'
+                          href: /previous-versions//ms535584(v=vs.85)
+                    - name: жетфиллмоде
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getfillmode
+                    - name: жетластпоинт
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getlastpoint
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getlaststatus
+                    - name: жетпасдата
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getpathdata
+                    - name: Жетпаспоинтс перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-GetPathPoints-Methods.md'
+                      items:
+                        - name: 'Жетпаспоинтс (Point *, INT)'
+                          href: /previous-versions//ms535581(v=vs.85)
+                        - name: 'Жетпаспоинтс (PointF *, INT)'
+                          href: /previous-versions//ms535582(v=vs.85)
+                    - name: жетпастипес
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getpathtypes
+                    - name: жетпоинткаунт
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getpointcount
+                    - name: Исаутлиневисибле перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPath-IsOutlineVisible-Methods.md'
+                      items:
+                        - name: 'Исаутлиневисибле (точка&, перо *, графика*)'
+                          href: /previous-versions//ms535577(v=vs.85)
+                        - name: 'Исаутлиневисибле (ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, перо *, графика*)'
+                          href: /previous-versions//ms535578(v=vs.85)
+                        - name: 'Исаутлиневисибле (INT, INT, перо *, графика*)'
+                          href: /previous-versions//ms535579(v=vs.85)
+                        - name: 'Исаутлиневисибле (PointF&, перо *, графика*)'
+                          href: /previous-versions//ms535580(v=vs.85)
+                    - name: Невидимый перегруженный метод
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-isvisible(inconstpoint__inconstgraphics)
+                      items:
+                        - name: 'Visible (ВЕЩЕСТВЕНная, ВЕЩЕСТВЕНная, графическая *)'
+                          href: /previous-versions//ms535573(v=vs.85)
+                        - name: 'Visible (PointF&, графика *)'
+                          href: /previous-versions//ms535574(v=vs.85)
+                        - name: 'Видимо (INT, INT, Graphics *)'
+                          href: /previous-versions//ms535575(v=vs.85)
+                        - name: 'Visible (точка&, графика *)'
+                          href: /previous-versions//ms535576(v=vs.85)
+                    - name: Контур
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-outline
+                    - name: Reset
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-reset
+                    - name: Reverse
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-reverse
+                    - name: сетфиллмоде
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-setfillmode
+                    - name: SetMarker
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-setmarker
+                    - name: стартфигуре
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-startfigure
+                    - name: Преобразование
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-transform
+                    - name: Warp
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-warp
+                    - name: Расширяет
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-widen
+            - name: графикспаситератор
+              href: /windows/win32/api/gdipluspath/nl-gdipluspath-graphicspathiterator
+              items:
+                - name: графикспаситератор
+                  href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-graphicspathiterator(constgraphicspathiterator_)
+                - name: Методы Графикспаситератор
+                  href: '-gdiplus-class-graphicspathiterator-methods.md'
+                  items:
+                    - name: CopyData
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-copydata
+                    - name: Перечисление
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-enumerate
+                    - name: GetCount
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-getcount
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-getlaststatus
+                    - name: жетсубпаскаунт
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-getsubpathcount
+                    - name: хаскурве
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-hascurve
+                    - name: NextMarker перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPathIterator-NextMarker-Methods.md'
+                      items:
+                        - name: NextMarker (GraphicsPath *)
+                          href: /previous-versions//ms535464(v=vs.85)
+                        - name: 'NextMarker (INT *, int*)'
+                          href: /previous-versions//ms535465(v=vs.85)
+                    - name: некстпастипе
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextpathtype
+                    - name: Некстсубпас перегруженный метод
+                      href: '-gdiplus-CLASS-GraphicsPathIterator-NextSubpath-Methods.md'
+                      items:
+                        - name: 'Некстсубпас (GraphicsPath *, bool*)'
+                          href: /previous-versions//ms535462(v=vs.85)
+                        - name: 'Некстсубпас (INT *, int*, bool *)'
+                          href: /previous-versions//ms535463(v=vs.85)
+                    - name: Rewind
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-rewind
+            - name: хатчбруш
+              href: /windows/win32/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush
+              items:
+                - name: хатчбруш
+                  href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-hatchbrush-hatchbrush(consthatchbrush_)
+                - name: Методы Хатчбруш
+                  href: '-gdiplus-class-hatchbrush-methods.md'
+                  items:
+                    - name: жетбаккграундколор
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-hatchbrush-getbackgroundcolor
+                    - name: жетфореграундколор
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-hatchbrush-getforegroundcolor
+                    - name: жесатчстиле
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-hatchbrush-gethatchstyle
+            - name: хуесатуратионлигхтнесс
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-huesaturationlightness
+              items:
+                - name: хуесатуратионлигхтнесс
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-huesaturationlightness-huesaturationlightness
+                - name: Методы Хуесатуратионлигхтнесс
+                  href: '-gdiplus-class-huesaturationlightness-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-huesaturationlightness-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-huesaturationlightness-setparameters
+            - name: "Образ\_—"
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image
+              items:
+                - name: Перегруженный конструктор изображения
+                  href: '-gdiplus-CLASS-Image-Constructors.md'
+                  items:
+                    - name: 'Image (IStream *, BOOL)'
+                      href: /previous-versions//ms535410(v=vs.85)
+                    - name: 'Image (WCHAR *, BOOL)'
+                      href: /previous-versions//ms535411(v=vs.85)
+                - name: Методы изображений
+                  href: '-gdiplus-class-image-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-clone
+                    - name: финдфирститем
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-findfirstitem
+                    - name: финднекститем
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-findnextitem
+                    - name: фромфиле
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-fromfile
+                    - name: фромстреам
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-fromstream
+                    - name: жеталлпропертитемс
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getallpropertyitems
+                    - name: GetBounds
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getbounds
+                    - name: жетенкодерпараметерлист
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist
+                    - name: жетенкодерпараметерлистсизе
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlistsize
+                    - name: GetFlags
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getflags
+                    - name: жетфрамекаунт
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getframecount
+                    - name: жетфрамедименсионскаунт
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getframedimensionscount
+                    - name: жетфрамедименсионслист
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getframedimensionslist
+                    - name: Высота
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getheight
+                    - name: жесоризонталресолутион
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-gethorizontalresolution
+                    - name: жетитемдата
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getitemdata
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getlaststatus
+                    - name: Перепалитра
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getpalette
+                    - name: жетпалеттесизе
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getpalettesize
+                    - name: жетфисикалдименсион
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getphysicaldimension
+                    - name: жетпикселформат
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getpixelformat
+                    - name: жетпропертикаунт
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getpropertycount
+                    - name: жетпропертидлист
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getpropertyidlist
+                    - name: жетпропертитем
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getpropertyitem
+                    - name: жетпропертитемсизе
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getpropertyitemsize
+                    - name: жетпропертисизе
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getpropertysize
+                    - name: жетравформат
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getrawformat
+                    - name: жетсумбнаилимаже
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getthumbnailimage
+                    - name: GetType
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-gettype
+                    - name: жетвертикалресолутион
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getverticalresolution
+                    - name: Полуширинные
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getwidth
+                    - name: ремовепропертитем
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-removepropertyitem
+                    - name: ротатефлип
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-rotateflip
+                    - name: Сохранить перегруженный метод
+                      href: '-gdiplus-CLASS-Image-Save-Methods.md'
+                      items:
+                        - name: 'Save (IStream *, CLSID*, EncoderParameters *)'
+                          href: /previous-versions//ms535406(v=vs.85)
+                        - name: 'Save (WCHAR *, CLSID*, EncoderParameters *)'
+                          href: /previous-versions//ms535407(v=vs.85)
+                    - name: Савеадд перегруженный метод
+                      href: '-gdiplus-CLASS-Image-SaveAdd-Methods.md'
+                      items:
+                        - name: Савеадд (EncoderParameters *)
+                          href: /previous-versions//ms535408(v=vs.85)
+                        - name: 'Савеадд (изображение *, EncoderParameters*)'
+                          href: /previous-versions//ms535409(v=vs.85)
+                    - name: селектактивефраме
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-selectactiveframe
+                    - name: SetAbort
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-setabort
+                    - name: сетпалетте
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-setpalette
+                    - name: сетпропертитем
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-setpropertyitem
+            - name: ImageAttributes
+              href: /windows/win32/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes
+              items:
+                - name: ImageAttributes
+                  href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-imageattributes(constimageattributes_)
+                - name: Методы ImageAttributes
+                  href: '-gdiplus-class-imageattributes-methods.md'
+                  items:
+                    - name: клеарбрушремаптабле
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearbrushremaptable
+                    - name: клеарколоркэй
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearcolorkey
+                    - name: клеарколорматрицес
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearcolormatrices
+                    - name: клеарколорматрикс
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearcolormatrix
+                    - name: клеаргамма
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-cleargamma
+                    - name: клеарнуп
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearnoop
+                    - name: клеараутпутчаннел
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearoutputchannel
+                    - name: клеараутпутчаннелколорпрофиле
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearoutputchannelcolorprofile
+                    - name: клеарремаптабле
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearremaptable
+                    - name: клеарсрешолд
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clearthreshold
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-clone
+                    - name: жетаджустедпалетте
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-getadjustedpalette
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-getlaststatus
+                    - name: Reset
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-reset
+                    - name: сетбрушремаптабле
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setbrushremaptable
+                    - name: сетколоркэй
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setcolorkey
+                    - name: сетколорматрицес
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setcolormatrices
+                    - name: сетколорматрикс
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setcolormatrix
+                    - name: сетгамма
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setgamma
+                    - name: сетнуп
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setnoop
+                    - name: сетаутпутчаннел
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setoutputchannel
+                    - name: сетаутпутчаннелколорпрофиле
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setoutputchannelcolorprofile
+                    - name: сетремаптабле
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setremaptable
+                    - name: сетсрешолд
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setthreshold
+                    - name: сеттоидентити
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-settoidentity
+                    - name: сетврапмоде
+                      href: /windows/win32/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setwrapmode
+            - name: имажекодеЦинфо
+              href: /previous-versions//ms534466(v=vs.85)
+            - name: имажеитемдата
+              href: /previous-versions//ms534468(v=vs.85)
+            - name: инсталледфонтколлектион
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-installedfontcollection
+              items:
+                - name: инсталледфонтколлектион
+                  href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-installedfontcollection-installedfontcollection(constinstalledfontcollection_)
+                - name: Методы Инсталледфонтколлектион
+                  href: '-gdiplus-class-installedfontcollection-methods.md'
+            - name: Уровни
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-levels
+              items:
+                - name: Уровни
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-levels-levels
+                - name: Методы уровней
+                  href: '-gdiplus-class-levels-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-levels-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-levels-setparameters
+            - name: LinearGradientBrush
+              href: /windows/win32/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush
+              items:
+                - name: LinearGradientBrush перегруженный конструктор
+                  href: '-gdiplus-CLASS-LinearGradientBrush-Constructors.md'
+                  items:
+                    - name: 'LinearGradientBrush (PointF&, PointF&, цвет&, цвет&)'
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstpointf__inconstpointf__inconstcolor__inconstcolor_)
+                    - name: 'LinearGradientBrush (Rect&, цвет&, цветная&, ВЕЩЕСТВЕНная, BOOL)'
+                      href: /previous-versions//ms535354(v=vs.85)
+                    - name: 'LinearGradientBrush (Ректф&, цвет&, цвет&, Линеарградиентмоде)'
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrectf__inconstcolor__inconstcolor__inlineargradientmode)
+                    - name: 'LinearGradientBrush (Point&,& точек, цвет&, цвет&)'
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstpoint__inconstpoint__inconstcolor__inconstcolor_)
+                    - name: 'LinearGradientBrush (Rect&, цвет&, цветная&, ВЕЩЕСТВЕНная, BOOL)'
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrect__inconstcolor__inconstcolor__inreal_inbool)
+                    - name: 'LinearGradientBrush (Rect&, цвет&, цвет&, Линеарградиентмоде)'
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-lineargradientbrush(inconstrect__inconstcolor__inconstcolor__inlineargradientmode)
+                - name: Методы LinearGradientBrush
+                  href: '-gdiplus-class-lineargradientbrush-methods.md'
+                  items:
+                    - name: Blend
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getblend
+                    - name: жетблендкаунт
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getblendcount
+                    - name: жетгаммакорректион
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getgammacorrection
+                    - name: жетинтерполатионколоркаунт
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getinterpolationcolorcount
+                    - name: жетинтерполатионколорс
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getinterpolationcolors
+                    - name: жетлинеарколорс
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getlinearcolors
+                    - name: Перегруженный метод с Методомических прямоугольников
+                      href: '-gdiplus-CLASS-PathGradientBrush-GetRectangle-Methods.md'
+                      items:
+                        - name: Копрямоугольник (Rect *)
+                          href: /previous-versions//ms535351(v=vs.85)
+                        - name: Ректф *)
+                          href: /previous-versions//ms535352(v=vs.85)
+                    - name: Преобразование
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-gettransform
+                    - name: жетврапмоде
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getwrapmode
+                    - name: мултиплитрансформ
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-multiplytransform
+                    - name: ресеттрансформ
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-resettransform
+                    - name: RotateTransform
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-rotatetransform
+                    - name: ScaleTransform
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-scaletransform
+                    - name: сетбленд
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setblend
+                    - name: сетблендбеллшапе
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setblendbellshape
+                    - name: сетблендтриангуларшапе
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setblendtriangularshape
+                    - name: сетгаммакорректион
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setgammacorrection
+                    - name: сетинтерполатионколорс
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setinterpolationcolors
+                    - name: сетлинеарколорс
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setlinearcolors
+                    - name: сеттрансформ
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-settransform
+                    - name: сетврапмоде
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setwrapmode
+                    - name: TranslateTransform
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-translatetransform
+            - name: Матрица
+              href: /windows/win32/api/gdiplusmatrix/nl-gdiplusmatrix-matrix
+              items:
+                - name: Перегруженный конструктор матрицы
+                  href: '-gdiplus-class-matrix-constructors.md'
+                  items:
+                    - name: 'Матрица (Ректф&, PointF *)'
+                      href: /previous-versions//ms535322(v=vs.85)
+                    - name: 'Матрица (Rect&, Point *)'
+                      href: /previous-versions//ms535323(v=vs.85)
+                    - name: Matrix ()
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(constmatrix_)
+                    - name: 'Матрица (ВЕЩЕСТВЕНная, ВЕЩЕСТВЕНная, вещественная, вещественная, реальная)'
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(inreal_inreal_inreal_inreal_inreal_inreal)
+                - name: Методы матрицы
+                  href: '-gdiplus-class-matrix-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-clone
+                    - name: Равно
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-equals
+                    - name: GetElements
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-getelements
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-getlaststatus
+                    - name: Invert
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-invert
+                    - name: IsIdentity
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-isidentity
+                    - name: исинвертибле
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-isinvertible
+                    - name: Multiply
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-multiply
+                    - name: OffsetX
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-offsetx
+                    - name: OffsetY
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-offsety
+                    - name: Reset
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-reset
+                    - name: Rotate
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-rotate
+                    - name: ротатеат
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-rotateat
+                    - name: Масштабирование
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-scale
+                    - name: сетелементс
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-setelements
+                    - name: Сдвиг
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-shear
+                    - name: Трансформпоинтс перегруженный метод
+                      href: '-gdiplus-CLASS-Matrix-TransformPoints-Methods.md'
+                      items:
+                        - name: 'Трансформпоинтс (Point *, INT)'
+                          href: /previous-versions//ms535320(v=vs.85)
+                        - name: 'Трансформпоинтс (PointF *, INT)'
+                          href: /previous-versions//ms535321(v=vs.85)
+                    - name: Трансформвекторс перегруженный метод
+                      href: '-gdiplus-CLASS-Matrix-TransformVectors-Methods.md'
+                      items:
+                        - name: 'Трансформвекторс (Point *, INT)'
+                          href: /previous-versions//ms535318(v=vs.85)
+                        - name: 'Трансформвекторс (PointF *, INT)'
+                          href: /previous-versions//ms535319(v=vs.85)
+                    - name: Перевод
+                      href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-translate
+            - name: Метафайл
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-metafile
+              items:
+                - name: Перегруженный конструктор метафайла
+                  href: '-gdiplus-CLASS-Metafile-Constructors.md'
+                  items:
+                    - name: 'Метафайл (HDC, Емфтипе, WCHAR *)'
+                      href: /previous-versions//ms535284(v=vs.85)
+                    - name: Метафайл (WCHAR *)
+                      href: /previous-versions//ms535285(v=vs.85)
+                    - name: 'Метафайл (HDC, Ректф&, Метафилефрамеунит, Емфтипе, WCHAR *)'
+                      href: /previous-versions//ms535286(v=vs.85)
+                    - name: 'Метафайл (ХМЕТАФИЛЕ, Вмфплацеаблефилехеадер *, BOOL)'
+                      href: /previous-versions//ms535287(v=vs.85)
+                    - name: 'Метафайл (WCHAR *, HDC, Rect&, метафилефрамеунит, емфтипе, WCHAR*)'
+                      href: /previous-versions//ms535288(v=vs.85)
+                    - name: 'Метафайл (IStream *, HDC, ректф&, метафилефрамеунит, емфтипе, WCHAR*)'
+                      href: /previous-versions//ms535289(v=vs.85)
+                    - name: 'Метафайл (IStream *, HDC, емфтипе, WCHAR*)'
+                      href: /previous-versions//ms535290(v=vs.85)
+                    - name: 'Метафайл (IStream *, HDC, Rect&, метафилефрамеунит, емфтипе, WCHAR*)'
+                      href: /previous-versions//ms535291(v=vs.85)
+                    - name: 'Метафайл (WCHAR *, HDC, ректф&, метафилефрамеунит, емфтипе, WCHAR*)'
+                      href: /previous-versions//ms535292(v=vs.85)
+                    - name: 'Метафайл (WCHAR *, HDC, емфтипе, WCHAR*)'
+                      href: /previous-versions//ms535293(v=vs.85)
+                    - name: Метафайл (IStream *)
+                      href: /previous-versions//ms535294(v=vs.85)
+                    - name: 'Метафайл (ХЕНХМЕТАФИЛЕ, BOOL)'
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-metafile(inhenhmetafile_inbool)
+                    - name: 'Метафайл (HDC, Rect&, Метафилефрамеунит, Емфтипе, WCHAR *)'
+                      href: /previous-versions//ms535296(v=vs.85)
+                - name: Методы метафайлов
+                  href: '-gdiplus-class-metafile-methods.md'
+                  items:
+                    - name: Конверттоемфплус перегруженный метод
+                      href: '-gdiplus-CLASS-Metafile-ConvertToEmfPlus-Methods.md'
+                      items:
+                        - name: 'Конверттоемфплус (Graphics *, bool*, ЕМФТИПЕ, WChar *)'
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-converttoemfplus(inconstgraphics_inconstwchar_inoutint_inemftype_inconstwchar)
+                        - name: 'Конверттоемфплус (Graphics *, IStream*, bool *, емфтипе, WCHAR*)'
+                          href: /previous-versions//ms535282(v=vs.85)
+                        - name: 'Конверттоемфплус (Graphics *, WCHAR*, bool *, емфтипе, WCHAR*)'
+                          href: /previous-versions//ms535283(v=vs.85)
+                    - name: емфтовмфбитс
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-emftowmfbits
+                    - name: жетдовнлевелрастеризатионлимит
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getdownlevelrasterizationlimit
+                    - name: жесенхметафиле
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-gethenhmetafile
+                    - name: Жетметафилехеадер перегруженный метод
+                      href: '-gdiplus-CLASS-Metafile-GetMetafileHeader-Methods.md'
+                      items:
+                        - name: 'Жетметафилехеадер (WCHAR *, метафилехеадер*)'
+                          href: /previous-versions//ms535276(v=vs.85)
+                        - name: 'Жетметафилехеадер (ХЕНХМЕТАФИЛЕ *, метафилехеадер*)'
+                          href: /previous-versions//ms535277(v=vs.85)
+                        - name: 'Жетметафилехеадер (ХМЕТАФИЛЕ, Вмфплацеаблефилехеадер *, метафилехеадер*)'
+                          href: /previous-versions//ms535278(v=vs.85)
+                        - name: Жетметафилехеадер (Метафилехеадер *)
+                          href: /previous-versions//ms535279(v=vs.85)
+                        - name: 'Жетметафилехеадер (IStream *, метафилехеадер*)'
+                          href: /previous-versions//ms535280(v=vs.85)
+                    - name: плайрекорд
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-playrecord
+                    - name: сетдовнлевелрастеризатионлимит
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-setdownlevelrasterizationlimit
+            - name: метафилехеадер
+              href: /windows/win32/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader
+              items:
+                - name: Методы Метафилехеадер
+                  href: '-gdiplus-class-metafileheader-methods.md'
+                  items:
+                    - name: GetBounds
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getbounds
+                    - name: жетдпикс
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getdpix
+                    - name: жетдпий
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getdpiy
+                    - name: жетемфхеадер
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getemfheader
+                    - name: жетемфплусфлагс
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getemfplusflags
+                    - name: жетметафилесизе
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getmetafilesize
+                    - name: GetType
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-gettype
+                    - name: GetVersion
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getversion
+                    - name: жетвмфхеадер
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getwmfheader
+                    - name: Отобразить
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isdisplay
+                    - name: исемф
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isemf
+                    - name: исемфоремфплус
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isemforemfplus
+                    - name: исемфплус
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isemfplus
+                    - name: исемфплусдуал
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isemfplusdual
+                    - name: исемфплусонли
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isemfplusonly
+                    - name: исвмф
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-iswmf
+                    - name: исвмфплацеабле
+                      href: /windows/win32/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-iswmfplaceable
+            - name: пасдата
+              href: /windows/win32/api/gdiplustypes/nl-gdiplustypes-pathdata
+              items:
+                - name: 'Пасдата: конструктор:P Асдата'
+                  href: 'https://docs.microsoft.com/windows/win32/api/gdiplustypes/nf-gdiplustypes-pathdata-pathdata(constpathdata_)'
+            - name: пасградиентбруш
+              href: /windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush
+              items:
+                - name: Пасградиентбруш перегруженный конструктор
+                  href: '-gdiplus-CLASS-PathGradientBrush-Constructors.md'
+                  items:
+                    - name: 'Пасградиентбруш (Point *, INT, Врапмоде)'
+                      href: /previous-versions//ms535100(v=vs.85)
+                    - name: 'Пасградиентбруш (PointF *, INT, Врапмоде)'
+                      href: /previous-versions//ms535101(v=vs.85)
+                    - name: Пасградиентбруш (GraphicsPath *)
+                      href: /previous-versions//ms535102(v=vs.85)
+                - name: Методы Пасградиентбруш
+                  href: '-gdiplus-class-pathgradientbrush-methods.md'
+                  items:
+                    - name: жетблендкаунт
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount
+                    - name: Blend
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblend
+                    - name: жетцентерколор
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getcentercolor
+                    - name: Жетцентерпоинт перегруженный метод
+                      href: '-gdiplus-CLASS-PathGradientBrush-GetCenterPoint-Methods.md'
+                      items:
+                        - name: Жетцентерпоинт (Point *)
+                          href: /previous-versions//ms535098(v=vs.85)
+                        - name: Жетцентерпоинт (PointF *)
+                          href: /previous-versions//ms535099(v=vs.85)
+                    - name: жетфокусскалес
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getfocusscales
+                    - name: жетгаммакорректион
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getgammacorrection
+                    - name: жетграфикспас
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getgraphicspath
+                    - name: жетинтерполатионколоркаунт
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolorcount
+                    - name: жетинтерполатионколорс
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors
+                    - name: жетпоинткаунт
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getpointcount
+                    - name: Перегруженный метод с Методомических прямоугольников
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getrectangle(outrect)
+                      items:
+                        - name: Ректф *)
+                          href: /previous-versions//ms535096(v=vs.85)
+                        - name: Копрямоугольник (Rect *)
+                          href: /previous-versions//ms535097(v=vs.85)
+                    - name: жетсурраундколоркаунт
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolorcount
+                    - name: жетсурраундколорс
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolors
+                    - name: Преобразование
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-gettransform
+                    - name: жетврапмоде
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getwrapmode
+                    - name: мултиплитрансформ
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-multiplytransform
+                    - name: ресеттрансформ
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-resettransform
+                    - name: RotateTransform
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-rotatetransform
+                    - name: ScaleTransform
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-scaletransform
+                    - name: сетблендбеллшапе
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblendbellshape
+                    - name: сетблендтриангуларшапе
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblendtriangularshape
+                    - name: сетбленд
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend
+                    - name: сетцентерколор
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcentercolor
+                    - name: Сетцентерпоинт перегруженный метод
+                      href: '-gdiplus-CLASS-PathGradientBrush-SetCenterPoint-Methods.md'
+                      items:
+                        - name: Сетцентерпоинт (Point&)
+                          href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)
+                        - name: Сетцентерпоинт (PointF&)
+                          href: /previous-versions//ms535095(v=vs.85)
+                    - name: сетфокусскалес
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setfocusscales
+                    - name: сетгаммакорректион
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setgammacorrection
+                    - name: сетграфикспас
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setgraphicspath
+                    - name: сетинтерполатионколорс
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setinterpolationcolors
+                    - name: сетсурраундколорс
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setsurroundcolors
+                    - name: сеттрансформ
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-settransform
+                    - name: сетврапмоде
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setwrapmode
+                    - name: TranslateTransform
+                      href: /windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-translatetransform
+            - name: Перо
+              href: /windows/win32/api/gdipluspen/nl-gdipluspen-pen
+              items:
+                - name: Конструктор с перегрузкой пера
+                  href: '-gdiplus-CLASS-Pen-Constructors.md'
+                  items:
+                    - name: 'Перо (кисть *, ВЕЩЕСТВЕНное)'
+                      href: /previous-versions//ms535058(v=vs.85)
+                    - name: 'Перо (цвет&, ВЕЩЕСТВЕНное)'
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-pen(inconstcolor__inreal)
+                - name: Методы пера
+                  href: '-gdiplus-class-pen-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-clone
+                    - name: GetAlignment
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getalignment
+                    - name: Кисть
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getbrush
+                    - name: GetColor
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getcolor
+                    - name: жеткомпаундаррай
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getcompoundarray
+                    - name: жеткомпаундаррайкаунт
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getcompoundarraycount
+                    - name: жеткустомендкап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getcustomendcap
+                    - name: жеткустомстарткап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getcustomstartcap
+                    - name: жетдашкап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getdashcap
+                    - name: жетдашоффсет
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getdashoffset
+                    - name: жетдашпаттерн
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getdashpattern
+                    - name: жетдашпаттернкаунт
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getdashpatterncount
+                    - name: жетдашстиле
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getdashstyle
+                    - name: жетендкап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getendcap
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getlaststatus
+                    - name: жетлинежоин
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getlinejoin
+                    - name: жетмитерлимит
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getmiterlimit
+                    - name: жетпентипе
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getpentype
+                    - name: жетстарткап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getstartcap
+                    - name: Преобразование
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-gettransform
+                    - name: Полуширинные
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-getwidth
+                    - name: мултиплитрансформ
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-multiplytransform
+                    - name: ресеттрансформ
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-resettransform
+                    - name: RotateTransform
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-rotatetransform
+                    - name: ScaleTransform
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-scaletransform
+                    - name: сеталигнмент
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setalignment
+                    - name: сетбруш
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setbrush
+                    - name: сетколор
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setcolor
+                    - name: сеткомпаундаррай
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setcompoundarray
+                    - name: сеткустомендкап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setcustomendcap
+                    - name: сеткустомстарткап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setcustomstartcap
+                    - name: сетдашкап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setdashcap
+                    - name: сетдашоффсет
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setdashoffset
+                    - name: сетдашпаттерн
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setdashpattern
+                    - name: сетдашстиле
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setdashstyle
+                    - name: сетендкап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setendcap
+                    - name: сетлинекап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setlinecap
+                    - name: сетлинежоин
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setlinejoin
+                    - name: сетмитерлимит
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setmiterlimit
+                    - name: сетстарткап
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setstartcap
+                    - name: сеттрансформ
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-settransform
+                    - name: сетвидс
+                      href: /windows/win32/api/gdipluspen/nf-gdipluspen-pen-setwidth
+            - name: Точка
+              href: /windows/win32/api/gdiplustypes/nl-gdiplustypes-point
+              items:
+                - name: Перегруженный конструктор Point
+                  href: '-gdiplus-class-point-constructors.md'
+                  items:
+                    - name: Point ()
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-point-point(inconstpoint_)
+                    - name: 'Point (INT, INT)'
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-point-point(inint_inint)
+                    - name: Точка (точка&)
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-point-point(inconstpoint_)
+                    - name: Точка (размер&)
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-point-point(inconstsize_)
+                - name: Методы Point
+                  href: '-gdiplus-class-point-methods.md'
+                  items:
+                    - name: Равно
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-point-equals
+                    - name: operator + (точка&)
+                      href: /previous-versions//ms535008(v=vs.85)
+                    - name: operator — (Point&)
+                      href: /previous-versions//ms535009(v=vs.85)
+            - name: PointF
+              href: /windows/win32/api/gdiplustypes/nl-gdiplustypes-pointf
+              items:
+                - name: PointF перегруженный конструктор
+                  href: '-gdiplus-class-pointf-constructors.md'
+                  items:
+                    - name: 'PointF (ВЕЩЕСТВЕНная, реальная)'
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inreal_inreal)
+                    - name: PointF (SizeF&)
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstsizef_)
+                    - name: PointF ()
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstpointf_)
+                    - name: PointF (PointF&)
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstpointf_)
+                - name: Методы PointF
+                  href: '-gdiplus-class-pointf-methods.md'
+                  items:
+                    - name: Равно
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-pointf-equals
+                    - name: operator + (PointF&)
+                      href: /previous-versions//ms534997(v=vs.85)
+                    - name: operator — (PointF&)
+                      href: /previous-versions//ms534998(v=vs.85)
+            - name: приватефонтколлектион
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection
+              items:
+                - name: приватефонтколлектион
+                  href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-privatefontcollection-privatefontcollection(constprivatefontcollection_)
+                - name: Методы Приватефонтколлектион
+                  href: '-gdiplus-class-privatefontcollection-methods.md'
+                  items:
+                    - name: аддфонтфиле
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-privatefontcollection-addfontfile
+                    - name: аддмеморифонт
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-privatefontcollection-addmemoryfont
+            - name: PropertyItem
+              href: /previous-versions//ms534493(v=vs.85)
+            - name: Rect
+              href: /windows/win32/api/gdiplustypes/nl-gdiplustypes-rect
+              items:
+                - name: Перегруженный конструктор Rect
+                  href: '-gdiplus-class-rect-constructors.md'
+                  items:
+                    - name: Rect ()
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-rect(inconstpoint__inconstsize_)
+                    - name: 'Rect (точка&, размер&)'
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-rect(inconstpoint__inconstsize_)
+                    - name: 'Rect (INT, INT, INT, INT)'
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-rect(inint_inint_inint_inint)
+                - name: Методы Rect
+                  href: '-gdiplus-class-rect-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-clone
+                    - name: Содержит перегруженный метод
+                      href: '-gdiplus-CLASS-RectF-Contains-Methods.md'
+                      items:
+                        - name: Contains (точка&)
+                          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-contains(inconstpoint_)
+                        - name: Contains (Rect&)
+                          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-contains(inrect_)
+                        - name: 'Contains (INT, INT)'
+                          href: /previous-versions//ms534986(v=vs.85)
+                    - name: Равно
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-equals
+                    - name: По нижнему краю
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-getbottom
+                    - name: GetBounds
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-getbounds
+                    - name: GetLeft
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-getleft
+                    - name: Нахождения
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-getlocation
+                    - name: По правому краю
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-getright
+                    - name: GetSize
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-getsize
+                    - name: GetTop
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-gettop
+                    - name: Перегруженный метод Deflate
+                      href: '-gdiplus-CLASS-RectF-Inflate-Methods.md'
+                      items:
+                        - name: 'Deflate (INT, INT)'
+                          href: /previous-versions//ms534982(v=vs.85)
+                        - name: Выпуклая линза (точка&)
+                          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-inflate(inconstpoint_)
+                    - name: Перегруженный метод Intersect
+                      href: '-gdiplus-CLASS-Region-Intersect-Methods.md'
+                      items:
+                        - name: 'Intersect (Rect&, Rect&, Rect&)'
+                          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-intersect(outrect__inconstrect__inconstrect_)
+                        - name: Intersect (Rect&)
+                          href: /previous-versions//ms534981(v=vs.85)
+                    - name: интерсектсвис
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-intersectswith
+                    - name: исемптяреа
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-isemptyarea
+                    - name: Смещение перегруженного метода
+                      href: '-gdiplus-CLASS-RectF-Offset-Methods.md'
+                      items:
+                        - name: 'Offset (INT, INT)'
+                          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-offset(inint_inint)
+                        - name: Offset (точка&)
+                          href: /previous-versions//ms534979(v=vs.85)
+                    - name: Union
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-union
+            - name: ректф
+              href: /windows/win32/api/gdiplustypes/nl-gdiplustypes-rectf
+              items:
+                - name: Ректф перегруженный конструктор
+                  href: '-gdiplus-class-rectf-constructors.md'
+                  items:
+                    - name: 'Ректф (PointF&, SizeF&)'
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-rectf(inconstpointf__inconstsizef_)
+                    - name: Ректф ()
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-rectf(inconstpointf__inconstsizef_)
+                    - name: 'Ректф (ВЕЩЕСТВЕНная, ВЕЩЕСТВЕНная, вещественная)'
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-rectf(inreal_inreal_inreal_inreal)
+                - name: Методы Ректф
+                  href: '-gdiplus-class-rectf-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-clone
+                    - name: Содержит перегруженный метод
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstpointf_)
+                      items:
+                        - name: Contains (Ректф&)
+                          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstrectf_)
+                        - name: Contains (PointF&)
+                          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstpointf_)
+                        - name: 'Содержит (REAL, REAL)'
+                          href: /previous-versions//ms534956(v=vs.85)
+                    - name: Равно
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-equals
+                    - name: По нижнему краю
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-getbottom
+                    - name: GetBounds
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-getbounds
+                    - name: GetLeft
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-getleft
+                    - name: Нахождения
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-getlocation
+                    - name: По правому краю
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-getright
+                    - name: GetSize
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-getsize
+                    - name: GetTop
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-gettop
+                    - name: Перегруженный метод Deflate
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_)
+                      items:
+                        - name: Deflate (PointF&)
+                          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_)
+                        - name: 'Выпуклая линза (ВЕЩЕСТВЕНная, реальная)'
+                          href: /previous-versions//ms534953(v=vs.85)
+                    - name: Перегруженный метод Intersect
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-intersect(outrectf__inconstrectf__inconstrectf_)
+                      items:
+                        - name: 'Intersect (Rect&, Rect&, Rect&)'
+                          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-intersect(outrectf__inconstrectf__inconstrectf_)
+                        - name: Intersect (Rect&)
+                          href: /previous-versions//ms534950(v=vs.85)
+                    - name: интерсектсвис
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-intersectswith
+                    - name: исемптяреа
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-isemptyarea
+                    - name: Смещение перегруженного метода
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-offset(inreal_inreal)
+                      items:
+                        - name: 'Offset (INT, INT)'
+                          href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-offset(inreal_inreal)
+                        - name: Offset (точка&)
+                          href: /previous-versions//ms534948(v=vs.85)
+                    - name: Union
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-union
+            - name: редэйекорректион
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-redeyecorrection
+              items:
+                - name: редэйекорректион
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-redeyecorrection-redeyecorrection
+                - name: Методы Редэйекорректион
+                  href: '-gdiplus-class-redeyecorrection-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-redeyecorrection-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-redeyecorrection-setparameters
+            - name: Region
+              href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-region
+              items:
+                - name: Перегруженный конструктор Region
+                  href: '-gdiplus-class-region-constructors.md'
+                  items:
+                    - name: Регион (Rect&)
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-region(inconstrect_)
+                    - name: Region ()
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-region(constregion_)
+                    - name: 'Регион (BYTE *, INT)'
+                      href: /previous-versions//ms534922(v=vs.85)
+                    - name: Регион (GraphicsPath *)
+                      href: /previous-versions//ms534923(v=vs.85)
+                    - name: Регион (ХРГН)
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-region(inhrgn)
+                    - name: Регион (Ректф&)
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-region(inconstrectf_)
+                - name: Методы регионов
+                  href: '-gdiplus-class-region-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-clone
+                    - name: Перегруженный метод дополнения
+                      href: '-gdiplus-CLASS-Region-Complement-Methods.md'
+                      items:
+                        - name: Дополнение (GraphicsPath *)
+                          href: /previous-versions//ms534829(v=vs.85)
+                        - name: Дополнение (регион *)
+                          href: /previous-versions//ms534917(v=vs.85)
+                        - name: Дополнение (& Rect)
+                          href: /previous-versions//ms534918(v=vs.85)
+                        - name: Дополнение (Ректф&)
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-complement(inconstrectf_)
+                    - name: Равно
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-equals
+                    - name: Исключить перегруженный метод
+                      href: '-gdiplus-CLASS-Region-Exclude-Methods.md'
+                      items:
+                        - name: Exclude (GraphicsPath *)
+                          href: /previous-versions//ms534820(v=vs.85)
+                        - name: Исключить (Ректф&)
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-exclude(inconstrectf_)
+                        - name: Исключить (& Rect)
+                          href: /previous-versions//ms534825(v=vs.85)
+                        - name: Исключить (регион *)
+                          href: /previous-versions//ms534827(v=vs.85)
+                    - name: фромхргн
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-fromhrgn
+                    - name: Перегруженный метод с привязкой
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-getbounds(outrectf_inconstgraphics)
+                      items:
+                        - name: 'Награничные элементы (Rect *, Graphics*)'
+                          href: /previous-versions//ms534816(v=vs.85)
+                        - name: 'Привязкой (Ректф *, графика*)'
+                          href: /previous-versions//ms534818(v=vs.85)
+                    - name: GetData
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-getdata
+                    - name: жетдатасизе
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-getdatasize
+                    - name: жесргн
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-gethrgn
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-getlaststatus
+                    - name: Жетрегионсканс перегруженный метод
+                      href: '-gdiplus-CLASS-Region-GetRegionScans-Methods.md'
+                      items:
+                        - name: 'Жетрегионсканс (матрица *, Rect*, int *)'
+                          href: /previous-versions//ms534812(v=vs.85)
+                        - name: 'Жетрегионсканс (матрица *, ректф*, int *)'
+                          href: /previous-versions//ms534814(v=vs.85)
+                    - name: жетрегионсканскаунт
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscanscount
+                    - name: Перегруженный метод Intersect
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-intersect(inconstgraphicspath)
+                      items:
+                        - name: Intersect (Rect&)
+                          href: /previous-versions//ms534804(v=vs.85)
+                        - name: Intersect (GraphicsPath *)
+                          href: /previous-versions//ms534806(v=vs.85)
+                        - name: Intersect (Ректф&)
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-intersect(inconstrectf_)
+                        - name: Intersect (Region *)
+                          href: /previous-versions//ms534810(v=vs.85)
+                    - name: IsEmpty
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-isempty
+                    - name: Бесконечность
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-isinfinite
+                    - name: Невидимый перегруженный метод
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-isvisible(inconstpointf__inconstgraphics)
+                      items:
+                        - name: 'Visible (PointF&, графика *)'
+                          href: /previous-versions//ms534795(v=vs.85)
+                        - name: 'Visible (Ректф&, графика *)'
+                          href: /previous-versions//ms534796(v=vs.85)
+                        - name: 'Visible (& Rect, графика *)'
+                          href: /previous-versions//ms534797(v=vs.85)
+                        - name: 'Видимо (INT, INT, Graphics *)'
+                          href: /previous-versions//ms534798(v=vs.85)
+                        - name: 'Visible (ВЕЩЕСТВЕНная, ВЕЩЕСТВЕНная, графическая *)'
+                          href: /previous-versions//ms534799(v=vs.85)
+                        - name: 'Visible (INT, INT, INT, INT, Graphics *)'
+                          href: /previous-versions//ms534800(v=vs.85)
+                        - name: 'Visible (точка&, графика *)'
+                          href: /previous-versions//ms534801(v=vs.85)
+                        - name: 'Visible (ВЕЩЕСТВЕНная, вещественная, реальная, реальная, графика *)'
+                          href: /previous-versions//ms534802(v=vs.85)
+                    - name: макимпти
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-makeempty
+                    - name: макеинфините
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-makeinfinite
+                    - name: Преобразование
+                      href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-transform
+                    - name: Преобразование перегруженного метода
+                      href: '-gdiplus-CLASS-Region-Translate-Methods.md'
+                      items:
+                        - name: 'Перевод (реальный, REAL)'
+                          href: /previous-versions//ms534793(v=vs.85)
+                        - name: 'Преобразование (INT, INT)'
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-translate(inint_inint)
+                    - name: Перегруженный метод Union
+                      href: '-gdiplus-CLASS-Region-Union-Methods.md'
+                      items:
+                        - name: Union (& Rect)
+                          href: /previous-versions//ms534789(v=vs.85)
+                        - name: Union (Region *)
+                          href: /previous-versions//ms534790(v=vs.85)
+                        - name: Union (Ректф&)
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-union(inconstrectf_)
+                        - name: Union (GraphicsPath *)
+                          href: /previous-versions//ms534792(v=vs.85)
+                    - name: Перегруженный метод XOR
+                      href: '-gdiplus-CLASS-Region-Xor-Methods.md'
+                      items:
+                        - name: XOR (GraphicsPath *)
+                          href: /previous-versions//ms534785(v=vs.85)
+                        - name: XOR (Ректф&)
+                          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-xor(inconstrectf_)
+                        - name: XOR (& Rect)
+                          href: /previous-versions//ms534787(v=vs.85)
+                        - name: XOR (регион *)
+                          href: /previous-versions//ms534788(v=vs.85)
+            - name: Повысить резкость
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-sharpen
+              items:
+                - name: Повысить резкость
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-sharpen-sharpen
+                - name: Методы повышения резкости
+                  href: '-gdiplus-class-sharpen-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-sharpen-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-sharpen-setparameters
+            - name: Размер
+              href: /windows/win32/api/gdiplustypes/nl-gdiplustypes-size
+              items:
+                - name: Размер перегруженного конструктора
+                  href: '-gdiplus-class-size-constructors.md'
+                  items:
+                    - name: Размер ()
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-size-size(inconstsize_)
+                    - name: 'Размер (INT, INT)'
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-size-size(inint_inint)
+                    - name: Размер (размер&)
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-size-size(inconstsize_)
+                - name: Методы размера
+                  href: '-gdiplus-class-size-methods.md'
+                  items:
+                    - name: Empty
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-size-empty
+                    - name: Равно
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-size-equals
+                    - name: operator +
+                      href: /previous-versions//ms534751(v=vs.85)
+                    - name: operator-
+                      href: /previous-versions//ms534752(v=vs.85)
+            - name: SizeF
+              href: /windows/win32/api/gdiplustypes/nl-gdiplustypes-sizef
+              items:
+                - name: SizeF перегруженный конструктор
+                  href: '-gdiplus-class-sizef-constructors.md'
+                  items:
+                    - name: SizeF ()
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-sizef-sizef(inconstsizef_)
+                    - name: 'SizeF (ВЕЩЕСТВЕНная, реальная)'
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-sizef-sizef(inreal_inreal)
+                    - name: SizeF (SizeF&)
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-sizef-sizef(inconstsizef_)
+                - name: Методы SizeF
+                  href: '-gdiplus-class-sizef-methods.md'
+                  items:
+                    - name: Empty
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-sizef-empty
+                    - name: Равно
+                      href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-sizef-equals
+                    - name: operator +
+                      href: /previous-versions//ms534742(v=vs.85)
+                    - name: operator-
+                      href: /previous-versions//ms534743(v=vs.85)
+            - name: SolidBrush
+              href: /windows/win32/api/gdiplusbrush/nl-gdiplusbrush-solidbrush
+              items:
+                - name: SolidBrush
+                  href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-solidbrush-solidbrush(constsolidbrush_)
+                - name: Методы SolidBrush
+                  href: '-gdiplus-class-solidbrush-methods.md'
+                  items:
+                    - name: GetColor
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-solidbrush-getcolor
+                    - name: сетколор
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-solidbrush-setcolor
+            - name: StringFormat
+              href: /windows/win32/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat
+              items:
+                - name: StringFormat перегруженный конструктор
+                  href: '-gdiplus-CLASS-StringFormat-Constructors.md'
+                  items:
+                    - name: 'StringFormat (INT, LANGID)'
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-stringformat(inint_inlangid)
+                    - name: StringFormat (StringFormat *)
+                      href: /previous-versions//ms534733(v=vs.85)
+                - name: Методы StringFormat
+                  href: '-gdiplus-class-stringformat-methods.md'
+                  items:
+                    - name: Клонировать
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-clone
+                    - name: женерикдефаулт
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-genericdefault
+                    - name: женериктипографик
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-generictypographic
+                    - name: GetAlignment
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getalignment
+                    - name: жетдигитсубститутионлангуаже
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getdigitsubstitutionlanguage
+                    - name: жетдигитсубститутионмесод
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getdigitsubstitutionmethod
+                    - name: жетформатфлагс
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getformatflags
+                    - name: жесоткэйпрефикс
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-gethotkeyprefix
+                    - name: жетластстатус
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getlaststatus
+                    - name: жетлинеалигнмент
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getlinealignment
+                    - name: жетмеасураблечарактерранжекаунт
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount
+                    - name: жеттабстопкаунт
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-gettabstopcount
+                    - name: жеттабстопс
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-gettabstops
+                    - name: Усечение
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-gettrimming
+                    - name: сеталигнмент
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setalignment
+                    - name: сетдигитсубститутион
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setdigitsubstitution
+                    - name: сетформатфлагс
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setformatflags
+                    - name: сесоткэйпрефикс
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-sethotkeyprefix
+                    - name: сетлинеалигнмент
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setlinealignment
+                    - name: сетмеасураблечарактерранжес
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges
+                    - name: сеттабстопс
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-settabstops
+                    - name: сеттримминг
+                      href: /windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-settrimming
+            - name: TextureBrush
+              href: /windows/win32/api/gdiplusbrush/nl-gdiplusbrush-texturebrush
+              items:
+                - name: TextureBrush перегруженный конструктор
+                  href: '-gdiplus-CLASS-TextureBrush-Constructors.md'
+                  items:
+                    - name: 'TextureBrush (Image *, Врапмоде, Ректф&)'
+                      href: /previous-versions//ms534544(v=vs.85)
+                    - name: 'TextureBrush (Image *, Rect&, ImageAttributes*)'
+                      href: /previous-versions//ms534546(v=vs.85)
+                    - name: 'TextureBrush (Image *, Врапмоде, INT, INT, INT, INT)'
+                      href: /previous-versions//ms534548(v=vs.85)
+                    - name: 'TextureBrush (изображение *, Врапмоде, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, ВЕЩЕСТВЕНное, реальное)'
+                      href: /previous-versions//ms534550(v=vs.85)
+                    - name: 'TextureBrush (Image *, ректф&, ImageAttributes*)'
+                      href: /previous-versions//ms534552(v=vs.85)
+                    - name: 'TextureBrush (Image *, Врапмоде)'
+                      href: /previous-versions//ms534554(v=vs.85)
+                    - name: 'TextureBrush (Image *, Врапмоде, Rect&)'
+                      href: /previous-versions//ms534558(v=vs.85)
+                - name: Методы TextureBrush
+                  href: '-gdiplus-class-texturebrush-methods.md'
+                  items:
+                    - name: GetImage
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-getimage
+                    - name: Преобразование
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-gettransform
+                    - name: жетврапмоде
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-getwrapmode
+                    - name: мултиплитрансформ
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-multiplytransform
+                    - name: ресеттрансформ
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-resettransform
+                    - name: RotateTransform
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-rotatetransform
+                    - name: ScaleTransform
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-scaletransform
+                    - name: сеттрансформ
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-settransform
+                    - name: сетврапмоде
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-setwrapmode
+                    - name: TranslateTransform
+                      href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-translatetransform
+            - name: Интенсив
+              href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-tint
+              items:
+                - name: Интенсив
+                  href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-tint-tint
+                - name: Методы оттенков
+                  href: '-gdiplus-class-tint-methods.md'
+                  items:
+                    - name: GetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-tint-getparameters
+                    - name: SetParameters
+                      href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-tint-setparameters
+        - name: Функции
+          href: '-gdiplus-func-functions.md'
+          items:
+            - name: гдиплусшутдовн
+              href: /windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown
+            - name: гдиплусстартуп
+              href: /windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup
+            - name: жетимажедекодерс
+              href: /windows/win32/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoders
+            - name: жетимажедекодерссизе
+              href: /windows/win32/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize
+            - name: жетимажеенкодерс
+              href: /windows/win32/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders
+            - name: жетимажеенкодерссизе
+              href: /windows/win32/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoderssize
+            - name: жетпикселформатсизе
+              href: /windows/win32/api/gdiplusPixelFormats/nf-gdipluspixelformats-getpixelformatsize
+            - name: исалфапикселформат
+              href: /windows/win32/api/gdiplusPixelFormats/nf-gdipluspixelformats-isalphapixelformat
+            - name: исканоникалпикселформат
+              href: /windows/win32/api/gdiplusPixelFormats/nf-gdipluspixelformats-iscanonicalpixelformat
+            - name: исекстендедпикселформат
+              href: /windows/win32/api/gdiplusPixelFormats/nf-gdipluspixelformats-isextendedpixelformat
+            - name: исиндекседпикселформат
+              href: /windows/win32/api/gdiplusPixelFormats/nf-gdipluspixelformats-isindexedpixelformat
+            - name: обжекттипеисвалид
+              href: /windows/win32/api/gdiplusEnums/nf-gdiplusenums-objecttypeisvalid
+        - name: Константы
+          href: '-gdiplus-constant-constants.md'
+          items:
+            - name: Константы эффектов изображения
+              href: '-gdiplus-constant-image-effect-constants.md'
+            - name: Константы кодировщика изображений
+              href: '-gdiplus-constant-image-encoder-constants.md'
+            - name: Константы формата файла изображения
+              href: '-gdiplus-constant-image-file-format-constants.md'
+            - name: Константы измерения кадра изображения
+              href: '-gdiplus-constant-image-frame-dimension-constants.md'
+            - name: Константы формата пикселей изображения
+              href: '-gdiplus-constant-image-pixel-format-constants.md'
+            - name: Константы типа тега свойства Image
+              href: '-gdiplus-constant-image-property-tag-type-constants.md'
+            - name: Константы тега свойства Image
+              href: '-gdiplus-constant-image-property-tag-constants.md'
+              items:
+                - name: Теги свойств в числовом порядке
+                  href: '-gdiplus-constant-property-tags-in-numerical-order.md'
+                - name: Теги свойств в алфавитном порядке
+                  href: '-gdiplus-constant-property-tags-in-alphabetical-order.md'
+                - name: Описания элементов свойств
+                  href: '-gdiplus-constant-property-item-descriptions.md'
+                - name: Спецификации форматов файлов изображений
+                  href: '-gdiplus-constant-image-file-format-specifications.md'
+        - name: Перечисления
+          href: '-gdiplus-enum-enumerations.md'
+          items:
+            - name: бруштипе
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-brushtype
+            - name: колораджусттипе
+              href: /windows/win32/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype
+            - name: колорчаннелфлагс
+              href: /windows/win32/api/gdipluscolor/ne-gdipluscolor-colorchannelflags
+            - name: колорматриксфлагс
+              href: /windows/win32/api/gdipluscolormatrix/ne-gdipluscolormatrix-colormatrixflags
+            - name: CombineMode
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-combinemode
+            - name: компоситингмоде
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-compositingmode
+            - name: компоситингкуалити
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-compositingquality
+            - name: курдинатеспаце
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-coordinatespace
+            - name: курвеаджустментс
+              href: /windows/win32/api/gdiplusEffects/ne-gdipluseffects-curveadjustments
+            - name: курвечаннел
+              href: /windows/win32/api/gdiplusEffects/ne-gdipluseffects-curvechannel
+            - name: дашкап
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-dashcap
+            - name: DashStyle
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-dashstyle
+            - name: DebugEventLevel
+              href: /windows/win32/api/gdiplusinit/ne-gdiplusinit-debugeventlevel
+            - name: дисертипе
+              href: /windows/win32/api/gdipluspixelformats/ne-gdipluspixelformats-dithertype
+            - name: дриверстрингоптионс
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-driverstringoptions
+            - name: емфплусрекордтипе
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-emfplusrecordtype
+            - name: емфтовмфбитсфлагс
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags
+            - name: емфтипе
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-emftype
+            - name: EncoderParameterValueType
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-encoderparametervaluetype
+            - name: енкодервалуе
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-encodervalue
+            - name: филлмоде
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-fillmode
+            - name: флушинтентион
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-flushintention
+            - name: FontStyle
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-fontstyle
+            - name: GdiplusStartupParams
+              href: /windows/win32/api/gdiplusinit/ne-gdiplusinit-gdiplusstartupparams
+            - name: хатчстиле
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-hatchstyle
+            - name: хистограмформат
+              href: /windows/win32/api/gdiplusColorMatrix/ne-gdipluscolormatrix-histogramformat
+            - name: хоткэйпрефикс
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-hotkeyprefix
+            - name: имажекодекфлагс
+              href: /windows/win32/api/gdiplusimaging/ne-gdiplusimaging-imagecodecflags
+            - name: ImageFlags
+              href: /windows/win32/api/gdiplusimaging/ne-gdiplusimaging-imageflags
+            - name: имажелоккмоде
+              href: /windows/win32/api/gdiplusimaging/ne-gdiplusimaging-imagelockmode
+            - name: ImageType
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-imagetype
+            - name: интерполатионмоде
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-interpolationmode
+            - name: итемдатапоситион
+              href: /windows/win32/api/gdiplusImaging/ne-gdiplusimaging-itemdataposition
+            - name: линеарградиентмоде
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-lineargradientmode
+            - name: линекап
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-linecap
+            - name: линежоин
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-linejoin
+            - name: матриксордер
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-matrixorder
+            - name: метафилефрамеунит
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-metafileframeunit
+            - name: метафилетипе
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-metafiletype
+            - name: ObjectType
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-objecttype
+            - name: палеттефлагс
+              href: /windows/win32/api/gdipluspixelformats/ne-gdipluspixelformats-paletteflags
+            - name: палеттетипе
+              href: /windows/win32/api/gdiplusPixelFormats/ne-gdipluspixelformats-palettetype
+            - name: паспоинттипе
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-pathpointtype
+            - name: пеналигнмент
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-penalignment
+            - name: пентипе
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-pentype
+            - name: пикселоффсетмоде
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-pixeloffsetmode
+            - name: ротатефлиптипе
+              href: /windows/win32/api/gdiplusimaging/ne-gdiplusimaging-rotatefliptype
+            - name: смусингмоде
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-smoothingmode
+            - name: Состояние
+              href: /windows/win32/api/gdiplustypes/ne-gdiplustypes-status
+            - name: стрингалигнмент
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-stringalignment
+            - name: стрингдигитсубституте
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-stringdigitsubstitute
+            - name: стрингформатфлагс
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-stringformatflags
+            - name: стрингтримминг
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-stringtrimming
+            - name: текстрендерингхинт
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-textrenderinghint
+            - name: Unit
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-unit
+            - name: варпмоде
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-warpmode
+            - name: врапмоде
+              href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-wrapmode
+        - name: Структуры
+          href: '-gdiplus-struc-structures.md'
+          items:
+            - name: блурпарамс
+              href: /windows/win32/api/gdipluseffects/ns-gdipluseffects-blurparams
+            - name: бригхтнессконтрастпарамс
+              href: /windows/win32/api/gdipluseffects/ns-gdipluseffects-brightnesscontrastparams
+            - name: колорбаланцепарамс
+              href: /windows/win32/api/gdipluseffects/ns-gdipluseffects-colorbalanceparams
+            - name: колоркурвепарамс
+              href: /windows/win32/api/gdipluseffects/ns-gdipluseffects-colorcurveparams
+            - name: колорлутпарамс
+              href: /windows/win32/api/gdipluseffects/ns-gdipluseffects-colorlutparams
+            - name: колормап
+              href: /windows/win32/api/gdipluscolormatrix/ns-gdipluscolormatrix-colormap
+            - name: колорматрикс
+              href: /windows/win32/api/gdipluscolormatrix/ns-gdipluscolormatrix-colormatrix
+            - name: ColorPalette
+              href: /windows/win32/api/gdipluspixelformats/ns-gdipluspixelformats-colorpalette
+            - name: ENHMETAHEADER3
+              href: /windows/win32/api/gdiplusmetaheader/ns-gdiplusmetaheader-enhmetaheader3
+            - name: гдиплусаборт
+              href: /windows/win32/api/gdiplusTypes/ns-gdiplustypes-gdiplusabort
+            - name: GdiplusStartupInput
+              href: /windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupinput
+            - name: гдиплусстартупинпутекс
+              href: /windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupinputex
+            - name: гдиплусстартупаутпут
+              href: /windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput
+            - name: хуесатуратионлигхтнесспарамс
+              href: /windows/win32/api/gdipluseffects/ns-gdipluseffects-huesaturationlightnessparams
+            - name: левелспарамс
+              href: /windows/win32/api/gdipluseffects/ns-gdipluseffects-levelsparams
+            - name: PWMFRect16
+              href: /windows/win32/api/gdiplusmetaheader/ns-gdiplusmetaheader-pwmfrect16
+            - name: редэйекорректионпарамс
+              href: /windows/win32/api/gdipluseffects/ns-gdipluseffects-redeyecorrectionparams
+            - name: шарпенпарамс
+              href: /windows/win32/api/gdipluseffects/ns-gdipluseffects-sharpenparams
+            - name: тинтпарамс
+              href: /windows/win32/api/gdipluseffects/ns-gdipluseffects-tintparams
+            - name: вмфплацеаблефилехеадер
+              href: /windows/win32/api/gdiplusmetaheader/ns-gdiplusmetaheader-wmfplaceablefileheader
+        - name: API плоских структур GDI+
+          href: '-gdiplus-flatapi-flat.md'
+          items:
+            - name: Функции Аджустаблеарровкап
+              href: '-gdiplus-adjustablearrowcap-flat.md'
+            - name: Функции точечного рисунка
+              href: '-gdiplus-bitmap-flat.md'
+            - name: Функции кисти
+              href: '-gdiplus-brush-flat.md'
+            - name: Функции Качедбитмап
+              href: '-gdiplus-cachedbitmap-flat.md'
+            - name: Функции Кустомлинекап
+              href: '-gdiplus-customlinecap-flat.md'
+            - name: Функции шрифтов
+              href: '-gdiplus-font-flat.md'
+            - name: фонтфамилифунктионс
+              href: '-gdiplus-fontfamily-flat.md'
+            - name: Графические функции
+              href: '-gdiplus-graphics-flat.md'
+            - name: Функции GraphicsPath
+              href: '-gdiplus-graphicspath-flat.md'
+            - name: Функции Хатчбруш
+              href: '-gdiplus-hatchbrush-flat.md'
+            - name: Функции изображений
+              href: '-gdiplus-image-flat.md'
+            - name: Функции ImageAttributes
+              href: '-gdiplus-imageattributes-flat.md'
+            - name: Функции LinearGradientBrush
+              href: '-gdiplus-lineargradientbrush-flat.md'
+            - name: Функции матрицы
+              href: '-gdiplus-matrix-flat.md'
+            - name: Функции памяти
+              href: '-gdiplus-memory-flat.md'
+            - name: Функции уведомлений
+              href: '-gdiplus-notification-flat.md'
+            - name: Функции Пасградиентбруш
+              href: '-gdiplus-pathgradientbrush-flat.md'
+            - name: Функции Паситератор
+              href: '-gdiplus-pathiterator-flat.md'
+            - name: Функции пера
+              href: '-gdiplus-pen-flat.md'
+            - name: Функции Region
+              href: '-gdiplus-region-flat.md'
+            - name: Функции SolidBrush
+              href: '-gdiplus-solidbrush-flat.md'
+            - name: Функции формата строки
+              href: '-gdiplus-stringformat-flat.md'
+            - name: Текстовые функции
+              href: '-gdiplus-text-flat.md'
+            - name: Функции текстурной кисти
+              href: '-gdiplus-texturebrush-flat.md'

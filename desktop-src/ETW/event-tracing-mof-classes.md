@@ -1,0 +1,150 @@
+---
+description: Классы определяются в \\ корневом \\ пространстве имен WMI.
+ms.assetid: b86c3863-b92c-4f6c-b953-3e0638bc915e
+title: Классы MOF трассировки событий
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c0a94fb5608ddcdd8a13df2d221adf3d032f6be8
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103990940"
+---
+# <a name="event-tracing-mof-classes"></a><span data-ttu-id="e8731-103">Классы MOF трассировки событий</span><span class="sxs-lookup"><span data-stu-id="e8731-103">Event Tracing MOF Classes</span></span>
+
+<span data-ttu-id="e8731-104">Классы определяются в \\ корневом \\ пространстве имен WMI.</span><span class="sxs-lookup"><span data-stu-id="e8731-104">The classes are defined in the \\root\\wmi namespace.</span></span> <span data-ttu-id="e8731-105">Квалификатор **евентверсион** для событий ядра связывает класс с определенной операционной системой.</span><span class="sxs-lookup"><span data-stu-id="e8731-105">The **EventVersion** qualifier for the kernel events associates the class with a specific operating system.</span></span> <span data-ttu-id="e8731-106">Например, нулевая версия связана с Windows 2000, версией 1 с Windows XP и Windows Server 2003, а второй — с Windows Vista.</span><span class="sxs-lookup"><span data-stu-id="e8731-106">For example, version zero is associated with Windows 2000, version one with Windows XP and Windows Server 2003, and version two with Windows Vista.</span></span>
+
+<span data-ttu-id="e8731-107">Следующие классы MOF определяют классы событий ETW.</span><span class="sxs-lookup"><span data-stu-id="e8731-107">The following MOF classes define the ETW event classes.</span></span>
+
+-   [<span data-ttu-id="e8731-108">**евенттраце**</span><span class="sxs-lookup"><span data-stu-id="e8731-108">**EventTrace**</span></span>](eventtrace.md)
+-   [<span data-ttu-id="e8731-109">**\_Заголовок евенттраце**</span><span class="sxs-lookup"><span data-stu-id="e8731-109">**EventTrace\_Header**</span></span>](eventtrace-header.md)
+-   [<span data-ttu-id="e8731-110">**евенттрацеевент**</span><span class="sxs-lookup"><span data-stu-id="e8731-110">**EventTraceEvent**</span></span>](eventtraceevent.md)
+-   [<span data-ttu-id="e8731-111">**Потерянное \_ событие**</span><span class="sxs-lookup"><span data-stu-id="e8731-111">**Lost\_Event**</span></span>](lost-event.md)
+-   [<span data-ttu-id="e8731-112">**МСНТ \_ системтраце**</span><span class="sxs-lookup"><span data-stu-id="e8731-112">**MSNT\_SystemTrace**</span></span>](msnt-systemtrace.md)
+-   [<span data-ttu-id="e8731-113">**\_ЛОСТЕВЕНТ RT**</span><span class="sxs-lookup"><span data-stu-id="e8731-113">**RT\_LostEvent**</span></span>](rt-lostevent.md)
+
+<span data-ttu-id="e8731-114">Следующие классы MOF определяют классы событий ядра.</span><span class="sxs-lookup"><span data-stu-id="e8731-114">The following MOF classes define the kernel events classes.</span></span>
+
+-   [<span data-ttu-id="e8731-115">**ALPC**</span><span class="sxs-lookup"><span data-stu-id="e8731-115">**ALPC**</span></span>](alpc.md)
+-   [<span data-ttu-id="e8731-116">**ALPC \_ — \_ сообщение о получении**</span><span class="sxs-lookup"><span data-stu-id="e8731-116">**ALPC\_Receive\_Message**</span></span>](alpc-receive-message.md)
+-   [<span data-ttu-id="e8731-117">**ALPC — \_ Отправка \_ сообщения**</span><span class="sxs-lookup"><span data-stu-id="e8731-117">**ALPC\_Send\_Message**</span></span>](alpc-send-message.md)
+-   [<span data-ttu-id="e8731-118">**ALPC, \_ неожидание**</span><span class="sxs-lookup"><span data-stu-id="e8731-118">**ALPC\_Unwait**</span></span>](alpc-unwait.md)
+-   [<span data-ttu-id="e8731-119">**ALPC. \_ Ожидание \_ \_ нового \_ сообщения**</span><span class="sxs-lookup"><span data-stu-id="e8731-119">**ALPC\_Wait\_For\_New\_Message**</span></span>](alpc-wait-for-new-message.md)
+-   [<span data-ttu-id="e8731-120">**ALPC. \_ Ожидание \_ \_ ответа**</span><span class="sxs-lookup"><span data-stu-id="e8731-120">**ALPC\_Wait\_For\_Reply**</span></span>](alpc-wait-for-reply.md)
+-   [<span data-ttu-id="e8731-121">**ксвитч**</span><span class="sxs-lookup"><span data-stu-id="e8731-121">**CSwitch**</span></span>](cswitch.md)
+-   [<span data-ttu-id="e8731-122">**DPC**</span><span class="sxs-lookup"><span data-stu-id="e8731-122">**DPC**</span></span>](dpc.md)
+-   [<span data-ttu-id="e8731-123">**дискио**</span><span class="sxs-lookup"><span data-stu-id="e8731-123">**DiskIo**</span></span>](diskio.md)
+-   [<span data-ttu-id="e8731-124">**Дискио \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-124">**DiskIo\_TypeGroup1**</span></span>](diskio-typegroup1.md)
+-   [<span data-ttu-id="e8731-125">**Дискио \_ TypeGroup2**</span><span class="sxs-lookup"><span data-stu-id="e8731-125">**DiskIo\_TypeGroup2**</span></span>](diskio-typegroup2.md)
+-   [<span data-ttu-id="e8731-126">**Дискио \_ TypeGroup3**</span><span class="sxs-lookup"><span data-stu-id="e8731-126">**DiskIo\_TypeGroup3**</span></span>](diskio-typegroup3.md)
+-   [<span data-ttu-id="e8731-127">**дриверкомплетерекуест**</span><span class="sxs-lookup"><span data-stu-id="e8731-127">**DriverCompleteRequest**</span></span>](drivercompleterequest.md)
+-   [<span data-ttu-id="e8731-128">**дриверкомплетерекуестретурн**</span><span class="sxs-lookup"><span data-stu-id="e8731-128">**DriverCompleteRequestReturn**</span></span>](drivercompleterequestreturn.md)
+-   [<span data-ttu-id="e8731-129">**дриверкомплетионраутине**</span><span class="sxs-lookup"><span data-stu-id="e8731-129">**DriverCompletionRoutine**</span></span>](drivercompletionroutine.md)
+-   [<span data-ttu-id="e8731-130">**дривермажорфунктионкалл**</span><span class="sxs-lookup"><span data-stu-id="e8731-130">**DriverMajorFunctionCall**</span></span>](drivermajorfunctioncall.md)
+-   [<span data-ttu-id="e8731-131">**дривермажорфунктионретурн**</span><span class="sxs-lookup"><span data-stu-id="e8731-131">**DriverMajorFunctionReturn**</span></span>](drivermajorfunctionreturn.md)
+-   [<span data-ttu-id="e8731-132">**FileIo**</span><span class="sxs-lookup"><span data-stu-id="e8731-132">**FileIo**</span></span>](fileio.md)
+-   [<span data-ttu-id="e8731-133">**\_Создание FileIo**</span><span class="sxs-lookup"><span data-stu-id="e8731-133">**FileIo\_Create**</span></span>](fileio-create.md)
+-   [<span data-ttu-id="e8731-134">**FileIo \_ диренум**</span><span class="sxs-lookup"><span data-stu-id="e8731-134">**FileIo\_DirEnum**</span></span>](fileio-direnum.md)
+-   [<span data-ttu-id="e8731-135">**\_Сведения о FileIo**</span><span class="sxs-lookup"><span data-stu-id="e8731-135">**FileIo\_Info**</span></span>](fileio-info.md)
+-   [<span data-ttu-id="e8731-136">**\_Имя FileIo**</span><span class="sxs-lookup"><span data-stu-id="e8731-136">**FileIo\_Name**</span></span>](fileio-name.md)
+-   [<span data-ttu-id="e8731-137">**FileIo \_ открытый**</span><span class="sxs-lookup"><span data-stu-id="e8731-137">**FileIo\_OpEnd**</span></span>](fileio-opend.md)
+-   [<span data-ttu-id="e8731-138">**FileIo \_ ReadWrite**</span><span class="sxs-lookup"><span data-stu-id="e8731-138">**FileIo\_ReadWrite**</span></span>](fileio-readwrite.md)
+-   [<span data-ttu-id="e8731-139">**FileIo \_ симплеоп**</span><span class="sxs-lookup"><span data-stu-id="e8731-139">**FileIo\_SimpleOp**</span></span>](fileio-simpleop.md)
+-   [<span data-ttu-id="e8731-140">**FileIo \_ v0**</span><span class="sxs-lookup"><span data-stu-id="e8731-140">**FileIo\_V0**</span></span>](fileio-v0.md)
+-   [<span data-ttu-id="e8731-141">**\_Имя v0 \_ FileIo**</span><span class="sxs-lookup"><span data-stu-id="e8731-141">**FileIo\_V0\_Name**</span></span>](fileio-v0-name.md)
+-   [<span data-ttu-id="e8731-142">**FileIo \_ v1**</span><span class="sxs-lookup"><span data-stu-id="e8731-142">**FileIo\_V1**</span></span>](fileio-v1.md)
+-   [<span data-ttu-id="e8731-143">**\_Имя FileIo v1 \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-143">**FileIo\_V1\_Name**</span></span>](fileio-v1-name.md)
+-   [<span data-ttu-id="e8731-144">**хвконфиг**</span><span class="sxs-lookup"><span data-stu-id="e8731-144">**HWConfig**</span></span>](hwconfig.md)
+-   [<span data-ttu-id="e8731-145">**\_ЦП хвконфиг**</span><span class="sxs-lookup"><span data-stu-id="e8731-145">**HWConfig\_CPU**</span></span>](hwconfig-cpu.md)
+-   [<span data-ttu-id="e8731-146">**Хвконфиг \_ логдиск**</span><span class="sxs-lookup"><span data-stu-id="e8731-146">**HWConfig\_LogDisk**</span></span>](hwconfig-logdisk.md)
+-   [<span data-ttu-id="e8731-147">**\_Сетевой адаптер хвконфиг**</span><span class="sxs-lookup"><span data-stu-id="e8731-147">**HWConfig\_NIC**</span></span>](hwconfig-nic.md)
+-   [<span data-ttu-id="e8731-148">**Хвконфиг \_ фидиск**</span><span class="sxs-lookup"><span data-stu-id="e8731-148">**HWConfig\_PhyDisk**</span></span>](hwconfig-phydisk.md)
+-   [<span data-ttu-id="e8731-149">**Образ —**</span><span class="sxs-lookup"><span data-stu-id="e8731-149">**Image**</span></span>](image.md)
+-   [<span data-ttu-id="e8731-150">**\_Загрузка образа**</span><span class="sxs-lookup"><span data-stu-id="e8731-150">**Image\_Load**</span></span>](image-load.md)
+-   [<span data-ttu-id="e8731-151">**\_V0 изображения**</span><span class="sxs-lookup"><span data-stu-id="e8731-151">**Image\_V0**</span></span>](image-v0.md)
+-   [<span data-ttu-id="e8731-152">**\_Загрузка образа v0 \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-152">**Image\_V0\_Load**</span></span>](image-v0-load.md)
+-   [<span data-ttu-id="e8731-153">**Образ \_ v1**</span><span class="sxs-lookup"><span data-stu-id="e8731-153">**Image\_V1**</span></span>](image-v1.md)
+-   [<span data-ttu-id="e8731-154">**\_Загрузка образа v1 \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-154">**Image\_V1\_Load**</span></span>](image-v1-load.md)
+-   [<span data-ttu-id="e8731-155">**ISR**</span><span class="sxs-lookup"><span data-stu-id="e8731-155">**ISR**</span></span>](isr.md)
+-   [<span data-ttu-id="e8731-156">**PageFault \_ v2**</span><span class="sxs-lookup"><span data-stu-id="e8731-156">**PageFault\_V2**</span></span>](pagefault-v2.md)
+-   [<span data-ttu-id="e8731-157">**PageFault \_ хардфаулт**</span><span class="sxs-lookup"><span data-stu-id="e8731-157">**PageFault\_HardFault**</span></span>](pagefault-hardfault.md)
+-   [<span data-ttu-id="e8731-158">**PageFault \_ имажелоадбаккед**</span><span class="sxs-lookup"><span data-stu-id="e8731-158">**PageFault\_ImageLoadBacked**</span></span>](pagefault-imageloadbacked.md)
+-   [<span data-ttu-id="e8731-159">**PageFault \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-159">**PageFault\_TypeGroup1**</span></span>](pagefault-typegroup1.md)
+-   [<span data-ttu-id="e8731-160">**перфинфо**</span><span class="sxs-lookup"><span data-stu-id="e8731-160">**PerfInfo**</span></span>](perfinfo.md)
+-   [<span data-ttu-id="e8731-161">**Процесс**</span><span class="sxs-lookup"><span data-stu-id="e8731-161">**Process**</span></span>](process.md)
+-   [<span data-ttu-id="e8731-162">**Обработка \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-162">**Process\_TypeGroup1**</span></span>](process-typegroup1.md)
+-   [<span data-ttu-id="e8731-163">**Обработка \_ v0**</span><span class="sxs-lookup"><span data-stu-id="e8731-163">**Process\_V0**</span></span>](process-v0.md)
+-   [<span data-ttu-id="e8731-164">**Процесс \_ v0 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-164">**Process\_V0\_TypeGroup1**</span></span>](process-v0-typegroup1.md)
+-   [<span data-ttu-id="e8731-165">**Процесс \_ v1**</span><span class="sxs-lookup"><span data-stu-id="e8731-165">**Process\_V1**</span></span>](process-v1.md)
+-   [<span data-ttu-id="e8731-166">**Процесс \_ v1, \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-166">**Process\_V1\_TypeGroup1**</span></span>](process-v1-typegroup1.md)
+-   [<span data-ttu-id="e8731-167">**Процесс \_ версии 2**</span><span class="sxs-lookup"><span data-stu-id="e8731-167">**Process\_V2**</span></span>](process-v2.md)
+-   [<span data-ttu-id="e8731-168">**\_TypeGroup1 процесса v2 \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-168">**Process\_V2\_TypeGroup1**</span></span>](process-v2-typegroup1.md)
+-   [<span data-ttu-id="e8731-169">**\_TypeGroup2 процесса v2 \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-169">**Process\_V2\_TypeGroup2**</span></span>](process-v2-typegroup2.md)
+-   [<span data-ttu-id="e8731-170">**реадисреад**</span><span class="sxs-lookup"><span data-stu-id="e8731-170">**ReadyThread**</span></span>](readythread.md)
+-   [<span data-ttu-id="e8731-171">**Реестр**</span><span class="sxs-lookup"><span data-stu-id="e8731-171">**Registry**</span></span>](registry.md)
+-   [<span data-ttu-id="e8731-172">**\_TypeGroup1 реестра**</span><span class="sxs-lookup"><span data-stu-id="e8731-172">**Registry\_TypeGroup1**</span></span>](registry-typegroup1.md)
+-   [<span data-ttu-id="e8731-173">**\_V0 реестра**</span><span class="sxs-lookup"><span data-stu-id="e8731-173">**Registry\_V0**</span></span>](registry-v0.md)
+-   [<span data-ttu-id="e8731-174">**Реестр \_ v0 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-174">**Registry\_V0\_TypeGroup1**</span></span>](registry-v0-typegroup1.md)
+-   [<span data-ttu-id="e8731-175">**Реестр \_ v1**</span><span class="sxs-lookup"><span data-stu-id="e8731-175">**Registry\_V1**</span></span>](registry-v1.md)
+-   [<span data-ttu-id="e8731-176">**Реестр \_ v1 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-176">**Registry\_V1\_TypeGroup1**</span></span>](registry-v1-typegroup1.md)
+-   [<span data-ttu-id="e8731-177">**сампледпрофиле**</span><span class="sxs-lookup"><span data-stu-id="e8731-177">**SampledProfile**</span></span>](sampledprofile.md)
+-   [<span data-ttu-id="e8731-178">**сплитио**</span><span class="sxs-lookup"><span data-stu-id="e8731-178">**SplitIo**</span></span>](splitio.md)
+-   [<span data-ttu-id="e8731-179">**\_Сведения о сплитио**</span><span class="sxs-lookup"><span data-stu-id="e8731-179">**SplitIo\_Info**</span></span>](splitio-info.md)
+-   [<span data-ttu-id="e8731-180">**сискаллентер**</span><span class="sxs-lookup"><span data-stu-id="e8731-180">**SysCallEnter**</span></span>](syscallenter.md)
+-   [<span data-ttu-id="e8731-181">**сискаллексит**</span><span class="sxs-lookup"><span data-stu-id="e8731-181">**SysCallExit**</span></span>](syscallexit.md)
+-   [<span data-ttu-id="e8731-182">**системконфиг**</span><span class="sxs-lookup"><span data-stu-id="e8731-182">**SystemConfig**</span></span>](systemconfig.md)
+-   [<span data-ttu-id="e8731-183">**\_ЦП системконфиг**</span><span class="sxs-lookup"><span data-stu-id="e8731-183">**SystemConfig\_CPU**</span></span>](systemconfig-cpu.md)
+-   [<span data-ttu-id="e8731-184">**Системконфиг \_ идечаннел**</span><span class="sxs-lookup"><span data-stu-id="e8731-184">**SystemConfig\_IDEChannel**</span></span>](systemconfig-idechannel.md)
+-   [<span data-ttu-id="e8731-185">**Системконфиг \_ IRQ**</span><span class="sxs-lookup"><span data-stu-id="e8731-185">**SystemConfig\_IRQ**</span></span>](systemconfig-irq.md)
+-   [<span data-ttu-id="e8731-186">**Системконфиг \_ логдиск**</span><span class="sxs-lookup"><span data-stu-id="e8731-186">**SystemConfig\_LogDisk**</span></span>](systemconfig-logdisk.md)
+-   [<span data-ttu-id="e8731-187">**Системконфиг \_ сеть**</span><span class="sxs-lookup"><span data-stu-id="e8731-187">**SystemConfig\_Network**</span></span>](systemconfig-network.md)
+-   [<span data-ttu-id="e8731-188">**\_Сетевой адаптер системконфиг**</span><span class="sxs-lookup"><span data-stu-id="e8731-188">**SystemConfig\_NIC**</span></span>](systemconfig-nic.md)
+-   [<span data-ttu-id="e8731-189">**Системконфиг \_ фидиск**</span><span class="sxs-lookup"><span data-stu-id="e8731-189">**SystemConfig\_PhyDisk**</span></span>](systemconfig-phydisk.md)
+-   [<span data-ttu-id="e8731-190">**Системконфиг \_ PnP**</span><span class="sxs-lookup"><span data-stu-id="e8731-190">**SystemConfig\_PnP**</span></span>](systemconfig-pnp.md)
+-   [<span data-ttu-id="e8731-191">**Системконфиг \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-191">**SystemConfig\_Power**</span></span>](systemconfig-power.md)
+-   [<span data-ttu-id="e8731-192">**Системконфиг \_ Services**</span><span class="sxs-lookup"><span data-stu-id="e8731-192">**SystemConfig\_Services**</span></span>](systemconfig-services.md)
+-   [<span data-ttu-id="e8731-193">**\_Видео системконфиг**</span><span class="sxs-lookup"><span data-stu-id="e8731-193">**SystemConfig\_Video**</span></span>](systemconfig-video.md)
+-   [<span data-ttu-id="e8731-194">**\_ЦП системконфиг v0 \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-194">**SystemConfig\_V0\_CPU**</span></span>](systemconfig-v0-cpu.md)
+-   [<span data-ttu-id="e8731-195">**Системконфиг \_ v0 \_ логдиск**</span><span class="sxs-lookup"><span data-stu-id="e8731-195">**SystemConfig\_V0\_LogDisk**</span></span>](systemconfig-v0-logdisk.md)
+-   [<span data-ttu-id="e8731-196">**\_ \_ Сетевой адаптер системконфиг v0**</span><span class="sxs-lookup"><span data-stu-id="e8731-196">**SystemConfig\_V0\_NIC**</span></span>](systemconfig-v0-nic.md)
+-   [<span data-ttu-id="e8731-197">**Системконфиг \_ v0 \_ фидиск**</span><span class="sxs-lookup"><span data-stu-id="e8731-197">**SystemConfig\_V0\_PhyDisk**</span></span>](systemconfig-v0-phydisk.md)
+-   [<span data-ttu-id="e8731-198">**Системконфиг \_ v0 \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-198">**SystemConfig\_V0\_Power**</span></span>](systemconfig-v0-power.md)
+-   [<span data-ttu-id="e8731-199">**Системконфиг \_ v0 \_ Services**</span><span class="sxs-lookup"><span data-stu-id="e8731-199">**SystemConfig\_V0\_Services**</span></span>](systemconfig-v0-services.md)
+-   [<span data-ttu-id="e8731-200">**\_Видео системконфиг v0 \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-200">**SystemConfig\_V0\_Video**</span></span>](systemconfig-v0-video.md)
+-   [<span data-ttu-id="e8731-201">**TcpIp**</span><span class="sxs-lookup"><span data-stu-id="e8731-201">**TcpIp**</span></span>](tcpip.md)
+-   [<span data-ttu-id="e8731-202">**Сбой TCP/IP \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-202">**TcpIp\_Fail**</span></span>](tcpip-fail.md)
+-   [<span data-ttu-id="e8731-203">**TCP/IP \_ SendIPV4**</span><span class="sxs-lookup"><span data-stu-id="e8731-203">**TcpIp\_SendIPV4**</span></span>](tcpip-sendipv4.md)
+-   [<span data-ttu-id="e8731-204">**TCP/IP \_ SendIPV6**</span><span class="sxs-lookup"><span data-stu-id="e8731-204">**TcpIp\_SendIPV6**</span></span>](tcpip-sendipv6.md)
+-   [<span data-ttu-id="e8731-205">**TCP/IP \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-205">**TcpIp\_TypeGroup1**</span></span>](tcpip-typegroup1.md)
+-   [<span data-ttu-id="e8731-206">**TCP/IP \_ TypeGroup2**</span><span class="sxs-lookup"><span data-stu-id="e8731-206">**TcpIp\_TypeGroup2**</span></span>](tcpip-typegroup2.md)
+-   [<span data-ttu-id="e8731-207">**TCP/IP \_ TypeGroup3**</span><span class="sxs-lookup"><span data-stu-id="e8731-207">**TcpIp\_TypeGroup3**</span></span>](tcpip-typegroup3.md)
+-   [<span data-ttu-id="e8731-208">**TCP/IP \_ TypeGroup4**</span><span class="sxs-lookup"><span data-stu-id="e8731-208">**TcpIp\_TypeGroup4**</span></span>](tcpip-typegroup4.md)
+-   [<span data-ttu-id="e8731-209">**TCP/IP \_ v0**</span><span class="sxs-lookup"><span data-stu-id="e8731-209">**TcpIp\_V0**</span></span>](tcpip-v0.md)
+-   [<span data-ttu-id="e8731-210">**TcpIp \_ v0 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-210">**TcpIp\_V0\_TypeGroup1**</span></span>](tcpip-v0-typegroup1.md)
+-   [<span data-ttu-id="e8731-211">**TcpIp \_ v1**</span><span class="sxs-lookup"><span data-stu-id="e8731-211">**TcpIp\_V1**</span></span>](tcpip-v1.md)
+-   [<span data-ttu-id="e8731-212">**TcpIp \_ v1, \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-212">**TcpIp\_V1\_TypeGroup1**</span></span>](tcpip-v1-typegroup1.md)
+-   [<span data-ttu-id="e8731-213">**Поток**</span><span class="sxs-lookup"><span data-stu-id="e8731-213">**Thread**</span></span>](thread.md)
+-   [<span data-ttu-id="e8731-214">**\_TypeGroup1 потока**</span><span class="sxs-lookup"><span data-stu-id="e8731-214">**Thread\_TypeGroup1**</span></span>](thread-typegroup1.md)
+-   [<span data-ttu-id="e8731-215">**\_V0 потока**</span><span class="sxs-lookup"><span data-stu-id="e8731-215">**Thread\_V0**</span></span>](thread-v0.md)
+-   [<span data-ttu-id="e8731-216">**Thread \_ v0 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-216">**Thread\_V0\_TypeGroup1**</span></span>](thread-v0-typegroup1.md)
+-   [<span data-ttu-id="e8731-217">**Поток \_ v1**</span><span class="sxs-lookup"><span data-stu-id="e8731-217">**Thread\_V1**</span></span>](thread-v1.md)
+-   [<span data-ttu-id="e8731-218">**Поток \_ v1, \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-218">**Thread\_V1\_TypeGroup1**</span></span>](thread-v1-typegroup1.md)
+-   [<span data-ttu-id="e8731-219">**Поток \_ v1, \_ TypeGroup2**</span><span class="sxs-lookup"><span data-stu-id="e8731-219">**Thread\_V1\_TypeGroup2**</span></span>](thread-v1-typegroup2.md)
+-   [<span data-ttu-id="e8731-220">**Поток \_ версии 2**</span><span class="sxs-lookup"><span data-stu-id="e8731-220">**Thread\_V2**</span></span>](thread-v2.md)
+-   [<span data-ttu-id="e8731-221">**\_TypeGroup1 Thread v2 \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-221">**Thread\_V2\_TypeGroup1**</span></span>](thread-v2-typegroup1.md)
+-   [<span data-ttu-id="e8731-222">**удпип**</span><span class="sxs-lookup"><span data-stu-id="e8731-222">**UdpIp**</span></span>](udpip.md)
+-   [<span data-ttu-id="e8731-223">**\_Сбой удпип**</span><span class="sxs-lookup"><span data-stu-id="e8731-223">**UdpIp\_Fail**</span></span>](udpip-fail.md)
+-   [<span data-ttu-id="e8731-224">**Удпип \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-224">**UdpIp\_TypeGroup1**</span></span>](udpip-typegroup1.md)
+-   [<span data-ttu-id="e8731-225">**Удпип \_ TypeGroup2**</span><span class="sxs-lookup"><span data-stu-id="e8731-225">**UdpIp\_TypeGroup2**</span></span>](udpip-typegroup2.md)
+-   [<span data-ttu-id="e8731-226">**Удпип \_ v0**</span><span class="sxs-lookup"><span data-stu-id="e8731-226">**UdpIp\_V0**</span></span>](udpip-v0.md)
+-   [<span data-ttu-id="e8731-227">**Удпип \_ v0 \_ TypeGroup1**</span><span class="sxs-lookup"><span data-stu-id="e8731-227">**UdpIp\_V0\_TypeGroup1**</span></span>](udpip-v0-typegroup1.md)
+-   [<span data-ttu-id="e8731-228">**Удпип \_ v1**</span><span class="sxs-lookup"><span data-stu-id="e8731-228">**UdpIp\_V1**</span></span>](udpip-v1.md)
+-   [<span data-ttu-id="e8731-229">**\_TypeGroup1 удпип v1 \_**</span><span class="sxs-lookup"><span data-stu-id="e8731-229">**UdpIp\_V1\_TypeGroup1**</span></span>](udpip-v1-typegroup1.md)
+
+ 
+
+ 
+
+
+

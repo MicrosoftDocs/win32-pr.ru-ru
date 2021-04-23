@@ -1,0 +1,35 @@
+---
+title: Запросы к выходным устройствам MIDI
+description: Запросы к выходным устройствам MIDI
+ms.assetid: c6a33a4e-c61a-4e06-805e-5128a97f5199
+keywords:
+- Цифровой интерфейс MIDI, выходные устройства
+- MIDI (цифровой интерфейс музыкального инструмента), выходные устройства
+- Воспроизведение файлов MIDI, выходных устройств
+- Устройства вывода MIDI
+- Цифровой интерфейс музыкальных инструментов (MIDI), запросы к выходным устройствам
+- MIDI (цифровой интерфейс музыкального инструмента), запросы к выходным устройствам
+- Воспроизведение файлов MIDI, запрос выходных устройств
+- запросы к выходным устройствам MIDI
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 292fbacbb4acf182d566e8c98832dfb0f993ea2b
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "105672269"
+---
+# <a name="querying-midi-output-devices"></a><span data-ttu-id="ef6fb-111">Запросы к выходным устройствам MIDI</span><span class="sxs-lookup"><span data-stu-id="ef6fb-111">Querying MIDI Output Devices</span></span>
+
+<span data-ttu-id="ef6fb-112">Перед воспроизведением файла MIDI следует использовать функцию [**мидиаутжетдевкапс**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgetdevcaps) , чтобы определить возможности выходного устройства MIDI, присутствующего в системе.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-112">Before playing a MIDI file, you should use the [**midiOutGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgetdevcaps) function to determine the capabilities of the MIDI output device that is present in the system.</span></span> <span data-ttu-id="ef6fb-113">Эта функция принимает адрес структуры [**мидиауткапс**](/windows/win32/api/mmeapi/ns-mmeapi-midioutcaps) , которая заполняется сведениями о возможностях данного устройства.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-113">This function takes an address of a [**MIDIOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-midioutcaps) structure, which it fills with information about the capabilities of the given device.</span></span> <span data-ttu-id="ef6fb-114">Эти сведения включают в себя производителя и идентификаторы продуктов, название продукта для устройства и номер версии драйвера устройства (указанный в членах **ВМИД**, **ВПИД**, **сзпнаме** и **вдриверверсион** соответственно).</span><span class="sxs-lookup"><span data-stu-id="ef6fb-114">This information includes the manufacturer and product identifiers, a product name for the device, and the version number of the device driver (specified in the **wMid**, **wPid**, **szPname**, and **vDriverVersion** members, respectively).</span></span>
+
+<span data-ttu-id="ef6fb-115">Устройства вывода MIDI могут быть внутренними синтезаторами или внешними выходными портами MIDI.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-115">MIDI output devices can be either internal synthesizers or external MIDI output ports.</span></span> <span data-ttu-id="ef6fb-116">Элемент **втечнологи** структуры **мидиауткапс** указывает технологию устройства.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-116">The **wTechnology** member of the **MIDIOUTCAPS** structure specifies the technology of the device.</span></span>
+
+<span data-ttu-id="ef6fb-117">Если устройство является внутренним синтезатором, дополнительные сведения об устройстве доступны в членах **ввоицес**, **внотес** и **вчаннелмаск** .</span><span class="sxs-lookup"><span data-stu-id="ef6fb-117">If the device is an internal synthesizer, additional device information is available in the **wVoices**, **wNotes**, and **wChannelMask** members.</span></span> <span data-ttu-id="ef6fb-118">Член **ввоицес** указывает количество голосов, которое поддерживает устройство.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-118">The **wVoices** member specifies the number of voices that the device supports.</span></span> <span data-ttu-id="ef6fb-119">У каждого голоса может быть другой звук или Тимбре.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-119">Each voice can have a different sound or timbre.</span></span> <span data-ttu-id="ef6fb-120">Голоса организованы в каналы MIDI.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-120">Voices are organized into MIDI channels.</span></span> <span data-ttu-id="ef6fb-121">Член **внотес** указывает предельное *значение для устройства* , то есть максимальное количество заметок, которое можно воспроизвести одновременно.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-121">The **wNotes** member specifies the *polyphony* of the device — that is, the maximum number of notes that can be played simultaneously.</span></span> <span data-ttu-id="ef6fb-122">Элемент **вчаннелмаск** является битовым представлением каналов MIDI, на которые реагирует устройство.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-122">The **wChannelMask** member is a bit representation of the MIDI channels that the device responds to.</span></span> <span data-ttu-id="ef6fb-123">Например, если устройство отвечает на первые восемь каналов MIDI, **вчаннелмаск** является 0x00FF.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-123">For example, if the device responds to the first eight MIDI channels, **wChannelMask** is 0x00FF.</span></span> <span data-ttu-id="ef6fb-124">Если устройство является внешним выходным портом, **ввоицес** и **внотес** не используются, а **вчаннелмаск** имеет значение 0xFFFF.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-124">If the device is an external output port, **wVoices** and **wNotes** are unused, and **wChannelMask** is set to 0xFFFF.</span></span>
+
+<span data-ttu-id="ef6fb-125">Элемент **двсуппорт** структуры **мидиауткапс** указывает, поддерживает ли драйвер устройства изменение томов, кэширование исправлений и потоковую передачу.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-125">The **dwSupport** member of the **MIDIOUTCAPS** structure indicates whether the device driver supports volume changes, patch caching, and streaming.</span></span> <span data-ttu-id="ef6fb-126">Изменения в томе поддерживаются только внутренними устройствами синтезатора.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-126">Volume changes are supported only by internal synthesizer devices.</span></span> <span data-ttu-id="ef6fb-127">Внешние порты вывода MIDI не поддерживают изменения томов.</span><span class="sxs-lookup"><span data-stu-id="ef6fb-127">External MIDI output ports do not support volume changes.</span></span> <span data-ttu-id="ef6fb-128">Сведения об изменении тома см. в разделе [изменение внутреннего тома MIDI синтезатора](changing-internal-midi-synthesizer-volume.md).</span><span class="sxs-lookup"><span data-stu-id="ef6fb-128">For information about changing volume, see [Changing Internal MIDI Synthesizer Volume](changing-internal-midi-synthesizer-volume.md).</span></span>
+
+ 
+
+ 

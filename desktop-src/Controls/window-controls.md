@@ -1,0 +1,59 @@
+---
+title: Элементы управления Windows
+description: Элемент управления — это дочернее окно, которое приложение использует в сочетании с другим окном для включения взаимодействия с пользователем.
+ms.assetid: 0a6eb481-d94e-40c5-afec-46354520f08f
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 814bf14f3c93f6f38ba787cba463977a4dca9eda
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104067579"
+---
+# <a name="windows-controls"></a><span data-ttu-id="bf5ee-103">Элементы управления Windows</span><span class="sxs-lookup"><span data-stu-id="bf5ee-103">Windows Controls</span></span>
+
+## <a name="purpose"></a><span data-ttu-id="bf5ee-104">Назначение</span><span class="sxs-lookup"><span data-stu-id="bf5ee-104">Purpose</span></span>
+
+<span data-ttu-id="bf5ee-105">Элемент управления — это дочернее окно, которое приложение использует в сочетании с другим окном для включения взаимодействия с пользователем.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-105">A control is a child window that an application uses in conjunction with another window to enable user interaction.</span></span> <span data-ttu-id="bf5ee-106">Чаще всего элементы управления используются в диалоговых окнах, но их также можно использовать и в других окнах.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-106">Controls are most often used within dialog boxes, but they can also be used in other windows.</span></span> <span data-ttu-id="bf5ee-107">Элементы управления в диалоговых окнах предоставляют пользователю возможность вводить текст, выбирать параметры и инициировать действия.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-107">Controls within dialog boxes provide the user with a way to type text, choose options, and initiate actions.</span></span> <span data-ttu-id="bf5ee-108">Элементы управления в других окнах предоставляют разнообразные службы, такие как предоставление пользователю возможности выбора команд, Просмотр состояния, просмотр и редактирование текста.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-108">Controls in other windows provide a variety of services, such as letting the user choose commands, view status, and view and edit text.</span></span> <span data-ttu-id="bf5ee-109">В этой документации описываются элементы управления, предоставляемые Windows, и элементы программирования, используемые для их создания и управления.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-109">This documentation describes the controls provided by Windows and the programming elements used to create and manipulate them.</span></span>
+
+<span data-ttu-id="bf5ee-110">Список всех элементов управления Windows, включая ссылку на исчерпывающий обзор и справочную информацию по каждому элементу управления, см. в разделе [Библиотека элементов управления](individual-control-info.md).</span><span class="sxs-lookup"><span data-stu-id="bf5ee-110">For a list of all Windows controls, including a link to comprehensive overview and reference information for each control, see [Control Library](individual-control-info.md).</span></span>
+
+## <a name="developer-audience"></a><span data-ttu-id="bf5ee-111">Аудитория разработчиков</span><span class="sxs-lookup"><span data-stu-id="bf5ee-111">Developer audience</span></span>
+
+<span data-ttu-id="bf5ee-112">Элементы управления предназначены для использования разработчиками C/C++ и конструкторами пользовательского интерфейса.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-112">Controls are designed for use by C/C++ developers and UI designers.</span></span> <span data-ttu-id="bf5ee-113">Как правило, разработчикам нужен умеренный уровень понимания концепций программирования пользовательского интерфейса, программирования Windows API и Юникода.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-113">In general, developers need a moderate level of understanding about UI programming concepts, Windows API programming, and Unicode.</span></span>
+
+## <a name="run-time-requirements"></a><span data-ttu-id="bf5ee-114">Требования к среде выполнения</span><span class="sxs-lookup"><span data-stu-id="bf5ee-114">Run-time requirements</span></span>
+
+<span data-ttu-id="bf5ee-115">Поддержка элементов управления обеспечивается User32.dll и Comctl32.dll.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-115">Support for controls is provided by User32.dll and Comctl32.dll.</span></span> <span data-ttu-id="bf5ee-116">Дополнительные сведения см. в разделе [общие версии элементов управления](common-control-versions.md).</span><span class="sxs-lookup"><span data-stu-id="bf5ee-116">For more information, see [Common Control Versions](common-control-versions.md).</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="bf5ee-117">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="bf5ee-117">In this section</span></span>
+
+
+
+| <span data-ttu-id="bf5ee-118">Раздел</span><span class="sxs-lookup"><span data-stu-id="bf5ee-118">Topic</span></span>                                                                             | <span data-ttu-id="bf5ee-119">Описание</span><span class="sxs-lookup"><span data-stu-id="bf5ee-119">Description</span></span>                                                                                                                                     |
+|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="bf5ee-120">Общие сведения об элементах управления</span><span class="sxs-lookup"><span data-stu-id="bf5ee-120">About Common Controls</span></span>](common-controls-intro.md)<br/>                     | <span data-ttu-id="bf5ee-121">Общие сведения, общие для всех элементов управления, поддерживаемых Comctl32.dll.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-121">Provides general information that is common to all controls that are supported by Comctl32.dll.</span></span><br/>                                      |
+| [<span data-ttu-id="bf5ee-122">Управляющие сообщения</span><span class="sxs-lookup"><span data-stu-id="bf5ee-122">Control Messages</span></span>](control-messages.md)<br/>                               | <span data-ttu-id="bf5ee-123">Объясняет, как сообщения Windows используются для взаимодействия с элементами управления.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-123">Explains how Windows messages are used to communicate with controls.</span></span><br/>                                                                 |
+| [<span data-ttu-id="bf5ee-124">Пользовательские элементы управления</span><span class="sxs-lookup"><span data-stu-id="bf5ee-124">Custom Controls</span></span>](user-controls-intro.md)<br/>                             | <span data-ttu-id="bf5ee-125">Описывает различные способы создания пользовательских элементов управления.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-125">Describes various ways of creating custom controls.</span></span> <br/>                                                                                 |
+| [<span data-ttu-id="bf5ee-126">Подклассировать элементы управления</span><span class="sxs-lookup"><span data-stu-id="bf5ee-126">Subclassing Controls</span></span>](subclassing-overview.md)<br/>                       | <span data-ttu-id="bf5ee-127">Описывает способ настройки элемента управления путем изменения его возможностей или добавления новых.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-127">Describes a way to customize a control by changing its features or adding new ones.</span></span> <br/>                                                 |
+| [<span data-ttu-id="bf5ee-128">Пользовательская прорисовка</span><span class="sxs-lookup"><span data-stu-id="bf5ee-128">Custom Draw</span></span>](custom-draw.md)<br/>                                         | <span data-ttu-id="bf5ee-129">Описывает службу, предоставляемую некоторыми элементами управления, которые могут использоваться приложениями для настройки различных аспектов внешнего вида элемента управления.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-129">Describes a service, provided by some controls, that applications can use to customize various aspects of the control's appearance.</span></span> <br/> |
+| [<span data-ttu-id="bf5ee-130">Вопросы безопасности: элементы управления Microsoft Windows</span><span class="sxs-lookup"><span data-stu-id="bf5ee-130">Security Considerations: Microsoft Windows Controls</span></span>](sec-comctls.md)<br/> | <span data-ttu-id="bf5ee-131">Содержит сведения о вопросах безопасности, связанных с элементами управления Windows.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-131">Provides information about security considerations related to the Windows controls.</span></span> <br/>                                                 |
+| [<span data-ttu-id="bf5ee-132">Библиотека элементов управления</span><span class="sxs-lookup"><span data-stu-id="bf5ee-132">Control Library</span></span>](individual-control-info.md)<br/>                         | <span data-ttu-id="bf5ee-133">Содержит обзоры и справочные сведения о каждом элементе управления, поддерживаемом User32.dll и Comctl32.dll.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-133">Provides overviews and reference information about each control supported by User32.dll and Comctl32.dll.</span></span><br/>                            |
+| [<span data-ttu-id="bf5ee-134">Справочник по общим элементам управления</span><span class="sxs-lookup"><span data-stu-id="bf5ee-134">General Control Reference</span></span>](common-control-reference.md)<br/>              | <span data-ttu-id="bf5ee-135">Справочные сведения о программных элементах, применяемых к нескольким элементам управления, а не только к конкретному элементу управления.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-135">Provides reference information about programming elements that apply to multiple controls, not just to a specific control.</span></span><br/>           |
+| [<span data-ttu-id="bf5ee-136">Управление Spy v 2.0</span><span class="sxs-lookup"><span data-stu-id="bf5ee-136">Control Spy v2.0</span></span>](control-spy.md)<br/>                                    | <span data-ttu-id="bf5ee-137">Описание элемента управления Spy — средства, помогающего разработчикам понять общие элементы управления.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-137">Describes Control Spy, a tool that helps developers understand common controls.</span></span> <br/>                                                     |
+| [<span data-ttu-id="bf5ee-138">Стили оформления</span><span class="sxs-lookup"><span data-stu-id="bf5ee-138">Visual Styles</span></span>](themes-overview.md)<br/>                                   | <span data-ttu-id="bf5ee-139">Описывает, как внешний вид элементов управления может изменяться в зависимости от стиля оформления, выбранного пользователем.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-139">Describes how the appearance of controls can change depending on the visual style chosen by the user.</span></span> <br/>                               |
+| [<span data-ttu-id="bf5ee-140">Формат файла темы</span><span class="sxs-lookup"><span data-stu-id="bf5ee-140">Theme File Format</span></span>](themesfileformat-overview.md)<br/>                     | <span data-ttu-id="bf5ee-141">Описывает формат файлов темы (theme), используемых в Windows 7 и Windows Vista.</span><span class="sxs-lookup"><span data-stu-id="bf5ee-141">Discusses the format of Theme (.theme) files used in Windows 7 and Windows Vista.</span></span><br/>                                                    |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+

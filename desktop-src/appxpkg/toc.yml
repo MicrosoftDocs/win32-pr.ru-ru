@@ -1,0 +1,709 @@
+- name: 'Упаковка, развертывание и запрос приложений Windows'
+  href: appx-portal.md
+  items:
+    - name: Создание пакета приложения
+      href: how-to-create-a-package.md
+    - name: Создание сертификата для подписи пакета приложения
+      href: how-to-create-a-package-signing-certificate.md
+    - name: Подписание пакета приложения с помощью SignTool
+      href: how-to-sign-a-package-using-signtool.md
+    - name: Устранение ошибок подписи пакета приложения
+      href: how-to-troubleshoot-app-package-signature-errors.md
+    - name: Как программно подписать пакет приложения
+      href: how-to-programmatically-sign-a-package.md
+    - name: 'Разработка приложения OEM, использующего пользовательский файл'
+      href: how-to-develop-oem-app-with-custom-file.md
+    - name: Краткое руководство. Извлечение содержимого пакета приложения
+      href: how-to-extract-content-from-a-package.md
+    - name: Краткое руководство. запрос сведений о манифесте пакета приложения
+      href: how-to-query-package-identity-information.md
+    - name: Устранение неполадок
+      href: troubleshooting.md
+    - name: Справочник
+      href: api-reference.md
+      items:
+        - name: API для упаковки
+          href: interfaces.md
+          items:
+            - name: иаппксблоккмапблокк
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxblockmapblock
+              items:
+                - name: Метод Жеткомпресседсизе
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapblock-getcompressedsize
+                - name: Метод hash
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapblock-gethash
+            - name: иаппксблоккмапблокксенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxblockmapblocksenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapblocksenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapblocksenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapblocksenumerator-movenext
+            - name: иаппксблоккмапфиле
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxblockmapfile
+              items:
+                - name: Метод Block
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapfile-getblocks
+                - name: Метод Жетлокалфилехеадерсизе
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapfile-getlocalfileheadersize
+                - name: GetName - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapfile-getname
+                - name: Метод Жетункомпресседсизе
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapfile-getuncompressedsize
+                - name: Метод Валидатефилехаш
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapfile-validatefilehash
+            - name: иаппксблоккмапфилесенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxblockmapfilesenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapfilesenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapfilesenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapfilesenumerator-movenext
+            - name: иаппксблоккмапреадер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxblockmapreader
+              items:
+                - name: Метод onfile
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapreader-getfile
+                - name: Метод Files
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapreader-getfiles
+                - name: Метод Жесашмесод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapreader-gethashmethod
+                - name: Метод WebMethod
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxblockmapreader-getstream
+            - name: иаппксбундлефактори
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlefactory
+              items:
+                - name: Метод Креатебундлеманифестреадер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlefactory-createbundlemanifestreader
+                  items:
+                    - name: Метод Креатебундлевритер
+                      href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlefactory-createbundlewriter
+                - name: Метод Креатебундлереадер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlefactory-createbundlereader
+            - name: иаппксбундлеманифестоптионалбундлеинфо
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlemanifestoptionalbundleinfo
+              items:
+                - name: Метод Жетпаккажеид
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageid
+                - name: Метод FileName
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getfilename
+                - name: Метод Жетпаккажеинфоитемс
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageinfoitems
+            - name: иаппксбундлеманифестоптионалбундлеинфоенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator-movenext
+            - name: иаппксбундлеманифестпаккажеинфо
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo
+              items:
+                - name: Метод FileName
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getfilename
+                - name: Метод GetOffset
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getoffset
+                - name: Метод Жетпаккажеид
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getpackageid
+                - name: Метод Жетпаккажетипе
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getpackagetype
+                - name: Метод. Resources
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getresources
+                - name: GetSize - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getsize
+            - name: IAppxBundleManifestPackageInfo2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo2
+              items:
+                - name: Метод Жетисдефаултаппликаблепаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo2-getisdefaultapplicablepackage
+                - name: Метод Жетиснонкуалифиедресаурцепаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo2-getisnonqualifiedresourcepackage
+                - name: Метод Жетиспаккажереференце
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo2-getispackagereference
+            - name: иаппксбундлеманифестпаккажеинфоенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlemanifestpackageinfoenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfoenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfoenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestpackageinfoenumerator-movenext
+            - name: иаппксбундлеманифестреадер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlemanifestreader
+              items:
+                - name: Метод Жетпаккажеид
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestreader-getpackageid
+                - name: Метод Жетпаккажеинфоитемс
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestreader-getpackageinfoitems
+                - name: Метод WebMethod
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestreader-getstream
+            - name: IAppxBundleManifestReader2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlemanifestreader2
+              items:
+                - name: Метод Жетоптионалбундлес
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlemanifestreader2-getoptionalbundles
+            - name: иаппксбундлереадер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlereader
+              items:
+                - name: Метод Жетблоккмап
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlereader-getblockmap
+                - name: Метод Жетфутпринтфиле
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlereader-getfootprintfile
+                - name: Метод manifest
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlereader-getmanifest
+                - name: Метод Жетпайлоадпаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlereader-getpayloadpackage
+                - name: Метод Жетпайлоадпаккажес
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlereader-getpayloadpackages
+            - name: иаппксбундлевритер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlewriter
+              items:
+                - name: Метод Аддпайлоадпаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlewriter-addpayloadpackage
+                - name: Метод Close
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlewriter-close
+            - name: IAppxBundleWriter2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlewriter2
+              items:
+                - name: Метод Аддекстерналпаккажереференце
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlewriter2-addexternalpackagereference
+            - name: IAppxBundleWriter3
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlewriter3
+              items:
+                - name: Метод Аддпаккажереференце
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlewriter3-addpackagereference
+                - name: Метод Close
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlewriter3-close
+            - name: IAppxBundleWriter4
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxbundlewriter4
+              items:
+                - name: Метод Аддекстерналпаккажереференце
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlewriter4-addexternalpackagereference
+                - name: Метод Аддпаккажереференце
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlewriter4-addpackagereference
+                - name: Метод Аддпайлоадпаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxbundlewriter4-addpayloadpackage
+            - name: иаппксконтентграуп
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxcontentgroup
+              items:
+                - name: GetName - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroup-getname
+                - name: Метод Files
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroup-getfiles
+            - name: иаппксконтентграупсенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxcontentgroupsenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroupsenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroupsenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroupsenumerator-movenext
+            - name: иаппксконтентграупфилесенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxcontentgroupfilesenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroupfilesenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroupfilesenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroupfilesenumerator-movenext
+            - name: иаппксконтентграупмапреадер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxcontentgroupmapreader
+              items:
+                - name: Метод Жетрекуиредграуп
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroupmapreader-getrequiredgroup
+                - name: Метод Жетаутоматикграупс
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroupmapreader-getautomaticgroups
+            - name: иаппксконтентграупмапвритер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxcontentgroupmapwriter
+              items:
+                - name: Метод Аддаутоматикграуп
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroupmapwriter-addautomaticgroup
+                - name: Метод Аддаутоматикфиле
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxcontentgroupmapwriter-addautomaticfile
+            - name: иаппксенкриптионфактори
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxencryptionfactory
+              items:
+                - name: Метод Енкриптпаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory-encryptpackage
+                - name: Метод Декриптпаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory-decryptpackage
+                - name: Метод Креатинкриптедпаккажевритер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory-createencryptedpackagewriter
+                - name: Метод Креатинкриптедпаккажереадер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory-createencryptedpackagereader
+                - name: Метод Енкриптбундле
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory-encryptbundle
+                - name: Метод Декриптбундле
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory-decryptbundle
+                - name: Метод Креатинкриптедбундлевритер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory-createencryptedbundlewriter
+                - name: Метод Креатинкриптедбундлереадер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory-createencryptedbundlereader
+            - name: IAppxEncryptionFactory2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxencryptionfactory2
+              items:
+                - name: Метод Креатинкриптедпаккажевритер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory2-createencryptedpackagewriter
+            - name: IAppxEncryptionFactory3
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxencryptionfactory3
+              items:
+                - name: Метод Енкриптпаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory3-encryptpackage
+                - name: Метод Креатинкриптедпаккажевритер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory3-createencryptedpackagewriter
+                - name: Метод Енкриптбундле
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory3-encryptbundle
+                - name: Метод Креатинкриптедбундлевритер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory3-createencryptedbundlewriter
+            - name: IAppxEncryptionFactory4
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxencryptionfactory4
+              items:
+                - name: Метод Енкриптпаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptionfactory4-encryptpackage
+            - name: иаппксенкриптедпаккажевритер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxencryptedpackagewriter
+              items:
+                - name: Метод Аддпайлоадфилинкриптед
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptedpackagewriter-addpayloadfileencrypted
+                - name: Метод Close
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptedpackagewriter-close
+            - name: IAppxEncryptedPackageWriter2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxencryptedpackagewriter2
+              items:
+                - name: Метод Аддпайлоадфилесенкриптед
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptedpackagewriter2-addpayloadfilesencrypted
+            - name: иаппксенкриптедблоккмапфиле
+              href: /previous-versions/windows/desktop/legacy/mt761796(v=vs.85)
+              items:
+                - name: Метод Жетфилехаш
+                  href: /previous-versions/windows/desktop/legacy/mt761797(v=vs.85)
+                - name: GetId - метод
+                  href: /previous-versions/windows/desktop/legacy/mt761798(v=vs.85)
+            - name: иаппксенкриптедфиле
+              href: /previous-versions/windows/desktop/legacy/mt761802(v=vs.85)
+              items:
+                - name: Метод Жетенкриптедсизе
+                  href: /previous-versions/windows/desktop/legacy/mt761803(v=vs.85)
+                - name: Метод Жетенкриптедстреам
+                  href: /previous-versions/windows/desktop/legacy/mt761804(v=vs.85)
+                - name: Метод Жеткэйконтекст
+                  href: /previous-versions/windows/desktop/legacy/mt761805(v=vs.85)
+            - name: иаппксенкриптедбундлевритер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxencryptedbundlewriter
+              items:
+                - name: Метод Аддпайлоадпаккажеенкриптед
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptedbundlewriter-addpayloadpackageencrypted
+                - name: Метод Close
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptedbundlewriter-close
+            - name: IAppxEncryptedBundleWriter2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxencryptedbundlewriter2
+              items:
+                - name: Метод Аддекстерналпаккажереференце
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptedbundlewriter2-addexternalpackagereference
+            - name: IAppxEncryptedBundleWriter3
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxencryptedbundlewriter3
+              items:
+                - name: Метод Аддекстерналпаккажереференце
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptedbundlewriter3-addexternalpackagereference
+                - name: Метод Аддпайлоадпаккажеенкриптед
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxencryptedbundlewriter3-addpayloadpackageencrypted
+            - name: иаппксенкриптедпаккажефиле
+              href: /previous-versions/windows/desktop/legacy/mt761806(v=vs.85)
+              items:
+                - name: Метод Жетстреамвисаутвалидатион
+                  href: /previous-versions/windows/desktop/legacy/mt761808(v=vs.85)
+                - name: Метод Жетенкриптедпаккажереадер
+                  href: /previous-versions/windows/desktop/legacy/mt761807(v=vs.85)
+            - name: иаппксфактори
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxfactory
+              items:
+                - name: Метод Креатеблоккмапреадер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfactory-createblockmapreader
+                - name: Метод Креатеманифестреадер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfactory-createmanifestreader
+                - name: Метод Креатепаккажереадер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfactory-createpackagereader
+                - name: Метод Креатепаккажевритер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfactory-createpackagewriter
+                - name: Метод Креатевалидатедблоккмапреадер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfactory-createvalidatedblockmapreader
+            - name: IAppxFactory2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxfactory2
+              items:
+                - name: Метод Креатеконтентграупмапреадер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfactory2-createcontentgroupmapreader
+                - name: Метод Креатесаурцеконтентграупмапреадер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfactory2-createsourcecontentgroupmapreader
+                - name: Метод Креатеконтентграупмапвритер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfactory2-createcontentgroupmapwriter
+            - name: иаппксфиле
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxfile
+              items:
+                - name: Метод Жеткомпрессионоптион
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfile-getcompressionoption
+                - name: Метод ContentType
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfile-getcontenttype
+                - name: GetName - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfile-getname
+                - name: GetSize - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfile-getsize
+                - name: Метод WebMethod
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfile-getstream
+            - name: иаппксфилесенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxfilesenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfilesenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfilesenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxfilesenumerator-movenext
+            - name: иаппксманифестаппликатион
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestapplication
+              items:
+                - name: Метод Жетаппусермоделид
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestapplication-getappusermodelid
+                - name: Метод GetStringValue
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestapplication-getstringvalue
+            - name: иаппксманифестаппликатионсенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestapplicationsenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-movenext
+            - name: иаппксманифестдевицекапабилитиесенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestdevicecapabilitiesenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestdevicecapabilitiesenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestdevicecapabilitiesenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestdevicecapabilitiesenumerator-movenext
+            - name: иаппксманифестмаинпаккажедепенденци
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestmainpackagedependency
+              items:
+                - name: GetName - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestmainpackagedependency-getname
+                - name: Метод метода публикации
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestmainpackagedependency-getpublisher
+                - name: Метод Жетпаккажефамилинаме
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestmainpackagedependency-getpackagefamilyname
+            - name: иаппксманифестмаинпаккажедепенденЦиесенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestmainpackagedependenciesenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestmainpackagedependenciesenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestmainpackagedependenciesenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestmainpackagedependenciesenumerator-movenext
+            - name: иаппксманифестоптионалпаккажеинфо
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestoptionalpackageinfo
+              items:
+                - name: Метод Жетисоптионалпаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestoptionalpackageinfo-getisoptionalpackage
+                - name: Метод Жетмаинпаккаженаме
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestoptionalpackageinfo-getmainpackagename
+            - name: иаппксманифестпаккажедепенденЦиесенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestpackagedependenciesenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackagedependenciesenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackagedependenciesenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackagedependenciesenumerator-movenext
+            - name: иаппксманифестпаккажедепенденци
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestpackagedependency
+              items:
+                - name: Метод Жетминверсион
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackagedependency-getminversion
+                - name: GetName - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackagedependency-getname
+                - name: Метод метода публикации
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackagedependency-getpublisher
+            - name: IAppxManifestPackageDependency2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestpackagedependency2
+              items:
+                - name: Метод Жетмаксмажорверсионтестед
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackagedependency2-getmaxmajorversiontested
+            - name: иаппксманифестпаккажеид
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestpackageid
+              items:
+                - name: Метод Компарепублишер
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-comparepublisher
+                - name: Метод Architecture
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-getarchitecture
+                - name: GetName - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-getname
+                - name: Метод Жетпаккажефамилинаме
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-getpackagefamilyname
+                - name: Метод Жетпаккажефуллнаме
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-getpackagefullname
+                - name: Метод метода публикации
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-getpublisher
+                - name: Метод Жетресаурцеид
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-getresourceid
+                - name: GetVersion - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-getversion
+            - name: IAppxManifestPackageId2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestpackageid2
+              items:
+                - name: Метод GetArchitecture2
+                  href: /windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid2-getarchitecture2
+            - name: иаппксманифестпропертиес
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestproperties
+              items:
+                - name: Метод Жетбулвалуе
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestproperties-getboolvalue
+                - name: Метод GetStringValue
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestproperties-getstringvalue
+            - name: иаппксманифестреадер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestreader
+              items:
+                - name: Методы для применения методов
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getapplications
+                - name: Метод capabilities
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getcapabilities
+                - name: Метод Жетдевицекапабилитиес
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getdevicecapabilities
+                - name: Метод ЖетпаккажедепенденЦиес
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getpackagedependencies
+                - name: Метод Жетпаккажеид
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getpackageid
+                - name: Метод Жетпререкуисите
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getprerequisite
+                - name: 'GetProperties, метод'
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getproperties
+                - name: Метод. Resources
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getresources
+                - name: Метод WebMethod
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getstream
+            - name: IAppxManifestReader2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestreader2
+              items:
+                - name: Метод Жеткуалифиедресаурцес
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader2-getqualifiedresources
+            - name: IAppxManifestReader5
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestreader5
+              items:
+                - name: Метод ЖетмаинпаккажедепенденЦиес
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader5-getmainpackagedependencies
+            - name: IAppxManifestReader6
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestreader6
+              items:
+                - name: Метод Жетиснонкуалифиедресаурцепаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestreader6-getisnonqualifiedresourcepackage
+            - name: иаппксманифестресаурцесенумератор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestresourcesenumerator
+              items:
+                - name: Метод OnCurrent
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestresourcesenumerator-getcurrent
+                - name: Метод Жесаскуррент
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestresourcesenumerator-gethascurrent
+                - name: MoveNext - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifestresourcesenumerator-movenext
+            - name: иаппксманифесттаржетдевицефамили
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifesttargetdevicefamily
+              items:
+                - name: GetName - метод
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifesttargetdevicefamily-getname
+                - name: Метод Жетминверсион
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifesttargetdevicefamily-getminversion
+                - name: Метод Жетмаксверсионтестед
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxmanifesttargetdevicefamily-getmaxversiontested
+            - name: иаппкспаккажеедитор
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackageeditor
+              items:
+                - name: Метод Креатеделтапаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackageeditor-createdeltapackage
+                - name: Метод Креатеделтапаккажеусингбаселинеблоккмап
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackageeditor-createdeltapackageusingbaselineblockmap
+                - name: Метод Упдатинкриптедпаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackageeditor-updateencryptedpackage
+                - name: Метод Упдатепаккаже
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackageeditor-updatepackage
+                - name: Метод Упдатепаккажеманифест
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackageeditor-updatepackagemanifest
+            - name: иаппкспаккажереадер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagereader
+              items:
+                - name: Метод Жетблоккмап
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagereader-getblockmap
+                - name: Метод Жетфутпринтфиле
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagereader-getfootprintfile
+                - name: Метод manifest
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagereader-getmanifest
+                - name: Метод Жетпайлоадфиле
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagereader-getpayloadfile
+                - name: Метод Жетпайлоадфилес
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagereader-getpayloadfiles
+            - name: иаппкспаккажевритер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagewriter
+              items:
+                - name: Метод Аддпайлоадфиле
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagewriter-addpayloadfile
+                - name: Метод Close
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagewriter-close
+            - name: IAppxPackageWriter2
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagewriter2
+              items:
+                - name: Метод Close
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagewriter2-close
+            - name: IAppxPackageWriter3
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagewriter3
+              items:
+                - name: Метод Аддпайлоадфилес
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagewriter3-addpayloadfiles
+            - name: иаппкссаурцеконтентграупмапреадер
+              href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxsourcecontentgroupmapreader
+              items:
+                - name: Метод Жетрекуиредграуп
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxsourcecontentgroupmapreader-getrequiredgroup
+                - name: Метод Жетаутоматикграупс
+                  href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxsourcecontentgroupmapreader-getautomaticgroups
+            - name: APPX_BUNDLE_FOOTPRINT_FILE_TYPE
+              href: /windows/desktop/api/AppxPackaging/ne-appxpackaging-appx_bundle_footprint_file_type
+            - name: APPX_ENCRYPTED_PACKAGE_SETTINGS
+              href: /windows/desktop/api/AppxPackaging/ns-appxpackaging-appx_encrypted_package_settings
+            - name: APPX_ENCRYPTED_PACKAGE_SETTINGS2
+              href: /windows/desktop/api/AppxPackaging/ns-appxpackaging-appx_encrypted_package_settings2
+            - name: APPX_ENCRYPTED_EXEMPTIONS
+              href: /windows/desktop/api/AppxPackaging/ns-appxpackaging-appx_encrypted_exemptions
+            - name: APPX_KEY_INFO
+              href: /windows/desktop/api/AppxPackaging/ns-appxpackaging-appx_key_info
+            - name: APPX_ENCRYPTED_PACKAGE_OPTIONS
+              href: /windows/desktop/api/AppxPackaging/ne-appxpackaging-appx_encrypted_package_options
+            - name: APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
+              href: /windows/desktop/api/AppxPackaging/ne-appxpackaging-appx_bundle_payload_package_type
+            - name: APPX_CAPABILITIES
+              href: /windows/desktop/api/AppxPackaging/ne-appxpackaging-appx_capabilities
+            - name: APPX_COMPRESSION_OPTION
+              href: /windows/desktop/api/AppxPackaging/ne-appxpackaging-appx_compression_option
+            - name: APPX_FOOTPRINT_FILE_TYPE
+              href: /windows/desktop/api/AppxPackaging/ne-appxpackaging-appx_footprint_file_type
+            - name: APPX_PACKAGE_ARCHITECTURE
+              href: /windows/desktop/api/AppxPackaging/ne-appxpackaging-appx_package_architecture
+            - name: APPX_PACKAGE_ARCHITECTURE2
+              href: /windows/desktop/api/AppxPackaging/ne-appxpackaging-appx_package_architecture2
+            - name: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_MANIFEST_OPTIONS
+              href: /windows/desktop/api/AppxPackaging/ne-appxpackaging-appx_package_editor_update_package_manifest_options
+            - name: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+              href: /windows/desktop/api/AppxPackaging/ne-appxpackaging-appx_package_editor_update_package_option
+            - name: APPX_PACKAGE_SETTINGS
+              href: /windows/desktop/api/AppxPackaging/ns-appxpackaging-appx_package_settings
+            - name: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+              href: /windows/desktop/api/AppxPackaging/ns-appxpackaging-appx_package_writer_payload_stream
+        - name: API развертывания
+          href: package-deployment-api.md
+        - name: API запроса
+          href: functions.md
+          items:
+            - name: клосепаккажеинфо
+              href: /windows/desktop/api/AppModel/nf-appmodel-closepackageinfo
+            - name: финдпаккажесбипаккажефамили
+              href: /windows/desktop/api/AppModel/nf-appmodel-findpackagesbypackagefamily
+            - name: форматаппликатионусермоделид
+              href: /windows/desktop/api/AppModel/nf-appmodel-formatapplicationusermodelid
+            - name: жетаппликатионусермоделид
+              href: /windows/desktop/api/Appmodel/nf-appmodel-getapplicationusermodelid
+            - name: жетаппликатионусермоделидфромтокен
+              href: /windows/desktop/api/Appmodel/nf-appmodel-getapplicationusermodelidfromtoken
+            - name: жеткуррентаппликатионусермоделид
+              href: /windows/desktop/api/Appmodel/nf-appmodel-getcurrentapplicationusermodelid
+            - name: жеткуррентпаккажефамилинаме
+              href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackagefamilyname
+            - name: жеткуррентпаккажефуллнаме
+              href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackagefullname
+            - name: жеткуррентпаккажеид
+              href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackageid
+            - name: жеткуррентпаккажеинфо
+              href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackageinfo
+            - name: GetCurrentPackageInfo2
+              href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackageinfo2
+            - name: жеткуррентпаккажепас
+              href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackagepath
+            - name: GetCurrentPackagePath2
+              href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackagepath2
+            - name: жетпаккажеаппликатионидс
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackageapplicationids
+            - name: жетпаккажефамилинаме
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackagefamilyname
+            - name: жетпаккажефамилинамефромтокен
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackagefamilynamefromtoken
+            - name: жетпаккажефуллнаме
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackagefullname
+            - name: жетпаккажефуллнамефромтокен
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackagefullnamefromtoken
+            - name: жетпаккажеид
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackageid
+            - name: жетпаккажеинфо
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackageinfo
+            - name: GetPackageInfo2
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackageinfo2
+            - name: GetPackagePath
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackagepath
+            - name: жетпаккажепасбифуллнаме
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackagepathbyfullname
+            - name: GetPackagePathByFullName2
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackagepathbyfullname2
+            - name: жетпаккажесбипаккажефамили
+              href: /windows/desktop/api/AppModel/nf-appmodel-getpackagesbypackagefamily
+            - name: жетстажедпаккажеоригин
+              href: /windows/desktop/api/AppModel/nf-appmodel-getstagedpackageorigin
+            - name: жетстажедпаккажепасбифуллнаме
+              href: /windows/desktop/api/AppModel/nf-appmodel-getstagedpackagepathbyfullname
+            - name: GetStagedPackagePathByFullName2
+              href: /windows/desktop/api/AppModel/nf-appmodel-getstagedpackagepathbyfullname2
+            - name: опенпаккажеинфобифуллнаме
+              href: /windows/desktop/api/AppModel/nf-appmodel-openpackageinfobyfullname
+            - name: паккажефамилинамефромфуллнаме
+              href: /windows/desktop/api/AppModel/nf-appmodel-packagefamilynamefromfullname
+            - name: паккажефамилинамефромид
+              href: /windows/desktop/api/AppModel/nf-appmodel-packagefamilynamefromid
+            - name: паккажефуллнамефромид
+              href: /windows/desktop/api/AppModel/nf-appmodel-packagefullnamefromid
+            - name: паккажеидфромфуллнаме
+              href: /windows/desktop/api/AppModel/nf-appmodel-packageidfromfullname
+            - name: паккаженамеандпублишеридфромфамилинаме
+              href: /windows/desktop/api/AppModel/nf-appmodel-packagenameandpublisheridfromfamilyname
+            - name: парсеаппликатионусермоделид
+              href: /windows/desktop/api/AppModel/nf-appmodel-parseapplicationusermodelid
+            - name: паккажеоригин
+              href: /windows/desktop/api/AppModel/ne-appmodel-packageorigin
+            - name: Константы удостоверений
+              href: identity-constants.md
+            - name: Константы пакета
+              href: package-constants.md
+            - name: PACKAGE_ID
+              href: /windows/desktop/api/AppModel/ns-appmodel-package_id
+            - name: PACKAGE_INFO
+              href: /windows/desktop/api/AppModel/ns-appmodel-package_info
+            - name: PACKAGE_VERSION
+              href: /windows/desktop/api/AppModel/ns-appmodel-package_version
+        - name: Глоссарий
+          href: appx-packaging-glossary.md
+        - name: COM-API диспетчера пакетов Windows
+          href: windows-package-manager-com-api.md
+    - name: Средства и командлеты PowerShell
+      href: appx-packaging-tools.md
+      items:
+        - name: Упаковщик приложений (MakeAppx.exe)
+          href: make-appx-package--makeappx-exe-.md
+    - name: Примеры SDK
+      href: appx-packaging-samples.md
+    - name: Программа для разработчиков классических приложений для Windows
+      href: windows-desktop-application-program.md

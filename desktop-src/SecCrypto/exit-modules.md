@@ -1,0 +1,24 @@
+---
+description: Модули выхода получают уведомления от подсистемы сервера при возникновении таких операций, как выдача сертификата.
+ms.assetid: 5e7ee1f4-7e07-4a08-8e72-89b449804bc2
+title: Модули выхода
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a5fc0668717c4a7a690cce8a03ff8c140333347b
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104265630"
+---
+# <a name="exit-modules"></a><span data-ttu-id="6e31f-103">Модули выхода</span><span class="sxs-lookup"><span data-stu-id="6e31f-103">Exit Modules</span></span>
+
+<span data-ttu-id="6e31f-104">Модули выхода получают уведомления от подсистемы сервера при возникновении таких операций, как выдача сертификата.</span><span class="sxs-lookup"><span data-stu-id="6e31f-104">Exit modules receive notifications from the server engine when operations such as the issuance of a certificate occur.</span></span> <span data-ttu-id="6e31f-105">Модуль выхода реализуется как [*Библиотека динамической компоновки*](../secgloss/d-gly.md) (DLL).</span><span class="sxs-lookup"><span data-stu-id="6e31f-105">An exit module is implemented as a [*dynamic-link library*](../secgloss/d-gly.md) (DLL).</span></span> <span data-ttu-id="6e31f-106">Типичной операцией для модуля выхода является публикация завершенного сертификата в указанном расположении (например, модуль выхода центра сертификации предприятия по умолчанию) публикует сертификаты пользователей и [*списки отзыва сертификатов*](../secgloss/c-gly.md) (CRL) в Active Directory).</span><span class="sxs-lookup"><span data-stu-id="6e31f-106">A typical operation for an exit module is to publish a completed certificate in a specified location (the default enterprise certification authority exit module, for instance, publishes user certificates and [*certificate revocation lists*](../secgloss/c-gly.md) (CRLs) to the Active Directory).</span></span> <span data-ttu-id="6e31f-107">Модуль выхода может использовать интерфейс [**ицертсерверексит**](/windows/desktop/api/Certif/nn-certif-icertserverexit) для взаимодействия со службами сертификатов.</span><span class="sxs-lookup"><span data-stu-id="6e31f-107">An exit module can use the [**ICertServerExit**](/windows/desktop/api/Certif/nn-certif-icertserverexit) interface to communicate with Certificate Services.</span></span> <span data-ttu-id="6e31f-108">Службы сертификатов взаимодействуют с модулем выхода посредством прямых вызовов COM или, если модуль не поддерживает прямые вызовы COM с помощью автоматизации.</span><span class="sxs-lookup"><span data-stu-id="6e31f-108">Certificate Services communicates with an exit module by means of direct COM calls or, if the module does not support direct COM calls, by means of Automation.</span></span>
+
+<span data-ttu-id="6e31f-109">Модуль Exit может просматривать существующие свойства и расширения сертификата, а также просматривать атрибуты и свойства запроса.</span><span class="sxs-lookup"><span data-stu-id="6e31f-109">An exit module may view existing certificate properties and extensions, and it may also view request attributes and properties.</span></span> <span data-ttu-id="6e31f-110">Однако модуль выхода не может изменять свойства.</span><span class="sxs-lookup"><span data-stu-id="6e31f-110">An exit module cannot, however, modify any properties.</span></span>
+
+<span data-ttu-id="6e31f-111">Службы сертификатов предоставляют модуль выхода по умолчанию, но вы также можете создавать пользовательские модули выхода для удовлетворения особых потребностей.</span><span class="sxs-lookup"><span data-stu-id="6e31f-111">Certificate Services provides a default exit module, but you can also create custom exit modules to meet special needs.</span></span> <span data-ttu-id="6e31f-112">Однако перед написанием пользовательского модуля выхода рассмотрите возможность использования модуля выхода по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="6e31f-112">However, before writing a custom exit module, consider using the default exit module.</span></span> <span data-ttu-id="6e31f-113">Кроме того, для центра сертификации предприятия всегда следует использовать модуль выхода по умолчанию, хотя можно добавить дополнительные пользовательские модули выхода.</span><span class="sxs-lookup"><span data-stu-id="6e31f-113">Moreover, for an enterprise certification authority, the default exit module should always be used, even though you can add additional, custom exit modules.</span></span> <span data-ttu-id="6e31f-114">Дополнительные сведения см. в разделе [написание пользовательских модулей выхода](writing-custom-exit-modules.md).</span><span class="sxs-lookup"><span data-stu-id="6e31f-114">For more information, see [Writing Custom Exit Modules](writing-custom-exit-modules.md).</span></span>
+
+ 
+
+ 

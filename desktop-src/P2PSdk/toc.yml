@@ -1,0 +1,893 @@
+- name: Одноранговая сеть
+  href: portal.md
+  items:
+    - name: Одноранговая инфраструктура
+      href: peer-infrastructure.md
+      items:
+        - name: What's New
+          href: what-s-new.md
+        - name: Сведения о одноранговой сети
+          href: about-peer-networking.md
+          items:
+            - name: Что такое одноранговая сеть?
+              href: what-is-peer-networking-.md
+            - name: Преимущества одноранговой сети
+              href: benefits-of-peer-networking.md
+            - name: Сценарии одноранговых сетей
+              href: peer-networking-scenarios.md
+            - name: Что такое одноранговая инфраструктура?
+              href: what-is-the-peer-infrastructure-.md
+        - name: Общая документация по одноранговой инфраструктуре
+          href: peer-infrastructure-common-documentation.md
+          items:
+            - name: Имена одноранговых узлов
+              href: peer-names.md
+            - name: Облака
+              href: clouds.md
+            - name: Использование одноранговой инфраструктуры
+              href: using-the-peer-infrastructure.md
+              items:
+                - name: Установка одноранговой инфраструктуры
+                  href: installing-the-peer-infrastructure.md
+                - name: Замечания по программированию
+                  href: programming-considerations.md
+                - name: Соображения безопасности
+                  href: security-considerations.md
+                - name: Импорт и экспорт базы данных
+                  href: database-import-and-export.md
+                - name: Прямые подключения
+                  href: direct-connections.md
+                - name: Перечисления
+                  href: enumerations.md
+                - name: Освобождение данных однорангового узла
+                  href: freeing-peer-data.md
+                - name: Инфраструктура событий одноранговых узлов
+                  href: peer-events-infrastructure.md
+                - name: Импорт и экспорт конфигурации удостоверений и групп
+                  href: identity-and-group-configuration-import-and-export.md
+                - name: Одноранговая инфраструктура и Teredo
+                  href: the-peer-infrastructure-and-teredo.md
+                - name: Записи
+                  href: records.md
+                  items:
+                    - name: Зависимости записей
+                      href: record-dependencies.md
+                    - name: Управление записями
+                      href: record-management.md
+                    - name: Схема атрибута записи
+                      href: record-attribute-schema.md
+                    - name: Формат запроса поиска записей
+                      href: record-search-query-format.md
+            - name: Примеры приложений
+              href: sample-applications.md
+            - name: Общая ссылка на одноранговую инфраструктуру
+              href: peer-infrastructure-common-reference.md
+              items:
+                - name: Общие функции
+                  href: common-functions.md
+                  items:
+                    - name: пиренденумератион
+                      href: /windows/desktop/api/P2P/nf-p2p-peerendenumeration
+                    - name: пирфридата
+                      href: /windows/desktop/api/P2P/nf-p2p-peerfreedata
+                    - name: пиржетитемкаунт
+                      href: /windows/desktop/api/P2P/nf-p2p-peergetitemcount
+                    - name: пиржетнекститем
+                      href: /windows/desktop/api/P2P/nf-p2p-peergetnextitem
+                - name: Общие структуры
+                  href: common-structures.md
+                  items:
+                    - name: PEER_ADDRESS
+                      href: /windows/win32/api/P2P/ns-p2p-peer_address
+                    - name: PEER_CONNECTION_INFO
+                      href: /windows/win32/api/P2P/ns-p2p-peer_connection_info
+                    - name: PEER_DATA
+                      href: /windows/win32/api/P2P/ns-p2p-peer_data
+                    - name: PEER_EVENT_CONNECTION_CHANGE_DATA
+                      href: /windows/win32/api/P2P/ns-p2p-peer_event_connection_change_data
+                    - name: PEER_EVENT_INCOMING_DATA
+                      href: /windows/win32/api/P2P/ns-p2p-peer_event_incoming_data
+                    - name: PEER_EVENT_RECORD_CHANGE_DATA
+                      href: /windows/win32/api/P2P/ns-p2p-peer_event_record_change_data
+                    - name: PEER_RECORD
+                      href: /windows/win32/api/P2P/ns-p2p-peer_record
+                    - name: PEER_VERSION_DATA
+                      href: /windows/win32/api/P2P/ns-p2p-peer_version_data
+                - name: Общие константы
+                  href: common-enumerations.md
+                  items:
+                    - name: PEER_CONNECTION_FLAGS
+                      href: /windows/win32/api/P2P/ne-p2p-peer_connection_flags
+                    - name: PEER_CONNECTION_STATUS
+                      href: /windows/win32/api/P2P/ne-p2p-peer_connection_status
+                    - name: PEER_RECORD_CHANGE_TYPE
+                      href: /windows/win32/api/P2P/ne-p2p-peer_record_change_type
+                    - name: PEER_RECORD_FLAGS
+                      href: /windows/win32/api/P2P/ne-p2p-peer_record_flags
+                - name: Общие коды возврата
+                  href: common-return-codes.md
+        - name: API Graph
+          href: graphing-api.md
+          items:
+            - name: Сведения об API Graph
+              href: about-the-graphing-api.md
+            - name: Использование API Graph
+              href: using-the-graphing-api.md
+              items:
+                - name: Работа с диаграммами
+                  href: working-with-graphs.md
+                - name: Поставщики услуг безопасности
+                  href: security-service-providers.md
+            - name: Справочник по API Graph
+              href: the-graphing-api-reference.md
+              items:
+                - name: Построение графических функций API
+                  href: graphing-api-functions.md
+                  items:
+                    - name: пирграфаддрекорд
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphaddrecord
+                    - name: пирграфклосе
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphclose
+                    - name: пирграфклоседиректконнектион
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphclosedirectconnection
+                    - name: пирграфконнект
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphconnect
+                    - name: пирграфкреате
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphcreate
+                    - name: пирграфделете
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphdelete
+                    - name: пирграфделетерекорд
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphdeleterecord
+                    - name: пирграфенденумератион
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphendenumeration
+                    - name: пирграфенумконнектионс
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphenumconnections
+                    - name: пирграфенумнодес
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphenumnodes
+                    - name: пирграфенумрекордс
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphenumrecords
+                    - name: пирграфекспортдатабасе
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphexportdatabase
+                    - name: пирграффридата
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphfreedata
+                    - name: пирграфжетевентдата
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphgeteventdata
+                    - name: пирграфжетитемкаунт
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphgetitemcount
+                    - name: пирграфжетнекститем
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphgetnextitem
+                    - name: пирграфжетнодеинфо
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphgetnodeinfo
+                    - name: пирграфжетпропертиес
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphgetproperties
+                    - name: пирграфжетрекорд
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphgetrecord
+                    - name: пирграфжетстатус
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphgetstatus
+                    - name: пирграфимпортдатабасе
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphimportdatabase
+                    - name: пирграфлистен
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphlisten
+                    - name: пирграфопен
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphopen
+                    - name: пирграфопендиректконнектион
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphopendirectconnection
+                    - name: пирграфпиртиметауниверсалтиме
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphpeertimetouniversaltime
+                    - name: пирграфрегистеревент
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphregisterevent
+                    - name: пирграфсеарчрекордс
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphsearchrecords
+                    - name: пирграфсенддата
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphsenddata
+                    - name: пирграфсетнодеаттрибутес
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphsetnodeattributes
+                    - name: пирграфсетпресенце
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphsetpresence
+                    - name: пирграфсетпропертиес
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphsetproperties
+                    - name: пирграфшутдовн
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphshutdown
+                    - name: пирграфстартуп
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphstartup
+                    - name: пирграфуниверсалтиметопиртиме
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphuniversaltimetopeertime
+                    - name: пирграфунрегистеревент
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphunregisterevent
+                    - name: пирграфупдатерекорд
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphupdaterecord
+                    - name: пирграфвалидатедеферредрекордс
+                      href: /windows/desktop/api/P2P/nf-p2p-peergraphvalidatedeferredrecords
+                - name: Построение графов обратных вызовов API
+                  href: graphing-api-callbacks.md
+                  items:
+                    - name: PFNPEER_FREE_SECURITY_DATA
+                      href: /windows/desktop/api/P2P/nc-p2p-pfnpeer_free_security_data
+                    - name: PFNPEER_SECURE_RECORD
+                      href: /windows/desktop/api/P2P/nc-p2p-pfnpeer_secure_record
+                    - name: PFNPEER_VALIDATE_RECORD
+                      href: /windows/desktop/api/P2P/nc-p2p-pfnpeer_validate_record
+                - name: Построение диаграмм по структурам API
+                  href: graphing-api-structures.md
+                  items:
+                    - name: PEER_EVENT_NODE_CHANGE_DATA
+                      href: /windows/win32/api/P2P/ns-p2p-peer_event_node_change_data
+                    - name: PEER_EVENT_SYNCHRONIZED_DATA
+                      href: /windows/win32/api/P2P/ns-p2p-peer_event_synchronized_data
+                    - name: PEER_GRAPH_EVENT_DATA
+                      href: /windows/win32/api/P2P/ns-p2p-peer_graph_event_data
+                    - name: PEER_GRAPH_EVENT_REGISTRATION
+                      href: /windows/win32/api/P2P/ns-p2p-peer_graph_event_registration
+                    - name: PEER_GRAPH_PROPERTIES
+                      href: /windows/win32/api/P2P/ns-p2p-peer_graph_properties
+                    - name: PEER_NODE_INFO
+                      href: /windows/win32/api/P2P/ns-p2p-peer_node_info
+                    - name: PEER_SECURITY_INTERFACE
+                      href: /windows/win32/api/P2P/ns-p2p-peer_security_interface
+                - name: Построение диаграмм констант API
+                  href: graphing-api-enumerations.md
+                  items:
+                    - name: PEER_GRAPH_EVENT_TYPE
+                      href: /windows/win32/api/P2P/ne-p2p-peer_graph_event_type
+                    - name: PEER_GRAPH_PROPERTY_FLAGS
+                      href: /windows/win32/api/P2P/ne-p2p-peer_graph_property_flags
+                    - name: PEER_GRAPH_SCOPE
+                      href: /windows/win32/api/P2P/ne-p2p-peer_graph_scope
+                    - name: PEER_GRAPH_STATUS_FLAGS
+                      href: /windows/win32/api/P2P/ne-p2p-peer_graph_status_flags
+                    - name: PEER_NODE_CHANGE_TYPE
+                      href: /windows/win32/api/P2P/ne-p2p-peer_node_change_type
+                - name: Построение справочника по ссылкам
+                  href: graphing-reference-links.md
+        - name: API группирования
+          href: grouping-api.md
+          items:
+            - name: Сведения об API группирования
+              href: about-the-grouping-api.md
+              items:
+                - name: Работа с группами
+                  href: how-to-work-with-groups.md
+                - name: Принципы работы группы безопасности
+                  href: how-group-security-works.md
+                - name: Подключение к одноранговой группе
+                  href: how-to-connect-to-a-peer-group.md
+                - name: Приглашение однорангового узла в группу
+                  href: inviting-a-peer-to-a-group.md
+                - name: Управление записями групп
+                  href: managing-group-records.md
+            - name: Использование API группирования
+              href: using-the-grouping-api.md
+              items:
+                - name: Создание приложения группы чата
+                  href: creating-a-group-chat-application.md
+            - name: Справочник по API группирования
+              href: the-grouping-api-reference.md
+              items:
+                - name: Группирование функций API
+                  href: grouping-api-functions.md
+                  items:
+                    - name: пирграупаддрекорд
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupaddrecord
+                    - name: пирграупклосе
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupclose
+                    - name: пирграупклоседиректконнектион
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupclosedirectconnection
+                    - name: пирграупконнект
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupconnect
+                    - name: пирграупконнектбяддресс
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupconnectbyaddress
+                    - name: пирграупкреате
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupcreate
+                    - name: пирграупкреатеинвитатион
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupcreateinvitation
+                    - name: пирграупкреатепассвординвитатион
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupcreatepasswordinvitation
+                    - name: пирграупделете
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupdelete
+                    - name: пирграупделетерекорд
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupdeleterecord
+                    - name: пирграупенумконнектионс
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupenumconnections
+                    - name: пирграупенуммемберс
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupenummembers
+                    - name: пирграупенумрекордс
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupenumrecords
+                    - name: пирграупекспортконфиг
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupexportconfig
+                    - name: пирграупекспортдатабасе
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupexportdatabase
+                    - name: пирграупжетевентдата
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupgeteventdata
+                    - name: пирграупжетпропертиес
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupgetproperties
+                    - name: пирграупжетрекорд
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupgetrecord
+                    - name: пирграупжетстатус
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupgetstatus
+                    - name: пирграупимпортконфиг
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupimportconfig
+                    - name: пирграупимпортдатабасе
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupimportdatabase
+                    - name: пирграуписсуекредентиалс
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupissuecredentials
+                    - name: пирграупжоин
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupjoin
+                    - name: пирграупопен
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupopen
+                    - name: пирграупопендиректконнектион
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupopendirectconnection
+                    - name: пирграуппассворджоин
+                      href: /windows/desktop/api/P2P/nf-p2p-peergrouppasswordjoin
+                    - name: пирграуппарсеинвитатион
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupparseinvitation
+                    - name: пирграуппиртиметауниверсалтиме
+                      href: /windows/desktop/api/P2P/nf-p2p-peergrouppeertimetouniversaltime
+                    - name: пирграупрегистеревент
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupregisterevent
+                    - name: пирграупсеарчрекордс
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupsearchrecords
+                    - name: пирграупсенддата
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupsenddata
+                    - name: пирграупсетпропертиес
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupsetproperties
+                    - name: пирграупшутдовн
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupshutdown
+                    - name: пирграупстартуп
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupstartup
+                    - name: пирграупуниверсалтиметопиртиме
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupuniversaltimetopeertime
+                    - name: пирграупунрегистеревент
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupunregisterevent
+                    - name: пирграупупдатерекорд
+                      href: /windows/desktop/api/P2P/nf-p2p-peergroupupdaterecord
+                - name: Группирование структур API
+                  href: grouping-api-structures.md
+                  items:
+                    - name: PEER_CREDENTIAL_INFO
+                      href: /windows/win32/api/P2P/ns-p2p-peer_credential_info
+                    - name: PEER_EVENT_MEMBER_CHANGE_DATA
+                      href: /windows/win32/api/P2P/ns-p2p-peer_event_member_change_data
+                    - name: PEER_GROUP_EVENT_DATA
+                      href: /windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1
+                    - name: PEER_GROUP_EVENT_REGISTRATION
+                      href: /windows/win32/api/P2P/ns-p2p-peer_group_event_registration
+                    - name: PEER_GROUP_PROPERTIES
+                      href: /windows/win32/api/P2P/ns-p2p-peer_group_properties
+                    - name: PEER_INVITATION_INFO
+                      href: /windows/win32/api/P2P/ns-p2p-peer_invitation_info
+                    - name: PEER_MEMBER
+                      href: /windows/win32/api/P2P/ns-p2p-peer_member
+                - name: Группирование перечислений API
+                  href: grouping-api-enumerations.md
+                  items:
+                    - name: PEER_GROUP_AUTHENTICATION_SCHEME
+                      href: /windows/win32/api/P2P/ne-p2p-peer_group_authentication_scheme
+                    - name: PEER_GROUP_EVENT_TYPE
+                      href: /windows/win32/api/P2P/ne-p2p-peer_group_event_type
+                    - name: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS
+                      href: /windows/desktop/api/P2P/ne-p2p-peer_group_issue_credential_flags
+                    - name: PEER_GROUP_PROPERTY_FLAGS
+                      href: /windows/win32/api/P2P/ne-p2p-peer_group_property_flags
+                    - name: PEER_GROUP_STATUS
+                      href: /windows/win32/api/P2P/ne-p2p-peer_group_status
+                    - name: PEER_MEMBER_CHANGE_TYPE
+                      href: /windows/win32/api/P2P/ne-p2p-peer_member_change_type
+                    - name: PEER_MEMBER_FLAGS
+                      href: /windows/win32/api/P2P/ne-p2p-peer_member_flags
+        - name: API диспетчера удостоверений
+          href: identity-manager-api.md
+          items:
+            - name: О программе Identity Manager
+              href: about-the-identity-manager-api.md
+            - name: Использование диспетчера удостоверений
+              href: using-the-identity-manager-api.md
+              items:
+                - name: Создание удостоверения однорангового узла
+                  href: creating-a-peer-identity.md
+            - name: Справочник по диспетчеру удостоверений
+              href: the-identity-manager-api-reference.md
+              items:
+                - name: Функции диспетчера удостоверений
+                  href: identity-manager-functions.md
+                  items:
+                    - name: пиркреатепирнаме
+                      href: /windows/desktop/api/P2P/nf-p2p-peercreatepeername
+                    - name: пиренумграупс
+                      href: /windows/desktop/api/P2P/nf-p2p-peerenumgroups
+                    - name: пиренумидентитиес
+                      href: /windows/desktop/api/P2P/nf-p2p-peerenumidentities
+                    - name: пиридентитикреате
+                      href: /windows/desktop/api/P2P/nf-p2p-peeridentitycreate
+                    - name: пиридентитиделете
+                      href: /windows/desktop/api/P2P/nf-p2p-peeridentitydelete
+                    - name: пиридентитекспорт
+                      href: /windows/desktop/api/P2P/nf-p2p-peeridentityexport
+                    - name: пиридентитижеткрипткэй
+                      href: /windows/desktop/api/P2P/nf-p2p-peeridentitygetcryptkey
+                    - name: пиридентитижетдефаулт
+                      href: /windows/desktop/api/P2P/nf-p2p-peeridentitygetdefault
+                    - name: пиридентитижетфриендлинаме
+                      href: /windows/desktop/api/P2P/nf-p2p-peeridentitygetfriendlyname
+                    - name: пиридентитижетксмл
+                      href: /windows/desktop/api/P2P/nf-p2p-peeridentitygetxml
+                    - name: пиридентитимпорт
+                      href: /windows/desktop/api/P2P/nf-p2p-peeridentityimport
+                    - name: пиридентитисетфриендлинаме
+                      href: /windows/desktop/api/P2P/nf-p2p-peeridentitysetfriendlyname
+                - name: Структуры диспетчера удостоверений
+                  href: identity-manager-structures.md
+                  items:
+                    - name: PEER_NAME_PAIR
+                      href: /windows/win32/api/P2P/ns-p2p-peer_name_pair
+                - name: Ссылки на справочники по диспетчеру удостоверений
+                  href: identity-manager-reference-links.md
+        - name: API таблиц распределенной маршрутизации
+          href: distributed-routing-table-api.md
+          items:
+            - name: Сведения о таблицах распределенной маршрутизации
+              href: about-distributed-routing-tables.md
+            - name: Использование API таблиц распределенной маршрутизации
+              href: using-the-distributed-routing-table-api.md
+              items:
+                - name: Регистрация и Отмена регистрации ключей
+                  href: registering-and-deregistering-keys.md
+                - name: Поиск в таблице распределенной маршрутизации
+                  href: searching-a-distributed-routing-table.md
+            - name: Справочник по распределенной маршрутизации API таблиц
+              href: distributed-routing-table-api-reference.md
+              items:
+                - name: Перечисление таблиц распределенной маршрутизации
+                  href: distributed-routing-table-enumerations.md
+                  items:
+                    - name: DRT_ADDRESS_FLAGS
+                      href: /windows/win32/api/drt/ne-drt-drt_address_flags
+                    - name: DRT_EVENT_TYPE
+                      href: /windows/win32/api/drt/ne-drt-drt_event_type
+                    - name: DRT_LEAFSET_KEY_CHANGE_TYPE
+                      href: /windows/win32/api/drt/ne-drt-drt_leafset_key_change_type
+                    - name: DRT_MATCH_TYPE
+                      href: /windows/win32/api/drt/ne-drt-drt_match_type
+                    - name: DRT_REGISTRATION_STATE
+                      href: /windows/win32/api/drt/ne-drt-drt_registration_state
+                    - name: DRT_SCOPE
+                      href: /windows/win32/api/drt/ne-drt-drt_scope
+                    - name: DRT_SECURITY_MODE
+                      href: /windows/win32/api/drt/ne-drt-drt_security_mode
+                    - name: DRT_STATUS
+                      href: /windows/win32/api/drt/ne-drt-drt_status
+                - name: Структуры таблиц распределенной маршрутизации
+                  href: distributed-routing-table-structures.md
+                  items:
+                    - name: DRT_ADDRESS
+                      href: /windows/win32/api/drt/ns-drt-drt_address
+                    - name: DRT_BOOTSTRAP_PROVIDER
+                      href: /windows/win32/api/drt/ns-drt-drt_bootstrap_provider
+                    - name: DRT_ADDRESS_LIST
+                      href: /windows/win32/api/drt/ns-drt-drt_address_list
+                    - name: DRT_DATA
+                      href: /windows/win32/api/drt/ns-drt-drt_data
+                    - name: DRT_EVENT_DATA
+                      href: /windows/win32/api/drt/ns-drt-drt_event_data
+                    - name: DRT_REGISTRATION
+                      href: /windows/win32/api/drt/ns-drt-drt_registration
+                    - name: DRT_SEARCH_INFO
+                      href: /windows/win32/api/drt/ns-drt-drt_search_info
+                    - name: DRT_SEARCH_RESULT
+                      href: /windows/win32/api/drt/ns-drt-drt_search_result
+                    - name: DRT_SECURITY_PROVIDER
+                      href: /windows/win32/api/Drt/ns-drt-drt_security_provider
+                    - name: DRT_SETTINGS
+                      href: /windows/win32/api/drt/ns-drt-drt_settings
+                - name: Функции таблиц распределенной маршрутизации
+                  href: distributed-routing-table-functions.md
+                  items:
+                    - name: дртклосе
+                      href: /windows/desktop/api/drt/nf-drt-drtclose
+                    - name: дртконтинуесеарч
+                      href: /windows/desktop/api/drt/nf-drt-drtcontinuesearch
+                    - name: дрткреатедериведкэй
+                      href: /windows/desktop/api/drt/nf-drt-drtcreatederivedkey
+                    - name: дрткреатедериведкэйсекуритипровидер
+                      href: /windows/desktop/api/drt/nf-drt-drtcreatederivedkeysecurityprovider
+                    - name: дрткреатеднсбутстрапресолвер
+                      href: /windows/desktop/api/drt/nf-drt-drtcreatednsbootstrapresolver
+                    - name: DrtCreateIpv6UdpTransport
+                      href: /windows/desktop/api/drt/nf-drt-drtcreateipv6udptransport
+                    - name: дрткреатенуллсекуритипровидер
+                      href: /windows/desktop/api/drt/nf-drt-drtcreatenullsecurityprovider
+                    - name: дрткреатепнрпбутстрапресолвер
+                      href: /windows/desktop/api/drt/nf-drt-drtcreatepnrpbootstrapresolver
+                    - name: дртделетедериведкэйсекуритипровидер
+                      href: /windows/desktop/api/drt/nf-drt-drtdeletederivedkeysecurityprovider
+                    - name: дртделетеднсбутстрапресолвер
+                      href: /windows/desktop/api/drt/nf-drt-drtdeletednsbootstrapresolver
+                    - name: DrtDeleteIpv6UdpTransport
+                      href: /windows/desktop/api/drt/nf-drt-drtdeleteipv6udptransport
+                    - name: дртделетенуллсекуритипровидер
+                      href: /windows/desktop/api/drt/nf-drt-drtdeletenullsecurityprovider
+                    - name: дртделетепнрпбутстрапресолвер
+                      href: /windows/desktop/api/drt/nf-drt-drtdeletepnrpbootstrapresolver
+                    - name: дртендсеарч
+                      href: /windows/desktop/api/drt/nf-drt-drtendsearch
+                    - name: дртжетевентдата
+                      href: /windows/desktop/api/drt/nf-drt-drtgeteventdata
+                    - name: дртжетевентдатасизе
+                      href: /windows/desktop/api/drt/nf-drt-drtgeteventdatasize
+                    - name: дртжетинстанценаме
+                      href: /windows/desktop/api/drt/nf-drt-drtgetinstancename
+                    - name: дртжетинстанценамесизе
+                      href: /windows/desktop/api/drt/nf-drt-drtgetinstancenamesize
+                    - name: дртжетсеарчпас
+                      href: /windows/desktop/api/drt/nf-drt-drtgetsearchpath
+                    - name: дртжетсеарчпассизе
+                      href: /windows/desktop/api/drt/nf-drt-drtgetsearchpathsize
+                    - name: дртжетсеарчресулт
+                      href: /windows/desktop/api/drt/nf-drt-drtgetsearchresult
+                    - name: дртжетсеарчресултсизе
+                      href: /windows/desktop/api/drt/nf-drt-drtgetsearchresultsize
+                    - name: дртопен
+                      href: /windows/desktop/api/drt/nf-drt-drtopen
+                    - name: дртрегистеркэй
+                      href: /windows/desktop/api/drt/nf-drt-drtregisterkey
+                    - name: дртстартсеарч
+                      href: /windows/desktop/api/drt/nf-drt-drtstartsearch
+                    - name: дртунрегистеркэй
+                      href: /windows/desktop/api/drt/nf-drt-drtunregisterkey
+                    - name: дртупдатекэй
+                      href: /windows/desktop/api/drt/nf-drt-drtupdatekey
+                - name: Возвращаемые значения таблицы распределенной маршрутизации
+                  href: distributed-routing-table-return-values.md
+        - name: API поставщика пространства имен PNRP
+          href: pnrp-namespace-provider-api.md
+          items:
+            - name: Об PNRP
+              href: about-pnrp.md
+            - name: Использование PNRP
+              href: using-pnrp.md
+              items:
+                - name: Регистрация имени однорангового узла
+                  href: registering-a-peer-name.md
+                - name: Отмена регистрации имени однорангового узла
+                  href: unregistering-a-peer-name.md
+                - name: Разрешение имени однорангового узла
+                  href: resolving-a-peer-name.md
+                - name: Перечисление облаков
+                  href: enumerating-clouds.md
+            - name: Справочник по PNRP
+              href: pnrp-reference.md
+              items:
+                - name: Функции PNRP
+                  href: pnrp-functions.md
+                  items:
+                    - name: пирнаметопирхостнаме
+                      href: /windows/desktop/api/P2P/nf-p2p-peernametopeerhostname
+                    - name: пирхостнаметопирнаме
+                      href: /windows/desktop/api/P2P/nf-p2p-peerhostnametopeername
+                    - name: пирпнрпстартуп
+                      href: /windows/desktop/api/P2P/nf-p2p-peerpnrpstartup
+                    - name: пирпнрпшутдовн
+                      href: /windows/desktop/api/P2P/nf-p2p-peerpnrpshutdown
+                    - name: пирпнрпрегистер
+                      href: /windows/desktop/api/P2P/nf-p2p-peerpnrpregister
+                    - name: пирпнрпупдатерегистратион
+                      href: /windows/desktop/api/P2P/nf-p2p-peerpnrpupdateregistration
+                    - name: пирпнрпунрегистер
+                      href: /windows/desktop/api/P2P/nf-p2p-peerpnrpunregister
+                    - name: пирпнрпресолве
+                      href: /windows/desktop/api/P2P/nf-p2p-peerpnrpresolve
+                    - name: пирпнрпстартресолве
+                      href: /windows/desktop/api/P2P/nf-p2p-peerpnrpstartresolve
+                    - name: пирпнрпжетклаудинфо
+                      href: /windows/desktop/api/P2P/nf-p2p-peerpnrpgetcloudinfo
+                    - name: пирпнрпжетендпоинт
+                      href: /windows/desktop/api/P2P/nf-p2p-peerpnrpgetendpoint
+                    - name: пирпнрпендресолве
+                      href: /windows/desktop/api/P2P/nf-p2p-peerpnrpendresolve
+                    - name: PNRP и Всалукупсервицебегин
+                      href: pnrp-and-wsalookupservicebegin.md
+                    - name: PNRP и Всалукупсервицеенд
+                      href: pnrp-and-wsalookupserviceend.md
+                    - name: PNRP и Всалукупсервиценекст
+                      href: pnrp-and-wsalookupservicenext.md
+                    - name: PNRP и Всанспиоктл
+                      href: pnrp-and-wsanspioctl.md
+                    - name: PNRP и Всасетсервице
+                      href: pnrp-and-wsasetservice.md
+                - name: Структуры PNRP
+                  href: pnrp-structures.md
+                  items:
+                    - name: PEER_PNRP_ENDPOINT_INFO
+                      href: /windows/win32/api/P2P/ns-p2p-peer_pnrp_endpoint_info
+                    - name: PEER_PNRP_CLOUD_INFO
+                      href: /windows/win32/api/P2P/ns-p2p-peer_pnrp_cloud_info
+                    - name: PEER_PNRP_REGISTRATION_INFO
+                      href: /windows/win32/api/P2P/ns-p2p-peer_pnrp_registration_info
+                    - name: PNRP и ВСАКУЕРИСЕТ
+                      href: pnrp-and-wsaqueryset.md
+                    - name: PNRP_CLOUD_ID
+                      href: /windows/win32/api/Pnrpdef/ns-pnrpdef-pnrp_cloud_id
+                    - name: PNRP и BLOB-объект
+                      href: pnrp-and-blob.md
+                    - name: пнрпклаудинфо
+                      href: /windows/win32/api/Pnrpns/ns-pnrpns-pnrpcloudinfo
+                    - name: PNRPINFO_V1
+                      href: /windows/win32/api/Pnrpns/ns-pnrpns-pnrpinfo_v1
+                    - name: PNRPINFO_V2
+                      href: /previous-versions/windows/desktop/legacy/aa371671(v=vs.85)
+                - name: Константы PNRP
+                  href: pnrp-constants.md
+                  items:
+                    - name: PNRP_CLOUD_FLAGS
+                      href: /windows/win32/api/Pnrpdef/ne-pnrpdef-pnrp_cloud_flags
+                    - name: PNRP_CLOUD_STATE
+                      href: /windows/win32/api/Pnrpdef/ne-pnrpdef-pnrp_cloud_state
+                    - name: PNRP_RESOLVE_CRITERIA
+                      href: /windows/win32/api/Pnrpdef/ne-pnrpdef-pnrp_resolve_criteria
+                - name: Справочные ссылки по Winsock NSP
+                  href: winsock-nsp-reference-links.md
+                - name: Коды ошибок PNRP NSP
+                  href: pnrp-nsp-error-codes.md
+    - name: Одноранговая совместная работа
+      href: peer-collaboration.md
+      items:
+        - name: Сведения об API совместной работы в одноранговых группах
+          href: about-the-peer-collaboration-api.md
+        - name: О программе "Соседние пользователи"
+          href: about-people-near-me.md
+          items:
+            - name: Зачем использовать "Соседние пользователи"?
+              href: why-use-people-near-me-.md
+            - name: Требования "Соседние пользователи"
+              href: people-near-me-requirements.md
+            - name: Архитектура "Соседние пользователи"
+              href: people-near-me-architecture.md
+              items:
+                - name: API-интерфейсы "Соседние пользователи"
+                  href: people-near-me-apis.md
+                - name: Магазины "Соседние пользователи"
+                  href: people-near-me-stores.md
+                - name: Одноранговые компоненты Windows для "соседних пользователей"
+                  href: windows-peer-components-for-people-near-me.md
+                - name: Компоненты Windows Vista для "соседних пользователей"
+                  href: windows-vista-components-for-people-near-me.md
+        - name: Справочник по API совместной работы
+          href: collaboration-api-reference.md
+          items:
+            - name: Перечисления API совместной работы
+              href: collaboration-api-enumerations.md
+              items:
+                - name: PEER_APPLICATION_REGISTRATION_TYPE
+                  href: /windows/win32/api/P2P/ne-p2p-peer_application_registration_type
+                - name: PEER_CHANGE_TYPE
+                  href: /windows/win32/api/P2P/ne-p2p-peer_change_type
+                - name: PEER_COLLAB_EVENT_TYPE
+                  href: /windows/win32/api/P2P/ne-p2p-peer_collab_event_type
+                - name: PEER_INVITATION_RESPONSE_TYPE
+                  href: /windows/win32/api/P2P/ne-p2p-peer_invitation_response_type
+                - name: PEER_PRESENCE_STATUS
+                  href: /windows/win32/api/P2P/ne-p2p-peer_presence_status
+                - name: PEER_PUBLICATION_SCOPE
+                  href: /windows/win32/api/P2P/ne-p2p-peer_publication_scope
+                - name: PEER_SIGNIN_FLAGS
+                  href: /windows/win32/api/P2P/ne-p2p-peer_signin_flags
+                - name: PEER_WATCH_PERMISSION
+                  href: /windows/win32/api/P2P/ne-p2p-peer_watch_permission
+            - name: Функции API совместной работы
+              href: collaboration-api-functions.md
+              items:
+                - name: пирколлабаддконтакт
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabaddcontact
+                - name: пирколлабасинЦинвитеконтакт
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabasyncinvitecontact
+                - name: пирколлабасинЦинвитиндпоинт
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabasyncinviteendpoint
+                - name: пирколлабканцелинвитатион
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabcancelinvitation
+                - name: пирколлабклосехандле
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabclosehandle
+                - name: пирколлабделетеконтакт
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabdeletecontact
+                - name: пирколлабделетиндпоинтдата
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabdeleteendpointdata
+                - name: пирколлабделетеобжект
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabdeleteobject
+                - name: пирколлабенумаппликатионс
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabenumapplications
+                - name: пирколлабенумаппликатионрегистратионинфо
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabenumapplicationregistrationinfo
+                - name: пирколлабенумконтактс
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabenumcontacts
+                - name: пирколлабенумендпоинтс
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabenumendpoints
+                - name: пирколлабенумобжектс
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabenumobjects
+                - name: пирколлабенумпеопленеарме
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabenumpeoplenearme
+                - name: пирколлабекспортконтакт
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabexportcontact
+                - name: пирколлабжетапплаунчинфо
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabgetapplaunchinfo
+                - name: пирколлабжетаппликатионрегистратионинфо
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabgetapplicationregistrationinfo
+                - name: пирколлабжетконтакт
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabgetcontact
+                - name: пирколлабжетендпоинтнаме
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabgetendpointname
+                - name: пирколлабжетевентдата
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabgeteventdata
+                - name: пирколлабжетинвитатионреспонсе
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabgetinvitationresponse
+                - name: пирколлабжетпресенцеинфо
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabgetpresenceinfo
+                - name: пирколлабжетсигниноптионс
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabgetsigninoptions
+                - name: пирколлабинвитеконтакт
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabinvitecontact
+                - name: пирколлабинвитиндпоинт
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabinviteendpoint
+                - name: пирколлабпарсеконтакт
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabparsecontact
+                - name: пирколлабкуериконтактдата
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabquerycontactdata
+                - name: пирколлабрефрешендпоинтдата
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabrefreshendpointdata
+                - name: пирколлабрегистераппликатион
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabregisterapplication
+                - name: пирколлабрегистеревент
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabregisterevent
+                - name: пирколлабсетендпоинтнаме
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabsetendpointname
+                - name: пирколлабсетобжект
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabsetobject
+                - name: пирколлабсетпресенцеинфо
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabsetpresenceinfo
+                - name: пирколлабсигнин
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabsignin
+                - name: пирколлабсигнаут
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabsignout
+                - name: пирколлабшутдовн
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabshutdown
+                - name: пирколлабстартуп
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabstartup
+                - name: пирколлабсубскрибиндпоинтдата
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabsubscribeendpointdata
+                - name: пирколлабунрегистераппликатион
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabunregisterapplication
+                - name: пирколлабунрегистеревент
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabunregisterevent
+                - name: пирколлабунсубскрибиндпоинтдата
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabunsubscribeendpointdata
+                - name: пирколлабупдатеконтакт
+                  href: /windows/desktop/api/P2P/nf-p2p-peercollabupdatecontact
+            - name: Структуры API совместной работы
+              href: collaboration-api-structures.md
+              items:
+                - name: PEER_APPLICATION
+                  href: /windows/win32/api/P2P/ns-p2p-peer_application
+                - name: PEER_APPLICATION_REGISTRATION_INFO
+                  href: /windows/win32/api/P2P/ns-p2p-peer_application_registration_info
+                - name: PEER_APP_LAUNCH_INFO
+                  href: /windows/win32/api/P2P/ns-p2p-peer_app_launch_info
+                - name: PEER_COLLAB_EVENT_DATA
+                  href: /windows/win32/api/p2p/ns-p2p-peer_collab_event_data-r1
+                - name: PEER_COLLAB_EVENT_REGISTRATION
+                  href: /windows/win32/api/P2P/ns-p2p-peer_collab_event_registration
+                - name: PEER_CONTACT
+                  href: /windows/win32/api/P2P/ns-p2p-peer_contact
+                - name: PEER_ENDPOINT
+                  href: /windows/win32/api/P2P/ns-p2p-peer_endpoint
+                - name: PEER_PEOPLE_NEAR_ME
+                  href: /windows/win32/api/P2P/ns-p2p-peer_people_near_me
+                - name: PEER_EVENT_APPLICATION_CHANGED_DATA
+                  href: /windows/win32/api/P2P/ns-p2p-peer_event_application_changed_data
+                - name: PEER_EVENT_ENDPOINT_CHANGED_DATA
+                  href: /windows/win32/api/P2P/ns-p2p-peer_event_endpoint_changed_data
+                - name: PEER_EVENT_OBJECT_CHANGED_DATA
+                  href: /windows/win32/api/P2P/ns-p2p-peer_event_object_changed_data
+                - name: PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA
+                  href: /windows/win32/api/P2P/ns-p2p-peer_event_people_near_me_changed_data
+                - name: PEER_EVENT_PRESENCE_CHANGED_DATA
+                  href: /windows/win32/api/P2P/ns-p2p-peer_event_presence_changed_data
+                - name: PEER_EVENT_REQUEST_STATUS_CHANGED_DATA
+                  href: /windows/win32/api/P2P/ns-p2p-peer_event_request_status_changed_data
+                - name: PEER_EVENT_WATCHLIST_CHANGED_DATA
+                  href: /windows/win32/api/P2P/ns-p2p-peer_event_watchlist_changed_data
+                - name: PEER_INVITATION
+                  href: /windows/win32/api/P2P/ns-p2p-peer_invitation
+                - name: PEER_INVITATION_RESPONSE
+                  href: /windows/win32/api/P2P/ns-p2p-peer_invitation_response
+                - name: PEER_OBJECT
+                  href: /windows/win32/api/P2P/ns-p2p-peer_object
+                - name: PEER_PRESENCE_INFO
+                  href: /windows/win32/api/P2P/ns-p2p-peer_presence_info
+    - name: Одноранговое распределение
+      href: peer-distribution.md
+      items:
+        - name: О одноранговом распределении
+          href: about-peer-distribution.md
+        - name: Справочник по API однорангового распространения
+          href: peer-distribution-api-reference.md
+          items:
+            - name: Перечисления API однорангового распространения
+              href: peer-distribution-api-enumerations.md
+              items:
+                - name: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+                  href: /windows/win32/api/peerdist/ne-peerdist-peerdist_client_info_by_handle_class
+                - name: PEERDIST_STATUS
+                  href: /windows/desktop/api/peerdist/ne-peerdist-peerdist_status
+            - name: Структуры API однорангового распространения
+              href: peer-distribution-api-structures.md
+              items:
+                - name: PEERDIST_CLIENT_BASIC_INFO
+                  href: /windows/win32/api/peerdist/ns-peerdist-peerdist_client_basic_info
+                - name: PEERDIST_CONTENT_TAG
+                  href: /windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag
+                - name: PEERDIST_PUBLICATION_OPTIONS
+                  href: /windows/win32/api/peerdist/ns-peerdist-peerdist_publication_options
+                - name: PEERDIST_RETRIEVAL_OPTIONS
+                  href: /windows/win32/api/peerdist/ns-peerdist-peerdist_retrieval_options
+                - name: PEERDIST_STATUS_INFO
+                  href: /windows/win32/api/peerdist/ns-peerdist-peerdist_status_info
+            - name: Функции API однорангового распределения
+              href: peer-distribution-api-functions.md
+              items:
+                - name: пирдистстартуп
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdiststartup
+                - name: пирдистшутдовн
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistshutdown
+                - name: пирдистжетстатус
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistgetstatus
+                - name: пирдистжетстатусекс
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistgetstatusex
+                - name: пирдистжетоверлаппедресулт
+                  href: /windows/desktop/api/peerdist/nf-peerdist-peerdistgetoverlappedresult
+                - name: пирдистрегистерфорстатусчанженотификатион
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistregisterforstatuschangenotification
+                - name: пирдистрегистерфорстатусчанженотификатионекс
+                  href: /windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotificationex
+                - name: пирдистунрегистерфорстатусчанженотификатион
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistunregisterforstatuschangenotification
+                - name: пирдистклиентканцеласинкоператион
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistclientcancelasyncoperation
+                - name: пирдистсерверканцеласинкоператион
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistservercancelasyncoperation
+                - name: пирдистклиентопенконтент
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistclientopencontent
+                - name: пирдистклиентклосеконтент
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistclientclosecontent
+                - name: пирдистклиентжетинформатионбихандле
+                  href: /windows/desktop/api/peerdist/nf-peerdist-peerdistclientgetinformationbyhandle
+                - name: пирдистклиентаддконтентинформатион
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistclientaddcontentinformation
+                - name: пирдистклиенткомплетеконтентинформатион
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistclientcompletecontentinformation
+                - name: пирдистклиентадддата
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistclientadddata
+                - name: пирдистклиентблоккреад
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistclientblockread
+                - name: пирдистклиентстреамреад
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistclientstreamread
+                - name: пирдистклиентфлушконтент
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistclientflushcontent
+                - name: пирдистсерверпублишстреам
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistserverpublishstream
+                - name: пирдистсерверпублишаддтостреам
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistserverpublishaddtostream
+                - name: пирдистсерверпублишкомплетестреам
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistserverpublishcompletestream
+                - name: пирдистсерверклосестреамхандле
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistserverclosestreamhandle
+                - name: пирдистсерверунпублиш
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistserverunpublish
+                - name: пирдистсерверопенконтентинформатион
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistserveropencontentinformation
+                - name: пирдистсерверопенконтентинформатионекс
+                  href: /windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformationex
+                - name: пирдистсерверклосеконтентинформатион
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistserverclosecontentinformation
+                - name: пирдистсерверретриевеконтентинформатион
+                  href: /windows/desktop/api/PeerDist/nf-peerdist-peerdistserverretrievecontentinformation
+            - name: Константы API однорангового распространения
+              href: peer-distribution-api-constants.md
+            - name: Типы данных API однорангового распространения
+              href: peer-distribution-api-data-types.md

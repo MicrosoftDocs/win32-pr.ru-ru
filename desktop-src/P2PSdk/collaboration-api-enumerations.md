@@ -1,0 +1,40 @@
+---
+description: Перечисления API совместной работы
+ms.assetid: f72e372a-0d23-47f4-8518-1296ec81ce55
+title: Перечисления API совместной работы
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3504e36d96a920452aef1a8dfeb0724aea127c24
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103998553"
+---
+# <a name="collaboration-api-enumerations"></a><span data-ttu-id="c3ff1-103">Перечисления API совместной работы</span><span class="sxs-lookup"><span data-stu-id="c3ff1-103">Collaboration API Enumerations</span></span>
+
+<span data-ttu-id="c3ff1-104">Следующие перечисления поддерживают функции инфраструктуры однорангового взаимодействия.</span><span class="sxs-lookup"><span data-stu-id="c3ff1-104">The following enumerations support the Peer Collaboration Infrastructure functions.</span></span>
+
+
+
+| <span data-ttu-id="c3ff1-105">Перечисление</span><span class="sxs-lookup"><span data-stu-id="c3ff1-105">Enumeration</span></span>                                                                         | <span data-ttu-id="c3ff1-106">Описание</span><span class="sxs-lookup"><span data-stu-id="c3ff1-106">Description</span></span>                                                                                                                                                                                                                                                                   |
+|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="c3ff1-107">**\_ \_ тип регистрации однорангового приложения \_**</span><span class="sxs-lookup"><span data-stu-id="c3ff1-107">**PEER\_APPLICATION\_REGISTRATION\_TYPE**</span></span>](/windows/desktop/api/P2P/ne-p2p-peer_application_registration_type) | <span data-ttu-id="c3ff1-108">Определяет набор флагов регистрации однорангового приложения.</span><span class="sxs-lookup"><span data-stu-id="c3ff1-108">Defines the set of peer application registration flags.</span></span>                                                                                                                                                                                                                       |
+| [<span data-ttu-id="c3ff1-109">**\_тип изменения \_ узла**</span><span class="sxs-lookup"><span data-stu-id="c3ff1-109">**PEER\_CHANGE\_TYPE**</span></span>](/windows/desktop/api/P2P/ne-p2p-peer_change_type)                                      | <span data-ttu-id="c3ff1-110">Определяет набор изменений, которые могут быть выполнены для однорангового объекта, конечной точки или приложения.</span><span class="sxs-lookup"><span data-stu-id="c3ff1-110">Defines the set of changes that can be performed on a peer object, endpoint, or application.</span></span>                                                                                                                                                                                  |
+| [<span data-ttu-id="c3ff1-111">**Флаги однорангового \_ входа \_**</span><span class="sxs-lookup"><span data-stu-id="c3ff1-111">**PEER\_SIGNIN\_FLAGS**</span></span>](/windows/desktop/api/P2P/ne-p2p-peer_signin_flags)                                    | <span data-ttu-id="c3ff1-112">Определяет набор поведений публикации однорангового присутствия, доступных при входе однорангового узла в сеть совместной работы.</span><span class="sxs-lookup"><span data-stu-id="c3ff1-112">Defines the set of peer presence publication behaviors available when the peer signs in to a peer collaboration network.</span></span>                                                                                                                                                      |
+| [<span data-ttu-id="c3ff1-113">**\_разрешение на просмотр в ОДНОранговой сети \_**</span><span class="sxs-lookup"><span data-stu-id="c3ff1-113">**PEER\_WATCH\_PERMISSION**</span></span>](/windows/desktop/api/P2P/ne-p2p-peer_watch_permission)                            | <span data-ttu-id="c3ff1-114">Определяет набор разрешений, которые представляют присутствие контакта для просмотра однорангового узла.</span><span class="sxs-lookup"><span data-stu-id="c3ff1-114">Defines the set of permissions that represent a contact's presence to a watching peer.</span></span>                                                                                                                                                                                        |
+| [<span data-ttu-id="c3ff1-115">**\_ \_ Тип события Peer \_ коллаб**</span><span class="sxs-lookup"><span data-stu-id="c3ff1-115">**PEER\_COLLAB\_EVENT\_TYPE**</span></span>](/windows/desktop/api/P2P/ne-p2p-peer_collab_event_type)                         | <span data-ttu-id="c3ff1-116">Определяет набор событий, которые могут быть вызваны на одноранговом узле инфраструктурой событий сети совместной работы.</span><span class="sxs-lookup"><span data-stu-id="c3ff1-116">Defines the set of events that can be raised on a peer by the peer collaboration network event infrastructure.</span></span>                                                                                                                                                                |
+| [<span data-ttu-id="c3ff1-117">**\_состояние присутствия однорангового узла \_**</span><span class="sxs-lookup"><span data-stu-id="c3ff1-117">**PEER\_PRESENCE\_STATUS**</span></span>](/windows/desktop/api/P2P/ne-p2p-peer_presence_status)                              | <span data-ttu-id="c3ff1-118">Определяет набор возможных параметров состояния присутствия, доступных для однорангового узла, участвующего в сети совместной работы.</span><span class="sxs-lookup"><span data-stu-id="c3ff1-118">Defines the set of possible presence status settings available to a peer that participates in a peer collaboration network.</span></span> <span data-ttu-id="c3ff1-119">Эти параметры можно задать в конечной точке сети совместной работы, чтобы указать текущий уровень участия контактного лица для его наблюдателей.</span><span class="sxs-lookup"><span data-stu-id="c3ff1-119">These settings can be set by a peer collaboration network endpoint to indicate the peer contact's current level of participation to its watchers.</span></span> |
+| [<span data-ttu-id="c3ff1-120">**\_ \_ тип ответа на приглашение однорангового узла \_**</span><span class="sxs-lookup"><span data-stu-id="c3ff1-120">**PEER\_INVITATION\_RESPONSE\_TYPE**</span></span>](/windows/desktop/api/P2P/ne-p2p-peer_invitation_response_type)           | <span data-ttu-id="c3ff1-121">Определяет набор ответов, полученных по приглашению для присоединения к действию однорангового взаимодействия.</span><span class="sxs-lookup"><span data-stu-id="c3ff1-121">Defines the set of responses received to an invitation to join a Peer Collaboration activity.</span></span>                                                                                                                                                                                 |
+| [<span data-ttu-id="c3ff1-122">**область одноранговой \_ публикации \_**</span><span class="sxs-lookup"><span data-stu-id="c3ff1-122">**PEER\_PUBLICATION\_SCOPE**</span></span>](/windows/desktop/api/P2P/ne-p2p-peer_publication_scope)                          | <span data-ttu-id="c3ff1-123">Определяет набор областей для публикации одноранговых объектов или данных.</span><span class="sxs-lookup"><span data-stu-id="c3ff1-123">Defines the set of scopes for the publication of peer objects or data.</span></span>                                                                                                                                                                                                        |
+
+
+
+ 
+
+ 
+
+ 
+
+
+

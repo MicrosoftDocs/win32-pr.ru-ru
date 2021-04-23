@@ -1,0 +1,41 @@
+---
+title: Перечисление групп (RRAS)
+description: В следующей таблице приведена последовательность действий в взаимодействии между протоколом маршрутизации и диспетчером групп многоадресной рассылки.
+ms.assetid: 30a81946-fa60-4424-9a16-a9b4dfe1961e
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 6d3860c6876ed6ea5caef4941efcdd949eb9890d
+ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "104487181"
+---
+# <a name="enumerating-groups"></a><span data-ttu-id="7919e-103">Перечисление групп</span><span class="sxs-lookup"><span data-stu-id="7919e-103">Enumerating Groups</span></span>
+
+<span data-ttu-id="7919e-104">В следующей таблице приведена последовательность действий в взаимодействии между протоколом маршрутизации и диспетчером групп многоадресной рассылки.</span><span class="sxs-lookup"><span data-stu-id="7919e-104">The following table summarizes a series of steps in an interaction between a routing protocol and the multicast group manager.</span></span> <span data-ttu-id="7919e-105">В первом столбце описываются действия, выполняемые протоколом маршрутизации, а также ответы протокола маршрутизации к диспетчеру групп многоадресной рассылки.</span><span class="sxs-lookup"><span data-stu-id="7919e-105">The first column describes the actions that the routing protocol performs and the routing protocol's responses to the multicast group manager.</span></span> <span data-ttu-id="7919e-106">Во втором столбце описываются ответы диспетчера групп многоадресной рассылки по протоколу маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="7919e-106">The second column describes the multicast group manager's responses to the routing protocol.</span></span> <span data-ttu-id="7919e-107">В третьем столбце представлены дополнительные сведения.</span><span class="sxs-lookup"><span data-stu-id="7919e-107">The third column presents any additional information.</span></span>
+
+<span data-ttu-id="7919e-108">Каждая строка таблицы представляет один шаг.</span><span class="sxs-lookup"><span data-stu-id="7919e-108">Each row of the table represents one step.</span></span>
+
+
+
+| <span data-ttu-id="7919e-109">Действие протокола маршрутизации</span><span class="sxs-lookup"><span data-stu-id="7919e-109">Routing protocol action</span></span>                                                                                                                                                    | <span data-ttu-id="7919e-110">Действие диспетчера групп многоадресной рассылки</span><span class="sxs-lookup"><span data-stu-id="7919e-110">Multicast group manager action</span></span>                                                                                                                                                                                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="7919e-111">Получите маркер перечисления с помощью функции [**мгмграупенумератионстарт**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationstart) .</span><span class="sxs-lookup"><span data-stu-id="7919e-111">Obtain a handle to an enumeration using the [**MgmGroupEnumerationStart**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationstart) function.</span></span>                                                         | <span data-ttu-id="7919e-112">Возврат маркера.</span><span class="sxs-lookup"><span data-stu-id="7919e-112">Return a handle.</span></span>                                                                                                                                                                                                                                                                                             |
+| <span data-ttu-id="7919e-113">Получите одну или несколько групп с помощью функции [**мгмграупенумератионжетнекст**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationgetnext) .</span><span class="sxs-lookup"><span data-stu-id="7919e-113">Obtain one or more groups using the [**MgmGroupEnumerationGetNext**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationgetnext) function.</span></span>                                                             | <span data-ttu-id="7919e-114">Возвращает столько групп, сколько соответствует буферу, предоставленному клиентом.</span><span class="sxs-lookup"><span data-stu-id="7919e-114">Return as many groups as fit in the buffer supplied by the client.</span></span> <span data-ttu-id="7919e-115">Если ни одна из групп не может быть возвращена в предоставленном буфере, возвращается ошибка \_ недостаточного \_ буфера и размер буфера, который необходим для возврата одной группы.</span><span class="sxs-lookup"><span data-stu-id="7919e-115">If no groups can be returned in the supplied buffer, return ERROR\_INSUFFICIENT\_BUFFER and the size of the buffer that is needed to return one group.</span></span><br/> <span data-ttu-id="7919e-116">Возврат ошибки \_ больше \_ нет \_ элементов, если групп больше нет.</span><span class="sxs-lookup"><span data-stu-id="7919e-116">Return ERROR\_NO\_MORE\_ITEMS when there are no more groups.</span></span><br/> |
+| <span data-ttu-id="7919e-117">Если ошибка \_ имеет недостаточный размер \_ буфера, вызовите функцию [**мгмграупенумератионжетнекст**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationgetnext) еще раз, используя буфер указанного размера.</span><span class="sxs-lookup"><span data-stu-id="7919e-117">If ERROR\_INSUFFICIENT\_BUFFER is received, call the [**MgmGroupEnumerationGetNext**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationgetnext) function again using a buffer of the size indicated.</span></span> |                                                                                                                                                                                                                                                                                                              |
+| <span data-ttu-id="7919e-118">Продолжайте вызывать функцию [**мгмграупенумератионжетнекст**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationgetnext) , пока \_ не \_ получится сообщение об ошибке больше нет \_ элементов.</span><span class="sxs-lookup"><span data-stu-id="7919e-118">Continue calling the [**MgmGroupEnumerationGetNext**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationgetnext) function until ERROR\_NO\_MORE\_ITEMS is received.</span></span>                                   |                                                                                                                                                                                                                                                                                                              |
+| <span data-ttu-id="7919e-119">Завершите процесс перечисления с помощью функции [**мгмграупенумератионенд**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationend) .</span><span class="sxs-lookup"><span data-stu-id="7919e-119">End the enumeration process using the [**MgmGroupEnumerationEnd**](/windows/desktop/api/Mgm/nf-mgm-mgmgroupenumerationend) function.</span></span>                                                                   | <span data-ttu-id="7919e-120">Уничтожение маркера.</span><span class="sxs-lookup"><span data-stu-id="7919e-120">Destroy the handle.</span></span>                                                                                                                                                                                                                                                                                          |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+

@@ -1,0 +1,121 @@
+---
+description: Метод Вритегрффиле записывает граф фильтра в файл в формате ГРФ.
+ms.assetid: 2064d2d7-34ac-465c-ae09-d125c670d0e8
+title: 'Метод IXml2Dex:: Вритегрффиле (Кедит. h)'
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IXml2Dex.WriteGrfFile
+api_type:
+- COM
+api_location:
+- strmiids.lib
+- strmiids.dll
+ms.openlocfilehash: a411540d95a7313070a643b7b1895b564a49e089
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "105688883"
+---
+# <a name="ixml2dexwritegrffile-method"></a><span data-ttu-id="eb95f-103">Метод IXml2Dex:: Вритегрффиле</span><span class="sxs-lookup"><span data-stu-id="eb95f-103">IXml2Dex::WriteGrfFile method</span></span>
+
+> [!Note]  
+> <span data-ttu-id="eb95f-104">\[Не рекомендуется.</span><span class="sxs-lookup"><span data-stu-id="eb95f-104">\[Deprecated.</span></span> <span data-ttu-id="eb95f-105">Этот API может быть удален из будущих выпусков Windows.\]</span><span class="sxs-lookup"><span data-stu-id="eb95f-105">This API may be removed from future releases of Windows.\]</span></span>
+
+ 
+
+<span data-ttu-id="eb95f-106">`WriteGrfFile`Метод записывает граф фильтра в файл в формате ГРФ.</span><span class="sxs-lookup"><span data-stu-id="eb95f-106">The `WriteGrfFile` method writes a filter graph to a file in .grf format.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="eb95f-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="eb95f-107">Syntax</span></span>
+
+
+```C++
+HRESULT WriteGrfFile(
+   IUnknown *pGraph,
+   BSTR     FileName
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="eb95f-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="eb95f-108">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="eb95f-109">*пграф*</span><span class="sxs-lookup"><span data-stu-id="eb95f-109">*pGraph*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="eb95f-110">Указатель на интерфейс **IUnknown** графа фильтра.</span><span class="sxs-lookup"><span data-stu-id="eb95f-110">Pointer to the filter graph's **IUnknown** interface.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="eb95f-111">*FileName*</span><span class="sxs-lookup"><span data-stu-id="eb95f-111">*FileName*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="eb95f-112">Строка, указывающая имя файла для записи.</span><span class="sxs-lookup"><span data-stu-id="eb95f-112">String that specifies the name of the file to write.</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="eb95f-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="eb95f-113">Return value</span></span>
+
+<span data-ttu-id="eb95f-114">Возвращает значение **HRESULT** , которое зависит от реализации интерфейса.</span><span class="sxs-lookup"><span data-stu-id="eb95f-114">Returns an **HRESULT** value that depends on the implementation of the interface.</span></span> <span data-ttu-id="eb95f-115">HRESULT может содержать одну из следующих стандартных констант или другие значения, отсутствующие в списке.</span><span class="sxs-lookup"><span data-stu-id="eb95f-115">HRESULT can include one of the following standard constants, or other values not listed.</span></span>
+
+
+
+| <span data-ttu-id="eb95f-116">Код возврата</span><span class="sxs-lookup"><span data-stu-id="eb95f-116">Return code</span></span>                                                                                  | <span data-ttu-id="eb95f-117">Описание</span><span class="sxs-lookup"><span data-stu-id="eb95f-117">Description</span></span>                     |
+|----------------------------------------------------------------------------------------------|---------------------------------|
+| <dl> <span data-ttu-id="eb95f-118"><dt>**\_Ошибка E**</dt></span><span class="sxs-lookup"><span data-stu-id="eb95f-118"><dt>**E\_FAIL**</dt></span></span> </dl>       | <span data-ttu-id="eb95f-119">Ошибка.</span><span class="sxs-lookup"><span data-stu-id="eb95f-119">Failure.</span></span><br/>             |
+| <dl> <span data-ttu-id="eb95f-120"><dt>**E \_ INVALIDARG**</dt></span><span class="sxs-lookup"><span data-stu-id="eb95f-120"><dt>**E\_INVALIDARG**</dt></span></span> </dl> | <span data-ttu-id="eb95f-121">Недопустимый аргумент.</span><span class="sxs-lookup"><span data-stu-id="eb95f-121">Argument is invalid.</span></span><br/> |
+| <dl> <span data-ttu-id="eb95f-122"><dt>**\_ОК**</dt></span><span class="sxs-lookup"><span data-stu-id="eb95f-122"><dt>**S\_OK**</dt></span></span> </dl>         | <span data-ttu-id="eb95f-123">Успешно.</span><span class="sxs-lookup"><span data-stu-id="eb95f-123">Success.</span></span><br/>             |
+
+
+
+ 
+
+<span data-ttu-id="eb95f-124">Этот метод также может возвращать коды ошибок, создаваемые внутренними вызовами методов **IStorage:: креатестреам** и **IPersist:: Save** .</span><span class="sxs-lookup"><span data-stu-id="eb95f-124">This method can also return error codes generated by internal calls to the **IStorage::CreateStream** and **IPersist::Save** methods.</span></span> <span data-ttu-id="eb95f-125">Дополнительные сведения см. в разделе пакет SDK для платформы.</span><span class="sxs-lookup"><span data-stu-id="eb95f-125">For more information, see the Platform SDK.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="eb95f-126">Комментарии</span><span class="sxs-lookup"><span data-stu-id="eb95f-126">Remarks</span></span>
+
+> [!Note]  
+> <span data-ttu-id="eb95f-127">Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.</span><span class="sxs-lookup"><span data-stu-id="eb95f-127">The header file Qedit.h is not compatible with Direct3D headers later than version 7.</span></span>
+
+ 
+
+> [!Note]  
+> <span data-ttu-id="eb95f-128">Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span><span class="sxs-lookup"><span data-stu-id="eb95f-128">To obtain Qedit.h, download the [Microsoft Windows SDK Update for Windows Vista and .NET Framework 3.0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span></span> <span data-ttu-id="eb95f-129">Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="eb95f-129">Qedit.h is not available in the Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 Service Pack 1.</span></span>
+
+ 
+
+## <a name="requirements"></a><span data-ttu-id="eb95f-130">Требования</span><span class="sxs-lookup"><span data-stu-id="eb95f-130">Requirements</span></span>
+
+
+
+| <span data-ttu-id="eb95f-131">Требование</span><span class="sxs-lookup"><span data-stu-id="eb95f-131">Requirement</span></span> | <span data-ttu-id="eb95f-132">Значение</span><span class="sxs-lookup"><span data-stu-id="eb95f-132">Value</span></span> |
+|--------------------|-----------------------------------------------------------------------------------------|
+| <span data-ttu-id="eb95f-133">Версия</span><span class="sxs-lookup"><span data-stu-id="eb95f-133">Version</span></span><br/> | <span data-ttu-id="eb95f-134">Internet Explorer 4,0 или более поздней версии</span><span class="sxs-lookup"><span data-stu-id="eb95f-134">Internet Explorer 4.0 or later</span></span><br/>                                               |
+| <span data-ttu-id="eb95f-135">Header</span><span class="sxs-lookup"><span data-stu-id="eb95f-135">Header</span></span><br/>  | <dl> <span data-ttu-id="eb95f-136"><dt>Кедит. h</dt></span><span class="sxs-lookup"><span data-stu-id="eb95f-136"><dt>Qedit.h</dt></span></span> </dl>      |
+| <span data-ttu-id="eb95f-137">Библиотека</span><span class="sxs-lookup"><span data-stu-id="eb95f-137">Library</span></span><br/> | <dl> <span data-ttu-id="eb95f-138"><dt>Стрмиидс. lib</dt></span><span class="sxs-lookup"><span data-stu-id="eb95f-138"><dt>Strmiids.lib</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="eb95f-139">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="eb95f-139">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="eb95f-140">**Интерфейс IXml2Dex**</span><span class="sxs-lookup"><span data-stu-id="eb95f-140">**IXml2Dex Interface**</span></span>](ixml2dex.md)
+</dt> <dt>
+
+[<span data-ttu-id="eb95f-141">Коды ошибок и успешности</span><span class="sxs-lookup"><span data-stu-id="eb95f-141">Error and Success Codes</span></span>](error-and-success-codes.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

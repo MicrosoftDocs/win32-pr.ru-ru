@@ -1,0 +1,35 @@
+---
+title: Примеры Direct2D
+description: В следующих примерах демонстрируется API Direct2D.
+ms.assetid: 4e972beb-5c69-4617-a5fe-0e0e4759240a
+keywords:
+- Direct2D, примеры
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c4219d5b10a6a46659fc0c13ac091a2f3ab01b2c
+ms.sourcegitcommit: 6f905c836d3fd04934fb3e5f1a56b4a421f7596f
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "103987261"
+---
+# <a name="direct2d-samples"></a><span data-ttu-id="4524d-104">Примеры Direct2D</span><span class="sxs-lookup"><span data-stu-id="4524d-104">Direct2D samples</span></span>
+
+<span data-ttu-id="4524d-105">В следующих примерах демонстрируется API Direct2D.</span><span class="sxs-lookup"><span data-stu-id="4524d-105">The following samples demonstrate the Direct2D API.</span></span>
+
+## <a name="windows-10-and-microsoft-visual-studio-2015-samples"></a><span data-ttu-id="4524d-106">Примеры для Windows 10 и Microsoft Visual Studio 2015</span><span class="sxs-lookup"><span data-stu-id="4524d-106">Windows 10 and Microsoft Visual Studio 2015 samples</span></span>
+
+| <span data-ttu-id="4524d-107">Образец</span><span class="sxs-lookup"><span data-stu-id="4524d-107">Sample</span></span> | <span data-ttu-id="4524d-108">Описание</span><span class="sxs-lookup"><span data-stu-id="4524d-108">Description</span></span> |
+|-|-|
+| [<span data-ttu-id="4524d-109">Пример эффектов пользовательского изображения Direct2D</span><span class="sxs-lookup"><span data-stu-id="4524d-109">Direct2D custom image effects sample</span></span>](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects) | <span data-ttu-id="4524d-110">В этом примере показано, как реализовать [пользовательские эффекты](custom-effects.md) с помощью HLSL пикселей, вершин и шейдеров вычислений.</span><span class="sxs-lookup"><span data-stu-id="4524d-110">This sample demonstrates how to implement [Custom effects](custom-effects.md) using HLSL pixel, vertex, and compute shaders.</span></span> |
+| [<span data-ttu-id="4524d-111">Пример сетки градиента Direct2D</span><span class="sxs-lookup"><span data-stu-id="4524d-111">Direct2D gradient mesh sample</span></span>](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DGradientMesh) | <span data-ttu-id="4524d-112">В этом образце показано, как создать и визуализировать сетку градиента в Direct2D.</span><span class="sxs-lookup"><span data-stu-id="4524d-112">This sample demonstrates how to instantiate and render a gradient mesh in Direct2D.</span></span> <span data-ttu-id="4524d-113">В этих примерах используется вспомогательный метод, предоставляемый Direct2D для создания сетки, состоящей из двух исправлений тензорные, совместно использующих сторону.</span><span class="sxs-lookup"><span data-stu-id="4524d-113">This samples uses the helper method provided by Direct2D to create a mesh consisting of two tensor patches that share a side.</span></span> |
+| [<span data-ttu-id="4524d-114">Пример корректировки фотографии Direct2D</span><span class="sxs-lookup"><span data-stu-id="4524d-114">Direct2D photo adjustment sample</span></span>](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DPhotoAdjustment) | <span data-ttu-id="4524d-115">В этом образце показано, как создать средство просмотра фотографий и редактор с помощью Direct2D и Direct2D Effects.</span><span class="sxs-lookup"><span data-stu-id="4524d-115">This sample demonstrates how to build a photo viewer and editor using Direct2D and Direct2D Effects.</span></span> |
+
+## <a name="windows-8-and-microsoft-visual-studio-2013-samples"></a><span data-ttu-id="4524d-116">Примеры для Windows 8 и Microsoft Visual Studio 2013</span><span class="sxs-lookup"><span data-stu-id="4524d-116">Windows 8 and Microsoft Visual Studio 2013 samples</span></span>
+
+| | |
+|-|-|
+| [<span data-ttu-id="4524d-117">Пример составных режимов эффектов Direct2D</span><span class="sxs-lookup"><span data-stu-id="4524d-117">Direct2D composite effect modes sample</span></span>](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20basic%20image%20effects%20sample) | <span data-ttu-id="4524d-118">В этом примере показан широкий набор составных и смешанных режимов, доступных в Direct2D.</span><span class="sxs-lookup"><span data-stu-id="4524d-118">This sample shows the wide range of composite and blend modes available from Direct2D.</span></span> |
+| [<span data-ttu-id="4524d-119">Пример Direct2D Basic Image Effects</span><span class="sxs-lookup"><span data-stu-id="4524d-119">Direct2D basic image effects sample</span></span>](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20basic%20image%20effects%20sample) | <span data-ttu-id="4524d-120">В этом примере показано, как загрузить изображение, применить к нему эффект размытия по Гауссу, а затем отобразить его в элементе Windows:: UI:: Core:: CoreWindow.</span><span class="sxs-lookup"><span data-stu-id="4524d-120">This sample shows how to load an image, apply the Gaussian blur effect to it, and then display it in a Windows::UI::Core::CoreWindow.</span></span> |
+| [<span data-ttu-id="4524d-121">Оптимизация Икбкр JPEG в примерах Direct2D и WIC</span><span class="sxs-lookup"><span data-stu-id="4524d-121">JPEG YCbCr optimizations in Direct2D and WIC sample</span></span>](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample) | <span data-ttu-id="4524d-122">Демонстрирует оптимизацию производительности в Direct2D, а компонент Windows Imaging Component готовит данные изображения в формате JPEG Икбкр в собственном виде.</span><span class="sxs-lookup"><span data-stu-id="4524d-122">Demonstrates performance optimizations in Direct2D and the Windows Imaging Component rendering image data in the JPEG YCbCr format natively.</span></span> |
+| [<span data-ttu-id="4524d-123">Пример приложения DirectX открытка</span><span class="sxs-lookup"><span data-stu-id="4524d-123">DirectX postcard app sample</span></span>](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DirectX%20postcard%20app%20sample) | <span data-ttu-id="4524d-124">В этом примере демонстрируется комплексная реализация простого приложения для Магазина Windows с использованием DirectX с C++ для создания открытки с использованием DirectX и XAML-взаимодействия.</span><span class="sxs-lookup"><span data-stu-id="4524d-124">This sample demonstrates the end-to-end implementation of a simple Windows Store app using DirectX with C++ for postcard creation using DirectX and XAML interop.</span></span> |

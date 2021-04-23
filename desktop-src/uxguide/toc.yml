@@ -1,0 +1,157 @@
+- name: Основы оформления
+  href: designprinciples.md
+  items:
+    - name: Создание отличного UX
+      href: how-to-design-desktop-ux.md
+    - name: Контрольный список UX
+      href: top-violations.md
+- name: Рекомендации
+  href: guidelines.md
+  items:
+    - name: Элементы управления
+      href: controls.md
+      items:
+        - name: Объекты Balloon
+          href: ctrl-balloons.md
+        - name: Флажки
+          href: ctrl-check-boxes.md
+        - name: Кнопки команд
+          href: ctrl-command-buttons.md
+        - name: Ссылки на команды
+          href: ctrl-command-links.md
+        - name: Раскрывающиеся списки & поля со списком
+          href: ctrl-drop.md
+        - name: Поля группы
+          href: ctrl-group-boxes.md
+        - name: Ссылки
+          href: ctrl-links.md
+        - name: Списки
+          href: ctrl-list-boxes.md
+        - name: Представления списка
+          href: ctrl-list-views.md
+        - name: Индикаторы выполнения
+          href: progress-bars.md
+        - name: Элементы управления раскрытием последовательностей
+          href: ctrl-progressive-disclosure-controls.md
+        - name: Переключатели
+          href: ctrl-radio-buttons.md
+        - name: Поля поиска
+          href: ctrl-search-boxes.md
+        - name: Ползунки
+          href: ctrl-sliders.md
+        - name: Элементы управления "Счетчик"
+          href: ctrl-spin-controls.md
+        - name: Строки состояния
+          href: ctrl-status-bars.md
+        - name: Вкладки
+          href: ctrl-tabs.md
+        - name: Текстовые поля
+          href: ctrl-text-boxes.md
+        - name: Подсказки и Инфотипс
+          href: ctrl-tooltips-and-infotips.md
+        - name: Представления в виде дерева
+          href: ctrl-tree-views.md
+    - name: Команды
+      href: commands.md
+      items:
+        - name: Меню
+          href: cmd-menus.md
+        - name: Ленты
+          href: cmd-ribbons.md
+        - name: Панели инструментов
+          href: cmd-toolbars.md
+    - name: Текст
+      href: text.md
+      items:
+        - name: Текст пользовательского интерфейса
+          href: text-ui.md
+        - name: Стиль и тон
+          href: text-style-tone.md
+    - name: Сообщения
+      href: messages.md
+      items:
+        - name: сообщения об ошибках
+          href: mess-error.md
+        - name: Предупреждающие сообщения
+          href: mess-warn.md
+        - name: Подтверждения
+          href: mess-confirm.md
+        - name: Уведомления
+          href: mess-notif.md
+    - name: Взаимодействие
+      href: interaction.md
+      items:
+        - name: Touch
+          href: inter-touch.md
+        - name: Клавиатура
+          href: inter-keyboard.md
+        - name: Мышь и указатели
+          href: inter-mouse.md
+        - name: Перо
+          href: inter-pen.md
+        - name: Специальные возможности
+          href: inter-accessibility.md
+    - name: Windows
+      href: windows.md
+      items:
+        - name: Управление окнами
+          href: win-window-mgt.md
+        - name: Фреймы окна
+          href: win-window-frames.md
+        - name: Диалоговые окна
+          href: win-dialog-box.md
+        - name: Общие диалоговые окна
+          href: win-common-dlg.md
+        - name: Мастера
+          href: win-wizards.md
+        - name: Окна свойств
+          href: win-property-win.md
+    - name: Визуальные элементы
+      href: visuals.md
+      items:
+        - name: Макет
+          href: vis-layout.md
+        - name: Шрифты
+          href: vis-fonts.md
+        - name: Цвет
+          href: vis-color.md
+        - name: Значки
+          href: vis-icons.md
+        - name: Стандартные значки
+          href: vis-std-icons.md
+        - name: Анимации и переходы
+          href: vis-animations.md
+        - name: Графические элементы
+          href: vis-graphic.md
+        - name: Звук
+          href: vis-sound.md
+    - name: Возможности
+      href: experiences.md
+      items:
+        - name: Фирменная символика программного обеспечения
+          href: exper-branding.md
+        - name: Настройка
+          href: exper-setup.md
+        - name: Первый интерфейс
+          href: exper-first-exper.md
+        - name: Печать
+          href: exper-printing.md
+    - name: Среда Windows
+      href: windows-environment.md
+      items:
+        - name: Персональный компьютер
+          href: winenv-desktop.md
+        - name: Панель задач
+          href: winenv-taskbar.md
+        - name: Область "Уведомления"
+          href: winenv-notification.md
+        - name: Панели управления
+          href: winenv-ctrl-panels.md
+        - name: Справка
+          href: winenv-help.md
+        - name: контроль учетных записей
+          href: winenv-uac.md
+- name: Визуальный индекс
+  href: visual-index.md
+- name: Словарь терминов
+  href: glossary.md

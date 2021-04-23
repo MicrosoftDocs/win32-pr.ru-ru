@@ -1,0 +1,22 @@
+---
+description: Диспетчер учетных данных аналогичен поставщику сети в том, что он предоставляет точки входа, вызываемые маршрутизатором нескольких поставщиков (MPR). На самом деле, некоторые поставщики сети также являются диспетчерами учетных данных.
+ms.assetid: a1105754-a57f-4a0d-9797-bec22b99900c
+title: Диспетчер учетных данных
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 20165a5e6145de0a2c042c38923c41d793bd641d
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104081016"
+---
+# <a name="credential-manager"></a><span data-ttu-id="a5e9b-104">Диспетчер учетных данных</span><span class="sxs-lookup"><span data-stu-id="a5e9b-104">Credential Manager</span></span>
+
+<span data-ttu-id="a5e9b-105">Диспетчер учетных данных аналогичен поставщику сети в том, что он предоставляет точки входа, вызываемые [*маршрутизатором нескольких поставщиков*](/windows/desktop/SecGloss/m-gly) (MPR).</span><span class="sxs-lookup"><span data-stu-id="a5e9b-105">A credential manager is similar to a network provider in that it provides entry points that are called by the [*Multiple Provider Router*](/windows/desktop/SecGloss/m-gly) (MPR).</span></span> <span data-ttu-id="a5e9b-106">На самом деле, некоторые поставщики сети также являются диспетчерами учетных данных.</span><span class="sxs-lookup"><span data-stu-id="a5e9b-106">In fact, some network providers are also credential managers.</span></span>
+
+<span data-ttu-id="a5e9b-107">Если вы реализуете функции управления учетными данными в той же библиотеке DLL, что и функции поставщика сети, зависит от требований приложения.</span><span class="sxs-lookup"><span data-stu-id="a5e9b-107">Whether you implement the credential management functions in the same DLL as the network provider functions depends on the requirements of your application.</span></span> <span data-ttu-id="a5e9b-108">Диспетчеры учетных данных получают уведомления при изменении сведений для проверки подлинности.</span><span class="sxs-lookup"><span data-stu-id="a5e9b-108">Credential managers receive notifications when authentication information changes.</span></span> <span data-ttu-id="a5e9b-109">Например, диспетчеры учетных данных получают уведомления при входе пользователя в систему или при изменении пароля учетной записи.</span><span class="sxs-lookup"><span data-stu-id="a5e9b-109">For example, credential managers are notified when a user logs on or an account password changes.</span></span> <span data-ttu-id="a5e9b-110">Когда процесс входа в систему, например [*Winlogon*](/windows/desktop/SecGloss/w-gly), находится в процессе входа в систему или смены пароля для учетной записи, он вызывает соответствующую функцию многопротокольной сети Windows (внет).</span><span class="sxs-lookup"><span data-stu-id="a5e9b-110">When a logon process, such as [*Winlogon*](/windows/desktop/SecGloss/w-gly), is in the process of logging on or changing the password for an account, it calls the appropriate MPR Windows Networking (WNet) function.</span></span> <span data-ttu-id="a5e9b-111">Затем многопротокольный маршрутизатор вызывает соответствующую точку входа для каждого диспетчера учетных данных.</span><span class="sxs-lookup"><span data-stu-id="a5e9b-111">The MPR then calls the appropriate entry point for each credential manager.</span></span> <span data-ttu-id="a5e9b-112">Эти функции управления учетными данными всегда будут вызываться в системном контексте, LocalSystem, а не в контексте пользователя.</span><span class="sxs-lookup"><span data-stu-id="a5e9b-112">These credential management functions will always be called in the system context, LocalSystem, rather than the user context.</span></span> <span data-ttu-id="a5e9b-113">Дополнительные сведения о функциях Внет см. в разделе [Сетевые подключения Windows](/windows/desktop/WNet/windows-networking-wnet-).</span><span class="sxs-lookup"><span data-stu-id="a5e9b-113">For more information about WNet functions, see [Windows Networking](/windows/desktop/WNet/windows-networking-wnet-).</span></span> <span data-ttu-id="a5e9b-114">Дополнительные сведения о интерфейсе, который должны реализовывать диспетчеры учетных данных, см. в разделе [**API управления учетными данными**](credential-management-api.md).</span><span class="sxs-lookup"><span data-stu-id="a5e9b-114">For more information about the interface that credential managers must implement, see [**Credential Management API**](credential-management-api.md).</span></span>
+
+ 
+
+ 

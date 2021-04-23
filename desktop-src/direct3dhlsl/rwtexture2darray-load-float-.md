@@ -1,0 +1,84 @@
+---
+title: 'Функция RWTexture2DArray:: Load (int)'
+description: 'Считывает данные текстуры. | Функция RWTexture2DArray:: Load (int)'
+ms.assetid: BC247B2A-1744-4E37-A501-22E4A592A32D
+keywords:
+- Загрузить функцию HLSL
+topic_type:
+- apiref
+api_name:
+- Load
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: b23439d471f4d22c807c8d45bb00c23a7d814e3f
+ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "104352992"
+---
+# <a name="rwtexture2darrayloadint-function"></a><span data-ttu-id="cb5c0-105">Функция RWTexture2DArray:: Load (int)</span><span class="sxs-lookup"><span data-stu-id="cb5c0-105">RWTexture2DArray::Load(int) function</span></span>
+
+<span data-ttu-id="cb5c0-106">Считывает данные текстуры.</span><span class="sxs-lookup"><span data-stu-id="cb5c0-106">Reads texture data.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="cb5c0-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="cb5c0-107">Syntax</span></span>
+
+
+``` syntax
+ Load(
+  in int Location
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="cb5c0-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="cb5c0-108">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="cb5c0-109">*Расположение* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="cb5c0-109">*Location* \[in\]</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cb5c0-110">Тип: **int**</span><span class="sxs-lookup"><span data-stu-id="cb5c0-110">Type: **int**</span></span>
+
+<span data-ttu-id="cb5c0-111">Расположение текстуры.</span><span class="sxs-lookup"><span data-stu-id="cb5c0-111">The location of the texture.</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="cb5c0-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="cb5c0-112">Return value</span></span>
+
+<span data-ttu-id="cb5c0-113">Тип:</span><span class="sxs-lookup"><span data-stu-id="cb5c0-113">Type:</span></span>
+
+<span data-ttu-id="cb5c0-114">Возвращаемый тип соответствует типу в объявлении для объекта [**RWTexture2DArray**](sm5-object-rwtexture2darray.md) .</span><span class="sxs-lookup"><span data-stu-id="cb5c0-114">The return type matches the type in the declaration for the [**RWTexture2DArray**](sm5-object-rwtexture2darray.md) object.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="cb5c0-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="cb5c0-115">Remarks</span></span>
+
+<span data-ttu-id="cb5c0-116">Эта функция поддерживается для следующих типов шейдеров:</span><span class="sxs-lookup"><span data-stu-id="cb5c0-116">This function is supported for the following types of shaders:</span></span>
+
+
+
+| <span data-ttu-id="cb5c0-117">Вершина</span><span class="sxs-lookup"><span data-stu-id="cb5c0-117">Vertex</span></span> | <span data-ttu-id="cb5c0-118">Поверхности</span><span class="sxs-lookup"><span data-stu-id="cb5c0-118">Hull</span></span> | <span data-ttu-id="cb5c0-119">Домен</span><span class="sxs-lookup"><span data-stu-id="cb5c0-119">Domain</span></span> | <span data-ttu-id="cb5c0-120">Геометрия</span><span class="sxs-lookup"><span data-stu-id="cb5c0-120">Geometry</span></span> | <span data-ttu-id="cb5c0-121">Пиксель</span><span class="sxs-lookup"><span data-stu-id="cb5c0-121">Pixel</span></span> | <span data-ttu-id="cb5c0-122">Вычисления</span><span class="sxs-lookup"><span data-stu-id="cb5c0-122">Compute</span></span> |
+|--------|------|--------|----------|-------|---------|
+|        |      |        |          | <span data-ttu-id="cb5c0-123">x</span><span class="sxs-lookup"><span data-stu-id="cb5c0-123">x</span></span>     | <span data-ttu-id="cb5c0-124">x</span><span class="sxs-lookup"><span data-stu-id="cb5c0-124">x</span></span>       |
+
+
+
+ 
+
+## <a name="see-also"></a><span data-ttu-id="cb5c0-125">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="cb5c0-125">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="cb5c0-126">Методы Load</span><span class="sxs-lookup"><span data-stu-id="cb5c0-126">Load methods</span></span>](rwtexture2darray-load.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

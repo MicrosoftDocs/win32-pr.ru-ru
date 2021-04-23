@@ -1,0 +1,148 @@
+- name: Диспетчер окон рабочего стола (DWM)
+  href: dwm-overview.md
+  items:
+    - name: Обзоры DWM
+      href: desktop-window-manager-overviews.md
+      items:
+        - name: Включение и Управление композицией DWM
+          href: composition-ovw.md
+        - name: Обзорное размытие DWM
+          href: blur-ovw.md
+        - name: Обзор эскизов DWM
+          href: thumbnail-ovw.md
+        - name: Доступ к данным кадра DWM и управление ими
+          href: frametiming-ovw.md
+        - name: Вопросы производительности и рекомендации
+          href: bestpractices-ovw.md
+        - name: Настраиваемая рамка окна с помощью DWM
+          href: customframe.md
+    - name: Примеры DWM
+      href: dwm-samples.md
+      items:
+        - name: Настройка эскиза значка и растрового изображения для динамического предварительного просмотра
+          href: dwm-sample-customizethumbnail.md
+    - name: Справочник по DWM
+      href: reference.md
+      items:
+        - name: Константы и перечисления DWM
+          href: enums.md
+          items:
+            - name: Размытия в DWM за константами
+              href: dwm-bb-constants.md
+            - name: DWM включает константы композиции
+              href: dwm-ec-constants.md
+            - name: DWM_SOURCE_FRAME_SAMPLING
+              href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwm_source_frame_sampling
+            - name: DWM_TAB_WINDOW_REQUIREMENTS
+              href: /windows/desktop/api/dwmapi/ne-dwmapi-dwm_tab_window_requirements
+            - name: Константы DWM_TNP
+              href: dwm-tnp-constants.md
+            - name: DWMFLIP3DWINDOWPOLICY
+              href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwmflip3dwindowpolicy
+            - name: двмнкрендерингполици
+              href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwmncrenderingpolicy
+            - name: DWMTRANSITION_OWNEDWINDOW_TARGET
+              href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwmtransition_ownedwindow_target
+            - name: двмвиндоваттрибуте
+              href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwmwindowattribute
+            - name: GESTURE_TYPE
+              href: /windows/desktop/api/Dwmapi/ne-dwmapi-gesture_type
+        - name: Функции DWM
+          href: functions.md
+          items:
+            - name: двматтачмилконтент
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmattachmilcontent
+            - name: двмдефвиндовпрок
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc
+            - name: двмдетачмилконтент
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmdetachmilcontent
+            - name: двмдксжетвиндовшаредсурфаце
+              href: dwmdxgetwindowsharedsurface.md
+            - name: двмдксупдатевиндовшаредсурфаце
+              href: dwmdxupdatewindowsharedsurface.md
+            - name: DwmEnableBlurBehindWindow
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmenableblurbehindwindow
+            - name: двменаблекомпоситион
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmenablecomposition
+            - name: двменаблеммксс
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmenablemmcss
+            - name: DwmExtendFrameIntoClientArea
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmextendframeintoclientarea
+            - name: двмфлуш
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmflush
+            - name: двмжетколоризатионколор
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetcolorizationcolor
+            - name: двмжеткомпоситионтимингинфо
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo
+            - name: двмжетграфиксстреамклиент
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetgraphicsstreamclient
+            - name: двмжетграфиксстреамтрансформхинт
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetgraphicsstreamtransformhint
+            - name: двмжеттранспортаттрибутес
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgettransportattributes
+            - name: двмжетунметтабрекуирементс
+              href: /windows/desktop/api/dwmapi/nf-dwmapi-dwmgetunmettabrequirements
+            - name: двмжетвиндоваттрибуте
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetwindowattribute
+            - name: двминвалидатеиконикбитмапс
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwminvalidateiconicbitmaps
+            - name: DwmIsCompositionEnabled
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmiscompositionenabled
+            - name: двммодифипревиаусдксфрамедуратион
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration
+            - name: двмкуерисумбнаилсаурцесизе
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize
+            - name: DwmRegisterThumbnail
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmregisterthumbnail
+            - name: двмрендержестуре
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmrendergesture
+            - name: двмсетдксфрамедуратион
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration
+            - name: двмсетиконикливепревиевбитмап
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap
+            - name: двмсетикониксумбнаил
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmseticonicthumbnail
+            - name: двмсетпресентпараметерс
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters
+            - name: двмсетвиндоваттрибуте
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetwindowattribute
+            - name: двмшовконтакт
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmshowcontact
+            - name: двмтесерконтакт
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmtethercontact
+            - name: двмтранситионовнедвиндов
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmtransitionownedwindow
+            - name: двмунрегистерсумбнаил
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmunregisterthumbnail
+            - name: DwmUpdateThumbnailProperties
+              href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmupdatethumbnailproperties
+        - name: Сообщения DWM
+          href: dwm-messages.md
+          items:
+            - name: WM_DWMCOLORIZATIONCOLORCHANGED
+              href: wm-dwmcolorizationcolorchanged.md
+            - name: WM_DWMCOMPOSITIONCHANGED
+              href: wm-dwmcompositionchanged.md
+            - name: WM_DWMNCRENDERINGCHANGED
+              href: wm-dwmncrenderingchanged.md
+            - name: WM_DWMSENDICONICLIVEPREVIEWBITMAP
+              href: wm-dwmsendiconiclivepreviewbitmap.md
+            - name: WM_DWMSENDICONICTHUMBNAIL
+              href: wm-dwmsendiconicthumbnail.md
+            - name: WM_DWMWINDOWMAXIMIZEDCHANGE
+              href: wm-dwmwindowmaximizedchange.md
+        - name: Структуры DWM
+          href: structs.md
+          items:
+            - name: DWM_BLURBEHIND
+              href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_blurbehind
+            - name: DWM_PRESENT_PARAMETERS
+              href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_present_parameters
+            - name: DWM_THUMBNAIL_PROPERTIES
+              href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_thumbnail_properties
+            - name: DWM_TIMING_INFO
+              href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_timing_info
+            - name: MilMatrix3x2D
+              href: /windows/win32/api/Dwmapi/ns-dwmapi-milmatrix3x2d
+            - name: UNSIGNED_RATIO
+              href: /windows/win32/api/Dwmapi/ns-dwmapi-unsigned_ratio

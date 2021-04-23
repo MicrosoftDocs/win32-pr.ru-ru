@@ -1,0 +1,67 @@
+- name: API увеличения
+  href: ./entry-magapi-sdk.md
+  items:
+    - name: Общие сведения об API увеличения
+      href: ./magapi-intro.md
+    - name: Справочник
+      href: ./entry-magapi-ref.md
+      items:
+        - name: Константы
+          href: ./entry-magapi-constants.md
+          items:
+            - name: Стили экранной лупы
+              href: ./magapi-magnifier-styles.md
+        - name: Функции
+          href: ./entry-magapi-functions.md
+          items:
+            - name: магжетколореффект
+              href: /windows/win32/api/Magnification/nf-magnification-maggetcoloreffect
+            - name: магжетфуллскринколореффект
+              href: /windows/win32/api/Magnification/nf-magnification-maggetfullscreencoloreffect
+            - name: магжетфуллскринтрансформ
+              href: /windows/win32/api/Magnification/nf-magnification-maggetfullscreentransform
+            - name: магжетимажескалингкаллбакк
+              href: /windows/win32/api/Magnification/nf-magnification-maggetimagescalingcallback
+            - name: магжетинпуттрансформ
+              href: /windows/win32/api/Magnification/nf-magnification-maggetinputtransform
+            - name: магжетвиндовфилтерлист
+              href: /windows/win32/api/Magnification/nf-magnification-maggetwindowfilterlist
+            - name: магжетвиндовсаурце
+              href: /windows/win32/api/Magnification/nf-magnification-maggetwindowsource
+            - name: магжетвиндовтрансформ
+              href: /windows/win32/api/Magnification/nf-magnification-maggetwindowtransform
+            - name: магимажескалингкаллбакк
+              href: /windows/win32/api/Magnification/nc-magnification-magimagescalingcallback
+            - name: магинитиализе
+              href: /windows/win32/api/Magnification/nf-magnification-maginitialize
+            - name: магсетколореффект
+              href: /windows/win32/api/Magnification/nf-magnification-magsetcoloreffect
+            - name: магсетфуллскринколореффект
+              href: /windows/win32/api/Magnification/nf-magnification-magsetfullscreencoloreffect
+            - name: магсетфуллскринтрансформ
+              href: /windows/win32/api/Magnification/nf-magnification-magsetfullscreentransform
+            - name: магсетимажескалингкаллбакк
+              href: /windows/win32/api/Magnification/nf-magnification-magsetimagescalingcallback
+            - name: магсетинпуттрансформ
+              href: /windows/win32/api/Magnification/nf-magnification-magsetinputtransform
+            - name: магсетвиндовфилтерлист
+              href: /windows/win32/api/Magnification/nf-magnification-magsetwindowfilterlist
+            - name: магсетвиндовсаурце
+              href: /windows/win32/api/Magnification/nf-magnification-magsetwindowsource
+            - name: магсетвиндовтрансформ
+              href: /windows/win32/api/Magnification/nf-magnification-magsetwindowtransform
+            - name: магшовсистемкурсор
+              href: /windows/win32/api/Magnification/nf-magnification-magshowsystemcursor
+            - name: магунинитиализе
+              href: /windows/win32/api/Magnification/nf-magnification-maguninitialize
+        - name: Структуры
+          href: ./entry-magapi-structures.md
+          items:
+            - name: магколореффект
+              href: /windows/win32/api/magnification/ns-magnification-magcoloreffect
+            - name: магимажехеадер
+              href: /windows/win32/api/magnification/ns-magnification-magimageheader
+            - name: магтрансформ
+              href: /windows/win32/api/magnification/ns-magnification-magtransform
+    - name: Примеры
+      href: ./magapi-samples-entry.md

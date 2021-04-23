@@ -1,0 +1,35 @@
+---
+description: 'Присвоение параметру ФВФ метода IDirect3DDevice9:: Креатевертексбуффер ненулевого значения, которое должно быть допустимым кодом ФВФ, означает, что содержимое буфера будет располагаться в коде ФВФ.'
+ms.assetid: 7cab559f-3e9d-46bd-b00f-439e0922aeeb
+title: Буферы вершин ФВФ (Direct3D 9)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a86201c3ddc1cab6d492539caccc61c1430b3a2c
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "105710581"
+---
+# <a name="fvf-vertex-buffers-direct3d-9"></a><span data-ttu-id="89998-103">Буферы вершин ФВФ (Direct3D 9)</span><span class="sxs-lookup"><span data-stu-id="89998-103">FVF Vertex Buffers (Direct3D 9)</span></span>
+
+<span data-ttu-id="89998-104">Присвоение параметру ФВФ метода [**IDirect3DDevice9:: креатевертексбуффер**](/windows/desktop/api) ненулевого значения, которое должно быть допустимым кодом фвф, означает, что содержимое буфера будет располагаться в коде фвф.</span><span class="sxs-lookup"><span data-stu-id="89998-104">Setting the FVF parameter of the [**IDirect3DDevice9::CreateVertexBuffer**](/windows/desktop/api) method to a nonzero value, which must be a valid FVF code, indicates that the buffer content is to be characterized by an FVF code.</span></span> <span data-ttu-id="89998-105">Буфер вершин, созданный с помощью кода ФВФ, называется буфером вершин ФВФ.</span><span class="sxs-lookup"><span data-stu-id="89998-105">A vertex buffer that is created with an FVF code is referred to as an FVF vertex buffer.</span></span> <span data-ttu-id="89998-106">Для некоторых методов или использования [**IDirect3DDevice9**](/windows/desktop/api) требуются буферы вершин фвф, а для других требуются буферы вершин, отличные от фвф.</span><span class="sxs-lookup"><span data-stu-id="89998-106">Some methods or uses of [**IDirect3DDevice9**](/windows/desktop/api) require FVF vertex buffers, and others require non-FVF vertex buffers.</span></span> <span data-ttu-id="89998-107">Буферы вершин ФВФ требуются в качестве аргумента конечного буфера вершин для [**IDirect3DDevice9::P роцессвертицес**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-processvertices).</span><span class="sxs-lookup"><span data-stu-id="89998-107">FVF vertex buffers are required as the destination vertex buffer argument for [**IDirect3DDevice9::ProcessVertices**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-processvertices).</span></span>
+
+<span data-ttu-id="89998-108">Буферы вершин ФВФ можно привязать к исходному потоку данных для любого номера потока.</span><span class="sxs-lookup"><span data-stu-id="89998-108">FVF vertex buffers can be bound to a source data stream for any stream number.</span></span>
+
+<span data-ttu-id="89998-109">Наличие \_ компонента D3DFVF ксизрхв в буферах ВЕРШИН фвф указывает на то, что вершины в этом буфере обработаны.</span><span class="sxs-lookup"><span data-stu-id="89998-109">The presence of the D3DFVF\_XYZRHW component on FVF vertex buffers indicates that the vertices in that buffer have been processed.</span></span> <span data-ttu-id="89998-110">Буферы вершин, используемые для [**IDirect3DDevice9::P роцессвертицес**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-processvertices) целевые буферы вершин, должны быть обработаны после обработки.</span><span class="sxs-lookup"><span data-stu-id="89998-110">Vertex buffers used for [**IDirect3DDevice9::ProcessVertices**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-processvertices) destination vertex buffers must be post-processed.</span></span> <span data-ttu-id="89998-111">Буферы вершин, используемые для ввода шейдеров фиксированной функции, могут быть предварительно обработанными или обработанными.</span><span class="sxs-lookup"><span data-stu-id="89998-111">Vertex buffers used for fixed function shader inputs can be either preprocessed or postprocessed.</span></span> <span data-ttu-id="89998-112">Если буфер вершин обрабатывается после обработки, то шейдер фактически обходится, а данные передаются непосредственно в модуль обрезки и настройки примитива.</span><span class="sxs-lookup"><span data-stu-id="89998-112">If the vertex buffer is post-processed, then the shader is effectively bypassed and the data is passed directly to the primitive clipping and setup module.</span></span>
+
+<span data-ttu-id="89998-113">Буферы вершин ФВФ можно использовать с шейдерами вершин.</span><span class="sxs-lookup"><span data-stu-id="89998-113">FVF vertex buffers can be used with vertex shaders.</span></span> <span data-ttu-id="89998-114">Кроме того, потоки вершин могут представлять те же форматы вершин, что и буферы вершин, отличные от ФВФ.</span><span class="sxs-lookup"><span data-stu-id="89998-114">Also, vertex streams can represent the same vertex formats that non-FVF vertex buffers can.</span></span> <span data-ttu-id="89998-115">Они не должны использоваться для ввода данных из отдельных буферов вершин.</span><span class="sxs-lookup"><span data-stu-id="89998-115">They do not have to be used to input data from separate vertex buffers.</span></span> <span data-ttu-id="89998-116">Дополнительная гибкость новых потоков вершин позволяет приложениям, которые должны иметь отдельные данные, работать лучше, но это не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="89998-116">The additional flexibility of the new vertex streams enables applications that need to keep their data separate to work better, but it is not required.</span></span> <span data-ttu-id="89998-117">Если приложение может поддерживать чередующиеся данные заранее, это повышение производительности.</span><span class="sxs-lookup"><span data-stu-id="89998-117">If the application can maintain interleaved data in advance, then that is a performance boost.</span></span> <span data-ttu-id="89998-118">Если приложение будет разключать данные только перед каждым вызовом отрисовки, то оно должно включить API или оборудование, чтобы сделать это с несколькими потоками.</span><span class="sxs-lookup"><span data-stu-id="89998-118">If the application will only interleave the data before every rendering call, then it should enable the API or hardware to do this with multiple streams.</span></span>
+
+<span data-ttu-id="89998-119">Наиболее важными моментами, связанными с производительностью вершин, является использование 32-байтовой вершины и обеспечение оптимального порядка кэширования.</span><span class="sxs-lookup"><span data-stu-id="89998-119">The most important things with vertex performance is to use a 32-byte vertex, and to maintain good cache ordering.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="89998-120">См. также</span><span class="sxs-lookup"><span data-stu-id="89998-120">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="89998-121">Буферы вершин</span><span class="sxs-lookup"><span data-stu-id="89998-121">Vertex Buffers</span></span>](vertex-buffers.md)
+</dt> </dl>
+
+ 
+
+ 

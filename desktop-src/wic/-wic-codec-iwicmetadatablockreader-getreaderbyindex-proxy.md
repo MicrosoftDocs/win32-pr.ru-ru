@@ -1,0 +1,94 @@
+---
+description: Функция-посредник для метода Жетреадербиндекс.
+ms.assetid: 9d70b339-9772-4c13-949e-109f354f9986
+title: Функция IWICMetadataBlockReader_GetReaderByIndex_Proxy
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IWICMetadataBlockReader_GetReaderByIndex_Proxy
+api_type:
+- DllExport
+api_location:
+- Windowscodecs.dll
+- Wincodec.lib
+ms.openlocfilehash: e2fc967f810b9ac8e43ad7da543bb1723500da48
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "105647631"
+---
+# <a name="iwicmetadatablockreader_getreaderbyindex_proxy-function"></a><span data-ttu-id="eb46e-103">Ивикметадатаблоккреадер \_ жетреадербиндекс \_ -функция</span><span class="sxs-lookup"><span data-stu-id="eb46e-103">IWICMetadataBlockReader\_GetReaderByIndex\_Proxy function</span></span>
+
+<span data-ttu-id="eb46e-104">Функция-посредник для метода [**жетреадербиндекс**](/windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getreaderbyindex) .</span><span class="sxs-lookup"><span data-stu-id="eb46e-104">Proxy function for the [**GetReaderByIndex**](/windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getreaderbyindex) method.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="eb46e-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="eb46e-105">Syntax</span></span>
+
+
+```C++
+HRESULT IWICMetadataBlockReader_GetReaderByIndex_Proxy(
+  _In_  IWICMetadataBlockReader *THIS_PTR,
+  _In_  UINT                    nIndex,
+  _Out_ IWICMetadataReader      **ppIMetadataReader
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="eb46e-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="eb46e-106">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="eb46e-107">*Этот \_* \[ Вход в\]</span><span class="sxs-lookup"><span data-stu-id="eb46e-107">*THIS\_PTR* \[in\]</span></span>
+</dt> <dd>
+
+<span data-ttu-id="eb46e-108">Тип: \**[**ивикметадатаблоккреадер**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader) \** _</span><span class="sxs-lookup"><span data-stu-id="eb46e-108">Type: \**[**IWICMetadataBlockReader**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader)\** _</span></span>
+
+<span data-ttu-id="eb46e-109">Указатель на этот объект [_ *ивикметадатаблоккреадер* \*](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader) .</span><span class="sxs-lookup"><span data-stu-id="eb46e-109">Pointer to this [_ *IWICMetadataBlockReader*\*](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader) object.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="eb46e-110">*ниндекс* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="eb46e-110">*nIndex* \[in\]</span></span>
+</dt> <dd>
+
+<span data-ttu-id="eb46e-111">Тип: **uint**</span><span class="sxs-lookup"><span data-stu-id="eb46e-111">Type: **UINT**</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="eb46e-112">*ппиметадатареадер* \[ заполняет\]</span><span class="sxs-lookup"><span data-stu-id="eb46e-112">*ppIMetadataReader* \[out\]</span></span>
+</dt> <dd>
+
+<span data-ttu-id="eb46e-113">Тип: **[ **ивикметадатареадер**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader)\*\***</span><span class="sxs-lookup"><span data-stu-id="eb46e-113">Type: **[**IWICMetadataReader**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader)\*\***</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="eb46e-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="eb46e-114">Return value</span></span>
+
+<span data-ttu-id="eb46e-115">Тип: **HRESULT**</span><span class="sxs-lookup"><span data-stu-id="eb46e-115">Type: **HRESULT**</span></span>
+
+<span data-ttu-id="eb46e-116">Если эта функция завершается успешно, возвращается значение **S \_ ОК**.</span><span class="sxs-lookup"><span data-stu-id="eb46e-116">If this function succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="eb46e-117">В противном случае возвращается код ошибки **HRESULT** .</span><span class="sxs-lookup"><span data-stu-id="eb46e-117">Otherwise, it returns an **HRESULT** error code.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="eb46e-118">Remarks</span><span class="sxs-lookup"><span data-stu-id="eb46e-118">Remarks</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="eb46e-119">Требования</span><span class="sxs-lookup"><span data-stu-id="eb46e-119">Requirements</span></span>
+
+
+
+| <span data-ttu-id="eb46e-120">Требование</span><span class="sxs-lookup"><span data-stu-id="eb46e-120">Requirement</span></span> | <span data-ttu-id="eb46e-121">Значение</span><span class="sxs-lookup"><span data-stu-id="eb46e-121">Value</span></span> |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="eb46e-122">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="eb46e-122">Minimum supported client</span></span><br/> | <span data-ttu-id="eb46e-123">Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения Windows Vista\]</span><span class="sxs-lookup"><span data-stu-id="eb46e-123">Windows XP with SP2, Windows Vista \[desktop apps only\]</span></span><br/>                                                                                              |
+| <span data-ttu-id="eb46e-124">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="eb46e-124">Minimum supported server</span></span><br/> | <span data-ttu-id="eb46e-125">\[Только для настольных приложений Windows Server 2008\]</span><span class="sxs-lookup"><span data-stu-id="eb46e-125">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                                                                             |
+| <span data-ttu-id="eb46e-126">DLL</span><span class="sxs-lookup"><span data-stu-id="eb46e-126">DLL</span></span><br/>                      | <dl> <span data-ttu-id="eb46e-127"><dt>Windowscodecs.dll; </dt> <dt>Винкодек. lib</dt></span><span class="sxs-lookup"><span data-stu-id="eb46e-127"><dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt></span></span> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+

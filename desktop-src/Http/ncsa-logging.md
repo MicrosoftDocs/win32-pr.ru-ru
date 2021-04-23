@@ -1,0 +1,53 @@
+---
+title: Ведение журнала NCSA
+description: Расширенное ведение журнала NCSA — это один из типов ведения журнала на стороне сервера, который можно включить в группе URL-адресов.
+ms.assetid: 14a2492a-3bcf-46f3-a3a5-1ea578516865
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f04db62d5d561fb227f7a46a33c2aefcacd943b0
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103779490"
+---
+# <a name="ncsa-logging"></a><span data-ttu-id="5b357-103">Ведение журнала NCSA</span><span class="sxs-lookup"><span data-stu-id="5b357-103">NCSA Logging</span></span>
+
+<span data-ttu-id="5b357-104">Расширенное ведение журнала NCSA — это один из типов ведения журнала на стороне сервера, который можно включить в группе URL-адресов.</span><span class="sxs-lookup"><span data-stu-id="5b357-104">NCSA extended logging is one type of server side logging that can be enabled on a URL group.</span></span> <span data-ttu-id="5b357-105">Общий формат файла журнала NCSA является фиксированным текстовым форматом ASCII, который не может быть изменен.</span><span class="sxs-lookup"><span data-stu-id="5b357-105">The NCSA Common log file format is a fixed ASCII text-based format that cannot be customized.</span></span> <span data-ttu-id="5b357-106">Файл журнала NCSA содержит сведения о попадании в кэш режима ядра API HTTP-сервера.</span><span class="sxs-lookup"><span data-stu-id="5b357-106">The NCSA log file contains the HTTP Server API kernel-mode cache hits.</span></span> <span data-ttu-id="5b357-107">Этот тип ведения журнала можно включить только для группы URL-адресов. его нельзя использовать в сеансе сервера.</span><span class="sxs-lookup"><span data-stu-id="5b357-107">This type of logging can be enabled on a URL group only; it cannot be used on the server session.</span></span>
+
+<span data-ttu-id="5b357-108">В общем формате файла журнала NCSA записываются следующие данные.</span><span class="sxs-lookup"><span data-stu-id="5b357-108">The NCSA Common log file format records the following data.</span></span> <span data-ttu-id="5b357-109">Данные в таблице находятся в порядке возникновения в файле журнала.</span><span class="sxs-lookup"><span data-stu-id="5b357-109">The data in the table is in the order of occurrence in the log file.</span></span>
+
+
+
+| <span data-ttu-id="5b357-110">Поле</span><span class="sxs-lookup"><span data-stu-id="5b357-110">Field</span></span>                                            | <span data-ttu-id="5b357-111">Описание</span><span class="sxs-lookup"><span data-stu-id="5b357-111">Description</span></span>                                                                                                                                                                       |
+|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="5b357-112">Адрес удаленного узла</span><span class="sxs-lookup"><span data-stu-id="5b357-112">Remote host address</span></span>                              | <span data-ttu-id="5b357-113">IP-адрес отправившего запрос клиента.</span><span class="sxs-lookup"><span data-stu-id="5b357-113">The IP address of the client that made the request.</span></span>                                                                                                                               |
+| <span data-ttu-id="5b357-114">Имя удаленного журнала</span><span class="sxs-lookup"><span data-stu-id="5b357-114">Remote log name</span></span>                                  | <span data-ttu-id="5b357-115">Не используется.</span><span class="sxs-lookup"><span data-stu-id="5b357-115">Not used.</span></span> <span data-ttu-id="5b357-116">Это значение всегда является дефисом.</span><span class="sxs-lookup"><span data-stu-id="5b357-116">This value is always a hyphen.</span></span>                                                                                                                                          |
+| <span data-ttu-id="5b357-117">Имя пользователя</span><span class="sxs-lookup"><span data-stu-id="5b357-117">User name</span></span>                                        | <span data-ttu-id="5b357-118">Имя пользователя, прошедшего проверку подлинности, который получил доступ к серверу.</span><span class="sxs-lookup"><span data-stu-id="5b357-118">The name of the authenticated user that accessed the server.</span></span> <span data-ttu-id="5b357-119">Анонимные пользователи обозначаются дефисом.</span><span class="sxs-lookup"><span data-stu-id="5b357-119">Anonymous users are indicated by a hyphen.</span></span> <span data-ttu-id="5b357-120">Рекомендуется, чтобы приложение всегда предпредоставил имя пользователя.</span><span class="sxs-lookup"><span data-stu-id="5b357-120">The best practice is for the application always to provide the user name.</span></span> |
+| <span data-ttu-id="5b357-121">Смещение даты, времени и времени по Гринвичу (GMT)</span><span class="sxs-lookup"><span data-stu-id="5b357-121">Date, time, and Greenwich mean time (GMT) offset</span></span> | <span data-ttu-id="5b357-122">Локальная Дата и время возникновения действия.</span><span class="sxs-lookup"><span data-stu-id="5b357-122">The local date and time at which the activity occurred.</span></span> <span data-ttu-id="5b357-123">Также указывается смещение от среднего времени по Гринвичу.</span><span class="sxs-lookup"><span data-stu-id="5b357-123">The offset from Greenwich mean time is also indicated.</span></span>                                                                    |
+| <span data-ttu-id="5b357-124">Версия запроса и протокола</span><span class="sxs-lookup"><span data-stu-id="5b357-124">Request and Protocol version</span></span>                     | <span data-ttu-id="5b357-125">Версия протокола HTTP, используемая клиентом.</span><span class="sxs-lookup"><span data-stu-id="5b357-125">The HTTP protocol version that the client used.</span></span>                                                                                                                                   |
+| <span data-ttu-id="5b357-126">Код состояния службы</span><span class="sxs-lookup"><span data-stu-id="5b357-126">Service status code</span></span>                              | <span data-ttu-id="5b357-127">Код состояния HTTP.</span><span class="sxs-lookup"><span data-stu-id="5b357-127">The HTTP status code.</span></span> <span data-ttu-id="5b357-128">(Значение 200 означает, что запрос выполнен успешно.)</span><span class="sxs-lookup"><span data-stu-id="5b357-128">(A value of 200 indicates that the request completed successfully.)</span></span>                                                                                         |
+| <span data-ttu-id="5b357-129">Байтов отправлено</span><span class="sxs-lookup"><span data-stu-id="5b357-129">Bytes sent</span></span>                                       | <span data-ttu-id="5b357-130">Число байт, отправленных сервером.</span><span class="sxs-lookup"><span data-stu-id="5b357-130">The number of bytes sent by the server.</span></span>                                                                                                                                           |
+
+
+
+ 
+
+<span data-ttu-id="5b357-131">Не все поля будут содержать сведения.</span><span class="sxs-lookup"><span data-stu-id="5b357-131">Not all fields will contain information.</span></span> <span data-ttu-id="5b357-132">Для полей, для которых нет сведений, в качестве заполнителя отображается дефис (-).</span><span class="sxs-lookup"><span data-stu-id="5b357-132">For fields for which there is no information, a hyphen (-) appears as a placeholder.</span></span> <span data-ttu-id="5b357-133">Если поле содержит непечатный символ, API сервера HTTP заменяет его знаком «плюс» (+) для сохранения формата файла журнала.</span><span class="sxs-lookup"><span data-stu-id="5b357-133">If a field contains a nonprintable character, the HTTP Server API replaces it with a plus sign (+) to preserve the log file format.</span></span> <span data-ttu-id="5b357-134">Обычно это происходит при атаках с вирусами, например, когда злоумышленник отправляет символы возврата каретки и перевода строки, которые, если они не заменяются знаком плюс (+), приведут к нарушению формата файла журнала.</span><span class="sxs-lookup"><span data-stu-id="5b357-134">This typically occurs with virus attacks, when, for example, a malicious user sends carriage returns and line feeds that, if not replaced with the plus sign (+), would break the log file format.</span></span> <span data-ttu-id="5b357-135">Поля разделяются пробелами, а время записывается как местное время с использованием смещения GMT.</span><span class="sxs-lookup"><span data-stu-id="5b357-135">Fields are separated by spaces, and the time is recorded as local time with the GMT offset.</span></span>
+
+<span data-ttu-id="5b357-136">В следующем примере показана запись общего файла журнала NCSA, отображаемая в текстовом редакторе.</span><span class="sxs-lookup"><span data-stu-id="5b357-136">The following example shows an NCSA Common log file entry, as viewed in a text editor.</span></span>
+
+``` syntax
+172.21.13.45 - Microsoft\JohnDoe [07/Apr/2004:17:39:04 -0800] 
+"GET /scripts/iisadmin/ism.dll?http/serv HTTP/1.0" 200 3401
+```
+
+<span data-ttu-id="5b357-137">IP-адрес клиента — 172.21.13.45, а имя пользователя — Microsoft \\ JohnDoe.</span><span class="sxs-lookup"><span data-stu-id="5b357-137">The IP address of the client is 172.21.13.45, and the user name is Microsoft\\JohnDoe.</span></span> <span data-ttu-id="5b357-138">Журнал был записан 7 апреля 2005 в 17:39:04 по местному времени со смещением в 8 часов по Гринвичу.</span><span class="sxs-lookup"><span data-stu-id="5b357-138">The log was recorded on April 7, 2005 at 17:39:04 local time with a Greenwich offset of 8 hours.</span></span> <span data-ttu-id="5b357-139">Команда запроса и версия протокола имели значение "GET/скриптс/иисадмин/ism.dll? HTTP/серв HTTP/1.0".</span><span class="sxs-lookup"><span data-stu-id="5b357-139">The request verb and protocol version were "GET /scripts/iisadmin/ism.dll?http/serv HTTP/1.0".</span></span> <span data-ttu-id="5b357-140">Коды состояния были 200 OK, а число байтов, отправленных клиентом, было 3401.</span><span class="sxs-lookup"><span data-stu-id="5b357-140">The status codes was 200 OK, and the number of bytes sent by the client was 3401.</span></span>
+
+ 
+
+ 
+
+
+
+

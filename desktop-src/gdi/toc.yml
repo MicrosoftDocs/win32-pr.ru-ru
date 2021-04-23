@@ -1,0 +1,1818 @@
+- name: Windows GDI
+  href: windows-gdi.md
+  items:
+    - name: 'Вопросы безопасности: Microsoft Windows GDI'
+      href: security-considerations--gdi.md
+    - name: Растровые изображения
+      href: bitmaps.md
+      items:
+        - name: О растровых изображениях
+          href: about-bitmaps.md
+          items:
+            - name: Классификации битовых карт
+              href: bitmap-classifications.md
+              items:
+                - name: Device-Independent растровые изображения
+                  href: device-independent-bitmaps.md
+                - name: Device-Dependent растровые изображения
+                  href: device-dependent-bitmaps.md
+            - name: Типы заголовков битовых карт
+              href: bitmap-header-types.md
+            - name: Расширения JPEG и PNG для конкретных функций и структур точечных рисунков
+              href: jpeg-and-png-extensions-for-specific-bitmap-functions-and-structures.md
+            - name: 'Точечные рисунки, контексты устройств и поверхности рисования'
+              href: bitmaps--device-contexts--and-drawing-surfaces.md
+            - name: Создание растрового изображения
+              href: bitmap-creation.md
+            - name: Поворот растрового изображения
+              href: bitmap-rotation.md
+            - name: Масштабирование растрового изображения
+              href: bitmap-scaling.md
+            - name: Растровые изображения как кисти
+              href: bitmaps-as-brushes.md
+            - name: Растровое хранилище
+              href: bitmap-storage.md
+            - name: Сжатие растрового изображения
+              href: bitmap-compression.md
+            - name: Альфа-смешение
+              href: alpha-blending.md
+            - name: Плавная Заливка
+              href: smooth-shading.md
+            - name: ICM-Enabled функции точечного рисунка
+              href: icm-enabled-bitmap-functions.md
+        - name: Использование точечных рисунков
+          href: using-bitmaps.md
+          items:
+            - name: Захват образа
+              href: capturing-an-image.md
+            - name: Масштабирование изображения
+              href: scaling-an-image.md
+            - name: Сохранение образа
+              href: storing-an-image.md
+            - name: Альфа-смешение точечного рисунка
+              href: alpha-blending-a-bitmap.md
+            - name: Рисование затененного прямоугольника
+              href: drawing-a-shaded-rectangle.md
+            - name: Рисование затененного треугольника
+              href: drawing-a-shaded-triangle.md
+            - name: Тестирование принтера для поддержки JPEG или PNG
+              href: testing-a-printer-for-jpeg-or-png-support.md
+            - name: Изменение размера изображения JPEG или PNG
+              href: sizing-a-jpeg-or-png-image.md
+        - name: Ссылка на точечный рисунок
+          href: bitmap-reference.md
+          items:
+            - name: Функции точечного рисунка
+              href: bitmap-functions.md
+              items:
+                - name: алфабленд
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-alphablend
+                - name: BitBlt
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-bitblt
+                - name: CreateBitmap
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createbitmap
+                - name: креатебитмапиндирект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createbitmapindirect
+                - name: креатекомпатиблебитмап
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createcompatiblebitmap
+                - name: креатедибитмап
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createdibitmap
+                - name: креатедибсектион
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createdibsection
+                - name: креатедискардаблебитмап
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-creatediscardablebitmap
+                - name: екстфлудфилл
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-extfloodfill
+                - name: флудфилл
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-floodfill
+                - name: гдиалфабленд
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-gdialphablend
+                - name: гдиградиентфилл
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-gdigradientfill
+                - name: гдитранспарентблт
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-gditransparentblt
+                - name: жетбитмапбитс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getbitmapbits
+                - name: жетбитмапдименсионекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getbitmapdimensionex
+                - name: жетдибколортабле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getdibcolortable
+                - name: жетдибитс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getdibits
+                - name: С точкой
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getpixel
+                - name: жетстретчблтмоде
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getstretchbltmode
+                - name: градиентфилл
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-gradientfill
+                - name: лоадбитмап
+                  href: /windows/desktop/api/Winuser/nf-winuser-loadbitmapa
+                - name: маскблт
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-maskblt
+                - name: плгблт
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-plgblt
+                - name: сетбитмапбитс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setbitmapbits
+                - name: сетбитмапдименсионекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setbitmapdimensionex
+                - name: сетдибколортабле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setdibcolortable
+                - name: сетдибитс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setdibits
+                - name: сетдибитстодевице
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setdibitstodevice
+                - name: SetPixel
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setpixel
+                - name: сетпикселв
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setpixelv
+                - name: сетстретчблтмоде
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setstretchbltmode
+                - name: стретчблт
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-stretchblt
+                - name: стретчдибитс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-stretchdibits
+                - name: транспарентблт
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-transparentblt
+            - name: Структуры точечных рисунков
+              href: bitmap-structures.md
+              items:
+                - name: МАССИВ
+                  href: /windows/win32/api/Wingdi/ns-wingdi-bitmap
+                - name: битмапкорехеадер
+                  href: /windows/win32/api/Wingdi/ns-wingdi-bitmapcoreheader
+                - name: битмапкореинфо
+                  href: /windows/win32/api/Wingdi/ns-wingdi-bitmapcoreinfo
+                - name: битмапфилехеадер
+                  href: /windows/win32/api/Wingdi/ns-wingdi-bitmapfileheader
+                - name: битмапинфо
+                  href: /windows/win32/api/Wingdi/ns-wingdi-bitmapinfo
+                - name: битмапинфохеадер
+                  href: /previous-versions//dd183376(v=vs.85)
+                - name: BITMAPV4HEADER
+                  href: /windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header
+                - name: BITMAPV5HEADER
+                  href: /windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header
+                - name: блендфунктион
+                  href: /windows/win32/api/Wingdi/ns-wingdi-blendfunction
+                - name: колораджустмент
+                  href: /windows/win32/api/Wingdi/ns-wingdi-coloradjustment
+                - name: дибсектион
+                  href: /windows/win32/api/Wingdi/ns-wingdi-dibsection
+                - name: GRADIENT_RECT
+                  href: /windows/win32/api/Wingdi/ns-wingdi-gradient_rect
+                - name: GRADIENT_TRIANGLE
+                  href: /windows/win32/api/Wingdi/ns-wingdi-gradient_triangle
+                - name: ргбкуад
+                  href: /windows/win32/api/Wingdi/ns-wingdi-rgbquad
+                - name: ргбтрипле
+                  href: /windows/win32/api/Wingdi/ns-wingdi-rgbtriple
+                - name: SIZE
+                  href: /previous-versions//dd145106(v=vs.85)
+                - name: тривертекс
+                  href: /windows/win32/api/Wingdi/ns-wingdi-trivertex
+            - name: Битовые макросы
+              href: bitmap-macros.md
+              items:
+                - name: MAKEROP4
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-makerop4
+    - name: Кисти
+      href: brushes.md
+      items:
+        - name: О кистях
+          href: about-brushes.md
+          items:
+            - name: Источник кисти
+              href: brush-origin.md
+            - name: Логические типы кистей
+              href: logical-brush-types.md
+              items:
+                - name: Сплошная кисть
+                  href: solid-brush.md
+                - name: Стандартная кисть
+                  href: stock-brush.md
+                - name: Кисть штриховки
+                  href: hatch-brush.md
+                - name: Узорная кисть
+                  href: pattern-brush.md
+            - name: Перенос блока шаблона
+              href: pattern-block-transfer.md
+            - name: ICM-Enabled функции кисти
+              href: icm-enabled-brush-functions.md
+        - name: Использование кистей
+          href: using-brushes.md
+        - name: Справочник по кисти
+          href: brush-reference.md
+          items:
+            - name: Функции кисти
+              href: brush-functions.md
+              items:
+                - name: креатебрушиндирект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createbrushindirect
+                - name: креатедибпаттернбруш
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createdibpatternbrush
+                - name: креатедибпаттернбрушпт
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createdibpatternbrushpt
+                - name: креатехатчбруш
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createhatchbrush
+                - name: креатепаттернбруш
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createpatternbrush
+                - name: креатесолидбруш
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createsolidbrush
+                - name: жетбрушоржекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getbrushorgex
+                - name: жетсисколорбруш
+                  href: /windows/desktop/api/Winuser/nf-winuser-getsyscolorbrush
+                - name: патблт
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-patblt
+                - name: сетбрушоржекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setbrushorgex
+            - name: Структуры кисти
+              href: brush-structures.md
+              items:
+                - name: логбруш
+                  href: /windows/win32/api/Wingdi/ns-wingdi-logbrush
+                - name: LOGBRUSH32
+                  href: /windows/win32/api/Wingdi/ns-wingdi-logbrush32
+    - name: Усечение
+      href: clipping.md
+      items:
+        - name: О обрезке
+          href: about-clipping.md
+          items:
+            - name: Вырезанные области
+              href: clipping-regions.md
+            - name: Пути обрезки
+              href: clip-paths.md
+        - name: Использование обрезки
+          href: using-clipping.md
+        - name: Ссылка обрезки
+          href: clipping-reference.md
+          items:
+            - name: Функции обрезки
+              href: clipping-functions.md
+              items:
+                - name: ексклудеклипрект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-excludecliprect
+                - name: екстселектклипргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-extselectcliprgn
+                - name: жетклипбокс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getclipbox
+                - name: жетклипргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcliprgn
+                - name: жетметаргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getmetargn
+                - name: жетрандомргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getrandomrgn
+                - name: интерсектклипрект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-intersectcliprect
+                - name: оффсетклипргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-offsetcliprgn
+                - name: птвисибле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-ptvisible
+                - name: ректвисибле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-rectvisible
+                - name: селектклиппас
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-selectclippath
+                - name: селектклипргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-selectcliprgn
+                - name: сетметаргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setmetargn
+    - name: Цвета
+      href: colors.md
+      items:
+        - name: О цветах
+          href: about-colors.md
+          items:
+            - name: Основные сведения о цвете
+              href: color-basics.md
+              items:
+                - name: Значения цвета
+                  href: color-values.md
+                - name: Приближение цветов и Дизеринг
+                  href: color-approximations-and-dithering.md
+                - name: Цвет в точечных рисунках
+                  href: color-in-bitmaps.md
+                - name: Смешение цветов
+                  href: color-mixing.md
+            - name: Цветовые палитры
+              href: color-palettes.md
+              items:
+                - name: Палитра по умолчанию
+                  href: default-palette.md
+                - name: Логическая палитра
+                  href: logical-palette.md
+                - name: Анимация палитры
+                  href: palette-animation.md
+                - name: Системная палитра
+                  href: system-palette.md
+                - name: Системная палитра и статические цвета
+                  href: system-palette-and-static-colors.md
+                - name: Сообщения палитры
+                  href: palette-messages.md
+                - name: Палитра полутонов и настройка цвета
+                  href: halftone-palette-and-color-adjustment.md
+        - name: Использование цвета
+          href: using-color.md
+          items:
+            - name: Перечисление цветов
+              href: enumerating-colors.md
+            - name: Создание цветных перьев и кистей
+              href: creating-colored-pens-and-brushes.md
+        - name: Ссылка на цвет
+          href: color-reference.md
+          items:
+            - name: Функции цвета
+              href: color-functions.md
+              items:
+                - name: аниматепалетте
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-animatepalette
+                - name: креатехалфтонепалетте
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createhalftonepalette
+                - name: креатепалетте
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createpalette
+                - name: жетколораджустмент
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcoloradjustment
+                - name: жетнеарестколор
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getnearestcolor
+                - name: жетнеарестпалеттеиндекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getnearestpaletteindex
+                - name: жетпалеттинтриес
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getpaletteentries
+                - name: жетсистемпалеттинтриес
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getsystempaletteentries
+                - name: жетсистемпалеттеусе
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getsystempaletteuse
+                - name: реализепалетте
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-realizepalette
+                - name: ресизепалетте
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-resizepalette
+                - name: селектпалетте
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-selectpalette
+                - name: сетколораджустмент
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setcoloradjustment
+                - name: сетпалеттинтриес
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setpaletteentries
+                - name: сетсистемпалеттеусе
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setsystempaletteuse
+                - name: унреализеобжект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-unrealizeobject
+                - name: упдатеколорс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-updatecolors
+            - name: Цветовые структуры
+              href: color-structures.md
+              items:
+                - name: COLORREF
+                  href: colorref.md
+                - name: логпалетте
+                  href: /windows/win32/api/Wingdi/ns-wingdi-logpalette
+                - name: палеттинтри
+                  href: /previous-versions//dd162769(v=vs.85)
+            - name: Цветовые макросы
+              href: color-macros.md
+              items:
+                - name: дибиндекс
+                  href: /windows/desktop/api/Mmsystem/nf-mmsystem-dibindex
+                - name: жетбвалуе
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getbvalue
+                - name: жетгвалуе
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getgvalue
+                - name: RValue
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getrvalue
+                - name: PALETTEINDEX
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-paletteindex
+                - name: палеттергб
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-palettergb
+                - name: RGB
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-rgb
+            - name: Цветные сообщения
+              href: color-messages.md
+              items:
+                - name: WM_PALETTECHANGED
+                  href: wm-palettechanged.md
+                - name: WM_PALETTEISCHANGING
+                  href: wm-paletteischanging.md
+                - name: WM_QUERYNEWPALETTE
+                  href: wm-querynewpalette.md
+                - name: WM_SYSCOLORCHANGE
+                  href: wm-syscolorchange.md
+    - name: Координатные пространства и преобразования
+      href: coordinate-spaces-and-transformations.md
+      items:
+        - name: Сведения об пространствах координат и преобразованиях
+          href: about-coordinate-spaces-and-transformations.md
+          items:
+            - name: Преобразование координатных пространств
+              href: transformation-of-coordinate-spaces.md
+            - name: Мировое пространство для Page-Space преобразований
+              href: world-space-to-page-space-transformations.md
+              items:
+                - name: Перевод
+                  href: translation.md
+                - name: Масштабирование
+                  href: scaling.md
+                - name: Поворот
+                  href: rotation.md
+                - name: Сдвиг
+                  href: shear.md
+                - name: Отражение
+                  href: reflection.md
+                - name: Объединение преобразований «из Интернета в мир»
+                  href: combined-world-to-page-space-transformations.md
+            - name: Преобразование Page-Space в Device-Space
+              href: page-space-to-device-space-transformations.md
+              items:
+                - name: Режимы сопоставления и переводы
+                  href: mapping-modes-and-translations.md
+                - name: Стандартные режимы сопоставления
+                  href: predefined-mapping-modes.md
+                - name: Режимы сопоставления Application-Defined
+                  href: application-defined-mapping-modes.md
+            - name: Преобразование Device-Space Physical-Device
+              href: device-space-to-physical-device-transformation.md
+            - name: Преобразования по умолчанию
+              href: default-transformations.md
+        - name: Использование пространств координат и преобразований
+          href: using-coordinate-spaces-and-transformations.md
+        - name: Ссылка на пространство координат и преобразование
+          href: coordinate-space-and-transformation-reference.md
+          items:
+            - name: Пространство координат и функции преобразования
+              href: coordinate-space-and-transformation-functions.md
+              items:
+                - name: клиенттоскрин
+                  href: /windows/desktop/api/Winuser/nf-winuser-clienttoscreen
+                - name: комбинетрансформ
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-combinetransform
+                - name: дптолп
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-dptolp
+                - name: жеткуррентпоситионекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcurrentpositionex
+                - name: жетдисплайауторотатионпреференцес
+                  href: /previous-versions//dn376360(v=vs.85)
+                - name: жетграфиксмоде
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getgraphicsmode
+                - name: жетмапмоде
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getmapmode
+                - name: жетвиевпортекстекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getviewportextex
+                - name: жетвиевпорторжекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getviewportorgex
+                - name: жетвиндовекстекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getwindowextex
+                - name: жетвиндоворжекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getwindoworgex
+                - name: жетворлдтрансформ
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getworldtransform
+                - name: лптодп
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-lptodp
+                - name: мапвиндовпоинтс
+                  href: /windows/desktop/api/Winuser/nf-winuser-mapwindowpoints
+                - name: модифиворлдтрансформ
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-modifyworldtransform
+                - name: оффсетвиевпорторжекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-offsetviewportorgex
+                - name: оффсетвиндоворжекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-offsetwindoworgex
+                - name: скалевиевпортекстекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-scaleviewportextex
+                - name: скалевиндовекстекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-scalewindowextex
+                - name: скринтоклиент
+                  href: /windows/desktop/api/Winuser/nf-winuser-screentoclient
+                - name: сетдисплайауторотатионпреференцес
+                  href: /previous-versions//dn376361(v=vs.85)
+                - name: сетграфиксмоде
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setgraphicsmode
+                - name: сетмапмоде
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setmapmode
+                - name: сетвиевпортекстекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setviewportextex
+                - name: сетвиевпорторжекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setviewportorgex
+                - name: сетвиндовекстекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setwindowextex
+                - name: сетвиндоворжекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setwindoworgex
+                - name: сетворлдтрансформ
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setworldtransform
+            - name: Координатное пространство и структуры преобразования
+              href: coordinate-space-and-transformation-structures.md
+              items:
+                - name: XFORM
+                  href: /windows/win32/api/Wingdi/ns-wingdi-xform
+    - name: Контексты устройств
+      href: device-contexts.md
+      items:
+        - name: О контекстах устройств
+          href: about-device-contexts.md
+          items:
+            - name: Графические объекты
+              href: graphic-objects.md
+            - name: Графические режимы
+              href: graphic-modes.md
+            - name: Типы контекста устройства
+              href: device-context-types.md
+              items:
+                - name: Отображение контекстов устройств
+                  href: display-device-contexts.md
+                - name: Контексты печатающих устройств
+                  href: printer-device-contexts.md
+                - name: Контексты устройств памяти
+                  href: memory-device-contexts.md
+                - name: Контексты информационных устройств
+                  href: information-device-contexts.md
+            - name: Операции контекста устройства
+              href: device-context-operations.md
+              items:
+                - name: Операции с графическими объектами
+                  href: operations-on-graphic-objects.md
+                - name: Отмена операций рисования
+                  href: cancellation-of-drawing-operations.md
+                - name: Получение данных устройства
+                  href: retrieving-device-data.md
+                - name: 'Сохранение, восстановление и сброс контекста устройства'
+                  href: saving--restoring--and-resetting-a-device-context.md
+            - name: ICM-Enabled функции контекста устройства
+              href: icm-enabled-device-context-functions.md
+        - name: Использование функций контекста устройства
+          href: using-the-device-context-functions.md
+          items:
+            - name: Получение контекста частного устройства просмотра
+              href: obtaining-a-private-display-device-context.md
+            - name: Получение возможностей принтера
+              href: retrieving-the-capabilities-of-a-printer.md
+            - name: 'Получение атрибутов объекта, выбор новых объектов'
+              href: retrieving-graphic-object-attributes-and-selecting-new-graphic-objects.md
+            - name: Установка и получение значения цвета кисти контекста устройства
+              href: setting-and-retrieving-the-device-context-brush-color-value.md
+            - name: Настройка цвета пера или кисти
+              href: setting-the-pen-or-brush-color.md
+            - name: Получение сведений о мониторе отображения
+              href: getting-information-on-a-display-monitor.md
+        - name: Справочник по контексту устройства
+          href: device-context-reference.md
+          items:
+            - name: Функции контекста устройства
+              href: device-context-functions.md
+              items:
+                - name: канцелдк
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-canceldc
+                - name: чанжедисплайсеттингс
+                  href: /windows/desktop/api/Winuser/nf-winuser-changedisplaysettingsa
+                - name: чанжедисплайсеттингсекс
+                  href: /windows/desktop/api/Winuser/nf-winuser-changedisplaysettingsexa
+                - name: креатекомпатибледк
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createcompatibledc
+                - name: креатедк
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createdca
+                - name: Создать
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createica
+                - name: делетедк
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-deletedc
+                - name: DeleteObject
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-deleteobject
+                - name: дравескапе
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-drawescape
+                - name: енумдисплайдевицес
+                  href: /windows/desktop/api/Winuser/nf-winuser-enumdisplaydevicesa
+                - name: енумдисплайсеттингс
+                  href: /windows/desktop/api/Winuser/nf-winuser-enumdisplaysettingsa
+                - name: енумдисплайсеттингсекс
+                  href: /windows/desktop/api/Winuser/nf-winuser-enumdisplaysettingsexa
+                - name: енумобжектс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-enumobjects
+                - name: гобженумпрок
+                  href: /previous-versions//dd162686(v=vs.85)
+                - name: жеткуррентобжект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcurrentobject
+                - name: GetDC
+                  href: /windows/desktop/api/Winuser/nf-winuser-getdc
+                - name: жетдкбрушколор
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-getdcbrushcolor
+                - name: жетдцекс
+                  href: /windows/desktop/api/Winuser/nf-winuser-getdcex
+                - name: жетдкоржекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getdcorgex
+                - name: жетдкпенколор
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-getdcpencolor
+                - name: жетдевицекапс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps
+                - name: GetLayout
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getlayout
+                - name: GetObject
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getobject
+                - name: жетобжекттипе
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getobjecttype
+                - name: жетстоккобжект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getstockobject
+                - name: релеаседк
+                  href: /windows/desktop/api/Winuser/nf-winuser-releasedc
+                - name: ресетдк
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-resetdca
+                - name: ресторедк
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-restoredc
+                - name: саведк
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-savedc
+                - name: SelectObject
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-selectobject
+                - name: сетдкбрушколор
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setdcbrushcolor
+                - name: сетдкпенколор
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setdcpencolor
+                - name: сетлайаут
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setlayout
+                - name: виндовфромдк
+                  href: /windows/desktop/api/Winuser/nf-winuser-windowfromdc
+            - name: Структуры контекста устройства
+              href: device-context-structures.md
+              items:
+                - name: DISPLAY_DEVICE
+                  href: /windows/win32/api/Wingdi/ns-wingdi-display_devicea
+                - name: видеопараметерс
+                  href: /previous-versions//dd145196(v=vs.85)
+            - name: Сообщения контекста устройства
+              href: device-context-messages.md
+              items:
+                - name: WM_DEVMODECHANGE
+                  href: wm-devmodechange.md
+    - name: Закрашенные фигуры
+      href: filled-shapes.md
+      items:
+        - name: О заполненных фигурах
+          href: about-filled-shapes.md
+          items:
+            - name: О многоточии
+              href: about-ellipses.md
+            - name: О аккордах
+              href: about-chords.md
+            - name: О кругах
+              href: about-pies.md
+            - name: О многоугольниках
+              href: about-polygons.md
+            - name: Рисование прямоугольников
+              href: drawing-rectangles.md
+        - name: Использование закрашенных фигур
+          href: using-filled-shapes.md
+        - name: Заполненная ссылка на фигуру
+          href: filled-shape-reference.md
+          items:
+            - name: Заполненные функции фигур
+              href: filled-shape-functions.md
+              items:
+                - name: Хорда
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-chord
+                - name: Эллипс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-ellipse
+                - name: филлрект
+                  href: /windows/desktop/api/Winuser/nf-winuser-fillrect
+                - name: фрамерект
+                  href: /windows/desktop/api/Winuser/nf-winuser-framerect
+                - name: инвертрект
+                  href: /windows/desktop/api/Winuser/nf-winuser-invertrect
+                - name: Круговая
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-pie
+                - name: Многоугольник
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-polygon
+                - name: Многоугольник
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-polypolygon
+                - name: Прямоугольник
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-rectangle
+                - name: раундрект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-roundrect
+    - name: Шрифты и текст
+      href: fonts-and-text.md
+      items:
+        - name: О шрифтах
+          href: about-fonts.md
+          items:
+            - name: Элементы Font
+              href: font-elements.md
+            - name: Семейства шрифтов
+              href: font-families.md
+            - name: 'Растровые, векторные, шрифты TrueType и OpenType'
+              href: raster--vector--truetype--and-opentype-fonts.md
+            - name: 'Кодировки, используемые шрифтами'
+              href: character-sets-used-by-fonts.md
+            - name: Установка и удаление шрифтов
+              href: font-installation-and-deletion.md
+            - name: Шрифты из нескольких файлов ресурсов
+              href: fonts-from-multiple-resource-files.md
+            - name: Создание и выбор шрифта
+              href: font-creation-and-selection.md
+            - name: Внедренные шрифты
+              href: embedded-fonts.md
+        - name: О выводе текста
+          href: about-text-output.md
+          items:
+            - name: Форматирование текста
+              href: formatting-text.md
+              items:
+                - name: Атрибуты Text-Formatting
+                  href: text-formatting-attributes.md
+                - name: Ширина символов
+                  href: character-widths.md
+                - name: Ширина и высота строк
+                  href: string-widths-and-heights.md
+            - name: Рисование текста
+              href: drawing-text.md
+            - name: Сложные наборы символов
+              href: complex-scripts.md
+            - name: Сглаживание ClearType
+              href: cleartype-antialiasing.md
+        - name: Использование функций Font и Text-Output
+          href: using-the-font-and-text-output-functions.md
+          items:
+            - name: Использование шрифта акции для рисования текста
+              href: using-a-stock-font-to-draw-text.md
+            - name: Создание логического шрифта
+              href: creating-a-logical-font.md
+            - name: Перечисление установленных шрифтов
+              href: enumerating-the-installed-fonts.md
+            - name: Проверка возможностей текста устройства
+              href: checking-the-text-capabilities-of-a-device.md
+            - name: Настройка выравнивания текста
+              href: setting-the-text-alignment.md
+            - name: Рисование текста из различных шрифтов на одной строке
+              href: drawing-text-from-different-fonts-on-the-same-line.md
+            - name: Поворот строк текста
+              href: rotating-lines-of-text.md
+            - name: Извлечение контуров символов
+              href: retrieving-character-outlines.md
+              items:
+                - name: Записи ломаной линии
+                  href: polyline-records.md
+                - name: Записи сплайна
+                  href: spline-records.md
+            - name: Использование переносимых метрик TrueType
+              href: using-portable-truetype-metrics.md
+              items:
+                - name: Устройства и единицы проектирования
+                  href: device-vs--design-units.md
+                - name: Метрики для переносимых документов
+                  href: metrics-for-portable-documents.md
+            - name: Использование номеров PANOSE
+              href: using-panose-numbers.md
+            - name: Указание длины текстовой строки
+              href: specifying-length-of-text-output-string.md
+        - name: Справочник по шрифту и тексту
+          href: font-and-text-reference.md
+          items:
+            - name: Функции шрифта и текста
+              href: font-and-text-functions.md
+              items:
+                - name: аддфонтмемресаурцеекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-addfontmemresourceex
+                - name: аддфонтресаурце
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-addfontresourcea
+                - name: аддфонтресаурцеекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-addfontresourceexa
+                - name: CreateFont
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createfonta
+                - name: CreateFontIndirect
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta
+                - name: креатефонтиндиректекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createfontindirectexa
+                - name: креатескалаблефонтресаурце
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createscalablefontresourcea
+                - name: DrawText
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawtext
+                - name: дравтекстекс
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawtextexa
+                - name: енаблиудк
+                  href: enableeudc.md
+                - name: фонтенумпрок
+                  href: /previous-versions//dd162618(v=vs.85)
+                - name: EnumFontFamilies
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa
+                - name: EnumFontFamiliesEx
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa
+                - name: фонтенумпрок
+                  href: /previous-versions//dd162621(v=vs.85)
+                - name: енумфонтс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-enumfontsa
+                - name: фонтенумпрок
+                  href: /previous-versions//dd162623(v=vs.85)
+                - name: ExtTextOut
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-exttextouta
+                - name: жетаспектратиофилтерекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getaspectratiofilterex
+                - name: жетчарабквидсс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsa
+                - name: жетчарабквидссфлоат
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsfloata
+                - name: жетчарабквидсси
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsi
+                - name: жетчарактерплацемент
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcharacterplacementa
+                - name: жетчарвидс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcharwidtha
+                - name: GetCharWidth32
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcharwidth32a
+                - name: жетчарвидсфлоат
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcharwidthfloata
+                - name: жетчарвидси
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getcharwidthi
+                - name: жетфонтдата
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getfontdata
+                - name: жетфонтлангуажеинфо
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getfontlanguageinfo
+                - name: жетфонтуникодеранжес
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getfontunicoderanges
+                - name: жетглифиндицес
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getglyphindicesa
+                - name: жетглифаутлине
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getglyphoutlinea
+                - name: жеткернингпаирс
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-getkerningpairsa
+                - name: жетаутлинетекстметрикс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getoutlinetextmetricsa
+                - name: жетрастеризеркапс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getrasterizercaps
+                - name: жеттаббедтекстекстент
+                  href: /windows/desktop/api/Winuser/nf-winuser-gettabbedtextextenta
+                - name: жеттексталигн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextalign
+                - name: жеттекстчарактерекстра
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextcharacterextra
+                - name: жеттекстколор
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextcolor
+                - name: жеттекстекстентекспоинт
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextextentexpointa
+                - name: жеттекстекстентекспоинти
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextextentexpointi
+                - name: жеттекстекстентпоинт
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-gettextextentpointa
+                - name: GetTextExtentPoint32
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextextentpoint32a
+                - name: жеттекстекстентпоинти
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextextentpointi
+                - name: жеттекстфаце
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextfacea
+                - name: жеттекстметрикс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gettextmetrics
+                - name: Текст
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-polytextouta
+                - name: ремовефонтмемресаурцеекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-removefontmemresourceex
+                - name: ремовефонтресаурце
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-removefontresourcea
+                - name: ремовефонтресаурцеекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-removefontresourceexa
+                - name: сетмапперфлагс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setmapperflags
+                - name: сеттексталигн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-settextalign
+                - name: сеттекстчарактерекстра
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-settextcharacterextra
+                - name: сеттекстколор
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-settextcolor
+                - name: сеттекстжустификатион
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-settextjustification
+                - name: таббедтекстаут
+                  href: /windows/desktop/api/Winuser/nf-winuser-tabbedtextouta
+                - name: TextOut
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-textouta
+            - name: Структуры шрифтов и текста
+              href: font-and-text-structures.md
+              items:
+                - name: ABC
+                  href: /windows/win32/api/Wingdi/ns-wingdi-abc
+                - name: ABCFLOAT
+                  href: /windows/win32/api/Wingdi/ns-wingdi-abcfloat
+                - name: аксеслист
+                  href: /windows/win32/api/Wingdi/ns-wingdi-axeslista
+                - name: AXISINFO
+                  href: /windows/win32/api/Wingdi/ns-wingdi-axisinfoa
+                - name: десигнвектор
+                  href: /windows/win32/api/Wingdi/ns-wingdi-designvector
+                - name: дравтекстпарамс
+                  href: /windows/win32/api/Winuser/ns-winuser-drawtextparams
+                - name: енумлогфонт
+                  href: /windows/win32/api/Wingdi/ns-wingdi-enumlogfonta
+                - name: енумлогфонтекс
+                  href: /windows/win32/api/Wingdi/ns-wingdi-enumlogfontexa
+                - name: енумлогфонтексдв
+                  href: /windows/win32/api/Wingdi/ns-wingdi-enumlogfontexdva
+                - name: енумтекстметрик
+                  href: /windows/win32/api/Wingdi/ns-wingdi-enumtextmetrica
+                - name: екстлогфонт
+                  href: /windows/win32/api/Wingdi/ns-wingdi-extlogfonta
+                - name: FIXED
+                  href: /windows/win32/api/Wingdi/ns-wingdi-fixed
+                - name: GCP_RESULTS
+                  href: /windows/win32/api/Wingdi/ns-wingdi-gcp_resultsa
+                - name: глифметрикс
+                  href: /windows/win32/api/Wingdi/ns-wingdi-glyphmetrics
+                - name: GLYPH
+                  href: /windows/win32/api/Wingdi/ns-wingdi-glyphset
+                - name: кернингпаир
+                  href: /windows/win32/api/Wingdi/ns-wingdi-kerningpair
+                - name: LOGFONT
+                  href: /windows/win32/api/Wingdi/ns-wingdi-logfonta
+                - name: MAT2
+                  href: /windows/win32/api/Wingdi/ns-wingdi-mat2
+                - name: невтекстметрик
+                  href: /windows/win32/api/Wingdi/ns-wingdi-newtextmetrica
+                - name: невтекстметрицекс
+                  href: /windows/win32/api/Wingdi/ns-wingdi-newtextmetricexa
+                - name: аутлинетекстметрик
+                  href: /windows/win32/api/Wingdi/ns-wingdi-outlinetextmetrica
+                - name: PANOSE
+                  href: /windows/win32/api/Wingdi/ns-wingdi-panose
+                - name: поинтфкс
+                  href: /windows/win32/api/Wingdi/ns-wingdi-pointfx
+                - name: Текст в виде текста
+                  href: /windows/win32/api/Wingdi/ns-wingdi-polytexta
+                - name: RASTERIZER_STATUS
+                  href: /windows/win32/api/Wingdi/ns-wingdi-rasterizer_status
+                - name: текстметрик
+                  href: /windows/win32/api/Wingdi/ns-wingdi-textmetrica
+                - name: ттполикурве
+                  href: /windows/win32/api/Wingdi/ns-wingdi-ttpolycurve
+                - name: ттполигонхеадер
+                  href: /windows/win32/api/Wingdi/ns-wingdi-ttpolygonheader
+                - name: вкранже
+                  href: /windows/win32/api/Wingdi/ns-wingdi-wcrange
+            - name: Макросы шрифта и текста
+              href: font-and-text-macros.md
+              items:
+                - name: делетефонт
+                  href: /windows/desktop/api/Windowsx/nf-windowsx-deletefont
+                - name: селектфонт
+                  href: /windows/desktop/api/Windowsx/nf-windowsx-selectfont
+            - name: Шрифт и текстовые сообщения
+              href: font-and-text-messages.md
+              items:
+                - name: WM_FONTCHANGE
+                  href: wm-fontchange.md
+        - name: Справочник по внедрению шрифтов
+          href: font-embedding-reference.md
+          items:
+            - name: Функции внедрения шрифтов
+              href: font-embedding-functions.md
+              items:
+                - name: CFP_ALLOCPROC
+                  href: /windows/desktop/api/FontSub/nc-fontsub-cfp_allocproc
+                - name: CFP_FREEPROC
+                  href: /windows/desktop/api/FontSub/nc-fontsub-cfp_freeproc
+                - name: CFP_REALLOCPROC
+                  href: /windows/desktop/api/FontSub/nc-fontsub-cfp_reallocproc
+                - name: креатефонтпаккаже
+                  href: /windows/desktop/api/FontSub/nf-fontsub-createfontpackage
+                - name: мержефонтпаккаже
+                  href: /windows/desktop/api/FontSub/nf-fontsub-mergefontpackage
+                - name: реадембедпрок
+                  href: /previous-versions//dd162894(v=vs.85)
+                - name: ттчартауникоде
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttchartounicode
+                - name: ттделетимбеддедфонт
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttdeleteembeddedfont
+                - name: ттембедфонт
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttembedfont
+                - name: ттембедфонтекс
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttembedfontex
+                - name: ттембедфонтфромфилеа
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttembedfontfromfilea
+                - name: ттенаблимбеддингфорфаценаме
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttenableembeddingforfacename
+                - name: ттжетембеддедфонтинфо
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttgetembeddedfontinfo
+                - name: ттжетембеддингтипе
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttgetembeddingtype
+                - name: ттжетневфонтнаме
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttgetnewfontname
+                - name: ттисембеддинженаблед
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttisembeddingenabled
+                - name: ттисембеддинженабледфорфаценаме
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttisembeddingenabledforfacename
+                - name: ттлоадембеддедфонт
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttloadembeddedfont
+                - name: ттрунвалидатионтестс
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttrunvalidationtests
+                - name: ттрунвалидатионтестсекс
+                  href: /windows/desktop/api/T2embapi/nf-t2embapi-ttrunvalidationtestsex
+                - name: вритимбедпрок
+                  href: /previous-versions//dd145225(v=vs.85)
+            - name: Структуры внедрения шрифтов
+              href: font-embedding-services-structures.md
+              items:
+                - name: ттембединфо
+                  href: /windows/desktop/api/T2embapi/ns-t2embapi-ttembedinfo
+                - name: ттлоадинфо
+                  href: /windows/desktop/api/T2embapi/ns-t2embapi-ttloadinfo
+                - name: ттвалидатионтестспарамс
+                  href: /windows/desktop/api/T2embapi/ns-t2embapi-ttvalidationtestsparams
+                - name: ттвалидатионтестспарамсекс
+                  href: /windows/desktop/api/T2embapi/ns-t2embapi-ttvalidationtestsparamsex
+            - name: Сообщения об ошибках внедрения шрифтов
+              href: font-embedding-function-error-messages.md
+            - name: Сообщения об ошибках пакета шрифтов
+              href: font-package-function-error-messages.md
+    - name: Линии и кривые
+      href: lines-and-curves.md
+      items:
+        - name: О строках и кривых
+          href: about-lines-and-curves.md
+          items:
+            - name: Линии
+              href: lines.md
+            - name: Кривые
+              href: curves.md
+            - name: Объединенные линии и кривые
+              href: combined-lines-and-curves.md
+            - name: Атрибуты линий и кривых
+              href: line-and-curve-attributes.md
+        - name: Использование линий и кривых
+          href: using-lines-and-curves.md
+          items:
+            - name: Маркеры рисования
+              href: drawing-markers.md
+            - name: Рисование круговой диаграммы
+              href: drawing-a-pie-chart.md
+        - name: Ссылка на линию и кривую
+          href: line-and-curve-reference.md
+          items:
+            - name: Линейные и кривые функции
+              href: line-and-curve-functions.md
+              items:
+                - name: англеарк
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-anglearc
+                - name: Arc
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-arc
+                - name: аркто
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-arcto
+                - name: жетаркдиректион
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getarcdirection
+                - name: линедда
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-linedda
+                - name: линеддапрок
+                  href: /windows/desktop/api/Wingdi/nc-wingdi-lineddaproc
+                - name: LineTo
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-lineto
+                - name: моветоекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-movetoex
+                - name: PolyBezierSegment
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-polybezier
+                - name: полибезиерто
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-polybezierto
+                - name: Рисование
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-polydraw
+                - name: Ломаная линия
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-polyline
+                - name: Для в. lineTo
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-polylineto
+                - name: Ломаная линия
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-polypolyline
+                - name: сетаркдиректион
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setarcdirection
+    - name: Метафайлы
+      href: metafiles.md
+      items:
+        - name: О метафайлах
+          href: about-metafiles.md
+          items:
+            - name: Enhanced-Format метафайлы
+              href: enhanced-format-metafiles.md
+              items:
+                - name: Расширенные записи метафайлов
+                  href: enhanced-metafile-records.md
+                - name: Расширенное создание метафайлов
+                  href: enhanced-metafile-creation.md
+                - name: Операции расширенного метафайла
+                  href: enhanced-metafile-operations.md
+            - name: Windows-Format метафайлы
+              href: windows-format-metafiles.md
+        - name: Использование метафайлов
+          href: using-metafiles.md
+          items:
+            - name: Создание расширенного метафайла
+              href: creating-an-enhanced-metafile.md
+            - name: Отображение рисунка и сохранение его в расширенном метафайле
+              href: displaying-a-picture-and-storing-it-in-an-enhanced-metafile.md
+            - name: Открытие расширенного метафайла и отображение его содержимого
+              href: opening-an-enhanced-metafile-and-displaying-its-contents.md
+            - name: Редактирование расширенного метафайла
+              href: editing-an-enhanced-metafile.md
+        - name: Ссылка на метафайл
+          href: metafile-reference.md
+          items:
+            - name: Функции Metafile
+              href: metafile-functions.md
+              items:
+                - name: клосинхметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-closeenhmetafile
+                - name: клосеметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-closemetafile
+                - name: копенхметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-copyenhmetafilea
+                - name: копиметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-copymetafilea
+                - name: креатинхметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createenhmetafilea
+                - name: креатеметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createmetafilea
+                - name: делетинхметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-deleteenhmetafile
+                - name: делетеметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-deletemetafile
+                - name: енхмфенумпрок
+                  href: /previous-versions//dd162606(v=vs.85)
+                - name: енуменхметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile
+                - name: енумметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-enummetafile
+                - name: мфенумпрок
+                  href: /previous-versions//dd162630(v=vs.85)
+                - name: гдикоммент
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gdicomment
+                - name: жетенхметафиле
+                  href: /windows/desktop/api/WinGdi/nf-wingdi-getenhmetafilea
+                - name: жетенхметафилебитс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getenhmetafilebits
+                - name: жетенхметафиледескриптион
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getenhmetafiledescriptiona
+                - name: жетенхметафилехеадер
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getenhmetafileheader
+                - name: жетенхметафилепалеттинтриес
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getenhmetafilepaletteentries
+                - name: Метафайл
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getmetafilea
+                - name: жетметафилебитсекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getmetafilebitsex
+                - name: жетвинметафилебитс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getwinmetafilebits
+                - name: плайенхметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-playenhmetafile
+                - name: плайенхметафилерекорд
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-playenhmetafilerecord
+                - name: плайметафиле
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-playmetafile
+                - name: плайметафилерекорд
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-playmetafilerecord
+                - name: сетенхметафилебитс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setenhmetafilebits
+                - name: сетметафилебитсекс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setmetafilebitsex
+                - name: сетвинметафилебитс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setwinmetafilebits
+            - name: Структуры метафайлов
+              href: metafile-structures.md
+              items:
+                - name: EMR
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emr
+                - name: емралфабленд
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emralphablend
+                - name: емранглеарк
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emranglearc
+                - name: 'ЕМРАРК, ЕМРАРКТО, ЕМРЧОРД, ЕМРПИЕ'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrarc
+                - name: емрбитблт
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrbitblt
+                - name: емрколоркорректпалетте
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrcolorcorrectpalette
+                - name: емрколорматчтотаржет
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrcolormatchtotarget
+                - name: емркреатебрушиндирект
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatebrushindirect
+                - name: емркреатеколорспаце
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatecolorspace
+                - name: емркреатеколорспацев
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatecolorspacew
+                - name: емркреатедибпаттернбрушпт
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatedibpatternbrushpt
+                - name: емркреатемонобруш
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatemonobrush
+                - name: емркреатепалетте
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatepalette
+                - name: емркреатепен
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatepen
+                - name: 'ЕМРЕЛЛИПСЕ, ЕМРРЕКТАНГЛЕ'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrellipse
+                - name: емреоф
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emreof
+                - name: 'ЕМРЕКСКЛУДЕКЛИПРЕКТ, ЕМРИНТЕРСЕКТКЛИПРЕКТ'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrexcludecliprect
+                - name: емрексткреатефонтиндиректв
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrextcreatefontindirectw
+                - name: емрексткреатепен
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrextcreatepen
+                - name: емрекстфлудфилл
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrextfloodfill
+                - name: емрекстселектклипргн
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrextselectcliprgn
+                - name: 'ЕМРЕКСТТЕКСТАУТА, ЕМРЕКСТТЕКСТАУТВ'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrexttextouta
+                - name: 'ЕМРФИЛЛПАС, ЕМРСТРОКЕАНДФИЛЛПАС, ЕМРСТРОКЕПАС'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrfillpath
+                - name: емрфиллргн
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrfillrgn
+                - name: емрформат
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrformat
+                - name: емрфрамергн
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrframergn
+                - name: емргдикоммент
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrgdicomment
+                - name: емрглсбаундедрекорд
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrglsboundedrecord
+                - name: емрглсрекорд
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrglsrecord
+                - name: емрградиентфилл
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrgradientfill
+                - name: 'ЕМРИНВЕРТРГН, ЕМРПАИНТРГН'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrinvertrgn
+                - name: 'ЕМРЛИНЕТО, ЕМРМОВЕТОЕКС'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrlineto
+                - name: емрмаскблт
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrmaskblt
+                - name: емрмодифиворлдтрансформ
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrmodifyworldtransform
+                - name: емроффсетклипргн
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emroffsetcliprgn
+                - name: емрпикселформат
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrpixelformat
+                - name: емрплгблт
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrplgblt
+                - name: емрполидрав
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrpolydraw
+                - name: EMRPOLYDRAW16
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrpolydraw16
+                - name: 'ЕМРПОЛИЛИНЕ, ЕМРПОЛИБЕЗИЕР, ЕМРПОЛИГОН, ЕМРПОЛИБЕЗИЕРТО, ЕМРПОЛИЛИНЕТО'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrpolyline
+                - name: 'EMRPOLYLINE16, EMRPOLYBEZIER16, EMRPOLYGON16, EMRPOLYBEZIERTO16, EMRPOLYLINETO16'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrpolyline16
+                - name: 'ЕМРПОЛИПОЛИЛИНЕ, ЕМРПОЛИПОЛИГОН'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrpolypolyline
+                - name: 'EMRPOLYPOLYLINE16, EMRPOLYPOLYGON16'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrpolypolyline16
+                - name: 'ЕМРПОЛИТЕКСТАУТА, ЕМРПОЛИТЕКСТАУТВ'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrpolytextouta
+                - name: емрресизепалетте
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrresizepalette
+                - name: емрресторедк
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrrestoredc
+                - name: емрраундрект
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrroundrect
+                - name: 'ЕМРСКАЛЕВИЕВПОРТЕКСТЕКС, ЕМРСКАЛЕВИНДОВЕКСТЕКС'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrscaleviewportextex
+                - name: 'ЕМРСЕТКОЛОРСПАЦЕ, ЕМРСЕЛЕКТКОЛОРСПАЦЕ, ЕМРДЕЛЕТЕКОЛОРСПАЦЕ'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetcolorspace
+                - name: 'ЕМРСЕЛЕКТОБЖЕКТ, ЕМРДЕЛЕТЕОБЖЕКТ'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrselectobject
+                - name: емрселектпалетте
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrselectpalette
+                - name: емрсетаркдиректион
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetarcdirection
+                - name: 'ЕМРСЕТБККОЛОР, ЕМРСЕТТЕКСТКОЛОР'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetbkcolor
+                - name: емрсетколораджустмент
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetcoloradjustment
+                - name: емрсетдибитстодевице
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetdibitstodevice
+                - name: емрсетикмпрофиле
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrseticmprofile
+                - name: емрсетмапперфлагс
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetmapperflags
+                - name: емрсетмитерлимит
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetmiterlimit
+                - name: емрсетпалеттинтриес
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetpaletteentries
+                - name: емрсетпикселв
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetpixelv
+                - name: 'ЕМРСЕТВИЕВПОРТЕКСТЕКС, ЕМРСЕТВИНДОВЕКСТЕКС'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetviewportextex
+                - name: 'ЕМРСЕТВИЕВПОРТОРЖЕКС, ЕМРСЕТВИНДОВОРЖЕКС, ЕМРСЕТБРУШОРЖЕКС'
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetviewportorgex
+                - name: емрсетворлдтрансформ
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrsetworldtransform
+                - name: емрстретчблт
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrstretchblt
+                - name: емрстретчдибитс
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrstretchdibits
+                - name: емртекст
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrtext
+                - name: емртранспарентблт
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrtransparentblt
+                - name: Расширенные записи метафайлов без параметров
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrabortpath
+                - name: Расширенные записи метафайлов с одним параметром
+                  href: /windows/win32/api/Wingdi/ns-wingdi-emrselectclippath
+                - name: енхметахеадер
+                  href: /windows/win32/api/Wingdi/ns-wingdi-enhmetaheader
+                - name: енхметарекорд
+                  href: /windows/win32/api/Wingdi/ns-wingdi-enhmetarecord
+                - name: хандлетабле
+                  href: /windows/win32/api/Wingdi/ns-wingdi-handletable
+                - name: метахеадер
+                  href: /windows/win32/api/Wingdi/ns-wingdi-metaheader
+                - name: метарекорд
+                  href: /windows/win32/api/Wingdi/ns-wingdi-metarecord
+                - name: Точка зрения
+                  href: /previous-versions//dd162807(v=vs.85)
+                - name: RECT
+                  href: /previous-versions//dd162907(v=vs.85)
+    - name: Несколько мониторов экрана
+      href: multiple-display-monitors.md
+      items:
+        - name: О нескольких мониторах монитора
+          href: about-multiple-display-monitors.md
+          items:
+            - name: Виртуальный экран
+              href: the-virtual-screen.md
+            - name: ХМОНИТОР и контекст устройства
+              href: hmonitor-and-the-device-context.md
+            - name: Перечисление и элемент управления отображением
+              href: enumeration-and-display-control.md
+            - name: Метрики системы с несколькими мониторами
+              href: multiple-monitor-system-metrics.md
+            - name: Использование нескольких мониторов в качестве независимых дисплеев
+              href: using-multiple-monitors-as-independent-displays.md
+            - name: Цвета на нескольких мониторах монитора
+              href: colors-on-multiple-display-monitors.md
+              items:
+                - name: Рисование на нескольких мониторах монитора
+                  href: painting-on-multiple-display-monitors.md
+            - name: Размещение объектов на нескольких мониторах монитора
+              href: positioning-objects-on-multiple-display-monitors.md
+            - name: Несколько мониторных приложений в разных системах
+              href: multiple-monitor-applications-on-different-systems.md
+            - name: Рекомендации по нескольким мониторам для старых программ
+              href: multiple-monitor-considerations-for-older-programs.md
+        - name: Использование нескольких мониторов монитора
+          href: using-multiple-display-monitors.md
+          items:
+            - name: 'Рисование на контроллере домена, охватывающем несколько экранов'
+              href: painting-on-a-dc-that-spans-multiple-displays.md
+            - name: Размещение объектов при настройке нескольких дисплеев
+              href: positioning-objects-on-a-multiple-display-setup.md
+        - name: Ссылка на несколько мониторов экрана
+          href: multiple-display-monitors-reference.md
+          items:
+            - name: Функции нескольких мониторов экрана
+              href: multiple-display-monitors-functions.md
+              items:
+                - name: енумдисплаймониторс
+                  href: /windows/desktop/api/Winuser/nf-winuser-enumdisplaymonitors
+                - name: жетмониторинфо
+                  href: /windows/desktop/api/Winuser/nf-winuser-getmonitorinfoa
+                - name: мониторенумпрок
+                  href: /windows/desktop/api/Winuser/nc-winuser-monitorenumproc
+                - name: мониторфромпоинт
+                  href: /windows/desktop/api/Winuser/nf-winuser-monitorfrompoint
+                - name: мониторфромрект
+                  href: /windows/desktop/api/Winuser/nf-winuser-monitorfromrect
+                - name: мониторфромвиндов
+                  href: /windows/desktop/api/Winuser/nf-winuser-monitorfromwindow
+            - name: Структуры с несколькими мониторами экрана
+              href: multiple-display-monitors-structures.md
+              items:
+                - name: мониторинфо
+                  href: /windows/win32/api/Winuser/ns-winuser-monitorinfo
+                - name: мониторинфоекс
+                  href: /windows/win32/api/Winuser/ns-winuser-monitorinfoexa
+    - name: Рисование и рисование
+      href: painting-and-drawing.md
+      items:
+        - name: О рисовании и рисовании
+          href: about-painting-and-drawing.md
+          items:
+            - name: Когда следует рисовать в окне
+              href: when-to-draw-in-a-window.md
+            - name: Сообщение WM_PAINT
+              href: the-wm-paint-message.md
+              items:
+                - name: Регион обновления
+                  href: the-update-region.md
+                - name: Идет непроверка и проверка региона обновления
+                  href: invalidating-and-validating-the-update-region.md
+                - name: Получение региона обновления
+                  href: retrieving-the-update-region.md
+                - name: Исключение региона обновления
+                  href: excluding-the-update-region.md
+                - name: Синхронное и асинхронное Рисование
+                  href: synchronous-and-asynchronous-drawing.md
+            - name: Прорисовка без сообщения WM_PAINT
+              href: drawing-without-the-wm-paint-message.md
+            - name: Система координат окна
+              href: window-coordinate-system.md
+            - name: Области окна
+              href: window-regions.md
+            - name: Фон окна
+              href: window-background.md
+            - name: Уменьшенные окна
+              href: minimized-windows.md
+            - name: Измененные размеры окон
+              href: resized-windows.md
+            - name: Неклиентская область
+              href: nonclient-area.md
+            - name: Регион обновления дочернего окна
+              href: child-window-update-region.md
+            - name: Отображение устройств
+              href: display-devices.md
+              items:
+                - name: Отображение кэша контекста устройства
+                  href: display-device-context-cache.md
+                - name: Отображать значения по умолчанию для контекста устройства
+                  href: display-device-context-defaults.md
+                - name: Общие контексты отображаемых устройств
+                  href: common-display-device-contexts.md
+                - name: Контексты частных устройств просмотра
+                  href: private-display-device-contexts.md
+                - name: Отображение контекстов устройств в классе
+                  href: class-display-device-contexts.md
+                - name: Контексты дисплея окна
+                  href: window-display-device-contexts.md
+                - name: Контексты отображаемых родительских устройств
+                  href: parent-display-device-contexts.md
+            - name: Блокировка обновления окна
+              href: window-update-lock.md
+            - name: Накопленный ограничивающий прямоугольник
+              href: accumulated-bounding-rectangle.md
+        - name: Использование сообщения WM_PAINT
+          href: using-the-wm-paint-message.md
+          items:
+            - name: Рисование в клиентской области
+              href: drawing-in-the-client-area.md
+            - name: Перерисовка всей клиентской области
+              href: redrawing-the-entire-client-area.md
+            - name: Перерисовка в регионе обновления
+              href: redrawing-in-the-update-region.md
+            - name: Идет недействительность клиентской области
+              href: invalidating-the-client-area.md
+            - name: Рисование окна с минимальным объемом
+              href: drawing-a-minimized-window.md
+            - name: Рисование пользовательского фона окна
+              href: drawing-a-custom-window-background.md
+        - name: Использование функции GetDC
+          href: using-the-getdc-function.md
+          items:
+            - name: Рисование с помощью мыши
+              href: drawing-with-the-mouse.md
+            - name: Рисование с интервалами времени
+              href: drawing-at-timed-intervals.md
+        - name: Справка по рисованию и рисованию
+          href: painting-and-drawing-reference.md
+          items:
+            - name: Функции рисования и рисования
+              href: painting-and-drawing-functions.md
+              items:
+                - name: бегинпаинт
+                  href: /windows/desktop/api/Winuser/nf-winuser-beginpaint
+                - name: драваниматедректс
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawanimatedrects
+                - name: дравкаптион
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawcaption
+                - name: драведже
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawedge
+                - name: дравфокусрект
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawfocusrect
+                - name: дравфрамеконтрол
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawframecontrol
+                - name: дравстате
+                  href: /windows/desktop/api/Winuser/nf-winuser-drawstatea
+                - name: дравстатепрок
+                  href: /windows/desktop/api/Winuser/nc-winuser-drawstateproc
+                - name: ендпаинт
+                  href: /windows/desktop/api/Winuser/nf-winuser-endpaint
+                - name: ексклудеупдатергн
+                  href: /windows/desktop/api/Winuser/nf-winuser-excludeupdatergn
+                - name: гдифлуш
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gdiflush
+                - name: гдижетбатчлимит
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gdigetbatchlimit
+                - name: гдисетбатчлимит
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-gdisetbatchlimit
+                - name: жетбкколор
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getbkcolor
+                - name: жетбкмоде
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getbkmode
+                - name: жетбаундсрект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getboundsrect
+                - name: GetROP2
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getrop2
+                - name: жетупдатерект
+                  href: /windows/desktop/api/Winuser/nf-winuser-getupdaterect
+                - name: жетупдатергн
+                  href: /windows/desktop/api/Winuser/nf-winuser-getupdatergn
+                - name: жетвиндовдк
+                  href: /windows/desktop/api/Winuser/nf-winuser-getwindowdc
+                - name: жетвиндовргн
+                  href: /windows/desktop/api/Winuser/nf-winuser-getwindowrgn
+                - name: жетвиндовргнбокс
+                  href: /windows/desktop/api/Winuser/nf-winuser-getwindowrgnbox
+                - name: грайстринг
+                  href: /windows/desktop/api/Winuser/nf-winuser-graystringa
+                - name: инвалидатерект
+                  href: /windows/desktop/api/Winuser/nf-winuser-invalidaterect
+                - name: инвалидатергн
+                  href: /windows/desktop/api/Winuser/nf-winuser-invalidatergn
+                - name: локквиндовупдате
+                  href: /windows/desktop/api/Winuser/nf-winuser-lockwindowupdate
+                - name: грайстрингпрок
+                  href: /windows/desktop/api/Winuser/nc-winuser-graystringproc
+                - name: паинтдесктоп
+                  href: /windows/desktop/api/Winuser/nf-winuser-paintdesktop
+                - name: редраввиндов
+                  href: /windows/desktop/api/Winuser/nf-winuser-redrawwindow
+                - name: сетбкколор
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setbkcolor
+                - name: сетбкмоде
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setbkmode
+                - name: сетбаундсрект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setboundsrect
+                - name: SetROP2
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setrop2
+                - name: сетвиндовргн
+                  href: /windows/desktop/api/Winuser/nf-winuser-setwindowrgn
+                - name: упдатевиндов
+                  href: /windows/desktop/api/Winuser/nf-winuser-updatewindow
+                - name: валидатерект
+                  href: /windows/desktop/api/Winuser/nf-winuser-validaterect
+                - name: валидатергн
+                  href: /windows/desktop/api/Winuser/nf-winuser-validatergn
+            - name: Рисование и рисование структур
+              href: painting-and-drawing-structures.md
+              items:
+                - name: PAINTSTRUCT
+                  href: /windows/win32/api/Winuser/ns-winuser-paintstruct
+            - name: Рисование и рисование сообщений
+              href: painting-and-drawing-messages.md
+              items:
+                - name: WM_DISPLAYCHANGE
+                  href: wm-displaychange.md
+                - name: WM_NCPAINT
+                  href: wm-ncpaint.md
+                - name: WM_PAINT
+                  href: wm-paint.md
+                - name: WM_PRINT
+                  href: wm-print.md
+                - name: WM_PRINTCLIENT
+                  href: wm-printclient.md
+                - name: WM_SETREDRAW
+                  href: wm-setredraw.md
+                - name: WM_SYNCPAINT
+                  href: wm-syncpaint.md
+            - name: Коды растровых операций
+              href: raster-operation-codes.md
+              items:
+                - name: Двоичные растровые операции
+                  href: binary-raster-operations.md
+                - name: Ternary растровые операции
+                  href: ternary-raster-operations.md
+    - name: Пути
+      href: paths.md
+      items:
+        - name: О путях
+          href: about-paths.md
+          items:
+            - name: Создание пути
+              href: path-creation.md
+            - name: Контуры и заливки
+              href: outlined-and-filled-paths.md
+            - name: Преобразования путей
+              href: transformations-of-paths.md
+            - name: Контуры клипов и графические эффекты
+              href: clip-paths-and-graphic-effects.md
+            - name: Преобразование путей в регионы
+              href: conversion-of-paths-to-regions.md
+            - name: Кривые пути
+              href: curved-paths.md
+        - name: Использование путей
+          href: using-paths.md
+        - name: Справочник по пути
+          href: path-reference.md
+          items:
+            - name: Функции пути
+              href: path-functions.md
+              items:
+                - name: абортпас
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-abortpath
+                - name: бегинпас
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-beginpath
+                - name: клосефигуре
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-closefigure
+                - name: ендпас
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-endpath
+                - name: филлпас
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-fillpath
+                - name: флаттенпас
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-flattenpath
+                - name: жетмитерлимит
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getmiterlimit
+                - name: GetPath
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getpath
+                - name: пасторегион
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-pathtoregion
+                - name: сетмитерлимит
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setmiterlimit
+                - name: строкеандфиллпас
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-strokeandfillpath
+                - name: строкепас
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-strokepath
+                - name: виденпас
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-widenpath
+    - name: Перья
+      href: pens.md
+      items:
+        - name: О перьях
+          href: about-pens.md
+          items:
+            - name: Косметические перья
+              href: cosmetic-pens.md
+            - name: Геометрические перья
+              href: geometric-pens.md
+            - name: Атрибуты пера
+              href: pen-attributes.md
+              items:
+                - name: Ширина пера
+                  href: pen-width.md
+                - name: Стиль пера
+                  href: pen-style.md
+                - name: Цвет пера
+                  href: pen-color.md
+                - name: Шаблон пера
+                  href: pen-pattern.md
+                - name: Штриховка пера
+                  href: pen-hatch.md
+                - name: Концевая точка пера
+                  href: pen-end-cap.md
+                - name: Присоединение пера
+                  href: pen-join.md
+            - name: ICM-Enabled функции пера
+              href: icm-enabled-pen-functions.md
+        - name: Использование перьев
+          href: using-pens.md
+        - name: Справочник по Перу
+          href: pen-reference.md
+          items:
+            - name: Функции пера
+              href: pen-functions.md
+              items:
+                - name: креатепен
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createpen
+                - name: креатепениндирект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createpenindirect
+                - name: ексткреатепен
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-extcreatepen
+            - name: Структуры пера
+              href: pen-structures.md
+              items:
+                - name: екстлогпен
+                  href: /windows/win32/api/Wingdi/ns-wingdi-extlogpen
+                - name: LOGPEN
+                  href: /windows/win32/api/Wingdi/ns-wingdi-logpen
+    - name: Прямоугольники
+      href: rectangles.md
+      items:
+        - name: О прямоугольниках
+          href: about-rectangles.md
+          items:
+            - name: Координаты прямоугольника
+              href: rectangle-coordinates.md
+            - name: Операции с прямоугольниками
+              href: rectangle-operations.md
+        - name: Использование прямоугольников
+          href: using-rectangles.md
+        - name: Справочник по прямоугольнику
+          href: rectangle-reference.md
+          items:
+            - name: Функции Rectangle
+              href: rectangle-functions.md
+              items:
+                - name: копирект
+                  href: /windows/desktop/api/Winuser/nf-winuser-copyrect
+                - name: екуалрект
+                  href: /windows/desktop/api/Winuser/nf-winuser-equalrect
+                - name: инфлатерект
+                  href: /windows/desktop/api/Winuser/nf-winuser-inflaterect
+                - name: интерсектрект
+                  href: /windows/desktop/api/Winuser/nf-winuser-intersectrect
+                - name: исректемпти
+                  href: /windows/desktop/api/Winuser/nf-winuser-isrectempty
+                - name: оффсетрект
+                  href: /windows/desktop/api/Winuser/nf-winuser-offsetrect
+                - name: PtInRect
+                  href: /windows/desktop/api/Winuser/nf-winuser-ptinrect
+                - name: SetRect
+                  href: /windows/desktop/api/Winuser/nf-winuser-setrect
+                - name: сетректемпти
+                  href: /windows/desktop/api/Winuser/nf-winuser-setrectempty
+                - name: субтрактрект
+                  href: /windows/desktop/api/Winuser/nf-winuser-subtractrect
+                - name: унионрект
+                  href: /windows/desktop/api/Winuser/nf-winuser-unionrect
+            - name: Структурные прямоугольники
+              href: rectangle-structures.md
+              items:
+                - name: ТОЧКИ
+                  href: /previous-versions//dd162805(v=vs.85)
+                - name: ТОЧКИ
+                  href: /previous-versions//dd162808(v=vs.85)
+                - name: ПЕРЕТАСКИВАЕМЫЕ
+                  href: /previous-versions//dd162897(v=vs.85)
+            - name: Макросы прямоугольника
+              href: rectangle-macros.md
+              items:
+                - name: макепоинтс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-makepoints
+                - name: поинтстопоинт
+                  href: /windows/desktop/api/Winuser/nf-winuser-pointstopoint
+                - name: поинттопоинтс
+                  href: /windows/desktop/api/Winuser/nf-winuser-pointtopoints
+    - name: Регионы
+      href: regions.md
+      items:
+        - name: О регионах
+          href: about-regions.md
+          items:
+            - name: Создание и выбор регионов
+              href: region-creation-and-selection.md
+            - name: Операции над областями
+              href: region-operations.md
+              items:
+                - name: Объединение регионов
+                  href: combining-regions.md
+                - name: Сравнение регионов
+                  href: comparing-regions.md
+                - name: Заполнение регионов
+                  href: filling-regions.md
+                - name: Области рисования
+                  href: painting-regions.md
+                - name: Инвертирование регионов
+                  href: inverting-regions.md
+                - name: Регионы кадрирования
+                  href: framing-regions.md
+                - name: Получение ограничивающего прямоугольника
+                  href: retrieving-a-bounding-rectangle.md
+                - name: Перемещение регионов
+                  href: moving-regions.md
+                - name: Регионы проверки попадания
+                  href: hit-testing-regions.md
+        - name: Использование областей
+          href: using-regions.md
+          items:
+            - name: Использование регионов для вывода клипов
+              href: using-regions-to-clip-output.md
+              items:
+                - name: Определение области обрезки
+                  href: defining-the-clipping-region.md
+                - name: Вырезание выходных данных
+                  href: clipping-output.md
+            - name: Использование регионов для проверки попадания
+              href: using-regions-to-perform-hit-testing.md
+        - name: Справочник по регионам
+          href: region-reference.md
+          items:
+            - name: Функции Region
+              href: region-functions.md
+              items:
+                - name: комбинергн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-combinergn
+                - name: креатиллиптикргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createellipticrgn
+                - name: креатиллиптикргниндирект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createellipticrgnindirect
+                - name: креатеполигонргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createpolygonrgn
+                - name: креатеполиполигонргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createpolypolygonrgn
+                - name: креатеректргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createrectrgn
+                - name: креатеректргниндирект
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createrectrgnindirect
+                - name: креатераундректргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-createroundrectrgn
+                - name: екуалргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-equalrgn
+                - name: ексткреатерегион
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-extcreateregion
+                - name: филлргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-fillrgn
+                - name: фрамергн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-framergn
+                - name: жетполифиллмоде
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getpolyfillmode
+                - name: жетрегиондата
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getregiondata
+                - name: жетргнбокс
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-getrgnbox
+                - name: инвертргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-invertrgn
+                - name: оффсетргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-offsetrgn
+                - name: паинтргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-paintrgn
+                - name: птинрегион
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-ptinregion
+                - name: ректинрегион
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-rectinregion
+                - name: сетполифиллмоде
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setpolyfillmode
+                - name: сетректргн
+                  href: /windows/desktop/api/Wingdi/nf-wingdi-setrectrgn
+            - name: Структуры областей
+              href: region-structures.md
+              items:
+                - name: ргндата
+                  href: /windows/win32/api/Wingdi/ns-wingdi-rgndata
+                - name: ргндатахеадер
+                  href: /windows/win32/api/Wingdi/ns-wingdi-rgndataheader

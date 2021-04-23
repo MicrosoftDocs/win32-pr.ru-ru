@@ -1,0 +1,31 @@
+- name: Проверка нажатия касания
+  href: touch-hit-testing-portal.md
+  items:
+    - name: Ссылка на проверку нажатия касания
+      href: touchhittest-reference.md
+      items:
+        - name: Константы
+          href: constants.md
+          items:
+            - name: Поведение при проверке нажатия касания
+              href: hit-testing-behaviors.md
+            - name: Оценки проверки попадания касания
+              href: hit-testing-scores.md
+        - name: Функции
+          href: functions.md
+          items:
+            - name: евалуатепроксимититополигон
+              href: /windows/win32/api/winuser/nf-winuser-evaluateproximitytopolygon
+            - name: евалуатепроксимититорект
+              href: /windows/win32/api/winuser/nf-winuser-evaluateproximitytorect
+            - name: пакктаучхиттестингпроксимитевалуатион
+              href: /windows/win32/api/winuser/nf-winuser-packtouchhittestingproximityevaluation
+            - name: регистертаучхиттестингвиндов
+              href: /windows/win32/api/winuser/nf-winuser-registertouchhittestingwindow
+        - name: Структуры
+          href: structures.md
+          items:
+            - name: TOUCH_HIT_TESTING_INPUT
+              href: /windows/win32/api/winuser/ns-winuser-touch_hit_testing_input
+            - name: TOUCH_HIT_TESTING_PROXIMITY_EVALUATION
+              href: /windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation

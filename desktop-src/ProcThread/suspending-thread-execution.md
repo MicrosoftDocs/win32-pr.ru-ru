@@ -1,0 +1,28 @@
+---
+description: Поток может приостановить и возобновить выполнение другого потока. Пока поток приостановлен, он не планирует время на процессоре.
+ms.assetid: b76d7af7-e3ec-4663-a9e7-832c01733c8c
+title: Приостановка выполнения потока
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3688b0327ecf5fd21f07e9be6be6ecab17d64617
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103998488"
+---
+# <a name="suspending-thread-execution"></a><span data-ttu-id="6d7f2-104">Приостановка выполнения потока</span><span class="sxs-lookup"><span data-stu-id="6d7f2-104">Suspending Thread Execution</span></span>
+
+<span data-ttu-id="6d7f2-105">Поток может приостановить и возобновить выполнение другого потока.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-105">A thread can suspend and resume the execution of another thread.</span></span> <span data-ttu-id="6d7f2-106">Пока поток приостановлен, он не планирует время на процессоре.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-106">While a thread is suspended, it is not scheduled for time on the processor.</span></span>
+
+<span data-ttu-id="6d7f2-107">Если поток создается в приостановленном состоянии (с флагом [**создания \_ приостановки**](process-creation-flags.md) ), он не будет выполняться до тех пор, пока другой поток не вызовет функцию [**ресумесреад**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-resumethread) с маркером в приостановленный поток.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-107">If a thread is created in a suspended state (with the [**CREATE\_SUSPENDED**](process-creation-flags.md) flag), it does not begin to execute until another thread calls the [**ResumeThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-resumethread) function with a handle to the suspended thread.</span></span> <span data-ttu-id="6d7f2-108">Это может быть полезно для инициализации состояния потока перед его запуском.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-108">This can be useful for initializing the thread's state before it begins to execute.</span></span> <span data-ttu-id="6d7f2-109">Приостановка потока при создании может быть полезной для одноразовой синхронизации, так как это гарантирует, что приостановленный поток будет выполнять начальную точку своего кода при вызове **ресумесреад**.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-109">Suspending a thread at creation can be useful for one-time synchronization, because this ensures that the suspended thread will execute the starting point of its code when you call **ResumeThread**.</span></span>
+
+<span data-ttu-id="6d7f2-110">Функция [**суспендсреад**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-suspendthread) не предназначена для использования при синхронизации потоков, так как она не управляет точкой в коде, в которой выполнение потока приостановлено.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-110">The [**SuspendThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-suspendthread) function is not intended to be used for thread synchronization because it does not control the point in the code at which the thread's execution is suspended.</span></span> <span data-ttu-id="6d7f2-111">Эта функция в основном разработана для использования отладчиками.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-111">This function is primarily designed for use by debuggers.</span></span>
+
+<span data-ttu-id="6d7f2-112">Поток может временно выдать свое выполнение на указанный интервал, вызвав функции [**Sleep**](/windows/win32/api/synchapi/nf-synchapi-sleep) или [**слипекс**](/windows/win32/api/synchapi/nf-synchapi-sleepex) . Это полезно в тех случаях, когда поток реагирует на взаимодействие с пользователем, так как он может задержать выполнение достаточно долго, чтобы пользователи могли наблюдать за результатами своих действий.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-112">A thread can temporarily yield its execution for a specified interval by calling the [**Sleep**](/windows/win32/api/synchapi/nf-synchapi-sleep) or [**SleepEx**](/windows/win32/api/synchapi/nf-synchapi-sleepex) functions This is useful particularly in cases where the thread responds to user interaction, because it can delay execution long enough to allow users to observe the results of their actions.</span></span> <span data-ttu-id="6d7f2-113">В течение интервала сна поток не запланирован на процессор.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-113">During the sleep interval, the thread is not scheduled for time on the processor.</span></span>
+
+<span data-ttu-id="6d7f2-114">Функция [**свитчтосреад**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-switchtothread) похожа на [**спящий режим**](/windows/win32/api/synchapi/nf-synchapi-sleep) и [**слипекс**](/windows/win32/api/synchapi/nf-synchapi-sleepex), за исключением того, что нельзя указать интервал.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-114">The [**SwitchToThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-switchtothread) function is similar to [**Sleep**](/windows/win32/api/synchapi/nf-synchapi-sleep) and [**SleepEx**](/windows/win32/api/synchapi/nf-synchapi-sleepex), except that you cannot specify the interval.</span></span> <span data-ttu-id="6d7f2-115">**Свитчтосреад** позволяет потоку получить свой отрезок времени.</span><span class="sxs-lookup"><span data-stu-id="6d7f2-115">**SwitchToThread** allows the thread to give up its time slice.</span></span>
+
+ 
+
+ 

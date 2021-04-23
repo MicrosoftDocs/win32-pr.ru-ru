@@ -1,0 +1,357 @@
+- name: Windows Internet
+  href: portal.md
+  items:
+    - name: О команде WinINet
+      href: about-wininet.md
+      items:
+        - name: WinINet и WinHTTP
+          href: wininet-vs-winhttp.md
+        - name: Дескрипторы ХИНТЕРНЕТ
+          href: appendix-a-hinternet-handles.md
+        - name: Поддержка протокола IP версии 6
+          href: ip-version-6-support.md
+        - name: Кодирование контента
+          href: content-encoding.md
+        - name: Caching
+          href: caching.md
+        - name: Общие функции
+          href: common-functions.md
+        - name: Сеансы FTP
+          href: ftp-sessions.md
+        - name: HTTP-сеансы
+          href: http-sessions.md
+        - name: Файлы cookie HTTP
+          href: http-cookies.md
+        - name: Асинхронная операция
+          href: asynchronous-operation.md
+        - name: Обработка проверки подлинности
+          href: handling-authentication.md
+        - name: Обработка указателей универсальных ресурсов
+          href: handling-uniform-resource-locators.md
+        - name: Рекомендации по безопасности
+          href: security-guidelines.md
+    - name: Использование WinINet
+      href: using-wininet.md
+      items:
+        - name: Включение функций Интернета
+          href: enabling-internet-functionality.md
+        - name: Поддержка IDN в WinINet
+          href: idn-support-in-wininet.md
+        - name: Установка коммутируемого подключения к Интернету
+          href: establishing-a-dial-up-connection-to-the-internet.md
+        - name: Использование буферов строк
+          href: appendix-b-using-buffers.md
+        - name: Создание функций обратного вызова состояния
+          href: creating-status-callback-functions.md
+        - name: Обработка ошибок
+          href: appendix-c-handling-errors.md
+        - name: Управление файлами cookie
+          href: managing-cookies.md
+        - name: Получение заголовков HTTP
+          href: retrieving-http-headers.md
+        - name: Настройка и получение свойств браузера
+          href: setting-and-retrieving-internet-options.md
+        - name: Асинхронный пример
+          href: asynchronous-example.md
+          items:
+            - name: Асинхронный пример файла makefile
+              href: asynchronous-example-makefile.md
+            - name: Заголовок асинхронного примера
+              href: asynchronous-example-header.md
+            - name: Асинхронный пример приложения
+              href: asynchronous-example-application.md
+    - name: Ссылка WinINet
+      href: wininet-reference.md
+      items:
+        - name: Константы WinINet
+          href: wininet-constants.md
+          items:
+            - name: Флаги API
+              href: api-flags.md
+            - name: Константы группы кэша
+              href: cache-group-constants.md
+            - name: сообщения об ошибках
+              href: wininet-errors.md
+            - name: Значения типа Gopher
+              href: gopher-type-values.md
+            - name: Коды состояния HTTP
+              href: http-status-codes.md
+            - name: Флаги параметров
+              href: option-flags.md
+            - name: Шаблоны конфиденциальности
+              href: privacy-templates.md
+            - name: Тип конфиденциальности
+              href: privacy-type.md
+            - name: Флаги сведений о запросе
+              href: query-info-flags.md
+        - name: Перечисления WinINet
+          href: wininet-enumerations.md
+          items:
+            - name: интернеткукиестате
+              href: /windows/win32/api/wininet/ne-wininet-internetcookiestate
+            - name: INTERNET_SCHEME
+              href: /windows/desktop/api/Wininet/ne-wininet-internet_scheme
+        - name: Функции WinINet
+          href: wininet-functions.md
+          items:
+            - name: клеанупкредентиалкаче
+              href: cleanupcredentialcache.md
+            - name: коммитурлкачинтря
+              href: /windows/desktop/api/Wininet/nf-wininet-commiturlcacheentrya
+            - name: коммитурлкачинтрив
+              href: /windows/desktop/api/Wininet/nf-wininet-commiturlcacheentryw
+            - name: CreateMD5SSOHash
+              href: /windows/desktop/api/wininet/nf-wininet-createmd5ssohash
+            - name: креатеурлкачеконтаинер
+              href: /windows/desktop/api/winineti/nf-winineti-createurlcachecontainera
+            - name: креатеурлкачинтри
+              href: /windows/desktop/api/Wininet/nf-wininet-createurlcacheentrya
+            - name: креатеурлкачеграуп
+              href: /windows/desktop/api/Wininet/nf-wininet-createurlcachegroup
+            - name: делетеурлкачинтри
+              href: /windows/desktop/api/Wininet/nf-wininet-deleteurlcacheentry
+            - name: делетеурлкачеграуп
+              href: /windows/desktop/api/Wininet/nf-wininet-deleteurlcachegroup
+            - name: детектаутопроксюрл
+              href: /windows/desktop/api/wininet/nf-wininet-detectautoproxyurl
+            - name: финдклосеурлкаче
+              href: /windows/desktop/api/Wininet/nf-wininet-findcloseurlcache
+            - name: финдфирстурлкачинтри
+              href: /windows/desktop/api/Wininet/nf-wininet-findfirsturlcacheentrya
+            - name: финдфирстурлкачинтрекс
+              href: /windows/desktop/api/Wininet/nf-wininet-findfirsturlcacheentryexa
+            - name: финдфирстурлкачеграуп
+              href: /windows/desktop/api/Wininet/nf-wininet-findfirsturlcachegroup
+            - name: финднекстурлкачинтри
+              href: /windows/desktop/api/Wininet/nf-wininet-findnexturlcacheentrya
+            - name: финднекстурлкачинтрекс
+              href: /windows/desktop/api/Wininet/nf-wininet-findnexturlcacheentryexa
+            - name: финднекстурлкачеграуп
+              href: /windows/desktop/api/Wininet/nf-wininet-findnexturlcachegroup
+            - name: фтпкомманд
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpcommanda
+            - name: фтпкреатедиректори
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpcreatedirectorya
+            - name: фтпделетефиле
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpdeletefilea
+            - name: фтпфиндфирстфиле
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea
+            - name: фтпжеткуррентдиректори
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpgetcurrentdirectorya
+            - name: фтпжетфиле
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpgetfilea
+            - name: фтпжетфилесизе
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpgetfilesize
+            - name: фтпопенфиле
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpopenfilea
+            - name: фтппутфиле
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpputfilea
+            - name: фтпремоведиректори
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpremovedirectorya
+            - name: фтпренамефиле
+              href: /windows/desktop/api/Wininet/nf-wininet-ftprenamefilea
+            - name: фтпсеткуррентдиректори
+              href: /windows/desktop/api/Wininet/nf-wininet-ftpsetcurrentdirectorya
+            - name: жетурлкачеконфигинфо
+              href: /windows/desktop/api/Winineti/nf-winineti-geturlcacheconfiginfoa
+            - name: жетурлкачинтринфо
+              href: /windows/desktop/api/Wininet/nf-wininet-geturlcacheentryinfoa
+            - name: жетурлкачинтринфоекс
+              href: /windows/desktop/api/Wininet/nf-wininet-geturlcacheentryinfoexa
+            - name: жетурлкачеграупаттрибуте
+              href: /windows/desktop/api/Wininet/nf-wininet-geturlcachegroupattributea
+            - name: гофераттрибутинумератор
+              href: /windows/desktop/api/Wininet/nc-wininet-gopher_attribute_enumerator
+            - name: гоферкреателокатор
+              href: /windows/desktop/api/Wininet/nf-wininet-gophercreatelocatora
+            - name: гоферфиндфирстфиле
+              href: /windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea
+            - name: гофержетаттрибуте
+              href: /windows/desktop/api/Wininet/nf-wininet-gophergetattributea
+            - name: гофержетлокатортипе
+              href: /windows/desktop/api/Wininet/nf-wininet-gophergetlocatortypea
+            - name: гоферопенфиле
+              href: /windows/desktop/api/Wininet/nf-wininet-gopheropenfilea
+            - name: хттпаддрекуессеадерс
+              href: /windows/desktop/api/Wininet/nf-wininet-httpaddrequestheadersa
+            - name: хттпендрекуест
+              href: /windows/desktop/api/Wininet/nf-wininet-httpendrequesta
+            - name: хттпопенрекуест
+              href: /windows/desktop/api/Wininet/nf-wininet-httpopenrequesta
+            - name: хттпкуеринфо
+              href: /windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa
+            - name: хттпсендрекуест
+              href: /windows/desktop/api/Wininet/nf-wininet-httpsendrequesta
+            - name: хттпсендрекуестекс
+              href: /windows/desktop/api/Wininet/nf-wininet-httpsendrequestexa
+            - name: интернетаттемптконнект
+              href: /windows/desktop/api/Wininet/nf-wininet-internetattemptconnect
+            - name: интернетаутодиал
+              href: /windows/desktop/api/wininet/nf-wininet-internetautodial
+            - name: интернетаутодиалхангуп
+              href: /windows/desktop/api/wininet/nf-wininet-internetautodialhangup
+            - name: интернетканоникализеурл
+              href: /windows/desktop/api/Wininet/nf-wininet-internetcanonicalizeurla
+            - name: интернетчеккконнектион
+              href: /windows/desktop/api/Wininet/nf-wininet-internetcheckconnectiona
+            - name: интернетклеараллперситекукиедеЦисионс
+              href: /windows/desktop/api/Wininet/nf-wininet-internetclearallpersitecookiedecisions
+            - name: интернетклосехандле
+              href: /windows/desktop/api/Wininet/nf-wininet-internetclosehandle
+            - name: интернеткомбинеурл
+              href: /windows/desktop/api/Wininet/nf-wininet-internetcombineurla
+            - name: интернетконфирмзонекроссинг
+              href: /windows/desktop/api/Wininet/nf-wininet-internetconfirmzonecrossing
+            - name: интернетконнект
+              href: /windows/desktop/api/Wininet/nf-wininet-internetconnecta
+            - name: интернеткраккурл
+              href: /windows/desktop/api/Wininet/nf-wininet-internetcrackurla
+            - name: интернеткреатеурл
+              href: /windows/desktop/api/Wininet/nf-wininet-internetcreateurla
+            - name: интернетдеинитиализеаутопроксидлл
+              href: /previous-versions/windows/desktop/legacy/aa384580(v=vs.85)
+            - name: интернетдиал
+              href: /windows/desktop/api/wininet/nf-wininet-internetdial
+            - name: интернетенумперситекукиедеЦисион
+              href: /windows/desktop/api/wininet/nf-wininet-internetenumpersitecookiedecisiona
+            - name: интернетеррордлг
+              href: /windows/desktop/api/Wininet/nf-wininet-interneterrordlg
+            - name: интернетфинднекстфиле
+              href: /windows/desktop/api/Wininet/nf-wininet-internetfindnextfilea
+            - name: интернетжетконнектедстате
+              href: /windows/desktop/api/wininet/nf-wininet-internetgetconnectedstate
+            - name: интернетжетконнектедстатикс
+              href: /windows/desktop/api/wininet/nf-wininet-internetgetconnectedstateex
+            - name: интернетжеткукие
+              href: /windows/desktop/api/Wininet/nf-wininet-internetgetcookiea
+            - name: интернетжеткукиикс
+              href: /windows/desktop/api/Wininet/nf-wininet-internetgetcookieexa
+            - name: интернетжетластреспонсеинфо
+              href: /windows/desktop/api/Wininet/nf-wininet-internetgetlastresponseinfoa
+            - name: интернетжетперситекукиедеЦисион
+              href: /windows/desktop/api/Wininet/nf-wininet-internetgetpersitecookiedecisiona
+            - name: интернетжетпроксинфо
+              href: internetgetproxyinfo.md
+            - name: интернетгунлине
+              href: /windows/desktop/api/wininet/nf-wininet-internetgoonline
+            - name: интернесангуп
+              href: /windows/desktop/api/wininet/nf-wininet-internethangup
+            - name: интернетинитиализеаутопроксидлл
+              href: /windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll
+            - name: интернетлоккрекуестфиле
+              href: /windows/desktop/api/Wininet/nf-wininet-internetlockrequestfile
+            - name: интернетопен
+              href: /windows/desktop/api/Wininet/nf-wininet-internetopena
+            - name: интернетопенурл
+              href: /windows/desktop/api/Wininet/nf-wininet-internetopenurla
+            - name: интернеткуеридатааваилабле
+              href: /windows/desktop/api/Wininet/nf-wininet-internetquerydataavailable
+            - name: интернеткуерйоптион
+              href: /windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona
+            - name: интернетреадфиле
+              href: /windows/desktop/api/Wininet/nf-wininet-internetreadfile
+            - name: интернетреадфиликс
+              href: /windows/desktop/api/Wininet/nf-wininet-internetreadfileexa
+            - name: интернетсеткукие
+              href: /windows/desktop/api/Wininet/nf-wininet-internetsetcookiea
+            - name: интернетсеткукиикс
+              href: /windows/desktop/api/Wininet/nf-wininet-internetsetcookieexa
+            - name: интернетсетдиалстате
+              href: /windows/desktop/api/wininet/nf-wininet-internetsetdialstate
+            - name: интернетсетфилепоинтер
+              href: /windows/desktop/api/Wininet/nf-wininet-internetsetfilepointer
+            - name: интернетсетоптион
+              href: /windows/desktop/api/Wininet/nf-wininet-internetsetoptiona
+            - name: интернетсетоптионекс
+              href: /windows/desktop/api/wininet/nf-wininet-internetsetoptionexa
+            - name: интернетсетперситекукиедеЦисион
+              href: /windows/desktop/api/Wininet/nf-wininet-internetsetpersitecookiedecisiona
+            - name: интернетсетстатускаллбакк
+              href: /windows/desktop/api/Wininet/nf-wininet-internetsetstatuscallback
+            - name: интернетстатускаллбакк
+              href: /windows/desktop/api/Wininet/nc-wininet-internet_status_callback
+            - name: интернеттимефромсистемтиме
+              href: /windows/desktop/api/Wininet/nf-wininet-internettimefromsystemtime
+            - name: интернеттиметосистемтиме
+              href: /windows/desktop/api/Wininet/nf-wininet-internettimetosystemtime
+            - name: интернетунлоккрекуестфиле
+              href: /windows/desktop/api/Wininet/nf-wininet-internetunlockrequestfile
+            - name: интернетвритефиле
+              href: /windows/desktop/api/Wininet/nf-wininet-internetwritefile
+            - name: привацижетзонепреференцев
+              href: /windows/desktop/api/wininet/nf-wininet-privacygetzonepreferencew
+            - name: привацисетзонепреференцев
+              href: /windows/desktop/api/wininet/nf-wininet-privacysetzonepreferencew
+            - name: реадурлкачинтристреам
+              href: /windows/desktop/api/Wininet/nf-wininet-readurlcacheentrystream
+            - name: ресумесуспендеддовнлоад
+              href: /windows/desktop/api/Wininet/nf-wininet-resumesuspendeddownload
+            - name: ретриевеурлкачинтрифиле
+              href: /windows/desktop/api/Wininet/nf-wininet-retrieveurlcacheentryfilea
+            - name: ретриевеурлкачинтристреам
+              href: /windows/desktop/api/Wininet/nf-wininet-retrieveurlcacheentrystreama
+            - name: сетурлкачинтриграуп
+              href: /windows/desktop/api/Wininet/nf-wininet-seturlcacheentrygroup
+            - name: сетурлкачинтринфо
+              href: /windows/desktop/api/Wininet/nf-wininet-seturlcacheentryinfoa
+            - name: сетурлкачеграупаттрибуте
+              href: /windows/desktop/api/Wininet/nf-wininet-seturlcachegroupattributea
+            - name: унлоккурлкачинтрифиле
+              href: /windows/desktop/api/Wininet/nf-wininet-unlockurlcacheentryfile
+            - name: унлоккурлкачинтристреам
+              href: /windows/desktop/api/Wininet/nf-wininet-unlockurlcacheentrystream
+        - name: Структуры WinINet
+          href: wininet-structures.md
+          items:
+            - name: аутопроксихелперфунктионс
+              href: /windows/desktop/api/Wininet/ns-wininet-autoproxyhelperfunctions
+            - name: аутопроксихелпервтбл
+              href: /windows/desktop/api/Wininet/ns-wininet-autoproxyhelpervtbl
+            - name: AUTO_PROXY_SCRIPT_BUFFER
+              href: /windows/desktop/api/Wininet/ns-wininet-auto_proxy_script_buffer
+            - name: GOPHER_ATTRIBUTE_TYPE
+              href: /windows/desktop/api/Wininet/ns-wininet-gopher_attribute_type
+            - name: GOPHER_FIND_DATA
+              href: /windows/desktop/api/Wininet/ns-wininet-gopher_find_dataa
+            - name: HTTP_VERSION_INFO
+              href: /windows/desktop/api/Wininet/ns-wininet-http_version_info
+            - name: INTERNET_ASYNC_RESULT
+              href: /windows/desktop/api/Wininet/ns-wininet-internet_async_result
+            - name: INTERNET_AUTH_NOTIFY_DATA
+              href: /windows/win32/api/wininet/ns-wininet-internet_auth_notify_data
+            - name: INTERNET_BUFFERS
+              href: /windows/win32/api/Wininet/ns-wininet-internet_buffersa
+            - name: INTERNET_CACHE_CONFIG_INFO
+              href: /windows/win32/api/Winineti/ns-winineti-internet_cache_config_infoa
+            - name: INTERNET_CACHE_ENTRY_INFO
+              href: /windows/win32/api/Wininet/ns-wininet-internet_cache_entry_infoa
+            - name: INTERNET_CACHE_GROUP_INFO
+              href: /windows/win32/api/Wininet/ns-wininet-internet_cache_group_infoa
+            - name: INTERNET_CACHE_TIMESTAMPS
+              href: /windows/win32/api/Wininet/ns-wininet-internet_cache_timestamps
+            - name: INTERNET_CERTIFICATE_INFO
+              href: /windows/desktop/api/Wininet/ns-wininet-internet_certificate_info
+            - name: INTERNET_CONNECTED_INFO
+              href: /windows/desktop/api/Wininet/ns-wininet-internet_connected_info
+            - name: INTERNET_DIAGNOSTIC_SOCKET_INFO
+              href: /windows/desktop/api/Wininet/ns-wininet-internet_diagnostic_socket_info
+            - name: INTERNET_PER_CONN_OPTION
+              href: /windows/desktop/api/Wininet/ns-wininet-internet_per_conn_optiona
+            - name: INTERNET_PER_CONN_OPTION_LIST
+              href: /windows/desktop/api/Wininet/ns-wininet-internet_per_conn_option_lista
+            - name: INTERNET_PROXY_INFO
+              href: /windows/desktop/api/Wininet/ns-wininet-internet_proxy_info
+            - name: INTERNET_VERSION_INFO
+              href: /windows/desktop/api/Wininet/ns-wininet-internet_version_info
+            - name: интернеткукиехистори
+              href: /windows/win32/api/wininet/ns-wininet-internetcookiehistory
+            - name: URL_COMPONENTS
+              href: /windows/desktop/api/Wininet/ns-wininet-url_componentsa
+        - name: API-интерфейс подтверждения принадлежности к файлу
+          href: proof-of-possession-cookie-api.md
+          items:
+            - name: ипруфофпоссессионкукиеинфоманажер
+              href: /windows/desktop/api/ProofOfPossessionCookieInfo/nn-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager
+              items:
+                - name: Метод Жеткукиеинфофорури
+                  href: /windows/desktop/api/ProofOfPossessionCookieInfo/nf-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager-getcookieinfoforuri

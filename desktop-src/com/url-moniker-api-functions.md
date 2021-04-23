@@ -1,0 +1,44 @@
+---
+title: Функции моникера URL-адреса
+description: Функции моникера URL-адреса
+ms.assetid: 773743d3-9434-4ec9-b85c-9b971e37682f
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2db726d8ce6a101b0b97fbe2128e074ee5e892e3
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "103891136"
+---
+# <a name="url-moniker-functions"></a><span data-ttu-id="c0f4e-103">Функции моникера URL-адреса</span><span class="sxs-lookup"><span data-stu-id="c0f4e-103">URL Moniker Functions</span></span>
+
+<span data-ttu-id="c0f4e-104">Функции моникера URL-адреса разделяют разработчиков от сложностей создания, управления и использования моникеров URL-адресов.</span><span class="sxs-lookup"><span data-stu-id="c0f4e-104">URL moniker functions insulate developers from the complexities of creating, managing, and using URL monikers.</span></span> <span data-ttu-id="c0f4e-105">Это следующие функции:</span><span class="sxs-lookup"><span data-stu-id="c0f4e-105">These functions are as follows:</span></span>
+
+-   <span data-ttu-id="c0f4e-106">[**креатеурлмоникер**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775102(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="c0f4e-106">[**CreateURLMoniker**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775102(v=vs.85))</span></span>
+-   <span data-ttu-id="c0f4e-107">[**исвалидурл**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775112(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="c0f4e-107">[**IsValidURL**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775112(v=vs.85))</span></span>
+-   <span data-ttu-id="c0f4e-108">[**регистермедиатипес**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775118(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="c0f4e-108">[**RegisterMediaTypes**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775118(v=vs.85))</span></span>
+-   [<span data-ttu-id="c0f4e-109">**креатеформатенумератор**</span><span class="sxs-lookup"><span data-stu-id="c0f4e-109">**CreateFormatEnumerator**</span></span>](/windows/desktop/api/Urlmon/nf-urlmon-createformatenumerator)
+-   <span data-ttu-id="c0f4e-110">[**регистерформатенумератор**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775116(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="c0f4e-110">[**RegisterFormatEnumerator**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775116(v=vs.85))</span></span>
+-   <span data-ttu-id="c0f4e-111">[**ревокеформатенумератор**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775121(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="c0f4e-111">[**RevokeFormatEnumerator**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775121(v=vs.85))</span></span>
+-   <span data-ttu-id="c0f4e-112">[**регистермедиатипекласс**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775117(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="c0f4e-112">[**RegisterMediaTypeClass**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775117(v=vs.85))</span></span>
+-   <span data-ttu-id="c0f4e-113">[**финдмедиатипекласс**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775106(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="c0f4e-113">[**FindMediaTypeClass**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775106(v=vs.85))</span></span>
+-   <span data-ttu-id="c0f4e-114">[**жетклассфилеормиме**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775108(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="c0f4e-114">[**GetClassFileOrMime**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775108(v=vs.85))</span></span>
+-   <span data-ttu-id="c0f4e-115">[**урлмксетсессионоптион**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775125(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="c0f4e-115">[**UrlMkSetSessionOption**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775125(v=vs.85))</span></span>
+
+<span data-ttu-id="c0f4e-116">Знакомство с этими функциями может быть следующим:</span><span class="sxs-lookup"><span data-stu-id="c0f4e-116">Your familiarity with these functions can be as follows:</span></span>
+
+-   <span data-ttu-id="c0f4e-117">Ознакомьтесь с [**креатеурлмоникер**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775102(v=vs.85)) и [**исвалидурл**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775112(v=vs.85)) , если вы будете использовать моникеры URL-адресов в автономных приложениях.</span><span class="sxs-lookup"><span data-stu-id="c0f4e-117">Be familiar with [**CreateURLMoniker**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775102(v=vs.85)) and [**IsValidURL**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775112(v=vs.85)) if you will be using URL monikers in stand-alone applications.</span></span> <span data-ttu-id="c0f4e-118">При разработке элемента управления ActiveX следует использовать [**ибиндхост:: креатемоникер**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775075(v=vs.85)) вместо **креатеурлмоникер**.</span><span class="sxs-lookup"><span data-stu-id="c0f4e-118">If you are authoring an ActiveX control, you should use [**IBindHost::CreateMoniker**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775075(v=vs.85)) instead of **CreateURLMoniker**.</span></span>
+-   <span data-ttu-id="c0f4e-119">Если вы будете выполнять согласование MIME с моникерами URL-адресов, вы должны быть знакомы с [**регистермедиатипес**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775118(v=vs.85)), [**креатеформатенумератор**](/windows/desktop/api/Urlmon/nf-urlmon-createformatenumerator), [**регистерформатенумератор**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775116(v=vs.85))и [**ревокеформатенумератор**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775121(v=vs.85)) .</span><span class="sxs-lookup"><span data-stu-id="c0f4e-119">Be familiar with [**RegisterMediaTypes**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775118(v=vs.85)), [**CreateFormatEnumerator**](/windows/desktop/api/Urlmon/nf-urlmon-createformatenumerator), [**RegisterFormatEnumerator**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775116(v=vs.85)), and [**RevokeFormatEnumerator**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775121(v=vs.85)) if you will be performing any MIME negotiation with URL monikers.</span></span>
+-   <span data-ttu-id="c0f4e-120">Ознакомьтесь с [**регистермедиатипекласс**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775117(v=vs.85)), [**финдмедиатипекласс**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775106(v=vs.85)), [**жетклассфилеормиме**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775108(v=vs.85))и [**урлмксетсессионоптион**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775125(v=vs.85)) только в том случае, если у вас есть существенная работа с моникерами URL-адресов и с COM.</span><span class="sxs-lookup"><span data-stu-id="c0f4e-120">Be familiar with [**RegisterMediaTypeClass**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775117(v=vs.85)), [**FindMediaTypeClass**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775106(v=vs.85)), [**GetClassFileOrMime**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775108(v=vs.85)), and [**UrlMkSetSessionOption**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775125(v=vs.85)) only if you have significant experience both with URL monikers and with COM.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="c0f4e-121">См. также</span><span class="sxs-lookup"><span data-stu-id="c0f4e-121">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="c0f4e-122">Моникеры URL-адресов</span><span class="sxs-lookup"><span data-stu-id="c0f4e-122">URL Monikers</span></span>](url-monikers.md)
+</dt> </dl>
+
+ 
+
+ 

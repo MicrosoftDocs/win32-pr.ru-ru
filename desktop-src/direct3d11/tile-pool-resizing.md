@@ -1,0 +1,39 @@
+---
+title: Изменение размера пула плиток
+description: Используйте API ID3D11DeviceContext2 Ресизетилепул, чтобы расширить пул плиток, если приложению требуется больше рабочего набора для сопоставления мозаичных ресурсов или для сжатия, если требуется меньше пространства.
+ms.assetid: 529E874E-650B-4BFD-97F6-E66E743564A9
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 86368da46f7c2219f42b5ecbc122b79fee19e72c
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103887788"
+---
+# <a name="tile-pool-resizing"></a><span data-ttu-id="3d3a1-103">Изменение размера пула плиток</span><span class="sxs-lookup"><span data-stu-id="3d3a1-103">Tile pool resizing</span></span>
+
+<span data-ttu-id="3d3a1-104">Используйте API [**ID3D11DeviceContext2:: ресизетилепул**](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-resizetilepool) , чтобы расширить пул плиток, если приложению требуется больше рабочего набора для сопоставления с мозаичными ресурсами или для сжатия, если требуется меньше пространства.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-104">Use the [**ID3D11DeviceContext2::ResizeTilePool**](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-resizetilepool) API to grow a tile pool if the application needs more working set for the tiled resources mapping into it or to shrink if less space is needed.</span></span> <span data-ttu-id="3d3a1-105">Другим вариантом для приложений является выделение дополнительных пулов плиток для новых мозаичных ресурсов.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-105">Another option for applications is to allocate additional tile pools for new tiled resources.</span></span> <span data-ttu-id="3d3a1-106">Но если одному мозаичному ресурсу требуется больше места, чем изначально доступно в его пуле плиток, лучше всего увеличивать пул плиток.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-106">But if any single tiled resource needs more space than initially available in its tile pool, growing the tile pool is a good option.</span></span> <span data-ttu-id="3d3a1-107">Мозаичный ресурс не может одновременно сопоставляться с несколькими пулами плиток.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-107">A tiled resource can't have mappings into multiple tile pools at the same time.</span></span>
+
+<span data-ttu-id="3d3a1-108">При увеличения пула плиток дополнительные плитки добавляются в конец драйвером дисплея посредством одного или нескольких выделений.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-108">When a tile pool is grown, additional tiles are added to the end via one or more new allocations by the display driver.</span></span> <span data-ttu-id="3d3a1-109">Разбивка выделения памяти недоступна для приложения.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-109">This breakdown into allocations isn't visible to the application.</span></span> <span data-ttu-id="3d3a1-110">Существующая память в пуле плиток остается нетронутой, а существующие сопоставления незаполненных ресурсов в этой памяти остаются без изменений.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-110">Existing memory in the tile pool is left untouched, and existing tiled resource mappings into that memory remain intact.</span></span>
+
+<span data-ttu-id="3d3a1-111">При уменьшении пула плитки удаляются с конца.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-111">When a tile pool is shrunk, tiles are removed from the end.</span></span> <span data-ttu-id="3d3a1-112">Плитки удаляются даже при размере ниже исходного, до 0. Это означает, что новые сопоставления не могут быть сделаны за пределами нового размера.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-112">Tiles are removed even below the initial allocation size, down to 0, which means new mappings can't be made past the new size.</span></span> <span data-ttu-id="3d3a1-113">При этом существующие сопоставления за пределами нового размера остаются без изменений и могут быть использованы.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-113">But, existing mappings past the end of the new size remain intact and useable.</span></span> <span data-ttu-id="3d3a1-114">Драйвер дисплея сохраняет выделенную память до тех пор, пока существуют сопоставления с любой частью выделенной памяти, используемой драйвером в качестве памяти для пула плиток.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-114">The display driver will keep the memory around as long as mappings to any part of the allocations that the driver uses for the tile pool memory remains.</span></span> <span data-ttu-id="3d3a1-115">Если после уменьшения часть памяти остается активной, поскольку на нее указывают сопоставления плиток, а затем пул плиток снова увеличивается (на любое значение), сначала повторно используется существующая память, а затем выделяется дополнительная память для обслуживания операции по увеличению.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-115">If after shrinking some memory has been kept alive because tile mappings are pointing to it and then the tile pool is regrown again (by any amount), the existing memory is reused first before any additional allocations occur to service the size of the grow operation.</span></span>
+
+<span data-ttu-id="3d3a1-116">Чтобы сэкономить память, приложение должно не только уменьшать пул плиток, но и удалять или преобразовывать существующие сопоставления за пределами нового уменьшенного размера пула плиток.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-116">To be able to save memory, an application has to not only shrink a tile pool but also remove/remap existing mappings past the end of the new smaller tile pool size.</span></span>
+
+<span data-ttu-id="3d3a1-117">Процесс уменьшения (и удаления сопоставлений) не всегда непосредственно приводит к экономии памяти.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-117">The act of shrinking (and removing mappings) doesn't necessarily produce immediate memory savings.</span></span> <span data-ttu-id="3d3a1-118">Освобождение памяти зависит от того, насколько детально базовое распределение драйвером дисплея памяти для пула плиток.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-118">Freeing of memory depends on how granular the display driver's underlying allocations for the tile pool are.</span></span> <span data-ttu-id="3d3a1-119">Если уменьшения пула достаточно, чтобы выделенная драйвером дисплея память перестала использоваться, драйвер может ее освободить.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-119">When shrinking happens to be enough to make a display driver allocation unused, the display driver can free it.</span></span> <span data-ttu-id="3d3a1-120">Если пул плиток увеличился, уменьшение его до предыдущего размера (и соответствующее удаление или переназначение сопоставлений плиток) с большей вероятностью приведет к экономии памяти, хотя и не гарантируется, если размеры в точности не соответствуют размерам базового распределения, выбранным драйвером дисплея.</span><span class="sxs-lookup"><span data-stu-id="3d3a1-120">If a tile pool was grown, shrinking to previous sizes (and removing/remapping tile mappings correspondingly) is most likely to yield memory savings, though not guaranteed in the case that the sizes don't exactly align with the underlying allocation sizes chosen by the display driver.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="3d3a1-121">См. также</span><span class="sxs-lookup"><span data-stu-id="3d3a1-121">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="3d3a1-122">Сопоставления в пуле плиток</span><span class="sxs-lookup"><span data-stu-id="3d3a1-122">Mappings are into a tile pool</span></span>](mappings-are-into-a-tile-pool.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

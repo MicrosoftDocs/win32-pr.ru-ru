@@ -1,0 +1,1570 @@
+- name: Удаленный вызов процедур (RPC)
+  href: rpc-start-page.md
+  items:
+    - name: Лучшие методики программирования RPC
+      href: best-rpc-programming-practices.md
+      items:
+        - name: Выполнение вызовов функций RPC
+          href: making-rpc-function-calls.md
+          items:
+            - name: Использование дескрипторов привязки и выполнение вызовов RPC
+              href: using-binding-handles-and-making-rpc-calls.md
+            - name: Выбор типа используемых дескрипторов привязки
+              href: choosing-the-type-of-binding-handles-to-use.md
+            - name: Выбор последовательности протокола
+              href: choosing-a-protocol-sequence.md
+            - name: Использование дескрипторов контекста для сохранения состояния на сервере
+              href: use-context-handles-for-keeping-state-on-the-server.md
+            - name: Указание ошибок в исключениях
+              href: indicate-errors-by-exceptions.md
+        - name: Использование дескрипторов контекста
+          href: using-context-handles.md
+          items:
+            - name: Поддержание состояния на сервере между вызовами
+              href: maintaining-state-on-the-server-between-calls.md
+            - name: Выгрузка сервера с необработанными дескрипторами контекста
+              href: unloading-a-server-with-outstanding-context-handles.md
+            - name: Использование нескольких обработчиков контекста на один вызов
+              href: using-more-than-one-context-handle-per-call.md
+            - name: Семантика сбоев для дескрипторов контекста
+              href: failure-semantics-for-context-handles.md
+        - name: RPC и сеть
+          href: rpc-and-the-network.md
+          items:
+            - name: Разработка и развертывание в сети
+              href: development-versus-deployment-in-the-network.md
+            - name: Предотвращение зависаний на стороне клиента
+              href: preventing-client-side-hangs.md
+            - name: Управление наборами сетевых подключений (ассоциациями)
+              href: managing-network-connection-sets-associations-.md
+            - name: Очистка бездействующего подключения
+              href: idle-connection-cleanup.md
+            - name: Работа с потерей подключения
+              href: dealing-with-loss-of-connectivity.md
+            - name: Очистка на стороне сервера
+              href: server-side-cleanup.md
+        - name: Написание обратно совместимых клиентов и серверов
+          href: writing-backward-compatible-clients-and-servers.md
+          items:
+            - name: Теория управления версиями для RPC и COM
+              href: the-versioning-theory-for-rpc-and-com.md
+            - name: Изменение интерфейсов с обратной совместимостью
+              href: changing-interfaces-in-a-backward-compatible-manner.md
+            - name: Примеры несовместимых изменений
+              href: examples-of-incompatible-changes.md
+        - name: Создание безопасного клиента или сервера RPC
+          href: writing-a-secure-rpc-client-or-server.md
+          items:
+            - name: Используемый поставщик безопасности
+              href: which-security-provider-to-use.md
+            - name: Управление проверкой подлинности клиента
+              href: controlling-client-authentication.md
+            - name: Выбор уровня проверки подлинности
+              href: choosing-an-authentication-level.md
+            - name: Выбор параметров качества обслуживания для системы безопасности
+              href: choosing-security-qos-options.md
+            - name: 'Распространенная ошибка: допущение Рпксерверрегистераусинфо предотвращает вызов сервера неавторизованными пользователями'
+              href: common-mistake-assuming-rpcserverregisterauthinfo-prevents-unauthorized-users-from-calling-your-server.md
+            - name: Обратные вызовы
+              href: callbacks.md
+            - name: Сеансы со значением NULL
+              href: null-sessions.md
+            - name: Использование флага/robust
+              href: use-the-robust-flag.md
+            - name: Строгое и строго типизированные дескрипторы контекста
+              href: strict-and-type-strict-context-handles.md
+            - name: Не доверять одноранговому узлу
+              href: do-not-trust-your-peer.md
+            - name: Не использовать безопасность конечных точек
+              href: do-not-use-endpoint-security.md
+            - name: 'Будьте осторожны с другими конечными точками RPC, работающими в том же процессе'
+              href: be-wary-of-other-rpc-endpoints-running-in-the-same-process.md
+            - name: 'Убедитесь, что сервер требует утверждения'
+              href: verify-the-server-is-who-it-claims-to-be.md
+            - name: Использование основных последовательностей протоколов
+              href: use-mainstream-protocol-sequences.md
+            - name: Насколько защищен мой RPC-сервер?
+              href: how-secure-is-my-rpc-server-now.md
+            - name: Методы IDL для лучшего проектирования интерфейсов и методов
+              href: idl-techniques-for-better-interface-and-method-design.md
+        - name: Разработка высокопроизводительного RPC-сервера
+          href: developing-a-high-performance-rpc-server.md
+          items:
+            - name: Задержка и пропускная способность сети
+              href: network-latency-and-throughput.md
+            - name: Масштабируемость
+              href: scalability.md
+            - name: Прочие советы по повышению производительности RPC
+              href: miscellaneous-rpc-performance-tips.md
+        - name: Получение сведений об ошибке расширенного RPC
+          href: obtaining-extended-rpc-error-information.md
+          items:
+            - name: Необходимость в расширенных сведениях об ошибках
+              href: the-need-for-extended-error-information.md
+            - name: Безопасность и расширенные сведения об ошибках
+              href: security-and-extended-error-information.md
+            - name: Включение расширенных сведений об ошибках
+              href: enabling-extended-error-information.md
+            - name: Основные сведения о расширенных ошибках
+              href: understanding-extended-error-information.md
+            - name: Надежность расширенных сведений об ошибках
+              href: reliability-of-extended-error-information.md
+            - name: Независимость от других компонентов
+              href: independence-from-other-components.md
+            - name: Расширенные сведения об ошибке для пользователя
+              href: extended-error-information-for-the-user.md
+            - name: Расширенные сведения об ошибке для сервера или приложения
+              href: extended-error-information-for-the-server-or-application.md
+              items:
+                - name: Создание сведений об ошибке
+                  href: generating-error-information.md
+                - name: Распространение сведений об ошибках
+                  href: propagating-error-information.md
+                - name: Предоставление пользователю сведений об ошибках
+                  href: making-error-information-available-to-the-user.md
+            - name: Источники обнаружения расширенных сведений об ошибках
+              href: extended-error-information-detection-locations.md
+    - name: Разделы общих сведений
+      href: overviews.md
+      items:
+        - name: Модель Microsoft RPC
+          href: microsoft-rpc-model.md
+          items:
+            - name: Модель программирования
+              href: the-programming-model.md
+            - name: Модель для распределенных систем
+              href: the-model-for-distributed-systems.md
+              items:
+                - name: Реализация распределенной системы
+                  href: implementing-a-distributed-system.md
+            - name: Как работает RPC
+              href: how-rpc-works.md
+            - name: Компоненты Microsoft RPC
+              href: microsoft-rpc-components.md
+        - name: Установка среды программирования RPC
+          href: installing-the-rpc-programming-environment.md
+          items:
+            - name: Разработка приложений для Windows RPC
+              href: developing-32-bit-windows-applications.md
+        - name: Создание приложений RPC
+          href: building-rpc-applications.md
+          items:
+            - name: Общая процедура сборки
+              href: general-build-procedure.md
+              items:
+                - name: Разработка интерфейса
+                  href: developing-the-interface.md
+                  items:
+                    - name: Создание идентификаторов UUID интерфейса
+                      href: generating-interface-uuids.md
+                    - name: Использование MIDL
+                      href: using-midl.md
+                - name: Разработка сервера
+                  href: developing-the-server.md
+                - name: Разработка клиента
+                  href: developing-the-client.md
+            - name: Обработка исключений
+              href: exception-handling.md
+        - name: Подключение клиента и сервера
+          href: connecting-the-client-and-the-server.md
+          items:
+            - name: Основная терминология привязки RPC
+              href: essential-rpc-binding-terminology.md
+            - name: Как сервер готовится к подключению
+              href: how-the-server-prepares-for-a-connection.md
+              items:
+                - name: Регистрация интерфейса
+                  href: registering-the-interface.md
+                - name: Обеспечение доступности сервера в сети
+                  href: making-the-server-available-on-the-network.md
+                - name: Регистрация конечных точек
+                  href: registering-endpoints.md
+                - name: Ожидание вызовов клиента
+                  href: listening-for-client-calls.md
+            - name: Как клиент устанавливает подключение
+              href: how-the-client-establishes-a-connection.md
+              items:
+                - name: Создание маркера привязки
+                  href: creating-a-binding-handle.md
+                - name: Выполнение удаленного вызова процедур
+                  href: making-a-remote-procedure-call.md
+                - name: Поиск программы сервера
+                  href: finding-the-server-program.md
+                - name: Отправка вызова в программу сервера
+                  href: sending-the-call-to-the-server-program.md
+        - name: Учебник
+          href: tutorial.md
+          items:
+            - name: Автономное приложение
+              href: the-standalone-application.md
+            - name: Определение интерфейса
+              href: defining-the-interface.md
+            - name: Создание UUID
+              href: generating-the-uuid.md
+            - name: IDL-файл
+              href: the-idl-file.md
+            - name: Файл ACF
+              href: the-acf-file.md
+            - name: Создание файлов заглушек
+              href: generating-the-stub-files.md
+            - name: Клиентское приложение
+              href: the-client-application.md
+            - name: Серверное приложение
+              href: the-server-application.md
+            - name: Остановка серверного приложения
+              href: stopping-the-server-application.md
+            - name: Компиляция и компоновка
+              href: compiling-and-linking.md
+            - name: Запуск приложения
+              href: running-the-application.md
+        - name: Файлы IDL и ACF
+          href: the-idl-and-acf-files.md
+          items:
+            - name: Файл языка определения интерфейса (IDL)
+              href: the-interface-definition-language-idl-file.md
+              items:
+                - name: Заголовок интерфейса IDL
+                  href: the-idl-interface-header.md
+                - name: Тело интерфейса IDL
+                  href: the-idl-interface-body.md
+            - name: Файл конфигурации приложения (ACF)
+              href: the-application-configuration-file-acf-.md
+              items:
+                - name: Заголовок ACF
+                  href: the-acf-header.md
+                - name: Текст ACF
+                  href: the-acf-body.md
+            - name: Выходные данные компилятора MIDL
+              href: midl-compiler-output.md
+        - name: Функции данных и языка
+          href: data-and-language-features.md
+          items:
+            - name: Строгая типизация
+              href: strong-typing.md
+              items:
+                - name: Базовые типы
+                  href: base-types.md
+                - name: Подписанные и неподписанные типы
+                  href: signed-and-unsigned-types.md
+                - name: Типы Wide-Character
+                  href: wide-character-types.md
+                - name: Структуры
+                  href: structures.md
+                - name: Объединения
+                  href: unions.md
+                - name: Перечислимые типы
+                  href: enumerated-types.md
+                - name: Массивы
+                  href: arrays.md
+                - name: Атрибуты функций
+                  href: function-attributes.md
+                - name: Атрибуты поля
+                  href: field-attributes.md
+                - name: Три типа указателей
+                  href: three-pointer-types.md
+                - name: Атрибуты типа
+                  href: type-attributes.md
+            - name: Атрибуты направления (параметра)
+              href: directional-parameter-attributes.md
+            - name: Представление данных
+              href: data-representation.md
+              items:
+                - name: Атрибуты transmit_as и represent_as
+                  href: the-transmit-as-and-represent-as-attributes.md
+                  items:
+                    - name: Атрибут transmit_as
+                      href: the-transmit-as-attribute.md
+                    - name: Функция type_to_xmit
+                      href: the-type-to-xmit-function.md
+                    - name: Функция type_from_xmit
+                      href: the-type-from-xmit-function.md
+                    - name: Функция type_free_xmit
+                      href: the-type-free-xmit-function.md
+                    - name: Функция type_free_inst
+                      href: the-type-free-inst-function.md
+                    - name: Атрибут represent_as
+                      href: the-represent-as-attribute.md
+                    - name: Функция named_type_from_local
+                      href: the-named-type-from-local-function.md
+                    - name: Функция named_type_to_local
+                      href: the-named-type-to-local-function.md
+                    - name: Функция named_type_free_local
+                      href: the-named-type-free-local-function.md
+                    - name: Функция named_type_free_inst
+                      href: the-named-type-free-inst-function.md
+                - name: Атрибуты wire_marshal и user_marshal
+                  href: the-wire-marshal-and-user-marshal-attributes.md
+                  items:
+                    - name: Атрибут wire_marshal
+                      href: the-wire-marshal-attribute.md
+                    - name: Атрибут user_marshal
+                      href: the-user-marshal-attribute.md
+                    - name: Функция type_UserSize
+                      href: the-type-usersize-function.md
+                    - name: Функция type_UserMarshal
+                      href: the-type-usermarshal-function.md
+                    - name: Функция type_UserUnmarshal
+                      href: the-type-userunmarshal-function.md
+                    - name: Функция type_UserFree
+                      href: the-type-userfree-function.md
+                    - name: Правила маршалирования для user_marshal и wire_marshal
+                      href: marshaling-rules-for-user-marshal-and-wire-marshal.md
+        - name: Массивы и указатели
+          href: arrays-and-pointers.md
+          items:
+            - name: Массивы и RPC
+              href: arrays-and-rpc.md
+              items:
+                - name: Типы массивов
+                  href: kinds-of-arrays.md
+                  items:
+                    - name: Фиксированные массивы
+                      href: fixed-arrays.md
+                    - name: Различные массивы
+                      href: varying-arrays.md
+                    - name: Согласованные массивы
+                      href: conformant-arrays.md
+                - name: Атрибуты массивов
+                  href: array-attributes.md
+                  items:
+                    - name: 'Атрибуты массива MIDL, используемые в RPC'
+                      href: midl-array-attributes-used-in-rpc.md
+                    - name: '[Size_is'
+                      href: the-size-is-attribute.md
+                    - name: '[Length_is'
+                      href: the-length-is-attribute.md
+                    - name: '[First_is'
+                      href: the-first-is-and-last-is-attributes.md
+                    - name: '[Max_is'
+                      href: the-max-is-attribute.md
+                    - name: Объединение атрибутов массива
+                      href: combining-array-attributes.md
+                    - name: '[Строка'
+                      href: the-string-attribute-in-arrays.md
+                - name: Многомерные массивы
+                  href: multidimensional-arrays.md
+            - name: Указатели и RPC
+              href: pointers-and-rpc.md
+              items:
+                - name: Виды указателей
+                  href: kinds-of-pointers.md
+                  items:
+                    - name: Ссылочные указатели
+                      href: reference-pointers.md
+                    - name: Уникальные указатели
+                      href: unique-pointers.md
+                    - name: Полные указатели
+                      href: full-pointers.md
+                - name: Указатели и выделение памяти
+                  href: pointers-and-memory-allocation.md
+                - name: Типы указателей по умолчанию
+                  href: default-pointer-types.md
+                - name: Наследование типа Pointer-Attribute
+                  href: pointer-attribute-type-inheritance.md
+            - name: 'Использование массивов, строк и указателей'
+              href: using-arrays-strings-and-pointers.md
+              items:
+                - name: Подсчет массивов символов
+                  href: counted-character-arrays.md
+                  items:
+                    - name: '[in, out, size_is'
+                      href: '-in-out-size-is-prototype.md'
+                    - name: '[in, size_is и out, size_is'
+                      href: '-in-size-is-and-out-size-is-prototype.md'
+                - name: Строки
+                  href: strings.md
+                  items:
+                    - name: '[in, out, строка'
+                      href: '-in-out-string-prototype.md'
+                    - name: '[в строке'
+                      href: '-in-string-and-out-string-prototype.md'
+                - name: Несколько уровней указателей
+                  href: multiple-levels-of-pointers.md
+        - name: Каналы
+          href: pipes.md
+          items:
+            - name: Терминология каналов
+              href: essential-pipe-terminology.md
+            - name: Состояние канала
+              href: the-pipe-state.md
+            - name: Определение каналов в IDL-файлах
+              href: defining-pipes-in-idl-files.md
+            - name: Реализация Client-Sideного канала
+              href: client-side-pipe-implementation.md
+              items:
+                - name: Реализация входных каналов на клиенте
+                  href: implementing-input-pipes-on-the-client.md
+                - name: Реализация выходных каналов на клиенте
+                  href: implementing-output-pipes-on-the-client.md
+            - name: Реализация Server-Sideного канала
+              href: server-side-pipe-implementation.md
+              items:
+                - name: Реализация входных каналов на сервере
+                  href: implementing-input-pipes-on-the-server.md
+                - name: Реализация выходных каналов на сервере
+                  href: implementing-output-pipes-on-the-server.md
+            - name: Правила для нескольких каналов
+              href: rules-for-multiple-pipes.md
+            - name: Объединение параметров pipe и неканального
+              href: combining-pipe-and-nonpipe-parameters.md
+        - name: Привязка и дескрипторы
+          href: binding-and-handles.md
+          items:
+            - name: Дескрипторы привязки
+              href: binding-handles.md
+              items:
+                - name: Типы дескрипторов привязки
+                  href: types-of-binding-handles.md
+                  items:
+                    - name: Автоматические маркеры привязки
+                      href: automatic-binding-handles.md
+                    - name: Неявные дескрипторы привязки
+                      href: implicit-binding-handles.md
+                    - name: Явные дескрипторы привязки
+                      href: explicit-binding-handles.md
+                    - name: Простые и пользовательские дескрипторы привязки
+                      href: primitive-and-custom-binding-handles.md
+                - name: Привязка на стороне клиента
+                  href: client-side-binding.md
+                  items:
+                    - name: Выбор последовательности протокола
+                      href: selecting-a-protocol-sequence.md
+                    - name: Поиск систем узлов сервера
+                      href: finding-server-host-systems.md
+                    - name: Поиск конечных точек
+                      href: finding-endpoints.md
+                - name: Привязка на стороне сервера
+                  href: server-side-binding.md
+                  items:
+                    - name: Регистрация интерфейсов
+                      href: registering-interfaces.md
+                    - name: Указание последовательностей протоколов
+                      href: specifying-protocol-sequences.md
+                    - name: Указание конечных точек
+                      href: specifying-endpoints.md
+                    - name: Реклама в интерфейсах сервера
+                      href: advertising-server-interfaces.md
+                    - name: Прослушивание удаленных вызовов процедур
+                      href: listening-for-remote-procedure-calls.md
+                - name: Полностью и частично привязанные дескрипторы
+                  href: fully-and-partially-bound-handles.md
+                - name: Анализ сведений о привязке
+                  href: interpreting-binding-information.md
+                - name: Расширения Microsoft RPC Binding-Handle
+                  href: microsoft-rpc-binding-handle-extensions.md
+                - name: Функции обработчика привязки
+                  href: binding-handle-functions.md
+                - name: База данных RPC Name-Service
+                  href: the-rpc-name-service-database.md
+                  items:
+                    - name: Name-Service рекомендации по приложениям
+                      href: name-service-application-guidelines.md
+                    - name: Обзор записи службы имен
+                      href: an-overview-of-the-name-service-entry.md
+                    - name: Критерии для записей службы имен
+                      href: criteria-for-name-service-entries.md
+                    - name: Очистка записи службы имен
+                      href: name-service-entry-cleanup.md
+                    - name: Что происходит во время запроса
+                      href: what-happens-during-a-query.md
+                    - name: Использование локатора Майкрософт
+                      href: using-microsoft-locator.md
+                    - name: Использование службы каталогов ячеек (компакт-дисков)
+                      href: using-the-cell-directory-service-cds-.md
+                    - name: Синтаксис имени
+                      href: name-syntax.md
+            - name: Дескрипторы контекста
+              href: context-handles.md
+              items:
+                - name: Разработка интерфейса с использованием дескрипторов контекста
+                  href: interface-development-using-context-handles.md
+                - name: Разработка сервера с помощью дескрипторов контекста
+                  href: server-development-using-context-handles.md
+                - name: Разработка клиентов с помощью дескрипторов контекста
+                  href: client-development-using-context-handles.md
+                - name: Подпрограммы запуска контекста сервера
+                  href: server-context-run-down-routine.md
+                - name: Сброс контекста клиента
+                  href: client-context-reset.md
+                - name: Многопоточные клиенты и дескрипторы контекста
+                  href: multithreaded-clients-and-context-handles.md
+        - name: Управление памятью
+          href: memory-management.md
+          items:
+            - name: Общие сведения об управлении памятью RPC
+              href: introduction-to-rpc-memory-management.md
+            - name: Как выделяются и освобождаются память
+              href: how-memory-is-allocated-and-deallocated.md
+              items:
+                - name: Функция midl_user_allocate
+                  href: the-midl-user-allocate-function.md
+                - name: Функция midl_user_free
+                  href: the-midl-user-free-function.md
+                - name: Пакет управления памятью RPCSS
+                  href: rpcss-memory-management-package.md
+            - name: Модели Memory-Management
+              href: memory-management-models.md
+              items:
+                - name: Распределение и освобождение узлов по узлам
+                  href: node-by-node-allocation-and-deallocation.md
+                - name: Буферы Stub-Allocated
+                  href: stub-allocated-buffers.md
+                - name: Управление памятью заглушки сервера
+                  href: server-stub-memory-management.md
+                - name: Буфер Application-Allocated
+                  href: application-allocated-buffer.md
+                - name: Постоянное хранилище на сервере
+                  href: persistent-storage-on-the-server.md
+            - name: Кто управляет памятью?
+              href: who-manages-memory-.md
+              items:
+                - name: Top-Level и внедренные указатели
+                  href: top-level-and-embedded-pointers.md
+                - name: 'Атрибуты направления, применяемые к параметру'
+                  href: directional-attributes-applied-to-the-parameter.md
+                - name: 'Атрибуты длины, размера и направления'
+                  href: length-size-and-directional-attributes.md
+                - name: 'Атрибуты указателя, применяемые к параметру'
+                  href: pointer-attributes-applied-to-the-parameter.md
+                - name: Сочетание атрибутов указателя и направления
+                  href: combining-pointer-and-directional-attributes.md
+                  items:
+                    - name: Внедренные Out-Only указатели ссылок
+                      href: embedded-out-only-reference-pointers.md
+                    - name: Out-Only параметры уникального или полного указателя не приняты
+                      href: out-only-unique-or-full-pointer-parameters-not-accepted.md
+                - name: Защита буфера МККП
+                  href: mccp-buffer-protection.md
+                - name: Возвращаемые значения функции
+                  href: function-return-values.md
+            - name: Потеря памяти
+              href: memory-orphaning.md
+            - name: Сводка правил выделения памяти
+              href: summary-of-memory-allocation-rules.md
+        - name: Службы сериализации
+          href: serialization-services.md
+          items:
+            - name: Использование служб сериализации
+              href: using-serialization-services.md
+            - name: Сериализация процедур
+              href: procedure-serialization.md
+            - name: Сериализация типов
+              href: type-serialization.md
+            - name: Дескрипторы сериализации
+              href: serialization-handles.md
+              items:
+                - name: Неявные и явные дескрипторы
+                  href: implicit-versus-explicit-handles.md
+                - name: Стили сериализации
+                  href: serialization-styles.md
+                  items:
+                    - name: Фиксированная сериализация буфера
+                      href: fixed-buffer-serialization.md
+                    - name: Динамическая сериализация буфера
+                      href: dynamic-buffer-serialization.md
+                    - name: Добавочная сериализация
+                      href: incremental-serialization.md
+                      items:
+                        - name: Примеры добавочной кодировки
+                          href: examples-of-incremental-encoding.md
+                - name: Получение удостоверения кодировки
+                  href: obtaining-an-encoding-identity.md
+        - name: Безопасность
+          href: security.md
+          items:
+            - name: Основы безопасности RPC
+              href: rpc-security-essentials.md
+              items:
+                - name: Имена участников
+                  href: principal-names.md
+                - name: Уровни проверки подлинности
+                  href: authentication-levels.md
+                - name: Службы проверки подлинности
+                  href: authentication-services.md
+                - name: Учетные данные проверки подлинности клиента
+                  href: client-authentication-credentials.md
+                - name: Службы авторизации
+                  href: authorization-services.md
+                - name: Качество обслуживания
+                  href: quality-of-service.md
+                - name: Функции авторизации
+                  href: authorization-functions.md
+                - name: Функции приобретения ключей
+                  href: key-acquisition-functions.md
+                - name: Олицетворение клиента
+                  href: client-impersonation.md
+            - name: Методы безопасности
+              href: security-methods.md
+              items:
+                - name: интерфейс поставщика поддержки безопасности (SSPI)
+                  href: security-support-provider-interface-sspi-.md
+                  items:
+                    - name: Обзор архитектуры SSPI
+                      href: sspi-architectural-overview.md
+                    - name: Поставщики поддержки безопасности (SSP)
+                      href: security-support-providers-ssps-.md
+                    - name: Написание клиента с проверкой подлинности SSPI
+                      href: writing-an-authenticated-sspi-client.md
+                    - name: Написание сервера SSPI с проверкой подлинности
+                      href: writing-an-authenticated-sspi-server.md
+                - name: Безопасность транспорта
+                  href: transport-security.md
+                  items:
+                    - name: Использование безопасности на уровне транспорта на сервере
+                      href: using-transport-level-security-on-the-server.md
+                    - name: Использование Transport-Level безопасности на клиенте
+                      href: using-transport-level-security-on-the-client.md
+        - name: Установка и настройка приложений RPC
+          href: installing-and-configuring-rpc-applications.md
+          items:
+            - name: Настройка поставщика службы имен
+              href: configuring-the-name-service-provider.md
+              items:
+                - name: Настройка службы имен
+                  href: configuring-the-name-service-for-windows-xp-windows-2000-or-windows-nt.md
+                - name: Настройка службы имен для Windows 95
+                  href: configuring-the-name-service-for-windows-95.md
+                  items:
+                    - name: Изменение реестра Windows 95
+                      href: editing-the-windows-95-registry.md
+                - name: Настройка службы имен для Windows 3. x или MS-DOS
+                  href: configuring-the-name-service-for-windows-3-x-or-ms-dos.md
+                  items:
+                    - name: Настройка поставщика службы имен локатора Майкрософт
+                      href: configuring-the-microsoft-locator-name-service-provider.md
+                    - name: Настройка поставщика Name-Serviceных компакт-дисков DCE
+                      href: configuring-the-dce-cds-name-service-provider.md
+                - name: Запуск и остановка локатора Майкрософт
+                  href: starting-and-stopping-microsoft-locator.md
+            - name: Сведения о реестре
+              href: registry-information.md
+              items:
+                - name: Настройка реестра для выделения портов и выборочной привязки
+                  href: configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding.md
+            - name: Использование RPC с прокси-сервером Winsock
+              href: using-rpc-with-winsock-proxy.md
+            - name: Установка SPX/IPX
+              href: spx-ipx-installation.md
+              items:
+                - name: Настройка RPC для SPX/IPX
+                  href: configuring-rpc-for-spx-ipx.md
+                - name: Настройка SAP и RPC
+                  href: configuring-sap-and-rpc.md
+            - name: Настройка сервера безопасности
+              href: configuring-the-security-server.md
+        - name: Асинхронный RPC
+          href: asynchronous-rpc.md
+          items:
+            - name: Асинхронное состояние вызова
+              href: asynchronous-call-state.md
+            - name: Объявление асинхронных функций
+              href: declaring-asynchronous-functions.md
+            - name: Асинхронный RPC на стороне клиента
+              href: client-side-asynchronous-rpc.md
+              items:
+                - name: Выполнение асинхронного вызова
+                  href: making-the-asynchronous-call.md
+                - name: Ожидание асинхронного ответа
+                  href: waiting-for-the-asynchronous-reply.md
+                - name: Получение асинхронного ответа
+                  href: receiving-the-asynchronous-reply.md
+            - name: Асинхронный RPC на стороне сервера
+              href: server-side-asynchronous-rpc.md
+              items:
+                - name: Обработка асинхронных вызовов
+                  href: handling-asynchronous-calls.md
+                - name: Получение отмен
+                  href: receiving-cancellations.md
+                - name: Отправка асинхронного ответа
+                  href: sending-the-asynchronous-reply.md
+                - name: Асинхронный ввод-вывод и асинхронный RPC
+                  href: asynchronous-i-o-and-asynchronous-rpc.md
+            - name: Порядок причин асинхронных вызовов
+              href: causal-ordering-of-asynchronous-calls.md
+            - name: Обработка ошибок
+              href: error-handling.md
+            - name: Асинхронный RPC по протоколу Named-Pipe
+              href: asynchronous-rpc-over-the-named-pipe-protocol.md
+            - name: Использование асинхронного RPC с каналами DCE
+              href: using-asynchronous-rpc-with-dce-pipes.md
+              items:
+                - name: Асинхронные каналы
+                  href: asynchronous-pipes.md
+                - name: Объявление асинхронных каналов
+                  href: declaring-asynchronous-pipes.md
+                - name: Асинхронная обработка канала на стороне клиента
+                  href: client-side-asynchronous-pipe-handling.md
+                - name: Обработка асинхронных каналов на стороне сервера
+                  href: server-side-asynchronous-pipe-handling.md
+                - name: Состояние асинхронного канала
+                  href: asynchronous-pipe-state.md
+            - name: Асинхронный DCOM
+              href: asynchronous-dcom.md
+        - name: Очередь сообщений RPC
+          href: rpc-message-queuing.md
+          items:
+            - name: Обзор архитектуры служб очереди сообщений
+              href: overview-of-message-queuing-services-architecture.md
+            - name: Свойства очереди сообщений и сообщений
+              href: message-and-message-queue-properties.md
+            - name: Использование MSMQ в качестве транспорта RPC
+              href: using-msmq-as-an-rpc-transport.md
+            - name: Требования к системе для приложений RPC-Message Queuing
+              href: system-requirements-for-rpc-message-queuing-applications.md
+            - name: Разработка приложений RPC-Message Queuing
+              href: developing-rpc-message-queuing-applications.md
+            - name: Службы безопасности MSMQ
+              href: msmq-security-services.md
+        - name: Удаленные вызовы процедур с помощью RPC через HTTP
+          href: remote-procedure-calls-using-rpc-over-http.md
+          items:
+            - name: Использование HTTP в качестве транспорта RPC
+              href: using-http-as-an-rpc-transport.md
+            - name: Безопасность RPC через HTTP
+              href: rpc-over-http-security.md
+            - name: 'Требования к системе для RPC по HTTP, взаимодействие'
+              href: system-requirements-and-interoperability-for-rpc-over-http.md
+            - name: Настройка компьютеров для RPC через HTTP
+              href: configuring-computers-for-rpc-over-http.md
+            - name: Рекомендации по развертыванию RPC по HTTP
+              href: rpc-over-http-deployment-recommendations.md
+        - name: Балансировка нагрузки RPC
+          href: rpc-load-balancing.md
+          items:
+            - name: Развертывание балансировки нагрузки
+              href: deploying-load-balancing.md
+            - name: Настройка балансировки нагрузки
+              href: configuring-load-balancing.md
+            - name: Рекомендации по балансировке нагрузки
+              href: load-balancing-best-practices.md
+        - name: Примеры
+          href: examples.md
+    - name: Справочник
+      href: reference.md
+      items:
+        - name: 'Типы данных RPC, структуры и константы'
+          href: rpc-data-types-structures-and-constants.md
+          items:
+            - name: Структуры RPC
+              href: rpc-structures.md
+              items:
+                - name: NDR_SCONTEXT
+                  href: /previous-versions/aa374336(v=vs.80)
+                - name: Код GUID
+                  href: /windows/win32/api/guiddef/ns-guiddef-guid
+                - name: NDR_USER_MARSHAL_INFO
+                  href: /windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info
+                - name: NDR_USER_MARSHAL_INFO_LEVEL1
+                  href: /windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info_level1
+                - name: RPC_ASYNC_NOTIFICATION_INFO
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_async_notification_info
+                - name: RPC_ASYNC_STATE
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_async_state
+                - name: RPC_BINDING_HANDLE_OPTIONS_V1
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_handle_options_v1
+                - name: RPC_BINDING_HANDLE_SECURITY_V1
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_handle_security_v1_a
+                - name: RPC_BINDING_HANDLE_TEMPLATE_V1
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_handle_template_v1_a
+                - name: RPC_BINDING_VECTOR
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_vector
+                - name: RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
+                  href: /windows/win32/api/Rpcdcep/ns-rpcdcep-rpc_c_opt_cookie_auth_descriptor
+                - name: RPC_CALL_ATTRIBUTES_V1
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_attributes_v1_a
+                - name: RPC_CALL_ATTRIBUTES_V2
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_attributes_v2_a
+                - name: RPC_CALL_LOCAL_ADDRESS_V1
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_local_address_v1
+                - name: RPC_CLIENT_INTERFACE
+                  href: /windows/win32/api/RpcdceP/ns-rpcdcep-rpc_client_interface
+                - name: RPC_DISPATCH_TABLE
+                  href: /windows/desktop/api/RpcdceP/ns-rpcdcep-rpc_dispatch_table
+                - name: RPC_EE_INFO_PARAM
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_ee_info_param
+                - name: RPC_ERROR_ENUM_HANDLE
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_error_enum_handle
+                - name: RPC_ENDPOINT_TEMPLATE
+                  href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_endpoint_template
+                - name: RPC_EXTENDED_ERROR_INFO
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_extended_error_info
+                - name: RPC_HTTP_TRANSPORT_CREDENTIALS
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_http_transport_credentials_a
+                - name: RPC_HTTP_TRANSPORT_CREDENTIALS_V2
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a
+                - name: RPC_HTTP_TRANSPORT_CREDENTIALS_V3
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_http_transport_credentials_v3_a
+                - name: RPC_IF_ID
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_if_id
+                - name: RPC_IF_ID_VECTOR
+                  href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_if_id_vector
+                - name: RPC_INTERFACE_TEMPLATE
+                  href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_interface_template
+                - name: RPC_POLICY
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_policy
+                - name: RPC_PROTSEQ_VECTOR
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_protseq_vector
+                - name: RPC_SECURITY_QOS
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos
+                - name: RPC_SECURITY_QOS_V2
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v2_a
+                - name: RPC_SECURITY_QOS_V3
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v3_a
+                - name: RPC_SECURITY_QOS_V4
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v4_a
+                - name: RPC_SECURITY_QOS_V5
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v5_a
+                - name: RPC_STATS_VECTOR
+                  href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_stats_vector
+                - name: SEC_WINNT_AUTH_IDENTITY
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a
+                - name: UUID
+                  href: ./rpcdce/ns-rpcdce-uuid.md
+                - name: UUID_VECTOR
+                  href: /windows/win32/api/rpcdce/ns-rpcdce-uuid_vector
+            - name: Перечислимые типы RPC
+              href: rpc-enumerated-types.md
+              items:
+                - name: RPC_ASYNC_EVENT
+                  href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_async_event
+                - name: RPC_NOTIFICATION_TYPES
+                  href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_notification_types
+                - name: RPC_NOTIFICATIONS
+                  href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_notifications
+                - name: рпккаллклиентлокалити
+                  href: /windows/win32/api/RpcAsync/ne-rpcasync-rpccallclientlocality
+                - name: рпккаллтипе
+                  href: /windows/win32/api/Rpcasync/ne-rpcasync-rpccalltype
+                - name: рпклокаладдрессформат
+                  href: /windows/win32/api/Rpcasync/ne-rpcasync-rpclocaladdressformat
+            - name: Другие типы RPC
+              href: other-rpc-types.md
+              items:
+                - name: RPC_AUTH_IDENTITY_HANDLE
+                  href: rpc-auth-identity-handle.md
+                - name: RPC_AUTHZ_HANDLE
+                  href: rpc-authz-handle.md
+                - name: RPC_BINDING_HANDLE
+                  href: rpc-binding-handle.md
+                - name: RPC_EP_INQ_HANDLE
+                  href: rpc-ep-inq-handle.md
+                - name: RPC_IF_HANDLE
+                  href: rpc-if-handle.md
+                - name: RPC_MGR_EPV
+                  href: rpc-mgr-epv.md
+                - name: RPC_NS_HANDLE
+                  href: rpc-ns-handle.md
+                - name: RPC_STATUS
+                  href: rpc-status.md
+                - name: Строковая привязка
+                  href: string-binding.md
+                - name: Строковый UUID
+                  href: string-uuid.md
+            - name: Константы RPC
+              href: rpc-constants.md
+              items:
+                - name: Константы уровня проверки подлинности
+                  href: authentication-level-constants.md
+                - name: Константы Authentication-Service
+                  href: authentication-service-constants.md
+                - name: Константы Authorization-Service
+                  href: authorization-service-constants.md
+                - name: Константы времени ожидания привязки
+                  href: binding-time-out-constants.md
+                - name: Константы параметров привязки
+                  href: binding-option-constants.md
+                - name: DCE_C_ERROR_STRING_LEN
+                  href: dce-c-error-string-len.md
+                - name: Флаги регистрации интерфейса
+                  href: interface-registration-flags.md
+                - name: Константы уровня защиты
+                  href: protection-level-constants.md
+                - name: Константы последовательности протоколов
+                  href: protocol-sequence-constants.md
+            - name: Возвращаемые значения RPC
+              href: rpc-return-values.md
+        - name: Справочник по функциям
+          href: function-reference.md
+          items:
+            - name: Функции RPC
+              href: rpc-functions.md
+              items:
+                - name: I_RpcBindingInqLocalClientPID
+                  href: /windows/desktop/api/Rpcdcep/nf-rpcdcep-i_rpcbindinginqlocalclientpid
+                - name: дцеерроринктекст
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-dceerrorinqtext
+                - name: месбуфферхандлересет
+                  href: /windows/desktop/api/Midles/nf-midles-mesbufferhandlereset
+                - name: месдекодебуфферхандлекреате
+                  href: /windows/desktop/api/Midles/nf-midles-mesdecodebufferhandlecreate
+                - name: месдекодеинкременталхандлекреате
+                  href: /windows/desktop/api/Midles/nf-midles-mesdecodeincrementalhandlecreate
+                - name: месенкодединбуфферхандлекреате
+                  href: /windows/desktop/api/Midles/nf-midles-mesencodedynbufferhandlecreate
+                - name: месенкодефикседбуфферхандлекреате
+                  href: /windows/desktop/api/Midles/nf-midles-mesencodefixedbufferhandlecreate
+                - name: месенкодеинкременталхандлекреате
+                  href: /windows/desktop/api/Midles/nf-midles-mesencodeincrementalhandlecreate
+                - name: мешандлефри
+                  href: /windows/desktop/api/Midles/nf-midles-meshandlefree
+                - name: месинкременталхандлересет
+                  href: /windows/desktop/api/Midles/nf-midles-mesincrementalhandlereset
+                - name: месинкпроценкодингид
+                  href: /windows/desktop/api/Midles/nf-midles-mesinqprocencodingid
+                - name: рпкабнормалтерминатион
+                  href: /previous-versions/
+                - name: рпкасинкаборткалл
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncabortcall
+                - name: рпкасинкканцелкалл
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccancelcall
+                - name: рпкасинккомплетекалл
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall
+                - name: рпкасинкжеткаллстатус
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncgetcallstatus
+                - name: рпкасинЦинитиализехандле
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncinitializehandle
+                - name: рпкасинкрегистеринфо
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncregisterinfo
+                - name: рпкбиндингбинд
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcbindingbind
+                - name: рпкбиндингкопи
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingcopy
+                - name: рпкбиндингкреате
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingcreatea
+                - name: рпкбиндингфри
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfree
+                - name: рпкбиндингфромстрингбиндинг
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding
+                - name: рпкбиндингинкаусклиент
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient
+                - name: рпкбиндингинкаусклиентекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclientex
+                - name: рпкбиндингинкаусинфо
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthinfo
+                - name: рпкбиндингинкаусинфоекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa
+                - name: рпкбиндингинкобжект
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqobject
+                - name: рпкбиндингинкоптион
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqoption
+                - name: рпкбиндингресет
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingreset
+                - name: рпкбиндингсерверфромклиент
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingserverfromclient
+                - name: рпкбиндингсетаусинфо
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo
+                - name: рпкбиндингсетаусинфоекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa
+                - name: рпкбиндингсетобжект
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetobject
+                - name: рпкбиндингсетоптион
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetoption
+                - name: рпкбиндингтострингбиндинг
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingtostringbinding
+                - name: рпкбиндингунбинд
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcbindingunbind
+                - name: рпкбиндингвекторфри
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingvectorfree
+                - name: рпкканцелсреад
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpccancelthread
+                - name: рпкканцелсреадекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpccancelthreadex
+                - name: рпкцертженератепринЦипалнаме
+                  href: /windows/desktop/api/Rpcssl/nf-rpcssl-rpccertgenerateprincipalname
+                - name: рпкдиагносиррор
+                  href: /previous-versions/aa375627(v=vs.80)
+                - name: рпцепрегистер
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcepregister
+                - name: рпцепрегистернореплаце
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcepregisternoreplace
+                - name: рпцепресолвебиндинг
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcepresolvebinding
+                - name: рпцепунрегистер
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcepunregister
+                - name: рпцеррораддрекорд
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerroraddrecord
+                - name: рпцеррорклеаринформатион
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorclearinformation
+                - name: рпцерроренденумератион
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorendenumeration
+                - name: рпцерроржетнекстрекорд
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorgetnextrecord
+                - name: рпцерроржетнумберофрекордс
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorgetnumberofrecords
+                - name: рпцеррорлоадерроринфо
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorloaderrorinfo
+                - name: рпцеррорресетенумератион
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorresetenumeration
+                - name: рпцеррорсавирроринфо
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo
+                - name: рпцеррорстартенумератион
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorstartenumeration
+                - name: рпцексцептионфилтер
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter
+                - name: рпкфриаусоризатионконтекст
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcfreeauthorizationcontext
+                - name: рпкжетаусоризатионконтекстфорклиент
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient
+                - name: рпЦифинкид
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcifinqid
+                - name: рпЦимперсонатеклиент
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient
+                - name: рпЦимперсонатеклиентконтаинер
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclientcontainer
+                - name: рпкмгмтенаблеидлеклеануп
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtenableidlecleanup
+                - name: рпкмгмтепелтинкбегин
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin
+                - name: рпЦифидвекторфри
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcifidvectorfree
+                - name: рпкмгмтепелтинкдоне
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqdone
+                - name: рпкмгмтепелтинкнекст
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqnext
+                - name: рпкмгмтепунрегистер
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepunregister
+                - name: рпкмгмтинккомтимеаут
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqcomtimeout
+                - name: рпкмгмтинкдефаултпротектлевел
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqdefaultprotectlevel
+                - name: рпкмгмтинкифидс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqifids
+                - name: рпкмгмтинксерверпринкнаме
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqserverprincname
+                - name: рпкмгмтинкстатс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqstats
+                - name: рпкмгмтиссерверлистенинг
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtisserverlistening
+                - name: рпкмгмтсетаусоризатионфн
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetauthorizationfn
+                - name: рпкмгмтсетканцелтимеаут
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetcanceltimeout
+                - name: рпкмгмтсеткомтимеаут
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout
+                - name: рпкмгмтсетсерверстакксизе
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetserverstacksize
+                - name: рпкмгмтстатсвекторфри
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree
+                - name: рпкмгмтстопсерверлистенинг
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtstopserverlistening
+                - name: рпкмгмтваитсерверлистен
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten
+                - name: рпкнетворкинкпротсекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcnetworkinqprotseqs
+                - name: рпкнетворкиспротсеквалид
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid
+                - name: рпкнсбиндинжекспорт
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingexporta
+                - name: рпкнсбиндинжекспортпнп
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingexportpnpa
+                - name: рпкнсбиндингимпортбегин
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina
+                - name: рпкнсбиндингимпортдоне
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingimportdone
+                - name: рпкнсбиндингимпортнекст
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingimportnext
+                - name: рпкнсбиндингинкентринаме
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcnsbindinginqentryname
+                - name: рпкнсбиндинглукупбегин
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina
+                - name: рпкнсбиндинглукупдоне
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupdone
+                - name: рпкнсбиндинглукупнекст
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext
+                - name: рпкнсбиндингселект
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingselect
+                - name: рпкнсбиндингунекспорт
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingunexporta
+                - name: рпкнсбиндингунекспортпнп
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingunexportpnpa
+                - name: рпкнсентрекспанднаме
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsentryexpandnamea
+                - name: рпкнсентрйобжектинкбегин
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina
+                - name: рпкнсентрйобжектинкдоне
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsentryobjectinqdone
+                - name: рпкнсентрйобжектинкнекст
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsentryobjectinqnext
+                - name: рпкнсграупделете
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupdeletea
+                - name: рпкнсграупмбрадд
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupmbradda
+                - name: рпкнсграупмбринкбегин
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina
+                - name: рпкнсграупмбринкдоне
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone
+                - name: рпкнсграупмбринкнекст
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta
+                - name: рпкнсграупмбрремове
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupmbrremovea
+                - name: рпкнсмгмтбиндингунекспорт
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtbindingunexporta
+                - name: рпкнсмгмтентрикреате
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea
+                - name: рпкнсмгмтентриделете
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtentrydeletea
+                - name: рпкнсмгмтентринкифидс
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtentryinqifidsa
+                - name: рпкнсмгмсандлесетекспаже
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmthandlesetexpage
+                - name: рпкнсмгмтинкекспаже
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtinqexpage
+                - name: рпкнсмгмтсетекспаже
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtsetexpage
+                - name: рпкнспрофиледелете
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofiledeletea
+                - name: рпкнспрофилилтадд
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofileeltadda
+                - name: рпкнспрофилилтинкбегин
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofileeltinqbegina
+                - name: рпкнспрофилилтинкдоне
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofileeltinqdone
+                - name: рпкнспрофилилтинкнекст
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta
+                - name: рпкнспрофилилтремове
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofileeltremovea
+                - name: рпкобжектинктипе
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcobjectinqtype
+                - name: рпкобжектсетинкфн
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcobjectsetinqfn
+                - name: рпкобжектсеттипе
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcobjectsettype
+                - name: рпкпротсеквекторфри
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcprotseqvectorfree
+                - name: рпкраисиксцептион
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcraiseexception
+                - name: рпкревертконтаинеримперсонатион
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcrevertcontainerimpersonation
+                - name: рпкреверттоселф
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcreverttoself
+                - name: рпкреверттоселфекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcreverttoselfex
+                - name: рпксерверкомплетесекуритикаллбакк
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcservercompletesecuritycallback
+                - name: рпксерверинкбиндингхандле
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqbindinghandle
+                - name: рпксерверинкбиндингс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqbindings
+                - name: рпксерверинккаллаттрибутес
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcserverinqcallattributesa
+                - name: рпксерверинкдефаултпринкнаме
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqdefaultprincname
+                - name: рпксерверинкиф
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqif
+                - name: рпксерверинтерфацеграупактивате
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate
+                - name: рпксерверинтерфацеграупклосе
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinterfacegroupclose
+                - name: рпксерверинтерфацеграупкреате
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate
+                - name: рпксерверинтерфацеграупдеактивате
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinterfacegroupdeactivate
+                - name: рпксерверинтерфацеграупинкбиндингс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings
+                - name: рпксерверлистен
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverlisten
+                - name: рпксерверрегистераусинфо
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterauthinfo
+                - name: рпксерверрегистериф
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif
+                - name: RpcServerRegisterIf2
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif2
+                - name: RpcServerRegisterIf3
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif3
+                - name: рпксерверрегистерифекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterifex
+                - name: рпксерверсубскрибефорнотификатион
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcserversubscribefornotification
+                - name: рпксервертестканцел
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcservertestcancel
+                - name: рпксерверунрегистериф
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverunregisterif
+                - name: рпксерверунрегистерифекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverunregisterifex
+                - name: рпксерверунсубскрибефорнотификатион
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcserverunsubscribefornotification
+                - name: рпксерверусеаллпротсекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs
+                - name: рпксерверусеаллпротсексекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqsex
+                - name: рпксерверусеаллпротсексиф
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqsif
+                - name: рпксерверусеаллпротсексифекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex
+                - name: рпксерверусепротсек
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseq
+                - name: рпксерверусепротсекекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqex
+                - name: рпксерверусепротсекеп
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqep
+                - name: рпксерверусепротсекепекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex
+                - name: рпксерверусепротсекиф
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqif
+                - name: рпксерверусепротсекифекс
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqifex
+                - name: рпксмаллокате
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmallocate
+                - name: рпксмклиентфри
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmclientfree
+                - name: рпксмдестройклиентконтекст
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmdestroyclientcontext
+                - name: рпксмдисаблеаллокате
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmdisableallocate
+                - name: рпксменаблеаллокате
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmenableallocate
+                - name: рпксмфри
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmfree
+                - name: рпксмжетсреадхандле
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmgetthreadhandle
+                - name: рпксмсетклиенталлокфри
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmsetclientallocfree
+                - name: рпксмсетсреадхандле
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmsetthreadhandle
+                - name: рпксмсвапклиенталлокфри
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmswapclientallocfree
+                - name: рпкссаллокате
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssallocate
+                - name: рпкссконтекстлоккексклусиве
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcsscontextlockexclusive
+                - name: рпкссконтекстлоккшаред
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcsscontextlockshared
+                - name: рпкссдестройклиентконтекст
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdestroyclientcontext
+                - name: рпкссдисаблеаллокате
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdisableallocate
+                - name: рпкссдонтсериализеконтекст
+                  href: /previous-versions/aa378473(v=vs.80)
+                - name: рпкссенаблеаллокате
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssenableallocate
+                - name: рпкссфри
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssfree
+                - name: рпкссжетсреадхандле
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssgetthreadhandle
+                - name: рпксссетклиенталлокфри
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsssetclientallocfree
+                - name: рпксссетсреадхандле
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsssetthreadhandle
+                - name: рпксссвапклиенталлокфри
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssswapclientallocfree
+                - name: рпкстрингбиндингкомпосе
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringbindingcompose
+                - name: рпкстрингбиндингпарсе
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringbindingparse
+                - name: рпкстрингфри
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringfree
+                - name: рпктестканцел
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpctestcancel
+                - name: рпкусерфри
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcuserfree
+                - name: ууидкомпаре
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidcompare
+                - name: ууидкреате
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidcreate
+                - name: ууидкреатенил
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidcreatenil
+                - name: UuidCreateSequential
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidcreatesequential
+                - name: ууидекуал
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidequal
+                - name: ууидфромстринг
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidfromstring
+                - name: ууидхаш
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidhash
+                - name: ууидиснил
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidisnil
+                - name: ууидтостринг
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidtostring
+            - name: Функции обратного вызова и уведомления RPC
+              href: rpc-callback-and-notification-functions.md
+              items:
+                - name: RPC_AUTH_KEY_RETRIEVAL_FN
+                  href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_auth_key_retrieval_fn
+                - name: RPC_IF_CALLBACK_FN
+                  href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_if_callback_fn
+                - name: RPC_MGMT_AUTHORIZATION_FN
+                  href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_mgmt_authorization_fn
+                - name: RPC_OBJECT_INQ_FN
+                  href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_object_inq_fn
+                - name: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
+                  href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_interface_group_idle_callback_fn
+                - name: RPCNOTIFICATION_ROUTINE
+                  href: /previous-versions/aa375808(v=vs.80)
+        - name: Макросы RPC
+          href: rpc-macros.md
+          items:
+            - name: Переносимые макросы
+              href: portability-macros.md
+            - name: рпкасинкжеткаллхандле
+              href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncgetcallhandle
+            - name: рпцендексцепт
+              href: /previous-versions/aa375629(v=vs.80)
+            - name: рпцендфиналли
+              href: /previous-versions/aa375634(v=vs.80)
+            - name: рпцексцепт
+              href: /windows/desktop/api/Rpc/nf-rpc-rpcexcept
+            - name: рпцексцептионкоде
+              href: /previous-versions/aa375695(v=vs.80)
+            - name: рпкфиналли
+              href: /previous-versions/aa375699(v=vs.80)
+            - name: рпктрексцепт
+              href: rpctryexcept.md
+            - name: рпктрифиналли
+              href: rpctryfinally.md
+    - name: Подсистема доставки оповещений RPC
+      href: rpc-ndr-engine.md
+      items:
+        - name: Синтаксис и NDR64 для перемещения
+          href: transfer-syntax-and-ndr64.md
+        - name: Строки формата NDR для RPC
+          href: rpc-ndr-format-strings.md
+          items:
+            - name: Строки формата
+              href: format-strings.md
+            - name: Строки формата процедур
+              href: procedure-format-strings.md
+            - name: Дескриптор заголовка процедуры
+              href: procedure-header-descriptor.md
+            - name: Маркеры
+              href: handles.md
+            - name: Заголовок
+              href: the-header.md
+            - name: Дескрипторы параметров
+              href: parameter-descriptors.md
+            - name: Строки формата типов
+              href: type-format-strings.md
+              items:
+                - name: Простые типы
+                  href: simple-types-tfs.md
+                - name: Указатели
+                  href: pointers-tfs.md
+                - name: Массивы
+                  href: arrays-tfs.md
+                - name: Строки
+                  href: strings-tfs.md
+                - name: Дескрипторы корреляции
+                  href: correlation-descriptors-tfs.md
+                - name: Структуры
+                  href: structures-tfs.md
+                - name: Макет указателя
+                  href: pointer-layout-tfs.md
+                - name: Объединения
+                  href: unions-tfs.md
+                - name: Transmit_as и Represent_as
+                  href: transmit-as-and-represent-as-tfs.md
+                - name: Пользовательская упаковка
+                  href: user-marshal-tfs.md
+        - name: Справочник по интерфейсу NDR для RPC
+          href: rpc-ndr-interface-reference.md
+          items:
+            - name: CStdAsyncStubBuffer_AddRef
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_addref
+            - name: CStdAsyncStubBuffer_Connect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_connect
+            - name: CStdAsyncStubBuffer_Disconnect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_disconnect
+            - name: CStdAsyncStubBuffer_Invoke
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_invoke
+            - name: CStdAsyncStubBuffer_QueryInterface
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_queryinterface
+            - name: CStdAsyncStubBuffer_Release
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_release
+            - name: CStdAsyncStubBuffer2_Connect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_connect
+            - name: CStdAsyncStubBuffer2_Disconnect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_disconnect
+            - name: CStdAsyncStubBuffer2_Release
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_release
+            - name: CStdStubBuffer_AddRef
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_addref
+            - name: CStdStubBuffer_Connect
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_connect
+            - name: CStdStubBuffer_CountRefs
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_countrefs
+            - name: CStdStubBuffer_DebugServerQueryInterface
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverqueryinterface
+            - name: CStdStubBuffer_DebugServerRelease
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverrelease
+            - name: CStdStubBuffer_Disconnect
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_disconnect
+            - name: CStdStubBuffer_Invoke
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_invoke
+            - name: CStdStubBuffer_IsIIDSupported
+              href: /windows/desktop/api/RpcProxy/nf-rpcproxy-cstdstubbuffer_isiidsupported
+            - name: CStdStubBuffer_QueryInterface
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_queryinterface
+            - name: CStdStubBuffer2_Connect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_connect
+            - name: CStdStubBuffer2_CountRefs
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_countrefs
+            - name: CStdStubBuffer2_Disconnect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_disconnect
+            - name: CStdStubBuffer2_QueryInterface
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_queryinterface
+            - name: IUnknown_AddRef_Proxy
+              href: /windows/desktop/api/unknwnbase/nf-unknwnbase-iunknown_addref_proxy
+            - name: IUnknown_QueryInterface_Proxy
+              href: /windows/desktop/api/unknwnbase/nf-unknwnbase-iunknown_queryinterface_proxy
+            - name: IUnknown_Release_Proxy
+              href: /windows/desktop/api/unknwnbase/nf-unknwnbase-iunknown_release_proxy
+            - name: ндрасинкклиенткалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrasyncclientcall
+            - name: NdrAsyncClientCall2
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrasyncclientcall2
+            - name: ндрасинксерверкалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrasyncservercall
+            - name: ндрклеараутпараметерс
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrclearoutparameters
+            - name: ндрклиенткалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrclientcall
+            - name: NdrClientCall2
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrclientcall2
+            - name: NdrClientCall3
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrclientcall3
+            - name: NdrClientCall4
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrclientcall4
+            - name: ндрконформантаррайунмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantarrayunmarshall
+            - name: ндрконформантстрингбуфферсизе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantstringbuffersize
+            - name: ндрконформантстрингмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantstringmarshall
+            - name: ндрконформантстрингунмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantstringunmarshall
+            - name: ндрконтекссандлеинитиализе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcontexthandleinitialize
+            - name: ндрконтекссандлесизе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcontexthandlesize
+            - name: ндрконтекссандлемеморисизе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcontexthandlememorysize
+            - name: ндрконверт
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconvert
+            - name: NdrCStdStubBuffer_Release
+              href: /previous-versions/aa374242(v=vs.80)
+            - name: NdrCStdStubBuffer2_Release
+              href: /previous-versions/aa374240(v=vs.80)
+            - name: ндрдкомасинкклиенткалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrdcomasyncclientcall
+            - name: NdrDcomAsyncClientCall2
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrdcomasyncclientcall2
+            - name: ндрдллканунлоаднов
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllcanunloadnow
+            - name: ндрдллжетклассобжект
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllgetclassobject
+            - name: ндрдллрегистерпрокси
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllregisterproxy
+            - name: ндрдллунрегистерпрокси
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllunregisterproxy
+            - name: ндржетусермаршалинфо
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrgetusermarshalinfo
+            - name: ндринтерфацепоинтербуфферсизе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrinterfacepointerbuffersize
+            - name: ндринтерфацепоинтерфри
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrinterfacepointerfree
+            - name: ндринтерфацепоинтермаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrinterfacepointermarshall
+            - name: ндринтерфацепоинтерунмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrinterfacepointerunmarshall
+            - name: NdrMesProcEncodeDecode2
+              href: /windows/desktop/api/midles/nf-midles-ndrmesprocencodedecode2
+            - name: NdrMesProcEncodeDecode4
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrmesprocencodedecode4
+            - name: ндролеаллокате
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndroleallocate
+            - name: ндролефри
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrolefree
+            - name: ндрпоинтербуфферсизе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrpointerbuffersize
+            - name: ндрпоинтерфри
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrpointerfree
+            - name: ндрпоинтермаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrpointermarshall
+            - name: ндрпоинтерунмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrpointerunmarshall
+            - name: ндрпроксеррорхандлер
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrproxyerrorhandler
+            - name: ндрпроксифрибуффер
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrproxyfreebuffer
+            - name: ндрпроксижетбуффер
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrproxygetbuffer
+            - name: ндрпроксинитиализе
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrproxyinitialize
+            - name: ндрпроксисендрецеиве
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrproxysendreceive
+            - name: ндрсерверкаллалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrservercallall
+            - name: NdrServerCall2
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrservercall2
+            - name: ндрсимплетипемаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrsimpletypemarshall
+            - name: ндрсимплетипеунмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrsimpletypeunmarshall
+            - name: Ndr64AsyncClientCall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndr64asyncclientcall
+            - name: Ndr64AsyncServerCallAll
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndr64asyncservercallall
+            - name: NdrStubCall2
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrstubcall2
+            - name: NdrStubCall3
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrstubcall3
+            - name: ндрстубфорвардингфунктион
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrstubforwardingfunction
+            - name: ндрстубжетбуффер
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrstubgetbuffer
+            - name: ндрстубинитиализе
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrstubinitialize
+            - name: ндрусермаршалбуфферсизе
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalbuffersize
+            - name: ндрусермаршалфри
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalfree
+            - name: ндрусермаршалмаршалл
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalmarshall
+            - name: MIDL_STUB_DESC
+              href: /windows/win32/api/Rpcndr/ns-rpcndr-midl_stub_desc
+            - name: MIDL_STUB_MESSAGE
+              href: /windows/win32/api/Rpcndr/ns-rpcndr-midl_stub_message
+            - name: проксифилеинфо
+              href: /windows/win32/api/Rpcproxy/ns-rpcproxy-proxyfileinfo
+            - name: RPC_MESSAGE
+              href: /windows/win32/api/RpcdceP/ns-rpcdcep-rpc_message
+    - name: Глоссарий
+      href: glossary.md
+      items:
+        - name: Объект
+          href: a-glos.md
+        - name: B
+          href: b-glos.md
+        - name: C
+          href: c-glos.md
+        - name: D
+          href: d-glos.md
+        - name: E
+          href: e-glos.md
+        - name: C
+          href: f-glos.md
+        - name: I
+          href: i-glos.md
+        - name: L
+          href: l-glos.md
+        - name: M
+          href: m-glos.md
+        - name: Нет
+          href: n-glos.md
+        - name: O
+          href: o-glos.md
+        - name: P
+          href: p-glos.md
+        - name: Q
+          href: q.md
+        - name: R
+          href: r-glos.md
+        - name: S
+          href: s-glos.md
+        - name: T
+          href: t-glos.md
+        - name: U
+          href: u-glos.md
+        - name: V
+          href: v-glos.md
+        - name: W
+          href: w-glos.md

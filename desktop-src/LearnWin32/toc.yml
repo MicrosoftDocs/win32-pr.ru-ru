@@ -1,0 +1,119 @@
+- name: Get Started with Win32 and C++ (Приступая к работе с Win32 и C++)
+  href: learn-to-program-for-windows.md
+  items:
+    - name: Введение в программирование Win32 на C++
+      items:
+        - name: Обзор
+          href: introduction-to-windows-programming-in-c--.md
+        - name: Подготовка среды разработки
+          href: prepare-your-development-environment.md
+        - name: Соглашения о написании кода Windows
+          href: windows-coding-conventions.md
+        - name: Работа со строками
+          href: working-with-strings.md
+        - name: Что такое окно?
+          href: what-is-a-window-.md
+        - name: 'WinMain: точка входа приложения'
+          href: winmain--the-application-entry-point.md
+    - name: Модуль 1. Ваша первая программа Windows
+      items:
+        - name: Обзор
+          href: your-first-windows-program.md
+        - name: Создание окна
+          href: creating-a-window.md
+        - name: Сообщения окна
+          href: window-messages.md
+        - name: Написание процедуры окна
+          href: writing-the-window-procedure.md
+        - name: Рисование окна
+          href: painting-the-window.md
+        - name: Закрытие окна
+          href: closing-the-window.md
+        - name: Управление состоянием приложения
+          href: managing-application-state-.md
+    - name: Модуль 2. Использование COM в программе Windows
+      items:
+        - name: Обзор
+          href: module-2--using-com-in-your-windows-program.md
+        - name: Что такое COM-интерфейс?
+          href: what-is-a-com-interface-.md
+        - name: Инициализация библиотеки COM
+          href: initializing-the-com-library.md
+        - name: Коды ошибок в COM
+          href: error-codes-in-com.md
+        - name: Создание объекта в COM
+          href: creating-an-object-in-com.md
+        - name: Пример. диалоговое окно "Открыть"
+          href: example--the-open-dialog-box.md
+        - name: Управление жизненным циклом объекта
+          href: managing-the-lifetime-of-an-object.md
+        - name: Запрос объекта для интерфейса
+          href: asking-an-object-for-an-interface.md
+        - name: Выделение памяти в COM
+          href: memory-allocation-in-com.md
+        - name: Методики программирования COM
+          href: com-coding-practices.md
+        - name: Обработка ошибок в COM
+          href: error-handling-in-com.md
+    - name: Модуль 3. Графика Windows
+      items:
+        - name: Обзор
+          href: module-3---windows-graphics.md
+        - name: Обзор архитектуры графики Windows
+          href: overview-of-the-windows-graphics-architecture.md
+        - name: диспетчер окон рабочего стола
+          href: the-desktop-window-manager.md
+        - name: Режим сохраняемости и режим интерпретации
+          href: retained-mode-versus-immediate-mode.md
+        - name: Первая программа Direct2D
+          href: your-first-direct2d-program.md
+        - name: 'Отрисовка целевых объектов, устройств и ресурсов'
+          href: render-targets--devices--and-resources.md
+        - name: Рисование с использованием Direct2D
+          href: drawing-with-direct2d.md
+        - name: DPI и Device-Independent пикселей
+          href: dpi-and-device-independent-pixels.md
+        - name: Использование цвета в Direct2D
+          href: using-color-in-direct2d.md
+        - name: Применение преобразований в Direct2D
+          href: applying-transforms-in-direct2d.md
+        - name: Приложение. преобразования матрицы
+          href: appendix--matrix-transforms.md
+    - name: Модуль 4. Ввод данных пользователем
+      items:
+        - name: Обзор
+          href: module-4--user-input.md
+        - name: Ввод с помощью мыши
+          href: mouse-input.md
+        - name: Реагирование на щелчки мыши
+          href: mouse-clicks.md
+        - name: Перемещение мыши
+          href: mouse-movement.md
+        - name: Различные операции мыши
+          href: other-mouse-operations.md
+        - name: Ввод с клавиатуры
+          href: keyboard-input.md
+        - name: Таблицы сочетаний клавиш
+          href: accelerator-tables.md
+        - name: Установка изображения курсора
+          href: setting-the-cursor-image.md
+        - name: 'Ввод данных пользователем: Расширенный пример'
+          href: user-input--extended-example.md
+    - name: 'Начало работы с Win32: пример кода'
+      items:
+        - name: Обзор
+          href: learn-to-program-for-windows--sample-code.md
+        - name: Пример Hello World Windows
+          href: windows-hello-world-sample.md
+        - name: Пример Басевиндов
+          href: basewindow-sample.md
+        - name: Открыть образец диалогового окна
+          href: open-dialog-box-sample.md
+        - name: Пример Direct2D Circle
+          href: direct2d-circle-sample.md
+        - name: Пример Direct2D Clock
+          href: direct2d-clock-sample.md
+        - name: Пример рисования круга
+          href: draw-circle-sample.md
+        - name: Простой пример рисования
+          href: simple-drawing-sample.md

@@ -1,0 +1,40 @@
+- name: Поставщик WMI сборщика событий загрузки
+  href: boot-event-collector-wmi-provider-portal.md
+  items:
+    - name: таржетфорвардинг
+      href: targetforwarding.md
+    - name: таржетфорвардингдестинатион
+      href: targetforwardingdestination.md
+    - name: таржетфорвардингхистори
+      href: targetforwardinghistory.md
+    - name: Control
+      href: control.md
+      items:
+        - name: Метод Checkpoint
+          href: control-checkpoint.md
+        - name: Метод Думпдиагностикс
+          href: control-dumpdiagnostics.md
+        - name: Метод Фастшутдовн
+          href: control-fastshutdown.md
+        - name: Метод Flush
+          href: control-flush.md
+        - name: Метод GetConfiguration
+          href: control-getconfiguration.md
+        - name: Метод Исконфигуратионекуал
+          href: control-isconfigurationequal.md
+        - name: Метод Листбаккупс
+          href: control-listbackups.md
+        - name: Метод Redo
+          href: control-redo.md
+        - name: Метод RestoreFile
+          href: control-restorefile.md
+        - name: Метод Ресторефромтиме
+          href: control-restorefromtime.md
+        - name: Метод Сетконфигуратион
+          href: control-setconfiguration.md
+        - name: Shutdown - метод
+          href: control-shutdown.md
+        - name: Undo - метод
+          href: control-undo.md
+        - name: Метод Валидатеконфигуратион
+          href: control-validateconfiguration.md

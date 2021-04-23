@@ -1,0 +1,26 @@
+---
+description: Вы не можете использовать функции резервного копирования и восстановления Certadm.dll для резервного копирования закрытых ключей служб сертификатов.
+ms.assetid: 27ee8caa-8f5e-46dc-b55d-afde5471507e
+title: Резервное копирование и восстановление закрытого ключа служб сертификатов
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 891794f36e87b2aa4b6a5d5c8dde55304da20601
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105662443"
+---
+# <a name="backing-up-and-restoring-the-certificate-services-private-key"></a><span data-ttu-id="9fd00-103">Резервное копирование и восстановление закрытого ключа служб сертификатов</span><span class="sxs-lookup"><span data-stu-id="9fd00-103">Backing Up and Restoring the Certificate Services Private Key</span></span>
+
+<span data-ttu-id="9fd00-104">Вы не можете использовать функции резервного копирования и восстановления Certadm.dll для резервного копирования [*закрытых ключей*](../secgloss/p-gly.md)служб сертификатов.</span><span class="sxs-lookup"><span data-stu-id="9fd00-104">You cannot use the Certadm.dll's backup and restore functions to back up the Certificate Services [*private keys*](../secgloss/p-gly.md).</span></span> <span data-ttu-id="9fd00-105">Эти функции не поддерживают резервное копирование закрытых ключей, так как эти функции предназначены для резервного копирования и восстановления базы данных служб сертификатов (и связанных файлов), и эта база данных не содержит закрытых ключей (даже для самостоятельно выданных сертификатов).</span><span class="sxs-lookup"><span data-stu-id="9fd00-105">Private keys cannot be backed up by these functions because these functions are intended to backup and restore the Certificate Services database (and related files), and this database does not contain any private keys (even for self-issued certificates).</span></span>
+
+<span data-ttu-id="9fd00-106">Чтобы создать резервную копию закрытого ключа служб сертификатов, используйте оснастку MMC "центр сертификации" или команду certutil (с параметром-Backup или-баккупкэй).</span><span class="sxs-lookup"><span data-stu-id="9fd00-106">To back up a Certificate Services private key, use the Certification Authority MMC snap-in, or the certutil command (with -backup or -backupkey specified).</span></span> <span data-ttu-id="9fd00-107">Резервное копирование закрытого ключа с помощью оснастки MMC центра сертификации или certutil приводит к записанию закрытого ключа в файл PKCS \# 12.</span><span class="sxs-lookup"><span data-stu-id="9fd00-107">Backing up the private key with the Certification Authority MMC snap-in or certutil results in the private key being written to PKCS \#12 file.</span></span> <span data-ttu-id="9fd00-108">Несмотря на то \# , что этот файл PKCS 12 защищен паролем, он должен считаться чрезвычайно конфиденциальным и должен быть безопасно сохранен. пароль к \# файлу PKCS 12 также должен быть защищен от неавторизованных пользователей.</span><span class="sxs-lookup"><span data-stu-id="9fd00-108">Even though this PKCS \#12 file is password-protected, it should be considered extremely sensitive and must be stored securely; the password to the PKCS \#12 file should also be guarded from unauthorized persons.</span></span>
+
+<span data-ttu-id="9fd00-109">Аналогичным образом закрытые ключи не могут быть восстановлены функциями резервного копирования и восстановления служб сертификатов.</span><span class="sxs-lookup"><span data-stu-id="9fd00-109">Similarly, private keys cannot be restored by the Certificate Services backup and restore functions.</span></span> <span data-ttu-id="9fd00-110">Ключ резервного копирования служб сертификатов, содержащийся в \# файле PKCS 12, можно восстановить с помощью оснастки MMC центра сертификации или команды certutil (с указанием команд-Restore или-ресторекэй). Обратите внимание, что пользователю, выполняющему операцию восстановления, потребуется знать пароль для файла PKCS \# 12.</span><span class="sxs-lookup"><span data-stu-id="9fd00-110">A Certificate Services backup key contained in a PKCS \#12 file can be restored by the Certification Authority MMC snap-in, or by the certutil command (specifying the -restore or -restorekey verbs); note that the person performing the restore operation will need to know the password for the PKCS \#12 file.</span></span>
+
+<span data-ttu-id="9fd00-111">Существует только два случая, когда необходимо создать резервную копию закрытого ключа служб сертификатов.</span><span class="sxs-lookup"><span data-stu-id="9fd00-111">There are only two cases in which a Certificate Services private key must be backed up.</span></span> <span data-ttu-id="9fd00-112">Первый случай — после установки служб сертификатов.</span><span class="sxs-lookup"><span data-stu-id="9fd00-112">The first case is after the installation of Certificate Services.</span></span> <span data-ttu-id="9fd00-113">Второй случай — после любой операции продления сертификата служб сертификатов.</span><span class="sxs-lookup"><span data-stu-id="9fd00-113">The second case is after any renewal operation of the Certificate Services certificate.</span></span>
+
+ 
+
+ 

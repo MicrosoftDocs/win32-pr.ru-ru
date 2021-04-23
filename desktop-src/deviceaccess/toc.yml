@@ -1,0 +1,63 @@
+- name: API доступа к устройству
+  href: device-access-broker-api-portal.md
+  items:
+    - name: Сведения об API доступа к устройствам
+      href: about-the-device-access-api.md
+    - name: Как использовать API доступа к устройствам
+      href: using-the-device-access-api.md
+      items:
+        - name: Рекомендации по проектированию для пользовательских устройств
+          href: design.md
+        - name: Реализация объекта доступа к устройству
+          href: create-the-device-access-object.md
+        - name: Объявление возможностей устройства
+          href: declaring-the-device-capability.md
+        - name: Зарегистрируйте интерфейс устройства как ограниченные для привилегированных приложений
+          href: register-the-device-interface-class-as-privileged.md
+        - name: Создание расширения среда выполнения Windows
+          href: create-a-windows-runtime-extension.md
+    - name: Справочник по программированию API доступа к устройствам C++
+      href: device-access-api-c---programming-reference.md
+      items:
+        - name: Функции
+          href: functions.md
+          items:
+            - name: креатедевицеакцессинстанце
+              href: /windows/win32/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance
+        - name: Интерфейсы COM
+          href: com-interfaces.md
+          items:
+            - name: икреатедевицеакцессасинк
+              href: /windows/win32/api/Deviceaccess/nn-deviceaccess-icreatedeviceaccessasync
+              items:
+                - name: Метод Cancel
+                  href: /windows/win32/api/Deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-cancel
+                - name: Метод Wait
+                  href: /windows/win32/api/Deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-wait
+                - name: Метод Close
+                  href: /windows/win32/api/Deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-close
+                - name: Метод GetResult
+                  href: /windows/win32/api/Deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-getresult
+            - name: идевицеиоконтрол
+              href: /windows/win32/api/Deviceaccess/nn-deviceaccess-ideviceiocontrol
+              items:
+                - name: Метод Девицеиоконтролсинк
+                  href: /windows/win32/api/Deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolsync
+                - name: Метод Девицеиоконтроласинк
+                  href: /windows/win32/api/Deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync
+                - name: Метод Канцелоператион
+                  href: /windows/win32/api/Deviceaccess/nf-deviceaccess-ideviceiocontrol-canceloperation
+            - name: идевицерекуесткомплетионкаллбакк
+              href: /windows/win32/api/Deviceaccess/nn-deviceaccess-idevicerequestcompletioncallback
+              items:
+                - name: Метод Рекуесткомплетион
+                  href: /windows/win32/api/deviceaccess/nf-deviceaccess-idevicerequestcompletioncallback-requestcompletion
+    - name: Глоссарий доступа к устройствам
+      href: deviceaccess-glossary.md
+    - name: Other APIs
+      href: other-apis.md
+      items:
+        - name: Метод Девицеинтерфацеклассакцессчекквискаллингсреад
+          href: ideviceaccesspolicycheck-deviceinterfaceclassaccesscheckwithcallingthread.md
+        - name: Метод Опендевицефроминтерфацепас
+          href: idevicebroker-opendevicefrominterfacepath.md

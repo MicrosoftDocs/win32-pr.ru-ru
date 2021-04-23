@@ -1,0 +1,35 @@
+---
+description: '\_Пользовательские константы языкового стандарта \*'
+ms.assetid: a41a7f55-8905-47a1-86c3-74ed40b3834c
+title: Константы LOCALE_CUSTOM *
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: fe4e02cc672241fd609a5eda975c0e9e13d29908
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "105682410"
+---
+# <a name="locale_custom-constants"></a><span data-ttu-id="a07a5-103">\_Пользовательские константы языкового стандарта \*</span><span class="sxs-lookup"><span data-stu-id="a07a5-103">LOCALE\_CUSTOM\* Constants</span></span>
+
+<span data-ttu-id="a07a5-104">В этом разделе определяются \_ пользовательские константы языкового стандарта, \* используемые NLS для представления [пользовательских языковых стандартов](custom-locales.md).</span><span class="sxs-lookup"><span data-stu-id="a07a5-104">This topic defines the LOCALE\_CUSTOM\* constants used by NLS to represent [custom locales](custom-locales.md).</span></span>
+
+
+
+| <span data-ttu-id="a07a5-105">Значение</span><span class="sxs-lookup"><span data-stu-id="a07a5-105">Value</span></span>                       | <span data-ttu-id="a07a5-106">Значение</span><span class="sxs-lookup"><span data-stu-id="a07a5-106">Meaning</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="a07a5-107">Пользовательский ЯЗЫКовой стандарт \_ \_ по умолчанию</span><span class="sxs-lookup"><span data-stu-id="a07a5-107">LOCALE\_CUSTOM\_DEFAULT</span></span>     | <span data-ttu-id="a07a5-108">**Windows Vista и более поздние версии:** Пользовательский языковой стандарт по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="a07a5-108">**Windows Vista and later:** The default custom locale.</span></span> <span data-ttu-id="a07a5-109">Если функция NLS должна возвращать код локали для [дополнительного языкового стандарта](custom-locales.md) для текущего пользователя, функция возвращает это значение вместо [локали \_ пользователя \_ по умолчанию](locale-user-default.md).</span><span class="sxs-lookup"><span data-stu-id="a07a5-109">When an NLS function must return a locale identifier for a [supplemental locale](custom-locales.md) for the current user, the function returns this value instead of [LOCALE\_USER\_DEFAULT](locale-user-default.md).</span></span> <span data-ttu-id="a07a5-110">Значение настраиваемого языкового стандарта \_ \_ по умолчанию — 0x0c00.</span><span class="sxs-lookup"><span data-stu-id="a07a5-110">The value of LOCALE\_CUSTOM\_DEFAULT is 0x0C00.</span></span>                                                                                                                                                                  |
+| <span data-ttu-id="a07a5-111">Пользовательский пользовательский интерфейс языкового стандарта \_ \_ \_ по умолчанию</span><span class="sxs-lookup"><span data-stu-id="a07a5-111">LOCALE\_CUSTOM\_UI\_DEFAULT</span></span> | <span data-ttu-id="a07a5-112">**Windows Vista и более поздние версии:** Пользовательский языковой стандарт по умолчанию для MUI.</span><span class="sxs-lookup"><span data-stu-id="a07a5-112">**Windows Vista and later:** The default custom locale for MUI.</span></span> <span data-ttu-id="a07a5-113">Предпочитаемые пользователем языки интерфейса пользователя и системные языки пользовательского интерфейса могут включать не более одного языка, реализованного пакетом интерфейса пользователя (LIP), для которого идентификатор языка соответствует дополнительному языковому стандарту.</span><span class="sxs-lookup"><span data-stu-id="a07a5-113">The user preferred UI languages and the system preferred UI languages can include at most a single language that is implemented by a Language Interface Pack (LIP) and for which the language identifier corresponds to a supplemental locale.</span></span> <span data-ttu-id="a07a5-114">Если в списке есть такой язык, константа используется для ссылки на этот язык в определенных контекстах.</span><span class="sxs-lookup"><span data-stu-id="a07a5-114">If there is such a language in a list, the constant is used to refer to that language in certain contexts.</span></span> <span data-ttu-id="a07a5-115">Значение \_ настраиваемого \_ пользовательского интерфейса \_ по УМОЛЧАНИю для локали — 0x1400.</span><span class="sxs-lookup"><span data-stu-id="a07a5-115">The value of LOCALE\_CUSTOM\_UI\_DEFAULT is 0x1400.</span></span>                    |
+| <span data-ttu-id="a07a5-116">Пользовательский ЯЗЫКовой стандарт не \_ \_ указан</span><span class="sxs-lookup"><span data-stu-id="a07a5-116">LOCALE\_CUSTOM\_UNSPECIFIED</span></span> | <span data-ttu-id="a07a5-117">**Windows Vista и более поздние версии:** Неуказанный пользовательский языковой стандарт, используемый для указания всех дополнительных языковых стандартов, кроме локали текущего пользователя.</span><span class="sxs-lookup"><span data-stu-id="a07a5-117">**Windows Vista and later:** An unspecified custom locale, used to identify all supplemental locales except the locale for the current user.</span></span> <span data-ttu-id="a07a5-118">Дополнительные языковые стандарты не могут отличаться друг от друга их идентификаторами локали, но их можно отличать по [именам языковых](locale-names.md)стандартов.</span><span class="sxs-lookup"><span data-stu-id="a07a5-118">Supplemental locales cannot be distinguished from one another by their locale identifiers, but can be distinguished by their [locale names](locale-names.md).</span></span> <span data-ttu-id="a07a5-119">Некоторые функции NLS могут возвращать эту константу, чтобы указать, что они не могут предоставить полезный идентификатор для определенного языкового стандарта.</span><span class="sxs-lookup"><span data-stu-id="a07a5-119">Certain NLS functions can return this constant to indicate that they cannot provide a useful identifier for a particular locale.</span></span> <span data-ttu-id="a07a5-120">Значение пользовательского ЯЗЫКового \_ стандарта \_ не указано — 0x1000.</span><span class="sxs-lookup"><span data-stu-id="a07a5-120">The value of LOCALE\_CUSTOM\_UNSPECIFIED is 0x1000.</span></span> |
+
+
+
+ 
+
+ 
+
+ 
+
+
+

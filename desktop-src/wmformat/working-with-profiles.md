@@ -1,0 +1,75 @@
+---
+title: Работа с профилями
+description: Работа с профилями
+ms.assetid: e1e31632-0db7-47db-a992-f5db9d8824c1
+keywords:
+- Windows Media Format SDK, профили
+- Windows Media Format SDK, интерфейс IWMCodecInfo3
+- профили, сведения
+- профили, Windows Media Format SDK
+- профили, IWMCodecInfo3
+- IWMCodecInfo3, о программе
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 664bbafd6c628588aa3b45b0a62a216db7bd7749
+ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "104412513"
+---
+# <a name="working-with-profiles"></a><span data-ttu-id="6830f-109">Работа с профилями</span><span class="sxs-lookup"><span data-stu-id="6830f-109">Working with Profiles</span></span>
+
+<span data-ttu-id="6830f-110">В этом разделе описывается разработка, создание и изменение профилей.</span><span class="sxs-lookup"><span data-stu-id="6830f-110">This section describes how to design, create, and modify profiles.</span></span> <span data-ttu-id="6830f-111">Каждый профиль описывает потоки, которые будут создавать файл и их связи друг с другом.</span><span class="sxs-lookup"><span data-stu-id="6830f-111">Each profile describes the streams that will make up a file and their relationships with each other.</span></span> <span data-ttu-id="6830f-112">Объект профиля содержит сведения о конфигурации потока для каждого потока, сведения об взаимоисключениях для потоков, которые не могут быть доставлены одновременно, сведения о совместном использовании пропускной способности и сведения о приоритизации потоков.</span><span class="sxs-lookup"><span data-stu-id="6830f-112">A profile object contains stream configuration information for each stream, mutual exclusion information for streams that cannot be delivered simultaneously, bandwidth sharing information, and stream prioritization information.</span></span>
+
+<span data-ttu-id="6830f-113">Основной целью профилей является предоставление сведений о конфигурации потока объекту модуля записи.</span><span class="sxs-lookup"><span data-stu-id="6830f-113">The main purpose of profiles is to provide stream configuration information to the writer object.</span></span> <span data-ttu-id="6830f-114">Модуль записи использует информацию в профиле для координации с кодеками процесса сжатия входных данных.</span><span class="sxs-lookup"><span data-stu-id="6830f-114">The writer uses the information in a profile to coordinate with the codecs the process of compressing inputs.</span></span> <span data-ttu-id="6830f-115">При настройке сжатого потока мультимедиа указывается кодек, используемый для сжатия данных, и параметры, используемые кодеком.</span><span class="sxs-lookup"><span data-stu-id="6830f-115">When you configure a compressed media stream, you specify the codec used to compress the data and the settings the codec uses.</span></span> <span data-ttu-id="6830f-116">Кроме того, можно создавать профили для несжатых потоков.</span><span class="sxs-lookup"><span data-stu-id="6830f-116">You can also create profiles for uncompressed streams.</span></span> <span data-ttu-id="6830f-117">Поддерживается несколько типов потоков без сжатия.</span><span class="sxs-lookup"><span data-stu-id="6830f-117">Several uncompressed stream types are supported.</span></span> <span data-ttu-id="6830f-118">Несмотря на то, что они не нуждаются в коде, эти типы имеют собственные требования к конфигурации потока.</span><span class="sxs-lookup"><span data-stu-id="6830f-118">Even though they do not require a codec, these types have their own requirements for stream configuration.</span></span> <span data-ttu-id="6830f-119">Дополнительные сведения см. в статьях [Настройка потоков](configuring-streams.md) и [Использование несжатых аудио и видеопотоков](using-uncompressed-audio-and-video-streams.md).</span><span class="sxs-lookup"><span data-stu-id="6830f-119">For more information, see [Configuring Streams](configuring-streams.md) and [Using Uncompressed Audio and Video Streams](using-uncompressed-audio-and-video-streams.md).</span></span>
+
+<span data-ttu-id="6830f-120">Сведения о конфигурации потока для потока с помощью одного из кодеков Windows Media необходимо получить из кодека с помощью методов интерфейса [**IWMCodecInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3) .</span><span class="sxs-lookup"><span data-stu-id="6830f-120">Stream configuration information for a stream using one of the Windows Media codecs must be obtained from the codec by using the methods of the [**IWMCodecInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3) interface.</span></span> <span data-ttu-id="6830f-121">Процедура использования форматов потоков отличается для видеокодеков, чем для аудиокодеков, но в обоих случаях необходимо начать с получения формата из кодека.</span><span class="sxs-lookup"><span data-stu-id="6830f-121">The procedure for using stream formats is different for video codecs than it is for audio codecs, but in both cases you must begin by obtaining the format from the codec.</span></span> <span data-ttu-id="6830f-122">Никогда не следует пытаться вручную настраивать поток с помощью одного из кодеков Windows Media, так как небольшие ошибки в профиле могут иметь более значительные последствия для ASF-файла.</span><span class="sxs-lookup"><span data-stu-id="6830f-122">You should never try to manually configure a stream using one of the Windows Media codecs, because small errors in the profile can have a profound effect on the ASF file.</span></span>
+
+<span data-ttu-id="6830f-123">Основные этапы создания и/или изменения профилей:</span><span class="sxs-lookup"><span data-stu-id="6830f-123">The basic steps in creating and/or modifying profiles are:</span></span>
+
+1.  <span data-ttu-id="6830f-124">Создайте пустой профиль или загрузите существующий профиль для изменения.</span><span class="sxs-lookup"><span data-stu-id="6830f-124">Create an empty profile, or load an existing profile to edit.</span></span>
+2.  <span data-ttu-id="6830f-125">Настройте каждый из потоков (при необходимости) на основе поддерживаемых данных профиля, полученных из кодека, который будет использоваться для кодирования потока.</span><span class="sxs-lookup"><span data-stu-id="6830f-125">Configure each of the streams, if required, based on supported profile data retrieved from the codec that will be used to encode the stream.</span></span>
+3.  <span data-ttu-id="6830f-126">При необходимости настройте взаимное исключение.</span><span class="sxs-lookup"><span data-stu-id="6830f-126">Configure mutual exclusion, if needed.</span></span>
+4.  <span data-ttu-id="6830f-127">При необходимости настройте общий доступ к пропускной способности.</span><span class="sxs-lookup"><span data-stu-id="6830f-127">Configure bandwidth sharing, if needed.</span></span>
+5.  <span data-ttu-id="6830f-128">При необходимости задайте приоритет потоков в файле.</span><span class="sxs-lookup"><span data-stu-id="6830f-128">Set the priority of the streams in the file, if required.</span></span>
+
+<span data-ttu-id="6830f-129">В следующих разделах описывается процесс создания и изменения профилей.</span><span class="sxs-lookup"><span data-stu-id="6830f-129">The following sections explain the process of creating and editing profiles.</span></span>
+
+
+
+| <span data-ttu-id="6830f-130">Section</span><span class="sxs-lookup"><span data-stu-id="6830f-130">Section</span></span>                                                        | <span data-ttu-id="6830f-131">Описание</span><span class="sxs-lookup"><span data-stu-id="6830f-131">Description</span></span>                                                                                        |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="6830f-132">Проектирование профилей</span><span class="sxs-lookup"><span data-stu-id="6830f-132">Designing Profiles</span></span>](designing-profiles.md)                   | <span data-ttu-id="6830f-133">Описывает создание профиля.</span><span class="sxs-lookup"><span data-stu-id="6830f-133">Describes how to design a profile.</span></span>                                                                 |
+| [<span data-ttu-id="6830f-134">Создание профилей</span><span class="sxs-lookup"><span data-stu-id="6830f-134">Creating Profiles</span></span>](creating-profiles.md)                     | <span data-ttu-id="6830f-135">Описывает создание пустого профиля.</span><span class="sxs-lookup"><span data-stu-id="6830f-135">Describes how to create an empty profile.</span></span>                                                          |
+| [<span data-ttu-id="6830f-136">Настройка потоков</span><span class="sxs-lookup"><span data-stu-id="6830f-136">Configuring Streams</span></span>](configuring-streams.md)                 | <span data-ttu-id="6830f-137">Описывает настройку потоков и их включение в профиль.</span><span class="sxs-lookup"><span data-stu-id="6830f-137">Describes how to configure streams and include them in a profile.</span></span>                                  |
+| [<span data-ttu-id="6830f-138">Использование взаимного исключения</span><span class="sxs-lookup"><span data-stu-id="6830f-138">Using Mutual Exclusion</span></span>](using-mutual-exclusion.md)           | <span data-ttu-id="6830f-139">Описывает создание взаимоисключающих объектов и их включение в профиль.</span><span class="sxs-lookup"><span data-stu-id="6830f-139">Describes how to create mutual exclusion objects and include them in a profile.</span></span>                    |
+| [<span data-ttu-id="6830f-140">Совместное использование пропускной способности</span><span class="sxs-lookup"><span data-stu-id="6830f-140">Using Bandwidth Sharing</span></span>](using-bandwidth-sharing.md)         | <span data-ttu-id="6830f-141">Описание использования совместного использования пропускной способности в профиле.</span><span class="sxs-lookup"><span data-stu-id="6830f-141">Describes how to use bandwidth sharing in a profile.</span></span>                                               |
+| [<span data-ttu-id="6830f-142">Использование определения приоритетов потоков</span><span class="sxs-lookup"><span data-stu-id="6830f-142">Using Stream Prioritization</span></span>](using-stream-prioritization.md) | <span data-ttu-id="6830f-143">Описывает использование определения приоритетов потоков в профиле.</span><span class="sxs-lookup"><span data-stu-id="6830f-143">Describes how to use stream prioritization in a profile.</span></span>                                           |
+| [<span data-ttu-id="6830f-144">Сохранение профилей</span><span class="sxs-lookup"><span data-stu-id="6830f-144">Saving Profiles</span></span>](saving-profiles.md)                         | <span data-ttu-id="6830f-145">Описание процесса сохранения пользовательских профилей в файл.</span><span class="sxs-lookup"><span data-stu-id="6830f-145">Describes how to save your custom profiles to a file.</span></span>                                              |
+| [<span data-ttu-id="6830f-146">Использование системных профилей</span><span class="sxs-lookup"><span data-stu-id="6830f-146">Using System Profiles</span></span>](using-system-profiles.md)             | <span data-ttu-id="6830f-147">Описание работы с системными профилями для экономии времени и усилий при создании профилей.</span><span class="sxs-lookup"><span data-stu-id="6830f-147">Describes how to work with system profiles to save time and effort in creating profiles.</span></span>           |
+| [<span data-ttu-id="6830f-148">Управление размером пакетов</span><span class="sxs-lookup"><span data-stu-id="6830f-148">Managing Packet Size</span></span>](managing-packet-size.md)               | <span data-ttu-id="6830f-149">Описывает, как управлять размером пакетов в потоках данных файлов, выполняемых с помощью профиля.</span><span class="sxs-lookup"><span data-stu-id="6830f-149">Discusses how to control the size of packets in the data streams of files made using your profile.</span></span> |
+
+
+
+ 
+
+<span data-ttu-id="6830f-150">**Примечание** . Пользователи предыдущих версий пакета SDK Windows Media Format могут привыкли использовать системные профили без изменения для создания файлов.</span><span class="sxs-lookup"><span data-stu-id="6830f-150">**Note** Users of previous versions of the Windows Media Format SDK may be accustomed to using system profiles without modification to create their files.</span></span> <span data-ttu-id="6830f-151">Пакет SDK для Windows Media Format 9 Series или более поздней версии не включает новые системные профили, использующие кодеки Windows Media 9 или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="6830f-151">The Windows Media Format 9 Series SDK or later does not include any new system profiles that use the Windows Media 9 Series or later codecs.</span></span> <span data-ttu-id="6830f-152">Это обусловлено тем, что из-за увеличения количества профилей, которые были бы необходимы для охвата различных функций, которые теперь предлагаются кодеками.</span><span class="sxs-lookup"><span data-stu-id="6830f-152">This is because of the increasing number of profiles that would be needed to cover the various features now offered by the codecs.</span></span> <span data-ttu-id="6830f-153">Вы по-прежнему можете использовать системные профили версии 8 в качестве начального расположения для профилей.</span><span class="sxs-lookup"><span data-stu-id="6830f-153">You can still use the version 8 system profiles as a starting place for your profiles.</span></span> <span data-ttu-id="6830f-154">Дополнительные сведения см. [в разделе Использование системных профилей](using-system-profiles.md).</span><span class="sxs-lookup"><span data-stu-id="6830f-154">For more information see [Using System Profiles](using-system-profiles.md).</span></span> <span data-ttu-id="6830f-155">Сведения о новом механизме назначения профилей для конкретных устройств доставки см. в разделе [Работа с шаблонами соответствия устройств](working-with-device-conformance-templates.md).</span><span class="sxs-lookup"><span data-stu-id="6830f-155">For information about the new mechanism for targeting profiles to specific delivery devices, see [Working with Device Conformance Templates](working-with-device-conformance-templates.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="6830f-156">См. также</span><span class="sxs-lookup"><span data-stu-id="6830f-156">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="6830f-157">**Функции файлов ASF**</span><span class="sxs-lookup"><span data-stu-id="6830f-157">**ASF File Features**</span></span>](asf-file-features.md)
+</dt> <dt>
+
+[<span data-ttu-id="6830f-158">**Инструкции по программированию**</span><span class="sxs-lookup"><span data-stu-id="6830f-158">**Programming Guide**</span></span>](programming-guide.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

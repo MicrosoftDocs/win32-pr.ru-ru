@@ -1,0 +1,80 @@
+---
+title: Сведения об элементах управления "индикатор выполнения"
+description: Индикатор выполнения — это окно, которое приложение может использовать для указания хода выполнения длительной операции. Он состоит из прямоугольника, который анимируется как ход выполнения операции.
+ms.assetid: 1db7a5c9-71cd-4ebc-86b8-8159f30348fa
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f00c80b1f9e97cec1657fe979a19437f607251b8
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "103793987"
+---
+# <a name="about-progress-bar-controls"></a><span data-ttu-id="9886b-104">Сведения об элементах управления "индикатор выполнения"</span><span class="sxs-lookup"><span data-stu-id="9886b-104">About Progress Bar Controls</span></span>
+
+<span data-ttu-id="9886b-105">Индикатор выполнения — это окно, которое приложение может использовать для указания хода выполнения длительной операции.</span><span class="sxs-lookup"><span data-stu-id="9886b-105">A progress bar is a window that an application can use to indicate the progress of a lengthy operation.</span></span>
+
+<span data-ttu-id="9886b-106">Он состоит из прямоугольника, который анимируется как ход выполнения операции.</span><span class="sxs-lookup"><span data-stu-id="9886b-106">It consists of a rectangle that is animated as an operation progresses.</span></span>
+
+<span data-ttu-id="9886b-107">На следующем рисунке показан индикатор выполнения, в котором не используются стили оформления.</span><span class="sxs-lookup"><span data-stu-id="9886b-107">The following illustration shows a progress bar that does not use visual styles.</span></span>
+
+![снимок экрана индикатора выполнения, добавляющего прямоугольники в линии для обозначения хода выполнения](images/pb-oldstyle.png)
+
+<span data-ttu-id="9886b-109">На следующем рисунке показан индикатор выполнения с использованием стилей оформления.</span><span class="sxs-lookup"><span data-stu-id="9886b-109">The following illustration shows a progress bar using visual styles.</span></span> <span data-ttu-id="9886b-110">Внешний вид элемента управления будет зависеть от операционной системы и выбранной темы.</span><span class="sxs-lookup"><span data-stu-id="9886b-110">The appearance of the control will vary depending on the operating system and the selected theme.</span></span> <span data-ttu-id="9886b-111">Дополнительные сведения см. в разделе [стили визуальных элементов](themes-overview.md).</span><span class="sxs-lookup"><span data-stu-id="9886b-111">For more information, see [Visual Styles](themes-overview.md).</span></span>
+
+![снимок экрана индикатора выполнения, который позволяет увеличить анимированный зеленый прямоугольник для индикации хода выполнения](images/pb-newstyle.png)
+
+<span data-ttu-id="9886b-113">Дополнительные сведения содержатся в следующих заголовках.</span><span class="sxs-lookup"><span data-stu-id="9886b-113">More information is contained under the following headings.</span></span>
+
+-   [<span data-ttu-id="9886b-114">Использование индикаторов выполнения</span><span class="sxs-lookup"><span data-stu-id="9886b-114">Using Progress Bars</span></span>](#using-progress-bars)
+    -   [<span data-ttu-id="9886b-115">Диапазон и текущее расположение</span><span class="sxs-lookup"><span data-stu-id="9886b-115">Range and Current Position</span></span>](#range-and-current-position)
+    -   [<span data-ttu-id="9886b-116">Обработка сообщений индикатора выполнения по умолчанию</span><span class="sxs-lookup"><span data-stu-id="9886b-116">Default Progress Bar Message Processing</span></span>](#default-progress-bar-message-processing)
+    -   [<span data-ttu-id="9886b-117">Стиль бегущей строки</span><span class="sxs-lookup"><span data-stu-id="9886b-117">Marquee Style</span></span>](#marquee-style)
+
+## <a name="using-progress-bars"></a><span data-ttu-id="9886b-118">Использование индикаторов выполнения</span><span class="sxs-lookup"><span data-stu-id="9886b-118">Using Progress Bars</span></span>
+
+<span data-ttu-id="9886b-119">Вы можете создать индикатор выполнения с помощью функции [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , указав класс окна [**Progress. \_**](common-control-window-classes.md)</span><span class="sxs-lookup"><span data-stu-id="9886b-119">You can create a progress bar by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the [**PROGRESS\_CLASS**](common-control-window-classes.md) window class.</span></span> <span data-ttu-id="9886b-120">Этот класс окна регистрируется при загрузке библиотеки DLL общих элементов управления.</span><span class="sxs-lookup"><span data-stu-id="9886b-120">This window class is registered when the common controls DLL is loaded.</span></span> <span data-ttu-id="9886b-121">Дополнительные сведения см. в разделе [Общие элементы управления](common-controls-intro.md).</span><span class="sxs-lookup"><span data-stu-id="9886b-121">For more information, see [About Common Controls](common-controls-intro.md).</span></span>
+
+<span data-ttu-id="9886b-122">Элемент управления также доступен на панели элементов Microsoft Visual Studio, где он называется элементом управления хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="9886b-122">The control is also available in the Microsoft Visual Studio Toolbox, where it is called Progress Control.</span></span>
+
+### <a name="range-and-current-position"></a><span data-ttu-id="9886b-123">Диапазон и текущее расположение</span><span class="sxs-lookup"><span data-stu-id="9886b-123">Range and Current Position</span></span>
+
+<span data-ttu-id="9886b-124">*Диапазон* индикатора выполнения представляет всю длительность операции, а *Текущая координата* представляет ход выполнения, выполняемый приложением для завершения операции.</span><span class="sxs-lookup"><span data-stu-id="9886b-124">A progress bar's *range* represents the entire duration of the operation, and the *current position* represents the progress that the application has made toward completing the operation.</span></span> <span data-ttu-id="9886b-125">В процедуре окна используется диапазон и текущая координата для определения процента индикатора выполнения для заполнения цветом выделения.</span><span class="sxs-lookup"><span data-stu-id="9886b-125">The window procedure uses the range and the current position to determine the percentage of the progress bar to fill with the highlight color.</span></span>
+
+<span data-ttu-id="9886b-126">Если значения в диапазоне не заданы, система устанавливает минимальное значение 0, а максимальное значение — 100.</span><span class="sxs-lookup"><span data-stu-id="9886b-126">If you do not set the range values, the system sets the minimum value to 0 and the maximum value to 100.</span></span> <span data-ttu-id="9886b-127">Можно настроить диапазон для использования удобных целых чисел с помощью сообщения " [**PBM \_ SETRANGE**](pbm-setrange.md) ".</span><span class="sxs-lookup"><span data-stu-id="9886b-127">You can adjust the range to convenient integers by using the [**PBM\_SETRANGE**](pbm-setrange.md) message.</span></span>
+
+<span data-ttu-id="9886b-128">Индикатор выполнения предоставляет несколько сообщений, которые можно использовать для задания текущей должности.</span><span class="sxs-lookup"><span data-stu-id="9886b-128">A progress bar provides several messages that you can use to set the current position.</span></span> <span data-ttu-id="9886b-129">В сообщении [**PBM \_ сетпос**](pbm-setpos.md) устанавливается расположение с заданным значением.</span><span class="sxs-lookup"><span data-stu-id="9886b-129">The [**PBM\_SETPOS**](pbm-setpos.md) message sets the position to a given value.</span></span> <span data-ttu-id="9886b-130">Сообщение [**\_ делтапос PBM**](pbm-deltapos.md) перемещает позицию, добавляя указанное значение в текущую позицию.</span><span class="sxs-lookup"><span data-stu-id="9886b-130">The [**PBM\_DELTAPOS**](pbm-deltapos.md) message advances the position by adding a specified value to the current position.</span></span>
+
+<span data-ttu-id="9886b-131">Сообщение [**\_ сетстеп PBM**](pbm-setstep.md) позволяет указать шаг шага для индикатора выполнения.</span><span class="sxs-lookup"><span data-stu-id="9886b-131">The [**PBM\_SETSTEP**](pbm-setstep.md) message allows you to specify a step increment for a progress bar.</span></span> <span data-ttu-id="9886b-132">Впоследствии при отправке сообщения [**\_ степит**](pbm-stepit.md) в индикатор выполнения текущая позицию увеличивается на указанное приращение.</span><span class="sxs-lookup"><span data-stu-id="9886b-132">Subsequently, whenever you send the [**PBM\_STEPIT**](pbm-stepit.md) message to the progress bar, the current position advances by the specified increment.</span></span> <span data-ttu-id="9886b-133">По умолчанию шаг с шагом равен 10.</span><span class="sxs-lookup"><span data-stu-id="9886b-133">By default, the step increment is set to 10.</span></span>
+
+### <a name="default-progress-bar-message-processing"></a><span data-ttu-id="9886b-134">Обработка сообщений индикатора выполнения по умолчанию</span><span class="sxs-lookup"><span data-stu-id="9886b-134">Default Progress Bar Message Processing</span></span>
+
+<span data-ttu-id="9886b-135">В этом разделе описываются сообщения, обрабатываемые процедурой окна для [**класса \_ класса Progress**](common-control-window-classes.md) .</span><span class="sxs-lookup"><span data-stu-id="9886b-135">This section describes the messages handled by the window procedure for the [**PROGRESS\_CLASS**](common-control-window-classes.md) class.</span></span>
+
+
+
+| <span data-ttu-id="9886b-136">Сообщение</span><span class="sxs-lookup"><span data-stu-id="9886b-136">Message</span></span>            | <span data-ttu-id="9886b-137">Обработка выполнена</span><span class="sxs-lookup"><span data-stu-id="9886b-137">Processing performed</span></span>                                                                                                                                                               |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="9886b-138">**\_Создание WM**</span><span class="sxs-lookup"><span data-stu-id="9886b-138">**WM\_CREATE**</span></span>     | <span data-ttu-id="9886b-139">Выделяет и инициализирует начальную структуру.</span><span class="sxs-lookup"><span data-stu-id="9886b-139">Allocates and initializes an initial structure.</span></span>                                                                                                                                    |
+| <span data-ttu-id="9886b-140">**WM \_ destroy**</span><span class="sxs-lookup"><span data-stu-id="9886b-140">**WM\_DESTROY**</span></span>    | <span data-ttu-id="9886b-141">Освобождает все ресурсы, связанные с индикатором выполнения.</span><span class="sxs-lookup"><span data-stu-id="9886b-141">Frees all resources associated with the progress bar.</span></span>                                                                                                                              |
+| <span data-ttu-id="9886b-142">**WM \_ ерасебкгнд**</span><span class="sxs-lookup"><span data-stu-id="9886b-142">**WM\_ERASEBKGND**</span></span> | <span data-ttu-id="9886b-143">Рисует фон и границы индикатора выполнения.</span><span class="sxs-lookup"><span data-stu-id="9886b-143">Draws the background and borders of the progress bar.</span></span>                                                                                                                              |
+| <span data-ttu-id="9886b-144">**WM, \_ Шрифт**</span><span class="sxs-lookup"><span data-stu-id="9886b-144">**WM\_GETFONT**</span></span>    | <span data-ttu-id="9886b-145">Возвращает маркер текущего шрифта.</span><span class="sxs-lookup"><span data-stu-id="9886b-145">Returns the handle to the current font.</span></span> <span data-ttu-id="9886b-146">Сейчас индикатор выполнения не рисует текст, поэтому отправка этого сообщения не влияет на элемент управления.</span><span class="sxs-lookup"><span data-stu-id="9886b-146">The progress bar does not currently draw text, so sending this message has no effect on the control.</span></span>                                       |
+| <span data-ttu-id="9886b-147">**WM \_ Paint**</span><span class="sxs-lookup"><span data-stu-id="9886b-147">**WM\_PAINT**</span></span>      | <span data-ttu-id="9886b-148">Рисует индикатор выполнения.</span><span class="sxs-lookup"><span data-stu-id="9886b-148">Draws the progress bar.</span></span> <span data-ttu-id="9886b-149">Если параметр *wParam* не равен **null**, то элемент управления предполагает, что значение является HDC и рисует его с помощью контекста устройства.</span><span class="sxs-lookup"><span data-stu-id="9886b-149">If the *wParam* parameter is non-**NULL**, the control assumes that the value is an HDC and paints using that device context.</span></span>                              |
+| <span data-ttu-id="9886b-150">**WM \_ сетфонт**</span><span class="sxs-lookup"><span data-stu-id="9886b-150">**WM\_SETFONT**</span></span>    | <span data-ttu-id="9886b-151">Сохраняет маркер в новый шрифт и возвращает его предыдущий шрифт.</span><span class="sxs-lookup"><span data-stu-id="9886b-151">Saves the handle to the new font and returns the handle to the previous font.</span></span> <span data-ttu-id="9886b-152">Сейчас индикатор выполнения не рисует текст, поэтому отправка этого сообщения не влияет на элемент управления.</span><span class="sxs-lookup"><span data-stu-id="9886b-152">The progress bar does not currently draw text, so sending this message has no effect on the control.</span></span> |
+
+
+
+ 
+
+### <a name="marquee-style"></a><span data-ttu-id="9886b-153">Стиль бегущей строки</span><span class="sxs-lookup"><span data-stu-id="9886b-153">Marquee Style</span></span>
+
+<span data-ttu-id="9886b-154">Создав элемент управления "индикатор выполнения" с стилем [**\_ области PBS**](progress-bar-control-styles.md) , можно анимировать его таким образом, чтобы он выводит действие, но не указывает, какая часть задачи завершена.</span><span class="sxs-lookup"><span data-stu-id="9886b-154">By creating the progress bar control with the [**PBS\_MARQUEE**](progress-bar-control-styles.md) style, you can animate it in a way that shows activity but does not indicate what proportion of the task is complete.</span></span> <span data-ttu-id="9886b-155">Выделенная часть индикатора выполнения перемещается повторно по длине полосы.</span><span class="sxs-lookup"><span data-stu-id="9886b-155">The highlighted part of the progress bar moves repeatedly along the length of the bar.</span></span> <span data-ttu-id="9886b-156">Можно запускать и прекращать анимацию, а также управлять скоростью, отправляя сообщение [**PBM \_ сетмаркуи**](pbm-setmarquee.md) .</span><span class="sxs-lookup"><span data-stu-id="9886b-156">You can start and stop the animation, and control its speed, by sending the [**PBM\_SETMARQUEE**](pbm-setmarquee.md) message.</span></span> <span data-ttu-id="9886b-157">У полос хода выполнения области нет диапазона или расположения.</span><span class="sxs-lookup"><span data-stu-id="9886b-157">Marquee progress bars do not have a range or position.</span></span>
+
+<span data-ttu-id="9886b-158">На следующем рисунке показан индикатор выполнения в режиме бегущей строки.</span><span class="sxs-lookup"><span data-stu-id="9886b-158">The following illustration shows a progress bar in marquee mode.</span></span> <span data-ttu-id="9886b-159">Выделенная часть перемещается по полосе.</span><span class="sxs-lookup"><span data-stu-id="9886b-159">The highlighted part moves across the bar.</span></span>
+
+![снимок экрана индикатора выполнения, который перемещает зеленое выделение через серый прямоугольник для обозначения хода выполнения](images/pb-marquee.png)
+
+ 
+
+ 

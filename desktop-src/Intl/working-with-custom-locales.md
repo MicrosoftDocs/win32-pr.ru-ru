@@ -1,0 +1,72 @@
+---
+description: В этом разделе приведены некоторые инструкции по обработке пользовательских языковых стандартов в приложениях.
+ms.assetid: 2622e2b3-b952-4666-a440-85d73d11c5e0
+title: Работа с пользовательскими языками
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 1ab0e59446496ae2985860c0fd6b1bd5bddde084
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103991409"
+---
+# <a name="working-with-custom-locales"></a><span data-ttu-id="7b38c-103">Работа с пользовательскими языками</span><span class="sxs-lookup"><span data-stu-id="7b38c-103">Working with Custom Locales</span></span>
+
+<span data-ttu-id="7b38c-104">В этом разделе приведены некоторые инструкции по обработке [пользовательских языковых стандартов](custom-locales.md) в приложениях.</span><span class="sxs-lookup"><span data-stu-id="7b38c-104">This topic provides some instructions for handling [custom locales](custom-locales.md) in your applications.</span></span> <span data-ttu-id="7b38c-105">Лучше подготовить весь исходный код с учетом этих соображений, так как приложение не контролирует, установлены ли в операционной системе пользовательские языковые стандарты.</span><span class="sxs-lookup"><span data-stu-id="7b38c-105">It is best to prepare all your source code with these considerations in mind, as your application does not control whether custom locales are installed on the operating system.</span></span>
+
+## <a name="handle-locale_stime-constant-correctly"></a><span data-ttu-id="7b38c-106">Правильно обработайте \_ константу СТИМЕ языкового стандарта</span><span class="sxs-lookup"><span data-stu-id="7b38c-106">Handle LOCALE\_STIME Constant Correctly</span></span>
+
+<span data-ttu-id="7b38c-107">Если имеется более старое приложение, использующее [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) для получения устаревшего разделителя времени, указанного в параметре [locale \_ стиме](locale-stime-constants.md), приложение может не выполнить синтаксический анализ формата времени.</span><span class="sxs-lookup"><span data-stu-id="7b38c-107">If you have an older application that uses [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) to obtain the obsolete time separator indicated by [LOCALE\_STIME](locale-stime-constants.md), the application can fail to parse the time format.</span></span> <span data-ttu-id="7b38c-108">Помните, что символ, разделяющий часы от минут, отличается от символа, который отделяет минуты от секунд.</span><span class="sxs-lookup"><span data-stu-id="7b38c-108">Remember that the character that separates hours from minutes is distinct from the character that separates minutes from seconds.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="7b38c-109">При программировании для пользовательских языковых стандартов Помните, что они являются необычными.</span><span class="sxs-lookup"><span data-stu-id="7b38c-109">When programming for custom locales, remember that they are unusual.</span></span> <span data-ttu-id="7b38c-110">Практически все поля, доступные для NLS, имеют необычное поведение.</span><span class="sxs-lookup"><span data-stu-id="7b38c-110">Virtually every field available to NLS has to cope with unusual behavior.</span></span> <span data-ttu-id="7b38c-111">Например, формат времени 12H34 "12" является легальным и, как правило, понятным.</span><span class="sxs-lookup"><span data-stu-id="7b38c-111">For example, the time format 12H34'12'' is legitimate and generally understandable.</span></span> <span data-ttu-id="7b38c-112">Но многие приложения делают предположения относительно разделителей времени, которые могут нарушить длину буфера или отобразить поля.</span><span class="sxs-lookup"><span data-stu-id="7b38c-112">Yet many applications make assumptions about the time separators that can break buffer lengths or display fields.</span></span>
+
+ 
+
+## <a name="distinguish-among-supplemental-locales"></a><span data-ttu-id="7b38c-113">Различия между дополнительными языками</span><span class="sxs-lookup"><span data-stu-id="7b38c-113">Distinguish Among Supplemental Locales</span></span>
+
+<span data-ttu-id="7b38c-114">Все дополнительные языковые стандарты используют [ \_ настраиваемую \_ неопределенную константу локали](locale-custom-constants.md) для [идентификатора локали](locale-identifiers.md).</span><span class="sxs-lookup"><span data-stu-id="7b38c-114">All supplemental locales use the [LOCALE\_CUSTOM\_UNSPECIFIED](locale-custom-constants.md) constant for the [locale identifier](locale-identifiers.md).</span></span> <span data-ttu-id="7b38c-115">Как правило, [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) не может различать дополнительные языковые стандарты, но [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) может использовать вместо идентификаторов языкового стандарта [имена языковых](locale-names.md) стандартов.</span><span class="sxs-lookup"><span data-stu-id="7b38c-115">As a rule, [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) cannot distinguish among supplemental locales, but [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) can because it uses [locale names](locale-names.md) instead of locale identifiers.</span></span> <span data-ttu-id="7b38c-116">Приложение может получать сведения о конкретном дополнительном языковом стандарте только в том случае, если выбран языковой стандарт пользователя.</span><span class="sxs-lookup"><span data-stu-id="7b38c-116">Your application can retrieve information about a particular supplemental locale only when that locale is the currently selected user locale.</span></span> <span data-ttu-id="7b38c-117">Затем приложение может вызвать [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) и передать значение [ \_ \_ по умолчанию для пользователя постоянной национальной настройки](locale-user-default.md) в качестве идентификатора локали.</span><span class="sxs-lookup"><span data-stu-id="7b38c-117">Then, the application can call [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) and pass the constant [LOCALE\_USER\_DEFAULT](locale-user-default.md) as the locale identifier.</span></span>
+
+## <a name="handle-replacement-locales"></a><span data-ttu-id="7b38c-118">Работа с замещающими языками</span><span class="sxs-lookup"><span data-stu-id="7b38c-118">Handle Replacement Locales</span></span>
+
+<span data-ttu-id="7b38c-119">Чтобы сохранить надежность Windows, помните, что заменяющий языковой стандарт, поддерживаемый приложением, не может изменить код локали замененного языкового стандарта.</span><span class="sxs-lookup"><span data-stu-id="7b38c-119">To preserve the reliability of Windows, remember that a replacement locale supported by your application cannot modify the locale identifier of the replaced locale.</span></span> <span data-ttu-id="7b38c-120">Ни один из замещающих языков не может изменить свойства сортировки Windows.</span><span class="sxs-lookup"><span data-stu-id="7b38c-120">Neither can a replacement locale modify the sorting properties of Windows.</span></span>
+
+<span data-ttu-id="7b38c-121">Хотя языковой стандарт замены может изменить календарь по умолчанию, он должен сохранить исходное значение по умолчанию где-либо в списке доступных календарей.</span><span class="sxs-lookup"><span data-stu-id="7b38c-121">Although a replacement locale can change the default calendar, it must retain the original default somewhere in the list of available calendars.</span></span> <span data-ttu-id="7b38c-122">Например, в тайском языке (Таиланд) в качестве значения по умолчанию используется тайский буддистский календарь.</span><span class="sxs-lookup"><span data-stu-id="7b38c-122">For example, the Thai (Thailand) locale uses the Thai Buddhist calendar as the default.</span></span> <span data-ttu-id="7b38c-123">Администратор может создать заменяющий языковой стандарт, использующий григорианский календарь.</span><span class="sxs-lookup"><span data-stu-id="7b38c-123">An administrator can create a replacement locale that uses the Gregorian localized calendar.</span></span> <span data-ttu-id="7b38c-124">Однако список доступных календарей будет содержать запись для тайского буддистского календаря.</span><span class="sxs-lookup"><span data-stu-id="7b38c-124">However, the list of available calendars continues to contain an entry for the Thai Buddhist calendar.</span></span>
+
+<span data-ttu-id="7b38c-125">Для замещающих языковых стандартов приложение должно, как правило, изучить сведения, зависящие от локали, вместо того, чтобы попытаться «ярлык» на основе знаний определенного языкового стандарта.</span><span class="sxs-lookup"><span data-stu-id="7b38c-125">For replacement locales, your application should generally consult locale-specific information instead of attempting a "shortcut" based on knowledge of a certain locale.</span></span> <span data-ttu-id="7b38c-126">Например, когда [**жетсреадлокале**](/windows/desktop/api/Winnls/nf-winnls-getthreadlocale) извлекает текущий языковой стандарт как английский (США), это может быть заменяющий языковой стандарт, который должен быть разрешен для вступления в силу.</span><span class="sxs-lookup"><span data-stu-id="7b38c-126">For example, when [**GetThreadLocale**](/windows/desktop/api/Winnls/nf-winnls-getthreadlocale) retrieves the current locale as English (United States), it might actually be a replacement locale that should be allowed to take effect.</span></span>
+
+## <a name="customize-calendars"></a><span data-ttu-id="7b38c-127">Настройка календарей</span><span class="sxs-lookup"><span data-stu-id="7b38c-127">Customize Calendars</span></span>
+
+<span data-ttu-id="7b38c-128">Приложения могут настраивать названия дней и месяцев для григорианского календаря, но не для календарей, отличных от григорианского.</span><span class="sxs-lookup"><span data-stu-id="7b38c-128">Your applications can customize day and month names for Gregorian calendars, but not for non-Gregorian calendars.</span></span> <span data-ttu-id="7b38c-129">Подобным образом NLS не поддерживает создание пользовательских календарей, определяемых пользователем.</span><span class="sxs-lookup"><span data-stu-id="7b38c-129">Similarly, NLS does not support creation of user-defined custom calendars.</span></span> <span data-ttu-id="7b38c-130">Дополнительные сведения см. в разделе [Дата и календарь](date-and-calendar.md).</span><span class="sxs-lookup"><span data-stu-id="7b38c-130">For more information, see [Date and Calendar](date-and-calendar.md).</span></span>
+
+## <a name="handle-sorting-sequences"></a><span data-ttu-id="7b38c-131">Обработку последовательностей сортировки</span><span class="sxs-lookup"><span data-stu-id="7b38c-131">Handle Sorting Sequences</span></span>
+
+<span data-ttu-id="7b38c-132">Дополнительный языковой стандарт может использовать любую последовательность сортировки, определенную корпорацией Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="7b38c-132">A supplemental locale can use any Microsoft-defined sorting sequence.</span></span> <span data-ttu-id="7b38c-133">Языковой стандарт замены должен использовать ту же последовательность сортировки, что и заменяющий языковой стандарт.</span><span class="sxs-lookup"><span data-stu-id="7b38c-133">A replacement locale must use the same sorting sequence as the locale it replaces.</span></span> <span data-ttu-id="7b38c-134">NLS не поддерживает создание определяемых пользователем последовательностей сортировки.</span><span class="sxs-lookup"><span data-stu-id="7b38c-134">NLS does not support the creation of user-defined sorting sequences.</span></span> <span data-ttu-id="7b38c-135">Дополнительные сведения см. [в разделе Обработка сортировки в приложениях](handling-sorting-in-your-applications.md).</span><span class="sxs-lookup"><span data-stu-id="7b38c-135">For more information, see [Handling Sorting in Your Applications](handling-sorting-in-your-applications.md).</span></span>
+
+## <a name="localize-custom-locale-information"></a><span data-ttu-id="7b38c-136">Локализация сведений о пользовательском языковом стандарте</span><span class="sxs-lookup"><span data-stu-id="7b38c-136">Localize Custom Locale Information</span></span>
+
+<span data-ttu-id="7b38c-137">NLS не предоставляет механизм локализации сведений о языковых стандартах.</span><span class="sxs-lookup"><span data-stu-id="7b38c-137">NLS does not provide a mechanism for localizing custom locale information.</span></span> <span data-ttu-id="7b38c-138">Таким образом, постоянный [языковой стандарт \_ Слангуаже](locale-slanguage.md) или [locale \_ слокализедлангуаженаме](locale-slocalized-constants.md) , используемый в качестве идентификатора локали для пользовательского языкового стандарта, всегда получает значения, связанные с [языковым стандартом \_ снативелангнаме](locale-snative-constants.md) или [языковыми \_ снативелангуаженаме](locale-snative-constants.md).</span><span class="sxs-lookup"><span data-stu-id="7b38c-138">Thus the constant [LOCALE\_SLANGUAGE](locale-slanguage.md) or [LOCALE\_SLOCALIZEDLANGUAGENAME](locale-slocalized-constants.md) used as a locale identifier for a custom locale always retrieves values associated with [LOCALE\_SNATIVELANGNAME](locale-snative-constants.md) or [LOCALE\_SNATIVELANGUAGENAME](locale-snative-constants.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="7b38c-139">См. также</span><span class="sxs-lookup"><span data-stu-id="7b38c-139">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="7b38c-140">Поддержка национальных языков</span><span class="sxs-lookup"><span data-stu-id="7b38c-140">Using National Language Support</span></span>](using-national-language-support.md)
+</dt> <dt>
+
+[<span data-ttu-id="7b38c-141">Пользовательские языковые стандарты</span><span class="sxs-lookup"><span data-stu-id="7b38c-141">Custom Locales</span></span>](custom-locales.md)
+</dt> <dt>
+
+[<span data-ttu-id="7b38c-142">Дата и календарь</span><span class="sxs-lookup"><span data-stu-id="7b38c-142">Date and Calendar</span></span>](date-and-calendar.md)
+</dt> <dt>
+
+[<span data-ttu-id="7b38c-143">Обработка сортировки в приложениях</span><span class="sxs-lookup"><span data-stu-id="7b38c-143">Handling Sorting in Your Applications</span></span>](handling-sorting-in-your-applications.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

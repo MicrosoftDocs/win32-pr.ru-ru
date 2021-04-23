@@ -1,0 +1,57 @@
+---
+title: Архитектура (API сервера HTTP)
+description: Объекты конфигурации "сеанс сервера", "очередь запросов" и "Группа URL-адресов" позволяют приложениям настраивать службу HTTP.
+ms.assetid: 05a2d689-fd10-4065-85fc-2057bee42fbc
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3bc7a07cb5e0439ed82421dd413aee3b6688bc0f
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "104414520"
+---
+# <a name="architecture-http-server-api"></a><span data-ttu-id="011cb-103">Архитектура (API сервера HTTP)</span><span class="sxs-lookup"><span data-stu-id="011cb-103">Architecture (HTTP Server API)</span></span>
+
+<span data-ttu-id="011cb-104">Объекты конфигурации "сеанс сервера", "очередь запросов" и "Группа URL-адресов" позволяют приложениям настраивать службу HTTP.</span><span class="sxs-lookup"><span data-stu-id="011cb-104">The server session, request queue, and URL group configuration objects enable applications to configure the HTTP service.</span></span> <span data-ttu-id="011cb-105">Свойства, заданные для этих объектов, переопределяют конфигурации по умолчанию для расширенных конфигураций API сервера HTTP.</span><span class="sxs-lookup"><span data-stu-id="011cb-105">The properties set on these objects override the HTTP Server API wide default configurations.</span></span>
+
+-   <span data-ttu-id="011cb-106">Сеанс сервера: объект конфигурации верхнего уровня, который определяет конфигурации для всех групп URL-адресов, создаваемых в рамках сеанса.</span><span class="sxs-lookup"><span data-stu-id="011cb-106">Server Session: The top-level configuration object that defines configurations for all the URL groups created under the session.</span></span>
+-   <span data-ttu-id="011cb-107">Группа URL-адресов. Группа URL-адресов, созданная в сеансе сервера, содержит набор URL-адресов, которые наследуют конфигурации, заданные в сеансе сервера.</span><span class="sxs-lookup"><span data-stu-id="011cb-107">URL Group: The URL group, created under the server session, contains a set of URLs that inherit the configurations set on the server session.</span></span> <span data-ttu-id="011cb-108">Конфигурации группы URL-адресов переопределяют конфигурации сеанса сервера, установленные приложением.</span><span class="sxs-lookup"><span data-stu-id="011cb-108">The URL group configurations override the server session configurations when set by the application.</span></span> <span data-ttu-id="011cb-109">Группа URL-адресов определяет часть пространства имен, которую приложение прослушивает, и настраивает эту часть пространства имен.</span><span class="sxs-lookup"><span data-stu-id="011cb-109">The URL group defines a portion of the namespace that the application is listening on and configures that portion of the namespace.</span></span>
+-   <span data-ttu-id="011cb-110">Очередь запросов: этот объект настраивает параметры, относящиеся к очереди запросов.</span><span class="sxs-lookup"><span data-stu-id="011cb-110">Request Queue: This object configures settings specific to the request queue.</span></span> <span data-ttu-id="011cb-111">Эти конфигурации применяются ко всем URL-адресам в группах, связанных с очередью запросов.</span><span class="sxs-lookup"><span data-stu-id="011cb-111">These configurations are applied to all the URLs in the groups associated with the request queue.</span></span>
+
+<span data-ttu-id="011cb-112">На схеме ниже показана связь между объектами конфигурации и приложением.</span><span class="sxs-lookup"><span data-stu-id="011cb-112">The diagram below shows the relationship between the configuration objects and the application.</span></span> <span data-ttu-id="011cb-113">Как правило, для каждого приложения создается один сеанс сервера с одной или несколькими группами URL-адресов, созданными под ним.</span><span class="sxs-lookup"><span data-stu-id="011cb-113">Typically, a single server session is created for each application with one or more URL groups created under it.</span></span> <span data-ttu-id="011cb-114">Очереди запросов создаются независимо от группы URL-адресов или сеанса сервера.</span><span class="sxs-lookup"><span data-stu-id="011cb-114">The request queues are created independent of the URL group or server session.</span></span> <span data-ttu-id="011cb-115">Группы URL-адресов должны быть связаны с очередью запросов для получения запросов.</span><span class="sxs-lookup"><span data-stu-id="011cb-115">URL groups must be associated with a request queue to receive requests.</span></span>
+
+![отношение между объектами конфигурации и приложением](images/architecture.png)
+
+<span data-ttu-id="011cb-117">Функция именованной очереди запросов API-интерфейса версии 2,0 сервера HTTP позволяет нескольким рабочим процессам принимать запросы в очередь запросов.</span><span class="sxs-lookup"><span data-stu-id="011cb-117">The named request queue feature of the HTTP Server version 2.0 API allows multiple worker processes to receive requests on a request queue.</span></span> <span data-ttu-id="011cb-118">Очередь запросов создается процессом контроллера, который определяет рабочие процессы, которым предоставлен доступ к очереди запросов.</span><span class="sxs-lookup"><span data-stu-id="011cb-118">The request queue is created by a controller process that identifies the worker processes granted access to the request queue.</span></span> <span data-ttu-id="011cb-119">Дополнительные сведения см. в разделе " [Именованная очередь запросов](named-request-queue.md) ".</span><span class="sxs-lookup"><span data-stu-id="011cb-119">For more information, see the [Named Request Queue](named-request-queue.md) topic</span></span>
+
+## <a name="property-configuration"></a><span data-ttu-id="011cb-120">Настройка свойства</span><span class="sxs-lookup"><span data-stu-id="011cb-120">Property Configuration</span></span>
+
+<span data-ttu-id="011cb-121">Дополнительные сведения о настройке свойств объектов конфигурации см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="011cb-121">For more information about setting properties on the configuration objects, see the following topics:</span></span>
+
+-   [<span data-ttu-id="011cb-122">Настройка очереди запросов</span><span class="sxs-lookup"><span data-stu-id="011cb-122">Configuring the Request Queue</span></span>](configuring-the-request-queue.md)
+-   [<span data-ttu-id="011cb-123">Настройка сеанса сервера</span><span class="sxs-lookup"><span data-stu-id="011cb-123">Configuring the Server Session</span></span>](configuring-the-server-session.md)
+-   [<span data-ttu-id="011cb-124">Настройка группы URL-адресов</span><span class="sxs-lookup"><span data-stu-id="011cb-124">Configuring the URL Group</span></span>](configuring-the-url-group.md)
+
+<span data-ttu-id="011cb-125">В следующей таблице перечислены свойства, заданные для объектов конфигурации.</span><span class="sxs-lookup"><span data-stu-id="011cb-125">The following table lists properties that are set on the configuration objects.</span></span> <span data-ttu-id="011cb-126">Дополнительные сведения о конфигурациях свойств см. в разделе [Настройка свойств в HTTP версии 2,0](configuring-properties-in-http-version-2-0.md) .</span><span class="sxs-lookup"><span data-stu-id="011cb-126">For more information about property configurations, see the [Configuring Properties in HTTP Version 2.0](configuring-properties-in-http-version-2-0.md) topic.</span></span>
+
+
+
+| <span data-ttu-id="011cb-127">Имя</span><span class="sxs-lookup"><span data-stu-id="011cb-127">Name</span></span>           | <span data-ttu-id="011cb-128">Свойство</span><span class="sxs-lookup"><span data-stu-id="011cb-128">Property</span></span>                                                                                                                                                                                                                                                                      |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="011cb-129">Сеанс сервера</span><span class="sxs-lookup"><span data-stu-id="011cb-129">Server Session</span></span> | <span data-ttu-id="011cb-130">хттпсерверстатепроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-130">HttpServerStateProperty</span></span><br/> <span data-ttu-id="011cb-131">хттпсерверлоггингпроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-131">HttpServerLoggingProperty</span></span><br/> <span data-ttu-id="011cb-132">хттпсервербандвидспроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-132">HttpServerBandwidthProperty</span></span><br/> <span data-ttu-id="011cb-133">хттпсервертимеаутспроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-133">HttpServerTimeoutsProperty</span></span><br/> <span data-ttu-id="011cb-134">хттпсервераусентикатонпроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-134">HttpServerAuthenticatonProperty</span></span><br/>                                                                               |
+| <span data-ttu-id="011cb-135">Группа URL-адресов</span><span class="sxs-lookup"><span data-stu-id="011cb-135">URL Group</span></span>      | <span data-ttu-id="011cb-136">хттпсерверстатепроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-136">HttpServerStateProperty</span></span><br/> <span data-ttu-id="011cb-137">хттпсервераусентикатонпроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-137">HttpServerAuthenticatonProperty</span></span><br/> <span data-ttu-id="011cb-138">хттпсерверлоггингпроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-138">HttpServerLoggingProperty</span></span><br/> <span data-ttu-id="011cb-139">хттпсерверконнектионспроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-139">HttpServerConnectionsProperty</span></span><br/> <span data-ttu-id="011cb-140">хттпсервербандвидспроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-140">HttpServerBandwidthProperty</span></span><br/> <span data-ttu-id="011cb-141">хттпсервербиндингпроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-141">HttpServerBindingProperty</span></span><br/> <span data-ttu-id="011cb-142">хттпсервертимеаутспроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-142">HttpServerTimeoutsProperty</span></span><br/> |
+| <span data-ttu-id="011cb-143">Очередь запросов</span><span class="sxs-lookup"><span data-stu-id="011cb-143">Request Queue</span></span>  | <span data-ttu-id="011cb-144">хттпсерверстатепроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-144">HttpServerStateProperty</span></span><br/> <span data-ttu-id="011cb-145">хттпсерверкуеуеленгспроперти</span><span class="sxs-lookup"><span data-stu-id="011cb-145">HttpServerQueueLengthProperty</span></span><br/> <span data-ttu-id="011cb-146">HttpServer503VerbosityProperty</span><span class="sxs-lookup"><span data-stu-id="011cb-146">HttpServer503VerbosityProperty</span></span><br/>                                                                                                                                                         |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+

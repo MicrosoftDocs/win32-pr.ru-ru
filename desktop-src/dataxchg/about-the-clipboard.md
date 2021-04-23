@@ -1,0 +1,112 @@
+---
+title: Сведения о буфере обмена
+description: В этом разделе описывается буфер обмена.
+ms.assetid: 14c91730-a668-495b-9ec6-b835234821a5
+keywords:
+- буфер обмена, сведения
+- буфер обмена, форматы
+- буфер обмена, команды
+- буфер обмена, Windows
+- буфер обмена, порядковые номера
+- буфер обмена, средства просмотра
+- буфер обмена, окна средства просмотра
+- буфер обмена, форматы вывода
+- буфер обмена, форматы вывода владельцем
+- Отображение форматов буфера обмена
+- Отображение форматов буфера обмена для владельца
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: b94757a95fb8c40152a0018d04cef64e8efae624
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104338764"
+---
+# <a name="about-the-clipboard"></a><span data-ttu-id="cee02-114">Сведения о буфере обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-114">About the Clipboard</span></span>
+
+<span data-ttu-id="cee02-115">*Буфер обмена* — это набор функций и сообщений, которые позволяют приложениям передавать данные.</span><span class="sxs-lookup"><span data-stu-id="cee02-115">The *clipboard* is a set of functions and messages that enable applications to transfer data.</span></span> <span data-ttu-id="cee02-116">Поскольку все приложения имеют доступ к буферу обмена, данные могут легко передаваться между приложениями или в приложении.</span><span class="sxs-lookup"><span data-stu-id="cee02-116">Because all applications have access to the clipboard, data can be easily transferred between applications or within an application.</span></span>
+
+<span data-ttu-id="cee02-117">Буфер обмена управляется пользователем.</span><span class="sxs-lookup"><span data-stu-id="cee02-117">The clipboard is user-driven.</span></span> <span data-ttu-id="cee02-118">Окно должно передавать данные в буфер обмена или из него только в ответ на команду от пользователя.</span><span class="sxs-lookup"><span data-stu-id="cee02-118">A window should transfer data to or from the clipboard only in response to a command from the user.</span></span> <span data-ttu-id="cee02-119">Окно не должно использовать буфер обмена для перемещения данных без ведома пользователя.</span><span class="sxs-lookup"><span data-stu-id="cee02-119">A window must not use the clipboard to transfer data without the user's knowledge.</span></span>
+
+<span data-ttu-id="cee02-120">Объект памяти в буфере обмена может иметь любой формат данных, называемый форматом буфера обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-120">A memory object on the clipboard can be in any data format, called a clipboard format.</span></span> <span data-ttu-id="cee02-121">Каждый формат определяется целочисленным значением без знака.</span><span class="sxs-lookup"><span data-stu-id="cee02-121">Each format is identified by an unsigned integer value.</span></span> <span data-ttu-id="cee02-122">Для стандартных (предопределенных) форматов буфера обмена это значение является константой, определенной в WinUser. h; для зарегистрированных форматов буфера обмена это возвращаемое значение функции [**регистерклипбоардформат**](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata) .</span><span class="sxs-lookup"><span data-stu-id="cee02-122">For standard (predefined) clipboard formats, this value is a constant defined in Winuser.h; for registered clipboard formats, it is the return value of the [**RegisterClipboardFormat**](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata) function.</span></span>
+
+<span data-ttu-id="cee02-123">За исключением регистрации форматов буфера обмена, отдельные окна выполняют большинство операций с буфером обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-123">Except for registering clipboard formats, individual windows perform most clipboard operations.</span></span> <span data-ttu-id="cee02-124">Как правило, процедура окна передает информацию в буфер обмена или из него в ответ на [**сообщение \_ команды WM**](/windows/desktop/menurc/wm-command) .</span><span class="sxs-lookup"><span data-stu-id="cee02-124">Typically, a window procedure transfers information to or from the clipboard in response to the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message.</span></span>
+
+<span data-ttu-id="cee02-125">В этом разделе рассматриваются следующие вопросы:</span><span class="sxs-lookup"><span data-stu-id="cee02-125">This section discusses the following:</span></span>
+
+-   [<span data-ttu-id="cee02-126">Команды буфера обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-126">Clipboard Commands</span></span>](#clipboard-commands)
+-   [<span data-ttu-id="cee02-127">Порядковый номер буфера обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-127">Clipboard Sequence Number</span></span>](#clipboard-sequence-number)
+-   [<span data-ttu-id="cee02-128">Средства просмотра буфера обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-128">Clipboard Viewers</span></span>](#clipboard-viewers)
+    -   [<span data-ttu-id="cee02-129">Окна средства просмотра буфера обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-129">Clipboard Viewer Windows</span></span>](#clipboard-viewer-windows)
+    -   [<span data-ttu-id="cee02-130">Форматы представления</span><span class="sxs-lookup"><span data-stu-id="cee02-130">Display Formats</span></span>](#display-formats)
+    -   [<span data-ttu-id="cee02-131">Формат просмотра владельца</span><span class="sxs-lookup"><span data-stu-id="cee02-131">Owner Display Format</span></span>](#owner-display-format)
+-   [<span data-ttu-id="cee02-132">См. также</span><span class="sxs-lookup"><span data-stu-id="cee02-132">Related topics</span></span>](#related-topics)
+
+## <a name="clipboard-commands"></a><span data-ttu-id="cee02-133">Команды буфера обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-133">Clipboard Commands</span></span>
+
+<span data-ttu-id="cee02-134">Пользователь обычно выполняет операции с буфером обмена, выбирая команды из меню " **Правка** " приложения.</span><span class="sxs-lookup"><span data-stu-id="cee02-134">A user typically carries out clipboard operations by choosing commands from an application's **Edit** menu.</span></span> <span data-ttu-id="cee02-135">Ниже приведено краткое описание стандартных команд буфера обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-135">Following is a brief description of the standard clipboard commands.</span></span>
+
+
+
+|            |                                                                                                                                                                                                                   |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="cee02-136">**Вырезать**</span><span class="sxs-lookup"><span data-stu-id="cee02-136">**Cut**</span></span>    | <span data-ttu-id="cee02-137">Помещает копию текущего выделенного фрагмента в буфер обмена и удаляет выделенный фрагмент из документа.</span><span class="sxs-lookup"><span data-stu-id="cee02-137">Places a copy of the current selection on the clipboard and deletes the selection from the document.</span></span> <span data-ttu-id="cee02-138">Предыдущее содержимое буфера обмена уничтожается.</span><span class="sxs-lookup"><span data-stu-id="cee02-138">The previous content of the clipboard is destroyed.</span></span>                                                          |
+| <span data-ttu-id="cee02-139">**Копировать**</span><span class="sxs-lookup"><span data-stu-id="cee02-139">**Copy**</span></span>   | <span data-ttu-id="cee02-140">Помещает копию текущего выделенного фрагмента в буфер обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-140">Places a copy of the current selection on the clipboard.</span></span> <span data-ttu-id="cee02-141">Документ остается без изменений.</span><span class="sxs-lookup"><span data-stu-id="cee02-141">The document remains unchanged.</span></span> <span data-ttu-id="cee02-142">Предыдущее содержимое буфера обмена уничтожается.</span><span class="sxs-lookup"><span data-stu-id="cee02-142">The previous content of the clipboard is destroyed.</span></span>                                                                      |
+| <span data-ttu-id="cee02-143">**Вставить**</span><span class="sxs-lookup"><span data-stu-id="cee02-143">**Paste**</span></span>  | <span data-ttu-id="cee02-144">Заменяет текущий выделенный фрагмент содержимым буфера обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-144">Replaces the current selection with the content of the clipboard.</span></span> <span data-ttu-id="cee02-145">Содержимое буфера обмена не изменяется.</span><span class="sxs-lookup"><span data-stu-id="cee02-145">The content of the clipboard is not changed.</span></span>                                                                                                    |
+| <span data-ttu-id="cee02-146">**Удалить**</span><span class="sxs-lookup"><span data-stu-id="cee02-146">**Delete**</span></span> | <span data-ttu-id="cee02-147">Удаляет текущий выделенный фрагмент из документа.</span><span class="sxs-lookup"><span data-stu-id="cee02-147">Deletes the current selection from the document.</span></span> <span data-ttu-id="cee02-148">Содержимое буфера обмена не изменяется.</span><span class="sxs-lookup"><span data-stu-id="cee02-148">The content of the clipboard is not changed.</span></span> <span data-ttu-id="cee02-149">Эта команда не затрагивает буфер обмена, но она должна отображаться с командами буфера обмена в меню **Правка** .</span><span class="sxs-lookup"><span data-stu-id="cee02-149">This command does not involve the clipboard, but it should appear with the clipboard commands on the **Edit** menu.</span></span> |
+
+
+
+ 
+
+## <a name="clipboard-sequence-number"></a><span data-ttu-id="cee02-150">Порядковый номер буфера обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-150">Clipboard Sequence Number</span></span>
+
+<span data-ttu-id="cee02-151">Буфер обмена для каждой станции Windows имеет связанный порядковый номер буфера обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-151">The clipboard for each window station has an associated clipboard sequence number.</span></span> <span data-ttu-id="cee02-152">Это число увеличивается при каждом изменении содержимого буфера обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-152">This number is incremented whenever the contents of the clipboard change.</span></span> <span data-ttu-id="cee02-153">Чтобы получить порядковый номер буфера обмена, вызовите функцию [**жетклипбоардсекуенценумбер**](/windows/desktop/api/Winuser/nf-winuser-getclipboardsequencenumber) .</span><span class="sxs-lookup"><span data-stu-id="cee02-153">To obtain the clipboard sequence number, call the [**GetClipboardSequenceNumber**](/windows/desktop/api/Winuser/nf-winuser-getclipboardsequencenumber) function.</span></span>
+
+## <a name="clipboard-viewers"></a><span data-ttu-id="cee02-154">Средства просмотра буфера обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-154">Clipboard Viewers</span></span>
+
+<span data-ttu-id="cee02-155">Средство просмотра буфера обмена — это окно, в котором отображается текущее содержимое буфера обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-155">A clipboard viewer is a window that displays the current content of the clipboard.</span></span> <span data-ttu-id="cee02-156">Окно просмотра буфера обмена является удобным для пользователя и не влияет на функции транзакций с данными в буфере обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-156">The clipboard viewer window is a convenience for the user and does not affect the data-transaction functions of the clipboard.</span></span>
+
+<span data-ttu-id="cee02-157">Как правило, окно просмотра буфера обмена может отображать по крайней мере три наиболее распространенных формата: **\_ текст CF**, **\_ точечный рисунок CF** и **CF \_ метафилепикт**.</span><span class="sxs-lookup"><span data-stu-id="cee02-157">Typically, a clipboard viewer window can display at least the three most common formats: **CF\_TEXT**, **CF\_BITMAP**, and **CF\_METAFILEPICT**.</span></span> <span data-ttu-id="cee02-158">Если окно не делает данные доступными ни в одном из этих трех форматов, они должны предоставлять данные в формате вывода или использовать формат, отображаемый владельцем.</span><span class="sxs-lookup"><span data-stu-id="cee02-158">If a window does not make data available in any of these three formats, it should provide data in a display format or use the owner-display format.</span></span>
+
+<span data-ttu-id="cee02-159">*Цепочка средства просмотра буфера обмена* — это связь между двумя или более сущностями, чтобы они зависели друг от друга для операции.</span><span class="sxs-lookup"><span data-stu-id="cee02-159">A *clipboard viewer chain* is the linking together of two or more entities so that they are dependent upon one another for operation.</span></span> <span data-ttu-id="cee02-160">Эта зависимость (цепочка) позволяет всем работающим приложениям просмотра буфера обмена принимать сообщения, отправленные в текущий буфер обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-160">This interdependency (chain) allows all running clipboard viewer applications to receive the messages sent to the current clipboard.</span></span>
+
+<span data-ttu-id="cee02-161">В этом разделе рассматриваются следующие темы.</span><span class="sxs-lookup"><span data-stu-id="cee02-161">The following topics are discussed in this section.</span></span>
+
+-   [<span data-ttu-id="cee02-162">Окна средства просмотра буфера обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-162">Clipboard Viewer Windows</span></span>](#clipboard-viewer-windows)
+-   [<span data-ttu-id="cee02-163">Форматы представления</span><span class="sxs-lookup"><span data-stu-id="cee02-163">Display Formats</span></span>](#display-formats)
+-   [<span data-ttu-id="cee02-164">Формат просмотра владельца</span><span class="sxs-lookup"><span data-stu-id="cee02-164">Owner Display Format</span></span>](#owner-display-format)
+
+### <a name="clipboard-viewer-windows"></a><span data-ttu-id="cee02-165">Окна средства просмотра буфера обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-165">Clipboard Viewer Windows</span></span>
+
+<span data-ttu-id="cee02-166">Окно добавляет себя в цепочку средства просмотра буфера обмена путем вызова функции [**сетклипбоардвиевер**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer) .</span><span class="sxs-lookup"><span data-stu-id="cee02-166">A window adds itself to the clipboard viewer chain by calling the [**SetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer) function.</span></span> <span data-ttu-id="cee02-167">Возвращаемое значение — это обработчик следующего окна в цепочке.</span><span class="sxs-lookup"><span data-stu-id="cee02-167">The return value is the handle to the next window in the chain.</span></span> <span data-ttu-id="cee02-168">Чтобы получить маркер для первого окна в цепочке, вызовите функцию [**жетклипбоардвиевер**](/windows/desktop/api/Winuser/nf-winuser-getclipboardviewer) .</span><span class="sxs-lookup"><span data-stu-id="cee02-168">To retrieve the handle to the first window in the chain, call the [**GetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-getclipboardviewer) function.</span></span>
+
+<span data-ttu-id="cee02-169">Каждое окно средства просмотра буфера обмена должно вести отслеживание следующего окна в цепочке окна просмотра буфера обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-169">Each clipboard viewer window must keep track of the next window in the clipboard viewer chain.</span></span> <span data-ttu-id="cee02-170">При изменении содержимого буфера обмена система отправляет сообщение [**WM \_ дравклипбоард**](wm-drawclipboard.md) в первое окно в цепочке.</span><span class="sxs-lookup"><span data-stu-id="cee02-170">When the content of the clipboard changes, the system sends a [**WM\_DRAWCLIPBOARD**](wm-drawclipboard.md) message to the first window in the chain.</span></span> <span data-ttu-id="cee02-171">После обновления экрана каждое окно просмотра буфера обмена должно передать это сообщение в следующее окно в цепочке.</span><span class="sxs-lookup"><span data-stu-id="cee02-171">After updating its display, each clipboard viewer window must pass this message on to the next window in the chain.</span></span>
+
+<span data-ttu-id="cee02-172">Перед закрытием окно средства просмотра буфера обмена должно удалить само себя из цепочки средства просмотра буфера обмена, вызвав функцию [**чанжеклипбоардчаин**](/windows/desktop/api/Winuser/nf-winuser-changeclipboardchain) .</span><span class="sxs-lookup"><span data-stu-id="cee02-172">Before closing, a clipboard viewer window must remove itself from the clipboard viewer chain by calling the [**ChangeClipboardChain**](/windows/desktop/api/Winuser/nf-winuser-changeclipboardchain) function.</span></span> <span data-ttu-id="cee02-173">Затем система отправляет сообщение [**WM \_ чанжекбчаин**](wm-changecbchain.md) в первое окно в цепочке.</span><span class="sxs-lookup"><span data-stu-id="cee02-173">The system then sends a [**WM\_CHANGECBCHAIN**](wm-changecbchain.md) message to the first window in the chain.</span></span>
+
+<span data-ttu-id="cee02-174">Дополнительные сведения об обработке сообщений [**WM \_ Дравклипбоард**](wm-drawclipboard.md) и [**WM \_ Чанжекбчаин**](wm-changecbchain.md) см. в разделе [Создание окна просмотра буфера обмена](using-the-clipboard.md).</span><span class="sxs-lookup"><span data-stu-id="cee02-174">For more information about processing the [**WM\_DRAWCLIPBOARD**](wm-drawclipboard.md) and [**WM\_CHANGECBCHAIN**](wm-changecbchain.md) messages, see [Creating a Clipboard Viewer Window](using-the-clipboard.md).</span></span>
+
+### <a name="display-formats"></a><span data-ttu-id="cee02-175">Форматы отображения</span><span class="sxs-lookup"><span data-stu-id="cee02-175">Display Formats</span></span>
+
+<span data-ttu-id="cee02-176">Формат представления — это формат буфера обмена, используемый для вывода сведений в окне средства просмотра буфера обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-176">A display format is a clipboard format used to display information in a clipboard viewer window.</span></span> <span data-ttu-id="cee02-177">Владелец буфера обмена, использующий формат закрытого или зарегистрированного буфера обмена, и ни один из наиболее распространенных стандартных форматов, должен предоставить данные в формате отображения для просмотра в окне просмотра буфера обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-177">A clipboard owner that uses a private or registered clipboard format, and none of the most common standard formats, must provide data in a display format for viewing in a clipboard viewer window.</span></span> <span data-ttu-id="cee02-178">Форматы отображения предназначены только для просмотра и не должны вставляться в документ.</span><span class="sxs-lookup"><span data-stu-id="cee02-178">The display formats are intended for viewing only and must not be pasted into a document.</span></span>
+
+<span data-ttu-id="cee02-179">Поддерживаются четыре формата вывода: **CF \_ дспбитмап**, **CF \_ Дспметафилепикт**, **CF \_ дсптекст** и **CF \_ дспенхметафиле**.</span><span class="sxs-lookup"><span data-stu-id="cee02-179">The four display formats are: **CF\_DSPBITMAP**, **CF\_DSPMETAFILEPICT**, **CF\_DSPTEXT**, and **CF\_DSPENHMETAFILE**.</span></span> <span data-ttu-id="cee02-180">Эти форматы отображения отображаются так же, как стандартные форматы: **\_ точечный рисунок CF**, **\_ текст CF**, **CF \_ метафилепикт** и **CF \_ енхметафиле**.</span><span class="sxs-lookup"><span data-stu-id="cee02-180">These display formats are rendered in the same way as the standard formats, which are: **CF\_BITMAP**, **CF\_TEXT**, **CF\_METAFILEPICT**, and **CF\_ENHMETAFILE**.</span></span>
+
+### <a name="owner-display-format"></a><span data-ttu-id="cee02-181">Формат просмотра владельца</span><span class="sxs-lookup"><span data-stu-id="cee02-181">Owner Display Format</span></span>
+
+<span data-ttu-id="cee02-182">Для владельца буфера обмена, который не использует обычные стандартные форматы буфера обмена, альтернативой формату представления является использование формата буфера обмена Owner-дисплея (**CF \_ овнердисплай**).</span><span class="sxs-lookup"><span data-stu-id="cee02-182">For a clipboard owner that does not use any of the common standard clipboard formats, an alternative to providing a display format is to use the owner-display (**CF\_OWNERDISPLAY**) clipboard format.</span></span>
+
+<span data-ttu-id="cee02-183">Используя формат отображения «владелец», владелец буфера обмена может избежать издержек на отрисовку данных в дополнительном формате, используя прямое управление рисованием окна просмотра буфера обмена.</span><span class="sxs-lookup"><span data-stu-id="cee02-183">By using the owner-display format, a clipboard owner can avoid the overhead of rendering data in an additional format by taking direct control over painting the clipboard viewer window.</span></span> <span data-ttu-id="cee02-184">Окно просмотра буфера обмена отправляет сообщения владельцу буфера обмена при необходимости перерисовки части окна или при прокрутке или изменении размера окна.</span><span class="sxs-lookup"><span data-stu-id="cee02-184">The clipboard viewer window sends messages to the clipboard owner whenever a portion of the window must be repainted or when the window is scrolled or resized.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="cee02-185">См. также</span><span class="sxs-lookup"><span data-stu-id="cee02-185">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="cee02-186">Стандартные форматы буфера обмена</span><span class="sxs-lookup"><span data-stu-id="cee02-186">Standard Clipboard Formats</span></span>](standard-clipboard-formats.md)
+</dt> </dl>
+
+ 
+
+ 

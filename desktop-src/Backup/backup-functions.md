@@ -1,0 +1,75 @@
+---
+title: Функции резервного копирования
+description: Для резервного копирования на ленту используются следующие функции.
+ms.assetid: 8c5f92f7-4918-475c-bc86-2b02291488d5
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 312c7477c28f83b7c1c64073234799219346f89a
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103792840"
+---
+# <a name="backup-functions"></a><span data-ttu-id="5a1c3-103">Функции резервного копирования</span><span class="sxs-lookup"><span data-stu-id="5a1c3-103">Backup Functions</span></span>
+
+<span data-ttu-id="5a1c3-104">Для [резервного копирования на ленту](tape-backup.md)используются следующие функции.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-104">The following functions are used with [tape backup](tape-backup.md).</span></span>
+
+
+
+| <span data-ttu-id="5a1c3-105">Функция</span><span class="sxs-lookup"><span data-stu-id="5a1c3-105">Function</span></span>                                           | <span data-ttu-id="5a1c3-106">Описание</span><span class="sxs-lookup"><span data-stu-id="5a1c3-106">Description</span></span>                                                                                            |
+|----------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="5a1c3-107">**баккупреад**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-107">**BackupRead**</span></span>](/windows/desktop/api/Winbase/nf-winbase-backupread)                   | <span data-ttu-id="5a1c3-108">Считывает данные, связанные с указанным файлом или каталогом, в буфер.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-108">Reads data associated with a specified file or directory into a buffer.</span></span>                                |
+| [<span data-ttu-id="5a1c3-109">**баккупсик**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-109">**BackupSeek**</span></span>](/windows/desktop/api/Winbase/nf-winbase-backupseek)                   | <span data-ttu-id="5a1c3-110">Поиск вперед в потоке данных.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-110">Seeks forward in a data stream.</span></span>                                                                        |
+| [<span data-ttu-id="5a1c3-111">**баккупврите**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-111">**BackupWrite**</span></span>](/windows/desktop/api/Winbase/nf-winbase-backupwrite)                 | <span data-ttu-id="5a1c3-112">Записывает поток данных из буфера в указанный файл или каталог.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-112">Writes a stream of data from a buffer to a specified file or directory.</span></span>                                |
+| [<span data-ttu-id="5a1c3-113">**креатетапепартитион**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-113">**CreateTapePartition**</span></span>](/windows/desktop/api/Winbase/nf-winbase-createtapepartition) | <span data-ttu-id="5a1c3-114">Переформатирует ленту.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-114">Reformats a tape.</span></span>                                                                                      |
+| [<span data-ttu-id="5a1c3-115">**ерасетапе**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-115">**EraseTape**</span></span>](/windows/desktop/api/Winbase/nf-winbase-erasetape)                     | <span data-ttu-id="5a1c3-116">Стирает всю ленту или ее часть.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-116">Erases all or part of a tape.</span></span>                                                                          |
+| [<span data-ttu-id="5a1c3-117">**жеттапепараметерс**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-117">**GetTapeParameters**</span></span>](/windows/desktop/api/Winbase/nf-winbase-gettapeparameters)     | <span data-ttu-id="5a1c3-118">Извлекает сведения, описывающие ленту или ленточный накопитель.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-118">Retrieves information that describes the tape or the tape drive.</span></span>                                       |
+| [<span data-ttu-id="5a1c3-119">**жеттапепоситион**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-119">**GetTapePosition**</span></span>](/windows/desktop/api/Winbase/nf-winbase-gettapeposition)         | <span data-ttu-id="5a1c3-120">Извлекает текущий адрес ленты.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-120">Retrieves the current address of the tape.</span></span>                                                             |
+| [<span data-ttu-id="5a1c3-121">**жеттапестатус**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-121">**GetTapeStatus**</span></span>](/windows/desktop/api/Winbase/nf-winbase-gettapestatus)             | <span data-ttu-id="5a1c3-122">Определяет, готова ли ленточное устройство к обработке команд ленты.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-122">Determines whether the tape device is ready to process tape commands.</span></span>                                  |
+| [<span data-ttu-id="5a1c3-123">**препаретапе**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-123">**PrepareTape**</span></span>](/windows/desktop/api/Winbase/nf-winbase-preparetape)                 | <span data-ttu-id="5a1c3-124">Готовит ленту к доступу или удалению.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-124">Prepares the tape to be accessed or removed.</span></span>                                                           |
+| [<span data-ttu-id="5a1c3-125">**сеттапепараметерс**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-125">**SetTapeParameters**</span></span>](/windows/desktop/api/Winbase/nf-winbase-settapeparameters)     | <span data-ttu-id="5a1c3-126">Задает размер блока ленты или настраивает ленточное устройство.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-126">Specifies the block size of a tape or configures the tape device.</span></span>                                      |
+| [<span data-ttu-id="5a1c3-127">**сеттапепоситион**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-127">**SetTapePosition**</span></span>](/windows/desktop/api/Winbase/nf-winbase-settapeposition)         | <span data-ttu-id="5a1c3-128">Задает расположение ленты на указанном устройстве.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-128">Sets the tape position on the specified device.</span></span>                                                        |
+| [<span data-ttu-id="5a1c3-129">**вритетапемарк**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-129">**WriteTapemark**</span></span>](/windows/desktop/api/Winbase/nf-winbase-writetapemark)             | <span data-ttu-id="5a1c3-130">Записывает указанное число филемаркс, сетмаркс, Short филемаркс или long филемаркс на ленточное устройство.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-130">Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device.</span></span> |
+
+
+
+ 
+
+<span data-ttu-id="5a1c3-131">Следующие функции предназначены для работы с [хранилищем с одним экземпляром и резервной копией SIS](single-instance-store-and-sis-backup.md).</span><span class="sxs-lookup"><span data-stu-id="5a1c3-131">The following functions are provided for working with [single-instance store and SIS backup](single-instance-store-and-sis-backup.md).</span></span>
+
+
+
+| <span data-ttu-id="5a1c3-132">Функция</span><span class="sxs-lookup"><span data-stu-id="5a1c3-132">Function</span></span>                                                          | <span data-ttu-id="5a1c3-133">Описание</span><span class="sxs-lookup"><span data-stu-id="5a1c3-133">Description</span></span>                                                                                        |
+|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="5a1c3-134">**сискреатебаккупструктуре**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-134">**SisCreateBackupStructure**</span></span>](siscreatebackupstructure.md)      | <span data-ttu-id="5a1c3-135">Создает указанную структуру резервного копирования SIS на основе указанных данных.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-135">Creates the specified SIS backup structure based on the supplied information.</span></span>                      |
+| [<span data-ttu-id="5a1c3-136">**сискреатерестореструктуре**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-136">**SisCreateRestoreStructure**</span></span>](siscreaterestorestructure.md)    | <span data-ttu-id="5a1c3-137">Создает указанную структуру восстановления хранилища единственных копий на основе указанных данных.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-137">Creates the specified SIS restore structure based on the supplied information.</span></span>                     |
+| [<span data-ttu-id="5a1c3-138">**сисксфилестобаккупфорлинк**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-138">**SisCSFilesToBackupForLink**</span></span>](siscsfilestobackupforlink.md)    | <span data-ttu-id="5a1c3-139">Возвращает сведения, описывающие файлы общего хранилища, на которые указывает ссылка SIS.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-139">Returns information describing the common-store files the specified SIS link points to.</span></span>            |
+| [<span data-ttu-id="5a1c3-140">**сисфриаллокатедмемори**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-140">**SisFreeAllocatedMemory**</span></span>](sisfreeallocatedmemory.md)          | <span data-ttu-id="5a1c3-141">Освобождает память, выделенную функциями API SIS.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-141">Frees memory allocated by SIS API functions.</span></span>                                                       |
+| [<span data-ttu-id="5a1c3-142">**сисфрибаккупструктуре**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-142">**SisFreeBackupStructure**</span></span>](sisfreebackupstructure.md)          | <span data-ttu-id="5a1c3-143">Освобождает указанную структуру резервного копирования SIS.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-143">Frees the specified SIS backup structure.</span></span>                                                          |
+| [<span data-ttu-id="5a1c3-144">**сисфрирестореструктуре**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-144">**SisFreeRestoreStructure**</span></span>](sisfreerestorestructure.md)        | <span data-ttu-id="5a1c3-145">Освобождает указанную структуру восстановления SIS.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-145">Frees the specified SIS restore structure.</span></span>                                                         |
+| [<span data-ttu-id="5a1c3-146">**Сисресторедкоммон StoreFile**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-146">**SisRestoredCommon StoreFile**</span></span>](sisrestoredcommonstorefile.md) | <span data-ttu-id="5a1c3-147">Сообщает архитектуре SIS о том, что файл Common-Store записан.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-147">Reports to the SIS architecture that a common-store file has been written.</span></span>                         |
+| [<span data-ttu-id="5a1c3-148">**сисресторедлинк**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-148">**SisRestoredLink**</span></span>](sisrestoredlink.md)                        | <span data-ttu-id="5a1c3-149">Возвращает имена файлов или файлов общего хранилища, на которые указывает указанная восстановленная ссылка SIS.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-149">Returns the names of the common-store file or files pointed to by the specified restored SIS link.</span></span> |
+
+
+
+ 
+
+<span data-ttu-id="5a1c3-150">Для работы с [резервным копированием и восстановлением зашифрованных файлов](/windows/desktop/FileIO/backup-and-restore-of-encrypted-files)предоставляются следующие функции.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-150">The following functions are provided for working with [backup and restore of encrypted files](/windows/desktop/FileIO/backup-and-restore-of-encrypted-files).</span></span>
+
+
+
+| <span data-ttu-id="5a1c3-151">Функция</span><span class="sxs-lookup"><span data-stu-id="5a1c3-151">Function</span></span>                                                | <span data-ttu-id="5a1c3-152">Описание</span><span class="sxs-lookup"><span data-stu-id="5a1c3-152">Description</span></span>                                                                                |
+|---------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="5a1c3-153">**клосинкриптедфилерав**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-153">**CloseEncryptedFileRaw**</span></span>](/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw) | <span data-ttu-id="5a1c3-154">Закройте зашифрованный файл, Открытый с помощью [**опененкриптедфилерав**](/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa).</span><span class="sxs-lookup"><span data-stu-id="5a1c3-154">Close an encrypted file opened with [**OpenEncryptedFileRaw**](/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa).</span></span> |
+| [<span data-ttu-id="5a1c3-155">**опененкриптедфилерав**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-155">**OpenEncryptedFileRaw**</span></span>](/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa)   | <span data-ttu-id="5a1c3-156">Откройте зашифрованный файл с доступом к данным в зашифрованном формате.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-156">Open an encrypted file with access to data in encrypted format.</span></span>                            |
+| [<span data-ttu-id="5a1c3-157">**реаденкриптедфилерав**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-157">**ReadEncryptedFileRaw**</span></span>](/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw)   | <span data-ttu-id="5a1c3-158">Считывает зашифрованный файл, освобождая его данные в зашифрованном формате.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-158">Read an encrypted file leaving its data in encrypted format.</span></span>                               |
+| [<span data-ttu-id="5a1c3-159">**вритинкриптедфилерав**</span><span class="sxs-lookup"><span data-stu-id="5a1c3-159">**WriteEncryptedFileRaw**</span></span>](/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw) | <span data-ttu-id="5a1c3-160">Запись зашифрованного файла, оставляемого данными в зашифрованном формате.</span><span class="sxs-lookup"><span data-stu-id="5a1c3-160">Write an encrypted file leaving its data in encrypted format.</span></span>                              |
+
+
+
+ 
+
+ 
+
+ 

@@ -1,0 +1,95 @@
+---
+title: Задачи сервера HTTP
+description: Обычно задачи сервера HTTP выполняются в определенном порядке. то есть необходимо завершить одну задачу и выходные данные, полученные перед началом следующей задачи.
+ms.assetid: 08f8e7e9-23b9-403f-b00c-8912919d65b1
+keywords:
+- Задачи сервера HTTP
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 22455dbda21aca32b26f586eed6e51cef7509af2
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103780120"
+---
+# <a name="http-server-tasks"></a><span data-ttu-id="079ad-104">Задачи сервера HTTP</span><span class="sxs-lookup"><span data-stu-id="079ad-104">HTTP Server Tasks</span></span>
+
+<span data-ttu-id="079ad-105">Обычно задачи сервера HTTP выполняются в определенном порядке. то есть необходимо завершить одну задачу и выходные данные, полученные перед началом следующей задачи.</span><span class="sxs-lookup"><span data-stu-id="079ad-105">Typically, HTTP server tasks are performed in a specific order; that is, one task must be completed and the output obtained before the next task begins.</span></span>
+
+<span data-ttu-id="079ad-106">Страница задачи создается для представления образца кода о конкретных задачах, выполняемых приложением сервера HTTP.</span><span class="sxs-lookup"><span data-stu-id="079ad-106">A task page is created to present sample code about specific tasks that an HTTP Server application performs.</span></span> <span data-ttu-id="079ad-107">Страница задачи ссылается на файл расширения C образца HTTP-сервера.</span><span class="sxs-lookup"><span data-stu-id="079ad-107">A task page links to the C extension file of the HTTP server sample.</span></span> <span data-ttu-id="079ad-108">При установке PSDK на диске C: на \\ локальном компьютере образец приложения Complete Server устанавливается на языке C: \\ Program Files \\ Microsoft SDK \\ Samples \\ нетдс \\ HTTP \\ Server.</span><span class="sxs-lookup"><span data-stu-id="079ad-108">When you install the PSDK on drive C:\\ of a local computer, the complete server sample application is installed at C:\\Program Files\\Microsoft SDK\\Samples\\netds\\http\\server.</span></span>
+
+<span data-ttu-id="079ad-109">В следующем списке указаны задачи HTTP-сервера.</span><span class="sxs-lookup"><span data-stu-id="079ad-109">The following list identifies the HTTP Server tasks:</span></span>
+
+-   [<span data-ttu-id="079ad-110">Инициализация службы HTTP</span><span class="sxs-lookup"><span data-stu-id="079ad-110">Initialize the HTTP Service</span></span>](#initialize-the-http-service)
+-   [<span data-ttu-id="079ad-111">Зарегистрируйте URL-адреса для прослушивания</span><span class="sxs-lookup"><span data-stu-id="079ad-111">Register the URLs to Listen On</span></span>](#register-the-urls-to-listen-on)
+-   [<span data-ttu-id="079ad-112">Вызов подпрограммы для получения запроса</span><span class="sxs-lookup"><span data-stu-id="079ad-112">Call the Routine to Receive a Request</span></span>](#call-the-routine-to-receive-a-request)
+-   [<span data-ttu-id="079ad-113">Получение запроса</span><span class="sxs-lookup"><span data-stu-id="079ad-113">Receive the Request</span></span>](#receive-the-request)
+-   [<span data-ttu-id="079ad-114">Обработку HTTP-запроса</span><span class="sxs-lookup"><span data-stu-id="079ad-114">Handle the HTTP Request</span></span>](#handle-the-http-request)
+-   [<span data-ttu-id="079ad-115">Отправка HTTP-ответа</span><span class="sxs-lookup"><span data-stu-id="079ad-115">Send the HTTP Response</span></span>](#send-the-http-response)
+-   [<span data-ttu-id="079ad-116">Отправить ответ HTTP POST</span><span class="sxs-lookup"><span data-stu-id="079ad-116">Send the HTTP POST Response</span></span>](#send-the-http-post-response)
+-   [<span data-ttu-id="079ad-117">Очистка API HTTP-сервера</span><span class="sxs-lookup"><span data-stu-id="079ad-117">Clean Up the HTTP Server API</span></span>](#clean-up-the-http-server-api)
+
+## <a name="initialize-the-http-service"></a><span data-ttu-id="079ad-118">Инициализация службы HTTP</span><span class="sxs-lookup"><span data-stu-id="079ad-118">Initialize the HTTP Service</span></span>
+
+<span data-ttu-id="079ad-119">Служба HTTP инициализируется с помощью функции [**хттпинитиализе**](/windows/desktop/api/Http/nf-http-httpinitialize) , а обработчик запросов создается с помощью [**хттпкреатехттфандле**](/windows/desktop/api/Http/nf-http-httpcreatehttphandle).</span><span class="sxs-lookup"><span data-stu-id="079ad-119">The HTTP service is initialized by using the [**HttpInitialize**](/windows/desktop/api/Http/nf-http-httpinitialize) function, and the handle to the request queue is created by using [**HttpCreateHttpHandle**](/windows/desktop/api/Http/nf-http-httpcreatehttphandle).</span></span> <span data-ttu-id="079ad-120">Сервер должен быть инициализирован, прежде чем можно будет вызывать другие функции сервера.</span><span class="sxs-lookup"><span data-stu-id="079ad-120">The server must be initialized before any other server functions can be called.</span></span> <span data-ttu-id="079ad-121">Очередь запросов должна быть создана до того, как служба сможет зарегистрировать URL-адреса для прослушивания входящих HTTP-запросов.</span><span class="sxs-lookup"><span data-stu-id="079ad-121">The request queue must be created before the service can register URLs to listen for incoming HTTP requests.</span></span>
+
+<span data-ttu-id="079ad-122">Дополнительные сведения и пример кода см. в разделе [инициализация службы HTTP](http-server-sample-application.md).</span><span class="sxs-lookup"><span data-stu-id="079ad-122">For more information and a code example, see [Initialize the HTTP Service](http-server-sample-application.md).</span></span>
+
+## <a name="register-the-urls-to-listen-on"></a><span data-ttu-id="079ad-123">Зарегистрируйте URL-адреса для прослушивания</span><span class="sxs-lookup"><span data-stu-id="079ad-123">Register the URLs to Listen On</span></span>
+
+<span data-ttu-id="079ad-124">Для HTTP-API сервера, который должен прослушивать входящие запросы, определенные URL-адреса регистрируются в API путем вызова функции [**хттпаддурл**](/windows/desktop/api/Http/nf-http-httpaddurl) .</span><span class="sxs-lookup"><span data-stu-id="079ad-124">For the HTTP Server API to listen for incoming requests, specific URLs are registered with the API by calling the [**HttpAddUrl**](/windows/desktop/api/Http/nf-http-httpaddurl) function.</span></span> <span data-ttu-id="079ad-125">Входящие запросы, соответствующие этим URL-адресам, направляются в очередь запросов, указанную в этом вызове.</span><span class="sxs-lookup"><span data-stu-id="079ad-125">Incoming requests that match these URLs are routed to the request queue specified in this call.</span></span>
+
+<span data-ttu-id="079ad-126">Дополнительные сведения и пример кода см. в разделе [Регистрация URL-адресов для прослушивания](http-server-sample-application.md).</span><span class="sxs-lookup"><span data-stu-id="079ad-126">For more information and a code example, see [Register the URLs to Listen On](http-server-sample-application.md).</span></span>
+
+## <a name="call-the-routine-to-receive-a-request"></a><span data-ttu-id="079ad-127">Вызов подпрограммы для получения запроса</span><span class="sxs-lookup"><span data-stu-id="079ad-127">Call the Routine to Receive a Request</span></span>
+
+<span data-ttu-id="079ad-128">Функция Дорецеиверекуест выделяет буфер запроса, инициализирует идентификатор запроса и запускает цикл для получения запросов.</span><span class="sxs-lookup"><span data-stu-id="079ad-128">The DoReceiveRequest function allocates the request buffer, initializes the request ID, and starts the loop to receive requests.</span></span>
+
+<span data-ttu-id="079ad-129">Дополнительные сведения и пример кода см. в разделе [вызов подпрограммы для получения запроса](http-server-sample-application.md).</span><span class="sxs-lookup"><span data-stu-id="079ad-129">For more information and a code example, see [Call the Routine to Receive a Request](http-server-sample-application.md).</span></span>
+
+## <a name="receive-the-request"></a><span data-ttu-id="079ad-130">Получение запроса</span><span class="sxs-lookup"><span data-stu-id="079ad-130">Receive the Request</span></span>
+
+<span data-ttu-id="079ad-131">API сервера HTTP предоставляет структуру запросов для хранения проанализированного входящего запроса.</span><span class="sxs-lookup"><span data-stu-id="079ad-131">The HTTP Server API supplies a request structure to store the parsed incoming request.</span></span> <span data-ttu-id="079ad-132">Эта структура выделяется приложением и инициализируется при получении входящего запроса.</span><span class="sxs-lookup"><span data-stu-id="079ad-132">This structure is allocated by the application, and initialized when an incoming request is received.</span></span> <span data-ttu-id="079ad-133">Приложение вызывает функцию [**хттпрецеивехттпрекуест**](/windows/desktop/api/Http/nf-http-httpreceivehttprequest) для получения запроса.</span><span class="sxs-lookup"><span data-stu-id="079ad-133">The application calls the [**HttpReceiveHttpRequest**](/windows/desktop/api/Http/nf-http-httpreceivehttprequest) function to receive the request.</span></span> <span data-ttu-id="079ad-134">Если буфер запроса слишком мал для получения запроса, приложение может увеличить размер буфера и вызвать **хттпрецеивехттпрекуест** еще раз, чтобы получить весь запрос.</span><span class="sxs-lookup"><span data-stu-id="079ad-134">If the request buffer is too small to receive the request, the application can increase the buffer size and call **HttpReceiveHttpRequest** again to receive the entire request.</span></span>
+
+<span data-ttu-id="079ad-135">Дополнительные сведения и пример кода см. в разделе [Получение запроса](http-server-sample-application.md).</span><span class="sxs-lookup"><span data-stu-id="079ad-135">For more information and a code example, see [Receive a Request](http-server-sample-application.md).</span></span>
+
+## <a name="handle-the-http-request"></a><span data-ttu-id="079ad-136">Обработку HTTP-запроса</span><span class="sxs-lookup"><span data-stu-id="079ad-136">Handle the HTTP Request</span></span>
+
+<span data-ttu-id="079ad-137">Пример приложения демонстрирует обработку команд HTTP GET и POST Request.</span><span class="sxs-lookup"><span data-stu-id="079ad-137">The sample application shows how to handle the HTTP GET and POST request verbs.</span></span> <span data-ttu-id="079ad-138">Приложение отправляет ошибку 503 (**не \_ реализовано**), если в запросе есть команды, которые не обрабатываются приложением.</span><span class="sxs-lookup"><span data-stu-id="079ad-138">The application sends a 503 (**NOT\_IMPLEMENTED**) error if verbs are present in the request that the application does not handle.</span></span>
+
+<span data-ttu-id="079ad-139">Обратите внимание, что URL-адрес, используемый для обработки запросов, — это обработанный URL-адрес, содержащийся в элементе **кукедурл** структуры [**HTTP- \_ запроса \_ v1**](/windows/desktop/api/Http/ns-http-http_request_v1) .</span><span class="sxs-lookup"><span data-stu-id="079ad-139">Note that the URL to be used in handling requests is the processed URL contained in the **CookedUrl** member of the [**HTTP\_REQUEST\_V1**](/windows/desktop/api/Http/ns-http-http_request_v1) structure.</span></span> <span data-ttu-id="079ad-140">Не обработайте необработанный URL-адрес в члене **правурл** , который предназначен исключительно для отслеживания и статистических целей.</span><span class="sxs-lookup"><span data-stu-id="079ad-140">Do not the unprocessed URL in the **pRawUrl** member, which is solely for tracking and statistical purposes.</span></span>
+
+<span data-ttu-id="079ad-141">Дополнительные сведения и пример кода см. в разделе об [обработке HTTP-запроса](http-server-sample-application.md).</span><span class="sxs-lookup"><span data-stu-id="079ad-141">For more information and a code example, see [Handle the HTTP Request](http-server-sample-application.md).</span></span>
+
+## <a name="send-the-http-response"></a><span data-ttu-id="079ad-142">Отправка HTTP-ответа</span><span class="sxs-lookup"><span data-stu-id="079ad-142">Send the HTTP Response</span></span>
+
+<span data-ttu-id="079ad-143">Структура ответа выделяется и инициализируется кодом состояния и фразой причины в \_ макросе инициализации HTTP- \_ ответа.</span><span class="sxs-lookup"><span data-stu-id="079ad-143">The response structure is allocated and initialized with the status code and a reason phrase in the INITIALIZE\_HTTP\_RESPONSE macro.</span></span> <span data-ttu-id="079ad-144">Известный заголовок HTTP добавляется в структуру ответа в \_ \_ макросе Add известных заголовков, а тело сущности добавляется в ответ из блока данных из памяти.</span><span class="sxs-lookup"><span data-stu-id="079ad-144">A known HTTP header is added into the response structure in the ADD\_KNOWN\_HEADER macro, and the entity body is added to the response from a data block from memory.</span></span> <span data-ttu-id="079ad-145">Для отправки ответа вызывается функция [**хттпсендхттпреспонсе**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) .</span><span class="sxs-lookup"><span data-stu-id="079ad-145">The [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) function is called to send the response.</span></span> <span data-ttu-id="079ad-146">В этом примере приложение отправляет запрос GET с простым ответом 200 ОК.</span><span class="sxs-lookup"><span data-stu-id="079ad-146">In this example, the application sends a simple 200 OK response to the GET request.</span></span>
+
+<span data-ttu-id="079ad-147">Дополнительные сведения и пример кода см. в разделе [Отправка HTTP-ответа](http-server-sample-application.md).</span><span class="sxs-lookup"><span data-stu-id="079ad-147">For more information and a code example, see [Send an HTTP Response](http-server-sample-application.md).</span></span>
+
+## <a name="send-the-http-post-response"></a><span data-ttu-id="079ad-148">Отправить ответ HTTP POST</span><span class="sxs-lookup"><span data-stu-id="079ad-148">Send the HTTP POST Response</span></span>
+
+<span data-ttu-id="079ad-149">Запрос POST требует больше обработки, чем запрос GET.</span><span class="sxs-lookup"><span data-stu-id="079ad-149">The POST request requires more processing than the GET request.</span></span> <span data-ttu-id="079ad-150">Тело объекта запроса получается путем вызова функции [**хттпрецеиверекуестентитибоди**](/windows/desktop/api/Http/nf-http-httpreceiverequestentitybody) .</span><span class="sxs-lookup"><span data-stu-id="079ad-150">The request entity body is received by calling the [**HttpReceiveRequestEntityBody**](/windows/desktop/api/Http/nf-http-httpreceiverequestentitybody) function.</span></span> <span data-ttu-id="079ad-151">Приложение отправляет ответ и тело сущности ответа в отдельных вызовах API-сервера HTTP.</span><span class="sxs-lookup"><span data-stu-id="079ad-151">The application sends the response and the response entity body in separate calls to the HTTP Server API.</span></span> <span data-ttu-id="079ad-152">Заголовки ответа отправляются с помощью [**хттпсендхттпреспонсе**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse).</span><span class="sxs-lookup"><span data-stu-id="079ad-152">The response headers are sent with the [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse).</span></span> <span data-ttu-id="079ad-153">Тело сущности отправляется в блоке данных из маркера файла с помощью функции [**хттпсендреспонсинтитибоди**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) .</span><span class="sxs-lookup"><span data-stu-id="079ad-153">The entity body is sent in a data block from a file handle with the [**HttpSendResponseEntityBody**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) function.</span></span>
+
+<span data-ttu-id="079ad-154">Дополнительные сведения и пример кода см. в разделе [отправка ответа HTTP POST](http-server-sample-application.md).</span><span class="sxs-lookup"><span data-stu-id="079ad-154">For more information and a code example, see [Send an HTTP POST Response](http-server-sample-application.md).</span></span>
+
+## <a name="clean-up-the-http-server-api"></a><span data-ttu-id="079ad-155">Очистка API HTTP-сервера</span><span class="sxs-lookup"><span data-stu-id="079ad-155">Clean Up the HTTP Server API</span></span>
+
+<span data-ttu-id="079ad-156">Операции очистки для API-сервера HTTP включают:</span><span class="sxs-lookup"><span data-stu-id="079ad-156">The cleanup operations for the HTTP Server API include:</span></span>
+
+-   <span data-ttu-id="079ad-157">Удаляются все зарегистрированные URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="079ad-157">Removing all registered URLs.</span></span>
+-   <span data-ttu-id="079ad-158">Закрытие маркера в очереди запросов.</span><span class="sxs-lookup"><span data-stu-id="079ad-158">Closing the handle to the request queue.</span></span>
+-   <span data-ttu-id="079ad-159">Завершение ресурсов, созданных API-сервером HTTP.</span><span class="sxs-lookup"><span data-stu-id="079ad-159">Terminating the resources created by the HTTP Server API.</span></span>
+
+<span data-ttu-id="079ad-160">Приложение вызывает функцию [**хттпремовеурл**](/windows/desktop/api/Http/nf-http-httpremoveurl) для отмены регистрации URL-адресов, зарегистрированных в начальной функции [**хттпаддурл**](/windows/desktop/api/Http/nf-http-httpaddurl) .</span><span class="sxs-lookup"><span data-stu-id="079ad-160">The application calls the [**HttpRemoveUrl**](/windows/desktop/api/Http/nf-http-httpremoveurl) function to deregister URLs registered by the initial [**HttpAddUrl**](/windows/desktop/api/Http/nf-http-httpaddurl) function.</span></span> <span data-ttu-id="079ad-161">Приложение также вызывает [**хттптерминате**](/windows/desktop/api/Http/nf-http-httpterminate) для каждого вызова [**хттпинитиализе**](/windows/desktop/api/Http/nf-http-httpinitialize) с соответствующими настройками флагов.</span><span class="sxs-lookup"><span data-stu-id="079ad-161">The application also calls [**HttpTerminate**](/windows/desktop/api/Http/nf-http-httpterminate) for each call to [**HttpInitialize**](/windows/desktop/api/Http/nf-http-httpinitialize) with matching flag settings.</span></span> <span data-ttu-id="079ad-162">Этот вызов прерывает все ресурсы, созданные вызовом метода **хттпинитиализе**.</span><span class="sxs-lookup"><span data-stu-id="079ad-162">This call terminates all resources created by the call to **HttpInitialize**.</span></span>
+
+<span data-ttu-id="079ad-163">Дополнительные сведения и пример кода см. в разделе [Очистка API HTTP-сервера](http-server-sample-application.md).</span><span class="sxs-lookup"><span data-stu-id="079ad-163">For more information and a code example, see [Cleanup the HTTP Server API](http-server-sample-application.md).</span></span>
+
+ 
+
+ 
+
+
+
+

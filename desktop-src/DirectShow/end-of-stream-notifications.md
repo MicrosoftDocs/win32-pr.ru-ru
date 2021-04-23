@@ -1,0 +1,47 @@
+---
+description: Уведомления о завершении потока
+ms.assetid: cf2b13bc-5b54-4ac7-8a33-7434126fdf31
+title: Уведомления о завершении потока
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 53fcdfef1225aa5b93b56aeaa0d8ae9d0a8550c9
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104262451"
+---
+# <a name="end-of-stream-notifications"></a><span data-ttu-id="06c3f-103">Уведомления о завершении потока</span><span class="sxs-lookup"><span data-stu-id="06c3f-103">End-of-Stream Notifications</span></span>
+
+<span data-ttu-id="06c3f-104">Когда фильтр источника выполняет отправку данных, он вызывает метод [**Ипин:: EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) для нисходящего входного ПИН-кода.</span><span class="sxs-lookup"><span data-stu-id="06c3f-104">When a source filter is done sending data, it calls the [**IPin::EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) method on the downstream input pin.</span></span> <span data-ttu-id="06c3f-105">Нисходящий фильтр распространяет вызов на следующий фильтр и т. д.</span><span class="sxs-lookup"><span data-stu-id="06c3f-105">The downstream filter propagates the call to the next filter, and so on.</span></span> <span data-ttu-id="06c3f-106">Когда вызов **EndOfStream** достигает модуля подготовки отчетов, модуль подготовки отчетов отправляет событие [**\_ завершения EC**](ec-complete.md) в Диспетчер графа фильтров.</span><span class="sxs-lookup"><span data-stu-id="06c3f-106">When the **EndOfStream** call reaches the renderer, the renderer sends an [**EC\_COMPLETE**](ec-complete.md) event to the Filter Graph Manager.</span></span> <span data-ttu-id="06c3f-107">Если модуль подготовки отчетов имеет несколько входных ПИН-кодов, он доставляет \_ событие EC Complete после того, как каждый входной ПИН-код получил уведомление об окончании потока.</span><span class="sxs-lookup"><span data-stu-id="06c3f-107">If the renderer has multiple input pins, it delivers the EC\_COMPLETE event after every input pin has received the end-of-stream notification.</span></span>
+
+<span data-ttu-id="06c3f-108">Фильтр должен сериализовать вызовы [**EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) с другими вызовами потоковой передачи, например [**Имеминпутпин:: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive).</span><span class="sxs-lookup"><span data-stu-id="06c3f-108">A filter must serialize [**EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) calls with other streaming calls, such as [**IMemInputPin::Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive).</span></span> <span data-ttu-id="06c3f-109">(Иными словами, нисходящий фильтр должен всегда принимать вызовы в правильном порядке.)</span><span class="sxs-lookup"><span data-stu-id="06c3f-109">(In other words, the downstream filter must always receive the calls in the correct order.)</span></span>
+
+<span data-ttu-id="06c3f-110">В некоторых случаях нисходящий фильтр может обнаружить конец потока перед выполнением фильтра источника.</span><span class="sxs-lookup"><span data-stu-id="06c3f-110">In some cases, a downstream filter might detect the end of the stream before the source filter does.</span></span> <span data-ttu-id="06c3f-111">(Например, нисходящий фильтр может анализировать поток.) В этом случае нисходящий фильтр может отправить уведомление о завершении потока. в этом случае он должен вернуть \_ значение false от [**имеминпутпин:: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) до тех пор, пока граф не прекратит работу или не выполнит очистку.</span><span class="sxs-lookup"><span data-stu-id="06c3f-111">(For example, the downstream filter might be parsing the stream.) In that case, the downstream filter can send the end-of-stream notification, in which case it should return S\_FALSE from [**IMemInputPin::Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) until the graph stops or flushes.</span></span> <span data-ttu-id="06c3f-112">\_Возвращаемое значение false информирует фильтр источника о том, что прекращает отправку данных.</span><span class="sxs-lookup"><span data-stu-id="06c3f-112">The S\_FALSE return value informs the source filter to stop sending data.</span></span>
+
+### <a name="default-handling-of-ec_complete"></a><span data-ttu-id="06c3f-113">Обработка по умолчанию EC \_ Complete</span><span class="sxs-lookup"><span data-stu-id="06c3f-113">Default Handling of EC\_COMPLETE</span></span>
+
+<span data-ttu-id="06c3f-114">По умолчанию диспетчер графов фильтров не пересылает каждое \_ событие завершения EC в приложение.</span><span class="sxs-lookup"><span data-stu-id="06c3f-114">By default, the Filter Graph Manager does not forward every EC\_COMPLETE event to the application.</span></span> <span data-ttu-id="06c3f-115">Вместо этого он ждет, пока все потоки не получит сигнал EC о \_ завершении, а затем отправит одно \_ событие завершения EC.</span><span class="sxs-lookup"><span data-stu-id="06c3f-115">Instead, it waits until all streams have signaled EC\_COMPLETE and then sends a single EC\_COMPLETE event.</span></span> <span data-ttu-id="06c3f-116">Поэтому приложение получает событие после завершения каждого потока.</span><span class="sxs-lookup"><span data-stu-id="06c3f-116">Thus, the application receives the event after every stream has completed.</span></span>
+
+<span data-ttu-id="06c3f-117">Чтобы определить количество потоков, диспетчер графа фильтров подсчитывает количество фильтров, поддерживающих поиск (с помощью [**имедиасикинг**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) или [**имедиапоситион**](/windows/desktop/api/Control/nn-control-imediaposition)), и имеет *отображаемый* ПИН-код ввода, который определен как входной ПИН-код без соответствующих выходных данных.</span><span class="sxs-lookup"><span data-stu-id="06c3f-117">To determine the number of streams, the Filter Graph Manager counts the number of filters that support seeking (through [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) or [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition)) and have a *rendered* input pin, which is defined as an input pin with no corresponding outputs.</span></span> <span data-ttu-id="06c3f-118">Диспетчер графов фильтров определяет, отображается ли ПИН-код одним из двух способов:</span><span class="sxs-lookup"><span data-stu-id="06c3f-118">The Filter Graph Manager determines whether a pin is rendered in one of two ways:</span></span>
+
+-   <span data-ttu-id="06c3f-119">Метод [**Ипин:: куеринтерналконнектионс**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryinternalconnections) в закреплениях возвращает ноль в параметре *НПИН* .</span><span class="sxs-lookup"><span data-stu-id="06c3f-119">The pin's [**IPin::QueryInternalConnections**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryinternalconnections) method returns zero in the *nPin* parameter.</span></span>
+-   <span data-ttu-id="06c3f-120">Фильтр предоставляет интерфейс [**иамфилтермискфлагс**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags) и возвращает флаг модуля подготовки к \_ \_ \_ \_ \_ просмотру.</span><span class="sxs-lookup"><span data-stu-id="06c3f-120">The filter exposes the [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags) interface and returns the AM\_FILTER\_MISC\_FLAGS\_IS\_RENDERER flag.</span></span>
+
+### <a name="end-of-stream-notifications-in-pull-mode"></a><span data-ttu-id="06c3f-121">Уведомления о завершении потока в режиме опроса</span><span class="sxs-lookup"><span data-stu-id="06c3f-121">End-of-Stream Notifications in Pull Mode</span></span>
+
+<span data-ttu-id="06c3f-122">В соединении [**иасинкреадер**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) фильтр источника не отправляет уведомление о завершении потока.</span><span class="sxs-lookup"><span data-stu-id="06c3f-122">In an [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) connection, the source filter does not send an end-of-stream notification.</span></span> <span data-ttu-id="06c3f-123">Инстреад это выполняется нисходящим фильтром, который обычно является фильтром синтаксического анализатора.</span><span class="sxs-lookup"><span data-stu-id="06c3f-123">Instread, this is done by the downstream filter, which is typically a parser filter.</span></span> <span data-ttu-id="06c3f-124">Средство синтаксического анализа отправляет вызов [**EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) в нисходящем направлении.</span><span class="sxs-lookup"><span data-stu-id="06c3f-124">The parser sends the [**EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) call downstream.</span></span> <span data-ttu-id="06c3f-125">Он не отправляет один вышестоящий поток в фильтр источника.</span><span class="sxs-lookup"><span data-stu-id="06c3f-125">It does not send one upstream to the source filter.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="06c3f-126">См. также</span><span class="sxs-lookup"><span data-stu-id="06c3f-126">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="06c3f-127">Доставка конца потока</span><span class="sxs-lookup"><span data-stu-id="06c3f-127">Delivering the End of Stream</span></span>](delivering-the-end-of-stream.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

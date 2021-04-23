@@ -1,0 +1,35 @@
+---
+description: Каждая служба выполняется в контексте безопасности учетной записи пользователя.
+ms.assetid: a0e48918-6957-4288-a188-d65198b38c16
+title: Учетные записи пользователей службы
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 54c72f332b8eddbc5b5929718b6688f75e226e59
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103912796"
+---
+# <a name="service-user-accounts"></a><span data-ttu-id="e5460-103">Учетные записи пользователей службы</span><span class="sxs-lookup"><span data-stu-id="e5460-103">Service User Accounts</span></span>
+
+<span data-ttu-id="e5460-104">Каждая служба выполняется в контексте безопасности учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="e5460-104">Each service executes in the security context of a user account.</span></span> <span data-ttu-id="e5460-105">Имя пользователя и пароль учетной записи задаются функцией [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) во время установки службы.</span><span class="sxs-lookup"><span data-stu-id="e5460-105">The user name and password of an account are specified by the [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) function at the time the service is installed.</span></span> <span data-ttu-id="e5460-106">Имя пользователя и пароль можно изменить с помощью функции [**чанжесервицеконфиг**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfiga) .</span><span class="sxs-lookup"><span data-stu-id="e5460-106">The user name and password can be changed by using the [**ChangeServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfiga) function.</span></span> <span data-ttu-id="e5460-107">Для получения имени пользователя (но не пароля), связанного с объектом службы, можно использовать функцию [**куерисервицеконфиг**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga) .</span><span class="sxs-lookup"><span data-stu-id="e5460-107">You can use the [**QueryServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga) function to get the user name (but not the password) associated with a service object.</span></span> <span data-ttu-id="e5460-108">Диспетчер управления службами (SCM) автоматически загружает профиль пользователя.</span><span class="sxs-lookup"><span data-stu-id="e5460-108">The service control manager (SCM) automatically loads the user profile.</span></span>
+
+<span data-ttu-id="e5460-109">При запуске службы SCM входит в учетную запись, связанную со службой.</span><span class="sxs-lookup"><span data-stu-id="e5460-109">When starting a service, the SCM logs on to the account associated with the service.</span></span> <span data-ttu-id="e5460-110">Если вход выполнен успешно, система создает маркер доступа и прикрепляет его к новому процессу службы.</span><span class="sxs-lookup"><span data-stu-id="e5460-110">If the log on is successful, the system produces an access token and attaches it to the new service process.</span></span> <span data-ttu-id="e5460-111">Этот маркер идентифицирует процесс службы во всех последующих взаимодействиях с защищаемыми объектами (объекты, имеющие связанный с ними дескриптор безопасности).</span><span class="sxs-lookup"><span data-stu-id="e5460-111">This token identifies the service process in all subsequent interactions with securable objects (objects that have a security descriptor associated with them).</span></span> <span data-ttu-id="e5460-112">Например, если служба пытается открыть дескриптор канала, система сравнивает маркер доступа службы с дескриптором безопасности канала перед предоставлением доступа.</span><span class="sxs-lookup"><span data-stu-id="e5460-112">For example, if the service tries to open a handle to a pipe, the system compares the service's access token to the pipe's security descriptor before granting access.</span></span>
+
+<span data-ttu-id="e5460-113">SCM не поддерживает пароли учетных записей пользователей служб.</span><span class="sxs-lookup"><span data-stu-id="e5460-113">The SCM does not maintain the passwords of service user accounts.</span></span> <span data-ttu-id="e5460-114">Если срок действия пароля истек, произойдет сбой входа в систему и не удается запустить службу.</span><span class="sxs-lookup"><span data-stu-id="e5460-114">If a password is expired, the logon fails and the service fails to start.</span></span> <span data-ttu-id="e5460-115">Системный администратор, который назначает учетные записи службам, может создавать учетные записи с паролями, срок действия которых никогда не истекает.</span><span class="sxs-lookup"><span data-stu-id="e5460-115">The system administrator who assigns accounts to services can create accounts with passwords that never expire.</span></span> <span data-ttu-id="e5460-116">Администратор может также управлять учетными записями с истекшим сроком действия пароля, используя [программу настройки службы](service-configuration-programs.md) для периодического изменения паролей.</span><span class="sxs-lookup"><span data-stu-id="e5460-116">The administrator can also manage accounts with passwords that expire by using a [service configuration program](service-configuration-programs.md) to periodically change the passwords.</span></span>
+
+<span data-ttu-id="e5460-117">Если службе необходимо распознать другую службу перед предоставлением общего доступа к ней, вторая служба может использовать ту же учетную запись, что и первая служба, или ее можно запустить в учетной записи, принадлежащей псевдониму, который распознается первой службой.</span><span class="sxs-lookup"><span data-stu-id="e5460-117">If a service needs to recognize another service before sharing its information, the second service can either use the same account as the first service, or it can run in an account belonging to an alias that is recognized by the first service.</span></span> <span data-ttu-id="e5460-118">Службы, которые должны выполняться распределенным образом по сети, должны выполняться в учетных записях домена.</span><span class="sxs-lookup"><span data-stu-id="e5460-118">Services that need to run in a distributed manner across the network should run in domain-wide accounts.</span></span>
+
+<span data-ttu-id="e5460-119">Вместо указания учетной записи пользователя для службы можно указать одну из следующих специальных учетных записей.</span><span class="sxs-lookup"><span data-stu-id="e5460-119">You can specify one of the following special accounts instead of specifying a user account for the service:</span></span>
+
+-   [<span data-ttu-id="e5460-120">локальная служба.</span><span class="sxs-lookup"><span data-stu-id="e5460-120">LocalService</span></span>](localservice-account.md)
+-   [<span data-ttu-id="e5460-121">сетевая служба;</span><span class="sxs-lookup"><span data-stu-id="e5460-121">NetworkService</span></span>](networkservice-account.md)
+-   [<span data-ttu-id="e5460-122">локальная система;</span><span class="sxs-lookup"><span data-stu-id="e5460-122">LocalSystem</span></span>](localsystem-account.md)
+
+ 
+
+ 
+
+
+

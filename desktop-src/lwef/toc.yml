@@ -1,0 +1,1634 @@
+- name: Устаревшие функции среды Windows
+  href: legacy-windows-environment.md
+  items:
+    - name: Устаревшие функции оболочки
+      href: legacy-shell-features.md
+      items:
+        - name: Создание подверяющих портфелей
+          href: briefcase-reconcilers.md
+        - name: Создание обработчика очистки диска
+          href: disk-cleanup.md
+        - name: Обработка экранных заставок
+          href: screen-saver-library.md
+        - name: Реализация представления папок
+          href: nse-folderview.md
+        - name: Настройка веб-представления папки
+          href: web-view.md
+        - name: Ярлыки Интернета приложений
+          href: internet-shortcuts.md
+        - name: Использование объекта Active Desktop
+          href: active-desktop-interface.md
+        - name: Создание обработчиков столбцов
+          href: column-handlers.md
+        - name: Создание обработчиков поиска
+          href: search-handlers.md
+        - name: Замена приложения для просмотра изображений и факсов Windows с помощью команды предварительного просмотра
+          href: replacing-picture-fax-viewer.md
+        - name: Мастера фотографий
+          href: photo-wizards-bumper.md
+          items:
+            - name: Мастер сетевой печати
+              href: online-printing-wizard.md
+            - name: Мастер печати фотографий
+              href: photo-printing-wizard.md
+        - name: Мастера публикации
+          href: publishing-wizards.md
+          items:
+            - name: Введение
+              href: pubwiz-intro.md
+            - name: Разработка Client-Side
+              href: pubwiz-client.md
+            - name: Разработка Server-Side
+              href: pubwiz-server.md
+            - name: Регистрация службы
+              href: pubwiz-reg.md
+            - name: Использование манифеста перемещения
+              href: pubwiz-manifest.md
+        - name: Ссылка на устаревшую оболочку
+          href: legacy-shell-reference.md
+          items:
+            - name: иактиведесктоп
+              href: /windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop
+              items:
+                - name: адддесктопитем
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitem
+                - name: адддесктопитемвисуи
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitemwithui
+                - name: аддурл
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-addurl
+                - name: ApplyChanges
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges
+                - name: женератедесктопитемхтмл
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-generatedesktopitemhtml
+                - name: жетдесктопитем
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitem
+                - name: жетдесктопитембид
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembyid
+                - name: жетдесктопитембисаурце
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembysource
+                - name: жетдесктопитемкаунт
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemcount
+                - name: жетдесктопитемоптионс
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemoptions
+                - name: GetPattern
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getpattern
+                - name: Очень фоновый рисунок
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaper
+                - name: жетваллпапероптионс
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaperoptions
+                - name: модифидесктопитем
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-modifydesktopitem
+                - name: ремоведесктопитем
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-removedesktopitem
+                - name: сетдесктопитемоптионс
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setdesktopitemoptions
+                - name: сетпаттерн
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setpattern
+                - name: сетваллпапер
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaper
+                - name: сетваллпапероптионс
+                  href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaperoptions
+            - name: иактиведесктопп
+              href: /windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp
+              items:
+                - name: сетсафемоде
+                  href: /windows/desktop/api/shlobj/nf-shlobj-iactivedesktopp-setsafemode
+            - name: IADesktopP2
+              href: /windows/desktop/api/shlobj/nn-shlobj-iadesktopp2
+              items:
+                - name: упдатеаллдесктопсубскриптионс
+                  href: /windows/desktop/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions
+            - name: иемптиволумекаче
+              href: /windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache
+              items:
+                - name: Отключение
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-deactivate
+                - name: жетспацеусед
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused
+                - name: Инициализация
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize
+                - name: Purge
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-purge
+                - name: шовпропертиес
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-showproperties
+            - name: IEmptyVolumeCache2
+              href: /windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2
+              items:
+                - name: инитиализикс
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex
+            - name: иемптиволумекачекаллбакк
+              href: /windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecachecallback
+              items:
+                - name: пуржепрогресс
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecachecallback-purgeprogress
+                - name: сканпрогресс
+                  href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecachecallback-scanprogress
+            - name: иреконЦилаблеобжект
+              href: /windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject
+              items:
+                - name: жетпрогрессфидбаккмаксестимате
+                  href: /windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-getprogressfeedbackmaxestimate
+                - name: Reconcile
+                  href: /windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile
+            - name: иреконЦилеинитиатор
+              href: ireconcileinitiator.md
+              items:
+                - name: сетаборткаллбакк
+                  href: /previous-versions//bb761345(v=vs.85)
+                - name: сетпрогрессфидбакк
+                  href: /previous-versions//bb761347(v=vs.85)
+            - name: вебвиевфолдерконтентс
+              href: webviewfoldercontents.md
+              items:
+                - name: Методы Вебвиевфолдерконтентс
+                  href: webviewfoldercontents-methods-bumper.md
+                  items:
+                    - name: попупитеммену
+                      href: webviewfoldercontents-popupitemmenu.md
+                    - name: SelectedItems
+                      href: webviewfoldercontents-selecteditems.md
+                    - name: SelectItem
+                      href: webviewfoldercontents-selectitem.md
+                - name: Свойства Вебвиевфолдерконтентс
+                  href: webviewfoldercontents-properties-bumper.md
+                  items:
+                    - name: Приложение
+                      href: webviewfoldercontents-application.md
+                    - name: фокуседитем
+                      href: webviewfoldercontents-focuseditem.md
+                    - name: Папка
+                      href: webviewfoldercontents-folder.md
+                    - name: Parent
+                      href: webviewfoldercontents-parent.md
+                    - name: Скрипт
+                      href: webviewfoldercontents-script.md
+                    - name: виевоптионс
+                      href: webviewfoldercontents-viewoptions.md
+                - name: События Вебвиевфолдерконтентс
+                  href: webviewfoldercontents-events-bumper.md
+                  items:
+                    - name: SelectionChanged
+                      href: webviewfoldercontents-selectionchanged.md
+    - name: Microsoft Agent
+      href: microsoft-agent.md
+      items:
+        - name: Введение в Microsoft Agent
+          href: introduction-to-microsoft-agent.md
+        - name: Изменения Microsoft Agent в Windows Vista
+          href: microsoft-agent-changes-in-windows-vista.md
+        - name: Пользовательский интерфейс Microsoft Agent
+          href: the-microsoft-agent-user-interface.md
+          items:
+            - name: Окно символов
+              href: the-character-window.md
+            - name: Значок панели задач "символ"
+              href: the-character-taskbar-icon.md
+            - name: Окно "Voice Commands"
+              href: the-voice-commands-window.md
+            - name: Всплывающее сообщение
+              href: the-word-balloon.md
+            - name: Окно подсказки для прослушивания
+              href: the-listening-tip-window.md
+            - name: Окно "Дополнительные параметры символов"
+              href: the-advanced-character-options-window.md
+              items:
+                - name: Страница «выходные данные»
+                  href: the-output-page.md
+                - name: Страница речевого ввода
+                  href: the-speech-input-page.md
+                - name: Страница "авторские права"
+                  href: the-copyright-page.md
+            - name: Окно "Свойства символа по умолчанию"
+              href: the-default-character-properties-window.md
+        - name: Программирование Microsoft Agent
+          href: programming-microsoft-agent.md
+          items:
+            - name: Рекомендации по проектированию взаимодействия с символами
+              href: guidelines-for-designing-character-interaction.md
+              items:
+                - name: Общие рекомендации по взаимодействию с символами
+                  href: general-character-interaction-guidelines.md
+                  items:
+                    - name: Быть не эксклюзивным
+                      href: be-non-exclusive.md
+                    - name: Введите соответствующие Отзывы
+                      href: provide-appropriate-feedback.md
+                    - name: Использовать естественный вариант
+                      href: use-natural-variation.md
+                - name: Социальные взаимодействия
+                  href: social-interaction.md
+                  items:
+                    - name: Создание индивидуальной
+                      href: create-personality.md
+                    - name: Просмотрите соответствующий этикет
+                      href: observe-appropriate-etiquette.md
+                    - name: Использование выразить благодарность
+                      href: use-praise.md
+                    - name: Создание командного проигрывателя
+                      href: create-a-team-player.md
+                    - name: Рассмотрите эффекты пола
+                      href: consider-gender-effects.md
+                - name: Распознавание речи
+                  href: speech-recognition.md
+                  items:
+                    - name: 'Прослушивать, не просто распознают'
+                      href: listen--dont-just-recognize.md
+                    - name: Уточнение и ограничение выбора
+                      href: clarify-and-limit-choices.md
+                    - name: Обеспечить хорошее восстановление после ошибок
+                      href: provide-good-error-recovery.md
+                - name: Речевое вывод
+                  href: speech-output.md
+                  items:
+                    - name: Эффективная и естественная
+                      href: be-efficient-and-natural.md
+                    - name: Использование активного голоса
+                      href: use-the-active-voice.md
+                    - name: Используйте соответствующее время и выделение
+                      href: use-appropriate-timing-and-emphasis.md
+            - name: Обзор интерфейса программирования Microsoft Agent
+              href: microsoft-agent-programming-interface-overview.md
+              items:
+                - name: Службы анимации
+                  href: animation-services.md
+                  items:
+                    - name: Загрузка символа
+                      href: loading-a-character.md
+                    - name: Загрузка символа по умолчанию
+                      href: loading-the-default-character.md
+                    - name: Анимация символа
+                      href: animating-a-character.md
+                - name: Входные службы
+                  href: input-services.md
+                  items:
+                    - name: Клиент Input-Active
+                      href: input-active-client.md
+                    - name: Поддержка всплывающего меню
+                      href: pop-up-menu-support.md
+                    - name: Поддержка речевого ввода
+                      href: speech-input-support.md
+                    - name: Выбор обработчика речи
+                      href: speech-engine-selection.md
+                    - name: События речевого ввода
+                      href: speech-input-events.md
+                - name: Окно "Voice Commands"
+                  href: voice-commands-window.md
+                  items:
+                    - name: Совет прослушивания
+                      href: the-listening-tip.md
+                    - name: Окно "Дополнительные параметры символов"
+                      href: the-advanced-character-options-window-.md
+                - name: Службы вывода
+                  href: output-services.md
+                  items:
+                    - name: Синтезированная поддержка речи
+                      href: synthesized-speech-support.md
+                    - name: Поддержка аудио вывода
+                      href: audio-output-support.md
+                    - name: Поддержка всплывающих окон Word
+                      href: word-balloon-support.md
+                    - name: Звуковые эффекты анимации
+                      href: animation-sound-effects.md
+            - name: Программирование элемента управления Microsoft Agent
+              href: programming-the-microsoft-agent-control.md
+              items:
+                - name: Соглашения о документе
+                  href: document-conventions.md
+                - name: Доступ к элементу управления в веб-страницах
+                  href: accessing-the-control-in-web-pages.md
+                  items:
+                    - name: Использование VBScript
+                      href: using-vbscript.md
+                    - name: Использование JavaScript и JScript
+                      href: using-javascript-and-jscript.md
+                - name: Доступ к голосовым службам
+                  href: accessing-speech-services-.md
+                - name: Доступ к элементу управления из Visual Basic и других языков программирования
+                  href: accessing-the-control-from-visual-basic-and-other-programming-languages.md
+                  items:
+                    - name: Создание экземпляра элемента управления
+                      href: creating-an-instance-of-the-control.md
+                    - name: 'Доступ к методам, свойствам и событиям элемента управления'
+                      href: accessing-the-controls-methods--properties--and-events.md
+                    - name: Обновление с предыдущей версии
+                      href: updating-from-previous-version.md
+                - name: Прямой доступ к службам Microsoft Agent Services
+                  href: accessing-microsoft-agent-services-directly.md
+                  items:
+                    - name: Объектная модель агента
+                      href: the-agent-object-model.md
+                - name: Справочник
+                  href: reference-.md
+                  items:
+                    - name: Объект запроса
+                      href: the-request-object.md
+                    - name: Элемент управления агента
+                      href: the-agent-control.md
+                      items:
+                        - name: Методы управления агента
+                          href: agent-control-methods.md
+                          items:
+                            - name: Метод Шовдефаултчарактерпропертиес
+                              href: showdefaultcharacterproperties-method.md
+                        - name: Свойства элемента управления агента
+                          href: agent-control-properties.md
+                          items:
+                            - name: Подключенное свойство
+                              href: connected-property.md
+                            - name: Свойство Name
+                              href: name-property-a.md
+                            - name: 'Раисерекуестеррорс, свойство'
+                              href: raiserequesterrors-property.md
+                        - name: События элемента управления агента
+                          href: agent-control-events.md
+                          items:
+                            - name: Событие Активатеинпут
+                              href: activateinput-event.md
+                            - name: Событие Активеклиентчанже
+                              href: activeclientchange-event.md
+                            - name: Событие Ажентпропертичанже
+                              href: agentpropertychange-event.md
+                            - name: Событие Баллунхиде
+                              href: balloonhide-event.md
+                            - name: Событие Баллуншов
+                              href: balloonshow-event.md
+                            - name: Событие закладки
+                              href: bookmark-event.md
+                            - name: Событие "Щелчок"
+                              href: click-event.md
+                            - name: Командное событие
+                              href: command-event.md
+                            - name: Двойное событие
+                              href: dblclick-event.md
+                            - name: Событие Деактиватеинпут
+                              href: deactivateinput-event.md
+                            - name: Событие Дефаултчарактерчанже
+                              href: defaultcharacterchange-event.md
+                            - name: Событие Драгкомплете
+                              href: dragcomplete-event.md
+                            - name: Событие Драгстарт
+                              href: dragstart-event.md
+                            - name: Событие Хелпкомплете
+                              href: helpcomplete-event.md
+                            - name: Скрыть событие
+                              href: hide-event.md
+                            - name: Событие Идлекомплете
+                              href: idlecomplete-event.md
+                            - name: Событие Идлестарт
+                              href: idlestart-event.md
+                            - name: Событие Листенкомплете
+                              href: listencomplete-event.md
+                            - name: Событие Листенстарт
+                              href: listenstart-event.md
+                            - name: Переместить событие
+                              href: move-event.md
+                            - name: Событие Рекуесткомплете
+                              href: requestcomplete-event.md
+                            - name: Событие Рекуестстарт
+                              href: requeststart-event.md
+                            - name: Отобразить событие
+                              href: show-event.md
+                            - name: Размер события
+                              href: size-event.md
+                    - name: Объект characters
+                      href: the-characters-object.md
+                      items:
+                        - name: Методы объекта character
+                          href: characters-object-methods.md
+                          items:
+                            - name: Символьный метод
+                              href: character-method.md
+                            - name: Метод загрузки
+                              href: load-method.md
+                            - name: Метод выгрузки
+                              href: unload-method.md
+                        - name: Методы символьных объектов
+                          href: character-object-methods.md
+                          items:
+                            - name: Метод Activate
+                              href: activate-method.md
+                            - name: Метод Жестуреат
+                              href: gestureat-method.md
+                            - name: Метод Get
+                              href: get-method.md
+                            - name: 'Hide, метод'
+                              href: hide-method.md
+                            - name: Метод прерывания
+                              href: interrupt-method.md
+                            - name: Метод Listen
+                              href: listen-method.md
+                            - name: 'MoveTo, метод'
+                              href: moveto-method.md
+                            - name: Метод Play
+                              href: play-method.md
+                            - name: Метод отображения
+                              href: show-method.md
+                            - name: Метод Шовпопупмену
+                              href: showpopupmenu-method.md
+                            - name: Метод говорите
+                              href: speak-method.md
+                            - name: Метод Stop
+                              href: stop-method.md
+                            - name: Метод Стопалл
+                              href: stopall-method.md
+                            - name: Метод обработки
+                              href: think-method.md
+                            - name: Метод Wait
+                              href: wait-method.md
+                        - name: Свойства объекта character
+                          href: character-object-properties.md
+                          items:
+                            - name: Активное свойство
+                              href: active-property.md
+                            - name: 'Аутопопупмену, свойство'
+                              href: autopopupmenu-property.md
+                            - name: Свойство Description
+                              href: description-property.md
+                            - name: 'Екстрадата, свойство'
+                              href: extradata-property.md
+                            - name: 'GUID, свойство'
+                              href: guid-property.md
+                            - name: 'Хасосерклиентс, свойство'
+                              href: hasotherclients-property.md
+                            - name: 'Height, свойство'
+                              href: height-property.md
+                            - name: 'Хелпконтекстид, свойство'
+                              href: helpcontextid-property-ch.md
+                            - name: 'HelpFile, свойство'
+                              href: helpfile-property.md
+                            - name: 'Хелпмодеон, свойство'
+                              href: helpmodeon-property.md
+                            - name: 'Идлеон, свойство'
+                              href: idleon-property.md
+                            - name: 'LanguageID, свойство'
+                              href: languageid-property.md
+                            - name: Свойство Left
+                              href: left-property.md
+                            - name: 'Мовекаусе, свойство'
+                              href: movecause-property.md
+                            - name: Свойство Name
+                              href: name-property.md
+                            - name: 'Оригиналхеигхт, свойство'
+                              href: originalheight-property.md
+                            - name: 'Оригиналвидс, свойство'
+                              href: originalwidth-property.md
+                            - name: Свойство "шаг"
+                              href: pitch-property.md
+                            - name: 'Саундеффектсон, свойство'
+                              href: soundeffectson-property.md
+                            - name: Свойство Speed
+                              href: speed-property.md
+                            - name: 'Срмодеид, свойство'
+                              href: srmodeid-property.md
+                            - name: 'Срстатус, свойство'
+                              href: srstatus-property.md
+                            - name: Свойство Top
+                              href: top-property.md
+                            - name: 'Ттсмодеид, свойство'
+                              href: ttsmodeid-property.md
+                            - name: Свойство Version
+                              href: version-property.md
+                            - name: 'Висибилитикаусе, свойство'
+                              href: visibilitycause-property.md
+                            - name: Свойство Visible
+                              href: visible-property-cob.md
+                            - name: 'Width, свойство'
+                              href: width-property-co.md
+                    - name: Объект коллекции Commands
+                      href: the-commands-collection-object.md
+                      items:
+                        - name: Методы объекта Commands
+                          href: commands-object-methods.md
+                          items:
+                            - name: Добавить метод.
+                              href: add-method.md
+                            - name: Метод Command
+                              href: command-method.md
+                            - name: Вставить метод
+                              href: insert-method.md
+                            - name: Удалить метод
+                              href: remove-method.md
+                            - name: Метод RemoveAll
+                              href: removeall-method.md
+                        - name: Свойства объекта Commands
+                          href: commands-object-properties.md
+                          items:
+                            - name: Свойство Caption
+                              href: caption-property-cmds.md
+                            - name: 'Count, свойство'
+                              href: count-property.md
+                            - name: 'Дефаулткомманд, свойство'
+                              href: defaultcommand-property.md
+                            - name: 'FontName, свойство'
+                              href: fontname-property.md
+                            - name: Свойство FontSize
+                              href: fontsize-property.md
+                            - name: 'Глобалвоицекоммандсенаблед, свойство'
+                              href: globalvoicecommandsenabled-property.md
+                            - name: 'Хелпконтекстид, свойство'
+                              href: helpcontextid-property.md
+                            - name: Свойство Visible
+                              href: visible-property-cso.md
+                            - name: Свойство Voice
+                              href: voice-property.md
+                            - name: 'Воицекаптион, свойство'
+                              href: voicecaption-property.md
+                    - name: Объект Command
+                      href: the-command-object.md
+                      items:
+                        - name: Свойства объекта Command
+                          href: command-object-properties.md
+                          items:
+                            - name: Свойство Caption
+                              href: caption-property.md
+                            - name: Свойство достоверности
+                              href: confidence-property.md
+                            - name: 'Конфиденцетекст, свойство'
+                              href: confidencetext-property.md
+                            - name: Свойство Enabled
+                              href: enabled-property-co.md
+                            - name: 'Хелпконтекстид, свойство'
+                              href: helpcontextid-property-com.md
+                            - name: Свойство Visible
+                              href: visible-property-cop.md
+                            - name: Свойство Voice
+                              href: voice-property-c.md
+                            - name: 'Воицекаптион, свойство'
+                              href: voicecaption-property-c.md
+                    - name: Объект всплывающего окна
+                      href: the-balloon-object.md
+                      items:
+                        - name: Свойство BackColor
+                          href: backcolor-property.md
+                        - name: Свойство BorderColor
+                          href: bordercolor-property.md
+                        - name: 'Чарсперлине, свойство'
+                          href: charsperline-property.md
+                        - name: Свойство Enabled
+                          href: enabled-property.md
+                        - name: 'Фонтболд, свойство'
+                          href: fontbold-property.md
+                        - name: 'Фонтчарсет, свойство'
+                          href: fontcharset-property.md
+                        - name: 'Фонтиталик, свойство'
+                          href: fontitalic-property.md
+                        - name: 'FontName, свойство'
+                          href: fontname-property-bal.md
+                        - name: Свойство FontSize
+                          href: fontsize-property-bal.md
+                        - name: 'Фонтстрикесру, свойство'
+                          href: fontstrikethru-property.md
+                        - name: 'Фонтундерлине, свойство'
+                          href: fontunderline-property.md
+                        - name: Свойство ForeColor
+                          href: forecolor-property.md
+                        - name: 'Нумберофлинес, свойство'
+                          href: numberoflines-property.md
+                        - name: Свойство Style
+                          href: style-property.md
+                        - name: Свойство Visible
+                          href: visible-property-bal.md
+                    - name: Коллекция Аниматионнамес
+                      href: the-animationnames-collection.md
+                    - name: Объект Аудиуутпут
+                      href: the-audiooutput-object.md
+                      items:
+                        - name: Свойство Enabled
+                          href: enabled-property-ao.md
+                        - name: 'Саундеффектс, свойство'
+                          href: soundeffects-property.md
+                        - name: Свойство Status
+                          href: status-property.md
+                    - name: Объект Спичинпут
+                      href: the-speechinput-object.md
+                      items:
+                        - name: Свойства Спичинпут
+                          href: speechinput-properties.md
+                          items:
+                            - name: Свойство Enabled
+                              href: enabled-property-sio.md
+                            - name: Свойство горячих клавиш
+                              href: hotkey-property.md
+                            - name: 'Листенингтип, свойство'
+                              href: listeningtip-property.md
+                    - name: Объект Коммандсвиндов
+                      href: the-commandswindow-object.md
+                      items:
+                        - name: Свойства Коммандсвиндов
+                          href: commandswindow-properties.md
+                          items:
+                            - name: 'Height, свойство'
+                              href: height-property-cwo.md
+                            - name: Свойство Left
+                              href: left-property-cwo.md
+                            - name: Свойство Top
+                              href: top-property-cwo.md
+                            - name: Свойство Visible
+                              href: visible-property-cwo.md
+                            - name: 'Width, свойство'
+                              href: width-property.md
+                    - name: Объект страница свойств
+                      href: the-propertysheet-object.md
+                      items:
+                        - name: 'Height, свойство'
+                          href: height-property-pso.md
+                        - name: Свойство Left
+                          href: left-property-pso.md
+                        - name: Свойство страницы
+                          href: page-property.md
+                        - name: Свойство Top
+                          href: top-property-pso.md
+                        - name: Свойство Visible
+                          href: visible-property.md
+                        - name: 'Width, свойство'
+                          href: width-property-pso.md
+            - name: Программирование интерфейса сервера Microsoft Agent
+              href: programming-the-microsoft-agent-server-interface.md
+              items:
+                - name: Добавление функциональных возможностей агента Microsoft Agent в приложение
+                  href: adding-microsoft-agent-functionality-to-your-application.md
+                - name: Загрузка данных символов и анимации
+                  href: loading-character-and-animation-data.md
+                - name: Создание приемника уведомлений
+                  href: creating-a-notification-sink.md
+                - name: Доступ к службам с помощью Java
+                  href: accessing-services-using-java.md
+                - name: Доступ к голосовым службам
+                  href: accessing-speech-services.md
+                - name: Справочник
+                  href: reference.md
+                  items:
+                    - name: иажент
+                      href: iagent.md
+                      items:
+                        - name: 'Иажент:: символ'
+                          href: iagent--getcharacter.md
+                        - name: 'Иажент:: Load'
+                          href: iagent--load.md
+                        - name: 'Иажент:: Register'
+                          href: iagent--register.md
+                        - name: 'Иажент:: unload'
+                          href: iagent--unload.md
+                        - name: 'Иажент:: Отмена регистрации'
+                          href: iagent--unregister.md
+                    - name: иажентаудиуутпутпропертиес
+                      href: iagentaudiooutputproperties.md
+                      items:
+                        - name: 'Иажентаудиуутпутпропертиес:: enable'
+                          href: iagentaudiooutputproperties--getenabled.md
+                        - name: 'Иажентаудиуутпутпропертиес:: Жетусингсаундеффектс'
+                          href: iagentaudiooutputproperties--getusingsoundeffects.md
+                    - name: иажентаудиуутпутпропертиесекс
+                      href: iagentaudiooutputpropertiesex.md
+                      items:
+                        - name: 'Иажентаудиуутпутпропертиесекс::/Status'
+                          href: iagentaudiooutputpropertiesex--getstatus.md
+                    - name: иажентбаллун
+                      href: iagentballoon.md
+                      items:
+                        - name: 'Иажентбаллун:: Жетбаккколор'
+                          href: iagentballoon--getbackcolor.md
+                        - name: 'Иажентбаллун:: Жетбордерколор'
+                          href: iagentballoon--getbordercolor.md
+                        - name: 'Иажентбаллун:: enable'
+                          href: iagentballoon--getenabled.md
+                        - name: 'Иажентбаллун:: Жетфонтболд'
+                          href: iagentballoon--getfontbold.md
+                        - name: 'Иажентбаллун:: Жетфонтчарсет'
+                          href: iagentballoon--getfontcharset.md
+                        - name: 'Иажентбаллун:: Жетфонтиталик'
+                          href: iagentballoon--getfontitalic.md
+                        - name: 'Иажентбаллун:: Жетфонтнаме'
+                          href: iagentballoon--getfontname.md
+                        - name: 'Иажентбаллун:: FontSize'
+                          href: iagentballoon--getfontsize.md
+                        - name: 'Иажентбаллун:: Жетфонтстрикесру'
+                          href: iagentballoon--getfontstrikethru.md
+                        - name: 'Иажентбаллун:: Жетфонтундерлине'
+                          href: iagentballoon--getfontunderline.md
+                        - name: 'Иажентбаллун::/ForeColor'
+                          href: iagentballoon--getforecolor.md
+                        - name: 'Иажентбаллун:: Жетнумчарсперлине'
+                          href: iagentballoon--getnumcharsperline.md
+                        - name: 'Иажентбаллун:: Жетнумлинес'
+                          href: iagentballoon--getnumlines.md
+                        - name: 'Иажентбаллун:: Visible'
+                          href: iagentballoon--getvisible.md
+                        - name: 'Иажентбаллун:: Сетфонтчарсет'
+                          href: iagentballoon--setfontcharset.md
+                        - name: 'Иажентбаллун:: Сетфонтнаме'
+                          href: iagentballoon--setfontname.md
+                        - name: 'Иажентбаллун:: Сетфонтсизе'
+                          href: iagentballoon--setfontsize.md
+                        - name: 'Иажентбаллун:: Сетвисибле'
+                          href: iagentballoon--setvisible.md
+                    - name: иажентбаллунекс
+                      href: iagentballoonex.md
+                      items:
+                        - name: 'Иажентбаллунекс:: штриховка'
+                          href: iagentballoonex--getstyle.md
+                        - name: 'Иажентбаллунекс:: Сетнумчарсперлине'
+                          href: iagentballoonex--setnumcharsperline.md
+                        - name: 'Иажентбаллунекс:: Сетнумлинес'
+                          href: iagentballoonex--setnumlines.md
+                        - name: 'Иажентбаллунекс:: SetStyle'
+                          href: iagentballoonex--setstyle.md
+                    - name: иажентчарактер
+                      href: iagentcharacter.md
+                      items:
+                        - name: 'Иажентчарактер:: Activate'
+                          href: iagentcharacter--activate.md
+                        - name: 'Иажентчарактер:: Жестуреат'
+                          href: iagentcharacter--gestureat.md
+                        - name: 'Иажентчарактер::, описание'
+                          href: iagentcharacter--getdescription.md
+                        - name: 'Иажентчарактер:: Жетекстрадата'
+                          href: iagentcharacter--getextradata.md
+                        - name: 'Иажентчарактер:: Жетидлеон'
+                          href: iagentcharacter--getidleon.md
+                        - name: 'Иажентчарактер:: Жетмовекаусе'
+                          href: iagentcharacter--getmovecause.md
+                        - name: 'Иажентчарактер:: Name'
+                          href: iagentcharacter--getname.md
+                        - name: 'Иажентчарактер:: Disposition'
+                          href: iagentcharacter--getposition.md
+                        - name: 'Иажентчарактер:: DataSize'
+                          href: iagentcharacter--getsize.md
+                        - name: 'Иажентчарактер:: Жетсаундеффектсон'
+                          href: iagentcharacter--getsoundeffectson.md
+                        - name: 'Иажентчарактер:: Жетттспитч'
+                          href: iagentcharacter--getttspitch.md
+                        - name: 'Иажентчарактер:: Жетттсспид'
+                          href: iagentcharacter--getttsspeed.md
+                        - name: 'Иажентчарактер:: Жетвисибилитикаусе'
+                          href: iagentcharacter--getvisibilitycause.md
+                        - name: 'Иажентчарактер:: Visible'
+                          href: iagentcharacter--getvisible.md
+                        - name: 'Иажентчарактер:: Хасосерклиентс'
+                          href: iagentcharacter--hasotherclients.md
+                        - name: 'Иажентчарактер:: Hide'
+                          href: iagentcharacter--hide.md
+                        - name: 'Иажентчарактер:: interrupt'
+                          href: iagentcharacter--interrupt.md
+                        - name: 'Иажентчарактер:: MoveTo'
+                          href: iagentcharacter--moveto.md
+                        - name: 'Иажентчарактер::Pный макет'
+                          href: iagentcharacter--play.md
+                        - name: 'Иажентчарактер::P готовка'
+                          href: iagentcharacter--prepare.md
+                        - name: 'Иажентчарактер:: SetDescription'
+                          href: iagentcharacter--setdescription.md
+                        - name: 'Иажентчарактер:: Сетидлеон'
+                          href: iagentcharacter--setidleon.md
+                        - name: 'Иажентчарактер:: SetName'
+                          href: iagentcharacter--setname.md
+                        - name: 'Иажентчарактер:: SetPosition'
+                          href: iagentcharacter--setposition.md
+                        - name: 'Иажентчарактер:: SetSize'
+                          href: iagentcharacter--setsize.md
+                        - name: 'Иажентчарактер:: Сетсаундеффектсон'
+                          href: iagentcharacter--setsoundeffectson.md
+                        - name: 'Иажентчарактер:: показывать'
+                          href: iagentcharacter--show.md
+                        - name: 'Иажентчарактер:: говорите'
+                          href: iagentcharacter--speak.md
+                        - name: 'Иажентчарактер:: останавливаться'
+                          href: iagentcharacter--stop.md
+                        - name: 'Иажентчарактер:: Стопалл'
+                          href: iagentcharacter--stopall.md
+                        - name: 'Иажентчарактер:: wait'
+                          href: iagentcharacter--wait.md
+                    - name: иажентчарактерекс
+                      href: iagentcharacterex.md
+                      items:
+                        - name: 'Иажентчарактерекс:: onactive'
+                          href: iagentcharacterex--getactive.md
+                        - name: 'Иажентчарактерекс:: Жетаниматионнамес'
+                          href: iagentcharacterex--getanimationnames.md
+                        - name: 'Иажентчарактерекс:: Жетаутопопупмену'
+                          href: iagentcharacterex--getautopopupmenu.md
+                        - name: 'Иажентчарактерекс:: a GUID'
+                          href: iagentcharacterex--getguid.md
+                        - name: 'Иажентчарактерекс:: Жеселпконтекстид'
+                          href: iagentcharacterex--gethelpcontextid.md
+                        - name: 'Иажентчарактерекс:: Жеселпфиленаме'
+                          href: iagentcharacterex--gethelpfilename.md
+                        - name: 'Иажентчарактерекс:: Жеселпмодеон'
+                          href: iagentcharacterex--gethelpmodeon.md
+                        - name: 'Иажентчарактерекс:: Жетлангуажеид'
+                          href: iagentcharacterex--getlanguageid.md
+                        - name: 'Иажентчарактерекс:: Жеторигиналсизе'
+                          href: iagentcharacterex--getoriginalsize.md
+                        - name: 'Иажентчарактерекс:: Жетсрмодеид'
+                          href: iagentcharacterex--getsrmodeid.md
+                        - name: 'Иажентчарактерекс:: Жетсрстатус'
+                          href: iagentcharacterex--getsrstatus.md
+                        - name: 'Иажентчарактерекс:: Жетттсмодеид'
+                          href: iagentcharacterex--getttsmodeid.md
+                        - name: 'Иажентчарактерекс::/версия'
+                          href: iagentcharacterex--getversion.md
+                        - name: 'Иажентчарактерекс:: Listen'
+                          href: iagentcharacterex--listen.md
+                        - name: 'Иажентчарактерекс:: Сетаутопопупмену'
+                          href: iagentcharacterex--setautopopupmenu.md
+                        - name: 'Иажентчарактерекс:: Сеселпконтекстид'
+                          href: iagentcharacterex--sethelpcontextid.md
+                        - name: 'Иажентчарактерекс:: Сеселпфиленаме'
+                          href: iagentcharacterex--sethelpfilename.md
+                        - name: 'Иажентчарактерекс:: Сеселпмодеон'
+                          href: iagentcharacterex--sethelpmodeon.md
+                        - name: 'Иажентчарактерекс:: Сетлангуажеид'
+                          href: iagentcharacterex--setlanguageid.md
+                        - name: 'Иажентчарактерекс:: Сетсрмодеид'
+                          href: iagentcharacterex--setsrmodeid.md
+                        - name: 'Иажентчарактерекс:: Сетттсмодеид'
+                          href: iagentcharacterex--setttsmodeid.md
+                        - name: 'Иажентчарактерекс:: Шовпопупмену'
+                          href: iagentcharacterex--showpopupmenu.md
+                        - name: 'Иажентчарактерекс:: подумать'
+                          href: iagentcharacterex--think.md
+                    - name: иаженткомманд
+                      href: iagentcommand.md
+                      items:
+                        - name: 'Иаженткомманд:: oncaption'
+                          href: iagentcommand--getcaption.md
+                        - name: 'Иаженткомманд:: Жетконфиденцетекст'
+                          href: iagentcommand--getconfidencetext.md
+                        - name: 'Иаженткомманд:: Жетконфиденцесрешолд'
+                          href: iagentcommand--getconfidencethreshold.md
+                        - name: 'Иаженткомманд:: enable'
+                          href: iagentcommand--getenabled.md
+                        - name: 'Иаженткомманд:: GetID'
+                          href: iagentcommand--getid.md
+                        - name: 'Иаженткомманд:: Visible'
+                          href: iagentcommand--getvisible.md
+                        - name: 'Иаженткомманд:: Voice'
+                          href: iagentcommand--getvoice.md
+                        - name: 'Иаженткомманд:: Сеткаптион'
+                          href: iagentcommand--setcaption.md
+                        - name: 'Иаженткомманд:: Сетконфиденцесрешолд'
+                          href: iagentcommand--setconfidencethreshold.md
+                        - name: 'Иаженткомманд:: Сетконфиденцетекст'
+                          href: iagentcommand--setconfidencetext.md
+                        - name: 'Иаженткомманд:: Сетенаблед'
+                          href: iagentcommand--setenabled.md
+                        - name: 'Иаженткомманд:: Сетвисибле'
+                          href: iagentcommand--setvisible.md
+                        - name: 'Иаженткомманд:: Сетвоице'
+                          href: iagentcommand--setvoice.md
+                    - name: иаженткоммандекс
+                      href: iagentcommandex.md
+                      items:
+                        - name: 'Иаженткоммандекс:: Жеселпконтекстид'
+                          href: iagentcommandex--gethelpcontextid.md
+                        - name: 'Иаженткоммандекс:: Жетвоицекаптион'
+                          href: iagentcommandex--getvoicecaption.md
+                        - name: 'Иаженткоммандекс:: Сеселпконтекстид'
+                          href: iagentcommandex--sethelpcontextid.md
+                        - name: 'Иаженткоммандекс:: Сетвоицекаптион'
+                          href: iagentcommandex--setvoicecaption.md
+                    - name: иаженткоммандс
+                      href: iagentcommands.md
+                      items:
+                        - name: 'Иаженткоммандс:: Add'
+                          href: iagentcommands--add.md
+                        - name: 'Иаженткоммандс:: oncaption'
+                          href: iagentcommands--getcaption.md
+                        - name: 'Иаженткоммандс:: Command'
+                          href: iagentcommands--getcommand.md
+                        - name: 'Иаженткоммандс:: NOCOUNT'
+                          href: iagentcommands--getcount.md
+                        - name: 'Иаженткоммандс:: Visible'
+                          href: iagentcommands--getvisible.md
+                        - name: 'Иаженткоммандс:: Voice'
+                          href: iagentcommands--getvoice.md
+                        - name: 'Иаженткоммандс:: INSERT'
+                          href: iagentcommands--insert.md
+                        - name: 'Иаженткоммандс:: Remove'
+                          href: iagentcommands--remove.md
+                        - name: 'Иаженткоммандс:: RemoveAll'
+                          href: iagentcommands--removeall.md
+                        - name: 'Иаженткоммандс:: Сеткаптион'
+                          href: iagentcommands--setcaption.md
+                        - name: 'Иаженткоммандс:: Сетвисибле'
+                          href: iagentcommands--setvisible.md
+                        - name: 'Иаженткоммандс:: Сетвоице'
+                          href: iagentcommands--setvoice.md
+                    - name: иаженткоммандсекс
+                      href: iagentcommandsex.md
+                      items:
+                        - name: 'Иаженткоммандсекс:: Аддекс'
+                          href: iagentcommandsex--addex.md
+                        - name: 'Иаженткоммандсекс:: Жетдефаултид'
+                          href: iagentcommandsex--getdefaultid.md
+                        - name: 'Иаженткоммандсекс:: Жетфонтнаме'
+                          href: iagentcommandsex--getfontname.md
+                        - name: 'Иаженткоммандсекс:: FontSize'
+                          href: iagentcommandsex--getfontsize.md
+                        - name: 'Иаженткоммандсекс:: Жетглобалвоицекоммандсенаблед'
+                          href: iagentcommandsex--getglobalvoicecommandsenabled.md
+                        - name: 'Иаженткоммандсекс:: Жеселпконтекстид'
+                          href: iagentcommandsex--gethelpcontextid.md
+                        - name: 'Иаженткоммандсекс:: Жетвоицекаптион'
+                          href: iagentcommandsex--getvoicecaption.md
+                        - name: 'Иаженткоммандсекс:: Инсертекс'
+                          href: iagentcommandsex--insertex.md
+                        - name: 'Иаженткоммандсекс:: Сетдефаултид'
+                          href: iagentcommandsex--setdefaultid.md
+                        - name: 'Иаженткоммандсекс:: Сетфонтнаме'
+                          href: iagentcommandsex--setfontname.md
+                        - name: 'Иаженткоммандсекс:: Сетфонтсизе'
+                          href: iagentcommandsex--setfontsize.md
+                        - name: 'Иаженткоммандсекс:: Сетглобалвоицекоммандсенаблед'
+                          href: iagentcommandsex--setglobalvoicecommandsenabled.md
+                        - name: 'Иаженткоммандсекс:: Сеселпконтекстид'
+                          href: iagentcommandsex--sethelpcontextid.md
+                        - name: 'Иаженткоммандсекс:: Сетвоицекаптион'
+                          href: iagentcommandsex--setvoicecaption.md
+                    - name: иаженткоммандвиндов
+                      href: iagentcommandwindow.md
+                      items:
+                        - name: 'Иаженткоммандвиндов:: Disposition'
+                          href: iagentcommandwindow--getposition.md
+                        - name: 'Иаженткоммандвиндов:: DataSize'
+                          href: iagentcommandwindow--getsize.md
+                        - name: 'Иаженткоммандвиндов:: Visible'
+                          href: iagentcommandwindow--getvisible.md
+                        - name: 'Иаженткоммандвиндов:: Сетвисибле'
+                          href: iagentcommandwindow--setvisible.md
+                    - name: иажентекс
+                      href: iagentex.md
+                      items:
+                        - name: 'Иажентекс:: Шовдефаултчарактерпропертиес'
+                          href: iagentex--showdefaultcharacterproperties.md
+                        - name: 'Иажентекс::/версия'
+                          href: iagentex--getversion.md
+                    - name: иажентнотифисинк
+                      href: events.md
+                      items:
+                        - name: 'Иажентнотифисинк:: Активатеинпутстате'
+                          href: iagentnotifysink--activateinputstate.md
+                        - name: 'Иажентнотифисинк:: Баллунвисиблестате'
+                          href: iagentnotifysink---balloonvisiblestate.md
+                        - name: 'Иажентнотифисинк:: Bookmark'
+                          href: iagentnotifysink--bookmark.md
+                        - name: 'Иажентнотифисинк:: Click'
+                          href: iagentnotifysink--click.md
+                        - name: 'Иажентнотифисинк:: Command'
+                          href: iagentnotifysink--command.md
+                        - name: 'Иажентнотифисинк::D Блкликк'
+                          href: iagentnotifysink--dblclick.md
+                        - name: 'Иажентнотифисинк::D Рагкомплете'
+                          href: iagentnotifysink--dragcomplete.md
+                        - name: 'Иажентнотифисинк::D Рагстарт'
+                          href: iagentnotifysink--dragstart.md
+                        - name: 'Иажентнотифисинк:: Idle'
+                          href: iagentnotifysink--idle.md
+                        - name: 'Иажентнотифисинк:: Move'
+                          href: iagentnotifysink--move.md
+                        - name: 'Иажентнотифисинк:: Рекуесткомплете'
+                          href: iagentnotifysink--requestcomplete.md
+                        - name: 'Иажентнотифисинк:: Рекуестстарт'
+                          href: iagentnotifysink--requeststart.md
+                        - name: 'Иажентнотифисинк:: size'
+                          href: iagentnotifysink---size.md
+                        - name: 'Иажентнотифисинк:: Висиблестате'
+                          href: iagentnotifysink--visiblestate.md
+                    - name: иажентнотифисинкекс
+                      href: iagentnotifysinkex.md
+                      items:
+                        - name: 'Иажентнотифисинкекс:: Активеклиентчанже'
+                          href: iagentnotifysinkex--activeclientchange.md
+                        - name: 'Иажентнотифисинкекс:: Ажентпропертичанже'
+                          href: iagentnotifysinkex--agentpropertychange.md
+                        - name: 'Иажентнотифисинкекс::D Ефаултчарактерчанже'
+                          href: iagentnotifysinkex--defaultcharacterchange.md
+                        - name: 'Иажентнотифисинкекс:: Хелпкомплете'
+                          href: iagentnotifysinkex--helpcomplete.md
+                        - name: 'Иажентнотифисинкекс:: Листенингстате'
+                          href: iagentnotifysinkex--listeningstate.md
+                    - name: иажентпропертишит
+                      href: iagentpropertysheet.md
+                      items:
+                        - name: 'Иажентпропертишит:: @ Page'
+                          href: iagentpropertysheet--getpage.md
+                        - name: 'Иажентпропертишит:: Disposition'
+                          href: iagentpropertysheet--getposition.md
+                        - name: 'Иажентпропертишит:: DataSize'
+                          href: iagentpropertysheet--getsize.md
+                        - name: 'Иажентпропертишит:: Visible'
+                          href: iagentpropertysheet--getvisible.md
+                        - name: 'Иажентпропертишит:: Сетпаже'
+                          href: iagentpropertysheet--setpage.md
+                        - name: 'Иажентпропертишит:: Сетвисибле'
+                          href: iagentpropertysheet--setvisible.md
+                    - name: иажентспичинпутпропертиес
+                      href: iagentspeechinputproperties.md
+                      items:
+                        - name: 'Иажентспичинпутпропертиес:: enable'
+                          href: iagentspeechinputproperties--getenabled.md
+                        - name: 'Иажентспичинпутпропертиес:: насочетание клавиш'
+                          href: iagentspeechinputproperties--gethotkey.md
+                        - name: 'Иажентспичинпутпропертиес:: Жетлистенингтип'
+                          href: iagentspeechinputproperties--getlisteningtip.md
+                    - name: иажентусеринпут
+                      href: iagentuserinput.md
+                      items:
+                        - name: 'Иажентусеринпут:: Жеталлитемдата'
+                          href: iagentuserinput--getallitemdata.md
+                        - name: 'Иажентусеринпут:: NOCOUNT'
+                          href: iagentuserinput--getcount.md
+                        - name: 'Иажентусеринпут:: Жетитемконфиденце'
+                          href: iagentuserinput--getitemconfidence.md
+                        - name: 'Иажентусеринпут:: Жетитемид'
+                          href: iagentuserinput--getitemid.md
+                        - name: 'Иажентусеринпут:: Жетитемтекст'
+                          href: iagentuserinput--getitemtext.md
+            - name: Часто задаваемые вопросы по программированию и созданию сценариев
+              href: programming-scripting-faq.md
+            - name: Коды ошибок агента Microsoft
+              href: microsoft-agent-error-codes.md
+        - name: Использование речевых модулей с Microsoft Agent
+          href: using-speech-engines-with-microsoft-agent.md
+          items:
+            - name: Доступ к модулю распознавания речи в коде
+              href: accessing-a-speech-engine-in-your-code.md
+            - name: Теги речевого вывода агента Microsoft Agent
+              href: microsoft-agent-speech-output-tags.md
+              items:
+                - name: Тег Chr
+                  href: chr-tag.md
+                - name: Тег CTX
+                  href: ctx-tag.md
+                - name: Тег EMP
+                  href: emp-tag.md
+                - name: Тег LST
+                  href: lst-tag.md
+                - name: Тег Map
+                  href: map-tag.md
+                - name: Тег МРК
+                  href: mrk-tag.md
+                - name: Тег ПАУ
+                  href: pau-tag.md
+                - name: Тег смолы
+                  href: pit-tag.md
+                - name: Тег RST
+                  href: rst-tag.md
+                - name: Тег SPD
+                  href: spd-tag.md
+                - name: Тег Vol
+                  href: vol-tag.md
+            - name: Нормализация текста для модулей преобразования текста в речь
+              href: text-to-speech-engines-text-normalization.md
+            - name: Требования поддержки обработчика речи
+              href: speech-engine-support-requirements.md
+              items:
+                - name: Требования для модулей преобразования текста в речь
+                  href: requirements-for-text-to-speech-engines.md
+                  items:
+                    - name: иттсцентралв
+                      href: ittscentralw.md
+                    - name: иттснотифисинкв
+                      href: ittsnotifysinkw.md
+                    - name: иттсбуфнотифисинкв
+                      href: ittsbufnotifysinkw.md
+                    - name: иттсаттрибутесв
+                      href: ittsattributesw.md
+                - name: Требования для модулей распознавания речи
+                  href: requirements-for-speech-recognition-engines.md
+                - name: Требования для поддержки средства редактирования лингвистических сведений Майкрософт
+                  href: requirements-for-supporting-the-microsoft-linguistic-information-sound-editing-tool.md
+                  items:
+                    - name: Исрресграфекс и Иаттрибутес
+                      href: isrresgraphex-and-iattributes.md
+            - name: 'Другие обработчики речи, совместимые с Microsoft Agent'
+              href: other-speech-engines-compatible-with-microsoft-agent.md
+        - name: Создание символов для Microsoft Agent
+          href: creating-characters-for-microsoft-agent.md
+          items:
+            - name: Разработка символов для Microsoft Agent
+              href: designing-characters-for-microsoft-agent.md
+              items:
+                - name: Characters
+                  href: characters.md
+                - name: Анимации
+                  href: animations.md
+                - name: Состояния агента
+                  href: agent-states.md
+                - name: Принципы анимации
+                  href: animation-principles.md
+            - name: Использование редактора символов Microsoft Agent
+              href: using-the-microsoft-agent-character-editor.md
+              items:
+                - name: Запуск редактора символов агента
+                  href: starting-the-agent-character-editor.md
+                - name: Определение нового символа
+                  href: defining-a-new-character.md
+                - name: Создание анимаций
+                  href: creating-animations.md
+                - name: Справочник по командам
+                  href: command-reference-.md
+                - name: Кнопки панели инструментов
+                  href: toolbar-buttons-.md
+            - name: Разработка символов для Microsoft Office
+              href: designing-characters-for-microsoft-office.md
+              items:
+                - name: Разработка анимации
+                  href: animation-design.md
+                - name: Набор эффектов анимации Office
+                  href: the-office-animation-set.md
+                - name: Установка символа
+                  href: installing-your-character.md
+        - name: Использование средства редактирования лингвистических сведений Майкрософт
+          href: using-the-microsoft-linguistic-information-sound-editing-tool.md
+          items:
+            - name: Установка звукового редактора
+              href: installing-the-sound-editor.md
+            - name: Запуск редактора звука
+              href: starting-the-sound-editor.md
+            - name: Создание нового звукового файла
+              href: creating-a-new-sound-file.md
+            - name: Загрузка существующего звукового файла
+              href: loading-an-existing-sound-file.md
+            - name: Создание лингвистических сведений
+              href: generating-linguistic-information.md
+            - name: Сохранение звукового файла
+              href: saving-a-sound-file.md
+            - name: Использование редактора с другим модулем распознавания речи
+              href: using-the-editor-with-a-different-speech-engine.md
+            - name: Справочник по командам
+              href: command-reference.md
+            - name: Кнопки панели инструментов
+              href: toolbar-buttons.md
+        - name: Устранение неполадок агента Microsoft Agent
+          href: troubleshooting-microsoft-agent.md
+          items:
+            - name: Проблемы установки и загрузки страниц
+              href: installation-and-page-loading-problems.md
+            - name: Проблемы вывода
+              href: output-problems.md
+            - name: Проблемы речевого ввода
+              href: speech-input-problems.md
+        - name: 'Списки анимации для символов, доступных в Майкрософт'
+          href: animation-lists-for-the-characters-available-from-microsoft.md
+          items:
+            - name: Анимация Microsoft Agent для Genie символа
+              href: microsoft-agent-animations-for-genie-character.md
+            - name: Анимация Microsoft Agent для Мерлин символа
+              href: microsoft-agent-animations-for-merlin-character.md
+            - name: Анимация Microsoft Agent для Робби символа
+              href: microsoft-agent-animations-for-robby-character.md
+            - name: Анимация Microsoft Agent для Peedy's символа
+              href: microsoft-agent-animations-for-peedy-character.md
+        - name: Список литературы
+          href: bibliography.md
+    - name: Windows Desktop Search 2. x
+      href: '-search-2x-wds-overview.md'
+      items:
+        - name: Запрос индекса (WDS 2. x)
+          href: '-search-2x-querying-entry-page.md'
+          items:
+            - name: Вызов WDS из веб-страниц
+              href: '-search-2x-wds-browserhelpobject.md'
+            - name: Программный вызов WDS
+              href: '-search-2x-wds-callingwdsprogrammatically.md'
+            - name: Вызов WDS из командной строки
+              href: '-search-2x-wds-fromcommandline.md'
+        - name: Расширение индекса
+          href: '-search-2x-wds-extendingtheindex.md'
+          items:
+            - name: Разработка надстроек IFilter
+              href: '-search-2x-wds-ifilteraddins.md'
+            - name: Разработка надстроек для обработчика протокола
+              href: '-search-2x-wds-phaddins.md'
+              items:
+                - name: Реализация обработчика протокола для WDS
+                  href: '-search-2x-wds-phimplementing.md'
+                - name: Добавление значков и контекстных меню с расширениями оболочки
+                  href: '-search-2x-wds-ph-ui-extensions.md'
+                - name: Уведомление индекса изменений
+                  href: '-search-2x-wds-notifyingofchanges.md'
+                - name: Пример кода пользовательского интерфейса обработчика настраиваемых протоколов
+                  href: '-search-2x-wds-ph-ui-samplecode.md'
+                - name: Установка и регистрация обработчиков протоколов
+                  href: '-search-2x-wds-ph-install-registration.md'
+        - name: схема
+          href: '-search-2x-wds-schematable.md'
+        - name: Синтаксис расширенных запросов
+          href: '-search-2x-wds-aqsreference.md'
+        - name: Наблюдаемые типы
+          href: '-search-2x-wds-perceivedtype.md'
+        - name: Протокол служб индексирования содержимого
+          href: '-search-2x-wds-content-indexing-services-protocol.md'
+        - name: Интерфейсы элементов управления ActiveX WDS 2. x
+          href: '-search-activex-control-reference-entry-page.md'
+          items:
+            - name: ипропертифилтер
+              href: '-search-2x-ipropertyfilter.md'
+              items:
+                - name: индексколумн
+                  href: '-search-2x-ipropertyfilter-indexcolumn.md'
+                - name: логикоператор
+                  href: '-search-2x-ipropertyfilter-logicoperator.md'
+                - name: нестингдепс
+                  href: '-search-2x-ipropertyfilter-nestingdepth.md'
+                - name: Текст
+                  href: '-search-2x-ipropertyfilter-text.md'
+                - name: ИД пользователя
+                  href: '-search-2x-ipropertyfilter-uid.md'
+            - name: ипропертифилтерколлектион
+              href: '-search-2x-ipropertyfiltercollection.md'
+              items:
+                - name: AddItem
+                  href: '-search-2x-ipropertyfiltercollection-additem.md'
+                - name: clear
+                  href: '-search-2x-ipropertyfiltercollection-clear.md'
+                - name: Count
+                  href: '-search-2x-ipropertyfiltercollection-count.md'
+                - name: GetITem
+                  href: '-search-2x-ipropertyfiltercollection-getitem.md'
+                - name: RemoveItem
+                  href: '-search-2x-ipropertyfiltercollection-removeitem.md'
+            - name: иресултпроперти
+              href: '-search-2x-iresultproperty.md'
+              items:
+                - name: DataType
+                  href: '-search-2x-iresultproperty-datatype.md'
+                - name: DisplayName
+                  href: '-search-2x-iresultproperty-displayname.md'
+                - name: DisplayState
+                  href: '-search-2x-iresultproperty-displaystate.md'
+                - name: GoBack
+                  href: '-search-2x-iresultproperty-goback.md'
+                - name: GoForward
+                  href: '-search-2x-iresultproperty-goforward.md'
+                - name: Указание
+                  href: '-search-2x-iresultproperty-hint.md'
+                - name: индексколумн
+                  href: '-search-2x-iresultproperty-indexcolumn.md'
+                - name: ИД пользователя
+                  href: '-search-2x-iresultproperty-uid.md'
+            - name: иресултсвиевер
+              href: '-search-2x-iresultsviewer.md'
+              items:
+                - name: Содержимое
+                  href: '-search-2x-iresultsviewer-contents.md'
+                - name: DisplayName
+                  href: '-search-2x-iresultsviewer-displayname.md'
+                - name: енумселектедитемс
+                  href: '-search-2x-iresultsviewer-enumselecteditems.md'
+                - name: FilterType
+                  href: '-search-2x-iresultsviewer-filtertype.md'
+                - name: GoBack
+                  href: '-search-2x-iresultsviewer-goback.md'
+                - name: GoForward
+                  href: '-search-2x-iresultsviewer-goforward.md'
+                - name: хеадерстиле
+                  href: '-search-2x-iresultsviewer-headerstyle.md'
+                - name: исупдатенидед
+                  href: '-search-2x-iresultsviewer-isupdateneeded.md'
+                - name: ItemStore
+                  href: '-search-2x-iresultsviewer-itemstore.md'
+                - name: превиевстиле
+                  href: '-search-2x-iresultsviewer-previewstyle.md'
+                - name: пропертифилтерс
+                  href: '-search-2x-iresultsviewer-propertyfilters.md'
+                - name: QueryText
+                  href: '-search-2x-iresultsviewer-querytext.md'
+                - name: Обновление
+                  href: '-search-2x-iresultsviewer-refresh.md'
+                - name: ресултсстиле
+                  href: '-search-2x-iresultsviewer-resultsstyle.md'
+                - name: сортордерпроперти
+                  href: '-search-2x-iresultsviewer-sortorderproperty.md'
+                - name: SortProperty
+                  href: '-search-2x-iresultsviewer-sortproperty.md'
+                - name: Stop
+                  href: '-search-2x-iresultsviewer-stop.md'
+                - name: Update
+                  href: '-search-2x-iresultsviewer-update.md'
+            - name: иресулттипе
+              href: '-search-2x-iresulttype.md'
+              items:
+                - name: DisplayName
+                  href: '-search-2x-iresulttype-displayname.md'
+                - name: GetProperty
+                  href: '-search-2x-iresulttype-getproperty.md'
+                - name: прецеиведтипе
+                  href: '-search-2x-iresulttype-preceivedtype.md'
+                - name: пропертикаунт
+                  href: '-search-2x-iresulttype-propertycount.md'
+                - name: ИД пользователя
+                  href: '-search-2x-iresulttype-uid.md'
+            - name: иресултверб
+              href: '-search-2x-iresultverb.md'
+              items:
+                - name: DisplayName
+                  href: '-search-2x-iresultverb-displayname.md'
+                - name: доит
+                  href: '-search-2x-iresultverb-doit.md'
+                - name: Включено
+                  href: '-search-2x-iresultverb-enabled.md'
+                - name: HelpText
+                  href: '-search-2x-iresultverb-helptext.md'
+                - name: Значок
+                  href: '-search-2x-iresultverb-icon.md'
+                - name: Имя
+                  href: '-search-2x-iresultverb-name.md'
+            - name: исеарчресулт
+              href: '-search-2x-isearchresult.md'
+              items:
+                - name: Доступность
+                  href: '-search-2x-isearchresult-availability.md'
+                - name: доверб
+                  href: '-search-2x-isearchresult-doverb.md'
+                - name: Значок
+                  href: '-search-2x-isearchresult-geticon.md'
+                - name: GetThumbnail
+                  href: '-search-2x-isearchresult-getthumbnail.md'
+                - name: GetValue
+                  href: '-search-2x-isearchresult-getvalue.md'
+                - name: Команда verb
+                  href: '-search-2x-isearchresult-getverb.md'
+                - name: иконкаунт
+                  href: '-search-2x-isearchresult-iconcount.md'
+                - name: Индекс
+                  href: '-search-2x-isearchresult-index.md'
+                - name: LoadState
+                  href: '-search-2x-isearchresult-loadstate.md'
+                - name: Средство предварительного просмотра
+                  href: '-search-2x-isearchresult-previewer.md'
+                - name: путвалуе
+                  href: '-search-2x-isearchresult-putvalue.md'
+                - name: сумбнаилстате
+                  href: '-search-2x-isearchresult-thumbnailstate.md'
+                - name: Тип
+                  href: '-search-2x-isearchresult-type.md'
+                - name: вербкаунт
+                  href: '-search-2x-isearchresult-verbcount.md'
+        - name: Справочник по WDS 2. x
+          href: '-search-2x-reference-entry-page.md'
+          items:
+            - name: "Константы и перечисления WDS\_2. x"
+              href: '-search-2x-constants-and-enumerations-entry-page.md'
+              items:
+                - name: чанжеадвисекодес
+                  href: /previous-versions//aa965736(v=vs.85)
+                - name: колумнсортордер
+                  href: /windows/win32/api/mmcobj/ne-mmcobj-_columnsortorder
+                - name: хеадердисплайстиле
+                  href: '-search-2x-headerdisplaystyleenum.md'
+                - name: превиевдисплайстиле
+                  href: '-search-2x-previewdisplaystyleenum.md'
+                - name: ресултсдисплайстиле
+                  href: '-search-2x-resultsdisplaystyle.md'
+                - name: виевконтентс
+                  href: '-search-2x-viewcontents.md'
+            - name: Интерфейсы WDS 2. x
+              href: '-search-2x-interfaces-entry-page.md'
+              items:
+                - name: Игасернотифи (не рекомендуется)
+                  href: /previous-versions//aa965731(v=vs.85)
+                  items:
+                    - name: AddScope (не рекомендуется)
+                      href: '-search-2x-igathernotify-addscope.md'
+                    - name: Init (не рекомендуется)
+                      href: '-search-2x-igathernotify-init.md'
+                    - name: Ондатамове (не рекомендуется)
+                      href: '-search-2x-igathernotify-ondatamove.md'
+                    - name: Ондатачанже (не рекомендуется)
+                      href: '-search-2x-igathernotify-ondatachange.md'
+                    - name: RemoveScope (не рекомендуется)
+                      href: /previous-versions//ff431697(v=vs.85)
+                - name: исеарчдесктоп
+                  href: /previous-versions//aa965729(v=vs.85)
+                  items:
+                    - name: ExecuteQuery
+                      href: /previous-versions//aa965727(v=vs.85)
+                    - name: ексекутесклкуери
+                      href: '-search-2x-isearchdesktop-executesqlquery.md'
+    - name: Защитник Windows
+      href: windows-defender-bumper.md
+      items:
+        - name: Справочник
+          href: defender-ref-entry.md
+          items:
+            - name: Перечисления защитника Windows
+              href: windows-defender-enumerations.md
+              items:
+                - name: MPCALLBACK_TYPE
+                  href: mpcallback-type.md
+                - name: MPCOMPONENT_ID
+                  href: mpcomponent-id.md
+                - name: MPDETECTION_ORIGIN
+                  href: mpdetection-origin.md
+                - name: MPDETECTION_STATE
+                  href: mpdetection-state.md
+                - name: MPEXECUTION_STATUS
+                  href: mpexecution-status.md
+                - name: MP_FASTPATH_TYPE
+                  href: mp-fastpath-type.md
+                - name: MP_HASH_TYPE
+                  href: mp-hash-type.md
+                - name: мпнотифи
+                  href: mpnotify.md
+                - name: MP_PERSISTENCE_LIMIT_TYPE
+                  href: mp-persistence-limit-type.md
+                - name: MP_REMOVAL_REASON
+                  href: mp-removal-reason.md
+                - name: MPRESOLVED_REASON
+                  href: mpresolved-reason.md
+                - name: MPSCAN_TYPE
+                  href: mpscan-type.md
+                - name: MP_SIGNATURE_TYPE
+                  href: mp-signature-type.md
+                - name: мпсаурце
+                  href: mpsource.md
+                - name: MPSTATUS_FLAG
+                  href: mpstatus-flag.md
+                - name: MPTHREAT_ACTION
+                  href: mpthreat-action.md
+                - name: MPTHREAT_CATEGORY
+                  href: mpthreat-category.md
+                - name: MPTHREAT_DETECTION
+                  href: mpthreat-detection.md
+                - name: MPTHREAT_SEVERITY
+                  href: mpthreat-severity.md
+                - name: MPTHREAT_STATUS
+                  href: mpthreat-status.md
+                - name: MPTHREAT_TYPE
+                  href: mpthreat-type.md
+            - name: Функции защитника Windows
+              href: windows-defender-functions.md
+              items:
+                - name: мперрормессажеформат
+                  href: mperrormessageformat.md
+                - name: мпфримемори
+                  href: mpfreememory.md
+                - name: мфандлеклосе
+                  href: mphandleclose.md
+                - name: мпманажеропен
+                  href: mpmanageropen.md
+                - name: мпманажерстатускуери
+                  href: mpmanagerstatusquery.md
+                - name: мпманажерстатускуерекс
+                  href: mpmanagerstatusqueryex.md
+                - name: мпманажерверсионкуери
+                  href: mpmanagerversionquery.md
+                - name: мпсканконтрол
+                  href: mpscancontrol.md
+                - name: мпсканстарт
+                  href: mpscanstart.md
+                - name: мпсреатенумерате
+                  href: mpthreatenumerate.md
+                - name: мпсреатопен
+                  href: mpthreatopen.md
+                - name: мпсреаткуери
+                  href: mpthreatquery.md
+                - name: мпупдатеконтрол
+                  href: mpupdatecontrol.md
+                - name: мпупдатестарт
+                  href: mpupdatestart.md
+                - name: вденабле
+                  href: /windows/desktop/api/Windowsdefender/nf-windowsdefender-wdenable
+                - name: вдстатус
+                  href: /windows/desktop/api/Windowsdefender/nf-windowsdefender-wdstatus
+            - name: Структуры защитника Windows
+              href: windows-defender-structures.md
+              items:
+                - name: MPCALLBACK_DATA
+                  href: mpcallback-data.md
+                - name: MPCLEAN_DATA
+                  href: mpclean-data.md
+                - name: MPCLEAN_PRECHECK_DATA
+                  href: mpclean-precheck-data.md
+                - name: MPCOMPONENT_STATUS
+                  href: mpcomponent-status.md
+                - name: MPCOMPONENT_VERSION
+                  href: mpcomponent-version.md
+                - name: MPCONFIGURATION_DATA
+                  href: mpconfiguration-data.md
+                - name: MPENDOFLIFE_DATA
+                  href: mpendoflife-data.md
+                - name: MPEXPIRATION_DATA
+                  href: mpexpiration-data.md
+                - name: MPFASTPATH_DATA
+                  href: mpfastpath-data.md
+                - name: MPHEALTH_DATA
+                  href: mphealth-data.md
+                - name: MPMALWARETOAST_DATA
+                  href: mpmalwaretoast-data.md
+                - name: MPNIS_PRIVATE_DATA
+                  href: mpnis-private-data.md
+                - name: MPRESERVED_DATA
+                  href: mpreserved-data.md
+                - name: MPRESOURCE_INFO
+                  href: mpresource-info.md
+                - name: MPRESOURCE_STATS
+                  href: mpresource-stats.md
+                - name: MPSAMPLE_DATA
+                  href: mpsample-data.md
+                - name: MPSCAN_DATA
+                  href: mpscan-data.md
+                - name: MPSCAN_RESOURCES
+                  href: mpscan-resources.md
+                - name: MPSCAN_RESULT
+                  href: mpscan-result.md
+                - name: MPSIGUPDATE_DATA
+                  href: mpsigupdate-data.md
+                - name: MPSTATUS_DATA
+                  href: mpstatus-data.md
+                - name: MPSTATUS_DATAEX_UNUSED
+                  href: mpstatus-dataex-unused.md
+                - name: MPSTATUS_INFO
+                  href: mpstatus-info.md
+                - name: MPTHREAT_DATA
+                  href: mpthreat-data.md
+                - name: MPTHREAT_INFO
+                  href: mpthreat-info.md
+                - name: MPTHREAT_INFOEX_BEHAVIOR
+                  href: mpthreat-infoex-behavior.md
+                - name: MPTHREAT_INFOEX_NIS
+                  href: mpthreat-infoex-nis.md
+                - name: MPTHREAT_INFOEX_UNUSED
+                  href: mpthreat-infoex-unused.md
+                - name: MPTHREAT_LOCALIZED_INFO
+                  href: mpthreat-localized-info.md
+                - name: MPTHREAT_STATS
+                  href: mpthreat-stats.md
+                - name: MPTHREAT_STATS_DATA
+                  href: mpthreat-stats-data.md
+                - name: MPVERSION_INFO
+                  href: mpversion-info.md
+    - name: Защита от потери данных конечной точки
+      href: endpointdlp-endpoint-data-loss-prevention.md
+      items:
+        - name: Перечисления защиты от потери данных конечной точки
+          href: endpointdlp-enumerations.md
+          items:
+            - name: длпактионтипе
+              href: endpointdlp-dlpactiontype.md
+            - name: длпаппенфорцелевел
+              href: endpointdlp-dlpappenforcelevel.md
+        - name: Функции защиты от потери данных конечной точки
+          href: endpointdlp-functions.md
+          items:
+            - name: длпнотификлоседокумент
+              href: endpointdlp-dlpnotifyclosedocument.md
+            - name: длпнотификлоседокументфиле
+              href: endpointdlp-dlpnotifyclosedocumentfile.md
+            - name: длпнотифентердроптаржет
+              href: endpointdlp-dlpnotifyenterdroptarget.md
+            - name: длпжетенфорцементапиверсион
+              href: endpointdlp-dlpgetenforcementapiversion.md
+            - name: длпинитиализинфорцементмоде
+              href: endpointdlp-dlpinitializeenforcementmode.md
+            - name: длпмустпастефромсистемклипбоард
+              href: endpointdlp-dlpmustpastefromsystemclipboard.md
+            - name: длпнотифилеаведроптаржет
+              href: endpointdlp-dlpnotifyleavedroptarget.md
+            - name: длпнотифипосткопитоклипбоард
+              href: endpointdlp-dlpnotifypostcopytoclipboard.md
+            - name: длпнотифипостдрагдроп
+              href: endpointdlp-dlpnotifypostdragdrop.md
+            - name: длпнотифипостопендокумент
+              href: endpointdlp-dlpnotifypostopendocument.md
+            - name: длпнотифипостопендокументфиле
+              href: endpointdlp-dlpnotifypostopendocumentfile.md
+            - name: длпнотифипостпастефромклипбоард
+              href: endpointdlp-dlpnotifypostpastefromclipboard.md
+            - name: длпнотифипостпринт
+              href: endpointdlp-dlpnotifypostprint.md
+            - name: длпнотифипостсавеасдокумент
+              href: endpointdlp-dlpnotifypostsaveasdocument.md
+            - name: длпнотифипостстартпринт
+              href: endpointdlp-dlpnotifypoststartprint.md
+            - name: длпнотифипостсташклипбоард
+              href: endpointdlp-dlpnotifypoststashclipboard.md
+            - name: длпнотифипрекопитоклипбоард
+              href: endpointdlp-dlpnotifyprecopytoclipboard.md
+            - name: длпнотифипредрагдроп
+              href: endpointdlp-dlpnotifypredragdrop.md
+            - name: длпнотифипреопендокумент
+              href: endpointdlp-dlpnotifypreopendocument.md
+            - name: длпнотифипреопендокументфиле
+              href: endpointdlp-dlpnotifypreopendocumentfile.md
+            - name: длпнотифипрепастефромклипбоард
+              href: endpointdlp-dlpnotifyprepastefromclipboard.md
+            - name: длпнотифипрепринт
+              href: endpointdlp-dlpnotifypreprint.md
+            - name: длпнотифипресавеасдокумент
+              href: endpointdlp-dlpnotifypresaveasdocument.md
+            - name: длпнотифипресташклипбоард
+              href: endpointdlp-dlpnotifyprestashclipboard.md
+        - name: Структуры защиты от потери данных конечной точки
+          href: endpointdlp-structures.md
+          items:
+            - name: DLP_APP_OP_ENLIGHTENED_LEVEL
+              href: endpointdlp-dlp_app_op_enlightened_level.md
+            - name: DLP_DOCUMENT_INFO
+              href: endpointdlp-dlp_document_info.md
+            - name: DLP_POSTOP_STATUS
+              href: enpointdlp-dlp_postop_status.md
+            - name: DLP_PRINT_INFO
+              href: endpointdlp-dlp_print_info.md
