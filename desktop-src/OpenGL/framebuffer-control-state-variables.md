@@ -12,150 +12,150 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d44327858ae43212fcaa4364ed23045de5e0296f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 998414271956de44710e9ef456722d7499adb862
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103889308"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910082"
 ---
-# <a name="framebuffer-control-state-variables"></a><span data-ttu-id="9aedd-104">Переменные состояния элемента управления буфера кадров</span><span class="sxs-lookup"><span data-stu-id="9aedd-104">Framebuffer Control State Variables</span></span>
+# <a name="framebuffer-control-state-variables"></a><span data-ttu-id="a2856-104">Переменные состояния элемента управления буфера кадров</span><span class="sxs-lookup"><span data-stu-id="a2856-104">Framebuffer Control State Variables</span></span>
 
-<dl> <span data-ttu-id="9aedd-105"><dt><span id="GL_DRAW_BUFFER"></span><span id="gl_draw_buffer"></span>\_буфер рисования \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="9aedd-105"><dt><span id="GL_DRAW_BUFFER"></span><span id="gl_draw_buffer"></span>GL\_DRAW\_BUFFER</dt> </span></span><dd> 
+<dl> <span data-ttu-id="a2856-105"><dt><span id="GL_DRAW_BUFFER"></span><span id="gl_draw_buffer"></span>\_буфер рисования \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="a2856-105"><dt><span id="GL_DRAW_BUFFER"></span><span id="gl_draw_buffer"></span>GL\_DRAW\_BUFFER</dt> </span></span><dd> 
 
-|                  |                                        |
+| <span data-ttu-id="a2856-106">Свойство</span><span class="sxs-lookup"><span data-stu-id="a2856-106">Property</span></span> | <span data-ttu-id="a2856-107">Значение</span><span class="sxs-lookup"><span data-stu-id="a2856-107">Value</span></span> |
 |------------------|----------------------------------------|
-| <span data-ttu-id="9aedd-106">Описание.</span><span class="sxs-lookup"><span data-stu-id="9aedd-106">Description:</span></span>     | <span data-ttu-id="9aedd-107">Буферы, выбранные для рисования</span><span class="sxs-lookup"><span data-stu-id="9aedd-107">Buffers selected for drawing</span></span>           |
-| <span data-ttu-id="9aedd-108">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="9aedd-108">Attribute group:</span></span> | <span data-ttu-id="9aedd-109">цветовой буфер</span><span class="sxs-lookup"><span data-stu-id="9aedd-109">color-buffer</span></span>                           |
-| <span data-ttu-id="9aedd-110">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="9aedd-110">Initial value:</span></span>   |                                        |
-| <span data-ttu-id="9aedd-111">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="9aedd-111">Get command:</span></span>     | [<span data-ttu-id="9aedd-112">**глжетинтежерв**</span><span class="sxs-lookup"><span data-stu-id="9aedd-112">**glGetIntegerv**</span></span>](glgetintegerv.md) |
+| <span data-ttu-id="a2856-108">Описание.</span><span class="sxs-lookup"><span data-stu-id="a2856-108">Description:</span></span>     | <span data-ttu-id="a2856-109">Буферы, выбранные для рисования</span><span class="sxs-lookup"><span data-stu-id="a2856-109">Buffers selected for drawing</span></span>           |
+| <span data-ttu-id="a2856-110">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="a2856-110">Attribute group:</span></span> | <span data-ttu-id="a2856-111">цветовой буфер</span><span class="sxs-lookup"><span data-stu-id="a2856-111">color-buffer</span></span>                           |
+| <span data-ttu-id="a2856-112">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="a2856-112">Initial value:</span></span>   |                                        |
+| <span data-ttu-id="a2856-113">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="a2856-113">Get command:</span></span>     | [<span data-ttu-id="a2856-114">**глжетинтежерв**</span><span class="sxs-lookup"><span data-stu-id="a2856-114">**glGetIntegerv**</span></span>](glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="9aedd-113"></dd> <dt><span id="GL_INDEX_WRITEMASK"></span><span id="gl_index_writemask"></span>\_вритемаск индекса \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="9aedd-113"></dd> <dt><span id="GL_INDEX_WRITEMASK"></span><span id="gl_index_writemask"></span>GL\_INDEX\_WRITEMASK</dt> </span></span><dd> 
+<span data-ttu-id="a2856-115"></dd> <dt><span id="GL_INDEX_WRITEMASK"></span><span id="gl_index_writemask"></span>\_вритемаск индекса \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="a2856-115"></dd> <dt><span id="GL_INDEX_WRITEMASK"></span><span id="gl_index_writemask"></span>GL\_INDEX\_WRITEMASK</dt> </span></span><dd> 
 
-|                  |                                                                                  |
+| <span data-ttu-id="a2856-116">Свойство</span><span class="sxs-lookup"><span data-stu-id="a2856-116">Property</span></span> | <span data-ttu-id="a2856-117">Значение</span><span class="sxs-lookup"><span data-stu-id="a2856-117">Value</span></span> |
 |------------------|----------------------------------------------------------------------------------|
-| <span data-ttu-id="9aedd-114">Описание.</span><span class="sxs-lookup"><span data-stu-id="9aedd-114">Description:</span></span>     | <span data-ttu-id="9aedd-115">Цвет — индекс вритемаск</span><span class="sxs-lookup"><span data-stu-id="9aedd-115">Color-index writemask</span></span>                                                            |
-| <span data-ttu-id="9aedd-116">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="9aedd-116">Attribute group:</span></span> | <span data-ttu-id="9aedd-117">цветовой буфер</span><span class="sxs-lookup"><span data-stu-id="9aedd-117">color-buffer</span></span>                                                                     |
-| <span data-ttu-id="9aedd-118">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="9aedd-118">Initial value:</span></span>   | <span data-ttu-id="9aedd-119">1</span><span class="sxs-lookup"><span data-stu-id="9aedd-119">1's</span></span>                                                                              |
-| <span data-ttu-id="9aedd-120">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="9aedd-120">Get command:</span></span>     | [<span data-ttu-id="9aedd-121">**глжетинтежерв**</span><span class="sxs-lookup"><span data-stu-id="9aedd-121">**glGetIntegerv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="a2856-118">Описание.</span><span class="sxs-lookup"><span data-stu-id="a2856-118">Description:</span></span>     | <span data-ttu-id="a2856-119">Цвет — индекс вритемаск</span><span class="sxs-lookup"><span data-stu-id="a2856-119">Color-index writemask</span></span>                                                            |
+| <span data-ttu-id="a2856-120">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="a2856-120">Attribute group:</span></span> | <span data-ttu-id="a2856-121">цветовой буфер</span><span class="sxs-lookup"><span data-stu-id="a2856-121">color-buffer</span></span>                                                                     |
+| <span data-ttu-id="a2856-122">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="a2856-122">Initial value:</span></span>   | <span data-ttu-id="a2856-123">1</span><span class="sxs-lookup"><span data-stu-id="a2856-123">1's</span></span>                                                                              |
+| <span data-ttu-id="a2856-124">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="a2856-124">Get command:</span></span>     | [<span data-ttu-id="a2856-125">**глжетинтежерв**</span><span class="sxs-lookup"><span data-stu-id="a2856-125">**glGetIntegerv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="9aedd-122"></dd> <dt><span id="GL_COLOR_WRITEMASK"></span><span id="gl_color_writemask"></span>\_вритемаск цвета \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="9aedd-122"></dd> <dt><span id="GL_COLOR_WRITEMASK"></span><span id="gl_color_writemask"></span>GL\_COLOR\_WRITEMASK</dt> </span></span><dd> 
+<span data-ttu-id="a2856-126"></dd> <dt><span id="GL_COLOR_WRITEMASK"></span><span id="gl_color_writemask"></span>\_вритемаск цвета \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="a2856-126"></dd> <dt><span id="GL_COLOR_WRITEMASK"></span><span id="gl_color_writemask"></span>GL\_COLOR\_WRITEMASK</dt> </span></span><dd> 
 
-|                  |                                                                                  |
+| <span data-ttu-id="a2856-127">Свойство</span><span class="sxs-lookup"><span data-stu-id="a2856-127">Property</span></span> | <span data-ttu-id="a2856-128">Значение</span><span class="sxs-lookup"><span data-stu-id="a2856-128">Value</span></span> |
 |------------------|----------------------------------------------------------------------------------|
-| <span data-ttu-id="9aedd-123">Описание.</span><span class="sxs-lookup"><span data-stu-id="9aedd-123">Description:</span></span>     | <span data-ttu-id="9aedd-124">Разрешение на запись цвета; R, G, B или A</span><span class="sxs-lookup"><span data-stu-id="9aedd-124">Color write enables; R, G, B, or A</span></span>                                               |
-| <span data-ttu-id="9aedd-125">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="9aedd-125">Attribute group:</span></span> | <span data-ttu-id="9aedd-126">цветовой буфер</span><span class="sxs-lookup"><span data-stu-id="9aedd-126">color-buffer</span></span>                                                                     |
-| <span data-ttu-id="9aedd-127">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="9aedd-127">Initial value:</span></span>   | <span data-ttu-id="9aedd-128">значение по ГК \_</span><span class="sxs-lookup"><span data-stu-id="9aedd-128">GL\_TRUE</span></span>                                                                         |
-| <span data-ttu-id="9aedd-129">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="9aedd-129">Get command:</span></span>     | [<span data-ttu-id="9aedd-130">**глжетбулеанв**</span><span class="sxs-lookup"><span data-stu-id="9aedd-130">**glGetBooleanv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="a2856-129">Описание.</span><span class="sxs-lookup"><span data-stu-id="a2856-129">Description:</span></span>     | <span data-ttu-id="a2856-130">Разрешение на запись цвета; R, G, B или A</span><span class="sxs-lookup"><span data-stu-id="a2856-130">Color write enables; R, G, B, or A</span></span>                                               |
+| <span data-ttu-id="a2856-131">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="a2856-131">Attribute group:</span></span> | <span data-ttu-id="a2856-132">цветовой буфер</span><span class="sxs-lookup"><span data-stu-id="a2856-132">color-buffer</span></span>                                                                     |
+| <span data-ttu-id="a2856-133">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="a2856-133">Initial value:</span></span>   | <span data-ttu-id="a2856-134">значение по ГК \_</span><span class="sxs-lookup"><span data-stu-id="a2856-134">GL\_TRUE</span></span>                                                                         |
+| <span data-ttu-id="a2856-135">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="a2856-135">Get command:</span></span>     | [<span data-ttu-id="a2856-136">**глжетбулеанв**</span><span class="sxs-lookup"><span data-stu-id="a2856-136">**glGetBooleanv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="9aedd-131"></dd> <dt><span id="GL_DEPTH_WRITEMASK"></span><span id="gl_depth_writemask"></span>\_вритемаск глубины \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="9aedd-131"></dd> <dt><span id="GL_DEPTH_WRITEMASK"></span><span id="gl_depth_writemask"></span>GL\_DEPTH\_WRITEMASK</dt> </span></span><dd> 
+<span data-ttu-id="a2856-137"></dd> <dt><span id="GL_DEPTH_WRITEMASK"></span><span id="gl_depth_writemask"></span>\_вритемаск глубины \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="a2856-137"></dd> <dt><span id="GL_DEPTH_WRITEMASK"></span><span id="gl_depth_writemask"></span>GL\_DEPTH\_WRITEMASK</dt> </span></span><dd> 
 
-|                  |                                                                                  |
+| <span data-ttu-id="a2856-138">Свойство</span><span class="sxs-lookup"><span data-stu-id="a2856-138">Property</span></span> | <span data-ttu-id="a2856-139">Значение</span><span class="sxs-lookup"><span data-stu-id="a2856-139">Value</span></span> |
 |------------------|----------------------------------------------------------------------------------|
-| <span data-ttu-id="9aedd-132">Описание.</span><span class="sxs-lookup"><span data-stu-id="9aedd-132">Description:</span></span>     | <span data-ttu-id="9aedd-133">Буфер глубины, включенный для записи</span><span class="sxs-lookup"><span data-stu-id="9aedd-133">Depth buffer enabled for writing</span></span>                                                 |
-| <span data-ttu-id="9aedd-134">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="9aedd-134">Attribute group:</span></span> | <span data-ttu-id="9aedd-135">буфер глубины</span><span class="sxs-lookup"><span data-stu-id="9aedd-135">depth-buffer</span></span>                                                                     |
-| <span data-ttu-id="9aedd-136">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="9aedd-136">Initial value:</span></span>   | <span data-ttu-id="9aedd-137">значение по ГК \_</span><span class="sxs-lookup"><span data-stu-id="9aedd-137">GL\_TRUE</span></span>                                                                         |
-| <span data-ttu-id="9aedd-138">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="9aedd-138">Get command:</span></span>     | [<span data-ttu-id="9aedd-139">**глжетбулеанв**</span><span class="sxs-lookup"><span data-stu-id="9aedd-139">**glGetBooleanv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="a2856-140">Описание.</span><span class="sxs-lookup"><span data-stu-id="a2856-140">Description:</span></span>     | <span data-ttu-id="a2856-141">Буфер глубины, включенный для записи</span><span class="sxs-lookup"><span data-stu-id="a2856-141">Depth buffer enabled for writing</span></span>                                                 |
+| <span data-ttu-id="a2856-142">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="a2856-142">Attribute group:</span></span> | <span data-ttu-id="a2856-143">буфер глубины</span><span class="sxs-lookup"><span data-stu-id="a2856-143">depth-buffer</span></span>                                                                     |
+| <span data-ttu-id="a2856-144">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="a2856-144">Initial value:</span></span>   | <span data-ttu-id="a2856-145">значение по ГК \_</span><span class="sxs-lookup"><span data-stu-id="a2856-145">GL\_TRUE</span></span>                                                                         |
+| <span data-ttu-id="a2856-146">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="a2856-146">Get command:</span></span>     | [<span data-ttu-id="a2856-147">**глжетбулеанв**</span><span class="sxs-lookup"><span data-stu-id="a2856-147">**glGetBooleanv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="9aedd-140"></dd> <dt><span id="GL_STENCIL_WRITEMASK"></span><span id="gl_stencil_writemask"></span>\_вритемаск трафарета GL \_</dt> </span><span class="sxs-lookup"><span data-stu-id="9aedd-140"></dd> <dt><span id="GL_STENCIL_WRITEMASK"></span><span id="gl_stencil_writemask"></span>GL\_STENCIL\_WRITEMASK</dt> </span></span><dd> 
+<span data-ttu-id="a2856-148"></dd> <dt><span id="GL_STENCIL_WRITEMASK"></span><span id="gl_stencil_writemask"></span>\_вритемаск трафарета GL \_</dt> </span><span class="sxs-lookup"><span data-stu-id="a2856-148"></dd> <dt><span id="GL_STENCIL_WRITEMASK"></span><span id="gl_stencil_writemask"></span>GL\_STENCIL\_WRITEMASK</dt> </span></span><dd> 
 
-|                  |                                                                                  |
+| <span data-ttu-id="a2856-149">Свойство</span><span class="sxs-lookup"><span data-stu-id="a2856-149">Property</span></span> | <span data-ttu-id="a2856-150">Значение</span><span class="sxs-lookup"><span data-stu-id="a2856-150">Value</span></span> |
 |------------------|----------------------------------------------------------------------------------|
-| <span data-ttu-id="9aedd-141">Описание.</span><span class="sxs-lookup"><span data-stu-id="9aedd-141">Description:</span></span>     | <span data-ttu-id="9aedd-142">Набор элементов — буфер вритемаск</span><span class="sxs-lookup"><span data-stu-id="9aedd-142">Stencil-buffer writemask</span></span>                                                         |
-| <span data-ttu-id="9aedd-143">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="9aedd-143">Attribute group:</span></span> | <span data-ttu-id="9aedd-144">набор элементов-буфер</span><span class="sxs-lookup"><span data-stu-id="9aedd-144">stencil-buffer</span></span>                                                                   |
-| <span data-ttu-id="9aedd-145">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="9aedd-145">Initial value:</span></span>   | <span data-ttu-id="9aedd-146">1</span><span class="sxs-lookup"><span data-stu-id="9aedd-146">1's</span></span>                                                                              |
-| <span data-ttu-id="9aedd-147">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="9aedd-147">Get command:</span></span>     | [<span data-ttu-id="9aedd-148">**глжетинтежерв**</span><span class="sxs-lookup"><span data-stu-id="9aedd-148">**glGetIntegerv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="a2856-151">Описание.</span><span class="sxs-lookup"><span data-stu-id="a2856-151">Description:</span></span>     | <span data-ttu-id="a2856-152">Набор элементов — буфер вритемаск</span><span class="sxs-lookup"><span data-stu-id="a2856-152">Stencil-buffer writemask</span></span>                                                         |
+| <span data-ttu-id="a2856-153">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="a2856-153">Attribute group:</span></span> | <span data-ttu-id="a2856-154">набор элементов-буфер</span><span class="sxs-lookup"><span data-stu-id="a2856-154">stencil-buffer</span></span>                                                                   |
+| <span data-ttu-id="a2856-155">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="a2856-155">Initial value:</span></span>   | <span data-ttu-id="a2856-156">1</span><span class="sxs-lookup"><span data-stu-id="a2856-156">1's</span></span>                                                                              |
+| <span data-ttu-id="a2856-157">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="a2856-157">Get command:</span></span>     | [<span data-ttu-id="a2856-158">**глжетинтежерв**</span><span class="sxs-lookup"><span data-stu-id="a2856-158">**glGetIntegerv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="9aedd-149"></dd> <dt><span id="GL_COLOR_CLEAR_VALUE"></span><span id="gl_color_clear_value"></span>\_ \_ ясное значение цвета GL \_</dt> </span><span class="sxs-lookup"><span data-stu-id="9aedd-149"></dd> <dt><span id="GL_COLOR_CLEAR_VALUE"></span><span id="gl_color_clear_value"></span>GL\_COLOR\_CLEAR\_VALUE</dt> </span></span><dd> 
+<span data-ttu-id="a2856-159"></dd> <dt><span id="GL_COLOR_CLEAR_VALUE"></span><span id="gl_color_clear_value"></span>\_ \_ ясное значение цвета GL \_</dt> </span><span class="sxs-lookup"><span data-stu-id="a2856-159"></dd> <dt><span id="GL_COLOR_CLEAR_VALUE"></span><span id="gl_color_clear_value"></span>GL\_COLOR\_CLEAR\_VALUE</dt> </span></span><dd> 
 
-|                  |                                                                                |
+| <span data-ttu-id="a2856-160">Свойство</span><span class="sxs-lookup"><span data-stu-id="a2856-160">Property</span></span> | <span data-ttu-id="a2856-161">Значение</span><span class="sxs-lookup"><span data-stu-id="a2856-161">Value</span></span> |
 |------------------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="9aedd-150">Описание.</span><span class="sxs-lookup"><span data-stu-id="9aedd-150">Description:</span></span>     | <span data-ttu-id="9aedd-151">Очистить значение буферного цвета (режим RGBA)</span><span class="sxs-lookup"><span data-stu-id="9aedd-151">Color-buffer clear value (RGBA mode)</span></span>                                           |
-| <span data-ttu-id="9aedd-152">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="9aedd-152">Attribute group:</span></span> | <span data-ttu-id="9aedd-153">цветовой буфер</span><span class="sxs-lookup"><span data-stu-id="9aedd-153">color-buffer</span></span>                                                                   |
-| <span data-ttu-id="9aedd-154">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="9aedd-154">Initial value:</span></span>   | <span data-ttu-id="9aedd-155">0, 0, 0, 0</span><span class="sxs-lookup"><span data-stu-id="9aedd-155">0, 0, 0, 0</span></span>                                                                     |
-| <span data-ttu-id="9aedd-156">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="9aedd-156">Get command:</span></span>     | [<span data-ttu-id="9aedd-157">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="9aedd-157">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="a2856-162">Описание.</span><span class="sxs-lookup"><span data-stu-id="a2856-162">Description:</span></span>     | <span data-ttu-id="a2856-163">Очистить значение буферного цвета (режим RGBA)</span><span class="sxs-lookup"><span data-stu-id="a2856-163">Color-buffer clear value (RGBA mode)</span></span>                                           |
+| <span data-ttu-id="a2856-164">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="a2856-164">Attribute group:</span></span> | <span data-ttu-id="a2856-165">цветовой буфер</span><span class="sxs-lookup"><span data-stu-id="a2856-165">color-buffer</span></span>                                                                   |
+| <span data-ttu-id="a2856-166">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="a2856-166">Initial value:</span></span>   | <span data-ttu-id="a2856-167">0, 0, 0, 0</span><span class="sxs-lookup"><span data-stu-id="a2856-167">0, 0, 0, 0</span></span>                                                                     |
+| <span data-ttu-id="a2856-168">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="a2856-168">Get command:</span></span>     | [<span data-ttu-id="a2856-169">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="a2856-169">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="9aedd-158"></dd> <dt><span id="GL_INDEX_CLEAR_VALUE"></span><span id="gl_index_clear_value"></span>\_ \_ значение очистки индекса \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="9aedd-158"></dd> <dt><span id="GL_INDEX_CLEAR_VALUE"></span><span id="gl_index_clear_value"></span>GL\_INDEX\_CLEAR\_VALUE</dt> </span></span><dd> 
+<span data-ttu-id="a2856-170"></dd> <dt><span id="GL_INDEX_CLEAR_VALUE"></span><span id="gl_index_clear_value"></span>\_ \_ значение очистки индекса \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="a2856-170"></dd> <dt><span id="GL_INDEX_CLEAR_VALUE"></span><span id="gl_index_clear_value"></span>GL\_INDEX\_CLEAR\_VALUE</dt> </span></span><dd> 
 
-|                  |                                                                                |
+| <span data-ttu-id="a2856-171">Свойство</span><span class="sxs-lookup"><span data-stu-id="a2856-171">Property</span></span> | <span data-ttu-id="a2856-172">Значение</span><span class="sxs-lookup"><span data-stu-id="a2856-172">Value</span></span> |
 |------------------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="9aedd-159">Описание.</span><span class="sxs-lookup"><span data-stu-id="9aedd-159">Description:</span></span>     | <span data-ttu-id="9aedd-160">Очистить значение буфера цвета (режим индексирования цветов)</span><span class="sxs-lookup"><span data-stu-id="9aedd-160">Color-buffer clear value (color-index mode)</span></span>                                    |
-| <span data-ttu-id="9aedd-161">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="9aedd-161">Attribute group:</span></span> | <span data-ttu-id="9aedd-162">цветовой буфер</span><span class="sxs-lookup"><span data-stu-id="9aedd-162">color-buffer</span></span>                                                                   |
-| <span data-ttu-id="9aedd-163">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="9aedd-163">Initial value:</span></span>   | <span data-ttu-id="9aedd-164">0</span><span class="sxs-lookup"><span data-stu-id="9aedd-164">0</span></span>                                                                              |
-| <span data-ttu-id="9aedd-165">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="9aedd-165">Get command:</span></span>     | [<span data-ttu-id="9aedd-166">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="9aedd-166">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="a2856-173">Описание.</span><span class="sxs-lookup"><span data-stu-id="a2856-173">Description:</span></span>     | <span data-ttu-id="a2856-174">Очистить значение буфера цвета (режим индексирования цветов)</span><span class="sxs-lookup"><span data-stu-id="a2856-174">Color-buffer clear value (color-index mode)</span></span>                                    |
+| <span data-ttu-id="a2856-175">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="a2856-175">Attribute group:</span></span> | <span data-ttu-id="a2856-176">цветовой буфер</span><span class="sxs-lookup"><span data-stu-id="a2856-176">color-buffer</span></span>                                                                   |
+| <span data-ttu-id="a2856-177">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="a2856-177">Initial value:</span></span>   | <span data-ttu-id="a2856-178">0</span><span class="sxs-lookup"><span data-stu-id="a2856-178">0</span></span>                                                                              |
+| <span data-ttu-id="a2856-179">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="a2856-179">Get command:</span></span>     | [<span data-ttu-id="a2856-180">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="a2856-180">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="9aedd-167"></dd> <dt><span id="GL_DEPTH_CLEAR_VALUE"></span><span id="gl_depth_clear_value"></span>\_ \_ ясное значение глубины GL \_</dt> </span><span class="sxs-lookup"><span data-stu-id="9aedd-167"></dd> <dt><span id="GL_DEPTH_CLEAR_VALUE"></span><span id="gl_depth_clear_value"></span>GL\_DEPTH\_CLEAR\_VALUE</dt> </span></span><dd> 
+<span data-ttu-id="a2856-181"></dd> <dt><span id="GL_DEPTH_CLEAR_VALUE"></span><span id="gl_depth_clear_value"></span>\_ \_ ясное значение глубины GL \_</dt> </span><span class="sxs-lookup"><span data-stu-id="a2856-181"></dd> <dt><span id="GL_DEPTH_CLEAR_VALUE"></span><span id="gl_depth_clear_value"></span>GL\_DEPTH\_CLEAR\_VALUE</dt> </span></span><dd> 
 
-|                  |                                                                                  |
+| <span data-ttu-id="a2856-182">Свойство</span><span class="sxs-lookup"><span data-stu-id="a2856-182">Property</span></span> | <span data-ttu-id="a2856-183">Значение</span><span class="sxs-lookup"><span data-stu-id="a2856-183">Value</span></span> |
 |------------------|----------------------------------------------------------------------------------|
-| <span data-ttu-id="9aedd-168">Описание.</span><span class="sxs-lookup"><span data-stu-id="9aedd-168">Description:</span></span>     | <span data-ttu-id="9aedd-169">Значение очистки буфера глубины</span><span class="sxs-lookup"><span data-stu-id="9aedd-169">Depth-buffer clear value</span></span>                                                         |
-| <span data-ttu-id="9aedd-170">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="9aedd-170">Attribute group:</span></span> | <span data-ttu-id="9aedd-171">буфер глубины</span><span class="sxs-lookup"><span data-stu-id="9aedd-171">depth-buffer</span></span>                                                                     |
-| <span data-ttu-id="9aedd-172">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="9aedd-172">Initial value:</span></span>   | <span data-ttu-id="9aedd-173">1</span><span class="sxs-lookup"><span data-stu-id="9aedd-173">1</span></span>                                                                                |
-| <span data-ttu-id="9aedd-174">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="9aedd-174">Get command:</span></span>     | [<span data-ttu-id="9aedd-175">**глжетинтежерв**</span><span class="sxs-lookup"><span data-stu-id="9aedd-175">**glGetIntegerv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="a2856-184">Описание.</span><span class="sxs-lookup"><span data-stu-id="a2856-184">Description:</span></span>     | <span data-ttu-id="a2856-185">Значение очистки буфера глубины</span><span class="sxs-lookup"><span data-stu-id="a2856-185">Depth-buffer clear value</span></span>                                                         |
+| <span data-ttu-id="a2856-186">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="a2856-186">Attribute group:</span></span> | <span data-ttu-id="a2856-187">буфер глубины</span><span class="sxs-lookup"><span data-stu-id="a2856-187">depth-buffer</span></span>                                                                     |
+| <span data-ttu-id="a2856-188">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="a2856-188">Initial value:</span></span>   | <span data-ttu-id="a2856-189">1</span><span class="sxs-lookup"><span data-stu-id="a2856-189">1</span></span>                                                                                |
+| <span data-ttu-id="a2856-190">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="a2856-190">Get command:</span></span>     | [<span data-ttu-id="a2856-191">**глжетинтежерв**</span><span class="sxs-lookup"><span data-stu-id="a2856-191">**glGetIntegerv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="9aedd-176"></dd> <dt><span id="GL_STENCIL_CLEAR_VALUE"></span><span id="gl_stencil_clear_value"></span>\_ \_ очистить значение ТРАФАРЕТа GL \_</dt> </span><span class="sxs-lookup"><span data-stu-id="9aedd-176"></dd> <dt><span id="GL_STENCIL_CLEAR_VALUE"></span><span id="gl_stencil_clear_value"></span>GL\_STENCIL\_CLEAR\_VALUE</dt> </span></span><dd> 
+<span data-ttu-id="a2856-192"></dd> <dt><span id="GL_STENCIL_CLEAR_VALUE"></span><span id="gl_stencil_clear_value"></span>\_ \_ очистить значение ТРАФАРЕТа GL \_</dt> </span><span class="sxs-lookup"><span data-stu-id="a2856-192"></dd> <dt><span id="GL_STENCIL_CLEAR_VALUE"></span><span id="gl_stencil_clear_value"></span>GL\_STENCIL\_CLEAR\_VALUE</dt> </span></span><dd> 
 
-|                  |                                                                                  |
+| <span data-ttu-id="a2856-193">Свойство</span><span class="sxs-lookup"><span data-stu-id="a2856-193">Property</span></span> | <span data-ttu-id="a2856-194">Значение</span><span class="sxs-lookup"><span data-stu-id="a2856-194">Value</span></span> |
 |------------------|----------------------------------------------------------------------------------|
-| <span data-ttu-id="9aedd-177">Описание.</span><span class="sxs-lookup"><span data-stu-id="9aedd-177">Description:</span></span>     | <span data-ttu-id="9aedd-178">Набор элементов — очистить значение буфера</span><span class="sxs-lookup"><span data-stu-id="9aedd-178">Stencil-buffer clear value</span></span>                                                       |
-| <span data-ttu-id="9aedd-179">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="9aedd-179">Attribute group:</span></span> | <span data-ttu-id="9aedd-180">набор элементов-буфер</span><span class="sxs-lookup"><span data-stu-id="9aedd-180">stencil-buffer</span></span>                                                                   |
-| <span data-ttu-id="9aedd-181">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="9aedd-181">Initial value:</span></span>   | <span data-ttu-id="9aedd-182">0</span><span class="sxs-lookup"><span data-stu-id="9aedd-182">0</span></span>                                                                                |
-| <span data-ttu-id="9aedd-183">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="9aedd-183">Get command:</span></span>     | [<span data-ttu-id="9aedd-184">**глжетинтежерв**</span><span class="sxs-lookup"><span data-stu-id="9aedd-184">**glGetIntegerv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="a2856-195">Описание.</span><span class="sxs-lookup"><span data-stu-id="a2856-195">Description:</span></span>     | <span data-ttu-id="a2856-196">Набор элементов — очистить значение буфера</span><span class="sxs-lookup"><span data-stu-id="a2856-196">Stencil-buffer clear value</span></span>                                                       |
+| <span data-ttu-id="a2856-197">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="a2856-197">Attribute group:</span></span> | <span data-ttu-id="a2856-198">набор элементов-буфер</span><span class="sxs-lookup"><span data-stu-id="a2856-198">stencil-buffer</span></span>                                                                   |
+| <span data-ttu-id="a2856-199">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="a2856-199">Initial value:</span></span>   | <span data-ttu-id="a2856-200">0</span><span class="sxs-lookup"><span data-stu-id="a2856-200">0</span></span>                                                                                |
+| <span data-ttu-id="a2856-201">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="a2856-201">Get command:</span></span>     | [<span data-ttu-id="a2856-202">**глжетинтежерв**</span><span class="sxs-lookup"><span data-stu-id="a2856-202">**glGetIntegerv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="9aedd-185"></dd> <dt><span id="GL_ACCUM_CLEAR_VALUE"></span><span id="gl_accum_clear_value"></span>\_ \_ ясное значение НАКОПЛЕНия GL \_</dt> </span><span class="sxs-lookup"><span data-stu-id="9aedd-185"></dd> <dt><span id="GL_ACCUM_CLEAR_VALUE"></span><span id="gl_accum_clear_value"></span>GL\_ACCUM\_CLEAR\_VALUE</dt> </span></span><dd> 
+<span data-ttu-id="a2856-203"></dd> <dt><span id="GL_ACCUM_CLEAR_VALUE"></span><span id="gl_accum_clear_value"></span>\_ \_ ясное значение НАКОПЛЕНия GL \_</dt> </span><span class="sxs-lookup"><span data-stu-id="a2856-203"></dd> <dt><span id="GL_ACCUM_CLEAR_VALUE"></span><span id="gl_accum_clear_value"></span>GL\_ACCUM\_CLEAR\_VALUE</dt> </span></span><dd> 
 
-|                  |                                                                                |
+| <span data-ttu-id="a2856-204">Свойство</span><span class="sxs-lookup"><span data-stu-id="a2856-204">Property</span></span> | <span data-ttu-id="a2856-205">Значение</span><span class="sxs-lookup"><span data-stu-id="a2856-205">Value</span></span> |
 |------------------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="9aedd-186">Описание.</span><span class="sxs-lookup"><span data-stu-id="9aedd-186">Description:</span></span>     | <span data-ttu-id="9aedd-187">Накопление-значение очистки буфера</span><span class="sxs-lookup"><span data-stu-id="9aedd-187">Accumulation-buffer clear value</span></span>                                                |
-| <span data-ttu-id="9aedd-188">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="9aedd-188">Attribute group:</span></span> | <span data-ttu-id="9aedd-189">накопленный буфер</span><span class="sxs-lookup"><span data-stu-id="9aedd-189">accum-buffer</span></span>                                                                   |
-| <span data-ttu-id="9aedd-190">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="9aedd-190">Initial value:</span></span>   | <span data-ttu-id="9aedd-191">0</span><span class="sxs-lookup"><span data-stu-id="9aedd-191">0</span></span>                                                                              |
-| <span data-ttu-id="9aedd-192">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="9aedd-192">Get command:</span></span>     | [<span data-ttu-id="9aedd-193">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="9aedd-193">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="a2856-206">Описание.</span><span class="sxs-lookup"><span data-stu-id="a2856-206">Description:</span></span>     | <span data-ttu-id="a2856-207">Накопление-значение очистки буфера</span><span class="sxs-lookup"><span data-stu-id="a2856-207">Accumulation-buffer clear value</span></span>                                                |
+| <span data-ttu-id="a2856-208">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="a2856-208">Attribute group:</span></span> | <span data-ttu-id="a2856-209">накопленный буфер</span><span class="sxs-lookup"><span data-stu-id="a2856-209">accum-buffer</span></span>                                                                   |
+| <span data-ttu-id="a2856-210">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="a2856-210">Initial value:</span></span>   | <span data-ttu-id="a2856-211">0</span><span class="sxs-lookup"><span data-stu-id="a2856-211">0</span></span>                                                                              |
+| <span data-ttu-id="a2856-212">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="a2856-212">Get command:</span></span>     | [<span data-ttu-id="a2856-213">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="a2856-213">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

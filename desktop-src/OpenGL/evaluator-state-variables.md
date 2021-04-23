@@ -12,189 +12,189 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 615e7cde4a8f82c3f4a9a95791912c5dc3f77ff3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f2895f773721f7c900003cbaa0f070c277a0e260
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103986966"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909262"
 ---
-# <a name="evaluator-state-variables"></a><span data-ttu-id="b3384-104">Переменные состояния оценщика</span><span class="sxs-lookup"><span data-stu-id="b3384-104">Evaluator State Variables</span></span>
+# <a name="evaluator-state-variables"></a><span data-ttu-id="dd8f5-104">Переменные состояния оценщика</span><span class="sxs-lookup"><span data-stu-id="dd8f5-104">Evaluator State Variables</span></span>
 
-<dl> <span data-ttu-id="b3384-105"><dt><span id="GL_ORDER"></span><span id="gl_order"></span>заказ в ГК \_</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-105"><dt><span id="GL_ORDER"></span><span id="gl_order"></span>GL\_ORDER</dt> </span></span><dd> 
+<dl> <span data-ttu-id="dd8f5-105"><dt><span id="GL_ORDER"></span><span id="gl_order"></span>заказ в ГК \_</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-105"><dt><span id="GL_ORDER"></span><span id="gl_order"></span>GL\_ORDER</dt> </span></span><dd> 
 
-|                  |                                |
+| <span data-ttu-id="dd8f5-106">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-106">Property</span></span> | <span data-ttu-id="dd8f5-107">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-107">Value</span></span> |
 |------------------|--------------------------------|
-| <span data-ttu-id="b3384-106">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-106">Description:</span></span>     | <span data-ttu-id="b3384-107">порядок 1-D карт</span><span class="sxs-lookup"><span data-stu-id="b3384-107">1-D map order</span></span>                  |
-| <span data-ttu-id="b3384-108">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-108">Attribute group:</span></span> |                                |
-| <span data-ttu-id="b3384-109">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-109">Initial value:</span></span>   | <span data-ttu-id="b3384-110">1</span><span class="sxs-lookup"><span data-stu-id="b3384-110">1</span></span>                              |
-| <span data-ttu-id="b3384-111">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-111">Get command:</span></span>     | [<span data-ttu-id="b3384-112">**глжетмапив**</span><span class="sxs-lookup"><span data-stu-id="b3384-112">**glGetMapiv**</span></span>](glgetmap.md) |
+| <span data-ttu-id="dd8f5-108">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-108">Description:</span></span>     | <span data-ttu-id="dd8f5-109">порядок 1-D карт</span><span class="sxs-lookup"><span data-stu-id="dd8f5-109">1-D map order</span></span>                  |
+| <span data-ttu-id="dd8f5-110">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-110">Attribute group:</span></span> |                                |
+| <span data-ttu-id="dd8f5-111">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-111">Initial value:</span></span>   | <span data-ttu-id="dd8f5-112">1</span><span class="sxs-lookup"><span data-stu-id="dd8f5-112">1</span></span>                              |
+| <span data-ttu-id="dd8f5-113">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-113">Get command:</span></span>     | [<span data-ttu-id="dd8f5-114">**глжетмапив**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-114">**glGetMapiv**</span></span>](glgetmap.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-113"></dd> <dt><span id="GL_ORDER"></span><span id="gl_order"></span>заказ в ГК \_</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-113"></dd> <dt><span id="GL_ORDER"></span><span id="gl_order"></span>GL\_ORDER</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-115"></dd> <dt><span id="GL_ORDER"></span><span id="gl_order"></span>заказ в ГК \_</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-115"></dd> <dt><span id="GL_ORDER"></span><span id="gl_order"></span>GL\_ORDER</dt> </span></span><dd> 
 
-|                  |                                |
+| <span data-ttu-id="dd8f5-116">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-116">Property</span></span> | <span data-ttu-id="dd8f5-117">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-117">Value</span></span> |
 |------------------|--------------------------------|
-| <span data-ttu-id="b3384-114">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-114">Description:</span></span>     | <span data-ttu-id="b3384-115">2-мерная заказы на карту</span><span class="sxs-lookup"><span data-stu-id="b3384-115">2-D map orders</span></span>                 |
-| <span data-ttu-id="b3384-116">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-116">Attribute group:</span></span> |                                |
-| <span data-ttu-id="b3384-117">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-117">Initial value:</span></span>   | <span data-ttu-id="b3384-118">1, 1</span><span class="sxs-lookup"><span data-stu-id="b3384-118">1,1</span></span>                            |
-| <span data-ttu-id="b3384-119">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-119">Get command:</span></span>     | [<span data-ttu-id="b3384-120">**глжетмапив**</span><span class="sxs-lookup"><span data-stu-id="b3384-120">**glGetMapiv**</span></span>](glgetmap.md) |
+| <span data-ttu-id="dd8f5-118">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-118">Description:</span></span>     | <span data-ttu-id="dd8f5-119">2-мерная заказы на карту</span><span class="sxs-lookup"><span data-stu-id="dd8f5-119">2-D map orders</span></span>                 |
+| <span data-ttu-id="dd8f5-120">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-120">Attribute group:</span></span> |                                |
+| <span data-ttu-id="dd8f5-121">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-121">Initial value:</span></span>   | <span data-ttu-id="dd8f5-122">1, 1</span><span class="sxs-lookup"><span data-stu-id="dd8f5-122">1,1</span></span>                            |
+| <span data-ttu-id="dd8f5-123">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-123">Get command:</span></span>     | [<span data-ttu-id="dd8f5-124">**глжетмапив**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-124">**glGetMapiv**</span></span>](glgetmap.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-121"></dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>\_КОЕФФ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-121"></dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>GL\_COEFF</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-125"></dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>\_КОЕФФ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-125"></dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>GL\_COEFF</dt> </span></span><dd> 
 
-|                  |                                |
+| <span data-ttu-id="dd8f5-126">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-126">Property</span></span> | <span data-ttu-id="dd8f5-127">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-127">Value</span></span> |
 |------------------|--------------------------------|
-| <span data-ttu-id="b3384-122">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-122">Description:</span></span>     | <span data-ttu-id="b3384-123">точки управления 1-D</span><span class="sxs-lookup"><span data-stu-id="b3384-123">1-D control points</span></span>             |
-| <span data-ttu-id="b3384-124">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-124">Attribute group:</span></span> |                                |
-| <span data-ttu-id="b3384-125">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-125">Initial value:</span></span>   |                                |
-| <span data-ttu-id="b3384-126">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-126">Get command:</span></span>     | [<span data-ttu-id="b3384-127">**глжетмапфв**</span><span class="sxs-lookup"><span data-stu-id="b3384-127">**glGetMapfv**</span></span>](glgetmap.md) |
+| <span data-ttu-id="dd8f5-128">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-128">Description:</span></span>     | <span data-ttu-id="dd8f5-129">точки управления 1-D</span><span class="sxs-lookup"><span data-stu-id="dd8f5-129">1-D control points</span></span>             |
+| <span data-ttu-id="dd8f5-130">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-130">Attribute group:</span></span> |                                |
+| <span data-ttu-id="dd8f5-131">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-131">Initial value:</span></span>   |                                |
+| <span data-ttu-id="dd8f5-132">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-132">Get command:</span></span>     | [<span data-ttu-id="dd8f5-133">**глжетмапфв**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-133">**glGetMapfv**</span></span>](glgetmap.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-128"></dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>\_КОЕФФ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-128"></dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>GL\_COEFF</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-134"></dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>\_КОЕФФ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-134"></dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>GL\_COEFF</dt> </span></span><dd> 
 
-|                  |                                |
+| <span data-ttu-id="dd8f5-135">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-135">Property</span></span> | <span data-ttu-id="dd8f5-136">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-136">Value</span></span> |
 |------------------|--------------------------------|
-| <span data-ttu-id="b3384-129">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-129">Description:</span></span>     | <span data-ttu-id="b3384-130">2-мерная контрольные точки</span><span class="sxs-lookup"><span data-stu-id="b3384-130">2-D control points</span></span>             |
-| <span data-ttu-id="b3384-131">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-131">Attribute group:</span></span> |                                |
-| <span data-ttu-id="b3384-132">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-132">Initial value:</span></span>   |                                |
-| <span data-ttu-id="b3384-133">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-133">Get command:</span></span>     | [<span data-ttu-id="b3384-134">**глжетмапфв**</span><span class="sxs-lookup"><span data-stu-id="b3384-134">**glGetMapfv**</span></span>](glgetmap.md) |
+| <span data-ttu-id="dd8f5-137">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-137">Description:</span></span>     | <span data-ttu-id="dd8f5-138">2-мерная контрольные точки</span><span class="sxs-lookup"><span data-stu-id="dd8f5-138">2-D control points</span></span>             |
+| <span data-ttu-id="dd8f5-139">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-139">Attribute group:</span></span> |                                |
+| <span data-ttu-id="dd8f5-140">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-140">Initial value:</span></span>   |                                |
+| <span data-ttu-id="dd8f5-141">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-141">Get command:</span></span>     | [<span data-ttu-id="dd8f5-142">**глжетмапфв**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-142">**glGetMapfv**</span></span>](glgetmap.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-135"></dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>\_домен GL</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-135"></dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>GL\_DOMAIN</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-143"></dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>\_домен GL</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-143"></dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>GL\_DOMAIN</dt> </span></span><dd> 
 
-|                  |                                |
+| <span data-ttu-id="dd8f5-144">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-144">Property</span></span> | <span data-ttu-id="dd8f5-145">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-145">Value</span></span> |
 |------------------|--------------------------------|
-| <span data-ttu-id="b3384-136">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-136">Description:</span></span>     | <span data-ttu-id="b3384-137">1-мерная конечные точки домена</span><span class="sxs-lookup"><span data-stu-id="b3384-137">1-D domain endpoints</span></span>           |
-| <span data-ttu-id="b3384-138">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-138">Attribute group:</span></span> |                                |
-| <span data-ttu-id="b3384-139">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-139">Initial value:</span></span>   |                                |
-| <span data-ttu-id="b3384-140">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-140">Get command:</span></span>     | [<span data-ttu-id="b3384-141">**глжетмапфв**</span><span class="sxs-lookup"><span data-stu-id="b3384-141">**glGetMapfv**</span></span>](glgetmap.md) |
+| <span data-ttu-id="dd8f5-146">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-146">Description:</span></span>     | <span data-ttu-id="dd8f5-147">1-мерная конечные точки домена</span><span class="sxs-lookup"><span data-stu-id="dd8f5-147">1-D domain endpoints</span></span>           |
+| <span data-ttu-id="dd8f5-148">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-148">Attribute group:</span></span> |                                |
+| <span data-ttu-id="dd8f5-149">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-149">Initial value:</span></span>   |                                |
+| <span data-ttu-id="dd8f5-150">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-150">Get command:</span></span>     | [<span data-ttu-id="dd8f5-151">**глжетмапфв**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-151">**glGetMapfv**</span></span>](glgetmap.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-142"></dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>\_домен GL</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-142"></dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>GL\_DOMAIN</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-152"></dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>\_домен GL</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-152"></dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>GL\_DOMAIN</dt> </span></span><dd> 
 
-|                  |                                |
+| <span data-ttu-id="dd8f5-153">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-153">Property</span></span> | <span data-ttu-id="dd8f5-154">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-154">Value</span></span> |
 |------------------|--------------------------------|
-| <span data-ttu-id="b3384-143">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-143">Description:</span></span>     | <span data-ttu-id="b3384-144">две-D конечные точки домена</span><span class="sxs-lookup"><span data-stu-id="b3384-144">2-D domain endpoints</span></span>           |
-| <span data-ttu-id="b3384-145">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-145">Attribute group:</span></span> |                                |
-| <span data-ttu-id="b3384-146">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-146">Initial value:</span></span>   |                                |
-| <span data-ttu-id="b3384-147">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-147">Get command:</span></span>     | [<span data-ttu-id="b3384-148">**глжетмапфв**</span><span class="sxs-lookup"><span data-stu-id="b3384-148">**glGetMapfv**</span></span>](glgetmap.md) |
+| <span data-ttu-id="dd8f5-155">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-155">Description:</span></span>     | <span data-ttu-id="dd8f5-156">две-D конечные точки домена</span><span class="sxs-lookup"><span data-stu-id="dd8f5-156">2-D domain endpoints</span></span>           |
+| <span data-ttu-id="dd8f5-157">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-157">Attribute group:</span></span> |                                |
+| <span data-ttu-id="dd8f5-158">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-158">Initial value:</span></span>   |                                |
+| <span data-ttu-id="dd8f5-159">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-159">Get command:</span></span>     | [<span data-ttu-id="dd8f5-160">**глжетмапфв**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-160">**glGetMapfv**</span></span>](glgetmap.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-149"></dd> <dt><span id="GL_MAP1_x"></span><span id="gl_map1_x"></span><span id="GL_MAP1_X"></span>GL \_ «Карта1» \_ x</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-149"></dd> <dt><span id="GL_MAP1_x"></span><span id="gl_map1_x"></span><span id="GL_MAP1_X"></span>GL\_MAP1\_x</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-161"></dd> <dt><span id="GL_MAP1_x"></span><span id="gl_map1_x"></span><span id="GL_MAP1_X"></span>GL \_ «Карта1» \_ x</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-161"></dd> <dt><span id="GL_MAP1_x"></span><span id="gl_map1_x"></span><span id="GL_MAP1_X"></span>GL\_MAP1\_x</dt> </span></span><dd> 
 
-|                  |                                    |
+| <span data-ttu-id="dd8f5-162">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-162">Property</span></span> | <span data-ttu-id="dd8f5-163">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-163">Value</span></span> |
 |------------------|------------------------------------|
-| <span data-ttu-id="b3384-150">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-150">Description:</span></span>     | <span data-ttu-id="b3384-151">1-мерная схема включает: *x* является типом Map</span><span class="sxs-lookup"><span data-stu-id="b3384-151">1-D map enables: *x* is map type</span></span>   |
-| <span data-ttu-id="b3384-152">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-152">Attribute group:</span></span> | <span data-ttu-id="b3384-153">eval/включить</span><span class="sxs-lookup"><span data-stu-id="b3384-153">eval/enable</span></span>                        |
-| <span data-ttu-id="b3384-154">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-154">Initial value:</span></span>   | <span data-ttu-id="b3384-155">GL, \_ значение false</span><span class="sxs-lookup"><span data-stu-id="b3384-155">GL\_FALSE</span></span>                          |
-| <span data-ttu-id="b3384-156">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-156">Get command:</span></span>     | [<span data-ttu-id="b3384-157">**глисенаблед**</span><span class="sxs-lookup"><span data-stu-id="b3384-157">**glIsEnabled**</span></span>](glisenabled.md) |
+| <span data-ttu-id="dd8f5-164">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-164">Description:</span></span>     | <span data-ttu-id="dd8f5-165">1-мерная схема включает: *x* является типом Map</span><span class="sxs-lookup"><span data-stu-id="dd8f5-165">1-D map enables: *x* is map type</span></span>   |
+| <span data-ttu-id="dd8f5-166">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-166">Attribute group:</span></span> | <span data-ttu-id="dd8f5-167">eval/включить</span><span class="sxs-lookup"><span data-stu-id="dd8f5-167">eval/enable</span></span>                        |
+| <span data-ttu-id="dd8f5-168">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-168">Initial value:</span></span>   | <span data-ttu-id="dd8f5-169">GL, \_ значение false</span><span class="sxs-lookup"><span data-stu-id="dd8f5-169">GL\_FALSE</span></span>                          |
+| <span data-ttu-id="dd8f5-170">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-170">Get command:</span></span>     | [<span data-ttu-id="dd8f5-171">**глисенаблед**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-171">**glIsEnabled**</span></span>](glisenabled.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-158"></dd> <dt><span id="GL_MAP2_x"></span><span id="gl_map2_x"></span><span id="GL_MAP2_X"></span>GL \_ MAP2 \_ x</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-158"></dd> <dt><span id="GL_MAP2_x"></span><span id="gl_map2_x"></span><span id="GL_MAP2_X"></span>GL\_MAP2\_x</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-172"></dd> <dt><span id="GL_MAP2_x"></span><span id="gl_map2_x"></span><span id="GL_MAP2_X"></span>GL \_ MAP2 \_ x</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-172"></dd> <dt><span id="GL_MAP2_x"></span><span id="gl_map2_x"></span><span id="GL_MAP2_X"></span>GL\_MAP2\_x</dt> </span></span><dd> 
 
-|                  |                                    |
+| <span data-ttu-id="dd8f5-173">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-173">Property</span></span> | <span data-ttu-id="dd8f5-174">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-174">Value</span></span> |
 |------------------|------------------------------------|
-| <span data-ttu-id="b3384-159">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-159">Description:</span></span>     | <span data-ttu-id="b3384-160">2-мерная схема включает: *x* является типом Map</span><span class="sxs-lookup"><span data-stu-id="b3384-160">2-D map enables: *x* is map type</span></span>   |
-| <span data-ttu-id="b3384-161">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-161">Attribute group:</span></span> | <span data-ttu-id="b3384-162">eval/включить</span><span class="sxs-lookup"><span data-stu-id="b3384-162">eval/enable</span></span>                        |
-| <span data-ttu-id="b3384-163">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-163">Initial value:</span></span>   | <span data-ttu-id="b3384-164">GL, \_ значение false</span><span class="sxs-lookup"><span data-stu-id="b3384-164">GL\_FALSE</span></span>                          |
-| <span data-ttu-id="b3384-165">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-165">Get command:</span></span>     | [<span data-ttu-id="b3384-166">**глисенаблед**</span><span class="sxs-lookup"><span data-stu-id="b3384-166">**glIsEnabled**</span></span>](glisenabled.md) |
+| <span data-ttu-id="dd8f5-175">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-175">Description:</span></span>     | <span data-ttu-id="dd8f5-176">2-мерная схема включает: *x* является типом Map</span><span class="sxs-lookup"><span data-stu-id="dd8f5-176">2-D map enables: *x* is map type</span></span>   |
+| <span data-ttu-id="dd8f5-177">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-177">Attribute group:</span></span> | <span data-ttu-id="dd8f5-178">eval/включить</span><span class="sxs-lookup"><span data-stu-id="dd8f5-178">eval/enable</span></span>                        |
+| <span data-ttu-id="dd8f5-179">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-179">Initial value:</span></span>   | <span data-ttu-id="dd8f5-180">GL, \_ значение false</span><span class="sxs-lookup"><span data-stu-id="dd8f5-180">GL\_FALSE</span></span>                          |
+| <span data-ttu-id="dd8f5-181">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-181">Get command:</span></span>     | [<span data-ttu-id="dd8f5-182">**глисенаблед**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-182">**glIsEnabled**</span></span>](glisenabled.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-167"></dd> <dt><span id="GL_MAP1_GRID_DOMAIN"></span><span id="gl_map1_grid_domain"></span>\_ \_ Домен сетки «Карта1» \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-167"></dd> <dt><span id="GL_MAP1_GRID_DOMAIN"></span><span id="gl_map1_grid_domain"></span>GL\_MAP1\_GRID\_DOMAIN</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-183"></dd> <dt><span id="GL_MAP1_GRID_DOMAIN"></span><span id="gl_map1_grid_domain"></span>\_ \_ Домен сетки «Карта1» \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-183"></dd> <dt><span id="GL_MAP1_GRID_DOMAIN"></span><span id="gl_map1_grid_domain"></span>GL\_MAP1\_GRID\_DOMAIN</dt> </span></span><dd> 
 
-|                  |                                                                                |
+| <span data-ttu-id="dd8f5-184">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-184">Property</span></span> | <span data-ttu-id="dd8f5-185">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-185">Value</span></span> |
 |------------------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="b3384-168">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-168">Description:</span></span>     | <span data-ttu-id="b3384-169">1-мерная конечные точки сетки</span><span class="sxs-lookup"><span data-stu-id="b3384-169">1-D grid endpoints</span></span>                                                             |
-| <span data-ttu-id="b3384-170">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-170">Attribute group:</span></span> | <span data-ttu-id="b3384-171">eval</span><span class="sxs-lookup"><span data-stu-id="b3384-171">eval</span></span>                                                                           |
-| <span data-ttu-id="b3384-172">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-172">Initial value:</span></span>   | <span data-ttu-id="b3384-173">0, 1</span><span class="sxs-lookup"><span data-stu-id="b3384-173">0,1</span></span>                                                                            |
-| <span data-ttu-id="b3384-174">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-174">Get command:</span></span>     | [<span data-ttu-id="b3384-175">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="b3384-175">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="dd8f5-186">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-186">Description:</span></span>     | <span data-ttu-id="dd8f5-187">1-мерная конечные точки сетки</span><span class="sxs-lookup"><span data-stu-id="dd8f5-187">1-D grid endpoints</span></span>                                                             |
+| <span data-ttu-id="dd8f5-188">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-188">Attribute group:</span></span> | <span data-ttu-id="dd8f5-189">eval</span><span class="sxs-lookup"><span data-stu-id="dd8f5-189">eval</span></span>                                                                           |
+| <span data-ttu-id="dd8f5-190">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-190">Initial value:</span></span>   | <span data-ttu-id="dd8f5-191">0, 1</span><span class="sxs-lookup"><span data-stu-id="dd8f5-191">0,1</span></span>                                                                            |
+| <span data-ttu-id="dd8f5-192">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-192">Get command:</span></span>     | [<span data-ttu-id="dd8f5-193">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-193">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-176"></dd> <dt><span id="GL_MAP2_GRID_DOMAIN"></span><span id="gl_map2_grid_domain"></span>\_ \_ Домен сетки MAP2 \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-176"></dd> <dt><span id="GL_MAP2_GRID_DOMAIN"></span><span id="gl_map2_grid_domain"></span>GL\_MAP2\_GRID\_DOMAIN</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-194"></dd> <dt><span id="GL_MAP2_GRID_DOMAIN"></span><span id="gl_map2_grid_domain"></span>\_ \_ Домен сетки MAP2 \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-194"></dd> <dt><span id="GL_MAP2_GRID_DOMAIN"></span><span id="gl_map2_grid_domain"></span>GL\_MAP2\_GRID\_DOMAIN</dt> </span></span><dd> 
 
-|                  |                                                                                |
+| <span data-ttu-id="dd8f5-195">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-195">Property</span></span> | <span data-ttu-id="dd8f5-196">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-196">Value</span></span> |
 |------------------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="b3384-177">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-177">Description:</span></span>     | <span data-ttu-id="b3384-178">две-D конечные точки сетки</span><span class="sxs-lookup"><span data-stu-id="b3384-178">2-D grid endpoints</span></span>                                                             |
-| <span data-ttu-id="b3384-179">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-179">Attribute group:</span></span> | <span data-ttu-id="b3384-180">eval</span><span class="sxs-lookup"><span data-stu-id="b3384-180">eval</span></span>                                                                           |
-| <span data-ttu-id="b3384-181">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-181">Initial value:</span></span>   | <span data-ttu-id="b3384-182">0, 1; 0, 1</span><span class="sxs-lookup"><span data-stu-id="b3384-182">0, 1; 0, 1</span></span>                                                                     |
-| <span data-ttu-id="b3384-183">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-183">Get command:</span></span>     | [<span data-ttu-id="b3384-184">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="b3384-184">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="dd8f5-197">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-197">Description:</span></span>     | <span data-ttu-id="dd8f5-198">две-D конечные точки сетки</span><span class="sxs-lookup"><span data-stu-id="dd8f5-198">2-D grid endpoints</span></span>                                                             |
+| <span data-ttu-id="dd8f5-199">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-199">Attribute group:</span></span> | <span data-ttu-id="dd8f5-200">eval</span><span class="sxs-lookup"><span data-stu-id="dd8f5-200">eval</span></span>                                                                           |
+| <span data-ttu-id="dd8f5-201">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-201">Initial value:</span></span>   | <span data-ttu-id="dd8f5-202">0, 1; 0, 1</span><span class="sxs-lookup"><span data-stu-id="dd8f5-202">0, 1; 0, 1</span></span>                                                                     |
+| <span data-ttu-id="dd8f5-203">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-203">Get command:</span></span>     | [<span data-ttu-id="dd8f5-204">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-204">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-185"></dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>\_ \_ Сегменты сетки «Карта1» \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-185"></dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>GL\_MAP1\_GRID\_SEGMENTS</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-205"></dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>\_ \_ Сегменты сетки «Карта1» \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-205"></dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>GL\_MAP1\_GRID\_SEGMENTS</dt> </span></span><dd> 
 
-|                  |                                    |
+| <span data-ttu-id="dd8f5-206">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-206">Property</span></span> | <span data-ttu-id="dd8f5-207">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-207">Value</span></span> |
 |------------------|------------------------------------|
-| <span data-ttu-id="b3384-186">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-186">Description:</span></span>     | <span data-ttu-id="b3384-187">деления 1-D Grid</span><span class="sxs-lookup"><span data-stu-id="b3384-187">1-D grid divisions</span></span>                 |
-| <span data-ttu-id="b3384-188">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-188">Attribute group:</span></span> | <span data-ttu-id="b3384-189">eval</span><span class="sxs-lookup"><span data-stu-id="b3384-189">eval</span></span>                               |
-| <span data-ttu-id="b3384-190">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-190">Initial value:</span></span>   | <span data-ttu-id="b3384-191">1</span><span class="sxs-lookup"><span data-stu-id="b3384-191">1</span></span>                                  |
-| <span data-ttu-id="b3384-192">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-192">Get command:</span></span>     | [<span data-ttu-id="b3384-193">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="b3384-193">**glGetFloatv**</span></span>](glgetfloatv.md) |
+| <span data-ttu-id="dd8f5-208">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-208">Description:</span></span>     | <span data-ttu-id="dd8f5-209">деления 1-D Grid</span><span class="sxs-lookup"><span data-stu-id="dd8f5-209">1-D grid divisions</span></span>                 |
+| <span data-ttu-id="dd8f5-210">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-210">Attribute group:</span></span> | <span data-ttu-id="dd8f5-211">eval</span><span class="sxs-lookup"><span data-stu-id="dd8f5-211">eval</span></span>                               |
+| <span data-ttu-id="dd8f5-212">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-212">Initial value:</span></span>   | <span data-ttu-id="dd8f5-213">1</span><span class="sxs-lookup"><span data-stu-id="dd8f5-213">1</span></span>                                  |
+| <span data-ttu-id="dd8f5-214">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-214">Get command:</span></span>     | [<span data-ttu-id="dd8f5-215">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-215">**glGetFloatv**</span></span>](glgetfloatv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-194"></dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>\_ \_ Сегменты сетки «Карта1» \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-194"></dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>GL\_MAP1\_GRID\_SEGMENTS</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-216"></dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>\_ \_ Сегменты сетки «Карта1» \_ GL</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-216"></dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>GL\_MAP1\_GRID\_SEGMENTS</dt> </span></span><dd> 
 
-|                  |                                                                                |
+| <span data-ttu-id="dd8f5-217">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-217">Property</span></span> | <span data-ttu-id="dd8f5-218">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-218">Value</span></span> |
 |------------------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="b3384-195">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-195">Description:</span></span>     | <span data-ttu-id="b3384-196">двумерные сегменты сетки</span><span class="sxs-lookup"><span data-stu-id="b3384-196">2-D grid segments</span></span>                                                              |
-| <span data-ttu-id="b3384-197">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-197">Attribute group:</span></span> | <span data-ttu-id="b3384-198">eval</span><span class="sxs-lookup"><span data-stu-id="b3384-198">eval</span></span>                                                                           |
-| <span data-ttu-id="b3384-199">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-199">Initial value:</span></span>   | <span data-ttu-id="b3384-200">1, 1</span><span class="sxs-lookup"><span data-stu-id="b3384-200">1, 1</span></span>                                                                           |
-| <span data-ttu-id="b3384-201">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-201">Get command:</span></span>     | [<span data-ttu-id="b3384-202">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="b3384-202">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
+| <span data-ttu-id="dd8f5-219">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-219">Description:</span></span>     | <span data-ttu-id="dd8f5-220">двумерные сегменты сетки</span><span class="sxs-lookup"><span data-stu-id="dd8f5-220">2-D grid segments</span></span>                                                              |
+| <span data-ttu-id="dd8f5-221">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-221">Attribute group:</span></span> | <span data-ttu-id="dd8f5-222">eval</span><span class="sxs-lookup"><span data-stu-id="dd8f5-222">eval</span></span>                                                                           |
+| <span data-ttu-id="dd8f5-223">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-223">Initial value:</span></span>   | <span data-ttu-id="dd8f5-224">1, 1</span><span class="sxs-lookup"><span data-stu-id="dd8f5-224">1, 1</span></span>                                                                           |
+| <span data-ttu-id="dd8f5-225">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-225">Get command:</span></span>     | [<span data-ttu-id="dd8f5-226">**глжетфлоатв**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-226">**glGetFloatv**</span></span>](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
 
- 
+ 
 
-<span data-ttu-id="b3384-203"></dd> <dt><span id="GL_AUTO_NORMAL"></span><span id="gl_auto_normal"></span>Автоматический режим "GL" \_ \_</dt> </span><span class="sxs-lookup"><span data-stu-id="b3384-203"></dd> <dt><span id="GL_AUTO_NORMAL"></span><span id="gl_auto_normal"></span>GL\_AUTO\_NORMAL</dt> </span></span><dd> 
+<span data-ttu-id="dd8f5-227"></dd> <dt><span id="GL_AUTO_NORMAL"></span><span id="gl_auto_normal"></span>Автоматический режим "GL" \_ \_</dt> </span><span class="sxs-lookup"><span data-stu-id="dd8f5-227"></dd> <dt><span id="GL_AUTO_NORMAL"></span><span id="gl_auto_normal"></span>GL\_AUTO\_NORMAL</dt> </span></span><dd> 
 
-|                  |                                             |
+| <span data-ttu-id="dd8f5-228">Свойство</span><span class="sxs-lookup"><span data-stu-id="dd8f5-228">Property</span></span> | <span data-ttu-id="dd8f5-229">Значение</span><span class="sxs-lookup"><span data-stu-id="dd8f5-229">Value</span></span> |
 |------------------|---------------------------------------------|
-| <span data-ttu-id="b3384-204">Описание.</span><span class="sxs-lookup"><span data-stu-id="b3384-204">Description:</span></span>     | <span data-ttu-id="b3384-205">True, если автоматическое нормальное создание включено</span><span class="sxs-lookup"><span data-stu-id="b3384-205">True if automatic normal generation enabled</span></span> |
-| <span data-ttu-id="b3384-206">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="b3384-206">Attribute group:</span></span> | <span data-ttu-id="b3384-207">eval</span><span class="sxs-lookup"><span data-stu-id="b3384-207">eval</span></span>                                        |
-| <span data-ttu-id="b3384-208">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="b3384-208">Initial value:</span></span>   | <span data-ttu-id="b3384-209">GL, \_ значение false</span><span class="sxs-lookup"><span data-stu-id="b3384-209">GL\_FALSE</span></span>                                   |
-| <span data-ttu-id="b3384-210">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="b3384-210">Get command:</span></span>     | [<span data-ttu-id="b3384-211">**глисенаблед**</span><span class="sxs-lookup"><span data-stu-id="b3384-211">**glIsEnabled**</span></span>](glisenabled.md)          |
+| <span data-ttu-id="dd8f5-230">Описание.</span><span class="sxs-lookup"><span data-stu-id="dd8f5-230">Description:</span></span>     | <span data-ttu-id="dd8f5-231">True, если автоматическое нормальное создание включено</span><span class="sxs-lookup"><span data-stu-id="dd8f5-231">True if automatic normal generation enabled</span></span> |
+| <span data-ttu-id="dd8f5-232">Группа атрибутов:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-232">Attribute group:</span></span> | <span data-ttu-id="dd8f5-233">eval</span><span class="sxs-lookup"><span data-stu-id="dd8f5-233">eval</span></span>                                        |
+| <span data-ttu-id="dd8f5-234">Начальное значение:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-234">Initial value:</span></span>   | <span data-ttu-id="dd8f5-235">GL, \_ значение false</span><span class="sxs-lookup"><span data-stu-id="dd8f5-235">GL\_FALSE</span></span>                                   |
+| <span data-ttu-id="dd8f5-236">Команда Get:</span><span class="sxs-lookup"><span data-stu-id="dd8f5-236">Get command:</span></span>     | [<span data-ttu-id="dd8f5-237">**глисенаблед**</span><span class="sxs-lookup"><span data-stu-id="dd8f5-237">**glIsEnabled**</span></span>](glisenabled.md)          |
 
 
 
- 
+ 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
