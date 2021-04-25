@@ -4,12 +4,12 @@ ms.assetid: 9c40a397-19ea-4600-97ee-987dd10f4ef8
 title: Использование средства SignTool для проверки подписи файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8161d4c890400f3aa33b415e7ac16a5306aa094
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85e91df7a64a8db48d04ceba9df5fbc3fd358058
+ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662625"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "107954927"
 ---
 # <a name="using-signtool-to-verify-a-file-signature"></a>Использование средства SignTool для проверки подписи файла
 
@@ -29,7 +29,7 @@ ms.locfileid: "105662625"
 
 Следующая команда проверяет системный файл, подписанный в каталоге с именем *MyCat.Cat*:
 
-Средство **SignTool Verify/c** *MyCat.catMyFile.ini*
+Средство **SignTool Verify/c** *MyCat.Cat* *MyFile.ini*
 
 Для любой проверки [SignTool](signtool.md) можно получить сведения о подписавшем сертификата. Следующая команда проверяет системный файл и отображает сертификат подписавших:
 

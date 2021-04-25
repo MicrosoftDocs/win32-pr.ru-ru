@@ -39,19 +39,19 @@ api_location:
 - dwrite_3.h
 api_name:
 - DWRITE_BITMAP_DATA_BGRA32
-ms.openlocfilehash: 3d5b2168e5154f2e55b6f5acb83897f68d4a029c
-ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
+ms.openlocfilehash: ad36eb8fe691330b471db0b7e8b5378f3e7614db
+ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107881833"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "107955057"
 ---
 # <a name="dwrite_bitmap_data_bgra32-structure-dwrite_3h"></a>Структура DWRITE_BITMAP_DATA_BGRA32 (dwrite_3. h)
 
 Представляет данные точечного рисунка в формате BGRA32.
 
 > [!IMPORTANT]
-> Этот API доступен как часть реализации Двритекоре класса [DirectWrite](../direct-write-portal.md). DWriteCore — это один из видов DirectWrite, который работает с версиями Windows вплоть до Windows 8 и позволяет использовать его на разных платформах. Дополнительные сведения и примеры кода см. в разделе [двритекоре Overview](/windows/win32/DirectWrite/dwrite/dwritecore-overview).
+> Этот API доступен как часть реализации Двритекоре класса [DirectWrite](../direct-write-portal.md). DWriteCore — это один из видов DirectWrite, который работает с версиями Windows вплоть до Windows 8 и позволяет использовать его на разных платформах. Дополнительные сведения и примеры кода см. в разделе [двритекоре Overview](/windows/win32/directwrite/dwritecore-overview).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -89,7 +89,7 @@ struct DWRITE_BITMAP_DATA_BGRA32
 
 ## <a name="examples"></a>Примеры
 
-См. раздел [Обзор двритекоре](/windows/win32/DirectWrite/dwrite/dwritecore-overview) и пример приложения [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
+См. раздел [Обзор двритекоре](/windows/win32/directwrite/dwritecore-overview) и пример приложения [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
 
 ## <a name="requirements"></a>Требования
 | &nbsp; | &nbsp; |
