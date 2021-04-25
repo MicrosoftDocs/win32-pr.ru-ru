@@ -39,19 +39,19 @@ api_location:
 - dwrite.h
 api_name:
 - DWRITE_FACTORY_TYPE
-ms.openlocfilehash: 87b0d1c2edcb836afd06d732f242b62441b9bd01
-ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
+ms.openlocfilehash: 85f74d72dc8799a7a3c78603ec0dd5f9c118fdb1
+ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107881813"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "107955007"
 ---
 # <a name="dwrite_factory_type-enumeration-dwriteh"></a>Перечисление DWRITE_FACTORY_TYPE (дврите. h)
 
 Указывает тип объекта фабрики DirectWrite.
 
 > [!IMPORTANT]
-> Этот API доступен как часть реализации Двритекоре класса [DirectWrite](../direct-write-portal.md). DWriteCore — это один из видов DirectWrite, который работает с версиями Windows вплоть до Windows 8 и позволяет использовать его на разных платформах. Дополнительные сведения и примеры кода см. в разделе [двритекоре Overview](/windows/win32/DirectWrite/dwrite/dwritecore-overview).
+> Этот API доступен как часть реализации Двритекоре класса [DirectWrite](../direct-write-portal.md). DWriteCore — это один из видов DirectWrite, который работает с версиями Windows вплоть до Windows 8 и позволяет использовать его на разных платформах. Дополнительные сведения и примеры кода см. в разделе [двритекоре Overview](/windows/win32/directwrite/dwritecore-overview).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp
@@ -72,9 +72,9 @@ typedef enum DWRITE_FACTORY_TYPE {
 
 ## <a name="examples"></a>Примеры
 
-См. раздел [Обзор двритекоре](/windows/win32/DirectWrite/dwrite/dwritecore-overview) и пример приложения [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
+См. раздел [Обзор двритекоре](/windows/win32/directwrite/dwritecore-overview) и пример приложения [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 Объект фабрики DirectWrite содержит сведения о его внутреннем состоянии, такие как регистрация загрузчика шрифтов и кэшированные данные шрифта. В большинстве случаев следует использовать объект Shared Factory, так как он позволяет нескольким компонентам, использующим DirectWrite, обмениваться внутренними сведениями о состоянии DirectWrite, тем самым уменьшая использование памяти. Однако бывают случаи, когда желательно уменьшить воздействие компонента на остальную часть процесса, например подключаемый модуль из ненадежного источника, с помощью песочницы и изоляции его от остальных компонентов процесса. В таких случаях для изолированного компонента следует использовать изолированную фабрику.
 
