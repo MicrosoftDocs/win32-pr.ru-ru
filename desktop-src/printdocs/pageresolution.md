@@ -4,12 +4,12 @@ ms.assetid: 88f9a9a3-520e-4044-9ab2-961de03878fa
 title: пажересолутион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e0fdd16cf3dc0beb6a418b23d8ee6a93e4a6a61
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 4e44a7ff73c03929d3dfc8bc9f7c31c878ad039c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105703552"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993721"
 ---
 # <a name="pageresolution"></a>пажересолутион
 
@@ -25,9 +25,9 @@ ms.locfileid: "105703552"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Страница<br/>    |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -105,7 +105,7 @@ XML-структура этого элемента:
 </psf:Feature>    
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

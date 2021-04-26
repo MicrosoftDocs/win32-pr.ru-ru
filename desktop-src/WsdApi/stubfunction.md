@@ -4,12 +4,12 @@ ms.assetid: 2547f71d-8a30-4df8-ba38-6707c415708e
 title: Стубфунктион, элемент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7282e7280c8d701710094b70b84a65756f7230ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a77f37aed20dae4f04eea087e3d1eac2d23369af
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266082"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994151"
 ---
 # <a name="stubfunction-element"></a>Стубфунктион, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "104266082"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Ссылки на функции-заглушки используются в сценариях размещения для односторонних и двусторонних операций.
 
@@ -49,7 +49,7 @@ ms.locfileid: "104266082"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

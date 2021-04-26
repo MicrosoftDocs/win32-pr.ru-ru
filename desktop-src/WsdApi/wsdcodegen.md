@@ -4,12 +4,12 @@ ms.assetid: 3d40172b-6ba1-4e42-9a1a-519c8e88c2b1
 title: Всдкодежен, элемент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 656f2273926dc3420ec84d6b9f24759f8e3587e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9861617854e0e75575f2993717f5b2a86515fb0f
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711608"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994681"
 ---
 # <a name="wsdcodegen-element"></a>Всдкодежен, элемент
 
@@ -76,7 +76,7 @@ ms.locfileid: "105711608"
 
 Нет родительских элементов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Как правило, элементы [**File**](file.md) должны выполняться последними, так как они создают код, использующий данные, указанные другими элементами.
 
@@ -84,7 +84,7 @@ ms.locfileid: "105711608"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

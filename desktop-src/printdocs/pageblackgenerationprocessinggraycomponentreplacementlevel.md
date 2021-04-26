@@ -4,12 +4,12 @@ ms.assetid: e33634bb-5db5-4197-889d-82caf2e74191
 title: пажеблаккженератионпроцессингграйкомпонентреплацементлевел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c0d55c2150f5a2299672ebf95d6656b238acc1
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 553919bf9fab43cb1281f625eb518937b5c8b805
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104351885"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994531"
 ---
 # <a name="pageblackgenerationprocessinggraycomponentreplacementlevel"></a>пажеблаккженератионпроцессингграйкомпонентреплацементлевел
 
@@ -24,7 +24,7 @@ ms.locfileid: "104351885"
 
 
 
-| Имя                       |                                                            |
+| Имя | Значение |
 |----------------------------|------------------------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                                    |
 | Префикс области <br/> | Страница<br/>                                            |
@@ -84,7 +84,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 3c08e913-b47e-4ca7-b8bc-7b036e57db01
 title: Хостбуилдердекларатион, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e16576050efc76264f42dff6a19549f69933185b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bf3ddd474b4000b053b49157f1fc4b2eb399d34
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702882"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994911"
 ---
 # <a name="hostbuilderdeclaration-element"></a>Хостбуилдердекларатион, элемент
 
@@ -57,10 +57,10 @@ interface+
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
-| Может быть пустым                        | Нет            |
+| Может быть пустым                        | нет            |
 
 
 

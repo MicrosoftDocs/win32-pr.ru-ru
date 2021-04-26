@@ -4,12 +4,12 @@ ms.assetid: 78eb3119-a52f-4ff8-83bb-903e181c8a11
 title: пажеинпутбин
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23c8d84b099fb11aa97dea6f242f08acdd532105
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: f74e75653f7c6cbc6a586b80b3e8217286ce7c36
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "103914283"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993771"
 ---
 # <a name="pageinputbin"></a>пажеинпутбин
 
@@ -25,9 +25,9 @@ ms.locfileid: "103914283"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Страница<br/>    |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -270,7 +270,7 @@ XML-структура этого элемента:
 </psf:Feature>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

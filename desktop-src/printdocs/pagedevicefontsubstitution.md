@@ -4,12 +4,12 @@ ms.assetid: 741aa729-35c3-43c2-93d8-e25ed508cfa6
 title: пажедевицефонтсубститутион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08d076d9175f078efed9dbd8d5ae0b59cf296142
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: f40b86d6d81603e2ff9929275571ff6be72d839b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104547479"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995591"
 ---
 # <a name="pagedevicefontsubstitution"></a>пажедевицефонтсубститутион
 
@@ -25,9 +25,9 @@ ms.locfileid: "104547479"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Страница<br/>    |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -84,7 +84,7 @@ XML-структура этого элемента:
 </psf:Feature>    
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: e56fdd68-b72d-4167-9e4c-b5bbf103880b
 title: Идлфунктиондекларатионс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1afa43676898231f739804185b8bf5d6e2b4faf8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf4d1648ac6d9c3ac6900826ebe90a64418822b6
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711711"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994741"
 ---
 # <a name="idlfunctiondeclarations-element"></a>Идлфунктиондекларатионс, элемент
 
@@ -65,11 +65,11 @@ ms.locfileid: "105711711"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Этот элемент создает объявления функций элементов, соответствующих операциям, вызываемым контрактом. Эти объявления находятся в форме, подходящей для использования компилятором MIDL и обычно используются в IDL-файлах.
 
-Пример.
+Пример
 
 ``` syntax
 <idlFunctionDeclarations events = "true"/>
@@ -79,7 +79,7 @@ ms.locfileid: "105711711"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

@@ -4,12 +4,12 @@ description: Компонентно-ориентированное добавл�
 ms.assetid: 405A513C-B2DD-43B9-A86D-1D173B084C51
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5630b983c88da3ba512b5fece6202e0217b2ed39
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5e34f0a95ad9ee9ae4bdeed317eef133e3773311
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104532891"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994981"
 ---
 # <a name="add-sm4---asm"></a>Add (SM4-ASM)
 
@@ -42,9 +42,8 @@ ms.locfileid: "104532891"
 
 
 
-|                    |          |            |             |        |        |            |            |          |         |
-|--------------------|----------|------------|-------------|--------|--------|------------|------------|----------|---------|
 | **src0 src1 — >** | **-INF** | **-F**     | **— денорма** | **-0** | **+0** | **денорма** | **+ F**     | **+ INF** | **Не число** |
+|--------------------|----------|------------|-------------|--------|--------|------------|------------|----------|---------|
 | **-INF**           | -inf     | -inf       | -inf        | -inf   | -inf   | -inf       | -inf       | Не число      | Не число     |
 | **-F**             | -inf     | -F         | src0        | src0   | src0   | src0       | +-F или +-0 | +inf     | не число     |
 | **— денорма**        | -inf     | src1       | -0          | -0     | +0     | +0         | src1       | +inf     | Не число     |
@@ -90,7 +89,7 @@ ms.locfileid: "104532891"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

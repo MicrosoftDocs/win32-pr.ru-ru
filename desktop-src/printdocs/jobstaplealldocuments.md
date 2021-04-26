@@ -4,12 +4,12 @@ ms.assetid: a6721c13-a3dc-4273-b40f-2a28184b04a9
 title: жобстаплеаллдокументс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b3576611dcdc746342b8ed1b2c3d7ebf8fb779
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 9abf6184c3164e0e5a1492911e15794ea7e1d948
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104000027"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993911"
 ---
 # <a name="jobstaplealldocuments"></a>жобстаплеаллдокументс
 
@@ -25,9 +25,9 @@ ms.locfileid: "104000027"
 
 
 
-| Имя                       |                                                                                |
+| Имя | Значение |
 |----------------------------|--------------------------------------------------------------------------------|
-| Тип элемента <br/>   | Функция<br/>                                                             |
+| Тип элемента <br/>   | Компонент<br/>                                                             |
 | Префикс области <br/> | Задание<br/>                                                                 |
 | Примечания <br/>          | Верхняя, Нижняя, левая и правая относительные относятся к Пажеимажеаблесизе <br/> |
 
@@ -175,7 +175,7 @@ XML-структура этого элемента выглядит следую
 </psf:Feature>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

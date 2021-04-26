@@ -4,12 +4,12 @@ ms.assetid: e55a140c-3b2b-4f90-99e3-f62c892a8bae
 title: Типетабледекларатионс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: babb4078033a02dbd03aad671d6a4d728936d1d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c983d1850c84295ff4128b20a655faa65c36995f
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991393"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995721"
 ---
 # <a name="typetabledeclarations-element"></a>Типетабледекларатионс, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "103991393"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 На таблицы схем XML ссылается большая часть созданного кода. Этот элемент используется для создания включаемых файлов.
 
@@ -47,7 +47,7 @@ ms.locfileid: "103991393"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

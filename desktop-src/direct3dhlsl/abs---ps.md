@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 070a513aaa0d336d5ac404b1748fdd162edfd532
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e3e7af7b2d30e9d9f2092cb6671610f008ec781d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104352155"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994881"
 ---
 # <a name="abs---ps"></a>ABS-PS
 
@@ -32,7 +32,7 @@ ms.locfileid: "104352155"
 
  
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
@@ -41,9 +41,8 @@ ms.locfileid: "104352155"
 
 
 
-|                       |      |      |      |      |      |      |       |      |       |
-|-----------------------|------|------|------|------|------|------|-------|------|-------|
 | Версии шейдеров пикселей | 1\_1 | 1\_2 | 1 \_ 3 | 1\_4 | 2 \_ 0 | 2 \_ x | 2 \_ SW | 3 \_ 0 | 3 \_ SW |
+|-----------------------|------|------|------|------|------|------|-------|------|-------|
 | abs                   |      |      |      |      | x    | x    | x     | x    | x     |
 
 
@@ -74,7 +73,7 @@ dest.w = abs(src.w)
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

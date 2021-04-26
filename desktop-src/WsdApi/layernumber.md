@@ -4,12 +4,12 @@ ms.assetid: ad67a6fb-4bb6-4550-a9e9-f5219f3868c6
 title: Лайернумбер, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c22a20db7817e449b05c943c9016b6002f35b54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33c33ee4468ab81f030bfd8b49dfe104bbe76248
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264790"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995491"
 ---
 # <a name="layernumber-element"></a>Лайернумбер, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "104264790"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Номера слоев используются в таблицах среды выполнения для различения одного уровня кода для другого. WSDAPI сам использует сформированный код с номером уровня 0.
 
@@ -51,7 +51,7 @@ ms.locfileid: "104264790"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c3517266ace77b9235604770d9b42d10cd80e2d5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c277723628d5337e41e5fbf83baa9fda8af16adf
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413145"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993871"
 ---
 # <a name="shader-model-3-hlsl-reference"></a>Модель шейдера 3 (Справочник по HLSL)
 
@@ -210,17 +210,16 @@ PS \_ 3 \_ 0 и PS \_ 2 \_ имеют поддержку двух уровней
 
 
 
-|          |          |                   |                      |
-|----------|----------|-------------------|----------------------|
 | PS \_ 3 \_ 0 | PS \_ 2 \_ 0 | Точность         | Значение                |
-| x        |          | Полное              | FP32 или выше       |
+|----------|----------|-------------------|----------------------|
+| x        |          | Полная архивация              | FP32 или выше       |
 | x        |          | Частичная точность | FP16 = s10e5           |
-| x        | x        | Полное              | fp24 = s16e7 или выше |
+| x        | x        | Полная архивация              | fp24 = s16e7 или выше |
 | x        | x        | Частичная точность | FP16 = s10e5           |
 
 
 
- 
+ 
 
 PS \_ 3 \_ 0 поддерживает больше точности, чем PS \_ 2 \_ 0. По умолчанию все операции выполняются на полном уровне точности.
 
@@ -263,15 +262,15 @@ VS \_ 2 \_ SW — это ослабление с максимальным огр
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

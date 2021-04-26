@@ -4,12 +4,12 @@ description: Максимальное количество перемещаем�
 ms.assetid: 005468AA-577E-441F-ACD5-37A691E62CDD
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f24618897eacf250f2b924f6dde3745a32a7172
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f64d88c581828f2563f6d5d8a6c57de6400f9bbf
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412142"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994731"
 ---
 # <a name="max-sm4---asm"></a>Max (SM4-ASM)
 
@@ -48,9 +48,8 @@ NaN имеет особую обработку. Если один исходны
 
 
 
-|                    |          |              |          |         |
-|--------------------|----------|--------------|----------|---------|
 | **src0 src1 — >** | **-INF** | **Ж**        | **+ INF** | **Не число** |
+|--------------------|----------|--------------|----------|---------|
 | **-INF**           | -inf     | src1         | +inf     | -inf    |
 | **Ж**              | src0     | src0 или src1 | +inf     | src0    |
 | **+ INF**           | +inf     | +inf         | +inf     | +inf    |
@@ -91,7 +90,7 @@ NaN имеет особую обработку. Если один исходны
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

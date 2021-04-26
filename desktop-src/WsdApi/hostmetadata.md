@@ -4,12 +4,12 @@ ms.assetid: ca7bc5ea-8ab2-4233-86d2-5b793021b8ee
 title: Хостметадата, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: becd6bc3eab6b1aa1d95414c6348288e0d29dbd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9cf6fa139a2723ed90dfe281fc7b054016386fa
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656697"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994801"
 ---
 # <a name="hostmetadata-element"></a>Хостметадата, элемент
 
@@ -57,7 +57,7 @@ ms.locfileid: "105656697"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метаданные размещения отображаются в этом элементе в форме, аналогичной указанной в профиле устройства. **хостметадата** немного отличается от формата, описанного в профиле устройства, в том, что единственным ссылочным свойством, которое он поддерживает, является идентификатор службы.
 
@@ -67,10 +67,10 @@ ms.locfileid: "105656697"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
-| Может быть пустым                        | Нет            |
+| Может быть пустым                        | нет            |
 
 
 

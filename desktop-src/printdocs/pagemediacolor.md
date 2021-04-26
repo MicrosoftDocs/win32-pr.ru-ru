@@ -4,12 +4,12 @@ ms.assetid: 3e0e2cb2-cb51-446d-a6ff-f76aa8c305f6
 title: пажемедиаколор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfc6d39d3b189edbd2bd51803f1bb517fedd3edf
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 60c9a314bf435664d121fd35e588b62903da323e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105647775"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994511"
 ---
 # <a name="pagemediacolor"></a>пажемедиаколор
 
@@ -25,9 +25,9 @@ ms.locfileid: "105647775"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Страница<br/>    |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -175,7 +175,7 @@ XML-структура этого элемента:
 </psf:Feature>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

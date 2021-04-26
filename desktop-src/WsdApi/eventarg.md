@@ -4,12 +4,12 @@ ms.assetid: 60be4680-c434-4fdb-8449-c040969d2f59
 title: eventArg, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 175d0a8b00386b7e1456750488d5975711a405aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 820c4223e8e4a880343faf2e9df686d9746b1b29
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693212"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994901"
 ---
 # <a name="eventarg-element"></a>eventArg, элемент
 
@@ -40,7 +40,7 @@ ms.locfileid: "105693212"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Возможные значения: 1 (аргументы события включены) и 0 (по умолчанию, аргументы события исключены).
 
@@ -48,7 +48,7 @@ ms.locfileid: "105693212"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

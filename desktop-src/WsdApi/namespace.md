@@ -4,12 +4,12 @@ ms.assetid: 8e31526a-639f-481b-91f1-fcd376818cbf
 title: элемент nameSpace
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2414919f699bb60c2cf1e48bc52030c36cf67a0
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 3c3e2735efbb99fbe404f2531336c2e2bd0f89d7
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380848"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994281"
 ---
 # <a name="namespace-element"></a>элемент nameSpace
 
@@ -28,7 +28,7 @@ ms.locfileid: "107380848"
 
 
 
-| Атрибут          | Тип                         | Обязательно       | Описание                                             |
+| attribute          | Тип                         | Обязательно       | Описание                                             |
 |--------------------|------------------------------|----------------|---------------------------------------------------------|
 | **uri**<br/> | Символьная \_ строка<br/> | Да<br/> | Уникальный URI пространства имен.<br/> <br/> |
 
@@ -86,7 +86,7 @@ ms.locfileid: "107380848"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

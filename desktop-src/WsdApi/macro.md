@@ -4,12 +4,12 @@ ms.assetid: bf5cc1e2-b08e-45b6-8e07-5c69865b695b
 title: Macro, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8759d4afb61883b8bf41472f276882643cfa552
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f794566b0fd789c463d404289644976c8301a2e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264789"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994331"
 ---
 # <a name="macro-element"></a>Macro, элемент
 
@@ -46,7 +46,7 @@ ms.locfileid: "104264789"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Всдкодежен определяет макрос с именем **донотмодифи**. При включении этого макроса созданный код содержит блок комментариев с высокой степенью видимости, который указывает разработчикам не изменять созданный код.
 
@@ -60,7 +60,7 @@ ms.locfileid: "104264789"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

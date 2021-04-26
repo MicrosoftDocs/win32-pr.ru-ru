@@ -4,12 +4,12 @@ ms.assetid: c15f77a2-060b-4bc3-8759-d921ea57e5b5
 title: Релатионшипметадатадефинитион, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f74e4cff6712fb087c4783239d263d38516ed64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3549be26d0443b7aeba776346b7cddb2d6bdeed3
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263904"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993661"
 ---
 # <a name="relationshipmetadatadefinition-element"></a>Релатионшипметадатадефинитион, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "104263904"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Этот элемент обычно используется в исходных файлах на языке C для предоставления метаданных узла службы, объявленных с помощью **релатионшипметадатадекларатион**.
 
@@ -47,7 +47,7 @@ ms.locfileid: "104263904"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

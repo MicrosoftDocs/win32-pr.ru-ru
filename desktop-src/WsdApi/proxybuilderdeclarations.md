@@ -4,12 +4,12 @@ ms.assetid: 50182e77-a768-439f-bdbb-4f0d48aa4447
 title: Проксибуилдердекларатионс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d87cca5baed970ad865add83d775901f65ca24b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cebf09ecd444ee5d5a3a91b0bb8544888ca989d7
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702041"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994161"
 ---
 # <a name="proxybuilderdeclarations-element"></a>Проксибуилдердекларатионс, элемент
 
@@ -57,10 +57,10 @@ proxyClass
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
-| Может быть пустым                        | Нет            |
+| Может быть пустым                        | нет            |
 
 
 

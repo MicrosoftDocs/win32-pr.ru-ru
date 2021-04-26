@@ -4,12 +4,12 @@ ms.assetid: da957aca-1655-4e8d-9e7b-4da0f253293b
 title: пажеблаккженератионпроцессингундерколораддитионлевел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1fb6866dae4eb4a39de5c2b3b5d678a7388d703
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 8e1b43d8d9ee366fc742dc3d7b1617f6297fc96e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104273343"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995671"
 ---
 # <a name="pageblackgenerationprocessingundercoloradditionlevel"></a>пажеблаккженератионпроцессингундерколораддитионлевел
 
@@ -24,7 +24,7 @@ ms.locfileid: "104273343"
 
 
 
-| Имя                       |                                                            |
+| Имя | Значение |
 |----------------------------|------------------------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                                    |
 | Префикс области <br/> | Страница<br/>                                            |
@@ -84,7 +84,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

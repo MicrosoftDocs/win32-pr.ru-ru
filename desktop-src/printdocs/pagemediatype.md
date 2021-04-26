@@ -4,12 +4,12 @@ ms.assetid: 29d7ae65-9dd3-4a29-8e5e-79708638a3bb
 title: пажемедиатипе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8312554d8616ed31ea99cd0cc011b2b549d915f
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: d3d41ed2af931068e340e9a9d0828db109594de8
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105703558"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994521"
 ---
 # <a name="pagemediatype"></a>пажемедиатипе
 
@@ -25,9 +25,9 @@ ms.locfileid: "105703558"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Страница<br/>    |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -782,7 +782,7 @@ XML-структура этого элемента:
 </psf:Feature>    
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
