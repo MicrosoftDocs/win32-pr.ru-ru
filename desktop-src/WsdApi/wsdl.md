@@ -4,12 +4,12 @@ ms.assetid: d8f630cd-0541-431b-86a8-792846a85ea0
 title: элемент WSDL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbcb96e063a289e16d5e459b59cb8808a763618a
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 5ef4bc7b76ce22184e4c2f1ceaa2131ef163a26d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380738"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994711"
 ---
 # <a name="wsdl-element"></a>элемент WSDL
 
@@ -67,10 +67,10 @@ ms.locfileid: "107380738"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
-| Может быть пустым                        | Нет            |
+| Может быть пустым                        | нет            |
 
 
 

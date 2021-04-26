@@ -4,12 +4,12 @@ ms.assetid: 66a3ac9a-674e-4f16-a2d8-8f5b753f876c
 title: пажепостер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 281da67f3f6b90e4e49d0cdc57ba3065d719397b
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: c46cad46abcad7541f1282d691c950211bb7670c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105703553"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996091"
 ---
 # <a name="pageposter"></a>пажепостер
 
@@ -25,9 +25,9 @@ ms.locfileid: "105703553"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Страница<br/>    |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -90,7 +90,7 @@ XML-структура этого элемента:
 </psf:Feature>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

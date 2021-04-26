@@ -4,12 +4,12 @@ ms.assetid: dadc52e8-1733-4267-85aa-33d0ddd3dfa2
 title: документдуплекс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb2d65ac1007b8413f9e5e6cc12802e0ac27dac3
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 959bbddbfa06e47fe2bc744af3ead0a72b13af7b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104273367"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998421"
 ---
 # <a name="documentduplex"></a>документдуплекс
 
@@ -25,9 +25,9 @@ ms.locfileid: "104273367"
 
 
 
-| Имя                       |                     |
+| Имя | Значение |
 |----------------------------|---------------------|
-| Тип элемента <br/>   | Функция<br/>  |
+| Тип элемента <br/>   | Компонент<br/>  |
 | Префикс области <br/> | Документ<br/> |
 | Примечания <br/>          | Нет<br/>     |
 
@@ -97,7 +97,7 @@ XML-структура этого элемента выглядит следую
 </psf:Feature>    
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

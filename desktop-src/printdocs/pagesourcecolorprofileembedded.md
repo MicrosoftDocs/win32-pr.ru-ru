@@ -4,12 +4,12 @@ ms.assetid: 38411802-2b2e-441c-b3a6-334d87b11b5d
 title: пажесаурцеколорпрофилимбеддед
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 409b101d944152fa28c8972da4d8515e8cdfb05b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 91e97e768561fd13d5033b12f69a9bc481448e0e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105693930"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999122"
 ---
 # <a name="pagesourcecolorprofileembedded"></a>пажесаурцеколорпрофилимбеддед
 
@@ -24,7 +24,7 @@ ms.locfileid: "105693930"
 
 
 
-| Имя                       |                                                     |
+| Имя | Значение |
 |----------------------------|-----------------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                             |
 | Префикс области <br/> | Страница<br/>                                     |
@@ -81,7 +81,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8fa49b19109985b590747098826199b33a32dd2d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 808365fbcba4a1180c1838b94a6c098aa4c6f9ac
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104983768"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999061"
 ---
 # <a name="sv_tessfactor"></a>ОКП \_ тессфактор
 
@@ -37,7 +37,7 @@ ms.locfileid: "104983768"
 
 
 
- 
+ 
 
 Факторы тесселяции должны быть объявлены как массив. они не могут быть упакованы в один вектор.
 
@@ -61,16 +61,15 @@ ms.locfileid: "104983768"
 
 
 
-|        |      |        |          |       |         |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
 |        | x    | x      |          |       |         |
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -80,9 +79,9 @@ ms.locfileid: "104983768"
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

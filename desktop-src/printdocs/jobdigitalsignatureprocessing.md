@@ -4,12 +4,12 @@ ms.assetid: 0592f7a4-cace-41b0-91e3-2811f72aeb3e
 title: жобдигиталсигнатурепроцессинг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f2c60fd005f42bd3f9861e86156a7da9164a81e
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: aad9dbe0ba82d219a28602178efa2e102ccf167b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105684824"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998291"
 ---
 # <a name="jobdigitalsignatureprocessing"></a>жобдигиталсигнатурепроцессинг
 
@@ -24,9 +24,9 @@ ms.locfileid: "105684824"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Задание<br/>     |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -83,7 +83,7 @@ XML-структура этого элемента:
 </psf:Feature>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

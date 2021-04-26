@@ -4,12 +4,12 @@ ms.assetid: 36c5ce63-4e46-4196-827b-9e26d26ff244
 title: Мануфактурерурл, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcdda3cb55893e91d92a18bc6f25fad3cebb08df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a14de46d10b30488bd5bb8affb874ca9d1f6c439
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104347625"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998741"
 ---
 # <a name="manufacturerurl-element"></a>Мануфактурерурл, элемент
 
@@ -43,7 +43,7 @@ ms.locfileid: "104347625"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

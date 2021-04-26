@@ -4,12 +4,12 @@ ms.assetid: 100fe310-8e64-453f-8eaf-10abaf8b10b7
 title: жобкоммент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8ebfbd2e62c18153dd0930197b6f49cbb3480d6
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 5210b80d4f81771dfa98d79d4ecf187b3ef145f5
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105647767"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998351"
 ---
 # <a name="jobcomment"></a>жобкоммент
 
@@ -24,7 +24,7 @@ ms.locfileid: "105647767"
 
 
 
-| Имя                       |                         |
+| Имя | Значение |
 |----------------------------|-------------------------|
 | Тип элемента <br/>   | параметердеф<br/> |
 | Префикс области <br/> | Задание<br/>          |
@@ -80,7 +80,7 @@ XML-структура этого элемента выглядит следую
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

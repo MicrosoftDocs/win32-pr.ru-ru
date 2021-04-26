@@ -4,12 +4,12 @@ ms.assetid: 1afcf2e6-5d6d-4b87-a005-15d42a610f69
 title: пажеаутпутколор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71796bae9528fe6b32397f3467113630159c9954
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: d4791ca4a53b8bdcc43a32c5c7aa5a1e38bbe1e5
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104273375"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998051"
 ---
 # <a name="pageoutputcolor"></a>пажеаутпутколор
 
@@ -25,9 +25,9 @@ ms.locfileid: "104273375"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Страница<br/>    |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -115,7 +115,7 @@ XML-структура этого элемента:
 </psf:Feature>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

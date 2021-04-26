@@ -4,12 +4,12 @@ description: Деление на уровне компонентов.
 ms.assetid: B086F069-8F43-4746-A6A5-8F4462212648
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 332d494adc2cc9bebe2e714b47ff2c5a6b299966
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: d406c5e61b4615990b445abe169619227d22124c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069340"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999101"
 ---
 # <a name="div-sm4---asm"></a>Div (SM4-ASM)
 
@@ -48,9 +48,8 @@ ms.locfileid: "104069340"
 
 
 
-|                     |          |            |             |        |        |             |            |          |         |
-|---------------------|----------|------------|-------------|--------|--------|-------------|------------|----------|---------|
 | **src0 src1 — >** | **-INF** | **-F**     | **— денорма** | **-0** | **+0** | **+ денорма** | **+ F**     | **+ INF** | **NaN** |
+|---------------------|----------|------------|-------------|--------|--------|-------------|------------|----------|---------|
 | **-INF**            | -inf     | -inf       | -inf        | -inf   | -inf   | -inf        | -inf       | Не число      | Не число     |
 | **-F**              | -inf     | -F         | src0        | src0   | src0   | src0        | +-F или +-0 | +inf     | не число     |
 | **— денорма**         | -inf     | src1       | -0          | -0     | +0     | +0          | src1       | +inf     | Не число     |
@@ -96,7 +95,7 @@ ms.locfileid: "104069340"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

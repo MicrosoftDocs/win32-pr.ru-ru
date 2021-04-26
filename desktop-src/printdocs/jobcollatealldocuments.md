@@ -4,12 +4,12 @@ ms.assetid: 64fcd03f-8e0a-498d-82ea-0c69be0a3886
 title: жобколлатеаллдокументс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0406a5f9106cbe4cd2a8ccb0986a1bfacc95b916
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 53e7d3ba5b55ece6d7237846ae8ef969c0a3d17e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104351912"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998361"
 ---
 # <a name="jobcollatealldocuments"></a>жобколлатеаллдокументс
 
@@ -43,9 +43,9 @@ ON: для всех копий (Жобкопиесаллдокументс x Д�
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Задание<br/>     |
 | Примечания <br/>          | Нет<br/>    |
 

@@ -4,12 +4,12 @@ ms.assetid: 97a00cd6-508c-47e9-a1c1-75646ca0c721
 title: жоббиндаллдокументсгуттер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 219a86f016edf820532c20fa473876265776a4ee
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 04615b85939d483f6bd2e720afa65a88d44c1caf
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104273346"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998381"
 ---
 # <a name="jobbindalldocumentsgutter"></a>жоббиндаллдокументсгуттер
 
@@ -24,7 +24,7 @@ ms.locfileid: "104273346"
 
 
 
-| Имя                       |                                         |
+| Имя | Значение |
 |----------------------------|-----------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                 |
 | Префикс области <br/> | Задание <br/>                         |
@@ -77,7 +77,7 @@ XML-структура этого элемента:
 | DefaultValue<br/> | Целое число<br/> | неопределенный<br/>       |
 | MaxValue<br/>     | Целое число<br/> | неопределенный<br/>       |
 | MinValue<br/>     | Целое число<br/> | неопределенный<br/>       |
-| Обязательный<br/>    | Строка<br/>  | PSK: условный<br/> |
+| Обязательный<br/>    | Строковый<br/>  | PSK: условный<br/> |
 | Несколько<br/>     | целое число<br/> | 1<br/>               |
 | Единицах UnitType<br/>     | строка<br/>  | мкм<br/>         |
 
@@ -85,7 +85,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

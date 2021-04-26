@@ -4,12 +4,12 @@ ms.assetid: 9192ceb1-90c4-480e-9247-68d457976f42
 title: жобинпутбин
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e48cb6bc5de419ffdda2e1c352c72623baf3ba9
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 2f87782d6cf9aae5c34d36603f025e803f47db3e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104273360"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998101"
 ---
 # <a name="jobinputbin"></a>жобинпутбин
 
@@ -25,9 +25,9 @@ ms.locfileid: "104273360"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Задание<br/>     |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -270,7 +270,7 @@ XML-структура этого элемента выглядит следую
 </psf:Feature>    
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 324ec426-b7c8-43af-96b9-74929358e262
 title: жобаутпутбин
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a43fcf4aaf389769625e2289a438d7d5c2be0b83
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 973433ac7f6e051d4656777696cc3a37cedd953b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105703537"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999221"
 ---
 # <a name="joboutputbin"></a>жобаутпутбин
 
@@ -25,9 +25,9 @@ ms.locfileid: "105703537"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Задание<br/>     |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -97,7 +97,7 @@ XML-структура этого элемента:
     
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 98e609820e67cc3ede6c3e280f63513850fed364
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9c9090caec35bfc5e46d7024bf6de44d865d4ad6
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070196"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998311"
 ---
 # <a name="fragment-declaration-syntax-direct3d-9-hlsl"></a>Синтаксис объявления фрагмента (Direct3D 9 HLSL)
 
@@ -43,7 +43,7 @@ fragmentKeyword FragmentName = compile_fragment shaderProfile FunctionName();
 
 
 
- 
+ 
 
 Параметры общего фрагмента помечаются путем добавления \_ префикса "r" к их семантике.
 
@@ -70,15 +70,15 @@ vertexfragment AmbientDiffuseFragment = compile_fragment vs_1_1 AmbientDiffuse()
 > [!Note]  
 > Компоновщик фрагментов был технологией Microsoft Direct3D 9 в D3DX 9. Компоновщик фрагментов был средством (Flink.exe), API D3DX 9 и усовершенствованием HLSL. Компоновщик фрагментов был удален в выпуске пакета SDK DirectX за Август 2009. Компоновщик фрагментов никогда не применяется к Microsoft Direct3D 10, Microsoft Direct3D 10,1 или Microsoft Direct3D 11.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

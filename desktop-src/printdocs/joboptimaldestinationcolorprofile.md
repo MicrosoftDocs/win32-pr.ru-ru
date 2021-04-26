@@ -4,12 +4,12 @@ ms.assetid: 70790dc2-180a-4e04-91a9-a10ee76c836b
 title: жобоптималдестинатионколорпрофиле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 954f67df5720e19de39d2c1c752c6d9eb860a502
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 45630b2ddbe94f19905f01c508fc4d852d29566b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104000025"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999257"
 ---
 # <a name="joboptimaldestinationcolorprofile"></a>жобоптималдестинатионколорпрофиле
 
@@ -25,7 +25,7 @@ ms.locfileid: "104000025"
 
 
 
-| Имя                       |                     |
+| Имя | Значение |
 |----------------------------|---------------------|
 | Тип элемента <br/>   | Свойство<br/> |
 | Префикс области <br/> | Задание<br/>      |
@@ -87,7 +87,7 @@ XML-структура этого элемента:
 </psf:Property>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

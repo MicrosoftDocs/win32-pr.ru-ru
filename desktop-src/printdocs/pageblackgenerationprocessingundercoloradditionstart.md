@@ -4,12 +4,12 @@ description: Этот раздел не является актуальным. �
 ms.assetid: 6c2a7bb5-436d-40ed-a855-242a6a04bc16
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41d44dbc63632479c66686cea50b781abf715c76
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 595bc3e4514b1a2e8a4d302005b97e2625a560e2
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104424154"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999191"
 ---
 # <a name="pageblackgenerationprocessingundercoloradditionstart"></a>пажеблаккженератионпроцессингундерколораддитионстарт
 
@@ -24,7 +24,7 @@ ms.locfileid: "104424154"
 
 
 
-| Имя                       |                                                            |
+| Имя | Значение |
 |----------------------------|------------------------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                                    |
 | Префикс области <br/> | Страница<br/>                                            |
@@ -84,7 +84,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

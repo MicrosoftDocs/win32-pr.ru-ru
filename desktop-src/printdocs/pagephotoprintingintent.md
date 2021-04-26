@@ -4,12 +4,12 @@ ms.assetid: f9a00828-52df-449e-914b-4c6cd7c29f3a
 title: пажефотопринтингинтент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3985d6f21d0d7731d1c08d080d64a4948b58196d
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 01d56a0b46c73bb3afdcefe96dc2131c861d5419
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104547495"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997981"
 ---
 # <a name="pagephotoprintingintent"></a>пажефотопринтингинтент
 
@@ -27,9 +27,9 @@ ms.locfileid: "104547495"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Страница<br/>    |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -89,7 +89,7 @@ XML-структура этого элемента:
 </psf:Feature>    
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 6de13ed8-bf15-4e2c-b42a-ea8178a6b5f9
 title: жоберроршитсаурце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca3cd991772b902239914d02d1bfa57d5ef03374
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 99c87a31e645b9ea5eedb22b48000991a99bc7e5
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104000011"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998161"
 ---
 # <a name="joberrorsheetsource"></a>жоберроршитсаурце
 
@@ -24,7 +24,7 @@ ms.locfileid: "104000011"
 
 
 
-| Имя                       |                                            |
+| Имя | Значение |
 |----------------------------|--------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                    |
 | Префикс области <br/> | Документ<br/>                        |
@@ -80,7 +80,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
