@@ -13,60 +13,59 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e828d8c9e4060888c914b9e6951a5baa06e33023
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: aa6ac503eb99b24bee8e869676812c473ab42bf5
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103784455"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996911"
 ---
-# <a name="sv_outputcontrolpointid"></a><span data-ttu-id="3e323-104">ОКП \_ аутпутконтролпоинтид</span><span class="sxs-lookup"><span data-stu-id="3e323-104">SV\_OutputControlPointID</span></span>
+# <a name="sv_outputcontrolpointid"></a><span data-ttu-id="6dfb4-104">ОКП \_ аутпутконтролпоинтид</span><span class="sxs-lookup"><span data-stu-id="6dfb4-104">SV\_OutputControlPointID</span></span>
 
-<span data-ttu-id="3e323-105">Определяет индекс управляемого идентификатора контрольной точки при вызове главной точки входа шейдера поверхности.</span><span class="sxs-lookup"><span data-stu-id="3e323-105">Defines the index of the control point ID being operated on by an invocation of the main entry point of the hull shader.</span></span>
+<span data-ttu-id="6dfb4-105">Определяет индекс управляемого идентификатора контрольной точки при вызове главной точки входа шейдера поверхности.</span><span class="sxs-lookup"><span data-stu-id="6dfb4-105">Defines the index of the control point ID being operated on by an invocation of the main entry point of the hull shader.</span></span>
 
-## <a name="type"></a><span data-ttu-id="3e323-106">Тип</span><span class="sxs-lookup"><span data-stu-id="3e323-106">Type</span></span>
+## <a name="type"></a><span data-ttu-id="6dfb4-106">Тип</span><span class="sxs-lookup"><span data-stu-id="6dfb4-106">Type</span></span>
 
 
 
 |      |
 |------|
-| <span data-ttu-id="3e323-107">Тип</span><span class="sxs-lookup"><span data-stu-id="3e323-107">Type</span></span> |
-| <span data-ttu-id="3e323-108">uint</span><span class="sxs-lookup"><span data-stu-id="3e323-108">uint</span></span> |
+| <span data-ttu-id="6dfb4-107">Тип</span><span class="sxs-lookup"><span data-stu-id="6dfb4-107">Type</span></span> |
+| <span data-ttu-id="6dfb4-108">uint</span><span class="sxs-lookup"><span data-stu-id="6dfb4-108">uint</span></span> |
 
 
 
- 
+ 
 
-## <a name="remarks"></a><span data-ttu-id="3e323-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="3e323-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6dfb4-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="6dfb4-109">Remarks</span></span>
 
-<span data-ttu-id="3e323-110">Это системное значение является необязательным.</span><span class="sxs-lookup"><span data-stu-id="3e323-110">This system value is optional.</span></span>
+<span data-ttu-id="6dfb4-110">Это системное значение является необязательным.</span><span class="sxs-lookup"><span data-stu-id="6dfb4-110">This system value is optional.</span></span>
 
-<span data-ttu-id="3e323-111">Эта функция поддерживается в следующих типах шейдеров:</span><span class="sxs-lookup"><span data-stu-id="3e323-111">This function is supported in the following types of shaders:</span></span>
+<span data-ttu-id="6dfb4-111">Эта функция поддерживается в следующих типах шейдеров:</span><span class="sxs-lookup"><span data-stu-id="6dfb4-111">This function is supported in the following types of shaders:</span></span>
 
 
 
-|        |      |        |          |       |         |
+| <span data-ttu-id="6dfb4-112">Вершина</span><span class="sxs-lookup"><span data-stu-id="6dfb4-112">Vertex</span></span> | <span data-ttu-id="6dfb4-113">Поверхности</span><span class="sxs-lookup"><span data-stu-id="6dfb4-113">Hull</span></span> | <span data-ttu-id="6dfb4-114">Домен</span><span class="sxs-lookup"><span data-stu-id="6dfb4-114">Domain</span></span> | <span data-ttu-id="6dfb4-115">Геометрия</span><span class="sxs-lookup"><span data-stu-id="6dfb4-115">Geometry</span></span> | <span data-ttu-id="6dfb4-116">Пиксель</span><span class="sxs-lookup"><span data-stu-id="6dfb4-116">Pixel</span></span> | <span data-ttu-id="6dfb4-117">Службы вычислений</span><span class="sxs-lookup"><span data-stu-id="6dfb4-117">Compute</span></span> |
 |--------|------|--------|----------|-------|---------|
-| <span data-ttu-id="3e323-112">Вершина</span><span class="sxs-lookup"><span data-stu-id="3e323-112">Vertex</span></span> | <span data-ttu-id="3e323-113">Поверхности</span><span class="sxs-lookup"><span data-stu-id="3e323-113">Hull</span></span> | <span data-ttu-id="3e323-114">Домен</span><span class="sxs-lookup"><span data-stu-id="3e323-114">Domain</span></span> | <span data-ttu-id="3e323-115">Геометрия</span><span class="sxs-lookup"><span data-stu-id="3e323-115">Geometry</span></span> | <span data-ttu-id="3e323-116">Пиксель</span><span class="sxs-lookup"><span data-stu-id="3e323-116">Pixel</span></span> | <span data-ttu-id="3e323-117">Вычисления</span><span class="sxs-lookup"><span data-stu-id="3e323-117">Compute</span></span> |
-|        | <span data-ttu-id="3e323-118">x</span><span class="sxs-lookup"><span data-stu-id="3e323-118">x</span></span>    |        |          |       |         |
+|        | <span data-ttu-id="6dfb4-118">x</span><span class="sxs-lookup"><span data-stu-id="6dfb4-118">x</span></span>    |        |          |       |         |
 
 
 
- 
+ 
 
-## <a name="see-also"></a><span data-ttu-id="3e323-119">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="3e323-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6dfb4-119">См. также</span><span class="sxs-lookup"><span data-stu-id="6dfb4-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="3e323-120">Семантика</span><span class="sxs-lookup"><span data-stu-id="3e323-120">Semantics</span></span>](dx-graphics-hlsl-semantics.md)
+[<span data-ttu-id="6dfb4-120">Семантика</span><span class="sxs-lookup"><span data-stu-id="6dfb4-120">Semantics</span></span>](dx-graphics-hlsl-semantics.md)
 </dt> <dt>
 
-[<span data-ttu-id="3e323-121">Модель шейдера 5</span><span class="sxs-lookup"><span data-stu-id="3e323-121">Shader Model 5</span></span>](d3d11-graphics-reference-sm5.md)
+[<span data-ttu-id="6dfb4-121">Модель шейдера 5</span><span class="sxs-lookup"><span data-stu-id="6dfb4-121">Shader Model 5</span></span>](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
