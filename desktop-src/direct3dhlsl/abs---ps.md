@@ -9,48 +9,47 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 070a513aaa0d336d5ac404b1748fdd162edfd532
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e3e7af7b2d30e9d9f2092cb6671610f008ec781d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104352155"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994881"
 ---
-# <a name="abs---ps"></a><span data-ttu-id="94fac-104">ABS-PS</span><span class="sxs-lookup"><span data-stu-id="94fac-104">abs - ps</span></span>
+# <a name="abs---ps"></a><span data-ttu-id="738c5-104">ABS-PS</span><span class="sxs-lookup"><span data-stu-id="738c5-104">abs - ps</span></span>
 
-<span data-ttu-id="94fac-105">Вычисление абсолютного значения.</span><span class="sxs-lookup"><span data-stu-id="94fac-105">Computes absolute value.</span></span>
+<span data-ttu-id="738c5-105">Вычисление абсолютного значения.</span><span class="sxs-lookup"><span data-stu-id="738c5-105">Computes absolute value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="94fac-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="94fac-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="738c5-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="738c5-106">Syntax</span></span>
 
 
 
 |              |
 |--------------|
-| <span data-ttu-id="94fac-107">ABS DST, src</span><span class="sxs-lookup"><span data-stu-id="94fac-107">abs dst, src</span></span> |
+| <span data-ttu-id="738c5-107">ABS DST, src</span><span class="sxs-lookup"><span data-stu-id="738c5-107">abs dst, src</span></span> |
 
 
 
  
 
-<span data-ttu-id="94fac-108">где</span><span class="sxs-lookup"><span data-stu-id="94fac-108">where</span></span>
+<span data-ttu-id="738c5-108">where</span><span class="sxs-lookup"><span data-stu-id="738c5-108">where</span></span>
 
--   <span data-ttu-id="94fac-109">DST — это регистр назначения.</span><span class="sxs-lookup"><span data-stu-id="94fac-109">dst is the destination register.</span></span>
--   <span data-ttu-id="94fac-110">src является исходным регистром.</span><span class="sxs-lookup"><span data-stu-id="94fac-110">src is a source register.</span></span>
+-   <span data-ttu-id="738c5-109">DST — это регистр назначения.</span><span class="sxs-lookup"><span data-stu-id="738c5-109">dst is the destination register.</span></span>
+-   <span data-ttu-id="738c5-110">src является исходным регистром.</span><span class="sxs-lookup"><span data-stu-id="738c5-110">src is a source register.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="94fac-111">Примечания</span><span class="sxs-lookup"><span data-stu-id="94fac-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="738c5-111">Примечания</span><span class="sxs-lookup"><span data-stu-id="738c5-111">Remarks</span></span>
 
 
 
-|                       |      |      |      |      |      |      |       |      |       |
+| <span data-ttu-id="738c5-112">Версии шейдеров пикселей</span><span class="sxs-lookup"><span data-stu-id="738c5-112">Pixel shader versions</span></span> | <span data-ttu-id="738c5-113">1\_1</span><span class="sxs-lookup"><span data-stu-id="738c5-113">1\_1</span></span> | <span data-ttu-id="738c5-114">1\_2</span><span class="sxs-lookup"><span data-stu-id="738c5-114">1\_2</span></span> | <span data-ttu-id="738c5-115">1 \_ 3</span><span class="sxs-lookup"><span data-stu-id="738c5-115">1\_3</span></span> | <span data-ttu-id="738c5-116">1\_4</span><span class="sxs-lookup"><span data-stu-id="738c5-116">1\_4</span></span> | <span data-ttu-id="738c5-117">2 \_ 0</span><span class="sxs-lookup"><span data-stu-id="738c5-117">2\_0</span></span> | <span data-ttu-id="738c5-118">2 \_ x</span><span class="sxs-lookup"><span data-stu-id="738c5-118">2\_x</span></span> | <span data-ttu-id="738c5-119">2 \_ SW</span><span class="sxs-lookup"><span data-stu-id="738c5-119">2\_sw</span></span> | <span data-ttu-id="738c5-120">3 \_ 0</span><span class="sxs-lookup"><span data-stu-id="738c5-120">3\_0</span></span> | <span data-ttu-id="738c5-121">3 \_ SW</span><span class="sxs-lookup"><span data-stu-id="738c5-121">3\_sw</span></span> |
 |-----------------------|------|------|------|------|------|------|-------|------|-------|
-| <span data-ttu-id="94fac-112">Версии шейдеров пикселей</span><span class="sxs-lookup"><span data-stu-id="94fac-112">Pixel shader versions</span></span> | <span data-ttu-id="94fac-113">1\_1</span><span class="sxs-lookup"><span data-stu-id="94fac-113">1\_1</span></span> | <span data-ttu-id="94fac-114">1\_2</span><span class="sxs-lookup"><span data-stu-id="94fac-114">1\_2</span></span> | <span data-ttu-id="94fac-115">1 \_ 3</span><span class="sxs-lookup"><span data-stu-id="94fac-115">1\_3</span></span> | <span data-ttu-id="94fac-116">1\_4</span><span class="sxs-lookup"><span data-stu-id="94fac-116">1\_4</span></span> | <span data-ttu-id="94fac-117">2 \_ 0</span><span class="sxs-lookup"><span data-stu-id="94fac-117">2\_0</span></span> | <span data-ttu-id="94fac-118">2 \_ x</span><span class="sxs-lookup"><span data-stu-id="94fac-118">2\_x</span></span> | <span data-ttu-id="94fac-119">2 \_ SW</span><span class="sxs-lookup"><span data-stu-id="94fac-119">2\_sw</span></span> | <span data-ttu-id="94fac-120">3 \_ 0</span><span class="sxs-lookup"><span data-stu-id="94fac-120">3\_0</span></span> | <span data-ttu-id="94fac-121">3 \_ SW</span><span class="sxs-lookup"><span data-stu-id="94fac-121">3\_sw</span></span> |
-| <span data-ttu-id="94fac-122">abs</span><span class="sxs-lookup"><span data-stu-id="94fac-122">abs</span></span>                   |      |      |      |      | <span data-ttu-id="94fac-123">x</span><span class="sxs-lookup"><span data-stu-id="94fac-123">x</span></span>    | <span data-ttu-id="94fac-124">x</span><span class="sxs-lookup"><span data-stu-id="94fac-124">x</span></span>    | <span data-ttu-id="94fac-125">x</span><span class="sxs-lookup"><span data-stu-id="94fac-125">x</span></span>     | <span data-ttu-id="94fac-126">x</span><span class="sxs-lookup"><span data-stu-id="94fac-126">x</span></span>    | <span data-ttu-id="94fac-127">x</span><span class="sxs-lookup"><span data-stu-id="94fac-127">x</span></span>     |
+| <span data-ttu-id="738c5-122">abs</span><span class="sxs-lookup"><span data-stu-id="738c5-122">abs</span></span>                   |      |      |      |      | <span data-ttu-id="738c5-123">x</span><span class="sxs-lookup"><span data-stu-id="738c5-123">x</span></span>    | <span data-ttu-id="738c5-124">x</span><span class="sxs-lookup"><span data-stu-id="738c5-124">x</span></span>    | <span data-ttu-id="738c5-125">x</span><span class="sxs-lookup"><span data-stu-id="738c5-125">x</span></span>     | <span data-ttu-id="738c5-126">x</span><span class="sxs-lookup"><span data-stu-id="738c5-126">x</span></span>    | <span data-ttu-id="738c5-127">x</span><span class="sxs-lookup"><span data-stu-id="738c5-127">x</span></span>     |
 
 
 
  
 
-<span data-ttu-id="94fac-128">Эта инструкция работает, как показано здесь.</span><span class="sxs-lookup"><span data-stu-id="94fac-128">This instruction works as shown here.</span></span>
+<span data-ttu-id="738c5-128">Эта инструкция работает, как показано здесь.</span><span class="sxs-lookup"><span data-stu-id="738c5-128">This instruction works as shown here.</span></span>
 
 
 ```
@@ -62,23 +61,23 @@ dest.w = abs(src.w)
 
 
 
-## <a name="instruction-information"></a><span data-ttu-id="94fac-129">Сведения о инструкции</span><span class="sxs-lookup"><span data-stu-id="94fac-129">Instruction Information</span></span>
+## <a name="instruction-information"></a><span data-ttu-id="738c5-129">Сведения о инструкции</span><span class="sxs-lookup"><span data-stu-id="738c5-129">Instruction Information</span></span>
 
 
 
 |                          |            |
 |--------------------------|------------|
-| <span data-ttu-id="94fac-130">Минимальная операционная система</span><span class="sxs-lookup"><span data-stu-id="94fac-130">Minimum operating system</span></span> | <span data-ttu-id="94fac-131">Windows 98</span><span class="sxs-lookup"><span data-stu-id="94fac-131">Windows 98</span></span> |
+| <span data-ttu-id="738c5-130">Минимальная операционная система</span><span class="sxs-lookup"><span data-stu-id="738c5-130">Minimum operating system</span></span> | <span data-ttu-id="738c5-131">Windows 98</span><span class="sxs-lookup"><span data-stu-id="738c5-131">Windows 98</span></span> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="94fac-132">См. также</span><span class="sxs-lookup"><span data-stu-id="94fac-132">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="738c5-132">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="738c5-132">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="94fac-133">Инструкции шейдера пикселей</span><span class="sxs-lookup"><span data-stu-id="94fac-133">Pixel Shader Instructions</span></span>](dx9-graphics-reference-asm-ps-instructions.md)
+[<span data-ttu-id="738c5-133">Инструкции шейдера пикселей</span><span class="sxs-lookup"><span data-stu-id="738c5-133">Pixel Shader Instructions</span></span>](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
  
