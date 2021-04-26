@@ -4,12 +4,12 @@ ms.assetid: 903ad358-a060-4c8f-b72e-5ec2eb898248
 title: документбиндинггуттер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cf00f146373502564d559d00f66dedd24abf5b9
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2372636ea22610e6a209cfad3f1fe6297be34833
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104273347"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997191"
 ---
 # <a name="documentbindinggutter"></a>документбиндинггуттер
 
@@ -24,7 +24,7 @@ ms.locfileid: "104273347"
 
 
 
-| Имя                       |                                              |
+| Имя | Значение |
 |----------------------------|----------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                      |
 | Префикс области <br/> | Документ<br/>                          |
@@ -77,7 +77,7 @@ XML-структура этого элемента:
 | DefaultValue<br/> | Целое число<br/> | неопределенный<br/>       |
 | MaxValue<br/>     | Целое число<br/> | неопределенный<br/>       |
 | MinValue<br/>     | Целое число<br/> | неопределенный<br/>       |
-| Обязательный<br/>    | Строка<br/>  | PSK: условный<br/> |
+| Обязательный<br/>    | Строковый<br/>  | PSK: условный<br/> |
 | Несколько<br/>     | целое число<br/> | 1<br/>               |
 | Единицах UnitType<br/>     | строка<br/>  | мкм<br/>         |
 
@@ -85,7 +85,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

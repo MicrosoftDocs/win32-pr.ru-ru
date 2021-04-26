@@ -4,12 +4,12 @@ ms.assetid: e1cb7e46-3078-46bf-a8c8-e10f6b9dd222
 title: документимпоситионколор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea74db8ac616bc9ca6b7f6cde22f62bea742e7fb
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 228d1efded114c9471a55c4f88ca6e51ed6337ca
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105713316"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997871"
 ---
 # <a name="documentimpositioncolor"></a>документимпоситионколор
 
@@ -24,7 +24,7 @@ ms.locfileid: "105713316"
 
 
 
-| Имя                       |                         |
+| Имя | Значение |
 |----------------------------|-------------------------|
 | Тип элемента <br/>   | параметердеф<br/> |
 | Префикс области <br/> | Документ<br/>     |
@@ -80,7 +80,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

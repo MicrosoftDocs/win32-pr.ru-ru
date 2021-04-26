@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 23827dffc396a40be134be4db3996d2e9f498288
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ca305b16db0f390354962a3e959f08b6e956f2ef
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996939"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996871"
 ---
 # <a name="texld---ps_1_4"></a>текслд-PS \_ 1 \_ 4
 
@@ -27,22 +27,21 @@ ms.locfileid: "104996939"
 
 
 
- 
+ 
 
 ## <a name="registers"></a>Регистры
 
 
 
-| Аргумент | Описание          | Регистры |     |     |     | Version      |
-|----------|----------------------|-----------|-----|-----|-----|--------------|
 |          |                      | VN        | CN  | код  | RN  |              |
+|----------|----------------------|-----------|-----|-----|-----|--------------|
 | кон      | Регистр назначения |           |     |     | x   | 1\_4         |
 | src      | Исходный регистр      |           |     | x   |     | 1 \_ 4 этап 1 |
 |          |                      |           |     | x   | x   | 1 \_ 4 этапа   |
 
 
 
- 
+ 
 
 При использовании r (n) в качестве исходного регистра первые три компонента (XYZ) должны быть инициализированы на предыдущем этапе шейдера.
 
@@ -68,7 +67,7 @@ ms.locfileid: "104996939"
 
 
 
- 
+ 
 
 ## <a name="examples"></a>Примеры
 
@@ -142,16 +141,16 @@ texld  r(n), r(n)_dz
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

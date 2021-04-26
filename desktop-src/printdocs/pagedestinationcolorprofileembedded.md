@@ -4,12 +4,12 @@ ms.assetid: b360f870-bfaa-4d4d-adce-17fcfc48b6a6
 title: пажедестинатионколорпрофилимбеддед
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47eaa810cd23462433c52292506999f90797d659
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: a7053cfaf82d7fdfccfe79cebcd76e49befeb125
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105703534"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996131"
 ---
 # <a name="pagedestinationcolorprofileembedded"></a>пажедестинатионколорпрофилимбеддед
 
@@ -24,7 +24,7 @@ ms.locfileid: "105703534"
 
 
 
-| Имя                       |                                                          |
+| Имя | Значение |
 |----------------------------|----------------------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                                  |
 | Префикс области <br/> | Страница<br/>                                          |
@@ -81,7 +81,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

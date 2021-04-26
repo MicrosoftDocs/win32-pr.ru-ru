@@ -4,12 +4,12 @@ ms.assetid: b091c250-66f2-47cc-a012-1526c0ed02c9
 title: пажемедиасизепсориентатион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a188c61d3bb3c47286b887406174a3fc41f3c58a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: d16a9a2e59ebffb41ad7c9a9c16eaf41497ade62
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105703484"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997561"
 ---
 # <a name="pagemediasizepsorientation"></a>пажемедиасизепсориентатион
 
@@ -24,7 +24,7 @@ ms.locfileid: "105703484"
 
 
 
-| Имя                       |                                                             |
+| Имя | Значение |
 |----------------------------|-------------------------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                                     |
 | Префикс области <br/> | Страница<br/>                                             |
@@ -85,7 +85,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 05a06206-3cc4-428d-b9f2-b7945e63922c
 title: Порттипедекларатионс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c4e202f1451d93b519bd59ea51f591c37a92957
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e19780d4a48c95cd47872b0428b368e6b7e99887
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702045"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996561"
 ---
 # <a name="porttypedeclarations-element"></a>Порттипедекларатионс, элемент
 
@@ -59,7 +59,7 @@ ms.locfileid: "105702045"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 На объявления типа порта ссылается приложение и большая часть созданного кода. Этот элемент используется для создания включаемых файлов.
 
@@ -67,7 +67,7 @@ ms.locfileid: "105702045"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

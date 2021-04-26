@@ -4,12 +4,12 @@ description: Компонентный квадратный корень.
 ms.assetid: B860D656-7F01-484F-909F-A5C9A61C52C3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0a12afaf5b2366dac15c953d509a6814b48a6b9
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 628601e0a3a78784a5fd1a089ef7608a0cf9ca05
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412183"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996611"
 ---
 # <a name="sqrt-sm4---asm"></a>Sqrt (SM4-ASM)
 
@@ -45,9 +45,8 @@ F означает ограничение по настоящему вещест
 
 
 
-|          |          |        |             |        |        |             |        |          |         |
-|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 |          | **-INF** | **-F** | **— денорма** | **-0** | **+0** | **+ денорма** | **+ F** | **+ INF** | **Не число** |
+|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **dest** | Не число      | Не число    | -0          | -0     | +0     | +0          | + F     | +inf     | не число     |
 
 
@@ -85,7 +84,7 @@ F означает ограничение по настоящему вещест
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

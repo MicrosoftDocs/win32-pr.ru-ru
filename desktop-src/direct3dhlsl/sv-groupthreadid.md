@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3d4d35766bdbdc2d69c98983a85f336ab784d24d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2d36e5639b017dfa94e0f3c9f84d6725f6b6a283
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338985"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996991"
 ---
 # <a name="sv_groupthreadid"></a>ОКП \_ граупсреадид
 
@@ -35,7 +35,7 @@ ms.locfileid: "104338985"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>Примечания
 
@@ -49,16 +49,15 @@ ms.locfileid: "104338985"
 
 
 
-|        |      |        |          |       |         |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
 |        |      |        |          |       | x       |
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -68,6 +67,6 @@ ms.locfileid: "104338985"
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

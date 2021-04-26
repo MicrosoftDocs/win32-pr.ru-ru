@@ -4,12 +4,12 @@ ms.assetid: aa4c935f-0d60-4603-ae96-d5cabdf9af00
 title: Пнпксхардвареид, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e5e38b669a289545225df96fad05e55069b474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0ffc389ca6df363439dd6463b3f86ca756359e8
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692809"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996531"
 ---
 # <a name="pnpxhardwareid-element"></a>Пнпксхардвареид, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "105692809"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы указать более одного идентификатора оборудования, разделяйте идентификаторы пробелами, например "Пнпкс \_ самплесервице \_ Хвид \_ 1 пнпкс \_ самплесервице \_ хвид \_ 2 пнпкс \_ SampleService1 \_ хвид \_ 3".
 
@@ -47,7 +47,7 @@ ms.locfileid: "105692809"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

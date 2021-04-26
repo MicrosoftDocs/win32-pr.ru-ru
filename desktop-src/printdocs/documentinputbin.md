@@ -4,12 +4,12 @@ ms.assetid: 334503d7-c044-41f7-b6aa-892b002b7a4e
 title: документинпутбин
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95a4459f621ac4455a69e891c2eeda6f785b6d8b
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 57890492ed5f0b575e6d462351282dd199f34f45
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105713351"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997771"
 ---
 # <a name="documentinputbin"></a>документинпутбин
 
@@ -27,9 +27,9 @@ ms.locfileid: "105713351"
 
 
 
-| Имя                       |                                                                                                                                |
+| Имя | Значение |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Тип элемента <br/>   | Функция<br/>                                                                                                             |
+| Тип элемента <br/>   | Компонент<br/>                                                                                                             |
 | Префикс области <br/> | Документ<br/>                                                                                                            |
 | Примечания <br/>          | Поддерживаемые ячейки, которые не установлены в настоящий момент, должны помечаться как ограниченные в документе PrintCapabilities.<br/> |
 
@@ -270,7 +270,7 @@ XML-структура этого элемента:
 </psf:Feature>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

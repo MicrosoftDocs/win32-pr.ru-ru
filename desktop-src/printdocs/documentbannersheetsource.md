@@ -4,12 +4,12 @@ ms.assetid: 3b55935f-3d71-43cc-9c59-5019d7eb5cc5
 title: документбаннершитсаурце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 157cea832015c0dfb208e3f89b31ec19ac2c4313
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: da5a2802094a0d20cf1b8b0a177a5b774489bb37
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105713329"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996321"
 ---
 # <a name="documentbannersheetsource"></a>документбаннершитсаурце
 
@@ -24,7 +24,7 @@ ms.locfileid: "105713329"
 
 
 
-| Имя                       |                                                  |
+| Имя | Значение |
 |----------------------------|--------------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                          |
 | Префикс области <br/> | Документ<br/>                              |
@@ -81,7 +81,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

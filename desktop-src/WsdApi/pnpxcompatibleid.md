@@ -4,12 +4,12 @@ ms.assetid: 25f3d06e-460c-4338-b05d-a6d2c10c2a12
 title: Пнпкскомпатиблеид, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36cd6365a0beda91c258689a2cb7806ca7e3e10d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4a02191e2186926e5f26e5609aec82ff87f851f
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692808"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996641"
 ---
 # <a name="pnpxcompatibleid-element"></a>Пнпкскомпатиблеид, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "105692808"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы указать несколько Компатиблеид, Разделите идентификаторы символами пробела, например "Пнпкс \_ самплесервице \_ Хвид \_ 1 пнпкс Самплесервице \_ \_ хвид \_ 2 пнпкс \_ SampleService1 \_ хвид \_ 3".
 
@@ -47,7 +47,7 @@ ms.locfileid: "105692808"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

@@ -4,12 +4,12 @@ ms.assetid: 40925dfe-494c-49b5-ae57-de369723ba76
 title: жобаутпутоптимизатион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d07bb98ea639753acc1b99b53d3785480a283a5
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: b76364aca1a9b6c8019a709c1cd0b7b1ad03020c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105720830"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997751"
 ---
 # <a name="joboutputoptimization"></a>жобаутпутоптимизатион
 
@@ -25,9 +25,9 @@ ms.locfileid: "105720830"
 
 
 
-| Имя                       |                    |
+| Имя | Значение |
 |----------------------------|--------------------|
-| Тип элемента <br/>   | Функция<br/> |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Задание<br/>     |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -91,7 +91,7 @@ XML-структура этого элемента:
     
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

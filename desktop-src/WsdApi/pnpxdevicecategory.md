@@ -4,12 +4,12 @@ ms.assetid: 1ca46000-4700-4326-8f49-1b9a22d45bfa
 title: Пнпксдевицекатегори, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 731dd78fbe366fc9c7923686d3d9ac90b772c23d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a08084d780c26d2f7fab902156939fd14a3e60c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693123"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996591"
 ---
 # <a name="pnpxdevicecategory-element"></a>Пнпксдевицекатегори, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "105693123"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Устройства также могут указать подкатегорию устройства для более описательной категории устройств. Например, "phones. WindowsMobile cameras. Дигиталстиллкамера Медиадевицес. Мусикплайер" определяет устройство, которое является устройством Microsoft Windows Mobile с камерой и музыкальным проигрывателем. Основной категорией устройства для этого устройства будет "phones".
 
@@ -51,7 +51,7 @@ ms.locfileid: "105693123"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

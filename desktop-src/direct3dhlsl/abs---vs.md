@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 07667954de97e2a1da3999237930fb33796d9030
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e4d73ee738f575d93c2316e4ec47dced7cb128d3
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273392"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994751"
 ---
 # <a name="abs---vs"></a>ABS-VS
 
@@ -32,7 +32,7 @@ ms.locfileid: "104273392"
 
  
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
@@ -41,9 +41,8 @@ ms.locfileid: "104273392"
 
 
 
-|                        |      |      |      |       |      |       |
-|------------------------|------|------|------|-------|------|-------|
 | Версии шейдеров вершин | 1\_1 | 2 \_ 0 | 2 \_ x | 2 \_ SW | 3 \_ 0 | 3 \_ SW |
+|------------------------|------|------|------|-------|------|-------|
 | abs                    |      | x    | x    | x     | x    | x     |
 
 
@@ -62,7 +61,7 @@ dest.w = abs(src.w)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

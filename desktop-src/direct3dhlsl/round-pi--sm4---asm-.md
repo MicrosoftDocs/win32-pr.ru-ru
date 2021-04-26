@@ -4,12 +4,12 @@ description: Округление числа с плавающей точкой 
 ms.assetid: AA4E4C2E-A4B0-4892-8660-1EF57767F4C4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6016cc03f28852c938b1be62d3aaca39dae5dcfb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b61282078b3639681eed756e2899d06744f0369e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998187"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997111"
 ---
 # <a name="round_pi-sm4---asm"></a>Round \_ Pi (SM4-ASM)
 
@@ -47,9 +47,8 @@ F означает ограничение по настоящему вещест
 
 
 
-|          |          |        |             |        |        |             |        |          |         |
-|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **src**  | **-INF** | **-F** | **— денорма** | **-0** | **+0** | **+ денорма** | **+ F** | **+ INF** | **Не число** |
+|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **dest** | -inf     | -F     | -0          | -0     | +0     | +0          | + F     | +inf     | не число     |
 
 
@@ -87,7 +86,7 @@ F означает ограничение по настоящему вещест
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

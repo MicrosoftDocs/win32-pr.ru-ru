@@ -4,12 +4,12 @@ description: Округление числа с плавающей точкой 
 ms.assetid: 97C0E0F2-2571-4A94-BB04-B0CDBA0B5C0C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ed79a60bf122163b49411a3b3197ccdacba1311
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: dc874c6d0a1f26902086af300784c55950b71569
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914340"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997131"
 ---
 # <a name="round_z-sm4---asm"></a>Round \_ z (SM4-ASM)
 
@@ -45,9 +45,8 @@ ms.locfileid: "103914340"
 
 
 
-|          |          |        |             |        |        |             |        |          |         |
-|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **src**  | **-INF** | **-F** | **— денорма** | **-0** | **+0** | **+ денорма** | **+ F** | **+ INF** | **Не число** |
+|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **dest** | -inf     | -F     | -0          | -0     | +0     | +0          | + F     | +inf     | не число     |
 
 
@@ -87,7 +86,7 @@ F означает ограничение по настоящему вещест
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

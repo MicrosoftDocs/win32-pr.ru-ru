@@ -4,12 +4,12 @@ ms.assetid: 8a7762ae-2e39-46e1-b49f-09cae1af9b0d
 title: элемент portType
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a466ccdcfda133a2a314609e9698cd37c6bf31c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a98f02fc5a18e330bb5617b52563adc79a039831
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702287"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996541"
 ---
 # <a name="porttype-element"></a>элемент portType
 
@@ -51,7 +51,7 @@ ms.locfileid: "105702287"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 По умолчанию код создается для всех типов портов во входных файлах WSDL.
 
@@ -59,7 +59,7 @@ ms.locfileid: "105702287"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

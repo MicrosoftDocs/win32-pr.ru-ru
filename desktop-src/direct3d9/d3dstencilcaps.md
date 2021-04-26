@@ -4,12 +4,12 @@ ms.assetid: 187c758c-5e7f-48ee-97cb-b1f30b709723
 title: D3DSTENCILCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2e76c42acfcf8b6515e84679ea2fb540178608
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6716748d77fe4c3620413f43ae4a4ae48076c09f
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423238"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997381"
 ---
 # <a name="d3dstencilcaps"></a>D3DSTENCILCAPS
 
@@ -17,9 +17,8 @@ ms.locfileid: "104423238"
 
 
 
-|                          |             |                                                                                                       |
-|--------------------------|-------------|-------------------------------------------------------------------------------------------------------|
 | \#определенно                 | Значение       | Описание                                                                                           |
+|--------------------------|-------------|-------------------------------------------------------------------------------------------------------|
 | D3DSTENCILCAPS \_     | 0x00000001L | Не обновляйте запись в буфере шаблона. Это значение по умолчанию.                             |
 | D3DSTENCILCAPS \_ 0     | 0x00000002L | Задайте для записи в буфере набора элементов значение 0.                                                                    |
 | D3DSTENCILCAPS \_ заменить  | 0x00000004L | Замените запись в буфере набора элементов значением ссылки.                                                |
@@ -51,7 +50,7 @@ ms.locfileid: "104423238"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

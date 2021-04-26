@@ -4,12 +4,12 @@ ms.assetid: a1a684ce-5615-4ff7-a7aa-5c9f786f84ed
 title: пажемедиасизепсвидс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7fef8b9e3740c5f12045e449f2a6b8100d7fc1d
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2f4399b75f047c2705983c893075995800396120
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105703507"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997551"
 ---
 # <a name="pagemediasizepswidth"></a>пажемедиасизепсвидс
 
@@ -24,7 +24,7 @@ ms.locfileid: "105703507"
 
 
 
-| Имя                       |                                                             |
+| Имя | Значение |
 |----------------------------|-------------------------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                                     |
 | Префикс области <br/> | Страница<br/>                                             |
@@ -85,7 +85,7 @@ XML-структура этого элемента:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

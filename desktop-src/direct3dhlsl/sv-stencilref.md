@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 953cc90e8958bd6f9828bcb2e94e38829292cb13
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 565a554508277ab9ce49b377b5a7e121db45b20c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997095"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996501"
 ---
 # <a name="sv_stencilref"></a>ОКП \_ стенЦилреф
 
@@ -34,7 +34,7 @@ ms.locfileid: "104997095"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>Примечания
 
@@ -43,7 +43,7 @@ ms.locfileid: "104997095"
 -   [Заданное значение ссылки на набор данных шейдера D3D 11.3](/windows/desktop/direct3d11/shader-specified-stencil-reference-value)
 -   [Заданное значение ссылки на набор данных шейдера D3D12](/windows/desktop/direct3d12/shader-specified-stencil-reference-value)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -53,6 +53,6 @@ ms.locfileid: "104997095"
 [Системные значения модели шейдеров 5,1](shader-model-5-1-system-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

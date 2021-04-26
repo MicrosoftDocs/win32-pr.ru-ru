@@ -4,12 +4,12 @@ ms.assetid: 589cddb2-29a6-4ad7-9102-56c17fcc16e3
 title: Сисмоделметадатадекларатион, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e5156f052c06c3c0e5094ef727070cb6d223683
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7620f61d33318df2ccd187cb51e1ec7e598e471
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692268"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995331"
 ---
 # <a name="thismodelmetadatadeclaration-element"></a>Сисмоделметадатадекларатион, элемент
 
@@ -43,7 +43,7 @@ ms.locfileid: "105692268"
 
 
 
-|                                     |               |
+| Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
 | Может быть пустым                        | Да           |

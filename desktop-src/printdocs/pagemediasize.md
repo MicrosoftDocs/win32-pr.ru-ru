@@ -4,12 +4,12 @@ ms.assetid: 6f99f54b-c401-42ea-8715-95a2aad73042
 title: пажемедиасизе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b549d7bd81579424125908fc71c9b81e839aff05
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: bdbaef403027190676b57455aa460198c2868424
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104559450"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995523"
 ---
 # <a name="pagemediasize"></a>пажемедиасизе
 
@@ -31,8 +31,8 @@ ms.locfileid: "104559450"
 
 |                            |                    |
 |----------------------------|--------------------|
-| Имя                       |                    |
-| Тип элемента <br/>   | Функция<br/> |
+| Имя | Значение |
+| Тип элемента <br/>   | Компонент<br/> |
 | Префикс области <br/> | Страница<br/>    |
 | Примечания <br/>          | Нет<br/>    |
 
@@ -1466,7 +1466,7 @@ XML-структура этого элемента:
 </psf:Feature>   
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

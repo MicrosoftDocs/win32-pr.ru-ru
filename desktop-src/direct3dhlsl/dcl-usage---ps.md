@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 944ddd2b581c6179ac4a3fe22f2b687f85aecfdc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 178b31a386a7ae4aa266ac33ddbb1ee5c842f2d1
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134191"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997171"
 ---
 # <a name="dcl_semantics-sm3---ps-asm"></a>\_семантика дкл (SM3-PS ASM)
 
@@ -30,7 +30,7 @@ ms.locfileid: "104134191"
 
 
 
- 
+ 
 
 Где:
 
@@ -49,7 +49,7 @@ ms.locfileid: "104134191"
 
 
 
- 
+ 
 
 Все \_ инструкции по использованию дкл должны располагаться перед первой исполняемой инструкцией.
 
@@ -82,7 +82,7 @@ texld r1, v1.zw, s1
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -92,6 +92,6 @@ texld r1, v1.zw, s1
 [Пример сглаживания](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

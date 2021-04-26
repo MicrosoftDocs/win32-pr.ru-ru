@@ -4,12 +4,12 @@ ms.assetid: f0b2192d-4bb7-4ba2-8dd0-35a20183ea31
 title: документсепараторшит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8722e5db4f1a3bfebe8895c8a0777a849a88f11e
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: cb6bd0d58c5b361b167d22c672b7e080e4498d3e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104351985"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997061"
 ---
 # <a name="documentseparatorsheet"></a>документсепараторшит
 
@@ -25,9 +25,9 @@ ms.locfileid: "104351985"
 
 
 
-| Имя                       |                     |
+| Имя | Значение |
 |----------------------------|---------------------|
-| Тип элемента <br/>   | Функция<br/>  |
+| Тип элемента <br/>   | Компонент<br/>  |
 | Префикс области <br/> | Документ<br/> |
 | Примечания <br/>          | Нет<br/>     |
 
@@ -89,7 +89,7 @@ XML-структура этого элемента:
     
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

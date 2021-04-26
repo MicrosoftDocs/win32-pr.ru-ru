@@ -4,12 +4,12 @@ ms.assetid: 0de776f3-ae09-49f4-a829-b3c0e2ab5bbc
 title: пажескалингскалевидс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7918f1a466621377e57190e0b967980fec1a07e
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e4ef53d9fe2906ae04cd1e7e3ea1513a631bc162
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105693931"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997461"
 ---
 # <a name="pagescalingscalewidth"></a>пажескалингскалевидс
 
@@ -24,7 +24,7 @@ ms.locfileid: "105693931"
 
 
 
-| Имя                       |                                                         |
+| Имя | Значение |
 |----------------------------|---------------------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                                 |
 | Префикс области <br/> | Страница<br/>                                         |
@@ -73,19 +73,19 @@ XML-структура этого элемента:
 
 | Свойство                | xsi:type           | Значение                      |
 |-------------------------|--------------------|----------------------------|
-| DataType<br/>     | Строка<br/>  | xs:integer<br/>      |
+| DataType<br/>     | Строковый<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | Целочисленный тип<br/> | неопределенный<br/>       |
 | MaxValue<br/>     | Целочисленный тип<br/> | неопределенный<br/>       |
 | MinValue<br/>     | Целое число<br/> | 1<br/>               |
-| Обязательный<br/>    | Строка<br/>  | PSK: условный<br/> |
+| Обязательный<br/>    | Строковый<br/>  | PSK: условный<br/> |
 | Несколько<br/>     | Целое число<br/> | 1<br/>               |
-| Единицах UnitType<br/>     | Строка<br/>  | мкм<br/>         |
+| Единицах UnitType<br/>     | Строковый<br/>  | мкм<br/>         |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 3b01f05c-fe2e-4467-b2a7-5431a41200cd
 title: пажеватермарктексттекст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aef2310efaa91532493f7add14de8c2510e24e9b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: eb19f5965347e79732aa116e5be51f90e4ef6943
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105674561"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996081"
 ---
 # <a name="pagewatermarktexttext"></a>пажеватермарктексттекст
 
@@ -24,7 +24,7 @@ ms.locfileid: "105674561"
 
 
 
-| Имя                       |                                            |
+| Имя | Значение |
 |----------------------------|--------------------------------------------|
 | Тип элемента <br/>   | параметердеф<br/>                    |
 | Префикс области <br/> | Страница<br/>                            |
@@ -69,18 +69,18 @@ XML-структура этого элемента выглядит следую
 
 | Свойство                | xsi:type           | Значение                      |
 |-------------------------|--------------------|----------------------------|
-| DataType<br/>     | Строка<br/>  | xs:string<br/>       |
+| DataType<br/>     | Строковый<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | Целочисленный тип<br/> | неопределенный<br/>       |
 | MaxLength<br/>    | Целочисленный тип<br/> | неопределенный<br/>       |
 | MinLength<br/>    | Целое число<br/> | 1<br/>               |
-| Обязательный<br/>    | Строка<br/>  | PSK: условный<br/> |
-| Единицах UnitType<br/>     | Строка<br/>  | characters<br/>      |
+| Обязательный<br/>    | Строковый<br/>  | PSK: условный<br/> |
+| Единицах UnitType<br/>     | Строковый<br/>  | characters<br/>      |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
