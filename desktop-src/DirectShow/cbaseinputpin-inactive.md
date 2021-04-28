@@ -1,5 +1,5 @@
 ---
-description: Неактивный метод уведомляет ПИН-код о том, что фильтр больше не активен.
+description: Кбасеинпутпин. Inactive-метод. неактивный метод уведомляет ПИН-код о том, что фильтр больше не активен.
 ms.assetid: e00e1562-54bb-4968-8a86-b29e1077d7a5
 title: Метод Кбасеинпутпин. Inactive (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 52bf7efa352e8a73d562c61c3833a051ee860d4e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1324e9e2641e5e05bc3b0429ee269098c13d4bae
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657064"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099732"
 ---
 # <a name="cbaseinputpininactive-method"></a>Кбасеинпутпин. Inactive, метод
 
@@ -55,7 +55,7 @@ HRESULT Inactive();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасепин:: Inactive**](cbasepin-inactive.md) . Он вызывает метод [**имемаллокатор::D екоммит**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-decommit) для дефиксации распределителя памяти.
 
@@ -72,7 +72,7 @@ HRESULT Inactive();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

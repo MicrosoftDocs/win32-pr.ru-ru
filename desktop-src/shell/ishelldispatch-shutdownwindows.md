@@ -1,5 +1,5 @@
 ---
-description: Отображает диалоговое окно Завершение работы Windows. Это то же самое, что и при нажатии кнопки «Пуск», и при выборе «завершение работы».
+description: Ишеллдиспатч. Шутдовнвиндовс-метод — отображает диалоговое окно Завершение работы Windows. Это то же самое, что и при нажатии кнопки «Пуск», и при выборе «завершение работы».
 ms.assetid: 3C4F6579-6398-4af4-8911-FE22555B0ABC
 title: Ишеллдиспатч. Шутдовнвиндовс, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 9c111e1b740857337953cdcdf81735a8c0568ba5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5146e17d17ba0f082ad2d80f91ae05c176cf44ed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997287"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100472"
 ---
 # <a name="ishelldispatchshutdownwindows-method"></a>Ишеллдиспатч. Шутдовнвиндовс, метод
 
@@ -55,7 +55,7 @@ IShellDispatch.ShutdownWindows()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. шутдовнвиндовс**](shell-shutdownwindows.md) .
 

@@ -1,5 +1,5 @@
 ---
-description: Представляет связь между точкой доступа службы и логическим устройством, которое ее реализует.
+description: Msvm_FcDeviceSAPImplementation класс — представляет связь между точкой доступа службы и логическим устройством, которое ее реализует.
 ms.assetid: 5510c179-09e6-4762-b9b3-68ed49eafd66
 title: Класс Msvm_FcDeviceSAPImplementation
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: bc40f25e3b288155e713415aa512d629b538d1cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0df7a198b3ee52d131800073f8be30d51d93181
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662526"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119032"
 ---
 # <a name="msvm_fcdevicesapimplementation-class"></a>\_Класс мсвм фкдевицесапимплементатион
 
@@ -45,7 +45,7 @@ class Msvm_FcDeviceSAPImplementation : CIM_DeviceSAPImplementation
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ фкдевицесапимплементатион** имеет следующие свойства.
 

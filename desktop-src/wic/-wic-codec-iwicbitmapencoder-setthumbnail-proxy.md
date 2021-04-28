@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Сетсумбнаил.
+description: IWICBitmapEncoder_SetThumbnail_Proxy функция-прокси для метода Сетсумбнаил.
 ms.assetid: 6c062eaf-27a4-4d48-8315-be9bf168f999
 title: Функция IWICBitmapEncoder_SetThumbnail_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: d2670dae0d8ba9eeda7ca1d6dce5d3957dc59b7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7666fffbac7813db8021daf38ebae9c4e68c57a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497325"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100602"
 ---
 # <a name="iwicbitmapencoder_setthumbnail_proxy-function"></a>Ивикбитмапенкодер \_ сетсумбнаил \_ -функция
 
@@ -44,18 +44,18 @@ HRESULT IWICBitmapEncoder_SetThumbnail_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) \** _
+Тип: **[ **ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\***
 
-Указатель на этот объект [_ *ивикбитмапенкодер* *](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
+Указатель на этот объект [**ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
 
 </dd> <dt>
 
 *писумбнаил* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+Тип: **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
-Значение [_ *IWICBitmapSource* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) для задания в качестве глобального эскиза.
+[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) , который необходимо задать в качестве глобального эскиза.
 
 </dd> </dl>
 

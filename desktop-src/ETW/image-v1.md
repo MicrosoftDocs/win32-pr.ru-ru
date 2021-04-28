@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским для событий загрузки изображения. Следующий синтаксис упрощен из MOF-кода.
+description: Image_V1 класс. Этот класс является родительским для событий загрузки изображения. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 78c68080-90fc-4ebf-aa8a-4e03ce629d54
 title: Класс Image_V1
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 77481c671e89b47143aed110d4cf7e8f2712a0a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aafb2b7307e72e97ba1508aa80638af7565f2867
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156066"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106472"
 ---
 # <a name="image_v1-class"></a>\_Класс Image v1
 
@@ -34,7 +34,7 @@ class Image_V1 : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **image \_ v1** не определяет никаких членов.
 
@@ -49,14 +49,14 @@ class Image_V1 : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**МСНТ \_ системтраце**](msnt-systemtrace.md)
 </dt> <dt>
 
-[**Образ —**](image.md)
+[**Эскиз**](image.md)
 </dt> <dt>
 
 [**\_V0 изображения**](image-v0.md)

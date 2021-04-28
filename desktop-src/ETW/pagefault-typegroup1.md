@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа события для событий сбоя страницы. Следующий синтаксис упрощен из MOF-кода.
+description: PageFault_TypeGroup1 класс — этот класс является классом типа события для событий сбоя страницы. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 59cb1091-af21-4fe6-87b8-17a262cc4467
 title: Класс PageFault_TypeGroup1
 ms.topic: reference
@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4bf1f49c909833d75af844c8f2f943a01b6a5d6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a69e74a086ecd594d83c932beea4fd7d62724db
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265252"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106412"
 ---
 # <a name="pagefault_typegroup1-class"></a>\_Класс PageFault TypeGroup1
 
@@ -38,13 +38,13 @@ class PageFault_TypeGroup1 : PageFault_V2
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **PageFault \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **PageFault \_ TypeGroup1** имеет следующие свойства.
 
@@ -82,7 +82,7 @@ class PageFault_TypeGroup1 : PageFault_V2
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Ошибка страницы возникает, когда страница, заданная в кэше памяти, не найдена и должна быть получена из любого места в памяти (кратковременная ошибка) или с диска (жесткий сбой).
 
@@ -97,7 +97,7 @@ class PageFault_TypeGroup1 : PageFault_V2
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

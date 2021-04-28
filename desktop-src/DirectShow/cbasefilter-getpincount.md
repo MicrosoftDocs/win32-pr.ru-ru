@@ -1,5 +1,5 @@
 ---
-description: Метод Жетпинкаунт извлекает количество ПИН-кодов.
+description: Кбасефилтер. Жетпинкаунт, метод Жетпинкаунт извлекает количество ПИН-кодов.
 ms.assetid: 6cbeb123-d899-4f13-8b40-5666adec610f
 title: Кбасефилтер. Жетпинкаунт, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8da1cbc22a49b149bdccc36c3b854b44101b9bbc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0081b4cec45ed4cac5b4f0883032631983824cec
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657811"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099792"
 ---
 # <a name="cbasefiltergetpincount-method"></a>Кбасефилтер. Жетпинкаунт, метод
 
@@ -44,7 +44,7 @@ virtual int GetPinCount() = 0;
 
 Возвращает число ПИН-кодов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Производный класс должен реализовывать этот чистый виртуальный метод. Возврат количества ПИН-кодов, доступных в данный момент в этом фильтре. Фильтры могут динамически создавать или удалять ПИН-коды.
 
@@ -59,7 +59,7 @@ virtual int GetPinCount() = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

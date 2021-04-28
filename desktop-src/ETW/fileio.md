@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским для событий файлового ввода-вывода. Следующий синтаксис упрощен из MOF-кода.
+description: Класс FileIo — этот класс является родительским для событий файлового ввода-вывода. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 8e006a63-a061-4b62-8f90-b8c8823bb047
 title: Класс FileIo
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2f7c032cb7af325efa1d2ea76702068fc7b3be62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 716528902a115e23eae5b49ef572b87a71d11e25
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985085"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106532"
 ---
 # <a name="fileio-class"></a>Класс FileIo
 
@@ -34,11 +34,11 @@ class FileIo : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **FileIo** не определяет никаких членов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Чтобы включить события ввода-вывода файлов в сеансе ведения журнала ядра NT, укажите флаг **\_ трассировки \_ \_ \_ \_ операций ввода-вывода для файла диска** в элементе **енаблефлагс** структуры [**\_ \_ свойств трассировки событий**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) при вызове функции [**старттраце**](/windows/win32/api/evntrace/nf-evntrace-starttracea) . Можно также указать один или несколько из следующих флагов:
 
@@ -87,7 +87,7 @@ class FileIo : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

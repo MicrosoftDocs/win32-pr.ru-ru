@@ -1,5 +1,5 @@
 ---
-description: Получает высоту текстуры в пикселях.
+description: 'Метод ID3DXPRTBuffer:: Height — Получает высоту текстуры (в пикселях).'
 ms.assetid: 811d0c74-89fc-42b2-951c-8791d6677353
 title: 'Метод ID3DXPRTBuffer:: with Height (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 071e7bdea0df3f2e9871efa13e1b3490a6e76ce7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5138d979f73b67609bbacac3c3aa10e8f9fe8c9a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703869"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093292"
 ---
 # <a name="id3dxprtbuffergetheight-method"></a>Метод ID3DXPRTBuffer:: Height
 
@@ -55,7 +55,7 @@ UINT GetHeight();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

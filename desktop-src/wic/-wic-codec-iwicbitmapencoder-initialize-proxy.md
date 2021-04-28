@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Initialize.
+description: IWICBitmapEncoder_Initialize_Proxy функция-прокси для метода Initialize.
 ms.assetid: 0db79eb4-dcb2-491a-9bea-a0dec418f80f
 title: Функция IWICBitmapEncoder_Initialize_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: c1a2e684059b75e41c1d89e2d3dd5379cc208b56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d346d1379ae92f19a530c65daff07cb98b2e0e50
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693412"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100622"
 ---
 # <a name="iwicbitmapencoder_initialize_proxy-function"></a>Ивикбитмапенкодер \_ инициализировать \_ прокси-функцию
 
@@ -45,22 +45,22 @@ HRESULT IWICBitmapEncoder_Initialize_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) \** _
+Тип: **[ **ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\***
 
-Указатель на этот объект [_ *ивикбитмапенкодер* *](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
+Указатель на этот объект [**ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
 
 </dd> <dt>
 
 *пистреам* \[ окне\]
 </dt> <dd>
 
-Тип: **[IStream](/windows/desktop/api/objidl/nn-objidl-istream) \** _
+Тип: **[IStream](/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 Выходной поток.
 
 </dd> <dt>
 
-_cacheOption * \[ в\]
+*качеоптион* \[ окне\]
 </dt> <dd>
 
 Тип: **[ **викбитмапенкодеркачеоптион**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmapencodercacheoption)**

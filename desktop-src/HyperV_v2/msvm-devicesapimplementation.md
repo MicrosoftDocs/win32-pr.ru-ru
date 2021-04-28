@@ -1,5 +1,5 @@
 ---
-description: Связь между точкой доступа к службе (SAP) и ее реализацией.
+description: Msvm_DeviceSAPImplementation класс — ассоциация между точкой доступа к службе (SAP) и ее реализацией.
 ms.assetid: 36108521-A699-4498-A962-DC0801D9EE81
 title: Класс Msvm_DeviceSAPImplementation
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9551d4409edfdfca18b66e3a3b86d6adcb28b19c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fbe3c9b85e0a8c9f0c6a07d1db03784c4ac15e6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663727"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112102"
 ---
 # <a name="msvm_devicesapimplementation-class"></a>\_Класс мсвм девицесапимплементатион
 
@@ -45,7 +45,7 @@ class Msvm_DeviceSAPImplementation : CIM_DeviceSAPImplementation
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ девицесапимплементатион** имеет следующие свойства.
 
@@ -77,7 +77,7 @@ class Msvm_DeviceSAPImplementation : CIM_DeviceSAPImplementation
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ девицесапимплементатион мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -99,7 +99,7 @@ class Msvm_DeviceSAPImplementation : CIM_DeviceSAPImplementation
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

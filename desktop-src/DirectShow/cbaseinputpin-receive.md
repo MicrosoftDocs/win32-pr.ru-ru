@@ -1,5 +1,5 @@
 ---
-description: 'Метод Receive получает следующий образец носителя в потоке. Этот метод реализует метод Имеминпутпин:: Receive.'
+description: 'Кбасеинпутпин. Receive — метод Receive получает следующий образец носителя в потоке. Этот метод реализует метод Имеминпутпин:: Receive.'
 ms.assetid: 30fefc7b-7c9c-44cd-b58b-2b275dfa2520
 title: Метод Кбасеинпутпин. Receive (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 10306d5568ae1754105a4367952cef82f931be99
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fe88913ad374923c11cf058a3dc0aa70580411e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656913"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099692"
 ---
 # <a name="cbaseinputpinreceive-method"></a>Кбасеинпутпин. Receive, метод
 
@@ -68,7 +68,7 @@ HRESULT Receive(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Входной ПИН-код вышестоящего выхода вызывает этот метод для доставки образца на входный ПИН-код. Входной ПИН-код должен выполнять одно из следующих действий:
 
@@ -106,7 +106,7 @@ HRESULT Receive(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

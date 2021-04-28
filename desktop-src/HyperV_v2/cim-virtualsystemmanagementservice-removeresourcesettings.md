@@ -1,5 +1,5 @@
 ---
-description: Удаляет параметры виртуального ресурса из конфигурации виртуальной системы.
+description: Метод Ремовересаурцесеттингс класса CIM_VirtualSystemManagementService — удаляет параметры виртуального ресурса из конфигурации виртуальной системы.
 ms.assetid: 7934a5e4-f54c-43fd-9ec3-d1fc1aad0acd
 title: Метод Ремовересаурцесеттингс класса CIM_VirtualSystemManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1f5b3ac1cc53f23d0d899a4c6b5d17408bca3b9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5c7daabcdcd732c3a5693664e1768ebf66668d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812730"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112262"
 ---
 # <a name="removeresourcesettings-method-of-the-cim_virtualsystemmanagementservice-class"></a>Метод Ремовересаурцесеттингс \_ класса CIM виртуалсистемманажементсервице
 
@@ -98,7 +98,7 @@ uint32 RemoveResourceSettings(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -106,7 +106,7 @@ uint32 RemoveResourceSettings(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

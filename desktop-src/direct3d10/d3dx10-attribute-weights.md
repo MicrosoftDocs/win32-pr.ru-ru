@@ -1,5 +1,5 @@
 ---
-description: Задает атрибуты веса сетки.
+description: Структура D3DX10_ATTRIBUTE_WEIGHTS — задает атрибуты веса сетки.
 ms.assetid: 554bb8f2-9e92-4e9e-b500-c3cc47d57830
 title: Структура D3DX10_ATTRIBUTE_WEIGHTS (D3DX10. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: 4f137c1ecc29c184c4dec3995fb0202741ce9f09
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ab163149493ad73f892a251a691ad82544d7f382
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355110"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094360"
 ---
 # <a name="d3dx10_attribute_weights-structure"></a>\_ \_ Структура весовых коэффициентов атрибутов D3DX10
 
@@ -134,7 +134,7 @@ typedef struct D3DX10_ATTRIBUTE_WEIGHTS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура описывает, как операция упрощения будет учитывать данные вершин при вычислении относительных затрат между свертыванием краев. Например, если значение обычного поля равно 0,0, то при вычислении ошибки для сворачивания операция упрощения будет игнорировать компонент нормали вершины. Однако если значение обычного поля равно 1,0, то операция упрощения будет использовать компонент нормали вершины. Если значение обычного поля равно 2,0, удваивается количество ошибок. Если значение обычного поля равно 4,0, то число ошибок и т. д.
 
@@ -157,7 +157,7 @@ typedef struct D3DX10_ATTRIBUTE_WEIGHTS {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

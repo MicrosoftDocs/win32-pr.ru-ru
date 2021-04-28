@@ -1,15 +1,15 @@
 ---
-description: Задает левый конец прямоугольника назначения в пикселях.
+description: MFPKEY_COLORCONV_DSTLEFT свойство — задает левый конец прямоугольника назначения в пикселях.
 ms.assetid: 9411a7f7-0ce6-43b7-b50d-54489a7bb864
 title: Свойство MFPKEY_COLORCONV_DSTLEFT (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 451655a8220f42d1580620b98dc3a5ac62d7c3a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efc358d2065878a206d1b4a248406006bf70c9ed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264010"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093052"
 ---
 # <a name="mfpkey_colorconv_dstleft-property"></a>МФПКЭЙ \_ колорконв \_ Дстлефт, свойство
 
@@ -39,7 +39,7 @@ VT \_ I4
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

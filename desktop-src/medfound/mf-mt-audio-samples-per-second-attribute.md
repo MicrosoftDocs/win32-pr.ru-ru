@@ -1,15 +1,15 @@
 ---
-description: Число звуковых выборок в секунду в типе звукового носителя.
+description: MF_MT_AUDIO_SAMPLES_PER_SECOND атрибут — количество звуковых выборок в секунду в типе звукового носителя.
 ms.assetid: f640016d-595e-4b20-8ce8-23a029c2b064
 title: Атрибут MF_MT_AUDIO_SAMPLES_PER_SECOND (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5080f6df87bafe8d4ee86e7b25332a12214ff3cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93a91b44ba4c55bf2512eefddfe3bc7a18d2eddd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898354"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093102"
 ---
 # <a name="mf_mt_audio_samples_per_second-attribute"></a>\_ \_ Атрибуты звуковых \_ образцов MF MT \_ в \_ секунду
 
@@ -19,7 +19,7 @@ ms.locfileid: "103898354"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут соответствует элементу **нсамплесперсек** структуры [**вавеформатекс**](/previous-versions/dd757713(v=vs.85)) .
 
@@ -37,7 +37,7 @@ ms.locfileid: "103898354"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

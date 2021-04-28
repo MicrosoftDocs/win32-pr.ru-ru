@@ -1,5 +1,5 @@
 ---
-description: Изменяет данные настройки для службы.
+description: Метод Модифисервицесеттингс класса Msvm_TerminalService — изменяет данные настройки для службы.
 ms.assetid: 76669180-fa95-4d6e-b89a-53e45da664c4
 title: Метод Модифисервицесеттингс класса Msvm_TerminalService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: c2d6550d8b15264bf9cef126239228494996d080
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 930b29c5c07c755b493a0aabad88ae776c0803e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911679"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119332"
 ---
 # <a name="modifyservicesettings-method-of-the-msvm_terminalservice-class"></a>Метод Модифисервицесеттингс \_ класса Терминалсервице мсвм
 
@@ -113,7 +113,7 @@ uint32 ModifyServiceSettings(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

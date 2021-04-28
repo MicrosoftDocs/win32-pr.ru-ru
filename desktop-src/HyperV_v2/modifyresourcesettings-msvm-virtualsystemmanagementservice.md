@@ -1,5 +1,5 @@
 ---
-description: Изменяет параметры виртуального ресурса.
+description: Метод Модифиресаурцесеттингс класса Msvm_VirtualSystemManagementService изменяет параметры виртуального ресурса.
 ms.assetid: 3fb2a65f-9f40-4eb9-99e8-8fe1451427d9
 title: Метод Модифиресаурцесеттингс класса Msvm_VirtualSystemManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 872e81926f717671b741a89c9bf954e452803b36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09ca0bb9fea02b6acc5599d9f907b1e60fdbd9ec
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911680"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119342"
 ---
 # <a name="modifyresourcesettings-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Метод Модифиресаурцесеттингс \_ класса Виртуалсистемманажементсервице мсвм
 
@@ -115,7 +115,7 @@ uint32 ModifyResourceSettings(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

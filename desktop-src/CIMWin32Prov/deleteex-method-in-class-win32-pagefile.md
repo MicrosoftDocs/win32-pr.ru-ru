@@ -1,5 +1,5 @@
 ---
-description: Удаляет логический файл подкачки (или каталог), указанный в пути объекта.
+description: Метод Делетикс класса Win32_PageFile — удаляет логический файл подкачки (или каталог), указанный в пути объекта.
 ms.assetid: ea31f92a-94b9-4d4d-abd9-6c304ac5caee
 ms.tgt_platform: multiple
 title: Метод Делетикс класса Win32_PageFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2f62875313f6be432ab191fc91bbac381627de3c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 34e27e80c3cfaea352ee97ad29aed0b7ca358546
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141335"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097052"
 ---
 # <a name="deleteex-method-of-the-win32_pagefile-class"></a>Метод Делетикс \_ класса файла подкачки Win32
 
@@ -168,7 +168,7 @@ uint32 DeleteEx(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

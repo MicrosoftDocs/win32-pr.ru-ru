@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Провидеритемид
 ms.assetid: 5276dc2b-a448-47b3-8f9e-4585b767a9c0
 title: System. Провидеритемид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca461d4593caad8ff3a561aa0867c448afdc482c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 739e235faeaf55cb405b1c898517e7d18ea1e3cf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910467"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107002"
 ---
 # <a name="systemprovideritemid"></a>System. Провидеритемид
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

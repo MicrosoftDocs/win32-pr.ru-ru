@@ -1,5 +1,5 @@
 ---
-description: Изменяет данные настройки для службы.
+description: Метод Модифисервицесеттингс класса Msvm_MetricService — изменяет данные настройки для службы.
 ms.assetid: E6133DA7-A137-42FA-A523-5B93E9C6DB79
 title: Метод Модифисервицесеттингс класса Msvm_MetricService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: b680f5f46d99d46f99094e05db653083fd7ae952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 088aec001dd63de7344256fd9e114b6ff73e4425
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810318"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112182"
 ---
 # <a name="modifyservicesettings-method-of-the-msvm_metricservice-class"></a>Метод Модифисервицесеттингс \_ класса Метриксервице мсвм
 
@@ -65,7 +65,7 @@ uint32 ModifyServiceSettings(
 | <dl> <dt>**Завершено без ошибки**</dt> <dt>0</dt> </dl>                    | Успешно.<br/>                                |
 | <dl> <dt>**Параметры метода проверены — задание запущено**</dt> <dt>4096</dt> </dl> | Параметры метода проверены, задание запущено.<br/> |
 | <dl> <dt>**Сбой**</dt> <dt>32768</dt> </dl>                                 | сбой.<br/>                                 |
-| <dl> <dt>**Отказано в доступе**</dt> <dt>32769</dt> </dl>                          | Доступ запрещен.<br/>                          |
+| <dl> <dt>**Отказано в доступе**</dt> <dt>32769</dt> </dl>                          | Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)<br/>                          |
 | <dl> <dt>**Не поддерживается**</dt> <dt>32770</dt> </dl>                          | Не поддерживается.<br/>                          |
 | <dl> <dt>**Состояние неизвестно**</dt> <dt>32771</dt> </dl>                      | Состояние неизвестно.<br/>                      |
 | <dl> <dt>**Время ожидания**</dt> <dt>32772</dt> </dl>                                | Время ожидания.<br/>                               |
@@ -94,7 +94,7 @@ uint32 ModifyServiceSettings(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

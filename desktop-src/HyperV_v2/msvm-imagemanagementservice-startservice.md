@@ -1,5 +1,5 @@
 ---
-description: запускает службу.
+description: Метод StartService класса Msvm_ImageManagementService — запускает службу.
 ms.assetid: d1e11947-4f48-404f-a359-627a3b7716fd
 title: Метод StartService класса Msvm_ImageManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: fd13a4eb39477d9d22fc687b095a8f6fbbc68c5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fb895687960348bf030efe5f668f7a914157ff5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682842"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111752"
 ---
 # <a name="startservice-method-of-the-msvm_imagemanagementservice-class"></a>Метод StartService \_ класса мсвм)
 
@@ -55,7 +55,7 @@ uint32 StartService();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -63,7 +63,7 @@ uint32 StartService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

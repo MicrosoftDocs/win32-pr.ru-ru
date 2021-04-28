@@ -1,5 +1,5 @@
 ---
-description: Возвращает количество цветовых каналов, используемых в памяти для хранения образцов.
+description: 'Метод ID3DXPRTCompBuffer:: Жетнумчаннелс — получает количество цветовых каналов, используемых в памяти для хранения образцов.'
 ms.assetid: 8b033cda-feec-4e74-a4c4-ea44b5fb12c7
 title: 'Метод ID3DXPRTCompBuffer:: Жетнумчаннелс (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 85712ecc6d9cb4875b93627dfcb15558c33681f9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9212528bec454a8d349c6249f851c3b021dceb00
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694334"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093172"
 ---
 # <a name="id3dxprtcompbuffergetnumchannels-method"></a>Метод ID3DXPRTCompBuffer:: Жетнумчаннелс
 
@@ -57,7 +57,7 @@ UINT GetNumChannels();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

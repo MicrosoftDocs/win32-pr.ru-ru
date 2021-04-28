@@ -1,5 +1,5 @@
 ---
-description: Возвращает объект ошибки для задания, если оно существует.
+description: Метод GetObject класса Msvm_ConcreteJob — извлекает объект ошибки для задания, если оно существует.
 ms.assetid: 7E810CBE-F18F-4EFA-B52E-631CD071D136
 title: Метод method класса Msvm_ConcreteJob
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 63279d8bc08f0b9f1955f694470a3744defd8054
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c222a7091550b5ee831330f100292549e31ce5ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662462"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112192"
 ---
 # <a name="geterror-method-of-the-msvm_concretejob-class"></a>Метод method \_ класса мсвм конкретежоб
 
@@ -92,7 +92,7 @@ uint32 GetError(
 **Недостаточно памяти** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу [**\_ конкретежоб мсвм**](msvm-concretejob.md) может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -110,7 +110,7 @@ uint32 GetError(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

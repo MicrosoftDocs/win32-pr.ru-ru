@@ -1,5 +1,5 @@
 ---
-description: Изменяет параметры виртуального ресурса.
+description: Метод Модифиресаурцесеттингс класса CIM_VirtualSystemManagementService изменяет параметры виртуального ресурса.
 ms.assetid: 4942f167-0e53-4ae2-b973-4a06b636b44a
 title: Метод Модифиресаурцесеттингс класса CIM_VirtualSystemManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e27729429d02c2412e05344779cc40461dbd9dfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26971c80ce6f7d0ffcdcef069d76aef5fdc15138
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497775"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112292"
 ---
 # <a name="modifyresourcesettings-method-of-the-cim_virtualsystemmanagementservice-class"></a>Метод Модифиресаурцесеттингс \_ класса CIM виртуалсистемманажементсервице
 
@@ -109,7 +109,7 @@ uint32 ModifyResourceSettings(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -117,7 +117,7 @@ uint32 ModifyResourceSettings(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

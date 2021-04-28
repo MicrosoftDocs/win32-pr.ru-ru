@@ -1,5 +1,5 @@
 ---
-description: Возвращает нормализованную версию трехмерного вектора.
+description: Функция D3DXVec3Normalize (D3DX10Math. h) — Возвращает нормализованную версию трехмерного вектора.
 ms.assetid: 420321a2-0c3b-419c-9620-acf184e7b4f0
 title: Функция D3DXVec3Normalize (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 413b807c53e0b46b115af2aa283e4902a45f5979
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f1317b1b8887b9ff306fcaed2cb6da2d077010f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103914783"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108182"
 ---
 # <a name="d3dxvec3normalize-function-d3dx10mathh"></a>Функция D3DXVec3Normalize (D3DX10Math. h)
 
@@ -64,7 +64,7 @@ D3DXVECTOR3* D3DXVec3Normalize(
 
 Указатель на структуру D3DXVECTOR3, которая является нормализованной версией указанного вектора.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXVec3Normalize может использоваться в качестве параметра для другой функции.
 
@@ -78,7 +78,7 @@ D3DXVECTOR3* D3DXVec3Normalize(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

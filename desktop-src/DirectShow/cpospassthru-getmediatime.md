@@ -1,5 +1,5 @@
 ---
-description: Метод Жетмедиатиме извлекает метки времени для текущего образца.
+description: Кпоспасссру. Жетмедиатиме, метод Жетмедиатиме извлекает метки времени для текущего образца.
 ms.assetid: 36f3b6d3-b884-4168-94f3-f334a5056c7d
 title: Кпоспасссру. Жетмедиатиме, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b2748d986f121a38041155dcd43f13a647916486
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 328a0ae09c80a687863cfedb994f5a80cebebf14
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675042"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095262"
 ---
 # <a name="cpospassthrugetmediatime-method"></a>Кпоспасссру. Жетмедиатиме, метод
 
@@ -61,7 +61,7 @@ virtual HRESULT GetMediaTime(
 
 Возвращает значение E \_ Fail.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переопределите этот метод, если фильтр кэширует метки времени на получаемых образцах.
 
@@ -76,7 +76,7 @@ virtual HRESULT GetMediaTime(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

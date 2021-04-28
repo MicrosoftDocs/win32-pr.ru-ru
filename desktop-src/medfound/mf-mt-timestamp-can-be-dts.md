@@ -1,15 +1,15 @@
 ---
-description: Указывает, может ли декодер использовать метки времени декодирования (DTS) при установке меток времени.
+description: MF_MT_TIMESTAMP_CAN_BE_DTS атрибут — указывает, может ли декодер использовать отметки времени декодирования (DTS) при установке меток времени.
 ms.assetid: 38E6AA56-EE38-48D5-92F1-F29ABB2C7A72
 title: Атрибут MF_MT_TIMESTAMP_CAN_BE_DTS (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a94cffdcea37c3fe7814a24db219f3d0cd971723
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e666c8d7cce5ed7f209ee9b10efa0ffe50cf211d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647395"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093072"
 ---
 # <a name="mf_mt_timestamp_can_be_dts-attribute"></a>\_ \_ Метка времени MF \_ MT \_ может быть \_ атрибутом DTS
 
@@ -31,7 +31,7 @@ ms.locfileid: "105647395"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

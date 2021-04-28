@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа события для событий процесса. Следующий синтаксис упрощен из MOF-кода.
+description: Process_V0_TypeGroup1 класс — этот класс является классом типа события для событий процесса. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: fcf2897d-32b4-42b9-892c-f0106687d3c2
 title: Класс Process_V0_TypeGroup1
 ms.topic: reference
@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2889feb05bfc396f2c2018ca59d2cf46fba8ec13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 524d3c7da9f8ff76608da120834c5365eb1deb41
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984512"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106362"
 ---
 # <a name="process_v0_typegroup1-class"></a>\_Класс Process v0 \_ TypeGroup1
 
@@ -42,13 +42,13 @@ class Process_V0_TypeGroup1 : Process_V0
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **Process \_ v0 \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Process \_ v0 \_ TypeGroup1** имеет следующие свойства.
 
@@ -129,7 +129,7 @@ UserSID
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Создание результата из описания ASCII или двоичного действия.
+description: Функция D3DXCreateEffectFromFile — создание результата из описания ASCII-или двоичного воздействия.
 ms.assetid: b5868ba3-0869-46f7-804f-3103358a3ef5
 title: Функция D3DXCreateEffectFromFile (D3DX9Effect. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: f34d0cdb3ae19772f21d8307fffb395c4d1ac9ef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d8b2afdd1e8008bc8e03efa670e5a4b37b6dc9f8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103821396"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094322"
 ---
 # <a name="d3dxcreateeffectfromfile-function"></a>Функция D3DXCreateEffectFromFile
 
@@ -125,7 +125,7 @@ HRESULT D3DXCreateEffectFromFile(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для параметров компилятора требуется Юникод, тип данных LPCTSTR разрешается в ЛПКВСТР. В противном случае тип данных LPCTSTR разрешается в LPCSTR.
 
@@ -142,7 +142,7 @@ HRESULT D3DXCreateEffectFromFile(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

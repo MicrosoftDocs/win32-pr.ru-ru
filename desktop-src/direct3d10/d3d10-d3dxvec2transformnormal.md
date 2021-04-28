@@ -1,5 +1,5 @@
 ---
-description: Преобразует двумерный вектор, нормализованный заданной матрицей.
+description: Функция D3DXVec2TransformNormal (D3DX10Math. h) — преобразует двумерный вектор, нормализованный заданной матрицей.
 ms.assetid: fc238bb1-155f-4018-9c92-16352726920d
 title: Функция D3DXVec2TransformNormal (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c4043a8f5a57f14be3e8506dc257690ef581835d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 403562ab779ebf532e1c1ebcec4ce21a2beadd7a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000378"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108302"
 ---
 # <a name="d3dxvec2transformnormal-function-d3dx10mathh"></a>Функция D3DXVec2TransformNormal (D3DX10Math. h)
 
@@ -75,7 +75,7 @@ D3DXVECTOR2* D3DXVec2TransformNormal(
 
 Указатель на структуру D3DXVECTOR2, которая является преобразованным вектором.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция преобразует вектор (pV->x, pV->y, 0, 0) на матрицу, на которую указывает pM.
 
@@ -94,7 +94,7 @@ D3DXVECTOR2* D3DXVec2TransformNormal(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

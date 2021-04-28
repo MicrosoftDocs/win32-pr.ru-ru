@@ -1,5 +1,5 @@
 ---
-description: Запрашивает изменение состояния.
+description: Метод RequestStateChange класса Msvm_CollectionReferencePointExportJob — запрашивает изменение состояния.
 ms.assetid: 34d70ff2-4545-4ab7-8c84-6532c342768b
 title: Метод RequestStateChange класса Msvm_CollectionReferencePointExportJob
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: a3e8b3f3a7249896f023734d049fa3fa772514f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84956e206654de022c3151aa5a442651f9c2375a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684271"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119242"
 ---
 # <a name="requeststatechange-method-of-the-msvm_collectionreferencepointexportjob-class"></a>Метод RequestStateChange \_ класса мсвм коллектионреференцепоинтекспортжоб
 
@@ -179,7 +179,7 @@ RequestStateChange изменяет состояние задания. Возм�
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

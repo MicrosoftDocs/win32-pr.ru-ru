@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа события для событий реестра. Следующий синтаксис упрощен из MOF-кода.
+description: Класс Registry_V1_TypeGroup1 — этот класс является классом типа события для событий реестра. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 59c455a0-af7e-4fd5-9af4-07ff72ee0545
 title: Класс Registry_V1_TypeGroup1
 ms.topic: reference
@@ -17,12 +17,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2cd77ad0c12769c657b4e7c23c1fe1993a248481
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab0326f92d1b084f471f3dc1b57322f69aa645fd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897638"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106162"
 ---
 # <a name="registry_v1_typegroup1-class"></a>\_ \_ Класс TypeGroup1 реестра v1
 
@@ -44,13 +44,13 @@ class Registry_V1_TypeGroup1 : Registry
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ \_ TypeGroup1 в реестре** версии 1 содержит следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ TypeGroup1 в реестре** имеет следующие свойства.
 
@@ -147,7 +147,7 @@ KeyName
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

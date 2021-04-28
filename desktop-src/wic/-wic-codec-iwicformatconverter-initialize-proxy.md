@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Initialize.
+description: IWICFormatConverter_Initialize_Proxy функция-прокси для метода Initialize.
 ms.assetid: 26112d52-95e2-4c67-83fc-cf5e28712730
 title: Функция IWICFormatConverter_Initialize_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 6450c1a508507db73e44ef8b88b4f94970ac6004
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d70d852adc8f810438ce46dc30345e68fa27e0fd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266145"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097162"
 ---
 # <a name="iwicformatconverter_initialize_proxy-function"></a>Ивикформатконвертер \_ инициализировать \_ прокси-функцию
 
@@ -49,22 +49,22 @@ HRESULT IWICFormatConverter_Initialize_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикформатконвертер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter) \** _
+Тип: **[ **ивикформатконвертер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter)\***
 
-Указатель на этот объект [_ *ивикформатконвертер* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter) .
+Указатель на этот объект [**ивикформатконвертер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter) .
 
 </dd> <dt>
 
 *писаурце* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+Тип: **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 Входной точечный рисунок для преобразования
 
 </dd> <dt>
 
-_dstFormat * \[ в\]
+*дстформат* \[ окне\]
 </dt> <dd>
 
 Тип: **рефвикпикселформатгуид**
@@ -85,13 +85,13 @@ _dstFormat * \[ в\]
 *пипалетте* \[ окне\]
 </dt> <dd>
 
-Тип: **[**ивикпалетте**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) \** _
+Тип: **[ **ивикпалетте**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette)\***
 
 Палитра, используемая для преобразования.
 
 </dd> <dt>
 
-_alphaThresholdPercent * \[ в\]
+*алфасрешолдперцент* \[ окне\]
 </dt> <dd>
 
 Тип: **Double**

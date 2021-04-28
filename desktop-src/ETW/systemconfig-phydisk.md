@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий конфигурации физического диска.
+description: SystemConfig_PhyDisk класс — этот класс является классом типа события для событий конфигурации физического диска.
 ms.assetid: 850a6b2c-69e6-47ae-95ff-585fcc70c1c8
 title: Класс SystemConfig_PhyDisk
 ms.topic: reference
@@ -27,12 +27,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: d868e3943f22a71b4513f4f77841ddea9204ffea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52ab249ab5087a1528317687d90f6d8fa665bc1a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984400"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106102"
 ---
 # <a name="systemconfig_phydisk-class"></a>\_Класс системконфиг фидиск
 
@@ -64,13 +64,13 @@ class SystemConfig_PhyDisk : SystemConfig
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **системконфиг \_ фидиск** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **системконфиг \_ фидиск** имеет следующие свойства.
 
@@ -327,7 +327,7 @@ class SystemConfig_PhyDisk : SystemConfig
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
