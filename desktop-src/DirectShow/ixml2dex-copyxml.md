@@ -1,5 +1,5 @@
 ---
-description: Не реализован.
+description: 'Метод IXml2Dex:: Копиксмл не реализован.'
 ms.assetid: be412d17-6210-4b50-a2b9-9b51c722cb7c
 title: 'Метод IXml2Dex:: Копиксмл'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d5840b89c4f58539eb559be3b5d438694c83ea84
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 61e46cb86f32ede3906a22566f455f1a8c55ecb5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537841"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088982"
 ---
 # <a name="ixml2dexcopyxml-method"></a>Метод IXml2Dex:: Копиксмл
 
@@ -70,7 +70,7 @@ HRESULT CopyXML(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -82,7 +82,7 @@ HRESULT CopyXML(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

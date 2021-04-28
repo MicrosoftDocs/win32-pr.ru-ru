@@ -1,5 +1,5 @@
 ---
-description: Возвращает коллекцию объектов (классов или экземпляров), называемых конечными точками, которые связаны с указанным объектом.
+description: SWbemServices. АссоЦиаторсоф, метод возвращает коллекцию объектов (классов или экземпляров), называемых конечными точками, которые связаны с указанным объектом.
 ms.assetid: a78e6701-6779-4a02-b811-23b2da4f4167
 ms.tgt_platform: multiple
 title: SWbemServices. АссоЦиаторсоф, метод (Wbemdisp. h)
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 0208ef23158d71a5174fcb6759acba1d64bd09a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95dc8e16939c345b6f885980dd2f1194f180ac5e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663491"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103692"
 ---
 # <a name="swbemservicesassociatorsof-method"></a>SWbemServices. АссоЦиаторсоф, метод
 
@@ -59,7 +59,7 @@ objWbemObjectSet = .AssociatorsOf( _
 *стробжектпас* 
 </dt> <dd>
 
-Обязательный. Строка, содержащая путь к объекту исходного класса или экземпляра. Дополнительные сведения см. [в разделе Описание расположения объекта WMI](describing-the-location-of-a-wmi-object.md).
+Обязательный элемент. Строка, содержащая путь к объекту исходного класса или экземпляра. Дополнительные сведения см. [в разделе Описание расположения объекта WMI](describing-the-location-of-a-wmi-object.md).
 
 </dd> <dt>
 
@@ -238,7 +238,7 @@ objWbemObjectSet = .AssociatorsOf( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод извлекает экземпляры управляемых ресурсов, связанные с указанным ресурсом, через один или несколько классов взаимосвязей. Вы предоставляете путь к объекту для исходной конечной точки, а АссоЦиаторсоф возвращает управляемые ресурсы в противоположной конечной точке. Метод АссоЦиаторсоф выполняет ту же функцию, что и СОЕДИНИТЕЛи WQL-запросов.
 
@@ -260,7 +260,7 @@ objWbemObjectSet = .AssociatorsOf( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

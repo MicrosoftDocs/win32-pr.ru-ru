@@ -1,5 +1,5 @@
 ---
-description: Создает и возвращает объект Шеллвиндовс. Этот объект представляет коллекцию всех открытых окон, принадлежащих оболочке.
+description: Метод Shell. Windows — создает и возвращает объект Шеллвиндовс. Этот объект представляет коллекцию всех открытых окон, принадлежащих оболочке.
 title: Метод Shell. Windows (Шлдисп. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: ffa6311c-8bbe-45c4-9b06-069779d2306d
-ms.openlocfilehash: a865109f926253215e5ad39227cfe3d480e9ccc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d46e27781dc569b473615926509f51ed9d089af3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999346"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104072"
 ---
 # <a name="shellwindows-method"></a>Shell. Windows, метод
 

@@ -1,5 +1,5 @@
 ---
-description: Метод Reset запрашивает сброс логического устройства. Этот метод наследуется от CIM-ого модели \_ .
+description: Метод Reset класса CIM_Sensor. метод Reset запрашивает сброс логического устройства. Этот метод наследуется от CIM-ого модели \_ .
 ms.assetid: d764986b-b512-4f38-8284-d16b1f670871
 ms.tgt_platform: multiple
 title: Метод Reset класса CIM_Sensor
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e7aaddafd0c2316bb2fb996ec5f9640e0135899c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9a17599216226f2420504ee07fccd2174d7eff4e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142715"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096862"
 ---
 # <a name="reset-method-of-the-cim_sensor-class"></a>Метод Reset \_ класса датчика CIM
 
@@ -47,7 +47,7 @@ uint32 Reset();
 
 Возвращает 0 (ноль), если запрос был успешно выполнен, 1 (один), если запрос не поддерживается, и другое значение, если произошла ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -67,7 +67,7 @@ uint32 Reset();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

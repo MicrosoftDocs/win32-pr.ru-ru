@@ -1,5 +1,5 @@
 ---
-description: Рисует подмножество сетки.
+description: 'ID3DXBaseMesh: метод:D Равсубсет — рисует подмножество сетки.'
 ms.assetid: 99eaa185-b681-47f2-aed8-5ca1697ff73c
 title: 'ID3DXBaseMesh: метод:D Равсубсет (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d0da6e9fc57e0fc5e7b4b263ba3d97185333881c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 252c9b9921c7eafd8f0c2a54cfa14a85e91b8f7d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703757"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115472"
 ---
 # <a name="id3dxbasemeshdrawsubset-method"></a>ID3DXBaseMesh: метод:D Равсубсет
 
@@ -55,7 +55,7 @@ HRESULT DrawSubset(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Подмножество, заданное Аттрибид, будет подготовлено к просмотру с помощью метода [**IDirect3DDevice9::D равиндекседпримитиве**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawindexedprimitive) , используя \_ тип-примитив D3DPT трианглелист, поэтому буфер индекса должен быть правильно инициализирован.
 
@@ -72,7 +72,7 @@ HRESULT DrawSubset(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

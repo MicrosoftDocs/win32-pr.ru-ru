@@ -1,5 +1,5 @@
 ---
-description: 'Метод Ендфлуш завершает операцию очистки. Этот метод реализует метод Ипин:: Ендфлуш.'
+description: 'Ктрансформинпутпин. Ендфлуш, метод Ендфлуш завершает операцию очистки. Этот метод реализует метод Ипин:: Ендфлуш.'
 ms.assetid: ebc70df3-e99d-4292-990b-99b79ff06461
 title: Ктрансформинпутпин. Ендфлуш, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f0fe6afeaa0ca3d47b278987af494221e8f50340
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5e080b4531d05160bebd42a68145842c4783bea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657405"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095062"
 ---
 # <a name="ctransforminputpinendflush-method"></a>Ктрансформинпутпин. Ендфлуш, метод
 
@@ -55,7 +55,7 @@ HRESULT EndFlush();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**ктрансформфилтер:: ендфлуш**](ctransformfilter-endflush.md) фильтра для доставки вызова в нисходящем направлении. Затем вызывается метод [**кбасеинпутпин:: ендфлуш**](cbaseinputpin-endflush.md) ПИН-кода.
 

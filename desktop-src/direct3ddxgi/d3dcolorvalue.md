@@ -1,5 +1,5 @@
 ---
-description: Представляет значение цвета с альфа-составляющей, используемой для прозрачности.
+description: Структура D3DCOLORVALUE (Дксгитипе. h) — представляет значение цвета с альфа-составляющей, которое используется для прозрачности.
 ms.assetid: 27A86A10-FC0E-421E-BEA7-2DEB539849BB
 title: Структура D3DCOLORVALUE (Дксгитипе. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxgitype.h
-ms.openlocfilehash: 2b7d768af9e471f3183c6a400622c2b0e0719a2f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 83ca500493a04f04de5352185c240d20a19009f5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354760"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107152"
 ---
 # <a name="d3dcolorvalue-structure-dxgitypeh"></a>Структура D3DCOLORVALUE (Дксгитипе. h)
 
@@ -70,7 +70,7 @@ typedef struct _D3DCOLORVALUE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Членам этой структуры можно присвоить значения вне диапазона от 0 до 1, чтобы реализовать необычные эффекты. Значения больше 1 создают сильные лампочки, которые обычно заменяют сцену. Отрицательные значения создают темные огни, которые фактически удаляют свет из сцены.
 
@@ -95,7 +95,7 @@ typedef D3DCOLORVALUE DXGI_RGBA;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

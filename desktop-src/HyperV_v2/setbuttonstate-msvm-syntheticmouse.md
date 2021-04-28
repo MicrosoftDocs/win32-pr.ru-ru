@@ -1,5 +1,5 @@
 ---
-description: Задает текущее состояние указанной кнопки устройства.
+description: Метод Сетбуттонстате класса Msvm_SyntheticMouse — задает текущее состояние указанной кнопки устройства.
 ms.assetid: 942DB31C-09A2-43B6-A666-267AF6A84E0E
 title: Метод Сетбуттонстате класса Msvm_SyntheticMouse
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: c99915fa8ede9cbb405f4483ac10ca9ff8efaf71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 161520ac1b7e9dba1a084a8fb3c623155aa135fe
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264403"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109212"
 ---
 # <a name="setbuttonstate-method-of-the-msvm_syntheticmouse-class"></a>Метод Сетбуттонстате \_ класса Синсетикмаусе мсвм
 
@@ -105,7 +105,7 @@ uint32 SetButtonState(
 **Недостаточно памяти** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу [**\_ синсетикмаусе мсвм**](msvm-syntheticmouse.md) может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -123,7 +123,7 @@ uint32 SetButtonState(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

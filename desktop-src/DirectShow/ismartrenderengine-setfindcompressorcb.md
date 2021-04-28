@@ -1,5 +1,5 @@
 ---
-description: Не реализован.
+description: 'Метод Исмартрендеренгине:: Сетфиндкомпрессоркб не реализован.'
 ms.assetid: ed0aecfa-348c-4cf9-87c2-b701a552eec8
 title: 'Метод Исмартрендеренгине:: Сетфиндкомпрессоркб'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 537632715c0734c38394a1dae10535b6613e9b04
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: aba7de54e02433762c63bc7bc8addea5b94b48e2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103989923"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088992"
 ---
 # <a name="ismartrenderenginesetfindcompressorcb-method"></a>Метод Исмартрендеренгине:: Сетфиндкомпрессоркб
 
@@ -54,7 +54,7 @@ HRESULT SetFindCompressorCB(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -66,7 +66,7 @@ HRESULT SetFindCompressorCB(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

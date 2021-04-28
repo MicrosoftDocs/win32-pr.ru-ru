@@ -1,15 +1,15 @@
 ---
-description: .
+description: Программа клиента Windows 7 Client Software Logo
 ms.assetid: 05d63224-7974-4c8a-b966-41d3be646854
 title: Программа клиента Windows 7 Client Software Logo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e118d98597b45ed1fc88c35db327ddd6fca0547b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ae28ea4dc6dccd64d4ce879235761dab6ab7014
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713039"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088602"
 ---
 # <a name="windows-7-client-software-logo-program"></a>Программа клиента Windows 7 Client Software Logo
 

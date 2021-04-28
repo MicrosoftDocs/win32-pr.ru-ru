@@ -1,5 +1,5 @@
 ---
-description: Возвращает значение, указывающее, запущена ли определенная служба.
+description: IShellDispatch2. Иссервицеруннинг, метод возвращает значение, указывающее, запущена ли определенная служба.
 ms.assetid: 91f3fba1-7aa5-423a-bc37-49db230c79db
 title: IShellDispatch2. Иссервицеруннинг, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f39cd7da3d9959830208ab971b636e146e549775
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8ad792f1669a8ebcfa411c58b34da214ccf69a7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984684"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117092"
 ---
 # <a name="ishelldispatch2isservicerunning-method"></a>IShellDispatch2. Иссервицеруннинг, метод
 
@@ -62,17 +62,17 @@ IShellDispatch2.IsServiceRunning( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true**, если запущена служба, указанная параметром *ссервиценаме* . в противном случае — **значение false**.
+Возвращает **значение true** , если служба, указанная параметром *ссервиценаме* , запущена. в противном случае — **значение false**.
 
 ### <a name="vb"></a>VB
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true**, если запущена служба, указанная параметром *ссервиценаме* . в противном случае — **значение false**.
+Возвращает **значение true** , если служба, указанная параметром *ссервиценаме* , запущена. в противном случае — **значение false**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. иссервицеруннинг**](./shell-isservicerunning.md) .
 

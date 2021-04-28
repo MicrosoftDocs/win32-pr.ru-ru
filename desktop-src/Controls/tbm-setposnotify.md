@@ -1,6 +1,6 @@
 ---
 title: Сообщение TBM_SETPOSNOTIFY (Коммктрл. h)
-description: Задает текущую логическую точку ползунка в TrackBar.
+description: TBM_SETPOSNOTIFY сообщение — задает текущую логическую точку ползунка в TrackBar.
 ms.assetid: 02f8899a-55b0-46ae-8642-9e534ab4abf5
 keywords:
 - Элементы управления Windows для TBM_SETPOSNOTIFY сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 636a2add9f13470a89b312450f1a3dcbc185be2c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7201f3056ed05e6321ab9d9bd726edc3b4470f0b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489804"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104082"
 ---
 # <a name="tbm_setposnotify-message"></a>\_Сообщение ТБМ сетпоснотифи
 
@@ -47,7 +47,7 @@ wParam не используется.
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызов **ТБМ \_ сетпоснотифи** установит положение ползунка TrackBar, например [**ТБМ \_ сетпос**](tbm-setpos.md) , но также приведет к тому, что свойство TrackBar будет уведомлять его родителя перемещения через сообщение [**WM \_ HSCROLL**](wm-hscroll.md) или [**WM \_ VSCROLL**](wm-vscroll.md) .
 

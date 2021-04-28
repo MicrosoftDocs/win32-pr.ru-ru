@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Жетконтаинерформат.
+description: IWICMetadataQueryReader_GetContainerFormat_Proxy функция-прокси для метода Жетконтаинерформат.
 ms.assetid: 3a909151-53c2-4f82-9ead-f689b73f5faf
 title: Функция IWICMetadataQueryReader_GetContainerFormat_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 8d8138a1217611ff60be9001ce038f9ecfbe7e34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fa2e34aa0e4cff05f6cdacc9cd1f340ff41af28
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702321"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097142"
 ---
 # <a name="iwicmetadataqueryreader_getcontainerformat_proxy-function"></a>Ивикметадатакуериреадер \_ жетконтаинерформат \_ -функция
 
@@ -44,16 +44,16 @@ HRESULT IWICMetadataQueryReader_GetContainerFormat_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикметадатакуериреадер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) \** _
+Тип: **[ **ивикметадатакуериреадер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader)\***
 
-Указатель на этот объект [_ *ивикметадатакуериреадер* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) .
+Указатель на этот объект [**ивикметадатакуериреадер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) .
 
 </dd> <dt>
 
 *пгуидконтаинерформат* \[ заполняет\]
 </dt> <dd>
 
-Тип: **GUID \** _
+Тип: **GUID \***
 
 Указатель, который получает идентификатор GUID формата коинтаинер.
 
@@ -61,7 +61,7 @@ HRESULT IWICMetadataQueryReader_GetContainerFormat_Proxy(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 

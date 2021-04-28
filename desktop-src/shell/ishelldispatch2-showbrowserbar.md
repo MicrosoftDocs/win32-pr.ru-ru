@@ -1,5 +1,5 @@
 ---
-description: Отображает панель браузера.
+description: IShellDispatch2. Шовбровсербар, метод — отображает панель браузера.
 ms.assetid: 5776370c-3bbf-449b-a8fe-2dbc7d89dd25
 title: IShellDispatch2. Шовбровсербар, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: e1df729401dd12b8221ba98a3b81ea65569113e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7143b55ae59c8fca845d256ddc1f79e69672364b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984668"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116942"
 ---
 # <a name="ishelldispatch2showbrowserbar-method"></a>IShellDispatch2. Шовбровсербар, метод
 
@@ -73,17 +73,17 @@ IShellDispatch2.ShowBrowserBar( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true** при успешном выполнении; в противном случае — **значение false**.
+Возвращает **значение true** в случае успешного выполнения. в противном случае — **значение false**.
 
 ### <a name="vb"></a>VB
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true** при успешном выполнении; в противном случае — **значение false**.
+Возвращает **значение true** в случае успешного выполнения. в противном случае — **значение false**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. шовбровсербар**](./shell-showbrowserbar.md) .
 
@@ -96,7 +96,7 @@ IShellDispatch2.ShowBrowserBar( _
 | Избранное    | {EFA24E61-B078-11d0-89E4-00C04FC9E26E} |
 | Папки      | {EFA24E64-B078-11d0-89E4-00C04FC9E26E} |
 | Журнал      | {EFA24E62-B078-11d0-89E4-00C04FC9E26E} |
-| Найти       | {30D02401-6A81-11d0-8274-00C04FD5AE38} |
+| Поиск       | {30D02401-6A81-11d0-8274-00C04FD5AE38} |
 
 
 

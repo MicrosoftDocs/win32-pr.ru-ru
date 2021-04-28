@@ -1,5 +1,5 @@
 ---
-description: Извлекает из реестра параметр ограничений группы.
+description: Метод Shell. Strict — получает параметр ограничения группы из реестра.
 ms.assetid: C4B3B5C0-7445-483a-885F-5283BD4D4B39
 title: Метод Shell. Unrestricted (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 2224a3ea4ea26cf39f2e15486de4f96afe5448d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e428c914cf95d282fd721071009efc70fcb3a4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265082"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104262"
 ---
 # <a name="shellisrestricted-method"></a>Shell. Strict, метод
 
@@ -73,19 +73,19 @@ Shell.IsRestricted( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Integer \** _
+Тип: **Integer \***
 
 Значение ограничения. Если указанное ограничение не найдено, возвращается значение 0.
 
 ### <a name="vb"></a>VB
 
-Тип: _*Integer \**_
+Тип: **Integer \***
 
 Значение ограничения. Если указанное ограничение не найдено, возвращается значение 0.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-_ *Unrestricted** сначала ищет имя подраздела, которое соответствует *сграуп* в следующем разделе.
+**Ограничение** сначала ищет имя подраздела, которое соответствует *сграуп* в следующем разделе.
 
 ```
 HKEY_LOCAL_MACHINE

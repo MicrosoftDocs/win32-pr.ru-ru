@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Docумент. пресентатионформат
 ms.assetid: e5f91abd-6a3e-4492-9342-63518aa1ca6f
 title: System.Docумент. пресентатионформат
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dc4f56319eb9d4e7c99dee46bd099c0c105c6f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af81c767d5dd1e3d8059ffe3fd3df178c8d24947
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712499"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101012"
 ---
 # <a name="systemdocumentpresentationformat"></a>System.Docумент. пресентатионформат
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

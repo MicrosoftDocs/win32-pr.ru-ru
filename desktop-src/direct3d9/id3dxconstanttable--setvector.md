@@ -1,5 +1,5 @@
 ---
-description: Задает вектор 4D.
+description: 'Метод ID3DXConstantTable:: Сетвектор — задает вектор 4D.'
 ms.assetid: d5849a8b-b372-4ad0-8773-8c9c4bac3799
 title: 'Метод ID3DXConstantTable:: Сетвектор (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ace1e7b12b67173eb5b9d9a5fc5e56a8b360f2b4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2d7c464cebb050b9fd54c27656505e6f2221fe4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703808"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115022"
 ---
 # <a name="id3dxconstanttablesetvector-method"></a>Метод ID3DXConstantTable:: Сетвектор
 
@@ -86,7 +86,7 @@ HRESULT SetVector(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

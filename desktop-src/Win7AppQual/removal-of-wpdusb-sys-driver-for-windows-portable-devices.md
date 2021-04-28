@@ -1,15 +1,15 @@
 ---
-description: .
+description: Удаление драйвера WPDUSB.SYS для переносных устройств Windows
 ms.assetid: 3ad0c892-8b19-465d-af2f-9207f98e27b7
 title: Удаление драйвера WPDUSB.SYS для переносных устройств Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1d602c8277a5c256332b3eaec6a383997d5c63d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5931b63c5abb4534b2c8dd6619b4a3ead8b339be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703023"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116252"
 ---
 # <a name="removal-of-wpdusbsys-driver-for-windows-portable-devices"></a>Удаление драйвера WPDUSB.SYS для переносных устройств Windows
 

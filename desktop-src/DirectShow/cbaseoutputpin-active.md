@@ -1,5 +1,5 @@
 ---
-description: Активный метод уведомляет ПИН-код о том, что фильтр активен.
+description: Кбасеаутпутпин. Active Method — активный метод уведомляет ПИН-код о том, что фильтр активен.
 ms.assetid: 35df4305-0e2c-4ee1-bc63-db5aec864c46
 title: Метод Кбасеаутпутпин. Active (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 249cddac4027fa434996b1118cc692937b686a83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f282f45bb895a941c44cb70cf5d9d3d373bf8649
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657523"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096212"
 ---
 # <a name="cbaseoutputpinactive-method"></a>Кбасеаутпутпин. активный метод
 
@@ -55,7 +55,7 @@ HRESULT Active();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасепин:: Active**](cbasepin-active.md) . Он вызывает метод [**имемаллокатор:: Commit**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-commit) для распределителя, чтобы выделить память для буферов.
 
@@ -72,7 +72,7 @@ HRESULT Active();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

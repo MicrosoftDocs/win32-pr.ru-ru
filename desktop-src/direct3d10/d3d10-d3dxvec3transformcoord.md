@@ -1,5 +1,5 @@
 ---
-description: Преобразует трехмерный вектор в заданную матрицу с проецированием результата обратно в w = 1.
+description: Функция D3DXVec3TransformCoord (D3DX10Math. h) — Преобразует трехмерный вектор в заданную матрицу с проецированием результата обратно в w = 1.
 ms.assetid: e138fdc0-6999-45ab-8bcf-54f53bd9b1bf
 title: Функция D3DXVec3TransformCoord (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: a8fc7c7a00133e036921eabaa145dca01a12f042
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5b3e763d87503f9ca71911ad40ccf3c6ae9ca722
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354970"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108102"
 ---
 # <a name="d3dxvec3transformcoord-function-d3dx10mathh"></a>Функция D3DXVec3TransformCoord (D3DX10Math. h)
 
@@ -74,7 +74,7 @@ D3DXVECTOR3* D3DXVec3TransformCoord(
 
 Указатель на структуру D3DXVECTOR3, которая является преобразованным вектором.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция преобразует вектор, НЗ (x, y, z, 1) матрицу, выполнив проецирование результата обратно в w = 1.
 
@@ -90,7 +90,7 @@ D3DXVECTOR3* D3DXVec3TransformCoord(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

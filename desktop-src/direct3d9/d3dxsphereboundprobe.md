@@ -1,5 +1,5 @@
 ---
-description: Определяет, пересекает ли луч объем ограничивающего прямоугольника сферы.
+description: Функция D3DXSphereBoundProbe (D3DX9Mesh. h). определяет, пересекает ли луч объем ограничивающего прямоугольника сферы.
 ms.assetid: fa2e9ecf-7905-4a62-ba48-774bd522525a
 title: Функция D3DXSphereBoundProbe (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: bbab8a49165a87f73037ae25230d67b02222fc15
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e2d3ea263d7ad8bc50b936fd1010c352c0c01783
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674695"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093852"
 ---
 # <a name="d3dxsphereboundprobe-function-d3dx9meshh"></a>Функция D3DXSphereBoundProbe (D3DX9Mesh. h)
 
@@ -85,7 +85,7 @@ BOOL D3DXSphereBoundProbe(
 
 Возвращает **значение true** , если луч пересекает объем ограничивающего прямоугольника сферы. В противном случае возвращает **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **D3DXSphereBoundProbe** определяет, пересекает ли луч объем ограничивающего прямоугольника сферы, а не только поверхность сферы.
 
@@ -100,7 +100,7 @@ BOOL D3DXSphereBoundProbe(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

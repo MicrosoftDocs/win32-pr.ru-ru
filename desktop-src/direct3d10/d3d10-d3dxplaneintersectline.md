@@ -1,5 +1,5 @@
 ---
-description: Находит пересечение между плоскостью и линией.
+description: Функция D3DXPlaneIntersectLine (D3DX10Math. h) — Находит пересечение между плоскостью и линией.
 ms.assetid: aea1c4e1-f8c0-46df-bb33-2b517396d69e
 title: Функция D3DXPlaneIntersectLine (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 00d25fcba9e5884cec10da96964ad0f5daa9ed14
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1d32bb312c97b793f492f7a29bebe11529b79cf9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720952"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108812"
 ---
 # <a name="d3dxplaneintersectline-function-d3dx10mathh"></a>Функция D3DXPlaneIntersectLine (D3DX10Math. h)
 
@@ -85,7 +85,7 @@ D3DXVECTOR3* D3DXPlaneIntersectLine(
 
 Указатель на структуру D3DXVECTOR3, которая является пересечением между указанной плоскостью и линией.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если линия параллельна плоскости, возвращается **значение NULL** .
 
@@ -102,7 +102,7 @@ D3DXVECTOR3* D3DXPlaneIntersectLine(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

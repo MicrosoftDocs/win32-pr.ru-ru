@@ -1,5 +1,5 @@
 ---
-description: Преобразует карту высоты в обычную карту. Компоненты (x, y, z) каждой нормальной версии сопоставляются с каналами (r, g, b) выходной текстуры.
+description: Функция D3DXComputeNormalMap — преобразует карту высоты в обычную карту. Компоненты (x, y, z) каждой нормальной версии сопоставляются с каналами (r, g, b) выходной текстуры.
 ms.assetid: ed9053c0-b1df-4f74-bdee-627c0f60d942
 title: Функция D3DXComputeNormalMap (D3dx9tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6e22418f5a023dbe70fee8ea0fba8a449abbcc8d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 920ad763f478a2e6bcb9fbe98cc7e2a677ebe783
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713881"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105232"
 ---
 # <a name="d3dxcomputenormalmap-function"></a>Функция D3DXComputeNormalMap
 
@@ -105,7 +105,7 @@ HRESULT D3DXComputeNormalMap(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может иметь следующее значение: D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод рассчитывает нормальную работу, используя Центральное различие с размером ядра 3X3. В качестве центрального знаменателя разницы используется 2,0. Каналы RGB в назначении содержат смещенные компоненты (x, y, z) нормали.
 
@@ -120,7 +120,7 @@ HRESULT D3DXComputeNormalMap(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
