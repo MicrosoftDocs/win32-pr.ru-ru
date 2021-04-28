@@ -1,19 +1,19 @@
 ---
-description: .
+description: System. Contact. JobInfo2Department
 ms.assetid: 66691b5f-be06-4ae3-b41b-e58e3dc86296
 title: System. Contact. JobInfo2Department
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d9c27fb4ba6389f3b00e0396a1b685af98e85e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10a1d23fd1dfdf2b9c3bf43e9a450036d9bc2782
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104345632"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101852"
 ---
-# <a name="systemcontactjobinfo2department"></a><span data-ttu-id="4b772-103">System. Contact. JobInfo2Department</span><span class="sxs-lookup"><span data-stu-id="4b772-103">System.Contact.JobInfo2Department</span></span>
+# <a name="systemcontactjobinfo2department"></a><span data-ttu-id="3f4ff-103">System. Contact. JobInfo2Department</span><span class="sxs-lookup"><span data-stu-id="3f4ff-103">System.Contact.JobInfo2Department</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a><span data-ttu-id="4b772-104">Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="4b772-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a><span data-ttu-id="3f4ff-104">Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="3f4ff-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1</span></span>
 
 ```
 propertyDescription
@@ -28,54 +28,54 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a><span data-ttu-id="4b772-105">Комментарии</span><span class="sxs-lookup"><span data-stu-id="4b772-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3f4ff-105">Remarks</span><span class="sxs-lookup"><span data-stu-id="3f4ff-105">Remarks</span></span>
 
-<span data-ttu-id="4b772-106">Значения PKEY определены в списке PKEY. h.</span><span class="sxs-lookup"><span data-stu-id="4b772-106">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="3f4ff-106">Значения PKEY определены в списке PKEY. h.</span><span class="sxs-lookup"><span data-stu-id="3f4ff-106">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="4b772-107">См. также</span><span class="sxs-lookup"><span data-stu-id="4b772-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3f4ff-107">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="3f4ff-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4b772-108">пропертидескриптион</span><span class="sxs-lookup"><span data-stu-id="4b772-108">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="3f4ff-108">пропертидескриптион</span><span class="sxs-lookup"><span data-stu-id="3f4ff-108">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-109">сеарчинфо</span><span class="sxs-lookup"><span data-stu-id="4b772-109">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="3f4ff-109">сеарчинфо</span><span class="sxs-lookup"><span data-stu-id="3f4ff-109">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-110">лабелинфо</span><span class="sxs-lookup"><span data-stu-id="4b772-110">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="3f4ff-110">лабелинфо</span><span class="sxs-lookup"><span data-stu-id="3f4ff-110">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-111">typeInfo</span><span class="sxs-lookup"><span data-stu-id="4b772-111">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="3f4ff-111">typeInfo</span><span class="sxs-lookup"><span data-stu-id="3f4ff-111">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-112">displayInfo</span><span class="sxs-lookup"><span data-stu-id="4b772-112">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="3f4ff-112">displayInfo</span><span class="sxs-lookup"><span data-stu-id="3f4ff-112">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-113">stringFormat</span><span class="sxs-lookup"><span data-stu-id="4b772-113">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="3f4ff-113">stringFormat</span><span class="sxs-lookup"><span data-stu-id="3f4ff-113">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-114">булеанформат</span><span class="sxs-lookup"><span data-stu-id="4b772-114">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="3f4ff-114">булеанформат</span><span class="sxs-lookup"><span data-stu-id="3f4ff-114">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-115">numberFormat</span><span class="sxs-lookup"><span data-stu-id="4b772-115">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="3f4ff-115">numberFormat</span><span class="sxs-lookup"><span data-stu-id="3f4ff-115">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-116">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="4b772-116">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="3f4ff-116">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="3f4ff-116">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-117">енумератедлист</span><span class="sxs-lookup"><span data-stu-id="4b772-117">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="3f4ff-117">енумератедлист</span><span class="sxs-lookup"><span data-stu-id="3f4ff-117">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-118">дравконтрол</span><span class="sxs-lookup"><span data-stu-id="4b772-118">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="3f4ff-118">дравконтрол</span><span class="sxs-lookup"><span data-stu-id="3f4ff-118">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-119">едитконтрол</span><span class="sxs-lookup"><span data-stu-id="4b772-119">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="3f4ff-119">едитконтрол</span><span class="sxs-lookup"><span data-stu-id="3f4ff-119">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-120">филтерконтрол</span><span class="sxs-lookup"><span data-stu-id="4b772-120">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="3f4ff-120">филтерконтрол</span><span class="sxs-lookup"><span data-stu-id="3f4ff-120">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="4b772-121">куериконтрол</span><span class="sxs-lookup"><span data-stu-id="4b772-121">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="3f4ff-121">куериконтрол</span><span class="sxs-lookup"><span data-stu-id="3f4ff-121">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  
