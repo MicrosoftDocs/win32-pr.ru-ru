@@ -1,5 +1,5 @@
 ---
-description: Метод Ендфлуш завершает операцию очистки.
+description: Ктрансформфилтер. Ендфлуш, метод Ендфлуш завершает операцию очистки.
 ms.assetid: ebb6beec-84e2-49a7-9771-bbd191faada7
 title: Ктрансформфилтер. Ендфлуш, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 348675f1369ec9b0deb5415ad14a864a8befef73
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9a4f38a6897443763f676951f193fab5606ad2a8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657344"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085063"
 ---
 # <a name="ctransformfilterendflush-method"></a>Ктрансформфилтер. Ендфлуш, метод
 
@@ -44,7 +44,7 @@ virtual HRESULT EndFlush();
 
 Возвращает \_ значение, равное ОК или другому значению **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В конце операции записи на диск метод [**ктрансформинпутпин:: ендфлуш**](ctransforminputpin-endflush.md) закрепления вызывает этот метод. Этот метод передает `EndFlush` вызов в нисходящем порядке.
 
@@ -61,7 +61,7 @@ virtual HRESULT EndFlush();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Метод Disconnect прерывает текущее подключение ПИН-кода. Этот метод реализует метод Ипин::D соединения.
+description: Метод Кбасепин. Disconnect. метод Disconnect прерывает текущее подключение ПИН-кода. Этот метод реализует метод Ипин::D соединения.
 ms.assetid: 04e07978-fca5-419f-8807-fd7a6846eff9
 title: Метод Кбасепин. Disconnect (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 98cbf894767eeb89042134344df218f2c18bc1be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bda01d02db2a93a90c63f206b723a55df2373418
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668775"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096012"
 ---
 # <a name="cbasepindisconnect-method"></a>Кбасепин. Disconnect, метод
 
@@ -56,7 +56,7 @@ HRESULT Disconnect();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Базовый класс делегирует большую часть работы методу [**кбасепин::D исконнектинтернал**](cbasepin-disconnectinternal.md) .
 
@@ -71,7 +71,7 @@ HRESULT Disconnect();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

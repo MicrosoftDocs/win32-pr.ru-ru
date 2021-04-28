@@ -1,5 +1,5 @@
 ---
-description: Вычисляет освещение, которое представляет собой конус с постоянной интенсивностью и возвращает Спектрал сферическую гармонию (SH) данных.
+description: Функция D3DXSHEvalConeLight (D3DX10. h) — вычисляет освещение, которое представляет собой конус с постоянной интенсивностью и возвращает Спектрал сферическую гармонию (SH) данных.
 ms.assetid: ad2b9c86-cf1a-426e-88e6-4c543519e002
 title: Функция D3DXSHEvalConeLight (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 97bd700d1c38441db6c5e68554cf038d9081efaa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fc11e7bab4cbbd6c8a685b289d4bde476cd465ca
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273914"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108612"
 ---
 # <a name="d3dxshevalconelight-function-d3dx10h"></a>Функция D3DXSHEvalConeLight (D3DX10. h)
 
@@ -135,7 +135,7 @@ HRESULT D3DXSHEvalConeLight(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вычисляет освещение, которое представляет собой конус с постоянной интенсивностью и возвращает Спектрал данные SH. Выходной вектор выдается таким образом, что если коэффициент интенсивности/G/B равен 1, радианце выхода точки непосредственно под светлой стороной (ориентированной на конусное направление на рассеянном объекте с албедоом 1) будет 1,0. Будет выполнено вычисление трех примеров Спектрал. Праут будет возвращен, тогда как Пгаут и Пбаут могут быть возвращены.
 
@@ -158,7 +158,7 @@ HRESULT D3DXSHEvalConeLight(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

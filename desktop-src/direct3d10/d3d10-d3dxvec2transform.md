@@ -1,5 +1,5 @@
 ---
-description: Преобразует двумерный вектор по заданной матрице.
+description: Функция D3DXVec2Transform (D3DX10Math. h) — преобразует 2D-вектор по заданной матрице.
 ms.assetid: 4b57eb7f-fae9-48ac-a806-510da75d25a6
 title: Функция D3DXVec2Transform (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 513623e0004d8ede1fc2d142b2c7f8a7c226d5e4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b1d8eed447b56e6f379ffe96cbbcb4820fbdaf14
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424409"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108362"
 ---
 # <a name="d3dxvec2transform-function-d3dx10mathh"></a>Функция D3DXVec2Transform (D3DX10Math. h)
 
@@ -75,7 +75,7 @@ D3DXVECTOR4* D3DXVec2Transform(
 
 Указатель на структуру D3DXVECTOR4, которая является преобразованным вектором.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция преобразует вектор ПС (x, y, 0, 1) на матрицу pM.
 
@@ -92,7 +92,7 @@ D3DXVECTOR4* D3DXVec2Transform(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Запрашивает сброс.
+description: Метод Reset класса Msvm_SyntheticDisplayController — запрашивает сброс.
 ms.assetid: 6fa327e8-0296-40f6-9ee6-6e447e31cce3
 title: Метод Reset класса Msvm_SyntheticDisplayController
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1f6eacdcf7c2371ad3ed11250d143f6681af99a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f52463aa570942e7696aa0c8fea55bbb848fcc99
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263849"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109582"
 ---
 # <a name="reset-method-of-the-msvm_syntheticdisplaycontroller-class"></a>Метод Reset \_ класса мсвм синсетикдисплайконтроллер
 
@@ -55,7 +55,7 @@ uint32 Reset();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -63,7 +63,7 @@ uint32 Reset();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

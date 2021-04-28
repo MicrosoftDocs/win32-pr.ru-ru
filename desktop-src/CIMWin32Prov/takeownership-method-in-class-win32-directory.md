@@ -1,5 +1,5 @@
 ---
-description: Метод класса WMI Такеовнершип получает владение логическим файлом, указанным в пути объекта.
+description: Метод Такеовнершип класса Win32_Directory. метод класса WMI Такеовнершип получает владение логическим файлом, указанным в пути объекта.
 ms.assetid: 1112823b-0bb6-4dc0-a5c4-8d3839a47a3a
 ms.tgt_platform: multiple
 title: Метод Такеовнершип класса Win32_Directory
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c06441b7728ed8b9178e889cbd60c047f0f3a497
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 178f1bf523d939883a7fc18b5bdbd7142cc4f824
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538411"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086032"
 ---
 # <a name="takeownership-method-of-the-win32_directory-class"></a>Метод Такеовнершип \_ класса каталога Win32
 
@@ -176,7 +176,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

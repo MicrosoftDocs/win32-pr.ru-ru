@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским для событий потока. Следующий синтаксис упрощен из MOF-кода.
+description: Thread_V0 Class — этот класс является родительским для событий потока. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 7ae2556b-49d4-4c70-9f29-49a3ca96f5bf
 title: Класс Thread_V0
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c708640ea6851f67183841b124279ca0739a168c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 652f5b8ad796fedd45e5ac627fc855796def3646
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984392"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105702"
 ---
 # <a name="thread_v0-class"></a>\_Класс v0 потока
 
@@ -34,7 +34,7 @@ class Thread_V0 : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ v0 потока** не определяет никаких членов.
 
@@ -49,14 +49,14 @@ class Thread_V0 : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**МСНТ \_ системтраце**](msnt-systemtrace.md)
 </dt> <dt>
 
-[**Поток**](thread.md)
+[**Thread**](thread.md)
 </dt> <dt>
 
 [**Thread \_ v0 \_ TypeGroup1**](thread-v0-typegroup1.md)

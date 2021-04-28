@@ -1,5 +1,5 @@
 ---
-description: Метод Бреакконнект освобождает ПИН-код из соединения.
+description: Кбасепин. Бреакконнект, метод Бреакконнект освобождает ПИН-код из соединения.
 ms.assetid: a1f299e1-30bf-4d55-84cf-73acccf38151
 title: Кбасепин. Бреакконнект, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8964ea76e48e4753f42923663ab45962cd672e6e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9a099b1001c2b8c30398ca350e05d15562a8bc2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669305"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099442"
 ---
 # <a name="cbasepinbreakconnect-method"></a>Кбасепин. Бреакконнект, метод
 
@@ -44,7 +44,7 @@ virtual HRESULT BreakConnect();
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывается при отключении ПИН-кода методом [**кбасепин::D метода соединения**](cbasepin-disconnect.md) . Он также вызывается во время попытки соединения, если метод [**кбасепин:: чеккконнект**](cbasepin-checkconnect.md) завершается с ошибкой.
 
@@ -63,7 +63,7 @@ virtual HRESULT BreakConnect();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

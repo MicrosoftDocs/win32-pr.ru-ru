@@ -1,5 +1,5 @@
 ---
-description: Строит левую таблицу, которая выглядит в левой части.
+description: Функция D3DXMatrixLookAtLH (D3DX10Math. h) — выполняет построение матрицы слева направого вида.
 ms.assetid: 06888a97-66ef-447f-be8b-ea458ce16b4b
 title: Функция D3DXMatrixLookAtLH (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a5a7ffa8750fb08174f45b1069f103bfe08be1f8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3590d2cbdeead9e1b9b2547b2344163b81f05d11
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104548079"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109172"
 ---
 # <a name="d3dxmatrixlookatlh-function-d3dx10mathh"></a>Функция D3DXMatrixLookAtLH (D3DX10Math. h)
 
@@ -85,7 +85,7 @@ D3DXMATRIX* D3DXMatrixLookAtLH(
 
 Указатель на структуру D3DXMATRIX, которая является левой и выглядит матрицей.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXMatrixLookAtLH может использоваться в качестве параметра для другой функции.
 
@@ -116,7 +116,7 @@ yaxis = cross(zaxis, xaxis)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

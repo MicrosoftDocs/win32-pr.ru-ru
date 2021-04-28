@@ -1,5 +1,5 @@
 ---
-description: Преобразует плоскость на матрицу. Входная матрица является инверсией фактического преобразования.
+description: Функция D3DXPlaneTransform (D3DX10Math. h) — преобразует плоскость на матрицу. Входная матрица является инверсией фактического преобразования.
 ms.assetid: ded06eac-4086-47e8-bc55-c37959afc22d
 title: Функция D3DXPlaneTransform (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1b3c3390d84cd0d9c876afac6243ab90ca515e11
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9b1d16ba2a29d42614c388a6207503ad32dd5e0f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355593"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108792"
 ---
 # <a name="d3dxplanetransform-function-d3dx10mathh"></a>Функция D3DXPlaneTransform (D3DX10Math. h)
 
@@ -111,7 +111,7 @@ D3DXPlaneTransform(&planeNew, &plane, &matrix);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

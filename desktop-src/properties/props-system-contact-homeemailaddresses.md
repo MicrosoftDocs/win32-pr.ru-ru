@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Contact. Хомимаиладдрессес
 ms.assetid: e88afa55-424b-4e99-b930-04bdc31fca45
 title: System. Contact. Хомимаиладдрессес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1bab69f8eba26ec0890bb8be1017bc073296ef0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffb9c3778d67b003be01908ae5b4b723dbbca202
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264571"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102052"
 ---
 # <a name="systemcontacthomeemailaddresses"></a>System. Contact. Хомимаиладдрессес
 
@@ -28,11 +28,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа события для событий запуска и окончания потока. Следующий синтаксис упрощен из MOF-кода.
+description: Thread_TypeGroup1 Class — этот класс является классом типа события для событий запуска и окончания потока. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: d9e3e33a-0e59-4753-a8d8-5320cbae9d95
 title: Класс Thread_TypeGroup1
 ms.topic: reference
@@ -26,12 +26,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 75352efbe044f5fee837c496c394fe28e2dbbbfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9693bef4449cc076710a74dd9cef88ae608754b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155551"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105712"
 ---
 # <a name="thread_typegroup1-class"></a>\_Класс TypeGroup1 потока
 
@@ -62,13 +62,13 @@ class Thread_TypeGroup1 : Thread
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **Thread \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ TypeGroup1 потока** имеет следующие свойства.
 
@@ -298,7 +298,7 @@ Win32StartAddr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Типы событий Дкстарт и Дценд перечисляют потоки, которые выполняются в данный момент во время запуска и завершения сеанса ядра соответственно.
 
@@ -313,11 +313,11 @@ Win32StartAddr
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Поток**](thread.md)
+[**Thread**](thread.md)
 </dt> </dl>
 
  

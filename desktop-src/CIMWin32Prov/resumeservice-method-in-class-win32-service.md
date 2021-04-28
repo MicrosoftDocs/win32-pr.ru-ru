@@ -1,5 +1,5 @@
 ---
-description: Пытается поместить службу, на которую указывает ссылка, в состоянии возобновления.
+description: Метод ResumeService класса Win32_Service (поставщики WMI CIMWin32) — пытается поместить указанную службу в состояние возобновления.
 ms.assetid: 3b4228bf-9ff5-44ab-bfe2-f7dd8fb62007
 ms.tgt_platform: multiple
 title: Метод ResumeService класса Win32_Service (поставщики WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ed4141b02d6e08bd4b106d2c1f72ce3fe0620fc7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 73c21f282577207b63bcfa2d624c59ddfa3c9bcb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896438"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090982"
 ---
 # <a name="resumeservice-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Метод ResumeService класса Win32_Service (поставщики WMI CIMWin32)
 
@@ -221,7 +221,7 @@ uint32 ResumeService();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Хотя может показаться, что непрактичное различие между остановленной службой и приостановленной службой, два состояния по-разному отображаются в SCM. Остановленная служба — это служба, которая не запущена и должна проходить всю процедуру запуска службы. Однако Приостановленная служба все еще работает, но ее работа приостановлена. По этой причине Приостановленная служба не обязана проходить всю процедуру запуска службы, но для ее возобновления требуется другая процедура.
 
@@ -334,7 +334,7 @@ else
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

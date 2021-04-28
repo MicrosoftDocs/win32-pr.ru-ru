@@ -1,5 +1,5 @@
 ---
-description: Извлекает количество лиц в сетке.
+description: 'Метод ID3DXBaseMesh:: Жетнумфацес — получает количество сторон в сетке.'
 ms.assetid: 3f7cffd4-97ae-4f1c-9f91-931b85f07734
 title: 'Метод ID3DXBaseMesh:: Жетнумфацес (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e4647e432e79dc3065cc8e6d1f0617e6364049ff
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9adc36e4d34909481c61d1c62e4233a1f6f92a87
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703860"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115422"
 ---
 # <a name="id3dxbasemeshgetnumfaces-method"></a>Метод ID3DXBaseMesh:: Жетнумфацес
 
@@ -55,7 +55,7 @@ DWORD GetNumFaces();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

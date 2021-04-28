@@ -1,5 +1,5 @@
 ---
-description: Определяет произведение заданной матрицы и текущей матрицы.
+description: 'Метод ID3DXMATRIXStack:: Мултматрикслокал (D3dx9math. h) — определяет продукт данной матрицы и текущую матрицу.'
 ms.assetid: 6f909b38-821c-4173-aba9-fd4392f70551
 title: 'Метод ID3DXMATRIXStack:: Мултматрикслокал (D3dx9math. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 547856e01cfdcb79110780136c1bbab59c0d7073
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 509aff4dd21f62033dc1e4672d29aad57445f9ee
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713553"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093522"
 ---
 # <a name="id3dxmatrixstackmultmatrixlocal-method-d3dx9mathh"></a>Метод ID3DXMATRIXStack:: Мултматрикслокал (D3dx9math. h)
 
@@ -55,7 +55,7 @@ HRESULT MultMatrixLocal(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод Left — Умножает заданную матрицу на текущую матрицу (преобразование относится к локальному источнику объекта).
 
@@ -79,7 +79,7 @@ m_pstack[m_currentPos] = (*pMat) * m_pstack[m_currentPos];
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

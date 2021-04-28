@@ -1,5 +1,5 @@
 ---
-description: Масштабирует сферический гармониовый вектор (SH); Иными словами, тоска \[ i \] = PA \[ \] \* , масштабирование.
+description: Функция D3DXSHScale (D3DX10. h) — масштабирует сферический гармониовый вектор (SH); Иными словами, тоска \[ i \] = PA \[ \] \* , масштабирование.
 ms.assetid: e323d238-f635-4780-982d-8798ba178f31
 title: Функция D3DXSHScale (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 7aa7ee66b29c7d9816708a8625bb568426a62b57
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0fab96575e5542eaaed725a88f9ba52c3289a4ad
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694262"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108502"
 ---
 # <a name="d3dxshscale-function-d3dx10h"></a>Функция D3DXSHScale (D3DX10. h)
 
@@ -85,7 +85,7 @@ FLOAT* D3DXSHScale(
 
 Указатель на коэффициенты вывода SH.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый коэффициент базисной функции илм хранится в памяти l ² + m + l, где:
 
@@ -103,7 +103,7 @@ FLOAT* D3DXSHScale(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

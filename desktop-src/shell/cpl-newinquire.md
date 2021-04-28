@@ -1,5 +1,5 @@
 ---
-description: Отправляется в функцию Кплапплет приложения панели управления для запроса сведений о диалоговом окне, которое поддерживает приложение.
+description: CPL_NEWINQUIRE сообщение — отправляется функции Кплапплет приложения панели управления для запроса сведений о диалоговом окне, которое поддерживает приложение.
 title: Сообщение CPL_NEWINQUIRE (CPL. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 72992d4ea867bc091c29feaa99cc1a22c2a02b2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90c5adf31c01fbab1b62aafd0714d165092f4e23
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984333"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104442"
 ---
 # <a name="cpl_newinquire-message"></a>\_Сообщение CPL невинкуире
 
@@ -46,7 +46,7 @@ ms.locfileid: "104984333"
 
 Если функция [**кплапплет**](/windows/win32/api/cpl/nc-cpl-applet_proc) успешно обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Для повышения производительности большинство приложений должны игнорировать **CPL \_ невинкуире** и обрабатывать сообщение о [**\_ запросах CPL**](cpl-inquire.md) .
 

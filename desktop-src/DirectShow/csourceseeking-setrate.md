@@ -1,5 +1,5 @@
 ---
-description: 'Метод Сетрате задает скорость воспроизведения. Этот метод реализует метод Имедиасикинг:: Сетрате.'
+description: 'Ксаурцесикинг. Сетрате, метод Сетрате задает скорость воспроизведения. Этот метод реализует метод Имедиасикинг:: Сетрате.'
 ms.assetid: 954e2381-207a-47d9-a0a5-87dc325f52b4
 title: Ксаурцесикинг. Сетрате, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 718a38f3eff9cc1647d09cf142db784f53e4c755
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c37d9c94da4a59a2be9b7258881c5bb22b4aa4c5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688888"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098742"
 ---
 # <a name="csourceseekingsetrate-method"></a>Ксаурцесикинг. Сетрате, метод
 
@@ -53,7 +53,7 @@ HRESULT SetRate(
 
 Возвращает значение **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод обновляет значение переменной члена [**ксаурцесикинг:: m \_ дратесикинг**](csourceseeking-m-drateseeking.md) , а затем вызывает чистый виртуальный метод [**ксаурцесикинг:: чанжерате**](csourceseeking-changerate.md). Метод не проверяет параметр *драте* .
 
@@ -68,7 +68,7 @@ HRESULT SetRate(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

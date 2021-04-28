@@ -1,5 +1,5 @@
 ---
-description: Этот API недоступен для всех приложений. Если приложение не будет специально подготовлено корпорацией Майкрософт, вызовы этих API будут завершаться ошибкой во время выполнения.
+description: 'Метод Ифидбаккхубаппинфо:: Жетруннингаппс — этот API недоступен для всех приложений. Если приложение не будет специально подготовлено корпорацией Майкрософт, вызовы этих API будут завершаться ошибкой во время выполнения.'
 ms.assetid: 2BD60D22-38AD-4027-B733-0B62F33AA4B3
 title: 'Метод Ифидбаккхубаппинфо:: Жетруннингаппс'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 5ee70cd7a776f4fc12544555d3189d3ac2089023
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 3bb7565d75948fe951d87da49fe00cd4ff565115
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "103914292"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089272"
 ---
 # <a name="ifeedbackhubappinfogetrunningapps-method"></a>Метод Ифидбаккхубаппинфо:: Жетруннингаппс
 
@@ -60,7 +60,7 @@ virtual void GetRunningApps(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

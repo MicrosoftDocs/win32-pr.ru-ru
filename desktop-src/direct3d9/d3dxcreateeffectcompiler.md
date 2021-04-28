@@ -1,5 +1,5 @@
 ---
-description: Создает компилятор эффектов из описания ASCII Effect.
+description: Функция D3DXCreateEffectCompiler — создает компилятор эффектов из описания ASCII-результата.
 ms.assetid: 96e883f4-4055-4b8b-940a-164bbf893af4
 title: Функция D3DXCreateEffectCompiler (D3DX9Effect. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 513b11ba12abe05126c122f8bc9bfcfa978df3fa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 38ab58ed15609d468d25f4406353448e4fd6adb4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103821397"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115772"
 ---
 # <a name="d3dxcreateeffectcompiler-function"></a>Функция D3DXCreateEffectCompiler
 
@@ -126,7 +126,7 @@ HRESULT D3DXCreateEffectCompiler(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

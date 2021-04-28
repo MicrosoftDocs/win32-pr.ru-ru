@@ -1,5 +1,5 @@
 ---
-description: Не реализован.
+description: 'Метод IXml2Dex:: ReadXML не реализован.'
 ms.assetid: f75ee69d-2778-4c3c-a810-6708b1669541
 title: 'Метод IXml2Dex:: ReadXML'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3640dab9c812d8fd21dd2afc62b0ceabe51678dd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8f4092baced94dcf222202ec5f12619c83a183bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673021"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084402"
 ---
 # <a name="ixml2dexreadxml-method"></a>Метод IXml2Dex:: ReadXML
 
@@ -62,7 +62,7 @@ HRESULT ReadXML(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -74,7 +74,7 @@ HRESULT ReadXML(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

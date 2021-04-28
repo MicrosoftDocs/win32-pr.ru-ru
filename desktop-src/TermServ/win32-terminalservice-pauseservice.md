@@ -1,6 +1,6 @@
 ---
 title: Метод PauseService класса Win32_Service (службы удаленных рабочих столов)
-description: Пытается перевести службу в состояние приостановки.
+description: Метод PauseService класса Win32_Service (службы удаленных рабочих столов) — пытается перевести службу в приостановленное состояние.
 ms.assetid: 101987F6-FBAB-4E79-B1FA-346B1EF58DE1
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69951a77530b3aff89148b08e19f3a7c4da8f5b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d7c9847f363d9bc6d1743da6189d2c4290c00dd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672567"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090602"
 ---
 # <a name="pauseservice-method-of-the-win32_service-class-remote-desktop-services"></a>Метод PauseService класса Win32_Service (службы удаленных рабочих столов)
 
@@ -224,7 +224,7 @@ uint32 PauseService();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Определив, какие службы могут быть остановлены или приостановлены, можно использовать [**методы "**](win32-terminalservice-stopservice.md) **PauseService** " и "приостановить" для остановки и приостановки служб. Решение о прекращении работы службы, а не приостановке или наоборот, зависит от нескольких факторов, включая следующие:
 
@@ -252,7 +252,7 @@ uint32 PauseService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

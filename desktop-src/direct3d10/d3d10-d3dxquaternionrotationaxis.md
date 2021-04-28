@@ -1,5 +1,5 @@
 ---
-description: Поворачивает кватернион по произвольной оси.
+description: Функция D3DXQuaternionRotationAxis (D3DX10Math. h) — поворачивает кватернион по произвольной оси.
 ms.assetid: 9673ef89-458f-4a25-960e-8f03179e78ba
 title: Функция D3DXQuaternionRotationAxis (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 739f128ca1a56eed15ebc2528036875eaf2bb9b8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 509df80023427a20125e1b5603e85424851a640e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713917"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108772"
 ---
 # <a name="d3dxquaternionrotationaxis-function-d3dx10mathh"></a>Функция D3DXQuaternionRotationAxis (D3DX10Math. h)
 
@@ -75,7 +75,7 @@ D3DXQUATERNION* D3DXQuaternionRotationAxis(
 
 Указатель на структуру D3DXQUATERNION, повернутую вокруг указанной оси.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXQuaternionRotationAxis может использоваться в качестве параметра для другой функции.
 
@@ -92,7 +92,7 @@ D3DXQUATERNION* D3DXQuaternionRotationAxis(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

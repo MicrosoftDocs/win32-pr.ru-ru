@@ -1,5 +1,5 @@
 ---
-description: Метод метода распределителе извлекает распределитель памяти, предложенный этим ПИН-кодом. Этот метод реализует метод Имеминпутпин::/распределителя.
+description: Ктрансинплацеинпутпин. метод распределителя — метод метода распределителя извлекает распределитель памяти, предложенный этим ПИН-кодом. Этот метод реализует метод Имеминпутпин::/распределителя.
 ms.assetid: e9db4aa0-4f53-4ca4-babb-5e0215c7c284
 title: Метод Ктрансинплацеинпутпин. методом перераспределения (Трансип. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7798640297539a8fa8f6349c799e61e7e22a453d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2472630d69119f33653d831386af615718274d99
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675166"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084662"
 ---
 # <a name="ctransinplaceinputpingetallocator-method"></a>Ктрансинплацеинпутпин. метод распределения
 
@@ -64,7 +64,7 @@ HRESULT GetAllocator(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если закрепление вывода фильтра подключено, этот метод запрашивает распределитель из входного ПИН-кода подчиненного фильтра.
 
@@ -81,7 +81,7 @@ HRESULT GetAllocator(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Создание списка границ сетки, а также списка лиц, совместно использующих каждое ребро.
+description: 'Метод ID3DX10Mesh:: Женератеаджаценциандпоинтрепс — создает список границ сетки, а также список лиц, совместно использующих каждое ребро.'
 ms.assetid: 3932e2b1-031d-4962-ad90-6e9da8cf2e0e
 title: 'Метод ID3DX10Mesh:: Женератеаджаценциандпоинтрепс (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c46cf83931c95116132798ca971f9d4e61da2af8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e496f96f36805d411c71e9aba1e2560b0dcbe3c6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104548015"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083982"
 ---
 # <a name="id3dx10meshgenerateadjacencyandpointreps-method"></a>Метод ID3DX10Mesh:: Женератеаджаценциандпоинтрепс
 
@@ -55,7 +55,7 @@ HRESULT GenerateAdjacencyAndPointReps(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После того как приложение создаст сведения о смежности для сетки, данные сетки можно оптимизировать для повышения производительности рисования.
 
@@ -72,7 +72,7 @@ HRESULT GenerateAdjacencyAndPointReps(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

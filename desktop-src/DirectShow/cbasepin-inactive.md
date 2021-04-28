@@ -1,5 +1,5 @@
 ---
-description: Неактивный метод уведомляет ПИН-код о том, что фильтр больше не активен.
+description: Кбасепин. Inactive-метод. неактивный метод уведомляет ПИН-код о том, что фильтр больше не активен.
 ms.assetid: 71847578-2271-4243-87c4-9f14b33f770c
 title: Метод Кбасепин. Inactive (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 431b243107c365b5d9fda729fff2de80d9193c7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c0d9ec403b53c3197c001e966ce7efd5eb8bed2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668771"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099342"
 ---
 # <a name="cbasepininactive-method"></a>Кбасепин. Inactive, метод
 
@@ -44,7 +44,7 @@ virtual HRESULT Inactive();
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При остановке фильтра класс [**кбасефилтер**](cbasefilter.md) вызывает этот метод для всех подключенных контактов фильтра.
 
@@ -63,7 +63,7 @@ virtual HRESULT Inactive();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

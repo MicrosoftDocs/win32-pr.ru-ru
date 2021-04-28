@@ -1,5 +1,5 @@
 ---
-description: Функция обратного вызова, которая должна быть реализована пользователем для установки массива констант с плавающей точкой шейдера вершин.
+description: 'Метод ID3DXEffectStateManager:: Сетвертексшадерконстантф — функция обратного вызова, которая должна быть реализована пользователем для установки массива констант с плавающей запятой вершин.'
 ms.assetid: 3a13040d-5d5a-4454-bf11-cda9653585c0
 title: 'Метод ID3DXEffectStateManager:: Сетвертексшадерконстантф (D3DX9Effect. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 378af983e0ed7ca1709ae8bb6cfe8615a481b3f6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ffbad3c695758a0388baf8161c322c1ff423699b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694228"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090392"
 ---
 # <a name="id3dxeffectstatemanagersetvertexshaderconstantf-method"></a>Метод ID3DXEffectStateManager:: Сетвертексшадерконстантф
 
@@ -89,7 +89,7 @@ HRESULT SetVertexShaderConstantF(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

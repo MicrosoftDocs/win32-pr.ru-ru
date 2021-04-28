@@ -1,5 +1,5 @@
 ---
-description: Создает новую системную службу.
+description: Метод Create класса Win32_Service (поставщики WMI CIMWin32) — создает новую системную службу.
 ms.assetid: 164e9065-bb0d-4c93-a9fe-c86db1ea7cb7
 ms.tgt_platform: multiple
 title: Метод Create класса Win32_Service (поставщики WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6f23bc2a5c49a85a20765172d4c5d361a8d18316
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 71bc0f4edb879fc4a51a012bc53db67031056f47
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807930"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089693"
 ---
 # <a name="create-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Метод Create класса Win32_Service (поставщики WMI CIMWin32)
 
@@ -438,7 +438,7 @@ uint32 Create(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Службы обычно устанавливаются одним из двух способов: либо как часть установки операционной системы, либо с помощью программы установки, предоставляемой разработчиком службы. Однако некоторые службы, в частности созданные в Организации, могут не иметь программы установки. В этих случаях для программной установки служб можно использовать метод **CREATE** .
 
@@ -481,7 +481,7 @@ errReturn = objService.Create ("DbService", "Personnel Database", _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

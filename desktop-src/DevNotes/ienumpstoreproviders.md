@@ -1,5 +1,5 @@
 ---
-description: Предоставляет стандартные методы перечисления COM для интерфейса Ипсторе.
+description: Интерфейс Иенумпсторепровидерс — предоставляет стандартные методы перечисления COM для интерфейса Ипсторе.
 ms.assetid: d4c0482c-a751-4d41-bcd1-326878fdcf16
 title: Интерфейс Иенумпсторепровидерс (PStore. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: e01bd28722fdb4d5a0ff7e3db4f715ddc1df2315
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf203e0e6de08b6faff3d3b4a040018ec1122975
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657901"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089352"
 ---
 # <a name="ienumpstoreproviders-interface"></a>Интерфейс Иенумпсторепровидерс
 
@@ -40,9 +40,9 @@ ms.locfileid: "105657901"
 
 | Метод                                      | Описание                                                                                        |
 |:--------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**Клонировать**](ienumpstoreproviders-clone.md) | Создает другой перечислитель с тем же состоянием перечисления, что и текущий.<br/> |
+| [**Clone (Клонировать)**](ienumpstoreproviders-clone.md) | Создает другой перечислитель с тем же состоянием перечисления, что и текущий.<br/> |
 | [**Далее**](ienumpstoreproviders-next.md)   | Возвращает следующий указанный поставщик в последовательности перечисления.<br/>                           |
-| [**Перезапуск**](ienumpstoreproviders-reset.md) | Выполняет сброс до начала последовательности перечисления.<br/>                                    |
+| [**Reset**](ienumpstoreproviders-reset.md) | Выполняет сброс до начала последовательности перечисления.<br/>                                    |
 | [**Пропустить**](ienumpstoreproviders-skip.md)   | Пропускает указанный поставщик в последовательности перечисления.<br/>                               |
 
 

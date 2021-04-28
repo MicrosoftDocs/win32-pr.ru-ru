@@ -1,5 +1,5 @@
 ---
-description: Метод Ендфлуш завершает операцию очистки.
+description: Кбасерендерер. Ендфлуш, метод Ендфлуш завершает операцию очистки.
 ms.assetid: 4c30abbf-7351-4eee-af9a-9330f6d1aa08
 title: Кбасерендерер. Ендфлуш, метод (Ренбасе. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3bd565bfa21edb9945b901d8e315f3e1d1cd054f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87e29f405430ca87943773d19793ffc1941ec42c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668742"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095912"
 ---
 # <a name="cbaserendererendflush-method"></a>Кбасерендерер. Ендфлуш, метод
 
@@ -44,7 +44,7 @@ virtual HRESULT EndFlush();
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Входной ПИН-код фильтра вызывает этот метод при получении вызова метода [**Ипин:: ендфлуш**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush) .
 
@@ -59,7 +59,7 @@ virtual HRESULT EndFlush();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

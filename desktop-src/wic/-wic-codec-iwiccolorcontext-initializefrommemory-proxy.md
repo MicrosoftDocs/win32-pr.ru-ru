@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Инитиализефроммемори.
+description: IWICColorContext_InitializeFromMemory_Proxy функция-прокси для метода Инитиализефроммемори.
 ms.assetid: d98fe40c-c3f1-4c46-a558-1910e3dee51b
 title: Функция IWICColorContext_InitializeFromMemory_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 32c3c24902b6c3157b9776d84c5a8eea47cce43e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e77bbcf1e430891b031b2e77bc168c33f781eacf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702398"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097222"
 ---
 # <a name="iwiccolorcontext_initializefrommemory_proxy-function"></a>Ивикколорконтекст \_ инитиализефроммемори \_ -функция
 
@@ -45,16 +45,16 @@ HRESULT IWICColorContext_InitializeFromMemory_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикколорконтекст**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext) \** _
+Тип: **[ **ивикколорконтекст**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext)\***
 
 </dd> <dt>
 
-_pbBuffer * \[ в\]
+*пббуффер* \[ окне\]
 </dt> <dd>
 
-Тип: **const байт \** _
+Тип: **Константный \* байт**
 
-Буфер, используемый для инициализации [_ *ивикколорконтекст* *](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext).
+Буфер, используемый для инициализации [**ивикколорконтекст**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext).
 
 </dd> <dt>
 

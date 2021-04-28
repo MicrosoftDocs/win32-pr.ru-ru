@@ -1,5 +1,5 @@
 ---
-description: Не поддерживается.
+description: 'Метод Ирендеренгине:: Усеинсмартрекомпрессионграф не поддерживается.'
 ms.assetid: 77c51c19-c67b-472d-87d7-9adc274b20ca
 title: 'Метод Ирендеренгине:: Усеинсмартрекомпрессионграф'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f3f31f5d73a9cfd3a9c19116017bd79aa90de7e2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3fd854b3686b254cac5f24fe1f581e2c3416640c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673087"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089002"
 ---
 # <a name="irenderengineuseinsmartrecompressiongraph-method"></a>Метод Ирендеренгине:: Усеинсмартрекомпрессионграф
 
@@ -45,7 +45,7 @@ HRESULT UseInSmartRecompressionGraph();
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -57,7 +57,7 @@ HRESULT UseInSmartRecompressionGraph();
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

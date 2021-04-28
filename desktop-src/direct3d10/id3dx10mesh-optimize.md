@@ -1,5 +1,5 @@
 ---
-description: Создает новую сетку с переупорядоченными лицами и вершинами для оптимизации производительности рисования.
+description: 'Метод ID3DX10Mesh:: optimize — создает новую сетку с переупорядоченными лицами и вершинами для оптимизации производительности рисования.'
 ms.assetid: c03e112a-7c9b-4082-9afe-42e1c20b5f4d
 title: 'Метод ID3DX10Mesh:: optimize (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e3c416b28cefe1a3f7fb487567afac4c99057478
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f530995a2388d3ec2627ac5ce128271ed085a779
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355273"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108052"
 ---
 # <a name="id3dx10meshoptimize-method"></a>Метод ID3DX10Mesh:: OPTIMIZE
 
@@ -75,7 +75,7 @@ HRESULT Optimize(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод создает новую сетку. Перед запуском optimize приложение должно создать буфер соседей путем вызова [**ID3DX10Mesh:: женератеаджаценциандпоинтрепс**](id3dx10mesh-generateadjacencyandpointreps.md). В буфере соседка содержатся смежные данные, например список краев и сторон, расположенных рядом друг с другом.
 
@@ -92,7 +92,7 @@ HRESULT Optimize(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

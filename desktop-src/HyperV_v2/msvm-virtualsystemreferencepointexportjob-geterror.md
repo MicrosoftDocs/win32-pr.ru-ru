@@ -1,5 +1,5 @@
 ---
-description: Извлекает ошибку.
+description: Метод-Error класса Msvm_VirtualSystemReferencePointExportJob — извлекает ошибку.
 ms.assetid: a30cb74a-4e41-4981-b355-6f46b4b75ce6
 title: Метод method класса Msvm_VirtualSystemReferencePointExportJob
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: b26995171059389f7f7afb3fb90e3506b39affd5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: d1311e4e56b6396266ece72277e8ddadcdb9d835
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104081684"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109342"
 ---
 # <a name="geterror-method-of-the-msvm_virtualsystemreferencepointexportjob-class"></a>Метод method \_ класса мсвм виртуалсистемреференцепоинтекспортжоб
 
@@ -102,7 +102,7 @@ uint32 GetError(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

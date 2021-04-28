@@ -1,5 +1,5 @@
 ---
-description: Запрашивает указатель на указанный объект.
+description: SMC_GETSFOBJECT сообщение — запрашивает указатель на указанный объект.
 title: Сообщение SMC_GETSFOBJECT (shobjidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: c7fb57ea8e3f02ce4e773e187310530c14d65515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 612b43c193cd1919db4a5cf9dba3a8fdba1c81c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265305"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086612"
 ---
 # <a name="smc_getsfobject-message"></a>\_Сообщение SMC жетсфобжект
 
@@ -56,7 +56,7 @@ IID, связанный с запрошенным объектом.
 
 Возвратите \_ ОК.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это уведомление получает метод [**ишеллменукаллбакк:: каллбакксм**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) . Он аналогичен [**SMC \_ GetObject**](smc-getobject.md) , но используется для элементов папки оболочки. Создайте запрошенный объект и присвойте указатель на запрашиваемый интерфейс *ПС*.
 

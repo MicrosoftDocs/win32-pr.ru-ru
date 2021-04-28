@@ -1,5 +1,5 @@
 ---
-description: Загружает первую иерархию кадров из файла. x.
+description: Функция D3DXLoadMeshHierarchyFromX — загружает первую иерархию кадров из файла. x.
 ms.assetid: 1d446b23-9028-4187-b97c-a61edfe68e39
 title: Функция D3DXLoadMeshHierarchyFromX (D3dx9anim. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 308ebf127708849bec8ee8a4f2601f029562634a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b6f6f08e10155509df800cca3cb3788d6b27e520
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000313"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114362"
 ---
 # <a name="d3dxloadmeshhierarchyfromx-function"></a>Функция D3DXLoadMeshHierarchyFromX
 
@@ -115,7 +115,7 @@ HRESULT D3DXLoadMeshHierarchyFromX(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может иметь одно из следующих значений: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXLoadMeshHierarchyFromXW. В противном случае вызов функции разрешается в D3DXLoadMeshHierarchyFromXA.
 
@@ -143,7 +143,7 @@ HRESULT D3DXLoadMeshHierarchyFromX(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

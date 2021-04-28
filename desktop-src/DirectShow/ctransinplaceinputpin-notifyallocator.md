@@ -1,5 +1,5 @@
 ---
-description: 'Метод Нотифяллокатор задает распределитель для соединения. Этот метод реализует метод Имеминпутпин:: Нотифяллокатор.'
+description: 'Ктрансинплацеинпутпин. Нотифяллокатор, метод Нотифяллокатор задает распределитель для соединения. Этот метод реализует метод Имеминпутпин:: Нотифяллокатор.'
 ms.assetid: adc1c5b6-99da-4140-b644-7b98f6b8bad4
 title: Ктрансинплацеинпутпин. Нотифяллокатор, метод (Трансип. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 74578243ce780e09d7435f9dd4b70bd9497e1e97
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca15be5dc1893a393e6052832cc7522f27355eeb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657082"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094752"
 ---
 # <a name="ctransinplaceinputpinnotifyallocator-method"></a>Ктрансинплацеинпутпин. Нотифяллокатор, метод
 
@@ -65,7 +65,7 @@ HRESULT NotifyAllocator(
 
 | Код возврата                                                                               | Описание                          |
 |-------------------------------------------------------------------------------------------|--------------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>      | Успешно<br/>                   |
+| <dl> <dt>**\_ОК**</dt> </dl>      | Успешное завершение<br/>                   |
 | <dl> <dt>**\_Ошибка E**</dt> </dl>    | Failure<br/>                   |
 | <dl> <dt>**\_указатель E**</dt> </dl> | **Пустой** аргумент указателя<br/> |
 
@@ -73,7 +73,7 @@ HRESULT NotifyAllocator(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Фильтр пытается использовать один и тот же распределитель для обоих подключений.
 
@@ -95,7 +95,7 @@ HRESULT NotifyAllocator(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

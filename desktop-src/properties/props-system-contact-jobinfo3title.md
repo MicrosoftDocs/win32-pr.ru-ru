@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Contact. JobInfo3Title
 ms.assetid: e3606629-f417-49ba-aebc-24aaf5f2af59
 title: System. Contact. JobInfo3Title
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02099c8ea01b84f28b8f565ece3fd2f256ebe629
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 120dfd71234c32f790f461ef485004a7125d911a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683196"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101652"
 ---
 # <a name="systemcontactjobinfo3title"></a>System. Contact. JobInfo3Title
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Извлекает количество интерфейсов типа данных, предоставленных объектом.
+description: Кмедиаевент. Жеттипеинфокаунт, метод возвращает количество интерфейсов типа данных, предоставленных объектом.
 ms.assetid: e16bc324-bb49-4df2-afeb-2c2cd1620693
 title: Кмедиаевент. Жеттипеинфокаунт, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4de7a79251f2d25c1c55642050ad06513a1bfe6f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c9402ad973a08afed4d338cfdc7b5df7fb14b9f0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675206"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099122"
 ---
 # <a name="cmediaeventgettypeinfocount-method"></a>Кмедиаевент. Жеттипеинфокаунт, метод
 
@@ -64,7 +64,7 @@ HRESULT GetTypeInfoCount(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

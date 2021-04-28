@@ -1,5 +1,5 @@
 ---
-description: Метод Жеттипеинфокаунт извлекает количество интерфейсов сведений о типе, предоставляемых объектом.
+description: Кмедиапоситион. Жеттипеинфокаунт, метод Жеттипеинфокаунт извлекает количество интерфейсов сведений о типе, предоставляемых объектом.
 ms.assetid: c98368f2-ae0c-4301-be30-7332b19f53ee
 title: Кмедиапоситион. Жеттипеинфокаунт, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7cac543c49b7f2f6b9dc3357bbb1c691477d9b62
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8cfc54f414a6722f7f69a0330fad2d1a0cfab425
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675771"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095482"
 ---
 # <a name="cmediapositiongettypeinfocount-method"></a>Кмедиапоситион. Жеттипеинфокаунт, метод
 
@@ -75,7 +75,7 @@ HRESULT GetTypeInfoCount(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

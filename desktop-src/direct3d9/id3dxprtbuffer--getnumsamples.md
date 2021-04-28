@@ -1,5 +1,5 @@
 ---
-description: Возвращает число вершин (или пикселей текстуры) выборки.
+description: 'Метод ID3DXPRTBuffer:: Жетнумсамплес — возвращает число вершин (или пикселей текстуры), которые выборке.'
 ms.assetid: fdcb9f09-29fb-409d-b2c0-78ebf311f48b
 title: 'Метод ID3DXPRTBuffer:: Жетнумсамплес (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 370adbafa09f14fe6b8088b1472681d2795be3b6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b6889b710b92d52a48884098e68c58286c400330
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000524"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107302"
 ---
 # <a name="id3dxprtbuffergetnumsamples-method"></a>Метод ID3DXPRTBuffer:: Жетнумсамплес
 
@@ -55,7 +55,7 @@ UINT GetNumSamples();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
