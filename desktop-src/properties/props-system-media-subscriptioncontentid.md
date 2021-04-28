@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Media. Субскриптионконтентид
 ms.assetid: c55647d8-0e6e-4da5-a822-3a91fba179ea
 title: System. Media. Субскриптионконтентид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb04cc200fcbf632fd664272b5f511dfed584ef
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 36321c4552f7f35de0580bec27d7378518c80dad
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104351295"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091952"
 ---
 # <a name="systemmediasubscriptioncontentid"></a>System. Media. Субскриптионконтентид
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

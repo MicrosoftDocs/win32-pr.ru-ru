@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Ктрансформфилтер. Ктрансформфилтер.
 ms.assetid: a64c3e29-91f2-455f-aac1-1e4ecce6958d
 title: Конструктор Ктрансформфилтер. Ктрансформфилтер (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 39569dff69c2ab1ebb635cb69a4c71602a7400d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fce67bbe22361bdbae0cd3e51768e0cf0743d97d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657451"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098722"
 ---
 # <a name="ctransformfilterctransformfilter-constructor"></a>Ктрансформфилтер. Ктрансформфилтер, конструктор
 
@@ -65,7 +65,7 @@ CTransformFilter(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Конструктор не создает ПИН-коды фильтра. Это происходит при первом вызове метода [**жетпин**](ctransformfilter-getpin.md) . Конструктор инициализирует переменные члена [**m \_ пинпут**](ctransformfilter-m-pinput.md) и [**m \_ паутпут**](ctransformfilter-m-poutput.md) **значением NULL**.
 
@@ -80,7 +80,7 @@ CTransformFilter(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

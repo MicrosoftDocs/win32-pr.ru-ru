@@ -1,19 +1,19 @@
 ---
 title: Протоколы маршрутизации
-description: .
+description: Протоколы маршрутизации
 ms.assetid: 85302ad2-77f9-474e-a20f-ae64bfd3b45c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b3e52ada14206b99ef2d7281c40e59fabcd0df3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 836c6bcaddafc22243367a4dec98a0faac886ee6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067877"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084222"
 ---
 # <a name="routing-protocols"></a>Протоколы маршрутизации
 
-## <a name="purpose"></a>Назначение
+## <a name="purpose"></a>Цель
 
 Разработчики могут использовать интерфейсы API протокола маршрутизации для реализации протоколов маршрутизации.
 
@@ -32,7 +32,7 @@ API-интерфейсы маршрутизации предназначены �
 -   [Диспетчер таблиц маршрутизации версии 1](about-routing-table-manager-version-1.md)
 -   [Диспетчер таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
@@ -42,9 +42,9 @@ API-интерфейсы маршрутизации предназначены �
 [Маршрутизация](routing-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

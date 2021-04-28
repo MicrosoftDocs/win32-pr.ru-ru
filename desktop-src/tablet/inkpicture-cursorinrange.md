@@ -1,15 +1,15 @@
 ---
-description: Происходит при входе курсора в диапазон физического обнаружения (близость) контекста планшета.
+description: Событие InkPicture. Курсоринранже возникает, когда курсор попадает в диапазон физического обнаружения (близость) контекста планшета.
 ms.assetid: e921e175-a2cf-45e6-bb81-dc82e384d3b1
 title: Событие InkPicture. Курсоринранже (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab0dead1fa5bd89452af15a19f36a132c6843d67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d05d703022e8d97df0d8d74a73e20af3d91b8531
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693463"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086582"
 ---
 # <a name="inkpicturecursorinrange-event"></a>Событие InkPicture. Курсоринранже
 
@@ -59,7 +59,7 @@ void CursorInRange(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в интерфейсе диспетчеризации **\_ иинкколлекторевентс**, **\_ иинковерлайевентс** и **\_ иинкпиктуривентс** с идентификатором DISPID \_ ицекурсоринранже.
 
@@ -78,7 +78,7 @@ void CursorInRange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

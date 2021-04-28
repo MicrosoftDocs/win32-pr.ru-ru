@@ -1,5 +1,5 @@
 ---
-description: Метод QueryStatus получает состояние НПП.
+description: 'Метод ИРТК:: QueryStatus — метод QueryStatus получает состояние НПП.'
 ms.assetid: 4517eb34-087a-491c-97b5-cbe9190fa7a2
 title: 'Метод ИРТК:: QueryStatus (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: e05120353cd39db661cf1b4309353034c184cd66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dd8c18d19df7d577ad219742520630f00122a41
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650672"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110612"
 ---
 # <a name="irtcquerystatus-method"></a>Метод ИРТК:: QueryStatus
 
@@ -63,7 +63,7 @@ HRESULT STDMETHODCALLTYPE QueryStatus(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод можно вызвать в любое время после вызова метода [креатенппинтерфаце](createnppinterface.md) . Этот метод можно вызвать, чтобы узнать, подключен ли НПП к сети, узнать состояние текущего захвата и проверить, ожидают ли какие-либо триггеры. Однако перед вызовом этого метода необходимо выделить память, необходимую для структуры [NETWORKSTATUS](networkstatus.md) , и освободить эту память, когда структура больше не нужна.
 
@@ -80,7 +80,7 @@ HRESULT STDMETHODCALLTYPE QueryStatus(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

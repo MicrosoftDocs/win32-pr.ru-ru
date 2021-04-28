@@ -1,5 +1,5 @@
 ---
-description: Присоединяет поверхность к другой поверхности.
+description: Функция Нтгдиддаддаттачедсурфаце — подключает поверхность к другой поверхности.
 ms.assetid: c4ef9e96-c498-4175-a2cd-22e0f88fd86e
 title: Функция Нтгдиддаддаттачедсурфаце (Нтгди. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: d6e87d3a077c1381eeaa306e594daec0f5b855d1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dacaa07a586a88c808d8da07b8233002e8ae5055
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895578"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085792"
 ---
 # <a name="ntgdiddaddattachedsurface-function"></a>Функция Нтгдиддаддаттачедсурфаце
 
@@ -94,7 +94,7 @@ DWORD APIENTRY NtGdiDdAddAttachedSurface(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Происходит при изменении расположения текущего выделения, например посредством изменений пользовательского интерфейса, процедур копирования и вставки или свойства Selection.
+description: Событие InkPicture. Селектионмовед — происходит при изменении расположения текущего выделения, например посредством изменений пользовательского интерфейса, процедур копирования и вставки или свойства Selection.
 ms.assetid: 669dc6c2-1620-40f3-b4b5-7ab8967e739a
 title: Событие InkPicture. Селектионмовед (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25810b87d5a0a3554c46b1a3869bb9b6c88d2fb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2006b2580e8732c90187b265576b217cdbad9b02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346875"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086452"
 ---
 # <a name="inkpictureselectionmoved-event"></a>Событие InkPicture. Селектионмовед
 
@@ -46,7 +46,7 @@ void SelectionMoved(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в интерфейсах диспетчеризации **\_ иинковерлайевентс** и **\_ ИИНКПИКТУРИВЕНТС** (DISP) с идентификатором DISPID \_ иоеселектионмовед.
 
@@ -65,7 +65,7 @@ void SelectionMoved(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

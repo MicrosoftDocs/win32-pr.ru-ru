@@ -1,5 +1,5 @@
 ---
-description: Метод Жетконверсатионстатистикс извлекает сведения о сеансе и станции о текущей записи.
+description: 'Метод ИРТК:: Жетконверсатионстатистикс — метод Жетконверсатионстатистикс извлекает сведения о сеансе и станции о текущей записи.'
 ms.assetid: 27f364cd-fee9-4262-b181-c5f15fb12e51
 title: 'Метод ИРТК:: Жетконверсатионстатистикс (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 758488cb3c3f65922bbf6aac4f39774a5430fc92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d2476f4eb33d7e74d0de8363fa88d5e688a2e73
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898838"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110702"
 ---
 # <a name="irtcgetconversationstatistics-method"></a>Метод ИРТК:: Жетконверсатионстатистикс
 
@@ -98,7 +98,7 @@ HRESULT STDMETHODCALLTYPE GetConversationStatistics(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод может вызываться только во время записи данных. Если вызвать этот метод во время приостановки текущей записи, метод не будет выполнен. Чтобы начать запись, вызовите метод [ИРТК:: Start](irtc-start.md) .
 
@@ -117,7 +117,7 @@ HRESULT STDMETHODCALLTYPE GetConversationStatistics(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

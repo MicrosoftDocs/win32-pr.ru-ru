@@ -1,5 +1,5 @@
 ---
-description: Отображает открытые окна в трехмерном стеке, который можно переворачивать.
+description: IShellDispatch5. Виндовсвитчер-метод — отображает открытые окна в трехмерном стеке, который можно переворачивать.
 title: IShellDispatch5. Виндовсвитчер, метод (Шлдисп. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 44a6411c-bcbc-4ef6-b5dc-7bdb4d482c6a
-ms.openlocfilehash: 54b02845e02f5d5499153bc0be828f83d83f0a1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 050def8ab1ed33a25b2943736f047a5e47536f9f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984645"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116802"
 ---
 # <a name="ishelldispatch5windowswitcher-method"></a>IShellDispatch5. Виндовсвитчер, метод
 

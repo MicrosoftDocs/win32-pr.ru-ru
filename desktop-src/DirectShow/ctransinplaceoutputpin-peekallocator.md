@@ -1,5 +1,5 @@
 ---
-description: Метод Пикаллокатор возвращает указатель на распределитель контакта. Метод не увеличивает значение счетчика ссылок в интерфейсе.
+description: Ктрансинплацеаутпутпин. Пикаллокатор, метод Пикаллокатор возвращает указатель на распределитель контакта. Метод не увеличивает значение счетчика ссылок в интерфейсе.
 ms.assetid: 3653d472-059c-426c-8e81-4f7cbd1a8ec3
 title: Ктрансинплацеаутпутпин. Пикаллокатор, метод (Трансип. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 805de37e2df2bf5a198107eea69d9107e799598c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cba87df1c4b9a3391d60e9458387e7b2bd4afd49
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675145"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084602"
 ---
 # <a name="ctransinplaceoutputpinpeekallocator-method"></a>Ктрансинплацеаутпутпин. Пикаллокатор, метод
 
@@ -55,7 +55,7 @@ IMemAllocator* PeekAllocator();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

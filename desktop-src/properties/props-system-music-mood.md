@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Music. настроение
 ms.assetid: 6c5ceb65-128c-4fb1-b6a5-1af298656f69
 title: System. Music. настроение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f360e3ec067580666e5a945c19afb1fb4b9717f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37f51b96a1c308afcab5e64dbfda9f134a9ce23a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909255"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091872"
 ---
 # <a name="systemmusicmood"></a>System. Music. настроение
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

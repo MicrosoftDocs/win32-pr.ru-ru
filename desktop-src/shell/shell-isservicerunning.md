@@ -1,5 +1,5 @@
 ---
-description: Возвращает значение, указывающее, запущена ли определенная служба.
+description: Shell. Иссервицеруннинг-метод — возвращает значение, указывающее, запущена ли определенная служба.
 ms.assetid: FDC41C2D-7462-458f-BBE6-D97260C26B6C
 title: Метод Shell. Иссервицеруннинг (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: c3a65be4955c6f49e8e6baa49cd9dedb82fc5cc8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01af900bb7930ec7b6dde0b0700c83f211733dc3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909880"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083728"
 ---
 # <a name="shellisservicerunning-method"></a>Shell. Иссервицеруннинг, метод
 
@@ -62,17 +62,17 @@ Shell.IsServiceRunning( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true**, если запущена служба, указанная параметром *ссервиценаме* . в противном случае — **значение false**.
+Возвращает **значение true** , если служба, указанная параметром *ссервиценаме* , запущена. в противном случае — **значение false**.
 
 ### <a name="vb"></a>VB
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true**, если запущена служба, указанная параметром *ссервиценаме* . в противном случае — **значение false**.
+Возвращает **значение true** , если служба, указанная параметром *ссервиценаме* , запущена. в противном случае — **значение false**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод в настоящее время недоступен в Microsoft Visual Basic.
 

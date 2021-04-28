@@ -1,5 +1,5 @@
 ---
-description: Извлекает сведения о заданном файле изображения.
+description: Функция D3DX10GetImageInfoFromFile — получение сведений о заданном файле изображения.
 ms.assetid: 59bdce45-82d9-42da-b847-a29ca71919b5
 title: Функция D3DX10GetImageInfoFromFile (D3DX10Tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 836d2e18b5c1c48bbe64d0026e97f8ebc5a066ba
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3e11c4cb52176b0a144e164501f8c70d1e3678c1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703634"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098340"
 ---
 # <a name="d3dx10getimageinfofromfile-function"></a>Функция D3DX10GetImageInfoFromFile
 
@@ -85,7 +85,7 @@ HRESULT D3DX10GetImageInfoFromFile(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: D3DERR \_ инвалидкалл
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживает строки в Юникоде и ANSI.
 
@@ -100,7 +100,7 @@ HRESULT D3DX10GetImageInfoFromFile(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

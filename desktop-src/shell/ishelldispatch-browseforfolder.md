@@ -1,5 +1,5 @@
 ---
-description: Создает диалоговое окно, которое позволяет пользователю выбрать папку, а затем возвращает объект папки выбранной папки.
+description: Ишеллдиспатч. Бровсефорфолдер — создает диалоговое окно, которое позволяет пользователю выбрать папку, а затем возвращает объект папки выбранной папки.
 ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
 title: Ишеллдиспатч. Бровсефорфолдер, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 4e603bb08b4b98ba4008aa4ea162c9b59e5d42da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee6202c7029e2c27684e15d96dd6c38680cb0678
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154947"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086692"
 ---
 # <a name="ishelldispatchbrowseforfolder-method"></a>Ишеллдиспатч. Бровсефорфолдер, метод
 
@@ -105,7 +105,7 @@ IShellDispatch.BrowseForFolder( _
 
 Ссылка на объект [**папки**](folder.md) выбранной папки.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. бровсефорфолдер**](shell-browseforfolder.md) .
 

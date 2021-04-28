@@ -1,5 +1,5 @@
 ---
-description: Запускает именованную службу.
+description: Shell. Сервицестарт метод — запускает именованную службу.
 ms.assetid: 72214E80-38A2-4a57-B555-942902BAFC3D
 title: Метод Shell. Сервицестарт (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 8cd3b910306fc995d15e9731823614717450ef55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c88b1980d215ad088a4a24362f17147b5d6e432
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909879"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083752"
 ---
 # <a name="shellservicestart-method"></a>Shell. Сервицестарт, метод
 
@@ -73,17 +73,17 @@ Shell.ServiceStart( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true** при успешном выполнении; в противном случае — **значение false**.
+Возвращает **значение true** в случае успешного выполнения. в противном случае — **значение false**.
 
 ### <a name="vb"></a>VB
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true** при успешном выполнении; в противном случае — **значение false**.
+Возвращает **значение true** в случае успешного выполнения. в противном случае — **значение false**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Метод возвращает **значение false** , если служба уже запущена. Перед вызовом этого метода можно вызвать [**Shell. иссервицеруннинг**](./shell-isservicerunning.md) для определения состояния службы.
 

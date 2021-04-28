@@ -1,5 +1,5 @@
 ---
-description: Возвращает значение для указанной политики Windows Internet Explorer.
+description: IShellDispatch4. Експлорерполици, метод возвращает значение для указанной политики Windows Internet Explorer.
 ms.assetid: 490c3e18-b606-456a-9016-dc4f7bad2bc3
 title: IShellDispatch4. Експлорерполици, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 57247ad328c647cf9cdde32ac1a2951dd8e364ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a03d61905bdb1f2b16de11cc604625d8e71a7ea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897902"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116834"
 ---
 # <a name="ishelldispatch4explorerpolicy-method"></a>IShellDispatch4. Експлорерполици, метод
 
@@ -62,21 +62,21 @@ IShellDispatch4.ExplorerPolicy( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
 Значение, связанное с указанным именем политики.
 
 ### <a name="vb"></a>VB
 
-Тип: _*Variant \**_
+Тип: **Variant \***
 
 Значение, связанное с указанным именем политики.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Сетевые администраторы могут управлять вычислительной средой пользователей и управлять ею, настроив политики.
 
-Указанное имя значения должно находиться в подразделе "_,*\_ текущее \_ пользовательское **\\** программное обеспечение **\\** Microsoft **\\** Windows **\\** CurrentVersion **\\** политики **\\** обозревателя**". Если имя параметра не существует, метод возвращает **значение NULL**.
+Указанное имя значения должно **находиться в \_ \_** \\  \\  \\  \\  \\  \\  подразделе раздела реестра "Microsoft Windows CurrentVersion Policies. Если имя параметра не существует, метод возвращает **значение NULL**.
 
 ## <a name="examples"></a>Примеры
 

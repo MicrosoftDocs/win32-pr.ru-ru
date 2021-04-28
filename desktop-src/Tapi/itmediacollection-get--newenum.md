@@ -1,15 +1,15 @@
 ---
-description: Метод Get \_ \_ NewEnum Возвращает перечислитель для коллекции.
+description: 'Метод Итмедиаколлектион:: get__NewEnum — метод Get \_ \_ NewEnum Возвращает перечислитель для коллекции.'
 ms.assetid: 22b1eb48-e1ef-4694-a1dc-b2de326989c8
 title: 'Метод Итмедиаколлектион:: get__NewEnum (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfa5655d70026fe2c481aedad0e76923f4caa646
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6683ce0a00f0128cb959dd5a2c39e8b06382f65d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688992"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098362"
 ---
 # <a name="itmediacollectionget__newenum-method"></a>Метод Итмедиаколлектион:: Get \_ \_ NewEnum
 
@@ -61,7 +61,7 @@ HRESULT get__NewEnum(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод является взаимозаменяемым с [**Get \_ енумератиониф**](itmediacollection-get-enumerationif.md) , за исключением того, что он возвращает **IUnknown** вместо [**иенуммедиа**](ienummedia.md).
 
@@ -78,7 +78,7 @@ HRESULT get__NewEnum(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

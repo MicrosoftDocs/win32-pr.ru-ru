@@ -1,5 +1,5 @@
 ---
-description: Метод деструктора.
+description: Метод деструктора Кмедиасампле. ~ Кмедиасампле.
 ms.assetid: 915f1b64-9ed1-4c81-b03a-52c0df2e1d74
 title: Деструктор Кмедиасампле. ~ Кмедиасампле (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ae0fdd718f3562e3a101149320dd7b7a8c7a869d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a0f218ee2f9c78abc4e704eaf550fffa01df5b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669224"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099112"
 ---
 # <a name="cmediasamplecmediasample-destructor"></a>Деструктор Кмедиасампле. ~ Кмедиасампле
 
@@ -47,7 +47,7 @@ ms.locfileid: "105669224"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

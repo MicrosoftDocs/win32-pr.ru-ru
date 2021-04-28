@@ -1,25 +1,13 @@
 ---
-description: 'Отображает диалоговое окно Результаты поиска: компьютеры. В диалоговом окне отображается результат поиска указанного компьютера.'
-ms.assetid: 0304b955-afde-4de4-824a-9ec9c9530360
-title: Метод Shell. Финдкомпутер (Шлдисп. h)
-ms.topic: reference
-ms.date: 05/31/2018
-topic_type:
-- APIRef
-- kbSyntax
-api_name:
-- Shell.FindComputer
-api_type:
-- COM
-api_location:
+Описание: Shell. Финдкомпутер method-"отображает диалоговое окно" результаты поиска: компьютеры ". В диалоговом окне отображается результат поиска указанного компьютера.
+MS. AssetID: 0304b955-afde-4de4-824a-9ec9c9530360 Title: метод Shell. Финдкомпутер (Шлдисп. h) MS. Topic: ссылка на MS. Date: 05/31/2018 topic_type: 
+- апиреф
+- api_name Кбсинтакс: 
+- Api_type Shell. Финдкомпутер: 
+- Api_location COM: 
 - Shell32.dll
-ms.openlocfilehash: 3824eeb98bfac11e007d1bf7dd9f89153a7b73ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985981"
 ---
+
 # <a name="shellfindcomputer-method"></a>Shell. Финдкомпутер, метод
 
 Отображает диалоговое окно **Результаты поиска: компьютеры** . В диалоговом окне отображается результат поиска указанного компьютера.
@@ -119,15 +107,15 @@ End Sub
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
-| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
+| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 4,71 или более поздняя)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Метод Resume перезапускает отложенную запись.
+description: 'Метод ИРТК:: Resume. метод Resume перезапускает отложенную запись.'
 ms.assetid: 685dfdee-3bd0-44b3-ac4f-c9960cf77c5c
 title: 'Метод ИРТК:: Resume (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 991f70944b44ce13641318219788d9d6122b15c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55e5cb66eecbee96df9573e9347d1f32e3508d2b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673551"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110570"
 ---
 # <a name="irtcresume-method"></a>Метод ИРТК:: Resume
 
@@ -56,7 +56,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пока захват находится в приостановленном состоянии, новые данные не фиксируются до тех пор, пока вызов метода [ИРТК:: Resume](idelaydc-resume.md) не перезапустит запись.
 
@@ -77,7 +77,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

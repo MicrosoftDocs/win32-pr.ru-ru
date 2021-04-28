@@ -1,5 +1,5 @@
 ---
-description: Содержит объект для каждого пользователя в роли, к которой относится коллекция.
+description: Коллекция Усерсинроле — содержит объект для каждого пользователя в роли, к которой относится коллекция.
 ms.assetid: e7d9e5e8-1927-42b2-bdd5-0c49a562c31f
 title: Коллекция Усерсинроле
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e5bf36937d08efd377b48ef251ffb7219c05504f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1b73c495a1af1dec9114e5a59274e457c1d09694
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262681"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105542"
 ---
 # <a name="usersinrole-collection"></a>Коллекция Усерсинроле
 
@@ -63,7 +63,7 @@ ms.locfileid: "104262681"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

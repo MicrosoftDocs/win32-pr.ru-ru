@@ -1,5 +1,5 @@
 ---
-description: Не поддерживается.
+description: 'Метод Иамтимелинеобж:: Жеттимелиненореф не поддерживается.'
 ms.assetid: be7721e4-ba43-47c1-b955-e97afc5caac4
 title: 'Метод Иамтимелинеобж:: Жеттимелиненореф (Кедит. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e51071f261a3b9a22665a1024d992a6fd97dfd4b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f36918f7e2bc52fb8cb2898930ff1971ad33b74b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685334"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098538"
 ---
 # <a name="iamtimelineobjgettimelinenoref-method"></a>Метод Иамтимелинеобж:: Жеттимелиненореф
 
@@ -56,7 +56,7 @@ HRESULT GetTimelineNoRef(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -79,7 +79,7 @@ HRESULT GetTimelineNoRef(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

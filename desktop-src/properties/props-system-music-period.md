@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. музыка. period
 ms.assetid: 141ea422-d844-4e1c-9ef5-3b5ff27024f7
 title: System. музыка. period
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94de7fa26e4cd5d79ac5f77aab9ff468d696b2ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c5a1a61e7f6477c97ce71f84bc1a470e726c84a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711845"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110432"
 ---
 # <a name="systemmusicperiod"></a>System. музыка. period
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

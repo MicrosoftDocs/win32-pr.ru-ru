@@ -1,15 +1,15 @@
 ---
-description: Происходит, когда размер текущего выделения собирается измениться, например посредством изменений пользовательского интерфейса, процедур копирования и вставки или свойства Selection.
+description: Событие InkOverlay. Селектионресизинг — происходит, когда размер текущего выделения собирается измениться, например посредством изменений пользовательского интерфейса, процедур копирования и вставки или свойства Selection.
 ms.assetid: 7fe0249c-c43d-498b-9029-cf5969201d96
 title: Событие InkOverlay. Селектионресизинг (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7debb9461aae39c0549bce863a0513b86c53ffa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b5577f83c14ccc2e998fb4257344729e2219a2d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266154"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086682"
 ---
 # <a name="inkoverlayselectionresizing-event"></a>Событие InkOverlay. Селектионресизинг
 
@@ -46,7 +46,7 @@ void SelectionResizing(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в \_ \_ интерфейсах диспетчеризации иинковерлайевентс и иинкпиктуривентс (DISP) с идентификатором DISPID \_ иоеселектионресизинг.
 
@@ -63,7 +63,7 @@ void SelectionResizing(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

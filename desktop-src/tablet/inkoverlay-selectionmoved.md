@@ -1,15 +1,15 @@
 ---
-description: Происходит при изменении расположения текущего выделения, например посредством изменений пользовательского интерфейса, процедур копирования и вставки или свойства Selection.
+description: Событие InkOverlay. Селектионмовед — происходит при изменении расположения текущего выделения, например посредством изменений пользовательского интерфейса, процедур копирования и вставки или свойства Selection.
 ms.assetid: 78b5ab11-01c0-4bdb-ae1f-ec55774abdce
 title: Событие InkOverlay. Селектионмовед (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5f254b5e3ae3c23f50b12c097608946aad3b3c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e27bf1600683b5258bf899692b692c8cdcabb359
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348665"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116872"
 ---
 # <a name="inkoverlayselectionmoved-event"></a>Событие InkOverlay. Селектионмовед
 
@@ -46,7 +46,7 @@ void SelectionMoved(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод события TЭтот определяется в \_ иинковерлайевентс и \_ иинкпиктуривентс интерфейсах диспетчеризации (DISP) с идентификатором DISPID \_ иоеселектионмовед.
 
@@ -65,7 +65,7 @@ void SelectionMoved(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

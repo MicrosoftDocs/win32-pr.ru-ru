@@ -1,19 +1,19 @@
 ---
 title: API игрового контроллера Ксинпут
-description: .
+description: API игрового контроллера Ксинпут
 ms.assetid: fbbc651b-9264-9b5d-01c6-efc58f50b19d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f0957c442db2d6c41d816d3bc0781861f61df16
-ms.sourcegitcommit: d482e4276cc06515e9fade2f253a257ffc418ce5
+ms.openlocfilehash: 1fca0e64d6b4f5221a3b7c0863be77c2797abb01
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2019
-ms.locfileid: "103887400"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104212"
 ---
 # <a name="xinput-game-controller-apis"></a>API игрового контроллера Ксинпут
 
-## <a name="purpose"></a>Назначение
+## <a name="purpose"></a>Цель
 
 API игрового контроллера Ксинпут позволяет приложениям принимать входные данные с контроллера Xbox для Windows.
 

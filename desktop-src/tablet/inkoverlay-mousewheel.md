@@ -1,15 +1,15 @@
 ---
-description: Происходит при движении колесика мыши, когда объект InkCollector или InkOverlay имеет фокус.
+description: Событие InkOverlay. Маусевхил — происходит при движении колесика мыши, когда объект InkCollector или InkOverlay имеет фокус.
 ms.assetid: b7269e07-7001-48ca-8e20-a39cb02f3719
 title: Событие InkOverlay. Маусевхил (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bbd919fdf02d85c32efa2a1a923d5de7ebe4f5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 468dbdac09fd40144768e8342791d5712a570bcc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912911"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116892"
 ---
 # <a name="inkoverlaymousewheel-event"></a>Событие InkOverlay. Маусевхил
 
@@ -81,7 +81,7 @@ void MouseWheel(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Свойства *px* и *корректировки* находятся в пикселях, а не в HIMETRIC единицах, связанных с пространством рукописного ввода. Это связано с тем, что это событие заменяет связанное событие мыши приложения, не поддерживающего перо, и такого типа приложения распознает только пикселы.
@@ -103,7 +103,7 @@ void MouseWheel(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

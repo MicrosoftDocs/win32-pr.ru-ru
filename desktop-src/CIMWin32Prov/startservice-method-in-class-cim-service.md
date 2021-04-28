@@ -1,5 +1,5 @@
 ---
-description: Метод StartService помещает службу в запущенное состояние.
+description: Метод StartService класса CIM_Service (поставщики WMI CIMWin32) — метод StartService помещает службу в запущенное состояние.
 ms.assetid: 0f2880ed-1643-4211-8684-12493711b1f8
 ms.tgt_platform: multiple
 title: Метод StartService класса CIM_Service (поставщики WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1592552595c06ec7111041cbb1c1b1d2628f8b6a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6027112323fc14abf4c4a8dc667b921025a5e652
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807463"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086172"
 ---
 # <a name="startservice-method-of-the-cim_service-class-cimwin32-wmi-providers"></a>Метод StartService класса CIM_Service (поставщики WMI CIMWin32)
 
@@ -49,7 +49,7 @@ uint32 StartService();
 
 Возвращает значение 0 (нуль) при успешном выполнении и любое другое число для указания ошибки. В подклассе набор возможных кодов возврата можно указать с помощью квалификатора **ValueMap** в методе. Строки, в которые транслируются содержимое **ValueMap** , также можно указать в подклассе как квалификатор массива **значений** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -69,7 +69,7 @@ uint32 StartService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

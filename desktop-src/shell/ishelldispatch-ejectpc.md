@@ -1,5 +1,5 @@
 ---
-description: Извлекает компьютер из стыковочного узла. Это то же самое, что и при нажатии кнопки "Пуск" и выборе пункта "извлечь компьютер", если компьютер поддерживает эту команду.
+description: Ишеллдиспатч. Ежектпк метод — извлекает компьютер из стыковочного узла. Это то же самое, что и при нажатии кнопки "Пуск" и выборе пункта "извлечь компьютер", если компьютер поддерживает эту команду.
 ms.assetid: 34448D82-187C-40aa-90B4-A4111B33048B
 title: Ишеллдиспатч. Ежектпк, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d85dd8c007338dca3d68183bc9ba3fbd333195ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac42e1a4331a553a03bac3da50a187e06c90859c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263353"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086642"
 ---
 # <a name="ishelldispatchejectpc-method"></a>Ишеллдиспатч. Ежектпк, метод
 
@@ -55,7 +55,7 @@ IShellDispatch.EjectPC()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. ежектпк**](shell-ejectpc.md) .
 

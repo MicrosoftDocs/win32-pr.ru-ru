@@ -1,5 +1,5 @@
 ---
-description: Предоставляет доступ к открытым свойствам и методам объекта.
+description: Метод Кмедиаконтрол. Invoke — предоставляет доступ к свойствам и методам, предоставляемым объектом.
 ms.assetid: 05006f1e-24ff-4ed2-8291-2ba48495fec0
 title: Метод Кмедиаконтрол. Invoke (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7b9a29d163180ffc609ca44f2bbbfb2870c5faef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe077b2c69f603eef8737cbf7ea8c514e9b90c85
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675627"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085642"
 ---
 # <a name="cmediacontrolinvoke-method"></a>Кмедиаконтрол. Invoke, метод
 
@@ -120,7 +120,7 @@ HRESULT Invoke(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

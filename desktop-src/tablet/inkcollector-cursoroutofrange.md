@@ -1,15 +1,15 @@
 ---
-description: Происходит, когда курсор покидает диапазон физического обнаружения (близость) контекста планшета.
+description: Событие InkCollector. Курсораутофранже — происходит, когда курсор покидает диапазон физического обнаружения (близость) контекста планшета.
 ms.assetid: a3a570ed-570b-4579-b120-ed5457630bc2
 title: Событие InkCollector. Курсораутофранже (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e2d6ee30a60c260d861cdc5c24e22d7b4b43b0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e14e674d5cb7c3da7f2a1e684a0e916e637106e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673271"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110282"
 ---
 # <a name="inkcollectorcursoroutofrange-event"></a>Событие InkCollector. Курсораутофранже
 
@@ -41,7 +41,7 @@ void CursorOutOfRange(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в \_ \_ \_ интерфейсах диспетчеризации (DISP) иинкколлекторевентс, иинковерлайевентс и иинкпиктуривентс с идентификатором DISPID \_ ицекурсораутофранже.
 
@@ -60,7 +60,7 @@ void CursorOutOfRange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

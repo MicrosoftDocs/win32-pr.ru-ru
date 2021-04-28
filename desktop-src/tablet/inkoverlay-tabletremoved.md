@@ -1,15 +1,15 @@
 ---
-description: Происходит при удалении Иинктаблет из системы.
+description: Событие InkOverlay. Таблетремовед — происходит при удалении Иинктаблет из системы.
 ms.assetid: 2217a69e-5b39-4827-82cd-99a02e9d39c6
 title: Событие InkOverlay. Таблетремовед (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a7d0e69bae7cb6360794b9624fcef7c8be639e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a5572ec4c8afd664ef96534e93c402ec2141f65
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647412"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086652"
 ---
 # <a name="inkoverlaytabletremoved-event"></a>Событие InkOverlay. Таблетремовед
 
@@ -41,7 +41,7 @@ void TabletRemoved(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в \_ \_ \_ интерфейсах диспетчеризации (DISP) иинкколлекторевентс, иинковерлайевентс и иинкпиктуривентс с идентификатором DISPID \_ ицетаблетремовед.
 
@@ -58,7 +58,7 @@ void TabletRemoved(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

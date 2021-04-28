@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Initialize.
+description: IWICBitmapClipper_Initialize_Proxy функция-прокси для метода Initialize.
 ms.assetid: 60925f5c-aca4-4f49-96d2-9b58d8310e3c
 title: Функция IWICBitmapClipper_Initialize_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 83c41b8802546b36ad309306ecc83a34c5d3a0c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce3c745d27928765fdfdf664c423f7e2146cbd5f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144728"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086392"
 ---
 # <a name="iwicbitmapclipper_initialize_proxy-function"></a>Ивикбитмапклиппер \_ инициализировать \_ прокси-функцию
 
@@ -45,25 +45,25 @@ HRESULT IWICBitmapClipper_Initialize_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапклиппер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper) \** _
+Тип: **[ **ивикбитмапклиппер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper)\***
 
-Указатель на этот объект [_ *ивикбитмапклиппер* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper) .
+Указатель на этот объект [**ивикбитмапклиппер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper) .
 
 </dd> <dt>
 
 *писаурце* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+Тип: **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 Источник входного точечного рисунка.
 
 </dd> <dt>
 
-_prc * \[ в\]
+*КНР* \[ окне\]
 </dt> <dd>
 
-Тип: **const [**викрект**](/windows/desktop/api/Wincodec/ns-wincodec-wicrect) \** _
+Тип: **const [**викрект**](/windows/desktop/api/Wincodec/ns-wincodec-wicrect) \***
 
 Прямоугольник исходного растрового изображения для обрезки.
 
@@ -71,7 +71,7 @@ _prc * \[ в\]
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 

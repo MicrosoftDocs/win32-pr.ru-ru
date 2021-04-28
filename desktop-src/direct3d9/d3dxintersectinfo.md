@@ -1,5 +1,5 @@
 ---
-description: Описывает пересечение лучей-треугольника.
+description: Структура D3DXINTERSECTINFO — описывает пересечение лучей-треугольника.
 ms.assetid: b6f50fc0-2c8a-4efa-a144-bd0851f8b0ca
 title: Структура D3DXINTERSECTINFO (D3dx9mesh. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 31a98e9a7095e81e962b2996dedb9bdf5871533d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f4a63c7f4a479bfbe9dcb49f485ce0acb8db6486
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703784"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098292"
 ---
 # <a name="d3dxintersectinfo-structure"></a>Структура D3DXINTERSECTINFO
 
@@ -86,7 +86,7 @@ typedef struct D3DXINTERSECTINFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Координаты барицентрик определяют точку внутри треугольника с точки зрения вершин треугольника. Более подробное описание координат барицентрик см. в разделе [Описание координат Барицентрик MathWorld](https://mathworld.wolfram.com/BarycentricCoordinates.html).
 
@@ -100,7 +100,7 @@ typedef struct D3DXINTERSECTINFO {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
