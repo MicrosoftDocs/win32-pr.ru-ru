@@ -1,5 +1,5 @@
 ---
-description: .
+description: <span id="vspixengine.experimenttype"></span>Перечисление ЕКСПЕРИМЕНТТИПЕ
 MS-HAID: vspixengine.EXPERIMENTTYPE
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,33 +17,33 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ce04d2c59441a62b603aea0d5d077908a9359b1a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 58c0ce661bb428c699127fd9b07ad67ab0b5ee7f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105691992"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097412"
 ---
-# <a name="span-idvspixengineexperimenttypespanexperimenttype-enumeration"></a><span data-ttu-id="51cfb-103"><span id="vspixengine.experimenttype"></span>Перечисление ЕКСПЕРИМЕНТТИПЕ</span><span class="sxs-lookup"><span data-stu-id="51cfb-103"><span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE enumeration</span></span>
+# <a name="span-idvspixengineexperimenttypespanexperimenttype-enumeration"></a><span data-ttu-id="e7c58-103"><span id="vspixengine.experimenttype"></span>Перечисление ЕКСПЕРИМЕНТТИПЕ</span><span class="sxs-lookup"><span data-stu-id="e7c58-103"><span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE enumeration</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="51cfb-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="51cfb-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e7c58-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e7c58-104">Syntax</span></span>
 
 
 ```C++
 };
 ```
 
-## <a name="constants"></a><span data-ttu-id="51cfb-105">Константы</span><span class="sxs-lookup"><span data-stu-id="51cfb-105">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="e7c58-105">Константы</span><span class="sxs-lookup"><span data-stu-id="e7c58-105">Constants</span></span>
 
-<span data-ttu-id="51cfb-106"><span id="SINGLEFRAMECAPTURE"></span><span id="singleframecapture"></span>**синглефрамекаптуре**</span><span class="sxs-lookup"><span data-stu-id="51cfb-106"><span id="SINGLEFRAMECAPTURE"></span><span id="singleframecapture"></span>**SINGLEFRAMECAPTURE**</span></span>  
+<span data-ttu-id="e7c58-106"><span id="SINGLEFRAMECAPTURE"></span><span id="singleframecapture"></span>**синглефрамекаптуре**</span><span class="sxs-lookup"><span data-stu-id="e7c58-106"><span id="SINGLEFRAMECAPTURE"></span><span id="singleframecapture"></span>**SINGLEFRAMECAPTURE**</span></span>  
 
-<span data-ttu-id="51cfb-107"><span id="RINGBUFFER"></span><span id="ringbuffer"></span>**рингбуффер**</span><span class="sxs-lookup"><span data-stu-id="51cfb-107"><span id="RINGBUFFER"></span><span id="ringbuffer"></span>**RINGBUFFER**</span></span>  
+<span data-ttu-id="e7c58-107"><span id="RINGBUFFER"></span><span id="ringbuffer"></span>**рингбуффер**</span><span class="sxs-lookup"><span data-stu-id="e7c58-107"><span id="RINGBUFFER"></span><span id="ringbuffer"></span>**RINGBUFFER**</span></span>  
 
-<span data-ttu-id="51cfb-108"><span id="PROFILING"></span><span id="profiling"></span>**ПРОФИЛИРОВАНИЯ**</span><span class="sxs-lookup"><span data-stu-id="51cfb-108"><span id="PROFILING"></span><span id="profiling"></span>**PROFILING**</span></span>  
+<span data-ttu-id="e7c58-108"><span id="PROFILING"></span><span id="profiling"></span>**ПРОФИЛИРОВАНИЯ**</span><span class="sxs-lookup"><span data-stu-id="e7c58-108"><span id="PROFILING"></span><span id="profiling"></span>**PROFILING**</span></span>  
 
-## <a name="requirements"></a><span data-ttu-id="51cfb-109">Требования</span><span class="sxs-lookup"><span data-stu-id="51cfb-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e7c58-109">Требования</span><span class="sxs-lookup"><span data-stu-id="e7c58-109">Requirements</span></span>
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="51cfb-110">Header</span><span class="sxs-lookup"><span data-stu-id="51cfb-110">Header</span></span></p></td><td><span data-ttu-id="51cfb-111">Вспиксенгине. h</span><span class="sxs-lookup"><span data-stu-id="51cfb-111">Vspixengine.h</span></span></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="e7c58-110">Header</span><span class="sxs-lookup"><span data-stu-id="e7c58-110">Header</span></span></p></td><td><span data-ttu-id="e7c58-111">Вспиксенгине. h</span><span class="sxs-lookup"><span data-stu-id="e7c58-111">Vspixengine.h</span></span></td></tr></tbody></table>
 
  
 
