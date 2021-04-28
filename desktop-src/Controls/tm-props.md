@@ -1,6 +1,6 @@
 ---
 title: Перечисление TM_PROPS
-description: В настоящее время не поддерживается.
+description: Перечисление TM_PROPS — в настоящее время не поддерживается.
 ms.assetid: 34b9e158-1d40-4d70-8b83-c13ac16fb7d2
 keywords:
 - Элементы управления Windows для перечислений TM_PROPS
@@ -12,20 +12,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: faf1277c08133f316a62f5d5b022cf1bcebe91c0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0d487e700e8cd3a03efdc78108e4b107084402f7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103783546"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096812"
 ---
-# <a name="tm_props-enumeration"></a><span data-ttu-id="edea9-105">\_Перечисление свойств TM Props</span><span class="sxs-lookup"><span data-stu-id="edea9-105">TM\_PROPS enumeration</span></span>
+# <a name="tm_props-enumeration"></a><span data-ttu-id="4d35e-105">\_Перечисление свойств TM Props</span><span class="sxs-lookup"><span data-stu-id="4d35e-105">TM\_PROPS enumeration</span></span>
 
-<span data-ttu-id="edea9-106">Это перечисление не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="edea9-106">This enumeration is not supported.</span></span>
+<span data-ttu-id="4d35e-106">Это перечисление не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="4d35e-106">This enumeration is not supported.</span></span>
 
- 
+ 
 
- 
+ 
 
 
 
