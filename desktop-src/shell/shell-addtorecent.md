@@ -1,5 +1,5 @@
 ---
-description: Добавляет файл в список последних использованных файлов (MRU).
+description: Shell. Аддторецент-метод — добавляет файл в список последних использованных файлов (MRU).
 ms.assetid: 26D2AE5A-FC7E-4c7c-9F10-8D3D7AA236E7
 title: Метод Shell. Аддторецент (Шлдисп. h)
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: c4372cc6cfac25f94e607f14734a9f544cd4fcbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92ea7432c318939a01f86405ae33d8ac90b88c80
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986064"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083872"
 ---
-# <a name="shelladdtorecent-method"></a><span data-ttu-id="629a6-103">Shell. Аддторецент, метод</span><span class="sxs-lookup"><span data-stu-id="629a6-103">Shell.AddToRecent method</span></span>
+# <a name="shelladdtorecent-method"></a><span data-ttu-id="ce215-103">Shell. Аддторецент, метод</span><span class="sxs-lookup"><span data-stu-id="ce215-103">Shell.AddToRecent method</span></span>
 
-<span data-ttu-id="629a6-104">Добавляет файл в список последних использованных файлов (MRU).</span><span class="sxs-lookup"><span data-stu-id="629a6-104">Adds a file to the most recently used (MRU) list.</span></span>
+<span data-ttu-id="ce215-104">Добавляет файл в список последних использованных файлов (MRU).</span><span class="sxs-lookup"><span data-stu-id="ce215-104">Adds a file to the most recently used (MRU) list.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="629a6-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="629a6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ce215-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ce215-105">Syntax</span></span>
 
 
 ```JScript
@@ -47,45 +47,45 @@ Shell.AddToRecent( _
 
 
 
-## <a name="parameters"></a><span data-ttu-id="629a6-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="629a6-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ce215-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="ce215-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="629a6-107">*варфиле* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="629a6-107">*varFile* \[in\]</span></span>
+<span data-ttu-id="ce215-107">*варфиле* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="ce215-107">*varFile* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="629a6-108">Тип: **Variant**</span><span class="sxs-lookup"><span data-stu-id="629a6-108">Type: **Variant**</span></span>
+<span data-ttu-id="ce215-108">Тип: **Variant**</span><span class="sxs-lookup"><span data-stu-id="ce215-108">Type: **Variant**</span></span>
 
-<span data-ttu-id="629a6-109">**Строка** , содержащая путь к файлу, добавляемому в список недавно использовавшихся документов.</span><span class="sxs-lookup"><span data-stu-id="629a6-109">A **String** that contains the path of the file to add to the list of recently used documents.</span></span>
+<span data-ttu-id="ce215-109">**Строка** , содержащая путь к файлу, добавляемому в список недавно использовавшихся документов.</span><span class="sxs-lookup"><span data-stu-id="ce215-109">A **String** that contains the path of the file to add to the list of recently used documents.</span></span>
 
-<span data-ttu-id="629a6-110">**Windows Vista**: установите для этого параметра **значение NULL** , чтобы очистить папку недавние документы.</span><span class="sxs-lookup"><span data-stu-id="629a6-110">**Windows Vista**: Set this parameter to **null** to clear the recent documents folder.</span></span>
+<span data-ttu-id="ce215-110">**Windows Vista**: установите для этого параметра **значение NULL** , чтобы очистить папку недавние документы.</span><span class="sxs-lookup"><span data-stu-id="ce215-110">**Windows Vista**: Set this parameter to **null** to clear the recent documents folder.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="629a6-111">*бстркатегори* \[ в необязательное\]</span><span class="sxs-lookup"><span data-stu-id="629a6-111">*bstrCategory* \[in, optional\]</span></span>
+<span data-ttu-id="ce215-111">*бстркатегори* \[ в необязательное\]</span><span class="sxs-lookup"><span data-stu-id="ce215-111">*bstrCategory* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="629a6-112">Тип: **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span><span class="sxs-lookup"><span data-stu-id="629a6-112">Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span></span>
+<span data-ttu-id="ce215-112">Тип: **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span><span class="sxs-lookup"><span data-stu-id="ce215-112">Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span></span>
 
-<span data-ttu-id="629a6-113">**Строка** , содержащая имя категории, в которую следует поместить файл.</span><span class="sxs-lookup"><span data-stu-id="629a6-113">A **String** that contains the name of the category in which to place the file.</span></span>
+<span data-ttu-id="ce215-113">**Строка** , содержащая имя категории, в которую следует поместить файл.</span><span class="sxs-lookup"><span data-stu-id="ce215-113">A **String** that contains the name of the category in which to place the file.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="629a6-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="629a6-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ce215-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="ce215-114">Return value</span></span>
 
-### <a name="jscript"></a><span data-ttu-id="629a6-115">Язык JScript</span><span class="sxs-lookup"><span data-stu-id="629a6-115">JScript</span></span>
+### <a name="jscript"></a><span data-ttu-id="ce215-115">Язык JScript</span><span class="sxs-lookup"><span data-stu-id="ce215-115">JScript</span></span>
 
-<span data-ttu-id="629a6-116">Этот метод не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="629a6-116">This method does not return a value.</span></span>
+<span data-ttu-id="ce215-116">Этот метод не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="ce215-116">This method does not return a value.</span></span>
 
-### <a name="vb"></a><span data-ttu-id="629a6-117">VB</span><span class="sxs-lookup"><span data-stu-id="629a6-117">VB</span></span>
+### <a name="vb"></a><span data-ttu-id="ce215-117">VB</span><span class="sxs-lookup"><span data-stu-id="ce215-117">VB</span></span>
 
-<span data-ttu-id="629a6-118">Этот метод не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="629a6-118">This method does not return a value.</span></span>
+<span data-ttu-id="ce215-118">Этот метод не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="ce215-118">This method does not return a value.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="629a6-119">Примеры</span><span class="sxs-lookup"><span data-stu-id="629a6-119">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="ce215-119">Примеры</span><span class="sxs-lookup"><span data-stu-id="ce215-119">Examples</span></span>
 
-<span data-ttu-id="629a6-120">В следующих примерах показано использование **аддторецент** для JScript, VBScript и Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="629a6-120">The following examples show the use of **AddToRecent** for JScript, VBScript, and Visual Basic.</span></span>
+<span data-ttu-id="ce215-120">В следующих примерах показано использование **аддторецент** для JScript, VBScript и Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="ce215-120">The following examples show the use of **AddToRecent** for JScript, VBScript, and Visual Basic.</span></span>
 
-<span data-ttu-id="629a6-121">Присутствовал</span><span class="sxs-lookup"><span data-stu-id="629a6-121">JScript:</span></span>
+<span data-ttu-id="ce215-121">Присутствовал</span><span class="sxs-lookup"><span data-stu-id="ce215-121">JScript:</span></span>
 
 
 ```JScript
@@ -113,7 +113,7 @@ Shell.AddToRecent( _
 
 
 
-<span data-ttu-id="629a6-122">Сценариев</span><span class="sxs-lookup"><span data-stu-id="629a6-122">VBScript:</span></span>
+<span data-ttu-id="ce215-122">Сценариев</span><span class="sxs-lookup"><span data-stu-id="ce215-122">VBScript:</span></span>
 
 
 ```VB
@@ -146,7 +146,7 @@ Shell.AddToRecent( _
 
 
 
-<span data-ttu-id="629a6-123">Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="629a6-123">Visual Basic:</span></span>
+<span data-ttu-id="ce215-123">Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="ce215-123">Visual Basic:</span></span>
 
 
 ```VB
@@ -174,17 +174,17 @@ End Sub
 
 
 
-## <a name="requirements"></a><span data-ttu-id="629a6-124">Требования</span><span class="sxs-lookup"><span data-stu-id="629a6-124">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ce215-124">Требования</span><span class="sxs-lookup"><span data-stu-id="ce215-124">Requirements</span></span>
 
 
 
-| <span data-ttu-id="629a6-125">Требование</span><span class="sxs-lookup"><span data-stu-id="629a6-125">Requirement</span></span> | <span data-ttu-id="629a6-126">Значение</span><span class="sxs-lookup"><span data-stu-id="629a6-126">Value</span></span> |
+| <span data-ttu-id="ce215-125">Требование</span><span class="sxs-lookup"><span data-stu-id="ce215-125">Requirement</span></span> | <span data-ttu-id="ce215-126">Значение</span><span class="sxs-lookup"><span data-stu-id="ce215-126">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="629a6-127">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="629a6-127">Minimum supported client</span></span><br/> | <span data-ttu-id="629a6-128">Только для \[ классических приложений Windows XP\]</span><span class="sxs-lookup"><span data-stu-id="629a6-128">Windows XP \[desktop apps only\]</span></span><br/>                                                                   |
-| <span data-ttu-id="629a6-129">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="629a6-129">Minimum supported server</span></span><br/> | <span data-ttu-id="629a6-130">\[Только для настольных приложений Windows Server 2003\]</span><span class="sxs-lookup"><span data-stu-id="629a6-130">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                          |
-| <span data-ttu-id="629a6-131">Header</span><span class="sxs-lookup"><span data-stu-id="629a6-131">Header</span></span><br/>                   | <dl> <span data-ttu-id="629a6-132"><dt>Шлдисп. h</dt></span><span class="sxs-lookup"><span data-stu-id="629a6-132"><dt>Shldisp.h</dt></span></span> </dl>                          |
-| <span data-ttu-id="629a6-133">IDL</span><span class="sxs-lookup"><span data-stu-id="629a6-133">IDL</span></span><br/>                      | <dl> <span data-ttu-id="629a6-134"><dt>Шлдисп. idl</dt></span><span class="sxs-lookup"><span data-stu-id="629a6-134"><dt>Shldisp.idl</dt></span></span> </dl>                        |
-| <span data-ttu-id="629a6-135">DLL</span><span class="sxs-lookup"><span data-stu-id="629a6-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="629a6-136"><dt>Shell32.dll (версия 6,0 или более поздняя)</dt></span><span class="sxs-lookup"><span data-stu-id="629a6-136"><dt>Shell32.dll (version 6.0 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="ce215-127">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="ce215-127">Minimum supported client</span></span><br/> | <span data-ttu-id="ce215-128">Только для \[ классических приложений Windows XP\]</span><span class="sxs-lookup"><span data-stu-id="ce215-128">Windows XP \[desktop apps only\]</span></span><br/>                                                                   |
+| <span data-ttu-id="ce215-129">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="ce215-129">Minimum supported server</span></span><br/> | <span data-ttu-id="ce215-130">\[Только для настольных приложений Windows Server 2003\]</span><span class="sxs-lookup"><span data-stu-id="ce215-130">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                          |
+| <span data-ttu-id="ce215-131">Header</span><span class="sxs-lookup"><span data-stu-id="ce215-131">Header</span></span><br/>                   | <dl> <span data-ttu-id="ce215-132"><dt>Шлдисп. h</dt></span><span class="sxs-lookup"><span data-stu-id="ce215-132"><dt>Shldisp.h</dt></span></span> </dl>                          |
+| <span data-ttu-id="ce215-133">IDL</span><span class="sxs-lookup"><span data-stu-id="ce215-133">IDL</span></span><br/>                      | <dl> <span data-ttu-id="ce215-134"><dt>Шлдисп. idl</dt></span><span class="sxs-lookup"><span data-stu-id="ce215-134"><dt>Shldisp.idl</dt></span></span> </dl>                        |
+| <span data-ttu-id="ce215-135">DLL</span><span class="sxs-lookup"><span data-stu-id="ce215-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ce215-136"><dt>Shell32.dll (версия 6,0 или более поздняя)</dt></span><span class="sxs-lookup"><span data-stu-id="ce215-136"><dt>Shell32.dll (version 6.0 or later)</dt></span></span> </dl> |
 
 
 
