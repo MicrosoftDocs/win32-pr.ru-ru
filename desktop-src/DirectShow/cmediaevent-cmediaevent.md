@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кмедиаевент. Кмедиаевент.
 ms.assetid: 7f7a0a9f-e531-4e22-8601-b84ab088e9e7
 title: Конструктор Кмедиаевент. Кмедиаевент (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 77b87fa589728592874b0dea96f7b6efca501471
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 36cd82b086241012542701001c4de1fe16ac2d8e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668506"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095562"
 ---
 # <a name="cmediaeventcmediaevent-constructor"></a>Кмедиаевент. Кмедиаевент, конструктор
 
@@ -57,7 +57,7 @@ CMediaEvent(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Выделите параметр *pName* в статической памяти. Это имя отображается в терминале отладки при создании и удалении объекта.
 
@@ -72,7 +72,7 @@ CMediaEvent(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

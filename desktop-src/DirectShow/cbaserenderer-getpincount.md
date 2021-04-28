@@ -1,5 +1,5 @@
 ---
-description: Метод Жетпинкаунт извлекает количество ПИН-кодов.
+description: Кбасерендерер. Жетпинкаунт, метод Жетпинкаунт извлекает количество ПИН-кодов.
 ms.assetid: 518de15d-2ecf-425e-b4cd-14aaaf938417
 title: Кбасерендерер. Жетпинкаунт, метод (Ренбасе. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 71b3703389019e2217a595884ac983e90835cdac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 569a8dd4352edb0c4660fecd3e77fdfaec0ec4c4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665300"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095892"
 ---
 # <a name="cbaserenderergetpincount-method"></a>Кбасерендерер. Жетпинкаунт, метод
 
@@ -44,7 +44,7 @@ virtual int GetPinCount();
 
 Возвращает значение 1.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод реализует метод [**кбасефилтер:: жетпинкаунт**](cbasefilter-getpincount.md) , который является чистым виртуальным в классе **кбасефилтер** .
 
@@ -59,7 +59,7 @@ virtual int GetPinCount();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

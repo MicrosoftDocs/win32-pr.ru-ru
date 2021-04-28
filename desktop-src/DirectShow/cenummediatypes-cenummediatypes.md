@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Ценуммедиатипес. Ценуммедиатипес.
 ms.assetid: fae2e05c-3f7b-4511-9b9d-5a37ea03f851
 title: Конструктор Ценуммедиатипес. Ценуммедиатипес (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3e17357d90c57f1a7d489d07fa56206343f50788
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d243ed25cc48c5d30d467f97e2ec20e1f0f2b58
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657591"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095682"
 ---
 # <a name="cenummediatypescenummediatypes-constructor"></a>Ценуммедиатипес. Ценуммедиатипес, конструктор
 
@@ -57,7 +57,7 @@ CEnumMediaTypes(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если *пенуммедиатипес* имеет **значение NULL**, этот метод инициализирует перечислитель до начала последовательности перечисления. В противном случае он дублирует внутреннее состояние перечислителя, заданного параметром *пенуммедиатипес*.
 
@@ -72,7 +72,7 @@ CEnumMediaTypes(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

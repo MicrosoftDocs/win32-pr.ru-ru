@@ -1,5 +1,5 @@
 ---
-description: Строит правовинтовую матрицу перспективной проекции.
+description: Функция D3DXMatrixPerspectiveRH (D3DX10Math. h) — формирует матрицу правой проекции перспективы.
 ms.assetid: 324c8a21-24ef-4b3a-aac1-a753e26076d4
 title: Функция D3DXMatrixPerspectiveRH (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: eb1c2b4b876fb2dda842912d2f18f845a3167406
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 03ffd99d016023612daa3de96ae29275d71074a0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720964"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109012"
 ---
 # <a name="d3dxmatrixperspectiverh-function-d3dx10mathh"></a>Функция D3DXMatrixPerspectiveRH (D3DX10Math. h)
 
@@ -95,7 +95,7 @@ Z-значение дальней плоскости просмотра.
 
 Указатель на структуру D3DXMATRIX, которая является матрицей с правой стороны проекций.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все параметры функции D3DXMatrixPerspectiveRH — это расстояния в пространстве камеры. Параметры описывают размеры представления объема.
 
@@ -124,7 +124,7 @@ Z-значение дальней плоскости просмотра.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

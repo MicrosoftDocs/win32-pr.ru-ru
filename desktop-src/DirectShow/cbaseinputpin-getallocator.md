@@ -1,5 +1,5 @@
 ---
-description: Метод метода распределителе извлекает распределитель памяти, предложенный этим ПИН-кодом. Этот метод реализует метод Имеминпутпин::/распределителя.
+description: Кбасеинпутпин. метод распределителя — метод метода распределителя извлекает распределитель памяти, предложенный этим ПИН-кодом. Этот метод реализует метод Имеминпутпин::/распределителя.
 ms.assetid: 07bc77f8-a877-4403-b424-20bda715a818
 title: Метод Кбасеинпутпин. методом перераспределения (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 098738fc63ba1834b1eefb4b2518e3309db35c43
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72aaf6bb4c1ff8bf108086a8a42a618267c4bc06
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657066"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099721"
 ---
 # <a name="cbaseinputpingetallocator-method"></a>Кбасеинпутпин. метод распределения
 
@@ -53,7 +53,7 @@ HRESULT GetAllocator(
 
 Возвращает \_ ОК в случае успеха или код ошибки из функции **CoCreateInstance** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод создает объект [**кмемаллокатор**](cmemallocator.md) . Переопределите этот метод, если фильтр использует распределитель из подчиненного ПИН-кода или пользовательского распределителя.
 
@@ -70,7 +70,7 @@ HRESULT GetAllocator(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

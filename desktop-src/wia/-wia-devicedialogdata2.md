@@ -1,5 +1,5 @@
 ---
-description: Определяет данные, необходимые для вызова диалогового окна устройства.
+description: Структура DEVICEDIALOGDATA2 — определяет данные, необходимые для вызова диалогового окна устройства.
 ms.assetid: 544238de-310f-4fc3-b519-bb4e6b309272
 title: Структура DEVICEDIALOGDATA2 (Виадефд. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadefd.h
-ms.openlocfilehash: f4ab56114054b4f69a21fd9f4c05a1e119bab5da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82ca6cba81101e577eed882ad45272ab81546fed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080811"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089811"
 ---
 # <a name="devicedialogdata2-structure"></a>Структура DEVICEDIALOGDATA2
 
@@ -61,11 +61,11 @@ typedef struct {
 **пивиаитемрут**
 </dt> <dd>
 
-Тип: **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+Тип: **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
 </dd> <dd>
 
-Указывает на интерфейс [_ *IWiaItem2* *](-wia-iwiaitem2.md) , представляющий допустимый корневой элемент в дереве элементов приложения.
+Указывает на интерфейс [**IWiaItem2**](-wia-iwiaitem2.md) , представляющий допустимый корневой элемент в дереве элементов приложения.
 
 </dd> <dt>
 
@@ -139,7 +139,7 @@ typedef struct {
 **пбстрфилепасс**
 </dt> <dd>
 
-Тип: **BSTR \** _
+Тип: **BSTR \***
 
 </dd> <dd>
 
@@ -147,14 +147,14 @@ typedef struct {
 
 </dd> <dt>
 
-_ *ппвиаитем**
+**ппвиаитем**
 </dt> <dd>
 
-Тип: **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+Тип: **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
 </dd> <dd>
 
-Указатель на интерфейс [_ *IWiaItem2* *](-wia-iwiaitem2.md) элемента WIA, который передает данные в файл или файлы, имена которых находятся в массиве **пбстрфилепасс** .
+Указатель на интерфейс [**IWiaItem2**](-wia-iwiaitem2.md) элемента WIA, который передает данные в файл или файлы, имена которых находятся в массиве **пбстрфилепасс** .
 
 </dd> </dl>
 

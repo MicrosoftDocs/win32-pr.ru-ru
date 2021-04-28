@@ -1,5 +1,5 @@
 ---
-description: Вычисляет основные функции "сферический гармонией" (SH) на основе вектора направления ввода.
+description: Функция D3DXSHEvalDirection (D3DX10. h) — вычисляет основные функции сферического гармонического (SH) на основе вектора направления ввода.
 ms.assetid: c86973cc-c5b0-4358-b7eb-5c31f38b5b5a
 title: Функция D3DXSHEvalDirection (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 698873f3278b37970120b03c25918096762ead34
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c7fa1f94d65ca8096a0398d71ca2f562b643d47a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104551758"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108592"
 ---
 # <a name="d3dxshevaldirection-function-d3dx10h"></a>Функция D3DXSHEvalDirection (D3DX10. h)
 
@@ -75,7 +75,7 @@ FLOAT* D3DXSHEvalDirection(
 
 Указатель на коэффициенты вывода SH. См. заметки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый коэффициент базисной функции илм хранится в памяти l ² + m + l, где:
 
@@ -101,7 +101,7 @@ FLOAT* D3DXSHEvalDirection(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

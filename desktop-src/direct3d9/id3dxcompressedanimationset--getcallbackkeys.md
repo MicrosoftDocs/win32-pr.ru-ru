@@ -1,5 +1,5 @@
 ---
-description: Заполняет массив данными ключа обратного вызова, используемым для анимации ключевых кадров.
+description: 'Метод ID3DXCompressedAnimationSet:: Жеткаллбакккэйс — заполняет массив данными ключа обратного вызова, используемыми для анимации ключевых кадров.'
 ms.assetid: 0dc30c1f-9ffb-42ec-8074-84293f16c344
 title: 'Метод ID3DXCompressedAnimationSet:: Жеткаллбакккэйс (D3dx9anim. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: fe56a3dbdd7d019deb5d7111fa592470bffd244d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d7c430358b5ba7f66c5a79b08ae01925141e659f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674708"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115332"
 ---
 # <a name="id3dxcompressedanimationsetgetcallbackkeys-method"></a>Метод ID3DXCompressedAnimationSet:: Жеткаллбакккэйс
 
@@ -66,7 +66,7 @@ HRESULT GetCallbackKeys(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

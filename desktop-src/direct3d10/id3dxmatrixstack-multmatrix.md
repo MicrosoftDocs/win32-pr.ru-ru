@@ -1,5 +1,5 @@
 ---
-description: Определяет произведение текущей матрицы и заданную матрицу.
+description: 'Метод ID3DXMATRIXStack:: Мултматрикс (D3DX10. h) — определяет продукт текущей матрицы и заданную матрицу.'
 ms.assetid: 72388919-e474-4433-b219-41e2d312848e
 title: 'Метод ID3DXMATRIXStack:: Мултматрикс (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 43f80ca26f615e02570f0855b1ba6c2435e11b5b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 969cdebcee34add15cbf6bbcfbb1048387b2d7e8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105714021"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107972"
 ---
 # <a name="id3dxmatrixstackmultmatrix-method-d3dx10h"></a>Метод ID3DXMATRIXStack:: Мултматрикс (D3DX10. h)
 
@@ -55,7 +55,7 @@ HRESULT MultMatrix(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод дает право на умножение заданной матрицы в текущую матрицу (преобразование относится к текущему источнику мира).
 
@@ -79,7 +79,7 @@ m_pstack[m_currentPos] = m_pstack[m_currentPos] * (*pMat);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

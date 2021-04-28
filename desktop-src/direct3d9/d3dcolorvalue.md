@@ -1,5 +1,5 @@
 ---
-description: Описывает значения цвета.
+description: Структура D3DCOLORVALUE (D3D9Types. h) — описывает значения цвета.
 ms.assetid: 6af8c2ec-bc79-4dc6-b56d-7a7676a50b39
 title: Структура D3DCOLORVALUE (D3D9Types. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 1fe2f187921749207bbbf51d7fcfd75357a70858
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c9b55fbf718382e9dca7e3999cce0cabe895a261
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354410"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116062"
 ---
 # <a name="d3dcolorvalue-structure-d3d9typesh"></a>Структура D3DCOLORVALUE (D3D9Types. h)
 
@@ -86,7 +86,7 @@ typedef struct _D3DCOLORVALUE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Членам этой структуры можно присвоить значения вне диапазона от 0 до 1, чтобы реализовать необычные эффекты. Значения больше 1 создают сильные лампочки, которые обычно заменяют сцену. Отрицательные значения создают темные огни, которые фактически удаляют свет из сцены.
 
@@ -100,7 +100,7 @@ typedef struct _D3DCOLORVALUE {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

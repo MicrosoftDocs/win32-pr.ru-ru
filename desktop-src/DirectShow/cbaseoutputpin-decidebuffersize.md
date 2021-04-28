@@ -1,5 +1,5 @@
 ---
-description: Метод ДеЦидебуфферсизе задает требования к буферу.
+description: Кбасеаутпутпин. ДеЦидебуфферсизе, метод ДеЦидебуфферсизе задает требования к буферу.
 ms.assetid: 1f7a3424-18ba-4a10-b09f-947ee8585ffa
 title: Кбасеаутпутпин. ДеЦидебуфферсизе, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5dcb3328b56a7e203575a3abbaab64cda6a9b87f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a76f058e2f9c07a344453db87046704e26280a1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657889"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099532"
 ---
 # <a name="cbaseoutputpindecidebuffersize-method"></a>Кбасеаутпутпин. ДеЦидебуфферсизе, метод
 
@@ -61,7 +61,7 @@ virtual HRESULT DecideBufferSize(
 
 Возвращает \_ значение ОК в случае успешного выполнения или **HRESULT** , указывающий на причину ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переопределите этот метод в производном классе. Вызовите метод [**имемаллокатор:: SetProperties**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-setproperties) , чтобы указать требования к буферу. Как правило, производный класс будет учитывать требования к буферу входного контакта, но это не обязательно.
 
@@ -76,7 +76,7 @@ virtual HRESULT DecideBufferSize(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

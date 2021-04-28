@@ -1,5 +1,5 @@
 ---
-description: Содержит список профилей, применяемых на уровне домена или компьютера.
+description: Элемент Профилелист (Ланполици) — содержит список профилей, применяемых на уровне домена или компьютера.
 ms.assetid: 4f010449-0c6b-4a01-8253-4f82cd628f0a
 title: Профилелист (Ланполици), элемент
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: b85c284262c070f7a9349933f99ad858cf047913
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d18ebc99f48bf72599afe750863d684b8158608
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663843"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090782"
 ---
 # <a name="profilelist-lanpolicy-element"></a>Профилелист (Ланполици), элемент
 
@@ -41,7 +41,7 @@ ms.locfileid: "105663843"
 
 Элемент **профилелист** определяется элементом [**ланполици**](lan-policyschema-lanpolicy-element.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот элемент должен содержать только один сетевой профиль. Если в политике указано более одного профиля, будет применена только первая сеть.
 
@@ -56,7 +56,7 @@ ms.locfileid: "105663843"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

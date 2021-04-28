@@ -1,5 +1,5 @@
 ---
-description: Задает массив матриц нонтранспосед.
+description: 'Метод ID3DXBaseEffect:: Сетматриксаррай — задает массив матриц нонтранспосед.'
 ms.assetid: 008de62c-3a36-4499-8a0b-9075756395e9
 title: 'Метод ID3DXBaseEffect:: Сетматриксаррай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: c48dcb3288930a9170c932f335a4b20c258acbb4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ae603708be4b34c9aa12722fe282df470c85d476
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354103"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107432"
 ---
 # <a name="id3dxbaseeffectsetmatrixarray-method"></a>Метод ID3DXBaseEffect:: Сетматриксаррай
 
@@ -75,7 +75,7 @@ HRESULT SetMatrixArray(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Матрица нонтранспосед содержит основные данные строки. то есть каждый вектор содержится в строке.
 
@@ -92,7 +92,7 @@ HRESULT SetMatrixArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

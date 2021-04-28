@@ -1,5 +1,5 @@
 ---
-description: Выдает кватернион для единицы измерения длины.
+description: Функция D3DXQuaternionNormalize (D3dx9math. h) — выдает кватернион, равный единице измерения.
 ms.assetid: 31f56c2b-96b0-4110-a5b9-ce09983779b6
 title: Функция D3DXQuaternionNormalize (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d052d4dfc88feb2a00237392071f63d724070b3d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a5d4a7938b96d3d8693fd2091fcbd4f664f465c5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104547879"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094042"
 ---
 # <a name="d3dxquaternionnormalize-function-d3dx9mathh"></a>Функция D3DXQuaternionNormalize (D3dx9math. h)
 
@@ -65,7 +65,7 @@ D3DXQUATERNION* D3DXQuaternionNormalize(
 
 Указатель на структуру [**D3DXQUATERNION**](d3dxquaternion.md) , которая является нормальным для кватерниона.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXQuaternionNormalize** может использоваться в качестве параметра для другой функции.
 
@@ -80,7 +80,7 @@ D3DXQUATERNION* D3DXQuaternionNormalize(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

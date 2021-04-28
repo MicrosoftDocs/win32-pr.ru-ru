@@ -1,5 +1,5 @@
 ---
-description: Получает ширину текстуры в пикселях.
+description: 'Метод ID3DXTextureGutterHelper:: Полуширинный — получает ширину текстуры в пикселях.'
 ms.assetid: 497195fc-3cfc-457c-b195-8a5fc5ca7d06
 title: 'Метод ID3DXTextureGutterHelper:: полуширинные (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f4952a6db415aba3855ae2be0383ee0b9fc614fb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d113107867cb418b17761c5bc5c72a600df73140
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424494"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117712"
 ---
 # <a name="id3dxtexturegutterhelpergetwidth-method"></a>ID3DXTextureGutterHelper:: Полуширинный, метод
 
@@ -55,7 +55,7 @@ UINT GetWidth();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

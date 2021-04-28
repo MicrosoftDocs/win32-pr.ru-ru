@@ -1,5 +1,5 @@
 ---
-description: Отображает диалоговое окно, позволяющее пользователю выбрать аппаратное устройство для получения образа.
+description: 'Метод IWiaDevMgr2:: Селектдевицедлгид — отображает диалоговое окно, позволяющее пользователю выбрать устройство для получения образа.'
 ms.assetid: 6baca959-0f97-4a39-88d0-ed34b813c80a
 title: 'Метод IWiaDevMgr2:: Селектдевицедлгид (WIA. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: bad749eb48e72b362070ea4951d4e9eac380e737
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4279bef86d761ed0eb7d90ad3b8dee46e0f17f4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701683"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106822"
 ---
 # <a name="iwiadevmgr2selectdevicedlgid-method"></a>Метод IWiaDevMgr2:: Селектдевицедлгид
 
@@ -94,7 +94,7 @@ HRESULT SelectDeviceDlgID(
 *пбстрдевицеид* \[ out, retval\]
 </dt> <dd>
 
-Тип: **BSTR \** _
+Тип: **BSTR \***
 
 Указатель на строку, которая получает строку идентификатора устройства.
 
@@ -102,7 +102,7 @@ HRESULT SelectDeviceDlgID(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Этот метод может возвращать одно из этих значений.
 
@@ -118,7 +118,7 @@ HRESULT SelectDeviceDlgID(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод создает и отображает диалоговое окно **Выбор устройства** , чтобы пользователь мог выбрать устройство WIA 2,0 для получения образа. Если устройство успешно выбрано, метод **IWiaDevMgr2:: селектдевицедлгид** передает свою строку идентификатора приложению через его параметр *пбстрдевицеид* .
 

@@ -1,5 +1,5 @@
 ---
-description: Не поддерживается.
+description: 'Метод Иамтимелине:: Жетинсертмоде не поддерживается.'
 ms.assetid: 864c2805-be19-4e25-acaa-9fd0466d788d
 title: 'Метод Иамтимелине:: Жетинсертмоде (Кедит. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 6165d82fe192020a739e2615e66ac8d5fa7d44d7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 32f81ac0f068f7b0963193306bb0c84c3b1ba91f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675289"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098702"
 ---
 # <a name="iamtimelinegetinsertmode-method"></a>Метод Иамтимелине:: Жетинсертмоде
 
@@ -56,7 +56,7 @@ HRESULT GetInsertMode(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -79,7 +79,7 @@ HRESULT GetInsertMode(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

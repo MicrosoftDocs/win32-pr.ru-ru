@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Сетресолутион.
+description: IWICBitmapFrameEncode_SetResolution_Proxy функция-прокси для метода Сетресолутион.
 ms.assetid: dc8df5bb-c38b-4be3-a4c6-60e7d5e1cd1b
 title: Функция IWICBitmapFrameEncode_SetResolution_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 9801384e305f2449c6a31b80cb238fc92f7b63b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 632d6e797d499c4c5468505a4cee49e088ab025a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693172"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116612"
 ---
 # <a name="iwicbitmapframeencode_setresolution_proxy-function"></a>Ивикбитмапфраминкоде \_ сетресолутион \_ -функция
 
@@ -45,9 +45,9 @@ HRESULT IWICBitmapFrameEncode_SetResolution_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) \** _
+Тип: **[ **ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)\***
 
-Указатель на этот объект [_ *ивикбитмапфраминкоде* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) .
+Указатель на этот объект [**ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) .
 
 </dd> <dt>
 

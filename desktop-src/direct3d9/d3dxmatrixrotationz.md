@@ -1,5 +1,5 @@
 ---
-description: Строит матрицу, которая поворачивается вокруг оси z.
+description: Функция D3DXMatrixRotationZ (D3dx9math. h) — строит матрицу, которая поворачивается вокруг оси z.
 ms.assetid: 73db43e6-3831-4867-8eda-80127b61e169
 title: Функция D3DXMatrixRotationZ (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 61d94df676016c0e22e7c0842eebe9af05b9ff71
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0b109f71052657a5d9c32d9af5cb38b2cbcf1f0e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694248"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118112"
 ---
 # <a name="d3dxmatrixrotationz-function-d3dx9mathh"></a>Функция D3DXMatrixRotationZ (D3dx9math. h)
 
@@ -65,7 +65,7 @@ D3DXMATRIX* D3DXMatrixRotationZ(
 
 Указатель на структуру [**D3DXMATRIX**](d3dxmatrix.md) , повернутую вокруг оси z.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXMatrixRotationZ** может использоваться в качестве параметра для другой функции.
 
@@ -80,7 +80,7 @@ D3DXMATRIX* D3DXMatrixRotationZ(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

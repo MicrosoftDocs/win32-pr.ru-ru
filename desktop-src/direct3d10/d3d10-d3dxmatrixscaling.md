@@ -1,5 +1,5 @@
 ---
-description: Строит матрицу, которая масштабируется вдоль оси x, оси y и оси z.
+description: Функция D3DXMatrixScaling (D3DX10Math. h) — строит матрицу, которая масштабируется вдоль оси x, оси y и оси z.
 ms.assetid: 1804bf41-26de-4be1-ad62-7a871d7408e6
 title: Функция D3DXMatrixScaling (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: adb1becb67a561778b31c90ea3d6c96e776c9a67
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bf11b2196953775fb41412ad484a77ab00ae578e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355600"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108932"
 ---
 # <a name="d3dxmatrixscaling-function-d3dx10mathh"></a>Функция D3DXMatrixScaling (D3DX10Math. h)
 
@@ -85,7 +85,7 @@ D3DXMATRIX* D3DXMatrixScaling(
 
 Указатель на D3DXMATRIX преобразования масштабирования.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXMatrixScaling может использоваться в качестве параметра для другой функции.
 
@@ -100,7 +100,7 @@ D3DXMATRIX* D3DXMatrixScaling(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

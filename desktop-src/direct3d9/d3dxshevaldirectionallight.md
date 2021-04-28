@@ -1,5 +1,5 @@
 ---
-description: Оценивает направленный источник данных и возвращает Спектрал сферические гармонические данные (SH).
+description: Функция D3DXSHEvalDirectionalLight (D3dx9math. h) — оценивает направленный источник и возвращает Спектрал сферическую гармонию (SH) данных.
 ms.assetid: 6e2e9b02-13bb-4cef-ae9d-343fbf64e5d7
 title: Функция D3DXSHEvalDirectionalLight (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c78ee4059ed83b97e7ac1f392f857351df48ee7c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 488682eca230c8da6cc5048aded4a7a1e7f71bfd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104560332"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117912"
 ---
 # <a name="d3dxshevaldirectionallight-function-d3dx9mathh"></a>Функция D3DXSHEvalDirectionalLight (D3dx9math. h)
 
@@ -125,7 +125,7 @@ HRESULT D3DXSHEvalDirectionalLight(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Выходной вектор вычисляются так, что если коэффициент интенсивности R/G/B равен 1, то результирующий радианце точки непосредственно под освещением рассеянного объекта с албедо, равным 1, будет 1,0. Будет выполнено вычисление трех примеров Спектрал. *Праут* будет возвращен, тогда как *пгаут* и *пбаут* могут быть возвращены.
 
@@ -148,7 +148,7 @@ HRESULT D3DXSHEvalDirectionalLight(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

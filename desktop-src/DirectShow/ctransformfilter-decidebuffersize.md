@@ -1,5 +1,5 @@
 ---
-description: Метод ДеЦидебуфферсизе задает требования к буферу выходного контакта.
+description: Ктрансформфилтер. ДеЦидебуфферсизе, метод ДеЦидебуфферсизе устанавливает требования к буферу выходного контакта.
 ms.assetid: 33e41668-b4f6-4142-b22e-2ddfb96332df
 title: Ктрансформфилтер. ДеЦидебуфферсизе, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 71a506a9c9cd16a014418b24ad3fbd1186d6f48f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3276170f1256bba41aa075b0e5f06fb7becbcd2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657431"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095152"
 ---
 # <a name="ctransformfilterdecidebuffersize-method"></a>Ктрансформфилтер. ДеЦидебуфферсизе, метод
 
@@ -61,7 +61,7 @@ virtual HRESULT DecideBufferSize(
 
 Возвращает \_ значение, равное ОК или другому значению **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**ктрансформаутпутпин::D еЦидебуфферсизе**](ctransformoutputpin-decidebuffersize.md) для выходного контакта вызывает этот метод. Производный класс должен реализовывать этот метод. Дополнительные сведения см. в разделе [**кбасеаутпутпин::D еЦидебуфферсизе**](cbaseoutputpin-decidebuffersize.md).
 
@@ -76,7 +76,7 @@ virtual HRESULT DecideBufferSize(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

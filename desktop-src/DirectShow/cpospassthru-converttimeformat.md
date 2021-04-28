@@ -1,5 +1,5 @@
 ---
-description: 'Метод Конверттимеформат преобразует из одного формата времени в другой. Этот метод реализует метод Имедиасикинг:: Конверттимеформат.'
+description: 'Кпоспасссру. Конверттимеформат, метод Конверттимеформат преобразует из одного формата времени в другой. Этот метод реализует метод Имедиасикинг:: Конверттимеформат.'
 ms.assetid: e766d112-ee41-4c64-a735-b6317093518a
 title: Кпоспасссру. Конверттимеформат, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bcce3e24c46e3e59c6bad6b4fbd60b139806de73
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fc463cb6dc891e677266289971a1dac8b335a8c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675786"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098962"
 ---
 # <a name="cpospassthruconverttimeformat-method"></a>Кпоспасссру. Конверттимеформат, метод
 
@@ -88,7 +88,7 @@ HRESULT ConvertTimeFormat(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

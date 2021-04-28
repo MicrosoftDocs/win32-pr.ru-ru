@@ -1,15 +1,15 @@
 ---
 title: Обработка ошибок в COM (начало работы с Win32 и C++)
-description: .
+description: Обработка ошибок в COM (начало работы с Win32 и C++)
 ms.assetid: 022ca652-59d2-4513-9d73-1c6d8688c478
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505f8cfe6867db07da77616e6a94fdc257e32f3e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b69cf89170087469fa6ef8587fb5377e6374f6a8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105681716"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103922"
 ---
 # <a name="error-handling-in-com-get-started-with-win32-and-c"></a>Обработка ошибок в COM (начало работы с Win32 и C++)
 
@@ -19,7 +19,7 @@ COM использует значения **HRESULT** для указания н
 
 | Константа            | Числовое значение | Описание                                          |
 |---------------------|---------------|------------------------------------------------------|
-| **E \_ ACCESSDENIED** | 0x80070005    | Доступ запрещен.                                       |
+| **E \_ ACCESSDENIED** | 0x80070005    | Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)                                       |
 | **\_Ошибка E**         | 0x80004005    | Незаданная ошибка.                                   |
 | **E \_ INVALIDARG**   | 0x80070057    | Недопустимое значение параметра.                             |
 | **E \_ OUTOFMEMORY**  | 0x8007000E    | Недостаточно памяти.                                       |

@@ -1,5 +1,5 @@
 ---
-description: Этот API недоступен для всех приложений. Если приложение не будет специально подготовлено корпорацией Майкрософт, вызовы этих API будут завершаться ошибкой во время выполнения.
+description: 'Метод Ифидбаккхубаппинфо:: Жетаумидфромапплистентри — этот API недоступен для всех приложений. Если приложение не будет специально подготовлено корпорацией Майкрософт, вызовы этих API будут завершаться ошибкой во время выполнения.'
 ms.assetid: F205911F-7AA3-464F-A408-3BF549E1112A
 title: 'Метод Ифидбаккхубаппинфо:: Жетаумидфромапплистентри'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6e58fcacde643ad7e87ea3d418f21cf4faf57b16
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 2da6b428db156ddf18483951701216942aebbeaf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104351935"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089302"
 ---
 # <a name="ifeedbackhubappinfogetaumidfromapplistentry-method"></a>Метод Ифидбаккхубаппинфо:: Жетаумидфромапплистентри
 
@@ -68,7 +68,7 @@ virtual void GetAumidFromAppListEntry(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кбасеобжект. Кбасеобжект.
 ms.assetid: 20c3c4af-b22f-4b74-a6b6-5ee309de4eef
 title: Конструктор Кбасеобжект. Кбасеобжект (Комбасе. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4b13fe906af1900dbf067e8aa9273d811b3c1ef3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 14fa2d3d38d42fa0feb387b477205cc51e0b6b87
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665152"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099622"
 ---
 # <a name="cbaseobjectcbaseobject-constructor"></a>Кбасеобжект. Кбасеобжект, конструктор
 
@@ -49,7 +49,7 @@ CBaseObject(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод увеличивает число активных объектов. (См. [**кбасеобжект:: обжектсактиве**](cbaseobject-objectsactive.md).)
 
@@ -80,7 +80,7 @@ CBaseObject *pObject = new CObject(ObjectName);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

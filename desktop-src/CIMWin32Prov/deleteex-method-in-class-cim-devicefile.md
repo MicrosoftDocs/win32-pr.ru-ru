@@ -1,5 +1,5 @@
 ---
-description: Метод Делетикс удаляет логический файл (или каталог), указанный в пути объекта. Этот метод является расширенной версией метода Delete и наследуется от CIM \_ LogicalFile.
+description: Метод Делетикс класса CIM_DeviceFile — метод Делетикс удаляет логический файл (или каталог), указанный в пути к объекту. Этот метод является расширенной версией метода Delete и наследуется от CIM \_ LogicalFile.
 ms.assetid: ef4d08cd-7287-47be-bcfc-edc248ac5c9b
 ms.tgt_platform: multiple
 title: Метод Делетикс класса CIM_DeviceFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c4e68e7118088b9da1f1a1e2990c0a253ac85714
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e21fb57558d7704bf98740de8634bc91289e0038
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807265"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089601"
 ---
 # <a name="deleteex-method-of-the-cim_devicefile-class"></a>Метод Делетикс \_ класса CIM девицефиле
 
@@ -82,7 +82,7 @@ uint32 DeleteEx(
 
 2
 
-Доступ запрещен.
+Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
 
 </dd> <dt>
 
@@ -185,7 +185,7 @@ uint32 DeleteEx(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -205,7 +205,7 @@ uint32 DeleteEx(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

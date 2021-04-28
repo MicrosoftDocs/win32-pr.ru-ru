@@ -1,5 +1,5 @@
 ---
-description: Строит матрицу, которая поворачивается вокруг произвольной оси.
+description: Функция D3DXMatrixRotationAxis (D3dx9math. h) — строит матрицу, которая поворачивается вокруг произвольной оси.
 ms.assetid: 368c8f64-7709-4200-94d3-3dbc92a960c1
 title: Функция D3DXMatrixRotationAxis (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: fffc4a5bdd287c79352beb3ee0eeaf97b0573753
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 720ac4d3bdae2910cee7913b9c34316d72526688
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703641"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118192"
 ---
 # <a name="d3dxmatrixrotationaxis-function-d3dx9mathh"></a>Функция D3DXMatrixRotationAxis (D3dx9math. h)
 
@@ -75,7 +75,7 @@ D3DXMATRIX* D3DXMatrixRotationAxis(
 
 Указатель на структуру [**D3DXMATRIX**](d3dxmatrix.md) , повернутую вокруг указанной оси.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXMatrixRotationAxis** может использоваться в качестве параметра для другой функции.
 
@@ -90,7 +90,7 @@ D3DXMATRIX* D3DXMatrixRotationAxis(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

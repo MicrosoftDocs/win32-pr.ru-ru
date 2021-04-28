@@ -1,5 +1,5 @@
 ---
-description: Метод деструктора.
+description: Метод деструктора Ктрансформфилтер. ~ Ктрансформфилтер.
 ms.assetid: 17f4dacb-a262-44de-9bef-55da87e07a63
 title: Деструктор Ктрансформфилтер. ~ Ктрансформфилтер (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 529d80ab4453ee2e6b2b09485966e58c4551fc7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0ae8142dd6fccc0acd6d69b524a232bddaf701b6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657610"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085182"
 ---
 # <a name="ctransformfilterctransformfilter-destructor"></a>Деструктор Ктрансформфилтер. ~ Ктрансформфилтер
 
@@ -47,7 +47,7 @@ ms.locfileid: "105657610"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

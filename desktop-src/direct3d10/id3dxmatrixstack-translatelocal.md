@@ -1,5 +1,5 @@
 ---
-description: Определяет продукт вычисленной матрицы перевода, определяемый заданными факторами (x, y и z) и текущей матрицей.
+description: 'Метод ID3DXMATRIXStack:: Транслателокал (D3DX10. h) — определяет продукт вычисленной матрицы перевода, определяемый заданными факторами (x, y и z) и текущей матрицей.'
 ms.assetid: 96399801-dd80-4e9a-a5c3-c5d41eb9368a
 title: 'Метод ID3DXMATRIXStack:: Транслателокал (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 65a627141f552107d88c3f43988daa0d316a0bef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 80fabea58bd30b0db9b3ff41b522614007fe4b7d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674757"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107752"
 ---
 # <a name="id3dxmatrixstacktranslatelocal-method-d3dx10h"></a>Метод ID3DXMATRIXStack:: Транслателокал (D3DX10. h)
 
@@ -75,7 +75,7 @@ HRESULT TranslateLocal(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод Left — Умножает текущую матрицу на вычисленную матрицу перевода (преобразование относится к локальному источнику объекта).
 
@@ -99,7 +99,7 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

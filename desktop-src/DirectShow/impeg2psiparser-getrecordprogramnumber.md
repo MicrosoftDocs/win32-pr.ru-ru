@@ -1,5 +1,5 @@
 ---
-description: Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.
+description: 'Метод IMpeg2PsiParser:: Жетрекордпрограмнумбер. Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.'
 ms.assetid: 3800a0b1-a581-40ed-81ab-3d5f77f442df
 title: 'Метод IMpeg2PsiParser:: Жетрекордпрограмнумбер'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2bedc5922ce90fa2fda612f30571f884e75841d6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0fd99178edaa23f2cdf32672a746f79c368b4265
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105672974"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089142"
 ---
 # <a name="impeg2psiparsergetrecordprogramnumber-method"></a>Метод IMpeg2PsiParser:: Жетрекордпрограмнумбер
 
@@ -69,7 +69,7 @@ HRESULT GetRecordProgramNumber(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

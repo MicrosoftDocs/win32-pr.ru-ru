@@ -1,5 +1,5 @@
 ---
-description: Преобразует массив (x, y, 0, 0) в заданную матрицу.
+description: Функция D3DXVec2TransformNormalArray (D3DX10Math. h) — преобразует массив (x, y, 0, 0) по заданной матрице.
 ms.assetid: a53f998a-f2a5-4e4b-bc1c-c1f46284d78b
 title: Функция D3DXVec2TransformNormalArray (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 4850961560ae810b9a21f58fbefa9b6b07227c77
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b4e18fc2bb8c62bb86947b9eab35daae9d0242ba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694244"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108282"
 ---
 # <a name="d3dxvec2transformnormalarray-function-d3dx10mathh"></a>Функция D3DXVec2TransformNormalArray (D3DX10Math. h)
 
@@ -105,7 +105,7 @@ D3DXVECTOR2* D3DXVec2TransformNormalArray(
 
 Указатель на структуру D3DXVECTOR2, которая является преобразованным массивом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция преобразует вектор (pV->x, pV->y, 0, 0) на матрицу, на которую указывает pM.
 
@@ -124,7 +124,7 @@ D3DXVECTOR2* D3DXVec2TransformNormalArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

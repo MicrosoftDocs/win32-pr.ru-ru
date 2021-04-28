@@ -1,5 +1,5 @@
 ---
-description: Метод Чеккмедиатипе определяет, принимает ли ПИН-код конкретный тип носителя.
+description: Ктрансинплацеинпутпин. Чеккмедиатипе, метод Чеккмедиатипе определяет, принимает ли ПИН-код конкретный тип носителя.
 ms.assetid: 2d5f784a-8970-487d-94ef-d96d04f8eb2e
 title: Ктрансинплацеинпутпин. Чеккмедиатипе, метод (Трансип. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 22f271759bc0ade6b820aed2039bbc16a2cf4a31
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5de3cec87d740db42824b0d7abf1ee4bfc6aeecb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657087"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094802"
 ---
 # <a name="ctransinplaceinputpincheckmediatype-method"></a>Ктрансинплацеинпутпин. Чеккмедиатипе, метод
 
@@ -53,7 +53,7 @@ HRESULT CheckMediaType(
 
 \_Если предложенный тип мультимедиа приемлем, возвращается значение S. В противном случае возвращает \_ значение S false или код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**ктрансформинпутпин:: чеккмедиатипе**](ctransforminputpin-checkmediatype.md) . Он вызывает метод [**ктрансформфилтер:: чеккинпуттипе**](ctransformfilter-checkinputtype.md) фильтра для проверки входного типа. Если выходной ПИН-код подключен, этот метод также вызывает метод [**Ипин:: куерякцепт**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryaccept) для входного ПИН-кода нисходящего входа.
 
@@ -68,7 +68,7 @@ HRESULT CheckMediaType(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

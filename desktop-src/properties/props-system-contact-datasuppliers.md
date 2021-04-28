@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Contact. поставщики
 ms.assetid: 2b231ea2-d3c9-47ac-be51-4de3c736b369
 title: System. Contact. поставщики
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9abb30fcb90a6ebe303e0cc641455675d73c03f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad265648cdc2ae6ad1161a30cdb6c1c88393eeab
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265340"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102462"
 ---
 # <a name="systemcontactdatasuppliers"></a>System. Contact. поставщики
 
@@ -28,11 +28,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
