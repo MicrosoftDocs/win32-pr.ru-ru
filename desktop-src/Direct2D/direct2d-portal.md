@@ -1,19 +1,19 @@
 ---
 title: Direct2D
-description: .
+description: Direct2D
 ms.assetid: 03b3b91c-9751-4f8d-af24-85067f06930b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2eae62ba2d6ff44920d6b6d4890a8c48bc3c0f8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8223ec5e98db3e45b0087073b4eb68baeae81280
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070289"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089182"
 ---
 # <a name="direct2d"></a>Direct2D
 
-## <a name="purpose"></a>Назначение
+## <a name="purpose"></a>Цель
 
 Direct2D — это API для работы с двумерной графикой в непосредственном режиме с аппаратным ускорением, обеспечивающий высокую производительность и высококачественную отрисовку двумерной геометрии, растровых изображений и текста. API Direct2D разработан для взаимодействия с GDI, GDI+ и Direct3D.
 

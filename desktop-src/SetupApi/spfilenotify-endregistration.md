@@ -1,15 +1,15 @@
 ---
-description: При использовании директивы Регистердллс INF для самостоятельной регистрации библиотек DLL вызывающие объекты Сетупинсталлфроминфсектион могут получать уведомления о каждом файле при регистрации или отмене регистрации.
+description: SPFILENOTIFY_ENDREGISTRATION сообщение. при использовании директивы INF Регистердллс для самостоятельной регистрации библиотек DLL вызывающие объекты Сетупинсталлфроминфсектион могут получать уведомления о каждом файле при регистрации или отмене регистрации.
 ms.assetid: 6304f406-c9f8-41cc-a7b7-5ef606f62efb
 title: Сообщение SPFILENOTIFY_ENDREGISTRATION (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c8992d318d605110d74521efdb8a9c911aeeb9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dec341c26f9f88390ff1b807e6e932b3b381cd57
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664527"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094512"
 ---
 # <a name="spfilenotify_endregistration-message"></a>\_Сообщение спфиленотифи ендрегистратион
 

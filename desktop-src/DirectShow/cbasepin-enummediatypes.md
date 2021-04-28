@@ -1,5 +1,5 @@
 ---
-description: 'Метод Енуммедиатипес перечисляет предпочтительные типы мультимедиа для ПИН-кода. Этот метод реализует метод Ипин:: Енуммедиатипес.'
+description: 'Кбасепин. Енуммедиатипес, метод Енуммедиатипес перечисляет предпочтительные типы мультимедиа для ПИН-кода. Этот метод реализует метод Ипин:: Енуммедиатипес.'
 ms.assetid: 0360f9fc-6876-4a54-8de1-bf289e0e10ae
 title: Кбасепин. Енуммедиатипес, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 54aaddbbcde26791b6c55665bfbbb7ff62048238
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c68fe1ab83724149dcd2fb58a60e9c6950d887ca
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657422"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099392"
 ---
 # <a name="cbasepinenummediatypes-method"></a>Кбасепин. Енуммедиатипес, метод
 
@@ -65,7 +65,7 @@ HRESULT EnumMediaTypes(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Входные сигналы не требуются для перечисления каких-либо предпочтительных типов. Выходные контакты должны перечислить по крайней мере один предпочтительный тип. В противном случае у обоих ПИН-кодов может не быть предпочтительного типа, что делает соединение невозможным.
 
@@ -84,7 +84,7 @@ HRESULT EnumMediaTypes(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

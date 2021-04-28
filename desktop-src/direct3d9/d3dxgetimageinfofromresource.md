@@ -1,5 +1,5 @@
 ---
-description: Извлекает сведения об определенном изображении в ресурсе.
+description: Функция D3DXGetImageInfoFromResource — получение сведений об определенном изображении в ресурсе.
 ms.assetid: 1f811b1e-f0bd-4f64-a4c9-caf899470940
 title: Функция D3DXGetImageInfoFromResource (D3dx9tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6875719123fe0b4dca4405570703b2587492975b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ea324ef94ab765bad25f7d07eef07972ab94cff6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103821077"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114452"
 ---
 # <a name="d3dxgetimageinfofromresource-function"></a>Функция D3DXGetImageInfoFromResource
 
@@ -75,7 +75,7 @@ HRESULT D3DXGetImageInfoFromResource(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: D3DERR \_ инвалидкалл
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXGetImageInfoFromResourceW. В противном случае вызов функции разрешается в D3DXGetImageInfoFromResourceA, так как используются строки ANSI.
 
@@ -90,7 +90,7 @@ HRESULT D3DXGetImageInfoFromResource(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

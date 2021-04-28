@@ -1,5 +1,5 @@
 ---
-description: Метод Чеккмедиатипе определяет, принимает ли ПИН-код конкретный тип носителя.
+description: Ктрансформинпутпин. Чеккмедиатипе, метод Чеккмедиатипе определяет, принимает ли ПИН-код конкретный тип носителя.
 ms.assetid: e09a4a3e-ac39-4d0e-9e8c-3e8f18057d0d
 title: Ктрансформинпутпин. Чеккмедиатипе, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6841370795a3131cdbcc95a3bab160be2011c600
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c775618c9fe30de6171919d5b8bc8a80ea81d3a5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675656"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085002"
 ---
 # <a name="ctransforminputpincheckmediatype-method"></a>Ктрансформинпутпин. Чеккмедиатипе, метод
 
@@ -53,7 +53,7 @@ HRESULT CheckMediaType(
 
 Возвращает \_ значение, равное ОК или другому значению **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод реализует чистый виртуальный метод [**кбасепин:: чеккмедиатипе**](cbasepin-checkmediatype.md) . Он вызывает метод [**ктрансформфилтер:: чеккинпуттипе**](ctransformfilter-checkinputtype.md) фильтра, который также является чистым виртуальным. Производный класс фильтра должен реализовать **чеккинпуттипе** , чтобы определить, допустим ли данный входной тип.
 

@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Конструктор Ккуеуе. Ккуеуе (Вксутил. h) — метод-конструктор.
 ms.assetid: 4dcbb088-638b-49a6-afaf-a973e13bd5fb
 title: Конструктор Ккуеуе. Ккуеуе (Вксутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f013a1e009c533b8307b07fe6faf32ce70994948
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f2fe1d44f4d8d6867ddb6fa4763d794aa0a32c55
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675352"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098952"
 ---
 # <a name="cqueuecqueue-constructor-wxutilh"></a>Конструктор Ккуеуе. Ккуеуе (Вксутил. h)
 
@@ -60,7 +60,7 @@ CQueue(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

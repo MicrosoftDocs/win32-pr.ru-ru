@@ -1,5 +1,5 @@
 ---
-description: Проецирует массив (x, y, z, 0) из пространства объекта в пространство экрана.
+description: Функция D3DXVec3ProjectArray (D3DX10Math. h) — проецирует массив (x, y, z, 0) из пространства объекта в пространство экрана.
 ms.assetid: 33f0f65a-c027-4a31-83a7-f5f6b2a2f72f
 title: Функция D3DXVec3ProjectArray (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: bdbda9201d23a6c525dc054c53874c71d548e65e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1f69eb14cf2cf5fd77092ed6881e16524d8428c5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355383"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108152"
 ---
 # <a name="d3dxvec3projectarray-function-d3dx10mathh"></a>Функция D3DXVec3ProjectArray (D3DX10Math. h)
 
@@ -134,7 +134,7 @@ D3DXVECTOR3* D3DXVec3ProjectArray(
 
 Указатель на структуру D3DXVECTOR3, которая представляет собой массив, проецируемый из объектного пространства в пространство экрана.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXVec3ProjectArray может использоваться в качестве параметра для другой функции.
 
@@ -148,7 +148,7 @@ D3DXVECTOR3* D3DXVec3ProjectArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

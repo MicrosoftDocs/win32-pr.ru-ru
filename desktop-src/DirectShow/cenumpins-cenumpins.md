@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Ценумпинс. Ценумпинс.
 ms.assetid: f696e433-b051-4de0-80e5-f9cd31fd0f23
 title: Конструктор Ценумпинс. Ценумпинс (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 536782de6992acfc1613d5866f13af658fba6e71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: caa27dfe0190df15be1e41b7128c06249f1ae2b8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668825"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099232"
 ---
 # <a name="cenumpinscenumpins-constructor"></a>Ценумпинс. Ценумпинс, конструктор
 
@@ -57,7 +57,7 @@ CEnumPins(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если *пенумпинс* имеет **значение NULL**, этот метод инициализирует перечислитель до начала последовательности перечисления. В противном случае он дублирует внутреннее состояние перечислителя, заданного параметром *пенумпинс*.
 
@@ -72,7 +72,7 @@ CEnumPins(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

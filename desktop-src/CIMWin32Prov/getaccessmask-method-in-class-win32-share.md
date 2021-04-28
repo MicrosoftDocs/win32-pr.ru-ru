@@ -1,5 +1,5 @@
 ---
-description: Возвращает битовую карту UInt32 с правами доступа к общему ресурсу, удерживаемому пользователем или группой, от имени которой возвращается экземпляр.
+description: Метод Жетакцессмаск класса Win32_Share — возвращает битовую карту UInt32 с правами доступа к общему ресурсу, удерживаемому пользователем или группой, от имени которой возвращается экземпляр.
 ms.assetid: 234f44a4-ffff-431d-a973-98f2bd313c7d
 ms.tgt_platform: multiple
 title: Метод Жетакцессмаск класса Win32_Share
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 745ce6d607adf84827c14a588640572b5d92be00
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fcd6396f6421060a67108e7c428c99bcd7ca9651
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990499"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097022"
 ---
 # <a name="getaccessmask-method-of-the-win32_share-class"></a>Метод Жетакцессмаск \_ класса общего ресурса Win32
 
@@ -172,7 +172,7 @@ uint32 GetAccessMask();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **жетакцессмаск** является методом объекта и используется для вхождения этого класса.
 
@@ -216,7 +216,7 @@ WScript.Echo Return
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

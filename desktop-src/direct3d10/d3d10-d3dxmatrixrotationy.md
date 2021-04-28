@@ -1,5 +1,5 @@
 ---
-description: Строит матрицу, которая поворачивается вокруг оси y.
+description: Функция D3DXMatrixRotationY (D3DX10Math. h) — строит матрицу, которая поворачивается вокруг оси y.
 ms.assetid: b58def9b-29dc-4c7d-89a3-188ef9b9f94f
 title: Функция D3DXMatrixRotationY (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1ae6c0be4e9e53b62a0504997bfd4687fa3fcab5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 570179fadc9008c5f919acf657541e53ab399ac8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104548071"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108972"
 ---
 # <a name="d3dxmatrixrotationy-function-d3dx10mathh"></a>Функция D3DXMatrixRotationY (D3DX10Math. h)
 
@@ -65,7 +65,7 @@ D3DXMATRIX* D3DXMatrixRotationY(
 
 Указатель на структуру D3DXMATRIX, повернутую вокруг оси y.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXMatrixRotationY может использоваться в качестве параметра для другой функции.
 
@@ -80,7 +80,7 @@ D3DXMATRIX* D3DXMatrixRotationY(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

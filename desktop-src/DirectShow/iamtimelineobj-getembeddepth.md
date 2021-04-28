@@ -1,5 +1,5 @@
 ---
-description: Не поддерживается.
+description: 'Метод Иамтимелинеобж:: Жетембеддепс не поддерживается.'
 ms.assetid: 1b9d0c78-ced9-496b-89c3-fc205b37d894
 title: 'Метод Иамтимелинеобж:: Жетембеддепс (Кедит. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: de7414efd1ce9c8cde2ce3c91cb4e4906ba6af6e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5a618f2868dead889142eabbc6869b6e73c9268
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689186"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098582"
 ---
 # <a name="iamtimelineobjgetembeddepth-method"></a>Метод Иамтимелинеобж:: Жетембеддепс
 
@@ -56,7 +56,7 @@ HRESULT GetEmbedDepth(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -79,7 +79,7 @@ HRESULT GetEmbedDepth(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

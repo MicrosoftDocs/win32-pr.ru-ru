@@ -1,5 +1,5 @@
 ---
-description: Вычисление пересечения луча и треугольника.
+description: Функция D3DXIntersectTri (D3DX9Mesh. h) — вычисление пересечения луча и треугольника.
 ms.assetid: f335a71d-7203-4ea1-a6bf-407b28c712e6
 title: Функция D3DXIntersectTri (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 41c7012cea0a533dc447db0575def6b418d0e59e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 33d45beda51a7a2c80debafbab864c2accb33653
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105664975"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098272"
 ---
 # <a name="d3dxintersecttri-function-d3dx9meshh"></a>Функция D3DXIntersectTri (D3DX9Mesh. h)
 
@@ -125,7 +125,7 @@ BOOL D3DXIntersectTri(
 
 Возвращает **значение true** , если луч пересекает область треугольника. В противном случае возвращает **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**D3DXIntersect**](d3dxintersect.md) предоставляет способ для понимания точек в треугольнике и вокруг него независимо от того, где фактически находится треугольник. Эта функция возвращает результирующую точку, используя следующее уравнение: v1 + U (V2-v1) + V (v3-v1).
 
@@ -146,7 +146,7 @@ BOOL D3DXIntersectTri(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

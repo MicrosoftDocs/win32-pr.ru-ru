@@ -1,5 +1,5 @@
 ---
-description: Создает текстуру тома из файла.
+description: Функция D3DXCreateVolumeTextureFromFileEx — создает текстуру тома из файла.
 ms.assetid: fa11706a-83cc-4795-957d-6d0e1faf2a8f
 title: Функция D3DXCreateVolumeTextureFromFileEx (D3dx9tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4d63377394dc123defac565cd11a0d40324a28a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 11be9da24be7fc9a03bab8e761e55a601715bd75
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354900"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102752"
 ---
 # <a name="d3dxcreatevolumetexturefromfileex-function"></a>Функция D3DXCreateVolumeTextureFromFileEx
 
@@ -195,7 +195,7 @@ HRESULT D3DXCreateVolumeTextureFromFileEx(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ NOTAVAILABLE, D3DERR \_ АУТОФВИДЕОМЕМОРИ, D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXCreateVolumeTextureFromFileExW. В противном случае вызов функции разрешается в D3DXCreateVolumeTextureFromFileExA, так как используются строки ANSI.
 
@@ -216,7 +216,7 @@ HRESULT D3DXCreateVolumeTextureFromFileEx(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

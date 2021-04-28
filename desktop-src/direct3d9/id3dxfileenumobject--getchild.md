@@ -1,5 +1,5 @@
 ---
-description: Извлекает дочерний объект в этом объекте данных файла.
+description: 'Метод ID3DXFileEnumObject:: Child — получает дочерний объект в этом объекте данных файла.'
 ms.assetid: d8f367dd-8858-48ae-9de5-17de1538aadf
 title: Метод ID3DXFileEnumObject::-Child (D3DX9Xof. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b5b8d535a9060e80318d4043af6362810023b9d0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b26cf058b31d1016c68cccf3dde6ade9f84cde1d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703876"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090362"
 ---
 # <a name="id3dxfileenumobjectgetchild-method"></a>Метод ID3DXFileEnumObject:: Child
 
@@ -76,7 +76,7 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)**
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

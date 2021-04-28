@@ -1,15 +1,15 @@
 ---
 title: Высокое разрешение
-description: .
+description: Высокое разрешение
 ms.assetid: 476fe65c-2acd-4a7a-8a76-72d9f010b772
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adad7c986c7083ab2327f0c8de0bd2cace5ef20a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cc7c70e44c497f116348e7b42b260f056d593524
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070408"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114702"
 ---
 # <a name="high-dpi"></a>Высокое разрешение
 
@@ -27,6 +27,6 @@ Windows 7 поддерживает дисплеи высокого *dpi* . На 
 
 Дополнительные сведения о *высоком уровне dpi* и о создании приложений с поддержкой *высокого DPI* см. в разделе [высокое разрешение dpi](../hidpi/high-dpi-desktop-application-development-on-windows.md).
 
- 
+ 
 
- 
+ 

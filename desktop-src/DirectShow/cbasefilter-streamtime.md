@@ -1,5 +1,5 @@
 ---
-description: Метод Стреамтиме извлекает текущее время потока.
+description: Кбасефилтер. Стреамтиме, метод Стреамтиме извлекает текущее время потока.
 ms.assetid: 88a2939d-fb51-49fd-af71-21c99511de43
 title: Кбасефилтер. Стреамтиме, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f4370758eb4ab15a9e53a5157550ee2129783c7f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3334ac273a733c3f0591b76af7e76460997a199
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657821"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120072"
 ---
 # <a name="cbasefilterstreamtime-method"></a>Кбасефилтер. Стреамтиме, метод
 
@@ -64,7 +64,7 @@ virtual HRESULT StreamTime(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Время потока определяется как текущее время ссылки (в соответствии с заданным временем) минус время начала (заданное параметром [**кбасефилтер:: m \_ тстарт**](cbasefilter-m-tstart.md)). *Метка времени* в образце носителя указывает время потока, когда он должен быть визуализирован. Если образец с отметкой времени, меньшим, чем текущее время потока, еще не был визуализирован, то это поздно.
 
@@ -81,7 +81,7 @@ virtual HRESULT StreamTime(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Предоставляет стандартные методы перечисления COM для интерфейса Ипсторе.
+description: Интерфейс Иенумпсторетипес — предоставляет стандартные методы перечисления COM для интерфейса Ипсторе.
 ms.assetid: a90bc5cf-ca42-4007-a57b-be9c59d9552a
 title: Интерфейс Иенумпсторетипес (PStore. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 748f6e21701fdd27c2a88d1959b0b29cf56929f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7ca2e250864889a5fda465e146287bf59a2b6346
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649028"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089362"
 ---
 # <a name="ienumpstoretypes-interface"></a>Интерфейс Иенумпсторетипес
 
@@ -40,16 +40,16 @@ ms.locfileid: "105649028"
 
 | Метод                                  | Описание                                                                                        |
 |:----------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**Клонировать**](ienumpstoretypes-clone.md) | Создает другой перечислитель с тем же состоянием перечисления, что и текущий.<br/> |
+| [**Clone (Клонировать)**](ienumpstoretypes-clone.md) | Создает другой перечислитель с тем же состоянием перечисления, что и текущий.<br/> |
 | [**Далее**](ienumpstoretypes-next.md)   | Возвращает следующий указанный тип поставщика в последовательности перечисления.<br/>                      |
-| [**Перезапуск**](ienumpstoretypes-reset.md) | Выполняет сброс до начала последовательности перечисления.<br/>                                    |
+| [**Reset**](ienumpstoretypes-reset.md) | Выполняет сброс до начала последовательности перечисления.<br/>                                    |
 | [**Пропустить**](ienumpstoretypes-skip.md)   | Пропускает указанный тип поставщика в последовательности перечисления.<br/>                          |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект перечислителя должен быть освобожден, если он больше не используется.
 

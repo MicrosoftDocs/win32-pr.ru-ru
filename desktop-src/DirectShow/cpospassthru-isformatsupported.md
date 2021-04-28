@@ -1,5 +1,5 @@
 ---
-description: 'Метод Исформатсуппортед определяет, поддерживается ли указанный формат времени. Этот метод реализует метод Имедиасикинг:: Исформатсуппортед.'
+description: 'Кпоспасссру. Исформатсуппортед, метод Исформатсуппортед определяет, поддерживается ли указанный формат времени. Этот метод реализует метод Имедиасикинг:: Исформатсуппортед.'
 ms.assetid: dd8751d6-8439-4155-bdaf-b152a7c6cad4
 title: Кпоспасссру. Исформатсуппортед, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 85bdbef2315bd2c9e2bc92f639a7d328f1f17ce0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6bd4b90bbe86e7ba05aa48fb7888c946babd8ed9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679965"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095252"
 ---
 # <a name="cpospassthruisformatsupported-method"></a>Кпоспасссру. Исформатсуппортед, метод
 
@@ -64,7 +64,7 @@ HRESULT IsFormatSupported(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

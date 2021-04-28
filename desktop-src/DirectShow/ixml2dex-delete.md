@@ -1,5 +1,5 @@
 ---
-description: Не реализован.
+description: IXml2Dex::D удалить метод — не реализовано.
 ms.assetid: 65ab8253-9fbf-4a1b-bcb7-a1dc916bb47f
 title: IXml2Dex::D удалить метод
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e0de5a4e83493b542d6018369931a1c9f825f841
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c86a56de95a338df5e4ac6f1d2da8e6d842c1eca
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139731"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088952"
 ---
 # <a name="ixml2dexdelete-method"></a>IXml2Dex::D удалить метод
 
@@ -70,7 +70,7 @@ HRESULT Delete(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -82,7 +82,7 @@ HRESULT Delete(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

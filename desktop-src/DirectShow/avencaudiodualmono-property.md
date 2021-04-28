@@ -1,15 +1,15 @@
 ---
-description: Указывает, кодируется ли двухканальный аудио-канал как стерео или два Mono.
+description: Свойство Авенкаудиодуалмоно — указывает, кодируется ли двухканальный аудио-канал как стерео или два Mono.
 ms.assetid: 37f25590-69c2-43bd-a5d4-2262457cb39d
 title: Свойство Авенкаудиодуалмоно (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0a5b684638133a1449fc849348cdfd8627533fe
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b58cbd901079d8f4dede1efae140791ae99c7fed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105662053"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096582"
 ---
 # <a name="avencaudiodualmono-property"></a>Авенкаудиодуалмоно, свойство
 
@@ -29,7 +29,7 @@ ms.locfileid: "105662053"
 
 Значение этого свойства является членом перечисления [**еавенкаудиодуалмоно**](/windows/win32/api/codecapi/ne-codecapi-eavencaudiodualmono) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство не применяется к кодировщикам аудио в формате MPEG. Для звука MPEG используйте свойство [**авенкмпакодингмоде**](avencmpacodingmode-property.md) .
 
@@ -45,7 +45,7 @@ ms.locfileid: "105662053"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

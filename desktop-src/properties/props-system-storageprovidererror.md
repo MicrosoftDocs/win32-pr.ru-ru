@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Сторажепровидереррор
 ms.assetid: a764a13a-cd7e-488c-b353-ff0f3c4b64b1
 title: System. Сторажепровидереррор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f74f7ad4e199198f48f9aa736c8b5c8dc1ea6d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6ca792367907171f05179e8237373a99a002676
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712313"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089952"
 ---
 # <a name="systemstorageprovidererror"></a>System. Сторажепровидереррор
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

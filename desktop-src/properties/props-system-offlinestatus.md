@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Оффлинестатус
 ms.assetid: 0badb5dd-6342-4110-b7a9-0b291dfe8578
 title: System. Оффлинестатус
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78cb96a100b863bf01faa17552f4770bcd770d5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11789e1bdf11787c363bcfb4e714494d2ab6647d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909243"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097312"
 ---
 # <a name="systemofflinestatus"></a>System. Оффлинестатус
 
@@ -165,11 +165,11 @@ propertyDescription
             defineName = OFFLINESTATUS_OFFLINE_SUSPENDED
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

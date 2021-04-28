@@ -1,5 +1,5 @@
 ---
-description: Метод Сетмедиатипе задает тип носителя для соединения.
+description: Ктрансформинпутпин. Сетмедиатипе, метод Сетмедиатипе задает тип носителя для соединения.
 ms.assetid: 8e83380f-ba38-4fb8-ac32-40d68a4efea6
 title: Ктрансформинпутпин. Сетмедиатипе, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b42531a003fbad1a2a08864390a512296c440e64
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9af7310dbbf8830d7469c1a72ae43b946f1fbc69
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679989"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095002"
 ---
 # <a name="ctransforminputpinsetmediatype-method"></a>Ктрансформинпутпин. Сетмедиатипе, метод
 
@@ -53,7 +53,7 @@ HRESULT SetMediaType(
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасепин:: сетмедиатипе**](cbasepin-setmediatype.md) . Он вызывает метод [**ктрансформфилтер:: сетмедиатипе**](ctransformfilter-setmediatype.md) фильтра для информирования фильтра.
 

@@ -1,5 +1,5 @@
 ---
-description: Возвращает определитель матрицы.
+description: Функция D3DXMatrixDeterminant (D3dx9math. h) — Возвращает определитель матрицы.
 ms.assetid: 711ba616-4c90-41d1-b9d5-0893b3e47284
 title: Функция D3DXMatrixDeterminant (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 53d90d70e75ba4bb92dbed3abe7ee06eae1ae6e4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8d54651e11f1b3de02803d9ea123ca7eff24d7a5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354210"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098172"
 ---
 # <a name="d3dxmatrixdeterminant-function-d3dx9mathh"></a>Функция D3DXMatrixDeterminant (D3dx9math. h)
 
@@ -66,7 +66,7 @@ FLOAT D3DXMatrixDeterminant(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Software. ProductName
 ms.assetid: 6a2647c6-5996-4e83-b7b3-f727b9445dbc
 title: System. Software. ProductName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e51de05533281549a4eb19d9f59d106b9d03fb7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 350c6a2baedbd94f57bb4461ada0360db929b609
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104545930"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089992"
 ---
 # <a name="systemsoftwareproductname"></a>System. Software. ProductName
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

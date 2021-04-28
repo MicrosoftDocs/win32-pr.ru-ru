@@ -1,5 +1,5 @@
 ---
-description: 'Метод Финдпин извлекает ПИН-код с указанным идентификатором. Этот метод реализует метод Ибасефилтер:: Финдпин.'
+description: 'Ксаурце. Финдпин, метод Финдпин извлекает ПИН-код с указанным идентификатором. Этот метод реализует метод Ибасефилтер:: Финдпин.'
 ms.assetid: ad593dbf-ca56-4409-ac6e-1b88908c8cee
 title: Метод Ксаурце. Финдпин (Source. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9fac8df1e53e4a129b42d1284a19392bc7b58aa2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: daa1e2404e7c6fbf1d879d71374298103bdc621f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665139"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098862"
 ---
 # <a name="csourcefindpin-method"></a>Ксаурце. Финдпин, метод
 
@@ -73,7 +73,7 @@ HRESULT FindPin(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Первый ПИН-код всегда имеет имя "1"; второй ПИН-код называется "2"; и т. д. Дополнительные сведения см. в разделе [**ксаурцестреам:: QueryId**](csourcestream-queryid.md).
 
@@ -88,7 +88,7 @@ HRESULT FindPin(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

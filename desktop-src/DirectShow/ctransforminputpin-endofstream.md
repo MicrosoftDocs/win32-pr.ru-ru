@@ -1,5 +1,5 @@
 ---
-description: 'Метод EndOfStream уведомляет ПИН-код о том, что дополнительные данные не ожидаются. Этот метод реализует метод Ипин:: EndOfStream.'
+description: 'Ктрансформинпутпин. EndOfStream, метод EndOfStream уведомляет ПИН-код о том, что дополнительные данные не ожидаются. Этот метод реализует метод Ипин:: EndOfStream.'
 ms.assetid: db9896eb-3db2-4d58-a787-4d80ce8f0d0e
 title: Ктрансформинпутпин. EndOfStream, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bc39770f081499be720c433301823cbc60f37d17
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2035d0261447826098162f480ddc959544b101b7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675650"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084982"
 ---
 # <a name="ctransforminputpinendofstream-method"></a>Ктрансформинпутпин. EndOfStream, метод
 
@@ -58,7 +58,7 @@ HRESULT EndOfStream();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**ктрансформфилтер:: EndOfStream**](ctransformfilter-endofstream.md) фильтра для доставки уведомления конца потока.
 

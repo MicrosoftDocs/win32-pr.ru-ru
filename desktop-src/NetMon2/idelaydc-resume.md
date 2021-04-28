@@ -1,5 +1,5 @@
 ---
-description: Метод Resume перезапускает отложенную запись.
+description: 'Метод Иделайдк:: Resume. метод Resume перезапускает отложенную запись.'
 ms.assetid: 4fa47220-d323-407b-9dae-704969f66bdd
 title: 'Метод Иделайдк:: Resume (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: ba0deef666c2e9829cb5a71d91e73da9c1b7d780
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c8c3b505e0e9fb306a444111cce22c8c580d015
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808693"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109192"
 ---
 # <a name="idelaydcresume-method"></a>Метод Иделайдк:: Resume
 
@@ -56,7 +56,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пока запись приостановлена, новые данные не добавляются в текущий [*файл записи*](c.md) до тех пор, пока не будет вызван метод **Иделайдк:: Resume** для перезапуска записи. Если [**приостановка**](idelaydc-pause.md) и **возобновление** используются для остановки и перезапуска записи, вся записанная информация помещается в один и тот же файл записи.
 
@@ -77,7 +77,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

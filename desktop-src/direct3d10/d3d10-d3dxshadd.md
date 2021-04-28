@@ -1,5 +1,5 @@
 ---
-description: Добавляет два сферических гармонических (SH) вектора; Иными словами, тоска \[ i \] = PA \[ i \] + Pb \[ i \] .
+description: Функция D3DXSHAdd (D3DX10. h) — складывает два сферических гармонических (SH) вектора; Иными словами, тоска \[ i \] = PA \[ i \] + Pb \[ i \] .
 ms.assetid: dbfea12b-c110-42a7-84b6-0dff3d958032
 title: Функция D3DXSHAdd (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1750b473764daf030160adc42d258a1f911f5f16
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8d39940fef4ad611ea530d95efea29c74266d22a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273915"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108662"
 ---
 # <a name="d3dxshadd-function-d3dx10h"></a>Функция D3DXSHAdd (D3DX10. h)
 
@@ -85,7 +85,7 @@ FLOAT* D3DXSHAdd(
 
 Указатель на коэффициенты вывода SH.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый коэффициент базисной функции илм хранится в памяти l ² + m + l, где:
 
@@ -103,7 +103,7 @@ FLOAT* D3DXSHAdd(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

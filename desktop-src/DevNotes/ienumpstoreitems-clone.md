@@ -1,5 +1,5 @@
 ---
-description: Создает другой перечислитель с тем же состоянием перечисления, что и текущий.
+description: 'Метод Иенумпстореитемс:: Clone — создает еще один перечислитель, который содержит то же состояние перечисления, что и текущий.'
 ms.assetid: ab9eaf63-54e4-4322-9bb5-227982b15c73
 title: 'Метод Иенумпстореитемс:: Clone (PStore. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 919c0359f5c7f6d3ab547f53a105246c43e20fb5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 29b618881305296a560dc9102f7571c08236d1bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657878"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089332"
 ---
 # <a name="ienumpstoreitemsclone-method"></a>Метод Иенумпстореитемс:: Clone
 
@@ -63,7 +63,7 @@ HRESULT Clone(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

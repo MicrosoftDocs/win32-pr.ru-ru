@@ -1,5 +1,5 @@
 ---
-description: Задает массив векторов 4D.
+description: 'Метод ID3DXTextureShader:: Сетвектораррай — задает массив векторов 4D.'
 ms.assetid: 45bc5cb1-b44a-468b-8c80-a639da8a033f
 title: 'Метод ID3DXTextureShader:: Сетвектораррай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c91a012cda9d1aa992682b5cb5aa769bf41de180
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0878594baa8828c9cca4eca8dd2c20f225fb530e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105664967"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090192"
 ---
 # <a name="id3dxtextureshadersetvectorarray-method"></a>Метод ID3DXTextureShader:: Сетвектораррай
 
@@ -86,7 +86,7 @@ HRESULT SetVectorArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

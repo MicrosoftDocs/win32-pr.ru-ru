@@ -1,5 +1,5 @@
 ---
-description: Сопряженный и ренормализованный кватернион.
+description: Функция D3DXQuaternionInverse (D3dx9math. h) — сопряженная и ренормализация кватерниона.
 ms.assetid: 25407a60-f7c0-4063-8d1d-2d6d03bdb217
 title: Функция D3DXQuaternionInverse (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b2f830b7f8f797e4ed94eb22b4c2a05c3bd3e4cd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6ebb2520efa3c7c78d98fd8b90ec1ba9615e9927
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424485"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094072"
 ---
 # <a name="d3dxquaternioninverse-function-d3dx9mathh"></a>Функция D3DXQuaternionInverse (D3dx9math. h)
 
@@ -65,7 +65,7 @@ D3DXQUATERNION* D3DXQuaternionInverse(
 
 Указатель на структуру [**D3DXQUATERNION**](d3dxquaternion.md) , которая является обратным кватернионом кватерниона.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 
 ```
@@ -91,7 +91,7 @@ The natural logarithm of Q is, ln(Q) = (0, theta * v)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
