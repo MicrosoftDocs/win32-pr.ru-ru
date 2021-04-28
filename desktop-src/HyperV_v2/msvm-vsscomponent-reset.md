@@ -1,5 +1,5 @@
 ---
-description: Запрашивает сброс.
+description: Метод Reset класса Msvm_VssComponent — запрашивает сброс.
 ms.assetid: cafc6841-4814-4bf9-947b-c6afd4747367
 title: Метод Reset класса Msvm_VssComponent
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8528d769f4175bb8b42f1ff243b5d0c389c62617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce1799206bdd27b1ddb0530a3e8b92a7c5704576
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072630"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118552"
 ---
-# <a name="reset-method-of-the-msvm_vsscomponent-class"></a><span data-ttu-id="18091-103">Метод Reset \_ класса мсвм всскомпонент</span><span class="sxs-lookup"><span data-stu-id="18091-103">Reset method of the Msvm\_VssComponent class</span></span>
+# <a name="reset-method-of-the-msvm_vsscomponent-class"></a><span data-ttu-id="183ab-103">Метод Reset \_ класса мсвм всскомпонент</span><span class="sxs-lookup"><span data-stu-id="183ab-103">Reset method of the Msvm\_VssComponent class</span></span>
 
-<span data-ttu-id="18091-104">Запрашивает сброс.</span><span class="sxs-lookup"><span data-stu-id="18091-104">Requests a reset.</span></span>
+<span data-ttu-id="183ab-104">Запрашивает сброс.</span><span class="sxs-lookup"><span data-stu-id="183ab-104">Requests a reset.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="18091-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="18091-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="183ab-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="183ab-105">Syntax</span></span>
 
 
 ```mof
@@ -33,41 +33,41 @@ uint32 Reset();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="18091-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="18091-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="183ab-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="183ab-106">Parameters</span></span>
 
-<span data-ttu-id="18091-107">Этот метод не имеет параметров.</span><span class="sxs-lookup"><span data-stu-id="18091-107">This method has no parameters.</span></span>
+<span data-ttu-id="183ab-107">Этот метод не имеет параметров.</span><span class="sxs-lookup"><span data-stu-id="183ab-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="18091-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="18091-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="183ab-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="183ab-108">Return value</span></span>
 
-<span data-ttu-id="18091-109">Этот метод возвращает одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="18091-109">This method returns one of the following values:</span></span>
+<span data-ttu-id="183ab-109">Этот метод возвращает одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="183ab-109">This method returns one of the following values:</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="18091-110">**Завершено без ошибок** (0)</span><span class="sxs-lookup"><span data-stu-id="18091-110">**Completed with No Error** (0)</span></span>
+<span data-ttu-id="183ab-110">**Завершено без ошибок** (0)</span><span class="sxs-lookup"><span data-stu-id="183ab-110">**Completed with No Error** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="18091-111">**Не поддерживается** (1)</span><span class="sxs-lookup"><span data-stu-id="18091-111">**Not supported** (1)</span></span>
+<span data-ttu-id="183ab-111">**Не поддерживается** (1)</span><span class="sxs-lookup"><span data-stu-id="183ab-111">**Not supported** (1)</span></span>
 </dt> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="18091-112">Требования</span><span class="sxs-lookup"><span data-stu-id="18091-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="183ab-112">Требования</span><span class="sxs-lookup"><span data-stu-id="183ab-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="18091-113">Требование</span><span class="sxs-lookup"><span data-stu-id="18091-113">Requirement</span></span> | <span data-ttu-id="18091-114">Значение</span><span class="sxs-lookup"><span data-stu-id="18091-114">Value</span></span> |
+| <span data-ttu-id="183ab-113">Требование</span><span class="sxs-lookup"><span data-stu-id="183ab-113">Requirement</span></span> | <span data-ttu-id="183ab-114">Значение</span><span class="sxs-lookup"><span data-stu-id="183ab-114">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="18091-115">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="18091-115">Minimum supported client</span></span><br/> | <span data-ttu-id="18091-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="18091-116">Windows 8.1</span></span><br/>                                                                                  |
-| <span data-ttu-id="18091-117">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="18091-117">Minimum supported server</span></span><br/> | <span data-ttu-id="18091-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="18091-118">Windows Server 2012 R2</span></span><br/>                                                                       |
-| <span data-ttu-id="18091-119">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="18091-119">Namespace</span></span><br/>                | <span data-ttu-id="18091-120">Корневая \\ виртуализация \\ версии 2</span><span class="sxs-lookup"><span data-stu-id="18091-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
-| <span data-ttu-id="18091-121">MOF</span><span class="sxs-lookup"><span data-stu-id="18091-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="18091-122"><dt>Виндовсвиртуализатион. v2. mof</dt></span><span class="sxs-lookup"><span data-stu-id="18091-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="18091-123">DLL</span><span class="sxs-lookup"><span data-stu-id="18091-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="18091-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="18091-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="183ab-115">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="183ab-115">Minimum supported client</span></span><br/> | <span data-ttu-id="183ab-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="183ab-116">Windows 8.1</span></span><br/>                                                                                  |
+| <span data-ttu-id="183ab-117">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="183ab-117">Minimum supported server</span></span><br/> | <span data-ttu-id="183ab-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="183ab-118">Windows Server 2012 R2</span></span><br/>                                                                       |
+| <span data-ttu-id="183ab-119">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="183ab-119">Namespace</span></span><br/>                | <span data-ttu-id="183ab-120">Корневая \\ виртуализация \\ версии 2</span><span class="sxs-lookup"><span data-stu-id="183ab-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="183ab-121">MOF</span><span class="sxs-lookup"><span data-stu-id="183ab-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="183ab-122"><dt>Виндовсвиртуализатион. v2. mof</dt></span><span class="sxs-lookup"><span data-stu-id="183ab-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="183ab-123">DLL</span><span class="sxs-lookup"><span data-stu-id="183ab-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="183ab-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="183ab-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="18091-125">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="18091-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="183ab-125">См. также</span><span class="sxs-lookup"><span data-stu-id="183ab-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="18091-126">**Мсвм \_ всскомпонент**</span><span class="sxs-lookup"><span data-stu-id="18091-126">**Msvm\_VssComponent**</span></span>](msvm-vsscomponent.md)
+[<span data-ttu-id="183ab-126">**Мсвм \_ всскомпонент**</span><span class="sxs-lookup"><span data-stu-id="183ab-126">**Msvm\_VssComponent**</span></span>](msvm-vsscomponent.md)
 </dt> </dl>
 
  
