@@ -1,16 +1,7 @@
 ---
-title: WinMain точка входа приложения
-description: .
-ms.assetid: 389da5d4-d0f9-4339-be6c-0f4fecc59316
-ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: bef44c4d31aa53dfd60f579b68c438a539058b85
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104260543"
+Title: WinMain описание точки входа приложения: WinMain: точка входа приложения MS. AssetID: 389da5d4-d0f9-4339-be6c-0f4fecc59316 MS. Topic: статья MS. Date: 05/31/2018
 ---
+
 # <a name="winmain-the-application-entry-point"></a>WinMain: точка входа приложения
 
 Каждая программа Windows включает функцию точки входа, которая называется **WinMain** или **wWinMain**. Ниже приведена сигнатура для **wWinMain**.

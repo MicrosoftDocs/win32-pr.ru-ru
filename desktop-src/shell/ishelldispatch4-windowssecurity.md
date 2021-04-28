@@ -1,5 +1,5 @@
 ---
-description: Отображает диалоговое окно Безопасность Windows.
+description: IShellDispatch4. Виндовссекурити — отображает диалоговое окно "безопасность Windows".
 title: IShellDispatch4. Виндовссекурити, метод (Шлдисп. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 665c4644-7749-446e-8212-3ecc9901a035
-ms.openlocfilehash: 066321c0ea4e4d5ade35a6571c59128a5137cba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d7e8cfbd1e7a2a2392b78487c6a58b62de6df6a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984648"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116812"
 ---
 # <a name="ishelldispatch4windowssecurity-method"></a>IShellDispatch4. Виндовссекурити, метод
 
@@ -55,7 +55,7 @@ IShellDispatch4.WindowsSecurity()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод отображает диалоговое окно, показанное после нажатия клавиш CTRL + ALT + DELETE или с помощью параметра безопасность в меню **Пуск** .
 

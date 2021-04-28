@@ -1,5 +1,5 @@
 ---
-description: Формирует матрицу левой ортогональной проекции.
+description: Функция D3DXMatrixOrthoLH (D3DX10Math. h) — строит матрицу левой ортогональной проекции.
 ms.assetid: 67bec4a3-2126-4f5a-9301-97faa6dc6e84
 title: Функция D3DXMatrixOrthoLH (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0b49e6008b52f7060075688730c72f5f5d3f725a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 73cd5d9b809a0eb442db57e91c3788d2548a8c33
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273927"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113102"
 ---
 # <a name="d3dxmatrixortholh-function-d3dx10mathh"></a>Функция D3DXMatrixOrthoLH (D3DX10Math. h)
 
@@ -95,7 +95,7 @@ D3DXMATRIX* D3DXMatrixOrthoLH(
 
 Указатель на результирующий [**D3DXMATRIX**](d3d10-d3dxmatrix.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все параметры функции D3DXMatrixOrthoLH — это расстояния в пространстве камеры. Параметры описывают размеры представления объема.
 
@@ -124,7 +124,7 @@ D3DXMATRIX* D3DXMatrixOrthoLH(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

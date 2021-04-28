@@ -1,5 +1,5 @@
 ---
-description: Определяет произведение двух матриц.
+description: Функция D3DXMatrixMultiply (D3DX10Math. h) — Определяет произведение двух матриц.
 ms.assetid: d15cd680-0e19-4353-9eee-73933663960e
 title: Функция D3DXMatrixMultiply (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 5f07130c25ce9ef1c588309460e4e12e67bb2485
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 89e103d441648643be0176ca34f72f6175c11213
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000492"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113132"
 ---
 # <a name="d3dxmatrixmultiply-function-d3dx10mathh"></a>Функция D3DXMatrixMultiply (D3DX10Math. h)
 
@@ -75,7 +75,7 @@ D3DXMATRIX* D3DXMatrixMultiply(
 
 Указатель на структуру D3DXMATRIX, которая является произведением двух матриц.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Результат представляет преобразование M1, за которым следует преобразование m2 (out = M1 \* m2).
 
@@ -92,7 +92,7 @@ D3DXMATRIX* D3DXMatrixMultiply(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Происходит при двойном щелчке объекта InkCollector или InkOverlay.
+description: Событие InkCollector. DoubleClick — происходит при двойном щелчке объекта InkCollector или InkOverlay.
 ms.assetid: 48c3a695-0ec4-46ea-b1ea-a846e39d53ec
 title: Событие InkCollector. DoubleClick (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17faa459e207cd8891a13cf90f587b277d404772
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c51c3fef9ee999bbe2701da64e09a360f07db345
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896862"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110212"
 ---
 # <a name="inkcollectordoubleclick-event"></a>Событие InkCollector. DoubleClick
 
@@ -41,7 +41,7 @@ void DoubleClick(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в \_ \_ \_ интерфейсах диспетчеризации (DISP) иинкколлекторевентс, иинковерлайевентс и иинкпиктуривентс с идентификатором DISPID \_ ипедблкликк.
 
@@ -58,7 +58,7 @@ void DoubleClick(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

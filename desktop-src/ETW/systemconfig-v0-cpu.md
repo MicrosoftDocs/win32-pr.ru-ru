@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий конфигурации ЦП.
+description: Класс SystemConfig_V0_CPU — этот класс является классом типа событий для событий конфигурации ЦП.
 ms.assetid: 9ca77676-ff0e-4c47-ae4e-f8192376d3ca
 title: Класс SystemConfig_V0_CPU
 ms.topic: reference
@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6963201f76afa40e9b1741dc2936fa2ab4433a74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de3b63def40cb6ead40f6f4c95625603cfc581ee
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999336"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105992"
 ---
 # <a name="systemconfig_v0_cpu-class"></a>\_ \_ Класс ЦП системконфиг v0
 
@@ -48,13 +48,13 @@ class SystemConfig_V0_CPU : SystemConfig_V0
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ \_ ЦП системконфиг v0** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ ЦП системконфиг v0** имеет следующие свойства.
 
@@ -183,7 +183,7 @@ class SystemConfig_V0_CPU : SystemConfig_V0
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

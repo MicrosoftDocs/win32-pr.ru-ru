@@ -1,15 +1,15 @@
 ---
-description: .
+description: Устранение проблем совместимости установки ActiveX для обычных пользователей
 ms.assetid: 4199521A-58E6-4475-9B95-A724AB52969A
 title: Устранение проблем совместимости установки ActiveX для обычных пользователей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1e50ed2aa9e428164e39b377b65c418d82df1e5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: e88b26ebd0c6e4887a8a304aeab725b176ee04a0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103820269"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116412"
 ---
 # <a name="fixing-activex-installation-compatibility-issues-for-standard-users"></a>Устранение проблем совместимости установки ActiveX для обычных пользователей
 
@@ -34,7 +34,7 @@ ms.locfileid: "103820269"
 
 Когда веб-сайт пытается установить элемент управления ActiveX, ось проверяет наличие URL-адреса веб-сайта в списке утвержденных сайтов установки или в составе зоны надежных сайтов. Если сайт находится в одном из этих списков, ось гарантирует, что сайт соответствует требованиям, определенным политикой. Если сайт и элемент ActiveX отвечают всем требованиям параметров политики, то этот элемент управления устанавливается. Дополнительные сведения см. [в разделе Администрирование службы установщика ActiveX](/previous-versions/windows/it-pro/windows-7/dd631688(v=ws.10)).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

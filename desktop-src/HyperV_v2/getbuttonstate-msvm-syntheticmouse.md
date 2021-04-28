@@ -1,5 +1,5 @@
 ---
-description: Извлекает текущее состояние указанной кнопки устройства.
+description: Метод Жетбуттонстате класса Msvm_SyntheticMouse — извлекает текущее состояние указанной кнопки устройства.
 ms.assetid: 66363AF1-E360-478D-8E62-513DE66EF130
 title: Метод Жетбуттонстате класса Msvm_SyntheticMouse
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3812d3e019a303656305471fc097fb1479fa1ada
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26839292cf2fb3099e740629b28c7de0fbe3f60f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682800"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119392"
 ---
 # <a name="getbuttonstate-method-of-the-msvm_syntheticmouse-class"></a>Метод Жетбуттонстате \_ класса Синсетикмаусе мсвм
 
@@ -105,7 +105,7 @@ uint32 GetButtonState(
 **Недостаточно памяти** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу [**\_ синсетикмаусе мсвм**](msvm-syntheticmouse.md) может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -123,7 +123,7 @@ uint32 GetButtonState(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

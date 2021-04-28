@@ -1,5 +1,5 @@
 ---
-description: Вычисление пересечения луча и треугольника.
+description: Функция D3DXIntersectTri (D3DX10math. h) — вычисление пересечения луча и треугольника.
 ms.assetid: 819f2543-8046-47c9-93b8-7d888264786f
 title: Функция D3DXIntersectTri (D3DX10math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: af96d25b4f13995d60e7926ec5da2d15ff86f282
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c8bf502cca48701a7d71a083e515f9988cafe303
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694182"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113242"
 ---
 # <a name="d3dxintersecttri-function-d3dx10mathh"></a>Функция D3DXIntersectTri (D3DX10math. h)
 
@@ -125,7 +125,7 @@ BOOL D3DXIntersectTri(
 
 Возвращает **значение true** , если луч пересекает область треугольника. В противном случае возвращает **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Любая точка в плоскости V1V2V3 может быть представлена координатой барицентрик (U, V). Параметр U управляет тем, сколько v2 имеет взвешенное значение в результате, а параметр V определяет, сколько будет иметь взвешенное значение v3 в результате. Наконец, значение \[ 1 (U + V) \] определяет, сколько единиц измерения v1 будет взвешено по результату.
 
@@ -144,7 +144,7 @@ BOOL D3DXIntersectTri(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Корректирует значение контрастности цвета.
+description: Функция D3DXColorAdjustContrast (D3DX10Math. h) — регулирует значение контрастности цвета.
 ms.assetid: c111d3c7-19c6-4a6b-af0d-a9e1bc0bb7d9
 title: Функция D3DXColorAdjustContrast (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 24586b2a8d2206d6818e00af9ea86e4c5e9758fa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 09781c5c11560c3497a5af57528cf478f6259816
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647873"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113332"
 ---
 # <a name="d3dxcoloradjustcontrast-function-d3dx10mathh"></a>Функция D3DXColorAdjustContrast (D3DX10Math. h)
 
@@ -75,7 +75,7 @@ D3DXCOLOR* D3DXColorAdjustContrast(
 
 Эта функция возвращает указатель на структуру D3DXCOLOR, которая является результатом корректировки контрастности.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Входной альфа-канал копируется, не изменяется, в выходной альфа-канал.
 
@@ -103,7 +103,7 @@ pOut->r = 0.5f + c * (pC->r - 0.5f);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

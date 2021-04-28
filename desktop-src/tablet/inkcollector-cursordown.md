@@ -1,15 +1,15 @@
 ---
-description: Происходит, когда подсказка курсора обращается к поверхности планшета в дигитайзере.
+description: Событие InkCollector. Курсордовн — происходит, когда подсказка курсора обращается к планшету с дигитайзером.
 ms.assetid: bf914849-ef33-4746-b2e1-c768cd1d87aa
 title: Событие InkCollector. Курсордовн (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fd009c5f42e6a26cdaf493e97532be7716381c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da0cdb729f36706202fad2c6c03ab8031e90c845
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701460"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110302"
 ---
 # <a name="inkcollectorcursordown-event"></a>Событие InkCollector. Курсордовн
 
@@ -49,7 +49,7 @@ void CursorDown(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в \_ иинкколлекторевентс, \_ иинковерлайевентс и \_ иинкпиктуривентс. \_интерфейсы иинкколлекторевентс, \_ иинковерлайевентс и \_ иинкпиктуривентс реализуют интерфейс [**IDISPATCH**](/windows/win32/api/oaidl/nn-oaidl-idispatch) с идентификатором DISPID \_ ицекурсордовн.
 
@@ -68,7 +68,7 @@ void CursorDown(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

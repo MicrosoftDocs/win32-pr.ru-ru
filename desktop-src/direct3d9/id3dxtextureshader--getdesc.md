@@ -1,5 +1,5 @@
 ---
-description: Возвращает описание таблицы констант.
+description: 'Метод ID3DXTextureShader:: DESC — Возвращает описание таблицы констант.'
 ms.assetid: 91b537bb-5f7a-448b-a21f-c0ddf66d7238
 title: 'Метод ID3DXTextureShader:: desc (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 97302b7e0f8c9f05e6229e20c2c9c158173ed944
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6ea94f0e22d838f09dae9b423f85aa1d55d2365b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273804"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117642"
 ---
 # <a name="id3dxtextureshadergetdesc-method"></a>Метод ID3DXTextureShader:: DESC
 
@@ -66,7 +66,7 @@ HRESULT GetDesc(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

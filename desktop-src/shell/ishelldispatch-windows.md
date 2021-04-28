@@ -1,5 +1,5 @@
 ---
-description: Создает и возвращает объект Шеллвиндовс. Этот объект представляет коллекцию всех открытых окон, принадлежащих оболочке.
+description: Метод Ишеллдиспатч. Windows — создает и возвращает объект Шеллвиндовс. Этот объект представляет коллекцию всех открытых окон, принадлежащих оболочке.
 ms.assetid: 788E2106-3534-4e22-801F-677FD02BDFE0
 title: Метод Ишеллдиспатч. Windows (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: cb5f84caebf38deb27c7fb60565167793fead561
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16991d6a251909e8f3b277894a96e6ad08a7f9a4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810960"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117172"
 ---
 # <a name="ishelldispatchwindows-method"></a>Ишеллдиспатч. Windows, метод
 
@@ -59,7 +59,7 @@ IShellDispatch.Windows() As IDispatch
 
 Ссылка на объект [**шеллвиндовс**](shellwindows.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. Windows**](shell-windows.md) .
 

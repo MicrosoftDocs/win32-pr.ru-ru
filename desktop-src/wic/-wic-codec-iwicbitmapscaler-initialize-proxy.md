@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Initialize.
+description: IWICBitmapScaler_Initialize_Proxy функция-прокси для метода Initialize.
 ms.assetid: 47a717d2-9aac-4230-bdb3-093212eb5448
 title: Функция IWICBitmapScaler_Initialize_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: cc317adc831b0cf0759580d5c6924fb3f0997524
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76b7c754273f4d55fbf3de9d8ba592806e590aac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703326"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100542"
 ---
 # <a name="iwicbitmapscaler_initialize_proxy-function"></a>Ивикбитмапскалер \_ инициализировать \_ прокси-функцию
 
@@ -47,22 +47,22 @@ HRESULT IWICBitmapScaler_Initialize_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапскалер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler) \** _
+Тип: **[ **ивикбитмапскалер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler)\***
 
-Указатель на этот объект [_ *ивикбитмапскалер* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler) .
+Указатель на этот объект [**ивикбитмапскалер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler) .
 
 </dd> <dt>
 
 *писаурце* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+Тип: **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 Источник входного точечного рисунка.
 
 </dd> <dt>
 
-_uiWidth * \[ в\]
+*уивидс* \[ окне\]
 </dt> <dd>
 
 Тип: **uint**

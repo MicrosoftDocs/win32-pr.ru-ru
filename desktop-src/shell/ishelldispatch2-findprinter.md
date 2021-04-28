@@ -1,5 +1,5 @@
 ---
-description: Отображает диалоговое окно Поиск принтера.
+description: IShellDispatch2. Финдпринтер-метод — отображает диалоговое окно Поиск принтера.
 ms.assetid: a3d1e810-f0cf-48ec-93da-5cc01117c5d4
 title: IShellDispatch2. Финдпринтер, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 81124e3f0d04244b9b81e812e090bde25971c17c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64a3975039255de76b3e59432b0848cc2cb1795b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263351"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117122"
 ---
 # <a name="ishelldispatch2findprinter-method"></a>IShellDispatch2. Финдпринтер, метод
 
@@ -80,7 +80,7 @@ IShellDispatch2.FindPrinter( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. финдпринтер**](./shell-findprinter.md) .
 

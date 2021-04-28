@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа события для событий процесса. Следующий синтаксис упрощен из MOF-кода.
+description: Process_TypeGroup1 класс — этот класс является классом типа события для событий процесса. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 4f06e1af-3f9a-4346-aa50-50f3ee82cd98
 title: Класс Process_TypeGroup1
 ms.topic: reference
@@ -21,12 +21,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4ad2ebcd9a3e1563f6e2f4c82d90dd4d2c80112f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd67059f5257dad9b66e1c21f642fef04f03719e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897825"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106382"
 ---
 # <a name="process_typegroup1-class"></a>Process \_ TypeGroup1, класс
 
@@ -52,13 +52,13 @@ class Process_TypeGroup1 : Process
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **Process \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Process \_ TypeGroup1** имеет следующие свойства.
 
@@ -208,7 +208,7 @@ UserSID
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Типы событий Дкстарт и Дценд перечисляют процесс, выполняемый в данный момент, включая бездействующий и системный процессы, на момент запуска и завершения сеанса ядра соответственно.
 
@@ -223,7 +223,7 @@ UserSID
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

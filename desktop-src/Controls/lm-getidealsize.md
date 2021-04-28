@@ -1,6 +1,6 @@
 ---
 title: Сообщение LM_GETIDEALSIZE (Коммктрл. h)
-description: Извлекает предпочтительную высоту ссылки для текущей ширины элемента управления.
+description: LM_GETIDEALSIZE сообщение — получает предпочтительную высоту ссылки для текущей ширины элемента управления.
 ms.assetid: 63aad7eb-26ee-41d2-90d4-65fdcf0f182a
 keywords:
 - Элементы управления Windows для LM_GETIDEALSIZE сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c138e22982116a3b7173f586d96c70cfc91194c3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 761fb5f6e5f7a2e2e9b1b9cc862b9a8f2c0fcd1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489099"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112392"
 ---
 # <a name="lm_getidealsize-message"></a>\_Сообщение ЖЕТИДЕАЛСИЗЕ LM
 
@@ -39,7 +39,7 @@ ms.locfileid: "104489099"
 
 Целое число, представляющее предпочтительную высоту текста ссылки в пикселях.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать этот API, необходимо предоставить манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).

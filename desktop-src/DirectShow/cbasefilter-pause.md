@@ -1,5 +1,5 @@
 ---
-description: Метод Pause приостанавливает фильтр. Этот метод реализует метод Имедиафилтер::P Аусе.
+description: Кбасефилтер. Pause, метод Pause приостанавливает фильтр. Этот метод реализует метод Имедиафилтер::P Аусе.
 ms.assetid: cfb7d532-6c00-49a1-a48d-4dadaca39a0f
 title: Метод Кбасефилтер. Pause (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 43a90e78084f2320d0df7da806b6138571c9a5bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee91393a574d0135e66e5a9c1e1e6b0325a0b4de
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657890"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120092"
 ---
 # <a name="cbasefilterpause-method"></a>Кбасефилтер. Pause, метод
 
@@ -44,7 +44,7 @@ HRESULT Pause();
 
 Возвращает \_ значение ОК в случае успешного выполнения или **HRESULT** , указывающий на причину ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**кбасепин:: Active**](cbasepin-active.md) для каждого подключенного контакта фильтра.
 
@@ -59,7 +59,7 @@ HRESULT Pause();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

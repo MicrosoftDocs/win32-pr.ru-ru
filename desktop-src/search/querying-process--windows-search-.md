@@ -1,15 +1,15 @@
 ---
-description: .
+description: Запрос процесса в Windows Search
 ms.assetid: 0e5a633e-1703-4b72-8a04-6da71aec0ae2
 title: Запрос процесса в Windows Search
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d92d868cb843e96b04d6b4bd575284638b6652ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3585f2cca2a6d5d8548a85ae8fac759ec94b4fa
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808909"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117332"
 ---
 # <a name="querying-process-in-windows-search"></a>Запрос процесса в Windows Search
 
@@ -21,7 +21,7 @@ ms.locfileid: "103808909"
 -   [Сценарии запросов](#querying-scenarios)
     -   [Извлечение условий и синтаксический анализ запросов](#condition-extraction-and-query-parsing)
     -   [Запрос индекса](#querying-the-index)
--   [См. также](#related-topics)
+-   [Связанные разделы](#related-topics)
 
 ## <a name="about-querying-in-windows-search"></a>О запросах в Windows Search
 
@@ -293,7 +293,7 @@ IRichChunk** ppValueTerm);
 
 Приоритеты индексирования и события наборов строк поддерживаются в Windows 7 и более поздних версиях. В [**ировсетприоритизатион**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetprioritization) есть стек приоритетов, который позволяет клиенту запрашивать, что области, используемые в определенном запросе, должны иметь более высокий приоритет. [**Ировсетевентс**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents) предоставляет уведомления об изменениях элементов в наборах строк, включая добавление новых элементов, удаление элементов и изменение данных элемента. Использование уведомлений о событиях наборов строк гарантирует, что результаты для существующих запросов будут как можно более актуальными. Основные сведения см. [в разделе индексирование определения приоритетов и событий набора строк в Windows 7](indexing-prioritization-and-rowset-events.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
