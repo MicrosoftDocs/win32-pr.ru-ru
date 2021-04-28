@@ -1,26 +1,26 @@
 ---
-description: .
+description: Использование приемника образца захвата
 ms.assetid: AC5970A2-6F12-448D-A444-40020C5C2607
 title: Использование приемника образца захвата
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e7f0d64dfeb1cf5fd977e312b34aec49cad254
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 043f64d8fdc3ac3084d2c59be8917acbbd32dde5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544775"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110508"
 ---
-# <a name="using-the-sample-grabber-sink"></a><span data-ttu-id="57657-103">Использование приемника образца захвата</span><span class="sxs-lookup"><span data-stu-id="57657-103">Using the Sample Grabber Sink</span></span>
+# <a name="using-the-sample-grabber-sink"></a><span data-ttu-id="c7207-103">Использование приемника образца захвата</span><span class="sxs-lookup"><span data-stu-id="c7207-103">Using the Sample Grabber Sink</span></span>
 
-<span data-ttu-id="57657-104">Приемник образца захвата — это приемник мультимедиа, который перенаправляет полученные данные в интерфейс обратного вызова приложения.</span><span class="sxs-lookup"><span data-stu-id="57657-104">The Sample Grabber Sink is a media sink that forwards the data it receives to an application callback interface.</span></span>
+<span data-ttu-id="c7207-104">Приемник образца захвата — это приемник мультимедиа, который перенаправляет полученные данные в интерфейс обратного вызова приложения.</span><span class="sxs-lookup"><span data-stu-id="c7207-104">The Sample Grabber Sink is a media sink that forwards the data it receives to an application callback interface.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="57657-105">[Модуль чтения исходного кода](source-reader.md) является альтернативой приемнику образца захвата и имеет более простую модель программирование.</span><span class="sxs-lookup"><span data-stu-id="57657-105">The [Source Reader](source-reader.md) is an alternative to the Sample Grabber Sink and has a simpler progamming model.</span></span>
+> <span data-ttu-id="c7207-105">[Модуль чтения исходного кода](source-reader.md) является альтернативой приемнику образца захвата и имеет более простую модель программирование.</span><span class="sxs-lookup"><span data-stu-id="c7207-105">The [Source Reader](source-reader.md) is an alternative to the Sample Grabber Sink and has a simpler progamming model.</span></span>
 
  
 
-## <a name="1-implement-the-callback-interface"></a><span data-ttu-id="57657-106">1. Реализация интерфейса обратного вызова</span><span class="sxs-lookup"><span data-stu-id="57657-106">1. Implement the Callback Interface</span></span>
+## <a name="1-implement-the-callback-interface"></a><span data-ttu-id="c7207-106">1. Реализация интерфейса обратного вызова</span><span class="sxs-lookup"><span data-stu-id="c7207-106">1. Implement the Callback Interface</span></span>
 
 
 ```C++
@@ -57,7 +57,7 @@ public:
 
 
 
-## <a name="2-create-the-sample-grabber-sink"></a><span data-ttu-id="57657-107">2. Создание приемника образца захвата</span><span class="sxs-lookup"><span data-stu-id="57657-107">2. Create the Sample Grabber Sink</span></span>
+## <a name="2-create-the-sample-grabber-sink"></a><span data-ttu-id="c7207-107">2. Создание приемника образца захвата</span><span class="sxs-lookup"><span data-stu-id="c7207-107">2. Create the Sample Grabber Sink</span></span>
 
 
 ```C++
@@ -75,7 +75,7 @@ public:
 
 
 
-## <a name="3-create-a-topology"></a><span data-ttu-id="57657-108">3. Создание топологии</span><span class="sxs-lookup"><span data-stu-id="57657-108">3. Create a Topology</span></span>
+## <a name="3-create-a-topology"></a><span data-ttu-id="c7207-108">3. Создание топологии</span><span class="sxs-lookup"><span data-stu-id="c7207-108">3. Create a Topology</span></span>
 
 
 ```C++
@@ -138,7 +138,7 @@ done:
 
 
 
-## <a name="4-run-the-media-session"></a><span data-ttu-id="57657-109">4. Запуск сеанса мультимедиа</span><span class="sxs-lookup"><span data-stu-id="57657-109">4. Run the Media Session</span></span>
+## <a name="4-run-the-media-session"></a><span data-ttu-id="c7207-109">4. Запуск сеанса мультимедиа</span><span class="sxs-lookup"><span data-stu-id="c7207-109">4. Run the Media Session</span></span>
 
 
 ```C++
@@ -183,9 +183,9 @@ done:
 
 
 
-## <a name="example-code"></a><span data-ttu-id="57657-110">Пример кода</span><span class="sxs-lookup"><span data-stu-id="57657-110">Example Code</span></span>
+## <a name="example-code"></a><span data-ttu-id="c7207-110">Пример кода</span><span class="sxs-lookup"><span data-stu-id="c7207-110">Example Code</span></span>
 
-<span data-ttu-id="57657-111">Ниже приведен полный пример кода для этого раздела.</span><span class="sxs-lookup"><span data-stu-id="57657-111">Here is the complete example code for this topic.</span></span>
+<span data-ttu-id="c7207-111">Ниже приведен полный пример кода для этого раздела.</span><span class="sxs-lookup"><span data-stu-id="c7207-111">Here is the complete example code for this topic.</span></span>
 
 
 ```C++
@@ -582,14 +582,14 @@ STDMETHODIMP SampleGrabberCB::OnShutdown()
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="57657-112">См. также</span><span class="sxs-lookup"><span data-stu-id="57657-112">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c7207-112">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="c7207-112">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="57657-113">Сеанс мультимедиа</span><span class="sxs-lookup"><span data-stu-id="57657-113">Media Session</span></span>](media-session.md)
+[<span data-ttu-id="c7207-113">Сеанс мультимедиа</span><span class="sxs-lookup"><span data-stu-id="c7207-113">Media Session</span></span>](media-session.md)
 </dt> <dt>
 
-[<span data-ttu-id="57657-114">**имфсамплеграбберсинккаллбакк**</span><span class="sxs-lookup"><span data-stu-id="57657-114">**IMFSampleGrabberSinkCallback**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback)
+[<span data-ttu-id="c7207-114">**имфсамплеграбберсинккаллбакк**</span><span class="sxs-lookup"><span data-stu-id="c7207-114">**IMFSampleGrabberSinkCallback**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback)
 </dt> </dl>
 
  
