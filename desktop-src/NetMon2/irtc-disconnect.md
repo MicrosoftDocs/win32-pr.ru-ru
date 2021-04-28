@@ -1,5 +1,5 @@
 ---
-description: Метод Disconnect отключает НПП от сети.
+description: ИРТК::D метода соединения. метод Disconnect отключает НПП от сети.
 ms.assetid: 47a0cce0-a50d-4bad-9787-672cc3d13d07
 title: ИРТК::D метода соединения (Netmon. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: df58d6ac0e61ecc370510474c3bc067726d9824b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43acb88e2c7b6108a162c4715de02375121021f8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263951"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110722"
 ---
 # <a name="irtcdisconnect-method"></a>ИРТК::D метода соединения
 
@@ -56,7 +56,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не может быть вызван, когда НПП захватывает данные. Необходимо вызвать метод [ИРТК:: останавливаться](irtc-stop.md) перед вызовом иртк::D соединения.
 
@@ -73,7 +73,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

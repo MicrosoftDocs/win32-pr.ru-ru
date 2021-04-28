@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским для событий процесса. Следующий синтаксис упрощен из MOF-кода.
+description: Класс Process_V2 — этот класс является родительским для событий процесса. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 75596278-43cc-4040-a43d-6958d0935b68
 title: Класс Process_V2
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c055dc1f78da13c0dfa29bea948a8f0c94363ee4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77d700e7847d0ad19a019985a4e19343ce8f383d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999249"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106302"
 ---
 # <a name="process_v2-class"></a>\_Класс Process v2
 
@@ -34,11 +34,11 @@ class Process_V2 : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **Process** не определяет никаких членов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Чтобы включить события обработки в сеансе ведения журнала ядра NT, задайте **флаг \_ \_ \_ процесса трассировки событий** в элементе **енаблефлагс** структуры [**\_ \_ свойств трассировки событий**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) при вызове функции [**старттраце**](/windows/win32/api/evntrace/nf-evntrace-starttracea) . Можно также указать следующий флаг:
 
@@ -75,7 +75,7 @@ class Process_V2 : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

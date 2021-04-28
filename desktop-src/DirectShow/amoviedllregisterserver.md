@@ -1,5 +1,5 @@
 ---
-description: Является устаревшей. Вместо этого используйте AMovieDllRegisterServer2.
+description: Амовиедллрегистерсервер-функция устарела. Вместо этого используйте AMovieDllRegisterServer2.
 ms.assetid: d3be5fe0-f993-4a15-a3b8-3d761d51f289
 title: Функция Амовиедллрегистерсервер (Дллсетуп. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d93724c0f1ea6ed8b6cd2fa2b683a5ba9d45f0d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 81b6e73b1988d3eb97abdf9a5d2415ecbd62d8c3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689050"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099942"
 ---
 # <a name="amoviedllregisterserver-function"></a>Функция Амовиедллрегистерсервер
 
@@ -55,7 +55,7 @@ HRESULT AMovieDllRegisterServer(void);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,14 +1,14 @@
 ---
-description: Указывает, может ли декодер использовать метки времени декодирования (DTS) при установке меток времени.
+description: MF_MT_FSSourceTypeDecoded атрибут — указывает, может ли декодер использовать отметки времени декодирования (DTS) при установке меток времени.
 title: MF_MT_FSSourceTypeDecoded
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6ad80b0b7b29677ed0bee2f86a2c12c56c08441
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3799c11e3b921427ff4a3b05aa3d7f47e297ba14
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719742"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093092"
 ---
 # <a name="mf_mt_fssourcetypedecoded-attribute"></a>\_Атрибут MF MT \_ фссаурцетипедекодед
 
@@ -19,7 +19,7 @@ ms.locfileid: "105719742"
 **Bool** , сохраненный как **UINT32**
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Тип мультимедиа помечен атрибутом, указывающим, что он не существует в физическом источнике и синтезирован конвейером. Значение 1 (TRUE) указывает, что тип носителя является синтезированным. Значение 0 (FALSE) или значение отсутствует, указывает, что это не так.
 
 В текущем выпуске этот атрибут должен быть указан с использованием следующего значения GUID, а не MD_MT_FSSourceTypeDecoded константы:
@@ -38,7 +38,7 @@ ms.locfileid: "105719742"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

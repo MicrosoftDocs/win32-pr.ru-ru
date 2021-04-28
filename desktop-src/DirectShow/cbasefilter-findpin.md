@@ -1,5 +1,5 @@
 ---
-description: 'Метод Финдпин извлекает ПИН-код с указанным идентификатором. Этот метод реализует метод Ибасефилтер:: Финдпин.'
+description: 'Кбасефилтер. Финдпин, метод Финдпин извлекает ПИН-код с указанным идентификатором. Этот метод реализует метод Ибасефилтер:: Финдпин.'
 ms.assetid: 152e4ff3-2809-4c57-b9c8-f51fc50b3703
 title: Кбасефилтер. Финдпин, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 98b49c547ec59a74185f7f719da660220de8480f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2bbef9b051a42597b2585a432f544eead4e2e0a1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657684"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099822"
 ---
 # <a name="cbasefilterfindpin-method"></a>Кбасефилтер. Финдпин, метод
 
@@ -73,7 +73,7 @@ HRESULT FindPin(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**кбасепин:: Name**](cbasepin-name.md) для сравнения имени каждого контакта со строкой, заданной параметром *ID* .
 
@@ -90,7 +90,7 @@ HRESULT FindPin(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

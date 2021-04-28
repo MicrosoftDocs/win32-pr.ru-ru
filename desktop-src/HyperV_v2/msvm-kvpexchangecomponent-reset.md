@@ -1,5 +1,5 @@
 ---
-description: Запрашивает сброс.
+description: Метод Reset класса Msvm_KvpExchangeComponent — запрашивает сброс.
 ms.assetid: 7fa12de6-061c-40ff-98f2-8befd8c502b4
 title: Метод Reset класса Msvm_KvpExchangeComponent
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8f3b3c1b2a157e3e506c582009fa07014a0e89a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cf5707c5fe04bba62edd3dec79573d6f6c8ad45
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663081"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111702"
 ---
 # <a name="reset-method-of-the-msvm_kvpexchangecomponent-class"></a>Метод Reset \_ класса мсвм квпексчанжекомпонент
 
@@ -55,7 +55,7 @@ uint32 Reset();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -63,7 +63,7 @@ uint32 Reset();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

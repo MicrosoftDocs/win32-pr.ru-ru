@@ -1,6 +1,6 @@
 ---
 title: Сообщение LM_GETIDEALHEIGHT (Коммктрл. h)
-description: Извлекает предпочтительную высоту ссылки для текущей ширины элемента управления.
+description: LM_GETIDEALHEIGHT сообщение — получает предпочтительную высоту ссылки для текущей ширины элемента управления.
 ms.assetid: bf6ef3c1-89bc-4c56-9384-085fd00234e1
 keywords:
 - Элементы управления Windows для LM_GETIDEALHEIGHT сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a92f24d63cc8f58e260d79dafd0555429d65d20
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d6e82f259124e6da285ed2357d48ca07d5f8c08
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891454"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112402"
 ---
 # <a name="lm_getidealheight-message"></a>\_Сообщение ЖЕТИДЕАЛХЕИГХТ LM
 
@@ -39,7 +39,7 @@ ms.locfileid: "103891454"
 
 Целое число, представляющее предпочтительную высоту текста ссылки в пикселях.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).

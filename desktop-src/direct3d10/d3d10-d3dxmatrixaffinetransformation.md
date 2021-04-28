@@ -1,5 +1,5 @@
 ---
-description: Формирует матрицу трехмерного преобразования. Аргументы NULL обрабатываются как преобразования Identity.
+description: Функция D3DXMatrixAffineTransformation (D3DX10Math. h) — строит матрицу трехмерного преобразования. Аргументы NULL обрабатываются как преобразования Identity.
 ms.assetid: 36044272-a8ce-47db-8f52-30dc680f8174
 title: Функция D3DXMatrixAffineTransformation (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 27fee5a620d75c3930b1bc2f8a85415db1320a47
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 01c6b3c3ffe2de9b7c7003b78f1b07a0f35cc3a1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694277"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113182"
 ---
 # <a name="d3dxmatrixaffinetransformation-function-d3dx10mathh"></a>Функция D3DXMatrixAffineTransformation (D3DX10Math. h)
 
@@ -95,7 +95,7 @@ D3DXMATRIX* D3DXMatrixAffineTransformation(
 
 Указатель на структуру D3DXMATRIX, которая является матрицей аффинного преобразования.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция вычисляет матрицу аффинных преобразований с помощью следующей формулы, при этом сцепление матрицы вычисляется в порядке слева направо:
 
@@ -128,7 +128,7 @@ MT = матрица перевода (Птранслатион)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

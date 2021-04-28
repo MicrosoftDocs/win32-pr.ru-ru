@@ -1,5 +1,5 @@
 ---
-description: Поворачивает (относительно локального пространства координат объекта) вокруг произвольной оси.
+description: 'Метод ID3DXMATRIXStack:: Ротатэйавпитчролллокал (D3dx9math. h) — поворачивает (относительно локального пространства координат объекта) вокруг произвольной оси.'
 ms.assetid: c69f5ea7-5d14-4187-9405-1ceff8230185
 title: 'Метод ID3DXMATRIXStack:: Ротатэйавпитчролллокал (D3dx9math. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cffacf4129a711dece35fd581f6cfc9bc12c2f99
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1d104676b6d346afd527552dbfba4bac23ed09cd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354330"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093452"
 ---
 # <a name="id3dxmatrixstackrotateyawpitchrolllocal-method-d3dx9mathh"></a>Метод ID3DXMATRIXStack:: Ротатэйавпитчролллокал (D3dx9math. h)
 
@@ -75,7 +75,7 @@ HRESULT RotateYawPitchRollLocal(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод добавляет поворот в стек матриц с помощью вычисленной матрицы вращения, как показано ниже:
 
@@ -101,7 +101,7 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

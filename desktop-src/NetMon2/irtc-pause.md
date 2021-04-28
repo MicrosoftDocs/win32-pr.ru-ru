@@ -1,5 +1,5 @@
 ---
-description: Метод Pause приостанавливает текущую запись.
+description: ИРТК::P метод Аусе — метод Pause приостанавливает текущую запись.
 ms.assetid: 8c7b310e-de04-4bd8-9c96-3c5948e610be
 title: 'ИРТК: метод:P Аусе (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d2593c380d0fea52d030586da2f473a3f3fa9446
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d42af1912365a4237889e4e46d0fb3343377c772
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263950"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110682"
 ---
 # <a name="irtcpause-method"></a>ИРТК: метод:P Аусе
 
@@ -57,7 +57,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пока запись находится в приостановленном состоянии, новые кадры не фиксируются до тех пор, пока не будет вызван метод [ИРТК:: Resume](irtc-resume.md) для перезапуска записи.
 
@@ -78,7 +78,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

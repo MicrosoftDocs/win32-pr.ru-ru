@@ -1,5 +1,5 @@
 ---
-description: Метод Бреакконнект освобождает ПИН-код из соединения.
+description: Кбасеинпутпин. Бреакконнект, метод Бреакконнект освобождает ПИН-код из соединения.
 ms.assetid: 73b228a9-0a59-4647-b400-c33fa06c7e34
 title: Кбасеинпутпин. Бреакконнект, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6981ef97b98cc25b1996f1599d6d66b8e7d41f20
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5398f675e056da2c60747c0b4eb17c475771bdc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657294"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099742"
 ---
 # <a name="cbaseinputpinbreakconnect-method"></a>Кбасеинпутпин. Бреакконнект, метод
 
@@ -44,7 +44,7 @@ HRESULT BreakConnect();
 
 Возвращает \_ значение ОК в случае успешного выполнения или **HRESULT** , указывающий на причину ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасепин:: бреакконнект**](cbasepin-breakconnect.md) . Он снимает распределитель и освобождает интерфейс [**имемаллокатор**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) .
 
@@ -61,7 +61,7 @@ HRESULT BreakConnect();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

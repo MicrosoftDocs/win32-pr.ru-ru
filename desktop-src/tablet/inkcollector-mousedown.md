@@ -1,15 +1,15 @@
 ---
-description: Происходит при нажатии кнопки мыши, когда указатель мыши находится над объектом InkCollector или InkOverlay.
+description: Событие InkCollector. MouseDown — возникает, когда указатель мыши находится над объектом InkCollector или InkOverlay и нажата кнопка мыши.
 ms.assetid: db9ec396-b2a7-4f4f-99f2-95aad46eea28
 title: Событие InkCollector. MouseDown (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 760801fb5c578ddbdd67b15a4201c21c4981b097
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d29c8d3ba19856a8d6bfa038837b592c0b5f2b36
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540386"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110182"
 ---
 # <a name="inkcollectormousedown-event"></a>Событие InkCollector. MouseDown
 
@@ -73,7 +73,7 @@ void MouseDown(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы улучшить производительность рукописного ввода в режиме реального времени, скройте или покажите курсор мыши в обработчиках событий **MouseDown** и [**MouseUp**](inkcollector-mouseup.md) .
 
@@ -102,7 +102,7 @@ void MouseDown(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

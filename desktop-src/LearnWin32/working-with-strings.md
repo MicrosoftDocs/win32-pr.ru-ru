@@ -1,15 +1,15 @@
 ---
 title: Работа со строками
-description: .
+description: Работа со строками
 ms.assetid: 876ff8bb-67c3-4dcc-aa94-7fbd915c67dc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70c74530a1acd0eb94f0d88662924203a8c58116
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4661c6b07a267d90e0fca05d04354c018be04527
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104133783"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110972"
 ---
 # <a name="working-with-strings"></a>Работа со строками
 
@@ -46,7 +46,7 @@ wchar_t *str = L"hello";
 
 
 
- 
+ 
 
 ## <a name="unicode-and-ansi-functions"></a>Функции Юникода и ANSI
 
@@ -85,7 +85,7 @@ wchar_t *str = L"hello";
 
 
 
- 
+ 
 
 Например, приведенный ниже код
 
@@ -128,6 +128,6 @@ SetWindowTextA("My Application");  // ANSI function.
 
 [Что такое окно?](what-is-a-window-.md)
 
- 
+ 
 
- 
+ 

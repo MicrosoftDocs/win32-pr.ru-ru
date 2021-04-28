@@ -1,19 +1,19 @@
 ---
 title: Обновление платформы для Windows Vista
-description: .
+description: Обновление платформы для Windows Vista
 ms.assetid: 661f88f9-e5ba-412d-8cb4-f3f186568b74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdf4c9089033c8328916c12649de5675b9277ed4
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 6a97e083c8b7458b8a475631da30b8409cbd802c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "105700809"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109962"
 ---
 # <a name="platform-update-for-windows-vista"></a>Обновление платформы для Windows Vista
 
-## <a name="purpose"></a>Назначение
+## <a name="purpose"></a>Цель
 
 Обновление платформы для Windows Vista и обновление платформы для Windows Server 2008 — это обновления операционной системы конечных пользователей, которые поддерживают использование выбранных технологий Windows 7 в предыдущих версиях операционной системы Windows. Обновления включают набор библиотек времени выполнения, позволяющих разработчикам приложений ориентироваться на текущие выпуски, Windows 7 и Windows Server 2008 R2, а также предыдущие версии, Windows Vista и Windows Server 2008.
 

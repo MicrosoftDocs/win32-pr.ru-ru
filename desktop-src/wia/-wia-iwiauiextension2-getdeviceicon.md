@@ -1,5 +1,5 @@
 ---
-description: Возвращает пользовательский значок устройства.
+description: 'Метод IWiaUIExtension2:: Жетдевицеикон — получает значок настраиваемого устройства.'
 ms.assetid: ea768dd1-22fe-4a0f-8851-b152e28d65fb
 title: 'Метод IWiaUIExtension2:: Жетдевицеикон (Виадевд. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: d071332a1947c4eb6398235d6941a6843a4fa54c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe1498a804de5adeeea459464e95640b3b81ef06
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541951"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116622"
 ---
 # <a name="iwiauiextension2getdeviceicon-method"></a>Метод IWiaUIExtension2:: Жетдевицеикон
 
@@ -53,13 +53,13 @@ HRESULT GetDeviceIcon(
 *фикон* \[ заполняет\]
 </dt> <dd>
 
-Тип: **Хикон \** _
+Тип: **Хикон \***
 
 Указывает на место в памяти, которое будет принимать маркер для значка устройства.
 
 </dd> <dt>
 
-_nSize * \[ в\]
+*нсизе* \[ окне\]
 </dt> <dd>
 
 Тип: **ulong**

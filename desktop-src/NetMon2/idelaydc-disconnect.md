@@ -1,5 +1,5 @@
 ---
-description: Метод Disconnect отключает НПП от сети.
+description: Иделайдк::D метода соединения. метод Disconnect отключает НПП от сети.
 ms.assetid: 476bbce4-2e3c-448f-b85e-6adac424fb0d
 title: Иделайдк::D метода соединения (Netmon. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d192aa80f543706eea4bc197bc3dc8d57dd64aee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 967bd9674cb28363804b8c8af12c541bcb8675ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143780"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110812"
 ---
 # <a name="idelaydcdisconnect-method"></a>Иделайдк::D метода соединения
 
@@ -56,7 +56,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не может быть вызван, когда НПП захватывает данные. Перед вызовом **Disconnect** необходимо вызвать метод **Иделайдк:: останавливаться** .
 
@@ -73,7 +73,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

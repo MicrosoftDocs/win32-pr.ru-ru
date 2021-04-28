@@ -1,5 +1,5 @@
 ---
-description: Проверяет идентификатор объекта (OID) расширенного использования ключа (EKU) предоставленного сертификата.
+description: Метод Протекткэйвисцертификатефиле класса Win32_EncryptableVolume — проверяет идентификатор объекта (OID) расширенного использования ключа (EKU) предоставленного сертификата.
 ms.assetid: cc716524-f976-4d75-84f3-693e277030e6
 title: Метод Протекткэйвисцертификатефиле класса Win32_EncryptableVolume
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 86d9557506dc9ff3c465bcb956391b3e4cf33791
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d61a0bd0d31c14f13edd9ef610e8f6d3ed20f037
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897049"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110571"
 ---
 # <a name="protectkeywithcertificatefile-method-of-the-win32_encryptablevolume-class"></a>Метод Протекткэйвисцертификатефиле \_ класса Win32 енкриптаблеволуме
 
@@ -91,7 +91,7 @@ uint32 ProtectKeyWithCertificateFile(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если OID не совпадает с идентификатором, связанным с контроллером службы в реестре, этот метод завершается ошибкой. Это не дает пользователю вручную настраивать предохранители агента восстановления данных (DRA) на томе. Службы агентов DRA должны быть установлены только службой.
 
@@ -108,7 +108,7 @@ uint32 ProtectKeyWithCertificateFile(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

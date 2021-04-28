@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Тоталфилесизе
 ms.assetid: 10e1f806-e408-48ab-8fe7-1d7a4d41f320
 title: System. Тоталфилесизе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0b85ff414a61e4a810045be1c69671835012494
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 511f21fb8f900fa85513cf8369ea54f1f52edf12
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348695"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100792"
 ---
 # <a name="systemtotalfilesize"></a>System. Тоталфилесизе
 
@@ -133,11 +133,11 @@ propertyDescription
             mnemonics = gigantic
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

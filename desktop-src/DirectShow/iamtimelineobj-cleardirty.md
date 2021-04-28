@@ -1,5 +1,5 @@
 ---
-description: Не поддерживается.
+description: 'Метод Иамтимелинеобж:: Клеардирти не поддерживается.'
 ms.assetid: 2d6efa65-79ae-4c31-bd98-ad69baea4da2
 title: 'Метод Иамтимелинеобж:: Клеардирти (Кедит. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: d743c062f4c565aabb8f5852e3397ec8f92193a5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92c1beb385b917ec03cbd34feea1bb1aca8d9792
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680042"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119552"
 ---
 # <a name="iamtimelineobjcleardirty-method"></a>Метод Иамтимелинеобж:: Клеардирти
 
@@ -47,7 +47,7 @@ HRESULT ClearDirty();
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -70,7 +70,7 @@ HRESULT ClearDirty();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

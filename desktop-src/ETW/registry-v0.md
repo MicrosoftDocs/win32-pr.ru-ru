@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским классом для событий реестра. Следующий синтаксис упрощен из MOF-кода.
+description: Registry_V0 класс. Этот класс является родительским классом для событий реестра. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 879ac606-f451-4d5d-bf78-3e7fd3093189
 title: Класс Registry_V0
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 7a58427dbb01519b9850461b21fb7dd75a1daf20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee3aa8d5e4f7b7cb557af5eeb4a02c9a10dafbbf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897641"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106182"
 ---
 # <a name="registry_v0-class"></a>\_Класс v0 реестра
 
@@ -34,7 +34,7 @@ class Registry_V0 : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ v0 реестра** не определяет никаких членов.
 
@@ -49,7 +49,7 @@ class Registry_V0 : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
