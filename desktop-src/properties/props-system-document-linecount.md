@@ -1,19 +1,19 @@
 ---
-description: .
+description: System.Docумент. линекаунт
 ms.assetid: a520b9e5-1f58-499f-b93a-c072cf79623b
 title: System.Docумент. линекаунт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0523b1557746de056d503e4dcca39492ee4f3dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ac6de3856720ce5c04d3f43175f62ffc0e7383b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702423"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087172"
 ---
-# <a name="systemdocumentlinecount"></a><span data-ttu-id="b2812-103">System.Docумент. линекаунт</span><span class="sxs-lookup"><span data-stu-id="b2812-103">System.Document.LineCount</span></span>
+# <a name="systemdocumentlinecount"></a><span data-ttu-id="42f87-103">System.Docумент. линекаунт</span><span class="sxs-lookup"><span data-stu-id="42f87-103">System.Document.LineCount</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a><span data-ttu-id="b2812-104">Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span><span class="sxs-lookup"><span data-stu-id="b2812-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a><span data-ttu-id="42f87-104">Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span><span class="sxs-lookup"><span data-stu-id="42f87-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span></span>
 
 ```
 propertyDescription
@@ -29,54 +29,54 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a><span data-ttu-id="b2812-105">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b2812-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="42f87-105">Remarks</span><span class="sxs-lookup"><span data-stu-id="42f87-105">Remarks</span></span>
 
-<span data-ttu-id="b2812-106">Значения PKEY определены в списке PKEY. h.</span><span class="sxs-lookup"><span data-stu-id="b2812-106">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="42f87-106">Значения PKEY определены в списке PKEY. h.</span><span class="sxs-lookup"><span data-stu-id="42f87-106">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="b2812-107">См. также</span><span class="sxs-lookup"><span data-stu-id="b2812-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="42f87-107">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="42f87-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b2812-108">пропертидескриптион</span><span class="sxs-lookup"><span data-stu-id="b2812-108">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="42f87-108">пропертидескриптион</span><span class="sxs-lookup"><span data-stu-id="42f87-108">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-109">сеарчинфо</span><span class="sxs-lookup"><span data-stu-id="b2812-109">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="42f87-109">сеарчинфо</span><span class="sxs-lookup"><span data-stu-id="42f87-109">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-110">лабелинфо</span><span class="sxs-lookup"><span data-stu-id="b2812-110">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="42f87-110">лабелинфо</span><span class="sxs-lookup"><span data-stu-id="42f87-110">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-111">typeInfo</span><span class="sxs-lookup"><span data-stu-id="b2812-111">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="42f87-111">typeInfo</span><span class="sxs-lookup"><span data-stu-id="42f87-111">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-112">displayInfo</span><span class="sxs-lookup"><span data-stu-id="b2812-112">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="42f87-112">displayInfo</span><span class="sxs-lookup"><span data-stu-id="42f87-112">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-113">stringFormat</span><span class="sxs-lookup"><span data-stu-id="b2812-113">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="42f87-113">stringFormat</span><span class="sxs-lookup"><span data-stu-id="42f87-113">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-114">булеанформат</span><span class="sxs-lookup"><span data-stu-id="b2812-114">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="42f87-114">булеанформат</span><span class="sxs-lookup"><span data-stu-id="42f87-114">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-115">numberFormat</span><span class="sxs-lookup"><span data-stu-id="b2812-115">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="42f87-115">numberFormat</span><span class="sxs-lookup"><span data-stu-id="42f87-115">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-116">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="b2812-116">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="42f87-116">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="42f87-116">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-117">енумератедлист</span><span class="sxs-lookup"><span data-stu-id="b2812-117">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="42f87-117">енумератедлист</span><span class="sxs-lookup"><span data-stu-id="42f87-117">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-118">дравконтрол</span><span class="sxs-lookup"><span data-stu-id="b2812-118">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="42f87-118">дравконтрол</span><span class="sxs-lookup"><span data-stu-id="42f87-118">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-119">едитконтрол</span><span class="sxs-lookup"><span data-stu-id="b2812-119">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="42f87-119">едитконтрол</span><span class="sxs-lookup"><span data-stu-id="42f87-119">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-120">филтерконтрол</span><span class="sxs-lookup"><span data-stu-id="b2812-120">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="42f87-120">филтерконтрол</span><span class="sxs-lookup"><span data-stu-id="42f87-120">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2812-121">куериконтрол</span><span class="sxs-lookup"><span data-stu-id="b2812-121">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="42f87-121">куериконтрол</span><span class="sxs-lookup"><span data-stu-id="42f87-121">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  

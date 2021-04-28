@@ -1,17 +1,17 @@
 ---
-description: .
+description: Выполнение ДКСВА-HD Блит
 ms.assetid: fc68704e-68d5-4767-b464-e45ab4c86058
 title: Выполнение ДКСВА-HD Блит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56c3e72a4c8cf550cfce4864e9efb51e98be6d42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37474cdb61136e3e201674695674ccb67abf03a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711418"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092712"
 ---
-# <a name="performing-the-dxva-hd-blit"></a><span data-ttu-id="b3f30-103">Выполнение ДКСВА-HD Блит</span><span class="sxs-lookup"><span data-stu-id="b3f30-103">Performing the DXVA-HD Blit</span></span>
+# <a name="performing-the-dxva-hd-blit"></a><span data-ttu-id="cf68f-103">Выполнение ДКСВА-HD Блит</span><span class="sxs-lookup"><span data-stu-id="cf68f-103">Performing the DXVA-HD Blit</span></span>
 
 
 ```C++
@@ -91,11 +91,11 @@ done:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="b3f30-104">См. также</span><span class="sxs-lookup"><span data-stu-id="b3f30-104">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="cf68f-104">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="cf68f-104">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b3f30-105">ДКСВА-HD</span><span class="sxs-lookup"><span data-stu-id="b3f30-105">DXVA-HD</span></span>](dxva-hd.md)
+[<span data-ttu-id="cf68f-105">ДКСВА-HD</span><span class="sxs-lookup"><span data-stu-id="cf68f-105">DXVA-HD</span></span>](dxva-hd.md)
 </dt> </dl>
 
  
