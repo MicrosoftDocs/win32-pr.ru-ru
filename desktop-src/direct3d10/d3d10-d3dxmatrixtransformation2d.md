@@ -1,5 +1,5 @@
 ---
-description: Формирует матрицу 2D-преобразования, представляющую преобразования в плоскости XY. Аргументы NULL обрабатываются как преобразования Identity.
+description: Функция D3DXMatrixTransformation2D (D3DX10Math. h) — строит матрицу 2D-преобразования, представляющую преобразования в плоскости XY. Аргументы NULL обрабатываются как преобразования Identity.
 ms.assetid: 5b894c3b-a532-458a-bcbc-48fcd5c73c34
 title: Функция D3DXMatrixTransformation2D (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: b41d8234dcd9dda1b3735c83460a20c7109e63d7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4ef112c346fd222f5e25935740e47ab62273628f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103821388"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103362"
 ---
 # <a name="d3dxmatrixtransformation2d-function-d3dx10mathh"></a>Функция D3DXMatrixTransformation2D (D3DX10Math. h)
 
@@ -115,7 +115,7 @@ D3DXMATRIX* D3DXMatrixTransformation2D(
 
 Указатель на структуру D3DXMATRIX, содержащую матрицу преобразования.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция вычисляет матрицу преобразования с помощью следующей формулы, при этом сцепление матрицы вычисляется в порядке слева направо:
 
@@ -152,7 +152,7 @@ MT = матрица перевода (Птранслатион)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

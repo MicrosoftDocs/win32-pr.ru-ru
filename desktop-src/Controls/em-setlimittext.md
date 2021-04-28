@@ -1,6 +1,6 @@
 ---
 title: Сообщение EM_SETLIMITTEXT (Winuser. h)
-description: Задает ограничение текста для элемента управления "поле ввода".
+description: EM_SETLIMITTEXT сообщение — задает предельный размер текста для элемента управления "поле ввода".
 ms.assetid: e2be7814-435b-495f-982a-32247fbc0165
 keywords:
 - Элементы управления Windows для EM_SETLIMITTEXT сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c138e6d7fed75fa8da2e7a6b93308632c250e7d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b66d4e03b5c1824ab501226482fcf51fb9121cba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802656"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109752"
 ---
 # <a name="em_setlimittext-message"></a>\_Сообщение СЕТЛИМИТТЕКСТ EM
 
@@ -55,7 +55,7 @@ ms.locfileid: "103802656"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщение **EM \_ сетлимиттекст** ограничивает только текст, который может ввести пользователь. Он не влияет на текст, который уже находится в элементе управления "поле ввода" при отправке сообщения, и на длину текста, скопированного в элемент управления "поле ввода" с помощью сообщения [**WM \_ SETTEXT**](/windows/desktop/winmsg/wm-settext) . Если приложение использует сообщение **WM \_ SETTEXT** для размещения большего текста в элементе управления "поле ввода", чем указано в **сообщении \_ сетлимиттекст EM** , пользователь может изменить все содержимое элемента управления "поле ввода".
 
@@ -77,7 +77,7 @@ ms.locfileid: "103802656"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

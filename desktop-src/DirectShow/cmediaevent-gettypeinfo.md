@@ -1,5 +1,5 @@
 ---
-description: Извлекает объект сведений о типе, который может получить сведения о типе для интерфейса.
+description: Кмедиаевент. GetTypeInfo метод — получает объект сведений о типе, который может получать сведения о типе для интерфейса.
 ms.assetid: d54042d5-e9d3-415c-b90d-1fe7d38164f5
 title: Кмедиаевент. GetTypeInfo, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e351d3b8b06bea4f6f9a1a160802972a8fa50f82
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f93e3227051729f9d16e1f9ef8de464a14cca33b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669228"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095572"
 ---
 # <a name="cmediaeventgettypeinfo-method"></a>Кмедиаевент. GetTypeInfo, метод
 
@@ -80,7 +80,7 @@ HRESULT GetTypeInfo(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

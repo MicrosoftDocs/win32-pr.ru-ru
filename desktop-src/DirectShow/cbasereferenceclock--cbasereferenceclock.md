@@ -1,5 +1,5 @@
 ---
-description: Метод деструктора.
+description: Метод деструктора Кбасереференцеклокк. ~ Кбасереференцеклокк.
 ms.assetid: 6ba6a3ad-bc4b-471d-a89c-e4d1682893fe
 title: Деструктор Кбасереференцеклокк. ~ Кбасереференцеклокк (Рефклокк. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 946afb27a7a60d9c18c0194dd30372023ccf8a1c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 531a5efb42b82a791ab4a526fe1c1d2834997f74
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657664"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095986"
 ---
 # <a name="cbasereferenceclockcbasereferenceclock-destructor"></a>Деструктор Кбасереференцеклокк. ~ Кбасереференцеклокк
 
@@ -47,7 +47,7 @@ ms.locfileid: "105657664"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

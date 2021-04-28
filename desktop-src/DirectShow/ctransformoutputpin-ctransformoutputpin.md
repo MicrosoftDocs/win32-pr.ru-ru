@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Ктрансформаутпутпин. Ктрансформаутпутпин.
 ms.assetid: 6213ce92-d98a-4fb6-b66c-e7cdea6dff0d
 title: Конструктор Ктрансформаутпутпин. Ктрансформаутпутпин (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 730149ae67abb2924174954bb8b620a02cfae2b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a1f7cb9dd811c878eba258a6087e00a85d4c24a0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105676061"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084872"
 ---
 # <a name="ctransformoutputpinctransformoutputpin-constructor"></a>Ктрансформаутпутпин. Ктрансформаутпутпин, конструктор
 
@@ -73,7 +73,7 @@ CTransformOutputPin(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр *pName* указывает имя ПИН-кода, которое возвращается методом [**Ипин:: куерипининфо**](/windows/desktop/api/Strmif/nf-strmif-ipin-querypininfo) . Однако строка не используется для идентификатора ПИН-кода. Идентификатор ПИН-кода для этого класса всегда имеет значение "out". Дополнительные сведения см. в разделе [**QueryId**](ctransformoutputpin-queryid.md).
 

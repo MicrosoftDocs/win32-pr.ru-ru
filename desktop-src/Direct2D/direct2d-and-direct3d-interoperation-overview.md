@@ -1,6 +1,6 @@
 ---
 title: Общие сведения о взаимодействии Direct2D и Direct3D
-description: .
+description: Общие сведения о взаимодействии Direct2D и Direct3D
 ms.assetid: 27680714-dc68-44eb-ab16-2cae3529b352
 keywords:
 - Direct2D, взаимодействие Direct3D
@@ -14,12 +14,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 6854481ec2a8d869467aa912252e3649e17f2501
-ms.sourcegitcommit: 4e4f9e7c90d25af0774deec1d44bd49fa9b6daa9
+ms.openlocfilehash: cf7cfa41c3decc964492258dad9c6a3a497f504b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "104134746"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089192"
 ---
 # <a name="direct2d-and-direct3d-interoperability-overview"></a>Общие сведения о взаимодействии Direct2D и Direct3D
 
@@ -29,7 +29,7 @@ ms.locfileid: "104134746"
 
 В него входят следующие разделы.
 
--   [Предварительные условия](#prerequisites)
+-   [Предварительные требования](#prerequisites)
 -   [Поддерживаемые версии Direct3D](#supported-direct3d-versions)
 -   [Взаимодействие через DXGI](#interoperability-through-dxgi)
 -   [Запись в поверхность Direct3D с целевым объектом отрисовки поверхности DXGI](#writing-to-a-direct3d-surface-with-a-dxgi-surface-render-target)
@@ -39,9 +39,9 @@ ms.locfileid: "104134746"
 -   [Использование содержимого Direct2D в качестве текстуры](#using-direct2d-content-as-a-texture)
     -   [Пример. использование содержимого Direct2D в качестве текстуры](#example-use-direct2d-content-as-a-texture)
 -   [Изменение размера целевого объекта отрисовки поверхности DXGI](#resizing-a-dxgi-surface-render-target)
--   [См. также](#related-topics)
+-   [Связанные разделы](#related-topics)
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 В этом обзоре предполагается, что вы знакомы с базовыми операциями рисования Direct2D. Инструкции см. в [кратком](direct2d-quickstart.md)руководстве по Direct2D. Также предполагается, что вы можете программировать с помощью [Direct3D 10,1](/windows/desktop/direct3d10/d3d10-graphics).
 
@@ -382,7 +382,7 @@ hr = m_pOffscreenTexture->QueryInterface(&pDxgiSurface);
 
 Для реализации этого подхода метод изменения размера должен проверить, доступно ли устройство Direct3D. Если она доступна, выпустите и повторно создайте целевые объекты отрисовки для поверхности DXGI, но сохраните все созданные ранее ресурсы и используйте их повторно. Это работает потому, что, как описано в [обзоре ресурсов](resources-and-resource-domains.md), ресурсы, созданные двумя целевыми объектами рендеринга, совместимы, если обе цели рендеринга связаны с одним и тем же устройством Direct3D.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
@@ -395,6 +395,6 @@ hr = m_pOffscreenTexture->QueryInterface(&pDxgiSurface);
 [Графическая система Windows DirectX](../graphics-and-multimedia.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

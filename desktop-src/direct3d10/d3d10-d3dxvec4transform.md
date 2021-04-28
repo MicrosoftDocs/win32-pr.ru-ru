@@ -1,5 +1,5 @@
 ---
-description: Преобразует вектор 4D по заданной матрице.
+description: Функция D3DXVec4Transform (D3DX10Math. h) — преобразует вектор 4D по заданной матрице.
 ms.assetid: ccbf33bc-1f94-4cf8-b048-220d54516e00
 title: Функция D3DXVec4Transform (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 56fc6b3041d799cda3e98d459b2523d4b171df10
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 737e1901a514a3940790ce83c7e9bc1f6f471371
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103914712"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102922"
 ---
 # <a name="d3dxvec4transform-function-d3dx10mathh"></a>Функция D3DXVec4Transform (D3DX10Math. h)
 
@@ -74,7 +74,7 @@ D3DXVECTOR4* D3DXVec4Transform(
 
 Указатель на структуру D3DXVECTOR4, которая является преобразованным вектором 4D.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXVec4Transform может использоваться в качестве параметра для другой функции.
 
@@ -88,7 +88,7 @@ D3DXVECTOR4* D3DXVec4Transform(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

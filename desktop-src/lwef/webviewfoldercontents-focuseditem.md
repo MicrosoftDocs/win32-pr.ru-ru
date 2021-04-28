@@ -1,6 +1,6 @@
 ---
 title: Свойство Вебвиевфолдерконтентс. Фокуседитем (Шлдисп. h)
-description: Возвращает объект FolderItem, представляющий элемент, имеющий фокус ввода.
+description: Вебвиевфолдерконтентс. Фокуседитем Property — возвращает объект FolderItem, представляющий элемент, имеющий фокус ввода.
 ms.assetid: 84cf92ac-dadb-4741-8383-a8ae1d35d4e0
 keywords:
 - Свойства Фокуседитем устаревшие функции среды Windows
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 050e7c2a4c280a949ec3684e2b05610830315a37
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 724743b81f605dc9ba5794a4a796b8a0c4a2a03f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414817"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102732"
 ---
 # <a name="webviewfoldercontentsfocuseditem-property"></a>Вебвиевфолдерконтентс. Фокуседитем, свойство
 

@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Сетсумбнаил.
+description: IWICBitmapFrameEncode_SetThumbnail_Proxy функция-прокси для метода Сетсумбнаил.
 ms.assetid: 3ad473ec-9218-4ed1-961d-a2aa0d542119
 title: Функция IWICBitmapFrameEncode_SetThumbnail_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 052e73911178ef0db957c5dd8edcf6e9d6892ace
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9af9dd2d4f8fe71a6dc94420db17383a5da6da28
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911387"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116602"
 ---
 # <a name="iwicbitmapframeencode_setthumbnail_proxy-function"></a>Ивикбитмапфраминкоде \_ сетсумбнаил \_ -функция
 
@@ -44,16 +44,16 @@ HRESULT IWICBitmapFrameEncode_SetThumbnail_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) \** _
+Тип: **[ **ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)\***
 
-Указатель на этот объект [_ *ивикбитмапфраминкоде* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) .
+Указатель на этот объект [**ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) .
 
 </dd> <dt>
 
 *писумбнаил* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+Тип: **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 Источник точечного рисунка для использования в качестве эскиза.
 
@@ -61,7 +61,7 @@ HRESULT IWICBitmapFrameEncode_SetThumbnail_Proxy(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 

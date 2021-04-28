@@ -1,5 +1,5 @@
 ---
-description: Создайте обработчик данных, который будет использоваться в конвейере потоков.
+description: Функция D3DX10CreateAsyncTextureProcessor. Создайте обработчик данных, который будет использоваться в конвейере потоков.
 ms.assetid: c96b0ebb-7b9c-47d0-ad4f-fa62ddb74fa1
 title: Функция D3DX10CreateAsyncTextureProcessor (D3DX10Tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d1d9c61729e72cc4ae5432361e9c1d968551b9c2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e75ab6b796f23399b453a6c7eebfe0d40e3b7b49
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081918"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102792"
 ---
 # <a name="d3dx10createasynctextureprocessor-function"></a>Функция D3DX10CreateAsyncTextureProcessor
 
@@ -75,7 +75,7 @@ HRESULT D3DX10CreateAsyncTextureProcessor(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот API создает интерфейс процессора данных и загружает текстуру. [**D3DX10CreateAsyncTextureInfoProcessor**](d3dx10createasynctextureinfoprocessor.md) создает интерфейс процессора данных.
 
@@ -90,7 +90,7 @@ HRESULT D3DX10CreateAsyncTextureProcessor(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

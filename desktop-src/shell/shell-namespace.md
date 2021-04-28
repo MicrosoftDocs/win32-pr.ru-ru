@@ -1,5 +1,5 @@
 ---
-description: Создает и возвращает объект Folder для указанной папки.
+description: Shell. NameSpace метод — создает и возвращает объект Folder для указанной папки.
 ms.assetid: c0d61bc6-6851-4b47-a62d-4c24d2958b98
 title: Метод Shell. NameSpace (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 856a86efb4aca6ae7c1d4c8a3a81b5bc722a3963
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fab501912c55aaaf6cab832bf76763672e830d33
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264544"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083713"
 ---
 # <a name="shellnamespace-method"></a>Метод Shell. NameSpace
 

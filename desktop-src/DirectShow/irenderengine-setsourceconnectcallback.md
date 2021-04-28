@@ -1,5 +1,5 @@
 ---
-description: Не поддерживается.
+description: 'Метод Ирендеренгине:: Сетсаурцеконнекткаллбакк не поддерживается.'
 ms.assetid: 7da88bab-abba-417c-9e33-c4fc4950536f
 title: 'Метод Ирендеренгине:: Сетсаурцеконнекткаллбакк'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e58755ef936b6dd0822dbbc8a4159291cf2e0454
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e8fc7dca58f2c1406f575f99d8119edd9bd750d9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105672993"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084432"
 ---
 # <a name="irenderenginesetsourceconnectcallback-method"></a>Метод Ирендеренгине:: Сетсаурцеконнекткаллбакк
 
@@ -54,7 +54,7 @@ HRESULT SetSourceConnectCallback(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -66,7 +66,7 @@ HRESULT SetSourceConnectCallback(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

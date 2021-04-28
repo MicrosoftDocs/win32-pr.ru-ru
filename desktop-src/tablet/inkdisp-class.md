@@ -1,5 +1,5 @@
 ---
-description: Представляет собранные штрихи рукописного ввода в пределах пространства рукописного ввода.
+description: Класс Инкдисп — представляет собранные штрихи рукописного ввода в пределах пространства рукописного ввода.
 ms.assetid: f942d6a3-f303-49df-a128-de9760b508ef
 title: Класс Инкдисп (Мсинкаут. h)
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 429cbf85bdc92753cda1e58a0e89086b4b5b8b53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4214d6b03e5823bd5012017e418066763c8132c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808807"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109992"
 ---
 # <a name="inkdisp-class"></a>Класс Инкдисп
 
@@ -76,7 +76,7 @@ ms.locfileid: "103808807"
 | [**клипбоардкопи**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy)                           | Копирует коллекцию [инкстрокес](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) в буфер обмена.<br/>                                                                                                           |
 | [**клипбоардкопивисректангле**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle) | Копирует объекты [**иинкстрокедисп**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) , содержащиеся в известном прямоугольнике, в буфер обмена.<br/>                                                               |
 | [**клипбоардпасте**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardpaste)                         | Копирует [**IDataObject**](/windows/desktop/api/objidl/nn-objidl-idataobject) из буфера обмена в объект **инкдисп** .<br/>                                                                                               |
-| [**Клонировать**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                           | Создает дубликат объекта **инкдисп** .<br/>                                                                                                                                                   |
+| [**Clone (Клонировать)**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                           | Создает дубликат объекта **инкдисп** .<br/>                                                                                                                                                   |
 | [**креатестроке**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstroke)                             | Создает штрих по точкам или данным пакетов.<br/>                                                                                                                                              |
 | [**креатестрокес**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes)                           | Создает коллекцию [инкстрокес](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) для этого объекта **инкдисп** .<br/>                                                                                                |
 | [**делетестроке**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke)                             | Удаляет штрих из объекта **инкдисп** .<br/>                                                                                                                                             |
@@ -87,7 +87,7 @@ ms.locfileid: "103808807"
 | [**хиттестЦиркле**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle)                   | Извлекает коллекцию [**инкстрокес**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) , которая полностью находится внутри известного круга или пересекается ей.<br/>                                                  |
 | [**хиттествислассо**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithlasso)              | Извлекает штрихи в области выделения ломаной линии.<br/>                                                                                                                                   |
 | [**хиттествисректангле**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithrectangle)        | Извлекает штрихи, содержащиеся в указанном прямоугольнике.<br/>                                                                                                                    |
-| [**Загрузить**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load)                                             | Заполняет новый объект **инкдисп** известными двоичными данными.<br/>                                                                                                                                |
+| [**Загрузка**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load)                                             | Заполняет новый объект **инкдисп** известными двоичными данными.<br/>                                                                                                                                |
 | [**неарестпоинт**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-nearestpoint)                             | Извлекает [**иинкстрокедисп**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) в объекте **инкдисп** , который является ближайшим к известной точке, при необходимости предоставляя дополнительные сведения.<br/>                       |
 | [**Сохранить**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save)                                             | Преобразует рукописный ввод в указанный формат и возвращает двоичные данные.<br/>                                                                                                                       |
 
@@ -112,7 +112,7 @@ ms.locfileid: "103808807"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для создания экземпляра этого объекта можно вызвать метод [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) в C++.
 
@@ -142,7 +142,7 @@ ms.locfileid: "103808807"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

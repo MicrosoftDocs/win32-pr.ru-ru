@@ -1,5 +1,5 @@
 ---
-description: Метод Чеккконнект определяет, подходит ли подключение по ПИН-коду.
+description: Кбасепин. Чеккконнект, метод Чеккконнект определяет, подходит ли подключение по ПИН-коду.
 ms.assetid: 511a1594-f3f8-4725-afcd-f14f3a4ebf20
 title: Кбасепин. Чеккконнект, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 24d5c221da417fd1fc2b3f9f140536f825b2f9d9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 314d3e1ce0e73e60ea07bb4f7270fa04f69750c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669304"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096052"
 ---
 # <a name="cbasepincheckconnect-method"></a>Кбасепин. Чеккконнект, метод
 
@@ -64,7 +64,7 @@ virtual HRESULT CheckConnect(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывается на обоих ПИН-кодах в начале процесса подключения. Соединительный ПИН-код вызывает его в методе [**кбасепин:: Connect**](cbasepin-connect.md) , а принимающий ПИН-код вызывает его из метода [**Кбасепин:: рецеивеконнектион**](cbasepin-receiveconnection.md) .
 
@@ -83,7 +83,7 @@ virtual HRESULT CheckConnect(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

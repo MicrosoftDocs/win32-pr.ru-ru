@@ -1,5 +1,5 @@
 ---
-description: Указатель на функцию, которая создает экземпляр объекта.
+description: Указатель функции Лпфнневкомобжект — указатель на функцию, которая создает экземпляр объекта.
 ms.assetid: 8c9dab82-a080-4733-8c62-d090b28306e0
 title: Указатель функции Лпфнневкомобжект (Комбасе. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Combase.h
-ms.openlocfilehash: 07c0f8ab961c872c9dc0f92d2fff519b94cd049e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3ea5bc172bc22f7aa9dce1f348bba552520565f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689075"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116532"
 ---
 # <a name="lpfnnewcomobject-function-pointer"></a>Указатель функции Лпфнневкомобжект
 
@@ -68,7 +68,7 @@ typedef CUnknown* ( CALLBACK *LPFNNewCOMObject)(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Метод Бегинфлуш начинает операцию очистки.
+description: Кбасерендерер. Бегинфлуш, метод Бегинфлуш начинает операцию очистки.
 ms.assetid: dc652394-c24e-4cea-ac28-30a1e6de205f
 title: Кбасерендерер. Бегинфлуш, метод (Ренбасе. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e218e3b2d9c0cef8ce0fe052ad1b3c4b6f786858
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 76dfd77a5170a83813871143781868cae55c45ba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668752"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095942"
 ---
 # <a name="cbaserendererbeginflush-method"></a>Кбасерендерер. Бегинфлуш, метод
 
@@ -44,7 +44,7 @@ virtual HRESULT BeginFlush();
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Входной ПИН-код фильтра вызывает этот метод при получении вызова метода [**Ипин:: бегинфлуш**](/windows/desktop/api/Strmif/nf-strmif-ipin-beginflush) . Фильтр освобождает поток потоковой передачи и освобождает все примеры, которые он удерживает для подготовки к просмотру.
 
@@ -59,7 +59,7 @@ virtual HRESULT BeginFlush();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

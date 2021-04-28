@@ -1,5 +1,5 @@
 ---
-description: Вычисляет натуральный логарифм.
+description: Функция D3DXQuaternionLn (D3DX10Math. h) — Вычисляет натуральный логарифм.
 ms.assetid: 576cf676-bb42-45ec-8e45-4612a7cdb167
 title: Функция D3DXQuaternionLn (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 07b081e0e2063d18ab8f2bb010e2b436c38df097
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9abaaa231e424e55e496b7901882e9da17c59786
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674745"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103212"
 ---
 # <a name="d3dxquaternionln-function-d3dx10mathh"></a>Функция D3DXQuaternionLn (D3DX10Math. h)
 
@@ -65,7 +65,7 @@ D3DXQUATERNION* D3DXQuaternionLn(
 
 Указатель на структуру D3DXQUATERNION, которая является естественным логарифмом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция D3DXQuaternionLn работает только для единичных кватернионов.
 
@@ -93,7 +93,7 @@ The natural logarithm of Q is, ln(Q) = (0, theta * v)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

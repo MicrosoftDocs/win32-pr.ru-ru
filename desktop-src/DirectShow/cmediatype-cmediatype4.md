@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Конструктор Кмедиатипе. Кмедиатипе (Мтипе. h) — метод-конструктор.
 ms.assetid: 35198320-d028-42d4-823f-4f8346d8f977
 title: Кмедиатипе. Кмедиатипе-конструктор (Мтипе. h) — параметры кмтипе и фр
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a40929bb6f53df7ce721e20eefba3019eb71cb0e
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: dd91252920c74d45e4218be3c3d03249a116bfcf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106389068"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095422"
 ---
 # <a name="cmediatypecmediatype-constructor-mtypeh"></a>Конструктор Кмедиатипе. Кмедиатипе (Мтипе. h)
 
@@ -67,7 +67,7 @@ CMediaType(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Заголовок<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Header<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

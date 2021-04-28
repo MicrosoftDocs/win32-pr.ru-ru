@@ -1,5 +1,5 @@
 ---
-description: Запрашивает изменение состояния.
+description: Метод RequestStateChange класса Msvm_ShutdownComponent — запрашивает изменение состояния.
 ms.assetid: bb1dea51-f9d6-4edc-8044-53380cc4d32e
 title: Метод RequestStateChange класса Msvm_ShutdownComponent
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: fd012a3209d68d801432d98705eed155b7ba0906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71237715f08e3775ff4c61660a789e000e4f5a5d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810757"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109612"
 ---
 # <a name="requeststatechange-method-of-the-msvm_shutdowncomponent-class"></a>Метод RequestStateChange \_ класса мсвм шутдовнкомпонент
 
@@ -159,7 +159,7 @@ uint32 RequestStateChange(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -167,7 +167,7 @@ uint32 RequestStateChange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

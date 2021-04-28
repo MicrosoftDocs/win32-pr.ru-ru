@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Софтвареусед
 ms.assetid: 778cc069-fc2d-4ace-b3bd-6d3f97486079
 title: System. Софтвареусед
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71d35198e2452ed1fba6d4eac076fbde62b175fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4249cb50068ce5daf8c189bd171005c1e3796421
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712135"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089972"
 ---
 # <a name="systemsoftwareused"></a>System. Софтвареусед
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Сообщение EM_FINDTEXT (RichEdit. h)
-description: Поиск текста в элементе управления Rich Edit.
+description: EM_FINDTEXT сообщение — находит текст в элементе управления Rich Edit.
 ms.assetid: f19e19a0-d8dd-4d31-b76d-f1f09577dd2d
 keywords:
 - Элементы управления Windows для EM_FINDTEXT сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e50034337f05d2df17af777986136881c503d05
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 452d4e2534fb05cbbbf4c02ac4146f2f8914c9bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988831"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109852"
 ---
 # <a name="em_findtext-message"></a>\_Сообщение строки FINDTEXT EM
 
@@ -62,7 +62,7 @@ ms.locfileid: "103988831"
 
 Если целевая строка найдена, возвращаемое значение является Отсчитываемая от нуля позицией первого символа совпадения. Если целевой объект не найден, возвращается значение-1.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **кпмин** в **строки FindText. чрг** всегда указывает начальную точку поиска, а **кпмакс** задает конечную точку. При поиске в обратном направлении **кпмин** должно быть больше или равно **кпмакс**. При поиске вперед значение-1 в **кпмакс** расширяет диапазон поиска до конца текста.
 
@@ -78,7 +78,7 @@ ms.locfileid: "103988831"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.
+description: 'Метод IMpeg2PsiParser:: Жеткаунтофелементаристреамс. Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.'
 ms.assetid: 19ef96a8-3d5b-4da1-8cff-d6a271ad4915
 title: 'Метод IMpeg2PsiParser:: Жеткаунтофелементаристреамс'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6593b699592c913940b14c2c26aea42057acfa40
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fc81c0a66751751a73a3895fd31fe8651aee8caf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105672977"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089162"
 ---
 # <a name="impeg2psiparsergetcountofelementarystreams-method"></a>Метод IMpeg2PsiParser:: Жеткаунтофелементаристреамс
 
@@ -69,11 +69,11 @@ HRESULT GetCountOfElementaryStreams(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить номер программы, используйте метод **жетрекордпрограмнумбер** .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

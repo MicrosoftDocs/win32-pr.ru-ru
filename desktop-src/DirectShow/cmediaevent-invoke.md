@@ -1,5 +1,5 @@
 ---
-description: Предоставляет доступ к открытым свойствам и методам объекта.
+description: Метод Кмедиаевент. Invoke — предоставляет доступ к свойствам и методам, предоставляемым объектом.
 ms.assetid: 2b091b57-0855-489a-9a33-cfc75f63ad07
 title: Метод Кмедиаевент. Invoke (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 22482cffe11f62d50361bc950409858a2436d8a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea812d0c7629b98d90f3f7e535d229c707452b23
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669227"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095542"
 ---
 # <a name="cmediaeventinvoke-method"></a>Кмедиаевент. Invoke, метод
 
@@ -120,7 +120,7 @@ HRESULT Invoke(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

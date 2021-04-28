@@ -1,5 +1,5 @@
 ---
-description: Метод Pause приостанавливает текущую запись.
+description: ИЕСП::P метод Аусе — метод Pause приостанавливает текущую запись.
 ms.assetid: efbc8947-b9fe-4dbd-8097-375b5f99845e
 title: 'ИЕСП: метод:P Аусе (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 0558c5dfe36f26e3aad9f31101364d2e8e5c4967
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 486c7aedc7092e0dd0f9f68cc1ea2ccad08d9438
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540183"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084242"
 ---
 # <a name="iesppause-method"></a>ИЕСП: метод:P Аусе
 
@@ -66,7 +66,7 @@ HRESULT STDMETHODCALLTYPE Pause(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пока запись находится в приостановленном состоянии, новые данные не добавляются в текущий [*файл записи*](c.md) до тех пор, пока не будет вызван метод [ИЕСП:: Resume](iesp-resume.md) для перезапуска записи. Если **приостановка** и **возобновление** используются для остановки и перезапуска записи, вся записанная информация помещается в один и тот же файл записи.
 
@@ -87,7 +87,7 @@ HRESULT STDMETHODCALLTYPE Pause(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

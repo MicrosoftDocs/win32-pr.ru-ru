@@ -1,5 +1,5 @@
 ---
-description: Задает состояние выбора элемента в представлении.
+description: Шеллфолдервиев. Селектитем, метод — задает состояние выбора элемента в представлении.
 title: Шеллфолдервиев. Селектитем, метод (Шлдисп. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 91c39d4c-56c3-4c2b-93e8-9f782ca0aa93
-ms.openlocfilehash: d44633983075cdf22581bce05cfb7c073f422084
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8cbff0da4da55d9621bfeb01f26c5ed62fe230a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266169"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116752"
 ---
 # <a name="shellfolderviewselectitem-method"></a>Шеллфолдервиев. Селектитем, метод
 
@@ -43,9 +43,9 @@ ShellFolderView.SelectItem(
 *витем* \[ окне\]
 </dt> <dd>
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Объект [_ *FolderItem* *](folderitem.md) , для которого будет задано состояние выбора.
+Объект [**FolderItem**](folderitem.md) , для которого будет задано состояние выбора.
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ ShellFolderView.SelectItem(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 [**Фокуседитем**](shellfolderview-focuseditem.md) может быть вызван только в локальной системе. Он не будет работать при запуске на веб-странице по протоколу HTTP или UNC.
 

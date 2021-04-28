@@ -1,5 +1,5 @@
 ---
-description: Создает правильную матрицу с просмотром правой части.
+description: Функция D3DXMatrixLookAtRH (D3DX10Math. h) — создает таблицу с правой стороны и просмотром.
 ms.assetid: 98c8932f-f179-42ed-a361-a89065b71876
 title: Функция D3DXMatrixLookAtRH (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 28c2ad0cc7eb8a3ba98aacadc764bc277a1fdad0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0380207124e4a446b6303dbb377d116b8ae058ad
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081904"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103452"
 ---
 # <a name="d3dxmatrixlookatrh-function-d3dx10mathh"></a>Функция D3DXMatrixLookAtRH (D3DX10Math. h)
 
@@ -85,7 +85,7 @@ D3DXMATRIX* D3DXMatrixLookAtRH(
 
 Указатель на структуру D3DXMATRIX, которая является правой рукой и выглядит в матрице.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXMatrixLookAtRH может использоваться в качестве параметра для другой функции.
 
@@ -116,7 +116,7 @@ dot(xaxis, eye)  -dot(yaxis, eye)  -dot(zaxis, eye)  1
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

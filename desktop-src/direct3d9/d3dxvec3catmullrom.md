@@ -1,5 +1,5 @@
 ---
-description: Выполняет Catmull-Rom интерполяцию с использованием указанных трехмерных векторов.
+description: Функция D3DXVec3CatmullRom (D3dx9math. h) — выполняет Catmull-Rom интерполяцию с использованием указанных трехмерных векторов.
 ms.assetid: 779f067c-ac46-4fde-9e18-e31b1504b490
 title: Функция D3DXVec3CatmullRom (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d56c4551f6451d5b817ca0a312ceea6961d3fcce
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bc2a72f6d638c7a4daa8db1849a790bdd76556b9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694358"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115662"
 ---
 # <a name="d3dxvec3catmullrom-function-d3dx9mathh"></a>Функция D3DXVec3CatmullRom (D3dx9math. h)
 
@@ -105,7 +105,7 @@ D3DXVECTOR3* D3DXVec3CatmullRom(
 
 Указатель на структуру [**D3DXVECTOR3**](d3dxvector3.md) , которая является результатом интерполяции Catmull-Rom.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Учитывая четыре точки (P1, P2, P3, P4), найдите функцию Q (с) таким образом:
 
@@ -179,7 +179,7 @@ Q(s) = [(-s3 + 2s2 - s)p1 + (3s3 - 5s2 + 2)p2 + (-3s3 + 4s2 + s)p3 + (s3 - s2)p4
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

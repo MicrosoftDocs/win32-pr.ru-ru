@@ -1,5 +1,5 @@
 ---
-description: Метод Resume перезапускает отложенную запись.
+description: 'Метод ИЕСП:: Resume. метод Resume перезапускает отложенную запись.'
 ms.assetid: 047ea5f8-de3d-40db-ada3-fc0ef4deccef
 title: 'Метод ИЕСП:: Resume (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 01bbb748fc91bcc5a78b281ec9ebdd2a6d479888
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 498beda4f2f6c61af918d542542c4ed7b789ba1a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682463"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084252"
 ---
 # <a name="iespresume-method"></a>Метод ИЕСП:: Resume
 
@@ -56,7 +56,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пока запись находится в приостановленном состоянии, новые данные не добавляются в текущий [*файл записи*](c.md) до тех пор, пока не будет вызван метод **ИЕСП:: Resume** для перезапуска записи. Если **приостановка** и **возобновление** используются для остановки и перезапуска записи, вся записанная информация помещается в один и тот же файл записи.
 
@@ -77,7 +77,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

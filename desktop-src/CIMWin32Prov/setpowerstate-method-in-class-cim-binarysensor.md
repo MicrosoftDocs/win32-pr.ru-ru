@@ -1,5 +1,5 @@
 ---
-description: Метод SetPowerState задает требуемое состояние электропитания для логического устройства и когда устройство должно быть переведено в это состояние.
+description: Метод SetPowerState класса CIM_BinarySensor. Метод SetPowerState задает требуемое состояние электропитания для логического устройства и когда устройство должно быть переведено в это состояние.
 ms.assetid: bf5bdc90-9735-47b8-87d5-8f2482e603ed
 ms.tgt_platform: multiple
 title: Метод SetPowerState класса CIM_BinarySensor
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a8bcb0443cfeba88e464d594c453aee592092520
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fd18c9f5761cac208f8682bbc3c8f189cf0aefe0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650443"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089512"
 ---
 # <a name="setpowerstate-method-of-the-cim_binarysensor-class"></a>Метод SetPowerState \_ класса CIM бинарисенсор
 
@@ -108,7 +108,7 @@ uint32 SetPowerState(
 
 Возвращает 0 (нуль) в случае успеха, 1 (один), если *указанный запрос* о сбое и *время* не поддерживаются, и другое значение, если произошла какая-либо другая ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -128,7 +128,7 @@ uint32 SetPowerState(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

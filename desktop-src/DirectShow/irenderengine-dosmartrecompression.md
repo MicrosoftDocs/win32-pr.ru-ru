@@ -1,5 +1,5 @@
 ---
-description: Не поддерживается.
+description: 'Ирендеренгине: метод:D Осмартрекомпрессион не поддерживается.'
 ms.assetid: 4629b626-c511-4a1e-a647-06554869891a
 title: 'Ирендеренгине: метод:D Осмартрекомпрессион'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d0242bc8eb92e75852ceae706f5971caf4229eba
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a3e13a51564b39ba2e954da38a5453e63c4036d2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103989995"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084472"
 ---
 # <a name="irenderenginedosmartrecompression-method"></a>Ирендеренгине: метод:D Осмартрекомпрессион
 
@@ -45,7 +45,7 @@ HRESULT DoSmartRecompression();
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -57,7 +57,7 @@ HRESULT DoSmartRecompression();
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

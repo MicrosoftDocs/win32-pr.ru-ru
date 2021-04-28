@@ -1,5 +1,5 @@
 ---
-description: Возвращает точку в координатах Барицентрик с использованием указанных векторов 4D.
+description: Функция D3DXVec4BaryCentric (D3DX10Math. h) — возвращает точку в координатах Барицентрик, используя указанные векторы 4D.
 ms.assetid: 44406135-3270-4f2e-bb53-29affb2510f2
 title: Функция D3DXVec4BaryCentric (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 026012a3e7410cf962b4cc40bd82cd7606529770
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 935432d1634a7fd35401d92471b1f366075ac8b7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674743"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102992"
 ---
 # <a name="d3dxvec4barycentric-function-d3dx10mathh"></a>Функция D3DXVec4BaryCentric (D3DX10Math. h)
 
@@ -104,7 +104,7 @@ D3DXVECTOR4* D3DXVec4BaryCentric(
 
 Указатель на структуру D3DXVECTOR4 в координатах Барицентрик.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция D3DXVec4BaryCentric предоставляет способ для понимания точек в треугольнике и вокруг него независимо от того, где фактически находится треугольник. Эта функция возвращает результирующую точку, используя следующее уравнение: v1 + f (V2-v1) + g (v3-v1).
 
@@ -133,7 +133,7 @@ D3DXVECTOR4* D3DXVec4BaryCentric(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

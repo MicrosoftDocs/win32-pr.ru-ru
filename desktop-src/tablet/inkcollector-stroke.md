@@ -1,15 +1,15 @@
 ---
-description: Происходит, когда пользователь рисует новый штрих на любом планшете.
+description: Событие InkCollector. Stroke — происходит, когда пользователь рисует новый штрих на любом планшете.
 ms.assetid: eaa89dfe-6141-4205-845b-634321130e26
 title: Событие InkCollector. Stroke (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e75ee7f3e8129fdab52e62178fe4b8a322807fc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49cb90b02ab3fca60a8fa17089b6a76f959a60e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692152"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110061"
 ---
 # <a name="inkcollectorstroke-event"></a>Событие InkCollector. Stroke
 
@@ -57,7 +57,7 @@ void Stroke(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в \_ \_ \_ интерфейсах диспетчеризации (DISP) иинкколлекторевентс, иинковерлайевентс и иинкпиктуривентс с идентификатором DISPID \_ ицестроке.
 
@@ -81,7 +81,7 @@ void Stroke(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

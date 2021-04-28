@@ -1,5 +1,5 @@
 ---
-description: запускает службу.
+description: Метод StartService класса Msvm_TerminalService — запускает службу.
 ms.assetid: 499e4650-255f-4c84-98fc-de81d5cd6daf
 title: Метод StartService класса Msvm_TerminalService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6f1902dd17d641ae50888a23d2c2699e269a90e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33d7bddc012e7f51042950f093a84a09723e7bd8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543591"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109512"
 ---
 # <a name="startservice-method-of-the-msvm_terminalservice-class"></a>Метод StartService \_ класса мсвм терминалсервице
 
@@ -55,7 +55,7 @@ uint32 StartService();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -63,7 +63,7 @@ uint32 StartService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Происходит, когда подсказка курсора обращается к поверхности планшета в дигитайзере.
+description: Событие InkPicture. Курсордовн — происходит, когда подсказка курсора обращается к планшету с дигитайзером.
 ms.assetid: 6d524400-1341-45da-86b2-098e34ed5a1c
 title: Событие InkPicture. Курсордовн (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15724f0a71e801393ca8e93100ba2105da9ff2b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc4b6128589ba2d0b87d4369e8bb58aa66eabf23
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546554"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116702"
 ---
 # <a name="inkpicturecursordown-event"></a>Событие InkPicture. Курсордовн
 
@@ -49,7 +49,7 @@ void CursorDown(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти методы событий определены в интерфейсах **\_ иинкколлекторевентс**, **\_ иинковерлайевентс** и **\_ иинкпиктуривентс** . Интерфейсы **\_ иинкколлекторевентс**, **\_ иинковерлайевентс** и **\_ иинкпиктуривентс** реализуют интерфейс [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) с идентификатором DISPID \_ ицекурсордовн.
 
@@ -68,7 +68,7 @@ void CursorDown(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Метод ДеЦидебуфферсизе задает требования к буферу.
+description: Ктрансформаутпутпин. ДеЦидебуфферсизе, метод ДеЦидебуфферсизе задает требования к буферу.
 ms.assetid: cdf9e384-623e-46a6-b123-d881fe21fb09
 title: Ктрансформаутпутпин. ДеЦидебуфферсизе, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dc17314887094b7f62a43f38dd406d0ac9039de3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1bc84eaf5e95a19436de5429ce018352cdaa286e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657727"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084842"
 ---
 # <a name="ctransformoutputpindecidebuffersize-method"></a>Ктрансформаутпутпин. ДеЦидебуфферсизе, метод
 
@@ -61,7 +61,7 @@ HRESULT DecideBufferSize(
 
 Возвращает значение **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасеаутпутпин::D еЦидебуфферсизе**](cbaseoutputpin-decidebuffersize.md) . Он вызывает чисто виртуальный метод [**ктрансформфилтер::D еЦидебуфферсизе**](ctransformfilter-decidebuffersize.md) для фильтра, который должен реализовываться производным классом фильтра.
 

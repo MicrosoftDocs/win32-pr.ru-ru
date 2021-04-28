@@ -1,5 +1,5 @@
 ---
-description: Метод Бреакконнект освобождает ПИН-код из соединения.
+description: Ктрансформаутпутпин. Бреакконнект, метод Бреакконнект освобождает ПИН-код из соединения.
 ms.assetid: bf68aca3-93e5-4f9d-9980-1a5eed1513f5
 title: Ктрансформаутпутпин. Бреакконнект, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 316806b89adf6493f32125da488990151f0916b1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92854041e1d553945d0a1ab1755ef3557bd4a8b2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657271"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084962"
 ---
 # <a name="ctransformoutputpinbreakconnect-method"></a>Ктрансформаутпутпин. Бреакконнект, метод
 
@@ -44,7 +44,7 @@ HRESULT BreakConnect();
 
 Возвращает \_ значение, равное ОК или другому значению **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасеаутпутпин:: бреакконнект**](cbaseoutputpin-breakconnect.md) . Он вызывает метод [**ктрансформфилтер:: бреакконнект**](ctransformfilter-breakconnect.md) фильтра, который возвращает \_ значение s ОК в базовом классе. Производный класс может переопределить метод **ктрансформфилтер:: бреакконнект** .
 

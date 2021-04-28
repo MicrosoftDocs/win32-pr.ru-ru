@@ -1,5 +1,5 @@
 ---
-description: Связь между точкой доступа к службе (SAP) и ее реализацией.
+description: Msvm_WiFiDeviceSAPImplementation класс — ассоциация между точкой доступа к службе (SAP) и ее реализацией.
 ms.assetid: d1d99299-f2d9-4025-a48d-cf8180f2f7af
 title: Класс Msvm_WiFiDeviceSAPImplementation
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8debec96efb93e60ec18d75b62ffa0d13b0e0a26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99826ce3a37e19867cef1a6ddf276f5136b21a3d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897230"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109252"
 ---
 # <a name="msvm_wifidevicesapimplementation-class"></a>\_Класс мсвм вифидевицесапимплементатион
 
@@ -45,7 +45,7 @@ class Msvm_WiFiDeviceSAPImplementation : CIM_DeviceSAPImplementation
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ вифидевицесапимплементатион** имеет следующие свойства.
 

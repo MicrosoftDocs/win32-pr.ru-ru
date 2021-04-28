@@ -1,5 +1,5 @@
 ---
-description: Скомпилируйте файл шейдера.
+description: Функция D3DXCompileShaderFromResource — Скомпилируйте файл шейдера.
 ms.assetid: e944ae61-0c27-4795-8381-0ec9b3d8c3f4
 title: Функция D3DXCompileShaderFromResource (D3DX9Shader. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e1bbb48fa2932eecb82c1c45d303d7afb948fa4d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: de94754004cc42bcc6914d9513588a71a1a593dd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674718"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115812"
 ---
 # <a name="d3dxcompileshaderfromresource-function"></a>Функция D3DXCompileShaderFromResource
 
@@ -161,7 +161,7 @@ HRESULT D3DXCompileShaderFromResource(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

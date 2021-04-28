@@ -1,15 +1,15 @@
 ---
 title: Настройка группы URL-адресов
-description: .
+description: Настройка группы URL-адресов
 ms.assetid: be222076-51ff-4907-924f-cc7b0d4fe767
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59d9be6969b2b197d0bdcb404ad6b8965c278235
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 407ca18fc5d2797c99e86661bf462eaf0a3fdc5b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986666"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109702"
 ---
 # <a name="configuring-the-url-group"></a>Настройка группы URL-адресов
 
@@ -17,9 +17,9 @@ ms.locfileid: "103986666"
 
 После создания группы URL-адресов они добавляются в группу с помощью [**хттпаддурлтаурлграуп**](/windows/desktop/api/Http/nf-http-httpaddurltourlgroup). Группа URL-адресов должна быть связана с очередью запросов версии 2,0 для получения запросов. Чтобы связать группу URL-адресов с очередью запросов, приложение вызывает [**хттпсетурлграуппроперти**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty) и указывает **хттпсервербиндингпроперти** в параметре *Property* . Если это свойство не задано, соответствующие запросы для группы URL-адресов не доставляются в очередь запросов, а API-интерфейс сервера HTTP создает ответ 503. Приложение может добавлять URL-адреса, ранее зарезервированные службой, в группу URL-адресов при выполнении с низким уровнем привилегий. Дополнительные сведения см. в разделе [резервирования, регистрации и маршрутизации пространства имен](namespace-reservations-registrations-and-routing.md) .
 
- 
+ 
 
- 
+ 
 
 
 
