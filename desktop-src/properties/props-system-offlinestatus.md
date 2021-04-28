@@ -1,19 +1,19 @@
 ---
-description: .
+description: System. Оффлинестатус
 ms.assetid: 0badb5dd-6342-4110-b7a9-0b291dfe8578
 title: System. Оффлинестатус
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78cb96a100b863bf01faa17552f4770bcd770d5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11789e1bdf11787c363bcfb4e714494d2ab6647d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909243"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097312"
 ---
-# <a name="systemofflinestatus"></a><span data-ttu-id="604d4-103">System. Оффлинестатус</span><span class="sxs-lookup"><span data-stu-id="604d4-103">System.OfflineStatus</span></span>
+# <a name="systemofflinestatus"></a><span data-ttu-id="fe9c7-103">System. Оффлинестатус</span><span class="sxs-lookup"><span data-stu-id="fe9c7-103">System.OfflineStatus</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a><span data-ttu-id="604d4-104">Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1, Windows 8</span><span class="sxs-lookup"><span data-stu-id="604d4-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a><span data-ttu-id="fe9c7-104">Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1, Windows 8</span><span class="sxs-lookup"><span data-stu-id="fe9c7-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8</span></span>
 
 ```
 propertyDescription
@@ -66,7 +66,7 @@ propertyDescription
             defineToken = OFFLINESTATUS_OFFLINE_SUSPENDED
 ```
 
-## <a name="windows-7"></a><span data-ttu-id="604d4-105">Windows 7</span><span class="sxs-lookup"><span data-stu-id="604d4-105">Windows 7</span></span>
+## <a name="windows-7"></a><span data-ttu-id="fe9c7-105">Windows 7</span><span class="sxs-lookup"><span data-stu-id="fe9c7-105">Windows 7</span></span>
 
 ```
 propertyDescription
@@ -119,7 +119,7 @@ propertyDescription
             defineToken = OFFLINESTATUS_OFFLINE_SUSPENDED
 ```
 
-## <a name="windows-vista"></a><span data-ttu-id="604d4-106">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="604d4-106">Windows Vista</span></span>
+## <a name="windows-vista"></a><span data-ttu-id="fe9c7-106">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="fe9c7-106">Windows Vista</span></span>
 
 ```
 propertyDescription
@@ -165,54 +165,54 @@ propertyDescription
             defineName = OFFLINESTATUS_OFFLINE_SUSPENDED
 ```
 
-## <a name="remarks"></a><span data-ttu-id="604d4-107">Комментарии</span><span class="sxs-lookup"><span data-stu-id="604d4-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fe9c7-107">Remarks</span><span class="sxs-lookup"><span data-stu-id="fe9c7-107">Remarks</span></span>
 
-<span data-ttu-id="604d4-108">Значения PKEY определены в списке PKEY. h.</span><span class="sxs-lookup"><span data-stu-id="604d4-108">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="fe9c7-108">Значения PKEY определены в списке PKEY. h.</span><span class="sxs-lookup"><span data-stu-id="fe9c7-108">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="604d4-109">См. также</span><span class="sxs-lookup"><span data-stu-id="604d4-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="fe9c7-109">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="fe9c7-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="604d4-110">пропертидескриптион</span><span class="sxs-lookup"><span data-stu-id="604d4-110">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="fe9c7-110">пропертидескриптион</span><span class="sxs-lookup"><span data-stu-id="fe9c7-110">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-111">сеарчинфо</span><span class="sxs-lookup"><span data-stu-id="604d4-111">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="fe9c7-111">сеарчинфо</span><span class="sxs-lookup"><span data-stu-id="fe9c7-111">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-112">лабелинфо</span><span class="sxs-lookup"><span data-stu-id="604d4-112">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="fe9c7-112">лабелинфо</span><span class="sxs-lookup"><span data-stu-id="fe9c7-112">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-113">typeInfo</span><span class="sxs-lookup"><span data-stu-id="604d4-113">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="fe9c7-113">typeInfo</span><span class="sxs-lookup"><span data-stu-id="fe9c7-113">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-114">displayInfo</span><span class="sxs-lookup"><span data-stu-id="604d4-114">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="fe9c7-114">displayInfo</span><span class="sxs-lookup"><span data-stu-id="fe9c7-114">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-115">stringFormat</span><span class="sxs-lookup"><span data-stu-id="604d4-115">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="fe9c7-115">stringFormat</span><span class="sxs-lookup"><span data-stu-id="fe9c7-115">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-116">булеанформат</span><span class="sxs-lookup"><span data-stu-id="604d4-116">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="fe9c7-116">булеанформат</span><span class="sxs-lookup"><span data-stu-id="fe9c7-116">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-117">numberFormat</span><span class="sxs-lookup"><span data-stu-id="604d4-117">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="fe9c7-117">numberFormat</span><span class="sxs-lookup"><span data-stu-id="fe9c7-117">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-118">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="604d4-118">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="fe9c7-118">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="fe9c7-118">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-119">енумератедлист</span><span class="sxs-lookup"><span data-stu-id="604d4-119">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="fe9c7-119">енумератедлист</span><span class="sxs-lookup"><span data-stu-id="fe9c7-119">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-120">дравконтрол</span><span class="sxs-lookup"><span data-stu-id="604d4-120">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="fe9c7-120">дравконтрол</span><span class="sxs-lookup"><span data-stu-id="fe9c7-120">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-121">едитконтрол</span><span class="sxs-lookup"><span data-stu-id="604d4-121">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="fe9c7-121">едитконтрол</span><span class="sxs-lookup"><span data-stu-id="fe9c7-121">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-122">филтерконтрол</span><span class="sxs-lookup"><span data-stu-id="604d4-122">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="fe9c7-122">филтерконтрол</span><span class="sxs-lookup"><span data-stu-id="fe9c7-122">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="604d4-123">куериконтрол</span><span class="sxs-lookup"><span data-stu-id="604d4-123">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="fe9c7-123">куериконтрол</span><span class="sxs-lookup"><span data-stu-id="fe9c7-123">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  
