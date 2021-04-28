@@ -1,5 +1,5 @@
 ---
-description: Этот метод не поддерживается.
+description: 'Метод Иамтимелинетракк:: Мовиверисингби — этот метод не поддерживается.'
 ms.assetid: f263116b-e492-4468-9829-124a096c9d74
 title: 'Метод Иамтимелинетракк:: Мовиверисингби (Кедит. h)'
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 4eded92548c047e6d5102e603a5ab0554bd1f4fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe85cf17c92c0809189e12e8ad40ceb1d1f3fd25
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685231"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094592"
 ---
-# <a name="iamtimelinetrackmoveeverythingby-method"></a><span data-ttu-id="da003-103">Метод Иамтимелинетракк:: Мовиверисингби</span><span class="sxs-lookup"><span data-stu-id="da003-103">IAMTimelineTrack::MoveEverythingBy method</span></span>
+# <a name="iamtimelinetrackmoveeverythingby-method"></a><span data-ttu-id="2b5ab-103">Метод Иамтимелинетракк:: Мовиверисингби</span><span class="sxs-lookup"><span data-stu-id="2b5ab-103">IAMTimelineTrack::MoveEverythingBy method</span></span>
 
-<span data-ttu-id="da003-104">Этот метод не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="da003-104">This method is not supported.</span></span>
+<span data-ttu-id="2b5ab-104">Этот метод не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="2b5ab-104">This method is not supported.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="da003-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="da003-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2b5ab-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2b5ab-105">Syntax</span></span>
 
 
 ```C++
@@ -37,56 +37,56 @@ HRESULT MoveEverythingBy(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="da003-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="da003-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2b5ab-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="2b5ab-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="da003-107">*Запуск*</span><span class="sxs-lookup"><span data-stu-id="da003-107">*Start*</span></span> 
+<span data-ttu-id="2b5ab-107">*Запуск*</span><span class="sxs-lookup"><span data-stu-id="2b5ab-107">*Start*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="da003-108">Зарезервировано.</span><span class="sxs-lookup"><span data-stu-id="da003-108">Reserved.</span></span>
+<span data-ttu-id="2b5ab-108">Зарезервировано.</span><span class="sxs-lookup"><span data-stu-id="2b5ab-108">Reserved.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="da003-109">*мовеби*</span><span class="sxs-lookup"><span data-stu-id="da003-109">*MoveBy*</span></span> 
+<span data-ttu-id="2b5ab-109">*мовеби*</span><span class="sxs-lookup"><span data-stu-id="2b5ab-109">*MoveBy*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="da003-110">Зарезервировано.</span><span class="sxs-lookup"><span data-stu-id="da003-110">Reserved.</span></span>
+<span data-ttu-id="2b5ab-110">Зарезервировано.</span><span class="sxs-lookup"><span data-stu-id="2b5ab-110">Reserved.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="da003-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="da003-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2b5ab-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2b5ab-111">Return value</span></span>
 
-<span data-ttu-id="da003-112">Если этот метод завершается успешно, возвращается значение **S \_ ОК**.</span><span class="sxs-lookup"><span data-stu-id="da003-112">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="da003-113">В противном случае возвращается код ошибки **HRESULT** .</span><span class="sxs-lookup"><span data-stu-id="da003-113">Otherwise, it returns an **HRESULT** error code.</span></span>
+<span data-ttu-id="2b5ab-112">Если этот метод завершается успешно, возвращается значение **S \_ ОК**.</span><span class="sxs-lookup"><span data-stu-id="2b5ab-112">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="2b5ab-113">В противном случае возвращается код ошибки **HRESULT** .</span><span class="sxs-lookup"><span data-stu-id="2b5ab-113">Otherwise, it returns an **HRESULT** error code.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="da003-114">Комментарии</span><span class="sxs-lookup"><span data-stu-id="da003-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2b5ab-114">Remarks</span><span class="sxs-lookup"><span data-stu-id="2b5ab-114">Remarks</span></span>
 
 > [!Note]  
-> <span data-ttu-id="da003-115">Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.</span><span class="sxs-lookup"><span data-stu-id="da003-115">The header file Qedit.h is not compatible with Direct3D headers later than version 7.</span></span>
+> <span data-ttu-id="2b5ab-115">Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.</span><span class="sxs-lookup"><span data-stu-id="2b5ab-115">The header file Qedit.h is not compatible with Direct3D headers later than version 7.</span></span>
 
  
 
 > [!Note]  
-> <span data-ttu-id="da003-116">Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span><span class="sxs-lookup"><span data-stu-id="da003-116">To obtain Qedit.h, download the [Microsoft Windows SDK Update for Windows Vista and .NET Framework 3.0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span></span> <span data-ttu-id="da003-117">Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="da003-117">Qedit.h is not available in the Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 Service Pack 1.</span></span>
+> <span data-ttu-id="2b5ab-116">Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span><span class="sxs-lookup"><span data-stu-id="2b5ab-116">To obtain Qedit.h, download the [Microsoft Windows SDK Update for Windows Vista and .NET Framework 3.0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span></span> <span data-ttu-id="2b5ab-117">Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="2b5ab-117">Qedit.h is not available in the Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 Service Pack 1.</span></span>
 
  
 
-## <a name="requirements"></a><span data-ttu-id="da003-118">Требования</span><span class="sxs-lookup"><span data-stu-id="da003-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="2b5ab-118">Требования</span><span class="sxs-lookup"><span data-stu-id="2b5ab-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="da003-119">Требование</span><span class="sxs-lookup"><span data-stu-id="da003-119">Requirement</span></span> | <span data-ttu-id="da003-120">Значение</span><span class="sxs-lookup"><span data-stu-id="da003-120">Value</span></span> |
+| <span data-ttu-id="2b5ab-119">Требование</span><span class="sxs-lookup"><span data-stu-id="2b5ab-119">Requirement</span></span> | <span data-ttu-id="2b5ab-120">Значение</span><span class="sxs-lookup"><span data-stu-id="2b5ab-120">Value</span></span> |
 |--------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="da003-121">Header</span><span class="sxs-lookup"><span data-stu-id="da003-121">Header</span></span><br/>  | <dl> <span data-ttu-id="da003-122"><dt>Кедит. h</dt></span><span class="sxs-lookup"><span data-stu-id="da003-122"><dt>Qedit.h</dt></span></span> </dl>      |
-| <span data-ttu-id="da003-123">Библиотека</span><span class="sxs-lookup"><span data-stu-id="da003-123">Library</span></span><br/> | <dl> <span data-ttu-id="da003-124"><dt>Стрмиидс. lib</dt></span><span class="sxs-lookup"><span data-stu-id="da003-124"><dt>Strmiids.lib</dt></span></span> </dl> |
+| <span data-ttu-id="2b5ab-121">Header</span><span class="sxs-lookup"><span data-stu-id="2b5ab-121">Header</span></span><br/>  | <dl> <span data-ttu-id="2b5ab-122"><dt>Кедит. h</dt></span><span class="sxs-lookup"><span data-stu-id="2b5ab-122"><dt>Qedit.h</dt></span></span> </dl>      |
+| <span data-ttu-id="2b5ab-123">Библиотека</span><span class="sxs-lookup"><span data-stu-id="2b5ab-123">Library</span></span><br/> | <dl> <span data-ttu-id="2b5ab-124"><dt>Стрмиидс. lib</dt></span><span class="sxs-lookup"><span data-stu-id="2b5ab-124"><dt>Strmiids.lib</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="da003-125">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="da003-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2b5ab-125">См. также</span><span class="sxs-lookup"><span data-stu-id="2b5ab-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="da003-126">**Интерфейс Иамтимелинетракк**</span><span class="sxs-lookup"><span data-stu-id="da003-126">**IAMTimelineTrack Interface**</span></span>](iamtimelinetrack.md)
+[<span data-ttu-id="2b5ab-126">**Интерфейс Иамтимелинетракк**</span><span class="sxs-lookup"><span data-stu-id="2b5ab-126">**IAMTimelineTrack Interface**</span></span>](iamtimelinetrack.md)
 </dt> </dl>
 
  

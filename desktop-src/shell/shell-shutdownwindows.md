@@ -1,5 +1,5 @@
 ---
-description: Отображает диалоговое окно Завершение работы Windows. Это то же самое, что и при нажатии кнопки «Пуск», и при выборе «завершение работы».
+description: Shell. Шутдовнвиндовс-метод — отображает диалоговое окно Завершение работы Windows. Это то же самое, что и при нажатии кнопки «Пуск», и при выборе «завершение работы».
 ms.assetid: 6fa8e2e0-a58f-4837-89f5-898cece2d80a
 title: Метод Shell. Шутдовнвиндовс (Шлдисп. h)
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 804a1e211e191206d20f83d85dee2202492bfd27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a3c0746caccb360f6f7f0156b72a57ed0a2d2b8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265077"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083672"
 ---
-# <a name="shellshutdownwindows-method"></a><span data-ttu-id="2a12e-104">Shell. Шутдовнвиндовс, метод</span><span class="sxs-lookup"><span data-stu-id="2a12e-104">Shell.ShutdownWindows method</span></span>
+# <a name="shellshutdownwindows-method"></a><span data-ttu-id="b7c6a-104">Shell. Шутдовнвиндовс, метод</span><span class="sxs-lookup"><span data-stu-id="b7c6a-104">Shell.ShutdownWindows method</span></span>
 
-<span data-ttu-id="2a12e-105">Отображает диалоговое окно **Завершение работы Windows** .</span><span class="sxs-lookup"><span data-stu-id="2a12e-105">Displays the **Shut Down Windows** dialog box.</span></span> <span data-ttu-id="2a12e-106">Это то же самое, что и при нажатии кнопки « **Пуск** », и при выборе « **Завершение работы**».</span><span class="sxs-lookup"><span data-stu-id="2a12e-106">This is the same as clicking the **Start** menu and selecting **Shut Down**.</span></span>
+<span data-ttu-id="b7c6a-105">Отображает диалоговое окно **Завершение работы Windows** .</span><span class="sxs-lookup"><span data-stu-id="b7c6a-105">Displays the **Shut Down Windows** dialog box.</span></span> <span data-ttu-id="b7c6a-106">Это то же самое, что и при нажатии кнопки « **Пуск** », и при выборе « **Завершение работы**».</span><span class="sxs-lookup"><span data-stu-id="b7c6a-106">This is the same as clicking the **Start** menu and selecting **Shut Down**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2a12e-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2a12e-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b7c6a-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="b7c6a-107">Syntax</span></span>
 
 
 ```JScript
@@ -41,15 +41,15 @@ Shell.ShutdownWindows() As Integer
 
 
 
-## <a name="parameters"></a><span data-ttu-id="2a12e-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="2a12e-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b7c6a-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="b7c6a-108">Parameters</span></span>
 
-<span data-ttu-id="2a12e-109">Этот метод не имеет параметров.</span><span class="sxs-lookup"><span data-stu-id="2a12e-109">This method has no parameters.</span></span>
+<span data-ttu-id="b7c6a-109">Этот метод не имеет параметров.</span><span class="sxs-lookup"><span data-stu-id="b7c6a-109">This method has no parameters.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="2a12e-110">Примеры</span><span class="sxs-lookup"><span data-stu-id="2a12e-110">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="b7c6a-110">Примеры</span><span class="sxs-lookup"><span data-stu-id="b7c6a-110">Examples</span></span>
 
-<span data-ttu-id="2a12e-111">В следующем примере показано использование **шутдовнвиндовс** .</span><span class="sxs-lookup"><span data-stu-id="2a12e-111">The following example shows **ShutdownWindows** in use.</span></span> <span data-ttu-id="2a12e-112">Правильное использование показано в JScript, VBScript и Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="2a12e-112">Proper usage is shown for JScript, VBScript, and Visual Basic.</span></span>
+<span data-ttu-id="b7c6a-111">В следующем примере показано использование **шутдовнвиндовс** .</span><span class="sxs-lookup"><span data-stu-id="b7c6a-111">The following example shows **ShutdownWindows** in use.</span></span> <span data-ttu-id="b7c6a-112">Правильное использование показано в JScript, VBScript и Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="b7c6a-112">Proper usage is shown for JScript, VBScript, and Visual Basic.</span></span>
 
-<span data-ttu-id="2a12e-113">Присутствовал</span><span class="sxs-lookup"><span data-stu-id="2a12e-113">JScript:</span></span>
+<span data-ttu-id="b7c6a-113">Присутствовал</span><span class="sxs-lookup"><span data-stu-id="b7c6a-113">JScript:</span></span>
 
 
 ```JScript
@@ -65,7 +65,7 @@ Shell.ShutdownWindows() As Integer
 
 
 
-<span data-ttu-id="2a12e-114">Сценариев</span><span class="sxs-lookup"><span data-stu-id="2a12e-114">VBScript:</span></span>
+<span data-ttu-id="b7c6a-114">Сценариев</span><span class="sxs-lookup"><span data-stu-id="b7c6a-114">VBScript:</span></span>
 
 
 ```VB
@@ -82,7 +82,7 @@ Shell.ShutdownWindows() As Integer
 
 
 
-<span data-ttu-id="2a12e-115">Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="2a12e-115">Visual Basic:</span></span>
+<span data-ttu-id="b7c6a-115">Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="b7c6a-115">Visual Basic:</span></span>
 
 
 ```VB
@@ -98,17 +98,17 @@ End Sub
 
 
 
-## <a name="requirements"></a><span data-ttu-id="2a12e-116">Требования</span><span class="sxs-lookup"><span data-stu-id="2a12e-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b7c6a-116">Требования</span><span class="sxs-lookup"><span data-stu-id="b7c6a-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="2a12e-117">Требование</span><span class="sxs-lookup"><span data-stu-id="2a12e-117">Requirement</span></span> | <span data-ttu-id="2a12e-118">Значение</span><span class="sxs-lookup"><span data-stu-id="2a12e-118">Value</span></span> |
+| <span data-ttu-id="b7c6a-117">Требование</span><span class="sxs-lookup"><span data-stu-id="b7c6a-117">Requirement</span></span> | <span data-ttu-id="b7c6a-118">Значение</span><span class="sxs-lookup"><span data-stu-id="b7c6a-118">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="2a12e-119">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="2a12e-119">Minimum supported client</span></span><br/> | <span data-ttu-id="2a12e-120">Windows 2000 Professional, только для \[ классических приложений Windows XP\]</span><span class="sxs-lookup"><span data-stu-id="2a12e-120">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                         |
-| <span data-ttu-id="2a12e-121">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="2a12e-121">Minimum supported server</span></span><br/> | <span data-ttu-id="2a12e-122">Windows 2000 Server \[только классические приложения\]</span><span class="sxs-lookup"><span data-stu-id="2a12e-122">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="2a12e-123">Заголовок</span><span class="sxs-lookup"><span data-stu-id="2a12e-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="2a12e-124"><dt>Шлдисп. h</dt></span><span class="sxs-lookup"><span data-stu-id="2a12e-124"><dt>Shldisp.h</dt></span></span> </dl>                           |
-| <span data-ttu-id="2a12e-125">IDL</span><span class="sxs-lookup"><span data-stu-id="2a12e-125">IDL</span></span><br/>                      | <dl> <span data-ttu-id="2a12e-126"><dt>Шлдисп. idl</dt></span><span class="sxs-lookup"><span data-stu-id="2a12e-126"><dt>Shldisp.idl</dt></span></span> </dl>                         |
-| <span data-ttu-id="2a12e-127">DLL</span><span class="sxs-lookup"><span data-stu-id="2a12e-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="2a12e-128"><dt>Shell32.dll (версия 4,71 или более поздняя)</dt></span><span class="sxs-lookup"><span data-stu-id="2a12e-128"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="b7c6a-119">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="b7c6a-119">Minimum supported client</span></span><br/> | <span data-ttu-id="b7c6a-120">Windows 2000 Professional, только для \[ классических приложений Windows XP\]</span><span class="sxs-lookup"><span data-stu-id="b7c6a-120">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                         |
+| <span data-ttu-id="b7c6a-121">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="b7c6a-121">Minimum supported server</span></span><br/> | <span data-ttu-id="b7c6a-122">Windows 2000 Server \[только классические приложения\]</span><span class="sxs-lookup"><span data-stu-id="b7c6a-122">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="b7c6a-123">Заголовок</span><span class="sxs-lookup"><span data-stu-id="b7c6a-123">Header</span></span><br/>                   | <dl> <span data-ttu-id="b7c6a-124"><dt>Шлдисп. h</dt></span><span class="sxs-lookup"><span data-stu-id="b7c6a-124"><dt>Shldisp.h</dt></span></span> </dl>                           |
+| <span data-ttu-id="b7c6a-125">IDL</span><span class="sxs-lookup"><span data-stu-id="b7c6a-125">IDL</span></span><br/>                      | <dl> <span data-ttu-id="b7c6a-126"><dt>Шлдисп. idl</dt></span><span class="sxs-lookup"><span data-stu-id="b7c6a-126"><dt>Shldisp.idl</dt></span></span> </dl>                         |
+| <span data-ttu-id="b7c6a-127">DLL</span><span class="sxs-lookup"><span data-stu-id="b7c6a-127">DLL</span></span><br/>                      | <dl> <span data-ttu-id="b7c6a-128"><dt>Shell32.dll (версия 4,71 или более поздняя)</dt></span><span class="sxs-lookup"><span data-stu-id="b7c6a-128"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
 
 
 
