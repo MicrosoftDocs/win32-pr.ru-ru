@@ -1,15 +1,15 @@
 ---
-description: Происходит, когда сборщик рукописных данных получает пакет.
+description: Событие InkPicture. Невпаккетс — происходит, когда сборщик рукописных данных получает пакет.
 ms.assetid: 7d120198-c016-4452-b8a8-22c4ad87d526
 title: Событие InkPicture. Невпаккетс (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d0b3e1df0df2ba051150550daa60772e2a068df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 194fb9bffae07cca561fbfc11ff8a185d63bb9e6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712211"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086482"
 ---
 # <a name="inkpicturenewpackets-event"></a>Событие InkPicture. Невпаккетс
 
@@ -67,7 +67,7 @@ void NewPackets(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пакеты получаются, пока выполняется сбор рукописных фрагментов. События пакетов происходят быстро, а обработчик событий **невпаккетс** должен быть быстрым или отрицательным.
 
@@ -95,7 +95,7 @@ void NewPackets(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

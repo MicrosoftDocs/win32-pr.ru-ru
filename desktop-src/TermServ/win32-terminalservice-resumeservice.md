@@ -1,6 +1,6 @@
 ---
 title: Метод ResumeService класса Win32_Service (службы удаленных рабочих столов)
-description: Пытается поместить службу, на которую указывает ссылка, в состоянии возобновления.
+description: Метод ResumeService класса Win32_Service (службы удаленных рабочих столов) — пытается поместить службу, на которую указывает ссылка, в состоянии возобновления.
 ms.assetid: AA020A0A-E69C-44AB-B259-A73460728770
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e7b446dea84e4320e9aa8972a88dc4fdd5a6eea
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94f8e7dcfc9b9bd5b408e36d8a909aa10c84519c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535207"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090592"
 ---
 # <a name="resumeservice-method-of-the-win32_service-class-remote-desktop-services"></a>Метод ResumeService класса Win32_Service (службы удаленных рабочих столов)
 
@@ -224,7 +224,7 @@ uint32 ResumeService();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Хотя может показаться, что непрактичное различие между остановленной службой и приостановленной службой, два состояния по-разному отображаются в SCM. Остановленная служба — это служба, которая не запущена и должна проходить всю процедуру запуска службы. Однако Приостановленная служба все еще работает, но ее работа приостановлена. По этой причине Приостановленная служба не обязана проходить всю процедуру запуска службы, но для ее возобновления требуется другая процедура.
 
@@ -251,7 +251,7 @@ uint32 ResumeService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

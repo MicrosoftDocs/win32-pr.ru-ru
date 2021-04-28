@@ -1,5 +1,5 @@
 ---
-description: 'Метод Жеттимеформат извлекает текущий формат времени. Этот метод реализует метод Имедиасикинг:: Жеттимеформат.'
+description: 'Ксаурцесикинг. Жеттимеформат, метод Жеттимеформат извлекает текущий формат времени. Этот метод реализует метод Имедиасикинг:: Жеттимеформат.'
 ms.assetid: c90804f7-9a0a-423c-8b26-87abf15eddc5
 title: Ксаурцесикинг. Жеттимеформат, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ce53f4a6cabcc5face6c332666701dc208c3f8bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a56f9a490699d68d7a043e9385ad458562058f5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657500"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085222"
 ---
 # <a name="csourceseekinggettimeformat-method"></a>Ксаурцесикинг. Жеттимеформат, метод
 
@@ -57,14 +57,14 @@ HRESULT GetTimeFormat(
 
 | Код возврата                                                                               | Описание                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>      | Успешно<br/>                |
+| <dl> <dt>**\_ОК**</dt> </dl>      | Успешное завершение<br/>                |
 | <dl> <dt>**\_указатель E**</dt> </dl> | Значение указателя **null**<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Единственный формат времени, поддерживаемый базовым классом, — это \_ \_ время носителя формата времени \_ (100-наносекундных единиц).
 
@@ -79,7 +79,7 @@ HRESULT GetTimeFormat(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

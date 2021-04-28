@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кункновн. Кункновн.
 ms.assetid: dafe0d5c-b4c8-4efb-8c47-a8c5db6e8aed
 title: Конструктор Кункновн. Кункновн (Комбасе. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b500e7f12a2242b6c05367bc061f50680d2d608b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 32859871f8ef69ce357fe204f0741356314fbb06
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657077"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084612"
 ---
 # <a name="cunknowncunknown-constructor"></a>Кункновн. Кункновн, конструктор
 
@@ -57,7 +57,7 @@ CUnknown(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект инициализируется с нулевым значением счетчика ссылок.
 

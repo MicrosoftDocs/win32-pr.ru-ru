@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Media. Енкодедби
 ms.assetid: 04bcdc5a-ba44-4b9c-ae87-fee50250d18b
 title: System. Media. Енкодедби
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4abe35a9b5afcc218c1c27e8e82801255fba3712
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fbf70589178d2ba00fd6ec4d45676a519f86587e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104273265"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092092"
 ---
 # <a name="systemmediaencodedby"></a>System. Media. Енкодедби
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

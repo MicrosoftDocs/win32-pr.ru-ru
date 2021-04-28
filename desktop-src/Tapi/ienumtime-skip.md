@@ -1,15 +1,15 @@
 ---
-description: Метод Skip пропускает следующее заданное число элементов в последовательности перечисления.
+description: 'Метод Иенумтиме:: Skip — метод Skip пропускает следующее заданное число элементов в последовательности перечисления.'
 ms.assetid: e4d9c95d-1b68-4af6-beb2-2014074e5089
 title: 'Метод Иенумтиме:: Skip (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebd157afc51f52a8453c38f8a14702476c46eb9d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 190a98c14cb8f551276a173e2d73872d876f2ceb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689124"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090722"
 ---
 # <a name="ienumtimeskip-method"></a>Метод Иенумтиме:: Skip
 
@@ -67,7 +67,7 @@ HRESULT Skip(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

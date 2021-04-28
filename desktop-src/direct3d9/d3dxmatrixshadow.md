@@ -1,5 +1,5 @@
 ---
-description: Строит матрицу, которая выполняет сведение геометрии в плоскость.
+description: Функция D3DXMatrixShadow (D3dx9math. h) — строит матрицу, которая сводит геометрию в плоскость.
 ms.assetid: 8f283ff9-c879-476c-8057-f4fe77a7a9e7
 title: Функция D3DXMatrixShadow (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e6bf1639adb7364536cce5c0dead9ef58ae10bea
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 111a1448f62cae3f782917de76d92e88aa5a3356
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105685002"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118062"
 ---
 # <a name="d3dxmatrixshadow-function-d3dx9mathh"></a>Функция D3DXMatrixShadow (D3dx9math. h)
 
@@ -75,7 +75,7 @@ D3DXMATRIX* D3DXMatrixShadow(
 
 Указатель на структуру [**D3DXMATRIX**](d3dxmatrix.md) , которая выполняет сведение геометрии в плоскость.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **D3DXMatrixShadow** выполняет сведение геометрии в плоскость, как при приведении тени от светлой.
 
@@ -110,7 +110,7 @@ P.d * L.x      P.d * L.y      P.d * L.z      P.d * L.w + d
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

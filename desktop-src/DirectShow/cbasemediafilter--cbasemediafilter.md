@@ -1,5 +1,5 @@
 ---
-description: Метод деструктора.
+description: Метод деструктора Кбасемедиафилтер. ~ Кбасемедиафилтер.
 ms.assetid: f6e272c3-bb6c-4730-aa2b-a94bc5971db6
 title: Деструктор Кбасемедиафилтер. ~ Кбасемедиафилтер (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 292e668d047d8e41766a3a5a8e6c5ef73a37c0dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93e5b967d0e2f41671f5924f7e92d06bae36ec1c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656977"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099632"
 ---
 # <a name="cbasemediafiltercbasemediafilter-destructor"></a>Деструктор Кбасемедиафилтер. ~ Кбасемедиафилтер
 
@@ -36,7 +36,7 @@ ms.locfileid: "105656977"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Всегда останавливайте объект перед его уничтожением.
 
@@ -51,7 +51,7 @@ ms.locfileid: "105656977"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

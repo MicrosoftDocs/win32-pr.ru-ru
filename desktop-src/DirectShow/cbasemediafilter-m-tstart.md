@@ -1,5 +1,5 @@
 ---
-description: Справочное время, соответствующее времени потока 0.
+description: 'Кбасемедиафилтер:: m_tStart время ссылки на элемент, соответствующее времени потока 0.'
 ms.assetid: e80d2fe0-48fb-494e-9450-b5cae2ec9c9f
 title: 'Элемент Кбасемедиафилтер:: m_tStart (Амфилтер. h)'
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b733f29f01bb5faeb391d0ff36fd1beaca05adb1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bdea1f0cdf804c870a712991a09b2a8325d3c34e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656866"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099612"
 ---
 # <a name="cbasemediafilterm_tstart-member"></a>Элемент Кбасемедиафилтер:: m \_ тстарт
 
@@ -47,7 +47,7 @@ CRefTime m_tStart;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

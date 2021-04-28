@@ -1,5 +1,5 @@
 ---
-description: Метод Деливербегинфлуш запрашивает подключенный входной ПИН-код для начала операции очистки.
+description: Кбасеаутпутпин. Деливербегинфлуш, метод Деливербегинфлуш запрашивает подключенный входной ПИН-код для начала операции очистки.
 ms.assetid: 0d7c7bd7-2a7a-42a4-a0de-60205b62e49c
 title: Кбасеаутпутпин. Деливербегинфлуш, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dad764ceaa6cc57c8c5b7ee288859926b6c63f02
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 22dbd2bccf33d9f203d1505106184500b8cae3ba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657919"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099522"
 ---
 # <a name="cbaseoutputpindeliverbeginflush-method"></a>Кбасеаутпутпин. Деливербегинфлуш, метод
 
@@ -55,7 +55,7 @@ virtual HRESULT DeliverBeginFlush();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**Ипин:: бегинфлуш**](/windows/desktop/api/Strmif/nf-strmif-ipin-beginflush) для входного ПИН-кода.
 
@@ -70,7 +70,7 @@ virtual HRESULT DeliverBeginFlush();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

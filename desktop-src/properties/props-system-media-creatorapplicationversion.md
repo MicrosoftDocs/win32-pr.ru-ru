@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Media. Креатораппликатионверсион
 ms.assetid: 9370d0f3-a43c-4c34-a4ad-a585ed63e8e5
 title: System. Media. Креатораппликатионверсион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d10e7180fe8fe9e8c88c2ca00dc59f2badfe5cc0
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 2442217006fc005507c314b1a9e581015f58db4f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105720031"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092152"
 ---
 # <a name="systemmediacreatorapplicationversion"></a>System. Media. Креатораппликатионверсион
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Синктрансферстатус
 ms.assetid: d82b93b3-2d33-4f89-8144-1f1b040a4d8b
 title: System. Синктрансферстатус
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f61fcef7baddacdfb33d7e170bb776c07d241ea3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 053c0df5c0331158bc2fbde5109be400254c132b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703332"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091352"
 ---
 # <a name="systemsynctransferstatus"></a>System. Синктрансферстатус
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

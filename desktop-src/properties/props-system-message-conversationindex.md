@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Message. Конверсатиониндекс
 ms.assetid: 1bb9a0b7-b62c-403b-923d-59869ef2bf1c
 title: System. Message. Конверсатиониндекс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fcec2c9cb46be19b0a670862cc718185e6c931f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2963897ce30eb52d16d11617586795766b82ec3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156411"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091902"
 ---
 # <a name="systemmessageconversationindex"></a>System. Message. Конверсатиониндекс
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

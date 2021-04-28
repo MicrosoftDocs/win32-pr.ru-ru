@@ -1,5 +1,5 @@
 ---
-description: Получает высоту текстуры в пикселях.
+description: 'Метод ID3DXTextureGutterHelper:: Height — Получает высоту текстуры (в пикселях).'
 ms.assetid: 45e63091-4f26-40ad-8c3a-d3f211a759c4
 title: 'Метод ID3DXTextureGutterHelper:: with Height (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1bf25f443f907bcba81fe0472bd951b76dcdf8da
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ac3adf2ab0b7536a637805a6878f01f9f6d5bf25
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703945"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117752"
 ---
 # <a name="id3dxtexturegutterhelpergetheight-method"></a>Метод ID3DXTextureGutterHelper:: Height
 
@@ -55,7 +55,7 @@ UINT GetHeight();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

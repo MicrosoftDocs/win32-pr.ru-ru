@@ -1,5 +1,5 @@
 ---
-description: Метод Жетмедиатипе извлекает предпочтительный тип мультимедиа по значению индекса.
+description: Кбасепин. Жетмедиатипе, метод Жетмедиатипе извлекает предпочтительный тип мультимедиа по значению индекса.
 ms.assetid: 96f102b0-e2d1-49a1-84af-aa4622cae2a9
 title: Кбасепин. Жетмедиатипе, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9c54c5cd769a8efa0c720c7050cca45b00b8209e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 186f2eddbedf4eb0565a4ca66ff4ed7e5b080090
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669473"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099372"
 ---
 # <a name="cbasepingetmediatype-method"></a>Кбасепин. Жетмедиатипе, метод
 
@@ -74,7 +74,7 @@ virtual HRESULT GetMediaType(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В списке предпочтительных типов мультимедиа для ПИН-кода этот метод возвращает тип со значением индекса *интерфейс*. Класс [**ценуммедиатипес**](cenummediatypes.md) вызывает этот метод для перечисления предпочтительных типов мультимедиа.
 
@@ -91,7 +91,7 @@ virtual HRESULT GetMediaType(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

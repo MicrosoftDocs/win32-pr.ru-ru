@@ -1,5 +1,5 @@
 ---
-description: Удаляет журнал данных, связанный с точкой ссылки.
+description: Метод РемовеассоЦиатеддата класса Msvm_VirtualSystemReferencePointService — удаляет журнал данных, связанный с точкой ссылки.
 ms.assetid: b6206bda-c195-4c6f-9b80-508c20b53ce5
 title: Метод РемовеассоЦиатеддата класса Msvm_VirtualSystemReferencePointService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: c0d67502d349f0b0dac7cbf9a1998dcd6db0fb4a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b5291e4e018edc89909ccde36ce0e420698af8e6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105664827"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118622"
 ---
 # <a name="removeassociateddata-method-of-the-msvm_virtualsystemreferencepointservice-class"></a>Метод РемовеассоЦиатеддата \_ класса Виртуалсистемреференцепоинтсервице мсвм
 
@@ -113,7 +113,7 @@ uint32 RemoveAssociatedData(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

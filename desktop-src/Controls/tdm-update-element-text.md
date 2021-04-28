@@ -1,6 +1,6 @@
 ---
 title: Сообщение TDM_UPDATE_ELEMENT_TEXT (Коммктрл. h)
-description: Обновляет текстовый элемент в диалоговом окне задачи.
+description: TDM_UPDATE_ELEMENT_TEXT сообщение — обновляет текстовый элемент в диалоговом окне задачи.
 ms.assetid: 2df446c8-db87-42b5-b5bd-40fadbf9d45b
 keywords:
 - Элементы управления Windows для TDM_UPDATE_ELEMENT_TEXT сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6dac6787c68d0cbe619bbf28fa1a6383606e99f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c155b426b92645c0b9cdbabe00c44ffa722b89f3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137610"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085812"
 ---
 # <a name="tdm_update_element_text-message"></a>\_ \_ Текстовое сообщение элемента обновления TDM \_
 
@@ -60,7 +60,7 @@ ms.locfileid: "104137610"
 
 Возвращаемое значение игнорируется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы избежать обрезки, новый текст должен быть больше, чем существующий текст. Установка более короткой строки текста не приводит к изменению размера диалогового окна.
 
@@ -80,7 +80,7 @@ ms.locfileid: "104137610"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: 'Метод Rate извлекает скорость воспроизведения. Этот метод реализует метод Имедиасикинг:: Rate.'
+description: 'Кпоспасссру. метод Rate — метод метода Rate извлекает скорость воспроизведения. Этот метод реализует метод Имедиасикинг:: Rate.'
 ms.assetid: 19de3ea3-280e-4320-9cce-2c29801bd84b
 title: Метод Кпоспасссру. rate (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 13e96bb231eb3e5c41f8cdf18c649f20955ba5cd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 997323ca2089a0b381b85c3730cb364d0883b1bf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657003"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085562"
 ---
 # <a name="cpospassthrugetrate-method"></a>Кпоспасссру. метод Rate
 
@@ -64,7 +64,7 @@ HRESULT GetRate(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

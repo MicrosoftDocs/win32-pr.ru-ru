@@ -1,15 +1,15 @@
 ---
-description: Происходит при распознавании жеста конкретного приложения.
+description: Событие InkPicture. жеста — происходит при распознавании жеста конкретного приложения.
 ms.assetid: a20f2d78-6cfe-4755-968e-91369021db1b
 title: Событие InkPicture. жест (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94581369554b4aef16530c9ddc8b3fd1a31ad861
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 915557f304d722ed2819af75dd40284db119abfb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693460"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086592"
 ---
 # <a name="inkpicturegesture-event"></a>Событие InkPicture. жест
 
@@ -67,7 +67,7 @@ void Gesture(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в интерфейсах диспетчеризации (DISP) **\_ иинкколлекторевентс**, **\_ иинковерлайевентс** и **\_ иинкпиктуривентс** с идентификатором DISPID \_ ицежестуре.
 
@@ -107,7 +107,7 @@ void Gesture(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

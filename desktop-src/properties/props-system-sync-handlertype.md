@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Sync. Хандлертипе
 ms.assetid: ba99bf9c-e559-4b0d-bcf4-40d11d0a9cf0
 title: System. Sync. Хандлертипе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bcab9746bea3c5eb84214520100562a13a51a6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa98ea9a69781cf80f34ce5534e10ff88724bd05
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712630"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091462"
 ---
 # <a name="systemsynchandlertype"></a>System. Sync. Хандлертипе
 
@@ -101,11 +101,11 @@ propertyDescription
             defineName = SYNC_HANDLERTYPE_COMPUTERS
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

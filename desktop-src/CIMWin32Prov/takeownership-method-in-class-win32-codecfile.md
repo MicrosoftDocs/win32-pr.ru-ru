@@ -1,5 +1,5 @@
 ---
-description: Метод класса WMI Такеовнершип получает владение логическим файлом, указанным в пути объекта.
+description: Метод Такеовнершип класса Win32_CodecFile. метод класса WMI Такеовнершип получает владение логическим файлом, указанным в пути объекта.
 ms.assetid: c8fa0706-1f7e-4e68-aea6-694ba24c16c3
 ms.tgt_platform: multiple
 title: Метод Такеовнершип класса Win32_CodecFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1de05f444e99be9a1ebcb5d32fa0ba754cf34254
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e52e5dafe5f0453861ddcddadf9f7115d17ee404
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104140990"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086042"
 ---
 # <a name="takeownership-method-of-the-win32_codecfile-class"></a>Метод Такеовнершип \_ класса Win32 кодекфиле
 
@@ -151,7 +151,7 @@ uint32 TakeOwnerShip();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

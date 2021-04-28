@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кбаселист. Кбаселист (TCHAR \* , int).
 ms.assetid: 2d48cb66-45d2-4d2d-ba7e-ae759b6d2aa4
 title: Конструктор Кбаселист. Кбаселист (TCHAR *, INT) (Вкслист. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9c947c8ffa6b61f919d03470b386ffa82945f3b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf745e22ffccb342d945a024760f8c72fdb35ce9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668609"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099642"
 ---
 # <a name="cbaselistcbaselisttchar-int-constructor"></a>Конструктор Кбаселист. Кбаселист (TCHAR \* , int)
 
@@ -57,7 +57,7 @@ CBaseList(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для повышения эффективности `CBaseList` класс поддерживает кэш узлов списка. Если вы понимаете, сколько элементов будет храниться в списке, используйте эту версию конструктора.
 
@@ -72,7 +72,7 @@ CBaseList(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

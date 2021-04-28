@@ -1,5 +1,5 @@
 ---
-description: Текущее состояние отчета.
+description: Свойство Локатиондисп. Цивикаддрессрепортфактори. status — текущее состояние отчета.
 ms.assetid: 3aae0b61-cdaa-4131-b6e1-406813bb1848
 title: Локатиондисп. Цивикаддрессрепортфактори. status, свойство
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ff937b11fbb64e0ec1596f9b3b9d85b33528eb06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acb5bcfa589139e2c69e75124253f9d9a7b53a87
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684550"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118502"
 ---
 # <a name="locationdispcivicaddressreportfactorystatus-property"></a>Локатиондисп. Цивикаддрессрепортфактори. status, свойство
 
@@ -44,11 +44,11 @@ Status = LocationDisp.CivicAddressReportFactory.Status
 
 | Состояние                                                                                               | Значение                          |
 |------------------------------------------------------------------------------------------------------|----------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Отчет не поддерживается.<br/> |
+| <span id="0"></span><dl> <dt>**0,0**</dt> </dl> | Отчет не поддерживается.<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Ошибка.<br/>                |
-| <span id="2"></span><dl> <dt>**2**</dt> </dl> | Доступ запрещен.<br/>        |
+| <span id="2"></span><dl> <dt>**2**</dt> </dl> | Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)<br/>        |
 | <span id="3"></span><dl> <dt>**3-5**</dt> </dl> | Инициализация.<br/>         |
-| <span id="4"></span><dl> <dt>**четырех**</dt> </dl> | Выполняется.<br/>              |
+| <span id="4"></span><dl> <dt>**4**</dt> </dl> | Выполняется.<br/>              |
 
 
 

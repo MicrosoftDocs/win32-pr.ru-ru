@@ -1,5 +1,5 @@
 ---
-description: запускает службу.
+description: Метод StartService класса Msvm_VirtualSystemMigrationService — запускает службу.
 ms.assetid: 2803cc6f-64ea-4502-ae5a-075bdd3f8c96
 title: Метод StartService класса Msvm_VirtualSystemMigrationService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d6fe5e808aaf910de847085d83d29a7b6e17b098
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bdd457e545c8a443952bc8fdaa08dedb1db478b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682482"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118632"
 ---
 # <a name="startservice-method-of-the-msvm_virtualsystemmigrationservice-class"></a>Метод StartService \_ класса мсвм виртуалсистеммигратионсервице
 
@@ -55,7 +55,7 @@ uint32 StartService();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -63,7 +63,7 @@ uint32 StartService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

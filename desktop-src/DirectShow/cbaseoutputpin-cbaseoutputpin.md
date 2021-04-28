@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кбасеаутпутпин. Кбасеаутпутпин.
 ms.assetid: 1105c951-a51d-49ab-a69d-f3d482d61233
 title: Конструктор Кбасеаутпутпин. Кбасеаутпутпин (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0461c5056ee48caa19f21d1fcb8fcf1636157d9f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9901591be32d431ebe53a2098456446a0126d26b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669182"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099572"
 ---
 # <a name="cbaseoutputpincbaseoutputpin-constructor"></a>Кбасеаутпутпин. Кбасеаутпутпин, конструктор
 
@@ -81,7 +81,7 @@ CBaseOutputPin(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все параметры передаются непосредственно в конструктор [**кбасепин**](cbasepin.md) .
 
@@ -96,7 +96,7 @@ CBaseOutputPin(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

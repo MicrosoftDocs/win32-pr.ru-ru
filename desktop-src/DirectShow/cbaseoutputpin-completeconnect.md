@@ -1,5 +1,5 @@
 ---
-description: Метод Комплетеконнект завершает соединение с входным закреплением.
+description: Кбасеаутпутпин. Комплетеконнект, метод Комплетеконнект завершает соединение с входным закреплением.
 ms.assetid: 44c28c71-2c69-40ca-9bc4-c10394475a0f
 title: Кбасеаутпутпин. Комплетеконнект, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4614e8531a21d88a1c2f4cfd75fcbe05a9210f13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd4bc52db99b88c4d6f16c549fbb558bb6423730
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668778"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099542"
 ---
 # <a name="cbaseoutputpincompleteconnect-method"></a>Кбасеаутпутпин. Комплетеконнект, метод
 
@@ -53,7 +53,7 @@ virtual HRESULT CompleteConnect(
 
 Возвращает \_ значение ОК в случае успешного выполнения или **HRESULT** , указывающий на причину ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасепин:: комплетеконнект**](cbasepin-completeconnect.md) . Он вызывает метод [**деЦидеаллокатор**](cbaseoutputpin-decideallocator.md) , который выбирает механизм выделения памяти, используемый для этого соединения.
 
@@ -68,7 +68,7 @@ virtual HRESULT CompleteConnect(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
