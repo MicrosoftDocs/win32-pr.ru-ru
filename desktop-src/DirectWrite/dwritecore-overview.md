@@ -6,12 +6,12 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: e80da37bb65cddaffabd67ae9e5b40e2433e64da
-ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
+ms.openlocfilehash: 4ab8970172032f47b6e97da6d097d7c1bf33e976
+ms.sourcegitcommit: 133954d5dbcd5b2b3b50c8efd16cd101278fc1db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "107955017"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108172506"
 ---
 # <a name="dwritecore-overview"></a>Общие сведения о DWriteCore
 
@@ -41,13 +41,13 @@ ms.locfileid: "107955017"
 
 В Visual Studio щелкните **расширения**  >  **Управление расширениями**, выполните поиск по запросу *объединить в проект* и скачайте расширение Union проекта. Закройте и снова откройте Visual Studio и следуйте инструкциям по установке расширения.
 
-Дополнительные сведения см. в разделе [Project реюньон 0,5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0)и [Создание настольных приложений Windows с помощью предложения UNION 0,5](/windows/apps/project-reunion/#set-up-your-development-environment).
+Дополнительные сведения см. в разделе [Project реюньон 0,5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0)и [Настройка среды разработки (для объединения проектов)](/windows/apps/project-reunion/get-started-with-project-reunion#set-up-your-development-environment).
 
 ### <a name="create-a-new-project"></a>Создание нового проекта
 
 В Visual Studio создайте новый проект из шаблона проекта " **пустое приложение", упакованное (винуи 3 в рабочем столе)** . Чтобы найти шаблон проекта, выберите язык: *C++*. Платформа: *объединение проектов*; Тип проекта: *Рабочий стол*.
 
-Дополнительные сведения см. в разделе [шаблоны проектов для винуи 3](/windows/apps/winui/winui3/winui-project-templates-in-visual-studio#project-templates-for-winui-3).
+Дополнительные сведения см. в статье Начало [работы с винуи 3 для классических приложений](/windows/apps/winui/winui3/get-started-winui3-for-desktop).
 
 ### <a name="install-the-microsoftprojectreuniondwrite-nuget-package"></a>Установка пакета NuGet Microsoft. Прожектреунион. Дврите
 

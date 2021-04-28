@@ -5,12 +5,12 @@ title: Индекс API
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 66e4be746ee8d62f2458eb85c84ca901d4f0c5ef
-ms.sourcegitcommit: 0c786b1682063d0cae0fc43180945183fa2c7981
+ms.openlocfilehash: 0c72c14bffa43150357d6bfe0d025d515fef9f2f
+ms.sourcegitcommit: 133954d5dbcd5b2b3b50c8efd16cd101278fc1db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "104414137"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108172496"
 ---
 # <a name="api-index-for-desktop-windows-applications"></a>Индекс API для приложений Windows для настольных систем
 
@@ -31,7 +31,7 @@ API Win32 (также называемый API Windows) — это собств�
 WinRT — это ведущая платформа для приложений и игр Windows 10, включая классические приложения. API WinRT подходит как для машинного C++, так и для управляемых настольных приложений, для которых требуется сложный пользовательский интерфейс, Настройка стилей и сценарии с большим объемом графики.
 
 * [Справочные материалы по WinRT](/uwp/api/)
-* [API-интерфейсы WinRT, вызываемые из классических приложений Win32, WPF и Windows Forms](uwp-apis-callable-from-a-classic-desktop-app.md)
+* [Интерфейсы API WinRT, вызываемые из классического приложения](uwp-apis-callable-from-a-classic-desktop-app.md)
 
 ## <a name="net"></a>.NET
 
