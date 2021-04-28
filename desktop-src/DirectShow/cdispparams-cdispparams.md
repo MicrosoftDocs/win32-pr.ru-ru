@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кдисппарамс. Кдисппарамс.
 ms.assetid: da67a5e4-b4a1-4a38-93fe-0965695e93f5
 title: Конструктор Кдисппарамс. Кдисппарамс (Ктлутил. h)
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f3beeb0a6e3a18c3fac6606385d9206938bbc1cd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 42f55a57a0f9e06d3001c2638d457fe0b82a914d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675812"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095792"
 ---
-# <a name="cdispparamscdispparams-constructor"></a><span data-ttu-id="50830-103">Кдисппарамс. Кдисппарамс, конструктор</span><span class="sxs-lookup"><span data-stu-id="50830-103">CDispParams.CDispParams constructor</span></span>
+# <a name="cdispparamscdispparams-constructor"></a><span data-ttu-id="27ccf-103">Кдисппарамс. Кдисппарамс, конструктор</span><span class="sxs-lookup"><span data-stu-id="27ccf-103">CDispParams.CDispParams constructor</span></span>
 
-<span data-ttu-id="50830-104">Метод конструктора.</span><span class="sxs-lookup"><span data-stu-id="50830-104">Constructor method.</span></span>
+<span data-ttu-id="27ccf-104">Метод конструктора.</span><span class="sxs-lookup"><span data-stu-id="27ccf-104">Constructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="50830-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="50830-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="27ccf-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="27ccf-105">Syntax</span></span>
 
 
 ```C++
@@ -39,40 +39,40 @@ CDispParams(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="50830-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="50830-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="27ccf-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="27ccf-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="50830-107">*наргс*</span><span class="sxs-lookup"><span data-stu-id="50830-107">*nArgs*</span></span> 
+<span data-ttu-id="27ccf-107">*наргс*</span><span class="sxs-lookup"><span data-stu-id="27ccf-107">*nArgs*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="50830-108">Количество аргументов, переданных методу или свойству.</span><span class="sxs-lookup"><span data-stu-id="50830-108">Number of arguments passed to the method or property.</span></span>
+<span data-ttu-id="27ccf-108">Количество аргументов, переданных методу или свойству.</span><span class="sxs-lookup"><span data-stu-id="27ccf-108">Number of arguments passed to the method or property.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="50830-109">*паргс*</span><span class="sxs-lookup"><span data-stu-id="50830-109">*pArgs*</span></span> 
+<span data-ttu-id="27ccf-109">*паргс*</span><span class="sxs-lookup"><span data-stu-id="27ccf-109">*pArgs*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="50830-110">Указатель на список аргументов.</span><span class="sxs-lookup"><span data-stu-id="50830-110">Pointer to the list of arguments.</span></span> <span data-ttu-id="50830-111">В списке каждый аргумент сохраняется с типом Variant.</span><span class="sxs-lookup"><span data-stu-id="50830-111">In the list, each argument is stored with its variant type.</span></span>
+<span data-ttu-id="27ccf-110">Указатель на список аргументов.</span><span class="sxs-lookup"><span data-stu-id="27ccf-110">Pointer to the list of arguments.</span></span> <span data-ttu-id="27ccf-111">В списке каждый аргумент сохраняется с типом Variant.</span><span class="sxs-lookup"><span data-stu-id="27ccf-111">In the list, each argument is stored with its variant type.</span></span>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="50830-112">Требования</span><span class="sxs-lookup"><span data-stu-id="50830-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="27ccf-112">Требования</span><span class="sxs-lookup"><span data-stu-id="27ccf-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="50830-113">Требование</span><span class="sxs-lookup"><span data-stu-id="50830-113">Requirement</span></span> | <span data-ttu-id="50830-114">Значение</span><span class="sxs-lookup"><span data-stu-id="50830-114">Value</span></span> |
+| <span data-ttu-id="27ccf-113">Требование</span><span class="sxs-lookup"><span data-stu-id="27ccf-113">Requirement</span></span> | <span data-ttu-id="27ccf-114">Значение</span><span class="sxs-lookup"><span data-stu-id="27ccf-114">Value</span></span> |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="50830-115">Header</span><span class="sxs-lookup"><span data-stu-id="50830-115">Header</span></span><br/>  | <dl> <span data-ttu-id="50830-116"><dt>Ктлутил. h (включение Streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="50830-116"><dt>Ctlutil.h (include Streams.h)</dt></span></span> </dl>                                                                                   |
-| <span data-ttu-id="50830-117">Библиотека</span><span class="sxs-lookup"><span data-stu-id="50830-117">Library</span></span><br/> | <dl> <span data-ttu-id="50830-118"><dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt></span><span class="sxs-lookup"><span data-stu-id="50830-118"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
+| <span data-ttu-id="27ccf-115">Header</span><span class="sxs-lookup"><span data-stu-id="27ccf-115">Header</span></span><br/>  | <dl> <span data-ttu-id="27ccf-116"><dt>Ктлутил. h (включение Streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="27ccf-116"><dt>Ctlutil.h (include Streams.h)</dt></span></span> </dl>                                                                                   |
+| <span data-ttu-id="27ccf-117">Библиотека</span><span class="sxs-lookup"><span data-stu-id="27ccf-117">Library</span></span><br/> | <dl> <span data-ttu-id="27ccf-118"><dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt></span><span class="sxs-lookup"><span data-stu-id="27ccf-118"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="50830-119">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="50830-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27ccf-119">См. также</span><span class="sxs-lookup"><span data-stu-id="27ccf-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="50830-120">**Класс Кдисппарамс**</span><span class="sxs-lookup"><span data-stu-id="50830-120">**CDispParams Class**</span></span>](cdispparams.md)
+[<span data-ttu-id="27ccf-120">**Класс Кдисппарамс**</span><span class="sxs-lookup"><span data-stu-id="27ccf-120">**CDispParams Class**</span></span>](cdispparams.md)
 </dt> </dl>
 
  
