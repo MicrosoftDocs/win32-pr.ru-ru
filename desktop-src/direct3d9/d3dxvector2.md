@@ -1,5 +1,5 @@
 ---
-description: Описывает вектор с двумя компонентами, включая перегрузки операторов и приведения типов.
+description: Структура D3DXVECTOR2 (D3dx9math. h) — описывает вектор с двумя компонентами, включая перегрузки операторов и приведения типов.
 ms.assetid: e61ec1c8-00b5-491f-8fb1-be97218f6c68
 title: Структура D3DXVECTOR2 (D3dx9math. h)
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: f7f54dc67c038d7c22929b67c59e6b0331a5e545
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 79f66c0e9130a320042c9b914bad47e5f02f0d8a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105714048"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097612"
 ---
-# <a name="d3dxvector2-structure-d3dx9mathh"></a><span data-ttu-id="9cc95-103">Структура D3DXVECTOR2 (D3dx9math. h)</span><span class="sxs-lookup"><span data-stu-id="9cc95-103">D3DXVECTOR2 structure (D3dx9math.h)</span></span>
+# <a name="d3dxvector2-structure-d3dx9mathh"></a><span data-ttu-id="b9901-103">Структура D3DXVECTOR2 (D3dx9math. h)</span><span class="sxs-lookup"><span data-stu-id="b9901-103">D3DXVECTOR2 structure (D3dx9math.h)</span></span>
 
-<span data-ttu-id="9cc95-104">Описывает вектор с двумя компонентами, включая перегрузки операторов и приведения типов.</span><span class="sxs-lookup"><span data-stu-id="9cc95-104">Describes a two-component vector including operator overloads and type casts.</span></span>
+<span data-ttu-id="b9901-104">Описывает вектор с двумя компонентами, включая перегрузки операторов и приведения типов.</span><span class="sxs-lookup"><span data-stu-id="b9901-104">Describes a two-component vector including operator overloads and type casts.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9cc95-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9cc95-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b9901-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="b9901-105">Syntax</span></span>
 
 
 ```C++
@@ -36,37 +36,37 @@ typedef struct D3DXVECTOR2 {
 
 
 
-## <a name="members"></a><span data-ttu-id="9cc95-106">Члены</span><span class="sxs-lookup"><span data-stu-id="9cc95-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="b9901-106">Члены</span><span class="sxs-lookup"><span data-stu-id="b9901-106">Members</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="9cc95-107">**x**</span><span class="sxs-lookup"><span data-stu-id="9cc95-107">**x**</span></span>
+<span data-ttu-id="b9901-107">**x**</span><span class="sxs-lookup"><span data-stu-id="b9901-107">**x**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="9cc95-108">Тип: **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="9cc95-108">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="b9901-108">Тип: **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="b9901-108">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
 </dd> <dd>
 
-<span data-ttu-id="9cc95-109">Компонент x.</span><span class="sxs-lookup"><span data-stu-id="9cc95-109">The x-component.</span></span>
+<span data-ttu-id="b9901-109">Компонент x.</span><span class="sxs-lookup"><span data-stu-id="b9901-109">The x-component.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="9cc95-110">**y**</span><span class="sxs-lookup"><span data-stu-id="9cc95-110">**y**</span></span>
+<span data-ttu-id="b9901-110">**y**</span><span class="sxs-lookup"><span data-stu-id="b9901-110">**y**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="9cc95-111">Тип: **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="9cc95-111">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="b9901-111">Тип: **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="b9901-111">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
 </dd> <dd>
 
-<span data-ttu-id="9cc95-112">Компонент y.</span><span class="sxs-lookup"><span data-stu-id="9cc95-112">The y-component.</span></span>
+<span data-ttu-id="b9901-112">Компонент y.</span><span class="sxs-lookup"><span data-stu-id="b9901-112">The y-component.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="9cc95-113">Комментарии</span><span class="sxs-lookup"><span data-stu-id="9cc95-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b9901-113">Remarks</span><span class="sxs-lookup"><span data-stu-id="b9901-113">Remarks</span></span>
 
-### <a name="d3dxvector2-extensions"></a><span data-ttu-id="9cc95-114">Расширения D3DXVECTOR2</span><span class="sxs-lookup"><span data-stu-id="9cc95-114">D3DXVECTOR2 Extensions</span></span>
+### <a name="d3dxvector2-extensions"></a><span data-ttu-id="b9901-114">Расширения D3DXVECTOR2</span><span class="sxs-lookup"><span data-stu-id="b9901-114">D3DXVECTOR2 Extensions</span></span>
 
-<span data-ttu-id="9cc95-115">D3DXVECTOR2 имеет следующие расширения C++.</span><span class="sxs-lookup"><span data-stu-id="9cc95-115">D3DXVECTOR2 has the following C++ extensions.</span></span>
+<span data-ttu-id="b9901-115">D3DXVECTOR2 имеет следующие расширения C++.</span><span class="sxs-lookup"><span data-stu-id="b9901-115">D3DXVECTOR2 has the following C++ extensions.</span></span>
 
 
 ```
@@ -137,21 +137,21 @@ public:
 
 
 
-## <a name="requirements"></a><span data-ttu-id="9cc95-116">Требования</span><span class="sxs-lookup"><span data-stu-id="9cc95-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b9901-116">Требования</span><span class="sxs-lookup"><span data-stu-id="b9901-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="9cc95-117">Требование</span><span class="sxs-lookup"><span data-stu-id="9cc95-117">Requirement</span></span> | <span data-ttu-id="9cc95-118">Значение</span><span class="sxs-lookup"><span data-stu-id="9cc95-118">Value</span></span> |
+| <span data-ttu-id="b9901-117">Требование</span><span class="sxs-lookup"><span data-stu-id="b9901-117">Requirement</span></span> | <span data-ttu-id="b9901-118">Значение</span><span class="sxs-lookup"><span data-stu-id="b9901-118">Value</span></span> |
 |-------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="9cc95-119">Header</span><span class="sxs-lookup"><span data-stu-id="9cc95-119">Header</span></span><br/> | <dl> <span data-ttu-id="9cc95-120"><dt>D3dx9math. h</dt></span><span class="sxs-lookup"><span data-stu-id="9cc95-120"><dt>D3dx9math.h</dt></span></span> </dl> |
+| <span data-ttu-id="b9901-119">Header</span><span class="sxs-lookup"><span data-stu-id="b9901-119">Header</span></span><br/> | <dl> <span data-ttu-id="b9901-120"><dt>D3dx9math. h</dt></span><span class="sxs-lookup"><span data-stu-id="b9901-120"><dt>D3dx9math.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="9cc95-121">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="9cc95-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b9901-121">См. также</span><span class="sxs-lookup"><span data-stu-id="b9901-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9cc95-122">Структуры D3DX</span><span class="sxs-lookup"><span data-stu-id="9cc95-122">D3DX Structures</span></span>](dx9-graphics-reference-d3dx-structures.md)
+[<span data-ttu-id="b9901-122">Структуры D3DX</span><span class="sxs-lookup"><span data-stu-id="b9901-122">D3DX Structures</span></span>](dx9-graphics-reference-d3dx-structures.md)
 </dt> </dl>
 
  
