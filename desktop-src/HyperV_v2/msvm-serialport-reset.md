@@ -1,5 +1,5 @@
 ---
-description: Запрашивает сброс.
+description: Метод Reset класса Msvm_SerialPort — запрашивает сброс.
 ms.assetid: 4f22c81e-323a-45ad-b81f-9fb3980e91f9
 title: Метод Reset класса Msvm_SerialPort
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8fce2fce74f17167b817d1a6a0fa019a93a04211
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b281b6e5ca4d9eb8fd3a4a69bfebe433d35a4ef
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154847"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109652"
 ---
-# <a name="reset-method-of-the-msvm_serialport-class"></a><span data-ttu-id="108c7-103">Метод Reset \_ класса мсвм SerialPort</span><span class="sxs-lookup"><span data-stu-id="108c7-103">Reset method of the Msvm\_SerialPort class</span></span>
+# <a name="reset-method-of-the-msvm_serialport-class"></a><span data-ttu-id="be146-103">Метод Reset \_ класса мсвм SerialPort</span><span class="sxs-lookup"><span data-stu-id="be146-103">Reset method of the Msvm\_SerialPort class</span></span>
 
-<span data-ttu-id="108c7-104">Запрашивает сброс.</span><span class="sxs-lookup"><span data-stu-id="108c7-104">Requests a reset.</span></span>
+<span data-ttu-id="be146-104">Запрашивает сброс.</span><span class="sxs-lookup"><span data-stu-id="be146-104">Requests a reset.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="108c7-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="108c7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="be146-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="be146-105">Syntax</span></span>
 
 
 ```mof
@@ -33,41 +33,41 @@ uint32 Reset();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="108c7-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="108c7-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="be146-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="be146-106">Parameters</span></span>
 
-<span data-ttu-id="108c7-107">Этот метод не имеет параметров.</span><span class="sxs-lookup"><span data-stu-id="108c7-107">This method has no parameters.</span></span>
+<span data-ttu-id="be146-107">Этот метод не имеет параметров.</span><span class="sxs-lookup"><span data-stu-id="be146-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="108c7-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="108c7-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="be146-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="be146-108">Return value</span></span>
 
-<span data-ttu-id="108c7-109">Этот метод возвращает одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="108c7-109">This method returns one of the following values:</span></span>
+<span data-ttu-id="be146-109">Этот метод возвращает одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="be146-109">This method returns one of the following values:</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="108c7-110">**Завершено без ошибок** (0)</span><span class="sxs-lookup"><span data-stu-id="108c7-110">**Completed with No Error** (0)</span></span>
+<span data-ttu-id="be146-110">**Завершено без ошибок** (0)</span><span class="sxs-lookup"><span data-stu-id="be146-110">**Completed with No Error** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="108c7-111">**Не поддерживается** (1)</span><span class="sxs-lookup"><span data-stu-id="108c7-111">**Not supported** (1)</span></span>
+<span data-ttu-id="be146-111">**Не поддерживается** (1)</span><span class="sxs-lookup"><span data-stu-id="be146-111">**Not supported** (1)</span></span>
 </dt> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="108c7-112">Требования</span><span class="sxs-lookup"><span data-stu-id="108c7-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="be146-112">Требования</span><span class="sxs-lookup"><span data-stu-id="be146-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="108c7-113">Требование</span><span class="sxs-lookup"><span data-stu-id="108c7-113">Requirement</span></span> | <span data-ttu-id="108c7-114">Значение</span><span class="sxs-lookup"><span data-stu-id="108c7-114">Value</span></span> |
+| <span data-ttu-id="be146-113">Требование</span><span class="sxs-lookup"><span data-stu-id="be146-113">Requirement</span></span> | <span data-ttu-id="be146-114">Значение</span><span class="sxs-lookup"><span data-stu-id="be146-114">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="108c7-115">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="108c7-115">Minimum supported client</span></span><br/> | <span data-ttu-id="108c7-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="108c7-116">Windows 8.1</span></span><br/>                                                                                  |
-| <span data-ttu-id="108c7-117">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="108c7-117">Minimum supported server</span></span><br/> | <span data-ttu-id="108c7-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="108c7-118">Windows Server 2012 R2</span></span><br/>                                                                       |
-| <span data-ttu-id="108c7-119">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="108c7-119">Namespace</span></span><br/>                | <span data-ttu-id="108c7-120">Корневая \\ виртуализация \\ версии 2</span><span class="sxs-lookup"><span data-stu-id="108c7-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
-| <span data-ttu-id="108c7-121">MOF</span><span class="sxs-lookup"><span data-stu-id="108c7-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="108c7-122"><dt>Виндовсвиртуализатион. v2. mof</dt></span><span class="sxs-lookup"><span data-stu-id="108c7-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="108c7-123">DLL</span><span class="sxs-lookup"><span data-stu-id="108c7-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="108c7-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="108c7-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="be146-115">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="be146-115">Minimum supported client</span></span><br/> | <span data-ttu-id="be146-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="be146-116">Windows 8.1</span></span><br/>                                                                                  |
+| <span data-ttu-id="be146-117">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="be146-117">Minimum supported server</span></span><br/> | <span data-ttu-id="be146-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="be146-118">Windows Server 2012 R2</span></span><br/>                                                                       |
+| <span data-ttu-id="be146-119">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="be146-119">Namespace</span></span><br/>                | <span data-ttu-id="be146-120">Корневая \\ виртуализация \\ версии 2</span><span class="sxs-lookup"><span data-stu-id="be146-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="be146-121">MOF</span><span class="sxs-lookup"><span data-stu-id="be146-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="be146-122"><dt>Виндовсвиртуализатион. v2. mof</dt></span><span class="sxs-lookup"><span data-stu-id="be146-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="be146-123">DLL</span><span class="sxs-lookup"><span data-stu-id="be146-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="be146-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="be146-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="108c7-125">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="108c7-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="be146-125">См. также</span><span class="sxs-lookup"><span data-stu-id="be146-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="108c7-126">**Мсвм \_ SerialPort**</span><span class="sxs-lookup"><span data-stu-id="108c7-126">**Msvm\_SerialPort**</span></span>](msvm-serialport.md)
+[<span data-ttu-id="be146-126">**Мсвм \_ SerialPort**</span><span class="sxs-lookup"><span data-stu-id="be146-126">**Msvm\_SerialPort**</span></span>](msvm-serialport.md)
 </dt> </dl>
 
  

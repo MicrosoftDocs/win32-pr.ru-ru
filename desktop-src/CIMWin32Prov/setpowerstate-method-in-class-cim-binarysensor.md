@@ -1,5 +1,5 @@
 ---
-description: Метод SetPowerState задает требуемое состояние электропитания для логического устройства и когда устройство должно быть переведено в это состояние.
+description: Метод SetPowerState класса CIM_BinarySensor. Метод SetPowerState задает требуемое состояние электропитания для логического устройства и когда устройство должно быть переведено в это состояние.
 ms.assetid: bf5bdc90-9735-47b8-87d5-8f2482e603ed
 ms.tgt_platform: multiple
 title: Метод SetPowerState класса CIM_BinarySensor
@@ -14,25 +14,25 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a8bcb0443cfeba88e464d594c453aee592092520
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fd18c9f5761cac208f8682bbc3c8f189cf0aefe0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650443"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089512"
 ---
-# <a name="setpowerstate-method-of-the-cim_binarysensor-class"></a><span data-ttu-id="cd672-103">Метод SetPowerState \_ класса CIM бинарисенсор</span><span class="sxs-lookup"><span data-stu-id="cd672-103">SetPowerState method of the CIM\_BinarySensor class</span></span>
+# <a name="setpowerstate-method-of-the-cim_binarysensor-class"></a><span data-ttu-id="0a800-103">Метод SetPowerState \_ класса CIM бинарисенсор</span><span class="sxs-lookup"><span data-stu-id="0a800-103">SetPowerState method of the CIM\_BinarySensor class</span></span>
 
-<span data-ttu-id="cd672-104">Метод **SetPowerState** задает требуемое состояние электропитания для логического устройства и когда устройство должно быть переведено в это состояние.</span><span class="sxs-lookup"><span data-stu-id="cd672-104">The **SetPowerState** method sets the desired power state for a logical device and when the device should be put into that state.</span></span>
+<span data-ttu-id="0a800-104">Метод **SetPowerState** задает требуемое состояние электропитания для логического устройства и когда устройство должно быть переведено в это состояние.</span><span class="sxs-lookup"><span data-stu-id="0a800-104">The **SetPowerState** method sets the desired power state for a logical device and when the device should be put into that state.</span></span>
 
-<span data-ttu-id="cd672-105">В подклассе набор возможных кодов возврата должен быть указан с помощью квалификатора **ValueMap** в методе.</span><span class="sxs-lookup"><span data-stu-id="cd672-105">In a subclass, the set of possible return codes should be specified using a **ValueMap** qualifier on the method.</span></span> <span data-ttu-id="cd672-106">Строки, в которые преобразуются содержимое **ValueMap** , также должны быть указаны в подклассе как квалификатор массива **Values** .</span><span class="sxs-lookup"><span data-stu-id="cd672-106">The strings to which the **ValueMap** contents are translated should also be specified in the subclass as a **Values** array qualifier.</span></span> <span data-ttu-id="cd672-107">Этот метод наследуется [**от \_ CIM**](cim-logicaldevice.md)-ого модели.</span><span class="sxs-lookup"><span data-stu-id="cd672-107">This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
+<span data-ttu-id="0a800-105">В подклассе набор возможных кодов возврата должен быть указан с помощью квалификатора **ValueMap** в методе.</span><span class="sxs-lookup"><span data-stu-id="0a800-105">In a subclass, the set of possible return codes should be specified using a **ValueMap** qualifier on the method.</span></span> <span data-ttu-id="0a800-106">Строки, в которые преобразуются содержимое **ValueMap** , также должны быть указаны в подклассе как квалификатор массива **Values** .</span><span class="sxs-lookup"><span data-stu-id="0a800-106">The strings to which the **ValueMap** contents are translated should also be specified in the subclass as a **Values** array qualifier.</span></span> <span data-ttu-id="0a800-107">Этот метод наследуется [**от \_ CIM**](cim-logicaldevice.md)-ого модели.</span><span class="sxs-lookup"><span data-stu-id="0a800-107">This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="cd672-108">Классы CIM (модель CIM) в DMTF (распределенная задача управления) являются родительскими классами, на которых строятся классы WMI.</span><span class="sxs-lookup"><span data-stu-id="cd672-108">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="cd672-109">В настоящее время WMI поддерживает только [схемы версии CIM 2. x](https://dmtf.org/standards/cim/schemas).</span><span class="sxs-lookup"><span data-stu-id="cd672-109">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
+> <span data-ttu-id="0a800-108">Классы CIM (модель CIM) в DMTF (распределенная задача управления) являются родительскими классами, на которых строятся классы WMI.</span><span class="sxs-lookup"><span data-stu-id="0a800-108">The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built.</span></span> <span data-ttu-id="0a800-109">В настоящее время WMI поддерживает только [схемы версии CIM 2. x](https://dmtf.org/standards/cim/schemas).</span><span class="sxs-lookup"><span data-stu-id="0a800-109">WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).</span></span>
 
  
 
-## <a name="syntax"></a><span data-ttu-id="cd672-110">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="cd672-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0a800-110">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0a800-110">Syntax</span></span>
 
 
 ```mof
@@ -44,98 +44,98 @@ uint32 SetPowerState(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="cd672-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="cd672-111">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0a800-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="0a800-111">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="cd672-112">*PowerState* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="cd672-112">*PowerState* \[in\]</span></span>
+<span data-ttu-id="0a800-112">*PowerState* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="0a800-112">*PowerState* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cd672-113">Значение **ValueMap** , указывающее требуемое состояние электропитания для логического устройства.</span><span class="sxs-lookup"><span data-stu-id="cd672-113">A **ValueMap** value that specifies the desired power state for the logical device.</span></span>
+<span data-ttu-id="0a800-113">Значение **ValueMap** , указывающее требуемое состояние электропитания для логического устройства.</span><span class="sxs-lookup"><span data-stu-id="0a800-113">A **ValueMap** value that specifies the desired power state for the logical device.</span></span>
 
 <dt>
 
-<span data-ttu-id="cd672-114">1</span><span class="sxs-lookup"><span data-stu-id="cd672-114">1</span></span>
+<span data-ttu-id="0a800-114">1</span><span class="sxs-lookup"><span data-stu-id="0a800-114">1</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cd672-115">Полная мощность.</span><span class="sxs-lookup"><span data-stu-id="cd672-115">Full power.</span></span>
+<span data-ttu-id="0a800-115">Полная мощность.</span><span class="sxs-lookup"><span data-stu-id="0a800-115">Full power.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="cd672-116">2</span><span class="sxs-lookup"><span data-stu-id="cd672-116">2</span></span>
+<span data-ttu-id="0a800-116">2</span><span class="sxs-lookup"><span data-stu-id="0a800-116">2</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cd672-117">Режим энергосбережения с низким энергопотреблением.</span><span class="sxs-lookup"><span data-stu-id="cd672-117">Power save   low-power mode.</span></span>
+<span data-ttu-id="0a800-117">Режим энергосбережения с низким энергопотреблением.</span><span class="sxs-lookup"><span data-stu-id="0a800-117">Power save   low-power mode.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="cd672-118">3</span><span class="sxs-lookup"><span data-stu-id="cd672-118">3</span></span>
+<span data-ttu-id="0a800-118">3</span><span class="sxs-lookup"><span data-stu-id="0a800-118">3</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cd672-119">Энергосбережение в режиме ожидания.</span><span class="sxs-lookup"><span data-stu-id="cd672-119">Power save   standby.</span></span>
+<span data-ttu-id="0a800-119">Энергосбережение в режиме ожидания.</span><span class="sxs-lookup"><span data-stu-id="0a800-119">Power save   standby.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="cd672-120">4</span><span class="sxs-lookup"><span data-stu-id="cd672-120">4</span></span>
+<span data-ttu-id="0a800-120">4</span><span class="sxs-lookup"><span data-stu-id="0a800-120">4</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cd672-121">Энергосбережение.</span><span class="sxs-lookup"><span data-stu-id="cd672-121">Power save   other.</span></span>
+<span data-ttu-id="0a800-121">Энергосбережение.</span><span class="sxs-lookup"><span data-stu-id="0a800-121">Power save   other.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="cd672-122">5</span><span class="sxs-lookup"><span data-stu-id="cd672-122">5</span></span>
+<span data-ttu-id="0a800-122">5</span><span class="sxs-lookup"><span data-stu-id="0a800-122">5</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cd672-123">Цикл электропитания.</span><span class="sxs-lookup"><span data-stu-id="cd672-123">Power cycle.</span></span>
+<span data-ttu-id="0a800-123">Цикл электропитания.</span><span class="sxs-lookup"><span data-stu-id="0a800-123">Power cycle.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="cd672-124">6</span><span class="sxs-lookup"><span data-stu-id="cd672-124">6</span></span>
+<span data-ttu-id="0a800-124">6</span><span class="sxs-lookup"><span data-stu-id="0a800-124">6</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cd672-125">Выключение питания.</span><span class="sxs-lookup"><span data-stu-id="cd672-125">Power off.</span></span>
+<span data-ttu-id="0a800-125">Выключение питания.</span><span class="sxs-lookup"><span data-stu-id="0a800-125">Power off.</span></span>
 
 </dd> </dl> </dd> <dt>
 
-<span data-ttu-id="cd672-126">*Время* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="cd672-126">*Time* \[in\]</span></span>
+<span data-ttu-id="0a800-126">*Время* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="0a800-126">*Time* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="cd672-127">Указывает, когда должно быть установлено состояние электропитания: как обычное значение даты-времени или как значение интервала (где интервал начинается при получении вызова метода).</span><span class="sxs-lookup"><span data-stu-id="cd672-127">Specifies when the power state should be set, either as a regular date-time value or as an interval value (where the interval begins when the method invocation is received).</span></span> <span data-ttu-id="cd672-128">Если параметр *PowerState* равен 5 ("цикл электропитания"), параметр *времени* указывает, когда устройство должно снова включить питание.</span><span class="sxs-lookup"><span data-stu-id="cd672-128">When the *PowerState* parameter is equal to 5 ("Power Cycle"), the *Time* parameter indicates when the device should power-on again.</span></span> <span data-ttu-id="cd672-129">Выключение осуществляется немедленно.</span><span class="sxs-lookup"><span data-stu-id="cd672-129">Power-off is immediate.</span></span>
+<span data-ttu-id="0a800-127">Указывает, когда должно быть установлено состояние электропитания: как обычное значение даты-времени или как значение интервала (где интервал начинается при получении вызова метода).</span><span class="sxs-lookup"><span data-stu-id="0a800-127">Specifies when the power state should be set, either as a regular date-time value or as an interval value (where the interval begins when the method invocation is received).</span></span> <span data-ttu-id="0a800-128">Если параметр *PowerState* равен 5 ("цикл электропитания"), параметр *времени* указывает, когда устройство должно снова включить питание.</span><span class="sxs-lookup"><span data-stu-id="0a800-128">When the *PowerState* parameter is equal to 5 ("Power Cycle"), the *Time* parameter indicates when the device should power-on again.</span></span> <span data-ttu-id="0a800-129">Выключение осуществляется немедленно.</span><span class="sxs-lookup"><span data-stu-id="0a800-129">Power-off is immediate.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="cd672-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="cd672-130">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0a800-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0a800-130">Return value</span></span>
 
-<span data-ttu-id="cd672-131">Возвращает 0 (нуль) в случае успеха, 1 (один), если *указанный запрос* о сбое и *время* не поддерживаются, и другое значение, если произошла какая-либо другая ошибка.</span><span class="sxs-lookup"><span data-stu-id="cd672-131">Returns 0 (zero) if successful, 1 (one) if the specified *PowerState* and *Time* request is not supported, and another value if any other error occurred.</span></span>
+<span data-ttu-id="0a800-131">Возвращает 0 (нуль) в случае успеха, 1 (один), если *указанный запрос* о сбое и *время* не поддерживаются, и другое значение, если произошла какая-либо другая ошибка.</span><span class="sxs-lookup"><span data-stu-id="0a800-131">Returns 0 (zero) if successful, 1 (one) if the specified *PowerState* and *Time* request is not supported, and another value if any other error occurred.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="cd672-132">Комментарии</span><span class="sxs-lookup"><span data-stu-id="cd672-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0a800-132">Remarks</span><span class="sxs-lookup"><span data-stu-id="0a800-132">Remarks</span></span>
 
-<span data-ttu-id="cd672-133">В настоящее время этот метод не реализован инструментарием WMI.</span><span class="sxs-lookup"><span data-stu-id="cd672-133">Currently, this method is not implemented by WMI.</span></span> <span data-ttu-id="cd672-134">Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.</span><span class="sxs-lookup"><span data-stu-id="cd672-134">To use this method, you must implement it in your own provider.</span></span>
+<span data-ttu-id="0a800-133">В настоящее время этот метод не реализован инструментарием WMI.</span><span class="sxs-lookup"><span data-stu-id="0a800-133">Currently, this method is not implemented by WMI.</span></span> <span data-ttu-id="0a800-134">Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.</span><span class="sxs-lookup"><span data-stu-id="0a800-134">To use this method, you must implement it in your own provider.</span></span>
 
-<span data-ttu-id="cd672-135">Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF.</span><span class="sxs-lookup"><span data-stu-id="cd672-135">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="cd672-136">Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.</span><span class="sxs-lookup"><span data-stu-id="cd672-136">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
+<span data-ttu-id="0a800-135">Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF.</span><span class="sxs-lookup"><span data-stu-id="0a800-135">This documentation is derived from the CIM class descriptions published by the DMTF.</span></span> <span data-ttu-id="0a800-136">Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.</span><span class="sxs-lookup"><span data-stu-id="0a800-136">Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="cd672-137">Требования</span><span class="sxs-lookup"><span data-stu-id="cd672-137">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="0a800-137">Требования</span><span class="sxs-lookup"><span data-stu-id="0a800-137">Requirements</span></span>
 
 
 
-| <span data-ttu-id="cd672-138">Требование</span><span class="sxs-lookup"><span data-stu-id="cd672-138">Requirement</span></span> | <span data-ttu-id="cd672-139">Значение</span><span class="sxs-lookup"><span data-stu-id="cd672-139">Value</span></span> |
+| <span data-ttu-id="0a800-138">Требование</span><span class="sxs-lookup"><span data-stu-id="0a800-138">Requirement</span></span> | <span data-ttu-id="0a800-139">Значение</span><span class="sxs-lookup"><span data-stu-id="0a800-139">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="cd672-140">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="cd672-140">Minimum supported client</span></span><br/> | <span data-ttu-id="cd672-141">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="cd672-141">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="cd672-142">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="cd672-142">Minimum supported server</span></span><br/> | <span data-ttu-id="cd672-143">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="cd672-143">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="cd672-144">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="cd672-144">Namespace</span></span><br/>                | <span data-ttu-id="cd672-145">Корневой \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="cd672-145">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="cd672-146">MOF</span><span class="sxs-lookup"><span data-stu-id="cd672-146">MOF</span></span><br/>                      | <dl> <span data-ttu-id="cd672-147"><dt>CIMWin32. mof</dt></span><span class="sxs-lookup"><span data-stu-id="cd672-147"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="cd672-148">DLL</span><span class="sxs-lookup"><span data-stu-id="cd672-148">DLL</span></span><br/>                      | <dl> <span data-ttu-id="cd672-149"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="cd672-149"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="0a800-140">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="0a800-140">Minimum supported client</span></span><br/> | <span data-ttu-id="0a800-141">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="0a800-141">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="0a800-142">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="0a800-142">Minimum supported server</span></span><br/> | <span data-ttu-id="0a800-143">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="0a800-143">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="0a800-144">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="0a800-144">Namespace</span></span><br/>                | <span data-ttu-id="0a800-145">Корневой \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="0a800-145">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="0a800-146">MOF</span><span class="sxs-lookup"><span data-stu-id="0a800-146">MOF</span></span><br/>                      | <dl> <span data-ttu-id="0a800-147"><dt>CIMWin32. mof</dt></span><span class="sxs-lookup"><span data-stu-id="0a800-147"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="0a800-148">DLL</span><span class="sxs-lookup"><span data-stu-id="0a800-148">DLL</span></span><br/>                      | <dl> <span data-ttu-id="0a800-149"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="0a800-149"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="cd672-150">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="cd672-150">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0a800-150">См. также</span><span class="sxs-lookup"><span data-stu-id="0a800-150">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="cd672-151">\_БИНАРИСЕНСОР CIM</span><span class="sxs-lookup"><span data-stu-id="cd672-151">CIM\_BinarySensor</span></span>](setpowerstate-method-in-class-cim-binarysensor.md)
+[<span data-ttu-id="0a800-151">\_БИНАРИСЕНСОР CIM</span><span class="sxs-lookup"><span data-stu-id="0a800-151">CIM\_BinarySensor</span></span>](setpowerstate-method-in-class-cim-binarysensor.md)
 </dt> <dt>
 
-[<span data-ttu-id="cd672-152">**\_БИНАРИСЕНСОР CIM**</span><span class="sxs-lookup"><span data-stu-id="cd672-152">**CIM\_BinarySensor**</span></span>](cim-binarysensor.md)
+[<span data-ttu-id="0a800-152">**\_БИНАРИСЕНСОР CIM**</span><span class="sxs-lookup"><span data-stu-id="0a800-152">**CIM\_BinarySensor**</span></span>](cim-binarysensor.md)
 </dt> </dl>
 
  
