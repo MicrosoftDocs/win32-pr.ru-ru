@@ -1,5 +1,5 @@
 ---
-description: Преобразует массив (x, y, z, 0) в заданную матрицу.
+description: Функция D3DXVec3TransformNormalArray (D3dx9math. h) — преобразует массив (x, y, z, 0) в заданную матрицу.
 ms.assetid: c12fad52-d541-483f-a919-e6031aa4f761
 title: Функция D3DXVec3TransformNormalArray (D3dx9math. h)
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7a70893cc38d2f2fa04b3b89432aa0f887c5a352
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 74da959002bfbd0c488e630f09c89e848708b1b1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647880"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097732"
 ---
-# <a name="d3dxvec3transformnormalarray-function-d3dx9mathh"></a><span data-ttu-id="26bee-103">Функция D3DXVec3TransformNormalArray (D3dx9math. h)</span><span class="sxs-lookup"><span data-stu-id="26bee-103">D3DXVec3TransformNormalArray function (D3dx9math.h)</span></span>
+# <a name="d3dxvec3transformnormalarray-function-d3dx9mathh"></a><span data-ttu-id="e7f6b-103">Функция D3DXVec3TransformNormalArray (D3dx9math. h)</span><span class="sxs-lookup"><span data-stu-id="e7f6b-103">D3DXVec3TransformNormalArray function (D3dx9math.h)</span></span>
 
-<span data-ttu-id="26bee-104">Преобразует массив (x, y, z, 0) в заданную матрицу.</span><span class="sxs-lookup"><span data-stu-id="26bee-104">Transforms an array (x, y, z, 0) by a given matrix.</span></span>
+<span data-ttu-id="e7f6b-104">Преобразует массив (x, y, z, 0) в заданную матрицу.</span><span class="sxs-lookup"><span data-stu-id="e7f6b-104">Transforms an array (x, y, z, 0) by a given matrix.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="26bee-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="26bee-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e7f6b-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e7f6b-105">Syntax</span></span>
 
 
 ```C++
@@ -41,94 +41,94 @@ D3DXVECTOR3* D3DXVec3TransformNormalArray(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="26bee-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="26bee-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e7f6b-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="e7f6b-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="26bee-107">*тоска* \[ в, out\]</span><span class="sxs-lookup"><span data-stu-id="26bee-107">*pOut* \[in, out\]</span></span>
+<span data-ttu-id="e7f6b-107">*тоска* \[ в, out\]</span><span class="sxs-lookup"><span data-stu-id="e7f6b-107">*pOut* \[in, out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="26bee-108">Тип: **[ **D3DXVECTOR3**](d3dxvector3.md)\***</span><span class="sxs-lookup"><span data-stu-id="26bee-108">Type: **[**D3DXVECTOR3**](d3dxvector3.md)\***</span></span>
+<span data-ttu-id="e7f6b-108">Тип: **[ **D3DXVECTOR3**](d3dxvector3.md)\***</span><span class="sxs-lookup"><span data-stu-id="e7f6b-108">Type: **[**D3DXVECTOR3**](d3dxvector3.md)\***</span></span>
 
-<span data-ttu-id="26bee-109">Указатель на массив [**D3DXVECTOR3**](d3dxvector3.md) , который является результатом операции.</span><span class="sxs-lookup"><span data-stu-id="26bee-109">Pointer to the [**D3DXVECTOR3**](d3dxvector3.md) array that is the result of the operation.</span></span>
+<span data-ttu-id="e7f6b-109">Указатель на массив [**D3DXVECTOR3**](d3dxvector3.md) , который является результатом операции.</span><span class="sxs-lookup"><span data-stu-id="e7f6b-109">Pointer to the [**D3DXVECTOR3**](d3dxvector3.md) array that is the result of the operation.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="26bee-110">*Шаг* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="26bee-110">*OutStride* \[in\]</span></span>
+<span data-ttu-id="e7f6b-110">*Шаг* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="e7f6b-110">*OutStride* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="26bee-111">Тип: **[ **uint**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="26bee-111">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="e7f6b-111">Тип: **[ **uint**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="e7f6b-111">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="26bee-112">Шаг между векторами в потоке выходных данных.</span><span class="sxs-lookup"><span data-stu-id="26bee-112">Stride between vectors in the output data stream.</span></span>
+<span data-ttu-id="e7f6b-112">Шаг между векторами в потоке выходных данных.</span><span class="sxs-lookup"><span data-stu-id="e7f6b-112">Stride between vectors in the output data stream.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="26bee-113">*ПС* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="26bee-113">*pV* \[in\]</span></span>
+<span data-ttu-id="e7f6b-113">*ПС* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="e7f6b-113">*pV* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="26bee-114">Тип: **const [**D3DXVECTOR3**](d3dxvector3.md) \***</span><span class="sxs-lookup"><span data-stu-id="26bee-114">Type: **const [**D3DXVECTOR3**](d3dxvector3.md)\***</span></span>
+<span data-ttu-id="e7f6b-114">Тип: **const [**D3DXVECTOR3**](d3dxvector3.md) \***</span><span class="sxs-lookup"><span data-stu-id="e7f6b-114">Type: **const [**D3DXVECTOR3**](d3dxvector3.md)\***</span></span>
 
-<span data-ttu-id="26bee-115">Указатель на исходный массив [**D3DXVECTOR3**](d3dxvector3.md) .</span><span class="sxs-lookup"><span data-stu-id="26bee-115">Pointer to the source [**D3DXVECTOR3**](d3dxvector3.md) array.</span></span>
+<span data-ttu-id="e7f6b-115">Указатель на исходный массив [**D3DXVECTOR3**](d3dxvector3.md) .</span><span class="sxs-lookup"><span data-stu-id="e7f6b-115">Pointer to the source [**D3DXVECTOR3**](d3dxvector3.md) array.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="26bee-116">*Встриде* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="26bee-116">*VStride* \[in\]</span></span>
+<span data-ttu-id="e7f6b-116">*Встриде* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="e7f6b-116">*VStride* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="26bee-117">Тип: **[ **uint**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="26bee-117">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="e7f6b-117">Тип: **[ **uint**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="e7f6b-117">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="26bee-118">Шаг между векторами во входном потоке данных.</span><span class="sxs-lookup"><span data-stu-id="26bee-118">Stride between vectors in the input data stream.</span></span>
+<span data-ttu-id="e7f6b-118">Шаг между векторами во входном потоке данных.</span><span class="sxs-lookup"><span data-stu-id="e7f6b-118">Stride between vectors in the input data stream.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="26bee-119">*PM* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="26bee-119">*pM* \[in\]</span></span>
+<span data-ttu-id="e7f6b-119">*PM* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="e7f6b-119">*pM* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="26bee-120">Тип: **const [**D3DXMATRIX**](d3dxmatrix.md) \***</span><span class="sxs-lookup"><span data-stu-id="26bee-120">Type: **const [**D3DXMATRIX**](d3dxmatrix.md)\***</span></span>
+<span data-ttu-id="e7f6b-120">Тип: **const [**D3DXMATRIX**](d3dxmatrix.md) \***</span><span class="sxs-lookup"><span data-stu-id="e7f6b-120">Type: **const [**D3DXMATRIX**](d3dxmatrix.md)\***</span></span>
 
-<span data-ttu-id="26bee-121">Указатель на исходную структуру [**D3DXMATRIX**](d3dxmatrix.md) .</span><span class="sxs-lookup"><span data-stu-id="26bee-121">Pointer to the source [**D3DXMATRIX**](d3dxmatrix.md) structure.</span></span>
+<span data-ttu-id="e7f6b-121">Указатель на исходную структуру [**D3DXMATRIX**](d3dxmatrix.md) .</span><span class="sxs-lookup"><span data-stu-id="e7f6b-121">Pointer to the source [**D3DXMATRIX**](d3dxmatrix.md) structure.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="26bee-122">*n* \[ в\]</span><span class="sxs-lookup"><span data-stu-id="26bee-122">*n* \[in\]</span></span>
+<span data-ttu-id="e7f6b-122">*n* \[ в\]</span><span class="sxs-lookup"><span data-stu-id="e7f6b-122">*n* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="26bee-123">Тип: **[ **uint**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="26bee-123">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="e7f6b-123">Тип: **[ **uint**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="e7f6b-123">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="26bee-124">Число элементов в массиве.</span><span class="sxs-lookup"><span data-stu-id="26bee-124">Number of elements in the array.</span></span>
+<span data-ttu-id="e7f6b-124">Число элементов в массиве.</span><span class="sxs-lookup"><span data-stu-id="e7f6b-124">Number of elements in the array.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="26bee-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="26bee-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e7f6b-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="e7f6b-125">Return value</span></span>
 
-<span data-ttu-id="26bee-126">Тип: **[ **D3DXVECTOR3**](d3dxvector3.md)\***</span><span class="sxs-lookup"><span data-stu-id="26bee-126">Type: **[**D3DXVECTOR3**](d3dxvector3.md)\***</span></span>
+<span data-ttu-id="e7f6b-126">Тип: **[ **D3DXVECTOR3**](d3dxvector3.md)\***</span><span class="sxs-lookup"><span data-stu-id="e7f6b-126">Type: **[**D3DXVECTOR3**](d3dxvector3.md)\***</span></span>
 
-<span data-ttu-id="26bee-127">Указатель на массив [**D3DXVECTOR3**](d3dxvector3.md) , который является преобразованным массивом.</span><span class="sxs-lookup"><span data-stu-id="26bee-127">Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) array that is the transformed array.</span></span>
+<span data-ttu-id="e7f6b-127">Указатель на массив [**D3DXVECTOR3**](d3dxvector3.md) , который является преобразованным массивом.</span><span class="sxs-lookup"><span data-stu-id="e7f6b-127">Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) array that is the transformed array.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="26bee-128">Комментарии</span><span class="sxs-lookup"><span data-stu-id="26bee-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e7f6b-128">Remarks</span><span class="sxs-lookup"><span data-stu-id="e7f6b-128">Remarks</span></span>
 
-<span data-ttu-id="26bee-129">Эта функция преобразует вектор (*ПС*->x, *PV*->y, *PV*->z, 0) матрице, на которую указывает *PM*.</span><span class="sxs-lookup"><span data-stu-id="26bee-129">This function transforms the vector (*pV*->x, *pV*->y, *pV*->z, 0) by the matrix pointed to by *pM*.</span></span>
+<span data-ttu-id="e7f6b-129">Эта функция преобразует вектор (*ПС*->x, *PV*->y, *PV*->z, 0) матрице, на которую указывает *PM*.</span><span class="sxs-lookup"><span data-stu-id="e7f6b-129">This function transforms the vector (*pV*->x, *pV*->y, *pV*->z, 0) by the matrix pointed to by *pM*.</span></span>
 
-<span data-ttu-id="26bee-130">Если необходимо преобразовать обычное значение, то матрица, передаваемая в эту функцию, должна быть преобразована обратно в матрицу, которая будет использоваться для преобразования точки.</span><span class="sxs-lookup"><span data-stu-id="26bee-130">If you want to transform a normal, the matrix you pass to this function should be the transpose of the inverse of the matrix you would use to transform a point.</span></span>
+<span data-ttu-id="e7f6b-130">Если необходимо преобразовать обычное значение, то матрица, передаваемая в эту функцию, должна быть преобразована обратно в матрицу, которая будет использоваться для преобразования точки.</span><span class="sxs-lookup"><span data-stu-id="e7f6b-130">If you want to transform a normal, the matrix you pass to this function should be the transpose of the inverse of the matrix you would use to transform a point.</span></span>
 
-<span data-ttu-id="26bee-131">Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* .</span><span class="sxs-lookup"><span data-stu-id="26bee-131">The return value for this function is the same value returned in the *pOut* parameter.</span></span> <span data-ttu-id="26bee-132">Таким образом, функция **D3DXVec3TransformNormalArray** может использоваться в качестве параметра для другой функции.</span><span class="sxs-lookup"><span data-stu-id="26bee-132">In this way, the **D3DXVec3TransformNormalArray** function can be used as a parameter for another function.</span></span>
+<span data-ttu-id="e7f6b-131">Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* .</span><span class="sxs-lookup"><span data-stu-id="e7f6b-131">The return value for this function is the same value returned in the *pOut* parameter.</span></span> <span data-ttu-id="e7f6b-132">Таким образом, функция **D3DXVec3TransformNormalArray** может использоваться в качестве параметра для другой функции.</span><span class="sxs-lookup"><span data-stu-id="e7f6b-132">In this way, the **D3DXVec3TransformNormalArray** function can be used as a parameter for another function.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="26bee-133">Требования</span><span class="sxs-lookup"><span data-stu-id="26bee-133">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e7f6b-133">Требования</span><span class="sxs-lookup"><span data-stu-id="e7f6b-133">Requirements</span></span>
 
 
 
-| <span data-ttu-id="26bee-134">Требование</span><span class="sxs-lookup"><span data-stu-id="26bee-134">Requirement</span></span> | <span data-ttu-id="26bee-135">Значение</span><span class="sxs-lookup"><span data-stu-id="26bee-135">Value</span></span> |
+| <span data-ttu-id="e7f6b-134">Требование</span><span class="sxs-lookup"><span data-stu-id="e7f6b-134">Requirement</span></span> | <span data-ttu-id="e7f6b-135">Значение</span><span class="sxs-lookup"><span data-stu-id="e7f6b-135">Value</span></span> |
 |--------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="26bee-136">Header</span><span class="sxs-lookup"><span data-stu-id="26bee-136">Header</span></span><br/>  | <dl> <span data-ttu-id="26bee-137"><dt>D3dx9math. h</dt></span><span class="sxs-lookup"><span data-stu-id="26bee-137"><dt>D3dx9math.h</dt></span></span> </dl> |
-| <span data-ttu-id="26bee-138">Библиотека</span><span class="sxs-lookup"><span data-stu-id="26bee-138">Library</span></span><br/> | <dl> <span data-ttu-id="26bee-139"><dt>D3dx9. lib</dt></span><span class="sxs-lookup"><span data-stu-id="26bee-139"><dt>D3dx9.lib</dt></span></span> </dl>   |
+| <span data-ttu-id="e7f6b-136">Header</span><span class="sxs-lookup"><span data-stu-id="e7f6b-136">Header</span></span><br/>  | <dl> <span data-ttu-id="e7f6b-137"><dt>D3dx9math. h</dt></span><span class="sxs-lookup"><span data-stu-id="e7f6b-137"><dt>D3dx9math.h</dt></span></span> </dl> |
+| <span data-ttu-id="e7f6b-138">Библиотека</span><span class="sxs-lookup"><span data-stu-id="e7f6b-138">Library</span></span><br/> | <dl> <span data-ttu-id="e7f6b-139"><dt>D3dx9. lib</dt></span><span class="sxs-lookup"><span data-stu-id="e7f6b-139"><dt>D3dx9.lib</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="26bee-140">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="26bee-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e7f6b-140">См. также</span><span class="sxs-lookup"><span data-stu-id="e7f6b-140">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="26bee-141">Математические функции</span><span class="sxs-lookup"><span data-stu-id="26bee-141">Math Functions</span></span>](dx9-graphics-reference-d3dx-functions-math.md)
+[<span data-ttu-id="e7f6b-141">Математические функции</span><span class="sxs-lookup"><span data-stu-id="e7f6b-141">Math Functions</span></span>](dx9-graphics-reference-d3dx-functions-math.md)
 </dt> </dl>
 
  

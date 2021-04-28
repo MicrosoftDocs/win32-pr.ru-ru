@@ -1,5 +1,5 @@
 ---
-description: 'Метод Сетрате задает скорость воспроизведения. Этот метод реализует метод Имедиасикинг:: Сетрате.'
+description: 'Кпоспасссру. Сетрате, метод Сетрате задает скорость воспроизведения. Этот метод реализует метод Имедиасикинг:: Сетрате.'
 ms.assetid: 1b38eb5d-38fd-408b-9f20-4f8d18158f92
 title: Кпоспасссру. Сетрате, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ada5c8bc8d265b33e1d4b243bdfd0cf8bf03a7dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bccc0d7044ccf17ac1c97e4fc5a185bdf6c7f0be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675596"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095222"
 ---
-# <a name="cpospassthrusetrate-method"></a><span data-ttu-id="120a5-104">Кпоспасссру. Сетрате, метод</span><span class="sxs-lookup"><span data-stu-id="120a5-104">CPosPassThru.SetRate method</span></span>
+# <a name="cpospassthrusetrate-method"></a><span data-ttu-id="c9187-104">Кпоспасссру. Сетрате, метод</span><span class="sxs-lookup"><span data-stu-id="c9187-104">CPosPassThru.SetRate method</span></span>
 
-<span data-ttu-id="120a5-105">`SetRate`Метод задает скорость воспроизведения.</span><span class="sxs-lookup"><span data-stu-id="120a5-105">The `SetRate` method sets the playback rate.</span></span> <span data-ttu-id="120a5-106">Этот метод реализует метод [**имедиасикинг:: сетрате**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-setrate) .</span><span class="sxs-lookup"><span data-stu-id="120a5-106">This method implements the [**IMediaSeeking::SetRate**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-setrate) method.</span></span>
+<span data-ttu-id="c9187-105">`SetRate`Метод задает скорость воспроизведения.</span><span class="sxs-lookup"><span data-stu-id="c9187-105">The `SetRate` method sets the playback rate.</span></span> <span data-ttu-id="c9187-106">Этот метод реализует метод [**имедиасикинг:: сетрате**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-setrate) .</span><span class="sxs-lookup"><span data-stu-id="c9187-106">This method implements the [**IMediaSeeking::SetRate**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-setrate) method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="120a5-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="120a5-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c9187-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c9187-107">Syntax</span></span>
 
 
 ```C++
@@ -38,37 +38,37 @@ HRESULT SetRate(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="120a5-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="120a5-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c9187-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="c9187-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="120a5-109">*драте*</span><span class="sxs-lookup"><span data-stu-id="120a5-109">*dRate*</span></span> 
+<span data-ttu-id="c9187-109">*драте*</span><span class="sxs-lookup"><span data-stu-id="c9187-109">*dRate*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="120a5-110">Скорость воспроизведения.</span><span class="sxs-lookup"><span data-stu-id="120a5-110">Playback rate.</span></span> <span data-ttu-id="120a5-111">Не должно быть нулем.</span><span class="sxs-lookup"><span data-stu-id="120a5-111">Must not be zero.</span></span>
+<span data-ttu-id="c9187-110">Скорость воспроизведения.</span><span class="sxs-lookup"><span data-stu-id="c9187-110">Playback rate.</span></span> <span data-ttu-id="c9187-111">Не должно быть нулем.</span><span class="sxs-lookup"><span data-stu-id="c9187-111">Must not be zero.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="120a5-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="120a5-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c9187-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c9187-112">Return value</span></span>
 
-<span data-ttu-id="120a5-113">Возвращает E \_ INVALIDARG, если *драте* равен нулю.</span><span class="sxs-lookup"><span data-stu-id="120a5-113">Returns E\_INVALIDARG if *dRate* is zero.</span></span> <span data-ttu-id="120a5-114">В противном случае возвращает значение **HRESULT** из подключенного ПИН-кода.</span><span class="sxs-lookup"><span data-stu-id="120a5-114">Otherwise, returns the **HRESULT** value from the connected pin.</span></span>
+<span data-ttu-id="c9187-113">Возвращает E \_ INVALIDARG, если *драте* равен нулю.</span><span class="sxs-lookup"><span data-stu-id="c9187-113">Returns E\_INVALIDARG if *dRate* is zero.</span></span> <span data-ttu-id="c9187-114">В противном случае возвращает значение **HRESULT** из подключенного ПИН-кода.</span><span class="sxs-lookup"><span data-stu-id="c9187-114">Otherwise, returns the **HRESULT** value from the connected pin.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="120a5-115">Требования</span><span class="sxs-lookup"><span data-stu-id="120a5-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c9187-115">Требования</span><span class="sxs-lookup"><span data-stu-id="c9187-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="120a5-116">Требование</span><span class="sxs-lookup"><span data-stu-id="120a5-116">Requirement</span></span> | <span data-ttu-id="120a5-117">Значение</span><span class="sxs-lookup"><span data-stu-id="120a5-117">Value</span></span> |
+| <span data-ttu-id="c9187-116">Требование</span><span class="sxs-lookup"><span data-stu-id="c9187-116">Requirement</span></span> | <span data-ttu-id="c9187-117">Значение</span><span class="sxs-lookup"><span data-stu-id="c9187-117">Value</span></span> |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="120a5-118">Header</span><span class="sxs-lookup"><span data-stu-id="120a5-118">Header</span></span><br/>  | <dl> <span data-ttu-id="120a5-119"><dt>Ктлутил. h (включение Streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="120a5-119"><dt>Ctlutil.h (include Streams.h)</dt></span></span> </dl>                                                                                   |
-| <span data-ttu-id="120a5-120">Библиотека</span><span class="sxs-lookup"><span data-stu-id="120a5-120">Library</span></span><br/> | <dl> <span data-ttu-id="120a5-121"><dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt></span><span class="sxs-lookup"><span data-stu-id="120a5-121"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
+| <span data-ttu-id="c9187-118">Header</span><span class="sxs-lookup"><span data-stu-id="c9187-118">Header</span></span><br/>  | <dl> <span data-ttu-id="c9187-119"><dt>Ктлутил. h (включение Streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="c9187-119"><dt>Ctlutil.h (include Streams.h)</dt></span></span> </dl>                                                                                   |
+| <span data-ttu-id="c9187-120">Библиотека</span><span class="sxs-lookup"><span data-stu-id="c9187-120">Library</span></span><br/> | <dl> <span data-ttu-id="c9187-121"><dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt></span><span class="sxs-lookup"><span data-stu-id="c9187-121"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="120a5-122">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="120a5-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c9187-122">См. также</span><span class="sxs-lookup"><span data-stu-id="c9187-122">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="120a5-123">**Класс Кпоспасссру**</span><span class="sxs-lookup"><span data-stu-id="120a5-123">**CPosPassThru Class**</span></span>](cpospassthru.md)
+[<span data-ttu-id="c9187-123">**Класс Кпоспасссру**</span><span class="sxs-lookup"><span data-stu-id="c9187-123">**CPosPassThru Class**</span></span>](cpospassthru.md)
 </dt> </dl>
 
  
