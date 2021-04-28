@@ -1,19 +1,19 @@
 ---
 title: Windows Connect Now
-description: .
+description: Windows Connect Now
 ms.assetid: c551b8ae-2b87-4661-8d86-22010d18e058
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6556282495d62a915aa90b94d55ac7edd62cefd9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 96f3f7d5e4bb1fbe7dea30847c1483688f093f1d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777387"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091252"
 ---
 # <a name="windows-connect-now"></a>Windows Connect Now
 
-## <a name="purpose"></a>Назначение
+## <a name="purpose"></a>Цель
 
 Windows Connect Now (WCN) позволяет мобильным и встраиваемым устройствам, 802,11 точкам доступа и компьютерам безопасно подключаться и обмениваться параметрами друг с другом. WCN предназначено для домашнего или малого бизнеса, что обеспечивает адекватный компромисс между простотой использования и надежной безопасностью.
 

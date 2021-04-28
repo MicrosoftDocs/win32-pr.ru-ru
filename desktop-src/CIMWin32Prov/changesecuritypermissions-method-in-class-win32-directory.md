@@ -1,5 +1,5 @@
 ---
-description: Изменяет разрешения безопасности для файла записи логического каталога, указанного в пути к объекту.
+description: Метод Чанжесекуритипермиссионс класса Win32_Directory изменяет разрешения безопасности для файла записи логического каталога, указанного в пути к объекту.
 ms.assetid: de2b3269-61e0-484c-8bea-00578422491f
 ms.tgt_platform: multiple
 title: Метод Чанжесекуритипермиссионс класса Win32_Directory
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d5f7b82f37fcbf7aeab541351752f8f6a75816f3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 98c6026497496ab758c71a8a0403557ad2cacc7f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104495846"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091062"
 ---
 # <a name="changesecuritypermissions-method-of-the-win32_directory-class"></a>Метод Чанжесекуритипермиссионс \_ класса каталога Win32
 
@@ -244,7 +244,7 @@ uint32 ChangeSecurityPermissions(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским для событий TCP/IP. Следующий синтаксис упрощен из MOF-кода.
+description: TcpIp_V1 класс. Этот класс является родительским для событий TCP/IP. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: f43ef400-e4e5-4cf3-b7a9-437f9a88e6ca
 title: Класс TcpIp_V1
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 7bbebdbe80de38c2636d7010e057269901a55637
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3f10683708f190b9888ea0b1eadc116d32bdada
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984776"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105742"
 ---
 # <a name="tcpip_v1-class"></a>\_Класс TcpIp v1
 
@@ -34,7 +34,7 @@ class TcpIp_V1 : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **TcpIp \_ v1** не определяет никаких членов.
 
@@ -49,7 +49,7 @@ class TcpIp_V1 : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

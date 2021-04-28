@@ -1,5 +1,5 @@
 ---
-description: Предоставляет поиск с учетом регистра нечетких символов, не учитывающих регистр, для проанализированных рукописных штрихов и проанализированных графических штрихов, имеющих распознаваемые типы.
+description: 'Метод Иинканализер:: Сеарчвислангуажеид — предоставляет поиск с учетом регистра нечеткого, нечувствительного к регистру символов для проанализированных рукописных штрихов и проанализированных графических штрихов, имеющих распознаваемые типы.'
 ms.assetid: dfd481f9-38fd-433f-b1fc-697c735c13da
 title: 'Метод Иинканализер:: Сеарчвислангуажеид (Иаком. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 829878a6fd326abb8a685b644cfc222ba6921385
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 201469933da10b0d68a4d3a50e63c42f8d01d2dd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809995"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083662"
 ---
 # <a name="iinkanalyzersearchwithlanguageid-method"></a>Метод Иинканализер:: Сеарчвислангуажеид
 
@@ -90,7 +90,7 @@ HRESULT SearchWithLanguageId(
 
 Описание возвращаемых значений см. в разделе [классы и интерфейсы — анализ рукописного ввода](classes-and-interfaces---ink-analysis.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В результате поиска будут найдены подстроки из нескольких слов и отдельных слов. Поиск выполняется в альтернативных результатах распознавания и в альтернативных сегментах.
 
@@ -117,7 +117,7 @@ HRESULT SearchWithLanguageId(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

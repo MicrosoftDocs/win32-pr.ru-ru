@@ -1,6 +1,6 @@
 ---
 title: Сообщение TBM_SETUNICODEFORMAT (Коммктрл. h)
-description: Задает флаг формата символов Юникода для элемента управления. Это сообщение позволяет изменить кодировку, используемую элементом управления во время выполнения, вместо того, чтобы повторно создавать элемент управления.
+description: TBM_SETUNICODEFORMAT сообщение — задает флаг формата символов Юникода для элемента управления. Это сообщение позволяет изменить кодировку, используемую элементом управления во время выполнения, вместо того, чтобы повторно создавать элемент управления.
 ms.assetid: c50a49e8-6042-490d-bb7b-baf917d5c30a
 keywords:
 - Элементы управления Windows для TBM_SETUNICODEFORMAT сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: adb64c8fcb3464067e9522695930f4f9d0771357
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f076efe2a575eff131c9bc2a1fe3df9ecab0fe68
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654451"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104042"
 ---
 # <a name="tbm_setunicodeformat-message"></a>\_Сообщение ТБМ сетуникодеформат
 
@@ -43,7 +43,7 @@ ms.locfileid: "105654451"
 
 Возвращает предыдущий флаг формата Юникода для элемента управления.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обсуждение этого сообщения см. в примечаниях по [**CCM \_ сетуникодеформат**](ccm-setunicodeformat.md) .
 
@@ -59,7 +59,7 @@ ms.locfileid: "105654451"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

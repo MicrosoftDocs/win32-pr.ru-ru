@@ -1,5 +1,5 @@
 ---
-description: Создает диалоговое окно, которое позволяет пользователю выбрать папку, а затем возвращает объект папки выбранной папки.
+description: Shell. Бровсефорфолдер — создает диалоговое окно, которое позволяет пользователю выбрать папку, а затем возвращает объект папки выбранной папки.
 title: Метод Shell. Бровсефорфолдер (Шлдисп. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 4cc44e5a-3578-448b-9b19-1b71e1ae2cb9
-ms.openlocfilehash: 7e14dffbfb9ab3e18bd4d8e11ffaf4768ad53131
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5ec05ab09c7592e976085c230a2b359091fb819
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081032"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104372"
 ---
 # <a name="shellbrowseforfolder-method"></a>Shell. Бровсефорфолдер, метод
 

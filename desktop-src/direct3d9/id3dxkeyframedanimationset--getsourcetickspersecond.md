@@ -1,5 +1,5 @@
 ---
-description: Возвращает число тактов кадра анимации, произошедших в секунду.
+description: 'Метод ID3DXKeyframedAnimationSet:: Жетсаурцетикксперсеконд — получает количество тактов кадра анимации, которые находятся в секунду.'
 ms.assetid: b3e8d399-f1a7-4bc6-a35c-373b686aa24a
 title: 'Метод ID3DXKeyframedAnimationSet:: Жетсаурцетикксперсеконд (D3dx9anim. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3dba26b20f8e405c25a5cc5a659896ae8a49c683
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d28837ed2abbab5846c8a5609ab7ff59ac0d49c4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694292"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093702"
 ---
 # <a name="id3dxkeyframedanimationsetgetsourcetickspersecond-method"></a>Метод ID3DXKeyframedAnimationSet:: Жетсаурцетикксперсеконд
 
@@ -55,7 +55,7 @@ DOUBLE GetSourceTicksPerSecond();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

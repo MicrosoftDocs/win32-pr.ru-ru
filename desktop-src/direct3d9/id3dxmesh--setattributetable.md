@@ -1,5 +1,5 @@
 ---
-description: Задает таблицу атрибутов для сетки и число записей, хранящихся в таблице.
+description: 'Метод ID3DXMesh:: Сетаттрибутетабле — задает таблицу атрибутов для сетки и число записей, хранящихся в таблице.'
 ms.assetid: 22d46708-cffd-48da-bdad-8a43f9076356
 title: 'Метод ID3DXMesh:: Сетаттрибутетабле (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 17ae3458bffd05114415a92538a8ce8ef2cc847e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a4cdb503e934ca00b41482601b59266eee750365
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703690"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093352"
 ---
 # <a name="id3dxmeshsetattributetable-method"></a>Метод ID3DXMesh:: Сетаттрибутетабле
 
@@ -65,7 +65,7 @@ HRESULT SetAttributeTable(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если приложение отслеживает сведения в таблице атрибутов и переупорядочивает таблицу в результате изменений атрибутов или лиц, этот метод позволяет приложению обновлять таблицы атрибутов вместо вызова [**ID3DXMesh:: optimize**](id3dxmesh--optimize.md) .
 
@@ -80,7 +80,7 @@ HRESULT SetAttributeTable(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: 'Метод notify уведомляет ПИН-код о том, что запрошено изменение качества. Этот метод реализует метод Икуалитиконтрол:: notify.'
+description: 'Кбасеинпутпин. notify, метод notify уведомляет ПИН-код о том, что запрошено изменение качества. Этот метод реализует метод Икуалитиконтрол:: notify.'
 ms.assetid: 76124321-0d2d-4fee-a08a-4db23078e8df
 title: Метод Кбасеинпутпин. notify (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a5ae7ca47c5adc11c87a739e8736ba327dc0b65f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 610888193762618d427a0329a27d3019bd625e69
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669023"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120002"
 ---
 # <a name="cbaseinputpinnotify-method"></a>Кбасеинпутпин. notify, метод
 
@@ -61,7 +61,7 @@ HRESULT Notify(
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Фильтры обычно передают сообщения контроля качества в закрепление выходного потока, а не на входной ПИН-код. Таким образом, этот метод возвращает значение \_ ОК, не делая ничего.
 
@@ -76,7 +76,7 @@ HRESULT Notify(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

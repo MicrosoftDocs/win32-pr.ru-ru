@@ -1,5 +1,5 @@
 ---
-description: Преобразует массив плоскостей по матрице. Векторы, описывающие каждую плоскость, должны быть нормализованы.
+description: Функция D3DXPlaneTransformArray (D3dx9math. h) — преобразует массив плоскостей по матрице. Векторы, описывающие каждую плоскость, должны быть нормализованы.
 ms.assetid: e82e830b-efbb-4bdc-b370-7bfa4326a669
 title: Функция D3DXPlaneTransformArray (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a9a213b17aca9999ef0028fdceb4bb4321d47660
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bdbc845eda69d22f6e7097131f71b074a9b53985
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674673"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094132"
 ---
 # <a name="d3dxplanetransformarray-function-d3dx9mathh"></a>Функция D3DXPlaneTransformArray (D3dx9math. h)
 
@@ -105,7 +105,7 @@ D3DXPLANE* D3DXPlaneTransformArray(
 
 Указатель на структуру [**D3DXPLANE**](d3dxplane.md) , представляющую преобразованную плоскость. Это то же значение, которое возвращается в параметре *тоска* , чтобы эту функцию можно было использовать в качестве параметра для другой функции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот пример преобразует одну плоскость, применяя неоднородный масштаб.
 
@@ -146,7 +146,7 @@ D3DXPlaneTransformArray( &planeNew, sizeof (D3DXPLANE), &plane,
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: 'Метод Енуммедиатипес перечисляет предпочтительные типы мультимедиа для ПИН-кода. Этот метод реализует метод Ипин:: Енуммедиатипес.'
+description: 'Ктрансинплацеинпутпин. Енуммедиатипес, метод Енуммедиатипес перечисляет предпочтительные типы мультимедиа для ПИН-кода. Этот метод реализует метод Ипин:: Енуммедиатипес.'
 ms.assetid: 0c28b4b0-a45f-400f-a6d7-7668458f9642
 title: Ктрансинплацеинпутпин. Енуммедиатипес, метод (Трансип. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ffa634fa695eb0007b49fc1c36c730c7fbde361b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f9e05d0e9db50cabc700da7b3803c1606efab78
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657086"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094762"
 ---
 # <a name="ctransinplaceinputpinenummediatypes-method"></a>Ктрансинплацеинпутпин. Енуммедиатипес, метод
 
@@ -66,7 +66,7 @@ HRESULT EnumMediaTypes(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод возвращает интерфейс **иенуммедиатипес** из нисходящего входного ПИН-кода.
 
@@ -81,7 +81,7 @@ HRESULT EnumMediaTypes(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

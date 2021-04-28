@@ -1,5 +1,5 @@
 ---
-description: Метод деструктора.
+description: Метод деструктора Кбасеобжект. ~ Кбасеобжект.
 ms.assetid: 3714d030-f0bd-4826-a3c5-fc206bb88561
 title: Деструктор Кбасеобжект. ~ Кбасеобжект (Комбасе. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 908f335105fa88f3ed547eed0e92ea50a6f85f26
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 552dbcc764f335e639cb50e2e01411dee200068f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657008"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096242"
 ---
 # <a name="cbaseobjectcbaseobject-destructor"></a>Деструктор Кбасеобжект. ~ Кбасеобжект
 
@@ -36,7 +36,7 @@ ms.locfileid: "105657008"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод уменьшает число активных объектов. (См. [**кбасеобжект:: обжектсактиве**](cbaseobject-objectsactive.md).)
 
@@ -51,7 +51,7 @@ ms.locfileid: "105657008"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

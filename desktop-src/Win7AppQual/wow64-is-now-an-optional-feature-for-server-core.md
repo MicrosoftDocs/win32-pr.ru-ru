@@ -1,15 +1,15 @@
 ---
-description: .
+description: Подсистема WoW64 теперь является дополнительным компонентом для Server Core
 ms.assetid: 9a918cd3-60a0-4231-975a-bee12de5c812
 title: Состояние WoW64 в Server Core
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a121c6bb9c4fb2cd052825bb4c2d5e3dbd0183c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fad947dac85707d3c9c89a2cffea38c4a4850a6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703196"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084052"
 ---
 # <a name="wow64-is-now-an-optional-feature-for-server-core"></a>Подсистема WoW64 теперь является дополнительным компонентом для Server Core
 

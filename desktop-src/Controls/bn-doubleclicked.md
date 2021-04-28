@@ -1,6 +1,6 @@
 ---
 title: Код уведомления BN_DOUBLECLICKED (Winuser. h)
-description: Посылается, когда пользователь дважды нажимает кнопку.
+description: BN_DOUBLECLICKED код уведомления — отправляется, когда пользователь дважды нажимает кнопку.
 ms.assetid: 2fd7363a-5a02-453c-bfab-df5cbf8e42a5
 keywords:
 - BN_DOUBLECLICKED кода уведомления элементы управления Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 018df4387b026d68e3f4e9a6c259fb19efd4a0f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 64a11a4dec91a7a2f1d200c4c86c6989d846604a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891653"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104192"
 ---
 # <a name="bn_doubleclicked-notification-code"></a>\_Код уведомления млрд долл даублекликкед
 
@@ -55,7 +55,7 @@ BN_DOUBLECLICKED
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 МЛРД долл \_ даублекликкед совпадает с кодом уведомления [млрд долл \_ дблклк](bn-dblclk.md) .
 

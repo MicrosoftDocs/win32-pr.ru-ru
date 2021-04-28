@@ -1,19 +1,19 @@
 ---
 title: Приступая к разработке пользовательского интерфейса для приложений Windows
-description: .
+description: начало работы разработке пользовательских интерфейсов для приложений Windows
 ms.assetid: 29d6f67b-46fa-4f39-a319-306c832eff9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0c3d1a182aef6354901f0fa71f94b39ecdc58f2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c10b7e6bd21b782e31c9285c9840b7247a12e606
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792984"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091082"
 ---
 # <a name="getting-started-developing-user-interfaces-for-windows-applications"></a>начало работы разработке пользовательских интерфейсов для приложений Windows
 
-## <a name="purpose"></a>Назначение
+## <a name="purpose"></a>Цель
 
 Следующие разделы содержат общие рекомендации для разработчиков, которые разрабатывают, реализуют и тестируют пользовательский интерфейс приложения Windows.
 

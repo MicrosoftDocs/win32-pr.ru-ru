@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Рекордедтв. Оригиналброадкастдате
 ms.assetid: 95074b6f-371b-449a-ba98-eadd3235e49b
 title: System. Рекордедтв. Оригиналброадкастдате
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72a3c4a973844ddeb79b3c3887e1ae664bfa7397
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04cda1e959f519b6f33424cb826171ca9a9faa78
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910464"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106902"
 ---
 # <a name="systemrecordedtvoriginalbroadcastdate"></a>System. Рекордедтв. Оригиналброадкастдате
 
@@ -42,11 +42,11 @@ propertyDescription
       type = DateTime
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

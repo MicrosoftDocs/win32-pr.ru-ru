@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским классом для событий реестра. Следующий синтаксис упрощен из MOF-кода.
+description: Registry_V1 класс. Этот класс является родительским классом для событий реестра. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 7ad92377-3fd7-47e0-b96e-bab530ea9d99
 title: Класс Registry_V1
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 320a2bce9213228be4ff5c1880d884ee9622b68c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20ef88f5bd46af116b0c04e24a3c6edd39afbcdc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984565"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106152"
 ---
 # <a name="registry_v1-class"></a>\_Класс реестра v1
 
@@ -34,11 +34,11 @@ class Registry_V1 : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 В классе **Registry \_ v1** не определены никакие члены.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Чтобы включить события реестра в сеансе ведения журнала ядра NT, укажите **\_ \_ \_ Реестр флагов трассировки событий** в **элементе енаблефлагс** структуры [**\_ \_ свойств трассировки событий**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) при вызове функции [**старттраце**](/windows/win32/api/evntrace/nf-evntrace-starttracea) .
 
@@ -77,7 +77,7 @@ class Registry_V1 : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

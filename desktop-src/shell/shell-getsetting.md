@@ -1,5 +1,5 @@
 ---
-description: Извлекает параметр глобальной оболочки.
+description: Метод Shell.-Setting — получает параметр глобальной оболочки.
 ms.assetid: 3E8C7C6A-5696-4756-B4BF-902FA2420AE9
 title: Метод Shell.-Setting (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: df87c0c99129a8ececa3c25321a192e25c71c07e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc8fe6277208808ad5f5b182f3eee416daf4a5d0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909884"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083742"
 ---
 # <a name="shellgetsetting-method"></a>Shell. метод Setting
 
@@ -348,15 +348,15 @@ Shell.GetSetting( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \_ bool \** _
+Тип: **Variant \_ bool \***
 
-Задайте значение _ *true**, если параметр существует; в противном случае — **значение false**.
+Задайте значение **true** , если параметр существует. в противном случае — **значение false**.
 
 ### <a name="vb"></a>VB
 
-Тип: **Variant \_ bool \** _
+Тип: **Variant \_ bool \***
 
-Задайте значение _ *true**, если параметр существует; в противном случае — **значение false**.
+Задайте значение **true** , если параметр существует. в противном случае — **значение false**.
 
 ## <a name="examples"></a>Примеры
 

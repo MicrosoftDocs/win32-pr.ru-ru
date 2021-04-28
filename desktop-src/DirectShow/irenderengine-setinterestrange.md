@@ -1,5 +1,5 @@
 ---
-description: Не поддерживается.
+description: 'Метод Ирендеренгине:: Сетинтерестранже не поддерживается.'
 ms.assetid: 1e4c3bd4-2540-428f-9ca6-dd4c65c53434
 title: 'Метод Ирендеренгине:: Сетинтерестранже'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 81ccd8c1266710e7e38fe9b79e86319e8fef7314
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ec9790e65efa30b83cf324da4153f20c541733b9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494598"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084462"
 ---
 # <a name="irenderenginesetinterestrange-method"></a>Метод Ирендеренгине:: Сетинтерестранже
 
@@ -62,7 +62,7 @@ HRESULT SetInterestRange(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -74,7 +74,7 @@ HRESULT SetInterestRange(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

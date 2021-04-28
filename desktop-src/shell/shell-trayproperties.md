@@ -1,5 +1,5 @@
 ---
-description: Отображает диалоговое окно Свойства панели задач и меню "Пуск". Этот метод действует так же, как и щелчком правой кнопкой мыши панели задач и выбора свойств.
+description: Shell. Трайпропертиес — отображает диалоговое окно Свойства панели задач и меню "Пуск". Этот метод действует так же, как и щелчком правой кнопкой мыши панели задач и выбора свойств.
 ms.assetid: 0d82d847-9e6f-461e-b938-fe8fd49a636f
 title: Метод Shell. Трайпропертиес (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: da3fbfdb2b6aa2517b275041856920c6b2cd1bb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e09f6833fbf07c99fdbce9c02b020bcbb5361408
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985961"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104102"
 ---
 # <a name="shelltrayproperties-method"></a>Shell. Трайпропертиес, метод
 

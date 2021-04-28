@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора конструктора Кбасефилтер. Кбасефилтер (const TCHAR \* , лпункновн, ккритсек \* , РЕФКЛСИД, HRESULT \* ).
 ms.assetid: 705a075e-3f0f-4e7d-94b6-3458f87b6718
 title: Конструктор Кбасефилтер. Кбасефилтер (const TCHAR *, лпункновн, ккритсек*, РЕФКЛСИД, HRESULT *) (амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b4d8806c9b4103c06eb58e11547e83fc933d5d3f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f85fc666d299d5e120f71cfeaec5fc2f88e72761
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657297"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120112"
 ---
 # <a name="cbasefiltercbasefilterconst-tchar-lpunknown-ccritsec-refclsid-hresult-constructor"></a>Конструктор Кбасефилтер. Кбасефилтер (const TCHAR \* , лпункновн, ккритсек \* , РЕФКЛСИД, HRESULT \* )
 
@@ -81,7 +81,7 @@ CBaseFilter(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для объекта критического раздела, как правило, необходимо выполнить одно из следующих действий.
 
@@ -99,7 +99,7 @@ CBaseFilter(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

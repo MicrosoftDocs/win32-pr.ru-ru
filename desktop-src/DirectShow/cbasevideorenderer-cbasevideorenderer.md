@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кбасевидеорендерер. Кбасевидеорендерер.
 ms.assetid: 9b69632b-7932-4a9b-bd68-69b06dd8a5ec
 title: Конструктор Кбасевидеорендерер. Кбасевидеорендерер (Ренбасе. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 27ed49be63d9c2c05e12a2ac92ae33f64705460b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c0ae558238b94402150e5cb15373d202065e485e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675600"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095842"
 ---
 # <a name="cbasevideorenderercbasevideorenderer-constructor"></a>Кбасевидеорендерер. Кбасевидеорендерер, конструктор
 
@@ -84,7 +84,7 @@ CBaseVideoRenderer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

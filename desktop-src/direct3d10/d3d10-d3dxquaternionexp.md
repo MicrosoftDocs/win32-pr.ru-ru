@@ -1,5 +1,5 @@
 ---
-description: Вычисляет экспоненту.
+description: Функция D3DXQuaternionExp (D3DX10Math. h) — Вычисляет экспоненту.
 ms.assetid: bd70c432-ac61-4c38-b10b-3b103e49ead8
 title: Функция D3DXQuaternionExp (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d00292cc073679e3e90c2470630ba1851d0d3cd8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7c022b9df4302683a184b4fc8329561b22d341d5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103821253"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103222"
 ---
 # <a name="d3dxquaternionexp-function-d3dx10mathh"></a>Функция D3DXQuaternionExp (D3DX10Math. h)
 
@@ -65,7 +65,7 @@ D3DXQUATERNION* D3DXQuaternionExp(
 
 Указатель на структуру D3DXQUATERNION, которая является экспонентой.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод преобразует чистый кватернион в единичный кватернион. D3DXQuaternionExp ждет чистого кватерниона, где w игнорируется при вычислении (w = = 0).
 
@@ -99,7 +99,7 @@ exp(Q) = (cos(theta), sin(theta) * v)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

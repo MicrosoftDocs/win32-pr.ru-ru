@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Music. Траккнумбер
 ms.assetid: 0007f7e0-4b62-453a-adc5-cccf1e916f12
 title: System. Music. Траккнумбер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3528131219d37f3b9afb19794ea24cf06abbca6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3be90fd5144334771f2bdfa2a571dd650e2b85a6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080712"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117352"
 ---
 # <a name="systemmusictracknumber"></a>System. Music. Траккнумбер
 
@@ -42,11 +42,11 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

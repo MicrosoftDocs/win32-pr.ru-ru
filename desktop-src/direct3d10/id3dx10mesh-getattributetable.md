@@ -1,5 +1,5 @@
 ---
-description: Извлекает либо таблицу атрибутов для сетки, либо число записей, хранящихся в таблице атрибутов сетки.
+description: 'Метод ID3DX10Mesh:: Жетаттрибутетабле — извлекает либо таблицу атрибутов для сетки, либо число записей, хранящихся в таблице атрибутов сетки.'
 ms.assetid: cee49eba-c113-49f5-a702-c366401f1f2d
 title: 'Метод ID3DX10Mesh:: Жетаттрибутетабле (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 4ff00f3c5d036b3b463bc7c6622de75361b196e6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e7fc503af1a290b27fea81d0c2aba6b84393323b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703894"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083992"
 ---
 # <a name="id3dx10meshgetattributetable-method"></a>Метод ID3DX10Mesh:: Жетаттрибутетабле
 
@@ -65,7 +65,7 @@ HRESULT GetAttributeTable(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Таблица атрибутов используется для поиска областей сетки, которые должны рисоваться с разными текстурами, состояниями рендеринга, материалами и т. д. Кроме того, приложение может использовать таблицу атрибутов для скрытия частей сетки, не рисуя заданный идентификатор атрибута при рисовании рамки.
 
@@ -80,7 +80,7 @@ HRESULT GetAttributeTable(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

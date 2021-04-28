@@ -1,5 +1,5 @@
 ---
-description: В запрос на сертификат можно добавить атрибуты, чтобы предоставить центр сертификации (ЦС) с дополнительными сведениями, которые он может использовать при создании и выдаче сертификата.
+description: Атрибуты (API регистрации сертификатов) — атрибуты можно добавить в запрос на сертификат, чтобы предоставить центр сертификации (ЦС) с дополнительными сведениями, которые могут использоваться при создании и выдаче сертификата.
 ms.assetid: 6116e61e-3ec5-4992-90ab-e3c7ced291b6
 title: Атрибуты (API регистрации сертификатов)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e7a00c30be8bacf5593d78e21fb420c8a899dc7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93414156c7fa6e46fe80995d8d01eadc28796ec2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811261"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118432"
 ---
 # <a name="attributes-certificate-enrollment-api"></a>Атрибуты (API регистрации сертификатов)
 

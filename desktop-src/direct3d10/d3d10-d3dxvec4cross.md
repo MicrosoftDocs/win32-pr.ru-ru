@@ -1,5 +1,5 @@
 ---
-description: Определяет перекрестное произведение четырех измерений.
+description: Функция D3DXVec4Cross (D3DX10Math. h) — определяет перекрестное произведение четырех измерений.
 ms.assetid: 4f728fbd-cf5a-4d2e-ba4f-487616d83f6d
 title: Функция D3DXVec4Cross (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 8e3e2a612740a207ea4dc44243ce24ebbab7fc08
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e52cc1adb1e48f65599b1bf7179f7953823f1e1c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694240"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102952"
 ---
 # <a name="d3dxvec4cross-function-d3dx10mathh"></a>Функция D3DXVec4Cross (D3DX10Math. h)
 
@@ -84,7 +84,7 @@ D3DXVECTOR4* D3DXVec4Cross(
 
 Указатель на структуру D3DXVECTOR4, которая является перекрестным продуктом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXVec4Cross может использоваться в качестве параметра для другой функции.
 
@@ -98,7 +98,7 @@ D3DXVECTOR4* D3DXVec4Cross(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

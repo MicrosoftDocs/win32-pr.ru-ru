@@ -1,5 +1,5 @@
 ---
-description: Преобразует массив из 32-разрядных чисел с плавающей запятой в 16-битные с плавающей запятой.
+description: Функция D3DXFloat32To16Array (D3DX10Math. h) — преобразует массив из 32-разрядных чисел с плавающей запятой в 16-битные с плавающей запятой.
 ms.assetid: 2114cf25-cc83-4c4a-9db5-ecc0f8ff1e85
 title: Функция D3DXFloat32To16Array (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a4c116212be0ffa71ee35939d0a30a40cbb773b3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 600cc2cd333aaea08b38c252c206c1a74c1ca059
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694267"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103522"
 ---
 # <a name="d3dxfloat32to16array-function-d3dx10mathh"></a>Функция D3DXFloat32To16Array (D3DX10Math. h)
 
@@ -86,7 +86,7 @@ D3DXFLOAT16* D3DXFloat32To16Array(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

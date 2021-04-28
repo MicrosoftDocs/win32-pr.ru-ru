@@ -1,5 +1,5 @@
 ---
-description: Определяет допустимое имя символа C/C++.
+description: Простой тип Ксимболтипе (счетчики производительности) — определяет допустимое имя символа C/C++.
 ms.assetid: 75f74a16-0be4-466b-a88d-247c8c94f4ce
 title: Простой тип Ксимболтипе (счетчики производительности)
 ms.topic: reference
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 418b5119046a89d93814ed8ac8bd427dc554bf26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0771bb1dffc006abf8e02e6c391278f7d0b03f11
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998514"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084232"
 ---
 # <a name="csymboltype-simple-type-performance-counters"></a>Простой тип Ксимболтипе (счетчики производительности)
 

@@ -1,5 +1,5 @@
 ---
-description: Ошибки представлены отрицательными значениями и не могут быть объединены.
+description: Перечисление D3DXERR — ошибки представлены отрицательными значениями и не могут быть объединены.
 ms.assetid: 2318278e-e1e1-4cd8-a5ce-5c99f3bc47ba
 title: Перечисление D3DXERR (D3dx9. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9.h
-ms.openlocfilehash: 0d4ef0fddf70effd63a0fcdc42b46889a879c13a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1c1dd03500a493b30d7c1d3bfdfdf800b65a6d82
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273781"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094311"
 ---
 # <a name="d3dxerr-enumeration"></a>Перечисление D3DXERR
 
@@ -111,7 +111,7 @@ enum _D3DXERR {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Код устройства \_ факдд используется для создания кодов ошибок, как в следующих макросах.
 
@@ -138,7 +138,7 @@ enum _D3DXERR {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

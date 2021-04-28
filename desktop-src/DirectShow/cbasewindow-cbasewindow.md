@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кбасевиндов. Кбасевиндов.
 ms.assetid: 9f0b91c4-0364-4c73-b97f-86703ca3ef74
 title: Конструктор Кбасевиндов. Кбасевиндов (Винутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a1741f8596210afac676a7e81f57b46e18fbba9b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 05205750810294076bf005d0e5b73fda6b2143d5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656958"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095822"
 ---
 # <a name="cbasewindowcbasewindow-constructor"></a>Кбасевиндов. Кбасевиндов, конструктор
 
@@ -57,7 +57,7 @@ CBaseWindow(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После создания объекта вызовите метод [**кбасевиндов::P репаревиндов**](cbasewindow-preparewindow.md) , чтобы создать окно. **Препаревиндов** является виртуальным методом. Он вызывает [**кбасевиндов:: инитиалисевиндов**](cbasewindow-initialisewindow.md), а также виртуальный метод. Эти методы отделены от конструктора, чтобы производные классы могли переопределять их при необходимости.
 
@@ -74,7 +74,7 @@ CBaseWindow(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

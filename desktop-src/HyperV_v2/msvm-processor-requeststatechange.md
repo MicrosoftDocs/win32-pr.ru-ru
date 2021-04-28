@@ -1,5 +1,5 @@
 ---
-description: Запрашивает изменение состояния.
+description: Метод RequestStateChange класса Msvm_Processor — запрашивает изменение состояния.
 ms.assetid: 6885b282-f1f6-40fe-ab28-b1c0dc061777
 title: Метод RequestStateChange класса Msvm_Processor
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ea1cedc77d7b4fd072e25e4c824e5f9493e7b157
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 231c9c250bb1fbf2025c3c1d5bae70df70ed47d0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663466"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118832"
 ---
 # <a name="requeststatechange-method-of-the-msvm_processor-class"></a>Метод RequestStateChange \_ класса процессора мсвм
 
@@ -157,7 +157,7 @@ uint32 RequestStateChange(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -165,7 +165,7 @@ uint32 RequestStateChange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

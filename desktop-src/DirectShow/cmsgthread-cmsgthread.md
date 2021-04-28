@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кмсгсреад. Кмсгсреад.
 ms.assetid: 3f758c45-21ec-4728-ba7d-41da7b2fa02f
 title: Конструктор Кмсгсреад. Кмсгсреад (Мсгсрд. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e77d3a84e349ab370b6319cd973f6ba86d632366
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08d76ebecd09d95b7ba0fca22b300c1e402f5302
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675661"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095372"
 ---
 # <a name="cmsgthreadcmsgthread-constructor"></a>Кмсгсреад. Кмсгсреад, конструктор
 
@@ -40,7 +40,7 @@ CMsgThread();
 
 Этот конструктор не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Создание объекта потока сообщений не приводит к автоматическому созданию потока. Для создания потока необходимо вызвать функцию члена [**кмсгсреад:: CreateThread**](cmsgthread-createthread.md) .
 
@@ -55,7 +55,7 @@ CMsgThread();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

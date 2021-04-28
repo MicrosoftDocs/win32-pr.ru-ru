@@ -1,5 +1,5 @@
 ---
-description: Интерполяция между кватернионми с использованием сферической куадрангле интерполяции.
+description: Функция D3DXQuaternionSquad (D3dx9math. h) — выполняет интерполяцию между кватернионми, используя сферическую куадрангле интерполяцию.
 ms.assetid: afce9afb-64cc-4059-90f5-7ed1aca9b3cb
 title: Функция D3DXQuaternionSquad (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3e4fa980d551ac43f66035c1dcaa46d1c1c590a7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c7bef8671b38ec2e8208a6de0ec7542cf28ffa44
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694126"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117992"
 ---
 # <a name="d3dxquaternionsquad-function-d3dx9mathh"></a>Функция D3DXQuaternionSquad (D3dx9math. h)
 
@@ -105,7 +105,7 @@ D3DXQUATERNION* D3DXQuaternionSquad(
 
 Указатель на структуру [**D3DXQUATERNION**](d3dxquaternion.md) , которая является результатом сферической куадрангле интерполяции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция использует следующую последовательность сферческих операций интерполяции:
 
@@ -133,7 +133,7 @@ Slerp(Slerp(pQ1, pC, t), Slerp(pA, pB, t), 2t(1 - t))
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

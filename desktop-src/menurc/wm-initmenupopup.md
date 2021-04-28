@@ -1,6 +1,6 @@
 ---
 title: Сообщение WM_INITMENUPOPUP (Winuser. h)
-description: Посылается, когда раскрывающееся меню или подменю станет активным. Это позволяет приложению изменять меню до его отображения, не изменяя весь меню.
+description: WM_INITMENUPOPUP сообщение — отправляется, когда раскрывающийся меню или подменю собирается стать активным. Это позволяет приложению изменять меню до его отображения, не изменяя весь меню.
 ms.assetid: 08ae1a78-5e68-488c-9b77-ee42044ca3ab
 keywords:
 - WM_INITMENUPOPUP меню сообщений и других ресурсов
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e02bf0f9b8e196c27990cc1bc839daed4c92f8c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d850547d57596dd36b36b941d1782c2aee1f5b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071340"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092522"
 ---
 # <a name="wm_initmenupopup-message"></a>\_Сообщение ИНИТМЕНУПОПУП WM
 
@@ -68,11 +68,11 @@ ms.locfileid: "104071340"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
@@ -84,7 +84,7 @@ ms.locfileid: "104071340"
 [**WM \_ инитмену**](wm-initmenu.md)
 </dt> <dt>
 
-**Зрения**
+**Основные понятия**
 </dt> <dt>
 
 [Сочетания клавиш](keyboard-accelerators.md)

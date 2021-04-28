@@ -1,15 +1,15 @@
 ---
-description: .
+description: Использование тега meta для обеспечения совместимости в будущем
 ms.assetid: 254A1C0D-B24B-4014-8D15-662FC7F2AB81
 title: Использование тега meta для обеспечения совместимости в будущем
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e965711053a7108c69295ac737953a05536a76e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a69180470c60dffc772f20fe6c515ba3803cbf2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713207"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084172"
 ---
 # <a name="use-the-meta-tag-to-ensure-future-compatibility"></a>Использование тега meta для обеспечения совместимости в будущем
 
@@ -58,7 +58,7 @@ Windows Internet Explorer 8 позволяет управлять режимам
 
 Для сайтов, которым требуются разные значения **мета** -элементов для страниц на том же сервере, существует несколько средств, которые автоматически создают и вставляют соответствующий элемент **meta** . Например, служебная программа [ArtinSoft Web Tools](https://www.mobilize.net/what-is-aggiorno-ie8-compatibility-tagging.aspx) из Aggiorno вставляет и удаляет функцию тега совместимости Internet Explorer 8 и может помочь вашему сайту соответствовать определенным стандартам совместимости.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

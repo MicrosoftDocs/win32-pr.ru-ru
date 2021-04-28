@@ -1,5 +1,5 @@
 ---
-description: Вычисляет транспроизведенное произведение двух матриц.
+description: Функция D3DXMatrixMultiplyTranspose (D3DX10Math. h) — вычисляет транспроизведенное произведение двух матриц.
 ms.assetid: 3db4138c-407c-47b5-b8b9-04af8771e98e
 title: Функция D3DXMatrixMultiplyTranspose (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 187912a4117ab502ea7b0b1b3fc1ea105ecbc3e7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fcf3d5578aa6e2ad13bd3f91dfd2206d6eaf0b13
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720969"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103422"
 ---
 # <a name="d3dxmatrixmultiplytranspose-function-d3dx10mathh"></a>Функция D3DXMatrixMultiplyTranspose (D3DX10Math. h)
 
@@ -75,7 +75,7 @@ D3DXMATRIX* D3DXMatrixMultiplyTranspose(
 
 Указатель на структуру D3DXMATRIX, которая является произведением двух матриц.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Результатом является преобразование произведения двух матриц преобразования, out = T (M1 \* m2).
 
@@ -94,7 +94,7 @@ D3DXMATRIX* D3DXMatrixMultiplyTranspose(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Содержит объект приложения объекта.
+description: Шеллфолдервиев. Application свойство — содержит объект приложения объекта.
 ms.assetid: 305766b1-a19f-4743-a9e3-6837b3f8ffe0
 title: Свойство Шеллфолдервиев. Application (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ba57c407183179f580b5b616ad039c22e6fea66c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95ef542f91235b3b068e1b1b54768b4dd453d9b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985876"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083472"
 ---
 # <a name="shellfolderviewapplication-property"></a>Шеллфолдервиев. Application, свойство
 
@@ -39,7 +39,7 @@ objApplication = ShellFolderView.Application
 
 Переменная типа [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) , которая получает объект приложения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Свойство **Application** возвращает объект автоматизации, поддерживаемый приложением, которое содержит элемент управления WebBrowser, если этот объект доступен. В противном случае это свойство возвращает объект автоматизации элемента управления WebBrowser.
 

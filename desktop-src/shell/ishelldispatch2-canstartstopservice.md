@@ -1,5 +1,5 @@
 ---
-description: Определяет, может ли текущий пользователь запускать и прекращать работу именованной службы.
+description: IShellDispatch2. Канстартстопсервице — определяет, может ли текущий пользователь запускать и прекращать работу именованной службы.
 ms.assetid: cbb54ae9-02e6-4243-a782-e9f125c21c0d
 title: IShellDispatch2. Канстартстопсервице, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 92655c2c561284f00204826e1848a75f00f4a04d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 600cf7fafd556a9192c4b0de4089516bc6cca2a0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543130"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117132"
 ---
 # <a name="ishelldispatch2canstartstopservice-method"></a>IShellDispatch2. Канстартстопсервице, метод
 
@@ -62,17 +62,17 @@ IShellDispatch2.CanStartStopService( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true**, если пользователь может запускать и прекращать работу службы. в противном случае — **значение false**.
+Возвращает **значение true** , если пользователь может запускать и прекращать работу службы. в противном случае — **значение false**.
 
 ### <a name="vb"></a>VB
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true**, если пользователь может запускать и прекращать работу службы. в противном случае — **значение false**.
+Возвращает **значение true** , если пользователь может запускать и прекращать работу службы. в противном случае — **значение false**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. канстартстопсервице**](./shell-canstartstopservice.md) .
 

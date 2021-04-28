@@ -1,5 +1,5 @@
 ---
-description: Задает предохранитель ключа для виртуальной системы.
+description: Метод Сетсекуритиполици класса Msvm_SecurityService — задает предохранитель ключа для виртуальной системы.
 ms.assetid: 22496fde-6298-4e9d-bd0c-135dcb4ea5a5
 title: Метод Сетсекуритиполици класса Msvm_SecurityService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 35954f27d1184b714091058a35f32a6347d4ef55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31b03ee8a941b0715b85f6a749c4ba59ade032f7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104547199"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118732"
 ---
 # <a name="setsecuritypolicy-method-of-the-msvm_securityservice-class"></a>Метод Сетсекуритиполици \_ класса SecurityService мсвм
 
@@ -121,7 +121,7 @@ uint32 SetSecurityPolicy(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

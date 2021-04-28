@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским для событий TCP/IP. Следующий синтаксис упрощен из MOF-кода.
+description: Класс TcpIp — этот класс является родительским для событий TCP/IP. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: f9d6ea8f-c777-4747-89f4-f389c6eeac35
 title: Класс TcpIp
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6488ece2fd8df0670455ceea25560835c352b83e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abcd805b417451adf2122e7baf3310be101a35ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984773"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105732"
 ---
 # <a name="tcpip-class"></a>Класс TcpIp
 
@@ -34,11 +34,11 @@ class TcpIp : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **TcpIp** не определяет никаких членов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Чтобы включить события TCP/IP в сеансе ведения журнала ядра NT, укажите **флаг \_ отслеживания \_ событий \_ Network \_ tcpip** в элементе **енаблефлагс** структуры [**\_ \_ свойств трассировки событий**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) при вызове функции [**старттраце**](/windows/win32/api/evntrace/nf-evntrace-starttracea) .
 
@@ -83,7 +83,7 @@ class TcpIp : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

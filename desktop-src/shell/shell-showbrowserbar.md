@@ -1,5 +1,5 @@
 ---
-description: Отображает панель браузера.
+description: Shell. Шовбровсербар-метод — отображает панель браузера.
 ms.assetid: 203636D2-54D3-4163-B9AC-39213D6F4203
 title: Метод Shell. Шовбровсербар (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d112399e62825714b4c060aeddcb8618ff73d478
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d19cd5b98ce39470860cc481ab05e4bb41adc9a4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985540"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083732"
 ---
 # <a name="shellshowbrowserbar-method"></a>Shell. Шовбровсербар, метод
 
@@ -73,17 +73,17 @@ Shell.ShowBrowserBar( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true** при успешном выполнении; в противном случае — **значение false**.
+Возвращает **значение true** в случае успешного выполнения. в противном случае — **значение false**.
 
 ### <a name="vb"></a>VB
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true** при успешном выполнении; в противном случае — **значение false**.
+Возвращает **значение true** в случае успешного выполнения. в противном случае — **значение false**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Можно отобразить одну из стандартных панелей обозревателя, задав для параметра *склсид* значение CLSID этой панели обозревателя. Ниже перечислены стандартные панели обозревателя и их строки CLSID.
 
@@ -94,7 +94,7 @@ Shell.ShowBrowserBar( _
 | Избранное    | {EFA24E61-B078-11d0-89E4-00C04FC9E26E} |
 | Папки      | {EFA24E64-B078-11d0-89E4-00C04FC9E26E} |
 | Журнал      | {EFA24E62-B078-11d0-89E4-00C04FC9E26E} |
-| Найти       | {30D02401-6A81-11d0-8274-00C04FD5AE38} |
+| Поиск       | {30D02401-6A81-11d0-8274-00C04FD5AE38} |
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Запрашивает изменение состояния.
+description: Метод RequestStateChange класса Msvm_FcSwitchPort — запрашивает изменение состояния.
 ms.assetid: 42b9b67d-ee64-4c78-860c-9af61f780ff8
 title: Метод RequestStateChange класса Msvm_FcSwitchPort
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d99c4a76a47d59fbd7a7eff4f1be49e90ecd30ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74ef1d921cac8d6dc5b5ac1db84c343f0ff4bd06
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662524"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119002"
 ---
 # <a name="requeststatechange-method-of-the-msvm_fcswitchport-class"></a>Метод RequestStateChange \_ класса мсвм фксвитчпорт
 
@@ -157,7 +157,7 @@ uint32 RequestStateChange(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -165,7 +165,7 @@ uint32 RequestStateChange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

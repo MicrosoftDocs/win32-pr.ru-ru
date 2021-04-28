@@ -1,5 +1,5 @@
 ---
-description: Метод Деливерендфлуш запрашивает подключенный входной ПИН-код для завершения операции очистки.
+description: Кдинамикаутпутпин. Деливерендфлуш, метод Деливерендфлуш запрашивает подключенный входной ПИН-код для завершения операции очистки.
 ms.assetid: e37bf06a-6cdc-4f14-bf2e-7a7d7004cff6
 title: Кдинамикаутпутпин. Деливерендфлуш, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2666681dcd5637a8e919ced2c61d6536663d7b30
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8b6952ff50dc2266655c58bd5c2e1ed13105598
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656907"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095712"
 ---
 # <a name="cdynamicoutputpindeliverendflush-method"></a>Кдинамикаутпутпин. Деливерендфлуш, метод
 
@@ -44,7 +44,7 @@ HRESULT DeliverEndFlush();
 
 Возвращает \_ значение ОК в случае успешного выполнения или **HRESULT** , указывающий на причину сбоя.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасеаутпутпин::D еливерендфлуш**](cbaseoutputpin-deliverendflush.md) . Он сбрасывает событие [**кдинамикаутпутпин:: m \_ хстопевент**](cdynamicoutputpin-m-hstopevent.md) .
 
@@ -59,7 +59,7 @@ HRESULT DeliverEndFlush();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

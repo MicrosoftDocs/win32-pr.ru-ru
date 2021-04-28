@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий конфигурации видео.
+description: SystemConfig_V0_Video класс. Этот класс является классом типа событий для событий конфигурации видео.
 ms.assetid: 06aab3a3-a55e-4eb8-897a-2ad8349e5900
 title: Класс SystemConfig_V0_Video
 ms.topic: reference
@@ -23,12 +23,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b840e3c06e74f8acbd1e43550559385e78c9a638
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94fb9e50344cfbdde4be67815b80e4074ab1a878
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985097"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105922"
 ---
 # <a name="systemconfig_v0_video-class"></a>\_ \_ Класс видео системконфиг v0
 
@@ -56,13 +56,13 @@ class SystemConfig_V0_Video : SystemConfig_V0
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ \_ видео системконфиг v0** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ видео системконфиг v0** имеет следующие свойства.
 
@@ -270,7 +270,7 @@ class SystemConfig_V0_Video : SystemConfig_V0
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

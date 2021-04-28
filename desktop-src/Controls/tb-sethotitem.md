@@ -1,6 +1,6 @@
 ---
 title: Сообщение TB_SETHOTITEM (Коммктрл. h)
-description: Задает горячий элемент на панели инструментов.
+description: TB_SETHOTITEM сообщение — задает горячий элемент на панели инструментов.
 ms.assetid: 15005741-29d2-48c6-b5f0-15178a49b917
 keywords:
 - Элементы управления Windows для TB_SETHOTITEM сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c477a445cb6aae78dd5d31e8d23b8ec3be8c61ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a90e5b38675d33a361857c4303fa2a89f22cff29
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892333"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104182"
 ---
 # <a name="tb_sethotitem-message"></a>\_Сообщение СЕСОТИТЕМ ТБ
 
@@ -43,7 +43,7 @@ ms.locfileid: "103892333"
 
 Возвращает индекс предыдущего горячего элемента или значение-1, если элемент не был активным.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поведение этого сообщения не определено для панелей инструментов, не имеющих [**\_ неструктурированного стиля тбстиле**](toolbar-control-and-button-styles.md) .
 

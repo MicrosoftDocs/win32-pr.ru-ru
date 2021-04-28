@@ -1,5 +1,5 @@
 ---
-description: Не реализован.
+description: 'Метод IXml2Dex:: Reset — не реализован.'
 ms.assetid: f51972fe-e095-4ce2-93b6-841ed24c6ce7
 title: 'Метод IXml2Dex:: Reset'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 0daaa859d9eaaf3bac2b495549c8dccaea2a835c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 59545c66bdc2cf3cce6bd343b975431446b76342
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495450"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084377"
 ---
 # <a name="ixml2dexreset-method"></a>Метод IXml2Dex:: Reset
 
@@ -45,7 +45,7 @@ HRESULT Reset();
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -57,7 +57,7 @@ HRESULT Reset();
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

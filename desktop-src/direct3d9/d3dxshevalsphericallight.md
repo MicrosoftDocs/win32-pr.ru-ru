@@ -1,5 +1,5 @@
 ---
-description: Оценивает сферическую индикацию и возвращает Спектрал данные сферического гармонического (SH).
+description: Функция D3DXSHEvalSphericalLight (D3dx9math. h) — оценивает сферическую освещенность и возвращает Спектрал сферическую гармонию (SH) данных.
 ms.assetid: aa46c162-9c2d-49c0-925c-d0c06456f918
 title: Функция D3DXSHEvalSphericalLight (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8581b4284e270b6df587be1a71fcf11f29c843d4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: db671d58806d999e07b1aac1e8e4da2fb38acc6f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354620"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117892"
 ---
 # <a name="d3dxshevalsphericallight-function-d3dx9mathh"></a>Функция D3DXSHEvalSphericalLight (D3dx9math. h)
 
@@ -135,7 +135,7 @@ HRESULT D3DXSHEvalSphericalLight(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Оценивает сферическую индикацию и возвращает Спектрал данные SH. Не существует нормализации интенсивности света, подобного для [направленного освещения](light-types.md), поэтому при указании интенситиес необходимо учитывать осторожность. Будет выполнено вычисление трех примеров Спектрал. *Праут* будет возвращен, тогда как *пгаут* и *пбаут* могут быть возвращены.
 
@@ -158,7 +158,7 @@ HRESULT D3DXSHEvalSphericalLight(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

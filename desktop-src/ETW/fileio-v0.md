@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским для событий файлового ввода-вывода. Следующий синтаксис упрощен из MOF-кода.
+description: FileIo_V0 класс. Этот класс является родительским для событий файлового ввода-вывода. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: c88242ec-de74-4b5b-8fdd-ec99e0d4a59e
 title: Класс FileIo_V0
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 46f4db6d7923ac3403e730c258510b572a8726aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffb2f616c5273f92571f4bf4a6bab1b3cdac733e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985840"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106582"
 ---
 # <a name="fileio_v0-class"></a>\_Класс FileIo v0
 
@@ -34,7 +34,7 @@ class FileIo_V0 : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **FileIo \_ v0** не определяет никаких членов.
 
@@ -49,7 +49,7 @@ class FileIo_V0 : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

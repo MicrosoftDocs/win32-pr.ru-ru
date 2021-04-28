@@ -1,5 +1,5 @@
 ---
-description: Не поддерживается.
+description: 'Метод Иамтимелине:: Жетдиртиранже не поддерживается.'
 ms.assetid: 6e45b542-be3f-4da8-808a-6aa8b4299519
 title: 'Метод Иамтимелине:: Жетдиртиранже (Кедит. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 2eb0c830e7bdf441432130785e1e5397d1d4267e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb0ecbd8a93698d36354c251f0381c35acf288a2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652120"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119602"
 ---
 # <a name="iamtimelinegetdirtyrange-method"></a>Метод Иамтимелине:: Жетдиртиранже
 
@@ -64,7 +64,7 @@ HRESULT GetDirtyRange(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -87,7 +87,7 @@ HRESULT GetDirtyRange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: Функции API печати XPS
 ms.assetid: 0d9a18eb-57fc-4086-825d-0ca6ae849ce0
 title: Функции API печати XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33fd061b2969afcc506b1690f7cb35cb9c03c289
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e2f07823f03cbd194960afdd2315554310098d1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105711992"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105202"
 ---
 # <a name="xps-print-api-functions"></a>Функции API печати XPS
 
@@ -23,7 +23,7 @@ ms.locfileid: "105711992"
 
 
 
-| Функция                                                  | Описание                                                                   |
+| Компонент                                                  | Описание                                                                   |
 |-----------------------------------------------------------|-------------------------------------------------------------------------------|
 | [**старткспспринтжоб**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob)<br/>   | Начинает печать потока документа XPS на принтер.<br/>               |
 | [**StartXpsPrintJob1**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob1)<br/> | Создает задание печати для отправки содержимого XPS-документа на принтер.<br/> |
@@ -32,7 +32,7 @@ ms.locfileid: "105711992"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

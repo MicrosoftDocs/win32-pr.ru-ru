@@ -1,19 +1,19 @@
 ---
-description: .
+description: API датчика
 ms.assetid: a6ea76e6-9721-453a-a657-96f53660e09d
 title: API датчика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c4d6fd7805607afa80fcee27568004906a0a8e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a36259910fb7583c91b695f69066aa2abf9be1e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662277"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118412"
 ---
 # <a name="sensor-api"></a>API датчика
 
-## <a name="purpose"></a>Назначение
+## <a name="purpose"></a>Цель
 
 Windows 7 включает встроенную поддержку датчиков, которые являются устройствами, которые могут измерять физические явлений, например температуру или расположение. В этой документации описывается API датчика, который позволяет приложениям получать и использовать данные из датчиков стандартизированным способом.
 

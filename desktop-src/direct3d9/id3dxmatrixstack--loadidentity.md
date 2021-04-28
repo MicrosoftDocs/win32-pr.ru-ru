@@ -1,5 +1,5 @@
 ---
-description: Загружает удостоверение в текущую матрицу.
+description: 'Метод ID3DXMATRIXStack:: Лоадидентити (D3dx9math. h) — загружает удостоверение в текущую матрицу.'
 ms.assetid: e314a51f-4016-4819-a95d-d91864a54b2e
 title: 'Метод ID3DXMATRIXStack:: Лоадидентити (D3dx9math. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e7ebc7b61679dc3938c2a57aa2346a45b136e5a7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 663559db0746b9d689066e537c1473f467341cbc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713556"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093562"
 ---
 # <a name="id3dxmatrixstackloadidentity-method-d3dx9mathh"></a>Метод ID3DXMATRIXStack:: Лоадидентити (D3dx9math. h)
 
@@ -44,7 +44,7 @@ HRESULT LoadIdentity();
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Матрица идентификаторов — это матрица, в которой все коэффициенты составляют 0,0, за исключением \[ коэффициентов 1, 1 \] \[ 2, 2 \] \[ 3, 3 \] \[ 4 и 4 \] , для которых задано значение 1,0. Матрица идентификации является особой в том, что при применении к вершинам они не меняются. Матрица идентификаторов используется в качестве начальной точки для матриц, которые будут изменять значения вершин для создания поворотов, переводов и других преобразований, которые могут быть представлены матрицей 4x4.
 
@@ -59,7 +59,7 @@ HRESULT LoadIdentity();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Метод Start запускает захват.
+description: 'Метод ИЕСП:: Start — запускает захват с помощью метода Start.'
 ms.assetid: 8bf8c0c7-20be-4404-8ea5-b28b4c658523
 title: 'Метод ИЕСП:: Start (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 2d9fc3a75fc82964f6fc5a5660ef77414ae065d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dd0d1159132e594b6d48ea6799da5846eeb626e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683228"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103802"
 ---
 # <a name="iespstart-method"></a>Метод ИЕСП:: Start
 
@@ -66,7 +66,7 @@ HRESULT STDMETHODCALLTYPE Start(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Расположение [*файла записи*](c.md) указывается в реестре Windows, но для изменения расположения каталога можно использовать сетевой монитор.
 
@@ -90,7 +90,7 @@ HRESULT STDMETHODCALLTYPE Start(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

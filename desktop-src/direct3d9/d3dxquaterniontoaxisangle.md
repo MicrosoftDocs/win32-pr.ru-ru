@@ -1,5 +1,5 @@
 ---
-description: Выполняет вычисление оси и угла поворота кватерниона.
+description: Функция D3DXQuaternionToAxisAngle (D3dx9math. h) — вычисление оси и угла поворота кватерниона.
 ms.assetid: 6efd0a68-7641-403e-8ae2-c715b705b36e
 title: Функция D3DXQuaternionToAxisAngle (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ecf8e6d1b1383a6e698f742351ee19ae75fd5bdc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8613a9d14c5e33b0f9f4e719a02ac9a6d70d1119
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713615"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117982"
 ---
 # <a name="d3dxquaterniontoaxisangle-function-d3dx9mathh"></a>Функция D3DXQuaternionToAxisAngle (D3dx9math. h)
 
@@ -73,7 +73,7 @@ void D3DXQuaternionToAxisAngle(
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) для любых входных данных кватернион, которые еще не нормализованы.
 
@@ -88,7 +88,7 @@ void D3DXQuaternionToAxisAngle(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

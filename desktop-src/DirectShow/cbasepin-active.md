@@ -1,5 +1,5 @@
 ---
-description: Активный метод уведомляет ПИН-код о том, что фильтр активен.
+description: Кбасепин. Active Method — активный метод уведомляет ПИН-код о том, что фильтр активен.
 ms.assetid: 1054f8cf-a5fb-4de6-abf2-c3740ce47787
 title: Метод Кбасепин. Active (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4a89c0c75671e6eb29b6ddb260c5f5ec0c385399
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8ccee76dbf89cf82abcd8d4758305ddec91f1afa
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657731"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096111"
 ---
 # <a name="cbasepinactive-method"></a>Кбасепин. активный метод
 
@@ -44,7 +44,7 @@ virtual HRESULT Active();
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда фильтр переходит из остановленного в приостановленный, класс [**кбасефилтер**](cbasefilter.md) вызывает этот метод для всех подключенных контактов фильтра.
 
@@ -63,7 +63,7 @@ virtual HRESULT Active();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Запрашивает изменение состояния.
+description: Метод RequestStateChange класса Msvm_LogicalDisk — запрашивает изменение состояния.
 ms.assetid: ab704257-b7f4-45a0-8287-b7c6cc66402d
 title: Метод RequestStateChange класса Msvm_LogicalDisk
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6fa0a5220abb4afb5c484d6000ccbb4e16f77bab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74a42eb0ae2d72a820874b8127176133fecdcf9e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103814232"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118892"
 ---
 # <a name="requeststatechange-method-of-the-msvm_logicaldisk-class"></a>Метод RequestStateChange \_ класса мсвм LogicalDisk
 
@@ -157,7 +157,7 @@ uint32 RequestStateChange(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -165,7 +165,7 @@ uint32 RequestStateChange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

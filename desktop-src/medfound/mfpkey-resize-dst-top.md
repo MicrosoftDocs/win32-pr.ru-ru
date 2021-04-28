@@ -1,15 +1,15 @@
 ---
-description: Задает верхнюю границу прямоугольника назначения в пикселях.
+description: MFPKEY_RESIZE_DST_TOP свойство — задает верхнюю границу прямоугольника назначения в пикселях.
 ms.assetid: 66147460-b8c2-4d80-9a87-a2eeeea66cfa
 title: Свойство MFPKEY_RESIZE_DST_TOP (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb12804b5b19c362c6355625af3cab1844c4b31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb4887dd0f7996dca973c690752bbdb8f8716927
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263974"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092902"
 ---
 # <a name="mfpkey_resize_dst_top-property"></a>МФПКЭЙ \_ изменить размер \_ \_ свойства Top DST
 
@@ -39,7 +39,7 @@ VT \_ I4
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Изменяет разрешения безопасности для файла записи логического каталога, указанного в пути к объекту.
+description: Метод Чанжесекуритипермиссионс класса CIM_Directory изменяет разрешения безопасности для файла записи логического каталога, указанного в пути к объекту.
 ms.assetid: d3caeec1-fecc-4463-9349-d82869c11927
 ms.tgt_platform: multiple
 title: Метод Чанжесекуритипермиссионс класса CIM_Directory
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2bf767dc45907a90354b2c00fb30c6b31ce6d09a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 389ed5b7b0a43981c5eeb3d66a73bd19cbd99d88
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807619"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091072"
 ---
 # <a name="changesecuritypermissions-method-of-the-cim_directory-class"></a>Метод Чанжесекуритипермиссионс \_ класса каталога CIM
 
@@ -137,7 +137,7 @@ uint32 ChangeSecurityPermissions(
 
 2
 
-Доступ запрещен.
+Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
 
 </dd> <dt>
 
@@ -240,7 +240,7 @@ uint32 ChangeSecurityPermissions(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -260,7 +260,7 @@ uint32 ChangeSecurityPermissions(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

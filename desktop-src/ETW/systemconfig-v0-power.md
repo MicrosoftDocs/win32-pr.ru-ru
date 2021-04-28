@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий конфигурации питания. Следующий синтаксис упрощен из MOF-кода.
+description: SystemConfig_V0_Power класс. Этот класс является классом типа событий для событий конфигурации питания. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: b3391435-dac0-4c48-b788-eb4d4a7aa635
 title: Класс SystemConfig_V0_Power
 ms.topic: reference
@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2e42af68ad12857d65d776b7a73794d2d13b2b48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab268e719374906e149dc9c1b733487f986e8308
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984393"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105942"
 ---
 # <a name="systemconfig_v0_power-class"></a>\_ \_ Класс питания системконфиг v0
 
@@ -50,13 +50,13 @@ class SystemConfig_V0_Power : SystemConfig_V0
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ \_ питания системконфиг v0** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ питания системконфиг v0** имеет следующие свойства.
 
@@ -201,7 +201,7 @@ S4
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

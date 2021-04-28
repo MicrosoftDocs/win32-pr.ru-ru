@@ -1,5 +1,5 @@
 ---
-description: Преобразует массив (x, y, z, 1) по заданной матрице и проецирует результат обратно в w = 1.
+description: Функция D3DXVec3TransformCoordArray (D3DX10Math. h) — преобразует массив (x, y, z, 1) по заданной матрице и проецирует результат обратно в w = 1.
 ms.assetid: 259a885d-89be-4fea-a579-dac3dd76878f
 title: Функция D3DXVec3TransformCoordArray (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: b0b7ca3c2898e07dc8b5e9ced0117e642bfdfb41
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c4a1edfd89b127d0782d3bab23c2390775422c69
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000394"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103112"
 ---
 # <a name="d3dxvec3transformcoordarray-function-d3dx10mathh"></a>Функция D3DXVec3TransformCoordArray (D3DX10Math. h)
 
@@ -104,7 +104,7 @@ D3DXVECTOR3* D3DXVec3TransformCoordArray(
 
 Указатель на структуру D3DXVECTOR3, которая является преобразованным массивом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция преобразует массив ПС (x, y, z, 1) на матрицу pM, проецирование результата обратно в w = 1.
 
@@ -120,7 +120,7 @@ D3DXVECTOR3* D3DXVec3TransformCoordArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

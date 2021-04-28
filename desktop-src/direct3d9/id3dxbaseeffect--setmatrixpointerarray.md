@@ -1,5 +1,5 @@
 ---
-description: Задает массив указателей для нонтранспосед матриц.
+description: 'Метод ID3DXBaseEffect:: Сетматрикспоинтераррай — устанавливает массив указателей на матрицы нонтранспосед.'
 ms.assetid: f2e62470-6882-49d8-ae12-6c5b79dd5c99
 title: 'Метод ID3DXBaseEffect:: Сетматрикспоинтераррай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 0f199c3db335dfc6b9966987678c07b4b3a22402
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cfe30e0132cfa237ddbccc24758b35e102a62b0c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000306"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093772"
 ---
 # <a name="id3dxbaseeffectsetmatrixpointerarray-method"></a>Метод ID3DXBaseEffect:: Сетматрикспоинтераррай
 
@@ -75,7 +75,7 @@ HRESULT SetMatrixPointerArray(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Матрица нонтранспосед содержит основные данные строки. то есть каждый вектор содержится в строке.
 
@@ -92,7 +92,7 @@ HRESULT SetMatrixPointerArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

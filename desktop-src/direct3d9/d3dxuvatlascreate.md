@@ -1,5 +1,5 @@
 ---
-description: Создайте UV Atlas для сетки.
+description: Функция D3DXUVAtlasCreate — создание UV-Atlas для сетки.
 ms.assetid: 70256990-b177-451e-b42a-84799fdc2a17
 title: Функция D3DXUVAtlasCreate (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 814f213b0195b0922270d0548d8b5fd4c48fb3e3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f382e7d59f3a5b5db8ba3cfd65ba6cc1a11e86d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713605"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117832"
 ---
 # <a name="d3dxuvatlascreate-function"></a>Функция D3DXUVAtlasCreate
 
@@ -235,7 +235,7 @@ HRESULT D3DXUVAtlasCreate(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. в противном случае — значение D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 D3DXUVAtlasCreate может секционировать сетчатую геометрию двумя способами:
 
@@ -253,7 +253,7 @@ D3DXUVAtlasCreate может секционировать сетчатую ге�
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

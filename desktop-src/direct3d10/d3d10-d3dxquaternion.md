@@ -1,5 +1,5 @@
 ---
-description: Описывает кватернион.
+description: Структура D3DXQUATERNION (D3DX10Math. h) — описывает кватернион.
 ms.assetid: e6cb45b2-3132-4315-b02d-a3dfc444f8cc
 title: Структура D3DXQUATERNION (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 405e48c99d7298708af193016930a8defdf9d600
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dac880607cf482b409c407b43992747af4aa39a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355330"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103252"
 ---
 # <a name="d3dxquaternion-structure-d3dx10mathh"></a>Структура D3DXQUATERNION (D3DX10Math. h)
 
@@ -64,7 +64,7 @@ typedef struct D3DXQUATERNION {
 
 </dd> <dt>
 
-**гармошкой**
+**z**
 </dt> <dd>
 
 Тип: **[ **float**](../winprog/windows-data-types.md)**
@@ -86,7 +86,7 @@ typedef struct D3DXQUATERNION {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Кватернион добавляет четвертый элемент к \[ значениям x, y, z \] , определяющим вектор, что приводит к произвольным векторам 4d. Однако ниже показано, как каждый элемент единичного кватерниона связан с поворотом по оси (где q представляет единицу кватерниона (x, y, z, w), ось нормализована, а тета — желаемый поворот CCW по оси):
 
@@ -110,7 +110,7 @@ q.w = cos(theta/2)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

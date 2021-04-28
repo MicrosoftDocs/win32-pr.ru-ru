@@ -1,5 +1,5 @@
 ---
-description: Создайте UV Atlas для сетки.
+description: Функция D3DXUVAtlasPartition — создание UV-Atlas для сетки.
 ms.assetid: c46f3e47-8e72-435c-875d-cccfa4b893a2
 title: Функция D3DXUVAtlasPartition (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 707a503832a4fd66ab2e8d9346587d11544a885c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 63df6bbcc1b811b9617796bc6e7e51af2dfdca56
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703768"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117802"
 ---
 # <a name="d3dxuvatlaspartition-function"></a>Функция D3DXUVAtlasPartition
 
@@ -215,7 +215,7 @@ HRESULT D3DXUVAtlasPartition(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. в противном случае — значение D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 D3DXUVAtlasPartition похож на [**D3DXUVAtlasCreate**](d3dxuvatlascreate.md), за исключением того, что D3DXUVAtlasPartition не выполняет окончательный шаг упаковки.
 
@@ -230,7 +230,7 @@ D3DXUVAtlasPartition похож на [**D3DXUVAtlasCreate**](d3dxuvatlascreate.m
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

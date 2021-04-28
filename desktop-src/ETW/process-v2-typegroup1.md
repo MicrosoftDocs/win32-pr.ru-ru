@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа события для событий процесса. Следующий синтаксис упрощен из MOF-кода.
+description: Process_V2_TypeGroup1 класс — этот класс является классом типа события для событий процесса. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: ff5c1f64-2087-4238-81f9-6283f0f0e68a
 title: Класс Process_V2_TypeGroup1
 ms.topic: reference
@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 01da5a8254627d6378c9f99aa2ba36dc6714e6ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b587a07f33b066cfd7dbeebc44d7277b33c6bee8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985864"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106312"
 ---
 # <a name="process_v2_typegroup1-class"></a>\_ \_ Класс TypeGroup1 процесса v2
 
@@ -50,13 +50,13 @@ class Process_V2_TypeGroup1 : Process_V2
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **Process \_ v2 \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Process \_ v2 \_ TypeGroup1** имеет следующие свойства.
 
@@ -190,7 +190,7 @@ UserSID
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Типы событий Дкстарт и Дценд перечисляют процесс, выполняемый в данный момент, включая бездействующий и системный процессы, на момент запуска и завершения сеанса ядра соответственно.
 
@@ -205,7 +205,7 @@ UserSID
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

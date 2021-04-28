@@ -1,5 +1,5 @@
 ---
-description: Возвращает значение для указанной политики Windows Internet Explorer.
+description: Shell. Експлорерполици метод — получает значение для указанной политики Windows Internet Explorer.
 ms.assetid: 47E17F6A-ED43-44cd-AF77-A6E49865E1B5
 title: Метод Shell. Експлорерполици (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: fea5192990b8c19c8ddfe8ffad6efe21b98625c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 765e1dc46edbe5a27292c5d8ff940e29b269f8dc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986092"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083702"
 ---
 # <a name="shellexplorerpolicy-method"></a>Shell. Експлорерполици, метод
 
@@ -62,21 +62,21 @@ Shell.ExplorerPolicy( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
 Значение, связанное с указанным именем политики.
 
 ### <a name="vb"></a>VB
 
-Тип: _*Variant \**_
+Тип: **Variant \***
 
 Значение, связанное с указанным именем политики.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Сетевые администраторы могут управлять вычислительной средой пользователей и управлять ею, настроив политики.
 
-Указанное имя значения должно находиться в подразделе "_,*\_ текущее \_ пользовательское **\\** программное обеспечение **\\** Microsoft **\\** Windows **\\** CurrentVersion **\\** политики **\\** обозревателя**". Если имя параметра не существует, метод возвращает **значение NULL**.
+Указанное имя значения должно **находиться в \_ \_** \\  \\  \\  \\  \\  \\  подразделе раздела реестра "Microsoft Windows CurrentVersion Policies. Если имя параметра не существует, метод возвращает **значение NULL**.
 
 ## <a name="examples"></a>Примеры
 

@@ -1,5 +1,5 @@
 ---
-description: Метод Сетмедиатипе задает тип носителя для соединения.
+description: Кбасепин. Сетмедиатипе, метод Сетмедиатипе задает тип носителя для соединения.
 ms.assetid: db32b33b-df71-4f46-b53f-d7e647f5f559
 title: Кбасепин. Сетмедиатипе, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 07ac736558cea12a16c695cf109c3d6283ce4a13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b61b6179aa6364ebddd940b8853e22d628463e56
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657665"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095991"
 ---
 # <a name="cbasepinsetmediatype-method"></a>Кбасепин. Сетмедиатипе, метод
 
@@ -53,7 +53,7 @@ virtual HRESULT SetMediaType(
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод устанавливает формат для соединения с закреплением. Перед вызовом этого метода ПИН-код вызывает метод [**кбасепин:: чеккмедиатипе**](cbasepin-checkmediatype.md) , чтобы определить, является ли тип мультимедиа допустимым. Поэтому предполагается, что параметр *ПЛТ* является допустимым типом носителя.
 
@@ -70,7 +70,7 @@ virtual HRESULT SetMediaType(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

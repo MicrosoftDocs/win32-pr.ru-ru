@@ -1,5 +1,5 @@
 ---
-description: Метод QueryStatus получает состояние НПП.
+description: 'Метод Иделайдк:: QueryStatus — метод QueryStatus получает состояние НПП.'
 ms.assetid: b035d495-a078-4436-9501-0a30fbfa7268
 title: 'Метод Иделайдк:: QueryStatus (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: cff92dfec95555076f9edba5a1b591f0ef905c1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13d1e34b57302d263b81ed64df0b136dc01177b2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683229"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118462"
 ---
 # <a name="idelaydcquerystatus-method"></a>Метод Иделайдк:: QueryStatus
 
@@ -63,7 +63,7 @@ HRESULT STDMETHODCALLTYPE QueryStatus(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод можно вызвать в любое время после вызова [креатенппинтерфаце](createnppinterface.md) . Его можно вызвать, чтобы узнать, подключен ли НПП к сети, узнать состояние текущего захвата и проверить, ожидают ли какие-либо триггеры.
 
@@ -82,7 +82,7 @@ HRESULT STDMETHODCALLTYPE QueryStatus(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

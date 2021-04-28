@@ -1,5 +1,5 @@
 ---
-description: Метод GetTypeInfo извлекает сведения о типе для объекта, который затем можно использовать для получения сведений о типе для интерфейса.
+description: Кбаседиспатч. GetTypeInfo, метод GetTypeInfo извлекает сведения о типе для объекта, который затем можно использовать для получения сведений о типе для интерфейса.
 ms.assetid: aa06b97c-541b-44fc-bdef-97fd1f014e85
 title: Кбаседиспатч. GetTypeInfo, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1f63d79327d2f2bf2a60f06e0290aa34891e78ff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9b1e21133b4fa561c743fefc6282c777b444e6f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657305"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120122"
 ---
 # <a name="cbasedispatchgettypeinfo-method"></a>Кбаседиспатч. GetTypeInfo, метод
 
@@ -89,7 +89,7 @@ HRESULT GetTypeInfo(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод ведет себя подобно методу **IDispatch:: GetTypeInfo** . Однако он включает дополнительный параметр *riid*, указывающий интерфейс, для которого требуется получить сведения о типе.
 
@@ -104,7 +104,7 @@ HRESULT GetTypeInfo(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

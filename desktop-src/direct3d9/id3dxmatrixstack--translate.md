@@ -1,5 +1,5 @@
 ---
-description: Определяет продукт текущей матрицы и вычисленную матрицу смещения, определяемую заданными факторами (x, y и z).
+description: 'Метод ID3DXMATRIXStack:: Translation (D3dx9math. h) — определяет продукт текущей матрицы и вычисленную матрицу смещения, определяемую заданными факторами (x, y и z).'
 ms.assetid: e0ac72a2-9970-433e-9026-aa79edc8261c
 title: 'Метод ID3DXMATRIXStack:: сдвиг (D3dx9math. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 228b4302a512e96d5c009edcb3f0b673ee61e047
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7fadad95e8e72691a0e030ed89eedc745de2be43
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105704029"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093342"
 ---
 # <a name="id3dxmatrixstacktranslate-method-d3dx9mathh"></a>Метод ID3DXMATRIXStack:: сдвиг (D3dx9math. h)
 
@@ -75,7 +75,7 @@ HRESULT Translate(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод дает право на Умножение текущей матрицы на вычисленную матрицу перевода (преобразование относится к текущему источнику мира).
 
@@ -99,7 +99,7 @@ m_stack[m_currentPos] = m_stack[m_currentPos] * tmp;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

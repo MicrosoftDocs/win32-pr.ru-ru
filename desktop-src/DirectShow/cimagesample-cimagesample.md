@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Цимажесампле. Цимажесампле.
 ms.assetid: d7550c38-d728-41b2-80a6-20728abf6012
 title: Конструктор Цимажесампле. Цимажесампле (Винутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 805be59cfc899b6461fa8c761eebb5821118640f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ecab52e347e03b698adccb79b77da879d26612b4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665230"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095612"
 ---
 # <a name="cimagesamplecimagesample-constructor"></a>Цимажесампле. Цимажесампле, конструктор
 
@@ -81,7 +81,7 @@ CImageSample(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс [**Цимажеаллокатор**](cimageallocator.md) создает DIB с помощью объекта сопоставления файлов, поддерживаемого файлом подкачки операционной системы. Маркер объекта сопоставления файлов хранится в элементе **хмаппинг** структуры **\_ дибдата m** .
 
@@ -96,7 +96,7 @@ CImageSample(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

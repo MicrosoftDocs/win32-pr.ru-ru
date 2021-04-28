@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Ремотеконфликтингфиле
 ms.assetid: fc656149-15b7-4460-a572-a83cccf7d14f
 title: System. Ремотеконфликтингфиле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfa9bf50404a020d3594009e6327f8497101e00d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bb941d6019aafdfd8727ef542185e384961bd26
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711824"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091582"
 ---
 # <a name="systemremoteconflictingfile"></a>System. Ремотеконфликтингфиле
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

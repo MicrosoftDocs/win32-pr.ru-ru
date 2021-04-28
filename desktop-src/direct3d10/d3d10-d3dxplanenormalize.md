@@ -1,5 +1,5 @@
 ---
-description: Нормализует коэффициенты плоскости, чтобы у плоскости была нормальная длина единицы.
+description: Функция D3DXPlaneNormalize (D3DX10Math. h) — нормализует коэффициенты плоскости таким образом, чтобы у плоскости была нормальная длина.
 ms.assetid: 52ae36a7-e37b-457a-9832-e62900a85bde
 title: Функция D3DXPlaneNormalize (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 44d5e9d810653b2cdae233dec803383c74563d08
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8b3499297a008b0d8f5dc705080bbd1d5bbe3af4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720951"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103312"
 ---
 # <a name="d3dxplanenormalize-function-d3dx10mathh"></a>Функция D3DXPlaneNormalize (D3DX10Math. h)
 
@@ -65,7 +65,7 @@ D3DXPLANE* D3DXPlaneNormalize(
 
 Указатель на структуру D3DXPLANE, представляющую нормальную плоскость плоскости.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция нормализует плоскость таким образом, чтобы \| a, b, c \| = = 1.
 
@@ -82,7 +82,7 @@ D3DXPLANE* D3DXPlaneNormalize(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

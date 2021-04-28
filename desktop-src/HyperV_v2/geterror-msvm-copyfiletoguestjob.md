@@ -1,5 +1,5 @@
 ---
-description: Возвращает объект ошибки для задания, если оно существует.
+description: Метод Msvm_CopyFileToGuestJob::-Error — извлекает объект ошибки для задания, если оно существует.
 ms.assetid: 478E9170-A523-4CE1-BD97-57D713FAF71B
 title: 'Метод Msvm_CopyFileToGuestJob:: с ошибкой'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: a0a89feab4e78ba3703e117972598c4de5f70310
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7cecaf7254788ae064ca42f2ae0c26e8ad83d7e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682796"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119372"
 ---
 # <a name="msvm_copyfiletoguestjobgeterror-method"></a>Мсвм \_ копифилетогуестжоб:: метод Error
 
@@ -102,7 +102,7 @@ uint32 GetError(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

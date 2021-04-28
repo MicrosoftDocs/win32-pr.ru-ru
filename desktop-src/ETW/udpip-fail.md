@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий сбоя TCP/IP. Следующий синтаксис упрощен из MOF-кода.
+description: Класс UdpIp_Fail — этот класс является классом типа событий для событий сбоя TCP/IP. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 552e63ef-70e4-4bc4-be33-bd77bd5acd61
 title: Класс UdpIp_Fail
 ms.topic: reference
@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: aef0194d296395501500022bf4cae8b9c8a8f188
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f923f26e1371d11e27bfd58bcb69c053bfb5f1a3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986112"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105512"
 ---
 # <a name="udpip_fail-class"></a>\_Класс удпип Fail
 
@@ -38,13 +38,13 @@ class UdpIp_Fail : UdpIp
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **удпип \_ Fail** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **удпип \_ Fail** имеет следующие свойства.
 
@@ -118,7 +118,7 @@ class UdpIp_Fail : UdpIp
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

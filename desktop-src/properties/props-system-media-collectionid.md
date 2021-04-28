@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Media. CollectionID
 ms.assetid: 8e404517-6406-4c53-81d5-b20cafbc393f
 title: System. Media. CollectionID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87c695742c83e8361ab549182c99165c347080db
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 53c460e19906c72071d237dc1df15f038a5cf3a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105693852"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092272"
 ---
 # <a name="systemmediacollectionid"></a>System. Media. CollectionID
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

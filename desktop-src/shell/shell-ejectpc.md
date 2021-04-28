@@ -1,5 +1,5 @@
 ---
-description: Извлекает компьютер из стыковочного узла. Это то же самое, что и при нажатии кнопки "Пуск" и выборе пункта "извлечь компьютер", если компьютер поддерживает эту команду.
+description: Shell. Ежектпк метод — извлекает компьютер из стыковочного узла. Это то же самое, что и при нажатии кнопки "Пуск" и выборе пункта "извлечь компьютер", если компьютер поддерживает эту команду.
 ms.assetid: eaba3dce-8fea-453f-90c2-4a9b5cb05ecc
 title: Метод Shell. Ежектпк (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 355d75b2ffaca9c9f90e66fbc535333a84bfa45d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ec08aaa82d2f752fa06537434adede86b9d5a3a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985613"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104352"
 ---
 # <a name="shellejectpc-method"></a>Shell. Ежектпк, метод
 

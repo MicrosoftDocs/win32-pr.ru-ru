@@ -1,5 +1,5 @@
 ---
-description: Метод Чеккконнект определяет, подходит ли подключение по ПИН-коду.
+description: Ктрансформинпутпин. Чеккконнект, метод Чеккконнект определяет, подходит ли подключение по ПИН-коду.
 ms.assetid: b8ace40d-31f5-49b0-a4cd-6ece0f883d96
 title: Ктрансформинпутпин. Чеккконнект, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e10c174a4e295576cfa9ce902faeac889f5a6a9b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3e981254677c2e0a361a0a21f125f734ff1403db
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657410"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095092"
 ---
 # <a name="ctransforminputpincheckconnect-method"></a>Ктрансформинпутпин. Чеккконнект, метод
 
@@ -57,14 +57,14 @@ HRESULT CheckConnect(
 
 | Код возврата                                                                                               | Описание                    |
 |-----------------------------------------------------------------------------------------------------------|--------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>                      | Успешно<br/>             |
+| <dl> <dt>**\_ОК**</dt> </dl>                      | Успешное завершение<br/>             |
 | <dl> <dt>**VFW \_ E \_ недопустимое \_ направление**</dt> </dl> | Неправильное направление ПИН-кода<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасепин:: чеккконнект**](cbasepin-checkconnect.md) . Он вызывает метод [**ктрансформфилтер:: чеккконнект**](ctransformfilter-checkconnect.md) фильтра, который возвращает \_ значение s ОК в базовом классе. Производный класс может переопределить метод **ктрансформфилтер:: чеккконнект** для выполнения дополнительных проверок.
 

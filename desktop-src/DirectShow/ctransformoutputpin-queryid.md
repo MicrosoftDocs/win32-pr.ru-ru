@@ -1,5 +1,5 @@
 ---
-description: 'Метод QueryId извлекает идентификатор для ПИН-кода. Этот метод реализует метод Ипин:: QueryId.'
+description: 'Ктрансформаутпутпин. QueryId, метод QueryId извлекает идентификатор для ПИН-кода. Этот метод реализует метод Ипин:: QueryId.'
 ms.assetid: 3d83db3a-b919-454d-a91a-91f33a952a22
 title: Ктрансформаутпутпин. QueryId, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3e8e5fbc4b4da7b38853df5b4dcf3580a8c198d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d4c2d222ca4dd184adfe41f9f610b10f15ee9f02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105676054"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094852"
 ---
 # <a name="ctransformoutputpinqueryid-method"></a>Ктрансформаутпутпин. QueryId, метод
 
@@ -57,7 +57,7 @@ HRESULT QueryId(
 
 | Код возврата                                                                                   | Описание                          |
 |-----------------------------------------------------------------------------------------------|--------------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>          | Успешно<br/>                   |
+| <dl> <dt>**\_ОК**</dt> </dl>          | Успешное завершение<br/>                   |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | Недостаточно памяти<br/>       |
 | <dl> <dt>**\_указатель E**</dt> </dl>     | **Пустой** аргумент указателя<br/> |
 
@@ -65,7 +65,7 @@ HRESULT QueryId(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Идентификатор ПИН-кода используется для сохраняемости графа. Идентификатор ПИН-кода для этого класса истекает. Этот класс переопределяет поведение класса [**кбасепин**](cbasepin.md) . В классе **кбасепин** идентификатор ПИН-кода совпадает с именем ПИН-кода, указанным в конструкторе класса. В классе **ктрансформинпутпин** идентификатор ПИН-кода и имя ПИН-кода не совпадают.
 

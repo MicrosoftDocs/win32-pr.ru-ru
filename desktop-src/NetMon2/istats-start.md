@@ -1,5 +1,5 @@
 ---
-description: Метод Start запускает захват.
+description: 'Метод Истатс:: Start — запускает захват с помощью метода Start.'
 ms.assetid: d4086e30-e5ed-4f29-90f0-d65125d9af6d
 title: 'Метод Истатс:: Start (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d58821ecc06e0a25d6a260bb2ba9393162dcdca8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64f02529ba10d98092eb30a1bcc350d5c72049fc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897802"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094552"
 ---
 # <a name="istatsstart-method"></a>Метод Истатс:: Start
 
@@ -57,7 +57,7 @@ HRESULT STDMETHODCALLTYPE Start();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При перезапуске записи с помощью методов Истатс:: Start и [истатс:: останавливают](istats-stop.md) необходимо вызвать метод [Истатс:: Configure](istats-configure.md) для повторной настройки подключения при каждом вызове истатс:: Start для перезапуска записи данных.
 
@@ -79,7 +79,7 @@ HRESULT STDMETHODCALLTYPE Start();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
