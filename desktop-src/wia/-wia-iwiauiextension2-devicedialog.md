@@ -1,5 +1,5 @@
 ---
-description: Предоставляет настраиваемый пользовательский интерфейс, который заменяет стандартный системный интерфейс пользователя.
+description: 'IWiaUIExtension2: метод:D Евицедиалог — предоставляет пользовательский интерфейс, который заменяет стандартный системный интерфейс пользователя.'
 ms.assetid: 0d70392d-294a-42bf-adc5-1006f83d7e21
 title: 'IWiaUIExtension2: метод:D Евицедиалог (Виадевд. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: 142ec77572708063e24b38d342fb49f69c7651c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94e717184c936ae85ba1cf345a13b44f9bbdce4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263128"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116652"
 ---
 # <a name="iwiauiextension2devicedialog-method"></a>IWiaUIExtension2: метод:D Евицедиалог
 
@@ -42,9 +42,9 @@ HRESULT DeviceDialog(
 *пдевицедиалогдата* \[ окне\]
 </dt> <dd>
 
-Тип: **PDEVICEDIALOGDATA2 \** _
+Тип: **PDEVICEDIALOGDATA2 \***
 
-Указывает на структуру [_ *DEVICEDIALOGDATA2* *](-wia-devicedialogdata2.md) , которая содержит все данные, необходимые для реализации диалогового окна устройства.
+Указывает на структуру [**DEVICEDIALOGDATA2**](-wia-devicedialogdata2.md) , содержащую все данные, необходимые для реализации диалогового окна устройства.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ HRESULT DeviceDialog(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вы реализуете интерфейс [**IWiaUIExtension2**](-wia-iwiauiextension2.md) и не хотите заменять системный интерфейс пользователя, этот метод по-прежнему должен быть реализован, но не должен делать ничего больше, чем возвращать E \_ нотимпл.
 

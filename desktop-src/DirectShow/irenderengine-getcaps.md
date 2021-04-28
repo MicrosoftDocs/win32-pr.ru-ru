@@ -1,5 +1,5 @@
 ---
-description: Не реализован.
+description: 'Метод Ирендеренгине:: Caps-не реализован.'
 ms.assetid: ad48a817-a69a-419c-9186-25f45b02d8f5
 title: 'Метод Ирендеренгине:: Caps'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 8d8f6ed18fb9c5d4c5964b050a2a76bebec8ba82
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 16dee2c5c81eda1d957490aafcfc1d9984d2d232
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894330"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089072"
 ---
 # <a name="irenderenginegetcaps-method"></a>Метод Ирендеренгине:: Caps
 
@@ -62,7 +62,7 @@ HRESULT GetCaps(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -74,7 +74,7 @@ HRESULT GetCaps(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

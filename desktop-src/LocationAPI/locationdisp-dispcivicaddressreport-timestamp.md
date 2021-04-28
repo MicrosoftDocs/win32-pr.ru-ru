@@ -1,5 +1,5 @@
 ---
-description: Дата и время создания отчета.
+description: Свойство Локатиондисп. ДиспЦивикаддрессрепорт. timestamp — Дата и время создания отчета.
 ms.assetid: b9435384-72e0-42c4-a948-df52621a5ec2
 title: Локатиондисп. ДиспЦивикаддрессрепорт. timestamp, свойство
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 7b805454a6c2d62a58ba5a2a3de8f5b5095e1db8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2ed39956bb542aa4e150bf9afa3e59a472a4d91
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684452"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110882"
 ---
 # <a name="locationdispdispcivicaddressreporttimestamp-property"></a>Локатиондисп. ДиспЦивикаддрессрепорт. timestamp, свойство
 
@@ -40,7 +40,7 @@ Timestamp = LocationDisp.DispCivicAddressReport.Timestamp
 
 Это свойство является **датой** только для чтения. Временные метки задаются в формате UTC.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что для языков сценариев, таких как Microsoft JScript, может потребоваться выполнить преобразование в другие форматы времени при отображении меток времени в виде строк.
 

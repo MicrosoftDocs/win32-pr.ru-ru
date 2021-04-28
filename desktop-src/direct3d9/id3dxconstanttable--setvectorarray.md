@@ -1,5 +1,5 @@
 ---
-description: Задает массив векторов 4D.
+description: 'Метод ID3DXConstantTable:: Сетвектораррай — задает массив векторов 4D.'
 ms.assetid: bd453384-4f38-4017-a9a5-cac605919940
 title: 'Метод ID3DXConstantTable:: Сетвектораррай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a6c68621a3f97251cdd88836792bf55980f28311
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fe93ef7a75cda743399133445a5f6efd34dd5ad7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703807"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115012"
 ---
 # <a name="id3dxconstanttablesetvectorarray-method"></a>Метод ID3DXConstantTable:: Сетвектораррай
 
@@ -96,7 +96,7 @@ HRESULT SetVectorArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Поворачивает (относительно мирового пространства координат) вокруг произвольной оси.
+description: 'Метод ID3DXMATRIXStack:: Ротатеаксис (D3DX10. h) — поворачивает (относительно мирового пространства координат) вокруг произвольной оси.'
 ms.assetid: 7c842bf6-2d13-422e-8136-0506a76ce9fe
 title: 'Метод ID3DXMATRIXStack:: Ротатеаксис (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: badd26d61fa6580b0193039e29a8fceedabe2d3c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0a2e52eed1c1957de9a0fcfed4ba3d3d05f89cb9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104356000"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107916"
 ---
 # <a name="id3dxmatrixstackrotateaxis-method-d3dx10h"></a>Метод ID3DXMATRIXStack:: Ротатеаксис (D3DX10. h)
 
@@ -65,7 +65,7 @@ HRESULT RotateAxis(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод добавляет поворот в стек матриц с помощью вычисленной матрицы вращения, как показано ниже:
 
@@ -91,7 +91,7 @@ m_stack[m_currentPos] = m_stack[m_currentPos] * tmp;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

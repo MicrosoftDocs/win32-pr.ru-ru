@@ -1,5 +1,5 @@
 ---
-description: Метод Жетконтролстате Извлекает состояние записи, которое указывает, запущена или приостановлена запись.
+description: 'Метод Иделайдк:: Жетконтролстате — метод Жетконтролстате Извлекает состояние записи, которое указывает, запущена или приостановлена запись.'
 ms.assetid: 21b7faaa-591f-4e15-b4e9-453ea690ab4a
 title: 'Метод Иделайдк:: Жетконтролстате (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 8f5c3f084db788844f061ba2005d9c3ca38acef0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 825112ec9a33ef176d5a69765837214249e33102
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990892"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110772"
 ---
 # <a name="idelaydcgetcontrolstate-method"></a>Метод Иделайдк:: Жетконтролстате
 
@@ -72,7 +72,7 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод можно вызвать при каждом подключении НПП к сети с помощью интерфейса [иделайдк](idelaydc.md) . Этот метод можно использовать для определения, выполняется ли запись, если запись приостановлена или если запись была остановлена, но НПП не отключен.
 
@@ -91,7 +91,7 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

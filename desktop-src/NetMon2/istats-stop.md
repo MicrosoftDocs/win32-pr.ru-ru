@@ -1,5 +1,5 @@
 ---
-description: Метод Stop останавливает текущую запись.
+description: 'Метод Истатс:: Stop — метод Stop останавливает текущую запись.'
 ms.assetid: 3aeeb29e-e174-46a2-82bb-44c466b8db98
 title: 'Метод Истатс:: останавливаться (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 7b7b58527e7bde0c3bbdec4fc162b705dd178c10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef51aff870a3193963b3802332112c51f1024826
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650571"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114612"
 ---
 # <a name="istatsstop-method"></a>Метод Истатс:: останавливаться
 
@@ -56,7 +56,7 @@ HRESULT STDMETHODCALLTYPE Stop();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При перезапуске записи после вызова **истатс:: останавливаться** убедитесь, что вы вызываете метод [Истатс:: Configure](istats-configure.md) каждый раз, когда вызывается [истатс:: Start](istats-start.md) для перезапуска записи.
 
@@ -73,7 +73,7 @@ HRESULT STDMETHODCALLTYPE Stop();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

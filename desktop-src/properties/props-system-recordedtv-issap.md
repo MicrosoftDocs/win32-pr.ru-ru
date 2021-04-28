@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Рекордедтв. Иссап
 ms.assetid: 9fd78517-ba1f-4832-9c1c-31acb16548f7
 title: System. Рекордедтв. Иссап
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03a6d6399dbdf5209f2443a264c7cf591a265762
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72a9035b2162caf68de92c029af7ad563d5abe2b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265471"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106913"
 ---
 # <a name="systemrecordedtvissap"></a>System. Рекордедтв. Иссап
 
@@ -42,11 +42,11 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

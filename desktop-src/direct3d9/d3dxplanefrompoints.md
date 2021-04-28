@@ -1,5 +1,5 @@
 ---
-description: Конструирует плоскость из трех точек.
+description: Функция D3DXPlaneFromPoints (D3dx9math. h) — конструирует плоскость из трех точек.
 ms.assetid: 13d5ce6b-0046-441b-b826-f34f4fe16979
 title: Функция D3DXPlaneFromPoints (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c537915c56cdbbfb33228b0c5a5ea3f2acc2baff
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0d945dff9c124f4c66cea4f9d61c490c6eaf7a66
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713458"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094162"
 ---
 # <a name="d3dxplanefrompoints-function-d3dx9mathh"></a>Функция D3DXPlaneFromPoints (D3dx9math. h)
 
@@ -85,7 +85,7 @@ D3DXPLANE* D3DXPlaneFromPoints(
 
 Указатель на структуру [**D3DXPLANE**](d3dxplane.md) , созданную из заданных точек.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXPlaneFromPoints** может использоваться в качестве параметра для другой функции.
 
@@ -100,7 +100,7 @@ D3DXPLANE* D3DXPlaneFromPoints(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

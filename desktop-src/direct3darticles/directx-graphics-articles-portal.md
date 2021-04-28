@@ -1,19 +1,19 @@
 ---
 title: Статьи, посвященные графике DirectX
-description: .
+description: Статьи, посвященные графике DirectX
 ms.assetid: 22178507-9a3b-49b1-a3db-851001a32e8e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16ac2a3a6b9beff7dfc8bfe4f6c0de92885f39ca
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9f7e212f9076d2f7a07df635199b375e82a7f38a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338652"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097462"
 ---
 # <a name="directx-graphics-articles"></a>Статьи, посвященные графике DirectX
 
-## <a name="purpose"></a>Назначение
+## <a name="purpose"></a>Цель
 
 В этом разделе содержатся технические статьи, в которых описывается ДЕФОРМАЦИЯ и недавно Добавленная поддержка режима отражения в Windows 7 и связанная статистика в Direct3D 9Ex и диспетчер окон рабочего стола. В этом разделе также содержатся технические статьи о графических интерфейсах API Windows, переносе API Direct3D 9 в API-интерфейсы графической инфраструктуры Microsoft DirectX (DXGI) и о том, как развернуть Direct3D 11.
 

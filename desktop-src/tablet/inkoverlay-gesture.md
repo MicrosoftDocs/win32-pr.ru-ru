@@ -1,15 +1,15 @@
 ---
-description: Происходит при распознавании жеста конкретного приложения.
+description: Событие InkOverlay. жеста — происходит при распознавании жеста конкретного приложения.
 ms.assetid: 11b48fbc-0c93-4c3c-b218-258028822544
 title: Событие InkOverlay. жест (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb3db800db2d1fca9ee1b00620c698a592ac2121
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b414aa1d0feaa19c5caee049eea29c59e90b58d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703058"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116952"
 ---
 # <a name="inkoverlaygesture-event"></a>Событие InkOverlay. жест
 
@@ -67,7 +67,7 @@ void Gesture(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в \_ \_ \_ интерфейсах диспетчеризации (DISP) иинкколлекторевентс, иинковерлайевентс и иинкпиктуривентс с идентификатором DISPID \_ ицежестуре.
 
@@ -107,7 +107,7 @@ void Gesture(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

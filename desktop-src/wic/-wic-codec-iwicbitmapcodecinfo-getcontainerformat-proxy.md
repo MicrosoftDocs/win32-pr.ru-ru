@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Жетконтаинерформат.
+description: IWICBitmapCodecInfo_GetContainerFormat_Proxy функция-прокси для метода Жетконтаинерформат.
 ms.assetid: d8a2387a-fb75-4812-b046-51359071281d
 title: Функция IWICBitmapCodecInfo_GetContainerFormat_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 896c2ff88085c0300cffcc56c2877b98cd4ab68a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 729b4e2fe0f21fd1e96082e53194fd49bbc39ae1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263027"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086372"
 ---
 # <a name="iwicbitmapcodecinfo_getcontainerformat_proxy-function"></a>ИвикбитмапкодеЦинфо \_ жетконтаинерформат \_ -функция
 
@@ -44,16 +44,16 @@ HRESULT IWICBitmapCodecInfo_GetContainerFormat_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапкодеЦинфо**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo) \** _
+Тип: **[ **ивикбитмапкодеЦинфо**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo)\***
 
-Указатель на этот объект [_ *ивикбитмапкодеЦинфо* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo) .
+Указатель на этот объект [**ивикбитмапкодеЦинфо**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo) .
 
 </dd> <dt>
 
 *пгуидконтаинерформат* \[ заполняет\]
 </dt> <dd>
 
-Тип: **GUID \** _
+Тип: **GUID \***
 
 Указатель, получающий идентификатор GUID контейнера.
 
@@ -61,7 +61,7 @@ HRESULT IWICBitmapCodecInfo_GetContainerFormat_Proxy(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 

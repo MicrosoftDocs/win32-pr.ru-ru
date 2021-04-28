@@ -1,5 +1,5 @@
 ---
-description: Задает массив указателей на перекладываемые матрицы.
+description: 'Метод ID3DXConstantTable:: Сетматрикстранспосепоинтераррай — задает массив указателей на перекладываемые матрицы.'
 ms.assetid: f2db10cb-a146-412d-8de8-f093253470fd
 title: 'Метод ID3DXConstantTable:: Сетматрикстранспосепоинтераррай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6c78c051ff2d2ab52c9a741fa117a89f66ff450d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6fefb5a0b62174499a4631f2fe8020c25a3a8efa
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713727"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115042"
 ---
 # <a name="id3dxconstanttablesetmatrixtransposepointerarray-method"></a>Метод ID3DXConstantTable:: Сетматрикстранспосепоинтераррай
 
@@ -85,7 +85,7 @@ HRESULT SetMatrixTransposePointerArray(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переданная матрица содержит основные данные столбца. то есть каждый вектор содержится в столбце.
 
@@ -100,7 +100,7 @@ HRESULT SetMatrixTransposePointerArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

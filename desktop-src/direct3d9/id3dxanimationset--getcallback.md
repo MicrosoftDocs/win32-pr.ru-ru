@@ -1,5 +1,5 @@
 ---
-description: Возвращает сведения о конкретном обратном вызове в наборе анимации.
+description: 'Метод ID3DXAnimationSet:: callback — получает сведения о конкретном обратном вызове в наборе анимации.'
 ms.assetid: e8388bfc-5438-4216-a98f-dd0dbca12c87
 title: 'Метод ID3DXAnimationSet:: callback (D3dx9anim. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f4cde6c9d51fd29c0412f33b34ca7bea8260dfea
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 563c1007cc471ab10a9609e776da69b7c5ed493b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273963"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097542"
 ---
 # <a name="id3dxanimationsetgetcallback-method"></a>Метод ID3DXAnimationSet:: callback
 
@@ -96,7 +96,7 @@ HRESULT GetCallback(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

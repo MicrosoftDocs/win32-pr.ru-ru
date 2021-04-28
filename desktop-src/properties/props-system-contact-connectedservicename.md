@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Contact. Коннектедсервиценаме
 ms.assetid: 33af6310-3915-4d59-a0e7-676c6720451c
 title: System. Contact. Коннектедсервиценаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efb8a7ed2c3b8e46d9079eba0ef504581d733b6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 434ab80b4834cc6fb426fba4a2971033d88c729d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673947"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102492"
 ---
 # <a name="systemcontactconnectedservicename"></a>System. Contact. Коннектедсервиценаме
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

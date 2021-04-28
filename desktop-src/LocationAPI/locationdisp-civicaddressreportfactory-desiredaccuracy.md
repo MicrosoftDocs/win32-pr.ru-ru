@@ -1,5 +1,5 @@
 ---
-description: Текущее значение требуемой точности.
+description: Свойство Локатиондисп. Цивикаддрессрепортфактори. Десиредаккураци — текущее значение точности.
 ms.assetid: 296164cf-a8ed-4277-bb4c-83ac09e63291
 title: Локатиондисп. Цивикаддрессрепортфактори. Десиредаккураци, свойство
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: eb05aeb6a69bfe978682d418cf1e71aed2184bc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a18a363c2f24e9b17e16064b7375a4f075a1a8e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664595"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110922"
 ---
 # <a name="locationdispcivicaddressreportfactorydesiredaccuracy-property"></a>Локатиондисп. Цивикаддрессрепортфактори. Десиредаккураци, свойство
 
@@ -52,7 +52,7 @@ LocationDisp.CivicAddressReportFactory.DesiredAccuracy = DesiredAccuracy
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение является запросом к поставщику расположения. Поставщик расположения не требуется для предоставления точности, которую вы запрашиваете. Прочтите значение этого свойства, чтобы определить значение параметра точности.
 

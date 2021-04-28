@@ -1,5 +1,5 @@
 ---
-description: Метод SetPowerState задает требуемое состояние электропитания для логического устройства и когда устройство должно быть переведено в это состояние.
+description: Метод SetPowerState класса CIM_DesktopMonitor. Метод SetPowerState задает требуемое состояние электропитания для логического устройства и когда устройство должно быть переведено в это состояние.
 ms.assetid: 9a8be1bb-f5ca-4b82-bea1-30090c7e2569
 ms.tgt_platform: multiple
 title: Метод SetPowerState класса CIM_DesktopMonitor
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 107a4a8df69cb5e5e9e4cf781f52d88ff37e3fba
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cc95a434673ca17a16407a6cad4c6db6b4adbb8d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896097"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089402"
 ---
 # <a name="setpowerstate-method-of-the-cim_desktopmonitor-class"></a>Метод SetPowerState \_ класса CIM десктопмонитор
 
@@ -106,7 +106,7 @@ uint32 SetPowerState(
 
 Возвращает 0 (нуль) в случае успеха, 1 (один), если *указанный запрос* о сбое и *время* не поддерживаются, и другое значение, если произошла какая-либо другая ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -126,7 +126,7 @@ uint32 SetPowerState(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

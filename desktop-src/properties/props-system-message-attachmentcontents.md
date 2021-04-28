@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Message. Аттачментконтентс
 ms.assetid: abef2e61-6cbe-46cc-ba2a-a0bb42164c8c
 title: System. Message. Аттачментконтентс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 060b930aa476097a8e3efc14d9ac4e4f60472ade
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0a09aec258ea0c6798379057b04da4747c00862
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711868"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114052"
 ---
 # <a name="systemmessageattachmentcontents"></a>System. Message. Аттачментконтентс
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

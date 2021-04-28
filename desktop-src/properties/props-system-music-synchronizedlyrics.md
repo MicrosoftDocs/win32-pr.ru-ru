@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Music. Синчронизедлирикс
 ms.assetid: f68c20e5-ad75-4b99-b037-a45925dd37a2
 title: System. Music. Синчронизедлирикс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1662dbee2d459d257a738d8842896127d032410
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 763098a88cab5c1bf11d1751070aebfd2f47d15f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998346"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091802"
 ---
 # <a name="systemmusicsynchronizedlyrics"></a>System. Music. Синчронизедлирикс
 
@@ -28,11 +28,11 @@ propertyDescription
       type = Blob
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

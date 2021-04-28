@@ -1,5 +1,5 @@
 ---
-description: Метод Disconnect отключает НПП от сети.
+description: ИЕСП::D метода соединения. метод Disconnect отключает НПП от сети.
 ms.assetid: 962e033d-a51c-47a2-83dc-cee1e7150ab8
 title: ИЕСП::D метода соединения (Netmon. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: b0dac1843083d77121883b2609c32addffbae290
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0a07748781a567c889e879e2e99462d8cfb876a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143768"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110762"
 ---
 # <a name="iespdisconnect-method"></a>ИЕСП::D метода соединения
 
@@ -56,7 +56,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не может быть вызван, когда НПП захватывает данные. Необходимо вызвать метод **ИЕСП:: останавливаться** перед вызовом **ИЕСП::D соединения**.
 
@@ -73,7 +73,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

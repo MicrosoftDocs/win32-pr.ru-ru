@@ -1,16 +1,7 @@
 ---
-title: Расширенный пример входных данных пользователя
-description: .
-ms.assetid: A408E0EC-E0A7-4F18-BFCA-21D28007FACC
-ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: cdde7f14dda356d0f65103c77e3b73c2f0de50a6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104558218"
+Title: Расширенный пример входных данных пользователя. Описание: ввод пользователя: Расширенный пример MS. AssetID: A408E0EC-E0A7-4F18-BFCA-21D28007FACC MS. Topic: статья MS. Date: 05/31/2018
 ---
+
 # <a name="user-input-extended-example"></a>Ввод данных пользователем: Расширенный пример
 
 Объедините все, что мы узнали о вводе данных пользователем для создания простой программы рисования. Ниже приведен снимок экрана программы:

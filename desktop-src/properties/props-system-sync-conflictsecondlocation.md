@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Sync. Конфликтсекондлокатион
 ms.assetid: 436aec48-518b-4759-b06a-d23b8e422ca8
 title: System. Sync. Конфликтсекондлокатион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68893ef42335cf33fc501ff4373c857a7a9714ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fcbaf0a1a75ec1f1c42fef230037695afdeb13b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264901"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091532"
 ---
 # <a name="systemsyncconflictsecondlocation"></a>System. Sync. Конфликтсекондлокатион
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

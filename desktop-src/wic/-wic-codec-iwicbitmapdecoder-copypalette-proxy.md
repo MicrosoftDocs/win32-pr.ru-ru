@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Копипалетте.
+description: IWICBitmapDecoder_CopyPalette_Proxy функция-прокси для метода Копипалетте.
 ms.assetid: 2775b389-d6e9-479c-93ea-147e4501551d
 title: Функция IWICBitmapDecoder_CopyPalette_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: ee6902668a9c4feffdcc696ce0d5f6214a707bc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56dbc523fe29ef9cc958b6ffbd80509284b78b88
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701445"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086362"
 ---
 # <a name="iwicbitmapdecoder_copypalette_proxy-function"></a>Ивикбитмапдекодер \_ копипалетте \_ -функция
 
@@ -44,16 +44,16 @@ HRESULT IWICBitmapDecoder_CopyPalette_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапдекодер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) \** _
+Тип: **[ **ивикбитмапдекодер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)\***
 
-Указатель на этот объект [_ *ивикбитмапдекодер* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) .
+Указатель на этот объект [**ивикбитмапдекодер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) .
 
 </dd> <dt>
 
 *пипалетте* \[ окне\]
 </dt> <dd>
 
-Тип: **[**ивикпалетте**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) \** _
+Тип: **[ **ивикпалетте**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette)\***
 
 Копируемая палитра изображений.
 
@@ -61,7 +61,7 @@ HRESULT IWICBitmapDecoder_CopyPalette_Proxy(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 

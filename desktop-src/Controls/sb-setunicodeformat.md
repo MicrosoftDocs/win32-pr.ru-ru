@@ -1,6 +1,6 @@
 ---
 title: Сообщение SB_SETUNICODEFORMAT (Коммктрл. h)
-description: Задает флаг формата символов Юникода для элемента управления. Это сообщение позволяет изменить кодировку, используемую элементом управления во время выполнения, вместо того, чтобы повторно создавать элемент управления.
+description: SB_SETUNICODEFORMAT сообщение — задает флаг формата символов Юникода для элемента управления. Это сообщение позволяет изменить кодировку, используемую элементом управления во время выполнения, вместо того, чтобы повторно создавать элемент управления.
 ms.assetid: 022e7138-c12f-4c59-82da-2ac6d276fa77
 keywords:
 - Элементы управления Windows для SB_SETUNICODEFORMAT сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95c5223f1e707747356c8869ad047a69f6e8d94a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 278a5645928a51732b87c12447bb2524bfadfbcd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654607"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085892"
 ---
 # <a name="sb_setunicodeformat-message"></a>\_Сообщение SB сетуникодеформат
 
@@ -43,7 +43,7 @@ ms.locfileid: "105654607"
 
 Возвращает предыдущий флаг формата Юникода для элемента управления.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обсуждение этого сообщения см. в примечаниях по [**CCM \_ сетуникодеформат**](ccm-setunicodeformat.md) .
 
@@ -59,7 +59,7 @@ ms.locfileid: "105654607"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

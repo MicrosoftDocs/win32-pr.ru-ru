@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Инитиализефроммемори.
+description: IWICStream_InitializeFromMemory_Proxy функция-прокси для метода Инитиализефроммемори.
 ms.assetid: 737526ac-fe79-4d53-83c5-33102f5ac67b
 title: Функция IWICStream_InitializeFromMemory_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: fe034698635a35c098f6466712d17489f301dd57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be3cec08f2ad3970d8860803cfb70970cf7b765b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713119"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097132"
 ---
 # <a name="iwicstream_initializefrommemory_proxy-function"></a>Ивикстреам \_ инитиализефроммемори \_ -функция
 
@@ -45,22 +45,22 @@ HRESULT IWICStream_InitializeFromMemory_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикстреам**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) \** _
+Тип: **[ **ивикстреам**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream)\***
 
-Указатель на этот объект [_ *ивикстреам* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) .
+Указатель на этот объект [**ивикстреам**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) .
 
 </dd> <dt>
 
 *пббуффер* \[ окне\]
 </dt> <dd>
 
-Тип: **Byte \** _
+Тип: **Byte \***
 
 Указатель на буфер, используемый для инициализации потока.
 
 </dd> <dt>
 
-_cbBufferSize * \[ в\]
+*кббуфферсизе* \[ окне\]
 </dt> <dd>
 
 Тип: **DWORD**

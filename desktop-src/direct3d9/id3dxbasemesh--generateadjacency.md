@@ -1,5 +1,5 @@
 ---
-description: Создание списка границ сетки, а также списка лиц, совместно использующих каждое ребро.
+description: 'Метод ID3DXBaseMesh:: Женератеаджаценци — создает список границ сетки, а также список лиц, совместно использующих каждое ребро.'
 ms.assetid: 9d52290f-1c9e-43a7-b239-35cd54e36466
 title: 'Метод ID3DXBaseMesh:: Женератеаджаценци (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b5b1d304878a4977bb14d6ef98ad7256b6c3181f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 783ed7ad61337e606793b9b467e4b17fddd7ecd2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424462"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115462"
 ---
 # <a name="id3dxbasemeshgenerateadjacency-method"></a>Метод ID3DXBaseMesh:: Женератеаджаценци
 
@@ -65,7 +65,7 @@ HRESULT GenerateAdjacency(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После того как приложение создаст сведения о смежности для сетки, данные сетки можно оптимизировать для повышения производительности рисования.
 
@@ -82,7 +82,7 @@ HRESULT GenerateAdjacency(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

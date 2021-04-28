@@ -1,5 +1,5 @@
 ---
-description: Возвращает дескриптор безопасности, управляющий доступом к службе.
+description: Метод Жетсекуритидескриптор класса Win32_Service (поставщики WMI CIMWin32) — возвращает дескриптор безопасности, который управляет доступом к службе.
 ms.assetid: 99c8346e-e8d6-4f3c-bbdc-437dcf852b2a
 ms.tgt_platform: multiple
 title: Метод Жетсекуритидескриптор класса Win32_Service (поставщики WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5bf8dee49893a5a1d3b628e72b0b0746a6215fb0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 44c19f22cf57a811a7caebfbcc9bf4202c8d2ad7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072411"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096992"
 ---
 # <a name="getsecuritydescriptor-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Метод Жетсекуритидескриптор класса Win32_Service (поставщики WMI CIMWin32)
 
@@ -285,7 +285,7 @@ uint32 GetSecurityDescriptor(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Экземпляр [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) представляет тип данных [**\_ \_ элемента управления дескриптора безопасности**](/windows/desktop/SecAuthZ/security-descriptor-control) и содержит [*список управления доступом на уровне пользователей*](/windows/desktop/SecGloss/d-gly) (DACL) и [*системный список управления доступом*](/windows/desktop/SecGloss/s-gly) (SACL). Дополнительные сведения см. в разделе [списки управления доступом](/windows/desktop/SecAuthZ/access-control-lists).
 
@@ -327,7 +327,7 @@ Scope.Options.EnablePrivileges = True
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

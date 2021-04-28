@@ -1,15 +1,15 @@
 ---
-description: .
+description: Тестирование совместимости приложений с помощью образов Virtual PC
 ms.assetid: 316B4258-3C8D-4B74-A6B8-1D1C02372720
 title: Тестирование совместимости приложений с помощью образов Virtual PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 419f05de2076814f2c9dd54c43f27b232a2322d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d05ca2e85c5d33f301b886c5706fcb8a8e1ab394
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818472"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088722"
 ---
 # <a name="application-compatibility-testing-using-virtual-pc-images"></a>Тестирование совместимости приложений с помощью образов Virtual PC
 
@@ -19,7 +19,7 @@ ms.locfileid: "103818472"
 
 Образы VPC доступны для всех текущих поддерживаемых версий Windows и содержат много ресурсов и приложений для тестирования совместимости. Чтобы найти тестовые образы, см. [образ VPC для совместимости приложений Internet Explorer](https://www.microsoft.com/Downloads/details.aspx?FamilyID=21eabb90-958f-4b64-b5f1-73d0a413c8ef&amp;displaylang=en).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
