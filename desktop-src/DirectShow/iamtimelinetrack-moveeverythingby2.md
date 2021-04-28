@@ -1,5 +1,5 @@
 ---
-description: Этот метод не поддерживается.
+description: 'Метод Иамтимелинетракк:: MoveEverythingBy2 — этот метод не поддерживается.'
 ms.assetid: 082922fc-dda9-4970-979c-301178152502
 title: 'Метод Иамтимелинетракк:: MoveEverythingBy2 (Кедит. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 752a55eb34b1178ddce389462c6797d85c137396
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b0334f207dcf70e790afddc8a8ec68648a24a93
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685229"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119462"
 ---
 # <a name="iamtimelinetrackmoveeverythingby2-method"></a>Метод Иамтимелинетракк:: MoveEverythingBy2
 
@@ -59,7 +59,7 @@ HRESULT MoveEverythingBy2(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -82,7 +82,7 @@ HRESULT MoveEverythingBy2(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

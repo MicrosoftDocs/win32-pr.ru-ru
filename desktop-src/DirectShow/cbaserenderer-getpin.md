@@ -1,5 +1,5 @@
 ---
-description: Метод Жетпин извлекает ПИН-код.
+description: Кбасерендерер. Жетпин, метод Жетпин извлекает ПИН-код.
 ms.assetid: 665e1aaf-4491-4241-94c6-6ea356d7a665
 title: Кбасерендерер. Жетпин, метод (Ренбасе. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6b67b926e0af604e0a25ea7c09b417baf3647fde
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7c30767b7cba68931bc1ddde4905c9b7bc2bc29
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657006"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119892"
 ---
 # <a name="cbaserenderergetpin-method"></a>Кбасерендерер. Жетпин, метод
 
@@ -53,7 +53,7 @@ virtual CBasePin* GetPin(
 
 Возвращает указатель [**кбасерендерер:: m \_ пинпутпин**](cbaserenderer-m-pinputpin.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод реализует метод [**кбасефилтер:: жетпин**](cbasefilter-getpin.md) , который является чистым виртуальным в классе **кбасефилтер** . Фильтр поддерживает ровно один ПИН-код (входной ПИН-код). При первом вызове этого метода он создает ПИН-код в качестве нового объекта [**крендереринпутпин**](crendererinputpin.md) .
 
@@ -68,7 +68,7 @@ virtual CBasePin* GetPin(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

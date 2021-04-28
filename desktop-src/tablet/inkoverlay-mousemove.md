@@ -1,15 +1,15 @@
 ---
-description: Происходит при перемещении указателя мыши над объектом InkCollector или InkOverlay.
+description: Событие InkOverlay. MouseMove — происходит при перемещении указателя мыши по объекту InkCollector или InkOverlay.
 ms.assetid: b25aeead-9fb1-4221-82fa-ce2d81f5fed8
 title: Событие InkOverlay. MouseMove (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9ddefd5f3b3f75b03488f74bdbd4aee222a89d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f8290a11b00dcf97b3f3d8568ebe9890f715454
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272314"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116912"
 ---
 # <a name="inkoverlaymousemove-event"></a>Событие InkOverlay. MouseMove
 
@@ -73,7 +73,7 @@ void MouseMove(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Свойства *px* и *корректировки* находятся в пикселях, а не в HIMETRIC единицах, связанных с пространством рукописного ввода. Это связано с тем, что это событие заменяет связанное событие мыши приложения, не поддерживающего перо, и такого типа приложения распознает только пикселы.
@@ -100,7 +100,7 @@ void MouseMove(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

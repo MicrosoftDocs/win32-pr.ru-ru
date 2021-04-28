@@ -1,5 +1,5 @@
 ---
-description: Метод Саурцелистаддмедиадиск добавляет диск к набору зарегистрированных дисков. Принимает параметры DiskID, VolumeLabel и DiskPrompt в качестве параметров. Этот метод вызывает в Мсисаурцелистаддмедиадиск.
+description: Метод Product. Саурцелистаддмедиадиск — метод Саурцелистаддмедиадиск добавляет диск к набору зарегистрированных дисков. Принимает параметры DiskID, VolumeLabel и DiskPrompt в качестве параметров. Этот метод вызывает в Мсисаурцелистаддмедиадиск.
 ms.assetid: 19cb6884-2191-4da3-a6d2-8874564be67d
 title: Метод Product. Саурцелистаддмедиадиск
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: d2f81b21570d708f361e45be7f6f42a93fd0d335
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4cf5fac906b048930b47a07acb2c04c7243d5bbf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651694"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113582"
 ---
 # <a name="productsourcelistaddmediadisk-method"></a>Метод Product. Саурцелистаддмедиадиск
 
@@ -78,7 +78,7 @@ Product.SourceListAddMediaDisk(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

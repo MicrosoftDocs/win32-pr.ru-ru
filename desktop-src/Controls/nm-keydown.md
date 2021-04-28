@@ -1,6 +1,6 @@
 ---
 title: Код уведомления NM_KEYDOWN (Коммктрл. h)
-description: Посылается элементом управления, когда элемент управления имеет фокус клавиатуры и пользователь нажимает клавишу. Этот код уведомления отправляется в виде \_ сообщения WM notify.
+description: NM_KEYDOWN код уведомления — отправляется элементом управления, когда элемент управления имеет фокус клавиатуры и пользователь нажимает клавишу. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: e3b38096-797d-4948-9595-a252cf33dcdd
 keywords:
 - NM_KEYDOWN кода уведомления элементы управления Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 222a47733a60590e7d56ca0adba038164c430fab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce595378995e41fd8a0f481d7470c8cf791f6379
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891422"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112352"
 ---
 # <a name="nm_keydown-notification-code"></a>\_Код уведомления NM KeyDown
 

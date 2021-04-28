@@ -1,6 +1,6 @@
 ---
 title: Сообщение TVM_SETUNICODEFORMAT (Коммктрл. h)
-description: Задает флаг формата символов Юникода для элемента управления.
+description: TVM_SETUNICODEFORMAT сообщение — задает флаг формата символов Юникода для элемента управления.
 ms.assetid: e4b58ae5-6217-4a2e-80e5-3ba9e578859a
 keywords:
 - Элементы управления Windows для TVM_SETUNICODEFORMAT сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25082347710a40f592cfd4087b19916b56cf0d11
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b49fcdd22cff0ac91885ef8f54d49922f9c677e9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989400"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116552"
 ---
 # <a name="tvm_setunicodeformat-message"></a>\_Сообщение TVM сетуникодеформат
 
@@ -43,7 +43,7 @@ ms.locfileid: "103989400"
 
 Возвращает предыдущий флаг формата Юникода для элемента управления.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обсуждение этого сообщения см. в примечаниях по [**CCM \_ сетуникодеформат**](ccm-setunicodeformat.md) .
 
@@ -59,7 +59,7 @@ ms.locfileid: "103989400"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

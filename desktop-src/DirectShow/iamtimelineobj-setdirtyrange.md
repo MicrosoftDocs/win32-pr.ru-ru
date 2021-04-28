@@ -1,5 +1,5 @@
 ---
-description: Не реализован.
+description: 'Метод Иамтимелинеобж:: Сетдиртиранже не реализован.'
 ms.assetid: f3be3b5a-7ab9-44ca-8a03-33fb905d3aea
 title: 'Метод Иамтимелинеобж:: Сетдиртиранже (Кедит. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: b8f0adee44de03560b347122a9c9cbdf500db897
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7e3f70e5ba9d01733df154911c4f40d2b9d33776
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689150"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119492"
 ---
 # <a name="iamtimelineobjsetdirtyrange-method"></a>Метод Иамтимелинеобж:: Сетдиртиранже
 
@@ -64,7 +64,7 @@ HRESULT SetDirtyRange(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -87,7 +87,7 @@ HRESULT SetDirtyRange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

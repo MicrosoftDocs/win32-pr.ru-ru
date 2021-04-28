@@ -1,5 +1,5 @@
 ---
-description: Зарезервировано.
+description: Свойство Локатиондисп. ДиспЦивикаддрессрепорт. Детаиллевел — зарезервировано.
 ms.assetid: 3f206db7-fccf-4b95-bff7-856dc53caf5a
 title: Локатиондисп. ДиспЦивикаддрессрепорт. Детаиллевел, свойство
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 54cb58df259f63567f018a7b59d6b7547a291bca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d987b93fbf091c7849eda0dc1949f58a97c653b1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999113"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110902"
 ---
 # <a name="locationdispdispcivicaddressreportdetaillevel-property"></a>Локатиондисп. ДиспЦивикаддрессрепорт. Детаиллевел, свойство
 
@@ -40,7 +40,7 @@ DetailLevel = LocationDisp.DispCivicAddressReport.DetailLevel
 
 Зарезервировано.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы определить, содержит ли отчет об административном адресе допустимые данные для определенного поля, просто проверьте содержимое поля. Если поле содержит значение, можно предположить, что поле содержит наиболее точную доступную информацию.
 

@@ -1,5 +1,5 @@
 ---
-description: Не реализован.
+description: 'Метод Иамтимелине:: Сетинтерестранже не реализован.'
 ms.assetid: b803ba33-d698-449f-a540-3981c4f0826a
 title: 'Метод Иамтимелине:: Сетинтерестранже (Кедит. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 0a3c92848380bb71bcdca0e6f6de1069d6eb998a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 23485bbdc2292e0d341e3fef0646fb68616698c4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651904"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119572"
 ---
 # <a name="iamtimelinesetinterestrange-method"></a>Метод Иамтимелине:: Сетинтерестранже
 
@@ -64,7 +64,7 @@ HRESULT SetInterestRange(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -87,7 +87,7 @@ HRESULT SetInterestRange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

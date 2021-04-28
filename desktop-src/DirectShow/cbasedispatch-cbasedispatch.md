@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кбаседиспатч. Кбаседиспатч.
 ms.assetid: c88638ca-929e-4135-b15c-110229f4a4de
 title: Конструктор Кбаседиспатч. Кбаседиспатч (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 92fdec191beff1385577ce5e7e8323dbeef7769c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e41ffe3b766cf553691f7bf7de354fa7d6bfb479
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656916"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120132"
 ---
 # <a name="cbasedispatchcbasedispatch-constructor"></a>Кбаседиспатч. Кбаседиспатч, конструктор
 
@@ -51,7 +51,7 @@ CBaseDispatch();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

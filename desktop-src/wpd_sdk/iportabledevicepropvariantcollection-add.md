@@ -1,5 +1,5 @@
 ---
-description: Метод Add добавляет элемент в коллекцию.
+description: 'Метод Ипортабледевицепропвариантколлектион:: Add — метод Add добавляет элемент в коллекцию.'
 ms.assetid: e9e8975f-f9b8-4940-b967-020cf3812582
 title: 'Метод Ипортабледевицепропвариантколлектион:: Add (Портабледевицетипес. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: d9d5b4ee664d2fbbcc78550b1af5a48874d153d6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7aed732cb92ea7e0f2fb3c2ebdd615f643bc3107
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708347"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112462"
 ---
 # <a name="iportabledevicepropvariantcollectionadd-method"></a>Метод Ипортабледевицепропвариантколлектион:: Add
 
@@ -61,7 +61,7 @@ HRESULT Add(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если VARTYPE для *pValue* является VT \_ Vector или VT \_ UI1, установка и извлечение буфера со **значением NULL** или нулевым размером не поддерживается. Например, не допускаются значения pValue. Кауб. Пелемс = **null** или pValue. Кауб. целемс = 0.
 
@@ -82,7 +82,7 @@ HRESULT Add(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

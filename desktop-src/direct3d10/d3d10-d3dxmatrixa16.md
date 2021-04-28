@@ -1,5 +1,5 @@
 ---
-description: Матрица 4x4, 16-байтовое с согласованием, которая содержит методы и перегрузки операторов.
+description: D3DXMATRIXA16 Structure (D3DX10Math. h) — матрица 4x4, 16-байтовое с согласованием, которая содержит методы и перегрузки операторов.
 ms.assetid: d9e9c1cc-7555-4011-a4b4-8cce20404841
 title: Структура D3DXMATRIXA16 (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: a33b5efa0e5e714c0b161fed8191702066a44b01
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e81071d44340ef7a4b874633e736e21016c697a6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273930"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113192"
 ---
 # <a name="d3dxmatrixa16-structure-d3dx10mathh"></a>Структура D3DXMATRIXA16 (D3DX10Math. h)
 
@@ -50,7 +50,7 @@ typedef struct D3DXMATRIXA16 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При использовании математических функций D3DX для повышения производительности процессоров Intel Pentium 4 оптимизирована сопоставленная 16-байтная матрица. Матрицы согласовываются независимо от места их создания: в стеке программы, в куче или в глобальной области. Выравнивание выполняется с помощью \_ \_ declspec (выравнивание (16)), которое работает с Visual C++ .net и Visual C++ 6,0 только при установке пакета процессора. К сожалению, нет способа обнаружить пакет процессора, поэтому выравнивание байтов по умолчанию включено только с Visual C++ .NET.
 
@@ -107,7 +107,7 @@ typedef D3DX_ALIGN16 _D3DXMATRIXA16 D3DXMATRIXA16, *LPD3DXMATRIXA16;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

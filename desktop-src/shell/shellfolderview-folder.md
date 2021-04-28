@@ -1,5 +1,5 @@
 ---
-description: Возвращает объект Folder, представляющий представление.
+description: Свойство Шеллфолдервиев. Folder — получает объект Folder, представляющий представление.
 ms.assetid: 8f3e7827-f2a0-4ce9-b3e9-e6316ec58863
 title: Свойство Шеллфолдервиев. Folder (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 40590064048ba5410dc9341791aec443f16d68e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 370fddc1428c8f77edb77cdac2dc04123fc5211f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266174"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083422"
 ---
 # <a name="shellfolderviewfolder-property"></a>Шеллфолдервиев. Folder, свойство
 
@@ -39,7 +39,7 @@ Folder = ShellFolderView.Folder
 
 Объект, получающий объект [**Folder**](folder.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 **Папка** может быть вызвана только в локальной системе. Он не будет работать при запуске на веб-странице по протоколу HTTP или UNC.
 
