@@ -1,15 +1,15 @@
 ---
-description: Происходит при добавлении Иинктаблет в систему.
+description: Событие InkPicture. Таблетаддед — происходит при добавлении Иинктаблет в систему.
 ms.assetid: 5df10efd-7055-43fa-881f-67eb5fd6adcf
 title: Событие InkPicture. Таблетаддед (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d75cb3a67b00c5a26c0c3494fc752595954a23da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81c5121b668f27034a04230311ee88ebb7564802
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272640"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113662"
 ---
 # <a name="inkpicturetabletadded-event"></a>Событие InkPicture. Таблетаддед
 
@@ -41,7 +41,7 @@ void TabletAdded(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в интерфейсах диспетчеризации (DISP) **\_ иинкколлекторевентс**, **\_ иинковерлайевентс** и **\_ иинкпиктуривентс** с идентификатором DISPID \_ ицетаблетаддед.
 
@@ -58,7 +58,7 @@ void TabletAdded(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

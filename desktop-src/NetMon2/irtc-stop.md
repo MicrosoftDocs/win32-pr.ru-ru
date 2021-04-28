@@ -1,5 +1,5 @@
 ---
-description: Метод Stop останавливает текущую запись.
+description: 'Метод ИРТК:: Stop — метод Stop останавливает текущую запись.'
 ms.assetid: 64a80ff1-5a48-4be8-835d-a3d304ebb324
 title: 'Метод ИРТК:: останавливаться (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: f25bf9d56a6f41acefad9a552dd2f591158bc74e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10bf0886032c93288435ade05fec46077d53753c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673552"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113522"
 ---
 # <a name="irtcstop-method"></a>Метод ИРТК:: останавливаться
 
@@ -56,7 +56,7 @@ HRESULT STDMETHODCALLTYPE Stop();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При перезапуске записи после вызова метода **ИРТК:: останавливаться** убедитесь, что вызывается [ИРТК:: Configure](irtc-configure.md) при каждом вызове [ИРТК:: Start](irtc-start.md) для перезапуска записи.
 
@@ -73,7 +73,7 @@ HRESULT STDMETHODCALLTYPE Stop();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

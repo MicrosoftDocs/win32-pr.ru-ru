@@ -1,15 +1,15 @@
 ---
-description: Указывает, является ли входной поток чередованием.
+description: MFPKEY_COLORCONV_MODE свойство — указывает, является ли входной поток чередованием.
 ms.assetid: d0d93151-5b0d-44a7-8497-f11b3e23a031
 title: Свойство MFPKEY_COLORCONV_MODE (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd8c01a6dce595eb270b734947492deea014259
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8c3f2d6256c4d7a9410264fb18703eea251e9c6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812772"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087582"
 ---
 # <a name="mfpkey_colorconv_mode-property"></a>МФПКЭЙ \_ колорконв \_ mode, свойство
 
@@ -31,7 +31,7 @@ VT \_ I4
 
 -   [DSP цветового преобразователя](colorconverter.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте одно из следующих значений.
 
@@ -60,7 +60,7 @@ VT \_ I4
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

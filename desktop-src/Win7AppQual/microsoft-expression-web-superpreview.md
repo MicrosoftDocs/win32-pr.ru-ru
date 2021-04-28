@@ -1,15 +1,15 @@
 ---
-description: .
+description: Предварительная версия Microsoft Expression Web
 ms.assetid: A087CE3C-C14E-4483-850D-E140FEC589BF
 title: Предварительная версия Microsoft Expression Web
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eb9d58d657e1ba9b10c98f1288f2261f152f7d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97fbab3d6b4addafbe03f1bfe680fb039d78afcf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910583"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088182"
 ---
 # <a name="microsoft-expression-web-superpreview"></a>Предварительная версия Microsoft Expression Web
 
@@ -32,7 +32,7 @@ Web Preview также определяет тег элемента, разме�
 
 Дополнительные сведения об этом средстве и других средствах для разработчиков см. в статье [веб-обзор Expression Studio 4](https://www.microsoft.com/expression/products/StudioWebPro_Overview.aspx), веб [-демонстрационные версии Expression](https://msdn.microsoft.com/expression/ff723803.aspx)и [форумы по выражениям](https://social.msdn.microsoft.com/forums/announce/threads).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

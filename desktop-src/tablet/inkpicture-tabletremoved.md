@@ -1,15 +1,15 @@
 ---
-description: Происходит при удалении Иинктаблет из системы.
+description: Событие InkPicture. Таблетремовед — происходит при удалении Иинктаблет из системы.
 ms.assetid: 9a4640a7-cbd9-4304-88c6-86036423628d
 title: Событие InkPicture. Таблетремовед (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e05b097b4dcf15c618e3316066be962b52803e27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 929458c6b972143852b5921a8c8364a54a4b6f41
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272639"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113652"
 ---
 # <a name="inkpicturetabletremoved-event"></a>Событие InkPicture. Таблетремовед
 
@@ -41,7 +41,7 @@ void TabletRemoved(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в интерфейсах диспетчеризации (DISP) **\_ иинкколлекторевентс**, **\_ иинковерлайевентс** и **\_ иинкпиктуривентс** с идентификатором DISPID \_ ицетаблетремовед.
 
@@ -58,7 +58,7 @@ void TabletRemoved(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

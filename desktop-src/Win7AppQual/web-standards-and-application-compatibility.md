@@ -1,15 +1,15 @@
 ---
-description: .
+description: Веб-стандарты и совместимость приложений
 ms.assetid: 61D2EA45-5E63-41BA-90D8-84B70C80E7A4
 title: Веб-стандарты и совместимость приложений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 327582c9db3c29d8dbb3a5894c7dba25dfc64119
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fcda917b3c03d04a2c3825e141b979c2c22b023
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703398"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113412"
 ---
 # <a name="web-standards-and-application-compatibility"></a>Веб-стандарты и совместимость приложений
 
@@ -17,7 +17,7 @@ ms.locfileid: "105703398"
 
 Стандарты для веб-браузера постоянно развиваются, а веб-браузеры постоянно обновляются для внедрения этих стандартов. Следовательно, ИТ-специалисты и разработчики должны убедиться, что они совместимы с текущими и развивающимися веб-стандартами и браузерами. Это обслуживание гарантирует, что веб-приложения и сайты совместимы с новыми версиями браузеров и помогают предотвратить множество проблем совместимости, которые могут возникнуть.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

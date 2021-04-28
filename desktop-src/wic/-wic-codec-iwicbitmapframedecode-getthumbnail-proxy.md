@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода "Thumbnail".
+description: IWICBitmapFrameDecode_GetThumbnail_Proxy функция-прокси для метода с параметром thumbnail.
 ms.assetid: 377f8aac-3cdc-44dc-8c60-9b6bce915486
 title: Функция IWICBitmapFrameDecode_GetThumbnail_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: c29b62b4d3839b7cd3db51574f38ab824b215310
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f3c94461ac13aa39d14b97f13fe5e9e8d7569a4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701439"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113642"
 ---
 # <a name="iwicbitmapframedecode_getthumbnail_proxy-function"></a>\_ \_ Функция IWICBitmapFrameDecode-эскиза
 
@@ -44,9 +44,9 @@ HRESULT IWICBitmapFrameDecode_GetThumbnail_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) \** _
+Тип: **[ **IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode)\***
 
-Указатель на этот объект [_ *IWICBitmapFrameDecode* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) .
+Указатель на этот объект [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) .
 
 </dd> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Тип функции, используемый функциями заливки текстур.
+description: LPD3DXFILL2D — тип функции, используемый функциями заливки текстур.
 ms.assetid: faa2d610-cf85-42d0-833c-a46fb7fe3dbf
 title: LPD3DXFILL2D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c8c9d9ef610ee10faa069841a05f43c17b0885c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8046c324511f2b308243d62fec1b6508a1d483ed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262337"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087972"
 ---
 # <a name="lpd3dxfill2d"></a>LPD3DXFILL2D
 
@@ -43,7 +43,7 @@ pData — указатель на данные пользователя.
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не забудьте указать соглашение о вызовах [**типов данных Windows**](../winprog/windows-data-types.md) при объявлении функции обратного вызова. В противном случае могут возникать переполняется стек.
 
@@ -59,7 +59,7 @@ pData — указатель на данные пользователя.
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Происходит, когда InkCollector обнаруживает кнопку курсора, которая находится в up.
+description: Событие InkPicture. Курсорбуттонуп — происходит, когда InkCollector обнаруживает, что кнопка курсора находится в up.
 ms.assetid: bb10b032-a88d-4b52-9062-c0b63dfe98e9
 title: Событие InkPicture. Курсорбуттонуп (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6dbee586b3179f35593c95c2d62109a379c3216
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 639d0cbd89e2ca44d8855b6508c5284f59a7c654
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912344"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086662"
 ---
 # <a name="inkpicturecursorbuttonup-event"></a>Событие InkPicture. Курсорбуттонуп
 
@@ -49,7 +49,7 @@ void CursorButtonUp(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Кнопка в подсказке пера работает, когда пользователь завершает штрих и отрывает перо от дигитайзера. Кнопка на элементе с назначением находится вверх, когда кнопка не нажата.
 
@@ -70,7 +70,7 @@ void CursorButtonUp(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

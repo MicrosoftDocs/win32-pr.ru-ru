@@ -1,15 +1,15 @@
 ---
-description: .
+description: Нотация объектов JavaScript (JSON)
 ms.assetid: 2F6FDE88-C852-46BC-B6B1-630C266AF0AA
 title: Нотация объектов JavaScript (JSON)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18b995edc8e83405791a1d96598b827fc77f0204
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b1b5f12a2c4e3a4cd0a66a8f917c3cdf41ed17d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265005"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088192"
 ---
 # <a name="javascript-object-notation-json"></a>Нотация объектов JavaScript (JSON)
 
@@ -43,7 +43,7 @@ Windows Internet Explorer содержит встроенную поддержк
 
 Дополнительные сведения см. в статьях [Документация по JSON](https://msdn.microsoft.com/library/cc836458(VS.85).aspx) , [Управление версиями и поддержка версий модуля JavaScript](https://www.microsoft.com/windows/internet-explorer/readiness/developers-new.aspx).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

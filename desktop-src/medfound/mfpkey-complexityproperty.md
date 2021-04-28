@@ -1,15 +1,15 @@
 ---
-description: Указывает сложность алгоритма кодировщика.
+description: MFPKEY_COMPLEXITY свойство — указывает сложность алгоритма кодировщика.
 ms.assetid: 1537e98b-d7ed-49e6-aa25-8f2f124c88eb
 title: Свойство MFPKEY_COMPLEXITY (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05325f3ab0cc1173924df9f6c551bf10fd0d5481
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 042e3158b43efb5a4a82542f000d137fa0c195e6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264006"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092942"
 ---
 # <a name="mfpkey_complexity-property"></a>МФПКЭЙ, \_ свойство сложности
 
@@ -40,7 +40,7 @@ VT \_ I4
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это целое число в диапазоне от 0 до 3. Более низкие значения приводят к тому, что кодек использует менее сложные алгоритмы кодирования. Хотя более простые алгоритмы обеспечивают более низкое качество вывода, процесс кодирования выполняется быстрее и требует меньше вычислительной мощности.
 
@@ -56,7 +56,7 @@ VT \_ I4
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

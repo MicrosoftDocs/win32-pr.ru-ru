@@ -1,5 +1,5 @@
 ---
-description: Возвращает объект Фолдеритемс, представляющий все выбранные элементы в представлении.
+description: Шеллфолдервиев. SelectedItems, метод возвращает объект Фолдеритемс, представляющий все выбранные элементы в представлении.
 title: Шеллфолдервиев. SelectedItems, метод (Шлдисп. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 1ee3bf2e-f9c9-47d9-a0f2-efedd69770c5
-ms.openlocfilehash: c6ade3a6e25d5de6bfa1661207473dac72ace2bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54cf67f1b75ae9d6423b02d0cacdde032ad2e018
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997867"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083382"
 ---
 # <a name="shellfolderviewselecteditems-method"></a>Шеллфолдервиев. SelectedItems, метод
 
@@ -43,7 +43,7 @@ retVal = ShellFolderView.SelectedItems()
 
 Ссылка на объект [**фолдеритемс**](folderitems.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 **SelectedItems** может быть вызван только в локальной системе. Он не будет работать при запуске на веб-странице по протоколу HTTP или UNC.
 

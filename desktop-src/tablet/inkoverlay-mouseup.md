@@ -1,15 +1,15 @@
 ---
-description: Происходит при отпускании кнопки мыши, когда указатель мыши находится над объектом InkCollector или InkOverlay.
+description: Событие InkOverlay. MouseUp — происходит, когда указатель мыши находится над объектом InkCollector или InkOverlay и отпущена кнопка мыши.
 ms.assetid: 049e1560-d4b2-4d34-9d54-2b45217001b2
 title: Событие InkOverlay. MouseUp (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f16fd3dc5006f43e09e093cb2c474a8578f56c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 402083aa677b134ea469980227a482ac5546da2b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266158"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086812"
 ---
 # <a name="inkoverlaymouseup-event"></a>Событие InkOverlay. MouseUp
 
@@ -73,7 +73,7 @@ void MouseUp(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы улучшить производительность рукописного ввода в режиме реального времени, скройте или покажите курсор мыши в обработчиках событий [**MouseDown**](inkcollector-mousedown.md) и [**MouseUp**](inkcollector-mouseup.md) .
 
@@ -102,7 +102,7 @@ void MouseUp(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

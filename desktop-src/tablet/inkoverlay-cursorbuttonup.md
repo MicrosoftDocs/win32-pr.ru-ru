@@ -1,15 +1,15 @@
 ---
-description: Происходит, когда InkCollector обнаруживает кнопку курсора, которая находится в up.
+description: Событие InkOverlay. Курсорбуттонуп — происходит, когда InkCollector обнаруживает, что кнопка курсора находится в установленном положении.
 ms.assetid: ce7205f7-727c-4acf-a727-4dbb3cc42441
 title: Событие InkOverlay. Курсорбуттонуп (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8315f2cf87589bb24e5fb3c6ac6fd7128df426e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f22590362c6eb9a987da94bf3adb4e99943c12cd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348675"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086852"
 ---
 # <a name="inkoverlaycursorbuttonup-event"></a>Событие InkOverlay. Курсорбуттонуп
 
@@ -49,7 +49,7 @@ void CursorButtonUp(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Кнопка в подсказке пера работает, когда пользователь завершает штрих и отрывает перо от дигитайзера. Кнопка на элементе с назначением находится вверх, когда кнопка не нажата.
 
@@ -70,7 +70,7 @@ void CursorButtonUp(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

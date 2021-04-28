@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Аппликатиондефинедпропертиес
 ms.assetid: 0da23c09-1d6c-4d5e-8ceb-058bc0f89577
 title: System. Аппликатиондефинедпропертиес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fef8be6d70409612ef8c72baa842c82c2a4e8612
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86852d674e8e5fc721b0240d1ff06910247c4442
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081104"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087372"
 ---
 # <a name="systemapplicationdefinedproperties"></a>System. Аппликатиондефинедпропертиес
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

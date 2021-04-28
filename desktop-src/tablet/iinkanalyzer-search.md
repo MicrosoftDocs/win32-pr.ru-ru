@@ -1,5 +1,5 @@
 ---
-description: Предоставляет поиск с учетом регистра нечетких символов, не учитывающих регистр, для проанализированных рукописных штрихов и проанализированных графических штрихов, имеющих распознаваемые типы.
+description: 'Метод Иинканализер:: Search — обеспечивает поиск с учетом регистра нечетких символов, не учитывающих регистр, и проанализировали графические штрихи с распознанными типами.'
 ms.assetid: 5b5ce4b5-45ef-42ef-866b-2f38c32d8c86
 title: 'Метод Иинканализер:: Search (Иаком. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: ea9755c0f2836b363b967a3d6bfdc5d64a1305b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94ccdebf8c8a134a845ff3df3017d710d1da93f1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145439"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113732"
 ---
 # <a name="iinkanalyzersearch-method"></a>Метод Иинканализер:: Search
 
@@ -82,7 +82,7 @@ HRESULT Search(
 
 Описание возвращаемых значений см. в разделе [классы и интерфейсы — анализ рукописного ввода](classes-and-interfaces---ink-analysis.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В результате поиска будут найдены подстроки из нескольких слов и отдельных слов. Поиск выполняется в альтернативных результатах распознавания и в альтернативных сегментах.
 
@@ -109,7 +109,7 @@ HRESULT Search(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

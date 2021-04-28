@@ -1,15 +1,15 @@
 ---
-description: Применяется к Windows Vista и более поздним версиям.
+description: AM_RATE_ReverseMaxFullDataRate свойство — применяется к Windows Vista и более поздним версиям.
 ms.assetid: 4f170736-516d-4420-a215-e0e414f036cd
 title: Свойство AM_RATE_ReverseMaxFullDataRate (Двдмедиа. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31e376c6e95160c6a6c3c6637a765d868e282d33
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a6e70a330433c8ea6e8116db944d8fb3d2ffff4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910242"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099972"
 ---
 # <a name="am_rate_reversemaxfulldatarate-property"></a>\_ \_ Свойство реверсемаксфуллдатарате Rate
 
@@ -33,17 +33,17 @@ ms.locfileid: "107910242"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство должно предоставлять декодеры, поддерживающие плавный обратный воспроизведение. Дополнительные сведения см. [в статье улучшения воспроизведения DVD в Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Заголовок<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
+| Header<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
 
 
 

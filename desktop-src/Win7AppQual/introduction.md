@@ -1,15 +1,15 @@
 ---
-description: .
+description: Введение (Windows 7 и Windows Server 2008 R2 Quality Cookbook)
 ms.assetid: 6BB5AABC-6281-4575-8189-477C57DF4F4F
 title: Введение (Windows 7 и Windows Server 2008 R2 Quality Cookbook)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d491802735ddf1ef75a7a183cd49afea2cc657b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4125c2bd122d239c155f089f06bef2f455ee121b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647431"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088202"
 ---
 # <a name="introduction-windows-7-and-windows-server-2008-r2-application-quality-cookbook"></a>Введение (Windows 7 и Windows Server 2008 R2 Quality Cookbook)
 
@@ -36,7 +36,7 @@ ms.locfileid: "105647431"
 -   Средства для разработчиков. Средства для разработчиков в Internet Explorer (который можно использовать нажатием клавиши F12) позволяет быстро отлаживать код HTML, CSS и JavaScript в визуальной среде. Эти средства включены непосредственно в Internet Explorer 8 с расширенными функциональными возможностями, включая Анна, чтобы выбрать приложение, которое будет использоваться при просмотре источника веб-страницы. Вы можете быстро выявить и устранить проблемы из-за глубокого анализа, предоставляемого средством в модель DOM.
 -   Дополнительные сведения о новых и улучшенных возможностях Internet Explorer 8 см. в разделе [новые возможности Internet Explorer 8](https://msdn.microsoft.com/library/Gg598940(v=VS.85).aspx) в библиотеке MSDN.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

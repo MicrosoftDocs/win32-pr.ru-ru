@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа события для событий сбоя страницы. Следующий синтаксис упрощен из MOF-кода.
+description: PageFault_TransitionFault класс — этот класс является классом типа события для событий сбоя страницы. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: cc2b7a93-6974-4872-98f3-d6cb81861ae5
 title: Класс PageFault_TransitionFault
 ms.topic: reference
@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4721e2d342750b12baa58bb69f72606511c14143
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c8ee12cf201b9ee83d231bf1f5e499550aa3cd6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911043"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106462"
 ---
 # <a name="pagefault_transitionfault-class"></a>\_Класс PageFault транситионфаулт
 
@@ -38,13 +38,13 @@ class PageFault_TransitionFault : PageFault_V2
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **PageFault \_ транситионфаулт** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **PageFault \_ транситионфаулт** имеет следующие свойства.
 
@@ -93,7 +93,7 @@ class PageFault_TransitionFault : PageFault_V2
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

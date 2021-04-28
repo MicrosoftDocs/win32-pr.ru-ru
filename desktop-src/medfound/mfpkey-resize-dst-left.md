@@ -1,15 +1,15 @@
 ---
-description: Задает левый конец прямоугольника назначения в пикселях.
+description: MFPKEY_RESIZE_DST_LEFT свойство — задает левый конец прямоугольника назначения в пикселях.
 ms.assetid: faefe634-c517-43a0-9741-cb79824f840d
 title: Свойство MFPKEY_RESIZE_DST_LEFT (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd8bb50fa53fbc175336ce7c6145d38f3f3a93a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1271abefa9e63a783db43584890a736eb272ed02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692842"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092912"
 ---
 # <a name="mfpkey_resize_dst_left-property"></a>МФПКЭЙ \_ изменение размера \_ левого периода летнего времени \_
 
@@ -39,7 +39,7 @@ VT \_ I4
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

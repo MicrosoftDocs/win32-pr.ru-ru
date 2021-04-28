@@ -1,15 +1,15 @@
 ---
-description: .
+description: Сеанс PMP мультимедиа
 ms.assetid: CF3A427D-31D2-45FF-BE87-F192B758204E
 title: Сеанс PMP мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f0e14d9e403620d273bb4aeb3347cba523f304b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: abf2cb1ff173d6fd085f6e98dd4608c84ff40200
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104351175"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092722"
 ---
 # <a name="pmp-media-session"></a>Сеанс PMP мультимедиа
 
@@ -46,7 +46,7 @@ ms.locfileid: "104351175"
 
 ![Иллюстрация источника мультимедиа в процессе PMP.](images/pmp03.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

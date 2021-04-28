@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Качедфилеупдатерконтентидфорконфликтресолутион
 ms.assetid: ced9a614-7f00-47bc-a6e1-d0f8e4a60863
 title: System. Качедфилеупдатерконтентидфорконфликтресолутион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27ddcb36877ee023a63f2dd3219455ee0cdea3d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f5e1cfa176ad1b6af9fa3b9bb36150f589ec752
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692741"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087362"
 ---
 # <a name="systemcachedfileupdatercontentidforconflictresolution"></a>System. Качедфилеупдатерконтентидфорконфликтресолутион
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

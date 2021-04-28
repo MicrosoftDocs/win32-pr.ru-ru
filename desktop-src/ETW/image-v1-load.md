@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий загрузки изображения. Следующий синтаксис упрощен из MOF-кода.
+description: Image_V1_Load класс. Этот класс является классом типа события для событий загрузки изображения. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 43bf0b2b-3ab4-4561-b48c-65fbace38a79
 title: Класс Image_V1_Load
 ms.topic: reference
@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: bd0a2a61b263ce78c2cf28cdf1cd5df4b702140d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e8a8c31cee7e45311887c16a1d10545e6a38e41
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984220"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106502"
 ---
 # <a name="image_v1_load-class"></a>Image \_ v1, \_ класс загрузки
 
@@ -42,13 +42,13 @@ class Image_V1_Load : Image_V1
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ \_ загрузки Image v1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ загрузки Image v1** имеет эти свойства.
 
@@ -131,7 +131,7 @@ ProcessId
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

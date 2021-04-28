@@ -1,15 +1,15 @@
 ---
 title: Общие сведения о слое отладки Direct2D
-description: .
+description: Общие сведения о слое отладки Direct2D
 ms.assetid: 7c28e00b-ebb9-4b79-939c-64eade1351ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df560595ea0ae6c7a56c3fa568f2f94ae56652ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 833174e0d18b11e2384d838930d5508601cfceaf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654211"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099992"
 ---
 # <a name="direct2d-debug-layer-overview"></a>Общие сведения о слое отладки Direct2D
 
@@ -21,7 +21,7 @@ ms.locfileid: "105654211"
 -   [Установка слоя отладки Direct2D](#installing-the-direct2d-debug-layer)
 -   [Включение слоя отладки](#enabling-the-debug-layer)
 -   [Уровни отладки](#debug-levels)
--   [См. также](#related-topics)
+-   [Связанные разделы](#related-topics)
 
 ## <a name="what-is-the-direct2d-debug-layer"></a>Что такое уровень отладки Direct2D
 
@@ -38,7 +38,7 @@ ms.locfileid: "105654211"
 > [!Note]  
 > Если включен слой отладки Direct2D, то \_ при задании контекста цвета может возникнуть нарушение прав доступа для управления цветом Direct2D (CLSID D2D1ColorManagement). Обходной путь заключается в отключении отладочного слоя при использовании эффекта управления цветом.
 
- 
+ 
 
 Включение слоя отладки для фабрики также включает отладочную информацию для любого объекта, созданного этой фабрикой.
 
@@ -70,7 +70,7 @@ ms.locfileid: "105654211"
 > [!Note]  
 > Если параметры фабрики не заданы или указан уровень отладки "нет", отладочный слой не вызывается. Отладочный слой никогда не должен быть активным в окончательной версии приложения.
 
- 
+ 
 
 В следующем разделе описаны различные уровни отладки, определяемые перечислением [**\_ \_ уровня отладки D2D1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_debug_level) .
 
@@ -86,16 +86,16 @@ ms.locfileid: "105654211"
 
 Значение D2D1 \_ уровень отладки \_ \_ None (нет) указывает, что Direct2D не предоставляет никаких выходных данных отладки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
 [Сообщения отладки](direct2ddebuglayer-debugmessages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

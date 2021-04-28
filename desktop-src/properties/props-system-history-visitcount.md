@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. History. Виситкаунт
 ms.assetid: 71043fd9-d128-4d2e-82b0-5d76107c2592
 title: System. History. Виситкаунт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1feb225b2de2c51cb667952b2d78fd0f1882401
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a8a07cf300c6187b48b046d5897c73837cbfcd3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711883"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087162"
 ---
 # <a name="systemhistoryvisitcount"></a>System. History. Виситкаунт
 
@@ -28,11 +28,11 @@ propertyDescription
       type = Int32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
