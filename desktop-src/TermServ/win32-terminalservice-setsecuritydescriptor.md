@@ -1,6 +1,6 @@
 ---
 title: Метод Сетсекуритидескриптор класса Win32_Service (службы удаленных рабочих столов)
-description: Записывает обновленную версию дескриптора безопасности, которая управляет доступом к службе.
+description: Метод Сетсекуритидескриптор класса Win32_Service (службы удаленных рабочих столов) — записывает обновленную версию дескриптора безопасности, которая управляет доступом к службе.
 ms.assetid: 4F03B798-0912-4A0D-B31E-419662D5849B
 ms.tgt_platform: multiple
 keywords:
@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19a21f9730b4c1c0ab7b3ccf662ddb2d95da2ee2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eb2dd7e43041c05b1c294181f8bd01548ed76d87
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803766"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114500"
 ---
 # <a name="setsecuritydescriptor-method-of-the-win32_service-class-remote-desktop-services"></a>Метод Сетсекуритидескриптор класса Win32_Service (службы удаленных рабочих столов)
 
@@ -233,7 +233,7 @@ uint32 SetSecurityDescriptor(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Экземпляр [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) представляет тип данных [**\_ \_ элемента управления дескриптора безопасности**](/windows/desktop/SecAuthZ/security-descriptor-control) и содержит [*список управления доступом на уровне пользователей*](/windows/desktop/SecGloss/d-gly) (DACL) и [*системный список управления доступом*](/windows/desktop/SecGloss/s-gly) (SACL). Дополнительные сведения см. в разделе [списки управления доступом](/windows/desktop/SecAuthZ/access-control-lists).
 
@@ -269,7 +269,7 @@ uint32 SetSecurityDescriptor(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

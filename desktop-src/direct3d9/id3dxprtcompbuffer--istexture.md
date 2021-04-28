@@ -1,5 +1,5 @@
 ---
-description: Указывает, содержит ли буфер текстуру.
+description: 'Метод ID3DXPRTCompBuffer:: — указывает, содержит ли буфер текстуру.'
 ms.assetid: d86425ff-febe-4966-95aa-df4ce95397c0
 title: 'Метод ID3DXPRTCompBuffer:: D3DX9Mesh (. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8a4e58b2b41aa154da7c1b02bf99cfcca25e00cd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e58512ee538c2dc74251d9db6c0b86e6f185ed31
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720979"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107222"
 ---
 # <a name="id3dxprtcompbufferistexture-method"></a>Метод ID3DXPRTCompBuffer:: «текстурирование»
 
@@ -55,7 +55,7 @@ BOOL IsTexture();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

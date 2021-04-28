@@ -1,5 +1,5 @@
 ---
-description: Разделяет общую матрицу трехмерного преобразования на скалярные, ротации и преобразованные компоненты.
+description: Функция D3DXMatrixDecompose (D3DX10Math. h) — разделяет общую матрицу трехмерного преобразования на скалярные, ротации и преобразованные компоненты.
 ms.assetid: 3694769f-56e7-4983-924e-021c129462a2
 title: Функция D3DXMatrixDecompose (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 507c8f177db0f71b3d333a8343e4166e649f424a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cc87de99d72283c20f25b15ea8d0e5864e2550d9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273929"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113212"
 ---
 # <a name="d3dxmatrixdecompose-function-d3dx10mathh"></a>Функция D3DXMatrixDecompose (D3DX10Math. h)
 
@@ -96,7 +96,7 @@ HRESULT D3DXMatrixDecompose(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

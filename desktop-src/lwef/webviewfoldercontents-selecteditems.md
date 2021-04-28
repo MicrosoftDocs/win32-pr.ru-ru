@@ -1,6 +1,6 @@
 ---
 title: Метод WebViewFolderContents.SelectedItems (Shldisp.h)
-description: Возвращает объект Фолдеритемс, представляющий все выбранные элементы в представлении.
+description: Вебвиевфолдерконтентс. SelectedItems, метод возвращает объект Фолдеритемс, представляющий все выбранные элементы в представлении.
 ms.assetid: 683acac4-f157-4a75-a3f8-c693887c1ea5
 keywords:
 - Устаревшие функции среды Windows в методе SelectedItems
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cee4b7f34cdcabec637671af79775fc1fa546790
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 25a242991f6f9472610dffa20593f9cab5d8c310
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071933"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102652"
 ---
 # <a name="webviewfoldercontentsselecteditems-method"></a>Вебвиевфолдерконтентс. SelectedItems, метод
 

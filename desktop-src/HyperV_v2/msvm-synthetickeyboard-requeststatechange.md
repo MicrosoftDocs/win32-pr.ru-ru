@@ -1,5 +1,5 @@
 ---
-description: Запрашивает изменение состояния.
+description: Метод RequestStateChange класса Msvm_SyntheticKeyboard — запрашивает изменение состояния.
 ms.assetid: 984e8a68-bc95-4a8b-99d6-ac248e96c45e
 title: Метод RequestStateChange класса Msvm_SyntheticKeyboard
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9d3527f380bec783bd6305f2ec4fa57c15684dc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb8714dfc652cd1ba1a581b99cf5a4066159fb1e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650491"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109551"
 ---
 # <a name="requeststatechange-method-of-the-msvm_synthetickeyboard-class"></a>Метод RequestStateChange \_ класса мсвм синсетиккэйбоард
 
@@ -167,7 +167,7 @@ uint32 RequestStateChange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

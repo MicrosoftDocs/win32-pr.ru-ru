@@ -1,5 +1,5 @@
 ---
-description: Метод Комплетеконнект завершает подключение к другому ПИН-коду.
+description: Кбасепин. Комплетеконнект, метод Комплетеконнект завершает подключение к другому ПИН-коду.
 ms.assetid: 10cbf29c-2e1a-419c-b0c0-c99f9a285810
 title: Кбасепин. Комплетеконнект, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9068bf63d3168a8c6d9e1bca2ef709f63e80a3c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fee207d7a17f12cc81036fbd4f82ec49a99f4a31
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669284"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096042"
 ---
 # <a name="cbasepincompleteconnect-method"></a>Кбасепин. Комплетеконнект, метод
 
@@ -53,7 +53,7 @@ virtual HRESULT CompleteConnect(
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывается на обоих ПИН-кодах в конце процесса подключения. Соединительный ПИН-код вызывает его в методе [**кбасепин:: Connect**](cbasepin-connect.md) , а принимающий ПИН-код вызывает его из метода [**Кбасепин:: рецеивеконнектион**](cbasepin-receiveconnection.md) .
 
@@ -72,7 +72,7 @@ virtual HRESULT CompleteConnect(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

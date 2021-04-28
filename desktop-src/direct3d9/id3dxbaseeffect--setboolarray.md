@@ -1,5 +1,5 @@
 ---
-description: Задает массив логических значений.
+description: 'Метод ID3DXBaseEffect:: Сетбуларрай — задает массив логических значений.'
 ms.assetid: 920b3482-cc30-4ab2-bfce-59f03afe11da
 title: 'Метод ID3DXBaseEffect:: Сетбуларрай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 813259fc9fcca954c4d7a992c7542387be33bb6f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cad6846914d348dd49d6362d70271c5af078e35d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647806"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093832"
 ---
 # <a name="id3dxbaseeffectsetboolarray-method"></a>Метод ID3DXBaseEffect:: Сетбуларрай
 
@@ -86,7 +86,7 @@ HRESULT SetBoolArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Происходит, когда класс InkCollector обнаруживает недоступную кнопку курсора.
+description: Событие InkOverlay. Курсорбуттондовн — возникает, когда класс InkCollector обнаруживает недоступную кнопку курсора.
 ms.assetid: 993b84a3-a5ac-4b00-bfb4-26ca1c9727c6
 title: Событие InkOverlay. Курсорбуттондовн (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 393949be4d7b0f172805aa0b81ce86eac3cf3b3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcae13afb67be0312959939e0793d89d99c841ba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647667"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117082"
 ---
 # <a name="inkoverlaycursorbuttondown-event"></a>Событие InkOverlay. Курсорбуттондовн
 
@@ -49,7 +49,7 @@ void CursorButtonDown(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Кнопка в подсказке пера не работает, когда пользователь перемещает перо на дигитайзер и начинает трассировку штриха. Кнопка на элементе с назначением не работает при нажатии кнопки.
 
@@ -70,7 +70,7 @@ void CursorButtonDown(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

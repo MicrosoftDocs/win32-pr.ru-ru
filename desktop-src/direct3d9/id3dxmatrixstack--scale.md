@@ -1,5 +1,5 @@
 ---
-description: Масштабировать текущую матрицу относительно источника координат мира.
+description: 'Метод ID3DXMATRIXStack:: Scale (D3dx9math. h). масштабирование текущей матрицы относительно источника координат мира.'
 ms.assetid: 6c4ef625-736e-41a0-8a79-4d71e8685754
 title: 'Метод ID3DXMATRIXStack:: Scale (D3dx9math. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5ed926a55c0dba6f74e819cd89a7fa75f6d087c4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6d877fccf5bfebfdc1f9cf3943c4334e5b8c7fff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104157143"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093372"
 ---
 # <a name="id3dxmatrixstackscale-method-d3dx9mathh"></a>Метод ID3DXMATRIXStack:: Scale (D3dx9math. h)
 
@@ -75,7 +75,7 @@ HRESULT Scale(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод дает право на Умножение текущей матрицы на вычисленную матрицу масштабирования. Преобразование относится к текущему источнику мира.
 
@@ -99,7 +99,7 @@ m_stack[m_currentPos] = m_stack[m_currentPos] * tmp;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

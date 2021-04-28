@@ -1,5 +1,5 @@
 ---
-description: Этот метод используется для повторного получения ресурсов и сохранения начального состояния.
+description: 'Метод ID3DXFont:: Онресетдевице. Используйте этот метод для повторного получения ресурсов и сохранения начального состояния.'
 ms.assetid: a63efb49-7864-4675-b367-4ae53995caea
 title: 'Метод ID3DXFont:: Онресетдевице (D3dx9core. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d6e65001f484ed7d7a984ed1f9463b996056e8da
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5d976c29d370887362e46899c7fb2a654d6e2cc7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424441"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093742"
 ---
 # <a name="id3dxfontonresetdevice-method"></a>Метод ID3DXFont:: Онресетдевице
 
@@ -44,7 +44,7 @@ HRESULT OnResetDevice();
 
 Если метод выполнен успешно, возвращается значение S \_ . В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Онресетдевице** должен вызываться каждый раз при сбросе устройства (с помощью функции [**Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)) перед вызовом других методов. Это удобное место для повторного получения ресурсов видеопамяти и блоков состояния захвата.
 
@@ -59,7 +59,7 @@ HRESULT OnResetDevice();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

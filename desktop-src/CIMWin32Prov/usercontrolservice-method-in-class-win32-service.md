@@ -1,5 +1,5 @@
 ---
-description: Пытается отправить определяемый пользователем код элемента управления в указанную службу.
+description: Метод Усерконтролсервице класса Win32_Service (поставщики WMI CIMWin32) — пытается отправить определяемый пользователем код элемента управления в указанную службу.
 ms.assetid: a7132c9b-6faf-4182-a5b8-3f2334c1a74b
 ms.tgt_platform: multiple
 title: Метод Усерконтролсервице класса Win32_Service (поставщики WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8c523617826bd5d608b8c6b1ee242863f7591a61
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 455128b35c2645c6aa6ea10f64d12dff392fecca
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990737"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100007"
 ---
 # <a name="usercontrolservice-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Метод Усерконтролсервице класса Win32_Service (поставщики WMI CIMWin32)
 
@@ -244,7 +244,7 @@ uint32 UserControlService(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. FileCount
 ms.assetid: 81c89caf-843e-4a87-ac41-099de9174ea6
 title: System. FileCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 570537ca406465e6437d9ff21c00cb5acbf3f9df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a29c7760b0e3db61516da49ea95010fda8b4a4d0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423889"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100922"
 ---
 # <a name="systemfilecount"></a>System. FileCount
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

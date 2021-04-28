@@ -1,5 +1,5 @@
 ---
-description: Указатель на фильтр, создавший этот ПИН-код.
+description: 'Ктрансинплацеаутпутпин:: m_pTIPFilter член-указатель на фильтр, создавший этот ПИН-код.'
 ms.assetid: e7939bce-d832-45e6-94fd-2f5e07792eef
 title: 'Элемент Ктрансинплацеаутпутпин:: m_pTIPFilter (Трансип. h)'
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 67a6c953ab42546be442ded5b06e7b87c87c22ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e07ecb43ce879634f7c149adebeb4b01416e65e3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675149"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094692"
 ---
 # <a name="ctransinplaceoutputpinm_ptipfilter-member"></a>Элемент Ктрансинплацеаутпутпин:: m \_ птипфилтер
 
@@ -47,7 +47,7 @@ CTransInPlaceFilter * const m_pTIPFilter;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

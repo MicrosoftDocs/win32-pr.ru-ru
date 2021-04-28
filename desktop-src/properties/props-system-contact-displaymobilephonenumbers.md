@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Contact. Дисплаймобилефоненумберс
 ms.assetid: 6158551c-d073-416b-adc3-adc6e335f2d5
 title: System. Contact. Дисплаймобилефоненумберс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e13b29a1b7946a93cbae92ca0ce2cdcd804e0c3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 141d692439e565e19bd74e80936671eea2e4a78c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683870"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102382"
 ---
 # <a name="systemcontactdisplaymobilephonenumbers"></a>System. Contact. Дисплаймобилефоненумберс
 
@@ -28,11 +28,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

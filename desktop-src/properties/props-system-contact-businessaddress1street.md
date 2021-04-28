@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Contact. BusinessAddress1Street
 ms.assetid: 2f40e9b0-5f56-4bf7-8328-f529a07fbe46
 title: System. Contact. BusinessAddress1Street
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b42057630b05e911961c483589b6a8af09db6c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bf507bfd16ba0e573f0462f7fa6282713bab484
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264576"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104852"
 ---
 # <a name="systemcontactbusinessaddress1street"></a>System. Contact. BusinessAddress1Street
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

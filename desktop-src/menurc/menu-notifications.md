@@ -1,15 +1,15 @@
 ---
 title: Уведомления меню
-description: .
+description: Уведомления меню
 ms.assetid: 8ff5671e-a666-483c-9ac1-f8be6eb58ffa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d61f5303253fd3201fd9a4510ecf90fa76c10524
-ms.sourcegitcommit: e98f40bef170ae9ce30d91ba96b90600b0446a24
+ms.openlocfilehash: f593e3007dff82241dc9e917a6cfa140cc443679
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "104336729"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112532"
 ---
 # <a name="menu-notifications"></a>Уведомления меню
 
@@ -60,7 +60,7 @@ BOOL AboutDlg (
 ```
 Пример, взятый из [классической выборки Windows](https://github.com/microsoft/Windows-classic-samples) на сайте GitHub.
 
- 
+ 
 
 
 

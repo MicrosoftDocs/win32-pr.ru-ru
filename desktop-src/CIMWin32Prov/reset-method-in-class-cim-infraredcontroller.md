@@ -1,5 +1,5 @@
 ---
-description: Метод Reset запрашивает сброс логического устройства. Этот метод наследуется от CIM-ого модели \_ .
+description: Метод Reset класса CIM_InfraredController. метод Reset запрашивает сброс логического устройства. Этот метод наследуется от CIM-ого модели \_ .
 ms.assetid: 16e77637-f063-4206-a9b3-2c7d08c652a6
 ms.tgt_platform: multiple
 title: Метод Reset класса CIM_InfraredController
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a8037088e68d91769cc34c4f2665902ad70019b3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ac4bca726ed988d2a0da75cf391907c65bd51253
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990709"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096942"
 ---
 # <a name="reset-method-of-the-cim_infraredcontroller-class"></a>Метод Reset \_ класса CIM инфраредконтроллер
 
@@ -47,7 +47,7 @@ uint32 Reset();
 
 Возвращает 0 (ноль), если запрос был успешно выполнен, 1 (один), если запрос не поддерживается, и другое значение, если произошла ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -67,7 +67,7 @@ uint32 Reset();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

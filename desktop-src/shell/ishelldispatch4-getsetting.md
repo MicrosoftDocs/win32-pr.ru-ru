@@ -1,5 +1,5 @@
 ---
-description: Извлекает параметр глобальной оболочки.
+description: IShellDispatch4. метод задания — получает параметр глобальной оболочки.
 ms.assetid: b9b1542c-8e25-4966-b3df-13bfbd9b28aa
 title: Метод IShellDispatch4.-Setting (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 755ee1d2bbd5026b1cc3ca165649e0fcb4ab20ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a4345812925849831a6f0064c608f0c4be052c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984653"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116842"
 ---
 # <a name="ishelldispatch4getsetting-method"></a>IShellDispatch4. метод задания
 
@@ -348,15 +348,15 @@ IShellDispatch4.GetSetting( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \_ bool \** _
+Тип: **Variant \_ bool \***
 
-Задайте значение _ *true**, если параметр существует; в противном случае — **значение false**.
+Задайте значение **true** , если параметр существует. в противном случае — **значение false**.
 
 ### <a name="vb"></a>VB
 
-Тип: **Variant \_ bool \** _
+Тип: **Variant \_ bool \***
 
-Задайте значение _ *true**, если параметр существует; в противном случае — **значение false**.
+Задайте значение **true** , если параметр существует. в противном случае — **значение false**.
 
 ## <a name="examples"></a>Примеры
 

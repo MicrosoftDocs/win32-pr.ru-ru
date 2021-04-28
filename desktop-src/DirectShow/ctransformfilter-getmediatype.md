@@ -1,5 +1,5 @@
 ---
-description: Метод Жетмедиатипе извлекает предпочтительный тип мультимедиа для выходного ПИН-кода.
+description: Ктрансформфилтер. Жетмедиатипе, метод Жетмедиатипе извлекает предпочтительный тип мультимедиа для выходного ПИН-кода.
 ms.assetid: 9a1b123b-aa8a-4bf0-a926-466ded24e506
 title: Ктрансформфилтер. Жетмедиатипе, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ba751e291a1ffa8e030be7e77cfd456956718baa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6415b8e3d8ae4e292b7e2592b123120927081ea8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657773"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095122"
 ---
 # <a name="ctransformfiltergetmediatype-method"></a>Ктрансформфилтер. Жетмедиатипе, метод
 
@@ -73,7 +73,7 @@ virtual HRESULT GetMediaType(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**ктрансформаутпутпин:: жетмедиатипе**](ctransformoutputpin-getmediatype.md) выходного контакта вызывает этот метод. Производный класс должен реализовывать этот метод. Дополнительные сведения см. в разделе [**кбасепин:: жетмедиатипе**](cbasepin-getmediatype.md).
 
@@ -88,7 +88,7 @@ virtual HRESULT GetMediaType(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

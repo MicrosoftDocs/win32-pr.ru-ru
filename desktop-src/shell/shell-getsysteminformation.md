@@ -1,5 +1,5 @@
 ---
-description: Возвращает сведения о системе.
+description: Метод Shell. Жетсистеминформатион — получает сведения о системе.
 ms.assetid: 94C10DD6-FE49-4dd4-AEED-69B73A75EDEF
 title: Метод Shell. Жетсистеминформатион (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 2ad7a865ba6ac5b62bc8a9b5ac105c0ef166d574
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9e021e767309007cfee2cfc78268fb7d7cea042
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985973"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104282"
 ---
 # <a name="shellgetsysteminformation-method"></a>Shell. Жетсистеминформатион, метод
 
@@ -72,7 +72,7 @@ Shell.GetSystemInformation( _
 
 Возвращает значение запрошенной системной информации. Тип возвращаемого значения зависит от того, какие сведения о системе запрашиваются. Подробные сведения см. в разделе "Заметки".
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод можно использовать для запроса многих значений системных сведений. В следующей таблице приводится значение *sName* , которое используется для запроса сведений и связанного типа возвращаемого значения.
 

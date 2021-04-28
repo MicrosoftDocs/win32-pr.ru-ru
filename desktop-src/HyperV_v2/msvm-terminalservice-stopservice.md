@@ -1,5 +1,5 @@
 ---
-description: останавливает службу.
+description: Метод «начало» класса Msvm_TerminalService — останавливает службу.
 ms.assetid: c96ca784-c935-41a4-b1aa-8360cf270c9e
 title: Метод «начало» класса Msvm_TerminalService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f26efeefb7cd9ace2e17db565c4ff71190fa2814
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 720895f72a69504eb2efafe24fc5a3e18005356f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683023"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111172"
 ---
 # <a name="stopservice-method-of-the-msvm_terminalservice-class"></a>Метод «начало» \_ класса мсвм терминалсервице
 
@@ -55,7 +55,7 @@ uint32 StopService();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -63,7 +63,7 @@ uint32 StopService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Сообщение UDM_GETUNICODEFORMAT (Коммктрл. h)
-description: Возвращает флаг формата символов Юникода для элемента управления.
+description: UDM_GETUNICODEFORMAT сообщение — получает флаг формата символов Юникода для элемента управления.
 ms.assetid: 8c09d37b-95a2-49cd-b578-919f9c39fa8b
 keywords:
 - Элементы управления Windows для UDM_GETUNICODEFORMAT сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2f9eef604af6cf5dfcefbf1e3e03dec561ac21
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 273164df7f7021f39ec26a22eb637e8b9969fc24
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989399"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113593"
 ---
 # <a name="udm_getunicodeformat-message"></a>\_Сообщение ЖЕТУНИКОДЕФОРМАТ UDM
 
@@ -39,7 +39,7 @@ ms.locfileid: "103989399"
 
 Возвращает флаг формата Юникода для элемента управления. Если это значение не равно нулю, то элемент управления использует символы Юникода. Если это значение равно нулю, то элемент управления использует символы ANSI.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обсуждение этого сообщения см. в примечаниях по [**CCM \_ жетуникодеформат**](ccm-getunicodeformat.md) .
 
@@ -55,7 +55,7 @@ ms.locfileid: "103989399"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

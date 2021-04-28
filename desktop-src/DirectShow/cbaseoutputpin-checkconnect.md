@@ -1,5 +1,5 @@
 ---
-description: Метод Чеккконнект определяет, подходит ли подключение по ПИН-коду.
+description: Кбасеаутпутпин. Чеккконнект, метод Чеккконнект определяет, подходит ли подключение по ПИН-коду.
 ms.assetid: 50ab59ad-8ff7-4d7b-add3-b59203d93307
 title: Кбасеаутпутпин. Чеккконнект, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f3274e47e9a77d86f350c17aaca04ec0cdb95ef3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7ea5ad32de18046f3d23145d82e971391c3e304c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657520"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096192"
 ---
 # <a name="cbaseoutputpincheckconnect-method"></a>Кбасеаутпутпин. Чеккконнект, метод
 
@@ -65,7 +65,7 @@ HRESULT CheckConnect(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**кбасепин:: чеккконнект**](cbasepin-checkconnect.md) базового класса, а затем запрашивает входной ПИН-код для своего интерфейса [**имеминпутпин**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) .
 
@@ -80,7 +80,7 @@ HRESULT CheckConnect(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Метод Жеттипеинфокаунт извлекает количество интерфейсов сведений о типе, предоставляемых объектом.
+description: Кбаседиспатч. Жеттипеинфокаунт, метод Жеттипеинфокаунт извлекает количество интерфейсов сведений о типе, предоставляемых объектом.
 ms.assetid: e09e6f6c-6ac8-4ce1-8ce1-ee5374d54183
 title: Кбаседиспатч. Жеттипеинфокаунт, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 39c5b78181f5f26fb5f57831345bb6345a26da85
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 81e68c94420b3d7715845f8d6bd14e26b770b44f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657301"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099892"
 ---
 # <a name="cbasedispatchgettypeinfocount-method"></a>Кбаседиспатч. Жеттипеинфокаунт, метод
 
@@ -75,7 +75,7 @@ HRESULT GetTypeInfoCount(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

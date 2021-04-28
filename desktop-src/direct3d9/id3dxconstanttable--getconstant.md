@@ -1,5 +1,5 @@
 ---
-description: Возвращает константу путем поиска своего индекса.
+description: Метод ID3DXConstantTable::-Constant — возвращает константу путем поиска своего индекса.
 ms.assetid: 7db25171-9bda-4db8-b6a8-8a4d60a842f7
 title: Метод ID3DXConstantTable::-Constant (D3DX9Shader. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f4ab7318dc4a05f586db77817653e7df59ef6083
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 664a1b1a214b49eb731a3a0766a255e5f5acadd9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694191"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115272"
 ---
 # <a name="id3dxconstanttablegetconstant-method"></a>Метод ID3DXConstantTable:: with Constant
 
@@ -65,7 +65,7 @@ D3DXHANDLE GetConstant(
 
 Возвращает уникальный идентификатор для константы.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить константу из массива констант, используйте [**ID3DXConstantTable:: жетконстантелемент**](id3dxconstanttable--getconstantelement.md).
 
@@ -80,7 +80,7 @@ D3DXHANDLE GetConstant(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

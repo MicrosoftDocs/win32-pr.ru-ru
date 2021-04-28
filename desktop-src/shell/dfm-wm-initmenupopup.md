@@ -1,5 +1,5 @@
 ---
-description: Посылается, когда раскрывающееся меню или подменю станет активным. Это позволяет приложению изменять меню до его отображения, не изменяя весь меню.
+description: DFM_WM_INITMENUPOPUP сообщение — отправляется, когда раскрывающийся меню или подменю собирается стать активным. Это позволяет приложению изменять меню до его отображения, не изменяя весь меню.
 title: Сообщение DFM_WM_INITMENUPOPUP (Шлобж. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1c89731bdffc0e7d902e6c83b9a4f208134b7cfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9df2700403dcdc0ce00b6d90d9c3a87d373b0a34
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143954"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097002"
 ---
 # <a name="dfm_wm_initmenupopup-message"></a>\_Сообщение DFM WM \_ инитменупопуп
 

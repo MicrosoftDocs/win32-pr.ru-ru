@@ -1,5 +1,5 @@
 ---
-description: Запускает именованную службу.
+description: IShellDispatch2. Сервицестарт-метод — запускает именованную службу.
 ms.assetid: 3af57cdc-f449-433d-a9e1-119038045e4c
 title: IShellDispatch2. Сервицестарт, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 508b4f1c05625acdaed2b5a235ee697cceb544c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0f4fa218c4def993025ff18bffd0cc54def9818
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984673"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117052"
 ---
 # <a name="ishelldispatch2servicestart-method"></a>IShellDispatch2. Сервицестарт, метод
 
@@ -73,17 +73,17 @@ IShellDispatch2.ServiceStart( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true** при успешном выполнении; в противном случае — **значение false**.
+Возвращает **значение true** в случае успешного выполнения. в противном случае — **значение false**.
 
 ### <a name="vb"></a>VB
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true** при успешном выполнении; в противном случае — **значение false**.
+Возвращает **значение true** в случае успешного выполнения. в противном случае — **значение false**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. сервицестарт**](./shell-servicestart.md) .
 

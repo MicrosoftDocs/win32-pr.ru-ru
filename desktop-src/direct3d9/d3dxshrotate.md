@@ -1,5 +1,5 @@
 ---
-description: Поворачивает сферический гармониовый (SH) вектор на заданную матрицу.
+description: Функция D3DXSHRotate (D3dx9math. h) — поворачивает сферическую гармонию (SH) на заданную матрицу.
 ms.assetid: 9e319725-6cbb-441e-b996-ec2c6f66e5df
 title: Функция D3DXSHRotate (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 606ef1909237fd9c0277c5d7112284f6b7018e0e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8f888186fb6d7563a5904d4e6e3f1eabe626afd1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647843"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093872"
 ---
 # <a name="d3dxshrotate-function-d3dx9mathh"></a>Функция D3DXSHRotate (D3dx9math. h)
 
@@ -85,7 +85,7 @@ FLOAT* D3DXSHRotate(
 
 Указатель на коэффициенты вывода SH.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый коэффициент базисной функции илм хранится в памяти l ² + m + l, где:
 
@@ -103,7 +103,7 @@ FLOAT* D3DXSHRotate(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

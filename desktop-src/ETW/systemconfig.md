@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским классом для событий конфигурации оборудования. Следующий синтаксис упрощен из MOF-кода.
+description: Класс Системконфиг — этот класс является родительским классом для событий конфигурации оборудования. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 720c2366-bd68-4895-bfaf-74aa9b64ba4a
 title: Класс Системконфиг
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3332d396005deb2fb811d101a99827544ebc6df0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 232214aa2c33485d909525d54965f59fdc891a29
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913907"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105872"
 ---
 # <a name="systemconfig-class"></a>Класс Системконфиг
 
@@ -34,11 +34,11 @@ class SystemConfig : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **системконфиг** не определяет никаких членов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эти события обеспечивают конфигурацию оборудования компьютера. В отличие от других событий средства ведения журнала ядра NT, сеанс ядра автоматически создает события конфигурации оборудования. Эти события не будут включены при запуске сеанса ведения журнала ядра NT.
 
@@ -77,7 +77,7 @@ class SystemConfig : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

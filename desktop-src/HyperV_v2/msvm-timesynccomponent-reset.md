@@ -1,5 +1,5 @@
 ---
-description: Запрашивает сброс.
+description: Метод Reset класса Msvm_TimeSyncComponent — запрашивает сброс.
 ms.assetid: fb0ce09b-0d14-4de8-b2e5-4d86169b261b
 title: Метод Reset класса Msvm_TimeSyncComponent
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f412891def38da4e1d0063fe6ec56d62c2a30d77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d93f548030c2248b30eab7a3585a3c270311aa42
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650610"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111162"
 ---
 # <a name="reset-method-of-the-msvm_timesynccomponent-class"></a>Метод Reset \_ класса мсвм тимесинккомпонент
 
@@ -55,7 +55,7 @@ uint32 Reset();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -63,7 +63,7 @@ uint32 Reset();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

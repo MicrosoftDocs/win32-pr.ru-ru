@@ -1,5 +1,5 @@
 ---
-description: Создает пустой объект сетки обложки с помощью декларатора.
+description: Функция D3DXCreateSkinInfo — создает пустой объект сетки обложки с помощью декларатора.
 ms.assetid: c98da2e5-a9eb-4070-8846-b346b5c57fb3
 title: Функция D3DXCreateSkinInfo (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 83ee214eb997414e113256060dbe59d3cd47d1a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: da582d791b27d30c78583972e6f598af8af3eb9e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103914728"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102742"
 ---
 # <a name="d3dxcreateskininfo-function"></a>Функция D3DXCreateSkinInfo
 
@@ -85,7 +85,7 @@ HRESULT D3DXCreateSkinInfo(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте [**сетбонеинфлуенце**](id3dxskininfo--setboneinfluence.md) для заполнения пустого объекта сетки обложки, возвращаемого этим методом.
 
@@ -100,7 +100,7 @@ HRESULT D3DXCreateSkinInfo(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

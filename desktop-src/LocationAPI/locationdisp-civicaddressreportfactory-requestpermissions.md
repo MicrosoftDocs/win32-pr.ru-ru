@@ -1,5 +1,5 @@
 ---
-description: Открывает диалоговое окно системы, в котором запрашиваются разрешения пользователя для устройств с поддержкой расположения.
+description: Локатиондисп. Цивикаддрессрепортфактори. Рекуестпермиссионс. открывает диалоговое окно системы, в котором запрашиваются разрешения пользователя для устройств с поддержкой расположения.
 ms.assetid: b213591a-2830-4979-b532-e71cdef1b994
 title: Локатиондисп. Цивикаддрессрепортфактори. Рекуестпермиссионс, метод
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6d027687302c544974d13b1ba50194e8d6003a94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cab163585fa23839eb894f7ad83f29ed7975e589
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104349775"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110912"
 ---
 # <a name="locationdispcivicaddressreportfactoryrequestpermissions-method"></a>Локатиондисп. Цивикаддрессрепортфактори. Рекуестпермиссионс, метод
 
@@ -51,7 +51,7 @@ LocationDisp.CivicAddressReportFactory.RequestPermissions(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызов является синхронным, и вызывающий объект ожидает закрытия диалогового окна.
 

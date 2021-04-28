@@ -1,5 +1,5 @@
 ---
-description: Метод Delete удаляет логический файл (или каталог), указанный в пути объекта. Этот метод наследуется от CIM \_ LogicalFile.
+description: Метод Delete класса CIM_DeviceFile. метод Delete удаляет логический файл (или каталог), указанный в пути к объекту. Этот метод наследуется от CIM \_ LogicalFile.
 ms.assetid: 490d0578-a545-423b-9640-ec09f4ef8d96
 ms.tgt_platform: multiple
 title: Метод Delete класса CIM_DeviceFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 32e29808b60c9933bec927ed7e351fc8c5aa9250
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5e96ba9837252158510c306a622df86c09bbfd96
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072415"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089632"
 ---
 # <a name="delete-method-of-the-cim_devicefile-class"></a>Метод DELETE \_ класса ДЕВИЦЕФИЛЕ CIM
 
@@ -61,7 +61,7 @@ uint32 Delete();
 **2**
 </dt> <dd>
 
-Доступ запрещен.
+Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ uint32 Delete();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -162,7 +162,7 @@ uint32 Delete();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

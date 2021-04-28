@@ -1,5 +1,5 @@
 ---
-description: Создает объект сетки с помощью декларатора.
+description: Функция D3DX10CreateMesh — создает объект сетки с помощью декларатора.
 ms.assetid: 50e09378-2935-4b18-8fc9-5e58eaadae44
 title: Функция D3DX10CreateMesh (D3DX10Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 2b00addb152fe18db448364fcc784c2044b10d23
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cc744536336a4a102bafeaeae3ba87bbad58eb97
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105685009"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113362"
 ---
 # <a name="d3dx10createmesh-function"></a>Функция D3DX10CreateMesh
 
@@ -136,7 +136,7 @@ Type: **const [**D3D10 \_ входного \_ элемента \_ DESC**](/windo
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

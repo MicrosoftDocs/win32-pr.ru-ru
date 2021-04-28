@@ -1,15 +1,15 @@
 ---
-description: .
+description: AJAX
 ms.assetid: F9907D49-F9FE-406A-BF5F-17C61706ADC1
 title: AJAX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e140604846570b523910bb8ab815b185f26fa4dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 575ab08530936ab083baa4bb3fcfa2956ffe3b2d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999564"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088762"
 ---
 # <a name="ajax"></a>AJAX
 
@@ -35,7 +35,7 @@ event.mySource = myObject;// Read-only in IE8, use mySource instead
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

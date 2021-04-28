@@ -1,15 +1,15 @@
 ---
-description: Метод Get \_ \_ NewEnum Возвращает перечислитель для коллекции.
+description: 'Метод Иттимеколлектион:: get__NewEnum — метод Get \_ \_ NewEnum Возвращает перечислитель для коллекции.'
 ms.assetid: 0c2d739d-736d-4773-9747-1107546a973c
 title: 'Метод Иттимеколлектион:: get__NewEnum (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e3fbd171696b81bf5bd67c99b9a91294f4581d3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: acfc9d616efb58c6173f2c9c6e5913d27776958c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685353"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088892"
 ---
 # <a name="ittimecollectionget__newenum-method"></a>Метод Иттимеколлектион:: Get \_ \_ NewEnum
 
@@ -61,7 +61,7 @@ HRESULT get__NewEnum(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод является взаимозаменяемым с [**Get \_ енумератиониф**](ittimecollection-get-enumerationif.md) , за исключением того, что он возвращает **IUnknown** вместо [**иенумтиме**](ienumtime.md).
 
@@ -78,7 +78,7 @@ HRESULT get__NewEnum(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

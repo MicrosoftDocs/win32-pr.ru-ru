@@ -1,5 +1,5 @@
 ---
-description: Связывает виртуалсистемколлектион Мсвм \_ с содержащимися в \_ них объектами мсвм ComputerSystem.
+description: Msvm_CollectedVirtualSystems класс — связывает виртуалсистемколлектион Мсвм \_ с содержащимися в \_ них объектами мсвм ComputerSystem.
 ms.assetid: ad783188-b60a-4271-aa2d-8050c36e70eb
 title: Класс Msvm_CollectedVirtualSystems
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0803eda14ffbaf21ee2bf4491bd835123b7191e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6775f41a6e2ae7e45bac642fcd32b8deaec3fda
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684277"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119282"
 ---
 # <a name="msvm_collectedvirtualsystems-class"></a>\_Класс мсвм коллектедвиртуалсистемс
 
@@ -45,7 +45,7 @@ class Msvm_CollectedVirtualSystems : CIM_CollectedMSEs
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ коллектедвиртуалсистемс** имеет следующие свойства.
 
@@ -97,7 +97,7 @@ class Msvm_CollectedVirtualSystems : CIM_CollectedMSEs
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Происходит, когда пользователь рисует новый штрих на любом планшете.
+description: Событие InkPicture. Stroke — происходит, когда пользователь рисует новый штрих на любом планшете.
 ms.assetid: 2829b65a-6120-402e-91e3-5587d1f456f9
 title: Событие InkPicture. Stroke (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b85d2410141c2d6d5f7ae92408b7d6da49a447f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b181c8dc46348c76bd9c2d015d4a97c1f6911ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712818"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113702"
 ---
 # <a name="inkpicturestroke-event"></a>Событие InkPicture. Stroke
 
@@ -57,7 +57,7 @@ void Stroke(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в интерфейсах диспетчеризации (DISP) **\_ иинкколлекторевентс**, **\_ иинковерлайевентс** и **\_ иинкпиктуривентс** с идентификатором DISPID \_ ицестроке.
 
@@ -81,7 +81,7 @@ void Stroke(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

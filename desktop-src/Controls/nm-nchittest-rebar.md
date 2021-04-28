@@ -1,6 +1,6 @@
 ---
 title: Код уведомления NM_NCHITTEST (Главная панель) (Коммктрл. h)
-description: Посылается элементом управления "Главная панель", когда элемент управления получает \_ сообщение WM нчиттест. Этот код уведомления отправляется в виде \_ сообщения WM notify.
+description: Код уведомления NM_NCHITTEST (Главная панель) — отправляется элементом управления главной панели, когда элемент управления получает \_ сообщение WM нчиттест. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: b345d83e-682d-4067-a783-689d64f9b7bc
 keywords:
 - Элементы управления Windows для кода уведомления NM_NCHITTEST (Главная панель)
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fb4568cad87017d9fff94deb60583ac0b4c1d0e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7935f1b3e990db55518c9d22537e8fb6db97962
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136843"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112332"
 ---
 # <a name="nm_nchittest-rebar-notification-code"></a>\_Код уведомления "NM нчиттест" (Главная панель)
 

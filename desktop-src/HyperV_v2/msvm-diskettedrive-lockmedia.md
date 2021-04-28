@@ -1,5 +1,5 @@
 ---
-description: Блокирует или освобождает носитель.
+description: Метод Локкмедиа класса Msvm_DisketteDrive — блокирует или освобождает носитель.
 ms.assetid: 90f7e06c-92d0-4742-a74d-68ae6bfc00bf
 title: Метод Локкмедиа класса Msvm_DisketteDrive
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4f9bce4e9e46d76c3426271af16c28026c242fa9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5f5f87354aa7c39534e8b32c8985c5d18b55caa9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103914151"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111981"
 ---
 # <a name="lockmedia-method-of-the-msvm_diskettedrive-class"></a>Метод Локкмедиа \_ класса Дискеттедриве мсвм
 
@@ -64,7 +64,7 @@ uint32 LockMedia(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -72,7 +72,7 @@ uint32 LockMedia(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

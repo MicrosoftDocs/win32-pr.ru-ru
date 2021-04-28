@@ -1,5 +1,5 @@
 ---
-description: Извлекает из реестра параметр ограничений группы.
+description: IShellDispatch2. Unrestricted — извлекает из реестра параметр ограничения группы.
 ms.assetid: 04275c5f-c3ed-4962-882f-2cce0258a9f4
 title: Метод IShellDispatch2. Unrestricted (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f666a9ed3407d12eb9cf2c28ae062a9886d7a2cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4f482407fadd16d7ecfe9deeafd91b032a9a24f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984693"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117102"
 ---
 # <a name="ishelldispatch2isrestricted-method"></a>IShellDispatch2. Unrestricted, метод
 
@@ -73,19 +73,19 @@ IShellDispatch2.IsRestricted( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Integer \** _
+Тип: **Integer \***
 
 Значение ограничения. Если указанное ограничение не найдено, возвращается значение 0.
 
 ### <a name="vb"></a>VB
 
-Тип: _*Integer \**_
+Тип: **Integer \***
 
 Значение ограничения. Если указанное ограничение не найдено, возвращается значение 0.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Этот метод реализован и доступен через метод [_ *Shell. Unrestricted* *](./shell-isrestricted.md) .
+Этот метод реализован и доступен через метод [**Shell. Unrestricted**](./shell-isrestricted.md) .
 
 **Ограничение** сначала ищет имя подраздела, которое соответствует *сграуп* в следующем разделе.
 

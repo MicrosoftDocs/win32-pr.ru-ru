@@ -1,5 +1,5 @@
 ---
-description: Останавливает именованную службу.
+description: Shell. Сервицестоп метод — останавливает именованную службу.
 ms.assetid: AC22C91E-BBC6-4a2e-8D39-F9D7C0AC0947
 title: Метод Shell. Сервицестоп (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 31388078fe1c0e15c2e54efc86f0ff76bcfb7ed2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5307fabe79ab9e634ca1e2815c0b90d59b13b1f6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265079"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104162"
 ---
 # <a name="shellservicestop-method"></a>Shell. Сервицестоп, метод
 
@@ -73,17 +73,17 @@ Shell.ServiceStop( _
 
 ### <a name="jscript"></a>Язык JScript
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true** при успешном выполнении; в противном случае — **значение false**.
+Возвращает **значение true** в случае успешного выполнения. в противном случае — **значение false**.
 
 ### <a name="vb"></a>VB
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Возвращает *значение _ true** при успешном выполнении; в противном случае — **значение false**.
+Возвращает **значение true** в случае успешного выполнения. в противном случае — **значение false**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Метод возвращает **значение false** , если служба уже остановлена. Перед вызовом этого метода можно вызвать [**Shell. иссервицеруннинг**](./shell-isservicerunning.md) для определения состояния службы.
 

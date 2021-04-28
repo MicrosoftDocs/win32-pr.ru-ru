@@ -1,5 +1,5 @@
 ---
-description: Отображает диалоговое окно Поиск принтера.
+description: Shell. Финдпринтер-метод — отображает диалоговое окно Поиск принтера.
 ms.assetid: 61C700CF-623B-4c99-A211-AC26A1E4AE85
 title: Метод Shell. Финдпринтер (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 1286bb7247359ea91d29a53f8f0eaa13b55be5e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17d04b60de2b52ca3d2f17fbdccf7de93ac095b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985977"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104312"
 ---
 # <a name="shellfindprinter-method"></a>Shell. Финдпринтер, метод
 
@@ -80,7 +80,7 @@ Shell.FindPrinter( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Если вы назначаете строки одному или нескольким необязательным параметрам, они отображаются как значения по умолчанию в связанном элементе управления "поле ввода" при отображении диалогового окна " **Найти принтер** ". Пользователь может либо принять, либо переопределить эти значения. Если параметру не присвоено значение, соответствующее поле редактирования будет пустым и пользователь должен ввести значение.
 

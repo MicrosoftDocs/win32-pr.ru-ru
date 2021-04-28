@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий конфигурации логического диска.
+description: SystemConfig_V0_LogDisk класс — этот класс является классом типа события для событий конфигурации логического диска.
 ms.assetid: 3fa5f2e4-f6fa-4c10-9634-04908783cd28
 title: Класс SystemConfig_V0_LogDisk
 ms.topic: reference
@@ -26,12 +26,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: dbc1ee189bae1fe71f42267f38bd40763764dea2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb0ad959d637a38a03b77bd8d7a812ff608ddc04
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985933"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105982"
 ---
 # <a name="systemconfig_v0_logdisk-class"></a>\_Класс системконфиг v0 \_ логдиск
 
@@ -62,13 +62,13 @@ class SystemConfig_V0_LogDisk : SystemConfig_V0
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **системконфиг \_ v0 \_ логдиск** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **системконфиг \_ v0 \_ логдиск** имеет следующие свойства.
 
@@ -140,7 +140,7 @@ class SystemConfig_V0_LogDisk : SystemConfig_V0
 
 | Значение                                                                        | Значение                                         |
 |------------------------------------------------------------------------------|-------------------------------------------------|
-| <dl> <dt>1</dt> </dl> | Секция<br/>                            |
+| <dl> <dt>1</dt> </dl> | Partition (Раздел)<br/>                            |
 | <dl> <dt>2</dt> </dl> | Том<br/>                               |
 | <dl> <dt>3</dt> </dl> | Дополнительный раздел на нескольких дисках<br/> |
 
@@ -321,7 +321,7 @@ class SystemConfig_V0_LogDisk : SystemConfig_V0
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

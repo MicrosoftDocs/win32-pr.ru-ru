@@ -1,15 +1,15 @@
 ---
-description: Эти методы должны быть переопределены производными классами.
+description: Кмспкаллбасе чистые виртуальные методы. Эти методы должны быть переопределены производными классами.
 ms.assetid: 2ea9d35a-c87e-44f4-8dc6-618251c81fe4
 title: Чистые виртуальные методы Кмспкаллбасе
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d8dea4c1a240e362a4dc3a19b3c09a37a318947
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8da8530ab3dae737bf1407f00d5d4a415a1437e3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103909996"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094462"
 ---
 # <a name="cmspcallbase-pure-virtual-methods"></a>Чистые виртуальные методы Кмспкаллбасе
 
@@ -31,7 +31,7 @@ ms.locfileid: "103909996"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

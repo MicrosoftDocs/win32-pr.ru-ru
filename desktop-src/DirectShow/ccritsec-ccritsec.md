@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Ккритсек. Ккритсек.
 ms.assetid: e8e9138a-6c39-41de-a7f8-d9e9c4fe5ab6
 title: Конструктор Ккритсек. Ккритсек (Вксутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6baeadace7c1f8d8d3ad5dee1ff5c9dace1c6907
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de2b852ffc9a12622a4560ae834a3347b1e07552
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658125"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119802"
 ---
 # <a name="ccritsecccritsec-constructor"></a>Ккритсек. Ккритсек, конструктор
 
@@ -40,7 +40,7 @@ CCritSec();
 
 Этот конструктор не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает функцию [**инитиализекритикалсектион**](/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsection) для инициализации критической секции.
 
@@ -55,7 +55,7 @@ CCritSec();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
