@@ -1,5 +1,5 @@
 ---
-description: Метод Деливерендфлуш запрашивает подключенный входной ПИН-код для завершения операции очистки.
+description: Кбасеаутпутпин. Деливерендфлуш, метод Деливерендфлуш запрашивает подключенный входной ПИН-код для завершения операции очистки.
 ms.assetid: 9f1fd76c-dba7-41c5-b098-9735e4f2571b
 title: Кбасеаутпутпин. Деливерендфлуш, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cb9b92947f2452b8755109c4b83cb21afa119461
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f3fd5c1bc686ee5c0b4ff0cd1285a5114b93049
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669178"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096182"
 ---
 # <a name="cbaseoutputpindeliverendflush-method"></a>Кбасеаутпутпин. Деливерендфлуш, метод
 
@@ -55,7 +55,7 @@ virtual HRESULT DeliverEndFlush();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**Ипин:: ендфлуш**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush) для входного ПИН-кода.
 
@@ -70,7 +70,7 @@ virtual HRESULT DeliverEndFlush();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

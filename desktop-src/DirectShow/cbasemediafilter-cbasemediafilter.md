@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кбасемедиафилтер. Кбасемедиафилтер.
 ms.assetid: 91290f58-a77b-447f-aa2a-bbee067f5a98
 title: Конструктор Кбасемедиафилтер. Кбасемедиафилтер (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8498e9da88804291fc5cdb900ff1dbda212e8b0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f123c7af29c6420de6004132180eba8dbf33fa72
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665325"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096322"
 ---
 # <a name="cbasemediafiltercbasemediafilter-constructor"></a>Кбасемедиафилтер. Кбасемедиафилтер, конструктор
 
@@ -73,7 +73,7 @@ CBaseMediaFilter(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если другой объект содержит или выполняет статистическую обработку `CBaseMediaFilter` объекта, блокировка **ккритсек** может быть внешней по отношению к `CBaseMediaFilter` объекту. В этом случае передайте указатель на блокировку в *плокк*.
 
@@ -93,7 +93,7 @@ CBaseMediaFilter(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

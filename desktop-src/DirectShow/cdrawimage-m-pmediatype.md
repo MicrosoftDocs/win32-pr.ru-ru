@@ -1,5 +1,5 @@
 ---
-description: '\_Переменная-член m пмедиатипе является указателем на текущий тип мультимедиа.'
+description: 'Кдравимаже:: m_pMediaType Member — переменная- \_ член m пмедиатипе является указателем на текущий тип мультимедиа.'
 ms.assetid: 51a33fc4-1496-43ed-9b68-842f4c2cf0a1
 title: 'Элемент Кдравимаже:: m_pMediaType (Винутил. h)'
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 47e1841b9b6cff95a122ba03c76b41030fd41eba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 127801850ed008d65015d277ad3e1dbdfdb5c1bf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675696"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095772"
 ---
 # <a name="cdrawimagem_pmediatype-member"></a>Элемент Кдравимаже:: m \_ пмедиатипе
 
@@ -47,7 +47,7 @@ CMediaType *m_pMediaType;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

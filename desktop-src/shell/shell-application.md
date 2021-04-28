@@ -1,5 +1,5 @@
 ---
-description: Содержит объект приложения объекта.
+description: Shell. Application свойство — содержит объект приложения объекта.
 ms.assetid: 5335f4dd-ca80-49c8-8953-e32a6e6308e0
 title: Свойство Shell. Application (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: a9f9bd7fa28d2b277adfd8038c10c97efe16f51a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a90b3953ed54b8a3652d6c9c26533d433ffb600
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913307"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083862"
 ---
 # <a name="shellapplication-property"></a>Свойство Shell. Application
 
@@ -47,7 +47,7 @@ Property Application As Object
 
 Переменная типа [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) , которая получает объект приложения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Свойство **Application** возвращает объект автоматизации, поддерживаемый приложением, которое содержит элемент управления WebBrowser, если этот объект доступен. В противном случае это свойство возвращает объект автоматизации элемента управления WebBrowser.
 

@@ -1,5 +1,5 @@
 ---
-description: Создание результата из описания ASCII или двоичного действия.
+description: Функция D3DXCreateEffect — создание результата из описания ASCII-или двоичного воздействия.
 ms.assetid: 1cbd91f2-3cda-4770-a3c5-b1e6702628d1
 title: Функция D3DXCreateEffect (D3DX9Effect. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 3d5ac013617368ba4d702815d79aa411ea2988b3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6821375dfc672d4937c335cf85dab12ba31b726c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720907"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115782"
 ---
 # <a name="d3dxcreateeffect-function"></a>Функция D3DXCreateEffect
 
@@ -146,7 +146,7 @@ HRESULT D3DXCreateEffect(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

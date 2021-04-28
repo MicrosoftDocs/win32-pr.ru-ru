@@ -1,5 +1,5 @@
 ---
-description: Извлекает ошибку.
+description: Метод-Error класса Msvm_StorageJob — извлекает ошибку.
 ms.assetid: 785b83c4-06f4-46b5-81f7-35c6fce16c92
 title: Метод method класса Msvm_StorageJob
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: a7d8ff9c2c01bb21343b4859e2db2dbed7ad643e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00434ef529b7f26755f52833ff6f37310c7dc210
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911015"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109602"
 ---
 # <a name="geterror-method-of-the-msvm_storagejob-class"></a>Метод method \_ класса мсвм сторажежоб
 
@@ -102,7 +102,7 @@ uint32 GetError(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

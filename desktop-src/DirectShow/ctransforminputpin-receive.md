@@ -1,5 +1,5 @@
 ---
-description: 'Метод Receive получает следующий образец носителя в потоке. Этот метод реализует метод Имеминпутпин:: Receive.'
+description: 'Ктрансформинпутпин. Receive — метод Receive получает следующий образец носителя в потоке. Этот метод реализует метод Имеминпутпин:: Receive.'
 ms.assetid: 65e4f8f5-2aa2-435b-84b4-e65af3f51afc
 title: Метод Ктрансформинпутпин. Receive (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 59b087c4b783305b831871a030d1006d576e7d57
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2a6a3c5dd4c9f11d45e1b719498d515a536e5ef8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658038"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084972"
 ---
 # <a name="ctransforminputpinreceive-method"></a>Ктрансформинпутпин. Receive, метод
 
@@ -64,7 +64,7 @@ HRESULT Receive(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**кбасеинпутпин:: Receive**](cbaseinputpin-receive.md) ПИН-кода, который проверяет состояние потоковой передачи ПИН-кода и проверяет наличие изменений формата в типе носителя. Затем вызывается метод [**ктрансформфилтер:: Receive**](ctransformfilter-receive.md) фильтра, который обрабатывает пример и доставляет его в нисходящий.
 

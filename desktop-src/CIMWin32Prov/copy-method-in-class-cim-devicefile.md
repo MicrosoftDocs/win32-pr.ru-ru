@@ -1,5 +1,5 @@
 ---
-description: Метод Copy копирует логический файл (или каталог), указанный в пути к объекту, в расположение, указанное входным параметром.
+description: Метод Copy класса CIM_DeviceFile. метод Copy копирует логический файл (или каталог), указанный в пути к объекту, в расположение, указанное входным параметром.
 ms.assetid: 6c1c6172-80a2-4779-903a-935f8c7091a5
 ms.tgt_platform: multiple
 title: Метод Copy класса CIM_DeviceFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dc8bb7878f4967dbc58adf6163c92c0d2bd67713
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 09c6d0f9400a04cc6e5a8ed4bd49ec7075b3c190
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895997"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089808"
 ---
 # <a name="copy-method-of-the-cim_devicefile-class"></a>Метод Copy \_ класса CIM девицефиле
 
@@ -72,7 +72,7 @@ uint32 Copy(
 **2**
 </dt> <dd>
 
-Доступ запрещен.
+Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
 
 </dd> <dt>
 
@@ -153,7 +153,7 @@ uint32 Copy(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -173,7 +173,7 @@ uint32 Copy(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Жетметадатакуеривритер.
+description: IWICBitmapEncoder_GetMetadataQueryWriter_Proxy функция-прокси для метода Жетметадатакуеривритер.
 ms.assetid: 3186d473-f8a7-405a-8429-3f50104bee4a
 title: Функция IWICBitmapEncoder_GetMetadataQueryWriter_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: b536e7c4c0553df5dae0f8e11db33c6d709e8c00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 798a9b5bafb2f5011e42e603b8b2c98b0ba79b37
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692226"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091172"
 ---
 # <a name="iwicbitmapencoder_getmetadataquerywriter_proxy-function"></a>Ивикбитмапенкодер \_ жетметадатакуеривритер \_ -функция
 
@@ -44,9 +44,9 @@ HRESULT IWICBitmapEncoder_GetMetadataQueryWriter_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) \** _
+Тип: **[ **ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\***
 
-Указатель на этот объект [_ *ивикбитмапенкодер* *](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
+Указатель на этот объект [**ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
 
 </dd> <dt>
 

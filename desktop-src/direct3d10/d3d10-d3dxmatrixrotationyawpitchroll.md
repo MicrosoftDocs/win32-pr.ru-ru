@@ -1,5 +1,5 @@
 ---
-description: Создает матрицу с заданными значения нутации, шагом и рулоном.
+description: Функция D3DXMatrixRotationYawPitchRoll (D3DX10Math. h) — создает матрицу с указанными значения нутации, шагом и рулоном.
 ms.assetid: a3ef2b57-275f-484a-88fc-aaa5e470717c
 title: Функция D3DXMatrixRotationYawPitchRoll (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d65242f49ee94394337f43555c3e154141e3b642
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ae00865c45878159dbf86a6f829e9d1cf50337e3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000490"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108952"
 ---
 # <a name="d3dxmatrixrotationyawpitchroll-function-d3dx10mathh"></a>Функция D3DXMatrixRotationYawPitchRoll (D3DX10Math. h)
 
@@ -85,7 +85,7 @@ D3DXMATRIX* D3DXMatrixRotationYawPitchRoll(
 
 Указатель на структуру D3DXMATRIX с указанными значения нутации, шагом и рулоном.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXMatrixRotationYawPitchRoll может использоваться в качестве параметра для другой функции.
 
@@ -104,7 +104,7 @@ D3DXMATRIX* D3DXMatrixRotationYawPitchRoll(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кбасеконтролвидео. Кбасеконтролвидео.
 ms.assetid: 925c6c45-0990-4044-aca1-34f343f438b5
 title: Конструктор Кбасеконтролвидео. Кбасеконтролвидео (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dea0548079f8eb703f0c17557cab6a5e634cf242
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 389c05b5254326d2966799b857107e79792610e9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688774"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096352"
 ---
 # <a name="cbasecontrolvideocbasecontrolvideo-constructor"></a>Кбасеконтролвидео. Кбасеконтролвидео, конструктор
 
@@ -81,7 +81,7 @@ CBaseControlVideo(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект реализует интерфейс элемента управления [**ибасиквидео**](/windows/desktop/api/Control/nn-control-ibasicvideo) .
 
@@ -98,7 +98,7 @@ CBaseControlVideo(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: Обработка уведомлений в Windows Search
 ms.assetid: 378e346b-2067-484f-85e9-76673a35550b
 title: Обработка уведомлений в Windows Search
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c7dd37979eab7ef32a5a8917ba6a3589e976105
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b37747d1ec13c3a4a865e16721c64d4a0186dbc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144155"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089822"
 ---
 # <a name="notifications-process-in-windows-search"></a>Обработка уведомлений в Windows Search
 
@@ -20,7 +20,7 @@ ms.locfileid: "104144155"
 -   [Уведомления, управляемые индексатором](#indexer-managed-notifications)
 -   [Уведомления, управляемые поставщиком](#provider-managed-notifications)
 -   [Уведомления в наборах строк](#notifications-on-rowsets)
--   [См. также](#related-topics)
+-   [Связанные разделы](#related-topics)
 
 ## <a name="overview-of-the-notifications-process"></a>Обзор процесса уведомлений
 
@@ -55,7 +55,7 @@ ms.locfileid: "104144155"
 
 В отличие от этого, в Windows Vista представления, основанные на запросах, не имеют связанных событий, за исключением того, что кэш оболочки изменяет свойства файла. При выполнении поиска возвращаемые результаты являются статическими. Таким образом, если в систему добавляется другой документ, соответствующий поисковому слову, представление не обновляется и не включает в себя новое добавление. Такое поведение является стандартным для статических веб-результатов. Однако статические результаты менее приемлемы, если вы пытаетесь предоставить представление, основанное на запросах, в месте хранения. Пользователи предполагают, что содержимое индексатора является актуальным. Дополнительные сведения см. [в разделе уведомление об изменениях в индексе](-search-3x-wds-notifyingofchanges.md). Справочную документацию см. в разделе [Интерфейсы уведомлений](-search-notifications-interfaces-entry-page.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

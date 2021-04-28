@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Task. Owner
 ms.assetid: c7461513-fdec-4fa0-8fdf-134ce2282248
 title: System. Task. Owner
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c15775d844c51491ec8789ceb3da21d41ad7d80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90c311e87e7cc792ca4ee6663345eaefd08f3ac7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703331"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091342"
 ---
 # <a name="systemtaskowner"></a>System. Task. Owner
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: 'Метод EndOfStream уведомляет ПИН-код о том, что дополнительные данные не ожидаются. Этот метод реализует метод Ипин:: EndOfStream.'
+description: 'Кбасеаутпутпин. EndOfStream, метод EndOfStream уведомляет ПИН-код о том, что дополнительные данные не ожидаются. Этот метод реализует метод Ипин:: EndOfStream.'
 ms.assetid: 5c3b5f90-4194-4d65-9f1a-55edf327e3b3
 title: Кбасеаутпутпин. EndOfStream, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e1cd903e811dbcd000ba202fc86c0fcb41bf221b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5f293b8026456618ad1196c491bce58cf481f07
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669207"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096152"
 ---
 # <a name="cbaseoutputpinendofstream-method"></a>Кбасеаутпутпин. EndOfStream, метод
 
@@ -44,7 +44,7 @@ HRESULT EndOfStream();
 
 Возвращает \_ непредвиденное значение E.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод должен вызываться только на входных ПИН-кодах, поэтому реализация **кбасеаутпутпин** возвращает E \_ непредвиденное значение.
 
@@ -59,7 +59,7 @@ HRESULT EndOfStream();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

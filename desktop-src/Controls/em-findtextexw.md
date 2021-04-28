@@ -1,6 +1,6 @@
 ---
 title: Сообщение EM_FINDTEXTEXW (RichEdit. h)
-description: Находит текст в Юникоде в элементе управления Rich Edit.
+description: EM_FINDTEXTEXW сообщение — находит текст в Юникоде в элементе управления Rich Edit.
 ms.assetid: 7b90ef06-0395-430e-8b5d-b392481a5f70
 keywords:
 - Элементы управления Windows для EM_FINDTEXTEXW сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaf0857e47c6e98f4be6867ca66baef3472766a2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5278726ca4d3e4748e96d8095a411bcebd5637ba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989193"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109812"
 ---
 # <a name="em_findtextexw-message"></a>\_Сообщение ФИНДТЕКСТЕКСВ EM
 
@@ -62,7 +62,7 @@ ms.locfileid: "103989193"
 
 Если целевая строка найдена, возвращаемое значение является Отсчитываемая от нуля позицией первого символа совпадения. Если целевой объект не найден, возвращается значение-1.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение используется для поиска строк в Юникоде. Для ANSI; используйте [**EM \_ финдтекстекс**](em-findtextex.md).
 
@@ -84,7 +84,7 @@ ms.locfileid: "103989193"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

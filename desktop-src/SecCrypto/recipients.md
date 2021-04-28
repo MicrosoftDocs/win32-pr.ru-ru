@@ -1,5 +1,5 @@
 ---
-description: Представляет коллекцию объектов Certificate.
+description: Recipients-объект — представляет коллекцию объектов сертификата.
 ms.assetid: 11d294b5-0a8a-4970-be10-a3b22389d96e
 title: Объект Recipients
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: c68ca0217631970f35680160b71841f758b13fd7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e0f0f6474c6ed8883eb591591eff387fe387f7d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685091"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103742"
 ---
 # <a name="recipients-object"></a>Объект Recipients
 
@@ -51,8 +51,8 @@ ms.locfileid: "105685091"
 | Метод                              | Описание                                                                            |
 |:------------------------------------|:---------------------------------------------------------------------------------------|
 | [**Включить**](recipients-add.md)       | Добавляет объект [**сертификата**](certificate.md) в коллекцию.<br/>         |
-| [**Открытым**](recipients-clear.md)   | Удаляет все объекты [**сертификата**](certificate.md) из коллекции.<br/> |
-| [**Отменит**](recipients-remove.md) | Удаляет объект [**сертификата**](certificate.md) из коллекции.<br/>    |
+| [**Очистить**](recipients-clear.md)   | Удаляет все объекты [**сертификата**](certificate.md) из коллекции.<br/> |
+| [**Удалить**](recipients-remove.md) | Удаляет объект [**сертификата**](certificate.md) из коллекции.<br/>    |
 
 
 
@@ -74,7 +74,7 @@ ms.locfileid: "105685091"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **получателей** .
 
@@ -89,7 +89,7 @@ ms.locfileid: "105685091"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

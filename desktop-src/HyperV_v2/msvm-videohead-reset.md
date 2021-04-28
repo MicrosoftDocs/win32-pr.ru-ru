@@ -1,5 +1,5 @@
 ---
-description: Запрашивает сброс.
+description: Метод Reset класса Msvm_VideoHead — запрашивает сброс.
 ms.assetid: 257199d1-639c-4b8a-8dbb-d1c2073eaca0
 title: Метод Reset класса Msvm_VideoHead
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 56c82f2a38ec28dfd745fe558b371b927830ebaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cf736e28d6ef77944b2177e0f70ecbcff1ddc88
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263441"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109462"
 ---
 # <a name="reset-method-of-the-msvm_videohead-class"></a>Метод Reset \_ класса мсвм видеохеад
 
@@ -55,7 +55,7 @@ uint32 Reset();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -63,7 +63,7 @@ uint32 Reset();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

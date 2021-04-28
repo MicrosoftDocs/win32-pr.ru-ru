@@ -1,5 +1,5 @@
 ---
-description: Выполняет интерполяцию между двумя кватернионами, используя сферическую линейную интерполяцию.
+description: Функция D3DXQuaternionSlerp (D3DX10Math. h) — выполняет интерполяцию между двумя кватернионами с использованием сферической линейной интерполяции.
 ms.assetid: 487e1df1-bf20-49cb-ad14-61fcf1300904
 title: Функция D3DXQuaternionSlerp (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 07f673d33b8f105e808fbae380a06942e2a69be4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 04cd3d82e4ca4e3f3357ab0114b57602f7e8a543
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081900"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103122"
 ---
 # <a name="d3dxquaternionslerp-function-d3dx10mathh"></a>Функция D3DXQuaternionSlerp (D3DX10Math. h)
 
@@ -85,7 +85,7 @@ D3DXQUATERNION* D3DXQuaternionSlerp(
 
 Указатель на структуру D3DXQUATERNION, которая является результатом интерполяции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXQuaternionSlerp может использоваться в качестве параметра для другой функции.
 
@@ -102,7 +102,7 @@ D3DXQUATERNION* D3DXQuaternionSlerp(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

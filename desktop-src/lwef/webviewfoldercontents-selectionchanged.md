@@ -1,6 +1,6 @@
 ---
 title: Событие Вебвиевфолдерконтентс. SelectionChanged (Шлдисп. h)
-description: Происходит при изменении состояния выбора любого элемента или элементов в представлении.
+description: Событие Вебвиевфолдерконтентс. SelectionChanged — происходит при изменении состояния выбора любого элемента или элементов в представлении.
 ms.assetid: 46dfceec-aa81-4950-81e5-526a6e621271
 keywords:
 - Устаревшие функции среды Windows для события SelectionChanged
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8421e9d06ff9fd24256da8a23cdd100b5749968
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea6176cb2a1703d48cd2ddec8069c65d7efc978f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535135"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102662"
 ---
 # <a name="webviewfoldercontentsselectionchanged-event"></a>Вебвиевфолдерконтентс. SelectionChanged, событие
 

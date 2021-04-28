@@ -1,5 +1,5 @@
 ---
-description: Метод Куррентмедиатипе Извлекает тип носителя для текущего подключения ПИН-кода.
+description: Ктрансформинпутпин. Куррентмедиатипе, метод Куррентмедиатипе Извлекает тип носителя для текущего подключения ПИН-кода.
 ms.assetid: d46f4d8e-9e9d-49d3-b823-f2f0fcf25383
 title: Ктрансформинпутпин. Куррентмедиатипе, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 59feca88e896b2a81a352b693e57ceaa5388d452
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 011f4eeda7f4a278baeceeadc7c21a822ae02b74
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675651"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084992"
 ---
 # <a name="ctransforminputpincurrentmediatype-method"></a>Ктрансформинпутпин. Куррентмедиатипе, метод
 

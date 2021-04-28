@@ -1,5 +1,5 @@
 ---
-description: Проецирует вектор из пространства экрана в объектное пространство.
+description: Функция D3DXVec3Unproject (D3DX10Math. h) — Проецирует вектор из пространства экрана в объектное пространство.
 ms.assetid: c96d732d-0594-42b4-bc54-458a313f153e
 title: Функция D3DXVec3Unproject (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 21916392c689bcac794d44ec2c42c3e0b39abb0c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 08d38691d0e780e49293149bdb7a08b1ea0ef1fb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674729"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103032"
 ---
 # <a name="d3dxvec3unproject-function-d3dx10mathh"></a>Функция D3DXVec3Unproject (D3DX10Math. h)
 
@@ -104,7 +104,7 @@ D3DXVECTOR3* D3DXVec3Unproject(
 
 Указатель на структуру D3DXVECTOR3, которая представляет собой вектор, проецируемый из пространства экрана в объектное пространство.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXVec3Unproject может использоваться в качестве параметра для другой функции.
 
@@ -118,7 +118,7 @@ D3DXVECTOR3* D3DXVec3Unproject(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

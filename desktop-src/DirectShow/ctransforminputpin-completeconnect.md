@@ -1,5 +1,5 @@
 ---
-description: Метод Комплетеконнект завершает подключение к другому ПИН-коду.
+description: Ктрансформинпутпин. Комплетеконнект, метод Комплетеконнект завершает подключение к другому ПИН-коду.
 ms.assetid: 568cee55-b9ea-4fc2-ac9d-0080b7de9790
 title: Ктрансформинпутпин. Комплетеконнект, метод (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 455517968481b9333fbeba590aca644b34b2f5be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 20f378479209b2614116ba25f51950923358f1b2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675654"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085012"
 ---
 # <a name="ctransforminputpincompleteconnect-method"></a>Ктрансформинпутпин. Комплетеконнект, метод
 
@@ -53,7 +53,7 @@ HRESULT CompleteConnect(
 
 Возвращает \_ значение, равное ОК или другому значению **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасепин:: комплетеконнект**](cbasepin-completeconnect.md) . Он вызывает метод [**ктрансформфилтер:: комплетеконнект**](ctransformfilter-completeconnect.md) фильтра, который возвращает \_ значение s ОК в базовом классе. Производный класс может переопределить метод **ктрансформфилтер:: комплетеконнект** для выполнения дополнительных проверок.
 

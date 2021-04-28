@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Contact. Коннектедсервицеидентитиес
 ms.assetid: 265032ef-4cc7-4fcc-8294-d14ca184c4f2
 title: System. Contact. Коннектедсервицеидентитиес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df9bbd685f08499057bf7667440ecf48f330642d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56453c2a609be7d5d86801cdfe6d0b3541c14d69
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683456"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102532"
 ---
 # <a name="systemcontactconnectedserviceidentities"></a>System. Contact. Коннектедсервицеидентитиес
 
@@ -28,11 +28,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

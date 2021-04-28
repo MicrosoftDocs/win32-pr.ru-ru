@@ -1,5 +1,5 @@
 ---
-description: Извлекает дочерний объект в этом объекте данных файла.
+description: 'Метод ID3DXFileData:: Child — получает дочерний объект в этом объекте данных файла.'
 ms.assetid: 0c4f1efa-f096-443d-a482-a3c5a9138c3d
 title: Метод ID3DXFileData::-Child (D3DX9Xof. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 37982ca1e4801b7d70bec503ff9510fc66772651
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7fe6c0393e5cfb9ed8aeaf5808d33175e7f9bfe5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000422"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090382"
 ---
 # <a name="id3dxfiledatagetchild-method"></a>Метод ID3DXFileData:: Child
 
@@ -76,7 +76,7 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)**
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

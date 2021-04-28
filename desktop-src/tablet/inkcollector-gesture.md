@@ -1,15 +1,15 @@
 ---
-description: Происходит при распознавании жеста конкретного приложения.
+description: Событие InkCollector. жест — возникает при распознавании жеста конкретного приложения.
 ms.assetid: 5830f7f8-2870-4194-ab3e-b63b71e97063
 title: Событие InkCollector. жест (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb68add1a3fbba5781624f1df98c3a637745b95a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bfc2fea09060dbb206cd7681bcecfbedbc7a6b4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701459"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110192"
 ---
 # <a name="inkcollectorgesture-event"></a>Событие InkCollector. жест
 
@@ -67,7 +67,7 @@ void Gesture(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод события определен в \_ \_ \_ интерфейсах диспетчеризации (DISP) иинкколлекторевентс, иинковерлайевентс и иинкпиктуривентс с идентификатором DISPID \_ ицежестуре.
 
@@ -107,7 +107,7 @@ void Gesture(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Использует сжатие NTFS для сжатия логического файла (или каталога), указанного в пути к объекту. Этот метод наследуется от CIM \_ LogicalFile.
+description: Метод сжатия класса CIM_DataFile — использует сжатие NTFS для сжатия логического файла (или каталога), указанного в пути к объекту. Этот метод наследуется от CIM \_ LogicalFile.
 ms.assetid: fce57569-8290-420e-a938-10ab08ac67c3
 ms.tgt_platform: multiple
 title: Метод сжатия класса CIM_DataFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 99d9a0a346d8a9394edd9f30ff23490549f6de76
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3cc63ed3cafd676a0d865953c52a14e6247d4b70
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655718"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089782"
 ---
 # <a name="compress-method-of-the-cim_datafile-class"></a>Метод сжатия \_ класса CIM File
 
@@ -61,7 +61,7 @@ uint32 Compress();
 **2**
 </dt> <dd>
 
-Доступ запрещен.
+Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ uint32 Compress();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **сжатия** в [**\_ файле CIM**](cim-datafile.md) реализуется инструментарием WMI.
 
@@ -162,7 +162,7 @@ uint32 Compress();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

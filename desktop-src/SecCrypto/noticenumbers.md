@@ -1,5 +1,5 @@
 ---
-description: Представляет коллекцию объектов Extension.
+description: Объект Нотиценумберс — представляет коллекцию объектов Extension.
 ms.assetid: b0d69df9-12c4-4872-b883-b029c4350502
 title: Объект Нотиценумберс
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 58d954fdeef66d6d0e5eadb3086cb549b59e5669
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2bd6e653eabe9b25588fd29517ac94e0c878fdb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689254"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090762"
 ---
 # <a name="noticenumbers-object"></a>Объект Нотиценумберс
 
@@ -40,7 +40,7 @@ ms.locfileid: "105689254"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **нотиценумберс** имеет следующие свойства.
 
@@ -56,7 +56,7 @@ ms.locfileid: "105689254"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **нотиценумберс** .
 

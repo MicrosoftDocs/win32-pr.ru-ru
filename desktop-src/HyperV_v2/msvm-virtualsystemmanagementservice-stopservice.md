@@ -1,5 +1,5 @@
 ---
-description: останавливает службу.
+description: Метод «начало» класса Msvm_VirtualSystemManagementService — останавливает службу.
 ms.assetid: 215a9e6d-8f31-43a6-abf5-4eb72432e09f
 title: Метод «начало» класса Msvm_VirtualSystemManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ce9ac3e0aafa23d82c961e40b32d93c58de93aae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ca47b0133944763bff2474a6511b7981b4c1884
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808782"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109392"
 ---
 # <a name="stopservice-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Метод «начало» \_ класса мсвм виртуалсистемманажементсервице
 
@@ -55,7 +55,7 @@ uint32 StopService();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -63,7 +63,7 @@ uint32 StopService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

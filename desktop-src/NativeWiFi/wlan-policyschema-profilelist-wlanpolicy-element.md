@@ -1,5 +1,5 @@
 ---
-description: Содержит список профилей, применяемых на уровне домена или компьютера.
+description: Элемент Профилелист (Вланполици) — содержит список профилей, применяемых на уровне домена или компьютера.
 ms.assetid: b78cb095-a1da-4b1b-91d3-c5085325be05
 title: Профилелист (Вланполици), элемент
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 9c11fbeb41b43faa31b170dcc856bb0823631001
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c7478f38ba7336738325bac6872866cd570288b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674211"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109202"
 ---
 # <a name="profilelist-wlanpolicy-element"></a>Профилелист (Вланполици), элемент
 
@@ -52,7 +52,7 @@ ms.locfileid: "105674211"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

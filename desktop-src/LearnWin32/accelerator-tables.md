@@ -1,15 +1,15 @@
 ---
 title: Таблицы сочетаний клавиш
-description: .
+description: Таблицы сочетаний клавиш
 ms.assetid: 4F2CFD7C-90D3-4C3F-9A42-05B915914EF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9929445809bee71f273b6bd2334e182de59edbfa
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2951ee99a31a977e0909de5639fa3110cea10e0b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104070014"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090822"
 ---
 # <a name="accelerator-tables"></a>Таблицы сочетаний клавиш
 
@@ -40,7 +40,7 @@ ms.locfileid: "104070014"
 
 
 
-| Сочетание клавиш | Get-Help                   |
+| Сочетание клавиш | Команда                   |
 |----------|---------------------------|
 | CTRL+M   | Переключение между режимами.     |
 | F1       | Переключиться в режим рисования.      |
@@ -48,7 +48,7 @@ ms.locfileid: "104070014"
 
 
 
- 
+ 
 
 Сначала определите числовые идентификаторы для таблицы и для команд приложения. Эти значения являются произвольными. Для идентификаторов можно назначить символьные константы, определив их в файле заголовка. Пример:
 
@@ -161,6 +161,6 @@ IDR_ACCEL1 ACCELERATORS
 
 [Установка изображения курсора](setting-the-cursor-image.md)
 
- 
+ 
 
- 
+ 

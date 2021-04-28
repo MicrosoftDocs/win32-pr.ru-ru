@@ -1,5 +1,5 @@
 ---
-description: Функция обратного вызова, которая должна быть реализована пользователем для задания массива логических констант шейдера вершин.
+description: 'Метод ID3DXEffectStateManager:: Сетвертексшадерконстантб — функция обратного вызова, которая должна быть реализована пользователем для установки массива логических констант шейдера вершин.'
 ms.assetid: 25fd0c68-11b5-4401-a2f8-86075ba3fa54
 title: 'Метод ID3DXEffectStateManager:: Сетвертексшадерконстантб (D3DX9Effect. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 1eaf68f27d477aee36bd7773488f34bad29db61d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 79d4972c301d7333869d68d36267186a67b37eb1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694206"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090412"
 ---
 # <a name="id3dxeffectstatemanagersetvertexshaderconstantb-method"></a>Метод ID3DXEffectStateManager:: Сетвертексшадерконстантб
 
@@ -89,7 +89,7 @@ HRESULT SetVertexShaderConstantB(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

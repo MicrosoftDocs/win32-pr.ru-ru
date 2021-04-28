@@ -1,5 +1,5 @@
 ---
-description: Метод деструктора.
+description: Метод деструктора Камевент. ~ Камевент.
 ms.assetid: 3be76b8f-1141-439e-8837-9edba02707b0
 title: Деструктор Камевент. ~ Камевент (Вксутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: df14e32df85d10210530cd4c59c3bbe542af6f03
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 70db4419e6e9ca1c077fb60e7adc671e16cceca6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665114"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096552"
 ---
 # <a name="cameventcamevent-destructor"></a>Деструктор Камевент. ~ Камевент
 
@@ -47,7 +47,7 @@ ms.locfileid: "105665114"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

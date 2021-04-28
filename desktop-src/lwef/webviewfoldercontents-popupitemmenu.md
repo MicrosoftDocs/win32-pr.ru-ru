@@ -1,6 +1,6 @@
 ---
 title: Вебвиевфолдерконтентс. Попупитеммену, метод (Шлдисп. h)
-description: Создает контекстное меню для указанного элемента и возвращает выбранную командную строку.
+description: Вебвиевфолдерконтентс. Попупитеммену — создает контекстное меню для указанного элемента и возвращает выбранную командную строку.
 ms.assetid: 3c07500c-2fe9-4976-a1a8-b128e75f9325
 keywords:
 - Устаревшие функции среды Windows в методе Попупитеммену
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41753814f103998185acc798a37447f22356d2aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c879e10097b334f0c2d4f98b1b76289d20ee4a93
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801246"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102642"
 ---
 # <a name="webviewfoldercontentspopupitemmenu-method"></a>Вебвиевфолдерконтентс. Попупитеммену, метод
 
@@ -73,13 +73,13 @@ retVal = WebViewFolderContents.PopupItemMenu(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: **[BSTR](/previous-versions/windows/desktop/automat/bstr) \** _
+Тип: **[BSTR](/previous-versions/windows/desktop/automat/bstr)\***
 
 При возврате из этого метода содержит командную строку.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование _ *попупитеммену** для JScript Embedded в HTML.
+В следующем примере показано правильное использование **попупитеммену** для JScript Embedded в HTML.
 
 
 ```HTML

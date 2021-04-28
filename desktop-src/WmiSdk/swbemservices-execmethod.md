@@ -1,5 +1,5 @@
 ---
-description: Выполняет метод, экспортируемый поставщиком метода.
+description: SWbemServices.Exeметод Кмесод — выполняет метод, экспортируемый поставщиком метода.
 ms.assetid: 2637efdc-fde5-4a44-a41f-67e0fb0df19d
 ms.tgt_platform: multiple
 title: SWbemServices.Exeметод Кмесод (Wbemdisp. h)
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: c95bc3b0fa85d7c682f9ffd2436439da9a05763f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 452c42c37e8dcb9f2b37b660b1f8899e587b5579
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080892"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103642"
 ---
 # <a name="swbemservicesexecmethod-method"></a>SWbemServices.Exeметод Кмесод
 
@@ -53,14 +53,14 @@ objOutParams = .ExecMethod( _
 *стробжектпас* 
 </dt> <dd>
 
-Обязательный. Строка, содержащая путь к объекту, для которого выполняется метод. Дополнительные сведения см. [в разделе Описание расположения объекта WMI](describing-the-location-of-a-wmi-object.md).
+Обязательный элемент. Строка, содержащая путь к объекту, для которого выполняется метод. Дополнительные сведения см. [в разделе Описание расположения объекта WMI](describing-the-location-of-a-wmi-object.md).
 
 </dd> <dt>
 
 *стрмесоднаме* 
 </dt> <dd>
 
-Обязательный. Имя метода для объекта.
+Обязательный элемент. Имя метода для объекта.
 
 </dd> <dt>
 
@@ -137,7 +137,7 @@ objOutParams = .ExecMethod( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте **SWbemServices.Exeкмесод** в качестве альтернативы прямой доступ для выполнения [*метода поставщика*](gloss-p.md) в случаях, когда невозможно выполнить метод напрямую. Метод **ExecMethod** позволяет получать выходные параметры, если поставщик предоставляет их, с языком сценариев, который не поддерживает выходные параметры. В противном случае для вызова метода рекомендуется использовать прямой доступ. Дополнительные сведения см. в разделе [Управление сведениями о классе и экземпляре](manipulating-class-and-instance-information.md).
 
@@ -229,7 +229,7 @@ End If
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

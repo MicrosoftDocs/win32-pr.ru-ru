@@ -1,5 +1,5 @@
 ---
-description: Задает массив чисел с плавающей запятой.
+description: 'Метод ID3DXTextureShader:: Сетфлоатаррай — задает массив чисел с плавающей запятой.'
 ms.assetid: 8e64b569-a6bf-4925-9d21-4df0b6661ee2
 title: 'Метод ID3DXTextureShader:: Сетфлоатаррай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5dbd39e8a4acfa004fb623d578e5922d477884fc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bd42455e16cbfc203f76de868a82935e0e25401f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273803"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090252"
 ---
 # <a name="id3dxtextureshadersetfloatarray-method"></a>Метод ID3DXTextureShader:: Сетфлоатаррай
 
@@ -86,7 +86,7 @@ HRESULT SetFloatArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

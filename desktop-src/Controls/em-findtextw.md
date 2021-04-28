@@ -1,6 +1,6 @@
 ---
 title: Сообщение EM_FINDTEXTW (RichEdit. h)
-description: Находит текст в Юникоде в элементе управления Rich Edit.
+description: EM_FINDTEXTW сообщение — находит текст в Юникоде в элементе управления Rich Edit.
 ms.assetid: 0c1579f5-3b37-4e28-86a2-f4e03e195f38
 keywords:
 - Элементы управления Windows для EM_FINDTEXTW сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73e8bae60269ab3ddb84a17c285c243e00d8117c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 325ff948c4c8f03e8051248f15928d8e8c56e52f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803269"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109802"
 ---
 # <a name="em_findtextw-message"></a>\_Сообщение ФИНДТЕКСТВ EM
 
@@ -62,7 +62,7 @@ ms.locfileid: "103803269"
 
 Если целевая строка найдена, возвращаемое значение является Отсчитываемая от нуля позицией первого символа совпадения. Если целевой объект не найден, возвращается значение-1.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **EM \_ ФИНДТЕКСТВ** использует структуру [**финдтекств**](/windows/win32/api/richedit/ns-richedit-findtexta) , а [**EM \_ финдтекстексв**](em-findtextexw.md) использует структуру [**финдтекстексв**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) . Разница заключается в том, что **финдтекстексв** сообщает о найденном диапазоне текста.
 
@@ -78,7 +78,7 @@ ms.locfileid: "103803269"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

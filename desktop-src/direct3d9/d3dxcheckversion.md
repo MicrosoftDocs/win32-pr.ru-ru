@@ -1,5 +1,5 @@
 ---
-description: Убедитесь, что версия D3DX, которая была скомпилирована с помощью, — это версия, которую вы используете.
+description: Функция D3DXCheckVersion. Убедитесь, что версия D3DX, которая была скомпилирована с помощью, является версией, которую вы используете.
 ms.assetid: a4e745dd-d573-4e8f-9516-f6a7475f5cc5
 title: Функция D3DXCheckVersion (D3dx9core. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7b392d706e54780924115471906096f6b63d1a80
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 077d64a67a46080a0f7ac9194c684f6fe8470453
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647858"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115982"
 ---
 # <a name="d3dxcheckversion-function"></a>Функция D3DXCheckVersion
 
@@ -65,7 +65,7 @@ BOOL D3DXCheckVersion(
 
 Возвращает **значение true** , если версия D3DX, с которой выполнялась компиляция, является версией, с которой вы работаете; в противном случае возвращается **значение false** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте эту функцию во время инициализации приложения следующим образом:
 
@@ -98,7 +98,7 @@ HRESULT CD3DXMyApplication::Initialize(HINSTANCE hInstance,
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

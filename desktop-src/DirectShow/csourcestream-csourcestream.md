@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Ксаурцестреам. Ксаурцестреам.
 ms.assetid: 9078b2f5-b11e-4780-8143-6738e9df4f4b
 title: Конструктор Ксаурцестреам. Ксаурцестреам (Source. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a8671e939364d1c0cd22796b1518313002b5eb33
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 75d94bb89ca109c2a7974c294153d46235f92f23
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657167"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085192"
 ---
 # <a name="csourcestreamcsourcestream-constructor"></a>Ксаурцестреам. Ксаурцестреам, конструктор
 
@@ -73,7 +73,7 @@ CSourceStream(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Строка, заданная в параметре *побжектнаме* , используется только в целях отладки. Дополнительные сведения см. в разделе [**кбасеобжект**](cbaseobject.md).
 
@@ -92,7 +92,7 @@ CSourceStream(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

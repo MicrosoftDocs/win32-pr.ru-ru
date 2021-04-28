@@ -1,15 +1,15 @@
 ---
 title: Кэш режима ядра
-description: .
+description: Кэш режима ядра
 ms.assetid: f9a46ff4-779b-4b3a-b8f5-1ae10a3c0a61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9264535a58c033d66fd3fcc39988a292afc2a27f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 83c409b00da03c0550899f5d26c4e6a0fa215118
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068514"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090892"
 ---
 # <a name="kernel-mode-cache"></a>Кэш режима ядра
 
@@ -33,12 +33,12 @@ API сервера HTTP ограничивает кэш в режиме ядра
 
     ```
     HKEY_LOCAL_MACHINE
-       System
-          CurrentControlSet
-             Services
-                HTTP
-                   Parameters
-                      UriMaxUriBytes
+       System
+          CurrentControlSet
+             Services
+                HTTP
+                   Parameters
+                      UriMaxUriBytes
     ```
 
 -   Весь ответ должен быть предоставлен в одном вызове [**хттпсендхттпреспонсе**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse).
@@ -48,9 +48,9 @@ API сервера HTTP ограничивает кэш в режиме ядра
 
 По умолчанию кэш ответов режима ядра включен. Если какое либо условие для указанного выше запроса или ответа не выполнено, ответ будет отправлен, но не будет кэшироваться. В API сервера HTTP версии 2,0 [**хттпсендхттпреспонсе**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) включает необязательный параметр *пкачеполици* для передачи структуры [**\_ \_ политики кэша HTTP**](/windows/desktop/api/Http/ns-http-http_cache_policy) . Приложения используют структуру политики кэша для настройки кэша.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: 'Метод Сеттимеформат задает формат времени. Этот метод реализует метод Имедиасикинг:: Сеттимеформат.'
+description: 'Кпоспасссру. Сеттимеформат, метод Сеттимеформат задает формат времени. Этот метод реализует метод Имедиасикинг:: Сеттимеформат.'
 ms.assetid: f6fc456d-51cf-4b2e-9248-afed9073d440
 title: Кпоспасссру. Сеттимеформат, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b843e67a827e4bbd7471bb42df31033e314d9158
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 81798ccbb51056353c62cd94f821b3567d78a484
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657365"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085472"
 ---
 # <a name="cpospassthrusettimeformat-method"></a>Кпоспасссру. Сеттимеформат, метод
 
@@ -64,7 +64,7 @@ HRESULT SetTimeFormat(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

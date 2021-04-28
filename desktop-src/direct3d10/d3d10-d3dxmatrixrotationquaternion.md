@@ -1,5 +1,5 @@
 ---
-description: Строит матрицу вращения из кватерниона.
+description: Функция D3DXMatrixRotationQuaternion (D3DX10Math. h) — создает матрицу вращения из кватерниона.
 ms.assetid: dcbf8696-b959-4475-a250-6094dd5fe358
 title: Функция D3DXMatrixRotationQuaternion (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 44cd4a5982b322c2d207263fb490c898ed9fa76e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7d95d28b7f7106df9ddfb43a9175f5c19292d52c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720941"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103432"
 ---
 # <a name="d3dxmatrixrotationquaternion-function-d3dx10mathh"></a>Функция D3DXMatrixRotationQuaternion (D3DX10Math. h)
 
@@ -65,7 +65,7 @@ D3DXMATRIX* D3DXMatrixRotationQuaternion(
 
 Указатель на структуру D3DXMATRIX, построенную из исходного кватерниона.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXMatrixRotationQuaternion может использоваться в качестве параметра для другой функции.
 
@@ -82,7 +82,7 @@ D3DXMATRIX* D3DXMatrixRotationQuaternion(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

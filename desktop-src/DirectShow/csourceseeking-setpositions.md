@@ -1,5 +1,5 @@
 ---
-description: 'Метод Сетпоситионс задает текущую и заданную позиции. Этот метод реализует метод Имедиасикинг:: Сетпоситионс.'
+description: 'Ксаурцесикинг. Сетпоситионс, метод Сетпоситионс задает текущее расположение и точку окончания. Этот метод реализует метод Имедиасикинг:: Сетпоситионс.'
 ms.assetid: 4359fe1f-f922-4a4d-beaa-8e13c72f407c
 title: Ксаурцесикинг. Сетпоситионс, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 342ca7d85fe9358b914709b7887216b62e03521d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b09dd92b97166b8d973328ec95e466abbda116bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657362"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085172"
 ---
 # <a name="csourceseekingsetpositions-method"></a>Ксаурцесикинг. Сетпоситионс, метод
 
@@ -81,7 +81,7 @@ HRESULT SetPositions(
 
 | Код возврата                                                                                  | Описание                          |
 |----------------------------------------------------------------------------------------------|--------------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>         | Успешно<br/>                   |
+| <dl> <dt>**\_ОК**</dt> </dl>         | Успешное завершение<br/>                   |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | Недопустимые флаги<br/>             |
 | <dl> <dt>**\_указатель E**</dt> </dl>    | **Пустой** аргумент указателя<br/> |
 
@@ -89,7 +89,7 @@ HRESULT SetPositions(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поддерживаются следующие флаги:
 
@@ -113,7 +113,7 @@ HRESULT SetPositions(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
