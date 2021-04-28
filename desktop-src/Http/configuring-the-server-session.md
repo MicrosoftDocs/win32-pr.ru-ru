@@ -1,15 +1,15 @@
 ---
 title: Настройка сеанса сервера
-description: .
+description: Настройка сеанса сервера
 ms.assetid: 1e4e9440-8d70-44df-90a7-2d5e25b2f680
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcf069b22992fa178798c7f28545e30217d0dada
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d41c1606cce397c49a15c62dae10531edfde93f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681380"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090942"
 ---
 # <a name="configuring-the-server-session"></a>Настройка сеанса сервера
 
@@ -17,9 +17,9 @@ ms.locfileid: "105681380"
 
 Обычно приложение HTTP создает сеанс с одним сервером и может устанавливать свойства уровня приложения, такие как ограничение глобальной полосы пропускания или включить централизованное ведение журнала в этом сеансе сервера. [**Хттпсетсерверсессионпроперти**](/windows/desktop/api/Http/nf-http-httpsetserversessionproperty) переопределяет конфигурации API-сервера HTTP для вызывающего приложения; Он не влияет на свойства HTTP-сервера на уровне API. Запросы к конфигурациям сеансов сервера запрашиваются путем вызова [**хттпкуерисерверсессионпроперти**](/windows/desktop/api/Http/nf-http-httpqueryserversessionproperty).
 
- 
+ 
 
- 
+ 
 
 
 

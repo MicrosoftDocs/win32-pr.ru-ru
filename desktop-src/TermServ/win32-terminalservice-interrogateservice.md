@@ -1,6 +1,6 @@
 ---
 title: Метод Интеррогатесервице класса Win32_Service (службы удаленных рабочих столов)
-description: Запрашивает обновление состояния службы, на которую указывает ссылка, в Service Manager.
+description: Метод Интеррогатесервице класса Win32_Service (службы удаленных рабочих столов) — запрашивает обновление состояния службы, на которую указывает ссылка, в Service Manager.
 ms.assetid: 7B572049-416E-4429-BD53-119FF570B2D8
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f53b3d5e1cced6b6820f9b7334551de47f333be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 850953b210ea11b9dd1000326d6793e3651ce538
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681880"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090662"
 ---
 # <a name="interrogateservice-method-of-the-win32_service-class-remote-desktop-services"></a>Метод Интеррогатесервице класса Win32_Service (службы удаленных рабочих столов)
 
@@ -238,7 +238,7 @@ uint32 InterrogateService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

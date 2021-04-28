@@ -1,5 +1,5 @@
 ---
-description: Метод Жетмедиатиме извлекает метки времени для текущего образца.
+description: Крендерерпоспасссру. Жетмедиатиме, метод Жетмедиатиме извлекает метки времени для текущего образца.
 ms.assetid: 13710373-04fd-4c1d-ba97-78be5cf27e7d
 title: Крендерерпоспасссру. Жетмедиатиме, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 628c0f0c65dad4e00dd259edbeee97fd8f6f13ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 588c92faec6b68cfa51392d4df00567c4e881460
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668883"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085372"
 ---
 # <a name="crendererpospassthrugetmediatime-method"></a>Крендерерпоспасссру. Жетмедиатиме, метод
 
@@ -73,7 +73,7 @@ HRESULT GetMediaTime(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кпоспасссру:: жетмедиатиме**](cpospassthru-getmediatime.md) . Значения временной метки преобразуются в текущий формат времени путем вызова метода [**кпоспасссру:: конверттимеформат**](cpospassthru-converttimeformat.md) .
 

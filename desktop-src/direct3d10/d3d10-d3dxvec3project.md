@@ -1,5 +1,5 @@
 ---
-description: Проецирует трехмерный вектор из объектного пространства в пространство экрана.
+description: Функция D3DXVec3Project (D3DX10Math. h) — проецирует трехмерный вектор из объектного пространства в пространство экрана.
 ms.assetid: 6fc59788-c3f7-4f47-a345-9108105e820e
 title: Функция D3DXVec3Project (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: c8d86949f754afb7639a0c28ff6d8b14c0e40ff0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f4a2cffa77b2a66267daf0a67a59698ae3e3b8eb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354973"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108172"
 ---
 # <a name="d3dxvec3project-function-d3dx10mathh"></a>Функция D3DXVec3Project (D3DX10Math. h)
 
@@ -104,7 +104,7 @@ D3DXVECTOR3* D3DXVec3Project(
 
 Указатель на структуру D3DXVECTOR3, которая является вектором, проецируемым из пространства объекта в пространство экрана.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXVec3Project может использоваться в качестве параметра для другой функции.
 
@@ -118,7 +118,7 @@ D3DXVECTOR3* D3DXVec3Project(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

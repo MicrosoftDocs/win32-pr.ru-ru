@@ -1,5 +1,5 @@
 ---
-description: Дата и время создания отчета.
+description: Свойство Локатиондисп. Дисплатлонгрепорт. timestamp — Дата и время создания отчета.
 ms.assetid: 3b8036aa-499c-4baf-bcc4-5b6c3f54eb7b
 title: Локатиондисп. Дисплатлонгрепорт. timestamp, свойство
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 5ec179c5958b1be73a5fd5f74e48d0063edb6696
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd505f967bad31afa908609a72d108b17552fce8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674383"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105692"
 ---
 # <a name="locationdispdisplatlongreporttimestamp-property"></a>Локатиондисп. Дисплатлонгрепорт. timestamp, свойство
 
@@ -40,7 +40,7 @@ Timestamp = LocationDisp.DispLatLongReport.Timestamp
 
 Это свойство является **датой** только для чтения. Временные метки задаются в формате UTC.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что для языков сценариев, таких как Microsoft JScript, может потребоваться выполнить преобразование в другие форматы времени при отображении меток времени в виде строк.
 

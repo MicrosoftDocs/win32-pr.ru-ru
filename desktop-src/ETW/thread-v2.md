@@ -1,5 +1,5 @@
 ---
-description: Этот класс является родительским для событий потока. Следующий синтаксис упрощен из MOF-кода.
+description: Thread_V2 Class — этот класс является родительским для событий потока. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 63e52cba-42a5-44f0-8eb6-e1bac8414a83
 title: Класс Thread_V2
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: f28b68a2aac5f2d5293f94ed2bab366d238ae662
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b00067af61a55e61f70b0c799a1512edf284f11c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910743"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105622"
 ---
 # <a name="thread_v2-class"></a>\_Класс Thread v2
 
@@ -34,11 +34,11 @@ class Thread_V2 : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **Thread \_ v2** не определяет никаких членов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Чтобы включить события потока в сеансе ведения журнала ядра NT, укажите **флаг \_ \_ \_ потока флага трассировки событий** в **элементе енаблефлагс** структуры [**\_ \_ свойств трассировки событий**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) при вызове функции [**старттраце**](/windows/win32/api/evntrace/nf-evntrace-starttracea) . Можно также указать следующие флаги:
 
@@ -75,7 +75,7 @@ class Thread_V2 : MSNT_SystemTrace
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -85,7 +85,7 @@ class Thread_V2 : MSNT_SystemTrace
 [**ксвитч**](cswitch.md)
 </dt> <dt>
 
-[**Поток**](thread.md)
+[**Thread**](thread.md)
 </dt> <dt>
 
 [**\_TypeGroup1 потока**](thread-typegroup1.md)

@@ -1,5 +1,5 @@
 ---
-description: Убедитесь, что версия D3DX, которая была скомпилирована с помощью, — это версия, которую вы используете.
+description: Функция D3DX10CheckVersion. Убедитесь, что версия D3DX, которая была скомпилирована с помощью, является версией, которую вы используете.
 ms.assetid: 57085b07-f77b-425e-a889-22c3071d7143
 title: Функция D3DX10CheckVersion (D3DX10Core. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3b41996f16cb97d91dc59f8d368f13b905992388
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4fc8befa88fb706965a30224843745b033ea205b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720945"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105352"
 ---
 # <a name="d3dx10checkversion-function"></a>Функция D3DX10CheckVersion
 
@@ -65,7 +65,7 @@ HRESULT D3DX10CheckVersion(
 
 Если версия не совпадает, функция возвратит значение FALSE (число меньше или равно 0, само число не имеет смысла).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте эту функцию во время инициализации приложения.
 
@@ -90,7 +90,7 @@ if( FAILED( D3DX10CheckVersion(D3D10_SDK_VERSION, D3DX10_SDK_VERSION) ) )
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: 'Метод Сетрате задает скорость воспроизведения. Этот метод реализует метод Имедиасикинг:: Сетрате.'
+description: 'Кпоспасссру. Сетрате, метод Сетрате задает скорость воспроизведения. Этот метод реализует метод Имедиасикинг:: Сетрате.'
 ms.assetid: 1b38eb5d-38fd-408b-9f20-4f8d18158f92
 title: Кпоспасссру. Сетрате, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ada5c8bc8d265b33e1d4b243bdfd0cf8bf03a7dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bccc0d7044ccf17ac1c97e4fc5a185bdf6c7f0be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675596"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095222"
 ---
 # <a name="cpospassthrusetrate-method"></a>Кпоспасссру. Сетрате, метод
 
@@ -64,7 +64,7 @@ HRESULT SetRate(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

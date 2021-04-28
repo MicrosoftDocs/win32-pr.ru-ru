@@ -1,5 +1,5 @@
 ---
-description: Метод Resume перезапускает отложенную запись.
+description: 'Метод Истатс:: Resume. метод Resume перезапускает отложенную запись.'
 ms.assetid: 128e38c4-7459-4376-a3d7-2c6944fcf535
 title: 'Метод Истатс:: Resume (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: db84f51d2a2a2c2d15e3b4164fe1fac09e72bf20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee7818da3d8a02e41488d473d3cf26607d3b84ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911639"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114622"
 ---
 # <a name="istatsresume-method"></a>Метод Истатс:: Resume
 
@@ -57,7 +57,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пока запись находится в приостановленном состоянии, новые данные не фиксируются до тех пор, пока не будет вызван метод Истатс:: Resume для перезапуска записи.
 
@@ -78,7 +78,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

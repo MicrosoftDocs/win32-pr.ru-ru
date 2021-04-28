@@ -1,5 +1,5 @@
 ---
-description: Матрица для преобразования из мирового пространства в объектно-пространство.
+description: WorldToObject4x3 — матрица для преобразования из мирового пространства в объектно-пространство.
 ms.assetid: ''
 title: WorldToObject4x3
 ms.localizationpriority: low
@@ -12,12 +12,12 @@ api_name:
 - WorldToObject4x3
 api_type:
 - NA
-ms.openlocfilehash: c72c4d8ef6280a5b1186360707dacf0d9b1fbab9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 334a79352345fb35fbbafe68248a221bdaab9f6d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673113"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105251"
 ---
 # <a name="worldtoobject4x3"></a>WorldToObject4x3
 
@@ -33,7 +33,7 @@ void WorldToObject4x3();
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Матрица является транспоситион матрицы **WorldToObject3x4** .
 
@@ -47,7 +47,7 @@ void WorldToObject4x3();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

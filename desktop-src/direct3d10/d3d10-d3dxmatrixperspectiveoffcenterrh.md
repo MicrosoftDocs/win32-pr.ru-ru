@@ -1,5 +1,5 @@
 ---
-description: Создает настраиваемую, правую матрицу перспективной проекции.
+description: Функция D3DXMatrixPerspectiveOffCenterRH (D3DX10Math. h) — создает настраиваемую, правую матрицу проекции с правой стороны.
 ms.assetid: 51509bfc-2f49-4ba7-8918-3c44d857d4b2
 title: Функция D3DXMatrixPerspectiveOffCenterRH (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 54fc98658d5466acd69d3245af7488c40cd352c5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f80c32953dbc591d5d8bc7a95fc707e93fe384c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081925"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109042"
 ---
 # <a name="d3dxmatrixperspectiveoffcenterrh-function-d3dx10mathh"></a>Функция D3DXMatrixPerspectiveOffCenterRH (D3DX10Math. h)
 
@@ -115,7 +115,7 @@ D3DXMATRIX* D3DXMatrixPerspectiveOffCenterRH(
 
 Указатель на структуру D3DXMATRIX, которая представляет собой настраиваемую, правую матрицу проекции с правой стороны.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все параметры функции D3DXMatrixPerspectiveOffCenterRH — это расстояния в пространстве камеры. Параметры описывают размеры представления объема.
 
@@ -144,7 +144,7 @@ D3DXMATRIX* D3DXMatrixPerspectiveOffCenterRH(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

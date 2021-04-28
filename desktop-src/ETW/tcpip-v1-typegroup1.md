@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий TCP/IP. Следующий синтаксис упрощен из MOF-кода.
+description: Класс TcpIp_V1_TypeGroup1 — этот класс является классом типа события для событий TCP/IP. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 1cde7e37-52da-4108-90ce-7647a5653f65
 title: Класс TcpIp_V1_TypeGroup1
 ms.topic: reference
@@ -18,12 +18,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: fcd5f19eafa5308ef369a211559c6c464427b168
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 831dfdc228e2c8e128f328784046e833b0b45a39
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984777"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105762"
 ---
 # <a name="tcpip_v1_typegroup1-class"></a>\_ \_ Класс TypeGroup1 TcpIp v1
 
@@ -46,13 +46,13 @@ class TcpIp_V1_TypeGroup1 : TcpIp_V1
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **TcpIp \_ v1 \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **TcpIp \_ v1 \_ TypeGroup1** имеет следующие свойства.
 
@@ -122,7 +122,7 @@ class TcpIp_V1_TypeGroup1 : TcpIp_V1
 
 </dd> <dt>
 
-size
+размер;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -165,7 +165,7 @@ size
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

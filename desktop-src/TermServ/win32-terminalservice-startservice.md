@@ -1,6 +1,6 @@
 ---
 title: Метод StartService класса Win32_Service (службы удаленных рабочих столов)
-description: Пытается перевести указанную службу в состояние запуска.
+description: Метод StartService класса Win32_Service (службы удаленных рабочих столов) — пытается поместить службу, на которую указывает ссылка, в состояние запуска.
 ms.assetid: 4DA05C48-03A0-4D4B-9E69-0404393C219C
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e37a17922fe0f4f3f5a3e4f1cd4d8eb67dc2858
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce4bd12150223d7cdc1340b7557ba309a1e07da4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415424"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084202"
 ---
 # <a name="startservice-method-of-the-win32_service-class-remote-desktop-services"></a>Метод StartService класса Win32_Service (службы удаленных рабочих столов)
 
@@ -224,7 +224,7 @@ uint32 StartService();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Хотя может показаться, что непрактичное различие между остановленной службой и приостановленной службой, два состояния по-разному отображаются в SCM. Остановленная служба — это служба, которая не запущена и должна проходить всю процедуру запуска службы. Однако Приостановленная служба все еще работает, но ее работа приостановлена. По этой причине Приостановленная служба не обязана проходить всю процедуру запуска службы, но для ее возобновления требуется другая процедура.
 
@@ -249,7 +249,7 @@ uint32 StartService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

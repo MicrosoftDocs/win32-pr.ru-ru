@@ -1,5 +1,5 @@
 ---
-description: Задает значения допуска для каждого компонента вершины при сравнении вершин, чтобы определить, достаточно ли они, чтобы они были связаны друг с другом.
+description: Структура D3DXWELDEPSILONS. задает значения допуска для каждого компонента вершины при сравнении вершин, чтобы определить, достаточно ли они, чтобы их можно было использовать одновременно.
 ms.assetid: 534903da-ff65-4629-9be9-66c9daed6ef5
 title: Структура D3DXWELDEPSILONS (D3dx9mesh. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 6b6673e16b153f53baf17967b7f33c4bcb40d518
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bb11e6f5481b1adf7cc1bac58edf40d4ac770e92
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647847"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115502"
 ---
 # <a name="d3dxweldepsilons-structure"></a>Структура D3DXWELDEPSILONS
 
@@ -158,7 +158,7 @@ typedef struct _D3DXWELDEPSILONS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип LPD3DXWELDEPSILONS определяется как указатель на структуру **D3DXWELDEPSILONS** .
 
@@ -179,7 +179,7 @@ typedef D3DXWELDEPSILONS *LPD3DXWELDEPSILONS;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
 title: диспетчер окон рабочего стола
-description: .
+description: диспетчер окон рабочего стола
 ms.assetid: 79250d49-dad5-46c6-892d-b92dac14b417
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73167b762a9952eb508f09e70f3d4183b3b7a018
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4fca8550134ba0c1cdafe0bd5c349061ef900a9e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329792"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103902"
 ---
 # <a name="the-desktop-window-manager"></a>диспетчер окон рабочего стола
 
@@ -37,9 +37,9 @@ DWM предоставляет несколько преимуществ по с
 
 [Режим сохраняемости и режим интерпретации](retained-mode-versus-immediate-mode.md)
 
- 
+ 
 
- 
+ 
 
 
 

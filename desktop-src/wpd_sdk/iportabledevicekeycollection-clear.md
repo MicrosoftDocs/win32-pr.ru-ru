@@ -1,5 +1,5 @@
 ---
-description: Метод Clear удаляет все элементы из коллекции.
+description: 'Метод Ипортабледевицекэйколлектион:: Clear. метод Clear удаляет все элементы из коллекции.'
 ms.assetid: d5477ded-d0bd-4909-abb1-6ff282cf7925
 title: 'Метод Ипортабледевицекэйколлектион:: Clear (Портабледевицетипес. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: e72f20d93ddbdf521bcd83c1fe07d75f74abd463
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e5efb8b3784b9ddc04a9e28a83c39ef75d723b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708506"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106812"
 ---
 # <a name="iportabledevicekeycollectionclear-method"></a>Метод Ипортабледевицекэйколлектион:: Clear
 
@@ -63,7 +63,7 @@ HRESULT Clear();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Простой тип UInt32Type (журнал событий Windows)
-description: Определяет целочисленный тип без знака.
+description: Простой тип UInt32Type (журнал событий Windows) — определяет целочисленный тип без знака.
 ms.assetid: 11e99c26-3be7-4fac-b3e1-97cb0428a886
 keywords:
 - Журнал событий простого типа UInt32Type
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f2a24326197c72b08032f5144fea1a69fbe68089
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 631bb3e8424db8a5d781aaa43df6096730aaa4d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988605"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090572"
 ---
 # <a name="uint32type-simple-type-windows-event-log"></a>Простой тип UInt32Type (журнал событий Windows)
 

@@ -1,15 +1,15 @@
 ---
-description: Операция прервана из-за ошибки.
+description: EC_ERRORABORTEX — операция прервана из-за ошибки.
 ms.assetid: de7b5222-3a29-40cc-af1a-2672bd68b7c9
 title: EC_ERRORABORTEX (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8465825b93207059e5f2ea5f054deb7c3fd5619f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9b3bf1e1f24f9d5b07312f542c1ce4ea671f601d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679737"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094612"
 ---
 # <a name="ec_errorabortex"></a>EC \_ еррорабортекс
 
@@ -51,7 +51,7 @@ ms.locfileid: "105679737"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

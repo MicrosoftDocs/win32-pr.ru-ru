@@ -1,6 +1,6 @@
 ---
 title: Метод Усерконтролсервице класса Win32_Service (службы удаленных рабочих столов)
-description: Пытается отправить определяемый пользователем код элемента управления в указанную службу.
+description: Метод Усерконтролсервице класса Win32_Service (службы удаленных рабочих столов) — пытается отправить определяемый пользователем код элемента управления в указанную службу.
 ms.assetid: 7B9020C1-2183-4FC4-ABCF-CE34111FF5D3
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b1ea4f5e82814aad7549085070b0583993024b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e71a33056f596afaf577968a5c725b3f64f79b6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492738"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090612"
 ---
 # <a name="usercontrolservice-method-of-the-win32_service-class-remote-desktop-services"></a>Метод Усерконтролсервице класса Win32_Service (службы удаленных рабочих столов)
 
@@ -247,7 +247,7 @@ uint32 UserControlService(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

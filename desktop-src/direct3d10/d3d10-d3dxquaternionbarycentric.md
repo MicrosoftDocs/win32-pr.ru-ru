@@ -1,5 +1,5 @@
 ---
-description: Возвращает кватернион в координатах барицентрик.
+description: Функция D3DXQuaternionBaryCentric (D3DX10Math. h) — возвращает кватернион в координатах барицентрик.
 ms.assetid: 0a8d8d5a-f486-4457-86e9-27e76eaf1bc4
 title: Функция D3DXQuaternionBaryCentric (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: f7cdfcf5b8e7052fcbea72f12123a0ea44422853
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 00d8e41a0173b7b26083f38beb82417365ef7067
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674747"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108782"
 ---
 # <a name="d3dxquaternionbarycentric-function-d3dx10mathh"></a>Функция D3DXQuaternionBaryCentric (D3DX10Math. h)
 
@@ -105,7 +105,7 @@ D3DXQUATERNION* D3DXQuaternionBaryCentric(
 
 Указатель на структуру D3DXQUATERNION в координатах Барицентрик.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы вычислить координаты барицентрик, функция D3DXQuaternionBaryCentric реализует следующую последовательность сферческих операций интерполяции.
 
@@ -133,7 +133,7 @@ Slerp(Slerp(Q1, Q2, f+g), Slerp(Q1, Q3, f+g), g/(f+g))
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

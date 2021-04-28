@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Саурцеитем
 ms.assetid: 26b8788e-db69-43ec-befb-410edf0f42d1
 title: System. Саурцеитем
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0797f92c6ae8be0d9fda939a67d71e76f17ec3b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1e5f13eada45304c0ce354bd86792aab3d99190
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999707"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097293"
 ---
 # <a name="systemsourceitem"></a>System. Саурцеитем
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

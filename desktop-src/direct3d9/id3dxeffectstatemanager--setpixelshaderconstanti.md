@@ -1,5 +1,5 @@
 ---
-description: Функция обратного вызова, которая должна быть реализована пользователем для задания массива целочисленных констант шейдера вершин.
+description: 'Метод ID3DXEffectStateManager:: Сетпикселшадерконстанти — функция обратного вызова, которая должна быть реализована пользователем для установки массива целочисленных констант шейдера вершин.'
 ms.assetid: 55f5747d-b7f8-4d13-ac2c-df2dcb160091
 title: 'Метод ID3DXEffectStateManager:: Сетпикселшадерконстанти (D3DX9Effect. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 2e84d883370038435dc59bb948ef94fcd82223db
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 53eab5993ee737efe866c73a550e6b216edaac3b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713784"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090482"
 ---
 # <a name="id3dxeffectstatemanagersetpixelshaderconstanti-method"></a>Метод ID3DXEffectStateManager:: Сетпикселшадерконстанти
 
@@ -89,7 +89,7 @@ HRESULT SetPixelShaderConstantI(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

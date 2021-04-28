@@ -1,5 +1,5 @@
 ---
-description: Этот API недоступен для всех приложений. Если приложение не будет специально подготовлено корпорацией Майкрософт, вызовы этих API будут завершаться ошибкой во время выполнения.
+description: 'Метод Ифидбаккхубаппинфо:: Жетинсталледлегациаппс — этот API недоступен для всех приложений. Если приложение не будет специально подготовлено корпорацией Майкрософт, вызовы этих API будут завершаться ошибкой во время выполнения.'
 ms.assetid: 84135D6F-8232-4CE5-AD38-D18823F0E174
 title: 'Метод Ифидбаккхубаппинфо:: Жетинсталледлегациаппс'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 112dd6c1acd74fdaa7e99e48b0e4c14486749438
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 167be3846322a1b3aacdf752374b9b0089220963
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104351932"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096702"
 ---
 # <a name="ifeedbackhubappinfogetinstalledlegacyapps-method"></a>Метод Ифидбаккхубаппинфо:: Жетинсталледлегациаппс
 
@@ -60,7 +60,7 @@ virtual void GetInstalledLegacyApps(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

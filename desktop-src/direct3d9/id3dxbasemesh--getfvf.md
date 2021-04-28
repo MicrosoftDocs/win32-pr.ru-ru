@@ -1,5 +1,5 @@
 ---
-description: Возвращает значение фиксированной вершины функции.
+description: 'Метод ID3DXBaseMesh:: Жетфвф — получает значение фиксированной вершины функции.'
 ms.assetid: ed56ff2d-0366-426c-9f9a-7d1a7c5d1a7c
 title: 'Метод ID3DXBaseMesh:: Жетфвф (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7ee76292c30b3dfb0a2e38b060f50ef643ae07ae
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4e37db51238137d67ba6e060ecfafb7d1361727e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000402"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115442"
 ---
 # <a name="id3dxbasemeshgetfvf-method"></a>Метод ID3DXBaseMesh:: Жетфвф
 
@@ -44,7 +44,7 @@ DWORD GetFVF();
 
 Возвращает коды гибких форматов вершин (ФВФ).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод может возвращать значение 0, если формат вершин не может быть напрямую сопоставлен с кодом ФВФ. Это произойдет для сетки, созданной из объявления вершины, которая не имеет тех же порядка и элементов, которые поддерживаются кодами ФВФ.
 
@@ -59,7 +59,7 @@ DWORD GetFVF();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

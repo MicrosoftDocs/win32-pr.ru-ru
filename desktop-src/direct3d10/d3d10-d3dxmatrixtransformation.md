@@ -1,5 +1,5 @@
 ---
-description: Формирует матрицу преобразования. Аргументы NULL обрабатываются как преобразования Identity.
+description: Функция D3DXMatrixTransformation (D3DX10Math. h) — создает матрицу преобразования. Аргументы NULL обрабатываются как преобразования Identity.
 ms.assetid: 99c75ce9-3683-4753-b635-760eb8aaf46e
 title: Функция D3DXMatrixTransformation (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: db1d88ad04e4aaa51232cfdba3168779805b22c3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 10ed63b292dd69acb58d8567e6336b5aab4f7997
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720961"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108902"
 ---
 # <a name="d3dxmatrixtransformation-function-d3dx10mathh"></a>Функция D3DXMatrixTransformation (D3DX10Math. h)
 
@@ -115,7 +115,7 @@ D3DXMATRIX* D3DXMatrixTransformation(
 
 Указатель на структуру D3DXMATRIX, которая является матрицей преобразования.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция вычисляет матрицу преобразования с помощью следующей формулы, при этом сцепление матрицы вычисляется в порядке слева направо:
 
@@ -152,7 +152,7 @@ MT = матрица перевода (Птранслатион)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

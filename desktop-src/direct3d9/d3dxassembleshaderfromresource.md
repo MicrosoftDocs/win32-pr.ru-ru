@@ -1,5 +1,5 @@
 ---
-description: Сборка шейдера.
+description: Функция D3DXAssembleShaderFromResource — формирование шейдера.
 ms.assetid: a0d31b15-db79-4aa8-afd8-fa1e20c61725
 title: Функция D3DXAssembleShaderFromResource (D3DX9Shader. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5e748764eec94ea1f555c225c34680392610c9f5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 78df978201df37269b7d33058effc16eadc9d16f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647889"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116021"
 ---
 # <a name="d3dxassembleshaderfromresource-function"></a>Функция D3DXAssembleShaderFromResource
 
@@ -115,7 +115,7 @@ HRESULT D3DXAssembleShaderFromResource(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXAssembleShaderFromResourceW. В противном случае вызов функции разрешается в D3DXAssembleShaderFromResourceA, так как используются строки ANSI.
 
@@ -130,7 +130,7 @@ HRESULT D3DXAssembleShaderFromResource(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

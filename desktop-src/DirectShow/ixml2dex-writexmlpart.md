@@ -1,5 +1,5 @@
 ---
-description: Не реализован.
+description: 'Метод IXml2Dex:: Вритексмлпарт не реализован.'
 ms.assetid: d0fc571f-79f5-448a-8082-6e5f7f48118f
 title: 'Метод IXml2Dex:: Вритексмлпарт'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 8f194fe409d8ea94f786fe3802b2c758a1a00520
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 957fa74f09a79f94e2e0feb35c418a711c91c1b0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673069"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084362"
 ---
 # <a name="ixml2dexwritexmlpart-method"></a>Метод IXml2Dex:: Вритексмлпарт
 
@@ -78,7 +78,7 @@ HRESULT WriteXMLPart(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -90,7 +90,7 @@ HRESULT WriteXMLPart(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

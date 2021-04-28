@@ -1,6 +1,6 @@
 ---
 title: Метод Create класса Win32_Service (службы удаленных рабочих столов)
-description: Создает новую системную службу.
+description: Метод Create класса Win32_Service (службы удаленных рабочих столов) — создает новую системную службу.
 ms.assetid: 805754AA-B62A-4324-B289-503C42BEFA49
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be44d6c67e0d5bd6333f57c44cc44c25dc64e04a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9daf877f56bb7e9bfcc349e4efb38635a9286a48
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491601"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090692"
 ---
 # <a name="create-method-of-the-win32_service-class-remote-desktop-services"></a>Метод Create класса Win32_Service (службы удаленных рабочих столов)
 
@@ -441,7 +441,7 @@ uint32 Create(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Службы обычно устанавливаются одним из двух способов: либо как часть установки операционной системы, либо с помощью программы установки, предоставляемой разработчиком службы. Однако некоторые службы, в частности созданные в Организации, могут не иметь программы установки. В этих случаях для программной установки служб можно использовать метод **CREATE** .
 
@@ -465,7 +465,7 @@ uint32 Create(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Извлекает количество лиц в сетке.
+description: 'Метод ID3DX10Mesh:: Жетфацекаунт — получает количество сторон в сетке.'
 ms.assetid: a36b758b-4805-4b01-98ce-a8ee7bc1f3b5
 title: 'Метод ID3DX10Mesh:: Жетфацекаунт (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: cf8a5a207703c48b4138c63e429bd57a9d8fb17d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 13efa3ccdd5c9ae3b5f255ae08a456187e7ed4cf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355280"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084001"
 ---
 # <a name="id3dx10meshgetfacecount-method"></a>Метод ID3DX10Mesh:: Жетфацекаунт
 
@@ -55,7 +55,7 @@ UINT GetFaceCount();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

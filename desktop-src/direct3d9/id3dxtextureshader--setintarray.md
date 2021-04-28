@@ -1,5 +1,5 @@
 ---
-description: Задает массив целых чисел.
+description: 'Метод ID3DXTextureShader:: Сетинтаррай — задает массив целых чисел.'
 ms.assetid: 1ceb8bb0-d168-49cf-8964-8ae582b5ec2e
 title: 'Метод ID3DXTextureShader:: Сетинтаррай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d2e43ac1451ec776339d7aba1a4b0288e948f43d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0ddc00637bddf2810e73be7755a9dcfb8696053e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713716"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097492"
 ---
 # <a name="id3dxtextureshadersetintarray-method"></a>Метод ID3DXTextureShader:: Сетинтаррай
 
@@ -86,7 +86,7 @@ HRESULT SetIntArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

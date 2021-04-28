@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Жетколорконтекстс.
+description: IWICBitmapDecoder_GetColorContexts_Proxy функция-прокси для метода Жетколорконтекстс.
 ms.assetid: 2a6db3bd-d3e1-4e87-a04d-0d1c3ea858fb
 title: Функция IWICBitmapDecoder_GetColorContexts_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 737ad4b8bbb0014a04129d3a264cecaed4b5fe8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e550ca4ebd863e58a4bd285c48a2a01aad059b03
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702402"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086262"
 ---
 # <a name="iwicbitmapdecoder_getcolorcontexts_proxy-function"></a>Ивикбитмапдекодер \_ жетколорконтекстс \_ -функция
 
@@ -46,9 +46,9 @@ HRESULT IWICBitmapDecoder_GetColorContexts_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапдекодер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) \** _
+Тип: **[ **ивикбитмапдекодер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)\***
 
-Указатель на этот объект [_ *ивикбитмапдекодер* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) .
+Указатель на этот объект [**ивикбитмапдекодер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) .
 
 </dd> <dt>
 
@@ -75,7 +75,7 @@ HRESULT IWICBitmapDecoder_GetColorContexts_Proxy(
 *пкактуалкаунт* \[ заполняет\]
 </dt> <dd>
 
-Тип: **uint \** _
+Тип: **uint \***
 
 Указатель, получающий количество цветовых контекстов, содержащихся в изображении.
 
@@ -83,7 +83,7 @@ HRESULT IWICBitmapDecoder_GetColorContexts_Proxy(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 

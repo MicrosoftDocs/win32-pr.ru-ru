@@ -1,5 +1,5 @@
 ---
-description: Поворачивает сферический гармонической (SH) вектор на оси z на заданный угол.
+description: Функция D3DXSHRotateZ (D3DX10. h) — поворачивает сферическую гармонию (SH) на оси z на заданный угол.
 ms.assetid: 7c4bec55-4a4c-4f7e-8849-1cac373a2340
 title: Функция D3DXSHRotateZ (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0348dd8dfed9b100f64c53427ca2b77dd48ccded
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 55e4663057bd25ac9768a5913963a5511b662f11
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000438"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108532"
 ---
 # <a name="d3dxshrotatez-function-d3dx10h"></a>Функция D3DXSHRotateZ (D3DX10. h)
 
@@ -85,7 +85,7 @@ FLOAT* D3DXSHRotateZ(
 
 Указатель на коэффициенты вывода SH.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый коэффициент базисной функции илм хранится в памяти l ² + m + l, где:
 
@@ -103,7 +103,7 @@ FLOAT* D3DXSHRotateZ(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

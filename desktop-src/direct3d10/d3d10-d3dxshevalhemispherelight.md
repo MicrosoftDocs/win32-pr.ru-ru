@@ -1,5 +1,5 @@
 ---
-description: Вычисляет освещение, которое является линейной интерполяцией между двумя цветами в сфере.
+description: Функция D3DXSHEvalHemisphereLight (D3DX10. h) — вычисляет освещение, которое является линейной интерполяцией между двумя цветами в сфере.
 ms.assetid: 7523ff42-c81d-4857-a50d-7efa213214b8
 title: Функция D3DXSHEvalHemisphereLight (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c6ff3359ce0629eec472e4da24a31c24196c7f15
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 355dae7b843d5acfbb842b7bd08c329bdaed4306
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355323"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108572"
 ---
 # <a name="d3dxshevalhemispherelight-function-d3dx10h"></a>Функция D3DXSHEvalHemisphereLight (D3DX10. h)
 
@@ -115,7 +115,7 @@ HRESULT D3DXSHEvalHemisphereLight(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерполяция выполняется линейно между двумя точками, а не за поверхностью сферы (т. е. Если ось имеет значение (0, 0, 1), линейная — Z, а не в азимусал углом). Результирующая функция сферического освещения нормализована таким образом, что точка на идеально рассеянной поверхности без тени и обычной, направленной в направлении Пдир, приведет к выходу радианце со значением 1 (если верхний цвет был белым и нижний цвет был черным). Это очень простая модель, где Top представляет интенсивность "небесной" и нижней части представляет интенсивность "заземления".
 
@@ -138,7 +138,7 @@ HRESULT D3DXSHEvalHemisphereLight(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Формирует матрицу правой ортогональной проекции.
+description: Функция D3DXMatrixOrthoRH (D3dx9math. h) — формирует матрицу правой ортогональной проекции.
 ms.assetid: 6b9b50d5-0307-4fc7-a28d-8f42d2a21bf0
 title: Функция D3DXMatrixOrthoRH (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 00df0ee06768e4d57a68291dd1716e4a4574507e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d34a8379851d80ae8734c7f32cc0dc5977af2088
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713478"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107442"
 ---
 # <a name="d3dxmatrixorthorh-function-d3dx9mathh"></a>Функция D3DXMatrixOrthoRH (D3dx9math. h)
 
@@ -95,7 +95,7 @@ D3DXMATRIX* D3DXMatrixOrthoRH(
 
 Указатель на результирующий [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все параметры функции **D3DXMatrixOrthoRH** — это расстояния в пространстве камеры. Параметры описывают размеры представления объема.
 
@@ -124,7 +124,7 @@ D3DXMATRIX* D3DXMatrixOrthoRH(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

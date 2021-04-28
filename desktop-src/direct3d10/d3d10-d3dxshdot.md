@@ -1,5 +1,5 @@
 ---
-description: Рассчитывает скалярное произведение двух сферических гармонических (SH) векторов.
+description: Функция D3DXSHDot (D3DX10. h) — подсчитывает скалярное произведение двух сферических гармонических (SH) векторов.
 ms.assetid: 30f0e858-4c31-4b25-9979-754d996a7d48
 title: Функция D3DXSHDot (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 20f0896168dae0e2a779625c683777938c8e2df2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3ea3e839ff7a5fc038cf40a6402db4a358da8b39
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703906"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108632"
 ---
 # <a name="d3dxshdot-function-d3dx10h"></a>Функция D3DXSHDot (D3DX10. h)
 
@@ -75,7 +75,7 @@ FLOAT D3DXSHDot(
 
 Коэффициенты вывода SH.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый коэффициент базисной функции илм хранится в памяти l ² + m + l, где:
 
@@ -93,7 +93,7 @@ FLOAT D3DXSHDot(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

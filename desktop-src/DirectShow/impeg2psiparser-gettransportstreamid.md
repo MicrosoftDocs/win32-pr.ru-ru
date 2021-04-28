@@ -1,5 +1,5 @@
 ---
-description: Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.
+description: 'Метод IMpeg2PsiParser:: Жеттранспортстреамид. Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.'
 ms.assetid: 0c35abc0-984f-42df-a2a2-30cd400d4599
 title: 'Метод IMpeg2PsiParser:: Жеттранспортстреамид'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 9615c50d8d16aa6d78e3e1b83a3ec0e356c6cb50
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a24253b021abacf398a3a169b63bbb2f01ec2354
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673075"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084572"
 ---
 # <a name="impeg2psiparsergettransportstreamid-method"></a>Метод IMpeg2PsiParser:: Жеттранспортстреамид
 
@@ -61,7 +61,7 @@ HRESULT GetTransportStreamId(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

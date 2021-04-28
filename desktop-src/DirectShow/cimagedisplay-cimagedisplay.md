@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Цимажедисплай. Цимажедисплай.
 ms.assetid: 171a4f1e-a85d-4da8-9372-054aaa0e0a40
 title: Конструктор Цимажедисплай. Цимажедисплай (Винутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b9a6f902d75d104dbdcb7e04cc71a5ce7565185e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 389ac06488762d95afa1894f7cfc27d2f9e2725e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679848"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085652"
 ---
 # <a name="cimagedisplaycimagedisplay-constructor"></a>Цимажедисплай. Цимажедисплай, конструктор
 
@@ -40,7 +40,7 @@ CImageDisplay();
 
 Этот конструктор не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Конструктор инициализирует тип формата, используя параметры экрана для основного устройства вывода.
 
@@ -55,7 +55,7 @@ CImageDisplay();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
