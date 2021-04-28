@@ -1,5 +1,5 @@
 ---
-description: Запрашивает изменение состояния.
+description: Метод RequestStateChange класса Msvm_TransparentBridgingService — запрашивает изменение состояния.
 ms.assetid: d0a75ede-7f59-4464-abea-e5a84a7f16da
 title: Метод RequestStateChange класса Msvm_TransparentBridgingService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d4a549c12a825a96456df7844b947b0652caf277
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e50953804a99ee820902382d2ba70be30790fd7f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155171"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111142"
 ---
 # <a name="requeststatechange-method-of-the-msvm_transparentbridgingservice-class"></a>Метод RequestStateChange \_ класса мсвм транспарентбридгингсервице
 
@@ -157,7 +157,7 @@ uint32 RequestStateChange(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -165,7 +165,7 @@ uint32 RequestStateChange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

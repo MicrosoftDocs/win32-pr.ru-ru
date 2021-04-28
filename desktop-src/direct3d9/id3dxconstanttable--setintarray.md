@@ -1,5 +1,5 @@
 ---
-description: Задает массив целых чисел.
+description: 'Метод ID3DXConstantTable:: Сетинтаррай — задает массив целых чисел.'
 ms.assetid: 15add9df-966d-45aa-b29c-d4bed2a125f4
 title: 'Метод ID3DXConstantTable:: Сетинтаррай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9f89de7d784ce355570d369606bfa67ddd6f5acf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f674bc730398c386856314a7e7305f33f3e7fa1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713731"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115112"
 ---
 # <a name="id3dxconstanttablesetintarray-method"></a>Метод ID3DXConstantTable:: Сетинтаррай
 
@@ -96,7 +96,7 @@ HRESULT SetIntArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

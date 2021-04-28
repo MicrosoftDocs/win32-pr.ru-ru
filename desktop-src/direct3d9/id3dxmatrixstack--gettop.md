@@ -1,5 +1,5 @@
 ---
-description: Извлекает текущую матрицу в верхней части стека.
+description: 'Метод ID3DXMATRIXStack:: GetTop (D3dx9math. h) — получает текущую матрицу в верхней части стека.'
 ms.assetid: 0e20af0a-a332-4cb5-bf87-2ec75aa170ab
 title: 'Метод ID3DXMATRIXStack:: GetTop (D3dx9math. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5e635f2a825bf73234322066910c15af636ec9d7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7e596551682805d13704e9ea85f82784a57b333e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713557"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093582"
 ---
 # <a name="id3dxmatrixstackgettop-method-d3dx9mathh"></a>Метод ID3DXMATRIXStack:: GetTop (D3dx9math. h)
 
@@ -44,7 +44,7 @@ D3DXMATRIX* GetTop();
 
 Этот метод возвращает указатель на структуру [**D3DXMATRIX**](d3dxmatrix.md) , представляющую текущую матрицу.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Указатель [**D3DXMATRIX**](d3dxmatrix.md) , возвращаемый этим методом, не обязательно должен быть допустимым после последующих операций с стеком.
 
@@ -61,7 +61,7 @@ D3DXMATRIX* GetTop();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

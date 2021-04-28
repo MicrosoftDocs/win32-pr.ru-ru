@@ -1,5 +1,5 @@
 ---
-description: Метод деструктора.
+description: Метод деструктора Кпуллпин. ~ Кпуллпин.
 ms.assetid: 06167630-3b75-4433-8b2f-2127ffb4d389
 title: Деструктор Кпуллпин. ~ Кпуллпин (Пуллпин. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ecf825348672728d3083a2ce9ae4e44c1ea17bca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e8f0b72716dcbfb438a84eb1ce852f8fc07f2898
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675592"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085492"
 ---
 # <a name="cpullpincpullpin-destructor"></a>Деструктор Кпуллпин. ~ Кпуллпин
 
@@ -47,7 +47,7 @@ ms.locfileid: "105675592"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

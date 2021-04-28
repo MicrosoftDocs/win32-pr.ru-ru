@@ -1,5 +1,5 @@
 ---
-description: Задает массив логических значений.
+description: 'Метод ID3DXConstantTable:: Сетбуларрай — задает массив логических значений.'
 ms.assetid: 323ad654-81e3-4986-a667-8333dd44a2d1
 title: 'Метод ID3DXConstantTable:: Сетбуларрай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d573a2c44b54809ec259a0ceb5abab02ef37df34
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c967ffd1a6601144787621628ed1b019e775eddd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694187"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115212"
 ---
 # <a name="id3dxconstanttablesetboolarray-method"></a>Метод ID3DXConstantTable:: Сетбуларрай
 
@@ -96,7 +96,7 @@ HRESULT SetBoolArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Функция обратного вызова, которая должна быть реализована пользователем для установки массива констант с плавающей точкой шейдера вершин.
+description: 'Метод ID3DXEffectStateManager:: Сетпикселшадерконстантф — функция обратного вызова, которая должна быть реализована пользователем для установки массива констант с плавающей запятой вершин.'
 ms.assetid: db87ca8c-2539-4d80-854c-25b114a7e7e0
 title: 'Метод ID3DXEffectStateManager:: Сетпикселшадерконстантф (D3DX9Effect. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 19e8654fbc851460fea932a8c858240c5e4631de
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f73963e98d4951eaf2905cc5da6eab3a6409f220
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713785"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090462"
 ---
 # <a name="id3dxeffectstatemanagersetpixelshaderconstantf-method"></a>Метод ID3DXEffectStateManager:: Сетпикселшадерконстантф
 
@@ -89,7 +89,7 @@ HRESULT SetPixelShaderConstantF(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

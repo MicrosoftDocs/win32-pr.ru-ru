@@ -1,5 +1,5 @@
 ---
-description: Определяет данные, необходимые для вызова диалогового окна устройства.
+description: Структура ДЕВИЦЕДИАЛОГДАТА — определяет данные, необходимые для вызова диалогового окна устройства.
 ms.assetid: 424defa6-1452-4a8b-bacc-738209c236c3
 title: Структура ДЕВИЦЕДИАЛОГДАТА (Виадефд. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadefd.h
-ms.openlocfilehash: 621cab4f56b39ac900048018463935b55f0eddec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad7b08f5396a7a6e9b1f74df3dd409303b2d548d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545567"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104272"
 ---
 # <a name="devicedialogdata-structure"></a>Структура ДЕВИЦЕДИАЛОГДАТА
 
@@ -70,11 +70,11 @@ typedef struct {
 **пивиаитемрут**
 </dt> <dd>
 
-Тип: **[**ивиаитем**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) \** _
+Тип: **[ **ивиаитем**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem)\***
 
 </dd> <dd>
 
-Указывает на интерфейс [_ *ивиаитем* *](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) , представляющий допустимый корневой элемент в дереве элементов приложения.
+Указывает на интерфейс [**ивиаитем**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) , представляющий допустимый корневой элемент в дереве элементов приложения.
 
 </dd> <dt>
 

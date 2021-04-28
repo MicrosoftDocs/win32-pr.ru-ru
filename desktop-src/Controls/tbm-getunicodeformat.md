@@ -1,6 +1,6 @@
 ---
 title: Сообщение TBM_GETUNICODEFORMAT (Коммктрл. h)
-description: Возвращает флаг формата символов Юникода для элемента управления.
+description: TBM_GETUNICODEFORMAT сообщение — получает флаг формата символов Юникода для элемента управления.
 ms.assetid: cecd7e55-f482-4381-bde8-a60b8c5173eb
 keywords:
 - Элементы управления Windows для TBM_GETUNICODEFORMAT сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a9fafad2504e51a65b879e58298c5cd06f1f345
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 82e7424a4e561ee8f8be79135309089fe4bb0bf9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891954"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104092"
 ---
 # <a name="tbm_getunicodeformat-message"></a>\_Сообщение ТБМ жетуникодеформат
 
@@ -39,7 +39,7 @@ ms.locfileid: "103891954"
 
 Возвращает флаг формата Юникода для элемента управления. Если это значение не равно нулю, то элемент управления использует символы Юникода. Если это значение равно нулю, то элемент управления использует символы ANSI.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обсуждение этого сообщения см. в примечаниях по [**CCM \_ жетуникодеформат**](ccm-getunicodeformat.md) .
 
@@ -55,7 +55,7 @@ ms.locfileid: "103891954"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

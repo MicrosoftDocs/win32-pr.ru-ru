@@ -1,5 +1,5 @@
 ---
-description: Не поддерживается.
+description: 'Метод Иамтимелинеобж:: Сетсубобжект не поддерживается.'
 ms.assetid: a74db99b-d7ee-49df-84f1-a84e7a2f7d92
 title: 'Метод Иамтимелинеобж:: Сетсубобжект (Кедит. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 3299c5286fba4597b01a9d09c31e098a1438de76
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4b93d95f2381f4f894cbda1edbff5d9262b7be93
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689140"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098512"
 ---
 # <a name="iamtimelineobjsetsubobject-method"></a>Метод Иамтимелинеобж:: Сетсубобжект
 
@@ -56,7 +56,7 @@ HRESULT SetSubObject(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -79,7 +79,7 @@ HRESULT SetSubObject(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

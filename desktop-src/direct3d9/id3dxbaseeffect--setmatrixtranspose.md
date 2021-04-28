@@ -1,5 +1,5 @@
 ---
-description: Задает трансобъектную матрицу.
+description: 'Метод ID3DXBaseEffect:: Сетматрикстранспосе — задает перекладываемую матрицу.'
 ms.assetid: d340b058-6ba5-43ec-b398-111064965730
 title: 'Метод ID3DXBaseEffect:: Сетматрикстранспосе (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: f62847f7b15899389cbd5f207ce810b0ed0dd119
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 384d4a7ed5e1b769218b9290ed6cc0f7f060bd66
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720863"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107402"
 ---
 # <a name="id3dxbaseeffectsetmatrixtranspose-method"></a>Метод ID3DXBaseEffect:: Сетматрикстранспосе
 
@@ -65,7 +65,7 @@ HRESULT SetMatrixTranspose(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переданная матрица содержит основные данные столбца. то есть каждый вектор содержится в столбце.
 
@@ -82,7 +82,7 @@ HRESULT SetMatrixTranspose(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

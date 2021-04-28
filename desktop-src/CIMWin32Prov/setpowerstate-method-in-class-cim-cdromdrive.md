@@ -1,5 +1,5 @@
 ---
-description: Метод SetPowerState задает требуемое состояние электропитания для логического устройства и когда устройство должно быть переведено в это состояние.
+description: Метод SetPowerState класса CIM_CDROMDrive. Метод SetPowerState задает требуемое состояние электропитания для логического устройства и когда устройство должно быть переведено в это состояние.
 ms.assetid: 2f252d65-55ad-43b2-bee4-d5db24ca9d29
 ms.tgt_platform: multiple
 title: Метод SetPowerState класса CIM_CDROMDrive
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 76b5d60c60b3a2b3a30092cb3b962ea12c5bb6a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a8a69b3f3d810fe48b7a0e1d31a57a96e279d14a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807144"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089502"
 ---
 # <a name="setpowerstate-method-of-the-cim_cdromdrive-class"></a>Метод SetPowerState \_ класса CIM кдромдриве
 
@@ -106,7 +106,7 @@ uint32 SetPowerState(
 
 Возвращает 0 (нуль) в случае успеха, 1 (один), если *указанный запрос* о сбое и *время* не поддерживаются, и другое значение, если произошла какая-либо другая ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -126,7 +126,7 @@ uint32 SetPowerState(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

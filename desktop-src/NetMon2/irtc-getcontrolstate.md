@@ -1,5 +1,5 @@
 ---
-description: Метод Жетконтролстате Извлекает состояние записи, которое указывает, запущена или приостановлена запись.
+description: 'Метод ИРТК:: Жетконтролстате — метод Жетконтролстате Извлекает состояние записи, которое указывает, запущена или приостановлена запись.'
 ms.assetid: ae0cf869-bf5b-4c23-a924-014554053c92
 title: 'Метод ИРТК:: Жетконтролстате (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d437d9463ed3225cd3a474e78220acf1f07af4bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2e41ad3e4119fffbada26fe3ebebdfe3bf82043
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898841"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110712"
 ---
 # <a name="irtcgetcontrolstate-method"></a>Метод ИРТК:: Жетконтролстате
 
@@ -72,7 +72,7 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод можно вызвать при каждом подключении НПП к сети. Этот метод можно использовать для определения того, выполняется ли запись, если запись приостановлена или если запись была остановлена, но НПП все еще подключена.
 
@@ -89,7 +89,7 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

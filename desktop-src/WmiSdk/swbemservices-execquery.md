@@ -1,5 +1,5 @@
 ---
-description: Выполняет запрос для получения объектов.
+description: SWbemServices.Exeметод Ккуери — выполняет запрос для получения объектов.
 ms.assetid: 06b9d4c9-cd72-49b2-92b0-d18d94dfbd9f
 ms.tgt_platform: multiple
 title: SWbemServices.Exeметод Ккуери (Wbemdisp. h)
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2f3a894681bafc71de34ae7722b985494ef80b4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3009d2dc88e9987a3559da91eed1aa5aa1b248f9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712101"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098341"
 ---
 # <a name="swbemservicesexecquery-method"></a>SWbemServices.Exeметод Ккуери
 
@@ -52,7 +52,7 @@ objWbemObjectSet = .ExecQuery( _
 *стркуери* 
 </dt> <dd>
 
-Обязательный. Строка, содержащая текст запроса. Этот параметр не может быть пустым. Дополнительные сведения о создании строк запросов WMI см. в разделе [запросы с помощью WQL](querying-with-wql.md) и Справочник по [WQL](wql-sql-for-wmi.md) .
+Обязательный элемент. Строка, содержащая текст запроса. Этот параметр не может быть пустым. Дополнительные сведения о создании строк запросов WMI см. в разделе [запросы с помощью WQL](querying-with-wql.md) и Справочник по [WQL](wql-sql-for-wmi.md) .
 
 </dd> <dt>
 
@@ -195,7 +195,7 @@ objWbemObjectSet = .ExecQuery( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **ExecQuery** — один из наиболее часто используемых вызовов для получения сведений WMI. Стандартный вызов **ExecQuery** выглядит следующим образом:
 
@@ -287,7 +287,7 @@ Next
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

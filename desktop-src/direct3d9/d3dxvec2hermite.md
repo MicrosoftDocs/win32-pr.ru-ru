@@ -1,5 +1,5 @@
 ---
-description: Выполняет интерполяцию Хермите сплайна с использованием указанных двумерных векторов.
+description: Функция D3DXVec2Hermite (D3dx9math. h) — выполняет интерполяцию Хермите сплайна с использованием указанных двумерных векторов.
 ms.assetid: 30eb9490-bc01-4449-adfb-1c552e8ad3e7
 title: Функция D3DXVec2Hermite (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d55b5453067f83544da5084f3e79ce70275362c5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 88073e23826362e1f9a753f411ac89ac1e272fc6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703766"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097992"
 ---
 # <a name="d3dxvec2hermite-function-d3dx9mathh"></a>Функция D3DXVec2Hermite (D3dx9math. h)
 
@@ -105,7 +105,7 @@ D3DXVECTOR2* D3DXVec2Hermite(
 
 Указатель на структуру [**D3DXVECTOR2**](d3dxvector2.md) , которая является результатом интерполяции хермите сплайна.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **D3DXVec2Hermite** выполняет интерполяцию от (позиционирован, тангенс) к (Поситионб, танжентб) с помощью интерполяции хермите сплайна.
 
@@ -160,7 +160,7 @@ Q (s) = (2S ³-3S ² + 1) v1 + (-2S ³ + 3S ²) v2 + (s ³-2S ² + s) T1 + (s ³
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

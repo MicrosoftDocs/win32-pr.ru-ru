@@ -1,5 +1,5 @@
 ---
-description: Удаление&\# 8194; Метод класса WMI удаляет существующую службу.
+description: Метод Delete класса Win32_Service (поставщики WMI CIMWin32) — удаление&\# 8194; Метод класса WMI удаляет существующую службу.
 ms.assetid: aa4e7630-3b19-47dd-acd1-4d1735acb819
 ms.tgt_platform: multiple
 title: Метод Delete класса Win32_Service (поставщики WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d06301c3620e144d72c2d4c4f3d8bc90e642374a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4031184e23e99fc54237ed0b0b4196fe6c075c5b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262657"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089582"
 ---
 # <a name="delete-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Метод Delete класса Win32_Service (поставщики WMI CIMWin32)
 
@@ -221,7 +221,7 @@ uint32 Delete();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По мере изменения организации может быть решено удалить определенные службы с определенных компьютеров. Внутренние и сторонние службы можно удалить с помощью инструментария WMI, а службы операционной системы можно удалить с помощью Sysocmgr.exe.
 
@@ -307,7 +307,7 @@ else
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

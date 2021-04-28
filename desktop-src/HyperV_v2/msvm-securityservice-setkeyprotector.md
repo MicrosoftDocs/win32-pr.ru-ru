@@ -1,5 +1,5 @@
 ---
-description: Задает предохранитель ключа для виртуальной системы.
+description: Метод Сеткэйпротектор класса Msvm_SecurityService — задает предохранитель ключа для виртуальной системы.
 ms.assetid: 84c114cb-a3a0-44f2-b862-38b05b96bd46
 title: Метод Сеткэйпротектор класса Msvm_SecurityService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 404baf0a529a6e96869fbcd355a81308f5d1e966
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b5eca7ddcc506d158175782e3e13796e56de267
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662583"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111412"
 ---
 # <a name="setkeyprotector-method-of-the-msvm_securityservice-class"></a>Метод Сеткэйпротектор \_ класса SecurityService мсвм
 
@@ -121,7 +121,7 @@ uint32 SetKeyProtector(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

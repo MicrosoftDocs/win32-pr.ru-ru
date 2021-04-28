@@ -1,5 +1,5 @@
 ---
-description: Создает новую сетку с переупорядоченными лицами и вершинами для оптимизации производительности рисования.
+description: 'Метод ID3DXMesh:: optimize — создает новую сетку с переупорядоченными лицами и вершинами для оптимизации производительности рисования.'
 ms.assetid: 6a9bf7b9-2cb9-4b42-92d9-2a121ff79284
 title: 'Метод ID3DXMesh:: optimize (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7752e08236094d7038a5e77ac1a679f787305022
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: debec1c0ee54e612ab0de832dbc5c2481dcefad8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000530"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093312"
 ---
 # <a name="id3dxmeshoptimize-method"></a>Метод ID3DXMesh:: OPTIMIZE
 
@@ -105,7 +105,7 @@ HRESULT Optimize(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод создает новую сетку. Перед запуском optimize приложение должно создать буфер соседей путем вызова [**ID3DXBaseMesh:: женератеаджаценци**](id3dxbasemesh--generateadjacency.md). В буфере соседка содержатся смежные данные, например список краев и сторон, расположенных рядом друг с другом.
 
@@ -122,7 +122,7 @@ HRESULT Optimize(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

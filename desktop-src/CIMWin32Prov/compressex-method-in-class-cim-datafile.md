@@ -1,5 +1,5 @@
 ---
-description: Использует сжатие NTFS для сжатия логического файла (или каталога), указанного в пути к объекту. Этот метод наследуется от CIM \_ LogicalFile.
+description: Метод Компрессекс класса CIM_DataFile — использует сжатие NTFS для сжатия логического файла (или каталога), указанного в пути к объекту. Этот метод наследуется от CIM \_ LogicalFile.
 ms.assetid: 553b6a90-d16c-4abb-9015-66fe8e1606f6
 ms.tgt_platform: multiple
 title: Метод Компрессекс класса CIM_DataFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 070a15a0fb134c92e7c436e071e09b7cc09fa5dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ccc155c04c6c25f38050bd37827eb0c2e2e0e73e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262538"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089792"
 ---
 # <a name="compressex-method-of-the-cim_datafile-class"></a>Метод Компрессекс \_ класса CIM File
 
@@ -88,7 +88,7 @@ uint32 CompressEx(
 **2**
 </dt> <dd>
 
-Доступ запрещен.
+Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
 
 </dd> <dt>
 
@@ -169,7 +169,7 @@ uint32 CompressEx(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **компрессекс** в [**\_ файле CIM**](cim-datafile.md) реализуется инструментарием WMI.
 
@@ -189,7 +189,7 @@ uint32 CompressEx(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

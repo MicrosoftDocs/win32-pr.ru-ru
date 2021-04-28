@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Квидеотрансформфилтер. Квидеотрансформфилтер.
 ms.assetid: 4dad635f-4637-4f40-9f02-a91b59d05278
 title: Конструктор Квидеотрансформфилтер. Квидеотрансформфилтер (Втранс. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 63e642182a0f968db5bda06e0af410d02455eb19
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 59609e09b252e56aded1669264bb98cdbe823e89
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679690"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084592"
 ---
 # <a name="cvideotransformfiltercvideotransformfilter-constructor"></a>Квидеотрансформфилтер. Квидеотрансформфилтер, конструктор
 
@@ -76,7 +76,7 @@ CVideoTransformFilter(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

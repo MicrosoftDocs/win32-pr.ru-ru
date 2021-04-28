@@ -1,5 +1,5 @@
 ---
-description: Описывает вектор с двумя компонентами, включая перегрузки операторов и приведения типов.
+description: Структура D3DXVECTOR2 (D3dx9math. h) — описывает вектор с двумя компонентами, включая перегрузки операторов и приведения типов.
 ms.assetid: e61ec1c8-00b5-491f-8fb1-be97218f6c68
 title: Структура D3DXVECTOR2 (D3dx9math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: f7f54dc67c038d7c22929b67c59e6b0331a5e545
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 79f66c0e9130a320042c9b914bad47e5f02f0d8a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105714048"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097612"
 ---
 # <a name="d3dxvector2-structure-d3dx9mathh"></a>Структура D3DXVECTOR2 (D3dx9math. h)
 
@@ -62,7 +62,7 @@ typedef struct D3DXVECTOR2 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="d3dxvector2-extensions"></a>Расширения D3DXVECTOR2
 
@@ -147,7 +147,7 @@ public:
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

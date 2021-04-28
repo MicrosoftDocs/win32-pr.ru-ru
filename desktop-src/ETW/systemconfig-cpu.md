@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий конфигурации ЦП.
+description: Класс SystemConfig_CPU — этот класс является классом типа событий для событий конфигурации ЦП.
 ms.assetid: 5a24be04-9e5e-4ba9-baaf-b58b79ad947b
 title: Класс SystemConfig_CPU
 ms.topic: reference
@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: d08d0eeac9aa2287576bbb6dfe0e8ce41f116e8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07efa01bf58aeadfdfe12cd5db4d010a7f6dbca0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985696"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106122"
 ---
 # <a name="systemconfig_cpu-class"></a>\_Класс ЦП системконфиг
 
@@ -50,13 +50,13 @@ class SystemConfig_CPU : SystemConfig
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ ЦП системконфиг** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ ЦП системконфиг** имеет следующие свойства.
 
@@ -201,7 +201,7 @@ class SystemConfig_CPU : SystemConfig
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

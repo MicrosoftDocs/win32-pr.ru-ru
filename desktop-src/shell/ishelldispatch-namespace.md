@@ -1,5 +1,5 @@
 ---
-description: Создает и возвращает объект Folder для указанной папки.
+description: Метод Ишеллдиспатч. NameSpace — создает и возвращает объект Folder для указанной папки.
 ms.assetid: CEA73705-1C27-4138-86C4-1715016E2ED8
 title: Метод Ишеллдиспатч. NameSpace (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 069752a5e81949889dce5539e3f23960a12c9736
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1db0a3969350b4be4bc32e027bf2000036e099f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543151"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100522"
 ---
 # <a name="ishelldispatchnamespace-method"></a>Ишеллдиспатч. NameSpace, метод
 
@@ -72,7 +72,7 @@ IShellDispatch.NameSpace( _
 
 Ссылка на объект [**Folder**](folder.md) для указанной папки. Если папка не была создана, это значение возвращает значение **null**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. Namespace**](shell-namespace.md) .
 

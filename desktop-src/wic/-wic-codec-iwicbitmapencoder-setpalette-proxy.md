@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Сетпалетте.
+description: IWICBitmapEncoder_SetPalette_Proxy функция-прокси для метода Сетпалетте.
 ms.assetid: d8e2c36e-6886-4959-b2a2-469bebfe1cdc
 title: Функция IWICBitmapEncoder_SetPalette_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 128953cd56c3bea17ec9761a2acf2b8bc89cacfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8503698a1e91b86698ba288e56cc65e4447c906e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541263"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091182"
 ---
 # <a name="iwicbitmapencoder_setpalette_proxy-function"></a>Ивикбитмапенкодер \_ сетпалетте \_ -функция
 
@@ -44,18 +44,18 @@ HRESULT IWICBitmapEncoder_SetPalette_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) \** _
+Тип: **[ **ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\***
 
-Указатель на этот объект [_ *ивикбитмапенкодер* *](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
+Указатель на этот объект [**ивикбитмапенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
 
 </dd> <dt>
 
 *пипалетте* \[ окне\]
 </dt> <dd>
 
-Тип: **[**ивикпалетте**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) \** _
+Тип: **[ **ивикпалетте**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette)\***
 
-Значение [_ *ивикпалетте* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) для использования в качестве глобальной палитры.
+[**Ивикпалетте**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) для использования в качестве глобальной палитры.
 
 </dd> </dl>
 

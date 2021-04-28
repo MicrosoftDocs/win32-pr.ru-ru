@@ -1,5 +1,5 @@
 ---
-description: Задает таблицу атрибутов для сетки и число записей, хранящихся в таблице.
+description: 'Метод ID3DX10Mesh:: Сетаттрибутетабле — задает таблицу атрибутов для сетки и число записей, хранящихся в таблице.'
 ms.assetid: 629fd31b-d88a-4650-82ed-ab7c40690986
 title: 'Метод ID3DX10Mesh:: Сетаттрибутетабле (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 808349b3f7456ebf3f8e1c3a7f9fdf2236db4beb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4e06b181bb512e16e9caaa0d233ebbd3472bfcf8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273873"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084012"
 ---
 # <a name="id3dx10meshsetattributetable-method"></a>Метод ID3DX10Mesh:: Сетаттрибутетабле
 
@@ -65,7 +65,7 @@ HRESULT SetAttributeTable(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если приложение отслеживает сведения в таблице атрибутов и переупорядочивает таблицу в результате изменений атрибутов или лиц, этот метод позволяет приложению обновлять таблицы атрибутов вместо вызова ID3DX10Mesh:: optimize.
 
@@ -80,7 +80,7 @@ HRESULT SetAttributeTable(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

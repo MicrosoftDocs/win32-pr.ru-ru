@@ -1,5 +1,5 @@
 ---
-description: Возвращает число ключей обратного вызова в наборе анимации.
+description: 'Метод ID3DXCompressedAnimationSet:: Жетнумкаллбакккэйс — возвращает число ключей обратного вызова в наборе анимации.'
 ms.assetid: 0c952a86-d252-4f65-95e1-2d1e1f6b7143
 title: 'Метод ID3DXCompressedAnimationSet:: Жетнумкаллбакккэйс (D3dx9anim. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b1119d39dbfa159464ace16a256dd80dd7751672
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: da9add6b52ae79632f6fa4bb67e9a2d524d1dace
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000386"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115312"
 ---
 # <a name="id3dxcompressedanimationsetgetnumcallbackkeys-method"></a>Метод ID3DXCompressedAnimationSet:: Жетнумкаллбакккэйс
 
@@ -55,7 +55,7 @@ UINT GetNumCallbackKeys();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

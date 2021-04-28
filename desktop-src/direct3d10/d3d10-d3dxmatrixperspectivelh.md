@@ -1,5 +1,5 @@
 ---
-description: Формирует матрицу левой проекции перспективы
+description: Функция D3DXMatrixPerspectiveLH (D3DX10Math. h) — строит матрицу левой проекции перспективы
 ms.assetid: 5fd8da67-ff12-42fa-b915-b50fa2680b32
 title: Функция D3DXMatrixPerspectiveLH (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 400967b5e4a25244c50dbd6093fa2079700ba4eb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a0f6c976f64fe64d3ca583351ae5c7c32aa958fd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720967"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109102"
 ---
 # <a name="d3dxmatrixperspectivelh-function-d3dx10mathh"></a>Функция D3DXMatrixPerspectiveLH (D3DX10Math. h)
 
@@ -95,7 +95,7 @@ Z-значение дальней плоскости просмотра.
 
 Указатель на структуру D3DXMATRIX, которая является матрицей перспективной проекции влево.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все параметры функции D3DXMatrixPerspectiveLH — это расстояния в пространстве камеры. Параметры описывают размеры представления объема.
 
@@ -124,7 +124,7 @@ Z-значение дальней плоскости просмотра.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

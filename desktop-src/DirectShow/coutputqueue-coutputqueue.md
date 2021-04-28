@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Каутпуткуеуе. Каутпуткуеуе.
 ms.assetid: 672c0337-0c36-4f53-9125-d02fe8b36b1c
 title: Конструктор Каутпуткуеуе. Каутпуткуеуе (Аутпутк. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: de4d8fe0d0a7c3dcf90e67f80a939f6294cb3d5b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 17a795bf4ec33ec904b83f6621fc0bc4f43b4b15
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675896"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095332"
 ---
 # <a name="coutputqueuecoutputqueue-constructor"></a>Каутпуткуеуе. Каутпуткуеуе, конструктор
 
@@ -105,7 +105,7 @@ COutputQueue(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если *бауто* имеет **значение true**, объект вызывает метод [**имеминпутпин:: рецеивеканблокк**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receivecanblock) для подчиненного ПИН-кода. Если **рецеивеканблокк** возвращает значение S \_ ОК (означающее, что ПИН-код может блокироваться в вызовах [**имеминпутпин:: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) ), объект создает поток для доставки образцов. В противном случае он не создает поток.
 
@@ -124,7 +124,7 @@ COutputQueue(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

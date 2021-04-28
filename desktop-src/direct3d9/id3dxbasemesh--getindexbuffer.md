@@ -1,5 +1,5 @@
 ---
-description: Получает данные в буфере индекса.
+description: 'Метод ID3DXBaseMesh:: Жетиндексбуффер — получает данные в буфере индекса.'
 ms.assetid: 8e14a047-a8a6-4763-88c7-3b439044eeb4
 title: 'Метод ID3DXBaseMesh:: Жетиндексбуффер (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5b7cf57cd8f31e54cf48ae7f0cab69a40783debe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 40e57193a2bf9a47ed0c57e6d13644441fbc42ce
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355160"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115432"
 ---
 # <a name="id3dxbasemeshgetindexbuffer-method"></a>Метод ID3DXBaseMesh:: Жетиндексбуффер
 
@@ -66,7 +66,7 @@ HRESULT GetIndexBuffer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

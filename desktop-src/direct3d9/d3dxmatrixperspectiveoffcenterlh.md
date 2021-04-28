@@ -1,5 +1,5 @@
 ---
-description: Создает настроенную левую матрицу проекции с левой стороны.
+description: Функция D3DXMatrixPerspectiveOffCenterLH (D3dx9math. h) — создает настроенную левую матрицу проекции с левой стороны.
 ms.assetid: de2732dd-a4f2-47bc-9509-de16f1ca85c2
 title: Функция D3DXMatrixPerspectiveOffCenterLH (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 15743af16be84587fd8dc03e845ffcd8bd8dbc2b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 404147cfbab0b4fedb7c7356dc1c31d3e203eb5f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713477"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118292"
 ---
 # <a name="d3dxmatrixperspectiveoffcenterlh-function-d3dx9mathh"></a>Функция D3DXMatrixPerspectiveOffCenterLH (D3dx9math. h)
 
@@ -115,7 +115,7 @@ D3DXMATRIX* D3DXMatrixPerspectiveOffCenterLH(
 
 Указатель на структуру [**D3DXMATRIX**](d3dxmatrix.md) , которая является настраиваемой матрицей проекции слева.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все параметры функции **D3DXMatrixPerspectiveOffCenterLH** — это расстояния в пространстве камеры. Параметры описывают размеры представления объема.
 
@@ -144,7 +144,7 @@ D3DXMATRIX* D3DXMatrixPerspectiveOffCenterLH(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

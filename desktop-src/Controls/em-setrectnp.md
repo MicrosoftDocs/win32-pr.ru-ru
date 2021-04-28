@@ -1,6 +1,6 @@
 ---
 title: Сообщение EM_SETRECTNP (Winuser. h)
-description: Задает прямоугольник форматирования для многострочного элемента управления "поле ввода".
+description: EM_SETRECTNP сообщение — задает прямоугольник форматирования для многострочного элемента управления Edit.
 ms.assetid: 1ab497ca-023f-4c26-b92d-b441a0d7b90c
 keywords:
 - Элементы управления Windows для EM_SETRECTNP сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e017bd4737c843c2452382918d71ef63345917cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e9a8c85d4f7abd58ed3adb33ede66254c190a7bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989188"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085992"
 ---
 # <a name="em_setrectnp-message"></a>\_Сообщение СЕТРЕКТНП EM
 
@@ -53,7 +53,7 @@ ms.locfileid: "103989188"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Расширенное редактирование:** Поддерживается в Microsoft Rich Edit 3,0 и более поздних версиях. Дополнительные сведения о совместимости расширенных версий редактирования с различными версиями системы см. в разделе [Общие сведения об элементах управления редактированием](about-rich-edit-controls.md).
 
@@ -69,11 +69,11 @@ ms.locfileid: "103989188"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**EM \_ SETRECT**](em-setrect.md)

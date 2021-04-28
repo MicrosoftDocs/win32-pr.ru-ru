@@ -1,5 +1,5 @@
 ---
-description: Используется с сжатыми результатами симулятора предварительно вычисленной радианценой пересылки (PRT).
+description: Функция D3DXSHPRTCompSplitMeshSC — используется со сжатыми результатами эмулятора предварительно вычисленной радианценой пересылки (PRT).
 ms.assetid: 10d81920-2a1b-42fa-aabe-7d6b504f4d36
 title: Функция D3DXSHPRTCompSplitMeshSC (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 18742d12b6e1ae106dcf832baccccb2416465880
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e51a86ec9b12992d49364d3a7c614751dacafac3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424366"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093902"
 ---
 # <a name="d3dxshprtcompsplitmeshsc-function"></a>Функция D3DXSHPRTCompSplitMeshSC
 
@@ -216,7 +216,7 @@ HRESULT D3DXSHPRTCompSplitMeshSC(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

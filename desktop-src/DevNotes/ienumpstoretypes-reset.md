@@ -1,5 +1,5 @@
 ---
-description: Выполняет сброс до начала последовательности перечисления.
+description: 'Метод Иенумпсторетипес:: Reset — сбрасывается до начала последовательности перечисления.'
 ms.assetid: 35f14aa5-92cb-4ad8-b80c-2550dedb7a7f
 title: 'Метод Иенумпсторетипес:: Reset (PStore. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 60aeb1f68bcbf18e903472fa736b5714076dfbfa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55953a67d19ac94f792769974d860bae9b57f1ea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647956"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089322"
 ---
 # <a name="ienumpstoretypesreset-method"></a>Метод Иенумпсторетипес:: Reset
 
@@ -54,7 +54,7 @@ HRESULT Reset();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

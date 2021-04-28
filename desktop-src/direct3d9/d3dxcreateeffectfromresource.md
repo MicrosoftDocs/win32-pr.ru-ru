@@ -1,5 +1,5 @@
 ---
-description: Создание результата из описания ASCII или двоичного действия.
+description: Функция D3DXCreateEffectFromResource — создание результата из описания ASCII-или двоичного воздействия.
 ms.assetid: 8385512c-e93d-4c07-b353-87717eb58bcd
 title: Функция D3DXCreateEffectFromResource (D3DX9Effect. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 36db2c82debc542301ba44d4baa74ecaaf01245e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f2a84d2da1f3ca88a117c0150e7b27485838c300
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703919"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107692"
 ---
 # <a name="d3dxcreateeffectfromresource-function"></a>Функция D3DXCreateEffectFromResource
 
@@ -135,7 +135,7 @@ HRESULT D3DXCreateEffectFromResource(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для параметров компилятора требуется Юникод, тип данных LPCTSTR разрешается в ЛПКВСТР. В противном случае тип данных LPCTSTR разрешается в LPCSTR.
 
@@ -154,7 +154,7 @@ D3DXCreateEffectFromResource загружает данные из ресурса
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Метод Жетконверсатионстатистикс извлекает сведения о сеансе и станции о текущей записи.
+description: 'Метод Иделайдк:: Жетконверсатионстатистикс — метод Жетконверсатионстатистикс извлекает сведения о сеансе и станции о текущей записи.'
 ms.assetid: 0164fa0e-90f2-4b97-be9d-55d172f8112d
 title: 'Метод Иделайдк:: Жетконверсатионстатистикс (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: aaba5ccfbab48639f53395519f001f5f8e85e483
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4d4c1bb1ad7ecb45b640c16322e297f9f640ef1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682473"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103812"
 ---
 # <a name="idelaydcgetconversationstatistics-method"></a>Метод Иделайдк:: Жетконверсатионстатистикс
 
@@ -98,7 +98,7 @@ HRESULT STDMETHODCALLTYPE GetConversationStatistics(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод может вызываться только во время сбора данных. Если текущая запись приостановлена, вызовы этого метода не будут выполнены. Чтобы начать запись, вызовите метод [иделайдк:: Start](idelaydc-start.md) .
 
@@ -117,7 +117,7 @@ HRESULT STDMETHODCALLTYPE GetConversationStatistics(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Задает массив переданных матриц.
+description: 'Метод ID3DXBaseEffect:: Сетматрикстранспосеаррай — задает массив переданных матриц.'
 ms.assetid: 5dc65424-b0cd-490d-900e-60b9f7536ace
 title: 'Метод ID3DXBaseEffect:: Сетматрикстранспосеаррай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: e646761435f75688fe652683281297ca2b8de99e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d7f145dc45f053e208f7890c8afdac6422ecde13
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713811"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097512"
 ---
 # <a name="id3dxbaseeffectsetmatrixtransposearray-method"></a>Метод ID3DXBaseEffect:: Сетматрикстранспосеаррай
 
@@ -75,7 +75,7 @@ HRESULT SetMatrixTransposeArray(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переданная матрица содержит основные данные столбца. то есть каждый вектор содержится в столбце.
 
@@ -92,7 +92,7 @@ HRESULT SetMatrixTransposeArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

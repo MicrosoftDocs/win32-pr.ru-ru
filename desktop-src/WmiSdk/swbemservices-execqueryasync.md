@@ -1,5 +1,5 @@
 ---
-description: Выполняет запрос для получения объектов.
+description: SWbemServices.Exeметод Ккуерясинк — выполняет запрос для получения объектов.
 ms.assetid: 50c7f62b-dd83-4117-b10e-acee1690ce8c
 ms.tgt_platform: multiple
 title: SWbemServices.Exeметод Ккуерясинк (Wbemdisp. h)
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 5564e53ef3ea185235e93bbbeb8e2a5fa001d67b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cd3fe778ca7338df6b2674a4930458ef9113a1d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344702"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118382"
 ---
 # <a name="swbemservicesexecqueryasync-method"></a>SWbemServices.Exeметод Ккуерясинк
 
@@ -61,7 +61,7 @@ objWbemObjectSet = .ExecQueryAsync( _
 *стркуери* 
 </dt> <dd>
 
-Обязательный. Строка, содержащая текст запроса. Этот параметр не может быть пустым. Дополнительные сведения о создании строк запросов WMI см. в разделе [запросы с помощью WQL](querying-with-wql.md) и Справочник по [WQL](wql-sql-for-wmi.md) .
+Обязательный элемент. Строка, содержащая текст запроса. Этот параметр не может быть пустым. Дополнительные сведения о создании строк запросов WMI см. в разделе [запросы с помощью WQL](querying-with-wql.md) и Справочник по [WQL](wql-sql-for-wmi.md) .
 
 </dd> <dt>
 
@@ -189,7 +189,7 @@ objWbemObjectSet = .ExecQueryAsync( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот вызов возвращает немедленно. Запрошенные объекты и состояние возвращаются вызывающему объекту через обратные вызовы, доставляемые в приемник, указанный в *обжвбемсинк*. Чтобы обработать каждый объект при его возврате, создайте *обжвбемсинк*. Подпрограммы события [**онобжектреади**](swbemsink-onobjectready.md) . После возврата всех объектов выполните окончательную обработку в реализации *обжвбемсинк*. Событие [**Oncompleteed**](swbemsink-oncompleted.md) .
 
@@ -215,7 +215,7 @@ objWbemObjectSet = .ExecQueryAsync( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

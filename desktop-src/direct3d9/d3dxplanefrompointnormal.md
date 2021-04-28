@@ -1,5 +1,5 @@
 ---
-description: Конструирует плоскость с точки и обычного.
+description: Функция D3DXPlaneFromPointNormal (D3dx9math. h) — конструирует плоскость с точки и обычного.
 ms.assetid: af396bbb-09b7-492f-a25f-9c950da7e605
 title: Функция D3DXPlaneFromPointNormal (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8eeb8ea3a1725e0bf615be888d8e862c97730a2c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e34765d150932d6a7b3b0293e603237ffb2b45ad
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713457"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098092"
 ---
 # <a name="d3dxplanefrompointnormal-function-d3dx9mathh"></a>Функция D3DXPlaneFromPointNormal (D3dx9math. h)
 
@@ -75,7 +75,7 @@ D3DXPLANE* D3DXPlaneFromPointNormal(
 
 Указатель на структуру [**D3DXPLANE**](d3dxplane.md) , созданную из точки и обычного.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXPlaneFromPointNormal** может использоваться в качестве параметра для другой функции.
 
@@ -90,7 +90,7 @@ D3DXPLANE* D3DXPlaneFromPointNormal(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

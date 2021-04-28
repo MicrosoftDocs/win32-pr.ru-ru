@@ -1,19 +1,19 @@
 ---
-description: .
+description: Система свойств Windows
 ms.assetid: c2094bbe-a4ca-4f30-b16e-14dced2912bc
 title: Система свойств Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4e96f931d37ef698339f9219a0dc8db43a6003e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c49e44c988d3a91572be1b42d5fbaf75e664d7f0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692198"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089882"
 ---
 # <a name="windows-property-system"></a>Система свойств Windows
 
-## <a name="purpose"></a>Назначение
+## <a name="purpose"></a>Цель
 
 Система свойств Windows — это расширяемая система чтения и записи определений данных, которая обеспечивает единообразный способ представления метаданных об элементах оболочки. Система свойств Windows в Windows Vista и более поздних версиях позволяет хранить и извлекать метаданные для элементов оболочки. Элемент оболочки — это любой отдельный фрагмент содержимого, например файл, папка, электронная почта или контакт. Свойство — это отдельный элемент метаданных, связанный с элементом оболочки.
 

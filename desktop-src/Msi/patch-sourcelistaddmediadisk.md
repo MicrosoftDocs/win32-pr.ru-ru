@@ -1,5 +1,5 @@
 ---
-description: Метод Саурцелистаддмедиадиск добавляет диск к набору зарегистрированных дисков. Принимает параметры DiskID, VolumeLabel и DiskPrompt в качестве параметров. Этот метод вызывает в Мсисаурцелистаддмедиадиск.
+description: Метод PATCH. Саурцелистаддмедиадиск. метод Саурцелистаддмедиадиск добавляет диск к набору зарегистрированных дисков. Принимает параметры DiskID, VolumeLabel и DiskPrompt в качестве параметров. Этот метод вызывает в Мсисаурцелистаддмедиадиск.
 ms.assetid: 6feaf2d3-7e39-4e22-9e74-9a2f98369eac
 title: Метод PATCH. Саурцелистаддмедиадиск
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: a7c74ccdfb90a0cb365e6110defc9b60dac1f471
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 052831befb95976358b53d989db36d5b2fa43efe
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651963"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084380"
 ---
 # <a name="patchsourcelistaddmediadisk-method"></a>Метод PATCH. Саурцелистаддмедиадиск
 
@@ -78,7 +78,7 @@ Patch.SourceListAddMediaDisk(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

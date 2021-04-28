@@ -1,5 +1,5 @@
 ---
-description: Используется с сжатыми результатами симулятора предварительно вычисленной радианценой пересылки (PRT).
+description: Функция D3DXSHPRTCompSuperCluster — используется со сжатыми результатами эмулятора предварительно вычисленной радианценой пересылки (PRT).
 ms.assetid: 0ec28b8c-5010-48a4-8e45-d7f9aa08185f
 title: Функция D3DXSHPRTCompSuperCluster (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1daf25dddfaf738ecc2fed9605429a19170177ed
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0c22c8a3a14fd8af3e9104889b421068c7ff1457
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354710"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117862"
 ---
 # <a name="d3dxshprtcompsupercluster-function"></a>Функция D3DXSHPRTCompSuperCluster
 
@@ -116,7 +116,7 @@ HRESULT D3DXSHPRTCompSuperCluster(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Метод StartService помещает службу в запущенное состояние.
+description: Метод StartService класса CIM_ClusteringService — метод StartService помещает службу в запущенное состояние.
 ms.assetid: 2efd2a06-a03c-4f4c-b2fa-889f84faac0f
 ms.tgt_platform: multiple
 title: Метод StartService класса CIM_ClusteringService
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b8abdeffa234461952f99013524042dcbba6e682
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dcd18af37da9302256776cfee844fd83f989c9b7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262645"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086192"
 ---
 # <a name="startservice-method-of-the-cim_clusteringservice-class"></a>Метод StartService \_ класса CIM клустерингсервице
 
@@ -49,7 +49,7 @@ uint32 StartService();
 
 Возвращает значение 0 (нуль), если служба была успешно запущена, 1 (один), если запрос не поддерживается, и любое другое число для указания ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -69,7 +69,7 @@ uint32 StartService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

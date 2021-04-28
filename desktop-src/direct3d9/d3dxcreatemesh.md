@@ -1,5 +1,5 @@
 ---
-description: Создает объект сетки с помощью декларатора.
+description: Функция D3DXCreateMesh — создает объект сетки с помощью декларатора.
 ms.assetid: ff977517-0a46-4c32-8d5e-f5fc3c1718c1
 title: Функция D3DXCreateMesh (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cfb56fe5c52d2726dff0877522b6f72f70437552
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1c7e1c0d626c74f5427f91a5b9eb796e3b79d5a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694252"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102762"
 ---
 # <a name="d3dxcreatemesh-function"></a>Функция D3DXCreateMesh
 
@@ -116,7 +116,7 @@ HRESULT D3DXCreateMesh(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
