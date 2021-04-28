@@ -1,5 +1,5 @@
 ---
-description: Преобразует вектор (x, y, z, 1) в заданную матрицу.
+description: Функция D3DXVec3Transform (D3DX10Math. h) — преобразует вектор (x, y, z, 1) в заданную матрицу.
 ms.assetid: 88b26d94-2550-4126-bf91-b06391ec5c75
 title: Функция D3DXVec3Transform (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 6db2e2ad4279863ba68f709f02f86796552e0463
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9b5cd69ce603f56e4837818cac6ee18fe3ab1e53
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000451"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108142"
 ---
 # <a name="d3dxvec3transform-function-d3dx10mathh"></a>Функция D3DXVec3Transform (D3DX10Math. h)
 
@@ -74,7 +74,7 @@ D3DXVECTOR4* D3DXVec3Transform(
 
 Указатель на структуру D3DXVECTOR4, которая является преобразованным вектором.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция преобразует вектор, НЗ (x, y, z, 1) в матрицу pM.
 
@@ -90,7 +90,7 @@ D3DXVECTOR4* D3DXVec3Transform(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

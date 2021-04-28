@@ -1,5 +1,5 @@
 ---
-description: Пытается перевести службу в состояние приостановки.
+description: Метод PauseService класса Win32_Service (поставщики WMI CIMWin32) — пытается перевести службу в приостановленное состояние.
 ms.assetid: 5382457e-7f9c-48a5-9262-b815a1a4a605
 ms.tgt_platform: multiple
 title: Метод PauseService класса Win32_Service (поставщики WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1b1dfa0b956442f74c17dd6a8c054c229a92466a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7654feea410564137e98861c4c0b5de2b5e7192e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655710"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096952"
 ---
 # <a name="pauseservice-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Метод PauseService класса Win32_Service (поставщики WMI CIMWin32)
 
@@ -221,7 +221,7 @@ uint32 PauseService();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Определив, какие службы могут быть остановлены или приостановлены, можно использовать [**методы "**](stopservice-method-in-class-win32-service.md) [**PauseService**](pauseservice-method-in-class-win32-systemdriver.md) " и "приостановить" для остановки и приостановки служб. Решение о прекращении работы службы, а не приостановке или наоборот, зависит от нескольких факторов, включая следующие:
 
@@ -332,7 +332,7 @@ else
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

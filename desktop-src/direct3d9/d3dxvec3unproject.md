@@ -1,5 +1,5 @@
 ---
-description: Проецирует вектор из пространства экрана в объектное пространство.
+description: Функция D3DXVec3Unproject (D3dx9math. h) — Проецирует вектор из пространства экрана в объектное пространство.
 ms.assetid: 9fd69cae-1d9c-4fae-9e15-8eb9950b4850
 title: Функция D3DXVec3Unproject (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2bab9af4a2c88a3e3b3b7f342b6c7c9cc89ceb66
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2c3ea6ec1aa60f48589b10575e279bed81b2c94f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355623"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115562"
 ---
 # <a name="d3dxvec3unproject-function-d3dx9mathh"></a>Функция D3DXVec3Unproject (D3dx9math. h)
 
@@ -105,7 +105,7 @@ D3DXVECTOR3* D3DXVec3Unproject(
 
 Указатель на структуру [**D3DXVECTOR3**](d3dxvector3.md) , которая представляет собой вектор, проецируемый из пространства экрана в объектное пространство.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXVec3Unproject** может использоваться в качестве параметра для другой функции.
 
@@ -120,7 +120,7 @@ D3DXVECTOR3* D3DXVec3Unproject(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

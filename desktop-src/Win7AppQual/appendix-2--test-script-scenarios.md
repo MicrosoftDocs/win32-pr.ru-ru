@@ -1,16 +1,7 @@
 ---
-description: .
-ms.assetid: BDF7CF8D-26B0-4B4D-AF7D-9DC64B4667F0
-title: Приложение 2. сценарии тестовых сценариев
-ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: 46c7e75cc74f4c7b365cd7be35263ce3720139af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693691"
+Описание: приложение 2. сценарии тестовых сценариев MS. AssetID: BDF7CF8D-26B0-4B4D-AF7D-9DC64B4667F0 Title: "приложение 2. сценарии тестовых сценариев" MS. Topic: статья MS. Date: 05/31/2018
 ---
+
 # <a name="appendix-2-test-script-scenarios"></a>Приложение 2. сценарии тестовых сценариев
 
 
@@ -33,18 +24,18 @@ ms.locfileid: "105693691"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
 [Устранение совместимости приложений при переходе на Internet Explorer 8](addressing-application-compatibility-when-migrating-to-internet-explorer-8.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

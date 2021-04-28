@@ -1,5 +1,5 @@
 ---
-description: Завершает настройку буфера трассировки с необязательными полями для трассировок в стиле sprintf.
+description: Функция Сетасинктрацепарамсекс — завершает настройку буфера трассировки с необязательными полями для трассировок в стиле sprintf.
 ms.assetid: 6c23e61c-0285-47ba-b614-b73bd001d552
 title: Функция Сетасинктрацепарамсекс
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Exstrace.dll
-ms.openlocfilehash: e5f99af2e6226e39ecc06a1c4c2bb7f2ad3c3b8e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a9dc0eee2f4ea3f65fa45914c3340a99ac2d45b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648117"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085772"
 ---
 # <a name="setasynctraceparamsex-function"></a>Функция Сетасинктрацепарамсекс
 
@@ -103,7 +103,7 @@ int SetAsyncTraceParamsEx(
 
 Эта функция возвращает значение 1, если функция выполнена. в противном случае возвращается значение 0.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Exstrace.dll является необязательным компонентом, который устанавливается с протоколом SMTP и протоколом NNTP.
 

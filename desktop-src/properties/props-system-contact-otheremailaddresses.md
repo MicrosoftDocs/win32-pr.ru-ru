@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Contact. Осеремаиладдрессес
 ms.assetid: a905a42a-7dd5-4292-bf69-e87eb40d8086
 title: System. Contact. Осеремаиладдрессес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f34357c32b462924a6b929b08b77c03c1e9741d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8421ce109899a23ca3bd5ea45c5ea305c8f5bb0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712843"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101312"
 ---
 # <a name="systemcontactotheremailaddresses"></a>System. Contact. Осеремаиладдрессес
 
@@ -28,11 +28,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

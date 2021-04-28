@@ -1,5 +1,5 @@
 ---
-description: Описывает вектор с тремя компонентами, включая перегрузки операторов и приведения типов.
+description: Структура D3DXVECTOR3 (D3dx9math. h) — описывает вектор с тремя компонентами, включая перегрузки операторов и приведения типов.
 ms.assetid: 4d73de4b-82fe-452a-8a1e-17208f172a03
 title: Структура D3DXVECTOR3 (D3dx9math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 2c49902677999c78737e7dec094c839cd8941f08
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 29d6743f0c0c365911ebbbba66cb4d44f10792e7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081956"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097582"
 ---
 # <a name="d3dxvector3-structure-d3dx9mathh"></a>Структура D3DXVECTOR3 (D3dx9math. h)
 
@@ -63,7 +63,7 @@ typedef struct D3DXVECTOR3 {
 
 </dd> <dt>
 
-**гармошкой**
+**z**
 </dt> <dd>
 
 Тип: **[ **float**](../winprog/windows-data-types.md)**
@@ -74,7 +74,7 @@ typedef struct D3DXVECTOR3 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="d3dxvector3-extensions"></a>Расширения D3DXVECTOR3
 
@@ -161,7 +161,7 @@ public:
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

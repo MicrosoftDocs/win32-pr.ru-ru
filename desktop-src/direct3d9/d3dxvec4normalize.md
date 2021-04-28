@@ -1,5 +1,5 @@
 ---
-description: Возвращает нормализованную версию вектора 4D.
+description: Функция D3DXVec4Normalize (D3dx9math. h) — Возвращает нормализованную версию вектора 4D.
 ms.assetid: e12d5dc7-b26f-41dd-b89d-1df9ba23077a
 title: Функция D3DXVec4Normalize (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 38d97f337711375d1d414eb78fb317672bc7c5cb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 78984c393d7caf259b4c310a31e01ed8fcbd4d47
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081957"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097662"
 ---
 # <a name="d3dxvec4normalize-function-d3dx9mathh"></a>Функция D3DXVec4Normalize (D3dx9math. h)
 
@@ -65,7 +65,7 @@ D3DXVECTOR4* D3DXVec4Normalize(
 
 Указатель на структуру [**D3DXVECTOR4**](d3dxvector4.md) , которая является нормализованной версией вектора.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXVec4Normalize** может использоваться в качестве параметра для другой функции.
 
@@ -80,7 +80,7 @@ D3DXVECTOR4* D3DXVec4Normalize(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Возвращает матрицу матрицы.
+description: Функция D3DXMatrixTranspose (D3dx9math. h) — Возвращает матрицу матрицы.
 ms.assetid: 0ba9682f-3dd6-48b2-82b1-6e34e8ce5452
 title: Функция D3DXMatrixTranspose (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 700fc023cd15227c2cf26cd5bdcab51dc0ae3297
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9cb050061b10de963258bcd7527d3c86260d5abc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713473"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098112"
 ---
 # <a name="d3dxmatrixtranspose-function-d3dx9mathh"></a>Функция D3DXMatrixTranspose (D3dx9math. h)
 
@@ -65,7 +65,7 @@ D3DXMATRIX* D3DXMatrixTranspose(
 
 Указатель на структуру [**D3DXMATRIX**](d3dxmatrix.md) , которая является матрицей матрицы.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXMatrixTranspose** может использоваться в качестве параметра для другой функции.
 
@@ -80,7 +80,7 @@ D3DXMATRIX* D3DXMatrixTranspose(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Извлекает либо таблицу атрибутов для сетки, либо число записей, хранящихся в таблице атрибутов сетки.
+description: 'Метод ID3DXBaseMesh:: Жетаттрибутетабле — извлекает либо таблицу атрибутов для сетки, либо число записей, хранящихся в таблице атрибутов сетки.'
 ms.assetid: 15b24137-0ff9-4299-971b-90fa4ef2686d
 title: 'Метод ID3DXBaseMesh:: Жетаттрибутетабле (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 70c93c8f477655200418793f53706731b42a47ac
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7f5d27de884f72b46db900487e26f1099bf30949
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703863"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115452"
 ---
 # <a name="id3dxbasemeshgetattributetable-method"></a>Метод ID3DXBaseMesh:: Жетаттрибутетабле
 
@@ -65,7 +65,7 @@ HRESULT GetAttributeTable(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Таблица атрибутов создается с помощью [**ID3DXMesh:: optimize**](id3dxmesh--optimize.md) и передает D3DXMESHOPT \_ Аттрсорт для параметра flags.
 
@@ -82,7 +82,7 @@ HRESULT GetAttributeTable(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

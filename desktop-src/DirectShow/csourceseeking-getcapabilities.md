@@ -1,5 +1,5 @@
 ---
-description: 'Метод capabilities извлекает все возможности поиска в потоке. Этот метод реализует метод Имедиасикинг:: Capabilities.'
+description: 'Ксаурцесикинг. capabilities-метод — метод capabilities извлекает все возможности поиска в потоке. Этот метод реализует метод Имедиасикинг:: Capabilities.'
 ms.assetid: a2ff7ea2-09bd-49a7-8e1b-d6360939036e
 title: Метод Ксаурцесикинг. Capabilities (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: eda23944fd039576bb5de74fbb7c32e375415670
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f1f354381c4c99cf880c75cbbc4b13355e386030
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657508"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098782"
 ---
 # <a name="csourceseekinggetcapabilities-method"></a>Ксаурцесикинг. capabilities, метод
 
@@ -57,14 +57,14 @@ HRESULT GetCapabilities(
 
 | Код возврата                                                                               | Описание                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>      | Успешно<br/>                |
+| <dl> <dt>**\_ОК**</dt> </dl>      | Успешное завершение<br/>                |
 | <dl> <dt>**\_указатель E**</dt> </dl> | Значение указателя **null**<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возможности поиска задаются переменной члена [**ксаурцесикинг:: m \_ двсикингкапс**](csourceseeking-m-dwseekingcaps.md) .
 
@@ -79,7 +79,7 @@ HRESULT GetCapabilities(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

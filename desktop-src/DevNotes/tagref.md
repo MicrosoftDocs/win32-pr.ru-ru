@@ -1,15 +1,15 @@
 ---
-description: Содержит индекс записи и сведения о ТЕГАХ в базе данных оболочек совместимости.
+description: ТАГРЕФ — содержит индекс записи и сведения о ТЕГАХ в базе данных оболочек совместимости.
 ms.assetid: e7d83dca-13a5-4396-b50b-0d068209c03c
 title: тагреф
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8631811f101850b68bdbad1097c19b9a41737bd2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 34e27a60847630e7bbd8e07ccf005dfd7b474d7a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538516"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096632"
 ---
 # <a name="tagref"></a>тагреф
 
@@ -22,7 +22,7 @@ typedef DWORD TAGREF;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Тагреф** относится к базе данных оболочек совместимости и допустима в нескольких базах данных. Это может быть целочисленное значение, представляющее индекс, или одно из следующих значений:
 
@@ -53,7 +53,7 @@ typedef DWORD TAGREF;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

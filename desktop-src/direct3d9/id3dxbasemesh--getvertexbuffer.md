@@ -1,5 +1,5 @@
 ---
-description: Извлекает буфер вершин, связанный с сеткой.
+description: 'Метод ID3DXBaseMesh:: Жетвертексбуффер — получает буфер вершин, связанный с сеткой.'
 ms.assetid: 5caa6ce1-feab-4919-944e-f92fad3ad443
 title: 'Метод ID3DXBaseMesh:: Жетвертексбуффер (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2098d97c1b7a685e9bd68cb3a6ac4feb6b949d2a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9533188e3e2effe1759b58f70c9f033cc491844c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694082"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115372"
 ---
 # <a name="id3dxbasemeshgetvertexbuffer-method"></a>Метод ID3DXBaseMesh:: Жетвертексбуффер
 
@@ -66,7 +66,7 @@ HRESULT GetVertexBuffer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

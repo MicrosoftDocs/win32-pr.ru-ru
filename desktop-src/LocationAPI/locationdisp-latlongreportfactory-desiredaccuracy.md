@@ -1,5 +1,5 @@
 ---
-description: Текущее значение требуемой точности.
+description: Свойство Локатиондисп. Латлонгрепортфактори. Десиредаккураци — текущее значение точности.
 ms.assetid: dfad833b-bb0c-4c66-9942-da10abee5381
 title: Локатиондисп. Латлонгрепортфактори. Десиредаккураци, свойство
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e17e415d9503660d873ae4df67d2469c646dd80e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afc5ec235df6c9e07a665410cb09e00f24305304
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674379"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088972"
 ---
 # <a name="locationdisplatlongreportfactorydesiredaccuracy-property"></a>Локатиондисп. Латлонгрепортфактори. Десиредаккураци, свойство
 
@@ -52,7 +52,7 @@ LocationDisp.LatLongReportFactory.DesiredAccuracy = DesiredAccuracy
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение является запросом к поставщику расположения. Поставщик расположения не требуется для предоставления отчетов с запрошенным интервалом. Прочтите значение этого свойства, чтобы определить значение параметра интервала true Report.
 

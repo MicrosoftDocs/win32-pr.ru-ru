@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Флагколор
 ms.assetid: a0627f2e-9a4f-40d4-9698-281a1cf56673
 title: System. Флагколор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50798cb880f89644c77559d53c741b8d538e285f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8b8d3877659918c63251df7bc3c3eaba2618881
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105693013"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100892"
 ---
 # <a name="systemflagcolor"></a>System. Флагколор
 
@@ -100,11 +100,11 @@ propertyDescription
             defineName = FLAGCOLOR_RED
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

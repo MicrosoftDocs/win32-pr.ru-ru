@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Commit.
+description: IWICFastMetadataEncoder_Commit_Proxy функция-прокси для метода Commit.
 ms.assetid: 5b3b90ad-9d67-4fbd-b01e-c7478df8dd45
 title: Функция IWICFastMetadataEncoder_Commit_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 487fd99c68752b1547ba53c553025fc8ecfd5ccf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 848ed74ec9c9bb490065935bd94cae7a35d02db2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265301"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097192"
 ---
 # <a name="iwicfastmetadataencoder_commit_proxy-function"></a>Ивикфастметадатаенкодер \_ фиксация \_ прокси-функции
 
@@ -43,9 +43,9 @@ HRESULT IWICFastMetadataEncoder_Commit_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикфастметадатаенкодер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder) \** _
+Тип: **[ **ивикфастметадатаенкодер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder)\***
 
-Указатель на этот объект [_ *ивикфастметадатаенкодер* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder) .
+Указатель на этот объект [**ивикфастметадатаенкодер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder) .
 
 </dd> </dl>
 

@@ -1,6 +1,6 @@
 ---
 title: Код уведомления BN_DBLCLK (Winuser. h)
-description: Посылается, когда пользователь дважды нажимает кнопку.
+description: BN_DBLCLK код уведомления — отправляется, когда пользователь дважды нажимает кнопку.
 ms.assetid: 60cc033f-8b84-4aa5-b625-fdee9deb4757
 keywords:
 - BN_DBLCLK кода уведомления элементы управления Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f04c6bf52e213056d85d3a6d038bedb83754a27e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fdb403f37b8fee9ea36023a7cd2511bbaaa2af81
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071389"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096852"
 ---
 # <a name="bn_dblclk-notification-code"></a>\_Код уведомления млрд долл дблклк
 
@@ -55,7 +55,7 @@ BN_DBLCLK
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 МЛРД долл \_ дблклк совпадает с кодом уведомления [млрд долл \_ даублекликкед](bn-doubleclicked.md) .
 
@@ -71,11 +71,11 @@ BN_DBLCLK
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [\_щелчок млрд долл](bn-clicked.md)

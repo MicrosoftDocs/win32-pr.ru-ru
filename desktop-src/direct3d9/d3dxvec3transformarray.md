@@ -1,5 +1,5 @@
 ---
-description: Преобразует массив (x, y, z, 1) в заданную матрицу.
+description: Функция D3DXVec3TransformArray (D3dx9math. h) — преобразует массив (x, y, z, 1) по заданной матрице.
 ms.assetid: fd7ab674-5e42-4265-afad-ae5a00dabcdb
 title: Функция D3DXVec3TransformArray (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0b515c98be82aa47801b333c4b25680e0e464b2e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 440869f42769d5c20e26083acf3fad1203e20a22
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354373"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097772"
 ---
 # <a name="d3dxvec3transformarray-function-d3dx9mathh"></a>Функция D3DXVec3TransformArray (D3dx9math. h)
 
@@ -105,7 +105,7 @@ D3DXVECTOR4* D3DXVec3TransformArray(
 
 Указатель на преобразованный массив [**D3DXVECTOR4**](d3dxvector4.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция преобразует массив *ПС* (x, y, z, 1) матрицей *PM*.
 
@@ -122,7 +122,7 @@ D3DXVECTOR4* D3DXVec3TransformArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

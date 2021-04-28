@@ -1,5 +1,5 @@
 ---
-description: Отображает диалоговое окно Свойства панели задач и меню "Пуск". Этот метод действует так же, как и щелчком правой кнопкой мыши панели задач и выбора свойств.
+description: Ишеллдиспатч. Трайпропертиес-метод — отображает панель задач и диалоговое окно Свойства меню "Пуск". Этот метод действует так же, как и щелчком правой кнопкой мыши панели задач и выбора свойств.
 ms.assetid: 8E0AC08E-1132-4312-9B75-E7686B91AB02
 title: Ишеллдиспатч. Трайпропертиес, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5f5e22dd48b77035aab3754a4c8e3d2c414ec606
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 424d25d7555090e4244d5cd22084171ca2a4fea9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991315"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086622"
 ---
 # <a name="ishelldispatchtrayproperties-method"></a>Ишеллдиспатч. Трайпропертиес, метод
 
@@ -55,7 +55,7 @@ IShellDispatch.TrayProperties()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. трайпропертиес**](shell-trayproperties.md) .
 

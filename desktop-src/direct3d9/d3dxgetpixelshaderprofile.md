@@ -1,5 +1,5 @@
 ---
-description: Возвращает имя высокоуровневого профиля языка шейдеров (HLSL), поддерживаемого данным устройством.
+description: Функция D3DXGetPixelShaderProfile — возвращает имя наивысшего профиля высокого уровня (HLSL), поддерживаемого данным устройством.
 ms.assetid: a6c1be4e-f6f5-4f08-b6a7-b9c621e5f19b
 title: Функция D3DXGetPixelShaderProfile (D3DX9Shader. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ad1f430a95b1ff2173dceb1e0561dccf3d0ee88d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7d24e19d49a8a96f91847892f519ef6c06d25ef5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000360"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114441"
 ---
 # <a name="d3dxgetpixelshaderprofile-function"></a>Функция D3DXGetPixelShaderProfile
 
@@ -57,7 +57,7 @@ LPCSTR D3DXGetPixelShaderProfile(
 
 Если устройство не поддерживает шейдеры пикселей, функция возвращает **значение NULL**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Профиль шейдера указывает версию шейдера сборки для использования и возможности, доступные компилятору HLSL при компиляции шейдера. В следующей таблице перечислены поддерживаемые профили шейдера пикселей.
 
@@ -139,7 +139,7 @@ LPCSTR D3DXGetPixelShaderProfile(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

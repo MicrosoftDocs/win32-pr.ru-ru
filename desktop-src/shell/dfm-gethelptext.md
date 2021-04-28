@@ -1,5 +1,5 @@
 ---
-description: Позволяет объекту обратного вызова указать строку текста справки.
+description: DFM_GETHELPTEXT сообщение — позволяет объекту обратного вызова указать строку текста справки.
 title: Сообщение DFM_GETHELPTEXT (Шлобж. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,12 +14,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b9aefb1c3a12ff00294ccc536464794a17fccfc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2428fe6696ff5949a0b25487437c8f3408b95f65
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540511"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097072"
 ---
 # <a name="dfm_gethelptext-message"></a>\_Сообщение DFM жеселптекст
 
@@ -56,7 +56,7 @@ DFM_GETHELPTEXT
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это сообщение отправляется либо в функцию обратного вызова, либо в объект обратного вызова в зависимости от того, как создается объект контекстного меню по умолчанию. Существует два API для своей конструкции, [**кдеффолдермену \_ Create2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-cdeffoldermenu_create2), [**шкреатедефаултконтекстмену**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu).
 

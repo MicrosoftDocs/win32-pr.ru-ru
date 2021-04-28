@@ -1,5 +1,5 @@
 ---
-description: Завершает настройку буфера трассировки с необязательными полями для трассировок в стиле sprintf.
+description: Функция Асинкстрингтраце — завершает настройку буфера трассировки с необязательными полями для трассировок в стиле sprintf.
 ms.assetid: a5f3ecbe-d335-4fd0-99aa-4d5a748ca4e1
 title: Функция Асинкстрингтраце
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Exstrace.dll
-ms.openlocfilehash: 15bfff82f5ef0ae3f921a3a4c83b4d35fb83d95f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 342670dc406cb84588984d0a9ab10fae280c5483
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648107"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085802"
 ---
 # <a name="asyncstringtrace-function"></a>Функция Асинкстрингтраце
 
@@ -66,7 +66,7 @@ int AsyncStringTrace(
 
 Эта функция возвращает длину инструкции трассировки в байтах.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Exstrace.dll является необязательным компонентом, который устанавливается с протоколом SMTP и протоколом NNTP.
 

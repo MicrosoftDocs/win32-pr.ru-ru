@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Ксаурце. Ксаурце.
 ms.assetid: 94a92c1e-9768-4293-8290-a2b1938cd196
 title: Конструктор Ксаурце. Ксаурце (Source. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 992775659d5f9838ef63b15c5395998f1faf6200
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fab398f3f4e3fdd8c23ce1e1c08f5c130478dfb4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685114"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085362"
 ---
 # <a name="csourcecsource-constructor"></a>Ксаурце. Ксаурце, конструктор
 
@@ -76,7 +76,7 @@ CSource(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Приложения используют методы интерфейса ID3DXMATRIXStack для управления стеком матрицы.
+description: Интерфейс ID3DXMatrixStack. приложения используют методы интерфейса ID3DXMATRIXStack для управления стеком матрицы.
 ms.assetid: 6c76f9e0-5f59-4cf3-b34a-2475536af6c7
 title: Интерфейс ID3DXMatrixStack (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3d6956a6764683378c732c4ed859bfa13e537422
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 65e9a5cd041431e1939346fec79dcf94fccd4ae9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355640"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094412"
 ---
 # <a name="id3dxmatrixstack-interface"></a>Интерфейс ID3DXMatrixStack
 
@@ -50,7 +50,7 @@ ms.locfileid: "104355640"
 | [**ротатеаксислокал**](id3dxmatrixstack-rotateaxislocal.md)                 | Поворачивает (относительно локального пространства координат объекта) вокруг произвольной оси.<br/>                                             |
 | [**ротатэйавпитчролл**](id3dxmatrixstack-rotateyawpitchroll.md)           | Поворачивает (относительно мирового пространства координат) вокруг произвольной оси.<br/>                                                          |
 | [**ротатэйавпитчролллокал**](id3dxmatrixstack-rotateyawpitchrolllocal.md) | Поворачивает (относительно локального пространства координат объекта) вокруг произвольной оси.<br/>                                             |
-| [**Измените**](id3dxmatrixstack-scale.md)                                     | Масштабировать текущую матрицу относительно источника координат мира.<br/>                                                                     |
+| [**Масштабирование**](id3dxmatrixstack-scale.md)                                     | Масштабировать текущую матрицу относительно источника координат мира.<br/>                                                                     |
 | [**скалелокал**](id3dxmatrixstack-scalelocal.md)                           | Масштабировать текущую матрицу относительно источника объекта.<br/>                                                                               |
 | [**Перевести**](id3dxmatrixstack-translate.md)                             | Определяет продукт текущей матрицы и вычисленную матрицу смещения, определяемую заданными факторами (x, y и z).<br/> |
 | [**транслателокал**](id3dxmatrixstack-translatelocal.md)                   | Определяет продукт вычисленной матрицы перевода, определяемый заданными факторами (x, y и z) и текущей матрицей.<br/> |
@@ -59,7 +59,7 @@ ms.locfileid: "104355640"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс ID3DX10MATRIXStack получается путем вызова функции [**D3DXCreateMatrixStack**](d3d10-d3dxcreatematrixstack.md) .
 
@@ -84,7 +84,7 @@ typedef interface ID3DXMatrixStack *LPD3DXMATRIXSTACK;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

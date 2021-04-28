@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Contact. Webpage2
 ms.assetid: d9b39661-5dcf-479f-94c7-6b1ddc00464b
 title: System. Contact. Webpage2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c69824e2b2ef2b325b3f68b065c502d9db32ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 252b0a7e443c721d18ddfdca25bf0d1213d7fdd1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265332"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101202"
 ---
 # <a name="systemcontactwebpage2"></a>System. Contact. Webpage2
 
@@ -28,11 +28,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

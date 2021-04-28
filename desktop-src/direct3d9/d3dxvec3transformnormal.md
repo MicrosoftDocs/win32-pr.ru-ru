@@ -1,5 +1,5 @@
 ---
-description: Преобразует трехмерный вектор в нормальный по заданной матрице.
+description: Функция D3DXVec3TransformNormal (D3dx9math. h) — Преобразует трехмерный вектор в нормальный по заданной матрице.
 ms.assetid: aa9531e1-b77a-4aad-8d59-2677908cb978
 title: Функция D3DXVec3TransformNormal (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8dd0bf3fa2083d2cf0cc0cea72343f4774a586f5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 50fb09a4619be9c3dbcff98bc939d6f99ad33bd4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273925"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115622"
 ---
 # <a name="d3dxvec3transformnormal-function-d3dx9mathh"></a>Функция D3DXVec3TransformNormal (D3dx9math. h)
 
@@ -75,7 +75,7 @@ D3DXVECTOR3* D3DXVec3TransformNormal(
 
 Указатель на структуру [**D3DXVECTOR3**](d3dxvector3.md) , которая является преобразованным вектором.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция преобразует вектор (*ПС*->x, *PV*->y, *PV*->z, 0) матрице, на которую указывает *PM*.
 
@@ -94,7 +94,7 @@ D3DXVECTOR3* D3DXVec3TransformNormal(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

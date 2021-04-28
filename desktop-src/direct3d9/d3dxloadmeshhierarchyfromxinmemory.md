@@ -1,5 +1,5 @@
 ---
-description: Загружает первую иерархию кадров из файла. x.
+description: Функция D3DXLoadMeshHierarchyFromXInMemory — загружает первую иерархию кадров из файла. x.
 ms.assetid: 428e5cfb-d6a5-4a7f-b082-2d8898e65490
 title: Функция D3DXLoadMeshHierarchyFromXInMemory (D3dx9anim. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 91cf119fc8907701f87ebb5bda1bb0bf45294aba
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 551810c839e619985d9a380197553f5fe4fc9be8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703979"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098212"
 ---
 # <a name="d3dxloadmeshhierarchyfromxinmemory-function"></a>Функция D3DXLoadMeshHierarchyFromXInMemory
 
@@ -125,7 +125,7 @@ HRESULT D3DXLoadMeshHierarchyFromXInMemory(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может иметь одно из следующих значений: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все сетки в файле будут свернуты в одну выходную сетку. Если файл содержит иерархию рамок, все преобразования будут применены к сетке.
 
@@ -140,7 +140,7 @@ HRESULT D3DXLoadMeshHierarchyFromXInMemory(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

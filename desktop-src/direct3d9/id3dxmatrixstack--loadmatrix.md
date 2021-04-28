@@ -1,5 +1,5 @@
 ---
-description: Загружает заданную матрицу в текущую матрицу.
+description: 'Метод ID3DXMATRIXStack:: Лоадматрикс (D3dx9math. h) — загружает заданную матрицу в текущую матрицу.'
 ms.assetid: c4c5ac50-238f-4b41-8ea9-7e48ffd03fc5
 title: 'Метод ID3DXMATRIXStack:: Лоадматрикс (D3dx9math. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 292b4e147dfa99023f0b4d560a4ed41e6b41b3fe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f2ee7e5cae4d28b81b805faa4f113d0819f1eae9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104547839"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093542"
 ---
 # <a name="id3dxmatrixstackloadmatrix-method-d3dx9mathh"></a>Метод ID3DXMATRIXStack:: Лоадматрикс (D3dx9math. h)
 
@@ -55,7 +55,7 @@ HRESULT LoadMatrix(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что этот метод не добавляет элемент в стек; Вместо этого он заменяет текущую матрицу представленной матрицей.
 
@@ -70,7 +70,7 @@ HRESULT LoadMatrix(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

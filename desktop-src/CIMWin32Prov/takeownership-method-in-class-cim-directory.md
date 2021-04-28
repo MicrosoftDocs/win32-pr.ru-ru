@@ -1,5 +1,5 @@
 ---
-description: Метод Такеовнершип получает владение логическим файлом, указанным в пути объекта.
+description: Метод Такеовнершип класса CIM_Directory — метод Такеовнершип получает владение логическим файлом, указанным в пути объекта.
 ms.assetid: 053647d0-3ba0-4cd4-a84a-a1a96ef7151c
 ms.tgt_platform: multiple
 title: Метод Такеовнершип класса CIM_Directory
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dc68e974c98405f03c4bbfb45f02fdf78bf65127
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 12c328f30e56db348b018b73b02aa4320bf99505
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262773"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086062"
 ---
 # <a name="takeownership-method-of-the-cim_directory-class"></a>Метод Такеовнершип \_ класса каталога CIM
 
@@ -61,7 +61,7 @@ uint32 TakeOwnerShip();
 **2**
 </dt> <dd>
 
-Доступ запрещен.
+Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ uint32 TakeOwnerShip();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -187,7 +187,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

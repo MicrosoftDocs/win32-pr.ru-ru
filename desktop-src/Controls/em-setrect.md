@@ -1,6 +1,6 @@
 ---
 title: Сообщение EM_SETRECT (Winuser. h)
-description: Задает прямоугольник форматирования для многострочного элемента управления "поле ввода".
+description: EM_SETRECT сообщение — задает прямоугольник форматирования для многострочного элемента управления Edit.
 ms.assetid: 4f576e94-3bd3-4416-a960-b7f22da963ea
 keywords:
 - Элементы управления Windows для EM_SETRECT сообщений
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a12b171478b0cb9d47496d20d4d1b6b1e8ddd29a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 042428a236b8e9a23f03cdcceaf5d76eb977efd8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071561"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085972"
 ---
 # <a name="em_setrect-message"></a>\_Сообщение SETRECT EM
 
@@ -51,7 +51,7 @@ ms.locfileid: "104071561"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установка параметра *lParam* в **значение NULL** не действует при установке сенсорного устройства или при отправке **EM \_ SETRECT** из потока с установленным обработчиком (см. раздел [**сетвиндовшукекс**](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa)). В таких случаях *lParam* должен содержать допустимый указатель на структуру [**Rect**](/previous-versions//dd162897(v=vs.85)) .
 
@@ -77,11 +77,11 @@ ms.locfileid: "104071561"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**EM \_**](em-getrect.md)

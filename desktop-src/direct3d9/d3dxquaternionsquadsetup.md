@@ -1,5 +1,5 @@
 ---
-description: Настраивает контрольные точки для сферической куадрангле интерполяции.
+description: Функция D3DXQuaternionSquadSetup (D3dx9math. h) — настраивает контрольные точки для сферической куадрангле интерполяции.
 ms.assetid: f800d457-8546-49a1-800e-e5c27af96710
 title: Функция D3DXQuaternionSquadSetup (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 04bae9dafbb9df90fdcccee830a1eecb64c1430f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1dcaa90380ec703b4b56458906ab8bd965d7568c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713616"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093952"
 ---
 # <a name="d3dxquaternionsquadsetup-function-d3dx9mathh"></a>Функция D3DXQuaternionSquadSetup (D3dx9math. h)
 
@@ -191,7 +191,7 @@ D3DXQuaternionSquad(&Qt, &Q1, &A, &B, &C, time);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

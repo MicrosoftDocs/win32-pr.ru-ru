@@ -1,5 +1,5 @@
 ---
-description: Задает массив матриц нонтранспосед.
+description: 'Метод ID3DXConstantTable:: Сетматриксаррай — задает массив матриц нонтранспосед.'
 ms.assetid: f36b8e8a-c22f-41e6-acb1-6298291b002f
 title: 'Метод ID3DXConstantTable:: Сетматриксаррай (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 48dd85975ac58dd26d4194584ce5fbebe26da2a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 02e115cf4526ab065d2613636427059826f450f5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703815"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115102"
 ---
 # <a name="id3dxconstanttablesetmatrixarray-method"></a>Метод ID3DXConstantTable:: Сетматриксаррай
 
@@ -96,7 +96,7 @@ HRESULT SetMatrixArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

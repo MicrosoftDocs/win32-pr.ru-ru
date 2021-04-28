@@ -1,5 +1,5 @@
 ---
-description: Не используется. Ранее он запрашивает данные о стадиях конвейера.
+description: <span id="vspixengine.ipipelinestagesrequest2"></span>Интерфейс IPipeLineStagesRequest2 — не используется. Ранее он запрашивает данные о стадиях конвейера.
 MS-HAID: vspixengine.IPipeLineStagesRequest2
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 9d344b7e128adf344f50a99ba41a420ca794baec
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b9dd185ba709aa4439deb98f92be3c8f2f456cea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139643"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107072"
 ---
 # <a name="span-idvspixengineipipelinestagesrequest2spanipipelinestagesrequest2-interface"></a><span id="vspixengine.ipipelinestagesrequest2"></span>Интерфейс IPipeLineStagesRequest2
 

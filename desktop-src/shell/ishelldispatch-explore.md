@@ -1,5 +1,5 @@
 ---
-description: Открывает указанную папку в окне проводника Windows.
+description: Ишеллдиспатч. исследовать метод — открывает указанную папку в окне проводника Windows.
 ms.assetid: DB434D02-56B2-4e8f-9E43-BBF47C7BE377
 title: Метод Ишеллдиспатч. reисследовать (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 1ae29b4962dcac1be0b7ea23808e36ce005cb62c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e693985cf7d8d83bd5a00595c42cd4427b0ebd5b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984717"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100562"
 ---
 # <a name="ishelldispatchexplore-method"></a>Метод Ишеллдиспатч. исследовать
 
@@ -68,7 +68,7 @@ IShellDispatch.Explore( _
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. исследовать**](shell-explore.md) .
 

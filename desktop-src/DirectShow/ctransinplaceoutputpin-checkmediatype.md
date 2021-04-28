@@ -1,5 +1,5 @@
 ---
-description: Метод Чеккмедиатипе определяет, принимает ли ПИН-код конкретный тип носителя.
+description: Ктрансинплацеаутпутпин. Чеккмедиатипе, метод Чеккмедиатипе определяет, принимает ли ПИН-код конкретный тип носителя.
 ms.assetid: be720021-ef7b-4281-a9f4-93abbdafc75d
 title: Ктрансинплацеаутпутпин. Чеккмедиатипе, метод (Трансип. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b0a422851bc7e09075076decc39d57b85d1052ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 66cd29758e0b2d63db88db8b998cc79ec12efdd9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675155"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094722"
 ---
 # <a name="ctransinplaceoutputpincheckmediatype-method"></a>Ктрансинплацеаутпутпин. Чеккмедиатипе, метод
 
@@ -64,7 +64,7 @@ HRESULT CheckMediaType(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**ктрансформаутпутпин:: чеккмедиатипе**](ctransformoutputpin-checkmediatype.md) .
 
@@ -81,7 +81,7 @@ HRESULT CheckMediaType(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

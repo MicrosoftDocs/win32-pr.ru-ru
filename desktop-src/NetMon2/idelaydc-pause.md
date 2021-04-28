@@ -1,5 +1,5 @@
 ---
-description: Метод Pause приостанавливает текущую запись.
+description: Иделайдк::P метод Аусе — метод Pause приостанавливает текущую запись.
 ms.assetid: 9d5e11d1-8c45-4cf5-9fea-10c9e7a6fe86
 title: 'Иделайдк: метод:P Аусе (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d44ae7792388d9ca637232b45e63d618a37acb6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21b4cd7b6cb921f7bd71b8670a37da12b2239b92
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896762"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098502"
 ---
 # <a name="idelaydcpause-method"></a>Иделайдк: метод:P Аусе
 
@@ -57,7 +57,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пока запись находится в приостановленном состоянии, новые данные не добавляются в текущий [*файл записи*](c.md) до тех пор, пока не будет вызван метод **Иделайдк:: Resume** для перезапуска записи. Если **приостановка** и **возобновление** используются для остановки и перезапуска записи, вся записанная информация помещается в один и тот же файл записи.
 
@@ -80,7 +80,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

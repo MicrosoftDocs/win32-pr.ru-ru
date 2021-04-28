@@ -1,5 +1,5 @@
 ---
-description: Метод Pause приостанавливает фильтр. Этот метод реализует метод Имедиафилтер::P Аусе.
+description: Ктрансформфилтер. Pause, метод Pause приостанавливает фильтр. Этот метод реализует метод Имедиафилтер::P Аусе.
 ms.assetid: 3e3afd14-1c92-4f2b-a367-e10caaeb3b63
 title: Метод Ктрансформфилтер. Pause (Трансфрм. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5408b9a39f92fd68eacb83474a18da0acda6b961
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 903522b63754ff7972e4cdcf5221946442497896
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679636"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095102"
 ---
 # <a name="ctransformfilterpause-method"></a>Ктрансформфилтер. Pause, метод
 
@@ -44,7 +44,7 @@ HRESULT Pause();
 
 Возвращает \_ значение, равное ОК или другому значению **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**стартстреаминг**](ctransformfilter-startstreaming.md) . Метод **стартстреаминг** не выполняет никаких действий в базовом классе, но производный класс может его переопределить.
 
@@ -59,7 +59,7 @@ HRESULT Pause();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

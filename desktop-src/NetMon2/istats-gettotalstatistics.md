@@ -1,5 +1,5 @@
 ---
-description: Метод Жеттоталстатистикс извлекает общую статистику для текущей записи.
+description: 'Метод Истатс:: Жеттоталстатистикс — метод Жеттоталстатистикс извлекает общую статистику для текущей записи.'
 ms.assetid: 494634f6-a9b3-4a50-8920-2387be9ba30f
 title: 'Метод Истатс:: Жеттоталстатистикс (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 51cdbfdcc796aa7d8091e8da5837809efaa63379
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6566a58212e8f20d0d999302f41ab97cb9f005e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674088"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098412"
 ---
 # <a name="istatsgettotalstatistics-method"></a>Метод Истатс:: Жеттоталстатистикс
 
@@ -73,7 +73,7 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод возвращает данные только во время выполнения записи, включая время приостановки записи.
 
@@ -92,7 +92,7 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Задает трансобъектную матрицу.
+description: 'Метод ID3DXBaseEffect:: сетматрикс — задает трансобъектную матрицу.'
 ms.assetid: 90329460-756e-4b3e-9ff3-be9dc556eb9f
 title: 'Метод ID3DXBaseEffect:: Сетматрикс (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 39a5aed1d6321cf0599d212222fd967ee512e20e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7af7dc0daa3dcd29e7b15c4fe435b9626ea41746
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104547823"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097502"
 ---
 # <a name="id3dxbaseeffectsetmatrix-method"></a>Метод ID3DXBaseEffect:: Сетматрикс
 
@@ -65,7 +65,7 @@ HRESULT SetMatrix(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Неперенесенная матрица содержит основные данные строки. Иными словами, каждый вектор содержится в строке.
 
@@ -82,7 +82,7 @@ HRESULT SetMatrix(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

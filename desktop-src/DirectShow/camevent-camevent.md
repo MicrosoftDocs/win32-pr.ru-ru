@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Камевент. Камевент.
 ms.assetid: 35c9ac07-8756-42b1-beeb-5f0e79466742
 title: Конструктор Камевент. Камевент (Вксутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a01d9d1f592675f58d19e81b800c966dddaca1c3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cdd37ba72d9467c16d46b2aec3ec40c206466eaf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656884"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096538"
 ---
 # <a name="cameventcamevent-constructor"></a>Камевент. Камевент, конструктор
 
@@ -59,7 +59,7 @@ CAMEvent(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Событие начинается в несигнальном состоянии.
 
@@ -76,7 +76,7 @@ CAMEvent(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
