@@ -1,15 +1,15 @@
 ---
-description: .
+description: Изменения сортировки NLS
 ms.assetid: 24617b5f-14f1-4f1b-a288-7d20a8166da0
 title: Изменения сортировки NLS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa4935a6874e28270e73904eb352cd6332e650b7
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: e57cfaf2a9891c2d952637429786729670fc103c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314957"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088062"
 ---
 # <a name="nls-sorting-changes"></a>Изменения сортировки NLS
 
@@ -54,7 +54,7 @@ ms.locfileid: "107314957"
 | Операционная система    | Release           | Версия (0xRRMMMMmm)         |
 |---------------------|-------------------|------------------------------|
 | Windows XP          | RTM/SP1/SP2/SP3/... | Н/д — нет API Жетнлсверсион () |
-| Windows Server 2003 | RTM И SP1           | 0x00 0000 01                 |
+| Windows Server 2003 | RTM И SP1           | 0x00 0000 01                 |
 | Windows Vista       | RTM И SP1           | 0x00 0405 00                 |
 | Windows Server 2008 | RTM               | 0x00 0501 00/0x00 5001 00  |
 | Windows 7           | RTM               | 0x00060100                   |

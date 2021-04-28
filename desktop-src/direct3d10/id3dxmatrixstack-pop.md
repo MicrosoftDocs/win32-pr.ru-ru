@@ -1,5 +1,5 @@
 ---
-description: Удаляет текущую матрицу из верхней части стека.
+description: ID3DXMATRIXStack::P метод op (D3DX10. h) — удаляет текущую матрицу из верхней части стека.
 ms.assetid: f4e4ff5d-a7a1-4f87-9b7e-53b9d044ba51
 title: ID3DXMATRIXStack::P метод op (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a9a7b88cc749ef61c8b04395497fcc00ea9b36ca
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 19c87cbd5fd81100682225aa16256573c7f95be0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105714020"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107932"
 ---
 # <a name="id3dxmatrixstackpop-method-d3dx10h"></a>ID3DXMATRIXStack::P метод op (D3DX10. h)
 
@@ -44,7 +44,7 @@ HRESULT Pop();
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что этот метод уменьшает число элементов в стеке на 1, фактически удаляя текущую матрицу из верхней части стека и повышая матрицу до верхней части стека. Если текущее число элементов в стеке равно 0, этот метод возвращает данные без выполнения каких-либо действий. Если текущее число элементов в стеке равно 1, то этот метод очищает стек.
 
@@ -59,7 +59,7 @@ HRESULT Pop();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кбасепропертипаже. Кбасепропертипаже.
 ms.assetid: 5d9863e7-fdd9-4df2-a603-34a240a2286c
 title: Конструктор Кбасепропертипаже. Кбасепропертипаже (Кпроп. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 915bc42cfb7f152cc061dab76caede6c998edf8b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 95821062b6b1199ea98a5329934d76e2197901d4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665169"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119952"
 ---
 # <a name="cbasepropertypagecbasepropertypage-constructor"></a>Кбасепропертипаже. Кбасепропертипаже, конструктор
 
@@ -94,7 +94,7 @@ CMyProp::CMyProp(IUnknown *pUnk) :
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

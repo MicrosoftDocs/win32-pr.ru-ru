@@ -1,5 +1,5 @@
 ---
-description: Строит левую таблицу, которая выглядит в левой части.
+description: Функция D3DXMatrixLookAtLH (D3dx9math. h) — выполняет построение матрицы слева направого вида.
 ms.assetid: bf34d3d8-725d-4fc1-b4c8-6c98f9dac329
 title: Функция D3DXMatrixLookAtLH (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 97fa7acdf467761bd3b3cfbc023662e9b3368b98
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 94a423e700c4a42e2ae7f7e522d83a5a4bd9bf3a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703915"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107592"
 ---
 # <a name="d3dxmatrixlookatlh-function-d3dx9mathh"></a>Функция D3DXMatrixLookAtLH (D3dx9math. h)
 
@@ -85,7 +85,7 @@ D3DXMATRIX* D3DXMatrixLookAtLH(
 
 Указатель на структуру [**D3DXMATRIX**](d3dxmatrix.md) , которая является левой и выглядит матрицей.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXMatrixLookAtLH** может использоваться в качестве параметра для другой функции.
 
@@ -116,7 +116,7 @@ yaxis = cross(zaxis, xaxis)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

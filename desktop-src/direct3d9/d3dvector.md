@@ -1,5 +1,5 @@
 ---
-description: Определяет вектор.
+description: Структура D3DVECTOR (D3D9Types. h) — определяет вектор.
 ms.assetid: 7091617b-935b-466e-8270-90240a1adaee
 title: Структура D3DVECTOR (D3D9Types. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 255270e82b967944ae70e593710550163b8bb788
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8fc8d78490f192f5cbf222251d763ac73e862e78
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273852"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107712"
 ---
 # <a name="d3dvector-structure-d3d9typesh"></a>Структура D3DVECTOR (D3D9Types. h)
 
@@ -63,7 +63,7 @@ typedef struct D3DVECTOR {
 
 </dd> <dt>
 
-**гармошкой**
+**z**
 </dt> <dd>
 
 Тип: **float**
@@ -84,7 +84,7 @@ typedef struct D3DVECTOR {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Создает настроенную левую матрицу ортогональной проекции.
+description: Функция D3DXMatrixOrthoOffCenterLH (D3dx9math. h) — создает настроенную левую матрицу ортогональной проекции.
 ms.assetid: e4f087e5-63d9-49ca-9d8e-3a25070e1a51
 title: Функция D3DXMatrixOrthoOffCenterLH (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1e286197233b2abb2b19138b8fc9d154df355a6a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 704bdab1d486399b28117cd078f556beb1347f7b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000454"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107492"
 ---
 # <a name="d3dxmatrixorthooffcenterlh-function-d3dx9mathh"></a>Функция D3DXMatrixOrthoOffCenterLH (D3dx9math. h)
 
@@ -115,7 +115,7 @@ D3DXMATRIX* D3DXMatrixOrthoOffCenterLH(
 
 Указатель на результирующий [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**D3DXMatrixOrthoLH**](d3dxmatrixortholh.md) является особым случаем функции **D3DXMatrixOrthoOffCenterLH** . Чтобы создать ту же проекцию с помощью **D3DXMatrixOrthoOffCenterLH**, используйте следующие значения: l =-w/2, r = w/2, b =-h/2 и t = h/2.
 
@@ -146,7 +146,7 @@ D3DXMATRIX* D3DXMatrixOrthoOffCenterLH(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

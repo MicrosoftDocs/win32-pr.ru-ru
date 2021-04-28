@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Жетколорконтекстс.
+description: IWICBitmapFrameDecode_GetColorContexts_Proxy функция-прокси для метода Жетколорконтекстс.
 ms.assetid: 1925a64e-558d-4931-a3c3-b35d2b92a292
 title: Функция IWICBitmapFrameDecode_GetColorContexts_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 8e22166e98e4ef276a6bf1d72dfc860cf8fb511e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99fb6caa9b9e654be0adc1235cad0e79a7fa1ef3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263025"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100582"
 ---
 # <a name="iwicbitmapframedecode_getcolorcontexts_proxy-function"></a>IWICBitmapFrameDecode \_ жетколорконтекстс \_ -функция
 
@@ -46,9 +46,9 @@ HRESULT IWICBitmapFrameDecode_GetColorContexts_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) \** _
+Тип: **[ **IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode)\***
 
-Указатель на этот объект [_ *IWICBitmapFrameDecode* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) .
+Указатель на этот объект [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) .
 
 </dd> <dt>
 
@@ -75,7 +75,7 @@ HRESULT IWICBitmapFrameDecode_GetColorContexts_Proxy(
 *пкактуалкаунт* \[ заполняет\]
 </dt> <dd>
 
-Тип: **uint \** _
+Тип: **uint \***
 
 Указатель, получающий количество цветовых контекстов, содержащихся в кадре изображения.
 
@@ -83,7 +83,7 @@ HRESULT IWICBitmapFrameDecode_GetColorContexts_Proxy(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 

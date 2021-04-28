@@ -1,15 +1,15 @@
 ---
-description: Задает верхнюю границу прямоугольника назначения в пикселях.
+description: MFPKEY_COLORCONV_DSTTOP свойство — задает верхнюю границу прямоугольника назначения в пикселях.
 ms.assetid: e3ccbb23-0be3-4316-9e5f-0094fdb9e2db
 title: Свойство MFPKEY_COLORCONV_DSTTOP (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec2fb546c4671c7f4daf1e39ae8411839e94bc6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f28c1e49c5ef7cbb52bc7239fa787f89cbb04b5c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544935"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087652"
 ---
 # <a name="mfpkey_colorconv_dsttop-property"></a>МФПКЭЙ \_ колорконв \_ Дсттоп, свойство
 
@@ -39,7 +39,7 @@ VT \_ I4
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

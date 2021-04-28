@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. FileVersion
 ms.assetid: f2021d11-f713-497e-b503-51c674b8828f
 title: System. FileVersion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c0a784ef12914dd0d25fd5d4c9888cc3c1e0747
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: baa8e6b1638e4efe53a0f17a33b26a6ba5625319
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264282"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100902"
 ---
 # <a name="systemfileversion"></a>System. FileVersion
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

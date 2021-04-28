@@ -1,15 +1,15 @@
 ---
-description: Указывает сложность алгоритма кодировщика.
+description: MFPKEY_COMPLEXITYEX свойство — указывает сложность алгоритма кодировщика.
 ms.assetid: abfc84d5-954f-4524-b3cb-5c5b9cfc7fa0
 title: Свойство MFPKEY_COMPLEXITYEX (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34b935f41ce14a77a135d0bbc8ad6dec2933b570
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20579bcf7a06dc11f47cbef6a53629f3a36b48dc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264007"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087612"
 ---
 # <a name="mfpkey_complexityex-property"></a>МФПКЭЙ \_ комплекситекс, свойство
 
@@ -53,7 +53,7 @@ VT \_ I4
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Более низкие значения приводят к тому, что кодек использует менее сложные алгоритмы кодирования. Хотя более простые алгоритмы обеспечивают более низкое качество вывода, процесс кодирования выполняется быстрее и требует меньше вычислительной мощности. Это может быть важно при кодировании содержимого из действующего источника, так как кодировщик должен быстро обрабатывать входные данные, чтобы поддерживать источник.
 
@@ -71,7 +71,7 @@ VT \_ I4
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

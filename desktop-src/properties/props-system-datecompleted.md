@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Датекомплетед
 ms.assetid: 64be5d80-68d2-437b-8018-5812ce606a15
 title: System. Датекомплетед
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 971017665419602019a111efdcfef30df18cdf71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e12d5e980b72c6feebc86fd0c6ca0b0f665acbba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104345262"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101160"
 ---
 # <a name="systemdatecompleted"></a>System. Датекомплетед
 
@@ -42,11 +42,11 @@ propertyDescription
       type = DateTime
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Использует скомпилированную функцию высокого уровня шейдеров (HLSL) для заполнения каждого шаг текселя каждого уровня mipmap текстуры.
+description: Функция D3DXFillVolumeTextureTX — использует скомпилированную функцию высокого уровня шейдеров (HLSL) для заполнения каждого шаг текселя каждого уровня mipmap текстуры.
 ms.assetid: f082e1d2-c433-482c-9288-58e5c558cdc5
 title: Функция D3DXFillVolumeTextureTX (D3dx9tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: de310ee6171924a5d2b61071d47c421739f15833
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 30aac53aa6451885bbd4ae2cac63050b01157974
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674697"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107632"
 ---
 # <a name="d3dxfillvolumetexturetx-function"></a>Функция D3DXFillVolumeTextureTX
 
@@ -65,7 +65,7 @@ HRESULT D3DXFillVolumeTextureTX(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ NOTAVAILABLE, D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Цель текстуры должна быть HLSL функцией, которая имеет следующую семантику:
 
@@ -86,7 +86,7 @@ HRESULT D3DXFillVolumeTextureTX(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

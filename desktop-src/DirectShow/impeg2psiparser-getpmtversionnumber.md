@@ -1,5 +1,5 @@
 ---
-description: Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.
+description: 'Метод IMpeg2PsiParser:: Жетпмтверсионнумбер. Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.'
 ms.assetid: 50113d6b-4e10-4dc9-aaef-f67c6918a2de
 title: 'Метод IMpeg2PsiParser:: Жетпмтверсионнумбер'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3af4b20067af52216181848f4cc63ac5a7784ba9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6f4fd8d0eba88ba1df54a1cc058bc0a2951b9a19
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105672975"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084562"
 ---
 # <a name="impeg2psiparsergetpmtversionnumber-method"></a>Метод IMpeg2PsiParser:: Жетпмтверсионнумбер
 
@@ -69,11 +69,11 @@ HRESULT GetPmtVersionNumber(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить номер программы, используйте метод **жетрекордпрограмнумбер** .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

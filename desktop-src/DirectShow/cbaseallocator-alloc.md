@@ -1,5 +1,5 @@
 ---
-description: Метод Alloc выделяет память для буферов.
+description: Кбасеаллокатор. Alloc, метод Alloc выделяет память для буферов.
 ms.assetid: a22c97ef-6a8d-4cad-b5a5-3e6b225f5c81
 title: Метод Кбасеаллокатор. Alloc (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b7510a108e69eb218a894b67dd5b62d94bfdbe6c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b53dc461a520b4e8c890a36fca6d73c2c836499f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665068"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096371"
 ---
 # <a name="cbaseallocatoralloc-method"></a>Кбасеаллокатор. Alloc, метод
 
@@ -56,7 +56,7 @@ virtual HRESULT Alloc();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывается методом [**кбасеаллокатор:: Commit**](cbaseallocator-commit.md) .
 
@@ -82,7 +82,7 @@ virtual HRESULT Alloc();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

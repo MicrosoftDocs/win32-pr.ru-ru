@@ -1,5 +1,5 @@
 ---
-description: Масштабировать текущую матрицу относительно источника объекта.
+description: 'Метод ID3DXMATRIXStack:: Скалелокал (D3DX10. h) — масштабирование текущей матрицы относительно источника объекта.'
 ms.assetid: 748fce3a-a33c-4975-bbf0-dd3167a036f1
 title: 'Метод ID3DXMATRIXStack:: Скалелокал (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 868aae418ebedbc54cb8f15ba4fa4e11d47c7f50
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3961db0794703e3974dbd92d8eae8293173c2354
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103914811"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107782"
 ---
 # <a name="id3dxmatrixstackscalelocal-method-d3dx10h"></a>Метод ID3DXMATRIXStack:: Скалелокал (D3DX10. h)
 
@@ -75,7 +75,7 @@ HRESULT ScaleLocal(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод Left — Умножает текущую матрицу на вычисленную матрицу масштабирования. Преобразование относится к локальному источнику объекта.
 
@@ -99,7 +99,7 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

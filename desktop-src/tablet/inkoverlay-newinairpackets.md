@@ -1,15 +1,15 @@
 ---
-description: Происходит при обнаружении пакета в эфире.
+description: Событие InkOverlay. Невинаирпаккетс — происходит при обнаружении пакета в эфире.
 ms.assetid: 10dc1909-bfbc-4ea0-b77a-e33149205107
 title: Событие InkOverlay. Невинаирпаккетс (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ac030a2e32ecf662d811a3c91ccdc2dd3c5fd03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f39e568941b1af0727ad9c8464913325409b4604
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266157"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086712"
 ---
 # <a name="inkoverlaynewinairpackets-event"></a>Событие InkOverlay. Невинаирпаккетс
 
@@ -59,7 +59,7 @@ void NewInAirPackets(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пакет в эфире создается, когда пользователь перемещает перо рядом с планшетом, а курсор находится внутри окна объекта «сборщик рукописных данных» или пользователь перемещает указатель мыши в связанном окне объекта «сборщик рукописных данных». События [**невинаирпаккетс**](inkcollector-newinairpackets.md) создаются быстро, а обработчик событий должен иметь высокую скорость или производительность.
 
@@ -87,7 +87,7 @@ void NewInAirPackets(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Выполняет интерполяцию между двумя кватернионами, используя сферическую линейную интерполяцию.
+description: Функция D3DXQuaternionSlerp (D3dx9math. h) — выполняет интерполяцию между двумя кватернионами с использованием сферической линейной интерполяции.
 ms.assetid: 94a989c8-fa6b-4852-9aa3-e55ad814ffd7
 title: Функция D3DXQuaternionSlerp (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f0f43e22ddc46007c6f589dfc5fd8b45aa885643
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fb9110da7fae4ebbf4609d361124dbbcdedfe59b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713617"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093942"
 ---
 # <a name="d3dxquaternionslerp-function-d3dx9mathh"></a>Функция D3DXQuaternionSlerp (D3dx9math. h)
 
@@ -85,7 +85,7 @@ D3DXQUATERNION* D3DXQuaternionSlerp(
 
 Указатель на структуру [**D3DXQUATERNION**](d3dxquaternion.md) , которая является результатом интерполяции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXQuaternionSlerp** может использоваться в качестве параметра для другой функции.
 
@@ -102,7 +102,7 @@ D3DXQUATERNION* D3DXQuaternionSlerp(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

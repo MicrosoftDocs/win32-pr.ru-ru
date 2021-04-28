@@ -1,5 +1,5 @@
 ---
-description: Получает ширину текстуры в пикселях.
+description: 'Метод ID3DXPRTBuffer:: Полуширинный — получает ширину текстуры в пикселях.'
 ms.assetid: 0180e6e0-aef2-425d-b9d3-d3f7a64f8d5b
 title: 'Метод ID3DXPRTBuffer:: полуширинные (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0a26d17a90f3870ceb8daa03c59f0e23bb411ea5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4b6ce05d3a5d9c1831d0ed2900a4820fd72f7afb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694218"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093252"
 ---
 # <a name="id3dxprtbuffergetwidth-method"></a>ID3DXPRTBuffer:: Полуширинный, метод
 
@@ -55,7 +55,7 @@ UINT GetWidth();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

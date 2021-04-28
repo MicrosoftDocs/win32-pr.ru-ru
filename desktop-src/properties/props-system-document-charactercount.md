@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Docумент. чарактеркаунт
 ms.assetid: bfe0d23d-18fa-4438-96af-da5d44a76b34
 title: System.Docумент. чарактеркаунт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9984b76bd49e8194f571a77b4047881f3a64d22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53312b9c008ea3c6b7b125e3b5d3a8ad8cb9bfd4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265324"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101142"
 ---
 # <a name="systemdocumentcharactercount"></a>System.Docумент. чарактеркаунт
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Трансферсизе
 ms.assetid: aa3ebe48-08e7-43d3-a25c-1a71d42267e9
 title: System. Трансферсизе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 620936721dd90b50217d6875ed54549712a60b7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55a1b70822a3ff960799b76e93b505130186169c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346445"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100760"
 ---
 # <a name="systemtransfersize"></a>System. Трансферсизе
 
@@ -29,11 +29,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
