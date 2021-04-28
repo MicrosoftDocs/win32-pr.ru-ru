@@ -1,5 +1,5 @@
 ---
-description: Отправляется в функцию Кплапплет приложения панели управления для запроса сведений о диалоговом окне, которое поддерживает приложение.
+description: CPL_INQUIRE сообщение — отправляется функции Кплапплет приложения панели управления для запроса сведений о диалоговом окне, которое поддерживает приложение.
 title: Сообщение CPL_INQUIRE (CPL. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8f4c75a2610dab9e94a97eb7920c9de43cf44efc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9962ff94e8bf80041d7b61ecf97220d573131fb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143972"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104472"
 ---
 # <a name="cpl_inquire-message"></a>\_Сообщение о запросах CPL
 
@@ -46,7 +46,7 @@ ms.locfileid: "104143972"
 
 Если функция [**кплапплет**](/windows/win32/api/cpl/nc-cpl-applet_proc) успешно обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Панель управления отправляет сообщение " **\_ запрос CPL** " один раз для каждого диалогового окна, поддерживаемого приложением. Панель управления также отправляет сообщение [**CPL \_ невинкуире**](cpl-newinquire.md) для каждого диалогового окна. Эти сообщения отправляются сразу после сообщения [**CPL. \_ Count**](cpl-getcount.md) . Однако система не гарантирует, что порядок отправки сообщений CPL **\_ Невинкуире и CPL** . **\_**
 

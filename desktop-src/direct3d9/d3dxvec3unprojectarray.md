@@ -1,5 +1,5 @@
 ---
-description: Проецирует массив (x, y, z, 0) из пространства экрана в объектное пространство.
+description: Функция D3DXVec3UnprojectArray (D3dx9math. h) — проецирует массив (x, y, z, 0) из пространства экрана в объектное пространство.
 ms.assetid: fef2a76c-c2fe-48c5-a1bb-6669bcc76b9b
 title: Функция D3DXVec3UnprojectArray (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3af4cc05b5f8ee30c624f904df7e2ae5cd4b844a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 67e42b30a8f8d44bb9b21668a515a202436b7631
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000482"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097722"
 ---
 # <a name="d3dxvec3unprojectarray-function-d3dx9mathh"></a>Функция D3DXVec3UnprojectArray (D3dx9math. h)
 
@@ -135,7 +135,7 @@ D3DXVECTOR3* D3DXVec3UnprojectArray(
 
 Указатель на структуру [**D3DXVECTOR3**](d3dxvector3.md) , которая представляет собой массив, проецируемый из пространства экрана, в объектное пространство.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция [**D3DXVec3Unproject**](d3dxvec3unproject.md) может использоваться в качестве параметра для другой функции.
 
@@ -150,7 +150,7 @@ D3DXVECTOR3* D3DXVec3UnprojectArray(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

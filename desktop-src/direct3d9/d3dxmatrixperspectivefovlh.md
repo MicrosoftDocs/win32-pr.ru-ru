@@ -1,5 +1,5 @@
 ---
-description: Строит левовинтовую матрицу перспективной проекции на основании поля зрения.
+description: Функция D3DXMatrixPerspectiveFovLH (D3dx9math. h) — формирует матрицу левой проекции перспективы на основе поля представления.
 ms.assetid: 90328798-f124-4b61-90a9-971946066b02
 title: Функция D3DXMatrixPerspectiveFovLH (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 91b25a2e319236485c2c290b55acb94954a4791d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: eec478fec30567fbf301054ddfa60f1689bfee8e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273899"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118352"
 ---
 # <a name="d3dxmatrixperspectivefovlh-function-d3dx9mathh"></a>Функция D3DXMatrixPerspectiveFovLH (D3dx9math. h)
 
@@ -95,7 +95,7 @@ Z-значение дальней плоскости просмотра.
 
 Указатель на структуру [**D3DXMATRIX**](d3dxmatrix.md) , которая является матрицей перспективной проекции влево.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXMatrixPerspectiveFovLH** может использоваться в качестве параметра для другой функции.
 
@@ -128,7 +128,7 @@ xScale = yScale / aspect ratio
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

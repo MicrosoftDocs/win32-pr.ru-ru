@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Initialize.
+description: IWICBitmapFlipRotator_Initialize_Proxy функция-прокси для метода Initialize.
 ms.assetid: 860e8092-054d-489e-8ca1-fec43a039eca
 title: Функция IWICBitmapFlipRotator_Initialize_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 82a1aa5648edd47d0b635a407adc001c25183b50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a260d6e60c0ffdeb05aa064ae8abbb38818ac8c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701441"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091162"
 ---
 # <a name="iwicbitmapfliprotator_initialize_proxy-function"></a>Ивикбитмапфлипротатор \_ инициализировать \_ прокси-функцию
 
@@ -45,22 +45,22 @@ HRESULT IWICBitmapFlipRotator_Initialize_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапфлипротатор**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator) \** _
+Тип: **[ **ивикбитмапфлипротатор**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator)\***
 
-Указатель на этот объект [_ *ивикбитмапфлипротатор* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator) .
+Указатель на этот объект [**ивикбитмапфлипротатор**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator) .
 
 </dd> <dt>
 
 *писаурце* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+Тип: **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 Источник входного точечного рисунка.
 
 </dd> <dt>
 
-_options * \[ в\]
+*Параметры* \[ окне\]
 </dt> <dd>
 
 Тип: **[ **викбитмаптрансформоптионс**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions)**

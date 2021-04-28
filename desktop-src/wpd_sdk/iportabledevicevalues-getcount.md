@@ -1,5 +1,5 @@
 ---
-description: Метод NOCOUNT извлекает количество элементов в коллекции.
+description: 'Метод Ипортабледевицевалуес:: NOCOUNT — метод NOCOUNT извлекает количество элементов в коллекции.'
 ms.assetid: 89266483-4211-43d2-a306-68c70f1e7026
 title: 'Метод Ипортабледевицевалуес:: NOCOUNT (Портабледевицетипес. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 710348b2f2626d39efcbdf68373d1e556ecc335c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7a2f1f71f81296f56be779a4c6eea746ebd0963
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649081"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086242"
 ---
 # <a name="iportabledevicevaluesgetcount-method"></a>Метод Ипортабледевицевалуес:: NOCOUNT
 
@@ -72,7 +72,7 @@ HRESULT GetCount(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

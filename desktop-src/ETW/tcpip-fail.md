@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий сбоя TCP/IP. Следующий синтаксис упрощен из MOF-кода.
+description: Класс TcpIp_Fail — этот класс является классом типа событий для событий сбоя TCP/IP. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: 1fe20b8c-b8f1-4db0-af78-1ebfc40b2bbd
 title: Класс TcpIp_Fail
 ms.topic: reference
@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a89d882509ea766e62c8b78e6c2a5fa769fbcca9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 897c42a1c2530d3e41d1f937d5d59356a2913e2b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984796"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105852"
 ---
 # <a name="tcpip_fail-class"></a>\_Неудачный класс TcpIp
 
@@ -38,13 +38,13 @@ class TcpIp_Fail : TcpIp
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **TcpIp \_ Fail** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **TcpIp \_ Fail** имеет следующие свойства.
 
@@ -118,7 +118,7 @@ class TcpIp_Fail : TcpIp
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

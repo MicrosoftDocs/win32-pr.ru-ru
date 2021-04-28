@@ -1,5 +1,5 @@
 ---
-description: Метод Деливербегинфлуш запрашивает подключенный входной ПИН-код для начала операции очистки.
+description: Кдинамикаутпутпин. Деливербегинфлуш, метод Деливербегинфлуш запрашивает подключенный входной ПИН-код для начала операции очистки.
 ms.assetid: eafc3835-7696-480b-abc8-154938e19b15
 title: Кдинамикаутпутпин. Деливербегинфлуш, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 242394a327b63fcc901b08f572096bf2f42238b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4158a3d6191325e8b647e4551133952d623f795
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668541"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099322"
 ---
 # <a name="cdynamicoutputpindeliverbeginflush-method"></a>Кдинамикаутпутпин. Деливербегинфлуш, метод
 
@@ -44,7 +44,7 @@ HRESULT DeliverBeginFlush();
 
 Возвращает \_ значение ОК в случае успешного выполнения или **HRESULT** , указывающий на причину сбоя.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасеаутпутпин::D еливербегинфлуш**](cbaseoutputpin-deliverbeginflush.md) . Он устанавливает событие [**кдинамикаутпутпин:: m \_ хстопевент**](cdynamicoutputpin-m-hstopevent.md) .
 
@@ -59,7 +59,7 @@ HRESULT DeliverBeginFlush();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

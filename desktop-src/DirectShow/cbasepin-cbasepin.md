@@ -1,5 +1,5 @@
 ---
-description: Метод конструктора.
+description: Метод конструктора Кбасепин. Кбасепин.
 ms.assetid: e8cb5f1d-171f-4bf8-8ab6-6e547c4678d2
 title: Конструктор Кбасепин. Кбасепин (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dd4883d3d8e906e1da2f377344b735037c5e5cd3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f11dea6bd5bc3f766e5f93a04022dab5ba6e51a5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669306"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099432"
 ---
 # <a name="cbasepincbasepin-constructor"></a>Кбасепин. Кбасепин, конструктор
 
@@ -89,7 +89,7 @@ CBasePin(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Критическая секция, заданная параметром *плокк* , сериализует состояние ПИН-кода, включая его состояние соединения, выбора распределителя, типа носителя и состояния операций записи на диск. Не используйте этот критический раздел для сериализации операций потоковой передачи. Дополнительные сведения см. [в разделе поток данных в графе фильтра](data-flow-in-the-filter-graph.md).
 
@@ -106,7 +106,7 @@ CBasePin(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

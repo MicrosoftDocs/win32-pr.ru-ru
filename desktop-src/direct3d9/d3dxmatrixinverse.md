@@ -1,5 +1,5 @@
 ---
-description: Вычисляет обратную матрицу.
+description: Функция D3DXMatrixInverse (D3dx9math. h) — Вычисляет обратную матрицу.
 ms.assetid: b8cad5c5-caa5-4426-b045-1770f8806b6b
 title: Функция D3DXMatrixInverse (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: eac1072c0174a03482e60167180f900588a13a72
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0109481beaea282a785564c081e498fe4c7571b6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713621"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098152"
 ---
 # <a name="d3dxmatrixinverse-function-d3dx9mathh"></a>Функция D3DXMatrixInverse (D3dx9math. h)
 
@@ -88,7 +88,7 @@ D3DXMATRIX* D3DXMatrixInverse(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

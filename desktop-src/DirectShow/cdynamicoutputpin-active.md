@@ -1,5 +1,5 @@
 ---
-description: Активный метод уведомляет ПИН-код о том, что фильтр активен.
+description: Кдинамикаутпутпин. Active Method — активный метод уведомляет ПИН-код о том, что фильтр активен.
 ms.assetid: c2b8eb54-1bae-4f52-8324-dc70e3cac577
 title: Метод Кдинамикаутпутпин. Active (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8f1765d0aa524c0dafd03a3fe4133af71e32fa70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d9544c0fd125146b10f008565fcfbe330d18de1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669431"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099332"
 ---
 # <a name="cdynamicoutputpinactive-method"></a>Кдинамикаутпутпин. активный метод
 
@@ -55,7 +55,7 @@ HRESULT Active();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасеаутпутпин:: Active**](cbaseoutputpin-active.md) . Он сбрасывает событие [**кдинамикаутпутпин:: m \_ хстопевент**](cdynamicoutputpin-m-hstopevent.md) . Если фильтр-владелец не вызвал **сетконфигинфо**, этот метод возвращает значение E \_ Fail.
 
@@ -70,7 +70,7 @@ HRESULT Active();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

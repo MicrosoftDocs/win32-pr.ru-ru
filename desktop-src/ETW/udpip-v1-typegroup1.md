@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа событий для событий UDP/IP. Следующий синтаксис упрощен из MOF-кода.
+description: UdpIp_V1_TypeGroup1 класс — этот класс является классом типа события для событий UDP/IP. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: c0ef6679-3852-4992-9fc2-114620eae14e
 title: Класс UdpIp_V1_TypeGroup1
 ms.topic: reference
@@ -18,12 +18,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 58f7506aefa79c3bc9136d2e3e76d662f545a921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7dadaac3d418d2351f9e27c694309deb373615e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984213"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105412"
 ---
 # <a name="udpip_v1_typegroup1-class"></a>\_ \_ Класс TypeGroup1 удпип v1
 
@@ -46,13 +46,13 @@ class UdpIp_V1_TypeGroup1 : UdpIp_V1
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **удпип \_ v1 \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **удпип \_ v1 \_ TypeGroup1** имеет следующие свойства.
 
@@ -122,7 +122,7 @@ class UdpIp_V1_TypeGroup1 : UdpIp_V1
 
 </dd> <dt>
 
-size
+размер;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -165,7 +165,7 @@ size
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

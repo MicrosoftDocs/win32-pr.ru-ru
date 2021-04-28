@@ -1,5 +1,5 @@
 ---
-description: запускает службу.
+description: Метод StartService класса Msvm_SecurityService — запускает службу.
 ms.assetid: 59918c15-7216-4cf7-9215-b27532febc72
 title: Метод StartService класса Msvm_SecurityService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: bff2721b942b6bb145f2d57492f27d1cabb722bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31e16eea84cf61ace11c241b6409a5810f74b8f1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664757"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111402"
 ---
 # <a name="startservice-method-of-the-msvm_securityservice-class"></a>Метод StartService \_ класса мсвм SecurityService
 
@@ -63,7 +63,7 @@ uint32 StartService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: 'Метод Жеттимеформат извлекает текущий формат времени. Этот метод реализует метод Имедиасикинг:: Жеттимеформат.'
+description: 'Кпоспасссру. Жеттимеформат, метод Жеттимеформат извлекает текущий формат времени. Этот метод реализует метод Имедиасикинг:: Жеттимеформат.'
 ms.assetid: 445c1873-da6f-42be-a4cf-0c475c5f0723
 title: Кпоспасссру. Жеттимеформат, метод (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f7db1b46cfe2ac06dc43b52009043ae32676f154
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 903d1c6163d4cad5c5b9ca22213b02542bb3da49
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658020"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085592"
 ---
 # <a name="cpospassthrugettimeformat-method"></a>Кпоспасссру. Жеттимеформат, метод
 
@@ -64,7 +64,7 @@ HRESULT GetTimeFormat(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

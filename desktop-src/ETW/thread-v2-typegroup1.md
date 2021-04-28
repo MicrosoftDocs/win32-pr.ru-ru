@@ -1,5 +1,5 @@
 ---
-description: Этот класс является классом типа события для событий запуска и окончания потока. Следующий синтаксис упрощен из MOF-кода.
+description: Thread_V2_TypeGroup1 Class — этот класс является классом типа события для событий запуска и окончания потока. Следующий синтаксис упрощен из MOF-кода.
 ms.assetid: c24b4bc9-2a05-444c-be41-b4dfd0511b93
 title: Класс Thread_V2_TypeGroup1
 ms.topic: reference
@@ -22,12 +22,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c89d573f4eda2580002bedfd0ad17eb9b50c1575
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24ac4655fc374c40eb530828229a319f9ee1375e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265061"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105662"
 ---
 # <a name="thread_v2_typegroup1-class"></a>\_Класс TypeGroup1 потока версии 2 \_
 
@@ -54,13 +54,13 @@ class Thread_V2_TypeGroup1 : Thread_V2
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **Thread \_ v2 \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **TypeGroup1 в потоке \_ версии 2 \_** имеет эти свойства.
 
@@ -226,7 +226,7 @@ Win32StartAddr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Типы событий Дкстарт и Дценд перечисляют потоки, которые выполняются в данный момент во время запуска и завершения сеанса ядра соответственно.
 
@@ -241,11 +241,11 @@ Win32StartAddr
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Поток**](thread.md)
+[**Thread**](thread.md)
 </dt> <dt>
 
 [**Поток \_ версии 2**](thread-v2.md)

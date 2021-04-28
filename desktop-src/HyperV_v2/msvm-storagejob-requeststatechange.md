@@ -1,5 +1,5 @@
 ---
-description: Запрашивает изменение состояния.
+description: Метод RequestStateChange класса Msvm_StorageJob — запрашивает изменение состояния.
 ms.assetid: 2960bc44-f2af-49c6-9c33-5d9e1ad8056c
 title: Метод RequestStateChange класса Msvm_StorageJob
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1ce563fdae2e73ba2e6994afc3d70c8d4d6fe34a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e15f28af892e713f8bd6897b2d75b6b227886ad1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911012"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111352"
 ---
 # <a name="requeststatechange-method-of-the-msvm_storagejob-class"></a>Метод RequestStateChange \_ класса мсвм сторажежоб
 
@@ -171,7 +171,7 @@ RequestStateChange изменяет состояние задания. Возм�
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -179,7 +179,7 @@ RequestStateChange изменяет состояние задания. Возм�
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

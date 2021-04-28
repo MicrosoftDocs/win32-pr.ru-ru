@@ -1,5 +1,5 @@
 ---
-description: Создает кватернион с заданными значения нутации, шагом и рулоном.
+description: Функция D3DXQuaternionRotationYawPitchRoll (D3dx9math. h) — создает кватернион с заданными значения нутации, шагом и рулоном.
 ms.assetid: be4a3bd5-114b-4652-8e0a-e51338317c16
 title: Функция D3DXQuaternionRotationYawPitchRoll (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4d0df60149643db0d9243afe57e394320f81d08c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 541e181425782662c6d40affc22c829b4ba343ab
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703773"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118002"
 ---
 # <a name="d3dxquaternionrotationyawpitchroll-function-d3dx9mathh"></a>Функция D3DXQuaternionRotationYawPitchRoll (D3dx9math. h)
 
@@ -85,7 +85,7 @@ D3DXQUATERNION* D3DXQuaternionRotationYawPitchRoll(
 
 Указатель на структуру [**D3DXQUATERNION**](d3dxquaternion.md) с указанными значения нутации, шагом и рулоном.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXQuaternionRotationYawPitchRoll** может использоваться в качестве параметра для другой функции.
 
@@ -102,7 +102,7 @@ D3DXQUATERNION* D3DXQuaternionRotationYawPitchRoll(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Функция-посредник для метода Commit.
+description: IWICBitmapFrameEncode_Commit_Proxy функция-прокси для метода Commit.
 ms.assetid: 605801e5-00f8-4e4f-87d3-ad34d3568ee5
 title: Функция IWICBitmapFrameEncode_Commit_Proxy
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 0da0cb95a13148082d8263f622bb4089a7c9bd30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f8ab87860c77cf58f73491a1fb5fc1b658ed67f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343205"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091122"
 ---
 # <a name="iwicbitmapframeencode_commit_proxy-function"></a>Ивикбитмапфраминкоде \_ фиксация \_ прокси-функции
 
@@ -43,9 +43,9 @@ HRESULT IWICBitmapFrameEncode_Commit_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) \** _
+Тип: **[ **ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)\***
 
-Указатель на этот объект [_ *ивикбитмапфраминкоде* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) .
+Указатель на этот объект [**ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) .
 
 </dd> </dl>
 

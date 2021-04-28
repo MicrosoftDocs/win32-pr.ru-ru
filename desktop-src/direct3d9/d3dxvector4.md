@@ -1,5 +1,5 @@
 ---
-description: Описывает вектор с четырьмя компонентами, включая перегрузки операторов и приведения типов.
+description: Структура D3DXVECTOR4 (D3dx9math. h) — описывает вектор с четырьмя компонентами, включая перегрузки операторов и приведения типов.
 ms.assetid: fbfe7851-7bec-4fa0-b4dc-52f5cb83d0a4
 title: Структура D3DXVECTOR4 (D3dx9math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 1647705877d5cacabbaeb79c4055de298e23b68f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d053c6d26df600fdf09d54eb66866014478845be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424534"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097572"
 ---
 # <a name="d3dxvector4-structure-d3dx9mathh"></a>Структура D3DXVECTOR4 (D3dx9math. h)
 
@@ -64,7 +64,7 @@ typedef struct D3DXVECTOR4 {
 
 </dd> <dt>
 
-**гармошкой**
+**z**
 </dt> <dd>
 
 Тип: **[ **float**](../winprog/windows-data-types.md)**
@@ -86,7 +86,7 @@ typedef struct D3DXVECTOR4 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="d3dxvector4-extensions"></a>Расширения D3DXVECTOR4
 
@@ -174,7 +174,7 @@ public:
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

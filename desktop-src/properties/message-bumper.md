@@ -1,15 +1,15 @@
 ---
-description: .
+description: Сообщение (система свойств Windows)
 ms.assetid: 608536cd-cb34-405d-baa7-d99167128cfe
 title: Сообщение (система свойств Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43709af47378a677e0b1e1082455ad2def8be422
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ecc0c008a68fbdfec1d6786228df7bd8a5e8547
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702257"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087412"
 ---
 # <a name="message-windows-property-system"></a>Сообщение (система свойств Windows)
 

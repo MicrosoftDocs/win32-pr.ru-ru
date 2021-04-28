@@ -1,5 +1,5 @@
 ---
-description: Умножает два кватерниона.
+description: Функция D3DXQuaternionMultiply (D3dx9math. h) умножает два кватерниона.
 ms.assetid: 11072fc9-dae8-4f63-b07d-b709eed381df
 title: Функция D3DXQuaternionMultiply (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 753fd206e2b970182ed44c216f1339d56973c416
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7250484e4943e8b077a63e35951c17a44eaf2de3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104157227"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118042"
 ---
 # <a name="d3dxquaternionmultiply-function-d3dx9mathh"></a>Функция D3DXQuaternionMultiply (D3dx9math. h)
 
@@ -75,7 +75,7 @@ D3DXQUATERNION* D3DXQuaternionMultiply(
 
 Указатель на структуру [**D3DXQUATERNION**](d3dxquaternion.md) , которая является произведением двух кватернионов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Результат представляет собой поворот Q1, за которым следует поворот Q2 (out = Q2 \* Q1). Это делается так, что **D3DXQuaternionMultiply** поддерживает ту же семантику, что и [**D3DXMatrixMultiply**](d3dxmatrixmultiply.md) , поскольку единичные кватерниона можно рассматривать как другой способ представления матриц вращения.
 
@@ -106,7 +106,7 @@ D3DXQuaternionMultiply(&q, &qX, &qY);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

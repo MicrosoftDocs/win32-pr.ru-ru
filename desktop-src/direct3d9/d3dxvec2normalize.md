@@ -1,5 +1,5 @@
 ---
-description: Возвращает нормализованную версию 2D-вектора.
+description: Функция D3DXVec2Normalize (D3dx9math. h) — Возвращает нормализованную версию 2D-вектора.
 ms.assetid: 2796a5d1-cb1c-4093-87f2-a2ad43279d91
 title: Функция D3DXVec2Normalize (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ce3152c622c9083438d35c73b20e05ca2523efc2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3322981be5c266bee20a61e85302cb22538a7b0d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081857"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097972"
 ---
 # <a name="d3dxvec2normalize-function-d3dx9mathh"></a>Функция D3DXVec2Normalize (D3dx9math. h)
 
@@ -65,7 +65,7 @@ D3DXVECTOR2* D3DXVec2Normalize(
 
 Указатель на структуру [**D3DXVECTOR2**](d3dxvector2.md) , которая является нормализованной версией вектора.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXVec2Normalize** может использоваться в качестве параметра для другой функции.
 
@@ -80,7 +80,7 @@ D3DXVECTOR2* D3DXVec2Normalize(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

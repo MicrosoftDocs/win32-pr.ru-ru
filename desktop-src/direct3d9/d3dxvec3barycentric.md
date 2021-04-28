@@ -1,5 +1,5 @@
 ---
-description: Возвращает точку в координатах Барицентрик с использованием указанных трехмерных векторов.
+description: Функция D3DXVec3BaryCentric (D3dx9math. h) — возвращает точку в координатах Барицентрик, используя указанные трехмерные векторы.
 ms.assetid: ecbabc76-9936-4f31-adec-1ec807984787
 title: Функция D3DXVec3BaryCentric (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ad17445b0aaa7ba0efa569a9c469c92125c99cb5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c966eeabe78deabefb2877405f649f3d162f9d73
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694143"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097901"
 ---
 # <a name="d3dxvec3barycentric-function-d3dx9mathh"></a>Функция D3DXVec3BaryCentric (D3dx9math. h)
 
@@ -105,7 +105,7 @@ D3DXVECTOR3* D3DXVec3BaryCentric(
 
 Указатель на структуру [**D3DXVECTOR3**](d3dxvector3.md) в координатах барицентрик.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **D3DXVec3BaryCentric** предоставляет способ для понимания точек в треугольнике и вокруг него независимо от того, где фактически находится треугольник. Эта функция возвращает результирующую точку, используя следующее уравнение: v1 + f (V2-v1) + g (v3-v1).
 
@@ -135,7 +135,7 @@ D3DXVECTOR3* D3DXVec3BaryCentric(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

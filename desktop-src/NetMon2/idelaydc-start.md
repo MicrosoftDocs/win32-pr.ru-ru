@@ -1,5 +1,5 @@
 ---
-description: Метод Start запускает захват.
+description: 'Метод Иделайдк:: Start — запускает захват с помощью метода Start.'
 ms.assetid: 92b25afc-d5d8-47e4-a155-4ed2a3571038
 title: 'Метод Иделайдк:: Start (Netmon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: a912af44dddb8a25d3279a5cdd7f021646c26e5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25bf778d9cccce20c736c5f8b83e6af9754ac933
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682469"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118442"
 ---
 # <a name="idelaydcstart-method"></a>Метод Иделайдк:: Start
 
@@ -66,7 +66,7 @@ HRESULT STDMETHODCALLTYPE Start(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Расположение [*файла записи*](c.md) указывается в реестре Windows, но для изменения расположения файла можно использовать сетевой монитор.
 
@@ -90,7 +90,7 @@ HRESULT STDMETHODCALLTYPE Start(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Представляет коллекцию объектов Certificate.
+description: Certificates-объект — представляет коллекцию объектов сертификата.
 ms.assetid: 82011c49-38fb-4261-8fb3-b76859da8a9e
 title: Объект Certificates
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 2e8c12c16820342c5687720a35ce81aa7b94f180
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8efb9221f39b8544eabe8f6c00d21f6cfdf20c14
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665043"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098392"
 ---
 # <a name="certificates-object"></a>Объект Certificates
 
@@ -58,9 +58,9 @@ ms.locfileid: "105665043"
 | Метод                                | Описание                                                                                                                                                           |
 |:--------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Включить**](certificates-add.md)       | Добавляет объект [**сертификата**](certificate.md) в коллекцию.<br/> (Наследуется от **CertificatesICertificates2**)                                        |
-| [**Открытым**](certificates-clear.md)   | Удаляет все объекты [**сертификата**](certificate.md) из коллекции.<br/> (Наследуется от **CertificatesICertificates2**)                                |
+| [**Очистить**](certificates-clear.md)   | Удаляет все объекты [**сертификата**](certificate.md) из коллекции.<br/> (Наследуется от **CertificatesICertificates2**)                                |
 | [**Поиск**](certificates-find.md)     | Возвращает объект **Certificates** , который содержит все сертификаты, соответствующие указанным условиям поиска.<br/> (Наследуется от **CertificatesICertificates2**) |
-| [**Отменит**](certificates-remove.md) | Удаляет из коллекции один объект [**сертификата**](certificate.md) .<br/> (Наследуется от **CertificatesICertificates2**)                            |
+| [**Удалить**](certificates-remove.md) | Удаляет из коллекции один объект [**сертификата**](certificate.md) .<br/> (Наследуется от **CertificatesICertificates2**)                            |
 | [**Сохранить**](certificates-save.md)     | Сохраняет сертификаты в указанный файл.<br/> (Наследуется от **CertificatesICertificates2**)                                                                |
 | [**Метьте**](certificates-select.md) | Отображает диалоговое окно для выбора сертификатов и возвращает коллекцию выбранных сертификатов.<br/> (Наследуется от **CertificatesICertificates2**)  |
 
@@ -84,7 +84,7 @@ ms.locfileid: "105665043"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект **Certificates** может быть создан и защищен для создания скриптов. ProgID для объекта **Certificates** — CAPICOM. Certificates. 2.
 
@@ -103,7 +103,7 @@ ms.locfileid: "105665043"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

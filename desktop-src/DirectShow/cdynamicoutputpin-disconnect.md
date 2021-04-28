@@ -1,5 +1,5 @@
 ---
-description: Метод Disconnect прерывает текущее подключение ПИН-кода. Этот метод реализует метод Ипин::D соединения.
+description: Метод Кдинамикаутпутпин. Disconnect. метод Disconnect прерывает текущее подключение ПИН-кода. Этот метод реализует метод Ипин::D соединения.
 ms.assetid: 8d92a504-98ad-4f8f-89a4-f0c80763db44
 title: Метод Кдинамикаутпутпин. Disconnect (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 65c61ecc825d703976aa3163be5922da1ac4471a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a775146973b353413fa2e74584a6c763b721e7b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669142"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099302"
 ---
 # <a name="cdynamicoutputpindisconnect-method"></a>Кдинамикаутпутпин. Disconnect, метод
 
@@ -55,7 +55,7 @@ HRESULT Disconnect();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод переопределяет метод [**кбасепин::D соединения**](cbasepin-disconnect.md) , чтобы разрешить отсоединение, пока фильтр активен.
 
@@ -70,7 +70,7 @@ HRESULT Disconnect();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

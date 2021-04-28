@@ -1,5 +1,5 @@
 ---
-description: Метод Чеккмедиатипе определяет, принимает ли ПИН-код конкретный тип носителя.
+description: Кбасепин. Чеккмедиатипе, метод Чеккмедиатипе определяет, принимает ли ПИН-код конкретный тип носителя.
 ms.assetid: 6a138679-02b7-4ccc-8881-a0d496f84f93
 title: Кбасепин. Чеккмедиатипе, метод (Амфилтер. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e203851a44a5468567e75ee8c0cc955f8ad0278a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: afe39f3a7aac155f3cc87fa6d58f402043861d1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657956"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099401"
 ---
 # <a name="cbasepincheckmediatype-method"></a>Кбасепин. Чеккмедиатипе, метод
 
@@ -53,7 +53,7 @@ virtual HRESULT CheckMediaType(
 
 \_Если предложенный тип мультимедиа приемлем, возвращается значение S. В противном случае возвращает \_ значение S false или код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Производный класс должен переопределять этот чистый виртуальный метод.
 
@@ -68,7 +68,7 @@ virtual HRESULT CheckMediaType(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

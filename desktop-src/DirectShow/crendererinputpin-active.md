@@ -1,5 +1,5 @@
 ---
-description: 'Активный метод уведомляет ПИН-код о том, что фильтр активен. Этот метод переопределяет метод Кбасепин:: Active.'
+description: 'Крендереринпутпин. Active Method — активный метод уведомляет ПИН-код о том, что фильтр активен. Этот метод переопределяет метод Кбасепин:: Active.'
 ms.assetid: 2e0c773a-1165-4da2-8acc-fe553663408d
 title: Метод Крендереринпутпин. Active (Ренбасе. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 10df7a68fef8cde3d33a654554509ce26145f8e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bdca1b9342e6e79b2975da38efa00f03c5ea8107
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657414"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098902"
 ---
 # <a name="crendererinputpinactive-method"></a>Крендереринпутпин. активный метод
 
@@ -55,7 +55,7 @@ HRESULT Active();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

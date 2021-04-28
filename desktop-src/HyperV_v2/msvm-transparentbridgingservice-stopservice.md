@@ -1,5 +1,5 @@
 ---
-description: останавливает службу.
+description: Метод «начало» класса Msvm_TransparentBridgingService — останавливает службу.
 ms.assetid: ac6b8df2-e2f2-47df-8c1e-07460a15e8e2
 title: Метод «начало» класса Msvm_TransparentBridgingService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 118954217cadf12b69cf3a2b1ec52b2c02cae226
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17bfea47a1bbd467e32e9e932587da8506276ee1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155170"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111112"
 ---
 # <a name="stopservice-method-of-the-msvm_transparentbridgingservice-class"></a>Метод «начало» \_ класса мсвм транспарентбридгингсервице
 
@@ -55,7 +55,7 @@ uint32 StopService();
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -63,7 +63,7 @@ uint32 StopService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

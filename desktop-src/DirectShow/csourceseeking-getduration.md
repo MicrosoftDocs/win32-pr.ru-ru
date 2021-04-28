@@ -1,5 +1,5 @@
 ---
-description: Метод методаической длительности извлекает длительность потока. Этот метод реализует метод Имедиасикинг::/Duration.
+description: Ксаурцесикинг. Duration-метод — метод методаической длительности извлекает длительность потока. Этот метод реализует метод Имедиасикинг::/Duration.
 ms.assetid: 074eb2d0-a7a3-4bc1-82e8-2f42c6d43dac
 title: Ксаурцесикинг. метод Duration (Ктлутил. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8368f655394089c1155d848bc53d2ba2375e3320
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d5b961ad62d65c1f728af71e82de1373ea20b1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657507"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098772"
 ---
 # <a name="csourceseekinggetduration-method"></a>Ксаурцесикинг. метод Duration
 
@@ -57,14 +57,14 @@ HRESULT GetDuration(
 
 | Код возврата                                                                               | Описание                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>      | Успешно<br/>                |
+| <dl> <dt>**\_ОК**</dt> </dl>      | Успешное завершение<br/>                |
 | <dl> <dt>**\_указатель E**</dt> </dl> | Значение указателя **null**<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Длительность задается переменной-членом [**ксаурцесикинг:: m \_ ртдуратион**](csourceseeking-m-rtduration.md) .
 
@@ -79,7 +79,7 @@ HRESULT GetDuration(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

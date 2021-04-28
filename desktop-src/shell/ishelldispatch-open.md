@@ -1,5 +1,5 @@
 ---
-description: Открывает указанную папку.
+description: Ишеллдиспатч. Open метод — открывает указанную папку.
 ms.assetid: 30FE669A-4AFD-4dfa-9F62-E62E744469C7
 title: Метод Ишеллдиспатч. Open (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d794020313ad776c1d538dc2acb909d562d32f15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b5301e030926b9bcfdc18949b6a04706c22bb71
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810966"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086632"
 ---
 # <a name="ishelldispatchopen-method"></a>Ишеллдиспатч. Open, метод
 
@@ -70,7 +70,7 @@ IShellDispatch.Open( _
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. Open**](shell-open.md) .
 
@@ -143,14 +143,14 @@ End Sub
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**ишеллдиспатч**](ishelldispatch.md)
 </dt> <dt>
 
-[**Обзор**](shell-explore.md)
+[**Анализ**](shell-explore.md)
 </dt> </dl>
 
  

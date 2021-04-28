@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Оригиналфиленаме
 ms.assetid: 54c0ebd1-d270-4e8b-88e6-d58698ddd208
 title: System. Оригиналфиленаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac49f48d69a3701eb56bcab8d8b48dc6f947034f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5adeb0f9920698bd3b6896559a79081aa51382b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264244"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104702"
 ---
 # <a name="systemoriginalfilename"></a>System. Оригиналфиленаме
 
@@ -28,13 +28,13 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 `label`Для Windows Vista с пакетом обновления 1 (SP1) был добавлен запрос на указанную косвенную ссылку на непрямое строковое значение атрибута **лабелинфо** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: Перечисление, используемое для обмена данными между подсистемой захвата и узлом (например, Visual Studio диагностика графики).
+description: <span id="vspixengine.callbackcommandtype"></span>Перечисление Каллбакккоммандтипе — перечисление, используемое для обмена данными между ядром записи и узлом (например, Visual Studio диагностика графики).
 MS-HAID: vspixengine.CallbackCommandType
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ac33267677ae95f6a3d5f893b84d6566e564cddd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 85e1b7d396d125add00824e9b7c94086e0da6be2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140094"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090132"
 ---
 # <a name="span-idvspixenginecallbackcommandtypespancallbackcommandtype-enumeration"></a><span id="vspixengine.callbackcommandtype"></span>Перечисление Каллбакккоммандтипе
 
