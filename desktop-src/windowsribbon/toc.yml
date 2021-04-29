@@ -60,7 +60,7 @@
           href: windowsribbon-controls-dropdowngallery.md
         - name: Элемент управления шрифтами
           href: windowsribbon-controls-fontcontrol.md
-        - name: Группа
+        - name: Group
           href: windowsribbon-controls-group.md
         - name: Кнопка "Справка"
           href: windowsribbon-controls-helpbutton.md
@@ -130,7 +130,7 @@
                 - name: Строка
                   href: windowsribbon-element-string.md
                   items:
-                    - name: Содержимое
+                    - name: Content
                       href: windowsribbon-element-string-content.md
                     - name: Идентификатор
                       href: windowsribbon-element-string-id.md
@@ -194,7 +194,7 @@
                       href: windowsribbon-element-dropdowngallery-menulayout.md
                 - name: фонтконтрол
                   href: windowsribbon-element-fontcontrol.md
-                - name: Группа
+                - name: Group
                   href: windowsribbon-element-group.md
                 - name: хелпбуттон
                   href: windowsribbon-element-helpbutton.md
@@ -241,10 +241,10 @@
                   href: windowsribbon-element-tabgroup.md
                 - name: ToggleButton
                   href: windowsribbon-element-togglebutton.md
-            - name: Другие
+            - name: Прочее
               href: windowsribbon-reference-elements-other.md
               items:
-                - name: Приложение
+                - name: Приложения
                   href: windowsribbon-element-application.md
                   items:
                     - name: Команды
@@ -261,8 +261,6 @@
                   href: windowsribbon-element-controlnamemap.md
                 - name: контролсизедефинитион
                   href: windowsribbon-element-controlsizedefinition.md
-                - name: динамикуи
-                  href: windowsribbon-element-dynamicui.md
                 - name: фловменулайаут
                   href: windowsribbon-element-flowmenulayout.md
                 - name: граупсизедефинитион
@@ -338,9 +336,9 @@
             - name: иуиколлектион
               href: /windows/desktop/api/Uiribbon/nn-uiribbon-iuicollection
               items:
-                - name: Добавить
+                - name: Add
                   href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-add
-                - name: Clear
+                - name: Очистить
                   href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-clear
                 - name: GetCount
                   href: /windows/desktop/api/Uiribbon/nf-uiribbon-iuicollection-getcount
