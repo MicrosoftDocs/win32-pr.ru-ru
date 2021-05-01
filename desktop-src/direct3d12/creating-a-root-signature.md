@@ -5,12 +5,12 @@ ms.assetid: 565B28C1-DBD1-42B6-87F9-70743E4A2E4A
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9660f35c349342d147a61a6b4ce9c02a4a1abab
-ms.sourcegitcommit: 65af948af39d1a31885a1b688f5dbfe955d7eba1
+ms.openlocfilehash: 3705f4e1a0a88841560d67d5904e0f1b5dabd3f8
+ms.sourcegitcommit: a0cb986d5694b69d4a65b7d42a22694d02a6e83a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "104548946"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108296339"
 ---
 # <a name="creating-a-root-signature"></a>Создание корневой подписи
 
@@ -85,17 +85,15 @@ typedef enum D3D12_DESCRIPTOR_RANGE_TYPE
 
 Один из способов использования видимости шейдеров — помочь с шейдерами, созданными в ожидании различных привязок на каждый этап шейдера с помощью перекрывающихся пространств имен. Например, шейдер вершин может объявлять:
 
- 
-
-Texture2D foo: Register (T0); "
-
- 
+```hlsl
+Texture2D foo : register(t0);
+```
 
 Кроме того, шейдер пикселей может также объявлять:
 
- 
-
-Texture2D линейчатая: Register (T0);
+```hlsl
+Texture2D bar : register(t0);
+```
 
 Если приложение делает привязку корневой подписи для T0 видимости \_ все, обе шейдеры видят одну и ту же текстуру. Если шейдер определяет, что каждый шейдер должен видеть различные текстуры, он может определить два корневых слота подписи с \_ вершиной видимости и \_ пикселями. Независимо от того, какая область видимости находится в корневом слоте подписи, она всегда имеет такие же затраты (только в зависимости от того, что Слоттипе) в сторону одного фиксированного максимального размера корневой подписи.
 
@@ -243,7 +241,7 @@ for(UINT i = 0; i < numObjects; i++)
 [Корневые подписи](root-signatures.md)
 </dt> <dt>
 
-[Указание корневых подписей в HLSL](specifying-root-signatures-in-hlsl.md)
+[Определение корневых подписей в HLSL](specifying-root-signatures-in-hlsl.md)
 </dt> <dt>
 
 [Использование корневой подписи](using-a-root-signature.md)

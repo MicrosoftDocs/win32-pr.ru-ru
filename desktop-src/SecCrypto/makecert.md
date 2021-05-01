@@ -4,17 +4,17 @@ ms.assetid: a28e77dd-72c9-42a3-a72d-1b3eaf59d9cf
 title: Программой
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 980ba379688f2dc61c44b06d66ed5255e5b2e988
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 461c15db364066d9edadb6a0c4d2c24dceab5cc9
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682779"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327148"
 ---
 # <a name="makecert"></a>Программой
 
 > [!Note]  
-> Мы не рекомендуем использовать MakeCert. Чтобы создать самозаверяющие сертификаты, используйте командлет PowerShell [New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate).
+> Мы не рекомендуем использовать MakeCert. Чтобы создать самозаверяющие сертификаты, используйте командлет PowerShell [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate).
 
  
 
@@ -26,7 +26,7 @@ ms.locfileid: "105682779"
 
 *Выходной_файл* — это имя файла, в который будет записан сертификат. Если сертификат не должен записываться в файл, можно опустить *выходной_файл* .
 
-## <a name="options"></a>Параметры
+## <a name="options"></a>Варианты
 
 В состав MakeCert входят базовые и расширенные параметры. Основные параметры используются при создании сертификатов чаще всего. Дополнительные параметры обеспечивают более гибкое использование программы.
 

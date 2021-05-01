@@ -5,12 +5,12 @@ title: Константы прав доступа (Winnt. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 801eccb2f42ccf27b45bc5628a32cee3de994bfe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd33cf947f6425d717b4d41524fe7cf0fed14cef
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652143"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327159"
 ---
 # <a name="privilege-constants-authorization"></a>Константы прав доступа (авторизация)
 
@@ -153,7 +153,7 @@ BOOL EnablePrivilege()
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SE_RESTORE_NAME"></span><span id="se_restore_name"></span><dl> <dt><strong></strong></dt> <dt>Текст SE_RESTORE_NAME ( &quot; сересторепривилеже &quot; )</dt> </dl></td>
-<td style="text-align: left;">Требуется для выполнения операций восстановления. Эта привилегия заставляет систему предоставлять все элементы управления доступом на запись в любой файл независимо от списка ACL, указанного для файла. Любой запрос на доступ, отличный от Write, по-прежнему оценивается с помощью ACL. Кроме того, эта привилегия позволяет задать любой допустимый идентификатор безопасности пользователя или группы в качестве владельца файла. Эта привилегия необходима для функции <a href="/windows/desktop/api/winreg/nf-winreg-regsavekeya"><strong>реглоадкэй</strong></a> . Если эта привилегия удерживается, предоставляются следующие права доступа:<br/>
+<td style="text-align: left;">Требуется для выполнения операций восстановления. Эта привилегия заставляет систему предоставлять все элементы управления доступом на запись в любой файл независимо от списка ACL, указанного для файла. Любой запрос на доступ, отличный от Write, по-прежнему оценивается с помощью ACL. Кроме того, эта привилегия позволяет задать любой допустимый идентификатор безопасности пользователя или группы в качестве владельца файла. Эта привилегия необходима для функции <a href="/windows/desktop/api/winreg/nf-winreg-regloadkeya"><strong>реглоадкэй</strong></a> . Если эта привилегия удерживается, предоставляются следующие права доступа:<br/>
 <ul>
 <li>WRITE_DAC</li>
 <li>WRITE_OWNER</li>
@@ -218,7 +218,7 @@ BOOL EnablePrivilege()
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константы прав определены как строки в Winnt. h. Например, \_ \_ константа имени аудита SE определяется как "SeAuditPrivilege".
 

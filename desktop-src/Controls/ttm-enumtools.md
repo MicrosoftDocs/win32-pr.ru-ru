@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad1679f9740539507a57c4cba93319569add0af3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a67f23a145838aa3562c81e78fb82c3ea66320df
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490683"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327139"
 ---
 # <a name="ttm_enumtools-message"></a>\_Сообщение ТТМ енумтулс
 
@@ -47,9 +47,9 @@ ms.locfileid: "104490683"
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает **значение true** , если какие бы то ни было средства были перечислены, или **false** в противном случае.
+Возвращает **значение false** независимо от того, перечислено ли средство.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Предупреждение системы безопасности:** Использование этого сообщения может нарушить безопасность программы. Это сообщение не дает получателю сообщения способ определить размер буфера или указать размер буфера в буфере. Прежде чем продолжить, ознакомьтесь с [вопросами безопасности: элементы управления Microsoft Windows](sec-comctls.md) .
 

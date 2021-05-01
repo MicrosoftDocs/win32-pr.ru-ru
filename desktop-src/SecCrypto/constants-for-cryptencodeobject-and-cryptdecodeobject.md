@@ -4,12 +4,12 @@ ms.assetid: f969f2a5-fcbb-4711-8523-ba22952ae952
 title: Константы для CryptEncodeObject и Криптдекодеобжект
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d71871590d0a186e84922f4d0e0dcd9f1767b3da
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: a7f9dcc8ca7365fa588b29cd6ffdc9e11c0f1869
+ms.sourcegitcommit: f14de4414da072d5a761e946aedfde24d8b65102
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104547471"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108314325"
 ---
 # <a name="constants-for-cryptencodeobject-and-cryptdecodeobject"></a>Константы для CryptEncodeObject и Криптдекодеобжект
 
@@ -96,7 +96,7 @@ ms.locfileid: "104547471"
 | <span id="X509_KEY_ATTRIBUTES"></span><span id="x509_key_attributes"></span><dl> <dt>**X509 \_ Ключевые \_ атрибуты**</dt> <dt>(LPCSTR) 10</dt> </dl>                                                                                                                        | Параметр *пвструктинфо* является указателем на структуру [**\_ \_ \_ сведений об атрибутах ключа сертификата**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_key_attributes_info) .<br/>                                                                                                                                                              |
 | <span id="szOID_KEY_ATTRIBUTES"></span><span id="szoid_key_attributes"></span><span id="SZOID_KEY_ATTRIBUTES"></span><dl> <dt>**сзоид \_ Ключевые \_ атрибуты**</dt> <dt>"2.5.29.2"</dt> </dl>                                                                               | Параметр *пвструктинфо* является указателем на структуру [**\_ \_ \_ сведений об атрибутах ключа сертификата**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_key_attributes_info) .<br/>                                                                                                                                                              |
 | <span id="X509_KEY_USAGE"></span><span id="x509_key_usage"></span><dl> <dt>**X509 \_ \_Использование ключа**</dt> <dt>(LPCSTR) 14</dt> </dl>                                                                                                                                       | Параметр *пвструктинфо* — это указатель на структуру [**\_ битового \_ большого двоичного объекта**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_bit_blob) . Дополнительные сведения см. в разделе "Заметки".<br/>                                                                                                                                                         |
-| <span id="szOID_KEY_USAGE"></span><span id="szoid_key_usage"></span><span id="SZOID_KEY_USAGE"></span><dl> <dt>**сзоид \_ \_Использование ключа**</dt> <dt>"2.5.29.4"</dt> </dl>                                                                                                   | Параметр *пвструктинфо* — это указатель на структуру [**\_ битового \_ большого двоичного объекта**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_bit_blob) . Дополнительные сведения см. в разделе "Заметки".<br/>                                                                                                                                                         |
+| <span id="szOID_KEY_USAGE"></span><span id="szoid_key_usage"></span><span id="SZOID_KEY_USAGE"></span><dl> <dt>**сзоид \_ \_Использование ключа**</dt> <dt>"2.5.29.15"</dt> </dl>                                                                                                   | Параметр *пвструктинфо* — это указатель на структуру [**\_ битового \_ большого двоичного объекта**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_bit_blob) . Дополнительные сведения см. в разделе "Заметки".<br/>                                                                                                                                                         |
 | <span id="X509_KEY_USAGE_RESTRICTION"></span><span id="x509_key_usage_restriction"></span><dl> <dt>**X509 \_ \_ \_ Ограничение использования ключа**</dt> <dt>(LPCSTR) 11</dt> </dl>                                                                                                  | Параметр *пвструктинфо* является указателем на структуру [**\_ \_ \_ \_ сведений об ограничении использования ключа сертификата**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_key_usage_restriction_info) .<br/>                                                                                                                                               |
 | <span id="szOID_KEY_USAGE_RESTRICTION"></span><span id="szoid_key_usage_restriction"></span><span id="SZOID_KEY_USAGE_RESTRICTION"></span><dl> <dt>**сзоид \_ \_ \_ Ограничение использования ключа**</dt> <dt>"2.5.29.4"</dt> </dl>                                                  | Параметр *пвструктинфо* является указателем на структуру [**\_ \_ \_ \_ сведений об ограничении использования ключа сертификата**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_key_usage_restriction_info) .<br/>                                                                                                                                               |
 | <span id="X509_KEYGEN_REQUEST_TO_BE_SIGNED"></span><span id="x509_keygen_request_to_be_signed"></span><dl> <dt>**X509 \_ \_Запрос Keygen \_ для \_ \_ подписания**</dt> <dt>(LPCSTR) 21</dt> </dl>                                                                              | Параметр *пвструктинфо* — это указатель на [**\_ \_ \_ информационную структуру запроса Keygen для сертификата**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_keygen_request_info) . Дополнительные сведения см. в разделе "Заметки".<br/>                                                                                                                                    |
@@ -152,7 +152,7 @@ ms.locfileid: "104547471"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующей таблице приведены дополнительные сведения о конкретных значениях *лпсзструкттипе* .
 
