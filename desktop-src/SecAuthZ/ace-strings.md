@@ -4,12 +4,12 @@ ms.assetid: 82c99170-784b-4724-a25b-2f2e8a2e0225
 title: Строки ACE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a35bde18a1ca3ac416faa42e3b693e26305beb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ed8f9aad8696bd3d3c251170f2ff79ea493ce57
+ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813289"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108644186"
 ---
 # <a name="ace-strings"></a>Строки ACE
 
@@ -47,16 +47,15 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 | «AL»            | \_оповещение SDDL                             | \_ \_ Тип ACE системного \_ оповещения                                                                                                                                           |
 | НИХ            | \_аудит объектов \_ SDDL                     | \_ \_ \_ Тип ACE объекта системного \_ аудита                                                                                                                                   |
 | OL            | \_ \_ оповещение объекта SDDL                     | \_ \_ \_ Тип ACE объекта системного \_ оповещения                                                                                                                                   |
-| СТУДИ            | \_обязательная \_ Метка SDDL                  | \_Тип ACE обязательных системных \_ меток \_ \_                                                                                                                                |
-| СООБЩЕН            | \_ \_ разрешен доступ к обратному ВЫЗОВу SDDL \_         | ДОСТУП к \_ разрешенному \_ ответу на обратный вызов \_ Тип ACE для \_ **windows Vista и Windows Server 2003:** недоступен.<br/>                                                           |
-| XD            | \_доступ к обратному вызову SDDL \_ \_ запрещен          | \_ \_ Тип ACE для обратного вызова с запретом доступа \_ \_ **windows Vista и Windows Server 2003:** недоступен.<br/>                                                            |
+| СТУДИ            | \_обязательная \_ Метка SDDL                  | \_Тип ACE обязательной системы \_ \_ \_ : **Windows Server 2003:** недоступен.                                                                                        |
+| СООБЩЕН            | \_ \_ разрешен доступ к обратному ВЫЗОВу SDDL \_         | ДОСТУП к \_ разрешенному \_ ответу на обратный вызов \_ Тип ACE для \_ **Windows Server 2008, windows Vista и Windows Server 2003:** недоступен.                                                |
+| XD            | \_доступ к обратному вызову SDDL \_ \_ запрещен          | \_ \_ Тип ACE "доступ запрещен" для обратного вызова \_ \_ **Windows Server 2008, windows Vista и Windows Server 2003:** недоступен.                                                 |
 | ЦЕНТРА            | \_атрибут ресурса \_ SDDL               | \_Атрибут системного \_ ресурса \_ \_ тип ACE **Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista и Windows Server 2003:** недоступно.<br/> |
 | ПОРТОВ            | \_идентификатор политики с областью действия SDDL \_ \_                | \_ \_ Идентификатор политики уровня системы \_ \_ тип ACE \_ **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно.<br/>  |
 | "КСУ"            | \_Аудит обратного вызова SDDL \_                   | \_ \_ Тип ACE обратного вызова аудита системы \_ \_ **Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista и Windows Server 2003:** недоступно.<br/>     |
 | ZA            | \_ \_ \_ разрешен доступ к объекту ОБРАТНОго вызова SDDL \_ | ДОСТУП к \_ разрешенному \_ ответному вызову \_ Тип ACE " \_ **Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista и Windows Server 2003"** недоступен.<br/>   |
-
-
-
+| TL            | \_ \_ Метка доверия процесса \_ SDDL             | \_ \_ Метка доверия системного \_ процесса \_ Тип ACE: \_ **Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно. |
+| ШТАТ            | \_Фильтр доступа \_ SDDL                    | \_Тип ACE для фильтра доступа к системе \_ \_ \_ **: Windows Server 2016, Windows 10 версии 1607, Windows 10 версии 1511, Windows 10 версии 1507, windows Server 2012 R2, Windows 8.1, Windows Server 2012, windows 8, Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista и Windows Server 2003:** недоступно. |
  
 
 > [!Note]  
@@ -82,9 +81,8 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 | ID             | \_унаследовано SDDL          | УНАСЛЕДОВАНный \_ элемент ACE                |
 | СРОК             | \_ \_ успешный аудит SDDL     | \_ \_ флаг ACE успешного \_ доступа |
 | СЕРИЮ             | \_сбой аудита \_ SDDL     | неудачный \_ доступ к \_ \_ флагу ACE     |
-
-
-
+| Пи             | \_ \_ Фильтр защищенного доверия SDDL \_ | Флаг доверия с \_ защищенным \_ фильтром \_ ACE \_ **Windows Server 2016, Windows 10 версии 1607, Windows 10 версии 1511, Windows 10 версии 1507, windows Server 2012 R2, Windows 8.1, Windows Server 2012, windows 8, Windows Server 2008 R2, windows 7, Windows Server 2008, windows Vista и Windows Server 2003:** недоступно. |
+| Кредит             | \_Критическое для SDDL           | КРИТИЧЕСКИй \_ флаг ACE для \_ **сервера Windows Server версии 1803, windows 10 версии 1803, windows Server версии 1709, windows 10 версии 1709, windows 10 версии 1703, Windows Server 2016, windows 10 версии 1607, windows 10 версии 1511, windows 10 версии 1507, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно. |
  
 
 </dd> <dt>
@@ -152,9 +150,9 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 
 | Строка прав доступа | Константа в SDDL. h | Значение право доступа |
 |----------------------|--------------------|--------------------|
-| Nr                 | SDDL \_ — \_ Чтение не производится \_ | \_обязательная \_ Метка системы \_ не \_ читается \_ |
-| NW                 | \_запись SDDL без \_ записи \_ | СИСТЕМная \_ обязательная \_ метка \_ без \_ записи \_ |
-| NX                 | SDDL \_ без \_ выполнения \_ | \_обязательная система \_ метка \_ No не \_ выполняется \_ |
+| Nr                 | SDDL \_ — \_ Чтение не производится \_ | \_Обязательная \_ метка \_ системы \_ не \_ считывает **Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно. |
+| NW                 | \_запись SDDL без \_ записи \_ | СИСТЕМная \_ обязательная \_ метка \_ не \_ записывает \_ **Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно. |
+| NX                 | SDDL \_ без \_ выполнения \_ | \_Обязательная \_ метка \_ системы \_ не \_ выполняет **Windows Server 2008, Windows Vista и Windows Server 2003:** недоступно. |
 </dd> <dt>
 
 <span id="object_guid"></span><span id="OBJECT_GUID"></span>**\_GUID объекта**
@@ -268,7 +266,7 @@ Resource Attributes: Project has the strings Windows and SQL, Secrecy has the un
 
 Дополнительные сведения см. в разделе [Формат строки дескриптора безопасности](security-descriptor-string-format.md) и [строки SID](sid-strings.md). Сведения об условных ACE см. в разделе [язык определения дескрипторов безопасности для условных элементов ACE](security-descriptor-definition-language-for-conditional-aces-.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

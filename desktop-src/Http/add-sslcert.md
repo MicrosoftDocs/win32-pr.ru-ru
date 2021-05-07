@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a43569edd400b824876dff991f95e79cbfd6a96
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 309050be35748f39eefc8b40b8e590f8f6889fde
+ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104412035"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108644196"
 ---
 # <a name="add-sslcert"></a>add sslcert
 
@@ -45,28 +45,28 @@ add sslcert [ipport=]IP Address:port
 
 <dl> <dt>
 
-<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[иппорт = \] * * * IP-адрес: порт*
+<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[иппорт = IP-адрес: порт\]**
 </dt> <dd>
 
 Указывает IP-адрес и порт для привязки.
 
 </dd> <dt>
 
-<span id="_certhash__string"></span><span id="_CERTHASH__STRING"></span>**\[certhash = \] * * * строка*
+<span id="_certhash__string"></span><span id="_CERTHASH__STRING"></span>**\[certhash = строка\]**
 </dt> <dd>
 
 Указывает хэш SHA сертификата. Этот хэш имеет длину 20 байт и задается в виде шестнадцатеричной строки.
 
 </dd> <dt>
 
-<span id="_appid__GUID"></span><span id="_appid__guid"></span><span id="_APPID__GUID"></span>**\[AppID = \] * * * GUID*
+<span id="_appid__GUID"></span><span id="_appid__guid"></span><span id="_APPID__GUID"></span>**\[AppID = GUID\]**
 </dt> <dd>
 
 Указывает GUID для обозначения приложения-владельца.
 
 </dd> <dt>
 
-<span id="_certstorename__string"></span><span id="_CERTSTORENAME__STRING"></span>**\[цертсторенаме = \] * * * строка*
+<span id="_certstorename__string"></span><span id="_CERTSTORENAME__STRING"></span>**\[цертсторенаме = строка\]**
 </dt> <dd>
 
 Указывает имя для хранения сертификата. По умолчанию — MY. Сертификат должен храниться в контексте локального компьютера.
@@ -94,28 +94,28 @@ add sslcert [ipport=]IP Address:port
 
 </dd> <dt>
 
-<span id="_revocationfreshnesstime__u-int"></span><span id="_REVOCATIONFRESHNESSTIME__U-INT"></span>**\[ревокатионфрешнесстиме = \] * * * u-int*
+<span id="_revocationfreshnesstime__u-int"></span><span id="_REVOCATIONFRESHNESSTIME__U-INT"></span>**\[ревокатионфрешнесстиме = u-int\]**
 </dt> <dd>
 
 Указывает интервал времени для проверки обновленного списка отзыва сертификатов (CRL). Если это значение равно 0, то новый список отзыва сертификатов обновляется только в том случае, если предыдущий срок истекает (в секундах).
 
 </dd> <dt>
 
-<span id="_urlretrievaltimeout__u-int"></span><span id="_URLRETRIEVALTIMEOUT__U-INT"></span>**\[урлретриевалтимеаут = \] * * * u-int*
+<span id="_urlretrievaltimeout__u-int"></span><span id="_URLRETRIEVALTIMEOUT__U-INT"></span>**\[урлретриевалтимеаут = u-int\]**
 </dt> <dd>
 
 Указывает интервал времени ожидания при попытке получить список отзыва сертификатов для удаленного URL-адреса (в миллисекундах).
 
 </dd> <dt>
 
-<span id="_sslctlidentifier__string"></span><span id="_SSLCTLIDENTIFIER__STRING"></span>**\[сслктлидентифиер = \] * * * строка*
+<span id="_sslctlidentifier__string"></span><span id="_SSLCTLIDENTIFIER__STRING"></span>**\[сслктлидентифиер = строка\]**
 </dt> <dd>
 
 Список издателей сертификатов, которые могут быть доверенными. Этот список может быть подмножеством издателей сертификатов, которые являются доверенными для компьютера.
 
 </dd> <dt>
 
-<span id="_sslctlstorename__string"></span><span id="_SSLCTLSTORENAME__STRING"></span>**\[сслктлсторенаме = \] * * * строка*
+<span id="_sslctlstorename__string"></span><span id="_SSLCTLSTORENAME__STRING"></span>**\[сслктлсторенаме = строка\]**
 </dt> <dd>
 
 Указывает имя хранилища на локальном \_ компьютере, где хранится сслктлидентифиер.
@@ -144,9 +144,9 @@ add sslcert [ipport=]IP Address:port
 
 **AppID = {00112233-4455-6677-8899-AABBCCDDEEFF}**
 
- 
+ 
 
- 
+ 
 
 
 
