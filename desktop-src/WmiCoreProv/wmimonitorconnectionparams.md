@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 64212c523459696ced37e42689f6a4be0edb056b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a88b80773ec60b161df51fc759cc932d5c53c931
+ms.sourcegitcommit: cfcac5a083b72fd7f2a5188166d470cc0e95d02d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265384"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "109626696"
 ---
 # <a name="wmimonitorconnectionparams-class"></a>Класс Вмимониторконнектионпарамс
 
@@ -40,13 +40,13 @@ class WmiMonitorConnectionParams
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 Класс **вмимониторконнектионпарамс** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **вмимониторконнектионпарамс** имеет следующие свойства.
 
@@ -90,7 +90,7 @@ class WmiMonitorConnectionParams
 Тип доступа: только для чтения
 </dt> </dl>
 
-Тип подключения технологии вывода видео. Допустимые значения описаны в перечислении [ \_ \_ \_ технологии вывода видео D3DKMDT](https://msdn.microsoft.com/library/ms794498.aspx) .
+Тип подключения технологии вывода видео. Допустимые значения описаны в перечислении [ \_ \_ \_ технологии вывода видео D3DKMDT](/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_output_technology) .
 
 </dd> </dl>
 
@@ -101,14 +101,14 @@ class WmiMonitorConnectionParams
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                               |
-| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                         |
+| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                         |
 | Пространство имен<br/>                | Корневой \\ инструментарий WMI<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Вмикоре. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 
