@@ -4,12 +4,12 @@ description: В этой статье предлагается более точ
 ms.assetid: 1512324d-dffa-3681-be3f-f63a3b8f11db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c5c511f558b59e94945e63c44db225f34ac2583
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f7a6d9d65ccb79c7b496b4d02b1bed132bdc2d3f
+ms.sourcegitcommit: 998a611c97d5e20ac0c45e3bda768ae67d8c2cca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105681658"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "109725013"
 ---
 # <a name="game-timing-and-multicore-processors"></a>Расписание игры и многоядерный процессор
 
@@ -19,7 +19,7 @@ ms.locfileid: "105681658"
 -   [Рекомендации](#recommendations)
 -   [Совместимость приложений](#application-compatibility)
 
-## <a name="background"></a>Историческая справка
+## <a name="background"></a>Фон
 
 С момента появления набора инструкций x86 P5 многие разработчики игр использовали счетчик меток времени чтения, инструкцию RDTSC для выполнения высокого разрешения времени. Таймеры мультимедиа Windows достаточно точны для обработки звука и видео, но с продолжением кадров со временем до десятка миллисекунд они не имеют достаточного разрешения для предоставления сведений о Дельта-времени. Многие игры по-прежнему используют таймер мультимедиа при запуске, чтобы установить частоту ЦП, и используют это значение частоты для масштабирования результатов из RDTSC, чтобы получить точное время. Из-за ограничений RDTSC API Windows предоставляет более правильный способ доступа к этим функциям с помощью подпрограмм [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) и [**куериперформанцефрекуенци**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency).
 
@@ -54,9 +54,9 @@ ms.locfileid: "105681658"
 
 Сведения, ориентированные на клиентов, см. в следующих статьях базы знаний Майкрософт:
 
--   [Программы, с которыми пользователь может плохо работать в Windows Server 2003 и Windows XP](https://support.microsoft.com/kb/895980) (статья 895980)
+-   [Программы, использующие функцию QueryPerformanceCounter, могут работать плохо в Windows Server 2003 и Windows XP](https://support.microsoft.com/kb/895980) (статья 895980)
 -   [На компьютере под управлением Windows XP, на котором используется Двухъядерный процессор (статья 909944), производительность игры может быть низкой](https://support.microsoft.com/kb/909944) .
 
- 
+ 
 
- 
+ 
