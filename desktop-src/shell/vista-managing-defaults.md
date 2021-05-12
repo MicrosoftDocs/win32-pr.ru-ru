@@ -4,19 +4,19 @@ ms.assetid: 649eb20d-07d3-4209-abff-45fc50f05631
 title: Управление приложениями по умолчанию
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de40d6c80aae4005fc015c08ef7bf2907289e795
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc146858d197b96229edda49ac2e7249db51bf4c
+ms.sourcegitcommit: 4d639170c06864e47ef66b2cfe6ca3d07cce0b02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909512"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109812829"
 ---
 # <a name="managing-default-applications"></a>Управление приложениями по умолчанию
 
 Функция **настройки доступа к программам и параметров по умолчанию** (SPAD) была добавлена в Windows XP и более поздних версиях Windows для управления параметрами по умолчанию для каждого компьютера. Помимо SPAD, в Windows Vista появилась концепция приложений по умолчанию для каждого пользователя и элемент **программы по умолчанию** в панели управления.
 
 > [!IMPORTANT]
-> Этот раздел не относится к Windows 10. Способ изменения связей файлов по умолчанию в Windows 10. Дополнительные сведения см. в разделе об **изменениях в статье обработка приложений по умолчанию** в [этой записи](https://blogs.windows.com/bloggingwindows/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/)в Windows 10.
+> Этот раздел не относится к Windows 10. Способ изменения связей файлов по умолчанию в Windows 10. Дополнительные сведения см. в разделе об **изменениях в статье обработка приложений по умолчанию** в [этой записи](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/)в Windows 10.
 
  
 
@@ -45,7 +45,7 @@ ms.locfileid: "103909512"
     -   [Избегайте предупреждений или блоков совместимости приложений](#avoid-appcompat-warnings-or-blocks-from-the-program-compatibility-assistant)
     -   [Поддержка предыдущих версий операционной системы Windows](#support-for-previous-windows-operating-system-versions)
 -   [Дополнительные ресурсы](#additional-resources)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="default-programs-item-in-control-panel"></a>Элемент "программы по умолчанию" в панели управления
 
@@ -104,7 +104,7 @@ ms.locfileid: "103909512"
 
 Ранее при каждом из этих действий все точки входа были удалены в соответствующие приложения в системе. Конкретные рекомендации для этой ситуации, например, для удаления ярлыков и значков из следующих расположений:
 
--   Персональный компьютер
+-   Классические приложения
 -   Меню "Пуск"
 -   Панель быстрого запуска (только для Windows Vista и более ранних версий)
 -   Область "Уведомления"
@@ -207,7 +207,7 @@ int _tmain(int argc, WCHAR* argv[])
 
 Приложение может иметь множество точек входа в операционной системе. Ниже приведены рекомендуемые расположения для точек входа.
 
--   Персональный компьютер
+-   Классические приложения
 -   Меню "Пуск"
 -   Панель быстрого запуска (только для Windows Vista и более ранних версий)
 -   Область "Уведомления"
@@ -320,7 +320,7 @@ int _tmain(int argc, WCHAR* argv[])
 -   [Как зарегистрировать Интернет браузер или почтовый клиент в меню "Пуск" Windows](start-menu-reg.md)
 -   [Регистрация приложения в схеме URI](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85))
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
