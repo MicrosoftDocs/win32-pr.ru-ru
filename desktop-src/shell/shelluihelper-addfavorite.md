@@ -13,18 +13,18 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b30e776e-642c-4599-b83f-ef15bc0b23d2
-ms.openlocfilehash: a5c3cae52f0ad18c1f2ddf6cf91759d1c6daf6c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce6fa0a71bb2ab995e510f06b4403c78bebcc60
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986021"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842455"
 ---
-# <a name="shelluihelperaddfavorite-method"></a><span data-ttu-id="4d1bc-104">Шеллуихелпер. Аддфаворите, метод</span><span class="sxs-lookup"><span data-stu-id="4d1bc-104">ShellUIHelper.AddFavorite method</span></span>
+# <a name="shelluihelperaddfavorite-method"></a><span data-ttu-id="18bfb-104">Шеллуихелпер. Аддфаворите, метод</span><span class="sxs-lookup"><span data-stu-id="18bfb-104">ShellUIHelper.AddFavorite method</span></span>
 
-<span data-ttu-id="4d1bc-105">Отображает пользовательский интерфейс по умолчанию для создания элемента избранного.</span><span class="sxs-lookup"><span data-stu-id="4d1bc-105">Displays the default user interface for creating a favorite item.</span></span> <span data-ttu-id="4d1bc-106">Пользовательский интерфейс инициализируется с указанными параметрами.</span><span class="sxs-lookup"><span data-stu-id="4d1bc-106">The user interface is initialized to the specified parameters.</span></span>
+<span data-ttu-id="18bfb-105">Отображает пользовательский интерфейс по умолчанию для создания элемента избранного.</span><span class="sxs-lookup"><span data-stu-id="18bfb-105">Displays the default user interface for creating a favorite item.</span></span> <span data-ttu-id="18bfb-106">Пользовательский интерфейс инициализируется с указанными параметрами.</span><span class="sxs-lookup"><span data-stu-id="18bfb-106">The user interface is initialized to the specified parameters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4d1bc-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4d1bc-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="18bfb-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="18bfb-107">Syntax</span></span>
 
 
 ```JScript
@@ -36,33 +36,33 @@ iRetVal = ShellUIHelper.AddFavorite(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="4d1bc-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="4d1bc-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="18bfb-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="18bfb-108">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="4d1bc-109">*СУРЛ* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="4d1bc-109">*sURL* \[in\]</span></span>
+<span data-ttu-id="18bfb-109">*СУРЛ* \[ окне\]</span><span class="sxs-lookup"><span data-stu-id="18bfb-109">*sURL* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4d1bc-110">Тип: **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span><span class="sxs-lookup"><span data-stu-id="4d1bc-110">Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span></span>
+<span data-ttu-id="18bfb-110">Тип: **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span><span class="sxs-lookup"><span data-stu-id="18bfb-110">Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span></span>
 
-<span data-ttu-id="4d1bc-111">**Строковое** значение, указывающее URL-адрес элемента, добавляемого в папку **"Избранное"** .</span><span class="sxs-lookup"><span data-stu-id="4d1bc-111">A **String** value that specifies the URL of the item to be added to the **Favorites** folder.</span></span>
+<span data-ttu-id="18bfb-111">**Строковое** значение, указывающее URL-адрес элемента, добавляемого в папку **"Избранное"** .</span><span class="sxs-lookup"><span data-stu-id="18bfb-111">A **String** value that specifies the URL of the item to be added to the **Favorites** folder.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="4d1bc-112">*втитле* \[ в необязательное\]</span><span class="sxs-lookup"><span data-stu-id="4d1bc-112">*vTitle* \[in, optional\]</span></span>
+<span data-ttu-id="18bfb-112">*втитле* \[ в необязательное\]</span><span class="sxs-lookup"><span data-stu-id="18bfb-112">*vTitle* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="4d1bc-113">Тип: \**Variant \** _</span><span class="sxs-lookup"><span data-stu-id="4d1bc-113">Type: \**Variant\** _</span></span>
+<span data-ttu-id="18bfb-113">Тип: **Variant \***</span><span class="sxs-lookup"><span data-stu-id="18bfb-113">Type: **Variant\***</span></span>
 
-<span data-ttu-id="4d1bc-114">Значение _ \*Variant\*\*, указывающее имя элемента.</span><span class="sxs-lookup"><span data-stu-id="4d1bc-114">A _ *Variant*\* value that specifies the name of the item.</span></span>
+<span data-ttu-id="18bfb-114">Значение **типа Variant** , указывающее имя элемента.</span><span class="sxs-lookup"><span data-stu-id="18bfb-114">A **Variant** value that specifies the name of the item.</span></span>
 
 </dd> </dl>
 
-## <a name="examples"></a><span data-ttu-id="4d1bc-115">Примеры</span><span class="sxs-lookup"><span data-stu-id="4d1bc-115">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="18bfb-115">Примеры</span><span class="sxs-lookup"><span data-stu-id="18bfb-115">Examples</span></span>
 
-<span data-ttu-id="4d1bc-116">В следующем примере показано правильное использование этого метода для JScript Embedded в HTML и Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="4d1bc-116">The following example shows the proper usage of this method for JScript embedded in HTML and Visual Basic.</span></span>
+<span data-ttu-id="18bfb-116">В следующем примере показано правильное использование этого метода для JScript Embedded в HTML и Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="18bfb-116">The following example shows the proper usage of this method for JScript embedded in HTML and Visual Basic.</span></span>
 
-<span data-ttu-id="4d1bc-117">Присутствовал</span><span class="sxs-lookup"><span data-stu-id="4d1bc-117">JScript:</span></span>
+<span data-ttu-id="18bfb-117">Присутствовал</span><span class="sxs-lookup"><span data-stu-id="18bfb-117">JScript:</span></span>
 
 
 ```JScript
@@ -92,7 +92,7 @@ iRetVal = ShellUIHelper.AddFavorite(
 
 
 
-<span data-ttu-id="4d1bc-118">Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="4d1bc-118">Visual Basic:</span></span>
+<span data-ttu-id="18bfb-118">Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="18bfb-118">Visual Basic:</span></span>
 
 
 ```VB
@@ -107,16 +107,16 @@ End Sub
 
 
 
-## <a name="requirements"></a><span data-ttu-id="4d1bc-119">Требования</span><span class="sxs-lookup"><span data-stu-id="4d1bc-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="18bfb-119">Requirements (Требования)</span><span class="sxs-lookup"><span data-stu-id="18bfb-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="4d1bc-120">Требование</span><span class="sxs-lookup"><span data-stu-id="4d1bc-120">Requirement</span></span> | <span data-ttu-id="4d1bc-121">Значение</span><span class="sxs-lookup"><span data-stu-id="4d1bc-121">Value</span></span> |
+| <span data-ttu-id="18bfb-120">Требование</span><span class="sxs-lookup"><span data-stu-id="18bfb-120">Requirement</span></span> | <span data-ttu-id="18bfb-121">Значение</span><span class="sxs-lookup"><span data-stu-id="18bfb-121">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="4d1bc-122">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="4d1bc-122">Minimum supported client</span></span><br/> | <span data-ttu-id="4d1bc-123">Windows 2000 Professional, только для \[ классических приложений Windows XP\]</span><span class="sxs-lookup"><span data-stu-id="4d1bc-123">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                         |
-| <span data-ttu-id="4d1bc-124">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="4d1bc-124">Minimum supported server</span></span><br/> | <span data-ttu-id="4d1bc-125">Windows 2000 Server \[только классические приложения\]</span><span class="sxs-lookup"><span data-stu-id="4d1bc-125">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="4d1bc-126">Заголовок</span><span class="sxs-lookup"><span data-stu-id="4d1bc-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="4d1bc-127"><dt>Ексдисп. h</dt></span><span class="sxs-lookup"><span data-stu-id="4d1bc-127"><dt>Exdisp.h</dt></span></span> </dl>                            |
-| <span data-ttu-id="4d1bc-128">DLL</span><span class="sxs-lookup"><span data-stu-id="4d1bc-128">DLL</span></span><br/>                      | <dl> <span data-ttu-id="4d1bc-129"><dt>Shell32.dll (версия 4,71 или более поздняя)</dt></span><span class="sxs-lookup"><span data-stu-id="4d1bc-129"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="18bfb-122">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="18bfb-122">Minimum supported client</span></span><br/> | <span data-ttu-id="18bfb-123">Windows 2000 Professional, только для \[ классических приложений Windows XP\]</span><span class="sxs-lookup"><span data-stu-id="18bfb-123">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                         |
+| <span data-ttu-id="18bfb-124">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="18bfb-124">Minimum supported server</span></span><br/> | <span data-ttu-id="18bfb-125">Windows 2000 Server \[только классические приложения\]</span><span class="sxs-lookup"><span data-stu-id="18bfb-125">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="18bfb-126">Заголовок</span><span class="sxs-lookup"><span data-stu-id="18bfb-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="18bfb-127"><dt>Ексдисп. h</dt></span><span class="sxs-lookup"><span data-stu-id="18bfb-127"><dt>Exdisp.h</dt></span></span> </dl>                            |
+| <span data-ttu-id="18bfb-128">DLL</span><span class="sxs-lookup"><span data-stu-id="18bfb-128">DLL</span></span><br/>                      | <dl> <span data-ttu-id="18bfb-129"><dt>Shell32.dll (версия 4,71 или более поздняя)</dt></span><span class="sxs-lookup"><span data-stu-id="18bfb-129"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
 
 
 
