@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 6a388ba2b3ee0506b093221275e34104e3f91bbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d22d45e473cec1d5186c300f97cbdb4661237ab9
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545559"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841335"
 ---
 # <a name="wiacreate-method"></a>Метод WIA. Create
 
@@ -43,7 +43,7 @@ retVal = Wia.Create(
 *Устройство* \[ окне\]
 </dt> <dd>
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
 Указывает устройство WIA, к которому необходимо подключиться.
 
@@ -51,11 +51,11 @@ retVal = Wia.Create(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *ивиадиспатчитем**
+Тип: **ивиадиспатчитем**
 
 В случае успешного выполнения этот метод возвращает объект [**Item**](-wia-item.md) , представляющий аппаратное устройство WIA (корневой элемент).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр *Device* указывает объект [**DeviceInfo**](-wia-deviceinfo.md) , передавая сам объект, его индекс из объекта Collection или значение свойства [**ID**](-wia-iwiadeviceinfo-id.md) . **Ничего не** передавать, чтобы отобразить диалоговое окно, позволяющее пользователю выбрать устройство.
 
@@ -120,7 +120,7 @@ Set objWia = objWia.Create(Nothing)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

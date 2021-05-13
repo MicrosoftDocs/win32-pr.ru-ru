@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: 9aa6eb20-de39-41f7-a17e-183f4088f972
-ms.openlocfilehash: 5389b10af9aaa3da5d3106d82a4fbdcbd614a094
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f219e5fd62fb4f85fd206501e6a53ac3927195a
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999705"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841975"
 ---
 # <a name="imultimonitordockingsiterequestmonitor-method"></a>Метод Имултимонитордоккингсите:: Рекуестмонитор
 
@@ -42,16 +42,16 @@ HRESULT RequestMonitor(
 *пунксрк* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+Тип: **[ **IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-Указатель на объект, реализующий интерфейс [_ *идоккингвиндов* *](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) .
+Указатель на объект, реализующий интерфейс [**идоккингвиндов**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) .
 
 </dd> <dt>
 
 *фмон* \[ окне\]
 </dt> <dd>
 
-Тип: **хмонитор \** _
+Тип: **хмонитор \***
 
 Указатель на обработчик монитора по умолчанию.
 
@@ -59,11 +59,11 @@ HRESULT RequestMonitor(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

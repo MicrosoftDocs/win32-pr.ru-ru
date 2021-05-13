@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 75fc151e-5b9e-476b-b4e5-b848917357a8
-ms.openlocfilehash: 3e891278d98ca2eb51fca11054cba01947e03c09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55f8062b71e553ec5ceefa413b45f439874744b8
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912363"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841765"
 ---
 # <a name="shell-object"></a>Объект оболочки
 
@@ -80,7 +80,7 @@ ms.locfileid: "103912363"
 <td style="text-align: left;">Извлекает компьютер из стыковочного узла. Это то же самое, что и при нажатии кнопки " <strong>Пуск</strong> " и выборе пункта " <strong>извлечь компьютер</strong>", если компьютер поддерживает эту команду.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="shell-explore.md"><strong>Обзор</strong></a></td>
+<td style="text-align: left;"><a href="shell-explore.md"><strong>Просматриваем</strong></a></td>
 <td style="text-align: left;">Открывает указанную папку в окне проводника Windows.<br/></td>
 </tr>
 <tr class="even">
@@ -132,7 +132,7 @@ ms.locfileid: "103912363"
 <td style="text-align: left;">Создает и возвращает объект <a href="folder.md"><strong>Folder</strong></a> для указанной папки.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="shell-open.md"><strong>Открыть</strong></a></td>
+<td style="text-align: left;"><a href="shell-open.md"><strong>Открыт</strong></a></td>
 <td style="text-align: left;">Открывает указанную папку.<br/></td>
 </tr>
 <tr class="odd">
@@ -218,14 +218,14 @@ ms.locfileid: "103912363"
 
 | Свойство                                            | Тип доступа          | Описание                                                                 |
 |:----------------------------------------------------|:---------------------|:----------------------------------------------------------------------------|
-| [**Приложение**](shell-application.md)<br/> | Только для чтения<br/> | Содержит объект приложения объекта.<br/>                        |
+| [**Приклад**](shell-application.md)<br/> | Только для чтения<br/> | Содержит объект приложения объекта.<br/>                        |
 | [**Parent**](shell-parent.md)<br/>           | Только для чтения<br/> | Возвращает объект, представляющий родительский объект текущего объекта.<br/> |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Winshfhc.dll
 ms.assetid: 33a5589a-201b-4d94-afbf-5965a39e2748
-ms.openlocfilehash: 96798e0bc64b39ae7f18d58b97fafafc9dc2508b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2def6cb5bc2ed59a98e9e513aba1b5b578cd8681
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985904"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841435"
 ---
 # <a name="estimatefilerisklevel-function"></a>Функция Естиматефилерисклевел
 
@@ -74,7 +74,7 @@ HRESULT EstimateFileRiskLevel(
 *пфрлестимате* \[ заполняет\]
 </dt> <dd>
 
-Тип: **\_ \_ уровень \* риска файла* _
+Тип: **\_ \_ уровень \* риска файла**
 
 При успешном возврате этой функции содержит указатель на одно из следующих значений, которые заменяют предполагаемый риск.
 
@@ -82,7 +82,7 @@ HRESULT EstimateFileRiskLevel(
 
 <span id="FRL_NO_OPINION"></span><span id="frl_no_opinion"></span>
 
-<span id="FRL_NO_OPINION"></span><span id="frl_no_opinion"></span>_ *ФРЛ \_ без \_ мнения** (0)
+<span id="FRL_NO_OPINION"></span><span id="frl_no_opinion"></span>**ФРЛ \_ НЕТ \_ мнения** (0)
 
 
 </dt> <dd>
@@ -141,11 +141,11 @@ HRESULT EstimateFileRiskLevel(
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция не объявлена в общедоступном заголовке или включена в файл библиотеки. Чтобы использовать его, необходимо загрузить его непосредственно из Winshfhc.dll с порядковым номером 101.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

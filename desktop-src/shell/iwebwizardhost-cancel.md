@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: ea53c8ad-d6dd-4ff7-92e4-681d807a3d98
-ms.openlocfilehash: 79ad23dc0f419e884ad291ab911ddb66d156e1a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a75ecc508f6e901d5003f9e5ecd23497aa8de919
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072557"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841885"
 ---
 # <a name="webwizardhostcancel-method"></a>Вебвизардхост. Cancel, метод
 
@@ -37,11 +37,11 @@ iRetVal = WebWizardHost.Cancel()
 
 Этот метод не имеет параметров.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Клиент отвечает за реагирование на этот метод с ожидаемым поведением, закрыв мастер.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -49,7 +49,7 @@ iRetVal = WebWizardHost.Cancel()
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
 | Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl> |
 
 

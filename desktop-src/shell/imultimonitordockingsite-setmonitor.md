@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: ba4ace13-7096-4f05-bcb0-ab37f1632406
-ms.openlocfilehash: cc177316a850bbf5059cabf48362ab8d5cbe2466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be773ee68c214f6a2fab8da89f1f48b867e71239
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997967"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841945"
 ---
 # <a name="imultimonitordockingsitesetmonitor-method"></a>Метод Имултимонитордоккингсите:: Сетмонитор
 
@@ -43,9 +43,9 @@ HRESULT SetMonitor(
 *пунксрк* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+Тип: **[ **IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-Указатель на объект, реализующий интерфейс [_ *идоккингвиндов* *](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) , для которого изменяется монитор.
+Указатель на объект, реализующий интерфейс [**идоккингвиндов**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) , для которого изменяется монитор.
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ HRESULT SetMonitor(
 *фмонолд* \[ заполняет\]
 </dt> <dd>
 
-Тип: **хмонитор \** _
+Тип: **хмонитор \***
 
 При возврате этой функции содержит указатель на предыдущий обработчик монитора по умолчанию.
 
@@ -69,11 +69,11 @@ HRESULT SetMonitor(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

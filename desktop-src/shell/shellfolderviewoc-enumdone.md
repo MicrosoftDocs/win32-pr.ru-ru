@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 7baa5f58-62c2-406e-a81e-4ca9c446a756
-ms.openlocfilehash: 3ce02fd418a93ec5914c438fcad39d8dc73c5c8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00b0e58ed18ab0da9c3fa362da4b8e3e066cdcc4
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997862"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841055"
 ---
 # <a name="shellfolderviewocenumdone-event"></a>Шеллфолдервиевок. Енумдоне, событие
 
@@ -43,7 +43,7 @@ ShellFolderViewOC.EnumDone = EventHandler;
 
 Этот обработчик событий не имеет параметров.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Объект [**шеллфолдервиев**](shellfolderview.md) должен перечислить содержимое папки, прежде чем она сможет ее отобразить. При наличии больших или расположенных в удаленной системе папок Этот процесс может занять несколько минут. В течение этого времени отображается анимированный рисунок фонарик, указывающий пользователю, что обработка выполняется по-разному. После перечисления будет вызвано событие **енумдоне** , и изображение фонарик заменяется содержимым папки.
 
@@ -60,7 +60,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ End Sub
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
 | Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 461fd171-d47f-41d6-953e-8e497e023ab1
-ms.openlocfilehash: 847100f494772b3c59ad719d03d7bc2dbe28cc29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e991d2705f74aa8822dcef89878e9762f22b08dc
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496788"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842395"
 ---
 # <a name="fm_getfilesellfn-message"></a>\_Сообщение FM жетфилеселлфн
 
@@ -46,13 +46,13 @@ ms.locfileid: "104496788"
 
 Возвращает отсчитываемый от нуля индекс выбранного файла, который был получен.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Только расширения, поддерживающие длинные имена файлов (например, сетевые расширения), должны использовать это сообщение.
 
 Расширение может использовать сообщение [**FM \_ жетселкаунтлфн**](fm-getselcountlfn.md) для получения числа выбранных файлов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

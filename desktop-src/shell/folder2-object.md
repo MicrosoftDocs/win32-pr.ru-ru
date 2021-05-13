@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 5b52b141-ced3-4d38-8584-7dfcfe12ab56
-ms.openlocfilehash: 8db899fc52cc3511d1af82013fc6c4c87544f1cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2c630ef36f6e4b2b58f3902c3d5728a31ad1f0d
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985497"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842065"
 ---
 # <a name="folder2-object"></a>Объект Folder2
 
@@ -40,7 +40,7 @@ ms.locfileid: "104985497"
 | Метод                                                                 | Описание                                                                          |
 |:-----------------------------------------------------------------------|:-------------------------------------------------------------------------------------|
 | [**дисмисседвебвиевбаррикаде**](folder2-dismissedwebviewbarricade.md) | Вызывается в ответ на веб-представление баррикаде, закрытое пользователем.<br/> |
-| [**Полнит**](folder2-synchronize.md)                             | Синхронизирует все автономные файлы в папке.<br/>                             |
+| [**Synchronize**](folder2-synchronize.md)                             | Синхронизирует все автономные файлы в папке.<br/>                             |
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "104985497"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "104985497"
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
 | Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 

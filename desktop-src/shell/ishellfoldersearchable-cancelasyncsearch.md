@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 5c920dca-fbca-48e1-9dce-38713cf1fcef
-ms.openlocfilehash: e9e3231e8cc602a4e00b6ee79a25392717b6e68b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3146fea4f6c8d8547c8c86096b434cbaea5b5926
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984637"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842995"
 ---
 # <a name="ishellfoldersearchablecancelasyncsearch-method"></a>Метод Ишеллфолдерсеарчабле:: Канцеласинксеарч
 
@@ -52,9 +52,9 @@ HRESULT CancelAsyncSearch(
 *пдвфлагс* \[ окне\]
 </dt> <dd>
 
-Введите: **DWORD \** _
+Тип: **DWORD \***
 
-Флаги в настоящее время не определены; Задайте значение _ * NULL * *.
+Флаги в настоящее время не определены; Задайте **значение NULL**.
 
 </dd> </dl>
 
@@ -64,11 +64,11 @@ HRESULT CancelAsyncSearch(
 
 Возвращает \_ значение s ОК при отмене или \_ false, если поиск не выполняется.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 При фактическом отмене поиска будет вызван [**руненд**](ishellfoldersearchablecallback-runend.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

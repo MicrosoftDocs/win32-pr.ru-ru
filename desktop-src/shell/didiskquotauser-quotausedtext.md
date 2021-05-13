@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: be27a17c-77ec-4016-8c2e-16fbc88c7c7a
-ms.openlocfilehash: 1091d7f2d75b264b085c09af1873ac7c8ebd1617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf818bdcd22b734c6f4638a837af97bfecef1695
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984264"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843215"
 ---
 # <a name="didiskquotauserquotausedtext-property"></a>Дидисккуотаусер. Куотауседтекст, свойство
 
@@ -39,7 +39,7 @@ QuotaUsedText = DIDiskQuotaUser.QuotaUsedText
 
 Строковое значение, заданное как объем используемого места на диске. Если включено сжатие файлов NTFS, это свойство отражает объем места на диске, требуемый для данных в несжатом состоянии.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

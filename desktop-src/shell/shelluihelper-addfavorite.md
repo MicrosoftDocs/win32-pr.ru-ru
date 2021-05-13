@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b30e776e-642c-4599-b83f-ef15bc0b23d2
-ms.openlocfilehash: a5c3cae52f0ad18c1f2ddf6cf91759d1c6daf6c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce6fa0a71bb2ab995e510f06b4403c78bebcc60
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986021"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842455"
 ---
 # <a name="shelluihelperaddfavorite-method"></a>Шеллуихелпер. Аддфаворите, метод
 
@@ -52,9 +52,9 @@ iRetVal = ShellUIHelper.AddFavorite(
 *втитле* \[ в необязательное\]
 </dt> <dd>
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
-Значение _ *Variant**, указывающее имя элемента.
+Значение **типа Variant** , указывающее имя элемента.
 
 </dd> </dl>
 
@@ -107,7 +107,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

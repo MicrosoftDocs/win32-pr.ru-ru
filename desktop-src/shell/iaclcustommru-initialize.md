@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: 358921b0-46c4-4428-b0b5-57a44fc3247b
-ms.openlocfilehash: 768df625cb66c888ddccc85f72de5b8676c20b10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 715c6991021070dd132942de0bb18c8b77684860
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997683"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841235"
 ---
 # <a name="iaclcustommruinitialize-method"></a>Метод Иаклкустоммру:: Initialize
 
@@ -63,7 +63,7 @@ HRESULT Initialize(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

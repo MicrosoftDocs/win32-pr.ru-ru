@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 3b7fa6c4-3d02-44ed-b63d-80a799e4017a
-ms.openlocfilehash: 75876e5088c610c1f9f02ba9374db5cea4a6023c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 537a77e7ffffb462e0031ea0959f60cd695f7d99
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543106"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842675"
 ---
 # <a name="ishellfolderviewtypetranslateviewpidl-method"></a>Метод Ишеллфолдервиевтипе:: Транслатевиевпидл
 
@@ -62,7 +62,7 @@ HRESULT TranslateViewPidl(
 *ппидлаут* \[ окне\]
 </dt> <dd>
 
-Тип: **пкуидлист \_ Относительный \** _
+Тип: **пкуидлист \_ Относительный \***
 
 Адрес переменной ПИДЛ для получения перевода.
 
@@ -70,15 +70,15 @@ HRESULT TranslateViewPidl(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 По завершении необходимо освободить возвращенный ПИДЛ с [**илфри**](/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

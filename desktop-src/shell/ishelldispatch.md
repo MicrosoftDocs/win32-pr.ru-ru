@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9B429C03-7F80-45db-B8CD-58D19FAD2E61
-ms.openlocfilehash: 20c6cc9f0b3a2e2fde8f56311564d63bc1cc9c0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02fbead4b2d40a91ec6dab70f536d1ea3241ee84
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984697"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840895"
 ---
 # <a name="ishelldispatch-object"></a>Объект Ишеллдиспатч
 
@@ -67,7 +67,7 @@ ms.locfileid: "104984697"
 <td style="text-align: left;">Запускает указанное приложение панели управления. Если приложение уже открыто, будет активирован запущенный экземпляр. <br/>
 <blockquote>
 <p>[!Note]<br />
-Начиная с Windows Vista, большинство приложений панели управления являются элементами оболочки и не могут быть открыты с помощью этой функции. Чтобы открыть эти приложения панели управления, передайте каноническое имя в control.exe. Например:</p>
+Начиная с Windows Vista, большинство приложений панели управления являются элементами оболочки и не могут быть открыты с помощью этой функции. Чтобы открыть эти приложения панели управления, передайте каноническое имя в control.exe. Пример:</p>
 <pre class="syntax" data-space="preserve"><code>control.exe /name Microsoft.Personalization</code></pre>
 </blockquote>
 <br/></td>
@@ -77,7 +77,7 @@ ms.locfileid: "104984697"
 <td style="text-align: left;">Извлекает компьютер из стыковочного узла. Это то же самое, что и при нажатии кнопки " <strong>Пуск</strong> " и выборе пункта " <strong>извлечь компьютер</strong>", если компьютер поддерживает эту команду.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-explore.md"><strong>Обзор</strong></a></td>
+<td style="text-align: left;"><a href="ishelldispatch-explore.md"><strong>Просматриваем</strong></a></td>
 <td style="text-align: left;">Открывает указанную папку в окне проводника Windows.<br/></td>
 </tr>
 <tr class="even">
@@ -159,14 +159,14 @@ ms.locfileid: "104984697"
 
 | Свойство                                                     | Тип доступа          | Описание                                                                      |
 |:-------------------------------------------------------------|:---------------------|:---------------------------------------------------------------------------------|
-| [**Приложение**](ishelldispatch-application.md)<br/> | Только для чтения<br/> | Содержит объект, представляющий приложение.<br/>                    |
+| [**Приклад**](ishelldispatch-application.md)<br/> | Только для чтения<br/> | Содержит объект, представляющий приложение.<br/>                    |
 | [**Parent**](ishelldispatch-parent.md)<br/>           | Только для чтения<br/> | Извлекает объект, представляющий родителя текущего объекта.<br/> |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -3,12 +3,12 @@ title: Автоматически создаваемые координаты т
 description: Система может использовать преобразованное расположение камеры или нормали от вершины в качестве координат текстуры или вычислить три вектора элементов, используемых для адресации схемы кубической среды.
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de8a6328df66296c0948c53be68109a9f5afbbb6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b01addbe354fb910ef68e1fc693e7dfffb1ceacf
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701257"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843295"
 ---
 # <a name="auto-generated-texture-coordinates-direct3d-9"></a>Автоматически создаваемые координаты текстуры (Direct3D 9)
 
@@ -52,7 +52,7 @@ d3dDevice->SetTextureStageState(0, D3DTSS_TEXCOORDINDEX,
 
 При сопоставлении сфер используется предварительно вычисленная Текстурная схема (во времени модели), которая содержит всю среду, как отражается в сфере Chrome. В Direct3D предусмотрена функция создания координат текстуры с помощью визуализации State D3DTSS \_ тЦи \_ камераспаценормал, которая принимает нормальную вершину в пространстве камеры и помещает ее через преобразование текстуры для создания координат текстуры.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 6985a299-8547-4db4-99f9-d46dafe4789b
-ms.openlocfilehash: 36c1de0a606fdfddbe8eb74b5cc6c20cdda8e983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43d76c6a27b301a61474b8028af16e5e540cf2ce
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263349"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841695"
 ---
 # <a name="ishellfoldersearchableinvalidatesearch-method"></a>Метод Ишеллфолдерсеарчабле:: Инвалидатесеарч
 
@@ -52,9 +52,9 @@ HRESULT InvalidateSearch(
 *пдвфлагс* \[ окне\]
 </dt> <dd>
 
-Введите: **DWORD \** _
+Тип: **DWORD \***
 
-Флаги в настоящее время не определены; Задайте значение _ * NULL * *.
+Флаги в настоящее время не определены; Задайте **значение NULL**.
 
 </dd> </dl>
 
@@ -64,11 +64,11 @@ HRESULT InvalidateSearch(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Если папка поиска становится недействительной, она может выполнить очистку всех используемых ресурсов. Метод **ишеллфолдерсеарчабле:: инвалидатесеарч** может привести к отмене асинхронного поиска и приведет к выходу окончательного выпуска объекта интерфейса [**ишеллфолдерсеарчаблекаллбакк**](ishellfoldersearchablecallback.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 38c0e049-2f9f-43bc-8bf2-1b7becf16e66
-ms.openlocfilehash: a1c66c594a60682ad359ffbcdcd0bf045601051d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8b9309e7bd1c8cbcc05360c076db085d0f8b991
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496773"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840985"
 ---
 # <a name="folderitem-object"></a>Объект FolderItem
 
@@ -54,7 +54,7 @@ ms.locfileid: "104496773"
 
 | Свойство                                                   | Тип доступа           | Описание                                                                                                                                                                                                        |
 |:-----------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Приложение**](folderitem-application.md)<br/>   | Только для чтения<br/>  | Содержит объект [**приложения**](folderitem-application.md) для элемента папки.<br/>                                                                                                                   |
+| [**Приклад**](folderitem-application.md)<br/>   | Только для чтения<br/>  | Содержит объект [**приложения**](folderitem-application.md) для элемента папки.<br/>                                                                                                                   |
 | [**GetFolder**](folderitem-getfolder.md)<br/>       | Только для чтения<br/>  | Содержит объект [**папки**](folder.md) элемента, если элемент является папкой.<br/>                                                                                                                           |
 | [**Соединение**](folderitem-getlink.md)<br/>           | Только для чтения<br/>  | Содержит объект [**шелллинкобжект**](shelllinkobject-object.md) элемента, если элемент является ярлыком.<br/>                                                                                                |
 | [**Является Browsable**](folderitem-isbrowsable.md)<br/>   | Только для чтения<br/>  | Указывает, может ли элемент размещаться в кадре браузера или проводника Windows.<br/>                                                                                                                         |
@@ -65,14 +65,14 @@ ms.locfileid: "104496773"
 | [**Имя**](folderitem-name.md)<br/>                 | Чтение/запись<br/> | Возвращает или задает имя элемента.<br/>                                                                                                                                                                           |
 | [**Parent**](folderitem-parent.md)<br/>             | Только для чтения<br/>  | Возвращает объект, представляющий родительский элемент для элемента.<br/>                                                                                                                                                  |
 | [**Путь**](folderitem-path.md)<br/>                 | Только для чтения<br/>  | Содержит полный путь и имя элемента.<br/>                                                                                                                                                                 |
-| [**Изменять**](folderitem-size.md)<br/>                 | Только для чтения<br/>  | Содержит размер элемента.<br/>                                                                                                                                                                               |
+| [**Размер**](folderitem-size.md)<br/>                 | Только для чтения<br/>  | Содержит размер элемента.<br/>                                                                                                                                                                               |
 | [**Тип**](folderitem-type.md)<br/>                 | Только для чтения<br/>  | Содержит строковое представление типа элемента.<br/>                                                                                                                                                    |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

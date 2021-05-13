@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shsvcs.dll
 ms.assetid: ff0ad023-42ea-4c74-adae-af55527b6ac3
-ms.openlocfilehash: 59100ab20cd997cc4ab35602698268ec6d76dea4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c22f01835f9c526e95a4330e6ad35d370421e604
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984328"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841245"
 ---
 # <a name="createhardwareeventmoniker-function"></a>Функция Креатехардваривентмоникер
 
@@ -76,7 +76,7 @@ HRESULT CreateHardwareEventMoniker(
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Используйте **креатехардваривентмоникер** при регистрации работающих приложений, чтобы эти приложения имели доступ к событиям автозапуска. Чтобы использовать события автозапуска в выполняющихся приложениях, необходимо сначала создать новый компонент, реализующий интерфейс [**ихвевенсандлер**](/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler) . Инициализируйте этот интерфейс со значением Иниткмдлине из записи конкретного обработчика в разделе **обработчиков** , так как автозапуск не вызывает метод [**Initialize**](/windows/desktop/api/Shobjidl/nf-shobjidl-ihweventhandler-initialize) .
 
@@ -102,7 +102,7 @@ HKEY_CLASSES_ROOT
          RunAs = Interactive User
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -110,7 +110,7 @@ HKEY_CLASSES_ROOT
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
 | Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Нет</dt> </dl>       |
+| Заголовок<br/>                   | <dl> <dt>None</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Shsvcs.dll</dt> </dl> |
 
 

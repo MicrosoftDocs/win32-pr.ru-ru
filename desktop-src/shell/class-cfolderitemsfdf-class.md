@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: 7da6ebdf-dced-402f-a8ad-c10d78593f86
-ms.openlocfilehash: 7f4e3c6dca9fde4be86541628ec05bdfd418e4cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c303af68fe0e83fd8c1a5b20411445c8626987a6
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808854"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843395"
 ---
 # <a name="cfolderitemsfdf-class"></a>Класс Кфолдеритемсфдф
 
@@ -27,7 +27,7 @@ ms.locfileid: "103808854"
 
 Класс **кфолдеритемсфдф** наследует от [**кфолдеритемс**](class-cfolderitems-class.md) , но не содержит дополнительных элементов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 FDF означает *из разных папок*.
 

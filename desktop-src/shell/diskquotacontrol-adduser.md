@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: de20d016-83da-42ac-962f-86faf9b25419
-ms.openlocfilehash: e91bfee0cf491d7191d64bdec6ed7593e10654ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dd69b78210ecda418e784681694d84b27b1732a
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540474"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841535"
 ---
 # <a name="diskquotacontroladduser-method"></a>Дисккуотаконтрол. AddUser, метод
 
@@ -54,13 +54,13 @@ objRetVal = DiskQuotaControl.AddUser(
 
 Возвращает выражение объекта, результатом которого является объект пользователя [**дидисккуотаусер**](didiskquotauser-object.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 При первой записи пользователя в том файловая система NTFS автоматически создает запись квоты пользователя. Записям, созданным таким образом, назначаются порог предупреждения по умолчанию и значения фиксированной квоты для тома. Этот метод позволяет создать запись квоты пользователя до того, как пользователь запишет данные в том. Он возвращает объект [**дидисккуотаусер**](didiskquotauser-object.md) , который можно использовать для назначения порога предупреждения или значения квоты, отличающегося от параметров по умолчанию для тома.
 
 Если пользователь уже существует, Новая запись не создается. Метод возвращает объект [**дидисккуотаусер**](didiskquotauser-object.md) , связанный с существующей записью.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 85c37f4e-229f-4383-8218-10f8c2b0b8a0
-ms.openlocfilehash: 3f88ad698b990847a9b7f2fa1b74cc5b53ec7beb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53d6fc3eb6f13d136af603a3129ba75a46c3c6a6
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104347922"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841045"
 ---
 # <a name="shellfolderviewocselectionchanged-event"></a>Шеллфолдервиевок. SelectionChanged, событие
 
@@ -43,7 +43,7 @@ ShellFolderViewOC.SelectionChanged = EventHandler;
 
 Этот обработчик событий не имеет параметров.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Укажите код обработки событий для этого события, как показано здесь.
 
@@ -58,7 +58,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -66,7 +66,7 @@ End Sub
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
 | Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 

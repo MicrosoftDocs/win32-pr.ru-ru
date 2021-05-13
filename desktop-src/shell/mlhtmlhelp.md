@@ -15,12 +15,12 @@ api_type:
 api_location:
 - Shlwapi.dll
 ms.assetid: 1108614d-7034-48da-a4a5-544f8d9af3ca
-ms.openlocfilehash: a477ef549b3b8437ba891259c7fecea4730f759e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38d331d57b9484ab6d7a505d929508f30d510ad8
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997267"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841215"
 ---
 # <a name="mlhtmlhelp-function"></a>Функция Млхтмлхелп
 
@@ -101,7 +101,7 @@ HWND MLHtmlHelp(
 -   Дескриптор (HWND) окна справки.
 -   **Значение NULL**. В некоторых случаях **значение NULL** указывает на ошибку; в других случаях **значение NULL** указывает, что окно справки еще не создано.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 При возникновении проблемы с путем к файлу справки для текущего языка вызов перенаправляется в [HtmlHelp](/previous-versions/windows/desktop/htmlhelp/accessing-the-html-help-api) для стандартной обработки.
 
@@ -126,7 +126,7 @@ HWND hwnd = HtmlHelp(GetDesktopWindow(),
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -134,7 +134,7 @@ HWND hwnd = HtmlHelp(GetDesktopWindow(),
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
 | Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Нет</dt> </dl>                               |
+| Заголовок<br/>                   | <dl> <dt>None</dt> </dl>                               |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (версия 5,0 или более поздняя)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Млхтмлхелпв** (Юникод) и **млхтмлхелпа** (ANSI)<br/>                                               |
 

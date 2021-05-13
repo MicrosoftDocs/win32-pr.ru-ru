@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 22f52e3f-875e-4dde-8875-3228639bc7f1
-ms.openlocfilehash: d7039f05a3c22aa3e3195bd1c3bd786d9fd4c164
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 167fe7b48d68622b108aeb0caf0302c0cabce9f6
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264430"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840635"
 ---
 # <a name="folderitemverb-object"></a>Объект Фолдеритемверб
 
@@ -53,7 +53,7 @@ ms.locfileid: "104264430"
 
 | Свойство                                                     | Тип доступа          | Описание                          |
 |:-------------------------------------------------------------|:---------------------|:-------------------------------------|
-| [**Приложение**](folderitemverb-application.md)<br/> | Только для чтения<br/> | Не реализован.<br/>          |
+| [**Приклад**](folderitemverb-application.md)<br/> | Только для чтения<br/> | Не реализован.<br/>          |
 | [**Имя**](folderitemverb-name.md)<br/>               | Только для чтения<br/> | Содержит имя команды.<br/> |
 | [**Parent**](folderitemverb-parent.md)<br/>           | Только для чтения<br/> | Не реализован.<br/>          |
 
@@ -61,7 +61,7 @@ ms.locfileid: "104264430"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

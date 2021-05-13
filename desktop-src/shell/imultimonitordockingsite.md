@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: af9a7a9e-bd7c-4b17-9cb6-008df5c820d8
-ms.openlocfilehash: 3aa1ccb1c25fd2896ce9e18ba52ea3f46b1882af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ea3461d00c16f7384d7396e2f03946d517c460f
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997966"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841895"
 ---
 # <a name="imultimonitordockingsite-interface"></a>Интерфейс Имултимонитордоккингсите
 
@@ -45,11 +45,11 @@ ms.locfileid: "104997966"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Обычно интерфейс **имултимонитордоккингсите** не реализуется. Браузер оболочки реализует этот интерфейс для поддержки нескольких мониторов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
