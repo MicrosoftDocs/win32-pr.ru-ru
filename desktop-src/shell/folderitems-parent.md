@@ -9,16 +9,16 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.assetid: 17ac7b71-4c78-480b-b35b-5557b5b85c89
-ms.openlocfilehash: 59cb014dff89e19a9921c21cb8c52e47a8a1bf8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8162987c540d8e611b8ee632a77df7ce3fd5fe93
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496770"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842025"
 ---
-# <a name="folderitemsparent-property"></a><span data-ttu-id="e6842-103">Фолдеритемс. Parent, свойство</span><span class="sxs-lookup"><span data-stu-id="e6842-103">FolderItems.Parent property</span></span>
+# <a name="folderitemsparent-property"></a><span data-ttu-id="d37ea-103">Фолдеритемс. Parent, свойство</span><span class="sxs-lookup"><span data-stu-id="d37ea-103">FolderItems.Parent property</span></span>
 
-<span data-ttu-id="e6842-104">Это свойство не реализовано.</span><span class="sxs-lookup"><span data-stu-id="e6842-104">This property is not implemented.</span></span>
+<span data-ttu-id="d37ea-104">Это свойство не реализовано.</span><span class="sxs-lookup"><span data-stu-id="d37ea-104">This property is not implemented.</span></span>
 
  
 
