@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9A9B6B3F-FBBC-4e76-8018-8858B6392276
-ms.openlocfilehash: 72164ff76cbcf15703bc91160e6211b38015f989
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a1c024b316472be00f119485326b704a4fe8dd0
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543162"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842845"
 ---
 # <a name="ishelldispatchcontrolpanelitem-method"></a>Ишеллдиспатч. ControlPanelItem, метод
 
@@ -77,7 +77,7 @@ IShellDispatch.ControlPanelItem( _
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. ControlPanelItem**](shell-controlpanelitem.md) .
 
@@ -135,7 +135,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

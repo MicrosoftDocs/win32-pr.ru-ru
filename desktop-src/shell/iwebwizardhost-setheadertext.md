@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: e627de44-9929-4e08-9fd9-ca22743f434a
-ms.openlocfilehash: 92e23fab94cfedd8bbc62e31086759af48238a95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d524f9ae6d1031d518e237d393bbb1dc0d35b2bd
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985788"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841835"
 ---
 # <a name="webwizardhostsetheadertext-method"></a>Вебвизардхост. Сесеадертекст, метод
 
@@ -58,7 +58,7 @@ iRetVal = WebWizardHost.SetHeaderText(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -66,7 +66,7 @@ iRetVal = WebWizardHost.SetHeaderText(
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
 | Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl> |
 
 

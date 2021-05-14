@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b99201b3-95e8-4ddd-b338-dee8d107d0a0
-ms.openlocfilehash: 6f9a6fa978c64c788cbd224cf3a39454c644a57e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b6e9506d6c2354018a41ae7a15ca6e8e1900857
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808015"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840655"
 ---
 # <a name="folderitems-object"></a>Объект Фолдеритемс
 
@@ -40,7 +40,7 @@ ms.locfileid: "103808015"
 | Метод                                    | Описание                                                                                              |
 |:------------------------------------------|:---------------------------------------------------------------------------------------------------------|
 | [**\_NewEnum**](folderitems--newenum.md) | Не реализован.<br/>                                                                              |
-| [**Элемент**](folderitems-item.md)          | Извлекает объект [**FolderItem**](folderitem.md) для указанного элемента в коллекции.<br/> |
+| [**Item**](folderitems-item.md)          | Извлекает объект [**FolderItem**](folderitem.md) для указанного элемента в коллекции.<br/> |
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "103808015"
 
 | Свойство                                                  | Тип доступа          | Описание                                                                                                   |
 |:----------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------|
-| [**Приложение**](folderitems-application.md)<br/> | Только для чтения<br/> | Содержит объект [**приложения**](folderitems-application.md) коллекции элементов папки.<br/> |
+| [**Приклад**](folderitems-application.md)<br/> | Только для чтения<br/> | Содержит объект [**приложения**](folderitems-application.md) коллекции элементов папки.<br/> |
 | [**Расчета**](folderitems-count.md)<br/>             | Только для чтения<br/> | Содержит число элементов в коллекции.<br/>                                                    |
 | [**Parent**](folderitems-parent.md)<br/>           | Только для чтения<br/> | Не реализован.<br/>                                                                                   |
 
@@ -62,7 +62,7 @@ ms.locfileid: "103808015"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

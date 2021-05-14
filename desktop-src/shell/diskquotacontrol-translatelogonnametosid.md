@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 3b6b0d03-e9ef-4575-bb67-f7b7b39d2a16
-ms.openlocfilehash: ec5e6c0bbd013c8fbd3f6616671ee006109566d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f0a2591b0f5df6bc0f50994fcbf101b7bfbb36d
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081099"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841565"
 ---
 # <a name="diskquotacontroltranslatelogonnametosid-method"></a>Дисккуотаконтрол. Транслателогоннаметосид, метод
 
@@ -50,11 +50,11 @@ DiskQuotaControl.TranslateLogonNameToSID(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает идентификатор безопасности пользователя (SID) в строковом формате, соответствующий указанному имени входа. Возвращаемая строка включает стандартные заключенные в фигурные скобки. Например:
+Возвращает идентификатор безопасности пользователя (SID) в строковом формате, соответствующий указанному имени входа. Возвращаемая строка включает стандартные заключенные в фигурные скобки. Пример:
 
 "{S-1-5-21-2127521184-1604012920-1887927527-19009}"
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Возвращенная строка идентификатора безопасности может быть передана в метод [**финдусер**](diskquotacontrol-finduser.md) вместо имени для входа.
 
@@ -78,7 +78,7 @@ End Function
 
 При сравнении уточняющих запросов в кэше имен SID процесс преобразования имени в идентификатор SID может оказаться очень длительным. Таким образом, рекомендуется сначала вызвать [**финдусер**](diskquotacontrol-finduser.md) с именем для входа. В приведенном выше примере используется этот метод.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

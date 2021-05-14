@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Comctl32.dll
 ms.assetid: 630e5f27-96bf-4e88-b01a-127b301cc051
-ms.openlocfilehash: 6b6e9588588e44a2c3b40f6ac012b11f21c875e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e6e4bd0820d35fec2a108a81eb1030567493e6a
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912367"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843165"
 ---
 # <a name="enummrulistw-function"></a>Функция Енуммрулиств
 
@@ -66,9 +66,9 @@ int EnumMRUListW(
 *лпдата* \[ заполняет\]
 </dt> <dd>
 
-Тип: **void \** _
+Тип: **void \***
 
-Указатель на буфер, который получает элемент, запрошенный в _nItem *. Если *нитем* меньше 0, содержимое этого буфера не изменяется.
+Указатель на буфер, который получает элемент, запрошенный в *нитем*. Если *нитем* меньше 0, содержимое этого буфера не изменяется.
 
 </dd> <dt>
 
@@ -91,11 +91,11 @@ int EnumMRUListW(
 -   Возвращает значение-1, если произошла ошибка.
 -   В противном случае возвращает размер строки, возвращаемой в *лпдата*, включая завершающий символ null. Если список MRU был создан с флагом **\_ двоичный файл MRU** , это размер в байтах. В противном случае это размер в символах.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция не включена в общедоступный заголовок или библиотеку. Доступ к нему можно получить с помощью [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) или извлечь из comctl32.dll по порядковому номеру, 403 для **енуммрулиств**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -3,13 +3,13 @@ description: В следующих таблицах описываются \_ п
 ms.assetid: 0cd0056e-0c33-4f6e-9f70-5417f8f8da4b
 title: Параметры сокета SOL_SOCKET (Winsock2. h)
 ms.topic: reference
-ms.date: 05/31/2018
-ms.openlocfilehash: 0fbafca519c6068cd14fcbb15998bc9a25a5447b
-ms.sourcegitcommit: 30ce00809dcba5b8df06813445c97ae204a901c5
+ms.date: 05/12/2021
+ms.openlocfilehash: 01843a6505bfffc9512bc22602e2827b0b257153
+ms.sourcegitcommit: 24969bee0951bd21d31c74d3ad90d3a85b43b54d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/13/2021
-ms.locfileid: "109853983"
+ms.locfileid: "109857030"
 ---
 # <a name="sol_socket-socket-options"></a>\_Параметры сокета сокета Sol
 
@@ -24,7 +24,8 @@ ms.locfileid: "109853983"
 
  
 
-<dl> <dt><span id="SOL_SOCKET_Socket_Options"></span><span id="sol_socket_socket_options"></span><span id="SOL_SOCKET_SOCKET_OPTIONS"></span>**\_Параметры сокета сокета Sol**</dt> <dd> <dl> <dt> 
+<span id="SOL_SOCKET_Socket_Options"></span><span id="sol_socket_socket_options"></span><span id="SOL_SOCKET_SOCKET_OPTIONS"></span>
+**\_Параметры сокета сокета Sol**
 
 | Параметр                                                   | Получить | Присвойте параметру | Тип оптвал                                      | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |----------------------------------------------------------|-----|-----|--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -74,13 +75,11 @@ ms.locfileid: "109853983"
 | Поэтому \_ тип                                                 | Да |     | DWORD                                            | Возвращает тип сокета для данного сокета ( \_ например, поток Сокк или Сокк \_ дграм).                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Итак \_ , \_ контекст принятия обновлений \_                              |     | Да | DWORD (логическое значение)                                  | Этот параметр используется с функцией [**акцептекс**](/windows/win32/api/mswsock/nf-mswsock-acceptex) . Этот параметр обновляет свойства сокета, наследуемые от прослушивающего сокета. Этот параметр следует задать, если функции [**жетпирнаме**](/windows/desktop/api/winsock/nf-winsock-getpeername), [**жетсоккнаме**](/windows/desktop/api/winsock/nf-winsock-getsockname), [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt)или [**сетсоккопт**](/windows/desktop/api/winsock/nf-winsock-setsockopt) будут использоваться на принятом сокете.                                                                                                                             |
 | Поэтому \_ Обновление \_ \_ контекста подключения                             |     | Да | DWORD (логическое значение)                                  | Этот параметр используется с функциями [**коннектекс**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex), [**всаконнектбилист**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist)и [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) . Этот параметр обновляет свойства сокета после установления соединения. Этот параметр должен быть установлен, если функции [**жетпирнаме**](/windows/desktop/api/winsock/nf-winsock-getpeername), [**жетсоккнаме**](/windows/desktop/api/winsock/nf-winsock-getsockname), [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt), [**сетсоккопт**](/windows/desktop/api/winsock/nf-winsock-setsockopt)или [**Shutdown**](/windows/desktop/api/winsock/nf-winsock-shutdown) должны использоваться на подключенном сокете. |
-| Итак, \_ уселупбакк                                          | Да | Да | DWORD (логическое значение)                                  | Использовать локальный петлевой адрес при отправке данных с этого сокета. Этот параметр следует использовать только в том случае, если все отправленные данные также будут приниматься локально. Этот параметр не поддерживается поставщиком TCP/IP Windows. Если этот параметр используется в Windows Vista и более поздних версиях, функции [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt) и [**сетсоккопт**](/windows/desktop/api/winsock/nf-winsock-setsockopt) завершаются сбоем с всаеинвал. В более ранних версиях Windows эти функции завершаются с помощью ВСАЕНОПРОТУПТ.<br/>                                                                    |
+| Итак, \_ уселупбакк                                          | Да | Да | DWORD (логическое значение)                                  | Использовать локальный петлевой адрес при отправке данных с этого сокета. Этот параметр следует использовать только в том случае, если все отправленные данные также будут приниматься локально. Этот параметр не поддерживается поставщиком TCP/IP Windows. Если этот параметр используется в Windows Vista и более поздних версиях, функции [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt) и [**сетсоккопт**](/windows/desktop/api/winsock/nf-winsock-setsockopt) завершаются сбоем с всаеинвал. В более ранних версиях Windows эти функции завершаются с помощью ВСАЕНОПРОТУПТ.                                                                    |
 
 
-
- 
-
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>**Поддержка \_ параметров сокета Sol в Windows**</dt> <dd> <dl> <dt> 
+<span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>
+**Поддержка параметров SOL_SOCKET в Windows**
 
 | Параметр                                          | Windows 10 | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x и ME |
 |-------------------------------------------------|------------|-----------|---------------------|---------------|---------------------|------------|--------------|-------------|---------------|
@@ -132,12 +131,6 @@ ms.locfileid: "109853983"
 | Поэтому \_ Обновление \_ \_ контекста подключения                    | x          | x         | x                   | x             | x                   | x          |              |             |               |
 | Итак, \_ уселупбакк                                 |            |           |                     |               |                     |            |              |             |               |
 
-
-
- 
-
-
-</dt> </dl> </dd> </dl>
 
 ## <a name="remarks"></a>Remarks
 

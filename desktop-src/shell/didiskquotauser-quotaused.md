@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 3e3ade59-b925-4ff5-ae7e-ed97eff506c7
-ms.openlocfilehash: 7d5068e6f80fd2b0b435d04583e99da929e17fce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a08d7579ad4de51fbc88b7091f2f906ace838883
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143948"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841575"
 ---
 # <a name="didiskquotauserquotaused-property"></a>Дидисккуотаусер. Куотаусед, свойство
 
@@ -39,7 +39,7 @@ iQuotaUsed = DIDiskQuotaUser.QuotaUsed
 
 **Целочисленное** значение, которое задается как количество места на диске, используемое в данный момент. Если включено сжатие файлов NTFS, **куотаусед** отражает объем дискового пространства, требуемого для данных в несжатом состоянии.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
