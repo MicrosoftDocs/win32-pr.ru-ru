@@ -6,12 +6,12 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: 9e0bc6cf6433f65fa1bc28ec2654492057842b94
-ms.sourcegitcommit: 5a39ee31075cd81ab865c81c39e128b8312da21b
+ms.openlocfilehash: 49681f434fa4eef99e9775b2c3800f48f15915a2
+ms.sourcegitcommit: 8a31a21726d4a8ebfddfa71f02f1bfffea459277
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/20/2021
-ms.locfileid: "110207386"
+ms.locfileid: "110208715"
 ---
 # <a name="dwritecore-overview"></a>Общие сведения о DWriteCore
 
@@ -83,7 +83,7 @@ ms.locfileid: "110207386"
 
 Работа по очистке кэша шрифтов и загрузчику шрифтов в памяти позволяет ускорить загрузку шрифтов и улучшения памяти.
 
-С помощью этих функций можно сразу приступить к работе с некоторыми современными основными функциями DirectWrite, &mdash; такими как переменные шрифты. Переменные шрифты являются одной из наиболее важных функций для клиентов DirectWrite. они появились в Windows 10, версия 1709 (обновления для дизайнеров), поэтому доступ к ним в предыдущих версиях является значительным преимуществом для разработчика.
+С помощью этих функций можно сразу приступить к работе с некоторыми современными основными функциями DirectWrite, &mdash; такими как переменные шрифты. Переменные шрифты являются одной из наиболее важных функций для клиентов DirectWrite.
 
 ## <a name="our-invitation-to-you-as-a-directwrite-developer"></a>Наше приглашение в качестве разработчика DirectWrite
 
