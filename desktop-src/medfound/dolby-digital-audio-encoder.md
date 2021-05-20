@@ -1,19 +1,19 @@
 ---
-description: Декодер Dolby Audio — это Media Foundation преобразование (MFT), которое кодирует моно или стерео Audio в Dolby Digital, также называемое Dolby AC-3.
+description: Кодировщик Dolby Audio — это Media Foundation преобразование (MFT), которое кодирует моно или стерео Audio в Dolby Digital, также называемое Dolby AC-3.
 ms.assetid: CBC31132-046C-4CD7-9DBA-20A9C666FB43
 title: Кодировщик цифрового звука Dolby
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58d6c5b59bc09cd8c0fd56f22703ef8afdfe3921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f901587b816bc17d62f4095e093b661ce55f0009
+ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701319"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110153567"
 ---
 # <a name="dolby-digital-audio-encoder"></a>Кодировщик цифрового звука Dolby
 
-Декодер Dolby Audio — это [Media Foundation преобразование](media-foundation-transforms.md) (MFT), которое кодирует моно или стерео Audio в Dolby Digital, также называемое Dolby AC-3. Кодировщик не поддерживает многоканальные входные данные, такие как конфигурация канала 5,1.
+Кодировщик Dolby Audio — это [Media Foundation преобразование](media-foundation-transforms.md) (MFT), которое кодирует моно или стерео Audio в Dolby Digital, также называемое Dolby AC-3. Кодировщик не поддерживает многоканальные входные данные, такие как конфигурация канала 5,1.
 
 > [!IMPORTANT]
 > Для версий Windows, предшествовавших Windows 8, реализация технологий Dolby Digital в корпорации Майкрософт ограничена условиями программы цифрового лицензирования Dolby, используемой приложениями Майкрософт.
@@ -24,7 +24,7 @@ ms.locfileid: "105701319"
 
 ## <a name="class-identifier"></a>Идентификатор класса
 
-Идентификатором класса (CLSID) декодера Dolby Audio является **CLSID \_ кмсдолбидигиталенкмфт**, определенный в файле заголовка вмкодекдсп. h.
+Идентификатор класса (CLSID) кодировщика Dolby Audio — это **CLSID \_ кмсдолбидигиталенкмфт**, определенный в файле заголовка вмкодекдсп. h.
 
 ## <a name="output-types"></a>Типы вывода
 
@@ -49,17 +49,17 @@ ms.locfileid: "105701319"
 <tr class="odd">
 <td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
 <td>Основной тип.</td>
-<td>Обязательный. Необходимо <strong>MFMediaType_Audio</strong>.</td>
+<td>Обязательный элемент. Необходимо <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
 <td>Подтип аудио.</td>
-<td>Обязательный. Необходимо <strong>MFAudioFormat_Dolby_AC3</strong>.</td>
+<td>Обязательный элемент. Необходимо <strong>MFAudioFormat_Dolby_AC3</strong>.</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
 <td>Выборок в секунду.</td>
-<td>Обязательный. Поддерживаются следующие значения.
+<td>Обязательный элемент. Поддерживаются следующие значения.
 <ul>
 <li>32000</li>
 <li>44100</li>
@@ -69,17 +69,17 @@ ms.locfileid: "105701319"
 <tr class="even">
 <td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
 <td>Число каналов.</td>
-<td>Обязательный. Значение должно быть либо 1 (моно), либо 2 (стерео).</td>
+<td>Обязательный элемент. Значение должно быть либо 1 (моно), либо 2 (стерео).</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
 <td>Указывает назначение звуковых каналов для позиционирования динамиков.</td>
-<td>Необязательный элемент. Если задано, значение должно быть 0x3ым для стерео (передний левый и правый каналы) или 0x4 для Mono (канал Front Center).</td>
+<td>Необязательный параметр. Если задано, значение должно быть 0x3ым для стерео (передний левый и правый каналы) или 0x4 для Mono (канал Front Center).</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
 <td>Скорость потока в закодированном потоке AC-3, в байтах в секунду.</td>
-<td>Необязательный элемент. Допустимые значения см. в разделе Примечания. Если этот атрибут не задан, кодировщик использует битовую скорость по умолчанию, как описано в разделе Примечания.</td>
+<td>Необязательный параметр. Допустимые значения см. в разделе Примечания. Если этот атрибут не задан, кодировщик использует битовую скорость по умолчанию, как описано в разделе Примечания.</td>
 </tr>
 </tbody>
 </table>
@@ -113,32 +113,32 @@ ms.locfileid: "105701319"
 <tr class="odd">
 <td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
 <td>Основной тип.</td>
-<td>Обязательный. Необходимо <strong>MFMediaType_Audio</strong>.</td>
+<td>Обязательный элемент. Необходимо <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
 <td>Подтип аудио.</td>
-<td>Обязательный. Должен быть <strong>MFAudioFormat_PCM</strong> или <strong>MFAudioFormat_Float</strong>.</td>
+<td>Обязательный элемент. Должен быть <strong>MFAudioFormat_PCM</strong> или <strong>MFAudioFormat_Float</strong>.</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
 <td>Число битов на аудио выборка.</td>
-<td>Обязательный. Значение должно быть 16, если подтип имеет <strong>MFAudioFormat_PCM</strong>, или 32, если подтип имеет <strong>MFAudioFormat_Float</strong>.</td>
+<td>Обязательный элемент. Значение должно быть 16, если подтип имеет <strong>MFAudioFormat_PCM</strong>, или 32, если подтип имеет <strong>MFAudioFormat_Float</strong>.</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
 <td>Выборок в секунду.</td>
-<td>Обязательный. Должен соответствовать типу выходных данных.</td>
+<td>Обязательный элемент. Должен соответствовать типу выходных данных.</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
 <td>Число каналов.</td>
-<td>Обязательный. Должен соответствовать типу выходных данных.</td>
+<td>Обязательный элемент. Должен соответствовать типу выходных данных.</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
 <td>Выравнивание блокировки в байтах.</td>
-<td>Обязательный. Вычислите значение следующим образом:
+<td>Обязательный элемент. Вычислите значение следующим образом:
 <ul>
 <li><strong>MFAudioFormat_PCM</strong>: число каналов × 2.</li>
 <li><strong>MFAudioFormat_Float</strong>: число каналов × 4.</li>
@@ -147,17 +147,17 @@ ms.locfileid: "105701319"
 <tr class="odd">
 <td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
 <td>Битовая скорость закодированного потока AC3 в байтах в секунду.</td>
-<td>Обязательный. Должно равняться выравниванию блока × Samples в секунду.</td>
+<td>Обязательный элемент. Должно равняться выравниванию блока × Samples в секунду.</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
 <td>Указывает назначение звуковых каналов для позиционирования динамиков.</td>
-<td>Необязательный элемент. Если параметр задан, значение должно соответствовать типу выходных данных.</td>
+<td>Необязательный параметр. Если параметр задан, значение должно соответствовать типу выходных данных.</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
 <td>Количество допустимых битов звуковых данных в каждом звуковом примере.</td>
-<td>Необязательный элемент. Если значение задано, оно должно быть идентично значению <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
+<td>Необязательный параметр. Если значение задано, оно должно быть идентично значению <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -168,7 +168,7 @@ ms.locfileid: "105701319"
 
 Кодировщик не поддерживает преобразование "выборка" или "стерео/моно".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый звуковой кадр Dolby AC-3 содержит 1536 аудио образцов на канал. Однако каждый входной буфер кодировщика может содержать любое количество примеров PCM. Размер каждого входного буфера должен быть кратен выравниванию блока. Кодировщик кэширует входные примеры, пока не будет достаточно для 1536 аудио образцов на канал. на этом этапе кодировщик выводит один кадр AC-3.
 
@@ -178,7 +178,7 @@ ms.locfileid: "105701319"
 
 
 
-| Скорость потока (кбит/с) | [\_ \_ \_ Среднее \_ число байт \_ в секунду для \_ звука MF MT](mf-mt-audio-avg-bytes-per-second-attribute.md) | Комментарии                                                 |
+| Скорость потока (кбит/с) | [\_ \_ \_ Среднее \_ число байт \_ в секунду для \_ звука MF MT](mf-mt-audio-avg-bytes-per-second-attribute.md) | Remarks                                                 |
 |-----------------|------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | 64              | 8000                                                                                     | Только моно.                                              |
 | 80              | 10000                                                                                    | Только моно.                                              |
@@ -244,7 +244,7 @@ ms.locfileid: "105701319"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
