@@ -345,6 +345,8 @@
               href: camera-encoder-h264-uvc-1-5.md
             - name: Как использовать H. 264/AVC Ремукс
               href: how-to-use-h-264-avc-remux-.md
+            - name: Поддержка контейнера мультимедиа матроска (MKV)
+              href: mkv-support.md
         - name: Поддержка ASF в Media Foundation
           href: asf-support-in-media-foundation.md
           items:
@@ -582,7 +584,7 @@
                 - name: IDirect3DAuthenticatedChannel9
                   href: /windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9
                   items:
-                    - name: Настройка
+                    - name: Configure
                       href: /windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure
                     - name: Метода getcertificate
                       href: /windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-getcertificate
@@ -1896,7 +1898,7 @@
                     - name: иопмвидеуутпут
                       href: /windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput
                       items:
-                        - name: Настройка
+                        - name: Configure
                           href: /windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure
                         - name: коппкомпатиблежетинформатион
                           href: /windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation
@@ -4827,7 +4829,7 @@
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord
                 - name: аддстреамфоррекорд
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addstreamforrecord
-                - name: Клонировать
+                - name: Clone (Клонировать)
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-clone
                 - name: GetRecordCount
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getrecordcount
@@ -4848,7 +4850,7 @@
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion
                 - name: аддстреамприоритизатион
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addstreamprioritization
-                - name: Клонировать
+                - name: Clone (Клонировать)
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-clone
                 - name: креатемутуалексклусион
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createmutualexclusion
@@ -4902,7 +4904,7 @@
               items:
                 - name: аддпайлоадекстенсион
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-addpayloadextension
-                - name: Клонировать
+                - name: Clone (Клонировать)
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-clone
                 - name: жетмедиатипе
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getmediatype
@@ -4925,7 +4927,7 @@
               items:
                 - name: аддстреам
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-addstream
-                - name: Клонировать
+                - name: Clone (Клонировать)
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-clone
                 - name: GetStream
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-getstream
@@ -5109,7 +5111,7 @@
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-endwrite
                 - name: Очистка
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-flush
-                - name: Возможности
+                - name: GetCapabilities
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-getcapabilities
                 - name: жеткуррентпоситион
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-getcurrentposition
@@ -6275,7 +6277,7 @@
             - name: имфнетпроксилокатор
               href: /windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator
               items:
-                - name: Клонировать
+                - name: Clone (Клонировать)
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-clone
                 - name: финдфирстпрокси
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-findfirstproxy
@@ -6540,7 +6542,7 @@
             - name: имфпресентатиондескриптор
               href: /windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor
               items:
-                - name: Клонировать
+                - name: Clone (Клонировать)
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-clone
                 - name: деселектстреам
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-deselectstream
