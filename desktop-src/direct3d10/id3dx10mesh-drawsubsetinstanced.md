@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 314f85d896be629254def560e55ce6a05bfe1fbd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2e28d7a7d2c1d743090832d68793ec3743662308
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674740"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335638"
 ---
 # <a name="id3dx10meshdrawsubsetinstanced-method"></a>ID3DX10Mesh: метод:D Равсубсетинстанцед
 
@@ -81,7 +81,7 @@ HRESULT DrawSubsetInstanced(
 
 
 
-|            |                 |
+| Subset     | Распознавание лиц           |
 |------------|-----------------|
 | Аттрибид 0 | Лица 0 ~ 50    |
 | Аттрибид 1 | Лица 51 ~ 125  |
@@ -114,12 +114,12 @@ HRESULT DrawSubsetInstanced(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

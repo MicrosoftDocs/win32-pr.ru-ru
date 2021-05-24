@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0c3b382e0cfd01a51d89ddacb51ad390446315a6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 11b15f8bc1e4103503b183672ebd31e92b4daea7
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694360"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335378"
 ---
 # <a name="id3dx10meshbufferunmap-method"></a>Метод ID3DX10MeshBuffer:: unотмена
 
@@ -48,9 +48,9 @@ HRESULT Unmap();
 
 
 
-|                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Различия между Direct3D 9 и Direct3D 10:<br/> Отмена сопоставления () в Direct3D 10 аналогична разблокировке ресурсов () в Direct3D 9.<br/> |
+Различия между Direct3D 9 и Direct3D 10:
+
+- Отмена сопоставления () в Direct3D 10 аналогична разблокировке ресурсов () в Direct3D 9.
 
 
 
@@ -62,12 +62,12 @@ HRESULT Unmap();
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

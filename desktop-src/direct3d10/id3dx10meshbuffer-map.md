@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1b8cb03e128a6673963ce2d3cde993babb03da5c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c4a71aaaffe7ed11429efa67b6065f94ecd154d0
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354943"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335358"
 ---
 # <a name="id3dx10meshbuffermap-method"></a>Метод ID3DX10MeshBuffer:: Map
 
@@ -69,9 +69,9 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)\***
 
 
 
-|                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| Различия между Direct3D 9 и Direct3D 10:<br/> Map () в Direct3D 10 аналогичен карте ресурсов () в Direct3D 9.<br/> |
+ Различия между Direct3D 9 и Direct3D 10:
+
+- Map () в Direct3D 10 аналогичен карте ресурсов () в Direct3D 9.
 
 
 
@@ -83,12 +83,12 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)\***
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

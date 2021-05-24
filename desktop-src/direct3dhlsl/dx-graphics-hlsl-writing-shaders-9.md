@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 504a1d9ff5a2aa2b37227f0016cdc97d28d967fe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 64a64d08518cb987850c87da3fb19c264519a7f7
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070392"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335388"
 ---
 # <a name="writing-hlsl-shaders-in-direct3d-9"></a>Создание шейдеров HLSL в Direct3D 9
 
@@ -493,7 +493,7 @@ float4 main(float4 tex[4] : TEXCOORD) : COLOR
 >
 > Использование среды выполнения отладки Microsoft Direct3D может помочь в перехвате несоответствий между числом компонентов в текстуре и образцом.
 
- 
+ 
 
 ## <a name="writing-functions"></a>Написание функций
 
@@ -693,7 +693,7 @@ float main( float input : COLOR0) : COLOR0
 
 
 ```
-return  light.enabled = true ;
+return  light.enabled;
 ```
 
 
@@ -785,13 +785,13 @@ HLSL теперь включает поддержку каждого из эти
 
 Наиболее знакомая поддержка ветвления — Динамическое ветвление. При динамической ветвлении условие сравнения находится в переменной, что означает, что сравнение выполняется для каждой вершины или каждого пикселя во время выполнения (в отличие от сравнения, происходящих во время компиляции, или между двумя вызовами Draw). Снижение производительности — это стоимость ветви, а также стоимость инструкций, выполняемых на стороне филиала. Динамическое ветвление реализуется в модели шейдеров 3 или более поздней версии. Оптимизация шейдеров, работающих с этими моделями, аналогична оптимизации кода, выполняемого на ЦП.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Руководство по программированию для HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

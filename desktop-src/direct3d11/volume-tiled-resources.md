@@ -1,15 +1,15 @@
 ---
 title: Ресурсы для мозаичного заполнения тома (графика Direct3D 11)
-description: Объемные (трехмерные) текстуры можно использовать в качестве мозаичных ресурсов, отметив, что разрешение плитки состоит из трех измерений.
+description: Сведения о том, как можно использовать 3D-текстуры в качестве мозаичных ресурсов. Обратите внимание, что разрешение плитки состоит из трех измерений.
 ms.assetid: B6BF22A2-EDA3-4765-B545-BF825043D4C4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abb8b35e522ef3298abad1322d6fb7a2fe65bfcf
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 2bf9b3ed8b1db89d9718fa904eefd23ce2e871db
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "103784818"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335438"
 ---
 # <a name="volume-tiled-resources"></a>Объемные плиточные ресурсы
 
@@ -29,9 +29,8 @@ ms.locfileid: "103784818"
 
 
 
-|                             |                                     |
+| Бит/пиксель (1 образец или пиксель)                            | Размеры мозаики (в пикселях, w x x d)                                    |
 |-----------------------------|-------------------------------------|
-| Бит/пиксель (1 образец или пиксель) | Размеры мозаики (в пикселях, w x x d) |
 | 8                           | 64x32x32                            |
 | 16                          | 32x32x32                            |
 | 32                          | 32x32x16                            |
@@ -42,7 +41,7 @@ ms.locfileid: "103784818"
 
 
 
- 
+ 
 
 Обратите внимание, что следующие форматы не поддерживаются для мозаичных ресурсов: форматы 96bpp, форматы видео, R1 \_ UNORM, R8G8 \_ B8G8 \_ UNORM, R8R8 \_ G8B8 \_ UNORM.
 
@@ -167,16 +166,16 @@ trSize.Depth = 3;
 -   [**ID3D11DeviceContext2:: копитилемаппингс**](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-copytilemappings) : копирует сопоставления из исходного мозаичного ресурса в целевой мозаичный ресурс.
 -   [**ID3D11DeviceContext2:: жетресаурцетилинг**](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11device2-getresourcetiling) : получает сведения о том, как мозаичный ресурс разбивается на плитки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Функции Direct3D 11,3](direct3d-11-3-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

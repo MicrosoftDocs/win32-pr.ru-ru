@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 9fe3f0ca5955963864ef18de5d86fe03083d3f3b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aecab39b655998533c80f1fff56e3f10d941f551
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104157259"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335658"
 ---
 # <a name="id3dx10threadpump-interface"></a>Интерфейс ID3DX10ThreadPump
 
@@ -66,7 +66,7 @@ ms.locfileid: "104157259"
 
 
 
-|                                                                            |                                          |
+|                                                                           |  Описание                                        |
 |----------------------------------------------------------------------------|------------------------------------------|
 | [**D3DX10CreateAsyncFileLoader**](d3dx10createasyncfileloader.md)         | Асинхронно Создайте файловый загрузчик.     |
 | [**D3DX10CreateAsyncMemoryLoader**](d3dx10createasyncmemoryloader.md)     | Асинхронное создание загрузчика данных.     |
@@ -80,7 +80,7 @@ ms.locfileid: "104157259"
 
 
 
-|                                                                                                  |                                                                                                                                                    |
+|                                                                                                 |  Описание                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3DX10CreateAsyncTextureProcessor**](d3dx10createasynctextureprocessor.md)                   | Создайте обработчик данных, который будет использоваться в конвейере потоков. Этот API похож на D3DX10CreateAsyncTextureInfoProcessor, но он также загружает текстуру. |
 | [**D3DX10CreateAsyncTextureInfoProcessor**](d3dx10createasynctextureinfoprocessor.md)           | Создайте обработчик данных, который будет использоваться в конвейере потоков.                                                                                             |
@@ -98,7 +98,7 @@ ms.locfileid: "104157259"
 
 
 
-|                                                                                                  |                                                                  |
+|                                                                                                 | Описание                                                                 |
 |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [**D3DX10CompileFromFile**](d3dx10compilefromfile.md)                                           | Скомпилируйте шейдер из файла.                                    |
 | [**D3DX10CompileFromMemory**](d3dx10compilefrommemory.md)                                       | Скомпилируйте шейдер, находящийся в памяти.                             |
@@ -132,12 +132,12 @@ ms.locfileid: "104157259"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 19c81383-6ac7-49ea-98a3-bf761a32ab40
 title: Уровни API (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4427083bdcaf389c4b01b590a1bc3fef7eb878b4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8b07b33dfd8280af13ea3df74e5e6d0fd040bb2c
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423262"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335418"
 ---
 # <a name="api-layers-direct3d-10"></a>Уровни API (Direct3D 10)
 
@@ -62,15 +62,16 @@ pTexture->SetPrivateData( WKPDID_D3DDebugObjectName, sizeof( c_szName ) - 1, c_s
 
 
 
-|                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------------|
-| Различия между Direct3D 9 и Direct3D 10:<br/> В отличие от Direct3D 9, API Direct3D 10 по умолчанию имеет полностью потокобезопасную.<br/> |
+
+Различия между Direct3D 9 и Direct3D 10:
+
+- В отличие от Direct3D 9, API Direct3D 10 по умолчанию имеет полностью потокобезопасную.
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

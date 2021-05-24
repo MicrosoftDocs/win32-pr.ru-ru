@@ -4,12 +4,12 @@ ms.assetid: 4612c6bd-bc1f-42ad-8465-c0d4b577d1db
 title: Группы состояний эффектов (Direct3D 10)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c132db3a5258cbe3573ddc5103df8b3cbcf2085d
-ms.sourcegitcommit: 628fda3e63fd1d513ce9a5f55be8bbc4af4b2a4b
+ms.openlocfilehash: 4617f786b984c96b271600e05b3ea8da9b5701fd
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104351742"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335577"
 ---
 # <a name="effect-state-groups-direct3d-10"></a>Группы состояний эффектов (Direct3D 10)
 
@@ -17,20 +17,20 @@ ms.locfileid: "104351742"
 
 ## <a name="blend-state"></a>Состояние смешения
 
-| | |
+| Состояние действия | Group |
 |-|-|
 | **алфатоковеражеенабле**, **бленденабле**, **сркбленд**, **дестбленд**, **блендоп**, **сркблендалфа**, **дестблендалфа**, **BLENDOPALPHA**, **RENDERTARGETWRITEMASK** | Члены [ **D3D10 \_ Blend \_ DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_blend_desc) |
 
 ## <a name="depth-and-stencil-state"></a>Состояние глубины и трафарета
 
-| | |
+| Состояние действия| Group |
 |-|-|
 | **депсенабле**, **депсвритемаск**, **депсфунк**, **стенЦиленабле**, **стенЦилреадмаск**, **стенЦилвритемаск** | Элементы в [ **\_ \_ наборе элементов \_ глубины D3D10 DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencil_desc) |
-| ФРОНТФАЦЕСТЕНЦИЛФАИЛ * *, **фронтфацестенЦилзфаил**, **фронтфацестенЦилпасс**, **фронтфацестенЦилфунк**, **BACKFACESTENCILFAIL**, **BACKFACESTENCILZFAIL**, **BACKFACESTENCILPASS**, **BACKFACESTENCILFUNC** | Член [ **D3D10 \_ глубины \_ стенЦилоп \_ DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencilop_desc) |
+| **фронтфацестенЦилфаил**, **фронтфацестенЦилзфаил**, **фронтфацестенЦилпасс**, **фронтфацестенЦилфунк**, **BACKFACESTENCILFAIL**, **BACKFACESTENCILZFAIL**, **BACKFACESTENCILPASS**, **BACKFACESTENCILFUNC** | Член [ **D3D10 \_ глубины \_ стенЦилоп \_ DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencilop_desc) |
 
 ## <a name="rasterizer-state"></a>Состояние средства программной прорисовки
 
-| | |
+| Состояние действия| Group |
 |-|-|
 | филлмоде | [**\_Режим заполнения \_ D3D10**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_fill_mode) |
 | куллмоде | [**Режим D3D10ного \_ отбора \_**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_cull_mode) |
@@ -38,7 +38,7 @@ ms.locfileid: "104351742"
 
 ## <a name="sampler-state"></a>Состояние дискретизатора
 
-| | |
+| Состояние действия | Group |
 |-|-|
 | **Filter**, **аддрессу**, **аддрессв**, **аддрессв**, **миплодбиас**, **максанисотропи**, **компарисонфунк**, **BorderColor**, **минлод**, **макслод** | Члены [ **D3D10ного \_ образца \_**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_sampler_desc) |
 
@@ -85,7 +85,7 @@ SetBlendState( NoBlend, float4( 0.0f, 0.0f, 0.0f, 0.0f ), 0xFFFFFFFF );
 
 Учебник, в котором описывается использование состояний, см. в разделе [Управление состоянием](https://msdn.microsoft.com/library/Ee416550(v=VS.85).aspx).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Синтаксис методики эффектов](d3d10-effect-technique-syntax.md)
 * [Формат эффектов (Direct3D 10)](d3d10-effect-format.md)

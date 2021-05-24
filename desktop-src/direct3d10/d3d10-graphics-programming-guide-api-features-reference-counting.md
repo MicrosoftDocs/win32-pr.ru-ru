@@ -4,12 +4,12 @@ ms.assetid: 4f4e1af8-5830-4b2d-ba2e-dc2ec4e74a19
 title: Подсчет ссылок (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6482918601f163bdea92291eb3927899ca797d29
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4b3587466aa3ecaea5f3a77332c77654b0725bb1
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538573"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335458"
 ---
 # <a name="reference-counting-direct3d-10"></a>Подсчет ссылок (Direct3D 10)
 
@@ -36,15 +36,15 @@ pDevice->RSGetState( &pCurRasterizerState );
 
 
 
-|                                                                                                                                                                                                                              |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Различия между Direct3D 9 и Direct3D 10:<br/> В Direct3D 9 функции SET содержат ссылку на объекты устройства; в Direct3D 10 функции set не содержат ссылку на объекты-потомки устройства.<br/> |
+Различия между Direct3D 9 и Direct3D 10:
+
+- В Direct3D 9 функции SET содержат ссылку на объекты устройства; в Direct3D 10 функции set не содержат ссылку на объекты-потомки устройства.
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
