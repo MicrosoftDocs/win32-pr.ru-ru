@@ -4,12 +4,12 @@ ms.assetid: ab2f3005-150f-46e1-b75b-75c39e7feed1
 title: LPD3DXFILL3D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6c711459cffa3430b31ba7c91d77cc9519e6a43
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: feed5845f04486a6ac9cf1c984178fb0ed98447a
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114312"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342769"
 ---
 # <a name="lpd3dxfill3d"></a>LPD3DXFILL3D
 
@@ -49,9 +49,9 @@ pData — указатель на данные пользователя.
 
 
 
-|                          |            |
+| Требование                         | Значение           |
 |--------------------------|------------|
-| Header                   | d3dx9tex. h |
+| Заголовок                   | d3dx9tex. h |
 | Библиотека импорта           | d3dx9. lib  |
 | Минимальная операционная система | Windows 98 |
 
@@ -59,7 +59,7 @@ pData — указатель на данные пользователя.
 
  
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

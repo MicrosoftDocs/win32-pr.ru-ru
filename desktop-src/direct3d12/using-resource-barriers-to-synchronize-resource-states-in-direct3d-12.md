@@ -5,12 +5,12 @@ ms.assetid: 3AB3BF34-433C-400B-921A-55B23CCDA44F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c766f18e85ab8acc2ed0afad8e680d566a723a68
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: df27e7997b4f3f56ae8e87688e5cc136dc7eb87d
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104549029"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343479"
 ---
 # <a name="using-resource-barriers-to-synchronize-resource-states-in-direct3d-12"></a>Использование барьеров ресурсов для синхронизации состояний ресурсов в Direct3D 12
 
@@ -30,7 +30,7 @@ ms.locfileid: "104549029"
 -   [Пример сценария барьера ресурсов](#resource-barrier-example-scenario)
 -   [Пример повышения общего состояния и Decay](#common-state-promotion-and-decay-sample)
 -   [Пример разделенных барьеров](#example-of-split-barriers)
--   [Связанные темы](#related-topics)
+-   [См. также](#related-topics)
 
 ## <a name="using-the-resourcebarrier-api-to-manage-per-resource-state"></a>Использование API Ресаурцебарриер для управления состоянием каждого ресурса
 
@@ -112,9 +112,8 @@ ms.locfileid: "104549029"
 
 
 
-| Флаг состояния                    | Состояние продвижения                             |                                      |
+| Флаг состояния                    | Буферы и текстуры Simultaneous-Access                             | Текстуры без одновременного доступа                                     |
 |-------------------------------|----------------------------------------------|--------------------------------------|
-|                               | **Буферы и текстуры Simultaneous-Access** | **Текстуры без одновременного доступа** |
 | ВЕРШИНный \_ и \_ Постоянный \_ буфер | Да                                          | Нет                                   |
 | буфер ИНДЕКСов \_                 | Да                                          | Нет                                   |
 | \_целевой объект прорисовки                | Да                                          | Нет                                   |
@@ -592,9 +591,9 @@ D3D12_RESOURCE_BARRIER BarrierDesc = {};
 
 [Учебные видеоматериалы по DirectX для расширенного обучения: барьеры ресурсов и отслеживание состояния](https://www.youtube.com/watch?v=nmB2XMasz2o)
 
-[Синхронизация с несколькими модулями](./user-mode-heap-synchronization.md)
+[Синхронизация с несколькими движками](./user-mode-heap-synchronization.md)
 
-[Отправка рабочих заданий в Direct3D 12](command-queues-and-command-lists.md)
+[Отправка работы в Direct3D 12](command-queues-and-command-lists.md)
 
 [Взгляните на барьеры состояния ресурсов D3D12](https://devblogs.microsoft.com/directx/a-look-inside-d3d12-resource-state-barriers/)
 

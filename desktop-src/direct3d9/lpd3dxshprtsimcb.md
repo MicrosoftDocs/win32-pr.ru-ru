@@ -4,12 +4,12 @@ ms.assetid: 1d7e2149-d2ca-47da-be1f-8273fd9bd30a
 title: LPD3DXSHPRTSIMCB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 895d6fd3a7d9f93e858c08d1aaae416f1bf3abad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e5a7c4911bf2a7b7fa2aa83422a206644f6eb747
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495318"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342809"
 ---
 # <a name="lpd3dxshprtsimcb"></a>LPD3DXSHPRTSIMCB
 
@@ -37,15 +37,15 @@ typedef HRESULT (WINAPI *LPD3DXSHPRTSIMCB)(
 
 Эта функция должна быть реализована, чтобы вернуть значение \_ ОК для сохранения запуска симулятора. Любое другое значение остановит симулятор.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не забудьте указать соглашение о вызовах [**типов данных Windows**](../winprog/windows-data-types.md) при объявлении функции обратного вызова. В противном случае могут возникать переполняется стек.
 
 
 
-|                          |             |
+| Требование                         | Значение            |
 |--------------------------|-------------|
-| Header                   | d3dx9mesh. h |
+| Заголовок                   | d3dx9mesh. h |
 | Библиотека импорта           | d3dx9. lib   |
 | Минимальная операционная система | Windows 98  |
 
@@ -53,7 +53,7 @@ typedef HRESULT (WINAPI *LPD3DXSHPRTSIMCB)(
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

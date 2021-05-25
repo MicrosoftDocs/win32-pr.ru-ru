@@ -4,12 +4,12 @@ ms.assetid: 195ee969-30e8-4828-a0be-f0d2a82e247c
 title: D3DXSPRITE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe4dbf3e80e7cf6f7884d778860f9de61f5193f5
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 23301f003eee54a7efbb933237576edd2946fcac
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997321"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343549"
 ---
 # <a name="d3dxsprite"></a>D3DXSPRITE
 
@@ -37,9 +37,9 @@ ms.locfileid: "107997321"
 
 
 
-|                          |             |
+| Требование                         | Значение            |
 |--------------------------|-------------|
-| Header                   | d3dx9core. h |
+| Заголовок                   | d3dx9core. h |
 | Минимальная операционная система | Windows 98  |
 
 

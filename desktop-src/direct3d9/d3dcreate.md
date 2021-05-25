@@ -1,15 +1,15 @@
 ---
-description: Сочетание одного или нескольких флагов, управляющих поведением при создании устройства.
+description: См. сочетание одного или нескольких флагов, управляющих поведением при создании устройства.
 ms.assetid: 91387a2d-3927-4285-a09b-9ce247e6bfdd
 title: D3DCREATE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14de345d6cb6d164ee5cd3067e1f38ff66d9795d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7d89043ac49b72bccf6279ef3c9c8fa2c856c775
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990674"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343236"
 ---
 # <a name="d3dcreate"></a>D3DCREATE
 
@@ -154,16 +154,16 @@ D3DCREATE \_ оборудование \_ ВЕРТЕКСПРОЦЕССИНГ, D3D
 
 
 
-|                          |            |
+| Требование                         |  Значение          |
 |--------------------------|------------|
-| Header                   | D3D9. h     |
+| Заголовок                   | D3D9. h     |
 | Минимальная операционная система | Windows 98 |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

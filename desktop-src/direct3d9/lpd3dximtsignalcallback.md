@@ -4,12 +4,12 @@ ms.assetid: 97b07dbc-6b84-46d2-acc7-db81d94538f7
 title: LPD3DXIMTSIGNALCALLBACK
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aebf9250be6fcc878d920816a81782e8ece87ec4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8dbf75bf1a3fc05b217feef8446636efaae55b3b
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710561"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342839"
 ---
 # <a name="lpd3dximtsignalcallback"></a>LPD3DXIMTSIGNALCALLBACK
 
@@ -45,22 +45,22 @@ typedef HRESULT (WINAPI* LPD3DXIMTSIGNALCALLBACK)
 
 Эта функция должна быть реализована для возврата значения S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не забудьте указать соглашение о вызовах [**типов данных Windows**](../winprog/windows-data-types.md) при объявлении функции обратного вызова. В противном случае могут возникать переполняется стек.
 
 
 
-|                |             |
+| Требование               | Значение            |
 |----------------|-------------|
-| Header         | d3dx9mesh. h |
+| Заголовок         | d3dx9mesh. h |
 | Библиотека импорта | d3dx9. lib   |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

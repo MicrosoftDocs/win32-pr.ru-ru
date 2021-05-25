@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: d8d779ad714e396f9c9a82bbbc42ddd09b76e2ac
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 55edb432913720f58860d4f5cb87d8da9b9a8681
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000328"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343389"
 ---
 # <a name="d3dblend-enumeration"></a>Перечисление D3DBLEND
 
@@ -166,11 +166,9 @@ typedef enum D3DBLEND {
 
 Коэффициент смешения равен (Псаутколор \[ 1 \] <sub>r</sub>, псаутколор \[ 1 \] <sub>g</sub>, псаутколор \[ 1 \] <sub>b</sub>, не используется). См. раздел [наложение целевого объекта прорисовки](#render-target-blending).
 
+Различия между Direct3D 9 и Direct3D 9Ex:
 
-
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Различия между Direct3D 9 и Direct3D 9Ex:<br/> Этот флаг доступен только в Direct3D 9Ex.<br/> |
+- Этот флаг доступен только в Direct3D 9Ex.
 
 
 
@@ -184,10 +182,9 @@ typedef enum D3DBLEND {
 Коэффициент смешения равен (1-Псаутколор \[ 1 \] <sub>r</sub>, 1-псаутколор \[ 1 \] <sub>g</sub>, 1-псаутколор \[ 1 \] <sub>b</sub>, не используется)). См. раздел [наложение целевого объекта прорисовки](#render-target-blending).
 
 
+Различия между Direct3D 9 и Direct3D 9Ex:
 
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Различия между Direct3D 9 и Direct3D 9Ex:<br/> Этот флаг доступен только в Direct3D 9Ex.<br/> |
+- Этот флаг доступен только в Direct3D 9Ex.
 
 
 
@@ -202,7 +199,7 @@ typedef enum D3DBLEND {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В приведенных выше описаниях элементов значения RGBA источника и назначения обозначаются подстрочными индексами s и d.
 
@@ -227,11 +224,11 @@ typedef enum D3DBLEND {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

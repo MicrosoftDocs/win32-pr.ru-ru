@@ -4,12 +4,12 @@ description: Ниже приведены основные ресурсы, кот
 ms.assetid: d7921f38-e384-4a83-b458-ee71f7044468
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eca95e1fe281253705620136afdced3cb705fe02
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 11b285e850bd952a0a24638a2bd8c3c0b2d987d0
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104070899"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343569"
 ---
 # <a name="roadmap-for-desktop-directx-apps"></a>Дорожная карта для классических приложений DirectX
 
@@ -101,7 +101,7 @@ ms.locfileid: "104070899"
 | [**Система типов (C++/CX)**](/cpp/cppcx/type-system-c-cx?view=vs-2019) | Справочное содержимое для типов, поддерживаемых C++/CX. |
 | [**Пространства имен (C++/CX)**](/cpp/cppcx/namespaces-reference-c-cx?view=vs-2019) | Справочное содержимое для пространств имен, содержащих типы, относящиеся к C++, которые можно использовать в приложениях для Магазина Windows. |
 
-| | |
+| Раздел | Описание |
 |-|-|
 | [Асинхронное программирование (DirectX и C++)](/previous-versions/windows/apps/hh994919(v=win.10)) | Сведения о асинхронном и многопоточном программировании для приложений и игр DirectX. |
 | [Асинхронное программирование на языке C++](/previous-versions/windows/apps/hh780559(v=win.10)) | Описывает основные способы использования класса Task для получения среда выполнения Windows асинхронных методов. |
@@ -110,7 +110,7 @@ ms.locfileid: "104070899"
 
 ## <a name="additional-useful-libraries-for-windows-c-programming"></a>Дополнительные полезные библиотеки для программирования на языке Windows C++
 
-| | |
+| Раздел | Описание |
 |-|-|
 | [Библиотека стандартных шаблонов C++](https://msdn.microsoft.com/library/c191tb28(v=VS.71).aspx) | Типы среда выполнения Windows хорошо воспроизводятся с помощью стандартных типов библиотек шаблонов. Большинство приложений для Магазина Windows на C++ используют стандартные коллекции и алгоритмы библиотек шаблонов, за исключением границ ABI. |
 | [Библиотека параллельных шаблонов](/previous-versions/visualstudio/visual-studio-2010/dd492418(v=vs.100)) | PPL предоставляет алгоритмы и типы, которые упрощают параллелизм задач и параллелизм данных в ЦП.  |

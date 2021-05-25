@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 33aba75cafff5f9e69a74d5570f98455a9853289
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: db4b25cb44b3b43b3b9754f241e2c505bdfedbc7
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713579"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343399"
 ---
 # <a name="d3dadapter_identifier9-structure"></a>\_Структура IDENTIFIER9 D3DADAPTER
 
@@ -46,11 +46,11 @@ typedef struct D3DADAPTER_IDENTIFIER9 {
 
 
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 <dl> <dt>
 
-**Driver**
+**Драйвер**
 </dt> <dd>
 
 Тип: **char**
@@ -182,9 +182,8 @@ typedef struct D3DADAPTER_IDENTIFIER9 {
 
 
 
-|       |                                               |
+| Bits  |  Описание                                             |
 |-------|-----------------------------------------------|
-| Bits  |                                               |
 | 31-16 | Год — десятичное число от 1999 до более поздних. |
 | 15-8  | Месяц — десятичное число от 1 до 12.     |
 | 7-0   | День — десятичное число от 1 до 31.       |
@@ -197,7 +196,7 @@ typedef struct D3DADAPTER_IDENTIFIER9 {
 
 
 
-|     |                                                       |
+| Значение    |  Описание                                                     |
 |-----|-------------------------------------------------------|
 | 0   | Не сертифицировано.                                        |
 | 1   | Проверка WHQL выполнена, но сведения о датах недоступны. |
@@ -212,7 +211,7 @@ typedef struct D3DADAPTER_IDENTIFIER9 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующем примере псевдокода показан формат версии, закодированный в элементах Дриверверсион, Дриверверсионловпарт и Дриверверсионхигхпарт.
 
@@ -245,11 +244,11 @@ Build = LOWORD(DriverVersion.LowPart)
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

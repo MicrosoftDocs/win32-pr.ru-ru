@@ -4,12 +4,12 @@ ms.assetid: a605ae27-10c9-49b4-98fe-8c788c2c0752
 title: LPD3DXUVATLASCB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbda7c58ef001a936b01f3af2027f9207c3d2770
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dfe073b5e6a798ccb74421d42502b089d59be11f
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710637"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342799"
 ---
 # <a name="lpd3dxuvatlascb"></a>LPD3DXUVATLASCB
 
@@ -37,15 +37,15 @@ typedef HRESULT (*LPD3DXUVATLASCB (
 
 Эта функция должна быть реализована, чтобы вернуть значение \_ ОК для сохранения запуска симулятора. Любое другое значение остановит симулятор.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не забудьте указать соглашение о вызовах [**типов данных Windows**](../winprog/windows-data-types.md) при объявлении функции обратного вызова. В противном случае могут возникать переполняется стек.
 
 
 
-|                          |             |
+| Требование                         | Значение            |
 |--------------------------|-------------|
-| Header                   | d3dx9mesh. h |
+| Заголовок                   | d3dx9mesh. h |
 | Библиотека импорта           | d3dx9. lib   |
 | Минимальная операционная система | Windows 98  |
 
@@ -53,7 +53,7 @@ typedef HRESULT (*LPD3DXUVATLASCB (
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

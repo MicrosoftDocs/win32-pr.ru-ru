@@ -4,12 +4,12 @@ ms.assetid: d2030002-bd44-443f-8235-978919ebbda6
 title: D3DUSAGE_QUERY
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eac450ed722da26fe4885d41707483adf401f89
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 038cb64b1ad4f5f7ee2dd78ffc2e2a5ebab90d0e
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994111"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342989"
 ---
 # <a name="d3dusage_query"></a>\_Запрос D3DUSAGE
 
@@ -37,9 +37,9 @@ ms.locfileid: "107994111"
 
 
 
-|                          |             |
+| Требование                         | Значение            |
 |--------------------------|-------------|
-| Header                   | d3d9types. h |
+| Заголовок                   | d3d9types. h |
 | Минимальная операционная система | Windows 98  |
 
 

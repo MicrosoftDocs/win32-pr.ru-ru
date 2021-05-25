@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 212fd05755ebf554c3c57e7ac45dcf8947f2d753
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bd6038e1b3d2b2f85e5766605583db9879427343
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713537"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343009"
 ---
 # <a name="d3dtexturefiltertype-enumeration"></a>Перечисление D3DTEXTUREFILTERTYPE
 
@@ -93,11 +93,9 @@ typedef enum D3DTEXTUREFILTERTYPE {
 
 Фильтр свертки для монохромных текстур. См. [D3DFMT \_ a1](d3dformat.md).
 
+Различия между Direct3D 9 и Direct3D 9Ex:
 
-
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Различия между Direct3D 9 и Direct3D 9Ex:<br/> Этот флаг доступен только в Direct3D 9Ex.<br/> |
+- Этот флаг доступен только в Direct3D 9Ex.
 
 
 
@@ -114,7 +112,7 @@ typedef enum D3DTEXTUREFILTERTYPE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 D3DTEXTUREFILTERTYPE используется [**IDirect3DDevice9:: сетсамплерстате**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setsamplerstate) вместе с [**D3DSAMPLERSTATETYPE**](./d3dsamplerstatetype.md) для определения режимов фильтрации текстур для этапа текстуры.
 
@@ -134,11 +132,11 @@ D3DTEXTUREFILTERTYPE используется [**IDirect3DDevice9:: сетсам
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

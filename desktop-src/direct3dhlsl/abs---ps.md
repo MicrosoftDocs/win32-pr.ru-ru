@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e3e7af7b2d30e9d9f2092cb6671610f008ec781d
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: f4f22261a114333ed77d67d7c0ac2738d3522054
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994881"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343330"
 ---
 # <a name="abs---ps"></a>ABS-PS
 
@@ -22,22 +22,14 @@ ms.locfileid: "107994881"
 
 ## <a name="syntax"></a>Синтаксис
 
-
-
-|              |
-|--------------|
-| ABS DST, src |
-
-
-
- 
+**ABS DST, src**
 
 where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -65,7 +57,7 @@ dest.w = abs(src.w)
 
 
 
-|                          |            |
+| Требование                         | Значение           |
 |--------------------------|------------|
 | Минимальная операционная система | Windows 98 |
 

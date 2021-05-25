@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: c618e0e19bf7dd01dec73d35436f23189f9e78a6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 022aa20fab0739b32aa75eb5f4bc575c0a8ad853
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713599"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342999"
 ---
 # <a name="d3dtransformstatetype-enumeration"></a>Перечисление D3DTRANSFORMSTATETYPE
 
@@ -126,13 +126,13 @@ typedef enum D3DTRANSFORMSTATETYPE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Состояния преобразования в диапазоне от 256 до 511 зарезервированы для хранения до 256 матриц мира, которые можно индексировать с помощью \_ макросов D3DTS ворлдматрикс и D3DTS \_ World.
 
 
 
-| Макросы                                                  |                                                                                                                                                                       |
+| Макросы                                                  | Описание                                                                                                                                                                      |
 |---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3DTS \_ мир**](d3dts-world.md)                     | Эквивалентно D3DTS \_ ворлдматрикс (0).                                                                                                                                  |
 | [**D3DTS \_ ВОРЛДМАТРИКС**](d3dts-worldmatrix.md) (индекс) | Определяет матрицу преобразования, заданную для матрицы мира по индексу. Несколько мировых матриц используются только для смешивания вершин. В противном случае используется только D3DTS \_ World. |
@@ -147,11 +147,11 @@ typedef enum D3DTRANSFORMSTATETYPE {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

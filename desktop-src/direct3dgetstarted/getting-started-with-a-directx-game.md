@@ -4,18 +4,18 @@ description: Создание игры Microsoft DirectX для Windows — эт
 ms.assetid: fd460c52-9854-4ffe-b89e-5219be2e11f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae09cd127a30401ae0493f5dd770fe1e67607b45
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4bac8ca2805fed9ec42faf9deda9ddd51da39685
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105700881"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343589"
 ---
 # <a name="get-started-with-directx-for-windows"></a>Начало работы с DirectX для Windows
 
 Создание игры Microsoft DirectX для Windows — это задача нового разработчика. Здесь мы быстро рассмотрим связанные понятия и действия, которые необходимо предпринять, чтобы начать разработку игры с помощью DirectX и C++.
 
-Давайте приступим.
+Давайте начнем.
 
 ## <a name="what-skills-do-you-need"></a>Какие навыки вам нужны?
 
@@ -35,11 +35,11 @@ ms.locfileid: "105700881"
 -   Установка [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/download-visual-studio-vs).
 -   Встретилсяе и желание узнать больше о разработке игр DirectX!
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 
 
-|                                                                                                    |                                                                                                           |
+| Раздел                                                                                                   | Описание                                                                                                           |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | [Работа с ресурсами устройств DirectX](work-with-dxgi.md)                                           | Узнайте, как использовать DXGI для создания виртуализированного графического устройства, а затем создать и настроить цепочку буферов обмена.     |
 | [Общие сведения о конвейере визуализации Direct3D 11](understand-the-directx-11-2-graphics-pipeline.md) | Узнайте, как присоединиться к классу ресурсов DirectX-устройства и рисовать с помощью графического конвейера Direct3D. |
@@ -47,8 +47,8 @@ ms.locfileid: "105700881"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 375646202e102623053c179398329ad2286e6c1b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3e8d1d72fccd5c4ad47d21d05ee46013860a7743
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703879"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343629"
 ---
 # <a name="id3dxeffectcompilercompileshader-method"></a>Метод ID3DXEffectCompiler:: Компилешадер
 
@@ -109,13 +109,13 @@ HRESULT CompileShader(
 
 Если метод завершается с ошибкой, возвращается значение E \_ Failed.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Целевые объекты можно указать для шейдеров вершин, шейдеров пикселей и функций заливки текстур.
 
 
 
-|                       |                                                                       |
+| Целевые объекты                      | Функции                                                                      |
 |-----------------------|-----------------------------------------------------------------------|
 | Цели шейдера вершин | VS \_ 1 \_ , vs 2 \_ \_ 0, VS \_ 2 \_ SW, VS \_ 3 \_ 0                               |
 | Цели шейдера пикселей  | PS \_ 1 \_ 1, PS \_ 1 \_ 2, PS \_ 1 \_ 3, PS \_ 1 \_ 4, PS \_ 2 \_ 0, PS \_ 2 \_ SW, PS \_ 3 \_ 0 |
@@ -133,12 +133,12 @@ HRESULT CompileShader(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
