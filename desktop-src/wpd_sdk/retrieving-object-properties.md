@@ -1,21 +1,21 @@
 ---
 title: Общие сведения о получении свойств объекта
-description: Получение свойств объекта
+description: Приложение может извлекать свойства для одного объекта, для нескольких объектов, идентифицируемых идентификаторами объектов, или для нескольких объектов одного типа.
 ms.assetid: 499644ee-9eef-4267-9c45-7c7ba9ef61af
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19d5389eadbce6c28f09e16888789e620c80bba1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55434e757caa78ddd4d6e0ed27483213dae3b22d
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815832"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424084"
 ---
 # <a name="retrieving-object-properties-overview"></a>Общие сведения о получении свойств объекта
 
 Приложение может извлекать свойства для одного объекта, для нескольких объектов, идентифицируемых идентификаторами объектов, или для нескольких объектов одного типа. В следующем разделе описывается извлечение для одного объекта. Описание получения свойств для нескольких объектов см. в разделе " [Расширенные задачи](advanced-tasks.md) ".
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

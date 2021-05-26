@@ -9,12 +9,12 @@ keywords:
 - Справочник по цвету для обложек
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11085bbcf9461b48cee9892bb8da6a8e167a2495
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f67b6a5fb44aa7576c82b6567e7d3d4a91bc4ac8
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103891353"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424104"
 ---
 # <a name="color-reference-windows-media-player-sdk"></a>Справочник по цвету (пакет SDK для проигрывателя Windows Media)
 
@@ -24,7 +24,7 @@ ms.locfileid: "103891353"
 
 
 
-|                            |                             |                                 |                              |
+|          &nbsp;            |            &nbsp;           |             &nbsp;              |           &nbsp;             |
 |----------------------------|-----------------------------|---------------------------------|------------------------------|
 | AliceBlue ( \# F0F8FF)       | антикуевхите ( \# FAEBD7)     | голубой ( \# 00FFFF)                 | Аквамариновый ( \# 7FFFD4)        |
 | Azure ( \# F0FFFF)           | бежевый ( \# F5F5DC)            | бискуе ( \# FFE4C4)               | черный ( \# 000000)             |
@@ -68,11 +68,11 @@ ms.locfileid: "103891353"
 
 Дополнительные сведения см. в статье о [цветовой таблице](https://msdn.microsoft.com/library/ms531197.aspx) в Microsoft MSDN® Online.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Прочее**](miscellaneous.md)
+[**Разное**](miscellaneous.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 783a6552-9b22-4af4-9252-b443e2624687
 title: Получение поддерживаемых методов службы
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6029af655a8835a4eee887d919c534856062ff13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b021aa868ffaa95df23a729e94d62eae8a0c632e
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911120"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423804"
 ---
 # <a name="retrieving-supported-service-methods"></a>Получение поддерживаемых методов службы
 
@@ -25,9 +25,8 @@ ms.locfileid: "103911120"
 
 
 
-|                                                                                      |                                                                                                                |
+| Интерфейс      | Описание         |
 |--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Интерфейс                                                                            | Описание                                                                                                    |
 | [**ипортабледевицесервице**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                             | Используется для получения интерфейса **ипортабледевицесервицекапабилитиес** для доступа к поддерживаемым методам службы. |
 | [**ипортабледевицесервицекапабилитиес**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities)     | Предоставляет доступ к поддерживаемым методам, атрибутам методов и параметрам методов.                             |
 | [**ипортабледевицепропвариантколлектион**](iportabledevicepropvariantcollection.md) | Содержит список поддерживаемых методов.                                                                        |
@@ -342,7 +341,7 @@ void DisplayMethodParameters(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

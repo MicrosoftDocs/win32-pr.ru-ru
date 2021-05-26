@@ -4,12 +4,12 @@ description: В этом разделе перечислены доступны�
 ms.assetid: 1B524A91-B433-4968-9546-8A6AFB67E89C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc51fe027e6169ab1c28904c3145be2f5042d9a0
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: c1131466bd4d3afcaae3a241a6f7854fd5a49450
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104488592"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423964"
 ---
 # <a name="common-control-versions"></a>Стандартные версии элементов управления
 
@@ -49,9 +49,9 @@ Microsoft Internet Explorer 5,01, Microsoft Internet Explorer 5,5 и Microsoft I
 
 Windows Server 2003, Windows Vista, Windows Server 2008 и Windows 7
 
-6.0
+6,0
 
-Windows Server 2003
+Windows Server 2003
 
 6.10
 
@@ -67,7 +67,7 @@ Windows Vista, Windows Server 2008 и Windows 7
 
 
 
-|                               |                                                                                              |
+|    Константа размера структуры                           |     Определение                                                                                         |
 |-------------------------------|----------------------------------------------------------------------------------------------|
 | \_Размер хдитем v1 \_              | Размер структуры [**хдитем**](/windows/win32/api/commctrl/ns-commctrl-hditema) в версии 4,0.                           |
 | \_Размер имажелистдравпарамс v3 \_ | Размер структуры [**имажелистдравпарамс**](/windows/win32/api/commctrl/ns-commctrl-imagelistdrawparams) в версии 5,9. |
@@ -221,7 +221,7 @@ else
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

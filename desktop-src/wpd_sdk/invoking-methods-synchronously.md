@@ -4,12 +4,12 @@ ms.assetid: 3a2796c8-1a39-49eb-98e1-c9e06c61f397
 title: Вызов методов службы
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b568ea169d0f3c6465d9879eb9eb01c0b46b526
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15b9540cf7378e13d56af2611d6216897c6750f6
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712489"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424204"
 ---
 # <a name="invoking-service-methods"></a>Вызов методов службы
 
@@ -17,9 +17,8 @@ ms.locfileid: "105712489"
 
 
 
-|                                                                        |                                                                                                                                                                         |
+| Интерфейс    | Описание    |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Интерфейс                                                              | Описание                                                                                                                                                             |
 | [**ипортабледевицесервице**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)               | Используется для получения интерфейса **ипортабледевицесервицемесодс** для вызова методов в заданной службе.                                                                  |
 | [**ипортабледевицесервицемесодс**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods) | Используется для вызова метода службы.                                                                                                                                        |
 | [**ипортабледевицевалуес**](iportabledevicevalues.md)                 | Используется для хранения параметров исходящего метода и результатов входящего метода. Может иметь **значение NULL** , если метод не требует никаких параметров или не возвращает никаких результатов. |
@@ -95,7 +94,7 @@ void InvokeMethods(IPortableDeviceService* pService)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 229f6b65-4904-41b1-bb35-8873477a272b
 title: WPD_CONTENT_TYPE_WIRELESS_PROFILE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a327efa9e1a4cd3a1e5927da89ae4f9e7092196a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 999c8aec77c6ff046690e4c3450c0643d685e1db
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999162"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423704"
 ---
 # <a name="wpd_content_type_wireless_profile"></a>\_тип содержимого \_ WPD \_ профиль беспроводной сети \_
 
@@ -19,9 +19,8 @@ ms.locfileid: "103999162"
 
 
 
-|                                                                                                                       |                                                                       |
+| Имя свойства             | Обязательный или необязательный                      |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| **Имя свойства**                                                                                                     | **Обязательный или необязательный**                                              |
 | [\_идентификатор объекта \_ WPD](object-properties.md)                                                                | Обязательный.                                                             |
 | [\_ \_ идентификатор родительского объекта \_ WPD](object-properties.md)                                                 | Обязательный.                                                             |
 | [\_имя объекта \_ WPD](object-properties.md)                                                            | Требуется, если объект представляет файл.                             |
@@ -64,7 +63,7 @@ ms.locfileid: "103999162"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

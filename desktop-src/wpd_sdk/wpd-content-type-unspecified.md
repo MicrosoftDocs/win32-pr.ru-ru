@@ -4,12 +4,12 @@ ms.assetid: 0175940e-2de2-4e2b-a98e-8dcc59e7020f
 title: WPD_CONTENT_TYPE_UNSPECIFIED
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83b767ba2d76dc569def42b80eb646ae0e6a6aee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd955ee5ebf31b2348efd3f70c85ae9c004edb83
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912131"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423684"
 ---
 # <a name="wpd_content_type_unspecified"></a>\_тип содержимого WPD не \_ \_ указан
 
@@ -19,9 +19,8 @@ ms.locfileid: "103912131"
 
 
 
-|                                                                                                                       |                                                                               |
+| Имя свойства       | Обязательный или необязательный         |
 |-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| **Имя свойства**                                                                                                     | **Обязательный или необязательный**                                                      |
 | [\_идентификатор объекта \_ WPD](object-properties.md)                                                                | Обязательно, только для чтения. Клиент не может задать это свойство даже во время создания. |
 | [\_ \_ идентификатор родительского объекта \_ WPD](object-properties.md)                                                 | Обязательный.                                                                     |
 | [\_имя объекта \_ WPD](object-properties.md)                                                            | Требуется, если объект представляет файл.                                     |
@@ -64,7 +63,7 @@ ms.locfileid: "103912131"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

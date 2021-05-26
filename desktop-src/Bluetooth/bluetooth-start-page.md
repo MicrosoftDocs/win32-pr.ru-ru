@@ -7,12 +7,12 @@ keywords:
 - Bluetooth на начальной странице, Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c94e4784fdd29e665470f7f66ee9c0832af48470
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 7bdb45de3e8f6d02b1c5571cb5e1e5339c3b7c17
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104533569"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424284"
 ---
 # <a name="bluetooth"></a>Bluetooth
 
@@ -42,7 +42,7 @@ Bluetooth предназначен для использования прогр�
 |-------------------------------------------------|---------------------------------------------------|
 | [Обзор](about-bluetooth.md)<br/>      | Общие сведения об Bluetooth.<br/>   |
 | [Использующ](using-bluetooth.md)<br/>         | Сведения об использовании Bluetooth.<br/>     |
-| [Ссылки](bluetooth-reference.md)<br/> | Справочная документация по Bluetooth.<br/> |
+| [Ссылка](bluetooth-reference.md)<br/> | Справочная документация по Bluetooth.<br/> |
 
 
 
@@ -52,7 +52,7 @@ Bluetooth предназначен для использования прогр�
 
 
 
-|                                                                                      |                                                                                                                             |
+|    Ресурс                          |    Описание                     |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | [Вопросы и ответы по беспроводной технологии Bluetooth](https://www.microsoft.com/whdc/connect/wireless/bth_faq.mspx) | Сведения о поддержке беспроводных технологий Bluetooth для операционных систем Windows, которые главным образом посвящены Windows Vista. |
 | [Форум Windows Vista Wireless SDK](https://social.msdn.microsoft.com/Forums/en/vistawirelesssdk/threads)   | Обсуждение реализации Bluetooth в связи с Windows Vista.                                                              |

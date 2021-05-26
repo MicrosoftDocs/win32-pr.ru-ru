@@ -11,12 +11,12 @@ keywords:
 - отправка битов файлов
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: a531821665490735b391ab2714f5b37146c6bc1e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9483e297e8b48ad6466846c7eceb8d53b57d3278
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987757"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424214"
 ---
 # <a name="background-intelligent-transfer-service"></a>Фоновая интеллектуальная служба передачи
 
@@ -67,7 +67,7 @@ ms.locfileid: "103987757"
 Ниже приведены дополнительные ресурсы.
 
 
-|             |                                                                                                                                                 |
+|    Ресурс         |    Описание                                                                                                                                     |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL-библиотека ссылок .NET   | Сведения об использовании BITS из .NET с помощью справочника DLL см. в разделе [вызов в BITS из .NET с помощью справочника DLL](/windows/desktop/Bits/bits-dot-net) .      |
 | Оболочка .NET   | Для других оболочек .NET для BITS можно выполнить поиск по [NuGet](https://www.nuget.org/packages?q=Tags%3A%22BITS%22) для проектов, помеченных тегом BITS.        |

@@ -4,12 +4,12 @@ ms.assetid: d4a6bd98-c28e-487b-95cc-2c73cd44e3b5
 title: WPD_CONTENT_TYPE_VIDEO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afde065ef233ff64a4eb72af8be5f7308050ff75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6aacf30a9e646a6089058104bd39577fad832e31
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702763"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424125"
 ---
 # <a name="wpd_content_type_video"></a>\_ \_ видео типа содержимого \_ WPD
 
@@ -19,9 +19,8 @@ ms.locfileid: "105702763"
 
 
 
-|                                                                                                                       |                                                                                                                              |
+|  Имя свойства                             | Обязательный или необязательный              |
 |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| **Имя свойства**                                                                                                     | **Обязательный или необязательный**                                                                                                     |
 | [\_идентификатор объекта \_ WPD](object-properties.md)                                                                | Обязательно, только для чтения. Клиент не может задать это свойство даже во время создания.                                               |
 | [\_ \_ идентификатор родительского объекта \_ WPD](object-properties.md)                                                 | Обязательный.                                                                                                                    |
 | [\_имя объекта \_ WPD](object-properties.md)                                                            | Требуется, если объект представляет файл.                                                                                    |
@@ -108,7 +107,7 @@ ms.locfileid: "105702763"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

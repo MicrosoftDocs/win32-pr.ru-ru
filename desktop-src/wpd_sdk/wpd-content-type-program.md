@@ -4,12 +4,12 @@ ms.assetid: 81eaf8cf-0f4f-4587-911a-063630af1c8e
 title: WPD_CONTENT_TYPE_PROGRAM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0187d4e87f47e8210e94a676ca9ccd1e1364cf1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ddf3c5d406c16891c692e84fb37c4d21757f702
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816273"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423774"
 ---
 # <a name="wpd_content_type_program"></a>\_ \_ программа типа содержимого \_ WPD
 
@@ -19,9 +19,8 @@ ms.locfileid: "103816273"
 
 
 
-|                                                                                                                       |                                                                                    |
+| Имя свойства     | Обязательный или необязательный      |
 |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| **Имя свойства**                                                                                                     | **Обязательный или необязательный**                                                           |
 | [\_идентификатор объекта \_ WPD](object-properties.md)                                                                | Требуется, но только для чтения. Клиент не может задать это свойство даже во время создания. |
 | [\_ \_ идентификатор родительского объекта \_ WPD](object-properties.md)                                                 | Обязательный.                                                                          |
 | [\_имя объекта \_ WPD](object-properties.md)                                                            | Требуется, если объект представляет файл.                                          |
@@ -64,7 +63,7 @@ ms.locfileid: "103816273"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

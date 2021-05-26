@@ -4,12 +4,12 @@ ms.assetid: 5c17aba1-98f7-4d6c-a5d2-2b4623a65255
 title: WPD_CONTENT_TYPE_NETWORK_ASSOCIATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ab3fd2f76efef5b85991f1334977c17e34d06b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3c92f76080db4167a12578c58e9d85c9506c28b
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647557"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423723"
 ---
 # <a name="wpd_content_type_network_association"></a>\_ \_ \_ Сетевая связь типа содержимого WPD \_
 
@@ -19,9 +19,8 @@ ms.locfileid: "105647557"
 
 
 
-|                                                                                                                                              |                                                                       |
+| Имя свойства         | Обязательный или необязательный        |
 |----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| **Имя свойства**                                                                                                                            | **Обязательный или необязательный**                                              |
 | [\_идентификатор объекта \_ WPD](object-properties.md)                                                                                       | Обязательный.                                                             |
 | [\_ \_ идентификатор родительского объекта \_ WPD](object-properties.md)                                                                        | Обязательный.                                                             |
 | [\_имя объекта \_ WPD](object-properties.md)                                                                                   | Требуется, если объект представляет файл.                             |
@@ -56,7 +55,7 @@ ms.locfileid: "105647557"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

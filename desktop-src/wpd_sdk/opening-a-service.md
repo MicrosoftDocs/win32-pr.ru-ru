@@ -4,12 +4,12 @@ ms.assetid: 722d657d-332a-40df-ac30-bc2050deda74
 title: Открытие службы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0bcccc6c3769173bfee72e73d7cbf68435b0ba1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8b273b8709a4d750085f14075d605f88ed0faa6
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546058"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423924"
 ---
 # <a name="opening-a-service"></a>Открытие службы
 
@@ -17,9 +17,8 @@ ms.locfileid: "104546058"
 
 
 
-|                                                                        |                                                    |
-|------------------------------------------------------------------------|----------------------------------------------------|
 | Интерфейс                                                              | Описание                                        |
+|------------------------------------------------------------------------|----------------------------------------------------|
 | [**ипортабледевицесервицеманажер**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager) | Используется для перечисления служб на устройстве.        |
 | [**ипортабледевицесервице**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)               | Используется для открытия подключения к службе устройства.     |
 | [**ипортабледевицевалуес**](iportabledevicevalues.md)                 | Используется для хранения сведений о клиенте приложения. |
@@ -117,7 +116,7 @@ if (SUCCEEDED(hr))
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

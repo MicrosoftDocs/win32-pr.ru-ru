@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a29f72d7af0f73d74393d980b2506a3b7f05e578
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6a61b8e1e09e749579f323d506371138b0d9b59
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704165"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424094"
 ---
 # <a name="playerstringcollectionchange-event"></a>Событие Player. Стрингколлектиончанже
 
@@ -58,10 +58,9 @@ Player.StringCollectionChange(
 
 
 
-|        |                                    |
-|--------|------------------------------------|
 | Число | Описание                        |
-| 0      | Неизвестно. (Недопустимое значение)       |
+|--------|------------------------------------|
+| 0      | Неизвестна. (Недопустимое значение)       |
 | 1      | Элемент был вставлен.              |
 | 2      | Изменена коллекция строк.     |
 | 3      | Элемент удален.               |
@@ -101,7 +100,7 @@ Player.StringCollectionChange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

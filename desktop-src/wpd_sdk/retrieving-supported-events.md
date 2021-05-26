@@ -4,12 +4,12 @@ ms.assetid: 1bf3aa08-7ffc-417f-a67e-9eee042337b9
 title: Получение поддерживаемых событий службы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f515b65b8ed062c346777224a64539f5229a704a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfdc1df4c8255a4dc2a1297ae99216437ac3b4c9
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712682"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423474"
 ---
 # <a name="retrieving-supported-service-events"></a>Получение поддерживаемых событий службы
 
@@ -17,9 +17,8 @@ ms.locfileid: "105712682"
 
 
 
-|                                                                                      |                                                                                                       |
+| Интерфейс                | Описание    |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Интерфейс                                                                            | Описание                                                                                           |
 | [**ипортабледевицесервице**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                             | Используется для получения интерфейса **ипортабледевицесервицекапабилитиес** для доступа к поддерживаемым событиям. |
 | [**ипортабледевицесервицекапабилитиес**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities)     | Предоставляет доступ к поддерживаемым событиям и атрибутам событий.                                         |
 | [**ипортабледевицепропвариантколлектион**](iportabledevicepropvariantcollection.md) | Содержит список поддерживаемых событий.                                                                |
@@ -204,7 +203,7 @@ void DisplayEventOptions(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

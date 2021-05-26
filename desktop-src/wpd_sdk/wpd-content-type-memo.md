@@ -4,12 +4,12 @@ ms.assetid: 6d89681c-1183-44d3-a39e-5fb343f1abbe
 title: WPD_CONTENT_TYPE_MEMO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf6262b6ac290edd19c1ae17658e163149fc0535
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07bc36b11d88135aadeab6d58192c97a06dfbd87
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702765"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424314"
 ---
 # <a name="wpd_content_type_memo"></a>\_ \_ МЕМО типа содержимого \_ WPD
 
@@ -19,9 +19,8 @@ ms.locfileid: "105702765"
 
 
 
-|                                                                                                                       |                                                                                |
+| Имя свойства      |   Обязательный или необязательный      |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **Имя свойства**                                                                                                     | **Обязательный или необязательный**                                                       |
 | [\_идентификатор объекта \_ WPD](object-properties.md)                                                                | Обязательно, только для чтения. Клиент не может задать это свойство даже во время создания. |
 | [\_ \_ идентификатор родительского объекта \_ WPD](object-properties.md)                                                 | Обязательный.                                                                      |
 | [\_имя объекта \_ WPD](object-properties.md)                                                            | Требуется, если объект представляет файл.                                      |
@@ -60,7 +59,7 @@ ms.locfileid: "105702765"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

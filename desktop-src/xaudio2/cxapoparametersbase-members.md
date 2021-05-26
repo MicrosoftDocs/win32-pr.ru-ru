@@ -4,12 +4,12 @@ ms.assetid: C2113358-07DE-426E-AF26-BD8ED9902192
 title: Элементы Кксапопараметерсбасе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e225d1628408b5d5472bed8c3060f714bb7b0ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 554aa66b4166bc3d0de4db685e0f6e7b54e6ebf5
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712287"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423874"
 ---
 # <a name="cxapoparametersbase-members"></a>Элементы Кксапопараметерсбасе
 
@@ -19,7 +19,7 @@ ms.locfileid: "105712287"
 
 
 
-|                                                    |                                                                         |
+|    Конструктор                                                |     Описание                                                                    |
 |----------------------------------------------------|-------------------------------------------------------------------------|
 | [**кксапопараметерсбасе**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapoparametersbase) | Конструирует объект [**кксапопараметерсбасе**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapoparametersbase) . |
 
@@ -31,7 +31,7 @@ ms.locfileid: "105712287"
 
 
 
-|                                                                                                                              |                                                                                                                                                                  |
+|        Метод                                                                                                                      |     Описание                                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddRef**](/previous-versions/windows/desktop/legacy/ee418448(v=vs.85)) (наследуется от [**иксапо**](/windows/desktop/api/XAPO/nn-xapo-ixapo))                                         | Увеличивает значение счетчика ссылок объекта КСАПО.<br/>                                                                                                         |
 | [**бегинпроцесс**](/windows/win32/api/xapobase/nf-xapobase-cxapoparametersbase-beginprocess)                                                                     | Возвращает текущие параметры процесса. <br/>                                                                                                              |
@@ -56,7 +56,7 @@ ms.locfileid: "105712287"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

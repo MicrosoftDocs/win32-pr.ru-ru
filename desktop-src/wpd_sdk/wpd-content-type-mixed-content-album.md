@@ -4,12 +4,12 @@ ms.assetid: 7b9d324c-8a9c-4764-9705-ea891e631ead
 title: WPD_CONTENT_TYPE_MIXED_CONTENT_ALBUM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14794282a58d4b5c1b74bccce34568deec780d30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7122affe0b3876ca23bf7b216318ea2f1e42e99d
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546439"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423694"
 ---
 # <a name="wpd_content_type_mixed_content_album"></a>\_ \_ \_ альбом смешанного \_ содержимого типа содержимого \_ WPD
 
@@ -19,9 +19,8 @@ ms.locfileid: "104546439"
 
 
 
-|                                                                                                                       |                                                                                |
+| Имя свойства      | Обязательный или необязательный               |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **Имя свойства**                                                                                                     | **Обязательный или необязательный**                                                       |
 | [\_идентификатор объекта \_ WPD](object-properties.md)                                                                | Обязательно, только для чтения. Клиент не может задать это свойство даже во время создания. |
 | [\_ \_ идентификатор родительского объекта \_ WPD](object-properties.md)                                                 | Обязательный.                                                                      |
 | [\_имя объекта \_ WPD](object-properties.md)                                                            | Требуется, если объект представляет файл.                                      |
@@ -54,7 +53,7 @@ ms.locfileid: "104546439"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

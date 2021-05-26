@@ -4,12 +4,12 @@ ms.assetid: f762a571-83ea-4999-ad49-a51044bc790d
 title: Запись свойств объекта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cb061288cbfde93f2baea1860581c25c61a8a0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 726501c986e73033437de3bee0c11b3beb66150d
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647371"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423934"
 ---
 # <a name="writing-object-properties"></a>Запись свойств объекта
 
@@ -19,9 +19,8 @@ ms.locfileid: "105647371"
 
 
 
-|                                                                |                                                                                                                                                                      |
-|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейс                                                      | Описание                                                                                                                                                          |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ипортабледевицесервице**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)       | Используется для получения интерфейса **IPortableDeviceContent2** для доступа к поддерживаемым методам службы.                                                                  |
 | [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)     | Предоставляет доступ к методам, относящимся к содержимому.                                                                                                                     |
 | [**ипортабледевицепропертиес**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties) | Используется для записи значений свойств объекта и для определения возможности записи данного свойства                                                                    |
@@ -169,7 +168,7 @@ void WriteContentProperties(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -6,12 +6,12 @@ keywords:
 - Интернет-магазины проигрывателя Windows Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99c32ef8f3c5bdb5779a5c7fbd36ed2dd3efac7b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a3ded923538d6be6c8a22fa0ba96ddcd0814348d
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067539"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424074"
 ---
 # <a name="startup-information-form-for-an-online-music-store"></a>Форма сведений о запуске для музыкального магазина в сети
 
@@ -19,7 +19,7 @@ ms.locfileid: "104067539"
 
 
 
-| Элемент                      | Описание |
+| Item                      | Описание |
 |---------------------------|-------------|
 | Название магазина                |             |
 | Locale                    |             |
@@ -94,7 +94,7 @@ ms.locfileid: "104067539"
 
 
 
-| Элемент                                                                                     | Описание |
+| Item                                                                                     | Описание |
 |------------------------------------------------------------------------------------------|-------------|
 | Как мы расоплатой тестовые учетные записи?<br/> (Фиктивный номер кредитной карты?, ...?<br/> |             |
 
@@ -106,7 +106,7 @@ ms.locfileid: "104067539"
 
 
 
-|                | Имя пользователя | Пароль |
+|  Учетная запись       | Имя пользователя | Пароль |
 |----------------|-----------|----------|
 | Тестовая учетная запись 1 |           |          |
 | Тестовая учетная запись 2 |           |          |
@@ -118,7 +118,7 @@ ms.locfileid: "104067539"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

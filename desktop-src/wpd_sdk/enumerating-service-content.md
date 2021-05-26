@@ -4,12 +4,12 @@ ms.assetid: 4af4201c-d3f6-4630-91ec-6509c51871a5
 title: Перечисление содержимого службы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04adb949fdec9a0001583b1481ccd50ada1ef1df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2b701bdab867e96bc9658e2624ea18aa65dfc33
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263018"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424254"
 ---
 # <a name="enumerating-service-content"></a>Перечисление содержимого службы
 
@@ -17,9 +17,8 @@ ms.locfileid: "104263018"
 
 
 
-|                                                                      |                                                                                                  |
-|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | Интерфейс                                                            | Описание                                                                                      |
+|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**ипортабледевицесервице**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)             | Используется для получения интерфейса IPortableDeviceContent2 для доступа к содержимому службы.         |
 | [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)           | Используется для получения интерфейса Иенумпортабледевицеобжектидс для перечисления объектов в службе. |
 | [**иенумпортабледевицеобжектидс**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids) | Используется для перечисления объектов в службе.                                                        |
@@ -124,7 +123,7 @@ void RecursiveEnumerate(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

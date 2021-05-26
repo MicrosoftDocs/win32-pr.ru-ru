@@ -13,12 +13,12 @@ keywords:
 - записи реестра среды выполнения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b01a83c3642f49a9fdbe7f8c51f157a154a9843b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3bf485038965184add320e49c29482672c770f48
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068219"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424113"
 ---
 # <a name="runtime-registry-entry"></a>Запись реестра времени выполнения
 
@@ -28,14 +28,13 @@ ms.locfileid: "104068219"
 
 
 
-|          |                |                                                               |
+|   Имя   |   Тип         |   Значение                                                       |
 |----------|----------------|---------------------------------------------------------------|
-| **имя**; | **Тип**       | **Значение**                                                     |
 | Параметры выполнения  | **REG \_ DWORD** | Положительное целое число, идентифицирующее базовую технологию. |
 
 
 
- 
+ 
 
 Значение записи **времени выполнения** должно быть одним из следующих.
 
@@ -49,11 +48,11 @@ ms.locfileid: "104068219"
 
 
 
- 
+ 
 
 Значения записей реестра **времени выполнения** 6 и 7 поддерживаются в Windows Media Player 9 и более поздних версиях. Значение 13 поддерживается проигрывателем Windows Media 11.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -63,9 +62,9 @@ ms.locfileid: "104068219"
 [**Параметры реестра для расширения имени файла**](file-name-extension-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

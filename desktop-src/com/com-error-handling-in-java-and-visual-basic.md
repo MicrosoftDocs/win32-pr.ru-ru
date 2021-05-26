@@ -4,12 +4,12 @@ description: Обработка ошибок COM в Java и Visual Basic
 ms.assetid: 1130a038-3c18-4530-a6d7-9f538352297f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea12dc040218e14098ce2394fbb5cd2ebeff1704
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 11c55c1c2414c69ff9398845858baadebd58cbf9
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413833"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424014"
 ---
 # <a name="com-error-handling-in-java-and-visual-basic"></a>Обработка ошибок COM в Java и Visual Basic
 
@@ -19,7 +19,7 @@ ms.locfileid: "104413833"
 
 
 
-|                                                                          |                                                                                                                      |
+|  Интерфейс                                                                        |  Описание                                                                                                                    |
 |--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [**икреатирроринфо**](/windows/win32/api/oaidl/nn-oaidl-icreateerrorinfo)<br/>  | Задает сведения об ошибке.<br/>                                                                                   |
 | [**IErrorInfo**](/windows/win32/api/oaidl/nn-oaidl-ierrorinfo)<br/>        | Возвращает сведения из объекта ошибки.<br/>                                                                 |
@@ -33,7 +33,7 @@ ms.locfileid: "104413833"
 
 
 
-|                                                                        |                                                                                                                                                                      |
+|    Интерфейс       |       Описание       |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**креатирроринфо**](/windows/win32/api/oleauto/nf-oleauto-createerrorinfo)<br/> | Создает экземпляр универсального объекта Error.<br/>                                                                                                            |
 | [**GetErrorInfo**](/windows/win32/api/oleauto/nf-oleauto-geterrorinfo)<br/>    | Получает указатель сведений об ошибке, заданный предыдущим вызовом [**сетерроринфо**](/windows/win32/api/oleauto/nf-oleauto-seterrorinfo) в текущем логическом потоке.<br/> |
@@ -43,7 +43,7 @@ ms.locfileid: "104413833"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
