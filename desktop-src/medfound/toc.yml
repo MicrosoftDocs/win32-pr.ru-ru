@@ -1672,7 +1672,7 @@
                   items:
                     - name: 'ID3D12VideoProcessor1:: Жетпротектедресаурцесессион'
                       href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getoutputstreamdes/nf-d3d12video-id3d12videoprocessor1-getprotectedresourcesession
-            - name: Видеоструктуры Direct3D 12
+            - name: "Видеоструктуры Direct3D\_12"
               href: direct3d-12-video-structures.md
               items:
                 - name: D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT
@@ -2539,6 +2539,8 @@
                   href: mf-capture-engine-use-audio-device-only.md
                 - name: Атрибут MF_CAPTURE_ENGINE_USE_VIDEO_DEVICE_ONLY
                   href: mf-capture-engine-use-video-device-only.md
+                - name: MF_CAPTURE_METADATA_DIGITALWINDOW
+                  href: mf-capture-metadata-digitalwindow.md
                 - name: MF_CAPTURE_METADATA_FRAME_ILLUMINATION
                   href: mf-capture-metadata-frame-illumination.md
                 - name: MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH
@@ -4829,7 +4831,7 @@
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord
                 - name: аддстреамфоррекорд
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addstreamforrecord
-                - name: Clone (Клонировать)
+                - name: Клонировать
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-clone
                 - name: GetRecordCount
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getrecordcount
@@ -4850,7 +4852,7 @@
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion
                 - name: аддстреамприоритизатион
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addstreamprioritization
-                - name: Clone (Клонировать)
+                - name: Клонировать
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-clone
                 - name: креатемутуалексклусион
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createmutualexclusion
@@ -4904,7 +4906,7 @@
               items:
                 - name: аддпайлоадекстенсион
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-addpayloadextension
-                - name: Clone (Клонировать)
+                - name: Клонировать
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-clone
                 - name: жетмедиатипе
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getmediatype
@@ -4927,7 +4929,7 @@
               items:
                 - name: аддстреам
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-addstream
-                - name: Clone (Клонировать)
+                - name: Клонировать
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-clone
                 - name: GetStream
                   href: /windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-getstream
@@ -5467,7 +5469,7 @@
             - name: имфдесиредсампле
               href: /windows/desktop/api/evr/nn-evr-imfdesiredsample
               items:
-                - name: Очистить
+                - name: Clear
                   href: /windows/desktop/api/evr/nf-evr-imfdesiredsample-clear
                 - name: жетдесиредсамплетимеанддуратион
                   href: /windows/desktop/api/evr/nf-evr-imfdesiredsample-getdesiredsampletimeandduration
@@ -5591,7 +5593,7 @@
                   href: /windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-setsource
                 - name: GetDevice
                   href: /windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-getdevice
-                - name: Завершить работу
+                - name: Shutdown
                   href: /windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-shutdown
             - name: имфимажешаринженгинеклассфактори
               href: /windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengineclassfactory
@@ -5714,7 +5716,7 @@
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements
                 - name: сетволуме
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setvolume
-                - name: Завершить работу
+                - name: Shutdown
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-shutdown
                 - name: трансфервидеофраме
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-transfervideoframe
@@ -5958,7 +5960,7 @@
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-queueeventparamvar
                 - name: куеуивентпарамунк
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-queueeventparamunk
-                - name: Завершить работу
+                - name: Shutdown
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventqueue-shutdown
             - name: имфмедиакэйс
               href: /windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeys
@@ -6010,9 +6012,9 @@
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-pause
                 - name: сеттопологи
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology
-                - name: Завершить работу
+                - name: Shutdown
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-shutdown
-                - name: Начало
+                - name: Запуск
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start
                 - name: Stop
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-stop
@@ -6045,7 +6047,7 @@
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasink-removestreamsink
                 - name: сетпресентатионклокк
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasink-setpresentationclock
-                - name: Завершить работу
+                - name: Shutdown
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown
             - name: имфмедиасинкпреролл
               href: /windows/desktop/api/mfidl/nn-mfidl-imfmediasinkpreroll
@@ -6063,9 +6065,9 @@
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasource-pause
                 - name: ремотекреатепресентатиондескриптор
                   href: remotecreatepresentationdescriptor.md
-                - name: Завершить работу
+                - name: Shutdown
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown
-                - name: Начало
+                - name: Запуск
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start
                 - name: Stop
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasource-stop
@@ -6141,7 +6143,7 @@
               items:
                 - name: AddRange
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-addrange
-                - name: Очистить
+                - name: Clear
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-clear
                 - name: контаинстиме
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-containstime
@@ -6277,7 +6279,7 @@
             - name: имфнетпроксилокатор
               href: /windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator
               items:
-                - name: Clone (Клонировать)
+                - name: Клонировать
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-clone
                 - name: финдфирстпрокси
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-findfirstproxy
@@ -6470,7 +6472,7 @@
                   href: /windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setvideosourcerect
                 - name: сетволуме
                   href: /windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setvolume
-                - name: Завершить работу
+                - name: Shutdown
                   href: /windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown
                 - name: Stop
                   href: /windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-stop
@@ -6535,14 +6537,14 @@
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-removeclockstatesink
                 - name: сеттимесаурце
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-settimesource
-                - name: Начало
+                - name: Запуск
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start
                 - name: Stop
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-stop
             - name: имфпресентатиондескриптор
               href: /windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor
               items:
-                - name: Clone (Клонировать)
+                - name: Клонировать
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-clone
                 - name: деселектстреам
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-deselectstream
@@ -6602,7 +6604,7 @@
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-notifyqualityevent
                 - name: нотифитопологи
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-notifytopology
-                - name: Завершить работу
+                - name: Shutdown
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-shutdown
             - name: имфратеконтрол
               href: /windows/desktop/api/mfidl/nn-mfidl-imfratecontrol
@@ -6924,7 +6926,7 @@
               items:
                 - name: жетшутдовнстатус
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfshutdown-getshutdownstatus
-                - name: Завершить работу
+                - name: Shutdown
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown
             - name: имфсигнедлибрари
               href: /windows/desktop/api/mfidl/nn-mfidl-imfsignedlibrary
@@ -7390,7 +7392,7 @@
               items:
                 - name: AddNode
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-addnode
-                - name: Очистить
+                - name: Clear
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-clear
                 - name: клонефром
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-clonefrom
@@ -8524,6 +8526,8 @@
               href: /windows/win32/api/wmcontainer/ns-wmcontainer-asf_index_identifier
             - name: ASF_MUX_STATISTICS
               href: /windows/desktop/api/wmcontainer/ns-wmcontainer-asf_mux_statistics
+            - name: дигиталвиндовсеттинг
+              href: /windows/desktop/api/mfapi/ns-mfapi-digitalwindowsetting
             - name: DEVICE_INFO
               href: /windows/desktop/api/mfsharingengine/ns-mfsharingengine-device_info
             - name: DXVA_PicEntry_HEVC
