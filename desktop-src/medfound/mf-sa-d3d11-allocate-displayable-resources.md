@@ -1,35 +1,35 @@
 ---
 description: Указывает, должна ли в образце выделения MFT (SA) выделять базовую текстуру Direct3D с помощью флага D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE.
-title: MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES (Мфтрансформ. h)
+title: MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES (Mftransform.h)
 ms.topic: reference
 ms.date: 03/31/2018
-ms.openlocfilehash: ac70ee8c3015a2e08df2ee78b8051723707a1686
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: fedcfbe98344dd9b424c1a8ce90e847e98f1af51
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107224033"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548709"
 ---
-# <a name="mf_sa_d3d_allocate_displayable_resources-attribute"></a><span data-ttu-id="be3d2-103">\_Атрибут MF SA " \_ \_ выделить \_ отображаемые \_ ресурсы"</span><span class="sxs-lookup"><span data-stu-id="be3d2-103">MF\_SA\_D3D\_ALLOCATE\_DISPLAYABLE\_RESOURCES attribute</span></span>
+# <a name="mf_sa_d3d_allocate_displayable_resources-attribute"></a><span data-ttu-id="9c579-103">\_Атрибут MF SA " \_ \_ выделить \_ отображаемые \_ ресурсы"</span><span class="sxs-lookup"><span data-stu-id="9c579-103">MF\_SA\_D3D\_ALLOCATE\_DISPLAYABLE\_RESOURCES attribute</span></span>
 
-<span data-ttu-id="be3d2-104">Указывает, должна ли в образце выделения MFT (SA) выделять базовую текстуру Direct3D с помощью флага [D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) .</span><span class="sxs-lookup"><span data-stu-id="be3d2-104">Specifies if the MFT’s Sample Allocator (SA) should allocate the underlying Direct3D Texture using the [D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) flag.</span></span> 
+<span data-ttu-id="9c579-104">Указывает, должна ли в образце выделения MFT (SA) выделять базовую текстуру Direct3D с помощью флага [D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) .</span><span class="sxs-lookup"><span data-stu-id="9c579-104">Specifies if the MFT’s Sample Allocator (SA) should allocate the underlying Direct3D Texture using the [D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) flag.</span></span> 
 
-## <a name="data-type"></a><span data-ttu-id="be3d2-105">Тип данных</span><span class="sxs-lookup"><span data-stu-id="be3d2-105">Data type</span></span>
+## <a name="data-type"></a><span data-ttu-id="9c579-105">Тип данных</span><span class="sxs-lookup"><span data-stu-id="9c579-105">Data type</span></span>
 
-<span data-ttu-id="be3d2-106">**UINT32**</span><span class="sxs-lookup"><span data-stu-id="be3d2-106">**UINT32**</span></span>
+<span data-ttu-id="9c579-106">**UINT32**</span><span class="sxs-lookup"><span data-stu-id="9c579-106">**UINT32**</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="be3d2-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="be3d2-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9c579-107">Комментарии</span><span class="sxs-lookup"><span data-stu-id="9c579-107">Remarks</span></span>
 
-<span data-ttu-id="be3d2-108">Этот атрибут доступен в Windows 10 Preview Build 14383.</span><span class="sxs-lookup"><span data-stu-id="be3d2-108">This attribute is available staring with Windows 10 Preview build 14383.</span></span> 
+<span data-ttu-id="9c579-108">Этот атрибут доступен в Windows 10 Build 20348.</span><span class="sxs-lookup"><span data-stu-id="9c579-108">This attribute is available staring with Windows 10 build 20348.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="be3d2-109">Поле члена **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** перечисления [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) будет доступно в следующем выпуске пакета SDK.</span><span class="sxs-lookup"><span data-stu-id="be3d2-109">The **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** member field of the [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) enumeration will be available in a future release of the SDK.</span></span>
+> <span data-ttu-id="9c579-109">Поле члена **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** перечисления [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) будет доступно в следующем выпуске пакета SDK.</span><span class="sxs-lookup"><span data-stu-id="9c579-109">The **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** member field of the [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) enumeration will be available in a future release of the SDK.</span></span>
 
-<span data-ttu-id="be3d2-110">Уровень платформы Media Foundation задает атрибут **MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES** при отрисовке видео.</span><span class="sxs-lookup"><span data-stu-id="be3d2-110">The Media Foundation platform layer sets the **MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES** attribute when rendering video.</span></span> <span data-ttu-id="be3d2-111">Приложение также может установить этот атрибут, если требуется реализовать собственный модуль подготовки видео и использовать D3D11 ресурсы.</span><span class="sxs-lookup"><span data-stu-id="be3d2-111">An app could also opt to set this attribute if it wants to implement its own video renderer and make use of D3D11 Displayable Resources.</span></span> 
+<span data-ttu-id="9c579-110">Уровень платформы Media Foundation задает атрибут **MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES** при отрисовке видео.</span><span class="sxs-lookup"><span data-stu-id="9c579-110">The Media Foundation platform layer sets the **MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES** attribute when rendering video.</span></span> <span data-ttu-id="9c579-111">Приложение также может установить этот атрибут, если требуется реализовать собственный модуль подготовки видео и использовать D3D11 ресурсы.</span><span class="sxs-lookup"><span data-stu-id="9c579-111">An app could also opt to set this attribute if it wants to implement its own video renderer and make use of D3D11 Displayable Resources.</span></span> 
 
-## <a name="example"></a><span data-ttu-id="be3d2-112">Пример</span><span class="sxs-lookup"><span data-stu-id="be3d2-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9c579-112">Пример</span><span class="sxs-lookup"><span data-stu-id="9c579-112">Example</span></span>
 
-<span data-ttu-id="be3d2-113">В следующем примере кода показано использование атрибута **MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES** .</span><span class="sxs-lookup"><span data-stu-id="be3d2-113">The following code example demonstrates the usage of the **MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES** attribute.</span></span>
+<span data-ttu-id="9c579-113">В следующем примере кода показано использование атрибута **MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES** .</span><span class="sxs-lookup"><span data-stu-id="9c579-113">The following code example demonstrates the usage of the **MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES** attribute.</span></span>
 
 ```cpp
 class DecoderMFT : public IMFAttributes, public IMFTransform 
@@ -126,31 +126,31 @@ private:
 }; 
 ```
 
-## <a name="requirements"></a><span data-ttu-id="be3d2-114">Требования</span><span class="sxs-lookup"><span data-stu-id="be3d2-114">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9c579-114">Требования</span><span class="sxs-lookup"><span data-stu-id="9c579-114">Requirements</span></span>
 
 
 
-| <span data-ttu-id="be3d2-115">Требование</span><span class="sxs-lookup"><span data-stu-id="be3d2-115">Requirement</span></span> | <span data-ttu-id="be3d2-116">Значение</span><span class="sxs-lookup"><span data-stu-id="be3d2-116">Value</span></span> |
+| <span data-ttu-id="9c579-115">Требование</span><span class="sxs-lookup"><span data-stu-id="9c579-115">Requirement</span></span> | <span data-ttu-id="9c579-116">Применение</span><span class="sxs-lookup"><span data-stu-id="9c579-116">Value</span></span> |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| <span data-ttu-id="be3d2-117">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="be3d2-117">Minimum supported client</span></span><br/> | <span data-ttu-id="be3d2-118">Windows 10 Preview Build 14383</span><span class="sxs-lookup"><span data-stu-id="be3d2-118">Windows 10 Preview Build 14383</span></span><br/>                                    |
-| <span data-ttu-id="be3d2-119">Заголовок</span><span class="sxs-lookup"><span data-stu-id="be3d2-119">Header</span></span><br/>                   | <dl> <span data-ttu-id="be3d2-120"><dt>Мфтрансформ. h</dt></span><span class="sxs-lookup"><span data-stu-id="be3d2-120"><dt>Mftransform.h</dt></span></span> </dl> |
+| <span data-ttu-id="9c579-117">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="9c579-117">Minimum supported client</span></span><br/> | <span data-ttu-id="9c579-118">Сборка Windows 10 20348</span><span class="sxs-lookup"><span data-stu-id="9c579-118">Windows 10 build 20348</span></span><br/>                                    |
+| <span data-ttu-id="9c579-119">Заголовок</span><span class="sxs-lookup"><span data-stu-id="9c579-119">Header</span></span><br/>                   | <dl> <span data-ttu-id="9c579-120"><dt>Мфтрансформ. h</dt></span><span class="sxs-lookup"><span data-stu-id="9c579-120"><dt>Mftransform.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="be3d2-121">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="be3d2-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9c579-121">См. также</span><span class="sxs-lookup"><span data-stu-id="9c579-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="be3d2-122">Алфавитный список атрибутов Media Foundation</span><span class="sxs-lookup"><span data-stu-id="be3d2-122">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
+[<span data-ttu-id="9c579-122">Алфавитный список атрибутов Media Foundation</span><span class="sxs-lookup"><span data-stu-id="9c579-122">Alphabetical List of Media Foundation Attributes</span></span>](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[<span data-ttu-id="be3d2-123">**Имфаттрибутес:: UINT32**</span><span class="sxs-lookup"><span data-stu-id="be3d2-123">**IMFAttributes::GetUINT32**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint32)
+[<span data-ttu-id="9c579-123">**Имфаттрибутес:: UINT32**</span><span class="sxs-lookup"><span data-stu-id="9c579-123">**IMFAttributes::GetUINT32**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint32)
 </dt> <dt>
 
-[<span data-ttu-id="be3d2-124">**Имфаттрибутес:: SetUINT32**</span><span class="sxs-lookup"><span data-stu-id="be3d2-124">**IMFAttributes::SetUINT32**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32)
+[<span data-ttu-id="9c579-124">**Имфаттрибутес:: SetUINT32**</span><span class="sxs-lookup"><span data-stu-id="9c579-124">**IMFAttributes::SetUINT32**</span></span>](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32)
 </dt> <dt>
 
-[<span data-ttu-id="be3d2-125">Атрибуты Media Foundation</span><span class="sxs-lookup"><span data-stu-id="be3d2-125">Media Foundation Attributes</span></span>](media-foundation-attributes.md)
+[<span data-ttu-id="9c579-125">Атрибуты Media Foundation</span><span class="sxs-lookup"><span data-stu-id="9c579-125">Media Foundation Attributes</span></span>](media-foundation-attributes.md)
 </dt> </dl>
 
  

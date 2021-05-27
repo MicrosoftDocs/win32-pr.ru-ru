@@ -594,6 +594,12 @@
               href: winsock-tracing-event-details.md
             - name: Сведения о трассировке изменений каталога Winsock
               href: winsock-layered-service-provider-tracing-event-details.md
+        - name: Отметка времени Winsock
+          href: winsock-timestamping.md
+        - name: Уведомление о явной перегрузке Winsock
+          href: winsock-ecn.md
+        - name: Уведомления о состоянии сокета WinSock
+          href: winsock-socket-state-notifications.md
     - name: Справочник по Winsock
       href: winsock-reference.md
       items:
@@ -807,7 +813,7 @@
         - name: Функции Winsock
           href: winsock-functions.md
           items:
-            - name: гласит
+            - name: accept
               href: /windows/win32/api/Winsock2/nf-winsock2-accept
             - name: акцептекс
               href: /windows/win32/api/mswsock/nf-mswsock-acceptex
