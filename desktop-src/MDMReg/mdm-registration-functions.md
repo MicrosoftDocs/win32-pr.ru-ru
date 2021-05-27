@@ -1,94 +1,38 @@
 ---
 title: Функции регистрации MDM
-description: Регистрация MDM используется для следующих функций.
+description: Следующие функции объявляются в `mdmregistration.h` и используются при регистрации MDM.
 ms.assetid: 1b063a56-f59f-4b02-949f-c8b6bbf45a13
+ms.localizationpriority: low
 ms.topic: reference
-ms.date: 05/31/2018
-ms.openlocfilehash: 821e08d9c6631bbb300a86ab6b9c480a3af0c25b
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.date: 11/19/2020
+ms.openlocfilehash: 2ca04c3c28f3de289bad6f06feaab0aff9ef2909
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104339441"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550559"
 ---
 # <a name="mdm-registration-functions"></a>Функции регистрации MDM
 
-Регистрация MDM используется для следующих функций.
+Следующие функции объявляются в `mdmregistration.h` и используются при регистрации MDM.
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
-<dl> <dt>
+| Раздел | Описание |
+|-|-|
+| [**дисковерманажементсервице**](/windows/win32/api/MDMRegistration/nf-mdmregistration-discovermanagementservice) | Обнаружение службы MDM. |
+| [**дисковерманажементсервицеекс**](/windows/win32/api/MDMRegistration/nf-mdmregistration-discovermanagementserviceex) | Обнаружение службы MDM с помощью сервера-кандидата. |
+| [**жетдевицеманажементконфигинфо**](/windows/win32/api/mdmregistration/nf-mdmregistration-getdevicemanagementconfiginfo) | Возвращает сведения о конфигурации, связанные с ИДЕНТИФИКАТОРом поставщика. |
+| [**жетдевицерегистратионинфо**](/windows/win32/api/MDMRegistration/nf-mdmregistration-getdeviceregistrationinfo) | Извлекает сведения о регистрации устройства. |
+| [**жетманажементапфиперлинк**](/windows/win32/api/MDMRegistration/nf-mdmregistration-getmanagementapphyperlink) | Извлекает гиперссылку приложения управления, связанной со службой MDM. |
+| [**исдевицерегистередвисманажемент**](/windows/win32/api/MDMRegistration/nf-mdmregistration-isdeviceregisteredwithmanagement) | Проверяет, зарегистрировано ли устройство в службе MDM. |
+| [**исманажементрегистратионалловед**](/windows/win32/api/MDMRegistration/nf-mdmregistration-ismanagementregistrationallowed) | Проверяет, разрешена ли регистрация MDM локальной политикой. |
+| [**регистердевицевисманажемент**](/windows/win32/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagement) | Регистрирует устройство в службе MDM, используя [ \[ протокол MS-MDE \] : Mobile Device](/openspecs/windows_protocols/ms-mde/5c841535-042e-489e-913c-9d783d741267)Register. |
+| [**регистердевицевисманажементусингаадкредентиалс**](/windows/win32/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagementusingaadcredentials) | Регистрирует устройство в службе MDM, используя учетные данные Azure Active Directory (AAD). |
+| [**сетдевицеманажементконфигинфо**](/windows/win32/api/mdmregistration/nf-mdmregistration-setdevicemanagementconfiginfo) | Задает сведения о конфигурации, связанные с ИДЕНТИФИКАТОРом поставщика. |
+| [**сетманажедекстерналли**](/windows/win32/api/MDMRegistration/nf-mdmregistration-setmanagedexternally) | Указывает агенту MDM, что устройство управляется извне и не регистрируется в службе MDM. |
+| [**унрегистердевицевисманажемент**](/windows/win32/api/MDMRegistration/nf-mdmregistration-unregisterdevicewithmanagement) | Отменяет регистрацию устройства в службе MDM. |
 
-[**дисковерманажементсервице**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-discovermanagementservice)
-</dt> <dd>
+## <a name="related-topics"></a>Связанные темы
 
-Обнаружение службы MDM.
-
-</dd> <dt>
-
-[**дисковерманажементсервицеекс**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-discovermanagementserviceex)
-</dt> <dd>
-
-Обнаружение службы MDM с помощью сервера-кандидата.
-
-</dd> <dt>
-
-[**жетдевицерегистратионинфо**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-getdeviceregistrationinfo)
-</dt> <dd>
-
-Извлекает сведения о регистрации устройства.
-
-</dd> <dt>
-
-[**жетманажементапфиперлинк**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-getmanagementapphyperlink)
-</dt> <dd>
-
-Извлекает гиперссылку приложения управления, связанной со службой MDM.
-
-</dd> <dt>
-
-[**исдевицерегистередвисманажемент**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-isdeviceregisteredwithmanagement)
-</dt> <dd>
-
-Проверяет, зарегистрировано ли устройство в службе MDM.
-
-</dd> <dt>
-
-[**исманажементрегистратионалловед**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-ismanagementregistrationallowed)
-</dt> <dd>
-
-Проверяет, разрешена ли регистрация MDM локальной политикой.
-
-</dd> <dt>
-
-[**регистердевицевисманажемент**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagement)
-</dt> <dd>
-
-Регистрирует устройство в службе MDM, используя [ \[ протокол MS-MDE \] : Mobile Device](/openspecs/windows_protocols/ms-mde/5c841535-042e-489e-913c-9d783d741267)Register.
-
-</dd> <dt>
-
-[**регистердевицевисманажементусингаадкредентиалс**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagementusingaadcredentials)
-</dt> <dd>
-
-Регистрирует устройство в службе MDM, используя учетные данные Azure Active Directory (AAD).
-
-</dd> <dt>
-
-[**сетманажедекстерналли**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-setmanagedexternally)
-</dt> <dd>
-
-Указывает агенту MDM, что устройство управляется извне и не регистрируется в службе MDM.
-
-</dd> <dt>
-
-[**унрегистердевицевисманажемент**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-unregisterdevicewithmanagement)
-</dt> <dd>
-
-Отмена регистрации устройства в службе MDM
-
-</dd> </dl>
-
- 
-
- 
+* [Справочник по регистрации MDM](./mdm-registration-reference.md)

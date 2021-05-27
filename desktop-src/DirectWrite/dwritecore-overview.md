@@ -6,12 +6,12 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: 49681f434fa4eef99e9775b2c3800f48f15915a2
-ms.sourcegitcommit: 8a31a21726d4a8ebfddfa71f02f1bfffea459277
+ms.openlocfilehash: c619b74cf334218813a74e63cca6d5fab400e563
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "110208715"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550299"
 ---
 # <a name="dwritecore-overview"></a>Общие сведения о DWriteCore
 
@@ -110,13 +110,13 @@ ms.locfileid: "110208715"
 
 #### <a name="create-a-factory-object"></a>Создание объекта фабрики
 
-Функция [**двритекорекреатефактори**](/windows/win32/directwrite/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) Free создает объект фабрики, который используется для последующего создания отдельных объектов двритекоре.
+Функция [**двритекорекреатефактори**](./dwrite_core/nf-dwrite_core-dwritecorecreatefactory.md) Free создает объект фабрики, который используется для последующего создания отдельных объектов двритекоре.
 
 **Двритекорекреатефактори** функционально совпадает с функцией [двритекреатефактори](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) , экспортируемой с помощью системной версии DirectWrite. Функция Двритекоре имеет другое имя, чтобы избежать неоднозначности.
 
 #### <a name="create-a-restricted-factory-object"></a>Создание объекта ограниченной фабрики
 
-Перечисление [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) содержит новую константную &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**, обозначающую ограниченную фабрику. Ограниченная фабрика больше заблокирована, чем изолированная фабрика. Он не взаимодействует с межпроцессным или постоянным кэшем шрифтов каким-либо образом. Кроме того, системная коллекция шрифтов, возвращаемая из этой фабрики, включает только хорошо известные шрифты. Ниже показано, как можно использовать **DWRITE_FACTORY_TYPE_ISOLATED2** для создания объекта ограниченной фабрики при вызове функции Free [**двритекорекреатефактори**](/windows/win32/directwrite/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) .
+Перечисление [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) содержит новую константную &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**, обозначающую ограниченную фабрику. Ограниченная фабрика больше заблокирована, чем изолированная фабрика. Он не взаимодействует с межпроцессным или постоянным кэшем шрифтов каким-либо образом. Кроме того, системная коллекция шрифтов, возвращаемая из этой фабрики, включает только хорошо известные шрифты. Ниже показано, как можно использовать **DWRITE_FACTORY_TYPE_ISOLATED2** для создания объекта ограниченной фабрики при вызове функции Free [**двритекорекреатефактори**](./dwrite_core/nf-dwrite_core-dwritecorecreatefactory.md) .
 
 ```cppwinrt
 // Create a factory that doesn't interact with any cross-process nor

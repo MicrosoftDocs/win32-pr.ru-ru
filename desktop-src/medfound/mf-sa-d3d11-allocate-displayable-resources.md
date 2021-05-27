@@ -1,14 +1,14 @@
 ---
 description: Указывает, должна ли в образце выделения MFT (SA) выделять базовую текстуру Direct3D с помощью флага D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE.
-title: MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES (Мфтрансформ. h)
+title: MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES (Mftransform.h)
 ms.topic: reference
 ms.date: 03/31/2018
-ms.openlocfilehash: ac70ee8c3015a2e08df2ee78b8051723707a1686
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: fedcfbe98344dd9b424c1a8ce90e847e98f1af51
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107224033"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548709"
 ---
 # <a name="mf_sa_d3d_allocate_displayable_resources-attribute"></a>\_Атрибут MF SA " \_ \_ выделить \_ отображаемые \_ ресурсы"
 
@@ -18,9 +18,9 @@ ms.locfileid: "107224033"
 
 **UINT32**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Этот атрибут доступен в Windows 10 Preview Build 14383. 
+Этот атрибут доступен в Windows 10 Build 20348. 
 
 > [!NOTE]
 > Поле члена **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** перечисления [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) будет доступно в следующем выпуске пакета SDK.
@@ -130,14 +130,14 @@ private:
 
 
 
-| Требование | Значение |
+| Требование | Применение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 10 Preview Build 14383<br/>                                    |
+| Минимальная версия клиента<br/> | Сборка Windows 10 20348<br/>                                    |
 | Заголовок<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

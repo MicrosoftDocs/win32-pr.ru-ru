@@ -4,12 +4,12 @@ ms.assetid: 5040CB82-D32F-4C44-8C03-30238D5B897A
 title: Блок среды потока (заметки об отладке)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d66b04b522bed8bdf7f5a5571c300019e4537b5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5e9397c2d442b09b308c4886c2672e3be58b661c
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895910"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550589"
 ---
 # <a name="thread-environment-block-debugging-notes"></a>Блок среды потока (заметки об отладке)
 
@@ -19,18 +19,18 @@ ms.locfileid: "103895910"
 
 
 
-|               |                        |
+|  Платформа     | Версия                |
 |---------------|------------------------|
 | Windows Vista | Windows Server 2008    |
 | Windows 7     | Windows Server 2008 R2 |
 | Windows 8     | Windows Server 2012    |
-| Windows 8.1   | Windows Server 2012 R2 |
+| Windows 8.1   | Windows Server 2012 R2 |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

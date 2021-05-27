@@ -75,7 +75,7 @@
             - name: двритекреатефактори
               href: /windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory
             - name: Двритекорекреатефактори (Двритекоре)
-              href: /windows/win32/directwrite/dwrite_core/nf-dwrite_core-dwritecorecreatefactory
+              href: ./dwrite_core/nf-dwrite_core-dwritecorecreatefactory.md
         - name: Перечисления DirectWrite
           href: enumerations.md
           items:

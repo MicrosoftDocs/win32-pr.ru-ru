@@ -4,12 +4,12 @@ ms.assetid: 6a63c2c9-4e09-4a62-b39f-3ccb26287da8
 title: IOCTL Winsock (Winsock2.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de7094f802b815bfbd7511bd67eb4e6b1767cb94
-ms.sourcegitcommit: 392c0a56f99f4d19686e734291abcac887fc5ba2
+ms.openlocfilehash: eadf4a0e2799d6123bf81069fe65ea16313af444
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "105647749"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550259"
 ---
 # <a name="winsock-ioctls"></a>Winsock IOCTL
 
@@ -244,6 +244,19 @@ T — это 2-разрядное количество, определяющее
 Отправитель может не вызывать **SIO для \_ получения \_ QoS** , пока сокет не будет подключен.
 
 Получатель может вызвать **SIO для \_ получения \_ качества обслуживания** , как только оно будет привязано.
+
+### <a name="sio_get_tx_timestamp"></a>SIO_GET_TX_TIMESTAMP
+
+Сокет IOCTL, используемый для получения меток времени для передаваемых пакетов (TX). Допустимо только для сокетов датаграмм.
+
+Код элемента управления **SIO_GET_TX_TIMESTAMP** удаляет отметку времени передачи из очереди передачи отметок времени сокета. Сначала включите получение метки времени с помощью [**SIO_TIMESTAMPING**](#sio_timestamping) сокета IOCTL. Затем извлеките отметки времени TX по ИДЕНТИФИКАТОРу, вызвав функцию [**всаиоктл**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) (или [**вспиоктл**](/previous-versions/windows/hardware/network/ff566296(v=vs.85))) со следующими параметрами.
+
+Для **SIO_GET_TX_TIMESTAMP** входные данные представляют собой идентификатор метки типа **UINT32** , а выходные данные — это значение **UINT64** timestamp. При успешном выполнении отметка времени TX доступна и возвращается. Если нет доступных отметок времени передачи, [**всажетластеррор**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) возвращает **всаеваулдблокк**.
+
+> [!NOTE]
+> Отметка времени TX не поддерживается при выполнении совместной отправки через **UDP_SEND_MSG_SIZE**.
+
+См. также раздел " [отметка времени Winsock](/windows/win32/winsock/winsock-timestamping)".
 
 ### <a name="sio_ideal_send_backlog_change-opcode-setting-v-t0"></a>\_Оптимальное \_ \_ изменение невыполненной работы SIO \_ (параметр кода операции: V, T = = 0)
 
@@ -493,6 +506,12 @@ typedef struct _WSA_COMPATIBILITY_MODE {
 
 Более подробные сведения см. в справочнике по [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) . [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) поддерживается в Windows 8, windows Server 2012 и более поздних версиях.
 
+### <a name="sio_timestamping"></a>SIO_TIMESTAMPING
+
+Сокет IOCTL, используемый для настройки приема отметок времени передачи или приема сокета. Допустимо только для сокетов датаграмм. Тип входных данных для **SIO_TIMESTAMPING** — структура [**TIMESTAMPING_CONFIG**](/windows/win32/api/mstcpip/ns-mstcpip-timestamping_config) .
+
+См. также раздел " [отметка времени Winsock](/windows/win32/winsock/winsock-timestamping)".
+
 ### <a name="sio_translate_handle-opcode-setting-i-o-t1"></a>\_Маркер перевода SIO \_ (параметр кода операции: I, O, T = = 1)
 
 Чтобы получить соответствующий маркер *для сокетов* , допустимый в контексте сопутствующего интерфейса (например, \_ нетдев и th \_ TAPI). Константа манифеста, определяющая сопутствующий интерфейс вместе с любыми другими необходимыми параметрами, задается во входном буфере. После завершения этой функции соответствующий обработчик будет доступен в выходном буфере. Дополнительные сведения о конкретном сопутствующем интерфейсе см. в соответствующем разделе в [приложении Winsock](winsock-annexes.md) . Код ошибки [всаенопротупт](windows-sockets-error-codes-2.md) указывается для поставщиков услуг, которые не поддерживают этот запрос IOCTL для указанного сопутствующего интерфейса. Этот запрос IOCTL получает маркер, связанный с использованием **\_ \_ маркера преобразования SIO**.
@@ -527,6 +546,6 @@ Winsock ioctl определяются в нескольких файлах за
 
 ## <a name="requirements"></a>Требования
 
-|||
+|Требование|Применение|
 |-|-|
-| Header<br/> | <dl> <dt>Winsock2. h; </dt> <dt>Мсткпип. h; </dt> <dt>Мсвсокк. h; </dt> <dt>Мсвсоккдеф. h в Windows Vista, Windows Server 2008 и Windows 7 (включая мсвсокк. h); </dt> <dt>Ws2def. h в Windows Vista, Windows Server 2008 и Windows 7 (включая Winsock2. h); </dt> <dt>Ws2ipdef. h в Windows Vista, Windows Server 2008 и Windows 7 (включая Ws2tcpip. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Winsock2. h; </dt> <dt>Мсткпип. h; </dt> <dt>Мсвсокк. h; </dt> <dt>Мсвсоккдеф. h в Windows Vista, Windows Server 2008 и Windows 7 (включая мсвсокк. h); </dt> <dt>Ws2def. h в Windows Vista, Windows Server 2008 и Windows 7 (включая Winsock2. h); </dt> <dt>Ws2ipdef. h в Windows Vista, Windows Server 2008 и Windows 7 (включая Ws2tcpip. h)</dt> </dl> |

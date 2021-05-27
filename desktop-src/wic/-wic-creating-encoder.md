@@ -4,12 +4,12 @@ ms.assetid: e1e3a9d9-209b-46a6-92da-5570476507cf
 title: Общие сведения о кодировке
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be46aa73082071deb69fdd402f42866b18ef0aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f938e184dee7fd9b3e5348365550615ee28de70d
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272302"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549489"
 ---
 # <a name="encoding-overview"></a>Общие сведения о кодировке
 
@@ -23,7 +23,7 @@ ms.locfileid: "104272302"
 -   [Использование параметров кодировщика](#encoder-options-usage)
 -   [Параметры кодировщика](#encoder-options-usage)
 -   [Примеры параметров кодировщика](#encoder-options-examples)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="iwicbitmapencoder"></a>ивикбитмапенкодер
 
@@ -121,8 +121,8 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-    UINT cbStride = (uiWidth * 24 + 7)/8/***WICGetStride**_/;
-    UINT cbBufferSize = uiHeight _ cbStride;
+    UINT cbStride = (uiWidth * 24 + 7)/8/***WICGetStride***/;
+    UINT cbBufferSize = uiHeight * cbStride;
 
     BYTE *pbBuffer = new BYTE[cbBufferSize];
 
@@ -175,7 +175,7 @@ return hr;
 
 ## <a name="encoder-options-usage"></a>Использование параметров кодировщика
 
-Различные кодировщики для разных форматов должны предоставлять различные параметры кодирования изображения. Компонент Windows Imaging Component (WIC) предоставляет единообразный механизм, позволяющий определить, требуются ли параметры кодировки, не требуя, чтобы приложения работали с несколькими кодировщиками, не зная определенного формата. Это достигается путем предоставления параметра [ипропертибаг](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)) для метода [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe) и метода [**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize) .
+Различные кодировщики для разных форматов должны предоставлять различные параметры кодирования изображения. Компонент Windows Imaging Component (WIC) предоставляет единообразный механизм, позволяющий определить, требуются ли параметры кодировки, не требуя, чтобы приложения работали с несколькими кодировщиками, не зная определенного формата. Это достигается путем предоставления параметра [ипропертибаг](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) для метода [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe) и метода [**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize) .
 
 Фабрика компонентов предоставляет простую точку для создания контейнера свойств параметров кодировщика. Кодеки могут использовать эту службу, если необходимо предоставить простой, интуитивно понятный и неконфликтующий набор параметров кодировщика. Во время создания контейнер свойств Imaging должен быть инициализирован во всех параметрах кодировщика, относящихся к этому кодеку. Для параметров кодировщика из канонического набора диапазон значений будет применен при записи. Для более сложных потребностей кодеки должны написать собственную реализацию контейнера свойств.
 
@@ -187,7 +187,7 @@ return hr;
 
 
 
-| Имя свойства      | VARTYPE  | Значение                                                                     | Применимые кодеки |
+| Имя свойства      | VARTYPE  | Применение                                                                     | Применимые кодеки |
 |--------------------|----------|---------------------------------------------------------------------------|-------------------|
 | ImageQuality       | VT \_ R4   | 0 – 1,0                                                                     | JPEG, Хдфото     |
 | CompressionQuality | VT \_ R4   | 0 – 1,0                                                                     | TIFF              |
@@ -208,7 +208,7 @@ return hr;
 
 
 
-| Имя свойства           | VARTYPE           | Значение                                                                             | Применимые кодеки |
+| Имя свойства           | VARTYPE           | Применение                                                                             | Применимые кодеки |
 |-------------------------|-------------------|-----------------------------------------------------------------------------------|-------------------|
 | InterlaceOption         | Логическое значение VT \_          | Вкл./выкл.                                                                            | PNG               |
 | FilterOption            | VT \_ UI1           | [**викпнгфилтероптион**](/windows/desktop/api/Wincodec/ne-wincodec-wicpngfilteroption)                       | PNG               |
@@ -297,7 +297,7 @@ if (SUCCEEDED(hr))
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

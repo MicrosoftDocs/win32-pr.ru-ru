@@ -50,12 +50,16 @@
               href: retrieving-information-using-gettcpstatistics.md
             - name: Полный исходный код приложения модуля поддержки IP-адресов
               href: complete-ip-helper-application-source-code.md
+            - name: Метки времени пакетов
+              href: packet-timestamping.md
     - name: Справочные материалы по IP Helper
       href: ip-helper-function-reference.md
       items:
         - name: Обратные вызовы IP Helper
           href: ip-helper-callbacks.md
           items:
+            - name: INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK
+              href: /windows/win32/api/iphlpapi/nf-iphlpapi-captureinterfacehardwarecrosstimestamp
             - name: PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK
               href: /windows/win32/api/netioapi/nc-netioapi-pnetwork_connectivity_hint_change_callback
         - name: Перечисления IP Helper
@@ -104,6 +108,8 @@
               href: /windows/win32/api/Netioapi/nf-netioapi-cancelmibchangenotify2
             - name: канцелсекуритихеалсчанженотифи
               href: /previous-versions/windows/desktop/legacy/bb442512(v=vs.85)
+            - name: каптуреинтерфацехардварекросстиместамп
+              href: /windows/win32/api/iphlpapi/nf-iphlpapi-captureinterfacehardwarecrosstimestamp
             - name: конвертинтерфацеалиастолуид
               href: /windows/win32/api/Netioapi/nf-netioapi-convertinterfacealiastoluid
             - name: конвертинтерфацегуидтолуид
@@ -226,8 +232,12 @@
               href: /windows/win32/api/Netioapi/nf-netioapi-getiftable2
             - name: GetIfTable2Ex
               href: /windows/win32/api/Netioapi/nf-netioapi-getiftable2ex
+            - name: жетинтерфацеактиветиместампкапабилитиес
+              href: /windows/win32/api/iphlpapi/nf-iphlpapi-getinterfaceactivetimestampcapabilities
             - name: жетинтерфацеинфо
               href: /windows/win32/api/Iphlpapi/nf-iphlpapi-getinterfaceinfo
+            - name: жетинтерфацесуппортедтиместампкапабилитиес
+              href: /windows/win32/api/iphlpapi/nf-iphlpapi-getinterfacesupportedtimestampcapabilities
             - name: жетинвертедифстакктабле
               href: /windows/win32/api/Netioapi/nf-netioapi-getinvertedifstacktable
             - name: жетипаддртабле
@@ -378,6 +388,8 @@
               href: /windows/win32/api/Netioapi/nf-netioapi-notifyunicastipaddresschange
             - name: парсенетворкстринг
               href: /windows/win32/api/Iphlpapi/nf-iphlpapi-parsenetworkstring
+            - name: регистеринтерфацетиместампконфигчанже
+              href: /windows/win32/api/iphlpapi/nf-iphlpapi-registerinterfacetimestampconfigchange
             - name: ResolveIpNetEntry2
               href: /windows/win32/api/Netioapi/nf-netioapi-resolveipnetentry2
             - name: ресолвенеигхбор
@@ -434,6 +446,8 @@
               href: /windows/win32/api/Netioapi/nf-netioapi-setunicastipaddressentry
             - name: уненаблераутер
               href: /windows/win32/api/Iphlpapi/nf-iphlpapi-unenablerouter
+            - name: унрегистеринтерфацетиместампконфигчанже
+              href: /windows/win32/api/iphlpapi/unregisterinterfacetimestampconfigchange
         - name: Структуры IP Helper
           href: ip-helper-structures.md
           items:
@@ -451,6 +465,14 @@
               href: /windows/win32/api/Ipexport/ns-ipexport-icmpv6_echo_reply_lh
             - name: in_addr
               href: /windows/win32/api/Inaddr/ns-inaddr-in_addr
+            - name: INTERFACE_HARDWARE_TIMESTAMP_CAPABILITIES
+              href: /windows/win32/api/iphlpapi/ns-iphlpapi-interface_hardware_timestamp_capabilities
+            - name: INTERFACE_HARDWARE_CROSSTIMESTAMP
+              href: /windows/win32/api/iphlpapi/ns-iphlpapi-interface_hardware_crosstimestamp
+            - name: INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES
+              href: /windows/win32/api/iphlpapi/ns-iphlpapi-interface_software_timestamp_capabilities
+            - name: INTERFACE_TIMESTAMP_CAPABILITIES
+              href: /windows/win32/api/iphlpapi/ns-iphlpapi-interface_timestamp_capabilities
             - name: IP_ADAPTER_ADDRESSES
               href: /windows/win32/api/Iptypes/ns-iptypes-ip_adapter_addresses_lh
             - name: IP_ADAPTER_ANYCAST_ADDRESS

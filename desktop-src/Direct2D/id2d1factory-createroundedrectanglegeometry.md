@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: dcb32b47b59c50bb9ba5f8d6747eed0dc54409ec
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 1d8b15d4f0cc4af852ad49665d0266e3235eb4e6
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380820"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549409"
 ---
 # <a name="id2d1factorycreateroundedrectanglegeometry-methods"></a>Методы ID2D1Factory:: Креатераундедректанглежеометри
 
@@ -29,8 +29,8 @@ ms.locfileid: "107380820"
 
 | Метод                                                                                                                                                                                                     | Описание                                                                                    |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-| [**Креатераундедректанглежеометри (D2D1 \_ Скругленный \_ Rect&, ID2D1RoundedRectangleGeometry \* \* )**](https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx)  | Создает [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)). <br/> |
-| [**Креатераундедректанглежеометри (D2D1 \_ с закругленным \_ прямоугольником \* , ID2D1RoundedRectangleGeometry \* \* )**](https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx) | Создает [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)). <br/> |
+| [**Креатераундедректанглежеометри (D2D1 \_ Скругленный \_ Rect&, ID2D1RoundedRectangleGeometry \* \* )**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85))  | Создает [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)). <br/> |
+| [**Креатераундедректанглежеометри (D2D1 \_ с закругленным \_ прямоугольником \* , ID2D1RoundedRectangleGeometry \* \* )**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)) | Создает [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)). <br/> |
 
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "107380820"
 
 
 
-| Требование | Значение |
+| Требование | Применение |
 |--------------------|-------------------------------------------------------------------------------------|
 | Заголовок<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl> |
@@ -46,7 +46,7 @@ ms.locfileid: "107380820"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

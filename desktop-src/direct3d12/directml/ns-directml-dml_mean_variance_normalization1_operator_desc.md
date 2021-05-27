@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC
-ms.openlocfilehash: 759bf25d4b6a97e70c6de7708a5c9fd0bccae439
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: ae22b004f1e879eb020ddcfe39a5f26481a508b0
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803395"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549780"
 ---
 # <a name="dml_mean_variance_normalization1_operator_desc-structure-directmlh"></a>Структура DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC (директмл. h)
 
@@ -76,7 +76,7 @@ struct DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC {
   const DML_OPERATOR_DESC *FusedActivation;
 };
 ```
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 `InputTensor`
 
@@ -123,7 +123,7 @@ struct DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC {
 
 `Axes`
 
-Тип: \_ \_ Размер поля \_ (Аксискаунт) **const [uint](/windows/win32/winprog/windows-data-types) \*** 
+Тип: \_ \_ Размер поля \_ (Аксискаунт) **const [uint](../../winprog/windows-data-types.md) \*** 
 
 Оси, вдоль которых вычисляется среднее и дисперсия.
 
@@ -180,6 +180,6 @@ struct DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC {
 | ---- |:---- |
 | **Header** | директмл. h |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Использование операторов с плавким предохранителем для повышения производительности](../dml-fused-activations.md)

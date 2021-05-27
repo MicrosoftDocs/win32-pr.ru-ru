@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC
-ms.openlocfilehash: 4dd50d80dfe4ae60e3fe7e67124ef00bfbc7bf2b
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: 5b98e1f57268cab70c2fb672991bce3d67419db8
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803876"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549788"
 ---
 # <a name="dml_quantized_linear_convolution_operator_desc-structure-directmlh"></a>Структура DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC (директмл. h)
 Выполняет свертывание *филтертенсор* с *инпуттенсор*. Этот оператор выполняет пересылку данных квантования. Этот оператор математически эквивалентен декуантизинг входным данным, включающим, а затем куантизинг выходные данные. 
@@ -95,7 +95,7 @@ struct DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC {
 
 
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 `InputTensor`
 
@@ -176,28 +176,28 @@ struct DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC {
 
 `Strides`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Шаг операции свертки. Эти шаг применяются к фильтру свертки. Они отделены от тензорные STRIDE, которые включены в [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc).
 
 
 `Dilations`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Дилатионс операции свертки. Дилатионс — это шаг, примененный к элементам ядра фильтра. Это влияет на моделирование ядра более крупного фильтра, добавляя внутренние элементы ядра фильтрации с нулями.
 
 
 `StartPadding`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Значения заполнения, применяемые к началу каждого пространственного измерения фильтра и входного тензорные операции свертки.
 
 
 `EndPadding`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Значения заполнения, применяемые к концу каждого пространственного измерения фильтра и входного тензорные операции свертки.
 

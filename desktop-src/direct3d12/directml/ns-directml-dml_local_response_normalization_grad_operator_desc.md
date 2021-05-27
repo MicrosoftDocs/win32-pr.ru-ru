@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_LOCAL_RESPONSE_NORMALIZATION_GRAD_OPERATOR_DESC
-ms.openlocfilehash: eecf849a06ee8e99ac9c015ecd4568496120b2d9
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: e858b8ce20df4b1bf12ac9efe360941eb93c54d1
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107804473"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550409"
 ---
 # <a name="dml_local_response_normalization_grad_operator_desc-directmlh"></a>DML_LOCAL_RESPONSE_NORMALIZATION_GRAD_OPERATOR_DESC (директмл. h)
 
@@ -75,7 +75,7 @@ struct DML_LOCAL_RESPONSE_NORMALIZATION_GRAD_OPERATOR_DESC
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 `InputTensor`
 
@@ -97,31 +97,31 @@ struct DML_LOCAL_RESPONSE_NORMALIZATION_GRAD_OPERATOR_DESC
 
 `CrossChannel`
 
-Тип: **[bool](/windows/win32/winprog/windows-data-types) .**
+Тип: **[bool](../../winprog/windows-data-types.md) .**
 
 **Значение true** , если уровень ЛРН по каналам; **Значение false** , если ЛРН уровень в пространственных измерениях.
 
 `LocalSize`
 
-Тип: **[uint](/windows/win32/winprog/windows-data-types)**
+Тип: **[uint](../../winprog/windows-data-types.md)**
 
 Максимальное число элементов для суммирования по измерению (локальная область обрезается таким образом, что все элементы находятся в границах). Если *кроссчаннел* имеет **значение true**, то это ширина и высота локальной области. Если *кроссчаннел* имеет **значение false**, то это число элементов в локальном регионе. Минимальное значение — 1.
 
 `Alpha`
 
-Тип: **[float](/windows/win32/winprog/windows-data-types)**
+Тип: **[float](../../winprog/windows-data-types.md)**
 
 Значение параметра масштабирования. В качестве значения по умолчанию рекомендуется использовать значение 0,0001.
 
 `Beta`
 
-Тип: **[float](/windows/win32/winprog/windows-data-types)**
+Тип: **[float](../../winprog/windows-data-types.md)**
 
 Значение экспоненты. В качестве значения по умолчанию рекомендуется использовать значение 0,75.
 
 `Bias`
 
-Тип: **[float](/windows/win32/winprog/windows-data-types)**
+Тип: **[float](../../winprog/windows-data-types.md)**
 
 Значение смещения. В качестве значения по умолчанию рекомендуется использовать значение 1.
 

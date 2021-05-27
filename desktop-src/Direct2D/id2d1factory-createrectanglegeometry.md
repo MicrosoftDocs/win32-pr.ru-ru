@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: cefe46cad201490d7343cc8c95258809739e0492
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 9fdb3073928739e28df63fc7d3ade918b29f9217
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380840"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549399"
 ---
 # <a name="id2d1factorycreaterectanglegeometry-methods"></a>Методы ID2D1Factory:: Креатеректанглежеометри
 
@@ -29,8 +29,8 @@ ms.locfileid: "107380840"
 
 | Метод                                                                                                                                                            | Описание                                                                      |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**Креатеректанглежеометри (D2D1 \_ Rect \_ F \* , ID2D1RectangleGeometry \* \* )**](https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx) | Создает [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)). <br/> |
-| [**Креатеректанглежеометри (D2D1s \_ \_ F&, ID2D1RectangleGeometry \* \* )**](https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx)  | Создает [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)). <br/> |
+| [**Креатеректанглежеометри (D2D1 \_ Rect \_ F \* , ID2D1RectangleGeometry \* \* )**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)) | Создает [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)). <br/> |
+| [**Креатеректанглежеометри (D2D1s \_ \_ F&, ID2D1RectangleGeometry \* \* )**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry))  | Создает [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)). <br/> |
 
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "107380840"
 
 
 
-| Требование | Значение |
+| Требование | Применение |
 |--------------------|-------------------------------------------------------------------------------------|
 | Заголовок<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl> |
@@ -46,7 +46,7 @@ ms.locfileid: "107380840"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

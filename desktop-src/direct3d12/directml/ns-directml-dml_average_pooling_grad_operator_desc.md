@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 5c2803fc300ca862d54a74aee1c864e9097e3d8e
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: aaa2b5d2becac421214afe7c643426c1c93cf899
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803368"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550489"
 ---
 # <a name="dml_average_pooling_grad_operator_desc-structure-directmlh"></a>Структура DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC (директмл. h)
 
@@ -95,7 +95,7 @@ struct DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 `InputGradientTensor`
 
@@ -117,25 +117,25 @@ struct DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
 
 `Strides`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 См. *шаг* в [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `WindowSize`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 См. раздел *WindowSize* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `StartPadding`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 См. раздел *стартпаддинг* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `EndPadding`
 
-Тип: \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 См. раздел *ендпаддинг* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 

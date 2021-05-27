@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ARGMIN_OPERATOR_DESC
-ms.openlocfilehash: 2e12a81593504a4eb7a0917e545bfa20c70647ff
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: da270ea5354e361067335ba1c789efe18310437a
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107804079"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550479"
 ---
 # <a name="dml_argmin_operator_desc-structure-directmlh"></a>Структура DML_ARGMIN_OPERATOR_DESC (директмл. h)
 
@@ -73,7 +73,7 @@ struct DML_ARGMIN_OPERATOR_DESC
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 `InputTensor`
 
@@ -92,13 +92,13 @@ struct DML_ARGMIN_OPERATOR_DESC
 
 `AxisCount`
 
-Тип: **[uint](/windows/win32/winprog/windows-data-types)**
+Тип: **[uint](../../winprog/windows-data-types.md)**
 
 Число осей, которые необходимо уменьшить. Это поле определяет размер массива *осей* .
 
 `Axes`
 
-Тип: \_ Field_size \_ (аксискаунт) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ Field_size \_ (аксискаунт) **const [uint](../../winprog/windows-data-types.md) \***
 
 Оси, которые необходимо уменьшить. Значения должны находиться в диапазоне `[0, InputTensor.DimensionCount - 1]` .
 

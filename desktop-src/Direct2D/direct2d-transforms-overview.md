@@ -14,12 +14,12 @@ keywords:
 - целевые объекты рендеринга, преобразования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8f3678f7b194f0f0188ed907a63737a97e9e58c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0b924c51d73e71f206fbb250f4a7dd50ca71db2a
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987557"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549149"
 ---
 # <a name="transforms-overview"></a>Общие сведения о классах Transform
 
@@ -33,7 +33,7 @@ ms.locfileid: "103987557"
 -   [Преобразования геометрии](#geometry-transforms)
 -   [Влияние преобразования целевого объекта прорисовки на клипы](#how-a-render-target-transform-affects-clips)
 -   [Сводка](#summary)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="what-is-a-direct2d-transform"></a>Что такое преобразование Direct2D?
 
@@ -41,7 +41,7 @@ ms.locfileid: "103987557"
 
 
 
-|                 |                 |     |
+|    &nbsp;       |       &nbsp;    |  &nbsp; |
 |-----------------|-----------------|-----|
 | M11Default: 1,0 | M12Default: 0,0 | 0,0 |
 | M21Default: 0,0 | M22Default: 1,0 | 0,0 |
@@ -49,7 +49,7 @@ ms.locfileid: "103987557"
 
 
 
- 
+ 
 
 В этой матрице члены M11, M12, M21 и M22 определяют линейное преобразование, которое может масштабировать, поворачивать или наклонять объект. элементы Оффсеткс и Offset определяют перевод, применяемый после выполнения линейного преобразования. Для аффинных преобразований значения в третьем столбце всегда имеют значение 0,0, 0,0 и 1,0.
 
@@ -57,7 +57,7 @@ ms.locfileid: "103987557"
 
 
 
-|                 |                 |
+|    &nbsp;       |       &nbsp;    | 
 |-----------------|-----------------|
 | M11Default: 1,0 | M12Default: 0,0 |
 | M21Default: 0,0 | M22Default: 1,0 |
@@ -65,7 +65,7 @@ ms.locfileid: "103987557"
 
 
 
- 
+ 
 
 В Direct2D эта матрица с 3 по 2 представлена структурой [**D2D1 \_ Matrix \_ 3X2**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) . Для упрощения общих операций матрицы Direct2D также предоставляет класс с именем [**Matrix3x2F**](/windows/win32/api/d2d1helper/nl-d2d1helper-matrix3x2f), который является производным от структуры **D2D1 \_ Matrix \_ 3X2** .
 
@@ -100,7 +100,7 @@ Direct2D использует левое пространство координ
 
 
 
- 
+ 
 
 ## <a name="rendering-target-transforms"></a>Преобразование целевых объектов отрисовки
 
@@ -125,7 +125,7 @@ Direct2D использует левое пространство координ
 > [!Note]  
 > Начиная с Windows 8, преобразование «мир» не влияет на штрих, если для параметра тип обводки задано значение D2D1 обводки [**\_ \_ \_ \_ фиксированная**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type) или [**D2D1 \_ обводки « \_ \_ тип преобразования \_**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type)».
 
- 
+ 
 
 Можно настроить преобразование для геометрии, вызвав [**ID2D1Factory:: креатетрансформеджеометри**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) , чтобы создать объект [**ID2D1TransformedGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry) . Дополнительные сведения о преобразованиях геометрии см. в разделе [Общие сведения о геометрических Direct2Dях](direct2d-geometries-overview.md).
 
@@ -149,17 +149,17 @@ Direct2D использует левое пространство координ
 
     ![Иллюстрация зеленой ограничивающей рамки на маленьком синем прямоугольнике (клипрект)](images/pushaxisalignedclip-step4-boundingbox.png)
 
-## <a name="summary"></a>Сводка
+## <a name="summary"></a>Итоги
 
 Direct2D упрощает преобразование двумерных объектов с упрощенными пространствами координат и связанными классами. Используя различные типы преобразований, можно переводить, поворачивать, отклонять и масштабировать объекты для достижения множества впечатляющих визуальных эффектов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

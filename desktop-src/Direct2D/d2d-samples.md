@@ -6,12 +6,12 @@ keywords:
 - Direct2D, примеры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4219d5b10a6a46659fc0c13ac091a2f3ab01b2c
-ms.sourcegitcommit: 6f905c836d3fd04934fb3e5f1a56b4a421f7596f
+ms.openlocfilehash: 197a0e0197039abc0fe0f725ad367b25d146c2fe
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "103987261"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548699"
 ---
 # <a name="direct2d-samples"></a>Примеры Direct2D
 
@@ -27,7 +27,7 @@ ms.locfileid: "103987261"
 
 ## <a name="windows-8-and-microsoft-visual-studio-2013-samples"></a>Примеры для Windows 8 и Microsoft Visual Studio 2013
 
-| | |
+| Образец | Описание |
 |-|-|
 | [Пример составных режимов эффектов Direct2D](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20basic%20image%20effects%20sample) | В этом примере показан широкий набор составных и смешанных режимов, доступных в Direct2D. |
 | [Пример Direct2D Basic Image Effects](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20basic%20image%20effects%20sample) | В этом примере показано, как загрузить изображение, применить к нему эффект размытия по Гауссу, а затем отобразить его в элементе Windows:: UI:: Core:: CoreWindow. |

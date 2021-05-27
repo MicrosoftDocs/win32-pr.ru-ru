@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: e3c12c2e2a7b47535e830c6ed65a828a16672bbf
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2d59e110aece56a31af71e75e9a8eca0bb008961
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103783588"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548689"
 ---
 # <a name="d1102-too-many-opened-handles"></a>D1102: слишком много открытых дескрипторов
 
@@ -35,21 +35,21 @@ ms.locfileid: "103783588"
 
 </dd> </dl> 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | Уровень ошибки | Предупреждение |
 
 
 
- 
+ 
 
 ## <a name="possible-causes"></a>Возможные причины
 
 Создано большое количество ресурсов. Хотя Direct2D не имеет верхней границы количества доступных ресурсов (за исключением памяти), отладочный слой выдает это информационное сообщение при обнаружении 1001 активных объектов, 2001 активных объектов или 3001 активных объектов и т. д., так как это может указывать на утечку в приложении.
 
- 
+ 
 
- 
+ 
 
 
 

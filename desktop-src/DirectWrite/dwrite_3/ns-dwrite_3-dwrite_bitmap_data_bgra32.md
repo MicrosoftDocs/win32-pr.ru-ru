@@ -39,19 +39,19 @@ api_location:
 - dwrite_3.h
 api_name:
 - DWRITE_BITMAP_DATA_BGRA32
-ms.openlocfilehash: ad36eb8fe691330b471db0b7e8b5378f3e7614db
-ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
+ms.openlocfilehash: 813f3601cac03dcf477fa40f6db5105e075029ab
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "107955057"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548929"
 ---
 # <a name="dwrite_bitmap_data_bgra32-structure-dwrite_3h"></a>Структура DWRITE_BITMAP_DATA_BGRA32 (dwrite_3. h)
 
 Представляет данные точечного рисунка в формате BGRA32.
 
 > [!IMPORTANT]
-> Этот API доступен как часть реализации Двритекоре класса [DirectWrite](../direct-write-portal.md). DWriteCore — это один из видов DirectWrite, который работает с версиями Windows вплоть до Windows 8 и позволяет использовать его на разных платформах. Дополнительные сведения и примеры кода см. в разделе [двритекоре Overview](/windows/win32/directwrite/dwritecore-overview).
+> Этот API доступен как часть реализации Двритекоре класса [DirectWrite](../direct-write-portal.md). DWriteCore — это один из видов DirectWrite, который работает с версиями Windows вплоть до Windows 8 и позволяет использовать его на разных платформах. Дополнительные сведения и примеры кода см. в разделе [двритекоре Overview](../dwritecore-overview.md).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -64,7 +64,7 @@ struct DWRITE_BITMAP_DATA_BGRA32
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 `width`
 
@@ -89,7 +89,7 @@ struct DWRITE_BITMAP_DATA_BGRA32
 
 ## <a name="examples"></a>Примеры
 
-См. раздел [Обзор двритекоре](/windows/win32/directwrite/dwritecore-overview) и пример приложения [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
+См. раздел [Обзор двритекоре](../dwritecore-overview.md) и пример приложения [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
 
 ## <a name="requirements"></a>Требования
 | &nbsp; | &nbsp; |

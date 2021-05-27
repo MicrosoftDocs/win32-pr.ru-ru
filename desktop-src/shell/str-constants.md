@@ -49,12 +49,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b1dcdb3b9199fede88d6f13949cc9276bde17b16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bf8dc681718e64bf8aea059027a50148650635e
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986120"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549249"
 ---
 # <a name="bind-context-string-keys"></a>Ключи строк контекста привязки
 
@@ -208,7 +208,7 @@ ms.locfileid: "104986120"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="STR_PARSE_WITH_PROPERTIES"></span><span id="str_parse_with_properties"></span><dl> <dt><strong>STR_PARSE_WITH_PROPERTIES</strong></dt> </dl></td>
-<td style="text-align: left;"><strong>Только для Windows Vista.</strong> Контекст привязки синтаксического анализа, который используется для передачи набора свойств и имени элемента при вызове <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>ишеллфолдер::P арседисплайнаме</strong></a>. Объект в контексте привязки реализует <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>ипропертисторе</strong></a> и извлекается путем вызова <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-getobjectparam"><strong>IBindCtx:: жетобжектпарам</strong></a>.<br/> Дбфолдер — это источник данных оболочки, представляющий элементы в результатах поиска и представлениях, основанных на запросах. Дбфолдер извлекает эти элементы, запрашивая систему поиска Windows. Элементы в результатах поиска определяются по схеме протокола, например &quot; File: &quot; или &quot; MAPI: &quot; . Дбфолдер обеспечивает поведение этих элементов, делегируя их источникам данных оболочки, созданным для этих протоколов. Дополнительные сведения см. в разделе <a href="/previous-versions/bb233544(v=msdn.10)">Разработка надстроек для обработчиков протоколов</a> .<br/> Когда Дбфолдер делегирует свою операцию синтаксического анализа источникам данных оболочки, поддерживающим протоколы Windows Search, этот контекст привязки предоставляет доступ к значениям, которые были возвращены в результате запроса для этого элемента. Например:<br/>
+<td style="text-align: left;"><strong>Только для Windows Vista.</strong> Контекст привязки синтаксического анализа, который используется для передачи набора свойств и имени элемента при вызове <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>ишеллфолдер::P арседисплайнаме</strong></a>. Объект в контексте привязки реализует <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>ипропертисторе</strong></a> и извлекается путем вызова <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-getobjectparam"><strong>IBindCtx:: жетобжектпарам</strong></a>.<br/> Дбфолдер — это источник данных оболочки, представляющий элементы в результатах поиска и представлениях, основанных на запросах. Дбфолдер извлекает эти элементы, запрашивая систему поиска Windows. Элементы в результатах поиска определяются по схеме протокола, например &quot; File: &quot; или &quot; MAPI: &quot; . Дбфолдер обеспечивает поведение этих элементов, делегируя их источникам данных оболочки, созданным для этих протоколов. Дополнительные сведения см. в разделе <a href="/previous-versions/bb233544(v=msdn.10)">Разработка надстроек для обработчиков протоколов</a> .<br/> Когда Дбфолдер делегирует свою операцию синтаксического анализа источникам данных оболочки, поддерживающим протоколы Windows Search, этот контекст привязки предоставляет доступ к значениям, которые были возвращены в результате запроса для этого элемента. Это включает следующие действия.<br/>
 <ul>
 <li><a href="/windows/desktop/properties/props-system-itemtype">System. ItemType</a> (PKEY_ItemType)</li>
 <li><a href="/windows/desktop/properties/props-system-parsingpath">System. парсингпас</a> (PKEY_ParsingPath)</li>
@@ -219,7 +219,7 @@ ms.locfileid: "104986120"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="STR_PROPERTYBAG_PARAM"></span><span id="str_propertybag_param"></span><dl> <dt><strong>STR_PROPERTYBAG_PARAM</strong></dt> </dl></td>
-<td style="text-align: left;"><strong>Впервые появился в Windows 8</strong>. Укажите этот контекст привязки, чтобы указать, что параметр контекста привязки является контейнером свойств (<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)"><strong>ипропертибаг</strong></a>), используемым для передачи значений Variant в контексте привязки. Дополнительные сведения см. в разделе "Примечания".<br/></td>
+<td style="text-align: left;"><strong>Впервые появился в Windows 8</strong>. Укажите этот контекст привязки, чтобы указать, что параметр контекста привязки является контейнером свойств (<a href="/windows/win32/api/oaidl/nn-oaidl-ipropertybag"><strong>ипропертибаг</strong></a>), используемым для передачи значений Variant в контексте привязки. Дополнительные сведения см. в разделе "Примечания".<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="STR_SKIP_BINDING_CLSID"></span><span id="str_skip_binding_clsid"></span><dl> <dt><strong>STR_SKIP_BINDING_CLSID</strong></dt> </dl></td>
@@ -239,7 +239,7 @@ ms.locfileid: "104986120"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 Контексты привязки используются для передачи необязательных параметров функциям с \* параметром IBindCtx. Эти параметры выражаются в виде COM-объектов и могут реализовывать интерфейсы, используемые для моделирования данных параметров. Некоторые контексты привязки представляют логическое значение, где **true** означает объект, реализующий только [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) , и false указывает, что объект отсутствует.
 
@@ -272,11 +272,11 @@ ms.locfileid: "104986120"
 
 
 
-| Требование | Значение |
+| Требование | Применение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
 | Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Shobjidl. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Shobjidl. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Shobjidl. idl</dt> </dl> |
 
 

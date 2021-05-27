@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e93e26933ad6b3829848e7e826d8d9685e9f141
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: c5dfe4aab8a23dbf1b7921742272b0d2b0ab2382
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107222862"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549989"
 ---
 # <a name="xmint2-structure"></a>Структура XMINT2
 
@@ -37,7 +37,7 @@ typedef struct _XMINT2 {
 
 
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 <dl> <dt>
 
@@ -57,9 +57,9 @@ y-компонент вектора.
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Эта структура определена в ``D3DX\_DXGIFormatConvert.inl`` заголовке пакета SDK DirectX (июнь 2010) для использования из C++. Последняя версия этого заголовка в пакете NuGet [Microsoft. дкссдк. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) больше не определяет его и использует [DirectX:: XMINT2](https://docs.microsoft.com/en-us/windows/win32/api/directxmath/ns-directxmath-xmint2) в директксмас.
+Эта структура определена в ``D3DX\_DXGIFormatConvert.inl`` заголовке пакета SDK DirectX (июнь 2010) для использования из C++. Последняя версия этого заголовка в пакете NuGet [Microsoft. дкссдк. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) больше не определяет его и использует [DirectX:: XMINT2](/windows/win32/api/directxmath/ns-directxmath-xmint2) в директксмас.
 
 
 
@@ -67,13 +67,13 @@ y-компонент вектора.
 
 
 
-| Требование | Значение |
+| Требование | Применение |
 |-------------------|--------------------------------------------------------------------------------------------------------|
 | Заголовок<br/> | <dl> <dt>D3DX \_ дксгиформатконверт. inl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

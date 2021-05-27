@@ -1,15 +1,15 @@
 ---
+title: Вспомогательные функции IP
 description: Следующие функции извлекают и изменяют параметры конфигурации для транспорта TCP/IP на локальном компьютере.
-ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
-title: Функции IP Helper
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11c8bff21f41c04bb5aecf505b251fbbe2f8bc62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
+ms.openlocfilehash: ae19803c25512242b613735a060c7beda8c1df70
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818993"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549509"
 ---
 # <a name="ip-helper-functions"></a>Вспомогательные функции IP
 
@@ -181,6 +181,14 @@ ms.locfileid: "103818993"
 -   [**нотифираутечанже**](/windows/win32/api/Iphlpapi/nf-iphlpapi-notifyroutechange)
 -   [**NotifyRouteChange2**](/windows/win32/api/Netioapi/nf-netioapi-notifyroutechange2)
 -   [**нотифюникастипаддрессчанже**](/windows/win32/api/Netioapi/nf-netioapi-notifyunicastipaddresschange)
+
+## <a name="packet-timestamping"></a>Метки времени пакетов
+
+-   [**каптуреинтерфацехардварекросстиместамп**](/windows/win32/api/iphlpapi/nf-iphlpapi-captureinterfacehardwarecrosstimestamp)
+-   [**жетинтерфацеактиветиместампкапабилитиес**](/windows/win32/api/iphlpapi/nf-iphlpapi-getinterfaceactivetimestampcapabilities)
+-   [**жетинтерфацесуппортедтиместампкапабилитиес**](/windows/win32/api/iphlpapi/nf-iphlpapi-getinterfacesupportedtimestampcapabilities)
+-   [**регистеринтерфацетиместампконфигчанже**](/windows/win32/api/iphlpapi/nf-iphlpapi-registerinterfacetimestampconfigchange)
+-   [**унрегистеринтерфацетиместампконфигчанже**](/windows/win32/api/iphlpapi/unregisterinterfacetimestampconfigchange)
 
 ## <a name="persistent-port-reservation"></a>Постоянное резервирование портов
 

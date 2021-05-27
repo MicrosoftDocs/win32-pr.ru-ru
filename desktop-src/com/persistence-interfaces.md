@@ -4,12 +4,12 @@ description: Интерфейсы сохраняемости
 ms.assetid: a93582b3-bdbf-430d-b4a6-c0df7bc35dc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e72ef5f7381c6d58b9025f983ecd852b83661030
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: c2e1acbd1074fd5fa4e87e571a1e21ab48d5d075
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104134686"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550509"
 ---
 # <a name="persistence-interfaces"></a>Интерфейсы сохраняемости
 
@@ -27,18 +27,18 @@ ms.locfileid: "104134686"
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**иперсистмемори**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768210(v=vs.85))<br/>           | Объект может сохранять и загружать свое состояние в последовательный массив байтов фиксированной длины (в памяти).<br/>                                                                                                                                                                                                                                                    |
 | [**иперсистстораже**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage)<br/>                  | Объект может сохранить и загрузить его состояние в экземпляр [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) . Элементы управления, которые необходимо пометить как вставляемые как другие объекты составного документа (для вставки в контейнеры, не поддерживающие управление), должны поддерживать этот интерфейс.<br/>                                                                                               |
-| [**IPersistPropertyBag**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768205(v=vs.85))<br/> | Объект может сохранять и загружать свое состояние как отдельные свойства, записываемые в Ипропертибаг, реализуемые контейнером. Он используется для функции Сохранить как текст в некоторых контейнерах.<br/>                                                                                                                                                          |
+| [**IPersistPropertyBag**](/windows/win32/api/ocidl/nn-ocidl-ipersistpropertybag)<br/> | Объект может сохранять и загружать свое состояние как отдельные свойства, записываемые в Ипропертибаг, реализуемые контейнером. Он используется для функции Сохранить как текст в некоторых контейнерах.<br/>                                                                                                                                                          |
 | [**иперсистмоникер**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775042(v=vs.85))<br/>  | Объект может сохранять и загружать свое состояние в расположение с именем моникера. Элемент управления вызывает [**IMoniker:: биндтостораже**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) для получения требуемого интерфейса хранилища, например [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage), [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream), [**ILockBytes**](/windows/desktop/api/objidl/nn-objidl-ilockbytes), [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)и т. д.<br/> |
 
 
 
  
 
-Хотя поддержка [**IPersistPropertyBag**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768205(v=vs.85)) является необязательной, настоятельно рекомендуется использовать ее в качестве оптимизации для контейнеров с функциями "Сохранить как текст", например Visual Basic.
+Хотя поддержка [**IPersistPropertyBag**](/windows/win32/api/ocidl/nn-ocidl-ipersistpropertybag) является необязательной, настоятельно рекомендуется использовать ее в качестве оптимизации для контейнеров с функциями "Сохранить как текст", например Visual Basic.
 
 За исключением [**IPersistStream:: жетсиземакс**](/windows/desktop/api/ObjIdl/nf-objidl-ipersiststream-getsizemax), [**Иперсистстреаминит:: жетсиземакс**](/windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-getsizemax)и [**иперсистмемори:: жетсиземакс**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768208(v=vs.85)), все методы каждого интерфейса должны быть полностью реализованы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

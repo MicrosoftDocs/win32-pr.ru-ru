@@ -5,17 +5,17 @@ title: API-интерфейсы аудиоподсистемы Core
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 83488233240121ba2edcfd677484df67a452e479
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 2cabb462d13786c874401394fa814484f79b0e3b
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "105656831"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548959"
 ---
 # <a name="core-audio-apis"></a>API-интерфейсы аудиоподсистемы Core
 
 > [!NOTE]
-> Примеры кода см. [в разделе примеры SDK, в которых используются основные API аудио](/windows/win32/coreaudio/sdk-samples-that-use-the-core-audio-apis).
+> Примеры кода см. [в разделе примеры SDK, в которых используются основные API аудио](./sdk-samples-that-use-the-core-audio-apis.md).
 
 В этой документации содержатся сведения об основных интерфейсах программирования (API) для семейства операционных систем Microsoft Windows. В нем приводятся рекомендации для разработчиков программного обеспечения по разработке приложений, использующих основные API-интерфейсы аудио в Windows Vista. Эти API впервые появились в Windows Vista и недоступны в более ранних версиях Windows.
 
@@ -31,8 +31,8 @@ ms.locfileid: "105656831"
 | [Руководство по программированию](programming-guide.md)                                 | Описание основных возможностей основных API-интерфейсов аудио и их использования.            |
 | [Справочник по программированию](programming-reference.md)                         | Содержит справочные сведения о C++ для основных API-интерфейсов аудио.                       |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Мультимедийные технологии для Windows](/previous-versions/bg125389(v=msdn.10))
 
-[Примеры пакетов SDK, использующих основные API аудио](/windows/win32/coreaudio/sdk-samples-that-use-the-core-audio-apis)
+[Примеры пакетов SDK, использующих основные API аудио](./sdk-samples-that-use-the-core-audio-apis.md)

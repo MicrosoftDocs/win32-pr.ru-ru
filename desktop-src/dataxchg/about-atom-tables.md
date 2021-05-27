@@ -14,12 +14,12 @@ keywords:
 - строковые атомы
 ms.topic: article
 ms.date: 08/25/2020
-ms.openlocfilehash: 27f7cdb4bb2dc2fd97b4dba6909022b297df1a1d
-ms.sourcegitcommit: e985e0532f0f895ae418e8c2658dac819cdae3b1
+ms.openlocfilehash: 92a8304e1e96c7385ddb11ba6391258acbe62a26
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "104413900"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549609"
 ---
 # <a name="about-atom-tables"></a>О таблицах Atom
 
@@ -121,15 +121,15 @@ ms.locfileid: "104413900"
 
 
 
-|                    |                                                                                                    |
+|     Формат строки               |    Описание                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | \#*dddd*           | Целое число, заданное в виде десятичной строки. Используется для создания или поиска целочисленного атома.                  |
 | *имя строкового Atom* | Имя строки Atom. Используется для добавления строкового имени Atom в таблицу Atom и получения Atom в Return. |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

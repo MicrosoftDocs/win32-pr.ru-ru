@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RESAMPLE_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 0caba1a560b72a94ed04cacd824414964af82c35
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: ff2660257fa619edb72f10efb419f3c15f43fbde
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107804052"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549729"
 ---
 # <a name="dml_resample_grad_operator_desc-structure-directmlh"></a>Структура DML_RESAMPLE_GRAD_OPERATOR_DESC (директмл. h)
 
@@ -96,7 +96,7 @@ struct DML_RESAMPLE_GRAD_OPERATOR_DESC
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 `InputGradientTensor`
 
@@ -124,19 +124,19 @@ struct DML_RESAMPLE_GRAD_OPERATOR_DESC
 
 `Scales`
 
-Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](../../winprog/windows-data-types.md) \***
 
 См. раздел *масштабирование* в [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
 `InputPixelOffsets`
 
-Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](../../winprog/windows-data-types.md) \***
 
 См. раздел *инпутпикселоффсетс* in [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
 `OutputPixelOffsets`
 
-Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
+Тип: \_ \_ Размер поля \_ (DimensionCount) **const [float](../../winprog/windows-data-types.md) \***
 
 См. раздел *аутпутпикселоффсетс* in [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 

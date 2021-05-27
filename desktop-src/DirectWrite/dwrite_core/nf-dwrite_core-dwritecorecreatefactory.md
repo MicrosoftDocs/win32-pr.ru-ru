@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_core.DWriteCoreCreateFactory
-title: Двритекорекреатефактори (dwrite_core. h)
+title: DWriteCoreCreateFactory (dwrite_core.h)
 description: Создает объект фабрики, который используется для последующего создания отдельных объектов Двритекоре.
 tech.root: DirectWrite
 ms.date: 04/21/2021
@@ -39,19 +39,19 @@ api_location:
 - dwrite_core.h
 api_name:
 - DWriteCoreCreateFactory
-ms.openlocfilehash: 43e43e00385e10f0da0ba459cdc16e84562b72ec
-ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
+ms.openlocfilehash: 3ba1b8f6e09212c1ba2f4a0093e2205acaa2e835
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "107955027"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548939"
 ---
 # <a name="dwritecorecreatefactory-function-dwrite_coreh"></a>Функция Двритекорекреатефактори (dwrite_core. h)
 
 Создает объект фабрики, который используется для последующего создания отдельных объектов Двритекоре.
 
 > [!IMPORTANT]
-> Этот API доступен как часть реализации Двритекоре класса [DirectWrite](../direct-write-portal.md). DWriteCore — это один из видов DirectWrite, который работает с версиями Windows вплоть до Windows 8 и позволяет использовать его на разных платформах. Дополнительные сведения и примеры кода см. в разделе [двритекоре Overview](/windows/win32/directwrite/dwritecore-overview).
+> Этот API доступен как часть реализации Двритекоре класса [DirectWrite](../direct-write-portal.md). DWriteCore — это один из видов DirectWrite, который работает с версиями Windows вплоть до Windows 8 и позволяет использовать его на разных платформах. Дополнительные сведения и примеры кода см. в разделе [двритекоре Overview](../dwritecore-overview.md).
 
 ## <a name="syntax"></a>Синтаксис
 ```cpp
@@ -90,9 +90,9 @@ HRESULT DWRITE_EXPORT DWriteCoreCreateFactory(
 
 ## <a name="examples"></a>Примеры
 
-См. раздел [Обзор двритекоре](/windows/win32/directwrite/dwritecore-overview) и пример приложения [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
+См. раздел [Обзор двритекоре](../dwritecore-overview.md) и пример приложения [двритекорегаллери](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 Это функционально аналогично функции [двритекреатефактори](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) , экспортируемой системной версией DirectWrite. Функция Двритекоре имеет другое имя, чтобы избежать неоднозначности.
 
