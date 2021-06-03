@@ -4,12 +4,12 @@ ms.assetid: 9b6359c2-0113-49b6-83d0-316ad95aba1b
 title: Функции синхронизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f259b71e7bf76dc7f23d092f827d16af908c74a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf235321914fd0e340e47d23095f3884f24d13c7
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910031"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349950"
 ---
 # <a name="synchronization-functions"></a>Функции синхронизации
 
@@ -379,7 +379,7 @@ ms.locfileid: "103910031"
 | [**UnregisterWaitEx**](unregisterwaitex.md)                       | Отменяет зарегистрированную операцию ожидания.                                                                                                                                                                                                                       |
 | [**WaitForMultipleObjects**](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects)           | Ожидает, пока один или все указанные объекты не помещаются в сигнальное состояние или не истечет интервал времени ожидания.                                                                                                                                                |
 | [**ваитформултиплеобжектсекс**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjectsex)       | Ожидает, пока один или все указанные объекты находятся в сигнальном состоянии, подпрограмма завершения ввода-вывода или асинхронный вызов процедур (APC) помещается в очередь потока или истекает интервал времени ожидания.                                                       |
-| [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject)                 | Ожидает, пока указанный объект не поступает в сигнальное состояние или не истечет интервал времени ожидания.                                                                                                                                                                |
+| [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-waitforsingleobject)                 | Ожидает, пока указанный объект не поступает в сигнальное состояние или не истечет интервал времени ожидания.                                                                                                                                                                |
 | [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex)             | Ожидает, пока указанный объект не поступает в сигнальное состояние, подпрограмма завершения ввода-вывода или асинхронный вызов процедуры (APC) помещается в очередь в поток или истекает интервал времени ожидания.                                                                       |
 | [**ваитонаддресс**](/windows/desktop/api/SynchAPI/nf-synchapi-waitonaddress)                             | Ожидает изменения значения по указанному адресу.                                                                                                                                                                                                    |
 | [**WaitOrTimerCallback**](/previous-versions/windows/desktop/legacy/ms687066(v=vs.85))                 | Определяемая приложением функция, которая выступает в качестве начального адреса для обратного вызова таймера или зарегистрированного обратного вызова ожидания.                                                                                                                                    |

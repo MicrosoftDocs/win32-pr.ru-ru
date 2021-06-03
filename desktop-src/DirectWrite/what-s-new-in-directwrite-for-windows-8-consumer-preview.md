@@ -4,12 +4,12 @@ description: Ниже приведены некоторые из новых до
 ms.assetid: 2512D222-C6EB-4C2D-80A6-7978FED56F7A
 ms.topic: article
 ms.date: 09/23/2019
-ms.openlocfilehash: bf1a62917e18dcda7e7c4e3f1b05731b60628967
-ms.sourcegitcommit: dd4a3716477b1363be58ecc0d439029f81467104
+ms.openlocfilehash: 6b54a7f671ab6472ee2e412c2797d80bf7de245e
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "103800916"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349963"
 ---
 # <a name="whats-new-in-directwrite"></a>Новые возможности в DirectWrite
 
@@ -21,7 +21,7 @@ ms.locfileid: "103800916"
 
 ## <a name="windows-10-may-2019-update"></a>Обновления Windows 10 за май 2019 г.
 
-Никакие функции и интерфейсы API не были добавлены и не обновлены для Windows 10, версия 1903 (10,0; Сборка 18362) &mdash; , также известная как Windows 10, может обновить 2019.
+Ни один компонент или интерфейсы API не были добавлены и не обновлены для Windows 10, версия 1903 (10,0; Сборка 18362) &mdash; , также известная как Windows 10, может обновить 2019.
 
 ## <a name="windows-10-october-2018-update"></a>Обновление Windows 10 за октябрь 2018 г.
 
@@ -72,7 +72,7 @@ ms.locfileid: "103800916"
 
 Перечисление [**DWRITE_GLYPH_IMAGE_FORMATS**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) , перемещенное из `dwrite_3.h` в `dcommon.h` .
 
-## <a name="windows-10-creators-update"></a>Windows 10 Creators Update.
+## <a name="windows-10-creators-update"></a>Обновление Windows 10 Creators Update
 
 Следующие функции и API были добавлены или обновлены для Windows 10 версии 1703 (10,0; Сборка 15063) &mdash; также называется обновлением Windows 10 Creators Update.
 
@@ -124,7 +124,7 @@ ms.locfileid: "103800916"
 
 Форматы шрифтов OpenType и TrueType имеют длинные возможности для объединения нескольких шрифтов в один файл шрифта, называемый «коллекцией шрифтов». В спецификации OpenType всегда разрешены шрифты для использования форматов TrueType и CFF для данных структуры глифов. Однако в последнее время спецификация разрешена только для коллекций, в которых контуры глифов используют формат TrueType. OpenType версии 1,7 теперь позволяет коллекциям использовать форматы TrueType или CFF для данных структуры глифов. Начиная с годовщины Windows 10, DirectWrite будет поддерживать коллекции OpenType, используя данные структуры CFF.
 
-## <a name="windows-10"></a>Windows 10
+## <a name="windows-10"></a>Windows 10
 
 ### <a name="windows-font-service-integration"></a>Интеграция со службой шрифтов Windows
 
@@ -172,7 +172,7 @@ ms.locfileid: "103800916"
 
 -   Интерфейс [**IDWriteGdiInterop1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritegdiinterop1)
 
-## <a name="windows-81"></a>Windows 8.1
+## <a name="windows-81"></a>Windows 8.1
 
 ### <a name="rendering-color-fonts"></a>Отображение цветовых шрифтов
 

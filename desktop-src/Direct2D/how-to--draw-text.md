@@ -4,12 +4,12 @@ description: Показывает, как визуализировать тек�
 ms.assetid: 914dd9d0-78c8-44a3-8504-837faf3201d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a30f15704673c63c4bf44a31c64843250cceafd4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bd841f3b07edbde5e3fc6ed70f679cd58b3725f4
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413448"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349973"
 ---
 # <a name="how-to-draw-text"></a>Рисование текста
 
@@ -39,8 +39,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
     hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_pD2DFactory);
 
     if (SUCCEEDED(hr))
-    {
-        
+    {        
         // Create a DirectWrite factory.
         hr = DWriteCreateFactory(
             DWRITE_FACTORY_TYPE_SHARED,
@@ -66,10 +65,8 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
     {
         // Center the text horizontally and vertically.
         m_pTextFormat->SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
-
+        
         m_pTextFormat->SetParagraphAlignment(DWRITE_PARAGRAPH_ALIGNMENT_CENTER);
-       
-
     }
 
     return hr;
@@ -144,7 +141,7 @@ HRESULT DemoApp::OnRender()
 
 Дополнительные сведения и примеры см. в разделе Общие сведения о [форматировании и макете текста](/windows/desktop/DirectWrite/text-formatting-and-layout) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -163,6 +160,6 @@ HRESULT DemoApp::OnRender()
 [Форматирование и макет текста](/windows/desktop/DirectWrite/text-formatting-and-layout)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 4AEBE391-4121-44B2-B15B-0032645D7053
 title: Международные компоненты для Юникода (ICU)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e00a72885b37efebf8de0d5eb60a22fe01dfba4f
-ms.sourcegitcommit: 176ef0a00690f849282cb48464c97f6526a82113
+ms.openlocfilehash: 560a2f344a3024685e17df0f434f8ffa040b5c8b
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "103999779"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349993"
 ---
 # <a name="international-components-for-unicode-icu"></a>Международные компоненты для Юникода (ICU)
 
@@ -101,7 +101,7 @@ ms.locfileid: "103999779"
 > [!Note]  
 >
 > - Это конфигурация для всех платформ.
-> - Чтобы приложения Win32 использовали ICU, им нужно сначала вызвать [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) .
+> - Чтобы приложения Win32 использовали ICU, им нужно сначала вызвать [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) . В Windows 10 версии 1903 и более поздних, где доступна Объединенная библиотека ICU (icu.dll/Ику.либ), вызов CoInitializeEx можно опустить с помощью комбинированной библиотеки.
 > - Не все данные, возвращаемые API-интерфейсами ICU, будут согласованы с операционной системой Windows, так как эта работа по выравниванию еще выполняется. 
 
 ## <a name="icu-example-app"></a>Пример приложения ICU

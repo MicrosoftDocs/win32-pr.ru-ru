@@ -5,12 +5,12 @@ title: Флаги параметров (WinHTTP. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: 56eea8e528c445c5ce6f852ff8841073dd74d6a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f9405d604318205b4e951d28d5b0c304a5f7ab71
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718133"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349983"
 ---
 # <a name="option-flags"></a>Флаги параметров
 
@@ -296,6 +296,16 @@ BOOL fRet = WinHttpSetOption(hRequest,
 </dt> </dl> </dd>
 
 <dt>
+
+<span id="WINHTTP_OPTION_EXPIRE_CONNECTION"></span><span id="winhttp_option_expire_connection"></span>**\_ \_ срок действия соединения для параметра WinHTTP \_**
+</dt> <dd> <dl> <dt>
+
+
+
+Этот параметр может быть установлен только для того обработчика запроса, который все еще активен (отправка или получение). Установка этого параметра сообщит службе WinHttp о необходимости прекращать обслуживание запросов в соединении, связанном с переданным маркером запроса. Соединение будет закрыто после того, как обработчик запроса вызывает этот параметр с завершенным. Этот параметр не принимает никаких параметров.
+
+
+</dt> </dl> </dd> <dt>
 
 <span id="WINHTTP_OPTION_EXTENDED_ERROR"></span><span id="winhttp_option_extended_error"></span>**\_ \_ Расширенная ошибка при выборе WinHTTP \_**
 </dt> <dd> <dl> <dt>
@@ -984,7 +994,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующей таблице перечислены флаги параметров, указывающие, какие дескрипторы могут действовать, можно ли запрашивать и задавать их, а также использовать тип данных. "X" означает, что флаг параметра является допустимым для использования с функцией или обработчиком, а "-" указывает на недопустимый флаг параметра.
 
@@ -1013,6 +1023,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | \_параметр WinHTTP \_ Включение \_ \_ протокола HTTP<br/>**DWORD** | X | X | \- | X | Windows 10 версии 1607 |
 | \_параметр WinHTTP \_ енаблетраЦинг<br/>**DWORD** | \- | \- | X | X | \- |
 | \_ \_ добавочная кодировка параметров WinHTTP \_<br/>**ЛОГИЧЕСКОМ** | X | X | \- | X | Windows 10, версия 1803 |
+| \_ \_ срок действия соединения для параметра WinHTTP \_<br/>Н/Д | \- | X | \- | X | Windows 10, версия 1903 |
 | \_ \_ Расширенная ошибка при выборе WinHTTP \_<br/>**DWORD** | X | X | X | \- | \- |
 | \_ \_ \_ учетные записи глобального прокси-сервера параметров WinHTTP \_<br/>[**учетные учетные \_ службы WinHTTP**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | Параметры WINHTTP глобальные учетные значения \_ \_ \_ сервера \_<br/>[**учетные учетные службы WINHTTP, \_ \_ пример**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |
@@ -1086,7 +1097,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | Минимальная версия клиента | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]            |
 | Минимальная версия сервера | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]         |
 | Распространяемые компоненты          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000. |
-| Header                   | WinHTTP. h                                                                       |
+| Заголовок                   | WinHTTP. h                                                                       |
 
 ## <a name="see-also"></a>См. также раздел
 
