@@ -1,6 +1,6 @@
 ---
 title: Фильтр модуля записи WM ASF (пакет SDK для формата Windows Media 11)
-description: Фильтр модуля записи WM ASF
+description: Узнайте о фильтре модуля записи WM ASF.
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:
 - Windows Media Format SDK, модуль записи WM ASF
@@ -11,12 +11,12 @@ keywords:
 - ASF (Расширенный системный формат), модуль записи WM ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d0de34bcf4b4047673f832d78f40377f98e94d6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d0fbd6e36a8178f6ebd1943cdaac214597e0ba4e
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105681722"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444705"
 ---
 # <a name="wm-asf-writer-filter-windows-media-format-11-sdk"></a>Фильтр модуля записи WM ASF (пакет SDK для формата Windows Media 11)
 
@@ -28,7 +28,7 @@ ms.locfileid: "105681722"
 
 
 
-|                        |                                                                                                                                                                                                                         |
+| Сведения о фильтре                       |  Типы                                                                                                                                                                                                                       |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра      | **Иамфилтермискфлагс**, **ибасефилтер**, **иконфигасфвритер**, **IFileSinkFilter2**, Имедиасикинг, IPersistStream, IServiceProvider, испеЦифипропертипажес, **IWMIndexer2**, **IWMHeaderInfo**, **IWMWriterAdvanced2** |
 | Типы носителей входных закрепления  | Зависит от профиля. Обычно это несжатые типы, такие как MEDIATYPE \_ Audio или MediaType \_ Video, хотя сжатые типы могут быть приняты, если они соответствуют профилю.                                                   |
@@ -45,7 +45,7 @@ ms.locfileid: "105681722"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Количество входных контактов фильтра зависит от профиля, который передается в фильтр. Для каждого потока, определенного в профиле, создается один ПИН-код соответствующего типа носителя.
 
@@ -76,7 +76,7 @@ if (SUCCEEDED(hr))
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

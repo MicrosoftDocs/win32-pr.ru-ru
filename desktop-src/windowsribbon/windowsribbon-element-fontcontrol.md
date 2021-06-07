@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fa080b58e3a9d53fa044e7dbbb6598d5b7be7c49
-ms.sourcegitcommit: 2387bc0339a1764564c1509e72ed5f2e8ae60b36
+ms.openlocfilehash: 42c9d900c2af4f7f8ba26f5ac8dbbdc0d055668d
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "104412760"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443405"
 ---
 # <a name="fontcontrol-element"></a>Фонтконтрол, элемент
 
@@ -221,7 +221,7 @@ ms.locfileid: "104412760"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -317,16 +317,12 @@ ms.locfileid: "104412760"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Да       |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

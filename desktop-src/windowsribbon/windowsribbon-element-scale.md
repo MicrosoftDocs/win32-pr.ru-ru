@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3832d36a48b330b036fa287499f9db387335f87b
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: e3ba922b65525b92189673020f7155275bdf49f9
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104412446"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111445015"
 ---
 # <a name="scale-element"></a>Элемент Scale
 
@@ -87,7 +87,7 @@ ms.locfileid: "104412446"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -169,14 +169,12 @@ ms.locfileid: "104412446"
 
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Да       |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

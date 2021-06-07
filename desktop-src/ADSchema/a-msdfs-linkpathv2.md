@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 892cee6a5e6f423a0ed750858e19e1accccbe45f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4659dbf00c6a53c77a23e98836ea1af4eeb4c38a
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138998"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386863"
 ---
 # <a name="ms-dfs-link-path-v2-attribute"></a>атрибут MS-DFS-Link-Path-v2
 
-Путь ссылки DFS относительно корневой общей папки DFS (то есть без компонентов имени сервера/домена и пространства имен DFS). Используйте косую черту (/) вместо обратных косых черт ( \) , чтобы поиск LDAP мог быть выполнен без использования escape-символов.
+Путь ссылки DFS относительно корневой общей папки DFS (то есть без компонентов имени сервера/домена и пространства имен DFS). Используйте косую черту (/) вместо обратных косых черт ( \\ ), чтобы поиск LDAP можно было выполнять без использования escape-символов.
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "104138998"
 
 -   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008"></a>Windows Server 2008
 
@@ -88,7 +88,7 @@ ms.locfileid: "104138998"
 
 
 
-## <a name="windows-server-2012"></a>Windows Server 2012
+## <a name="windows-server-2012"></a>Windows Server 2012
 
 
 

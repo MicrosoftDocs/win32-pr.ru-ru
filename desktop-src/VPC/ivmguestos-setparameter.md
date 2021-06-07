@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80dd2290578ef55d56e4c194e27102a1075d7a10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2cc99d9b38ab43327b4a435c4128378d49682935
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534283"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386713"
 ---
 # <a name="ivmguestossetparameter-method"></a>Метод Ивмгуестос:: Сетпараметер
 
@@ -48,7 +48,7 @@ HRESULT SetParameter(
 *инпараметернаме* \[ окне\]
 </dt> <dd>
 
-Имя параметра. Длина должна составлять от 1 до 255 символов и не может содержать обратную косую черту ( \) символ).
+Имя параметра. Длина должна составлять от 1 до 255 символов и не может содержать символ обратной косой черты ( \\ ).
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ HRESULT SetParameter(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При вызове этого метода виртуальная машина должна быть запущена, а компоненты интеграции должны быть установлены. Этот метод поддерживается только для гостевых операционных систем под управлением Windows.
 
@@ -104,7 +104,7 @@ HRESULT SetParameter(
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмгуестос определен как 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7f0d0f484ebded1233e3c64f6c7830882395b90a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 812256b0ff329073eb516c6ab2eb7501db8de40d
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103784338"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444995"
 ---
 # <a name="scalingpolicy-element"></a>Элемент ScalingPolicy
 
@@ -42,7 +42,7 @@ ms.locfileid: "103784338"
 
 | Элемент                                                                                       | Описание                                        |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Измените**](windowsribbon-element-scale.md)<br/>                                       | Может происходить один или несколько раз<br/> <br/> |
+| [**Масштабирование**](windowsribbon-element-scale.md)<br/>                                       | Может происходить один или несколько раз<br/> <br/> |
 | [**Скалингполици. Идеалсизес**](windowsribbon-element-scalingpolicy-idealsizes.md)<br/> | Может выполняться не более одного раза<br/> <br/>      |
 
 
@@ -57,7 +57,7 @@ ms.locfileid: "103784338"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -144,12 +144,8 @@ ms.locfileid: "103784338"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+- **Минимальная поддерживаемая система**: Windows 7 
+- **Может быть пустым**: нет
 
 
 

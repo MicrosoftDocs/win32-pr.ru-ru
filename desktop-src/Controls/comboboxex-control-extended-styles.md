@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71dc92264dbd1bd2f5a4b1136d9a6138e1fcffa3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 966d259cf427bcc83e9a8b2fb65670a2a05b9458
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651866"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387660"
 ---
 # <a name="comboboxex-control-extended-styles"></a>Расширенные стили элемента управления ComboBoxEx
 
@@ -36,12 +36,12 @@ ms.locfileid: "105651866"
 | <span id="CBES_EX_NOEDITIMAGE"></span><span id="cbes_ex_noeditimage"></span><dl> <dt>**КБЕС \_ ex \_ ноедитимаже**</dt> </dl>                   | Поле ввода и раскрывающийся список не будут отображать изображения элементов. <br/>                                                                                                                                                                                                                                                          |
 | <span id="CBES_EX_NOEDITIMAGEINDENT"></span><span id="cbes_ex_noeditimageindent"></span><dl> <dt>**КБЕС \_ ex \_ ноедитимажеиндент**</dt> </dl> | Поле ввода и раскрывающийся список не будут отображать изображения элементов. <br/>                                                                                                                                                                                                                                                          |
 | <span id="CBES_EX_NOSIZELIMIT"></span><span id="cbes_ex_nosizelimit"></span><dl> <dt>**КБЕС \_ ex \_ носизелимит**</dt> </dl>                   | Позволяет размер элемента управления ComboBoxEx меньше вертикального размера, чем содержащийся в нем элемент управления "поле со списком". Если размер ComboBoxEx меньше, чем поле со списком, поле со списком будет обрезано. <br/>                                                                                                                                  |
-| <span id="CBES_EX_PATHWORDBREAKPROC"></span><span id="cbes_ex_pathwordbreakproc"></span><dl> <dt>**КБЕС \_ ex \_ пасвордбреакпрок**</dt> </dl> | Только Windows NT. В поле ввода будут использоваться символы косой черты (/), обратной косой черты ( \) и точки (.) в качестве разделителей слов. Это делает возможными сочетания клавиш для перемещения курсора по словам, действующие в именах путей и URL-адресах.<br/>                                                                                                       |
+| <span id="CBES_EX_PATHWORDBREAKPROC"></span><span id="cbes_ex_pathwordbreakproc"></span><dl> <dt>**КБЕС \_ ex \_ пасвордбреакпрок**</dt> </dl> | Только Windows NT. В поле ввода будут использоваться символы косой черты (/), обратной косой черты ( \\ ) и точки (.) в качестве разделителей слов. Это делает возможными сочетания клавиш для перемещения курсора по словам, действующие в именах путей и URL-адресах.<br/>                                                                                                       |
 | <span id="CBES_EX_TEXTENDELLIPSIS"></span><span id="cbes_ex_textendellipsis"></span><dl> <dt>**КБЕС \_ ex \_ текстенделлипсис**</dt> </dl>       | **Windows Vista и более поздние версии.** Приводит к тому, что элементы в раскрывающемся списке и поле ввода (если поле ввода доступно только для чтения) усекаются с многоточием ("..."), а не просто обрезаются по границе элемента управления. Это полезно, когда элементу управления необходимо присвоить фиксированную ширину, но записи в списке могут быть длинными.<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Расширенные стили ComboBox задаются и извлекаются с помощью [**кбем \_ Сетекстендедстиле**](cbem-setextendedstyle.md) и [**кбем \_ жетекстендедстиле**](cbem-getextendedstyle.md) messages.
 
@@ -56,7 +56,7 @@ ms.locfileid: "105651866"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: fbb86bef-68f7-4aad-8a98-1c68e79ea2de
 title: Элемент Image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8437495a4c248a8e5bc68a0f7b75a2cf7d761387
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9dd3b37a39ce45ee0294f46922fbab376523b64
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693284"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432586"
 ---
 # <a name="image-element"></a>Элемент Image
 
@@ -50,7 +50,7 @@ ms.locfileid: "105693284"
 
 
 
-|              |                                                         |
+|  Элемент     | Значение                                                     |
 |--------------|---------------------------------------------------------|
 | Тип элемента | [**ImageType**](imagetype-complex-type.md) complexType |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк              |
@@ -64,7 +64,7 @@ ms.locfileid: "105693284"
 
 <dl> <dt>
 
-[**Историческая справка**](background-element.md)
+[**Фон**](background-element.md)
 </dt> </dl>
 
  

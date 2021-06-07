@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 17269342521a5da5db8d7a852a985c29ed7e2e98
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: a433e2f04eae8607b0c14c5494c734ad0f0dd83a
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104069511"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444115"
 ---
 # <a name="recentitems-element"></a>Рецентитемс, элемент
 
@@ -93,7 +93,7 @@ ms.locfileid: "104069511"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -131,16 +131,11 @@ ms.locfileid: "104069511"
 
 ## <a name="element-information"></a>Сведения об элементе
 
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: Да
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Да       |
-
-
-
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

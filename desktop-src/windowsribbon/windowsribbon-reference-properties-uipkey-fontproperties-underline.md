@@ -4,12 +4,12 @@ description: Определяет \_ \_ \_ свойство подчеркива
 ms.assetid: 88492558-ab19-4606-8fe0-5f100677b88a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 380c3fdadb636775f80b789a585c42ff2369234a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 066027e5f62416667619937eea7dbe493a3ff279
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487956"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443785"
 ---
 # <a name="ui_pkey_fontproperties_underline"></a>Подчеркивание пользовательского интерфейса \_ PKEY \_ фонтпропертиес \_
 
@@ -17,15 +17,15 @@ ms.locfileid: "104487956"
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_Underline
-   shellPKey = UI_PKEY_FontProperties_Underline
-   formatID = 00000305-7363-696e-8441798acf5aebb7
-   propID = 305
-   typeInfo
-      type = UI_FONTUNDERLINE
+   name = UI_PKEY_FontProperties_Underline
+   shellPKey = UI_PKEY_FontProperties_Underline
+   formatID = 00000305-7363-696e-8441798acf5aebb7
+   propID = 305
+   typeInfo
+      type = UI_FONTUNDERLINE
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Подчеркивание пользовательского интерфейса \_ PKEY \_ фонтпропертиес \_ используется приложением для запроса состояния кнопки **подчеркивания** .
 
@@ -41,7 +41,7 @@ propertyDescription
 
 
 
-|                                 |                                                                          |
+|      Свойство                   |       Результат пользовательского интерфейса                                                          |
 |---------------------------------|--------------------------------------------------------------------------|
 | `UI_FONTUNDERLINE_NOTAVAILABLE` | Кнопка **подчеркивания** отключена и может быть задана только приложением. |
 | `UI_FONTUNDERLINE_NOTSET`       | Кнопка **подчеркивания** не выбрана.                                    |
@@ -49,9 +49,9 @@ propertyDescription
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -64,6 +64,6 @@ propertyDescription
 [Элемент управления шрифтами](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

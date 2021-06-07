@@ -4,12 +4,12 @@ ms.assetid: 612f8814-ab3c-4a3e-9791-525788d4cc72
 title: Flag, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b6eda9aeb29c07c0de05eadffb8ba8d60f81954
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46508f9821379fbedb3291ba45d16dbdd0fb316f
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701609"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432334"
 ---
 # <a name="flag-element"></a>Flag, элемент
 
@@ -50,7 +50,7 @@ ms.locfileid: "105701609"
 
 
 
-|              |                                                       |
+|  Элемент     | Значение                                                     |
 |--------------|-------------------------------------------------------|
 | Тип элемента | [**Флагтипе**](flagtype-complex-type.md) complexType |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк            |

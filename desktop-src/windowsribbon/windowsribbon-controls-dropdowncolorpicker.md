@@ -4,12 +4,12 @@ description: Платформа Windows Ribbon предоставляет спе
 ms.assetid: 65e1fc23-7ac0-4bb3-9359-28ce88acf356
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 552cd05e619ba71653d0d72e8457f5d4c8c39624
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 366cc7eadaca23271d5b2afa43ec66235839694a
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104413936"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443665"
 ---
 # <a name="drop-down-color-picker"></a>Средство выбора цвета Drop-Down
 
@@ -20,7 +20,7 @@ ms.locfileid: "104413936"
 -   [Код](#code)
     -   [Свойства](#properties)
     -   [Обработчики команд](#command-handlers)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="introduction"></a>Введение
 
@@ -101,7 +101,7 @@ ms.locfileid: "104413936"
 
 
 
-|                                                                                                                                                                                               |                                                                                                                                                                                                       |                                                                                                                                                                                                          |
+|     &nbsp;     |  &nbsp;   | &nbsp;  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `ThemeColors`: \[ снимок экрана новой строки для \] ![ элемента дропдовнколорпиккер с атрибутом колортемплате, для которого задано значение "семеколорс". ](images/markup/colortemplate.themedcolors.1.png) \[ новой строки\] | `standardcolors`: \[ снимок экрана новой строки для \] ![ элемента дропдовнколорпиккер с атрибутом колортемплате, для которого задано значение "стандардколорс". ](images/markup/colortemplate.standardcolors.3.png) \[ новой строки\] | `highlightcolors`: \[ снимок экрана новой строки для \] ![ элемента дропдовнколорпиккер с атрибутом колортемплате, для которого задано значение "хигхлигхтколорс".](images/markup/colortemplate.highlightcolors.2.png)<br/> |
 
@@ -439,7 +439,7 @@ STDMETHODIMP DropDownColorPickerHandler::Execute(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

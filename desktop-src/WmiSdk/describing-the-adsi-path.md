@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Описание пути ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51a6f3f28ffa5faa80dbd9f3d7906bba542e47e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e0ba1dafac273ab3564549a5caca44180161643
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544839"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387113"
 ---
 # <a name="describing-the-adsi-path"></a>Описание пути ADSI
 
-Протокол LDAP требует, чтобы некоторые символы были экранированы с помощью обратной косой черты ( \) символ при их использовании в протоколе ldap Active Directory Service Interfaces (ADSI).
+Протокол LDAP требует, чтобы некоторые символы были экранированы символом обратной косой черты ( \\ ) при их использовании в пути к интерфейсу ldap Active Directory Service Interfaces (ADSI).
 
 , = +<>\# ; \\ "
 

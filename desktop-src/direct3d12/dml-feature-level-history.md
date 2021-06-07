@@ -4,12 +4,12 @@ description: TBD
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: fdc489184b3220afd0b8c75738fa1d40de207c8d
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 1e5d9f8b0532b809bab617655694af68ba530430
+ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387053"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111521212"
 ---
 # <a name="directml-feature-level-history"></a>Журнал уровня компонентов DirectML
 
@@ -92,8 +92,8 @@ ms.locfileid: "111387053"
 
 Добавлены следующие API.
 
-* [Интерфейс IDMLDevice1](./directml/nn-directml-idmldevice1.md)
-* Поддержка графа операторов (см [. IDMLDevice1:: компилеграф](./directml/nf-directml-idmldevice1-compilegraph.md)
+* [Интерфейс IDMLDevice1](/windows/win32/api/directml/nn-directml-idmldevice1)
+* Поддержка графа операторов (см [. IDMLDevice1:: компилеграф](/windows/win32/api/directml/nf-directml-idmldevice1-compilegraph)
 
 Добавлена поддержка следующих операторов.
 
@@ -166,7 +166,7 @@ ms.locfileid: "111387053"
 Представлено в Директмл версии 1.1.0.
 
 Добавлены следующие API.
-* [Функция DMLCreateDevice1](./directml/nf-directml-dmlcreatedevice1.md)
+* [Функция DMLCreateDevice1](/windows/win32/api/directml/nf-directml-dmlcreatedevice1)
 * [Перечисление DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level)
 * Запросы на уровне компонентов (см. [DML_FEATURE_QUERY_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels))
 
@@ -213,5 +213,5 @@ ms.locfileid: "111387053"
 
 * [Журнал версий DirectML](./dml-version-history.md)
 * [Перечисление DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level)
-* [Функция DMLCreateDevice1](./directml/nf-directml-dmlcreatedevice1.md)
+* [Функция DMLCreateDevice1](/windows/win32/api/directml/nf-directml-dmlcreatedevice1.md)
 * [Структура DML_FEATURE_QUERY_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)

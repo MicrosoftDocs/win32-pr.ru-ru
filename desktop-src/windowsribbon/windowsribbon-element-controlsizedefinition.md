@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e35fe159bf5bafa1ebfa6119215a4265ee900ef0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0ff5217c08b4ea6da1931b0c65501f912f2cc5dc
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104334176"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443415"
 ---
 # <a name="controlsizedefinition-element"></a>Контролсизедефинитион, элемент
 
@@ -110,7 +110,7 @@ ms.locfileid: "104334176"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -210,16 +210,12 @@ ms.locfileid: "104334176"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Да       |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

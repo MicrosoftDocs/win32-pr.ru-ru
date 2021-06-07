@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e13fc2323cb15bdbeb8c42e61810a376e49b3988
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 09f6370dfb868ec386e05f361240a74412f13a7d
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803197"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387640"
 ---
 # <a name="ivmvirtualpcdefaultvmconfigurationpath-property"></a>Ивмвиртуалпк: свойство Ефаултвмконфигуратионпас:D
 
@@ -50,7 +50,7 @@ HRESULT get_DefaultVMConfigurationPath(
 
 ## <a name="property-value"></a>Значение свойства
 
-Указывает путь к каталогу для файлов конфигурации виртуальной машины по умолчанию. В строке пути обратная косая черта ( \) может появляться непосредственно перед завершающим нулевым символом.
+Указывает путь к каталогу для файлов конфигурации виртуальной машины по умолчанию. В строке пути обратная косая черта ( \\ ) может появляться непосредственно перед завершающим нулевым символом.
 
 ## <a name="error-codes"></a>Коды ошибок
 
@@ -70,7 +70,7 @@ HRESULT get_DefaultVMConfigurationPath(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию для этого свойства задан следующий каталог: "% LocalAppData% виртуальных \\ \\ машин Microsoft Windows Virtual PC \\ \\ ".
 
@@ -84,7 +84,7 @@ HRESULT get_DefaultVMConfigurationPath(
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмвиртуалпк определен как 236ba0d9-a24a-4292-A132-27c1421dfd01<br/>               |
 
 

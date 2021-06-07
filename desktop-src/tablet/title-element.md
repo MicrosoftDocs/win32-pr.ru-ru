@@ -4,12 +4,12 @@ ms.assetid: efeed3a6-de5e-4698-9dc3-d0acb3d13dee
 title: Элемент Title
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2362e286482b329c50788b8eae4b4a30cbd1a125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef687f809aae5c3722cdad84ee63d79c7bfcfb21
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693658"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432226"
 ---
 # <a name="title-element"></a>Элемент Title
 
@@ -52,7 +52,7 @@ ms.locfileid: "105693658"
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Style</strong></td>
+<td><strong>Стиль</strong></td>
 <td><strong>xs:string</strong></td>
 <td>Обязательно</td>
 <td>Задает тип границы, окружающей заголовок примечания.</td>
@@ -93,7 +93,7 @@ ms.locfileid: "105693658"
 
 
 
-|              |                                                         |
+| Элемент      | Значение                                                   |
 |--------------|---------------------------------------------------------|
 | Тип элемента | [**Титлетипе**](titletype-complex-type.md) complexType |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк              |

@@ -4,12 +4,12 @@ ms.assetid: 9b6359c2-0113-49b6-83d0-316ad95aba1b
 title: Функции синхронизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf235321914fd0e340e47d23095f3884f24d13c7
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: fba1fce45eeb602040c2bc9d60c9e1bfc63b246a
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349950"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549986"
 ---
 # <a name="synchronization-functions"></a>Функции синхронизации
 
@@ -357,7 +357,7 @@ ms.locfileid: "111349950"
 | [**чанжетимеркуеуетимер**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-changetimerqueuetimer) | Обновляет таймер очереди таймера. |
 | [**CreateTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue)           | Создает очередь для таймеров.  |
 | [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) | Создает таймер очереди таймера. |
-| [**DeleteTimerQueue**](/windows/desktop/api/WinBase/nf-winbase-deletetimerqueue)           | Удаляет очередь таймера.       |
+| [**DeleteTimerQueue**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue)           | Удаляет очередь таймера.       |
 | [**делететимеркуеуикс**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex)       | Удаляет очередь таймера.       |
 | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer) | Отменяет таймер очереди таймера. |
 

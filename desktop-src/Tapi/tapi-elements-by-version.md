@@ -4,12 +4,12 @@ ms.assetid: 38fb3b72-4648-4c44-ad58-af81a5de5623
 title: Элементы интерфейса TAPI по версии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9092077daeec0c6db1d0f117c8b79a351a0f5b8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a13bcbcd99dfc255a069003e934e611444d3edca
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684044"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432568"
 ---
 # <a name="tapi-elements-by-version"></a>Элементы интерфейса TAPI по версии
 
@@ -1561,7 +1561,7 @@ ms.locfileid: "105684044"
 
 
 
-| Структура TAPI                                                     | Использование с версиями TAPI |     |     |     |
+| Структура TAPI                                                     | Использование с версиями TAPI |  &nbsp;   | &nbsp;    |  &nbsp;   |
 |--------------------------------------------------------------------|--------------------------|-----|-----|-----|
 | [**линеаддресскапс**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
 | [**линеаддрессстатус**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus)                 | 1.4                      | 2.0 | 2.1 | 2.2 |

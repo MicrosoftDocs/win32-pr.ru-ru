@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8ec9690dd9839755a90abee4c8649c32eae4db6b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 31a040fb51ad46feb30147fea97c19210cc16094
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105700767"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442885"
 ---
 # <a name="flowmenulayout-element"></a>Фловменулайаут, элемент
 
@@ -95,7 +95,7 @@ ms.locfileid: "105700767"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -140,13 +140,8 @@ ms.locfileid: "105700767"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Да       |
-
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: Да
 
 
  
