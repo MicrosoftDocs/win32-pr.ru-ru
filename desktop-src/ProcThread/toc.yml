@@ -478,7 +478,7 @@
             - name: жетпроцессверсион
               href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessversion
             - name: жетпроцессворкингсетсизе
-              href: /windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize
+              href: /windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsize
             - name: жетпроцессворкингсетсизикс
               href: /windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex
             - name: жетпроцессорсистемциклетиме
@@ -608,7 +608,7 @@
             - name: сетпроцессшутдовнпараметерс
               href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters
             - name: сетпроцессворкингсетсизе
-              href: /windows/desktop/api/WinBase/nf-winbase-setprocessworkingsetsize
+              href: /windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsize
             - name: сетпроцессворкингсетсизикс
               href: /windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex
             - name: сетпротектедполици

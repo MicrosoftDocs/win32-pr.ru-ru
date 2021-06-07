@@ -44,7 +44,7 @@
                 - name: енумресаурцелангуажесекс
                   href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
                 - name: енумресаурценамес
-                  href: /windows/desktop/api/Winbase/nf-winbase-enumresourcenamesa
+                  href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesa
                 - name: енумресаурценамесекс
                   href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw
                 - name: енумресаурцетипес
