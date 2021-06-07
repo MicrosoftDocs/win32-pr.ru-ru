@@ -26,6 +26,8 @@
               items:
                 - name: Настройка и запуск сеанса ведения журнала ядра NT
                   href: configuring-and-starting-the-nt-kernel-logger-session.md
+                - name: Поставщики систем
+                  href: system-providers.md
             - name: Настройка и запуск сеанса авторегистратора
               href: configuring-and-starting-an-autologger-session.md
               items:
@@ -223,7 +225,7 @@
                           href: hwconfig-nic.md
                         - name: HWConfig_PhyDisk
                           href: hwconfig-phydisk.md
-                    - name: "Образ\_—"
+                    - name: Образ
                       href: image.md
                       items:
                         - name: Image_Load
