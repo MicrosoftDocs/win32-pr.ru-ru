@@ -4,12 +4,12 @@ ms.assetid: 1e197716-bf6c-4a28-ae66-38aa59d7371d
 title: Инкворд, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 179fb5e2bcce2e01f684f0b39d662e8538c7d27e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8dc9baea7cda0346e82c11331c45f453e61f192
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702414"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432396"
 ---
 # <a name="inkword-element"></a>Инкворд, элемент
 
@@ -35,7 +35,7 @@ ms.locfileid: "105702414"
 
 [**канреклассифи**](canreclassify-element.md)
 
-[**Достоверность**](confidence-element.md)
+[**Уровень**](confidence-element.md)
 
 [**инкобжект**](inkobject-element.md)
 
@@ -63,7 +63,7 @@ ms.locfileid: "105702414"
 
 
 
-|              |                                                             |
+|  Элемент     | Значение                                                     |
 |--------------|-------------------------------------------------------------|
 | Тип элемента | [**Инквордтипе**](inkwordtype-complex-type.md) complexType |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк                  |

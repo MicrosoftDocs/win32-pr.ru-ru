@@ -4,12 +4,12 @@ ms.assetid: 59ee3037-7178-41c8-84d5-d5c68fa2cf9b
 title: Граупноде, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ee141691ef58d14e6c08a49544e9cf3ecf7540b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbc4d39a592b5b6328bd31ff37761cfd3f0138c0
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647186"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432575"
 ---
 # <a name="groupnode-element"></a>Граупноде, элемент
 
@@ -35,7 +35,7 @@ ms.locfileid: "105647186"
 
 [**Полнотекстовым**](text-element.md)
 
-[**Образ**](docimage-element.md)
+[**Изображение**](docimage-element.md)
 
 [**Flag**](flag-element.md)
 
@@ -58,7 +58,7 @@ ms.locfileid: "105647186"
 
 
 
-|              |                                                                 |
+|  Элемент     | Значение                                                     |
 |--------------|-----------------------------------------------------------------|
 | Тип элемента | [**Граупнодетипе**](groupnodetype-complex-type.md) complexType |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк                      |

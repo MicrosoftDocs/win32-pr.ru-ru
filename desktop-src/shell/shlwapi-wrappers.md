@@ -83,12 +83,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 52e3a5b60a331a74ced1888d5a196348497c5ff0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d928228873b893228c7fddc22fc1ca29ca511cd
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815313"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549756"
 ---
 # <a name="shlwapi-wrapper-functions"></a>Функции программы-оболочки SHLWAPI
 
@@ -113,7 +113,7 @@ Windows 95, Windows 98 и Windows Millennium Edition (Windows Me) называю
 
 
 
-| Функция                  | Порядковый номер | Пересылает                                             | DLL      | Примечания                                                                                                                             |
+| Функция                  | Порядковый номер | Пересылает                                             | DLL      | Remarks                                                                                                                             |
 |---------------------------|---------|---------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------|
 | аппендменуврапв           | 36      | [**аппендмену**](/windows/win32/api/winuser/nf-winuser-appendmenua)                     | USER32   | [(a)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(меню)](#menu)                                                           |
 | каллвиндовпрокврапв       | 37      | [**каллвиндовпрок**](/windows/win32/api/winuser/nf-winuser-callwindowproca)             | USER32   | [сохранении](#shlwapi-wrapper-functions)                                                                                                   |
@@ -187,11 +187,11 @@ Windows 95, Windows 98 и Windows Millennium Edition (Windows Me) называю
 
 
 
-| Функция                     | Порядковый номер | Пересылает                                                                     | DLL      | Примечания                                                                        |
+| Функция                     | Порядковый номер | Пересылает                                                                     | DLL      | Remarks                                                                        |
 |------------------------------|---------|---------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------|
 | млжетуилангуаже              | 376     | [**жетусердефаултуилангуаже**](/windows/win32/api/winnls/nf-winnls-getuserdefaultuilanguage)                   | KERNEL32 | [высоты](#shlwapi-wrapper-functions)                                              |
 | шканцелтимеркуеуетимер      | 265     | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer)                         | KERNEL32 | [высоты](#shlwapi-wrapper-functions)                                              |
-| шделететимеркуеуе           | 262     | [**DeleteTimerQueue**](/windows/win32/api/winbase/nf-winbase-deletetimerqueue)                                   | KERNEL32 | [высоты](#shlwapi-wrapper-functions)                                              |
+| шделететимеркуеуе           | 262     | [**DeleteTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue)                                   | KERNEL32 | [высоты](#shlwapi-wrapper-functions)                                              |
 | шинтерлоккедкомпариксчанже | 342     | [**интерлоккедкомпариксчанжепоинтер**](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchangepointer) | KERNEL32 | [CompareExchange](#compareexchange)                                          |
 | шкуеуеусерворкитем          | 260     | [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem)                                 | KERNEL32 | [(QueueUserWorkItem)](#queueuserworkitem), [(h)](#shlwapi-wrapper-functions)   |
 | шсеттимеркуеуетимер         | 263     | [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer)                         | KERNEL32 | [(Сеттимеркуеуетимер)](#settimerqueuetimer), [(h)](#shlwapi-wrapper-functions) |
@@ -200,7 +200,7 @@ Windows 95, Windows 98 и Windows Millennium Edition (Windows Me) называю
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ### <a name="a"></a>конкретного
 

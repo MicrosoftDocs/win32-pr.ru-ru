@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Классы устранения неполадок событий службы WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbf3728b6ae150a948fdf71515e27f17ca7280f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e811ac5b276e5562f73b5b432d5f3255af5bab7
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272428"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443065"
 ---
 # <a name="wmi-service-event-troubleshooting-classes"></a>Классы устранения неполадок событий службы WMI
 
@@ -20,7 +20,7 @@ ms.locfileid: "104272428"
 
 
 
-|                                                                                           |                                                                                                     |
+|   Событие                                                                                        |   Описание                                                                                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [**MSFT \_ вмиессевент**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiessevent)                                   | Родительский класс для всех самособытий подсистемы событий (ESS) инструментарий управления Windows (WMI) (WMI). |
 | [**MSFT \_ вмирегистернотификатионевент**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiregisternotificationevent) | Представляет создание приемника событий для уведомления для запроса события.                       |
@@ -36,11 +36,11 @@ ms.locfileid: "104272428"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Устранение неполадок WMI](wmi-troubleshooting.md).
+[Устранение неполадок WMI](wmi-troubleshooting.md)
 </dt> <dt>
 
 Устранение неполадок инструментария WMI

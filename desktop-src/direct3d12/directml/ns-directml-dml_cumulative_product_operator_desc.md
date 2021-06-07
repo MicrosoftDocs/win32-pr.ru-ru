@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_CUMULATIVE_PRODUCT_OPERATOR_DESC
-ms.openlocfilehash: 71a078ad0f47c19ad1964d8d21f22e06822b5d01
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 68b001467496ab9affc559e76ecac5461902399c
+ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550219"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111521201"
 ---
 # <a name="dml_cumulative_product_operator_desc-directmlh"></a>DML_CUMULATIVE_PRODUCT_OPERATOR_DESC (директмл. h)
 
@@ -94,9 +94,9 @@ struct DML_CUMULATIVE_PRODUCT_OPERATOR_DESC
 
 `AxisDirection`
 
-Тип: **[DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md)**
+Тип: **[DML_AXIS_DIRECTION](/windows/win32/api/directml/ne-directml-dml_axis_direction)**
 
-Одно из значений перечисления [DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md) . Если задано значение **DML_AXIS_DIRECTION_INCREASING**, то продукт выполняется путем просмотра тензорные вдоль указанной оси по возрастанию индекса элементов. Если задано значение **DML_AXIS_DIRECTION_DECREASING**, возвращается обратное значение true, а продукт выполняется путем обхода элементов по убыванию индекса.
+Одно из значений перечисления [DML_AXIS_DIRECTION](/windows/win32/api/directml/ne-directml-dml_axis_direction) . Если задано значение **DML_AXIS_DIRECTION_INCREASING**, то продукт выполняется путем просмотра тензорные вдоль указанной оси по возрастанию индекса элементов. Если задано значение **DML_AXIS_DIRECTION_DECREASING**, возвращается обратное значение true, а продукт выполняется путем обхода элементов по убыванию индекса.
 
 `HasExclusiveProduct`
 
@@ -145,7 +145,7 @@ OutputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
 
 ### <a name="example-3-axis-direction"></a>Пример 3. Направление оси
 
-Установка параметра *аксисдиректион* в значение [**DML_AXIS_DIRECTION_DECREASING**](./ne-directml-dml_axis_direction.md) оказывает обратный порядок обхода элементов при вычислении счетчика выполнения.
+Установка параметра *аксисдиректион* в значение [**DML_AXIS_DIRECTION_DECREASING**](/windows/win32/api/directml/ne-directml-dml_axis_direction) оказывает обратный порядок обхода элементов при вычислении счетчика выполнения.
 
 ```
 Axis: 3
@@ -173,7 +173,7 @@ OutputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
    [54, 48, 42, 60]]]] //      [2*3*9 ...]
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Этот оператор поддерживает выполнение на месте. Это означает, что тензорные вывода может иметь псевдоним *инпуттенсор* во время привязки.
 
 ## <a name="availability"></a>Доступность

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 76ce73735d05b3d8c8cfa686f53570fd08ae6f1c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9a743fc354dfea73c525884ec5ffe1f9471f3752
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105710185"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111445005"
 ---
 # <a name="ribbon-element"></a>Элемент Ribbon
 
@@ -61,7 +61,7 @@ ms.locfileid: "105710185"
 <td><dt><span></span><span></span><strong></strong> Значительные<br/> </dt> <dd> По умолчанию. <br/> </dd> <dt><span></span><span></span><strong></strong> Высокое<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Достаточ<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
-<td><strong>Name</strong><br/></td>
+<td><strong>Имя</strong><br/></td>
 <td>xs:string<br/></td>
 <td>Нет<br/></td>
 <td>Используется для добавления аннотации в элемент Command.<br/> <br/>
@@ -97,7 +97,7 @@ ms.locfileid: "105710185"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -137,10 +137,9 @@ ms.locfileid: "105710185"
 
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: нет
 
 
 

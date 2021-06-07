@@ -5,12 +5,12 @@ title: Флаги параметров (WinHTTP. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: f9405d604318205b4e951d28d5b0c304a5f7ab71
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: f9ca6b7c74d484a6bcac235b2396b2005c8c3260
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349983"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386683"
 ---
 # <a name="option-flags"></a>Флаги параметров
 
@@ -849,6 +849,16 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_TCP_KEEPALIVE"></span><span id="winhttp_option_tcp_keepalive"></span>**\_параметр WinHTTP \_ \_ KeepAlive TCP**
+</dt> <dd> <dl> <dt>
+
+
+
+Этот параметр можно задать для обработчика сеанса WinHttp, чтобы включить поведение проверки активности TCP на базовом сокете. Принимает структуру [**TCP \_ KeepAlive**](/windows/win32/winsock/sio-keepalive-vals) .
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_TLS_FALSE_START"></span><span id="winhttp_option_tls_false_start"></span>**\_Запуск параметра WinHTTP \_ TLS \_ false \_**
 </dt> <dd> <dl> <dt>
 
@@ -1072,6 +1082,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | \_ \_ \_ используемое имя субъекта-службы сервера параметров WinHTTP \_<br/>**LPWSTR** | \- | X | X | \- | \- |
 | \_ \_ имя субъекта-службы для параметра WinHTTP<br/>**DWORD** | \- | X | \- | X | \- |
 | \_параметр WinHTTP \_ TCP \_ fast \_ Open<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | Windows 10, версия 2004 |
+| \_параметр WinHTTP \_ \_ KeepAlive TCP<br/>[**\_KeepAlive TCP**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10, версия 2004 |
 | \_Запуск параметра WinHTTP \_ TLS \_ false \_<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | Windows 10, версия 2004 |
 | \_ \_ \_ событие уведомления о ВЫгрузке параметра WinHTTP \_<br/>[хинтернет](hinternet-handles-in-winhttp.md) | X | \- | \- | X | \- |
 | \_ \_ \_ синтаксический анализ ненадежного заголовка для параметра WinHTTP \_<br/>**DWORD** | \- | X | \- | X | \- |

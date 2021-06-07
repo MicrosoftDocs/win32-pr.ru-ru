@@ -4,12 +4,12 @@ ms.assetid: bf7f39ec-8f1f-437c-b172-fd6f94af97bc
 title: Элемент Path
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 707dda1a82a99b863148be5fa312900f6cfe28eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee8299e66874a04ba9ff338b0b77d73ffd547ec4
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080940"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432385"
 ---
 # <a name="path-element"></a>Элемент Path
 
@@ -23,7 +23,7 @@ ms.locfileid: "104080940"
 
 ## <a name="parent-elements"></a>Родительские элементы
 
-[**Образ**](image-element.md)
+[**Изображение**](image-element.md)
 
 ## <a name="child-elements"></a>Дочерние элементы
 
@@ -37,7 +37,7 @@ ms.locfileid: "104080940"
 
 
 
-|              |                                            |
+|  Элемент     | Значение                                                     |
 |--------------|--------------------------------------------|
 | Тип элемента | **xs:string**                              |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк |

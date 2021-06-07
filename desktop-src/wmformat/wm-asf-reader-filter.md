@@ -1,6 +1,6 @@
 ---
 title: Фильтр чтения WM ASF (пакет SDK для формата Windows Media 11)
-description: Фильтр чтения WM ASF
+description: Дополнительные сведения о фильтре модуля чтения WM ASF.
 ms.assetid: 3d5ca88a-86bd-4d84-b4f4-782564ced58d
 keywords:
 - Пакет SDK для Windows Media Format, средство чтения WM ASF
@@ -11,12 +11,12 @@ keywords:
 - ASF (Расширенный системный формат), читатель WM ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e13b7944f45b850a158c9832e174ae5ec7dce4d6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 421ab634a0d68837b22961b37005c5670d73e5fa
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800688"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444285"
 ---
 # <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>Фильтр чтения WM ASF (пакет SDK для формата Windows Media 11)
 
@@ -31,7 +31,7 @@ ms.locfileid: "103800688"
 
 
 
-|                        |                                                                                                                                                                                                                                               |
+|  Сведения о фильтре                      |  Типы                                                                                                                                                                                                                                             |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Интерфейсы фильтра      | **Ибасефилтер**, **ифилесаурцефилтер**, **IServiceProvider**, **ивмхеадеринфо**, **ивмреадерадванцед** (частично реализовано). См. примечания.), **IWMReaderAdvanced2** (частично реализован), **Ивмдрмреадер** (через **IServiceProvider**) |
 | Типы носителей входных закрепления  | Неприменимо                                                                                                                                                                                                                                |
@@ -49,7 +49,7 @@ ms.locfileid: "103800688"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Читатель WM ASF частично реализует интерфейсы **ивмреадерадванцед** и **IWMReaderAdvanced2** , чтобы предоставить приложениям доступ к информационным методам объекта Reader. Реализация фильтра просто передает вызовы в интерфейс объекта Reader. Методы потоковой передачи не реализованы, поскольку фильтр должен иметь полный контроль над процессом потоковой передачи. Реализуются следующие методы **ивмреадерадванцед** и **IWMReaderAdvanced2** :
 
@@ -62,7 +62,7 @@ ms.locfileid: "103800688"
 -   [**IWMReaderAdvanced2:: Сетлогклиентид**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setlogclientid)
 -   [**IWMReaderAdvanced2:: Сетплаймоде**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setplaymode)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

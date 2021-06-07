@@ -11,12 +11,12 @@ keywords:
 - IDL-файлы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87e24eec21a481de4603392942b40013ec55086c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19e3d4ecd7f4f9df7b884cf70de3ba3ad62c7939
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691286"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444015"
 ---
 # <a name="compiling-the-idl-files-supplied-with-the-sdk"></a>Компиляция IDL-файлов, предоставляемых с помощью пакета SDK
 
@@ -44,13 +44,12 @@ ms.locfileid: "105691286"
 
 
 
-|                            |                                                                                  |
+|   IDL                      |   Зависимости                                                                   |
 |----------------------------|----------------------------------------------------------------------------------|
-| **IDL**                    | **Зависимости**                                                                 |
 | икомпонентаусентикате. idl | Импортируйте "оаидл. idl";<br/> \#включить "икомпонентаусентикате. idl"<br/> |
-| ВМДМ. idl                   | Нет внешних зависимостей                                                         |
-| Вмдмлог. idl                | Нет внешних зависимостей                                                         |
-| Вмдрмдевицеапп. idl         | Нет внешних зависимостей                                                         |
+| ВМДМ. idl                   | Отсутствие внешних зависимостей                                                         |
+| Вмдмлог. idl                | Отсутствие внешних зависимостей                                                         |
+| Вмдрмдевицеапп. idl         | Отсутствие внешних зависимостей                                                         |
 | ВМСКП. idl                  | \#включить "Вмдрмдевицеапп. idl"<br/> \#включить "ВМСП. idl"<br/>        |
 | ВМСП. idl                   | \#включить "ВМДМ. idl"                                                             |
 
@@ -58,7 +57,7 @@ ms.locfileid: "105691286"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

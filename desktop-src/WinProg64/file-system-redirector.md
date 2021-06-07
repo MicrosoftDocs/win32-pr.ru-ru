@@ -8,12 +8,12 @@ keywords:
 - WOW64 64-разрядное программирование Windows, перенаправитель файловой системы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 561d03c8da51bd37a2d97746296bc74e24e43154
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 568ddde85d18f90b951051251774c3509081dfdd
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070334"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443635"
 ---
 # <a name="file-system-redirector"></a>Перенаправитель файловой системы
 
@@ -24,24 +24,23 @@ ms.locfileid: "104070334"
 > [!Note]  
 > Эти пути предоставляются только для справки. В целях совместимости приложения не должны использовать эти пути напрямую. Вместо этого они должны вызывать интерфейсы API, описанные ниже.
 
- 
+ 
 
 
 
-|                              |                                          |                                          |
-|------------------------------|------------------------------------------|------------------------------------------|
 | Исходный путь                | Путь перенаправления для 32-разрядных процессов x86 | Путь перенаправления для процессов ARM 32-bit |
+|------------------------------|------------------------------------------|------------------------------------------|
 | % WINDIR% \\ system32           | % WINDIR% \\ SysWOW64                       | % WINDIR% \\ SysArm32                       |
 | % WINDIR% \\ ластгуд \\ system32 | % WINDIR% \\ ластгуд \\ SysWOW64             | % WINDIR% \\ ластгуд \\ SysArm32             |
 | % WINDIR% \\regedit.exe        | % WINDIR% \\ SysWOW64 \\regedit.exe          | % WINDIR% \\ SysArm32 \\regedit.exe         |
 
 
 
- 
+ 
 
 Если доступ приводит к тому, что система выводит запрос UAC, перенаправление не происходит. Вместо этого запускается 64-разрядная версия запрашиваемого файла. Чтобы избежать этой проблемы, укажите каталог SysWOW64, чтобы избежать перенаправления и обеспечить доступ к 32-разрядной версии файла, или запустите 32-разрядное приложение с правами администратора, чтобы запрос UAC не отображался.
 
-**Windows Server 2003 и Windows XP:  ** UAC не поддерживается.
+* * Windows Server 2003 и Windows XP: * * контроль учетных записей не поддерживается.
 
 Некоторые подкаталоги исключены из перенаправления. Доступ к этим подкаталогам не перенаправляется в% WINDIR% \\ SysWOW64: <dl> % WINDIR% \\ system32 \\ катрут  
 % WINDIR% \\ System32, \\ Catroot2  
@@ -51,7 +50,7 @@ ms.locfileid: "104070334"
 % WINDIR% \\ System32, \\ очередь  
 </dl>
 
-**Windows server 2008, Windows Vista, Windows server 2003 и Windows XP:  **% WINDIR% \\ system32 \\ дриверсторе перенаправляется.
+* * Windows Server 2008, Windows Vista, Windows Server 2003 и Windows XP: * *% WINDIR% \\ system32 \\ дриверсторе перенаправляется.
 
 Чтобы получить имя 32-разрядного системного каталога, 64-разрядные приложения должны использовать функцию [**GetSystemWow64Directory2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directory2a) (Windows 10, версия 1511) или функцию [**GetSystemWow64Directory**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath) .
 
@@ -65,6 +64,6 @@ ms.locfileid: "104070334"
 
 **Windows Server 2003 и Windows XP:** Псевдоним Сиснативе был добавлен начиная с Windows Vista.
 
- 
+ 
 
- 
+ 

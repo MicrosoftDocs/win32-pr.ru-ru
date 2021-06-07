@@ -4,16 +4,16 @@ ms.assetid: 779156fe-f825-452b-acbe-e2cb189e24d2
 title: Использование очередей таймера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a13f7afd18a22c42e3af8cffd8b2b148f68b9d99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d084a03eb25301f94361c1e7ca6b76dd9fee269
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664066"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549937"
 ---
 # <a name="using-timer-queues"></a>Использование очередей таймера
 
-В следующем примере создается подпрограммы таймера, которая будет выполняться потоком из [очереди таймера](timer-queues.md) через 10-секундную задержку. Во-первых, код использует функцию [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) для создания объекта события, который сообщает о завершении потока очереди таймера. Затем он создает очередь таймера и таймер очереди таймера, используя функции [**CreateTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue) и [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) соответственно. Код использует функцию [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) для определения момента завершения выполнения подпрограммы таймера. Наконец, код вызывает [**DeleteTimerQueue**](/windows/desktop/api/WinBase/nf-winbase-deletetimerqueue) для очистки.
+В следующем примере создается подпрограммы таймера, которая будет выполняться потоком из [очереди таймера](timer-queues.md) через 10-секундную задержку. Во-первых, код использует функцию [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) для создания объекта события, который сообщает о завершении потока очереди таймера. Затем он создает очередь таймера и таймер очереди таймера, используя функции [**CreateTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue) и [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) соответственно. Код использует функцию [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) для определения момента завершения выполнения подпрограммы таймера. Наконец, код вызывает [**DeleteTimerQueue**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue) для очистки.
 
 Дополнительные сведения о подпрограммых таймера см. в разделе [**WaitOrTimerCallback**](/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)).
 

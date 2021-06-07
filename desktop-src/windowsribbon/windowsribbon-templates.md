@@ -12,12 +12,12 @@ keywords:
 - Настройка ленты Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b12618f88576cddeff119534215e501216193c3
-ms.sourcegitcommit: 2387bc0339a1764564c1509e72ed5f2e8ae60b36
+ms.openlocfilehash: f6576a672aa8c3d328a341370a7568595e988908
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "104571234"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444145"
 ---
 # <a name="customizing-a-ribbon-through-size-definitions-and-scaling-policies"></a>Настройка ленты с помощью определений размеров и политик масштабирования
 
@@ -26,7 +26,7 @@ ms.locfileid: "104571234"
 -   [Введение](#introduction)
     -   [Шаблоны Сизедефинитион ленты](#customizing-a-ribbon-through-size-definitions-and-scaling-policies)
     -   [Пользовательские шаблоны](#custom-templates)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="introduction"></a>Введение
 
@@ -49,7 +49,7 @@ ms.locfileid: "104571234"
 
 Например, семейство элементов управления Button содержит:
 
--   [Кнопка](windowsribbon-controls-button.md)
+-   [Button](windowsribbon-controls-button.md)
 -   [Выключатель](windowsribbon-controls-togglebutton.md)
 -   [Кнопка раскрывающегося списка](windowsribbon-controls-dropdownbutton.md)
 -   [Разворачивающаяся кнопка](windowsribbon-controls-splitbutton.md)
@@ -811,25 +811,25 @@ InRibbonGalleryAndButtons-GalleryScalesFirst
 
 
 
-|        |                                                                                                    |
+|  Type  |      Образ                                                                                         |
 |--------|----------------------------------------------------------------------------------------------------|
 | Большой  | ![Рисунок встроенного большого пользовательского шаблона.](images/overviews/sizedefinition-custom-large.png)   |
 | Средний | ![Рисунок встроенного пользовательского шаблона среднего уровня.](images/overviews/sizedefinition-custom-medium.png) |
-| Small  | ![Рисунок встроенного небольшого настраиваемого шаблона.](images/overviews/sizedefinition-custom-small.png)   |
+| Малый  | ![Рисунок встроенного небольшого настраиваемого шаблона.](images/overviews/sizedefinition-custom-small.png)   |
 | Контекстное меню  | ![Рисунок встроенного всплывающего пользовательского шаблона.](images/overviews/sizedefinition-custom-popup.png)   |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**сизедефинитион**](windowsribbon-element-sizedefinition.md)
 </dt> <dt>
 
-[**Измените**](windowsribbon-element-scale.md)
+[**Масштабирование**](windowsribbon-element-scale.md)
 </dt> <dt>
 
 [**Группа**](windowsribbon-element-group.md)

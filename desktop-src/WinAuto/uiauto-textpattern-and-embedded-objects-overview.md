@@ -17,12 +17,12 @@ keywords:
 - предоставление внедренных объектов
 ms.topic: article
 ms.date: 08/31/2019
-ms.openlocfilehash: b85d7fa9e068400e3a339625acad1036a4cdd111
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e9e0a8b9f70677778238908f8faf04e21ed9619
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103791784"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443325"
 ---
 # <a name="how-ui-automation-exposes-embedded-objects"></a>Как модель автоматизации пользовательского интерфейса предоставляет внедренные объекты
 
@@ -59,8 +59,8 @@ ms.locfileid: "103791784"
 - DataGrid
 - Документ
 - Изменить
-- Группа
-- Header
+- Group
+- Заголовок
 - HeaderItem
 - Список
 - Меню
@@ -104,7 +104,7 @@ ms.locfileid: "103791784"
 
 В следующей таблице перечислены некоторые примеры совместимых и несовместимых внедренных объектов.
 
-|   | Совместимые внедренные объекты | Несовместимые внедренные объекты |
+| Объекты  | Совместимые внедренные объекты | Несовместимые внедренные объекты |
 | --- | --- | --- |
 | Не TextPattern внедренные объекты | В Microsoft ребро<br>Таблица данных в Microsoft ребро | В RichTextBlock в Microsoft XAML Framework<br>Изображения с Alt-Text в Microsoft ребро<br>ListView с ListItems в RichTextBlock в Microsoft XAML Framework |
 | Внедренные объекты TextPattern | Элемент управления вводом типа "Text" в Microsoft ребро<br>Таблица в документе Word | Элемент TextBox в документе Microsoft Word |
@@ -259,7 +259,7 @@ ms.locfileid: "103791784"
 | Ячейка с изображением                                            | Ячейка с текстом |
 |------------------------------------------------------------|----------------|
 | ![Иллюстрация списка выбора](images/shuttle.jpg)           | X              |
-| ![Иллюстрация пространства и области действия](images/space.jpg) | Да              |
+| ![Иллюстрация пространства и области действия](images/space.jpg) | Y              |
 | ![Иллюстрация микрообласти](images/microscope.jpg)     | Z              |
 
 Вызов методов [**иуиаутоматионгридпаттерн::**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationgridpattern-getitem)иуиаутоматионтекстпаттерн: [**: ранжефромчилд**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild)и [**иуиаутоматионтекстранже:: GetEnclosingElement**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement) приводит к поведению, описанному в следующей таблице.
@@ -285,7 +285,7 @@ ms.locfileid: "103791784"
 
 При перемещении по документу по [**текстунит \_ строке**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit), если текстовый диапазон входит в внедренную таблицу, каждая строка текста в ячейке должна рассматриваться как линия.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 ### <a name="conceptual"></a>Основные понятия
 

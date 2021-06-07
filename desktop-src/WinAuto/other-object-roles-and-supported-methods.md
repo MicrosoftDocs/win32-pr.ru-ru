@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: 0c3a3ccf-f02a-4aca-9380-a13774598a19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f3d7fbdbb6dfbf83729f3e1c1d4caa3027f8d51
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f17e8573142a57e0acf08980895fdae3ea6d1841
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792919"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444005"
 ---
 # <a name="other-object-roles-and-supported-methods-msaa-ui-element-reference"></a>Другие роли объектов и поддерживаемые методы (Справочник по элементам пользовательского интерфейса MSAA)
 
@@ -18,13 +18,13 @@ ms.locfileid: "103792919"
 > [!Note]  
 > Используйте этот раздел в качестве рекомендации. Настоятельно рекомендуется использовать средства Microsoft Active Accessibility для проверки ожидаемого поведения отдельной роли объекта.
 
- 
+ 
 
 В следующей таблице перечислены дополнительные роли объектов, которые Oleacc.dll поддерживаются.
 
 
 
-|                                                                         |                                                           |
+| &nbsp; |  &nbsp; |
 |-------------------------------------------------------------------------|-----------------------------------------------------------|
 | [**\_ \_ оповещение системы роли**](/windows)                           | [**\_дроплист системы \_ ролей**](/windows)       |
 | [**\_системное \_ приложение роли**](/windows)               | [**\_ \_ уравнение системы роли**](/windows)       |
@@ -43,7 +43,7 @@ ms.locfileid: "103792919"
 
 
 
- 
+ 
 
 ## <a name="role_system_alert"></a>\_ \_ оповещение системы роли
 
@@ -564,6 +564,6 @@ ms.locfileid: "103792919"
 -   получить \_ аккроле
 -   получить \_ аккстате
 
- 
+ 
 
- 
+ 

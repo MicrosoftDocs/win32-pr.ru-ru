@@ -4,12 +4,12 @@ ms.assetid: ff05276a-1d40-4844-b649-10e32e3f1937
 title: Рабочий набор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f54ed26e9809ebffd01edb30f48f36d398689e88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4985e7eb526d5dda8469ccc2f46bfe6fd050c745
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683672"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549896"
 ---
 # <a name="working-set"></a>Рабочий набор
 
@@ -25,7 +25,7 @@ ms.locfileid: "105683672"
 
 Страницы могут быть удалены из рабочего набора процесса в результате выполнения следующих действий.
 
--   Процесс сокращает или очищает рабочий набор, вызывая функцию [**сетпроцессворкингсетсизе**](/windows/win32/api/winbase/nf-winbase-setprocessworkingsetsize), [**сетпроцессворкингсетсизикс**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex) или [**емптиворкингсет**](/windows/win32/api/psapi/nf-psapi-emptyworkingset) .
+-   Процесс сокращает или очищает рабочий набор, вызывая функцию [**сетпроцессворкингсетсизе**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize), [**сетпроцессворкингсетсизикс**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex) или [**емптиворкингсет**](/windows/win32/api/psapi/nf-psapi-emptyworkingset) .
 -   Этот процесс вызывает функцию [**виртуалунлокк**](/windows/win32/api/memoryapi/nf-memoryapi-virtualunlock) для незаблокированного диапазона памяти.
 -   Процесс отменяет сопоставление сопоставленного представления файла с помощью функции [**UnmapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile) .
 -   Диспетчер памяти усекает страницы рабочего набора для создания большего объема доступной памяти.

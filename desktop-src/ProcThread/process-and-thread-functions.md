@@ -4,12 +4,12 @@ ms.assetid: 8c8e8af0-bf50-4a4b-945c-83bae1eff7dd
 title: Функции процессов и потоков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f97d871c7fc3635734ce79ba5cbf231e6955e59d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43841e86c151e7f617a702668f9de203ccb34654
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264492"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111550016"
 ---
 # <a name="process-and-thread-functions"></a>Функции процессов и потоков
 
@@ -82,7 +82,7 @@ ms.locfileid: "104264492"
 | [**жетпроцессшутдовнпараметерс**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessshutdownparameters)     | Получает параметры завершения работы для текущего вызывающего процесса.                                                                                                                              |
 | [**GetProcessTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes)                               | Извлекает сведения о времени для указанного процесса.                                                                                                                                 |
 | [**жетпроцессверсион**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessversion)                           | Извлекает основной и дополнительный номера версии системы, в которой заданный процесс должен выполняться.                                                                                    |
-| [**жетпроцессворкингсетсизе**](/windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize)             | Возвращает минимальный и максимальный размеры рабочего набора указанного процесса.                                                                                                                 |
+| [**жетпроцессворкингсетсизе**](/windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsize)             | Возвращает минимальный и максимальный размеры рабочего набора указанного процесса.                                                                                                                 |
 | [**жетпроцессворкингсетсизикс**](/windows/win32/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex)         | Возвращает минимальный и максимальный размеры рабочего набора указанного процесса.                                                                                                                 |
 | [**жетпроцессорсистемциклетиме**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getprocessorsystemcycletime)       | Возвращает время цикла каждого процессора в указанной группе, затраченного на выполнение отложенных вызовов процедур (DPC) и процедур службы прерываний (ISR).                                         |
 | [**жетстартупинфо**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)                                 | Извлекает содержимое структуры [**стартупинфо**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) , которая была указана при создании вызывающего процесса.                                                       |
@@ -101,7 +101,7 @@ ms.locfileid: "104264492"
 | [**сетпроцессприоритибуст**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocesspriorityboost)               | Отключает возможность системы временно увеличивать приоритет потоков указанного процесса.                                                                                 |
 | [**сетпроцессрестриктионексемптион**](/windows/desktop/api/Winuser/nf-winuser-setprocessrestrictionexemption) | Исключает вызывающий процесс из ограничений, препятствующих взаимодействию рабочих процессов с средой приложения Магазина Windows. Эта функция используется средствами разработки и отладки. |
 | [**сетпроцессшутдовнпараметерс**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters)     | Задает параметры завершения работы для текущего вызывающего процесса.                                                                                                                                   |
-| [**сетпроцессворкингсетсизе**](/windows/desktop/api/WinBase/nf-winbase-setprocessworkingsetsize)             | Задает минимальный и максимальный размеры рабочего набора для указанного процесса.                                                                                                                     |
+| [**сетпроцессворкингсетсизе**](/windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsize)             | Задает минимальный и максимальный размеры рабочего набора для указанного процесса.                                                                                                                     |
 | [**сетпроцессворкингсетсизикс**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex)         | Задает минимальный и максимальный размеры рабочего набора для указанного процесса.                                                                                                                     |
 | [**TerminateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess)                             | Завершает указанный процесс и все его потоки.                                                                                                                                      |
 
@@ -180,7 +180,7 @@ ms.locfileid: "104264492"
 | [**SetThreadPriority**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadpriority)                     | Задает значение приоритета для указанного потока.                                                                                                         |
 | [**сетсреадприоритибуст**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadpriorityboost)           | Отключает возможность системы временно увеличивать приоритет потока.                                                                         |
 | [**сетсреадстаккгуаранти**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadstackguarantee)         | Задает гарантию стека для вызывающего потока.                                                                                                          |
-| [**Сон**](/windows/win32/api/synchapi/nf-synchapi-sleep)                                             | Приостанавливает выполнение текущего потока в течение заданного интервала.                                                                                    |
+| [**Sleep**](/windows/win32/api/synchapi/nf-synchapi-sleep)                                             | Приостанавливает выполнение текущего потока в течение заданного интервала.                                                                                    |
 | [**слипекс**](/windows/win32/api/synchapi/nf-synchapi-sleepex)                                         | Приостанавливает текущий поток до тех пор, пока не будет выполнено указанное условие.                                                                                         |
 | [**SuspendThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-suspendthread)                             | Приостанавливает указанный поток.                                                                                                                            |
 | [**свитчтосреад**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-switchtothread)                           | Позволяет вызвавшему потоку передать выполнение другому потоку, готовому к использованию на текущем процессоре.                                             |

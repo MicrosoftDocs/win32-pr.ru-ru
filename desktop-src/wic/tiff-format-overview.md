@@ -4,12 +4,12 @@ ms.assetid: 021AAF33-A89E-4336-AEB1-1A0D79A14C75
 title: Общие сведения о формате TIFF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db603857da892d4b699bb7df7d8b3e2ee5566326
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81b28dfcc85dac21e95e6c76118d2db57cb74a08
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702903"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444425"
 ---
 # <a name="tiff-format-overview"></a>Общие сведения о формате TIFF
 
@@ -26,7 +26,7 @@ ms.locfileid: "105702903"
 
 
 
-|                        |                                 |
+|   Компонент            |   Описание                   |
 |------------------------|---------------------------------|
 | Формальные имена         | TIFF |
 | Расширения имени файла | TIFF, TIF                       |

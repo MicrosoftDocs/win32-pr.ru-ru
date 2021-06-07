@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5b1f9727dc7fbad8be24c15f0b1f551b021294dd
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: d1ec2e074271e125199ddfd4ff8fac7b2af80c33
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104069505"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444815"
 ---
 # <a name="spinner-element"></a>Элемент счетчика
 
@@ -81,7 +81,7 @@ ms.locfileid: "104069505"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -122,16 +122,12 @@ ms.locfileid: "104069505"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Да       |
+- **Минимальная поддерживаемая система**: Windows 7 
+- **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

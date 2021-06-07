@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0076890a8d9858d4bf410ecfdd866bf4f48fdbb6
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 6ae01f620d66298a5f7200d0be947dbfb3750af4
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104412445"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443305"
 ---
 # <a name="quickaccesstoolbar-element"></a>Куиккакцесстулбар, элемент
 
@@ -93,7 +93,7 @@ ms.locfileid: "104412445"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -141,12 +141,8 @@ ms.locfileid: "104412445"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: нет
 
 
 

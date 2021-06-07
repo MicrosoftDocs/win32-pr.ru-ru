@@ -4,12 +4,12 @@ ms.assetid: d22c2c59-0fa1-4452-93f1-dbf151033714
 title: Обзор прогрессивного декодирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bf005dfb5b4cf5a69ca45020776fee9f0641eee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 568b9708802b082a880f358b969d9dd4beb1e481
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265855"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443675"
 ---
 # <a name="progressive-decoding-overview"></a>Обзор прогрессивного декодирования
 
@@ -26,7 +26,7 @@ ms.locfileid: "104265855"
     -   [Прогрессивное декодирование GIF](#gif-progressive-decoding)
 -   [Прогрессивное декодирование в приложениях](#progressive-decoding-in-applications)
 -   [Поддержка пользовательского кодека для прогрессивного декодирования](#custom-codec-support-for-progressive-decoding)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="introduction"></a>Введение
 
@@ -82,7 +82,7 @@ Windows 7 предоставляет встроенные кодеки, подд
 
 
 
-|     |     |     |     |     |     |     |     |
+|  &nbsp;  |  &nbsp;   |  &nbsp;   |  &nbsp;   |   &nbsp;  |  &nbsp;   |  &nbsp;   | &nbsp;    |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | 1   | 6   | 4   | 6   | 2   | 6   | 4   | 6   |
 | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   |
@@ -169,7 +169,7 @@ if (pProgressive)
 
 Разработчики кодеков могут выбрать реализацию [**ивикпрогрессивелевелконтрол**](/windows/desktop/api/Wincodec/nn-wincodec-iwicprogressivelevelcontrol) , если форматы изображений поддерживают прогрессивное декодирование. Поддержка прогрессивного декодирования не является требованием для обнаружения и арбитража с помощью WIC. Однако прогрессивное декодирование значительно улучшает взаимодействие с пользователем, и по возможности следует рассматривать реализацию.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

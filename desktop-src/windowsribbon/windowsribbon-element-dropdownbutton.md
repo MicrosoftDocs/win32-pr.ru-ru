@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 98af363aeb70a61def04eaee0ad13ff60e6e7640
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a42b8ffb6d39c1da8993972c0b25995f778bdaca
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793068"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442965"
 ---
 # <a name="dropdownbutton-element"></a>DropDownButton, элемент
 
@@ -79,7 +79,7 @@ ms.locfileid: "103793068"
 
 | Элемент                                                                             | Описание                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Кнопка**](windowsribbon-element-button.md)<br/>                           | Может происходить один или несколько раз<br/> <br/> |
+| [**Button**](windowsribbon-element-button.md)<br/>                           | Может происходить один или несколько раз<br/> <br/> |
 | [**Установка**](windowsribbon-element-checkbox.md)<br/>                       | Может происходить один или несколько раз<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | Может происходить один или несколько раз<br/> <br/> |
 | **DropDownButton**<br/>                                                       | Может происходить один или несколько раз<br/> <br/> |
@@ -108,7 +108,7 @@ ms.locfileid: "103793068"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный или обязательный в зависимости от родительского элемента.
 
@@ -165,12 +165,8 @@ ms.locfileid: "103793068"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: нет
 
 
 

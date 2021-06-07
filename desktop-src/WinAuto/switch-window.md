@@ -4,12 +4,12 @@ description: Окно переключения отображается кажд
 ms.assetid: 77b32eb1-7722-410b-b141-ac09fc7fdffb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eead618e23f8a56c90b37eae2386f16a90f6dd67
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5aa12b5fa3bfb9e6207ddaff4133b030e6c233c3
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779664"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443985"
 ---
 # <a name="switch-window-msaa-ui-element-reference"></a>Переключить окно (Справочник по элементу пользовательского интерфейса MSAA)
 
@@ -33,7 +33,7 @@ ms.locfileid: "103779664"
 
 
 
- 
+ 
 
 ## <a name="iaccessible-properties"></a>Свойства IAccessible
 
@@ -41,7 +41,7 @@ ms.locfileid: "103779664"
 
 
 
-|                                                                                |                                                                                                                                                                                                                                |
+|      Свойство                                                                          |      Описание                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**получить \_ аккчилдкаунт**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount)       | Свойство **ChildCount** равно нулю.                                                                                                                                                                                           |
 | [**получить \_ аккдефаултактион**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction) | Сам объект окна Switch не имеет свойства **DefaultAction** . Свойство **DefaultAction** для каждого элемента в окне Switch имеет значение Switch.                                                                     |
@@ -52,18 +52,18 @@ ms.locfileid: "103779664"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Интерфейс IAccessible](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

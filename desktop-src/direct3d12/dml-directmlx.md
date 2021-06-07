@@ -4,12 +4,12 @@ description: Директмлкс — это вспомогательная би
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 2ddd6d9063002b76449224ebafdb6dd021b27fa0
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: ba7eca27a39b690f678bdac1ea0feba1991e8b40
+ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803373"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111521191"
 ---
 # <a name="directmlx"></a>DirectMLX
 
@@ -174,4 +174,4 @@ auto result = dml::Convolution(/* ... */);
 * [Директмл GitHub](https://github.com/microsoft/DirectML/tree/master/Libraries)
 * [Пример yolov4 Директмлкс](https://github.com/microsoft/DirectML/tree/master/Samples/yolov4)
 * [Использование STRIDE для выражения заполнения и макета памяти](./dml-strides.md)
-* [Структура DML_GRAPH_DESC](./directml/ns-directml-dml_graph_desc.md)
+* [Структура DML_GRAPH_DESC](/windows/win32/api/directml/ns-directml-dml_graph_desc)

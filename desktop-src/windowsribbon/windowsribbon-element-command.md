@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b684b361927180a4bb87d2d7814d2f26d4fdcd91
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1e1df5b62c7b2d7c55345ba8d6da366d04697054
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338812"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443485"
 ---
 # <a name="command-element"></a>Command, элемент
 
@@ -97,7 +97,7 @@ ms.locfileid: "104338812"
 <dt><span></span><span></span><strong></strong> (xs: String)<br/> </dt> <dd> Строка, состоящая из любой последовательности символов, включая пробелы и символы разрыва строки.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
-<td><strong>Name</strong><br/></td>
+<td><strong>Имя</strong><br/></td>
 <td>xs:string<br/></td>
 <td>Нет<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs: String)<br/> </dt> <dd> Строка, состоящая из буквы или символа подчеркивания, за которой следует любая последовательность цифр, букв или знаков подчеркивания.<br/> Максимальная длина: 100 символов.<br/> </dd> </dl></td>
@@ -159,7 +159,7 @@ ms.locfileid: "104338812"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -266,12 +266,8 @@ ms.locfileid: "104338812"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: нет
 
 
 

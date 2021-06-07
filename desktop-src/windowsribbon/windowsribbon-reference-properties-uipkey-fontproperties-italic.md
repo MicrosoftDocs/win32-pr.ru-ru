@@ -4,12 +4,12 @@ description: Определяет свойство UI \_ PKEY \_ фонтпро�
 ms.assetid: 53edd88e-ed7e-4385-9fd9-bfa90be348cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00825807c57632b1bbea69c47bc9b90d705efa94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8d0dfa07b5112e91d8c25a4ff8c4f31175adf9b7
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413103"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443815"
 ---
 # <a name="ui_pkey_fontproperties_italic"></a>Пользовательский интерфейс \_ PKEY \_ фонтпропертиес \_ курсивом
 
@@ -17,15 +17,15 @@ ms.locfileid: "104413103"
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_Italic
-   shellPKey = UI_PKEY_FontProperties_Italic
-   formatID = 00000304-7363-696e-8441798acf5aebb7
-   propID = 304
-   typeInfo
-      type = UI_FONTPROPERTIES
+   name = UI_PKEY_FontProperties_Italic
+   shellPKey = UI_PKEY_FontProperties_Italic
+   formatID = 00000304-7363-696e-8441798acf5aebb7
+   propID = 304
+   typeInfo
+      type = UI_FONTPROPERTIES
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 UI \_ PKEY \_ фонтпропертиес \_ Italic используется приложением для запроса состояния кнопки **курсив** .
 
@@ -37,7 +37,7 @@ UI \_ PKEY \_ фонтпропертиес \_ Italic используется п
 
 
 
-|                                  |                                                                       |
+|    Свойство                      |       Результат пользовательского интерфейса                                                       |
 |----------------------------------|-----------------------------------------------------------------------|
 | `UI_FONTPROPERTIES_NOTAVAILABLE` | Кнопка с **курсивом** отключена и может быть установлена только приложением. |
 | `UI_FONTPROPERTIES_NOTSET`       | Кнопка с **курсивом** не выбрана.                                    |
@@ -45,9 +45,9 @@ UI \_ PKEY \_ фонтпропертиес \_ Italic используется п
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -60,6 +60,6 @@ UI \_ PKEY \_ фонтпропертиес \_ Italic используется п
 [Элемент управления шрифтами](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
