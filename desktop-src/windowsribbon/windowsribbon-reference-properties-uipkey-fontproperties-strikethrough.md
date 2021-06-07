@@ -4,12 +4,12 @@ description: Определяет свойство UI \_ PKEY \_ фонтпро�
 ms.assetid: 18ee653d-db01-4615-a85d-ad4ac6a0f422
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b07804a74671bb219b34b1c67580af083fd5c34c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9b684704fdd90a8dd1b88b14db2b52540b15fccb
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413498"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443795"
 ---
 # <a name="ui_pkey_fontproperties_strikethrough"></a>Пользовательский интерфейс \_ PKEY \_ фонтпропертиес \_ Зачеркнутый
 
@@ -17,15 +17,15 @@ ms.locfileid: "104413498"
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_Strikethrough
-   shellPKey = UI_PKEY_FontProperties_Strikethrough
-   formatID = 00000306-7363-696e-8441798acf5aebb7
-   propID = 306
-   typeInfo
-      type = UI_FONTPROPERTIES
+   name = UI_PKEY_FontProperties_Strikethrough
+   shellPKey = UI_PKEY_FontProperties_Strikethrough
+   formatID = 00000306-7363-696e-8441798acf5aebb7
+   propID = 306
+   typeInfo
+      type = UI_FONTPROPERTIES
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 UI \_ PKEY \_ фонтпропертиес \_ Зачеркнутый используется приложением для запроса состояния кнопки **перечеркивания** .
 
@@ -41,7 +41,7 @@ UI \_ PKEY \_ фонтпропертиес \_ Зачеркнутый испол�
 
 
 
-|                                  |                                                                              |
+|   Свойство                       |    Результат пользовательского интерфейса                                                                 |
 |----------------------------------|------------------------------------------------------------------------------|
 | `UI_FONTPROPERTIES_NOTAVAILABLE` | Кнопка **перечеркивания** отключена и может быть задана только приложением. |
 | `UI_FONTPROPERTIES_NOTSET`       | Кнопка **перечеркивания** не выбрана.                                    |
@@ -49,9 +49,9 @@ UI \_ PKEY \_ фонтпропертиес \_ Зачеркнутый испол�
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -64,6 +64,6 @@ UI \_ PKEY \_ фонтпропертиес \_ Зачеркнутый испол�
 [Элемент управления шрифтами](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

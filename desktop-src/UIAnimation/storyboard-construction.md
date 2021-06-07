@@ -10,12 +10,12 @@ keywords:
 - Анимация Windows для интерполяции, описание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22d8e0af3937cd31ccdc43216a9d3426bad0e7b0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 58210ae98f6d3a96c554276466ad72b3364d72a1
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792228"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524288"
 ---
 # <a name="storyboard-overview"></a>Общие сведения о раскадровке
 
@@ -33,7 +33,7 @@ ms.locfileid: "103792228"
     -   [Использование опорных кадров](#using-keyframes)
     -   [Хранение переменных](#holding-variables)
     -   [Планирование раскадровки](#scheduling-a-storyboard)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="transitions"></a>Transitions
 
@@ -73,7 +73,7 @@ ms.locfileid: "103792228"
 
 
 
-|                                                                                                                                                                                                                                                                                                                                                                                                    |
+|    Рисунки                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Иллюстрация мгновенного перехода](images/instantaneoustransition.png)  ![Иллюстрация постоянного перехода](images/constanttransition.png)  ![Иллюстрация линейного перехода](images/lineartransition.png)  ![Иллюстрация линеатного перехода с скорости](images/lineartransitionfromspeed.png)  ![Иллюстрация дискретного перехода](images/discretetransition.png) |
 | ![Иллюстрация параболическимного перехода из ускорения](images/parabolictransitionfromacceleration.png)  ![Иллюстрация третьего перехода](images/cubictransition.png)  ![Иллюстрация плавного перехода на новую точку](images/smoothstoptransition.png)                                                                                                                                       |
@@ -231,7 +231,7 @@ ms.locfileid: "103792228"
 
 Опять же, структура G теперь известна и отличается от результата в первом сценарии, так как переменные имеют разные значения при начале G.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

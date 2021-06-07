@@ -4,12 +4,12 @@ ms.assetid: e3c9e7a8-8de6-4871-b386-2186883f2ee7
 title: Горизонтальный элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0e380ca35f86ce1012084d31de732cd66c79363
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50de08008d0243d27f8a8c5f64d6aeac5ddbcc1c
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810072"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432384"
 ---
 # <a name="horizontal-element"></a>Горизонтальный элемент
 
@@ -52,7 +52,7 @@ ms.locfileid: "103810072"
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Style</strong></td>
+<td><strong>Стиль</strong></td>
 <td><a href="linelayoutstyletype-simple-type.md"><strong>Линелайаутстилетипе</strong></a> simpleType</td>
 <td>Обязательно</td>
 <td>Указывает тип рисуемой линии.</td>
@@ -98,7 +98,7 @@ ms.locfileid: "103810072"
 
 
 
-|              |                                                                   |
+|  Элемент     | Значение                                                     |
 |--------------|-------------------------------------------------------------------|
 | Тип элемента | [**Хоризонталтипе complexType**](horizontaltype-complex-type.md) |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк                        |

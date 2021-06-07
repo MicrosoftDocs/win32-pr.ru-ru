@@ -9,12 +9,12 @@ keywords:
 - потоки скриптов, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82dee2c4a9789406c21b18c58a5f281a768fc713
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 09782855bd3000d711f134c5889733e49e020c44
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332555"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444735"
 ---
 # <a name="to-use-a-script-stream"></a>Использование потока скрипта
 
@@ -26,13 +26,13 @@ ms.locfileid: "104332555"
 
 
 
-|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |   &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;  | &nbsp; |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| U   | R   | L   | \\0 | h   | t   | t   | p   | :   | /   | /   | w   | w   | w   | .   | а   | d   | а   | t   | u   | m   | .   | c   | o   | m   | \\0 |
+| U   | R   | L   | &nbsp; | h   | t   | t   | p   | :   | /   | /   | w   | w   | w   | .   | а   | d   | а   | t   | u   | М   | .   | с   | o   | М   | &nbsp; |
 
 
 
- 
+ 
 
 Каждая пара команд сценария должна быть написана как образец для модуля записи. Дополнительные сведения о написании образцов см. [в разделе Создание образцов](to-write-samples.md).
 
@@ -41,18 +41,18 @@ ms.locfileid: "104332555"
 > [!Note]  
 > При использовании DRM для шифрования файла ни одна из команд сценария не может иметь время презентации, равное 0.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Использование команд сценария**](using-script-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7bfab87f01700f8f4d36f76cbcbfe3696acfbec2
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: cc68ac032459bed77d402ebd860886398748c874
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "105700797"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444805"
 ---
 # <a name="sizedefinition-element"></a>Сизедефинитион, элемент
 
@@ -54,7 +54,7 @@ ms.locfileid: "105700797"
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Name</strong><br/></td>
+<td><strong>Имя</strong><br/></td>
 <td>xs: Поситивеинтежер или xs: String или xs: Token<br/></td>
 <td>Да<br/></td>
 <td>Если <a href="windowsribbon-element-ribbon-sizedefinitions.md"><strong>Ribbon. сизедефинитионс</strong></a> является родительским элементом, в противном случае — необязательный.<br/> <br/>
@@ -87,7 +87,7 @@ ms.locfileid: "105700797"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -194,11 +194,8 @@ ms.locfileid: "105700797"
 ## <a name="element-information"></a>Сведения об элементе
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+- **Минимальная поддерживаемая система**: Windows 7 
+- **Может быть пустым**: нет
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6733c79d19bbb3d55531f05412a8c9263d76eb90
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26c917a7f03a28f7b5c379673229976897af9b5f
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988353"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387013"
 ---
 # <a name="taskfolderpath-property"></a>Таскфолдер. Path, свойство
 
@@ -38,7 +38,7 @@ TaskFolder.Path As String
 
 ## <a name="property-value"></a>Значение свойства
 
-Путь к месту хранения папки. Корневая папка задач указывается с помощью обратной косой черты ( \) . Примером пути к папке задачи в корневой папке задачи является \\ митаскфолдер.
+Путь к месту хранения папки. Корневая папка задач указывается с помощью обратной косой черты ( \\ ). Примером пути к папке задачи в корневой папке задачи является \\ митаскфолдер.
 
 ## <a name="requirements"></a>Требования
 

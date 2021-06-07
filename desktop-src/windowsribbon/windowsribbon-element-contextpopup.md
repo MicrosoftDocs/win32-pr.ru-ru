@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4feb7c4fbd2ca538fe4d0c2b2584163ee8c9fcea
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f779b0196d14fb42246c2a10d476352d835b6cf8
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069046"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443471"
 ---
 # <a name="contextpopup-element"></a>Контекстпопуп, элемент
 
@@ -58,7 +58,7 @@ ms.locfileid: "104069046"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -155,12 +155,8 @@ ms.locfileid: "104069046"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: нет
 
 
 

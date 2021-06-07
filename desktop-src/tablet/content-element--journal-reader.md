@@ -4,12 +4,12 @@ ms.assetid: 1df78a17-1cd4-4e98-aed1-b09d2b357703
 title: Элемент Content [средство чтения журнала]
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b5a7c9631cd69d38b8db54e2a2f8e69636f7e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fec59601a91d63b09c703557b7c6cd28fd11620
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693286"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432156"
 ---
 # <a name="content-element-journal-reader"></a>\[Средство чтения журнала элементов содержимого\]
 
@@ -35,7 +35,7 @@ ms.locfileid: "105693286"
 
 [**Полнотекстовым**](text-element.md)
 
-[**Образ**](image-element.md)
+[**Изображение**](image-element.md)
 
 [**Flag**](flag-element.md)
 
@@ -67,7 +67,7 @@ ms.locfileid: "105693286"
 <td>Обязательно</td>
 <td>Если тип — &quot; инерт &quot; , содержимое изменить нельзя.<br/></td>
 <td><ul>
-<li>Норм.</li>
+<li>Нормальный</li>
 <li>инерт</li>
 </ul></td>
 </tr>
@@ -82,7 +82,7 @@ ms.locfileid: "105693286"
 
 
 
-|              |                                                             |
+|  Элемент     | Значение                                                     |
 |--------------|-------------------------------------------------------------|
 | Тип элемента | [**ContentType**](contenttype-complex-type.md) , complexType |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк                  |

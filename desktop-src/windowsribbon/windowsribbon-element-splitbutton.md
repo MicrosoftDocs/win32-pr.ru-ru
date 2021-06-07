@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3235d58d6499d7d57c54e33e1049f40c50dd189a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf03d85dd0402548d02f107dafb209b68c13bb72
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105700885"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444405"
 ---
 # <a name="splitbutton-element"></a>Элемент SplitButton
 
@@ -79,7 +79,7 @@ ms.locfileid: "105700885"
 
 | Элемент                                                                                   | Описание                                        |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Кнопка**](windowsribbon-element-button.md)<br/>                                 | Может происходить один или несколько раз<br/> <br/> |
+| [**Button**](windowsribbon-element-button.md)<br/>                                 | Может происходить один или несколько раз<br/> <br/> |
 | [**Установка**](windowsribbon-element-checkbox.md)<br/>                             | Может происходить один или несколько раз<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>                 | Может происходить один или несколько раз<br/> <br/> |
 | [**дропдовнколорпиккер**](windowsribbon-element-dropdowncolorpicker.md)<br/>       | Может происходить один или несколько раз<br/> <br/> |
@@ -107,7 +107,7 @@ ms.locfileid: "105700885"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -119,7 +119,7 @@ ms.locfileid: "105700885"
 
 [**SplitButton. менуграупс**](windowsribbon-element-splitbutton-menugroups.md) должен быть выполнен один раз, если следующие элементы отсутствуют в качестве дочерних элементов **SplitButton**:
 
--   [**Переключатель**](windowsribbon-element-button.md)
+-   [**Button**](windowsribbon-element-button.md)
 -   [**Установка**](windowsribbon-element-checkbox.md)
 -   [**DropDownButton**](windowsribbon-element-dropdownbutton.md)
 -   [**дропдовнколорпиккер**](windowsribbon-element-dropdowncolorpicker.md)
@@ -211,12 +211,8 @@ ms.locfileid: "105700885"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+- **Минимальная поддерживаемая система**: Windows 7 
+- **Может быть пустым**: нет
 
 
 

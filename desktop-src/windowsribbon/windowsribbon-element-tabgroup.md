@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fcbe0760c850f37c6a7bf348c38e48aa7cf54ddc
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 6a4c18db72d6b0161842bfde9d5a836d14189c6a
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104260021"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444065"
 ---
 # <a name="tabgroup-element"></a>Табграуп, элемент
 
@@ -71,7 +71,7 @@ ms.locfileid: "104260021"
 
 | Элемент                                             | Описание                                     |
 |-----------------------------------------------------|-------------------------------------------------|
-| [**TAB**](windowsribbon-element-tab.md)<br/> | Должен быть хотя бы один раз<br/> <br/> |
+| [**Вкладка**](windowsribbon-element-tab.md)<br/> | Должен быть хотя бы один раз<br/> <br/> |
 
 
 
@@ -85,7 +85,7 @@ ms.locfileid: "104260021"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -157,12 +157,8 @@ ms.locfileid: "104260021"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+- **Минимальная поддерживаемая система**: Windows 7 
+- **Может быть пустым**: нет
 
 
 

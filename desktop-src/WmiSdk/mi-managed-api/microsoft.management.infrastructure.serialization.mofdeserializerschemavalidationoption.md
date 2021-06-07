@@ -38,12 +38,12 @@ topic_type:
 - apiref
 product_family_name: VS
 ms.topic: reference
-ms.openlocfilehash: efb6c5a694d09bcb59fedf3f186498c940a95c7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18baf6fa3ab837a82d725b72b8b60e3b33b7175f
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155242"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444975"
 ---
 # <a name="mofdeserializerschemavalidationoption-enumeration"></a>Перечисление Мофдесериализерсчемавалидатионоптион
 
@@ -70,15 +70,15 @@ type internal MofDeserializerSchemaValidationOption
 Friend Enumeration MofDeserializerSchemaValidationOption
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
-||Имя участника|Описание|
-|-|-|-|
-||Значение по умолчанию|Указывает проверку схемы по умолчанию.|
-||Strict|Указывает на точность проверки схемы.|
-||Закреплен|Указывает свободную проверку схемы.|
-||игнорепропертитипе|Указывает, что проверка схемы должна пропускать типы свойств.|
-||Игнорировать|Указывает, что проверка схемы должна игнорироваться.|
+|Имя участника|Описание|
+|-|-|
+|По умолчанию|Указывает проверку схемы по умолчанию.|
+|Strict|Указывает на точность проверки схемы.|
+|Закреплен|Указывает свободную проверку схемы.|
+|игнорепропертитипе|Указывает, что проверка схемы должна пропускать типы свойств.|
+|Игнорировать|Указывает, что проверка схемы должна игнорироваться.|
 
 ## <a name="see-also"></a>См. также:
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 577d318292081dddf4e2839967642c6115a474d6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0b0dab5d7ce1485aad5fe1e15442069c488933aa
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069060"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443905"
 ---
 # <a name="string-element"></a>Строковый элемент
 
@@ -106,7 +106,7 @@ ms.locfileid: "104069060"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -135,12 +135,8 @@ ms.locfileid: "104069060"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+- **Минимальная поддерживаемая система**: Windows 7 
+- **Может быть пустым**: нет
 
 
 

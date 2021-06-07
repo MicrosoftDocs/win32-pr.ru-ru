@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 24ecf9a34c74d8b66f838e0e49c815f00c80b89c
-ms.sourcegitcommit: 2387bc0339a1764564c1509e72ed5f2e8ae60b36
+ms.openlocfilehash: a25b2ebb937d954adce58231fd8c6b3347a031a7
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "104069731"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443375"
 ---
 # <a name="inribbongallery-element"></a>Инриббонгаллери, элемент
 
@@ -169,7 +169,7 @@ ms.locfileid: "104069731"
 | [**Установка**](windowsribbon-element-checkbox.md)<br/>                                     | Может происходить один или несколько раз<br/> <br/> |
 | [**Инриббонгаллери. Менуграупс**](windowsribbon-element-inribbongallery-menugroups.md)<br/> | Должно выполняться только один раз<br/> <br/>     |
 | [**Инриббонгаллери. Менулайаут**](windowsribbon-element-inribbongallery-menulayout.md)<br/> | Может выполняться не более одного раза<br/> <br/>      |
-| [**Переключатель**](windowsribbon-element-button.md)<br/>                                       | Может происходить один или несколько раз<br/> <br/> |
+| [**Button**](windowsribbon-element-button.md)<br/>                                       | Может происходить один или несколько раз<br/> <br/> |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                               | Может происходить один или несколько раз<br/> <br/> |
 | [**ToggleButton**](windowsribbon-element-togglebutton.md)<br/>                             | Может происходить один или несколько раз<br/> <br/> |
 
@@ -212,7 +212,7 @@ Windows 8 и более поздние версии.
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -277,11 +277,8 @@ Windows 8 и более поздние версии.
 ## <a name="element-information"></a>Сведения об элементе
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: нет
 
 
 

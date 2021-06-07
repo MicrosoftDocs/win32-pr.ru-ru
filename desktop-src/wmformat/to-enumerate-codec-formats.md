@@ -13,12 +13,12 @@ keywords:
 - IWMCodecInfo3, форматы кодеков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ea062723ec1480a82b45fd025fb7a8c37020d5
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 0a00c9afdbeba5a187be4b992a19d4c9bdb138e1
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104069690"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444785"
 ---
 # <a name="to-enumerate-codec-formats"></a>Перечисление форматов кодеков
 
@@ -28,29 +28,29 @@ ms.locfileid: "104069690"
 
 
 
-|                  | Поток постоянной скорости (CBR) | 2. Передача потока CBR | Потоковая частота с переменной скоростью (VBR) на основе качества | Поток VBR на основе битов (с ограничением или неограниченным доступом) |
+|    &nbsp;    | Поток постоянной скорости (CBR) | 2. Передача потока CBR | Потоковая частота с переменной скоростью (VBR) на основе качества | Поток VBR на основе битов (с ограничением или неограниченным доступом) |
 |------------------|--------------------------------|-------------------|----------------------------------------------|----------------------------------------------------------|
 | g \_ всзвбренаблед | FALSE                          | FALSE             | TRUE                                         | TRUE                                                     |
 | g \_ всзнумпассес  | 1                              | 2                 | 1                                            | 2                                                        |
 
 
 
- 
+ 
 
 Чтобы перечислить форматы, поддерживаемые кодеком, используйте [**ивмкодеЦинфо:: жеткодекформаткаунт**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount) для поиска количества поддерживаемых кодеков. Затем вызовите [**ивмкодеЦинфо:: жеткодекформат**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformat) для каждого формата. Индексы формата в диапазоне от нуля до одного меньше общего числа поддерживаемых форматов. Вы можете получить описание формата, вызвав [**IWMCodecInfo2:: жеткодекформатдеск**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo2-getcodecformatdesc). При использовании **жеткодекформатдеск** не нужно использовать **жеткодекформат**, так как объект конфигурации потока извлекается обоими методами. Форматы видеокодеков не включают описание. Каждый видеокодек имеет только один формат, используемый для всех потоков этого типа.
 
 При извлечении формата кодека вы получаете интерфейс [**ивмстреамконфиг**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig) объекта конфигурации потока, который содержит параметры формата.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Получение сведений о конфигурации потока из кодеков**](getting-stream-configuration-information-from-codecs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

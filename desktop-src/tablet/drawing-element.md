@@ -4,12 +4,12 @@ ms.assetid: 566542f3-b824-442d-9d8b-0064ebcf9b68
 title: Элемент Drawing
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe516a4ba33e6e597b17ce8365d792f19468c3b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d87c0a3d8879fb5f3146c46c9c88d83a6e658d8
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693764"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432516"
 ---
 # <a name="drawing-element"></a>Элемент Drawing
 
@@ -56,7 +56,7 @@ ms.locfileid: "105693764"
 
 
 
-|              |                                                             |
+|  Элемент     | Значение                                                     |
 |--------------|-------------------------------------------------------------|
 | Тип элемента | [**Дравингтипе**](drawingtype-complex-type.md) complexType |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк                  |

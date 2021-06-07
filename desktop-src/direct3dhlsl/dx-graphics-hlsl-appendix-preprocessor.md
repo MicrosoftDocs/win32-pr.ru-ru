@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0f2d9e51926d2a1b7bf374653becec4fe3de3daa
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8efdd996ddeb58c09d1c8250f174c21bb939f082
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800574"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386833"
 ---
 # <a name="preprocessor-directives-hlsl"></a>Директивы препроцессора (HLSL)
 
@@ -24,24 +24,24 @@ ms.locfileid: "103800574"
 
 Препроцессор HLSL распознает следующие директивы:
 
--   [\#define](dx-graphics-hlsl-appendix-pre-define.md)
+-   [\#определенно](dx-graphics-hlsl-appendix-pre-define.md)
 -   [\##elif](dx-graphics-hlsl-appendix-pre-if.md)
--   [\#else](dx-graphics-hlsl-appendix-pre-if.md)
+-   [\#Кроме](dx-graphics-hlsl-appendix-pre-if.md)
 -   [\#endif](dx-graphics-hlsl-appendix-pre-if.md)
 -   [\#план](dx-graphics-hlsl-appendix-pre-error.md)
--   [\#наличии](dx-graphics-hlsl-appendix-pre-if.md)
+-   [\#if](dx-graphics-hlsl-appendix-pre-if.md)
 -   [\#ifdef](dx-graphics-hlsl-appendix-pre-ifdef.md)
 -   [\#ifndef](dx-graphics-hlsl-appendix-pre-ifdef.md)
 -   [\#относится](dx-graphics-hlsl-appendix-pre-include.md)
--   [\#штрих](dx-graphics-hlsl-appendix-pre-line.md)
--   [\#pragma](dx-graphics-hlsl-appendix-pre-pragma.md)
+-   [\#line](dx-graphics-hlsl-appendix-pre-line.md)
+-   [\#включают](dx-graphics-hlsl-appendix-pre-pragma.md)
 -   [\#undef](dx-graphics-hlsl-appendix-pre-undef.md)
 
-Знак решетки ( \# ) должен быть первым символом, не пробелом, в строке, содержащей директиву; символы пробела могут находиться между знаком номера и первой буквой директивы. Некоторые директивы содержат аргументы или значения. Любой текст, следующий за директивой (за исключением аргумента или значения, который является частью директивы), должен предшествовать разделителю однострочных комментариев (//) или заключены в разделители комментариев (/ \* \* /). Строки, содержащие директивы препроцессора, могут быть продолжены непосредственно перед маркером конца строки с обратной косой чертой ( \) .
+Знак решетки ( \# ) должен быть первым символом, не пробелом, в строке, содержащей директиву; символы пробела могут находиться между знаком номера и первой буквой директивы. Некоторые директивы содержат аргументы или значения. Любой текст, следующий за директивой (за исключением аргумента или значения, который является частью директивы), должен предшествовать разделителю однострочных комментариев (//) или заключены в разделители комментариев (/ \* \* /). Строки, содержащие директивы препроцессора, могут быть продолжены непосредственно перед маркером конца строки с обратной косой чертой ( \\ ).
 
 Директивы препроцессора могут находиться в любом месте файла исходного кода, но применяются только к оставшейся части файла.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

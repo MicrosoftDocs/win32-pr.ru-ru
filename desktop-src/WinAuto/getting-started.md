@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility — это набор интерфе
 ms.assetid: 13148049-dbb0-4529-b1d7-0c41ebeb7543
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdf8e84f6e647868b23e845522c137e6cfb1b9dd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 65713143e241a11d29782a4adc0f919ab9ebc3e0
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105691748"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444985"
 ---
 # <a name="getting-started-microsoft-active-accessibility"></a>Начало работы (Microsoft Active Accessibility)
 
@@ -19,7 +19,7 @@ Microsoft Active Accessibility — это набор интерфейсов COM 
 
 
 
-|                                                        |                                                                                                                                                                   |
+|  Section                                                      |  Описание                                                                                                                                                                 |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Технический обзор](technical-overview.md)           | Общие сведения о Active Accessibility Майкрософт и общих рекомендациях для разработчиков клиентов и серверов Microsoft Active Accessibility.                                |
 | [Рекомендации для разработчиков C/C++](c-c---developer-s-guide.md) | Подробные сведения о ключевых элементах и концепциях API приложения Microsoft Active Accessibility. Использует термины и примеры, знакомые разработчикам C или C++. |
@@ -30,7 +30,7 @@ Microsoft Active Accessibility — это набор интерфейсов COM 
 
  
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Компоненты Active Accessibility](sdk-components.md)
 -   [Поддерживаемые платформы](supported-platforms.md)

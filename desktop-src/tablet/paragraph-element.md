@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.ui.xaml.documents.h
-ms.openlocfilehash: bfe3752541bb54571e9802f557e83dcc7632f845
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f246294c80814ec809c0a1ca035fcb4741c30c5
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656879"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432236"
 ---
 # <a name="paragraph-element"></a>Элемент абзаца
 
@@ -52,7 +52,7 @@ ms.locfileid: "105656879"
 | **Top**         | **xs:integer**            | Обязательно | Расстояние от начала до самой верхней точки ограничивающего прямоугольника для элемента.  | Любое целое число.              |
 | **Width**       | **xs:nonNegativeInteger** | Обязательно | Ширина ограничивающего прямоугольника для элемента.                                          | Любое неотрицательное целое число. |
 | **Height**      | **xs:nonNegativeInteger** | Обязательно | Высота ограничивающего прямоугольника для элемента.                                         | Любое неотрицательное целое число. |
-| **блоккнумбер** | **xs:nonNegativeInteger** | Обязательно | Номер блока.                                                                           | Любое неотрицательное целое число. |
+| **BlockNumber** | **xs:nonNegativeInteger** | Обязательно | Номер блока.                                                                           | Любое неотрицательное целое число. |
 | **LineNumber**  | **xs:nonNegativeInteger** | Обязательно | Строка, с которой начинается абзац.                                                 | Любое неотрицательное целое число. |
 
 
@@ -63,7 +63,7 @@ ms.locfileid: "105656879"
 
 
 
-|              |                                                                 |
+|  Элемент     | Значение                                                     |
 |--------------|-----------------------------------------------------------------|
 | Тип элемента | [**Параграфтипе**](paragraphtype-complex-type.md) complexType |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк                      |
@@ -79,7 +79,7 @@ ms.locfileid: "105656879"
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Windows.ui.xaml.docументс. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Windows.ui.xaml.docументс. h</dt> </dl> |
 
 
 

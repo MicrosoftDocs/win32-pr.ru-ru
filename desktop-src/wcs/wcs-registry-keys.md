@@ -20,12 +20,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95a1c0072d9a00fe0cff4a4dbe57af839f65731b
-ms.sourcegitcommit: 3f366316c02c411c4c5e14620a699f6f30608634
+ms.openlocfilehash: 058ec839b226e96542604f151f06e2654a4180d5
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "105719864"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444675"
 ---
 # <a name="wcs-registry-keys"></a>Разделы реестра WCS
 
@@ -43,7 +43,7 @@ WCS использует разделы реестра для сигнализа
 
 
 
-|                                  |                                                                                                                                                    |
+|    &nbsp;  |  &nbsp;      | 
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Связи профилей отдельных пользователей    | **HKEY \_ текущее \_ ПОЛЬЗОВАТЕЛЬское программное обеспечение \\ Microsoft \\ Windows NT \\ CurrentVersion \\ ICM \\ профилеассоЦиатионс \\ Отображение \\ {4d36e96e-E325-11CE-BFC1-08002BE10318}** |
 | Сопоставления профилей на уровне системы | **\_ \_ \\ Класс управления CurrentControlSet системы hKey локального компьютера \\ \\ \\ \\ {4d36e96e-E325-11CE-BFC1-08002BE10318}**                                        |

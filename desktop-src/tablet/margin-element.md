@@ -4,12 +4,12 @@ ms.assetid: c3047706-affd-4feb-9d48-cfb4c7dd6fa0
 title: Элемент Margin
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0500d4db165012393cb600c1e118089b68c76695
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 547177a10fc3724f3b9bf3dde65f857d03f0f2a4
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272625"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432136"
 ---
 # <a name="margin-element"></a>Элемент Margin
 
@@ -57,7 +57,7 @@ ms.locfileid: "104272625"
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Style</strong></td>
+<td><strong>Стиль</strong></td>
 <td><a href="linelayoutstyletype-simple-type.md"><strong>Линелайаутстилетипе</strong></a> simpleType</td>
 <td>Обязательно</td>
 <td>Указывает тип рисуемой линии.</td>
@@ -106,7 +106,7 @@ ms.locfileid: "104272625"
 
 
 
-|              |                                                           |
+|  Элемент     | Значение                                                     |
 |--------------|-----------------------------------------------------------|
 | Тип элемента | [**Маргинтипе**](margintype-complex-type.md) complexType |
 | Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк                |

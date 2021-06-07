@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3a42e9efb30397862037426041420d96be8fd387
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1162055491f61ae6feffa385bbc5015e4f1b66f0
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413287"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442875"
 ---
 # <a name="group-element"></a>Group, элемент
 
@@ -86,7 +86,7 @@ ms.locfileid: "104413287"
 
 | Элемент                                                                             | Описание                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Кнопка**](windowsribbon-element-button.md)<br/>                           | Может происходить один или несколько раз<br/> <br/> |
+| [**Button**](windowsribbon-element-button.md)<br/>                           | Может происходить один или несколько раз<br/> <br/> |
 | [**Установка**](windowsribbon-element-checkbox.md)<br/>                       | Может происходить один или несколько раз<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | Может происходить один или несколько раз<br/> <br/> |
 | [**контролграуп**](windowsribbon-element-controlgroup.md)<br/>               | Может происходить один или несколько раз<br/> <br/> |
@@ -109,11 +109,11 @@ ms.locfileid: "104413287"
 
 | Элемент                                             |
 |-----------------------------------------------------|
-| [**TAB**](windowsribbon-element-tab.md)<br/> |
+| [**Вкладка**](windowsribbon-element-tab.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -138,12 +138,8 @@ ms.locfileid: "104413287"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: нет
 
 
 

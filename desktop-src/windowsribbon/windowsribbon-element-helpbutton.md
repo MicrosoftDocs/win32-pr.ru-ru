@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5be084ff6fc92d4eac4bbaffb3c507142f91eba8
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 9f34f04133b7628cce01ac0ce2808923b4f6bbdb
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "105691428"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442845"
 ---
 # <a name="helpbutton-element"></a>Хелпбуттон, элемент
 
@@ -77,7 +77,7 @@ ms.locfileid: "105691428"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -113,16 +113,12 @@ ms.locfileid: "105691428"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Да       |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

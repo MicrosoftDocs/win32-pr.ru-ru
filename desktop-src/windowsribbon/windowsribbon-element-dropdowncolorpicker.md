@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 00185d14d9066b2cb85da4b23959e84df1827007
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: ce2fd1d9ff12b56d87955304fad24af23209ff91
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "103786030"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442905"
 ---
 # <a name="dropdowncolorpicker-element"></a>Дропдовнколорпиккер, элемент
 
@@ -171,7 +171,7 @@ ms.locfileid: "103786030"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -233,16 +233,12 @@ ms.locfileid: "103786030"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Да       |
+* **Минимальная поддерживаемая система**: Windows 7
+* **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

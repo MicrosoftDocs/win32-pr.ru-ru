@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4e54abc7e13906ada69c1e10f81878c77c4bf5d8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 410326961df84f6ae62d3c43bee3e651c9533066
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070405"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443885"
 ---
 # <a name="tab-element"></a>Элемент Tab
 
@@ -79,7 +79,7 @@ ms.locfileid: "104070405"
 
 | Элемент                                                                         | Описание                                        |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Сгруппировать**](windowsribbon-element-group.md)<br/>                         | Может происходить один или несколько раз<br/> <br/> |
+| [**Группа**](windowsribbon-element-group.md)<br/>                         | Может происходить один или несколько раз<br/> <br/> |
 | [**TAB. Скалингполици**](windowsribbon-element-tab-scalingpolicy.md)<br/> | Может выполняться не более одного раза<br/> <br/>      |
 
 
@@ -95,7 +95,7 @@ ms.locfileid: "104070405"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 
@@ -195,12 +195,8 @@ ms.locfileid: "104070405"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Минимальная поддерживаемая система<br/> | Windows 7 |
-| Может быть пустым                        | Нет        |
+- **Минимальная поддерживаемая система**: Windows 7 
+- **Может быть пустым**: нет
 
 
 
