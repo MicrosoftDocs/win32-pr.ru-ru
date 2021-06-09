@@ -13,56 +13,55 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cb9265734663881981f1626db6e23c6b7dd9415a
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: fc39a71bcbfb6f3719ecfc7d0abe463a1fd127e4
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996511"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827053"
 ---
-# <a name="sv_domainlocation"></a><span data-ttu-id="674c0-104">ОКП \_ домаинлокатион</span><span class="sxs-lookup"><span data-stu-id="674c0-104">SV\_DomainLocation</span></span>
+# <a name="sv_domainlocation"></a><span data-ttu-id="8eb1c-104">ОКП \_ домаинлокатион</span><span class="sxs-lookup"><span data-stu-id="8eb1c-104">SV\_DomainLocation</span></span>
 
-<span data-ttu-id="674c0-105">Определяет расположение поверхности текущей доменной точки.</span><span class="sxs-lookup"><span data-stu-id="674c0-105">Defines the location on the hull of the current domain point being evaluated.</span></span>
+<span data-ttu-id="8eb1c-105">Определяет расположение поверхности текущей доменной точки.</span><span class="sxs-lookup"><span data-stu-id="8eb1c-105">Defines the location on the hull of the current domain point being evaluated.</span></span>
 
-## <a name="type"></a><span data-ttu-id="674c0-106">Тип</span><span class="sxs-lookup"><span data-stu-id="674c0-106">Type</span></span>
+## <a name="type"></a><span data-ttu-id="8eb1c-106">Тип</span><span class="sxs-lookup"><span data-stu-id="8eb1c-106">Type</span></span>
 
 
 
-|        |                |
+| <span data-ttu-id="8eb1c-107">Тип</span><span class="sxs-lookup"><span data-stu-id="8eb1c-107">Type</span></span>       | <span data-ttu-id="8eb1c-108">Топология ввода</span><span class="sxs-lookup"><span data-stu-id="8eb1c-108">Input topology</span></span>               |
 |--------|----------------|
-| <span data-ttu-id="674c0-107">Тип</span><span class="sxs-lookup"><span data-stu-id="674c0-107">Type</span></span>   | <span data-ttu-id="674c0-108">Топология ввода</span><span class="sxs-lookup"><span data-stu-id="674c0-108">Input Topology</span></span> |
-| <span data-ttu-id="674c0-109">float2</span><span class="sxs-lookup"><span data-stu-id="674c0-109">float2</span></span> | <span data-ttu-id="674c0-110">четыре исправления</span><span class="sxs-lookup"><span data-stu-id="674c0-110">quad patch</span></span>     |
-| <span data-ttu-id="674c0-111">float3</span><span class="sxs-lookup"><span data-stu-id="674c0-111">float3</span></span> | <span data-ttu-id="674c0-112">три исправления</span><span class="sxs-lookup"><span data-stu-id="674c0-112">tri patch</span></span>      |
-| <span data-ttu-id="674c0-113">float2</span><span class="sxs-lookup"><span data-stu-id="674c0-113">float2</span></span> | <span data-ttu-id="674c0-114">исолине</span><span class="sxs-lookup"><span data-stu-id="674c0-114">isoline</span></span>        |
+| <span data-ttu-id="8eb1c-109">float2</span><span class="sxs-lookup"><span data-stu-id="8eb1c-109">float2</span></span> | <span data-ttu-id="8eb1c-110">четыре исправления</span><span class="sxs-lookup"><span data-stu-id="8eb1c-110">quad patch</span></span>     |
+| <span data-ttu-id="8eb1c-111">float3</span><span class="sxs-lookup"><span data-stu-id="8eb1c-111">float3</span></span> | <span data-ttu-id="8eb1c-112">три исправления</span><span class="sxs-lookup"><span data-stu-id="8eb1c-112">tri patch</span></span>      |
+| <span data-ttu-id="8eb1c-113">float2</span><span class="sxs-lookup"><span data-stu-id="8eb1c-113">float2</span></span> | <span data-ttu-id="8eb1c-114">исолине</span><span class="sxs-lookup"><span data-stu-id="8eb1c-114">isoline</span></span>        |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="674c0-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="674c0-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8eb1c-115">Remarks</span><span class="sxs-lookup"><span data-stu-id="8eb1c-115">Remarks</span></span>
 
-<span data-ttu-id="674c0-116">Это системное значение является обязательным.</span><span class="sxs-lookup"><span data-stu-id="674c0-116">This system value is required.</span></span>
+<span data-ttu-id="8eb1c-116">Это системное значение является обязательным.</span><span class="sxs-lookup"><span data-stu-id="8eb1c-116">This system value is required.</span></span>
 
-<span data-ttu-id="674c0-117">Эта функция поддерживается в следующих типах шейдеров:</span><span class="sxs-lookup"><span data-stu-id="674c0-117">This function is supported in the following types of shaders:</span></span>
+<span data-ttu-id="8eb1c-117">Эта функция поддерживается в следующих типах шейдеров:</span><span class="sxs-lookup"><span data-stu-id="8eb1c-117">This function is supported in the following types of shaders:</span></span>
 
 
 
-| <span data-ttu-id="674c0-118">Вершина</span><span class="sxs-lookup"><span data-stu-id="674c0-118">Vertex</span></span> | <span data-ttu-id="674c0-119">Поверхности</span><span class="sxs-lookup"><span data-stu-id="674c0-119">Hull</span></span> | <span data-ttu-id="674c0-120">Домен</span><span class="sxs-lookup"><span data-stu-id="674c0-120">Domain</span></span> | <span data-ttu-id="674c0-121">Геометрия</span><span class="sxs-lookup"><span data-stu-id="674c0-121">Geometry</span></span> | <span data-ttu-id="674c0-122">Пиксель</span><span class="sxs-lookup"><span data-stu-id="674c0-122">Pixel</span></span> | <span data-ttu-id="674c0-123">Службы вычислений</span><span class="sxs-lookup"><span data-stu-id="674c0-123">Compute</span></span> |
+| <span data-ttu-id="8eb1c-118">Вершина</span><span class="sxs-lookup"><span data-stu-id="8eb1c-118">Vertex</span></span> | <span data-ttu-id="8eb1c-119">Поверхности</span><span class="sxs-lookup"><span data-stu-id="8eb1c-119">Hull</span></span> | <span data-ttu-id="8eb1c-120">Домен</span><span class="sxs-lookup"><span data-stu-id="8eb1c-120">Domain</span></span> | <span data-ttu-id="8eb1c-121">Geometry</span><span class="sxs-lookup"><span data-stu-id="8eb1c-121">Geometry</span></span> | <span data-ttu-id="8eb1c-122">Пиксель</span><span class="sxs-lookup"><span data-stu-id="8eb1c-122">Pixel</span></span> | <span data-ttu-id="8eb1c-123">Вычисления</span><span class="sxs-lookup"><span data-stu-id="8eb1c-123">Compute</span></span> |
 |--------|------|--------|----------|-------|---------|
-|        |      | <span data-ttu-id="674c0-124">x</span><span class="sxs-lookup"><span data-stu-id="674c0-124">x</span></span>      |          |       |         |
+|        |      | <span data-ttu-id="8eb1c-124">x</span><span class="sxs-lookup"><span data-stu-id="8eb1c-124">x</span></span>      |          |       |         |
 
 
 
  
 
-## <a name="see-also"></a><span data-ttu-id="674c0-125">См. также</span><span class="sxs-lookup"><span data-stu-id="674c0-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8eb1c-125">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="8eb1c-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="674c0-126">Семантика</span><span class="sxs-lookup"><span data-stu-id="674c0-126">Semantics</span></span>](dx-graphics-hlsl-semantics.md)
+[<span data-ttu-id="8eb1c-126">Семантика</span><span class="sxs-lookup"><span data-stu-id="8eb1c-126">Semantics</span></span>](dx-graphics-hlsl-semantics.md)
 </dt> <dt>
 
-[<span data-ttu-id="674c0-127">Модель шейдера 5</span><span class="sxs-lookup"><span data-stu-id="674c0-127">Shader Model 5</span></span>](d3d11-graphics-reference-sm5.md)
+[<span data-ttu-id="8eb1c-127">Модель шейдера 5</span><span class="sxs-lookup"><span data-stu-id="8eb1c-127">Shader Model 5</span></span>](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
  
