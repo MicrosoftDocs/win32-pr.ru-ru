@@ -5,12 +5,12 @@ ms.assetid: 8a68fc3f-118c-447b-856c-05417ae4ef29
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 6b6b5a6fb08ac962475c2f0aa2812b4c3ae5da03
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 93d8f3a3ddeb06c9168971789dff3ac8c9222d22
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104564889"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827003"
 ---
 # <a name="how-to-draw-and-fill-a-basic-shape"></a>Рисование и заполнение базовой фигуры
 
@@ -22,7 +22,7 @@ ms.locfileid: "104564889"
 -   [Рисование эллипса штриховой линией](#draw-an-ellipse-with-a-dashed-stroke)
 -   [Рисование и заливка эллипса](#draw-and-fill-an-ellipse)
 -   [Рисование более сложных фигур](#drawing-more-complex-shapes)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="draw-the-outline-of-an-ellipse-with-a-solid-stroke"></a>Рисование контура эллипса с помощью сплошного штриха
 
@@ -90,7 +90,7 @@ m_pRenderTarget->DrawEllipse(ellipse, m_pBlackBrush, 10.f, m_pStrokeStyle);
 
 ## <a name="draw-and-fill-an-ellipse"></a>Рисование и заливка эллипса
 
-Чтобы закрасить внутреннюю часть эллипса, используйте метод [**филлеллипсе**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse__id2d1brush)) . В следующем примере используется метод [**DrawEllipse**]/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse (constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) для формирования контура эллипса, а затем используется метод **филлеллипсе** для рисования внутренней части. В этом примере создаются выходные данные, показанные на следующем рисунке.
+Чтобы закрасить внутреннюю часть эллипса, используйте метод [**филлеллипсе**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse__id2d1brush)) . В следующем примере метод [**DrawEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) используется для формирования контура эллипса, а затем используется метод **филлеллипсе** для рисования внутренней части. В этом примере создаются выходные данные, показанные на следующем рисунке.
 
 ![Иллюстрация эллипса с пунктирным штрихом и последующее заполнение сплошным серым цветом](images/drawandfillellipseexample-3.png)
 
@@ -120,7 +120,7 @@ m_pRenderTarget->DrawEllipse(ellipse, m_pBlackBrush, 10.f, m_pStrokeStyle);
 
 Чтобы нарисовать более сложные фигуры, необходимо определить объекты ID2D1Geometry и использовать их с методами [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) и [**филлжеометри**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) . Дополнительные сведения см. в разделе [Общие сведения о геометрических](direct2d-geometries-overview.md)элементах.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -130,6 +130,6 @@ m_pRenderTarget->DrawEllipse(ellipse, m_pBlackBrush, 10.f, m_pStrokeStyle);
 [Обзор кистей](direct2d-brushes-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

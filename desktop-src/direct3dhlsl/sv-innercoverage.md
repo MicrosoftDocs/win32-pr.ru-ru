@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1ac278f0524446b5171ef278e169fbe7c3a082f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 168f90c17c9e6837d696ebb6dac8f39dc6dfb366
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996971"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826628"
 ---
 # <a name="sv_innercoverage"></a>ОКП \_ иннерковераже
 
@@ -27,16 +27,15 @@ ms.locfileid: "107996971"
 
 
 
-|      |
+| Тип     |
 |------|
-| Тип |
 | uint |
 
 
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это значение, созданное системой, является обязательным для поддержки уровня 3 и доступно только на этом уровне. Эти входные данные являются взаимоисключающими с покрытием "ОКП" \_ . они не могут использоваться одновременно.
 
@@ -47,7 +46,7 @@ ms.locfileid: "107996971"
 -   [11.3а в D3D, консервативная растрирование](/windows/desktop/direct3d11/conservative-rasterization)
 -   [D3D12 консервативная растрирование](/windows/desktop/direct3d12/conservative-rasterization)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

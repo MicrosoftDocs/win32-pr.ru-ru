@@ -4,14 +4,17 @@ ms.assetid: 0ec19e8c-2a14-4392-93de-7ab832784085
 title: Использование Уватлас (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b335dd6ea94a3db0c0760b0d07a0b8df3fe4c7c
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: d8faeaa0a416f6f062c81c4101ff47d5222ca75d
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104273167"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826332"
 ---
 # <a name="using-uvatlas-direct3d-9"></a>Использование Уватлас (Direct3D 9)
+
+> [!NOTE]
+> Изначально Уватлас была поставлена в библиотеку утилти D3DX9. Последняя версия доступна на странице [UV Atlas Command-Line Tool (uvatlas.exe)](https://github.com/Microsoft/UVAtlas).
 
 Для многих методов отрисовки и создания содержимого требуется уникальная, непересекающаяся схема 2D-сигнала (например, текстура) на сетке. К таким методам относятся:
 
@@ -174,9 +177,9 @@ Atlas содержит только 7 диаграмм и максимальны
 
 Помимо прорисовки текстур, эти функции можно интегрировать в автоматизированный конвейер. Например, вызов Уватлас может быть выдан автоматически после обновления ресурса до выполнения PRT моделирования или нормального сопоставления. Это позволяет избежать необходимости вручную ручного восстановления UV, если топология сетки была изменена.
 
-Пример использования функций Уватлас см. в разделе [инструмент UV Atlas Command-Line (uvatlas.exe)](https://msdn.microsoft.com/library/Ee419017(v=VS.85).aspx) .
+Пример использования функций Уватлас см. в разделе [инструмент UV Atlas Command-Line (uvatlas.exe)](https://github.com/Microsoft/UVAtlas) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

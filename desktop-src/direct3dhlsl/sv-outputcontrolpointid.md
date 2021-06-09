@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: aa6ac503eb99b24bee8e869676812c473ab42bf5
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 90e3699b06eedfe5ec655de8156363c0ec42cd05
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996911"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826542"
 ---
 # <a name="sv_outputcontrolpointid"></a>ОКП \_ аутпутконтролпоинтид
 
@@ -28,16 +28,15 @@ ms.locfileid: "107996911"
 
 
 
-|      |
+| Тип     |
 |------|
-| Тип |
 | uint |
 
 
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это системное значение является необязательным.
 
@@ -45,7 +44,7 @@ ms.locfileid: "107996911"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
+| Вершина | Поверхности | Домен | Geometry | Пиксель | Вычисления |
 |--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 
@@ -53,7 +52,7 @@ ms.locfileid: "107996911"
 
  
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

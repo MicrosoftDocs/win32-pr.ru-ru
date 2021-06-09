@@ -9,20 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ec80d296025684c1bb67642661a31d8cdc119a53
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2374063d222d06576f720fed2aa7fb714bcccf04
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998015"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111825751"
 ---
 # <a name="sample-directx-hlsl-texture-object"></a>Пример (объект текстуры HLSL DirectX)
 
 Выбор текстуры.
 
-|                                                                                  |
-|----------------------------------------------------------------------------------|
-| &lt;Тип шаблона &gt; Object. Sample ( \_ состояние образца, расположение float \[ , смещение int \] ); |
+&lt;Тип шаблона &gt; Object. Sample ( \_ состояние образца, расположение float \[ , смещение int \] );
 
 ## <a name="parameters"></a>Параметры
 
@@ -129,7 +127,7 @@ ms.locfileid: "104998015"
 1.  Текстурекубеаррай доступен в модели шейдеров 4,1 или более поздней версии.
 2.  Модель шейдеров 4,1 доступна в Direct3D 10,1 или более поздней версии.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Этот частичный пример кода основан на файле BasicHLSL11. FX в [примере BasicHLSL11](https://github.com/microsoftarchive/msdn-code-gallery-community-a-c/tree/master/Basic%20DXUT%20Win32%20Samples/%5BC%2B%2B%5D-Basic%20DXUT%20Win32%20Samples/C%2B%2B/BasicHLSL11).
 
@@ -158,7 +156,7 @@ VS_OUTPUT In;
         Output.RGBColor = g_MeshTexture.Sample(MeshTextureSampler, In.TextureUV) * In.Diffuse;
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Выбор текстуры использует расположение шаг текселя для поиска значения шаг текселя. Смещение можно применить к положению перед подстановкой. Состояние образца содержит параметры выборки и фильтрации. Этот метод может быть вызван в шейдере пикселей, но не поддерживается в шейдере вершин или шейдере Geometry.
 
@@ -176,6 +174,6 @@ VS_OUTPUT In;
 
 Возвращаемый формат данных определяется форматом текстуры. Например, если ресурс текстуры был определен в \_ \_ формате DXGI A8B8G8R8 \_ UNORM \_ sRGB, операция выборки преобразует пример пикселей текстуры из гаммы 2,0 в 1,0, отфильтрует и записывает результат в виде значения с плавающей запятой в диапазоне \[ 0.. 1 \] .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Текстура-объект](dx-graphics-hlsl-to-type.md)

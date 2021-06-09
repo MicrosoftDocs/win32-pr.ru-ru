@@ -9,7 +9,7 @@
         - name: Поддерживаемые форматы в DirectShow
           href: supported-formats-in-directshow.md
         - name: Вопросы и ответы по DirectShow
-          href: directshow-faq.md
+          href: directshow-faq.yml
     - name: Приступая к работе
       href: getting-started.md
       items:
@@ -2725,7 +2725,7 @@
             - name: играфбуилдер
               href: /windows/desktop/api/strmif/nn-strmif-igraphbuilder
               items:
-                - name: Прервать
+                - name: Прерывание
                   href: /windows/desktop/api/strmif/nf-strmif-igraphbuilder-abort
                 - name: аддсаурцефилтер
                   href: /windows/desktop/api/strmif/nf-strmif-igraphbuilder-addsourcefilter
@@ -2970,7 +2970,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-imediaseeking-converttimeformat
                 - name: Доступность
                   href: /windows/desktop/api/strmif/nf-strmif-imediaseeking-getavailable
-                - name: Возможности
+                - name: GetCapabilities
                   href: /windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities
                 - name: жеткуррентпоситион
                   href: /windows/desktop/api/strmif/nf-strmif-imediaseeking-getcurrentposition
@@ -3323,7 +3323,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-iresourcemanager-notifyacquire
                 - name: нотифирелеасе
                   href: /windows/desktop/api/strmif/nf-strmif-iresourcemanager-notifyrelease
-                - name: Регистрация
+                - name: Зарегистрировать
                   href: /windows/desktop/api/strmif/nf-strmif-iresourcemanager-register
                 - name: регистерграуп
                   href: /windows/desktop/api/strmif/nf-strmif-iresourcemanager-registergroup
@@ -5664,7 +5664,7 @@
                       href: camthread-checkrequest.md
                     - name: Закрыть
                       href: camthread-close.md
-                    - name: Создать
+                    - name: Создание
                       href: camthread-create.md
                     - name: коинитиализехелпер
                       href: camthread-coinitializehelper.md
@@ -6035,7 +6035,7 @@
                       href: cbasefilter-queryvendorinfo.md
                     - name: реконнектпин
                       href: cbasefilter-reconnectpin.md
-                    - name: Регистрация
+                    - name: Зарегистрировать
                       href: cbasefilter-register.md
                     - name: Выполнить
                       href: cbasefilter-run.md
@@ -6206,7 +6206,7 @@
                       href: cbaseoutputpin-m-pallocator.md
                     - name: m_pInputPin
                       href: cbaseoutputpin-m-pinputpin.md
-                    - name: Активен
+                    - name: Активна
                       href: cbaseoutputpin-active.md
                     - name: бегинфлуш
                       href: cbaseoutputpin-beginflush.md
@@ -6279,7 +6279,7 @@
                       href: cbasepin-m-tstop.md
                     - name: m_dRate
                       href: cbasepin-m-drate.md
-                    - name: Активен
+                    - name: Активна
                       href: cbasepin-active.md
                     - name: агримедиатипе
                       href: cbasepin-agreemediatype.md
@@ -6490,7 +6490,7 @@
                       href: cbaserenderer-m-signaltime.md
                     - name: m_ThreadSignal
                       href: cbaserenderer-m-threadsignal.md
-                    - name: Активен
+                    - name: Активна
                       href: cbaserenderer-active.md
                     - name: бегинфлуш
                       href: cbaserenderer-beginflush.md
@@ -6969,7 +6969,7 @@
                       href: cdynamicoutputpin-m-pgraphconfig.md
                     - name: m_bPinUsesReadOnlyAllocator
                       href: cdynamicoutputpin-m-bpinusesreadonlyallocator.md
-                    - name: Активен
+                    - name: Активна
                       href: cdynamicoutputpin-active.md
                     - name: асинчронаусблоккаутпутпин
                       href: cdynamicoutputpin-asynchronousblockoutputpin.md
@@ -7378,7 +7378,7 @@
                       href: cmediatype-setvariablesize.md
                     - name: Subtype
                       href: cmediatype-subtype.md
-                    - name: Тип
+                    - name: Type
                       href: cmediatype-type.md
                     - name: operator =
                       href: cmediatype-operator-.md
@@ -7599,7 +7599,7 @@
                       href: cpospassthru-forcerefresh.md
                     - name: Доступность
                       href: cpospassthru-getavailable.md
-                    - name: Возможности
+                    - name: GetCapabilities
                       href: cpospassthru-getcapabilities.md
                     - name: жеткуррентпоситион
                       href: cpospassthru-getcurrentposition.md
@@ -7654,7 +7654,7 @@
                   items:
                     - name: m_pAlloc
                       href: cpullpin-m-palloc.md
-                    - name: Активен
+                    - name: Активна
                       href: cpullpin-active.md
                     - name: алигндовн
                       href: cpullpin-aligndown.md
@@ -7733,7 +7733,7 @@
                       href: crenderedinputpin-m-batendofstream.md
                     - name: m_bCompleteNotified
                       href: crenderedinputpin-m-bcompletenotified.md
-                    - name: Активен
+                    - name: Активна
                       href: crenderedinputpin-active.md
                     - name: крендерединпутпин
                       href: crenderedinputpin-crenderedinputpin.md
@@ -7748,7 +7748,7 @@
                   items:
                     - name: m_pRenderer
                       href: crendererinputpin-m-prenderer.md
-                    - name: Активен
+                    - name: Активна
                       href: crendererinputpin-active.md
                     - name: Allocator
                       href: crendererinputpin-allocator.md
@@ -7858,7 +7858,7 @@
                       href: csourceseeking-csourceseeking.md
                     - name: Доступность
                       href: csourceseeking-getavailable.md
-                    - name: Возможности
+                    - name: GetCapabilities
                       href: csourceseeking-getcapabilities.md
                     - name: жеткуррентпоситион
                       href: csourceseeking-getcurrentposition.md
@@ -7891,7 +7891,7 @@
                   items:
                     - name: m_pFilter
                       href: csourcestream-m-pfilter.md
-                    - name: Активен
+                    - name: Активна
                       href: csourcestream-active.md
                     - name: чеккмедиатипе
                       href: csourcestream-checkmediatype.md
@@ -8386,7 +8386,7 @@
                       href: dumpgraph.md
                     - name: гуиднамес
                       href: guidnames.md
-                    - name: NAME
+                    - name: ИМЯ
                       href: name.md
                     - name: ПРИМЕЧАНИЕ
                       href: note.md
@@ -9479,7 +9479,7 @@
                       href: ixml2dex-copyxml.md
                     - name: креатеграффромфиле
                       href: ixml2dex-creategraphfromfile.md
-                    - name: DELETE
+                    - name: Удаление
                       href: ixml2dex-delete.md
                     - name: пастексмл
                       href: ixml2dex-pastexml.md
@@ -9548,7 +9548,7 @@
                   href: composition.md
                 - name: Действие
                   href: effect.md
-                - name: Группа
+                - name: Group
                   href: group.md
                 - name: Детектор мультимедиа (Медиадет)
                   href: media-detector--mediadet.md
@@ -9910,7 +9910,7 @@
                       href: /previous-versions/windows/desktop/api/mmstream/nf-mmstream-istreamsample-getsampletimes
                     - name: сетсамплетимес
                       href: /previous-versions/windows/desktop/api/mmstream/nf-mmstream-istreamsample-setsampletimes
-                    - name: Update
+                    - name: Обновление
                       href: /previous-versions/windows/desktop/api/mmstream/nf-mmstream-istreamsample-update
             - name: Типы перечислений потоковой передачи мультимедиа
               href: multimedia-streaming-types.md
@@ -10061,7 +10061,7 @@
             - name: иамовиесетуп
               href: /windows/desktop/api/strmif/nn-strmif-iamoviesetup
               items:
-                - name: Регистрация
+                - name: Зарегистрировать
                   href: /windows/desktop/api/strmif/nf-strmif-iamoviesetup-register
                 - name: 'Unregister; '
                   href: /windows/desktop/api/strmif/nf-strmif-iamoviesetup-unregister

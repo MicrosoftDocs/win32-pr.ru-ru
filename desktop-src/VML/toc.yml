@@ -7,7 +7,7 @@
         - name: Основные типы VML
           href: basic-vml-types.md
         - name: Часто задаваемые вопросы о VML
-          href: frequently-asked-questions-about-vml.md
+          href: frequently-asked-questions-about-vml.yml
         - name: Приложение
           href: web-workshop---how-to-use-vml-on-web-pages----appendix.md
     - name: Использование VML на веб-страницах
@@ -84,7 +84,7 @@
                   href: msdn-online-vml-bwnormal-attribute.md
                 - name: бвпуре
                   href: msdn-online-vml-bwpure-attribute.md
-                - name: Класс
+                - name: Class
                   href: msdn-online-vml-class-attribute.md
                 - name: коннектортипе
                   href: msdn-online-vml-connectortype-attribute.md
@@ -102,7 +102,7 @@
                   href: msdn-online-vml-flip-attribute.md
                 - name: форцедаш
                   href: msdn-online-vml-forcedash-attribute.md
-                - name: Высота
+                - name: 'Высота:'
                   href: msdn-online-vml-height-attribute.md
                 - name: HR
                   href: msdn-online-vml-hr-attribute.md
@@ -194,7 +194,7 @@
                   href: title-attribute--shape--vml.md
                 - name: Начало
                   href: msdn-online-vml-top-attribute.md
-                - name: Тип
+                - name: Type
                   href: type-attribute--shape--vml.md
                 - name: усердравн
                   href: msdn-online-vml-userdrawn-attribute.md

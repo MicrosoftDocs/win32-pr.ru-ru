@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 73cf7bc0c13987099540cecd49519de35b4b7de1
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: bc3a074641ce5b15a3d837e8bd91dfdae09fe627
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "104134823"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826688"
 ---
 # <a name="samplelevel-directx-hlsl-texture-object"></a>Самплелевел (объект текстуры DirectX HLSL)
 
 Выбор текстуры с помощью смещения на уровне mipmap.
 
-
-
-|                                                                                                  |
-|--------------------------------------------------------------------------------------------------|
-| &lt;Тип шаблона &gt; Object. самплелевел (образец \_ состояния, расположение с плавающей запятой, Лод float \[ , смещение int \] ); |
+&lt;Тип шаблона &gt; Object. самплелевел (образец \_ состояния, расположение с плавающей запятой, Лод float \[ , смещение int \] );
 
 
 
@@ -154,7 +150,7 @@ ms.locfileid: "104134823"
 1.  Текстурекубеаррай доступен в модели шейдеров 4,1 или более поздней версии.
 2.  Модель шейдеров 4,1 доступна в Direct3D 10,1 или более поздней версии.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Этот частичный пример кода находится в файле с расширением. FX в [образце Instancing10](https://msdn.microsoft.com/library/Ee416415(v=VS.85).aspx).
 
@@ -182,7 +178,7 @@ float3 RandomDir(float fOffset)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -5,12 +5,12 @@ ms.assetid: 565B28C1-DBD1-42B6-87F9-70743E4A2E4A
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed993618e021656dbc9377882e2961f7f0d62263
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 87209dfc324b950a74d2b31e5f1a1f6326792b9f
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335648"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826440"
 ---
 # <a name="creating-a-root-signature"></a>Создание корневой подписи
 
@@ -31,7 +31,7 @@ API для создания корневой подписи принимает �
 -   [API создания корневой подписи](#root-signature-creation-api)
 -   [Корневая подпись в объектах состояния конвейера](#root-signature-in-pipeline-state-objects)
 -   [Код для определения корневой сигнатуры версии 1,1](#code-for-defining-a-version-11-root-signature)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="descriptor-table-bind-types"></a>Типы привязки таблицы дескрипторов
 
@@ -205,7 +205,7 @@ CreatePipelineStatesAhreadOfTime(pRootSignature); // The root signature is passe
 ...
 
 ID3D12DescriptorHeap* pHeaps[2] = {pCommonHeap, pSamplerHeap};
-pGraphicsCommandList->SetDescriptorHeaps(pHeaps,2);
+pGraphicsCommandList->SetDescriptorHeaps(2,pHeaps);
 pGraphicsCommandList->SetGraphicsRootSignature(pRootSignature);
 pGraphicsCommandList->SetGraphicsRootDescriptorTable(
                         6,heapOffsetForMoreData,DescRange[5].NumDescriptors);

@@ -4,12 +4,12 @@ ms.assetid: 857e2aed-d082-d990-1c67-e22ce3d07310
 title: Функции цвета библиотеки Директксмас
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f0b31e02e2efe14c39864a455df9f22f98fea03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7d3cc7870012da5aa016bb1a353e8eacc85eda8
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811716"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827650"
 ---
 # <a name="directxmath-library-color-functions"></a>Функции цвета библиотеки Директксмас
 
@@ -42,17 +42,19 @@ ms.locfileid: "103811716"
 | [**ксмколорргбтоксиз**](/windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoxyz)<br/>                 | Преобразует значения цвета RGB в значения цвета XYZ.<br/>                                                                                     |
 | [**ксмколорргбтойув**](/windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoyuv)<br/>                 | Преобразует значения цвета RGB в значения цвета YUV.<br/>                                                                                     |
 | [**Ксмколорргбтойув \_ HD**](/windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoyuv_hd)<br/>          | Преобразует значения цвета RGB в значения цветов YUV в формате "режим HD".<br/>                                                                                  |
+| [**Ксмколорргбтойув \_ UHD**](/windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoyuv_uhd)<br/>        | Преобразует значения цвета RGB в значения цвета YUV UHD.<br/>                                                                                  |
 | [**ксмколорсргбтоксиз**](/windows/win32/api/directxmath/nf-directxmath-xmcolorsrgbtoxyz)<br/>               | Преобразует значения цвета SRGB в значения цвета XYZ.<br/>                                                                                    |
 | [**ксмколорксизторгб**](/windows/win32/api/directxmath/nf-directxmath-xmcolorxyztorgb)<br/>                 | Преобразует значения цвета XYZ в значения цвета RGB.<br/>                                                                                     |
 | [**ксмколорксизтосргб**](/windows/win32/api/directxmath/nf-directxmath-xmcolorxyztosrgb)<br/>               | Преобразует значения цвета XYZ в значения цвета SRGB.<br/>                                                                                    |
 | [**ксмколорювторгб**](/windows/win32/api/directxmath/nf-directxmath-xmcoloryuvtorgb)<br/>                 | Преобразует значения цвета YUV в значения цвета RGB.<br/>                                                                                     |
 | [**Ксмколорювторгб \_ HD**](/windows/win32/api/directxmath/nf-directxmath-xmcoloryuvtorgb_hd)<br/>          | Преобразует значения цвета YUV в значения цвета RGB HD.<br/>                                                                                  |
+| [**Ксмколорювторгб \_ UHD**](/windows/win32/api/directxmath/nf-directxmath-xmcoloryuvtorgb_uhd)<br/>        | Преобразует значения цвета YUV в значения цвета UHD RGB.<br/>                                                                                  |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

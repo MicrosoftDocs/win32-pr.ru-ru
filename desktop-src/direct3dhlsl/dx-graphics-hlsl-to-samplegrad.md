@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 236c453f3636452cbba8ed6000b2416e5187898d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 959304d36da2b95bdf6289fba1b8c75d6ecfa314
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273444"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111825741"
 ---
 # <a name="samplegrad-directx-hlsl-texture-object"></a>Самплеград (объект текстуры DirectX HLSL)
 
 Выбор текстуры с помощью градиента, чтобы повлиять на способ вычисления расположения образца.
 
-
-
-|                                                                                                            |
-|------------------------------------------------------------------------------------------------------------|
-| &lt;Тип шаблона &gt; Object. самплеград (выборка \_ состояния, расположение с плавающей точкой, Обмен плавающей запятой, ДДИ с плавающей запятой, \[ смещение int \] ); |
+&lt;Тип шаблона &gt; Object. самплеград (выборка \_ состояния, расположение с плавающей точкой, Обмен плавающей запятой, ДДИ с плавающей запятой, \[ смещение int \] );
 
 
 
@@ -221,7 +217,7 @@ ms.locfileid: "104273444"
 1.  Текстурекубеаррай доступен в модели шейдеров 4,1 или более поздней версии.
 2.  Модель шейдеров 4,1 доступна в Direct3D 10,1 или более поздней версии.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Этот частичный пример кода относится к файлу Мотионблур. FX в [примере MotionBlur10](https://msdn.microsoft.com/library/Ee416417(v=VS.85).aspx).
 
@@ -260,7 +256,7 @@ float4 PSSceneMain( VSSceneOut Input ) : SV_TARGET
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

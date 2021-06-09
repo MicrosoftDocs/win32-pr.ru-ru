@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b9c2581f8d6c039b5c35be3b6f4ae755e14813dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd5d1e9360a311d1431d851c0c2697644afcc16c
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701835"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826450"
 ---
 # <a name="xmu565-constructors"></a>Конструкторы XMU565
 
@@ -64,8 +64,8 @@ ms.locfileid: "105701835"
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(constuint8_t)"><strong>XMU565 (const int8_t *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMU565</code> из трех <code>int8_t</code> массивов элементов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> из трех <code>int8_t</code> массивов элементов. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(constuint8_t)"><strong>XMU565 (const uint8_t *)</strong></a></td>
+<td style="text-align: left;">Инициализирует новый экземпляр <code>XMU565</code> из трех <code>uint8_t</code> массивов элементов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> из трех <code>uint8_t</code> массивов элементов. <br/>
 <blockquote>
 [!Note]<br />
 Этот конструктор доступен только в C++.
@@ -82,8 +82,8 @@ ms.locfileid: "105701835"
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(float_float_float)"><strong>XMU565 (int8_t, int8_t, int8_t)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMU565</code> из трех <code>int8_t</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> из трех <code>int8_t</code> аргументов. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(float_float_float)"><strong>XMU565 (uint8_t, uint8_t, uint8_t)</strong></a></td>
+<td style="text-align: left;">Инициализирует новый экземпляр <code>XMU565</code> из трех <code>uint8_t</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> из трех <code>uint8_t</code> аргументов. <br/>
 <blockquote>
 [!Note]<br />
 Этот конструктор доступен только в C++.
@@ -111,7 +111,7 @@ ms.locfileid: "105701835"
 [Расширения XMU565](ovw-xmu565-extensions.md)
 </dt> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**XMU565**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu565)

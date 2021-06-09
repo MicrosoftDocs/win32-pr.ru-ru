@@ -4,12 +4,12 @@ ms.assetid: bcbf8ae1-ed49-fdf7-812d-b2089537ab28
 title: Оптимизация кода с помощью библиотеки Директксмас
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d11b331077e3d6538952a2f7956641b8b3919e14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15369ab36e199eb1a204cc4b761dc637f114f2a1
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692618"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827258"
 ---
 # <a name="code-optimization-with-the-directxmath-library"></a>Оптимизация кода с помощью библиотеки Директксмас
 
@@ -25,7 +25,7 @@ ms.locfileid: "105692618"
 -   [Использование преимуществ целочисленной двойной разрядности с плавающей запятой](#take-advantage-of-the-integer-floating-point-duality)
 -   [Предпочитать шаблонные формы](#prefer-template-forms)
 -   [Использование Директксмас с Direct3D](#using-directxmath-with-direct3d)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="use-accessors-sparingly"></a>Использование методов доступа с осторожностью
 
@@ -63,7 +63,7 @@ ms.locfileid: "105692618"
 
 По этой причине операции Директксмас с использованием объектов [**ксмвектор**](xmvector-data-type.md) и [**ксмматрикс**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) предполагают, что эти объекты имеют размер 16 байт. Это происходит автоматически при распределении на основе стека, если код компилируется для библиотеки Директксмас с помощью рекомендуемых параметров компилятора Windows (см. раздел [Использование правильных параметров компиляции](#use-correct-compilation-settings)). Однако важно обеспечить, чтобы выделение кучи, содержащее объекты **ксмвектор** и **ксмматрикс** , или приведение к этим типам соответствовало этим требованиям к выравниванию.
 
-Хотя 64-разрядные выделения памяти Windows разделяются 16 байтами, по умолчанию для 32 разрядных выпусков памяти Windows выделяется всего 8 байт. Сведения об управлении выравниванием памяти см. в разделе [ \_ Выравнивание \_ malloc](https://msdn.microsoft.com/library/8z34s9c6(VS.80).aspx).
+Хотя 64-разрядные выделения памяти Windows разделяются 16 байтами, по умолчанию для 32 разрядных выпусков памяти Windows выделяется всего 8 байт. Сведения об управлении выравниванием памяти см. в разделе [ \_ Выравнивание \_ malloc](https://docs.microsoft.com/cpp/c-runtime-library/reference/aligned-malloc).
 
 При использовании выровненных типов Директксмас с стандартной библиотекой шаблонов (STL) необходимо предоставить пользовательский распределитель, обеспечивающий возможность выравнивания в 16 байт. Пример написания пользовательского распределителя (а не malloc/Free) см. в [блоге](https://devblogs.microsoft.com/cppblog/the-mallocator/) по Visual C++ команде \_ . в вашей реализации вы захотите использовать согласованную функцию \_ malloc и \_ выровняйте ее \_ бесплатно.
 
@@ -135,7 +135,7 @@ ms.locfileid: "105692618"
 
 -   С помощью Direct3D 10. x и Direct3D 11. x можно предположить, что указатель, возвращаемый методом Map (например, [**ссылку ID3D11DeviceContext:: Map**](/windows/win32/api/d3d11/nf-d3d11-id3d11devicecontext-map)) в элементе **pData** ([**D3D10 \_ сопоставлен \_ TEXTURE2D**](/windows/win32/api/d3d10/ns-d3d10-d3d10_mapped_texture2d).**pData**, [**D3D10, \_ сопоставленный \_ TEXTURE3D**](/windows/win32/api/d3d10/ns-d3d10-d3d10_mapped_texture3d).**pData** или [**D3D11 \_ сопоставленный \_ подресурс**](/windows/win32/api/d3d11/ns-d3d11-d3d11_mapped_subresource).**pData**) — это 16-байтовое выравнивание при использовании [уровня компонентов](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 10 \_ 0 или более поздней версии или при использовании [**\_ \_ промежуточных ресурсов D3D11**](/windows/win32/api/d3d11/ne-d3d11-d3d11_usage) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

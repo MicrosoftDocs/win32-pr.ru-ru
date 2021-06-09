@@ -13,22 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6feeaa586abe30fa8a36c28d0298dc408cdfb099
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5c92a6375f0724a1910fc0f09b47e1593614f9f1
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104333907"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826083"
 ---
 # <a name="packoffset"></a>паккоффсет
 
 Необязательное ключевое слово упаковки константы шейдера, которое использует следующий синтаксис:
 
-
-
-|                                                 |
-|-------------------------------------------------|
-| : паккоффсет (компонент вспомогательного компонента в c \[ \] \[ \] ) |
+: паккоффсет (компонент вспомогательного компонента в c \[ \] \[ \] )
 
 
 
@@ -48,7 +44,7 @@ ms.locfileid: "104333907"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Используйте это ключевое слово для упаковки константы шейдера вручную при [объявлении типа переменной](dx-graphics-hlsl-variable-syntax.md).
 

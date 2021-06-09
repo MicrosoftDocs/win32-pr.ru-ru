@@ -4,24 +4,27 @@ ms.assetid: 105800d3-a191-c78f-316a-bf2daf7b27a6
 title: Новые возможности (Директксмас)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb9fa8c7ee0600ce0b0fa5eade3a3e111e5edbe4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1df1e7f25789ca6f58205ce9f45482e0a49540d1
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692617"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827630"
 ---
 # <a name="whats-new-directxmath"></a>Новые возможности (Директксмас)
 
-Библиотека Директксмас основана на [библиотеке XNA Math C++ SIMD версии 2,04](https://walbourn.github.io/). Здесь описывается отличие Директксмас от XNA Math и отличия версий Директксмас.
+Библиотека Директксмас основана на [библиотеке XNA Math C++ SIMD версии 2,04](https://walbourn.github.io/xna-math-version-2-04/). Здесь описывается отличие Директксмас от XNA Math и отличия версий Директксмас.
 
 -   [Журнал рлеасе](#release-history)
 -   [Директксмас различия от XNA Math](#directxmath-differences-from-xna-math)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="release-history"></a>История выпусков
 
 <table>
+ <tr>
+  <td>Пакет SDK для Windows 10 (20348), версия 2104</td><td>Директксмас 3,16</td>
+ </td>
  <tr>
   <td>Windows 10 Май 2020 обновление пакета SDK</td><td>Директксмас 3,14</td>
  </tr>
@@ -66,7 +69,7 @@ ms.locfileid: "105692617"
 -   Переработано [**ксмвекторпермуте**](/windows/win32/api/directxmath/nf-directxmath-xmvectorpermute) для улучшения оптимизации SSE и встроенных функций ARM-Neon.
 -   Тип [**ксмматрикс**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) является полностью непрозрачным. Для доступа к отдельным элементам **ксмматрикс** используйте другие типы, например [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

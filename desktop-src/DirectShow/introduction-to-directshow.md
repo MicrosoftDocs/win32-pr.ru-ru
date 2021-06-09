@@ -4,12 +4,12 @@ ms.assetid: 39a701b3-2633-426f-9733-2172ad3ea372
 title: Введение в DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01733db5f8168a67871ec1797f79cd10a90c6c22
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5706ff0dec34c5db3762f5782f96804e5c85e889
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139887"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827228"
 ---
 # <a name="introduction-to-directshow"></a>Введение в DirectShow
 
@@ -27,9 +27,9 @@ DirectShow упрощает воспроизведение мультимеди�
 
 -   [Новые возможности DirectShow](whats-new-in-directshow.md)
 -   [Поддерживаемые форматы в DirectShow](supported-formats-in-directshow.md)
--   [Вопросы и ответы по DirectShow](directshow-faq.md)
+-   [Вопросы и ответы по DirectShow](directshow-faq.yml)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

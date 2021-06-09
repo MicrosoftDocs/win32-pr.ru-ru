@@ -4,12 +4,12 @@ ms.assetid: aae12d4a-7758-83df-5376-99d5d94a28c4
 title: Векторные функции трансцендентных
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb4d62ce18e6880f998a944b7a88101ac33964d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5927f8a477b4d55e8ed03ca6d61f329e76f11be2
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711513"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827660"
 ---
 # <a name="transcendental-vector-functions"></a>Векторные функции трансцендентных
 
@@ -33,9 +33,11 @@ ms.locfileid: "105711513"
 | [**ксмвекторкосест**](/windows/win32/api/directxmath/nf-directxmath-xmvectorcosest)<br/>       | Оценивает косинус каждого компонента [**ксмвектор**](xmvector-data-type.md).<br/>            |
 | [**ксмвекторкош**](/windows/win32/api/directxmath/nf-directxmath-xmvectorcosh)<br/>           | Вычисляет гиперболический косинус каждого компонента [**ксмвектор**](xmvector-data-type.md).<br/>  |
 | [**ксмвекторексп**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp)<br/>             | Вычисление двух порожденных возможностей для каждого компонента.<br/>                                            |
+| [**XMVectorExp10**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp10)<br/>         | Выдает десять, возведенное в степень для каждого компонента.<br/>                                            |
 | [**XMVectorExp2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp2)<br/>           | Вычисление двух порожденных возможностей для каждого компонента.<br/>                                            |
 | [**ксмвекторекспе**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexpe)<br/>           | Вычисление e (~ 2,71828), возведенное в степень для каждого компонента.<br/>                                   |
 | [**ксмвекторлог**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog)<br/>             | Вычисляет базовый два логарифма каждого компонента вектора.<br/>                                  |
+| [**XMVectorLog10**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog10)<br/>         | Вычисляет базовый 10-логарифм каждого компонента вектора.<br/>                                  |
 | [**XMVectorLog2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog2)<br/>           | Вычисляет базовый два логарифма каждого компонента вектора.<br/>                                  |
 | [**ксмвекторложе**](/windows/win32/api/directxmath/nf-directxmath-xmvectorloge)<br/>           | Вычисляет базовый логарифм каждого компонента вектора e.<br/>                                    |
 | [**ксмвекторсин**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsin)<br/>             | Вычисляет синус каждого компонента [**ксмвектор**](xmvector-data-type.md).<br/>               |
@@ -51,13 +53,13 @@ ms.locfileid: "105711513"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [**Ксмвекторексп**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp) — это псевдоним совместимости для [**XMVectorExp2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp2) для существующего кода Windows 8. **Ксмвекторексп** является устаревшим для Windows 8.1. Не используйте его, а используйте **XMVectorExp2** или [**ксмвекторекспе**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexpe).
 
 [**Ксмвекторлог**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog) — это псевдоним совместимости для [**XMVectorLog2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog2) для существующего кода Windows 8. **Ксмвекторлог** является устаревшим для Windows 8.1. Не используйте его, а используйте **XMVectorLog2** или [**ксмвекторложе**](/windows/win32/api/directxmath/nf-directxmath-xmvectorloge).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

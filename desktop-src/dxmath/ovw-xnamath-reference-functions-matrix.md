@@ -4,12 +4,12 @@ ms.assetid: d59d0dcc-deae-3f7e-55c5-0c5ff383343b
 title: Функции матрицы Директксмас Library
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15e9c6110db6bb3ce9ee883406445ad3a04681cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a91ecdef8389bf60594d370c2b3de01995bc1169
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701854"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826769"
 ---
 # <a name="directxmath-library-matrix-functions"></a>Функции матрицы Директксмас Library
 
@@ -69,12 +69,13 @@ ms.locfileid: "105701854"
 | [**ксмматрикстранслатион**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranslation)<br/>                                       | Создает матрицу перевода на основе указанных смещений.<br/>                                                                     |
 | [**ксмматрикстранслатионфромвектор**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranslationfromvector)<br/>                   | Создает матрицу перевода из вектора.<br/>                                                                                  |
 | [**ксмматрикстранспосе**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranspose)<br/>                                           | Выполняет перестановку матрицы.<br/>                                                                                         |
+| [**ксмматриксвектортенсорпродукт**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixvectortensorproduct)<br/>                                           | Вычислит внешнее тензорныеное произведение 2 векторов.<br/>                                                                                         |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
