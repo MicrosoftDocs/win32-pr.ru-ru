@@ -15,12 +15,12 @@ keywords:
 - VML (язык VML), преимущества
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0ba51fd041f36915eaafe20201876653f597e04
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 4637fff0550ce9c93e295c51fc529f62c370b8aa
+ms.sourcegitcommit: 78ce1d1e3f12ee3e08390868e5b93c034f437657
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105674520"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111910254"
 ---
 # <a name="vector-markup-language-vml"></a>Язык VML (VML)
 
@@ -72,7 +72,7 @@ VML также поддерживается Microsoft Office 2000 или бол�
 
 См. следующие ссылки:
 
--   Ответы на часто задаваемые вопросы о VML см. в разделе [вопросы и ответы о VML](frequently-asked-questions-about-vml.md).
+-   Ответы на часто задаваемые вопросы о VML см. в разделе [вопросы и ответы о VML](frequently-asked-questions-about-vml.yml).
 -   Руководство по использованию VML на веб-страницах см. в разделе [использование VML на веб-страницах](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md), дополняющих [спецификацию VML](https://www.w3.org/TR/NOTE-datetime.html) , отправленную консорциуму W3C.
 -   Сведения о типах данных VML см. в документе [основные типы VML](basic-vml-types.md) .
 -   Полный справочник по VML, в том числе сведения об использовании VML с тегами, а также в написании сценариев см. в [справочнике по VML](msdn-online-vml-introduction.md).
