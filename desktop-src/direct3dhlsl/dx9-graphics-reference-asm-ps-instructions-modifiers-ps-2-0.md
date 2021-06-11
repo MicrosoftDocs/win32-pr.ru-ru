@@ -1,6 +1,6 @@
 ---
 title: Модификаторы для ps_2_0 и более поздних версий
-description: Модификаторы инструкций влияют на результат инструкции перед его записью в регистр назначения.
+description: Модификаторы инструкций влияют на результат инструкции перед его записью в регистр назначения. Сведения об модификаторах для ps_2_0 и более поздних версий.
 ms.assetid: eb2a8a1f-51bc-4516-b679-a8fb25b0dda0
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7141576b80b7a05a3e61ee9a98fa36958b1d5530
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dc8ed91f8e103ebbab7c43ffe53201f0e1d5dfcf
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889220"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989289"
 ---
 # <a name="modifiers-for-ps_2_0-and-above"></a>Модификаторы для PS \_ 2 \_ и более поздних версий
 
@@ -32,7 +32,7 @@ ms.locfileid: "103889220"
 
 
 
- 
+ 
 
 ## <a name="centroid"></a>Центроид
 
@@ -97,16 +97,16 @@ dp3_sat r0, v0, c1
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

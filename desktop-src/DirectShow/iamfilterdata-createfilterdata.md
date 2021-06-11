@@ -1,5 +1,5 @@
 ---
-description: Примечание. Этот интерфейс не рекомендуется к использованию.
+description: 'Сведения о методе Иамфилтердата:: Креатефилтердата, который создает двоичные данные реестра для фильтра. Этот интерфейс не рекомендуется к использованию.'
 ms.assetid: ab6972ef-7c28-4cd1-b007-eb70f9aeb2cb
 title: 'Метод Иамфилтердата:: Креатефилтердата ( \_ данные о данных. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Quartz.dll
-ms.openlocfilehash: 4c83f19de8e709f9890b23957f730fbbac12dd7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0a0126266fc33dca030abad65ccf9f0d35f6e195
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675300"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989459"
 ---
 # <a name="iamfilterdatacreatefilterdata-method"></a>Метод Иамфилтердата:: Креатефилтердата
 
@@ -73,7 +73,7 @@ HRESULT CreateFilterData(
 
 Если метод завершается успешно, возвращается значение S \_ ОК. В противном случае функция возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Заголовок Headers \_ Data. h находится в каталоге с [образцом модуля сопоставления](mapper-sample.md) в Windows SDK.
@@ -86,7 +86,7 @@ HRESULT CreateFilterData(
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>\_Данные о данных. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>\_Данные о данных. h</dt> </dl> |
 | DLL<br/>    | <dl> <dt>Quartz.dll</dt> </dl>  |
 
 

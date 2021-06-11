@@ -1,15 +1,15 @@
 ---
-description: В Windows Vista и более поздних версиях метаданные стали центральным способом организации таких элементов, как файлы, электронная почта или контакты.
+description: Узнайте, как создать обработчик свойств, который считывает и записывает свойства в файловый поток и из него. Каждый обработчик связан с заданным типом файла.
 ms.assetid: 9dacd399-2cf3-40dd-9501-f26f0281500d
 title: Реализация обработчиков свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcef615ce1ebb5041d79dd9c6ccf8cf129d189aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf37ae37e43ce14cf69bec44e7f210b32373d38e
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265496"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989269"
 ---
 # <a name="implementing-property-handlers"></a>Реализация обработчиков свойств
 
@@ -24,7 +24,7 @@ ms.locfileid: "104265496"
 -   [Регистрация и распространение обработчиков свойств](./prophand-reg-dist.md)
 -   [Рекомендации и вопросы и ответы по обработчикам свойств](./prophand-bestprac-faq.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

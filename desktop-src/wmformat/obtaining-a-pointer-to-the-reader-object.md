@@ -1,6 +1,6 @@
 ---
 title: Получение указателя на объект Reader (пакет SDK для Windows Media Format 11)
-description: Получение указателя на объект Reader
+description: Узнайте, как получить указатель на объект Reader пакета SDK Windows Media Format с помощью интерфейса IWMReaderAdvanced2.
 ms.assetid: 70696ffc-2612-460d-b445-f200ba85d3c7
 keywords:
 - Пакет SDK для Windows Media Format, DirectShow
@@ -21,12 +21,12 @@ keywords:
 - IWMReaderAdvanced2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e0bb6611ba1d4e3c41fb2c00a68dd9c898505f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6dd31bd868365b87b38eefd0c0c81e8beafef51c
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340105"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989139"
 ---
 # <a name="obtaining-a-pointer-to-the-reader-object-windows-media-format-11-sdk"></a>Получение указателя на объект Reader (пакет SDK для Windows Media Format 11)
 

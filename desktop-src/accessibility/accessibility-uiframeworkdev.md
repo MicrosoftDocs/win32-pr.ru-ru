@@ -1,14 +1,14 @@
 ---
-description: Обзор специальных возможностей Windows, которые можно включить в платформу пользовательского интерфейса.
+description: Узнайте о разработке доступных платформ пользовательского интерфейса для Windows с помощью этого обзора специальных возможностей Windows, которые можно включить в платформу пользовательского интерфейса.
 title: Разработка платформ пользовательского интерфейса со специальными возможностями для Windows
 ms.topic: article
 ms.date: 04/18/2019
-ms.openlocfilehash: 9083bdb8b9c7ab9dd7dd30c675a72fafa4c065c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d18881913b2a366f086e45473e0f67e57ead66a2
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142646"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988849"
 ---
 # <a name="developing-accessible-ui-frameworks-for-windows"></a>Разработка платформ пользовательского интерфейса со специальными возможностями для Windows
 
@@ -16,7 +16,7 @@ ms.locfileid: "104142646"
 
 В этом обзоре описывается создание платформы пользовательского интерфейса, которая поддерживает такие функции, как программный доступ и Автоматизация, Навигация с помощью клавиатуры и команды, параметры цвета и темы, а также Персонализация с помощью параметров пользователя.
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 - [Модель автоматизации пользовательского интерфейса для Win32](/windows/desktop/winauto/entry-uiauto-win32)
 - [Специальные возможности клавиатуры](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)

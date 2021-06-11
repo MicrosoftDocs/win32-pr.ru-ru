@@ -1,6 +1,6 @@
 ---
 title: Элемент Акцептсервернаме (Пеапекстенсионстипе) (EAPHost)
-description: Указывает, проверяется ли имя сервера на соответствие строке имени, указанной в элементе ServerName (Сервервалидатионпараметерс). | Акцептсервернаме (Пеапекстенсионстипе), элемент
+description: Элемент Акцептсервернаме (Пеапекстенсионстипе) указывает, проверяется ли имя сервера на соответствие строке имени, указанной в ServerName в схеме mspeapconnectionpropertiesv1.
 ms.assetid: 95173b57-8100-44e4-98f0-4f2a3deabce7
 keywords:
 - элемент EAPHost
@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ba4874b7c8761f35fa93387b23eaf5463a31bcf4
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 64565b24da0b4a93fd35fd3c4a6e7075546024c4
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314607"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989099"
 ---
 # <a name="acceptservername-peapextensionstype-element-eaphost"></a>Элемент Акцептсервернаме (Пеапекстенсионстипе) (EAPHost)
 
@@ -49,7 +49,7 @@ ms.locfileid: "107314607"
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
 title: Свойство Left (объект страница свойств)
-description: Свойство Left
+description: Сведения о левом свойстве объекта страница свойств. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: 81b90391-300f-4100-98fe-7657223e3bfd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae6b491c64d0a428ea0fbe35b43d8840d415522d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ccf1ecf1b5dfe97e66e7b6d73569c98abc8de9a4
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988105"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989029"
 ---
 # <a name="left-property-propertysheet-object"></a>Свойство Left (объект страница свойств)
 
@@ -31,7 +31,7 @@ ms.locfileid: "103988105"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сервер отображает окно на основе расположения, установленного пользователем.
 

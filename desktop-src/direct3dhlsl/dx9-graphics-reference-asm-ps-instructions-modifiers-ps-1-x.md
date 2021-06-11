@@ -1,6 +1,6 @@
 ---
 title: Модификаторы для ps_1_X
-description: Модификаторы инструкций влияют на результат инструкции перед его записью в регистр назначения.
+description: Модификаторы инструкций влияют на результат инструкции перед его записью в регистр назначения. Сведения об модификаторах для ps_1_X.
 ms.assetid: 15b892da-b6fd-4bd5-8889-bc48035e7819
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bbc8a9b13f7ffc29cf84bc839409f29bea6c8c8b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6c97196040a8f5f9888cb2fb354dcc18ca3743c7
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889195"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988729"
 ---
 # <a name="modifiers-for-ps_1_x"></a>Модификаторы для PS \_ 1 \_ X
 
@@ -37,7 +37,7 @@ ms.locfileid: "103889195"
 
 
 
- 
+ 
 
 -   Модификатор перемножения умножает данные регистров на степень двух после считывания. Это то же самое, что и сдвиг влево.
 -   Модификатор деления делит данные регистров на степень двух после считывания. Это то же самое, что и право сдвига вправо.
@@ -107,16 +107,16 @@ add_x2_sat dest, src0, src1
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

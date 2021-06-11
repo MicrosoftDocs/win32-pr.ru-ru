@@ -1,15 +1,15 @@
 ---
-description: В Windows Vista и более поздних версиях метаданные стали центральным способом организации таких элементов, как файлы, электронная почта или контакты.
+description: Сведения о сценариях разработки для пользовательских свойств и обработчиков свойств в системе свойств Windows.
 ms.assetid: 3281736b-f9ea-4699-a128-3bce6810126e
 title: Руководством разработчика системы свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6746c24d24a6926d20078c00f6780c72fb7c8e0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46a26044d0d457d4ba24b8c9a18555885c12a571
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663557"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988929"
 ---
 # <a name="property-system-developers-guide"></a>Руководством разработчика системы свойств
 
@@ -20,7 +20,7 @@ ms.locfileid: "105663557"
 -   [Создание пользовательских свойств](./building-property-handlers-property-schemas.md)
 -   [Реализация обработчиков свойств](./building-property-handlers.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

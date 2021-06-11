@@ -1,6 +1,6 @@
 ---
 title: Интерфейсы пакета SDK Windows Media Format
-description: Интерфейсы
+description: Сведения о интерфейсах, поддерживаемых пакетом SDK для Windows Media Format, и их связях с объектами и другими интерфейсами.
 ms.assetid: c61a0739-09f2-497f-a2cd-d3f2472738e3
 keywords:
 - Windows Media Format SDK, интерфейсы
@@ -8,12 +8,12 @@ keywords:
 - ASF (Расширенный системный формат), интерфейсы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c49610d4b7664e6ef9f5259300cca720b62fc2bc
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a21cb5c82855b75d3acfb20c4368d8dffa65dc30
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800665"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989091"
 ---
 # <a name="windows-media-format-sdk-interfaces"></a>Интерфейсы пакета SDK Windows Media Format
 
@@ -236,7 +236,7 @@ ms.locfileid: "103800665"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Идентификатор интерфейса для каждого интерфейса в этом пакете SDK — это имя интерфейса с префиксом IID \_ . Например, идентификатором для интерфейса **ивмреадерадванцед** является IID \_ ивмреадерадванцед. Чтобы получить указатель на интерфейс **ивмреадерадванцед** объекта Reader, используйте следующий код, где *преадер* является указателем на интерфейс **ивмреадер** :
 
@@ -250,7 +250,7 @@ hr = pReader->QueryInterface(IID_IWMReaderAdvanced,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

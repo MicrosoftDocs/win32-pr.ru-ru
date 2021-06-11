@@ -1,6 +1,6 @@
 ---
 title: Примеры носителей (пакет SDK для Windows Media Format 11)
-description: Примеры носителей
+description: Узнайте о примерах мультимедиа в пакете SDK для Windows Media Format 11. Пример носителя — это объект, содержащий упорядоченный список из нуля или более буферов.
 ms.assetid: 5fe0d261-c4a8-4b8e-b5dd-668ce067723c
 keywords:
 - Windows Media Format SDK, примеры мультимедиа
@@ -11,12 +11,12 @@ keywords:
 - ASF (Расширенный системный формат), примеры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67d46a933775877f4566115ba3936c0f9f8bd7b3
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6b8d264aa23e80f1e692f28789c2f2e631ef3ed8
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988137"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989079"
 ---
 # <a name="media-samples-windows-media-format-11-sdk"></a>Примеры носителей (пакет SDK для Windows Media Format 11)
 
@@ -28,7 +28,7 @@ ms.locfileid: "103988137"
 
 **Примечание** . Термин пример используется в этом пакете SDK для ссылки на пример носителя, а не аудио. В примере кодирования звука образец ссылается на одно закодированное звуковое значение. Как правило, качество закодированного звука определяется числом выборок в секунду. Например, звук с качеством CD записывается в 44 100 выборок в секунду. Это значение обычно сокращается с помощью нотации Гц, поэтому 44 100 выборок в секунду будет составлять 44 100 Гц или 44,1 кГц.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Со временем могут быть созданы различные версии TAPI, приложений и поставщиков служб.
+description: Дополнительные сведения об управлении версиями ТСПИ. Со временем могут быть созданы различные версии TAPI, приложений и поставщиков служб.
 ms.assetid: 994fad0e-5958-4d93-8952-9db2bbe01f44
 title: Управление версиями ТСПИ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe405a629ddc64f76535b33554509b1a6fca81d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e0a0663a1fcc685df8643c634ec627f669aafe8
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542442"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989239"
 ---
 # <a name="tspi-versioning"></a>Управление версиями ТСПИ
 

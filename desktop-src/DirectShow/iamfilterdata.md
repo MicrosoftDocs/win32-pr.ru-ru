@@ -1,5 +1,5 @@
 ---
-description: Примечание. Этот интерфейс не рекомендуется к использованию.
+description: Сведения об интерфейсе Иамфилтердата, который преобразует данные фильтра в Упакованные двоичные данные. Этот интерфейс не рекомендуется к использованию.
 ms.assetid: d9800850-b0ee-44f7-bcb4-f2bac8d17693
 title: Интерфейс Иамфилтердата (данные о фай \_ . h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - fil_data.h
-ms.openlocfilehash: 1ab5ea8e9c90c043c33cca4d9f8138dd7d9937ad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1e43e0f16ddfdee596f0dc6bd736ed86fc6fa37d
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675298"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989439"
 ---
 # <a name="iamfilterdata-interface"></a>Интерфейс Иамфилтердата
 
@@ -29,7 +29,7 @@ ms.locfileid: "105675298"
 
 `IAMFilterData`Интерфейс преобразует сведения о фильтре в Упакованные двоичные данные, которые могут храниться в реестре. Объект сопоставителя фильтров предоставляет этот интерфейс.
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **иамфилтердата** наследует от интерфейса [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) . **Иамфилтердата** также имеет следующие типы членов:
 
@@ -50,7 +50,7 @@ ms.locfileid: "105675298"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Заголовок Headers \_ Data. h находится в каталоге с [образцом модуля сопоставления](mapper-sample.md) в Windows SDK.
@@ -63,7 +63,7 @@ ms.locfileid: "105675298"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>\_Данные о данных. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>\_Данные о данных. h</dt> </dl> |
 
 
 

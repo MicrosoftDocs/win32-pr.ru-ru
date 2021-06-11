@@ -1,6 +1,6 @@
 ---
 title: Акцептсервернаме (Пеапекстенсионстипе), элемент
-description: Указывает, проверяется ли имя сервера на соответствие строке имени, указанной в элементе ServerName (Сервервалидатионпараметерс). | Акцептсервернаме (Пеапекстенсионстипе), элемент
+description: Элемент Акцептсервернаме (Пеапекстенсионстипе) указывает, проверяется ли имя сервера на соответствие строке имени, указанной в ServerName в схеме mspeapconnectionpropertiesv2.
 ms.assetid: 24409775-d00d-439f-bb0b-a9fe5fb736a7
 keywords:
 - Элемент Акцептсервернаме EAPHost
@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d085122104c2764896801015c58fcbc9f72a1580
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 64e82defae9c5ae9f7cf60056cfdac8b58373602
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000238"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989479"
 ---
 # <a name="acceptservername-peapextensionstype-element"></a>Акцептсервернаме (Пеапекстенсионстипе), элемент
 
@@ -33,7 +33,7 @@ ms.locfileid: "104000238"
 
 Элемент **акцептсервернаме** определяется элементом [**пеапекстенсионстипе**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **акцептсервернаме** является необязательным.
 

@@ -1,15 +1,15 @@
 ---
 title: Свойство Name (объект characters)
-description: Свойство Name
+description: Сведения о свойстве Name объекта Characters. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: vs|msagent|~\pacontrol_2bxm.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6e7b4a8872952cce0ae68445ec22a5599891674
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7365550d5d4d4071cf4292e505f16e7047628cf1
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104488730"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989329"
 ---
 # <a name="name-property-characters-object"></a>Свойство Name (объект characters)
 
@@ -31,9 +31,9 @@ ms.locfileid: "104488730"
 
 
 
-| Отделение     | Описание                                                                             |
+| Часть     | Описание                                                                             |
 |----------|-----------------------------------------------------------------------------------------|
-| *string* | Строковое значение, соответствующее имени символа (в текущем параметре языка). |
+| *строка* | Строковое значение, соответствующее имени символа (в текущем параметре языка). |
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "104488730"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Имя** символа может зависеть от параметра [**LanguageID**](languageid-property.md) символа. Имя символа на одном языке может отличаться или использовать другие символы, чем в другом. **Имя** символа по умолчанию для конкретного языка определяется при компиляции символа с помощью редактора символов Microsoft Agent.
 

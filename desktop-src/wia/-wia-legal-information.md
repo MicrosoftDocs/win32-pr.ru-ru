@@ -1,15 +1,15 @@
 ---
-description: Данные, содержащиеся в этом документе, включая URL-адреса, а также ссылки на другие веб-сайты, могут изменяться без предварительного уведомления.
+description: В этой статье содержатся юридические сведения о WIA, включая сведения об авторских правах и товарных знаках.
 ms.assetid: 343c8f3c-3172-4e38-b276-082199b2d48b
 title: Юридические сведения (WIA)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1bbf1942c87405020067ee07e9e71a99278d5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb8023ce16eed495f977f5703d14c9457179fbbc
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991155"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989499"
 ---
 # <a name="legal-information-wia"></a>Юридические сведения (WIA)
 

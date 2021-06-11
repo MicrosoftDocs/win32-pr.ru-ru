@@ -1,15 +1,15 @@
 ---
-description: Со временем могут быть созданы различные версии TAPI, приложений и поставщиков служб.
+description: Дополнительные сведения об управлении версиями для TAPI. Со временем могут быть созданы различные версии TAPI, приложений и поставщиков служб.
 ms.assetid: 35fea8f9-307e-4429-b4ec-ffb5c62c2610
 title: Управление версиями TAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8565eb6282fd124c4f43e56d121ba7c053143683
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 853cf9d5f3744e11936f121986edc4e6e027d251
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346785"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989299"
 ---
 # <a name="tapi-versioning"></a>Управление версиями TAPI
 

@@ -1,15 +1,15 @@
 ---
 title: Свойство Name (элемент управления агента)
-description: Свойство Name
+description: Сведения о свойстве Name элемента управления агента. Это свойство доступно только для чтения во время выполнения. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: 83d6682c-ac25-4333-8640-7ef468f2de8b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 304dc611c8252d61e4ea052ccffff4f360e7e7e8
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 72d4afe24b443117dbdcbdb408f73a2f34068a2b
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988141"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989379"
 ---
 # <a name="name-property-agent-control"></a>Свойство Name (элемент управления агента)
 
@@ -31,7 +31,7 @@ ms.locfileid: "103988141"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В некоторых средах программирования, таких как Visual Basic, при добавлении элемента управления автоматически создается имя элемента управления по умолчанию, которое можно изменить во время разработки. Для HTML-скриптов можно определить имя в <OBJECT> теге. При определении имени следуйте правилам языка программирования для определения имен объектов.
 

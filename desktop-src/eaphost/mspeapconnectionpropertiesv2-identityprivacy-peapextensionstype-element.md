@@ -1,6 +1,6 @@
 ---
 title: Идентитиприваци (Пеапекстенсионстипе), элемент
-description: Указывает, отправляется ли истинное удостоверение пользователя или анонимное удостоверение. | Идентитиприваци (Пеапекстенсионстипе), элемент
+description: Элемент Идентитиприваци (Пеапекстенсионстипе) указывает, отправляется ли в схеме mspeapconnectionpropertiesv2 истинное удостоверение пользователя.
 ms.assetid: 57b8747e-6919-4243-a379-3a85c4a2023a
 keywords:
 - Элемент Идентитиприваци EAPHost
@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2701352ee0e192dfd2d33fc2647b9ec6df96dd5c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d0a23ce28a1a807bb948c114435463102561570b
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104547551"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988950"
 ---
 # <a name="the-identityprivacy-peapextensionstype-element"></a>Элемент Идентитиприваци (Пеапекстенсионстипе)
 
@@ -33,7 +33,7 @@ ms.locfileid: "104547551"
 
 Элемент **идентитиприваци** определяется элементом [**пеапекстенсионстипе**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **идентитиприваци** является необязательным.
 

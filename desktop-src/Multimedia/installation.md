@@ -1,6 +1,6 @@
 ---
 title: Установка (мультимедиа Windows)
-description: Установка
+description: Сведения об установке Windows для мультимедиа, включая обработку DRV_INSTALL и DRV_REMOVE сообщений.
 ms.assetid: 1f0e23ad-4db7-4f32-98d9-e672370db559
 keywords:
 - устанавливаемые драйверы, установка
@@ -12,12 +12,12 @@ keywords:
 - Установка драйверов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4ebebd090c7499698c59c325d1ac0d487902454
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 29f82a23a781e62553d6488331b2c832104fd770
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414508"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989039"
 ---
 # <a name="installation-windows-multimedia"></a>Установка (мультимедиа Windows)
 

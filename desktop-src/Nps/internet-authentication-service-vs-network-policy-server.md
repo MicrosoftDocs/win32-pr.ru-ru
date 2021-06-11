@@ -1,16 +1,16 @@
 ---
 title: Служба проверки подлинности в Интернете & сервер политики сети
-description: Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS).
+description: Сведения о службе проверки подлинности в Интернете и сервере политики сети. Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS).
 ms.assetid: c7c6d1a3-d0c8-469e-ae1e-a848ef7fee2b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca657da17e823caa51e8401905a8a0a3e307e975
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 6dd62a50021c485c7bf51cdc9caff4360e4cc863
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104070771"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989429"
 ---
 # <a name="internet-authentication-service--network-policy-server"></a>Служба проверки подлинности в Интернете & сервер политики сети
 
@@ -41,7 +41,7 @@ ms.locfileid: "104070771"
 </colgroup>
 <thead>
 <tr class="header">
-<th>Функция</th>
+<th>Компонент</th>
 <th>Новые возможности NPS</th>
 </tr>
 </thead>
@@ -110,7 +110,7 @@ ms.locfileid: "104070771"
 
 Дополнительные сведения о NPS см. в статье [TechNet: сервер политики сети](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11)) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

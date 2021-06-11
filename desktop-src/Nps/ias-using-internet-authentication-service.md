@@ -1,6 +1,6 @@
 ---
 title: Использование расширений NPS
-description: Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS).
+description: Узнайте об использовании расширений NPS. Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS).
 ms.assetid: 3ee16279-7e11-4587-ae43-f0296b7e7594
 ms.tgt_platform: multiple
 keywords:
@@ -8,12 +8,12 @@ keywords:
 - Служба проверки подлинности в Интернете, использование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1cc9f10c810ec9fe16618144db11686a1e2132
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 06f422c005d6810a4035450e24de1324b28361f1
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104533065"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989075"
 ---
 # <a name="using-nps-extensions"></a>Использование расширений NPS
 
@@ -41,7 +41,7 @@ ms.locfileid: "104533065"
 Windows SDK для Windows 8
 </dt> <dd>
 
-Windows Server 2012
+Windows Server 2012
 
 Ссылка для скачивания: н/д
 
@@ -83,7 +83,7 @@ Windows Server 2008
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

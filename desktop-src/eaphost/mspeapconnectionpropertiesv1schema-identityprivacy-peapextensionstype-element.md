@@ -1,6 +1,6 @@
 ---
 title: Элемент Идентитиприваци (Пеапекстенсионстипе) (v1)
-description: Указывает, отправляется ли истинное удостоверение пользователя или анонимное удостоверение. | Идентитиприваци (Пеапекстенсионстипе), элемент
+description: Элемент Идентитиприваци (Пеапекстенсионстипе) указывает, отправляется ли в схеме mspeapconnectionpropertiesv1 истинное удостоверение пользователя.
 ms.assetid: 1ae5b6e8-b1f8-45a7-ad22-fdb57cc756a2
 keywords:
 - элемент EAPHost
@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 748cf3ae8d5a4da4f8885332a72326bced45b398
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 7195ce43fb3f1a1f1710fe7aee3f5f74e18f3786
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106389075"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989219"
 ---
 # <a name="identityprivacy-peapextensionstype-element"></a>Идентитиприваци (Пеапекстенсионстипе), элемент
 
@@ -49,7 +49,7 @@ ms.locfileid: "106389075"
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

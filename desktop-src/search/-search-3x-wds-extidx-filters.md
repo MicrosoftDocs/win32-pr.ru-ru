@@ -1,15 +1,15 @@
 ---
-description: Microsoft Windows Search использует фильтры для извлечения содержимого элементов, включаемых в полнотекстовый индекс.
+description: Узнайте о рекомендациях по созданию обработчиков фильтров в Windows Search. Поиск использует фильтры для извлечения элементов, включаемых в полнотекстовый индекс.
 ms.assetid: 7b86a1b4-c8a9-400d-a9f1-a3b821c0269d
 title: Рекомендации по использованию обработчиков фильтров в поиске Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 544992e252d9ec0e3a7c402d1c348d3e3bfa9a85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a864cb2651d6236a212f3bf356eed3380869284
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540743"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989309"
 ---
 # <a name="best-practices-for-creating-filter-handlers-in-windows-search"></a>Рекомендации по созданию обработчиков фильтров в поиске Windows
 
@@ -20,7 +20,7 @@ Microsoft Windows Search использует фильтры для извлеч
 -   [Машинный код](#native-code)
 -   [Методики безопасного кодирования для поиска Windows](#secure-code-practices-for-windows-search)
 -   [Дополнительные ресурсы](#additional-resources)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="native-code"></a>Машинный код
 
@@ -51,7 +51,7 @@ Microsoft Windows Search использует фильтры для извлеч
 -   Общие сведения о типах файлов см. в разделе [типы файлов](../shell/fa-file-types.md).
 -   Сведения о запросе атрибутов сопоставления файлов для типа файлов см. в разделе [перцеиведтипес, системфилеассоЦиатионс и регистрация приложения](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

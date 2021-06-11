@@ -1,15 +1,15 @@
 ---
-description: Указывает широту точки назначения.
+description: Узнайте, как свойство System. GPS. Дестлонгитуде указывает долготу целевой точки.
 ms.assetid: 72a3fb10-4554-4a4d-bb73-ee515341b9c1
 title: System. GPS. Дестлонгитуде
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64e11cb93fece8b5d2d95c649bdaf87c01390a8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a64f4fe5229195bcbc976d78f9a0b09b053a94ca
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647326"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988889"
 ---
 # <a name="systemgpsdestlongitude"></a>System. GPS. Дестлонгитуде
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
