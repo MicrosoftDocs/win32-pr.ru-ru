@@ -1,6 +1,6 @@
 ---
 title: Получение указателя на объект Reader (пакет SDK для Windows Media Format 11)
-description: Получение указателя на объект Reader
+description: Узнайте, как получить указатель на объект Reader пакета SDK Windows Media Format с помощью интерфейса IWMReaderAdvanced2.
 ms.assetid: 70696ffc-2612-460d-b445-f200ba85d3c7
 keywords:
 - Пакет SDK для Windows Media Format, DirectShow
@@ -21,16 +21,16 @@ keywords:
 - IWMReaderAdvanced2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e0bb6611ba1d4e3c41fb2c00a68dd9c898505f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6dd31bd868365b87b38eefd0c0c81e8beafef51c
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340105"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989139"
 ---
-# <a name="obtaining-a-pointer-to-the-reader-object-windows-media-format-11-sdk"></a><span data-ttu-id="2cf16-119">Получение указателя на объект Reader (пакет SDK для Windows Media Format 11)</span><span class="sxs-lookup"><span data-stu-id="2cf16-119">Obtaining a Pointer to the Reader Object (Windows Media Format 11 SDK)</span></span>
+# <a name="obtaining-a-pointer-to-the-reader-object-windows-media-format-11-sdk"></a><span data-ttu-id="07fb4-119">Получение указателя на объект Reader (пакет SDK для Windows Media Format 11)</span><span class="sxs-lookup"><span data-stu-id="07fb4-119">Obtaining a Pointer to the Reader Object (Windows Media Format 11 SDK)</span></span>
 
-<span data-ttu-id="2cf16-120">В некоторых случаях, например при определении расширений единиц обработки данных, установленных для данного потока, может потребоваться доступ к [объекту Reader](reader-object.md) пакета SDK формата Windows Media напрямую.</span><span class="sxs-lookup"><span data-stu-id="2cf16-120">In certain cases, for example when determining which data unit extensions are set on a given stream, you may need to access the [Reader Object](reader-object.md) of the Windows Media Format SDK directly.</span></span> <span data-ttu-id="2cf16-121">Следующая функция показывает, как получить интерфейс [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) для самого объекта Reader:</span><span class="sxs-lookup"><span data-stu-id="2cf16-121">The following function shows how to obtain the [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) interface on the Reader Object itself:</span></span>
+<span data-ttu-id="07fb4-120">В некоторых случаях, например при определении расширений единиц обработки данных, установленных для данного потока, может потребоваться доступ к [объекту Reader](reader-object.md) пакета SDK формата Windows Media напрямую.</span><span class="sxs-lookup"><span data-stu-id="07fb4-120">In certain cases, for example when determining which data unit extensions are set on a given stream, you may need to access the [Reader Object](reader-object.md) of the Windows Media Format SDK directly.</span></span> <span data-ttu-id="07fb4-121">Следующая функция показывает, как получить интерфейс [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) для самого объекта Reader:</span><span class="sxs-lookup"><span data-stu-id="07fb4-121">The following function shows how to obtain the [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) interface on the Reader Object itself:</span></span>
 
 
 ```C++

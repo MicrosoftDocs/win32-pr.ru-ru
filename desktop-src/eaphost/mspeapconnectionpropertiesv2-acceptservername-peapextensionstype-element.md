@@ -1,6 +1,6 @@
 ---
 title: Акцептсервернаме (Пеапекстенсионстипе), элемент
-description: Указывает, проверяется ли имя сервера на соответствие строке имени, указанной в элементе ServerName (Сервервалидатионпараметерс). | Акцептсервернаме (Пеапекстенсионстипе), элемент
+description: Элемент Акцептсервернаме (Пеапекстенсионстипе) указывает, проверяется ли имя сервера на соответствие строке имени, указанной в ServerName в схеме mspeapconnectionpropertiesv2.
 ms.assetid: 24409775-d00d-439f-bb0b-a9fe5fb736a7
 keywords:
 - Элемент Акцептсервернаме EAPHost
@@ -14,16 +14,16 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d085122104c2764896801015c58fcbc9f72a1580
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 64e82defae9c5ae9f7cf60056cfdac8b58373602
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000238"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989479"
 ---
-# <a name="acceptservername-peapextensionstype-element"></a><span data-ttu-id="90da3-105">Акцептсервернаме (Пеапекстенсионстипе), элемент</span><span class="sxs-lookup"><span data-stu-id="90da3-105">AcceptServerName (PeapExtensionsType) Element</span></span>
+# <a name="acceptservername-peapextensionstype-element"></a><span data-ttu-id="00cc9-104">Акцептсервернаме (Пеапекстенсионстипе), элемент</span><span class="sxs-lookup"><span data-stu-id="00cc9-104">AcceptServerName (PeapExtensionsType) Element</span></span>
 
-<span data-ttu-id="90da3-106">Элемент **акцептсервернаме (пеапекстенсионстипе)** указывает, проверяется ли имя сервера на соответствие строке имени, указанной в элементе [**ServerName (сервервалидатионпараметерс)**](mspeapconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md) .</span><span class="sxs-lookup"><span data-stu-id="90da3-106">The **AcceptServerName (PeapExtensionsType)** element indicates whether the server name is validated against the name string specified in the [**ServerNames (ServerValidationParameters)**](mspeapconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md) element.</span></span>
+<span data-ttu-id="00cc9-105">Элемент **акцептсервернаме (пеапекстенсионстипе)** указывает, проверяется ли имя сервера на соответствие строке имени, указанной в элементе [**ServerName (сервервалидатионпараметерс)**](mspeapconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md) .</span><span class="sxs-lookup"><span data-stu-id="00cc9-105">The **AcceptServerName (PeapExtensionsType)** element indicates whether the server name is validated against the name string specified in the [**ServerNames (ServerValidationParameters)**](mspeapconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md) element.</span></span>
 
 ``` syntax
 <xs:element name="AcceptServerName"
@@ -31,52 +31,52 @@ ms.locfileid: "104000238"
  />
 ```
 
-<span data-ttu-id="90da3-107">Элемент **акцептсервернаме** определяется элементом [**пеапекстенсионстипе**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) .</span><span class="sxs-lookup"><span data-stu-id="90da3-107">The **AcceptServerName** element is defined by the [**PeapExtensionsType**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) element.</span></span>
+<span data-ttu-id="00cc9-106">Элемент **акцептсервернаме** определяется элементом [**пеапекстенсионстипе**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) .</span><span class="sxs-lookup"><span data-stu-id="00cc9-106">The **AcceptServerName** element is defined by the [**PeapExtensionsType**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) element.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="90da3-108">Комментарии</span><span class="sxs-lookup"><span data-stu-id="90da3-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="00cc9-107">Remarks</span><span class="sxs-lookup"><span data-stu-id="00cc9-107">Remarks</span></span>
 
-<span data-ttu-id="90da3-109">Элемент **акцептсервернаме** является необязательным.</span><span class="sxs-lookup"><span data-stu-id="90da3-109">The **AcceptServerName** element is optional.</span></span>
+<span data-ttu-id="00cc9-108">Элемент **акцептсервернаме** является необязательным.</span><span class="sxs-lookup"><span data-stu-id="00cc9-108">The **AcceptServerName** element is optional.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="90da3-110">Требования</span><span class="sxs-lookup"><span data-stu-id="90da3-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="00cc9-109">Требования</span><span class="sxs-lookup"><span data-stu-id="00cc9-109">Requirements</span></span>
 
 
 
-| <span data-ttu-id="90da3-111">Требование</span><span class="sxs-lookup"><span data-stu-id="90da3-111">Requirement</span></span> | <span data-ttu-id="90da3-112">Значение</span><span class="sxs-lookup"><span data-stu-id="90da3-112">Value</span></span> |
+| <span data-ttu-id="00cc9-110">Требование</span><span class="sxs-lookup"><span data-stu-id="00cc9-110">Requirement</span></span> | <span data-ttu-id="00cc9-111">Значение</span><span class="sxs-lookup"><span data-stu-id="00cc9-111">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------|
-| <span data-ttu-id="90da3-113">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="90da3-113">Minimum supported client</span></span><br/> | <span data-ttu-id="90da3-114">\[Только классические приложения Windows 7\]</span><span class="sxs-lookup"><span data-stu-id="90da3-114">Windows 7 \[desktop apps only\]</span></span><br/>              |
-| <span data-ttu-id="90da3-115">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="90da3-115">Minimum supported server</span></span><br/> | <span data-ttu-id="90da3-116">Только классические приложения Windows Server 2008 R2 \[\]</span><span class="sxs-lookup"><span data-stu-id="90da3-116">Windows Server 2008 R2 \[desktop apps only\]</span></span><br/> |
+| <span data-ttu-id="00cc9-112">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="00cc9-112">Minimum supported client</span></span><br/> | <span data-ttu-id="00cc9-113">\[Только классические приложения Windows 7\]</span><span class="sxs-lookup"><span data-stu-id="00cc9-113">Windows 7 \[desktop apps only\]</span></span><br/>              |
+| <span data-ttu-id="00cc9-114">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="00cc9-114">Minimum supported server</span></span><br/> | <span data-ttu-id="00cc9-115">Только классические приложения Windows Server 2008 R2 \[\]</span><span class="sxs-lookup"><span data-stu-id="00cc9-115">Windows Server 2008 R2 \[desktop apps only\]</span></span><br/> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="90da3-117">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="90da3-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="00cc9-116">См. также раздел</span><span class="sxs-lookup"><span data-stu-id="00cc9-116">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="90da3-118">**Контекст определения элемента в схеме**</span><span class="sxs-lookup"><span data-stu-id="90da3-118">**Definition context of element in schema**</span></span>
+<span data-ttu-id="00cc9-117">**Контекст определения элемента в схеме**</span><span class="sxs-lookup"><span data-stu-id="00cc9-117">**Definition context of element in schema**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="90da3-119">**пеапекстенсионстипе**</span><span class="sxs-lookup"><span data-stu-id="90da3-119">**PeapExtensionsType**</span></span>](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md)
+[<span data-ttu-id="00cc9-118">**пеапекстенсионстипе**</span><span class="sxs-lookup"><span data-stu-id="00cc9-118">**PeapExtensionsType**</span></span>](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md)
 </dt> <dt>
 
-<span data-ttu-id="90da3-120">**Возможный непосредственный родительский элемент в экземпляре схемы**</span><span class="sxs-lookup"><span data-stu-id="90da3-120">**Possible immediate parent element in schema instance**</span></span>
+<span data-ttu-id="00cc9-119">**Возможный непосредственный родительский элемент в экземпляре схемы**</span><span class="sxs-lookup"><span data-stu-id="00cc9-119">**Possible immediate parent element in schema instance**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="90da3-121">**пеапекстенсионс**</span><span class="sxs-lookup"><span data-stu-id="90da3-121">**PeapExtensions**</span></span>](mspeapconnectionpropertiesv1schema-peapextensions-eaptype-element.md)
-<span data-ttu-id="90da3-122"></dt> <dt>
+[<span data-ttu-id="00cc9-120">**пеапекстенсионс**</span><span class="sxs-lookup"><span data-stu-id="00cc9-120">**PeapExtensions**</span></span>](mspeapconnectionpropertiesv1schema-peapextensions-eaptype-element.md)
+<span data-ttu-id="00cc9-121"></dt> <dt>
 
 
-</dt> <dt></span><span class="sxs-lookup"><span data-stu-id="90da3-122"></dt> <dt>
+</dt> <dt></span><span class="sxs-lookup"><span data-stu-id="00cc9-121"></dt> <dt>
 
 
 </dt> <dt></span></span>
 
-[<span data-ttu-id="90da3-123">EAPHost и схема прежних версий</span><span class="sxs-lookup"><span data-stu-id="90da3-123">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
+[<span data-ttu-id="00cc9-122">EAPHost и схема прежних версий</span><span class="sxs-lookup"><span data-stu-id="00cc9-122">EAPHost and Legacy Schema</span></span>](eaphost-schemas.md)
 </dt> <dt>
 
-[<span data-ttu-id="90da3-124">Схема mspeapconnectionpropertiesv2</span><span class="sxs-lookup"><span data-stu-id="90da3-124">mspeapconnectionpropertiesv2 Schema</span></span>](mspeapconnectionpropertiesv2schema-schema.md)
+[<span data-ttu-id="00cc9-123">Схема mspeapconnectionpropertiesv2</span><span class="sxs-lookup"><span data-stu-id="00cc9-123">mspeapconnectionpropertiesv2 Schema</span></span>](mspeapconnectionpropertiesv2schema-schema.md)
 </dt> <dt>
 
-[<span data-ttu-id="90da3-125">Элементы схемы mspeapconnectionpropertiesv2</span><span class="sxs-lookup"><span data-stu-id="90da3-125">mspeapconnectionpropertiesv2 Schema Elements</span></span>](mspeapconnectionpropertiesv2schema-elements.md)
+[<span data-ttu-id="00cc9-124">Элементы схемы mspeapconnectionpropertiesv2</span><span class="sxs-lookup"><span data-stu-id="00cc9-124">mspeapconnectionpropertiesv2 Schema Elements</span></span>](mspeapconnectionpropertiesv2schema-elements.md)
 </dt> </dl>
 
  
