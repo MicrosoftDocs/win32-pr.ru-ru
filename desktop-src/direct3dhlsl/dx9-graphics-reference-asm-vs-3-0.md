@@ -1,6 +1,6 @@
 ---
 title: vs_3_0
-description: Программируемый шейдер вершин состоит из набора инструкций, которые работают с данными вершин. Регистрирует перенос данных в ALU и из него. Можно применить дополнительный элемент управления для изменения инструкции, результатов или данных, которые будут записаны.
+description: Сведения о vs_3_0, программируемом шейдере вершин, который состоит из набора инструкций, которые работают с данными вершин.
 ms.assetid: 0f40f946-3525-4203-bfe2-1cd941d8e2ec
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 22a0e6e84aff34dcec44713dc4382e391ad05c2b
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 310d64170280053c34766f214969f78d66560ea3
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103891192"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011077"
 ---
 # <a name="vs_3_0"></a>VS \_ 3 \_ 0
 
@@ -86,7 +86,7 @@ ms.locfileid: "103891192"
 <thead>
 <tr class="header">
 <th>Колпачок</th>
-<th>Функция</th>
+<th>Возможности</th>
 </tr>
 </thead>
 <tbody>
@@ -146,15 +146,15 @@ ms.locfileid: "103891192"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Шейдеры вершин](dx9-graphics-reference-asm-vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

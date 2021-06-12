@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Сведения о установщик Windows концепциях, начинающихся с буквы T, например с обработкой и преобразованием транзакций.
 ms.assetid: 06fd0284-5af9-409a-8748-c0b40e0fa317
 title: T (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fada27e903c465f9b5e0342fca481e5161b699c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e9489455f880ba558e5a9f8584be19718823035
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674048"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011267"
 ---
 # <a name="t-windows-installer"></a>T (установщик Windows)
 

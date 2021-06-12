@@ -1,6 +1,6 @@
 ---
 title: vs_2_0
-description: Программируемый шейдер вершин состоит из набора инструкций, которые работают с данными вершин. Регистрирует перенос данных в ALU и из него. Можно применить дополнительный элемент управления для изменения инструкции, результатов или данных, которые будут записаны.
+description: Сведения о vs_2_0, программируемом шейдере вершин, который состоит из набора инструкций, которые работают с данными вершин.
 ms.assetid: 6e38c138-5f9c-40a6-9fe2-a93471c3c573
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ce4e986e610ff95716cd6899d6167e4f69efe042
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe951d62b869a303a0c07839b46840dc8f9fda00
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104983733"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010857"
 ---
 # <a name="vs_2_0"></a>VS \_ 2 \_ 0
 
@@ -31,16 +31,16 @@ ms.locfileid: "104983733"
 
 Каждый шейдер вершин может содержать до 256 инструкций. Количество выполняемых инструкций может быть намного выше (из-за поддержки цикла или представителя) и ограничено D3DCAPS9. Максвшадеринструктионсексекутед, который должен быть не менее 0xFFFF.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Шейдеры вершин](dx9-graphics-reference-asm-vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

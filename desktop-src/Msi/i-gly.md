@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Сведения о установщик Windows основных понятиях, начинающихся с буквы I, например таблицы импорта адресов и уровня установки.
 ms.assetid: b8e0a14f-ebdc-4b8f-a884-f6276dccda49
 title: I (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca95a473f648ca9e1a08773d93f47bd198df11e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e33b5cfb9c4545a5482b214e0413ab3e3d981109
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910924"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010657"
 ---
 # <a name="i-windows-installer"></a>I (установщик Windows)
 
@@ -69,7 +69,7 @@ ms.locfileid: "103910924"
 <span id="_msi_installer_database_gly"></span><span id="_MSI_INSTALLER_DATABASE_GLY"></span>**база данных установщика**
 </dt> <dd>
 
-Реляционная база данных, содержащая инструкции по настройке для установки. База данных установщика хранится в MSI- [*файле*](m-gly.md). Дополнительные сведения см. в разделе [база данных установщика](installer-database.md).
+Реляционная база данных, содержащая инструкции по настройке для установки. База данных установщика хранится в [*файле.msi*](m-gly.md). Дополнительные сведения см. в разделе [база данных установщика](installer-database.md).
 
 </dd> <dt>
 
@@ -83,14 +83,14 @@ ms.locfileid: "103910924"
 <span id="_msi_installer_package_authoring_tool_gly"></span><span id="_MSI_INSTALLER_PACKAGE_AUTHORING_TOOL_GLY"></span>**средство разработки пакета установщика**
 </dt> <dd>
 
-Программное обеспечение, позволяющее разработчику создавать и изменять [*MSI-файл*](m-gly.md). Вместе с любыми [*внешними исходными файлами*](e-gly.md) состоит [*пакет*](p-gly.md) , содержащий все сведения, необходимые для установки.
+Программное обеспечение, позволяющее разработчику создавать и изменять [*файл.msi*](m-gly.md). Вместе с любыми [*внешними исходными файлами*](e-gly.md) состоит [*пакет*](p-gly.md) , содержащий все сведения, необходимые для установки.
 
 </dd> <dt>
 
 <span id="_msi_internal_source_files_gly"></span><span id="_MSI_INTERNAL_SOURCE_FILES_GLY"></span>**внутренние исходные файлы**
 </dt> <dd>
 
-Хранится в [*файле MSI*](m-gly.md). Несколько внутренних исходных файлов можно сжать и хранить вместе в CAB- [*файле*](c-gly.md) , который хранится в MSI-файле.
+Хранится в [*файле.msi*](m-gly.md). Несколько внутренних исходных файлов можно сжать и хранить вместе в CAB- [*файле*](c-gly.md) , который хранится в файле .msi.
 
 </dd> </dl>
 

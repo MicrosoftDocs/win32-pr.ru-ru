@@ -1,15 +1,15 @@
 ---
-description: Класс устройств — это группа связанных физических устройств или драйверов устройств, с помощью которой приложения отправляют и получают данные или данные, которые составляют вызов.
+description: Сведения о классах устройств TAPI. Класс устройств — это группа устройств или драйверов устройств, с помощью которых приложения отправляют и получают сведения о вызовах или данные.
 ms.assetid: 859979a8-0d16-4b7b-b183-d6e30f3e034d
 title: Классы устройств TAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 357d68e07359468e7a3ba3a1e73c3e0888076e12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98c16f5baf81bdc66d5110da2a1ac5127237738e
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684658"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011367"
 ---
 # <a name="tapi-device-classes"></a>Классы устройств TAPI
 

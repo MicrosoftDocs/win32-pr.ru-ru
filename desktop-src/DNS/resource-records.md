@@ -1,15 +1,15 @@
 ---
 title: Записи ресурсов
-description: Запись ресурса, обычно называемая записью ресурса, представляет собой элемент "единица информации" в файлах зоны DNS; Записи RR — это основные стандартные блоки сведений об имени узла и IP-адреса, которые используются для разрешения всех запросов DNS.
+description: Сведения о записях ресурсов. Запись ресурса — это запись блока данных в файлах зоны DNS, которая используется для разрешения всех запросов DNS.
 ms.assetid: c64907c2-ebd3-4550-9454-13f51a6d7ca6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05b667b95a8ede32018e1aad7de375e77a890487
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a84bd000e2d88884bbb387748eaced1d0d58a324
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778335"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010677"
 ---
 # <a name="resource-records"></a>Записи ресурсов
 
@@ -41,9 +41,9 @@ microsoft.com. 600 IN A 150.150.150.1
 
 В DNS существует много других типов записей ресурсов. Дополнительные сведения см. в [справочнике по поставщику WMI DNS](dns-wmi-provider-reference.md).
 
- 
+ 
 
- 
+ 
 
 
 

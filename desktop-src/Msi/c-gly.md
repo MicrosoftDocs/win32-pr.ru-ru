@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Сведения о установщик Windows концепциях, начинающихся с буквы C, например CAB-файл и контрольная сумма.
 ms.assetid: f98d19c5-5187-4718-b241-3ec69454c2d6
 title: C (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1970c8e9063657701183c91ff337d06d169914fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47e7af99ad32d8dff7f4e8509976b0004045477b
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264186"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010927"
 ---
 # <a name="c-windows-installer"></a>C (установщик Windows)
 
@@ -20,7 +20,7 @@ ms.locfileid: "104264186"
 <span id="_msi_cabinet_file_using_windows_installer_gly"></span><span id="_MSI_CABINET_FILE_USING_WINDOWS_INSTALLER_GLY"></span>**CAB-файл**
 </dt> <dd>
 
-Один файл (обычно с расширением CAB), в котором хранятся сжатые файлы в библиотеке файлов. Формат CAB является эффективным способом упаковки нескольких файлов, поскольку сжатие выполняется по границам файлов, значительно повышая степень сжатия. Сведения о создании ящиков см. в разделе [CAB-файлы](cabinet-files.md).
+Один файл, обычно с расширением .cab, в котором хранятся сжатые файлы в библиотеке файлов. Формат CAB является эффективным способом упаковки нескольких файлов, поскольку сжатие выполняется по границам файлов, значительно повышая степень сжатия. Сведения о создании ящиков см. в разделе [CAB-файлы](cabinet-files.md).
 
 </dd> <dt>
 

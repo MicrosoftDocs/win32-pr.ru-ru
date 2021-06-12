@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Узнайте о установщик Windows концепциях, начинающихся с буквы U, например упград и контролем учетных записей.
 ms.assetid: 8dacad71-2cc3-4c9a-b5d4-d9781f4f9d51
 title: U (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6d1868cd5ee335d56374e9b13ebff2b1d10a515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4609520ab7599c5202a60afd4e51834034e4ae41
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673166"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010707"
 ---
 # <a name="u-windows-installer"></a>U (установщик Windows)
 

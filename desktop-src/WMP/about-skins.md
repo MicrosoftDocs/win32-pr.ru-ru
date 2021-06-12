@@ -1,6 +1,6 @@
 ---
 title: О обложках
-description: О обложках
+description: Сведения об обложках. Обложки — это файлы компьютерной графики, упорядоченные по текстовому файлу, который сообщает проигрывателю Windows Media, как отобразить обложку.
 ms.assetid: 35c8c8b0-6feb-4fc5-b944-da712b521300
 keywords:
 - Проигрыватель Windows Media, обложки
@@ -8,12 +8,12 @@ keywords:
 - обложки, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5660a4223d7803863f114944e6117d3279dcfe12
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 20bef3149aad859819b03f4ba76b721a622860de
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258636"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011197"
 ---
 # <a name="about-skins"></a>О обложках
 
@@ -40,18 +40,18 @@ ms.locfileid: "104258636"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Обложки проигрывателя Windows Media**](windows-media-player-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

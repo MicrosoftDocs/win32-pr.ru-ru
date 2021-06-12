@@ -1,15 +1,15 @@
 ---
-description: Класс устройств — это группа связанных физических устройств или драйверов устройств, с помощью которой приложения отправляют и получают данные или данные, которые составляют вызов.
+description: Сведения о классах устройств ТСПИ. Класс устройств — это группа устройств или драйверов устройств, с помощью которых приложения отправляют и получают сведения о вызовах или данные.
 ms.assetid: b29ea789-d017-4e35-b77a-c0d54ac54c66
 title: Классы устройств ТСПИ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10392487657e8190052546605c54bed8cc0ccf4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6775e73df3914339edbdf791659de821855864dd
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104349652"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011347"
 ---
 # <a name="tspi-device-classes"></a>Классы устройств ТСПИ
 

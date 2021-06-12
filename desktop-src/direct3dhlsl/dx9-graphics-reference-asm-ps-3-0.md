@@ -1,6 +1,6 @@
 ---
 title: ps_3_0
-description: Программируемый шейдер пикселей состоит из набора инструкций, которые работают с данными пикселей. Регистрирует перенос данных в ALU и из него. Можно применить дополнительный элемент управления для изменения инструкции, результатов или данных, которые будут записаны.
+description: Сведения о ps_3_0, программируемом шейдере пикселей, который состоит из набора инструкций, которые работают с данными пикселей.
 ms.assetid: 3eabf173-9d9d-45b2-bc30-de857428f3ee
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5aca251b1e8a462b4f2204241680922d76c45ba0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 19587cbaa79e2b89633560a7b7889219172d0c25
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338068"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010867"
 ---
 # <a name="ps_3_0"></a>PS \_ 3 \_ 0
 
@@ -101,15 +101,15 @@ ms.locfileid: "104338068"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Шейдеры пикселей](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

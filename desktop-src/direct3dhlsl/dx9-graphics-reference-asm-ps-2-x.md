@@ -1,6 +1,6 @@
 ---
 title: ps_2_x
-description: Программируемый шейдер пикселей состоит из набора инструкций, которые работают с данными пикселей. Регистрирует перенос данных в ALU и из него. Можно применить дополнительный элемент управления для изменения инструкции, результатов или данных, которые будут записаны.
+description: Сведения о ps_2_x, программируемом шейдере пикселей, который состоит из набора инструкций, которые работают с данными пикселей.
 ms.assetid: 06f657a9-6521-404e-b012-7c8e972e9d5c
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 13e5daf7c3a4b41e5b27b1c20f8b1f5f8355c325
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9efedc6011cb63b6465fd2d3ced4a7807c09f4da
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997119"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010877"
 ---
 # <a name="ps_2_x"></a>PS \_ 2 \_ x
 
@@ -67,13 +67,13 @@ ms.locfileid: "104997119"
 
 Число доступных образцов для пробных текстур равно 16.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Шейдеры пикселей](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

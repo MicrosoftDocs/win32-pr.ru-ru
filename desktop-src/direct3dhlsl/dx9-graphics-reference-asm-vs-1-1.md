@@ -1,6 +1,6 @@
 ---
 title: vs_1_1
-description: Программируемый шейдер вершин состоит из набора инструкций, которые работают с данными вершин. Регистрирует перенос данных в ALU и из него. Можно применить дополнительный элемент управления для изменения инструкции, результатов или данных, которые будут записаны.
+description: Сведения о vs_1_1, программируемом шейдере вершин, который состоит из набора инструкций, которые работают с данными вершин.
 ms.assetid: 54ad41d7-aaa4-4cf4-8834-47f10cd5425c
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b956613c2a4dd882b8bb810e586de9b6b90a2f3b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 78ea10e751fd7fe902b1631376e9eb2023d31c12
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889212"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011067"
 ---
 # <a name="vs_1_1"></a>VS \_ 1 \_ 1
 
@@ -27,16 +27,16 @@ ms.locfileid: "103889212"
 -   [Исходный регистр группирующие](dx9-graphics-reference-asm-vs-registers-modifiers-source-swizzling.md) обеспечивает дополнительный контроль над тем, какие компоненты регистрации считываются, копируются или записываются.
 -   [Маскирование регистров назначения](dx9-graphics-reference-asm-vs-registers-modifiers-masking.md) определяет, какие компоненты записываются в реестре назначения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Шейдеры вершин](dx9-graphics-reference-asm-vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

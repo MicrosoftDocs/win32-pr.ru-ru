@@ -1,5 +1,5 @@
 ---
-description: Вложенный запрос — это сохраненный файл поиска ( \* . Search-MS), который можно использовать в качестве фильтра для нового запроса.
+description: Сведения о аргументе вложенного запроса в оболочке Windows. Вложенный запрос — это сохраненный файл поиска, который можно использовать в качестве фильтра для нового запроса.
 title: Аргумент вложенного запроса (оболочка Windows)
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,18 +9,18 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 43e4a5b904d5e769eb43acad05aa5d8ce37ebde2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef0b37c0f473f2b86c85c18a99124be3b366f447
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997886"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010667"
 ---
 # <a name="subquery-argument-the-windows-shell"></a>Аргумент вложенного запроса (оболочка Windows)
 
 Вложенный запрос — это сохраненный файл поиска ( \* . Search-MS), который можно использовать в качестве фильтра для нового запроса. Результаты вложенного запроса используются в качестве источника для нового запроса. Например, предположим, что имеется несколько сохраненных файлов поиска, ограничивающих запрос по списку рассылки по электронной почте: мидепартмент. Search-MS, TeamProject. Search-MS и корпоратевиде. Search-MS. Использование `subquery` аргумента позволяет ограничить поиск по электронной почте любым из сохраненных поисков.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 
 ```

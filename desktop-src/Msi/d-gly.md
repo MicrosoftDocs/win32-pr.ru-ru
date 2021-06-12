@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Сведения о установщик Windows основных понятиях, начинающихся с буквы D, например о функции базы данных и разностном исправлении.
 ms.assetid: d6dd73e7-657f-4f71-8e9b-70369cb21972
 title: D (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4e2673f845d85db88d55cbcd53838f7e682dbe3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d76378d636c8ae14acdc9cb882c31840e3f1550f
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810390"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010937"
 ---
 # <a name="d-windows-installer"></a>D (установщик Windows)
 

@@ -1,15 +1,15 @@
 ---
-description: Узнайте о сочетаниях одного или нескольких флагов, управляющих поведением при создании устройства.
+description: Сведения о сочетании одного или нескольких флагов, управляющих поведением создания устройства в константе D3DVTXPCAPS.
 ms.assetid: 2d3e548f-8559-4a36-b814-6d598bead1d0
 title: D3DVTXPCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07ad3b5eca7a264e489382d80b336f5b2c660e1a
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 6b544f3e4a69de23607366832aca110e42c61d6d
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342919"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011087"
 ---
 # <a name="d3dvtxpcaps"></a>D3DVTXPCAPS
 

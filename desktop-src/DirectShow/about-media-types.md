@@ -1,15 +1,15 @@
 ---
-description: О типах носителей
+description: Сведения о типах мультимедиа в DirectShow. Тип мультимедиа является универсальным и расширяемым способом описания форматов цифрового мультимедиа.
 ms.assetid: 9984ba36-4e43-4886-a073-34b330274c9c
 title: О типах мультимедиа (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3289a37e95bf5dbd1e5c277b5799a2c7c8c90586
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a7b1489543b33f5eeb2c288add48148b37f31915
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104351232"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010897"
 ---
 # <a name="about-media-types-directshow"></a>О типах мультимедиа (DirectShow)
 
@@ -76,7 +76,7 @@ HRESULT CheckMediaType(AM_MEDIA_TYPE *pmt)
 -   **бфикседсизесамплес**. Если этот логический флаг имеет значение **true**, это означает, что значение в **лсамплесизе** является допустимым. В противном случае следует игнорировать **лсамплесизе**.
 -   **бтемпоралкомпрессион**. Если этот логический флаг имеет **значение false**, это означает, что все кадры являются ключевыми кадрами.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

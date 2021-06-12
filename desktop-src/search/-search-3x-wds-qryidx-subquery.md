@@ -1,15 +1,15 @@
 ---
-description: Вложенный запрос — это сохраненный файл поиска ( \* . Search-MS), который можно использовать в качестве фильтра для нового запроса.
+description: Сведения о аргументе вложенного запроса в Windows Search. Вложенный запрос — это сохраненный файл поиска, который можно использовать в качестве фильтра для нового запроса.
 ms.assetid: a92c774f-310b-4c40-be1c-0c2b0cac907b
 title: Аргумент вложенного запроса (Поиск Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f673cf9c2a9867593fd6c8fdac83b5901f531257
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93b23028d0bddcc674714f51f8b31883052431bd
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990972"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011037"
 ---
 # <a name="subquery-argument-windows-search"></a>Аргумент вложенного запроса (Поиск Windows)
 
@@ -18,7 +18,7 @@ ms.locfileid: "103990972"
 Этот раздел организован следующим образом:
 
 -   [Пример](#example)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example"></a>Пример
 
@@ -29,7 +29,7 @@ ms.locfileid: "103990972"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

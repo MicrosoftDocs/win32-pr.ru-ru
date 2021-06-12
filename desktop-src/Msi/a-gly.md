@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Узнайте о установщик Windows концепциях, начинающихся с буквы A, например на этапе специальных возможностей и приобретения.
 ms.assetid: 541fd08c-c21a-4a51-aa1c-d65cc0f5da75
 title: A (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46677d8823c5298307db922f2d61285564add437
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eea91c044553ec374f28309a86002a386961d2c9
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156359"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011127"
 ---
 # <a name="a-windows-installer"></a>A (установщик Windows)
 
