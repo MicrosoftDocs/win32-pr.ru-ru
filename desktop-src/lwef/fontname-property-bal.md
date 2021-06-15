@@ -1,15 +1,15 @@
 ---
 title: Свойство FontName (объект всплывающего объекта)
-description: FontName, свойство
+description: Сведения о свойстве объекта всплывающего окна FontName. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: a84a19a4-9e0e-4736-b401-286e6618bc19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ead06323b36e86dce36163769b329140279f240d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c47e14935f913ce81b5faed5a49c3d731a73532f
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104134967"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068270"
 ---
 # <a name="fontname-property-balloon-object"></a>Свойство FontName (объект всплывающего объекта)
 
@@ -31,7 +31,7 @@ ms.locfileid: "104134967"
 
 
 
-| Отделение   | Описание                                      |
+| Часть   | Описание                                      |
 |--------|--------------------------------------------------|
 | *шрифтов* | Строковое значение, соответствующее имени шрифта. |
 
@@ -41,7 +41,7 @@ ms.locfileid: "104134967"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство [**FontName**](fontname-property.md) определяет шрифт, используемый для отображения текста в окне всплывающей подсказки в слове строки. Значение по умолчанию для параметров шрифта всплывающей подсказки для символа задается в редакторе символов Microsoft Agent. Кроме того, пользователь может переопределить параметры шрифта для всех символов на странице свойств Microsoft Agent.
 

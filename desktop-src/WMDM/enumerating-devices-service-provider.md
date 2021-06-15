@@ -1,6 +1,6 @@
 ---
 title: Перечисление устройств (ВМДМ)
-description: Перечисление устройств
+description: Диспетчер устройств Windows Media поддерживает кэш подключенных устройств. Узнайте, как Windows Media диспетчер устройств поддерживает или обновляет свой кэш.
 ms.assetid: 7602da65-4c98-4766-b206-2129dad4cc2a
 keywords:
 - Диспетчер устройств Windows Media, перечисление устройств
@@ -11,12 +11,12 @@ keywords:
 - Перечисление устройств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 316b87f6ad3f5680e0c22da832da7b1efec24629
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 6f9b2fd3a891e2c52710bd9a2f6d46a78e9eb238
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103785088"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067911"
 ---
 # <a name="enumerating-devices-wmdm"></a>Перечисление устройств (ВМДМ)
 
@@ -51,16 +51,16 @@ PnP-устройство отключается
 
 -   Диспетчер устройств Windows Media не сообщает о поступлении или отправлении и не выполняет никаких действий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Создание поставщика услуг**](creating-a-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

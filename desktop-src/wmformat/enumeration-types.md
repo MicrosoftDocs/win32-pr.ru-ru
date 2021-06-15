@@ -1,6 +1,6 @@
 ---
 title: Типы перечисления пакета SDK Windows Media Format
-description: Типы перечисления
+description: Сведения о типах перечислений, реализуемых пакетом SDK для формата Windows Media, например DRM_HTTP_STATUS и DRM_LICENSE_STATE_CATEGORY.
 ms.assetid: cd28f608-25ba-44a7-868b-b1cd4dfcfa45
 keywords:
 - Windows Media Format SDK, типы перечислений
@@ -9,12 +9,12 @@ keywords:
 - типы перечисления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d3fe85c6c6ed67742590ee52aa32c557056bf86
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 45a6fcb6d433079cce9d570a7eb6e28f31691985
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800682"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068000"
 ---
 # <a name="windows-media-format-sdk-enumeration-types"></a>Типы перечисления пакета SDK Windows Media Format
 
@@ -55,7 +55,7 @@ ms.locfileid: "103800682"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

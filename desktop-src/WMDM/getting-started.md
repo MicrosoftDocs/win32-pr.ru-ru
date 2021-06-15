@@ -1,6 +1,6 @@
 ---
 title: Начало работы с ВМДМ
-description: Приступая к работе
+description: Ознакомьтесь с основными сведениями, необходимыми для начала разработки приложений и поставщиков услуг, использующих Windows Media диспетчер устройств.
 ms.assetid: 0af11e8e-ddfd-4178-aca9-61bb74a2d144
 keywords:
 - Диспетчер устройств Windows Media, сведения
@@ -13,12 +13,12 @@ keywords:
 - поставщики услуг, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b18f1e3e7c31de942f050ac19c1bb6b458069862
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: e70c5da5da229f915b4f8b2ef1d79d88c69ab075
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104532909"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068280"
 ---
 # <a name="getting-started-with-wmdm"></a>Начало работы с ВМДМ
 
@@ -35,18 +35,18 @@ ms.locfileid: "104532909"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Пакет SDK для Windows Media диспетчер устройств 11**](windows-media-device-manager-11-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

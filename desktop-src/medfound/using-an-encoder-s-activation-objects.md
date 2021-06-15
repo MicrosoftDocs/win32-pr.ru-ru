@@ -1,15 +1,15 @@
 ---
-description: Для преобразования файлов мультимедиа в формат ASF можно использовать кодировщики Windows Media. Чтобы использовать эти кодировщики, они должны быть зарегистрированы в системе.
+description: Для преобразования файлов мультимедиа в формат ASF можно использовать кодировщики Windows Media. Сведения об использовании объектов активации кодировщика.
 ms.assetid: 18c26619-6047-4f7f-bb65-ca418f02e5b1
 title: Использование объектов активации кодировщиков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfd44a1b97ad0f133b7215ff4474835ddfba66bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c4111d116c8864cc0a500fa3a0c2f612d1d6345
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898702"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067984"
 ---
 # <a name="using-an-encoders-activation-objects"></a>Использование объектов активации кодировщика
 
@@ -19,7 +19,7 @@ ms.locfileid: "103898702"
 
 -   [Использование объектов активации кодировщика](#using-an-encoders-activation-objects)
 -   [Перечисление кодировщиков в Windows 7 и более поздних версиях](#encoder-enumeration-in-windows-7-and-later)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="using-an-encoders-activation-objects"></a>Использование объектов активации кодировщика
 
@@ -55,7 +55,7 @@ ms.locfileid: "103898702"
 
 Для приложений, работающих в Windows 7, в дополнение к [**мфтенум**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) можно перечислить кодировщик МФТС, вызвав [**мфтенумекс**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex). Эта функция возвращает указатель на объект активации MFT для кодировщика. Структура функции очень похожа на **мфтенум** , описанную выше, за исключением того, что **мфтенумекс** возвращает массив указателей [**имфактивате**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) для кодировщика МФТС, соответствующих условиям поиска.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

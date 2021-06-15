@@ -4,12 +4,12 @@ ms.assetid: 196cc6fe-91bf-46fa-acc9-38a7a4005875
 title: Exclusive-Modeные потоки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7722dd3463346e976f30a77949f56026a2425624
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 677efa83d099bd32ddb0674414e25a9af219bd1a
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990573"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068590"
 ---
 # <a name="exclusive-mode-streams"></a>Exclusive-Modeные потоки
 
@@ -86,7 +86,8 @@ HRESULT PlayExclusiveStream(MyAudioSource *pMySource)
     UINT32 bufferFrameCount;
     BYTE *pData;
     DWORD flags = 0;
-
+    DWORD taskIndex = 0;
+    
     hr = CoCreateInstance(
            CLSID_MMDeviceEnumerator, NULL,
            CLSCTX_ALL, IID_IMMDeviceEnumerator,
@@ -118,6 +119,20 @@ HRESULT PlayExclusiveStream(MyAudioSource *pMySource)
                          hnsRequestedDuration,
                          pwfx,
                          NULL);
+    if (hr == AUDCLNT_E_BUFFER_SIZE_NOT_ALIGNED) {
+        // Align the buffer if needed, see IAudioClient::Initialize() documentation
+        UINT32 nFrames = 0;
+        hr = pAudioClient->GetBufferSize(&nFrames);
+        EXIT_ON_ERROR(hr)
+        hnsRequestedDuration = (REFERENCE_TIME)((double)REFTIMES_PER_SEC / pwfx->nSamplesPerSec * nFrames + 0.5);
+        hr = pAudioClient->Initialize(
+            AUDCLNT_SHAREMODE_EXCLUSIVE,
+            AUDCLNT_STREAMFLAGS_EVENTCALLBACK,
+            hnsRequestedDuration,
+            hnsRequestedDuration,
+            pwfx,
+            NULL);
+    }
     EXIT_ON_ERROR(hr)
 
     // Tell the audio source which format to use.
@@ -158,7 +173,6 @@ HRESULT PlayExclusiveStream(MyAudioSource *pMySource)
 
     // Ask MMCSS to temporarily boost the thread priority
     // to reduce glitches while the low-latency stream plays.
-    DWORD taskIndex = 0;
     hTask = AvSetMmThreadCharacteristics(TEXT("Pro Audio"), &taskIndex);
     if (hTask == NULL)
     {
@@ -247,7 +261,7 @@ Exit:
 
 Предыдущий пример кода передает звуковое оборудование и компьютерную систему на свои ограничения производительности. Во-первых, чтобы сократить задержку потока, приложение планирует поток обслуживания буферов для использования минимального периода, поддерживаемого звуковым оборудованием. Во-вторых, чтобы обеспечить надежное выполнение потока в каждом из периодов устройства, вызов функции **авсетммсреадчарактеристикс** устанавливает для параметра имя_задания значение "Pro Audio", т. е. в Windows Vista имя задачи по умолчанию с наивысшим приоритетом. Определите, могут ли требования к времени приложения быть неослабленными без ущерба для его полезности. Например, приложение может запланировать использование потока обслуживания буферов в течение периода, превышающего минимальное значение. Более длительный период может безопасно разрешать использование более низкого приоритета потока.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

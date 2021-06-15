@@ -1,15 +1,15 @@
 ---
-description: Описание следующих таблиц см. в разделе таблицы и назначения.
+description: В этой статье содержатся таблицы частот для международной настройки аналогового ТВ-телевидения для Франции. Индексы частоты не подходят для номеров каналов.
 ms.assetid: 852ead0e-3539-483d-943d-1779f7358ba5
 title: Франция
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5da01c7645f8ed8a7715ae0514b073b63bd33e0f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 825efa71702dfe617325586d657665a302076369
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105650422"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068119"
 ---
 # <a name="france"></a>Франция
 
@@ -23,7 +23,7 @@ ms.locfileid: "105650422"
 -   [Предыдущие назначения каналов](#earlier-channel-assignments)
     -   [Широковещательные назначения Франции](#france-broadcast-assignments)
     -   [Франция назначения кабелей](#france-cable-assignments)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="windows-7-and-later"></a>Windows 7 и более поздние версии
 
@@ -427,7 +427,7 @@ ms.locfileid: "105650422"
        855250000L,      // 107
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

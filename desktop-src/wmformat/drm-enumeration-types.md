@@ -1,6 +1,6 @@
 ---
 title: Типы перечислений клиента DRM Microsoft Windows Media
-description: Типы перечисления
+description: Сведения о перечислениях, поддерживаемых расширенными API клиента DRM Microsoft Windows Media.
 ms.assetid: 940f66e1-1dc1-414f-bba9-b91f4f0dfc45
 keywords:
 - Windows Media Format SDK, типы перечислений
@@ -10,12 +10,12 @@ keywords:
 - Расширенные API клиента, типы перечислений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c159342367035767d213d57987d93d23eb321a6c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 574136f8016161f4d2c208865a72ad2a86d98f68
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104070985"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068431"
 ---
 # <a name="microsoft-windows-media-drm-client-enumeration-types"></a>Типы перечислений клиента DRM Microsoft Windows Media
 
@@ -39,7 +39,7 @@ ms.locfileid: "104070985"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,18 +1,18 @@
 ---
 title: начало работы с пакетом SDK для Windows Media Format
-description: Приступая к работе
+description: Используйте эти ресурсы для пожеланий с пакетом SDK для формата Windows Media, например файлов библиотек и параметров компилятора.
 ms.assetid: e6f560a6-e677-47dc-b99c-e14bd60e4007
 keywords:
 - Windows Media Format SDK, Приступая к работе
 - Пакет SDK для Windows Media Format, о программе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b763a1462f3d07b9ac630895e65ab5be5a3589e5
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f6022ead1dfa3e7efcab09e771c5b4fdffe601d9
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800838"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068250"
 ---
 # <a name="getting-started-with-windows-media-format-sdk"></a>начало работы с пакетом SDK для Windows Media Format
 
@@ -29,7 +29,7 @@ ms.locfileid: "103800838"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

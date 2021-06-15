@@ -1,15 +1,15 @@
 ---
 title: Свойство FontSize (объект Commands)
-description: Свойство FontSize
+description: Сведения о свойстве объекта команд FontSize. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: a1113a3a-5da8-4077-8565-168963c503d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee84d5eb966dd7d0605bd0e4f17674fe4499bab6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 05d4e32bf57d129e7bf1d7b45f97846a1fe90756
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105719187"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068211"
 ---
 # <a name="fontsize-property-commands-object"></a>Свойство FontSize (объект Commands)
 
@@ -31,7 +31,7 @@ ms.locfileid: "105719187"
 
 
 
-| Отделение     | Описание                                              |
+| Часть     | Описание                                              |
 |----------|----------------------------------------------------------|
 | *Точки* | Длинное целое значение, указывающее размер шрифта в пунктах. |
 
@@ -41,7 +41,7 @@ ms.locfileid: "105719187"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **FontSize** определяет размер шрифта, используемого для отображения текста во всплывающем меню символа. Значение по умолчанию для параметра Font основано на параметре шрифта меню для параметра **LanguageID** символа или (если он не задан) — параметре языка пользователя по умолчанию.
 

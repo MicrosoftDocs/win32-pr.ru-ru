@@ -1,15 +1,15 @@
 ---
-description: Описание следующих таблиц см. в разделе таблицы и назначения.
+description: В этой статье содержатся таблицы частот для международной настройки аналогового ТВ-телевидения для Ирландии. Индексы частоты не подходят для номеров каналов.
 ms.assetid: be60ca37-9f3a-44cd-8646-28fcbda5e79e
 title: Ирландия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81dba5254cd64262fa40c330b3f65ba589090fed
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b004a811a59a6e2556cdd4187728e5842bea1a46
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536857"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068160"
 ---
 # <a name="ireland"></a>Ирландия
 
@@ -23,7 +23,7 @@ ms.locfileid: "104536857"
 -   [Предыдущие назначения каналов](#earlier-channel-assignments)
     -   [Широковещательные назначения Ирландии](#ireland-broadcast-assignments)
     -   [Назначения кабелей Ирландии](#ireland-cable-assignments)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="windows-7-and-later"></a>Windows 7 и более поздние версии
 
@@ -200,7 +200,7 @@ ms.locfileid: "104536857"
        223250000L,      // J
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

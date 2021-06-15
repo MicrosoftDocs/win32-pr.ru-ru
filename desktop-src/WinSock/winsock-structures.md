@@ -4,12 +4,12 @@ ms.assetid: 96bacf00-d1ea-4ba7-adf4-9078568ac44b
 title: Структуры Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3afeb309f44d5973b204fed805d3f364cb416843
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac97b8f9710163a29dc7d5938df4cb34bb51ec2f
+ms.sourcegitcommit: 04fcd6711f2b167a3023a67310deb58780e1fea8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712339"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112082389"
 ---
 # <a name="winsock-structures"></a>Структуры Winsock
 
@@ -50,8 +50,8 @@ ms.locfileid: "105712339"
 | [**\_ \_ сведения о службе NS**](/windows/desktop/api/Nspapi/ns-nspapi-ns_service_infoa)                                            | Содержит сведения о сетевой службе или типе сетевой службы в контексте указанного пространства имен или наборе пространств имен по умолчанию.                                                                                                                                   |
 | [**\_сведения о протоколе**](/windows/desktop/api/Nspapi/ns-nspapi-protocol_infoa)                                                 | Содержит сведения о протоколе.                                                                                                                                                                                                                                            |
 | [**протоент**](/windows/desktop/api/winsock/ns-winsock-protoent)                                                            | Содержит имена и номера протоколов, соответствующие заданному имени протокола.                                                                                                                                                                                                  |
-| [**\_ \_ \_ \_ входные данные параметра уведомления в режиме реального времени**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)  | Содержит параметры ввода, которые применяются к параметру транспорта **\_ \_ \_ возможностей уведомлений в реальном времени** для сокета TCP, который используется с [**контролчаннелтригжер**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger?view=winrt-19041) для получения фоновых сетевых уведомлений в приложении Магазина Windows.           |
-| [**\_ \_ \_ выходные данные параметра уведомлений в режиме реального времени \_**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) | Содержит параметры вывода из запроса для параметра транспорта **\_ \_ \_ возможностей уведомлений в реальном времени** для сокета TCP, который используется с [**контролчаннелтригжер**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger?view=winrt-19041) для получения фоновых сетевых уведомлений в приложении Магазина Windows. |
+| [**\_ \_ \_ \_ входные данные параметра уведомления в режиме реального времени**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)  | Содержит параметры ввода, которые применяются к параметру транспорта **\_ \_ \_ возможностей уведомлений в реальном времени** для сокета TCP, который используется с [**контролчаннелтригжер**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) для получения фоновых сетевых уведомлений в приложении Магазина Windows.           |
+| [**\_ \_ \_ выходные данные параметра уведомлений в режиме реального времени \_**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) | Содержит параметры вывода из запроса для параметра транспорта **\_ \_ \_ возможностей уведомлений в реальном времени** для сокета TCP, который используется с [**контролчаннелтригжер**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) для получения фоновых сетевых уведомлений в приложении Магазина Windows. |
 | [**\_ \_ Таблица функций расширения \_ Рио**](/windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table)                   | Содержит сведения о функциях, реализующих зарегистрированные расширения ввода-вывода Winsock.                                                                                                                                                                                       |
 | [**Рио \_ buf**](/windows/desktop/api/Mswsockdef/ns-mswsockdef-rio_buf)                                                               | Указывает часть зарегистрированного буфера, используемую для отправки или получения сетевых данных с зарегистрированными расширениями ввода-вывода Winsock.                                                                                                                                                 |
 | [**Рио \_ BUFFERID**](rio-bufferid.md)                                                     | Указывает зарегистрированный дескриптор буфера, используемый с зарегистрированными расширениями ввода-вывода Winsock.                                                                                                                                                                                         |

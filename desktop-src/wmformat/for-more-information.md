@@ -1,6 +1,6 @@
 ---
 title: Дополнительные сведения (пакет SDK для Windows Media Format)
-description: Дополнительные сведения см. в разделе
+description: Используйте эти дополнительные ресурсы для получения последних дополнительных сведений о пакете SDK формата Windows Media.
 ms.assetid: 74933db2-3800-4d49-8720-7e677f208e49
 keywords:
 - Пакет SDK для Windows Media Format, дополнительные сведения
@@ -11,12 +11,12 @@ keywords:
 - DRM (Управление цифровыми правами), ресурсы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afd9cf32b192607119672e8a30137f0e25cab857
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: ba9a9758bdd2c7571ed6d3f7d769a3511e5d456f
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104547263"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067890"
 ---
 # <a name="for-more-information-windows-media-format-sdk"></a>Дополнительные сведения (пакет SDK для Windows Media Format)
 
@@ -27,7 +27,7 @@ ms.locfileid: "104547263"
 -   Подробные описания объектов данных, которые составляют файлы ASF, см. в спецификации ASF на [веб-сайте Майкрософт](https://download.microsoft.com/download/7/9/0/790fecaa-f64a-4a5e-a430-0bccdab3f1b4/ASF_Specification.doc).
 -   Сведения о функциях, статьях, рекомендациях и ответы на часто задаваемые вопросы о системе управления цифровыми правами (DRM) и диспетчере прав Windows Media см. в технических статьях на странице [цифровой Rights Management](/documentation/?url=%2flibrary%2fdnwmt%2fhtml%2fdigitalrightsmanagement.asp) на веб-сайте Майкрософт.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

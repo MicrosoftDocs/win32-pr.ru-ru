@@ -1,15 +1,15 @@
 ---
-description: Для преобразования файлов мультимедиа в формат ASF можно использовать кодировщики Windows Media. Чтобы использовать эти кодировщики, они должны быть зарегистрированы в системе.
+description: Для преобразования файлов мультимедиа в формат ASF можно использовать кодировщики Windows Media. Сведения о создании кодировщика с помощью CoCreateInstance.
 ms.assetid: 96f19dfb-a328-41db-8fa8-77f052b1a192
 title: Создание кодировщика с помощью функции CoCreateInstance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28a19a3ec13f60e7f602fa4f16854efa060dd96d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15c4cdf7b72bbfee97031088502113d085738981
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692771"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068470"
 ---
 # <a name="creating-an-encoder-by-using-cocreateinstance"></a>Создание кодировщика с помощью функции CoCreateInstance
 
@@ -19,7 +19,7 @@ ms.locfileid: "105692771"
 
 -   [Использование интерфейса Имфтрансформ кодировщика](#creating-an-encoder-by-using-cocreateinstance)
     -   [Пример создания кодировщика](#encoder-creation-example)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="using-an-encoders-imftransform-interface"></a>Использование интерфейса Имфтрансформ кодировщика
 
@@ -88,7 +88,7 @@ HRESULT FindEncoder(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

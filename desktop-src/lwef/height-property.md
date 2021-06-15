@@ -1,15 +1,15 @@
 ---
 title: Свойство Height (объект characters)
-description: Height, свойство
+description: Сведения о свойстве Height объекта Characters. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: 2c8dc333-e3c1-4f25-833b-9a4262c75b9f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e504dcbbfd470c62b4102d86f25a1d2b3c4c25e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d93d288276bd9717378c9a1ab0d9b00489959c00
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800641"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068519"
 ---
 # <a name="height-property-characters-object"></a>Свойство Height (объект characters)
 
@@ -31,7 +31,7 @@ ms.locfileid: "103800641"
 
 
 
-| Отделение    | Описание                                                 |
+| Часть    | Описание                                                 |
 |---------|-------------------------------------------------------------|
 | *value* | Длинное целое число, указывающее высоту рамки символа. |
 
@@ -41,7 +41,7 @@ ms.locfileid: "103800641"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **Height** всегда выражается в пикселях относительно экранных координат (в верхнем левом углу). Параметр этого свойства применяется ко всем клиентам символа.
 

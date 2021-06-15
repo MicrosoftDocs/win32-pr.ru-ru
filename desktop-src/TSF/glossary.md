@@ -1,6 +1,6 @@
 ---
 title: Глоссарий (платформа текстовых служб)
-description: Глоссарий
+description: В этом глоссарии содержатся основные термины и понятия платформы текстовых служб. Перейдите по этим ссылкам, чтобы просмотреть записи.
 ms.assetid: 2fd6c6bf-c556-414c-98bf-ed042d49920b
 keywords:
 - Платформа текстовых служб (TSF), глоссарий
@@ -17,12 +17,12 @@ keywords:
 - Приложения, поддерживающие TSF, определения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11b9d66e9cad15b0a65a7d07ecd9b047e5db7415
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 5bc44d685ff521b42d47618578ea80c5f7b3007e
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800767"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068111"
 ---
 # <a name="glossary-text-services-framework"></a>Глоссарий (платформа текстовых служб)
 

@@ -1,15 +1,15 @@
 ---
 title: Свойство FontName (объект Commands)
-description: FontName, свойство
+description: Сведения о свойстве объекта FontName Commands. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: 7de3653e-9b4d-4a31-82d5-243f10e2743b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4b04fa386958a75b55f9cfc50a9149de454d48f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 739fceae4e73788f408306f6af08713173c99843
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104134966"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068260"
 ---
 # <a name="fontname-property-commands-object"></a>Свойство FontName (объект Commands)
 
@@ -31,7 +31,7 @@ ms.locfileid: "104134966"
 
 
 
-| Отделение   | Описание                                      |
+| Часть   | Описание                                      |
 |--------|--------------------------------------------------|
 | *Шрифт* | Строковое значение, соответствующее имени шрифта. |
 
@@ -41,7 +41,7 @@ ms.locfileid: "104134966"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **FontName** определяет шрифт, используемый для отображения текста во всплывающем меню символа. Значение по умолчанию для параметра Font основано на параметре шрифта меню для параметра **LanguageID** символа или--если этот параметр не задан, используется пользовательский идентификатор языка по умолчанию.
 

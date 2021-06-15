@@ -1,6 +1,6 @@
 ---
 title: Перечисления ВМДМ
-description: Типы перечисления
+description: Сведения о перечислениях, определяемых диспетчер устройств Windows Media, таких как WMDM_ENUM_PROP_VALID_VALUES_FORM и WMDM_FIND_SCOPE.
 ms.assetid: 205fe651-a712-4d9a-9ebf-bf7e8ec05ed0
 keywords:
 - Диспетчер устройств Windows Media, перечисления
@@ -9,12 +9,12 @@ keywords:
 - Справочник по диспетчер устройств Windows Media, перечисления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fef8cc4922d00a8d9e32344316557d422cc61f38
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: ec50acdfcf780f65a638c3761f3f6164d29afb74
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104412269"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067921"
 ---
 # <a name="wmdm-enumerations"></a>Перечисления ВМДМ
 
@@ -36,18 +36,18 @@ ms.locfileid: "104412269"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

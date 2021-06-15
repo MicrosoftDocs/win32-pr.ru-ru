@@ -1,15 +1,15 @@
 ---
-description: Описание следующих таблиц см. в разделе таблицы и назначения.
+description: В этой статье содержатся таблицы частот для международной настройки аналогового ТВ-телевидения для Чешской Республики. Индексы частоты не подходят для номеров каналов.
 ms.assetid: 6bbef2a3-7104-4b5f-8381-0a89751e572b
 title: Чешская Республика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 732a8a9082484d0b8167d8c3f565afdafd0664a0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91e3d946fdfc42f0e418d7bba1a786d49c5d6785
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806778"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068030"
 ---
 # <a name="czech-republic"></a>Чешская Республика
 
@@ -23,7 +23,7 @@ ms.locfileid: "103806778"
 -   [Предыдущие назначения каналов](#earlier-channel-assignments)
     -   [Чешская Республика назначений для вещания](#czech-republic-broadcast-assignments)
     -   [Назначений кабелей Чешской Республики](#czech-republic-cable-assignments)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="windows-7-and-later"></a>Windows 7 и более поздние версии
 
@@ -399,7 +399,7 @@ ms.locfileid: "103806778"
        863250000L,      // 57
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

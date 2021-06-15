@@ -1,15 +1,15 @@
 ---
-description: Описание следующих таблиц см. в разделе таблицы и назначения.
+description: В этой статье содержатся таблицы частот для международной настройки аналогового ТВ-телевидения для Новой Зеландии. Индексы частоты не подходят для номеров каналов.
 ms.assetid: a314d0b1-9e4f-42dd-914a-65a8f3610300
 title: Новая Зеландия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b56d806951fff53a674870b446167c2599838cd4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9879e89f6460ab25aa93594001068526404dcd84
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494316"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067989"
 ---
 # <a name="new-zealand"></a>Новая Зеландия
 
@@ -23,7 +23,7 @@ ms.locfileid: "104494316"
 -   [Предыдущие назначения каналов](#earlier-channel-assignments)
     -   [Широковещательные назначения Новой Зеландии](#new-zealand-broadcast-assignments)
     -   [Назначения кабелей Новой Зеландии](#new-zealand-cable-assignments)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="windows-7-and-later"></a>Windows 7 и более поздние версии
 
@@ -222,7 +222,7 @@ ms.locfileid: "104494316"
        799250000L,      // 49   E62 
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

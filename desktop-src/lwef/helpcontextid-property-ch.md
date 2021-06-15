@@ -1,15 +1,15 @@
 ---
 title: Свойство Хелпконтекстид (объект characters)
-description: Хелпконтекстид, свойство
+description: Сведения о свойстве Хелпконтекстид объекта Characters. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: 7ef190ba-c194-4386-a8d6-d32d902a1c03
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42006f74cc3668f8df9af2c2ffcd2515614ec735
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e751cb2d8834a6af2c3b816066d6051e3a28c767
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414501"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068190"
 ---
 # <a name="helpcontextid-property-characters-object"></a>Свойство Хелпконтекстид (объект characters)
 
@@ -31,7 +31,7 @@ ms.locfileid: "104414501"
 
 
 
-| Отделение     | Описание                                   |
+| Часть     | Описание                                   |
 |----------|-----------------------------------------------|
 | *Число* | Целое число, указывающее допустимый контекстный номер. |
 
@@ -41,7 +41,7 @@ ms.locfileid: "104414501"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для поддержки контекстной справки для символа назначьте номер контекста символу, который используется для связанного раздела справки при компиляции файла справки. Это свойство применяется только к клиенту символа. параметр не влияет на других клиентов символа или других символов клиента.
 
@@ -52,7 +52,7 @@ ms.locfileid: "104414501"
 
  
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**HelpFile, свойство**](helpfile-property.md)
 

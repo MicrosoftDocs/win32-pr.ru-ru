@@ -1,15 +1,15 @@
 ---
 title: Свойство Хелпконтекстид (объект коллекции Commands)
-description: Хелпконтекстид, свойство
+description: Сведения о свойстве Хелпконтекстид объекта коллекции Commands. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: 8b8ac1c6-1a34-45f1-a0a6-2ae14ad6adef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44d530a1563080108ef2a2798589519ecca03416
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f1ed6ccf40545e15b3603ce5abe80ef94ff4272a
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104488814"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068240"
 ---
 # <a name="helpcontextid-property-commands-collection-object"></a>Свойство Хелпконтекстид (объект коллекции Commands)
 
@@ -31,7 +31,7 @@ ms.locfileid: "104488814"
 
 
 
-| Отделение     | Описание                                   |
+| Часть     | Описание                                   |
 |----------|-----------------------------------------------|
 | *Число* | Целое число, указывающее допустимый контекстный номер. |
 
@@ -41,7 +41,7 @@ ms.locfileid: "104488814"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для приложения был создан файл справки Windows и задано свойство [**HelpFile**](helpfile-property.md) символа, агент автоматически вызывает справку, когда [**Хелпмодеон**](helpmodeon-property.md) имеет значение **true** и пользователь выбирает объект [**Commands**](/windows/desktop/lwef/the-commands-collection-object) . Если задать номер контекста в **хелпконтекстид**, агент вызывает справку и ищет раздел, определяемый этим номером контекста.
 
@@ -52,7 +52,7 @@ ms.locfileid: "104488814"
 
  
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**HelpFile, свойство**](helpfile-property.md)
 

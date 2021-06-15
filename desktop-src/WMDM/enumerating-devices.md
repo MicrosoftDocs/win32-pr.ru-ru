@@ -1,6 +1,6 @@
 ---
 title: Перечисление устройств Windows Media диспетчер устройств
-description: Перечисление устройств
+description: Узнайте, как перечислить устройства, обнаруженные диспетчер устройств Windows Media, с помощью интерфейса перечисления.
 ms.assetid: c5935681-b530-4446-a026-7ddc74084d23
 keywords:
 - Диспетчер устройств Windows Media, перечисление устройств
@@ -11,12 +11,12 @@ keywords:
 - Перечисление устройств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3584e625f54ea4e5c601f2a32865515c824cfcd
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 94653d59b0880e9d52f43b34e21522a220d39beb
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104133350"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068201"
 ---
 # <a name="enumerating-windows-media-device-manager-devices"></a>Перечисление устройств Windows Media диспетчер устройств
 
@@ -180,16 +180,16 @@ HRESULT CWMDMController::EnumDevices()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Создание приложения диспетчер устройств Windows Media**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Описание следующих таблиц см. в разделе таблицы и назначения.
+description: В этой статье содержатся таблицы частот для международной настройки аналогового ТВ-телевидения для Италии. Индексы частоты не подходят для номеров каналов.
 ms.assetid: 955fb828-4290-4e60-a5db-d3f243b86d8d
 title: Италия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c92fd079a61b95b2007134b17601f6f3dfbfbc4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f1e74092318cfbc889f9173685176d48d6b72fc0
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682221"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068580"
 ---
 # <a name="italy"></a>Италия
 
@@ -23,7 +23,7 @@ ms.locfileid: "105682221"
 -   [Предыдущие назначения каналов](#earlier-channel-assignments)
     -   [Назначения для вещания Италии](#italy-broadcast-assignments)
     -   [Назначения кабелей Италии](#italy-cable-assignments)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="windows-7-and-later"></a>Windows 7 и более поздние версии
 
@@ -243,7 +243,7 @@ ms.locfileid: "105682221"
        305250000L,      // 20 Not used
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

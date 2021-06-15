@@ -1,15 +1,15 @@
 ---
-description: Путь файловой системы к большому эскизу элемента мультимедиа.
+description: Свойство System. Media. Сумбнаилларжепас содержит путь файловой системы к большому эскизу элемента мультимедиа.
 ms.assetid: 5a710c2d-ab79-4376-88be-26931346f116
 title: System. Media. Сумбнаилларжепас
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9c761f2086c46a813307dc48c72abb7bec9d23
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f2bd17e148e25d84b254b18f347cff2a8b288554
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104273252"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068370"
 ---
 # <a name="systemmediathumbnaillargepath"></a>System. Media. Сумбнаилларжепас
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

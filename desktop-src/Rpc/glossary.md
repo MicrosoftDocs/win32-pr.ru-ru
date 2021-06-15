@@ -1,19 +1,19 @@
 ---
 title: Глоссарий (RPC)
-description: Глоссарий
+description: В этом глоссарии содержатся основные термины и понятия об удаленных вызовах процедур. Перейдите по этим ссылкам, чтобы просмотреть записи.
 ms.assetid: 4EC80A0B-D816-452C-93C0-D48A5220EEF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42d891640e8359565eca11350c2f4645c45b98e4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0a4c82bc9f1bcd78f09d226111bfe567e998397f
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104134959"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068140"
 ---
 # <a name="glossary-rpc"></a>Глоссарий (RPC)
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 -   [А](a-glos.md)
 -   [B](b-glos.md)

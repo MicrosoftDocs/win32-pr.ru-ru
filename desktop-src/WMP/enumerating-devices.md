@@ -1,6 +1,6 @@
 ---
 title: Перечисление устройств (пакет SDK для WMP)
-description: Перечисление устройств
+description: В этом примере кода показана функция, которая перечисляет устройства, создавая массив указателей, каждый из которых представляет устройство.
 ms.assetid: 0236a629-c09a-4687-a8ba-fa05107fab33
 keywords:
 - Проигрыватель Windows Media, переносные устройства
@@ -14,12 +14,12 @@ keywords:
 - перечисления, портативные устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5025d0e0a7e99028b22cc24ebc56337ea84d2fb
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: d44f71fa26f40983424ced70280d9c03e0892a00
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103987197"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068441"
 ---
 # <a name="enumerating-devices"></a>Перечисление устройств
 
@@ -123,7 +123,7 @@ STDMETHODIMP CMainDlg::EnumDevices(BOOL bConnectedOnly)
 
 Аналогичный код можно использовать для получения других списков устройств. Например, можно использовать [ивмпсинкдевице:: Get \_ Status](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status) , чтобы создать массив устройств, для которых существует партнерство.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -145,9 +145,9 @@ STDMETHODIMP CMainDlg::EnumDevices(BOOL bConnectedOnly)
 [**Работа с портативными устройствами**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

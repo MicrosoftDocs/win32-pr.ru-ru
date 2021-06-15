@@ -1,15 +1,15 @@
 ---
 title: Перечисление устройств (WPD)
-description: Перечисление устройств
+description: Узнайте, как приложение перечисляет устройства с помощью функции Енумератеаллдевицес, которая получает количество подключенных устройств и сведения об устройстве.
 ms.assetid: 28ded3cf-b0c8-4c90-ab39-efc879adb6e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2738398de7f3bfb6aa1ea88175ff30241b4dbb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6465b04e6f1a18a0bdb74f0ce883cf9161371fb6
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693711"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068600"
 ---
 # <a name="enumerating-devices-wpd"></a>Перечисление устройств (WPD)
 
@@ -116,7 +116,7 @@ pPnpDeviceIDs = NULL;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
