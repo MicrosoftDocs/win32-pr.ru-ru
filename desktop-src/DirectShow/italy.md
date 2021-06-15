@@ -1,33 +1,33 @@
 ---
-description: Описание следующих таблиц см. в разделе таблицы и назначения.
+description: В этой статье содержатся таблицы частот для международной настройки аналогового ТВ-телевидения для Италии. Индексы частоты не подходят для номеров каналов.
 ms.assetid: 955fb828-4290-4e60-a5db-d3f243b86d8d
 title: Италия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c92fd079a61b95b2007134b17601f6f3dfbfbc4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f1e74092318cfbc889f9173685176d48d6b72fc0
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682221"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068580"
 ---
-# <a name="italy"></a><span data-ttu-id="f3951-103">Италия</span><span class="sxs-lookup"><span data-stu-id="f3951-103">Italy</span></span>
+# <a name="italy"></a><span data-ttu-id="4970a-104">Италия</span><span class="sxs-lookup"><span data-stu-id="4970a-104">Italy</span></span>
 
-<span data-ttu-id="f3951-104">Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).</span><span class="sxs-lookup"><span data-stu-id="f3951-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="4970a-105">Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).</span><span class="sxs-lookup"><span data-stu-id="4970a-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="f3951-105">Индексы частоты в таблицах Италии не подходят для использования в качестве номеров каналов.</span><span class="sxs-lookup"><span data-stu-id="f3951-105">The frequency indexes in the Italy tables are not suitable for use as channel numbers.</span></span>
+<span data-ttu-id="4970a-106">Индексы частоты в таблицах Италии не подходят для использования в качестве номеров каналов.</span><span class="sxs-lookup"><span data-stu-id="4970a-106">The frequency indexes in the Italy tables are not suitable for use as channel numbers.</span></span>
 
--   [<span data-ttu-id="f3951-106">Windows 7 и более поздние версии</span><span class="sxs-lookup"><span data-stu-id="f3951-106">Windows 7 and Later</span></span>](#windows-7-and-later)
-    -   [<span data-ttu-id="f3951-107">Назначения для вещания Италии</span><span class="sxs-lookup"><span data-stu-id="f3951-107">Italy Broadcast Assignments</span></span>](#italy-broadcast-assignments)
-    -   [<span data-ttu-id="f3951-108">Назначения кабелей Италии</span><span class="sxs-lookup"><span data-stu-id="f3951-108">Italy Cable Assignments</span></span>](#italy-cable-assignments)
--   [<span data-ttu-id="f3951-109">Предыдущие назначения каналов</span><span class="sxs-lookup"><span data-stu-id="f3951-109">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
-    -   [<span data-ttu-id="f3951-110">Назначения для вещания Италии</span><span class="sxs-lookup"><span data-stu-id="f3951-110">Italy Broadcast Assignments</span></span>](#italy-broadcast-assignments)
-    -   [<span data-ttu-id="f3951-111">Назначения кабелей Италии</span><span class="sxs-lookup"><span data-stu-id="f3951-111">Italy Cable Assignments</span></span>](#italy-cable-assignments)
--   [<span data-ttu-id="f3951-112">См. также</span><span class="sxs-lookup"><span data-stu-id="f3951-112">Related topics</span></span>](#related-topics)
+-   [<span data-ttu-id="4970a-107">Windows 7 и более поздние версии</span><span class="sxs-lookup"><span data-stu-id="4970a-107">Windows 7 and Later</span></span>](#windows-7-and-later)
+    -   [<span data-ttu-id="4970a-108">Назначения для вещания Италии</span><span class="sxs-lookup"><span data-stu-id="4970a-108">Italy Broadcast Assignments</span></span>](#italy-broadcast-assignments)
+    -   [<span data-ttu-id="4970a-109">Назначения кабелей Италии</span><span class="sxs-lookup"><span data-stu-id="4970a-109">Italy Cable Assignments</span></span>](#italy-cable-assignments)
+-   [<span data-ttu-id="4970a-110">Предыдущие назначения каналов</span><span class="sxs-lookup"><span data-stu-id="4970a-110">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
+    -   [<span data-ttu-id="4970a-111">Назначения для вещания Италии</span><span class="sxs-lookup"><span data-stu-id="4970a-111">Italy Broadcast Assignments</span></span>](#italy-broadcast-assignments)
+    -   [<span data-ttu-id="4970a-112">Назначения кабелей Италии</span><span class="sxs-lookup"><span data-stu-id="4970a-112">Italy Cable Assignments</span></span>](#italy-cable-assignments)
+-   [<span data-ttu-id="4970a-113">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="4970a-113">Related topics</span></span>](#related-topics)
 
-## <a name="windows-7-and-later"></a><span data-ttu-id="f3951-113">Windows 7 и более поздние версии</span><span class="sxs-lookup"><span data-stu-id="f3951-113">Windows 7 and Later</span></span>
+## <a name="windows-7-and-later"></a><span data-ttu-id="4970a-114">Windows 7 и более поздние версии</span><span class="sxs-lookup"><span data-stu-id="4970a-114">Windows 7 and Later</span></span>
 
-### <a name="italy-broadcast-assignments"></a><span data-ttu-id="f3951-114">Назначения для вещания Италии</span><span class="sxs-lookup"><span data-stu-id="f3951-114">Italy Broadcast Assignments</span></span>
+### <a name="italy-broadcast-assignments"></a><span data-ttu-id="4970a-115">Назначения для вещания Италии</span><span class="sxs-lookup"><span data-stu-id="4970a-115">Italy Broadcast Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -104,7 +104,7 @@ ms.locfileid: "105682221"
        855250000L,      // 69 TV69
 ```
 
-### <a name="italy-cable-assignments"></a><span data-ttu-id="f3951-115">Назначения кабелей Италии</span><span class="sxs-lookup"><span data-stu-id="f3951-115">Italy Cable Assignments</span></span>
+### <a name="italy-cable-assignments"></a><span data-ttu-id="4970a-116">Назначения кабелей Италии</span><span class="sxs-lookup"><span data-stu-id="4970a-116">Italy Cable Assignments</span></span>
 
 ``` syntax
          1L,            // Lowest channel
@@ -133,9 +133,9 @@ ms.locfileid: "105682221"
        305250000L,      // 20 Not used
 ```
 
-## <a name="earlier-channel-assignments"></a><span data-ttu-id="f3951-116">Предыдущие назначения каналов</span><span class="sxs-lookup"><span data-stu-id="f3951-116">Earlier Channel Assignments</span></span>
+## <a name="earlier-channel-assignments"></a><span data-ttu-id="4970a-117">Предыдущие назначения каналов</span><span class="sxs-lookup"><span data-stu-id="4970a-117">Earlier Channel Assignments</span></span>
 
-### <a name="italy-broadcast-assignments"></a><span data-ttu-id="f3951-117">Назначения для вещания Италии</span><span class="sxs-lookup"><span data-stu-id="f3951-117">Italy Broadcast Assignments</span></span>
+### <a name="italy-broadcast-assignments"></a><span data-ttu-id="4970a-118">Назначения для вещания Италии</span><span class="sxs-lookup"><span data-stu-id="4970a-118">Italy Broadcast Assignments</span></span>
 
 ``` syntax
          1L,             // Lowest channel
@@ -214,7 +214,7 @@ ms.locfileid: "105682221"
        855250000L,      // 69
 ```
 
-### <a name="italy-cable-assignments"></a><span data-ttu-id="f3951-118">Назначения кабелей Италии</span><span class="sxs-lookup"><span data-stu-id="f3951-118">Italy Cable Assignments</span></span>
+### <a name="italy-cable-assignments"></a><span data-ttu-id="4970a-119">Назначения кабелей Италии</span><span class="sxs-lookup"><span data-stu-id="4970a-119">Italy Cable Assignments</span></span>
 
 ``` syntax
          1L,            // Lowest channel
@@ -243,11 +243,11 @@ ms.locfileid: "105682221"
        305250000L,      // 20 Not used
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="f3951-119">См. также</span><span class="sxs-lookup"><span data-stu-id="f3951-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4970a-120">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="4970a-120">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f3951-120">Международная Настройка аналогового ТВ</span><span class="sxs-lookup"><span data-stu-id="f3951-120">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="4970a-121">Международная Настройка аналогового ТВ</span><span class="sxs-lookup"><span data-stu-id="4970a-121">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  

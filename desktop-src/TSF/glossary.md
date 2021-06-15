@@ -1,6 +1,6 @@
 ---
 title: Глоссарий (платформа текстовых служб)
-description: Глоссарий
+description: В этом глоссарии содержатся основные термины и понятия платформы текстовых служб. Перейдите по этим ссылкам, чтобы просмотреть записи.
 ms.assetid: 2fd6c6bf-c556-414c-98bf-ed042d49920b
 keywords:
 - Платформа текстовых служб (TSF), глоссарий
@@ -17,16 +17,16 @@ keywords:
 - Приложения, поддерживающие TSF, определения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11b9d66e9cad15b0a65a7d07ecd9b047e5db7415
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 5bc44d685ff521b42d47618578ea80c5f7b3007e
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800767"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068111"
 ---
-# <a name="glossary-text-services-framework"></a><span data-ttu-id="cefb4-115">Глоссарий (платформа текстовых служб)</span><span class="sxs-lookup"><span data-stu-id="cefb4-115">Glossary (Text Services Framework)</span></span>
+# <a name="glossary-text-services-framework"></a><span data-ttu-id="518dc-116">Глоссарий (платформа текстовых служб)</span><span class="sxs-lookup"><span data-stu-id="518dc-116">Glossary (Text Services Framework)</span></span>
 
-<span data-ttu-id="cefb4-116">[A](a.md)[B](b.md)[C](c.md)[D](d.md)[E](e.md)[F](f.md)[G](g.md)[р](h.md).[](i.md)[J](j.md)[K](k.md)[L](l.md)[M](m.md)[N](n.md)[O](o.md)[P](p.md)[Q](q.md)[R](r.md)[S](s.md)[T](t.md)[U](u.md)[V](v.md)[W](w.md)[X](x.md)[Y](y.md)[Z](z.md)</span><span class="sxs-lookup"><span data-stu-id="cefb4-116">[A](a.md)[B](b.md)[C](c.md)[D](d.md)[E](e.md)[F](f.md)[G](g.md)[H](h.md)[I](i.md)[J](j.md)[K](k.md)[L](l.md)[M](m.md)[N](n.md)[O](o.md)[P](p.md)[Q](q.md)[R](r.md)[S](s.md)[T](t.md)[U](u.md)[V](v.md)[W](w.md)[X](x.md)[Y](y.md)[Z](z.md)</span></span>
+<span data-ttu-id="518dc-117">[A](a.md)[B](b.md)[C](c.md)[D](d.md)[E](e.md)[F](f.md)[G](g.md)[р](h.md).[](i.md)[J](j.md)[K](k.md)[L](l.md)[M](m.md)[N](n.md)[O](o.md)[P](p.md)[Q](q.md)[R](r.md)[S](s.md)[T](t.md)[U](u.md)[V](v.md)[W](w.md)[X](x.md)[Y](y.md)[Z](z.md)</span><span class="sxs-lookup"><span data-stu-id="518dc-117">[A](a.md)[B](b.md)[C](c.md)[D](d.md)[E](e.md)[F](f.md)[G](g.md)[H](h.md)[I](i.md)[J](j.md)[K](k.md)[L](l.md)[M](m.md)[N](n.md)[O](o.md)[P](p.md)[Q](q.md)[R](r.md)[S](s.md)[T](t.md)[U](u.md)[V](v.md)[W](w.md)[X](x.md)[Y](y.md)[Z](z.md)</span></span>
 
  
 

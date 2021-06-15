@@ -1,33 +1,33 @@
 ---
-description: Описание следующих таблиц см. в разделе таблицы и назначения.
+description: В этой статье содержатся таблицы частот для международной настройки аналогового ТВ-телевидения для Франции. Индексы частоты не подходят для номеров каналов.
 ms.assetid: 852ead0e-3539-483d-943d-1779f7358ba5
 title: Франция
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5da01c7645f8ed8a7715ae0514b073b63bd33e0f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 825efa71702dfe617325586d657665a302076369
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105650422"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068119"
 ---
-# <a name="france"></a><span data-ttu-id="3b53d-103">Франция</span><span class="sxs-lookup"><span data-stu-id="3b53d-103">France</span></span>
+# <a name="france"></a><span data-ttu-id="8f036-104">Франция</span><span class="sxs-lookup"><span data-stu-id="8f036-104">France</span></span>
 
-<span data-ttu-id="3b53d-104">Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).</span><span class="sxs-lookup"><span data-stu-id="3b53d-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="8f036-105">Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).</span><span class="sxs-lookup"><span data-stu-id="8f036-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="3b53d-105">Индексы частоты в таблицах Франции не подходят для использования в качестве номеров каналов.</span><span class="sxs-lookup"><span data-stu-id="3b53d-105">The frequency indexes in the France tables are not suitable for use as channel numbers.</span></span>
+<span data-ttu-id="8f036-106">Индексы частоты в таблицах Франции не подходят для использования в качестве номеров каналов.</span><span class="sxs-lookup"><span data-stu-id="8f036-106">The frequency indexes in the France tables are not suitable for use as channel numbers.</span></span>
 
--   [<span data-ttu-id="3b53d-106">Windows 7 и более поздние версии</span><span class="sxs-lookup"><span data-stu-id="3b53d-106">Windows 7 and Later</span></span>](#windows-7-and-later)
-    -   [<span data-ttu-id="3b53d-107">Широковещательные назначения Франции</span><span class="sxs-lookup"><span data-stu-id="3b53d-107">France Broadcast Assignments</span></span>](#france-broadcast-assignments)
-    -   [<span data-ttu-id="3b53d-108">Франция назначения кабелей</span><span class="sxs-lookup"><span data-stu-id="3b53d-108">France Cable Assignments</span></span>](#france-cable-assignments)
--   [<span data-ttu-id="3b53d-109">Предыдущие назначения каналов</span><span class="sxs-lookup"><span data-stu-id="3b53d-109">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
-    -   [<span data-ttu-id="3b53d-110">Широковещательные назначения Франции</span><span class="sxs-lookup"><span data-stu-id="3b53d-110">France Broadcast Assignments</span></span>](#france-broadcast-assignments)
-    -   [<span data-ttu-id="3b53d-111">Франция назначения кабелей</span><span class="sxs-lookup"><span data-stu-id="3b53d-111">France Cable Assignments</span></span>](#france-cable-assignments)
--   [<span data-ttu-id="3b53d-112">См. также</span><span class="sxs-lookup"><span data-stu-id="3b53d-112">Related topics</span></span>](#related-topics)
+-   [<span data-ttu-id="8f036-107">Windows 7 и более поздние версии</span><span class="sxs-lookup"><span data-stu-id="8f036-107">Windows 7 and Later</span></span>](#windows-7-and-later)
+    -   [<span data-ttu-id="8f036-108">Широковещательные назначения Франции</span><span class="sxs-lookup"><span data-stu-id="8f036-108">France Broadcast Assignments</span></span>](#france-broadcast-assignments)
+    -   [<span data-ttu-id="8f036-109">Франция назначения кабелей</span><span class="sxs-lookup"><span data-stu-id="8f036-109">France Cable Assignments</span></span>](#france-cable-assignments)
+-   [<span data-ttu-id="8f036-110">Предыдущие назначения каналов</span><span class="sxs-lookup"><span data-stu-id="8f036-110">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
+    -   [<span data-ttu-id="8f036-111">Широковещательные назначения Франции</span><span class="sxs-lookup"><span data-stu-id="8f036-111">France Broadcast Assignments</span></span>](#france-broadcast-assignments)
+    -   [<span data-ttu-id="8f036-112">Франция назначения кабелей</span><span class="sxs-lookup"><span data-stu-id="8f036-112">France Cable Assignments</span></span>](#france-cable-assignments)
+-   [<span data-ttu-id="8f036-113">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="8f036-113">Related topics</span></span>](#related-topics)
 
-## <a name="windows-7-and-later"></a><span data-ttu-id="3b53d-113">Windows 7 и более поздние версии</span><span class="sxs-lookup"><span data-stu-id="3b53d-113">Windows 7 and Later</span></span>
+## <a name="windows-7-and-later"></a><span data-ttu-id="8f036-114">Windows 7 и более поздние версии</span><span class="sxs-lookup"><span data-stu-id="8f036-114">Windows 7 and Later</span></span>
 
-### <a name="france-broadcast-assignments"></a><span data-ttu-id="3b53d-114">Широковещательные назначения Франции</span><span class="sxs-lookup"><span data-stu-id="3b53d-114">France Broadcast Assignments</span></span>
+### <a name="france-broadcast-assignments"></a><span data-ttu-id="8f036-115">Широковещательные назначения Франции</span><span class="sxs-lookup"><span data-stu-id="8f036-115">France Broadcast Assignments</span></span>
 
 ``` syntax
         2L,             // Lowest channel
@@ -103,7 +103,7 @@ ms.locfileid: "105650422"
        855250000L,      // 69
 ```
 
-### <a name="france-cable-assignments"></a><span data-ttu-id="3b53d-115">Франция назначения кабелей</span><span class="sxs-lookup"><span data-stu-id="3b53d-115">France Cable Assignments</span></span>
+### <a name="france-cable-assignments"></a><span data-ttu-id="8f036-116">Франция назначения кабелей</span><span class="sxs-lookup"><span data-stu-id="8f036-116">France Cable Assignments</span></span>
 
 ``` syntax
          1L,            // Lowest channel
@@ -233,9 +233,9 @@ ms.locfileid: "105650422"
        296000000L,      // 120 TV37++
 ```
 
-## <a name="earlier-channel-assignments"></a><span data-ttu-id="3b53d-116">Предыдущие назначения каналов</span><span class="sxs-lookup"><span data-stu-id="3b53d-116">Earlier Channel Assignments</span></span>
+## <a name="earlier-channel-assignments"></a><span data-ttu-id="8f036-117">Предыдущие назначения каналов</span><span class="sxs-lookup"><span data-stu-id="8f036-117">Earlier Channel Assignments</span></span>
 
-### <a name="france-broadcast-assignments"></a><span data-ttu-id="3b53d-117">Широковещательные назначения Франции</span><span class="sxs-lookup"><span data-stu-id="3b53d-117">France Broadcast Assignments</span></span>
+### <a name="france-broadcast-assignments"></a><span data-ttu-id="8f036-118">Широковещательные назначения Франции</span><span class="sxs-lookup"><span data-stu-id="8f036-118">France Broadcast Assignments</span></span>
 
 ``` syntax
         2L,             // Lowest channel
@@ -311,7 +311,7 @@ ms.locfileid: "105650422"
        855250000L,      // 69
 ```
 
-### <a name="france-cable-assignments"></a><span data-ttu-id="3b53d-118">Франция назначения кабелей</span><span class="sxs-lookup"><span data-stu-id="3b53d-118">France Cable Assignments</span></span>
+### <a name="france-cable-assignments"></a><span data-ttu-id="8f036-119">Франция назначения кабелей</span><span class="sxs-lookup"><span data-stu-id="8f036-119">France Cable Assignments</span></span>
 
 ``` syntax
          1L,            // Lowest channel
@@ -427,11 +427,11 @@ ms.locfileid: "105650422"
        855250000L,      // 107
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="3b53d-119">См. также</span><span class="sxs-lookup"><span data-stu-id="3b53d-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8f036-120">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="8f036-120">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="3b53d-120">Международная Настройка аналогового ТВ</span><span class="sxs-lookup"><span data-stu-id="3b53d-120">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="8f036-121">Международная Настройка аналогового ТВ</span><span class="sxs-lookup"><span data-stu-id="8f036-121">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  
