@@ -1,15 +1,15 @@
 ---
-description: Комплекты шифров можно согласовать только для тех версий TLS, которые их поддерживают.
+description: Узнайте о комплектах шифров TLS в Windows 10 клиенте v1511 установлен. Комплекты шифров можно согласовать только для тех версий TLS, которые их поддерживают.
 ms.assetid: E17F8C61-6985-43D7-8AAA-5300D1AA7028
 title: Комплекты шифров TLS в Windows 10 клиенте v1511 установлен
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ce25886af6e9f84c30c05fc6e77dc8572f92ccd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 644417cc4af531049c0c09f7c06dd6c5f92ca3e0
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263105"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262536"
 ---
 # <a name="tls-cipher-suites-in-windows-10-v1511"></a>Комплекты шифров TLS в Windows 10 клиенте v1511 установлен
 

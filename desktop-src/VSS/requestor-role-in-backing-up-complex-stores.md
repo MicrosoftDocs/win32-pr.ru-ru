@@ -1,15 +1,15 @@
 ---
-description: Как и все важные операции в VSS, добавочные и разностные резервные копии потребовали тесного взаимодействия между запрашивающими стороны и модулями записи.
+description: Узнайте о роли запрашивающего в добавочных и разностных резервных копиях, которые потребовали тесного взаимодействия между запрашивающими и модулями записи.
 ms.assetid: 00391a49-8c81-4518-88a2-741ad5ee4ac3
 title: Роль инициатора запроса при резервном копировании сложных хранилищ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 197351e76b6861ee9b9d1e0589ef028c911430ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a84dfa1b0b1837bacc2488b6bd9e3ffdd51b92c0
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080618"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262186"
 ---
 # <a name="requester-role-in-backing-up-complex-stores"></a>Роль инициатора запроса при резервном копировании сложных хранилищ
 

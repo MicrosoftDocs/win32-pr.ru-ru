@@ -5,12 +5,12 @@ title: Флаги параметров (WinHTTP. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: f9ca6b7c74d484a6bcac235b2396b2005c8c3260
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 91a9506225c53893990d4dcdc534293daa6c8e00
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386683"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262066"
 ---
 # <a name="option-flags"></a>Флаги параметров
 
@@ -272,6 +272,15 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_ENABLE_HTTP2_PLUS_CLIENT_CERT"></span><span id="winhttp_option_enable_http2_plus_client_cert"></span>**\_Параметр WinHTTP \_ включить \_ \_ \_ сертификат клиента HTTP2 \_ Plus**
+</dt> <dd> <dl> <dt>
+
+
+Этот параметр можно задать для обработчика сеанса WinHttp, чтобы разрешить WinHttp использовать контекст сертификата клиента, предоставленный вызывающим объектом, при использовании HTTP/2.
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_ENABLETRACING"></span><span id="winhttp_option_enabletracing"></span>**\_параметр WinHTTP \_ енаблетраЦинг**
 </dt> <dd> <dl> <dt>
 
@@ -383,6 +392,25 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 </dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_HTTP2_KEEPALIVE"></span><span id="winhttp_option_http2_keepalive"></span>**\_Параметр WinHTTP \_ HTTP2 \_ KeepAlive**
+</dt> <dd> <dl> <dt>
+
+
+Этот параметр можно задать в обработчике сеанса, чтобы WinHttp использовала пакеты проверки связи HTTP/2 в качестве механизма KeepAlive. Вызывающие объекты указывают время ожидания в миллисекундах, а после того, как в течение этого времени не будет активности, служба WinHttp начнет отсылать пакеты проверки связи HTTP/2. Вызывающие объекты не могут установить значение времени ожидания менее 5000 миллисекунд.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_HTTP2_PLUS_TRANSFER_ENCODING"></span><span id="winhttp_option_http2_plus_transfer_encoding"></span>**\_Параметр WinHTTP \_ HTTP2 \_ и \_ \_ Кодировка перемещения**
+</dt> <dd> <dl> <dt>
+
+
+Этот параметр можно задать для обработчика запросов WinHttp, чтобы управлять тем, как служба WinHttp работает, когда ответ HTTP/2 содержит заголовок "передавать данные". В этом случае служба WinHttp возвратит ошибку, если этому параметру присвоено значение **false**.
+
+
+</dt> </dl> </dd> <dt>
+
 
 <span id="WINHTTP_OPTION_IGNORE_CERT_REVOCATION_OFFLINE"></span><span id="winhttp_option_ignore_cert_revocation_offline"></span>**\_параметр WinHTTP \_ игнорировать \_ отзыв сертификата в \_ \_ автономном режиме**
 </dt> <dd> <dl> <dt>
@@ -688,6 +716,26 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_REQUIRE_STREAM_END"></span><span id="winhttp_option_require_stream_end"></span>**\_параметр WinHTTP \_ требует \_ \_ завершения потока**
+</dt> <dd> <dl> <dt>
+
+
+Этот параметр указывает, что служба WinHttp пропускает заголовки ответа Content-Length и продолжает получать поток, пока не будет получен флаг END_STREAM.
+
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_RESOLUTION_HOSTNAME"></span><span id="winhttp_option_resolution_hostname"></span>**\_ \_ имя узла для разрешения параметров WinHTTP \_**
+</dt> <dd> <dl> <dt>
+
+
+Этот параметр можно задать для обработчика запроса WinHttp перед его отправкой. Если задано, служба WinHttp будет использовать предоставленную вызывающей стороной строку в качестве имени узла для разрешения DNS.
+
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_RESOLVE_TIMEOUT"></span><span id="winhttp_option_resolve_timeout"></span>**\_ \_ время ожидания разрешения параметра WinHTTP \_**
 </dt> <dd> <dl> <dt>
 
@@ -839,6 +887,16 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_STREAM_ERROR_CODE"></span><span id="winhttp_option_stream_error_code"></span>**\_ \_ код ошибки в потоке параметров WinHTTP \_ \_**
+</dt> <dd> <dl> <dt>
+
+
+Этот параметр можно запросить в обработчике запросов WinHttp и будет возвращать код ошибки, указанный RST_STREAM кадром, полученным в HTTP-потоке.
+
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_TCP_FAST_OPEN"></span><span id="winhttp_option_tcp_fast_open"></span>**\_параметр WinHTTP \_ TCP \_ fast \_ Open**
 </dt> <dd> <dl> <dt>
 
@@ -865,6 +923,16 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 Включает для соединения параметр TLS false.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_TLS_PROTOCOL_INSECURE_FALLBACK"></span><span id="winhttp_option_tls_protocol_insecure_fallback"></span>**\_небезопасный \_ \_ \_ \_ откат протокола TLS с параметром WinHTTP**
+</dt> <dd> <dl> <dt>
+
+
+
+Этот параметр можно задать для обработчика сеанса WinHttp, чтобы указать, разрешен ли переход на TLS 1,0 в случае сбоя подтверждения TLS с более новой версией протокола.
 
 
 </dt> </dl> </dd> <dt>
@@ -1031,9 +1099,10 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | \_параметр WinHTTP \_ Отключить \_ \_ очередь потока<br/>**ЛОГИЧЕСКОМ** | X | X | \- | X | Windows 10, версия 1809 |
 | \_ \_ Включение \_ функции WinHTTP<br/>**DWORD** | \* | \* | \- | X | \- |
 | \_параметр WinHTTP \_ Включение \_ \_ протокола HTTP<br/>**DWORD** | X | X | \- | X | Windows 10 версии 1607 |
+| \_Параметр WinHTTP \_ включить \_ \_ \_ \_ контекст сертификата клиента \_ HTTP2 Plus<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | Windows 10 версии 21H1 |
 | \_параметр WinHTTP \_ енаблетраЦинг<br/>**DWORD** | \- | \- | X | X | \- |
 | \_ \_ добавочная кодировка параметров WinHTTP \_<br/>**ЛОГИЧЕСКОМ** | X | X | \- | X | Windows 10, версия 1803 |
-| \_ \_ срок действия соединения для параметра WinHTTP \_<br/>Н/Д | \- | X | \- | X | Windows 10, версия 1903 |
+| \_ \_ срок действия соединения для параметра WinHTTP \_<br/>Недоступно | \- | X | \- | X | Windows 10, версия 1903 |
 | \_ \_ Расширенная ошибка при выборе WinHTTP \_<br/>**DWORD** | X | X | X | \- | \- |
 | \_ \_ \_ учетные записи глобального прокси-сервера параметров WinHTTP \_<br/>[**учетные учетные \_ службы WinHTTP**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | Параметры WINHTTP глобальные учетные значения \_ \_ \_ сервера \_<br/>[**учетные учетные службы WINHTTP, \_ \_ пример**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |
@@ -1041,6 +1110,8 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | \_ \_ \_ требуется протокол HTTP для параметра WinHTTP \_<br/>**ЛОГИЧЕСКОМ** | X | X | \- | X | Windows 10, версия 1903 |
 | \_ \_ \_ используемый протокол HTTP \_ для параметра WinHTTP<br/>**DWORD** | \- | X | X | \- | Windows 10 версии 1607 |
 | \_ \_ Версия HTTP параметра \_ WinHTTP<br/>[**\_ \_ сведения о версии HTTP**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) | X | X | X | X | \- |
+| \_Параметр WinHTTP \_ HTTP2 \_ KeepAlive<br/>**DWORD** | X | \- | \- | X | Windows 10 версии 21H1 |
+| \_Параметр WinHTTP \_ HTTP2 \_ и \_ \_ Кодировка перемещения<br/>**ЛОГИЧЕСКОМ** | X | X | \- | X | Windows 10 версии 21H1 |
 | \_параметр WinHTTP \_ игнорировать \_ отзыв сертификата в \_ \_ автономном режиме<br/>**ЛОГИЧЕСКОМ** | \- | X | \- | X | Windows 10, версия 2004 |
 | \_ \_ \_ Быстрый откат параметров WinHTTP \_ IPv6<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | Windows 10, версия 1903 |
 | \_параметр WinHTTP \_ — \_ ответ прокси- \_ подключения \_<br/>**ЛОГИЧЕСКОМ** | X | X | X | \- | \- |
@@ -1069,6 +1140,8 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | \_ \_ приоритет запроса параметра \_ WinHTTP<br/>**DWORD** | \- | X | X | X | \- |
 | \_ \_ Статистика запросов параметров \_ WinHTTP<br/>[**\_Статистика запросов \_ WinHTTP**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats) | \- | X | X | \- | Windows 10, версия 1903 |
 | \_ \_ время запроса параметра \_ WinHTTP<br/>[**\_время запроса \_ WinHTTP**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times) | \- | X | X | \- | Windows 10, версия 1903 |
+| \_параметр WinHTTP \_ требует \_ \_ завершения потока<br/>**ЛОГИЧЕСКОМ** | X | X | \- | X | Windows 10 версии 21H1 |
+| \_ \_ имя узла для разрешения параметров WinHTTP \_<br/>**LPWSTR** | \- | X | \- | X | Windows 10 версии 21H1 |
 | \_ \_ время ожидания разрешения параметра WinHTTP \_<br/>**DWORD** | X | X | X | X | \- |
 | Параметры WINHTTP для \_ \_ защищенных \_ протоколов<br/>**DWORD** | X | \- | \- | X | \- |
 | \_ \_ \_ Структура сертификата безопасности параметра \_ WinHTTP<br/>[**\_сведения о сертификате WinHTTP \_**](/windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info) | \- | X | X | \- | \- |
@@ -1081,12 +1154,14 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | \_ \_ \_ контекст сертификата сервера параметров \_ WinHTTP<br/>[**КОНТЕКСТ СЕРТИФИКАТА**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | X | \- | \- |
 | \_ \_ \_ используемое имя субъекта-службы сервера параметров WinHTTP \_<br/>**LPWSTR** | \- | X | X | \- | \- |
 | \_ \_ имя субъекта-службы для параметра WinHTTP<br/>**DWORD** | \- | X | \- | X | \- |
+| \_ \_ код ошибки в потоке параметров WinHTTP \_ \_<br/>**DWORD** | \- | X | X | \- | Windows 10 версии 21H1 |
 | \_параметр WinHTTP \_ TCP \_ fast \_ Open<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | Windows 10, версия 2004 |
 | \_параметр WinHTTP \_ \_ KeepAlive TCP<br/>[**\_KeepAlive TCP**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10, версия 2004 |
 | \_Запуск параметра WinHTTP \_ TLS \_ false \_<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | Windows 10, версия 2004 |
+| \_небезопасный \_ \_ \_ \_ откат протокола TLS с параметром WinHTTP<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | Windows 10 версии 21H1 |
 | \_ \_ \_ событие уведомления о ВЫгрузке параметра WinHTTP \_<br/>[хинтернет](hinternet-handles-in-winhttp.md) | X | \- | \- | X | \- |
 | \_ \_ \_ синтаксический анализ ненадежного заголовка для параметра WinHTTP \_<br/>**DWORD** | \- | X | \- | X | \- |
-| \_Обновление параметра \_ WinHTTP \_ до \_ веб- \_ сокета<br/>Н/Д | \- | X | \- | X | \- |
+| \_Обновление параметра \_ WinHTTP \_ до \_ веб- \_ сокета<br/>Недоступно | \- | X | \- | X | \- |
 | \_ \_ URL-адрес параметра WinHTTP<br/>**LPWSTR** | \- | X | X | \- | \- |
 | \_параметр WinHTTP \_ использовать \_ \_ \_ учетные данные глобального сервера<br/>**ЛОГИЧЕСКОМ** | X | X | \- | X | \- |
 | \_ \_ Агент пользователя для параметра WinHTTP \_<br/>**LPWSTR** | X | \- | X | X | \- |

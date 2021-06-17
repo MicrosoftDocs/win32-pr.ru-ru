@@ -1,6 +1,6 @@
 ---
 title: Атрибуты с несколькими значениями (пакет SDK для проигрывателя Windows Media)
-description: Атрибуты с несколькими значениями
+description: Сведения об атрибутах с несколькими значениями в пакете SDK для проигрывателя Windows Media. Некоторые атрибуты элемента мультимедиа могут иметь несколько значений.
 ms.assetid: 8405481c-47f5-4752-9dab-d3c84711fbb4
 keywords:
 - Проигрыватель Windows Media, атрибуты для элементов мультимедиа
@@ -16,12 +16,12 @@ keywords:
 - несколько значений атрибута
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad93c4025d09a234b1834a32e4ca3789bcaa4a35
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a16baf4bab47dc972ec7b043980dccb0f2aadd57
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414593"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262606"
 ---
 # <a name="attributes-with-multiple-values-windows-media-player-sdk"></a>Атрибуты с несколькими значениями (пакет SDK для проигрывателя Windows Media)
 
@@ -33,7 +33,7 @@ ms.locfileid: "104414593"
 
 В последнем примере в разделе [чтение значений атрибутов](reading-attribute-values.md) показано использование *мультимедиа*. **жетаттрибутекаунтбитипе** и *Media*. методы **жетитеминфобитипе** для получения нескольких значений для заданного атрибута.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

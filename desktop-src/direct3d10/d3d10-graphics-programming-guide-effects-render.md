@@ -1,15 +1,15 @@
 ---
-description: Можно использовать для хранения информации или для отрисовки с помощью группы состояний.
+description: Сведения о визуализации влияния на Direct3D 10. Можно использовать для хранения информации или для отрисовки с помощью группы состояний.
 ms.assetid: c5654335-ad80-4a5b-bf1f-5f32b2cc8ea2
 title: Отрисовка влияния (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfba9432412846e2dc634d6ab68be999b504e06f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 79db595585c6587648fba12afa5fbb22ff33e845
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262562"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262576"
 ---
 # <a name="rendering-an-effect-direct3d-10"></a>Отрисовка влияния (Direct3D 10)
 
@@ -26,7 +26,7 @@ ms.locfileid: "104262562"
 
 Естественно, существуют [соображения по производительности](d3d10-graphics-programming-guide-effects-performance.md) при использовании эффектов. Эти рекомендации в основном одинаковы, если не применяется ни один из эффектов. Такие вещи, как минимизация объема изменений состояния или организация переменных, нуждающихся в обновлении с периодичностью. Эти приемы используются для того, чтобы максимально сокращать объем данных, которые необходимо отправить с ЦП на графический процессор, и, следовательно, сокращать потенциальные проблемы синхронизации.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

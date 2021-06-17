@@ -1,14 +1,14 @@
 ---
-description: Комплекты шифров можно согласовать только для тех версий TLS, которые их поддерживают. Наивысшая поддерживаемая версия TLS всегда является предпочтительной в подтверждении TLS.
+description: Узнайте о комплектах шифров TLS в Windows Server 2022. Комплекты шифров можно согласовать только для тех версий TLS, которые их поддерживают.
 title: Комплекты шифров TLS в Windows Server 2022.
 ms.topic: article
 ms.date: 02/16/2021
-ms.openlocfilehash: 215e62d5f94f6a4927f3081ab9109cefbbd266ea
-ms.sourcegitcommit: 07b756a2f350efa5cfd5024a723ef392274ac3d9
+ms.openlocfilehash: d69cf4d97b356bf772b3a6d59a8bc4146f596ce8
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "104351135"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262336"
 ---
 # <a name="tls-cipher-suites-in-windows-server-2022"></a>Комплекты шифров TLS в Windows Server 2022
 
@@ -32,8 +32,8 @@ ms.locfileid: "104351135"
 
 | Строка набора шифров                                                                           | Разрешено в SCH, \_ использование \_ стойкого \_ шифрования | Версии протокола TLS/SSL                     |
 |-----------------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------------------|
-| TLS \_ AES \_ 256 \_ gcm \_ SHA384<br/>                                                               | Да<br/>                      | TLS 1,3<br/>                            |
-| TLS \_ AES \_ 128 \_ gcm \_ SHA256<br/>                                                               | Да<br/>                      | TLS 1,3<br/>                            |
+| TLS \_ AES \_ 256 \_ gcm \_ SHA384<br/>                                                               | Да<br/>                      | Протокол TLS 1.3<br/>                            |
+| TLS \_ AES \_ 128 \_ gcm \_ SHA256<br/>                                                               | Да<br/>                      | Протокол TLS 1.3<br/>                            |
 | TLS \_ ECDHE \_ ECDSA \_ с \_ AES \_ 256 \_ gcm \_ SHA384<br/>                                           | Да<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ ECDSA \_ с \_ AES \_ 128 \_ gcm \_ SHA256<br/>                                           | Да<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ RSA \_ с \_ AES \_ 256 \_ gcm \_ SHA384<br/>                                             | Да<br/>                      | TLS 1.2<br/>                            |
@@ -68,7 +68,7 @@ ms.locfileid: "104351135"
 
 | Строка набора шифров                                                                               | Разрешено в SCH, \_ использование \_ стойкого \_ шифрования | Версии протокола TLS/SSL                     |
 |---------------------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------------------|
-| TLS \_ CHACHA20 \_ POLY1305 \_ SHA256<br/>                                                        | Да<br/>                      | TLS 1,3<br/>                            |
+| TLS \_ CHACHA20 \_ POLY1305 \_ SHA256<br/>                                                        | Да<br/>                      | Протокол TLS 1.3<br/>                            |
 | TLS \_ дхе \_ RSA \_ с \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                | Да<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ дхе \_ RSA \_ с \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                | Да<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ дхе \_ DSS \_ с \_ AES \_ 256 \_ CBC \_ SHA256<br/>                                             | Да<br/>                      | TLS 1.2<br/>                            |

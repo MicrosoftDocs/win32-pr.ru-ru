@@ -1,15 +1,15 @@
 ---
-description: Комплекты шифров можно согласовать только для тех версий TLS, которые их поддерживают.
+description: Узнайте о комплектах шифров TLS в Windows 7. Комплекты шифров можно согласовать только для тех версий TLS, которые их поддерживают.
 ms.assetid: 283CB634-25EA-47F5-A2E3-0913F7D3D9DC
 title: Комплекты шифров TLS в Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dadd86877f6e2c09ba46d34ec3a3abf5ff04d79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70cbb6905c2505e53b3083e86cb04084eff824b1
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990885"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262385"
 ---
 # <a name="tls-cipher-suites-in-windows-7"></a>Комплекты шифров TLS в Windows 7
 

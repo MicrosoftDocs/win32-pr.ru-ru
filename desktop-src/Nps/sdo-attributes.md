@@ -1,16 +1,16 @@
 ---
 title: Атрибуты (сервер политики сети)
-description: Атрибуты
+description: В этой статье приводятся ссылки на типы перечисления Attributes для использования при управлении атрибутами словаря RADIUS на компьютере SDO.
 ms.assetid: af7d220d-f920-4480-9cf1-72a2cb542e4e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb457ff27a3040dbbaa6eda685068872cdb3c318
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a8144334eadb2d1109ded73e94b3506752c7872d
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987583"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112261996"
 ---
 # <a name="attributes-network-policy-server"></a>Атрибуты (сервер политики сети)
 
@@ -31,6 +31,6 @@ ms.locfileid: "103987583"
 -   [**полиципропертиес**](/windows/desktop/api/sdoias/ne-sdoias-policyproperties)
 -   [**профилепропертиес**](/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
 
- 
+ 
 
- 
+ 

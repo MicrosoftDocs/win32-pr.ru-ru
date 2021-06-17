@@ -6,18 +6,21 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: c619b74cf334218813a74e63cca6d5fab400e563
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 0f908f000d340f9cc9f374e036919422c4a940a6
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550299"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262646"
 ---
 # <a name="dwritecore-overview"></a>Общие сведения о DWriteCore
 
 Двритекоре — это реализация [DirectWrite](./direct-write-portal.md) для повторного [объединения проектов](/windows/apps/project-reunion/) (DirectWrite — это API DirectX для высококачественной отрисовки текста, независимых от разрешения шрифтов, а также полной поддержки текста и макета в Юникоде). Двритекоре — это форма DirectWrite, которая работает в версиях Windows до Windows 10, версия 1809 (10,0; Сборка 17763) и открывает дверцу для использования кросс-платформенной платформы.
 
 В этом вводном разделе описывается, что такое Двритекоре, и показано, как установить его в среду разработки и программировать вместе с ней.
+
+> [!TIP]
+> Описание и ссылки на компоненты DirectX в активной разработке см. на [странице размещения DirectX](https://devblogs.microsoft.com/directx/landing-page/)в записи блога.
 
 ## <a name="the-value-proposition-of-dwritecore"></a>Ценность Двритекоре
 

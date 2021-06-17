@@ -1,15 +1,15 @@
 ---
-description: Внешний вид устройства Bluetooth LE.
+description: Сведения о внешнем устройстве Bluetooth LE. На этой справочной странице описывается свойство System. Devices. АЕП. Bluetooth. Le. Appearance. Подкатегория.
 ms.assetid: 7a98896f-a99f-4db8-8743-6d5b5b2abfee
 title: System. Devices. АЕП. Bluetooth. Le. Appearance. Подкатегория
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc378a4d4c7e776e3fae9853e123688f7ea79ad1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cb95e7295837d4b4f51f3dd54f5960d3ce446e6
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265485"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262166"
 ---
 # <a name="systemdevicesaepbluetoothleappearancesubcategory"></a>System. Devices. АЕП. Bluetooth. Le. Appearance. Подкатегория
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

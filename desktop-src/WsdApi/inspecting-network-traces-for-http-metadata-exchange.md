@@ -1,15 +1,15 @@
 ---
-description: Любой анализатор сетевых пакетов, который может отображать необработанные пакеты, может использоваться для проверки запросов на обмен метаданными HTTP. Рекомендуется Microsoft Network Monitor 3 (Netmon). Дополнительные сведения о netmon см. в статье Загрузка Netmon и примеры DPWS Filters.
+description: Узнайте, как проверить трассировки сети для обмена метаданными HTTP. Используйте анализатор сетевых пакетов, отображающий необработанные пакеты.
 ms.assetid: b3b6c4d1-5fa3-41fb-ae1d-067638e385b0
 title: Проверка трассировки сети для обмена метаданными HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9993c542789b7f11eb35344dd6b0b03bfbafc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e653b0852f84382873973cd63fbd3223a245dd4
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263908"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262686"
 ---
 # <a name="inspecting-network-traces-for-http-metadata-exchange"></a>Проверка трассировки сети для обмена метаданными HTTP
 
@@ -53,7 +53,7 @@ WSDAPI клиенты и узлы должны отправить сообщен
 
 Если источник проблемы по-прежнему не удается определить, обратитесь за помощью в службу поддержки Майкрософт. Перед обращением в службу поддержки собирайте соответствующие файлы журналов, чтобы определить основную причину проблемы. Дополнительные сведения см. в разделе [Включение трассировки WSDAPI](enabling-wsdapi-tracing.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

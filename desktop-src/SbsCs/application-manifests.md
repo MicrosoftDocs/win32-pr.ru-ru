@@ -5,12 +5,12 @@ title: Манифесты приложений
 ms.topic: article
 ms.date: 10/08/2020
 ms.custom: 19H1
-ms.openlocfilehash: cb065bc4d6d29f4142c23cdd91c83769e2fb9b87
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 2fb7297310102134dfcacf0e5f0d907fbf3a3e0b
+ms.sourcegitcommit: 7eadd92b1da5eb4eab7d516a5a768e7f7fc02d4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "105651234"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "112230249"
 ---
 # <a name="application-manifests"></a>Манифесты приложений
 
@@ -32,7 +32,7 @@ ms.locfileid: "105651234"
 |                                       | **processorArchitecture** | Нет       |
 |                                       | **version**               | Да      |
 |                                       | **publicKeyToken**        | Нет       |
-| **совместимость**                     |                           | Нет       |
+| **см**                     |                           | Нет       |
 | **приложение**                       |                           | Нет       |
 | **суппортедос**                       | **Id**                    | Нет       |
 | **maxversiontested укажите установленную**                  | **Id**                    | Нет       |
@@ -146,7 +146,7 @@ ms.locfileid: "105651234"
 
 ### <a name="maxversiontested"></a>maxversiontested укажите установленную
 
-Элемент **maxversiontested укажите установленную** указывает максимальную версию Windows, для которой было протестировано приложение. Он предназначен для использования в приложениях для настольных систем, использующих [острова XAML](/windows/apps/desktop/modernize/xaml-islands) и не развернутых в пакете MSIX. Этот элемент поддерживается в Windows 10, версии 1903 и более поздних версиях.
+Элемент **maxversiontested укажите установленную** указывает версии Windows, с которыми проверялось приложение, начиная с минимальной версии ОС, поддерживаемой приложением до максимальной версии. Полный набор версий можно найти [здесь](https://developer.microsoft.com/windows/downloads/sdk-archive/). Он предназначен для использования в приложениях для настольных систем, использующих [острова XAML](/windows/apps/desktop/modernize/xaml-islands) и не развернутых в пакете MSIX. Этот элемент поддерживается в Windows 10, версии 1903 и более поздних версиях.
 
 Элемент **maxversiontested укажите установленную** имеет следующий атрибут. У него нет вложенных элементов.
 

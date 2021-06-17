@@ -1,15 +1,15 @@
 ---
-description: Как и все важные операции в VSS, добавочные и разностные резервные копии потребовали тесного взаимодействия между запрашивающими стороны и модулями записи.
+description: Сведения о роли модуля записи в добавочных и разностных резервных копиях, требующих тесного взаимодействия между запрашивающими и модулями записи.
 ms.assetid: 3cf5dd1f-dc58-42bc-925f-fee7d34053c5
 title: Роль модуля записи при резервном копировании сложных хранилищ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80864256b9a19c25a2f0dce0d0c929ed19fd7269
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30e34952cc4a2184d2f9abcc43283d24f64bdcc3
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145178"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262156"
 ---
 # <a name="writer-role-in-backing-up-complex-stores"></a>Роль модуля записи при резервном копировании сложных хранилищ
 

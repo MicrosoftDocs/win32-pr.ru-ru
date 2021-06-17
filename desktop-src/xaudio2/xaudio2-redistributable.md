@@ -4,16 +4,18 @@ ms.assetid: ''
 title: Руководство разработчика по распространяемой версии XAudio 2.9
 ms.topic: article
 ms.date: 10/17/2019
-ms.openlocfilehash: 2b83f2811ada9a41591b4b556a34aa585002c83e
-ms.sourcegitcommit: b61ef7cdd575b086e96db4d4cf37b9fbeb388a47
+ms.openlocfilehash: a73ebd01d599446dc96e1e6735d8af572203a23b
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107583825"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262596"
 ---
 # <a name="developer-guide-for-redistributable-version-of-xaudio-29"></a>Руководство разработчика по распространяемой версии XAudio 2.9
 
 Версия Ксаудио 2,9 доступна в виде [пакета NuGet](/nuget/what-is-nuget). Разработчики могут распространять эту версию Ксаудио 2,9 вместе с их приложениями. Это позволяет приложению использовать Ксаудио 2,9 в более старых версиях Windows, которые не включают Ксаудио 2,9 в составе образа операционной системы. Использование этого распространяемого пакета предпочтительнее, чем распространение Ксаудио 2,7 из пакета SDK DirectX, так как Ксаудио 2,7 не обновлялся с 2010.
+
+Обязательно посетите [целевую страницу DirectX](https://devblogs.microsoft.com/directx/landing-page/) , чтобы получить дополнительные материалы для разработчиков DirectX.
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
@@ -27,11 +29,11 @@ ms.locfileid: "107583825"
 
 ## <a name="installing-the-nuget-package"></a>Установка пакета NuGet
 
-Самый простой способ установить пакет NuGet — использовать [Диспетчер пакетов NuGet](/nuget/consume-packages/install-use-packages-visual-studio) в Microsoft Visual Studio. В этом случае файл проекта Visual Studio будет автоматически обновлен для включения *Microsoft. XAudio2. Redist. targets*. Файл *Targets* добавляет папку include с файлами заголовков для XAudio2 в коллекцию включаемых путей проекта. Файл *Targets* также сделает. DLL или. Ссылка на EXE с XAUDIO2REDIST. LIB и КСАПОБАСЕРЕДИСТ. LIB.
+Самый простой способ установить пакет NuGet — использовать [Диспетчер пакетов NuGet](/nuget/consume-packages/install-use-packages-visual-studio) в Microsoft Visual Studio. В этом случае файл проекта Visual Studio будет автоматически обновлен для включения *Microsoft. XAudio2. Redist. targets*. Файл *Targets* добавляет папку include с файлами заголовков для XAudio2 в коллекцию включаемых путей проекта. Файл *Targets* также сделает .DLL или .EXE ссылкой на XAUDIO2REDIST. LIB и КСАПОБАСЕРЕДИСТ. LIB.
 
 Библиотека КСАПОБАСЕРЕДИСТ. LIB требуется только в том случае, если вы планируете импемент пользовательский объект обработки Ксаудио (КСАПО) и можете удалить его из *Microsoft. XAudio2. Redist. targets* , если он не используется.
 
-Можно также использовать другие средства для извлечения содержимого пакета NuGet или даже переименовать расширение файла в ZIP-файл и извлечь файлы с помощью любого средства извлечения ZIP-файлов.
+Можно также использовать другие средства для извлечения содержимого пакета NuGet или даже переименовать расширение файла для .zip и извлечь файлы с помощью любого средства извлечения ZIP-файлов.
 
 > Также доступен ``xaudio2redist`` порт, доступный для [диспетчера пакетов VC + +](https://github.com/microsoft/vcpkg).
 

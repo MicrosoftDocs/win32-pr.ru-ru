@@ -1,15 +1,15 @@
 ---
-description: Комплекты шифров можно согласовать только для тех версий TLS, которые их поддерживают.
+description: Узнайте о комплектах шифров TLS в Windows 10 v1507. Комплекты шифров можно согласовать только для тех версий TLS, которые их поддерживают.
 ms.assetid: 58A47273-D2D3-449D-891C-C9502012C557
 title: Комплекты шифров TLS в Windows 10 v1507
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e34e25bda02b5a0579e042d6df876078b180d8c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2c974f03c1f7dbe8314820224b70f14ea7121b9
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663015"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262546"
 ---
 # <a name="tls-cipher-suites-in-windows-10-v1507"></a>Комплекты шифров TLS в Windows 10 v1507
 

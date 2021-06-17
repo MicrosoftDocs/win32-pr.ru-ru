@@ -1,14 +1,14 @@
 ---
-description: Комплекты шифров можно согласовать только для тех версий TLS, которые их поддерживают. Наивысшая поддерживаемая версия TLS всегда является предпочтительной в подтверждении TLS.
+description: Узнайте о комплектах шифров TLS в Windows 10 v1903, v1909 и v2004. Комплекты шифров можно согласовать только для тех версий TLS, которые их поддерживают.
 title: Комплекты шифров TLS в Windows 10 v1903, v1909 и v2004
 ms.topic: article
 ms.date: 10/09/2018
-ms.openlocfilehash: 40694a961d9b7b97377037cb38be1b85a05f8a63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8bfea2623a7935ec64c4cc1ef1e04271d4227b3c
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719296"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262346"
 ---
 # <a name="tls-cipher-suites-in-windows-10-v1903-v1909-and-v2004"></a>Комплекты шифров TLS в Windows 10 v1903, v1909 и v2004
 

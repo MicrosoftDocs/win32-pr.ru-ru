@@ -1,15 +1,15 @@
 ---
-description: Прежде чем можно будет записывать события в сеанс трассировки, необходимо зарегистрировать поставщик.
+description: Сведения о записи событий MOF в сеанс трассировки. Начните с регистрации поставщика, чтобы он был готов к записи событий в сеанс трассировки.
 ms.assetid: 21f62b5d-0a2d-468c-af88-2fab1512f0ec
 title: Запись событий MOF (классическая модель)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d3d041e2792540d4a05637bcffdb67e1164a95b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29d081c48567851d2fb570dd7bfa5c75e687b524
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986113"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112261846"
 ---
 # <a name="writing-mof-classic-events"></a>Запись событий MOF (классическая модель)
 

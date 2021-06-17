@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Запуск компилятора MOF в файле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad1605544e05f59670f9e6fd73fcd8c01862b46c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77f62834944e995c3e7f3763c460d72f9f70aa66
+ms.sourcegitcommit: 7eadd92b1da5eb4eab7d516a5a768e7f7fc02d4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263815"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "112230236"
 ---
 # <a name="running-the-mof-compiler-on-a-file"></a>Запуск компилятора MOF в файле
 
@@ -22,7 +22,7 @@ ms.locfileid: "104263815"
 
 1.  Вызовите компилятор MOF из командной строки, используя следующий синтаксис.
 
-    **mofcomp** *моффиле * * *. mof**
+    **mofcomp** _моффиле_**. mof**
 
     Компилятор MOF поддерживает различные параметры для управления особыми сценариями обработки. Все параметры являются необязательными, и допускается любое сочетание параметров. Однако не имеет смысла использовать некоторые параметры в сочетании с другими. Например, чтобы объединить параметры **-Class: упдатеонли** и **-Class: креатеонли** , в результате компилятор не выполняет никаких действий.
 
@@ -35,7 +35,7 @@ ms.locfileid: "104263815"
 
 2.  При необходимости можно программно скомпилировать MOF-файл. Дополнительные сведения см. в разделе [**имофкомпилер**](/windows/desktop/api/Wbemcli/nn-wbemcli-imofcompiler).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

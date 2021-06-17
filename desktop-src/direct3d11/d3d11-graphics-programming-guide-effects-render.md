@@ -1,15 +1,15 @@
 ---
 title: Отрисовка результата (Direct3D 11)
-description: Можно использовать для хранения информации или для отрисовки с помощью группы состояний.
+description: Сведения о визуализации влияния на Direct3D 11. Можно использовать для хранения информации или для отрисовки с помощью группы состояний.
 ms.assetid: 7af239de-812d-4295-b599-b9deb371b01b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c99aef9f83cdf286e86ca843e57315d9ab88619
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7def8f7bbfb9f2c7a5102eb8e02fc848155e4bde
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413203"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112261836"
 ---
 # <a name="rendering-an-effect-direct3d-11"></a>Отрисовка результата (Direct3D 11)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104413203"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

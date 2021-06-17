@@ -1,15 +1,15 @@
 ---
 title: Доступ к голосовым службам (интерфейс сервера агента Microsoft)
-description: Доступ к голосовым службам
+description: Сведения о доступе к голосовым службам с помощью интерфейса сервера Microsoft Agent. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: 99cf630d-3bd1-403a-833a-9173a84fe3c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9eeb4afb2b05ca13c52d49508c3c25b7e02da676
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 1f87bf5cf88141344d5328592c9e823c7365c5d5
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380808"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262706"
 ---
 # <a name="accessing-speech-services-microsoft-agent-server-interface"></a>Доступ к голосовым службам (интерфейс сервера агента Microsoft)
 

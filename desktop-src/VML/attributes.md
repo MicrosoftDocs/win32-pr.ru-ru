@@ -1,19 +1,19 @@
 ---
 title: Атрибуты (VML)
-description: Атрибуты
+description: В этой статье перечислены атрибуты элемента Shape в VML. В Windows Internet Explorer 9 не рекомендуется использовать VML.
 ms.assetid: 0EBA02C8-3F44-492E-BC55-AD56849093D2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecf184ca87eb7344fe17b959647f672da53eec1b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2a369ce7e5ec416ec3e9c36588dc1fc58a7d0701
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414620"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262746"
 ---
 # <a name="attributes-vml"></a>Атрибуты (VML)
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Разница](adj-attribute.md)
 -   [алловинцелл](allowincell-attribute.md)
@@ -24,7 +24,7 @@ ms.locfileid: "104414620"
 -   [бордерригхтколор](msdn-online-vml-borderrightcolor-attribute.md)
 -   [бордертопколор](msdn-online-vml-bordertopcolor-attribute.md)
 -   [Стандартный](msdn-online-vml-bullet-attribute.md)
--   [Кнопка](msdn-online-vml-button-attribute.md)
+-   [Button](msdn-online-vml-button-attribute.md)
 -   [бвмоде](msdn-online-vml-bwmode-attribute.md)
 -   [бвнормал](msdn-online-vml-bwnormal-attribute.md)
 -   [бвпуре](msdn-online-vml-bwpure-attribute.md)
@@ -81,7 +81,7 @@ ms.locfileid: "104414620"
 -   [таблелимитс](msdn-online-vml-tablelimits-attribute.md)
 -   [TableProperties](msdn-online-vml-tableproperties-attribute.md)
 -   [Целевой объект](msdn-online-vml-target-attribute.md)
--   [Title](title-attribute--shape--vml.md)
+-   [Заголовок](title-attribute--shape--vml.md)
 -   [Top](msdn-online-vml-top-attribute.md)
 -   [Тип](type-attribute--shape--vml.md)
 -   [усердравн](msdn-online-vml-userdrawn-attribute.md)

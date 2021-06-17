@@ -1,6 +1,6 @@
 ---
 title: Атрибуты с несколькими значениями (пакет SDK для формата Windows Media 11)
-description: Атрибуты с несколькими значениями
+description: Сведения об атрибутах с несколькими значениями в пакете SDK для формата Windows Media 11. Некоторые атрибуты элемента мультимедиа могут иметь несколько значений.
 ms.assetid: 2e65c5d0-6f5e-45a4-8e13-9e49da007145
 keywords:
 - Windows Media Format SDK, атрибуты
@@ -9,12 +9,12 @@ keywords:
 - атрибуты, несколько значений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 928aee154f9f824168ce08470702b49c23ba2c0a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e9466cd3f993cc1b12f27bc162e5188e6d45404b
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104070968"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262696"
 ---
 # <a name="attributes-with-multiple-values-windows-media-format-11-sdk"></a>Атрибуты с несколькими значениями (пакет SDK для формата Windows Media 11)
 
@@ -48,7 +48,7 @@ ms.locfileid: "104070968"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

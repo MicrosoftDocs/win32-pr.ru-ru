@@ -1,15 +1,15 @@
 ---
-description: GUID службы Bluetooth.
+description: Сведения об GUID службы Bluetooth. На этой справочной странице описывается свойство System. Девицеинтерфаце. Bluetooth. Сервицегуид.
 ms.assetid: a6df61fa-5e6d-45cb-9012-e550fb1d08d4
 title: System. Девицеинтерфаце. Bluetooth. Сервицегуид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e47317906b9480e91f765054b3b17375195335c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c8a8eea07a06e615dd5f0adbbf35a8074094ffc
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264320"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112261956"
 ---
 # <a name="systemdeviceinterfacebluetoothserviceguid"></a>System. Девицеинтерфаце. Bluetooth. Сервицегуид
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

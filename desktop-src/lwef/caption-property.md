@@ -1,15 +1,15 @@
 ---
 title: Свойство Caption (объект Command)
-description: Свойство Caption
+description: Сведения о свойстве Caption объекта Command. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: 8dcdf3e0-3111-438b-9d39-ba9a36437ad2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0595444bd2e49ca0207c5a6a9fd459e919573958
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a0eb41def3b183fe4185b9c66a9ca5cd172372fb
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105710419"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262556"
 ---
 # <a name="caption-property-command-object"></a>Свойство Caption (объект Command)
 
@@ -31,9 +31,9 @@ ms.locfileid: "105710419"
 
 
 
-| Отделение     | Описание                                                                                  |
+| Часть     | Описание                                                                                  |
 |----------|----------------------------------------------------------------------------------------------|
-| *string* | Строковое выражение, результатом которого является текст, отображаемый в качестве заголовка для **команды**. |
+| *строка* | Строковое выражение, результатом которого является текст, отображаемый в качестве заголовка для **команды**. |
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "105710419"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы указать клавишу доступа (нелинованной) для **заголовка**, добавьте символ амперсанда (&) перед этим символом.
 
