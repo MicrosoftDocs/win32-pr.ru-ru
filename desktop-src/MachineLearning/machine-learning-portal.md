@@ -1,27 +1,27 @@
 ---
-description: В следующих разделах описываются справочные страницы по COM для пакета SDK для Windows Машинное обучение.
+description: Просмотрите целевую страницу пакета SDK для Windows Машинное обучение. Он содержит ссылку на страницу справки по Машинное обучение Windows.
 ms.assetid: 75dc6fc9-0e24-4403-8243-a46f0f9538bb
 title: Windows Machine Learning
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36c9b71a99630e90432735e76f5bca319e54d8f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f711092371095baa0e7fcec082b6e1b53117e90c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682614"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395598"
 ---
-# <a name="windows-machine-learning"></a><span data-ttu-id="1590e-103">Windows Machine Learning</span><span class="sxs-lookup"><span data-stu-id="1590e-103">Windows Machine Learning</span></span>
+# <a name="windows-machine-learning"></a><span data-ttu-id="4031d-104">Windows Machine Learning</span><span class="sxs-lookup"><span data-stu-id="4031d-104">Windows Machine Learning</span></span>
 
-<span data-ttu-id="1590e-104">В следующих разделах описываются справочные страницы по COM для пакета SDK для Windows Машинное обучение.</span><span class="sxs-lookup"><span data-stu-id="1590e-104">The following topics describe the COM reference pages for the Windows Machine Learning SDK.</span></span>
+<span data-ttu-id="4031d-105">В следующих разделах описываются справочные страницы по COM для пакета SDK для Windows Машинное обучение.</span><span class="sxs-lookup"><span data-stu-id="4031d-105">The following topics describe the COM reference pages for the Windows Machine Learning SDK.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="1590e-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="1590e-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4031d-106">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="4031d-106">In this section</span></span>
 
 
 
-| <span data-ttu-id="1590e-106">Раздел</span><span class="sxs-lookup"><span data-stu-id="1590e-106">Topic</span></span>                                                                                       | <span data-ttu-id="1590e-107">Описание</span><span class="sxs-lookup"><span data-stu-id="1590e-107">Description</span></span>                                                                                            |
+| <span data-ttu-id="4031d-107">Раздел</span><span class="sxs-lookup"><span data-stu-id="4031d-107">Topic</span></span>                                                                                       | <span data-ttu-id="4031d-108">Описание</span><span class="sxs-lookup"><span data-stu-id="4031d-108">Description</span></span>                                                                                            |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="1590e-108">Справочник по Машинное обучение Windows</span><span class="sxs-lookup"><span data-stu-id="1590e-108">Windows Machine Learning Reference</span></span>](./machine-learning-reference.md)<br/> | <span data-ttu-id="1590e-109">В следующих разделах описываются справочные страницы по COM для пакета SDK для Windows Машинное обучение.</span><span class="sxs-lookup"><span data-stu-id="1590e-109">The following topics describe the COM reference pages for the Windows Machine Learning SDK.</span></span><br/> |
+| [<span data-ttu-id="4031d-109">Справочник по Машинное обучение Windows</span><span class="sxs-lookup"><span data-stu-id="4031d-109">Windows Machine Learning Reference</span></span>](./machine-learning-reference.md)<br/> | <span data-ttu-id="4031d-110">В следующих разделах описываются справочные страницы по COM для пакета SDK для Windows Машинное обучение.</span><span class="sxs-lookup"><span data-stu-id="4031d-110">The following topics describe the COM reference pages for the Windows Machine Learning SDK.</span></span><br/> |
 
 
 

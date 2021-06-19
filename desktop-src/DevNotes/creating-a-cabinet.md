@@ -1,26 +1,26 @@
 ---
-description: Следующий синтаксис иллюстрирует создание CAB-файла.
+description: Просмотрите пример кода, демонстрирующий создание CAB-файла с помощью API CAB-файла. Для компиляции необходимо определить функции обратного вызова.
 ms.assetid: a16c332d-5afc-46ad-992b-324ed5e70683
 title: Создание CAB-файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b54df5e5373de82e7de6cc194d3e16e6917bb62
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7d1d746a61f09237d08ade349ea33b4ec8146913
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262550"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396609"
 ---
-# <a name="creating-a-cabinet"></a><span data-ttu-id="4ddf3-103">Создание CAB-файла</span><span class="sxs-lookup"><span data-stu-id="4ddf3-103">Creating a Cabinet</span></span>
+# <a name="creating-a-cabinet"></a><span data-ttu-id="70f21-104">Создание CAB-файла</span><span class="sxs-lookup"><span data-stu-id="70f21-104">Creating a Cabinet</span></span>
 
-<span data-ttu-id="4ddf3-104">Следующий синтаксис иллюстрирует создание CAB-файла.</span><span class="sxs-lookup"><span data-stu-id="4ddf3-104">The following syntax illustrates the creation of a cabinet.</span></span>
+<span data-ttu-id="70f21-105">Следующий синтаксис иллюстрирует создание CAB-файла.</span><span class="sxs-lookup"><span data-stu-id="70f21-105">The following syntax illustrates the creation of a cabinet.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="4ddf3-105">Этот код предназначен только для наглядных целей.</span><span class="sxs-lookup"><span data-stu-id="4ddf3-105">This code is for illustrative purposes only.</span></span> <span data-ttu-id="4ddf3-106">Для компиляции необходимо определить функции обратного вызова.</span><span class="sxs-lookup"><span data-stu-id="4ddf3-106">To compile, the callback functions must be defined.</span></span>
+> <span data-ttu-id="70f21-106">Этот код предназначен только для наглядных целей.</span><span class="sxs-lookup"><span data-stu-id="70f21-106">This code is for illustrative purposes only.</span></span> <span data-ttu-id="70f21-107">Для компиляции необходимо определить функции обратного вызова.</span><span class="sxs-lookup"><span data-stu-id="70f21-107">To compile, the callback functions must be defined.</span></span>
 
  
 
-## <a name="example"></a><span data-ttu-id="4ddf3-107">Пример</span><span class="sxs-lookup"><span data-stu-id="4ddf3-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="70f21-108">Пример</span><span class="sxs-lookup"><span data-stu-id="70f21-108">Example</span></span>
 
 
 ```C++
@@ -245,26 +245,26 @@ LPCSTR FCIErrorToString(FCIERROR err)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="4ddf3-108">См. также</span><span class="sxs-lookup"><span data-stu-id="4ddf3-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="70f21-109">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="70f21-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4ddf3-109">**фЦикреате**</span><span class="sxs-lookup"><span data-stu-id="4ddf3-109">**FCICreate**</span></span>](/windows/desktop/api/Fci/nf-fci-fcicreate)
+[<span data-ttu-id="70f21-110">**фЦикреате**</span><span class="sxs-lookup"><span data-stu-id="70f21-110">**FCICreate**</span></span>](/windows/desktop/api/Fci/nf-fci-fcicreate)
 </dt> <dt>
 
-[<span data-ttu-id="4ddf3-110">**фЦиаддфиле**</span><span class="sxs-lookup"><span data-stu-id="4ddf3-110">**FCIAddFile**</span></span>](/windows/desktop/api/Fci/nf-fci-fciaddfile)
+[<span data-ttu-id="70f21-111">**фЦиаддфиле**</span><span class="sxs-lookup"><span data-stu-id="70f21-111">**FCIAddFile**</span></span>](/windows/desktop/api/Fci/nf-fci-fciaddfile)
 </dt> <dt>
 
-[<span data-ttu-id="4ddf3-111">**фЦифлушфолдер**</span><span class="sxs-lookup"><span data-stu-id="4ddf3-111">**FCIFlushFolder**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushfolder)
+[<span data-ttu-id="70f21-112">**фЦифлушфолдер**</span><span class="sxs-lookup"><span data-stu-id="70f21-112">**FCIFlushFolder**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushfolder)
 </dt> <dt>
 
-[<span data-ttu-id="4ddf3-112">**фЦифлушкабинет**</span><span class="sxs-lookup"><span data-stu-id="4ddf3-112">**FCIFlushCabinet**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushcabinet)
+[<span data-ttu-id="70f21-113">**фЦифлушкабинет**</span><span class="sxs-lookup"><span data-stu-id="70f21-113">**FCIFlushCabinet**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushcabinet)
 </dt> <dt>
 
-[<span data-ttu-id="4ddf3-113">**фЦидестрой**</span><span class="sxs-lookup"><span data-stu-id="4ddf3-113">**FCIDestroy**</span></span>](/windows/desktop/api/Fci/nf-fci-fcidestroy)
+[<span data-ttu-id="70f21-114">**фЦидестрой**</span><span class="sxs-lookup"><span data-stu-id="70f21-114">**FCIDestroy**</span></span>](/windows/desktop/api/Fci/nf-fci-fcidestroy)
 </dt> <dt>
 
-[<span data-ttu-id="4ddf3-114">Макросы API CAB-файла</span><span class="sxs-lookup"><span data-stu-id="4ddf3-114">Cabinet API Macros</span></span>](cabinet-api-macros.md)
+[<span data-ttu-id="70f21-115">Макросы API CAB-файла</span><span class="sxs-lookup"><span data-stu-id="70f21-115">Cabinet API Macros</span></span>](cabinet-api-macros.md)
 </dt> </dl>
 
  

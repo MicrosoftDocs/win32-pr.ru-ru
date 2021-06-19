@@ -1,26 +1,26 @@
 ---
-description: Следующий синтаксис иллюстрирует создание CAB-файла.
+description: Просмотрите пример кода, демонстрирующий извлечение файлов из CAB-файла с помощью API CAB. Для компиляции необходимо определить функции обратного вызова.
 ms.assetid: d9d0e14a-f68c-4b3d-b91d-a3fa824031ea
 title: Извлечение файлов из CAB-файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ed62779f97c083fd39af79626d5b79baa6d305
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aeb7089ded913a874a41c458bc99a8546f63bad6
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990476"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396619"
 ---
-# <a name="extracting-files-from-a-cabinet"></a><span data-ttu-id="bd488-103">Извлечение файлов из CAB-файла</span><span class="sxs-lookup"><span data-stu-id="bd488-103">Extracting Files from a Cabinet</span></span>
+# <a name="extracting-files-from-a-cabinet"></a><span data-ttu-id="7b900-104">Извлечение файлов из CAB-файла</span><span class="sxs-lookup"><span data-stu-id="7b900-104">Extracting Files from a Cabinet</span></span>
 
-<span data-ttu-id="bd488-104">Следующий синтаксис иллюстрирует создание CAB-файла.</span><span class="sxs-lookup"><span data-stu-id="bd488-104">The following syntax illustrates the creation of a cabinet.</span></span>
+<span data-ttu-id="7b900-105">Следующий синтаксис иллюстрирует создание CAB-файла.</span><span class="sxs-lookup"><span data-stu-id="7b900-105">The following syntax illustrates the creation of a cabinet.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="bd488-105">Этот код предназначен только для наглядных целей.</span><span class="sxs-lookup"><span data-stu-id="bd488-105">This code is for illustrative purposes only.</span></span> <span data-ttu-id="bd488-106">Для компиляции необходимо определить функции обратного вызова.</span><span class="sxs-lookup"><span data-stu-id="bd488-106">To compile, the callback functions must be defined.</span></span>
+> <span data-ttu-id="7b900-106">Этот код предназначен только для наглядных целей.</span><span class="sxs-lookup"><span data-stu-id="7b900-106">This code is for illustrative purposes only.</span></span> <span data-ttu-id="7b900-107">Для компиляции необходимо определить функции обратного вызова.</span><span class="sxs-lookup"><span data-stu-id="7b900-107">To compile, the callback functions must be defined.</span></span>
 
  
 
-## <a name="example"></a><span data-ttu-id="bd488-107">Пример</span><span class="sxs-lookup"><span data-stu-id="bd488-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7b900-108">Пример</span><span class="sxs-lookup"><span data-stu-id="7b900-108">Example</span></span>
 
 
 ```C++
@@ -236,20 +236,20 @@ LPCSTR FDIErrorToString(FDIERROR err)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="bd488-108">См. также</span><span class="sxs-lookup"><span data-stu-id="bd488-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7b900-109">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="7b900-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="bd488-109">**фдикреате**</span><span class="sxs-lookup"><span data-stu-id="bd488-109">**FDICreate**</span></span>](/windows/desktop/api/Fdi/nf-fdi-fdicreate)
+[<span data-ttu-id="7b900-110">**фдикреате**</span><span class="sxs-lookup"><span data-stu-id="7b900-110">**FDICreate**</span></span>](/windows/desktop/api/Fdi/nf-fdi-fdicreate)
 </dt> <dt>
 
-[<span data-ttu-id="bd488-110">**фдикопи**</span><span class="sxs-lookup"><span data-stu-id="bd488-110">**FDICopy**</span></span>](/windows/desktop/api/Fdi/nf-fdi-fdicopy)
+[<span data-ttu-id="7b900-111">**фдикопи**</span><span class="sxs-lookup"><span data-stu-id="7b900-111">**FDICopy**</span></span>](/windows/desktop/api/Fdi/nf-fdi-fdicopy)
 </dt> <dt>
 
-[<span data-ttu-id="bd488-111">**фдидестрой**</span><span class="sxs-lookup"><span data-stu-id="bd488-111">**FDIDestroy**</span></span>](/windows/desktop/api/Fdi/nf-fdi-fdidestroy)
+[<span data-ttu-id="7b900-112">**фдидестрой**</span><span class="sxs-lookup"><span data-stu-id="7b900-112">**FDIDestroy**</span></span>](/windows/desktop/api/Fdi/nf-fdi-fdidestroy)
 </dt> <dt>
 
-[<span data-ttu-id="bd488-112">Макросы API CAB-файла</span><span class="sxs-lookup"><span data-stu-id="bd488-112">Cabinet API Macros</span></span>](cabinet-api-macros.md)
+[<span data-ttu-id="7b900-113">Макросы API CAB-файла</span><span class="sxs-lookup"><span data-stu-id="7b900-113">Cabinet API Macros</span></span>](cabinet-api-macros.md)
 </dt> </dl>
 
  

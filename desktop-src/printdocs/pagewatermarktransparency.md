@@ -1,42 +1,42 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Получение сведений о параметре Пажеватермарктранспаренци. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: f94c1450-9648-4aee-8f88-2a9213eba4a9
 title: пажеватермарктранспаренци
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8d46a03cfb1b2129f4c89a6ea7c751e23cd565e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 46ba405c3cd4a269edc4585ad8cba4c81f2c05e9
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996881"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394789"
 ---
-# <a name="pagewatermarktransparency"></a><span data-ttu-id="7b461-104">пажеватермарктранспаренци</span><span class="sxs-lookup"><span data-stu-id="7b461-104">PageWatermarkTransparency</span></span>
+# <a name="pagewatermarktransparency"></a><span data-ttu-id="60980-105">пажеватермарктранспаренци</span><span class="sxs-lookup"><span data-stu-id="60980-105">PageWatermarkTransparency</span></span>
 
-<span data-ttu-id="7b461-105">Этот раздел не является актуальным.</span><span class="sxs-lookup"><span data-stu-id="7b461-105">This topic is not current.</span></span> <span data-ttu-id="7b461-106">Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="7b461-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="60980-106">Этот раздел не является актуальным.</span><span class="sxs-lookup"><span data-stu-id="60980-106">This topic is not current.</span></span> <span data-ttu-id="60980-107">Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="60980-107">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="7b461-107">Задает прозрачность для водяного знака.</span><span class="sxs-lookup"><span data-stu-id="7b461-107">Specifies the transparency for the watermark.</span></span> <span data-ttu-id="7b461-108">Полностью непрозрачное значение должно быть равно 0.</span><span class="sxs-lookup"><span data-stu-id="7b461-108">Fully opaque would have a value of 0.</span></span>
+<span data-ttu-id="60980-108">Задает прозрачность для водяного знака.</span><span class="sxs-lookup"><span data-stu-id="60980-108">Specifies the transparency for the watermark.</span></span> <span data-ttu-id="60980-109">Полностью непрозрачное значение должно быть равно 0.</span><span class="sxs-lookup"><span data-stu-id="60980-109">Fully opaque would have a value of 0.</span></span>
 
--   [<span data-ttu-id="7b461-109">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="7b461-109">Element Information</span></span>](#element-information)
--   [<span data-ttu-id="7b461-110">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="7b461-110">Structure Content</span></span>](#structure-content)
+-   [<span data-ttu-id="60980-110">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="60980-110">Element Information</span></span>](#element-information)
+-   [<span data-ttu-id="60980-111">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="60980-111">Structure Content</span></span>](#structure-content)
 
-## <a name="element-information"></a><span data-ttu-id="7b461-111">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="7b461-111">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="60980-112">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="60980-112">Element Information</span></span>
 
 
 
-| <span data-ttu-id="7b461-112">Имя</span><span class="sxs-lookup"><span data-stu-id="7b461-112">Name</span></span> | <span data-ttu-id="7b461-113">Значение</span><span class="sxs-lookup"><span data-stu-id="7b461-113">Value</span></span> |
+| <span data-ttu-id="60980-113">Имя</span><span class="sxs-lookup"><span data-stu-id="60980-113">Name</span></span> | <span data-ttu-id="60980-114">Значение</span><span class="sxs-lookup"><span data-stu-id="60980-114">Value</span></span> |
 |----------------------------|--------------------------------------------|
-| <span data-ttu-id="7b461-114">Тип элемента</span><span class="sxs-lookup"><span data-stu-id="7b461-114">Element Type</span></span> <br/>   | <span data-ttu-id="7b461-115">параметердеф</span><span class="sxs-lookup"><span data-stu-id="7b461-115">ParameterDef</span></span><br/>                    |
-| <span data-ttu-id="7b461-116">Префикс области</span><span class="sxs-lookup"><span data-stu-id="7b461-116">Scoping Prefix</span></span> <br/> | <span data-ttu-id="7b461-117">Страница</span><span class="sxs-lookup"><span data-stu-id="7b461-117">Page</span></span><br/>                            |
-| <span data-ttu-id="7b461-118">Примечания</span><span class="sxs-lookup"><span data-stu-id="7b461-118">Notes</span></span> <br/>          | <span data-ttu-id="7b461-119">Связано с элементом Пажеватермарк</span><span class="sxs-lookup"><span data-stu-id="7b461-119">Linked to PageWatermark element</span></span><br/> |
+| <span data-ttu-id="60980-115">Тип элемента</span><span class="sxs-lookup"><span data-stu-id="60980-115">Element Type</span></span> <br/>   | <span data-ttu-id="60980-116">параметердеф</span><span class="sxs-lookup"><span data-stu-id="60980-116">ParameterDef</span></span><br/>                    |
+| <span data-ttu-id="60980-117">Префикс области</span><span class="sxs-lookup"><span data-stu-id="60980-117">Scoping Prefix</span></span> <br/> | <span data-ttu-id="60980-118">Страница</span><span class="sxs-lookup"><span data-stu-id="60980-118">Page</span></span><br/>                            |
+| <span data-ttu-id="60980-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="60980-119">Notes</span></span> <br/>          | <span data-ttu-id="60980-120">Связано с элементом Пажеватермарк</span><span class="sxs-lookup"><span data-stu-id="60980-120">Linked to PageWatermark element</span></span><br/> |
 
 
 
  
 
-## <a name="structure-content"></a><span data-ttu-id="7b461-120">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="7b461-120">Structure Content</span></span>
+## <a name="structure-content"></a><span data-ttu-id="60980-121">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="60980-121">Structure Content</span></span>
 
-<span data-ttu-id="7b461-121">XML-структура этого элемента выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="7b461-121">The XML structure of this element is as follows:</span></span>
+<span data-ttu-id="60980-122">XML-структура этого элемента выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="60980-122">The XML structure of this element is as follows:</span></span>
 
 ``` syntax
 <psf:ParameterDef name="psk:PageWatermarkTransparency">
@@ -64,31 +64,31 @@ ms.locfileid: "107996881"
 </psf:ParameterDef>
 ```
 
-## <a name="structure-properties"></a><span data-ttu-id="7b461-122">Свойства структуры</span><span class="sxs-lookup"><span data-stu-id="7b461-122">Structure Properties</span></span>
+## <a name="structure-properties"></a><span data-ttu-id="60980-123">Свойства структуры</span><span class="sxs-lookup"><span data-stu-id="60980-123">Structure Properties</span></span>
 
-<span data-ttu-id="7b461-123">В следующей таблице описаны характеристики переменных, определенных в структуре XML.</span><span class="sxs-lookup"><span data-stu-id="7b461-123">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
+<span data-ttu-id="60980-124">В следующей таблице описаны характеристики переменных, определенных в структуре XML.</span><span class="sxs-lookup"><span data-stu-id="60980-124">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
 
 
 
-| <span data-ttu-id="7b461-124">Свойство</span><span class="sxs-lookup"><span data-stu-id="7b461-124">Property</span></span>                | <span data-ttu-id="7b461-125">xsi:type</span><span class="sxs-lookup"><span data-stu-id="7b461-125">xsi:type</span></span>           | <span data-ttu-id="7b461-126">Значение</span><span class="sxs-lookup"><span data-stu-id="7b461-126">Value</span></span>                      |
+| <span data-ttu-id="60980-125">Свойство</span><span class="sxs-lookup"><span data-stu-id="60980-125">Property</span></span>                | <span data-ttu-id="60980-126">xsi:type</span><span class="sxs-lookup"><span data-stu-id="60980-126">xsi:type</span></span>           | <span data-ttu-id="60980-127">Значение</span><span class="sxs-lookup"><span data-stu-id="60980-127">Value</span></span>                      |
 |-------------------------|--------------------|----------------------------|
-| <span data-ttu-id="7b461-127">DataType</span><span class="sxs-lookup"><span data-stu-id="7b461-127">DataType</span></span><br/>     | <span data-ttu-id="7b461-128">строка</span><span class="sxs-lookup"><span data-stu-id="7b461-128">string</span></span><br/>  | <span data-ttu-id="7b461-129">xs:integer</span><span class="sxs-lookup"><span data-stu-id="7b461-129">xs:integer</span></span><br/>      |
-| <span data-ttu-id="7b461-130">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="7b461-130">DefaultValue</span></span><br/> | <span data-ttu-id="7b461-131">целое число</span><span class="sxs-lookup"><span data-stu-id="7b461-131">integer</span></span><br/> | <span data-ttu-id="7b461-132">0</span><span class="sxs-lookup"><span data-stu-id="7b461-132">0</span></span><br/>               |
-| <span data-ttu-id="7b461-133">MaxValue</span><span class="sxs-lookup"><span data-stu-id="7b461-133">MaxValue</span></span><br/>     | <span data-ttu-id="7b461-134">Целое число</span><span class="sxs-lookup"><span data-stu-id="7b461-134">integer</span></span><br/> | <span data-ttu-id="7b461-135">100</span><span class="sxs-lookup"><span data-stu-id="7b461-135">100</span></span><br/>             |
-| <span data-ttu-id="7b461-136">MinValue</span><span class="sxs-lookup"><span data-stu-id="7b461-136">MinValue</span></span><br/>     | <span data-ttu-id="7b461-137">целое число</span><span class="sxs-lookup"><span data-stu-id="7b461-137">integer</span></span><br/> | <span data-ttu-id="7b461-138">0</span><span class="sxs-lookup"><span data-stu-id="7b461-138">0</span></span><br/>               |
-| <span data-ttu-id="7b461-139">Несколько</span><span class="sxs-lookup"><span data-stu-id="7b461-139">Multiple</span></span><br/>     | <span data-ttu-id="7b461-140">целое число</span><span class="sxs-lookup"><span data-stu-id="7b461-140">integer</span></span><br/> | <span data-ttu-id="7b461-141">1</span><span class="sxs-lookup"><span data-stu-id="7b461-141">1</span></span><br/>               |
-| <span data-ttu-id="7b461-142">Обязательный</span><span class="sxs-lookup"><span data-stu-id="7b461-142">Mandatory</span></span><br/>    | <span data-ttu-id="7b461-143">строка</span><span class="sxs-lookup"><span data-stu-id="7b461-143">string</span></span><br/>  | <span data-ttu-id="7b461-144">PSK: условный</span><span class="sxs-lookup"><span data-stu-id="7b461-144">psk:Conditional</span></span><br/> |
-| <span data-ttu-id="7b461-145">Единицах UnitType</span><span class="sxs-lookup"><span data-stu-id="7b461-145">UnitType</span></span><br/>     | <span data-ttu-id="7b461-146">строка</span><span class="sxs-lookup"><span data-stu-id="7b461-146">string</span></span><br/>  | <span data-ttu-id="7b461-147">percent</span><span class="sxs-lookup"><span data-stu-id="7b461-147">percent</span></span><br/>         |
+| <span data-ttu-id="60980-128">DataType</span><span class="sxs-lookup"><span data-stu-id="60980-128">DataType</span></span><br/>     | <span data-ttu-id="60980-129">строка</span><span class="sxs-lookup"><span data-stu-id="60980-129">string</span></span><br/>  | <span data-ttu-id="60980-130">xs:integer</span><span class="sxs-lookup"><span data-stu-id="60980-130">xs:integer</span></span><br/>      |
+| <span data-ttu-id="60980-131">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="60980-131">DefaultValue</span></span><br/> | <span data-ttu-id="60980-132">целое число</span><span class="sxs-lookup"><span data-stu-id="60980-132">integer</span></span><br/> | <span data-ttu-id="60980-133">0</span><span class="sxs-lookup"><span data-stu-id="60980-133">0</span></span><br/>               |
+| <span data-ttu-id="60980-134">MaxValue</span><span class="sxs-lookup"><span data-stu-id="60980-134">MaxValue</span></span><br/>     | <span data-ttu-id="60980-135">Целое число</span><span class="sxs-lookup"><span data-stu-id="60980-135">integer</span></span><br/> | <span data-ttu-id="60980-136">100</span><span class="sxs-lookup"><span data-stu-id="60980-136">100</span></span><br/>             |
+| <span data-ttu-id="60980-137">MinValue</span><span class="sxs-lookup"><span data-stu-id="60980-137">MinValue</span></span><br/>     | <span data-ttu-id="60980-138">целое число</span><span class="sxs-lookup"><span data-stu-id="60980-138">integer</span></span><br/> | <span data-ttu-id="60980-139">0</span><span class="sxs-lookup"><span data-stu-id="60980-139">0</span></span><br/>               |
+| <span data-ttu-id="60980-140">Несколько</span><span class="sxs-lookup"><span data-stu-id="60980-140">Multiple</span></span><br/>     | <span data-ttu-id="60980-141">целое число</span><span class="sxs-lookup"><span data-stu-id="60980-141">integer</span></span><br/> | <span data-ttu-id="60980-142">1</span><span class="sxs-lookup"><span data-stu-id="60980-142">1</span></span><br/>               |
+| <span data-ttu-id="60980-143">Обязательный</span><span class="sxs-lookup"><span data-stu-id="60980-143">Mandatory</span></span><br/>    | <span data-ttu-id="60980-144">строка</span><span class="sxs-lookup"><span data-stu-id="60980-144">string</span></span><br/>  | <span data-ttu-id="60980-145">PSK: условный</span><span class="sxs-lookup"><span data-stu-id="60980-145">psk:Conditional</span></span><br/> |
+| <span data-ttu-id="60980-146">Единицах UnitType</span><span class="sxs-lookup"><span data-stu-id="60980-146">UnitType</span></span><br/>     | <span data-ttu-id="60980-147">строка</span><span class="sxs-lookup"><span data-stu-id="60980-147">string</span></span><br/>  | <span data-ttu-id="60980-148">percent</span><span class="sxs-lookup"><span data-stu-id="60980-148">percent</span></span><br/>         |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="7b461-148">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="7b461-148">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="60980-149">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="60980-149">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7b461-149">Печать спецификации схемы</span><span class="sxs-lookup"><span data-stu-id="7b461-149">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="60980-150">Печать спецификации схемы</span><span class="sxs-lookup"><span data-stu-id="60980-150">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  
