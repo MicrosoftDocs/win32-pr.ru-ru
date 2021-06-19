@@ -1,15 +1,15 @@
 ---
-description: Использует общий ключ для проверки подлинности сети.
+description: Использует общий ключ для проверки подлинности сети. Этот пример профиля использует безопасность защищенного доступа 2 Wi-Fi, которая выполняется в личном режиме (WPA2-Personal).
 ms.assetid: dbbadac6-1b7e-4161-a775-a934cf201c9d
 title: Пример профиля WPA2-Personal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0054bc28962113a85bb909d4e8cd173b3bc16974
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75e0df238b83a27155e640d56fc81ed5606a76e3
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348122"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394869"
 ---
 # <a name="wpa2-personal-profile-sample"></a>Пример профиля WPA2-Personal
 
@@ -55,7 +55,7 @@ ms.locfileid: "104348122"
 </sharedKey>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

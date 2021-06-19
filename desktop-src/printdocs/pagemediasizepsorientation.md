@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Получение сведений о параметре Пажемедиасизепсориентатион. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: b091c250-66f2-47cc-a012-1526c0ed02c9
 title: пажемедиасизепсориентатион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d16a9a2e59ebffb41ad7c9a9c16eaf41497ade62
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: adb1b3aff1099199a98d6c8be899824dd1a1f17c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997561"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395729"
 ---
 # <a name="pagemediasizepsorientation"></a>пажемедиасизепсориентатион
 

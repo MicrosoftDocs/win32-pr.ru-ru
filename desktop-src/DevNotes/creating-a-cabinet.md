@@ -1,15 +1,15 @@
 ---
-description: Следующий синтаксис иллюстрирует создание CAB-файла.
+description: Просмотрите пример кода, демонстрирующий создание CAB-файла с помощью API CAB-файла. Для компиляции необходимо определить функции обратного вызова.
 ms.assetid: a16c332d-5afc-46ad-992b-324ed5e70683
 title: Создание CAB-файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b54df5e5373de82e7de6cc194d3e16e6917bb62
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7d1d746a61f09237d08ade349ea33b4ec8146913
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262550"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396609"
 ---
 # <a name="creating-a-cabinet"></a>Создание CAB-файла
 
@@ -245,7 +245,7 @@ LPCSTR FCIErrorToString(FCIERROR err)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

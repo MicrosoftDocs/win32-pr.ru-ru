@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ предоставляет плоский API, состоящий из примерно 600 функций, которые реализуются в Gdiplus.dll и объявлены в Гдиплусфлат. h.
+description: Windows GDI+ предоставляет плоский API, состоящий из примерно 600 функций. Эти плоские функции API упаковываются с помощью класса Brush C++.
 ms.assetid: def64d31-9a4b-4365-a618-b87735ce38f1
 title: Функции Brush (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7490cc641312014987b2fb847979de640c28c47e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffe23588c44d8a3a6412cd0c2bc1327b98bbbd95
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104345105"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395089"
 ---
 # <a name="brush-functions-gdi"></a>Функции Brush (GDI+)
 

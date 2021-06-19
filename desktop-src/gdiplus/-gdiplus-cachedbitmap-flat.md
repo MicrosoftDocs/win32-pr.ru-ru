@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ предоставляет плоский API, состоящий из примерно 600 функций, которые реализуются в Gdiplus.dll и объявлены в Гдиплусфлат. h.
+description: Windows GDI+ предоставляет плоский API, состоящий из примерно 600 функций. Эти плоские функции API упаковываются классом C++ Качедбитмап.
 ms.assetid: 06718603-e001-49d4-ac5e-decdd98df42b
 title: Функции Качедбитмап
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ebb19648e38425561d1a1609c5f71368718ffb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce265592ad8aa10744ed124d246be69e258773f5
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812971"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396200"
 ---
 # <a name="cachedbitmap-functions"></a>Функции Качедбитмап
 

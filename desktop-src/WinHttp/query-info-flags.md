@@ -1,17 +1,17 @@
 ---
 description: Эти атрибуты и модификаторы используются WinHttpQueryHeaders.
 ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
-title: Флаги сведений о запросе (WinHTTP. h)
+title: Флаги сведений о запросе (Winhttp.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32ba15c258a37627cdbdd79f13859761fd671385
-ms.sourcegitcommit: df0933ad2b42f07031f4340330712c11cf712ff0
+ms.openlocfilehash: 5b3d8a7f95f0e093f175901e4bed30f4055a04b8
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107385892"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396629"
 ---
-# <a name="query-info-flags-winhttph"></a>Флаги сведений о запросе (WinHTTP. h)
+# <a name="query-info-flags-winhttph"></a>Флаги сведений о запросе (Winhttp.h)
 
 Эти атрибуты и модификаторы используются [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders).
 
@@ -799,6 +799,24 @@ ms.locfileid: "107385892"
 
 
 Возвращает значение заголовка в виде структуры [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) , которое не требует от приложения анализа данных. Используйте для заголовков, значение которых является строкой даты и времени, например "Last-Modified-Time".
+
+
+</dt> </dl> </dd> </dl>
+
+<span id="WINHTTP_QUERY_FLAG_TRAILERS"></span><span id="winhttp_query_flag_trailers"></span>**\_ \_ показывающий флаг запроса WinHTTP \_**
+</dt> <dd> <dl> <dt>
+
+
+Запрос на ответа. Прежде чем обращаться к запросам на поправку ответа, необходимо вызвать [**WinHttpReadData**](/windows/win32/api/Winhttp/nf-winhttp-winhttpreaddata) , пока не вернется значение 0 байт считано.
+
+
+</dt> </dl> </dd> </dl>
+
+<span id="WINHTTP_QUERY_FLAG_WIRE_ENCODING"></span><span id="winhttp_query_flag_wire_encoding"></span>**\_флаг запроса \_ WinHTTP \_ \_ Кодировка сети**
+</dt> <dd> <dl> <dt>
+
+
+По умолчанию [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) выполняет преобразование Юникода перед возвратом запрошенного заголовка. Если этот флаг установлен, WinHttp возвращает заголовку вызывающему объекту без выполнения этого преобразования.
 
 
 </dt> </dl> </dd> </dl>

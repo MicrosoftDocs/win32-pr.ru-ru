@@ -1,15 +1,15 @@
 ---
 title: Свойство Воицекаптион (объект Command)
-description: Воицекаптион, свойство
+description: Сведения о свойстве Воицекаптион объекта Command, который задает или возвращает текст, отображаемый для командного объекта в окне "Voice Commands".
 ms.assetid: 97a3015c-6c39-42d5-b6bd-7563bd444b38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1077c8d65a52bc8f0cfa329fdceb740e30e6784
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d700b5d29b4c493be7382d45de55f44e6d02646c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105710426"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396169"
 ---
 # <a name="voicecaption-property-command-object"></a>Свойство Воицекаптион (объект Command)
 
@@ -31,9 +31,9 @@ ms.locfileid: "105710426"
 
 
 
-| Отделение     | Описание                                               |
+| Часть     | Описание                                               |
 |----------|-----------------------------------------------------------|
-| *string* | Строковое выражение, результатом которого является отображаемый текст. |
+| *строка* | Строковое выражение, результатом которого является отображаемый текст. |
 
 
 
@@ -41,11 +41,11 @@ ms.locfileid: "105710426"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вы определяете объект [**Command**](/windows/desktop/lwef/the-command-object) в коллекции [**Commands**](https://www.bing.com/search?q=**Commands**) и устанавливаете его свойство [**Voice**](voice-property.md) , обычно также устанавливается свойство [**воицекаптион**](voicecaption-property.md) . Этот текст будет отображаться в окне "Voice Commands", если ваше клиентское приложение является активным, а сам символ является видимым. Если это свойство не задано, параметр для свойства [**Caption**](caption-property.md) определяет отображаемый текст. Если не задано ни одно свойство **воицекаптион** и **Caption** , команда не отображается в окне "Voice Commands".
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [**Свойство Caption**](caption-property.md)
 

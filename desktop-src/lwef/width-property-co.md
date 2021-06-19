@@ -1,15 +1,15 @@
 ---
 title: Свойство Width (объект characters)
-description: Width, свойство
+description: Сведения о свойстве Width объекта Characters, который возвращает или задает ширину кадра для указанного символа.
 ms.assetid: ebada4cc-dbe6-4540-be1f-1f61e176765b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a37a29bd8f50231bd44b6529a0c1ce13c0256d3
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e17f11412774fcf34e887a2f00479ab7d96369de
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104070974"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395130"
 ---
 # <a name="width-property-characters-object"></a>Свойство Width (объект characters)
 
@@ -31,7 +31,7 @@ ms.locfileid: "104070974"
 
 
 
-| Отделение    | Описание                                                |
+| Часть    | Описание                                                |
 |---------|------------------------------------------------------------|
 | *value* | Длинное целое число, указывающее ширину кадра символа. |
 
@@ -41,7 +41,7 @@ ms.locfileid: "104070974"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство [**Width**](width-property.md) всегда выражается в пикселях. Параметр этого свойства применяется ко всем клиентам символа.
 

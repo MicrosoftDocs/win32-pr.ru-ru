@@ -1,5 +1,5 @@
 ---
-description: 'Этот раздел организован следующим образом:'
+description: Выберите статический или динамический метод контекстного меню при реализации пользовательского формата файла в оболочке Windows.
 title: Выбор метода статического или динамического контекстного меню
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 70c6cb74e2c9a432bfdae2f26da1fdbebfc5f00b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfd73ee052594e1136fe2885ce92b682f229096b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081097"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394779"
 ---
 # <a name="choosing-a-static-or-dynamic-shortcut-menu-method"></a>Выбор метода статического или динамического контекстного меню
 
@@ -26,7 +26,7 @@ ms.locfileid: "104081097"
     -   [Нерекомендованные динамические методы команд](#discouraged-dynamic-verb-methods)
 -   [Расширение контекстного меню](#extend-a-shortcut-menu)
 -   [Поддержка методов команд операционной системой](#support-for-verb-methods-by-operating-system)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="choose-a-verb-method"></a>Выбор метода глагола
 
@@ -119,9 +119,8 @@ ms.locfileid: "104081097"
 
 
 
-|                      |            |               |                      |
+| Метод verb          | Windows XP | Windows Vista | Windows 7 и более поздние |
 |----------------------|------------|---------------|----------------------|
-|                      | Windows XP | Windows Vista | Windows 7 и более поздние |
 | CreateProcess        | X          | X             | X                    |
 | DDE                  | X          | X             | X                    |
 | DropTarget           | X          | X             | X                    |
@@ -133,7 +132,7 @@ ms.locfileid: "104081097"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

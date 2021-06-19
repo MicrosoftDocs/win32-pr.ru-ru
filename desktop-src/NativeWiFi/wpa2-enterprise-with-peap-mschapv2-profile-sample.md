@@ -1,15 +1,15 @@
 ---
-description: Использует защищенный протокол расширенной проверки подлинности с протоколом проверки подлинности Microsoft Challenge версии 2 (PEAP-MSCHAPv2) с именем пользователя и паролем для проверки подлинности в сети.
+description: Использует защищенный протокол расширенной проверки подлинности с протоколом проверки подлинности Microsoft Challenge версии 2 с WPA2-Enterprise.
 ms.assetid: fcbc74a6-1990-45a0-af2e-1c343a84497a
 title: Пример WPA2-Enterprise с PEAP-MSCHAPv2 профилем
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43363be10a6d7d77d445e188b1c3084f71ce3b10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd05ac34992244eedae08f9c76becd5b2c95564e
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674210"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394809"
 ---
 # <a name="wpa2-enterprise-with-peap-mschapv2-profile-sample"></a>Пример WPA2-Enterprise с PEAP-MSCHAPv2 профилем
 
@@ -78,7 +78,7 @@ ms.locfileid: "105674210"
 </WLANProfile>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

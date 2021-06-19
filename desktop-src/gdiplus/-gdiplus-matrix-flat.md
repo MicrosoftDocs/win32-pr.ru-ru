@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ предоставляет плоский API, состоящий из примерно 600 функций, которые реализуются в Gdiplus.dll и объявлены в Гдиплусфлат. h.
+description: Windows GDI+ предоставляет плоский API, состоящий из примерно 600 функций. Эти плоские функции API упаковываются классом C++ Matrix.
 ms.assetid: 89be396f-7421-4a58-890b-6c7c34fe090c
 title: Функции матрицы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 914cde0847c53b1a8239454e099a444ade7d9cf5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 979f502e953b077e644b5c3c7479d521f5ca929b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997466"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395249"
 ---
 # <a name="matrix-functions"></a>Функции матрицы
 

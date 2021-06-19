@@ -1,15 +1,15 @@
 ---
 title: Загружаются неупорядоченные представления доступа
-description: Неупорядоченная типизированная Загрузка представления доступа (UAV) — это способность шейдера считывать из UAV с определенным \_ форматом DXGI.
+description: Подробнее о типизированной нагрузке неупорядоченного представления доступа (UAV) в Direct3D 11. Типизированная нагрузка UAV — это способность шейдера считывать из UAV с определенным DXGI_FORMAT.
 ms.assetid: BA72BF21-8621-461D-8677-9DFB7D5BC6AA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0958b3563ab8001fd7b34ae62c9bcc37ad75c07a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2c6d2cbfa51c8473dc3da51c5844c63bef944b50
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104337900"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396289"
 ---
 # <a name="typed-unordered-access-view-loads"></a>Загружаются неупорядоченные представления доступа
 
@@ -18,7 +18,7 @@ ms.locfileid: "104337900"
 -   [Обзор](#overview)
 -   [Поддерживаемые форматы и вызовы API](#supported-formats-and-api-calls)
 -   [Использование типизированных UAV загрузок из HLSL](#using-typed-uav-loads-from-hlsl)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="overview"></a>Обзор
 
@@ -120,7 +120,7 @@ float4 main() : SV_Target
 }
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -130,6 +130,6 @@ float4 main() : SV_Target
 [Модель шейдера 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

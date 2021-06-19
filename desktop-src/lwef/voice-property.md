@@ -1,15 +1,15 @@
 ---
 title: Свойство Voice (объект Commands)
-description: Свойство Voice
+description: Сведения о свойстве Voice объекта Commands, который возвращает или задает текст, который передается в грамматику обработчика речи (для распознавания).
 ms.assetid: 1feb5597-7971-4778-8221-2eb3a6e5e1ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0207fb4fb6f09d460496b6886354bc17738def17
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7403075d8ec0b2d16c66130fc9534edf4fc391df
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104533656"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396159"
 ---
 # <a name="voice-property-commands-object"></a>Свойство Voice (объект Commands)
 
@@ -31,9 +31,9 @@ ms.locfileid: "104533656"
 
 
 
-| Отделение     | Описание                                                                                                            |
+| Часть     | Описание                                                                                                            |
 |----------|------------------------------------------------------------------------------------------------------------------------|
-| *string* | Строковое выражение, соответствующее словам или фразе, используемым модулем распознавания речи для распознавания этой команды. |
+| *строка* | Строковое выражение, соответствующее словам или фразе, используемым модулем распознавания речи для распознавания этой команды. |
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "104533656"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот параметр не указан, [**воицекаптион**](voicecaption-property.md) для объекта [**Commands**](/windows/desktop/lwef/the-commands-collection-object) не отображается в окне "Voice Commands".
 

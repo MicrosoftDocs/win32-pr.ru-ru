@@ -1,15 +1,15 @@
 ---
 title: Свойство Voice (объект Command)
-description: Свойство Voice
+description: Сведения о свойстве Voice объекта Command, который возвращает или задает текст грамматики обработчика речи для соответствующей команды для символа.
 ms.assetid: e393aa89-6fa7-4080-9faf-66faca83d561
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88a8f9003b5200882fc01ee37edb868a261c68c7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1ee7981de076fb3c7d8f796a8cc7d1177f96495c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105691749"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396149"
 ---
 # <a name="voice-property-command-object"></a>Свойство Voice (объект Command)
 
@@ -31,9 +31,9 @@ ms.locfileid: "105691749"
 
 
 
-| Отделение     | Описание                                                                                                                                       |
+| Часть     | Описание                                                                                                                                       |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| *string* | Строковое выражение, соответствующее словам или фразе, используемым модулем распознавания речи для распознавания этой [**команды**](/windows/desktop/lwef/the-command-object). |
+| *строка* | Строковое выражение, соответствующее словам или фразе, используемым модулем распознавания речи для распознавания этой [**команды**](/windows/desktop/lwef/the-command-object). |
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "105691749"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот параметр не указан, [**воицекаптион**](voicecaption-property.md) для объекта [**Commands**](/windows/desktop/lwef/the-commands-collection-object) не отображается в окне "Voice Commands". Если указать параметр [**голоса**](voice-property.md) , но не **Воицекаптион** (или [**заголовок**](https://www.bing.com/search?q=**Caption**)), команда не будет отображаться в окне "Voice Commands", но она будет доступна для передачи голоса, когда клиентское приложение станет входным.
 

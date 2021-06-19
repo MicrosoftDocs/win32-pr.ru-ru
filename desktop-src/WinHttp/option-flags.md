@@ -5,12 +5,12 @@ title: Флаги параметров (WinHTTP. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: 91a9506225c53893990d4dcdc534293daa6c8e00
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 25049ee11c59c6b320b794c07bd65e5ec9b930c9
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262066"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395419"
 ---
 # <a name="option-flags"></a>Флаги параметров
 
@@ -45,6 +45,14 @@ ms.locfileid: "112262066"
 
 
 </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_BACKGROUND_CONNECTIONS"></span><span id="winhttp_option_background_connections"></span>**\_Параметры WinHTTP \_ фоновых \_ подключений**
+</dt> <dd> <dl> <dt>
+
+Если этот параметр задан для обработчика сеанса, необходимо передать число открываемых подключений. Затем, при первой отправке запроса, вместо того, чтобы открывать только одно соединение, служба WinHttp открывает несколько подключений параллельно. Это может повысить производительность последующих запросов к тому же назначению, что не приведет к излишней нагрузке на подключение.
+
+
+</dt> </dl> </dd> <dt>
 
 <span id="WINHTTP_OPTION_CALLBACK"></span><span id="winhttp_option_callback"></span>**\_ \_ обратный вызов параметра WinHTTP**
 </dt> <dd> <dl> <dt>
@@ -203,6 +211,15 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_DISABLE_CERT_CHAIN_BUILDING"></span><span id="winhttp_option_disable_cert_chain_building"></span>**\_параметр WinHTTP \_ Отключить \_ \_ Построение цепочки сертификатов \_**
+</dt> <dd> <dl> <dt>
+
+
+Установка этого параметра для обработчика сеанса WinHttp позволяет включить или отключить сборку цепочки сертификатов сервера.
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_DISABLE_FEATURE"></span><span id="winhttp_option_disable_feature"></span>**\_ \_ функция отключения параметров \_ WinHTTP**
 </dt> <dd> <dl> <dt>
 
@@ -322,6 +339,15 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 Извлекает длинное целое число без знака, содержащее код ошибки сокетов Microsoft Windows, сопоставленный с ошибкой сообщения WinHTTP, которые были \_ \_ \* возвращены в данном контексте потока. В качестве значения Handle можно передать значение **null** .
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_FIRST_AVAILABLE_CONNECTION"></span><span id="winhttp_option_first_available_connection"></span>**\_параметр WinHTTP \_ первое \_ доступное \_ подключение**
+</dt> <dd> <dl> <dt>
+
+
+По умолчанию, когда служба WinHttp отправляет запрос, если нет доступных соединений для обслуживания запроса, служба WinHttp попытается установить новое соединение, и запрос будет привязан к этому новому соединению. При задании этого параметра такой запрос будет обрабатываться в первом соединении, которое становится доступным, и не обязательно должно быть установлено.
 
 
 </dt> </dl> </dd> <dt>
@@ -1082,6 +1108,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 |-|-|-|-|-|-|
 | \_параметр WinHTTP \_ — \_ \_ неблокирующие \_ обратные вызовы<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | \- |
 | \_ \_ политика автоматического входа в службу WinHTTP \_<br/>**DWORD** | \- | X | \- | X | \- |
+| \_Параметры WinHTTP \_ фоновых \_ подключений<br/>**DWORD** | X | \- | \- | X | Windows 10 версии 21H1 |
 | \_ \_ обратный вызов параметра WinHTTP<br/>**лпвоид** | X | X | X | X | \- |
 | \_ \_ \_ контекст сертификата клиента для параметра WinHTTP \_<br/>[**\_контекст сертификата**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | \- | X | Windows Vista |
 | \_ \_ \_ \_ список поставщиков сертификатов клиента для параметра WinHTTP \_<br/>[**Секпкгконтекст \_ иссуерлистинфоекс**](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex) | \- | X | X | \- | Windows Vista |
@@ -1094,6 +1121,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | \_Параметр WinHTTP \_ Connection \_ stats \_ v1<br/>[**\_Сведения о TCP \_ v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) | \- | X | X | \- | Windows 10, версия 2004 |
 | \_ \_ значение контекста WinHTTP для параметра \_<br/>**DWORD \_ ptr** | X | X | X | X | \- |
 | \_ \_ распаковка параметров WinHTTP<br/>**DWORD** | X | X | \- | X | Windows 8.1 |
+| \_параметр WinHTTP \_ Отключить \_ \_ Построение цепочки сертификатов \_<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | Windows 10 версии 21H1 |
 | \_ \_ функция отключения параметров \_ WinHTTP<br/>**DWORD** | \- | X | \- | X | \- |
 | \_параметр WinHTTP \_ Отключить \_ откат безопасных \_ протоколов \_<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | Windows 10, версия 1903 |
 | \_параметр WinHTTP \_ Отключить \_ \_ очередь потока<br/>**ЛОГИЧЕСКОМ** | X | X | \- | X | Windows 10, версия 1809 |
@@ -1104,6 +1132,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | \_ \_ добавочная кодировка параметров WinHTTP \_<br/>**ЛОГИЧЕСКОМ** | X | X | \- | X | Windows 10, версия 1803 |
 | \_ \_ срок действия соединения для параметра WinHTTP \_<br/>Недоступно | \- | X | \- | X | Windows 10, версия 1903 |
 | \_ \_ Расширенная ошибка при выборе WinHTTP \_<br/>**DWORD** | X | X | X | \- | \- |
+| \_параметр WinHTTP \_ первое \_ доступное \_ подключение<br/>**ЛОГИЧЕСКОМ** | X | \- | \- | X | Windows 10 версии 21H1 |
 | \_ \_ \_ учетные записи глобального прокси-сервера параметров WinHTTP \_<br/>[**учетные учетные \_ службы WinHTTP**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | Параметры WINHTTP глобальные учетные значения \_ \_ \_ сервера \_<br/>[**учетные учетные службы WINHTTP, \_ \_ пример**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |
 | \_ \_ тип обработчика параметров WinHTTP \_<br/>**DWORD** | X | X | X | \- | \- |
@@ -1185,6 +1214,6 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | Распространяемые компоненты          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000. |
 | Заголовок                   | WinHTTP. h                                                                       |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Версии WinHTTP](winhttp-versions.md)

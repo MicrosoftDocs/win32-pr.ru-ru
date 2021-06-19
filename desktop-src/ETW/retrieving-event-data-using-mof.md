@@ -1,15 +1,15 @@
 ---
-description: Чтобы использовать данные событий, потребитель должен иметь представление о формате данных события.
+description: Получение данных события с помощью MOF-файл (MOF) при использовании событий. Чтобы использовать данные событий, потребитель должен иметь представление о формате данных события.
 ms.assetid: 13512236-c416-43ba-bf36-b05c5c08d6c9
 title: Получение данных о событиях с помощью MOF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 455ddc08aae189b2ceab05aab365d9b9fb1a15d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8752d7a4dc71ddb7b5a5dbc39e93c5fe16bb652
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984465"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395019"
 ---
 # <a name="retrieving-event-data-using-mof"></a>Получение данных о событиях с помощью MOF
 

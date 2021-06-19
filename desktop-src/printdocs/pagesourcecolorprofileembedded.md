@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения о параметре Пажесаурцеколорпрофилимбеддед. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 38411802-2b2e-441c-b3a6-334d87b11b5d
 title: пажесаурцеколорпрофилимбеддед
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91e97e768561fd13d5033b12f69a9bc481448e0e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 0633fa061601c1d575f174ab5572582efdf9a89e
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999122"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395639"
 ---
 # <a name="pagesourcecolorprofileembedded"></a>пажесаурцеколорпрофилимбеддед
 

@@ -1,15 +1,15 @@
 ---
-description: Чтобы использовать данные событий, потребитель должен иметь представление о формате данных события.
+description: Узнайте, как извлекать данные событий при использовании событий. Для использования данных, относящихся к конкретному событию, потребитель должен иметь представление о формате данных события.
 ms.assetid: d783ff64-73c5-4ace-a866-38a42db7c8b6
 title: Получение данных о событиях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 427d39f9c187d1dd0279d5946e546e415badd13f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 477c79850a2325cea5c1a2536609e059b7cdab0b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984461"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394999"
 ---
 # <a name="retrieving-event-data"></a>Получение данных о событиях
 

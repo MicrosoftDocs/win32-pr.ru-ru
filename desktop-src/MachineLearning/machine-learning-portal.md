@@ -1,15 +1,15 @@
 ---
-description: В следующих разделах описываются справочные страницы по COM для пакета SDK для Windows Машинное обучение.
+description: Просмотрите целевую страницу пакета SDK для Windows Машинное обучение. Он содержит ссылку на страницу справки по Машинное обучение Windows.
 ms.assetid: 75dc6fc9-0e24-4403-8243-a46f0f9538bb
 title: Windows Machine Learning
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36c9b71a99630e90432735e76f5bca319e54d8f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f711092371095baa0e7fcec082b6e1b53117e90c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682614"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395598"
 ---
 # <a name="windows-machine-learning"></a>Windows Machine Learning
 

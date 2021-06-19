@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Получите дополнительные сведения о параметре Пажеватермарктексттекст. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 3b01f05c-fe2e-4467-b2a7-5431a41200cd
 title: пажеватермарктексттекст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb19f5965347e79732aa116e5be51f90e4ef6943
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3db5ef33008f0ccb66b6af34e2cc245b90c1ebea
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996081"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395969"
 ---
 # <a name="pagewatermarktexttext"></a>пажеватермарктексттекст
 
@@ -69,12 +69,12 @@ XML-структура этого элемента выглядит следую
 
 | Свойство                | xsi:type           | Значение                      |
 |-------------------------|--------------------|----------------------------|
-| DataType<br/>     | Строковый<br/>  | xs:string<br/>       |
+| DataType<br/>     | Строка<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | Целочисленный тип<br/> | неопределенный<br/>       |
 | MaxLength<br/>    | Целочисленный тип<br/> | неопределенный<br/>       |
 | MinLength<br/>    | Целое число<br/> | 1<br/>               |
-| Обязательный<br/>    | Строковый<br/>  | PSK: условный<br/> |
-| Единицах UnitType<br/>     | Строковый<br/>  | characters<br/>      |
+| Обязательный<br/>    | Строка<br/>  | PSK: условный<br/> |
+| Единицах UnitType<br/>     | Строка<br/>  | characters<br/>      |
 
 
 

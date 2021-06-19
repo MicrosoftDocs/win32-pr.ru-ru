@@ -1,15 +1,15 @@
 ---
-description: Универсальный код ресурса (URI) представления большого эскиза элемента мультимедиа.
+description: Общие сведения о свойстве System. Media. Сумбнаилларжеури, представляющем универсальный код ресурса (URI) представления большого эскиза элемента мультимедиа.
 ms.assetid: cafccadf-45de-437f-abe9-b09ede747f02
 title: System. Media. Сумбнаилларжеури
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 566f34ab39fdd1336c15a0c2729a3199879ee8d3
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 2c399996e15f4c8692af95f990fb1f8a00005990
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105713252"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396659"
 ---
 # <a name="systemmediathumbnaillargeuri"></a>System. Media. Сумбнаилларжеури
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

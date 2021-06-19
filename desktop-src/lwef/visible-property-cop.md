@@ -1,15 +1,15 @@
 ---
 title: Свойство Visible (объект Command)
-description: Свойство Visible
+description: Сведения о свойстве Visible объекта Command, который возвращает или задает видимость команды во всплывающем меню символа.
 ms.assetid: 80137e16-4646-4251-b1c0-bca39ff7a233
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: feaa6603812bf0938e6639021eb0f8660382af37
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: af4efec1ad8a97d6412a560a81836273b93ebf2b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105710411"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396249"
 ---
 # <a name="visible-property-command-object"></a>Свойство Visible (объект Command)
 
@@ -31,7 +31,7 @@ ms.locfileid: "105710411"
 
 
 
-| Отделение      | Описание                                                                                                                                                                                                                                      |
+| Часть      | Описание                                                                                                                                                                                                                                      |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *boolean* | Логическое выражение, указывающее, отображается ли заголовок [**команды**](/windows/desktop/lwef/the-command-object)во всплывающем меню символа.<br/> **True** (по умолчанию) заголовок отображается.<br/> **Значение false** Заголовок не отображается.<br/> |
 
@@ -41,7 +41,7 @@ ms.locfileid: "105710411"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Присвойте этому свойству **значение false** , если вы хотите включить речевой ввод для собственных интерфейсов, не выполняя их во всплывающем меню для символа. Если задать для свойства [**Caption**](caption-property.md) объекта [**команды**](/windows/desktop/lwef/the-command-object) пустую строку (""), текст заголовка не будет отображаться во всплывающем меню (например, в виде пустой строки), независимо от значения свойства [**Visible**](visible-property.md) .
 

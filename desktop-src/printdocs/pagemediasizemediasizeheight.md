@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Получение сведений о параметре Пажемедиасиземедиасизехеигхт. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 209b3024-60cf-47e0-8738-cd7795e38c2a
 title: пажемедиасиземедиасизехеигхт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 305f67179343fa4acb2fa784113d63d5d2333b0b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 547077e7a63d91d6db43e8ebf6225a771bf237d8
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993711"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395799"
 ---
 # <a name="pagemediasizemediasizeheight"></a>пажемедиасиземедиасизехеигхт
 

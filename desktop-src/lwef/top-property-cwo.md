@@ -1,15 +1,15 @@
 ---
 title: Свойство Top (объект Коммандсвиндов)
-description: Свойство Top
+description: Сведения о свойстве Top (объект Коммандсвиндов). Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.
 ms.assetid: 3840b036-8f8d-4180-a8d6-6c521fe3d728
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b5e2ac7cea904eb058cf5cead3d3d5aa4150fa7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: cafb5c084429f783ce7a8c1b64d31c40359e82b5
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105681736"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396399"
 ---
 # <a name="top-property-commandswindow-object"></a>Свойство Top (объект Коммандсвиндов)
 
@@ -31,7 +31,7 @@ ms.locfileid: "105681736"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сервер отображает окно "Voice Commands" в зависимости от расположения и размера, заданного пользователем.
 

@@ -1,15 +1,15 @@
 ---
 title: Свойство Top (объект страница свойств)
-description: Свойство Top
+description: Сведения о свойстве Top (объект страница свойств). Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.
 ms.assetid: 413374d8-3c7a-44b2-8b33-3a5cdef01aee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16800dfbbb6d7f09cf529b3f93b5b0e9a6c2a481
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1c79fe273e68241d05864962646259e97efd72f3
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800809"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396359"
 ---
 # <a name="top-property-propertysheet-object"></a>Свойство Top (объект страница свойств)
 
@@ -31,7 +31,7 @@ ms.locfileid: "103800809"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сервер отображает окно на основе расположения, установленного пользователем.
 

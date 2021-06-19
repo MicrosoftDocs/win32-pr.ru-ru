@@ -1,22 +1,22 @@
 ---
 title: Встроенные функции системных значений HLSL для трассировки лучей в Direct3D 12
-description: Следующие Шейдеры HLSL поддерживают конвейер Direct3D 12 райтраЦинг.
+description: Просмотрите ссылки на статьи, описывающие встроенные функции системных значений HLSL, поддерживающие конвейер Direct3D 12 райтраЦинг.
 ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a20282e7bc0e9e4898fd361b0959cd6b6f32253
-ms.sourcegitcommit: 4e4f9e7c90d25af0774deec1d44bd49fa9b6daa9
+ms.openlocfilehash: 3e2790cf5df42f64071db3ca51a35e58ee9afcd5
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "105710399"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396439"
 ---
 # <a name="direct3d-12-raytracing-hlsl-system-value-intrinsics"></a>Встроенные функции системных значений HLSL для трассировки лучей в Direct3D 12
 
 Системные значения извлекаются с помощью специальных встроенных функций, а не включают параметры с особой семантикой в сигнатуре функции шейдера. 
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 ### <a name="ray-dispatch-system-values"></a>Значения системы диспетчеризации луча
 
@@ -54,7 +54,7 @@ ms.locfileid: "105710399"
 |-|-|
 | [**хиткинд**](hitkind.md) | Возвращает значение, передаваемое в качестве параметра **хиткинд** в [**репорсит**](reporthit-function.md). |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Справочник по основным](direct3d-12-core-reference.md)
 * [Справочник по Direct3D 12](direct3d-12-reference.md)

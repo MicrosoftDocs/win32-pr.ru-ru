@@ -1,15 +1,15 @@
 ---
 title: Свойство Visible (объект characters)
-description: Свойство Visible
+description: Сведения о свойстве Visible объекта Characters, который возвращает логическое значение, указывающее, является ли символ видимым.
 ms.assetid: c06d623d-8997-413a-b4ab-24275eccfa10
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a994fd59e5eaaebcaabbd9257b860fa4e27a09b4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7358cd87a7fb3232b22cef33cbee5f2609708875
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105691718"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396309"
 ---
 # <a name="visible-property-characters-object"></a>Свойство Visible (объект characters)
 
@@ -42,7 +42,7 @@ ms.locfileid: "105691718"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство указывает, отображается ли кадр символа. Это не обязательно означает, что на экране есть изображение. Например, это свойство возвращает **значение true** , даже если символ находится вне видимой области отображения или если текущая символьная рамка не содержит изображений. Параметр этого свойства применяется ко всем клиентам символа.
 

@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Ознакомьтесь с параметром Пажедестинатионколорпрофилеури. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: b2a4a4d2-a8bc-48dc-ad56-20380f5f91c9
 title: пажедестинатионколорпрофилеури
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b321cba1608b1098dcc91f3800ef11f4968fb3f2
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 0c3cf719a97f8f8086e88425c1667199815efbbb
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996101"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396679"
 ---
 # <a name="pagedestinationcolorprofileuri"></a>пажедестинатионколорпрофилеури
 

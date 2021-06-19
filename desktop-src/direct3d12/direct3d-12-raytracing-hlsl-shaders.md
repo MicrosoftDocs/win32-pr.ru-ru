@@ -1,16 +1,16 @@
 ---
 title: Шейдеры HLSL для трассировки лучей в Direct3D 12
-description: Следующие Шейдеры HLSL поддерживают конвейер Direct3D 12 райтраЦинг.
+description: Просмотрите ссылки на статьи с описанием шейдеров высокого уровня шейдеров (HLSL), поддерживающих конвейер Direct3D 12 райтраЦинг.
 ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe1dd545532208095781f6fbca25480a6dbfd31e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1ca19081b1ea963851e82d18912153434c3e38d1
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105647133"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394839"
 ---
 # <a name="direct3d-12-raytracing-hlsl-shaders"></a>Шейдеры HLSL для трассировки лучей в Direct3D 12
 
@@ -29,7 +29,7 @@ ms.locfileid: "105647133"
 | [**Шейдер непопаданий**](miss-shader.md)<br/>                              | Шейдер, который вызывается, когда ни один из пересечения лучей не найден или не принят.<br/>                                                                                                                                                                                                                                              |
 | [**Шейдер создания лучей**](ray-generation-shader.md)<br/>                              | Шейдер, который вызывает [**трацерай**](traceray-function.md) для создания лучей.<br/>                                                                                                                                                                                                                                              |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
