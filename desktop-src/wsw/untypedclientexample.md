@@ -1,6 +1,6 @@
 ---
 title: унтипедклиентексампле
-description: В этом примере показан HTTP-клиент, отправляющий сообщения типа "запрос-ответ".
+description: Ознакомьтесь с примером нетипизированного клиента, который использует API веб-служб Windows (ВВСАПИ). В этом примере показан HTTP-клиент, отправляющий сообщения типа "запрос-ответ".
 ms.assetid: ea6d8696-fd43-4d3c-bfec-3602658a08a7
 keywords:
 - Унтипедклиентексампле Native-Web-Services
@@ -8,22 +8,22 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a55b70b3eb5b94a6a5073483264c9e0ca4d406cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d66e1fcb2a26ddb0f55aa87f0aa6c4a3ace3a945
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329088"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409737"
 ---
-# <a name="untypedclientexample"></a><span data-ttu-id="d73cd-106">унтипедклиентексампле</span><span class="sxs-lookup"><span data-stu-id="d73cd-106">UnTypedClientExample</span></span>
+# <a name="untypedclientexample"></a><span data-ttu-id="232bd-107">унтипедклиентексампле</span><span class="sxs-lookup"><span data-stu-id="232bd-107">UnTypedClientExample</span></span>
 
-<span data-ttu-id="d73cd-107">В этом примере показан HTTP-клиент, отправляющий сообщения типа "запрос-ответ".</span><span class="sxs-lookup"><span data-stu-id="d73cd-107">This example shows a HTTP client that sends request-reply messages.</span></span>
+<span data-ttu-id="232bd-108">В этом примере показан HTTP-клиент, отправляющий сообщения типа "запрос-ответ".</span><span class="sxs-lookup"><span data-stu-id="232bd-108">This example shows a HTTP client that sends request-reply messages.</span></span>
 
--   [<span data-ttu-id="d73cd-108">Унтипедклиент. cpp</span><span class="sxs-lookup"><span data-stu-id="d73cd-108">UnTypedClient.cpp</span></span>](#untypedclientcpp)
--   [<span data-ttu-id="d73cd-109">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="d73cd-109">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="d73cd-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="d73cd-110">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="232bd-109">Унтипедклиент. cpp</span><span class="sxs-lookup"><span data-stu-id="232bd-109">UnTypedClient.cpp</span></span>](#untypedclientcpp)
+-   [<span data-ttu-id="232bd-110">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="232bd-110">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="232bd-111">Makefile</span><span class="sxs-lookup"><span data-stu-id="232bd-111">Makefile</span></span>](#makefile)
 
-## <a name="untypedclientcpp"></a><span data-ttu-id="d73cd-111">Унтипедклиент. cpp</span><span class="sxs-lookup"><span data-stu-id="d73cd-111">UnTypedClient.cpp</span></span>
+## <a name="untypedclientcpp"></a><span data-ttu-id="232bd-112">Унтипедклиент. cpp</span><span class="sxs-lookup"><span data-stu-id="232bd-112">UnTypedClient.cpp</span></span>
 
 
 ```C++
@@ -274,7 +274,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="d73cd-112">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="d73cd-112">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="232bd-113">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="232bd-113">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -385,7 +385,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="d73cd-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="d73cd-113">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="232bd-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="232bd-114">Makefile</span></span>
 
 ``` syntax
 #------------------------------------------------------------
@@ -418,9 +418,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

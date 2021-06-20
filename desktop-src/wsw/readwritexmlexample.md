@@ -1,6 +1,6 @@
 ---
 title: реадвритексмлексампле
-description: Этот пример записывает XML-код в XML-буфер, а затем считывает его обратно.
+description: Ознакомьтесь с примером чтения и записи XML, использующей API веб-служб Windows (ВВСАПИ). Этот пример записывает XML-код в XML-буфер, а затем считывает его обратно.
 ms.assetid: e9802e3c-c8a0-4b68-bba5-cdafb7250298
 keywords:
 - Веб-службы Реадвритексмлексампле для Windows
@@ -8,22 +8,22 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbc1571716c2f01a20c18743c1f73c7306c7b53b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a3d83230f690098958ea396e830aaa54dace1f73
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986058"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404097"
 ---
-# <a name="readwritexmlexample"></a><span data-ttu-id="f010c-106">реадвритексмлексампле</span><span class="sxs-lookup"><span data-stu-id="f010c-106">ReadWriteXmlExample</span></span>
+# <a name="readwritexmlexample"></a><span data-ttu-id="600c8-107">реадвритексмлексампле</span><span class="sxs-lookup"><span data-stu-id="600c8-107">ReadWriteXmlExample</span></span>
 
-<span data-ttu-id="f010c-107">Этот пример записывает XML-код в XML-буфер, а затем считывает его обратно.</span><span class="sxs-lookup"><span data-stu-id="f010c-107">This example writes XML to an XML buffer, and then reads it back out.</span></span>
+<span data-ttu-id="600c8-108">Этот пример записывает XML-код в XML-буфер, а затем считывает его обратно.</span><span class="sxs-lookup"><span data-stu-id="600c8-108">This example writes XML to an XML buffer, and then reads it back out.</span></span>
 
--   [<span data-ttu-id="f010c-108">Реадвритексмл. cpp</span><span class="sxs-lookup"><span data-stu-id="f010c-108">ReadWriteXml.cpp</span></span>](#readwritexmlcpp)
--   [<span data-ttu-id="f010c-109">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="f010c-109">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="f010c-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="f010c-110">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="600c8-109">Реадвритексмл. cpp</span><span class="sxs-lookup"><span data-stu-id="600c8-109">ReadWriteXml.cpp</span></span>](#readwritexmlcpp)
+-   [<span data-ttu-id="600c8-110">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="600c8-110">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="600c8-111">Makefile</span><span class="sxs-lookup"><span data-stu-id="600c8-111">Makefile</span></span>](#makefile)
 
-## <a name="readwritexmlcpp"></a><span data-ttu-id="f010c-111">Реадвритексмл. cpp</span><span class="sxs-lookup"><span data-stu-id="f010c-111">ReadWriteXml.cpp</span></span>
+## <a name="readwritexmlcpp"></a><span data-ttu-id="600c8-112">Реадвритексмл. cpp</span><span class="sxs-lookup"><span data-stu-id="600c8-112">ReadWriteXml.cpp</span></span>
 
 
 ```C++
@@ -462,7 +462,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="f010c-112">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="f010c-112">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="600c8-113">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="600c8-113">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -573,7 +573,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="f010c-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="f010c-113">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="600c8-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="600c8-114">Makefile</span></span>
 
 ``` syntax
 #------------------------------------------------------------
@@ -606,9 +606,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

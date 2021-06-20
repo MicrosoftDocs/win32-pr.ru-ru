@@ -1,6 +1,6 @@
 ---
 title: Регистр счетчиков циклов (Справочник по HLSL VS)
-description: Единственный регистр в этом банке — регистрация текущего цикла (aL).
+description: Ознакомьтесь с регистром счетчиков циклов для шейдеров вершин. Единственный регистр в этом банке — регистрация текущего цикла (aL).
 ms.assetid: b32fabf8-38d3-446c-bb80-c647d5aa028d
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,27 +9,27 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b12f57ba3fcfcb41aaff3827be39dbd1b6b07df1
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 8fb728420dc48c6cb67d5973085845b0eab742a2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104412262"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405777"
 ---
-# <a name="loop-counter-register-hlsl-vs-reference"></a><span data-ttu-id="88de3-103">Регистр счетчиков циклов (Справочник по HLSL VS)</span><span class="sxs-lookup"><span data-stu-id="88de3-103">Loop Counter Register (HLSL VS reference)</span></span>
+# <a name="loop-counter-register-hlsl-vs-reference"></a><span data-ttu-id="a71da-104">Регистр счетчиков циклов (Справочник по HLSL VS)</span><span class="sxs-lookup"><span data-stu-id="a71da-104">Loop Counter Register (HLSL VS reference)</span></span>
 
-<span data-ttu-id="88de3-104">Единственный регистр в этом банке — регистрация текущего цикла (aL).</span><span class="sxs-lookup"><span data-stu-id="88de3-104">The only register in this bank is the current loop counter (aL) register.</span></span> <span data-ttu-id="88de3-105">Он автоматически увеличивается при каждом выполнении [цикла-VS](loop---vs.md).. блок [ендлуп-VS](endloop---vs.md) .</span><span class="sxs-lookup"><span data-stu-id="88de3-105">It automatically gets incremented in each execution of the [loop - vs](loop---vs.md)...[endloop - vs](endloop---vs.md) block.</span></span> <span data-ttu-id="88de3-106">Поэтому его можно использовать в блоке для относительной адресации, если это необходимо, и недопустимо использовать его за пределами цикла.</span><span class="sxs-lookup"><span data-stu-id="88de3-106">So it can be used in the block for relative addressing if needed and is invalid to use it outside the loop.</span></span>
+<span data-ttu-id="a71da-105">Единственный регистр в этом банке — регистрация текущего цикла (aL).</span><span class="sxs-lookup"><span data-stu-id="a71da-105">The only register in this bank is the current loop counter (aL) register.</span></span> <span data-ttu-id="a71da-106">Он автоматически увеличивается при каждом выполнении [цикла-VS](loop---vs.md).. блок [ендлуп-VS](endloop---vs.md) .</span><span class="sxs-lookup"><span data-stu-id="a71da-106">It automatically gets incremented in each execution of the [loop - vs](loop---vs.md)...[endloop - vs](endloop---vs.md) block.</span></span> <span data-ttu-id="a71da-107">Поэтому его можно использовать в блоке для относительной адресации, если это необходимо, и недопустимо использовать его за пределами цикла.</span><span class="sxs-lookup"><span data-stu-id="a71da-107">So it can be used in the block for relative addressing if needed and is invalid to use it outside the loop.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="88de3-107">См. также</span><span class="sxs-lookup"><span data-stu-id="88de3-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="a71da-108">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="a71da-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="88de3-108">Регистры шейдеров вершин</span><span class="sxs-lookup"><span data-stu-id="88de3-108">Vertex Shader Registers</span></span>](dx9-graphics-reference-asm-vs-registers.md)
+[<span data-ttu-id="a71da-109">Регистры шейдеров вершин</span><span class="sxs-lookup"><span data-stu-id="a71da-109">Vertex Shader Registers</span></span>](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

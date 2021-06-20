@@ -1,21 +1,21 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: В этой статье содержится пример документа PrintCapabilities. Имена экземпляров в образце предназначены только для иллюстрации.
 ms.assetid: 86577c09-919b-4f07-9388-47879c656f32
 title: Пример документа PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a032958221f531186c5c6ec993102e574aefc315
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: f3e2bf839e3e88e43a295912966f5b1906ef8f35
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105656743"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407107"
 ---
-# <a name="printcapabilities-document-example"></a><span data-ttu-id="35572-104">Пример документа PrintCapabilities</span><span class="sxs-lookup"><span data-stu-id="35572-104">PrintCapabilities Document Example</span></span>
+# <a name="printcapabilities-document-example"></a><span data-ttu-id="8e3c8-104">Пример документа PrintCapabilities</span><span class="sxs-lookup"><span data-stu-id="8e3c8-104">PrintCapabilities Document Example</span></span>
 
-<span data-ttu-id="35572-105">Этот раздел не является актуальным.</span><span class="sxs-lookup"><span data-stu-id="35572-105">This topic is not current.</span></span> <span data-ttu-id="35572-106">Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="35572-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="8e3c8-105">Этот раздел не является актуальным.</span><span class="sxs-lookup"><span data-stu-id="8e3c8-105">This topic is not current.</span></span> <span data-ttu-id="8e3c8-106">Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="8e3c8-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="35572-107">Примечания. пространство имен по умолчанию не применяется к XML-атрибутам.</span><span class="sxs-lookup"><span data-stu-id="35572-107">Notes: The default namespace does not apply to XML Attributes.</span></span> <span data-ttu-id="35572-108">Они должны быть явно уточнены префиксом.</span><span class="sxs-lookup"><span data-stu-id="35572-108">They must be explicitly prefix-qualified.</span></span> <span data-ttu-id="35572-109">Имена экземпляров, используемые в следующем примере, предназначены только для иллюстрации, хотя обычно соответствуют именам экземпляров, определенным в ключевых словах «Печать схемы».</span><span class="sxs-lookup"><span data-stu-id="35572-109">Instance names used in the following sample are for illustration only, although they generally conform to the instance names defined in the Print Schema Keywords.</span></span>
+<span data-ttu-id="8e3c8-107">Примечания. пространство имен по умолчанию не применяется к XML-атрибутам.</span><span class="sxs-lookup"><span data-stu-id="8e3c8-107">Notes: The default namespace does not apply to XML Attributes.</span></span> <span data-ttu-id="8e3c8-108">Они должны быть явно уточнены префиксом.</span><span class="sxs-lookup"><span data-stu-id="8e3c8-108">They must be explicitly prefix-qualified.</span></span> <span data-ttu-id="8e3c8-109">Имена экземпляров, используемые в следующем примере, предназначены только для иллюстрации, хотя обычно соответствуют именам экземпляров, определенным в ключевых словах «Печать схемы».</span><span class="sxs-lookup"><span data-stu-id="8e3c8-109">Instance names used in the following sample are for illustration only, although they generally conform to the instance names defined in the Print Schema Keywords.</span></span>
 
 ``` syntax
 <psf:PrintCapabilities xmlns:psf="http://schemas.microsoft.com/windows/2003/08/printing/printschemaframework" 
@@ -506,11 +506,11 @@ ms.locfileid: "105656743"
 </psf:PrintCapabilities>
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="35572-110">См. также</span><span class="sxs-lookup"><span data-stu-id="35572-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8e3c8-110">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="8e3c8-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="35572-111">Печать спецификации схемы</span><span class="sxs-lookup"><span data-stu-id="35572-111">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="8e3c8-111">Печать спецификации схемы</span><span class="sxs-lookup"><span data-stu-id="8e3c8-111">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  
