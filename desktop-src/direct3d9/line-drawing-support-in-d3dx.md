@@ -1,15 +1,15 @@
 ---
-description: D3DX — это служебная Библиотека, которая предоставляет вспомогательные службы. Это уровень выше компонента Direct3D.
+description: Сведения о поддержке рисования линий в D3DX. D3DX — это служебная Библиотека, которая предоставляет вспомогательные службы. Это уровень выше компонента Direct3D.
 ms.assetid: 34ad82f2-542c-4342-af02-a767d6d4c96c
 title: Поддержка рисования линий в D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 974a0fdeb24dad1107f85e6c79603368776bce15
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c4cf15eae461d0dbe719e99cfac605a6c8b8d272
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104422958"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407537"
 ---
 # <a name="line-drawing-support-in-d3dx-direct3d-9"></a>Поддержка рисования линий в D3DX (Direct3D 9)
 
@@ -61,7 +61,7 @@ D3DX поддерживает сглаженные линии с одним пи
 
 Качество сглаживания по краям, параллельно с длиной исходной строки, снижается по мере того, как линия становится шире. Ожидается, что ширина строк, превышающая 32,0, начнет демонстрировать артефакты на этих краях.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

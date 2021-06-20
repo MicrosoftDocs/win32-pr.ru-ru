@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения о ссылках на параметры и элемент Параметердеф. Примером параметра, включающего элемент ParameterRef, является пользовательский параметр размера носителя.
 ms.assetid: 2c796d5c-1556-4348-83e2-23e93780ebc1
 title: Создание ссылок на параметры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0815ec7cd412e158a73e2b760f9f6080d7b0326a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 650790af5ca6849bd082b4819dd4c411adea320f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105703530"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405327"
 ---
 # <a name="referencing-parameters"></a>Создание ссылок на параметры
 
@@ -31,7 +31,7 @@ ms.locfileid: "105703530"
 
 Просто создать параметризованный параметр недостаточно, чтобы убедиться, что параметр будет обрабатываться и обрабатываться правильно. Поставщик PrintCapabilities/PrintTicket и клиенты должны предоставить дополнительную поддержку для правильной реализации параметризованных экземпляров параметров. Необходимые поведения описаны в следующих разделах.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: хттпклиентексампле
-description: В этом примере показан HTTP-клиент, отправляющий сообщения типа "запрос-ответ".
+description: Проверьте пример клиента HTTP, который использует API веб-служб Windows (ВВСАПИ). В этом примере показан HTTP-клиент, отправляющий сообщения типа "запрос-ответ".
 ms.assetid: e32a35f7-df01-4d6d-966c-6cf079b1b3a7
 keywords:
 - Хттпклиентексампле Native-Web-Services
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f96858d2b818172ffd24c50053fa4ceed692a730
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 180a1a0b40b2f4614ddd21caff7dc4595b8aac97
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410734"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404137"
 ---
 # <a name="httpclientexample"></a>хттпклиентексампле
 
@@ -580,9 +580,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

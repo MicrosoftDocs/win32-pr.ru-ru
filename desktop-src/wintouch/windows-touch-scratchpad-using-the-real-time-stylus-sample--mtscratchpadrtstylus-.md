@@ -1,6 +1,6 @@
 ---
 title: Блокнот для сенсорного ввода Windows с помощью примера пера в режиме реального времени (C++)
-description: Пример использования сенсорного ввода Windows (Мтскратчпадртстилус) демонстрирует использование сообщений Windows Touch для рисования трассировок точек касания в окне.
+description: Ознакомьтесь с примером C++ для сенсорного ввода в Windows (Мтскратчпадртстилус), в котором показано, как использовать сообщения Windows Touch для рисования трассировок точек касания в окне.
 ms.assetid: c72ddc71-48b7-4c26-af2b-10919038eaf8
 keywords:
 - Windows Touch, примеры кода
@@ -10,12 +10,12 @@ keywords:
 - Сенсорный экран Windows, объект пера в режиме реального времени (RTS)
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 94d425bcb39dd35d3bd71636fb19b6b408af9477
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 42e32e66942f3dcfad11b8b777e846e0cee6c0b3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "105710236"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406297"
 ---
 # <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>Блокнот для сенсорного ввода Windows с помощью примера пера в режиме реального времени (C++)
 
@@ -184,6 +184,6 @@ HRESULT CSyncEventHandlerRTS::StylusDown(
 
 Когда значение *m_nContacts* увеличивается, цветовой набор в динамическом модуле подготовки отчетов изменится. Штрихи, не являющиеся основными контактами, будут отображаться с разными цветами.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Многосенсорное приложение для ввода пометок (RTS/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS), [многосенсорный Блокнот (RTS/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp), [примеры Windows Touch](windows-touch-samples.md)

@@ -1,15 +1,15 @@
 ---
-description: Шаг 6.
+description: Добавьте поддержку COM в процессе записи фильтра преобразования. Это заключительный шаг в этом руководстве.
 ms.assetid: 53e4f5b7-c85d-4b44-9a0c-0ad05ca872cc
 title: Шаг 6. Добавление поддержки для COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e477cc22650604bce623874c0afbba1063609e44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 097d51fa440812311edde9ce448916c66721a507
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684127"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406777"
 ---
 # <a name="step-6-add-support-for-com"></a>Шаг 6. Добавление поддержки для COM
 
@@ -31,7 +31,7 @@ ms.locfileid: "105684127"
 -   Вставьте макрос [**Declare \_ IUnknown**](declare-iunknown.md) в раздел объявления public.
 -   Переопределите [**нонделегатингкуеринтерфаце**](cunknown-nondelegatingqueryinterface.md) , чтобы проверить идентификатор IID интерфейса и вернуть указатель на фильтр.
 
-В следующем коде показаны следующие шаги.
+Следующий код показывает эти действия.
 
 
 ```C++
@@ -240,7 +240,7 @@ int main()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

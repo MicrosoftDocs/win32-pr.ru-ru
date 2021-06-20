@@ -1,15 +1,15 @@
 ---
 title: Справочник по командам (средство редактирования лингвистических сведений)
-description: Справочник по командам
+description: Эта ссылка на команду описывает средство редактирования лингвистических сведений. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: 084f14ee-6774-46e2-a4ec-92f480f2f74a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e5b8bd5624c62c44212f306334f491472db6d1c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2a929691a96cfa62417785e1348448d78cc227be
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103800826"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405717"
 ---
 # <a name="command-reference-linguistic-information-sound-editing-tool"></a>Справочник по командам (средство редактирования лингвистических сведений)
 

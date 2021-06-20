@@ -1,6 +1,6 @@
 ---
 title: Регистры ps_3_0
-description: Шейдеры пикселей зависят от регистров для получения данных вершин, вывода пиксельных данных, хранения временных результатов во время вычислений и для обнаружения этапов выборки текстуры.
+description: В этой статье содержатся справочные сведения о входных и выходных регистрах, реализованных в Pixel Shader версии 3_0.
 ms.assetid: 01bee50a-c1b7-4b15-9df8-1dd52d9ff163
 keywords:
 - впос
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ef4eef435857968246ab0413841ef072b5391a5e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e1cd0173beabc8fbe21ad15e88e23fc1b6e84892
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413112"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405497"
 ---
 # <a name="ps_3_0-registers"></a>\_ \_ регистры PS 3 0
 
@@ -46,22 +46,22 @@ ms.locfileid: "104413112"
 
 
 
-| Регистрация | Имя                                                                                      | Count | Чтение-запись | \# Чтение портов | \# Операций чтения и inst | Измерение | реладдр | Значения по умолчанию   | Требуется ДКЛ |
+| Зарегистрировать | Имя                                                                                      | Count | Чтение-запись | \# Чтение портов | \# Операций чтения и inst | Измерение | реладдр | Умолчания;   | Требуется ДКЛ |
 |----------|-------------------------------------------------------------------------------------------|-------|-----|---------------|---------------|-----------|---------|------------|--------------|
 | 3,3\#      | [Входной регистр](dx9-graphics-reference-asm-ps-registers-input-color.md)                 | 10    | R   | 1             | Неограниченно     | 4         | aL      | Нет       | Да          |
 | Cерверный\#      | [Временный регистр](dx9-graphics-reference-asm-ps-registers-temporary.md)               | 32    | Чтение-запись | 3             | Неограниченно     | 4         | нет      | None       | Нет           |
 | c\#      | [Регистр постоянного float](dx9-graphics-reference-asm-ps-registers-constant-float.md)     | 224   | R   | 1             | Неограниченно     | 4         | нет      | 0000       | Нет           |
 | сохранении\#      | [Постоянный целочисленный регистр](dx9-graphics-reference-asm-ps-registers-constant-integer.md) | 16    | R   | 1             | 1             | 4         | нет      | 0000       | Нет           |
-| &\#      | [Постоянный логический регистр](dx9-graphics-reference-asm-ps-registers-constant-boolean.md) | 16    | R   | 1             | 1             | 1         | Нет      | FALSE      | Нет           |
+| b\#      | [Постоянный логический регистр](dx9-graphics-reference-asm-ps-registers-constant-boolean.md) | 16    | R   | 1             | 1             | 1         | Нет      | FALSE      | Нет           |
 | P0       | [Регистр предиката](dx9-graphics-reference-asm-ps-registers-predicate.md)               | 1     | R   | 1             | 1             | 1         | Нет      | None       | Нет           |
-| s\#      | [Образцы (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)        | 16    | R   | 1             | 1             | 4         | нет      | См. Примечание 1 | Да          |
+| s\#      | [Образцы (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)        | 16    | R   | 1             | 1             | 4         | нет      | См. примечание 1 | Да          |
 | вфаце    | \_Регистрация лица                                                                            | 1     | R   | 1             | Неограниченно     | 1         | Нет      | None       | Да          |
 | впос     | \_Регистр позиций                                                                        | 1     | R   | 1             | Неограниченно     | 4         | нет      | None       | Да          |
 | aL       | \_Регистр счетчика цикла \_                                                                   | 1     | R   | 1             | Неограниченно     | 1         | Недоступно     | Нет       | Нет           |
 
 
 
- 
+ 
 
 Примечания.
 
@@ -73,22 +73,22 @@ ms.locfileid: "104413112"
 
 
 
-| Регистрация | Имя                                                                              | Count                                                                             | Чтение-запись | Измерение | реладдр | Значения по умолчанию | Требуется ДКЛ |
+| Зарегистрировать | Имя                                                                              | Count                                                                             | Чтение-запись | Измерение | реладдр | Умолчания; | Требуется ДКЛ |
 |----------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----|-----------|---------|----------|--------------|
 | даваемым #     | [Регистр цвета вывода](dx9-graphics-reference-asm-ps-registers-output-color.md) | См. раздел [текстуры с несколькими элементами (Direct3D 9)](/windows/desktop/direct3d9/multiple-element-textures) . | W   | 4         | нет      | None     | Нет           |
 | одепс   | [Регистр глубины выходных данных](dx9-graphics-reference-asm-ps-registers-output-depth.md) | 1                                                                                 | W   | 1         | Нет      | None     | Нет           |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистры](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

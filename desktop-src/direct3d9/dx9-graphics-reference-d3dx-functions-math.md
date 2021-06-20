@@ -1,15 +1,15 @@
 ---
-description: Математическая библиотека, предоставляемая библиотекой служебной программы D3DX, предоставляет функции для вычисления трехмерных математических операций.
+description: Сведения о математической библиотеке, предоставляемой библиотекой служебной программы D3DX в графике Direct3D 9. Библиотека предоставляет функции для вычислений трехмерных математических операций.
 ms.assetid: 00f0f943-64fa-45e3-8bd3-ca61c8b87e1a
 title: Математические функции (графика Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 069b0de6a40806a4461fa68ba00e456b1d3b9dfb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 17fa7e56282d74dbe6a67b023ca5f64d0f88be20
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806064"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408217"
 ---
 # <a name="math-functions-direct3d-9-graphics"></a>Математические функции (графика Direct3D 9)
 
@@ -173,7 +173,7 @@ ms.locfileid: "103806064"
 -   [**D3DXVec4Transform**](d3dxvec4transform.md)
 -   [**D3DXVec4TransformArray**](d3dxvec4transformarray.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

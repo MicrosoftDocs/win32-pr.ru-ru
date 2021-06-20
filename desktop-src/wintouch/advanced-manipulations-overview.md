@@ -1,6 +1,6 @@
 ---
 title: Обзор расширенных манипуляций
-description: В этом разделе объясняются дополнительные манипуляции с приложениями.
+description: Ознакомьтесь с графическим обзором расширенных манипуляций с приложениями. Сведения о расширении, повороте и переводе.
 ms.assetid: a0c3fecb-d3c7-4f12-90be-5f77f4f5883e
 keywords:
 - Касание Windows, манипуляции
@@ -25,12 +25,12 @@ keywords:
 - перевод, расширенный
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f58a5dffb3c2d11e07a8c6495ec777579916481
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 04dea220c213de75820075c9375a04e1800a880d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067462"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406337"
 ---
 # <a name="advanced-manipulations-overview"></a>Обзор расширенных манипуляций
 
@@ -62,16 +62,16 @@ ms.locfileid: "104067462"
 
 В примере с простым примером перевода объект перемещается без вращения. В примере б объект поворачивается во время преобразования в зависимости от того, где находится точка контакта объекта. При включении ротации с одним пальцем, как описано в разделе [однонаправленный поворот](single-finger-rotation.md), можно включить сложный перевод.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Манипуляции](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

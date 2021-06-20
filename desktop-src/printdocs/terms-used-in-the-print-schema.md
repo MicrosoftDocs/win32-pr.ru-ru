@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: В этой статье перечислены и определены термины, характерные для схемы печати и связанных с ней технологий.
 ms.assetid: ab441a37-3a4e-4dd3-85e9-a50e08618d72
 title: Термины, используемые в схеме печати
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 754635b7fb59c8ce8baad29e69c606c9341c207f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: dc28fadfe1f62a971cc28225af77686bd1e88d21
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105693894"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408397"
 ---
 # <a name="terms-used-in-the-print-schema"></a>Термины, используемые в схеме печати
 
@@ -59,7 +59,7 @@ ms.locfileid: "105693894"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

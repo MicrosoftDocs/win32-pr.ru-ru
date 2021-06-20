@@ -1,6 +1,6 @@
 ---
 title: Использование предопределенных фигур
-description: В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+description: В этой статье описывается использование предопределенных фигур в VML, что является устаревшим компонентом Windows Internet Explorer 9.
 ms.assetid: 9a2e8b5a-b1d0-4a73-b058-24dac1f0b655
 keywords:
 - Веб-семинар, стандартные фигуры
@@ -42,12 +42,12 @@ keywords:
 - Элементы VML, дуга
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c1cafacf00f6f3f9129c29c56837f3f485aa3a3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b410cf288a3ba63e4c1d745fd962a445b0b220b8
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533269"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407687"
 ---
 # <a name="using-predefined-shapes"></a>Использование предопределенных фигур
 
@@ -56,18 +56,18 @@ ms.locfileid: "104533269"
 > [!Note]  
 > По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Как вы узнали, `<oval>` для создания простого овала можно использовать элемент VML. VML предоставляет несколько других предопределенных элементов. В этом разделе показано, как рисовать графику с помощью этих элементов.
 
-В этом разделе:
+В этом разделе.
 
 -   [перетаскиваемые](#roundrect)
 -   [раундрект](#roundrect)
 -   [line](#polyline)
 -   [линию](#polyline)
 -   [кривая](#curve)
--   [дуги](#arc)
+-   [дуга](#arc)
 -   [Сводка](#summary)
 
 ## <a name="rect"></a>rect
@@ -247,10 +247,10 @@ strokecolor="red" strokeweight="2pt"/>
 
 [![назад ](images/top.gif) к началу](#top)
 
-## <a name="summary"></a>Сводка
+## <a name="summary"></a>Итоги
 
 Вы можете использовать предварительно определенные элементы VML, такие как `<oval>` , `<line>` , `<polyline>` ,, `<curve>` `<rect>` , `<roundrect>` и, `<arc>` чтобы легко рисовать графические данные на веб-странице, а затем настраивать эти изображения, просто изменяя их атрибуты свойств.
 
- 
+ 
 
- 
+ 

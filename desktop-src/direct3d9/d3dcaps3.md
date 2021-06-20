@@ -1,15 +1,15 @@
 ---
-description: Флаги возможностей драйвера.
+description: См. список флагов возможностей драйвера D3DCAPS3. Включает определения, значения и описания со ссылками на API.
 ms.assetid: d9cd7388-3413-472d-aacb-0b8c9c60031a
 title: D3DCAPS3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fda81aa7f77dcaf03eb06b357ebfb91b4956f6d4
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 7b28614b2b2ea3c20f828b39f2b8926cb484a88c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343369"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408267"
 ---
 # <a name="d3dcaps3"></a>D3DCAPS3
 

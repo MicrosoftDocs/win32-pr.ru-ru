@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе Жобкопиесаллдокументс, который указывает количество копий задания.
 ms.assetid: 584a71cd-fc32-485e-a627-27be95c377a9
 title: жобкопиесаллдокументс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e8e606095462dc3a2eee1391121bf663de3655c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 05166715a5985c5ddee33fa6808d0fb6b150774b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998371"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409037"
 ---
 # <a name="jobcopiesalldocuments"></a>жобкопиесаллдокументс
 

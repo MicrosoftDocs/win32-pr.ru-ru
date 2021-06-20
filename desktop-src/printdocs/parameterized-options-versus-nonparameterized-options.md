@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Узнайте, как PrintTicket и PrintCapabilities обработают параметризованные и непараметризованные параметры.
 ms.assetid: 92438df1-afde-4038-853e-9b98f7e589ea
 title: Параметризованные параметры и непараметризованные параметры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3c1da2aba2515662be79da0c3831762de66463d
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: d4c788eaf2fa08f4f29a541a775d2bcbf523aa51
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104351845"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407227"
 ---
 # <a name="parameterized-options-versus-nonparameterized-options"></a>Параметризованные параметры и непараметризованные параметры
 
@@ -33,7 +33,7 @@ ms.locfileid: "104351845"
 
 Следует подчеркнуть, что вы определяете, насколько близко два экземпляра параметров соответствуют количеству (и значимости) экземпляров Скоредпроперти, которые совпадают, независимо от того, содержат ли экземпляры Скоредпроперти явные экземпляры значений или экземпляры ParameterRef. Возможно, что вариант является наиболее подходящей, даже если он содержит несколько экземпляров свойств, которые не соответствуют параметрам ссылки или не имеют соответствующего свойства в параметре reference.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

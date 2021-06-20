@@ -1,15 +1,15 @@
 ---
 title: Схемы и документы PrintCapabilities
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Схема PrintCapabilities предназначена для устранения многих ограничений функций Win32 Девкапс.
 ms.assetid: c4727c17-3122-456c-967d-d1d6ce6a5402
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be1b8e2827e451fd8b1df477c33fe18d6203d10c
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 21347fae1c9824df4a8355f8dd26de37eeac4604
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105720063"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407077"
 ---
 # <a name="printcapabilities-schema-and-document-construction"></a>PrintCapabilities схемы и построения документов
 
@@ -33,7 +33,7 @@ ms.locfileid: "105720063"
 
 Схемы PrintCapabilities и PrintTicket являются специализированными частями схемы печати. Основные структурные различия между этими подмножествами схемы печати заключается в том, что схема PrintCapabilities включает в себя свойства и экземпляры Параметердеф, которые не содержатся в схеме PrintTicket, тогда как схема PrintTicket содержит свойства и экземпляры Параметеринит, которые не содержатся в схеме PrintCapabilities. За исключением этих различий, схемы PrintCapabilities и PrintTicket обычно отражают друг друга в содержимом, совместном использовании компонентов, параметрах, Скоредпроперти и экземплярах значений. Все такое общее содержимое должно поддерживаться в актуальном состоянии. Например, если в схеме PrintCapabilities вносится изменение в функцию Пажемедиасизе, то в схеме PrintTicket должны быть внесены те же изменения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

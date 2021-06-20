@@ -1,6 +1,6 @@
 ---
 title: Использование элемента Stroke
-description: В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+description: В этой статье описывается использование элемента Stroke элемента VML, который является устаревшим в Windows Internet Explorer 9.
 ms.assetid: e3d9dbe5-e087-4b6f-8318-c7d4485cd502
 keywords:
 - Веб-семинар, элемент Stroke
@@ -33,12 +33,12 @@ keywords:
 - атрибут свойства объекта FillType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b58e02945884ea63ad1be01e67cfc156951cd5e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dff7a4b3bc654063fe8156476cc9c52453247a0b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104339100"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407847"
 ---
 # <a name="using-the-stroke-element"></a>Использование элемента Stroke
 
@@ -47,7 +47,7 @@ ms.locfileid: "104339100"
 > [!Note]  
 > По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Использование `<stroke>`
 
@@ -432,6 +432,6 @@ strokeweight="15pt">
 
 Дополнительные сведения об этом элементе см. в [спецификации VML](https://www.w3.org/TR/NOTE-VML#-toc416858395) .
 
- 
+ 
 
- 
+ 

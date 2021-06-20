@@ -1,15 +1,15 @@
 ---
-description: Шаг 4.
+description: Задайте свойства распределителя в процессе записи фильтра преобразования. Закрепление вывода фильтра преобразования выбирает нисходящий распределитель.
 ms.assetid: c2fd6d8b-b239-45e4-9c02-41edafa58762
 title: Шаг 4. Задание свойств распределителя
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a32d5e3affba32b96dc93cb97e1886322bc6f2c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9ee7d9ecdc85b63ec6bd774a3a47e0e9399dcf3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684132"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406827"
 ---
 # <a name="step-4-set-allocator-properties"></a>Шаг 4. Задание свойств распределителя
 
@@ -92,7 +92,7 @@ HRESULT CRleFilter::DecideBufferSize(
 
 Далее. [Шаг 5. Преобразование изображения](step-5--transform-the-image.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

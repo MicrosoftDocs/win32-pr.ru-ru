@@ -1,15 +1,15 @@
 ---
-description: Шаг 1.
+description: Определите механизм установки свойства как часть создания страницы свойств фильтра для настраиваемого фильтра DirectShow.
 ms.assetid: 1912af22-11dc-4864-8c20-91675d4f45d9
 title: Шаг 1. Определение механизма установки свойства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74a1845cfb3cdf5642378a2321e827e52720a83d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 191014c35e27974c52961c2c6218e3a83effcc99
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673994"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410077"
 ---
 # <a name="step-1-define-a-mechanism-for-setting-the-property"></a>Шаг 1. Определение механизма установки свойства
 
@@ -72,7 +72,7 @@ public:
 
 Далее. [Шаг 2. Реализуйте ИспеЦифипропертипажес](step-2--implement-ispecifypropertypages.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

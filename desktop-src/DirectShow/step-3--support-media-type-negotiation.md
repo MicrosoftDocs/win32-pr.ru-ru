@@ -1,15 +1,15 @@
 ---
-description: Шаг 3.
+description: Реализуйте поддержку согласования типов мультимедиа в процессе записи фильтра преобразования. Тип носителя описывает формат данных.
 ms.assetid: b2b5dafc-d38d-4ec3-a390-55229495b4f9
 title: Шаг 3. Поддержка согласования типов мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb3ff8539d0d7de2c9b7300ddb90ad86ca471710
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3a23784e70330f751325fc5f780463d5a3904d20
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103914127"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410047"
 ---
 # <a name="step-3-support-media-type-negotiation"></a>Шаг 3. Поддержка согласования типов мультимедиа
 
@@ -35,7 +35,7 @@ ms.locfileid: "103914127"
 -   [Шаг 3B. Реализация метода Жетмедиатипе](step-3b--implement-the-getmediatype-method.md)
 -   [Шаг 3C. Реализация метода Чекктрансформ](step-3c--implement-the-checktransform-method.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

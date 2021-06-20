@@ -1,15 +1,15 @@
 ---
-description: Шаг 3.
+description: Предоставление клиентам новых интерфейсов фильтра в рамках создания страницы свойств фильтра для настраиваемого фильтра DirectShow.
 ms.assetid: a0e52ba9-9f7c-4cf3-ba5f-b0035ed1794c
 title: Шаг 3. Поддержка QueryInterface
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0e3d44b67971e165b8586aa3a02cc65ab3ab05f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84b62132a6f24c68453ad4e51f72cdd9a2a78c65
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684286"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410027"
 ---
 # <a name="step-3-support-queryinterface"></a>Шаг 3. Поддержка QueryInterface
 
@@ -53,7 +53,7 @@ ms.locfileid: "105684286"
 
 Далее. [Шаг 4. Создайте страницу свойств](step-4--create-the-property-page.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

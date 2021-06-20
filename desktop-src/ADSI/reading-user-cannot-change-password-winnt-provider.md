@@ -1,6 +1,6 @@
 ---
 title: Чтение пользователя не может изменить пароль (поставщик WinNT)
-description: Возможность изменения собственного пароля пользователем — это разрешение, которое может быть предоставлено или запрещено.
+description: Узнайте, как определить, имеет ли пользователь разрешение на изменение пароля для поставщика WinNT. Возможность пользователя изменять пароль может быть предоставлена или запрещена.
 ms.assetid: b8b8de00-0def-4506-ab73-d03a7e06256d
 ms.tgt_platform: multiple
 keywords:
@@ -9,12 +9,12 @@ keywords:
 - WinNT Provider ADSI, примеры управления пользователями, пользователь не может изменить пароль, чтение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab257f620d3e103866639f8ecacb57cc924efec4
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: dd075bfb6700779b60f9e578a4e89957487a2646
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "103987239"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405917"
 ---
 # <a name="reading-user-cannot-change-password-winnt-provider"></a>Чтение пользователя не может изменить пароль (поставщик WinNT)
 
@@ -120,9 +120,9 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszDomain,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

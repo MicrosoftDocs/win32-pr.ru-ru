@@ -1,6 +1,6 @@
 ---
 title: Константы пакета SDK для формата Windows Media
-description: Константы
+description: В этих статьях описываются константы, используемые объектами расширенных API клиента DRM Windows Media.
 ms.assetid: 4a481813-c876-4603-85e3-7652e3e20c02
 keywords:
 - Windows Media Format SDK, константы
@@ -10,12 +10,12 @@ keywords:
 - Расширенные API клиента, константы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41de1d8dfc81d4f9343461f75b1d16f785417a91
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 79e246665761d8d85afef03641d1f9f0c20b1f69
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340215"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406217"
 ---
 # <a name="windows-media-format-sdk-constants"></a>Константы пакета SDK для формата Windows Media
 
@@ -32,7 +32,7 @@ ms.locfileid: "104340215"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

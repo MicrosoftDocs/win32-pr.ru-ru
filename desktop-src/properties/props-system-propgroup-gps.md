@@ -1,15 +1,15 @@
 ---
-description: Разделитель групп свойств, используемый в списках свойств для разделения звуковых файлов от других типов. Не используйте это свойство для получения или задания значений. Он предназначен только в качестве маркера.
+description: Прочитайте о свойстве System. Пропграуп. GPS. Не используйте это свойство для получения или задания значений. Он предназначен только в качестве маркера.
 ms.assetid: bdc3d22c-d055-47f7-86ad-6e050608ad12
 title: System. Пропграуп. GPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 508782aaf576fbba363a061283b1a837f6ffa6f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3544f433ef83d64b65f1ad33a8d732ccf80b8181
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711834"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404557"
 ---
 # <a name="systempropgroupgps"></a>System. Пропграуп. GPS
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: D3DX предоставляет следующие функции сетки.
+description: Сведения о функциях сетки в D3DX. D3DX предоставляет несколько функций сетки, таких как D3DXboxBoundProbe и D3DXCleanMesh.
 ms.assetid: d6698040-8fdd-40e6-a61a-402647d48dbc
 title: Функции сетки (графика Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7a5242a06b1261d3fddd9649ac52c73f1555a30
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b74a35933fd9c6302b8c59ef1cd8ea62b4fac231
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536425"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408187"
 ---
 # <a name="mesh-functions-direct3d-9-graphics"></a>Функции сетки (графика Direct3D 9)
 
@@ -63,7 +63,7 @@ D3DX предоставляет следующие функции сетки.
 -   [**D3DXValidPatchMesh**](d3dxvalidpatchmesh.md)
 -   [**D3DXWeldVertices**](d3dxweldvertices.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

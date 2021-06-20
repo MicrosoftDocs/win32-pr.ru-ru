@@ -1,18 +1,18 @@
 ---
 title: Регистрация зависимости приложения (пакет SDK для формата Windows Media 11)
-description: Регистрация зависимости приложения
+description: Узнайте, как зарегистрировать приложение с помощью компонентов среды выполнения API, предоставляемых пакетом SDK для Windows Media Format 11.
 ms.assetid: 09f63519-5c65-4784-9ea4-4fbecfa6d4aa
 keywords:
 - Пакет SDK для Windows Media Format, регистрация зависимостей приложений
 - регистрация зависимостей приложений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 090cf61d32597800b52e2bc112d2bee1cc1b7cd7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1cd546ee9b162652f00a131e87561a7e34f7e3a2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104070930"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406167"
 ---
 # <a name="registering-application-dependency-windows-media-format-11-sdk"></a>Регистрация зависимости приложения (пакет SDK для формата Windows Media 11)
 
@@ -66,7 +66,7 @@ ms.locfileid: "104070930"
 -   \_В классах hKey \_ корневое \\ программное обеспечение \\ Microsoft \\ виндовсмедиа \\ Setup \\ депендентрефкаунтс \\ дескриптор, "саусриджевидео", "Саусридже Video Player использует пакет SDK Windows Media Format для воспроизведения видеофайлов".
 -   HKEY \_ Classes \_ root \\ Software программа \\ Microsoft \\ виндовсмедиа \\ Setup \\ депендентрефкаунтс \\ версия, "саусриджевидео", "9.0.0.2600"
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Предоставление атрибутов вывода
-description: Платформа текстовых служб (TSF) позволяет текстовой службе предоставлять атрибуты для вывода текста.
+description: Узнайте, как предоставлять атрибуты отображения. Платформа текстовых служб (TSF) позволяет текстовой службе предоставлять атрибуты для вывода текста.
 ms.assetid: 5809f5b8-0396-4abd-b5fe-61ecc8cd0914
 keywords:
 - Платформа текстовых служб (TSF), атрибуты вывода
@@ -9,12 +9,12 @@ keywords:
 - атрибуты отображения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c08f59bb64ef4f06df020a40189d273c703768d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 780cc191e39d5b1d0c3329bab87af5267e4a6c73
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681436"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406117"
 ---
 # <a name="providing-display-attributes"></a>Предоставление атрибутов вывода
 
@@ -121,7 +121,7 @@ STDAPI CEditSession::DoEditSession(TfEditCookie ec)
 
     Когда все объекты **итфдисплайаттрибутеинфо** для всех поставщиков отображаемых атрибутов добавляются в перечислитель диспетчера TSF, диспетчер возвращает его перечислитель клиенту. Затем клиент вызывает метод **иенумтфдисплайаттрибутеинфо:: Next** один или несколько раз для получения объектов **итфдисплайаттрибутеинфо** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -179,9 +179,9 @@ STDAPI CEditSession::DoEditSession(TfEditCookie ec)
 [Иенумтфдисплайаттрибутеинфо:: Next](/windows/desktop/api/Msctf/nf-msctf-ienumtfdisplayattributeinfo-next)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

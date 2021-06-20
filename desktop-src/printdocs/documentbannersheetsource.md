@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе Документбаннершитсаурце, который указывает источник для пользовательского листа заголовков.
 ms.assetid: 3b55935f-3d71-43cc-9c59-5019d7eb5cc5
 title: документбаннершитсаурце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da5a2802094a0d20cf1b8b0a177a5b774489bb37
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d33aa949982e98781c42cbf6aa770dbd4e3d1707
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996321"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409477"
 ---
 # <a name="documentbannersheetsource"></a>документбаннершитсаурце
 

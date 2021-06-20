@@ -1,6 +1,6 @@
 ---
 title: Блокнот для сенсорного ввода Windows с помощью примера Real-Timeного пера (C#)
-description: Пример использования сенсорного ввода Windows (Мтскратчпадртстилус) демонстрирует использование сообщений Windows Touch для рисования трассировок точек касания в окне.
+description: Ознакомьтесь с примером примера C# для сенсорного ввода в Windows (Мтскратчпадртстилус), который показывает, как использовать сообщения Windows Touch для рисования трассировок точек касания в окне.
 ms.assetid: 8e80672f-0780-4dec-a9b4-afec0f7782ad
 keywords:
 - Windows Touch, примеры кода
@@ -10,12 +10,12 @@ keywords:
 - Сенсорный экран Windows, объект пера в режиме реального времени (RTS)
 ms.topic: article
 ms.date: 10/28/2019
-ms.openlocfilehash: 4cf9ab2e451dcdcaaee808083ca42c420778f231
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3c30d3543024a48394ddd7b9b2b06a05b61f5025
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104336303"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406317"
 ---
 # <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>Блокнот для сенсорного ввода Windows с помощью примера Real-Timeного пера (C#)
 
@@ -79,6 +79,6 @@ ms.locfileid: "104336303"
         }
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Многосенсорное приложение для ввода пометок (RTS/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS), [многосенсорный Блокнот (RTS/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp), [примеры Windows Touch](windows-touch-samples.md)

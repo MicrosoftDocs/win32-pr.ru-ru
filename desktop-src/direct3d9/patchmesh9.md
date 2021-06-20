@@ -1,15 +1,15 @@
 ---
-description: Определяет сетку, определенную с помощью исправлений Безье. Первый массив представляет собой список вершин, а второй массив определяет исправления для сетки путем индексирования в массиве вершин.
+description: PatchMesh9 определяет сетку, определенную с помощью исправлений Безье, включая список вершин и исправлений для сетки путем индексирования в массив вершин.
 ms.assetid: 642ca513-c83e-4c6d-845c-0eaecc232728
 title: PatchMesh9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b3d8232fe8c83358feb216acfb45a7877d7acb9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 811e593117f2ec57a4718ea8078d96bcea87e71f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105692002"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404707"
 ---
 # <a name="patchmesh9"></a>PatchMesh9
 
@@ -43,7 +43,7 @@ template PatchMesh9
 
 Исправления используют вершины в массиве вершин в качестве контрольных точек для каждого исправления.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

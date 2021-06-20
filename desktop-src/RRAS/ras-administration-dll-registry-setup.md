@@ -1,17 +1,17 @@
 ---
 title: Сведения о настройке реестра DLL администрирования RAS
-description: Программа установки для библиотеки DLL администрирования RAS стороннего производителя должна зарегистрировать библиотеку DLL в службе RAS, предоставив сведения в следующем разделе реестра.
+description: Ознакомьтесь с требованиями к регистрации библиотеки DLL администрирования сторонней службы удаленного доступа (RAS) с помощью RAS. Служба RAS поддерживает несколько библиотек DLL администрирования службы удаленного доступа.
 ms.assetid: e83a5e37-a39d-4465-abc9-653cdd56893b
 keywords:
 - Администрирование удаленного доступа RRAS, Настройка реестра DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf487f792a4add9ebf61e8f866b9f0577fb468d
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 8b9a7b7c48422264a890a74b1bab36e61672f11d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103890060"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406667"
 ---
 # <a name="about-ras-administration-dll-registry-setup"></a>Сведения о настройке реестра DLL администрирования RAS
 
@@ -19,10 +19,10 @@ ms.locfileid: "103890060"
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         RAS
-            AdminDll
+   SOFTWARE
+      Microsoft
+         RAS
+            AdminDll
 ```
 
 Чтобы зарегистрировать библиотеку DLL, задайте в этом разделе следующие значения.
@@ -36,16 +36,16 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
 Поскольку служба RAS поддерживает несколько библиотек администрирования RAS, значение параметра реестра **DLLPath** может содержать список путей, разделенных точкой с запятой. Например, запись реестра для библиотеки администрирования RAS из вымышленной компании с названием «, Inc.» может быть следующей:
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         RAS
-            AdminDll
+   SOFTWARE
+      Microsoft
+         RAS
+            AdminDll
 ```
 
 *DisplayName*: **reg \_ SZ** : Библиотека DLL администрирования RAS
@@ -58,9 +58,9 @@ HKEY_LOCAL_MACHINE
 
 **Windows 2000/NT:** Служба RAS поддерживает только одну библиотеку DLL администрирования RAS, поэтому значение параметра реестра **DLLPath** не может содержать список путей, разделенных точкой с запятой.
 
- 
+ 
 
- 
+ 
 
 
 

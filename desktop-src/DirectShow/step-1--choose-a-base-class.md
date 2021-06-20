@@ -1,15 +1,15 @@
 ---
-description: Шаг 1.
+description: Выберите базовый класс в процессе записи фильтра преобразования. Узнайте, какие классы подходят для фильтров преобразований.
 ms.assetid: 4b2d3add-0430-480b-ad5f-bb1aa19fef21
 title: Шаг 1. Выбор базового класса
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4679873e78e75b350335b5294db63579fd41f36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1a2bbf704bb2247034bc2ba3a6f35812f46aaaa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911095"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406467"
 ---
 # <a name="step-1-choose-a-base-class"></a>Шаг 1. Выбор базового класса
 
@@ -30,7 +30,7 @@ ms.locfileid: "103911095"
 
 Далее. [Шаг 2. Объявите класс фильтра](step-2--declare-the-filter-class.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

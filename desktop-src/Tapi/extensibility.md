@@ -1,15 +1,15 @@
 ---
-description: Подготавливается для расширения констант и структур как независимо от устройства, так и для конкретного устройства (зависящего от поставщика).
+description: Дополнительные сведения о расширяемости. Подготавливается для расширения констант и структур как независимо от устройства, так и для конкретного устройства.
 ms.assetid: bc0a18f3-1f58-4a24-8afb-c31f3b561375
 title: Расширяемость (API телефонии)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ca446a03a9bdbe6d906e7accf261645401cd937
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f29ad34b5156bdd652ab6b6f8901be7a2341bdc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264472"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406567"
 ---
 # <a name="extensibility"></a>Расширение среды
 

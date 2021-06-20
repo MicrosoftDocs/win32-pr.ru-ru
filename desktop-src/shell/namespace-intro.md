@@ -1,15 +1,15 @@
 ---
-description: Пространство имен Shell организует файловую систему и другие объекты, управляемые оболочкой, в одну иерархию, структурированную по дереву. По сути, это более обширная и более широкая версия файловой системы.
+description: Сведения о пространстве имен оболочки и его объектах источника данных. Это пространство имен предлагает варианты расширения в пользовательском интерфейсе оболочки Windows.
 ms.assetid: 539c4455-e1c7-45a0-b3c3-781f2b7a1617
 title: Введение в пространство имен оболочки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28b9ccb87cc67c025f09233128780545d610f90d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e1be0187094ffe7cf7b56b724c5990fe18321fa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344152"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404297"
 ---
 # <a name="introduction-to-the-shell-namespace"></a>Введение в пространство имен оболочки
 

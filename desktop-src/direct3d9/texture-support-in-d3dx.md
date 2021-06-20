@@ -1,15 +1,15 @@
 ---
-description: D3DX — это служебная Библиотека, которая предоставляет вспомогательные службы. Это уровень выше компонента Direct3D.
+description: Сведения о поддержке текстур в D3DX. D3DX — это служебная Библиотека, которая предоставляет вспомогательные службы. Это уровень выше компонента Direct3D.
 ms.assetid: 84815851-ca96-47ab-9f84-56ecaeb4a6d9
 title: Поддержка текстур в D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd9c8d6da498a47d14fe57ca770ba96a6852ae41
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1f31a597ddcab317477d31e0d833c9da96f71ed4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105701095"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404607"
 ---
 # <a name="texture-support-in-d3dx-direct3d-9"></a>Поддержка текстур в D3DX (Direct3D 9)
 
@@ -53,7 +53,7 @@ A->Q or A->L
 -   1 <-> B, 1 сопоставляется с каналом B или наоборот.
 -   1 <-> A, 1 сопоставляется с каналом, или наоборот.
 
-Если канал не существует в источнике, предполагается, что он равен 1 (за исключением A8, где R, G, B считаются равными 0). Пример:
+Если канал не существует в источнике, предполагается, что он равен 1 (за исключением A8, где R, G, B считаются равными 0). Пример.
 
 
 ```
@@ -65,7 +65,7 @@ V -> G
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

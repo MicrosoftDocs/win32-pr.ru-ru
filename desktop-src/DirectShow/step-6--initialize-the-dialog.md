@@ -1,15 +1,15 @@
 ---
-description: Шаг 6.
+description: 'Переопределите метод Кбасепропертипаже:: OnActivate, чтобы инициализировать диалоговое окно в процессе создания страницы свойств фильтра для настраиваемого фильтра DirectShow.'
 ms.assetid: 8462958d-3958-453b-8034-3cfc2fb5ae2e
 title: Шаг 6. Инициализация диалогового окна
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 282eb03db38c543678fb2c4ef1155e1150b419bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcbdf18e272ac548227626bc9da4f992786a4ab3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684126"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404497"
 ---
 # <a name="step-6-initialize-the-dialog"></a>Шаг 6. Инициализация диалогового окна
 
@@ -47,7 +47,7 @@ HRESULT CGrayProp::OnActivate(void)
 
 Далее. [Шаг 7. Обработку сообщений окна](step-7--handle-window-messages.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

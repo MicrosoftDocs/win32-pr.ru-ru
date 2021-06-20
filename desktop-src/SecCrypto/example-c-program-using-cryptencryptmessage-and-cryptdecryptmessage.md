@@ -1,15 +1,15 @@
 ---
-description: Показывает связь между параметрами функции, указывающими на структуры или массивы, и их инициализированные данные.
+description: Показывает связь между параметрами функции, которые указывают на структуры или массивы и их инициализированные данные, с примером кода.
 ms.assetid: b1ad0f13-fb4d-421f-b054-a99c8ad9c83a
 title: 'Пример программы на C: использование Криптенкриптмессаже и Криптдекриптмессаже'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 726381b1c76c987207e2115c6282534b94212931
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b776ea1e0286717da94ed1b92caccfc19652e70
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104560659"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410037"
 ---
 # <a name="example-c-program-using-cryptencryptmessage-and-cryptdecryptmessage"></a>Пример программы на C: использование Криптенкриптмессаже и Криптдекриптмессаже
 
