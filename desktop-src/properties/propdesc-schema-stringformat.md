@@ -1,15 +1,15 @@
 ---
-description: 'Указывает, как Ипропертидескриптион:: Форматфордисплай должен форматировать значение свойства в виде строки. Это применимо только в том случае <displayInfo displayType=&\#0034;String&\#0034;> , если.'
+description: 'Указывает, как Ипропертидескриптион:: Форматфордисплай должен форматировать значение свойства stringFormat в виде строки.'
 ms.assetid: 7c38bc15-be86-4260-b2e4-13afc90de6d7
 title: stringFormat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec05a6eedf1734c1d62c0503027810ad05916160
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 730355507b78d99eba02e82666427dd29425c942
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662757"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408357"
 ---
 # <a name="stringformat"></a>stringFormat
 

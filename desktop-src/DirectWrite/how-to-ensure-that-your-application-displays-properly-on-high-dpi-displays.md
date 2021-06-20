@@ -1,15 +1,15 @@
 ---
 title: Как обеспечить правильное отображение приложения на дисплеях с высоким разрешением (DirectWrite)
-description: Описывает создание окна, которое правильно отображается на дисплеях с высоким разрешением.
+description: Описывает, как убедиться, что приложение создает окно, которое правильно отображается на дисплеях с высоким разрешением.
 ms.assetid: d174a337-c98e-46c7-86d2-c208900882d1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 317eb3379963cec600ab9bac7deb3778f0874e59
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 71166d312fe666644c683fe2ece7dd3ced59f765
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338252"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406427"
 ---
 # <a name="how-to-ensure-that-your-application-displays-properly-on-high-dpi-displays"></a>Как обеспечить правильное отображение приложения на дисплеях с высоким разрешением
 
@@ -19,7 +19,7 @@ ms.locfileid: "104338252"
     -   [Direct2D](#direct2d)
     -   [ИСПОЛЬЗОВАНИЕМ](#gdi)
 -   [Шаг 2. объявление того, что в приложении учитывается DPI](#step-2-declare-that-the-application-is-dpi-aware)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="step-1-use-the-system-dpi-when-creating-windows"></a>Шаг 1. Использование DPI системы при создании Windows
 
@@ -128,13 +128,13 @@ hWnd = CreateWindow(
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Direct2D и высокое разрешение](../direct2d/direct2d-and-high-dpi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

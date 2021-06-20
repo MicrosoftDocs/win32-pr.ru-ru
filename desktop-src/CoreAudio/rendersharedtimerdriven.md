@@ -1,15 +1,15 @@
 ---
-description: Этот пример приложения использует основные API аудио для отображения звуковых данных на устройстве вывода, указанном пользователем.
+description: Этот пример приложения, демонстрирующий буферизацию на основе таймера, использует основные API аудио для отрисовки звуковых данных на устройстве вывода, указанном пользователем.
 ms.assetid: eae7d896-77ef-4340-bd77-1f3333166987
 title: рендершаредтимердривен
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de4ce441a12d65b8bebb843c7b9a168443b34592
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 89d2814f359668f8724d3deb65a7c2a9eeff5b06
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807553"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410097"
 ---
 # <a name="rendersharedtimerdriven"></a>рендершаредтимердривен
 
@@ -22,7 +22,7 @@ ms.locfileid: "103807553"
 -   [Загрузка образца](#downloading-the-sample)
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="description"></a>Описание
 
@@ -99,7 +99,7 @@ ms.locfileid: "103807553"
 
 Дополнительные сведения о визуализации потока см. в разделе [Визуализация потока](rendering-a-stream.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

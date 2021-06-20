@@ -1,15 +1,15 @@
 ---
-description: Аргумент Where поддерживает полные инструкции расширенного синтаксиса запросов (АКС) и особенно полезен в качестве средства управления областью поиска.
+description: Узнайте, как использовать аргумент в поиске Windows в качестве средства управления областью поиска.
 ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
 title: Аргумент с обопараметром (Поиск Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51f36764174e0eecaedee4a9c360bb9d7dabca3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f56287c7182c0cf370250d53075a1c951ddf28b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144170"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403737"
 ---
 # <a name="crumb-argument-windows-search"></a>Аргумент с обопараметром (Поиск Windows)
 
@@ -24,7 +24,7 @@ ms.locfileid: "104144170"
     -   [Константы для общих папок](#constants-for-common-folders)
 -   [Использование инструкции with Windows XP (тип и магазин)](#using-crumb-with-windows-xp-kind-and-store)
     -   [Примеры для XP](#xp-examples)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
  
 
@@ -144,7 +144,7 @@ search-ms:query=from:john&crumb=kind:communications&
 
 Первый пример возвращает сообщения электронной почты Microsoft Outlook Express от Джон с пользовательской меткой "OE Mail". Во втором примере выполняется поиск любого обмена данными из Джон.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

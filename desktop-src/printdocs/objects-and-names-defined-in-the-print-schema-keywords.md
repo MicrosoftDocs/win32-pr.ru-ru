@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Платформа схемы печати определяет пространство имен, включающее элементы и XML-атрибуты, определенные в ключевых словах «Печать схемы».
 ms.assetid: 5a07ec21-dc7c-46d5-b1c2-de06f53fe6bf
 title: Объекты и имена, определенные в ключевых словах «Печать схемы»
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2347c73dd647f90a88821658cdcf9e2ed846e83
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 73aabdac90de6743388ca1f4d44e1ad52c020dbd
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104273317"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408557"
 ---
 # <a name="objects-and-names-defined-in-the-print-schema-keywords"></a>Объекты и имена, определенные в ключевых словах «Печать схемы»
 
@@ -19,7 +19,7 @@ ms.locfileid: "104273317"
 
 Закрыто определенные экземпляры элементов могут появляться в любом месте, если тип элемента отображается в контексте, разрешенном платформой схемы печати.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: В этом разделе объясняется, как создавать и регистрировать обработчики свойств для работы с системой свойств Windows.
+description: В этой статье объясняется, как зарегистрировать и распространить обработчики свойств для работы с системой свойств Windows.
 ms.assetid: E6E81E04-9CC1-4df5-9A87-DE0CBD177356
 title: Регистрация и распространение обработчиков свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1de6af17df8e15912870626935995c67c25f518
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cffd6169ecbf371e49e27c555f468cdc03e2c3fc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263876"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408347"
 ---
 # <a name="registering-and-distributing-property-handlers"></a>Регистрация и распространение обработчиков свойств
 
@@ -20,7 +20,7 @@ ms.locfileid: "104263876"
 -   [Регистрация и распространение обработчиков свойств](#registering-and-distributing-property-handlers)
 -   [Вопросы производительности и надежности для обработчиков свойств](#performance-and-reliability-considerations-for-property-handlers)
     -   [Рекомендации по повышению производительности и надежности](#guidelines-for-performance-and-reliability)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="registering-and-distributing-property-handlers"></a>Регистрация и распространение обработчиков свойств
 
@@ -109,7 +109,7 @@ HKEY_LOCAL_MACHINE
 
     Определения флагов см. в разделе [**жетпропертисторефлагс**](/windows/win32/api/propsys/ne-propsys-getpropertystoreflags).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

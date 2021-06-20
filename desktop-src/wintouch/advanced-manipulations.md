@@ -1,6 +1,6 @@
 ---
 title: Расширенные манипуляции
-description: В этом разделе объясняются дополнительные манипуляции с приложениями.
+description: Просмотр целевой страницы для расширенных манипуляций с приложениями. См. ссылки на страницы обзор, расширение, вращение и перевод.
 ms.assetid: 8a1cff27-b2c0-4e72-9f4c-df656059953f
 keywords:
 - Касание Windows, манипуляции
@@ -10,12 +10,12 @@ keywords:
 - манипуляции, сложные
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 628e85d9b2963e6377ba5ab239d10c70e8343465
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48c059ad30a338fe5d413ff6c7e6e7f2e9383dc9
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067461"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406327"
 ---
 # <a name="advanced-manipulations"></a>Расширенные манипуляции
 
@@ -34,18 +34,18 @@ ms.locfileid: "104067461"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Манипуляции](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

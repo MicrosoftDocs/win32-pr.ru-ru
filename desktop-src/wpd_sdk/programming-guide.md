@@ -1,15 +1,15 @@
 ---
 title: Программное руководством по программированию WPD
-description: Руководство по программированию
+description: Это руководство по программированию посвящено выполнению образцов задач с помощью интерфейсов и методов WPD, обнаруженных в интерфейсах.
 ms.assetid: 87777b0b-a7a0-4032-99bb-92b717d3c452
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f774ffd9d7576a07b34c467a5a155d98e4f3e703
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db13d50942c28cd4937d27a745d61d7a30a01a15
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693558"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409867"
 ---
 # <a name="wpd-programming-guide"></a>Программное руководством по программированию WPD
 
@@ -19,7 +19,7 @@ ms.locfileid: "105693558"
 
 В следующих разделах основное внимание уделяется задачам, выполняемым этими примерами, и объясняется, как каждый из них выполняется с помощью интерфейсов WPD и ряда методов, найденных в этих интерфейсах.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

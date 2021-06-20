@@ -1,18 +1,18 @@
 ---
 title: Протоколы маршрутизации запрос комментариев
-description: Запросы на комментарии (RFC) — это непрерывная серия документов, которые обсуждают технологии Интернета и Интернета.
+description: В этой статье перечислены запросы на комментарии (RFC) для протоколов маршрутизации. Документы RFC — это непрерывная серия документов, посвященных технологиям, связанным с Интернетом.
 ms.assetid: d972ae22-177d-4320-8939-47eae8675aa2
 keywords:
 - RFC, протоколы маршрутизации
 - Запрос комментариев, протоколы маршрутизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fde9664f2d8bbcbc2af1aaf0ef3d92d8b896f0d7
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 3a3d3acb6e269c10a128a2b9519b892cd373ad4f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104412613"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404787"
 ---
 # <a name="routing-protocols-request-for-comments"></a>Протоколы маршрутизации запрос комментариев
 
@@ -26,9 +26,9 @@ ms.locfileid: "104412613"
 -   [RFC 2246](https://www.ietf.org/rfc/rfc2246.txt) — протокол TLS, 1999 января
 -   [RFC 2715](https://www.ietf.org/rfc/rfc2715.txt) — правила взаимодействия для протоколов многоадресной маршрутизации, 1998 июля
 
- 
+ 
 
- 
+ 
 
 
 

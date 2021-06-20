@@ -1,15 +1,15 @@
 ---
-description: Приемник ASF-файлов — это реализация Имфмедиасинк, предоставляемая Media Foundation, которую приложение может использовать для архивации данных ASF Media в файл. Сведения об объектной модели приемников ASF Media и общем использовании см. в статье приемники мультимедиа ASF.
+description: Сведения о добавлении потоковых данных в приемник файлов ASF, который приложение может использовать для архивации данных ASF Media в файл.
 ms.assetid: 21cbde27-a2ca-4298-9197-43bcaf05588d
 title: Добавление потоковой информации в приемник файлов ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42e08c6997d9c77836f379d4ca7b75720ddea245
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de8202de8da5cb8e17534c334e3d39dddb3c4f99
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710995"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404365"
 ---
 # <a name="adding-stream-information-to-the-asf-file-sink"></a>Добавление потоковой информации в приемник файлов ASF
 
@@ -19,7 +19,7 @@ ms.locfileid: "105710995"
 
 -   [Добавление потоков в приемник файлов ASF](#adding-streams-in-the-asf-file-sink)
 -   [Перечисление приемников потоков](#enumerating-stream-sinks)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="adding-streams-in-the-asf-file-sink"></a>Добавление потоков в приемник файлов ASF
 
@@ -139,7 +139,7 @@ done:
 
 При создании частичной топологии для кодирования файла мультимедиа необходимо добавить приемник файла в топологию в качестве узла выходной топологии. Это можно сделать, указав каждый приемник Steam в приемнике файлов или установив объект активации приемника файла и идентификаторы приемника потока. Дополнительные сведения и пример кода см. в разделе [Создание выходных узлов](creating-output-nodes.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

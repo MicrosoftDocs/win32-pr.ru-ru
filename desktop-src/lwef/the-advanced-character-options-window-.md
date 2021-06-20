@@ -1,15 +1,15 @@
 ---
 title: Окно "Дополнительные параметры символов" (окно "Voice Commands")
-description: Окно "Дополнительные параметры символов"
+description: Сведения о диалоговом окне "Дополнительные параметры символов", которое предоставляет пользователям возможность изменять их взаимодействие со всеми символами.
 ms.assetid: c2f784e9-d1c5-4fa3-b3f7-5061c9b7e6d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f481871d3861da99b54829e5c6e1b34c9137060a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: dd49ff2f3c948594756f8d02bd4417e4f4f684fc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104339970"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404366"
 ---
 # <a name="advanced-character-options-window-voice-commands-window"></a>Окно "Дополнительные параметры символов" (окно "Voice Commands")
 

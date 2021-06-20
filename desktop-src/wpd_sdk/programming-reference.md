@@ -1,15 +1,15 @@
 ---
 title: Справочник по WPD
-description: Справочник по программированию
+description: В этой статье содержатся ссылки на справочные статьи о WPD, такие как константы, клиентские интерфейсы, интерфейсы драйверов и интерфейсы коллекций.
 ms.assetid: e9dcb602-d04f-4067-8abc-d39e5a29de4e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffa107702ecf9d048728650b324d4a8d081b95df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8a37b34eab3542f01d281bfebd10a387651e1dd
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104547031"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409857"
 ---
 # <a name="wpd-reference"></a>Справочник по WPD
 
@@ -30,7 +30,7 @@ ms.locfileid: "104547031"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

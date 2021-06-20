@@ -1,15 +1,15 @@
 ---
 title: Правильное отображение на дисплее с высоким разрешением
-description: Описывает создание окна, которое правильно отображается на дисплеях с высоким разрешением.
+description: Описание действий по созданию окна для приложения, которое правильно отображается на дисплеях с высоким разрешением.
 ms.assetid: 72a4b076-1cf0-4dc9-bd75-43b5173fc2a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b3e82951dfa77e6f61c661b87064dad5cb9f08
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1dd45b4b654556fc251575410cc11f9b66961263
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987792"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406157"
 ---
 # <a name="displaying-properly-on-a-high-dpi-display"></a>Правильное отображение на дисплее с высоким разрешением
 
@@ -17,7 +17,7 @@ ms.locfileid: "103987792"
 
 -   [Шаг 1. Использование DPI системы при создании Windows](#step-1-use-the-system-dpi-when-creating-windows)
 -   [Шаг 2. объявление того, что в приложении учитывается DPI](#step-2-declare-that-the-application-is-dpi-aware)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="step-1-use-the-system-dpi-when-creating-windows"></a>Шаг 1. Использование DPI системы при создании Windows
 
@@ -66,7 +66,7 @@ ms.locfileid: "103987792"
 >
 > Начиная с Windows 8, для получения DPI на уровне системы можно использовать класс [**Windows:: Graphics::D Play::D исплайпропертиес**](/uwp/api/Windows.Graphics.Display.DisplayProperties) .
 
- 
+ 
 
 ## <a name="step-2-declare-that-the-application-is-dpi-aware"></a>Шаг 2. объявление о том, что приложение DPI-Aware
 
@@ -96,13 +96,13 @@ ms.locfileid: "103987792"
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Direct2D и высокое разрешение](direct2d-and-high-dpi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

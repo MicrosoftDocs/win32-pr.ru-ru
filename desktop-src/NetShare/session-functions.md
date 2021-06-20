@@ -1,15 +1,15 @@
 ---
-description: Функции сеанса управления сетью управляют сетевыми сеансами, установленными между рабочими станциями и серверами. Функция требует, чтобы служба сервера была запущена на сервере.
+description: Общие сведения о функциях сеанса в управлении сетевыми ресурсами. Эти функции управляют сетевыми сеансами, установленными между рабочими станциями и серверами.
 ms.assetid: 931455e3-1301-4a68-93c3-2674b3d4c491
 title: Функции сеанса (Управление сетевыми ресурсами)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c672abd7c976cb9f83fa4f387dd40d175879dee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cdde451eb2942171569b24c36aae5d5742208e5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673571"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409727"
 ---
 # <a name="session-functions-network-share-management"></a>Функции сеанса (Управление сетевыми ресурсами)
 

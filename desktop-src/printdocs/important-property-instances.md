@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Чтобы клиент конструирует PrintTicket, документ PrintCapabilities должен предоставлять свойства экземпляров компонента и экземпляров параметров в функции.
 ms.assetid: 8169b74f-13e0-4f6b-81e2-1824d932ee50
 title: Важные экземпляры свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ad3f58c099913b129ee7be0337ecab3343a5e5e
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 4691b73b1206ee092c171b213a3815925b7f53c6
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105720815"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409127"
 ---
 # <a name="important-property-instances"></a>Важные экземпляры свойств
 
@@ -65,7 +65,7 @@ ms.locfileid: "105720815"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

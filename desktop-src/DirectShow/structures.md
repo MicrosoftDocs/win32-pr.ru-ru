@@ -1,15 +1,15 @@
 ---
-description: Структуры
+description: Эта статья содержит справочные статьи по структурам DirectShow, таким как DEXTER_PARAM, DEXTER_VALUE и SCompFmt0.
 ms.assetid: 74f999c8-2602-42b0-97e4-2c626013fab3
 title: Структуры DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26b0a3d70111df154880c5b613e50bb09351ac73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60107b6c5a13e6db0d5f08f41d0e47a836d901f5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683862"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404387"
 ---
 # <a name="directshow-structures"></a>Структуры DirectShow
 

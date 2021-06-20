@@ -1,6 +1,6 @@
 ---
 title: Платформа ленты Windows
-description: Windows Ribbon Framework — это обширная система представления команд, которая предоставляет современный вариант для многоуровневых меню, панелей инструментов и панелей задач традиционных приложений Windows.
+description: Ознакомьтесь с введением в платформу Windows Ribbon, которая является современной альтернативой многоуровневый меню, панелям инструментов и панелям задач традиционных приложений Windows.
 ms.assetid: c6108c38-17ef-4d8a-ab32-171bc496d44c
 keywords:
 - Лента Windows
@@ -25,12 +25,12 @@ keywords:
 - Лента, безопасность
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6906401573cb244ddc4386faf8c283d7938a0ac5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 211e1e1cf39a547ad0edbc0c180c62e2f40e15fa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988502"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406367"
 ---
 # <a name="windows-ribbon-framework"></a>Платформа ленты Windows
 
@@ -88,7 +88,7 @@ Windows Ribbon Framework — это обширная система предст
 
  
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Модель COM](../com/component-object-model--com--portal.md)
 

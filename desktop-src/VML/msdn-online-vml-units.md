@@ -1,15 +1,15 @@
 ---
 title: Единицы VML
-description: В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+description: В этой статье описываются единицы VML. VML является нерекомендуемым компонентом Windows Internet Explorer 9.
 ms.assetid: f95e65ad-d92a-460f-baeb-30fd8a35f84e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e59ff91fb134edeba7e653be30141b3f72c6b65
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 184d577052412bde4a97148b51cab12a87b3672e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792330"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406947"
 ---
 # <a name="vml-units"></a>Единицы VML
 
@@ -18,7 +18,7 @@ ms.locfileid: "103792330"
 > [!Note]  
 > По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 VML использует следующие единицы CSS.
 
@@ -66,7 +66,7 @@ pt
 
 
 
- 
+ 
 
 Измерения и положения в свойствах каскадной таблицы стилей (CSS) выполняются с использованием единиц длины. Internet Explorer поддерживает два типа единиц длины: относительные и абсолютные.
 
@@ -108,8 +108,8 @@ Radians
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -1,6 +1,6 @@
 ---
 title: Рисование базовых фигур
-description: В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+description: В этой статье описывается рисование базовых фигур в VML, что является устаревшим компонентом Windows Internet Explorer 9.
 ms.assetid: 05443e1f-c098-441c-a5bc-274cc37ef074
 keywords:
 - Веб-семинар, Рисование фигур
@@ -22,12 +22,12 @@ keywords:
 - Элементы VML, Рисование фигур
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ab25fc9310750c9f49c5978a063c76639ec4bd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 00701e8ac77bd5bda7156c04ca25427d131646bf
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488168"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407737"
 ---
 # <a name="drawing-basic-shapes"></a>Рисование базовых фигур
 
@@ -36,7 +36,7 @@ ms.locfileid: "104488168"
 > [!Note]  
 > По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 В этом разделе мы продемонстрируем, как легко нарисовать фигуру с помощью VML.
 
@@ -110,10 +110,10 @@ VML использует [каскадные таблицы стилей, уро
 
 [![назад ](images/top.gif) к началу](#top)
 
-## <a name="summary"></a>Сводка
+## <a name="summary"></a>Итоги
 
 С помощью VML можно рисовать графики на веб-странице, а затем настраивать эти изображения, просто изменяя их атрибуты свойств. Кроме того, большинство графических изображений, представленных в формате VML, отображаются быстрее в браузерах, а время загрузки и место на диске занимают меньше места.
 
- 
+ 
 
- 
+ 

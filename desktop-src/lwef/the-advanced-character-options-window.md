@@ -1,15 +1,15 @@
 ---
 title: Диалоговое окно "Дополнительные параметры символов" (пользовательский интерфейс агента Microsoft)
-description: Окно "Дополнительные параметры символов"
+description: Сведения о диалоговом окне "Дополнительные параметры символов", в котором отображаются глобальные параметры параметров и их текущие параметры.
 ms.assetid: c54e462e-d60a-42ce-96ad-3db531c6f9fd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a399f10fad3cae844ff736db5a81b27ef74d0e7b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: adc51f60ab56467a3896a41ff20153cd423e831d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340155"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404377"
 ---
 # <a name="advanced-character-options-window-microsoft-agent-user-interface"></a>Диалоговое окно "Дополнительные параметры символов" (пользовательский интерфейс агента Microsoft)
 

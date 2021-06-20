@@ -1,6 +1,6 @@
 ---
 title: рекуестреплиткпсерверексампле
-description: В этом примере показан TCP-сервер, принимающий канал и принимающий сообщения и отвечающий на него.
+description: См. пример запроса и ответа на сервер TCP, использующий API веб-служб Windows (ВВСАПИ). Этот пример принимает канал и принимает сообщения и отправляет ответы на них.
 ms.assetid: da9a507b-952d-4378-a37f-c2c4407335e8
 keywords:
 - Рекуестреплиткпсерверексампле Native-Web-Services
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e6c2d33029c588823e5301198cf4562cc194782
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3dd347c5adad07140ed2b9942a1a9718bf9f5f85
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700503"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404087"
 ---
 # <a name="requestreplytcpserverexample"></a>рекуестреплиткпсерверексампле
 
@@ -633,9 +633,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

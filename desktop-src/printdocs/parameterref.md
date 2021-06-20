@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе ParameterRef, который определяет ссылку на элемент Параметеринит и о том, как он работает с Скоредпроперти.
 ms.assetid: 35e1ccc2-ffc1-47a6-aba8-5a5cb442e8ae
 title: ParameterRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa2ef6655439718c1038afe2d342910c54db45ba
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 1ff3b0e16f53e8399a5bbbb5974a05fd6886cdd2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105713327"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407187"
 ---
 # <a name="parameterref"></a>ParameterRef
 
@@ -75,7 +75,7 @@ ms.locfileid: "105713327"
 </psf:Option>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

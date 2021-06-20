@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: В этих статьях описываются общедоступные ключевые слова, которые могут присутствовать в документе PrintCapabilities или PrintTicket.
 ms.assetid: 1aa38771-65c1-4441-8ea3-9bda4071879f
 title: Настраиваемые пользователем элементы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00c33e038ca0ba371456f5ad373f7a1b3eb84ff2
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6a67b67c3d8da3dbdb3094692e754220953c8421
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105693917"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405677"
 ---
 # <a name="user-configurable-elements"></a>Настраиваемые пользователем элементы
 
@@ -23,7 +23,7 @@ ms.locfileid: "105693917"
 
 Важно обратить внимание на родительские и дочерние элементы, разрешенные в структурном содержимом для каждого ключевого слова. Дополнительные сведения см. в разделе [Сводка по типам элементов](./summary-of-element-types.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

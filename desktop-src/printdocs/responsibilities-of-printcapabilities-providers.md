@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Поставщики PrintCapabilities должны поддерживать минимальный набор возможностей, которые подразумеваются интерфейсом поставщика PrintTicket/PrintCapabilities.
 ms.assetid: 92e9bce1-d58e-40a4-9721-832d7c3bc2b2
 title: Обязанности поставщиков PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 586bbf355f7b62f8f9c8b3f3b0c59714cdd6ade5
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 70cc04137eacdd2395205b96233db3c53964bc02
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105693908"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404917"
 ---
 # <a name="responsibilities-of-printcapabilities-providers"></a>Обязанности поставщиков PrintCapabilities
 
@@ -39,7 +39,7 @@ ms.locfileid: "105693908"
 
 В дополнение к вышеизложенным требованиям, документ PrintCapabilities должен содержать допустимые и правильные значения для каждого атрибута XML (например, ограниченного) каждого параметра.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

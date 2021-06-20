@@ -1,6 +1,6 @@
 ---
 title: Цветовые фигуры
-description: В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+description: В этой статье описываются цвета фигур в VML, а также функция, устаревшая до Windows Internet Explorer 9.
 ms.assetid: f528f0c7-1351-4bca-b309-67511431b711
 keywords:
 - Веб-семинар, цвета фигур
@@ -20,12 +20,12 @@ keywords:
 - Триады RGB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1257c5f5b0cf8021658820f09de6e87099f0a52b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c203debd01d4234ae58900a023944511f9fc73c1
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070307"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407747"
 ---
 # <a name="coloring-shapes"></a>Цветовые фигуры
 
@@ -34,7 +34,7 @@ ms.locfileid: "104070307"
 > [!Note]  
 > По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Как упоминалось в предыдущих разделах, можно использовать "Red" для представления цвета красным цветом, "синий" для представления цвета синим цветом и т. д. В этом разделе показано, как нарисовать фигуры в любом нужном цвете.
 
@@ -84,7 +84,7 @@ fillcolor="#FDF9BA" strokecolor="blue"/>
 
 [![назад ](images/top.gif) к началу](#top)
 
-## <a name="summary"></a>Сводка
+## <a name="summary"></a>Итоги
 
 В VML можно представить цвет в одном из следующих форматов:
 
@@ -92,6 +92,6 @@ fillcolor="#FDF9BA" strokecolor="blue"/>
 2.  FillColor = "RGB (0, 0255)"
 3.  FillColor = " \# 0000FF"
 
- 
+ 
 
- 
+ 

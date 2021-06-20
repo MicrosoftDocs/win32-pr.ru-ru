@@ -1,15 +1,15 @@
 ---
-description: В этом разделе содержатся справочные сведения о COM-интерфейсах, предоставляемых библиотекой служебной программы D3DX. С библиотекой служебной программы D3DX используются следующие интерфейсы.
+description: В этом разделе содержатся справочные сведения о COM-интерфейсах, предоставляемых библиотекой служебной программы D3DX в графике Direct3D 10.
 ms.assetid: c57d9c39-3f30-4205-9b0a-665fe53f2b14
 title: Интерфейсы D3DX (графика Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e4e0fc152468efec4e33fd6a3ab467d211cfbef
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4c064edce5d5841875eb3148bf74b18f50f93081
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650452"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408017"
 ---
 # <a name="d3dx-interfaces-direct3d-10-graphics"></a>Интерфейсы D3DX (графика Direct3D 10)
 
@@ -33,7 +33,7 @@ ms.locfileid: "105650452"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

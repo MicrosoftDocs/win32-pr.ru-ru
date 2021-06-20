@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе Пажеблаккженератионпроцессингтоталинкковеражелимит, который указывает максимально допустимую сумму четырех объемов рукописного ввода в любом месте изображения.
 ms.assetid: 7ccd02c2-7cec-4d9d-83c1-512f25f4045c
 title: пажеблаккженератионпроцессингтоталинкковеражелимит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29918bfe48d1547a3c61b8d79425b36368f6d249
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 68410cabdfafa5ce82450821e4ae45709ee8d4c9
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993881"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408447"
 ---
 # <a name="pageblackgenerationprocessingtotalinkcoveragelimit"></a>пажеблаккженератионпроцессингтоталинкковеражелимит
 

@@ -1,15 +1,15 @@
 ---
-description: Понятный пользователю отображаемый путь к родительской папке элемента.
+description: Прочитайте о свойстве System. Итемфолдерпасдисплай, которое представляет понятный пользователю отображаемый путь к родительской папке элемента.
 ms.assetid: 16f67edc-ca8a-4c2e-9d9b-be8600446e51
 title: System. Итемфолдерпасдисплай
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c4ae4c9178356d36c644f1bc886d63331155e88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c12909b29790ea2c016154cea9fccf7c53e45630
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711877"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403937"
 ---
 # <a name="systemitemfolderpathdisplay"></a>System. Итемфолдерпасдисплай
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
@@ -53,7 +53,7 @@ propertyDescription
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

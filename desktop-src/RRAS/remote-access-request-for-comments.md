@@ -1,18 +1,18 @@
 ---
 title: Запрос на удаленный доступ для комментариев
-description: Запросы на комментарии (RFC) — это непрерывная серия документов, которые обсуждают технологии Интернета и Интернета.
+description: В этой статье перечислены запросы на комментарии (RFC) для удаленного доступа. Документы RFC — это непрерывная серия документов, посвященных технологиям, связанным с Интернетом.
 ms.assetid: ee52dde3-e87d-437f-8321-77d771d715ec
 keywords:
 - Документы RFC, удаленный доступ
 - Запрос комментариев, удаленный доступ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 727d866d4dd888df0831b83acacb8ad573232758
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7636f148570e9e1f3f488dad7b23043cec5e7c03
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103987236"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406627"
 ---
 # <a name="remote-access-request-for-comments"></a>Запрос на удаленный доступ для комментариев
 
@@ -36,9 +36,9 @@ ms.locfileid: "103987236"
 -   [RFC 2869](https://www.ietf.org/rfc/rfc2869.txt) — расширения RADIUS, 2000 июня
 -   [Черновик](https://www.freeradius.org/rfc/draft-ietf-radius-mschap-attr-01.txt) протоколов MSCHAP для RADIUS с атрибутом 01 — атрибуты RADIUS для поддержки MS-CHAP, ноябрь, 1997
 
- 
+ 
 
- 
+ 
 
 
 

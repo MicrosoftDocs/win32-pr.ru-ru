@@ -1,15 +1,15 @@
 ---
-description: Руководство по программированию
+description: Узнайте о концепциях и функциях основных API-интерфейсов аудио в Windows Vista и об их использовании в программировании приложений.
 ms.assetid: 825c7cd7-dc66-47b6-a1b6-d10101daebb3
 title: Основные рекомендации по программированию аудио
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cb99369058983ebac7205053efdf967bbb8c36d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02f02e27206c70cca69abf263cfa49dfd439c480
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262743"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405877"
 ---
 # <a name="core-audio-programming-guide"></a>Основные рекомендации по программированию аудио
 
@@ -36,7 +36,7 @@ ms.locfileid: "104262743"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

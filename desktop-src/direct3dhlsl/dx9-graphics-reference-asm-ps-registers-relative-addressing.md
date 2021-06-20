@@ -1,6 +1,6 @@
 ---
 title: Относительная адресация (Справочник по HLSL PS)
-description: Синтаксис \ \ можно использовать только в типах регистров, которые могут быть сравнительно устранены в некоторых моделях шейдеров.
+description: Для шейдеров пикселей синтаксис \ \ можно использовать только в типах регистров, которые могут быть сравнительно устранены в некоторых моделях шейдеров.
 ms.assetid: 37e2bab9-f6fe-438a-8a2d-c963634ef8c3
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 38c7be68245cfedbb27898e0fbb689e9e43755ca
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 8bdafe23696c460da75d87cf1f6d5a968c89ed28
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103785064"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405487"
 ---
 # <a name="relative-addressing-hlsl-ps-reference"></a>Относительная адресация (Справочник по HLSL PS)
 
@@ -32,7 +32,7 @@ ms.locfileid: "103785064"
 |-------------------------------------------|---------------------------------------|----------------------------------|
 | R \[ A + M0 +... + MJ \]                  | A + M0 +... + MJ                     | c \[ a0. x + 3 + 7 \]              |
 | R \[ k \] (= ать)                         | k                                     | c \[ 10 \] (= C10)              |
-| R \[ A \]                                  | Объект                                     | c \[ a0. y \]                      |
+| R \[ A \]                                  | A                                     | c \[ a0. y \]                      |
 | Ать \[ N0 +... + Ni + A + M0 +... + MJ \] | A + k + N0 +... + Ni + M0 +... + MJ | C8 \[ 3 + 2 + a0. w + 5 + 6 + 1 \] |
 | R \[ N0 +... + Ni + A + M0 +... + MJ \]  | A + N0 +... + Ni + M0 +... + MJ     | c \[ 2 + 1 + Al + 3 + 4 + 5 \]    |
 | Ать \[ A \]                                 | A + k                                 | C12 \[ Al \] , C0 \[ a0. z \]        |
@@ -42,7 +42,7 @@ ms.locfileid: "103785064"
 
 
 
- 
+ 
 
 Регистры доступны в следующих версиях:
 
@@ -54,18 +54,18 @@ ms.locfileid: "103785064"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистры](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

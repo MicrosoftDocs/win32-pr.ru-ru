@@ -1,6 +1,6 @@
 ---
 title: Поиск в файлах ASF (пакет SDK для Windows Media Format 11)
-description: Поиск в файлах ASF
+description: Узнайте, как средство чтения WM ASF может выполнять очень точную повременное Поиск содержимого на основе Windows Media с временным индексом в пакете SDK Windows Media Format 11.
 ms.assetid: a1717cb4-9f41-4148-b088-a6517be7da9b
 keywords:
 - Windows Media Format SDK, поиск в файлах ASF
@@ -12,18 +12,18 @@ keywords:
 - DirectShow, поиск в файлах ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18389ded80f0202564cba0ce6384b5ff02d26fdd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 807631861cdc820457360058f22fca380fca29ea
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104070949"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409887"
 ---
 # <a name="seeking-in-asf-files-windows-media-format-11-sdk"></a>Поиск в файлах ASF (пакет SDK для Windows Media Format 11)
 
 [Средство чтения WM ASF](wm-asf-reader-filter.md)через его интерфейс **имедиасикинг** может выполнять очень точное временное Поиск содержимого на основе Windows Media с временным индексом. (Все индексируемые фреймы содержимого также содержат временный индекс). Гарантируется, что поиск в точно-ориентированном поиске не поддерживается напрямую в модуле чтения WM ASF, но существует способ сделать это, если требуется эта функция. Во-первых, используйте пакет SDK для формата Windows Media, чтобы создать экземпляр синхронного объекта Reader, открыть файл, получить метку времени, связанную с указанным кадром, а затем использовать интерфейс DirectShow **имедиасикинг** для поиска в это время. Интерфейс DirectShow **ивидеофраместеп** не поддерживает точное Поиск содержимого на основе Windows Media. Пример Дссикфм в пакете SDK для формата Windows Media демонстрирует, как выполнять поиск с точностью в виде кадров с помощью средства чтения WM ASF.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

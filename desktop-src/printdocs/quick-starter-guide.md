@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Эта статья содержит краткое руководство по реализации PrintTicket и PrintCapabilities для вашего приложения или драйвера устройства.
 ms.assetid: 2c1d912e-464e-48d2-ba4f-c0b9a811b25e
 title: Краткое руководство
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8f3933cb59e270dd8ef2eff8d295d33ab1f9203
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6060de551d3fb663e148cf80f661c4d517a51b93
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104351775"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405317"
 ---
 # <a name="quick-starter-guide"></a>Краткое руководство
 
@@ -33,7 +33,7 @@ ms.locfileid: "104351775"
 
 8) Проверьте как [настраиваемые пользователем элементы](user-configurable-elements.md) , так и [определения параметров](parameter-definitions.md) общие ключевые слова схемы печати, которые могут появиться в документе PrintCapabilities
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

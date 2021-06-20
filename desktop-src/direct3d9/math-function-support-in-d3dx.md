@@ -1,15 +1,15 @@
 ---
-description: D3DX — это служебная Библиотека, которая предоставляет вспомогательные службы. Это уровень выше компонента Direct3D.
+description: Сведения о поддержке математических функций в D3DX. D3DX — это служебная Библиотека, которая предоставляет вспомогательные службы. Это уровень выше компонента Direct3D.
 ms.assetid: a44d25de-f79d-4132-a75a-0c22ccd84341
 title: Поддержка математических функций в D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac69e0385919b015d1f8d3e7d47e221c06a04fbb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a28c32b13d185694e4ffa41c314cf9f77cbb18b7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139970"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407527"
 ---
 # <a name="math-function-support-in-d3dx-direct3d-9"></a>Поддержка математических функций в D3DX (Direct3D 9)
 
@@ -35,7 +35,7 @@ D3DX — это служебная Библиотека, которая пред
 
 При использовании типа данных FLOAT16 не забудьте ограничить значения максимальным значением D3DX \_ 16F \_ Max. Любое значение FLOAT16, превышающее это, приведет к неопределенному поведению в конвейере. См. [другие константы D3DX](other-d3dx-constants.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

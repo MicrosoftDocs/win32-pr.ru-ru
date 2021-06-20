@@ -1,15 +1,15 @@
 ---
 title: Заданное значение ссылки на набор элементов в шейдере (графика Direct3D 11)
-description: Включение шейдера пикселей для вывода значения ссылки на набор элементов вместо использования указанного API-интерфейса обеспечивает очень точный контроль над операциями с набором элементов.
+description: Сведения об эталонном значении набора элементов в графике Direct3D 11. Включение построителей текстур пикселей для использования значения ссылки на набор элементов позволяет точно контролировать операции с наборами элементов.
 ms.assetid: 6E336623-9746-4872-ADC1-C5489F53D7AE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a089ec8ab56a1cf00021f97bb40cf86fe42f04
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c0e8a34d53bc7f30dc2a91fafabb561dff7a1e96
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340005"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408107"
 ---
 # <a name="shader-specified-stencil-reference-value-direct3d-11-graphics"></a>Заданное значение ссылки на набор элементов в шейдере (графика Direct3D 11)
 
@@ -30,7 +30,7 @@ uint main2(float4 c : COORD) : SV_StencilRef
 }
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Некоторые константы эффектов необходимо инициализировать.
+description: Некоторые константы эффектов необходимо инициализировать. См. базовый код для установки переменных эффектов в Direct3D 10.
 ms.assetid: 743261a8-fdd8-492e-be8a-4faeb9b6f986
 title: Установка состояния действия (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f14d4cdfb23c56f9534d1b4029482ce4e494b37
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6df7133276b6392abca8d75eed16de896fb58f84
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990460"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404727"
 ---
 # <a name="set-effect-state-direct3d-10"></a>Установка состояния действия (Direct3D 10)
 
@@ -219,7 +219,7 @@ OnD3D10FrameRender()
 
 Дополнительные сведения о просмотре ресурсов см. в разделе [представления текстуры (Direct3D 10)](d3d10-graphics-programming-guide-resources-access-views.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

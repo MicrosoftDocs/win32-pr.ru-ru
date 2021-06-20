@@ -1,15 +1,15 @@
 ---
-description: В этом разделе содержится код руководства по воспроизведению мультимедийных файлов с помощью Media Foundation.
+description: В этой статье содержится код для файла WinMain. cpp, посвященного воспроизведению мультимедийных файлов с помощью Media Foundation.
 ms.assetid: f13cba48-bfb6-4964-a9de-004cbb5c0dce
 title: WinMain. cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce99bdc59eb29b77de0418a995b7683e9c040ccc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31c0ec32af15d6598dbb34d29f80ec6b4ad7a48f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998646"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406357"
 ---
 # <a name="winmaincpp"></a>WinMain. cpp
 
@@ -517,7 +517,7 @@ HRESULT AllocGetWindowText(HWND hwnd, WCHAR **pszText, DWORD *pcchLen)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

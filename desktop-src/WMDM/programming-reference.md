@@ -1,6 +1,6 @@
 ---
 title: Справочник по ВМДМ
-description: Справочник по программированию
+description: Пакет Windows Media диспетчер устройств SDK состоит из коллекции интерфейсов, структур, перечислений и констант. Используйте эти справочные статьи.
 ms.assetid: 1d2260a8-bc9f-41b3-a3b0-0176b45fff1f
 keywords:
 - Диспетчер устройств Windows Media, Справочник по программированию
@@ -19,12 +19,12 @@ keywords:
 - Справочник по диспетчер устройств Windows Media, поставщикам услуг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1498d42e65de99abc1d32895f3628d93502c70f
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: e624bbc445d5d5e376cad926248ae4ee4db17a6e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104412267"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406527"
 ---
 # <a name="wmdm-reference"></a>Справочник по ВМДМ
 
@@ -46,11 +46,11 @@ ms.locfileid: "104412267"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

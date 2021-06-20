@@ -1,6 +1,6 @@
 ---
 title: Относительная адресация (Справочник по HLSL VS)
-description: Синтаксис \ \ можно использовать только в типах регистров, которые могут быть сравнительно устранены в некоторых моделях шейдеров.
+description: Для шейдеров вершин синтаксис \ \ можно использовать только в типах регистров, которые могут быть относительно устранены в определенных моделях шейдеров.
 ms.assetid: 9f9d2499-73a5-4c9d-9dce-94c914933334
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c11d6f6c4b448e1dee5f4237696c110519bc0dd0
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 2bbba694878ba84ac3c2fa9c4e8058bb0d91830e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104335675"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406697"
 ---
 # <a name="relative-addressing-hlsl-vs-reference"></a>Относительная адресация (Справочник по HLSL VS)
 
@@ -32,7 +32,7 @@ ms.locfileid: "104335675"
 |-------------------------------------------|---------------------------------------|----------------------------------|
 | R \[ A + M0 +... + MJ \]                  | A + M0 +... + MJ                     | c \[ a0. x + 3 + 7 \]              |
 | R \[ k \] (= ать)                         | k                                     | c \[ 10 \] (= C10)              |
-| R \[ A \]                                  | Объект                                     | c \[ a0. y \]                      |
+| R \[ A \]                                  | A                                     | c \[ a0. y \]                      |
 | Ать \[ N0 +... + Ni + A + M0 +... + MJ \] | A + k + N0 +... + Ni + M0 +... + MJ | C8 \[ 3 + 2 + a0. w + 5 + 6 + 1 \] |
 | R \[ N0 +... + Ni + A + M0 +... + MJ \]  | A + N0 +... + Ni + M0 +... + MJ     | c \[ 2 + 1 + Al + 3 + 4 + 5 \]    |
 | Ать \[ A \]                                 | A + k                                 | C12 \[ Al \] , C0 \[ a0. z \]        |
@@ -42,7 +42,7 @@ ms.locfileid: "104335675"
 
 
 
- 
+ 
 
 Регистры доступны в следующих версиях:
 
@@ -57,18 +57,18 @@ ms.locfileid: "104335675"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистры шейдеров вершин](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

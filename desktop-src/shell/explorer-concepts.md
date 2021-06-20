@@ -1,5 +1,5 @@
 ---
-description: Пространство имен Shell организует файловую систему и другие объекты, управляемые оболочкой, в одну иерархию, структурированную по дереву. По сути, это более обширная и более широкая версия файловой системы.
+description: Общие понятия можно использовать для расширения проводника Windows, который является одним из множества вариантов расширяемости в пользовательском интерфейсе оболочки Windows.
 title: Основные понятия обозревателя
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: d5ea7d154ef0455576d91f99eb53dccd93c25339
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db9b46bf944992a16b6a1b8a9bcad581ec7d661b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104563919"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404937"
 ---
 # <a name="common-explorer-concepts"></a>Основные понятия обозревателя
 
