@@ -1,15 +1,15 @@
 ---
-description: Приемник ASF-файлов — это реализация Имфмедиасинк, предоставляемая Media Foundation, которую приложение может использовать для архивации данных ASF Media в файл. Сведения об объектной модели приемников ASF Media и общем использовании см. в статье приемники мультимедиа ASF.
+description: Дополнительные сведения о добавлении метаданных в приемник файлов ASF, которые приложение может использовать для архивации данных ASF Media в файл.
 ms.assetid: ecfddf4e-71b4-42c4-8b54-9868cec6ed9b
 title: Добавление метаданных в приемник файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71bb63a10d935b52e6d048dbc5dcd07370dd2ab4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16ea86a09ff9e3d2a25bbf8d00d46691fd803365
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072793"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409967"
 ---
 # <a name="adding-metadata-to-the-file-sink"></a>Добавление метаданных в приемник файлов
 
@@ -91,7 +91,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

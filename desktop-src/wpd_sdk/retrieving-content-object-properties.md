@@ -1,15 +1,15 @@
 ---
 title: Получение свойств объекта WPD
-description: Получение свойств объекта
+description: Приложение Впдсервицеаписампле демонстрирует, как приложение может извлекать свойства объекта содержимого, поддерживаемые данной службой контактов.
 ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2c206b6e3afe75144ce10de615657e788d6d1c
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 98e57258993d0a81f68042195db2caf338c97c53
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424064"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404317"
 ---
 # <a name="retrieving-wpd-object-properties"></a>Получение свойств объекта WPD
 

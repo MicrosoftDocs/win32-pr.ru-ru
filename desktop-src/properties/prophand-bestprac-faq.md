@@ -1,15 +1,15 @@
 ---
-description: В этом разделе объясняется, как создавать и регистрировать обработчики свойств для работы с системой свойств Windows.
+description: Эта статья содержит рекомендации и часто задаваемые вопросы о создании и регистрации обработчиков свойств для работы с системой свойств Windows.
 ms.assetid: E583A00B-F615-41c8-AECF-061F1396DB9A
 title: Рекомендации и вопросы и ответы по обработчикам свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5188e66f08f3c6cf449f8bc61feb6aac829d37c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5605c39f1021fcfe91259405bb99f8981510d3dc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272367"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405957"
 ---
 # <a name="property-handler-best-practices-and-faq"></a>Рекомендации и вопросы и ответы по обработчикам свойств
 
@@ -22,7 +22,7 @@ ms.locfileid: "104272367"
     -   [Хранение свойств в форматах файлов на основе XML](#storing-properties-in-xml-based-file-formats)
     -   [Вычисленные свойства](#computed-properties)
 -   [Часто задаваемые вопросы](#property-handler-best-practices-and-faq)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="best-practices"></a>Рекомендации
 
@@ -134,7 +134,7 @@ ms.locfileid: "104272367"
 
      
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

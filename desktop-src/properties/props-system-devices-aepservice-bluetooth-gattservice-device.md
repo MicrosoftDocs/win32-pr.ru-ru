@@ -1,15 +1,15 @@
 ---
-description: Задает адрес запроса устройства Bluetooth.
+description: Узнайте, как свойство System. Devices. Аепсервице. Bluetooth. Гаттсервице. Device устанавливает адрес устройства Bluetooth для запроса.
 ms.assetid: 0a84f283-4b18-4042-afc5-5b75907fe9f2
 title: System. Devices. Аепсервице. Bluetooth. Гаттсервице. Device
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7adf0b7b7311c4e22f082030347429b204ff898b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fb2b38f9c67a86668b6eed85d951aa72ac22058
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711915"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405277"
 ---
 # <a name="systemdevicesaepservicebluetoothgattservicedevice"></a>System. Devices. Аепсервице. Bluetooth. Гаттсервице. Device
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения о настраиваемых пользователем элементах и определениях параметров, которые могут быть применимы к документу PrintCapabilities.
 ms.assetid: 7f08747f-f7ff-4381-b2b9-1917e4708ee3
 title: Общедоступные ключевые слова PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81d5e7b001a8106f95c830f0af5e99ee9821af64
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2d836ca13297f031897598bb2ecbfc6588c49753
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105664835"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407097"
 ---
 # <a name="printcapabilities-public-keywords"></a>Общедоступные ключевые слова PrintCapabilities
 
@@ -27,7 +27,7 @@ ms.locfileid: "105664835"
 
 Определения параметров принимают форму типов элементов Параметердеф в документе возможностей печати. Типы элементов Параметердеф инициализируются в PrintTicket с помощью типа элемента Параметеринит. Значение параметра будет указано с помощью элемента Параметеринит. Настраиваемое пользователем ключевое слово может ссылаться на определение параметра с помощью типа элемента ParameterRef. Дополнительные сведения см. в разделе [конструкции параметров](parameter-constructs.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

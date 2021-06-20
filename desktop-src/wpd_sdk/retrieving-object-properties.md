@@ -1,15 +1,15 @@
 ---
 title: Общие сведения о получении свойств объекта
-description: Приложение может извлекать свойства для одного объекта, для нескольких объектов, идентифицируемых идентификаторами объектов, или для нескольких объектов одного типа.
+description: Приложение может извлекать свойства для одного объекта или нескольких объектов. Сведения об извлечении для одного объекта.
 ms.assetid: 499644ee-9eef-4267-9c45-7c7ba9ef61af
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55434e757caa78ddd4d6e0ed27483213dae3b22d
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: b19815fb6b3f3e5be57f8705d3bbaeff7b44fb5c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424084"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409847"
 ---
 # <a name="retrieving-object-properties-overview"></a>Общие сведения о получении свойств объекта
 

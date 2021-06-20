@@ -1,15 +1,15 @@
 ---
-description: Определяет сетку, определенную с помощью исправлений Безье. Первый массив представляет собой список вершин, а второй массив определяет исправления для сетки путем индексирования в массиве вершин.
+description: Патчмеш определяет сетку, определенную с помощью исправлений Безье, включая список вершин и исправлений для сетки путем индексирования в массив вершин.
 ms.assetid: vs|directx_sdk|~\patchmesh.htm
 title: патчмеш
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fcdefac9799736c796aef7cbb7222ab1942540d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fabb3846246c7fb76a7146baf0b30bd9730fe24b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536821"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404717"
 ---
 # <a name="patchmesh"></a>патчмеш
 
@@ -37,7 +37,7 @@ template PatchMesh
 
 Исправления используют вершины в массиве вершин в качестве контрольных точек для каждого исправления. Это устаревший шаблон. Последний шаблон сетки исправлений — [**PatchMesh9**](patchmesh9.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

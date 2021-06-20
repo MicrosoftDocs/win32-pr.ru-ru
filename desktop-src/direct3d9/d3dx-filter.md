@@ -1,15 +1,15 @@
 ---
-description: Следующие флаги используются для указания каналов текстуры для обработки.
+description: Узнайте о флагах D3DX_FILTER, которые используются для указания каналов, на которых будет выполняться текстура, например D3DX_FILTER_TRIANGLE.
 ms.assetid: 0317b857-2512-4ad7-b6e3-82afdda7ea10
 title: D3DX_FILTER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c83fd0b3e12d6b5bccb13f9c5fab5e078587dbd4
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 4c7580749eca2134f899356c4632d8171b147aa7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342869"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408227"
 ---
 # <a name="d3dx_filter"></a>\_Фильтр D3DX
 

@@ -1,15 +1,15 @@
 ---
 title: Поддержка содержимого на стороне устройства (страница свойств)
-description: Поддержка содержимого Device-Side
+description: Узнайте, как использовать API оболочки Windows или API-интерфейс WPD для получения данных объектов устройств, недоступных в файловой системе Windows Vista.
 ms.assetid: ea11f8e6-fb53-46e4-b210-2dae33cdc056
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd7e054e4c545acd8f34583da5cd9ef3af347643
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3aeade3745c37296b334c54af9edcc768fb8c93e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104347415"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404197"
 ---
 # <a name="supporting-device-side-content"></a>Поддержка содержимого на стороне устройства
 
@@ -206,7 +206,7 @@ STDMETHODIMP CWPDPropSheet::ReplacePage(UINT uPageID, LPFNADDPROPSHEETPAGE lpfnR
 
 Так как пользователь может выбрать несколько устройств, приложению потребуется сохранить массив ПИДЛ, возвращенный Ишеллекстинит:: Initialize, а затем проверить старшее слово первого параметра в Реплацепаже. Нулевое значение в этом высоком слове соответствует первому элементу в массиве ПИДЛ, значение One соответствует второму элементу и т. д. В примере функции Реплацепаже приложения это большое значение слова передается в обработчики замены. Эти обработчики, в свою очередь, используют это значение для задания конкретного устройства.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

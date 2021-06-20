@@ -1,16 +1,16 @@
 ---
 title: Отображение интерфейсов в домен Active Directory Services
-description: Эта категория интерфейсов включает в себя следующее.
+description: Получите ссылки на интерфейсы, отображаемые в службах домен Active Directory, таких как Икоммонкуери и Идсбровседомаинтри.
 ms.assetid: f53d4425-5496-45f8-a09b-f163b63a29c8
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91b1ce53e9dd0f404bc20e0b3fff9ec8687a3d1d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: aff1a1632eeac18c3c0e0048b466b9f33fac3b75
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104487460"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407457"
 ---
 # <a name="display-interfaces-in-active-directory-domain-services"></a>Отображение интерфейсов в домен Active Directory Services
 
@@ -22,11 +22,11 @@ ms.locfileid: "104487460"
 -   [**иперсисткуери**](/windows/win32/api/cmnquery/nn-cmnquery-ipersistquery)
 -   [**икуериформ**](/windows/win32/api/cmnquery/nn-cmnquery-iqueryform)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 Интерфейсы [администратора Active Directory](/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services), [диалоговые окна выбора объектов](object-picker-dialog-box-interfaces.md)
 
 
- 
+ 
 
- 
+ 

@@ -1,18 +1,18 @@
 ---
 title: Запрос на маршрутизацию для комментариев
-description: Запросы на комментарии (RFC) — это непрерывная серия документов, которые обсуждают технологии Интернета и Интернета.
+description: В этой статье перечислены запросы на получение комментариев (RFC) для запроса маршрутизации. Документы RFC — это непрерывная серия документов, посвященных технологиям, связанным с Интернетом.
 ms.assetid: 08d020f6-87b2-487e-8232-84d080c1037b
 keywords:
 - Документы RFC, маршрутизация
 - Запрос комментариев, маршрутизация
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1525bad7d54443b2c67adfba04c683f58ca0648
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 307299af9b4819d97ce6781a37ac4df0186a6378
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104336524"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404757"
 ---
 # <a name="routing-request-for-comments"></a>Запрос на маршрутизацию для комментариев
 
@@ -22,9 +22,9 @@ ms.locfileid: "104336524"
 -   [RFC 2863](https://www.ietf.org/rfc/rfc2863.txt) — группа интерфейсов MIB, 2000 июня
 -   [RFC 1354](https://www.ietf.org/rfc/rfc1354.txt) — таблица MIB таблицы пересылки IP, июль, 1992
 
- 
+ 
 
- 
+ 
 
 
 

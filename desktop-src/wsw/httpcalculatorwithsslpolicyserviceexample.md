@@ -1,6 +1,6 @@
 ---
 title: хттпкалкулаторвиссслполицисервицеексампле
-description: В этом примере показано, как использовать узел службы для размещения службы калькулятора по протоколу HTTP с безопасностью транспорта SSL и обычной проверкой подлинности заголовка HTTP.
+description: Обзор API веб-служб Windows (ВВСАПИ) C++ пример калькулятора HTTP со службой политики SSL.
 ms.assetid: 5b3fc119-10c2-444b-91d3-415ad36a65ab
 keywords:
 - Хттпкалкулаторвиссслполицисервицеексампле Native-Web-Services
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45fd787d10dab20386c016848e238eb345b347f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 05ef60e86ff6c14bb8fb91369785c197b3994c94
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410939"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409777"
 ---
 # <a name="httpcalculatorwithsslpolicyserviceexample"></a>хттпкалкулаторвиссслполицисервицеексампле
 
@@ -424,9 +424,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

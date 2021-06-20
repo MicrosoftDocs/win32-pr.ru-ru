@@ -1,6 +1,6 @@
 ---
 title: Группирование фигур
-description: В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+description: В этой статье описывается Группирование фигур в VML, а также функция, устаревшая до Windows Internet Explorer 9.
 ms.assetid: 469c9e4d-d1ae-4285-b2cb-ac833ebe59ff
 keywords:
 - Веб-семинар, Группирование фигур
@@ -21,12 +21,12 @@ keywords:
 - Локальное пространство координат
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59eed282094e2d24d2d27e338b93731eaaa1eec0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 61e0c3073f55d23c15734b5d5ddfa886e7291530
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070522"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407707"
 ---
 # <a name="grouping-shapes"></a>Группирование фигур
 
@@ -35,7 +35,7 @@ ms.locfileid: "104070522"
 > [!Note]  
 > По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Как вы узнали, вы можете легко рисовать отдельные фигуры с помощью VML. В этом разделе будут объяснены преимущества группирования фигур и группирования фигур.
 
@@ -82,10 +82,10 @@ width:150pt;height:100pt; ...>
 
 [![назад ](images/top.gif) к началу](#top)
 
-## <a name="summary"></a>Сводка
+## <a name="summary"></a>Итоги
 
 Элемент можно использовать `<group>` для группировки многих фигур вместе, чтобы их можно было преобразовать как одну единицу.
 
- 
+ 
 
- 
+ 

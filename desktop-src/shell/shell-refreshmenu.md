@@ -1,5 +1,5 @@
 ---
-description: Обновляет содержимое меню "Пуск". Используется только с системами, предшествующими Windows XP.
+description: Сведения о методе Shell. Рефрешмену, который обновляет содержимое меню "Пуск". Используется только с системами, предшествующими Windows XP.
 ms.assetid: 1269c66d-61df-432d-9220-5ac975e3ad58
 title: Метод Shell. Рефрешмену (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: a5812312c846026f4e0c7d2a4f6a5f857a572a23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90020cd128f5cbc585bd7bc9ab33a8a81c745f8e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985544"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404537"
 ---
 # <a name="shellrefreshmenu-method"></a>Shell. Рефрешмену, метод
 
@@ -45,7 +45,7 @@ Shell.RefreshMenu() As Integer
 
 Этот метод не имеет параметров.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Функциональные возможности, предоставляемые **рефрешмену** , автоматически обрабатываются в Windows XP или более поздней версии. Не вызывайте этот метод в этой операционной системе.
 

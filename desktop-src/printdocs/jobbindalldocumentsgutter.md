@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе Жоббиндаллдокументсгуттер, который задает ширину переплета привязки.
 ms.assetid: 97a00cd6-508c-47e9-a1c1-75646ca0c721
 title: жоббиндаллдокументсгуттер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04615b85939d483f6bd2e720afa65a88d44c1caf
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: a42180ff9a00d1502d844b270fe5da7324825ca3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998381"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409077"
 ---
 # <a name="jobbindalldocumentsgutter"></a>жоббиндаллдокументсгуттер
 
@@ -77,7 +77,7 @@ XML-структура этого элемента:
 | DefaultValue<br/> | Целое число<br/> | неопределенный<br/>       |
 | MaxValue<br/>     | Целое число<br/> | неопределенный<br/>       |
 | MinValue<br/>     | Целое число<br/> | неопределенный<br/>       |
-| Обязательный<br/>    | Строковый<br/>  | PSK: условный<br/> |
+| Обязательный<br/>    | Строка<br/>  | PSK: условный<br/> |
 | Несколько<br/>     | целое число<br/> | 1<br/>               |
 | Единицах UnitType<br/>     | строка<br/>  | мкм<br/>         |
 

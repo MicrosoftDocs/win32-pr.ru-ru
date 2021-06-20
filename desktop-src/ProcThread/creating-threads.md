@@ -1,15 +1,15 @@
 ---
-description: Функция CreateThread создает новый поток для процесса.
+description: Узнайте, как использовать функцию CreateThread для создания нового потока для процесса. Изучите пример кода, демонстрирующий его использование.
 ms.assetid: eb0cc3c0-14f2-4913-a592-4ba3eaf67002
 title: Создание потоков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 545088779bdaff665a8079296014535ab244e821
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: befd6c00cadb6758d076ad6c4d0fe940cf855f89
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673770"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406737"
 ---
 # <a name="creating-threads"></a>Создание потоков
 
@@ -192,7 +192,7 @@ void ErrorHandler(LPTSTR lpszFunction)
 
 Вы также можете создать поток, вызвав функцию [**креатеремотесреад**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethread) . Эта функция используется процессами отладчика для создания потока, выполняемого в адресном пространстве отлаживаемого процесса.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

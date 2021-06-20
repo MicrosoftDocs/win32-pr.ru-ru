@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Помимо PrintCapabilities, PrintTicket позволяет добавлять дополнительные сведения клиентами в форме элементов свойств.
 ms.assetid: 00f1d2c4-3c71-4b64-b689-83b4399aa61d
 title: Сведения о конфигурации, не связанные с PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26bbc1b37d430158d6e8c020aa5994fe4e28f4af
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 40e4ac332d6e9b106ab9d68c29d03366761c01d5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105674564"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409657"
 ---
 # <a name="configuration-information-not-related-to-printcapabilities"></a>Сведения о конфигурации, не связанные с PrintCapabilities
 
@@ -17,7 +17,7 @@ ms.locfileid: "105674564"
 
 Помимо предоставления выбора для атрибутов устройств, определенных в PrintCapabilities, PrintTicket позволяет добавлять дополнительные сведения клиентами в форме элементов свойств. Схема печати определяет ряд стандартных экземпляров свойств, и поставщик интерфейса может также освобождать экземпляры закрытых свойств. Например, если члены Организации отправляют большую часть своих заданий печати в центральное средство пакетной обработки, они могут указать для каждого задания экземпляр закрытого свойства, который содержит обратный адрес. Это свойство может упростить доставку завершенного задания в инициатор.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

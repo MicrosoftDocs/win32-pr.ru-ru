@@ -1,17 +1,17 @@
 ---
 title: Краткое руководство по Direct2D для Windows 8
-description: Содержит сводку действий, необходимых для рисования с помощью Direct2D, а также пример кода.
+description: В этой статье кратко описаны шаги, необходимые для рисования с помощью Direct2D для Windows 8 и приведен пример кода. Direct2D — это API машинного кода для создания двухмерной графики.
 ms.assetid: FF4623FA-CA60-4637-9EE6-34C4EC84E51A
 keywords:
 - Direct2D, пример кода рисования прямоугольника
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28e5cfbbf4e63e129a43bec783a64203e20e30a0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 43442e57ed0949bdf39fc05ce1a69fded42b4b3d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105654325"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406147"
 ---
 # <a name="direct2d-quickstart-for-windows-8"></a>Краткое руководство по Direct2D для Windows 8
 
@@ -240,10 +240,10 @@ DX::ThrowIfFailed(
 
 Метод повторной отправки [**идксгисвапчаин::P**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present) перемещает поверхность буфера на экран на поверхности экрана для отображения результата.
 
-## <a name="example-code"></a>пример кода
+## <a name="example-code"></a>Пример кода
 
 В коде этого раздела показаны основные элементы приложения Direct2D. Для краткости в разделе опущена платформа приложений и код обработки ошибок, который является характеристикой хорошо написанного приложения.
 
- 
+ 
 
- 
+ 

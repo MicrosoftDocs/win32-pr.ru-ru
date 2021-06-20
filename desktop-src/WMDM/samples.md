@@ -1,6 +1,6 @@
 ---
 title: Примеры ВМДМ
-description: Примеры
+description: Узнайте, как скомпилировать и запустить эти примеры в Windows Media диспетчер устройств SDK, а также о том, как работают образцы.
 ms.assetid: 5e58ba53-3c3c-4492-8b87-7e50d10e655f
 keywords:
 - Диспетчер устройств Windows Media, примеры
@@ -11,12 +11,12 @@ keywords:
 - Примеры, поставщики услуг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4c5a2a346ba4e165dacf11bb8fee9d9d604c0c8
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: cf3ba0d7b91736940efe6b9f85e9f6043a721be1
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104412271"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406497"
 ---
 # <a name="wmdm-samples"></a>Примеры ВМДМ
 
@@ -27,16 +27,16 @@ ms.locfileid: "104412271"
 -   [Пример классического приложения](sample-desktop-application.md)
 -   [Образец поставщика услуг](sample-service-provider.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**начало работы**](getting-started.md)
+[**Начало работы**](getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

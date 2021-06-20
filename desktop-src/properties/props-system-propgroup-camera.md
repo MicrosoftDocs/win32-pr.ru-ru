@@ -1,15 +1,15 @@
 ---
-description: Разделитель групп свойств, используемый в списках свойств для разделения звуковых файлов от других типов. Не используйте это свойство для получения или задания значений. Он предназначен только в качестве маркера.
+description: Прочитайте о свойстве System. Пропграуп. Camera. Не используйте это свойство для получения или задания значений. Он предназначен только в качестве маркера.
 ms.assetid: 8354e1d1-9c8e-43d8-972f-b7c5c22bbc98
 title: System. Пропграуп. Camera
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f61b85d50b16715ee17189331a08d49ba07f852
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b65790c926098947403b8cf9a9af3736eee264b3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813393"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403777"
 ---
 # <a name="systempropgroupcamera"></a>System. Пропграуп. Camera
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

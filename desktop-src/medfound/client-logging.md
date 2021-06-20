@@ -1,15 +1,15 @@
 ---
-description: Ведение журнала клиента
+description: Дополнительные сведения о ведении журнала клиента для Microsoft Media Foundation. Ведение журнала позволяет серверу мультимедиа отвести наблюдение за активностью клиентов, подключающихся к нему.
 ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: Ведение журнала клиента (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb3cb03c8026e91acd567358e7004211b7fdde4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d994531ff16466054ca0645a35082a4845e4aa4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262817"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409937"
 ---
 # <a name="client-logging-microsoft-media-foundation"></a>Ведение журнала клиента (Microsoft Media Foundation)
 
@@ -63,7 +63,7 @@ Media Foundation позволяет клиенту настроить сетев
 </tr>
 <tr class="odd">
 <td>c-хостексе</td>
-<td>Для записей журнала проигрывателя — запущенной программы хоста (. exe). Например, веб-страница в браузере, приложение Microsoft Visual Basic или автономный проигрыватель. Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> .<br/> Клиент отправляет эти сведения на сервер в конце соединения.<br/> Примеры значений:<br/>
+<td>Для записей журнала проигрывателя — выполняемая управляющая программа (.exe). Например, веб-страница в браузере, приложение Microsoft Visual Basic или автономный проигрыватель. Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> .<br/> Клиент отправляет эти сведения на сервер в конце соединения.<br/> Примеры значений:<br/>
 <ul>
 <li>&quot;iexplore.exe&quot;</li>
 <li>&quot;myplayer.exe&quot;</li>
@@ -71,7 +71,7 @@ Media Foundation позволяет клиенту настроить сетев
 </tr>
 <tr class="even">
 <td>c-хостексевер</td>
-<td>Номер версии основной программы (. exe). Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> .<br/> Клиент отправляет эти сведения на сервер в конце соединения.<br/></td>
+<td>Номер версии основной программы (.exe). Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> .<br/> Клиент отправляет эти сведения на сервер в конце соединения.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -194,7 +194,7 @@ HRESULT GetPacketsReceived(IMFMediaSession *pSession, DWORD *pcPackets)
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

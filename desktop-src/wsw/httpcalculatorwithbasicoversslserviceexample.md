@@ -1,6 +1,6 @@
 ---
 title: хттпкалкулаторвисбасиковерсслсервицеексампле
-description: В этом примере показано, как использовать узел службы для размещения службы калькулятора по протоколу HTTP с безопасностью транспорта SSL и обычной проверкой подлинности заголовка HTTP.
+description: Ознакомьтесь с примером калькулятора HTTP в API веб-служб Windows (ВВСАПИ) с базовой службой с более высокой SSL-шифрованием.
 ms.assetid: ff56afec-da8c-4a2c-b26e-a065f9b73db1
 keywords:
 - Хттпкалкулаторвисбасиковерсслсервицеексампле Native-Web-Services
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18517b52bf0a623877dc2d04b28daa177f1a9e81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0490c8409ea8a08c990bad49472303dd4ae58c93
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710169"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404157"
 ---
 # <a name="httpcalculatorwithbasicoversslserviceexample"></a>хттпкалкулаторвисбасиковерсслсервицеексампле
 
@@ -407,9 +407,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения о общей схеме PrintCapabilities, которая охватывает структуру, назначение и использование различных типов элементов.
 ms.assetid: 2f6c51a3-003c-4d68-9e4d-9be5d325a477
 title: Подключение PrintCapabilities к схеме печати
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17d2f5a34421dba2402bce1d6699f208fd58c799
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 661a8eb93c6f788381713c0c6620e8a09a53648f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105674571"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409647"
 ---
 # <a name="connecting-printcapabilities-with-the-print-schema"></a>Подключение PrintCapabilities к схеме печати
 
@@ -57,7 +57,7 @@ ms.locfileid: "105674571"
 
 В документе о ключевых словах «Печать схемы» некоторые экземпляры обозначаются как обязательные. Эти экземпляры должны присутствовать в каждом документе PrintCapabilities и должны быть правильно инициализированы с допустимыми значениями. Все экземпляры в ключевых словах схемы Print, которые не предназначены как обязательные, являются необязательными.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

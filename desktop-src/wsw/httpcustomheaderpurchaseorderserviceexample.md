@@ -1,6 +1,6 @@
 ---
 title: хттпкустомхеадерпурчасеордерсервицеексампле
-description: В этом примере показано, как использовать узел службы для размещения службы PurchaseOrder по протоколу HTTP.
+description: Ознакомьтесь с примером использования API веб-служб Windows (ВВСАПИ) C++ в качестве примера службы заказов на покупку через пользовательские заголовки HTTP.
 ms.assetid: 7a86e0be-6e52-4ad2-bca4-0162a8030cdc
 keywords:
 - Хттпкустомхеадерпурчасеордерсервицеексампле Native-Web-Services
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 022fa8fa7ddd128fa86f8b1bcb49119bfa369953
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 93c412b0106a9343695b4a96cd01e54df7ea654d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411098"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404127"
 ---
 # <a name="httpcustomheaderpurchaseorderserviceexample"></a>хттпкустомхеадерпурчасеордерсервицеексампле
 
@@ -545,9 +545,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

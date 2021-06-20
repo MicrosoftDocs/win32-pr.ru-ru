@@ -1,15 +1,15 @@
 ---
-description: Математическая библиотека, предоставляемая библиотекой служебной программы D3DX, предоставляет функции для вычисления трехмерных математических операций.
+description: Сведения о математической библиотеке, предоставляемой библиотекой служебной программы D3DX в графике Direct3D 10. Библиотека предоставляет функции для вычислений трехмерных математических операций.
 ms.assetid: 6e180c12-8cbe-4013-8bb4-3ac5bb9c65f1
 title: Математические функции (графика Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5401299b1aafd5663d8aaefefa4c7fa0da88a89
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 85b47aec382f8b21d8769722afab51cb69a7452e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896314"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408047"
 ---
 # <a name="math-functions-direct3d-10-graphics"></a>Математические функции (графика Direct3D 10)
 
@@ -132,7 +132,7 @@ ms.locfileid: "103896314"
 
 Чтобы устранить возможные ошибки связи, в примерах SDK для DX сначала должна быть ссылка на библиотеки D3DX9 (D3DX9d. lib и D3DX9. lib), а затем библиотеки D3DX10 (D3DX10d. lib и D3DX10. lib). Эти параметры находятся в разделе проект или свойства, если используется Visual Studio.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

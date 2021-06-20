@@ -1,15 +1,15 @@
 ---
-description: Разделитель групп свойств, используемый в списках свойств для разделения звуковых файлов от других типов. Не используйте это свойство для получения или задания значений. Он предназначен только в качестве маркера.
+description: Прочитайте о свойстве System. Пропграуп. Calendar. Не используйте это свойство для получения или задания значений. Он предназначен только в качестве маркера.
 ms.assetid: 88873d45-2f9b-477b-87d4-ea269afb42ae
 title: System. Пропграуп. Calendar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d2427cdd5bb6d411d0e7212d2809ba34da06bbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bef2b32609b52a4a621193bb5d8a417967718d3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272334"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404897"
 ---
 # <a name="systempropgroupcalendar"></a>System. Пропграуп. Calendar
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

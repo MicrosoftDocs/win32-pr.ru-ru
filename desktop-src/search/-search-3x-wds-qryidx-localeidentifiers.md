@@ -1,15 +1,15 @@
 ---
-description: Идентификаторы инпутлокале и кэйвордлокале помогают поисковой подсистеме использовать правильные средства разбиения по словам, определяя язык запросов, вводимых пользователем, и язык ключевых слов расширенных синтаксисов запросов.
+description: Изучите аргументы инпутлокале и кэйвордлокале в Windows Search, которые помогают поисковой системе использовать правильные средства разбиения по словам.
 ms.assetid: dc610f49-5106-47f9-b29b-84949dd2c42b
 title: Аргументы идентификатора локали (Поиск Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cea1549a550e4bf6b8099241a6f3d2275860a983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe4c56e9c3fb5a84938d4779c7a3ebeb849b0787
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896949"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403757"
 ---
 # <a name="locale-identifier-arguments-windows-search"></a>Аргументы идентификатора локали (Поиск Windows)
 
@@ -18,7 +18,7 @@ ms.locfileid: "103896949"
 Этот раздел организован следующим образом:
 
 -   [Пример](#example)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example"></a>Пример
 
@@ -29,7 +29,7 @@ ms.locfileid: "103896949"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе Пажеблаккженератионпроцессингграйкомпонентреплацементлевел, который указывает процент замены серого компонента.
 ms.assetid: e33634bb-5db5-4197-889d-82caf2e74191
 title: пажеблаккженератионпроцессингграйкомпонентреплацементлевел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 553919bf9fab43cb1281f625eb518937b5c8b805
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 8499c8521b974d01657c171a99e86e738c82b4e5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994531"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408487"
 ---
 # <a name="pageblackgenerationprocessinggraycomponentreplacementlevel"></a>пажеблаккженератионпроцессингграйкомпонентреплацементлевел
 

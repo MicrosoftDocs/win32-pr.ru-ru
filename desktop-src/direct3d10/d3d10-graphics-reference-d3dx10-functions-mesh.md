@@ -1,15 +1,15 @@
 ---
-description: D3DX предоставляет следующие функции сетки.
+description: Сведения о функциях сетки в D3DX. D3DX предоставляет несколько функций сетки, таких как D3DX10CreateMesh и D3DX10CreateSkinInfo.
 ms.assetid: 751f5ba8-be12-4ed7-9d26-638a01cf6c45
 title: Функции сетки (графика Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86629a013c372b82715251269055852968572510
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ea5728d48531c2c47197c51191c22b8887517e63
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141195"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407627"
 ---
 # <a name="mesh-functions-direct3d-10-graphics"></a>Функции сетки (графика Direct3D 10)
 
@@ -23,7 +23,7 @@ D3DX предоставляет следующие функции сетки.
 -   [**D3DXIntersectTri**](d3d10-d3dxintersecttri.md)
 -   [**D3DXSphereBoundProbe**](d3d10-d3dxsphereboundprobe.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

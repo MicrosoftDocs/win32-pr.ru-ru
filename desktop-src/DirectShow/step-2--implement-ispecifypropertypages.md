@@ -1,15 +1,15 @@
 ---
-description: Шаг 2.
+description: Реализуйте интерфейс ИспеЦифипропертипажес в фильтре в рамках создания страницы свойств фильтра для настраиваемого фильтра DirectShow.
 ms.assetid: 8be83564-07ad-47cf-9538-73136f42ba79
 title: Шаг 2. Реализация ИспеЦифипропертипажес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3125230c8e28c6bd6b8593839d7175bb43d39674
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe37a22c6ba9c14f8656ac41294360569316be1a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683990"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410057"
 ---
 # <a name="step-2-implement-ispecifypropertypages"></a>Шаг 2. Реализация ИспеЦифипропертипажес
 
@@ -58,7 +58,7 @@ public:
 
 Далее. [Шаг 3. Поддержка QueryInterface](step-3--support-queryinterface.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

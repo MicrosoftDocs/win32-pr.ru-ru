@@ -1,6 +1,6 @@
 ---
 title: Структуры ВМДМ
-description: Структуры
+description: Эта статья содержит справочные статьи о структурах, определенных диспетчер устройств Windows Media, таких как _BITMAPINFOHEADER и MTP_COMMAND_DATA_IN.
 ms.assetid: 3068359f-5ac0-41e0-a09b-283b439527a0
 keywords:
 - Диспетчер устройств Windows Media, структуры
@@ -9,12 +9,12 @@ keywords:
 - Справочник по диспетчер устройств Windows Media, структурам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 903aa07bbe3d01029eb2020b521523b545843f2a
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 7cc49deb3f4dd28695f5e0e7c3a871c53fa96300
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104412265"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406507"
 ---
 # <a name="wmdm-structures"></a>Структуры ВМДМ
 
@@ -43,18 +43,18 @@ ms.locfileid: "104412265"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

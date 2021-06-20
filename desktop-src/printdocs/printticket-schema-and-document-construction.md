@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения о формате PrintTicket, который выражает сведения о конфигурации с помощью платформы схемы печати на основе XML.
 ms.assetid: 573c2c82-aeb9-4ef2-8a1b-40b4db6ac6e4
 title: Создание схемы и построения документов PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffe386638a7f119c52982f1911d602691455343f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 5998aeb534bbbeb16681a4136cf33425a7eefad7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104273339"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405437"
 ---
 # <a name="printticket-schema-and-document-construction"></a>Создание схемы и построения документов PrintTicket
 
@@ -31,7 +31,7 @@ ms.locfileid: "104273339"
 
 Схемы PrintTicket и PrintCapabilities являются специализированными частями схемы печати. Основные структурные различия между этими подмножествами схемы печати заключается в том, что схема PrintTicket содержит свойства и экземпляры Параметеринит, которые не содержатся в схеме PrintCapabilities, а схема PrintCapabilities включает свойства и экземпляры Параметердеф, которые не содержатся в схеме PrintTicket. За исключением этих различий, схемы PrintCapabilities и PrintTicket обычно отражают друг друга в содержимом, совместном использовании компонентов, параметрах, Скоредпроперти и экземплярах значений. Все такое общее содержимое должно поддерживаться в актуальном состоянии. Например, если в схеме PrintCapabilities вносится изменение в функцию Медиасизе, то в схеме PrintTicket должны быть внесены те же изменения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Этот пример приложения использует основные API аудио для отображения звуковых данных на устройстве вывода, указанном пользователем.
+description: Этот пример приложения, демонстрирующий буферизацию, управляемую событиями, использует основные API аудио для отображения звуковых данных на устройстве вывода, указанном пользователем.
 ms.assetid: 3a2e3fa6-2d6a-4ab0-a531-d1c968458e96
 title: рендерексклусививентдривен
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d3b94fa423cd4d4e7dc7121e927696529bfadf9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 75553496219d0a4ddaf6685089de802e034f94cb
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072470"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405137"
 ---
 # <a name="renderexclusiveeventdriven"></a>рендерексклусививентдривен
 
@@ -22,7 +22,7 @@ ms.locfileid: "104072470"
 -   [Загрузка образца](#downloading-the-sample)
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="description"></a>Описание
 
@@ -106,7 +106,7 @@ ms.locfileid: "104072470"
 
 Дополнительные сведения о визуализации потока см. в разделе [Визуализация потока](rendering-a-stream.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

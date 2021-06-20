@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Потребители документов PrintCapabilities имеют определенные обязательства, которые они должны правилами, прежде чем они смогут использовать документ PrintCapabilities.
 ms.assetid: 2377763b-9b3b-49ec-ab6c-476b8009ddcb
 title: Обязанности потребителей документа PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b74cfc1885ecc5599365bc6eadcef30ef4c4ae3
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: ec123509515de32b88c7352dcf0fc2c2b54504ff
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105713323"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404947"
 ---
 # <a name="responsibilities-of-consumers-of-the-printcapabilities-document"></a>Обязанности потребителей документа PrintCapabilities
 
@@ -31,7 +31,7 @@ ms.locfileid: "105713323"
 
 -   Потребители PrintCapabilities, которые являются клиентами ПОЛЬЗОВАТЕЛЬСКОГО интерфейса, должны иметь возможность использовать информацию в документе PrintCapabilities для создания пользовательского интерфейса и создания допустимого PrintTicket из выбора пользователя. Сюда входит знание того, какие экземпляры Параметеринит должны быть указаны, и проверка указанных экземпляров.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

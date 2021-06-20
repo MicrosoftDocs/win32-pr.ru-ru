@@ -1,6 +1,6 @@
 ---
 title: Регистр счетчиков циклов (Справочник по HLSL PS)
-description: Единственный регистр в этом банке — регистрация текущего цикла (aL).
+description: Ознакомьтесь с регистром счетчиков циклов для шейдеров пикселей. Единственный регистр в этом банке — регистрация текущего цикла (aL).
 ms.assetid: 36999873-a251-4939-aac0-faa7f910bc33
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 47582552b7e32ede7cd83637cbc3900494dfd611
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: b2a2f7f42c83308fa72ceae2875c35c600dfd7db
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103785076"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405517"
 ---
 # <a name="loop-counter-register-hlsl-ps-reference"></a>Регистр счетчиков циклов (Справочник по HLSL PS)
 
@@ -28,18 +28,18 @@ ms.locfileid: "103785076"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистры](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

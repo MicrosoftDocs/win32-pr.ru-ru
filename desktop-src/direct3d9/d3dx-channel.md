@@ -1,15 +1,15 @@
 ---
-description: Узнайте о флагах, которые используются для указания каналов, на которых будет выполняться текстура, например D3DX \_ Channel \_ Red.
+description: Узнайте о флагах D3DX_CHANNEL, которые используются для указания каналов, на которых будет выполняться текстура, например D3DX_CHANNEL_RED.
 ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
 title: D3DX_CHANNEL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97f2725644295ac85d892799033cdac1d8f83416
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: d1fa9d5df75011e62034d814549202f14fe7cdba
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342909"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408257"
 ---
 # <a name="d3dx_channel"></a>\_Канал D3DX
 

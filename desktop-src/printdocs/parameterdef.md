@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе Параметердеф, который определяет допустимые характеристики входных параметров. Значение вводится с помощью элемента Параметеринит.
 ms.assetid: cb00edc9-2c8a-446d-989b-a4429ee8f544
 title: параметердеф
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 697d8ff89f9aa3c9c95bea9995e18e521a17596c
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2682e3da11f471401e95e3f6515de5e18b6be895
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105693910"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407297"
 ---
 # <a name="parameterdef"></a>параметердеф
 
@@ -119,7 +119,7 @@ ms.locfileid: "105693910"
 </psf:ParameterDef>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

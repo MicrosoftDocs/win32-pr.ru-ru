@@ -1,15 +1,15 @@
 ---
-description: Создание файлов ASF в DirectShow
+description: Дополнительные сведения о создании файлов ASF в DirectShow. ASF — это формат контейнера, который может содержать данные любого типа.
 ms.assetid: dffda43a-5831-4889-864f-81351b9e2bb3
 title: Создание файлов ASF в DirectShow (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11f5c9ebac0b14b736c47599ee25a1c1c28dd8f0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d4614ed813c2e9f51c77cd8773739188aa5d4d07
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105662055"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403968"
 ---
 # <a name="creating-asf-files-in-directshow-directshow"></a>Создание файлов ASF в DirectShow (DirectShow)
 
@@ -23,7 +23,7 @@ ms.locfileid: "105662055"
 -   [Настройка профилей и других свойств ASF-файлов](configuring-profiles-and-other-asf-file-properties.md)
 -   [Разблокировка пакета SDK Windows Media Format](unlocking-the-windows-media-format-sdk.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

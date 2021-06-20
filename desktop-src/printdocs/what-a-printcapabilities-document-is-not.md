@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Узнайте о некоторых функциональных возможностях и сведениях, которые не должны предоставляться в документе PrintCapabilities.
 ms.assetid: 87a897cd-d3aa-488a-b129-9837d3500d0d
 title: Что такое документ PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd6e18082a5e551f3997dad8b9688d84ff2f824a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 8bcd5dbedf6ee3a7e2713bd3591b182c606cfb0c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105703513"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409897"
 ---
 # <a name="what-a-printcapabilities-document-is-not"></a>Что такое документ PrintCapabilities
 
@@ -31,7 +31,7 @@ ms.locfileid: "105703513"
 
     При формировании документа PrintCapabilities для хранения быстро изменяющихся сведений о состоянии, таких как уровни рукописного ввода, оставшийся объем бумаги в каждом лотке или состояние застревания бумаги, возникает слишком много ресурсов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

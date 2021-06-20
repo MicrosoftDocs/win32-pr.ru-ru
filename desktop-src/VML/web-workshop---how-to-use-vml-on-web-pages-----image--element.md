@@ -1,6 +1,6 @@
 ---
 title: Использование элемента Image
-description: В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+description: В этой статье описывается использование элемента Image в VML — функции, которая является устаревшей в Windows Internet Explorer 9.
 ms.assetid: 444c0b21-35f0-4e2d-ab6d-87a88229d9d2
 keywords:
 - Веб-семинар, элемент Image
@@ -46,12 +46,12 @@ keywords:
 - атрибут свойства гаммы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 820039ff76f3685eeea7a65e2bbc01578abbe581
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 572acef76afc42e02f476ca1825ef2541f596380
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533434"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407807"
 ---
 # <a name="using-the-image-element"></a>Использование элемента Image
 
@@ -60,7 +60,7 @@ ms.locfileid: "104533434"
 > [!Note]  
 > По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Использование `<image>`
 
@@ -207,6 +207,6 @@ grayscale=true />
 
 Дополнительные сведения об этом элементе см. в [спецификации VML](https://www.w3.org/TR/NOTE-VML#-toc416858408) .
 
- 
+ 
 
- 
+ 

@@ -1,15 +1,15 @@
 ---
-description: Шаг 4.
+description: Реализуйте страницу свойств как часть создания страницы свойств фильтра для настраиваемого фильтра DirectShow.
 ms.assetid: ed71f26b-0812-4be8-96a4-b9f5dde45540
 title: Шаг 4. Создание страницы свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52e8ea1a22e30c57c66b263a62afc1e0cf801903
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d32cd9eacc98af5f273897a3837390ab5cc75f7a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104273127"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406857"
 ---
 # <a name="step-4-create-the-property-page"></a>Шаг 4. Создание страницы свойств
 
@@ -58,7 +58,7 @@ CGrayProp::CGrayProp(IUnknown *pUnk) :
 
 Далее. [Шаг 5. Сохранить указатель на фильтр](step-5--store-a-pointer-to-the-filter.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

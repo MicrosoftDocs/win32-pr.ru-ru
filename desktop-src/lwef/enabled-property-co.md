@@ -1,15 +1,15 @@
 ---
 title: Свойство Enabled (объект Command)
-description: Свойство Enabled
+description: Сведения о свойстве объекта команды Enabled. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: d9dcbdf0-ba35-4ebd-b6f2-f3c8bdfc0431
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5999e396f61fbcc820bc1cec7deb0c603eb948e4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1dc0c65d5cfa0438fe9d61eac0c59e916731e057
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105691731"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407337"
 ---
 # <a name="enabled-property-command-object"></a>Свойство Enabled (объект Command)
 
@@ -31,9 +31,9 @@ ms.locfileid: "105691731"
 
 
 
-| Отделение      | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Часть      | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *boolean* | Логическое выражение, указывающее, включена ли **команда** .<br/> <dl> <dt><span id="True"></span><span id="true"></span><span id="TRUE"></span>**True**</dt> <dd> **Команда** включена.<br/> </dd> <dt><span id="False"></span><span id="false"></span><span id="FALSE"></span>**Неверно**</dt> <dd> **Команда** отключена.<br/> </dd> </dl> |
+| *boolean* | Логическое выражение, указывающее, включена ли **команда** .<br/> <dl> <dt><span id="True"></span><span id="true"></span><span id="TRUE"></span>**True**</dt> <dd> **Команда** включена.<br/> </dd> <dt><span id="False"></span><span id="false"></span><span id="FALSE"></span>**IsFalse**</dt> <dd> **Команда** отключена.<br/> </dd> </dl> |
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "105691731"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если свойство [**Enabled**](enabled-property.md) имеет значение **true**, то в всплывающем меню символа заголовок объекта [**команды**](/windows/desktop/lwef/the-command-object) отображается как нормальный текст, если клиентское приложение является входным. Если свойство **Enabled** имеет **значение false**, заголовок отображается как недоступный (отключенный) текст. Отключенная **команда** также недоступна для речевого ввода.
 

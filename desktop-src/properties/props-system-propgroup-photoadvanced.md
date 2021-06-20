@@ -1,15 +1,15 @@
 ---
-description: Разделитель групп свойств, используемый в списках свойств для разделения звуковых файлов от других типов. Не используйте это свойство для получения или задания значений. Он предназначен только в качестве маркера.
+description: Прочитайте о свойстве System. Пропграуп. «Advanced». Не используйте это свойство для получения или задания значений. Он предназначен только в качестве маркера.
 ms.assetid: ae4024d2-ffb8-46a3-a35b-08f9c9dfab8c
 title: System. Пропграуп. «профессионал»
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d8c9b7113fba3a2413f18b2306028679438cb7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50dd122f709fc1b9337922277e45a9995a65830b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264905"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403767"
 ---
 # <a name="systempropgroupphotoadvanced"></a>System. Пропграуп. «профессионал»
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

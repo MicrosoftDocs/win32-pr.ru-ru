@@ -1,6 +1,6 @@
 ---
 title: Перечисление групп, содержащих много элементов
-description: Члены группы хранятся в атрибуте с несколькими значениями, называемом Member.
+description: Дополнительные сведения о перечислении групп Azure Active Directory, содержащих много элементов, с помощью добавочного извлечения данных (извлечение диапазона).
 ms.assetid: 78f81b09-2223-4b74-b8d5-7a97494c0324
 ms.tgt_platform: multiple
 keywords:
@@ -8,12 +8,12 @@ keywords:
 - группы Active Directory, перечисление групп с множеством членов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe2d9a5c9abc6e77ac72672379789d1028f92c3f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a7cab63b809fdbd2666f39a09d32f601346da00e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104133687"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405157"
 ---
 # <a name="enumerating-groups-that-contain-many-members"></a>Перечисление групп, содержащих много элементов
 
@@ -28,16 +28,16 @@ ms.locfileid: "104133687"
 | Версия операционной системы сервера | Максимальное число полученных значений |
 |---------------------------------|--------------------------|
 | Windows 2000                    | 1000                     |
-| Windows Server 2003.             | 1500                     |
+| Windows Server 2003             | 1500                     |
 
 
 
- 
+ 
 
 Дополнительные сведения о получении диапазонов значений атрибутов с помощью ADSI см. в разделе [получение диапазона атрибутов](/windows/desktop/ADSI/attribute-range-retrieval).
 
 Дополнительные сведения о получении диапазонов значений атрибутов с помощью [System. DirectoryServices](/dotnet/api/system.directoryservices)см. [в разделе перечисление элементов в большой группе](https://msdn.microsoft.com/library/ms180907(v=VS.80).aspx).
 
- 
+ 
 
- 
+ 

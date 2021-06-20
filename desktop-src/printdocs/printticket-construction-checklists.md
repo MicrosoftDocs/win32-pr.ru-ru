@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Узнайте, как автор клиента PrintTicket может использовать типы элементов для создания PrintTicket, который описывает цель для устройства.
 ms.assetid: ed53d1a8-d302-4855-9858-0f37dfbbd1d3
 title: Контрольные списки для создания PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e742bcd3b94c5016fda6f97e2fb5e20a2cf70f73
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: f76d47911d0060cc6d06604bfaeaa4abcebd3daa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105693892"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405477"
 ---
 # <a name="printticket-construction-checklists"></a>Контрольные списки для создания PrintTicket
 
@@ -27,7 +27,7 @@ ms.locfileid: "105693892"
 
     Если вы больше заинтересованы в использовании всех функций, предлагаемых определенным устройством, можно воспользоваться этим подходом, создав PrintTicket для конкретного устройства и сохранив проверенный PrintTicket в документе.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

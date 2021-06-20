@@ -1,5 +1,5 @@
 ---
-description: Аргумент Where поддерживает полные инструкции расширенного синтаксиса запросов (АКС) и особенно полезен в качестве средства управления областью поиска.
+description: Узнайте, как использовать аргумент в пользовательском интерфейсе оболочки Windows в качестве средства управления областью поиска.
 title: Аргумент с поэлементным обозначением (оболочка Windows)
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7d38fff38c14a6b537bde068b92e19cedf53d5d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 543bc90647bbe1daed1a3a6d1f7bc54a4713a8ed
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985760"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403607"
 ---
 # <a name="crumb-argument-the-windows-shell"></a>Аргумент с поэлементным обозначением (оболочка Windows)
 
@@ -186,9 +186,9 @@ crumb=location:shell%3a<LocationName>&
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| Минимальная операционная система | Windows Vista с пакетом обновления 1 (SP1) |
+|                              | Значение                                   |
+|------------------------------|-----------------------------------------|
+| **Минимальная операционная система** | Windows Vista с пакетом обновления 1 (SP1) |
 
 
 

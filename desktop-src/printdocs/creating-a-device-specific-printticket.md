@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Узнайте, как создать объект PrintTicket, относящийся к конкретному устройству, предназначенный для конкретного устройства и переносимый на несколько устройств.
 ms.assetid: 487f294f-dfe0-48f8-9077-06c55c3af8f1
 title: Создание Device-Specific PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d31644f25f231f7121e2e492bc3f41a81b82d0b4
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 497b825bd875ada534c8c467cd18d90f2db9a2a7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105703529"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409553"
 ---
 # <a name="creating-a-device-specific-printticket"></a>Создание Device-Specific PrintTicket
 
@@ -52,7 +52,7 @@ PrintTicket, относящийся к конкретному устройств
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

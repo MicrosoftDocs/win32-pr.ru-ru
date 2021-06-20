@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе Жобури, который указывает универсальный код ресурса (URI) для документа.
 ms.assetid: c7abb657-6c9d-435a-a700-2eb0f14707c0
 title: жобури
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3c80611a4e7dbd10f4841fae098578f0a8fdc96
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: ecc145ac9a393c09ecab762b84e9ac7d58870ddf
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993891"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408617"
 ---
 # <a name="joburi"></a>жобури
 
@@ -52,7 +52,7 @@ XML-структура этого элемента выглядит следую
 
 
 
-| Имя                       | Тип данных         | Unit | Поддерживаемые значения | Сводка |
+| Имя                       | Тип данных         | Unit | Поддерживаемые значения | Итоги |
 |----------------------------|-------------------|------|------------------|---------|
 | \_жобуривалуе\_<br/> | строка<br/> |      |                  |         |
 
