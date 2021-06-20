@@ -1,6 +1,6 @@
 ---
 title: Изменение пользователя не может изменить пароль (поставщик WinNT)
-description: Возможность изменения собственного пароля пользователем — это разрешение, которое может быть предоставлено или запрещено.
+description: Узнайте, как запретить пользователю изменять пароль для поставщика WinNT. Возможность пользователя изменять свой собственный пароль может быть предоставлена или запрещена.
 ms.assetid: 071a817b-087e-49ee-af1a-6f190493cac0
 ms.tgt_platform: multiple
 keywords:
@@ -9,20 +9,20 @@ keywords:
 - WinNT Provider ADSI, примеры управления пользователями, пользователь не может изменять пароль, изменять
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e14e9bac51bae2edf4b9f6f571f20c75563a4d03
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 33510fa36285fa49a413b84d91e29f8d5a367622
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772938"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408097"
 ---
-# <a name="modifying-user-cannot-change-password-winnt-provider"></a><span data-ttu-id="9362d-106">Изменение пользователя не может изменить пароль (поставщик WinNT)</span><span class="sxs-lookup"><span data-stu-id="9362d-106">Modifying User Cannot Change Password (WinNT Provider)</span></span>
+# <a name="modifying-user-cannot-change-password-winnt-provider"></a><span data-ttu-id="52aa4-107">Изменение пользователя не может изменить пароль (поставщик WinNT)</span><span class="sxs-lookup"><span data-stu-id="52aa4-107">Modifying User Cannot Change Password (WinNT Provider)</span></span>
 
-<span data-ttu-id="9362d-107">Возможность изменения собственного пароля пользователем — это разрешение, которое может быть предоставлено или запрещено.</span><span class="sxs-lookup"><span data-stu-id="9362d-107">The ability of a user to change their own password is a permission that can be granted or denied.</span></span> <span data-ttu-id="9362d-108">Чтобы запретить это разрешение, добавьте к свойству **усерфлагс** объекта пользователя флаг **ADS \_ УФ \_ PASSWD не \_ удается \_ изменить** .</span><span class="sxs-lookup"><span data-stu-id="9362d-108">To deny this permission, add the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag to the **userFlags** property of the user object.</span></span> <span data-ttu-id="9362d-109">Чтобы предоставить это разрешение, удалите флаг **ADS \_ УФ \_ PASSWD не \_ удается \_ изменить** из свойства **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="9362d-109">To grant this permission, remove the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag from the **userFlags** property of the user object.</span></span>
+<span data-ttu-id="52aa4-108">Возможность изменения собственного пароля пользователем — это разрешение, которое может быть предоставлено или запрещено.</span><span class="sxs-lookup"><span data-stu-id="52aa4-108">The ability of a user to change their own password is a permission that can be granted or denied.</span></span> <span data-ttu-id="52aa4-109">Чтобы запретить это разрешение, добавьте к свойству **усерфлагс** объекта пользователя флаг **ADS \_ УФ \_ PASSWD не \_ удается \_ изменить** .</span><span class="sxs-lookup"><span data-stu-id="52aa4-109">To deny this permission, add the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag to the **userFlags** property of the user object.</span></span> <span data-ttu-id="52aa4-110">Чтобы предоставить это разрешение, удалите флаг **ADS \_ УФ \_ PASSWD не \_ удается \_ изменить** из свойства **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="52aa4-110">To grant this permission, remove the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag from the **userFlags** property of the user object.</span></span>
 
-## <a name="example-code"></a><span data-ttu-id="9362d-110">Пример кода</span><span class="sxs-lookup"><span data-stu-id="9362d-110">Example Code</span></span>
+## <a name="example-code"></a><span data-ttu-id="52aa4-111">Пример кода</span><span class="sxs-lookup"><span data-stu-id="52aa4-111">Example Code</span></span>
 
-<span data-ttu-id="9362d-111">В следующем примере кода показано, как изменить флаг **ADS \_ УФ \_ PASSWD \_ \_ изменить** свойство **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="9362d-111">The following code example shows how to change the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
+<span data-ttu-id="52aa4-112">В следующем примере кода показано, как изменить флаг **ADS \_ УФ \_ PASSWD \_ \_ изменить** свойство **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="52aa4-112">The following code example shows how to change the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
 
 
 ```VB
@@ -62,7 +62,7 @@ End Sub
 
 
 
-<span data-ttu-id="9362d-112">В следующем примере кода показано, как изменить флаг **ADS \_ УФ \_ PASSWD \_ \_ изменить** свойство **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="9362d-112">The following code example shows how to change the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
+<span data-ttu-id="52aa4-113">В следующем примере кода показано, как изменить флаг **ADS \_ УФ \_ PASSWD \_ \_ изменить** свойство **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="52aa4-113">The following code example shows how to change the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
 
 
 ```C++
@@ -130,9 +130,9 @@ HRESULT SetUserCannotChangePassword(LPCWSTR pwszDomain,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

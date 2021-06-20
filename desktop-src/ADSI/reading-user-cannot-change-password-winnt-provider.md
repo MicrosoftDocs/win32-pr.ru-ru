@@ -1,6 +1,6 @@
 ---
 title: Чтение пользователя не может изменить пароль (поставщик WinNT)
-description: Возможность изменения собственного пароля пользователем — это разрешение, которое может быть предоставлено или запрещено.
+description: Узнайте, как определить, имеет ли пользователь разрешение на изменение пароля для поставщика WinNT. Возможность пользователя изменять пароль может быть предоставлена или запрещена.
 ms.assetid: b8b8de00-0def-4506-ab73-d03a7e06256d
 ms.tgt_platform: multiple
 keywords:
@@ -9,20 +9,20 @@ keywords:
 - WinNT Provider ADSI, примеры управления пользователями, пользователь не может изменить пароль, чтение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab257f620d3e103866639f8ecacb57cc924efec4
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: dd075bfb6700779b60f9e578a4e89957487a2646
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "103987239"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405917"
 ---
-# <a name="reading-user-cannot-change-password-winnt-provider"></a><span data-ttu-id="68dd9-106">Чтение пользователя не может изменить пароль (поставщик WinNT)</span><span class="sxs-lookup"><span data-stu-id="68dd9-106">Reading User Cannot Change Password (WinNT Provider)</span></span>
+# <a name="reading-user-cannot-change-password-winnt-provider"></a><span data-ttu-id="da8e9-107">Чтение пользователя не может изменить пароль (поставщик WinNT)</span><span class="sxs-lookup"><span data-stu-id="da8e9-107">Reading User Cannot Change Password (WinNT Provider)</span></span>
 
-<span data-ttu-id="68dd9-107">Возможность изменения собственного пароля пользователем — это разрешение, которое может быть предоставлено или запрещено.</span><span class="sxs-lookup"><span data-stu-id="68dd9-107">The ability of a user to change their own password is a permission that can be granted or denied.</span></span> <span data-ttu-id="68dd9-108">Чтобы определить, предоставлено ли пользователю это разрешение у поставщика WinNT, прочтите **ADS \_ УФ PASSWD не \_ \_ удается \_ изменить** значение свойства **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="68dd9-108">To determine if the user has been granted this permission with the WinNT provider, read the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of the user object.</span></span> <span data-ttu-id="68dd9-109">Флаг **ADS \_ УФ \_ PASSWD не может \_ \_ измениться** в перечислении [**\_ \_ \_ enum флага пользователя ADS**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum) .</span><span class="sxs-lookup"><span data-stu-id="68dd9-109">The **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag is defined in the [**ADS\_USER\_FLAG\_ENUM**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum) enumeration.</span></span>
+<span data-ttu-id="da8e9-108">Возможность изменения собственного пароля пользователем — это разрешение, которое может быть предоставлено или запрещено.</span><span class="sxs-lookup"><span data-stu-id="da8e9-108">The ability of a user to change their own password is a permission that can be granted or denied.</span></span> <span data-ttu-id="da8e9-109">Чтобы определить, предоставлено ли пользователю это разрешение у поставщика WinNT, прочтите **ADS \_ УФ PASSWD не \_ \_ удается \_ изменить** значение свойства **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="da8e9-109">To determine if the user has been granted this permission with the WinNT provider, read the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of the user object.</span></span> <span data-ttu-id="da8e9-110">Флаг **ADS \_ УФ \_ PASSWD не может \_ \_ измениться** в перечислении [**\_ \_ \_ enum флага пользователя ADS**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum) .</span><span class="sxs-lookup"><span data-stu-id="da8e9-110">The **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag is defined in the [**ADS\_USER\_FLAG\_ENUM**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum) enumeration.</span></span>
 
-## <a name="example-code"></a><span data-ttu-id="68dd9-110">Пример кода</span><span class="sxs-lookup"><span data-stu-id="68dd9-110">Example Code</span></span>
+## <a name="example-code"></a><span data-ttu-id="da8e9-111">Пример кода</span><span class="sxs-lookup"><span data-stu-id="da8e9-111">Example Code</span></span>
 
-<span data-ttu-id="68dd9-111">В следующем примере кода показано, как получить флаг **ADS \_ УФ \_ PASSWD \_ не \_ изменять** свойство **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="68dd9-111">The following code example shows how to obtain the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
+<span data-ttu-id="da8e9-112">В следующем примере кода показано, как получить флаг **ADS \_ УФ \_ PASSWD \_ не \_ изменять** свойство **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="da8e9-112">The following code example shows how to obtain the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
 
 
 ```VB
@@ -56,7 +56,7 @@ End Function
 
 
 
-<span data-ttu-id="68dd9-112">В следующем примере кода показано, как получить флаг **ADS \_ УФ \_ PASSWD \_ не \_ изменять** свойство **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="68dd9-112">The following code example shows how to obtain the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
+<span data-ttu-id="da8e9-113">В следующем примере кода показано, как получить флаг **ADS \_ УФ \_ PASSWD \_ не \_ изменять** свойство **усерфлагс** объекта пользователя.</span><span class="sxs-lookup"><span data-stu-id="da8e9-113">The following code example shows how to obtain the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
 
 
 ```C++
@@ -120,9 +120,9 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszDomain,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,21 +1,21 @@
 ---
-description: Шаг 3.
+description: Предоставление клиентам новых интерфейсов фильтра в рамках создания страницы свойств фильтра для настраиваемого фильтра DirectShow.
 ms.assetid: a0e52ba9-9f7c-4cf3-ba5f-b0035ed1794c
 title: Шаг 3. Поддержка QueryInterface
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0e3d44b67971e165b8586aa3a02cc65ab3ab05f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84b62132a6f24c68453ad4e51f72cdd9a2a78c65
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684286"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410027"
 ---
-# <a name="step-3-support-queryinterface"></a><span data-ttu-id="02375-104">Шаг 3.</span><span class="sxs-lookup"><span data-stu-id="02375-104">Step 3.</span></span> <span data-ttu-id="02375-105">Поддержка QueryInterface</span><span class="sxs-lookup"><span data-stu-id="02375-105">Support QueryInterface</span></span>
+# <a name="step-3-support-queryinterface"></a><span data-ttu-id="8d049-104">Шаг 3.</span><span class="sxs-lookup"><span data-stu-id="8d049-104">Step 3.</span></span> <span data-ttu-id="8d049-105">Поддержка QueryInterface</span><span class="sxs-lookup"><span data-stu-id="8d049-105">Support QueryInterface</span></span>
 
-<span data-ttu-id="02375-106">Чтобы предоставить клиентам доступ к новым интерфейсам фильтра, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="02375-106">To expose the filter's new interfaces to clients, do the following:</span></span>
+<span data-ttu-id="8d049-106">Чтобы предоставить клиентам доступ к новым интерфейсам фильтра, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="8d049-106">To expose the filter's new interfaces to clients, do the following:</span></span>
 
--   <span data-ttu-id="02375-107">Включите макрос [**Declare \_ IUnknown**](declare-iunknown.md) в раздел объявления Public фильтра:</span><span class="sxs-lookup"><span data-stu-id="02375-107">Include the [**DECLARE\_IUNKNOWN**](declare-iunknown.md) macro in the public declaration section of your filter:</span></span>
+-   <span data-ttu-id="8d049-107">Включите макрос [**Declare \_ IUnknown**](declare-iunknown.md) в раздел объявления Public фильтра:</span><span class="sxs-lookup"><span data-stu-id="8d049-107">Include the [**DECLARE\_IUNKNOWN**](declare-iunknown.md) macro in the public declaration section of your filter:</span></span>
     ```C++
     public:
         DECLARE_IUNKNOWN;
@@ -23,7 +23,7 @@ ms.locfileid: "105684286"
 
     
 
--   <span data-ttu-id="02375-108">Переопределите [**кункновн:: нонделегатингкуеринтерфаце**](cunknown-nondelegatingqueryinterface.md) , чтобы проверить наличие идентификаторов IID двух интерфейсов:</span><span class="sxs-lookup"><span data-stu-id="02375-108">Override [**CUnknown::NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) to check for the IIDs of the two interfaces:</span></span>
+-   <span data-ttu-id="8d049-108">Переопределите [**кункновн:: нонделегатингкуеринтерфаце**](cunknown-nondelegatingqueryinterface.md) , чтобы проверить наличие идентификаторов IID двух интерфейсов:</span><span class="sxs-lookup"><span data-stu-id="8d049-108">Override [**CUnknown::NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) to check for the IIDs of the two interfaces:</span></span>
     ```C++
     STDMETHODIMP CGrayFilter::NonDelegatingQueryInterface(REFIID riid, void **ppv)
     {
@@ -51,16 +51,16 @@ ms.locfileid: "105684286"
 
     
 
-<span data-ttu-id="02375-109">Далее. [Шаг 4. Создайте страницу свойств](step-4--create-the-property-page.md).</span><span class="sxs-lookup"><span data-stu-id="02375-109">Next: [Step 4. Create the Property Page](step-4--create-the-property-page.md).</span></span>
+<span data-ttu-id="8d049-109">Далее. [Шаг 4. Создайте страницу свойств](step-4--create-the-property-page.md).</span><span class="sxs-lookup"><span data-stu-id="8d049-109">Next: [Step 4. Create the Property Page](step-4--create-the-property-page.md).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="02375-110">См. также</span><span class="sxs-lookup"><span data-stu-id="02375-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8d049-110">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="8d049-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="02375-111">Создание страницы свойств фильтра</span><span class="sxs-lookup"><span data-stu-id="02375-111">Creating a Filter Property Page</span></span>](creating-a-filter-property-page.md)
+[<span data-ttu-id="8d049-111">Создание страницы свойств фильтра</span><span class="sxs-lookup"><span data-stu-id="8d049-111">Creating a Filter Property Page</span></span>](creating-a-filter-property-page.md)
 </dt> <dt>
 
-[<span data-ttu-id="02375-112">Реализация IUnknown</span><span class="sxs-lookup"><span data-stu-id="02375-112">How to Implement IUnknown</span></span>](how-to-implement-iunknown.md)
+[<span data-ttu-id="8d049-112">Реализация IUnknown</span><span class="sxs-lookup"><span data-stu-id="8d049-112">How to Implement IUnknown</span></span>](how-to-implement-iunknown.md)
 </dt> </dl>
 
  

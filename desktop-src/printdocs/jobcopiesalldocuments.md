@@ -1,42 +1,42 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе Жобкопиесаллдокументс, который указывает количество копий задания.
 ms.assetid: 584a71cd-fc32-485e-a627-27be95c377a9
 title: жобкопиесаллдокументс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e8e606095462dc3a2eee1391121bf663de3655c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 05166715a5985c5ddee33fa6808d0fb6b150774b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998371"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409037"
 ---
-# <a name="jobcopiesalldocuments"></a><span data-ttu-id="af467-104">жобкопиесаллдокументс</span><span class="sxs-lookup"><span data-stu-id="af467-104">JobCopiesAllDocuments</span></span>
+# <a name="jobcopiesalldocuments"></a><span data-ttu-id="19d74-103">жобкопиесаллдокументс</span><span class="sxs-lookup"><span data-stu-id="19d74-103">JobCopiesAllDocuments</span></span>
 
-<span data-ttu-id="af467-105">Этот раздел не является актуальным.</span><span class="sxs-lookup"><span data-stu-id="af467-105">This topic is not current.</span></span> <span data-ttu-id="af467-106">Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="af467-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="19d74-104">Этот раздел не является актуальным.</span><span class="sxs-lookup"><span data-stu-id="19d74-104">This topic is not current.</span></span> <span data-ttu-id="19d74-105">Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="19d74-105">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="af467-107">Указывает количество копий задания.</span><span class="sxs-lookup"><span data-stu-id="af467-107">Specifies the number of copies of a job.</span></span>
+<span data-ttu-id="19d74-106">Указывает количество копий задания.</span><span class="sxs-lookup"><span data-stu-id="19d74-106">Specifies the number of copies of a job.</span></span>
 
--   [<span data-ttu-id="af467-108">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="af467-108">Element Information</span></span>](#element-information)
--   [<span data-ttu-id="af467-109">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="af467-109">Structure Content</span></span>](#structure-content)
+-   [<span data-ttu-id="19d74-107">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="19d74-107">Element Information</span></span>](#element-information)
+-   [<span data-ttu-id="19d74-108">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="19d74-108">Structure Content</span></span>](#structure-content)
 
-## <a name="element-information"></a><span data-ttu-id="af467-110">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="af467-110">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="19d74-109">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="19d74-109">Element Information</span></span>
 
 
 
-| <span data-ttu-id="af467-111">Имя</span><span class="sxs-lookup"><span data-stu-id="af467-111">Name</span></span> | <span data-ttu-id="af467-112">Значение</span><span class="sxs-lookup"><span data-stu-id="af467-112">Value</span></span> |
+| <span data-ttu-id="19d74-110">Имя</span><span class="sxs-lookup"><span data-stu-id="19d74-110">Name</span></span> | <span data-ttu-id="19d74-111">Значение</span><span class="sxs-lookup"><span data-stu-id="19d74-111">Value</span></span> |
 |----------------------------|-------------------------|
-| <span data-ttu-id="af467-113">Тип элемента</span><span class="sxs-lookup"><span data-stu-id="af467-113">Element Type</span></span> <br/>   | <span data-ttu-id="af467-114">параметердеф</span><span class="sxs-lookup"><span data-stu-id="af467-114">ParameterDef</span></span><br/> |
-| <span data-ttu-id="af467-115">Префикс области</span><span class="sxs-lookup"><span data-stu-id="af467-115">Scoping Prefix</span></span> <br/> | <span data-ttu-id="af467-116">Задание</span><span class="sxs-lookup"><span data-stu-id="af467-116">Job</span></span><br/>          |
-| <span data-ttu-id="af467-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="af467-117">Notes</span></span> <br/>          | <span data-ttu-id="af467-118">Нет</span><span class="sxs-lookup"><span data-stu-id="af467-118">None</span></span><br/>         |
+| <span data-ttu-id="19d74-112">Тип элемента</span><span class="sxs-lookup"><span data-stu-id="19d74-112">Element Type</span></span> <br/>   | <span data-ttu-id="19d74-113">параметердеф</span><span class="sxs-lookup"><span data-stu-id="19d74-113">ParameterDef</span></span><br/> |
+| <span data-ttu-id="19d74-114">Префикс области</span><span class="sxs-lookup"><span data-stu-id="19d74-114">Scoping Prefix</span></span> <br/> | <span data-ttu-id="19d74-115">Задание</span><span class="sxs-lookup"><span data-stu-id="19d74-115">Job</span></span><br/>          |
+| <span data-ttu-id="19d74-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="19d74-116">Notes</span></span> <br/>          | <span data-ttu-id="19d74-117">Нет</span><span class="sxs-lookup"><span data-stu-id="19d74-117">None</span></span><br/>         |
 
 
 
  
 
-## <a name="structure-content"></a><span data-ttu-id="af467-119">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="af467-119">Structure Content</span></span>
+## <a name="structure-content"></a><span data-ttu-id="19d74-118">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="19d74-118">Structure Content</span></span>
 
-<span data-ttu-id="af467-120">XML-структура этого элемента:</span><span class="sxs-lookup"><span data-stu-id="af467-120">The XML structure of this element is:</span></span>
+<span data-ttu-id="19d74-119">XML-структура этого элемента:</span><span class="sxs-lookup"><span data-stu-id="19d74-119">The XML structure of this element is:</span></span>
 
 ``` syntax
 <psf:ParameterDef name="psk:JobCopiesAllDocuments">
@@ -65,31 +65,31 @@ ms.locfileid: "107998371"
       
 ```
 
-## <a name="structure-properties"></a><span data-ttu-id="af467-121">Свойства структуры</span><span class="sxs-lookup"><span data-stu-id="af467-121">Structure Properties</span></span>
+## <a name="structure-properties"></a><span data-ttu-id="19d74-120">Свойства структуры</span><span class="sxs-lookup"><span data-stu-id="19d74-120">Structure Properties</span></span>
 
-<span data-ttu-id="af467-122">В следующей таблице описаны характеристики переменных, определенных в структуре XML.</span><span class="sxs-lookup"><span data-stu-id="af467-122">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
+<span data-ttu-id="19d74-121">В следующей таблице описаны характеристики переменных, определенных в структуре XML.</span><span class="sxs-lookup"><span data-stu-id="19d74-121">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
 
 
 
-| <span data-ttu-id="af467-123">Свойство</span><span class="sxs-lookup"><span data-stu-id="af467-123">Property</span></span>                | <span data-ttu-id="af467-124">xsi:type</span><span class="sxs-lookup"><span data-stu-id="af467-124">xsi:type</span></span>           | <span data-ttu-id="af467-125">Значение</span><span class="sxs-lookup"><span data-stu-id="af467-125">Value</span></span>                        |
+| <span data-ttu-id="19d74-122">Свойство</span><span class="sxs-lookup"><span data-stu-id="19d74-122">Property</span></span>                | <span data-ttu-id="19d74-123">xsi:type</span><span class="sxs-lookup"><span data-stu-id="19d74-123">xsi:type</span></span>           | <span data-ttu-id="19d74-124">Значение</span><span class="sxs-lookup"><span data-stu-id="19d74-124">Value</span></span>                        |
 |-------------------------|--------------------|------------------------------|
-| <span data-ttu-id="af467-126">DataType</span><span class="sxs-lookup"><span data-stu-id="af467-126">DataType</span></span><br/>     | <span data-ttu-id="af467-127">строка</span><span class="sxs-lookup"><span data-stu-id="af467-127">string</span></span><br/>  | <span data-ttu-id="af467-128">xs:integer</span><span class="sxs-lookup"><span data-stu-id="af467-128">xs:integer</span></span><br/>        |
-| <span data-ttu-id="af467-129">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="af467-129">DefaultValue</span></span><br/> | <span data-ttu-id="af467-130">целое число</span><span class="sxs-lookup"><span data-stu-id="af467-130">integer</span></span><br/> | <span data-ttu-id="af467-131">1</span><span class="sxs-lookup"><span data-stu-id="af467-131">1</span></span><br/>                 |
-| <span data-ttu-id="af467-132">MaxValue</span><span class="sxs-lookup"><span data-stu-id="af467-132">MaxValue</span></span><br/>     | <span data-ttu-id="af467-133">Целое число</span><span class="sxs-lookup"><span data-stu-id="af467-133">integer</span></span><br/> | <span data-ttu-id="af467-134">неопределенный</span><span class="sxs-lookup"><span data-stu-id="af467-134">undefined</span></span><br/>         |
-| <span data-ttu-id="af467-135">MinValue</span><span class="sxs-lookup"><span data-stu-id="af467-135">MinValue</span></span><br/>     | <span data-ttu-id="af467-136">целое число</span><span class="sxs-lookup"><span data-stu-id="af467-136">integer</span></span><br/> | <span data-ttu-id="af467-137">1</span><span class="sxs-lookup"><span data-stu-id="af467-137">1</span></span><br/>                 |
-| <span data-ttu-id="af467-138">Обязательный</span><span class="sxs-lookup"><span data-stu-id="af467-138">Mandatory</span></span><br/>    | <span data-ttu-id="af467-139">строка</span><span class="sxs-lookup"><span data-stu-id="af467-139">string</span></span><br/>  | <span data-ttu-id="af467-140">PSK: безусловное</span><span class="sxs-lookup"><span data-stu-id="af467-140">psk:Unconditional</span></span><br/> |
-| <span data-ttu-id="af467-141">Несколько</span><span class="sxs-lookup"><span data-stu-id="af467-141">Multiple</span></span><br/>     | <span data-ttu-id="af467-142">целое число</span><span class="sxs-lookup"><span data-stu-id="af467-142">integer</span></span><br/> | <span data-ttu-id="af467-143">1</span><span class="sxs-lookup"><span data-stu-id="af467-143">1</span></span><br/>                 |
-| <span data-ttu-id="af467-144">Единицах UnitType</span><span class="sxs-lookup"><span data-stu-id="af467-144">UnitType</span></span><br/>     | <span data-ttu-id="af467-145">строка</span><span class="sxs-lookup"><span data-stu-id="af467-145">string</span></span><br/>  | <span data-ttu-id="af467-146">Копи</span><span class="sxs-lookup"><span data-stu-id="af467-146">copies</span></span><br/>            |
+| <span data-ttu-id="19d74-125">DataType</span><span class="sxs-lookup"><span data-stu-id="19d74-125">DataType</span></span><br/>     | <span data-ttu-id="19d74-126">строка</span><span class="sxs-lookup"><span data-stu-id="19d74-126">string</span></span><br/>  | <span data-ttu-id="19d74-127">xs:integer</span><span class="sxs-lookup"><span data-stu-id="19d74-127">xs:integer</span></span><br/>        |
+| <span data-ttu-id="19d74-128">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="19d74-128">DefaultValue</span></span><br/> | <span data-ttu-id="19d74-129">целое число</span><span class="sxs-lookup"><span data-stu-id="19d74-129">integer</span></span><br/> | <span data-ttu-id="19d74-130">1</span><span class="sxs-lookup"><span data-stu-id="19d74-130">1</span></span><br/>                 |
+| <span data-ttu-id="19d74-131">MaxValue</span><span class="sxs-lookup"><span data-stu-id="19d74-131">MaxValue</span></span><br/>     | <span data-ttu-id="19d74-132">Целое число</span><span class="sxs-lookup"><span data-stu-id="19d74-132">integer</span></span><br/> | <span data-ttu-id="19d74-133">неопределенный</span><span class="sxs-lookup"><span data-stu-id="19d74-133">undefined</span></span><br/>         |
+| <span data-ttu-id="19d74-134">MinValue</span><span class="sxs-lookup"><span data-stu-id="19d74-134">MinValue</span></span><br/>     | <span data-ttu-id="19d74-135">целое число</span><span class="sxs-lookup"><span data-stu-id="19d74-135">integer</span></span><br/> | <span data-ttu-id="19d74-136">1</span><span class="sxs-lookup"><span data-stu-id="19d74-136">1</span></span><br/>                 |
+| <span data-ttu-id="19d74-137">Обязательный</span><span class="sxs-lookup"><span data-stu-id="19d74-137">Mandatory</span></span><br/>    | <span data-ttu-id="19d74-138">строка</span><span class="sxs-lookup"><span data-stu-id="19d74-138">string</span></span><br/>  | <span data-ttu-id="19d74-139">PSK: безусловное</span><span class="sxs-lookup"><span data-stu-id="19d74-139">psk:Unconditional</span></span><br/> |
+| <span data-ttu-id="19d74-140">Несколько</span><span class="sxs-lookup"><span data-stu-id="19d74-140">Multiple</span></span><br/>     | <span data-ttu-id="19d74-141">целое число</span><span class="sxs-lookup"><span data-stu-id="19d74-141">integer</span></span><br/> | <span data-ttu-id="19d74-142">1</span><span class="sxs-lookup"><span data-stu-id="19d74-142">1</span></span><br/>                 |
+| <span data-ttu-id="19d74-143">Единицах UnitType</span><span class="sxs-lookup"><span data-stu-id="19d74-143">UnitType</span></span><br/>     | <span data-ttu-id="19d74-144">строка</span><span class="sxs-lookup"><span data-stu-id="19d74-144">string</span></span><br/>  | <span data-ttu-id="19d74-145">Копи</span><span class="sxs-lookup"><span data-stu-id="19d74-145">copies</span></span><br/>            |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="af467-147">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="af467-147">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="19d74-146">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="19d74-146">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="af467-148">Печать спецификации схемы</span><span class="sxs-lookup"><span data-stu-id="af467-148">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="19d74-147">Печать спецификации схемы</span><span class="sxs-lookup"><span data-stu-id="19d74-147">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  
