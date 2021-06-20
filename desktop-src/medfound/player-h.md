@@ -1,19 +1,19 @@
 ---
-description: В этом разделе содержится код руководства по воспроизведению мультимедийных файлов с помощью Media Foundation.
+description: В этой статье содержится код для файла Player. h, содержащий руководство по воспроизведению мультимедийных файлов с помощью Media Foundation.
 ms.assetid: c3f05482-138c-4d95-9b76-a9715227961f
 title: Player. h
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb04c0d99d2d83843fac8988050e17bf8ebe5efe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38c9d1c564edefb1683705d9ef8c4f009b061a7c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543839"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404597"
 ---
-# <a name="playerh"></a><span data-ttu-id="b2294-103">Player. h</span><span class="sxs-lookup"><span data-stu-id="b2294-103">player.h</span></span>
+# <a name="playerh"></a><span data-ttu-id="bfc0f-103">Player. h</span><span class="sxs-lookup"><span data-stu-id="bfc0f-103">player.h</span></span>
 
-<span data-ttu-id="b2294-104">В этом разделе содержится код руководства по [воспроизведению мультимедийных файлов с помощью Media Foundation](how-to-play-unprotected-media-files.md).</span><span class="sxs-lookup"><span data-stu-id="b2294-104">This topic contains code for the tutorial [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md).</span></span>
+<span data-ttu-id="bfc0f-104">В этом разделе содержится код руководства по [воспроизведению мультимедийных файлов с помощью Media Foundation](how-to-play-unprotected-media-files.md).</span><span class="sxs-lookup"><span data-stu-id="bfc0f-104">This topic contains code for the tutorial [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md).</span></span>
 
 
 ```C++
@@ -141,14 +141,14 @@ protected:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="b2294-105">См. также</span><span class="sxs-lookup"><span data-stu-id="b2294-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="bfc0f-105">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="bfc0f-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b2294-106">Пример воспроизведения сеанса мультимедиа</span><span class="sxs-lookup"><span data-stu-id="b2294-106">Media Session Playback Example</span></span>](media-session-playback-example.md)
+[<span data-ttu-id="bfc0f-106">Пример воспроизведения сеанса мультимедиа</span><span class="sxs-lookup"><span data-stu-id="bfc0f-106">Media Session Playback Example</span></span>](media-session-playback-example.md)
 </dt> <dt>
 
-[<span data-ttu-id="b2294-107">Воспроизведение звука/видео</span><span class="sxs-lookup"><span data-stu-id="b2294-107">Audio/Video Playback</span></span>](audio-video-playback.md)
+[<span data-ttu-id="bfc0f-107">Воспроизведение звука/видео</span><span class="sxs-lookup"><span data-stu-id="bfc0f-107">Audio/Video Playback</span></span>](audio-video-playback.md)
 </dt> </dl>
 
  

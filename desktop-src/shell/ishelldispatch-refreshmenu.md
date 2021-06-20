@@ -1,5 +1,5 @@
 ---
-description: Обновляет содержимое меню "Пуск". Используется только с системами, предшествующими Windows XP.
+description: Сведения о методе Ишеллдиспатч. Рефрешмену, который обновляет содержимое меню "Пуск". Используется только с системами, предшествующими Windows XP.
 ms.assetid: D36FA5A0-AF03-4627-86E0-869BF1440958
 title: Ишеллдиспатч. Рефрешмену, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 98728ef48ffb9ef4383cf9ba567606758b7a015c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9e1a3c326cfa79c7b754cc8a364e649cf2c9931
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984708"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404677"
 ---
-# <a name="ishelldispatchrefreshmenu-method"></a><span data-ttu-id="a6722-104">Ишеллдиспатч. Рефрешмену, метод</span><span class="sxs-lookup"><span data-stu-id="a6722-104">IShellDispatch.RefreshMenu method</span></span>
+# <a name="ishelldispatchrefreshmenu-method"></a><span data-ttu-id="87503-104">Ишеллдиспатч. Рефрешмену, метод</span><span class="sxs-lookup"><span data-stu-id="87503-104">IShellDispatch.RefreshMenu method</span></span>
 
-<span data-ttu-id="a6722-105">Обновляет содержимое меню " **Пуск** ".</span><span class="sxs-lookup"><span data-stu-id="a6722-105">Refreshes the contents of the **Start** menu.</span></span> <span data-ttu-id="a6722-106">Используется только с системами, предшествующими Windows XP.</span><span class="sxs-lookup"><span data-stu-id="a6722-106">Used only with systems preceding Windows XP.</span></span>
+<span data-ttu-id="87503-105">Обновляет содержимое меню " **Пуск** ".</span><span class="sxs-lookup"><span data-stu-id="87503-105">Refreshes the contents of the **Start** menu.</span></span> <span data-ttu-id="87503-106">Используется только с системами, предшествующими Windows XP.</span><span class="sxs-lookup"><span data-stu-id="87503-106">Used only with systems preceding Windows XP.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a6722-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a6722-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="87503-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="87503-107">Syntax</span></span>
 
 
 ```JScript
@@ -41,31 +41,31 @@ IShellDispatch.RefreshMenu()
 
 
 
-## <a name="parameters"></a><span data-ttu-id="a6722-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="a6722-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="87503-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="87503-108">Parameters</span></span>
 
-<span data-ttu-id="a6722-109">Этот метод не имеет параметров.</span><span class="sxs-lookup"><span data-stu-id="a6722-109">This method has no parameters.</span></span>
+<span data-ttu-id="87503-109">Этот метод не имеет параметров.</span><span class="sxs-lookup"><span data-stu-id="87503-109">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="a6722-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="a6722-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="87503-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="87503-110">Return value</span></span>
 
-### <a name="jscript"></a><span data-ttu-id="a6722-111">Язык JScript</span><span class="sxs-lookup"><span data-stu-id="a6722-111">JScript</span></span>
+### <a name="jscript"></a><span data-ttu-id="87503-111">Язык JScript</span><span class="sxs-lookup"><span data-stu-id="87503-111">JScript</span></span>
 
-<span data-ttu-id="a6722-112">Этот метод не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="a6722-112">This method does not return a value.</span></span>
+<span data-ttu-id="87503-112">Этот метод не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="87503-112">This method does not return a value.</span></span>
 
-### <a name="vb"></a><span data-ttu-id="a6722-113">VB</span><span class="sxs-lookup"><span data-stu-id="a6722-113">VB</span></span>
+### <a name="vb"></a><span data-ttu-id="87503-113">VB</span><span class="sxs-lookup"><span data-stu-id="87503-113">VB</span></span>
 
-<span data-ttu-id="a6722-114">Этот метод не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="a6722-114">This method does not return a value.</span></span>
+<span data-ttu-id="87503-114">Этот метод не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="87503-114">This method does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a6722-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="a6722-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="87503-115">Remarks</span><span class="sxs-lookup"><span data-stu-id="87503-115">Remarks</span></span>
 
-<span data-ttu-id="a6722-116">Этот метод реализован и доступен через метод [**Shell. трайпропертиес**](shell-trayproperties.md) .</span><span class="sxs-lookup"><span data-stu-id="a6722-116">This method is implemented and accessed through the [**Shell.TrayProperties**](shell-trayproperties.md) method.</span></span>
+<span data-ttu-id="87503-116">Этот метод реализован и доступен через метод [**Shell. трайпропертиес**](shell-trayproperties.md) .</span><span class="sxs-lookup"><span data-stu-id="87503-116">This method is implemented and accessed through the [**Shell.TrayProperties**](shell-trayproperties.md) method.</span></span>
 
-<span data-ttu-id="a6722-117">Функциональные возможности, предоставляемые **рефрешмену** , автоматически обрабатываются в Windows XP или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="a6722-117">The functionality that **RefreshMenu** provides is handled automatically under Windows XP or later.</span></span> <span data-ttu-id="a6722-118">Не вызывайте этот метод в Windows XP или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="a6722-118">Do not call this method on Windows XP or later.</span></span>
+<span data-ttu-id="87503-117">Функциональные возможности, предоставляемые **рефрешмену** , автоматически обрабатываются в Windows XP или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="87503-117">The functionality that **RefreshMenu** provides is handled automatically under Windows XP or later.</span></span> <span data-ttu-id="87503-118">Не вызывайте этот метод в Windows XP или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="87503-118">Do not call this method on Windows XP or later.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="a6722-119">Примеры</span><span class="sxs-lookup"><span data-stu-id="a6722-119">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="87503-119">Примеры</span><span class="sxs-lookup"><span data-stu-id="87503-119">Examples</span></span>
 
-<span data-ttu-id="a6722-120">В следующих примерах показано использование **рефрешмену** в JScript, VBScript и Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="a6722-120">The following examples show the use of **RefreshMenu** in JScript, VBScript, and Visual Basic.</span></span>
+<span data-ttu-id="87503-120">В следующих примерах показано использование **рефрешмену** в JScript, VBScript и Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="87503-120">The following examples show the use of **RefreshMenu** in JScript, VBScript, and Visual Basic.</span></span>
 
-<span data-ttu-id="a6722-121">Присутствовал</span><span class="sxs-lookup"><span data-stu-id="a6722-121">JScript:</span></span>
+<span data-ttu-id="87503-121">Присутствовал</span><span class="sxs-lookup"><span data-stu-id="87503-121">JScript:</span></span>
 
 
 ```JScript
@@ -81,7 +81,7 @@ IShellDispatch.RefreshMenu()
 
 
 
-<span data-ttu-id="a6722-122">Сценариев</span><span class="sxs-lookup"><span data-stu-id="a6722-122">VBScript:</span></span>
+<span data-ttu-id="87503-122">Сценариев</span><span class="sxs-lookup"><span data-stu-id="87503-122">VBScript:</span></span>
 
 
 ```VB
@@ -99,7 +99,7 @@ IShellDispatch.RefreshMenu()
 
 
 
-<span data-ttu-id="a6722-123">Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="a6722-123">Visual Basic:</span></span>
+<span data-ttu-id="87503-123">Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="87503-123">Visual Basic:</span></span>
 
 
 ```VB
@@ -115,17 +115,17 @@ End Sub
 
 
 
-## <a name="requirements"></a><span data-ttu-id="a6722-124">Требования</span><span class="sxs-lookup"><span data-stu-id="a6722-124">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="87503-124">Требования</span><span class="sxs-lookup"><span data-stu-id="87503-124">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a6722-125">Требование</span><span class="sxs-lookup"><span data-stu-id="a6722-125">Requirement</span></span> | <span data-ttu-id="a6722-126">Значение</span><span class="sxs-lookup"><span data-stu-id="a6722-126">Value</span></span> |
+| <span data-ttu-id="87503-125">Требование</span><span class="sxs-lookup"><span data-stu-id="87503-125">Requirement</span></span> | <span data-ttu-id="87503-126">Значение</span><span class="sxs-lookup"><span data-stu-id="87503-126">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="a6722-127">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="a6722-127">Minimum supported client</span></span><br/> | <span data-ttu-id="a6722-128">Windows 2000 Professional, только для \[ классических приложений Windows XP\]</span><span class="sxs-lookup"><span data-stu-id="a6722-128">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                         |
-| <span data-ttu-id="a6722-129">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="a6722-129">Minimum supported server</span></span><br/> | <span data-ttu-id="a6722-130">Windows 2000 Server \[только классические приложения\]</span><span class="sxs-lookup"><span data-stu-id="a6722-130">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="a6722-131">Заголовок</span><span class="sxs-lookup"><span data-stu-id="a6722-131">Header</span></span><br/>                   | <dl> <span data-ttu-id="a6722-132"><dt>Шлдисп. h</dt></span><span class="sxs-lookup"><span data-stu-id="a6722-132"><dt>Shldisp.h</dt></span></span> </dl>                           |
-| <span data-ttu-id="a6722-133">IDL</span><span class="sxs-lookup"><span data-stu-id="a6722-133">IDL</span></span><br/>                      | <dl> <span data-ttu-id="a6722-134"><dt>Шлдисп. idl</dt></span><span class="sxs-lookup"><span data-stu-id="a6722-134"><dt>Shldisp.idl</dt></span></span> </dl>                         |
-| <span data-ttu-id="a6722-135">DLL</span><span class="sxs-lookup"><span data-stu-id="a6722-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="a6722-136"><dt>Shell32.dll (версия 4,71 или более поздняя)</dt></span><span class="sxs-lookup"><span data-stu-id="a6722-136"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="87503-127">Минимальная версия клиента</span><span class="sxs-lookup"><span data-stu-id="87503-127">Minimum supported client</span></span><br/> | <span data-ttu-id="87503-128">Windows 2000 Professional, только для \[ классических приложений Windows XP\]</span><span class="sxs-lookup"><span data-stu-id="87503-128">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                         |
+| <span data-ttu-id="87503-129">Минимальная версия сервера</span><span class="sxs-lookup"><span data-stu-id="87503-129">Minimum supported server</span></span><br/> | <span data-ttu-id="87503-130">Windows 2000 Server \[только классические приложения\]</span><span class="sxs-lookup"><span data-stu-id="87503-130">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="87503-131">Заголовок</span><span class="sxs-lookup"><span data-stu-id="87503-131">Header</span></span><br/>                   | <dl> <span data-ttu-id="87503-132"><dt>Шлдисп. h</dt></span><span class="sxs-lookup"><span data-stu-id="87503-132"><dt>Shldisp.h</dt></span></span> </dl>                           |
+| <span data-ttu-id="87503-133">IDL</span><span class="sxs-lookup"><span data-stu-id="87503-133">IDL</span></span><br/>                      | <dl> <span data-ttu-id="87503-134"><dt>Шлдисп. idl</dt></span><span class="sxs-lookup"><span data-stu-id="87503-134"><dt>Shldisp.idl</dt></span></span> </dl>                         |
+| <span data-ttu-id="87503-135">DLL</span><span class="sxs-lookup"><span data-stu-id="87503-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="87503-136"><dt>Shell32.dll (версия 4,71 или более поздняя)</dt></span><span class="sxs-lookup"><span data-stu-id="87503-136"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
 
 
 
