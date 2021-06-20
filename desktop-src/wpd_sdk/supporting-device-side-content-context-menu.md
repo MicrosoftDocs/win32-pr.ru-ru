@@ -1,21 +1,21 @@
 ---
 title: Поддержка содержимого на стороне устройства WPD (ContextMenu)
-description: Поддержка содержимого Device-Side
+description: Узнайте, как использовать API оболочки Windows или API-интерфейс WPD для получения данных для объектов устройств WPD, недоступных в файловой системе Windows Vista.
 ms.assetid: 47fb7f49-9026-43c1-be46-8a520c048862
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b5e7029a6a772a5706eaf80270cc87ea83ab76b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 626c92633b1aa215c0e826a4b720de0375aa6048
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719646"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404287"
 ---
-# <a name="supporting-wpd-device-side-content"></a><span data-ttu-id="06384-103">Поддержка содержимого на стороне устройства WPD</span><span class="sxs-lookup"><span data-stu-id="06384-103">Supporting WPD device-side content</span></span>
+# <a name="supporting-wpd-device-side-content"></a><span data-ttu-id="9286a-103">Поддержка содержимого на стороне устройства WPD</span><span class="sxs-lookup"><span data-stu-id="9286a-103">Supporting WPD device-side content</span></span>
 
-<span data-ttu-id="06384-104">Поскольку содержимое на стороне устройства недоступно в файловой системе Windows Vista, для получения данных об объектах устройств необходимо использовать API оболочки Windows или API-интерфейс WPD.</span><span class="sxs-lookup"><span data-stu-id="06384-104">Because device-side content is not accessible through the file system in Windows Vista, you'll need to use either the Windows Shell API or the WPD API to retrieve data for device objects.</span></span> <span data-ttu-id="06384-105">Это основное различие между обычным обработчиком контекстного меню и обработчиком контекстного меню WPD.</span><span class="sxs-lookup"><span data-stu-id="06384-105">This is the primary difference between a normal context menu handler and a WPD context menu handler.</span></span> <span data-ttu-id="06384-106">В следующем примере кода демонстрируется получение содержимого на стороне устройства с помощью API оболочки Windows.</span><span class="sxs-lookup"><span data-stu-id="06384-106">The following sample code demonstrates the retrieval of device-side content using the Windows Shell API.</span></span>
+<span data-ttu-id="9286a-104">Поскольку содержимое на стороне устройства недоступно в файловой системе Windows Vista, для получения данных об объектах устройств необходимо использовать API оболочки Windows или API-интерфейс WPD.</span><span class="sxs-lookup"><span data-stu-id="9286a-104">Because device-side content is not accessible through the file system in Windows Vista, you'll need to use either the Windows Shell API or the WPD API to retrieve data for device objects.</span></span> <span data-ttu-id="9286a-105">Это основное различие между обычным обработчиком контекстного меню и обработчиком контекстного меню WPD.</span><span class="sxs-lookup"><span data-stu-id="9286a-105">This is the primary difference between a normal context menu handler and a WPD context menu handler.</span></span> <span data-ttu-id="9286a-106">В следующем примере кода демонстрируется получение содержимого на стороне устройства с помощью API оболочки Windows.</span><span class="sxs-lookup"><span data-stu-id="9286a-106">The following sample code demonstrates the retrieval of device-side content using the Windows Shell API.</span></span>
 
-<span data-ttu-id="06384-107">Первым шагом является инициализация списка идентификаторов элементов или ПИДЛ.</span><span class="sxs-lookup"><span data-stu-id="06384-107">The first step is the initialization of the item identifier list or PIDL.</span></span> <span data-ttu-id="06384-108">(Этот список содержит уникальный идентификатор для данного объекта устройства.)</span><span class="sxs-lookup"><span data-stu-id="06384-108">(This list contains the unique identifier for the given device object.)</span></span>
+<span data-ttu-id="9286a-107">Первым шагом является инициализация списка идентификаторов элементов или ПИДЛ.</span><span class="sxs-lookup"><span data-stu-id="9286a-107">The first step is the initialization of the item identifier list or PIDL.</span></span> <span data-ttu-id="9286a-108">(Этот список содержит уникальный идентификатор для данного объекта устройства.)</span><span class="sxs-lookup"><span data-stu-id="9286a-108">(This list contains the unique identifier for the given device object.)</span></span>
 
 
 ```C++
@@ -62,7 +62,7 @@ HRESULT CWPDContextMenu::_InitializePIDLArray(IDataObject *pDataObj)
 
 
 
-<span data-ttu-id="06384-109">Функция инициализации вызывает \_ функцию ексаминепидларрай, которая получает свойства объекта, идентифицируемого Пидл в массиве Пидл.</span><span class="sxs-lookup"><span data-stu-id="06384-109">The initialization function calls the \_ExaminePIDLArray function, which retrieves the properties for object identified by a PIDL in the PIDL array.</span></span>
+<span data-ttu-id="9286a-109">Функция инициализации вызывает \_ функцию ексаминепидларрай, которая получает свойства объекта, идентифицируемого Пидл в массиве Пидл.</span><span class="sxs-lookup"><span data-stu-id="9286a-109">The initialization function calls the \_ExaminePIDLArray function, which retrieves the properties for object identified by a PIDL in the PIDL array.</span></span>
 
 
 ```C++
@@ -158,11 +158,11 @@ Exit:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="06384-110">См. также</span><span class="sxs-lookup"><span data-stu-id="06384-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9286a-110">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="9286a-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="06384-111">**Инструкции по программированию**</span><span class="sxs-lookup"><span data-stu-id="06384-111">**Programming Guide**</span></span>](programming-guide.md)
+[<span data-ttu-id="9286a-111">**Инструкции по программированию**</span><span class="sxs-lookup"><span data-stu-id="9286a-111">**Programming Guide**</span></span>](programming-guide.md)
 </dt> </dl>
 
  

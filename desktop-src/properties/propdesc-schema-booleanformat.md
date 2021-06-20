@@ -1,23 +1,23 @@
 ---
-description: 'Указывает, как Ипропертидескриптион:: Форматфордисплай должен форматировать значение свойства в виде строки. Это применимо только в том случае <displayInfo displayType=&\#0034;String&\#0034;> , если.'
+description: 'Указывает, как Ипропертидескриптион:: Форматфордисплай должен форматировать значение свойства Булеанформат в виде строки.'
 ms.assetid: f6384910-4411-4ac2-884d-3476c1b6ff96
 title: булеанформат
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d91332f0cc062e7ee4a83e3584776ecf09c5c4b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 528458d9c31d54ef43eca8325b1daeef4eee1195
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998593"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405967"
 ---
-# <a name="booleanformat"></a><span data-ttu-id="b822b-104">булеанформат</span><span class="sxs-lookup"><span data-stu-id="b822b-104">booleanFormat</span></span>
+# <a name="booleanformat"></a><span data-ttu-id="807b8-103">булеанформат</span><span class="sxs-lookup"><span data-stu-id="807b8-103">booleanFormat</span></span>
 
-<span data-ttu-id="b822b-105">Указывает, как [**ипропертидескриптион:: форматфордисплай**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) должен форматировать значение свойства в виде строки.</span><span class="sxs-lookup"><span data-stu-id="b822b-105">Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string.</span></span> <span data-ttu-id="b822b-106">Это применимо только в том случае <displayInfo displayType="String"> , если.</span><span class="sxs-lookup"><span data-stu-id="b822b-106">This is applicable only if <displayInfo displayType="String">.</span></span> <span data-ttu-id="b822b-107">Для каждого элемента [displayInfo](./propdesc-schema-displayinfo.md) должен быть только один элемент [булеанформат]() .</span><span class="sxs-lookup"><span data-stu-id="b822b-107">There should be only one [booleanFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.</span></span>
+<span data-ttu-id="807b8-104">Указывает, как [**ипропертидескриптион:: форматфордисплай**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) должен форматировать значение свойства в виде строки.</span><span class="sxs-lookup"><span data-stu-id="807b8-104">Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string.</span></span> <span data-ttu-id="807b8-105">Это применимо только в том случае <displayInfo displayType="String"> , если.</span><span class="sxs-lookup"><span data-stu-id="807b8-105">This is applicable only if <displayInfo displayType="String">.</span></span> <span data-ttu-id="807b8-106">Для каждого элемента [displayInfo](./propdesc-schema-displayinfo.md) должен быть только один элемент [булеанформат]() .</span><span class="sxs-lookup"><span data-stu-id="807b8-106">There should be only one [booleanFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.</span></span>
 
-<span data-ttu-id="b822b-108">При наличии нескольких элементов используется последний из них.</span><span class="sxs-lookup"><span data-stu-id="b822b-108">If there are multiple elements, the last one is used.</span></span> <span data-ttu-id="b822b-109">Если элемент [булеанформат]() не указан, к описанию свойства применяются параметры атрибута по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="b822b-109">If no [booleanFormat]() element is provided, then the default attribute settings are applied to the property description.</span></span>
+<span data-ttu-id="807b8-107">При наличии нескольких элементов используется последний из них.</span><span class="sxs-lookup"><span data-stu-id="807b8-107">If there are multiple elements, the last one is used.</span></span> <span data-ttu-id="807b8-108">Если элемент [булеанформат]() не указан, к описанию свойства применяются параметры атрибута по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="807b8-108">If no [booleanFormat]() element is provided, then the default attribute settings are applied to the property description.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b822b-110">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="b822b-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="807b8-109">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="807b8-109">Syntax</span></span>
 
 
 ```
@@ -39,19 +39,19 @@ ms.locfileid: "103998593"
 
 
 
-## <a name="element-information"></a><span data-ttu-id="b822b-111">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="b822b-111">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="807b8-110">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="807b8-110">Element Information</span></span>
 
 
 
-| <span data-ttu-id="b822b-112">Родительский элемент</span><span class="sxs-lookup"><span data-stu-id="b822b-112">Parent Element</span></span>                                   | <span data-ttu-id="b822b-113">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="b822b-113">Child Elements</span></span> |
+| <span data-ttu-id="807b8-111">Родительский элемент</span><span class="sxs-lookup"><span data-stu-id="807b8-111">Parent Element</span></span>                                   | <span data-ttu-id="807b8-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="807b8-112">Child Elements</span></span> |
 |--------------------------------------------------|----------------|
-| [<span data-ttu-id="b822b-114">displayInfo</span><span class="sxs-lookup"><span data-stu-id="b822b-114">displayInfo</span></span>](./propdesc-schema-displayinfo.md) | <span data-ttu-id="b822b-115">Нет</span><span class="sxs-lookup"><span data-stu-id="b822b-115">None</span></span>           |
+| [<span data-ttu-id="807b8-113">displayInfo</span><span class="sxs-lookup"><span data-stu-id="807b8-113">displayInfo</span></span>](./propdesc-schema-displayinfo.md) | <span data-ttu-id="807b8-114">Нет</span><span class="sxs-lookup"><span data-stu-id="807b8-114">None</span></span>           |
 
 
 
  
 
-## <a name="attributes"></a><span data-ttu-id="b822b-116">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="b822b-116">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="807b8-115">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="807b8-115">Attributes</span></span>
 
 
 
@@ -62,33 +62,33 @@ ms.locfileid: "103998593"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b822b-117">Атрибут</span><span class="sxs-lookup"><span data-stu-id="b822b-117">Attribute</span></span></th>
-<th><span data-ttu-id="b822b-118">Описание</span><span class="sxs-lookup"><span data-stu-id="b822b-118">Description</span></span></th>
+<th><span data-ttu-id="807b8-116">Атрибут</span><span class="sxs-lookup"><span data-stu-id="807b8-116">Attribute</span></span></th>
+<th><span data-ttu-id="807b8-117">Описание</span><span class="sxs-lookup"><span data-stu-id="807b8-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="b822b-119">форматас</span><span class="sxs-lookup"><span data-stu-id="b822b-119">formatAs</span></span></td>
-<td><span data-ttu-id="b822b-120">Общедоступный.</span><span class="sxs-lookup"><span data-stu-id="b822b-120">Public.</span></span> <span data-ttu-id="b822b-121">Необязательный элемент.</span><span class="sxs-lookup"><span data-stu-id="b822b-121">Optional.</span></span> <span data-ttu-id="b822b-122">Значение по умолчанию — &quot; Данет &quot; .</span><span class="sxs-lookup"><span data-stu-id="b822b-122">Default is &quot;YesNo&quot;.</span></span> <span data-ttu-id="b822b-123">Допустимы следующие значения.</span><span class="sxs-lookup"><span data-stu-id="b822b-123">The following are valid values.</span></span> 
+<td><span data-ttu-id="807b8-118">форматас</span><span class="sxs-lookup"><span data-stu-id="807b8-118">formatAs</span></span></td>
+<td><span data-ttu-id="807b8-119">Общедоступный.</span><span class="sxs-lookup"><span data-stu-id="807b8-119">Public.</span></span> <span data-ttu-id="807b8-120">Необязательный элемент.</span><span class="sxs-lookup"><span data-stu-id="807b8-120">Optional.</span></span> <span data-ttu-id="807b8-121">Значение по умолчанию — &quot; Данет &quot; .</span><span class="sxs-lookup"><span data-stu-id="807b8-121">Default is &quot;YesNo&quot;.</span></span> <span data-ttu-id="807b8-122">Допустимы следующие значения.</span><span class="sxs-lookup"><span data-stu-id="807b8-122">The following are valid values.</span></span> 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b822b-124">Значение</span><span class="sxs-lookup"><span data-stu-id="b822b-124">Value</span></span></th>
-<th><span data-ttu-id="b822b-125">Значение</span><span class="sxs-lookup"><span data-stu-id="b822b-125">Meaning</span></span></th>
+<th><span data-ttu-id="807b8-123">Значение</span><span class="sxs-lookup"><span data-stu-id="807b8-123">Value</span></span></th>
+<th><span data-ttu-id="807b8-124">Значение</span><span class="sxs-lookup"><span data-stu-id="807b8-124">Meaning</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="b822b-126">Данет</span><span class="sxs-lookup"><span data-stu-id="b822b-126">YesNo</span></span></td>
-<td><span data-ttu-id="b822b-127">По умолчанию.</span><span class="sxs-lookup"><span data-stu-id="b822b-127">Default.</span></span> <span data-ttu-id="b822b-128">Форматирует значение как « &quot; Да &quot; » или « &quot; нет &quot; ».</span><span class="sxs-lookup"><span data-stu-id="b822b-128">Formats the value as either &quot;Yes&quot; or &quot;No&quot;.</span></span> <span data-ttu-id="b822b-129">Необходимо, чтобы тип свойства был логическим.</span><span class="sxs-lookup"><span data-stu-id="b822b-129">Requires the property type to be Boolean.</span></span></td>
+<td><span data-ttu-id="807b8-125">Данет</span><span class="sxs-lookup"><span data-stu-id="807b8-125">YesNo</span></span></td>
+<td><span data-ttu-id="807b8-126">По умолчанию.</span><span class="sxs-lookup"><span data-stu-id="807b8-126">Default.</span></span> <span data-ttu-id="807b8-127">Форматирует значение как « &quot; Да &quot; » или « &quot; нет &quot; ».</span><span class="sxs-lookup"><span data-stu-id="807b8-127">Formats the value as either &quot;Yes&quot; or &quot;No&quot;.</span></span> <span data-ttu-id="807b8-128">Необходимо, чтобы тип свойства был логическим.</span><span class="sxs-lookup"><span data-stu-id="807b8-128">Requires the property type to be Boolean.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="b822b-130">онофф</span><span class="sxs-lookup"><span data-stu-id="b822b-130">OnOff</span></span></td>
-<td><span data-ttu-id="b822b-131">Форматирует значение как on, &quot; так &quot; и &quot; Off &quot; .</span><span class="sxs-lookup"><span data-stu-id="b822b-131">Formats the value as either &quot;On&quot; or &quot;Off&quot;.</span></span> <span data-ttu-id="b822b-132">Необходимо, чтобы тип свойства был логическим.</span><span class="sxs-lookup"><span data-stu-id="b822b-132">Requires the property type to be Boolean.</span></span></td>
+<td><span data-ttu-id="807b8-129">онофф</span><span class="sxs-lookup"><span data-stu-id="807b8-129">OnOff</span></span></td>
+<td><span data-ttu-id="807b8-130">Форматирует значение как on, &quot; так &quot; и &quot; Off &quot; .</span><span class="sxs-lookup"><span data-stu-id="807b8-130">Formats the value as either &quot;On&quot; or &quot;Off&quot;.</span></span> <span data-ttu-id="807b8-131">Необходимо, чтобы тип свойства был логическим.</span><span class="sxs-lookup"><span data-stu-id="807b8-131">Requires the property type to be Boolean.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="b822b-133">труефалсе</span><span class="sxs-lookup"><span data-stu-id="b822b-133">TrueFalse</span></span></td>
-<td><span data-ttu-id="b822b-134">Форматирует значение как &quot; true &quot; или &quot; false &quot; .</span><span class="sxs-lookup"><span data-stu-id="b822b-134">Formats the value as either &quot;True&quot; or &quot;False&quot;.</span></span> <span data-ttu-id="b822b-135">Необходимо, чтобы тип свойства был логическим.</span><span class="sxs-lookup"><span data-stu-id="b822b-135">Requires the property type to be Boolean.</span></span></td>
+<td><span data-ttu-id="807b8-132">труефалсе</span><span class="sxs-lookup"><span data-stu-id="807b8-132">TrueFalse</span></span></td>
+<td><span data-ttu-id="807b8-133">Форматирует значение как &quot; true &quot; или &quot; false &quot; .</span><span class="sxs-lookup"><span data-stu-id="807b8-133">Formats the value as either &quot;True&quot; or &quot;False&quot;.</span></span> <span data-ttu-id="807b8-134">Необходимо, чтобы тип свойства был логическим.</span><span class="sxs-lookup"><span data-stu-id="807b8-134">Requires the property type to be Boolean.</span></span></td>
 </tr>
 </tbody>
 </table>

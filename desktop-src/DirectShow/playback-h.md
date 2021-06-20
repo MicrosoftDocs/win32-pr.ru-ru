@@ -1,19 +1,19 @@
 ---
-description: В этом разделе содержится код руководства по воспроизведению аудио-и видеороликов в DirectShow.
+description: Эта статья содержит код для файла воспроизведения. h для руководства воспроизведение аудио-и видеороликов в DirectShow.
 ms.assetid: 8cf0f281-3680-4329-80d0-8282d1051c1a
 title: воспроизведение. h
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03bd6ebd1d0b37c0351fbbe1b4e7906b243ffc7a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ba52dc50cd14b26bcd26284a62c96400706d8aa8
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805230"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405117"
 ---
-# <a name="playbackh"></a><span data-ttu-id="66d5d-103">воспроизведение. h</span><span class="sxs-lookup"><span data-stu-id="66d5d-103">playback.h</span></span>
+# <a name="playbackh"></a><span data-ttu-id="365d8-103">воспроизведение. h</span><span class="sxs-lookup"><span data-stu-id="365d8-103">playback.h</span></span>
 
-<span data-ttu-id="66d5d-104">В этом разделе содержится код руководства по [воспроизведению аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md).</span><span class="sxs-lookup"><span data-stu-id="66d5d-104">This topic contains code for the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md).</span></span>
+<span data-ttu-id="365d8-104">В этом разделе содержится код руководства по [воспроизведению аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md).</span><span class="sxs-lookup"><span data-stu-id="365d8-104">This topic contains code for the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md).</span></span>
 
 
 ```C++
@@ -80,14 +80,14 @@ private:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="66d5d-105">См. также</span><span class="sxs-lookup"><span data-stu-id="66d5d-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="365d8-105">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="365d8-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="66d5d-106">Воспроизведение звука и видео в DirectShow</span><span class="sxs-lookup"><span data-stu-id="66d5d-106">Audio/Video Playback in DirectShow</span></span>](audio-video-playback-in-directshow.md)
+[<span data-ttu-id="365d8-106">Воспроизведение звука и видео в DirectShow</span><span class="sxs-lookup"><span data-stu-id="365d8-106">Audio/Video Playback in DirectShow</span></span>](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[<span data-ttu-id="66d5d-107">Пример воспроизведения DirectShow</span><span class="sxs-lookup"><span data-stu-id="66d5d-107">DirectShow Playback Example</span></span>](directshow-playback-example.md)
+[<span data-ttu-id="365d8-107">Пример воспроизведения DirectShow</span><span class="sxs-lookup"><span data-stu-id="365d8-107">DirectShow Playback Example</span></span>](directshow-playback-example.md)
 </dt> </dl>
 
  

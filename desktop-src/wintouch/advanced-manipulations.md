@@ -1,6 +1,6 @@
 ---
 title: Расширенные манипуляции
-description: В этом разделе объясняются дополнительные манипуляции с приложениями.
+description: Просмотр целевой страницы для расширенных манипуляций с приложениями. См. ссылки на страницы обзор, расширение, вращение и перевод.
 ms.assetid: 8a1cff27-b2c0-4e72-9f4c-df656059953f
 keywords:
 - Касание Windows, манипуляции
@@ -10,42 +10,42 @@ keywords:
 - манипуляции, сложные
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 628e85d9b2963e6377ba5ab239d10c70e8343465
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48c059ad30a338fe5d413ff6c7e6e7f2e9383dc9
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067461"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406327"
 ---
-# <a name="advanced-manipulations"></a><span data-ttu-id="72633-108">Расширенные манипуляции</span><span class="sxs-lookup"><span data-stu-id="72633-108">Advanced Manipulations</span></span>
+# <a name="advanced-manipulations"></a><span data-ttu-id="4a5b8-109">Расширенные манипуляции</span><span class="sxs-lookup"><span data-stu-id="4a5b8-109">Advanced Manipulations</span></span>
 
-<span data-ttu-id="72633-109">В этом разделе объясняются дополнительные манипуляции с приложениями.</span><span class="sxs-lookup"><span data-stu-id="72633-109">This section explains advanced manipulations for applications.</span></span>
+<span data-ttu-id="4a5b8-110">В этом разделе объясняются дополнительные манипуляции с приложениями.</span><span class="sxs-lookup"><span data-stu-id="4a5b8-110">This section explains advanced manipulations for applications.</span></span>
 
-<span data-ttu-id="72633-110">Для удобства использования может потребоваться добавить сложные манипуляции в приложение, чтобы объекты могли работать с точностью на уровне гранулярности.</span><span class="sxs-lookup"><span data-stu-id="72633-110">For usability purposes, you may want to add complex manipulations to your application so that objects can be manipulated with a fine degree of granularity.</span></span> <span data-ttu-id="72633-111">В следующих разделах описываются дополнительные манипуляции.</span><span class="sxs-lookup"><span data-stu-id="72633-111">The following sections describe advanced manipulations.</span></span>
+<span data-ttu-id="4a5b8-111">Для удобства использования может потребоваться добавить сложные манипуляции в приложение, чтобы объекты могли работать с точностью на уровне гранулярности.</span><span class="sxs-lookup"><span data-stu-id="4a5b8-111">For usability purposes, you may want to add complex manipulations to your application so that objects can be manipulated with a fine degree of granularity.</span></span> <span data-ttu-id="4a5b8-112">В следующих разделах описываются дополнительные манипуляции.</span><span class="sxs-lookup"><span data-stu-id="4a5b8-112">The following sections describe advanced manipulations.</span></span>
 
 
 
-| <span data-ttu-id="72633-112">Section</span><span class="sxs-lookup"><span data-stu-id="72633-112">Section</span></span>                                                                | <span data-ttu-id="72633-113">Описание</span><span class="sxs-lookup"><span data-stu-id="72633-113">Description</span></span>                                           |
+| <span data-ttu-id="4a5b8-113">Section</span><span class="sxs-lookup"><span data-stu-id="4a5b8-113">Section</span></span>                                                                | <span data-ttu-id="4a5b8-114">Описание</span><span class="sxs-lookup"><span data-stu-id="4a5b8-114">Description</span></span>                                           |
 |------------------------------------------------------------------------|-------------------------------------------------------|
-| [<span data-ttu-id="72633-114">Обзор расширенных манипуляций</span><span class="sxs-lookup"><span data-stu-id="72633-114">Advanced Manipulations Overview</span></span>](advanced-manipulations-overview.md) | <span data-ttu-id="72633-115">Показывает различные расширенные манипуляции.</span><span class="sxs-lookup"><span data-stu-id="72633-115">Shows the various advanced manipulations.</span></span>             |
-| [<span data-ttu-id="72633-116">Расширенное расширение</span><span class="sxs-lookup"><span data-stu-id="72633-116">Advanced Expansion</span></span>](advanced-expansion.md)                           | <span data-ttu-id="72633-117">Показывает, как включить поддержку расширенного расширения.</span><span class="sxs-lookup"><span data-stu-id="72633-117">Shows how to enable support for advanced expansion.</span></span>   |
-| [<span data-ttu-id="72633-118">Расширенный Поворот</span><span class="sxs-lookup"><span data-stu-id="72633-118">Advanced Rotation</span></span>](advanced-rotation.md)                             | <span data-ttu-id="72633-119">Показывает, как включить поддержку расширенного вращения.</span><span class="sxs-lookup"><span data-stu-id="72633-119">Shows how to enable support for advanced rotation.</span></span>    |
-| [<span data-ttu-id="72633-120">Расширенный перевод</span><span class="sxs-lookup"><span data-stu-id="72633-120">Advanced Translation</span></span>](advanced-translation.md)                       | <span data-ttu-id="72633-121">Показывает, как включить поддержку расширенного перевода.</span><span class="sxs-lookup"><span data-stu-id="72633-121">Shows how to enable support for advanced translation.</span></span> |
+| [<span data-ttu-id="4a5b8-115">Обзор расширенных манипуляций</span><span class="sxs-lookup"><span data-stu-id="4a5b8-115">Advanced Manipulations Overview</span></span>](advanced-manipulations-overview.md) | <span data-ttu-id="4a5b8-116">Показывает различные расширенные манипуляции.</span><span class="sxs-lookup"><span data-stu-id="4a5b8-116">Shows the various advanced manipulations.</span></span>             |
+| [<span data-ttu-id="4a5b8-117">Расширенное расширение</span><span class="sxs-lookup"><span data-stu-id="4a5b8-117">Advanced Expansion</span></span>](advanced-expansion.md)                           | <span data-ttu-id="4a5b8-118">Показывает, как включить поддержку расширенного расширения.</span><span class="sxs-lookup"><span data-stu-id="4a5b8-118">Shows how to enable support for advanced expansion.</span></span>   |
+| [<span data-ttu-id="4a5b8-119">Расширенный Поворот</span><span class="sxs-lookup"><span data-stu-id="4a5b8-119">Advanced Rotation</span></span>](advanced-rotation.md)                             | <span data-ttu-id="4a5b8-120">Показывает, как включить поддержку расширенного вращения.</span><span class="sxs-lookup"><span data-stu-id="4a5b8-120">Shows how to enable support for advanced rotation.</span></span>    |
+| [<span data-ttu-id="4a5b8-121">Расширенный перевод</span><span class="sxs-lookup"><span data-stu-id="4a5b8-121">Advanced Translation</span></span>](advanced-translation.md)                       | <span data-ttu-id="4a5b8-122">Показывает, как включить поддержку расширенного перевода.</span><span class="sxs-lookup"><span data-stu-id="4a5b8-122">Shows how to enable support for advanced translation.</span></span> |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a><span data-ttu-id="72633-122">См. также</span><span class="sxs-lookup"><span data-stu-id="72633-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4a5b8-123">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="4a5b8-123">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="72633-123">Манипуляции</span><span class="sxs-lookup"><span data-stu-id="72633-123">Manipulations</span></span>](getting-started-with-manipulations.md)
+[<span data-ttu-id="4a5b8-124">Манипуляции</span><span class="sxs-lookup"><span data-stu-id="4a5b8-124">Manipulations</span></span>](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

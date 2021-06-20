@@ -1,40 +1,40 @@
 ---
 title: Справочник (интерфейс сервера агента Microsoft)
-description: Справочник
+description: В этих справочных разделах описываются объекты в интерфейсе сервера Microsoft Agent. Microsoft Agent является устаревшим в Windows 7.
 ms.assetid: vs|msagent|~\paface_83s5.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a96f45d212df69f9de4cd62c964f9c04d1aba83
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e9e6e88e80b2a780e7a4ce57eea3d7e3e06c3c66
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103891305"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405537"
 ---
-# <a name="reference-microsoft-agent-server-interface"></a><span data-ttu-id="912e0-103">Справочник (интерфейс сервера агента Microsoft)</span><span class="sxs-lookup"><span data-stu-id="912e0-103">Reference (Microsoft Agent Server Interface)</span></span>
+# <a name="reference-microsoft-agent-server-interface"></a><span data-ttu-id="1e61b-104">Справочник (интерфейс сервера агента Microsoft)</span><span class="sxs-lookup"><span data-stu-id="1e61b-104">Reference (Microsoft Agent Server Interface)</span></span>
 
-<span data-ttu-id="912e0-104">\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]</span><span class="sxs-lookup"><span data-stu-id="912e0-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+<span data-ttu-id="1e61b-105">\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]</span><span class="sxs-lookup"><span data-stu-id="1e61b-105">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
 
-<span data-ttu-id="912e0-105">Эта ссылка содержит следующие интерфейсы:</span><span class="sxs-lookup"><span data-stu-id="912e0-105">This reference contains the following interfaces:</span></span>
+<span data-ttu-id="1e61b-106">Эта ссылка содержит следующие интерфейсы:</span><span class="sxs-lookup"><span data-stu-id="1e61b-106">This reference contains the following interfaces:</span></span>
 
--   [<span data-ttu-id="912e0-106">**иажент**</span><span class="sxs-lookup"><span data-stu-id="912e0-106">**IAgent**</span></span>](iagent.md)
--   [<span data-ttu-id="912e0-107">**иажентаудиуутпутпропертиес**</span><span class="sxs-lookup"><span data-stu-id="912e0-107">**IAgentAudioOutputProperties**</span></span>](iagentaudiooutputproperties.md)
--   [<span data-ttu-id="912e0-108">**иажентаудиуутпутпропертиесекс**</span><span class="sxs-lookup"><span data-stu-id="912e0-108">**IAgentAudioOutputPropertiesEx**</span></span>](iagentaudiooutputpropertiesex.md)
--   [<span data-ttu-id="912e0-109">**иажентбаллун**</span><span class="sxs-lookup"><span data-stu-id="912e0-109">**IAgentBalloon**</span></span>](iagentballoon.md)
--   [<span data-ttu-id="912e0-110">**иажентбаллунекс**</span><span class="sxs-lookup"><span data-stu-id="912e0-110">**IAgentBalloonEx**</span></span>](iagentballoonex.md)
--   [<span data-ttu-id="912e0-111">**иажентчарактер**</span><span class="sxs-lookup"><span data-stu-id="912e0-111">**IAgentCharacter**</span></span>](iagentcharacter.md)
--   [<span data-ttu-id="912e0-112">**иажентчарактерекс**</span><span class="sxs-lookup"><span data-stu-id="912e0-112">**IAgentCharacterEx**</span></span>](iagentcharacterex.md)
--   [<span data-ttu-id="912e0-113">**иаженткомманд**</span><span class="sxs-lookup"><span data-stu-id="912e0-113">**IAgentCommand**</span></span>](iagentcommand.md)
--   [<span data-ttu-id="912e0-114">**иаженткоммандекс**</span><span class="sxs-lookup"><span data-stu-id="912e0-114">**IAgentCommandEx**</span></span>](iagentcommandex.md)
--   [<span data-ttu-id="912e0-115">**иаженткоммандс**</span><span class="sxs-lookup"><span data-stu-id="912e0-115">**IAgentCommands**</span></span>](iagentcommands.md)
--   [<span data-ttu-id="912e0-116">**иаженткоммандсекс**</span><span class="sxs-lookup"><span data-stu-id="912e0-116">**IAgentCommandsEx**</span></span>](iagentcommandsex.md)
--   [<span data-ttu-id="912e0-117">**иаженткоммандвиндов**</span><span class="sxs-lookup"><span data-stu-id="912e0-117">**IAgentCommandWindow**</span></span>](iagentcommandwindow.md)
--   [<span data-ttu-id="912e0-118">**иажентекс**</span><span class="sxs-lookup"><span data-stu-id="912e0-118">**IAgentEx**</span></span>](iagentex.md)
--   [<span data-ttu-id="912e0-119">**иажентнотифисинк**</span><span class="sxs-lookup"><span data-stu-id="912e0-119">**IAgentNotifySink**</span></span>](events.md)
--   [<span data-ttu-id="912e0-120">**иажентнотифисинкекс**</span><span class="sxs-lookup"><span data-stu-id="912e0-120">**IAgentNotifySinkEx**</span></span>](iagentnotifysinkex.md)
--   [<span data-ttu-id="912e0-121">**иажентпропертишит**</span><span class="sxs-lookup"><span data-stu-id="912e0-121">**IAgentPropertySheet**</span></span>](iagentpropertysheet.md)
--   [<span data-ttu-id="912e0-122">**иажентспичинпутпропертиес**</span><span class="sxs-lookup"><span data-stu-id="912e0-122">**IAgentSpeechInputProperties**</span></span>](iagentspeechinputproperties.md)
--   [<span data-ttu-id="912e0-123">**иажентусеринпут**</span><span class="sxs-lookup"><span data-stu-id="912e0-123">**IAgentUserInput**</span></span>](iagentuserinput.md)
+-   [<span data-ttu-id="1e61b-107">**иажент**</span><span class="sxs-lookup"><span data-stu-id="1e61b-107">**IAgent**</span></span>](iagent.md)
+-   [<span data-ttu-id="1e61b-108">**иажентаудиуутпутпропертиес**</span><span class="sxs-lookup"><span data-stu-id="1e61b-108">**IAgentAudioOutputProperties**</span></span>](iagentaudiooutputproperties.md)
+-   [<span data-ttu-id="1e61b-109">**иажентаудиуутпутпропертиесекс**</span><span class="sxs-lookup"><span data-stu-id="1e61b-109">**IAgentAudioOutputPropertiesEx**</span></span>](iagentaudiooutputpropertiesex.md)
+-   [<span data-ttu-id="1e61b-110">**иажентбаллун**</span><span class="sxs-lookup"><span data-stu-id="1e61b-110">**IAgentBalloon**</span></span>](iagentballoon.md)
+-   [<span data-ttu-id="1e61b-111">**иажентбаллунекс**</span><span class="sxs-lookup"><span data-stu-id="1e61b-111">**IAgentBalloonEx**</span></span>](iagentballoonex.md)
+-   [<span data-ttu-id="1e61b-112">**иажентчарактер**</span><span class="sxs-lookup"><span data-stu-id="1e61b-112">**IAgentCharacter**</span></span>](iagentcharacter.md)
+-   [<span data-ttu-id="1e61b-113">**иажентчарактерекс**</span><span class="sxs-lookup"><span data-stu-id="1e61b-113">**IAgentCharacterEx**</span></span>](iagentcharacterex.md)
+-   [<span data-ttu-id="1e61b-114">**иаженткомманд**</span><span class="sxs-lookup"><span data-stu-id="1e61b-114">**IAgentCommand**</span></span>](iagentcommand.md)
+-   [<span data-ttu-id="1e61b-115">**иаженткоммандекс**</span><span class="sxs-lookup"><span data-stu-id="1e61b-115">**IAgentCommandEx**</span></span>](iagentcommandex.md)
+-   [<span data-ttu-id="1e61b-116">**иаженткоммандс**</span><span class="sxs-lookup"><span data-stu-id="1e61b-116">**IAgentCommands**</span></span>](iagentcommands.md)
+-   [<span data-ttu-id="1e61b-117">**иаженткоммандсекс**</span><span class="sxs-lookup"><span data-stu-id="1e61b-117">**IAgentCommandsEx**</span></span>](iagentcommandsex.md)
+-   [<span data-ttu-id="1e61b-118">**иаженткоммандвиндов**</span><span class="sxs-lookup"><span data-stu-id="1e61b-118">**IAgentCommandWindow**</span></span>](iagentcommandwindow.md)
+-   [<span data-ttu-id="1e61b-119">**иажентекс**</span><span class="sxs-lookup"><span data-stu-id="1e61b-119">**IAgentEx**</span></span>](iagentex.md)
+-   [<span data-ttu-id="1e61b-120">**иажентнотифисинк**</span><span class="sxs-lookup"><span data-stu-id="1e61b-120">**IAgentNotifySink**</span></span>](events.md)
+-   [<span data-ttu-id="1e61b-121">**иажентнотифисинкекс**</span><span class="sxs-lookup"><span data-stu-id="1e61b-121">**IAgentNotifySinkEx**</span></span>](iagentnotifysinkex.md)
+-   [<span data-ttu-id="1e61b-122">**иажентпропертишит**</span><span class="sxs-lookup"><span data-stu-id="1e61b-122">**IAgentPropertySheet**</span></span>](iagentpropertysheet.md)
+-   [<span data-ttu-id="1e61b-123">**иажентспичинпутпропертиес**</span><span class="sxs-lookup"><span data-stu-id="1e61b-123">**IAgentSpeechInputProperties**</span></span>](iagentspeechinputproperties.md)
+-   [<span data-ttu-id="1e61b-124">**иажентусеринпут**</span><span class="sxs-lookup"><span data-stu-id="1e61b-124">**IAgentUserInput**</span></span>](iagentuserinput.md)
 
  
 
