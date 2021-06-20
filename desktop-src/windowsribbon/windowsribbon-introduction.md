@@ -1,6 +1,6 @@
 ---
 title: Знакомство с платформой Windows Ribbon
-description: Windows Ribbon Framework — это обширная система представления команд, которая предоставляет современный вариант для многоуровневых меню, панелей инструментов и панелей задач традиционных приложений Windows.
+description: Просмотрите целевую страницу платформы Windows Ribbon, которая является альтернативой многоуровневый меню, панелям инструментов и панелям задач традиционных приложений Windows.
 ms.assetid: bc19d5eb-e3a4-4022-8051-512cb3a3e065
 keywords:
 - Лента Windows, платформа
@@ -19,12 +19,12 @@ keywords:
 - Лента, безопасность
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ac5c3acccf1c48a54f93b1752729067e63e4c6
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: db15165b91708a85e5ae6237b66a15bf733e80a7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104571751"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404397"
 ---
 # <a name="introducing-the-windows-ribbon-framework"></a>Знакомство с платформой Windows Ribbon
 
@@ -39,7 +39,7 @@ Windows Ribbon Framework — это обширная система предст
     -   [Безопасность и конфиденциальность](#security-and-privacy)
     -   [Специальные возможности и локализация](#accessibility-and-localization)
 -   [Заключение](#conclusion)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="a-new-command-paradigm"></a>Новая парадигма команд
 
@@ -160,7 +160,7 @@ Windows Ribbon Framework — это обширная система предст
 
 На [форуме по разработке ленты Windows](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsribbondevelopment) можно обсудить темы и задавать вопросы, связанные с разработкой приложений, которые реализуют платформу Windows Ribbon.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

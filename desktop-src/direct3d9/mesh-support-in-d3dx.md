@@ -1,15 +1,15 @@
 ---
-description: D3DX — это служебная Библиотека, которая предоставляет вспомогательные службы. Это уровень выше компонента Direct3D.
+description: Сведения о поддержке сеток в D3DX. D3DX — это служебная Библиотека, которая предоставляет вспомогательные службы. Это уровень выше компонента Direct3D.
 ms.assetid: 7892370f-0807-4ab7-b7cd-a7e1182e3f9c
 title: Поддержка сеток в D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb0b2b1dd0e5d4c5a212005afe400bb559f1689a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a1600b372432d59357a7431c70ce70ce2958002c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103989899"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408137"
 ---
 # <a name="mesh-support-in-d3dx-direct3d-9"></a>Поддержка сеток в D3DX (Direct3D 9)
 
@@ -86,7 +86,7 @@ D3DXGeneratePMesh использует алгоритм упрощения D3DX 
 
 Также поддерживаются два специализированных типа сеток исправлений: обновления прямоугольников и треугольников. Сетка исправлений прямоугольника — это сетка исправлений, точки управления которой располагаются в виде поворота, прямоугольной последовательности. Для создания высокозаказных поверхностей используются обновления прямоугольников и треугольников. Они не так часто используются в качестве сеток треугольников.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,16 +1,16 @@
 ---
 title: Заданное значение ссылки на набор элементов в шейдере (графика Direct3D 12)
-description: Включение шейдера пикселей для вывода значения ссылки на набор элементов вместо использования указанного API-интерфейса обеспечивает очень точный контроль над операциями с набором элементов.
+description: Сведения об эталонном значении набора элементов в графике Direct3D 12. Включение построителей текстур пикселей для использования значения ссылки на набор элементов позволяет точно контролировать операции с наборами элементов.
 ms.assetid: F58B1930-F12E-4FA4-A15C-A3C2B8705033
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6a8b7697cc06594b3e2ffc717cbded9e6832129
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0fee212d7c2573402ad38bc19040e5c60a89c090
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104548987"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408317"
 ---
 # <a name="shader-specified-stencil-reference-value-direct3d-12-graphics"></a>Заданное значение ссылки на набор элементов в шейдере (графика Direct3D 12)
 
@@ -46,7 +46,7 @@ uint main2(float4 c : COORD) : SV_StencilRef
 [Модель шейдера 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
-[Указание корневых подписей в HLSL](specifying-root-signatures-in-hlsl.md)
+[Определение корневых подписей в HLSL](specifying-root-signatures-in-hlsl.md)
 </dt> </dl>
 
  

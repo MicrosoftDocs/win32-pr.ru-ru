@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе Жобкоммент, который указывает комментарий, связанный с заданием, например, доставляется в комнату 1234 после завершения.
 ms.assetid: 100fe310-8e64-453f-8eaf-10abaf8b10b7
 title: жобкоммент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5210b80d4f81771dfa98d79d4ecf187b3ef145f5
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 1decf4cf3af7b3a992b07d8008579ac005d3d14e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998351"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409047"
 ---
 # <a name="jobcomment"></a>жобкоммент
 

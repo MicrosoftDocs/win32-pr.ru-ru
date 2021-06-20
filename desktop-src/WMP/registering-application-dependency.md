@@ -1,6 +1,6 @@
 ---
 title: Регистрация зависимости приложения (пакет SDK для проигрывателя Windows Media)
-description: Регистрация зависимости приложения
+description: Узнайте, как зарегистрировать приложение с помощью компонентов среды выполнения API-интерфейсов, предоставляемых пакетом SDK для проигрывателя Windows Media.
 ms.assetid: 966683d6-e082-448d-8473-baae2311c082
 keywords:
 - Проигрыватель Windows Media, параметры реестра зависимостей приложений
@@ -13,12 +13,12 @@ keywords:
 - параметры реестра зависимостей приложений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67aac78417f5ec8e4347b97a5c2b5f37db20183e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: fb4b1692c6a4e1a8274472bbe9d718721c1ab4f1
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104488877"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407367"
 ---
 # <a name="registering-application-dependency-windows-media-player-sdk"></a>Регистрация зависимости приложения (пакет SDK для проигрывателя Windows Media)
 
@@ -72,7 +72,7 @@ ms.locfileid: "104488877"
 -   \_В классах hKey \_ корневое \\ программное обеспечение \\ Microsoft \\ MediaPlayer \\ Setup \\ Депендентрефкаунтс \\ дескриптор "саусриджевидео", "Саусридже Video Player использует пакет SDK Windows Media Format для воспроизведения видеофайлов".
 -   \_Классы hKey \_ root \\ Software \\ \\ программа установки Microsoft MediaPlayer \\ \\ депендентрефкаунтс \\ версия, "саусриджевидео", "9.0.0.2600"
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

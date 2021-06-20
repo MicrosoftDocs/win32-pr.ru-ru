@@ -1,6 +1,6 @@
 ---
 title: Ведение журнала клиента (пакет SDK для формата Windows Media 11)
-description: Ведение журнала клиента
+description: Сведения о ведении журнала клиента для пакета SDK Windows Media Format 11. Ведение журнала позволяет серверу мультимедиа отвести наблюдение за активностью клиентов, подключающихся к нему.
 ms.assetid: 3e0d0fea-4370-41f8-b461-73a37de8d8bc
 keywords:
 - Пакет SDK для Windows Media Format, ведение журнала клиента
@@ -13,12 +13,12 @@ keywords:
 - Регистрация клиентов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 856f2df4c2377b94edc40574c3e2efcced34aa81
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 095e01fcf0730fdec8d06a931a9a988ca79ea77f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104134863"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406267"
 ---
 # <a name="client-logging-windows-media-format-11-sdk"></a>Ведение журнала клиента (пакет SDK для формата Windows Media 11)
 
@@ -75,7 +75,7 @@ ms.locfileid: "104134863"
 
 Для получения сведений о ведении журнала можно указать несколько серверов. просто вызовите **аддлоггингурл** один раз с каждым URL-адресом. Чтобы очистить список серверов, которые получают журналы, вызовите метод [**ивмреадернетворкконфиг:: ресетлоггингурллист**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-resetloggingurllist) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Понятный пользователю отображаемый путь к родительской папке элемента.
+description: Прочитайте о свойстве System. Итемфолдерпасдисплайнарров, которое представляет понятный пользователю отображаемый путь к родительской папке элемента.
 ms.assetid: f60b7465-bca4-4c7b-9caf-9cda1bf6eeeb
 title: System. Итемфолдерпасдисплайнарров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 898927c23aae95b5037919c908a3ae86e020e1fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbee8a45eb6ea557e99c854464c7dc09ec5613d2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080861"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403917"
 ---
 # <a name="systemitemfolderpathdisplaynarrow"></a>System. Итемфолдерпасдисплайнарров
 
@@ -31,13 +31,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 Формат строки должен быть адаптирован таким образом, чтобы имя папки поступило в первую очередь, чтобы оптимизировать для такого столбца. Если папка является папкой файлов, то значение включает все локализованные имена. Если [System. итемфолдерпасдисплай](./props-system-itemfolderpathdisplay.md) является VT \_ пустым, это свойство также должно быть пустым. В противном случае он должен быть получен соответствующим образом источником данных из System. Итемфолдерпасдисплай.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

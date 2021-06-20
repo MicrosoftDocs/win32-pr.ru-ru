@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Экземпляры Скоредпроперти также могут быть вложенными в другие экземпляры Скоредпроперти или как дочерние элементы экземпляра Option.
 ms.assetid: 071dc91f-3574-4e0e-b2ba-0e4a56ce4a28
 title: Вложенные экземпляры Скоредпроперти
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f1bfed09c48bc0ac6e93e09f96dc8116e8b0a91
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 15a80d291fa59b2f36191f42b2f99ea9d22789a2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105684807"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408607"
 ---
 # <a name="nested-scoredproperty-instances"></a>Вложенные экземпляры Скоредпроперти
 
@@ -32,7 +32,7 @@ ms.locfileid: "105684807"
 
 Сравнение исходного и расширенного параметров обеспечивает близкое к идеальному совпадению, так как расширенный параметр является надмножеством исходного, а расположения и значения каждого из исходных экземпляров Скоредпроперти сохраняются.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

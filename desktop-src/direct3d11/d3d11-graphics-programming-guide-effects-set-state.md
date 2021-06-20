@@ -1,15 +1,15 @@
 ---
 title: Установка состояния действия (Direct3D 11)
-description: Некоторые константы эффектов необходимо инициализировать.
+description: Некоторые константы эффектов необходимо инициализировать. См. базовый код для установки переменных эффектов в Direct3D 12.
 ms.assetid: f94ba82e-fc67-4e4d-a49d-20e1163bdff7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8df65e164c2df01f78ae9ea9ab83a547b977335
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65c64f9e642e867e9398722d4590a4c2ce9193b4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104531913"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407667"
 ---
 # <a name="set-effect-state-direct3d-11"></a>Установка состояния действия (Direct3D 11)
 
@@ -224,16 +224,16 @@ OnD3D11FrameRender()
 
 Дополнительные сведения о просмотре ресурсов см. в разделе [ресурсы](overviews-direct3d-11-resources.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Отрисовка результата (Direct3D 11)](d3d11-graphics-programming-guide-effects-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

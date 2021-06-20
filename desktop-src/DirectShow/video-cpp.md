@@ -1,15 +1,15 @@
 ---
-description: В этом разделе содержится код руководства по воспроизведению аудио-и видеороликов в DirectShow.
+description: Эта статья содержит код для файла Video. cpp для руководства воспроизведение аудио-и видеороликов в DirectShow.
 ms.assetid: c406a099-4956-46a8-b1f4-6d2e6ab3427a
 title: видео. cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 623372e1d958959d410e6e60f5a976f52f9f3180
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f24d7bd3f27ce995d69e3f1425b7cae95d8997f3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673449"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407857"
 ---
 # <a name="videocpp"></a>видео. cpp
 
@@ -650,7 +650,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

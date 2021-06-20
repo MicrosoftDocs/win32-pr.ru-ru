@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения о настраиваемых пользователем ключевых словах в схеме печати для управления цветом, например Пажеколорманажемент и Пажеблаккженератионпроцессинг.
 ms.assetid: 296255b8-fe5c-46dd-b717-487aaae0db80
 title: Управление цветом и схема печати
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 134a598466fd52c66d632a28c750840d4123f529
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 9258d9dcc59ab24f9cfca8e170bf3f3f62841b21
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103914271"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409677"
 ---
 # <a name="color-management-and-the-print-schema"></a>Управление цветом и схема печати
 
@@ -88,7 +88,7 @@ ms.locfileid: "103914271"
 
 ![Диаграмма, показывающая, как обрабатываются параметры управления цветом](images/local-1992284846-colormanagementtest3.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

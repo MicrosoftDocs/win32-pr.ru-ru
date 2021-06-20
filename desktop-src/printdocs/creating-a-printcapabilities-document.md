@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: После проверки PrintTicket можно использовать для создания моментального снимка PrintCapabilities.
 ms.assetid: b49e20b7-bd9e-4b8f-bb4a-bb1e99b0c417
 title: Создание документа PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ccb1adf4626254ba9f71c706ad7d4556a23aeb6
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b96ea51cef9dfd0f351704b3b71a7f6163737736
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105703487"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409517"
 ---
 # <a name="creating-a-printcapabilities-document"></a>Создание документа PrintCapabilities
 
@@ -36,7 +36,7 @@ ms.locfileid: "105703487"
 
 Чтобы создать моментальный снимок документа PrintCapabilities по умолчанию, укажите PrintTicket по умолчанию (а не произвольный PrintTicket) для метода, который создает документы PrintCapabilities.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

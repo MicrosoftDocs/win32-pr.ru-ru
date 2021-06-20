@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об элементе Параметеринит, который определяет значение для экземпляра элемента Параметердеф.
 ms.assetid: d5419c40-43e9-49ff-a378-9aeb0757e400
 title: параметеринит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16cb985e746b400b1c804f21b5996352ae590e3b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e211fcad2c53824c7786850a7fc78c6825c219a7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104273325"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407267"
 ---
 # <a name="parameterinit"></a>параметеринит
 
@@ -67,7 +67,7 @@ None
 </psf:ParameterInit>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

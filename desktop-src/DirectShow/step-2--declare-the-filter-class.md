@@ -1,15 +1,15 @@
 ---
-description: Шаг 2.
+description: Объявите класс C++, наследующий базовый класс, который выбран в качестве части записи фильтра преобразования.
 ms.assetid: 74fbfc16-541f-4f80-a72f-26b67dc09a93
 title: Шаг 2. Объявление класса фильтра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ddfe28b7f31238089c331b319621787aef49f18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88be97e47d529ffa22c90e9c8c200160dbd5f261
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674125"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410067"
 ---
 # <a name="step-2-declare-the-filter-class"></a>Шаг 2. Объявление класса фильтра
 
@@ -62,7 +62,7 @@ CRleFilter::CRleFilter()
 
 Далее. [Шаг 3. Поддерживает согласование типов мультимедиа](step-3--support-media-type-negotiation.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

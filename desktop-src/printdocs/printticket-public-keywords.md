@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: В этих статьях указаны описания свойств и инициализаторы параметров PrintTicket, которые могут быть применимы к PrintTicket.
 ms.assetid: 116f59e9-da65-430d-b5de-e7cd9686bd19
 title: Общедоступные ключевые слова PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 994052b6acb970a14a8d15843f7f42b976eb23fb
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 492b8590681fa6b55effe6db6ebff4b408b76325
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105713309"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405427"
 ---
 # <a name="printticket-public-keywords"></a>Общедоступные ключевые слова PrintTicket
 
@@ -25,7 +25,7 @@ ms.locfileid: "105713309"
 
 Инициализаторы параметров принимают форму типов элементов Параметеринит в PrintTicket. Типы элементов Параметеринит содержат значение параметра и инициализируются в PrintTicket. Дополнительные сведения см. в разделе [конструкции параметров](parameter-constructs.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

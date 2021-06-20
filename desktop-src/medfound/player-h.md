@@ -1,15 +1,15 @@
 ---
-description: В этом разделе содержится код руководства по воспроизведению мультимедийных файлов с помощью Media Foundation.
+description: В этой статье содержится код для файла Player. h, содержащий руководство по воспроизведению мультимедийных файлов с помощью Media Foundation.
 ms.assetid: c3f05482-138c-4d95-9b76-a9715227961f
 title: Player. h
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb04c0d99d2d83843fac8988050e17bf8ebe5efe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38c9d1c564edefb1683705d9ef8c4f009b061a7c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543839"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404597"
 ---
 # <a name="playerh"></a>Player. h
 
@@ -141,7 +141,7 @@ protected:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

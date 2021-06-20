@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения о синтаксисе схемы печати, которая представлена в синтаксисе XML и состоит из небольшого числа типов элементов.
 ms.assetid: d67518e3-c379-4a50-aeda-31afaa7f05dd
 title: Синтаксис схемы печати
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2503b3f44ff8b4bdda41f0feefe374c27d78bd41
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 4ef52dbdbdfacc2d3cc947b46558319577a75b1b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105693928"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405297"
 ---
 # <a name="syntax-of-the-print-schema"></a>Синтаксис схемы печати
 
@@ -21,7 +21,7 @@ ms.locfileid: "105693928"
 
 Многие типы элементов отличаются от других тем же типом с помощью атрибута Name, который играет важную роль в схеме. Атрибут Name служит для обнаружения экземпляров каждого типа элемента. Ключевые слова схемы Print определяют набор значений для атрибута Name для многих типов элементов. В большинстве случаев поставщики могут назначать атрибуту name собственные значения. Им нужно только убедиться в том, что значения QName определены в пространстве имен, уникальном для поставщика.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

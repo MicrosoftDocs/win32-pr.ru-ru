@@ -1,15 +1,15 @@
 ---
-description: Приемник ASF-файлов — это реализация Имфмедиасинк, предоставляемая Media Foundation, которую приложение может использовать для архивации данных ASF Media в файл. Сведения об объектной модели приемников ASF Media и общем использовании см. в статье приемники мультимедиа ASF.
+description: Сведения о настройке свойств в приемнике файлов ASF, которые приложение может использовать для архивации данных ASF Media в файл.
 ms.assetid: a47caabd-23e3-4d22-b4b6-5fdb79d62ca1
 title: Задание свойств в приемнике файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30af39cf13e88f6edf2a6ab68caac27c2400955a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64b6b000ed04c7858251f7388d3edc6a40e0b213
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344402"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407517"
 ---
 # <a name="setting-properties-in-the-file-sink"></a>Задание свойств в приемнике файла
 
@@ -49,7 +49,7 @@ ms.locfileid: "104344402"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

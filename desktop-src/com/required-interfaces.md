@@ -1,15 +1,15 @@
 ---
 title: Требуемые интерфейсы (COM)
-description: Требуемые интерфейсы
+description: Сведения о интерфейсах контейнеров элементов управления ActiveX, которые могут или должны быть реализованы контейнерами элементов управления.
 ms.assetid: ae238882-d0c9-4120-b8a8-001bf9559cfa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0df483f8c8aa5eb5ecb6799b834fccab42f42ca1
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 55015ee5837754c073d2590144687131c285bb80
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105700999"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407647"
 ---
 # <a name="required-interfaces-com"></a>Требуемые интерфейсы (COM)
 
@@ -24,7 +24,7 @@ ms.locfileid: "105700999"
 | [**иолеинплацесите**](/windows/desktop/api/OleIdl/nn-oleidl-ioleinplacesite)<br/>                          | Да<br/> |                                                                                                                                                                                                                                                                                                                                                              |
 | [**IOleControlSite**](/windows/desktop/api/OCIdl/nn-ocidl-iolecontrolsite)<br/>                          | Да<br/> |                                                                                                                                                                                                                                                                                                                                                              |
 | [**иолеинплацефраме**](/windows/desktop/api/OleIdl/nn-oleidl-ioleinplaceframe)<br/>                        | Да<br/> |                                                                                                                                                                                                                                                                                                                                                              |
-| [**иолеконтаинер**](/windows/desktop/api/OleIdl/nn-oleidl-iolecontainer)<br/>                              | Да<br/> | См. Примечание 1<br/>                                                                                                                                                                                                                                                                                                                                        |
+| [**иолеконтаинер**](/windows/desktop/api/OleIdl/nn-oleidl-iolecontainer)<br/>                              | Да<br/> | См. примечание 1<br/>                                                                                                                                                                                                                                                                                                                                        |
 | **IDispatch** для внешних свойств<br/>                                | Да<br/> | См. Примечание 2 и [свойства окружения для элементов управления](ambient-properties-for-controls.md)<br/>                                                                                                                                                                                                                                                             |
 | Управление наборами событий<br/>                                                  | Да<br/> | См. примечание 2<br/>                                                                                                                                                                                                                                                                                                                                        |
 | [**исимплефрамесите**](/windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite)<br/>                        | Нет<br/>  | [**Исимплефрамесите**](/windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite) и поддержка вложенных простых фреймов является необязательной.<br/>                                                                                                                                                                                                                                                    |
@@ -41,7 +41,7 @@ ms.locfileid: "105700999"
 
 Контейнеры элементов управления ActiveX должны поддерживать исключения OLE Automation. Если контейнер элемента управления поддерживает сдвоенные интерфейсы, он должен собирать исключения автоматизации с помощью [IErrorInfo](/windows/win32/api/oaidl/nn-oaidl-ierrorinfo).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
