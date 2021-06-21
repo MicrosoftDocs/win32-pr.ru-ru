@@ -1,18 +1,18 @@
 ---
-title: Косвенное Рисование
+title: Косвенная прорисовка
 description: Непрямая прорисовка позволяет перемещаться на несколько сцен из ЦП в GPU, что может повысить производительность. Буфер команд может создаваться ЦП или GPU.
 ms.assetid: F8D6C88A-101E-4F66-999F-43206F6527B6
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7731a662bc6064e635d68942e6b0b222adf1eda8
-ms.sourcegitcommit: 56f8e4d5119e5018363fa2dc3472cdff203c6913
+ms.openlocfilehash: 6fa474a469d5789d4b31830400d981ea771db2e8
+ms.sourcegitcommit: b9a7a48e52219bf8d33e6b8171fc9f8b52151e92
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "104548937"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "112421882"
 ---
-# <a name="indirect-drawing"></a>Косвенное Рисование
+# <a name="indirect-drawing"></a>Косвенная прорисовка
 
 Непрямая прорисовка позволяет перемещаться на несколько сцен из ЦП в GPU, что может повысить производительность. Буфер команд может создаваться ЦП или GPU.
 
@@ -126,14 +126,18 @@ ProgramDesc.pArguments = Args;
 D3D12_INDIRECT_ARGUMENT_DESC Args[4];
 Args[0].Type = D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT;
 Args[0].Constant.RootParameterIndex = 2;
+Args[0].Constant.DestOffsetIn32BitValues = 0;
+Args[0].Constant.Num32BitValuesToSet = 1;
 
 Args[1].Type = D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT;
 Args[1].Constant.RootParameterIndex = 6;
+Args[1].Constant.DestOffsetIn32BitValues = 0;
+Args[1].Constant.Num32BitValuesToSet = 1;
 
 Args[2].Type = D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW;
-Args[2].VertexBuffer.VBSlot = 3;
+Args[2].VertexBuffer.Slot = 3;
 
-Args[3].Type = D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INSTANCED;
+Args[3].Type = D3D12_INDIRECT_ARGUMENT_TYPE_DRAW;
 
 D3D12_COMMAND_SIGNATURE_DESC ProgramDesc;
 ProgramDesc.ByteStride = 40;
@@ -145,17 +149,17 @@ ProgramDesc.pArguments = Args;
 
 
 
-| Байты | Описание                     |
-|-------|---------------------------------|
-| 0:3   | Данные для индекса корневого параметра 2 |
-| 4:7   | Данные для индекса корневого параметра 6 |
-| 8:15  | Виртуальный адрес VB (64-разрядный)  |
-| 16:19 | Размер VB                         |
-| 20:23 | Шаг VB                       |
-| 24:27 | вертекскаунтперинстанце          |
-| 28:31 | InstanceCount                   |
-| 32:35 | стартвертекслокатион             |
-| 36:39 | стартинстанцелокатион           |
+| Байты | Описание                               |
+|-------|-------------------------------------------|
+| 0:3   | Данные для индекса корневого параметра 2           |
+| 4:7   | Данные для индекса корневого параметра 6           |
+| 8:15  | Виртуальный адрес VB в слоте 3 (64-разрядный)  |
+| 16:19 | Размер VB                                   |
+| 20:23 | Шаг VB                                 |
+| 24:27 | вертекскаунтперинстанце                    |
+| 28:31 | InstanceCount                             |
+| 32:35 | стартвертекслокатион                       |
+| 36:39 | стартинстанцелокатион                     |
 
 
 
