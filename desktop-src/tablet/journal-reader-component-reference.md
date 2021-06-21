@@ -11,20 +11,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/19/2021
 ms.locfileid: "112407487"
 ---
-# <a name="journal-reader-component-reference"></a><span data-ttu-id="1199e-103">Справочник по компоненту чтения журнала</span><span class="sxs-lookup"><span data-stu-id="1199e-103">Journal Reader Component Reference</span></span>
+# <a name="journal-reader-component-reference"></a><span data-ttu-id="1b164-103">Справочник по компоненту чтения журнала</span><span class="sxs-lookup"><span data-stu-id="1b164-103">Journal Reader Component Reference</span></span>
 
-<span data-ttu-id="1199e-104">В этом разделе содержится справочная документация по открытым классам в реализации COM компонента чтения журнала.</span><span class="sxs-lookup"><span data-stu-id="1199e-104">This section contains reference documentation of the public classes in the COM implementation of the Journal Reader component.</span></span>
+<span data-ttu-id="1b164-104">В этом разделе содержится справочная документация по открытым классам в реализации COM компонента чтения журнала.</span><span class="sxs-lookup"><span data-stu-id="1b164-104">This section contains reference documentation of the public classes in the COM implementation of the Journal Reader component.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="1199e-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="1199e-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1b164-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="1b164-105">In This Section</span></span>
 
--   [<span data-ttu-id="1199e-106">Классы и интерфейсы компонентов средства чтения журнала</span><span class="sxs-lookup"><span data-stu-id="1199e-106">Journal Reader Component Classes and Interfaces</span></span>](journal-reader-component-classes-and-interfaces.md)
--   [<span data-ttu-id="1199e-107">Идентификаторы GUID средства чтения журнала</span><span class="sxs-lookup"><span data-stu-id="1199e-107">Journal Reader GUIDs</span></span>](journal-reader-guids.md)
+-   [<span data-ttu-id="1b164-106">Классы и интерфейсы компонентов средства чтения журнала</span><span class="sxs-lookup"><span data-stu-id="1b164-106">Journal Reader Component Classes and Interfaces</span></span>](journal-reader-component-classes-and-interfaces.md)
+-   [<span data-ttu-id="1b164-107">Идентификаторы GUID средства чтения журнала</span><span class="sxs-lookup"><span data-stu-id="1b164-107">Journal Reader GUIDs</span></span>](journal-reader-guids.md)
 
-## <a name="related-topics"></a><span data-ttu-id="1199e-108">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="1199e-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1b164-108">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="1b164-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="1199e-109">Использование компонента чтения журнала</span><span class="sxs-lookup"><span data-stu-id="1199e-109">Using the Journal Reader Component</span></span>](using-the-journal-reader-component.md)
+[<span data-ttu-id="1b164-109">Использование компонента чтения журнала</span><span class="sxs-lookup"><span data-stu-id="1b164-109">Using the Journal Reader Component</span></span>](using-the-journal-reader-component.md)
 </dt> </dl>
 
  

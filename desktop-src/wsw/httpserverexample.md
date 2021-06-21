@@ -15,15 +15,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/19/2021
 ms.locfileid: "112409757"
 ---
-# <a name="httpserverexample"></a><span data-ttu-id="fac8c-107">хттпсерверексампле</span><span class="sxs-lookup"><span data-stu-id="fac8c-107">HttpServerExample</span></span>
+# <a name="httpserverexample"></a><span data-ttu-id="3b332-107">хттпсерверексампле</span><span class="sxs-lookup"><span data-stu-id="3b332-107">HttpServerExample</span></span>
 
-<span data-ttu-id="fac8c-108">В этом примере показан TCP-сервер, принимающий канал и принимающий сообщения и отвечающий на него.</span><span class="sxs-lookup"><span data-stu-id="fac8c-108">This example shows a TCP server that accepts a channel and receives and replies to messages.</span></span>
+<span data-ttu-id="3b332-108">В этом примере показан TCP-сервер, принимающий канал и принимающий сообщения и отвечающий на него.</span><span class="sxs-lookup"><span data-stu-id="3b332-108">This example shows a TCP server that accepts a channel and receives and replies to messages.</span></span>
 
--   [<span data-ttu-id="fac8c-109">HttpServer. cpp</span><span class="sxs-lookup"><span data-stu-id="fac8c-109">HttpServer.cpp</span></span>](#httpservercpp)
--   [<span data-ttu-id="fac8c-110">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="fac8c-110">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="fac8c-111">Makefile</span><span class="sxs-lookup"><span data-stu-id="fac8c-111">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="3b332-109">HttpServer. cpp</span><span class="sxs-lookup"><span data-stu-id="3b332-109">HttpServer.cpp</span></span>](#httpservercpp)
+-   [<span data-ttu-id="3b332-110">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="3b332-110">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="3b332-111">Makefile</span><span class="sxs-lookup"><span data-stu-id="3b332-111">Makefile</span></span>](#makefile)
 
-## <a name="httpservercpp"></a><span data-ttu-id="fac8c-112">HttpServer. cpp</span><span class="sxs-lookup"><span data-stu-id="fac8c-112">HttpServer.cpp</span></span>
+## <a name="httpservercpp"></a><span data-ttu-id="3b332-112">HttpServer. cpp</span><span class="sxs-lookup"><span data-stu-id="3b332-112">HttpServer.cpp</span></span>
 
 
 ```C++
@@ -489,7 +489,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="fac8c-113">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="fac8c-113">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="3b332-113">PurchaseOrder. WSDL</span><span class="sxs-lookup"><span data-stu-id="3b332-113">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -600,7 +600,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="fac8c-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="fac8c-114">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="3b332-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="3b332-114">Makefile</span></span>
 
 ``` syntax
 !include <Win32.Mak>
