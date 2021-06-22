@@ -22,7 +22,7 @@
             - name: Библиотека COM и элементы ActiveX (планшетный ПК)
               href: com-library-and-activex-controls--tablet-pc.md
         - name: Вопросы и ответы
-          href: frequently-asked-questions.md
+          href: frequently-asked-questions.yml
     - name: Программирование для планшетных ПК
       href: programming-the-tablet-pc.md
       items:
