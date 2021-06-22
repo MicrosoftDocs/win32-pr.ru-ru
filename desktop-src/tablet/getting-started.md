@@ -4,12 +4,12 @@ ms.assetid: 6d1d26b7-34e9-499c-805e-6861362f4ef8
 title: Начало работы (планшетный ПК)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c187ee6503f68834df040442facc0b3970e6453d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67d9fc4a76696fccb60d3ca4571b51631764091a
+ms.sourcegitcommit: 4be05a12840be3d2e7c71fe57401b2edee72e354
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145568"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112449907"
 ---
 # <a name="getting-started-tablet-pc"></a>Начало работы (планшетный ПК)
 
@@ -23,7 +23,7 @@ Tablet PC — это полнофункциональный персональн
 -   [Новые возможности разработки для планшетных ПК](what-s-new-in-tablet-pc-development.md)
 -   [Среда разработки](the-development-environment.md)
 -   [Ссылка на пакет SDK из Microsoft Visual Studio](referencing-the-sdk-from-microsoft-visual-studio.md)
--   [Часто задаваемые вопросы](frequently-asked-questions.md)
+-   [Часто задаваемые вопросы](frequently-asked-questions.yml)
 
  
 

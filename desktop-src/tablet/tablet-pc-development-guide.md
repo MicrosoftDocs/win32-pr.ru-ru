@@ -4,12 +4,12 @@ ms.assetid: f0fc7ab9-7653-45c5-be06-a628c6c3e526
 title: Планшетный ПК
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20fd2a8d76d0c1a6822b35b7613413efcbc9c5f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6c444a9dc2b08c75635335d5bb3b6f6330359f3
+ms.sourcegitcommit: 4be05a12840be3d2e7c71fe57401b2edee72e354
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999614"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112449897"
 ---
 # <a name="tablet-pc"></a>Планшетный ПК
 
@@ -19,7 +19,7 @@ Tablet PC — это полнофункциональный персональн
 
 Windows Touch, появившаяся в Windows 7, включает жесты Мультисенсорная и улучшенное сенсорное взаимодействие для пользователей.
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 Этот раздел содержит документацию по программированию, примеры программ и другие ресурсы для разработки программного обеспечения, предназначенные для развертывания на планшетном ПК.
 
@@ -39,11 +39,11 @@ Windows Touch, появившаяся в Windows 7, включает жесты 
 
     Содержит разделы, описывающие интерфейсы API специального назначения и ссылки, связанные с планшетным ПК.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Часто задаваемые вопросы](frequently-asked-questions.md)
+[Часто задаваемые вопросы](frequently-asked-questions.yml)
 </dt> </dl>
 
  
