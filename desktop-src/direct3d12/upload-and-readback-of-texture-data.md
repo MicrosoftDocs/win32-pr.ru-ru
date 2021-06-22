@@ -5,12 +5,12 @@ ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aadbd1e71b3c9895b75c973397488472b57f8eb1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f72177be1fefbf102e901d28d47413c8bcff41ab
+ms.sourcegitcommit: 39754f1af7853adff2525d0936afe9aad2066a9a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104549032"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112426968"
 ---
 # <a name="uploading-texture-data-through-buffers"></a>Отправка данных текстуры через буферы
 
@@ -134,7 +134,7 @@ const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 -   При копировании линейных подресурсов должно быть выравниваться до 512 байт (со высотам строки, выровненной по D3D12у \_ \_ \_ выравнивания по высоте данных текстуры \_ ).
 -   Число константных операций чтения данных должно быть кратно 256 байт от начала кучи (т. е. только по адресам, поддерживающим 256 байт).
 -   Считывание данных индекса должно быть кратным размеру типа данных индекса (т. е. только из адресов, которые естественным образом выровнены для данных).
--   [**ID3D12GraphicsCommandList::D равинстанцед**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced) и [**ID3D12GraphicsCommandList::D равиндексединстанцед**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced) данные должны относиться к значениям offset, кратным 4 (т. е. только из адресов, которые имеют выравниваемая по значению DWORD).
+-   [**ID3D12GraphicsCommandList:: ексекутеиндирект**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect) данные должны относиться к значениям смещения, кратным 4 (т. е. только из адресов, которые имеют ВЫРАВНИВАЕМАЯ по значению DWORD).
 
 ## <a name="related-topics"></a>Связанные темы
 
@@ -143,6 +143,6 @@ const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 [Подраспределение в буферах](large-buffers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
