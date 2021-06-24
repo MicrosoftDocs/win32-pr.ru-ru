@@ -4,20 +4,20 @@ description: Ниже приведены некоторые из новых до
 ms.assetid: 2512D222-C6EB-4C2D-80A6-7978FED56F7A
 ms.topic: article
 ms.date: 09/23/2019
-ms.openlocfilehash: 6b54a7f671ab6472ee2e412c2797d80bf7de245e
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: ea9e36487477f51179a77b97726b787a0f5da844
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349963"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587892"
 ---
 # <a name="whats-new-in-directwrite"></a>Новые возможности в DirectWrite
 
 В этом разделе описаны новые возможности [DirectWrite](direct-write-portal.md) для различных выпусков Windows 10.
 
-## <a name="project-reunion-01-prerelease"></a>Предварительная версия проекта Реюньон 0,1
+## <a name="windows-app-sdk"></a>Пакет SDK для приложений Windows
 
-В результате повторного [объединения проекта](/windows/apps/project-reunion/) появилась новая версия DirectWrite под названием двритекоре, которая работает в версиях Windows до Windows 8 и открывает дверцу для использования кросс-платформенной платформы. Дополнительные сведения см. в разделе [двритекоре Overview](dwritecore-overview.md).
+В [пакете SDK для приложений Windows](/windows/apps/windows-app-sdk/) появилась новая версия DirectWrite, которая называется двритекоре. Дополнительные сведения см. в разделе [двритекоре Overview](dwritecore-overview.md).
 
 ## <a name="windows-10-may-2019-update"></a>Обновления Windows 10 за май 2019 г.
 

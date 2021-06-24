@@ -6,12 +6,12 @@ keywords:
 - DirectWrite, интерфейсы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0297875bfe4b5f0a0610091f7330a427ed51b822
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8ff423289eb76a3506edb3537875a99a364be457
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105664789"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112588037"
 ---
 # <a name="directwrite-interfaces"></a>Интерфейсы DirectWrite
 
@@ -24,7 +24,7 @@ DirectWrite определяет следующие интерфейсы.
 | [**идвритеасинкресулт**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteasyncresult) | Представляет результат асинхронной операции. Клиент может использовать интерфейс для ожидания завершения операции, а также для получения результата.  |
 | [**идвритебитмапрендертаржет**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget) | 32 инкапсулирует независимое от устройства битовое изображение и контекст устройства, которые можно использовать для отрисовки глифов. |
 | [**IDWriteBitmapRenderTarget1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritebitmaprendertarget1) | 32 инкапсулирует независимое от устройства битовое изображение и контекст устройства, которые можно использовать для отрисовки глифов. |
-| [**IDWriteBitmapRenderTarget2**](./dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2.md) | 32 инкапсулирует независимое от устройства битовое изображение и контекст устройства, которые можно использовать для отрисовки глифов. |
+| [**IDWriteBitmapRenderTarget2**](/windows/windows-app-sdk/api/win32/dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2) | 32 инкапсулирует независимое от устройства битовое изображение и контекст устройства, которые можно использовать для отрисовки глифов. |
 | [**идвритеколорглифруненумератор**](idwritecolorglyphrunenumerator.md) | Этот интерфейс позволяет приложению выполнять перечисление по цвету глифа цвета. |
 | [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1) | Перечислитель упорядоченной коллекции глифов цвета. |
 | [**идвритефактори**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) | Используется для создания всех последующих объектов DirectWrite. Этот интерфейс является корневым интерфейсом фабрики для всех объектов DirectWrite. |

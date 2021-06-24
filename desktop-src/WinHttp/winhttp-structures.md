@@ -4,12 +4,12 @@ ms.assetid: e1567393-162e-48d4-8e6b-7620e351136c
 title: Структуры WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f09615e721b9d34243bd20074e83837e48a6803
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9d6f0cdbb467e916b1a6ac54b90491cbee9efdb
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263089"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587975"
 ---
 # <a name="winhttp-structures"></a>Структуры WinHTTP
 
@@ -52,6 +52,13 @@ WinHTTP использует следующие структуры:
 
 </dd> <dt>
 
+[**WINHTTP_CONNECTION_GROUP**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_connection_group)
+</dt> <dd>
+
+Представляет группу соединений.
+
+</dd> <dt>
+
 [**WINHTTP_CONNECTION_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info)
 </dt> <dd>
 
@@ -83,6 +90,20 @@ WinHTTP использует следующие структуры:
 
 </dd> <dt>
 
+[**WINHTTP_HOST_CONNECTION_GROUP**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_host_connection_group)
+</dt> <dd>
+
+Представляет коллекцию групп соединений.
+
+</dd> <dt>
+
+[**WINHTTP_MATCH_CONNECTION_GUID**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_match_connection_group)
+</dt> <dd>
+
+Представляет идентификатор GUID соединения в целях сопоставления соединений.
+
+</dd> <dt>
+
 [**WINHTTP_PROXY_INFO**](/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info)
 </dt> <dd>
 
@@ -101,6 +122,13 @@ WinHTTP использует следующие структуры:
 </dt> <dd>
 
 Результирующая запись из вызова [**винхттпжетпроксиресулт**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyresult).
+
+</dd> <dt>
+
+[**WINHTTP_QUERY_CONNECTION_GROUP_RESULT**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_query_connection_group_result)
+</dt> <dd>
+
+Представляет описание текущего состояния соединений WinHttp.
 
 </dd> <dt>
 

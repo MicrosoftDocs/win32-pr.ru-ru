@@ -4,12 +4,12 @@ ms.assetid: b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10
 title: OCM__BASE (Олектл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bc79cc842a7f25ba66dc8d807c5ab355fc04547
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa3713d8a7b7447430e914e2582089244a417b1c
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702239"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112588054"
 ---
 # <a name="ocm__base"></a>\_ \_ базовый OCM
 
@@ -20,7 +20,7 @@ ms.locfileid: "105702239"
 #define OCM__BASE                (WM_USER+0x1c00)
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведены диапазоны номеров сообщений.
 
@@ -28,7 +28,7 @@ ms.locfileid: "105702239"
 
 | Диапазон                                                 | Значение                                                        |
 |-------------------------------------------------------|----------------------------------------------------------------|
-| от 0 до [**WM \_ User**](wm-user.md)  1<br/>   | Сообщения, зарезервированные для использования системой.<br/>            |
+| от 0 до [**WM \_ User**](wm-user.md)-1<br/>   | Сообщения, зарезервированные для использования системой.<br/>            |
 | [**WM \_ ПОЛЬЗОВАТЕЛЬ**](wm-user.md) с помощью 0x7FFF<br/> | Целочисленные сообщения для использования классами закрытых окон.<br/> |
 | [**WM \_ ПРИЛОЖЕНИЕ**](wm-app.md) через 0xBFFF<br/>   | Сообщения, доступные для использования приложениями.<br/>         |
 | 0xC000 до 0xFFFF<br/>                      | Строковые сообщения для использования приложениями.<br/>            |
@@ -60,11 +60,11 @@ ms.locfileid: "105702239"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**регистервиндовмессаже**](/windows/win32/api/winuser/nf-winuser-registerwindowmessagea)

@@ -4,12 +4,12 @@ ms.assetid: dcb56d5d-ed0d-49bb-95bf-940a49c033f1
 title: Функции WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6511d2e66acc923072cc7a961aae3cb572b8e466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf5f9db8fcde5589a86556111bec6df3b2b18c76
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701578"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587749"
 ---
 # <a name="winhttp-functions"></a>Функции WinHTTP
 
@@ -80,6 +80,13 @@ ms.locfileid: "105701578"
 
 </dd> <dt>
 
+[**винхттпфрикуериконнектионграупресулт**](/windows/win32/api/Winhttp/nf-winhttp-winhttpfreequeryconnectiongroupresult)
+</dt> <dd>
+
+Освобождает память, выделенную предыдущим вызовом [винхттпкуериконнектионграуп](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup).
+
+</dd> <dt>
+
 [**винхттпжетдефаултпроксиконфигуратион**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetdefaultproxyconfiguration)
 </dt> <dd>
 
@@ -133,6 +140,13 @@ ms.locfileid: "105701578"
 </dt> <dd>
 
 Возвращает схемы авторизации, поддерживаемые сервером.
+
+</dd> <dt>
+
+[**винхттпкуериконнектионграуп**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup)
+</dt> <dd>
+
+Извлекает описание текущего состояния соединений WinHttp.
 
 </dd> <dt>
 

@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: cea9a2d31654d1263f285ee9967b24700fe25138
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: f6076440f117ed287ad544c308e574454f33e2b7
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105720833"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587800"
 ---
 # <a name="sio_tcp_info-control-code"></a>Код элемента управления SIO_TCP_INFO
 
@@ -67,7 +67,7 @@ int WSPIoctl(
 ### <a name="lpvinbuffer"></a>лпвинбуффер
 
 Указатель на входной буфер.
-Этот параметр содержит указатель на **DWORD** , указывающий версию управляющего кода **\_ TCP \_ SIO** . Укажите 0, чтобы использовать [TCP_INFO_v0](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0). Укажите 1, чтобы использовать [TCP_INFO_v1](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1), повидес больше полей.
+Этот параметр содержит указатель на **DWORD** , указывающий версию управляющего кода **\_ TCP \_ SIO** . Укажите 0, чтобы использовать [TCP_INFO_v0](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0). Укажите 1, чтобы использовать [TCP_INFO_v1](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1), который предоставляет больше полей.
 
 ### <a name="cbinbuffer"></a>кбинбуффер
 
@@ -139,11 +139,11 @@ int WSPIoctl(
 | **WSAEMSGSIZE** | Указатель на входной буфер имел **значение NULL** или указан неправильный размер входного буфера. |
 | **всаеинвал** | Указан недопустимый аргумент. Эта ошибка возвращается, если параметр *двиоконтролкоде* не является допустимой командой или указан недопустимый входной параметр, либо команда неприменима к указанному типу сокета. |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В отличие от получения статистики TCP с помощью функции [**жетперткпконнектионестатс**](/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats) , получение статистики TCP с помощью этого управляющего кода не требует от пользовательского кода загрузки, хранения и фильтрации таблицы соединений TCP, а также не требует повышенных привилегий для использования.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [фиксатор](/windows/desktop/api/winsock2/nf-winsock2-socket)
 

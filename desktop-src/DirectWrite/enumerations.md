@@ -6,12 +6,12 @@ keywords:
 - DirectWrite, перечисления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4e955fe4181386d58d23078a34e652f8d30c209
-ms.sourcegitcommit: 30a3a0c5ac58c78a72408cfe6cd3540e10e04c4b
+ms.openlocfilehash: baf26901583a84e34d64a2a1c72fdfa17bbc903b
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "104532513"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587930"
 ---
 # <a name="directwrite-enumerations"></a>Перечисления DirectWrite
 
@@ -49,6 +49,10 @@ DirectWrite определяет следующие перечисления.
 </tr>
 <tr>
 <td><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_factory_type"><strong>DWRITE_FACTORY_TYPE</strong></a></td>
+<td>Указывает тип объекта фабрики DirectWrite.</td>
+</tr>
+<tr>
+<td><a href="/windows/windows-app-sdk/api/win32/dwrite/ne-dwrite-dwrite_factory_type"><strong>DWRITE_FACTORY_TYPE (Двритекоре)</strong></a></td>
 <td>Указывает тип объекта фабрики DirectWrite.</td>
 </tr>
 <tr>

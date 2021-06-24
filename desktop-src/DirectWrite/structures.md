@@ -6,12 +6,12 @@ keywords:
 - DirectWrite, структуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea132cde1ea6b740cc02b938767f941e9c999e5a
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 19f678be8e02c8afecd849673d97ae20f6b1a710
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105684726"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587914"
 ---
 # <a name="directwrite-structures"></a>Структуры DirectWrite
 
@@ -21,7 +21,7 @@ DirectWrite определяет следующие структуры.
 
 | Раздел | Описание |
 |-|-|
-| [**DWRITE_BITMAP_DATA_BGRA32**](./dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32.md) | Представляет данные точечного рисунка в формате BGRA32. |
+| [**DWRITE_BITMAP_DATA_BGRA32**](/windows/windows-app-sdk/api/win32/dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32) | Представляет данные точечного рисунка в формате BGRA32. |
 | [**ДВРИТЕные \_ \_ метрики курсора**](/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics) | Структура [**\_ \_ метрик курсора дврите**](/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics) задает метрики для размещения курсора в шрифте. |
 | [**\_ \_ метрики кластера дврите**](/windows/win32/api/dwrite/ns-dwrite-dwrite_cluster_metrics) | Содержит сведения о кластере глифов. |
 | [**ДВРИТЕ \_ Color \_ F**](dwrite-color-f.md) | Описывает красный, зеленый, синий и альфа-компоненты цвета. |

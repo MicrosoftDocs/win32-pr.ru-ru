@@ -4,12 +4,12 @@ description: Современные приложения должны подде
 ms.assetid: 62a8d723-ae1c-4cbc-a9da-3177e80d4a3a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b1e2ff44083a56a7202847fc07ad9daaa67b7ba
-ms.sourcegitcommit: dd4a3716477b1363be58ecc0d439029f81467104
+ms.openlocfilehash: 4c6bdc75845c2387a4fa4335fa462d0b97ec5669
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "104488907"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587944"
 ---
 # <a name="directwrite-dwrite"></a>DirectWrite (DWrite)
 
@@ -28,7 +28,7 @@ ms.locfileid: "104488907"
 API поддерживает измерение, рисование и проверку попадания для текста в нескольких форматах. DirectWrite обрабатывает текст на всех поддерживаемых языках для глобальных и локализованных приложений, основываясь на ключевой инфраструктуре языка, обнаруженной в Windows 7. Кроме того, в DirectWrite имеется API низкоуровневой отрисовки глифов, предназначенный для разработчиков, которым необходимо использовать собственные раскладки и выполнять преобразование из Юникода в глифы.
 
 > [!NOTE]
-> В результате повторного [объединения проекта](/windows/apps/project-reunion/) появилась новая версия DirectWrite &mdash; под названием двритекоре &mdash; , которая работает в версиях Windows до Windows 8, и открывает дверцу для использования кросс-платформенной платформы. Дополнительные сведения см. в разделе [двритекоре Overview](dwritecore-overview.md).
+> [Пакет SDK для приложений Windows](/windows/apps/windows-app-sdk/) представляет новую версию DirectWrite &mdash; под названием двритекоре &mdash; , которая работает в версиях Windows до Windows 8, и открывает дверцу для использования кросс-платформенной платформы. Дополнительные сведения см. в разделе [двритекоре Overview](dwritecore-overview.md).
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 

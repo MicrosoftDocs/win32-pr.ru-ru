@@ -6,12 +6,12 @@ keywords:
 - DirectWrite, функции
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e3c773ade980e5359899c038fd13ba4a5cb69a2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 367017bd696477dbac99cee609ab4fdbbe522e26
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105661759"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587895"
 ---
 # <a name="directwrite-functions"></a>Функции DirectWrite
 
@@ -24,10 +24,4 @@ DirectWrite предоставляет следующую функцию. Все
 | Раздел                                                         | Описание                                                                                                             |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [**двритекреатефактори**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory)<br/> | Создает объект фабрики DirectWrite, который используется для последующего создания отдельных объектов DirectWrite.<br/> |
-
-
-
- 
-
- 
-
+| [**Двритекорекреатефактори (Двритекоре)**](/windows/windows-app-sdk/api/win32/dwrite_core/nf-dwrite_core-dwritecorecreatefactory)<br/> | Создает объект фабрики DirectWrite, который используется для последующего создания отдельных объектов Двритекоре.<br/> |
