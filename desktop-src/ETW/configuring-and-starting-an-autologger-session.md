@@ -4,12 +4,12 @@ ms.assetid: df5a79f4-abbf-4b83-afc3-cbd14b166067
 title: Настройка и запуск сеанса авторегистратора
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b17e7e818193aa4fa316d17a0e4392e41b55dfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6560aece87506b1d064981ee5f49a56bbf0da19e
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986137"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102043"
 ---
 # <a name="configuring-and-starting-an-autologger-session"></a>Настройка и запуск сеанса авторегистратора
 
@@ -82,7 +82,7 @@ HKEY_LOCAL_MACHINE
 <thead>
 <tr class="header">
 <th>Значение</th>
-<th>Тип</th>
+<th>Type</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -116,12 +116,12 @@ HKEY_LOCAL_MACHINE
 <tr class="odd">
 <td><strong>FileName</strong></td>
 <td><strong>REG_SZ</strong></td>
-<td>Полный путь к файлу журнала. Путь к этому файлу должен существовать. Файл журнала является последовательным файлом журнала. Длина пути ограничена 1024 символами.<br/> Если <strong>имя файла</strong> не указано, события записываются в%systemroot%\System32\LogFiles\WMI\ <sessionname> . ETL. <br/></td>
+<td>Полный путь к файлу журнала. Путь к этому файлу должен существовать. Файл журнала является последовательным файлом журнала. Длина пути ограничена 1024 символами.<br/> Если <strong>имя файла</strong> не указано, события записываются в%systemroot%\System32\LogFiles\WMI \& lt; sessionname &gt; . ETL. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>филемакс</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Максимальное число экземпляров файла журнала, создаваемых ETW. Если файл журнала, указанный в файле <strong>filename</strong> , существует, ETW добавляет значение <strong>филекаунтер</strong> к имени файла. Например, если используется имя файла журнала по умолчанию, то используется форма%SystemRoot%\System32\LogFiles\WMI\ <sessionname> . ETL. NNNN. <br/> При первом запуске компьютера имя файла — <sessionname> . ETL. 0001, второй раз — имя файла <sessionname> . ETL. 0002 и т. д. Если <strong>филемакс</strong> имеет значение 3, то при четвертом перезапуске компьютера ТРАССИРОВКА событий Windows сбрасывает счетчик в значение 1 и перезаписывает <sessionname> . ETL. 0001, если он существует.<br/> Максимальное число поддерживаемых экземпляров файла журнала — 16.<br/> Не используйте эту функцию в режиме файла журнала <a href="logging-mode-constants.md">EVENT_TRACE_FILE_MODE_NEWFILE</a> .<br/></td>
+<td>Максимальное число экземпляров файла журнала, создаваемых ETW. Если файл журнала, указанный в файле <strong>filename</strong> , существует, ETW добавляет значение <strong>филекаунтер</strong> к имени файла. Например, если используется имя файла журнала по умолчанию, то используется форма%SystemRoot%\System32\LogFiles\WMI \& lt; sessionname &gt; . ETL. NNNN. <br/> При первом запуске компьютера имя файла — &lt; sessionname &gt; . ETL. 0001, второй раз — имя файла &lt; sessionname &gt; . ETL. 0002 и т. д. Если <strong>филемакс</strong> имеет значение 3, то при четвертом перезапуске компьютера ТРАССИРОВКА событий Windows сбрасывает счетчик в значение 1 и перезаписывает. &lt; &gt; ETL. 0001, если он существует.<br/> Максимальное число поддерживаемых экземпляров файла журнала — 16.<br/> Не используйте эту функцию в режиме файла журнала <a href="logging-mode-constants.md">EVENT_TRACE_FILE_MODE_NEWFILE</a> .<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>флуштимер</strong></td>
@@ -183,7 +183,7 @@ HKEY_LOCAL_MACHINE
 <thead>
 <tr class="header">
 <th>Значение</th>
-<th>Тип</th>
+<th>Type</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -250,7 +250,7 @@ HKEY_LOCAL_MACHINE
 
 Дополнительные сведения о запуске сеанса ведения журнала ядра NT см. в разделе [Настройка и запуск сеанса ведения журнала ядра NT](configuring-and-starting-the-nt-kernel-logger-session.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

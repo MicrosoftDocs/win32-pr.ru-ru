@@ -4,16 +4,16 @@ ms.assetid: 63dc2991-e070-4981-9e2d-90b4fdaaee7a
 title: Объекты событий (синхронизация)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 365b42bb7550507fe3522f07d950dac74c88843d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03ef4f5102df91cabb76529c9d4a9958859418aa
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663885"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102140"
 ---
 # <a name="event-objects-synchronization"></a>Объекты событий (синхронизация)
 
-*Объект события* — это объект синхронизации, состояние которого можно явно задать в сигнальном виде с помощью функции [**выполнить SetEvent**](/windows/win32/api/synchapi/nf-synchapi-resetevent) . Ниже приведены два типа объектов событий.
+*Объект события* — это объект синхронизации, состояние которого можно явно задать в сигнальном виде с помощью функции [**выполнить SetEvent**](/windows/win32/api/synchapi/nf-synchapi-setevent) . Ниже приведены два типа объектов событий.
 
 
 
@@ -30,7 +30,7 @@ ms.locfileid: "105663885"
 
 Для создания объекта события поток использует функцию [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) или [**креативентекс**](/windows/win32/api/synchapi/nf-synchapi-createeventexa) . Создание потока указывает начальное состояние объекта, а также то, является ли он объектом события ручного сброса или автоматического сброса. В создаваемом потоке также может быть указано имя для объекта события. Потоки в других процессах могут открыть обработчик для существующего объекта события, указав его имя в вызове функции [**опеневент**](/windows/win32/api/synchapi/nf-synchapi-openeventa) . Дополнительные сведения об именах для мьютексов, событий, семафоров и объектов таймера см. в разделе [межпроцессная синхронизация](interprocess-synchronization.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6cacaaf5ad2a8204cc35b8a89f7c3c00e756116
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 10736d91da0e2c4efa2a3c981ab5c4f64e2af86d
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700603"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102142"
 ---
 # <a name="helper-functions-for-d3d12"></a>Вспомогательные функции для D3D12
 
@@ -25,7 +25,7 @@ ms.locfileid: "105700603"
 
 | Раздел                                                                                             | Описание                                                                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CommandListCast**](cd3dx12-shader-bytecode.md)<br/>                                     | Этот шаблон функции приводит указатель константы к любому списку команд в указатель const на ID3D12CommandList.<br/>                                                                                                                               |
+| [**CommandListCast**](commandlistcast.md)<br/>                                     | Этот шаблон функции приводит указатель константы к любому списку команд в указатель const на ID3D12CommandList.<br/>                                                                                                                               |
 | [**D3D12CalcSubresource**](d3d12calcsubresource.md)<br/>                                   | Вычисляет индекс подресурсов для текстуры. <br/>                                                                                                                                                                                                  |
 | [**D3D12DecomposeSubresource**](d3d12decomposesubresource.md)<br/>                         | Выводит срез MIP, срез массива и срез, соответствующие указанному индексу подресурса. <br/>                                                                                                                                        |
 | [**D3D12GetFormatPlaneCount**](d3d12getformatplanecount.md)<br/>                           | Возвращает число плоскостей для указанного формата DXGI для указанного виртуального адаптера ( **ID3D12Device**). <br/>                                                                                                                               |
@@ -43,7 +43,7 @@ ms.locfileid: "105700603"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
