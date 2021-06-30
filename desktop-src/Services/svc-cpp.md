@@ -4,18 +4,18 @@ ms.assetid: dc968bd2-0397-4cec-a825-f807037b4c14
 title: Svc.cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57db06947be0143712568eb8a25e8700fc075c7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6388a51335883aa48d15a52667d89d2188ac4ea3
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664093"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102123"
 ---
-# <a name="svccpp"></a><span data-ttu-id="c2c85-104">Svc.cpp</span><span class="sxs-lookup"><span data-stu-id="c2c85-104">Svc.cpp</span></span>
+# <a name="svccpp"></a><span data-ttu-id="55f53-104">Svc.cpp</span><span class="sxs-lookup"><span data-stu-id="55f53-104">Svc.cpp</span></span>
 
-<span data-ttu-id="c2c85-105">Ниже приведен полный пример службы.</span><span class="sxs-lookup"><span data-stu-id="c2c85-105">The following is a complete service sample.</span></span> <span data-ttu-id="c2c85-106">При использовании этого кода в качестве шаблона просто добавьте код в разделы, которые предшествуют `TO_DO` .</span><span class="sxs-lookup"><span data-stu-id="c2c85-106">When using this code as a template, simply add code to the sections that are prefaced by `TO_DO`.</span></span>
+<span data-ttu-id="55f53-105">Ниже приведен полный пример службы.</span><span class="sxs-lookup"><span data-stu-id="55f53-105">The following is a complete service sample.</span></span> <span data-ttu-id="55f53-106">При использовании этого кода в качестве шаблона просто добавьте код в разделы, которые предшествуют `TO_DO` .</span><span class="sxs-lookup"><span data-stu-id="55f53-106">When using this code as a template, simply add code to the sections that are prefaced by `TO_DO`.</span></span>
 
-<span data-ttu-id="c2c85-107">При построении примера обязательно свяжите с kernel32. lib и advapi32. lib.</span><span class="sxs-lookup"><span data-stu-id="c2c85-107">When building the sample, be sure to link with Kernel32.lib and Advapi32.lib.</span></span> <span data-ttu-id="c2c85-108">Файл Sample. h создается при создании библиотеки DLL только для ресурсов, Sample.dll.</span><span class="sxs-lookup"><span data-stu-id="c2c85-108">The file Sample.h is generated when building the resource-only DLL, Sample.dll.</span></span> <span data-ttu-id="c2c85-109">Дополнительные сведения см. в разделе [Sample.MC](sample-mc.md).</span><span class="sxs-lookup"><span data-stu-id="c2c85-109">For more information, see [Sample.mc](sample-mc.md).</span></span>
+<span data-ttu-id="55f53-107">При построении примера обязательно свяжите с kernel32. lib и advapi32. lib.</span><span class="sxs-lookup"><span data-stu-id="55f53-107">When building the sample, be sure to link with Kernel32.lib and Advapi32.lib.</span></span> <span data-ttu-id="55f53-108">Файл Sample. h создается при создании библиотеки DLL только для ресурсов, Sample.dll.</span><span class="sxs-lookup"><span data-stu-id="55f53-108">The file Sample.h is generated when building the resource-only DLL, Sample.dll.</span></span> <span data-ttu-id="55f53-109">Дополнительные сведения см. в разделе [Sample.MC](sample-mc.md).</span><span class="sxs-lookup"><span data-stu-id="55f53-109">For more information, see [Sample.mc](sample-mc.md).</span></span>
 
 
 ```C++
@@ -214,7 +214,7 @@ VOID SvcInit( DWORD dwArgc, LPTSTR *lpszArgv)
 
     if ( ghSvcStopEvent == NULL)
     {
-        ReportSvcStatus( SERVICE_STOPPED, NO_ERROR, 0 );
+        ReportSvcStatus( SERVICE_STOPPED, GetLastError(), 0 );
         return;
     }
 
@@ -354,11 +354,11 @@ VOID SvcReportEvent(LPTSTR szFunction)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="c2c85-110">См. также</span><span class="sxs-lookup"><span data-stu-id="c2c85-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="55f53-110">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="55f53-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c2c85-111">Полный пример службы</span><span class="sxs-lookup"><span data-stu-id="c2c85-111">The Complete Service Sample</span></span>](the-complete-service-sample.md)
+[<span data-ttu-id="55f53-111">Полный пример службы</span><span class="sxs-lookup"><span data-stu-id="55f53-111">The Complete Service Sample</span></span>](the-complete-service-sample.md)
 </dt> </dl>
 
  
