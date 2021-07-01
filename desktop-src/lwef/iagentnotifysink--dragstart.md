@@ -4,12 +4,12 @@ description: Иажентнотифисинк Драгстарт
 ms.assetid: b3905b99-69e4-4046-aab9-2322618935aa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 031e78319beb0f62ddb0ea340fca0cd7ed88c0a2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f33ae89f9e24c6c7b0ec69fba1a98b3a64a18620
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330075"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120828"
 ---
 # <a name="iagentnotifysinkdragstart"></a>Иажентнотифисинк::D Рагстарт
 
@@ -44,7 +44,7 @@ HRESULT DragStart(
 
 
 
-|        |                  |
+| Значение  | Описание      |
 |--------|------------------|
 | 0x0001 | Левая кнопка      |
 | 0x0010 | Средняя кнопка    |
@@ -55,7 +55,7 @@ HRESULT DragStart(
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -73,9 +73,9 @@ HRESULT DragStart(
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

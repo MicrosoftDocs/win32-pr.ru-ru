@@ -4,12 +4,12 @@ ms.assetid: d5419c40-43e9-49ff-a378-9aeb0757e400
 title: параметеринит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e211fcad2c53824c7786850a7fc78c6825c219a7
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0e0e0cadbf26d6ff516ab0ace90165e11420a9b7
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407267"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118979"
 ---
 # <a name="parameterinit"></a>параметеринит
 
@@ -43,7 +43,7 @@ ms.locfileid: "112407267"
 
 
 
-| Категория                   |                                                                                                   |
+| Категория                   | Имя или ограничение                                                                                                  |
 |----------------------------|---------------------------------------------------------------------------------------------------|
 | Родительские элементы<br/> | PrintTicket (корневой элемент PrintTicket)<br/>                                                         |
 | Дочерние элементы<br/>  | Значение (одно)<br/>                                                                            |

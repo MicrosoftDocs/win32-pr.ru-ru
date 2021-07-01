@@ -1,17 +1,17 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Просмотр элементов компонента, содержащих список элементов параметров и свойств, описывающих атрибут устройства, параметр форматирования задания или другие соответствующие характеристики.
 ms.assetid: 5a6553c2-f322-47e2-bbc8-44f6541f1288
-title: Функция
+title: Компонент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad89655181563e2da3a8d4841b1d90ecd4e6ac07
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b28ab7e8cc69ecc9ba3956fbae3c5278baace8cf
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105703518"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120639"
 ---
-# <a name="feature"></a>Функция
+# <a name="feature"></a>Компонент
 
 Этот раздел не является актуальным. Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
@@ -57,7 +57,7 @@ ms.locfileid: "105703518"
 <tbody>
 <tr class="odd">
 <td>Родительские элементы<br/></td>
-<td>PrintCapabilities <br/> PrintTicket <br/> Функция<br/></td>
+<td>PrintCapabilities <br/> PrintTicket <br/> Компонент<br/></td>
 </tr>
 <tr class="even">
 <td>Дочерние элементы<br/></td>
@@ -129,7 +129,7 @@ ms.locfileid: "105703518"
 </psf:Feature>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

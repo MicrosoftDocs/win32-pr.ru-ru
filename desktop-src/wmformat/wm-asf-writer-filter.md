@@ -1,6 +1,6 @@
 ---
 title: Фильтр модуля записи WM ASF (пакет SDK для формата Windows Media 11)
-description: Узнайте о фильтре модуля записи WM ASF.
+description: Узнайте о фильтре модуля записи WM ASF для пакета SDK Windows Media Format 11. Просмотрите сведения о фильтре и см. связанные разделы.
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:
 - Windows Media Format SDK, модуль записи WM ASF
@@ -11,12 +11,12 @@ keywords:
 - ASF (Расширенный системный формат), модуль записи WM ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0fbd6e36a8178f6ebd1943cdaac214597e0ba4e
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 24ee013b55455c3100ee23e076b767d70fb3ffda
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444705"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119669"
 ---
 # <a name="wm-asf-writer-filter-windows-media-format-11-sdk"></a>Фильтр модуля записи WM ASF (пакет SDK для формата Windows Media 11)
 

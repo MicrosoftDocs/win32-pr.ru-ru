@@ -4,12 +4,12 @@ ms.assetid: ee483f0a-5a90-4150-ada4-0b63ae312523
 title: Providers, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04e5aaedcd14d840cfdc0d85559f6a7981943593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d38a86bf3ca8ffa1ea9e3da20e0244e7abec8513
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263495"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118489"
 ---
 # <a name="providers-element"></a>Providers, элемент
 
@@ -53,13 +53,14 @@ ms.locfileid: "104263495"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|              |     |
-|--------------|-----|
-| Может быть пустым | Да |
-
-
+:::row:::
+    :::column:::
+        Может быть пустым
+    :::column-end:::
+    :::column span="2":::
+        Да
+    :::column-end:::
+:::row-end:::
 
 ## <a name="see-also"></a>См. также
 

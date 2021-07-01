@@ -4,12 +4,12 @@ ms.assetid: eb20f5e9-25f5-4f27-8ea5-83f6819425ed
 title: Типы систем координат
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05908196662918eb93f4fa6e2b356a6989ed5a58
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e259f43d4fc0d6a74021f3a6125f85652f51ac95
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104554540"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120629"
 ---
 # <a name="types-of-coordinate-systems"></a>Типы систем координат
 
@@ -27,7 +27,7 @@ ms.locfileid: "104554540"
 
 
 
-|        |                         |
+| Пробел       |  Координаты конечной точки                       |
 |--------|-------------------------|
 | World  | (от 0 до 0) до (160, 80)     |
 | Страница   | (100, 50) в (260, 130) |
@@ -74,7 +74,7 @@ myGraphics.DrawLine(&myPen, 0, 0, 2, 1);
 
 
 
-|        |                     |
+| Пробел       | Координаты конечной точки                    |
 |--------|---------------------|
 | World  | (0, 0) на (2, 1)    |
 | Страница   | (0, 0) на (2, 1)    |
@@ -103,7 +103,7 @@ myGraphics.DrawLine(&myPen, 0, 0, 2, 1);
 
 
 
-|        |                         |
+| Пробел       | Координаты конечной точки                        |
 |--------|-------------------------|
 | World  | (0, 0) на (2, 1)        |
 | Страница   | (от 2, 0,5) до (4, 1,5)    |

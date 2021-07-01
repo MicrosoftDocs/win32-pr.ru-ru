@@ -13,22 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3b0cd944b175522ab7d722ae791f3548c6633b71
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c31bc829f8990517ddbea8be7c25eead413ab666
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103783312"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120579"
 ---
 # <a name="getrendertargetsampleposition"></a>жетрендертаржетсамплепоситион
 
 Возвращает позиции выборки (x, y) для данного образца индекса.
 
-
-
-|                                                                                  |
-|----------------------------------------------------------------------------------|
-| float<2> Жетрендертаржетсамплепоситион (в int<1> индекс<br/>); |
+float<2> Жетрендертаржетсамплепоситион (в int<1> индекс<br/>);
 
 
 
@@ -50,7 +46,7 @@ ms.locfileid: "103783312"
 
 Координата (x, y) данного образца.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Используйте эту функцию и [**жетрендертаржетсамплекаунт**](dx-graphics-hlsl-getrendertargetsamplecount.md) , чтобы узнать число и положение местоположений выборки для целевого объекта прорисовки.
 
@@ -62,7 +58,7 @@ ms.locfileid: "103783312"
 
 | Модель шейдера                                                        | Поддерживается |
 |---------------------------------------------------------------------|-----------|
-| [Модели шейдеров 4](dx-graphics-hlsl-sm4.md) и более поздних шейдеров | да       |
+| [Модели шейдеров 4](dx-graphics-hlsl-sm4.md) и более поздних шейдеров | yes       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)           | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md)           | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)           | Нет        |

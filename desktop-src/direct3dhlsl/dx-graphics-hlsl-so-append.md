@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 97ab88961b22529accb4402fc2bd095ede5275c1
-ms.sourcegitcommit: 477b1efe7d9c2f91d5f2ac588a20edf348b1c734
+ms.openlocfilehash: 19d767f3c501cc42e21bbc44a196ba08cd6f1883
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104335811"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120189"
 ---
 # <a name="append-directx-hlsl-stream-output-object"></a>Append (объект DirectX HLSL Stream-Output)
 
 Добавление в существующий поток выходных данных с помощью шейдера Geometry-Shader.
 
-
-
-|                            |
-|----------------------------|
-| Append ( *стреамдататипе*); |
+Append ( *стреамдататипе*);
 
 
 
@@ -83,7 +79,7 @@ void GS_CubeMap( triangle GS_CUBEMAP_IN input[3],
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | yes       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -92,7 +88,7 @@ void GS_CubeMap( triangle GS_CUBEMAP_IN input[3],
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

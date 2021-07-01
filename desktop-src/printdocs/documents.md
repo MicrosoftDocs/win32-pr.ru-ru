@@ -4,12 +4,12 @@ ms.assetid: 14ae2c97-8596-46db-a55c-ef706d2cd00b
 title: XPS-документы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa96324014d00a2a9fc106347fbeafe9842dedd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 625c2f04a43db9433fe125b52a4bbc08e37fb4f4
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703140"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119989"
 ---
 # <a name="xps-documents"></a>XPS-документы
 
@@ -18,7 +18,7 @@ ms.locfileid: "105703140"
 -   [Выбор технологии документов](#choosing-a-document-technology)
 -   [В этом разделе](#in-this-section)
 -   [Средства документов XPS](#xps-document-tools)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 
 ## <a name="choosing-a-document-technology"></a>Выбор технологии документов
@@ -63,13 +63,13 @@ ms.locfileid: "105703140"
 
  
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 В этом разделе описаны собственные технологии документов Windows, поддерживаемые Microsoft Windows.
 
 
 
-|                                                                    |                                                                                                                                                                                                                                 |
+| Технология документов                                                                   | Описание                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [API документов XPS](documents-xps.md)<br/>                   | Предоставляет надежный формат для электронной бумаги.<br/> API документа XPS, описанный в этом разделе, предоставляет программам и драйверам печати доступ к содержимому и метаданным документа XPS.<br/> |
 | [API цифровой подписи XPS](xps-digital-signatures.md)<br/> | Включает подписывание документов, проверку удостоверения подписавшего и указывает, изменился ли документ XPS с момента подписания.<br/>                                                                          |
@@ -95,7 +95,7 @@ ms.locfileid: "105703140"
 
     Средство, проверяющее допустимость документов PrintTicket и PrintCapabilities.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

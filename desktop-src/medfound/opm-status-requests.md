@@ -4,12 +4,12 @@ ms.assetid: 428d08c6-e9f0-49fb-9ef9-d0f95416669d
 title: Запросы состояния ОПМ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd994d7cb8d43db23fe59352dba830e741b74b98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdbf7338fe1309feb49fd191e3f4a1a22f3639b4
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811585"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120179"
 ---
 # <a name="opm-status-requests"></a>Запросы состояния ОПМ
 
@@ -17,7 +17,7 @@ ms.locfileid: "103811585"
 
 
 
-|              |                                                                                                                                                            |
+| Значение             | Описание                                                                                                                                                           |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GUID запроса | Идентифицирует запрос. Задайте для элемента **гуидсеттинг** структуры [**\_ \_ \_ Parameters получения сведений ОПМ**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) значение, равное этому значению. |
 | Входные данные   | Указывает способ интерпретации массива **абпараметерс** в структуре [**параметров ОПМ \_ Get \_ info \_**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) .                      |
@@ -50,7 +50,7 @@ ms.locfileid: "103811585"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

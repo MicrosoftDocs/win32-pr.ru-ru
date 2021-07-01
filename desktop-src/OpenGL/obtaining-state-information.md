@@ -8,29 +8,64 @@ keywords:
 - сведения о состоянии OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfac92233e971104fd4d343970a9ecc79496ed54
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8329fd34fc68122be8d63e4dc28756f88faf7797
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775254"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120689"
 ---
 # <a name="obtaining-state-information"></a>Получение сведений о состоянии
 
 OpenGL поддерживает множество переменных состояния, влияющих на поведение многих функций. Некоторые из этих переменных имеют специализированные функции запросов.
 
+:::row:::
+    :::column:::
+        [**глжетклипплане**](glgetclipplane.md)
+    :::column-end:::
+    :::column:::
+        [**глжетпикселмап**](glgetpixelmap.md)
+    :::column-end:::
+    :::column:::
+        [**глжеттексимаже**](glgetteximage.md)
+    :::column-end:::
+:::row-end:::
 
+:::row:::
+    :::column:::
+        [**глжетлигхт**](glgetlight.md)
+    :::column-end:::
+    :::column:::
+        [**глжетполигонстиппле**](glgetpolygonstipple.md)
+    :::column-end:::
+    :::column:::
+        [**глжеттекслевелпараметер**](glgettexlevelparameter.md)
+    :::column-end:::
+:::row-end:::
 
-|                                          |                                                    |                                                          |
-|------------------------------------------|----------------------------------------------------|----------------------------------------------------------|
-| [**глжетклипплане**](glgetclipplane.md) | [**глжетпикселмап**](glgetpixelmap.md)             | [**глжеттексимаже**](glgetteximage.md)                   |
-| [**глжетлигхт**](glgetlight.md)         | [**глжетполигонстиппле**](glgetpolygonstipple.md) | [**глжеттекслевелпараметер**](glgettexlevelparameter.md) |
-| [**глжетмап**](glgetmap.md)             | [**глжеттексенв**](glgettexenv.md)                 | [**глжеттекспараметер**](glgettexparameter.md)           |
-| [**глжетматериал**](glgetmaterial.md)   | [**глжеттексжен**](glgettexgen.md)                 |                                                          |
+:::row:::
+    :::column:::
+        [**глжетмап**](glgetmap.md)
+    :::column-end:::
+    :::column:::
+        [**глжеттексенв**](glgettexenv.md)
+    :::column-end:::
+    :::column:::
+        [**глжеттекспараметер**](glgettexparameter.md)
+    :::column-end:::
+:::row-end:::
 
+:::row:::
+    :::column:::
+        [**глжетматериал**](glgetmaterial.md)
+    :::column-end:::
+    :::column:::
+        [**глжеттексжен**](glgettexgen.md)
+    :::column-end:::
+    :::column:::
 
-
- 
+    :::column-end:::
+:::row-end:::
 
 Чтобы получить значения других переменных состояния, используйте [**глжетбулеанв**](glgetbooleanv.md), [**глжетдаублев**](glgetdoublev.md), [**глжетфлоатв**](glgetfloatv.md)или [**глжетинтежерв**](glgetintegerv.md), если это уместно. Сведения об использовании этих функций см. в разделе [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) . Другие функции запросов, которые вы можете использовать, — [**глжетеррор**](glgeterror.md), [**глжетстринг**](glgetstring.md)и [**глисенаблед**](glisenabled.md). (Дополнительные сведения о функциях, связанных с обработкой ошибок, см. в разделе [Обработка ошибок](handling-errors.md) .) Чтобы сохранить и восстановить наборы переменных состояния, используйте [**глпушаттриб**](glpushattrib.md) и [**глпопаттриб**](glpopattrib.md).
 
@@ -41,9 +76,9 @@ OpenGL поддерживает множество переменных сост
 -   [Переменные состояния OpenGL](opengl-state-variables.md)
 -   [Справочник по сведениям о состоянии](state-information-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

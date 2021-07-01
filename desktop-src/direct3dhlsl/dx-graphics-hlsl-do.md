@@ -14,22 +14,18 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46c0ced3c9747f0bfbdf01847b21350a45b68aa6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a1f019af77ef0021ad0574bf703ff2a2a52ac0f6
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273767"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118789"
 ---
 # <a name="do-statement"></a>Do, инструкция
 
 Непрерывно выполнять последовательность операторов до тех пор, пока не завершится выполнение условного выражения.
 
-
-
-|                                                                     |
-|---------------------------------------------------------------------|
-| \[*Атрибут* \] Do { *блок операторов*;} while ( *Условный* ); |
+\[*Атрибут* \] Do { *блок операторов*;} while ( *Условный* );
 
 
 
@@ -76,11 +72,11 @@ ms.locfileid: "104273767"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>ОЦидл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>ОЦидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48f96d2c23e64700a7a923cdd7633dabfcba9d1d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a11d2701d488fe29ae6d0bc0742c32c803b28076
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892754"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118409"
 ---
 # <a name="mim_data-message"></a>\_Сообщение данных MIM
 
@@ -45,7 +45,7 @@ dwParam2 = dwTimestamp
 
 
 
-| Требование | Значение |
+| Требование | Значение | Описание |
 |-----------|-----------------|-----------------------------------------------------|
 | Высокое слово | Байт высокого порядка | Не используется.                                           |
 |           | Байт низкого порядка  | Содержит второй байт данных MIDI (при необходимости).  |
@@ -71,7 +71,7 @@ dwParam2 = dwTimestamp
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщения MIDI, полученные с порта ввода MIDI, имеют состояние "отключено". Каждое сообщение разворачивается для включения байта состояния MIDI.
 
@@ -89,7 +89,7 @@ dwParam2 = dwTimestamp
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

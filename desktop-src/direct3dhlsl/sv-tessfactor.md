@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 808365fbcba4a1180c1838b94a6c098aa4c6f9ac
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 308034fe607283ef9f1213cca1cabb4a7229765e
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999061"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118899"
 ---
 # <a name="sv_tessfactor"></a>ОКП \_ тессфактор
 
@@ -28,9 +28,8 @@ ms.locfileid: "107999061"
 
 
 
-|            |                |
+|  Тип          |  Топология ввода              |
 |------------|----------------|
-| Тип       | Топология ввода |
 | float \[ 4\] | четыре исправления     |
 | float \[ 3\] | три исправления      |
 | float \[ 2\] | исолине        |
@@ -41,7 +40,7 @@ ms.locfileid: "107999061"
 
 Факторы тесселяции должны быть объявлены как массив. они не могут быть упакованы в один вектор.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Значение фактора тесселяции должно быть определено во время функции Constant исправления шейдера поверхности.
 
@@ -61,7 +60,7 @@ ms.locfileid: "107999061"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
+| Вершина | Поверхности | Домен | Geometry | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 

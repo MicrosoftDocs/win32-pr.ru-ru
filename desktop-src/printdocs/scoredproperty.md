@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Найдите сведения об элементе Скоредпроперти. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 0552d301-5105-490f-962b-135c8c2e936b
 title: скоредпроперти
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1605d173e0ab311841a6fcc37a46a0ba3b59b005
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: cb93fbdaeb6101cbd1ff75d6c0b3a829afe0d317
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105720825"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119119"
 ---
 # <a name="scoredproperty"></a>скоредпроперти
 
@@ -67,7 +67,7 @@ ms.locfileid: "105720825"
 </psf:ScoredProperty>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

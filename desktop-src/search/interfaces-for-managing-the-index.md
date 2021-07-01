@@ -1,15 +1,15 @@
 ---
-description: 'Поиск Windows позволяет управлять индексом Windows Search с помощью трех основных компонентов: Диспетчер поиска, диспетчер каталогов и Диспетчер области обхода содержимого.'
+description: Узнайте, как Windows Search позволяет управлять индексом Windows Search с помощью диспетчера поиска, диспетчера каталогов и диспетчера области обхода содержимого.
 ms.assetid: 80f0387c-5c91-41b8-9767-5f5e6563c112
 title: Интерфейсы для управления индексом
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7191fbdb4e83c9e3f1460b96123901b5f277b41a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f68360ec9c4a616f74392fd9dd34fc9f53b46114
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262930"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120019"
 ---
 # <a name="interfaces-for-managing-the-index"></a>Интерфейсы для управления индексом
 
@@ -62,7 +62,7 @@ ms.locfileid: "104262930"
 </tbody>
 </table>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Управление индексом](-search-3x-wds-mngidx-overview.md)
 

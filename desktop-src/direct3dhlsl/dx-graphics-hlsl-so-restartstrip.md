@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 16b31bbd1e2f72ce6b31a0c079f7ec5739aba87a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: aafd6407d556a6d0b4269c38192107edbc7cb1fa
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997079"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120199"
 ---
 # <a name="restartstrip-directx-hlsl-stream-output-object"></a>Рестартстрип (объект DirectX HLSL Stream-Output)
 
 Завершает текущую ленту-примитив и запускает новую. Если текущая полоса не имеет достаточного количества вершин, выдаваемых для заливки примитивной топологии, неполный примитив в конце будет отклонен.
 
-
-
-|                 |
-|-----------------|
-| Рестартстрип (); |
+Рестартстрип ();
 
 
 
@@ -65,7 +61,7 @@ None
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | yes       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -74,7 +70,7 @@ None
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

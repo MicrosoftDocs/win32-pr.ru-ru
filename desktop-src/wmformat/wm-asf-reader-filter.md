@@ -1,6 +1,6 @@
 ---
 title: Фильтр чтения WM ASF (пакет SDK для формата Windows Media 11)
-description: Дополнительные сведения о фильтре модуля чтения WM ASF.
+description: Узнайте о фильтре модуля чтения WM ASF для пакета SDK Windows Media Format 11. Просмотрите сведения о фильтре и см. связанные разделы.
 ms.assetid: 3d5ca88a-86bd-4d84-b4f4-782564ced58d
 keywords:
 - Пакет SDK для Windows Media Format, средство чтения WM ASF
@@ -11,12 +11,12 @@ keywords:
 - ASF (Расширенный системный формат), читатель WM ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 421ab634a0d68837b22961b37005c5670d73e5fa
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 26bde36b1b2cfa7644d6e75d8d1ff96260b2e457
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444285"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119649"
 ---
 # <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>Фильтр чтения WM ASF (пакет SDK для формата Windows Media 11)
 

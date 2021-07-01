@@ -4,16 +4,19 @@ ms.assetid: 23693eb7-cc8d-4757-bca7-394114d9a3c9
 title: Графика и игры DirectX
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac372f7480e498fa9da18e6553c3e367fd3f14aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceb7ba5fc771b88feb340e1b12c8e4f6d025e4dd
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544207"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120039"
 ---
 # <a name="directx-graphics-and-gaming"></a>Графика и игры DirectX
 
 Этот материал посвящен использованию DirectX в приложении Win32. Сведения об использовании DirectX в приложении UWP см. в статье [Windows 10 Game Development Guide (UWP)](/windows/uwp/gaming/e2e).
+
+> [!TIP]
+> Описание и ссылки на компоненты DirectX в активной разработке см. на [странице размещения DirectX](https://devblogs.microsoft.com/directx/landing-page/)в записи блога.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -33,7 +36,7 @@ ms.locfileid: "104544207"
 | [API-интерфейсы XAudio2](./xaudio2/xaudio2-apis-portal.md) | Обеспечивает обработку сигнала и смешивание для игр. XAudio2 заменяет [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)). |
 | [API игрового контроллера Ксинпут](./xinput/xinput-game-controller-apis-portal.md) | Описывает, как использовать API Ксинпут для взаимодействия с контроллером Xbox 360, когда он подключен к компьютеру Windows. Ксинпут заменяет [директинпут](/previous-versions/windows/desktop/ee416842(v=vs.85)). |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Звук и видео](./audio-and-video.md)
 * [Графика и игры](./graphics-and-multimedia.md)

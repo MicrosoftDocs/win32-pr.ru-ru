@@ -4,12 +4,12 @@ description: Иажентбаллун Сетфонтчарсет
 ms.assetid: ce1b152d-c8af-47ec-9e6b-5768dbcf3566
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6202aa144d13c3c7435be03721a3f8fd4878b93
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 18cc462895ff9f19f7e722660608a268af13446f
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700691"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120209"
 ---
 # <a name="iagentballoonsetfontcharset"></a>Иажентбаллун:: Сетфонтчарсет
 
@@ -34,7 +34,7 @@ HRESULT SetFontCharSet(
 
 
 
-|     |                                                                                        |
+| Значение    | Набор знаков                                                                                       |
 |-----|----------------------------------------------------------------------------------------|
 | 0   | Стандартные символы Windows (ANSI).                                                    |
 | 1   | Набор символов по умолчанию.                                                                 |
@@ -47,7 +47,7 @@ HRESULT SetFontCharSet(
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -55,14 +55,14 @@ HRESULT SetFontCharSet(
 
 Кодировка по умолчанию, используемая в текстовой подсказке для символа, определяется в редакторе символов Microsoft Agent. Его можно изменить с помощью [**иажентбаллун:: сетфонтчарсет**](https://www.bing.com/search?q=**IAgentBalloon::SetFontCharSet**). Однако пользователь может переопределить параметр кодировки для всех символов с помощью страницы свойств Microsoft Agent. Это свойство применяется только к символу, используемому вашим клиентским приложением. Этот параметр не влияет на другие клиенты символов или других символов клиентского приложения.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентбаллун:: Жетфонтчарсет**](iagentballoon--getfontcharset.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

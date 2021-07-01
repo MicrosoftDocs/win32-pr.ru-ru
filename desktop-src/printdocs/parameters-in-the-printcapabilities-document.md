@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Общие сведения о параметрах в документе PrintCapabilities. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: d317d052-c207-412a-896e-09cb57b0dd5f
 title: Параметры в документе PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ecfcfee581014bdb57ff70adebaf5f4c8b6fedc
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: cc6b2ba61f1985fdcd02f40e8e08100725968a8e
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104351832"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118629"
 ---
 # <a name="parameters-in-the-printcapabilities-document"></a>Параметры в документе PrintCapabilities
 
@@ -21,7 +21,7 @@ ms.locfileid: "104351832"
 
 В документе о ключевых словах «Печать схемы» определено несколько часто используемых конструкций параметров, но поставщики PrintCapabilities могут самостоятельно определять дополнительные собственные конструкции. Однако эти закрытые конструкции параметров не переносятся на другие устройства из-за того факта, что PrintCapabilities документ, предоставленный другой стороной, не определяет такую конструкцию параметра. Независимо от того, определена ли схема или частный тип, экземпляр Параметердеф должен присутствовать в документе PrintCapabilities до того, как параметр распознается и используется клиентами. Эти параметры называются *назначенными параметрами*.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

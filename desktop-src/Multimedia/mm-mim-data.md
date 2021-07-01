@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa8c015ba5e08302f7567fe8f474bedca74d3064
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2a79a5a4ab6b0422705fe737ba3da4a6fd4f923
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071229"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119699"
 ---
 # <a name="mm_mim_data-message"></a>\_Сообщение данных MIM (мм) \_
 
@@ -52,7 +52,7 @@ lParam = (LPARAM) (DWORD) lMidiMessage
 
 
 
-| Требование | Значение |
+| Требование | Значение | Описание |
 |-----------|-----------------|-----------------------------------------------------|
 | Высокое слово | Байт высокого порядка | Не используется.                                           |
 |           | Байт низкого порядка  | Содержит второй байт данных MIDI (при необходимости).  |
@@ -71,7 +71,7 @@ lParam = (LPARAM) (DWORD) lMidiMessage
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщения MIDI, полученные с порта ввода MIDI, имеют состояние "отключено". Каждое сообщение разворачивается для включения байта состояния MIDI.
 
@@ -89,7 +89,7 @@ lParam = (LPARAM) (DWORD) lMidiMessage
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

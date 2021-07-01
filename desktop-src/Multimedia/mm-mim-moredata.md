@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b67835a67c957a250fe1ae6d391f5ebd56d5301b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3079c537ddca056ca690537c27edd95826de1189
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071597"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120029"
 ---
 # <a name="mm_mim_moredata-message"></a>\_Сообщение о \_ MOREDATAе mm MIM
 
@@ -52,7 +52,7 @@ lParam = (LPARAM) (DWORD) lMidiMessage
 
 
 
-| Требование | Значение |
+| Требование | Значение | Описание |
 |-----------|-----------------|-----------------------------------------------------|
 | Высокое слово | Байт высокого порядка | Не используется.                                           |
 |           | Байт низкого порядка  | Содержит второй байт данных MIDI (при необходимости).  |
@@ -71,7 +71,7 @@ lParam = (LPARAM) (DWORD) lMidiMessage
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если приложение будет отправлять данные MIDI быстрее, чем оно может обработать, не следует использовать механизм обратного вызова окна. Чтобы добиться максимальной скорости, используйте функцию обратного вызова и используйте [**сообщение \_ MOREDATA MIM**](mim-moredata.md) вместо mm \_ MIM \_ MOREDATA.
 
@@ -95,7 +95,7 @@ lParam = (LPARAM) (DWORD) lMidiMessage
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

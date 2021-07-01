@@ -4,12 +4,12 @@ ms.assetid: 0d355ad1-d674-432e-809a-9fb27ac5f610
 title: Microsoft Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db8f14a671550e75343311e0cddf488690496af4
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 4341a0aea1d51c7260e0fa532eb48b80699e053a
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103914059"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119159"
 ---
 # <a name="microsoft-media-foundation"></a>Microsoft Media Foundation
 
@@ -21,7 +21,7 @@ Media Foundation — это платформа мультимедийных да
 
 
 
-|                                                                                      |                                                                                                                                                        |
+| Раздел                                                                                     | Описание                                                                                                                                                       |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Новые возможности для Media Foundation](whats-new-for-media-foundation.md)                | Описание изменений в последней версии Media Foundation.                                                                                  |
 | [О Media Foundation](about-the-media-foundation-sdk.md)                         | Список нужных вам заголовков и библиотек, а также описание средств и примеров кода, предоставляемых для упрощения Media Foundation разработки. |
@@ -33,7 +33,7 @@ Media Foundation — это платформа мультимедийных да
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

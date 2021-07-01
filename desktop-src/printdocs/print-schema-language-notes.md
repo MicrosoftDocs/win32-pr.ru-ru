@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Ознакомьтесь с примечаниями для языка схемы печати. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: a14462de-19bd-472d-a073-3a9810c0aee9
 title: Заметки языка схемы печати
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d4c4a6c5d169d02844027b1e3af55f8fb1a8789
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 69bd25354860abe1fe7cd92600482398a03d7e39
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104273337"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118989"
 ---
 # <a name="print-schema-language-notes"></a>Заметки языка схемы печати
 
@@ -29,7 +29,7 @@ ms.locfileid: "104273337"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

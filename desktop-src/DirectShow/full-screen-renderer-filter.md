@@ -4,12 +4,12 @@ ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: Фильтр модуля подготовки отчетов в полноэкранном режиме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c175907ef0f60c3b1fe183eb0941b5118d24c9f2
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 3d331ff6f31d1c985c7e255b23381a289931da60
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908612"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120479"
 ---
 # <a name="full-screen-renderer-filter"></a>Фильтр модуля подготовки отчетов в полноэкранном режиме
 
@@ -36,15 +36,14 @@ ms.locfileid: "107908612"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Средство подготовки полноэкранного режима поддерживает статический набор режимов отображения. Однако видеоадаптер в системе пользователя может не поддерживать все режимы. Чтобы определить, поддерживает ли карта определенный режим, вызовите метод [**ифуллскринвидеоекс:: исмодеаваилабле**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-ifullscreenvideoex-ismodeavailable) . Вы также можете отключить определенный режим просмотра программным путем, вызвав метод [**ифуллскринвидеоекс:: сетенаблед**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-ifullscreenvideoex-setenabled). В настоящее время модуль подготовки отчетов в полноэкранном режиме поддерживает режимы отображения, показанные в следующей таблице.
 
 
 
-| Метка | Значение |
-|------|-------|--------|-----------|
 | Режим | Ширина | Высота: | Битовая глубина |
+|------|-------|--------|-----------|
 | 0    | 320   | 200    | 16        |
 | 1    | 320   | 200    | 8         |
 | 2    | 320   | 240    | 16        |

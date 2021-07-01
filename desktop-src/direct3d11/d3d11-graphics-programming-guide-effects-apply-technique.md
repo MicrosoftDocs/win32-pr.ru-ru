@@ -1,15 +1,15 @@
 ---
 title: Применение методики (Direct3D 11)
-description: Когда константы, текстуры и состояние шейдера объявлены и инициализированы, осталось только установить состояние воздействия на устройстве.
+description: Узнайте, как задать состояние воздействия на устройстве для Direct3D 11 после объявления и инициализации констант, текстур и состояния шейдера.
 ms.assetid: 16001913-7ae2-4629-a625-eb850e29fc77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e67668b27c1f0271974f20edc62619a7b1ae8ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 136d03f92957eaf1b3d501c0acd54aafde7e16d8
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068063"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118949"
 ---
 # <a name="apply-a-technique-direct3d-11"></a>Применение методики (Direct3D 11)
 
@@ -54,16 +54,16 @@ ms.locfileid: "104068063"
 
 Результат не отображает ничего, он просто устанавливает состояние воздействия на устройство. Код отрисовки вызывается после того, как состояние действия изменит состояние устройства. В этом примере вызов Дравиндексед выполняет отрисовку.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Отрисовка результата (Direct3D 11)](d3d11-graphics-programming-guide-effects-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

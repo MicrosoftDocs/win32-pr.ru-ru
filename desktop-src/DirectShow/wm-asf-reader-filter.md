@@ -1,15 +1,15 @@
 ---
-description: Фильтр чтения WM ASF
+description: Сведения о фильтре модуля чтения WM ASF для DirectShow. Это фильтр оболочки для объекта модуля чтения, поставляемого с пакетом SDK Windows Media Format.
 ms.assetid: 82b9f849-b9dc-439b-8ca7-9dcd992338ab
 title: Фильтр чтения WM ASF (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a35cea4b6dbf8c720f3059e0317484fd2f34d10
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 330ab870b97fc3e84ccb5b0f726d4f35ef1af147
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908872"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118669"
 ---
 # <a name="wm-asf-reader-filter-directshow"></a>Фильтр чтения WM ASF (DirectShow)
 
@@ -34,7 +34,7 @@ ms.locfileid: "107908872"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При наличии имени файла ASF или URL-адреса средство чтения WM ASF считывает сжатое содержимое, анализирует сжатые потоки и предоставляет закрепление вывода для каждого из них. Этот фильтр подключается к фильтрам аудио-и видеокодеков, которые выполняют распаковку. Поиск поддерживается, если ASF-файл доступен для поиска. Время чтения ASF помечает образцы перед их прямой отправкой, но не изменяет метки времени каким бы то ни было образом.
 

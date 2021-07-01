@@ -4,12 +4,12 @@ ms.assetid: 1ce4a5ee-c053-4d31-a984-dc11acebbf2a
 title: элемент Keyword
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b11632a257e7d51378ddb816124e51548746a178
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ba871fea760ed3b604048ade2722afc0323e03b
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702921"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119379"
 ---
 # <a name="keyword-element"></a>элемент Keyword
 
@@ -38,8 +38,6 @@ ms.locfileid: "105702921"
 
 ## <a name="parent-elements"></a>Родительские элементы
 
-
-
 | Элемент                                   |
 |-------------------------------------------|
 | [**мфдетаурс**](mfdetours.md)<br/> |
@@ -47,7 +45,7 @@ ms.locfileid: "105702921"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для элемента [**мфдетаурс**](mfdetours.md) допустимые ключевые слова перечислены в разделе [Ключевые слова мфтраце](mftrace-keywords.md).
 
@@ -55,13 +53,14 @@ ms.locfileid: "105702921"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-
-
-|              |     |
-|--------------|-----|
-| Может быть пустым | Да |
-
-
+:::row:::
+    :::column:::
+        Может быть пустым
+    :::column-end:::
+    :::column span="2":::
+        Да
+    :::column-end:::
+:::row-end:::
 
 ## <a name="see-also"></a>См. также
 

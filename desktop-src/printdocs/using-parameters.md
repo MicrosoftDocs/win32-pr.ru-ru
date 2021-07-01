@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Узнайте, как использовать параметры в документе PrintCapabilities. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 4a596604-8a0d-4971-96f3-643727312cfc
 title: Использование параметров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 950fe8fc7c79ed27c467b59ef67132e816cdcd63
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6417a6d30716cf19d22773c28dbf471e75f967d6
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104273327"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119399"
 ---
 # <a name="using-parameters"></a>Использование параметров
 
@@ -23,7 +23,7 @@ ms.locfileid: "104273327"
 
 Если существует зависимость PrintCapabilities от параметров, указанных в PrintTicket, поставщики PrintCapabilities должны отслеживать значения Параметеринит и создавать соответствующий PrintCapabilities документ.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

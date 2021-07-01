@@ -4,12 +4,12 @@ ms.assetid: 52a044cc-a471-4951-adbe-32319b8e3129
 title: Альфа-смешение (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f68cb34d189fb80d23cbb5eeec9d9006aa93a1eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4add2aca8ac4e2d7e1b24988eb5d40f80bac259c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985073"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120289"
 ---
 # <a name="alpha-blending-windows-gdi"></a>Альфа-смешение (Windows GDI)
 
@@ -33,16 +33,35 @@ typedef struct {
 
 Он представлен в памяти, как показано в следующей таблице.
 
+:::row:::
+    :::column:::
+        31:24
+    :::column-end:::
+    :::column:::
+        23:16
+    :::column-end:::
+    :::column:::
+        15:08
+    :::column-end:::
+    :::column:::
+        07:00
+    :::column-end:::
+:::row-end:::
 
-
-|       |       |       |       |
-|-------|-------|-------|-------|
-| 31:24 | 23:16 | 15:08 | 07:00 |
-| Коэффициент альфа | Красный   | Зеленый | Синий  |
-
-
-
- 
+:::row:::
+    :::column:::
+        Коэффициент альфа
+    :::column-end:::
+    :::column:::
+        Красный
+    :::column-end:::
+    :::column:::
+        Зеленый
+    :::column-end:::
+    :::column:::
+        Синий
+    :::column-end:::
+:::row-end:::
 
 Точечные рисунки также могут отображаться с коэффициентом прозрачности, применяемым ко всему точечному рисунку. Любой формат растрового изображения может быть отображен с глобальным константным альфа-значением путем установки **саурцеконстанталфа** в структуре [**блендфунктион**](/windows/desktop/api/Wingdi/ns-wingdi-blendfunction) . Значение глобальной константы Alpha имеет 256 уровней прозрачности, от 0 (весь точечный рисунок полностью прозрачен) до 255 (все растровое изображение полностью непрозрачно). Значение глобальной константы Alpha сочетается с альфа-значением для каждого пикселя.
 

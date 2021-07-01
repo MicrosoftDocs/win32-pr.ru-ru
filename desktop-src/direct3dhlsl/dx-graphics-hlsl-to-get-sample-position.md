@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 062bf08064faf112fdc1efe5b371fcad72efeeea
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9a1e5f4dc71d5af2e7973ef180c919a49e65ef81
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412137"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118589"
 ---
 # <a name="getsampleposition-directx-hlsl-texture-object"></a>Жетсамплепоситион (объект текстуры DirectX HLSL)
 
 Возвращает расположение указанного образца.
 
-
-
-|                                        |
-|----------------------------------------|
-| RET Object. Жетсамплепоситион (int s); |
+RET Object. Жетсамплепоситион (int s);
 
 
 
@@ -63,7 +59,7 @@ ms.locfileid: "104412137"
 
 -   Модель шейдеров 4,1 доступна в Direct3D 10,1 или более поздней версии.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Построитель текстуры можно оценить по частоте выборки (запустите построитель текстуры один раз для каждого образца) или с частотой в пикселях (запустите построитель текстуры один раз в пиксель). Присоединение \_ семантики SV SampleIndex к входным шейдером пикселей для вызова построителя текстуры с частотой выборки. Входное значение затем используется в качестве образца индекса при выборке целевого объекта отрисовки.
 
@@ -73,7 +69,7 @@ ms.locfileid: "104412137"
 -   В качестве примера используйте \_ семантику SV SampleIndex.
 -   Центроид расположение, используйте модификатор [ \_ центроид](dx-graphics-hlsl-struct.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,26 +13,22 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 525abf6d815d2073ee39a6bc6a5a81120cf652ee
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 876c69f3ecfcf1ee1c8391ccc503b2316056b37a
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104983757"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119589"
 ---
 # <a name="return-statement"></a>Оператор return
 
 Оператор Return сообщает об окончании функции.
 
-
-
-|                   |
-|-------------------|
-| возвращаемое \[ значение \] ; |
+возвращаемое \[ значение \] ;
 
 
 
- 
+ 
 
 Простейший оператор return возвращает управление из функции в вызывающую программу; Он не возвращает значения.
 
@@ -109,16 +105,16 @@ VS_OUTPUT VertexShader_Tutorial_1(float4 inPos : POSITION )
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Функции (DirectX HLSL)](dx-graphics-hlsl-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

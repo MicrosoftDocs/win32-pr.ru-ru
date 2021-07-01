@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ececb41bc0f9dc0cef187c083afc72ba5fc899a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6342823e13a085b377a3e71f28a0f9ff016681c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103804097"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119410"
 ---
 # <a name="mim_moredata-message"></a>\_Сообщение MOREDATA MIM
 
@@ -45,7 +45,7 @@ dwParam2 = dwTimestamp
 
 
 
-| Требование | Значение |
+| Требование | Значение | Описание |
 |-----------|-----------------|-----------------------------------------------------|
 | Высокое слово | Байт высокого порядка | Не используется.                                           |
 |           | Байт низкого порядка  | Содержит второй байт данных MIDI (при необходимости).  |
@@ -71,7 +71,7 @@ dwParam2 = dwTimestamp
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно выполнять только минимальный объем обработки \_ сообщений MOREDATA MIM. (В частности, приложения не должны вызывать функцию [посообщений](/windows/win32/api/winuser/nf-winuser-postmessagea) при обработке MIM \_ . MOREDATA.) Вместо этого приложение должно поместить данные события в буфер, а затем вернуть.
 
@@ -93,7 +93,7 @@ dwParam2 = dwTimestamp
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

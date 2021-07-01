@@ -4,12 +4,12 @@ description: Подготовка Иажентчарактер
 ms.assetid: e016039f-a0b1-4ae9-bff6-7212b02c1ad8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eebee8d2ea99c8782e9506e0e4a812cfb277487
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b383bf10330934379990693b75fe2908a432f8d5
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069970"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119879"
 ---
 # <a name="iagentcharacterprepare"></a>Иажентчарактер::P готовка
 
@@ -60,7 +60,7 @@ HRESULT Prepare(
 
 
 
-|                      |                                                 |
+|                      | Описание                                     |
 |----------------------|-------------------------------------------------|
 | **"Жестуринг"**      | Для получения всех анимаций состояния **жестуринг** . |
 | **"Жестурингдовн"**  | Для получения анимации **жестурингдовн** .       |

@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Дополнительные сведения о более сложных определениях параметров. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: fafced09-97fd-44f6-a41b-e17757c85c38
 title: Более сложные определения параметров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d56dea81059aea806e66b55895c595ad6610dc77
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6c8118a94308664b7e5e22f2f21e4a0cc9fe944d
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105693924"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118459"
 ---
 # <a name="more-elaborate-option-definitions"></a>Более сложные определения параметров
 
@@ -17,7 +17,7 @@ ms.locfileid: "105693924"
 
 Этот раздел можно пропустить при первом чтении. Однако поставщики и потребители должны уметь обрабатывать различные сценарии, которые могут возникать при обработке документов PrintTicket и PrintCapabilities, содержащих эти особые случаи.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

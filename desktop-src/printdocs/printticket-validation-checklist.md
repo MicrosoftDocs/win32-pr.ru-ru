@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Проверьте контрольный список для проверки PrintTicket. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 4698f151-2237-4d16-b32f-4d15024cd063
 title: Контрольный список для проверки PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 160a0e9f3eb71b1e9a3b670456e04e2efa3c8b15
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6154b7cabb5825a0f0edcc8f90b8294557001f1a
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105713324"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120149"
 ---
 # <a name="printticket-validation-checklist"></a>Контрольный список для проверки PrintTicket
 
@@ -65,7 +65,7 @@ ms.locfileid: "105713324"
 
 16. Если поставщик PrintTicket распознает и поддерживает все закрытые или общедоступные экземпляры свойств, которые в данный момент несохранившиись, выполните на них проверку. Не удаляйте свойство на этом этапе, просто потому, что оно не распознается, оно может быть предназначено для другого этапа обработки документов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
