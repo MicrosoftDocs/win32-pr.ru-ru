@@ -9,47 +9,47 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f8c6ef7c14ac54610301f283d076751b0c4d4a5e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 54092caf19a486b68b92ef63d992f11289a51c93
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986221"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113130093"
 ---
-# <a name="add---ps"></a><span data-ttu-id="a9f7a-104">Add-PS</span><span class="sxs-lookup"><span data-stu-id="a9f7a-104">add - ps</span></span>
+# <a name="add---ps"></a><span data-ttu-id="dc711-104">Add-PS</span><span class="sxs-lookup"><span data-stu-id="dc711-104">add - ps</span></span>
 
-<span data-ttu-id="a9f7a-105">Складывает два вектора.</span><span class="sxs-lookup"><span data-stu-id="a9f7a-105">Adds two vectors.</span></span>
+<span data-ttu-id="dc711-105">Складывает два вектора.</span><span class="sxs-lookup"><span data-stu-id="dc711-105">Adds two vectors.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a9f7a-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a9f7a-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dc711-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="dc711-106">Syntax</span></span>
 
 
 
-| <span data-ttu-id="a9f7a-107">Добавление летнего времени, src0, src1</span><span class="sxs-lookup"><span data-stu-id="a9f7a-107">add dst, src0, src1</span></span> |
+| <span data-ttu-id="dc711-107">Добавление летнего времени, src0, src1</span><span class="sxs-lookup"><span data-stu-id="dc711-107">add dst, src0, src1</span></span> |
 |---------------------|
 
 
 
  
 
-<span data-ttu-id="a9f7a-108">где</span><span class="sxs-lookup"><span data-stu-id="a9f7a-108">where</span></span>
+<span data-ttu-id="dc711-108">where</span><span class="sxs-lookup"><span data-stu-id="dc711-108">where</span></span>
 
--   <span data-ttu-id="a9f7a-109">DST — это регистр назначения.</span><span class="sxs-lookup"><span data-stu-id="a9f7a-109">dst is the destination register.</span></span>
--   <span data-ttu-id="a9f7a-110">src0 является исходным регистром.</span><span class="sxs-lookup"><span data-stu-id="a9f7a-110">src0 is a source register.</span></span>
--   <span data-ttu-id="a9f7a-111">src1 является исходным регистром.</span><span class="sxs-lookup"><span data-stu-id="a9f7a-111">src1 is a source register.</span></span>
+-   <span data-ttu-id="dc711-109">DST — это регистр назначения.</span><span class="sxs-lookup"><span data-stu-id="dc711-109">dst is the destination register.</span></span>
+-   <span data-ttu-id="dc711-110">src0 является исходным регистром.</span><span class="sxs-lookup"><span data-stu-id="dc711-110">src0 is a source register.</span></span>
+-   <span data-ttu-id="dc711-111">src1 является исходным регистром.</span><span class="sxs-lookup"><span data-stu-id="dc711-111">src1 is a source register.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a9f7a-112">Примечания</span><span class="sxs-lookup"><span data-stu-id="a9f7a-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dc711-112">Remarks</span><span class="sxs-lookup"><span data-stu-id="dc711-112">Remarks</span></span>
 
 
 
-| <span data-ttu-id="a9f7a-113">Версии шейдеров пикселей</span><span class="sxs-lookup"><span data-stu-id="a9f7a-113">Pixel shader versions</span></span> | <span data-ttu-id="a9f7a-114">1\_1</span><span class="sxs-lookup"><span data-stu-id="a9f7a-114">1\_1</span></span> | <span data-ttu-id="a9f7a-115">1\_2</span><span class="sxs-lookup"><span data-stu-id="a9f7a-115">1\_2</span></span> | <span data-ttu-id="a9f7a-116">1 \_ 3</span><span class="sxs-lookup"><span data-stu-id="a9f7a-116">1\_3</span></span> | <span data-ttu-id="a9f7a-117">1\_4</span><span class="sxs-lookup"><span data-stu-id="a9f7a-117">1\_4</span></span> | <span data-ttu-id="a9f7a-118">2 \_ 0</span><span class="sxs-lookup"><span data-stu-id="a9f7a-118">2\_0</span></span> | <span data-ttu-id="a9f7a-119">2 \_ x</span><span class="sxs-lookup"><span data-stu-id="a9f7a-119">2\_x</span></span> | <span data-ttu-id="a9f7a-120">2 \_ SW</span><span class="sxs-lookup"><span data-stu-id="a9f7a-120">2\_sw</span></span> | <span data-ttu-id="a9f7a-121">3 \_ 0</span><span class="sxs-lookup"><span data-stu-id="a9f7a-121">3\_0</span></span> | <span data-ttu-id="a9f7a-122">3 \_ SW</span><span class="sxs-lookup"><span data-stu-id="a9f7a-122">3\_sw</span></span> |
+| <span data-ttu-id="dc711-113">Версии шейдеров пикселей</span><span class="sxs-lookup"><span data-stu-id="dc711-113">Pixel shader versions</span></span> | <span data-ttu-id="dc711-114">1\_1</span><span class="sxs-lookup"><span data-stu-id="dc711-114">1\_1</span></span> | <span data-ttu-id="dc711-115">1\_2</span><span class="sxs-lookup"><span data-stu-id="dc711-115">1\_2</span></span> | <span data-ttu-id="dc711-116">1 \_ 3</span><span class="sxs-lookup"><span data-stu-id="dc711-116">1\_3</span></span> | <span data-ttu-id="dc711-117">1\_4</span><span class="sxs-lookup"><span data-stu-id="dc711-117">1\_4</span></span> | <span data-ttu-id="dc711-118">2 \_ 0</span><span class="sxs-lookup"><span data-stu-id="dc711-118">2\_0</span></span> | <span data-ttu-id="dc711-119">2 \_ x</span><span class="sxs-lookup"><span data-stu-id="dc711-119">2\_x</span></span> | <span data-ttu-id="dc711-120">2 \_ SW</span><span class="sxs-lookup"><span data-stu-id="dc711-120">2\_sw</span></span> | <span data-ttu-id="dc711-121">3 \_ 0</span><span class="sxs-lookup"><span data-stu-id="dc711-121">3\_0</span></span> | <span data-ttu-id="dc711-122">3 \_ SW</span><span class="sxs-lookup"><span data-stu-id="dc711-122">3\_sw</span></span> |
 |-----------------------|------|------|------|------|------|------|-------|------|-------|
-| <span data-ttu-id="a9f7a-123">add</span><span class="sxs-lookup"><span data-stu-id="a9f7a-123">add</span></span>                   | <span data-ttu-id="a9f7a-124">x</span><span class="sxs-lookup"><span data-stu-id="a9f7a-124">x</span></span>    | <span data-ttu-id="a9f7a-125">x</span><span class="sxs-lookup"><span data-stu-id="a9f7a-125">x</span></span>    | <span data-ttu-id="a9f7a-126">x</span><span class="sxs-lookup"><span data-stu-id="a9f7a-126">x</span></span>    | <span data-ttu-id="a9f7a-127">x</span><span class="sxs-lookup"><span data-stu-id="a9f7a-127">x</span></span>    | <span data-ttu-id="a9f7a-128">x</span><span class="sxs-lookup"><span data-stu-id="a9f7a-128">x</span></span>    | <span data-ttu-id="a9f7a-129">x</span><span class="sxs-lookup"><span data-stu-id="a9f7a-129">x</span></span>    | <span data-ttu-id="a9f7a-130">x</span><span class="sxs-lookup"><span data-stu-id="a9f7a-130">x</span></span>     | <span data-ttu-id="a9f7a-131">x</span><span class="sxs-lookup"><span data-stu-id="a9f7a-131">x</span></span>    | <span data-ttu-id="a9f7a-132">x</span><span class="sxs-lookup"><span data-stu-id="a9f7a-132">x</span></span>     |
+| <span data-ttu-id="dc711-123">add</span><span class="sxs-lookup"><span data-stu-id="dc711-123">add</span></span>                   | <span data-ttu-id="dc711-124">x</span><span class="sxs-lookup"><span data-stu-id="dc711-124">x</span></span>    | <span data-ttu-id="dc711-125">x</span><span class="sxs-lookup"><span data-stu-id="dc711-125">x</span></span>    | <span data-ttu-id="dc711-126">x</span><span class="sxs-lookup"><span data-stu-id="dc711-126">x</span></span>    | <span data-ttu-id="dc711-127">x</span><span class="sxs-lookup"><span data-stu-id="dc711-127">x</span></span>    | <span data-ttu-id="dc711-128">x</span><span class="sxs-lookup"><span data-stu-id="dc711-128">x</span></span>    | <span data-ttu-id="dc711-129">x</span><span class="sxs-lookup"><span data-stu-id="dc711-129">x</span></span>    | <span data-ttu-id="dc711-130">x</span><span class="sxs-lookup"><span data-stu-id="dc711-130">x</span></span>     | <span data-ttu-id="dc711-131">x</span><span class="sxs-lookup"><span data-stu-id="dc711-131">x</span></span>    | <span data-ttu-id="dc711-132">x</span><span class="sxs-lookup"><span data-stu-id="dc711-132">x</span></span>     |
 
 
 
  
 
-<span data-ttu-id="a9f7a-133">В следующем фрагменте кода показаны выполняемые операции.</span><span class="sxs-lookup"><span data-stu-id="a9f7a-133">The following code snippet shows the operations performed.</span></span>
+<span data-ttu-id="dc711-133">В следующем фрагменте кода показаны выполняемые операции.</span><span class="sxs-lookup"><span data-stu-id="dc711-133">The following code snippet shows the operations performed.</span></span>
 
 
 ```
@@ -61,23 +61,23 @@ dest.w = src0.w + src1.w;
 
 
 
-## <a name="instruction-information"></a><span data-ttu-id="a9f7a-134">Сведения о инструкции</span><span class="sxs-lookup"><span data-stu-id="a9f7a-134">Instruction Information</span></span>
+## <a name="instruction-information"></a><span data-ttu-id="dc711-134">Сведения о инструкции</span><span class="sxs-lookup"><span data-stu-id="dc711-134">Instruction Information</span></span>
 
 
 
-|                          |            |
+|   <span data-ttu-id="dc711-135">Требование</span><span class="sxs-lookup"><span data-stu-id="dc711-135">Requirement</span></span>                       | <span data-ttu-id="dc711-136">Значение</span><span class="sxs-lookup"><span data-stu-id="dc711-136">Value</span></span>           |
 |--------------------------|------------|
-| <span data-ttu-id="a9f7a-135">Минимальная операционная система</span><span class="sxs-lookup"><span data-stu-id="a9f7a-135">Minimum operating system</span></span> | <span data-ttu-id="a9f7a-136">Windows 98</span><span class="sxs-lookup"><span data-stu-id="a9f7a-136">Windows 98</span></span> |
+| <span data-ttu-id="dc711-137">Минимальная операционная система</span><span class="sxs-lookup"><span data-stu-id="dc711-137">Minimum operating system</span></span> | <span data-ttu-id="dc711-138">Windows 98</span><span class="sxs-lookup"><span data-stu-id="dc711-138">Windows 98</span></span> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="a9f7a-137">См. также</span><span class="sxs-lookup"><span data-stu-id="a9f7a-137">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="dc711-139">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="dc711-139">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a9f7a-138">Инструкции шейдера пикселей</span><span class="sxs-lookup"><span data-stu-id="a9f7a-138">Pixel Shader Instructions</span></span>](dx9-graphics-reference-asm-ps-instructions.md)
+[<span data-ttu-id="dc711-140">Инструкции шейдера пикселей</span><span class="sxs-lookup"><span data-stu-id="dc711-140">Pixel Shader Instructions</span></span>](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
  
