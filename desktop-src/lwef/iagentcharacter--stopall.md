@@ -4,12 +4,12 @@ description: Иажентчарактер Стопалл
 ms.assetid: cb0ce220-7b35-45c0-b587-30939d26740f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bbe745f0611d184fefd729c04e50635bc4006e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 558ca23b500ee2146470c8d595b2a5a64febf59a
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710113"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120917"
 ---
 # <a name="iagentcharacterstopall"></a>Иажентчарактер:: Стопалл
 
@@ -31,7 +31,7 @@ HRESULT StopAll();
 
 
 
-|                                                                                   |                                                                                                          |
+| Значение                                                                                  |  Описание                                                                                                        |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Тип **беззнаковой неподписанного типа Long без знака** **\_ \_ ALL = 0xFFFFFFFF;**<br/>              | Останавливает все запросы анимации, включая запросы на [**подготовку**](iagentcharacter--prepare.md) , не связанные с очередями. |
 | Тип **постоянного неподписанного длинного** **\_ типа " \_ воспроизвести = 0x00000001;** "<br/>             | Останавливает все запросы на воспроизведение.                                                                                 |
@@ -47,7 +47,7 @@ HRESULT StopAll();
 
 </dd> </dl>
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактер:: останавливаться**](iagentcharacter--stop.md)
 

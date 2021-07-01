@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 556655d793e94b9290fcd1a4a40fdf7f797e80ae
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2fbcb934ad591274d743f09c810de2db42278261
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996970"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129872"
 ---
 # <a name="dcl_samplertype-sm3---vs-asm"></a>дкл \_ самплертипе (SM3-VS ASM)
 
@@ -22,15 +22,11 @@ ms.locfileid: "104996970"
 
 ## <a name="syntax"></a>Синтаксис
 
-
-
-|                      |
-|----------------------|
-| дкл \_ самплертипе s\# |
+дкл \_ самплертипе s\#
 
 
 
- 
+ 
 
 где:
 
@@ -40,7 +36,7 @@ ms.locfileid: "104996970"
     -   \_тома
 -   s \# определяет образец, где s — это аббревиатура для образца, а \# — номер образца. [Образцы (Direct3D 9 ASM-VS)](dx9-graphics-reference-asm-vs-registers-sampler.md)s являются псевдо, так как вы не можете напрямую читать их или записывать.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -50,20 +46,20 @@ ms.locfileid: "104996970"
 
 
 
- 
+ 
 
 Все \_ инструкции самплертипе дкл должны располагаться перед первой исполняемой инструкцией.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

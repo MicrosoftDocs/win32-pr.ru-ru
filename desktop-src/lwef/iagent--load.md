@@ -4,12 +4,12 @@ description: Иажент Загрузка
 ms.assetid: 8f25e6b6-a117-4b37-969a-d8f80c7be224
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4e30a25abb631714384f8349a9d260deade0d6d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 80ce2835d60f3edce6f45d181927437ba6e58b18
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987488"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120937"
 ---
 # <a name="iagentload"></a>Иажент:: Load
 
@@ -36,14 +36,14 @@ HRESULT Load(
 
 
 
-|            |                                                                       |
+| Значение           | Описание                                                                      |
 |------------|-----------------------------------------------------------------------|
 | *filespec* | Локальное расположение файла определения указанного символа. |
 | *URL-адрес*      | HTTP-адрес для файла определения символа.                 |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -71,6 +71,6 @@ HRESULT Load(
 
 При загрузке символа символ не отображается автоматически. Чтобы сделать символ видимым, сначала используйте метод [**Показать**](show-method.md) .
 
- 
+ 
 
- 
+ 

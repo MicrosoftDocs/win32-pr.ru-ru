@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Поиск сведений об элементе PrintTicket. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: fe6bd921-cbf3-4cca-afae-82d3822206ba
 title: PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3d2e225eb38584e290db55c33594be80d0d7999
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b279ff681704a63f6547738c73fb9192d6f8a65d
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105684820"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120079"
 ---
 # <a name="printticket"></a>PrintTicket
 
@@ -61,7 +61,7 @@ ms.locfileid: "105684820"
 
 См. [Пример PrintTicket](printticket-example.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

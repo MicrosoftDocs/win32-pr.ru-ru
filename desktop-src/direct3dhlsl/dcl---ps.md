@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ad61ea8d733ed01fcd2e57ba06c38e0b3efac682
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 4f2ba81650611351970ff4068edaa75d27d34fc4
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412207"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113130103"
 ---
 # <a name="dcl---sm2-sm3---ps-asm"></a>дкл-(SM2, SM3-PS ASM)
 
@@ -22,15 +22,11 @@ ms.locfileid: "104412207"
 
 ## <a name="syntax"></a>Синтаксис
 
-
-
-|                           |
-|---------------------------|
-| дкл \[ \_ PP \] dest \[ . Mask\] |
+дкл \[ \_ PP \] dest \[ . Mask\]
 
 
 
- 
+ 
 
 Где:
 
@@ -38,7 +34,7 @@ ms.locfileid: "104412207"
 -   dest — это регистр назначения. Это должен быть либо [Регистр цвета ввода](dx9-graphics-reference-asm-ps-registers-input-color.md) (VN), либо [регистр текстурной координаты](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) (тн).
 -   \[. Mask \] — это необязательная маска записи, которая определяет, в какие компоненты регистра назначения могут быть записаны. См. раздел " [маска записи целевого регистра](dx9-graphics-reference-asm-ps-registers-modifiers-write-mask.md)".
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -48,20 +44,20 @@ ms.locfileid: "104412207"
 
 
 
- 
+ 
 
 Все инструкции дкл должны располагаться перед первой исполняемой инструкцией.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

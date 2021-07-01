@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c59b8da97ff1cbe0bd88d6a49120a0a040cf3c30
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 9e307527f93c153f0f78ce58b4d70ead4f7c1bc4
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104984092"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120559"
 ---
 # <a name="calculatelevelofdetail-directx-hlsl-texture-object"></a>Калкулателевелофдетаил (объект текстуры DirectX HLSL)
 
 Вычисляет уровень детализации.
 
-
-
-|                                                                 |
-|-----------------------------------------------------------------|
-| RET Object. Калкулателевелофдетаил ( \_ состояние образца S, float x); |
+RET Object. Калкулателевелофдетаил ( \_ состояние образца S, float x);
 
 
 
@@ -110,7 +106,7 @@ ms.locfileid: "104984092"
 1.  Текстурекубеаррай доступен в модели шейдеров 4,1 или более поздней версии.
 2.  Модель шейдеров 4,1 доступна в Direct3D 10,1 или более поздней версии.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

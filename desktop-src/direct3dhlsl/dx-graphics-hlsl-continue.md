@@ -13,41 +13,37 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 50a2f2f067d3fe6f853c594d9dfff686c311595e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c5d9295441e3c672632d64e032b0988b41360b53
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104996827"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129953"
 ---
 # <a name="continue-statement"></a>Оператор continue
 
 Останавливает выполнение текущего[цикла (т. е.](dx-graphics-hlsl-do.md), [while](dx-graphics-hlsl-while.md)), обновляет условия цикла и начинает выполнение с начала цикла. [](dx-graphics-hlsl-for.md)
 
-
-
-|           |
-|-----------|
-| продолжения |
+продолжения
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>Параметры
 
 None
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Управление потоком](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

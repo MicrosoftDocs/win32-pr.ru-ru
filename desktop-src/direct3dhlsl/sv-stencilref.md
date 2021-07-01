@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 565a554508277ab9ce49b377b5a7e121db45b20c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: e2900b2a821a03db4bc749a01c85b909901c39b2
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996501"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118939"
 ---
 # <a name="sv_stencilref"></a>ОКП \_ стенЦилреф
 
@@ -27,16 +27,15 @@ ms.locfileid: "107996501"
 
 
 
-|      |
+| Тип     |
 |------|
-| Тип |
 | uint |
 
 
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Указание значения ссылки шейдера в шейдере пикселей доступно как в D3D 11.3, так и в D3D12. Перейдите к
 

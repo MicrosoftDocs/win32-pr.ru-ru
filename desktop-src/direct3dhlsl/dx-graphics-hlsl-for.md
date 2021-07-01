@@ -13,22 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 50f8c18ebc23455563b4b3e6bfee72bfa9d3ec4c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0cbcf06f28a327e18aa9f31b417dc1911411d0c9
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104133122"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119080"
 ---
 # <a name="for-statement"></a>Оператор for
 
 Итеративно выполняет последовательность инструкций на основе вычисления условного выражения.
 
-
-
-|                                                                                       |
-|---------------------------------------------------------------------------------------|
-| \[*Атрибут* \] для ( *инициализатор; Условие Итератор* ) { *блок операторов*;} |
+\[*Атрибут* \] для ( *инициализатор; Условие Итератор* ) { *блок операторов*;}
 
 
 
@@ -86,13 +82,13 @@ ms.locfileid: "104133122"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Атрибуты " **\[ unroll \]** " и " **\[ цикл \]** " являются взаимоисключающими и будут формировать ошибки компилятора, если указаны оба значения.
 
 Атрибуты **\[ \]** **\[ \_ \_ условия \] фастопт и Allow UAV** игнорируются, если задан параметр **\[ unroll \]** .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

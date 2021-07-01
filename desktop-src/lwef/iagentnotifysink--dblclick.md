@@ -4,12 +4,12 @@ description: Иажентнотифисинк DblClick
 ms.assetid: 7e86cc9b-8bc3-405e-9bbf-764cec9c3130
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9ec7372d524027588dae5a0a3aafaf07146556e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88193f228f94d24384e6bf2b874e9208d67f3e9c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410954"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120927"
 ---
 # <a name="iagentnotifysinkdblclick"></a>Иажентнотифисинк::D Блкликк
 
@@ -44,7 +44,7 @@ HRESULT DblClick(
 
 
 
-|        |                                                |
+| Значение  | Описание                               |
 |--------|------------------------------------------------|
 | 0x0001 | Левая кнопка                                    |
 | 0x0010 | Средняя кнопка                                  |
@@ -56,7 +56,7 @@ HRESULT DblClick(
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,9 +76,9 @@ HRESULT DblClick(
 
 Это событие отправляется клиенту input-Active для символа. Если ни один из клиентов символа не является входным, сервер уведомляет об активном клиенте символа. Если символ является видимым, сервер также делает ввод клиента активным и отправляет [**иажентнотифисинк:: активатеинпутстате**](iagentnotifysink--activateinputstate.md). Если символ скрыт, он также автоматически отображается.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f8c6ef7c14ac54610301f283d076751b0c4d4a5e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 54092caf19a486b68b92ef63d992f11289a51c93
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986221"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113130093"
 ---
 # <a name="add---ps"></a>Add-PS
 
@@ -31,13 +31,13 @@ ms.locfileid: "104986221"
 
  
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src0 является исходным регистром.
 -   src1 является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -65,7 +65,7 @@ dest.w = src0.w + src1.w;
 
 
 
-|                          |            |
+|   Требование                       | Значение           |
 |--------------------------|------------|
 | Минимальная операционная система | Windows 98 |
 
@@ -73,7 +73,7 @@ dest.w = src0.w + src1.w;
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

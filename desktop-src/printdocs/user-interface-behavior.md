@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Ознакомьтесь с обсуждением поведения пользовательского интерфейса в отношении функций и параметров печати документов.
 ms.assetid: dc19a568-3673-4061-b19a-50d5df0485d0
 title: Поведение пользовательского интерфейса
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d475472330c8e3ba2ceb06d0cbde9f3a7fb0be
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e81d007c653ed3f019892e944d9fa4203dc6de11
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105693916"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119439"
 ---
 # <a name="user-interface-behavior"></a>Поведение пользовательского интерфейса
 
@@ -23,7 +23,7 @@ ms.locfileid: "105693916"
 
 Дополнительные сведения о конструкции PrintTicket и спецификации инициализации параметров см. в разделе [создание Device-Specific PrintTicket](creating-a-device-specific-printticket.md). Дополнительные сведения о разыменовании экземпляров ParameterRef и интерпретации экземпляров Параметердеф см. [в разделе Использование параметров](using-parameters.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

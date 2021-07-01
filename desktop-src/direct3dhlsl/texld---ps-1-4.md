@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ca305b16db0f390354962a3e959f08b6e956f2ef
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d956d9176a6356dc3837ee4f4d13b5bb700dda98
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996871"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118829"
 ---
 # <a name="texld---ps_1_4"></a>текслд-PS \_ 1 \_ 4
 
@@ -33,9 +33,9 @@ ms.locfileid: "107996871"
 
 
 
-|          |                      | VN        | CN  | код  | RN  |              |
+| Значение         | Описание                     | VN        | CN  | код  | RN  | Версия шейдера пикселей              |
 |----------|----------------------|-----------|-----|-----|-----|--------------|
-| кон      | Регистр назначения |           |     |     | x   | 1\_4         |
+| dst      | Регистр назначения |           |     |     | x   | 1\_4         |
 | src      | Исходный регистр      |           |     | x   |     | 1 \_ 4 этап 1 |
 |          |                      |           |     | x   | x   | 1 \_ 4 этапа   |
 
@@ -47,7 +47,7 @@ ms.locfileid: "107996871"
 
 Дополнительные сведения о регистрах см. в разделе [PS \_ 1 \_ 1 PS 1 2 PS 1 \_ \_ \_ \_ \_ \_ \_ \_ 3 \_ \_ \_ \_ registers](dx9-graphics-reference-asm-ps-registers-ps-1-x.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 В этой инструкции показана текстура на этапе текстуры, связанной с номером целевой регистрации. Текстура выдается с помощью данных о координатах текстуры из исходного регистра.
 

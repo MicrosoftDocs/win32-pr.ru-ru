@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 12cfee533a71408a445d97a63bbd8b76b281236b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a9dd4476dd7a1a885edb2e62a29b5127f5ff0a14
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332616"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129681"
 ---
 # <a name="pixel-shader-source-register-modifiers"></a>Модификаторы исходных регистров исходного шейдера пикселей
 
@@ -26,20 +26,19 @@ ms.locfileid: "104332616"
 
 
 
-| Модификаторы исходного регистра                                                                                    | Синтаксис         | Version |      |      |      |     |     |
-|--------------------------------------------------------------------------------------------------------------|----------------|---------|------|------|------|-----|-----|
-|                                                                                                              |                | 1\_1    | 1\_2 | 1 \_ 3 | 1\_4 |     |     |
-| [часов](dx9-graphics-reference-asm-ps-registers-modifiers-bias.md)                                           | зарегистрировать \_ смещение | X       | X    | X    | X    |     |     |
-| [зеркаль](dx9-graphics-reference-asm-ps-registers-modifiers-invert.md)                                       | 1. регистрация   | X       | X    | X    | X    |     |     |
-| [negate](dx9-graphics-reference-asm-ps-registers-modifiers-negate.md)                                       | \- зарегистрировать    | X       | X    | X    | X    |     |     |
-| [масштабировать по 2](dx9-graphics-reference-asm-ps-registers-modifiers-scale-x2.md)                                 | Регистр \_ x2   |         |      |      | X    |     |     |
-| [Масштабирование со знаком](dx9-graphics-reference-asm-ps-registers-modifiers-signed-scale.md)                         | регистрация \_ bx2  | X       | X    | X    | X    |     |     |
-| [Модификаторы текслд и текскрд](dx9-graphics-reference-asm-ps-registers-modifiers-ps-1-4.md)                   | регистрация \_ d\*  | X       | X    | X    | X    |     |     |
-| [исходный регистр группирующие](dx9-graphics-reference-asm-ps-registers-modifiers-source-register-swizzling.md) | Register. ксизв  | X       | X    | X    | X    |     |     |
+| Модификаторы исходного регистра                                                                                    | Синтаксис         | Версия 1 \_ 1 | Версия 1 \_ 2     | Версия 1 \_ 3     | Версия 1 \_ 4     |
+|--------------------------------------------------------------------------------------------------------------|----------------|---------|------|------|------|
+| [часов](dx9-graphics-reference-asm-ps-registers-modifiers-bias.md)                                           | зарегистрировать \_ смещение | X       | X    | X    | X    |
+| [зеркаль](dx9-graphics-reference-asm-ps-registers-modifiers-invert.md)                                       | 1. регистрация   | X       | X    | X    | X    |
+| [Negate](dx9-graphics-reference-asm-ps-registers-modifiers-negate.md)                                       | \- зарегистрировать    | X       | X    | X    | X    |
+| [масштабировать по 2](dx9-graphics-reference-asm-ps-registers-modifiers-scale-x2.md)                                 | Регистр \_ x2   |         |      |      | X    |
+| [Масштабирование со знаком](dx9-graphics-reference-asm-ps-registers-modifiers-signed-scale.md)                         | регистрация \_ bx2  | X       | X    | X    | X    |
+| [Модификаторы текслд и текскрд](dx9-graphics-reference-asm-ps-registers-modifiers-ps-1-4.md)                   | регистрация \_ d\*  | X       | X    | X    | X    |
+| [исходный регистр группирующие](dx9-graphics-reference-asm-ps-registers-modifiers-source-register-swizzling.md) | Register. ксизв  | X       | X    | X    | X    |
 
 
 
- 
+ 
 
 Модификаторы исходного регистра можно использовать только в арифметических инструкциях. Их нельзя использовать в инструкциях по адресам текстур. Исключением является модификатор масштабирования на [2](dx9-graphics-reference-asm-ps-registers-modifiers-scale-x2.md) . Для версии 1 \_ 1 со знаком Scale можно использовать исходный аргумент любой \* инструкции тексм. Для версии 1 \_ 2 или 1 \_ 3 со знаком Scale можно использовать в аргументе Source любой инструкции адреса текстуры.
 
@@ -66,7 +65,7 @@ ms.locfileid: "104332616"
 
 
 
- 
+ 
 
 Модификатор отрицания не может использоваться во втором регистре источника следующих инструкций: [m3x2-PS](m3x2---ps.md), [m3x3-PS](m3x3---ps.md), [m3x4-PS](m3x4---ps.md), [m4x3-PS](m4x3---ps.md)и [m4x4-PS](m4x4---ps.md).
 
@@ -78,7 +77,7 @@ ms.locfileid: "104332616"
 
 
 
- 
+ 
 
 ### <a name="absolute-value"></a>Абсолютное значение
 
@@ -92,23 +91,23 @@ ms.locfileid: "104332616"
 
 
 
- 
+ 
 
 Если шейдер версии 3 считывает из одного или нескольких регистров с плавающей запятой (c \# ), одно из следующих должно быть истинным.
 
 -   Все константные регистры с плавающей запятой должны использовать модификатор ABS.
 -   Ни один из постоянных регистров с плавающей запятой не может использовать модификатор ABS.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модификаторы регистра для шейдера пикселей](dx9-graphics-reference-asm-ps-registers-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

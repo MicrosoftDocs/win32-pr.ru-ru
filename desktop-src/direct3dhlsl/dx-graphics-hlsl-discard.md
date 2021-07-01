@@ -13,26 +13,22 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4400150f74a0c643f87b028b98fdd0c03721602f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: ec054bde5431ee938b2bfd65ff101398ab54c660
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069181"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118839"
 ---
 # <a name="discard-statement"></a>Оператор "Отмена"
 
 Не выводить результат текущего пикселя.
 
-
-
-|          |
-|----------|
-| исключить |
+исключить
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>Параметры
 
@@ -42,16 +38,16 @@ None
 
 Эту инструкцию можно вызывать только из шейдера пикселей. Он не поддерживается в шейдере geometry или шейдере вершин.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Управление потоком](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

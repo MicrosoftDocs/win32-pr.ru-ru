@@ -4,12 +4,12 @@ ms.assetid: e7afafca-e993-4096-bad4-399ee6c67fe9
 title: Управление графиком записи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0089fa11adbc0ac861fb9e8e30e2cd0f56b23680
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a00573256c1c010e23dfc598ceca5ac62d772711
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909052"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119479"
 ---
 # <a name="controlling-a-capture-graph"></a>Управление графиком записи
 
@@ -72,9 +72,8 @@ while (hr = pEvent->GetEvent(&evCode, &param1, &param2, 0), SUCCEEDED(hr))
 
 
 
-| Метка | Значение |
-|-------------|----------------------------------------|------------------------------------|
-|             | Начало                                  | Stop                               |
+| Значение | Запуск                                  | Stop                               |
+|-------------|----------------------------------------|---------|
 | макслонглонг | Никогда не запускать этот поток.               | Не останавливайтесь до тех пор, пока граф не прекратит работу. |
 | **NULL**    | Запустить сразу после выполнения графа. | Немедленное завершение.                  |
 

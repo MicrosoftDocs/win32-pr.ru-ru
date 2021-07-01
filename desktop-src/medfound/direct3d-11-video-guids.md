@@ -4,12 +4,12 @@ ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: Идентификаторы GUID видео Direct3D 11 (D3d11. h)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d97a43285a59cf5196584b9be04fc36b02e5243f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a16f5277123c3d174427debc3f0ad5e184e49a6c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072571"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118639"
 ---
 # <a name="direct3d-11-video-guids"></a>Идентификаторы GUID видео Direct3D 11
 
@@ -50,7 +50,7 @@ ms.locfileid: "104072571"
 
 
 
-|                  |                                                                                                                                                                                                                                                     |
+| Значение                 | Описание                                                                                                                                                                                                                                                    |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *контенткэйсизе* | Содержит размер структуры [**\_ \_ \_ \_ \_ \_ сеанса шифрования D3D11ного видеодекодера**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_begin_frame_crypto_session) .                                                                                                  |
 | *пконтенткэй*    | Указатель на [**\_ \_ \_ \_ \_ \_ сеанс шифрования D3D11 Video декодера**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_begin_frame_crypto_session) , предоставляющий [**ID3D11CryptoSession**](/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession) и ключевые сведения, необходимые для расшифровки кадра. |
@@ -70,11 +70,11 @@ ms.locfileid: "104072571"
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                        |
 | Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                               |
-| Header<br/>                   | <dl> <dt>D3d11. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>D3d11. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

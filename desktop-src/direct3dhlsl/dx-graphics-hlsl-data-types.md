@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8cee02e38180b903b235c32ebc2c7ca486777b20
-ms.sourcegitcommit: 316ce582d9b972634a0521e0380e054e9cbb5bae
+ms.openlocfilehash: c4cb8f6fd15db857daa3005c99381d437a5289f6
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104997982"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129651"
 ---
 # <a name="data-types-hlsl"></a>Типы данных (HLSL)
 
@@ -22,10 +22,9 @@ HLSL поддерживает множество различных встрое
 
 
 
-|                                                                                                                         |                                            |
+| Использовать этот встроенный тип                                                                                                                         | Определение переменной шейдера                                            |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| Использовать этот встроенный тип                                                                                                 | Определение переменной шейдера             |
-| [Функцией](dx-graphics-hlsl-scalar.md)                                                                                   | Скаляр в одном компоненте                       |
+| [скалярная](dx-graphics-hlsl-scalar.md)                                                                                   | Скаляр в одном компоненте                       |
 | [Вектор](dx-graphics-hlsl-vector.md), [Матрица](dx-graphics-hlsl-matrix.md)                                            | Вектор или матрица с несколькими компонентами        |
 | [Образец](dx-graphics-hlsl-sampler.md), [текстура](dx-graphics-hlsl-texture.md) или [буфер](dx-graphics-hlsl-buffer.md)   | Образец, текстура или объект buffer         |
 | [Структура](dx-graphics-hlsl-struct.md), [определяемая пользователем](dx-graphics-hlsl-user-defined.md)                                | Пользовательская структура или typedef                |
@@ -37,7 +36,7 @@ HLSL поддерживает множество различных встрое
 
 Чтобы лучше понять, как использовать векторы и матрицы в HLSL, вам может потребоваться ознакомиться с этой информацией о том, как HLSL использует математические функции [для каждого компонента](dx-graphics-hlsl-per-component-math.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

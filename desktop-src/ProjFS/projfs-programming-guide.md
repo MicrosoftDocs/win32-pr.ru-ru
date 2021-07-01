@@ -4,12 +4,12 @@ description: Основные сведения о реализации прил�
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: a6b2d186ac3e674c3fa68e17ecd523b2c94f2401
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 86c6f49eaf9da578226031eaf84abff7ebb059c0
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070321"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120569"
 ---
 # <a name="projected-file-system-projfs-programming-guide"></a>Руководством по программированию для проектируемой файловой системы (Прожфс)
 
@@ -32,7 +32,7 @@ ms.locfileid: "104070321"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-|                                                                                                              |                                                                                   |
+| Раздел                                                                                                             | Описание                                                                                  |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [Пример Регфс](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/ProjectedFileSystem) | Пример поставщика Прожфс, который проецирует реестр Windows в файловую систему. |
 <!--

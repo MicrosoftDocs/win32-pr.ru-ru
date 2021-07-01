@@ -9,43 +9,35 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d2346e1ca2302f80c796558b4aa2bbdce016d494
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b77f1050beaee2b269d12e69704018e3c5abee6e
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104532903"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129852"
 ---
 # <a name="grammar"></a>Грамматика
 
 Инструкции HLSL создаются с использованием следующих правил для грамматики.
 
--   [Бель](#whitespace)
+-   [Пробелы](#whitespace)
 -   [Числа с плавающей запятой](#floating-point-numbers)
 -   [Целые числа](#integer-numbers)
 -   [Символы](#characters)
 -   [Строки](#strings)
 -   [Идентификаторы](#identifiers)
 -   [Операторы](#operators)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="whitespace"></a>Пробелы
 
 Следующие символы распознаются как пробелы.
 
-
-
-|                            |
-|----------------------------|
-| SPACE                      |
-| TAB                        |
-| КОНЦА строки                        |
-| Комментарии в стиле C (/ \* \* /) |
-| Комментарии в стиле C++ (//)    |
-
-
-
- 
+- SPACE
+- TAB
+- КОНЦА строки
+- Комментарии в стиле C (/ \* \* /)
+- Комментарии в стиле C++ (//)
 
 ## <a name="floating-point-numbers"></a>Числа с плавающей запятой
 
@@ -122,7 +114,7 @@ ms.locfileid: "104532903"
 
 
 
-|                                           |                                                                 |
+| Знак                                          | Описание                                                                |
 |-------------------------------------------|-----------------------------------------------------------------|
 | ц                                       | символов                                                     |
 | ' \\ a ' ' \\ b ' ' \\ f ' ' \\ b ' ' \\ r \\ \\ ' ' ' ' v ' ' | экранирует                                                       |
@@ -132,7 +124,7 @@ ms.locfileid: "104532903"
 
 
 
- 
+ 
 
 В выражениях препроцессора не поддерживаются escape-последовательности.
 
@@ -165,16 +157,16 @@ ms.locfileid: "104532903"
 
 Кроме того, любой другой отдельный символ, не совпадающий с другим правилом.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Приложение (DirectX HLSL)](dx-graphics-hlsl-appendix.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

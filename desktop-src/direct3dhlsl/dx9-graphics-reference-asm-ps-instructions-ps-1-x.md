@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2c3fa8e76e1075da321a60d05504dff074dbfcfe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cc624c3f3b64d41f428f68fcf2643f4600dcdec1
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104259106"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129902"
 ---
 # <a name="ps_1_1-ps_1_2-ps_1_3-ps_1_4-instructions"></a>PS \_ 1 \_ 1, PS \_ 1 \_ 2, PS \_ 1 \_ 3, PS \_ 1 \_ 4 инструкции
 
@@ -26,9 +26,9 @@ ms.locfileid: "104259106"
 
 
 
-| Version                                    |                                                                               | Слоты инструкций | 1\_1 | 1\_2 | 1 \_ 3 | 1\_4 |
+| Версия                                    | Описание                                                                   | Слоты инструкций | 1\_1 | 1\_2 | 1 \_ 3 | 1\_4 |
 |--------------------------------------------|-------------------------------------------------------------------------------|-------------------|------|------|------|------|
-| [ps](ps---ps.md)                          | Номер версии                                                                | 0                 | x    | x    | x    | x    |
+| [PS](ps---ps.md)                          | номер версии;                                                                | 0                 | x    | x    | x    | x    |
 | Постоянные инструкции                      |                                                                               |                   | 1\_1 | 1\_2 | 1 \_ 3 | 1\_4 |
 | [DEF-PS](def---ps.md)                   | Определение констант                                                              | 0                 | x    | x    | x    | x    |
 | Инструкции по этапам                         |                                                                               |                   | 1\_1 | 1\_2 | 1 \_ 3 | 1\_4 |
@@ -71,21 +71,21 @@ ms.locfileid: "104259106"
 
 
 
- 
+ 
 
 1.  1 гнездо в PS \_ 1 \_ 4; 2 слота в PS \_ 1 \_ 2 и PS \_ 1 \_ 3
 2.  1 + 1 = 1 арифметическая Инструкция + 1 Инструкция текстуры
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

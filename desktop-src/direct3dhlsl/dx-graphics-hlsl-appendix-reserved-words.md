@@ -9,56 +9,50 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dcc8afe8b62f684f0630ba3ef2b8a1375b2e84d3
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: dccc9aac1f06fff72f7dd5bd07ced73ac942ffe7
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069376"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129661"
 ---
 # <a name="reserved-words"></a>Зарезервированные слова
 
 Следующие слова зарезервированы для использования языком HLSL. Не используйте их для именования переменных или функций в коде HLSL.
 
+:::column:::
+    auto
+    case, catch
+    char, class, const\_cast
+    default, delete, dynamic\_cast
+    enum
+    explicit
+    friend
+    goto
+    long
+    mutable
+    new
+    operator
+    private, protected, public
+    reinterpret\_cast
+    short, signed, sizeof, static\_cast
+    template, this, throw
+    try, typename
+    union, unsigned
+    using
+    virtual
+:::column-end:::
 
-
-|                                     |
-|-------------------------------------|
-| auto                                |
-| Регистр, catch                         |
-| char, класс, \_ приведение констант            |
-| по умолчанию, удаление, динамическое \_ приведение      |
-| enum                                |
-| explicit                            |
-| friend                              |
-| goto                                |
-| long                                |
-| mutable                             |
-| new                                 |
-| оператор                            |
-| закрытые, защищенные, открытые          |
-| пересчитать \_ приведение                   |
-| Short, со знаком, sizeof, статическое \_ приведение |
-| шаблон, это исключение               |
-| try, TypeName                       |
-| Union, без знака                     |
-| using                               |
-| virtual                             |
-
-
-
- 
-
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Приложение (DirectX HLSL)](dx-graphics-hlsl-appendix.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

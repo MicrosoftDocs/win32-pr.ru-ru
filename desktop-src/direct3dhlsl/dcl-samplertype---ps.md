@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 934931d6063ac264a2e6685104f8ed6fbdaaa64e
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 7a6da220e50b43ce990c090c61d1caf84afec653
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069381"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129671"
 ---
 # <a name="dcl_samplertype-sm2-sm3---ps-asm"></a>дкл \_ самплертипе (SM2, SM3-PS ASM)
 
@@ -22,15 +22,11 @@ ms.locfileid: "104069381"
 
 ## <a name="syntax"></a>Синтаксис
 
-
-
-|                      |
-|----------------------|
-| дкл \_ самплертипе s\# |
+дкл \_ самплертипе s\#
 
 
 
- 
+ 
 
 где:
 
@@ -40,7 +36,7 @@ ms.locfileid: "104069381"
     -   \_тома
 -   s \# определяет образец, где s — это аббревиатура для образца, а \# — номер образца. Пробы являются псевдо-регистром, так как вы не можете напрямую считывать их или записывать.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -50,11 +46,11 @@ ms.locfileid: "104069381"
 
 
 
- 
+ 
 
 Все \_ инструкции самплертипе дкл должны располагаться перед первой исполняемой инструкцией.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 
 ```
@@ -68,16 +64,16 @@ texld r0, s0, r0; // Load r0 with a color sampled from stage0
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
