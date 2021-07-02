@@ -4,12 +4,12 @@ ms.assetid: dcb56d5d-ed0d-49bb-95bf-940a49c033f1
 title: Функции WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf5f9db8fcde5589a86556111bec6df3b2b18c76
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 41e45289230c1cc22a7f8799dfbbe1dafddccf38
+ms.sourcegitcommit: 8e3d8594fa073a9c43eb5dcc7babea03ea30f10f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112587749"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113174972"
 ---
 # <a name="winhttp-functions"></a>Функции WinHTTP
 
@@ -21,6 +21,13 @@ ms.locfileid: "112587749"
 </dt> <dd>
 
 Добавляет один или несколько заголовков HTTP-запроса в обработчик HTTP-запроса.
+
+</dd> <dt>
+
+[**винхттпаддрекуессеадерсекс**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpaddrequestheadersex)
+</dt> <dd>
+
+Добавляет один или несколько заголовков HTTP-запроса в обработчик HTTP-запросов, что позволяет использовать отдельные строки имени и значения.
 
 </dd> <dt>
 
@@ -164,6 +171,13 @@ ms.locfileid: "112587749"
 
 </dd> <dt>
 
+[**винхттпкуерихеадерсекс**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheadersex)
+</dt> <dd>
+
+Получает сведения о заголовке, связанные с HTTP-запросом; предоставляет способ получения проанализированных строк имени и значения заголовка.
+
+</dd> <dt>
+
 [**винхттпкуерйоптион**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption)
 </dt> <dd>
 
@@ -172,6 +186,13 @@ ms.locfileid: "112587749"
 </dd> <dt>
 
 [**WinHttpReadData**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddata)
+</dt> <dd>
+
+Считывает данные из маркера, открытого функцией [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest) .
+
+</dd> <dt>
+
+[**винхттпреаддатаекс**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddataex)
 </dt> <dd>
 
 Считывает данные из маркера, открытого функцией [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest) .
@@ -297,6 +318,4 @@ ms.locfileid: "112587749"
 
 </dd> </dl>
 
- 
 
- 

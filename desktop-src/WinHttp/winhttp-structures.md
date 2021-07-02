@@ -4,12 +4,12 @@ ms.assetid: e1567393-162e-48d4-8e6b-7620e351136c
 title: Структуры WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9d6f0cdbb467e916b1a6ac54b90491cbee9efdb
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: f7ecf91702a2f49e2c0a754fcc69d9d34febf229
+ms.sourcegitcommit: 8e3d8594fa073a9c43eb5dcc7babea03ea30f10f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112587975"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113174984"
 ---
 # <a name="winhttp-structures"></a>Структуры WinHTTP
 
@@ -87,6 +87,20 @@ WinHTTP использует следующие структуры:
 </dt> <dd>
 
 Содержит сведения о конфигурации прокси-сервера Internet Explorer.
+
+</dd> <dt>
+
+[**WINHTTP_EXTENDED_HEADER**](/windows/win32/api/winhttp/ns-winhttp-winhttp_extended_header)
+</dt> <dd>
+
+Представляет заголовок HTTP-запроса в виде пары "имя-значение".
+
+</dd> <dt>
+
+[**WINHTTP_HEADER_NAME**](/windows/win32/api/winhttp/ns-winhttp-winhttp_header_name)
+</dt> <dd>
+
+Представляет имя заголовка HTTP-запроса.
 
 </dd> <dt>
 

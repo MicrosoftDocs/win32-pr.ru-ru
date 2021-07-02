@@ -4,23 +4,25 @@ ms.assetid: 460f1463-57a8-47eb-9957-17976757bd7f
 title: Константы WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db7c277b4235e23254000766fdef53d25f19ddbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e37b0e4de7aa3df5e155933bea2be25386c1637
+ms.sourcegitcommit: 8e3d8594fa073a9c43eb5dcc7babea03ea30f10f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497493"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113175006"
 ---
 # <a name="winhttp-constants"></a>Константы WinHTTP
 
 WinHTTP использует следующие константы:
 
-<dl> <dt>
+<dl>
+
+<dt>
 
 [**сообщения об ошибках**](error-messages.md)
 </dt> <dd>
 
-Сообщения об ошибках, относящиеся к функциям WinHTTP. Эти функции также возвращают сообщения об ошибках Windows, если это уместно. Значение, соответствующее каждой константе, является значением константы для функций интерфейса прикладного программирования (API) и младшими 16 битами номера ошибки для объекта [**WinHttpRequest**](winhttprequest.md) .
+Сообщения об ошибках, относящиеся к функциям WinHTTP. эти функции также возвращают Windows сообщения об ошибках, если это уместно. Значение, соответствующее каждой константе, является значением константы для функций интерфейса прикладного программирования (API) и младшими 16 битами номера ошибки для объекта [**WinHttpRequest**](winhttprequest.md) .
 
 </dd> <dt>
 
@@ -50,18 +52,33 @@ WinHTTP использует следующие константы:
 
 Схемы Интернета, поддерживаемые WinHTTP.
 
-</dd> <dt>
+</dd>
+
+<dt>
 
 [**Флаги сведений о запросе**](query-info-flags.md)
-</dt> <dd>
+</dt>
+<dd>
 
 Атрибуты и модификаторы, используемые [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders).
+</dd>
 
-</dd> </dl>
+<dt>
 
- 
+**WINHTTP_EXTENDED_HEADER_FLAG_UNICODE**
+</dt>
+<dd>
 
- 
+Имеет значение 0x00000001. Указывает, [винхттпаддрекуессеадерсекс](/windows/win32/api/winhttp/nf-winhttp-winhttpaddrequestheadersex) , что передаваемые строки являются строками в Юникоде.
+</dd>
 
+<dt>
 
+**WINHTTP_READ_DATA_EX_FLAG_FILL_BUFFER**
+</dt>
+<dd>
 
+Имеет значение 0x0000000000000001ull. Указывает, что [винхттпреаддатаекс](/windows/win32/api/winhttp/nf-winhttp-winhttpreaddataex) не должен завершать вызов до тех пор, пока предоставленный буфер данных не будет заполнен или не завершится ответ. Передача этого флага делает поведение **винхттпреаддатаекс** эквивалентным для [WinHttpReadData](/windows/win32/api/winhttp/nf-winhttp-winhttpreaddata).
+</dd>
+
+</dl>
