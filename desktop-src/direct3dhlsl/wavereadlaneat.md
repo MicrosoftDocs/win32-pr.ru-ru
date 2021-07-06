@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e40940f2df6685a3096da6886ad3bcb6d9ca99af
-ms.sourcegitcommit: 4423a9d48f1c90d2ec2eca68e9cae30df1787f25
+ms.openlocfilehash: 573730053a93a110381637ef8e62dc08a4aa1535
+ms.sourcegitcommit: 1897c2a39b4ac4ca4b1e4aec394cef2ce2619c03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "104412748"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "113316486"
 ---
 # <a name="wavereadlaneat-function"></a>Функция Вавереадланеат
 
@@ -28,8 +28,8 @@ ms.locfileid: "104412748"
 
 ``` syntax
 <type> WaveReadLaneAt(
-   <type> expr,
-   uint laneIndex
+   <type> expr,
+   uint laneIndex
 );
 ```
 
@@ -55,36 +55,13 @@ ms.locfileid: "104412748"
 
 Полученное значение является результатом *выражения expr*. Он будет единообразным, если *ланеиндекс* является однородным.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Эта функция фактически является широковещательной рассылкой значения в Ланеиндекс'с Lane.
+Эта функция фактически является широковещательной рассылкой значения на *ланеиндекс*"th".
 
-Эта функция поддерживается из модели шейдеров 6,0 в следующих типах шейдеров:
-
-
-
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
-
-
-
- 
+Эта функция поддерживается из модели шейдеров 6,0 на всех стадиях шейдера.
 
 ## <a name="see-also"></a>См. также раздел
 
-<dl> <dt>
-
-[Общие сведения о модели шейдеров 6](hlsl-shader-model-6-0-features-for-direct3d-12.md)
-</dt> <dt>
-
-[Модель шейдеров 6](shader-model-6-0.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Общие сведения о модели шейдеров 6](hlsl-shader-model-6-0-features-for-direct3d-12.md)
+* [Модель шейдеров 6](shader-model-6-0.md)

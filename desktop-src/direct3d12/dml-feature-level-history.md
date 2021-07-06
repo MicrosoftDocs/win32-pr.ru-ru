@@ -4,22 +4,52 @@ description: TBD
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 1e5d9f8b0532b809bab617655694af68ba530430
-ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
+ms.openlocfilehash: 3ddb2eec80448b8119bf2d990afbb998f212db26
+ms.sourcegitcommit: 0b93de98c4afc79a6801a113bc91adbc89e835b9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111521212"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113282553"
 ---
 # <a name="directml-feature-level-history"></a>Журнал уровня компонентов DirectML
 
 Общий журнал версий Директмл см. в статье [Журнал версий директмл](./dml-version-history.md).
 
+## <a name="dml_feature_level_4_0"></a>DML_FEATURE_LEVEL_4_0
+
+Представлено в Директмл версии 1.6.0.
+
+Добавлена поддержка следующих типов операторов, описанных в [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type). Для каждой константы типа оператора этот раздел предоставляет ссылку на соответствующую структуру.
+
+* **DML_OPERATOR_ELEMENT_WISE_QUANTIZED_LINEAR_ADD**
+* **DML_OPERATOR_DYNAMIC_QUANTIZE_LINEAR**
+* **DML_OPERATOR_ROI_ALIGN1**
+
+Расширенный тип данных и количество измерений поддерживают следующие операторы, описанные в [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type). Дополнительные сведения о конкретной поддержке, добавленной в [**DML_FEATURE_LEVEL_4_0**](/windows/win32/api/directml/ne-directml-dml_feature_level), см. в разделе Структура каждого оператора.
+
+* **DML_OPERATOR_ACTIVATION_RELU_GRAD**
+* **DML_OPERATOR_ADAM_OPTIMIZER**
+* **DML_OPERATOR_CONVOLUTION**
+* **DML_OPERATOR_CONVOLUTION_INTEGER**
+* **DML_OPERATOR_CUMULATIVE_PRODUCT**
+* **DML_OPERATOR_CUMULATIVE_SUMMATION**
+* **DML_OPERATOR_DIAGONAL_MATRIX**
+* **DML_OPERATOR_FILL_VALUE_CONSTANT**
+* **DML_OPERATOR_FILL_VALUE_SEQUENCE**
+* **DML_OPERATOR_GEMM**
+* **DML_OPERATOR_MATRIX_MULTIPLY_INTEGER**
+* **DML_OPERATOR_MAX_POOLING_GRAD**
+* **DML_OPERATOR_NONZERO_COORDINATES**
+* **DML_OPERATOR_QUANTIZED_LINEAR_CONVOLUTION**
+* **DML_OPERATOR_QUANTIZED_LINEAR_MATRIX_MULTIPLY**
+* **DML_OPERATOR_RANDOM_GENERATOR**
+* **DML_OPERATOR_REVERSE_SUBSEQUENCES**
+
 ## <a name="dml_feature_level_3_1"></a>DML_FEATURE_LEVEL_3_1
 
 Представлено в Директмл версии 1.5.0.
 
-Добавлена поддержка следующих [операторов](/windows/win32/api/directml/ne-directml-dml_operator_type).
+Добавлена поддержка следующих типов операторов, описанных в [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type). Для каждой константы типа оператора этот раздел предоставляет ссылку на соответствующую структуру.
 
 * **DML_OPERATOR_ELEMENT_WISE_ATAN_YX**
 * **DML_OPERATOR_ELEMENT_WISE_CLIP_GRAD**
@@ -46,7 +76,7 @@ ms.locfileid: "111521212"
 
 Представлено в Директмл версии 1.4.0.
 
-Добавлена поддержка следующих [операторов](/windows/win32/api/directml/ne-directml-dml_operator_type).
+Добавлена поддержка следующих типов операторов, описанных в [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type). Для каждой константы типа оператора этот раздел предоставляет ссылку на соответствующую структуру.
 
 * **DML_OPERATOR_ELEMENT_WISE_BIT_AND**
 * **DML_OPERATOR_ELEMENT_WISE_BIT_OR**
@@ -95,7 +125,7 @@ ms.locfileid: "111521212"
 * [Интерфейс IDMLDevice1](/windows/win32/api/directml/nn-directml-idmldevice1)
 * Поддержка графа операторов (см [. IDMLDevice1:: компилеграф](/windows/win32/api/directml/nf-directml-idmldevice1-compilegraph)
 
-Добавлена поддержка следующих операторов.
+Добавлена поддержка следующих типов операторов, описанных в [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type). Для каждой константы типа оператора этот раздел предоставляет ссылку на соответствующую структуру.
 
 * **DML_OPERATOR_ELEMENT_WISE_BIT_SHIFT_LEFT**
 * **DML_OPERATOR_ELEMENT_WISE_BIT_SHIFT_RIGHT**
@@ -170,7 +200,7 @@ ms.locfileid: "111521212"
 * [Перечисление DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level)
 * Запросы на уровне компонентов (см. [DML_FEATURE_QUERY_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels))
 
-Добавлена поддержка следующих операторов.
+Добавлена поддержка следующих типов операторов, описанных в [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type). Для каждой константы типа оператора этот раздел предоставляет ссылку на соответствующую структуру.
 
 * **DML_OPERATOR_ELEMENT_WISE_SIGN**
 * **DML_OPERATOR_ELEMENT_WISE_IS_NAN**
@@ -209,7 +239,7 @@ ms.locfileid: "111521212"
 
 Уровень функций, в котором была введена Директмл.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Журнал версий DirectML](./dml-version-history.md)
 * [Перечисление DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level)

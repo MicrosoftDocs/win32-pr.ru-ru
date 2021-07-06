@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_CUMULATIVE_PRODUCT_OPERATOR_DESC
-ms.openlocfilehash: 68b001467496ab9affc559e76ecac5461902399c
-ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
+ms.openlocfilehash: cb4006a20dd25751c027ba97e63dcfc60c25faf6
+ms.sourcegitcommit: 0b93de98c4afc79a6801a113bc91adbc89e835b9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111521201"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113282563"
 ---
 # <a name="dml_cumulative_product_operator_desc-directmlh"></a>DML_CUMULATIVE_PRODUCT_OPERATOR_DESC (директмл. h)
 
@@ -180,9 +180,16 @@ OutputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
 Этот оператор появился в `DML_FEATURE_LEVEL_3_1` .
 
 ## <a name="tensor-constraints"></a>Ограничения тензорные
-*Инпуттенсор* и *аутпуттенсор* должны иметь одинаковые типы *данных* и *размеры*.
+*Инпуттенсор* и *аутпуттенсор* должны иметь одинаковый *тип данных*, *DimensionCount* и *размеры*.
 
 ## <a name="tensor-support"></a>Поддержка тензорные
+### <a name="dml_feature_level_4_0-and-above"></a>DML_FEATURE_LEVEL_4_0 и выше
+| Тензорные | Вид | Поддерживаемые счетчики измерений | Поддерживаемые типы данных |
+| ------ | ---- | -------------------------- | -------------------- |
+| инпуттенсор | Входные данные | от 1 до 8 | FLOAT32, FLOAT16, UINT32, UINT16 |
+| аутпуттенсор | Выходные данные | от 1 до 8 | FLOAT32, FLOAT16, UINT32, UINT16 |
+
+### <a name="dml_feature_level_3_1-and-above"></a>DML_FEATURE_LEVEL_3_1 и выше
 | Тензорные | Вид | Поддерживаемые счетчики измерений | Поддерживаемые типы данных |
 | ------ | ---- | -------------------------- | -------------------- |
 | инпуттенсор | Входные данные | 4 | FLOAT32, FLOAT16, UINT32, UINT16 |
