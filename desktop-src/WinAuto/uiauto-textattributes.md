@@ -11,12 +11,12 @@ keywords:
 - Модель автоматизации пользовательского интерфейса, список атрибутов текста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b011203111a6484156921d63cc27bb11b017e596
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7f8ae2d51a222e3833d0dd95fa6c048114a370a6
+ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710319"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113353627"
 ---
 # <a name="ui-automation-text-attributes"></a>Атрибуты текста модели автоматизации пользовательского интерфейса
 
@@ -29,7 +29,7 @@ ms.locfileid: "105710319"
 > [!Note]  
 > Некоторые из перечисленных атрибутов поддерживаются начиная с Windows 8. Дополнительные сведения о поддержке версий см. в разделе [**идентификаторы текстовых атрибутов**](uiauto-textattribute-ids.md) .
 
- 
+ 
 
 В этом разделе содержатся следующие подразделы.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105710319"
 -   [Атрибуты оформления текста](#text-decoration-attributes)
 -   [Атрибуты стиля текста](#text-style-attributes)
 -   [Атрибуты взаимодействия и выбора](#interaction-and-selection-attributes)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="annotation-attributes"></a>Атрибуты примечаний
 
@@ -53,12 +53,12 @@ ms.locfileid: "105710319"
 
 | attribute             | Идентификатор                                                            |
 |-----------------------|-----------------------------------------------------------------------|
-| **аннотатионобжектс** | [**UIA \_ аннотатионобжектсаттрибутеид**](uiauto-textattribute-ids.md) |
-| **аннотатионтипес**   | [**UIA \_ аннотатионтипесаттрибутеид**](uiauto-textattribute-ids.md)   |
+| **аннотатионобжектс** | [**UIA \_ аннотатионобжектсаттрибутеид**](uiauto-annotation-type-identifiers.md) |
+| **аннотатионтипес**   | [**UIA \_ аннотатионтипесаттрибутеид**](uiauto-annotation-type-identifiers.md)   |
 
 
 
- 
+ 
 
 ## <a name="font-attributes"></a>Атрибуты шрифтов
 
@@ -74,7 +74,7 @@ ms.locfileid: "105710319"
 
 
 
- 
+ 
 
 ## <a name="language-attributes"></a>Атрибуты языка
 
@@ -89,7 +89,7 @@ ms.locfileid: "105710319"
 
 
 
- 
+ 
 
 ## <a name="link-attribute"></a>Атрибут ссылки
 
@@ -103,7 +103,7 @@ ms.locfileid: "105710319"
 
 
 
- 
+ 
 
 ## <a name="page-margin-attributes"></a>Атрибуты полей страницы
 
@@ -120,7 +120,7 @@ ms.locfileid: "105710319"
 
 
 
- 
+ 
 
 ## <a name="text-alignment-attributes"></a>Атрибуты выравнивания текста
 
@@ -138,7 +138,7 @@ ms.locfileid: "105710319"
 
 
 
- 
+ 
 
 ## <a name="text-color-attributes"></a>Атрибуты цвета текста
 
@@ -153,7 +153,7 @@ ms.locfileid: "105710319"
 
 
 
- 
+ 
 
 ## <a name="text-decoration-attributes"></a>Атрибуты оформления текста
 
@@ -177,7 +177,7 @@ ms.locfileid: "105710319"
 
 
 
- 
+ 
 
 ## <a name="text-style-attributes"></a>Атрибуты стиля текста
 
@@ -196,7 +196,7 @@ ms.locfileid: "105710319"
 
 
 
- 
+ 
 
 ## <a name="interaction-and-selection-attributes"></a>Атрибуты взаимодействия и выбора
 
@@ -213,9 +213,9 @@ ms.locfileid: "105710319"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -231,6 +231,6 @@ ms.locfileid: "105710319"
 [Работа с элементами управления на основе текста](uiauto-workingwithtextbasedcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

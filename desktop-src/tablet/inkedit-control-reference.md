@@ -4,12 +4,12 @@ ms.assetid: 52761cb2-4433-4824-ba19-fe597de2faf0
 title: Ссылка на элемент управления InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b53edfdc6a72a7792c60a6c7c7bf0e38ffc5e0c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbbe2aad6b7d8b536f2ede35fd93bd19840e69fc
+ms.sourcegitcommit: f8f06d7ad2ff6599e90b0493b355e0c1811d898f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081455"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113369316"
 ---
 # <a name="inkedit-control-reference"></a>Ссылка на элемент управления InkEdit
 
@@ -60,10 +60,10 @@ ms.locfileid: "104081455"
 
 | Событие                                                  | Описание                                                                                                                                                                                 |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Change**](inkedit-change.md)                       | Происходит при изменении содержимого элемента управления или значения свойства.<br/>                                                                                                              |
-| [**Щелкните**](inkedit-click.md)                         | Происходит при щелчке элемента управления.<br/>                                                                                                                                              |
+| [**Смен**](inkedit-change.md)                       | Происходит при изменении содержимого элемента управления или значения свойства.<br/>                                                                                                              |
+| [**Откройте**](inkedit-click.md)                         | Происходит при щелчке элемента управления.<br/>                                                                                                                                              |
 | [**Кнопки**](inkedit-dblclick.md)                   | Происходит при двойном щелчке элемента управления.<br/>                                                                                                                                       |
-| [**жесты**](inkedit-gesture.md)                     | Происходит при распознавании жеста приложения.<br/>                                                                                                                                |
+| [**Жест**](inkedit-gesture.md)                     | Происходит при распознавании жеста приложения.<br/>                                                                                                                                |
 | [**KeyDown**](inkedit-keydown.md)                     | Происходит, когда пользователь нажимает клавишу, когда элемент управления InkEdit имеет фокус.<br/>                                                                                                          |
 | [**Бытии**](inkedit-keypress.md)                   | Происходит при нажатии клавиши, когда элемент управления InkEdit имеет фокус.<br/>                                                                                                                |
 | [**KeyUp**](inkedit-keyup.md)                         | Происходит при отпускании клавиши, когда элемент управления InkEdit имеет фокус.<br/>                                                                                                               |
@@ -137,17 +137,17 @@ ms.locfileid: "104081455"
 | [**DrawingAttributes**](/windows/desktop/api/inked/nf-inked-iinkedit-get_drawingattributes)   | Возвращает или задает атрибуты рисования для рукописного ввода, который еще должен быть нарисован на элементе управления InkEdit.<br/>                                                                                |
 | [**Активировано**](/windows/desktop/api/inked/nf-inked-iinkedit-get_enabled)                       | Возвращает или задает значение, определяющее, может ли элемент управления InkEdit отвечать на создаваемые пользователем события.<br/>                                                                     |
 | [**фактоид**](/windows/desktop/api/inked/nf-inked-iinkedit-get_factoid)                       | Возвращает или задает константу [фактоид](factoid-constants.md) , используемую объектом [**иинкрекогнизер**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) для ограничения поиска результата распознавания.<br/> |
-| [**Шрифт**](/windows/desktop/api/inked/nf-inked-iinkedit-get_font)                             | Возвращает или задает шрифт текста, отображаемого элементом управления InkEdit.<br/>                                                                                                       |
+| [**Шрифтов**](/windows/desktop/api/inked/nf-inked-iinkedit-get_font)                             | Возвращает или задает шрифт текста, отображаемого элементом управления InkEdit.<br/>                                                                                                       |
 | [**hWnd**](/windows/desktop/api/inked/nf-inked-iinkedit-get_hwnd)                             | Возвращает описатель окна, к которому привязан элемент управления [**инкдисп**](inkdisp-class.md) .<br/>                                                                                     |
 | [**инкинсертмоде**](/windows/desktop/api/inked/nf-inked-iinkedit-get_inkinsertmode)           | Возвращает или задает значение, указывающее, как рукописный ввод вставляется в элемент управления InkEdit в виде текста или рукописного ввода.<br/>                                                                |
 | [**инкмоде**](/windows/desktop/api/inked/nf-inked-iinkedit-get_inkmode)                       | Возвращает или задает значение, указывающее, отключена ли коллекция рукописных данных, выполняется сбор рукописных данных, а также выполняется сбор рукописных данных и жестов.<br/>                                               |
-| [**Locked**](/windows/desktop/api/inked/nf-inked-iinkedit-get_locked)                         | Возвращает или задает значение, указывающее, доступен ли элемент управления InkEdit только для чтения или нет.<br/>                                                                                       |
+| [**Заблокировано**](/windows/desktop/api/inked/nf-inked-iinkedit-get_locked)                         | Возвращает или задает значение, указывающее, доступен ли элемент управления InkEdit только для чтения или нет.<br/>                                                                                       |
 | [**MaxLength**](/windows/desktop/api/inked/nf-inked-iinkedit-get_maxlength)                   | Возвращает или задает значение, указывающее, может ли элемент управления InkEdit содержать максимальное количество символов и, если это так, указывает максимальное число символов.<br/>                 |
 | [**маусеикон**](/windows/desktop/api/inked/nf-inked-iinkedit-get_mouseicon)                   | Возвращает или задает текущий пользовательский значок мыши.<br/>                                                                                                                                |
 | [**MousePointer**](/windows/desktop/api/inked/nf-inked-iinkedit-get_mousepointer)             | Возвращает или задает значение, указывающее тип указателя мыши, который появляется при наведении указателя мыши на определенную часть элемента управления InkEdit.<br/>                                |
 | [**Нескольких**](/windows/desktop/api/inked/nf-inked-iinkedit-get_multiline)                   | Возвращает или задает значение, указывающее, является ли это многострочным элементом управления InkEdit.<br/>                                                                                           |
 | [**рекогнитионтимеаут**](/windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout)        | Возвращает или задает интервал времени (в миллисекундах) между последним сбором объекта [**иинкстрокедисп**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) и началом распознавания текста.<br/>        |
-| [**Распознаватель**](/windows/desktop/api/inked/nf-inked-iinkedit-get_recognizer)                 | Возвращает или задает объект [**иинкрекогнизер**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) , используемый для распознавания.<br/>                                                                                   |
+| [**Распознавателя**](/windows/desktop/api/inked/nf-inked-iinkedit-get_recognizer)                 | Возвращает или задает объект [**иинкрекогнизер**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) , используемый для распознавания.<br/>                                                                                   |
 | [**ScrollBars**](/windows/desktop/api/inked/nf-inked-iinkedit-get_scrollbars)                 | Возвращает или задает тип полос прокрутки, отображаемых в элементе управления InkEdit.<br/>                                                                                                   |
 | [**селалигнмент**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selalignment)             | Возвращает или задает выравнивание, применяемое к текущему выделению или точке вставки (только во время выполнения).<br/>                                                                           |
 | [**селболд**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selbold)                       | Возвращает или задает значение, указывающее, является ли начертание шрифта выделенного в данный момент текста в элементе управления InkEdit полужирным (только во время выполнения).<br/>                                  |
@@ -168,38 +168,18 @@ ms.locfileid: "104081455"
 | [**текстртф**](/windows/desktop/api/inked/nf-inked-iinkedit-get_textrtf)                       | Возвращает или задает текст элемента управления InkEdit, включая все коды RTF.<br/>                                                                                                     |
 | [**усемаусефоринпут**](/windows/desktop/api/inked/nf-inked-iinkedit-get_usemouseforinput)     | Возвращает или задает значение, указывающее, можно ли использовать мышь в качестве входного устройства.<br/>                                                                                      |
 
-
-
- 
-
-
-
 | Структура                                                                    | Описание                                                                                  |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [**IEC \_ строкеинфо**](/windows/desktop/api/inked/ns-inked-iec_strokeinfo)                       | Содержит сведения о событии [**Stroke**](inkedit-stroke.md) (только Win32).<br/> |
 | [**IEC \_ GESTUREINFO**](/windows/desktop/api/inked/ns-inked-iec_gestureinfo)                     | Содержит сведения о конкретном жесте (только Win32).<br/>                       |
 | [**IEC \_ рекогнитионресултинфо**](/windows/desktop/api/inked/ns-inked-iec_recognitionresultinfo) | Содержит сведения о результатах распознавания (только Win32).<br/>                     |
 
-
-
- 
-
 ## <a name="com-implementation"></a>Реализация COM
 
-Этот объект реализует COM-интерфейс **иинкедит** .
+Этот объект реализует COM-интерфейс [иинкедит](/windows/win32/api/inked/nn-inked-iinkedit) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
-<dl> <dt>
-
-[**Класс InkOverlay**](inkoverlay-class.md)
-</dt> <dt>
-
-[Справочник по элементу управления InkPicture](inkpicture-control-reference.md)
-</dt> <dt>
-
-[**Класс Инкрекогнизерконтекст**](inkrecognizercontext-class.md)
-</dt> </dl>
-
- 
-
+- [**Класс InkOverlay**](inkoverlay-class.md), 
+- [Справочник по элементу управления InkPicture](inkpicture-control-reference.md)
+- [**Класс Инкрекогнизерконтекст**](inkrecognizercontext-class.md)
