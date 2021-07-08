@@ -1,4 +1,4 @@
-- name: Система свойств Windows
+- name: Windows Система свойств
   href: windows-properties-system.md
   items:
     - name: Обзор системы свойств
@@ -25,14 +25,14 @@
             - name: Регистрация и распространение обработчиков свойств
               href: prophand-reg-dist.md
             - name: Рекомендации и вопросы и ответы по обработчикам свойств
-              href: prophand-bestprac-faq.md
+              href: prophand-bestprac-faq.yml
     - name: Справочник по свойствам системы
       href: property-system-reference.md
       items:
         - name: Свойства Windows
           href: props.md
           items:
-            - name: звук;
+            - name: Аудио
               href: audio-bumper.md
               items:
                 - name: System. Audio. Чаннелкаунт
@@ -439,7 +439,7 @@
                   href: props-system-contact-webpage2.md
                 - name: System. Contact. Webpage3
                   href: props-system-contact-webpage3.md
-            - name: Основные сведения
+            - name: Базовая
               href: core-bumper.md
               items:
                 - name: System. Аккуиситионид
@@ -664,7 +664,7 @@
                   href: props-system-priority.md
                 - name: System. Приорититекст
                   href: props-system-prioritytext.md
-                - name: System. Project
+                - name: Системой. Project
                   href: props-system-project.md
                 - name: System. Провидеритемид
                   href: props-system-provideritemid.md
@@ -757,25 +757,25 @@
               items:
                 - name: System. Device. Принтерурл
                   href: props-system-device-printerurl.md
-                - name: System. Девицеинтерфаце. Bluetooth. Девицеаддресс
+                - name: System. Девицеинтерфаце. Bluetooth. девицеаддресс
                   href: props-system-deviceinterface-bluetooth-deviceaddress.md
-                - name: System. Девицеинтерфаце. Bluetooth. flags
+                - name: System. Девицеинтерфаце. Bluetooth. Метки
                   href: props-system-deviceinterface-bluetooth-flags.md
-                - name: System. Девицеинтерфаце. Bluetooth. Ластконнектедтиме
+                - name: System. Девицеинтерфаце. Bluetooth. ластконнектедтиме
                   href: props-system-deviceinterface-bluetooth-lastconnectedtime.md
-                - name: System. Девицеинтерфаце. Bluetooth. производитель
+                - name: System. Девицеинтерфаце. Bluetooth. Производителя
                   href: props-system-deviceinterface-bluetooth-manufacturer.md
-                - name: System. Девицеинтерфаце. Bluetooth. Моделнумбер
+                - name: System. Девицеинтерфаце. Bluetooth. моделнумбер
                   href: props-system-deviceinterface-bluetooth-modelnumber.md
-                - name: System. Девицеинтерфаце. Bluetooth. ProductId
+                - name: System. Девицеинтерфаце. Bluetooth. Кодом
                   href: props-system-deviceinterface-bluetooth-productid.md
                 - name: System. Девицеинтерфаце. Bluetooth. ProductVersion
                   href: props-system-deviceinterface-bluetooth-productversion.md
-                - name: System. Девицеинтерфаце. Bluetooth. Сервицегуид
+                - name: System. Девицеинтерфаце. Bluetooth. сервицегуид
                   href: props-system-deviceinterface-bluetooth-serviceguid.md
-                - name: System. Девицеинтерфаце. Bluetooth. VendorId
+                - name: System. Девицеинтерфаце. Bluetooth. Поставщика
                   href: props-system-deviceinterface-bluetooth-vendorid.md
-                - name: System. Девицеинтерфаце. Bluetooth. Вендоридсаурце
+                - name: System. Девицеинтерфаце. Bluetooth. вендоридсаурце
                   href: props-system-deviceinterface-bluetooth-vendoridsource.md
                 - name: System. Девицеинтерфаце. HID. IsReadOnly
                   href: props-system-deviceinterface-hid-isreadonly.md
@@ -821,43 +821,43 @@
                   href: props-system-deviceinterface-winusb-usbvendorid.md
                 - name: System.Devices.Aep.AepId
                   href: props-system-devices-aep-aepid.md
-                - name: System. Devices. АЕП. Bluetooth. наложен. Major
+                - name: System. Devices. АЕП. Bluetooth. Побольшой платеж. основной
                   href: props-system-devices-aep-bluetooth-cod-major.md
                 - name: System. Devices. Аепсервице. Bluetooth. CacheMode
                   href: props-system-devices-aepservice-bluetooth-cachemode.md
-                - name: System. Devices. Аепсервице. Bluetooth. Сервицегуид
+                - name: System. Devices. Аепсервице. Bluetooth. сервицегуид
                   href: props-system-devices-aepservice-bluetooth-serviceguid.md
-                - name: System. Devices. Аепсервице. Bluetooth. целевое устройство
+                - name: System. Devices. Аепсервице. Bluetooth. Целевое устройство
                   href: props-system-devices-aepservice-bluetooth-targetdevice.md
-                - name: System. Devices. АЕП. Bluetooth. наложенный. Minor
+                - name: System. Devices. АЕП. Bluetooth. Наложенный на. дополнительный
                   href: props-system-devices-aep-bluetooth-cod-minor.md
-                - name: System. Devices. АЕП. Bluetooth. наложенный. Services. Audio
+                - name: System. Devices. АЕП. Bluetooth. Наложенный на. Services. Audio
                   href: props-system-devices-aep-bluetooth-cod-services-audio.md
-                - name: System. Devices. АЕП. Bluetooth. наложен. Services. захватить
+                - name: System. Devices. АЕП. Bluetooth. Наложенный на. Services. захват
                   href: props-system-devices-aep-bluetooth-cod-services-capturing.md
                 - name: System. Devices. АЕП. Bluetooth. наложен. Services. Information
                   href: props-system-devices-aep-bluetooth-cod-services-information.md
-                - name: System. Devices. АЕП. Bluetooth. наложенный. Services. Лимитеддисковери
+                - name: System. Devices. АЕП. Bluetooth. Наложенный на. Services. Лимитеддисковери
                   href: props-system-devices-aep-bluetooth-cod-services-limiteddiscovery.md
-                - name: System. Devices. АЕП. Bluetooth. наложен. Services. Networks
+                - name: System. Devices. АЕП. Bluetooth. наложен. Services. networks
                   href: props-system-devices-aep-bluetooth-cod-services-networking.md
-                - name: System. Devices. АЕП. Bluetooth. наложенный. Services. Обжектксфер
+                - name: System. Devices. АЕП. Bluetooth. Наложенный на. Services. Обжектксфер
                   href: props-system-devices-aep-bluetooth-cod-services-objectxfer.md
-                - name: System. Devices. АЕП. Bluetooth. наложен. Services. Position
+                - name: System. Devices. АЕП. Bluetooth. Наложенный на. Services. позиционирование
                   href: props-system-devices-aep-bluetooth-cod-services-positioning.md
-                - name: System. Devices. АЕП. Bluetooth. наложен. Services. Render
+                - name: System. Devices. АЕП. Bluetooth. Наложенный на. Services. Render
                   href: props-system-devices-aep-bluetooth-cod-services-rendering.md
-                - name: System. Devices. АЕП. Bluetooth. наложен. Services. Телефон
+                - name: System. Devices. АЕП. Bluetooth. Наложенный на. Services. Телефон
                   href: props-system-devices-aep-bluetooth-cod-services-telephony.md
                 - name: System. Devices. АЕП. Bluetooth. Le. AddressType
                   href: props-system-devices-aep-bluetooth-le-addresstype.md
-                - name: System. Devices. АЕП. Bluetooth. Le. Appearance
+                - name: System. Devices. АЕП. Bluetooth. Le. внешний вид
                   href: props-system-devices-aep-bluetooth-le-appearance.md
-                - name: System. Devices. АЕП. Bluetooth. Le. Appearance. Category
+                - name: System. Devices. АЕП. Bluetooth. Le. внешний вид. Категория
                   href: props-system-devices-aep-bluetooth-le-appearance-category.md
                 - name: System. Devices. АЕП. Bluetooth. Le. Appearance. Подкатегория
                   href: props-system-devices-aep-bluetooth-le-appearance-subcategory.md
-                - name: System. Devices. АЕП. Bluetooth. Le. подсоединено
+                - name: System. Devices. АЕП. Bluetooth. Le. Подсоединение
                   href: props-system-devices-aep-bluetooth-le-isconnectable.md
                 - name: System.Devices.Aep.CanPair
                   href: props-system-devices-aep-canpair.md
@@ -1205,9 +1205,9 @@
                   href: props-system-devices-winphone8cameraflags.md
                 - name: System. Devices. WWAN. Интерфацегуид
                   href: props-system-devices-wwan-interfaceguid.md
-                - name: System. Storage. Portable
+                - name: Системой. служба хранилища. Устройств
                   href: props-system-storage-portable.md
-                - name: System. Storage. Ремоваблемедиа
+                - name: Системой. служба хранилища. ремоваблемедиа
                   href: props-system-storage-removablemedia.md
                 - name: System.Storage.SysТемкритикал
                   href: props-system-storage-systemcritical.md
@@ -1506,7 +1506,7 @@
                   href: props-system-link-targeturlhostname.md
                 - name: System. Link. Таржетурлпас
                   href: props-system-link-targeturlpath.md
-            - name: Мультимедиа
+            - name: Служба мультимедиа
               href: media-bumper.md
               items:
                 - name: System. Media. Аусорурл
@@ -1987,7 +1987,7 @@
                   href: props-system-security-encryptionowners.md
                 - name: System. Security. Енкриптионовнерсдисплай
                   href: props-system-security-encryptionownersdisplay.md
-            - name: Найти
+            - name: Поиск
               href: search-bumper.md
               items:
                 - name: System. Search. автосводка
@@ -2022,7 +2022,7 @@
                   href: props-system-search-urltoindex.md
                 - name: System. Search. Урлтоиндексвисмодификатионтиме
                   href: props-system-search-urltoindexwithmodificationtime.md
-            - name: Shell
+            - name: Оболочка
               href: shell-bumper.md
               items:
                 - name: System. Дескриптионид

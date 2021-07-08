@@ -1,4 +1,4 @@
-- name: Устаревшие функции среды Windows
+- name: устаревшие функции Windows среды
   href: legacy-windows-environment.md
   items:
     - name: Устаревшие функции оболочки
@@ -22,7 +22,7 @@
           href: column-handlers.md
         - name: Создание обработчиков поиска
           href: search-handlers.md
-        - name: Замена приложения для просмотра изображений и факсов Windows с помощью команды предварительного просмотра
+        - name: замена приложения Windows изображений и просмотра факсов с помощью команды предварительного просмотра
           href: replacing-picture-fax-viewer.md
         - name: Мастера фотографий
           href: photo-wizards-bumper.md
@@ -160,7 +160,7 @@
                       href: webviewfoldercontents-folder.md
                     - name: Parent
                       href: webviewfoldercontents-parent.md
-                    - name: Скрипт
+                    - name: Сценарий
                       href: webviewfoldercontents-script.md
                     - name: виевоптионс
                       href: webviewfoldercontents-viewoptions.md
@@ -174,7 +174,7 @@
       items:
         - name: Введение в Microsoft Agent
           href: introduction-to-microsoft-agent.md
-        - name: Изменения Microsoft Agent в Windows Vista
+        - name: изменения в Microsoft Agent в Windows Vista
           href: microsoft-agent-changes-in-windows-vista.md
         - name: Пользовательский интерфейс Microsoft Agent
           href: the-microsoft-agent-user-interface.md
@@ -222,7 +222,7 @@
                       href: create-personality.md
                     - name: Просмотрите соответствующий этикет
                       href: observe-appropriate-etiquette.md
-                    - name: Использование выразить благодарность
+                    - name: использование Благодарность
                       href: use-praise.md
                     - name: Создание командного проигрывателя
                       href: create-a-team-player.md
@@ -303,7 +303,7 @@
                       href: using-javascript-and-jscript.md
                 - name: Доступ к голосовым службам
                   href: accessing-speech-services-.md
-                - name: Доступ к элементу управления из Visual Basic и других языков программирования
+                - name: доступ к элементу управления из Visual Basic и других языков программирования
                   href: accessing-the-control-from-visual-basic-and-other-programming-languages.md
                   items:
                     - name: Создание экземпляра элемента управления
@@ -1045,7 +1045,7 @@
                         - name: 'Иажентусеринпут:: Жетитемтекст'
                           href: iagentuserinput--getitemtext.md
             - name: Часто задаваемые вопросы по программированию и созданию сценариев
-              href: programming-scripting-faq.md
+              href: programming-scripting-faq.yml
             - name: Коды ошибок агента Microsoft
               href: microsoft-agent-error-codes.md
         - name: Использование речевых модулей с Microsoft Agent
@@ -1135,7 +1135,7 @@
               items:
                 - name: Разработка анимации
                   href: animation-design.md
-                - name: Набор эффектов анимации Office
+                - name: набор анимации Office
                   href: the-office-animation-set.md
                 - name: Установка символа
                   href: installing-your-character.md
@@ -1182,7 +1182,7 @@
               href: microsoft-agent-animations-for-peedy-character.md
         - name: Список литературы
           href: bibliography.md
-    - name: Windows Desktop Search 2. x
+    - name: Windows Поиск на рабочем столе 2. x
       href: '-search-2x-wds-overview.md'
       items:
         - name: Запрос индекса (WDS 2. x)
@@ -1220,7 +1220,7 @@
           href: '-search-2x-wds-perceivedtype.md'
         - name: Протокол служб индексирования содержимого
           href: '-search-2x-wds-content-indexing-services-protocol.md'
-        - name: Интерфейсы элементов управления ActiveX WDS 2. x
+        - name: интерфейсы управления ActiveX WDS 2. x
           href: '-search-activex-control-reference-entry-page.md'
           items:
             - name: ипропертифилтер
@@ -1232,7 +1232,7 @@
                   href: '-search-2x-ipropertyfilter-logicoperator.md'
                 - name: нестингдепс
                   href: '-search-2x-ipropertyfilter-nestingdepth.md'
-                - name: Текст
+                - name: текст
                   href: '-search-2x-ipropertyfilter-text.md'
                 - name: ИД пользователя
                   href: '-search-2x-ipropertyfilter-uid.md'
@@ -1243,7 +1243,7 @@
                   href: '-search-2x-ipropertyfiltercollection-additem.md'
                 - name: clear
                   href: '-search-2x-ipropertyfiltercollection-clear.md'
-                - name: Count
+                - name: Счетчик
                   href: '-search-2x-ipropertyfiltercollection-count.md'
                 - name: GetITem
                   href: '-search-2x-ipropertyfiltercollection-getitem.md'
@@ -1295,7 +1295,7 @@
                   href: '-search-2x-iresultsviewer-propertyfilters.md'
                 - name: QueryText
                   href: '-search-2x-iresultsviewer-querytext.md'
-                - name: Обновление
+                - name: Обновить
                   href: '-search-2x-iresultsviewer-refresh.md'
                 - name: ресултсстиле
                   href: '-search-2x-iresultsviewer-resultsstyle.md'
@@ -1327,7 +1327,7 @@
                   href: '-search-2x-iresultverb-displayname.md'
                 - name: доит
                   href: '-search-2x-iresultverb-doit.md'
-                - name: Включено
+                - name: Активировано
                   href: '-search-2x-iresultverb-enabled.md'
                 - name: HelpText
                   href: '-search-2x-iresultverb-helptext.md'
@@ -1413,7 +1413,7 @@
         - name: Справочник
           href: defender-ref-entry.md
           items:
-            - name: Перечисления защитника Windows
+            - name: Защитник Windows Перечисления
               href: windows-defender-enumerations.md
               items:
                 - name: MPCALLBACK_TYPE
@@ -1458,7 +1458,7 @@
                   href: mpthreat-status.md
                 - name: MPTHREAT_TYPE
                   href: mpthreat-type.md
-            - name: Функции защитника Windows
+            - name: Защитник Windows Функции
               href: windows-defender-functions.md
               items:
                 - name: мперрормессажеформат
@@ -1493,7 +1493,7 @@
                   href: /windows/desktop/api/Windowsdefender/nf-windowsdefender-wdenable
                 - name: вдстатус
                   href: /windows/desktop/api/Windowsdefender/nf-windowsdefender-wdstatus
-            - name: Структуры защитника Windows
+            - name: Защитник Windows Сотрудник
               href: windows-defender-structures.md
               items:
                 - name: MPCALLBACK_DATA

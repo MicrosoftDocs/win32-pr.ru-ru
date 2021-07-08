@@ -4,12 +4,12 @@ ms.assetid: 667c3659-69ae-469d-9ae0-e32a189cbc71
 title: Элементы управления томами конечных точек
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 526403be9c600f67791650956bd7e5096f6c9afc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57be477a86a1de4584a7590d20d4e0199e782f10
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990615"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481889"
 ---
 # <a name="endpoint-volume-controls"></a>Элементы управления томами конечных точек
 
@@ -86,7 +86,6 @@ public:
             delete this;
         }
         return ulRef;
-
     }
 
     HRESULT STDMETHODCALLTYPE QueryInterface(REFIID riid, VOID **ppvInterface)
@@ -147,7 +146,7 @@ public:
 
 Приложение вызывает метод [**иаудиоендпоинтволуме:: регистерконтролчанженотифи**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) , чтобы зарегистрировать его интерфейс [**иаудиоендпоинтволумекаллбакк**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback) для получения уведомлений. Если приложение больше не требует уведомлений, оно вызывает метод [**иаудиоендпоинтволуме:: унрегистерконтролчанженотифи**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify) для удаления регистрации.
 
-В следующем примере кода представлено приложение Windows, которое вызывает методы [**регистерконтролчанженотифи**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) и [**унрегистерконтролчанженотифи**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify) для регистрации и отмены регистрации класса каудиоендпоинтволумекаллбакк в предыдущем примере кода:
+следующий пример кода является Windows приложением, которое вызывает методы [**регистерконтролчанженотифи**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) и [**унрегистерконтролчанженотифи**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify) для регистрации и отмены регистрации класса каудиоендпоинтволумекаллбакк в предыдущем примере кода:
 
 
 ```C++
@@ -224,7 +223,7 @@ Exit:
         MessageBox(NULL, TEXT("This program requires Windows Vista."),
                    TEXT("Error termination"), MB_OK);
     }
-    if (pEnumerator != NULL)
+    if (g_pEndptVol != NULL)
     {
         g_pEndptVol->UnregisterControlChangeNotify(
                     (IAudioEndpointVolumeCallback*)&EPVolEvents);
@@ -309,7 +308,7 @@ BOOL CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
 
 
-В предыдущем примере кода функция [**WinMain**](/windows/desktop/api/winbase/nf-winbase-winmain) вызывает функцию [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) для создания экземпляра интерфейса [**иммдевицеенумератор**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) и вызывает метод [**иммдевицеенумератор:: жетдефаултаудиоендпоинт**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) , чтобы получить интерфейс [**иммдевице**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) устройства отрисовки по умолчанию. **WinMain** вызывает метод [**Иммдевице:: Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) для получения интерфейса [**иаудиоендпоинтволуме**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume) устройства и вызывает [**регистерконтролчанженотифи**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) , чтобы зарегистрировать приложение для получения уведомлений об изменениях в томах конечных точек. Затем **WinMain** открывает диалоговое окно для вывода на устройство элемента управления "том". В диалоговом окне также отображается флажок, указывающий, отключено ли устройство. Флажок "контроль громкости конечных точек и звук в диалоговом окне" отражает настройки флажка "Управление томами конечных точек" и "выключить", отображаемого Сндвол. Дополнительные сведения о **WinMain** и **CoCreateInstance** см. в документации по Windows SDK. Дополнительные сведения о **иммдевицеенумератор** и **иммдевице** см. в разделе [перечисление звуковых устройств](enumerating-audio-devices.md).
+В предыдущем примере кода функция [**WinMain**](/windows/desktop/api/winbase/nf-winbase-winmain) вызывает функцию [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) для создания экземпляра интерфейса [**иммдевицеенумератор**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) и вызывает метод [**иммдевицеенумератор:: жетдефаултаудиоендпоинт**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) , чтобы получить интерфейс [**иммдевице**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) устройства отрисовки по умолчанию. **WinMain** вызывает метод [**Иммдевице:: Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) для получения интерфейса [**иаудиоендпоинтволуме**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume) устройства и вызывает [**регистерконтролчанженотифи**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) , чтобы зарегистрировать приложение для получения уведомлений об изменениях в томах конечных точек. Затем **WinMain** открывает диалоговое окно для вывода на устройство элемента управления "том". В диалоговом окне также отображается флажок, указывающий, отключено ли устройство. Флажок "контроль громкости конечных точек и звук в диалоговом окне" отражает настройки флажка "Управление томами конечных точек" и "выключить", отображаемого Сндвол. дополнительные сведения о **WinMain** и **cocreateinstance** см. в документации по Windows SDK. Дополнительные сведения о **иммдевицеенумератор** и **иммдевице** см. в разделе [перечисление звуковых устройств](enumerating-audio-devices.md).
 
 Процедура диалогового окна, Длгпрок, в предыдущем примере кода, обрабатывает изменения, внесенные пользователем в том, и выключает параметры с помощью элементов управления в диалоговом окне. Когда Длгпрок вызывает [**сетмастерволумелевелскалар**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevelscalar) или [**сетмуте**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmute), сндвол получает уведомление об изменении и обновляет соответствующий элемент управления в своем окне, чтобы отразить новый том или выключить параметр. Если вместо использования диалогового окна пользователь обновляет том и выключает параметры с помощью элементов управления в окне Сндвол, метод [**OnNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify) в классе каудиоендпоинтволумекаллбакк обновляет элементы управления в диалоговом окне для вывода новых параметров.
 
@@ -364,7 +363,7 @@ END
 
 Приведенные выше примеры кода образуют простое приложение для управления и наблюдения за томом конечной точки устройства отрисовки по умолчанию. Более полезное приложение может дополнительно уведомлять пользователя об изменении состояния устройства. Например, устройство может быть отключено, отсоединено или удалено. Дополнительные сведения о мониторинге этих типов событий см. в разделе [события устройства](device-events.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
