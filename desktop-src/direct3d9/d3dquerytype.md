@@ -13,24 +13,24 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 7a9c20050e7d0dce5a19664d937c016a475a9a13
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 0778e879a6147c185964808ee4b4c302bd211ef3
+ms.sourcegitcommit: bfab92e16614d4fa54b044917358261232bda81a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343079"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "113489698"
 ---
-# <a name="d3dquerytype-enumeration"></a><span data-ttu-id="a4808-103">Перечисление D3DQUERYTYPE</span><span class="sxs-lookup"><span data-stu-id="a4808-103">D3DQUERYTYPE enumeration</span></span>
+# <a name="d3dquerytype-enumeration"></a><span data-ttu-id="72809-103">Перечисление D3DQUERYTYPE</span><span class="sxs-lookup"><span data-stu-id="72809-103">D3DQUERYTYPE enumeration</span></span>
 
-<span data-ttu-id="a4808-104">Определяет тип запроса.</span><span class="sxs-lookup"><span data-stu-id="a4808-104">Identifies the query type.</span></span> <span data-ttu-id="a4808-105">Дополнительные сведения о запросах см. в разделе [запросы (Direct3D 9)](queries.md) .</span><span class="sxs-lookup"><span data-stu-id="a4808-105">For information about queries, see [Queries (Direct3D 9)](queries.md)</span></span>
+<span data-ttu-id="72809-104">Определяет тип запроса.</span><span class="sxs-lookup"><span data-stu-id="72809-104">Identifies the query type.</span></span> <span data-ttu-id="72809-105">Дополнительные сведения о запросах см. в разделе [запросы (Direct3D 9)](queries.md) .</span><span class="sxs-lookup"><span data-stu-id="72809-105">For information about queries, see [Queries (Direct3D 9)](queries.md)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a4808-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a4808-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="72809-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="72809-106">Syntax</span></span>
 
 
 ```C++
 typedef enum D3DQUERYTYPE { 
   D3DQUERYTYPE_VCACHE             = 4,
-  D3DQUERYTYPE_ResourceManager    = 5,
+  D3DQUERYTYPE_RESOURCEMANAGER    = 5,
   D3DQUERYTYPE_VERTEXSTATS        = 6,
   D3DQUERYTYPE_EVENT              = 8,
   D3DQUERYTYPE_OCCLUSION          = 9,
@@ -49,116 +49,116 @@ typedef enum D3DQUERYTYPE {
 
 
 
-## <a name="constants"></a><span data-ttu-id="a4808-107">Константы</span><span class="sxs-lookup"><span data-stu-id="a4808-107">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="72809-107">Константы</span><span class="sxs-lookup"><span data-stu-id="72809-107">Constants</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a4808-108"><span id="D3DQUERYTYPE_VCACHE"></span><span id="d3dquerytype_vcache"></span>**D3DQUERYTYPE \_ вкаче**</span><span class="sxs-lookup"><span data-stu-id="a4808-108"><span id="D3DQUERYTYPE_VCACHE"></span><span id="d3dquerytype_vcache"></span>**D3DQUERYTYPE\_VCACHE**</span></span>
+<span data-ttu-id="72809-108"><span id="D3DQUERYTYPE_VCACHE"></span><span id="d3dquerytype_vcache"></span>**D3DQUERYTYPE \_ вкаче**</span><span class="sxs-lookup"><span data-stu-id="72809-108"><span id="D3DQUERYTYPE_VCACHE"></span><span id="d3dquerytype_vcache"></span>**D3DQUERYTYPE\_VCACHE**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-109">Запрос подсказок к драйверу о структуре данных для кэширования вершин.</span><span class="sxs-lookup"><span data-stu-id="a4808-109">Query for driver hints about data layout for vertex caching.</span></span>
+<span data-ttu-id="72809-109">Запрос подсказок к драйверу о структуре данных для кэширования вершин.</span><span class="sxs-lookup"><span data-stu-id="72809-109">Query for driver hints about data layout for vertex caching.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-110"><span id="D3DQUERYTYPE_ResourceManager"></span><span id="d3dquerytype_resourcemanager"></span><span id="D3DQUERYTYPE_RESOURCEMANAGER"></span>**D3DQUERYTYPE \_ ResourceManager**</span><span class="sxs-lookup"><span data-stu-id="a4808-110"><span id="D3DQUERYTYPE_ResourceManager"></span><span id="d3dquerytype_resourcemanager"></span><span id="D3DQUERYTYPE_RESOURCEMANAGER"></span>**D3DQUERYTYPE\_ResourceManager**</span></span>
+<span data-ttu-id="72809-110"><span id="D3DQUERYTYPE_ResourceManager"></span><span id="d3dquerytype_resourcemanager"></span><span id="D3DQUERYTYPE_RESOURCEMANAGER"></span>**D3DQUERYTYPE \_ ResourceManager**</span><span class="sxs-lookup"><span data-stu-id="72809-110"><span id="D3DQUERYTYPE_ResourceManager"></span><span id="d3dquerytype_resourcemanager"></span><span id="D3DQUERYTYPE_RESOURCEMANAGER"></span>**D3DQUERYTYPE\_ResourceManager**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-111">Запросите диспетчер ресурсов.</span><span class="sxs-lookup"><span data-stu-id="a4808-111">Query the resource manager.</span></span> <span data-ttu-id="a4808-112">Для этого запроса флаги поведения устройства должны включать [D3DCREATE \_ Отключить \_ \_ Управление драйверами](d3dcreate.md).</span><span class="sxs-lookup"><span data-stu-id="a4808-112">For this query, the device behavior flags must include [D3DCREATE\_DISABLE\_DRIVER\_MANAGEMENT](d3dcreate.md).</span></span>
+<span data-ttu-id="72809-111">Запросите диспетчер ресурсов.</span><span class="sxs-lookup"><span data-stu-id="72809-111">Query the resource manager.</span></span> <span data-ttu-id="72809-112">Для этого запроса флаги поведения устройства должны включать [D3DCREATE \_ Отключить \_ \_ Управление драйверами](d3dcreate.md).</span><span class="sxs-lookup"><span data-stu-id="72809-112">For this query, the device behavior flags must include [D3DCREATE\_DISABLE\_DRIVER\_MANAGEMENT](d3dcreate.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-113"><span id="D3DQUERYTYPE_VERTEXSTATS"></span><span id="d3dquerytype_vertexstats"></span>**D3DQUERYTYPE \_ вертексстатс**</span><span class="sxs-lookup"><span data-stu-id="a4808-113"><span id="D3DQUERYTYPE_VERTEXSTATS"></span><span id="d3dquerytype_vertexstats"></span>**D3DQUERYTYPE\_VERTEXSTATS**</span></span>
+<span data-ttu-id="72809-113"><span id="D3DQUERYTYPE_VERTEXSTATS"></span><span id="d3dquerytype_vertexstats"></span>**D3DQUERYTYPE \_ вертексстатс**</span><span class="sxs-lookup"><span data-stu-id="72809-113"><span id="D3DQUERYTYPE_VERTEXSTATS"></span><span id="d3dquerytype_vertexstats"></span>**D3DQUERYTYPE\_VERTEXSTATS**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-114">Запрос статистики вершин.</span><span class="sxs-lookup"><span data-stu-id="a4808-114">Query vertex statistics.</span></span>
+<span data-ttu-id="72809-114">Запрос статистики вершин.</span><span class="sxs-lookup"><span data-stu-id="72809-114">Query vertex statistics.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-115"><span id="D3DQUERYTYPE_EVENT"></span><span id="d3dquerytype_event"></span>**\_Событие D3DQUERYTYPE**</span><span class="sxs-lookup"><span data-stu-id="a4808-115"><span id="D3DQUERYTYPE_EVENT"></span><span id="d3dquerytype_event"></span>**D3DQUERYTYPE\_EVENT**</span></span>
+<span data-ttu-id="72809-115"><span id="D3DQUERYTYPE_EVENT"></span><span id="d3dquerytype_event"></span>**\_Событие D3DQUERYTYPE**</span><span class="sxs-lookup"><span data-stu-id="72809-115"><span id="D3DQUERYTYPE_EVENT"></span><span id="d3dquerytype_event"></span>**D3DQUERYTYPE\_EVENT**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-116">Запрос всех и всех асинхронных событий, выданных из вызовов API.</span><span class="sxs-lookup"><span data-stu-id="a4808-116">Query for any and all asynchronous events that have been issued from API calls.</span></span>
+<span data-ttu-id="72809-116">Запрос всех и всех асинхронных событий, выданных из вызовов API.</span><span class="sxs-lookup"><span data-stu-id="72809-116">Query for any and all asynchronous events that have been issued from API calls.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-117"><span id="D3DQUERYTYPE_OCCLUSION"></span><span id="d3dquerytype_occlusion"></span>**D3DQUERYTYPE \_ перекрытия**</span><span class="sxs-lookup"><span data-stu-id="a4808-117"><span id="D3DQUERYTYPE_OCCLUSION"></span><span id="d3dquerytype_occlusion"></span>**D3DQUERYTYPE\_OCCLUSION**</span></span>
+<span data-ttu-id="72809-117"><span id="D3DQUERYTYPE_OCCLUSION"></span><span id="d3dquerytype_occlusion"></span>**D3DQUERYTYPE \_ перекрытия**</span><span class="sxs-lookup"><span data-stu-id="72809-117"><span id="D3DQUERYTYPE_OCCLUSION"></span><span id="d3dquerytype_occlusion"></span>**D3DQUERYTYPE\_OCCLUSION**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-118">Запрос перекрытия возвращает число пикселей, пройденных в z-тестировании.</span><span class="sxs-lookup"><span data-stu-id="a4808-118">An occlusion query returns the number of pixels that pass z-testing.</span></span> <span data-ttu-id="a4808-119">Эти Пиксели используются для примитивов, выводимых между выпуском [**D3DISSUE \_ Begin**](d3dissue-begin.md) и [**D3DISSUE \_ End**](d3dissue-end.md).</span><span class="sxs-lookup"><span data-stu-id="a4808-119">These pixels are for primitives drawn between the issue of [**D3DISSUE\_BEGIN**](d3dissue-begin.md) and [**D3DISSUE\_END**](d3dissue-end.md).</span></span> <span data-ttu-id="a4808-120">Это позволяет приложению проверить результат перекрытия на 0.</span><span class="sxs-lookup"><span data-stu-id="a4808-120">This enables an application to check the occlusion result against 0.</span></span> <span data-ttu-id="a4808-121">Ноль полностью перекрыто, что означает, что Пиксели не видны в текущей положении камеры.</span><span class="sxs-lookup"><span data-stu-id="a4808-121">Zero is fully occluded, which means the pixels are not visible from the current camera position.</span></span>
+<span data-ttu-id="72809-118">Запрос перекрытия возвращает число пикселей, пройденных в z-тестировании.</span><span class="sxs-lookup"><span data-stu-id="72809-118">An occlusion query returns the number of pixels that pass z-testing.</span></span> <span data-ttu-id="72809-119">Эти Пиксели используются для примитивов, выводимых между выпуском [**D3DISSUE \_ Begin**](d3dissue-begin.md) и [**D3DISSUE \_ End**](d3dissue-end.md).</span><span class="sxs-lookup"><span data-stu-id="72809-119">These pixels are for primitives drawn between the issue of [**D3DISSUE\_BEGIN**](d3dissue-begin.md) and [**D3DISSUE\_END**](d3dissue-end.md).</span></span> <span data-ttu-id="72809-120">Это позволяет приложению проверить результат перекрытия на 0.</span><span class="sxs-lookup"><span data-stu-id="72809-120">This enables an application to check the occlusion result against 0.</span></span> <span data-ttu-id="72809-121">Ноль полностью перекрыто, что означает, что Пиксели не видны в текущей положении камеры.</span><span class="sxs-lookup"><span data-stu-id="72809-121">Zero is fully occluded, which means the pixels are not visible from the current camera position.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-122"><span id="D3DQUERYTYPE_TIMESTAMP"></span><span id="d3dquerytype_timestamp"></span>**\_Отметка времени D3DQUERYTYPE**</span><span class="sxs-lookup"><span data-stu-id="a4808-122"><span id="D3DQUERYTYPE_TIMESTAMP"></span><span id="d3dquerytype_timestamp"></span>**D3DQUERYTYPE\_TIMESTAMP**</span></span>
+<span data-ttu-id="72809-122"><span id="D3DQUERYTYPE_TIMESTAMP"></span><span id="d3dquerytype_timestamp"></span>**\_Отметка времени D3DQUERYTYPE**</span><span class="sxs-lookup"><span data-stu-id="72809-122"><span id="D3DQUERYTYPE_TIMESTAMP"></span><span id="d3dquerytype_timestamp"></span>**D3DQUERYTYPE\_TIMESTAMP**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-123">Возвращает 64-разрядную отметку времени.</span><span class="sxs-lookup"><span data-stu-id="a4808-123">Returns a 64-bit timestamp.</span></span>
+<span data-ttu-id="72809-123">Возвращает 64-разрядную отметку времени.</span><span class="sxs-lookup"><span data-stu-id="72809-123">Returns a 64-bit timestamp.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-124"><span id="D3DQUERYTYPE_TIMESTAMPDISJOINT"></span><span id="d3dquerytype_timestampdisjoint"></span>**D3DQUERYTYPE \_ тиместампдисжоинт**</span><span class="sxs-lookup"><span data-stu-id="a4808-124"><span id="D3DQUERYTYPE_TIMESTAMPDISJOINT"></span><span id="d3dquerytype_timestampdisjoint"></span>**D3DQUERYTYPE\_TIMESTAMPDISJOINT**</span></span>
+<span data-ttu-id="72809-124"><span id="D3DQUERYTYPE_TIMESTAMPDISJOINT"></span><span id="d3dquerytype_timestampdisjoint"></span>**D3DQUERYTYPE \_ тиместампдисжоинт**</span><span class="sxs-lookup"><span data-stu-id="72809-124"><span id="D3DQUERYTYPE_TIMESTAMPDISJOINT"></span><span id="d3dquerytype_timestampdisjoint"></span>**D3DQUERYTYPE\_TIMESTAMPDISJOINT**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-125">Используйте этот запрос для уведомления приложения, если частота счетчика изменилась с \_ метки времени D3DQUERYTYPE.</span><span class="sxs-lookup"><span data-stu-id="a4808-125">Use this query to notify an application if the counter frequency has changed from the D3DQUERYTYPE\_TIMESTAMP.</span></span>
+<span data-ttu-id="72809-125">Используйте этот запрос для уведомления приложения, если частота счетчика изменилась с \_ метки времени D3DQUERYTYPE.</span><span class="sxs-lookup"><span data-stu-id="72809-125">Use this query to notify an application if the counter frequency has changed from the D3DQUERYTYPE\_TIMESTAMP.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-126"><span id="D3DQUERYTYPE_TIMESTAMPFREQ"></span><span id="d3dquerytype_timestampfreq"></span>**D3DQUERYTYPE \_ тиместампфрек**</span><span class="sxs-lookup"><span data-stu-id="a4808-126"><span id="D3DQUERYTYPE_TIMESTAMPFREQ"></span><span id="d3dquerytype_timestampfreq"></span>**D3DQUERYTYPE\_TIMESTAMPFREQ**</span></span>
+<span data-ttu-id="72809-126"><span id="D3DQUERYTYPE_TIMESTAMPFREQ"></span><span id="d3dquerytype_timestampfreq"></span>**D3DQUERYTYPE \_ тиместампфрек**</span><span class="sxs-lookup"><span data-stu-id="72809-126"><span id="D3DQUERYTYPE_TIMESTAMPFREQ"></span><span id="d3dquerytype_timestampfreq"></span>**D3DQUERYTYPE\_TIMESTAMPFREQ**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-127">Этот результат запроса имеет **значение true** , если значения из \_ запросов отметок времени D3DQUERYTYPE не могут быть непрерывными в течение всего времени \_ запроса D3DQUERYTYPE тиместампдисжоинт.</span><span class="sxs-lookup"><span data-stu-id="a4808-127">This query result is **TRUE** if the values from D3DQUERYTYPE\_TIMESTAMP queries cannot be guaranteed to be continuous throughout the duration of the D3DQUERYTYPE\_TIMESTAMPDISJOINT query.</span></span> <span data-ttu-id="a4808-128">В противном случае результат запроса будет иметь **значение false**.</span><span class="sxs-lookup"><span data-stu-id="a4808-128">Otherwise, the query result is **FALSE**.</span></span>
+<span data-ttu-id="72809-127">Этот результат запроса имеет **значение true** , если значения из \_ запросов отметок времени D3DQUERYTYPE не могут быть непрерывными в течение всего времени \_ запроса D3DQUERYTYPE тиместампдисжоинт.</span><span class="sxs-lookup"><span data-stu-id="72809-127">This query result is **TRUE** if the values from D3DQUERYTYPE\_TIMESTAMP queries cannot be guaranteed to be continuous throughout the duration of the D3DQUERYTYPE\_TIMESTAMPDISJOINT query.</span></span> <span data-ttu-id="72809-128">В противном случае результат запроса будет иметь **значение false**.</span><span class="sxs-lookup"><span data-stu-id="72809-128">Otherwise, the query result is **FALSE**.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-129"><span id="D3DQUERYTYPE_PIPELINETIMINGS"></span><span id="d3dquerytype_pipelinetimings"></span>**D3DQUERYTYPE \_ пипелинетимингс**</span><span class="sxs-lookup"><span data-stu-id="a4808-129"><span id="D3DQUERYTYPE_PIPELINETIMINGS"></span><span id="d3dquerytype_pipelinetimings"></span>**D3DQUERYTYPE\_PIPELINETIMINGS**</span></span>
+<span data-ttu-id="72809-129"><span id="D3DQUERYTYPE_PIPELINETIMINGS"></span><span id="d3dquerytype_pipelinetimings"></span>**D3DQUERYTYPE \_ пипелинетимингс**</span><span class="sxs-lookup"><span data-stu-id="72809-129"><span id="D3DQUERYTYPE_PIPELINETIMINGS"></span><span id="d3dquerytype_pipelinetimings"></span>**D3DQUERYTYPE\_PIPELINETIMINGS**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-130">Процент времени обработки данных конвейера.</span><span class="sxs-lookup"><span data-stu-id="a4808-130">Percent of time processing pipeline data.</span></span>
+<span data-ttu-id="72809-130">Процент времени обработки данных конвейера.</span><span class="sxs-lookup"><span data-stu-id="72809-130">Percent of time processing pipeline data.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-131"><span id="D3DQUERYTYPE_INTERFACETIMINGS"></span><span id="d3dquerytype_interfacetimings"></span>**D3DQUERYTYPE \_ интерфацетимингс**</span><span class="sxs-lookup"><span data-stu-id="a4808-131"><span id="D3DQUERYTYPE_INTERFACETIMINGS"></span><span id="d3dquerytype_interfacetimings"></span>**D3DQUERYTYPE\_INTERFACETIMINGS**</span></span>
+<span data-ttu-id="72809-131"><span id="D3DQUERYTYPE_INTERFACETIMINGS"></span><span id="d3dquerytype_interfacetimings"></span>**D3DQUERYTYPE \_ интерфацетимингс**</span><span class="sxs-lookup"><span data-stu-id="72809-131"><span id="D3DQUERYTYPE_INTERFACETIMINGS"></span><span id="d3dquerytype_interfacetimings"></span>**D3DQUERYTYPE\_INTERFACETIMINGS**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-132">Процент времени обработки данных в драйвере.</span><span class="sxs-lookup"><span data-stu-id="a4808-132">Percent of time processing data in the driver.</span></span>
+<span data-ttu-id="72809-132">Процент времени обработки данных в драйвере.</span><span class="sxs-lookup"><span data-stu-id="72809-132">Percent of time processing data in the driver.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-133"><span id="D3DQUERYTYPE_VERTEXTIMINGS"></span><span id="d3dquerytype_vertextimings"></span>**D3DQUERYTYPE \_ вертекстимингс**</span><span class="sxs-lookup"><span data-stu-id="a4808-133"><span id="D3DQUERYTYPE_VERTEXTIMINGS"></span><span id="d3dquerytype_vertextimings"></span>**D3DQUERYTYPE\_VERTEXTIMINGS**</span></span>
+<span data-ttu-id="72809-133"><span id="D3DQUERYTYPE_VERTEXTIMINGS"></span><span id="d3dquerytype_vertextimings"></span>**D3DQUERYTYPE \_ вертекстимингс**</span><span class="sxs-lookup"><span data-stu-id="72809-133"><span id="D3DQUERYTYPE_VERTEXTIMINGS"></span><span id="d3dquerytype_vertextimings"></span>**D3DQUERYTYPE\_VERTEXTIMINGS**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-134">Процент времени обработки данных шейдера вершин.</span><span class="sxs-lookup"><span data-stu-id="a4808-134">Percent of time processing vertex shader data.</span></span>
+<span data-ttu-id="72809-134">Процент времени обработки данных шейдера вершин.</span><span class="sxs-lookup"><span data-stu-id="72809-134">Percent of time processing vertex shader data.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-135"><span id="D3DQUERYTYPE_PIXELTIMINGS"></span><span id="d3dquerytype_pixeltimings"></span>**D3DQUERYTYPE \_ пикселтимингс**</span><span class="sxs-lookup"><span data-stu-id="a4808-135"><span id="D3DQUERYTYPE_PIXELTIMINGS"></span><span id="d3dquerytype_pixeltimings"></span>**D3DQUERYTYPE\_PIXELTIMINGS**</span></span>
+<span data-ttu-id="72809-135"><span id="D3DQUERYTYPE_PIXELTIMINGS"></span><span id="d3dquerytype_pixeltimings"></span>**D3DQUERYTYPE \_ пикселтимингс**</span><span class="sxs-lookup"><span data-stu-id="72809-135"><span id="D3DQUERYTYPE_PIXELTIMINGS"></span><span id="d3dquerytype_pixeltimings"></span>**D3DQUERYTYPE\_PIXELTIMINGS**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-136">Процент времени обработки данных шейдера пикселей.</span><span class="sxs-lookup"><span data-stu-id="a4808-136">Percent of time processing pixel shader data.</span></span>
+<span data-ttu-id="72809-136">Процент времени обработки данных шейдера пикселей.</span><span class="sxs-lookup"><span data-stu-id="72809-136">Percent of time processing pixel shader data.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-137"><span id="D3DQUERYTYPE_BANDWIDTHTIMINGS"></span><span id="d3dquerytype_bandwidthtimings"></span>**D3DQUERYTYPE \_ бандвидстимингс**</span><span class="sxs-lookup"><span data-stu-id="a4808-137"><span id="D3DQUERYTYPE_BANDWIDTHTIMINGS"></span><span id="d3dquerytype_bandwidthtimings"></span>**D3DQUERYTYPE\_BANDWIDTHTIMINGS**</span></span>
+<span data-ttu-id="72809-137"><span id="D3DQUERYTYPE_BANDWIDTHTIMINGS"></span><span id="d3dquerytype_bandwidthtimings"></span>**D3DQUERYTYPE \_ бандвидстимингс**</span><span class="sxs-lookup"><span data-stu-id="72809-137"><span id="D3DQUERYTYPE_BANDWIDTHTIMINGS"></span><span id="d3dquerytype_bandwidthtimings"></span>**D3DQUERYTYPE\_BANDWIDTHTIMINGS**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-138">Сравнения измерений пропускной способности помогают понять производительность приложения.</span><span class="sxs-lookup"><span data-stu-id="a4808-138">Throughput measurement comparisons for help in understanding the performance of an application.</span></span>
+<span data-ttu-id="72809-138">Сравнения измерений пропускной способности помогают понять производительность приложения.</span><span class="sxs-lookup"><span data-stu-id="72809-138">Throughput measurement comparisons for help in understanding the performance of an application.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-139"><span id="D3DQUERYTYPE_CACHEUTILIZATION"></span><span id="d3dquerytype_cacheutilization"></span>**D3DQUERYTYPE \_ качеутилизатион**</span><span class="sxs-lookup"><span data-stu-id="a4808-139"><span id="D3DQUERYTYPE_CACHEUTILIZATION"></span><span id="d3dquerytype_cacheutilization"></span>**D3DQUERYTYPE\_CACHEUTILIZATION**</span></span>
+<span data-ttu-id="72809-139"><span id="D3DQUERYTYPE_CACHEUTILIZATION"></span><span id="d3dquerytype_cacheutilization"></span>**D3DQUERYTYPE \_ качеутилизатион**</span><span class="sxs-lookup"><span data-stu-id="72809-139"><span id="D3DQUERYTYPE_CACHEUTILIZATION"></span><span id="d3dquerytype_cacheutilization"></span>**D3DQUERYTYPE\_CACHEUTILIZATION**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-140">Измеряет производительность скорости попадания в кэш для текстур и индексированных вершин.</span><span class="sxs-lookup"><span data-stu-id="a4808-140">Measure the cache hit-rate performance for textures and indexed vertices.</span></span>
+<span data-ttu-id="72809-140">Измеряет производительность скорости попадания в кэш для текстур и индексированных вершин.</span><span class="sxs-lookup"><span data-stu-id="72809-140">Measure the cache hit-rate performance for textures and indexed vertices.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a4808-141"><span id="D3DQUERYTYPE_MEMORYPRESSURE"></span><span id="d3dquerytype_memorypressure"></span>**D3DQUERYTYPE \_ меморипрессуре**</span><span class="sxs-lookup"><span data-stu-id="a4808-141"><span id="D3DQUERYTYPE_MEMORYPRESSURE"></span><span id="d3dquerytype_memorypressure"></span>**D3DQUERYTYPE\_MEMORYPRESSURE**</span></span>
+<span data-ttu-id="72809-141"><span id="D3DQUERYTYPE_MEMORYPRESSURE"></span><span id="d3dquerytype_memorypressure"></span>**D3DQUERYTYPE \_ меморипрессуре**</span><span class="sxs-lookup"><span data-stu-id="72809-141"><span id="D3DQUERYTYPE_MEMORYPRESSURE"></span><span id="d3dquerytype_memorypressure"></span>**D3DQUERYTYPE\_MEMORYPRESSURE**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a4808-142">Эффективность выделения памяти, содержащейся в структуре [**D3DMEMORYPRESSURE**](d3dmemorypressure.md) .</span><span class="sxs-lookup"><span data-stu-id="a4808-142">Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemorypressure.md) structure.</span></span>
+<span data-ttu-id="72809-142">Эффективность выделения памяти, содержащейся в структуре [**D3DMEMORYPRESSURE**](d3dmemorypressure.md) .</span><span class="sxs-lookup"><span data-stu-id="72809-142">Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemorypressure.md) structure.</span></span>
 
-<span data-ttu-id="a4808-143">Различия между Direct3D 9 и Direct3D 9Ex:</span><span class="sxs-lookup"><span data-stu-id="a4808-143">Differences between Direct3D 9 and Direct3D 9Ex:</span></span>
+<span data-ttu-id="72809-143">Различия между Direct3D 9 и Direct3D 9Ex:</span><span class="sxs-lookup"><span data-stu-id="72809-143">Differences between Direct3D 9 and Direct3D 9Ex:</span></span>
 
-- <span data-ttu-id="a4808-144">D3DQUERYTYPE \_ меморипрессуре доступен только в Direct3D9Ex, работающем в Windows 7 (или более текущей операционной системе).</span><span class="sxs-lookup"><span data-stu-id="a4808-144">D3DQUERYTYPE\_MEMORYPRESSURE is only available in Direct3D9Ex running on Windows 7 (or more current operating system).</span></span>
+- <span data-ttu-id="72809-144">D3DQUERYTYPE \_ меморипрессуре доступен только в Direct3D9Ex, работающем в Windows 7 (или более текущей операционной системе).</span><span class="sxs-lookup"><span data-stu-id="72809-144">D3DQUERYTYPE\_MEMORYPRESSURE is only available in Direct3D9Ex running on Windows 7 (or more current operating system).</span></span>
 
 
 
@@ -166,24 +166,24 @@ typedef enum D3DQUERYTYPE {
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="a4808-145">Требования</span><span class="sxs-lookup"><span data-stu-id="a4808-145">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="72809-145">Требования</span><span class="sxs-lookup"><span data-stu-id="72809-145">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a4808-146">Требование</span><span class="sxs-lookup"><span data-stu-id="a4808-146">Requirement</span></span> | <span data-ttu-id="a4808-147">Значение</span><span class="sxs-lookup"><span data-stu-id="a4808-147">Value</span></span> |
+| <span data-ttu-id="72809-146">Требование</span><span class="sxs-lookup"><span data-stu-id="72809-146">Requirement</span></span> | <span data-ttu-id="72809-147">Значение</span><span class="sxs-lookup"><span data-stu-id="72809-147">Value</span></span> |
 |-------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="a4808-148">Заголовок</span><span class="sxs-lookup"><span data-stu-id="a4808-148">Header</span></span><br/> | <dl> <span data-ttu-id="a4808-149"><dt>D3D9Types. h</dt></span><span class="sxs-lookup"><span data-stu-id="a4808-149"><dt>D3D9Types.h</dt></span></span> </dl> |
+| <span data-ttu-id="72809-148">Заголовок</span><span class="sxs-lookup"><span data-stu-id="72809-148">Header</span></span><br/> | <dl> <span data-ttu-id="72809-149"><dt>D3D9Types. h</dt></span><span class="sxs-lookup"><span data-stu-id="72809-149"><dt>D3D9Types.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a4808-150">См. также</span><span class="sxs-lookup"><span data-stu-id="a4808-150">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="72809-150">См. также</span><span class="sxs-lookup"><span data-stu-id="72809-150">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a4808-151">Перечисления Direct3D</span><span class="sxs-lookup"><span data-stu-id="a4808-151">Direct3D Enumerations</span></span>](dx9-graphics-reference-d3d-enums.md)
+[<span data-ttu-id="72809-151">Перечисления Direct3D</span><span class="sxs-lookup"><span data-stu-id="72809-151">Direct3D Enumerations</span></span>](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[<span data-ttu-id="a4808-152">**IDirect3DDevice9:: CreateQuery**</span><span class="sxs-lookup"><span data-stu-id="a4808-152">**IDirect3DDevice9::CreateQuery**</span></span>](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createquery)
+[<span data-ttu-id="72809-152">**IDirect3DDevice9:: CreateQuery**</span><span class="sxs-lookup"><span data-stu-id="72809-152">**IDirect3DDevice9::CreateQuery**</span></span>](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createquery)
 </dt> </dl>
 
  
