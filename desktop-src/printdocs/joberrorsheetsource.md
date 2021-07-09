@@ -1,42 +1,42 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Получение сведений о параметре Жоберроршитсаурце. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 6de13ed8-bf15-4e2c-b42a-ea8178a6b5f9
 title: жоберроршитсаурце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99c87a31e645b9ea5eedb22b48000991a99bc7e5
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 656d71422c46800d6155c1dea1e221f9c6dfe021
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998161"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549392"
 ---
-# <a name="joberrorsheetsource"></a><span data-ttu-id="4c662-104">жоберроршитсаурце</span><span class="sxs-lookup"><span data-stu-id="4c662-104">JobErrorSheetSource</span></span>
+# <a name="joberrorsheetsource"></a><span data-ttu-id="ddb1a-105">жоберроршитсаурце</span><span class="sxs-lookup"><span data-stu-id="ddb1a-105">JobErrorSheetSource</span></span>
 
-<span data-ttu-id="4c662-105">Этот раздел не является актуальным.</span><span class="sxs-lookup"><span data-stu-id="4c662-105">This topic is not current.</span></span> <span data-ttu-id="4c662-106">Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="4c662-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="ddb1a-106">Этот раздел не является актуальным.</span><span class="sxs-lookup"><span data-stu-id="ddb1a-106">This topic is not current.</span></span> <span data-ttu-id="ddb1a-107">Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="ddb1a-107">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="4c662-107">Указывает источник настраиваемого листа ошибок.</span><span class="sxs-lookup"><span data-stu-id="4c662-107">Specifies the source for a custom error sheet.</span></span>
+<span data-ttu-id="ddb1a-108">Указывает источник настраиваемого листа ошибок.</span><span class="sxs-lookup"><span data-stu-id="ddb1a-108">Specifies the source for a custom error sheet.</span></span>
 
--   [<span data-ttu-id="4c662-108">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="4c662-108">Element Information</span></span>](#element-information)
--   [<span data-ttu-id="4c662-109">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="4c662-109">Structure Content</span></span>](#structure-content)
+-   [<span data-ttu-id="ddb1a-109">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="ddb1a-109">Element Information</span></span>](#element-information)
+-   [<span data-ttu-id="ddb1a-110">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="ddb1a-110">Structure Content</span></span>](#structure-content)
 
-## <a name="element-information"></a><span data-ttu-id="4c662-110">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="4c662-110">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ddb1a-111">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="ddb1a-111">Element Information</span></span>
 
 
 
-| <span data-ttu-id="4c662-111">Имя</span><span class="sxs-lookup"><span data-stu-id="4c662-111">Name</span></span> | <span data-ttu-id="4c662-112">Значение</span><span class="sxs-lookup"><span data-stu-id="4c662-112">Value</span></span> |
+| <span data-ttu-id="ddb1a-112">Имя</span><span class="sxs-lookup"><span data-stu-id="ddb1a-112">Name</span></span> | <span data-ttu-id="ddb1a-113">Значение</span><span class="sxs-lookup"><span data-stu-id="ddb1a-113">Value</span></span> |
 |----------------------------|--------------------------------------------|
-| <span data-ttu-id="4c662-113">Тип элемента</span><span class="sxs-lookup"><span data-stu-id="4c662-113">Element Type</span></span> <br/>   | <span data-ttu-id="4c662-114">параметердеф</span><span class="sxs-lookup"><span data-stu-id="4c662-114">ParameterDef</span></span><br/>                    |
-| <span data-ttu-id="4c662-115">Префикс области</span><span class="sxs-lookup"><span data-stu-id="4c662-115">Scoping Prefix</span></span> <br/> | <span data-ttu-id="4c662-116">Документ</span><span class="sxs-lookup"><span data-stu-id="4c662-116">Document</span></span><br/>                        |
-| <span data-ttu-id="4c662-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="4c662-117">Notes</span></span> <br/>          | <span data-ttu-id="4c662-118">Связано с элементом Жоберроршит</span><span class="sxs-lookup"><span data-stu-id="4c662-118">Linked to JobErrorSheet element</span></span><br/> |
+| <span data-ttu-id="ddb1a-114">Тип элемента</span><span class="sxs-lookup"><span data-stu-id="ddb1a-114">Element Type</span></span> <br/>   | <span data-ttu-id="ddb1a-115">параметердеф</span><span class="sxs-lookup"><span data-stu-id="ddb1a-115">ParameterDef</span></span><br/>                    |
+| <span data-ttu-id="ddb1a-116">Префикс области</span><span class="sxs-lookup"><span data-stu-id="ddb1a-116">Scoping Prefix</span></span> <br/> | <span data-ttu-id="ddb1a-117">Документ</span><span class="sxs-lookup"><span data-stu-id="ddb1a-117">Document</span></span><br/>                        |
+| <span data-ttu-id="ddb1a-118">Примечания</span><span class="sxs-lookup"><span data-stu-id="ddb1a-118">Notes</span></span> <br/>          | <span data-ttu-id="ddb1a-119">Связано с элементом Жоберроршит</span><span class="sxs-lookup"><span data-stu-id="ddb1a-119">Linked to JobErrorSheet element</span></span><br/> |
 
 
 
  
 
-## <a name="structure-content"></a><span data-ttu-id="4c662-119">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="4c662-119">Structure Content</span></span>
+## <a name="structure-content"></a><span data-ttu-id="ddb1a-120">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="ddb1a-120">Structure Content</span></span>
 
-<span data-ttu-id="4c662-120">XML-структура этого элемента:</span><span class="sxs-lookup"><span data-stu-id="4c662-120">The XML structure of this element is:</span></span>
+<span data-ttu-id="ddb1a-121">XML-структура этого элемента:</span><span class="sxs-lookup"><span data-stu-id="ddb1a-121">The XML structure of this element is:</span></span>
 
 ``` syntax
 <psf:ParameterDef name="psk:JobErrorSheetSource">
@@ -61,30 +61,30 @@ ms.locfileid: "107998161"
 </psf:ParameterDef>      
 ```
 
-## <a name="structure-properties"></a><span data-ttu-id="4c662-121">Свойства структуры</span><span class="sxs-lookup"><span data-stu-id="4c662-121">Structure Properties</span></span>
+## <a name="structure-properties"></a><span data-ttu-id="ddb1a-122">Свойства структуры</span><span class="sxs-lookup"><span data-stu-id="ddb1a-122">Structure Properties</span></span>
 
-<span data-ttu-id="4c662-122">В следующей таблице описаны характеристики переменных, определенных в структуре XML.</span><span class="sxs-lookup"><span data-stu-id="4c662-122">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
+<span data-ttu-id="ddb1a-123">В следующей таблице описаны характеристики переменных, определенных в структуре XML.</span><span class="sxs-lookup"><span data-stu-id="ddb1a-123">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
 
 
 
-| <span data-ttu-id="4c662-123">Свойство</span><span class="sxs-lookup"><span data-stu-id="4c662-123">Property</span></span>                | <span data-ttu-id="4c662-124">xsi:type</span><span class="sxs-lookup"><span data-stu-id="4c662-124">xsi:type</span></span>           | <span data-ttu-id="4c662-125">Значение</span><span class="sxs-lookup"><span data-stu-id="4c662-125">Value</span></span>                      |
+| <span data-ttu-id="ddb1a-124">Свойство</span><span class="sxs-lookup"><span data-stu-id="ddb1a-124">Property</span></span>                | <span data-ttu-id="ddb1a-125">xsi:type</span><span class="sxs-lookup"><span data-stu-id="ddb1a-125">xsi:type</span></span>           | <span data-ttu-id="ddb1a-126">Значение</span><span class="sxs-lookup"><span data-stu-id="ddb1a-126">Value</span></span>                      |
 |-------------------------|--------------------|----------------------------|
-| <span data-ttu-id="4c662-126">DataType</span><span class="sxs-lookup"><span data-stu-id="4c662-126">DataType</span></span><br/>     | <span data-ttu-id="4c662-127">строка</span><span class="sxs-lookup"><span data-stu-id="4c662-127">string</span></span><br/>  | <span data-ttu-id="4c662-128">xs:string</span><span class="sxs-lookup"><span data-stu-id="4c662-128">xs:string</span></span><br/>       |
-| <span data-ttu-id="4c662-129">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="4c662-129">DefaultValue</span></span><br/> | <span data-ttu-id="4c662-130">строка</span><span class="sxs-lookup"><span data-stu-id="4c662-130">string</span></span><br/>  | <span data-ttu-id="4c662-131">неопределенный</span><span class="sxs-lookup"><span data-stu-id="4c662-131">undefined</span></span><br/>       |
-| <span data-ttu-id="4c662-132">MaxLength</span><span class="sxs-lookup"><span data-stu-id="4c662-132">MaxLength</span></span><br/>    | <span data-ttu-id="4c662-133">Целое число</span><span class="sxs-lookup"><span data-stu-id="4c662-133">integer</span></span><br/> | <span data-ttu-id="4c662-134">неопределенный</span><span class="sxs-lookup"><span data-stu-id="4c662-134">undefined</span></span><br/>       |
-| <span data-ttu-id="4c662-135">MinLength</span><span class="sxs-lookup"><span data-stu-id="4c662-135">MinLength</span></span><br/>    | <span data-ttu-id="4c662-136">целое число</span><span class="sxs-lookup"><span data-stu-id="4c662-136">integer</span></span><br/> | <span data-ttu-id="4c662-137">1</span><span class="sxs-lookup"><span data-stu-id="4c662-137">1</span></span><br/>               |
-| <span data-ttu-id="4c662-138">Обязательный</span><span class="sxs-lookup"><span data-stu-id="4c662-138">Mandatory</span></span><br/>    | <span data-ttu-id="4c662-139">строка</span><span class="sxs-lookup"><span data-stu-id="4c662-139">string</span></span><br/>  | <span data-ttu-id="4c662-140">PSK: условный</span><span class="sxs-lookup"><span data-stu-id="4c662-140">psk:Conditional</span></span><br/> |
-| <span data-ttu-id="4c662-141">Единицах UnitType</span><span class="sxs-lookup"><span data-stu-id="4c662-141">UnitType</span></span><br/>     | <span data-ttu-id="4c662-142">строка</span><span class="sxs-lookup"><span data-stu-id="4c662-142">string</span></span><br/>  | <span data-ttu-id="4c662-143">characters</span><span class="sxs-lookup"><span data-stu-id="4c662-143">characters</span></span><br/>      |
+| <span data-ttu-id="ddb1a-127">DataType</span><span class="sxs-lookup"><span data-stu-id="ddb1a-127">DataType</span></span><br/>     | <span data-ttu-id="ddb1a-128">строка</span><span class="sxs-lookup"><span data-stu-id="ddb1a-128">string</span></span><br/>  | <span data-ttu-id="ddb1a-129">xs:string</span><span class="sxs-lookup"><span data-stu-id="ddb1a-129">xs:string</span></span><br/>       |
+| <span data-ttu-id="ddb1a-130">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="ddb1a-130">DefaultValue</span></span><br/> | <span data-ttu-id="ddb1a-131">строка</span><span class="sxs-lookup"><span data-stu-id="ddb1a-131">string</span></span><br/>  | <span data-ttu-id="ddb1a-132">неопределенный</span><span class="sxs-lookup"><span data-stu-id="ddb1a-132">undefined</span></span><br/>       |
+| <span data-ttu-id="ddb1a-133">MaxLength</span><span class="sxs-lookup"><span data-stu-id="ddb1a-133">MaxLength</span></span><br/>    | <span data-ttu-id="ddb1a-134">Целое число</span><span class="sxs-lookup"><span data-stu-id="ddb1a-134">integer</span></span><br/> | <span data-ttu-id="ddb1a-135">неопределенный</span><span class="sxs-lookup"><span data-stu-id="ddb1a-135">undefined</span></span><br/>       |
+| <span data-ttu-id="ddb1a-136">MinLength</span><span class="sxs-lookup"><span data-stu-id="ddb1a-136">MinLength</span></span><br/>    | <span data-ttu-id="ddb1a-137">целое число</span><span class="sxs-lookup"><span data-stu-id="ddb1a-137">integer</span></span><br/> | <span data-ttu-id="ddb1a-138">1</span><span class="sxs-lookup"><span data-stu-id="ddb1a-138">1</span></span><br/>               |
+| <span data-ttu-id="ddb1a-139">Обязательный</span><span class="sxs-lookup"><span data-stu-id="ddb1a-139">Mandatory</span></span><br/>    | <span data-ttu-id="ddb1a-140">строка</span><span class="sxs-lookup"><span data-stu-id="ddb1a-140">string</span></span><br/>  | <span data-ttu-id="ddb1a-141">PSK: условный</span><span class="sxs-lookup"><span data-stu-id="ddb1a-141">psk:Conditional</span></span><br/> |
+| <span data-ttu-id="ddb1a-142">Единицах UnitType</span><span class="sxs-lookup"><span data-stu-id="ddb1a-142">UnitType</span></span><br/>     | <span data-ttu-id="ddb1a-143">строка</span><span class="sxs-lookup"><span data-stu-id="ddb1a-143">string</span></span><br/>  | <span data-ttu-id="ddb1a-144">characters</span><span class="sxs-lookup"><span data-stu-id="ddb1a-144">characters</span></span><br/>      |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="4c662-144">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="4c662-144">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ddb1a-145">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="ddb1a-145">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="4c662-145">Печать спецификации схемы</span><span class="sxs-lookup"><span data-stu-id="4c662-145">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="ddb1a-146">Печать спецификации схемы</span><span class="sxs-lookup"><span data-stu-id="ddb1a-146">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

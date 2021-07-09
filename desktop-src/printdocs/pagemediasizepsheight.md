@@ -1,42 +1,42 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Получение сведений о параметре Пажемедиасизепшеигхт. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 857caf51-ccf6-415c-aab3-1fed50fa7b34
 title: пажемедиасизепшеигхт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96c6ddd593d95ae740a5e03d37e3d79c73e1638b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2b1e7a30935c27fadb5d6ebb8dfb8f377e05a5e3
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993701"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549107"
 ---
-# <a name="pagemediasizepsheight"></a><span data-ttu-id="e80e4-104">пажемедиасизепшеигхт</span><span class="sxs-lookup"><span data-stu-id="e80e4-104">PageMediaSizePSHeight</span></span>
+# <a name="pagemediasizepsheight"></a><span data-ttu-id="107e2-105">пажемедиасизепшеигхт</span><span class="sxs-lookup"><span data-stu-id="107e2-105">PageMediaSizePSHeight</span></span>
 
-<span data-ttu-id="e80e4-105">Этот раздел не является актуальным.</span><span class="sxs-lookup"><span data-stu-id="e80e4-105">This topic is not current.</span></span> <span data-ttu-id="e80e4-106">Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="e80e4-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="107e2-106">Этот раздел не является актуальным.</span><span class="sxs-lookup"><span data-stu-id="107e2-106">This topic is not current.</span></span> <span data-ttu-id="107e2-107">Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="107e2-107">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="e80e4-107">Задает высоту страницы, параллельную направлению ориентации канала ( [Спецификация формата файла описания PostScript-принтера](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).</span><span class="sxs-lookup"><span data-stu-id="e80e4-107">Specifies the height of the page, parallel to the feed-orientation direction (Reference [PostScript Printer Description File Format Specification](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).</span></span>
+<span data-ttu-id="107e2-108">задает высоту страницы, параллельную направлению ориентации канала (ссылка [PostScript принтера описание формата файла](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).</span><span class="sxs-lookup"><span data-stu-id="107e2-108">Specifies the height of the page, parallel to the feed-orientation direction (Reference [PostScript Printer Description File Format Specification](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).</span></span>
 
--   [<span data-ttu-id="e80e4-108">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="e80e4-108">Element Information</span></span>](#element-information)
--   [<span data-ttu-id="e80e4-109">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="e80e4-109">Structure Content</span></span>](#structure-content)
+-   [<span data-ttu-id="107e2-109">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="107e2-109">Element Information</span></span>](#element-information)
+-   [<span data-ttu-id="107e2-110">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="107e2-110">Structure Content</span></span>](#structure-content)
 
-## <a name="element-information"></a><span data-ttu-id="e80e4-110">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="e80e4-110">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="107e2-111">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="107e2-111">Element Information</span></span>
 
 
 
-| <span data-ttu-id="e80e4-111">Имя</span><span class="sxs-lookup"><span data-stu-id="e80e4-111">Name</span></span> | <span data-ttu-id="e80e4-112">Значение</span><span class="sxs-lookup"><span data-stu-id="e80e4-112">Value</span></span> |
+| <span data-ttu-id="107e2-112">Имя</span><span class="sxs-lookup"><span data-stu-id="107e2-112">Name</span></span> | <span data-ttu-id="107e2-113">Значение</span><span class="sxs-lookup"><span data-stu-id="107e2-113">Value</span></span> |
 |----------------------------|-------------------------------------------------------------|
-| <span data-ttu-id="e80e4-113">Тип элемента</span><span class="sxs-lookup"><span data-stu-id="e80e4-113">Element Type</span></span> <br/>   | <span data-ttu-id="e80e4-114">параметердеф</span><span class="sxs-lookup"><span data-stu-id="e80e4-114">ParameterDef</span></span><br/>                                     |
-| <span data-ttu-id="e80e4-115">Префикс области</span><span class="sxs-lookup"><span data-stu-id="e80e4-115">Scoping Prefix</span></span> <br/> | <span data-ttu-id="e80e4-116">Страница</span><span class="sxs-lookup"><span data-stu-id="e80e4-116">Page</span></span><br/>                                             |
-| <span data-ttu-id="e80e4-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="e80e4-117">Notes</span></span> <br/>          | <span data-ttu-id="e80e4-118">Ссылка на элемент Пажемедиасизе, параметр Кустомпс</span><span class="sxs-lookup"><span data-stu-id="e80e4-118">Linked to PageMediaSize element, CustomPS option</span></span><br/> |
+| <span data-ttu-id="107e2-114">Тип элемента</span><span class="sxs-lookup"><span data-stu-id="107e2-114">Element Type</span></span> <br/>   | <span data-ttu-id="107e2-115">параметердеф</span><span class="sxs-lookup"><span data-stu-id="107e2-115">ParameterDef</span></span><br/>                                     |
+| <span data-ttu-id="107e2-116">Префикс области</span><span class="sxs-lookup"><span data-stu-id="107e2-116">Scoping Prefix</span></span> <br/> | <span data-ttu-id="107e2-117">Страница</span><span class="sxs-lookup"><span data-stu-id="107e2-117">Page</span></span><br/>                                             |
+| <span data-ttu-id="107e2-118">Примечания</span><span class="sxs-lookup"><span data-stu-id="107e2-118">Notes</span></span> <br/>          | <span data-ttu-id="107e2-119">Ссылка на элемент Пажемедиасизе, параметр Кустомпс</span><span class="sxs-lookup"><span data-stu-id="107e2-119">Linked to PageMediaSize element, CustomPS option</span></span><br/> |
 
 
 
  
 
-## <a name="structure-content"></a><span data-ttu-id="e80e4-119">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="e80e4-119">Structure Content</span></span>
+## <a name="structure-content"></a><span data-ttu-id="107e2-120">Содержимое структуры</span><span class="sxs-lookup"><span data-stu-id="107e2-120">Structure Content</span></span>
 
-<span data-ttu-id="e80e4-120">XML-структура этого элемента:</span><span class="sxs-lookup"><span data-stu-id="e80e4-120">The XML structure of this element is:</span></span>
+<span data-ttu-id="107e2-121">XML-структура этого элемента:</span><span class="sxs-lookup"><span data-stu-id="107e2-121">The XML structure of this element is:</span></span>
 
 ``` syntax
 <psf:ParameterDef name="psk:PageMediaSizePSHeight">
@@ -65,34 +65,34 @@ ms.locfileid: "107993701"
       
 ```
 
-## <a name="structure-properties"></a><span data-ttu-id="e80e4-121">Свойства структуры</span><span class="sxs-lookup"><span data-stu-id="e80e4-121">Structure Properties</span></span>
+## <a name="structure-properties"></a><span data-ttu-id="107e2-122">Свойства структуры</span><span class="sxs-lookup"><span data-stu-id="107e2-122">Structure Properties</span></span>
 
-<span data-ttu-id="e80e4-122">В следующей таблице описаны характеристики переменных, определенных в структуре XML.</span><span class="sxs-lookup"><span data-stu-id="e80e4-122">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
+<span data-ttu-id="107e2-123">В следующей таблице описаны характеристики переменных, определенных в структуре XML.</span><span class="sxs-lookup"><span data-stu-id="107e2-123">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
 
 
 
-| <span data-ttu-id="e80e4-123">Свойство</span><span class="sxs-lookup"><span data-stu-id="e80e4-123">Property</span></span>                | <span data-ttu-id="e80e4-124">xsi:type</span><span class="sxs-lookup"><span data-stu-id="e80e4-124">xsi:type</span></span>           | <span data-ttu-id="e80e4-125">Значение</span><span class="sxs-lookup"><span data-stu-id="e80e4-125">Value</span></span>                      |
+| <span data-ttu-id="107e2-124">Свойство</span><span class="sxs-lookup"><span data-stu-id="107e2-124">Property</span></span>                | <span data-ttu-id="107e2-125">xsi:type</span><span class="sxs-lookup"><span data-stu-id="107e2-125">xsi:type</span></span>           | <span data-ttu-id="107e2-126">Значение</span><span class="sxs-lookup"><span data-stu-id="107e2-126">Value</span></span>                      |
 |-------------------------|--------------------|----------------------------|
-| <span data-ttu-id="e80e4-126">DataType</span><span class="sxs-lookup"><span data-stu-id="e80e4-126">DataType</span></span><br/>     | <span data-ttu-id="e80e4-127">строка</span><span class="sxs-lookup"><span data-stu-id="e80e4-127">string</span></span><br/>  | <span data-ttu-id="e80e4-128">xs:integer</span><span class="sxs-lookup"><span data-stu-id="e80e4-128">xs:integer</span></span><br/>      |
-| <span data-ttu-id="e80e4-129">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="e80e4-129">DefaultValue</span></span><br/> | <span data-ttu-id="e80e4-130">Целое число</span><span class="sxs-lookup"><span data-stu-id="e80e4-130">integer</span></span><br/> | <span data-ttu-id="e80e4-131">неопределенный</span><span class="sxs-lookup"><span data-stu-id="e80e4-131">undefined</span></span><br/>       |
-| <span data-ttu-id="e80e4-132">MaxValue</span><span class="sxs-lookup"><span data-stu-id="e80e4-132">MaxValue</span></span><br/>     | <span data-ttu-id="e80e4-133">Целое число</span><span class="sxs-lookup"><span data-stu-id="e80e4-133">integer</span></span><br/> | <span data-ttu-id="e80e4-134">неопределенный</span><span class="sxs-lookup"><span data-stu-id="e80e4-134">undefined</span></span><br/>       |
-| <span data-ttu-id="e80e4-135">MinValue</span><span class="sxs-lookup"><span data-stu-id="e80e4-135">MinValue</span></span><br/>     | <span data-ttu-id="e80e4-136">Целое число</span><span class="sxs-lookup"><span data-stu-id="e80e4-136">integer</span></span><br/> | <span data-ttu-id="e80e4-137">неопределенный</span><span class="sxs-lookup"><span data-stu-id="e80e4-137">undefined</span></span><br/>       |
-| <span data-ttu-id="e80e4-138">Обязательный</span><span class="sxs-lookup"><span data-stu-id="e80e4-138">Mandatory</span></span><br/>    | <span data-ttu-id="e80e4-139">строка</span><span class="sxs-lookup"><span data-stu-id="e80e4-139">string</span></span><br/>  | <span data-ttu-id="e80e4-140">PSK: условный</span><span class="sxs-lookup"><span data-stu-id="e80e4-140">psk:Conditional</span></span><br/> |
-| <span data-ttu-id="e80e4-141">Несколько</span><span class="sxs-lookup"><span data-stu-id="e80e4-141">Multiple</span></span><br/>     | <span data-ttu-id="e80e4-142">целое число</span><span class="sxs-lookup"><span data-stu-id="e80e4-142">integer</span></span><br/> | <span data-ttu-id="e80e4-143">1</span><span class="sxs-lookup"><span data-stu-id="e80e4-143">1</span></span><br/>               |
-| <span data-ttu-id="e80e4-144">Единицах UnitType</span><span class="sxs-lookup"><span data-stu-id="e80e4-144">UnitType</span></span><br/>     | <span data-ttu-id="e80e4-145">строка</span><span class="sxs-lookup"><span data-stu-id="e80e4-145">string</span></span><br/>  | <span data-ttu-id="e80e4-146">мкм</span><span class="sxs-lookup"><span data-stu-id="e80e4-146">microns</span></span><br/>         |
+| <span data-ttu-id="107e2-127">DataType</span><span class="sxs-lookup"><span data-stu-id="107e2-127">DataType</span></span><br/>     | <span data-ttu-id="107e2-128">строка</span><span class="sxs-lookup"><span data-stu-id="107e2-128">string</span></span><br/>  | <span data-ttu-id="107e2-129">xs:integer</span><span class="sxs-lookup"><span data-stu-id="107e2-129">xs:integer</span></span><br/>      |
+| <span data-ttu-id="107e2-130">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="107e2-130">DefaultValue</span></span><br/> | <span data-ttu-id="107e2-131">Целое число</span><span class="sxs-lookup"><span data-stu-id="107e2-131">integer</span></span><br/> | <span data-ttu-id="107e2-132">неопределенный</span><span class="sxs-lookup"><span data-stu-id="107e2-132">undefined</span></span><br/>       |
+| <span data-ttu-id="107e2-133">MaxValue</span><span class="sxs-lookup"><span data-stu-id="107e2-133">MaxValue</span></span><br/>     | <span data-ttu-id="107e2-134">Целое число</span><span class="sxs-lookup"><span data-stu-id="107e2-134">integer</span></span><br/> | <span data-ttu-id="107e2-135">неопределенный</span><span class="sxs-lookup"><span data-stu-id="107e2-135">undefined</span></span><br/>       |
+| <span data-ttu-id="107e2-136">MinValue</span><span class="sxs-lookup"><span data-stu-id="107e2-136">MinValue</span></span><br/>     | <span data-ttu-id="107e2-137">Целое число</span><span class="sxs-lookup"><span data-stu-id="107e2-137">integer</span></span><br/> | <span data-ttu-id="107e2-138">неопределенный</span><span class="sxs-lookup"><span data-stu-id="107e2-138">undefined</span></span><br/>       |
+| <span data-ttu-id="107e2-139">Обязательный</span><span class="sxs-lookup"><span data-stu-id="107e2-139">Mandatory</span></span><br/>    | <span data-ttu-id="107e2-140">строка</span><span class="sxs-lookup"><span data-stu-id="107e2-140">string</span></span><br/>  | <span data-ttu-id="107e2-141">PSK: условный</span><span class="sxs-lookup"><span data-stu-id="107e2-141">psk:Conditional</span></span><br/> |
+| <span data-ttu-id="107e2-142">Несколько</span><span class="sxs-lookup"><span data-stu-id="107e2-142">Multiple</span></span><br/>     | <span data-ttu-id="107e2-143">целое число</span><span class="sxs-lookup"><span data-stu-id="107e2-143">integer</span></span><br/> | <span data-ttu-id="107e2-144">1</span><span class="sxs-lookup"><span data-stu-id="107e2-144">1</span></span><br/>               |
+| <span data-ttu-id="107e2-145">Единицах UnitType</span><span class="sxs-lookup"><span data-stu-id="107e2-145">UnitType</span></span><br/>     | <span data-ttu-id="107e2-146">строка</span><span class="sxs-lookup"><span data-stu-id="107e2-146">string</span></span><br/>  | <span data-ttu-id="107e2-147">мкм</span><span class="sxs-lookup"><span data-stu-id="107e2-147">microns</span></span><br/>         |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="e80e4-147">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="e80e4-147">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="107e2-148">Связанные темы</span><span class="sxs-lookup"><span data-stu-id="107e2-148">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e80e4-148">Спецификация формата файла описания PostScript Printer</span><span class="sxs-lookup"><span data-stu-id="e80e4-148">PostScript Printer Description File Format Specification</span></span>](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
+[<span data-ttu-id="107e2-149">PostScript Спецификация формата файла описания принтера</span><span class="sxs-lookup"><span data-stu-id="107e2-149">PostScript Printer Description File Format Specification</span></span>](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
 </dt> <dt>
 
-[<span data-ttu-id="e80e4-149">Печать спецификации схемы</span><span class="sxs-lookup"><span data-stu-id="e80e4-149">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="107e2-150">Печать спецификации схемы</span><span class="sxs-lookup"><span data-stu-id="107e2-150">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  
