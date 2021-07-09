@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения об атрибутах XML в платформе схемы печати. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 41bc10fe-6c00-44c5-ba9a-10414b31cbdf
 title: XML-атрибуты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70dd05effe6f3ea79afd0972867cb2734ace1a71
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: d410dcb1476d90568bee10c7c1e41ee7a9bee2e7
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "105684826"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548822"
 ---
 # <a name="xml-attributes"></a>XML-атрибуты
 
@@ -32,7 +32,7 @@ ms.locfileid: "105684826"
 <tr class="header">
 <th>Имя атрибута</th>
 <th>Типы и значения данных</th>
-<th>Назначение</th>
+<th>Цель</th>
 <th>Примечания</th>
 </tr>
 </thead>
@@ -107,7 +107,7 @@ ms.locfileid: "105684826"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

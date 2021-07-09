@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Получение сведений о параметре Пажескалингскалехеигхт. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: ccc2ad1c-b0c2-4c45-bc95-7c15426c2534
 title: пажескалингскалехеигхт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92d718d80f6b3cc369ddcb5c088a1299d639634b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d51bdb5577b5e3863cfadab1fa9eb74ff40d54da
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997481"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548842"
 ---
 # <a name="pagescalingscaleheight"></a>пажескалингскалехеигхт
 
@@ -73,13 +73,13 @@ XML-структура этого элемента:
 
 | Свойство                | xsi:type           | Значение                      |
 |-------------------------|--------------------|----------------------------|
-| DataType<br/>     | Строковый<br/>  | xs:integer<br/>      |
-| DefaultValue<br/> | Целочисленный тип<br/> | неопределенный<br/>       |
-| MaxValue<br/>     | Целочисленный тип<br/> | неопределенный<br/>       |
+| DataType<br/>     | Строка<br/>  | xs:integer<br/>      |
+| DefaultValue<br/> | Целое число<br/> | неопределенный<br/>       |
+| MaxValue<br/>     | Целое число<br/> | неопределенный<br/>       |
 | MinValue<br/>     | Целое число<br/> | 1<br/>               |
-| Обязательный<br/>    | Строковый<br/>  | PSK: условный<br/> |
+| Обязательный<br/>    | Строка<br/>  | PSK: условный<br/> |
 | Несколько<br/>     | Целое число<br/> | 1<br/>               |
-| Единицах UnitType<br/>     | Строковый<br/>  | percent<br/>         |
+| Единицах UnitType<br/>     | Строка<br/>  | percent<br/>         |
 
 
 

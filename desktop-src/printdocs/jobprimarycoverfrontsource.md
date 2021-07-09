@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Получение сведений о параметре Жобпримариковерфронтсаурце. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: f27c5e65-87b0-47a4-a5dc-27b52082f097
 title: жобпримариковерфронтсаурце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18f45b4125ce7d899597631abf4e01211724bee8
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 6e4698d826e59e513d5eb171381cd1b18ea4a751
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993960"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549402"
 ---
 # <a name="jobprimarycoverfrontsource"></a>жобпримариковерфронтсаурце
 

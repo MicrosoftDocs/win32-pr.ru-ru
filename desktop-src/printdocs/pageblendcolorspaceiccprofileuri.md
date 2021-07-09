@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Ознакомьтесь с параметром Пажеблендколорспацеиккпрофилеури. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 05924c7d-e074-4835-b42c-53c77dc1bbb5
 title: пажеблендколорспацеиккпрофилеури
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cbf1233e172a81053baee0abe1e21d79064045a
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 50db89757737ff5aa6a1358af418ee33809b960e
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997701"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549322"
 ---
 # <a name="pageblendcolorspaceiccprofileuri"></a>пажеблендколорспацеиккпрофилеури
 

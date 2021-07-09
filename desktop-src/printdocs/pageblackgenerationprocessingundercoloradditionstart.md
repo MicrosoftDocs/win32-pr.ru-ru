@@ -1,15 +1,15 @@
 ---
 title: пажеблаккженератионпроцессингундерколораддитионстарт
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Проверьте параметр Пажеблаккженератионпроцессингундерколораддитионстарт. Этот раздел не является актуальным. Текущие сведения см. в спецификации печати схемы.
 ms.assetid: 6c2a7bb5-436d-40ed-a855-242a6a04bc16
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 595bc3e4514b1a2e8a4d302005b97e2625a560e2
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 11bdbd970f30a7d573b7c803ea447e4ac3e94ca2
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999191"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549352"
 ---
 # <a name="pageblackgenerationprocessingundercoloradditionstart"></a>пажеблаккженератионпроцессингундерколораддитионстарт
 

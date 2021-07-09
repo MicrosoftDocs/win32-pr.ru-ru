@@ -1,21 +1,21 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Получение сведений о параметре Пажемедиасизепсвидсоффсет. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: b93ad6e6-ab27-4fab-b488-6f402b6ee857
 title: пажемедиасизепсвидсоффсет
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca8051fc265e107bff0be53c409eb103df2a8326
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 265acad803dbc334be115440e195967465b3ef50
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995512"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549110"
 ---
 # <a name="pagemediasizepswidthoffset"></a>пажемедиасизепсвидсоффсет
 
 Этот раздел не является актуальным. Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
-Задает смещение, перпендикулярное направлению ориентации канала ( [Спецификация формата файла описания PostScript-принтера](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).
+задает смещение, перпендикулярное направлению ориентации веб-канала [PostScript (спецификация формата файла описания принтера](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).
 
 -   [Сведения об элементе](#element-information)
 -   [Содержимое структуры](#structure-content)
@@ -89,7 +89,7 @@ XML-структура этого элемента:
 
 <dl> <dt>
 
-[Спецификация формата файла описания PostScript Printer](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
+[PostScript Спецификация формата файла описания принтера](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
 </dt> <dt>
 
 [Печать спецификации схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)

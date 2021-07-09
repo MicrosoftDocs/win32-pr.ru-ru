@@ -1,15 +1,15 @@
 ---
-description: Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
+description: Сведения о поддержке разностей PrintTicket. Этот раздел не является актуальным. Самые актуальные сведения см. в спецификации печати схемы.
 ms.assetid: 80fdc8f1-4fda-4102-9b27-16d9acb4d077
 title: Поддержка разностей PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 730c8d32d881dd30a6ab57b88d8fc1dfa87eee7a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b7f72f82875d0207ed232f4db897c78295ce2ee0
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105703525"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548783"
 ---
 # <a name="supporting-printticket-deltas"></a>Поддержка разностей PrintTicket
 
@@ -31,7 +31,7 @@ ms.locfileid: "105703525"
 
 4.  Выполните проверку PrintTicket, как описано в [контрольном списке PrintTicket](printticket-validation-checklist.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
