@@ -4,12 +4,12 @@ ms.assetid: 9e5e8833-cb54-41ca-8101-d518ece7e17f
 title: Поставщик служб шифрования Microsoft DSS и Диффи-Хелмана/SChannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8f14826166306197eeb3c8f6503da909c8099fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdbe1aff9aa50a11b8855b596d20b93cd572f46f
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897601"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581882"
 ---
 # <a name="microsoft-dss-and-diffie-hellmanschannel-cryptographic-provider"></a>Поставщик служб шифрования Microsoft DSS и Диффи-Хелмана/SChannel
 
@@ -17,10 +17,10 @@ ms.locfileid: "103897601"
 
 
 
-|                |                                 |
-|----------------|---------------------------------|
-| Тип поставщика: | **PROV \_ DH \_ SChannel**          |
-| Имя поставщика: | **MS \_ DEF \_ DH \_ SChannel \_ Prov** |
+|                   | Значение                       |
+|-------------------|-----------------------------|
+| **Тип поставщика** | PROV \_ DH \_ SChannel          |
+| **Имя поставщика** | MS \_ DEF \_ DH \_ SChannel \_ Prov |
 
 
 

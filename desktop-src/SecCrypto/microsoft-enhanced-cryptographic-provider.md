@@ -4,12 +4,12 @@ ms.assetid: 87d0c865-8b29-439c-81aa-a40dc0034e3b
 title: Улучшенный поставщик служб шифрования Майкрософт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cadaa0b6325dc7d855aa0b7eeb8d7ff5f114cfd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9cf3b3b421e3151811da033e7536f334e3883487
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991187"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581832"
 ---
 # <a name="microsoft-enhanced-cryptographic-provider"></a>Улучшенный поставщик служб шифрования Майкрософт
 
@@ -17,10 +17,10 @@ ms.locfileid: "103991187"
 
 Чтобы обеспечить обратную совместимость с более ранними версиями поставщика, имя поставщика, как определено в файле заголовка Винкрипт. h, сохраняет обозначение версии 1,0. Тем не менее версия 2,0 этого поставщика в настоящее время доставляются. Чтобы определить используемую версию поставщика, вызовите [**криптжетпровпарам**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) , указав для аргумента *двпарам* значение **PP \_ Version**. Версия 2,0 используется, если возвращается 0x0200.
 
-|                |                        |
-|----------------|------------------------|
-| Тип поставщика: | **PROV \_ RSA \_ Full**    |
-| Имя поставщика: | **MS \_ Enhanced \_ Prov** |
+|                   | Значение               |
+|-------------------|---------------------|
+| **Тип поставщика** | PROV \_ RSA \_ Full     |
+| **Имя поставщика** | MS \_ Enhanced \_ Prov  |
 
 
 

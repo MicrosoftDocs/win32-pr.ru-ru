@@ -4,12 +4,12 @@ ms.assetid: a01bc5db-17b9-44fe-adf8-0c2954fcd369
 title: Поставщик служб шифрования AES (Майкрософт)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb4c774eb2cb9d01bcb3a12f5550537abe44b364
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2449c53cb828a94c8dd596133c3a8c21c9b0388
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662431"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581872"
 ---
 # <a name="microsoft-aes-cryptographic-provider"></a>Поставщик служб шифрования AES (Майкрософт)
 
@@ -19,10 +19,10 @@ ms.locfileid: "105662431"
 
 Чтобы обеспечить обратную совместимость с более ранними версиями поставщика, имя поставщика, как определено в файле заголовка Винкрипт. h, сохраняет версию 1,0, несмотря на то, что были отгружены более новые версии этого поставщика. Чтобы определить используемую версию поставщика, вызовите [**криптжетпровпарам**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) , указав для параметра *двпарам* значение PP \_ Version. Версия 2,0 используется, если возвращается 0x0200.
 
-|                |                             |
-|----------------|-----------------------------|
-| Тип поставщика: | **PROV \_ RSA \_ AES**          |
-| Имя поставщика: | **MS \_ ЕНХ \_ RSA \_ AES \_ Prov** |
+|                   | Значение                    |
+|-------------------|--------------------------|
+| **Тип поставщика** | PROV \_ RSA \_ AES           |
+| **Имя поставщика** | MS \_ ЕНХ \_ RSA \_ AES \_ Prov  |
 
 
 

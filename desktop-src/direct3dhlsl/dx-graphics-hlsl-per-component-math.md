@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2c8c9eeea1072c53915588ac0099998e76c0452a
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 5cd065e415aafffa59dd6c31d2b9aa4f4505021d
+ms.sourcegitcommit: 7c7a05f65d2cf1ba2dadf05f63ae91a048083946
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119599"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113589591"
 ---
 # <a name="per-component-math-operations"></a>Per-Component математических операций
 
@@ -26,7 +26,7 @@ ms.locfileid: "113119599"
 -   [Тип матрицы](#the-matrix-type)
     -   [Упорядочение матрицы](#matrix-ordering)
 -   [Примеры](#examples)
--   [Связанные темы](#related-topics)
+-   [Связанные разделы](#related-topics)
 
 ## <a name="the-vector-type"></a>Тип вектора
 
@@ -105,7 +105,7 @@ temp = pos.xg  // NOT VALID because the position and color sets were used.
 
 
 
-Указание одного или нескольких компонентов вектора при чтении компонентов называется группирующие. Пример.
+Указание одного или нескольких компонентов вектора при чтении компонентов называется группирующие. Пример:
 
 
 ```
@@ -428,9 +428,9 @@ tempMatrix._11_m23 = worldMatrix._11_22;
         34<br/>
     :::column-end:::
     :::column:::
-        14<br/>
-        24<br/>
-        34<br/>
+        41<br/>
+        42<br/>
+        43<br/>
         44<br/>
     :::column-end:::
 :::row-end:::
@@ -577,7 +577,7 @@ float4 main(float4 pos : SV_POSITION) : SV_POSITION
 
 , возвращающее одиночное скалярное значение.
 
-## <a name="related-topics"></a>Связанные темы
+## <a name="related-topics"></a>Связанные разделы
 
 <dl> <dt>
 
