@@ -355,13 +355,13 @@
             - name: Компоненты ASF уровня конвейера
               href: pipeline-layer-asf-components.md
               items:
-                - name: Создание топологии для Two-Pass кодирования Windows Media
+                - name: создание топологии для Two-Pass Windows кодирования мультимедиа
                   href: how-to-create-a-topology-for-2-pass-windows-media-encoding.md
-                - name: Учебник. однопроходное кодирование Windows Media
+                - name: учебник. однопроходный Windows кодирование мультимедиа
                   href: tutorial--1-pass-windows-media-encoding.md
                 - name: Источник носителя ASF
                   href: asf-media-source.md
-                - name: Кодировщики Windows Media
+                - name: Windows Кодировщики мультимедиа
                   href: windows-media-encoders.md
                   items:
                     - name: Создание экземпляра MFT для кодировщика
@@ -406,7 +406,7 @@
               items:
                 - name: Руководство. чтение файла ASF с помощью объектов Вмконтаинер
                   href: tutorial--reading-an-asf-file.md
-                - name: Руководство. копирование потоков ASF с помощью объектов Вмконтаинер
+                - name: руководство. копирование ASF Потоки с помощью объектов вмконтаинер
                   href: tutorial--copying-asf-streams-from-one-file-to-another.md
                 - name: Учебник. запись файла WMA с помощью объектов Вмконтаинер
                   href: tutorial--writing-a-wma-file-by-using-cbr-encoding.md
@@ -418,9 +418,9 @@
                   items:
                     - name: Создание профиля ASF
                       href: creating-an-asf-profile.md
-                    - name: Создание и настройка потоков ASF
+                    - name: создание и настройка ASF Потоки
                       href: creating-and-configuring-asf-streams.md
-                    - name: Использование взаимного исключения для потоков ASF
+                    - name: использование взаимного исключения для ASF Потоки
                       href: using-mutual-exclusion-for-asf-streams.md
                 - name: Объект Контентинфо ASF
                   href: asf-contentinfo-object.md
@@ -520,20 +520,20 @@
               href: how-to-play-protected-media-files.md
             - name: Как определить длительность файла мультимедиа
               href: how-to-find-the-duration-of-a-media-file.md
-            - name: 'Поиск, быстрая переадресация и обратная игра'
+            - name: 'поиск, Быстрая прокрутка и обратная игра'
               href: seeking--fast-forward--and-reverse-play.md
             - name: Как задать время окончания воспроизведения
               href: how-to-set-the-playback-stop-time-.md
             - name: Улучшенный модуль подготовки видео
               href: enhanced-video-renderer.md
               items:
-                - name: Использование фильтра Евр DirectShow
+                - name: использование DirectShow фильтра евр
                   href: using-the-directshow-evr-filter.md
                 - name: Использование приемника мультимедиа Евр
                   href: using-the-evr-media-sink.md
                 - name: Использование элементов управления отображением видео
                   href: using-the-video-display-controls.md
-                - name: Использование элементов управления "микшер видео"
+                - name: использование элементов управления видео Mixer
                   href: using-the-video-mixer-controls.md
                 - name: Согласование типа носителя Евр
                   href: evr-media-type-negotiation.md
@@ -1851,7 +1851,7 @@
               href: shell-metadata-providers.md
             - name: Свойства метаданных для файлов мультимедиа
               href: metadata-properties-for-media-files.md
-            - name: Поставщики метаданных в Windows Vista
+            - name: поставщики метаданных в Windows Vista
               href: metadata-providers-in-windows-vista.md
         - name: Сетевые подключения в Media Foundation
           href: networking-in-media-foundation.md
@@ -2042,7 +2042,7 @@
         - name: Кодеки Windows Media
           href: windows-media-codecs.md
           items:
-            - name: О кодеках Windows Media
+            - name: о кодеках Windows Media
               href: about-the-windows-media-codecs.md
             - name: Использование кодеков и объектов DSP
               href: decidinghowtousethewindowsmediaaudioandvideocodecs.md
@@ -2055,19 +2055,19 @@
             - name: Работа с кодеками дмос
               href: workingwithcodecdmos.md
               items:
-                - name: Основы DMO
+                - name: DMO Основы
                   href: dmobasics-ebet.md
                 - name: Создание экземпляра кодека дмос
                   href: instantiatingcodecdmos.md
-                - name: Работа с буферами мультимедиа DMO
+                - name: работа с буферами мультимедиа DMO
                   href: workingwithmediabuffers.md
-                - name: Работа с типами мультимедиа DMO
+                - name: работа с типами носителей DMO
                   href: workingwithmediatypes.md
                 - name: Работа с буферами и примерами мультимедиа MFT
                   href: workingwithmftmediabuffersandsamples.md
                 - name: Настройка кодека дмос
                   href: enumeratingsupportedformats.md
-                - name: Обработка входных и выходных данных в коде DMO
+                - name: обработка кодека DMO входных и выходных данных
                   href: processingsamples.md
                 - name: Использование оконных кодеков Windows в DirectShow
                   href: usingthecodecdmoswithdirectshow.md
@@ -2094,11 +2094,11 @@
                   items:
                     - name: Поиск типов вывода звукового кодировщика
                       href: findingaudioencoderoutputtypes.md
-                    - name: 'Настройка стандартной, профессиональной или без потерь звука в кодировке'
+                    - name: 'настройка стандартной, Professional или без потерь звука в кодировке'
                       href: configuring-standard--professional--or-lossless-audio-encoding.md
                     - name: Перечисление типов аудио для конкретных режимов кодирования
                       href: enumeratingaudiotypesforspecificencodingmodes.md
-                - name: Использование кодека Windows Media Audio Voice
+                - name: использование видеокодека Windows Media Audio
                   href: usingthewindowsmediaaudio9voicecodec.md
                 - name: Декодирование в S/PDIF
                   href: decodingtospdif.md
@@ -2119,11 +2119,11 @@
                   href: forcedkeyframeinsertion.md
                 - name: Кодирование видео с чередованием
                   href: interlacedvideoencoding.md
-                - name: Использование расширенного профиля Windows Media Video 9
+                - name: использование расширенного профиля Windows Media Video 9
                   href: usingthewindowsmediavideo9advancedprofilecodec.md
-                - name: 'Использование кодека образа Windows Media Video 9,1'
+                - name: 'использование кодека видео Windows Media Video 9,1'
                   href: usingthewindowsmediavideo9imagecodec.md
-                - name: Использование экранного видеокодека Windows Media видео 9
+                - name: экранный кодек Windows Media видео 9
                   href: usingthewindowsmediavideo9screencodec.md
                 - name: Использование личных данных видеокодека
                   href: usingvideocodecprivatedata.md
@@ -2281,14 +2281,14 @@
                           href: /windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-toc_pos_type
                     - name: Функции средства синтаксического анализа оглавления
                       href: toc-parser-functions.md
-            - name: Часто задаваемые вопросы о кодеке Windows Media
+            - name: 'Windows Мультимедийный кодек: вопросы и ответы'
               href: frequentlyaskedquestions.md
               items:
                 - name: 'Как поток видео в кодировке на основе качества имеет меньше кадров, чем исходный поток?'
                   href: howcanavideostreamencodedusingqualitybasedvbrhavef.md
                 - name: 'Разделы справки распаковать потоки из файла AVI или другого файла, о котором у меня нет сведений о форматировании?'
                   href: howdoidecompresswindowsmediacontentfromanaviorothe.md
-                - name: 'У меня есть файл AVI, содержащий поток видео Windows Media. Как преобразовать его в WMV-файл?'
+                - name: 'у меня есть файл AVI, содержащий поток видео Windows Media. Как преобразовать его в WMV-файл?'
                   href: ihaveanavifilecontainingawindowsmediavideostreamho.md
                 - name: 'При использовании пиковой скорости VBR средняя скорость, полученная от объекта кодека, превышает пиковую скорость. Как это возможно?'
                   href: whenusingpeakconstrainedvbrtheaveragebitrateretrie.md
@@ -2375,29 +2375,29 @@
               href: mpeg-2-video-decoder.md
             - name: Видеодекодер MPEG-4 Part 2
               href: mpeg4part2videodecoder.md
-            - name: Декодер Windows Media Audio
+            - name: Windows Декодер мультимедиа
               href: windowsmediaaudiodecoder.md
-            - name: Кодировщик Windows Media Audio
+            - name: Windows Media Audio Encoder
               href: windowsmediaaudioencoder.md
-            - name: Декодер Windows Media Audio Voice
+            - name: Windows Декодер мультимедиа аудио
               href: windowsmediaaudiovoicedecoder.md
-            - name: Кодировщик Windows Media Audio Voice
+            - name: Windows Кодировщик Media Audio Voice
               href: windowsmediaaudiovoiceencoder.md
-            - name: Декодер MP3 Windows Media
+            - name: Windows Декодер MP3 Media
               href: windows-media-mp3-decoder.md
-            - name: Декодер Windows Media MPEG4 версии 1/v2
+            - name: Windows Декодер Media MPEG4 v1/v2
               href: windowsmediampeg4decoder.md
-            - name: Декодер Windows Media MPEG-4 v3
+            - name: Windows Декодер Media MPEG-4 v3
               href: windowsmediampeg4v3decoder.md
-            - name: Кодировщик Windows Media Video 7/8
+            - name: Windows Кодировщик Media Video 7/8
               href: windows-media-video-7-and-8-encoders.md
-            - name: Декодер Windows Media Video 9
+            - name: Windows Декодер Media Video 9
               href: windowsmediavideo9decoder.md
-            - name: Кодировщик Windows Media Video 9
+            - name: Windows Кодировщик Media Video 9
               href: windowsmediavideo9encoder.md
-            - name: Декодер экрана Windows Media видео 9
+            - name: Windows Экранный декодер видео 9
               href: windowsmediavideo9screendecoder.md
-            - name: Кодировщик экрана Windows Media видео 9
+            - name: Windows Кодировщик экрана видео в Media 9
               href: windowsmediavideo9screenencoder.md
         - name: Обработчики цифровых сигналов
           href: windowsmediadigitalsignalprocessors.md
@@ -2541,6 +2541,8 @@
                   href: mf-capture-engine-use-video-device-only.md
                 - name: MF_CAPTURE_METADATA_DIGITALWINDOW
                   href: mf-capture-metadata-digitalwindow.md
+                - name: MF_CAPTURE_METADATA_FRAME_BACKGROUND_MASK
+                  href: mf-capture-metadata-frame-background-mask.md
                 - name: MF_CAPTURE_METADATA_FRAME_ILLUMINATION
                   href: mf-capture-metadata-frame-illumination.md
                 - name: MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH
@@ -3241,6 +3243,8 @@
                   href: mf-video-processor-algorithm.md
                 - name: MF_VIDEODSP_MODE
                   href: mf-videodsp-mode.md
+                - name: MF_VIRTUALCAMERA_APP_PACKAGE_FAMILY_NAME
+                  href: mf-virtualcamera-configuration-app-package-family-name.md
                 - name: MF_XVP_CALLER_ALLOCATES_OUTPUT
                   href: mf-xvp-caller-allocates-output.md
                 - name: MF_XVP_DISABLE_FRC
@@ -3458,11 +3462,11 @@
               href: asf-mutual-exclusion-type-guids.md
             - name: Флаги защиты CGMS-A
               href: cgms-a-protection-flags.md
-            - name: Параметры фильтра изображений ДКСВА
+            - name: Параметры фильтра изображений дксва
               href: dxva-image-filter-settings.md
             - name: MFT_CATEGORY
               href: mft-category.md
-            - name: Параметры параметра cAmp
+            - name: Параметры camp
               href: procamp-settings.md
             - name: Флаги сопоставителя источника
               href: source-resolver-flags.md
@@ -5469,7 +5473,7 @@
             - name: имфдесиредсампле
               href: /windows/desktop/api/evr/nn-evr-imfdesiredsample
               items:
-                - name: Clear
+                - name: Очистить
                   href: /windows/desktop/api/evr/nf-evr-imfdesiredsample-clear
                 - name: жетдесиредсамплетимеанддуратион
                   href: /windows/desktop/api/evr/nf-evr-imfdesiredsample-getdesiredsampletimeandduration
@@ -6143,7 +6147,7 @@
               items:
                 - name: AddRange
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-addrange
-                - name: Clear
+                - name: Очистить
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-clear
                 - name: контаинстиме
                   href: /windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-containstime
@@ -7392,7 +7396,7 @@
               items:
                 - name: AddNode
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-addnode
-                - name: Clear
+                - name: Очистить
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-clear
                 - name: клонефром
                   href: /windows/desktop/api/mfidl/nf-mfidl-imftopology-clonefrom

@@ -20,16 +20,17 @@ topic_type:
 - apiref
 - kbSyntax
 api_type:
-- Managed
+- DllExport
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
+- esent.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5ebb96af18e655c9f9304e2fe7a339663c0206fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb01792608ec542918f4bd8ff6ec06ef27091bb1
+ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701767"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "113691733"
 ---
 # <a name="windows8apijetopentemporarytable2-method"></a>Windows8Api. JetOpenTemporaryTable2, метод
 
@@ -79,7 +80,7 @@ public static void JetOpenTemporaryTable2(
 
 ## <a name="see-also"></a>См. также раздел
 
-#### <a name="reference"></a>Справочник
+#### <a name="reference"></a>Ссылка
 
 [Класс Windows8Api](./windows8api-class.md)
 
