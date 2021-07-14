@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - InkPresenterDesktop.idl
-ms.openlocfilehash: d5dac80a4ee09bb4b78a4d61ca0efa74e99babb9
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 74eebdbdfdbe3a4018d63b1f2161687152ebb5cc
+ms.sourcegitcommit: 1f917afc149b5cc449a4a25a87de311e4842734b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "105720013"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "113689227"
 ---
 # <a name="inkdesktophost-class"></a>Класс Инкдесктофост
 
@@ -50,19 +50,19 @@ ms.locfileid: "105720013"
 CoCreateInstance(__uuidof(InkDesktopHost), 
   nullptr, 
   CLSCTX_INPROC_SERVER, 
-  IID_PPV_ARGS(&amp;_spInkHost));
+  IID_PPV_ARGS(&_spInkHost));
 ```
 
 ## <a name="requirements"></a>Требования
 
 | Требование | Значение |
 |---|---|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/> |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/> |
-| Header<br/>                   | <dl> <dt>Инкпресентердесктоп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Инкпресентердесктоп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Инкпресентердесктоп. idl</dt> </dl> |
 | IID<br/>                      | IID \_ иинкдесктофост определен как 4ce7d875-a981-4140-a1ff-ad93258e8d59<br/> |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 [Классы для рукописного ввода](ink-presenter-classes.md), [взаимодействие пером и](/windows/uwp/design/input/pen-and-stylus-interactions)пера, [Пример анализа рукописного ввода](/samples/microsoft/windows-universal-samples/inkanalysis/), [простой пример](/samples/microsoft/windows-universal-samples/simpleink/)с рукописным вводом, [сложный пример для рукописного](/samples/microsoft/windows-universal-samples/complexink/) ввода
