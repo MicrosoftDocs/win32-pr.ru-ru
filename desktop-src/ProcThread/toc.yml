@@ -139,6 +139,8 @@
                       href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqunregisterplatformfrommmcss
             - name: Группы процессоров
               href: processor-groups.md
+            - name: Качество обслуживания
+              href: quality-of-service.md
         - name: Несколько потоков
           href: multiple-threads.md
           items:
@@ -154,7 +156,7 @@
               href: multiple-threads-and-gdi-objects.md
             - name: локальное хранилище потока
               href: thread-local-storage.md
-            - name: Создание окон в потоках
+            - name: создание Windows в потоках
               href: creating-windows-in-threads.md
             - name: '  Завершение потока'
               href: terminating-a-thread.md
