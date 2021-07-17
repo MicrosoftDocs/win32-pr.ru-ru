@@ -4,12 +4,12 @@ description: Следующие функции извлекают и измен�
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
-ms.openlocfilehash: ae19803c25512242b613735a060c7beda8c1df70
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: ee16bb0b65545c4abbef387c5b90d42fb9d3c629
+ms.sourcegitcommit: ea0069adb72dbfa717e73f3a96c3407a49ec0dab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549509"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "114394217"
 ---
 # <a name="ip-helper-functions"></a>Вспомогательные функции IP
 
@@ -55,6 +55,7 @@ ms.locfileid: "110549509"
 
 ## <a name="interface-management"></a>Управление интерфейсом
 
+-   [**фриинтерфацеднссеттингс**](/windows/win32/api/netioapi/nf-netioapi-freeinterfacednssettings)
 -   [**жетфриендлифиндекс**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getfriendlyifindex)
 -   [**жетифентри**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getifentry)
 -   [**GetIfEntry2**](/windows/win32/api/Netioapi/nf-netioapi-getifentry2)
@@ -63,6 +64,7 @@ ms.locfileid: "110549509"
 -   [**жетифтабле**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getiftable)
 -   [**GetIfTable2**](/windows/win32/api/Netioapi/nf-netioapi-getiftable2)
 -   [**GetIfTable2Ex**](/windows/win32/api/Netioapi/nf-netioapi-getiftable2ex)
+-   [**жетинтерфацеднссеттингс**](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings)
 -   [**жетинтерфацеинфо**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getinterfaceinfo)
 -   [**жетинвертедифстакктабле**](/windows/win32/api/Netioapi/nf-netioapi-getinvertedifstacktable)
 -   [**жетипинтерфацеентри**](/windows/win32/api/Netioapi/nf-netioapi-getipinterfaceentry)
@@ -70,6 +72,7 @@ ms.locfileid: "110549509"
 -   [**жетнумберофинтерфацес**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getnumberofinterfaces)
 -   [**инитиализеипинтерфацеентри**](/windows/win32/api/Netioapi/nf-netioapi-initializeipinterfaceentry)
 -   [**сетифентри**](/windows/win32/api/Iphlpapi/nf-iphlpapi-setifentry)
+-   [**сетинтерфацеднссеттингс**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings)
 -   [**сетипинтерфацеентри**](/windows/win32/api/Netioapi/nf-netioapi-setipinterfaceentry)
 
 ## <a name="internet-protocol-ip-and-internet-control-message-protocol-icmp"></a>Протокол Интернета (IP) и Протокол управляющих сообщений Интернета (ICMP)
@@ -204,10 +207,10 @@ ms.locfileid: "110549509"
 -   [**канцелсекуритихеалсчанженотифи**](/previous-versions/windows/desktop/legacy/bb442512(v=vs.85))
 -   [**нотифисекуритихеалсчанже**](/previous-versions/windows/desktop/legacy/bb451761(v=vs.85))
 
-Эти функции определяются только в Windows Server 2003.
+эти функции определяются только на Windows Server 2003.
 
 > [!Note]  
-> Эти функции недоступны в Windows Vista и Windows Server 2008.
+> эти функции недоступны в Windows Vista и на Windows Server 2008.
 
 ## <a name="teredo-ipv6-client-management"></a>Управление клиентом Teredo IPv6
 

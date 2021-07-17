@@ -16,12 +16,12 @@ keywords:
 - сообщения недоставленных символов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65ad481bad6756bb374b98a5510bdc26f1cded6a
-ms.sourcegitcommit: ac62be2f60f757f61ea647a95c168c9841ffabac
+ms.openlocfilehash: 0de85794901be3fef37156bde29520039f85702b
+ms.sourcegitcommit: b3839bea8d55c981d53cb8802d666bf49093b428
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104563414"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "114373201"
 ---
 # <a name="about-keyboard-input"></a>О вводе с клавиатуры
 
@@ -116,9 +116,32 @@ ms.locfileid: "104563414"
 | **\_Повтор КФ**   | Управляет предыдущим флагом состояния ключа.                                          |
 | **КФ \_ up**       | Управляет флагом состояния перехода.                                            |
 
+Пример кода:
 
+```cpp
+case WM_KEYDOWN:
+case WM_KEYUP:
+case WM_SYSKEYDOWN:
+case WM_SYSKEYUP:
+{
+    WORD vkCode = LOWORD(wParam);                                       // virtual-key code
 
- 
+    BYTE scanCode = LOBYTE(HIWORD(lParam));                             // scan code
+    BOOL scanCodeE0 = (HIWORD(lParam) & KF_EXTENDED) == KF_EXTENDED;    // extended-key flag, 1 if scancode has 0xE0 prefix
+
+    BOOL upFlag = (HIWORD(lParam) & KF_UP) == KF_UP;                    // transition-state flag, 1 on keyup
+    BOOL repeatFlag = (HIWORD(lParam) & KF_REPEAT) == KF_REPEAT;        // previous key-state flag, 1 on autorepeat
+    WORD repeatCount = LOWORD(lParam);                                  // repeat count, > 0 if several keydown messages was combined into one message
+
+    BOOL altDownFlag = (HIWORD(lParam) & KF_ALTDOWN) == KF_ALTDOWN;     // ALT key was pressed
+
+    BOOL dlgModeFlag = (HIWORD(lParam) & KF_DLGMODE) == KF_DLGMODE;     // dialog box is active
+    BOOL menuModeFlag = (HIWORD(lParam) & KF_MENUMODE) == KF_MENUMODE;  // menu is active
+    
+    // ...
+}
+break;
+```
 
 ### <a name="repeat-count"></a>Число повторов
 
@@ -131,6 +154,8 @@ ms.locfileid: "104563414"
 ### <a name="extended-key-flag"></a>Флаг Extended-Key
 
 Флаг расширенного ключа указывает, поступило ли сообщение о нажатии клавиши из одного из дополнительных клавиш на расширенной клавиатуре. Расширенные ключи состоят из клавиш ALT и CTRL в правой части клавиатуры; клавиши INS, DEL, ДОМАШНяя, КОНЕЧная страница вверх, PAGE DOWN и стрелка в кластерах слева от цифровой клавиатуры; Клавиша NUM LOCK; Клавиша BREAK (CTRL + ПАУЗа); Клавиша PRINT СКРН; и клавиши деления (/) и ENTER на цифровой клавиатуре. Флаг расширенного ключа устанавливается, если ключ является расширенным ключом.
+
+Если указано, код сканирования должен предшествовать байту префикса со значением 0xE0 (224).
 
 ### <a name="context-code"></a>Код контекста
 
@@ -200,7 +225,7 @@ ms.locfileid: "104563414"
 
 ## <a name="keyboard-keys-for-browsing-and-other-functions"></a>Клавиши клавиатуры для обзора и других функций
 
-Windows поддерживает клавиатуры с специальными ключами для функций браузера, функций мультимедиа, запуска приложений и управления питанием. [**WM \_ аппкомманд**](wm-appcommand.md) поддерживает дополнительные клавиши клавиатуры. Кроме того, функция [**шеллпрок**](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)) изменяется для поддержки дополнительных клавиш клавиатуры.
+Windows обеспечивает поддержку клавиатур с специальными ключами для функций браузера, функций мультимедиа, запуска приложений и управления питанием. [**WM \_ аппкомманд**](wm-appcommand.md) поддерживает дополнительные клавиши клавиатуры. Кроме того, функция [**шеллпрок**](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)) изменяется для поддержки дополнительных клавиш клавиатуры.
 
 Маловероятно, что дочернее окно в приложении компонента сможет напрямую реализовать команды для этих дополнительных клавиш клавиатуры. Поэтому при нажатии одной из этих клавиш [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) отправит сообщение [**WM \_ аппкомманд**](wm-appcommand.md) в окно. **Дефвиндовпрок** также получит всплывающее сообщение **WM \_ аппкомманд** в родительском окне. Это похоже на способ вызова контекстных меню с помощью правой кнопки мыши, которая заключается в том, что **дефвиндовпрок** отправляет сообщение [**WM \_ CONTEXTMENU**](/windows/desktop/menurc/wm-contextmenu) при щелчке правой кнопкой мыши и передает его родительскому элементу. Кроме того, если **дефвиндовпрок** получает сообщение **WM \_ аппкомманд** для окна верхнего уровня, оно будет вызывать обработчик оболочки с кодом **хшелл \_ аппкомманд**.
 
