@@ -5,18 +5,18 @@ title: КНОВНФОЛДЕРИД (Кновнфолдерс. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 97748d074d6b0982708f51ea679f0629e8abfad6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb4b6ef46179abbe515edfcd323a349c7d091ac9
+ms.sourcegitcommit: c8f1dc81483739b697c96ae97ca533028efc3b2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104987434"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "114656882"
 ---
 # <a name="knownfolderid"></a>кновнфолдерид
 
-Константы **кновнфолдерид** представляют идентификаторы GUID, которые определяют стандартные папки, зарегистрированные в системе как [известные папки](known-folders.md). Эти папки устанавливаются вместе с Windows Vista и более поздними операционными системами, и на компьютере будут находиться только папки, соответствующие установленной версии. Описания этих папок см. в разделе [**CSid**](csidl.md).
+Константы **кновнфолдерид** представляют идентификаторы GUID, которые определяют стандартные папки, зарегистрированные в системе как [известные папки](known-folders.md). эти папки устанавливаются с Windows Vista и более поздними операционными системами, и на компьютере будут находиться только папки, соответствующие установленной версии. Описания этих папок см. в разделе [**CSid**](csidl.md).
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 ```c
 HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *prf)
@@ -56,7 +56,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 
 ```
 
-Пример из [классической выборки Windows](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winui/shell/appplatform/ExplorerBrowserCustomContents/ExplorerBrowserCustomContents.cpp) на сайте GitHub.
+пример из [Windows классических примеров](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winui/shell/appplatform/ExplorerBrowserCustomContents/ExplorerBrowserCustomContents.cpp) на GitHub.
 
 ## <a name="constants"></a>Константы
 
@@ -93,7 +93,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдата%\микрософт\виндовс\аккаунтпиктурес</td>
+<td>%аппдата%\микрософт\ Windows \аккаунтпиктурес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -169,7 +169,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Средства%Аппдата%\микрософт\виндовс\старт</td>
+<td>%аппдата%\микрософт\ Windows \ главное меню программы \ администрирование</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -211,7 +211,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 10, версия 1709</td>
+<td>нет, значение, введенное в Windows 10, версия 1709</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -250,7 +250,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 10, версия 1709</td>
+<td>нет, значение, введенное в Windows 10, версия 1709</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -289,7 +289,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 10, версия 1709</td>
+<td>нет, значение, введенное в Windows 10, версия 1709</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -328,7 +328,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 10, версия 1709</td>
+<td>нет, значение, введенное в Windows 10, версия 1709</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -363,7 +363,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Сочетания клавиш%Локалаппдата%\микрософт\виндовс\аппликатион</td>
+<td>сочетания клавиш%локалаппдата%\микрософт\ Windows \Application</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -447,7 +447,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
-<td>Нет, значение, введенное в Windows Vista. В более ранних версиях Windows сведения на этой странице были включены в компонент " <strong>Установка и удаление программ</strong> ", если флажок " <strong>Показывать обновления</strong> " установлен.</td>
+<td>нет, значение, введенное в Windows Vista. в более ранних версиях Windows сведения на этой странице были включены в компонент " <strong>установка и удаление программ</strong> ", если флажок " <strong>показывать обновления</strong> " установлен.</td>
 </tr>
 <tr class="odd">
 <td>Устаревший путь по умолчанию</td>
@@ -515,7 +515,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%локалаппдата%\микрософт\виндовс\бурн\бурн</td>
+<td>%локалаппдата%\микрософт\ Windows \бурн\бурн</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -527,7 +527,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Устаревший путь по умолчанию</td>
-<td>%Усерпрофиле%\локал Settings\Application Дата\микрософт\кд запись</td>
+<td>%усерпрофиле%\локал Параметры \Application дата\микрософт\кд запись</td>
 </tr>
 </tbody>
 </table>
@@ -591,7 +591,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Средства%Аллусерспрофиле%\микрософт\виндовс\старт</td>
+<td>%аллусерспрофиле%\микрософт\ Windows \ главное меню программы \ администрирование</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -667,7 +667,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%Аллусерспрофиле%\микрософт\виндовс\старт Мену\програмс</td>
+<td>%аллусерспрофиле%\микрософт\ Windows «главное мену\програмс»</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -705,7 +705,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Меню%Аллусерспрофиле%\микрософт\виндовс\старт</td>
+<td>%аллусерспрофиле%\микрософт\ Windows меню "главное"</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -743,7 +743,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%Аллусерспрофиле%\микрософт\виндовс\старт Мену\програмс\стартуп</td>
+<td>%аллусерспрофиле%\микрософт\ Windows «главное мену\програмс\стартуп»</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -781,7 +781,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аллусерспрофиле%\микрософт\виндовс\темплатес</td>
+<td>%аллусерспрофиле%\микрософт\ Windows \темплатес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -861,11 +861,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
-<td>Не применяется Этот <strong>кновнфолдерид</strong> относится к диспетчеру синхронизации Windows Vista. Это не папка, на которую ссылается более старая <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>исинкмгрконфликтфолдер</strong></a>.</td>
+<td>неприменимо. этот <strong>кновнфолдерид</strong> относится к диспетчеру синхронизации Windows Vista. Это не папка, на которую ссылается более старая <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>исинкмгрконфликтфолдер</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>Устаревший путь по умолчанию</td>
@@ -937,7 +937,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -1009,7 +1009,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдата%\микрософт\виндовс\кукиес</td>
+<td>%аппдата%\микрософт\ Windows \кукиес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -1039,7 +1039,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Отображаемое имя</td>
-<td>Персональный компьютер</td>
+<td>Классические приложения</td>
 </tr>
 <tr class="odd">
 <td>Тип папки</td>
@@ -1055,7 +1055,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
-<td>Персональный компьютер</td>
+<td>Классические приложения</td>
 </tr>
 <tr class="odd">
 <td>Устаревший путь по умолчанию</td>
@@ -1085,11 +1085,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аллусерспрофиле%\микрософт\виндовс\девицеметадатасторе</td>
+<td>%аллусерспрофиле%\микрософт\ Windows \девицеметадатасторе</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -1161,11 +1161,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдата%\микрософт\виндовс\либрариес\документс.либрари-мс</td>
+<td>%аппдата%\микрософт\ Windows \либрариес\документс.либрари-мс</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -1191,7 +1191,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Отображаемое имя</td>
-<td>Скачиваемые файлы</td>
+<td>Файлы для загрузки</td>
 </tr>
 <tr class="odd">
 <td>Тип папки</td>
@@ -1267,7 +1267,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Отображаемое имя</td>
-<td>Шрифты</td>
+<td>Fonts</td>
 </tr>
 <tr class="odd">
 <td>Тип папки</td>
@@ -1283,7 +1283,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
-<td>Шрифты</td>
+<td>Fonts</td>
 </tr>
 <tr class="odd">
 <td>Устаревший путь по умолчанию</td>
@@ -1299,7 +1299,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 <td style="text-align: left;"><div class="alert">
 <blockquote>
 [!Note]<br />
-Этот FOLDERID является устаревшим в Windows 10, версии 1803 и более поздних версиях. В этих версиях возвращается <strong>0x80070057-E_INVALIDARG</strong>
+этот FOLDERID не рекомендуется использовать в Windows 10, версии 1803 и более поздних версиях. В этих версиях возвращается <strong>0x80070057-E_INVALIDARG</strong>
 </blockquote>
 </div>
 <div>
@@ -1360,11 +1360,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%локалаппдата%\микрософт\виндовс\гамиксплорер</td>
+<td>%локалаппдата%\микрософт\ Windows \гамиксплорер</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -1398,7 +1398,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%локалаппдата%\микрософт\виндовс\хистори</td>
+<td>%локалаппдата%\микрософт\ Windows \хистори</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -1410,7 +1410,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Устаревший путь по умолчанию</td>
-<td>%Усерпрофиле%\локал Сеттингс\хистори</td>
+<td>%усерпрофиле%\локал Параметры \хистори</td>
 </tr>
 </tbody>
 </table>
@@ -1440,7 +1440,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -1516,7 +1516,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -1550,7 +1550,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%Локалаппдата%\микрософт\виндовс\темпорари файлы Интернета</td>
+<td>%локалаппдата%\микрософт\ Windows \Temporary файлы интернета</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -1562,7 +1562,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Устаревший путь по умолчанию</td>
-<td>%Усерпрофиле%\локал Сеттингс\темпорари файлы Интернета</td>
+<td>%усерпрофиле%\локал Параметры \Temporary файлы интернета</td>
 </tr>
 </tbody>
 </table>
@@ -1626,11 +1626,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдата%\микрософт\виндовс\либрариес</td>
+<td>%аппдата%\микрософт\ Windows \либрариес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -1714,7 +1714,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Устаревший путь по умолчанию</td>
-<td>%Усерпрофиле%\локал Settings\Application данные</td>
+<td>%усерпрофиле%\локал Параметры \Application данные</td>
 </tr>
 </tbody>
 </table>
@@ -1854,11 +1854,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдата%\микрософт\виндовс\либрариес\мусик.либрари-мс</td>
+<td>%аппдата%\микрософт\ Windows \либрариес\мусик.либрари-мс</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -1892,7 +1892,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Сочетания клавиш%Аппдата%\микрософт\виндовс\нетворк</td>
+<td>сочетания клавиш%аппдата%\микрософт\ Windows \нетворк</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -1972,7 +1972,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 10, версия 1703</td>
+<td>нет, значение, введенное в Windows 10, версия 1703</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -2006,11 +2006,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Изображения%Локалаппдата%\микрософт\виндовс Photo Галлери\оригинал</td>
+<td>изображения%локалаппдата%\микрософт\ Windows фото галлери\оригинал</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -2048,7 +2048,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -2082,11 +2082,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдата%\микрософт\виндовс\либрариес\пиктурес.либрари-мс</td>
+<td>%аппдата%\микрософт\ Windows \либрариес\пиктурес.либрари-мс</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -2234,7 +2234,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Сочетания клавиш%Аппдата%\микрософт\виндовс\принтер</td>
+<td>сочетания клавиш%аппдата%\микрософт\ Windows \принтер</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -2284,7 +2284,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Устаревший путь по умолчанию</td>
-<td>% USERPROFILE% (%Системдриве%\документс и параметры \% username%)</td>
+<td>% USERPROFILE% (%системдриве%\документс и Параметры \% имя пользователя%)</td>
 </tr>
 </tbody>
 </table>
@@ -2582,7 +2582,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%Аппдата%\микрософт\виндовс\старт Мену\програмс</td>
+<td>%аппдата%\микрософт\ Windows «главное мену\програмс»</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -2612,7 +2612,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Отображаемое имя</td>
-<td>Общие</td>
+<td>Общедоступные</td>
 </tr>
 <tr class="odd">
 <td>Тип папки</td>
@@ -2624,7 +2624,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, новое для Windows Vista</td>
+<td>нет, новое для Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -2666,7 +2666,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
-<td>Персональный компьютер</td>
+<td>Классические приложения</td>
 </tr>
 <tr class="odd">
 <td>Устаревший путь по умолчанию</td>
@@ -2738,7 +2738,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -2772,11 +2772,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аллусерспрофиле%\микрософт\виндовс\гамиксплорер</td>
+<td>%аллусерспрофиле%\микрософт\ Windows \гамиксплорер</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -2810,11 +2810,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аллусерспрофиле%\микрософт\виндовс\либрариес</td>
+<td>%аллусерспрофиле%\микрософт\ Windows \либрариес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -2924,11 +2924,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аллусерспрофиле%\микрософт\виндовс\рингтонес</td>
+<td>%аллусерспрофиле%\микрософт\ Windows \рингтонес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -3076,7 +3076,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдата%\микрософт\виндовс\рецент</td>
+<td>%аппдата%\микрософт\ Windows \рецент</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -3097,7 +3097,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FOLDERID_RecordedTV"></span><span id="folderid_recordedtv"></span><span id="FOLDERID_RECORDEDTV"></span><dl> <dt><strong>FOLDERID_RecordedTV</strong></dt> </dl></td>
-<td style="text-align: left;"><p>Не используется. Это значение не определено в Windows 7.</p></td>
+<td style="text-align: left;"><p>Не используется. это значение не определено на Windows 7.</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FOLDERID_RecordedTVLibrary"></span><span id="folderid_recordedtvlibrary"></span><span id="FOLDERID_RECORDEDTVLIBRARY"></span><dl> <dt><strong>FOLDERID_RecordedTVLibrary</strong></dt> </dl></td>
@@ -3122,7 +3122,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -3232,11 +3232,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%локалаппдата%\микрософт\виндовс\рингтонес</td>
+<td>%локалаппдата%\микрософт\ Windows \рингтонес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -3308,7 +3308,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%локалаппдата%\микрософт\виндовс\роамедтилеимажес</td>
+<td>%локалаппдата%\микрософт\ Windows \роамедтилеимажес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -3346,7 +3346,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%локалаппдата%\микрософт\виндовс\роамингтилес</td>
+<td>%локалаппдата%\микрософт\ Windows \роамингтилес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -3464,7 +3464,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -3540,7 +3540,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -3612,7 +3612,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдате%\микрософт\виндовс\либрариес\саведпиктурес.либрари-мс</td>
+<td>%аппдата%\микрософт\ Windows \либрариес\саведпиктурес.либрари-мс</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -3764,7 +3764,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%локалаппдата%\микрософт\виндовс\коннектедсеарч\хистори</td>
+<td>%локалаппдата%\микрософт\ Windows \коннектедсеарч\хистори</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -3878,7 +3878,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%локалаппдата%\микрософт\виндовс\коннектедсеарч\темплатес</td>
+<td>%локалаппдата%\микрософт\ Windows \коннектедсеарч\темплатес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -3916,7 +3916,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдата%\микрософт\виндовс\сендто</td>
+<td>%аппдата%\микрософт\ Windows \сендто</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -3954,11 +3954,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%Програмфилес%\виндовс Сидебар\гаджетс</td>
+<td>% ProgramFiles% \ Windows сидебар\гаджетс</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, новое для Windows 7</td>
+<td>нет, новое для Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -3992,11 +3992,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%Локалаппдата%\микрософт\виндовс Сидебар\гаджетс</td>
+<td>%локалаппдата%\микрософт\ Windows сидебар\гаджетс</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, новое для Windows 7</td>
+<td>нет, новое для Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -4030,7 +4030,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%усерпрофиле%\онедриве</td>
+<td>% USERPROFILE% \ OneDrive</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -4068,7 +4068,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%Усерпрофиле%\онедриве\пиктурес\камера</td>
+<td>% USERPROFILE% \ OneDrive \пиктурес\камера</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -4106,7 +4106,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%усерпрофиле%\онедриве\документс</td>
+<td>% USERPROFILE% \ OneDrive \documents</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -4144,7 +4144,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%усерпрофиле%\онедриве\пиктурес</td>
+<td>% USERPROFILE% \ OneDrive \пиктурес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -4182,7 +4182,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Меню%Аппдата%\микрософт\виндовс\старт</td>
+<td>%аппдата%\микрософт\ Windows меню "главное"</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -4220,7 +4220,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%Аппдата%\микрософт\виндовс\старт Мену\програмс\стартуп</td>
+<td>%аппдата%\микрософт\ Windows «главное мену\програмс\стартуп»</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -4262,7 +4262,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -4300,7 +4300,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -4338,7 +4338,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение, введенное в Windows Vista</td>
+<td>нет, значение, введенное в Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -4448,7 +4448,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдата%\микрософт\виндовс\темплатес</td>
+<td>%аппдата%\микрософт\ Windows \темплатес</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
@@ -4469,7 +4469,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FOLDERID_TreeProperties"></span><span id="folderid_treeproperties"></span><span id="FOLDERID_TREEPROPERTIES"></span><dl> <dt><strong>FOLDERID_TreeProperties</strong></dt> </dl></td>
-<td style="text-align: left;"><p>Не используется в Windows Vista. Не поддерживается в Windows 7.</p></td>
+<td style="text-align: left;"><p>не используется в Windows Vista. не поддерживается в Windows 7.</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FOLDERID_UserPinned"></span><span id="folderid_userpinned"></span><span id="FOLDERID_USERPINNED"></span><dl> <dt><strong>FOLDERID_UserPinned</strong></dt> </dl></td>
@@ -4494,7 +4494,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -4532,7 +4532,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, новое для Windows Vista</td>
+<td>нет, новое для Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -4570,7 +4570,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -4608,7 +4608,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -4684,7 +4684,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -4710,7 +4710,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Отображаемое имя</td>
-<td>Видео</td>
+<td>Видеоролики</td>
 </tr>
 <tr class="odd">
 <td>Тип папки</td>
@@ -4748,7 +4748,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Отображаемое имя</td>
-<td>Видео</td>
+<td>Видеоролики</td>
 </tr>
 <tr class="odd">
 <td>Тип папки</td>
@@ -4756,11 +4756,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%аппдата%\микрософт\виндовс\либрариес\видеос.либрари-мс</td>
+<td>%аппдата%\микрософт\ Windows \либрариес\видеос.либрари-мс</td>
 </tr>
 <tr class="odd">
 <td>Эквивалент CSID</td>
-<td>Нет, значение введено в Windows 7</td>
+<td>нет, значение, введенное в Windows 7</td>
 </tr>
 <tr class="even">
 <td>Устаревшее отображаемое имя</td>
@@ -4818,7 +4818,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Интерпретация определенных значений **кновнфолдерид** зависит от того, является ли папка частью 32-разрядного или 64-разрядного приложения и работает ли это приложение в 32-разрядной или 64-разрядной операционной системе. Если приложению необходимо различать, например **программные файлы** и **программные файлы (x86)**, необходимо использовать правильный **кновнфолдерид** для ситуации.
 
@@ -4867,16 +4867,16 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 | 64-разрядная | 32-разрядная | FOLDERID \_ SystemX86 | % WINDIR% \\ SysWOW64 | SYSTEMX86 CSID \_ |
 
 
-Мы использовали строки среды для предоставления универсальных путей в этой статье. В следующих таблицах приведены примеры путей, которые представляют эти строки среды. В некоторых случаях эти пути могут не совпадать с параметрами на определенном компьютере из-за выбора, сделанного во время установки или перенаправления папок более поздних версий. Обратите внимание, что некоторые пути для Windows Vista изменились.
+Мы использовали строки среды для предоставления универсальных путей в этой статье. В следующих таблицах приведены примеры путей, которые представляют эти строки среды. В некоторых случаях эти пути могут не совпадать с параметрами на определенном компьютере из-за выбора, сделанного во время установки или перенаправления папок более поздних версий. обратите внимание, что некоторые пути были изменены для Windows Vista.
 
 
 **Windows Vista и более поздние версии**
 
 | Строка среды | Пример пути |
 |--------------------|--------------|
-| ALLUSERSPROFILE | C: \\ папка ProgramData |
+| %ALLUSERSPROFILE% | C: \\ папка ProgramData |
 | %APPDATA% | C: \\ Users \\ *username* \\ AppData \\ роуминг |
-| LocalAppData | C: \\ Users \\ *username* \\ AppData \\ Local |
+| %LOCALAPPDATA% | C: \\ Users \\ *username* \\ AppData \\ Local |
 | Папка ProgramData | C: \\ папка ProgramData |
 | ProgramFiles | C: \\ Program Files |
 | %ProgramFiles(x86)% | C: \\ Program Files (x86) |
@@ -4890,11 +4890,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 
 | Строка среды | Пример пути |
 |--------------------|--------------|
-| ALLUSERSPROFILE | В. \\ документы и параметры \\ все пользователи |
-| %APPDATA% | C: \\ Documents and Settings \\ *имя_пользователя* \\ Application Data |
+| %ALLUSERSPROFILE% | в. \\ документы и Параметры \\ все пользователи |
+| %APPDATA% | в. \\ документы и Параметры \\ *имя пользователя*, \\ данные приложения |
 | ProgramFiles | C: \\ Program Files |
 | %SystemDrive% | В. |
-| Филе | C: \\ \\ *имя пользователя* документов и параметров |
+| Филе | C: \\ документы и Параметры \\ *имя пользователя* |
 | %windir% | C: \\ Windows |
 
 
@@ -4903,7 +4903,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Кновнфолдерс. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Кновнфолдерс. h</dt> </dl> |
 
 
 

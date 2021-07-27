@@ -1,5 +1,5 @@
 ---
-description: В Windows Vista появились новые сценарии хранения данных и новое пространство имен профилей пользователей.
+description: Windows В Vista появились новые сценарии хранения данных и новое пространство имен профилей пользователей.
 title: Известные папки
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7527b7242c68f0d6c78cd0fae427626c182302f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b5fbdaf0086f88fc4eed42ce47749a99ab07b40
+ms.sourcegitcommit: 8bfe4f468ee5de7bbe096e5db81e427db53d977c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985781"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "114680317"
 ---
 # <a name="known-folders"></a>Известные папки
 
-В Windows Vista появились новые сценарии хранения данных и новое пространство имен профилей пользователей. Для решения этих новых факторов была заменена более старая система, ссылающаяся на стандартные папки по значению [**CSid**](csidl.md) . Начиная с Windows Vista, на эти папки ссылается новый набор значений GUID, именуемый идентификаторами известных папок.
+Windows В Vista появились новые сценарии хранения данных и новое пространство имен профилей пользователей. Для решения этих новых факторов была заменена более старая система, ссылающаяся на стандартные папки по значению [**CSid**](csidl.md) . начиная с Windows Vista на эти папки ссылается новый набор значений GUID, именуемых идентификаторами известных папок.
 
 Система известных папок предоставляет следующие преимущества:
 
@@ -56,15 +56,11 @@ ms.locfileid: "104985781"
 -   [**икновнфолдер**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder)
 -   [**икновнфолдерманажер**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager)
 
-Пример на языке C++, демонстрирующий известные API папки, входит в состав пакета средств разработки программного обеспечения (SDK) для Windows. После установки Windows SDK на компьютере этот пример можно найти в разделе% ProgramFiles% \\ Microsoft SDK \\ Windows \\ v 6.0 \\ Samples \\ винуи \\ Shell \\ аппплатформ \\ кновнфолдерс.
+пример на языке C++, демонстрирующий известные api папки, входит в состав пакета средств разработки Windows Software Development Kit (SDK). после установки Windows SDK на компьютере этот пример можно найти в разделе% ProgramFiles% \\ Microsoft sdks \\ Windows \\ v 6.0 \\ samples \\ винуи \\ Shell \\ аппплатформ \\ кновнфолдерс.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Пример: известные папки](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
+[Пример: известные папки](/windows/win32/shell/samples-knownfolders)
 </dt> </dl>
-
- 
-
- 

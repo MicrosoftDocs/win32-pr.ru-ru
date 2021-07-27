@@ -4,12 +4,12 @@ ms.assetid: 48527c4e-50fb-4800-ac87-1646234783ba
 title: Элемент Background
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e58a836c7cfd13130779c1cd6b017105bcaa6321
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46388d56c04fc24ecd578788eecf9926ef01a301
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712497"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436589"
 ---
 # <a name="background-element"></a>Элемент Background
 
@@ -27,7 +27,7 @@ ms.locfileid: "105712497"
 
 ## <a name="child-elements"></a>Дочерние элементы
 
-[**Образ**](image-element.md)
+[**Изображение**](image-element.md)
 
 ## <a name="attributes"></a>Атрибуты
 
@@ -52,7 +52,7 @@ ms.locfileid: "105712497"
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Style</strong></td>
+<td><strong>Стиль</strong></td>
 <td><strong>xs:string</strong></td>
 <td>Обязательно</td>
 <td>Задает стиль фона.</td>
@@ -64,7 +64,7 @@ ms.locfileid: "105712497"
 <tr class="even">
 <td><strong>Цвет</strong></td>
 <td><a href="colortype-simple-type.md"><strong>Колортипе</strong></a> simpleType</td>
-<td>Необязательно</td>
+<td>Необязательный</td>
 <td>Указывает цвет фона.</td>
 <td>См. <a href="colortype-simple-type.md"><strong>колортипе</strong></a> simpleType.</td>
 </tr>
@@ -79,11 +79,11 @@ ms.locfileid: "105712497"
 
 
 
-|              |                                                                   |
-|--------------|-------------------------------------------------------------------|
-| Тип элемента | [**Баккграундтипе**](backgroundtype-complex-type.md) complexType |
-| Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк                        |
-| Имя схемы  | Средство чтения журнала                                                    |
+|                  | Значение                                                             |
+|------------------|-------------------------------------------------------------------|
+| **Тип элемента** | [**Баккграундтипе**](backgroundtype-complex-type.md) complexType |
+| **Пространство имен**    | urn: schemas-microsoft-com: TabletPC: ричинк                        |
+| **Имя схемы**  | Средство чтения журнала                                                    |
 
 
 

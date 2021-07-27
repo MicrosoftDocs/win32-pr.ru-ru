@@ -6,12 +6,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 456ca501426142182d9823427c7d13599e4a92db
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2b748793cfdc1d2d74111cfb48e020108f32ec07
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105647129"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436439"
 ---
 # <a name="core-structures"></a>Базовые структуры
 
@@ -62,6 +62,9 @@ ms.locfileid: "105647129"
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS4**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options4). Указывает уровень поддержки для текстур MSAA с выравниванием по 64 КБ, совместного использования через API и встроенных 16-разрядных операций шейдера. |
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS5**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5). Указывает уровень поддержки, предоставляемый адаптером для проходов отрисовки, трассировки лучей и шейдера, мозаичного представления ресурсов уровня 3. |
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS6**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6). Указывает уровень поддержки, предоставляемый адаптером для заливки переменной скорости (ВРС), и указывает, поддерживается ли фоновая обработка. |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS7**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options7). Указывает уровень поддержки, предоставляемый адаптером для сетки и шейдеров усиления, а также для отзывов образцов. |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS8**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options8). Указывает, поддерживаются ли текстуры с несогласованным блочным сжатием. |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS9**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9). Указывает, существует ли поддержка шейдеров сетки, значений *SV_RenderTargetArrayIndex* с 8 или более, типизированным ресурсом 64-разрядное целое число атомарных, производных и производных от него операций выборки, а также уровень поддержки для операций вавемма (wave_matrix). |
 | [**D3D12_FEATURE_DATA_EXISTING_HEAPS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps). Используется, чтобы детерминине, поддерживает ли адаптер создание куч из существующей системной памяти. Такие кучи не предназначены для общего использования, но они чрезвычайно полезны для диагностики, так как они гарантированно сохраняются даже после сбоя адаптера или при возникновении события удаления устройства. |
 | [**D3D12_FEATURE_DATA_FEATURE_LEVELS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_feature_levels). Содержит сведения о [уровнях функций](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) , поддерживаемых текущим графическим драйвером. |
 | [**D3D12_FEATURE_DATA_FORMAT_INFO**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_format_info). Описывает формат данных DXGI. |

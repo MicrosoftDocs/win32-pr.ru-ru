@@ -4,12 +4,12 @@ ms.assetid: 6ec78ac9-c10c-4227-bead-5ddfc48ce27e
 title: Альтернативный элемент (Вингди. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71eb1bc0bf74462cadecb480ceb87a0b610be876
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55dfb629aadea988a6aeec1cba1020c8ab47c994
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669389"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436609"
 ---
 # <a name="alternate-element"></a>Альтернативный элемент
 
@@ -37,11 +37,11 @@ ms.locfileid: "105669389"
 
 
 
-|              |                                            |
-|--------------|--------------------------------------------|
-| Тип элемента | **xs:string**                              |
-| Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк |
-| Имя схемы  | Средство чтения журнала                             |
+|                  | Значение                                      |
+|------------------|--------------------------------------------|
+| **Тип элемента** | xs:string                                  |
+| **Пространство имен**    | urn: schemas-microsoft-com: TabletPC: ричинк |
+| **Имя схемы**  | Средство чтения журнала                             |
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "105669389"
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вингди. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вингди. h</dt> </dl> |
 
 
 

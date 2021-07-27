@@ -4,12 +4,12 @@ ms.assetid: d1b9bd7f-e420-4290-a542-f1216b6ef203
 title: Канреклассифи, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c8c2898ce789e8c967c74ca26d2ab46d968c22d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f243b4237e0dd9195a2a254a06cd86dceb31b63
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807978"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436479"
 ---
 # <a name="canreclassify-element"></a>Канреклассифи, элемент
 
@@ -37,11 +37,11 @@ ms.locfileid: "103807978"
 
 
 
-|              |                                            |
-|--------------|--------------------------------------------|
-| Тип элемента | **xs:boolean**                             |
-| Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк |
-| Имя схемы  | Средство чтения журнала                             |
+|                  | Значение                                      |
+|------------------|--------------------------------------------|
+| **Тип элемента** | xs:boolean                                 |
+| **Пространство имен**    | urn: schemas-microsoft-com: TabletPC: ричинк |
+| **Имя схемы**  | Средство чтения журнала                             |
 
 
 

@@ -1,24 +1,24 @@
 ---
-description: Узнайте, как работать с высокоскоростными устройствами NVMe из приложения Windows.
+description: узнайте, как работать с высокоскоростными устройствами NVMe из приложения Windows.
 ms.assetid: 037AF841-C2C9-4551-9CCB-F2A2F199083A
 title: Работа с дисками NVMe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9be94adf8355940bd93de137d122d91e468c2173
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 425516946d1e76e5c01f6ae5d11f104244f85ce0
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662724"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436279"
 ---
 # <a name="working-with-nvme-drives"></a>Работа с дисками NVMe
 
-**Относится к**
+**Применимо к:**
 
 -   Windows 10
 -   Windows Server 2016
 
-Узнайте, как работать с высокоскоростными устройствами NVMe из приложения Windows. Доступ к устройству включается через **StorNVMe.sys**, встроенный драйвер впервые появился в Windows Server 2012 R2 и Windows 8.1. Она также доступна для устройств Windows 7 с помощью горячего исправления KB. В Windows 10 появились некоторые новые функции, включая сквозной механизм для специфичных для поставщика команд NVMe и обновлений существующих IOCTL.
+узнайте, как работать с высокоскоростными устройствами NVMe из приложения Windows. доступ к устройству включается с помощью **StorNVMe.sys**, встроенный драйвер впервые появился в Windows Server 2012 R2 и Windows 8.1. он также доступен для Windows 7 устройств с помощью горячего исправления KB. в Windows 10 появились несколько новых функций, включая сквозной механизм для специфичных для поставщика команд NVMe и обновлений существующих ioctl.
 
 В этом разделе приводятся общие сведения об интерфейсах API общего использования, которые можно использовать для доступа к дискам NVMe в Windows 10. Он также описывает:
 
@@ -74,7 +74,7 @@ ms.locfileid: "105662724"
 
 Команды, которые не определены в спецификации NVMe, наиболее сложны для обработки. узел не имеет сведений о влиянии команд на целевое устройство, предоставленной инфраструктуре (пространствах имен/размеров блоков) и его поведении.
 
-Для более эффективного выполнения таких команд конкретного устройства через стек хранилища Windows новый механизм сквозного перебора позволяет передавать команды, относящиеся к поставщику. Этот транзитный канал также поможет в разработке средств управления и тестирования. Однако этот механизм передачи данных требует использования журнала командных эффектов. Более того, для StoreNVMe.sys требуются все команды, а не только транзитные команды, которые должны быть описаны в журнале командных эффектов.
+для более эффективного выполнения таких команд, связанных с конкретными устройствами, через стек хранилища Windows, новый механизм сквозного перебора позволяет передавать команды для конкретного поставщика. Этот транзитный канал также поможет в разработке средств управления и тестирования. Однако этот механизм передачи данных требует использования журнала командных эффектов. Более того, для StoreNVMe.sys требуются все команды, а не только транзитные команды, которые должны быть описаны в журнале командных эффектов.
 
 > [!IMPORTANT]
 > StorNVMe.sys и Storport.sys будут блокировать любую команду на устройство, если оно не описано в журнале командных эффектов.
@@ -172,21 +172,21 @@ typedef struct _STORAGE_PROTOCOL_COMMAND {
 
 Команды загрузки и активации встроенного по не должны отправляться с помощью сквозной передачи. Запрос **ioctl \_ \_ \_ Команда протокола хранилища** должна использоваться только для специфичных для поставщика команд.
 
-Вместо этого используйте следующие общие протоколы IOCTL службы хранилища (появившиеся в Windows 10), чтобы избежать непосредственного использования \_ версии минипорта встроенного по для порта SCSI. Драйверы хранилища преобразовывают IOCTL в команду SCSI или \_ версию МИНИПОРТА SCSI для IOCTL на Минипорт.
+вместо этого используйте следующие общие протоколы IOCTL службы хранилища (появившиеся в Windows 10), чтобы избежать непосредственного использования \_ версии минипорта встроенного по на основе SCSI. служба хранилища drivers преобразует ioctl в команду scsi или \_ версию минипорта scsi для IOCTL на минипорт.
 
-Эти запросы IOCTL рекомендуются для разработки средств обновления встроенного по в Windows 10 и Windows Server 2016:
+эти запросы ioctl рекомендуются для разработки средств обновления встроенного по в Windows 10 и Windows Server 2016.
 
 -   [**\_ \_ \_ Получение сведений о встроенном по для хранилища ioctl \_**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_get_info)
 -   [**\_ \_ скачивание встроенного по для хранилища ioctl \_**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_download)
 -   [**\_ \_ Активация встроенного по службы хранилища ioctl \_**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_activate)
 
-Для быстрого получения сведений о хранилище и обновления встроенного по в Windows также поддерживаются командлеты PowerShell:
+для быстрого получения сведений о хранилище и обновления встроенного по Windows также поддерживает командлеты PowerShell.
 
 -   `Get-StorageFirmwareInfo`
 -   `Update-StorageFirmware `
 
 > [!Note]  
-> Для обновления встроенного по в NVMe в Windows 8.1 Используйте \_ \_ \_ подпрограмму ioctl SCSI минипорта. Этот запрос IOCTL не был перенесен на Windows 7. Дополнительные сведения см. [в разделе Обновление встроенного по для устройства NVMe в Windows 8.1](/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
+> для обновления встроенного по в NVMe в Windows 8.1 используйте \_ \_ \_ подпрограмму IOCTL SCSI минипорта. этот запрос IOCTL не был перенесен в Windows 7. Дополнительные сведения см. [в разделе Обновление встроенного по для устройства NVMe в Windows 8.1](/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
 
  
 
@@ -243,9 +243,9 @@ typedef struct _STORAGE_PROTOCOL_COMMAND {
 
 ## <a name="protocol-specific-queries"></a>Запросы для конкретного протокола
 
-Windows 8.1 представил [**\_ \_ \_ свойство запроса хранилища ioctl**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) для получения данных. В Windows 10 функция IOCTL была улучшена для поддержки часто запрашиваемых функций NVMe, таких как **получение страниц журнала**, **Получение функций** и **Обнаружение**. Это позволяет получить сведения о конкретном NVMe для мониторинга и инвентаризации.
+Windows 8.1 представил [**\_ \_ \_ свойство запроса хранилища IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) для получения данных. в Windows 10 функция IOCTL была улучшена для поддержки часто запрашиваемых функций NVMe, таких как **получение страниц журнала**, **получение функций** и **обнаружение**. Это позволяет получить сведения о конкретном NVMe для мониторинга и инвентаризации.
 
-Здесь показан входной буфер для запроса IOCTL [**, \_ свойства \_ хранилища**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) (из Windows 10).
+здесь показан входной буфер для запроса IOCTL [**, \_ свойства \_ хранилища**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) (от Windows 10).
 
 
 ```C++
@@ -268,7 +268,7 @@ typedef struct _STORAGE_PROPERTY_QUERY {
 
 -   Заполните структуру [**\_ данных, \_ относящуюся \_ к протоколу хранилища**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data) , с нужными значениями. В начале **\_ \_ \_ данных протокола хранилища** задается поле **аддитионалпараметерс** [**\_ \_ запроса свойства хранилища**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query).
 
-Здесь показана структура [**\_ \_ \_ данных, специфичная для протокола хранилища**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data) (из Windows 10).
+здесь показана структура [**\_ \_ \_ данных, специфичная для протокола хранилища**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data) (от Windows 10).
 
 
 ```C++
@@ -302,6 +302,10 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
     -   Используйте **нвмедататипефеатуре** для получения компонентов диска NVMe.
 
 Если в качестве **ProtocolType** используется **протоколтипенвме** , запросы сведений, относящихся к протоколу, можно получить параллельно с другими операциями ввода-вывода на диске NVMe.
+
+> [!IMPORTANT]
+> Для [**IOCTL_STORAGE_QUERY_PROPERTY**](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property) , в которой используется **STORAGE_PROPERTY_ID** [**сторажеадаптерпротоколспеЦификпроперти**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id), для которой [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data) или [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext) структура имеет значение `ProtocolType=ProtocolTypeNvme` и `DataType=NVMeDataTypeLogPage` , установите для элемента протоколдаталенгс той же структуры минимальное значение 512 (байт).
+
 
 В следующих примерах демонстрируются запросы, зависящие от протокола NVMe.
 
@@ -419,20 +423,22 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
             _tprintf(_T("DeviceNVMeQueryProtocolDataTest: Identify Controller Data not valid.\n"));
             goto exit;
         } else {
-            _tprintf(_T("DeviceNVMeQueryProtocolDataTest: **_Identify Controller Data succeeded_*_.\n"));
+            _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***Identify Controller Data succeeded***.\n"));
         }
     }
 
   
 ```
 
+> [!IMPORTANT]
+> Для [**IOCTL_STORAGE_QUERY_PROPERTY**](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property) , в которой используется **STORAGE_PROPERTY_ID** [**сторажеадаптерпротоколспеЦификпроперти**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id), для которой [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data) или [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext) структура имеет значение `ProtocolType=ProtocolTypeNvme` и `DataType=NVMeDataTypeLogPage` , установите для элемента протоколдаталенгс той же структуры минимальное значение 512 (байт).
 
 
 Обратите внимание, что вызывающему объекту необходимо выделить один буфер, содержащий \_ запрос свойства хранилища \_ , и \_ размер \_ данных, характерных для протокола хранилища \_ . В этом примере для ввода и вывода запроса свойства используется один и тот же буфер. Вот почему выделенный буфер имеет размер " \_ смещение поля ( \_ запрос свойства хранилища \_ , аддитионалпараметерс) + sizeof ( \_ данные протокола хранилища \_ \_ ) + \_ \_ " максимальный размер журнала NVME \_ ". Несмотря на то, что отдельные буферы можно выделить для ввода и вывода, мы рекомендуем использовать один буфер для запроса связанных данных NVMe.
 
 ### <a name="example-nvme-get-log-pages-query"></a>Пример: запрос на получение страниц журнала NVMe
 
-В этом примере, основанном на предыдущем, запрос _ *Get log Pages** отправляется на диск NVMe. Следующий код подготавливает структуру данных запроса, а затем отправляет команду на устройство через DeviceIoControl.
+В этом примере, основанном на предыдущем, запрос на **получение страниц журнала** отправляется на диск NVMe. Следующий код подготавливает структуру данных запроса, а затем отправляет команду на устройство через DeviceIoControl.
 
 
 ```C++
@@ -499,7 +505,7 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
 
         _tprintf(_T("DeviceNVMeQueryProtocolDataTest: SMART/Health Information Log Data - Temperature %d.\n"), ((ULONG)smartInfo->Temperature[1] << 8 | smartInfo->Temperature[0]) - 273);
 
-        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: **_SMART/Health Information Log succeeded_*_.\n"));
+        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***SMART/Health Information Log succeeded***.\n"));
     }
 
 ```
@@ -508,7 +514,7 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
 
 ### <a name="example-nvme-get-features-query"></a>Пример: запрос на получение функций NVMe
 
-В этом примере, основанном на предыдущем, запрос _ *Get Features** отправляется на диск NVMe. Следующий код подготавливает структуру данных запроса, а затем отправляет команду на устройство через DeviceIoControl.
+В этом примере, основанном на предыдущем, запрос **Get Features** отправляется на диск NVMe. Следующий код подготавливает структуру данных запроса, а затем отправляет команду на устройство через DeviceIoControl.
 
 
 ```C++
@@ -568,12 +574,12 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
     {
         _tprintf(_T("DeviceNVMeQueryProtocolDataTest: Get Feature - Volatile Cache - %x.\n"), protocolDataDescr->ProtocolSpecificData.FixedProtocolReturnData);
 
-        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: **_Get Feature - Volatile Cache succeeded_*_.\n"));
+        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***Get Feature - Volatile Cache succeeded***.\n"));
     }
 ```
 ## <a name="protocol-specific-set"></a>Набор, зависящий от протокола
 
-Начиная с Windows 10 19H1, IOCTL_STORAGE_SET_PROPERTY был усовершенствован для поддержки функций набора NVMe.
+начиная с Windows 10 19H1, IOCTL_STORAGE_SET_PROPERTY был усовершенствован для поддержки функций набора NVMe.
 
 Входной буфер для IOCTL_STORAGE_SET_PROPERTY показан ниже:
 
@@ -598,7 +604,7 @@ typedef struct _STORAGE_PROPERTY_SET {
 
     UCHAR AdditionalParameters[1];
 
-} STORAGE_PROPERTY_SET, _PSTORAGE_PROPERTY_SET;
+} STORAGE_PROPERTY_SET, *PSTORAGE_PROPERTY_SET;
 ```
 
 При использовании IOCTL_STORAGE_SET_PROPERTY для установки функции NVMe Настройте структуру STORAGE_PROPERTY_SET следующим образом:
@@ -696,7 +702,7 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA_EXT {
 
 ## <a name="temperature-queries"></a>Запросы температуры
 
-В Windows 10 [**\_ \_ \_ свойство запроса хранилища ioctl**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) можно также использовать для запроса данных о температуре с устройств NVMe.
+в Windows 10 [**\_ \_ \_ свойство запроса хранилища IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) также можно использовать для запроса данных о температуре с устройств NVMe.
 
 Чтобы получить сведения о температуре с диска NVMe в [**\_ \_ \_ дескрипторе данных температуры хранилища**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_data_descriptor), настройте структуру [**\_ \_ запроса свойства хранилища**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) следующим образом:
 
@@ -706,7 +712,7 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA_EXT {
 
 -   Задайте для поля **QueryType** значение **пропертистандардкуери**.
 
-Здесь показана структура [**\_ \_ сведений о температуре хранилища**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info) (из Windows 10).
+здесь показана структура [**\_ \_ сведений о температуре хранилища**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info) (от Windows 10).
 
 
 ```C++
@@ -732,11 +738,11 @@ typedef struct _STORAGE_TEMPERATURE_INFO {
 
 Команды, которые управляют атрибутами устройства или потенциально влияют на поведение устройства, сложнее для работы с операционной системой. Если при обработке операций ввода-вывода атрибуты устройств изменяются во время выполнения, в случае неправильной обработки могут возникнуть проблемы с синхронизацией или целостностью данных.
 
-Команда NVMe **Set-Features** — хороший пример команды изменения поведения. Он позволяет изменять механизм арбитража и устанавливать пороговые значения температуры. Чтобы гарантировать, что данные на лету не подвергаются риску при отправке команд Set, влияющих на поведение, Windows будет приостанавливать все операции ввода-вывода на устройстве NVMe, сбрасывать очереди и очищать буфер. После успешного выполнения команды Set операции ввода-вывода возобновляются (если это возможно). Если операция ввода-вывода не может быть возобновлена, может потребоваться сброс устройства.
+Команда NVMe **Set-Features** — хороший пример команды изменения поведения. Он позволяет изменять механизм арбитража и устанавливать пороговые значения температуры. чтобы гарантировать, что при отправке команд set, влияющих на работу, Windows будет приостанавливать все операции ввода-вывода на устройстве NVMe, очищать очереди и буферы очистки. После успешного выполнения команды Set операции ввода-вывода возобновляются (если это возможно). Если операция ввода-вывода не может быть возобновлена, может потребоваться сброс устройства.
 
 ### <a name="setting-temperature-thresholds"></a>Установка пороговых значений температуры
 
-В Windows 10 введено [**\_ \_ \_ \_ пороговое значение температуры для набора хранения ioctl**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_set_temperature_threshold), IOCTL для получения и установки порогов температуры. Его также можно использовать для получения текущей температуры устройства. Буфер ввода-вывода для этого IOCTL является структурой [**\_ \_ сведений о температуре хранилища**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info) из предыдущего раздела кода.
+Windows 10 введено [**\_ \_ \_ \_ пороговое значение температуры для набора параметров хранения ioctl**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_set_temperature_threshold), ioctl для получения и установки порогов температуры. Его также можно использовать для получения текущей температуры устройства. Буфер ввода-вывода для этого IOCTL является структурой [**\_ \_ сведений о температуре хранилища**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info) из предыдущего раздела кода.
 
 ### <a name="example-setting-over-threshold-temperature"></a>Пример. Настройка температуры с чрезмерным пороговым значением
 
@@ -782,7 +788,7 @@ typedef struct _STORAGE_TEMPERATURE_INFO {
 
 ## <a name="header-files"></a>Файлы заголовков
 
-Следующие файлы относятся к разработке NVMe. Эти файлы входят в состав [пакета средств разработки программного обеспечения (SDK) для Microsoft Windows](https://developer.microsoft.com/windows/downloads).
+Следующие файлы относятся к разработке NVMe. эти файлы входят в состав [пакета средств разработки программного обеспечения (SDK) для Microsoft Windows](https://developer.microsoft.com/windows/downloads).
 
 
 

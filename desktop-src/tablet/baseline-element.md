@@ -4,12 +4,12 @@ ms.assetid: ff6a97ad-0e48-4128-8f94-24802b6ddc05
 title: Базовый элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b64986707eaa1b382d2f88851367b9147c59c5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bc64f332608b4bd0281ae2a7f29db96101e9d2e
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262859"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436569"
 ---
 # <a name="baseline-element"></a>Базовый элемент
 
@@ -47,11 +47,11 @@ ms.locfileid: "104262859"
 
 
 
-|              |                                                               |
-|--------------|---------------------------------------------------------------|
-| Тип элемента | [**BaselineType**](baselinetype-complex-type.md) complexType |
-| Пространство имен    | urn: schemas-microsoft-com: TabletPC: ричинк                    |
-| Имя схемы  | Средство чтения журнала                                                |
+|                  | Значение                                                         |
+|------------------|---------------------------------------------------------------|
+| **Тип элемента** | [**BaselineType**](baselinetype-complex-type.md) complexType |
+| **Пространство имен**    | urn: schemas-microsoft-com: TabletPC: ричинк                    |
+| **Имя схемы**  | Средство чтения журнала                                                |
 
 
 

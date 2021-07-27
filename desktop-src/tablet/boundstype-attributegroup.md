@@ -4,12 +4,12 @@ ms.assetid: 7841aa65-fb35-4909-a34e-3c883555f764
 title: Группа атрибутов Баундстипе
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 411a9d3ec30363e5c405cf27654330a0886f8946
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78c51fcb9bc0041bbc030f2c67e434a964212562
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807979"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436517"
 ---
 # <a name="boundstype-attribute-group"></a>Группа атрибутов Баундстипе
 
@@ -49,16 +49,16 @@ ms.locfileid: "103807979"
 
 
 
-|             |                                            |
-|-------------|--------------------------------------------|
-| Пространство имен   | urn: schemas-microsoft-com: TabletPC: ричинк |
-| Имя схемы | Средство чтения журнала                             |
+|                 | Значение                                      |
+|-----------------|--------------------------------------------|
+| **Пространство имен**   | urn: schemas-microsoft-com: TabletPC: ричинк |
+| **Имя схемы** | Средство чтения журнала                             |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Left** и **Top** могут быть отрицательными, так как источник определяется полями, а не страницей.
 
