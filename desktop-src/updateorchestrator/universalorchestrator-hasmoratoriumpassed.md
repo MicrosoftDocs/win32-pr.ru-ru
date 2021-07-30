@@ -1,14 +1,14 @@
 ---
 title: IUniversalOrchestrator::HasMoratoriumPassed
 description: Запрашивает универсальную Orchestrator, чтобы определить, был ли превышен период после OOBE.
-ms.topic: method
+ms.topic: reference
 ms.date: 01/14/2021
-ms.openlocfilehash: 2ed354d365b795a0c959396e6b26d6bc73baad97
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: 3ccbf673b8fe22fabe7001112e04e87bd45eeaa4
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "105719754"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991801"
 ---
 # <a name="iuniversalorchestratorhasmoratoriumpassed-method"></a>Метод Иуниверсалорчестратор:: Хасмораториумпассед
 

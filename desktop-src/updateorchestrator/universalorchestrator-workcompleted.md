@@ -1,14 +1,14 @@
 ---
 title: IUniversalOrchestrator::WorkCompleted
 description: Вызывает универсальную Orchestrator для обозначения завершения работы
-ms.topic: method
+ms.topic: reference
 ms.date: 01/14/2021
-ms.openlocfilehash: 8d4a08e7f021811e59a182a8b726397476b78433
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: e36a3ba744df807abbebc6332ac8433010afd667
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "105719757"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991831"
 ---
 # <a name="iuniversalorchestratorworkcompleted-method"></a>Метод Иуниверсалорчестратор:: Ворккомплетед
 

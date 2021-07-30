@@ -5,30 +5,30 @@ ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f72177be1fefbf102e901d28d47413c8bcff41ab
-ms.sourcegitcommit: 39754f1af7853adff2525d0936afe9aad2066a9a
+ms.openlocfilehash: d8846fd5f916c440d3dbdf5d907cc7f66cc6a313
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "112426968"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991811"
 ---
 # <a name="uploading-texture-data-through-buffers"></a>Отправка данных текстуры через буферы
 
 Передача данных двухмерной или трехмерной текстуры аналогична передаче данных 1D, за исключением того, что приложениям необходимо обратить особое внимание на выравнивание данных, связанное с шагом строки. Буферы можно использовать последовательно и параллельно из нескольких частей графического конвейера, и они являются очень гибкими.
 
--   [Передача данных текстуры с помощью буферов](#upload-texture-data-via-buffers)
+-   [Upload Данные текстуры через буферы](#upload-texture-data-via-buffers)
 -   [Идет](#copying)
 -   [Сопоставление и отмена сопоставления](#mapping-and-unmapping)
 -   [Выравнивание буфера](#buffer-alignment)
--   [Связанные темы](#related-topics)
+-   [См. также](#related-topics)
 
-## <a name="upload-texture-data-via-buffers"></a>Передача данных текстуры с помощью буферов
+## <a name="upload-texture-data-via-buffers"></a>Upload Данные текстуры через буферы
 
 Приложения должны передавать данные через [**ID3D12GraphicsCommandList:: копитекстуререгион**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion) или [**ID3D12GraphicsCommandList:: копибуфферрегион**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion). Данные текстуры, скорее всего, будут более крупными, доступными для многократного доступа и преимуществами улучшенной согласованности в кэше для нелинейных макетов памяти, чем для других данных ресурсов. Когда буферы используются в D3D12, приложения получают полный контроль над размещением и упорядочением данных, связанными с копированием данных ресурсов, при условии, что требования к выравниванию памяти удовлетворяются.
 
 Пример демонстрирует, где приложение просто выполняет сведение 2D-данных в 1D перед помещением в буфер. В случае 2D-сценария mipmap приложение может либо свести каждый дискретными к подресурсу, либо быстро использовать алгоритм подраспределений 1D, или использовать более сложный способ плоского выделения, чтобы свести к минимальному использованию видеопамяти. Первый метод должен использоваться чаще, чем проще. Второй способ может быть полезен при упаковке данных на диск или по сети. В любом случае приложение по-прежнему должно вызывать API копирования для каждого подресурса.
 
-``` syntax
+```cpp
 // Prepare a pBitmap in memory, with bitmapWidth, bitmapHeight, and pixel format of DXGI_FORMAT_B8G8R8A8_UNORM. 
 //
 // Sub-allocate from the buffer for texture data.
@@ -101,7 +101,7 @@ commandList->CopyTextureRegion(
 
 Обратите внимание на две следующие константы:
 
-``` syntax
+```cpp
 const UINT D3D12_TEXTURE_DATA_PITCH_ALIGNMENT = 256;
 const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 ```
@@ -138,11 +138,4 @@ const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 
 ## <a name="related-topics"></a>Связанные темы
 
-<dl> <dt>
-
-[Подраспределение в буферах](large-buffers.md)
-</dt> </dl>
-
- 
-
- 
+* [Подраспределение в буферах](large-buffers.md)
