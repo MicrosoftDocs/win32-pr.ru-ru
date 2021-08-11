@@ -5,12 +5,12 @@ ms.assetid: aa05fbd1-509d-4ed6-8a49-1ce11ce54c0e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e309d3c6454901b26f5ab67351033b39d73dd7aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d2753d2067a7e33f9139836ed6e4c6806e628aa48f87d719a85c31ca6e0c8b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179272"
 ---
 # <a name="libmaincpp"></a>ЛИБМАИН. CPP
 
@@ -24,7 +24,7 @@ ms.locfileid: "105654120"
 | **DllCanUnloadNow**<br/>        | Стандартная точка входа DLL для определения возможности выгрузки библиотеки DLL.<br/> |
 | **либмаин**<br/>                | Точка входа инициализации стандартной библиотеки DLL.<br/>                      |
 | **искомпатиблеолеверсион**<br/> | Проверьте совместимость со временем выполнения OLE.<br/>                   |
-| **DllMain**<br/>                | Точка входа для большинства версий Windows 2000 или Windows NT.<br/>     |
+| **DllMain**<br/>                | точка входа для большинства Windows 2000 или Windows NT версий.<br/>     |
 
 
 

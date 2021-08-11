@@ -8,12 +8,12 @@ keywords:
 - ADSI, поиск, IDirectorySearch, другие параметры поиска
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7064a291c3a299a5435ec454a17b1a666f20d0a9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 67105d9716934c8c7d1d56193ca0cdfde5f6a4bc4c32605420513dc62700d8b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178769"
 ---
 # <a name="specifying-other-search-options-with-idirectorysearch"></a>Указание других параметров поиска с помощью IDirectorySearch
 
@@ -31,9 +31,9 @@ ms.locfileid: "103986086"
 -   [Ограничение времени клиента с помощью IDirectorySearch](client-time-limit-with-idirectorysearch.md)
 -   [Возвращение только имен атрибутов с помощью IDirectorySearch](returning-only-attribute-names-with-idirectorysearch.md)
 
- 
+ 
 
- 
+ 
 
 
 

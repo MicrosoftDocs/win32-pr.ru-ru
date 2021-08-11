@@ -4,12 +4,12 @@ ms.assetid: c1adbc13-5069-4760-901c-d5ca47913695
 title: System. Music. Жанр
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb29e6242dcdc97fe3b814a6fa571551f77e4765
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1d056cda4cbd3a7de6d639eb96076ca90dfd8afa60ad15e0f7d1de34ee9ff6bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230548"
 ---
 # <a name="systemmusicgenre"></a>System. Music. Жанр
 
@@ -32,9 +32,9 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-Обратите внимание, что некоторые форматы файлов, такие как MP3-файлы, поддерживают только один жанр. Другие, такие как WMA-файлы, поддерживают несколько жанров. Если указать несколько жанров для формата файла с одним жанром, будет распознан только первый жанр в списке.
+Обратите внимание, что некоторые форматы файлов, например файл .mp3, поддерживают только один жанр. Другие, такие как WMA-файлы, поддерживают несколько жанров. Если указать несколько жанров для формата файла с одним жанром, будет распознан только первый жанр в списке.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

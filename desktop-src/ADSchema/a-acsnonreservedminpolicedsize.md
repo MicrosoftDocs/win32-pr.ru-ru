@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a9fa7794343929aa0f7d7d86f4fc1f1e9a8a5b2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e1f95ea52fd0b5871e28e790fdc8dcce1c247493bc0e6c9375c18a38ab0763f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178429"
 ---
 # <a name="acs-non-reserved-min-policed-size-attribute"></a>ACS-не зарезервированный-min-Attribute-атрибут size
 
@@ -47,7 +47,7 @@ ms.locfileid: "105655554"
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
 -   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-2000-server"></a>Windows 2000 Server
 
@@ -57,10 +57,10 @@ ms.locfileid: "105655554"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -78,10 +78,10 @@ ms.locfileid: "105655554"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -99,10 +99,10 @@ ms.locfileid: "105655554"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -120,10 +120,10 @@ ms.locfileid: "105655554"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -141,10 +141,10 @@ ms.locfileid: "105655554"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -154,7 +154,7 @@ ms.locfileid: "105655554"
 
 
 
-## <a name="windows-server-2012"></a>Windows Server 2012
+## <a name="windows-server-2012"></a>Windows Server 2012
 
 
 
@@ -162,10 +162,10 @@ ms.locfileid: "105655554"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |

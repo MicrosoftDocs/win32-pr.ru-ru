@@ -4,12 +4,12 @@ ms.assetid: 4a47ac6f-2730-45b7-848e-6d680396f10b
 title: System. Music. Албумтитлесортоверриде
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b3b71224a125138caf2c1cf2909427f0b43aad1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b07311df961c2332efded24a03624422ee5c6b30d4c19ee236d74bdcb4eb2974
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230610"
 ---
 # <a name="systemmusicalbumtitlesortoverride"></a>System. Music. Албумтитлесортоверриде
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

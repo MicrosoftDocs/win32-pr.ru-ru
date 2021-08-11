@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f2f3c455e2e43436627b62d142781bb6a605bef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5692ffadde78c338845c497a1209cc6466923fe83e32fbf25649b4cd1d4b367d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179582"
 ---
 # <a name="iadscomputer-property-methods"></a>Методы свойств Иадскомпутер
 
@@ -551,7 +551,7 @@ HRESULT put_StorageCapacity(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Различные поставщики могут предоставлять различные свойства объекта Computer. Дополнительные сведения см. в разделе [поставщики систем ADSI](adsi-system-providers.md).
 
@@ -561,7 +561,7 @@ HRESULT put_StorageCapacity(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере кода Visual Basic изучаются свойства компьютера, поддерживаемые поставщиком ADSI WinNT.
+в следующем примере кода Visual Basic изучаются свойства компьютера, поддерживаемые поставщиком ADSI WinNT.
 
 
 ```VB
@@ -626,7 +626,7 @@ Cleanup:
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

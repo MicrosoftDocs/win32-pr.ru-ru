@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a97a6958d51c6e0e29f70685b2624fb194d42e05
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fe93b6629ac176452edbe5cdf13bf35afa955890cde369273f87990034bcd3e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118177777"
 ---
 # <a name="domain-component-attribute"></a>Атрибут Domain-Component
 
@@ -48,7 +48,7 @@ ms.locfileid: "104138211"
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
 -   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-2000-server"></a>Windows 2000 Server
 
@@ -58,16 +58,16 @@ ms.locfileid: "104138211"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Неверно                                                                                                                   |
+| System-Only            | Нет                                                                                                                   |
 | Является однозначным       | True                                                                                                                    |
-| Индексируется             | Неверно                                                                                                                   |
+| Индексируется             | Нет                                                                                                                   |
 | В глобальном каталоге      | True                                                                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Домен**](c-domain.md)<br/> |
+| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Поддомен**](c-domain.md)<br/> |
 
 
 
@@ -79,16 +79,16 @@ ms.locfileid: "104138211"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Неверно                                                                                                                   |
+| System-Only            | Нет                                                                                                                   |
 | Является однозначным       | True                                                                                                                    |
-| Индексируется             | Неверно                                                                                                                   |
+| Индексируется             | Нет                                                                                                                   |
 | В глобальном каталоге      | True                                                                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Домен**](c-domain.md)<br/> |
+| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Поддомен**](c-domain.md)<br/> |
 
 
 
@@ -100,16 +100,16 @@ ms.locfileid: "104138211"
 |------------------------|---------------------------------------|
 | Идентификатор ссылки                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | Неверно                                 |
+| System-Only            | Нет                                 |
 | Является однозначным       | True                                  |
-| Индексируется             | Неверно                                 |
+| Индексируется             | Нет                                 |
 | В глобальном каталоге      | True                                  |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                          |
 | Range-Lower            | 1                                     |
 | Range-Upper            | 255                                   |
 | Search-Flags           | 0x00000000                            |
 | System-Flags           | 0x00000012                            |
-| Классы, используемые в        | [**Домен**](c-domain.md)<br/> |
+| Классы, используемые в        | [**Поддомен**](c-domain.md)<br/> |
 
 
 
@@ -121,16 +121,16 @@ ms.locfileid: "104138211"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Неверно                                                                                                                   |
+| System-Only            | Нет                                                                                                                   |
 | Является однозначным       | True                                                                                                                    |
-| Индексируется             | Неверно                                                                                                                   |
+| Индексируется             | Нет                                                                                                                   |
 | В глобальном каталоге      | True                                                                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Домен**](c-domain.md)<br/> |
+| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Поддомен**](c-domain.md)<br/> |
 
 
 
@@ -142,16 +142,16 @@ ms.locfileid: "104138211"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Неверно                                                                                                                   |
+| System-Only            | Нет                                                                                                                   |
 | Является однозначным       | True                                                                                                                    |
-| Индексируется             | Неверно                                                                                                                   |
+| Индексируется             | Нет                                                                                                                   |
 | В глобальном каталоге      | True                                                                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Домен**](c-domain.md)<br/> |
+| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Поддомен**](c-domain.md)<br/> |
 
 
 
@@ -163,20 +163,20 @@ ms.locfileid: "104138211"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Неверно                                                                                                                   |
+| System-Only            | Нет                                                                                                                   |
 | Является однозначным       | True                                                                                                                    |
-| Индексируется             | Неверно                                                                                                                   |
+| Индексируется             | Нет                                                                                                                   |
 | В глобальном каталоге      | True                                                                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Домен**](c-domain.md)<br/> |
+| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Поддомен**](c-domain.md)<br/> |
 
 
 
-## <a name="windows-server-2012"></a>Windows Server 2012
+## <a name="windows-server-2012"></a>Windows Server 2012
 
 
 
@@ -184,16 +184,16 @@ ms.locfileid: "104138211"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Неверно                                                                                                                   |
+| System-Only            | Нет                                                                                                                   |
 | Является однозначным       | True                                                                                                                    |
-| Индексируется             | Неверно                                                                                                                   |
+| Индексируется             | Нет                                                                                                                   |
 | В глобальном каталоге      | True                                                                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Домен**](c-domain.md)<br/> |
+| Классы, используемые в        | [**DNS-узел**](c-dnsnode.md)<br/> [**DNS — зона**](c-dnszone.md)<br/> [**Поддомен**](c-domain.md)<br/> |
 
 
 

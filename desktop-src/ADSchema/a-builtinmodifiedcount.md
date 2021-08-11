@@ -1,6 +1,6 @@
 ---
 title: Встроенный атрибут Count
-description: Встроенный атрибут Count используется для поддержки репликации в домены Windows NT 4,0.
+description: встроенный атрибут Count используется для поддержки репликации в домены Windows NT 4,0.
 ms.assetid: e5a0f299-1e69-4b47-a0b1-e5bcf7bd47eb
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7731cd27ef5cb5d25dcd4bced4dbc5932225ba5d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e0416f1fe6f75c5b6b8245fa57fe9b277ae2eb2405cbbef7b029bd64d41ad4a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104139050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118177898"
 ---
 # <a name="builtin-modified-count-attribute"></a>Встроенный атрибут Count
 
-**Встроенный атрибут Count** используется для поддержки репликации в домены Windows NT 4,0.
+**встроенный атрибут Count** используется для поддержки репликации в домены Windows NT 4,0.
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "104139050"
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
 -   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-2000-server"></a>Windows 2000 Server
 
@@ -57,10 +57,10 @@ ms.locfileid: "104139050"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -78,10 +78,10 @@ ms.locfileid: "104139050"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -99,10 +99,10 @@ ms.locfileid: "104139050"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -120,10 +120,10 @@ ms.locfileid: "104139050"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -141,10 +141,10 @@ ms.locfileid: "104139050"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -154,7 +154,7 @@ ms.locfileid: "104139050"
 
 
 
-## <a name="windows-server-2012"></a>Windows Server 2012
+## <a name="windows-server-2012"></a>Windows Server 2012
 
 
 
@@ -162,10 +162,10 @@ ms.locfileid: "104139050"
 |------------------------|----------------------------------------------|
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Неверно                                        |
+| System-Only            | Нет                                        |
 | Является однозначным       | True                                         |
-| Индексируется             | Неверно                                        |
-| В глобальном каталоге      | Неверно                                        |
+| Индексируется             | Нет                                        |
+| В глобальном каталоге      | Нет                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |

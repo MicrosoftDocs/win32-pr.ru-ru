@@ -36,12 +36,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0ce30fad6a690a26a8e16b817b77b129dee25f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 019fb93575bc8b8b419797c7efdf41c15a6375172a834f48626befd3526b3b2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179534"
 ---
 # <a name="iadsou-property-methods"></a>Методы свойств Иадсау
 
@@ -287,7 +287,7 @@ Next
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

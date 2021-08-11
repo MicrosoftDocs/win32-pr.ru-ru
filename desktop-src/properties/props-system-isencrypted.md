@@ -4,12 +4,12 @@ ms.assetid: fd93f915-6af3-4bde-982e-6774a1ca83af
 title: System. с шифрованием
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d05f6f1d31838f885820938e9be38ef161c168ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30d78250ac4b190e4a20d1fcbb9d59d9d65f24bd7aa58b00fe7beea0b990a930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232117"
 ---
 # <a name="systemisencrypted"></a>System. с шифрованием
 
@@ -66,13 +66,13 @@ propertyDescription
             mnemonics = unencrypted
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-Это свойство было введено в выпуске Windows Search 4,0.
+это свойство было введено в выпуске Windows поиска 4,0.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

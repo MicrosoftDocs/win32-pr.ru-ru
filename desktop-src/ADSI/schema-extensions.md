@@ -5,12 +5,12 @@ ms.assetid: 935d39ca-cfb9-4aa3-aa0e-b614f7b359f2
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b86491966e2bfddbef72d68d7a96869448c38188
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1c7fdc4b363fea83029fc5526464bd5825fa851dbe82e874911a0ab45d869843
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104132790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178823"
 ---
 # <a name="schema-extensions"></a>Расширения схемы
 
@@ -19,13 +19,13 @@ ms.locfileid: "104132790"
 > [!Note]  
 > В терминологии COM-интерфейса в существующий класс схемы можно добавлять только свойства, а не методы. Добавление нового метода потребует добавления новой реализации этого метода и, таким образом, требует дополнительного кода.
 
- 
+ 
 
 Пример схемы конкретного поставщика см. в разделе [Управление схемой](schema-management.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Адрес зависит от протокола конечной точки сопоставления устройств. IP-адрес для устройства IP, адрес Bluetooth для устройства Bluetooth и т. д.
+description: Адрес зависит от протокола конечной точки сопоставления устройств. ip-адрес для устройства ip, Bluetooth адрес для Bluetooth устройства и т. д.
 ms.assetid: 20bc4ac6-151e-4666-bf17-5eb4a3c87c40
 title: System.Devices.Aep.DeviceAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe170bc76184ed2cf739468809c725020c14f1e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d03231756b625b93d1375d2c27e06c0f3272dd5aac262369dfc0a74de3bca60f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232252"
 ---
 # <a name="systemdevicesaepdeviceaddress"></a>System.Devices.Aep.DeviceAddress
 
-Адрес зависит от протокола конечной точки сопоставления устройств. IP-адрес для устройства IP, адрес Bluetooth для устройства Bluetooth и т. д.
+Адрес зависит от протокола конечной точки сопоставления устройств. ip-адрес для устройства ip, Bluetooth адрес для Bluetooth устройства и т. д.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

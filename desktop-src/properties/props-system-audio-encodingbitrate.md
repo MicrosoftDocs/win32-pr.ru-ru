@@ -4,12 +4,12 @@ ms.assetid: 570711c2-ef9b-4b3a-9b5f-94a6601fa3d4
 title: System. Audio. Енкодингбитрате
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fd0325ea0e8971e7764346b3dada2784d9209cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce2aa4f560ee0efc63838f11be2a66370f06c06e3f7b1f34c9af736d4e350d32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232899"
 ---
 # <a name="systemaudioencodingbitrate"></a>System. Audio. Енкодингбитрате
 
@@ -95,11 +95,11 @@ propertyDescription
             minValue = 4294967295
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

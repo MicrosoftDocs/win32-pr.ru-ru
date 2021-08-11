@@ -10,12 +10,12 @@ keywords:
 - Поставщик служб LDAP ADSI, сопоставление синтаксиса ADSI с синтаксисом LDAP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2272a0805ec32fd7ade9c4584feefb64fb1467f3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e776c795df239c026cd47fe60042d0ccbd1ae79bee1397af1853f91d5d9aa1a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104132802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179498"
 ---
 # <a name="ldap-syntax-object"></a>Объект синтаксиса LDAP
 
@@ -40,15 +40,15 @@ ms.locfileid: "104132802"
 | PostalAddress | VT \_ BSTR                            |
 | смаллинтервал | VT \_ I4                              |
 | Строка        | VT \_ BSTR                            |
-| Время          | \_Дата VT                            |
+| Time          | \_Дата VT                            |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

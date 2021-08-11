@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: c0ae3c099da17d7fc437a67035d8da2cd00136bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 684ffc6ccfc4f94c036bde42faec9458c8bb60911fc8c9398006f58631baa791
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118234239"
 ---
 # <a name="printer_info_9-structure"></a>\_Структура сведений о принтере \_ 9
 
@@ -48,7 +48,7 @@ typedef struct _PRINTER_INFO_9 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения по умолчанию для каждого пользователя влияют только на конкретного пользователя или всех, кто использует этот профиль. В отличие от них глобальные значения по умолчанию устанавливаются администратором принтера, который может использоваться любым пользователем. Для глобальных значений по умолчанию [**Используйте \_ сведения \_ о принтере 8**](printer-info-8.md).
 
@@ -60,12 +60,12 @@ typedef struct _PRINTER_INFO_9 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ \_ Сведения о \_ принтере 9W** (Юникод) и **\_ \_ \_ 9a info** (ANSI)<br/>                           |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

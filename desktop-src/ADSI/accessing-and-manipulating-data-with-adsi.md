@@ -7,12 +7,12 @@ keywords:
 - ADSI ADSI, доступ к данным и управление ими
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3291db7490c79aae6363f619582ed24339fb83d
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 03ed09c1717f4f9a9c1c75372e7efdc23d2cce1adb39242197346061ae4df00f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105654354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181634"
 ---
 # <a name="accessing-and-manipulating-data-with-adsi"></a>Доступ к данным и управление ими с помощью ADSI
 
@@ -37,6 +37,6 @@ ADSI позволяет локально кэшировать свойства �
 -   [Доступ к кэшу свойств напрямую с помощью интерфейсов Иадспроперти](accessing-the-property-cache-directly-with-the-iadsproperty-interfaces.md)
 -   [Синтаксис атрибутов ADSI](adsi-attribute-syntax.md)
 
- 
+ 
 
- 
+ 

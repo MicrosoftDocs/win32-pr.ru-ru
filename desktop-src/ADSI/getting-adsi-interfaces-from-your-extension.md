@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, пример кода C/C++, получение интерфейсов ADSI из расширения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a1eeff55f2e382ce2816f59ee53dbd78033b79c
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 41df2498bd0c25996cfd0941f823e414289c0a9fbe006df846960c6f455e4301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105654373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179734"
 ---
 # <a name="getting-adsi-interfaces-from-your-extension"></a>Получение интерфейсов ADSI из расширения
 
@@ -44,6 +44,6 @@ if ( SUCCEEDED(hr) )
 
 Интерфейс следует освобождать сразу после его использования. Если у расширения есть открытая ссылка на агрегатор, вы создали циклическую ссылку, и агрегатор не сможет освободить расширение. Поэтому не удается освободить агрегатор, и в результате в приложении будут обнаружены утечки памяти.
 
- 
+ 
 
- 
+ 

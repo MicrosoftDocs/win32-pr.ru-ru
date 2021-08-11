@@ -9,12 +9,12 @@ keywords:
 - Интерфейсы служб Active Directory ADSI, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc083b33a633335da12915257fcddff1174a6858
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8a651e3d6b4fbceb76f15038d79e4e3c2e7f143cc3ed6d35dc45d3186ecd1ebc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104132818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181725"
 ---
 # <a name="about-active-directory-service-interfaces"></a>Сведения об интерфейсах служб Active Directory
 
@@ -27,7 +27,7 @@ ADSI упрощает выполнение стандартных админис
 В этом введении рассматриваются следующие темы:
 
 -   [Несколько служб каталогов](multiple-directory-services.md)
--   [Кто будет использовать интерфейсы служб Active Directory?](who-will-use-active-directory-service-interfaces.md)
+-   [Кто Будет использовать Active Directory интерфейсы служб?](who-will-use-active-directory-service-interfaces.md)
 -   [Службы каталогов сегодня](directory-services-today.md)
 -   [Преимущества использования интерфейсов служб Active Directory](benefits-of-using-active-directory-service-interfaces.md)
 -   [Архитектура интерфейсов служб Active Directory](active-directory-service-interfaces-architecture.md)
@@ -36,7 +36,7 @@ ADSI упрощает выполнение стандартных админис
 
 ## <a name="what-you-should-know-before-reading-this-guide"></a>Что необходимо узнать перед чтением этого руководством
 
-В этом руководство предполагается, что вы знакомы с моделью COM и автоматизацией и знаете, как программировать в Visual Basic или C/C++.
+в этом руководство предполагается, что вы знакомы с моделью COM и автоматизацией и знаете, как программировать в Visual Basic или C/C++.
 
 Некоторые термины, используемые в этом пошаговом руководству, являются уникальными для среды либо ADSI, либо службы каталогов. Другие термины будут знакомы, но могут иметь немного разные значения в этих средах.
 
@@ -46,7 +46,7 @@ ADSI упрощает выполнение стандартных админис
 
 Брокксчмидт, Краиг. *Внутри OLE*, 2-го выпуска. Redmond, штат Вашингтон: Microsoft Press, 1995.
 
-Chappell, Дэвид. *Основные сведения об ActiveX и OLE*. Redmond, штат Вашингтон: Microsoft Press, 1996.
+Chappell, Дэвид. *основные сведения о ActiveX и OLE*. Redmond, штат Вашингтон: Microsoft Press, 1996.
 
 Хахн, Андрей. *Справочник программиста по ASP ADSI*. Wrox нажмите Ltd., 1998.
 
@@ -64,9 +64,9 @@ Rogerson's, Дэйл. *Внутри com*. Redmond, штат Вашингтон: 
 
 (Эти ресурсы могут быть недоступны в некоторых языках и странах или регионах.)
 
- 
+ 
 
- 
+ 
 
 
 

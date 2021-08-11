@@ -4,12 +4,12 @@ ms.assetid: 84f85431-27cb-485a-8ced-53b708451714
 title: System.Contact.Iniтиалс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d204c2a2195ae126ebbb0d8fd3402cfb9dfee80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 653f19ce69dd8b065f844a5f252906d62643cbf7423a4659f5de1e1fc5a1a8c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232362"
 ---
 # <a name="systemcontactinitials"></a>System.Contact.Iniтиалс
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

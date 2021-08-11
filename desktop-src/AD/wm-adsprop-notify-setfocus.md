@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bcf95ebfc6038db1d1e53e10f97aca32b6464ce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9ed94749e5c761f2b0091e5872cd6541c6f68d0f73740c941afe8d78b53d6a27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181715"
 ---
 # <a name="wm_adsprop_notify_setfocus-message"></a>\_ \_ \_ Сообщение SETFOCUS адспроп notify
 
@@ -78,7 +78,7 @@ WM_ADSPROP_NOTIFY_SETFOCUS
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -11,7 +11,7 @@
               href: getting-started-with-scripting-for-adsi.md
             - name: начало работы с ASP для ADSI
               href: getting-started-with-asp-for-adsi.md
-            - name: 'Настройка Visual Basic 6,0 для разработки с интерфейсом ADSI'
+            - name: 'настройка Visual Basic 6,0 для разработки с интерфейсом ADSI'
               href: setting-up-visual-basic-for-adsi-development.md
             - name: 'Настройка Visual C++ 6,0 для разработки с интерфейсом ADSI'
               href: setting-up-c---for-adsi-development.md
@@ -47,7 +47,7 @@
                   href: joining-heterogeneous-data.md
                 - name: Создание и исполнение представления
                   href: creating-and-executing-a-view.md
-                - name: Создание разнородного объединения между SQL Server и Active Directory
+                - name: создание разнородного объединения между SQL Server и Active Directory
                   href: creating-a-heterogeneous-join-between-sql-server-and-active-directory.md
             - name: Дополнительные разделы
               href: advanced-topics.md
@@ -58,7 +58,7 @@
                   href: delegating-organizational-units.md
                 - name: Расширение интерфейсов ADSI
                   href: extending-adsi.md
-                - name: Сопоставление кода Visual Basic ADSI с кодом C++
+                - name: сопоставление кода Visual Basic ADSI с кодом C++
                   href: mapping-adsi-visual-basic-code-to-c-code.md
         - name: Active Directory сценариев интерфейсов служб
           href: adsi-scripting-tutorial.md
@@ -75,7 +75,7 @@
       items:
         - name: Несколько служб каталогов
           href: multiple-directory-services.md
-        - name: Кто будет использовать интерфейсы служб Active Directory?
+        - name: Кто Будет использовать Active Directory интерфейсы служб?
           href: who-will-use-active-directory-service-interfaces.md
         - name: Службы каталогов сегодня
           href: directory-services-today.md
@@ -131,7 +131,7 @@
                       href: binding-with-adsopenobject-and-iadsopendsobject-opendsobject.md
                     - name: Привязка с шифрованием
                       href: binding-with-encryption.md
-                - name: Использование объекта данных ActiveX для привязки к поставщикам ADSI
+                - name: использование объекта данных ActiveX для привязки к поставщикам ADSI
                   href: using-an-activex-data-object-to-bind-to-adsi-providers.md
             - name: Кэширование подключения
               href: connection-caching.md
@@ -249,7 +249,7 @@
                           items:
                             - name: Диалект языка ADO LDAP
                               href: ado-ldap-ranging-dialect.md
-                            - name: Диалект языка многомерных объектов ADO SQL
+                            - name: SQL набора диалектов ADO
                               href: ado-sql-ranging-dialect.md
                             - name: Пример кода для использования в качестве значения для получения членов группы
                               href: example-code-for-using-ranging-to-retrieve-members-of-a-group.md
@@ -273,7 +273,7 @@
                 - name: Dialect
                   href: dialect.md
                   items:
-                    - name: Диалект SQL
+                    - name: SQL Указанный
                       href: sql-dialect.md
                     - name: Диалект LDAP
                       href: ldap-dialect.md
@@ -318,7 +318,7 @@
                           href: example-code-for-using-a-vlv-search.md
                     - name: Пример кода для использования IDirectorySearch
                       href: example-code-for-using-idirectorysearch.md
-                - name: Поиск с помощью объекты данных ActiveX (ADO)
+                - name: поиск с помощью объекты данных ActiveX (ADO)
                   href: searching-with-activex-data-objects-ado.md
                   items:
                     - name: Изменение объекта ADSI из ADO

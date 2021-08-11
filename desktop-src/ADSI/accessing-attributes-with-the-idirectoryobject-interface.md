@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, использование, использование интерфейса Идиректорйобжект для доступа к атрибутам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1da62b6a5cf7e1389276475c46faac6455672790
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b1fb7f2b8302c2e92a7e604bdc85389fb78acb24a59e467ca42b8bbd3c6c004e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181543"
 ---
 # <a name="accessing-attributes-with-the-idirectoryobject-interface"></a>Доступ к атрибутам с помощью интерфейса Идиректорйобжект
 
@@ -29,7 +29,7 @@ ms.locfileid: "103986129"
 > [!Note]  
 > Структура [**\_ \_ сведений attr для ADS**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) не возвращает все запрошенные атрибуты. Только те атрибуты, которые содержат значения, являются частью возвращенной структуры.
 
- 
+ 
 
 Число возвращаемых атрибутов определяется параметром *двнумбераттрибутес* , передаваемым методу [**Идиректорйобжект:: жетобжектаттрибутес**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-getobjectattributes) .
 
@@ -111,9 +111,9 @@ CoUninitialize();
 
 
 
- 
+ 
 
- 
+ 
 
 
 
