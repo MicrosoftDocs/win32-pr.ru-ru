@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cfe0cf06e86b19d16284b704697c65b1f38a167c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0852de04f3969e3e30debc7ba7ff4f3aedf7ac4084b17f91feed8984fe4e1467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118251618"
 ---
 # <a name="jetbeginsession-function"></a>Функция JetBeginSession
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetbeginsession-function"></a>Функция JetBeginSession
 
@@ -65,7 +65,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция позволяет возвратить любые [JET_ERR](./jet-err.md)s, определенные в этом API. Дополнительные сведения об ошибках Jet см. в разделе [ошибки расширенного подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция позволяет возвратить любые [JET_ERR](./jet-err.md)s, определенные в этом API. дополнительные сведения об ошибках Jet см. в разделе [расширенные ошибки служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -90,7 +90,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p>Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<p>эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidParameter</p></td>
@@ -124,7 +124,7 @@ _**Применимо к:** Windows | Windows Server_
 
 В случае сбоя отсутствуют доступные сеансы или не удалось инициализировать новый сеанс.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 При использовании сеансов в разных потоках необходимо тщательное внимание. Сеанс отслеживает, какой поток использовался во время [жетбегинтрансактион](./jetbegintransaction-function.md), [жеткоммиттрансактион](./jetcommittransaction-function.md)или [жетроллбакк](./jetrollback-function.md), и при использовании в нескольких потоках с открытой транзакцией возникает ошибка. [Жетресетсессионконтекст](./jetresetsessioncontext-function.md), [жетсетсессионконтекст](./jetsetsessioncontext-function.md) может изменить это поведение. Так как сеанс по-прежнему является сериализованным контекстом, и несколько операций с базой данных не могут выполняться одновременно в одном сеансе, только последовательно. Однако можно использовать несколько сеансов для достижения параллельного доступа к базе данных. Сеансы можно использовать внутри транзакции в потоках путем установки и сброса контекстов сеанса.
 
@@ -140,11 +140,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

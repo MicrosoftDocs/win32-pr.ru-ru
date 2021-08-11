@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbd55bfb06b678742aa5e356c9e62b14229aa8d3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4e999d4f42477451fef25bd59fb95606624cc4fd60d340231b3ee95558834d25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118235313"
 ---
 # <a name="dialogex-resource"></a>Ресурс ДИАЛОЖЕКС
 
@@ -113,7 +113,7 @@ nameID DIALOGEX x, y, width, height [ , helpID] [optional-statements]  {control-
 
 Для обратной совместимости также поддерживаются некоторые атрибуты. Дополнительные сведения см. в разделе [Общие атрибуты ресурсов](common-resource-attributes.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Допустимые операции, которые могут содержаться в любом из числовых выражений в инструкциях **диаложекс** , приведены ниже.
 
@@ -242,7 +242,7 @@ editClass id
 
 </dd> </dl>
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 
@@ -255,7 +255,7 @@ editClass id
 [**ПОКАЗАТЕЛИ**](characteristics-statement.md)
 </dt> <dt>
 
-[**CONTROL**](control-control.md)
+[**ЭЛЕМЕНТА**](control-control.md)
 </dt> <dt>
 
 [**креатедиалог**](/windows/win32/api/winuser/nf-winuser-createdialoga)

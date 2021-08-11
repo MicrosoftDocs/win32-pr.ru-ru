@@ -4,12 +4,12 @@ ms.assetid: 13e05bda-96c2-4095-a266-74185760f33a
 title: Свойство MFNETSOURCE_SSLCERTIFICATE_MANAGER (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf6e21962e3d521e8c5781d59b2e0fe6fed04aa4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d6f853ae3fe44a9c4508386df4096e4adac36f3cec8a8cf199eb91cb87e1fe2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243298"
 ---
 # <a name="mfnetsource_sslcertificate_manager-property"></a>МФНЕТСАУРЦЕ \_ сслцертификате \_ Manager, свойство
 
@@ -31,7 +31,7 @@ VT \_ Unknown
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константа **мфнетсаурце \_ сслцертификате \_ Manager** определяет идентификатор GUID для ключа свойства. Идентификатор свойства (PID) равен нулю. Чтобы задать это свойство в сетевом источнике, передайте указатель **ипропертисторе** в сопоставитель источника. Дополнительные сведения см. [в разделе Настройка источника мультимедиа](configuring-a-media-source.md).
 
@@ -41,13 +41,13 @@ VT \_ Unknown
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

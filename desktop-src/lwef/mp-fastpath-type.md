@@ -3,8 +3,8 @@ title: Перечисление MP_FASTPATH_TYPE (Мпклиент. h)
 description: Тип Фастпас.
 ms.assetid: BD72228F-DCC0-435E-A408-BD7FB02E55E1
 keywords:
-- MP_FASTPATH_TYPE перечисления устаревшие функции среды Windows
-- PMP_FASTPATH_TYPE указателя перечисления устаревшие функции среды Windows
+- MP_FASTPATH_TYPE перечисления устаревших Windows компонентов среды
+- PMP_FASTPATH_TYPEные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e89db79c54b166a833369ff52e47473463e0a2b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d7bd9a8ce26f930a35c9c4fa547234b0d55b0b588b60881cf8aae31621e9a83a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247449"
 ---
 # <a name="mp_fastpath_type-enumeration"></a>\_ \_ Перечисление типов фастпас MP
 
@@ -70,9 +70,9 @@ typedef enum tagMP_FASTPATH_TYPE {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

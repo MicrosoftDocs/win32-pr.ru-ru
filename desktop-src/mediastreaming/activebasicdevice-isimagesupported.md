@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2e90f51d2dd59ffec8221787b9ee7c247536abb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a147c5156f07c6cc6461cafcf8dc778013a7eb3048d1428f854b844d24f5642a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118236715"
 ---
 # <a name="activebasicdeviceisimagesupported-property"></a>Свойство Активебасикдевице:: Исимажесуппортед
 
@@ -53,15 +53,15 @@ HRESULT get_IsImageSupported(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Плайтодевице. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Плайтодевице. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

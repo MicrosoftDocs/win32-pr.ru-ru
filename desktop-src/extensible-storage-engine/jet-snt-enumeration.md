@@ -34,12 +34,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8f6cad661d8265c32d605bbef94d75714ccb1783
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d25137c9e976d05bd065837fed7753e26e3afdae020499b3388948e11733fd77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252528"
 ---
 # <a name="jet_snt-enumeration"></a>Перечисление JET_SNT
 
@@ -101,7 +101,7 @@ public enum JET_SNT
 <td></td>
 <td>рековеристеп</td>
 <td>Обратный вызов для управления восстановлением.
-<p>Используется для внутренней обработки в версиях операционной системы Windows, предшествующих Windows 8. Это значение неприменимо к версиям Windows, начиная с Windows 8.</p></td>
+<p>используется для внутренней обработки в версиях Windows операционных систем, предшествующих Windows 8. это значение неприменимо к версиям Windows, начиная с Windows 8.</p></td>
 </tr>
 </tbody>
 </table>

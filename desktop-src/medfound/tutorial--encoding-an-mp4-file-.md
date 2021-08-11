@@ -4,12 +4,12 @@ ms.assetid: 60873aa6-46ec-4a73-94b9-0d8ac602f850
 title: Учебник. Кодирование файла MP4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae895ef321b35f080bf946384ee32d83c2c539fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 242777f04015f5444be5e0d8424ca06fc4b95cd84ca88c2b997d7b7466c734af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237627"
 ---
 # <a name="tutorial-encoding-an-mp4-file"></a>Учебник. Кодирование файла MP4
 
@@ -24,7 +24,7 @@ ms.locfileid: "104263888"
     -   [Создание профиля перекодирования](#create-the-transcode-profile)
     -   [Запуск сеанса кодирования](#run-the-encoding-session)
 -   [Вспомогательный модуль сеанса мультимедиа](#media-session-helper)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="headers-and-library-files"></a>Файлы заголовков и библиотек
 
@@ -864,7 +864,7 @@ HRESULT CSession::Wait(DWORD dwMsec)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

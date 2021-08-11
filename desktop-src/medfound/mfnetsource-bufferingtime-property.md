@@ -4,12 +4,12 @@ ms.assetid: 186b55fc-d1b1-4187-a748-efaee114eca9
 title: Свойство MFNETSOURCE_BUFFERINGTIME (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21c165e58ebd5f2aec0f1ca7ce38281f8c94896d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b6de79344913d77a30dc05dcad4e4f8dd3608e0d35009b1d8e5254e08790993
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243811"
 ---
 # <a name="mfnetsource_bufferingtime-property"></a>МФНЕТСАУРЦЕ \_ буфферингтиме, свойство
 
@@ -31,7 +31,7 @@ VT \_ I4
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константа **мфнетсаурце \_ буфферингтиме** определяет идентификатор GUID для этого ключа свойства. Идентификатор свойства (PID) равен нулю.
 
@@ -45,13 +45,13 @@ VT \_ I4
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

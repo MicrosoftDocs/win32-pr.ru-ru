@@ -4,12 +4,12 @@ ms.assetid: 37362642-1b8a-4fb3-950d-ed1afe3696e5
 title: Источник MP3-файла
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2241e3b99d5a1918be8ff0182a9eca8939c12ce2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89b5649f1bdbc9d9b3dfa0af2f04878dfa64852af85ff8e829d4d2d4c4d20d8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240109"
 ---
 # <a name="mp3-file-source"></a>Источник MP3-файла
 
@@ -107,13 +107,13 @@ ms.locfileid: "104155343"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                        |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                           |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                           |
 | DLL<br/>                      | <dl> <dt>Mf.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

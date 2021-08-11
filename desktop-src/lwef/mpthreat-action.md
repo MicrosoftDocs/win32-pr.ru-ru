@@ -3,8 +3,8 @@ title: Перечисление MPTHREAT_ACTION (Мпклиент. h)
 description: Возможные действия по угрозе.
 ms.assetid: 142249A5-4C9D-4E3A-A06E-70C040F9C14F
 keywords:
-- MPTHREAT_ACTION перечисления устаревшие функции среды Windows
-- PMPTHREAT_ACTION указателя перечисления устаревшие функции среды Windows
+- MPTHREAT_ACTION перечисления устаревших Windows компонентов среды
+- PMPTHREAT_ACTIONные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ae0377517af590072b797a57c051ad062842ea9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a3cd46583b9736ad8304c16e3b12d4f0157edcdb319fd0923a0fe737d504415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247268"
 ---
 # <a name="mpthreat_action-enumeration"></a>\_Перечисление действий мпсреат
 
@@ -82,9 +82,9 @@ typedef enum tagMPTHREAT_ACTION {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

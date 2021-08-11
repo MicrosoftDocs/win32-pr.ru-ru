@@ -4,12 +4,12 @@ ms.assetid: d687ecd3-9ad6-46d5-b927-d9b99af2002f
 title: Просмотр сведений о топологии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c4e6808fb2414de14817c63f9f4736acc9223f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78fd1d7d28de3d7fa5420241abf793295323532dca29d3d68d1271545aa460dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237376"
 ---
 # <a name="viewing-topology-information"></a>Просмотр сведений о топологии
 
@@ -83,7 +83,7 @@ ms.locfileid: "105692767"
 
 7.  В меню **топология** выберите пункт **Разрешить топологию** , чтобы задать новый атрибут для топологии.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

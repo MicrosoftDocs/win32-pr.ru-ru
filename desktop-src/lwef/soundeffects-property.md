@@ -4,16 +4,16 @@ description: Саундеффектс, свойство
 ms.assetid: 39e48e5f-b24e-48ce-b5a3-85467ac252e9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fca45d373d39d479c62149a131f2a6678e5ecdf5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3894782ec3a038831f7bab7d6d5fe0701936baf1c1add136ad5c2c3446f78867
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246260"
 ---
 # <a name="soundeffects-property"></a>Саундеффектс, свойство
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -38,11 +38,11 @@ ms.locfileid: "105710065"
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство отражает параметр звуковые эффекты воспроизведения символа на странице вывод страницы свойств агента (дополнительные параметры символов). Если свойство **саундеффектс** возвращает **значение true**, будут воспроизводиться звуковые эффекты, включенные в определение символа. Если **значение равно false**, звуковые эффекты воспроизводиться не будут. Параметр свойства влияет на все символы и доступен только для чтения; только пользователь может установить это значение свойства.
 
@@ -51,9 +51,9 @@ ms.locfileid: "105710065"
 [**Событие Ажентпропертичанже**](agentpropertychange-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

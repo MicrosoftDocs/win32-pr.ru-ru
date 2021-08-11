@@ -4,12 +4,12 @@ ms.assetid: 98b9fa12-02e7-42bf-9cbd-03ee696188f6
 title: Графические контейнеры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab8bf6469d0835137be1bb76b7727fd961bba16b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26af00a17f793a1f3ce587963343556b8c4ad685f930b707bd81de1008d610ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248673"
 ---
 # <a name="graphics-containers"></a>Графические контейнеры
 

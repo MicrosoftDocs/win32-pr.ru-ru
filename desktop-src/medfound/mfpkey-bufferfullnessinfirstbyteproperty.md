@@ -4,12 +4,12 @@ ms.assetid: 5574ee3c-ccb3-4ff6-8280-efe5626e6dd6
 title: Свойство MFPKEY_BUFFERFULLNESSINFIRSTBYTE (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10fbcdb6306faeb7481f1cc7be20088ff0cedd5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 087b505680dfc3c51fe2cb50cdae76a425ca2ff5798356e9893794d47a7e22e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243003"
 ---
 # <a name="mfpkey_bufferfullnessinfirstbyte-property"></a>МФПКЭЙ \_ буфферфуллнессинфирстбите, свойство
 
@@ -23,7 +23,7 @@ g \_ всзвмвкбуфферфуллнессинфирстбите
 
 Логическое значение VT \_
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед получением этого значения необходимо задать выходной тип.
 
@@ -37,13 +37,13 @@ g \_ всзвмвкбуфферфуллнессинфирстбите
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

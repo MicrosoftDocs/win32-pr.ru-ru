@@ -4,16 +4,16 @@ description: Сведения о свойстве Voice объекта Command, 
 ms.assetid: e393aa89-6fa7-4080-9faf-66faca83d561
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ee7981de076fb3c7d8f796a8cc7d1177f96495c
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 698b39bf2129ff30eae78a949cf6d694af3c356e4c994a1a192bc55ab29fa23c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245080"
 ---
 # <a name="voice-property-command-object"></a>Свойство Voice (объект Command)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 

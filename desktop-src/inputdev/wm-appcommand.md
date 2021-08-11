@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7f5e71f9a443e12ea56cb8ca23daea148da92aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 667b2974015edd8b8d3ac0505f4eb4d6c64d1da5b82737ec7d9bb89cc3e8776e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248008"
 ---
 # <a name="wm_appcommand-message"></a>\_Сообщение АППКОММАНД WM
 
@@ -89,7 +89,7 @@ dwKeys = GET_KEYSTATE_LPARAM(lParam);
 | <span id="APPCOMMAND_LAUNCH_MEDIA_SELECT"></span><span id="appcommand_launch_media_select"></span><dl> <dt>**Аппкомманд \_ ЗАПУСК \_ носителя \_ SELECT**</dt> <dt>16</dt> </dl>                                             | Перейдите в режим выбор носителя.<br/>                                                                                                                                                                                                                                                        |
 | <span id="APPCOMMAND_MEDIA_CHANNEL_DOWN"></span><span id="appcommand_media_channel_down"></span><dl> <dt>**Аппкомманд \_ \_Канал мультимедиа \_**</dt> , <dt>52</dt> </dl>                                                | Уменьшите значение канала, например, для телевизора или радио-тюнера. <br/>                                                                                                                                                                                                             |
 | <span id="APPCOMMAND_MEDIA_CHANNEL_UP"></span><span id="appcommand_media_channel_up"></span><dl> <dt>**Аппкомманд \_ \_Канал мультимедиа \_ up**</dt> <dt>51</dt> </dl>                                                      | Увеличьте значение канала, например, для телевизора или радио-тюнера. <br/>                                                                                                                                                                                                             |
-| <span id="APPCOMMAND_MEDIA_FAST_FORWARD"></span><span id="appcommand_media_fast_forward"></span><dl> <dt>**Аппкомманд \_ МЕДИА \_ fast \_ вперед**</dt> <dt>49</dt> </dl>                                                | Увеличение скорости воспроизведения потока. Это можно реализовать множеством способов, например с помощью фиксированной скорости или переключения по ряду возрастающей скорости. <br/>                                                                                                               |
+| <span id="APPCOMMAND_MEDIA_FAST_FORWARD"></span><span id="appcommand_media_fast_forward"></span><dl> <dt>**Аппкомманд \_ носитель \_ FAST \_ вперед**</dt> <dt>49</dt> </dl>                                                | Увеличение скорости воспроизведения потока. Это можно реализовать множеством способов, например с помощью фиксированной скорости или переключения по ряду возрастающей скорости. <br/>                                                                                                               |
 | <span id="APPCOMMAND_MEDIA_NEXTTRACK"></span><span id="appcommand_media_nexttrack"></span><dl> <dt>**Аппкомманд \_ MEDIA \_ нексттракк**</dt> <dt>11</dt> </dl>                                                          | Перейдите к следующей дорожке.<br/>                                                                                                                                                                                                                                                               |
 | <span id="APPCOMMAND_MEDIA_PAUSE"></span><span id="appcommand_media_pause"></span><dl> <dt>**Аппкомманд \_ MEDIA \_ PAUSE**</dt> <dt>47</dt> </dl>                                                                      | Приостановка. Если работа уже приостановлена, дальнейших действий не требуется. Это команда прямой приостановки, которая не имеет состояния. Если существуют дискретные кнопки воспроизведения и паузы, приложения должны предпринять действия с этой командой, а также **аппкомманд \_ Media \_ Play \_ Pause**. <br/>                               |
 | <span id="APPCOMMAND_MEDIA_PLAY"></span><span id="appcommand_media_play"></span><dl> <dt>**Аппкомманд \_ MEDIA \_ PLAY**</dt> <dt>46</dt> </dl>                                                                         | Начало воспроизведения в текущей позиции. Если она уже приостановлена, она возобновится. Это команда прямого воспроизведения, которая не имеет состояния. Если существуют дискретные кнопки **воспроизведения** и **паузы** , приложения должны предпринять действия с этой командой, а также **аппкомманд \_ Media \_ Play \_ Pause**.<br/> |
@@ -160,7 +160,7 @@ dwKeys = GET_KEYSTATE_LPARAM(lParam);
 
 Если приложение обрабатывает это сообщение, оно должно возвращать **значение true**. Дополнительные сведения об обработке возвращаемого значения см. в разделе "Примечания".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [**Дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) создает сообщение **WM \_ Аппкомманд** при обработке сообщения [**WM \_ ксбуттонуп**](wm-xbuttonup.md) или [**WM \_ нкксбуттонуп**](wm-ncxbuttonup.md) или когда пользователь вводит ключ команды приложения.
 
@@ -168,7 +168,7 @@ dwKeys = GET_KEYSTATE_LPARAM(lParam);
 
 Чтобы получить координаты курсора, если сообщение было создано щелчком мыши, приложение может вызвать [**жетмессажепос**](/windows/desktop/api/winuser/nf-winuser-getmessagepos). Приложение может проверить, было ли сообщение создано с помощью мыши, проверив, содержит ли параметр *lParam* **фаппкомманд \_ Mouse**.
 
-В отличие от других сообщений Windows, приложение должно возвращать **значение true** из этого сообщения, если оно обрабатывает его. Это позволит программному обеспечению имитировать это сообщение в системах Windows более ранних, чем Windows 2000, чтобы определить, обрабатывало ли это сообщение процедура окна или вызываемая [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для его обработки.
+В отличие от других сообщений Windows, приложение должно возвращать **значение true** из этого сообщения, если оно обрабатывает его. это позволит программному обеспечению имитировать это сообщение в Windows системах, предшествующих Windows 2000, чтобы определить, обрабатывала ли окно сообщение или вызываемое [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для его обработки.
 
 ## <a name="requirements"></a>Требования
 
@@ -178,7 +178,7 @@ dwKeys = GET_KEYSTATE_LPARAM(lParam);
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -186,7 +186,7 @@ dwKeys = GET_KEYSTATE_LPARAM(lParam);
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)

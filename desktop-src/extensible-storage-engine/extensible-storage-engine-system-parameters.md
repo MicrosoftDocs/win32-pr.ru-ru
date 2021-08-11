@@ -1,6 +1,6 @@
 ---
-description: Дополнительные сведения о параметрах расширенной подсистемы хранилища.
-title: Параметры расширяемой системы подсистемы хранилища
+description: 'дополнительные сведения: расширяемые системные параметры служба хранилища Engine'
+title: расширяемые параметры системы служба хранилища Engine
 TOCTitle: Extensible Storage Engine System Parameters
 ms:assetid: f95c2e87-b25e-4be5-8c17-8486ba37dad4
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294139(v=EXCHG.10)
@@ -15,19 +15,19 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 43473f1bf5f599ba8efd06bd31345485acc07061
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 531e599c66279312f80216f1eb09fc612636821227e76f3572645ab6b4ee5137
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118256451"
 ---
-# <a name="extensible-storage-engine-system-parameters"></a>Параметры расширяемой системы подсистемы хранилища
+# <a name="extensible-storage-engine-system-parameters"></a>расширяемые параметры системы служба хранилища Engine
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
-## <a name="extensible-storage-engine-system-parameters"></a>Параметры расширяемой системы подсистемы хранилища
+## <a name="extensible-storage-engine-system-parameters"></a>расширяемые параметры системы служба хранилища Engine
 
 Следующие константы используются в качестве значений для параметра *парамид* функций [жетжетсистемпараметер](./jetgetsystemparameter-function.md) и [жетсетсистемпараметер](./jetsetsystemparameter-function.md) .
 
@@ -113,7 +113,7 @@ JET_paramX
 </tr>
 <tr class="odd">
 <td><p>"Доступность":</p></td>
-<td><p>Выпуски Windows, которые поддерживают параметр.</p></td>
+<td><p>выпуски Windows, которые поддерживают параметр.</p></td>
 </tr>
 </tbody>
 </table>

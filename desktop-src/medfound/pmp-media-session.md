@@ -4,12 +4,12 @@ ms.assetid: CF3A427D-31D2-45FF-BE87-F192B758204E
 title: Сеанс PMP мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abf2cb1ff173d6fd085f6e98dd4608c84ff40200
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 683bc6d3dcc78bfb18daedabab614c95c33492fb7e17d48cbe7f6f08bdc766ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239224"
 ---
 # <a name="pmp-media-session"></a>Сеанс PMP мультимедиа
 
@@ -25,7 +25,7 @@ ms.locfileid: "108092722"
 
 1.  Источник мультимедиа должен реализовывать интерфейс [**имфпмпклиент**](/windows/desktop/api/mfidl/nn-mfidl-imfpmpclient) .
 2.  Во время разрешения топологии прокси-сервер сеанса мультимедиа вызывает метод [**имфпмпклиент:: сетпмфост**](/windows/desktop/api/mfidl/nf-mfidl-imfpmpclient-setpmphost) в источнике мультимедиа.
-3.  Источник мультимедиа вызывает [**имфпмфост:: креатеобжектбиклсид**](/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid) , чтобы создать объект внутри процесса PMP. Объект должен иметь зарегистрированный идентификатор CLSID. Кроме того, для загрузки в PE объект должен быть доверенным и подписанным цифровой подписью. Дополнительные сведения о подписывания кода для компонентов защищенного носителя см. в техническом документе [подпись для компонентов защищенного мультимедиа в Windows Vista](/windows-hardware/test/hlk/) .
+3.  Источник мультимедиа вызывает [**имфпмфост:: креатеобжектбиклсид**](/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid) , чтобы создать объект внутри процесса PMP. Объект должен иметь зарегистрированный идентификатор CLSID. Кроме того, для загрузки в PE объект должен быть доверенным и подписанным цифровой подписью. дополнительные сведения о подписывания кода для компонентов защищенного носителя см. в техническом документе [подпись для компонентов защищенного носителя в Windows Vista](/windows-hardware/test/hlk/) .
 
 На следующем рисунке показан источник мультимедиа, созданный в процессе приложения.
 
@@ -46,7 +46,7 @@ ms.locfileid: "108092722"
 
 ![Иллюстрация источника мультимедиа в процессе PMP.](images/pmp03.png)
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

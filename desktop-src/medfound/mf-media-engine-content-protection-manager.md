@@ -4,12 +4,12 @@ ms.assetid: F6F17EC7-6553-4127-B691-C20C945DD4D8
 title: Атрибут MF_MEDIA_ENGINE_CONTENT_PROTECTION_MANAGER (Мфмедиаенгине. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afb99d1df36c9b9adbf1c099d619df60e1144b87
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fe80e619f3b256f6aa587f32d9ee5b6f43cd2978a5dfb043c62536ff5315bacb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105703448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118244693"
 ---
 # <a name="mf_media_engine_content_protection_manager-attribute"></a>\_ \_ \_ \_ Атрибут диспетчера защиты содержимого для компонента MF Media Engine \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105703448"
 
 **IUnknown\***
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого атрибута является указателем на интерфейс [**имфконтентпротектионманажер**](/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager) . Вызывающий объект должен реализовать интерфейс.
 
@@ -31,13 +31,13 @@ ms.locfileid: "105703448"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Мфмедиаенгине. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

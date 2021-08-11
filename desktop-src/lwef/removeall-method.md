@@ -4,16 +4,16 @@ description: Метод RemoveAll
 ms.assetid: 233f8d65-36ec-4c83-8c91-59d406edd70a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e56a22536d2d481f9da0073265e529b9a73a4088
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6795201f9a37118e9def28c306cca8923d58443824a12a4883ccac3a9c307de7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246482"
 ---
 # <a name="removeall-method"></a>Метод RemoveAll
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -27,11 +27,11 @@ ms.locfileid: "103987515"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**
 </dt> <dd>
 
-*Агент ***. Символы ("*** чарактерид * * *"). Commands. RemoveAll**
+*Агент ***. Символы ("**_чарактерид_*_"). Commands. RemoveAll_*
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда объект [**Command**](/windows/desktop/lwef/the-command-object) удаляется из коллекции, он больше не отображается при отображении всплывающего меню символа или в окне команды, если клиентское приложение является входным.
 
@@ -40,6 +40,6 @@ ms.locfileid: "103987515"
 [**Remove - метод**](remove-method.md)
 
 
- 
+ 
 
- 
+ 

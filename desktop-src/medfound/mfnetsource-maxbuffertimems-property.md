@@ -4,12 +4,12 @@ ms.assetid: bd776dc2-341a-4d87-8a06-8063daf53ede
 title: Свойство MFNETSOURCE_MAXBUFFERTIMEMS (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f98cd17f33bb893dacd02b2a00669f3d2355e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99d0bf07da8b931ee5487715a4b4430e5ed4384142fc69678a075275d9c7757b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243436"
 ---
 # <a name="mfnetsource_maxbuffertimems-property"></a>МФНЕТСАУРЦЕ \_ максбуффертимемс, свойство
 
@@ -31,7 +31,7 @@ VT \_ I4
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константа **мфнетсаурце \_ максбуффертимемс** определяет идентификатор GUID для этого ключа свойства. Идентификатор свойства (PID) равен нулю.
 
@@ -45,13 +45,13 @@ VT \_ I4
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

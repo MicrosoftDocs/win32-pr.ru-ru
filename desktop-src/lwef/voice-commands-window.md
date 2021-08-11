@@ -4,16 +4,16 @@ description: Окно "Voice Commands"
 ms.assetid: vs|msagent|~\guidlin_12gn.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c4ad0a1521e8dacc941ba5b2ce5f6c264c65a31
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 06f4e5ce02ea9a964663efacbc19a3b302d6e58f0364d705491be26229b15f69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105700857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245107"
 ---
 # <a name="voice-commands-window"></a>Окно "Voice Commands"
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 В окне "Voice Commands" (команды голоса) отображаются текущие активные речевые команды, доступные для символа. Это окно появляется, когда выбрана команда открыть окно команды или свойство [**Visible**](visible-property.md) объекта [**Коммандсвиндов**](/windows/desktop/lwef/the-commandswindow-object) имеет значение **true**. Если модуль распознавания речи еще не загружен, то запрос или установка этого свойства приведут к тому, что агент Microsoft Agent попытается инициализировать подсистему. Если пользователь отключает функцию распознавания речи, окно может быть отображено. Однако он будет включать текстовое сообщение, информирующее пользователя о том, что речевое распознавание в настоящее время отключено.
 

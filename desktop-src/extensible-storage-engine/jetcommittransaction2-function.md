@@ -19,21 +19,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24dfecd091de027f51ed8f69c0441fbc7cbd57af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 697a3760dc3312230bb2fe755dbfc881c1fdbacd7d21c98e64d8aa83a271ecdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118251376"
 ---
 # <a name="jetcommittransaction2-function"></a>Функция JetCommitTransaction2
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 Функция **JetCommitTransaction2** фиксирует изменения, внесенные в состояние базы данных во время текущей точки сохранения, и переносит их в предыдущую точку сохранения. При фиксации самой внешней точки сохранения изменения, внесенные во время этой точки сохранения, будут зафиксированы в состоянии базы данных, и сеанс завершит транзакцию.
 
-Функция **JetCommitTransaction2** была введена в операционной системе Windows 8.
+функция **JetCommitTransaction2** была введена в операционной системе Windows 8.
 
 ``` c++
 JET_ERR JET_API JetCommitTransaction2(
@@ -77,7 +77,7 @@ JET_ERR JET_API JetCommitTransaction2(
 <td><p>Все транзакции, ранее зафиксированные любым сеансом, которые еще не были сброшены в файл журнала транзакций, будут сброшены немедленно. Этот API будет ожидать, пока транзакции не будут сброшены перед возвратом в вызывающий объект.</p>
 <p>Этот параметр может использоваться, даже если сеанс в данный момент не находится в транзакции.</p>
 <p>Этот параметр нельзя использовать в сочетании с любым другим параметром.</p>
-<p>Этот параметр доступен в версиях операционной системы Windows Server, начиная с Windows Server 2003.</p></td>
+<p>этот параметр доступен в версиях операционной системы Windows server, начиная с Windows Server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_bitWaitLastLevel0Commit</p></td>
@@ -99,7 +99,7 @@ JET_ERR JET_API JetCommitTransaction2(
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) тип данных с одним из кодов возврата, перечисленных в следующей таблице. Дополнительные сведения о возможных ошибках ESE см. в разделе [Расширенные ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) тип данных с одним из кодов возврата, перечисленных в следующей таблице. дополнительные сведения о служба хранилища возможных ошибках ESE см. в разделе [ошибки расширяемых](./extensible-storage-engine-errors.md) подсистемы служба хранилища и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -124,7 +124,7 @@ JET_ERR JET_API JetCommitTransaction2(
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p>Эта ошибка будет возвращена только версиями операционной системы Windows, начиная с Windows XP.</p></td>
+<p>эта ошибка будет возвращена только версиями операционной системы Windows, начиная с Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidgrbit</p></td>
@@ -150,7 +150,7 @@ JET_ERR JET_API JetCommitTransaction2(
 <tr class="even">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков.</p>
-<p>Эта ошибка будет возвращена только версиями операционной системы Windows, начиная с Windows XP.</p></td>
+<p>эта ошибка будет возвращена только версиями операционной системы Windows, начиная с Windows XP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>
@@ -164,7 +164,7 @@ JET_ERR JET_API JetCommitTransaction2(
 
 В случае сбоя состояние транзакции сеанса останется неизменным. Изменение состояния базы данных не выполняется. Чтобы прервать транзакцию, приложение должно вызвать функцию [жетроллбакк](./jetrollback-function.md) .
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Должен быть один вызов **JetCommitTransaction2** или [жетроллбакк](./jetrollback-function.md) для сопоставления каждого вызова [жетбегинтрансактион](./jetbegintransaction-function.md) для данного сеанса.
 

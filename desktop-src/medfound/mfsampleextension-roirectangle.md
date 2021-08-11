@@ -4,12 +4,12 @@ ms.assetid: F06CACF0-AE75-4707-8CD0-7BA7D51BB80A
 title: Атрибут MFSampleExtension_ROIRectangle (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71d84d2054caa96feaf7bfb4ccc7a91ecf4ac9f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 311b17cab20de16a83d145563e8ba0b8ead6f055428ffc6a3823c99deab05fc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240329"
 ---
 # <a name="mfsampleextension_roirectangle-attribute"></a>Мфсампликстенсион \_ роиректангле, атрибут
 
@@ -19,7 +19,7 @@ ms.locfileid: "105719468"
 
 **[**Рентабельность инвестиций \_ ОБЛАСТЬ**](/windows/desktop/api/mfapi/ns-mfapi-roi_area)** хранится в виде **большого двоичного объекта**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После успешной установки [кодекапи \_ авенквидеороиенаблед](codecapi-avencvideoroienabled.md) на ненулевое значение в файле MFT кодировщика приложение может установить этот атрибут для входных примеров и предполагать, что он будет учитываться.
 
@@ -39,13 +39,13 @@ ms.locfileid: "105719468"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                     |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                     |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

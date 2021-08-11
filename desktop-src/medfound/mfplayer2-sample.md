@@ -4,12 +4,12 @@ ms.assetid: bb71e792-d09c-4338-9cf4-4854e14042f9
 title: Пример MFPlayer2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1904dcc6e64024dacb76e9109f2e785ec8d5a96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ead2df415af1584f34661a0c1d18751350d59bd1a94ac48f41d3bf9dca2070f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241739"
 ---
 # <a name="mfplayer2-sample"></a>Пример MFPlayer2
 
@@ -56,9 +56,9 @@ ms.locfileid: "103898198"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/MFPlayer2).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/MFPlayer2).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cf786d1f47b5eaae3f9540c8635853020f9b0521
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f829e78ff54e77011346ae1bfd39f909411cbee12c18d19781f8fe5d62865097
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252259"
 ---
 # <a name="jet_spacehints-structure"></a>Структура JET_SPACEHINTS
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_spacehints-structure"></a>Структура JET_SPACEHINTS
 
 Структура **JET_SPACEHINTS** содержит сведения о шаблонах выделения пространства, когда сбалансированное дерево растет через разбиение или хотпоинт. Разбиение на страницы происходит, когда записи добавляются в конец сбалансированного дерева, а разбиение хотпоинт происходит, когда несколько записей добавляются в одну и ту же виртуальную точку вставки (например, при добавлении "Марие", "Mark", "Мартин'", "Mary" в середину сбалансированного дерева, отсортированного в алфавитном порядке).
 
-**Windows 7:** Структура **JET_SPACEHINTS** появилась в Windows 7.
+**Windows 7:** структура **JET_SPACEHINTS** введена в Windows 7.
 
 ```cpp
     typedef struct tagJET_SPACEHINTS {
@@ -148,11 +148,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

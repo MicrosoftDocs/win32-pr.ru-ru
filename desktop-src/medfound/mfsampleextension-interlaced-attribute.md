@@ -4,12 +4,12 @@ ms.assetid: 3cb80e75-e803-493b-a22d-e485e77b5177
 title: Атрибут MFSampleExtension_Interlaced (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43a273b548192ac52da8604eb36fde5ec0e9fcf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36d928d42fc2399536d5beee4f4af87cbacaa82171048ad191a4e9fc7ef3e939
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240651"
 ---
 # <a name="mfsampleextension_interlaced-attribute"></a>Мфсампликстенсион \_ чередующийся атрибут
 
@@ -29,7 +29,7 @@ ms.locfileid: "105719424"
 
 [**имфсампле**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для видеосодержимого, содержащего смешанные прогрессивные и чередующиеся кадры, задайте тип мультимедиа с чередованием и используйте этот атрибут в каждом кадре, чтобы указать, является ли кадр прогрессивным или чередованием.
 
@@ -45,13 +45,13 @@ ms.locfileid: "105719424"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

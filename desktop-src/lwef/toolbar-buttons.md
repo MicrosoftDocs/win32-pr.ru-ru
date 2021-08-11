@@ -4,16 +4,16 @@ description: Кнопки панели инструментов
 ms.assetid: 346a55e6-b506-4fd4-9ef8-bf4fbd866dd3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86ae1436222b048ad8b92c9f467bbc74068bdfe4
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 8220ee55f3a3abdfb5b9588bd2962fdabdd63491d28218314e53aa3ffb192f49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104571451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245706"
 ---
 # <a name="toolbar-buttons-linguistic-information-sound-editing-tool"></a>Кнопки панели инструментов (средство редактирования лингвистических сведений)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 :::image type="icon" source="images/f9charnew.gif":::
 
@@ -55,7 +55,7 @@ ms.locfileid: "104571451"
 <span id="Cut"></span><span id="cut"></span><span id="CUT"></span>**Бавьте**
 </dt> <dd>
 
-Удаляет выбранный текст из редактора и помещает его в буфер обмена Windows.
+удаляет выбранный текст из редактора и помещает его в Windows буфер обмена.
 
 </dd> </dl>
 
@@ -66,7 +66,7 @@ ms.locfileid: "104571451"
 <span id="Copy"></span><span id="copy"></span><span id="COPY"></span>**Копии**
 </dt> <dd>
 
-Копирует выбранный текст в редактор в буфер обмена Windows.
+копирует выбранный текст в редактор в Windows буфер обмена.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ ms.locfileid: "104571451"
 <span id="Paste"></span><span id="paste"></span><span id="PASTE"></span>**Авить**
 </dt> <dd>
 
-Копирует текст из текущего буфера обмена Windows в выбранное расположение в текстовом поле текстовое представление.
+копирует текст из текущего Windows буфера обмена в выбранное место в текстовом поле текстовое представление.
 
 </dd> </dl>
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: d57f4d1b7b0377518f55a50e08606c02f68339d6
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 255167085390629387819696a02729d5e7f92cd6468378219c14b55092af84b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106389215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252031"
 ---
 # <a name="jet_tableidtostring-method-overload-list"></a>JET_TABLEID. Метод ToString, список перегрузок
 
@@ -32,7 +32,7 @@ ms.locfileid: "106389215"
 <thead>
 <tr class="header">
 <th> </th>
-<th>name</th>
+<th>Имя</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -53,7 +53,7 @@ ms.locfileid: "106389215"
 
 Начало
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 #### <a name="reference"></a>Справочник
 

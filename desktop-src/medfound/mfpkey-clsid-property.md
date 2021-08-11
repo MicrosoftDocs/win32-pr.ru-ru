@@ -4,12 +4,12 @@ ms.assetid: adb10fe8-760b-4aff-a582-254e11bb76af
 title: Свойство MFPKEY_CLSID (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1b1ab57ae17029b2b01823e84f607b5b21676b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cb90d427de9c2df11e9bee538b2a7f1baf9ac1885624d6df54a41253abc27b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242993"
 ---
 # <a name="mfpkey_clsid-property"></a>МФПКЭЙ, \_ свойство CLSID
 
@@ -31,7 +31,7 @@ VT \_ CLSID
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство является необязательным и является информационным. Чтобы получить это свойство, запросите MFT для интерфейса **ипропертисторе** .
 
@@ -41,13 +41,13 @@ VT \_ CLSID
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

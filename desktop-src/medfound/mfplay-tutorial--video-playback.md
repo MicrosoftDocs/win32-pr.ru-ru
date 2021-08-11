@@ -4,12 +4,12 @@ ms.assetid: f72a7c1f-b059-474c-96f2-8fad3b1f7035
 title: 'Учебник по Мфплай: воспроизведение видео'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30bbadae22e72799c64a42d09b6eed904b56a60d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb5b98de6cc845d121928fb18a33db055154f717e8fe583bcd1ad6ef8da32deb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242011"
 ---
 # <a name="mfplay-tutorial-video-playback"></a>Учебник по Мфплай: воспроизведение видео
 
@@ -28,13 +28,13 @@ ms.locfileid: "103812622"
 -   [Обработчики сообщений окна](#window-message-handlers)
 -   [Реализация метода обратного вызова](#implement-the-callback-method)
 -   [Реализация WinMain](#implement-winmain)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 Более подробное описание API Мфплай см. в разделе [Начало работы with мфплай](getting-started-with-mfplay.md).
 
 ## <a name="requirements"></a>Требования
 
-Для Мфплай требуется Windows 7.
+для мфплай требуется Windows 7.
 
 ## <a name="header-and-library-files"></a>Файлы заголовков и библиотек
 
@@ -228,7 +228,7 @@ HRESULT PlayMediaFile(HWND hwnd, PCWSTR pszURL)
 
 
 
-`OnFileOpen`Функция отображает диалоговое окно общего файла, позволяющее пользователю выбрать файл для воспроизведения. Интерфейс **ифилеопендиалог** используется для вывода диалогового окна общего файла. Этот интерфейс является частью API оболочки Windows. Он появился в Windows Vista как замена старой функции **GetOpenFilename** . После того как пользователь выберет файл, `OnFileOpen` вызывается `PlayMediaFile` для запуска воспроизведения.
+`OnFileOpen`Функция отображает диалоговое окно общего файла, позволяющее пользователю выбрать файл для воспроизведения. Интерфейс **ифилеопендиалог** используется для вывода диалогового окна общего файла. этот интерфейс является частью интерфейсов api оболочки Windows; он появился в Windows Vista в качестве замены для старой функции **GetOpenFileName** . После того как пользователь выберет файл, `OnFileOpen` вызывается `PlayMediaFile` для запуска воспроизведения.
 
 
 ```C++
@@ -564,7 +564,7 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

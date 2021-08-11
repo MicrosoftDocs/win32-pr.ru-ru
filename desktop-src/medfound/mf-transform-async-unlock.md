@@ -4,12 +4,12 @@ ms.assetid: e12ab57e-ebc2-46af-afdf-d78d4db16fcf
 title: Атрибут MF_TRANSFORM_ASYNC_UNLOCK (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e7876b3f1fca80e881414399d40e69112a64d8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82a0a8f328095c3a5c567171fa6a625a77e5623d126dfb2be9f34fef556984be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118244180"
 ---
 # <a name="mf_transform_async_unlock-attribute"></a>\_ \_ Атрибут асинхронного \_ разблокировки MF Transform
 
@@ -25,7 +25,7 @@ ms.locfileid: "104543226"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Асинхронные МФТС несовместимы с более ранними версиями Microsoft Media Foundation. Чтобы предотвратить случайное использование асинхронной таблицы MFT существующими приложениями, для этого атрибута необходимо задать ненулевое значение, прежде чем можно будет использовать асинхронную таблицу MFT. Конвейер Media Foundation автоматически задает атрибут, так что большинству приложений не требуется использовать этот атрибут. Однако если приложение использует асинхронную таблицу MFT вне Media Foundation конвейера, приложение должно установить этот атрибут.
 
@@ -63,13 +63,13 @@ HRESULT UnlockAsyncMFT(IMFTransform *pMFT)
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

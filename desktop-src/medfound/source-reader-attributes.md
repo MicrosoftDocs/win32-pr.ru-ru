@@ -4,12 +4,12 @@ ms.assetid: 312a588a-848b-4563-893a-fac49a4ca465
 title: Атрибуты модуля чтения исходного кода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f425710139b2aebf23ff13a2593ba6931c78fe2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a7bd9c5b3c5a71fb1b91515400fb0cf3670bd3b73b6635c811dcc79bd05e74f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238332"
 ---
 # <a name="source-reader-attributes"></a>Атрибуты модуля чтения исходного кода
 
@@ -45,7 +45,7 @@ ms.locfileid: "103811548"
 
 Чтобы использовать любой из этих атрибутов, сначала вызовите [**мфкреатеаттрибутес**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes) , чтобы создать новое хранилище атрибутов. Затем используйте интерфейс [**имфаттрибутес**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) , чтобы задать необходимые атрибуты в хранилище атрибутов. Передайте указатель **имфаттрибутес** в параметр *паттрибутес* любого из указанных выше методов или функций.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 03d4bfd8-1148-4551-8e71-05cfba2e15fa
 title: Атрибут MFSampleExtension_CleanPoint (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a54ea9bf4f1ca207a6ab12bac331c57db63136a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7181c08b19382a6b9d9da0475ec0a7a0522bd132dc10a2da1da4531d631d02d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241501"
 ---
 # <a name="mfsampleextension_cleanpoint-attribute"></a>Мфсампликстенсион \_ клеанпоинт, атрибут
 
@@ -29,7 +29,7 @@ ms.locfileid: "104543954"
 
 [**имфсампле**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к примерам. Если атрибут имеет **значение true**, то образец является случайной точкой доступа и декодированием, который может начаться из этого примера. В противном случае образец не является случайной точкой доступа.
 
@@ -56,13 +56,13 @@ inline BOOL IsRandomAccessPoint(IMFSample *pSample)
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

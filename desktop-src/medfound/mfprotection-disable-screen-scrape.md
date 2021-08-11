@@ -4,12 +4,12 @@ ms.assetid: 2CA548FC-0923-4E02-BFEE-A5179C0C5110
 title: Атрибут MFPROTECTION_DISABLE_SCREEN_SCRAPE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7577e3efc9e52419ed965a4599841543d565d722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c97de33bd4ebbf7b66693881a9eedddcae7c14d9ac0d773d82ce3a23e952b832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241625"
 ---
 # <a name="mfprotection_disable_screen_scrape-attribute"></a>\_ \_ \_ Атрибут брака/отхода мфпротектион отключения экрана
 
@@ -25,13 +25,13 @@ ms.locfileid: "104080440"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

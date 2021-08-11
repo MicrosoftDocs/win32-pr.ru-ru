@@ -4,12 +4,12 @@ ms.assetid: cb8bb62a-ef80-4de0-9a44-3bb77edc9dd5
 title: Часы представления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f61ad02537a2591c681db78721376651f7854ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f0219b6384373fd75bc8a424935e502841071f69eaa9ae719ec6ed35c950218
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239167"
 ---
 # <a name="presentation-clock"></a>Часы представления
 
@@ -84,7 +84,7 @@ Media Foundation также предоставляет источник врем
 
 -   Некоторые приемники мультимедиа не могут соответствовать тарифам с источником времени, отличным от самих. Если это так, приемник возвращает МЕДИАСИНК \_ не может \_ соответствовать \_ флагу часов в [](/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getcharacteristics) методе "Methods". Конвейер может по-прежнему использовать другой источник времени, но результаты будут менее оптимальными. Приемник, скорее всего, будет относиться к сбоям и вызывать сбои во время воспроизведения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

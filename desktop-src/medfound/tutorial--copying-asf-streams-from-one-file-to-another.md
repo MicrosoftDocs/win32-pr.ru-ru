@@ -1,17 +1,17 @@
 ---
 description: Один из способов создания файла ASF заключается в копировании потоков ASF из существующего файла.
 ms.assetid: 158fe3a1-42e6-461d-b56b-5419cd961fca
-title: Руководство. копирование потоков ASF с помощью объектов Вмконтаинер
+title: руководство. копирование ASF Потоки с помощью объектов вмконтаинер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44bac13626a8c80f474eeb029db4eb1351273910
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2149358d216e044f3392b882a997ef4aa455ae799b6ece450bca11f0f22a6781
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237878"
 ---
-# <a name="tutorial-copying-asf-streams-by-using-wmcontainer-objects"></a>Руководство. копирование потоков ASF с помощью объектов Вмконтаинер
+# <a name="tutorial-copying-asf-streams-by-using-wmcontainer-objects"></a>руководство. копирование ASF Потоки с помощью объектов вмконтаинер
 
 Один из способов создания файла ASF заключается в копировании потоков ASF из существующего файла. Для этого можно получить данные мультимедиа из исходного файла и выполнить запись в выходной файл. Если исходный файл является ASF-файлом, можно скопировать образцы потоков без распаковки и повторного сжатия.
 
@@ -19,9 +19,9 @@ ms.locfileid: "105692780"
 
 Этот учебник содержит следующие действия.
 
--   [Предварительные условия](#prerequisites)
+-   [Предварительные требования](#prerequisites)
 -   [Терминология](#terminology)
--   [1. Настройка проекта](#1-set-up-the-project)
+-   [1. Настройка Project](#1-set-up-the-project)
 -   [2. объявление вспомогательных функций](#2-declare-helper-functions)
 -   [3. Откройте входной ASF файл.](#3-open-the-input-asf-file)
 -   [4. Инициализация объектов для входного файла](#4-initialize-objects-for-the-input-file)
@@ -30,9 +30,9 @@ ms.locfileid: "105692780"
 -   [7. Генерация новых пакетов данных ASF](#7-generate-new-asf-data-packets)
 -   [8. запись объектов ASF в новый файл](#8-write-the-asf-objects-in-the-new-file)
 -   [9. Написание функции Entry-Point](#9-write-the-entry-point-function)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 В этом учебнике предполагается следующее:
 
@@ -53,7 +53,7 @@ ms.locfileid: "105692780"
 -   Пример пакета данных: носитель, предоставляющий интерфейс [**имфсампле**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) , созданный мультиплексором, представляет пакет данных ASF, который будет записан в поток байтов данных.
 -   Выходной поток байтов: объект потока байтов, предоставляющий интерфейс [**имфбитестреам**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream) , который содержит содержимое выходного файла.
 
-## <a name="1-set-up-the-project"></a>1. Настройка проекта
+## <a name="1-set-up-the-project"></a>1. Настройка Project
 
 Включите в исходный файл следующие заголовки:
 
@@ -1076,7 +1076,7 @@ int wmain(int argc, WCHAR* argv[])
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

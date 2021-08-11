@@ -4,12 +4,12 @@ ms.assetid: a2a64cac-0dc1-41b0-b59c-a477c7304ba1
 title: Атрибут MF_TOPONODE_MEDIASTART (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ab00727cc328bfd6ba780050160fb21eecbb96f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 7efeed2bd34745ffda4e756c8b43894bd51fc287ded5cba0ecf0ffb323713754
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105713277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118244425"
 ---
 # <a name="mf_toponode_mediastart-attribute"></a>\_Атрибут MF топоноде \_ медиастарт
 
@@ -31,7 +31,7 @@ ms.locfileid: "105713277"
 
 [**имфтопологиноде**](/windows/desktop/api/mfidl/nn-mfidl-imftopologynode)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут указывает позицию в источнике, с которого начинается воспроизведение, в единицах 100-наносекундных относительно начала источника. Если атрибут не задан, воспроизведение начинается с нуля (начало файла). Например, чтобы начать воспроизведение с 5-секундной метки, установите для этого атрибута значение 50000000. Задайте атрибут для исходных узлов в топологии (узлы с типом, равным **MF \_ \_ саурцестреам \_ node**). Задайте атрибут перед вызовом [**имфмедиасессион:: сеттопологи**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology).
 
@@ -50,13 +50,13 @@ ms.locfileid: "105713277"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

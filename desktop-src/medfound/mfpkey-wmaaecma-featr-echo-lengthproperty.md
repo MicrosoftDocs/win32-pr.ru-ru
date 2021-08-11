@@ -4,12 +4,12 @@ ms.assetid: d451b90f-7ef7-4f66-be83-aca93e3ad894
 title: Свойство MFPKEY_WMAAECMA_FEATR_ECHO_LENGTH (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d66f7dcc4764447495e0f3ae55d2d038c2a8d8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba4b8f22b87622c00c296f194cb7ba618c55b04901ac30ce216d7387e2e04033
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242031"
 ---
 # <a name="mfpkey_wmaaecma_featr_echo_length-property"></a>МФПКЭЙ \_ вмааекма \_ феатр \_ \_ Длина эхо
 
@@ -27,11 +27,11 @@ VT \_ I4
 
 256
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP для записи речи](voicecapturedmo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Алгоритм AEC использует адаптивный фильтр, длина которого определяется длительностью эха. Рекомендуется, чтобы приложения использовали одно из следующих значений:
 
@@ -50,13 +50,13 @@ DSP использует это свойство только в том случ
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

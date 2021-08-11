@@ -4,12 +4,12 @@ ms.assetid: a1862ea5-5680-4d20-a8bf-e5ddb84a361e
 title: Свойство MFPKEY_DYN_BANDTRUNC_QFLOOR (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8af80798e3d2b1f63cf425102e9c50b6910fca26
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f1c789dd0e05c85f9bfb0f1f4533792bdc8597edcced88a5433385cf291515d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242695"
 ---
 # <a name="mfpkey_dyn_bandtrunc_qfloor-property"></a>МФПКЭЙ \_ Дин \_ бандтрунк \_ кфлур, свойство
 
@@ -34,7 +34,7 @@ ms.locfileid: "105648095"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

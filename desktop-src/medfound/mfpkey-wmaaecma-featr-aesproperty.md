@@ -4,12 +4,12 @@ ms.assetid: 409b40f8-38eb-49f7-be30-348ab5cdd33a
 title: Свойство MFPKEY_WMAAECMA_FEATR_AES (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5da7505a259a51ca8456f3caffa153790649320
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e842bc3064b431437d8bbdfab06c0081ecdb49a8c38288ba4adb78648363c71a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242041"
 ---
 # <a name="mfpkey_wmaaecma_featr_aes-property"></a>МФПКЭЙ \_ вмааекма \_ феатр \_ AES, свойство
 
@@ -27,11 +27,11 @@ VT \_ I4
 
 0
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP для записи речи](voicecapturedmo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 DSP записи голоса могут выполнять алгоритм AES в остаточном сигнале после отмены эха. Это свойство может иметь значение 0, 1 или 2. Значение по умолчанию — 0. Перед установкой этого свойства необходимо присвоить свойству [ \_ \_ \_ режима компонента мфпкэй вмааекма](mfpkey-wmaaecma-feature-modeproperty.md) значение Variant \_ true.
 
@@ -43,13 +43,13 @@ DSP использует это свойство только в том случ
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

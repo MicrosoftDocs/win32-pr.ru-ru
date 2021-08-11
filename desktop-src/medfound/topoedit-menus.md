@@ -4,12 +4,12 @@ ms.assetid: c3d1da29-7279-4cd4-a518-56c76ececc28
 title: Меню Топоедит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85238d9aabe859c2ca62f43b8d58f8f6bc03f7e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90074ece838193e77d488890fc296fd82810cc3a126ffa8c4e4fe635761dbb71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237888"
 ---
 # <a name="topoedit-menus"></a>Меню Топоедит
 
@@ -23,13 +23,13 @@ ms.locfileid: "105702027"
 | [Меню топологии](topology-menu.md) | Добавляет узлы источника, преобразования и выхода. Разрешает и удаляет узлы топологии. |
 | [Меню элементов управления](controls-menu.md) | Воспроизводит, приостанавливает и останавливает разрешенную топологию.                                  |
 | [Меню "Сервис"](tools-menu.md)       | Записывает действия выбранного узла топологии.                                   |
-| [Меню "Справка"](help-menu.md)         | Содержит ссылку на разделы справки Топоедит.                                   |
+| [Меню справки](help-menu.md)         | Содержит ссылку на разделы справки Топоедит.                                   |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 3710ab94-afb3-44d3-a680-b4a716810ec1
 title: Атрибут MFSampleExtension_DerivedFromTopField (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f90a67edf0b08337748bc118b0aa4ff024ec0ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 376cc499dd76702abb4c7054014a7c720118f33a732856202c4e654992c30985
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241194"
 ---
 # <a name="mfsampleextension_derivedfromtopfield-attribute"></a>Мфсампликстенсион \_ дериведфромтопфиелд, атрибут
 
@@ -29,7 +29,7 @@ ms.locfileid: "105692792"
 
 [**имфсампле**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут допустим только для образцов с нечередованием. Установите этот атрибут, если фрейм был раззагружен путем интерполяции одного из полей.
 
@@ -47,13 +47,13 @@ ms.locfileid: "105692792"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

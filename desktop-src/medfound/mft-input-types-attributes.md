@@ -4,12 +4,12 @@ ms.assetid: 0fb1d9f2-2b57-41bc-8365-0b88bd5a2f3d
 title: Атрибут MFT_INPUT_TYPES_Attributes (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c42a051c124cdb96e57ea239c02ebaa47f22e0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a750094361cdaa877bff82e20a74c1beae4e1a1f76ea0a9ad5be83f308c1f2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240239"
 ---
 # <a name="mft_input_types_attributes-attribute"></a>\_ \_ Атрибут атрибутов входных типов MFT \_
 
@@ -25,7 +25,7 @@ ms.locfileid: "104543914"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: SetBlob**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setblob).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут задается для указателей [**имфактивате**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) , возвращаемых функцией [**мфтенумекс**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) .
 
@@ -39,13 +39,13 @@ ms.locfileid: "104543914"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

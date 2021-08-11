@@ -4,12 +4,12 @@ ms.assetid: 9D3C2780-D7DB-4151-8474-9A19EC94F6BE
 title: Использование модуля чтения исходного кода в асинхронном режиме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 357d0405cb3e594d059b7c93e793250e0be88562
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 514331f9d1635cbe83222ccf413b1dbb5a7d350b4656e23ed27ccede5c0be6f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237509"
 ---
 # <a name="using-the-source-reader-in-asynchronous-mode"></a>Использование модуля чтения исходного кода в асинхронном режиме
 
@@ -309,7 +309,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,21 +1,21 @@
 ---
-description: Интерфейсы API модуля подготовки рукописного ввода позволяют визуализировать рукописные штрихи в назначенный контекст устройства Direct2D универсального приложения Windows вместо элемента управления InkCanvas по умолчанию.
+description: api-интерфейсы модуля подготовки рукописного ввода позволяют визуализировать рукописные штрихи в назначенный контекст устройства Direct2D универсального Windowsного приложения вместо элемента управления InkCanvas по умолчанию.
 ms.assetid: 8E532066-19EB-4FA6-823D-21823591742F
 title: Модуль подготовки рукописных данных
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: f9e1e654859dd8d777855bc2bffaf953feb8ba8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d7ba9325f6aeccca706fab206aee0835243341376108d9355fac9e54ff9998d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249142"
 ---
 # <a name="ink-renderer"></a>Модуль подготовки рукописных данных
 
-Интерфейсы API модуля подготовки рукописного ввода позволяют визуализировать рукописные штрихи в назначенный контекст устройства Direct2D универсального приложения Windows вместо элемента управления [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) по умолчанию.
+api-интерфейсы модуля подготовки рукописного ввода позволяют визуализировать рукописные штрихи в назначенный контекст устройства Direct2D универсального Windowsного приложения вместо элемента управления [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) по умолчанию.
 
-Модуль подготовки рукописного ввода предназначен для использования разработчиками универсальных приложений Windows, желающих настроить способ отрисовки рукописных штрихов, а также одинаковое качество элемента управления [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) .
+модуль подготовки рукописного ввода разработан для разработчиков универсальных Windows приложений, желающих настроить способ отрисовки рукописных штрихов, а также одинаковое качество элемента управления [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) .
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -24,6 +24,6 @@ ms.locfileid: "105719482"
 | [Классы модуля подготовки рукописного ввода](ink-renderer-classes.md)<br/>       | Разделы, содержащиеся в этом разделе, содержат справочные спецификации для классов модуля подготовки рукописного ввода. <br/>    |
 | [Интерфейсы модуля подготовки рукописного ввода](ink-renderer-interfaces.md)<br/> | Разделы, содержащиеся в этом разделе, содержат справочные спецификации для интерфейсов модуля подготовки рукописного ввода. <br/> |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Рукописный ввод](input-ink-portal.md), [взаимодействие пером и](/windows/uwp/design/input/pen-and-stylus-interactions)пера, [Пример анализа рукописного](/samples/microsoft/windows-universal-samples/inkanalysis/)ввода, [простой образец](/samples/microsoft/windows-universal-samples/simpleink/)для рукописного ввода, пример [сложных рукописных](/samples/microsoft/windows-universal-samples/complexink/) данных
