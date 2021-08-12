@@ -3,9 +3,9 @@ title: Ивмпплайлист Сетитеминфо, метод
 description: Метод Сетитеминфо задает значение атрибута текущего списка воспроизведения.
 ms.assetid: b3874298-8fbe-47a4-b696-cef0382aec7c
 keywords:
-- Сетитеминфо метод Windows Media Player
-- Сетитеминфо метод проигрывателя Windows Media Player, интерфейс Ивмпплайлист
-- Интерфейс Ивмпплайлист Windows Media Player, метод Сетитеминфо
+- проигрыватель Windows Media метода сетитеминфо
+- проигрыватель Windows Media метода сетитеминфо, интерфейс ивмпплайлист
+- проигрыватель Windows Media интерфейса ивмпплайлист, метод сетитеминфо
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cce882d050f1ce7839fe3589fced3a87d9052fec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bcd4bf2d90b90a825942c5634b2b2cde3bb82e7806fe62ecd5e7d298cd191997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568709"
 ---
 # <a name="iwmpplaylistsetiteminfo-method"></a>Метод Ивмпплайлист:: Сетитеминфо
 
@@ -73,7 +73,7 @@ Implements IWMPPlaylist.setItemInfo
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед вызовом этого метода необходимо иметь полный доступ к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -85,7 +85,7 @@ Implements IWMPPlaylist.setItemInfo
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

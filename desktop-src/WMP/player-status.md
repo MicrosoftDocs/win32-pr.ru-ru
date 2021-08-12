@@ -1,9 +1,9 @@
 ---
 title: Player. status
-description: Свойство Status извлекает значение, указывающее состояние проигрывателя Windows Media.
+description: свойство status получает значение, указывающее состояние проигрыватель Windows Media.
 ms.assetid: 781c44d0-15cf-4be2-9e83-76706ce1cb85
 keywords:
-- Проигрыватель проигрывателя Windows Media. status
+- проигрыватель Windows Media Player. status
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d54c71e6ab8ece61fb97960bd2956393b1ae584
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a03ef010bfcb5ee936183724331e97fac5d6f5912d87c5281a55106519c104e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572053"
 ---
 # <a name="playerstatus"></a>Player. status
 
-Свойство **Status** извлекает значение, указывающее состояние проигрывателя Windows Media.
+свойство **status** получает значение, указывающее состояние проигрыватель Windows Media.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -33,7 +33,7 @@ ms.locfileid: "105704151"
 
 Это свойство является строкой, доступная только для чтения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения, содержащиеся в этом свойстве, могут быть изменены в любое время, и их следует использовать только в целях вывода.
 
@@ -45,7 +45,7 @@ ms.locfileid: "105704151"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 7,0 или более поздней версии.<br/>                                      |
+| Версия<br/> | проигрыватель Windows Media 7,0 или более поздней версии.<br/>                                      |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

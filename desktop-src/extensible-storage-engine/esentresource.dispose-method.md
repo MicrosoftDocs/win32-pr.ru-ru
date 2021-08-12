@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: a90411b937dbd4b7844837529fc19f27927bd035
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 5cb52d703caf03645a8be6f35196f12c858cdcb342f9e693cdea54b9e2b81b7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106389026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118260907"
 ---
 # <a name="esentresourcedispose-method-overload-list"></a>Есентресаурце. Dispose, список перегруженных методов
 
@@ -32,7 +32,7 @@ ms.locfileid: "106389026"
 <thead>
 <tr class="header">
 <th> </th>
-<th>name</th>
+<th>Имя</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -53,7 +53,7 @@ ms.locfileid: "106389026"
 
 Начало
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 #### <a name="reference"></a>Справочник
 

@@ -3,8 +3,8 @@ title: Интерфейс IWMPControls2 (VB и C) (Wmp.h)
 description: Предоставляет метод, который дополняет интерфейс Ивмпконтролс.
 ms.assetid: 6a181911-9ab1-4cab-a6a2-9e1465f44029
 keywords:
-- IWMPControls2 (VB и C) интерфейс проигрывателя Windows Media
-- IWMPControls2 (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса IWMPControls2 (VB и C)
+- проигрыватель Windows Media интерфейса IWMPControls2 (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b955ee2a8b18f1629427dfe45da802759901ab00
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9757471526eb385168a10c505254b5a418ea7f9811576de95266c06817c73109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575924"
 ---
 # <a name="iwmpcontrols2-vb-and-c-interface"></a>Интерфейс IWMPControls2 (VB и C#)
 
@@ -73,7 +73,7 @@ Dim Ctlcontrols2 As WMPLib.IWMPControls2 = DirectCast(Ctlcontrols, WMPLib.IWMPCo
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -84,7 +84,7 @@ Dim Ctlcontrols2 As WMPLib.IWMPControls2 = DirectCast(Ctlcontrols, WMPLib.IWMPCo
 [**ивмпконтролс**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcontrols)
 </dt> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмпконтролс (VB и C#)**](iwmpcontrols--vb-and-c.md)

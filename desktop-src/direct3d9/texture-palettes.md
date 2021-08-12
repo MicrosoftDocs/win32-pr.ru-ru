@@ -4,12 +4,12 @@ ms.assetid: dea4b4bc-7eba-40fa-9c2c-0851fe7e231b
 title: Палитры текстур (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a0fbb1c5d6766b879b898145ec2385a41d94b8e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d755abb638ab1dd94e25edd98b2daef5e65d5a54cca7baf21a74e7d06173eed9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105701111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118291169"
 ---
 # <a name="texture-palettes-direct3d-9"></a>Палитры текстур (Direct3D 9)
 
@@ -19,7 +19,7 @@ Direct3D 9 поддерживает текстуры с палитрой, исп
 
 Существует максимум 65 536 (0x0000FFFF) палитр. Так как ресурсы памяти, связанные с набором палитр, пропорциональны максимальному значению палитры, на которое ссылается приложение, используйте смежные цифры палитры, начинающиеся с нуля.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

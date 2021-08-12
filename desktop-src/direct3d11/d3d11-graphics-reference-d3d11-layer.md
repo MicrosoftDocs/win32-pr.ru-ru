@@ -4,12 +4,12 @@ description: API Direct3D определяет несколько элемент
 ms.assetid: 6acca19e-92b1-46d3-b5cc-58d35686381c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e00e792f82b189a5a15b512257ae8c25a39fb63e
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: d6d2cacf81caf5f701808a4ab6df0d6c6e41150b327e18c8e35ed0b2c1b277d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104339736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300753"
 ---
 # <a name="layer-reference"></a>Ссылка на слой
 
@@ -30,7 +30,7 @@ API Direct3D определяет несколько элементов API ур
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

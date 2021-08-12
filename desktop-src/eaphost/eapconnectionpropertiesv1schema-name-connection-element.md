@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6e69c35ebfb2bf263882c6fb0337fc44c609bab3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5346aff83f9a7f56907d67025ee92ec1148cff6af3f4b3a3ee917589be721ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118275192"
 ---
 # <a name="name-connection-element"></a>Элемент Name (Connection)
 
@@ -39,8 +39,8 @@ ms.locfileid: "104136158"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
@@ -51,7 +51,7 @@ ms.locfileid: "104136158"
 **Контекст определения элемента в схеме**
 </dt> <dt>
 
-[**Соединен**](eapconnectionpropertiesv1schema-connection-connections-element.md)
+[**Соединение**](eapconnectionpropertiesv1schema-connection-connections-element.md)
 </dt> <dt>
 
 **Возможный непосредственный родительский элемент в экземпляре схемы**

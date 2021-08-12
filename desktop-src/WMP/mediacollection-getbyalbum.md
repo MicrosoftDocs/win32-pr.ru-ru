@@ -3,9 +3,9 @@ title: Медиаколлектион. Жетбялбум, метод
 description: Метод Жетбялбум извлекает список воспроизведения, содержащий элементы мультимедиа из указанного альбома.
 ms.assetid: e7e72f0e-e0ae-4bbd-a8b7-966f0fc50059
 keywords:
-- Жетбялбум метод Windows Media Player
-- Жетбялбум метод Windows Media Player, класс Медиаколлектион
-- Класс Медиаколлектион Windows Media Player, метод Жетбялбум
+- проигрыватель Windows Media метода жетбялбум
+- проигрыватель Windows Media метода жетбялбум, класс медиаколлектион
+- класс медиаколлектион проигрыватель Windows Media, метод жетбялбум
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d94cdfa880288893e9659b73b01bc754ac59bbf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c17b7113b66f49822bad5586033312c9ec50711e6290c3f655a0a1b75adc54c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574677"
 ---
 # <a name="mediacollectiongetbyalbum-method"></a>Медиаколлектион. Жетбялбум, метод
 
@@ -53,7 +53,7 @@ retVal = MediaCollection.getByAlbum(
 
 Этот метод возвращает объект **списка воспроизведения** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -94,7 +94,7 @@ onClick = "
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -109,10 +109,10 @@ onClick = "
 [**Объект списка воспроизведения**](playlist-object.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

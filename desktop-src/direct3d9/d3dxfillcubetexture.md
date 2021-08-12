@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9fda70aa42d6982c40eb1ec926b6823e7ac7d997
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2fe82650aba639d0cd506bcdf86019a316890e7312e9bd008f0d16542af09de3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118298552"
 ---
 # <a name="d3dxfillcubetexture-function"></a>Функция D3DXFillCubeTexture
 
@@ -75,7 +75,7 @@ HRESULT D3DXFillCubeTexture(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается с ошибкой, возвращаемое значение может быть одним из следующих значений: D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведен пример, в котором создается функция с именем Колоркубефилл, которая основывается на D3DXFillCubeTexture.
 
@@ -104,7 +104,7 @@ if (FAILED (hr = D3DXFillCubeTexture (m_pTexture, ColorCubeFill, NULL)))
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

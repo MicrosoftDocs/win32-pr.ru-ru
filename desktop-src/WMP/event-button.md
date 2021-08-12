@@ -3,7 +3,7 @@ title: событие. Кнопка
 description: Атрибут Button получает значение, указывающее, какая кнопка мыши была нажата при возникновении события.
 ms.assetid: 58fb1522-9946-4942-b4bf-4cff37f7dbaf
 keywords:
-- Windows Media Player (событие. кнопка)
+- событие. кнопка проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f218c0703bd2847cc0f3b7fb2091bbb02e7863e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dbf9b98412630c91f0b0ffea03acf5c8f9a53043b280efdabbfffb8b972a17d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577671"
 ---
 # <a name="eventbutton"></a>событие. Кнопка
 
@@ -50,7 +50,7 @@ event.button
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

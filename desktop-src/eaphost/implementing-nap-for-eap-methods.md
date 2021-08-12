@@ -4,16 +4,16 @@ description: Узнайте, как реализовать поддержку NA
 ms.assetid: c25e4f03-759a-47a7-8b35-bbe669501c5c
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e5f0bc8900ee3d9cb01edb79b64b8ef5a68df4c
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: cff84c24aeb475b83146f2c56e9e139fd930eac27656349c594f05d91c1036fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104070893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118273318"
 ---
 # <a name="implementing-nap-support-for-eap-methods"></a>Реализация поддержки NAP для методов EAP
 
-В этом разделе объясняется, как реализовать NAP для запрашивающего устройства EAPHost. В Windows Vista и Windows Server 2008 клиент принудительной защиты доступа к сети (NAP EC) доступен для подключений с проверкой подлинности [802.1 x](/previous-versions/windows/embedded/ms890287(v=msdn.10)) .
+В этом разделе объясняется, как реализовать NAP для запрашивающего устройства EAPHost. в Windows Vista и Windows Server 2008 клиент принудительной защиты доступа к сети (nap EC) доступен для подключений с проверкой подлинности [802.1 x](/previous-versions/windows/embedded/ms890287(v=msdn.10)) .
 
 ## <a name="implementing-network-access-protection-nap"></a>Реализация защиты доступа к сети (NAP)
 
@@ -48,11 +48,11 @@ EAPHost может вызвать функцию обратного вызова
 
 -   Список ресурсов NAP см. в разделе [Защита доступа к сети](https://go.microsoft.com/fwlink/p/?linkid=84107).
 -   Сведения о состоянии работоспособности см. в разделе сообщения о состоянии [работоспособности защиты доступа к сети (NAP)](https://go.microsoft.com/fwlink/p/?linkid=83918).
--   Веб-страницу и блог группы "Корпоративная сеть" см. в разделе [Защита доступа к сети (NAP)](https://go.microsoft.com/fwlink/p/?linkid=83845).
+-   сведения о веб-странице Enterprise networking Group и блоге см. в разделе [защита доступа к сети (NAP)](https://go.microsoft.com/fwlink/p/?linkid=83845).
 -   Сведения об API NAP см. в разделе [Защита доступа к сети](/windows/desktop/NAP/network-access-protection-start-page).
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

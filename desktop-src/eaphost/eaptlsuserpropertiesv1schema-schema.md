@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ef88dcfc10cd7507b3997fdaa78ef9bc6979c88c
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 3ec241a1a08c66a83fcab6cbddca9cd644bc7f44bc2b3371fb477b41e6dfe166
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "105710397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118273329"
 ---
 # <a name="eaptlsuserpropertiesv1-schema"></a>Схема eaptlsuserpropertiesv1
 
@@ -22,7 +22,7 @@ ms.locfileid: "105710397"
 
 -   [Элементы схемы eaptlsuserpropertiesv1](eaptlsuserpropertiesv1schema-elements.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -32,9 +32,9 @@ ms.locfileid: "105710397"
 [Протокол проверки подлинности PPP EAP TLS](https://go.microsoft.com/fwlink/p/?linkid=84050)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

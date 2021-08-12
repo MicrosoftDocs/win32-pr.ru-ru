@@ -3,7 +3,7 @@ title: пикселаспектратиокс
 description: Атрибут Пикселаспектратиокс является горизонтальной частью пропорций видео.
 ms.assetid: 614b9c34-1b8f-47c9-bc75-f6d827341d38
 keywords:
-- Пикселаспектратиокс Windows Media Player
+- пикселаспектратиокс проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,22 +12,22 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d7e9438299386d754be3c0fa87876fc2aff0b1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 50f2aecef8fecc2eae495990480ee14d3c841dcca0cd95f29f5444967ed14214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573510"
 ---
 # <a name="pixelaspectratiox"></a>пикселаспектратиокс
 
 Атрибут **пикселаспектратиокс** является горизонтальной частью пропорций видео.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для видео с пропорциями 16:9 **пикселаспектратиокс** будет равно «16».
 
@@ -37,7 +37,7 @@ ms.locfileid: "105695189"
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/> |
+| Версия<br/> | проигрыватель Windows Media 11<br/> |
 
 
 

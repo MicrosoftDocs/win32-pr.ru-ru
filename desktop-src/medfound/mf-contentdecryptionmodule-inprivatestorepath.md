@@ -3,12 +3,12 @@ description: Указывает путь к файлу, представляющ
 title: MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH (mfcontentdecryptionmodule.h)
 ms.topic: reference
 ms.date: 01/31/2020
-ms.openlocfilehash: 0d8ce394f4b7a4e952fc9d5928a80cc5500dcdd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf03d4411ac2959a336b931bc5e45ec969772ab35c194de03cbd9c74aaca0c0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118244777"
 ---
 # <a name="mf_contentdecryptionmodule_inprivatestorepath-property"></a>\_Свойство контентдекриптионмодуле \_ инприватесторепас MF
 
@@ -27,7 +27,7 @@ ms.locfileid: "104542559"
 
 Путь к файлу, который представляет место хранения. модуль расшифровки содержимого (CDM) может использоваться для данных, относящихся к содержимому.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно удалить расположение хранилища после освобождения объекта CDM.
 
@@ -41,12 +41,12 @@ ms.locfileid: "104542559"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Обновление Windows 10 от апреля 2020<br/>                                     |
+| Минимальная версия клиента<br/> | Windows 10 Обновление за Апрель 2020<br/>                                     |
 | Header<br/>                   | <dl> <dt>мфконтентдекриптионмодуле. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 - [Свойства Media Foundation](media-foundation-properties.md)
 - [Имфконтентдекриптионмодулеакцесс:: Креатеконтентдекриптионмодуле](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-createcontentdecryptionmodule)

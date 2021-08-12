@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b5fa690ed127c41b8a84f5d8aa012510f3a9c3e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e58048098b137c4a0443cddc725c61622ee8bef94cf3752abf5b45a24d385734
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118272668"
 ---
 # <a name="apijetcreateindex2-method"></a>API. JetCreateIndex2, метод
 
@@ -93,7 +93,7 @@ public static void JetCreateIndex2(
     
     Число объектов описания индекса.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При создании нескольких индексов (т. е. с Нуминдекскреатес больше 1) Этот метод должен вызываться за пределами транзакций и с монопольным доступом к таблице. JET_TABLEID, возвращаемый "Жеткреатетабле", будет иметь доступ только, или таблицу можно открыть для монопольного доступа, передав [дениреад](./opentablegrbit-enumeration.md) в [жетопентабле (JET_SESID, JET_DBID, String, \[ \] , Int32, опентаблегрбит, JET_TABLEID)](./api.jetopentable-method.md).
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4da9c6b59a3c16eeecb8755f2f19542df6ee8a7b
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 462549a9caba9b4b49ca5b5ac088e41320b3d6f731a78a0251d5191cc601a2e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118284032"
 ---
 # <a name="texkill---ps"></a>текскилл-PS
 
@@ -29,13 +29,13 @@ ms.locfileid: "104335448"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -45,7 +45,7 @@ ms.locfileid: "104335448"
 
 
 
- 
+ 
 
 Эта инструкция соответствует функции [**Clip**](dx-graphics-hlsl-clip.md) HLSL.
 
@@ -113,16 +113,16 @@ static CUSTOMVERTEX g_Vertices[]=
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

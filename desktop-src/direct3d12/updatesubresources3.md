@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 237e7df26b35b4cb5b1dba7b2a80c1baaac64e8c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 43ffe9dd9e519b402126976db8ceaf1aba32f6d36a73745c951bb6a8db52a7fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300449"
 ---
 # <a name="updatesubresources-stack-allocating-function"></a>Функция UpdateSubresources (выделение стека)
 
@@ -116,7 +116,7 @@ UINT64 inline UpdateSubresources(
 
 Размер (в байтах) буфера.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объявление этой функции начинается с: `template <UINT MaxSubresources>`
 
@@ -126,7 +126,7 @@ UINT64 inline UpdateSubresources(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx12. h</dt> </dl>  |
+| Заголовок<br/>  | <dl> <dt>D3dx12. h</dt> </dl>  |
 | Библиотека<br/> | <dl> <dt>D3D12. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D3D12.dll</dt> </dl> |
 

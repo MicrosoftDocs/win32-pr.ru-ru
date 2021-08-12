@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 23f00b5162ddb42efd9fae759bab1ea47efc04dc
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 877f7b00953bff6cbac585fc549e9fa44d1ba98e89720b2d1a8317c2538ed64f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118275697"
 ---
 # <a name="eap-element-user-property"></a>Элемент EAP (свойство User)
 
@@ -31,7 +31,7 @@ ms.locfileid: "105713400"
  />
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод может определять составные элементы внутри элемента **EAP** . Метод также выполняет проверку схемы для элементов в **EAP**.
 
@@ -41,8 +41,8 @@ ms.locfileid: "105713400"
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |------|------------------------------|
-| Клиент<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Сервер<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Клиент<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Сервер<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

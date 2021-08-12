@@ -3,9 +3,9 @@ title: Метод Player. Невплайлист
 description: Метод Невплайлист создает новый объект списка воспроизведения.
 ms.assetid: a566006e-8647-4c51-ab77-762728f25a30
 keywords:
-- Невплайлист метод Windows Media Player
-- метод Невплайлист проигрывателя Windows Media Player, класс Player
-- Класс проигрывателя Windows Media Player, метод Невплайлист
+- проигрыватель Windows Media метода невплайлист
+- метод невплайлист проигрыватель Windows Media, класс Player
+- класс Player проигрыватель Windows Media, метод невплайлист
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa65ae4b453fe919116a33c5ee86b14ba353f681
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 380d1f2751487f5c648b154852be625a5c93103851541dea7e2488ba75080ca0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572834"
 ---
 # <a name="playernewplaylist-method"></a>Метод Player. Невплайлист
 
@@ -53,7 +53,7 @@ retVal = Player.newPlaylist(
 *URL-адрес* \[ окне\]
 </dt> <dd>
 
-**Строка** , содержащая URL-адрес списка воспроизведения метафайла Windows Media для создания объекта **списка воспроизведения** с помощью.
+**строка** , содержащая URL-адрес списка воспроизведения Windows Media metafile для создания объекта **списка воспроизведения** с помощью.
 
 </dd> </dl>
 
@@ -61,7 +61,7 @@ retVal = Player.newPlaylist(
 
 Этот метод возвращает объект **списка воспроизведения** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если параметр *URL-адреса* имеет значение null или "" (пустая строка), будет создан пустой объект **списка воспроизведения** . Если для параметра *Name* задано значение "", используется имя в метафайле.
 
@@ -75,7 +75,7 @@ retVal = Player.newPlaylist(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -93,7 +93,7 @@ retVal = Player.newPlaylist(
 [**Плайлистколлектион. Невплайлист**](playlistcollection-newplaylist.md)
 </dt> <dt>
 
-[**Метафайлы Windows Media**](windows-media-metafiles.md)
+[**Windows Метафайлы мультимедиа**](windows-media-metafiles.md)
 </dt> </dl>
 
  

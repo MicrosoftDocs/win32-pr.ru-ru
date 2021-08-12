@@ -5,12 +5,12 @@ ms.assetid: D308BF3E-8CBE-4DF0-B020-4D202E858D99
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a19988d3f3eec39e8fc298a2fc13031ecc29e3e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 214098f70608d5f20d24edb1312593c6215abea12efecfc6eea97148e8855cce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104549012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300985"
 ---
 # <a name="rasterizer-ordered-views"></a>Представления, упорядоченные по средствам прорисовки
 
@@ -18,7 +18,7 @@ ms.locfileid: "104549012"
 
 -   [Обзор](#overview)
 -   [Сведения о реализации](#implementation-details)
--   [Сводка по API](#api-summary)
+-   [Сводные данные API](#api-summary)
 -   [Связанные темы](#related-topics)
 
 ## <a name="overview"></a>Обзор
@@ -58,7 +58,7 @@ ms.locfileid: "104549012"
 
 ## <a name="related-topics"></a>Связанные темы
 
-* [Консервативная растрирование](conservative-rasterization.md)
+* [Консервативная растеризация](conservative-rasterization.md)
 * [Отрисовка](rendering.md)
 * [Привязка ресурсов в HLSL](resource-binding-in-hlsl.md)
 * [Модель шейдера 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)

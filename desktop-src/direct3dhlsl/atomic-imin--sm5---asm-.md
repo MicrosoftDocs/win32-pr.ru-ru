@@ -4,12 +4,12 @@ description: Минимум атомарных целочисленных зна
 ms.assetid: C30C7CDE-1024-4E69-959E-2D3122BF9AA7
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97d961bd0c14a064b2530a80f5d0cbc032998353
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: a028fbca75046373e9fda13ed52e28313310de819a308fb93cd06429796695a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118287747"
 ---
 # <a name="atomic_imin-sm5---asm"></a>Атомарный \_ Имин (SM5-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104335595"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет атомарную операцию с одним компонентом 32-битным числом знаков операнда, *src0* в *летнее* время в 32-бит на компонент, адрес *дстаддресс*.
 
@@ -58,7 +58,7 @@ ms.locfileid: "104335595"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Geometry | Пиксель | Вычисления |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -70,7 +70,7 @@ ms.locfileid: "104335595"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Geometry | Пиксель | Вычисления |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -97,7 +97,7 @@ ms.locfileid: "104335595"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

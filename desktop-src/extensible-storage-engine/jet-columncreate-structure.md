@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ee2d9d194a03cf575eb0296163526c1c50301cf4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b14388f26e21550319b910ac01d9ee0dde4d5890336c91e1fca76bc68cce93f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118254984"
 ---
 # <a name="jet_columncreate-structure"></a>Структура JET_COLUMNCREATE
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_columncreate-structure"></a>Структура JET_COLUMNCREATE
 
@@ -109,8 +109,8 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>JET_bitColumnAutoincrement</p></td>
 <td><p>Столбец автоматически увеличивается. Число является увеличивающимся числом и гарантированно уникально в пределах таблицы. Однако это число может не быть непрерывным. Например, если в таблицу вставляются пять строк, столбец AutoIncrement может содержать значения {1, 2, 6, 7, 8}.</p>
-<p><strong>Windows 2000:  </strong> Этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong>.</p>
-<p><strong>Windows Server 2003 и более поздние версии:  </strong> Этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong> или <strong>JET_coltypCurrency</strong>.</p></td>
+<p><strong>Windows 2000:</strong> Этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong>.</p>
+<p><strong>Windows Server 2003 и более поздних версий:</strong> Этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong> или <strong>JET_coltypCurrency</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_bitColumnUpdatable</p></td>
@@ -209,11 +209,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

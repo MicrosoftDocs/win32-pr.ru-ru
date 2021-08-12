@@ -3,19 +3,19 @@ title: Изменение свойства Scale
 description: Изменение свойства Scale
 ms.assetid: 32ebaa54-ed13-4b10-8876-bf8e188d7317
 keywords:
-- Подключаемые модули проигрывателя Windows Media, пример свойств Echo
+- проигрыватель Windows Media подключаемых модулей, свойства образца Echo
 - подключаемые модули, свойства образца Echo
 - подключаемые модули обработки цифровых сигналов, свойства образца эха
 - Подключаемые модули DSP, свойства образца Echo
 - Пример подключаемого модуля Echo DSP, свойство Scale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd91e2315db9d0d1e14d2aec55f79a8b05c442ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b10073e01213469dcb6a85ddffd378421fddb6ae8f2fd432b9822c3a5046fdd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574621"
 ---
 # <a name="modifying-the-scale-property"></a>Изменение свойства Scale
 
@@ -75,16 +75,16 @@ HRESULT put_delay([in] DWORD newVal);
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Свойства образца Echo**](echo-sample-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

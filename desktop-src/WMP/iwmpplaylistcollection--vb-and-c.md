@@ -3,8 +3,8 @@ title: Интерфейс Ивмпплайлистколлектион (VB и C)
 description: Предоставляет методы для управления интерфейсами Ивмпплайлист и Ивмпплайлистаррай в коллекции.
 ms.assetid: 19a4e0d7-cb3f-42ec-9acb-7ac0c5837662
 keywords:
-- Ивмпплайлистколлектион (VB и C) интерфейс проигрывателя Windows Media
-- Ивмпплайлистколлектион (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпплайлистколлектион (VB и C)
+- проигрыватель Windows Media интерфейса ивмпплайлистколлектион (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc97f9e98838fedc3bd5441d6bfda2da5319dd6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ae130b9134d9ad6e19fa062946a591cdf7749b428201750fda8ff55252c3212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575220"
 ---
 # <a name="iwmpplaylistcollection-vb-and-c-interface"></a>Интерфейс Ивмпплайлистколлектион (VB и C#)
 
@@ -71,7 +71,7 @@ ms.locfileid: "105694582"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "105694582"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмпплайлист (VB и C#)**](iwmpplaylist--vb-and-c.md)

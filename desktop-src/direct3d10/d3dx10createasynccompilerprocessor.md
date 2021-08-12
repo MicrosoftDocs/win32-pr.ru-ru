@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Async.h
-ms.openlocfilehash: 1fa6a558efd56917832da3280df2aad4ac400def
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f5e7011d868b46196293f441d76d182156fb0ba1431227d6bf01212f8c809249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118303469"
 ---
 # <a name="d3dx10createasynccompilerprocessor-function"></a>Функция D3DX10CreateAsyncCompilerProcessor
 
@@ -150,7 +150,7 @@ HRESULT D3DX10CreateAsyncCompilerProcessor(
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Async. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Async. h</dt> </dl> |
 
 
 

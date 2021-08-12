@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d7d98e851743b9046947b27d1869d8810f4afc58
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad9be35c186c5ef72dc685c032e9c131aa961297106b2d25f3f4add2fa2eb12d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118281944"
 ---
 # <a name="idcompositioncolormatrixeffectsetmatrixelement-methods"></a>методы идкомпоситионколорматриксеффект:: Сетматрикселемент
 
@@ -40,7 +40,7 @@ ms.locfileid: "105718163"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: Событие Медиачанже объекта Аксвиндовсм
 description: Событие Медиачанже возникает при изменении элемента мультимедиа. | Событие Медиачанже объекта Аксвиндовсмедиаплайер
 ms.assetid: 0a2380ff-df50-4092-a952-812184822719
 keywords:
-- Событие Медиачанже в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие медиачанже объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 175a7ed6ca57e3083d307cfe218d09233410053c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0cf0d5cef7141cfa466bd6a4311d122e1cad34c05b5ce9b78ead15f4f43f75c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582142"
 ---
 # <a name="mediachange-event-of-the-axwindowsmediaplayer-object"></a>Событие Медиачанже объекта Аксвиндовсмедиаплайер
 
@@ -96,7 +96,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

@@ -3,7 +3,7 @@ title: EDITBOX. fontStyle
 description: Атрибут fontStyle указывает или получает стиль шрифта для элемента управления "поле ввода".
 ms.assetid: bc71359d-2b75-4134-99e8-52b2ca48dcde
 keywords:
-- FontStyle Windows Media Player
+- EDITBOX. fontStyle проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4249f6224099c3d2a36a3b26244c9b804be519c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65d9dc5ac5fe3750fb3a6af8658a5ddb30274764cc891438162434a44651322a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578850"
 ---
 # <a name="editboxfontstyle"></a>EDITBOX. fontStyle
 
@@ -35,7 +35,7 @@ ms.locfileid: "105694537"
 
 | Значение     | Описание           |
 |-----------|-----------------------|
-| Жирный      | Начертание шрифта полужирным шрифтом.      |
+| Полужирный      | Начертание шрифта полужирным шрифтом.      |
 | Курсив    | Стиль шрифта курсивом.    |
 | Underline | Подчеркнуть стиль шрифта. |
 | Перечеркивание | Зачеркивание стиля шрифта. |
@@ -45,7 +45,7 @@ ms.locfileid: "105694537"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно использовать любое сочетание значений, разделенных пробелами. Стиль "Стандартный" имеет приоритет над всеми другими значениями, и все остальные, указанные вместе с параметром "нормально", будут игнорироваться.
 
@@ -57,7 +57,7 @@ ms.locfileid: "105694537"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

@@ -3,7 +3,7 @@ title: Элемент запроса
 description: Элемент «выданный запрос» содержит элементы, которые определяют, какие элементы мультимедиа будут выбраны из библиотеки.
 ms.assetid: 18b5a509-a56b-4fd1-812f-60b8efd5136b
 keywords:
-- Проигрыватель Windows Media, элемент запроса
+- проигрыватель Windows Media элемента запроса
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4971c2a7f601132640d7654a95dd288f1740a467
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb157bb30c2e728b7840fe7021a2a4fcacc317b10eb6778b5702d7d2277c4a92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570617"
 ---
 # <a name="queryset-element"></a>Элемент запроса
 
@@ -46,7 +46,7 @@ ms.locfileid: "105708421"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент набора **запроса** указывает, какие элементы мультимедиа следует выбрать из библиотеки, не учитывая размер результирующего набора. Элемент **Filter** , с другой стороны, ограничивает размер результирующего набора.
 
@@ -79,7 +79,7 @@ ms.locfileid: "105708421"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
 
 
 
@@ -102,7 +102,7 @@ ms.locfileid: "105708421"
 [**Саурцефилтер, элемент**](sourcefilter-element.md)
 </dt> <dt>
 
-[**Справочник по элементам списка воспроизведения Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Справочник по элементам списка воспроизведения мультимедиа**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

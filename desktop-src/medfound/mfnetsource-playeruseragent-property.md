@@ -4,12 +4,12 @@ ms.assetid: c662a6d6-5e0b-4c28-841d-5774d4103d4b
 title: Свойство MFNETSOURCE_PLAYERUSERAGENT (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9f4d06eaea566e22e1239ed04594f2f592c7cd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4b431780345c8b297bf154813a9713b5b158ecc99cc4384294ee983b8066ddf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243426"
 ---
 # <a name="mfnetsource_playeruseragent-property"></a>МФНЕТСАУРЦЕ \_ плайерусеражент, свойство
 
@@ -31,7 +31,7 @@ VT \_ LPWSTR
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константа **мфнетсаурце \_ плайерусеражент** определяет идентификатор GUID для этого ключа свойства. Идентификатор свойства (PID) равен нулю.
 
@@ -43,13 +43,13 @@ VT \_ LPWSTR
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

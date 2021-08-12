@@ -3,7 +3,7 @@ title: Атрибут Ратингорг
 description: Атрибут Ратингорг — это имя поставщика значения рейтинга.
 ms.assetid: 166ffd00-e814-49fd-83d9-b6e931259b41
 keywords:
-- Ратингорг атрибут Windows Media Player
+- проигрыватель Windows Media атрибута ратингорг
 topic_type:
 - apiref
 api_name:
@@ -12,22 +12,22 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f51c06fec5e360793d5314f5fa9904c8d03850
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbeb5e83b0c572fe09cad987e63712a57fd9bde1e059e5d3aeacf1e41f4316a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570497"
 ---
 # <a name="ratingorg-attribute"></a>Атрибут Ратингорг
 
 Атрибут **ратингорг** — это имя поставщика значения рейтинга.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DVD-диски](dvd-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в кэше библиотеки.
 
@@ -39,7 +39,7 @@ ms.locfileid: "105648928"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

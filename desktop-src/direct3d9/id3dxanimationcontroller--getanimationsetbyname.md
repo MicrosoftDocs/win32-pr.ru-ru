@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d520625e457a50fe962ae74d6e25fc17e2beb729
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8b417bf9434b712903e61839807f71765b2e3c69916430f162a67febe65fc6cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297047"
 ---
 # <a name="id3dxanimationcontrollergetanimationsetbyname-method"></a>Метод ID3DXAnimationController:: Жетаниматионсетбинаме
 
@@ -65,7 +65,7 @@ HRESULT GetAnimationSetByName(
 
 Если метод выполнен успешно, возвращается значение S \_ . Если метод завершается с ошибкой, будет возвращено следующее значение: D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Контроллер анимации содержит массив наборов анимации. Этот метод возвращает набор анимации с заданным именем.
 
@@ -75,7 +75,7 @@ HRESULT GetAnimationSetByName(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

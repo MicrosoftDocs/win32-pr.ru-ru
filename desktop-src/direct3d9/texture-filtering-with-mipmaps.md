@@ -4,12 +4,12 @@ ms.assetid: b64abca9-0efb-4939-849d-e75a8d0dc10b
 title: Фильтрация текстур с помощью MIP-карты (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdc109ae6de93a26b5d5e5b90e948761e92ee92c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c68f98c1189f130261981fdd309bb3f06bcca1e66f6e23a70e141a5abfe32f4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104553896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118291647"
 ---
 # <a name="texture-filtering-with-mipmaps-direct3d-9"></a>Фильтрация текстур с помощью MIP-карты (Direct3D 9)
 
@@ -97,7 +97,7 @@ for (int iLevel = 0; iLevel < pMipMap->GetLevelCount(); iLevel++)
 
 Приложения должны вручную перемещаться по цепочке mipmap для загрузки данных точечного рисунка в каждую поверхность цепочки. Как правило, это единственная причина для обхода цепи. Приложение может извлекать количество уровней в mipmap путем вызова [**IDirect3DBaseTexture9:: жетлевелкаунт**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dbasetexture9-getlevelcount).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

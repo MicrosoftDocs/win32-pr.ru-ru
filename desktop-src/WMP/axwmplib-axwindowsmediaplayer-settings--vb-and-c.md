@@ -1,11 +1,11 @@
 ---
 title: Аксвиндовсмедиаплайер. Settings, свойство
-description: Свойство Settings получает интерфейс Ивмпсеттингс, который предоставляет способ изменения различных параметров проигрывателя Windows Media.
+description: свойство settings получает интерфейс ивмпсеттингс, который предоставляет способ изменения различных параметров проигрыватель Windows Media.
 ms.assetid: f9009239-3308-4ef6-8818-0267dfa97b65
 keywords:
-- свойство "Параметры" проигрывателя Windows Media
-- свойство "Параметры" проигрывателя Windows Media Player, класс Аксвиндовсмедиаплайер
-- Класс Аксвиндовсмедиаплайер Windows Media Player, свойство Settings
+- свойства параметров проигрыватель Windows Media
+- свойство параметров проигрыватель Windows Media, класс аксвиндовсмедиаплайер
+- класс аксвиндовсмедиаплайер проигрыватель Windows Media, свойство settings
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bf60f8ed3cc429faab1d43106e8676e77947bcd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b216d979160a2e77cb013d96e02cf76c09eefca400c9b4524d50258ee2dfb886
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581731"
 ---
 # <a name="axwindowsmediaplayersettings-property"></a>Аксвиндовсмедиаплайер. Settings, свойство
 
-Свойство Settings получает интерфейс Ивмпсеттингс, который предоставляет способ изменения различных параметров проигрывателя Windows Media.
+свойство settings получает интерфейс ивмпсеттингс, который предоставляет способ изменения различных параметров проигрыватель Windows Media.
 
 Это свойство доступно только для чтения.
 
@@ -56,7 +56,7 @@ Public ReadOnly Property settings As IWMPSettings
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c7294fb7e86b3532960a34a15e1118dc33f748f2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 23c7a3a8ce8ed3534a7369f167ce1045d200cbaeea1aa80653e05412ffa978e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118302849"
 ---
 # <a name="id3dx10fontpreloadtext-method"></a>ID3DX10Font: метод:P Релоадтекст
 
@@ -65,7 +65,7 @@ HRESULT PreloadText(
 
 Если метод выполнен успешно, возвращается значение S \_ . В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в Прелоадтекств. В противном случае вызов функции разрешается в Прелоадтекста, так как используются строки ANSI.
 
@@ -81,7 +81,7 @@ HRESULT PreloadText(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 

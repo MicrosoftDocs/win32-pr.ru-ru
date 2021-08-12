@@ -3,7 +3,7 @@ title: Player. Медиаколлектион
 description: Свойство Медиаколлектион извлекает объект Медиаколлектион.
 ms.assetid: fbcf23db-2a36-4c3f-9d5d-628b604d1803
 keywords:
-- Проигрыватель проигрывателя Windows Media Player. Медиаколлектион
+- проигрыватель Windows Media Player. медиаколлектион
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa79b455abec6fbdd5c7b4eda0eca327bd57f81f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea536f8938e5ab438312980f03536d7930ddcea45f01c7250c08a5c9665b1f45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573171"
 ---
 # <a name="playermediacollection"></a>Player. Медиаколлектион
 
@@ -33,7 +33,7 @@ ms.locfileid: "105704202"
 
 Это свойство является объектом **медиаколлектион** , предназначенным только для чтения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить значение этого свойства, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -43,7 +43,7 @@ ms.locfileid: "105704202"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -58,10 +58,10 @@ ms.locfileid: "105704202"
 [**Объект Player**](player-object.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

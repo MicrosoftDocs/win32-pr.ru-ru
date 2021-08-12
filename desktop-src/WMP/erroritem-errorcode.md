@@ -3,7 +3,7 @@ title: Ерроритем. errorCode
 description: Свойство errorCode извлекает текущий код ошибки.
 ms.assetid: 1495ec34-0995-40c6-bfd0-f3695784e057
 keywords:
-- Ерроритем. errorCode проигрыватель Windows Media
+- ерроритем. errorCode проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c934b83b28e510f29b84a45b48bde700968c97b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f426bbaf1092b64cdb3578cb681282c9b27d9d2e2e23a69d50f9c065353ad104
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577708"
 ---
 # <a name="erroritemerrorcode"></a>Ерроритем. errorCode
 
@@ -35,13 +35,13 @@ player.error.item(
 
 Это свойство является **числом** только для чтения (**длинное целое**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Необходимо задать *Параметры*. **енаблиррордиалогс** значение false, если выбрано отображение настраиваемых сообщений об ошибках.
+необходимо задать *Параметры*. **енаблиррордиалогс** значение false, если выбрано отображение настраиваемых сообщений об ошибках.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *ерроритем*. **ErrorCode** в обработчике событий для вывода кода ошибки пользователю. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *ерроритем*. **ErrorCode** в обработчике событий для вывода кода ошибки пользователю. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -69,7 +69,7 @@ document.write(message);
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

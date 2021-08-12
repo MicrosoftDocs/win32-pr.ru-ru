@@ -3,7 +3,7 @@ title: Сообщение WM_COPYDATA (Winuser. h)
 description: Приложение отправляет \_ сообщение WM COPYDATA для передачи данных в другое приложение.
 ms.assetid: d937a260-9fd2-4450-a762-20120f589ab1
 keywords:
-- Обмен данными с сообщениями WM_COPYDATA
+- WM_COPYDATA Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8160c88b11fa109e8bbfaa06f0f6c45c9b7daed0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4eb91b2544bf0ebf0e8767a611b422de9aaaf1d73161e47c7bf27768f4acecb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118304490"
 ---
 # <a name="wm_copydata-message"></a>\_Сообщение COPYDATA WM
 
@@ -54,7 +54,7 @@ ms.locfileid: "104491070"
 
 Если принимающее приложение обрабатывает это сообщение, оно должно возвращать **значение true**; в противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Передаваемые данные не должны содержать указатели или другие ссылки на объекты, недоступные для приложения, получающего данные.
 
@@ -74,7 +74,7 @@ ms.locfileid: "104491070"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "104491070"
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 47f28ea3a3fb6d1556e699fed3820e228faf6604
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a1d0d9c884dbbfb8e4ae718985be90d22002bd0f2a4cf25f45d02ded12718d2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300144"
 ---
 # <a name="d3dxcolorsubtract-function"></a>Функция D3DXColorSubtract
 
@@ -75,7 +75,7 @@ D3DXCOLOR* D3DXColorSubtract(
 
 Эта функция возвращает указатель на структуру [**D3DXCOLOR**](d3dxcolor.md) , которая является разностью между двумя значениями цвета.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция **D3DXColorSubtract** может использоваться в качестве параметра для другой функции.
 
@@ -85,7 +85,7 @@ D3DXCOLOR* D3DXColorSubtract(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

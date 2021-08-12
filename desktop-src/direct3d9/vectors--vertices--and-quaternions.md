@@ -4,12 +4,12 @@ ms.assetid: f18b235c-97ff-4779-8584-8e96b62c7ca3
 title: Векторы, вершины и кватернион (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c2e6e6e316b633359205ffd24a64aa349eeec74
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 601b6a71dcb00356d4de4637a6aabb1eba5c02e49c62380b32732351d15bfcb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290449"
 ---
 # <a name="vectors-vertices-and-quaternions-direct3d-9"></a>Векторы, вершины и кватернион (Direct3D 9)
 
@@ -74,7 +74,7 @@ ms.locfileid: "104537025"
 
 Многие дополнительные функции, упрощающие задачи с использованием двух-и четырех компонентных векторов, включены в [математические функции](dx9-graphics-reference-d3dx-functions-math.md) , предоставляемые библиотекой служебной программы D3DX.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

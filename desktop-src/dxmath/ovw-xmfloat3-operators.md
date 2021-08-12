@@ -4,12 +4,12 @@ ms.assetid: dc98a2ed-da87-4ba3-8394-682143b378b8
 title: Операторы XMFLOAT3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c24d8c9486b4e6fddf03c227cd1a9b131b83d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e127aacbbb20740dd3de1a240f44c4f2eb111b970ef527b4908271a40ad1a26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278048"
 ---
 # <a name="xmfloat3-operators"></a>Операторы XMFLOAT3
 
@@ -32,14 +32,14 @@ ms.locfileid: "104263574"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Расширения XMFLOAT3](ovw-xmfloat3-extensions.md)
 </dt> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**XMFLOAT3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3)

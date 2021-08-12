@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9c3ab61908c510cf0720f141829b5493727771bb
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: de0d7e9f49db66e2505ac18394dd5b9da72ed3f67b1cf6da84885d68c54d1c74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104533509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274087"
 ---
 # <a name="eaptlsconnectionpropertiesv1-schema-complex-types"></a>Сложные типы схемы eaptlsconnectionpropertiesv1
 
@@ -24,7 +24,7 @@ ms.locfileid: "104533509"
 -   [**кредентиалссаурцепараметерс**](eaptlsconnectionpropertiesv1schema-credentialssourceparameters-complextype.md)
 -   [**сервервалидатионпараметерс**](eaptlsconnectionpropertiesv1schema-servervalidationparameters-complextype.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -37,9 +37,9 @@ ms.locfileid: "104533509"
 [Схема eaptlsconnectionpropertiesv2](eaptlsconnectionpropertiesv2schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

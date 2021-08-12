@@ -4,12 +4,12 @@ description: Содержит список функций преобразова
 ms.assetid: 148972da-e460-63b9-6b01-10201f63d157
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a592071970d69d7ef4b4db42960335c5fc771ac3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68c5d5ee6117c08516ccf88448b9c3a38246eae6391d1aa4aff10e853fea509f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276796"
 ---
 # <a name="directxmath-3d-vector-transformation-functions"></a>Директксмас 3D-векторные функции преобразования
 
@@ -22,7 +22,7 @@ ms.locfileid: "105711502"
 | Раздел                                                                               | Описание                                                                                                                                      |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**XMVector3InverseRotate**](/windows/win32/api/directxmath/nf-directxmath-xmvector3inverserotate)<br/>                 | Поворачивает трехмерный вектор, используя инверсию кватерниона.<br/>                                                                                |
-| [**XMVector3Project**](/windows/win32/api/directxmath/nf-directxmath-xmvector3project)<br/>                             | Проецирование трехмерного вектора из объектного пространства в пространство экрана.<br/>                                                                              |
+| [**XMVector3Project**](/windows/win32/api/directxmath/nf-directxmath-xmvector3project)<br/>                             | Project трехмерный вектор из объектного пространства в пространство экрана.<br/>                                                                              |
 | [**XMVector3ProjectStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector3projectstream)<br/>                 | Проецирует поток трехмерных векторов из пространства объектов в пространство экрана.<br/>                                                                  |
 | [**XMVector3Rotate**](/windows/win32/api/directxmath/nf-directxmath-xmvector3rotate)<br/>                               | Поворачивает трехмерный вектор с помощью кватерниона.<br/>                                                                                               |
 | [**XMVector3Transform**](/windows/win32/api/directxmath/nf-directxmath-xmvector3transform)<br/>                         | Преобразует трехмерный вектор в матрицу.<br/>                                                                                                   |
@@ -38,7 +38,7 @@ ms.locfileid: "105711502"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

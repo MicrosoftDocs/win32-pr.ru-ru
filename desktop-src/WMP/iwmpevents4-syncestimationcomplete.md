@@ -3,9 +3,9 @@ title: IWMPEvents4 Синцестиматионкомплете, метод
 description: Событие Синцестиматионкомплете возникает при завершении оценки размера, ранее инициированной IWMPSyncDevice3 Естиматесинксизе.
 ms.assetid: 2fb45a13-d82b-48b6-b9bb-46409f33a33f
 keywords:
-- Синцестиматионкомплете метод Windows Media Player
-- Синцестиматионкомплете метод проигрывателя Windows Media Player, интерфейс IWMPEvents4
-- Интерфейс IWMPEvents4 Windows Media Player, метод Синцестиматионкомплете
+- проигрыватель Windows Media метода синцестиматионкомплете
+- проигрыватель Windows Media метода синцестиматионкомплете, интерфейс IWMPEvents4
+- проигрыватель Windows Media интерфейса IWMPEvents4, метод синцестиматионкомплете
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 209ed2f2bd0f075dbaa8d442a276c994d50ce2e5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b3f444cdc66874c907bb4c6412fa10384fde67145563d79153c28cb675c6fc3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103788677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575609"
 ---
 # <a name="iwmpevents4syncestimationcomplete-method"></a>Метод IWMPEvents4:: Синцестиматионкомплете
 

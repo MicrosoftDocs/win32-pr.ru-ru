@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 5fa23684be1b63cfbd8e3d07d3578d87fdfbf46a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1eabe3a88fb3d38021eee8f186baed1d8403d18026d4d1704d520ad3c8b8f72c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118303174"
 ---
 # <a name="id3dx10fontdrawtext-method"></a>ID3DX10Font: метод:D Равтекст
 
@@ -126,7 +126,7 @@ INT DrawText(
 
 Если функция выполнена удачно, возвращаемое значение является высотой текста в логических единицах. Если \_ указан параметр DT vCenter или DT \_ Bottom, возвращаемое значение является смещением от прект (сверху вниз) отображаемого текста. Если функция выполняется неудачно, возвращается нулевое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметры этого метода очень похожи на функции [GDI DrawText](/previous-versions//ms533909(v=vs.85)) .
 
@@ -144,7 +144,7 @@ INT DrawText(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 

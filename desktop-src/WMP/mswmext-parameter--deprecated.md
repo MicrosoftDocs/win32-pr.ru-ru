@@ -3,7 +3,7 @@ title: Параметр Мсвмекст (не рекомендуется)
 description: Параметр Мсвмекст (не рекомендуется)
 ms.assetid: cc52da1a-26d1-4321-b421-b0d6f44635cc
 keywords:
-- Метафайлы Windows Media, параметр Мсвмекст
+- Windows Метафайлы мультимедиа, параметр Мсвмекст
 - Метафайлы, параметр Мсвмекст
 - Мсвмекст, параметр
 ms.topic: article
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 745ecfb2cf716e973aec3d574247e3e45d8f49ff
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 2ec80530f95d4429769758488e5a2b24b0268c57255248c7685a0d00125aa130
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104412603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574601"
 ---
 # <a name="mswmext-parameter-deprecated"></a>Параметр Мсвмекст (не рекомендуется)
 
@@ -46,20 +46,20 @@ Ref01 = https://example.com/GenerateASFFile.aspx?MSWMExt=.asf
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Клиентские программы иногда используют расширение имени файла или тип MIME, чтобы определить, следует ли визуализировать файл мультимедиа в виде потока, подготовить файл после полной загрузки или отказаться от подготовки к просмотру файла. Если клиентская программа не может определить, как обрабатывать файл мультимедиа на основе расширения имени файла или типа MIME, он может определить, как обрабатывать файл, проверив параметр *мсвмекст* . Например, клиент может обрабатывать файл так, как если бы он имел расширение, равное значению параметра *мсвмекст* . Дополнительные сведения о типах MIME и расширениях имен файлов см. в разделе [расширения имен файлов](file-name-extensions.md). Дополнительные сведения о параметре *мсвмекст* см. в статье [236895](https://support.microsoft.com/kb/236895) базы знаний Майкрософт.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Предыдущие версии метафайлов Windows Media (не рекомендуется)**](previous-versions-of-windows-media-metafiles--deprecated.md)
+[**предыдущие версии Windows метафайлов мультимедиа (не рекомендуется)**](previous-versions-of-windows-media-metafiles--deprecated.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
