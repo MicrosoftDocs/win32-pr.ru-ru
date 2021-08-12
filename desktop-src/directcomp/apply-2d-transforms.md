@@ -7,17 +7,17 @@ keywords:
 - DirectComposition 2D-преобразования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b52d2e0ce9fbb56547c42ea4ea18d57d173a7e40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6ef965ce98bb064eb63b34de569160c9b68932c96ce757e3e5d13450f73098b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118281963"
 ---
 # <a name="how-to-apply-2d-transforms"></a>Как применять двумерные преобразования
 
 > [!NOTE]
-> Для приложений в Windows 10 рекомендуется использовать интерфейсы API Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> для приложений на Windows 10 рекомендуется использовать интерфейсы api Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 В этом разделе показано, как применять двумерные преобразования к визуальному элементу с помощью Microsoft DirectComposition. В примере в этом разделе применяется группа преобразований, которые:
 
@@ -29,7 +29,7 @@ ms.locfileid: "104413456"
 
 ![результат применения группы 2D-преобразований к визуальному элементу](images/apply2dtransform.png)
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
@@ -37,13 +37,13 @@ ms.locfileid: "104413456"
 -   [Графика Direct3D 11](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
 -   [Графическая инфраструктура DirectX (DXGI)](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
 -   Microsoft Win32
 -   Модель COM
 
-## <a name="instructions"></a>Инструкции
+## <a name="instructions"></a>Instructions
 
 ### <a name="step-1-initialize-directcomposition-objects"></a>Шаг 1. Инициализация объектов DirectComposition
 
@@ -320,13 +320,13 @@ HRESULT DemoApp::ApplyTransformGroup(IDCompositionDevice *pDevice,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Преобразования](transforms.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

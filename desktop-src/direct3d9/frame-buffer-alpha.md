@@ -4,12 +4,12 @@ ms.assetid: 3664215d-ad03-400e-beab-b0421cf6b693
 title: Буфер кадров Alpha (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb310e2c66f43282e65425fd0d6c6a24961accaa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ec091e8cc42d6b21142d3b9372f6d2931ba25d1dfe12aa7717e0b09acf0b0718
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297499"
 ---
 # <a name="frame-buffer-alpha-direct3d-9"></a>Буфер кадров Alpha (Direct3D 9)
 
@@ -78,7 +78,7 @@ lpD3DDevice->SetRenderState(D3DRS_DESTBLEND,
 
 Многие из этих факторов смешения предполагают, что альфа-значения в текстуре правильно работают. Таким образом, при использовании вершины или альфа-составляющей приложение ограничивается режимом, в котором будут выдаваться интересные результаты.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

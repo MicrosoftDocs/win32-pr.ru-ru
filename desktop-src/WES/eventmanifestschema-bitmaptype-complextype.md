@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ef3a48b102b9ab36ef492fcd38c4bb8b2560d5fe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c899718cd28e337bbc5d34301b7bb49446fde51f21db5b742e98dd95c5092c23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104493107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590414"
 ---
 # <a name="bitmaptype-complex-type"></a>Сложный тип Битмаптипе
 
@@ -48,7 +48,7 @@ ms.locfileid: "104493107"
 
 | Элемент                                                   | Тип                                                                       | Описание                                                            |
 |-----------------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [**Таблица**](eventmanifestschema-map-bitmaptype-element.md) | [**битмапвалуетипе**](eventmanifestschema-bitmapvaluetype-complextype.md) | Определяет сопоставление между битовым значением и строковым значением.<br/> |
+| [**карта**](eventmanifestschema-map-bitmaptype-element.md) | [**битмапвалуетипе**](eventmanifestschema-bitmapvaluetype-complextype.md) | Определяет сопоставление между битовым значением и строковым значением.<br/> |
 
 
 
@@ -69,8 +69,8 @@ ms.locfileid: "104493107"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

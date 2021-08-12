@@ -4,12 +4,12 @@ description: Преобразование целого числа без зна�
 ms.assetid: 5A52C959-7B4C-4FA1-B29C-BCAF448419F8
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9283857df12a85819f0d191d13450e0311fdade
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: edd5e69476c77ee71e25c3e2286ddd53cc01027197b7ad9d83ed723438a93882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118283012"
 ---
 # <a name="utof-sm4---asm"></a>утоф (SM4-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104069378"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 *src0* должен содержать неподписанный 32-разрядный целочисленный кортеж из 4 элементов. После выполнения инструкции *dest* будет содержать кортеж из четырех точек с плавающей запятой. Преобразование выполняется для каждого компонента.
 
@@ -72,7 +72,7 @@ ms.locfileid: "104069378"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

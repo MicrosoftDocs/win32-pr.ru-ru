@@ -3,7 +3,7 @@ title: Список воспроизведения. Алловитемедити
 description: Атрибут Алловитемедитинг указывает или получает значение, указывающее, будут ли элементы в списке воспроизведения поддерживать редактирование на месте.
 ms.assetid: fc6120d9-0424-4c42-8aa9-ba4bbbd580fe
 keywords:
-- Проигрыватель Windows Media Player. Алловитемедитинг
+- проигрыватель Windows Media списка воспроизведения. алловитемедитинг
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8949b02a9a0be61ea3dbf2e54fa01b2bb9521e19
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53a3f07c3212cddeb45ff4ba4c5c6c268483025e782b41d79c8cc51765aa6d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571494"
 ---
 # <a name="playlistallowitemediting"></a>Список воспроизведения. Алловитемедитинг
 
@@ -35,7 +35,7 @@ ms.locfileid: "105704363"
 
 | Значение | Описание                           |
 |-------|---------------------------------------|
-| true  | По умолчанию. Разрешено редактирование на месте. |
+| Да  | По умолчанию. Разрешено редактирование на месте. |
 | false | Редактирование на месте запрещено.      |
 
 
@@ -48,7 +48,7 @@ ms.locfileid: "105704363"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

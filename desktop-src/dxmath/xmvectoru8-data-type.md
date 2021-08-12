@@ -4,12 +4,12 @@ ms.assetid: ab73ac2c-f178-1bb9-910d-9eef5fc6f5df
 title: Тип данных XMVECTORU8 (Директксмас. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4428cdd78206bfa17c295a9578653bb0a66f0c6b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff3c335df3e74bc58776883b15d724c65d558bad30fc37e0e28547102260301a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276200"
 ---
 # <a name="xmvectoru8-data-type"></a>Тип данных XMVECTORU8
 
@@ -22,7 +22,7 @@ typedef XMVECTORU8 vectoru8;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Список дополнительных функций, таких как конструкторы и операторы, доступных при использовании XMVECTORU8 при программировании в C++, см. в разделе [расширения XMVECTORU8](ovw-xmvectoru8-extensions.md).
 
@@ -46,7 +46,7 @@ data = floatingVector;
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
 ## <a name="requirements"></a>Требования
 
@@ -54,7 +54,7 @@ Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 

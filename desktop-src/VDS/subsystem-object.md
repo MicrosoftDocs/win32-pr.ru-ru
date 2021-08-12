@@ -4,16 +4,16 @@ ms.assetid: f605a5de-9256-4b43-8e12-3d78fd6cd9f1
 title: Объект подсистемы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c8314a798ea809b3175377bc5484f19629094db
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 4af9837da90497b07d133362c0a61549a63665f2c75d4c97b2d07369e4589fa7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104570906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603157"
 ---
 # <a name="subsystem-object"></a>Объект подсистемы
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Объект подсистемы моделирует подсистему хранения. Подсистема — это либо RAID-корпус, либо карта PCI RAID. Один главный компьютер может быть подключен к любому количеству подсистем. Каждая подсистема управляется только одним поставщиком оборудования. В конфигурации сети SAN класс подсистемы представляет корпус хранилища SAN.
 
@@ -43,7 +43,7 @@ ms.locfileid: "104570906"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

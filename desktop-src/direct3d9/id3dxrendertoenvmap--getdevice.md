@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8b5adc045beeefa220a849a6da752a8d3efc82ff
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d7534efefdba4622fdab559d2e8210b05e21cc6fb1169bc44934a9189099ba2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118293127"
 ---
 # <a name="id3dxrendertoenvmapgetdevice-method"></a>Метод ID3DXRenderToEnvMap:: of Device
 
@@ -61,7 +61,7 @@ HRESULT GetDevice(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

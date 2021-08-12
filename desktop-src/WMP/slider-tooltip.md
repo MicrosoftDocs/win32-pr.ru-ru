@@ -3,7 +3,7 @@ title: ПОЛЗУНок. подсказка
 description: Атрибут toolTip указывает или получает текст подсказки для элемента управления "ползунок".
 ms.assetid: 797a88bf-06a4-44f0-b671-478149009db1
 keywords:
-- ПОЛЗУНок. всплывающая подсказка проигрыватель Windows Media
+- ползунок. toolTip проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fed6fc096461107884b665124a9aaaab017eb7f2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ecb4e836599f0d1c11ea77c1dcbef4cb1b5333286466b46021a028a828e33cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568806"
 ---
 # <a name="slidertooltip"></a>ПОЛЗУНок. подсказка
 
@@ -31,7 +31,7 @@ ms.locfileid: "105704456"
 
 Этот атрибут является **строкой** для чтения и записи и имеет максимальную длину 1024 символов. У него нет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для этого атрибута задано значение "" (пустая строка), подсказка не отображается.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105704456"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

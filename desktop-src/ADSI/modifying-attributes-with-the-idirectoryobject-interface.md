@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, пример кода C/C++, использование Идиректорйобжект для изменения атрибутов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8715826d0fc835f3d9ecae914fcc51603883af5d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30fa7d75d3e0dce489f676dafb36992c95a1cba2e9856bbbaf49f14806a6c1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104132795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179032"
 ---
 # <a name="modifying-attributes-with-the-idirectoryobject-interface"></a>Изменение атрибутов с помощью интерфейса Идиректорйобжект
 
@@ -32,7 +32,7 @@ ms.locfileid: "104132795"
 > [!Note]  
 > Как и [**iAds::P UT**](/windows/desktop/api/Iads/nf-iads-iads-put) и [**iAds::P утекс**](/windows/desktop/api/Iads/nf-iads-iads-putex) с параметром [**iAds:: сетинфо**](/windows/desktop/api/Iads/nf-iads-iads-setinfo), изменения атрибутов либо полностью фиксируются, либо отбрасываются в Active Directory. Если одно или несколько изменений не разрешены и поэтому не могут быть выполнены, то ни одна из общих изменений атрибутов не зафиксирована в каталоге.
 
- 
+ 
 
 ## <a name="example"></a>Пример
 
@@ -92,9 +92,9 @@ if(SUCCEEDED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82e3244327d5840c8f7cce8ed498f90cd406d573
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fbe472ee2e81495284377bab4a59a55bdf07ccf43f636769abcab391fe97ad60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118592332"
 ---
 # <a name="ivmvirtualnetworkcollectioncount-property"></a>Свойство Ивмвиртуалнетворкколлектион:: count
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Извлекает число виртуальных сетей в этой коллекции.
 
@@ -65,11 +65,11 @@ HRESULT get_Count(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                     |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                     |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                           |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl>  |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl>  |
 | IID<br/>                      | IID \_ ивмвиртуалнетворкколлектион определен как 8ed680be-4242-4b2a-a21c-1982d8b0f675<br/> |
 
 

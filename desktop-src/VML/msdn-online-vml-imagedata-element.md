@@ -4,21 +4,21 @@ description: Элемент Имажедата VML
 ms.assetid: 91004646-b031-4973-a32d-7afdd10dab48
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b416a53f97efc8a1f1875eda0e842c4cfbe96bf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0d3a307dd36daf0ff08d2fab7cd9086a3bc07447872cf36cb41972e4aa5a4d4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105672313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118600295"
 ---
 # <a name="vml-imagedata-element"></a>Элемент Имажедата VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет изображение для фигуры.
 
@@ -50,7 +50,7 @@ ms.locfileid: "105672313"
 
 
 
- 
+ 
 
 **Замечания**
 
@@ -73,13 +73,13 @@ ms.locfileid: "105672313"
 > [!Note]  
 > В предварительных версиях VML этот элемент назывался **Image** .
 
- 
+ 
 
 **Примеры**
 
 -   [Пример простого Имажедата](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/image/t_image.md)
 -   [Пример динамического Имажедата](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/image/x_image.md)
 
- 
+ 
 
- 
+ 

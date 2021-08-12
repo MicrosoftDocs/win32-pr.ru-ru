@@ -4,16 +4,16 @@ ms.assetid: 872609c8-a123-40a8-96ca-58f34d37f3d8
 title: Использование средств трассировки с приложениями ASR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c13eee1c62cd6636eebe5bcfd35bd5abb119645
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e2d22dbb1488b5fd60836926d3c5ef2de5913ff1cc1529fdb278773b2ccd8b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590873"
 ---
 # <a name="using-tracing-tools-with-asr-applications"></a>Использование средств трассировки с приложениями ASR
 
-Средство logman можно использовать для получения сведений трассировки для приложений VSS, использующих [Автоматическое восстановление системы (ASR)](using-vss-automated-system-recovery-for-disaster-recovery.md). Logman (logman.exe) — это контроллер трассировки для событий трассировки и счетчиков производительности. Он входит в состав Windows XP и более поздних версий Windows. Или, при желании, можно использовать средство tracelog для получения одних и тех же данных трассировки ASR. Tracelog входит в комплект драйверов Windows (WDK).
+Средство logman можно использовать для получения сведений трассировки для приложений VSS, использующих [Автоматическое восстановление системы (ASR)](using-vss-automated-system-recovery-for-disaster-recovery.md). Logman (logman.exe) — это контроллер трассировки для событий трассировки и счетчиков производительности. он входит в состав Windows XP и более поздних версий Windows. Или, при желании, можно использовать средство tracelog для получения одних и тех же данных трассировки ASR. Tracelog входит в состав набора драйверов Windows (WDK).
 
 Сведения об использовании средств трассировки с VSS см. в статье [использование средств трассировки с помощью VSS](using-tracing-tools-with-vss.md).
 

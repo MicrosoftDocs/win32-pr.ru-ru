@@ -1,33 +1,33 @@
 ---
-title: Цветовые палитры (Windows Media Player SDK)
+title: цветовые палитры (проигрыватель Windows Media SDK)
 description: Цветовые палитры
 ms.assetid: 3054a846-5830-4923-a546-0575a06c4530
 keywords:
-- Обложки Windows Media Player для мобильных устройств, графические файлы
+- проигрыватель Windows Media Обложки для мобильных устройств, графические файлы
 - обложки, файлы Art
 - файлы для обложек, изображений
 - графические файлы для обложек, цветовые палитры
-- Обложки мобильных устройств проигрывателя Windows Media, цветовые палитры
+- проигрыватель Windows Media Обложки для мобильных устройств, цветовые палитры
 - обложки, цветовые палитры
 - цветовые палитры для обложек
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 424f1f8de0dd6f9777815dd81074af07acb30c9c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f5feabaa57966b2f9b7913523c908fefe609892a8e20570aa1657e893dc02d7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580631"
 ---
-# <a name="color-palettes-windows-media-player-sdk"></a>Цветовые палитры (Windows Media Player SDK)
+# <a name="color-palettes-windows-media-player-sdk"></a>цветовые палитры (проигрыватель Windows Media SDK)
 
 Разные устройства имеют разные цветовые палитры. Возможно, потребуется создать различные обложки для каждой цветовой палитры. Рекомендуется использовать следующие цветовые палитры:
 
 -   16-разрядный
 -   8 бит
--   2-разрядные оттенки серого
+-   2-битный, оттенки серого
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. Нормализация
 description: Атрибут нормализации указывает или получает значение, указывающее, включена ли нормализация.
 ms.assetid: d0819624-7bc5-447a-b890-c8af94faa7b0
 keywords:
-- ЕКУАЛИЗЕРСЕТТИНГС. Нормализация проигрывателя Windows Media
+- проигрыватель Windows Media екуализерсеттингс. нормализация
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9714359e5d5e2af0c82a0d687555f7cfcbf1cf70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6f2befdd62f0508822d5547cb3b894b93ea095f52db4cf9bbdb4a444d99251c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578174"
 ---
 # <a name="equalizersettingsnormalization"></a>ЕКУАЛИЗЕРСЕТТИНГС. Нормализация
 
@@ -35,14 +35,14 @@ ms.locfileid: "105694781"
 
 | Значение | Описание                         |
 |-------|-------------------------------------|
-| true  | Нормализация включена.           |
+| Да  | Нормализация включена.           |
 | false | По умолчанию. Нормализация отключена. |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если нормализация включена, то звуковой сигнал для всего файла цифрового носителя масштабируется до максимального значения. Это позволяет воспроизводить несколько файлов приблизительно на одном томе, не требуя настройки томов.
 
@@ -52,7 +52,7 @@ ms.locfileid: "105694781"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

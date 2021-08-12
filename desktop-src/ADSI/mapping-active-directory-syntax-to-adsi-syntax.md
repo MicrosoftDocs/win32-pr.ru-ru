@@ -7,12 +7,12 @@ keywords:
 - атрибуты ADSI, сопоставление синтаксиса Active Directory синтаксису ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6ba332a39a5d2452925f1a8f1cc8c8ca766ca10
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d04682a1e299e14c55c520310bff697ea6664d4dabe71380f7a146fd2dfff053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179282"
 ---
 # <a name="mapping-active-directory-syntax-to-adsi-syntax"></a>Сопоставление синтаксиса Active Directory синтаксису ADSI
 
@@ -29,10 +29,10 @@ ms.locfileid: "105654119"
 | 2.5.5.5<br/>  | Строка варианта печати<br/>             | Печатная строка<br/>                                         |
 | 2.5.5.6<br/>  | Числовая строка<br/>                | Числовая строка<br/>                                           |
 | 2.5.5.7<br/>  | **Или** Имя Днвисоктетстринг<br/> | Не поддерживается<br/>                                            |
-| 2.5.5.8<br/>  | Логический<br/>                       | Логический<br/>                                                  |
-| 2.5.5.9<br/>  | Целочисленный тип<br/>                       | Целочисленный тип<br/>                                                  |
+| 2.5.5.8<br/>  | Логический<br/>                       | Логическое<br/>                                                  |
+| 2.5.5.9<br/>  | Целочисленный тип<br/>                       | Целое число<br/>                                                  |
 | 2.5.5.10<br/> | Строка октета<br/>                  | Строка октета<br/>                                             |
-| 2.5.5.11<br/> | Время<br/>                          | Время в формате UTC<br/>                                                 |
+| 2.5.5.11<br/> | Time<br/>                          | Время в формате UTC<br/>                                                 |
 | 2.5.5.12<br/> | Юникод<br/>                       | Пропустить строку без учета регистра<br/>                                       |
 | 2.5.5.13<br/> | Адрес<br/>                       | Не поддерживается<br/>                                            |
 | 2.5.5.14<br/> | Distname-Address<br/>              |                                                                     |

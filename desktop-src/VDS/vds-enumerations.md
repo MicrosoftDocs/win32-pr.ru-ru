@@ -4,16 +4,16 @@ ms.assetid: 30ee6e39-c1e5-4173-a3dd-5644632140d1
 title: Перечисления VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49da784104c939a99f7341e7c9d5043824c6eeaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50efb71cc74731636abeefbac955699b57c9e7fc76845931353074b2b5894a5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603101"
 ---
 # <a name="vds-enumerations"></a>Перечисления VDS
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Перечисления VDS представляют типы объектов, флаги, состояние и другие сущности в объектной модели VDS. Дополнительные сведения об объектах службы VDS и связанных с ними перечислениях см. в статье [объектная модель VDS](vds-object-model.md).
 

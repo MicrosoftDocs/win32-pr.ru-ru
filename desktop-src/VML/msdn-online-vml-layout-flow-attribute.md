@@ -4,21 +4,21 @@ description: Атрибут VML Layout-Flow
 ms.assetid: 63b06dcb-5179-4046-9e02-4441d0d7bcd6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e437e31043afcf7fba4967076a861c9bca86477
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bde6937a3f93ff2a462cfc5950c13b7f3910573c54d82449ef705bca4afbb068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118599358"
 ---
 # <a name="vml-layout-flow-attribute"></a>Атрибут VML Layout-Flow
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет поток макета текста в текстовом поле. Read/write. **Строка**.
 
@@ -45,7 +45,7 @@ ms.locfileid: "103987672"
 
 
 
- 
+ 
 
 *Стандартный атрибут VML*
 
@@ -66,6 +66,6 @@ ms.locfileid: "103987672"
 
 
 
- 
+ 
 
- 
+ 

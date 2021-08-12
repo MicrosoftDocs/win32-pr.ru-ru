@@ -1,28 +1,28 @@
 ---
-title: Внедрение элемента управления проигрывателя Windows Media
-description: Внедрение элемента управления проигрывателя Windows Media
+title: внедрение элемента управления проигрыватель Windows Media
+description: внедрение элемента управления проигрыватель Windows Media
 ms.assetid: 867a500c-8407-4a2c-8999-96392a4bc2c0
 keywords:
-- Проигрыватель Windows Media, внедрение элемента управления ActiveX
-- Объектная модель проигрывателя Windows Media, внедрение элемента управления ActiveX
-- Объектная модель, внедрение элемента управления ActiveX
-- Элемент управления ActiveX проигрывателя Windows Media, внедрение
-- Элемент управления ActiveX, внедрение
-- Мобильный элемент управления ActiveX проигрывателя Windows Media, внедрение
-- Проигрыватель Windows Media Mobile, внедрение элемента управления ActiveX
+- проигрыватель Windows Media, встраивание ActiveX элемента управления
+- проигрыватель Windows Media объектная модель, встраивание ActiveX элемента управления
+- объектная модель, встраивание элемента управления ActiveX
+- проигрыватель Windows Media элемент управления ActiveX, внедрение
+- элемент управления ActiveX, встраивание
+- проигрыватель Windows Media управление мобильными ActiveXми, внедрение
+- проигрыватель Windows Media мобильный, внедренный элемент управления ActiveX
 - внедрение, о программе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c42191069676e6fce0f2bdff119fe83667e4292
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f1b74a5bd0b682be116d888a88620b7fd309daddc5614f0bcf5941ea0bb2347f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578516"
 ---
-# <a name="embedding-the-windows-media-player-control"></a>Внедрение элемента управления проигрывателя Windows Media
+# <a name="embedding-the-windows-media-player-control"></a>внедрение элемента управления проигрыватель Windows Media
 
-Помимо внедрения элемента управления проигрывателя Windows Media в веб-страницу, как описано в предыдущем разделе, его можно внедрить в Microsoft Office документы и пользовательские программы, созданные с помощью одного из нескольких языков программирования, включая Microsoft Visual Basic, C++ и C#.
+помимо внедрения элемента управления проигрыватель Windows Media на веб-странице, как описано в предыдущем разделе, его можно внедрить в документы Microsoft Office и в пользовательские программы, созданные с помощью одного из нескольких языков программирования, включая Microsoft Visual Basic, C++ и C#.
 
 В следующих разделах приводятся сведения об использовании элемента управления в различных средах программирования.
 
@@ -30,24 +30,24 @@ ms.locfileid: "105691132"
 
 | Section                                                                                                                                  | Описание                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [Внедрение элемента управления проигрывателя Windows Media в веб-страницу](embedding-the-windows-media-player-control-in-a-web-page.md)                 | В этом разделе описывается использование элемента управления на веб-странице.                                                  |
-| [Внедрение элемента управления проигрывателя Windows Media в документ Office](embedding-the-windows-media-player-control-in-an-office-document.md) | В этом разделе описывается использование элемента управления в Microsoft Office документе.                                |
-| [Внедрение элемента управления проигрывателя Windows Media в пользовательскую программу](embedding-the-windows-media-player-control-in-a-custom-program.md)     | В этом разделе описывается использование элемента управления в приложении Windows, написанном на Visual Basic или C++. |
+| [внедрение элемента управления проигрыватель Windows Media в веб-страницу](embedding-the-windows-media-player-control-in-a-web-page.md)                 | В этом разделе описывается использование элемента управления на веб-странице.                                                  |
+| [внедрение элемента управления проигрыватель Windows Media в документ Office](embedding-the-windows-media-player-control-in-an-office-document.md) | в этом разделе описывается использование элемента управления в Microsoft Office документе.                                |
+| [внедрение элемента управления проигрыватель Windows Media в пользовательскую программу](embedding-the-windows-media-player-control-in-a-custom-program.md)     | в этом разделе описывается использование элемента управления в приложении на основе Windows, написанном на Visual Basic или C++. |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Сведения об объектной модели проигрывателя**](about-the-player-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

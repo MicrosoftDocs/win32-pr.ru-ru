@@ -1,22 +1,22 @@
 ---
-title: Справочник по цвету (пакет SDK для проигрывателя Windows Media)
+title: справочник по цвету (проигрыватель Windows Media SDK)
 description: Ссылка на цвет
 ms.assetid: 01d05d18-7b24-4237-973b-b7b84315252d
 keywords:
-- Обложки проигрывателя Windows Media, Справочник по цветам
+- обложки проигрыватель Windows Media, справочник по цветам
 - обложки, Справочник по цветам
 - Справочник по обложкам, цветам
 - Справочник по цвету для обложек
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f67b6a5fb44aa7576c82b6567e7d3d4a91bc4ac8
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 8dcea6a7f9edbfab7a0c84a5c8d6704ad8a032873c19e237a8eda95d595e3c5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580641"
 ---
-# <a name="color-reference-windows-media-player-sdk"></a>Справочник по цвету (пакет SDK для проигрывателя Windows Media)
+# <a name="color-reference-windows-media-player-sdk"></a>справочник по цвету (проигрыватель Windows Media SDK)
 
 Для использования с обложками поддерживаются следующие цвета. Каждый атрибут, который принимает значение цвета, может быть задан с помощью одного из следующих имен цветов или шестнадцатеричных значений. Можно использовать любое шестнадцатеричное число из шести цифр, но только те, которые есть на этой диаграмме, имеют допустимые имена.
 

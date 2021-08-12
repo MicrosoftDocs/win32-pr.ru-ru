@@ -4,21 +4,21 @@ description: Атрибут Имажеаспект VML
 ms.assetid: 9ae58a76-f097-4feb-9008-ab6212bae8fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b873f7577907acb6d8f88f0290117651077b3c55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d8f67d715d5cd10d36b4e8e7e32f939aeeef2bbdd894aba9da5a069ef03f0e3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118600357"
 ---
 # <a name="vml-imageaspect-attribute"></a>Атрибут Имажеаспект VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет, как будет сохраняться пропорции изображения обводки. Read/write. **Строка**.
 
@@ -52,7 +52,7 @@ element *. имажеаспект = "* выражение *"*
 
 
 
- 
+ 
 
 В каждом случае атрибут **ImageSize** будет скорректирован для сохранения аспекта изображения.
 
@@ -74,6 +74,6 @@ element *. имажеаспект = "* выражение *"*
 
 
 
- 
+ 
 
- 
+ 

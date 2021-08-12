@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e1b21db330bb9111b96fb244200845cb83b3153
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 4edbdb9e3b7fa48476f70e550bf1255de344880df440381fcd48adefa2f68d6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "105680134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118604364"
 ---
 # <a name="stopservice-method-of-the-win32_service-class-sdoiash-for-the-terminal-service"></a>Метод работы класса Win32_Service (Сдоиас. h) для службы терминалов
 
@@ -182,7 +182,7 @@ uint32 StopService();
 
 </dd> <dt>
 
-**стр**
+**19**
 </dt> <dd>
 
 Служба выполняется с тем же именем.
@@ -224,7 +224,7 @@ uint32 StopService();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Определив, какие службы могут быть остановлены или приостановлены, можно использовать **методы "** [**PauseService**](win32-terminalservice-pauseservice.md) " и "приостановить" для остановки и приостановки служб. Решение о прекращении работы службы, а не приостановке или наоборот, зависит от нескольких факторов, включая следующие:
 

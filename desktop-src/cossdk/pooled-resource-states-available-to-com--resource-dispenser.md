@@ -4,12 +4,12 @@ ms.assetid: 5037f11c-d113-49b0-b26f-0e3bc59ae8b3
 title: Состояния ресурсов в пуле, доступные для распределителя ресурсов COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff0bc59dcc2b7e95e060c0d6e96a5880d09d26e3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2b0f28a54a85ed134bf95a8150b5bb4b9cb0d2fda15a16b0b96238ac8c2da18f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305623"
 ---
 # <a name="pooled-resource-states-available-to-com-resource-dispenser"></a>Состояния ресурсов в пуле, доступные для распределителя ресурсов COM+
 
@@ -23,7 +23,7 @@ ms.locfileid: "104496326"
 
 -   **Ресурсы в прикрепленном использовании.** Если ресурс назначен объекту, экземпляр выполняется в транзакции, а распределитель ресурсов успешно прикрепляет ресурс в транзакции, этот ресурс находится в прикрепленном использовании.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

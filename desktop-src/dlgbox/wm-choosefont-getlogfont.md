@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 696246d26c2b87e9b299844a9dc7e78d39ac632f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1fb429c3cd66af28485edf2979d2efbe50b3205a2142e963c8c3bb51ef5713f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280436"
 ---
 # <a name="wm_choosefont_getlogfont-message"></a>\_Сообщение WM CHOOSEFONT \_ жетлогфонт
 
@@ -55,7 +55,7 @@ ms.locfileid: "105691881"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) создает диалоговое окно **шрифта** . Когда пользователь закрывает диалоговое окно « **Шрифт** », функция **ChooseFont** возвращает сведения о выборе шрифта пользователем в структуре [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) . Элемент **лплогфонт** структуры **CHOOSEFONT** является указателем на структуру [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) .
 
@@ -71,7 +71,7 @@ ms.locfileid: "105691881"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Коммдлг. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>коммдлг. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "105691881"
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**кфхукпрок**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)

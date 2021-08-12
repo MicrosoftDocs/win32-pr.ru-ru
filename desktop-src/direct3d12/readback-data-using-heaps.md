@@ -1,18 +1,18 @@
 ---
-title: Чтение обратно данных через буфер
+title: Считывание данных обратно через буфер
 description: Для считывания данных из графического процессора (например, для записи снимка экрана) используется куча реадбакк.
 ms.assetid: 2F515B2C-3317-4AA8-81E1-7762ED895F77
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 12/17/2018
-ms.openlocfilehash: 752d97d517a48a38adabc7c8fe51d11d47c1d8d3
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: 56babd93ddd0f06ee331b19db4a4d8ba2dc5ecb314ec3d828e3e3f7c4f4f9a7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104549005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300877"
 ---
-# <a name="read-back-data-via-a-buffer"></a>Чтение обратно данных через буфер
+# <a name="read-back-data-via-a-buffer"></a>Считывание данных обратно через буфер
 
 Для считывания данных из графического процессора (например, для записи снимка экрана) используется куча реадбакк. Этот метод связан с [отправкой данных текстуры через буфер](upload-and-readback-of-texture-data.md)с небольшими различиями.
 

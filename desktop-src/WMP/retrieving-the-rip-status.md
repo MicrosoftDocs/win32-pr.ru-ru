@@ -3,23 +3,23 @@ title: Получение состояния копирования
 description: Получение состояния копирования
 ms.assetid: 9907bfdd-eae7-4ca2-b488-5a6ad11416f5
 keywords:
-- Проигрыватель Windows Media, копирование компакт-дисков
-- Объектная модель проигрывателя Windows Media, копирование компакт-дисков
+- проигрыватель Windows Media, копирование компакт-дисков
+- проигрыватель Windows Mediaная модель объектов, копирование компакт-дисков
 - Объектная модель, копирование компакт-дисков
-- Элемент управления ActiveX проигрывателя Windows Media, копирование компакт-дисков
-- Элемент управления ActiveX, копирование компакт-дисков
-- Мобильный элемент управления ActiveX проигрывателя Windows Media, копирование компакт-дисков
-- Проигрыватель Windows Media Mobile, копирование компакт-дисков
+- проигрыватель Windows Media ActiveX управления, копирование компакт-дисков
+- ActiveX управления, копирование компакт-дисков
+- проигрыватель Windows Media мобильный ActiveX управление, копирование компакт-дисков
+- проигрыватель Windows Media Мобильные устройства, копирование компакт-дисков
 - Копирование с компакт-диска, получение состояния RIP
 - Копирование компакт-дисков, получение состояния RIP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be1fce1a46f9cc2d8477cabcc12a3a1b5bd159d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a3210fa9e0db5f9260989d7bebb3650770cec7626892bc20546a6b602fb98955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104069608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570195"
 ---
 # <a name="retrieving-the-rip-status"></a>Получение состояния копирования
 
@@ -46,7 +46,7 @@ ms.locfileid: "104069608"
 
 
 
- 
+ 
 
 
 ```C++
@@ -151,7 +151,7 @@ HRESULT CMainDlg::UpdateStatus (void)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -167,9 +167,9 @@ HRESULT CMainDlg::UpdateStatus (void)
 [**Выбор элементов для копирования**](selecting-items-for-ripping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

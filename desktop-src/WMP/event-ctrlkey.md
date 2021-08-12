@@ -3,7 +3,7 @@ title: Event. Ктрлкэй
 description: Атрибут Ктрлкэй извлекает значение, указывающее, была ли нажата клавиша CTRL при возникновении события.
 ms.assetid: a96e1575-1610-4e4b-9292-d853c1a1d5bd
 keywords:
-- Проигрыватель Windows Media Event. Ктрлкэй
+- проигрыватель Windows Media event. ктрлкэй
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f2365337bb1d046f72bd965f3812dd126c041db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d55221a1448b23e2ea308e0e16cd174fe4cd0d404164a01a7ff59011010075a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577248"
 ---
 # <a name="eventctrlkey"></a>Event. Ктрлкэй
 
@@ -35,7 +35,7 @@ event.ctrlKey
 
 | Значение | Описание                                      |
 |-------|--------------------------------------------------|
-| true  | Указывает, что клавиша CTRL находилась в положении вниз. |
+| Да  | Указывает, что клавиша CTRL находилась в положении вниз. |
 | false | Указывает, что клавиша CTRL находилась в положении вверх.   |
 
 
@@ -48,7 +48,7 @@ event.ctrlKey
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

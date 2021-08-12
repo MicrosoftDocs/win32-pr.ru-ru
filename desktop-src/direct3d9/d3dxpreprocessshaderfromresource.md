@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c45073d0b84ef6fb33d378c4c18f862f55c6b84a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 235b1146cd589d09d4718f938f15e7250fdb57993295d48eaa94290abe1cd52f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118298522"
 ---
 # <a name="d3dxpreprocessshaderfromresource-function"></a>Функция D3DXPreprocessShaderFromResource
 
@@ -116,7 +116,7 @@ HRESULT D3DXPreprocessShaderFromResource(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

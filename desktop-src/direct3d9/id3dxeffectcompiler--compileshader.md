@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 3e8d1d72fccd5c4ad47d21d05ee46013860a7743
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 1e42eec5cc9c5c90d1fa4e26c4ad38d611dce3ce0df933d76b1eb81d2534b8dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118295880"
 ---
 # <a name="id3dxeffectcompilercompileshader-method"></a>Метод ID3DXEffectCompiler:: Компилешадер
 
@@ -115,7 +115,7 @@ HRESULT CompileShader(
 
 
 
-| Целевые объекты                      | Функции                                                                      |
+| Цели                      | Функции                                                                      |
 |-----------------------|-----------------------------------------------------------------------|
 | Цели шейдера вершин | VS \_ 1 \_ , vs 2 \_ \_ 0, VS \_ 2 \_ SW, VS \_ 3 \_ 0                               |
 | Цели шейдера пикселей  | PS \_ 1 \_ 1, PS \_ 1 \_ 2, PS \_ 1 \_ 3, PS \_ 1 \_ 4, PS \_ 2 \_ 0, PS \_ 2 \_ SW, PS \_ 3 \_ 0 |
@@ -138,7 +138,7 @@ HRESULT CompileShader(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

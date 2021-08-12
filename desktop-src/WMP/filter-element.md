@@ -3,7 +3,7 @@ title: Элемент Filter
 description: Элемент Filter содержит элементы, ограничивающие размер списка воспроизведения, длительность списка воспроизведения или число элементов мультимедиа в списке воспроизведения.
 ms.assetid: 880885f6-493f-466b-b5ad-ab9b569f4cc5
 keywords:
-- Элемент фильтра Windows Media Player
+- проигрыватель Windows Media элемента filter
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 32d2d306faebef813996b59575220efeba99dfb6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8a059a6a2820d99541076775ac869de0767ffd739743f5b145a155efd0a25abc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118576781"
 ---
 # <a name="filter-element"></a>Элемент Filter
 
@@ -92,7 +92,7 @@ ms.locfileid: "105694870"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **Filter** не добавляет элементы мультимедиа в список воспроизведения; Он просто удаляет или отфильтровывает содержимое, выбранное элементом **саурцефилтер** .
 
@@ -118,7 +118,7 @@ ms.locfileid: "105694870"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
 
 
 
@@ -138,7 +138,7 @@ ms.locfileid: "105694870"
 [**Саурцефилтер, элемент**](sourcefilter-element.md)
 </dt> <dt>
 
-[**Справочник по элементам списка воспроизведения Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Справочник по элементам списка воспроизведения мультимедиа**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

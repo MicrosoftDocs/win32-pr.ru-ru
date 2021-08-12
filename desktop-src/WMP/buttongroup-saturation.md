@@ -3,7 +3,7 @@ title: BUTTONGROUP. насыщенность
 description: Атрибут насыщенности указывает или получает значение насыщенности изображений BUTTONGROUP.
 ms.assetid: bfd957f0-8201-4a4f-9162-a397ed97c747
 keywords:
-- Проигрыватель Windows Media BUTTONGROUP. насыщенности
+- BUTTONGROUP. насыщенность проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8de7dd39eb0b1a9e3f24031e24851eba22c6c6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90d3579ac8109cb56e56c78a07a8f53e4cd7c017a695b6018f6a2ad41f703035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581306"
 ---
 # <a name="buttongroupsaturation"></a>BUTTONGROUP. насыщенность
 
@@ -31,7 +31,7 @@ ms.locfileid: "105695037"
 
 Этот атрибут является **числом** для чтения и записи (**float**) со значением в диапазоне от 0,0 до 2,0 со значением по умолчанию 1,0.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут изменяет значение насыщенности изображений, заданных атрибутами **дисабледимаже**, **довнимаже**, **ховердовнимаже**, **ховеримаже** и **Image** , если они заданы и ссылаются на 8-битные изображения BMP.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105695037"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

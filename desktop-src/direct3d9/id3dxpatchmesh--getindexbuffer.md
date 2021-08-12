@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c2730b90f77d33db519d2231a68ab7fdc2b520fd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c7b32c5414f72b1dd16a6c309294056e81468f8e039e73d1d43c05d5ac3dd0f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294357"
 ---
 # <a name="id3dxpatchmeshgetindexbuffer-method"></a>Метод ID3DXPatchMesh:: Жетиндексбуффер
 
@@ -55,7 +55,7 @@ HRESULT GetIndexBuffer(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Буфер индексов содержит упорядочивание вершин в буфере вершин. Буферы индексов используются для доступа к буферу вершин при подготовке к просмотру сетки.
 
@@ -65,7 +65,7 @@ HRESULT GetIndexBuffer(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

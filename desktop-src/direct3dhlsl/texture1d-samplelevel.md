@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: a8a2bd8674e8d373082b5f9bf30ea1618b7776a8
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 0303ecf3ed9647172b2306563936f58968297018cd7553e36c71cda572dc4252
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "103987033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118283941"
 ---
 # <a name="texture1dsamplelevel-methods"></a>Методы Texture1D:: Самплелевел
 
@@ -34,7 +34,7 @@ ms.locfileid: "103987033"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Ссылается на [объект текстуры](dx-graphics-hlsl-to-type.md).
 

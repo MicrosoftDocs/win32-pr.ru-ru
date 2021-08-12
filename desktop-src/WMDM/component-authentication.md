@@ -3,7 +3,7 @@ title: Проверка подлинности компонента
 description: Проверка подлинности компонента
 ms.assetid: f1d9d41a-409d-43b5-9506-af130047349b
 keywords:
-- Диспетчер устройств Windows Media, проверка подлинности
+- Windows Диспетчер устройств носителя, проверка подлинности
 - Диспетчер устройств, проверка подлинности
 - Классические приложения, проверка подлинности
 - поставщики услуг, проверка подлинности
@@ -11,32 +11,32 @@ keywords:
 - проверка подлинности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89bc75eff3a1a90948de90b52f890c4097993035
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bc0bf340d6864acfdf5cc35c4c8aaf522c7e87ce95adf43cfa8d9c8c8e929aed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585967"
 ---
 # <a name="component-authentication"></a>Проверка подлинности компонента
 
-Перед вызовом или реализацией методов диспетчер устройств Windows Media необходимо пройти проверку подлинности для каждого поставщика приложений и служб.
+каждый поставщик приложений и служб должен пройти проверку подлинности, прежде чем он сможет вызвать или реализовать Windows Media диспетчер устройств методы.
 
 Для поставщиков услуг и приложений Проверка подлинности обрабатывается по-разному. См. раздел, относящийся к вашему проекту:
 
 -   [Проверка подлинности приложения](authenticating-the-application.md)
 -   [Проверка подлинности поставщика услуг](authenticating-the-service-provider.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Использование защищенных каналов с проверкой подлинности**](using-secure-authenticated-channels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

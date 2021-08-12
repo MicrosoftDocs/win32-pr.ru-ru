@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f2de65f9bc2f9e40a5bc07c6f0b4d00112f0df21
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 892d27e305badc2cf1b21de41a1f9d37da13f36c1521135a79a65619e31903f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118298532"
 ---
 # <a name="d3dxsavemeshhierarchytofile-function"></a>Функция D3DXSaveMeshHierarchyToFile
 
@@ -95,7 +95,7 @@ HRESULT D3DXSaveMeshHierarchyToFile(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXSaveMeshHierarchyToFileW. В противном случае вызов функции разрешается в D3DXSaveMeshHierarchyToFileA.
 
@@ -107,7 +107,7 @@ HRESULT D3DXSaveMeshHierarchyToFile(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 643773fe2be45bbae5709dcd7efaeae5fd4b86d5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 28c8ffc80b908f1ea894a22581c72e4371f87e5f55def2bdb9a1a66cc255ba90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297643"
 ---
 # <a name="d3dxvec4barycentric-function-d3dx9mathh"></a>Функция D3DXVec4BaryCentric (D3dx9math. h)
 
@@ -130,12 +130,12 @@ D3DXVECTOR4* D3DXVec4BaryCentric(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

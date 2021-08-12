@@ -3,7 +3,7 @@ title: Сообщение WM_CUT (Winuser. h)
 description: Приложение отправляет \_ сообщение WM Cut в элемент управления или поле со списком, чтобы удалить (вырезать) текущий выделенный фрагмент (если таковой имеется) в элементе управления "поле ввода" и скопировать удаленный текст в буфер обмена в \_ ТЕКСТОВОМ формате CF.
 ms.assetid: 6ac45589-3e34-491c-9562-e072ddc478f9
 keywords:
-- Обмен данными с сообщениями WM_CUT
+- WM_CUT Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a63dfe85fb637636fbabbce5fa139699fd09a65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d117e0a942c0d9e24e1a9c40d3d66e605ab8d5cf26bbad0e287e9b03a9b25780
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118304497"
 ---
 # <a name="wm_cut-message"></a>\_Вырезание сообщения WM
 
@@ -54,7 +54,7 @@ ms.locfileid: "105672627"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Удаление, выполняемое сообщением команды **WM \_ Cut** , можно отменить, отправив элемент управления Edit с сообщением об [**\_ отмене EM**](../controls/em-undo.md) .
 
@@ -70,7 +70,7 @@ ms.locfileid: "105672627"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -78,7 +78,7 @@ ms.locfileid: "105672627"
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**WM \_ clear**](wm-clear.md)

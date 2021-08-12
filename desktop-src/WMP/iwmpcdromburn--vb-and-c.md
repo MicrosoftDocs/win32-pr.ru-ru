@@ -3,8 +3,8 @@ title: Интерфейс Ивмпкдромбурн (VB и C) (WMP. h)
 description: Предоставляет свойства и методы для управления созданием звуковых компакт-дисков.
 ms.assetid: d98b243d-d6c2-4d85-8d5a-de49c62d0acf
 keywords:
-- Ивмпкдромбурн (VB и C) интерфейс проигрывателя Windows Media
-- Ивмпкдромбурн (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпкдромбурн (VB и C)
+- проигрыватель Windows Media интерфейса ивмпкдромбурн (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2fe21a20194f57e4a8b52a3ba05032a07cb31f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7731d5491e683c2a5d2e577c41dc96264c90f0d070538405d0fa3c3ea7283a0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575962"
 ---
 # <a name="iwmpcdromburn-vb-and-c-interface"></a>Интерфейс Ивмпкдромбурн (VB и C#)
 
@@ -78,7 +78,7 @@ ms.locfileid: "105689114"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "105689114"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  
