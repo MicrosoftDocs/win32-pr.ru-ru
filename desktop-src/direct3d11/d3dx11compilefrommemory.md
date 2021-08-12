@@ -1,6 +1,6 @@
 ---
 title: Функция D3DX11CompileFromMemory (D3DX11async. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. Примечание. вместо использования этой функции рекомендуется компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API D3DCompile. Скомпилируйте шейдер или результат, который загружается в память.
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. Примечание. вместо использования этой функции рекомендуется компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API D3DCompile. Скомпилируйте шейдер или результат, который загружается в память.
 ms.assetid: 3396560f-f411-4c66-9f22-03c0050c74b0
 keywords:
 - D3DX11CompileFromMemory функция Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e10590c3db458a23bf4d52b6507146884630087
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 055fa070eb698298716abef11090a8c178cb4ef85f46bc6733df037a5778e4d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104987032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118536823"
 ---
 # <a name="d3dx11compilefrommemory-function"></a>Функция D3DX11CompileFromMemory
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -95,7 +95,7 @@ Type: **[ **size \_ T**](/windows/desktop/WinProg/windows-data-types)**
 
 Тип: **\* const [**D3D10ный \_ \_ макрос шейдера**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)**
 
-Необязательный параметр. Указатель на массив определений макросов (см. раздел [**D3D10 \_ Shader \_ Macro**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)). Последняя структура в массиве выступает в качестве признака конца, и все члены должны иметь значение 0. Если не используется, задайте  для Пдефинес **значение NULL**.
+Необязательный элемент. Указатель на массив определений макросов (см. раздел [**D3D10 \_ Shader \_ Macro**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)). Последняя структура в массиве выступает в качестве признака конца, и все члены должны иметь значение 0. Если не используется, задайте  для Пдефинес **значение NULL**.
 
 </dd> <dt>
 
@@ -104,7 +104,7 @@ Type: **[ **size \_ T**](/windows/desktop/WinProg/windows-data-types)**
 
 Тип: **[ **LPD3D10INCLUDE**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
-Необязательный параметр. Указатель на интерфейс для обработки включаемых файлов. Установка **значения NULL** приведет к ошибке компиляции, если шейдер содержит \# include.
+Необязательный элемент. Указатель на интерфейс для обработки включаемых файлов. Установка **значения NULL** приведет к ошибке компиляции, если шейдер содержит \# include.
 
 </dd> <dt>
 
@@ -188,7 +188,7 @@ Type: **[ **size \_ T**](/windows/desktop/WinProg/windows-data-types)**
 
 **D3DX11CompileFromMemory** возвращает E \_ INVALIDARG, если параметр *фресулт* предоставляет значение, отличное от **null** , при указании **значения NULL** для параметра *ппумп* . Дополнительные сведения об этой ситуации см. в разделе Примечания.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о **D3DX11CompileFromMemory** см. в разделе [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile).
 
@@ -204,13 +204,13 @@ Type: **[ **size \_ T**](/windows/desktop/WinProg/windows-data-types)**
 
 Кроме того, если вы передаете значение, отличное от **null** , *фресулт* при указании значения **null** для *ппумп*, **D3DX11CompileFromMemory** возвращает \_ код ошибки E INVALIDARG.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX11async. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX11async. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX11. lib</dt> </dl>    |
 
 

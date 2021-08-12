@@ -1,5 +1,5 @@
 ---
-description: Используется для регистрации поставщиков событий с помощью инструментарий управления Windows (WMI) (WMI).
+description: используется для регистрации поставщиков событий с помощью инструментарий управления Windows (WMI) (WMI).
 ms.assetid: d87f61a8-5549-4f33-ba67-31b5d72b5282
 ms.tgt_platform: multiple
 title: Класс __EventProviderRegistration
@@ -16,16 +16,16 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: caaad1b4ab03cfc1b43e4239b9144d3ceeade82f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce973f05aec0a1c859598c558ef8c2cc637a8faec22fd1d7f2ad2aaf383bd201
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557948"
 ---
 # <a name="__eventproviderregistration-class"></a>\_\_Класс Евентпровидеррегистратион
 
-Класс System **\_ \_ евентпровидеррегистратион** используется для регистрации поставщиков событий с помощью инструментарий управления Windows (WMI) (WMI).
+класс system **\_ \_ евентпровидеррегистратион** используется для регистрации поставщиков событий с помощью инструментарий управления Windows (WMI) (WMI).
 
 Приведенный ниже синтаксис является упрощенной версией кода MOF и включает все унаследованные свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -45,7 +45,7 @@ class __EventProviderRegistration : __ProviderRegistration
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ евентпровидеррегистратион** имеет следующие свойства.
 
@@ -60,7 +60,7 @@ class __EventProviderRegistration : __ProviderRegistration
 Тип доступа: чтение и запись
 </dt> </dl>
 
-Один или инструментарий управления Windows (WMI) несколько запросов языка запросов (WQL), описывающих события, поддерживаемые поставщиком событий.
+один или инструментарий управления Windows (WMI) несколько запросов языка запросов (WQL), описывающих события, поддерживаемые поставщиком событий.
 
 </dd> <dt>
 
@@ -77,11 +77,11 @@ class __EventProviderRegistration : __ProviderRegistration
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Только администраторы могут регистрировать или удалять поставщик событий, создавая экземпляр [**\_ \_ Win32Provider**](--win32provider.md) и [**\_ \_ евентпровидеррегистратион**](--eventconsumerproviderregistration.md). Класс **\_ \_ евентпровидеррегистратион** является производным от [**\_ \_ провидеррегистратион**](--providerregistration.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

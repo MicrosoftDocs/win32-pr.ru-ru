@@ -1,6 +1,6 @@
 ---
 title: Функция D3DX11GetImageInfoFromFile (D3DX11tex. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. Примечание. вместо использования этой функции рекомендуется использовать библиотеку Директкстекс, Жетметадатафромксксксфиле (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр). Извлекает сведения о заданном файле изображения.
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. Примечание. вместо использования этой функции рекомендуется использовать библиотеку Директкстекс, Жетметадатафромксксксфиле (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр). Извлекает сведения о заданном файле изображения.
 ms.assetid: 57768604-3672-49a0-8120-f09240b8fc98
 keywords:
 - D3DX11GetImageInfoFromFile функция Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8448d31a3f4fdb14855ea2c9456da87f9df1de4f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a2ba5827c17428cf4e5b335d2a16b67d9c448099be38366a1e9f463ba83a4285
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118536078"
 ---
 # <a name="d3dx11getimageinfofromfile-function"></a>Функция D3DX11GetImageInfoFromFile
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -96,17 +96,17 @@ HRESULT D3DX11GetImageInfoFromFile(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: D3DERR \_ инвалидкалл
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживает строки в Юникоде и ANSI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX11tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX11tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX11. lib</dt> </dl>  |
 
 

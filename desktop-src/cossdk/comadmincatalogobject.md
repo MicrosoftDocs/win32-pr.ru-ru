@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - ComAdmin.Idl
-ms.openlocfilehash: 19fb873e29ad235b11dfe6e7a95b2ad47a8405b2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bce57021774b3abc2f69a1120862912452629c3e70d9c8fd0ebcc5d39ce5203d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548591"
 ---
 # <a name="comadmincatalogobject-class"></a>Класс Комадминкаталогобжект
 
@@ -48,7 +48,7 @@ ms.locfileid: "104141463"
 
 Общие сведения о программном администрировании COM+ см. в разделе [Автоматизация администрирования com+](automating-com--administration.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Нельзя напрямую создать объект **комадминкаталогобжект** . Чтобы использовать методы этого объекта, необходимо создать объект [**комадминкаталог**](comadmincatalog.md) , получить ссылку на [**икомадминкаталог**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog), а затем использовать [**икомадминкаталог::-Collection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) для получения ссылки на интерфейс [**икаталогколлектион**](/windows/desktop/api/ComAdmin/nn-comadmin-icatalogcollection) , представляющий коллекцию верхнего уровня, или использовать [**икаталогколлектион:: IsCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-getcollection) для доступа к коллекциям, которые не являются верхним уровнем.
 
@@ -102,7 +102,7 @@ SysFreeString(bstrItemName);
 
 
 
-Чтобы использовать этот класс из Visual Basic Майкрософт, добавьте ссылку на библиотеку типов администрирования COM+. Объект Комадминкаталогколлектион можно создать, вызвав метод [**IsCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) для объекта [**комадминкаталог**](comadmincatalog.md) или [**комадминкаталогколлектион**](comadmincatalogcollection.md) .
+чтобы использовать этот класс из Visual Basic майкрософт, добавьте ссылку на библиотеку типов администрирования COM+. Объект Комадминкаталогколлектион можно создать, вызвав метод [**IsCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) для объекта [**комадминкаталог**](comadmincatalog.md) или [**комадминкаталогколлектион**](comadmincatalogcollection.md) .
 
 Вызовите метод [**заполнения**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-populate) объекта [**комадминкаталогколлектион**](comadmincatalogcollection.md) , чтобы заполнить коллекцию всеми ее элементами. Выполните итерацию по каждому элементу в коллекции. Когда вы найдете интересующий элемент, вы можете изменить свойства элемента и выйти из итерации. При внесении любых изменений в элементы коллекции необходимо вызвать метод [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges) объекта **комадминкаталогколлектион** , чтобы сохранить изменения в каталоге COM+.
 
@@ -128,7 +128,7 @@ objAppCollection.SaveChanges
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

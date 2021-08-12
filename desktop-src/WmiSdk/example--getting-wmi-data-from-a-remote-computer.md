@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Пример. получение данных WMI с удаленного компьютера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c3375bd25073defa92358f697ee4165ddb57793
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 722247d9b58c9fc27c5fac63a97f86d0c155faa92e41fc68506c5d280d0b040a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556627"
 ---
 # <a name="example-getting-wmi-data-from-a-remote-computer"></a>Пример. получение данных WMI с удаленного компьютера
 
@@ -37,7 +37,7 @@ ms.locfileid: "105702066"
 
     Дополнительные сведения см. в разделе [Создание подключения к пространству имен WMI](creating-a-connection-to-a-wmi-namespace.md).
 
-4.  Получите указатель на [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) для \\ \\ корневого \\ пространства имен CIMV2 на удаленном компьютере, вызвав [**ивбемлокатор:: коннектсервер**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). При подключении к удаленному компьютеру необходимо знать имя компьютера, домен, имя пользователя и пароль удаленного компьютера, к которому вы подключаетесь. Все эти атрибуты передаются в метод **ивбемлокатор:: коннектсервер** . Кроме того, убедитесь, что имя пользователя на компьютере, который пытается подключиться к удаленному компьютеру, имеет правильные права доступа на удаленном компьютере. Дополнительные сведения см. в разделе [подключение через брандмауэр Windows](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). Чтобы подключиться к локальному компьютеру, см. [Пример: получение данных WMI с локального компьютера](example--getting-wmi-data-from-the-local-computer.md) и [Создание подключения к пространству имен WMI](creating-a-connection-to-a-wmi-namespace.md).
+4.  Получите указатель на [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) для \\ \\ корневого \\ пространства имен CIMV2 на удаленном компьютере, вызвав [**ивбемлокатор:: коннектсервер**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). При подключении к удаленному компьютеру необходимо знать имя компьютера, домен, имя пользователя и пароль удаленного компьютера, к которому вы подключаетесь. Все эти атрибуты передаются в метод **ивбемлокатор:: коннектсервер** . Кроме того, убедитесь, что имя пользователя на компьютере, который пытается подключиться к удаленному компьютеру, имеет правильные права доступа на удаленном компьютере. дополнительные сведения см. в разделе [подключение через брандмауэр Windows](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). Чтобы подключиться к локальному компьютеру, см. [Пример: получение данных WMI с локального компьютера](example--getting-wmi-data-from-the-local-computer.md) и [Создание подключения к пространству имен WMI](creating-a-connection-to-a-wmi-namespace.md).
 
     При обработке имен пользователей и паролей рекомендуется, чтобы пользователь получил запрос на ввод информации, использовал сведения, а затем удалил информацию, чтобы предотвратить перехват информации неавторизованным пользователем. Шаг 4 в приведенном ниже примере кода использует [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) для получения имени пользователя и пароля, а затем использует [**секурезеромемори**](/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) , чтобы избавиться от информации после ее использования в [**ивбемлокатор:: коннектсервер**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). Дополнительные сведения см. в разделе [обработка паролей](/windows/desktop/SecBP/handling-passwords) и [запрос учетных данных пользователя](/windows/desktop/SecBP/asking-the-user-for-credentials) на сайте MSDN.
 

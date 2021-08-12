@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cac6e842dabeaabc60451737fae56eb2cb61915
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8ec7328ce346b51c3315086dcc193f421081dd77fc3a169bc448fba10bc7fa3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104987200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118536847"
 ---
 # <a name="d3dx11_pass_shader_desc-structure"></a>\_ \_ Структура построителя шейдеров D3DX11 Pass \_
 
@@ -37,7 +37,7 @@ typedef struct _D3DX11_PASS_SHADER_DESC {
 
 
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 <dl> <dt>
 
@@ -63,19 +63,19 @@ typedef struct _D3DX11_PASS_SHADER_DESC {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 D3DX11 \_ Pass \_ Shader \_ DESC используется с методами [**ID3DX11EffectPass**](id3dx11effectpass.md) Get \* шадердеск.
 
 Если это назначение встроенного шейдера, возвращаемым интерфейсом будет анонимная переменная шейдера, которая не может быть извлечена другим способом. Его имя в описании переменной будет «$Anonymous». Если в блоке Pass нет назначения этого типа, Пшадервариабле! = **null**, но пшадервариабле->IsValid () = = **false**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx11effect. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx11effect. h</dt> </dl> |
 
 
 

@@ -9,18 +9,18 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c1c2640977c23bac5e07474ef618daea0bfcc617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fc3b7badb9ef4534c9f1caf79ad20d0ffe6eaf7775c7f895f4ae39a27219037
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118561100"
 ---
 # <a name="data-types"></a>Типы данных
 
 ## <a name="in-this-section"></a>Содержание раздела
 
--   [среда выполнения Windows базовых типов данных](base-data-types.md)
+-   [Windows Базовые типы данных среды выполнения](base-data-types.md)
 -   [**HSTRING**](hstring.md)
 -   [**\_БУФЕР HString**](hstring-buffer.md)
 -   [**\_ \_ обратный вызов пинспект HString**](/windows/win32/api/winstring/nc-winstring-pinspect_hstring_callback)

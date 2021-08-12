@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Невычислительные типы счетчиков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ba2757f08dcb2256236117daf2ef3343004425
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a05da34058ceeb99ab60d8cc3d4f72cb3eec85194e48bb707a929eb2f68aa7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555164"
 ---
 # <a name="noncomputational-counter-types"></a>Невычислительные типы счетчиков
 
@@ -18,7 +18,7 @@ ms.locfileid: "104265376"
 
 Свойство **филестобеиндексед** в классе [**Win32 \_ перфравдата \_ контентиндекс \_ индексингсервице**](/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) является примером типа счетчика **\_ счетчика производительности \_ равкаунт** . Он содержит количество файлов, которые не были проиндексированы.
 
-Типы счетчиков определяются константой, определенной в Винперф. h, которая находится в пакете средств разработки программного обеспечения (SDK) для Microsoft Windows. В следующей таблице перечислены предоставленные невычислительные типы счетчиков.
+типы счетчиков определяются константой, определенной в винперф. h, которая находится в пакете средств разработки программного обеспечения (SDK) для Microsoft Windows. В следующей таблице перечислены предоставленные невычислительные типы счетчиков.
 
 
 
@@ -34,7 +34,7 @@ ms.locfileid: "104265376"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

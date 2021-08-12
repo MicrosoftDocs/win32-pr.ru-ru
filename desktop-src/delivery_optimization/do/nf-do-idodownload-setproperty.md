@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 0d496f49851aab665e49f3aaeb51e4b941d6c183
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: a7d966edb083107b80f0723bce195bfc588797efb8ad1931e0e75a468bec5a3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "103785100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543903"
 ---
 # <a name="idodownloadsetproperty-method"></a>Метод Идодовнлоад:: SetProperty
 
@@ -53,10 +53,10 @@ HRESULT SetProperty(
 |DO_E_UNKNOWN_PROPERTY_ID|*propId* неизвестен.|
 |DO_E_INVALID_STATE|Скачивание сейчас не находится в состоянии, допускающем установку свойств.|
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Минимальная версия клиента** | Windows 10, \[ только приложения Win32 версии 1809\] |
-| **Минимальная версия сервера** | Windows Server, \[ только приложения Win32 версии 1809\] |
+| **Минимальная версия клиента** | Windows 10, версия 1809 \[ Только приложения Win32\] |
+| **Минимальная версия сервера** | Windows Сервер, \[ только приложения Win32 версии 1809\] |
 | **Header** | Do. h |

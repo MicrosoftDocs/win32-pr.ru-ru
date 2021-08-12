@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winnt.h
-ms.openlocfilehash: 053d4166882b6254dec313cb10fbf10588ba0071
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b4051a6c17e9861d656207335b2543cf7d886e74569c269df2a4f680f47fbe3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555184"
 ---
 # <a name="namespace-ace-flag-constants"></a>Константы флагов пространства имен ACE
 
@@ -96,13 +96,13 @@ ACE применяется только к дочерним пространст
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Файл Winnt. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Файл Winnt. h</dt> </dl> |
 
 
 
@@ -119,7 +119,7 @@ ACE применяется только к дочерним пространст
 [Установка наследования безопасности пространства имен](establishing-inheritance-of-namespace-security.md)
 </dt> <dt>
 
-[**\_\_системсекурити**](--systemsecurity.md)
+[**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> </dl>
 
  

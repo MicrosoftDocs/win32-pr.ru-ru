@@ -1,5 +1,5 @@
 ---
-title: Интерфейс ID3DX11Effect (D3dx11effect. h)
+title: Интерфейс ID3DX11Effect (D3dx11effect.h)
 description: Интерфейс ID3DX11Effect управляет набором объектов состояния, ресурсов и шейдеров для реализации результата отрисовки.
 ms.assetid: 34429d51-6b45-4a62-bce1-50c4da02edac
 keywords:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51c9b945f09ad0424ecd6b546aefe68bea276ffc
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 670e60cf68c812b6d8b296aac41c3000fa8c1405c909e8827532625a6cd93b0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535932"
 ---
 # <a name="id3dx11effect-interface"></a>Интерфейс ID3DX11Effect
 
@@ -92,14 +92,14 @@ ms.locfileid: "107314457"
 > </table>>
 >  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------|-------------------------------------------------------------------------------------------|
 | Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 [Effects 11, интерфейсы](d3d11-graphics-reference-effects11-interfaces.md)
 

@@ -3,7 +3,7 @@ title: Строковый элемент
 description: Представляет строковый ресурс.
 ms.assetid: 83e5bdbb-ef86-4942-af40-2e327360ee67
 keywords:
-- Лента для строковых элементов Windows
+- элемент строки Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0b0dab5d7ce1485aad5fe1e15442069c488933aa
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 80558bed1e2152454df46d8a8dc6ab4fc40056f0257a08c91026504ec64f1722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439412"
 ---
 # <a name="string-element"></a>Строковый элемент
 
@@ -135,7 +135,7 @@ ms.locfileid: "111443905"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-- **Минимальная поддерживаемая система**: Windows 7 
+- **минимальная поддерживаемая система**: Windows 7 
 - **Может быть пустым**: нет
 
 

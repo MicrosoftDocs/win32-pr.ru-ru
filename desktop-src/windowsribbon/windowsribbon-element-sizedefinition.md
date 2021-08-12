@@ -3,7 +3,7 @@ title: Сизедефинитион, элемент
 description: Представляет пользовательский шаблон макета для элементов управления ленты.
 ms.assetid: f90bb469-aee2-4bba-9efe-142a39a8c1ae
 keywords:
-- Лента Windows для элемента Сизедефинитион
+- элемент сизедефинитион Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cc68ac032459bed77d402ebd860886398748c874
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 982825649afb7640f87cb7032b000d837915c4bc9d970444da3c5cd3a5a98375
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439539"
 ---
 # <a name="sizedefinition-element"></a>Сизедефинитион, элемент
 
@@ -194,12 +194,12 @@ ms.locfileid: "111444805"
 ## <a name="element-information"></a>Сведения об элементе
 
 
-- **Минимальная поддерживаемая система**: Windows 7 
+- **минимальная поддерживаемая система**: Windows 7 
 - **Может быть пустым**: нет
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

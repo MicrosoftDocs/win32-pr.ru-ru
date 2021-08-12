@@ -4,12 +4,12 @@ ms.assetid: e026f860-be4d-40a5-b951-15b8be3cd626
 title: Доступ к вводу пера и управление им
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 333126f195154241333127ec585864bd9d592a08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7df56b690a8b7459f42e7d692e47dff4e9f1c00330e02cc0c912d7a3ca3dda02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452062"
 ---
 # <a name="accessing-and-manipulating-stylus-input"></a>Доступ к вводу пера и управление им
 
@@ -25,7 +25,7 @@ API-интерфейсы Стилусинпут не предназначены 
 
 Если необходимо напрямую взаимодействовать с потоком данных пера планшета или когда приложение может блокировать рукописный ввод в режиме реального времени, используйте объект [**RealTimeStylus**](realtimestylus-class.md) . Используйте объект [**InkCollector**](inkcollector-class.md) , объект [**InkOverlay**](inkoverlay-class.md) , элемент управления [InkPicture](inkpicture-control-reference.md) или элемент управления [InkEdit](inkedit-control-reference.md) , если поведение этих объектов по умолчанию обеспечивает необходимое поведение.
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 В следующих разделах описываются элементы API-интерфейсов Стилусинпут:
 
@@ -48,7 +48,7 @@ API-интерфейсы Стилусинпут не предназначены 
 -   [Рекомендации по повышению производительности для API-интерфейсов Стилусинпут](performance-considerations-for-the-stylusinput-apis.md)
 -   [Рекомендации по частичному доверию для API-интерфейсов Стилусинпут](partial-trust-considerations-for-the-stylusinput-apis.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

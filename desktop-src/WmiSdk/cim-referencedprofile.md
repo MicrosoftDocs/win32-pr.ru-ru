@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - Root\interop
-ms.openlocfilehash: 8fdc0d8dccd325ae7e13de971e09cce6faf93455
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39cfa6dac2fd827b2ce690afa5cdd7126322c2f81182db674517c75911791a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556819"
 ---
 # <a name="cim_referencedprofile-class"></a>\_Класс CIM референцедпрофиле
 
@@ -51,7 +51,7 @@ class CIM_ReferencedProfile : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ референцедпрофиле** имеет следующие свойства.
 
@@ -83,13 +83,13 @@ class CIM_ReferencedProfile : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Использование свойств **Dependent** и **Antecedent** в ассоциации **CIM \_ референцедпрофиле** определено таким образом, что к профилю, на который указывает ссылка, относится предшествующая задача, а профиль, ссылающийся на ссылку, является зависимым.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

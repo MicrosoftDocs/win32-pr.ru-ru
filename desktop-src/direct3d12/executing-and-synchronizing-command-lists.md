@@ -9,12 +9,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90d5362d0f093c7c1034e03d396ad28c40d4d600
-ms.sourcegitcommit: 170bc12e9724d00cecbb96d57c7226c51e135dee
+ms.openlocfilehash: b41677ee1bc17fb2a935f157d969352617c0d5c3c15eb38a76225b3a8c71e7f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113489182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529144"
 ---
 # <a name="executing-and-synchronizing-command-lists"></a>Выполнение и синхронизация списков команд
 
@@ -27,7 +27,7 @@ ms.locfileid: "113489182"
 -   [Синхронизация выполнения списка команд с помощью ограждений очереди команд](#synchronizing-command-list-execution-using-command-queue-fences)
 -   [Синхронизация ресурсов, к которым обращаются очереди команд](#synchronizing-resources-accessed-by-command-queues)
 -   [Поддержка очереди команд для мозаичных ресурсов](#command-queue-support-for-tiled-resources)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="command-queue-overview"></a>Общие сведения о очереди команд
 

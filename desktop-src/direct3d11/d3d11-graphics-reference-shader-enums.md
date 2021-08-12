@@ -6,12 +6,12 @@ keywords:
 - перечисления, шейдер Direct3D 11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30d8a82f0844dba0a4fc1a8eed1cd2222f6b6680
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d53fe2d88e4297dd6a31876779adfc1ddeb6a4c0db54480b104da691459f6d83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104984132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118537658"
 ---
 # <a name="shader-enumerations-direct3d-11-graphics"></a>Перечисления шейдеров (графика Direct3D 11)
 
@@ -39,7 +39,7 @@ ms.locfileid: "104984132"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

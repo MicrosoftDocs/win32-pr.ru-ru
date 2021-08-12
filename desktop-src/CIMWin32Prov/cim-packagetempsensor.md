@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 28c3fa3ba569a2bf3101d62734bb9e4d5372fcf0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bf5df95b6e9ee5fd01eb86df80d7defb405c4ac6aa3e4dbdcc660d0f087fec7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118679238"
 ---
 # <a name="cim_packagetempsensor-class"></a>\_Класс CIM паккажетемпсенсор
 
@@ -51,7 +51,7 @@ class CIM_PackageTempSensor : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ паккажетемпсенсор** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_PackageTempSensor : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Модель CIM \_ Паккажетемпсенсор** является производным [**от \_ зависимости CIM**](cim-dependency.md).
 
@@ -97,7 +97,7 @@ class CIM_PackageTempSensor : CIM_Dependency
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -111,7 +111,7 @@ class CIM_PackageTempSensor : CIM_Dependency
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

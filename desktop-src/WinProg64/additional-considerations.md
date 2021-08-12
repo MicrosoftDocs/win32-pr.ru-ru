@@ -3,15 +3,15 @@ title: Дополнительные сведения
 description: При переносе кода учитывайте следующие моменты.
 ms.assetid: 2d649a09-b593-477a-9b4f-d2404784f4b0
 keywords:
-- Советы по переносу 64-разрядное программирование для Windows
+- советы по переносу 64-разрядного Windowsного программирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7607685f4b4ba04b86da276c38090a48ce0fead
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 199f522bebf0d6d5552aa81d99aab12f77685dea35eb329b9e7d11d46b4f1500
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "105704035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118561540"
 ---
 # <a name="additional-considerations"></a>Дополнительные сведения
 
@@ -120,7 +120,7 @@ ms.locfileid: "105704035"
     ```
 
 - Не передавайте `(HANDLE)0xFFFFFFFF` в такие функции, как [**CreateFileMapping**](/windows/desktop/api/winbase/nf-winbase-createfilemappinga). Вместо этого используйте **недопустимое \_ \_ значение Handle**.
-- При печати строки используйте правильные описатели формата. Используйте% p для печати указателей в шестнадцатеричном формате. Это лучший вариант для печати указателей. Microsoft Visual C++ поддерживает% I для печати данных в виде полиморфизма. Visual C++ также поддерживает% I64 для печати значений 64 бит.
+- При печати строки используйте правильные описатели формата. Используйте% p для печати указателей в шестнадцатеричном формате. Это лучший вариант для печати указателей. Microsoft Visual C++ поддерживает% I для печати данных полиморфизма. Visual C++ также поддерживает% I64 для печати значений 64 бит.
 
  
 

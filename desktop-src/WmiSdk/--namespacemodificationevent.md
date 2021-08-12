@@ -19,12 +19,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 5af5783d3ebfbfb4b7842cb86b1919f8dbed1365
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3243afe0a8cae34e83ad85e2d89a3becab8d07775ba3ec0c3283fd4ea8ed8bbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103817616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557817"
 ---
 # <a name="__namespacemodificationevent-class"></a>\_\_Класс Намеспацемодификатионевент
 
@@ -51,7 +51,7 @@ class __NamespaceModificationEvent : __NamespaceOperationEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ намеспацемодификатионевент** имеет следующие свойства.
 
@@ -129,7 +129,7 @@ class __NamespaceModificationEvent : __NamespaceOperationEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ намеспацемодификатионевент** является производным от [**\_ \_ намеспацеоператионевент**](--namespaceoperationevent.md).
 
@@ -137,7 +137,7 @@ class __NamespaceModificationEvent : __NamespaceOperationEvent
 
 Обратите внимание, что свойство [**Name**](--namespace.md) экземпляра **\_ \_ пространства имен** не может быть изменено, так как пространства имен не могут быть переименованы. Чтобы изменить имя пространства имен, необходимо удалить экземпляр **\_ \_ пространства имен** и создать его повторно с новым именем. Поэтому события изменения пространства имен создаются при возникновении изменений в квалификаторах и свойствах, отличных от **Name**. Событие изменения пространства имен не создается при возникновении какого-либо изменения в пространстве имен. Событие изменения пространства имен создается только при изменении экземпляра пространства имен.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

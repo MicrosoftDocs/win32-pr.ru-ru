@@ -1,25 +1,25 @@
 ---
-description: Начиная с Windows Vista, Инструментарий WMI содержит множество новых функций, основанных на запросах пользователей WMI.
+description: начиная с Windows Vista инструментарий wmi содержит множество новых функций, основанных на запросах пользователей WMI.
 ms.assetid: 604a86d2-9a8e-4266-93b8-13676f768b29
 ms.tgt_platform: multiple
-title: Новые возможности Windows Vista
+title: новые возможности Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee950becb906f89445f9ddfb258f4f7a608ce1a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c47a2e63307004430099923d3d0a151ed9122b7fb96ff127c59145f1a911a1dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553273"
 ---
-# <a name="whats-new-in-windowsvista"></a>Новые возможности Windows Vista
+# <a name="whats-new-in-windowsvista"></a>новые возможности Windows Vista
 
-Начиная с Windows Vista, Инструментарий WMI содержит множество новых функций, основанных на запросах пользователей WMI.
+начиная с Windows Vista инструментарий wmi содержит множество новых функций, основанных на запросах пользователей WMI.
 
 -   [Новое средство устранения неполадок](#new-troubleshooting-tool)
--   [Новые функции безопасности в Windows Vista](#new-security-features-in-windows-vista)
--   [Другие новые возможности в Windows Vista](#other-new-features-in-windows-vista)
--   [См. также](#related-topics)
+-   [новые функции безопасности в Windows Vista](#new-security-features-in-windows-vista)
+-   [другие новые возможности Windows Vista](#other-new-features-in-windows-vista)
+-   [Связанные темы](#related-topics)
 
 ## <a name="new-troubleshooting-tool"></a>Новое средство устранения неполадок
 
@@ -30,13 +30,13 @@ ms.locfileid: "105713019"
 <span id="WMI_Diagnosis_Utility"></span><span id="wmi_diagnosis_utility"></span><span id="WMI_DIAGNOSIS_UTILITY"></span>служебная программа для диагностики WMI
 </dt> <dd>
 
-Эта программа проверяет текущее состояние службы WMI и связанные компоненты, параметры DCOM и параметры реестра на локальном компьютере. Программа сообщает о проблемах и предлагает варианты их восстановления. Дополнительные сведения и о загрузке программы см. в разделе [служебная программа для диагностики WMI](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en).
+Эта программа проверяет текущее состояние службы WMI и связанные компоненты, параметры DCOM и параметры реестра на локальном компьютере. Программа сообщает о проблемах и предлагает варианты их восстановления. дополнительные сведения и о загрузке программы см. в разделе [служебная программа для диагностики WMI](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en).
 
 </dd> </dl>
 
-## <a name="new-security-features-in-windows-vista"></a>Новые функции безопасности в Windows Vista
+## <a name="new-security-features-in-windows-vista"></a>новые функции безопасности в Windows Vista
 
-В следующем списке перечислены новые функции безопасности WMI, доступные в Windows Vista.
+в следующем списке перечислены новые функции безопасности WMI, доступные в Windows Vista.
 
 <dl> <dt>
 
@@ -78,13 +78,13 @@ ms.locfileid: "105713019"
 <span id="User_Account_Control"></span><span id="user_account_control"></span><span id="USER_ACCOUNT_CONTROL"></span>Контроль учетных записей пользователей
 </dt> <dd>
 
-Управление учетными записями пользователей (UAC) влияет на то, какие данные WMI возвращаются, удаленный доступ и как должны выполняться сценарии. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](user-account-control-and-wmi.md). Дополнительные сведения о UAC см. в разделе [Начало работы с контролем учетных записей в Windows Vista](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista).
+Управление учетными записями пользователей (UAC) влияет на то, какие данные WMI возвращаются, удаленный доступ и как должны выполняться сценарии. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](user-account-control-and-wmi.md). дополнительные сведения о контроле учетных записей см. [в разделе начало работы со службой управления правами на Windows Vista](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista).
 
 </dd> </dl>
 
-## <a name="other-new-features-in-windows-vista"></a>Другие новые возможности в Windows Vista
+## <a name="other-new-features-in-windows-vista"></a>другие новые возможности Windows Vista
 
-В следующем списке перечислены новые функции WMI, доступные в Windows Vista.
+в следующем списке перечислены новые функции WMI, доступные в Windows Vista.
 
 <dl> <dt>
 
@@ -105,21 +105,21 @@ ms.locfileid: "105713019"
 <span id="Support_for_IPv6_and_IPv4"></span><span id="support_for_ipv6_and_ipv4"></span><span id="SUPPORT_FOR_IPV6_AND_IPV4"></span>Поддержка IPv6 и IPv4
 </dt> <dd>
 
-[Поставщик IP-маршрута](/previous-versions/windows/desktop/wmiiprouteprov/ip-route-provider) WMI и классы сетевых классов предоставляют данные для адресов IPv4. Начиная с Windows Vista, Инструментарий WMI также обеспечивает ограниченную поддержку возможностей сети IPv6. Дополнительные сведения см. [в разделе Поддержка IPv6 и IPv4 в WMI](ipv6-and-ipv4-support-in-wmi.md).
+[Поставщик IP-маршрута](/previous-versions/windows/desktop/wmiiprouteprov/ip-route-provider) WMI и классы сетевых классов предоставляют данные для адресов IPv4. начиная с Windows Vista, инструментарий WMI также обеспечивает ограниченную поддержку возможностей сети IPv6. Дополнительные сведения см. [в разделе Поддержка IPv6 и IPv4 в WMI](ipv6-and-ipv4-support-in-wmi.md).
 
 </dd> <dt>
 
 <span id="Changes_to_remote_connections"></span><span id="changes_to_remote_connections"></span><span id="CHANGES_TO_REMOTE_CONNECTIONS"></span>Изменения удаленных подключений
 </dt> <dd>
 
-Для подключения к пространству имен WMI на удаленном компьютере под управлением Windows Vista могут потребоваться изменения параметров [брандмауэра Windows](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx), [управления учетными записями пользователей](/previous-versions/aa905108(v=msdn.10))или DCOM. Дополнительные сведения см. [в статье удаленное подключение к WMI, начиная с ОС Vista](connecting-to-wmi-remotely-starting-with-vista.md).
+для подключения к пространству имен WMI на удаленном компьютере под управлением Windows Vista могут потребоваться изменения [Windows параметров брандмауэра](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx), [контроля учетных записей пользователей](/previous-versions/aa905108(v=msdn.10))или DCOM. Дополнительные сведения см. [в статье удаленное подключение к WMI, начиная с ОС Vista](connecting-to-wmi-remotely-starting-with-vista.md).
 
 </dd> <dt>
 
 <span id="Changes_to_________Win32_QuickFixEngineering"></span><span id="changes_to_________win32_quickfixengineering"></span><span id="CHANGES_TO_________WIN32_QUICKFIXENGINEERING"></span>Изменения в [ **Win32 \_ куиккфиксенгиниринг**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering)
 </dt> <dd>
 
-Для систем, работающих в операционной системе Windows Vista и более поздних версий, этот класс возвращает только обновления, предоставляемые компонентом обслуживания на основе компонентов (CBS). Эти обновления не перечислены в реестре. Обновления, предоставляемые установщик Windows (MSI) или [Центр обновления Windows](https://update.microsoft.com/microsoftupdate/v6/default.aspx?ln=en-us) , не возвращаются [**\_ куиккфиксенгиниринг Win32**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering).
+для систем, работающих в Windows Vista и более поздних операционных системах, этот класс возвращает только обновления, предоставляемые компонентом обслуживания на основе компонентов (CBS). Эти обновления не перечислены в реестре. обновления, предоставляемые установщик Windows (MSI) или [Центр обновления Windows](https://update.microsoft.com/microsoftupdate/v6/default.aspx?ln=en-us) , не возвращаются [**\_ куиккфиксенгиниринг Win32**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering).
 
 </dd> <dt>
 
@@ -130,7 +130,7 @@ ms.locfileid: "105713019"
 
 </dd> <dt>
 
-<span id="Windows_Installer_Provider_changes"></span><span id="windows_installer_provider_changes"></span><span id="WINDOWS_INSTALLER_PROVIDER_CHANGES"></span>Изменения поставщика установщик Windows
+<span id="Windows_Installer_Provider_changes"></span><span id="windows_installer_provider_changes"></span><span id="WINDOWS_INSTALLER_PROVIDER_CHANGES"></span>Windows Изменения поставщика установщика
 </dt> <dd>
 
 [**Win32 \_ У продукта**](/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)) есть новые свойства и методы для предоставления дополнительных данных о продукте.
@@ -161,7 +161,7 @@ ms.locfileid: "105713019"
 <span id="Event_messages"></span><span id="event_messages"></span><span id="EVENT_MESSAGES"></span>Сообщения о событиях
 </dt> <dd>
 
-В Windows Vista имеются новые сообщения о событиях. Дополнительные сведения см. в разделе [события WMI](wmi-events.md).
+Windows В Vista есть новые сообщения о событиях. Дополнительные сведения см. в разделе [события WMI](wmi-events.md).
 
 </dd> <dt>
 
@@ -175,11 +175,11 @@ ms.locfileid: "105713019"
 <span id="New_provider_hosting_models"></span><span id="new_provider_hosting_models"></span><span id="NEW_PROVIDER_HOSTING_MODELS"></span>Новые модели размещения поставщика
 </dt> <dd>
 
-В Windows Vista добавлены новые модели размещения поставщиков. Дополнительные сведения см. в разделе [размещение и безопасность поставщика](provider-hosting-and-security.md).
+для Windows Vista добавлены новые модели размещения поставщика. Дополнительные сведения см. в разделе [размещение и безопасность поставщика](provider-hosting-and-security.md).
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: 'Функция прокси компонента Windows Imaging Component (WIC) для Иенумстринг:: Next.'
+description: 'Windows Функция-посредник компонента обработки изображений (WIC) для Иенумстринг:: Next.'
 ms.assetid: a3f6a32b-3043-4bea-a70b-0b4507b4e3a1
 title: Функция IEnumString_Next_WIC_Proxy
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: ae3e25b355268fe63025692bf116b60b45122e76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ef7fcced4e38b83372c214a11486f5942c9594e7158f3463699ea82c56b81c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439585"
 ---
 # <a name="ienumstring_next_wic_proxy-function"></a>Иенумстринг \_ Следующая \_ \_ функция прокси-сервера WIC
 
-Функция прокси компонента Windows Imaging Component (WIC) для Иенумстринг:: Next.
+Windows Функция-посредник компонента обработки изображений (WIC) для Иенумстринг:: Next.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -43,7 +43,7 @@ HRESULT IEnumString_Next_WIC_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **иенумстринг \** _
+Тип: **иенумстринг \***
 
 парамдеск
 
@@ -51,7 +51,7 @@ HRESULT IEnumString_Next_WIC_Proxy(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
@@ -63,8 +63,8 @@ HRESULT IEnumString_Next_WIC_Proxy(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения Windows Vista\]<br/>                                                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                                                                             |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), Windows \[ только классические приложения Vista\]<br/>                                                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Винкодек. lib</dt> </dl> |
 
 

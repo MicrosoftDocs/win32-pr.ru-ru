@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: bd9fdd2262d4499efd6a86fbc5b99bae786016f3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cf5c354711ec9ca34af1809707a7a869d39a3026ca5cb7ca11d2245c02be049b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547610"
 ---
 # <a name="propertyinfo-collection"></a>Коллекция PropertyInfo
 
@@ -40,7 +40,7 @@ ms.locfileid: "104141806"
 
 Объект [**комадминкаталогобжект**](comadmincatalogobject.md) в коллекции поддерживает следующие свойства:
 
--   [Name](#name)
+-   [Имя](#name)
 
 ### <a name="name"></a>Имя
 
@@ -49,7 +49,7 @@ ms.locfileid: "104141806"
 | Ввод | Значение |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Описание    | Имя свойства. Это свойство возвращается при вызове метода свойства [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) или [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) для объекта этой коллекции. |
-| Access         | ReadOnly                                                                                                                                                                                         |
+| Доступ         | ReadOnly                                                                                                                                                                                         |
 | Тип           | Строка                                                                                                                                                                                           |
 | По умолчанию        | None                                                                                                                                                                                             |
 | Минимальная система | Windows 2000                                                                                                                                                                                     |

@@ -4,12 +4,12 @@ description: Заметка — это определяемая пользова
 ms.assetid: a81198d2-c4d7-47b5-b3b8-2de11a9ee9a3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9583dafd3e1fb314ae6ac9e53d609bebc74a030
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1109695f6239708e8f241b796b888b8d494acd7ab806b98c08352dbe3aeaee3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118538568"
 ---
 # <a name="annotation-syntax-direct3d-11"></a>Синтаксис аннотации (Direct3D 11)
 
@@ -39,13 +39,13 @@ ms.locfileid: "103987538"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 В угловые скобки можно добавить несколько аннотаций, каждое из которых отделяется точкой с запятой. Интерфейсы API платформы эффектов распознавать заметки в глобальных переменных. все остальные заметки игнорируются.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
-Вот несколько примеров.
+Рассмотрим некоторые примеры.
 
 
 ```
@@ -72,7 +72,7 @@ return pos;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: d6509917-05ce-4b8e-b1aa-04f07d947392
 title: Приложение а. исходный код только для IPv4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f912d3ae45a3347a179734b3f7526b600d84827
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2650d4c6b98d7f05b6630f0eccc7b81e9017a2fcaa7aeca2f1ac5c3e148064ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560640"
 ---
 # <a name="appendix-a-ipv4-only-source-code"></a>Приложение а. исходный код только для IPv4
 
@@ -25,7 +25,7 @@ ms.locfileid: "103897362"
  
 
 > [!Note]  
-> Сравнивая исходный код в приложении A (только IPv4) и приложении б (независимо от версии IP), вы получаете представление об изменениях, необходимых для изменения приложения Windows Sockets для добавления поддержки IPv6.
+> сравнивая исходный код в приложении A (только IPv4) и приложении б (независимо от версии IP), вы получаете представление об изменениях, необходимых для изменения приложения Windows sockets для добавления поддержки IPv6.
 
  
 

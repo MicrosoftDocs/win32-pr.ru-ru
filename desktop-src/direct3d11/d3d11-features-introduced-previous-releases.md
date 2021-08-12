@@ -4,12 +4,12 @@ ms.assetid: c70a7f7d-1833-478f-bd71-7462d860b5f4
 description: Дополнительные сведения о функциях, появившихся в предыдущих выпусках.
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd1a055ce4d3c021c64af1855c01feef7cbfacd6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2b43905762202064643c6e2b017bb56f1c76da17f0281a97e5b9cc6c96addea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118538125"
 ---
 # <a name="features-introduced-in-previous-releases"></a>Функции, появившиеся в предыдущих выпусках
 
@@ -22,14 +22,14 @@ ms.locfileid: "104072435"
 
 | Раздел                                                                                                | Описание                                                                                                                            |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| [Новые возможности пакета SDK для Windows 7 августа 2009 и Direct3D 11](dx11-whats-new.md)<br/>             | Эта версия Windows 7 или Direct3D 11 поставляется в составе пакета SDK DirectX и содержит новые функции, средства и документацию.<br/> |
+| [новые возможности пакета SDK для 2009 Windows 7 и Direct3D 11](dx11-whats-new.md)<br/>             | эта версия Windows 7/Direct3D 11 поставляется в составе пакета SDK DirectX и содержит новые функции, средства и документацию.<br/> |
 | [Новые возможности Direct3D 11 (ознакомительная техническая версия) за Ноябрь 2008](dx11-08nov-whats-new.md)<br/> | Эта версия Direct3D 11 содержит новые функции, средства и документацию.<br/>                                                |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 85795cdd-5a4f-4199-98bd-b5ce2299338b
 title: Транзакционные и потоковые приложения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a000f3aa9c52fe6ce60622a613d6f4b9689b8bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f0e55a21ba552ed768b29b784a557633edfc5734ec266893ede04fded76e538
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118559500"
 ---
 # <a name="transactional-versus-streaming-applications"></a>Транзакционные и потоковые приложения
 
@@ -21,11 +21,11 @@ ms.locfileid: "105701497"
 
 После определения типа приложения также определяются его характеристики сети и протокола.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Высокопроизводительные приложения Windows Sockets](high-performance-windows-sockets-applications-2.md)
+[высокопроизводительные Windows приложения сокетов](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Измерения производительности](performance-dimensions-2.md)

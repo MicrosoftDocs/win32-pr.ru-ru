@@ -4,12 +4,12 @@ ms.assetid: 2465dd92-6ab4-4a1f-abd4-1d2abca6f9ce
 title: System. Video. Енкодингбитрате
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc1c6a67252c178b305093e1ed752b302307e848
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5552438d0288024b6c4f755e15cbf11cd957290edf098663c73d41055b4c58de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464307"
 ---
 # <a name="systemvideoencodingbitrate"></a>System. Video. Енкодингбитрате
 
@@ -46,11 +46,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 900407d6-f01b-44f4-9d60-3e2f785723ca
 title: System. Video. стерео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55df0782c722fa59ebdd5c4c4f52141eb20b4ddd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b8022391154f6292462e574204b8e0c5a07687d3b658b221499fd31ff5d38f98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464029"
 ---
 # <a name="systemvideoisstereo"></a>System. Video. стерео
 
@@ -33,7 +33,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Добавление квалификатора
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5a6f18f2b79bcd25b2b4ca75811157c9091e6eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 333c24e89d711a8998c58c6201776d5d4c50cc1107f4c9ca4308d9cc992b44dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557827"
 ---
 # <a name="adding-a-qualifier"></a>Добавление квалификатора
 
@@ -44,7 +44,7 @@ class MyDerivedClass : MyClass
 
 Независимо от вашего квалификатора, основной процесс, который вы выполняете, заключается в использовании квалификатора в коде MOF. Дополнительные сведения см. [в разделе Применение квалификатора](applying-a-qualifier.md). Можно дополнительно описать квалификатор с разновидностью квалификатора. Разновидность квалификатора содержит дополнительные сведения о том, как поставщик должен использовать квалификатор. Дополнительные сведения см. в разделе [Описание квалификатора с разновидностью квалификатора](describing-a-qualifier-with-a-qualifier-flavor.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

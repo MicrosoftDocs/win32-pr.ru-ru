@@ -3,18 +3,18 @@ title: С
 description: С
 ms.assetid: 920c9ac2-bb77-4805-9345-15611db1aade
 keywords:
-- Цветовая система Windows (WCS), глоссарий
-- WCS (цветовая система Windows), глоссарий
+- Windows Система цветов (WCS), глоссарий
+- WCS (Windows цветовая система), глоссарий
 - Управление цветом изображений, глоссарий
 - Управление цветом, глоссарий
 - цвета, глоссарий
-- Цветовая система Windows (WCS), определения
-- WCS (цветовая система Windows), определения
+- Windows Система цветовой системы (WCS), определения
+- WCS (Windows цветовая система), определения
 - Управление цветом изображений, определения
 - Управление цветом, определения
 - цвета, определения
-- Цветовая система Windows (WCS), условия
-- WCS (цветовая система Windows), термины
+- Windows Система цветов (WCS), термины
+- WCS (Windows цветовая система), термины
 - Управление цветом изображений, термины
 - Управление цветом, термины
 - цвета, термины
@@ -24,12 +24,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69909dede636bd61dd2a6ff2db14bf7439504446
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: aa10419c9a83c0c40a67e559cca381da6579e81f20d51cfc3b8276c6ce4944ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "105719828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118444701"
 ---
 # <a name="p"></a>С
 

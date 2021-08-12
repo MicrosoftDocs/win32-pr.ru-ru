@@ -3,7 +3,7 @@ title: Сообщение WM_RENDERFORMAT (Winuser. h)
 description: Отправляется владельцу буфера обмена, если он имеет отложенную визуализацию определенного формата буфера обмена и если приложение запрашивает данные в этом формате.
 ms.assetid: 81638109-4c5e-4b4c-b2db-4208b6ee83cc
 keywords:
-- Обмен данными с сообщениями WM_RENDERFORMAT
+- WM_RENDERFORMAT Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab9d0e8539dc666c7a791a24c9ba7ac772c3c2c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2885e056577656d6cabb8ea78f48a02a19f3c3c40bb3c30b1e5ca25c72cdf39b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118545313"
 ---
 # <a name="wm_renderformat-message"></a>\_Сообщение RENDERFORMAT WM
 
@@ -54,11 +54,11 @@ ms.locfileid: "104340710"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При ответе на сообщение **WM \_ RENDERFORMAT** владелец буфера обмена не должен открывать буфер обмена перед вызовом [**сетклипбоарддата**](/windows/win32/api/winuser/nf-winuser-setclipboarddata). Открытие буфера обмена не является обязательным, прежде чем поместить данные в ответ на **WM \_ RENDERFORMAT**, и любая попытка открыть буфер обмена завершится ошибкой, так как буфер обмена в настоящий момент остается открытым приложением, которое запросило отправку формата.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -66,7 +66,7 @@ ms.locfileid: "104340710"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -74,7 +74,7 @@ ms.locfileid: "104340710"
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**сетклипбоарддата**](/windows/win32/api/winuser/nf-winuser-setclipboarddata)

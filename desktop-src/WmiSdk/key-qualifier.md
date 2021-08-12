@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: affc9f4be594723700a65c9c92f8ae37ffead265
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ae5525aa85ab744e7e6824bb6079511a3611643d53594503e70c8e587f363cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555896"
 ---
 # <a name="key-qualifier"></a>Квалификатор ключа
 
@@ -38,7 +38,7 @@ ms.locfileid: "103816121"
 
 Ключи записываются один раз при создании экземпляра объекта и не должны изменяться позже. Не имеет смысла применять значение по умолчанию к свойству с указанием ключа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

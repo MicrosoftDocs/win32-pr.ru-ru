@@ -4,12 +4,12 @@ ms.assetid: 75002a82-5300-4758-9fe4-56537af5168c
 title: Проектирование приложений COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a1b28aa9e8b1658855ca0ef5134722d54650962
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 307daed4b32be3b6130a11632419feb988652aac5545489adb5b14f3eaf5aad9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548003"
 ---
 # <a name="designing-com-applications"></a>Проектирование приложений COM+
 
@@ -24,7 +24,7 @@ ms.locfileid: "104072397"
 | [Предположения и принципы разработки COM+](com--design-assumptions-and-principles.md)<br/>                                           | Содержит допущения и принципы, необходимые для понимания того, как создать распределенное приложение с помощью COM+.<br/> |
 | [Другие средства Майкрософт для создания распределенных приложений](other-microsoft-tools-for-building-distributed-applications.md)<br/> | Предлагает технологии Майкрософт, которые можно использовать совместно с COM+ при создании распределенных приложений.<br/>             |
 | [Проектирование приложения COM+ с помощью UML](designing-the-com--application-using-uml.md)<br/>                                       | Описывает предпочтительный метод проектирования для создания приложений COM+. <br/>                                                   |
-| [Общие рекомендации по проектированию для использования COM+](general-design-tips-for-using-com-.md)<br/>                                                   | Содержит советы по проектированию приложения COM+. <br/>                                                                          |
+| [общие Советы разработки для использования COM+](general-design-tips-for-using-com-.md)<br/>                                                   | Содержит советы по проектированию приложения COM+. <br/>                                                                          |
 | [Оптимизация взаимодействия с уровнем бизнес-логики COM+](optimizing-interactions-with-the-com--business-logic-tier.md)<br/>     | Рассматриваются некоторые рекомендации по обмену данными между уровнем бизнес-логики и уровнями представления и данных.<br/> |
 
 

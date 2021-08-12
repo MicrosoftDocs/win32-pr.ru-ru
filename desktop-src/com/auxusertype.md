@@ -6,12 +6,12 @@ keywords:
 - COM раздела реестра Ауксусертипе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c66fcfbcdc2886e93d08040659b39c42d47c291
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f1dbec8e873e6f6cfcb5fdb29468c1f09c0a7a6935280054e129ddac0b49e282
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118550727"
 ---
 # <a name="auxusertype"></a>ауксусертипе
 
@@ -21,28 +21,28 @@ ms.locfileid: "103772569"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      AuxUserType
-         2 = ShortDisplayName
-         3 = ApplicationName
+   {CLSID}
+      AuxUserType
+         2 = ShortDisplayName
+         3 = ApplicationName
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Рекомендуемая максимальная длина для *ShortDisplayName* — 15 символов. Это имя используется в меню, включая всплывающие меню.
 
 *ApplicationName* должно содержать фактическое имя приложения (например, "Acme Draw 2,0"). Это имя используется в поле **результаты** диалогового окна Специальная **Вставка** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Иолеобжект:: Жетусертипе**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getusertype)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

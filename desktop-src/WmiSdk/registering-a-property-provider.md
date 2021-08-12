@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Регистрация поставщика свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d56d91e3c2a45b0ad0fe83cf6b2bc32ab4353a26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfbbec33f81fdfa9c1d32b20f2f5cff44566c417b1311c3429bbfaa400b68625
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118554212"
 ---
 # <a name="registering-a-property-provider"></a>Регистрация поставщика свойств
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 90e32669d8b542202f6166052c072f224bb2954a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f49455e3e6fb68b2884cda380c304d7655b70d49ff338bcfb7c36904b449019
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452169"
 ---
 # <a name="_ianalysisevents-interface"></a>\_Интерфейс Ианалисисевентс
 
@@ -33,7 +33,7 @@ ms.locfileid: "105693285"
 
 | Событие                                                               | Описание                                                                                                                                                                                    |
 |:--------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Оборот**](-ianalysisevents-activity.md)                       | Происходит при вызове метода [**иинканализер:: Analyze**](iinkanalyzer-analyze.md) или метода [**Иинканализер:: баккграунданализе**](iinkanalyzer-backgroundanalyze.md) .<br/> |
+| [**Действие**](-ianalysisevents-activity.md)                       | Происходит при вызове метода [**иинканализер:: Analyze**](iinkanalyzer-analyze.md) или метода [**Иинканализер:: баккграунданализе**](iinkanalyzer-backgroundanalyze.md) .<br/> |
 | [**интермедиатересултс**](-ianalysisevents-intermediateresults.md) | Происходит при завершении текущего промежуточного этапа анализа.<br/>                                                                                                                    |
 | [**реадитореконЦиле**](-ianalysisevents-readytoreconcile.md)       | Происходит, когда [**иинканализер**](iinkanalyzer.md) готова к согласованию результатов своего фонового анализа с текущим состоянием.<br/>                                                  |
 | [**Результаты**](-ianalysisevents-results.md)                         | Происходит после завершения заключительного этапа анализа.<br/>                                                                                                                                   |
@@ -43,13 +43,13 @@ ms.locfileid: "105693285"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/> |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                     |
 
 

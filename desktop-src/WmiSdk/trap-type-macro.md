@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Макрос типа ЛОВУШКи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d4570125dff3dbf3f002db14f00358646229bae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4dcfb660f163ea67f55f3e50201b192c532458f34ea209ae3fe8f6445cc12db1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118554304"
 ---
 # <a name="trap-type-macro"></a>Макрос типа ЛОВУШКи
 

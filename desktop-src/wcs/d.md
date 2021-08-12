@@ -3,18 +3,18 @@ title: D
 description: D
 ms.assetid: 3b4ce918-fa51-48a1-9026-c8e76e7015a5
 keywords:
-- Цветовая система Windows (WCS), глоссарий
-- WCS (цветовая система Windows), глоссарий
+- Windows Система цветов (WCS), глоссарий
+- WCS (Windows цветовая система), глоссарий
 - Управление цветом изображений, глоссарий
 - Управление цветом, глоссарий
 - цвета, глоссарий
-- Цветовая система Windows (WCS), определения
-- WCS (цветовая система Windows), определения
+- Windows Система цветовой системы (WCS), определения
+- WCS (Windows цветовая система), определения
 - Управление цветом изображений, определения
 - Управление цветом, определения
 - цвета, определения
-- Цветовая система Windows (WCS), условия
-- WCS (цветовая система Windows), термины
+- Windows Система цветов (WCS), термины
+- WCS (Windows цветовая система), термины
 - Управление цветом изображений, термины
 - Управление цветом, термины
 - цвета, термины
@@ -27,12 +27,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f26735432be70345a6f97b43d9a18737a8d586f
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 4e51cd99fa422f92c160ee7db24bc8cf7f8f2dd78e6a3c0dcd65df96e8029899
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "105719778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118444691"
 ---
 # <a name="d"></a>D
 

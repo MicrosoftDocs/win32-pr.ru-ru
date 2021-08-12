@@ -1,19 +1,19 @@
 ---
-description: Корпорация Майкрософт предоставляет компоненты, которые позволяют разработчикам приложений, веб-разработчикам и системным администраторам разрабатывать программы аудио и видео и создавать приложения и веб-сайты, совместимые с Windows Media.
+description: корпорация майкрософт предоставляет компоненты, которые позволяют разработчикам приложений, веб-разработчикам и системным администраторам разрабатывать программы аудио и видео и создавать Windows приложения и веб-узлы, совместимые с мультимедиа.
 ms.assetid: 30595274-5234-4722-ac4e-4471b4d8dae2
 title: Аудио и видео
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac20fc9e840f70747d6240baebe166a789c2634a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ded7295592db310a353349d9b1dca3c8c2e6aab02d740651132996247fa9198e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118551651"
 ---
 # <a name="audio-and-video"></a>Аудио и видео
 
-Корпорация Майкрософт предоставляет компоненты, которые позволяют разработчикам приложений, веб-разработчикам и системным администраторам разрабатывать программы аудио и видео и создавать приложения и веб-сайты, совместимые с Windows Media.
+корпорация майкрософт предоставляет компоненты, которые позволяют разработчикам приложений, веб-разработчикам и системным администраторам разрабатывать программы аудио и видео и создавать Windows приложения и веб-узлы, совместимые с мультимедиа.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -25,22 +25,22 @@ ms.locfileid: "105710809"
 | [DirectShow](./directshow/directshow.md)<br/>                                                                          | Сквозной конвейер мультимедиа, поддерживающий воспроизведение, запись звука и видео, кодирование, навигацию по DVD-дискам, аналоговый телевизор и MPEG-2.<br/>                                                                       |
 | [Microsoft Media Foundation](./medfound/microsoft-media-foundation-sdk.md)<br/>                                         | Сквозной конвейер мультимедиа, который поддерживает воспроизведение p, запись аудио-и видеозаписи и кодирование (последователя в DirectShow).<br/>                                                                                                   |
 | [Технологии Microsoft TV](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal)<br/>                                      | Поддерживает цифровые телевизоры, записанные ТЕЛЕВИЗИОНные файлы (. ВТВ) и Опенкабле однонаправленный кабельный приемник (Окур).<br/>                                                                                                      |
-| [Пакет средств разработки программного обеспечения Windows Media Center](/previous-versions/aa286546(v=msdn.10))<br/>                                          | С помощью пакета средств разработки программного обеспечения Windows Media Center (SDK) разработчики могут создавать мультимедийные приложения и службы для использования с мышью, клавиатурой и пультом дистанционного управления на ПК Media Center.<br/>                        |
-| [Пакет SDK для Windows Media Format 11](./wmformat/windows-media-format-11-sdk.md)<br/>                                     | Поддерживает чтение и запись файлов ASF, декодирование и кодирование аудио и видео Windows Media, а затем потоковую передачу ASF по сети.<br/>                                                                                          |
-| [Службы общего доступа к библиотеке Windows Media](/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal)<br/>                | Позволяет приложениям обнаруживать мультимедийные устройства в домашней сети и совместно использовать библиотеки мультимедиа в домашней сети и в Интернете.<br/>                                                                                     |
-| [Пакет SDK для проигрывателя Windows Media](./wmp/windows-media-player-sdk.md)<br/>                                                | Расширяет возможности проигрывателя Windows Media и проигрывателя Windows Media Mobile.<br/>                                                                                                                                       |
-| [Пакет SDK 10.1.2 для Windows Media Rights Manager](/previous-versions//bb649422(v=vs.85))<br/> | Поддерживает управление цифровыми правами (DRM) для защиты файлов Windows Media.<br/>                                                                                                                                            |
-| [Серия Windows Media Services 9](/previous-versions/windows/desktop/dd873819(v=vs.85))<br/>                                 | Предоставляет API на основе автоматизации для управления службами Windows Media в Windows Server.<br/>                                                                                                                                 |
-| [API потоковой передачи Windows Media](./mediastreaming/media-streaming-api-portal.md)<br/>                                | Моделирует устройства воспроизведения цифровых мультимедийных данных (ДМР) и сервера мультимедиа (DMS), как определено в руководстве по DLNA, для удобства программного использования.<br/>                                                                           |
-| [Элементы управления транспорта Windows Media](/previous-versions/windows/desktop/mediatransport/media-transport-controls-portal)<br/>                      | Предоставляет встроенный интерфейс, который показывает сведения о пользователях в текущем воспроизводимом носителе, например название песни или видео. Также предоставляет пользователю общий и привычный способ управления воспроизведением мультимедиа.<br/> |
-| [Пакет SDK для Windows Movie Maker 6,0 и Windows DVD 1,0 Maker](/previous-versions/windows/desktop/wmmdvdm/windows-movie-maker-6-0-and-windows-dvd-maker-1-0-sdk)<br/>     | Включает настройку Windows Movie Maker 6,0 и Microsoft Windows DVD Maker 1,0.<br/>                                                                                                                                   |
+| [Windows Пакет средств разработки программного обеспечения Media Center](/previous-versions/aa286546(v=msdn.10))<br/>                                          | с помощью Windows пакета средств разработки программного обеспечения (SDK) для media center разработчики могут создавать мультимедийные приложения и службы для использования с мышью, клавиатурой и пультом дистанционного управления на пк Media center.<br/>                        |
+| [Windows Пакет SDK для формата мультимедиа 11](./wmformat/windows-media-format-11-sdk.md)<br/>                                     | поддерживает чтение и запись файлов ASF, декодирование и кодирование Windows Media audio и видео, а затем потоковая передача ASF по сети.<br/>                                                                                          |
+| [Windows Службы общего доступа к библиотеке мультимедиа](/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal)<br/>                | Позволяет приложениям обнаруживать мультимедийные устройства в домашней сети и совместно использовать библиотеки мультимедиа в домашней сети и в Интернете.<br/>                                                                                     |
+| [проигрыватель Windows Media Tool](./wmp/windows-media-player-sdk.md)<br/>                                                | расширяет возможности проигрыватель Windows Media и проигрыватель Windows Media Mobile.<br/>                                                                                                                                       |
+| [Windows Пакет SDK 10.1.2 для Media Rights Manager](/previous-versions//bb649422(v=vs.85))<br/> | поддерживает управление цифровыми правами (DRM) для защиты файлов мультимедиа Windows.<br/>                                                                                                                                            |
+| [серия службы Windows Media 9](/previous-versions/windows/desktop/dd873819(v=vs.85))<br/>                                 | предоставляет API на основе автоматизации для управления службы Windows Media в Windows Server.<br/>                                                                                                                                 |
+| [Windows API потоковой передачи мультимедиа](./mediastreaming/media-streaming-api-portal.md)<br/>                                | Моделирует устройства воспроизведения цифровых мультимедийных данных (ДМР) и сервера мультимедиа (DMS), как определено в руководстве по DLNA, для удобства программного использования.<br/>                                                                           |
+| [Windows Элементы управления транспорта мультимедиа](/previous-versions/windows/desktop/mediatransport/media-transport-controls-portal)<br/>                      | Предоставляет встроенный интерфейс, который показывает сведения о пользователях в текущем воспроизводимом носителе, например название песни или видео. Также предоставляет пользователю общий и привычный способ управления воспроизведением мультимедиа.<br/> |
+| [Windows пакет SDK для movie maker 6,0 и Windows DVD 1,0 maker](/previous-versions/windows/desktop/wmmdvdm/windows-movie-maker-6-0-and-windows-dvd-maker-1-0-sdk)<br/>     | включает настройку Windows Movie maker 6,0 и Microsoft Windows DVD maker 1,0.<br/>                                                                                                                                   |
 | [Устаревшие аудио и видео](/windows-hardware/drivers/audio/legacy-audio-interfaces)<br/>                                                    | Устаревшие технологии и не должны использоваться в новых приложениях.<br/>                                                                                                                                              |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

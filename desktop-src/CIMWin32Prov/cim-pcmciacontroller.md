@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 95d05e11dd0c439708c477e3ec776bc7a2c333d7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 040d9a9150cd9a6ae1c123b5ea35abb7cc819340e1007cb170d0982f22ef9725
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678844"
 ---
 # <a name="cim_pcmciacontroller-class"></a>\_Класс CIM пкмЦиаконтроллер
 
@@ -102,7 +102,7 @@ class CIM_PCMCIAController : cim_controller
 
 | Метод                                                                      | Описание                                                                                                                              |
 |:----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**Перезапуск**](reset-method-in-class-cim-pcmciacontroller.md)                 | Запрашивает сброс логического устройства. Не реализовано инструментарием WMI.<br/>                                                               |
+| [**Reset**](reset-method-in-class-cim-pcmciacontroller.md)                 | Запрашивает сброс логического устройства. Не реализовано инструментарием WMI.<br/>                                                               |
 | [**SetPowerState**](setpowerstate-method-in-class-cim-pcmciacontroller.md) | Определяет требуемое состояние электропитания для логического устройства, а также когда устройство должно быть переведено в это состояние. Не реализовано инструментарием WMI.<br/> |
 
 
@@ -193,7 +193,7 @@ class CIM_PCMCIAController : cim_controller
 
 </dt> <dd>
 
-Не применяется
+Неприменимо.
 
 </dd> <dt>
 
@@ -364,7 +364,7 @@ class CIM_PCMCIAController : cim_controller
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -911,7 +911,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1083,7 +1083,7 @@ Windows не удается найти все ресурсы, используе
 
 Это свойство наследуется [**от \_ контроллера CIM**](cim-controller.md).
 
-Доступны следующие значения:
+Возможны следующие значения.
 
 <dt>
 
@@ -1173,7 +1173,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**Архитектура последовательного хранилища SCSI** (13)
+**архитектура последовательного служба хранилища SCSI** (13)
 
 
 </dt> <dd></dd> <dt>
@@ -1628,7 +1628,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ пкмЦиаконтроллер** является производным от [**\_ контроллера CIM**](cim-controller.md).
 
@@ -1636,7 +1636,7 @@ Windows не удается найти все ресурсы, используе
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -1650,7 +1650,7 @@ Windows не удается найти все ресурсы, используе
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

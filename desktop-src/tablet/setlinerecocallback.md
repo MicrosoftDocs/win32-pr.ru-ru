@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: b256a38d6d6ee6ecf43994c6619c369ea6ca2212
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b0e146152f88a8847b76ac9d00cf7b10c0d5ebfdafa1dc483eca4d946517fd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449304"
 ---
 # <a name="setlinerecocallback-function"></a>Функция Сетлинерекокаллбакк
 
@@ -72,7 +72,7 @@ HRESULT WINAPI SetLineRecoCallback(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведен синтаксис функции обратного вызова.
 
@@ -90,13 +90,13 @@ public delegate void GetLineRecoDef(
     );
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                         |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                         |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                             |
 | Библиотека<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

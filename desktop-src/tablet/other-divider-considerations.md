@@ -4,12 +4,12 @@ ms.assetid: 17404789-7f08-4cf1-88f8-e1f70296c163
 title: Другие аспекты использования разделителя
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6e00ebc926dd51efb592304f6015351bdc2790b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3328fd553a16aeee1e1dfa5459b78a45732a55494e0481950d730dab7ce0d73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449364"
 ---
 # <a name="other-divider-considerations"></a>Другие аспекты использования разделителя
 
@@ -31,7 +31,7 @@ ms.locfileid: "104265453"
 
 Вы можете записать результаты анализа в виде данных приложения и реализовать эвристику, чтобы определить, когда следует повторно анализировать набор штрихов. Это позволит снизить необходимость повторного анализа всех рукописных данных в приложении между сеансами приложения. Однако необходимо соблюдать осторожность, чтобы сохранить границы структурных элементов или повторно проанализировать все штрихи для затронутых элементов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
