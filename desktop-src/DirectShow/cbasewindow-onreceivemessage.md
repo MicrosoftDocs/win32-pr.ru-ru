@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: defef9a7ca24d6875eda508989615f308a2385b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a5dbfb84edef1f5257cfda8cae08d27b219909f47a7d88fd29580ae12e48b3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118657967"
 ---
 # <a name="cbasewindowonreceivemessage-method"></a>Кбасевиндов. Онрецеивемессаже, метод
 
@@ -48,7 +48,7 @@ virtual LRESULT OnReceiveMessage(
 *HWND* 
 </dt> <dd>
 
-Обработчик для окна.
+Дескриптор для окна.
 
 </dd> <dt>
 
@@ -77,7 +77,7 @@ virtual LRESULT OnReceiveMessage(
 
 Возвращает 0, если сообщение было обработано, или значение 1, если сообщение не было обработано.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Базовый класс обрабатывает следующие сообщения:
 
@@ -96,7 +96,7 @@ virtual LRESULT OnReceiveMessage(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

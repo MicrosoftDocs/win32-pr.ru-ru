@@ -1,17 +1,17 @@
 ---
 description: В следующей таблице приведены коды ошибок, относящиеся к объектам мультимедиа Microsoft DirectX (дмос). Эти коды ошибок определены в файле заголовка Медиаерр. h.
 ms.assetid: 1ded5656-084d-4315-a414-aebf4a1820dc
-title: Коды ошибок DMO (Медиаерр. h)
+title: DMO Коды ошибок (Медиаерр. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d76c8cd5e7001751cd2cf9eb7da4d88b2dc100bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1aa8f45b8f9f61185adbcd79a354df8ab3e41471067b66179193b825a5e40651
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653298"
 ---
-# <a name="dmo-error-codes"></a>Коды ошибок DMO
+# <a name="dmo-error-codes"></a>DMO Коды ошибок
 
 В следующей таблице приведены коды ошибок, относящиеся к объектам мультимедиа Microsoft DirectX (дмос). Эти коды ошибок определены в файле заголовка Медиаерр. h.
 
@@ -34,7 +34,7 @@ ms.locfileid: "105652215"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Медиаерр. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Медиаерр. h</dt> </dl> |
 
 
 
@@ -42,7 +42,7 @@ ms.locfileid: "105652215"
 
 <dl> <dt>
 
-[Константы DMO](dmo-constants.md)
+[DMO Постоянным](dmo-constants.md)
 </dt> </dl>
 
  

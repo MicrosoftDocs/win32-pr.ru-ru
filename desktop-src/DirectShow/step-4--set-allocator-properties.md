@@ -4,12 +4,12 @@ ms.assetid: c2fd6d8b-b239-45e4-9c02-41edafa58762
 title: Шаг 4. Задание свойств распределителя
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9ee7d9ecdc85b63ec6bd774a3a47e0e9399dcf3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 33376cff0e6c0674edfadcffed59d16d8d7dccb9f48384a22ec4c69fc48d8eb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652134"
 ---
 # <a name="step-4-set-allocator-properties"></a>Шаг 4. Задание свойств распределителя
 
@@ -96,7 +96,7 @@ HRESULT CRleFilter::DecideBufferSize(
 
 <dl> <dt>
 
-[Написание фильтров DirectShow](writing-directshow-filters.md)
+[написание фильтров DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

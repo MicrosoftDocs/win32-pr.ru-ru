@@ -3,7 +3,7 @@ title: Событие Куррентитемчанже объекта Аксви
 description: Событие Куррентитемчанже возникает при изменении значения Ивмпконтролс. currentItem.
 ms.assetid: c5eeafd2-405b-4808-97d1-399a2344ca42
 keywords:
-- Событие Куррентитемчанже в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие куррентитемчанже объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c33bb3e9c4c1e512e742c0e679f3c5b53a29735
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d1786fab3e312f95550103cdc6cf4f2558e25e883df9c7be2d6f850a7f8a5ce4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582560"
 ---
 # <a name="currentitemchange-event-of-the-axwindowsmediaplayer-object"></a>Событие Куррентитемчанже объекта Аксвиндовсмедиаплайер
 
@@ -90,7 +90,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

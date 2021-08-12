@@ -3,7 +3,7 @@ title: Ивмпплайлист. Item (VB и C)
 description: Свойство Item ( \_ метод Get Item в C \) получает интерфейс для элемента мультимедиа по указанному индексу.
 ms.assetid: 874663e2-0b89-4ef7-9d4a-3a334482b352
 keywords:
-- Проигрыватель Windows Media Ивмпплайлист. Item (VB и C)
+- ивмпплайлист. Item (VB и C) проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1318f37c3f590eec2c97252e2f484b0d1bc6d83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 06b4c29b5f3821ad2ec3434fcad2defc2e4128e7f6e69c70940294ef0ff7f963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575421"
 ---
 # <a name="iwmpplaylistitem-vb-and-c"></a>Ивмпплайлист. Item (VB и C#)
 
@@ -55,9 +55,9 @@ IWMPMedia get_Item (
 
 Интерфейс **вмплиб. ивмпмедиа** , предоставляющий доступ к элементу мультимедиа по указанному индексу.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-**Ивмпплайлист. Item** — это свойство, доступное только для чтения, в Visual Basic, которое принимает параметр, а в C# называется методом **ивмпплайлист. Get \_ Item** .
+**ивмпплайлист. Item** — это свойство, доступное только для чтения, в Visual Basic, которое принимает параметр, а в C# называется методом **ивмпплайлист. get \_ Item** .
 
 ## <a name="examples"></a>Примеры
 
@@ -106,7 +106,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

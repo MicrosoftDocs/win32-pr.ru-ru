@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64b09368fb8aba65c78eddb9ceb135476f6cfe13
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 062ec8fbbcb135c28c3bb7454ad3ca2782c7d60068b9da82dcd980cf9cfb20a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105664857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118617416"
 ---
 # <a name="glcolor3ui-function"></a>Функция glColor3ui
 
@@ -67,7 +67,7 @@ void WINAPI glColor3ui(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В GL хранится и текущий однозначный цветовой индекс, и текущий цвет RGBA с четырьмя значениями. **глколор** задает новый цвет RGBA с четырьмя значениями. **глколор** имеет два основных варианта: **glcolor3** и **glcolor4**. **glcolor3** варианты задают явно новые значения красного, зеленого и синего типа и устанавливают текущее значение альфа равным 1,0 (Полная интенсивность) неявно. **glcolor4** варианты указывают все четыре компонента цвета явным образом.
 

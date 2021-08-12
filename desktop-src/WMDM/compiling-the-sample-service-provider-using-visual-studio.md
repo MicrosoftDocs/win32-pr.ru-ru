@@ -1,27 +1,27 @@
 ---
-title: Компиляция примера поставщика служб с помощью Visual Studio
-description: Компиляция примера поставщика служб с помощью Visual Studio
+title: Компиляция образца поставщика услуг с помощью Visual Studio
+description: Компиляция образца поставщика услуг с помощью Visual Studio
 ms.assetid: db0ecc18-d5b0-47d8-9b3f-3a9644343de8
 keywords:
-- Диспетчер устройств Windows Media, примеры
+- Windows Диспетчер устройств мультимедиа, примеры
 - Диспетчер устройств, примеры
-- Диспетчер устройств Windows Media, пример поставщика услуг
+- Windows Диспетчер устройств носителя, пример поставщика услуг
 - Диспетчер устройств, пример поставщика услуг
 - поставщики услуг, примеры
 - Примеры, поставщики услуг
 - Примеры, компиляция с помощью Visual Studio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2abded2aa1272f2e5e14b711c0d8b0a8ec79f280
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd220e314a6de0a9c5e4cf50ccd710a0236c3b3ec469247ef99f319b553b15c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586022"
 ---
-# <a name="compiling-the-sample-service-provider-using-visual-studio"></a>Компиляция примера поставщика служб с помощью Visual Studio
+# <a name="compiling-the-sample-service-provider-using-visual-studio"></a>Компиляция образца поставщика услуг с помощью Visual Studio
 
-Пакет SDK для формата Windows Media не включает файл решения Visual Studio. Однако этот документ содержит два файла, которые позволяют использовать Visual Studio для сборки и отладки образца поставщика услуг. Оба предоставленных файла предназначены для Visual Studio .NET 2003.
+пакет SDK для Windows Media Format не включает файл решения Visual Studio. однако этот документ содержит два файла, которые позволяют использовать Visual Studio для сборки и отладки образца поставщика услуг. оба предоставленных файла предназначены для Visual Studio .net 2003.
 
 -   Сохраните следующий код в виде текстового файла с именем мшдсп. vcproj в папке <*пакета SDK путь установки* > \\ вмфсдк \\ WMFSDK95 \\ вмдм \\ МДСП \\ мшдсп.
 
@@ -331,16 +331,16 @@ EndGlobal
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Образец поставщика услуг**](sample-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

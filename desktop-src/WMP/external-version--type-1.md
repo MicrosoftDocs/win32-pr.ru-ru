@@ -1,9 +1,9 @@
 ---
 title: External. Version (тип 1)
-description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. Использование этой функции вне контекста Интернет-магазина не поддерживается. Свойство Version извлекает текущую версию проигрывателя Windows Media. | External. Version (тип 1)
+description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. Использование этой функции вне контекста Интернет-магазина не поддерживается. свойство version извлекает текущую версию проигрыватель Windows Media. | External. Version (тип 1)
 ms.assetid: 36120a19-5322-402e-8a48-1a28eb250068
 keywords:
-- Внешний. версия (тип 1) проигрыватель Windows Media
+- внешняя. version (Type 1) проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df2f8062f37672d76182701329f9369019583a12
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee8120c123d7c5fb52cbb5ce94cb8b326b25a41cdc46a85e06fb0d7aa3d3cb13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118576825"
 ---
 # <a name="externalversion-type-1"></a>External. Version (тип 1)
 
@@ -28,7 +28,7 @@ ms.locfileid: "105694817"
 
  
 
-Свойство **Version** извлекает текущую версию проигрывателя Windows Media.
+свойство **version** извлекает текущую версию проигрыватель Windows Media.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -44,7 +44,7 @@ ms.locfileid: "105694817"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                  |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                  |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

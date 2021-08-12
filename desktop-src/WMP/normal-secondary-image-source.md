@@ -3,19 +3,19 @@ title: Нормальный источник вторичного образа
 description: Нормальный источник вторичного образа
 ms.assetid: fe5c0da2-0c40-456f-ab56-ac61ed69ff2d
 keywords:
-- Обложки мобильных устройств проигрывателя Windows Media, источник изображения кнопки
+- проигрыватель Windows Media Обложки мобильных устройств, источник изображения кнопки
 - обложки, источник изображения кнопки
 - Справочник по обложкам, кнопкам
 - кнопки в обложках, источник изображения
 - Источник изображения для обложек, кнопок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ff828f6d0f0c8348453cb00fef04ab31718693
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b7f6aeb48ceabc873d4aeb0db910db896712fe16377aa0f67b76205ad8a39c83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573734"
 ---
 # <a name="normal-secondary-image-source"></a>Нормальный источник вторичного образа
 
@@ -35,16 +35,16 @@ Pushed @ 210,0
 
 Дополнительные состояния не могут иметь отключенный образ. Предполагается, что дополнительные образы имеют одинаковую ширину и высоту, чем основной образ.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Кнопки**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

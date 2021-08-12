@@ -3,7 +3,7 @@ title: Список воспроизведения. Аддселектедтоп
 description: Метод Аддселектедтоплайлист добавляет выбранный элемент в список воспроизведения.
 ms.assetid: 02ce8553-4ffc-44c1-b260-f41d0877137f
 keywords:
-- Проигрыватель Windows Media Player. Аддселектедтоплайлист
+- проигрыватель Windows Media списка воспроизведения. аддселектедтоплайлист
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5cda55f82d13db6061cb713388a618dfa8f2b5e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b67fd824bb5055156a6ae1846ab4017b662dbeea9434ff1657d7fe76ebda640b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571484"
 ---
 # <a name="playlistaddselectedtoplaylist"></a>Список воспроизведения. Аддселектедтоплайлист
 
@@ -49,7 +49,7 @@ ms.locfileid: "105708441"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

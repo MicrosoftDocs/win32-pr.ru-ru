@@ -3,7 +3,7 @@ title: событие. смещение
 description: Атрибут offset извлекает координату y указателя мыши по отношению к элементу, вызывающему событие.
 ms.assetid: c8970d22-3498-4bb3-9212-fe2e0cc4c8b5
 keywords:
-- Проигрыватель Windows Media для события. смещение
+- проигрыватель Windows Media события. offset
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4765eb1948386f335ba5c4827ccedb947fa7c4a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 61ee08d610fbc4ab6ccd32157850cbbf0a87d54d8d6334a114e48b82adcec464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577051"
 ---
 # <a name="eventoffsety"></a>событие. смещение
 
@@ -37,7 +37,7 @@ event.offsetY
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

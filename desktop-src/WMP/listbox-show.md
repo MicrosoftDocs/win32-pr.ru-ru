@@ -3,7 +3,7 @@ title: LISTBOX. показывать
 description: Метод показать отображает элемент управления.
 ms.assetid: ae07ce83-c592-42a1-8cd3-7e62e846ac5c
 keywords:
-- LISTBOX. Отображение проигрывателя Windows Media
+- LISTBOX. показывать проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4c01c1ca46a1a9d8ef32ca4f520b146825f21f44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2845c880dd16b488eec3354c14c5398cab1455368a52946d95ec81944acd8ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574816"
 ---
 # <a name="listboxshow"></a>LISTBOX. показывать
 
@@ -36,7 +36,7 @@ ms.locfileid: "105704417"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод в основном используется с элементом **Popup** , представляющим элемент управления "список", который отображается только при необходимости.
 
@@ -46,7 +46,7 @@ ms.locfileid: "105704417"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

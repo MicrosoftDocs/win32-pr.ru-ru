@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a4cf47469800a4d1ecd8abe373d6f3c1fd53ece5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6169b5d2ec71148cd868e340c5a2f4e206355044ce55e0905c20787ddb3a263e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660789"
 ---
 # <a name="cbasecontrolvideosetcontrolvideopin-method"></a>Кбасеконтролвидео. Сетконтролвидеопин, метод
 
@@ -53,17 +53,17 @@ void SetControlVideoPin(
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс можно вызывать только после успешного подключения фильтра. Объект передается через этот метод в ПИН-код, с которым он синхронизирован; в большинстве случаев он определяет, подключен ли ПИН-код при вызове метода интерфейса, и при сбое возвращает VFW \_ E \_ Not \_ Connected.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

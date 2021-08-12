@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 40b2f6ece048fc6463fda0a22792d57839d59e55
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3bc8d3b627e6cd8c3ae4821864f6980db5acd251c721bb8841be40e04377ad55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118659797"
 ---
 # <a name="cbasefilterm_plock-member"></a>Элемент Кбасефилтер:: m \_ плокк
 
@@ -36,7 +36,7 @@ CCritSec *m_pLock;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта переменная инициализируется в конструкторе класса. см. раздел [**кбасефилтер:: кбасефилтер**](cbasefilter-cbasefilter.md).
 
@@ -53,13 +53,13 @@ CCritSec *m_pLock;
 
 Не держите этот критический раздел во время операций потоковой передачи (то есть при доставке образцов в нисходящий фильтр). Сериализация операций потоковой передачи с использованием другой критической секции. В противном случае это может привести к взаимоблокировке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

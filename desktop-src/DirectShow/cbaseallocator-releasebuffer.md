@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8e339f3a8186e845e28261633806a61b1b15c281
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d1096cc7cd4ed31346b38719a3f622edf780408fd50262d93515f68d92b421d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661510"
 ---
 # <a name="cbaseallocatorreleasebuffer-method"></a>Кбасеаллокатор. Релеасебуффер, метод
 
@@ -53,7 +53,7 @@ HRESULT ReleaseBuffer(
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда число ссылок в образце носителя достигает нуля, пример вызывает **релеасебуффер** в качестве параметра. Этот метод выполняет следующие действия.
 
@@ -62,13 +62,13 @@ HRESULT ReleaseBuffer(
 -   Если метод [**кбасеаллокатор:: сетнотифи**](cbaseallocator-setnotify.md) был вызван ранее, вызывается метод **Имемаллокаторнотификаллбакктемп:: нотифирелеасе** .
 -   При освобождении последней выборки, если имеется ожидающий вызов [**кбасеаллокатор::D екоммит**](cbaseallocator-decommit.md) , вызывает метод [**Кбасеаллокатор:: Free**](cbaseallocator-free.md) для освобождения буферной памяти. (В базовом классе **Free** является чисто виртуальным методом.)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

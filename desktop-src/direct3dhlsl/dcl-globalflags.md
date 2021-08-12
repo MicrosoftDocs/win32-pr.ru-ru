@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e15fce958056f91a41954b987850ad4c5a43e521
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 0901482dd2c282aab98dda72a5c449df69d4551a9a7bb68d80e47c9693c54609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118286378"
 ---
 # <a name="dcl_globalflags-sm4---asm"></a>дкл \_ глобалфлагс (SM4-ASM)
 
@@ -27,7 +27,7 @@ ms.locfileid: "104412245"
 
 
 
- 
+ 
 
 <dl> <dt>
 
@@ -54,11 +54,11 @@ ms.locfileid: "104412245"
 >
 > Изменение порядка арифметических операций может привести к различным результатам.
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Remarks
 
 Эта необязательная инструкция применяется к следующим этапам шейдера:
 
@@ -70,7 +70,7 @@ ms.locfileid: "104412245"
 
 
 
- 
+ 
 
 Эта инструкция включена для облегчения отладки шейдера в сборке; нельзя создать шейдер на языке ассемблера с использованием модели шейдеров 4.
 
@@ -91,18 +91,18 @@ ms.locfileid: "104412245"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Сборка Shader Model 4 (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

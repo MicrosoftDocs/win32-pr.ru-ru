@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c966d031bb154b59cc54ae2e5d254347aa88d2a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2a6a5dbf175408ba8421a28e9ee7b7b80876849701b849935a3a4aba9b13e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118617060"
 ---
 # <a name="glcopytexsubimage2d-function"></a>Функция glCopyTexSubImage2D
 
@@ -124,7 +124,7 @@ void WINAPI glCopyTexSubImage2D(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **glCopyTexSubImage2D** заменяет прямоугольную часть двухмерного изображения текстуры на пиксели из текущего буфера кадров, а не из основной памяти, как в случае с [**glTexSubImage2D**](gltexsubimage2d.md).
 

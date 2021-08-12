@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e08d1e8217f42c6855759cefeef40e56949156fb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf60184758598872577e0c6b293f8eb0b72c5bf7305f1516a4dd6b5a4a639b94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118657116"
 ---
 # <a name="cdrawimagem_busingimageallocator-member"></a>Элемент Кдравимаже:: m \_ бусингимажеаллокатор
 
@@ -36,7 +36,7 @@ BOOL m_bUsingImageAllocator;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Если значение равно **true**, объект **кдравимаже** может использовать функции GDI **BitBlt** и **стретчблт** для отрисовки изображения, а не более медленных функций **сетдибитстодевице** и **стретчдибитс** .
 
@@ -46,7 +46,7 @@ BOOL m_bUsingImageAllocator;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

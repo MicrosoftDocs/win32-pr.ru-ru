@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f24b87f9808c53b5f64f66031a8ee2a4e9449089
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 38d27fabb9dd3ed2a37ed5d836bfdfb1036f4255e6af48580ab6e0678abad74b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118655108"
 ---
 # <a name="ctransformfilterm_beosdelivered-member"></a>Элемент Ктрансформфилтер:: m \_ беосделиверед
 
@@ -36,7 +36,7 @@ BOOL m_bEOSDelivered;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Если фильтр приостанавливается, когда у него нет входного соединения, то он отправляет уведомление о завершении потока и устанавливает для этого флага **значение true**. Уведомление о завершении потока гарантирует, что нисходящий фильтр не ждет выборки. Обратите внимание, что метод [**EndOfStream**](ctransformfilter-endofstream.md) фильтра не устанавливает этот флаг.
 
@@ -46,7 +46,7 @@ BOOL m_bEOSDelivered;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Трансфрм. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>трансфрм. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

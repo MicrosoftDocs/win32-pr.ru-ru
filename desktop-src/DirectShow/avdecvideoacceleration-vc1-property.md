@@ -4,12 +4,12 @@ ms.assetid: eee85330-098e-4f21-81b7-a493abbd599b
 title: Свойство AVDecVideoAcceleration_VC1 (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fcdbe265f5a65212a2846b724f570b024ea0ab8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1767206fab479dbcae1dec5e768b21d768440a66776b1f41610b75be4190d6c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105655603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663843"
 ---
 # <a name="avdecvideoacceleration_vc1-property"></a>Авдеквидеоакцелератион \_ VC1, свойство
 
@@ -25,18 +25,18 @@ ms.locfileid: "105655603"
 
 **КОДЕКАПИ \_ авдеквидеоакцелератион \_ VC1**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Если значение равно нулю, декодер не использует ускорение видео DirectX (ДКСВА) для декодирования видео VC-1. Для фильтров DirectShow установите это свойство перед подключением выходного ПИН-кода декодера.
+Если значение равно нулю, декодер не использует ускорение видео DirectX (ДКСВА) для декодирования видео VC-1. для DirectShow фильтров установите это свойство перед подключением выходного пин-кода декодера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

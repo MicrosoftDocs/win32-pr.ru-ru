@@ -5,16 +5,16 @@ ms.assetid: 1cf28cfb-ce96-4659-955d-0088bddcb9ce
 title: Глоссарий службы виртуальных дисков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cc8804f1aea832f59fcbcab65423e92e134939f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af7e73e9de8f6c30b69f2e39e78fae36e5c3ea547cccfed2f25f9a15327e3f8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118602997"
 ---
 # <a name="virtual-disk-service-glossary"></a>Глоссарий службы виртуальных дисков
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 В этом разделе содержится глоссарий технических терминов, используемых в документации по службе виртуальных дисков (VDS).
 

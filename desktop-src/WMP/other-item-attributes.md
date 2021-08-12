@@ -3,23 +3,23 @@ title: Атрибуты других элементов
 description: Атрибуты других элементов
 ms.assetid: 18090c66-32a1-42af-b4a1-e3d539491e19
 keywords:
-- Проигрыватель Windows Media, атрибуты других элементов
-- Проигрыватель Windows Media Mobile, другие атрибуты элементов
-- Объектная модель проигрывателя Windows Media, атрибуты других элементов
+- проигрыватель Windows Media, атрибуты других элементов
+- проигрыватель Windows Media Мобильные и другие атрибуты элементов
+- проигрыватель Windows Media объектная модель, атрибуты других элементов
 - Объектная модель, атрибуты других элементов
-- Элемент управления ActiveX, атрибуты других элементов
-- Элемент управления ActiveX проигрывателя Windows Media, атрибуты других элементов
-- Элемент управления мобильными устройствами ActiveX проигрывателя Windows Media, атрибуты других элементов
+- элемент управления ActiveX, атрибуты других элементов
+- проигрыватель Windows Media ActiveX элемент управления, атрибуты других элементов
+- проигрыватель Windows Media мобильные ActiveX управления, атрибуты других элементов
 - Справочник по объектной модели, атрибутам других элементов
 - атрибуты, другие элементы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28622c9a55091376f618874889b8d2e6897e2172
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c64a3289cec8490c801a530f001aef818498239864b34bfa7e81601b4f1d226
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573707"
 ---
 # <a name="other-item-attributes"></a>Атрибуты других элементов
 
@@ -57,16 +57,16 @@ ms.locfileid: "105691158"
 -   [Атрибут WM/Медиакласспримарид](wm-mediaclassprimaryid-attribute.md)
 -   [Атрибут WM/Медиакласссекондарид](wm-mediaclasssecondaryid-attribute.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Ссылка на атрибут**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

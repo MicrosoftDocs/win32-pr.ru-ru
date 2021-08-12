@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\functions.htm
 title: Синтаксис функции Effect (Direct3D 9)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21e239359877813e64acea8b5f404a6ade59c992
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7b9de680f2f892e59f49e1dfd0850a128ca9ba34e2588e416059251d5058c44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297112"
 ---
 # <a name="effect-function-syntax-direct3d-9"></a>Синтаксис функции Effect (Direct3D 9)
 
@@ -34,7 +34,7 @@ type id ( [ parameters ] )
 
 Функции основаны на высоком уровне языка. См. [Справочник по HLSL](../direct3dhlsl/dx-graphics-hlsl-reference.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

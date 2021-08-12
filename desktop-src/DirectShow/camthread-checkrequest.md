@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5a004e0f5303cf6702c03e78c292a6a2d832a489
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 292f8a7fb1ed4f12ad558993d6b1932b2ddff4656bada5e0a89067bac1baa9c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118662360"
 ---
 # <a name="camthreadcheckrequest-method"></a>Камсреад. Чеккрекуест, метод
 
@@ -53,19 +53,19 @@ BOOL CheckRequest(
 
 Возвращает **значение true** , если имеется ожидающий запрос, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод является неблокирующей версией метода [**камсреад::-request**](camthread-getrequest.md) .
 
 Если другой поток ожидает вызова Каллворкер, этот метод извлекает параметр запроса и возвращает **значение true**. В противном случае возвращается **значение false**. Если метод возвращает **значение true**, вызовите метод [**Камсреад:: Reply**](camthread-reply.md) , чтобы освободить поток запроса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксутил. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вксутил. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

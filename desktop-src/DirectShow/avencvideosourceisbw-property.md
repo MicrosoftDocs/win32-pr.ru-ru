@@ -4,12 +4,12 @@ ms.assetid: 4f6257e0-3ca9-4d10-a207-cd9600502298
 title: Свойство Авенквидеосаурцеисбв (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 874e90031968036638604fabfc2bb5a2f5d7cf42
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 903decf6a976528d050a133a7c4c6c0b3931016b1743eb926aec55ddd7d8dc2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663111"
 ---
 # <a name="avencvideosourceisbw-property"></a>Авенквидеосаурцеисбв, свойство
 
@@ -29,14 +29,14 @@ ms.locfileid: "104536599"
 
 Если значение является **вариантным \_ true**, видео является монохромным. В противном случае видео содержит цвет.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

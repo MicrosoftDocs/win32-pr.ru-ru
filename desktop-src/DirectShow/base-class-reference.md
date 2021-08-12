@@ -1,19 +1,19 @@
 ---
-description: Справочник по базовому классу DirectShow
+description: DirectShow Ссылка на базовый класс
 ms.assetid: 56f3685f-3df8-4358-b04e-3efc04b58008
-title: Справочник по базовому классу DirectShow
+title: DirectShow Ссылка на базовый класс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8816656f0ae87224cc95886ad32aaa1a098f177
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 950a4eff89e235194be974256492bd23701f69e5f64181a2e805cf67c1fd62f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663051"
 ---
-# <a name="directshow-base-class-reference"></a>Справочник по базовому классу DirectShow
+# <a name="directshow-base-class-reference"></a>DirectShow Ссылка на базовый класс
 
-Этот раздел содержит справочные сведения обо всех [базовых классах Microsoft DirectShow](directshow-base-classes.md), их членах данных и их функциях.
+этот раздел содержит справочные сведения обо всех [базовых классах Microsoft DirectShow](directshow-base-classes.md), их членах данных и их функциях.
 
 
 
@@ -36,7 +36,7 @@ ms.locfileid: "104495459"
 | [**кбасеинпутпин**](cbaseinputpin.md)                                 | Базовый класс для входных ПИН-кодов.                                                                                                        |
 | [**кбаселист**](cbaselist.md)                                         | Базовый класс для универсальных списков.                                                                                                     |
 | [**кбасемедиафилтер**](cbasemediafilter.md)                           | Реализует интерфейс [**имедиафилтер**](/windows/desktop/api/Strmif/nn-strmif-imediafilter) .                                                                    |
-| [**кбасеобжект**](cbaseobject.md)                                     | Базовый класс для реализации объектов DirectShow.                                                                                   |
+| [**кбасеобжект**](cbaseobject.md)                                     | базовый класс для реализации объектов DirectShow.                                                                                   |
 | [**кбасеаутпутпин**](cbaseoutputpin.md)                               | Базовый класс для выходных закрепления.                                                                                                       |
 | [**кбасепин**](cbasepin.md)                                           | Базовый класс для ПИН-кодов.                                                                                                              |
 | [**кбасепропертипаже**](cbasepropertypage.md)                         | Базовый класс для реализации страниц свойств.                                                                                       |
@@ -100,11 +100,11 @@ ms.locfileid: "104495459"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Базовые классы DirectShow](directshow-base-classes.md)
+[DirectShow Базовые классы](directshow-base-classes.md)
 </dt> </dl>
 
  

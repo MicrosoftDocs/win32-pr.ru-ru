@@ -3,7 +3,7 @@ title: Список воспроизведения. Мовеселектеддо
 description: Метод Мовеселектеддовн Перемещает выбранный элемент вниз на одну позицию в списке.
 ms.assetid: dbd2fa20-8e94-47d8-89e8-9b4677d9b825
 keywords:
-- Проигрыватель Windows Media Player. Мовеселектеддовн
+- проигрыватель Windows Media списка воспроизведения. мовеселектеддовн
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bce3a6fd2f27656684d77288cf5d3a1cdf6c36f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43124fc13044b1802b78d036700af9077ed8893bb9cc4ea0f2ad9df9a117e405
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571143"
 ---
 # <a name="playlistmoveselecteddown"></a>Список воспроизведения. Мовеселектеддовн
 
@@ -42,7 +42,7 @@ ms.locfileid: "105704393"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

@@ -3,7 +3,7 @@ title: EFFECTs. Previous
 description: Предыдущий метод отображает предыдущую предустановку визуализации, переходя к последней предустановке предыдущей предварительной версии, если это необходимо.
 ms.assetid: 20ef8f8b-a308-4e79-a4a8-70d04f1f0be6
 keywords:
-- ЭФФЕКТЫ. предыдущий проигрыватель Windows Media
+- effects. previous проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ee6bb89aab58324132a0023e843d23b840668b6f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41a4a8848ebad2e1580ff0ee0a5d102f012f8a91ef36ccd11803ee8933402f33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578758"
 ---
 # <a name="effectsprevious"></a>EFFECTs. Previous
 
@@ -36,7 +36,7 @@ ms.locfileid: "105699187"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если текущая Предустановка является первой в серии всех доступных визуализаций, последняя Предустановка последней версии становится текущей.
 
@@ -46,7 +46,7 @@ ms.locfileid: "105699187"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

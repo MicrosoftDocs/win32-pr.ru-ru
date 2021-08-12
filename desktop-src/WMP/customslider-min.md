@@ -3,7 +3,7 @@ title: КУСТОМСЛИДЕР. min
 description: Атрибут min указывает или получает минимальное значение диапазона, определенного настраиваемым ползунком.
 ms.assetid: a152cf9f-7383-47da-a9b2-dedd13749964
 keywords:
-- КУСТОМСЛИДЕР. min Windows Media Player
+- кустомслидер. min проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95fa28e010dc969a041fbe8e2e16a58f4729df4a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f324fd70aa996c593ce9a89365341919e10e9407c20326f8f9a8f9300c0dd7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579732"
 ---
 # <a name="customslidermin"></a>КУСТОМСЛИДЕР. min
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694557"
 
 Этот атрибут является **числом** для чтения и записи (**float**) и значением по умолчанию 0.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Минимальное** значение должно быть меньше **максимального**.
 
@@ -45,7 +45,7 @@ ms.locfileid: "105694557"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

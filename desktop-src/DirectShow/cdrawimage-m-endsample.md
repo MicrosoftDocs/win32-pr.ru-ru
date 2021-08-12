@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 78268e8335d6dd8c24497a9e4d74b0caab205a99
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2877e709cb7d0d8a259dfa91e1ebe3b723771493e012bf29eef0fffe1c7eaeaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118656987"
 ---
 # <a name="cdrawimagem_endsample-member"></a>Элемент Кдравимаже:: m \_ ендсампле
 
@@ -36,7 +36,7 @@ CRefTime m_EndSample;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Значение допустимо только внутри метода [**кдравимаже::D исплайсамплетимес**](cdrawimage-displaysampletimes.md) .
 
@@ -46,7 +46,7 @@ CRefTime m_EndSample;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

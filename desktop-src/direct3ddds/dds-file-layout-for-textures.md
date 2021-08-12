@@ -4,12 +4,12 @@ description: Для несжатой текстуры используйте \_ 
 ms.assetid: 5bf54e8d-1dc5-4782-96c1-132d258fb560
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbaa6f86dddc7e60d7f41fc34d7c9fe994d50e4d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 47fe1d7da71727c2c84bb3745772a10520367ac1cf6e9c4033932548d86c1302
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118289801"
 ---
 # <a name="dds-texture-example"></a>Пример текстуры DDS
 
@@ -43,7 +43,7 @@ max(1, ( (width + 3) / 4 ) ) x max(1, ( (height + 3) / 4 ) ) x 8(DXT1) or 16(DXT
 
 
 
- 
+ 
 
 В этой таблице перечислены объемы пространства, занимаемого каждым слоем для той же текстуры с помощью сжатия (DXT1).
 
@@ -64,7 +64,7 @@ max(1, ( (width + 3) / 4 ) ) x max(1, ( (height + 3) / 4 ) ) x 8(DXT1) or 16(DXT
 
 
 
- 
+ 
 
 В этой таблице перечислены объемы пространства, занимаемого каждым слоем для одной текстуры с помощью формата сжатия DXGI (в данном случае BC3 \_ UNORM), поэтому требуется расширенный заголовок:
 
@@ -86,18 +86,18 @@ max(1, ( (width + 3) / 4 ) ) x max(1, ( (height + 3) / 4 ) ) x 8(DXT1) or 16(DXT
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Руководством по программированию для DDS](dx-graphics-dds-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

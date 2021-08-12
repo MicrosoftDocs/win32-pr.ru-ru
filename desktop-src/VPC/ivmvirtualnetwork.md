@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06fb7c759059034874890f1dba7f7e2d1280ea8a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a9caf5accb0add3354953d09e74a0893e2392deee7720b7a2cba0136b3f4b7c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118592589"
 ---
 # <a name="ivmvirtualnetwork-interface"></a>Интерфейс Ивмвиртуалнетворк
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Определяет виртуальную сеть. Объекты **ивмвиртуалнетворк** возвращаются из метода [**ивмвиртуалпк**](ivmvirtualpc.md) [**финдвиртуалнетворк**](ivmvirtualpc-findvirtualnetwork.md). Можно также получить объект **ивмвиртуалнетворк** из объекта [**ивмвиртуалнетворкколлектион**](ivmvirtualnetworkcollection.md) , возвращенного из свойства [**ивмвиртуалпк:: VirtualNetworks**](ivmvirtualpc-virtualnetworks.md) .
 
@@ -45,7 +45,7 @@ ms.locfileid: "105691940"
 
 | Метод                                | Описание                                                          |
 |:--------------------------------------|:---------------------------------------------------------------------|
-| [**\_ID**](ivmvirtualnetwork--id.md) | Извлекает внутренний идентификатор виртуальной сети.<br/> |
+| [**\_УДОСТОВЕРЕНИЯ**](ivmvirtualnetwork--id.md) | Извлекает внутренний идентификатор виртуальной сети.<br/> |
 
 
 
@@ -74,11 +74,11 @@ ms.locfileid: "105691940"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмвиртуалнетворк определен как 431cb7a1-2469-4563-b94e-38b987adca63<br/>          |
 
 

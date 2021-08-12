@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7081a7f7e1cd84a6bf8d482aa7dddf7a48b39f0a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6419d315e162f859f49ee2448758999ca194adf8c16c6210f77d919fa2a18f47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118662117"
 ---
 # <a name="camthreadthreadproc-method"></a>Камсреад. Среадпрок, метод
 
@@ -44,7 +44,7 @@ virtual DWORD ThreadProc() = 0;
 
 Возвращает значение **типа DWORD** , значение которого определяется производным классом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это чистый виртуальный метод. Реализуйте этот метод в производном классе для предоставления потоковой процедуры. Когда метод [**камсреад:: Create**](camthread-create.md) создает поток, он предоставляет адрес метода [**Камсреад:: инитиалсреадпрок**](camthread-initialthreadproc.md) , который, в свою очередь, вызывает метод среадпрок.
 
@@ -52,13 +52,13 @@ virtual DWORD ThreadProc() = 0;
 
 При возврате из этого метода поток завершает работу.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксутил. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вксутил. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

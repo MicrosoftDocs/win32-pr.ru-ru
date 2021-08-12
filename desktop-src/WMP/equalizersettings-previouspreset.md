@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. Превиауспресет
 description: Метод Превиауспресет применяет предыдущую предустановку эквалайзера.
 ms.assetid: 0b344e5f-fe0d-4a23-b204-8fea340a8e21
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. Превиауспресет
+- екуализерсеттингс. превиауспресет проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 799775a5958903bc2d5e98b6ae467088b355962f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dc18a978a391c7d2aff5efa3ca10fdbb84ddadc820c6b5990fa16f04692af38e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577951"
 ---
 # <a name="equalizersettingspreviouspreset"></a>ЕКУАЛИЗЕРСЕТТИНГС. Превиауспресет
 
@@ -36,7 +36,7 @@ ms.locfileid: "105699142"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если текущая Предустановка является первой доступной, последняя Предустановка становится текущей.
 
@@ -46,7 +46,7 @@ ms.locfileid: "105699142"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

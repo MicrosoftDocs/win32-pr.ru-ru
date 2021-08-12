@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 19584c28a7bdf7ae01b87d1f414b9464b7b4271d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fa492acf00740b0df9b761c40797ec05feb5b2e38b84ec0682296dd845cbe613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105693955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118589609"
 ---
 # <a name="datadefinitiontype-complex-type"></a>Сложный тип Датадефинитионтипе
 
@@ -123,7 +123,7 @@ ms.locfileid: "105693955"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для входных типов переменной длины, таких как двоичные BLOB-объекты, необходимо использовать атрибут length для явного указания размера данных. Для строк укажите атрибут Length, только если строки имеют фиксированную длину.
 
@@ -209,8 +209,8 @@ ms.locfileid: "105693955"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

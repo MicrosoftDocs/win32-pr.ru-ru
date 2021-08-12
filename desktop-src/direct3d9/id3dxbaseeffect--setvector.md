@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 5d6fccc24410e06dd9bb4e6b0b1f1c36b03dd355
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 34c61a4b6b3dc1882a1d5d0598b249b51618574993e3439d791482051cc39301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105714009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118296267"
 ---
 # <a name="id3dxbaseeffectsetvector-method"></a>Метод ID3DXBaseEffect:: Сетвектор
 
@@ -65,7 +65,7 @@ HRESULT SetVector(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вектор назначения меньше, чем исходный вектор, дополнительные компоненты исходного вектора будут игнорироваться.
 
@@ -75,7 +75,7 @@ HRESULT SetVector(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

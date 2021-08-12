@@ -1,17 +1,17 @@
 ---
-description: Построение динамического графа
+description: динамическая сборка Graph
 ms.assetid: 13fed430-979b-40f7-91ba-aff2d811bd92
-title: Построение динамического графа
+title: динамическая сборка Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 710bf5f648fc91e8db6bf62d81b41327f874ddf7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f8c7296b95bc97461eb5a16ee577acb4bd267ee1a25f9be357a00fef7d4bdba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652794"
 ---
-# <a name="dynamic-graph-building"></a>Построение динамического графа
+# <a name="dynamic-graph-building"></a>динамическая сборка Graph
 
 Если необходимо изменить существующий граф фильтра, можно отключить граф, внести изменения и перезапустить диаграмму. Обычно это лучший подход. Однако в некоторых случаях может потребоваться изменить график, пока он все еще выполняется. Пример:
 
@@ -25,7 +25,7 @@ ms.locfileid: "105673031"
 -   [Динамическое](dynamic-reconnection.md)повторное подключение: изменение диаграммы путем добавления или удаления фильтров.
 -   [Цепочки фильтров](filter-chains.md): Добавление, удаление и управление цепочками фильтров.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

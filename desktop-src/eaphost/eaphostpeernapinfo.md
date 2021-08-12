@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3221f40dea9e84e410a1a643bbbcdc94e9039b21
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5fe91c88f633f2e42599938e45e1291c90f1ec9c08559a84f132f3af9269de39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274543"
 ---
 # <a name="eaphostpeernapinfo-structure"></a>Структура Еафостпирнапинфо
 
@@ -64,7 +64,7 @@ typedef struct _tagEapHostPeerNapInfo {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура **еафостпирнапинфо** предшествует [стрингкоррелатионид](/windows/desktop/NAP/nap-datatypes) NAP типа данных **WCHAR** в потоке байтов RPC.
 
@@ -74,9 +74,9 @@ typedef struct _tagEapHostPeerNapInfo {
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                   |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                      |
-| Header<br/>                   | <dl> <dt>Еафостпирапис. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                   |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                      |
+| Заголовок<br/>                   | <dl> <dt>Еафостпирапис. h</dt> </dl> |
 
 
 

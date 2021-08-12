@@ -3,7 +3,7 @@ title: Элемент Color
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования Интернет-магазинами. | Элемент Color
 ms.assetid: 36fafe16-b708-4dc1-9325-d4f39265069a
 keywords:
-- Элемент Color проигрыватель Windows Media
+- элемент Color проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6c73aa9fe2c7f731e872c4a2e235bf9c0e29ce05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b8576f94c2d1aa88608f8f40cbfe32c2d1dc315e0e4578ca6554fa5fcde82c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580759"
 ---
 # <a name="color-element"></a>Элемент Color
 
@@ -79,7 +79,7 @@ ms.locfileid: "105698994"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 10 или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 10 или более поздней версии.<br/> |
 
 
 
