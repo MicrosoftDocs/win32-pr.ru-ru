@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9bb41395b3ed2e38a64094506e07e2a69ad1d52
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0817bec7874b9a3a58e28653ff10497eb1e3f5e5170c57dbe2c26a6b20b64460
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105664875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616556"
 ---
 # <a name="glend-function"></a>Функция Гленд
 
@@ -54,7 +54,7 @@ void WINAPI glEnd(void);
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функции [**глбегин**](glbegin.md) и **гленд** разделяют вершины, определяющие примитив или группу похожих примитивов. Функция **глбегин** принимает один аргумент, указывающий, какой из десяти примитивов будет составлять вершины. При отсчете *n* в виде целого числа, начиная с единицы, и *n* в качестве общего числа указанных вершин используются следующие интерпретации.
 
