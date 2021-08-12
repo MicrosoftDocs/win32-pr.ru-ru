@@ -3,7 +3,7 @@ title: BUTTONGROUP. Кнопка
 description: Метод БУТТОНЕЛЕМЕНТ извлекает объект с указанным индексом.
 ms.assetid: 49e1cf61-f5de-430d-8492-bd49b186f5ea
 keywords:
-- Проигрыватель Windows Media для кнопки BUTTONGROUP.
+- проигрыватель Windows Media BUTTONGROUP. @ button
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d4f302480730ffba472366ac851412483040b7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c29e1516fcbfc3a777553c412b34608ae46a74bdc75b96c265969e066c533be0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581368"
 ---
 # <a name="buttongroupgetbutton"></a>BUTTONGROUP. Кнопка
 
@@ -48,7 +48,7 @@ ms.locfileid: "105699293"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

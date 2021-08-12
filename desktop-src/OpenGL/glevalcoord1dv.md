@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 018c984c74ed6fa0d7224e7e0520c023e8b6bdf1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9611a43b5f17eb5c5ac3d520f13ab3fb34fc516b850c37943c1ad75478db1527
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616241"
 ---
 # <a name="glevalcoord1dv-function"></a>Функция glEvalCoord1dv
 
@@ -51,7 +51,7 @@ void WINAPI glEvalCoord1dv(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **glEvalCoord1dv** вычисляет включенные одномерные карты в аргументе *u*. Определение сопоставлений с помощью [**glMap1**](glmap1.md). Включите или отключите их с помощью [**гленабле**](glenable.md) и [**глдисабле**](gldisable.md).
 

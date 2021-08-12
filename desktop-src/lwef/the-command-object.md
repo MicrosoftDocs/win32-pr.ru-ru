@@ -4,22 +4,22 @@ description: Объект Command
 ms.assetid: a757846a-c2d0-4239-9533-babf5dc8399f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e9e9ce22b3a1c0c2286232b5e2204e158501332
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 242a90022431b826cf877edd862cd89a39d193865ed31afc1e4ff911f4189756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105710275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245620"
 ---
 # <a name="the-command-object"></a>Объект Command
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Объект [**Command**](/windows/desktop/lwef/the-command-object) — это элемент в коллекции [**Commands**](/windows/desktop/lwef/the-commands-collection-object) . Сервер предоставляет пользователю доступ к объектам **команды** , когда клиентское приложение преобразуется в входные данные.
 
 -   [Свойства объекта Command](command-object-properties.md)
 
-Чтобы получить доступ к свойству объекта [**Command**](/windows/desktop/lwef/the-command-object) , вы ссылаетесь на него в своей коллекции, используя свойство [**Name**](name-property.md) . В VBScript и Visual Basic можно использовать свойство **Name** напрямую:
+Чтобы получить доступ к свойству объекта [**Command**](/windows/desktop/lwef/the-command-object) , вы ссылаетесь на него в своей коллекции, используя свойство [**Name**](name-property.md) . в VBScript и Visual Basic можно использовать свойство **Name** напрямую:
 
 
 ```
@@ -37,7 +37,7 @@ ms.locfileid: "105710275"
 
 
 
-Вы также можете ссылаться на объект Command, создав ссылку на него. В Visual Basic объявите объектную переменную и используйте инструкцию SET для создания ссылки:
+Вы также можете ссылаться на объект Command, создав ссылку на него. в Visual Basic объявите объектную переменную и используйте инструкцию Set для создания ссылки:
 
 
 ```
@@ -50,7 +50,7 @@ ms.locfileid: "105710275"
 
 
 
-В Visual Basic 5,0 можно также объявить объект как тип [**иажентктлкоммандекс**](https://www.bing.com/search?q=**IAgentCtlCommandEx**) и создать ссылку. Это соглашение включает раннее связывание, что приводит к лучшей производительности:
+в Visual Basic 5,0 можно также объявить объект как тип [**иажентктлкоммандекс**](https://www.bing.com/search?q=**IAgentCtlCommandEx**) и создать ссылку. Это соглашение включает раннее связывание, что приводит к лучшей производительности:
 
 
 ```
@@ -118,7 +118,7 @@ True
 
 True
 
-Неверно
+Нет
 
 Отключено, используется [ **заголовок**](caption-property.md)
 
@@ -130,7 +130,7 @@ True
 
 Да
 
-False
+Неверно
 
 True
 
@@ -174,7 +174,7 @@ True
 
 True
 
-Неверно
+Нет
 
 Отключено, используется [ **заголовок**](caption-property.md)
 
@@ -230,7 +230,7 @@ True
 
 True
 
-Неверно
+Нет
 
 Не отображается
 
@@ -242,7 +242,7 @@ True
 
 Да
 
-False
+Неверно
 
 True
 
@@ -286,7 +286,7 @@ True
 
 True
 
-Неверно
+Нет
 
 Не отображается
 
@@ -342,7 +342,7 @@ True
 
 True
 
-Неверно
+Нет
 
 Отключено, используется [ **заголовок**](caption-property.md)
 
@@ -354,7 +354,7 @@ True
 
 Да
 
-False
+Неверно
 
 True
 
@@ -398,7 +398,7 @@ True
 
 True
 
-Неверно
+Нет
 
 Отключено, используется [ **заголовок**](caption-property.md)
 
@@ -454,7 +454,7 @@ True
 
 True
 
-Неверно
+Нет
 
 Не отображается
 
@@ -466,7 +466,7 @@ True
 
 Да
 
-False
+Неверно
 
 True
 
@@ -510,7 +510,7 @@ True
 
 True
 
-Неверно
+Нет
 
 Не отображается
 

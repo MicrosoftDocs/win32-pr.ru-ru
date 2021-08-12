@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9530be7334e1f3fefa7f73007334e448362a95ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c14f4a002a0b33e403c02dba74385edd21e211fb27bcfb144c7a9ddc080a40fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606107"
 ---
 # <a name="irdvtaskplugininitialize-method"></a>Метод Ирдвтаскплугин:: Initialize
 
@@ -45,9 +45,9 @@ HRESULT Initialize(
 *пнотифисинк* \[ окне\]
 </dt> <dd>
 
-Тип: **[**ирдвтаскплугиннотифисинк**](irdvtaskpluginnotifysink.md) \** _
+Тип: **[ **ирдвтаскплугиннотифисинк**](irdvtaskpluginnotifysink.md)\***
 
-Указатель на интерфейс [_ *ирдвтаскплугиннотифисинк* *](irdvtaskpluginnotifysink.md) , который агент задачи использует для взаимодействия с агентом триггера. Этот интерфейс необходимо освобождать, если он больше не нужен.
+Указатель на интерфейс [**ирдвтаскплугиннотифисинк**](irdvtaskpluginnotifysink.md) , который агент задачи использует для взаимодействия с агентом триггера. Этот интерфейс необходимо освобождать, если он больше не нужен.
 
 </dd> </dl>
 
@@ -63,7 +63,7 @@ HRESULT Initialize(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------|
-| Минимальная версия клиента<br/> | Windows 7 Корпоративная<br/>   |
+| Минимальная версия клиента<br/> | Windows 7 Корпоративная<br/>   |
 | Минимальная версия сервера<br/> | Windows Server 2008 R2<br/> |
 
 

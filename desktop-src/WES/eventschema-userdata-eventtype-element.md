@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c9f7e5a2babe42073d4f27cfaae1d2e28dedfe35
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1042e5665bbedc4670d3615846c991bb9d6c944fca3fe90e223e4c7b6fb19420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105693986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118588162"
 ---
 # <a name="userdata-eventtype-element"></a>UserData (EventType), элемент
 
@@ -38,8 +38,8 @@ ms.locfileid: "105693986"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
@@ -50,7 +50,7 @@ ms.locfileid: "105693986"
 **Родительский элемент**
 </dt> <dt>
 
-[**Журнале**](eventschema-event-element.md)
+[**событие**](eventschema-event-element.md)
 </dt> </dl>
 
  

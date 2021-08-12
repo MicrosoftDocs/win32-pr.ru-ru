@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 28aca669b2099e489738f9d5dac59d3e60c58b13
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 771bd2149b50dac140de6b789d0a9198baea6eb5baf769dd7df15ef052c0d72d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103793903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274548"
 ---
 # <a name="eaphostconfig-schema"></a>Схема еафостконфиг
 
@@ -22,16 +22,16 @@ ms.locfileid: "103793903"
 
 -   [Элементы схемы еафостконфиг](eaphostconfigschema-elements.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [EAPHost и схема прежних версий](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

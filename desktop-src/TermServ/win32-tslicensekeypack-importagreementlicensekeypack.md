@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff61d022f9cf195eb357817f7733f4ec49e2986f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b911a722f4f26aaf83debcb70413cb9dad2b40d2ca12b4ad3310aee4510ca1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603807"
 ---
 # <a name="importagreementlicensekeypack-method-of-the-win32_tslicensekeypack-class"></a>Метод Импортагриментлиценсекэйпакк \_ класса Win32 тслиценсекэйпакк
 
@@ -67,7 +67,7 @@ uint32 ImportAgreementLicenseKeyPack(
 1
 </dt> <dd>
 
-Пакет лицензионных ключей относится к корпоративному соглашению корпоративного лицензирования для клиентов с 250 или более компьютеров. Параметр *сагриментнумбер* — номер регистрации (семь цифр), найденный в подписанном соглашении.
+пакет лицензионных ключей относится к Enterprise соглашению корпоративного лицензирования для клиентов с 250 или более компьютеров. Параметр *сагриментнумбер* — номер регистрации (семь цифр), найденный в подписанном соглашении.
 
 </dd> <dt>
 

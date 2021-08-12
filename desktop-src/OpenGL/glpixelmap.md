@@ -4,12 +4,12 @@ description: Эти функции настраиваются карты пер�
 ms.assetid: 79a84334-355c-46d3-990c-4d273e2d2207
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ae0ded7bb2f3baeb9128dedf17c36c2d7533ace
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e759abbb62560f18a52b32ab7f6dfb07d4ea3f1a7ceb85611b6d1535c5373b27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118615411"
 ---
 # <a name="glpixelmap-functions"></a>Функции Глпикселмап
 
@@ -19,9 +19,9 @@ ms.locfileid: "103986731"
 -   [**глпикселмапуив**](glpixelmapuiv.md)
 -   [**глпикселмапусв**](glpixelmapusv.md)
 
- 
+ 
 
- 
+ 
 
 
 

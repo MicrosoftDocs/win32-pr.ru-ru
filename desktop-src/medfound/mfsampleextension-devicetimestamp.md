@@ -4,12 +4,12 @@ ms.assetid: 8904d104-ebcc-474d-b6b5-b262b6f62ee9
 title: Атрибут MFSampleExtension_DeviceTimestamp (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 285b354ecd0e399fc297d3677d29b88847f9eba8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3322f295908ae2bbdc095a21ab57ee2e0f2ed10dd2267eaea227b9248ddc226b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241129"
 ---
 # <a name="mfsampleextension_devicetimestamp-attribute"></a>Мфсампликстенсион \_ DeviceTimestamp, атрибут
 
@@ -29,7 +29,7 @@ ms.locfileid: "103898741"
 
 [**имфсампле**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут задается в примерах носителей, созданных источником мультимедиа для устройства записи. Значение этого атрибута находится в домене [**мфтиме**](mftime.md) , которому предоставляется общий доступ к эпохе со счетчиком производительности запросов (QPC) и всегда выражается в единицах 100 нс. Этот атрибут доступен для МФТС, вставленного в конвейер захвата.
 
@@ -43,13 +43,13 @@ ms.locfileid: "103898741"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 <dl> <dt>
 

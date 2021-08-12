@@ -1,19 +1,19 @@
 ---
-description: 'Выпуск служба теневого копирования томов Windows Server 2003 содержит следующие новые функции:'
+description: 'выпуск Windows Server 2003 служба теневого копирования томов содержит следующие новые функции:'
 ms.assetid: 3dcfcc01-3e3c-43e9-a933-5c72f331da9a
-title: Новые функции, доступные в Windows Server 2003
+title: новые функции, доступные в Windows Server 2003
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5782ef6b24f208f69e50cdb992e12ba3212c47f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bc444a062fd2e1dae33af80feb88e1da52452064d8ed38c2db6fd5f7f3ae2e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591395"
 ---
-# <a name="new-functionality-available-in-windows-server-2003"></a>Новые функции, доступные в Windows Server 2003
+# <a name="new-functionality-available-in-windows-server-2003"></a>новые функции, доступные в Windows Server 2003
 
-Выпуск служба теневого копирования томов Windows Server 2003 содержит следующие новые функции:
+выпуск Windows Server 2003 служба теневого копирования томов содержит следующие новые функции:
 
 -   Поддержка [*выбора для восстановления*](vssgloss-s.md) в дополнение к и на равной базе с поддержкой [*выбора для резервного копирования*](vssgloss-s.md) (ранее она называлась выборкой). Дополнительные сведения см. [в разделе Работа с выборкой и логическими путями](working-with-selectability-and-logical-paths.md) .
 -   Введение в событие [*баккупшутдовн*](vssgloss-b.md) , указывающее на завершение работы приложения резервного копирования, совместимого с VSS, о том, правильно ли выполнена операция резервного копирования. Дополнительные сведения см. в разделе [Обработка событий баккупшутдовн](handling-backupshutdown-events.md) .
@@ -25,7 +25,7 @@ ms.locfileid: "104156122"
 -   Поддержка условного восстановления во время перезагрузки. \_ \_ Дополнительные сведения см. в разделе VSS рме Restore \_ при \_ перезагрузке \_ \_ , если не удается \_ заменить ([**VSE \_ ресторемесод \_ enum**](/windows/desktop/api/VsWriter/ne-vswriter-vss_restoremethod_enum)).
 -   Определение состояния восстановления и типа восстановления. Дополнительные сведения см. в разделе [**\_ \_ тип восстановления VSS**](/windows/desktop/api/Vss/ne-vss-vss_restore_type) и [состояние восстановления VSS](vss-restore-state.md) .
 -   Поддержка запросов модуля записи о состоянии теневого копирования. Дополнительные сведения см. в разделе [**квссвритер:: oncontext**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getcontext) и [**Квссвритер:: жетснапшотдевиценаме**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-getsnapshotdevicename) .
--   Поддержка переносимых теневых копий в Windows Server 2003, Enterprise Edition и Windows Server 2003, Datacenter Edition. Дополнительные сведения см. в разделе [Импорт переносимых теневых скопированных томов](importing-transportable-shadow-copied-volumes.md).
+-   поддержка транспортных теневых копий в Windows server 2003, выпуск Enterprise и Windows server 2003, datacenter Edition. Дополнительные сведения см. в разделе [Импорт переносимых теневых скопированных томов](importing-transportable-shadow-copied-volumes.md).
 
  
 

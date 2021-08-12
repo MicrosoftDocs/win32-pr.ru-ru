@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 533ca0c847548fa1de4518079ca6e49d15b6830f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6e7cd93c45c602b35e88fe28c467943829669d329f75007607783ece06f1b51b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104424254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118615774"
 ---
 # <a name="glgetcolortableparameterfvext-function"></a>Функция Глжетколортаблепараметерфвекст
 
@@ -84,7 +84,7 @@ void WINAPI glGetColorTableParameterfvEXT(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функции **глжетколортаблепараметеривекст** и **глжетколортаблепараметерфвекст** используются для получения определенных данных параметров из таблиц цветов, установленных с помощью [**глколортабликст**](glcolortableext.md) для целевых палитр текстуры. Кроме того, эти функции можно использовать для определения количества записей в таблице цветов, возвращаемых **глжетколортабликст** .
 

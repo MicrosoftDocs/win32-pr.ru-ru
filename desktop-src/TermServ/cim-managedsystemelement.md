@@ -21,12 +21,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23b242369df24724fdcc31ce925a229dba5bb515
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d1e16dcf974658bb780ece5671291107ef72827c88e458fdbce35c9da9f957c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118609927"
 ---
 # <a name="cim_managedsystemelement-class-remote-desktop-services"></a>Класс CIM_ManagedSystemElement (службы удаленных рабочих столов)
 
@@ -56,13 +56,13 @@ class CIM_ManagedSystemElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ манажедсистемелемент** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -107,7 +107,7 @@ class CIM_ManagedSystemElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**

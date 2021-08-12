@@ -3,7 +3,7 @@ title: Элемент Description
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования Интернет-магазинами. | Description, элемент
 ms.assetid: 4d9ff447-e5a4-46b1-b599-87202077abfb
 keywords:
-- Элемент Description. проигрыватель Windows Media
+- элемент Description проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4318a7936f4713d3ff89a2fa73731eea0cdd97db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 78c3601abaf2a039b49318772eba1ed6e95d2aed06e2a91c72aabdadc3ffebd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579604"
 ---
 # <a name="description-element"></a>Элемент Description
 
@@ -27,7 +27,7 @@ ms.locfileid: "105694760"
 
  
 
-Элемент **Description** указывает маркетинговое описание Интернет-магазина, которое отображается при первом запуске пользователя с установкой проигрывателя Windows Media.
+элемент **description** указывает маркетинговое описание интернет-магазина, которое отображается при первом запуске пользователя с установкой проигрыватель Windows Media.
 
 ``` syntax
 <Description>
@@ -62,7 +62,7 @@ ms.locfileid: "105694760"
 
 | Требование | Значение |
 |--------------------|-------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/> |
+| Версия<br/> | проигрыватель Windows Media 11.<br/> |
 
 
 

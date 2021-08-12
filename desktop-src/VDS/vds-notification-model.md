@@ -4,16 +4,16 @@ ms.assetid: a0841215-3eb0-4769-b320-4da25b535362
 title: Уведомления службы VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa99751912f110a77b061d50134135413baf2894
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 931731cc9c2b4aa73f7599c1fcbfad2f885bc74978ab15ba4e1efbf9d2a7522c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104550146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603120"
 ---
 # <a name="vds-notifications"></a>Уведомления службы VDS
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Поставщик может отправлять уведомления о событиях в службу VDS, а служба VDS может пересылать уведомления в приложения. Модель уведомления, используемая службой VDS, похожа на модель точки подключения, используемую объектами COM.
 
@@ -39,10 +39,10 @@ ms.locfileid: "104550146"
 | Pack       | **получение \_ пакета NF для службы VDS \_ \_**                 | 1     | [**\_уведомление пакета \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_pack_notification)              |
 | Pack       | **Служба VDS \_ NF \_ Pack \_ выбывают**                 | 2     | [**\_уведомление пакета \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_pack_notification)              |
 | Pack       | **\_ \_ изменение пакета NF для VDS \_**                 | 3     | [**\_уведомление пакета \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_pack_notification)              |
-| Том     | **получение \_ тома NF для службы VDS \_ \_**               | 4     | [**\_уведомление тома \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
-| Том     | **Служба VDS \_ NF \_ Volume \_ выбывают**               | 5     | [**\_уведомление тома \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
-| Том     | **\_ \_ изменение тома NF для службы VDS \_**               | 6     | [**\_уведомление тома \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
-| Том     | **\_ \_ \_ ход перестроения тома NF службы VDS \_** | 7     | [**\_уведомление тома \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
+| Громкость     | **получение \_ тома NF для службы VDS \_ \_**               | 4     | [**\_уведомление тома \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
+| Громкость     | **Служба VDS \_ NF \_ Volume \_ выбывают**               | 5     | [**\_уведомление тома \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
+| Громкость     | **\_ \_ изменение тома NF для службы VDS \_**               | 6     | [**\_уведомление тома \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
+| Громкость     | **\_ \_ \_ ход перестроения тома NF службы VDS \_** | 7     | [**\_уведомление тома \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_volume_notification)          |
 | Диск       | **\_приприбытие \_ диска NF VDS \_**                 | 8     | [**\_уведомление диска службы VDS \_**](/windows/desktop/api/Vds/ns-vds-vds_disk_notification)              |
 | Диск       | **Служба VDS \_ NF \_ Disk \_ выбывают**                 | 9     | [**\_уведомление диска службы VDS \_**](/windows/desktop/api/Vds/ns-vds-vds_disk_notification)              |
 | Диск       | **Служба VDS \_ NF, \_ \_ Изменение диска**                 | 10    | [**\_уведомление диска службы VDS \_**](/windows/desktop/api/Vds/ns-vds-vds_disk_notification)              |
@@ -83,13 +83,13 @@ ms.locfileid: "104550146"
 | Буква диска | **\_ \_ \_ Назначение буквы диска NF \_ VDS**          | 202   | [**\_ \_ уведомление о букве диска VDS \_**](/windows/desktop/api/Vds/ns-vds-vds_drive_letter_notification) |
 | Файловая система  | **\_ \_ \_ изменение файловой системы \_ службы VDS NF**           | 203   | [**\_уведомление файловой \_ системы \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_file_system_notification)   |
 | Файловая система  | **\_ \_ \_ \_ ход выполнения форматирования файловой системы \_ службы VDS NF** | 204   | [**\_уведомление файловой \_ системы \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_file_system_notification)   |
-| Том       | **\_ \_ \_ изменение точек подключения службы VDS NF \_**          | 205   | [**\_ \_ уведомление точки подключения \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_mount_point_notification)   |
+| Громкость       | **\_ \_ \_ изменение точек подключения службы VDS NF \_**          | 205   | [**\_ \_ уведомление точки подключения \_ VDS**](/windows/desktop/api/Vds/ns-vds-vds_mount_point_notification)   |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

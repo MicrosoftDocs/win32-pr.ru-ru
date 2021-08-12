@@ -4,12 +4,12 @@ description: Сложение целых чисел.
 ms.assetid: EF78EA65-DC16-469A-9E45-52844FF4BD93
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b593484aa7c1ef376bb5febf141b144ddef338e0
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9226223b5a065714ca17bd63775b8d4e8a3bc9b96de111cec87b879114728bf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118285797"
 ---
 # <a name="iadd-sm4---asm"></a>IAdd (SM4-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104412215"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Покомпонентное Добавление 32-разрядных операндов *src0* и *src1*, помещая правильный 32-разрядный результат в *dest*. Не учитывается и не заимствовано 32-разрядных значений каждого компонента, поэтому эта инструкция не чувствительна к подписанному rvalue характеристикиу своих операндов.
 
@@ -73,7 +73,7 @@ ms.locfileid: "104412215"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

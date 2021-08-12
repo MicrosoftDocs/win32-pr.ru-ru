@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 90b86ad3d5d9fe5aa65db722757bdb34574a1006
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ffbaffbb47d91b18a6fad9bdee98012fa11fb923a7c7586acf7d7b0cd181bcc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105704025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294117"
 ---
 # <a name="id3dxprtbufferaddbuffer-method"></a>Метод ID3DXPRTBuffer:: Аддбуффер
 
@@ -55,7 +55,7 @@ HRESULT AddBuffer(
 
 Если метод выполнен успешно, возвращается значение S \_ . Если метод завершается с ошибкой, будет возвращено следующее значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 pBuffer и [**ID3DXPRTBuffer**](id3dxprtbuffer.md) должны иметь одинаковое число выборок, коэффициентов и цветовых каналов. в противном случае метод завершится ошибкой.
 
@@ -65,7 +65,7 @@ pBuffer и [**ID3DXPRTBuffer**](id3dxprtbuffer.md) должны иметь од�
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 22d6930a44f129154482f9b1aab24337e8bcdc83
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 32b1387c1299c5ed3a379b06e3157d1c359c3f1d4fc3db39ee8c51c4997b6834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297796"
 ---
 # <a name="d3dxvec3dot-function"></a>Функция D3DXVec3Dot
 
@@ -71,7 +71,7 @@ FLOAT D3DXVec3Dot(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 32bc213aa67e87eb8af0643a15f16b298cfb3204
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 082519cc70782150b7e3f43ffd0849a8606b2e0c9bb3d1a62b4a8843734ebd4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118273193"
 ---
 # <a name="performservervalidation-peapextensionstype-element-v2-schema"></a>Элемент Перформсервервалидатион (Пеапекстенсионстипе) (схема v2)
 
@@ -33,7 +33,7 @@ ms.locfileid: "104273565"
 
 Элемент **перформсервервалидатион** определяется элементом [**пеапекстенсионстипе**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **перформсервервалидатион** является необязательным.
 
@@ -43,8 +43,8 @@ ms.locfileid: "104273565"
 
 | Роль | Минимальная версия ОС |
 |------|--------------------|
-| Клиент<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Сервер<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Клиент<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Сервер<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

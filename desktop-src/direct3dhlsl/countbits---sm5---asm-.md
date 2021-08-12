@@ -4,12 +4,12 @@ description: Подсчитывает количество битов, зада�
 ms.assetid: ED75487F-46FF-45F5-BEAA-7A32BEFB0571
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55d46fe9c750790d65630a743dd9ddc347fea50e
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b13be61d470f5a8504c893f85bea4b7f500591d35118aec2bf6576b897a4b5d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103890008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118286956"
 ---
 # <a name="countbits-sm5---asm"></a>каунтбитс (SM5-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "103890008"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эту инструкцию можно использовать для расчета процентного покрытия заполнения шейдером.
 
@@ -43,7 +43,7 @@ ms.locfileid: "103890008"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Geometry | Пиксель | Вычисления |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -70,7 +70,7 @@ ms.locfileid: "103890008"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

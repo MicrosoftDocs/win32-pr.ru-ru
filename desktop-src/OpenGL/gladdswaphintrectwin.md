@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ae3e10c2f51ff8d7c9763ff1dad7d09d800cd60
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75077ac2a93e3e952ae3c3daca3ea847f7b4b0efc340da0e980b1a4bec6efa64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618054"
 ---
 # <a name="gladdswaphintrectwin-function"></a>Функция Гладдсвафинтректвин
 
@@ -75,7 +75,7 @@ void WINAPI glAddSwapHintRectWIN(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гладдсвафинтректвин** ускоряет анимацию, уменьшая объем перерисовки кадров. С помощью **гладдсвафинтректвин** вы указываете набор прямоугольных областей, которые необходимо скопировать при вызове [**свапбуфферс**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers). Если не указать ни одного прямоугольника с **гладдсвафинтректвин** перед вызовом **свапбуфферс**, весь буфера кадров будет заменен. Использование **гладдсвафинтректвин** для копирования только измененных частей буфера может значительно повысить производительность **свапбуфферс**, особенно при реализации **свапбуфферс** в программном обеспечении.
 

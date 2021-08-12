@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\texture_resources.htm
 title: Ресурсы текстуры (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14134ca53b7735426e3f01340308282858da5516
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 230caaa352a50644a6580c8aae28f18882425e40d9378cbafee1980cf317aa46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290692"
 ---
 # <a name="texture-resources-direct3d-9"></a>Ресурсы текстуры (Direct3D 9)
 
@@ -56,7 +56,7 @@ Direct3D поддерживает наложения нескольких тек
 
 Приложения также могут задавать перспективу текстур и состояния фильтрации текстур. См. раздел [Фильтрация текстур (Direct3D 9)](texture-filtering.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

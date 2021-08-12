@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a1344aadfa5fe67e411048bac2a83330ea704c50
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 474bc44550408591616d3a8d2c6c3c69a5a0d073c90297c60b4a831627c996e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611302"
 ---
 # <a name="showmessage-actiongroup-element"></a>ShowMessage (actionGroup), элемент
 
@@ -53,13 +53,13 @@ ms.locfileid: "104340495"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки сценариев действие окна сообщения указывается с помощью объекта [**шовмессажеактион**](showmessageaction.md) .
 
 Для разработки на C++ действие окна сообщения указывается с помощью интерфейса [**ишовмессажеактион**](/windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction) .
 
-**Windows 8 и Windows Server 2012:** Этот элемент был удален. Для отображения сообщения в сеансе пользователя можно использовать Иексекактион с функцией Windows Scripting [**MsgBox**](/previous-versions/sfw6660x(v=vs.80)) .
+**Windows 8 и Windows Server 2012:** Этот элемент был удален. для отображения сообщения в сеансе пользователя можно использовать иексекактион с функцией Windows scripting [**MsgBox**](/previous-versions/sfw6660x(v=vs.80)) .
 
 ## <a name="examples"></a>Примеры
 
@@ -71,8 +71,8 @@ ms.locfileid: "104340495"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                 |
 | Поддержка конца сервера<br/>    | Windows Server 2008 R2<br/>                    |
 

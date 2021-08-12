@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ecda59ecbbe23550363fb30706d73bca54fcd925
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11b71c88f63e7a3beb3c1c9ec8e1f3253bcd05a567ec5cd077f62175561ce2c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611896"
 ---
 # <a name="priority-settingstype-element"></a>Элемент Priority (Сеттингстипе)
 
@@ -44,7 +44,7 @@ ms.locfileid: "104414973"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Уровень приоритета 0 является наивысшим приоритетом, а уровень приоритета 10 — самым низким приоритетом. По умолчанию используется значение 7. Минимальное и максимальное значения задаются простым типом [**приорититипе**](taskschedulerschema-prioritytype-simpletype.md) . Уровни приоритета 7 и 8 используются для фоновых задач, а уровни приоритета 4, 5 и 6 используются для интерактивных задач.
 
@@ -80,8 +80,8 @@ ms.locfileid: "104414973"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

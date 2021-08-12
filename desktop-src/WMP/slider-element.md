@@ -3,19 +3,19 @@ title: Элемент SLIDER
 description: Элемент SLIDER
 ms.assetid: f1da8987-5430-46ef-b7d7-ac92f34a2185
 keywords:
-- Обложки проигрывателя Windows Media, элемент SLIDER
+- обложки проигрыватель Windows Media, элемент SLIDER
 - обложки, элемент SLIDER
 - Элемент SLIDER
 - Справочник по обложкам, элементу SLIDER
 - элементы, ПОЛЗУНок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34607c8706fccc8f416ebc83ae483c98a784c08b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 140c84f6bec826b34ff4e1c5a4a3365d44ba9aa67ca9504cea642aba25f076d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569095"
 ---
 # <a name="slider-element"></a>Элемент SLIDER
 
@@ -56,7 +56,7 @@ ms.locfileid: "104330539"
 
 
 
- 
+ 
 
 Элемент **Slider** может реализовывать следующие обработчики событий.
 
@@ -70,7 +70,7 @@ ms.locfileid: "104330539"
 
 
 
- 
+ 
 
 Элемент **Slider** поддерживает атрибуты окружения и может реализовывать обработчики событий окружения. Дополнительные сведения см. в разделе [атрибуты окружения](ambient-attributes.md) и [обработчики событий окружения](ambient-event-handlers.md).
 
@@ -86,18 +86,18 @@ ms.locfileid: "104330539"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

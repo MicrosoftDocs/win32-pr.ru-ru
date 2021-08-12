@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 96c7daa6bdc72146400973d08c9e5780092b214a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4aa83aa04ce4a442351485c25fbc7f4c6d252f923f6777cfe807abf9ba527a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118620222"
 ---
 # <a name="bootstrap-profile-sample"></a>Образец профиля начальной загрузки
 
@@ -22,9 +22,9 @@ ms.locfileid: "104265031"
 
 Этот профиль не проверяет сертификаты, представленные сервером протокол RADIUS (RADIUS), и не должен использоваться после присоединения компьютера к домену.
 
-Этот пример настроен для использования защиты Wi-Fi защищенного доступа 2, работающей в режиме предприятия (WPA2-Enterprise). Другие типы безопасности можно использовать при условии, что используется метод проверки подлинности PEAP-MSCHAPv2.
+этот пример настроен для использования защиты Wi-Fi защищенного доступа 2, работающей в режиме Enterprise (WPA2-Enterprise). Другие типы безопасности можно использовать при условии, что используется метод проверки подлинности PEAP-MSCHAPv2.
 
-**Windows 7 и Windows Server 2008 R2 с установленной службой беспроводной локальной сети:** Изменения реализуются в Windows 7 и Windows Server 2008 R2 с установленной службой беспроводной локальной сети для оптимизации производительности беспроводных сетей. Параметр по умолчанию для [**автопереключения**](wlan-profileschema-autoswitch-wlanprofile-element.md) , если этот элемент не задан в профиле беспроводной локальной сети, изменился. Значение по умолчанию изменено на "false" в Windows 7 и Windows Server 2008 R2 с установленной службой беспроводной локальной сети. Значение по умолчанию — true в Windows Server 2008 и Windows Vista. Дополнительные сведения см. в описании элемента схемы [**автопереключения**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
+**Windows 7 и Windows Server 2008 R2 с установленной службой беспроводной локальной сети:** изменения реализуются на Windows 7 и Windows Server 2008 R2 с установленной службой беспроводной локальной сети для оптимизации производительности беспроводных сетей. Параметр по умолчанию для [**автопереключения**](wlan-profileschema-autoswitch-wlanprofile-element.md) , если этот элемент не задан в профиле беспроводной локальной сети, изменился. значение по умолчанию изменено на "false" на Windows 7 и Windows сервере 2008 R2 с установленной службой беспроводной локальной сети. значение по умолчанию — true на Windows Server 2008 и Windows Vista. Дополнительные сведения см. в описании элемента схемы [**автопереключения**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
 
 **Windows XP с SP3 и API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2):** Дочерний элемент [**Name**](wlan-profileschema-name-wlanprofile-element.md) элемента [**вланпрофиле**](wlan-profileschema-wlanprofile-element.md) игнорируется. Имя профиля, хранящееся в хранилище профилей, является производным от дочернего элемента [**имени**](wlan-profileschema-name-ssid-element.md) [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) . Дочерние элементы [**качеусердата**](onexschema-cacheuserdata-onex-element.md), [**аусмоде**](onexschema-authmode-onex-element.md)и [**singleSignOn**](onexschema-singlesignon-onex-element.md) элемента [**OneX**](onexschema-onex-element.md) не поддерживаются, и их следует удалить из профиля перед использованием.
 
@@ -95,14 +95,14 @@ ms.locfileid: "104265031"
 </WLANProfile>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Образцы профиля беспроводной связи](wireless-profile-samples.md)
 </dt> <dt>
 
-[Присоединение беспроводного клиента Windows Vista к домену](https://www.microsoft.com/technet/network/wifi/vista_bootstrap_wireless.mspx)
+[присоединение беспроводного клиента Windows Vista к домену](https://www.microsoft.com/technet/network/wifi/vista_bootstrap_wireless.mspx)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ description: Сведения о поведении EAPHost отправител
 ms.assetid: 843f3ada-9694-4d96-b835-41d0ccf24b68
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc64213f0ac0e64f1512d098dd2f5d1aabc49e65
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: a6ba3dc46b2f9e7957aa479298e4f67da01018cc25267d64df75ff7f509f58d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104414284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274999"
 ---
 # <a name="eaphost-supplicants"></a>EAPHost отправителей запросов
 
@@ -22,14 +22,14 @@ ms.locfileid: "104414284"
 | [Настройка пользовательского интерфейса метода EAP](configuring-the-eap-method-user-interface.md)                               | Описание настройки запрашивающей стороны путем предоставления конфигурации метода EAP для EAPHost.                                                                                                                                            |
 | [Включение групповая политика](enabling-group-policy.md)                                                                       | В этой статье объясняется, как настроить этот метод, включив групповую политику.                                                                                                                                                                       |
 | [Реализация поддержки NAP In-Band для методов EAP](enabling-in-band-nap-support.md)                                     | Объясняет, как реализовать внутреннюю поддержку NAP для методов EAP, которые поддерживают передачу объектов типа length-value (ТЛВС). Если включена поддержка NAP в аппаратном контроллере, пакеты NAP передаются внутри пакетов методов EAP.             |
-| [Реализация поддержки NAP для методов EAP](implementing-nap-for-eap-methods.md)                                         | Объясняет, как реализовать NAP для запрашивающего устройства EAPHost. В Windows Vista и Windows Server 2008 клиент принудительной защиты доступа к сети (NAP EC) доступен для подключений с проверкой подлинности [802.1 x](/previous-versions/windows/embedded/ms890287(v=msdn.10)) . |
+| [Реализация поддержки NAP для методов EAP](implementing-nap-for-eap-methods.md)                                         | Объясняет, как реализовать NAP для запрашивающего устройства EAPHost. в Windows Vista и Windows Server 2008 клиент принудительной защиты доступа к сети (nap EC) доступен для подключений с проверкой подлинности [802.1 x](/previous-versions/windows/embedded/ms890287(v=msdn.10)) . |
 | [Передача данных между запрашивающим и методами EAP](transferring-data-between-the-supplicant-and-eap-methods.md) | Описывает, как можно обмениваться данными между отправителей запросов и методами EAP с помощью атрибутов EAP.                                                                                                                                            |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

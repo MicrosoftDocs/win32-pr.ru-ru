@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa34ea0c9c38cd0b11f97a0bbf651f1aebf37a46
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: c10e8c7b0a26ce2ca1e602478a64a888a1ad6b299f8ab7965303832bba7a3fc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106389208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118604436"
 ---
 # <a name="change-method-of-the-win32_service-class-mbnapih---terminalservice"></a>Метод Change класса Win32_Service (Мбнапи. h) — Терминалсервице
 
@@ -167,7 +167,7 @@ uint32 Change(
 *StartMode* \[ окне\]
 </dt> <dd>
 
-Режим запуска базовой службы Windows. Дополнительные сведения см. в разделе "Замечания".
+режим запуска базовой службы Windows. Дополнительные сведения см. в разделе "Замечания".
 
 <dt>
 
@@ -418,7 +418,7 @@ uint32 Change(
 
 </dd> <dt>
 
-**стр**
+**19**
 </dt> <dd>
 
 Служба выполняется с тем же именем.
@@ -559,13 +559,13 @@ Next
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ терминалсервицес<br/>                                                |
-| Заголовок<br/>                   | <dl> <dt>Мбнапи. h</dt> </dl>     |
+| Header<br/>                   | <dl> <dt>Мбнапи. h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>Тскфгвми. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

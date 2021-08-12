@@ -29,12 +29,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27e0e6d4e334edeffbf0ef025e59454e0f26c34c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c2a5df8cd9c85ecccaf2de32a0e82ac604429f7b9f1e4801e3bfb025de8116d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118607909"
 ---
 # <a name="imsrdpclientadvancedsettings6hotkeyfocusreleaseleft-property"></a>Свойство IMsRdpClientAdvancedSettings6:: Хоткэйфокусрелеаселефт
 
@@ -61,7 +61,7 @@ HRESULT get_HotKeyFocusReleaseLeft(
 
 Новый код виртуального ключа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство поддерживается только клиентами подключение к удаленному рабочему столу 6,1 и 7,0.
 

@@ -4,27 +4,27 @@ description: Атрибут Title (Shape) (VML)
 ms.assetid: 08680706-5274-46d4-9199-4fdbf32f884b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 075b1cf078617abd3486ba55008794e1342efa63
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 55ec2a16df6740bca64357dae039f4222de956300604198b2d199977970c526d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118596512"
 ---
 # <a name="title-attribute-shapevml"></a>Атрибут Title (Shape) (VML)
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет текст, отображаемый при наведении указателя мыши на фигуру. Read/write. **Строка**.
 
 **Применимо к**:
 
-[Фигурная](shape-element--vml.md)
+[Фигура](shape-element--vml.md)
 
 **Синтаксис тега**
 
@@ -38,7 +38,7 @@ ms.locfileid: "104488240"
 
 **Замечания**
 
-Атрибут **Title** аналогичен стандартному атрибуту **заголовка** HTML. Поведение заголовка аналогично подсказке Microsoft Windows.
+Атрибут **Title** аналогичен стандартному атрибуту **заголовка** HTML. поведение заголовка похоже на подсказку Microsoft Windows.
 
 **Стандартный атрибут VML**
 
@@ -57,6 +57,6 @@ ms.locfileid: "104488240"
 
 [Пример атрибута Title](/previous-versions/bb264097(v=vs.85)). (Требуется Microsoft Internet Explorer 5 или более поздней версии.)
 
- 
+ 
 
- 
+ 

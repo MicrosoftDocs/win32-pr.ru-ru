@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd1174dd933d46813a89c35b781d0408c3ac5476
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c5edf1b0fb2dbda1ef1e0a2c4b9ab67b8e7e6305998a8f5a6de9c461e4e148bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118615421"
 ---
 # <a name="glpassthrough-function"></a>Функция Глпасссраугх
 
@@ -73,7 +73,7 @@ void WINAPI glPassThrough(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратная связь — это режим рендеринга OpenGL, выбранный путем вызова [**глрендермоде**](glrendermode.md) с помощью \_ предложения GL. Когда OpenGL находится в режиме обратной связи, никакие Пиксели не создаются путем растрирования. Вместо этого сведения о примитивах, которые были бы растровыми, отправляются обратно в приложение OpenGL. Описание буфера обратной связи и его значений см. в разделе [**глфидбаккбуффер**](glfeedbackbuffer.md) .
 

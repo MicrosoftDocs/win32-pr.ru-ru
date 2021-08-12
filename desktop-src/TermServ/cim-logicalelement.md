@@ -21,12 +21,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f7e58fe64f3b9dbb76a11d308aadbe6ce50331f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bf1c1c14cd972f867fc732e3693d5ce31122c3953e7dc3e21278418e56e3d42d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118610124"
 ---
 # <a name="cim_logicalelement-class-remote-desktop-services"></a>Класс CIM_LogicalElement (службы удаленных рабочих столов)
 
@@ -54,13 +54,13 @@ class CIM_LogicalElement : CIM_ManagedSystemElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ логикалелемент** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -111,7 +111,7 @@ class CIM_LogicalElement : CIM_ManagedSystemElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**

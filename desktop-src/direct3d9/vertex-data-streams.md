@@ -4,12 +4,12 @@ ms.assetid: e89eae14-f480-470c-b301-f7ff316ad339
 title: Потоки данных вершин (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efd45fc3f645de49060cd201a6a6e9e238712338
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4f154621da4ba03f78beee87767130e37da9e9ab9ba899af737b968fb20f0609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290392"
 ---
 # <a name="vertex-data-streams-direct3d-9"></a>Потоки данных вершин (Direct3D 9)
 
@@ -25,7 +25,7 @@ ms.locfileid: "103805728"
 
 Поддерживаются как индексированные, так и неиндексированные методы рисования. Дополнительные сведения см. [в разделе визуализация из буферов вершин и индексов (Direct3D 9)](rendering-from-vertex-and-index-buffers.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

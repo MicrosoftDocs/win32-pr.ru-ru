@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e63180386c094f0c4e4de0f1a361bc3bcb1c6e5e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1e3dd966aa08eb5c74fa15235ed51f07a671c4e6f1378a990c6686fdc801e1d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118617352"
 ---
 # <a name="glcopyteximage1d-function"></a>Функция glCopyTexImage1D
 
@@ -162,7 +162,7 @@ void WINAPI glCopyTexImage1D(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **glCopyTexImage1D** определяет одномерный рисунок текстуры, используя Пиксели из текущего буфера кадров, а не из основной памяти, как в случае с [**glTexImage1D**](glteximage1d.md).
 

@@ -3,7 +3,7 @@ title: Ивмперрор. Item (VB и C)
 description: Свойство Item ( \_ метод Get Item в C \) получает интерфейс ивмперроритем по указанному индексу в очереди ошибок.
 ms.assetid: acfaaaa5-eb13-4ba0-8417-4229adc62c5d
 keywords:
-- Проигрыватель Windows Media Ивмперрор. Item (VB и C)
+- ивмперрор. Item (VB и C) проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9217ec772512171c828dd0dad06ec8fe3704dba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: be8d212eca9e9e54770e7e2751df345d80bbfb6bfc1b12714e811c7795990725
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575636"
 ---
 # <a name="iwmperroritem-vb-and-c"></a>Ивмперрор. Item (VB и C#)
 
@@ -55,9 +55,9 @@ IWMPErrorItem get_Item (
 
 Интерфейс **вмплиб. ивмперроритем** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Проигрыватель Windows Media может создавать ряд ошибок в ответ на состояние ошибки. Это свойство возвращает определенную ошибку в очереди с помощью номера индекса. Номера индексов для очереди ошибок начинаются с нуля.
+проигрыватель Windows Media может создать ряд ошибок в ответ на состояние ошибки. Это свойство возвращает определенную ошибку в очереди с помощью номера индекса. Номера индексов для очереди ошибок начинаются с нуля.
 
 Если выбрано отображение настраиваемых сообщений об ошибках, следует задать для **ивмпсеттингс. енаблиррордиалогс** **значение false** .
 
@@ -116,7 +116,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

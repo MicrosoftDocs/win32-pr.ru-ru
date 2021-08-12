@@ -3,7 +3,7 @@ title: EDITBOX. в строке
 description: Метод GetText извлекает текст для строки с указанным индексом.
 ms.assetid: a692c32b-86b9-419e-a3a5-464687be04da
 keywords:
-- Проигрыватель Windows Media для EDITBOX.
+- проигрыватель Windows Media EDITBOX./line
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3b0b9a15f9eff8c2612e7a242a205c1d9411a60c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 28d555cb684fa849b5fc7cdb42ebaf0ab4fb278b4ef126845add2f12ddf59948
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578840"
 ---
 # <a name="editboxgetline"></a>EDITBOX. в строке
 
@@ -43,7 +43,7 @@ ms.locfileid: "105694627"
 
 Этот метод возвращает **строку**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если индекс является недопустимым, возвращается пустая строка. Этот метод может быть вызван только после того, как элемент управления станет видимым.
 
@@ -53,7 +53,7 @@ ms.locfileid: "105694627"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

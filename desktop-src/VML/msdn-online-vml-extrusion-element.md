@@ -4,21 +4,21 @@ description: Элемент объемного эффекта VML
 ms.assetid: d26b2451-383a-4ded-a46d-5ecca05ddb7f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a6160a035853153c615576c3875ef9d90791245
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e9ee19db9d933f0b6b749c3165281614d1be87b0e0828f43849f8a36a5b37067
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118601344"
 ---
 # <a name="vml-extrusion-element"></a>Элемент объемного эффекта VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет объем фигуры.
 
@@ -48,13 +48,13 @@ ms.locfileid: "104413177"
 | [локкротатионцентер](msdn-online-vml-lockrotationcenter-attribute.md) | Определяет, задается ли поворот вытянутого объекта атрибутом **ротатионангле** . |
 | [Металлические](msdn-online-vml-metal-attribute.md)                           | Определяет, будет ли поверхность вытянутой фигуры иметь вид металла.                               |
 | [On](on-attribute--extrusion--vml.md) (Вкл.)                                 | Определяет, будет ли отображаться объем на объеме.                                                      |
-| [Ориентация](msdn-online-vml-orientation-attribute.md)               | Задает вектор, вокруг которого будет повернута фигура.                                              |
+| [Orientation](msdn-online-vml-orientation-attribute.md)               | Задает вектор, вокруг которого будет повернута фигура.                                              |
 | [ориентатионангле](msdn-online-vml-orientationangle-attribute.md)     | Определяет угол поворота объемной фигуры вокруг ориентации.                                     |
 | [Плоскости](msdn-online-vml-plane-attribute.md)                           | Указывает плоскость, находящуюся справа от объема.                                           |
 | [Render](msdn-online-vml-render-attribute.md)                         | Определяет режим отрисовки для объема.                                                            |
 | [RotationAngle (Угол поворота)](msdn-online-vml-rotationangle-attribute.md)           | Задает поворот объекта относительно осей x и y.                                           |
 | [ротатионцентер](msdn-online-vml-rotationcenter-attribute.md)         | Задает центр вращения для фигуры.                                                           |
-| [Коэффициента блеска](msdn-online-vml-shininess-attribute.md)                   | Определяет концентрацию отраженного освещения поверхности объема.                                   |
+| [блеск;](msdn-online-vml-shininess-attribute.md)                   | Определяет концентрацию отраженного освещения поверхности объема.                                   |
 | [скевамт](msdn-online-vml-skewamt-attribute.md)                       | Определяет величину наклона для объема.                                                             |
 | [скевангле](msdn-online-vml-skewangle-attribute.md)                   | Определяет угол наклона для объема.                                                              |
 | [Отраженность](msdn-online-vml-specularity-attribute.md)               | Определяет зеркальное отражение вытянутой фигуры.                                                           |
@@ -64,7 +64,7 @@ ms.locfileid: "104413177"
 
 
 
- 
+ 
 
 **Замечания**
 
@@ -88,6 +88,6 @@ ms.locfileid: "104413177"
 -   [Объем простой фигуры](/previous-versions/bb229656(v=vs.85))
 -   [Объем динамической фигуры](/previous-versions/bb229657(v=vs.85))
 
- 
+ 
 
- 
+ 

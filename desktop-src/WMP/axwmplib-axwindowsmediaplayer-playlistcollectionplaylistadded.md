@@ -3,7 +3,7 @@ title: Событие Плайлистколлектионплайлистадд
 description: Событие Плайлистколлектионплайлистаддед возникает при добавлении списка воспроизведения в коллекцию списков воспроизведения. | Событие Плайлистколлектионплайлистаддед объекта Аксвиндовсмедиаплайер
 ms.assetid: 13d3bc86-6655-4536-a58f-327eabb2b8f9
 keywords:
-- Событие Плайлистколлектионплайлистаддед в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие плайлистколлектионплайлистаддед объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b019e58ae8955f6df894101956e4776c2cd71626
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4d5223d5864aa8be9019b2219ef09917a1c63cf16d87a48aef9543246d5197a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581829"
 ---
 # <a name="playlistcollectionplaylistadded-event-of-the-axwindowsmediaplayer-object"></a>Событие Плайлистколлектионплайлистаддед объекта Аксвиндовсмедиаплайер
 
@@ -53,7 +53,7 @@ Private Sub player_PlaylistCollectionPlaylistAdded(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имя добавленного списка воспроизведения можно использовать для получения соответствующего списка воспроизведения с помощью Ивмпплайлистколлектион. метод **жетбинаме** .
 
@@ -63,7 +63,7 @@ Private Sub player_PlaylistCollectionPlaylistAdded(
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

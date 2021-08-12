@@ -4,12 +4,12 @@ description: Эти функции умножают текущую матриц�
 ms.assetid: 4c7e5598-534d-4b81-bb58-2e89d0dbfc77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 690557bdc4518761d30fd2c473df840dea08d912
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: df22412373cb8bec17037f594148c11335e7b54edd1b085d279072b211cef2ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104531976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118614484"
 ---
 # <a name="glscale-functions"></a>Функции Глскале
 
@@ -18,9 +18,9 @@ ms.locfileid: "104531976"
 -   [**глскалед**](glscaled.md)
 -   [**глскалеф**](glscalef.md)
 
- 
+ 
 
- 
+ 
 
 
 

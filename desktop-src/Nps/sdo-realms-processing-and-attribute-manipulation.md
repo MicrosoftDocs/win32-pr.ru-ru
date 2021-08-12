@@ -5,19 +5,19 @@ ms.assetid: 52963eda-ea95-4307-8924-d4143bc1f53d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd630fd683342c45ab35161bf2c740ac7e8a6fa2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8054ad8234ca4772a52619d83bc85a9d357f2cf8da2f1c969eed918c75a8305a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618950"
 ---
 # <a name="realms-processing-and-attribute-manipulation"></a>Обработка сфер и управление атрибутами
 
 > [!Note]  
-> Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
+> служба проверки подлинности в интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
 
- 
+ 
 
 Обработка сфер, которая также называется манипуляцией с атрибутами, относится к преобразованию имени пользователя, запросившего доступ. Также можно манипулировать ИДЕНТИФИКАТОРом вызывающей станции и ИДЕНТИФИКАТОРом вызываемой станции. Правила обработки сфер являются частью коллекции атрибутов профиля прокси-сервера.
 
@@ -39,9 +39,9 @@ ms.locfileid: "103792576"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -63,6 +63,6 @@ ms.locfileid: "103792576"
 [**иаспропертиес**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 644a4afbd10fbfff870007befda964fc9babd593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d58ed866e79269e604fe49ad8afe65d557f27a90d0be03904b8d27da5ac5c2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619061"
 ---
 # <a name="ssid-ssidconfig-element"></a>SSID (Ссидконфиг), элемент
 
@@ -83,11 +83,11 @@ ms.locfileid: "103910648"
 | Элемент                                              | Тип | Описание                                                           |
 |------------------------------------------------------|------|-----------------------------------------------------------------------|
 | [**hex**](wlan-profileschema-hex-ssid-element.md)   |      | Содержит идентификатор SSID беспроводной локальной сети в шестнадцатеричном формате.<br/> |
-| [**безымян**](wlan-profileschema-name-ssid-element.md) |      | Содержит идентификатор SSID для беспроводной локальной сети.<br/>                      |
+| [**name**](wlan-profileschema-name-ssid-element.md) |      | Содержит идентификатор SSID для беспроводной локальной сети.<br/>                      |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Несмотря на то, что [**шестнадцатеричные**](wlan-profileschema-hex-ssid-element.md) элементы и [**имена**](wlan-profileschema-name-ssid-element.md) являются необязательными, по крайней мере один **Шестнадцатеричный** элемент или [**имя**](wlan-profileschema-name-ssid-element.md) должны быть дочерними элементами элемента **SSID** .
 
@@ -106,8 +106,8 @@ ms.locfileid: "103910648"
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista, Windows XP с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/> |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                |
-| Распространяемые компоненты<br/>          | Интерфейс API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2)<br/>                 |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                |
+| Распространяемые компоненты<br/>          | API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2)<br/>                 |
 
 
 

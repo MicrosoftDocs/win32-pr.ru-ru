@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e888b49ad3036efb7578682d6ef8cc69a33599a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d5cc1cf3a47ebd4bd8faf1b0b02805cbe28def7eac4a4bbe3534094e3757e5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118620096"
 ---
 # <a name="lan_profile-schema"></a>\_Схема профиля локальной сети
 
