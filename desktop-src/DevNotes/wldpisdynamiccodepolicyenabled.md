@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - wldp.dll
-ms.openlocfilehash: 4df0555f89e9c575a7d97b69a5252c17936eb3d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 12643bd542acac908c560a2094fb02e69d6d1aae62308e4ca4ece3be8bb85c2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104140887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118666365"
 ---
 # <a name="wldpisdynamiccodepolicyenabled-function"></a>Функция Влдписдинамиккодеполициенаблед
 
@@ -50,18 +50,18 @@ HRESULT WINAPI WldpIsDynamicCodePolicyEnabled(
 
 Этот метод возвращает **значение \_ ОК** в случае успеха или код ошибки в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Динамический код относится к динамически созданному коду .NET CRL.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1803\]<br/>                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1803\]<br/>                           |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Wldp. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Wldp.dll</dt> </dl> |
 

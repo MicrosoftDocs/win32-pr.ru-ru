@@ -3,9 +3,9 @@ title: Медиаколлектион. Remove, метод
 description: Метод Remove удаляет элемент из коллекции носителей.
 ms.assetid: 7d4c03ed-01c8-4112-90b6-5de52eacb199
 keywords:
-- метод Remove Windows Media Player
-- метод Remove Windows Media Player, класс Медиаколлектион
-- Класс Медиаколлектион проигрыватель Windows Media Player, метод Remove
+- удалить метод проигрыватель Windows Media
+- метод remove проигрыватель Windows Media, класс медиаколлектион
+- класс медиаколлектион проигрыватель Windows Media, метод remove
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6667a5b95920ac63f38d3a581e6f8e05bdf8d233
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8dd0643741a15bf114acfef63459e67c332b06b33e6284b032979d4ad15c1d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574611"
 ---
 # <a name="mediacollectionremove-method"></a>Медиаколлектион. Remove, метод
 
@@ -61,7 +61,7 @@ MediaCollection.remove(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод удаляет элемент из библиотеки. Этот метод не удаляет файлы с компьютера пользователя.
 
@@ -69,7 +69,7 @@ MediaCollection.remove(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript, после запроса пользователя, окончательно удаляется первый элемент мультимедиа из коллекции мультимедиа с помощью *медиаколлектион*. **Удалить**. Объект **Player** создан с идентификатором "Player".
+в следующем JScript примере после запроса пользователя окончательно удаляется первый элемент мультимедиа из коллекции мультимедиа с помощью *медиаколлектион*. **Удалить**. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -102,7 +102,7 @@ if (answer){
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -120,10 +120,10 @@ if (answer){
 [**Медиаколлектион. Add**](mediacollection-add.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

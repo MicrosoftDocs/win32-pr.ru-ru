@@ -3,7 +3,7 @@ title: Сообщение TVM_SORTCHILDRENCB (Коммктрл. h)
 description: Сортирует элементы древовидного представления с помощью определяемой приложением функции обратного вызова, которая сравнивает элементы. Это сообщение можно отправить явно или с помощью \_ макроса Сортчилдренкб TreeView.
 ms.assetid: 1669e576-5e57-49f6-8097-7d6547306014
 keywords:
-- Элементы управления Windows для TVM_SORTCHILDRENCB сообщений
+- элементы управления Windows сообщений TVM_SORTCHILDRENCB
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b1dab4abbbc019a81d7a066c81dbb3537a0d80d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45f0ec311cc5ce0f972f3363ea97cd42874ca85807bf852296de0283fccc95c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669480"
 ---
 # <a name="tvm_sortchildrencb-message"></a>\_Сообщение TVM сортчилдренкб
 
@@ -47,14 +47,14 @@ ms.locfileid: "104492837"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

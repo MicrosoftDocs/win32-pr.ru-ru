@@ -4,12 +4,12 @@ ms.assetid: 254f003f-b3fd-40ab-a472-6bae93f11326
 title: Свойство Авдеквидеософтваредеинтерлацемоде (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e728b12d11def7f35c207bb8f76a5c763675397b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 67c48f60b0d54487ab2ee227c72e2a4f068b520542a6bcfe424fb384984a33db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663455"
 ---
 # <a name="avdecvideosoftwaredeinterlacemode-property"></a>Авдеквидеософтваредеинтерлацемоде, свойство
 
@@ -29,14 +29,14 @@ ms.locfileid: "103806419"
 
 Значение этого свойства является членом перечисления [**еавдеквидеософтваредеинтерлацемоде**](/windows/desktop/api/codecapi/ne-codecapi-eavdecvideosoftwaredeinterlacemode) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

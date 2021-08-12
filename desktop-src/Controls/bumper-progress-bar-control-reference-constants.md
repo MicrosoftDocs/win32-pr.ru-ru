@@ -4,16 +4,16 @@ description: Константы индикатора выполнения
 ms.assetid: 6e8c8167-5dd5-4521-ab4a-19b443db69e5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01e8bbe4a9ba7d92a6d775c5af2a2f3daf6b0c1a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 531432340f30cdbb72d2c406858fd64d5f224d8133168a9118647aee8920dd28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118673208"
 ---
 # <a name="progress-bar-constants"></a>Константы индикатора выполнения
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Стили элемента управления "индикатор выполнения"](progress-bar-control-styles.md)
 

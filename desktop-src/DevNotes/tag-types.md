@@ -4,12 +4,12 @@ ms.assetid: 009ad522-35da-4053-a7f6-61d7d240b98c
 title: Типы тегов
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7ab53b9c3b85263ddcdbe80e3979d576685bd73
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8308f0adb9195363825a95253f1118305a88b9adeb46e9e7ce9518a6e005d96e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118666395"
 ---
 # <a name="tag-types"></a>Типы тегов
 
@@ -31,14 +31,14 @@ ms.locfileid: "104262546"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

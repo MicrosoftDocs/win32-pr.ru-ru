@@ -4,12 +4,12 @@ ms.assetid: 33430f01-cd26-45f4-9ce8-ca2c17c7ae6b
 title: Форматы поверхностей (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78aad64940510a080ba05d0513e7f66d33912a41
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7e54b6bf4573243e170f089a72d7d5c69e31c81a536703d764694d43f2dc33cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118291501"
 ---
 # <a name="surface-formats-direct3d-9"></a>Форматы поверхностей (Direct3D 9)
 
@@ -17,7 +17,7 @@ ms.locfileid: "104140194"
 
 Все поверхности имеют размер и сохраняют определенное количество битов, представляющих цвет. Биты, представляющие цвет, разделяются на отдельные элементы цвета: красный, зеленый и синий. В Direct3D все элементы цвета определяются перечисляемым типом [D3DFORMAT](d3dformat.md) . Формат цвета Direct3D разбивается на число байтов, зарезервированных для каждого цвета. Например, 16-разрядный формат цвета в Direct3D определяется как D3DFMT \_ R5G6B5, где 5 бит зарезервированы для Red (R), 6 бит для зеленого (G) и 5 бит для синего (B).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

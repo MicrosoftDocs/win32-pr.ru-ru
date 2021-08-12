@@ -4,12 +4,12 @@ description: Подсказки на месте используются для 
 ms.assetid: 2FE39B99-75F3-4978-B0B3-B769E2961F23
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc321ecdd6df151a151e6d21c8419326edb63d38
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 9dd3b01d30a20b52cbb80121cc8c1d793965acf0ea3cf4f2be1ce4553f4ccb98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104070882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118671736"
 ---
 # <a name="how-to-implement-in-place-tooltips"></a>Реализация In-Place подсказок
 
@@ -17,18 +17,18 @@ ms.locfileid: "104070882"
 
 Разность между обычными и встроенными подсказками размещается. По умолчанию при наведении указателя мыши на область с связанной с ней подсказкой подсказка отображается рядом с областью. Однако подсказки являются окнами, и их можно размещать в любом месте, вызвав [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos). Создание подсказок на месте заключается в размещении окна подсказки, чтобы оно находилось в текстовой строке.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
-## <a name="instructions"></a>Инструкции
+## <a name="instructions"></a>Instructions
 
 ### <a name="positioning-an-in-place-tooltip"></a>Размещение подсказки In-Place
 
@@ -78,11 +78,11 @@ case TTN_SHOW:
 
 В этом примере не изменяется размер подсказки, а только ее ее расположение. Два текстовых прямоугольника вычисляются по левому верхнему краю, но не обязательно с одинаковыми размерами. На практике разница обычно мала, и этот подход рекомендуется для большинства целей. Хотя вы можете, в принципе, использовать [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos) для изменения размера, а также изменить расположение подсказки, это может привести к непредсказуемым последствиям.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Стандартные элементы управления [версии 5,80](common-control-versions.md) упрощают использование подсказок на месте путем добавления нового сообщения, [**ТТМ \_ аджустрект**](ttm-adjustrect.md). Отправьте это сообщение с координатами текстового прямоугольника метки, на который должна накладываться всплывающая подсказка, и возвращает координаты соответствующего прямоугольника окна подсказок с соответствующим положением.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

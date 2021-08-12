@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cscmig.dll
-ms.openlocfilehash: 608fd7736093ae1f8d131ede777a691e467de9de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8dd6d12c4e0267c97b93a812a4b66d3bd14a408dff0191686d4949ccbc958723
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118667957"
 ---
 # <a name="cscgetspaceusagew-function"></a>Функция Кскжетспацеусажев
 
@@ -108,11 +108,11 @@ BOOL WINAPI CSCGetSpaceUsageW(
 
 Эта функция возвращает **значение true** , если она выполнена. в противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

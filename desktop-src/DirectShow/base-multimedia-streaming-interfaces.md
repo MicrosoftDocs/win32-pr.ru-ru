@@ -4,17 +4,17 @@ ms.assetid: a94dbb64-dfca-4c24-8c11-761835faf8a8
 title: Базовые интерфейсы потоковой передачи мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b715a68bd65a2fa3a3923edf10f0e2d1f6c22edb
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: de5268855231169c6c0a7ffab02aa5145a7c1813511421b04b2420773e1588ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103999982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118662924"
 ---
 # <a name="base-multimedia-streaming-interfaces"></a>Базовые интерфейсы потоковой передачи мультимедиа
 
 > [!Note]  
-> Эти API-интерфейсы являются устаревшими. Приложения должны использовать [**образец фильтра захвата**](sample-grabber-filter.md) или реализовать настраиваемый фильтр для получения данных из графа фильтра DirectShow.
+> Эти API-интерфейсы являются устаревшими. приложения должны использовать [**образец фильтра захвата**](sample-grabber-filter.md) или реализовать настраиваемый фильтр для получения данных из графа фильтра DirectShow.
 
  
 
@@ -32,7 +32,7 @@ ms.locfileid: "103999982"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

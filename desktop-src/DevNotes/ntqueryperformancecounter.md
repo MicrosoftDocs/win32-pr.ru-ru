@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 5bf0aad74f6992212fb3b2238b3030c68cda2fc6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c92863adbc0865700dad272bbc299e1f1a667b2fd4afbcd75d548e3330890b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118667231"
 ---
 # <a name="ntqueryperformancecounter-function"></a>Функция Нткуериперформанцекаунтер
 
@@ -60,13 +60,13 @@ NTSTATUS NtQueryPerformanceCounter(
 
 Если функция выполнена успешно, она возвращает код **NTSTATUS** **\_ Success**, в противном случае возвращается код ошибки, например **\_ \_ нарушение прав доступа к состоянию**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Нет файла заголовка, доступного для **нткуериперформанцекаунтер**. Следует использовать альтернативные функции, указанные выше, хотя функции [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) можно использовать для динамической привязки к Ntdll.dll.
 
 Частота производительности — это частота счетчика производительности в герцах, особенно в количестве в секунду. Это значение зависит от реализации. Если в реализации отсутствует оборудование для поддержки времени производительности, возвращается значение 0.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

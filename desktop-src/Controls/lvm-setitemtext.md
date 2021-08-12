@@ -3,7 +3,7 @@ title: Сообщение LVM_SETITEMTEXT (Коммктрл. h)
 description: Изменяет текст элемента представления списка или подэлемента. Это сообщение можно отправить явно или с помощью \_ макроса Сетитемтекст ListView.
 ms.assetid: 1a9c7e4d-78e0-44c7-bf4f-d0fc7a0049f3
 keywords:
-- Элементы управления Windows для LVM_SETITEMTEXT сообщений
+- элементы управления Windows сообщений LVM_SETITEMTEXT
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d326e48047325fc9aff2c6607da6d7d377965adf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 14eb5ddcff18a84f93febb22ef6661d8871df9b5578cc79f071b6e51b557c87b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670877"
 ---
 # <a name="lvm_setitemtext-message"></a>\_Сообщение LVM сетитемтекст
 
@@ -49,14 +49,14 @@ ms.locfileid: "103892017"
 
 Если сообщение отправляется явным образом, оно возвращает **true** в случае успеха или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **LVM \_ СЕТИТЕМТЕКСТВ** (Юникод) и **LVM \_ сетитемтекста** (ANSI)<br/>           |
 

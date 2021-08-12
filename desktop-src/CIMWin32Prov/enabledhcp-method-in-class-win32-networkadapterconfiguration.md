@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 002dedd3b0165053fea98dda035316676af638f4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d5be73abab17303cce7a9a0e4ae2beab9bdb53df6a45d0162a575ce167ee1df8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676580"
 ---
 # <a name="enabledhcp-method-of-the-win32_networkadapterconfiguration-class"></a>Метод EnableDHCP \_ класса Win32 NetworkAdapterConfiguration
 
@@ -316,7 +316,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -395,7 +395,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не очищает статические шлюзы по умолчанию, имеющиеся на компьютере.
 
@@ -462,7 +462,7 @@ else
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -476,7 +476,7 @@ else
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

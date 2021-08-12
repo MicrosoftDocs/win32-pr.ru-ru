@@ -3,7 +3,7 @@ title: Сообщение BM_SETSTYLE (Winuser. h)
 description: Задает стиль кнопки. Это сообщение можно отправить явным образом или воспользоваться \_ макросом кнопки SetStyle.
 ms.assetid: 6439e68f-87fc-4a4a-8025-facc3c0e03e2
 keywords:
-- Элементы управления Windows для BM_SETSTYLE сообщений
+- элементы управления Windows сообщений BM_SETSTYLE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c080e1098d70b17e1e68bbbcd2d5598db79ef8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17f635a70bf806c6c26f5b236ea939bc453d27bf0fe135f8e2586aeb59021b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674422"
 ---
 # <a name="bm_setstyle-message"></a>\_Сообщение BM SETSTYLE
 
@@ -47,15 +47,15 @@ ms.locfileid: "103988378"
 
 Это сообщение всегда возвращает ноль.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

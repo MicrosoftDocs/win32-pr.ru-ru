@@ -20,12 +20,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ffeda42abafd24526360f5e549f004cae0c3140
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 81ba4ec4545502d82a3449cee39954deb9b5b2e68bf7c657423e673c582d1c18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603892"
 ---
 # <a name="win32_tsgatewayresourcegroup-class"></a>\_Класс Win32 тсгатевайресаурцеграуп
 
@@ -60,13 +60,13 @@ class Win32_TSGatewayResourceGroup
 | Метод                                                                  | Описание                                                                           |
 |:------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
 | [**аддресаурцес**](addresources-win32-tsgatewayresourcegroup.md)       | Добавляет ресурсы в свойство **Resources** для этой группы ресурсов.<br/>      |
-| [**Создать**](create-win32-tsgatewayresourcegroup.md)                   | Создает группу ресурсов.<br/>                                                  |
-| [**Удалить**](delete-win32-tsgatewayresourcegroup.md)                   | Удаляет эту группу ресурсов.<br/>                                               |
+| [**Создание**](create-win32-tsgatewayresourcegroup.md)                   | Создает группу ресурсов.<br/>                                                  |
+| [**DELETE**](delete-win32-tsgatewayresourcegroup.md)                   | Удаляет эту группу ресурсов.<br/>                                               |
 | [**ремовересаурцес**](removeresources-win32-tsgatewayresourcegroup.md) | Удаляет ресурсы из свойства **Resources** для этой группы ресурсов.<br/> |
 | [**SetDescription**](setdescription-win32-tsgatewayresourcegroup.md)   | Задает свойство **Description** для этой группы ресурсов.<br/>                 |
 | [**SetName**](setname-win32-tsgatewayresourcegroup.md)                 | Задает свойство **Name** для этой группы ресурсов.<br/>                        |
 | [**сетресаурцес**](setresources-win32-tsgatewayresourcegroup.md)       | Задает свойство **Resources** для этой группы ресурсов.<br/>                   |
-| [**Обновляют**](update-win32-tsgatewayresourcegroup.md)                   | Обновляет эту группу ресурсов.<br/>                                               |
+| [**Update**](update-win32-tsgatewayresourcegroup.md)                   | Обновляет эту группу ресурсов.<br/>                                               |
 
 
 
@@ -104,7 +104,7 @@ class Win32_TSGatewayResourceGroup
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -133,11 +133,11 @@ class Win32_TSGatewayResourceGroup
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для использования этого класса необходимо быть членом группы администраторов.
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Требования
 

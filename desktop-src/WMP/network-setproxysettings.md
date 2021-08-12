@@ -3,9 +3,9 @@ title: Метод Network. setProxySettings
 description: Метод setProxySettings указывает параметр прокси-сервера для данного протокола.
 ms.assetid: 473501c9-27ea-47ec-bc82-691804fbfb89
 keywords:
-- setProxySettings метод Windows Media Player
-- setProxySettings метод Windows Media Player, класс Network
-- Класс сети Windows Media Player, метод setProxySettings
+- проигрыватель Windows Media метода setProxySettings
+- проигрыватель Windows Media метода setProxySettings, класс сети
+- класс проигрыватель Windows Media сети, метод setProxySettings
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b3f3da665b07f717449721c9fb43a8733cdb6c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6501d097a4ec342c2831e4b72bf8f17edc4e4e1bec02b2b51cd7840325674b88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573862"
 ---
 # <a name="networksetproxysettings-method"></a>Метод Network. setProxySettings
 
@@ -74,15 +74,15 @@ Network.setProxySettings(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод завершается ошибкой, если вызывающее приложение не выполняется на локальном компьютере или в интрасети.
 
-**Проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере используется JScript с HTML-элементом SELECT, **который позволяет пользователю указать параметр прокси-сервера проигрывателя Windows Media для протокола HTTP. Объект Player** создан с идентификатором "Player".
+в следующем примере используется JScript с HTML-элементом SELECT, **который позволяет пользователю указать параметр проигрыватель Windows Media прокси-сервера для протокола HTTP. Объект Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -112,7 +112,7 @@ Network.setProxySettings(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

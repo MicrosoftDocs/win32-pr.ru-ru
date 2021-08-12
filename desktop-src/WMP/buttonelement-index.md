@@ -3,7 +3,7 @@ title: БУТТОНЕЛЕМЕНТ. индекс
 description: Атрибут index получает индекс БУТТОНЕЛЕМЕНТ в пределах BUTTONGROUP.
 ms.assetid: b4fd7cd9-7788-4234-8f2f-fb85ea9e6b0e
 keywords:
-- БУТТОНЕЛЕМЕНТ. индексирование проигрывателя Windows Media
+- проигрыватель Windows Media буттонелемент. index
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfb89056d6e18429ad787c0325689918e7b959ba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 031bce6f0f4eda1281e8ec09185177d81d4b445ea798556d41aa0af32cc40787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581388"
 ---
 # <a name="buttonelementindex"></a>БУТТОНЕЛЕМЕНТ. индекс
 
@@ -37,7 +37,7 @@ ms.locfileid: "105695101"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

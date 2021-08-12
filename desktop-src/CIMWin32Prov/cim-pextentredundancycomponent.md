@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fb2b6a88a789e93ca45f8469e0e67449e3473ddc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d19d1c9fa504b30f7a87dcd1402f47376a0f4613095e9f2ee25d196cd60ae581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104495954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678658"
 ---
 # <a name="cim_pextentredundancycomponent-class"></a>\_Класс CIM пекстентредунданцикомпонент
 
@@ -51,7 +51,7 @@ class CIM_PExtentRedundancyComponent : CIM_RedundancyComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ пекстентредунданцикомпонент** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_PExtentRedundancyComponent : CIM_RedundancyComponent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ пекстентредунданцикомпонент** является производным от [**CIM \_ редунданцикомпонент**](cim-redundancycomponent.md).
 
@@ -97,7 +97,7 @@ class CIM_PExtentRedundancyComponent : CIM_RedundancyComponent
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -111,7 +111,7 @@ class CIM_PExtentRedundancyComponent : CIM_RedundancyComponent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

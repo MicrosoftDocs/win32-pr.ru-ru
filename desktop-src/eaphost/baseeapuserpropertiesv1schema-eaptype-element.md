@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5fffa74c69b5ecbf2823cfa79ae376fed524e8ca
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7d9cb6afe13b8c0060b26edbf5add618c776518b3b03e5abdc1f9131dbbcabde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118275537"
 ---
 # <a name="eaptype-element-base-user-properties"></a>Элемент Еаптипе (базовые свойства пользователя)
 
@@ -31,7 +31,7 @@ ms.locfileid: "105713399"
  />
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **еаптипе** является абстрактным; Каждый метод должен определять и использовать производный элемент в документах экземпляра.
 
@@ -41,8 +41,8 @@ ms.locfileid: "105713399"
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |-------------------------------------|------------------------------------------------------|
-| Клиент<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Сервер<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Клиент<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Сервер<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

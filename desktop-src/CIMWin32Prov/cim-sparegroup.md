@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 17907c62ace9f75c8d807e56d35b91f4c28e5f42
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0a820c6a84cd4f5437e74b615e4c12083686b8294aab4b7ae78e26e767969ab2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118677490"
 ---
 # <a name="cim_sparegroup-class"></a>\_Класс CIM спареграуп
 
@@ -61,13 +61,13 @@ class CIM_SpareGroup : CIM_RedundancyGroup
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ спареграуп** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -139,7 +139,7 @@ class CIM_SpareGroup : CIM_RedundancyGroup
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -337,7 +337,7 @@ class CIM_SpareGroup : CIM_RedundancyGroup
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ спареграуп** является производным от [**CIM \_ редунданциграуп**](cim-redundancygroup.md).
 
@@ -345,7 +345,7 @@ class CIM_SpareGroup : CIM_RedundancyGroup
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -359,7 +359,7 @@ class CIM_SpareGroup : CIM_RedundancyGroup
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение BM_SETIMAGE (Winuser. h)
 description: Связывает новый образ (значок или растровое изображение) с кнопкой.
 ms.assetid: bf05e684-63d0-4583-960b-f329edafb151
 keywords:
-- Элементы управления Windows для BM_SETIMAGE сообщений
+- элементы управления Windows сообщений BM_SETIMAGE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65d083c4fb509d51eb017bb7d3d38fab07b4c006
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b8948c73c04d3b01230a47ab91529764c9e20281e4f45803f71d82f59dedb14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674817"
 ---
 # <a name="bm_setimage-message"></a>\_Сообщение BM сетимаже
 
@@ -50,7 +50,7 @@ ms.locfileid: "104135367"
 
 Возвращаемое значение является обработчиком изображения, ранее связанного с кнопкой, если таковая имеется; в противном случае он имеет **значение NULL**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Внешний вид текста, значка или обоих элементов в элементе управления "Кнопка" зависит от [**\_ значка BS**](button-styles.md) и стилей [**\_ растрового изображения BS**](button-styles.md) , а также от того, вызывается ли сообщение **BM \_ сетимаже** . Возможны следующие результаты.
 
@@ -67,19 +67,19 @@ ms.locfileid: "104135367"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

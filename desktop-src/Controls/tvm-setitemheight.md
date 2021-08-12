@@ -3,7 +3,7 @@ title: Сообщение TVM_SETITEMHEIGHT (Коммктрл. h)
 description: Задает высоту элементов представления дерева. Это сообщение можно отправить явно или с помощью \_ макроса Сетитемхеигхт TreeView.
 ms.assetid: 23f6f2a4-cdd9-441d-af24-ed40513d2721
 keywords:
-- Элементы управления Windows для TVM_SETITEMHEIGHT сообщений
+- элементы управления Windows сообщений TVM_SETITEMHEIGHT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 114769f689cbf8d9475460e40d205c4282a1a787
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9afff57188a9683d18c6bff780b4a9f61479526d44ea77985742520a47e66cca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669649"
 ---
 # <a name="tvm_setitemheight-message"></a>\_Сообщение TVM сетитемхеигхт
 
@@ -43,18 +43,18 @@ ms.locfileid: "103988817"
 
 Возвращает предыдущую высоту элементов в пикселях.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент управления "представление дерева" использует это значение для высоты всех элементов. Чтобы изменить высоту отдельных элементов, см. Описание элемента **иинтеграл** структуры [**твитемекс**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Сообщение TVM_SETLINECOLOR (Коммктрл. h)
 description: В \_ сообщении TVM сетлинеколор устанавливается текущий цвет линии.
 ms.assetid: c5fc28af-5603-489f-aa6b-73e153f9aebc
 keywords:
-- Элементы управления Windows для TVM_SETLINECOLOR сообщений
+- элементы управления Windows сообщений TVM_SETLINECOLOR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d70340ea0d2339055faa3fb473269f3b244f335
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: af66e7a711611ff5e59ec0d68b58a24fb39399245437b0e5d81840c1c38b2d0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669524"
 ---
 # <a name="tvm_setlinecolor-message"></a>\_Сообщение TVM сетлинеколор
 
@@ -43,18 +43,18 @@ ms.locfileid: "104071735"
 
 Возвращает цвет предыдущей строки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение изменяет только цвета линий. Чтобы изменить цвета "+" и "-" внутри кнопок, используйте сообщение [**TVM \_ сеттекстколор**](tvm-settextcolor.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

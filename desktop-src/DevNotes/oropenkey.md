@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 4a55bb2c06d8b2d13491b766bf08184631fa2164
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c0f641925fbc35fba6072ee395f67fad540dcd2ec5198b945ad658a723238b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118667099"
 ---
 # <a name="oropenkey-function"></a>Функция Оропенкэй
 
@@ -78,17 +78,17 @@ DWORD OROpenKey(
 
 Если указанный ключ был помечен как удаленный, эта функция возвращает \_ ключ ошибки \_ deleted.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функцию **оропенкэй** нельзя использовать для открытия корневого ключа в кусте реестра вне сети. Чтобы получить маркер корневого ключа Hive, используйте функцию [**оропенхиве**](oropenhive.md) для загрузки Hive в память.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Распространяемые компоненты<br/> | Автономная библиотека реестра Windows версии 1,0 или более поздней<br/>                      |
+| Распространяемые компоненты<br/> | Windows Библиотека автономных разделов реестра версии 1,0 или более поздней<br/>                      |
 | Header<br/>          | <dl> <dt>Оффрег. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

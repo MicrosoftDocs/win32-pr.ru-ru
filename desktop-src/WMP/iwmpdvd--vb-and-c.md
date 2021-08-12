@@ -3,8 +3,8 @@ title: Интерфейс ИВМПДВД (VB и C) (WMP. h)
 description: Интерфейс ИВМПДВД предоставляет свойства и методы для работы с DVD-дисками. интерфейс ИВМПДВД предоставляет следующие свойства.
 ms.assetid: 6bb32eed-475e-4867-8318-34578dc430a4
 keywords:
-- ИВМПДВД (VB и C) интерфейс проигрывателя Windows Media
-- ИВМПДВД (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпдвд (VB и C)
+- проигрыватель Windows Media интерфейса ивмпдвд (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 425c048096ad7cd65e0e48ccf2932f00a817d790
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5391a6bc2a22dfd33a7df5b8c6f40c0a441012d7fa8d16f7b54c238b7fa31baa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575887"
 ---
 # <a name="iwmpdvd-vb-and-c-interface"></a>Интерфейс ИВМПДВД (VB и C#)
 
@@ -85,7 +85,7 @@ ms.locfileid: "105688845"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -93,7 +93,7 @@ ms.locfileid: "105688845"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

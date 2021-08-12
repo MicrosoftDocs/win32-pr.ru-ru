@@ -32,12 +32,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4e7e1db2c1d314b2d45816801643912dcf3b31bc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2178d78b125765c68a8872a8962ae93d49faea4cbd0e94704fa3cd924c7d5cdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678286"
 ---
 # <a name="cim_physicalcomponent-class"></a>\_Класс CIM фисикалкомпонент
 
@@ -83,13 +83,13 @@ class CIM_PhysicalComponent : CIM_PhysicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ фисикалкомпонент** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -210,7 +210,7 @@ class CIM_PhysicalComponent : CIM_PhysicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -464,7 +464,7 @@ class CIM_PhysicalComponent : CIM_PhysicalElement
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -482,7 +482,7 @@ class CIM_PhysicalComponent : CIM_PhysicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ фисикалкомпонент** является производным от [**CIM \_ фисикалелемент**](cim-physicalelement.md).
 
@@ -490,7 +490,7 @@ class CIM_PhysicalComponent : CIM_PhysicalElement
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -504,7 +504,7 @@ class CIM_PhysicalComponent : CIM_PhysicalElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

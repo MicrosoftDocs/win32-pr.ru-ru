@@ -3,7 +3,7 @@ title: Сообщение TVM_SETBORDER (Коммктрл. h)
 description: Задает размер границы для элементов в элементе управления "представление дерева". Сообщение можно отправить явно или с помощью \_ макроса Сетбордер TreeView.
 ms.assetid: 468b46ae-2ab2-4753-a0af-7c644f75ce62
 keywords:
-- Элементы управления Windows для TVM_SETBORDER сообщений
+- элементы управления Windows сообщений TVM_SETBORDER
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b4401959e2579caab7f2cb4b6eed1ea34481ffa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d1c8cab133fb654e431638be96301325d68d9743109f84ed8def1ee9cc67c01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669659"
 ---
 # <a name="tvm_setborder-message"></a>\_Сообщение TVM сетбордер
 
@@ -60,7 +60,7 @@ ms.locfileid: "103892137"
 
 Возвращает значение **типа Long** , содержащее предыдущий размер границы (в пикселях). [**Ловорд**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) содержит предыдущий размер горизонтальной границы, а [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) содержит предыдущий размер вертикальной границы.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Предупреждение системы безопасности:** Использование этого сообщения может нарушить безопасность программы.
 
@@ -74,14 +74,14 @@ ms.locfileid: "103892137"
 #define TVSBF_YBORDER 0x00000002 
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Controls. Куррентмаркер
 description: Свойство Куррентмаркер указывает или получает номер текущего маркера.
 ms.assetid: 4b4eacd4-3df0-4e11-8755-1ac326fad027
 keywords:
-- Проигрыватель Windows Media Controls. Куррентмаркер
+- controls. куррентмаркер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aae8af226b62550b3faae9389385d321bf10aad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bcc11f79460661b6622da529b0de025672794af660aeb27bf56c7910a6d5a50b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580310"
 ---
 # <a name="controlscurrentmarker"></a>Controls. Куррентмаркер
 
@@ -34,7 +34,7 @@ player.controls.currentMarker
 
 Это свойство имеет **номер** для чтения и записи (**Long**) и значение по умолчанию 0.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установка **куррентмаркер** приводит к запуску воспроизведения с указанного маркера. Прежде чем приступить к установке **куррентмаркер**, определите, есть ли у файла маркеры и сколько он имеет с помощью **маркеркаунт**. Если у файла нет маркеров, установка **куррентмаркер** в любом случае, но ноль приводит к ошибке. Установка **куррентмаркер** в число, превышающее **маркеркаунт** , также приводит к ошибке.
 
@@ -44,7 +44,7 @@ player.controls.currentMarker
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется **куррентмаркер** для запуска воспроизведения видео из маркера, соответствующего свойству **SelectedIndex** HTML-элемента SELECT. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется **куррентмаркер** для запуска воспроизведения видео из маркера, соответствующего свойству **selectedIndex** HTML-элемента SELECT. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -71,7 +71,7 @@ player.controls.currentMarker
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

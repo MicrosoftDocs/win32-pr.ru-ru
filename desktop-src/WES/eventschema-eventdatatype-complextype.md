@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6a93695db477ebb0c7b5652419198f8f5c6370dc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 424f7f5f6472859a06605467c427fc7b9f210a960f0920fb8593778bd757fc06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118589027"
 ---
 # <a name="eventdatatype-complex-type"></a>Сложный тип Евентдататипе
 
@@ -58,7 +58,7 @@ ms.locfileid: "103801432"
 |----------------------------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [**Двоичный**](eventschema-binary-eventdatatype-element.md)           | hexBinary                                                          | Двоичный BLOB-объект данных для событий, записываемых с помощью [ведения журнала событий](/windows/desktop/EventLog/event-logging).<br/> |
 | [**комплексдата**](eventschema-complexdata-eventdatatype-element.md) | [**комплексдататипе**](eventschema-complexdatatype-complextype.md) | Структура, определенная в шаблоне для события.<br/>                                |
-| [**Data**](eventschema-data-eventdatatype-element.md)               | [**DataType**](eventschema-datafieldtype-complextype.md)          | Элемент данных верхнего уровня, определенный в шаблоне для события.<br/>                      |
+| [**Данные**](eventschema-data-eventdatatype-element.md)               | [**Заданий**](eventschema-datafieldtype-complextype.md)          | Элемент данных верхнего уровня, определенный в шаблоне для события.<br/>                      |
 
 
 
@@ -72,7 +72,7 @@ ms.locfileid: "103801432"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**евтрендер**](/windows/desktop/api/WinEvt/nf-winevt-evtrender) отображает массивы и структуры как двоичные BLOB-объекты.
 
@@ -82,8 +82,8 @@ ms.locfileid: "103801432"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

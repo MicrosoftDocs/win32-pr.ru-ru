@@ -1,5 +1,5 @@
 ---
-description: Представляет физический диск, отображаемый на компьютере под управлением операционной системы Windows.
+description: представляет физический диск, отображаемый на компьютере с операционной системой Windows.
 ms.assetid: c1fc6a1e-e725-484b-aacf-279f777e9b19
 ms.tgt_platform: multiple
 title: Класс Win32_DiskDrive
@@ -67,16 +67,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 751dee053574be417cb312f6b046ae6b7703d543
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 94d9afa6fb4c38c4286f705b50011f5378057004cbe7fe5a4b2b700a0385c10f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675240"
 ---
 # <a name="win32_diskdrive-class"></a>\_Класс Win32 дискдриве
 
-[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ дискдриве для Win32** представляет физический диск, как видно на компьютере, работающем под управлением операционной системы Windows.
+класс **WMI \_ дискдриве** [инструментария](/windows/desktop/WmiSdk/retrieving-a-class) Win32 представляет физический диск, как видно на компьютере с операционной системой Windows.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -386,7 +386,7 @@ class Win32_DiskDrive : CIM_DiskDrive
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("индексированный"), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|Устройства хранения DMTF \| 001,9 "," MIF. \|Устройства хранения DMTF \| 001,11 "," MIF. \|Устройства хранения DMTF \| 001,12 "," MIF. \|Диски DMTF \| 003,7 "), [**Моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ медиаакцессдевице**](cim-mediaaccessdevice.md).**Капабилитидескриптионс**")
+Квалификаторы: [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("индексированный"), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. DMTF \| служба хранилища устройства \| 001,9 "," MIF. DMTF \| служба хранилища устройства \| 001,11 "," MIF. DMTF \| служба хранилища устройства \| 001,12 "," MIF. \|Диски DMTF \| 003,7 "), [**Моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ медиаакцессдевице**](cim-mediaaccessdevice.md).**Капабилитидескриптионс**")
 </dt> </dl>
 
 Массив возможностей устройства доступа к носителю. Например, устройство может поддерживать произвольный доступ (3), съемный носитель (7) и автоматическую чистку (9).
@@ -518,7 +518,7 @@ class Win32_DiskDrive : CIM_DiskDrive
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -598,7 +598,7 @@ class Win32_DiskDrive : CIM_DiskDrive
 Квалификаторы: [**схема**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Код ошибки Windows Configuration Manager.
+Windows Configuration Manager код ошибки.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -657,12 +657,12 @@ class Win32_DiskDrive : CIM_DiskDrive
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd>
 
-Драйверу для устройства требуется ресурс, который Windows не может управлять.
+драйверу для устройства требуется ресурс, который Windows не может управляться.
 
 </dd> <dt>
 
@@ -869,23 +869,23 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
@@ -935,7 +935,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd>
@@ -1108,7 +1108,7 @@ Windows не удается найти все ресурсы, используе
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Windows 95/98 functions \| \_ Map \_ info \| btInt13Unit")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Windows 95/98 functions \| \_ MAP \_ INFO \| btInt13Unit")
 </dt> </dl>
 
 Номер физического диска данного диска. Это свойство заполняется структурой [**\_ \_ номера устройства хранения**](/windows/desktop/api/winioctl/ns-winioctl-storage_device_number) , возвращенного из [**хранилища ioctl получение кода управления \_ \_ \_ \_ номера устройства**](/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number) . Значение 0xFFFFFFFF указывает, что заданный диск не соответствует физическому диску.
@@ -1338,7 +1338,7 @@ USB
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1416,7 +1416,7 @@ USB
 Квалификаторы: [**схема**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -1696,7 +1696,7 @@ USB
 
 Это свойство наследуется от [**CIM \_ манажедсистемелемент**](cim-managedsystemelement.md).
 
-Доступны следующие значения:
+Возможны следующие значения.
 
 <dt>
 
@@ -1971,13 +1971,13 @@ USB
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Физические жесткие диски — это основной носитель для хранения данных в любой вычислительной среде. Хотя организации часто используют такие устройства, как ленточные накопители и дисководы компакт-дисков для архивирования данных, эти устройства не подходят для повседневного хранения данных пользователей. Только физические жесткие диски обеспечивают скорость и удобство использования, необходимые для хранения данных, а также для запуска приложений и операционной системы.
 
 Для эффективного управления данными важно иметь подробный учет всех физических дисков, их возможностей и емкости. Для получения такого типа инвентаризации можно использовать класс **Win32 \_ дискдриве** .
 
-Любой интерфейс к физическому диску Windows — это потомок (или член) этого класса. Функции диска, показанные в этом объекте, соответствуют логическим характеристикам и характеристики управления диска. В некоторых случаях это может не отражать фактические физические характеристики устройства. Любой объект, основанный на другом логическом устройстве, не будет членом этого класса.
+любой интерфейс к Windowsному физическому диску — это потомок (или член) этого класса. Функции диска, показанные в этом объекте, соответствуют логическим характеристикам и характеристики управления диска. В некоторых случаях это может не отражать фактические физические характеристики устройства. Любой объект, основанный на другом логическом устройстве, не будет членом этого класса.
 
 По соображениям безопасности пользователь, подключающийся с удаленного компьютера, должен иметь разрешение **SC \_ Manager \_ Connect** , чтобы иметь возможность перечислить этот класс. Дополнительные сведения см. в разделе [Безопасность службы и права доступа](/windows/desktop/Services/service-security-and-access-rights).
 
@@ -1989,7 +1989,7 @@ USB
 
 При [сопоставлении диска с буквой диска с помощью \_ Свойства Дискдриве интерфейса Win32](https://Gallery.TechNet.Microsoft.Com/Map-Drive-to-Drive-Letter-1fff91ad) в примере кода PowerShell устройство преобразуется в букву диска.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -2003,7 +2003,7 @@ USB
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

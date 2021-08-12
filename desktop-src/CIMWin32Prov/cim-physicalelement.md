@@ -29,12 +29,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5afeda74789bc492aac3d37629b64385b8734f60
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: add86b8a1443f5b4dfa2c6be0c678c58f982443af53bc98af0099e7d318a128a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678230"
 ---
 # <a name="cim_physicalelement-class"></a>\_Класс CIM фисикалелемент
 
@@ -79,13 +79,13 @@ class CIM_PhysicalElement : CIM_ManagedSystemElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ фисикалелемент** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -187,7 +187,7 @@ class CIM_PhysicalElement : CIM_ManagedSystemElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -403,7 +403,7 @@ class CIM_PhysicalElement : CIM_ManagedSystemElement
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -419,13 +419,13 @@ class CIM_PhysicalElement : CIM_ManagedSystemElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс. Классы WMI, производные от **CIM \_ фисикалелемент**, см. в разделе [Классы Win32](win32-provider.md).
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -439,7 +439,7 @@ class CIM_PhysicalElement : CIM_ManagedSystemElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

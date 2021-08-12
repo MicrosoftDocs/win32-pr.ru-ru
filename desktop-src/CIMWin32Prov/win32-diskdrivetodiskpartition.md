@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b2bd5472bd4ad92ddde47f7d6a492916006a80cb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c92e9cc8a71516fa105e350ae8070ca417024c1802e9ea8a676d7355cb3aea7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675097"
 ---
 # <a name="win32_diskdrivetodiskpartition-class"></a>\_Класс Win32 дискдриветодискпартитион
 
@@ -46,7 +46,7 @@ class Win32_DiskDriveToDiskPartition : CIM_MediaPresent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ дискдриветодискпартитион** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_DiskDriveToDiskPartition : CIM_MediaPresent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ дискдриветодискпартитион** является производным от [**CIM \_ медиапресент**](cim-mediapresent.md).
 
@@ -94,7 +94,7 @@ class Win32_DiskDriveToDiskPartition : CIM_MediaPresent
 
 Пример [использования PowerShell для сбора сведений о диске, разделе или точке подключения](https://Gallery.TechNet.Microsoft.Com/Use-Powershell-to-Gather-b5c746d0) PowerShell использует **Win32 \_ дискдриветодискпартитион** для получения сведений о локальных дисках и разделах и точках подключения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -108,7 +108,7 @@ class Win32_DiskDriveToDiskPartition : CIM_MediaPresent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64006f9cec7e5fd2f3ca6f860249e579b16dbf10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38c35e28a37608ebbbdbaf331e2837f83022768cf4eb4033cad2a482d477b37f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118617139"
 ---
 # <a name="glcopytexsubimage1d-function"></a>Функция glCopyTexSubImage1D
 
@@ -108,7 +108,7 @@ void WINAPI glCopyTexSubImage1D(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **glCopyTexSubImage1D** заменяет часть одномерного изображения текстуры, используя Пиксели из текущего буфера кадров, а не из основной памяти, как в случае с [**glTexSubImage1D**](gltexsubimage1d.md).
 

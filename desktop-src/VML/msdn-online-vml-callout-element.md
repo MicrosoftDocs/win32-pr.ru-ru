@@ -4,21 +4,21 @@ description: Элемент выноски VML
 ms.assetid: 0e93fb2f-494c-44eb-b7ef-0e3786c64ce5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 530d06bcd0e06247ee5a3f69974049761c705a0d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ce365e9baf8af31c35ed9c7c39a8405f870844c6d61ea96bbe41257efc838b11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118602191"
 ---
 # <a name="vml-callout-element"></a>Элемент выноски VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет выноску для фигуры.
 
@@ -45,14 +45,14 @@ ms.locfileid: "104487897"
 
 
 
- 
+ 
 
 **Замечания**
 
 Этот элемент должен быть определен внутри элемента [Shape](shape-element--vml.md) .
 
-Элемент **выноски** является расширением Microsoft Office для VML.
+элемент **выноски** является расширением Microsoft Office для VML.
 
- 
+ 
 
- 
+ 

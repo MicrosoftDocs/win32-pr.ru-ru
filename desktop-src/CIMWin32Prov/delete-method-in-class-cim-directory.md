@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6d02c9eb6b603673228671b12df98c7b6884abdd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 760955abece58b4eace332e2b589c7f2b2db806f25df788b0080ecd9ee25adac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676672"
 ---
 # <a name="delete-method-of-the-cim_directory-class"></a>Метод DELETE \_ класса каталога CIM
 
@@ -61,7 +61,7 @@ uint32 Delete();
 **2**
 </dt> <dd>
 
-Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
+Доступ запрещен.
 
 </dd> <dt>
 
@@ -148,7 +148,7 @@ Access denied. (Недопустимое значение {значение_ут
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

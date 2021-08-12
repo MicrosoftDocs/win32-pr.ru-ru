@@ -3,7 +3,7 @@ title: Сообщение EM_SHOWBALLOONTIP (Коммктрл. h)
 description: В \_ сообщении EM шовбаллунтип отображается всплывающая подсказка, связанная с элементом управления "поле ввода".
 ms.assetid: 1e6915b7-4b61-43b2-be13-b89c72378a1a
 keywords:
-- Элементы управления Windows для EM_SHOWBALLOONTIP сообщений
+- элементы управления Windows сообщений EM_SHOWBALLOONTIP
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8fc0174752ab8214873da9478a0af435be76427
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f0ec2666d18c0f6ce43d5c7644eca0aa2a2cc1f3af72cea03ad34af5ca451cda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672327"
 ---
 # <a name="em_showballoontip-message"></a>\_Сообщение ШОВБАЛЛУНТИП EM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104136250"
 
 Если сообщение завершается с ошибкой, возвращается **значение true**. В противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
@@ -60,8 +60,8 @@ ms.locfileid: "104136250"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "104136250"
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**едитбаллунтип**](/windows/desktop/api/Commctrl/ns-commctrl-editballoontip)

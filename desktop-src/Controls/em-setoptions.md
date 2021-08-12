@@ -3,7 +3,7 @@ title: Сообщение EM_SETOPTIONS (RichEdit. h)
 description: Задает параметры для элемента управления Rich Edit.
 ms.assetid: 98ef2de9-4c34-45ba-8e8a-eaf505f97f56
 keywords:
-- Элементы управления Windows для EM_SETOPTIONS сообщений
+- элементы управления Windows сообщений EM_SETOPTIONS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c43dda8268b42dc264a86600826d2a6b550e35c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a5d5c4b7fd9e92261cedaf0681523ad0a3e25a37aa2814f6c00d0d9460e94bb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672613"
 ---
 # <a name="em_setoptions-message"></a>\_Сообщение СЕТОПТИОНС EM
 
@@ -83,8 +83,8 @@ ms.locfileid: "104135726"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

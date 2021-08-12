@@ -3,7 +3,7 @@ title: Код уведомления TVN_BEGINRDRAG (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления иерархического представления об инициации операции перетаскивания, включающей правую кнопку мыши. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 4a61d8b5-ceb9-46a3-95ef-27e843e8c986
 keywords:
-- TVN_BEGINRDRAG кода уведомления элементы управления Windows
+- TVN_BEGINRDRAG кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bec15b5f48d4ed5612778622bb3655ae153c1b9f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f7ce3fb92f39097c51cf54d707fac4341bc2a4c098b5abb0b36abcbd47f5744
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669178"
 ---
 # <a name="tvn_beginrdrag-notification-code"></a>\_Код уведомления ТВН бегинрдраг
 
@@ -51,14 +51,14 @@ TVN_BEGINRDRAG
 
 Возвращаемое значение игнорируется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТВН \_ БЕГИНРДРАГВ** (Юникод) и **ТВН \_ бегинрдрага** (ANSI)<br/>             |
 

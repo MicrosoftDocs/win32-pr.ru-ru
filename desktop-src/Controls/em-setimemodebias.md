@@ -3,7 +3,7 @@ title: Сообщение EM_SETIMEMODEBIAS (RichEdit. h)
 description: Задайте смещение режима редактора метода ввода (IME) для элемента управления расширенного редактирования.
 ms.assetid: 4a3f97eb-fe80-4e84-a73e-3ed6d73644de
 keywords:
-- Элементы управления Windows для EM_SETIMEMODEBIAS сообщений
+- элементы управления Windows сообщений EM_SETIMEMODEBIAS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48fbd93971a57cffa3441c2a3db0816572f761d7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b4812c21558fba07be2709c0fd1a011f31d79fad17e0b4146fa0c7d65843a087
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672674"
 ---
 # <a name="em_setimemodebias-message"></a>\_Сообщение СЕТИМЕМОДЕБИАС EM
 
@@ -58,7 +58,7 @@ ms.locfileid: "104491211"
 
 Это сообщение возвращает новый параметр смещения режима IME.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда редактор IME создает список альтернативных символов, это сообщение задает условия, по которым некоторые из вариантов будут отображаться в верхней части списка.
 
@@ -72,8 +72,8 @@ ms.locfileid: "104491211"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 1 \[\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "104491211"
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**EM \_ исиме**](em-isime.md)

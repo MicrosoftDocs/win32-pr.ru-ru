@@ -25,16 +25,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0e9db31dd452161a31575b6f7184a34c35dea71e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 15110b5801555947eed434b8148aec3cc753f6eec359f32b96cd67a5b2649f31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675016"
 ---
 # <a name="win32_quickfixengineering-class"></a>\_Класс Win32 куиккфиксенгиниринг
 
- [Класс WMI](../wmisdk/retrieving-a-class.md) **\_ куиккфиксенгиниринг для Win32** представляет небольшое обновление на уровне системы, которое обычно называется обновлением QFE, которое применяется к текущей операционной системе. Этот класс возвращает только обновления, предоставляемые компонентом обслуживания на основе компонентов (CBS). Эти обновления не перечислены в реестре. Обновления, предоставляемые Microsoft установщик Windows (MSI) или веб-сайтом центра обновления Windows ( [https://update.microsoft.com](https://update.microsoft.com/) ), не возвращаются **Win32 \_ куиккфиксенгиниринг**.
+ [Класс WMI](../wmisdk/retrieving-a-class.md) **\_ куиккфиксенгиниринг для Win32** представляет небольшое обновление на уровне системы, которое обычно называется обновлением QFE, которое применяется к текущей операционной системе. Этот класс возвращает только обновления, предоставляемые компонентом обслуживания на основе компонентов (CBS). Эти обновления не перечислены в реестре. обновления, предоставляемые корпорацией майкрософт установщик Windows (MSI) или сайтом обновления Windows ( [https://update.microsoft.com](https://update.microsoft.com/) ), не возвращаются **Win32 \_ куиккфиксенгиниринг**.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства и методы имеют алфавитный порядок, а не порядок MOF.
 
@@ -64,13 +64,13 @@ class Win32_QuickFixEngineering : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ куиккфиксенгиниринг** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -131,7 +131,7 @@ class Win32_QuickFixEngineering : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
 </dt> </dl>
 
 Дополнительные комментарии, связанные с обновлением.
@@ -147,7 +147,7 @@ class Win32_QuickFixEngineering : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**Key**](../wmisdk/key-qualifier.md), [**maxlen**](../wmisdk/standard-qualifiers.md) (260), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
+квалификаторы: [**key**](../wmisdk/key-qualifier.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (260), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
 </dt> </dl>
 
 Уникальный идентификатор, связанный с определенным обновлением.
@@ -181,7 +181,7 @@ class Win32_QuickFixEngineering : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
 </dt> </dl>
 
 Пользователь, установивший обновление. Если это значение неизвестно, свойство является пустым.
@@ -197,7 +197,7 @@ class Win32_QuickFixEngineering : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
 </dt> </dl>
 
 Дата установки обновления. Если это значение неизвестно, свойство является пустым.
@@ -209,7 +209,7 @@ class Win32_QuickFixEngineering : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -236,7 +236,7 @@ class Win32_QuickFixEngineering : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**Key**](../wmisdk/key-qualifier.md), [**maxlen**](../wmisdk/standard-qualifiers.md) (260), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
+квалификаторы: [**key**](../wmisdk/key-qualifier.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (260), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
 </dt> </dl>
 
 Пакет обновления, действующий после применения обновления. Если пакет обновления не применен, свойство принимает значение SP0. Если не удается определить, какой пакет обновления действовал, это свойство имеет **значение NULL**.
@@ -351,13 +351,13 @@ class Win32_QuickFixEngineering : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ куиккфиксенгиниринг** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 
 Поскольку обновления хранятся в двух местах, перечисление этого класса может привести к дублированию.
 
-Горячее исправление — это временное исправление операционной системы, созданное группой быстрого устранения исправлений в корпорации Майкрософт. Как и в случае с пакетами обновления, исправления представляют собой изменения, внесенные в версию Windows после выпуска операционной системы.
+Горячее исправление — это временное исправление операционной системы, созданное группой быстрого устранения исправлений в корпорации Майкрософт. как и в случае с пакетами обновления, исправления представляют собой изменения, внесенные в версию Windows после выпуска операционной системы.
 
 В отличие от пакетов обновления, исправления не предназначены для установки на всех компьютерах. Вместо этого они разрабатываются для решения самых конкретных проблем, часто для конкретных конфигураций компьютеров.
 
@@ -387,7 +387,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -401,7 +401,7 @@ Next
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

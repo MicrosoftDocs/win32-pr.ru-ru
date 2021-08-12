@@ -4,12 +4,12 @@ ms.assetid: b7cf092a-6bb8-454c-a78c-fb2334ac4820
 title: Свойство Авдечеаакдинамикранжеконтрол (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 096284ab12ff29b39aba98e6b3fda4eb8cf13ca2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ea798877999c2c0f60d38bce629aba630f348b9c7ccf7268dcb0a6ba575ee076
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118664104"
 ---
 # <a name="avdecheaacdynamicrangecontrol-property"></a>Авдечеаакдинамикранжеконтрол, свойство
 
@@ -29,14 +29,14 @@ ms.locfileid: "104262468"
 
 Значение этого свойства является членом перечисления [**еавдечеаакдинамикранжеконтрол**](/windows/desktop/api/codecapi/ne-codecapi-eavdecheaacdynamicrangecontrol) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

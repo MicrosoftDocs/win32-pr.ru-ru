@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2688824d9fc3c7c5c84bc2432cc81d26b3de8a22
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c2d8f19c1d06ba726809d658860850dfd4fdf0360695e01aea91df6cfa14b152
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274286"
 ---
 # <a name="eaphostusercredentials-schema"></a>Схема еафостусеркредентиалс
 
@@ -22,16 +22,16 @@ ms.locfileid: "104413709"
 
 -   [Элементы схемы еафостусеркредентиалс](eaphostusercredentialsschema-elements.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [EAPHost и схема прежних версий](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

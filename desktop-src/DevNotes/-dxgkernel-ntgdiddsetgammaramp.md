@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 0c5efba67eedbd6e70f1e0682f42c1855948cecd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 78e68a76fed6db78a2f3d247c5bec1b73f3df3b6fe204e0d09b1bc5f14a014b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104140939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118668813"
 ---
 # <a name="ntgdiddsetgammaramp-function"></a>Функция Нтгдиддсетгаммарамп
 
@@ -71,11 +71,11 @@ BOOL APIENTRY NtGdiDdSetGammaRamp(
 
 Если функция выполнена успешно, возвращается значение **true** . В противном случае он имеет **значение NULL**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Рекомендуется, чтобы приложения использовали методы **идиректдравгаммаконтрол:: сетгаммарамп** или [**IDirect3DDevice9:: сетгаммарамп**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setgammaramp) , так как эти методы предлагают те же функциональные возможности, которые не зависят от операционной системы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6cc36034-224c-4126-873b-0cfeceec9781
 title: Сроки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10d1f802f12df6ca3469b8283bd4fe8b27e22412
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d85809aed689d63ccdfc0b1dee1b5b792cafc9d7d0267d27e33bd7b6c1bea6cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651257"
 ---
 # <a name="timeline"></a>Сроки
 
@@ -20,7 +20,7 @@ ms.locfileid: "105684638"
 
 Объект временной шкалы управляет всеми объектами в проекте редактирования видео. Чтобы создать этот объект, вызовите **CoCreateInstance**. Идентификатор класса — CLSID \_ амтимелине.
 
-Для чтения™ файлов Windows Media приложение должно предоставить сертификат программного обеспечения, который также называется ключом. Зарегистрируйте приложение в качестве поставщика ключей через интерфейс **IObjectWithSite** временной шкалы. Дополнительные сведения см. [в разделе Разблокировка пакета SDK Windows Media Format](unlocking-the-windows-media-format-sdk.md).
+для чтения Windows файлов мультимедиа™, приложение должно предоставить сертификат программного обеспечения, также называемый ключом. Зарегистрируйте приложение в качестве поставщика ключей через интерфейс **IObjectWithSite** временной шкалы. дополнительные сведения см. [в разделе разблокировка пакета SDK для Windows Media Format](unlocking-the-windows-media-format-sdk.md).
 
 Объект временной шкалы предоставляет следующие интерфейсы:
 
@@ -29,7 +29,7 @@ ms.locfileid: "105684638"
 -   **IObjectWithSite**
 -   **IPersistStream**
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

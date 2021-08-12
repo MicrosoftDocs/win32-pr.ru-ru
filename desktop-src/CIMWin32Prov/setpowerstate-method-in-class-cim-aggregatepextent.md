@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5ed988e5f58464479aa29d709eb628feb13f0d1c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 56d9f6c34ec1eb98d89c27eb0ebf90ad792f0237eb0b716d5ccb1d4ce2927c7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675755"
 ---
 # <a name="setpowerstate-method-of-the-cim_aggregatepextent-class"></a>Метод SetPowerState \_ класса CIM аггрегатепекстент
 
@@ -114,7 +114,7 @@ Power-сохранить другие
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -3,7 +3,7 @@ title: Код уведомления STN_DISABLE (Winuser. h)
 description: '\_Код уведомления об отключении СТН отправляется, когда статический элемент управления отключен.'
 ms.assetid: 7ff0c191-4ff3-4a11-a418-8f45e16d0318
 keywords:
-- STN_DISABLE кода уведомления элементы управления Windows
+- STN_DISABLE кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2763fce96b043ec6aebf5339a9f93d6fdf4a8abb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 793c4faaba723955d079891458b0d1823ca4fbd9c6053083cab5c886a1acbcb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670541"
 ---
 # <a name="stn_disable-notification-code"></a>СТН \_ Отключить код уведомления
 
@@ -53,15 +53,15 @@ STN_DISABLE
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -69,7 +69,7 @@ STN_DISABLE
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [\_включить СТН](stn-enable.md)

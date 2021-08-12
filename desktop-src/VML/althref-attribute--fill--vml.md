@@ -4,21 +4,21 @@ description: Атрибут Алсреф (Fill) (VML)
 ms.assetid: 3f6376e3-24db-412c-b265-5916950c3824
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0679e5aa01b934092c21bfa5d0504b056f620f2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 181f98ace80403668f8f67c6f8412091271fdfcf2abcb5a1320d0685853d92bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603007"
 ---
 # <a name="althref-attribute-fillvml"></a>Атрибут Алсреф (Fill) (VML)
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет альтернативную ссылку для изображения. Read/write. **Строка**.
 
@@ -40,7 +40,7 @@ ms.locfileid: "104487885"
 
 Поддерживает сохранение данных PICT через HTML переносе. При записи в формате HTML альтернативное представление (исходные данные PICT, если файл был создан из Apple Macintosh) сохраняется. При чтении HTML **алсреф** имеет приоритет над **src**.
 
-*Атрибут расширений Microsoft Office*
+*Microsoft Office Extensions, атрибут*
 
 **Пример**
 
@@ -59,6 +59,6 @@ ms.locfileid: "104487885"
 
 
 
- 
+ 
 
- 
+ 

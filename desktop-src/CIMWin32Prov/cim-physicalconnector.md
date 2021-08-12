@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 106b8ab30296b77be550809771db3b0208485872
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e4c5e53c2c8d02abb0762a9c3cc5bc5540f175f0810ec319180eb06435948ed4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678276"
 ---
 # <a name="cim_physicalconnector-class"></a>\_Класс CIM фисикалконнектор
 
@@ -81,13 +81,13 @@ class CIM_PhysicalConnector : CIM_PhysicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ фисикалконнектор** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1077,7 +1077,7 @@ class CIM_PhysicalConnector : CIM_PhysicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1305,7 +1305,7 @@ class CIM_PhysicalConnector : CIM_PhysicalElement
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1323,7 +1323,7 @@ class CIM_PhysicalConnector : CIM_PhysicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ фисикалконнектор** является производным от [**CIM \_ фисикалелемент**](cim-physicalelement.md).
 
@@ -1331,7 +1331,7 @@ class CIM_PhysicalConnector : CIM_PhysicalElement
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -1345,7 +1345,7 @@ class CIM_PhysicalConnector : CIM_PhysicalElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: EFFECTs. Куррентпресеттитле
 description: Атрибут Куррентпресеттитле извлекает заголовок текущей предустановки текущей визуализации.
 ms.assetid: 479968a2-fb5e-4cde-b3fb-1f940ea1078c
 keywords:
-- Effect. Куррентпресеттитле Windows Media Player
+- effects. куррентпресеттитле проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a93674b4be5e6490c846827ec7b17d496a5484b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1199b29ecc2871512e1d8dde7effda19a47998bd7bc6113ffabfa51ace07d559
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578813"
 ---
 # <a name="effectscurrentpresettitle"></a>EFFECTs. Куррентпресеттитле
 
@@ -37,7 +37,7 @@ ms.locfileid: "105694706"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

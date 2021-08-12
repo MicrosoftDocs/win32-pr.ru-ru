@@ -4,12 +4,12 @@ ms.assetid: bcadaa3c-23b7-4408-8199-058103a92a34
 title: Букмарконстоп, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 355ae01c43ef28a086c76f4716fe3d46d250fbe4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5c73d8b9829075125437e05da96c78d101f5a7f5df4dc2decc25f044cc3f5f27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118662676"
 ---
 # <a name="bookmarkonstop-property"></a>Букмарконстоп, свойство
 
@@ -23,7 +23,7 @@ ms.locfileid: "104140355"
 
 Возвращает логическое значение, указывающее, будет ли объект Мсдвдадм сохранять закладку всех параметров DVD, включая расположение на диске, родительский и родительский страны или регионе.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно для чтения и записи со значением по умолчанию false.
 
