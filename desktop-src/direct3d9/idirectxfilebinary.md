@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dxof.lib
 - d3dxof.dll
-ms.openlocfilehash: b6707e4e685289f16b85ab85c2cce13dcd1da962
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 46e0da3a0cb03d3769e7888706a48fbf00786471afed285ce54c629285ac158c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118292413"
 ---
 # <a name="idirectxfilebinary-interface"></a>Интерфейс Идиректксфилебинари
 
@@ -41,13 +41,13 @@ ms.locfileid: "104273740"
 |:-------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
 | [**жетмиметипе**](idirectxfilebinary--getmimetype.md) | Извлекает тип MIME для двоичных данных. Не рекомендуется.<br/> |
 | [**GetSize**](idirectxfilebinary--getsize.md)         | Возвращает размер двоичных данных. Не рекомендуется.<br/>                                               |
-| [**Просмотр**](idirectxfilebinary--read.md)               | Считывает двоичные данные. Не рекомендуется.<br/>                                                               |
+| [**Чтение**](idirectxfilebinary--read.md)               | Считывает двоичные данные. Не рекомендуется.<br/>                                                               |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Идентификатор GUID для интерфейса Идиректксфилебинари — IID \_ идиректксфилебинари.
 
@@ -66,7 +66,7 @@ typedef interface IDirectXFileBinary *LPDIRECTXFILEBINARY;
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3dxof. lib</dt> </dl> |
 
 

@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6526867b7f3a22a02f64b5fc5073487d962d78f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7ea5349bfd922f5876ee62fd0b249b40e722aafe8e24a88d13af9a96e4d56d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276301"
 ---
 # <a name="xmfloat4x4-operator--operators"></a>Операторы XMFLOAT4X4 operator ()
 
@@ -70,7 +70,7 @@ ms.locfileid: "104263551"
 [Операторы XMFLOAT4X4](ovw-xmfloat4x4-operators.md)
 </dt> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4)

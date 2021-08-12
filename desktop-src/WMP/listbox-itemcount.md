@@ -3,7 +3,7 @@ title: LISTBOX. itemCount
 description: Атрибут itemCount извлекает количество элементов в элементе управления "список".
 ms.assetid: 8d92e4ed-ce75-4291-8ece-8067f88f8f35
 keywords:
-- Проигрыватель Windows Media LISTBOX. itemCount
+- проигрыватель Windows Media LISTBOX. itemCount
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc6499515876631a5fcd7f96f5821b5a04c44aa8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7032943c10f27ccb9d12476cce00e4e5ea6499ce5b66a3f961f1abca715d02ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574951"
 ---
 # <a name="listboxitemcount"></a>LISTBOX. itemCount
 
@@ -37,7 +37,7 @@ ms.locfileid: "105704433"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

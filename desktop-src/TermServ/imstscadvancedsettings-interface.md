@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad4d55df30c940ecc5a5515f13c05a285507499e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f1156f59178275ff9406299fc553afacd3ce99a0488497f836d147ec1d63547
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606201"
 ---
 # <a name="imstscadvancedsettings-interface"></a>Интерфейс Имстскадванцедсеттингс
 
@@ -35,7 +35,7 @@ ms.locfileid: "105672665"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **имстскадванцедсеттингс** имеет следующие свойства.
 
@@ -112,7 +112,7 @@ ms.locfileid: "105672665"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот интерфейс расширен следующими интерфейсами, при этом каждый новый интерфейс наследует все методы и свойства предыдущих интерфейсов:
 

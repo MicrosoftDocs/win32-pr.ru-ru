@@ -11,12 +11,12 @@ api_name:
 - SecurityIdentity
 api_type:
 - COM
-ms.openlocfilehash: 6775c06bc25bfb32a1c2c247868fd2a9fbc9aade
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: d16139ccf60a22ebfb4cf609e734e0b8df3285ef9ddb1804657313900a3ea05a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103820429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305480"
 ---
 # <a name="securityidentity-class"></a>Класс Секуритидентити
 
@@ -42,11 +42,11 @@ ms.locfileid: "103820429"
 
 Используйте этот класс для доступа к методам [**исекуритидентитиколл**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecurityidentitycoll).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Нельзя напрямую создать объект **секуритидентити** . Чтобы использовать методы [**исекуритидентитиколл**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecurityidentitycoll), необходимо получить ссылку на его реализацию, вызвав [**КОЖЕТКАЛЛКОНТЕКСТ**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext), указав IID \_ исекуритикаллконтекст для параметра *riid* . Затем вызовите метод [**исекуритикаллконтекст:: Get \_ Item**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-get_item) , запрашивающий элемент контекста безопасности вызова, который является коллекцией удостоверений безопасности (например, "директкаллер" или "оригиналкаллер"). Затем вызовите [**исекуритидентитиколл:: Get \_ Item**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecurityidentitycoll-get_item) , чтобы получить элемент идентификатора безопасности (например, "Name" или "AuthenticationService").
 
-Чтобы использовать этот класс из Visual Basic Майкрософт, добавьте ссылку на библиотеку типов служб COM+. Нельзя напрямую создать объект Секуритидентити. Чтобы использовать его свойства, необходимо получить рефернеце для своей реализации с помощью [**жетсекуритикаллконтекст**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext). Затем получите свойство Item объекта, запрашивая элемент контекста безопасности вызова, который является коллекцией удостоверений безопасности (например, "Директкаллер" или "Оригиналкаллер"). Затем используйте свойство Item объекта Секуритидентити для получения элемента удостоверения безопасности (например, "Name" или "AuthenticationService").
+чтобы использовать этот класс из Visual Basic майкрософт, добавьте ссылку на библиотеку типов служб COM+. Нельзя напрямую создать объект Секуритидентити. Чтобы использовать его свойства, необходимо получить рефернеце для своей реализации с помощью [**жетсекуритикаллконтекст**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext). Затем получите свойство Item объекта, запрашивая элемент контекста безопасности вызова, который является коллекцией удостоверений безопасности (например, "Директкаллер" или "Оригиналкаллер"). Затем используйте свойство Item объекта Секуритидентити для получения элемента удостоверения безопасности (например, "Name" или "AuthenticationService").
 
 ## <a name="requirements"></a>Требования
 

@@ -4,12 +4,12 @@ ms.assetid: f991db71-8319-414d-8a25-2d02bc7c8b51
 title: Постоянные сбои Client-Side
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25d303e712257d62e4ae42497cb4463e782cfbb8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e832ec8339c33263600a1657b8d29ef2d2aecf4ceb3e000666f9db5776b3ac13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305777"
 ---
 # <a name="persistent-client-side-failures"></a>Постоянные сбои Client-Side
 
@@ -36,7 +36,7 @@ ms.locfileid: "104423374"
 
 Если вам нужно поработать с описанным здесь процессом или переместить опасное сообщение из конечной очереди RESTful, используйте программу перемещения сообщений. Дополнительные сведения о программе перемещения сообщений см. в разделе [Обработка ошибок](handling-errors-in-queued-components.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

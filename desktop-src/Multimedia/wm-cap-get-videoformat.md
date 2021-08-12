@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_GET_VIDEOFORMAT (VFW. h)
 description: Сообщение о \_ получении крепления WM \_ \_ видеоформат извлекает копию используемого видеоформата или размер, необходимый для формата видео. Это сообщение можно отправить явно или с помощью макросов Капжетвидеоформат и Капжетвидеоформатсизе.
 ms.assetid: ac72dfdb-fe1a-4007-bdce-41e5e67d076a
 keywords:
-- WM_CAP_GET_VIDEOFORMAT сообщения Windows мультимедиа
+- сообщение WM_CAP_GET_VIDEOFORMAT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 072d71366efee550b037d4a20388817954937854
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: afae3ea79b29cad6a758272f8f3952fdfb830a2b3d6d60f9fc5b4ca5042179fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622623"
 ---
 # <a name="wm_cap_get_videoformat-message"></a>\_Сообщение о \_ получении крепления WM \_ видеоформат
 
@@ -56,7 +56,7 @@ lParam = (LPARAM) (LPVOID) (psVideoFormat);
 
 Возвращает размер (в байтах) формата видео или нуль, если окно записи не подключено к драйверу записи. Для форматов видео, для которых требуется палитра, также возвращается текущая палитра.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поскольку формат сжатого видео зависит от требований к размеру, приложения должны сначала получить размер, затем выделить память и, наконец, запросить данные в формате видео.
 

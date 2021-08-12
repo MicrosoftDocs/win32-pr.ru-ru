@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 81dc410262ff21ea972d4c501ac3b5d26a361642
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cd0e4fc41507e6b01dcbf77ae19a69dbc4b8e3df981f4c3366f441f4e4854aa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104548135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294347"
 ---
 # <a name="id3dxpatchmeshlockindexbuffer-method"></a>Метод ID3DXPatchMesh:: Локкиндексбуффер
 
@@ -72,7 +72,7 @@ HRESULT LockIndexBuffer(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Буфер индексов обычно блокируется, записывается в, а затем разблокируется для чтения. Буферы индекса сети исправлений представляют собой 16-битные буферы.
 
@@ -82,7 +82,7 @@ HRESULT LockIndexBuffer(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

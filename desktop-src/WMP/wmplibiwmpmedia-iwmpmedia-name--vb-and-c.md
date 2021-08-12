@@ -3,9 +3,9 @@ title: Ивмпмедиа имя свойства
 description: Свойство Name возвращает или задает имя элемента мультимедиа.
 ms.assetid: d1057871-bccf-4f84-9b1d-74c41a8f7f7c
 keywords:
-- свойство Name проигрыватель Windows Media Player
-- свойство Name проигрыватель Windows Media Player, интерфейс Ивмпмедиа
-- Интерфейс Ивмпмедиа Windows Media Player, свойство Name
+- имя свойства проигрыватель Windows Media
+- свойство name проигрыватель Windows Media, интерфейс ивмпмедиа
+- проигрыватель Windows Media интерфейса ивмпмедиа, свойство name
 topic_type:
 - apiref
 api_name:
@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c526fc9847b06d0f7b6f4ebadf71761fd29a9d9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 46f4e99aaa7a05530a555cb51a6b1b10d511a342143f2be2bc7e029cc813cfba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568739"
 ---
 # <a name="iwmpmedianame-property"></a>Свойство Ивмпмедиа:: Name
 
@@ -52,7 +52,7 @@ Public Property name As System.String
 
 **Строка System. String** , которая является именем элемента мультимедиа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед использованием этого свойства необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -100,7 +100,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cb9d86a2403cd0e2e71130b51cdb87bad15c4e95
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 101678ebcb851ef0fcdc8eeaa202435ca80eb796555c81e5e5d95eb4998131c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "105665009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118655265"
 ---
 # <a name="cmediapositioncmediaposition-constructor-ctlutilh---pname-punk-phr-parameters"></a>Кмедиапоситион. Кмедиапоситион-конструктор (Ктлутил. h) — pName, pUnk, параметры фр
 
@@ -69,7 +69,7 @@ CMediaPosition(
 
 | Требование | Значение |
 |-|-|
-| Header | Ктлутил. h (включение Streams. h) |
+| Заголовок | ктлутил. h (включает Потоки. h) |
 | Библиотека| Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
 ## <a name="see-also"></a>См. также раздел

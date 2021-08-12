@@ -1,17 +1,17 @@
 ---
 description: В следующей таблице перечислены глобальные уникальные идентификаторы (GUID), определенные для форматов времени для параметров мультимедиа.
 ms.assetid: 1622c5bb-94f7-4bbb-8564-d7180b37c910
-title: Идентификаторы GUID формата времени DMO (Медпарам. h)
+title: DMO Идентификаторы GUID формата времени (Медпарам. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2559c702ed7310343aea017bacec28a154ab3cb9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e55c74a0c52e9af0c4536d2a6c9c45b303e0bae57b39b679aec02f0e0769624c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653054"
 ---
-# <a name="dmo-time-format-guids"></a>Идентификаторы GUID формата времени DMO
+# <a name="dmo-time-format-guids"></a>DMO Идентификаторы GUID формата времени
 
 В следующей таблице перечислены глобальные уникальные идентификаторы (GUID), определенные для форматов времени для параметров мультимедиа.
 
@@ -31,7 +31,7 @@ ms.locfileid: "105679812"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Медпарам. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Медпарам. h</dt> </dl> |
 
 
 
@@ -39,7 +39,7 @@ ms.locfileid: "105679812"
 
 <dl> <dt>
 
-[**Константы DMO**](dmo-constants.md)
+[**DMO Постоянным**](dmo-constants.md)
 </dt> </dl>
 
  

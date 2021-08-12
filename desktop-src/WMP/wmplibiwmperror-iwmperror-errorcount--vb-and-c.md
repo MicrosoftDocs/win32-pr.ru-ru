@@ -3,9 +3,9 @@ title: Ивмперрор Ерроркаунт, свойство
 description: Свойство Ерроркаунт возвращает количество ошибок в очереди ошибок.
 ms.assetid: a30750c8-2025-4087-bd2b-f313ccbde38c
 keywords:
-- Проигрыватель Windows Media для свойства Ерроркаунт
-- Ерроркаунт свойство проигрывателя Windows Media Player, интерфейс Ивмперрор
-- Интерфейс Ивмперрор Windows Media Player, свойство Ерроркаунт
+- проигрыватель Windows Media свойства ерроркаунт
+- проигрыватель Windows Media свойства ерроркаунт, интерфейс ивмперрор
+- проигрыватель Windows Media интерфейса ивмперрор, свойство ерроркаунт
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b62c16f07260847c91f1c9f18885587444a4ceb8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 42d288d1476318b1cace98d4b7549b7f5755b383da19d88ce04cbcf271326ac8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568776"
 ---
 # <a name="iwmperrorerrorcount-property"></a>Свойство Ивмперрор:: Ерроркаунт
 
@@ -48,7 +48,7 @@ Public ReadOnly Property errorCount As System.Int32
 
 Объект **System. Int32** , который является числом ошибок.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если выбрано отображение настраиваемых сообщений об ошибках, следует задать для **ивмпсеттингс. енаблиррордиалогс** **значение false** .
 
@@ -100,7 +100,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

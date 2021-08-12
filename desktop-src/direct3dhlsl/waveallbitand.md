@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2b6a3b0b097ea8737e07a91fcfc6553f22b828f1
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 96d09d91df4ff9226a8fb86203be0bd79bc3c11d1882553607358c3c84d3814c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104070861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118283002"
 ---
 # <a name="waveactivebitand-function"></a>Функция Вавеактивебитанд
 
@@ -50,7 +50,7 @@ ms.locfileid: "104070861"
 
 Побитовое значение и.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается из модели шейдеров 6,0 на всех стадиях шейдера. 
 

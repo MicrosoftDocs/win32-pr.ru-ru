@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 7b21cab26ac0929882727028775849329ac10db7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8495d967d0f512e16a06506e73ac1a35bf5fa380924cdbe6513b06a43502b137
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105714027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118301932"
 ---
 # <a name="id3dx10sprite-interface"></a>Интерфейс ID3DX10Sprite
 
@@ -42,7 +42,7 @@ ms.locfileid: "105714027"
 | [**Начать**](id3dx10sprite-begin.md)                                   | Подготовка устройства для рисования спрайтов.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [**дравспритесбуфферед**](id3dx10sprite-drawspritesbuffered.md)       | Добавьте массив спрайтов в пакет спрайтов для подготовки к просмотру. Этот метод должен вызываться между вызовами [**ID3DX10Sprite:: Begin**](id3dx10sprite-begin.md) и [**ID3DX10Sprite:: end**](id3dx10sprite-end.md), а [**ID3DX10Sprite:: Flush**](id3dx10sprite-flush.md) должен вызываться перед окончанием передачи всех пакетных спрайтов на устройство для подготовки к просмотру. Этот метод рисования наиболее удобен при рисовании небольшого числа спрайтов, которые нужно поместить в буфер крупного пакета, например шрифтов.<br/>                                                                                                                                                                              |
 | [**дравспритесиммедиате**](id3dx10sprite-drawspritesimmediate.md)     | Нарисуйте массив спрайтов. При этом спрайты будут немедленно отправлены на устройство для подготовки к просмотру, что отличается от [**ID3DX10Sprite::D равспритесбуфферед**](id3dx10sprite-drawspritesbuffered.md) , который добавляет массив спрайтов в пакет спрайтов для подготовки к просмотру при вызове [**ID3DX10Sprite:: Flush**](id3dx10sprite-flush.md) . Этот метод рисования наиболее удобен при рисовании большого количества спрайтов, которые уже были отсортированы в ЦП (или не требуют сортировки), например в системе частиц. Этот метод должен вызываться между вызовами [**ID3DX10Sprite:: Begin**](id3dx10sprite-begin.md) и [**ID3DX10Sprite:: end**](id3dx10sprite-end.md).<br/> |
-| [**END**](id3dx10sprite-end.md)                                       | Вызовите его после ID3DX10Sprite:: Flush. Если \_ \_ \_ при вызове ID3DX10Sprite:: Begin было указано состояние Save D3DX10, то этот API восстановит состояние устройства до вызова ID3DX10Sprite:: Begin.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| [**Конец**](id3dx10sprite-end.md)                                       | Вызовите его после ID3DX10Sprite:: Flush. Если \_ \_ \_ при вызове ID3DX10Sprite:: Begin было указано состояние Save D3DX10, то этот API восстановит состояние устройства до вызова ID3DX10Sprite:: Begin.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [**Очистка**](id3dx10sprite-flush.md)                                   | Принудительная отправка всех пакетированных спрайтов на устройство. Состояния устройств остаются в том виде, в котором они были после последнего вызова ID3DX10Sprite:: Begin. Затем список пакетных спрайтов удаляется.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [**GetDevice**](id3dx10sprite-getdevice.md)                           | Получите устройство, связанное с объектом Sprite.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [**жетпрожектионтрансформ**](id3dx10sprite-getprojectiontransform.md) | Получите матрицу проекции спрайта, которая применяется ко всем спрайтам.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -54,7 +54,7 @@ ms.locfileid: "105714027"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс ID3DX10Sprite получается путем вызова функции [**D3DX10CreateSprite**](d3dx10createsprite.md) .
 
@@ -64,7 +64,7 @@ ms.locfileid: "105714027"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 

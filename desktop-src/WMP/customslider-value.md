@@ -3,7 +3,7 @@ title: КУСТОМСЛИДЕР. Value
 description: Атрибут value указывает или получает текущую точку ползунка. | КУСТОМСЛИДЕР. Value
 ms.assetid: 29e17f48-1848-458d-9da4-316013b21980
 keywords:
-- Проигрыватель Windows Media КУСТОМСЛИДЕР. Value
+- кустомслидер. value проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89be4edd43fc79c8a8938a3861c982068760bcf3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3a256274fe2170ad50c164f7bf6768f82e3266db7a4ea5e2c6c8e28edd083c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579712"
 ---
 # <a name="customslidervalue"></a>КУСТОМСЛИДЕР. Value
 
@@ -31,7 +31,7 @@ ms.locfileid: "105698982"
 
 Этот атрибут является **числом** для чтения и записи (**float**) со значением по умолчанию, равным атрибуту **min** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Значение** должно быть больше или равно **минимальному** и меньше или равно **Max**. Если значение выходит за пределы диапазона, выдается предупреждение и значение не изменяется.
 
@@ -45,7 +45,7 @@ ms.locfileid: "105698982"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

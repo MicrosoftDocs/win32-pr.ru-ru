@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 762200967b5d1127dc1904d1a3348d50950c04a7
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b6012733a16f7eab84b4242828ce94113e52fc5df7fc62240f9dfce7193d868a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274306"
 ---
 # <a name="eaphostusercredentials-schema-elements"></a>Элементы схемы еафостусеркредентиалс
 
@@ -25,7 +25,7 @@ ms.locfileid: "104413761"
 -   [**еафостусеркредентиалс**](eaphostusercredentialsschema-eaphostusercredentials-element.md)
 -   [**Еапмесод (Еафостусеркредентиалс)**](eaphostusercredentialsschema-eapmethod-eaphostusercredentials-element.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -35,9 +35,9 @@ ms.locfileid: "104413761"
 [Схема еафостусеркредентиалс](eaphostusercredentialsschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

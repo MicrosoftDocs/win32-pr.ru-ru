@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 73be55bf6893f0191c6afa722caf389f3ae005d7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8dd70303527f70bcd1162a3b4138760d44bb07d2d35aba279dce5bedab3f24de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294422"
 ---
 # <a name="id3dxmeshunlockattributebuffer-method"></a>Метод ID3DXMesh:: Унлоккаттрибутебуффер
 
@@ -50,7 +50,7 @@ HRESULT UnlockAttributeBuffer();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2925c315-4488-4961-a8f7-77a9ac571b70
 title: Переходы и эффекты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43f30d3a404993e58b859a2cacdf0bcd4718e45b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f9142baf35b85a3887600abb2730b9ddbc3a16af625420ac3ef1378e8cd86df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651236"
 ---
 # <a name="transitions-and-effects"></a>Переходы и эффекты
 
@@ -18,7 +18,7 @@ ms.locfileid: "105663545"
 
  
 
-В этом разделе описываются эффекты и переходы, предоставляемые службами редактирования DirectShow.
+в этом разделе описываются эффекты и переходы, предоставляемые службами DirectShow редактирования.
 
 
 
@@ -53,11 +53,11 @@ ms.locfileid: "105663545"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по службам редактирования DirectShow в C++](directshow-editing-services-c---reference.md)
+[DirectShow Справочник по службам редактирования в C++](directshow-editing-services-c---reference.md)
 </dt> </dl>
 
  

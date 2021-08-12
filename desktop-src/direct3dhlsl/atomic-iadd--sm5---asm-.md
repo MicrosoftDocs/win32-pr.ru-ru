@@ -4,12 +4,12 @@ description: Атомарное целое число добавляет в па
 ms.assetid: 093C7FA5-41BF-4BDD-A35D-1AACE8CB9B5C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6a8652d4e29aae9f32a84f7a4e4d477abd54b7c
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: d582cdb4951cecc845cb868e7eee64be61b8f2d7387a0548c43e094cf308226f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118287757"
 ---
 # <a name="atomic_iadd-sm5---asm"></a>Атомарный \_ IAdd (SM5-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104335603"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет атомарную операцию с одним компонентом, 32-разрядным целым числом, добавляемым в *src0* в течение *летнего времени* в 32-бит на компонент, адрес *дстаддресс*. Эта инструкция не зависит от знака.
 
@@ -58,7 +58,7 @@ ms.locfileid: "104335603"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Geometry | Пиксель | Вычисления |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -70,7 +70,7 @@ ms.locfileid: "104335603"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Geometry | Пиксель | Вычисления |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -97,7 +97,7 @@ ms.locfileid: "104335603"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

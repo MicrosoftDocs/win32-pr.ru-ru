@@ -12,12 +12,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 655379676bd117b89a6fe41a8d6895260e71a2bf
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5d4915b2342e6c453134cabd431db59c62c037d6c5ec8cde139f402933bd4f53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105694041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118273711"
 ---
 # <a name="performservervalidation-eaptype"></a>Перформсервервалидатион (Еаптипе)
 
@@ -33,7 +33,7 @@ ms.locfileid: "105694041"
 
 Элемент определяется элементом [**еаптипе**](eaptlsconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **перформсервервалидатион** является необязательным.
 
@@ -43,8 +43,8 @@ ms.locfileid: "105694041"
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |------|------------------------------|
-| Клиент<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Сервер<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Клиент<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Сервер<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

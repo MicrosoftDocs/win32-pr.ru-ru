@@ -4,12 +4,12 @@ ms.assetid: 2b679681-f50c-4028-8a0d-28d283e0e9e7
 title: Конструкторы XMFLOAT2 (Директксмас. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 234c91c7e7c4588fecdaaa155de301a5118c1e0e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fc78325a76d3a78bc8ae613b1a465dc8de3165006c642870247943345f9d235
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276392"
 ---
 # <a name="xmfloat2-constructors"></a>Конструкторы XMFLOAT2
 
@@ -76,7 +76,7 @@ ms.locfileid: "105704485"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "105704485"
 [Расширения XMFLOAT2](ovw-xmfloat2-extensions.md)
 </dt> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**XMFLOAT2**](/windows/win32/api/directxmath/ns-directxmath-xmfloat2)

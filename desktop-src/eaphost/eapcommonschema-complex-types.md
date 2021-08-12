@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7f1f6a82519447529e88c9c47dfa80091b100dc8
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 4b855a5148183ffac7a26ae614aa468463827e44ccb4ca6aea9453fef2fb8549
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118275171"
 ---
 # <a name="eapcommon-schema-complex-types"></a>Сложные типы схемы еапкоммон
 
@@ -23,7 +23,7 @@ ms.locfileid: "104488288"
 -   [**еапблоб**](eapcommonschema-eapblob-complextype.md)
 -   [**еапмесодтипе**](eapcommonschema-eapmethodtype-complextype.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -33,9 +33,9 @@ ms.locfileid: "104488288"
 [Схема еапкоммон](eapcommonschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

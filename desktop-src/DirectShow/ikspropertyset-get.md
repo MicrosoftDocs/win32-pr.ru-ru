@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: 9c4461e8c5886d84bcf3b7faa6675b749bc0c37d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fbfd44002270209c055b5a4003d9062a6821aeffb3ce71de7977fc20d0c64e81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652246"
 ---
 # <a name="ikspropertysetget-method"></a>Метод Икспропертисет:: Get
 
@@ -111,10 +111,10 @@ HRESULT Get(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
-> Другой интерфейс с таким именем существует в файле заголовка дсаунд. h. Два интерфейса несовместимы. Интерфейс [иксконтрол](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol) , документированный в пакете DDK по DirectShow, теперь является рекомендуемым интерфейсом для передачи наборов свойств между драйверами WDM и компонентами пользовательского режима.
+> Другой интерфейс с таким именем существует в файле заголовка дсаунд. h. Два интерфейса несовместимы. интерфейс [иксконтрол](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol) , документированный в DirectShow DDK, теперь является рекомендуемым интерфейсом для передачи наборов свойств между драйверами WDM и компонентами пользовательского режима.
 
  
 

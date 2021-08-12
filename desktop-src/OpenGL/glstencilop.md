@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b23162f8606ed68dc90a0cb6debdcc903e0ccd0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da899207456cece58216874c7540a032326e4180e9484590e2effd619eea72f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118614338"
 ---
 # <a name="glstencilop-function"></a>Функция ГлстенЦилоп
 
@@ -95,7 +95,7 @@ void WINAPI glStencilOp(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Набор элементов, например *z*-буферизация, включает и отключает рисование на уровне отдельных пикселов. Вы рисуете на плоскости трафаретов с помощью примитивов рисования OpenGL, затем визуализируете геометрию и изображения, используя плоскости трафаретов для маскирования частей экрана. Набор элементов обычно используется в алгоритмах многопроходной отрисовки для достижения специальных эффектов, таких как декалс, структурирование и конструктивностьная визуализация геометрических объектов.
 

@@ -4,12 +4,12 @@ ms.assetid: 20cf12e4-4611-4e39-9f6f-e29f15e58b36
 title: Структуры API теневого копирования томов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1bb699277faa30c6a570203cd820d552cc9f1b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f95527f505430e0283b44d233605febb5695cada3f9740e850945f58e751f3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590556"
 ---
 # <a name="volume-shadow-copy-api-structures"></a>Структуры API теневого копирования томов
 
@@ -17,7 +17,7 @@ ms.locfileid: "105692384"
 
 
 
-| Структура                                                           | Описание                                                                                                                                                                                                                                                         |
+| structure                                                           | Описание                                                                                                                                                                                                                                                         |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_КОМПОНЕНТИНФО VSS**](/windows/desktop/api/VsBackup/ns-vsbackup-vss_componentinfo)                     | Содержит сведения об определенном компоненте.                                                                                                                                                                                                                       |
 | [**\_ \_ prop области копирования \_ VSS**](/windows/desktop/api/VsMgmt/ns-vsmgmt-vss_diff_area_prop)                 | Описывает связи между исходными томами, содержащими исходные данные файлов и тома, содержащие область хранения теневых копий.                                                                                                                                |

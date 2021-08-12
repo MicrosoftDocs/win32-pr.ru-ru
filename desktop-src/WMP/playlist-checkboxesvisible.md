@@ -3,7 +3,7 @@ title: Список воспроизведения. Чеккбоксесвиси
 description: Атрибут Чеккбоксесвисибле указывает или получает значение, указывающее, видимы ли флажки.
 ms.assetid: 25672694-d4dc-46b4-b403-81603dc58cff
 keywords:
-- Проигрыватель Windows Media Player. Чеккбоксесвисибле
+- проигрыватель Windows Media списка воспроизведения. чеккбоксесвисибле
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02b82b7b3307244402ce93d3a3377795ae68ad2e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ba8434a76fc6849df22c1655518660d88b3d57fac4632a02a5b22a0f7bd15a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571474"
 ---
 # <a name="playlistcheckboxesvisible"></a>Список воспроизведения. Чеккбоксесвисибле
 
@@ -35,14 +35,14 @@ ms.locfileid: "105708330"
 
 | Значение | Описание                           |
 |-------|---------------------------------------|
-| true  | Флажки видимы.              |
+| Да  | Флажки видимы.              |
 | false | По умолчанию. Флажки не отображаются. |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Флажки отображаются в крайнем левом столбце.
 
@@ -52,7 +52,7 @@ ms.locfileid: "105708330"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

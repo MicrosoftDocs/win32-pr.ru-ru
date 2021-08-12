@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_DRIVER_CONNECT (VFW. h)
 description: '\_ \_ Сообщение Connect с драйвером WM Cap \_ подключает окно записи к драйверу записи. Это сообщение можно отправить явно или с помощью макроса Капдриверконнект.'
 ms.assetid: 8804bb3c-d06c-4ddc-b116-3d292205a52d
 keywords:
-- WM_CAP_DRIVER_CONNECT сообщения Windows мультимедиа
+- сообщение WM_CAP_DRIVER_CONNECT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d73fdeb89968926429f7225912e3d1b3b348e287
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8b0e54d496302488db653505321778bcd22546bd2ed9b2180aa0e15cb6969f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622633"
 ---
 # <a name="wm_cap_driver_connect-message"></a>\_Сообщение о \_ подключении драйвера WM Cap \_
 
@@ -49,7 +49,7 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** , если указанный драйвер записи не может быть подключен к окну Capture.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Подключение драйвера записи к окну записи автоматически отключает все ранее подключенные драйверы записи.
 

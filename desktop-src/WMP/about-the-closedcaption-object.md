@@ -3,26 +3,26 @@ title: Сведения об объекте Клоседкаптион
 description: Сведения об объекте Клоседкаптион
 ms.assetid: f536c062-fcf6-4ada-b485-6deeb4dd4d9d
 keywords:
-- Проигрыватель Windows Media, объект Клоседкаптион
-- Объектная модель проигрывателя Windows Media, объект Клоседкаптион
+- проигрыватель Windows Media, объект клоседкаптион
+- объектная модель проигрыватель Windows Media, объект клоседкаптион
 - Объектная модель, объект Клоседкаптион
-- Элемент управления ActiveX проигрывателя Windows Media, объект Клоседкаптион
-- Элемент управления ActiveX, объект Клоседкаптион
-- Элемент управления мобильными устройствами ActiveX проигрывателя Windows Media, объект Клоседкаптион
-- Проигрыватель Windows Media Mobile, объект Клоседкаптион
+- проигрыватель Windows Media элемент управления ActiveX, объект клоседкаптион
+- элемент управления ActiveX, объект клоседкаптион
+- проигрыватель Windows Media мобильный ActiveX элемент управления, объект клоседкаптион
+- проигрыватель Windows Media Мобильные устройства, объект Клоседкаптион
 - Объект Клоседкаптион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 575eddb906e7bcbdc7d307ddb52b4394fbb960a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a9cd538f06550524b16ba1cb16fb202cfd64010208ff4360ff096641d68eef3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583931"
 ---
 # <a name="about-the-closedcaption-object"></a>Сведения об объекте Клоседкаптион
 
-Объект **клоседкаптион** управляет интерфейсом субтитров для проигрывателя Windows Media. Объект **клоседкаптион** получается через свойство **клоседкаптион** объекта **Player** . Например, чтобы получить значение свойства **самифиленаме** , введите следующее:
+объект **клоседкаптион** управляет интерфейсом субтитров для проигрыватель Windows Media. Объект **клоседкаптион** получается через свойство **клоседкаптион** объекта **Player** . Например, чтобы получить значение свойства **самифиленаме** , введите следующее:
 
 
 ```C++
@@ -32,7 +32,7 @@ myfile = player.closedcaption.SAMIFileName;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -42,9 +42,9 @@ myfile = player.closedcaption.SAMIFileName;
 [**Объектная модель проигрывателя для языков сценариев**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

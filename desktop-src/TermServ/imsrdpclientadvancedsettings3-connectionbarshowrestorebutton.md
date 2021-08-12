@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ae83ecde31461eff9c553782b8bfa3ae760fb54
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 81bcdefbd7cc41a0a1771705482cc67da028bf6dd349e473c02249284dcfcfe3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118608423"
 ---
 # <a name="imsrdpclientadvancedsettings3connectionbarshowrestorebutton-property"></a>Свойство IMsRdpClientAdvancedSettings3:: Коннектионбаршовресторебуттон
 
@@ -80,7 +80,7 @@ HRESULT get_ConnectionBarShowRestoreButton(
 
 При успешном выполнении возвращает значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство не может быть задано, пока элемент управления подключен.
 

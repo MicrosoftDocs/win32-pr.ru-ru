@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6a80132723be0b70f2c4afe93306d7f581b7734c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49b7f4aaac21cf6a55360e2e1b970bd9dfa62c0422241f7356871117e138d57d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654963"
 ---
 # <a name="ctransinplacefilterchecktransform-method"></a>Ктрансинплацефилтер. Чекктрансформ, метод
 
@@ -61,7 +61,7 @@ HRESULT CheckTransform(
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Фильтр **ктрансинплаце** никогда не вызывает `CheckTransform` . Вместо этого все соединения с ПИН-кодом используют [**ктрансформфилтер:: чеккинпуттипе**](ctransformfilter-checkinputtype.md) для проверки типа мультимедиа, предположение, что типы входных и выходных данных всегда совпадают.
 
@@ -71,7 +71,7 @@ HRESULT CheckTransform(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Трансип. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>трансип. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

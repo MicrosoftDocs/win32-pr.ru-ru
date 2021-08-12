@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 676b67b61a9375f4fd44ecc41f9e56e92a97b693
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 171191c266ae3fd59ab1ba8f55acd73eb143e9aa220fb3d2989a7ced9f716513
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118621185"
 ---
 # <a name="inapsystemhealthagentcallbacknotifyorphanedsohrequest-method"></a>Метод Инапсистемхеалсаженткаллбакк:: Нотифйорфанедсохрекуест
 
@@ -68,7 +68,7 @@ HRESULT NotifyOrphanedSoHRequest(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод обратного вызова объявляется системой защиты доступа к сети и реализуется модулем записи SHA.
 
@@ -92,8 +92,8 @@ SHA может получить некоторые ложные уведомле
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Напсистемхеалсажент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напсистемхеалсажент. idl</dt> </dl> |
 

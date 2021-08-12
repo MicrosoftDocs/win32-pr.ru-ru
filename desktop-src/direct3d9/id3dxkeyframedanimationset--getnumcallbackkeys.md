@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9f163d462728b8b1095453b2d33e99d3eeeaa1ba
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7d002b0b6a5682fef5b0927f61774978be729d0ff04414693e118036d2bc1acc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294935"
 ---
 # <a name="id3dxkeyframedanimationsetgetnumcallbackkeys-method"></a>Метод ID3DXKeyframedAnimationSet:: Жетнумкаллбакккэйс
 
@@ -50,12 +50,12 @@ UINT GetNumCallbackKeys();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

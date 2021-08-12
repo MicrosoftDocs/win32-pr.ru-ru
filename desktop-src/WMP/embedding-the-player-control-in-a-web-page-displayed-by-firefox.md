@@ -3,38 +3,38 @@ title: Внедрение элемента управления игрока в 
 description: Внедрение элемента управления игрока в веб-страницу, отображаемую в браузере Firefox
 ms.assetid: 57e725dc-6430-43ec-a39c-c17854a7d8db
 keywords:
-- Проигрыватель Windows Media, внедрение элемента управления ActiveX
-- Объектная модель проигрывателя Windows Media, внедрение элемента управления ActiveX
-- Объектная модель, внедрение элемента управления ActiveX
-- Проигрыватель Windows Media Mobile, внедрение элемента управления ActiveX
-- Элемент управления ActiveX проигрывателя Windows Media, внедрение
-- Мобильный элемент управления ActiveX проигрывателя Windows Media, внедрение
-- Элемент управления ActiveX, внедрение
-- Элемент управления ActiveX проигрывателя Windows Media, веб-страницы
-- Элемент управления мобильными устройствами ActiveX проигрывателя Windows Media, веб-страницы
-- Элемент управления ActiveX, веб-страницы
-- Проигрыватель Windows Media, Firefox
-- Объектная модель проигрывателя Windows Media, Firefox
+- проигрыватель Windows Media, встраивание ActiveX элемента управления
+- проигрыватель Windows Media объектная модель, встраивание ActiveX элемента управления
+- объектная модель, встраивание элемента управления ActiveX
+- проигрыватель Windows Media мобильный, внедренный элемент управления ActiveX
+- проигрыватель Windows Media элемент управления ActiveX, внедрение
+- проигрыватель Windows Media управление мобильными ActiveXми, внедрение
+- элемент управления ActiveX, встраивание
+- проигрыватель Windows Media элемент управления ActiveX, веб-страницы
+- проигрыватель Windows Media мобильный ActiveX элемент управления, веб-страницы
+- элемент управления ActiveX, веб-страницы
+- проигрыватель Windows Media, Firefox
+- объектная модель проигрыватель Windows Media, Firefox
 - Объектная модель, Firefox
-- Проигрыватель Windows Media Mobile, Firefox
-- Элемент управления ActiveX проигрывателя Windows Media, Firefox
-- Элемент управления ActiveX проигрывателя Windows Media Mobile, Firefox
-- Элемент управления ActiveX, Firefox
+- проигрыватель Windows Media Mobile, Firefox
+- проигрыватель Windows Media ActiveX элемент управления, Firefox
+- проигрыватель Windows Media мобильный ActiveX элемент управления, Firefox
+- ActiveX элемент управления, Firefox
 - Firefox, о внедрении веб-страниц
 - внедрение, веб-страницы
 - Внедрение веб-страниц, Firefox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a16063ea07a0262ab798e58ed02e4d5a5b6b5d65
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: e0c1db799df78cb6c62516798f4bbd196c093f02225386f0c1009bfa11d9a668
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "105691397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578591"
 ---
 # <a name="embedding-the-player-control-in-a-web-page-displayed-by-firefox"></a>Внедрение элемента управления игрока в веб-страницу, отображаемую в браузере Firefox
 
-Чтобы внедрить элемент управления проигрывателя Windows Media на веб-страницу, которая может отображаться браузером Firefox, создайте ОБЪЕКТный элемент или элемент EMBED с одним из следующих типов MIME в качестве атрибута **Type** :
+чтобы внедрить элемент управления проигрыватель Windows Media в веб-страницу, которая может отображаться браузером Firefox, создайте объектный элемент или элемент embed с одним из следующих типов mime в качестве атрибута **type** :
 
 -   Application/x-MS-WMP
 -   приложение/ASX
@@ -68,9 +68,9 @@ ms.locfileid: "105691397"
 
 
 
-Предшествующие примеры работают в браузере Firefox, но не в Internet Explorer. Чтобы внедрить элемент управления проигрывателя в веб-страницу, которая может отображаться в Internet Explorer, необходимо создать элемент OBJECT с атрибутом **ClassID** , которому задан идентификатор класса для элемента управления проигрывателя Windows Media.
+Предшествующие примеры работают в браузере Firefox, но не в Internet Explorer. чтобы внедрить элемент управления проигрывателя в веб-страницу, которая может отображаться в Internet Explorer, необходимо создать элемент OBJECT с атрибутом **classid** , которому задан идентификатор класса элемента управления проигрыватель Windows Media.
 
-В следующем примере показано, как внедрить элемент управления проигрывателя Windows Media на веб-страницу, которая может отображаться правильно в Internet Explorer и Firefox. Сценарий на странице определяет тип браузера и создает соответствующий тег объекта.
+в следующем примере показано, как внедрить элемент управления проигрыватель Windows Media в веб-страницу, которая может отображаться правильно в Internet Explorer и Firefox. Сценарий на странице определяет тип браузера и создает соответствующий тег объекта.
 
 
 ```HTML
@@ -97,16 +97,16 @@ ms.locfileid: "105691397"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Использование элемента управления проигрывателя Windows Media с браузером Firefox**](using-the-windows-media-player-control-with-firefox.md)
+[**использование элемента управления проигрыватель Windows Media с браузером Firefox**](using-the-windows-media-player-control-with-firefox.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

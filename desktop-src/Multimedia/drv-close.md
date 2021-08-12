@@ -3,7 +3,7 @@ title: Сообщение DRV_CLOSE (Ммсистем. h)
 description: Указывает драйверу закрыть заданный экземпляр. Если другие экземпляры не открыты, драйвер должен подготовиться к последующему выпуску из памяти.
 ms.assetid: 98d7fe47-5194-4912-a9d6-3af3d1fa4e60
 keywords:
-- DRV_CLOSE сообщения Windows мультимедиа
+- сообщение DRV_CLOSE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a205b7e6edb4a427b0e80d32cc711d9bf2b052c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d89be1821b03e43fbe05b5ed2efc90e40db03e36538cf0412201baa7273e596
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105650398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622671"
 ---
 # <a name="drv_close-message"></a>\_Сообщение о закрытии DRV
 
@@ -69,7 +69,7 @@ ms.locfileid: "105650398"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

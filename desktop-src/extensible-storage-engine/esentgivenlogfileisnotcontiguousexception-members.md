@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101735
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d7da4da42334173623c883a93ff4b753af2e1ef7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76e2607cd0056c2189b97bfc035bef3aa95a68421b7c673af7685268037d88bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118268413"
 ---
 # <a name="esentgivenlogfileisnotcontiguousexception-members"></a>Элементы Есентгивенлогфилеиснотконтигуаусексцептион
 
@@ -73,7 +73,7 @@ ms.locfileid: "104154723"
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Защищенное свойство" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Состав</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
 <td>(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">

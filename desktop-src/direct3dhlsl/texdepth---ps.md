@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3eb5cd337108d08efee465c136adf1afb4921123
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f39135c34c07a9a20f03c9ebc979647733884b37680ef07b9bc666b882052690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103889988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118284178"
 ---
 # <a name="texdepth---ps"></a>тексдепс-PS
 
@@ -29,13 +29,13 @@ ms.locfileid: "103889988"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -45,7 +45,7 @@ ms.locfileid: "103889988"
 
 
 
- 
+ 
 
 Эта инструкция использует R5. r/R5. g в тесте сравнения буферов глубины для этого пикселя. Данные в синих и альфа-каналах игнорируются. Если R5. g = 0, результат R5. r/R5. g = 1,0.
 
@@ -74,16 +74,16 @@ texdepth  r5         // Calculate pixel depth as r5.r / r5.g
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Перечисление D3DX11_NORMALMAP_FLAG (D3DX11tex. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. Стандартные параметры карт. Любое число этих флагов можно объединить с помощью побитовой операции или.
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. Стандартные параметры карт. Любое число этих флагов можно объединить с помощью побитовой операции или.
 ms.assetid: cc9c8a54-be1e-4594-8274-9955562a6fa8
 keywords:
 - Перечисление D3DX11_NORMALMAP_FLAG Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37f5d9669370e6df03d783ae1cb82a5eeb5a9142
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dbea7c787ac2e2aa7d988e052e2ca548a49a338c9b9f981ce73d51c40e0b4edd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300653"
 ---
 # <a name="d3dx11_normalmap_flag-enumeration"></a>\_ \_ Перечисление флагов нормалмап D3DX11
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -85,7 +85,7 @@ typedef enum D3DX11_NORMALMAP_FLAG {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эти флаги используются [**D3DX11ComputeNormalMap**](d3dx11computenormalmap.md).
 
@@ -95,7 +95,7 @@ typedef enum D3DX11_NORMALMAP_FLAG {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX11tex. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX11tex. h</dt> </dl> |
 
 
 

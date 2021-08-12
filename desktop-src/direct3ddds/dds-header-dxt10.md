@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a2f5dd4a6948d38b86b49584db81937ce5148b4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9da95b65739922861002ab134d33f276adabd19c29d14fdea6432616b6c5edc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118289791"
 ---
 # <a name="dds_header_dxt10-structure"></a>\_Структура DXT10 заголовков DDS \_
 
@@ -144,7 +144,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте эту структуру вместе с [**\_ заголовком DDS**](dds-header.md) для хранения массива ресурсов в файле DDS. Дополнительные сведения см. в разделе [массивы текстур](dx-graphics-dds-pguide.md).
 
@@ -156,7 +156,7 @@ typedef struct {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DDS. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DDS. h</dt> </dl> |
 
 
 

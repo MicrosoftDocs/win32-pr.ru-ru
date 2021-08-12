@@ -4,12 +4,12 @@ ms.assetid: bdb0b8cd-025f-4b56-9cd4-f71c58ee809a
 title: Атрибут кутпоинт
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd516bd67577906a0a06d8da692ffbd7563ce32f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7332d3ef1b608b192b18e0d32bc99bce547058754950847e0a9767eb500a1553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654595"
 ---
 # <a name="cutpoint-attribute"></a>Атрибут кутпоинт
 
@@ -24,9 +24,9 @@ ms.locfileid: "104140050"
 
 Должен быть строкой формата *чч: мм: СС. FF* , где *чч* = ч, *мм* = минуты, *SS* = секунды и *FF* = доли секунды. Пример: 1:04:30.512. Начальные единицы можно опустить. Например, допустимыми являются 3:00 (три минуты) и 45 (45 секунд).
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
-[**режима**](transition-element.md)
+[**Переход**](transition-element.md)
 
 ## <a name="see-also"></a>См. также раздел
 
