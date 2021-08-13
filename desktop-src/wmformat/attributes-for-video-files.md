@@ -3,18 +3,18 @@ title: Атрибуты для видеофайлов
 description: Атрибуты для видеофайлов
 ms.assetid: 4250ad27-075e-4daa-bc04-d24ddd2e8252
 keywords:
-- Windows Media Format SDK, атрибуты
+- Windows Пакет SDK для формата мультимедиа, атрибуты
 - Расширенный системный формат (ASF), атрибуты
 - ASF (Расширенный системный формат), атрибуты
 - атрибуты, видеофайлы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd19791857d55be8017d291698a3297b395af550
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be249e28eea5370d0e29f7d744e0e2f7da4e4019db51d44b5f3fc774f1cbd6ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118434613"
 ---
 # <a name="attributes-for-video-files"></a>Атрибуты для видеофайлов
 
@@ -29,7 +29,7 @@ ms.locfileid: "104410733"
 ## <a name="primary-attributes-for-video"></a>Основные атрибуты видео
 
 -   [**Автор**](author.md)
--   [**Заголовок**](title.md)
+-   [**Название**](title.md)
 -   [**WM/Контентдистрибутор**](wm-contentdistributor.md)
 -   [**WM/двдид**](wm-dvdid.md) (если доступно; в противном случае используйте [**WM/вмколлектионид**](wm-wmcollectionid.md), [**WM/вмколлектионграупид**](wm-wmcollectiongroupid.md)и [**WM/вмконтентид**](wm-wmcontentid.md)).
 -   [**WM/жанр**](wm-genre.md)
@@ -39,7 +39,7 @@ ms.locfileid: "104410733"
 
 ## <a name="secondary-attributes-for-video"></a>Дополнительные атрибуты видео
 
--   [**Информация**](copyright.md)
+-   [**Copyright**](copyright.md)
 -   [**WM/Composer**](wm-composer.md)
 -   [**WM/Director**](wm-director.md)
 -   [**WM/Енкодингтиме**](wm-encodingtime.md)
@@ -69,7 +69,7 @@ ms.locfileid: "104410733"
 -   [**WM/Уникуефилеидентифиер**](wm-uniquefileidentifier.md)
 -   [**WM/Усервебурл**](wm-userweburl.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -79,9 +79,9 @@ ms.locfileid: "104410733"
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

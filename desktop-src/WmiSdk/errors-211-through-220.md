@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Ошибки с 211 по 220
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f25dbf8cb8f27d4c58a1505176eca218b8d947d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3394f6ca4317d14e83ca17b3a8ef9b516d218c072659041f7c6f5b035e6cdcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103817601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556706"
 ---
 # <a name="errors-211-through-220"></a>Ошибки с 211 по 220
 

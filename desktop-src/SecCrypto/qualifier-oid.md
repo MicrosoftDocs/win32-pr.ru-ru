@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a86aaf7b60b98811e2d1fbef79c520448f1d47f3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 42c2f83d4fa8be31991a98b6fe4cfc6a741e2190cd12d54bfd5e968951472bcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901054"
 ---
 # <a name="qualifieroid-property"></a>Свойство квалификатора. OID
 
@@ -39,7 +39,7 @@ Qualifier.OID As OID
 
 Объект [**OID**](oid.md) , определяющий квалификатор.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

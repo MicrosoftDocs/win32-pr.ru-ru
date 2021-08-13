@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.reference.xmmin(t,t)
 title: Шаблон Ксммин (Директксмас. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 550fd93c9776ad8547502b50817446e64f9bdd64
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c2d78b64a66411c31570267c66a7e75171dcf9da039871c07c8bfc31df49149
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499859"
 ---
 # <a name="xmmin-template"></a>Шаблон Ксммин
 
@@ -46,7 +46,7 @@ template<class T> T XMMin(
 
 Возвращает меньшее из двух входных объектов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 `XMMin` является шаблоном, а тип T указывается при создании экземпляра шаблона.
 
@@ -56,7 +56,7 @@ template<class T> T XMMin(
  
 
 > [!Note]  
-> В идеале используйте std:: min вместо `XMMin` . Чтобы избежать конфликтов с заголовками Windows с std:: min, необходимо \# определить номинмакс перед включением заголовков Windows.
+> В идеале используйте std:: min вместо `XMMin` . чтобы избежать конфликтов с Windows заголовками с std:: min, необходимо \# определить номинмакс перед включением заголовков Windows.
 
  
 
@@ -64,15 +64,15 @@ template<class T> T XMMin(
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 

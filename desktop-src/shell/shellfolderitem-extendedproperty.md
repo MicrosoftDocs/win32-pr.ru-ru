@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 614e42512b17a0d8a6950ac96914128b8746c685
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5aa8ab3ba61d752cfe4d9f8ecd29bf4fcd06c3dbadde94e51ac9a05a8504b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452820"
 ---
 # <a name="shellfolderitemextendedproperty-method"></a>Шеллфолдеритем. ExtendedProperty, метод
 
@@ -50,15 +50,15 @@ retVal = ShellFolderItem.ExtendedProperty(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: **Variant \** _
+Тип: **Variant \***
 
 При возврате из этого метода содержит значение свойства, если оно существует для указанного элемента. Значение будет иметь полную типизацию, например, даты возвращаются как даты, а не строки.
 
 Этот метод возвращает строку нулевой длины, если свойство является допустимым, но не существует для указанного элемента, или код ошибки в противном случае.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Задать свойство можно двумя способами. Первым является присвоение известного имени свойства, например "author" или "Date", _sPropName *. Однако каждое свойство является членом набора свойств модели COM, и его также можно определить, указав идентификатор формата (FMTID) и идентификатор свойства (PID). [**FMTID**](../stg/structured-storage-serialized-property-set-format.md) — это идентификатор GUID, определяющий набор свойств, а [**идентификатор процесса**](../stg/structured-storage-serialized-property-set-format.md) — это целое число, которое определяет конкретное свойство в наборе свойств.
+Задать свойство можно двумя способами. Первым является назначение известного имени свойства, например "author" или "Date", *спропнаме*. Однако каждое свойство является членом набора свойств модели COM, и его также можно определить, указав идентификатор формата (FMTID) и идентификатор свойства (PID). [**FMTID**](../stg/structured-storage-serialized-property-set-format.md) — это идентификатор GUID, определяющий набор свойств, а [**идентификатор процесса**](../stg/structured-storage-serialized-property-set-format.md) — это целое число, которое определяет конкретное свойство в наборе свойств.
 
 Указание свойства по его значениям FMTID и PID обычно более эффективно, чем использование его имени. Чтобы использовать значения FMTID или PID свойства с **ExtendedProperty**, их необходимо объединить в сЦид. СЦИД — это строка, содержащая значения FMTID/PID в формате "*FMTID * * PID*", где FMTID — это строка идентификатора GUID набора свойств. Например, СЦИД свойства Author набора свойств сводки имеет значение "{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 4".
 
@@ -95,9 +95,9 @@ Doc_Author=fiWordDoc.ExtendedProperty(SCID_AUTHOR)
 
 
 
-В следующих примерах показано правильное использование этого метода для JScript, VBScript и Visual Basic.
+в следующих примерах показано правильное использование этого метода для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -199,7 +199,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

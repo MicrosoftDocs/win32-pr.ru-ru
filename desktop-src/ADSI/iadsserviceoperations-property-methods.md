@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 654a92be1052d4e4c70e0274d719a49be965d8cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c7f60b8fe1280e257ccd33f505b2b696a0d1a16228ebfaf8b0cabf7f1319964a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118427610"
 ---
 # <a name="iadsserviceoperations-property-methods"></a>Методы свойств Иадссервицеоператионс
 
@@ -210,7 +210,7 @@ HRESULT get_Status(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере кода показано, как проверить состояние службы факсов Microsoft, работающей в Windows 2000.
+в следующем примере кода показано, как проверить состояние службы факсов майкрософт, работающей на Windows 2000.
 
 
 ```VB
@@ -245,7 +245,7 @@ Cleanup:
 
 
 
-В следующем примере кода проверяется состояние службы факсов Майкрософт, работающей в Windows 2000.
+в следующем примере кода проверяется состояние службы факсов майкрософт, работающей на Windows 2000.
 
 
 ```C++
@@ -291,7 +291,7 @@ Cleanup:
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

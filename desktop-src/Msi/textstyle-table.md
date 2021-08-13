@@ -4,12 +4,12 @@ ms.assetid: a351e67a-8f51-41bf-9202-56488b870fa7
 title: Таблица система создала шрифт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c9993362228e37f01c0e53683755f7bd1310eaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6f8a5b3141314722bc5b92e34ea214fa8e1505babfbc8b7f942899e6c6779c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118623492"
 ---
 # <a name="textstyle-table"></a>Таблица система создала шрифт
 
@@ -24,7 +24,7 @@ ms.locfileid: "103991259"
 | Система создала шрифт | [Идентификатор](identifier.md)       | Да   | Нет        |
 | Преимущственно  | [Text](text.md)                   | Нет   | Нет        |
 | Размер      | [Integer](integer.md)             | Нет   | Нет        |
-| Цвет     | [даублеинтежер](doubleinteger.md) | Нет   | Да        |
+| Color     | [даублеинтежер](doubleinteger.md) | Нет   | Да        |
 | стилебитс | [Integer](integer.md)             | Нет   | Да        |
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "103991259"
 
 | Константа                             | Шестнадцатеричный | Decimal | Стиль      |
 |--------------------------------------|-------------|---------|------------|
-| **мсидбтекстстилестилебитсболд**      | 0x001       | 1       | Жирный       |
+| **мсидбтекстстилестилебитсболд**      | 0x001       | 1       | Полужирный       |
 | **мсидбтекстстилестилебитситалик**    | 0x002       | 2       | Курсив     |
 | **мсидбтекстстилестилебитсундерлине** | 0x004       | 4       | Underline  |
 | **мсидбтекстстилестилебитсстрике**    | 0x008       | 8       | Зачеркивание |

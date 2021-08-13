@@ -1,17 +1,17 @@
 ---
 description: Используется для задания свойства хранилища ключей.
 ms.assetid: 407f0e42-07c8-4ec6-81c6-f8bde005adb0
-title: Идентификаторы свойств хранилища ключей (NCrypt. h)
+title: ключевые служба хранилища идентификаторы свойств (Ncrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 813a15ba106989cb558eba181bc893d75c6d1bf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20b8fca27591837a555e4f75040ba16056c42e16ce488c0bb99f2d8f7de70bd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907622"
 ---
-# <a name="key-storage-property-identifiers"></a>Идентификаторы свойств хранилища ключей
+# <a name="key-storage-property-identifiers"></a>идентификаторы свойств ключевых служба хранилища
 
 Для задания свойства хранилища ключей используются следующие значения.
 
@@ -95,7 +95,7 @@ L "Смарткардкэйцертификате"
 
 [*Большой двоичный объект*](/windows/desktop/SecGloss/b-gly) , содержащий сертификат X. 509, связанный с ключом.
 
-**Windows server 2008 R2, Windows 7, Windows Server 2008 и Windows Vista:** [*Большой двоичный объект*](/windows/desktop/SecGloss/b-gly) , содержащий [*сертификат*](/windows/desktop/SecGloss/c-gly)ключа [*смарт-карты*](/windows/desktop/SecGloss/s-gly) . Это свойство не поддерживается поставщиком хранилища ключей программного обеспечения Майкрософт.
+**Windows server 2008 R2, Windows 7, Windows Server 2008 и Windows Vista:** [*Большой двоичный объект*](/windows/desktop/SecGloss/b-gly) , содержащий [*сертификат*](/windows/desktop/SecGloss/c-gly)ключа [*смарт-карты*](/windows/desktop/SecGloss/s-gly) . это свойство не поддерживается поставщиком Microsoft Software Key служба хранилища.
 
 
 </dt> </dl> </dd> <dt>
@@ -553,14 +553,14 @@ L "дескриптор HWND"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
 | Header<br/>                   | <dl> <dt>NCrypt. h</dt> </dl> |
 
 

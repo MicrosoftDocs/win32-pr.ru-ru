@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb2c21246282646dcf6ae488411316e07ab62b2f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2ddf51e020cdcd5d13dde6938a58ea5e51f22d9dd03f8632312b3d6b8453a9ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103790902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118383512"
 ---
 # <a name="object-attribute"></a>object - атрибут
 
@@ -67,7 +67,7 @@ COM-интерфейс, от которого наследует этот инт
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Список атрибутов интерфейса для COM-интерфейса должен включать **\[** атрибут [**UUID**](uuid.md) **\]** , но не может включать **\[** атрибут [**Version**](version.md) **\]** .
 
@@ -143,12 +143,12 @@ interface ILocalInterface : ISomeOldCOMInterface
 [**определение**](typedef.md)
 </dt> <dt>
 
-[**UUID**](uuid.md)
+[**uuid**](uuid.md)
 </dt> <dt>
 
 [**Версия**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

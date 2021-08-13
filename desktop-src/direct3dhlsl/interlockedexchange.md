@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7c39dc4f68429fa3f070d446f998fd528a99af01
-ms.sourcegitcommit: 12e9b14501d51641b690ee0cf764e2b91eb9a140
+ms.openlocfilehash: 3880a85af5658d0d50eb079c2dd1fc300e6a4de4b7f606688ab9d7a317cf321c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "104983952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511324"
 ---
 # <a name="interlockedexchange-function-hlsl-reference"></a>Функция Интерлоккедексчанже (Справочник по HLSL)
 
@@ -28,9 +28,9 @@ ms.locfileid: "104983952"
 
 ``` syntax
 void InterlockedExchange(
-  in  R dest,
-  in  T value,
-  out T original_value
+  in  R dest,
+  in  T value,
+  out T original_value
 );
 ```
 
@@ -69,7 +69,7 @@ void InterlockedExchange(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта операция может выполняться только с скалярными ресурсами и переменными общей памяти. Существует два возможных использования этой функции. Первый — когда R является переменной общей памяти. В этом случае функция выполняет операцию с регистром общей памяти, на который ссылается dest. Второй сценарий заключается в том, что R является типом переменной ресурса. В этом сценарии функция выполняет операцию с расположением ресурса, на которое ссылается dest. Эта операция доступна только в том случае, если R доступен для чтения и записи.
 
@@ -81,23 +81,23 @@ void InterlockedExchange(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      |  x   | x      |  x       | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -109,9 +109,9 @@ void InterlockedExchange(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

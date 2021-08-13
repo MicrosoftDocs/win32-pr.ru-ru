@@ -1,5 +1,5 @@
 ---
-description: В этом разделе описывается функция обработки цветовой палитры оболочки Windows. Программные элементы, описанные в этой документации, экспортируются с помощью Shlwapi.dll и определяются в Shlwapi. h и Shlwapi. lib.
+description: в этом разделе описываются функции обработки цветовой палитры Windows оболочки. Программные элементы, описанные в этой документации, экспортируются с помощью Shlwapi.dll и определяются в Shlwapi. h и Shlwapi. lib.
 title: Функции обработки цветовой палитры оболочки
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: ba92dcf280b8d54b8778e276bb603d888f5991c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0ebcabb4212712b1f5acfe2cf35fa9003cfb3488fcba2d23b579354e3f33299
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452121"
 ---
 # <a name="shell-color-palette-handling-functions"></a>Функции обработки цветовой палитры оболочки
 
-В этом разделе описывается функция обработки цветовой палитры оболочки Windows. Программные элементы, описанные в этой документации, экспортируются с помощью Shlwapi.dll и определяются в Shlwapi. h и Shlwapi. lib.
+в этом разделе описываются функции обработки цветовой палитры Windows оболочки. Программные элементы, описанные в этой документации, экспортируются с помощью Shlwapi.dll и определяются в Shlwapi. h и Shlwapi. lib.
 
 ## <a name="in-this-section"></a>В этом разделе
 

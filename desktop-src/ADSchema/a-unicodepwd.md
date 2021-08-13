@@ -1,6 +1,6 @@
 ---
 title: Атрибут Unicode-Pwd
-description: Пароль пользователя в одностороннего формата Windows NT (OWF). Windows 2000 использует Windows NT OWF. Это свойство используется только операционной системой. Обратите внимание, что невозможно получить открытый пароль обратно из формы OWF пароля.
+description: пароль пользователя в Windows NT односторонний формат (OWF). Windows 2000 использует Windows NT OWF. Это свойство используется только операционной системой. Обратите внимание, что невозможно получить открытый пароль обратно из формы OWF пароля.
 ms.assetid: 07b29a0c-aff2-4abd-8ca8-95f1ce5b566b
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d00a1df180b7a30b56bdf198a78edc77cc99755
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0e21929cf41b58688f768ada0b608ca3ef0892a4a54043c30f5cac2d5a72258b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681091"
 ---
 # <a name="unicode-pwd-attribute"></a>Атрибут Unicode-Pwd
 
-Пароль пользователя в одностороннего формата Windows NT (OWF). Windows 2000 использует Windows NT OWF. Это свойство используется только операционной системой. Обратите внимание, что невозможно получить открытый пароль обратно из формы OWF пароля.
+пароль пользователя в Windows NT односторонний формат (OWF). Windows 2000 использует Windows NT OWF. Это свойство используется только операционной системой. Обратите внимание, что невозможно получить открытый пароль обратно из формы OWF пароля.
 
 
 
@@ -67,7 +67,7 @@ ms.locfileid: "104138747"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ ms.locfileid: "104138747"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ ms.locfileid: "104138747"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ ms.locfileid: "104138747"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ ms.locfileid: "104138747"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 

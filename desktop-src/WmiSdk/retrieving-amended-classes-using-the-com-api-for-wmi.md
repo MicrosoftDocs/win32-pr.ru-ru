@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Получение измененных классов с помощью API COM для WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0178b0b99de2b666e2f497074a02b02c49ba400
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3752be42a7111e677e7cd60e0bfe9996350f9ae19e7bd0e168d1fa5da82fe42a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118554028"
 ---
 # <a name="retrieving-amended-classes-using-the-com-api-for-wmi"></a>Получение измененных классов с помощью API COM для WMI
 

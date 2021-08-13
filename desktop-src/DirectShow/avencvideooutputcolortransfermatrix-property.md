@@ -4,12 +4,12 @@ ms.assetid: 48891204-397b-4b2b-8550-7a77461db06c
 title: Свойство Авенквидеуутпутколортрансферматрикс (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 309e51b8abdac33303e49ba380ed73cf4aa57272
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 972f2b34c69af7bd5fc97bf34e5a96678216a39c6882748bfa64af019d6c7a5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663177"
 ---
 # <a name="avencvideooutputcolortransfermatrix-property"></a>Авенквидеуутпутколортрансферматрикс, свойство
 
@@ -29,14 +29,14 @@ ms.locfileid: "104494817"
 
 Значение этого свойства является членом перечисления [**еавенквидеоколортрансферматрикс**](/windows/desktop/api/codecapi/ne-codecapi-eavencvideocolortransfermatrix) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

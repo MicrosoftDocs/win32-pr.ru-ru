@@ -1,19 +1,19 @@
 ---
-description: В следующей таблице перечислены глобальные уникальные идентификаторы (GUID), определенные для категорий объектов Microsoft DirectX Media (DMO). Эти идентификаторы GUID определяются в файле заголовка Дморег. h и экспортируются библиотекой Дмогуидс. lib.
+description: в следующей таблице перечислены глобальные уникальные идентификаторы (guid), определенные для категорий объектов Microsoft DirectX Media (DMO). Эти идентификаторы GUID определяются в файле заголовка Дморег. h и экспортируются библиотекой Дмогуидс. lib.
 ms.assetid: d67debd0-8ecb-41ab-bc6c-b27cba97c65a
-title: GUID DMO (Дморег. h)
+title: DMO Идентификаторы GUID (Дморег. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c10d5bd917d6368d398362e76ffa9ea8255933ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93db9f78a5c256d2a6703f01fa4195b1aa293ef7e79eeb6b4da59557b849c805
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653112"
 ---
-# <a name="dmo-guids"></a>GUID DMO
+# <a name="dmo-guids"></a>DMO Идентификаторы GUID
 
-В следующей таблице перечислены глобальные уникальные идентификаторы (GUID), определенные для категорий объектов Microsoft DirectX Media (DMO). Эти идентификаторы GUID определяются в файле заголовка Дморег. h и экспортируются библиотекой Дмогуидс. lib.
+в следующей таблице перечислены глобальные уникальные идентификаторы (guid), определенные для категорий объектов Microsoft DirectX Media (DMO). Эти идентификаторы GUID определяются в файле заголовка Дморег. h и экспортируются библиотекой Дмогуидс. lib.
 
 Чтобы перечислить дмос, зарегистрированные в категории, передайте соответствующий идентификатор GUID функции [**дмоенум**](/previous-versions/windows/desktop/api/Dmoreg/nf-dmoreg-dmoenum) .
 
@@ -37,7 +37,7 @@ ms.locfileid: "105651863"
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Дморег. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Дморег. h</dt> </dl> |
 
 
 
@@ -45,7 +45,7 @@ ms.locfileid: "105651863"
 
 <dl> <dt>
 
-[Константы DMO](dmo-constants.md)
+[DMO Постоянным](dmo-constants.md)
 </dt> </dl>
 
  

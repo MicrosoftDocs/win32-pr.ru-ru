@@ -4,12 +4,12 @@ ms.assetid: 536f743d-bfff-4607-a92c-f29e49881b76
 title: Перечисления анализа рукописного ввода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 710a1fdbb8c3627ed4856048f8cd27b80112bb16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e730d34031b5967daa83595b44f1f0b5f38fac8aead7609245fb28b6c55ec0e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452111"
 ---
 # <a name="ink-analysis-enumerations"></a>Перечисления анализа рукописного ввода
 
@@ -33,7 +33,7 @@ ms.locfileid: "103896873"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5088312a16102153ad78afffdcd9ea1275d34e0d
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2fa79b7aa50bc734ddc1f9fb1fd54e4130c48518dd47ed429b4177b8fb867d95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104133318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794469"
 ---
 # <a name="break_comp---ps"></a>Останов \_ comp-PS
 
@@ -29,7 +29,7 @@ ms.locfileid: "104133318"
 
 
 
- 
+ 
 
 Где:
 
@@ -37,7 +37,7 @@ ms.locfileid: "104133318"
 
     | Синтаксис | Сравнение            |
     |--------|-----------------------|
-    | \_gt   | Больше чем          |
+    | \_gt   | Больше          |
     | \_светл   | Меньше чем             |
     | \_GE   | Больше или равно |
     | \_Le   | Меньше или равно    |
@@ -46,12 +46,12 @@ ms.locfileid: "104133318"
 
     
 
-     
+     
 
 -   src0 является исходным регистром. При выборе одного компонента требуется репликация свиззле.
 -   src1 является исходным регистром. При выборе одного компонента требуется репликация свиззле.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция поддерживается в следующих версиях.
 
@@ -63,7 +63,7 @@ ms.locfileid: "104133318"
 
 
 
- 
+ 
 
 Если сравнение истинно, оно выходит из текущего цикла, как показано.
 
@@ -75,16 +75,16 @@ if (!(src0 comparison src1))
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

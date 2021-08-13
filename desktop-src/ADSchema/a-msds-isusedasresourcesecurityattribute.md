@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d957e25974202e79a49f9f9f0d0ee38ef23c819
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 09c2226c89f1810a7dba7e24b6cb2b299d0246b985b63e9a2a584360352f9cab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425840"
 ---
 # <a name="ms-ds-is-used-as-resource-security-attribute-attribute"></a>Атрибут ms-DS-"используется как-Resource-resecurity-Attribute"
 
@@ -36,7 +36,7 @@ ms.locfileid: "104536032"
 | Частота обновления  | \-                                           |
 | Attribute-Id      | 1.2.840.113556.1.4.2095                      |
 | System-ID — GUID    | 51c9f89d-4730-468d-a2b5-1d493212d17e         |
-| Синтаксис            | [**Логическая**](s-boolean.md)                 |
+| Синтаксис            | [**Логическое**](s-boolean.md)                 |
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "104536032"
 | Идентификатор ссылки                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | Неверно                                                                 |
-| Является однозначным       | True                                                                  |
+| Является однозначным       | Верно                                                                  |
 | Индексируется             | Неверно                                                                 |
 | В глобальном каталоге      | Неверно                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |

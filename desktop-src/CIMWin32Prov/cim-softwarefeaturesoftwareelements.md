@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 71712ebb3f8bf2ab2067325f16cf31af7fb1dc38
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5ff4f7f9fb0457ccf490a7c2066556c4c5e2537c77f005d86bb140c6eb7fdb6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118421116"
 ---
 # <a name="cim_softwarefeaturesoftwareelements-class"></a>\_Класс CIM софтварефеатуресофтварилементс
 
@@ -51,7 +51,7 @@ class CIM_SoftwareFeatureSoftwareElements : CIM_Component
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ софтварефеатуресофтварилементс** имеет следующие свойства.
 
@@ -90,7 +90,7 @@ class CIM_SoftwareFeatureSoftwareElements : CIM_Component
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ассоциация **CIM \_ софтварефеатуресофтварилементс** является производной от [**\_ компонента CIM**](cim-component.md).
 
@@ -98,7 +98,7 @@ class CIM_SoftwareFeatureSoftwareElements : CIM_Component
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

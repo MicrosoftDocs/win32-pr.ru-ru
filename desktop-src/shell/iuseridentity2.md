@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 88142e462566a6afaf299096744a0b8f9ea83dfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1a23ea6e0d5832ee6d78453f3a246b9db749c0d7b24b90a2199a7e8cfd225b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720590"
 ---
 # <a name="iuseridentity2-interface"></a>Интерфейс IUserIdentity2
 
@@ -48,11 +48,11 @@ ms.locfileid: "104539485"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот интерфейс также предоставляет методы интерфейса [**иусеридентити**](iuseridentity.md) , от которых он наследуется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ ms.locfileid: "104539485"
 
 <dl> <dt>
 
-[**IUserIdentity**](iuseridentity.md)
+[**иусеридентити**](iuseridentity.md)
 </dt> </dl>
 
  

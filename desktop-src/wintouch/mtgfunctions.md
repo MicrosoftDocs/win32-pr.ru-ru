@@ -1,25 +1,25 @@
 ---
-title: Функции (сенсорные жесты Windows)
-description: Этот раздел содержит функции для жестов касания Windows.
+title: функции (Windows сенсорные жесты)
+description: этот раздел содержит функции для Windows сенсорных жестов.
 ms.assetid: 830031d1-eb8d-45d4-b66e-3f4fbb96ae13
 keywords:
-- Касание Windows, функции
-- Касание Windows, жесты
+- Windows Сенсорный ввод, функции
+- Windows Касание, жесты
 - жесты, функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2f2c8a1b1a6573cb39907c571ebc053d1efa066
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f45112d81f80b4c3acba90ee25a65263f0183f296a432d66b3e278a14ae041f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104488838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435385"
 ---
-# <a name="functions-windows-touch-gestures"></a>Функции (сенсорные жесты Windows)
+# <a name="functions-windows-touch-gestures"></a>функции (Windows сенсорные жесты)
 
-Этот раздел содержит функции для жестов касания Windows.
+этот раздел содержит функции для Windows сенсорных жестов.
 
-Для жестов касания Windows используются следующие функции.
+для Windows сенсорных жестов используются следующие функции.
 
 
 
@@ -35,11 +35,11 @@ ms.locfileid: "104488838"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сенсорные жесты Windows](multi-touch-gestures.md)
+[Windows Сенсорные жесты](multi-touch-gestures.md)
 </dt> <dt>
 
 [Руководством по программированию для жестов](guide-multi-touch-gestures.md)

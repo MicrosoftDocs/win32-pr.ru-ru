@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 085304c5319811ba87979124613c7d8e83fd7479
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3b52ace8ea72d78585ac0df858df1fc807fbc65ca74ace92208d2e9fc5c76861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417736"
 ---
 # <a name="win32_dcomapplicationsetting-class"></a>\_Класс Win32 дкомаппликатионсеттинг
 
@@ -142,7 +142,7 @@ class Win32_DCOMApplicationSetting : Win32_COMSetting
 
 </dt> <dd>
 
-Connect (проверка подлинности выполняется только в том случае, если клиент устанавливает связь с приложением)
+Подключение (проверка подлинности выполняется только в том случае, если клиент устанавливает связь с приложением)
 
 </dd> <dt>
 
@@ -192,7 +192,7 @@ Connect (проверка подлинности выполняется толь
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -317,7 +317,7 @@ DCOM-приложение получает сохраненное состоян
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| hKey \_ Local \_ Machine \\ \\ Software \\ \\ Classes \\ \\ AppID \\ \\ {GUID} \[ сервицепараметерс \] ")
 </dt> </dl>
 
-Параметры командной строки, передаваемые в DCOM-приложение. Это допустимо только в том случае, если приложение написано как служба на основе Windows.
+Параметры командной строки, передаваемые в DCOM-приложение. это допустимо только в том случае, если приложение написано как служба на основе Windows.
 
 </dd> <dt>
 
@@ -355,11 +355,11 @@ DCOM-приложение может быть активировано как с
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ дкомаппликатионсеттинг** является производным от [**Win32 \_ комсеттинг**](win32-comsetting.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

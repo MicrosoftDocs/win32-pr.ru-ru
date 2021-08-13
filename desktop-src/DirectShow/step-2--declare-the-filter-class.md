@@ -4,12 +4,12 @@ ms.assetid: 74fbfc16-541f-4f80-a72f-26b67dc09a93
 title: Шаг 2. Объявление класса фильтра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88be97e47d529ffa22c90e9c8c200160dbd5f261
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: ec3e814802a67185f320345dea2f397188999ecafb9596b9b368a4b6eff8e240
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112410067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652200"
 ---
 # <a name="step-2-declare-the-filter-class"></a>Шаг 2. Объявление класса фильтра
 
@@ -66,7 +66,7 @@ CRleFilter::CRleFilter()
 
 <dl> <dt>
 
-[Написание фильтров DirectShow](writing-directshow-filters.md)
+[написание фильтров DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

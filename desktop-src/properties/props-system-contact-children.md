@@ -4,12 +4,12 @@ ms.assetid: 44d260a1-ad42-4822-ab4d-205f6999e5aa
 title: System. Contact. Children
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2690f9a55eb0c6370f8c940ffe98426e0a841b9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b913df318f1177fd22639d39b4ddafe0606b1c21f3710e0114506d99b73928af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118730221"
 ---
 # <a name="systemcontactchildren"></a>System. Contact. Children
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

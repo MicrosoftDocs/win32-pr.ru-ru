@@ -1,19 +1,19 @@
 ---
-title: Метод завершения (устаревшие функции среды Windows)
+title: метод завершения (устаревшие функции Windows среды)
 description: Метод Stop
 ms.assetid: 68372f72-db9c-447c-a3e4-488940c730d7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20192634c197559ca54bb8af3d8a29f37beb53e2
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 572a93db5697aaae0dcfed6b45a834323c106bba447d2d9a8e94109f788af25c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105701013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745966"
 ---
-# <a name="stop-method-legacy-windows-environment-features"></a>Метод завершения (устаревшие функции среды Windows)
+# <a name="stop-method-legacy-windows-environment-features"></a>метод завершения (устаревшие функции Windows среды)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -31,7 +31,7 @@ ms.locfileid: "105701013"
 
 
 
-| Отделение      | Описание                                                                                   |
+| Часть      | Описание                                                                                   |
 |-----------|-----------------------------------------------------------------------------------------------|
 | *Запрос* | Необязательный элемент. Объект [**запроса**](/windows/desktop/lwef/the-request-object) , указывающий конкретный вызов анимации. |
 
@@ -41,7 +41,7 @@ ms.locfileid: "105701013"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы указать параметр запроса, необходимо создать переменную и назначить запрос анимации, который нужно присвоить. Если параметр **запроса** не задан, сервер останавливает все анимации для символа, включая вызовы [**Get**](get-method.md) , помещенные в очередь, и очищает ее очередь анимации, если этот символ в данный момент не содержит **скрытую** анимацию или не **отображает** ее. Этот метод не останавливает вызовы **Get** , не входящие в очередь.
 
@@ -71,7 +71,7 @@ ms.locfileid: "105701013"
 
 Этот метод не создаст объект [**запроса**](/windows/desktop/lwef/the-request-object) .
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Метод Стопалл**](stopall-method.md)
 

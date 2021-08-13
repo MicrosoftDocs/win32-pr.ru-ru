@@ -27,12 +27,12 @@ api_type:
 - DllExport
 api_location:
 - Wbemcons.dll
-ms.openlocfilehash: e98948688b0fee37316102b2c37039de1c139310
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfa2a1dcf15b65808af758820604df6aa62d7bc59d4e1c69e8d4d6e06b1d93a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555174"
 ---
 # <a name="nteventlogeventconsumer-class"></a>Класс Нтевентложевентконсумер
 
@@ -66,7 +66,7 @@ class NTEventLogEventConsumer : __EventConsumer
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **нтевентложевентконсумер** имеет следующие свойства.
 
@@ -216,7 +216,7 @@ class NTEventLogEventConsumer : __EventConsumer
 Тип доступа: только для чтения
 </dt> </dl>
 
-Имя компьютера, на который инструментарий управления Windows (WMI) (WMI) отправляет события.
+имя компьютера, на который инструментарий управления Windows (WMI) (WMI) отправляет события.
 
 Это свойство наследуется от [**\_ \_ евентконсумер**](--eventconsumer.md).
 
@@ -237,7 +237,7 @@ class NTEventLogEventConsumer : __EventConsumer
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -325,7 +325,7 @@ class NTEventLogEventConsumer : __EventConsumer
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **нтевентложевентконсумер** является производным от абстрактного класса [**\_ \_ евентконсумер**](--eventconsumer.md) .
 
@@ -333,7 +333,7 @@ class NTEventLogEventConsumer : __EventConsumer
 
 Пример использования **нтевентложевентконсумер** для создания потребителя см. в разделе [ведение журнала событий NT на основе события](logging-to-nt-event-log-based-on-an-event.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

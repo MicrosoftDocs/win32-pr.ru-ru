@@ -4,19 +4,19 @@ ms.assetid: 1462bbef-ef32-4053-9930-5b4a0ab46b47
 title: Настройка и запуск сеанса глобального журнала
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8692e1f7321acc163e48cda7e3323f3d24adc1c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36cc15ad9fdb5150a976b9d7bccfb6315649617271c5ece2a7c676fbdb9f6f93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118395499"
 ---
 # <a name="configuring-and-starting-the-global-logger-session"></a>Настройка и запуск сеанса глобального журнала
 
 Сеанс трассировки глобального журнала событий регистрирует события, происходящие на ранних этапах процесса загрузки операционной системы. Приложения и драйверы устройств могут использовать глобальный сеанс ведения журнала для записи трассировок перед входом пользователя в систему. Обратите внимание, что некоторые драйверы устройств, например драйверы дисковых устройств, не загружаются при запуске глобального сеанса ведения журнала.
 
 > [!Note]  
-> Если вы создаете глобальный сеанс ведения журнала в Windows Vista, вместо него следует рассмотреть возможность создания [сеанса авторегистратора](configuring-and-starting-an-autologger-session.md) .
+> при создании глобального сеанса ведения журнала в Windows Vista следует рассмотреть возможность создания [сеанса авторегистратора](configuring-and-starting-an-autologger-session.md) .
 
  
 
@@ -67,7 +67,7 @@ HKEY_LOCAL_MACHINE
 <li>2 = системный таймер</li>
 <li>3 = счетчик циклов ЦП</li>
 </ul>
-Описание каждого типа часов см. в описании элемента <strong>ClientContext</strong> в <a href="wnode-header.md"><strong>WNODE_HEADER</strong></a>.<br/> Значение по умолчанию — 1 (значение счетчика производительности) в Windows Vista и более поздних версиях. До Windows Vista значение по умолчанию — 2 (системный таймер).<br/></td>
+Описание каждого типа часов см. в описании элемента <strong>ClientContext</strong> в <a href="wnode-header.md"><strong>WNODE_HEADER</strong></a>.<br/> значение по умолчанию — 1 (значение счетчика производительности) в Windows Vista и более поздних версиях. до Windows Vista значение по умолчанию — 2 (системный таймер).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>енаблекернелфлагс</strong></td>
@@ -87,7 +87,7 @@ HKEY_LOCAL_MACHINE
 <tr class="odd">
 <td><strong>FileName</strong></td>
 <td><strong>REG_SZ</strong></td>
-<td>Полный путь к файлу журнала. Путь к этому файлу должен существовать. Файл журнала является последовательным файлом журнала. Обратите внимание, что все поставщики, записывающие события в сеанс глобального журнала, записывают события в этот файл журнала. Длина пути ограничена 1024 символами. Если <strong>имя файла</strong> не указано, события записываются в%systemroot%\System32\LogFiles\WMI\GlobalLogger.ETL.. <strong>До Windows Vista:</strong> Файл по умолчанию —%SystemRoot%\System32\LogFiles\WMI\Trace.log.<br/> <br/></td>
+<td>Полный путь к файлу журнала. Путь к этому файлу должен существовать. Файл журнала является последовательным файлом журнала. Обратите внимание, что все поставщики, записывающие события в сеанс глобального журнала, записывают события в этот файл журнала. Длина пути ограничена 1024 символами. Если <strong>имя файла</strong> не указано, события записываются в%systemroot%\System32\LogFiles\WMI\GlobalLogger.ETL.. <strong>до Windows Vista:</strong> Файл по умолчанию —%SystemRoot%\System32\LogFiles\WMI\Trace.log.<br/> <br/></td>
 </tr>
 <tr class="even">
 <td><strong>флуштимер</strong></td>
@@ -97,7 +97,7 @@ HKEY_LOCAL_MACHINE
 <tr class="odd">
 <td><strong>логфилемоде</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Задает параметры сеанса журнала. Значения см. в разделе <a href="logging-mode-constants.md">константы режима ведения журнала</a>. Эти значения поддерживаются в Windows Vista и более поздних версиях. <br/></td>
+<td>Задает параметры сеанса журнала. Значения см. в разделе <a href="logging-mode-constants.md">константы режима ведения журнала</a>. эти значения поддерживаются в Windows Vista и более поздних версиях. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>MaximumBuffers</strong></td>

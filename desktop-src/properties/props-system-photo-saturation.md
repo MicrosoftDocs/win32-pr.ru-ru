@@ -4,12 +4,12 @@ ms.assetid: 209edf55-fd6c-416b-b175-346f5158fc2a
 title: System. photo. насыщенность
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50655b1d9344bb3c25576de9ece3ac6ef2bba95c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d00976c6145f170bffa3921beb1306cb63c14487e08b5a69ad96f76ba4fe1651
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723620"
 ---
 # <a name="systemphotosaturation"></a>System. photo. насыщенность
 
@@ -76,11 +76,11 @@ propertyDescription
             defineName = PHOTO_SATURATION_HIGH
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

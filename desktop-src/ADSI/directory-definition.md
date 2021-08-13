@@ -5,12 +5,12 @@ ms.assetid: d8dcd255-4a17-4c80-a749-61c1af605dba
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6156f2e1ab89b34f009f1a86e5de011c20cf9503
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b8a46ee47bfa280fb9cffce32480fdad3164a648eee59a0c0b2740834b1f21cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691956"
 ---
 # <a name="directory-definition"></a>Определение каталога
 
@@ -28,9 +28,9 @@ ms.locfileid: "103887560"
 
 Свойства каждого класса схемы, их методы и правила, управляющие отношениями включения для этих объектов, определяются в [управлении схемой](schema-management.md).
 
- 
+ 
 
- 
+ 
 
 
 

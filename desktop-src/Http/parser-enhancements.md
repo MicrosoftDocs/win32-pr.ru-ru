@@ -6,25 +6,25 @@ keywords:
 - Усовершенствования средства синтаксического анализа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a22f4b4dced29e25662a6fc521057a055b56f70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bff184fc978865f3e76dbcc24f9c628b3b3f42c2bc286c4854247b0c4b4c4b59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393883"
 ---
 # <a name="parser-enhancements"></a>Усовершенствования средства синтаксического анализа
 
-В Windows Server 2003 с пакетом обновления 1 (SP1) API сервера HTTP позволяет выполнять следующие запросы от HTTP-клиентов.
+в Windows server 2003 с пакетом обновления 1 (SP1) API сервера http позволяет выполнять следующие запросы от http-клиентов.
 
 -   Запросы, использующие символ перевода строки (LF) в качестве признака конца строки.
 -   Запросы, содержащие линейный пробел (LWS) между строкой запроса HTTP и началом заголовков.
 
 Эти поведения включены по умолчанию и не контролируются параметрами реестра.
 
- 
+ 
 
- 
+ 
 
 
 

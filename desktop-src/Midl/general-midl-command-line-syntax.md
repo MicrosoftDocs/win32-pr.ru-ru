@@ -6,12 +6,12 @@ keywords:
 - Справочник по командной строке MIDL, общий синтаксис
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14baa145c7be03467a24bd4298cf2f502d93b6ba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa3d3ded263237dffa425cebe3dea49b169e3494045cfc8b0d27cc249c5ebed1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384267"
 ---
 # <a name="general-midl-command-line-syntax"></a>Общий синтаксис командной строки MIDL
 
@@ -47,7 +47,7 @@ ms.locfileid: "103889080"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующих списках показаны имена файлов, создаваемых для IDL-файла Name. idl по умолчанию. Для переопределения этих имен по умолчанию можно использовать параметры командной строки. Обратите внимание, что имя IDL-файла может иметь расширение, отличное от. idl, или вообще нет расширения.
 
@@ -70,11 +70,11 @@ ms.locfileid: "103889080"
 > [!Note]  
 > Компилятор MIDL, входящий в состав Microsoft RPC, использует другой синтаксис командной строки, чем компилятор DCE IDL.
 
- 
+ 
 
 Компилятор MIDL переключает [**/env**](-env.md), [**/Server**](-server.md), [**/sstub**](-sstub.md)и [**/out**](-out.md) на файл заглушки сервера.
 
-Начиная с MIDL версии 6.0.359, параметр командной строки по умолчанию для компилятора MIDL — [**/Oicf**](-oi.md)в  [**/robust**](-robust.md). Чтобы отключить/robust, укажите параметр [**/но \_ надежность**](-no-robust.md) .
+Начиная с MIDL версии 6.0.359, параметр командной строки по умолчанию для компилятора MIDL — [**/Oicf**](-oi.md)в [**/robust**](-robust.md). Чтобы отключить/robust, укажите параметр [**/но \_ надежность**](-no-robust.md) .
 
 ## <a name="the-header-file"></a>Файл заголовка
 
@@ -82,9 +82,9 @@ ms.locfileid: "103889080"
 
 Компилятор MIDL переключает [**/Header**](-header.md) и [**/out**](-out.md) на файл заголовка.
 
- 
+ 
 
- 
+ 
 
 
 

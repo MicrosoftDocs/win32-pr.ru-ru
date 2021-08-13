@@ -24,12 +24,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 647879b972c7cff2c086f656f76fa8decedb49a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44b957fbc1f8ffad78ec73d03a81fa45a8733a53e0e1d78fb31e48b9129a9e93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394654"
 ---
 # <a name="image_load-class"></a>\_Класс загрузки Image
 
@@ -58,13 +58,13 @@ class Image_Load : Image
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ загрузки Image** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ загрузки Image** имеет следующие свойства.
 
@@ -264,18 +264,18 @@ Reserved4
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 События Дкстарт и Дценд перечисляют все загруженные изображения в начале и в конце трассировки соответственно.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
@@ -283,7 +283,7 @@ Reserved4
 
 <dl> <dt>
 
-[**Образ —**](image.md)
+[**Изображение**](image.md)
 </dt> <dt>
 
 [**\_V0 изображения**](image-v0.md)

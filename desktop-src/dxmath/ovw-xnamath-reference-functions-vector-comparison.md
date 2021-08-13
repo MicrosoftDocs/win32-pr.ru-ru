@@ -4,12 +4,12 @@ ms.assetid: 8caad40f-ab8e-db2f-da11-18f3d3ccf6ef
 title: Функции сравнения векторов
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a283c9c6510fba76f82e7c5de0741021008aac1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c294388aaa7e29454b189729468076f3266347ab2b0876aed71d9d0b5adad3c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500364"
 ---
 # <a name="vector-comparison-functions"></a>Функции сравнения векторов
 
@@ -37,7 +37,7 @@ ms.locfileid: "105711515"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

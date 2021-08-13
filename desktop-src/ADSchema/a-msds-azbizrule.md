@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 571ab48c9742ffb93015c433685c01cb3a9666d3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 215afa79e47a1ddf508b3d9d7a3d646c3157bafec4716eac31fae6b4b733058e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685374"
 ---
 # <a name="ms-ds-az-biz-rule-attribute"></a>Атрибут ms-DS-AZ-BizTalk-Rule
 

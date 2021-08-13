@@ -4,12 +4,12 @@ description: Находит первый бит, заданный в числе,
 ms.assetid: E3066676-5218-470A-944A-7B221E1BF64D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b88fa9291ce64fcc8c94510bd09bed31e7b7f96
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8ea47c8e0674db5dc0349e5d6a8a041fa7d3623e6578eee542edeb1749577d7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511948"
 ---
 # <a name="firstbit-sm5---asm"></a>фирстбит (SM5-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104335624"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта операция возвращает целочисленное значение первого бита, заданного в 32-разрядном входном параметре, начиная с ЛСБ для фирстбит \_ или для фирстбит \_ Hi. Например, фирстбит \_ в 0x00000001 возвращает 0. фирстбит \_ Hi on 0x10000000 возвращает значение 3.
 
@@ -49,7 +49,7 @@ ms.locfileid: "104335624"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -65,7 +65,7 @@ ms.locfileid: "104335624"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -76,7 +76,7 @@ ms.locfileid: "104335624"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

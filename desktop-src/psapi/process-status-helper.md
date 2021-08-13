@@ -8,12 +8,12 @@ keywords:
 - PSAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6a2234ee53acda22df6b6be6267815ba68090be
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f7ed79024c4e6a62a665969cbce6d113a23a24d9f9ea49d1efe9b07aea59c089
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462928"
 ---
 # <a name="process-status-api"></a>API состояния процесса
 
@@ -27,6 +27,6 @@ ms.locfileid: "104070477"
 
 Одни и те же сведения доступны через данные о производительности в реестре. Дополнительные сведения см. в статье [Performance Counters](/windows/desktop/PerfCtrs/performance-counters-portal).
 
- 
+ 
 
- 
+ 

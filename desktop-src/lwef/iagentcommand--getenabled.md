@@ -4,16 +4,16 @@ description: Иаженткомманд
 ms.assetid: b4ec25d2-b2e0-4b1b-8dc5-10fbb44149b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 238844a70ea7fde3ef0c07cad1a6f3abab5613d1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7118fa06fc895729755a36872a6d092d962d2416f81ac50e5c528cf9d69f5312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477659"
 ---
 # <a name="iagentcommandgetenabled"></a>Иаженткомманд:: enable
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetEnabled(
@@ -34,11 +34,11 @@ HRESULT GetEnabled(
 
 </dd> </dl>
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иаженткомманд:: сеткаптион**](iagentcommand--setcaption.md), [**Иаженткомманд:: сетвисибле**](iagentcommand--setvisible.md), [**иаженткомманд:: Сетвоице**](iagentcommand--setvoice.md), [**иаженткоммандс:: Add**](iagentcommands--add.md), [**IAgentCommands:: INSERT**](iagentcommands--insert.md)
 
 
- 
+ 
 
- 
+ 

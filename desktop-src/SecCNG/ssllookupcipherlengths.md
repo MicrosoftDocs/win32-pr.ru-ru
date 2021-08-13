@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: e756fb84d47ed877ffe4afcd54ce93c53a768e69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3898b54946b9a1035ce8ec1fedabc218c750bff6579b39f195a1f60b378144f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905994"
 ---
 # <a name="ssllookupcipherlengths-function"></a>Функция СсллукупЦиферленгсс
 
@@ -114,18 +114,18 @@ SECURITY_STATUS WINAPI SslLookupCipherLengths(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **ссллукупЦиферленгсс** вызывается для протокола TLS 1,1 или более поздних диалоговых [*окон*](/windows/desktop/SecGloss/t-gly) , чтобы запросить заголовок и длину трейлеров для запрошенного протокола, набора шифров и типа ключа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                  |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Сслпровидер. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

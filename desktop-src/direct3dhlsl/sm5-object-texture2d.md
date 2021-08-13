@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f0c9b73d66f1c5a38b077b241df8e5859b706e2f
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
+ms.openlocfilehash: ad13843dd74ab7cc188c3ab37d76df978f2a5fbd4bc6c292cfddfdf7c5841b33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104986168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118789381"
 ---
 # <a name="texture2d"></a>Texture2D
 
@@ -42,7 +42,7 @@ ms.locfileid: "104986168"
 | [**Загрузить**](texture2d-load.md)                                          | Считывает данные текстуры.                                                                                                                                 |
 | [**MIPS. Станции\[\]\[\]**](sm5-object-texture2d-mipsoperatorindex.md) | Возвращает переменную ресурса, доступную только для чтения.                                                                                                                 |
 | [**Оператор\[\]**](sm5-object-texture2d-operatorindex.md)              | Возвращает переменную ресурса, доступную только для чтения.                                                                                                                 |
-| [**Пример**](texture-sample-overload.md)                               | Выбор текстуры.                                                                                                                                  |
+| [**Следующий**](texture-sample-overload.md)                               | Выбор текстуры.                                                                                                                                  |
 | [**самплебиас**](texture2d-samplebias.md)                              | Выбор текстуры после применения значения смещения к уровню mipmap.                                                                               |
 | [**самплекмп**](texture2d-samplecmp.md)                                | Выбор текстуры с использованием значения сравнения для отклонения выборок.                                                                                      |
 | [**SampleCmpLevelZero**](texture2d-samplecmplevelzero.md)              | Производит выборку текстуры (только mipmap уровень 0), используя значение сравнения для отклонения выборок.                                                                |
@@ -61,7 +61,7 @@ ms.locfileid: "104986168"
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "104986168"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

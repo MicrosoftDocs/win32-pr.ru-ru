@@ -7,12 +7,12 @@ keywords:
 - C-препроцессор MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5752bd64ee9a9b5fc26d586b5bc33c1a1fb96e83
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dac3952a342b101f0366d2bce8810426e758c4aa5b32fa267e685bc6d658f034
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382798"
 ---
 # <a name="using-cc-preprocessor-with-midl"></a>Использование C/C++-препроцессора с помощью MIDL
 
@@ -27,9 +27,9 @@ MIDL порождает отдельные запуски препроцессо
 -   [Сохранение выходных данных препроцессора](saving-preprocessor-output.md)
 -   [Работа с \# определениями в IDL-файлах](dealing-with-defines-in-idl-files-2.md)
 
- 
+ 
 
- 
+ 
 
 
 

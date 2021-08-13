@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 1af1ddb86a90ea9029d5cba408745fe3dafa69dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dacd0c44a6c0fa8270a65155583f8041616f98674d0798db8b13a72d13751653
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558089"
 ---
 # <a name="wmigetmonitorraweedidv1block-method-of-the-wmimonitordescriptormethods-class"></a>Метод WmiGetMonitorRawEEdidV1Block класса Вмимонитордескриптормесодс
 
@@ -60,7 +60,7 @@ uint32 WmiGetMonitorRawEEdidV1Block(
 | <dl> <dt>0 (0x0)</dt> </dl>    | Не инициализировано<br/>   |
 | <dl> <dt>1 (0x1)</dt> </dl>    | Базовый блок EDID<br/> |
 | <dl> <dt>2 (0x2)</dt> </dl>    | Блочная схема EDID<br/>  |
-| <dl> <dt>255 (0xFF)</dt> </dl> | Другое<br/>           |
+| <dl> <dt>255 (0xFF)</dt> </dl> | Другие<br/>           |
 
 
 
@@ -118,7 +118,7 @@ static void Main(string[] args)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

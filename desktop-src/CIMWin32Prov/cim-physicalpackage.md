@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1905467fd949e2c18d8be9e7a7bfff39ad8d1477
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 683331fd9455fe9dd2e53967ff26c8251deb40bc36c3857af448532f92ed80d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118677536"
 ---
 # <a name="cim_physicalpackage-class"></a>\_Класс CIM фисикалпаккаже
 
@@ -112,7 +112,7 @@ class CIM_PhysicalPackage : CIM_PhysicalElement
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -265,7 +265,7 @@ class CIM_PhysicalPackage : CIM_PhysicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -517,7 +517,7 @@ class CIM_PhysicalPackage : CIM_PhysicalElement
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -567,7 +567,7 @@ class CIM_PhysicalPackage : CIM_PhysicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ фисикалпаккаже** является производным от [**CIM \_ фисикалелемент**](cim-physicalelement.md).
 
@@ -575,7 +575,7 @@ class CIM_PhysicalPackage : CIM_PhysicalElement
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -589,7 +589,7 @@ class CIM_PhysicalPackage : CIM_PhysicalElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,7 +4,7 @@ description: Структура сведений о ресурсах.
 ms.assetid: 2D645722-3DE3-4748-B532-3E522464EA1E
 keywords:
 - MPRESOURCE_INFO структуры устаревшие функции среды Windows
-- Функции PMPRESOURCE_INFO указателя структур в устаревшей среде Windows
+- функции PMPRESOURCE_INFO Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dcac6552e0a0060df1bd6a0464fbb8f610395131
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c399beceba4551ba3269e86f5f3c30c6967f31b4dbc5f303225e8cbfc1667df4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747427"
 ---
 # <a name="mpresource_info-structure"></a>\_Структура сведений о мпресаурце
 
@@ -90,14 +90,14 @@ typedef struct tagMPRESOURCE_INFO {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 

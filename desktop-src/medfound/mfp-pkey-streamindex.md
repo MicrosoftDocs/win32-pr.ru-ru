@@ -4,12 +4,12 @@ ms.assetid: 086fcb1e-f75a-4f38-9fe1-77d30f64bc89
 title: Свойство MFP_PKEY_StreamIndex (Мфплай. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 341368a9a2a3e4911279df4c0bc116b4c6c1bc52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a08fe432dc18caf2bf1a7ec946236aa6560382b2f19b6b98e4b0a1369dc278a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738498"
 ---
 # <a name="mfp_pkey_streamindex-property"></a>МФП \_ PKEY \_ стреаминдекс, свойство
 
@@ -36,14 +36,14 @@ VT \_ UI4
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                          |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                             |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Мфплай. h</dt> </dl> |
 
 

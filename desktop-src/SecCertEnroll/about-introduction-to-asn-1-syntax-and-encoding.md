@@ -4,12 +4,12 @@ ms.assetid: 970a246f-a4c3-489b-b6a4-7d3103f388cf
 title: Общие сведения о синтаксисе и кодировке ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4fe15d2fb8fba4af25b9da7c249fec3a92630e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 504f6e643d91951351eaef2c51f9cfeac01919c77718a88ce866670f22803146
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904233"
 ---
 # <a name="introduction-to-asn1-syntax-and-encoding"></a>Общие сведения о синтаксисе и кодировке ASN. 1
 
@@ -36,7 +36,7 @@ AttributeTypeValue ::= SEQUENCE
 
 ## <a name="asn1-encoding-example"></a>Пример кодировки ASN. 1
 
-API регистрации сертификатов использует [*distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (Der) для кодирования предыдущего имени субъекта. DER требует, чтобы каждый элемент в имени представлялся TLV-Triplet, где T содержит номер тега типа ASN. 1, L содержит длину, а V содержит связанное значение. В следующем примере показано, как кодируется имя субъекта Тесткн. Тесторг.
+API регистрации сертификатов использует [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (DER) для кодирования предыдущего имени субъекта. DER требует, чтобы каждый элемент в имени представлялся TLV-Triplet, где T содержит номер тега типа ASN. 1, L содержит длину, а V содержит связанное значение. В следующем примере показано, как кодируется имя субъекта Тесткн. Тесторг.
 
 ``` syntax
 1.     30 23            ; SEQUENCE (23 Bytes)
@@ -80,7 +80,7 @@ API регистрации сертификатов использует [*disti
     Номер тега для **печатного типа \_ строки** — 0x13.  
     </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51dc874552fc819de4f9c58b23809b9f5662ee6e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d527263787b68fbe7ab328fa5d1e91a0b7b9dd2385b29d5e6b0bb4a9fedc0400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681752"
 ---
 # <a name="product-code-attribute"></a>Атрибут Product-Code
 

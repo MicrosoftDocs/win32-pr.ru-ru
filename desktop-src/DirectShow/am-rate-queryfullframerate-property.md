@@ -4,12 +4,12 @@ ms.assetid: 98808ed4-6d34-437b-9729-9cc805bc81f0
 title: Свойство AM_RATE_QueryFullFrameRate (Двдмедиа. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70bc096e5b68737ca877a037571223d673284dab
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 899ceb938ac3fd0ea5f7f58b340f4b57fd6a722650cd3225702cbb74b1644045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118664112"
 ---
 # <a name="am_rate_queryfullframerate-property"></a>\_ \_ Свойство куерифуллфрамерате Rate
 
@@ -29,7 +29,7 @@ ms.locfileid: "107910282"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если скорость воспроизведения превышает максимальную скорость декодера, фильтр источника отправляет группы непрерывных выборок, разделенные небесперебойностью. Метки времени переходят между прекращениями. Фильтр источника может сделать это, даже если скорость воспроизведения находится в пределах максимальной скорости декодера, так как могут существовать другие факторы, такие как ввод-вывод на диск, которые ограничивают максимальную скорость воспроизведения.
 
@@ -43,7 +43,7 @@ ms.locfileid: "107910282"
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

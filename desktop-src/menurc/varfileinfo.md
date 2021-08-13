@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 26326403abef41d131bf25acf5d5d8be7728cd0f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddae8f913e199e0a1219e5ec36012ba3a3eaf24708ca6771ec075b497107418e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118733395"
 ---
 # <a name="varfileinfo-structure"></a>Структура Варфилеинфо
 
@@ -110,13 +110,13 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Эта структура не является истинной структурой языка C, так как она содержит члены переменной длины. Эта структура была создана только для описания организации данных в ресурсе версии и не отображается ни в одном из файлов заголовков, поставляемых вместе с пакетом средств разработки программного обеспечения (SDK) для Windows.
+Эта структура не является истинной структурой языка C, так как она содержит члены переменной длины. эта структура была создана только для описания организации данных в ресурсе версии и не отображается ни в одном из файлов заголовков, поставляемых с Windows пакетом средств разработки программного обеспечения (SDK).
 
 **Дочерние** элементы структуры [**VS \_ versionInfo**](vs-versioninfo.md) могут содержать ноль или одну структуру **варфилеинфо** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

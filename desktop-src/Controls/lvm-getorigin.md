@@ -3,7 +3,7 @@ title: Сообщение LVM_GETORIGIN (Коммктрл. h)
 description: Возвращает начало текущего представления для элемента управления "представление списка". Это сообщение можно отправить явно или с помощью \_ макроса «источник ListView».
 ms.assetid: 913c8339-fbe4-43c8-a997-5a972920dc3b
 keywords:
-- Элементы управления Windows для LVM_GETORIGIN сообщений
+- элементы управления Windows сообщений LVM_GETORIGIN
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8af42f3d616aa609d6b9e41d3991adb9d68eb24e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a274e81c276d70eb1ab6c7f214b62ae5c346a59dda026bb13c5ab6b3ce80f68d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118411361"
 ---
 # <a name="lvm_getorigin-message"></a>Сообщение LVM о \_ происхождении
 
@@ -43,14 +43,14 @@ ms.locfileid: "104137110"
 
 Возвращает **значение true** в случае успешного выполнения или **false** , если текущее представление является списком или представлением отчетов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

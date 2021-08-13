@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f00bf845dfe16a92729b523fba62f6fd6dcde2b5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3997e93dbbe7cfda210fea97a2759620f0afb47638d2ec519b9ad56abe3664c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118513843"
 ---
 # <a name="round"></a>round
 
@@ -56,8 +56,8 @@ ms.locfileid: "104000404"
 
 | Имя  | [**Тип шаблона**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Тип компонента**](dx-graphics-hlsl-intrinsic-functions.md) | Размер                           |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------|
-| *x*   | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**float**](/windows/desktop/WinProg/windows-data-types)                        | any                            |
-| *обратно* | то же, что входные данные *x*                                                                                              | [**float**](/windows/desktop/WinProg/windows-data-types)                        | те же измерения, что и входные *x* |
+| *x*   | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**FLOAT**](/windows/desktop/WinProg/windows-data-types)                        | any                            |
+| *обратно* | то же, что входные данные *x*                                                                                              | [**FLOAT**](/windows/desktop/WinProg/windows-data-types)                        | те же измерения, что и входные *x* |
 
 
 
@@ -71,20 +71,20 @@ ms.locfileid: "104000404"
 
 | Модель шейдера                                                                       | Поддерживается           |
 |------------------------------------------------------------------------------------|---------------------|
-| [Модели шейдеров 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) и более поздние модели шейдеров | да                 |
+| [Модели шейдеров 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) и более поздние модели шейдеров | Да                 |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | Да ( \_ только VS 1 1 \_ ) |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Корекрт \_ Math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Корекрт \_ Math. h</dt> </dl> |
 
 
 

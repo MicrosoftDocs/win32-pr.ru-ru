@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d31eba66a1e4527a24a55a24e4623f3c49dc204
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0a71485603944dc8b7eaf1a3a773051096776e6538aecdd8fb01396a3f0ea5fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118734662"
 ---
 # <a name="class-statement"></a>Оператор класса
 
@@ -38,7 +38,7 @@ CLASS class
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Оператор **Class** следует использовать только с особыми случаями, поскольку он переопределяет нормальную обработку диалогового окна. Оператор **класса** преобразует диалоговое окно в окно указанного класса; в зависимости от класса это может привести к нежелательным результатам. Не используйте переопределенные имена классов элементов управления с этой инструкцией.
 
@@ -60,6 +60,6 @@ CLASS "myclass"
 [**Откроется**](dialog-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
