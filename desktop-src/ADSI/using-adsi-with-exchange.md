@@ -1,33 +1,33 @@
 ---
 title: Использование ADSI с Exchange
-description: Для Exchange 2000 сведения об использовании ADSI с Exchange содержатся в пакете SDK для Exchange 2000. Дополнительные сведения см. в разделе задачи управления для ADSI.
+description: для Exchange 2000 сведения об использовании ADSI с Exchange содержатся в пакете SDK Exchange 2000. Дополнительные сведения см. в разделе задачи управления для ADSI.
 ms.assetid: c806ca1b-c97c-4567-af8b-e12cfde2bf70
 ms.tgt_platform: multiple
 keywords:
-- ADSI для Exchange ADSI
-- ADSI для Exchange ADSI, почтовые ящики
-- ADSI для Exchange ADSI, почтовые ящики, создание
-- ADSI для Exchange ADSI, почтовые ящики, удаление
-- ADSI для Exchange ADSI, почтовые ящики, Установка дескриптора безопасности на
-- ADSI для Exchange ADSI, почтовые ящики, поиск домашнего сервера для
-- ADSI для Exchange ADSI, получение и изменение сообщений
-- ADSI для Exchange ADSI, дескрипторы безопасности
-- ADSI для Exchange ADSI, дескрипторы безопасности, манипуляции
-- ADSI для Exchange ADSI, дескрипторы безопасности, Настройка
-- ADSI для Exchange ADSI, контейнер получателей
-- ADSI для Exchange ADSI, Просмотр свойств объектов Exchange
-- ADSI для Exchange ADSI, контейнер получателей, настраиваемый
-- ADSI для Exchange ADSI, Exchange Server
-- ADSI для Exchange ADSI, Exchange Server, просмотр и изменение схемы
-- ADSI для Exchange ADSI, Exchange Server, листинг версии сервера
-- ADSI для Exchange ADSI, Exchange Server, Организация и имя сайта
-- ADSI для Exchange ADSI, Exchange Server, поиск домашнего сервера почтовых ящиков
-- ADSI для Exchange ADSI, адреса электронной почты, получение
-- ADSI для Exchange ADSI, списки рассылки, создание
-- ADSI для Exchange ADSI, скрытые или удаленные записи
-- ADSI для Exchange ADSI, извлечение изменений службы каталогов
-- ADSI для Exchange ADSI, размер сообщения
-- ADSI для Exchange ADSI, устранение неполадок
+- adsi для Exchange adsi
+- adsi для Exchange adsi, почтовые ящики
+- adsi для Exchange adsi, почтовые ящики, создание
+- adsi для Exchange adsi, почтовые ящики, удаление
+- adsi для Exchange adsi, почтовых ящиков, установка дескриптора безопасности на
+- adsi для Exchange adsi, почтовых ящиков, поиска домашнего сервера для
+- adsi для Exchange adsi, получение и изменение сообщений
+- adsi для Exchange adsi, дескрипторы безопасности
+- adsi для Exchange adsi, дескрипторы безопасности, манипуляции
+- adsi для Exchange adsi, дескрипторов безопасности, настройка
+- adsi для Exchange adsi, контейнер получателей
+- adsi для Exchange adsi, просмотр свойств объекта Exchange
+- adsi для Exchange adsi, контейнеров получателей, настраиваемых
+- adsi для Exchange adsi, Exchange Server
+- adsi для Exchange adsi, Exchange Server, просмотра и изменения схемы
+- adsi для Exchange adsi, Exchange Server, листинг версии сервера
+- adsi для Exchange adsi, Exchange Server, организации и имени сайта
+- adsi для Exchange adsi, Exchange Server, поиск домашнего сервера почтовых ящиков
+- adsi для Exchange adsi, адреса электронной почты, получение
+- adsi для Exchange adsi, списки рассылки, создание
+- adsi для Exchange adsi, скрытых или удаленных записей
+- adsi для Exchange adsi, извлечение изменений службы каталогов
+- adsi для Exchange adsi, размер сообщения
+- adsi для Exchange adsi, устранение неполадок
 - почтовые ящики ADSI
 - почтовые ящики ADSI, создание
 - почтовые ящики ADSI, удаление
@@ -38,68 +38,68 @@ keywords:
 - Exchange ADSI, почтовые ящики
 - Exchange ADSI, почтовые ящики, создание
 - Exchange ADSI, почтовые ящики, удаление
-- Exchange ADSI, почтовые ящики, Установка дескриптора безопасности на
+- Exchange ADSI, почтовые ящики, Установка дескриптора безопасности
 - Exchange ADSI, почтовые ящики, поиск домашнего сервера для
 - Exchange ADSI, получение и изменение сообщений
 - Exchange ADSI, дескрипторы безопасности
 - Exchange ADSI, дескрипторы безопасности, манипуляции
 - Exchange ADSI, дескрипторы безопасности, Настройка
 - Exchange ADSI, контейнер получателей
-- Exchange ADSI, Просмотр свойств объектов Exchange
+- Exchange ADSI, просмотр свойств объекта Exchange
 - Exchange ADSI, контейнер получателей, Пользовательский
 - Exchange ADSI, Exchange Server
 - Exchange ADSI, Exchange Server, просмотр и изменение схемы
-- Exchange ADSI, Exchange Server, листинг версии сервера
-- Exchange ADSI, Exchange Server, Организация и имя сайта
+- Exchange ADSI, Exchange Server, вывод версии сервера
+- Exchange ADSI, Exchange Server, организация и имя сайта
 - Exchange ADSI, Exchange Server, поиск домашнего сервера почтовых ящиков
 - Exchange ADSI, адреса электронной почты, получение
 - Exchange ADSI, списки рассылки, создание
-- Exchange ADSI, скрытые или удаленные записи
-- Exchange ADSI, получение изменений службы каталогов
+- Exchange Элементы ADSI, скрытые или удаленные записи
+- Exchange ADSI, извлечение изменений службы каталогов
 - Exchange ADSI, размер сообщения
 - Exchange ADSI, устранение неполадок
 - дескрипторы безопасности ADSI, для объектов Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 833d60c284a12e759eb74b22c9aa48abc75da463
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 0f48a1015674ea8bf413cb9edbf55f0f64f6211b85bb876baeb6ab47868482ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105654360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690133"
 ---
 # <a name="using-adsi-with-exchange"></a>Использование ADSI с Exchange
 
-Для Exchange 2000 сведения об использовании ADSI с Exchange содержатся в пакете SDK для Exchange 2000. Дополнительные сведения см. в разделе [задачи управления для ADSI](/previous-versions/office/developer/exchange-server-2003/aa125368(v=exchg.65)).
+для Exchange 2000 сведения об использовании ADSI с Exchange содержатся в пакете SDK Exchange 2000. Дополнительные сведения см. в разделе [задачи управления для ADSI](/previous-versions/office/developer/exchange-server-2003/aa125368(v=exchg.65)).
 
 В этом разделе можно найти следующие задачи:
 
 -   Создание URL-адреса пользователя
 -   Создание путей Active Directory
--   Перечисление серверов Exchange 2000 с помощью ADSI
+-   перечисление серверов Exchange 2000 с помощью ADSI
 -   Управление атрибутами расширения с помощью ADSI
 -   Добавление и удаление объекта Manager с помощью ADSI
--   Перечисление свойств объектов Exchange с помощью ADSI/ADO
--   Получение устаревшего различающегося имени Exchange с помощью ADSI
--   Поиск имени организации Exchange с помощью ADSI
--   Поиск списков адресов Exchange с помощью ADSI
+-   перечисление свойств объекта Exchange с помощью ADSI/ADO
+-   получение Exchange различающегося имени в формате ADSI
+-   поиск Exchange имени организации с помощью ADSI
+-   поиск Exchange списков адресов с помощью ADSI
 -   Создание списка рассылки с помощью КДОЕКСМ и ADSI
 -   Настройка ограничения для сообщений на виртуальном SMTP-сервере с помощью ADSI
 
-Для Exchange 5,5 Справочник по ADSI и использование сведений можно найти в руководстве по использованию [ADSI Exchange](/previous-versions/office/developer/exchange-server-2007/aa579394(v=exchg.80)) .
+сведения о Exchange 5,5 см. в справочнике по adsi, а также в руководстве по [Exchange adsi](/previous-versions/office/developer/exchange-server-2007/aa579394(v=exchg.80)) .
 
 В этом разделе можно найти следующие задачи:
 
--   Просмотр и изменение схемы Exchange Server
--   Просмотр необработанных свойств объекта Exchange
--   Создание почтового ящика Exchange
--   Установка дескриптора безопасности в почтовом ящике Exchange
+-   просмотр и изменение схемы Exchange Server
+-   просмотр необработанных свойств объекта Exchange
+-   создание Exchange почтового ящика
+-   настройка дескриптора безопасности в почтовом ящике Exchange
 -   Управление дескрипторами безопасности и идентификаторами SID
 -   Удаление объекта почтового ящика
 -   Создание пользовательского получателя
 -   Создание контейнера получателей
 -   Получение имени Организации и сайта с сервера
--   Перечисление версии сервера Exchange Server всех серверов в Организации
+-   перечисление версии сервера Exchange для всех серверов в организации
 -   Поиск домашнего сервера почтового ящика
 -   Получение адресов электронной почты
 -   Доступ к скрытым или удаленным записям
@@ -108,6 +108,6 @@ ms.locfileid: "105654360"
 -   Получение или изменение размера сообщения
 -   Использование кодов ошибок LDAP для устранения неполадок
 
- 
+ 
 
- 
+ 

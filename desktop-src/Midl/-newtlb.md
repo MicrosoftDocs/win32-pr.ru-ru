@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f864a4bd4d5e4c7c899cda839ae39d95791c7b23
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b15ebed12b968738c1d5b26e264b88879ab61e2e6d4d587663b03365548c8b87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103986995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644032"
 ---
 # <a name="newtlb-switch"></a>/newtlb, параметр
 
@@ -31,9 +31,9 @@ midl /newtlb filename
 
 Этот параметр не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-В последних версиях Windows этот параметр не выполняет никаких действий. В неподдерживаемых версиях Windows при указании этого параметра в командной строке MIDL будет выдаваться ошибка.
+в последних версиях Windows этот параметр не выполняет никаких действий. в неподдерживаемых версиях Windows при указании этого параметра в командной строке MIDL будет выдаваться ошибка.
 
 ## <a name="examples"></a>Примеры
 
@@ -51,9 +51,9 @@ midl /newtlb filename
 [**/oldtlb**](-oldtlb.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

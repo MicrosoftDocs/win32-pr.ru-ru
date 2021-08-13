@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cdb9592743b27ee4e63bde78693c299657716c7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a6e642dac8bbb955ff6f80eb31988c33dc47daa559e57f5ddbae2f8531a9b491
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686150"
 ---
 # <a name="ms-dfs-properties-v2-attribute"></a>атрибут MS-DFS-Properties-v2
 

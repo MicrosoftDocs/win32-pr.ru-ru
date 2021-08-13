@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7522d26eef8d3c9865a456a94fbd7eafdf99604f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 09d2619b1323a1de205215710ac8a8db0e4d6382f9fa09a283c04054af0deee7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105713331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529880"
 ---
 # <a name="raytracing-hlsl-reference"></a>Справочник по райтраЦинг HLSL
 
@@ -28,6 +28,6 @@ ms.locfileid: "105713331"
 
 Кроме того, дополнительные сведения о синтаксисе, используемом для определения объектов состояния Direct3D 12 райтраЦинг в HLSL, см. в разделе [объекты состояния](../direct3dhlsl/dx-graphics-hlsl-state-object.md) разделов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Справочник по Direct3D 12](direct3d-12-reference.md)

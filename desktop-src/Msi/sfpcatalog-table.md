@@ -1,19 +1,19 @@
 ---
-description: Таблица Сфпкаталог содержит каталоги, используемые Windows Me.
+description: в таблице сфпкаталог содержатся каталоги, используемые Windows Me.
 ms.assetid: e9dc65a9-4ec9-4310-b03a-a2c38720ca8c
 title: Таблица Сфпкаталог
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08fe887644faf6cf0a5cda626bbf757e9f448ef1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97498ff6437967a4a588be7b957aea130dad201699d55fad3abace6ff094b271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118624895"
 ---
 # <a name="sfpcatalog-table"></a>Таблица Сфпкаталог
 
-Таблица Сфпкаталог содержит каталоги, используемые Windows Me.
+в таблице сфпкаталог содержатся каталоги, используемые Windows Me.
 
 Таблица Сфпкаталог содержит следующие столбцы.
 
@@ -21,9 +21,9 @@ ms.locfileid: "104263337"
 
 | Столбец     | Type                       | Ключ | Допускает значения NULL |
 |------------|----------------------------|-----|----------|
-| сфпкаталог | [Имя файла](filename.md)   | Да   | Нет        |
+| сфпкаталог | [Имя файла](filename.md)   | Д   | Нет        |
 | Каталог    | [Двоичный](binary.md)       | Нет   | Нет        |
-| Зависимость | [Формате](formatted.md) | Нет   | Да        |
+| Зависимость | [Формате](formatted.md) | Нет   | Д        |
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "104263337"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [Действие инсталлсфпкаталогфиле](installsfpcatalogfile-action.md) запрашивает [таблицу компонентов](component-table.md), [таблицу файлов](file-table.md), таблицу [филесфпкаталог](filesfpcatalog-table.md) и таблицу сфпкаталог.
 

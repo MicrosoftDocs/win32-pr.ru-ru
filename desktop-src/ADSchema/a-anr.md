@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d28efc6d6871eb737f9c1953fbdb5ad5798f7fd4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 432b44c70b987cf31405a465945af9132a0a111daa5b8e5bd3377de4a49069e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104494115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688326"
 ---
 # <a name="anr-attribute"></a>Атрибут ANR
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce12a0536b7e112aa1fccbb2c6cb685d4bedcc6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 28b7a6ae02e960c99a540965889af1525c689a6453c09cfef399559bd96b3e24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681715"
 ---
 # <a name="public-key-policy-attribute"></a>Атрибут политики открытого ключа
 

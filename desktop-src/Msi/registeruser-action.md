@@ -4,12 +4,12 @@ ms.assetid: da615cb4-d36d-4180-8f97-c9f83c0df1c6
 title: Действие RegisterUser
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 686628d29094f951994b072ad4451a383a405965
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f89d43d18839e806939b7a084d37840b9895fdc81efb79fc03867eebe4c5c57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118626719"
 ---
 # <a name="registeruser-action"></a>Действие RegisterUser
 
@@ -31,11 +31,11 @@ ms.locfileid: "103813641"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действие RegisterUser не выполняется во время административной установки. Если идентификатор продукта, введенный пользователем, не был проверен [действием валидатепродуктид](validateproductid-action.md), свойство [**ProductID**](productid.md) не задается и это действие не выполняет никаких действий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Чтобы определить эффективность прил
 ms.assetid: 23641bf8-3653-4cb9-8008-cd99137ca268
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ead17b8308424be8b959c4043eec606b18292708
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf9c2217f01c2c0f3a3ee1d2516b2e531cc243f5ac71c4022632d1b1c4dd4983
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462982"
 ---
 # <a name="collecting-memory-usage-information-for-a-process"></a>Сбор сведений об использовании памяти для процесса
 
@@ -94,6 +94,6 @@ int main( void )
 
 Функция Main получает список процессов с помощью функции [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) . Для каждого процесса Main вызывает функцию Принтмеморинфо, передавая идентификатор процесса. Принтмеморинфо, в свою очередь, вызывает функцию [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) для получения маркера процесса. Если **OpenProcess** завершается сбоем, в выходных данных отображается только идентификатор процесса. Например, **OpenProcess** не работает для процессов бездействия и CSRSS, так как их ограничения доступа не позволяют коду на уровне пользователя открывать их. Наконец, Принтмеморинфо вызывает функцию [**жетпроцессмеморинфо**](/windows/desktop/api/Psapi/nf-psapi-getprocessmemoryinfo) для получения сведений об использовании памяти.
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27d3ea30101c8797a9b12a20eb816e764f931227
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5d743e3a61942f6fecf2a8e8aa1ee267783ca44e3cb95d95e9fc4f4ab060c66c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103805116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688013"
 ---
 # <a name="birth-location-attribute"></a>Атрибут Birth-Location
 

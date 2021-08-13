@@ -3,9 +3,9 @@ title: Ивмпсеттингс, свойство тома
 description: Свойство Volume получает или задает текущий том воспроизведения.
 ms.assetid: cff4fe70-9ca2-4419-bfc3-d622e8c72756
 keywords:
-- Проигрыватель Windows Media, свойство тома
-- Свойство тома проигрыватель Windows Media Player, интерфейс Ивмпсеттингс
-- Интерфейс Ивмпсеттингс Windows Media Player, свойство Volume
+- проигрыватель Windows Media свойств тома
+- свойство volume проигрыватель Windows Media, интерфейс ивмпсеттингс
+- проигрыватель Windows Media интерфейса ивмпсеттингс, свойство volume
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b21e50c9d3c52b7ce117d6c2ab681e592571c0f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2077547dd00b5c75b6ca77a966190db2bb3bb1bcde61d1f5c5b84c794af84e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568401"
 ---
 # <a name="iwmpsettingsvolume-property"></a>Свойство Ивмпсеттингс:: Volume
 
@@ -48,17 +48,17 @@ Public Property volume As System.Int32
 
 Объект **System. Int32** , который является уровнем громкости в диапазоне от 0 до 100.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Нулевое значение указывает на отсутствие тома (без звука). Значение 100 указывает полный том. Если для этого свойства не указано значение, по умолчанию используется последний параметр тома, установленный для проигрывателя Windows Media.
+Нулевое значение указывает на отсутствие тома (без звука). Значение 100 указывает полный том. если для этого свойства не указано значение, по умолчанию используется последний параметр тома, установленный для проигрыватель Windows Media.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

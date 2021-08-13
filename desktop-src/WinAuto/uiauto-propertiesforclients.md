@@ -15,12 +15,12 @@ keywords:
 - получение свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e199522dbefaa2f722a67b0ede57fe910b8ed63b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fbbe524e6f82f8c7dba018b24895ade54ced3e6a4632e1caefed410753b56fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105691620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564375"
 ---
 # <a name="retrieving-properties-from-ui-automation-elements"></a>Получение свойств элементов модели автоматизации пользовательского интерфейса
 
@@ -36,7 +36,7 @@ ms.locfileid: "105691620"
 -   [Условия свойств](#property-conditions)
 -   [Получение свойств](#retrieving-properties)
 -   [Значения свойств по умолчанию](#default-property-values)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="property-ids"></a>Идентификаторы свойств
 
@@ -74,7 +74,7 @@ ms.locfileid: "105691620"
 
 Разница между [**иуиаутоматионелемент:: GetCurrentPropertyValue**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue) и [**жеткуррентпропертивалуикс**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalueex) (и между аналогичными парами методов) заключается в том, что метод "ex" может указывать, что значение по умолчанию не возвращается. В этом случае возвращаемое значение является особой уникальной константой, указывающей, что свойство не поддерживается. При получении этого значения приложение может предоставить собственное значение или просто игнорировать свойство.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -87,6 +87,6 @@ ms.locfileid: "105691620"
 [Идентификаторы свойств](uiauto-entry-propids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

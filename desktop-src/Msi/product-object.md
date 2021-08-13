@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: f8e9071f26da944c2c5ea206b2f70582d731ef59
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff05a2f89244da09caa6cd3b26fc4b5d9cdbec95c0fcc3098fddf0c39dc68519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627677"
 ---
 # <a name="product-object"></a>Объект Product
 
@@ -61,7 +61,7 @@ ms.locfileid: "105651756"
 | Свойство                                                      | Описание                                                                                 |
 |:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
 | [**компонентстате**](product-componentstate.md)<br/>   | Состояние указанного компонента для данного экземпляра продукта. <br/>                   |
-| [**Локального**](product-context.md)<br/>                 | Контекст этого экземпляра продукта в виде значения МСИИНСТАЛЛКОНТЕКСТ. <br/>                 |
+| [**Контекст**](product-context.md)<br/>                 | Контекст этого экземпляра продукта в виде значения МСИИНСТАЛЛКОНТЕКСТ. <br/>                 |
 | [**феатурестате**](product-featurestate.md)<br/>       | Состояние указанной функции для данного экземпляра продукта. <br/>                     |
 | [**инсталлпроперти**](product-installproperty.md)<br/> | Значение указанного свойства. <br/>                                              |
 | [**медиадискс**](product-mediadisks.md)<br/>           | Перечисление всех дисков мультимедиа для данного экземпляра продукта.<br/>                        |
@@ -75,13 +75,13 @@ ms.locfileid: "105651756"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 3,0 или более поздней версии в Windows Server 2003, Windows XP и Windows 2000<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 3,0 или более поздней версии на Windows Server 2003, Windows XP и Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ ипродукт определен как 000C10A0-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                          |
 
@@ -91,7 +91,7 @@ ms.locfileid: "105651756"
 
 <dl> <dt>
 
-[Примеры сценариев установщик Windows](windows-installer-scripting-examples.md)
+[Windows Примеры сценариев для установщика](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: cbe7acd6-b916-45f3-b694-d2345c5a892a
 title: Таблица управления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ced41fcaf020a043962b16cf12d9c339901b415
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2e1832a2cb600e8d7a27b43bc28c94836396d74a50a90b44d0e5013bde973c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118638536"
 ---
 # <a name="control-table"></a>Таблица управления
 
@@ -21,18 +21,18 @@ ms.locfileid: "104265837"
 
 | Столбец        | Type                               | Ключ | Допускает значения NULL |
 |---------------|------------------------------------|-----|----------|
-| Диалог\_      | [Идентификатор](identifier.md)       | Да   | Нет        |
-| Control       | [Идентификатор](identifier.md)       | Да   | Нет        |
+| Диалог\_      | [Идентификатор](identifier.md)       | Д   | Нет        |
+| Элемент       | [Идентификатор](identifier.md)       | Д   | Нет        |
 | Тип          | [Идентификатор](identifier.md)       | Нет   | Нет        |
 | X             | [Integer](integer.md)             | Нет   | Нет        |
-| Да             | [Integer](integer.md)             | Нет   | Нет        |
+| Д             | [Integer](integer.md)             | Нет   | Нет        |
 | Ширина         | [Integer](integer.md)             | Нет   | Нет        |
 | Высота        | [Integer](integer.md)             | Нет   | Нет        |
-| Атрибуты    | [даублеинтежер](doubleinteger.md) | Нет   | Да        |
-| Свойство      | [Идентификатор](identifier.md)       | Нет   | Да        |
-| Текст          | [Формате](formatted.md)         | Нет   | Да        |
-| Управление \_ следующим | [Идентификатор](identifier.md)       | Нет   | Да        |
-| Справка          | [Text](text.md)                   | Нет   | Да        |
+| Атрибуты    | [даублеинтежер](doubleinteger.md) | Нет   | Д        |
+| Свойство      | [Идентификатор](identifier.md)       | Нет   | Д        |
+| Текст          | [Формате](formatted.md)         | Нет   | Д        |
+| Управление \_ следующим | [Идентификатор](identifier.md)       | Нет   | Д        |
+| Справка          | [Text](text.md)                   | Нет   | Д        |
 
 
 
@@ -134,7 +134,7 @@ ms.locfileid: "104265837"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Целочисленные значения x, y, ширины и высоты находятся в [единицах установщика](installer-units.md), а не в диалоговых единицах. Единица установщика равна одной двенадцатой высоте размера шрифта с размером в 10 пунктов MS Sans Serif. Координаты элементов управления задаются относительно объявления.
 

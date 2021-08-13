@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 982327d581ddb606f733e9efbbcb89e2f9972cf4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1b6372ffb7f7d9f19769e419b12c0b109736a9867360224e023f1b622c653854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103789865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643683"
 ---
 # <a name="control-attribute"></a>атрибут элемента управления
 
@@ -60,7 +60,7 @@ library | coclass lib-or-coclassname
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут позволяет помечать библиотеки типов, описывающие элементы управления, так что они не будут отображаться в браузерах типов, предназначенных для невизуальных объектов.
 
@@ -101,9 +101,9 @@ library Hello
 [**кокласс**](coclass.md)
 </dt> <dt>
 
-[**библиотека**](library.md)
+[**Библиотечная**](library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

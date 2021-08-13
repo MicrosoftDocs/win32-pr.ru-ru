@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94b0412ce4068d829f7aeba73632e5004a8f5b23
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 21b36d9a7d36ec54492a20602a6f2d83e0f00caea595bcabf510e9a24ab0ee5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683444"
 ---
 # <a name="ms-ds-oidtogroup-link-bl-attribute"></a>Атрибут ms-DS-Оидтограуп-Link-BL
 
@@ -43,7 +43,7 @@ ms.locfileid: "104536269"
 ## <a name="implementations"></a>Варианты реализации решения
 
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
 

@@ -4,12 +4,12 @@ description: Многодокументный интерфейс (MDI) — эт�
 ms.assetid: ede2dd19-e4c6-43e8-8f22-f807621dfa0d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1557176752d29b7d429a0c434554df09b69a8e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cff8279e9934c953e30a7d91710565562cb538d3140d971b1f74ff8963ca7345
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118565135"
 ---
 # <a name="mdi-client-window-msaa-ui-element-reference"></a>Окно клиента MDI (Справочник по элементам пользовательского интерфейса MSAA)
 
@@ -48,7 +48,7 @@ MDI-окно клиента поддерживает следующие свой
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

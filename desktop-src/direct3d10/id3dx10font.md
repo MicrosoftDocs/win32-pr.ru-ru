@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 7d7c9fb1daa0934b5e6b3147f60803be5c0b5c07
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1b40230aa983154f9bfc85b3ffb0f08f713b00213259d18bb9b160374b670795
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118540350"
 ---
 # <a name="id3dx10font-interface"></a>Интерфейс ID3DX10Font
 
@@ -53,7 +53,7 @@ ms.locfileid: "104273798"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс ID3DX10Font получается путем вызова [**D3DX10CreateFont**](d3dx10createfont.md) или [**D3DX10CreateFontIndirect**](d3dx10createfontindirect.md).
 
@@ -67,13 +67,13 @@ typedef interface ID3DX10Font *LPD3DX10FONT;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 

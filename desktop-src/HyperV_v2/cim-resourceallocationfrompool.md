@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 09bd7b70d49d2304062d35d29586fea886c86a3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b73dd49232fd7c68ce5fbb52ecdb07d6721fbd83c3e9e60425178e0323b5dbf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118648176"
 ---
 # <a name="cim_resourceallocationfrompool-class"></a>\_Класс CIM ресаурцеаллокатионфромпул
 
@@ -43,7 +43,7 @@ class CIM_ResourceAllocationFromPool : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ ресаурцеаллокатионфромпул** имеет следующие свойства.
 
@@ -81,7 +81,7 @@ class CIM_ResourceAllocationFromPool : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

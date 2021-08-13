@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8225db8cccb1e1d3bb364ba1dc29f30526fe36b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e6d27bca855bb9c719b485060fabf1f10b7130bd864569e74f98516ca76b8fb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544639"
 ---
 # <a name="ideliveryoptimizationjob2addfilewithranges-method"></a>Метод IDeliveryOptimizationJob2:: Аддфилевисранжес
 
@@ -90,12 +90,12 @@ URL-адрес файла, который выполняет попытку по
 
 Этот метод возвращает S_OK при успешном или одном из стандартных значений HRESULT при ошибке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |---------------------------|---------------------------------------------------------------------------------|
-| Минимальная версия клиента  | \[Только для настольных приложений Windows 10 версии 1803\]                                  |
-| Минимальная версия сервера  | \[Только для настольных приложений Windows Server версии 1709\]                              |
+| Минимальная версия клиента  | Windows 10, только для \[ настольных приложений версии 1803\]                                  |
+| Минимальная версия сервера  | Windows Server, только для \[ настольных приложений версии 1709\]                              |
 | Header                    | Deliveryoptimization. h                                                          |
 | IDL                       | DeliveryOptimization. idl                                                        |
 | Библиотека                   | Досвк. lib                                                                       |

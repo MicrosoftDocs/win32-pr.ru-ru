@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24166af15a250ec284eeb600b81bb8bb7d264369
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4a9e095c256ab920c431516f1b103ac3b7d4df4b1552f652762ea6ed06c2a3a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685699"
 ---
 # <a name="ms-ds-az-application-name-attribute"></a>Атрибут ms-DS-AZ-Application-Name
 

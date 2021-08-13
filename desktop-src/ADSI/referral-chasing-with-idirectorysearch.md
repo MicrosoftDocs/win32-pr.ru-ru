@@ -8,12 +8,12 @@ keywords:
 - ADSI, поиск, IDirectorySearch, другие параметры поиска, отслеживание ссылок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fae76139dc1a68c9345cd7a7b3bb894a50a2d7b
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 2ba7fcc74103c5c09816976e9ff91c17ecca8578fcbf596b731df890a350e922
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103987882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690693"
 ---
 # <a name="referral-chasing-with-idirectorysearch"></a>Отслеживание ссылок с помощью IDirectorySearch
 
@@ -39,6 +39,6 @@ SearchPref.vValue.Integer = ADS_CHASE_REFERRALS_ALWAYS;
 
 Дополнительные сведения о ссылках в Active Directory см. в разделе [ссылки](/windows/desktop/AD/referrals).
 
- 
+ 
 
- 
+ 

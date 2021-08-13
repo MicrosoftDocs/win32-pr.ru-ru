@@ -1,10 +1,10 @@
 ---
-title: Phone — Mobile — первичный атрибут
+title: атрибут Телефон-Mobile — Primary
 description: Основной номер мобильного телефона.
 ms.assetid: c35fbaf1-e3f2-45df-98bd-e47ed79373ee
 ms.tgt_platform: multiple
 keywords:
-- Телефон — Главная схема AD атрибута Active Directory для мобильных устройств
+- схема AD атрибута Телефон-Mobile — Primary
 - Схема AD атрибутов мобильных устройств
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d44a6ad48ffa8a592238eca1b0aa1d8cbc873f8f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 65002852c265c53f35abd5ff42a2fb2a74d8c0eade4c96bfc72720cdf30ba2d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118687498"
 ---
-# <a name="phone-mobile-primary-attribute"></a>Phone — Mobile — первичный атрибут
+# <a name="phone-mobile-primary-attribute"></a>атрибут Телефон-Mobile — Primary
 
 Основной номер мобильного телефона.
 
@@ -29,7 +29,7 @@ ms.locfileid: "104138699"
 
 | Ввод | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | Телефон — Mobile — первичный                                                             |
+| CN                | Телефон — Mobile — Primary                                                             |
 | LDAP-отображаемое имя | mobile                                                                           |
 | Размер              | \-                                                                               |
 | Привилегия обновления  | Администратор домена или владелец учетной записи.                                           |
@@ -87,7 +87,7 @@ ms.locfileid: "104138699"
 | Range-Upper            | 64                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                               |
 | System-Flags           | 0x00000010                                                                                                                                               |
-| Классы, используемые в        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "104138699"
 | Range-Upper            | 64                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                               |
 | System-Flags           | 0x00000010                                                                                                                                               |
-| Классы, используемые в        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "104138699"
 | Range-Upper            | 64                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                               |
 | System-Flags           | 0x00000010                                                                                                                                               |
-| Классы, используемые в        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "104138699"
 | Range-Upper            | 64                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                               |
 | System-Flags           | 0x00000010                                                                                                                                               |
-| Классы, используемые в        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 

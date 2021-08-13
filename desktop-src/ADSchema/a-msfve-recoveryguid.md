@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2630f3d7c729073051ae2a1bd363a8c36387e8fb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 808c3538591af9fb13553c66d75a0a7765174d647ae6c280ee22e8ff3b4a94a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682736"
 ---
 # <a name="ms-fve-recoveryguid-attribute"></a>атрибут MS-ФВЕ-Рековеригуид
 

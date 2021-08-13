@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc43277bb3750ee0e759baa4348e85ef826ce010
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 44d145bc355693db149a98d5c38c200df2b9785dc6ad37af75c36d18e1add164
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118687536"
 ---
 # <a name="min-ticket-age-attribute"></a>Атрибут min-Ticket-Age
 
@@ -36,7 +36,7 @@ ms.locfileid: "104138246"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.80                |
 | System-ID — GUID    | bf9679c4-0de6-11d0-a285-00aa003049e2 |
-| Синтаксис            | [**Пределах**](s-interval.md)       |
+| Синтаксис            | [**Интервал**](s-interval.md)       |
 
 
 

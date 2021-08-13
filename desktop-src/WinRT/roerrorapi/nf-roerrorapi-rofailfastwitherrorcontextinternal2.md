@@ -16,12 +16,12 @@ api_location:
 api_name:
 - RoFailFastWithErrorContextInternal2
 targetos: Windows
-ms.openlocfilehash: 84584c339851ecbf8df5d6dbda2aaa575ca6487b
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: a2e8e2e357b7c4768596ca36cb48cdf1bb2cfdbd839ecc6949a607975d6000c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "105719160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560630"
 ---
 # <a name="rofailfastwitherrorcontextinternal2-function"></a>Функция RoFailFastWithErrorContextInternal2
 
@@ -55,19 +55,19 @@ void WINAPI RoFailFastWithErrorContextInternal2(
 
 Тип: **[PSTOWED_EXCEPTION_INFORMATION_V2](../../wer/stowed-exception-information-v2.md)\[\]**
 
-Массив указателей на [**STOWED_EXCEPTION_INFORMATION_V2ные**](../../wer/stowed-exception-information-v2.md) структуры. Каждая структура содержит сведения, описывающие исключение заполнения. Сведения в этих структурах затем отправляются в отчеты об ошибках Windows (WER) вместе со сведениями об исключении заполнения, которые были перехвачены платформой.
+Массив указателей на [**STOWED_EXCEPTION_INFORMATION_V2ные**](../../wer/stowed-exception-information-v2.md) структуры. Каждая структура содержит сведения, описывающие исключение заполнения. сведения в этих структурах затем отправляются в отчеты об ошибках Windows (WER) вместе со сведениями об исключении заполнения, которые были перехвачены платформой.
 
 ## <a name="return-value"></a>Возвращаемое значение
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **RoFailFastWithErrorContextInternal2** не связан с библиотекой импорта или файлом заголовка. Его можно вызвать, сначала используя функцию [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryw) (для загрузки `ComBase.dll` ), а затем вызвав функцию [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) для получения адреса **RoFailFastWithErrorContextInternal2**.
 
 Дополнительные сведения см. в разделе [функция рофаилфаствисеррорконтекст](/windows/win32/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Целевая платформа** | Windows |

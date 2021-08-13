@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b30467e931d7e8790f9a17542d5da2070525fe0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8daeed67202add437ee06b9905cbd70a0c202863c476155216f2340be1c7b70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691432"
 ---
 # <a name="iadsnamespaces-property-methods"></a>Методы свойств Иадснамеспацес
 
@@ -73,11 +73,11 @@ HRESULT put_DefaultContainer(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поставщики должны предоставлять это свойство для каждого пользователя. Контейнер по умолчанию задается сразу после вызова **иадснамеспацес::p UT \_ дефаултконтаинер**. Вызов метода [**iAds. сетинфо**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) не требуется. На самом деле объект, предоставляемый системой пространств имен, возвращает **E \_ нотимпл** для метода **iAds. сетинфо** , вызываемого для этого объекта. Если контейнер является объектом namespaces, операция перечисления всегда приводит к получению списка объектов пространства имен, относящихся к поставщику. Если для получения объекта пространства имен используется [**иадсконтаинер. GetObject**](/windows/desktop/api/Iads/nf-iads-iadscontainer-getobject) , параметр *бстркласс* игнорируется. Это связано с тем, что контейнер, то есть объект namespaces, содержит только один тип объекта, а именно, объекты пространства имен, относящиеся к поставщику.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ac681da2ec5c2d81646b1c40f5db52dffd557a6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9797d51f13b37aca6b8747d61e178e707e8c77b3b43cb1a0f6daabbf826c12e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682480"
 ---
 # <a name="mssfu-30-posix-member-attribute"></a>Мссфу-30-атрибут POSIX-Member
 

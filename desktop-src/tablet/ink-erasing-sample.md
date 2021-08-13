@@ -4,12 +4,12 @@ ms.assetid: cec912ee-1645-47e1-8988-626719549e55
 title: Пример стирания рукописного ввода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46040781d778f936815e57ba96b4ca516617d9a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b56885835a2d42c3f4c050938658cfc7cdf5a5d5463309ae2f0a6d8021c817e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452087"
 ---
 # <a name="ink-erasing-sample"></a>Пример стирания рукописного ввода
 
@@ -25,7 +25,7 @@ ms.locfileid: "104540415"
 
 `OnPaint`Обработчик событий формы сначала закрашивает штрихи и, в зависимости от режима приложения, может найти и пометить все куспс или пересечения с небольшим красным кружком. КУСП помечает точку, в которой линия изменяется при внезапном направлении. Пересечение отмечает точку, в которой один росчерк пересекается с самим собой или с другим росчерком.
 
-Событие [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) возникает при перерисовке элемента управления.
+событие [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) возникает при каждом перерисовке элемента управления.
 
 > [!Note]  
 > Образец заставляет форму перерисовывать себя при удалении штриха или при изменении режима приложения с помощью метода [обновления](/dotnet/api/system.windows.forms.control.refresh?view=netcore-3.1) формы.

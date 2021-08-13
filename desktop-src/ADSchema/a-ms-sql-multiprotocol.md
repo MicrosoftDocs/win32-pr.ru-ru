@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-многопротокольный атрибут
+title: MS-SQL — атрибут с несколькими протоколами
 description: Точка подключения RPC.
 ms.assetid: 70cb9f80-7140-4c26-a1a4-f78a60de430f
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута протокола MS-SQL-Multiprotocol
-- Схема AD атрибута протокола mS-SQL-Multiprotocol
+- MS-SQL — схема AD атрибутов с несколькими протоколами
+- mS-SQL — схема AD атрибутов с несколькими протоколами
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8cdfb8e42d8e3d533090b7b0bf49dcefc5492a3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d3edc56c012b062a508c83fa18ed8c45b110d2b2d3b53ca052f357a3edabe3d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686652"
 ---
-# <a name="ms-sql-multiprotocol-attribute"></a>MS-SQL-многопротокольный атрибут
+# <a name="ms-sql-multiprotocol-attribute"></a>MS-SQL — атрибут с несколькими протоколами
 
 Точка подключения RPC.
 
@@ -29,8 +29,8 @@ ms.locfileid: "105654901"
 
 | Ввод | Значение |
 |-------------------|---------------------------------------------|
-| CN                | Протокол MS-SQL-Multiprotocol                        |
-| LDAP-отображаемое имя | Протокол mS-SQL-Multiprotocol                        |
+| CN                | MS-SQL — многопротоколный                        |
+| LDAP-отображаемое имя | mS-SQL — многопротоколный                        |
 | Размер              | \-                                          |
 | Привилегия обновления  | Это значение задается системой.            |
 | Частота обновления  | При запуске системы.                          |

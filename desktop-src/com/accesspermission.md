@@ -6,12 +6,12 @@ keywords:
 - COM-значение реестра Акцесспермиссион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e6210eba77f614b16c8fde59948b350ad150909
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 641512d34b963879ceb3d1a6266a017836879b224b228edb3ad62d61300fb03e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118551348"
 ---
 # <a name="accesspermission"></a>акцесспермиссион
 
@@ -21,17 +21,17 @@ ms.locfileid: "104488313"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      AccessPermission = ACL
+   {AppID_GUID}
+      AccessPermission = ACL
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это **\_ двоичное значение reg** . Он содержит данные, описывающие список управления доступом (ACL) участников, которые могут обращаться к экземплярам этого класса. При получении запроса на подключение к существующему объекту этого класса ACL проверяется с помощью вызываемого приложения при олицетворении вызывающего. Если проверка доступа завершается сбоем, подключение запрещено. Если это именованное значение не существует, список ACL [**дефаултакцесспермиссион**](defaultaccesspermission.md) проверяется, чтобы определить, должно ли быть разрешено подключение.
 
 Для приложений, которые не вызывают [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) или не используют интерфейс [**Иглобалоптионс**](/windows/win32/api/objidlbase/nn-objidlbase-iglobaloptions) для указания AppID, исполняемый файл двоичного приложения должен быть сопоставлен с AppID приложения, как описано в [**AppID**](appid.md). Это необходимо для того, чтобы COM мог нахождение идентификатора AppID приложения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -44,6 +44,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [Безопасность в COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

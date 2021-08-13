@@ -4,16 +4,16 @@ ms.assetid: c016fcba-0d54-4b99-bcdd-36967b2c9da0
 title: Создание преобразования настройки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f73609b7be60dbfe236d31ed5a865e86ff6e310
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b790917100cc06da97e09fd8aabf45b580e62008d23c9fc5065e6005112d8d4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118636002"
 ---
 # <a name="generating-a-customization-transform"></a>Создание преобразования настройки
 
-Файл преобразования можно создать с помощью [**мсидатабасеженератетрансформ**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegeneratetransforma) или [**метода GenerateTransform**](database-generatetransform.md) [**объекта Database**](database-object.md). Пример приведен в установщик Windows SDK в качестве служебной WiGenXfm.vbs. Следующий фрагмент кода, Gen.vbs, также иллюстрирует метод **GenerateTransform** и предназначен для использования с сервером сценариев Windows.
+Файл преобразования можно создать с помощью [**мсидатабасеженератетрансформ**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegeneratetransforma) или [**метода GenerateTransform**](database-generatetransform.md) [**объекта Database**](database-object.md). пример приведен в установщик Windows SDK в качестве служебной WiGenXfm.vbs. следующий фрагмент кода, Gen.vbs, также иллюстрирует метод **GenerateTransform** и предназначен для использования с Windowsным узлом сценариев.
 
 
 ```VB

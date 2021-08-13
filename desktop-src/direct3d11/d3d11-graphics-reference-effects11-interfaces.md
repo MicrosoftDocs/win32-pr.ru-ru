@@ -4,12 +4,12 @@ description: В этом разделе содержатся справочны�
 ms.assetid: 1b997513-73f7-423a-8af3-1c9fa0d2f469
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 215e319720f2afc4cf74f6c49056de35fb59d004
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 0b20713f5a40b2d8b85edb92166b7e64af18fefee62e5267adcffa25356c6f7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104984109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118537706"
 ---
 # <a name="effects-11-interfaces"></a>Effects 11, интерфейсы
 
@@ -49,7 +49,7 @@ ms.locfileid: "104984109"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

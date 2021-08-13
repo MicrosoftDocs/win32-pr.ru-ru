@@ -1,6 +1,6 @@
 ---
 title: Адресная книга-атрибут Roots2
-description: Используется Exchange. Exchange настраивает деревья контейнеров адресной книги для отображения в адресной книге MAPI. Этот атрибут в объекте конфигурации Exchange содержит список корней деревьев контейнеров адресной книги. | Адресная книга-атрибут Roots2
+description: Используется Exchange. Exchange настраивает деревья контейнеров адресной книги для отображения в адресной книге MAPI. этот атрибут в объекте конфигурации Exchange содержит список корней деревьев контейнеров адресной книги. | Адресная книга-атрибут Roots2
 ms.assetid: 1ca41a60-b8ba-4489-9238-b469811d68ac
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3283a0551ac423f836381483d30cb6bd74d946e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 73b2cea979ee8a7c60d1a29a612d60da1acce972cf07bae277219d4a81a0d954
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688947"
 ---
 # <a name="address-book-roots2-attribute"></a>Адресная книга-атрибут Roots2
 
-Используется Exchange. Exchange настраивает деревья контейнеров адресной книги для отображения в адресной книге MAPI. Этот атрибут в объекте конфигурации Exchange содержит список корней деревьев контейнеров адресной книги.
+Используется Exchange. Exchange настраивает деревья контейнеров адресной книги для отображения в адресной книге MAPI. этот атрибут в объекте конфигурации Exchange содержит список корней деревьев контейнеров адресной книги.
 
 
 

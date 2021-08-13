@@ -7,12 +7,12 @@ keywords:
 - Подключение к Active Directory ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7626f01b644a0bb1a3acb39c5ef5ead70434e21e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d6afd5aa0edd8a4c4a87bae7cde6a135fc3467771eed2dbc0cb7673984040832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692012"
 ---
 # <a name="connecting-to-active-directory"></a>Подключение к Active Directory
 
@@ -36,7 +36,7 @@ Set obj = GetObject("LDAP://mysrv01")
 
 
 
-В другом сценарии может быть только известно имя домена, но не конкретное имя сервера. Опять же, ADSI позволяет указать доменное имя. В Windows 2000 имя домена представлено в виде DNS-имени. Например, если Джо Ворден, администратор сети, выбирает подключение с использованием доменного имени, он мог бы использовать следующий пример кода.
+В другом сценарии может быть только известно имя домена, но не конкретное имя сервера. Опять же, ADSI позволяет указать доменное имя. в Windows 2000 имя домена представлено в виде DNS-имени. Например, если Джо Ворден, администратор сети, выбирает подключение с использованием доменного имени, он мог бы использовать следующий пример кода.
 
 
 ```VB
@@ -47,16 +47,16 @@ Set obj = GetObject("LDAP://fabrikam.com")
 
 ADSI будет подключаться к одному из контроллеров домена в домене fabrikam.com.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Привязка к Active Directory объектам](binding-to-active-directory-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

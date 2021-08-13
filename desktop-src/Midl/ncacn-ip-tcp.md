@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1adb57951e862ebcdfa6889aae170bfdf5a14f96
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c34ba0a872af79245469818121761a38d356316b53a31743f9ebf2cd66f72325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105650349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642234"
 ---
 # <a name="ncacn_ip_tcp-attribute"></a>нкакн \_ IP- \_ атрибут TCP
 
@@ -45,7 +45,7 @@ endpoint("ncacn_ip_tcp:server-name[port-name]")
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Синтаксис строки порта транспорта TCP/IP, как и все строки портов, определяется независимо от спецификации IDL. Компилятор выполняет некоторую проверку синтаксиса, но не гарантирует, что указана правильная спецификация конечной точки. Некоторые ошибки могут выводиться во время выполнения, а не во время компиляции.
 
@@ -70,7 +70,7 @@ endpoint("ncacn_ip_tcp:128.10.2.30[1404]")
 
 <dl> <dt>
 
-[**endpoint**](endpoint.md)
+[**конечной**](endpoint.md)
 </dt> <dt>
 
 [Файл определения интерфейса (IDL)](interface-definition-idl-file.md)
@@ -91,6 +91,6 @@ endpoint("ncacn_ip_tcp:128.10.2.30[1404]")
 [**Строковая привязка**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

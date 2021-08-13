@@ -3,8 +3,8 @@ title: Использование функций GDI в WCS
 description: В интерфейсе графических устройств (GDI) есть различные функции, которые используют данные цвета или работают с ними.
 ms.assetid: a19ec8b9-11c9-4fde-a99a-7f4a112b49e7
 keywords:
-- Цветовая система Windows (WCS), интерфейс графических устройств (GDI)
-- WCS (цветовая система Windows), интерфейс графических устройств (GDI)
+- Windows Система цветовой системы (WCS), интерфейс графических устройств (GDI)
+- WCS (Windows цветовая система), интерфейс графических устройств (GDI)
 - Управление цветом изображений, интерфейс графических устройств (GDI)
 - Управление цветом, интерфейс графических устройств (GDI)
 - цвета, интерфейс графических устройств (GDI)
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fad8445623efb8854e81e7e1569beab9ed4169b
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 8a104378ae46e6b9519d6f795d280d45c28c8fa3fdc7d1e34aae609bcdbd195d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118444681"
 ---
 # <a name="using-gdi-functions-with-wcs"></a>Использование функций GDI в WCS
 

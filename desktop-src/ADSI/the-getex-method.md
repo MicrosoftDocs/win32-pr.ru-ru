@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI с использованием с помощью метода IADs Жетекс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3a909b33664ad805b0bf483ee9f0c2b40316ec8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2e656bd6a48830feb725e927f08be1d573e7b0232cf02c16ee87bd7d6a5b2f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690153"
 ---
 # <a name="the-getex-method"></a>Метод Жетекс
 
@@ -67,9 +67,9 @@ Cleanup:
 
 Если для атрибута не задано значение, функция [**iAds:: жетекс**](/windows/desktop/api/Iads/nf-iads-iads-getex) возвращает ошибку "свойство не найдено в кэше".
 
- 
+ 
 
- 
+ 
 
 
 

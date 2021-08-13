@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50984f9c42db04f11fd2177229c0cdef27ac1aac
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f55b08d3c575c1eee246a2a364d7096c0981f15e63c8575962be82d4c7ebfe48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689629"
 ---
 # <a name="acs-enable-rsvp-accounting-attribute"></a>Атрибут ACS-Enable-RSVP-Account
 
@@ -36,7 +36,7 @@ ms.locfileid: "105655560"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.899               |
 | System-ID — GUID    | f072230e-aef5-11d1-bdcf-0000f80367c1 |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 

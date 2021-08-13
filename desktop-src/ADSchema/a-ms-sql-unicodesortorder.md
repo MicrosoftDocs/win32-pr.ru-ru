@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-Уникодесортордер
+title: атрибут MS-SQL-уникодесортордер
 description: Порядок сортировки Юникода для текущего экземпляра SQL Server.
 ms.assetid: c7f9d81d-a9c3-4be9-8ead-cf3d59352dbb
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута MS-SQL-Уникодесортордер
-- Схема AD атрибута mS-SQL-Уникодесортордер
+- схема AD атрибута уникодесортордер MS-SQL-
+- схема AD атрибута уникодесортордер mS-SQL-
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9240844a45e8e4ea567ff96df0eb992f316a7787
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f340541c4fddbed9671c8c7965b0d145175d8fd8c7964e779459ec7c3f79f5c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104535777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686464"
 ---
-# <a name="ms-sql-unicodesortorder-attribute"></a>Атрибут MS-SQL-Уникодесортордер
+# <a name="ms-sql-unicodesortorder-attribute"></a>атрибут MS-SQL-уникодесортордер
 
 Порядок сортировки Юникода для текущего экземпляра SQL Server.
 
@@ -29,8 +29,8 @@ ms.locfileid: "104535777"
 
 | Ввод | Значение |
 |-------------------|--------------------------------------|
-| CN                | MS-SQL-Уникодесортордер              |
-| LDAP-отображаемое имя | mS-SQL-Уникодесортордер              |
+| CN                | MS-SQL-уникодесортордер              |
+| LDAP-отображаемое имя | mS-SQL-уникодесортордер              |
 | Размер              | 4 байта                              |
 | Привилегия обновления  | Администратор домена                 |
 | Частота обновления  | При запуске системы.                   |

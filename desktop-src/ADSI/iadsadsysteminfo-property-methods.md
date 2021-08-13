@@ -33,12 +33,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8dba53dfda4bb8f4dd3290cb2737cdeb4e8a6d3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 177926924d989686dae33c3403c07bfe5e69d0ba1762dd2a1a1cdee78a2175f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691615"
 ---
 # <a name="iadsadsysteminfo-property-methods"></a>Методы свойств Иадсадсистеминфо
 
@@ -223,7 +223,7 @@ HRESULT get_SchemaRoleOwner(
 
 </dt> </dl> </dd> <dt>
 
-**Значением**
+**SiteName**
 </dt> <dd> <dl>
 
 Возвращает имя сайта локального компьютера.
@@ -277,7 +277,7 @@ HRESULT get_UserName(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере кода C++ извлекаются сведения о системе Windows. Для краткости проверка ошибок пропущена.
+следующий пример кода C++ извлекает Windows сведения о системе. Для краткости проверка ошибок пропущена.
 
 
 ```C++
@@ -333,7 +333,7 @@ int main()
 
 
 
-В следующем Visual Basic примере кода извлекаются сведения о системе Windows.
+в следующем Visual Basic примере кода извлекаются Windows сведения о системе.
 
 
 ```VB
@@ -346,7 +346,7 @@ Debug.print "PDC Role Owner: " & sys.PDCRoleOwner
 
 
 
-Следующий пример кода VBScript/ASP извлекает сведения о системе Windows.
+следующий пример кода VBScript/ASP извлекает Windows сведения о системе.
 
 
 ```VB
@@ -362,7 +362,7 @@ Response.Write "PDC Role Owner: " & sys.PDCRoleOwner
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

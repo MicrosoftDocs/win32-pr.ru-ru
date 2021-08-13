@@ -12,12 +12,12 @@ api_name:
 - ReportHit
 api_type:
 - NA
-ms.openlocfilehash: 58d109f184974f76c533aaeee055f1ebf21d10eb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8714cabc02f70ca12bcc78493de3a61482ba5aed5490087d309f6ec091cecf75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118528112"
 ---
 # <a name="reporthit-function"></a>Функция ReportHit
 
@@ -51,7 +51,7 @@ bool ReportHit(float THit, uint HitKind, attr_t Attributes);
 
 **bool (логическое** ) Значение true, если попадание было принято.  Попадание отклоняется, если *сит* находится за пределами текущего интервала лучей или любой шейдер попадания вызывает [**игнорехит**](ignorehit-function.md).  Текущий интервал лучей определяется **райтмин** и **райткуррент**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эту функцию можно вызывать из следующих типов шейдеров райтраЦинг:
 

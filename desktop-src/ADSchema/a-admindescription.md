@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 168dfacc2577c14a3c41541f5ca88f63331590dd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9d9da2c892db1ea648df7d0027a92bb5cf1f277e03489615b098628f8951b8ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688453"
 ---
 # <a name="admin-description-attribute"></a>Атрибут Admin-Description
 

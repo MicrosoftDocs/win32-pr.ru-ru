@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-TCPIP
+title: атрибут MS-SQL-TCPIP
 description: Точка подключения TCP.
 ms.assetid: f61f7d54-958e-4f34-852e-222338c26de0
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута MS-SQL-TCPIP
-- Схема AD атрибута mS-SQL-TCPIP
+- схема AD атрибута tcp-SQL-TCPIP
+- схема AD атрибута tcp-SQL-TCPIP
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 098d5e7818789774b425ad9e238f8f3b3a4d5378
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5d387ff6600618330c67549133169f4f8f321a72e0ff2d64ffec4b5dbdd9cf40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686527"
 ---
-# <a name="ms-sql-tcpip-attribute"></a>Атрибут MS-SQL-TCPIP
+# <a name="ms-sql-tcpip-attribute"></a>атрибут MS-SQL-TCPIP
 
 Точка подключения TCP.
 

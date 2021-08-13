@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc0c049158250d0e19bfa01efb04bb583bc29f17
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: be3f4760c91ea76d4f9806a88c093bf763faab4905ecfc929eec10c6c6a01a3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118687346"
 ---
 # <a name="modified-count-at-last-prom-attribute"></a>Атрибут "Modified-on-Last-Пром"
 
@@ -36,7 +36,7 @@ ms.locfileid: "105655232"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.81                |
 | System-ID — GUID    | bf9679c6-0de6-11d0-a285-00aa003049e2 |
-| Синтаксис            | [**Пределах**](s-interval.md)       |
+| Синтаксис            | [**Интервал**](s-interval.md)       |
 
 
 

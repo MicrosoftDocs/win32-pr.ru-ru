@@ -12,12 +12,12 @@ api_name:
 - RayFlags
 api_type:
 - NA
-ms.openlocfilehash: 3aedb39ebaaadfc5c3b17af31c9ac3d6670e0b89
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6f9fb95a11eb846807234848e085e1a5060108eae56af205f9899a4ac77d358b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300975"
 ---
 # <a name="rayflags"></a>райфлагс
 
@@ -30,7 +30,7 @@ uint RayFlags();
 
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эту функцию можно вызывать из следующих типов шейдеров райтраЦинг:
 

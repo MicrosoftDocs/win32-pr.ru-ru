@@ -1,6 +1,6 @@
 ---
 title: атрибут Митингаппликатион
-description: Этот атрибут содержит имя приложения, которое будет использоваться для собрания по сети, например Microsoft NetMeeting, службы Windows Media или конференции Microsoft Exchange.
+description: этот атрибут содержит имя приложения, которое будет использоваться для собрания по сети, например microsoft NetMeeting, службы Windows Media или конференции microsoft Exchange.
 ms.assetid: 6dbcafe1-dda6-41d6-893d-2c92bfe119e0
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcc79876349ba15810a1848eba6d24752ab896ba
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9f7fd3da9f99f4aa9833e1d8a0fc845e8f0210e540819dbce71107f64ff99267
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688003"
 ---
 # <a name="meetingapplication-attribute"></a>атрибут Митингаппликатион
 
-Этот атрибут содержит имя приложения, которое будет использоваться для собрания по сети, например Microsoft NetMeeting, службы Windows Media или конференции Microsoft Exchange.
+этот атрибут содержит имя приложения, которое будет использоваться для собрания по сети, например microsoft NetMeeting, службы Windows Media или конференции microsoft Exchange.
 
 
 

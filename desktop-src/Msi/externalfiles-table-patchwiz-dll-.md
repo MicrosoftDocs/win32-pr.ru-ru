@@ -4,12 +4,12 @@ ms.assetid: c75591c2-5266-4a99-8104-53815f6550e2
 title: Таблица Екстерналфилес (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f0002961408be9f43685ef40cd2ccff729e48b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2573556e8e4e00cf9004b83520468724ad1c959704cf8be32769a7ee41e24ebf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118636881"
 ---
 # <a name="externalfiles-table-patchwizdll"></a>Таблица Екстерналфилес (Patchwiz.dll)
 
@@ -21,14 +21,14 @@ ms.locfileid: "104544287"
 
 | Столбец        | Type    | Ключ | Допускает значения NULL |
 |---------------|---------|-----|----------|
-| Семейство        | text    | Да   | Нет        |
-| фтк           | text    | Да   | Нет        |
-| FilePath      | text    | Да   | Нет        |
-| симболпасс   | text    |     | Да        |
-| игнореоффсетс | text    |     | Да        |
-| игнореленгсс | text    |     | Да        |
+| Семейство        | text    | Д   | Нет        |
+| фтк           | text    | Д   | Нет        |
+| FilePath      | text    | Д   | Нет        |
+| симболпасс   | text    |     | Д        |
+| игнореоффсетс | text    |     | Д        |
+| игнореленгсс | text    |     | Д        |
 | ретаиноффсетс | text    |     | Нет        |
-| Заказ         | Целое число |     | Да        |
+| Номер         | Целое число |     | Д        |
 
 
 
@@ -48,7 +48,7 @@ ms.locfileid: "104544287"
 <span id="FTK"></span><span id="ftk"></span>фтк
 </dt> <dd>
 
-Внешний ключ в [таблицу File](file-table.md) файла MSI обновленного образа.
+Внешний ключ в [таблицу File](file-table.md) файла .msi обновленного образа.
 
 </dd> <dt>
 
@@ -100,11 +100,11 @@ ms.locfileid: "104544287"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта таблица принимает переменные среды в виде путей, начинающихся с Patchwiz.dll версии 4,0.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

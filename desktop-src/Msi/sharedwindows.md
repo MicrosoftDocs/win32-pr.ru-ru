@@ -1,27 +1,27 @@
 ---
-description: Установщик задает свойство Шаредвиндовс, когда система работает как общие окна.
+description: Установщик задает свойство Шаредвиндовс, когда система работает как общая Windows.
 ms.assetid: 22dd5ee9-25d3-4bc6-9181-13095497a1d3
 title: Шаредвиндовс, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 965be70d3d49d4ec73e18cdea713952852ee659e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e4270f5e486ac79b557f27c77b4d141edd9d85c237a04c74711c7c1f92e987d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118624708"
 ---
 # <a name="sharedwindows-property"></a>Шаредвиндовс, свойство
 
-Установщик задает свойство **шаредвиндовс** , когда система работает как общие окна.
+Установщик задает свойство **шаредвиндовс** , когда система работает как общая Windows.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

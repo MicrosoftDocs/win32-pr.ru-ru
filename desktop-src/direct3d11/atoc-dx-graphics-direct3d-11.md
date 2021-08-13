@@ -4,12 +4,12 @@ description: Графика Direct3D 11
 ms.assetid: 11413056-5033-4b4f-b80c-fccccb4057bc
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90b038ecc2b1c55d1e0a2edab9dcb52065b51810
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: bd2847c271c3a5ad4ec04a7156b3ef552edea7112bdb84b8f8ba10d93f340d69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118538633"
 ---
 # <a name="direct3d-11-graphics"></a>Графика Direct3D 11
 
@@ -23,7 +23,7 @@ ms.locfileid: "110335348"
 
 |                                   | Поддерживается                                                                                                  |
 |-----------------------------------|---------------------------------------------------------------------------------------------------|
-| **Поддерживаемые среды выполнения**    | Windows/C++            |
+| **Поддерживаемые среды выполнения**    | Windows/C + +            |
 | **Рекомендуемые языки программирования** | C/C++                                                                                             |
 | **Минимальная версия клиента**          | Windows 7             |
 | **Минимальная версия сервера**          | Windows Server 2008 R2 |
@@ -41,9 +41,9 @@ ms.locfileid: "110335348"
 
  
 
-Помимо Direct3D 11, поддерживаемой Windows 7 и более поздними версиями и Windows Server 2008 R2 и более поздних версий, Direct3D 11 доступен для Windows Vista с пакетом обновления 2 (SP2) и Windows Server 2008 путем загрузки [kb 971644](https://support.microsoft.com/kb/971644) и [KB 971512](https://support.microsoft.com/kb/971512/).
+помимо direct3d 11, поддерживаемой Windows 7 и более поздних версий и Windows server 2008 R2 и более поздних версий, Direct3D 11 доступен для Windows Vista с пакетом обновления 2 (sp2) и Windows server 2008 путем загрузки [kb 971644](https://support.microsoft.com/kb/971644) и [kb 971512](https://support.microsoft.com/kb/971512/).
 
-Сведения о новых функциях Direct3D 11,1, которые входят в состав Windows 8, Windows Server 2012 и частично доступны в Windows 7 и Windows Server 2008 R2 через [обновление платформы для Windows 7](https://support.microsoft.com/kb/2670838), см. в разделе [функции Direct3D 11,1](direct3d-11-1-features.md) и [обновление платформы для Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7).
+сведения о новых функциях direct3d 11,1, включенных в Windows 8, Windows Server 2012 и частично доступны в Windows 7 и Windows Server 2008 R2 через [обновление платформы для Windows 7](https://support.microsoft.com/kb/2670838), см. в разделе [функции Direct3D 11,1](direct3d-11-1-features.md) и [обновление платформы для Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7).
 
  
 

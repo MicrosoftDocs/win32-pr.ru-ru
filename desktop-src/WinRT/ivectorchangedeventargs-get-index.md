@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IVectorChangedEventArgs.h
-ms.openlocfilehash: 5c131567ec7fc2861ce11db9e5d7ec581f6f663a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72df7f0d46e1e3073262c43064daf58b1fefbf43af913bb7f1b912ed22e67a7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560650"
 ---
 # <a name="ivectorchangedeventargsget_index-method"></a>Метод индекса Ивекторчанжедевентаргс:: Get \_
 
@@ -42,7 +42,7 @@ HRESULT get_Index(
 *значение* \[ out, retval\]
 </dt> <dd>
 
-Тип: **без знака \** _
+Тип: **без знака \***
 
 Отсчитываемая от нуля координата в векторе, где произошло изменение, если применимо.
 
@@ -50,11 +50,11 @@ HRESULT get_Index(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

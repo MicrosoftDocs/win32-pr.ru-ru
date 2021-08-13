@@ -1,6 +1,6 @@
 ---
 title: Функция D3DX11CompileFromResource (D3DX11async. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. Примечание. вместо использования этой функции рекомендуется использовать функции ресурсов, а затем компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API D3DCompile. Компиляция шейдера или воздействия ресурса.
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. Примечание. вместо использования этой функции рекомендуется использовать функции ресурсов, а затем компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API D3DCompile. Компиляция шейдера или воздействия ресурса.
 ms.assetid: ececa469-f5e3-4cb3-befe-0ed1a5a57671
 keywords:
 - D3DX11CompileFromResource функция Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b26eeb825a1d3b6bcda9f77eae24c99c3cec168b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0f3aafa7d504bbbcd99591b45412d63cbf78270ef46ffa63bbf2d34497510802
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118536768"
 ---
 # <a name="d3dx11compilefromresource-function"></a>Функция D3DX11CompileFromResource
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -86,7 +86,7 @@ HRESULT D3DX11CompileFromResource(
 
 Тип: **[ **LPCTSTR**](/windows/desktop/WinProg/windows-data-types)**
 
-Необязательный параметр. Имя файла эффектов, которое используется только для сообщений об ошибках. Может иметь **значение NULL**.
+Необязательный элемент. Имя файла эффектов, которое используется только для сообщений об ошибках. Может иметь **значение NULL**.
 
 </dd> <dt>
 
@@ -95,7 +95,7 @@ HRESULT D3DX11CompileFromResource(
 
 Тип: **\* const [**D3D10ный \_ \_ макрос шейдера**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)**
 
-Необязательный параметр. Указатель на массив определений макросов (см. раздел [**D3D10 \_ Shader \_ Macro**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)). Последняя структура в массиве выступает в качестве признака конца, и все члены должны иметь значение 0. Если не используется, задайте  для Пдефинес **значение NULL**.
+Необязательный элемент. Указатель на массив определений макросов (см. раздел [**D3D10 \_ Shader \_ Macro**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)). Последняя структура в массиве выступает в качестве признака конца, и все члены должны иметь значение 0. Если не используется, задайте  для Пдефинес **значение NULL**.
 
 </dd> <dt>
 
@@ -104,7 +104,7 @@ HRESULT D3DX11CompileFromResource(
 
 Тип: **[ **LPD3D10INCLUDE**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
-Необязательный параметр. Указатель на интерфейс для обработки включаемых файлов. Установка **значения NULL** приведет к ошибке компиляции, если шейдер содержит \# include.
+Необязательный элемент. Указатель на интерфейс для обработки включаемых файлов. Установка **значения NULL** приведет к ошибке компиляции, если шейдер содержит \# include.
 
 </dd> <dt>
 
@@ -188,7 +188,7 @@ HRESULT D3DX11CompileFromResource(
 
 **D3DX11CompileFromResource** возвращает E \_ INVALIDARG, если параметр *фресулт* предоставляет значение, отличное от **null** , при указании **значения NULL** для параметра *ппумп* . Дополнительные сведения об этой ситуации см. в разделе Примечания.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о **D3DX11CompileFromResource** см. в разделе [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile).
 
@@ -204,13 +204,13 @@ HRESULT D3DX11CompileFromResource(
 
 Кроме того, если вы передаете значение, отличное от **null** , *фресулт* при указании значения **null** для *ппумп*, **D3DX11CompileFromResource** возвращает \_ код ошибки E INVALIDARG.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX11async. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX11async. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX11. lib</dt> </dl>    |
 
 

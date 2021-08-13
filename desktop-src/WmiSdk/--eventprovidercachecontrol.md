@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - Root
-ms.openlocfilehash: c54ec47b1f67d96816cf24a6b6e0108ee0b1de70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d027fec5aea132524924655047c0f0a8aa8605d1972c6f91b2c2315c5834ad1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557928"
 ---
 # <a name="__eventprovidercachecontrol-class"></a>\_\_Класс Евентпровидеркачеконтрол
 
@@ -44,7 +44,7 @@ class __EventProviderCacheControl : __CacheControl
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ евентпровидеркачеконтрол** имеет следующие свойства.
 
@@ -59,17 +59,17 @@ class __EventProviderCacheControl : __CacheControl
 Тип доступа: чтение и запись
 </dt> </dl>
 
-Интервал времени после инструментарий управления Windows (WMI) (WMI) освобождает поставщик событий. Время указано в [формате интервала](interval-format.md). Интервал, указанный для выгрузки поставщика, может занять вдвое больше времени.
+интервал времени после инструментарий управления Windows (WMI) (WMI) освобождает поставщик событий. Время указано в [формате интервала](interval-format.md). Интервал, указанный для выгрузки поставщика, может занять вдвое больше времени.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ евентпровидеркачеконтрол** является производным от [**\_ \_ CacheControl**](--cachecontrol.md).
 
 Дополнительные сведения об использовании этого класса см. [в разделе выгрузка поставщика](unloading-a-provider.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

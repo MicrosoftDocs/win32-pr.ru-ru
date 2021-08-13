@@ -7,12 +7,12 @@ keywords:
 - Предельное время поиска (ADSI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e11ff9de38a17fe6ebac4ebb045e2f8b896bc764
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b666b41db67872cd418cca2d4ef2e3d766fbc1a1d1c1a2d9945eec7dfceb2429
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690519"
 ---
 # <a name="search-time-limit"></a>Предельное время поиска
 
@@ -23,12 +23,12 @@ ms.locfileid: "105654105"
 Дополнительные сведения об использовании параметра предельное время поиска с конкретным интерфейсом поиска см. в следующих статьях:
 
 -   [Ограничение времени сервера на IDirectorySearch](server-time-limit-with-idirectorysearch.md)
--   [Поиск с помощью объекты данных ActiveX](searching-with-activex-data-objects-ado.md)
+-   [поиск с помощью объекты данных ActiveX](searching-with-activex-data-objects-ado.md)
 -   [Поиск с помощью OLE DB](searching-with-ole-db.md)
 
- 
+ 
 
- 
+ 
 
 
 

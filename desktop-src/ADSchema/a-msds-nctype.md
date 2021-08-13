@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd2d5a6fdb3dcf4e21192b59323b3b6630597065
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 01da3f99ae6a3bdef6bb94396da869426a86fa1e09d46098c4831d8ec4c7c8ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684242"
 ---
 # <a name="ms-ds-nc-type-attribute"></a>Атрибут ms-DS-NC-Type
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39a9e44de464f58fd1ffc0606551b9a0203ae9e9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a1e1e9cd15c1b219d07518c9630880a5010226c96c63d57539ffb66fab3a6c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643098"
 ---
 # <a name="dual-attribute"></a>dual - атрибут
 
@@ -61,7 +61,7 @@ interface interface-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейсы, определяемые **двойным** атрибутом, должны быть совместимы с автоматизацией и быть производными от [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch). Этот атрибут не разрешен в DISP-интерфейсах.
 
@@ -74,7 +74,7 @@ interface interface-name
 > [!Note]  
 > Если приложение обращается к данным объекта путем приведения *указателя мыши в* вызове интерфейса, следует проверить УКАЗАТЕЛИ таблицы VTBL в объекте на соответствие собственным указателям VTBL, чтобы убедиться, что вы подключены к соответствующему прокси-серверу.
 
- 
+ 
 
 Указание **двойного** интерфейса подразумевает, что интерфейс совместим с автоматизацией, и поэтому \_ устанавливает флаги ТИПЕФЛАГ фдуал и типефлаг \_ фолеаутоматион.
 
@@ -123,6 +123,6 @@ interface IHello : IDispatch
 [**retval**](retval.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

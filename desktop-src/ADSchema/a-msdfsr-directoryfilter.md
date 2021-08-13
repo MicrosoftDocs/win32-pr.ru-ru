@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3d8fe6ed8c5160b771f37f76c32944ef1ed0f9f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7978db7c7dbdb478574a05c5ca3622a1043c7acd85b967ccf813a3a1b6a65899
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104416277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685870"
 ---
 # <a name="ms-dfsr-directoryfilter-attribute"></a>атрибут MS-DFSR-Директорифилтер
 
@@ -131,7 +131,7 @@ ms.locfileid: "104416277"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **MS-DFSR-директорифилтер** является частью поддержки службы репликации распределенная ФАЙЛОВАЯ система (DFS).
 

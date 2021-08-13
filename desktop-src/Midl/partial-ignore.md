@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82d133275ca77032341d160b51b95b20235c8f2a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: ac751e5b3bdb4a93c003e170333af8956048c9793630419fff0857d61f8c1f2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641977"
 ---
 # <a name="partial_ignore-attribute"></a>атрибут частичного \_ игнорирования
 
@@ -27,7 +27,7 @@ ms.locfileid: "104411921"
 [ [function-attribute-list <>] ] type-specifier <> [pointer- <>declarator <>] function-name <>( [ partial_ignore [ , parameter-attribute-list <> ] ] type-specifier <> [declarator <>] , ...);
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При создании функции обычно пользователи могут указывать **непустой** указатель на необязательные возвращаемые данные, часто называемые необязательным указателем. Память, на которую указывает пользователь, обычно не требуется инициализировать. Эта методика представляет проблему, если функция используется через RPC.
 
@@ -51,9 +51,9 @@ void MoveLeft([in, out, unique, partial_ignore] long *pPrevPosition);
 [**однозначно**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

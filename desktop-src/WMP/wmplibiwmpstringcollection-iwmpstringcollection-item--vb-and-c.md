@@ -3,9 +3,9 @@ title: Метод Ивмпстрингколлектион Item
 description: Метод Item возвращает строку по указанному индексу.
 ms.assetid: 77546cb2-eda5-4bb8-97b9-55270461815f
 keywords:
-- Метод Item проигрыватель Windows Media Player
-- Метод Item проигрыватель Windows Media Player, интерфейс Ивмпстрингколлектион
-- Интерфейс Ивмпстрингколлектион Windows Media Player, метод Item
+- проигрыватель Windows Media метода элемента
+- метод Item проигрыватель Windows Media, интерфейс ивмпстрингколлектион
+- проигрыватель Windows Media интерфейса ивмпстрингколлектион, метод Item
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f69bdc63448699a595238b9907f4b1253209ad06
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 47928502dce9ed4deb12461763a499de5d962aa1303b4c9cc5eacb02c7619da5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568431"
 ---
 # <a name="iwmpstringcollectionitem-method"></a>Метод Ивмпстрингколлектион:: Item
 
@@ -64,19 +64,19 @@ Implements IWMPStringCollection.Item
 
 Строка **System. String** , которая является строкой по указанному индексу.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс **ивмпстрингколлектион** используется для получения набора значений, доступных для атрибута. Например, метод **ивмпмедиаколлектион. жетаттрибутестрингколлектион** можно использовать для получения интерфейса **ивмпстрингколлектион** , представляющего все значения атрибута жанра в типе носителя Audio. Затем метод **Item** можно использовать для итерации всех возможных значений атрибута жанра.
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

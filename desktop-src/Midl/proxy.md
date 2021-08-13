@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aa8c9d305b7f51a012ae26d7b1a76d2e3011fd7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 37e81cb7f67f87153825db59d921b6ee9ec7df6cd334ed2228896c8dec5f9d5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641423"
 ---
 # <a name="proxy-attribute"></a>атрибут прокси-сервера
 
@@ -67,7 +67,7 @@ interface interface-name <> : base-interface <>
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Использование атрибута \[ **proxy** \] для сдвоенного интерфейса предотвращает создание TLB созданных заглушек. Если этот атрибут указан, не следует отменять регистрацию прокси-сервера typelib при отмене регистрации библиотеки типов.
 
@@ -95,6 +95,6 @@ interface interface-name <> : base-interface <>
 [**типефлагс**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

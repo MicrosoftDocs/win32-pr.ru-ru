@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - Root
-ms.openlocfilehash: 9d20e64fed1ee6ba5622d5e6a342a60485f53d36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc73e2cb740486ad08172c10233f4865709a87d9f1122f399002133687744094
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557918"
 ---
 # <a name="__eventsinkcachecontrol-class"></a>\_\_Класс Евентсинккачеконтрол
 
@@ -44,7 +44,7 @@ class __EventSinkCacheControl : CacheControl
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ евентсинккачеконтрол** имеет следующие свойства.
 
@@ -63,11 +63,11 @@ class __EventSinkCacheControl : CacheControl
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ евентсинккачеконтрол** является производным от [**\_ \_ CacheControl**](--cachecontrol.md). Дополнительные сведения об использовании этого класса см. [в разделе выгрузка поставщика](unloading-a-provider.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

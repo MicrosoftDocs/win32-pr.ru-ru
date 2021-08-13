@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c3880a3713daaff13fe827beb989dd377440af4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3848393f6bad82d6793e34ba6f4da803c7dd64803c1c40e4ea05487ea141ec48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105650342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641012"
 ---
 # <a name="vararg-attribute"></a>vararg - атрибут
 
@@ -75,7 +75,7 @@ ms.locfileid: "105650342"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **\[** Атрибуты [**Optional**](optional.md) **\]** и DefaultValue нельзя применять **\[** [](defaultvalue.md) **\]** к параметрам в функции, имеющей атрибут **\[ vararg \]** .
 
@@ -104,6 +104,6 @@ ms.locfileid: "105650342"
 [**используемых**](optional.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

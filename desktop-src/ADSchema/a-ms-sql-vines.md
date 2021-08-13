@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-Vines
+title: атрибут MS-SQL-vines
 description: Точка подключения Vines.
 ms.assetid: edb3ac70-6275-40e1-a91e-acf791c5cf23
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибутов MS-SQL-Vines
-- Схема AD атрибутов mS-SQL-Vines
+- схема AD для атрибута vines MS-SQL
+- схема AD для атрибута vines mS-SQL
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 313b47714dbd8431a7552abc5ed7962e0c0a708a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 818c5e007111f3d7c44b4e8bd530b41e81a6fa98d617dda6ab7352369bfa7b52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686248"
 ---
-# <a name="ms-sql-vines-attribute"></a>Атрибут MS-SQL-Vines
+# <a name="ms-sql-vines-attribute"></a>атрибут MS-SQL-vines
 
 Точка подключения Vines.
 
@@ -29,8 +29,8 @@ ms.locfileid: "105654894"
 
 | Ввод | Значение |
 |-------------------|---------------------------------------------|
-| CN                | MS-SQL-Vines                                |
-| LDAP-отображаемое имя | mS-SQL-Vines                                |
+| CN                | MS-SQL-vines                                |
+| LDAP-отображаемое имя | mS-SQL-vines                                |
 | Размер              | \-                                          |
 | Привилегия обновления  | Это значение задается системой.            |
 | Частота обновления  | При запуске системы.                          |
