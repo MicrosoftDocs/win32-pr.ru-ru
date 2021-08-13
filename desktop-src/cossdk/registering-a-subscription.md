@@ -4,12 +4,12 @@ ms.assetid: 101b1075-3724-4508-9c9e-2f12ac6ab65d
 title: Регистрация подписки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a03d5710fc792cad6282683d51df21d2ede10451
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6f152834c805bd905019d2afe0e353c0a962452c32ef144cc3c3d445b59fbbed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547114"
 ---
 # <a name="registering-a-subscription"></a>Регистрация подписки
 
@@ -29,7 +29,7 @@ ms.locfileid: "104423442"
 
 Когда приложению издателя требуется запустить событие, издатель создает экземпляр объекта класса событий и вызывает метод для него. COM+ просматривает каталог COM+, чтобы найти всех подписчиков. Он создает объект подписчика (напрямую, в очереди или с моникером) и передает вызов метода, изначально сделанный издателем.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

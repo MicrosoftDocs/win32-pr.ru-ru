@@ -4,12 +4,12 @@ ms.assetid: 6b1917a8-8685-40c3-983d-6bd2fed95642
 title: Состояние блокировки сохранения и восстановления (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c8f19d6409e0dc9c40f1d4c7711440a0dc09fe2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c9a56ed6490b0d81b7e643ef892e6a760f00b841531bd21dc69a4069f07b9aa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103989897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118291731"
 ---
 # <a name="state-blocks-save-and-restore-state-direct3d-9"></a>Состояние блокировки сохранения и восстановления (Direct3D 9)
 
@@ -33,7 +33,7 @@ pd3dDevice->CreateStateBlock( D3DSBT_ALL, &pStateBlock );
 
 ## <a name="capture-individual-states"></a>Захватить отдельные состояния
 
-Чтобы сохранить пользовательскую последовательность состояния, заключите состояние, которое вы хотите сохранить, в паре [**IDirect3DDevice9:: бегинстатеблокк**](/windows/desktop/api) и [**IDirect3DDevice9:: ендстатеблокк**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-endstateblock) . Бегинстатеблокк сообщает текущему устройству о необходимости настроить блок состояния и добавить к нему все изменения состояния, происходящие до вызова Ендстатеблокк. Приведем пример:
+Чтобы сохранить пользовательскую последовательность состояния, заключите состояние, которое вы хотите сохранить, в паре [**IDirect3DDevice9:: бегинстатеблокк**](/windows/desktop/api) и [**IDirect3DDevice9:: ендстатеблокк**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-endstateblock) . Бегинстатеблокк сообщает текущему устройству о необходимости настроить блок состояния и добавить к нему все изменения состояния, происходящие до вызова Ендстатеблокк. Ниже приведен пример:
 
 
 ```
@@ -47,7 +47,7 @@ pd3dDevice->EndStateBlock( &pStateBlock );
 
 Это позволит сохранить любое количество изменений состояния в любой последовательности в пользовательском статеблокк. Позже, когда вы хотите использовать статеблокк для сброса состояния устройства, вызовите [**IDirect3DStateBlock9:: Apply**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dstateblock9-apply). Это приведет к перезаписи только состояния устройства, записанного в блоке состояния. Любое другое состояние устройства, которое не было захвачено настраиваемым статеблокк, не будет изменено. Опять же, поскольку объект статеблокк является интерфейсом, его необходимо освободить после завершения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

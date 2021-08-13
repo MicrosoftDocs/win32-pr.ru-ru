@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5bf08057ec075448d9912e37c33b6087c381f97d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: decd5892d480e4f236ae9d7acdc1a25c018557166535c963eb35dc3f6f62ffa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675573"
 ---
 # <a name="setpriority-method-of-the-win32_process-class"></a>Метод SetPriority \_ класса процесса Win32
 
@@ -142,15 +142,15 @@ uint32 SetPriority(
 **Другие** (22 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Чтобы установить приоритет в режиме реального времени, вызывающая сторона  должна иметь **\_ \_ \_ \_ права доступа с базовым приоритетом SeIncreaseBasePriorityPrivilege (SE Inc**). Без этой привилегии наивысший приоритет можно задать с высоким приоритетом.
+чтобы установить приоритет в режиме реального времени, вызывающая сторона должна иметь права **SeIncreaseBasePriorityPrivilege** (с **\_ \_ базовым \_ приоритетом \_ SE INC**). Без этой привилегии наивысший приоритет можно задать с высоким приоритетом.
 
 ## <a name="examples"></a>Примеры
 
 В примере [изменения приоритета выполняемого процесса](https://Gallery.TechNet.Microsoft.Com/23615ee7-cccb-43c2-b994-6106ce2fc05e) VBScript изменяется приоритет запущенного экземпляра Notepad.exe с обычного на выше нормального.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -164,7 +164,7 @@ uint32 SetPriority(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

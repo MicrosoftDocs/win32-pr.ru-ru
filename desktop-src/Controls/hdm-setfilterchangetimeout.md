@@ -3,7 +3,7 @@ title: Сообщение HDM_SETFILTERCHANGETIMEOUT (Коммктрл. h)
 description: Устанавливает интервал времени ожидания между временем изменения атрибутов фильтра и разноски \_ уведомления ХДН филтерчанже. Это сообщение можно отправить явным образом или воспользоваться заголовком \_ макроса сетфилтерчанжетимеаут.
 ms.assetid: 9bc8e0e7-d7c1-4dd6-9d39-6ae937f19d60
 keywords:
-- Элементы управления Windows для HDM_SETFILTERCHANGETIMEOUT сообщений
+- элементы управления Windows сообщений HDM_SETFILTERCHANGETIMEOUT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9876634d12cd15001c296151694cb755ed1b34e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 23b5f8df12a7f30baa5f8b7d4bf15698b30cfbb6619fb71a81d4977b259c318b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435864"
 ---
 # <a name="hdm_setfilterchangetimeout-message"></a>\_Сообщение СЕТФИЛТЕРЧАНЖЕТИМЕАУТ HDM
 
@@ -43,14 +43,14 @@ ms.locfileid: "104071873"
 
 Возвращает индекс изменяемого элемента управления фильтра.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

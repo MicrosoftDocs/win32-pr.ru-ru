@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 125b5fa2cab8bf3f9da12bd842a1a102beee3fb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c34ddd1607a59c0425f7ec789bedb4981a05983ead276a14308fbf6aaadf26de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274868"
 ---
 # <a name="eaphostconfig-element"></a>Еафостконфиг, элемент
 
@@ -59,13 +59,13 @@ ms.locfileid: "104071046"
 
 | Элемент                                                                    | Тип                                                                                     | Описание                                                                                          |
 |----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [**Config**](eaphostconfigschema-config-eaphostconfig-element.md)         | [**басиапмесодконфиг**](baseeapmethodconfigschema-baseeapmethodconfig-complextype.md) | Используется, когда конфигурация метода находится в текстовом формате XML вместо двоичного BLOB-объекта.<br/>       |
+| [**Файле**](eaphostconfigschema-config-eaphostconfig-element.md)         | [**басиапмесодконфиг**](baseeapmethodconfigschema-baseeapmethodconfig-complextype.md) | Используется, когда конфигурация метода находится в текстовом формате XML вместо двоичного BLOB-объекта.<br/>       |
 | [**конфигблоб**](eaphostconfigschema-configblob-eaphostconfig-element.md) | hexBinary                                                                                | Используется, когда конфигурация метода находится в двоичном виде двоичного объекта, а не в виде строки текста.<br/> |
 | [**еапмесод**](eaphostconfigschema-eapmethod-eaphostconfig-element.md)   | [**еапмесодтипе**](eapcommonschema-eapmethodtype-complextype.md)                       | Определяет метод, на который указывает ссылка. <br/>                                                 |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **processContents** обеспечивает будущие улучшения схемы. Элемент **processContents** является необязательным.
 
@@ -75,8 +75,8 @@ ms.locfileid: "104071046"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Функция D3DX11GetImageInfoFromResource (D3DX11tex. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. Примечание. вместо использования этой функции рекомендуется использовать функции ресурсов, а затем использовать библиотеку Директкстекс (Tools), Лоадфромксксксмемори (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр). Извлекает сведения об определенном изображении в ресурсе.
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. Примечание. вместо использования этой функции рекомендуется использовать функции ресурсов, а затем использовать библиотеку Директкстекс (Tools), Лоадфромксксксмемори (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр). Извлекает сведения об определенном изображении в ресурсе.
 ms.assetid: e4752eb3-38d5-4922-b3c8-5fdcd0cc0610
 keywords:
 - D3DX11GetImageInfoFromResource функция Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 967a7b2c2ff03faefc12a48be18a4756e4ed3962
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6ada8118dac3e39f9f91012bb3ec681db7b156540cffae0fb7c0f1a7bc1819b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104987002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535959"
 ---
 # <a name="d3dx11getimageinfofromresource-function"></a>Функция D3DX11GetImageInfoFromResource
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -106,17 +106,17 @@ HRESULT D3DX11GetImageInfoFromResource(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть следующим: D3DERR \_ инвалидкалл
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в **D3DX11GetImageInfoFromResourceW**. В противном случае вызов функции разрешается в **D3DX11GetImageInfoFromResourceA** , так как используются строки ANSI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX11tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX11tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX11. lib</dt> </dl>  |
 
 

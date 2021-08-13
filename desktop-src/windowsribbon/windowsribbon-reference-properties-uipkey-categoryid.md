@@ -4,12 +4,12 @@ description: Определяет \_ свойство CategoryID в UI PKEY \_ .
 ms.assetid: c1e81b2f-3f89-4bc5-a69b-64e841778790
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be628dfecadf3b927e4a99510f661130bd9d34c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b5631f74d7db42e81e6723cc810811743dd1dd46e8aa4d1491226a67d56aab25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441524"
 ---
 # <a name="ui_pkey_categoryid"></a>КодТипа пользовательского интерфейса \_ PKEY \_
 
@@ -17,15 +17,15 @@ ms.locfileid: "105700535"
 
 ```
 propertyDescription
-   name = UI_PKEY_CategoryId
-   shellPKey = UI_PKEY_CategoryId
-   formatID = 00000103-7363-696e-8441798acf5aebb7
-   propID = 103
-   typeInfo
-      type = VT_UI4
+   name = UI_PKEY_CategoryId
+   shellPKey = UI_PKEY_CategoryId
+   formatID = 00000103-7363-696e-8441798acf5aebb7
+   propID = 103
+   typeInfo
+      type = VT_UI4
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Код класса "КодТипа пользовательского интерфейса" \_ \_ используется приложением для запроса идентификаторов категорий, используемых для группирования связанных элементов в элементе управления галереи.
 
@@ -35,7 +35,7 @@ propertyDescription
 
 ![снимок экрана, на котором показаны категории в коллекции лент.](images/properties/ui-pkey-collection-categories2.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -45,9 +45,9 @@ propertyDescription
 [\_Категории PKEY пользовательского интерфейса \_](windowsribbon-reference-properties-uipkey-categories.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение RB_PUSHCHEVRON (Коммктрл. h)
 description: Посылается элементу управления главной панели для программной отправки шеврона.
 ms.assetid: 00a8ce10-1fb2-488a-a6f9-1814f73f82bd
 keywords:
-- Элементы управления Windows для RB_PUSHCHEVRON сообщений
+- элементы управления Windows сообщений RB_PUSHCHEVRON
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e09e558d5574d4fd28cf01e9794657556dda4ae8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2d095cd824970b7ea90541420274b204a1e2f63ce6e1218e62221741f572feb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434974"
 ---
 # <a name="rb_pushchevron-message"></a>\_Сообщение ПУШЧЕВРОН RB
 
@@ -47,18 +47,18 @@ ms.locfileid: "104534661"
 
 Возвращаемое значение для этого сообщения не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При отправке этого сообщения элемент управления "Главная панель" отправит приложению код уведомления [РБН \_ чевронпушед](rbn-chevronpushed.md) , запросите его, чтобы отобразить угловое меню.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

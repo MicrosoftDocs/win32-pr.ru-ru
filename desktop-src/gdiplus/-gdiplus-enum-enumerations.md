@@ -1,19 +1,19 @@
 ---
-title: Перечисления GDI+
-description: 'Windows GDI+ определяет следующие перечисления:'
+title: перечисления GDI+
+description: Windows GDI+ определяет следующие перечисления.
 ms.assetid: e37295d3-9bfe-4708-94b4-b45a8da894b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 383e92efd0ed1603373b354e7f610936462d9efb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f5b3432968e61457a0ac213979f14bf4013304b1740e1aa5cd7f9712e18b204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248841"
 ---
-# <a name="gdi-enumerations"></a>Перечисления GDI+
+# <a name="gdi-enumerations"></a>перечисления GDI+
 
-Windows GDI+ определяет следующие перечисления:
+Windows GDI+ определяет следующие перечисления.
 
 -   [**бруштипе**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-brushtype)
 -   [**колораджусттипе**](/windows/desktop/api/Gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype)
@@ -67,7 +67,7 @@ Windows GDI+ определяет следующие перечисления:
 -   [**стрингформатфлагс**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-stringformatflags)
 -   [**стрингтримминг**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-stringtrimming)
 -   [**текстрендерингхинт**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-textrenderinghint)
--   [**Unit**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-unit)
+-   [**Модульных**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-unit)
 -   [**варпмоде**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-warpmode)
 -   [**врапмоде**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-wrapmode)
 

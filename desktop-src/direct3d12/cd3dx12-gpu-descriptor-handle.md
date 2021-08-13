@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 429d41d401b7d3e928bc4ab76850b36ae41b1e8a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d8039b20be8898c7bc81e57926ab82cd662d9e8a702d2d7a720915a1e35bcc93
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461004"
 ---
 # <a name="cd3dx12_gpu_descriptor_handle-structure"></a>\_ \_ \_ Структура ДЕСКРИПТОРа GPU CD3DX12
 
@@ -192,13 +192,13 @@ UINT Дескрипторинкрементсизе: величина прира
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
 
 
 

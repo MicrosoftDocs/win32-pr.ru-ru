@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 0040ed6c09814a2b2112a91173d84430b8130a30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47155c946d8f49655bf6336a858d2b0752c70caa80f9dd75e0f415ce18ea94c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562944"
 ---
 # <a name="iwinhttprequestsend-method"></a>Метод Ивинхттпрекуест:: send
 
@@ -51,12 +51,12 @@ HRESULT Send(
 
 В случае успешного выполнения возвращается значение **S \_** , а в противном случае — значение ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Отправляемый запрос был определен в предыдущем вызове метода [**Open**](iwinhttprequest-open.md) . Вызывающее приложение может предоставлять данные, отправляемые на сервер с помощью параметра *Body* . Если [*HTTP-команда*](glossary.md) [**открытого**](iwinhttprequest-open.md) объекта имеет значение Get, этот метод отправляет запрос без *тела*, даже если он предоставляется вызывающим приложением.
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHttp.
 
  
 
@@ -185,14 +185,14 @@ WinHttpReq.Send("Post data");
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

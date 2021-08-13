@@ -1,6 +1,6 @@
 ---
 title: ACS-сервер-атрибут списка
-description: Содержит DNS-имена серверов Windows NT, которым разрешено выполнять ACS.
+description: содержит DNS-имена серверов Windows NT, которым разрешено выполнять ACS.
 ms.assetid: 1a26ba49-e9c9-4881-a7ce-7c91bf32875e
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74968d0c5b11502e2ba867bccfff246fb50cae80
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fff4e294a51a92e48682e1b81ed4153939ab770d118257e2aa304ec4f63e1e7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689353"
 ---
 # <a name="acs-server-list-attribute"></a>ACS-сервер-атрибут списка
 
-Содержит DNS-имена серверов Windows NT, которым разрешено выполнять ACS.
+содержит DNS-имена серверов Windows NT, которым разрешено выполнять ACS.
 
 
 

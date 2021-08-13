@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e383c532d496ed217bdb7743b8171d732d61b2d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49e3808fdad44e4bc3cb7312c1b352874eab3b768920f23ac198811d29f6c8ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118630332"
 ---
 # <a name="installerprovidecomponent-method"></a>Метод Installer. Провидекомпонент
 
@@ -88,7 +88,7 @@ Installer.ProvideComponent(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **провидекомпонент** сочетает в себе функциональные возможности [**усефеатуре**](installer-usefeature.md), [**конфигурефеатуре**](installer-configurefeature.md)и [**компонентпас**](installer-componentpath.md). Метод **провидекомпонент** упрощает вызов последовательности, но также увеличивает счетчик использования и должен использоваться с осторожностью, чтобы предотвратить неточные показатели использования. Метод **провидекомпонент** также обеспечивает меньшую гибкость, чем ряд отдельных вызовов методов и свойств, упомянутых ранее.
 
@@ -96,13 +96,13 @@ Installer.ProvideComponent(
 
 Параметр Мсиинсталлмодиксистинг нельзя использовать в сочетании с флагами Мсиреинсталлмоде.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ иинсталлер определен как 000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 

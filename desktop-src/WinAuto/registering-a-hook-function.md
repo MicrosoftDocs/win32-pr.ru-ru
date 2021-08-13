@@ -4,12 +4,12 @@ description: Клиентские приложения получают Вине
 ms.assetid: 7e999335-6a41-4d22-82ef-1a8dd6cb656e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5b1f39a535b366af72b1034cc9344171d253ea0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4c444d2ee291cb07386e775a649ba0c3d42486c45b70e4d3f4629b9b67274f89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564654"
 ---
 # <a name="registering-a-hook-function"></a>Регистрация функции-обработчика
 
@@ -26,9 +26,9 @@ ms.locfileid: "103888015"
 
 При создании события, удовлетворяющего заданным критериям, система вызывает функцию обратного вызова [*виневентпрок*](/windows/desktop/api/Winuser/nc-winuser-wineventproc) клиента (или "процедура обработчика"). Параметры, получаемые функцией-обработчиком, сообщают клиенту о окне, объекте и возможном дочернем элементе, создавшем событие. Клиент использует эти параметры в вызове получения объекта, например [**акцессиблеобжектфромевент**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent).
 
- 
+ 
 
- 
+ 
 
 
 

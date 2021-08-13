@@ -4,16 +4,16 @@ ms.assetid: 39c2aef4-24e3-4ea0-8b23-dff842f9ab84
 title: 'Метод Итсдп:: get_SessionVersion (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3466844f3f21f54ec0ec76a3569e7af25e4b0143
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7661fb5f133d214748991510d56387991872fa69243353b5144623a1ef19f91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119476594"
 ---
 # <a name="itsdpget_sessionversion-method"></a>Метод Итсдп:: Get \_ сессионверсион
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Get \_ сессионверсион** получает значение 32-bit (идеальное сетевое время или NTP), которое служит версией сеанса. Хотя это автоматически создается при создании сеанса, пользователь несет ответственность за его изменение при изменении SDP.
 
@@ -58,11 +58,11 @@ HRESULT get_SessionVersion(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Возвращаемое значение этого метода может быть **ulong**, но Visual Basic не поддерживает тип **ulong** . **Double** — это следующий наименьший тип, охватывающий весь диапазон требуемых значений.
+возвращаемое значение этого метода может быть **ULONG**, но Visual Basic не поддерживает тип **ULONG** . **Double** — это следующий наименьший тип, охватывающий весь диапазон требуемых значений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

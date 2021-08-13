@@ -4,12 +4,12 @@ ms.assetid: a6cc7308-a9fa-4a84-9e7c-4d0adda28db5
 title: Средство тестирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7559c304532b337214108435b740595897694f7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd5f37e8bfc224061a8205bf0759cbba4798b0d53227e4f12d89b1e9ddf629d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471154"
 ---
 # <a name="betest-tool"></a>Средство тестирования
 
@@ -20,11 +20,11 @@ ms.locfileid: "103913387"
 -   Параметры Накату
 
 > [!Note]  
-> Тестирование включено в пакет средств разработки программного обеспечения Microsoft Windows (SDK) для Windows Vista и более поздних версий. Пакет SDK для VSS 7,2 включает версию теста "тестирование", которая выполняется только в Windows Server 2003. В этом разделе описывается Windows SDKная версия теста, а не версия Windows Server 2003, входящая в состав пакета SDK для VSS 7,2. Сведения о скачивании Windows SDK и пакета SDK для VSS 7,2 см. в разделе [Служба теневого копирования томов](volume-shadow-copy-service-portal.md).
+> тестирование включено в пакет средств разработки Microsoft Windows Software Development Kit (SDK) для Windows Vista и более поздних версий. пакет SDK для VSS 7,2 включает версию теста "тестирование", которая выполняется только на Windows Server 2003. в этом разделе описывается Windows SDKная версия теста, а не Windows Server 2003, который входит в состав пакета SDK для VSS 7,2. сведения о скачивании Windows SDK и пакета SDK для VSS 7,2 см. в разделе [служба теневого копирования томов](volume-shadow-copy-service-portal.md).
 
  
 
-В Windows SDK установки средство тестирования можно найти в `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (для 64-разрядной версии Windows) и `%Program Files(x86)%\Windows Kits\8.1\bin\x86` (для 32-разрядной версии Windows).
+в Windows SDK установки средство тестирования можно найти в `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (для 64-разрядных Windows) и `%Program Files(x86)%\Windows Kits\8.1\bin\x86` (для 32-разрядной Windows).
 
 ## <a name="running-the-betest-tool"></a>Запуск средства тестирования
 

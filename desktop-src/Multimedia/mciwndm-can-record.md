@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_CAN_RECORD (VFW. h)
 description: МЦИВНДМ \_ может \_ записывать сообщение, определяет, поддерживает ли устройство MCI запись. Это сообщение можно отправить явно или с помощью макроса МЦивндканрекорд.
 ms.assetid: b5a789fa-6a88-487d-a374-8f4798ee5a62
 keywords:
-- MCIWNDM_CAN_RECORD сообщения Windows мультимедиа
+- сообщение MCIWNDM_CAN_RECORD Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2acbc9efa3ca973c12112a599d1202ad936107a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5df46ce0cbffe17f890e50159a13a93192e67f60e323d6ba711bee6af7ac3f79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429654"
 ---
 # <a name="mciwndm_can_record-message"></a>МЦИВНДМ \_ может \_ записать сообщение
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Возвращает **значение true** , если устройство поддерживает запись или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

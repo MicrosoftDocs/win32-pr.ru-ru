@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 94fe2f5076e9ff7cc0de0f7c916f6edacf2d03fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46496360d7b54bed837ba287d604233a9fac98ee13807744b4adbfb52e9934d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450264"
 ---
 # <a name="iwiasegmentationfilterdetectregions-method"></a>Ивиасегментатионфилтер: метод:D Етектрегионс
 
@@ -53,18 +53,18 @@ HRESULT DetectRegions(
 *пинпутстреам* \[ окне\]
 </dt> <dd>
 
-Тип: **[IStream](/windows/win32/api/objidl/nn-objidl-istream) \** _
+Тип: **[IStream](/windows/win32/api/objidl/nn-objidl-istream)\***
 
 Указывает указатель на изображение предварительной версии [IStream](/windows/win32/api/objidl/nn-objidl-istream) .
 
 </dd> <dt>
 
-_pWiaItem2 * \[ в\]
+*pWiaItem2* \[ окне\]
 </dt> <dd>
 
-Тип: **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+Тип: **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
-Указывает указатель на элемент [_ *IWiaItem2* *](-wia-iwiaitem2.md) , для которого был получен *пинпутстреам* . Фильтр сегментации создает дочерние элементы для этого элемента.
+Указывает указатель на элемент [**IWiaItem2**](-wia-iwiaitem2.md) , для которого был получен *пинпутстреам* . Фильтр сегментации создает дочерние элементы для этого элемента.
 
 </dd> </dl>
 
@@ -74,7 +74,7 @@ _pWiaItem2 * \[ в\]
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод определяет подобласти изображения, представленного Пинпутстреам. Для каждой подобласти, которую она обнаруживает, создается дочерний элемент для элемента [**IWiaItem2**](-wia-iwiaitem2.md) , указанного в параметре *pWiaItem2* . Для каждого дочернего элемента фильтр сегментации должен задавать значения для ограничивающего прямоугольника сканируемой области, используя следующие [**константы свойства элемента сканера WIA**](-wia-wiaitempropscanneritem.md).
 
@@ -213,14 +213,14 @@ DownloadPreviewImage(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

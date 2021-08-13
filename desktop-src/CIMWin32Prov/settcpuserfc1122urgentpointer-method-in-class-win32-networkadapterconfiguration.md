@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 928a809211288eb7f024c735ce033b819e5d49f7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a67fbeed1cd7f5627ad1ab7471ace0e5af71ccb84d1119168e9c2298f450e2f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439244"
 ---
 # <a name="settcpuserfc1122urgentpointer-method-of-the-win32_networkadapterconfiguration-class"></a>Метод SetTcpUseRFC1122UrgentPointer \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 RFC 1122 и BSD рассматривает срочный указатель в заголовке TCP и длину срочных данных по-разному. Они не совместимы. По умолчанию используется режим BSD.
 
@@ -412,7 +412,7 @@ RFC 1122 и BSD рассматривает срочный указатель в 
 
 Пример " [изменение несрочного указателя" для всех сетевых адаптеров](https://Gallery.TechNet.Microsoft.Com/0ff22a90-0be6-4914-8db7-aaf72cbea9cb) на языке VBScript настраивает компьютер для использования спецификации RFC 1122 для срочных данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

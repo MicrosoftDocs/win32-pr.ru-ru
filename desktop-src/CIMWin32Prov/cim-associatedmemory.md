@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3cb1443f54ab273ef6c114b8645e5322c24785f8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8fd56da36546365fecc053d679e31982c44efdfb85289c7fb64ce16651241f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439294"
 ---
 # <a name="cim_associatedmemory-class"></a>\_Класс CIM ассоЦиатедмемори
 
@@ -51,7 +51,7 @@ class CIM_AssociatedMemory : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ ассоЦиатедмемори** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_AssociatedMemory : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ ассоЦиатедмемори** является производным от [**\_ зависимости CIM**](cim-dependency.md).
 
@@ -97,7 +97,7 @@ class CIM_AssociatedMemory : CIM_Dependency
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

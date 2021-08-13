@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6cbf1cbb622610a01a533195752b3532b25f8959
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c50330f44fe481398ca9c831c349d3b99a33f735b13be7cc5843c566b8897a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676745"
 ---
 # <a name="copyex-method-of-the-win32_shortcutfile-class"></a>Метод Копекс \_ класса Win32 шорткутфиле
 
@@ -131,7 +131,7 @@ uint32 CopyEx(
 **12**
 </dt> <dd>
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 
@@ -177,7 +177,7 @@ uint32 CopyEx(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -191,7 +191,7 @@ uint32 CopyEx(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

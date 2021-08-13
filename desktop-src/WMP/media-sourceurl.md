@@ -3,7 +3,7 @@ title: Media. Саурцеурл
 description: Свойство Саурцеурл извлекает URL-адрес элемента мультимедиа.
 ms.assetid: 98ff6ed4-ad3d-44f8-893d-f016e5217ce5
 keywords:
-- Media. Саурцеурл проигрыватель Windows Media
+- проигрыватель Windows Media Media. саурцеурл
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c32d594cd1c3b590001eedfd09e9a8c8eb21240
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1e2f99aeb64a73bcf36e2cbd472aedfa8f509a5073e70792e7b47343a1b37d60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119415954"
 ---
 # <a name="mediasourceurl"></a>Media. Саурцеурл
 
@@ -35,7 +35,7 @@ ms.locfileid: "105698815"
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *носитель*. **саурцеурл** для получения URL-адреса первого элемента мультимедиа в образце списка воспроизведения; затем URL-адрес элемента мультимедиа присваивается свойству **URL-адрес** объекта Player. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *носитель*. **саурцеурл** для получения URL-адреса первого элемента мультимедиа в образце списка воспроизведения; затем URL-адрес элемента мультимедиа присваивается свойству **URL-адрес** объекта Player. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -55,13 +55,13 @@ Player.controls.play();
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

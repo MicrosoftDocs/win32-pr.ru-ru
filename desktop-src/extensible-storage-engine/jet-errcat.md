@@ -7,23 +7,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh475860(v=EXCHG.10)
 ms:contentKeyID: 37033566
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: fe3f5ebad9f0838d089beb83b20b818b7faa4001
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd72ecab62eeccb3ed7e586e2e793bdb9796f09a57686e70d9177eb496316760
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118254326"
 ---
 # <a name="jet_errcat"></a>JET_ERRCAT
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_errcat"></a>JET_ERRCAT
 
 **JET_ERRCAT** группа констант описывает классификацию более высокого уровня или категории ошибок. Эта группа констант позволяет приложениям определять обработку по умолчанию для классификации ошибок, а не обрабатывать каждый случай возникновения ошибки по отдельности. Это также гарантирует, что приложению не требуется обработка новых условий ошибок, которые включены в существующие классификации.
 
-Примечание. Эта документация основана на предварительном выпуске расширяемой подсистемы хранилища. Эта информация может быть изменена.
+примечание. эта документация основана на предварительном выпуске расширяемого механизма служба хранилища. Эта информация может быть изменена.
 
 **JET_ERRCAT** константы упорядочиваются в определенной иерархии условий и подусловий следующим образом:
 
@@ -153,7 +153,7 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows 8 Server.</p></td>
+<td><p>требуется Windows 8 Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

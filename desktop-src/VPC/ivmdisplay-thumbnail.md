@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0466af2552fbb108f31de94b3f970d6e7d5571b7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a7a558a551972bb76558dcd60223d8ddc29783aeaa23e6dbe9263f34642c1c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473334"
 ---
 # <a name="ivmdisplaythumbnail-property"></a>Свойство Ивмдисплай:: thumbnail
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Извлекает массив пикселей, представляющий эскиз изображения экрана виртуальной машины.
 
@@ -59,17 +59,17 @@ HRESULT get_Thumbnail(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот интерфейс возвращает эскиз менее эффективно, чем метод [**\_ GenerateThumbnail**](ivmdisplay--generatethumbnail.md) , но может использоваться из сценариев клиентов. Размер эскиза всегда составляет 64 пикселей в ширину на 48 пикселей в высоком масштабе. Каждый пиксель имеет 32 бит. Первые 64 элементов в массиве — это первая строка пикселей эскиза, следующие элементы 64 — вторая строка и т. д.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |

@@ -1,6 +1,6 @@
 ---
 title: Атрибут Trust-Type
-description: Тип доверия, например Windows NT или MIT.
+description: тип доверия, например Windows NT или MIT.
 ms.assetid: ad3640cd-d634-4ec1-8be8-1fb8272e4b23
 ms.tgt_platform: multiple
 keywords:
@@ -14,23 +14,23 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64b8a8f59f7df976f968bb4f2915e667a06e95bb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 94e3591117bb9ae89c0845aae41450812918d3dc3c88e6e31c3f4189f46ef8c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681609"
 ---
 # <a name="trust-type-attribute"></a>Атрибут Trust-Type
 
-Тип доверия, например Windows NT или MIT.
+тип доверия, например Windows NT или MIT.
 
 
 
 | Ввод | Значение |
 |-------------------|--------------------------------------|
 | CN                | Trust-Type                           |
-| LDAP-отображаемое имя | трусттипе                            |
+| LDAP-отображаемое имя | trustType                            |
 | Размер              | 4 байта                              |
 | Привилегия обновления  | Это значение задается системой.     |
 | Частота обновления  | При создании нового доверия.         |

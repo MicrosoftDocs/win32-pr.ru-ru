@@ -4,12 +4,12 @@ ms.assetid: 5884a128-597d-432b-a706-e10c894d7965
 title: Потоковая прорисовка звука
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f59c5b55f197d5e9770c6f1be55f680c7f9136f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01752cbec7d801177b39d939baeca93f720e12aafeaf9845c1aa0ded033c3fe2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238269"
 ---
 # <a name="streaming-audio-renderer"></a>Потоковая прорисовка звука
 
@@ -159,7 +159,7 @@ SAFE_RELEASE(pActivate);
 
 Чтобы управлять основным уровнем громкости всех потоков в сеансе аудио в САР, используйте интерфейс [**имфсимплеаудиоволуме**](/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume) . Чтобы управлять объемом отдельного потока или управлять объемом отдельных каналов в потоке, используйте интерфейс [**имфаудиостреамволуме**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiostreamvolume) . Оба интерфейса получаются путем вызова [**имфжетсервице:: WebService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice). Можно вызвать метод **WebService** непосредственно в области САР или вызвать его в сеансе мультимедиа. Уровни тома выражаются как значения затухания. Для каждого канала уровень затухания — это продукт главного тома и тома канала.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

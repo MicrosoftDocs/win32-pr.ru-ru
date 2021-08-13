@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofilemgr.h
-ms.openlocfilehash: f21e9f562d008846b4ecf6ad46e86c2c371eb9f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7476f014b0dbcdb16af2a0db46c92a8c2db112528ec4bb8f2903e0c7f9c7a72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450824"
 ---
 # <a name="iscanprofilemgrdeleteallprofiles-method"></a>Исканпрофилемгр: метод:D Елетеаллпрофилес
 
@@ -54,14 +54,14 @@ HRESULT DeleteAllProfiles(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                        |
 | Header<br/>                   | <dl> <dt>Сканпрофилемгр. h</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Сканпрофилес. idl</dt> </dl> |
 

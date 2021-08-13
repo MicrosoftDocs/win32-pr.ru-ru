@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a30d865f206085d2bbd959890b8e80c99a80442c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 791833306da64ff677f9c0d419ec0c6a97d0a688e11d1248e79ec9933052b2c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104493623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440294"
 ---
 # <a name="ms-wmi-objectencoding-class"></a>класс MS-WMI-Обжектенкодинг
 
@@ -68,9 +68,9 @@ ms.locfileid: "104493623"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -206,9 +206,9 @@ ms.locfileid: "104493623"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -347,9 +347,9 @@ ms.locfileid: "104493623"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -499,9 +499,9 @@ ms.locfileid: "104493623"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -658,7 +658,7 @@ ms.locfileid: "104493623"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -737,7 +737,7 @@ ms.locfileid: "104493623"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/> |

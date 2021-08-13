@@ -1,6 +1,6 @@
 ---
 title: Структура D3DX11_IMAGE_INFO (D3DX11tex. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. При необходимости предоставьте сведения для интерфейсов API загрузчика текстур, чтобы управлять загрузкой текстур. | Структура D3DX11_IMAGE_INFO (D3DX11tex. h)
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. При необходимости предоставьте сведения для интерфейсов API загрузчика текстур, чтобы управлять загрузкой текстур. | Структура D3DX11_IMAGE_INFO (D3DX11tex. h)
 ms.assetid: 981f4f1d-7609-416a-8f92-c7223d8b2773
 keywords:
 - D3DX11_IMAGE_INFO структура Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 927967f8e76d0147ccc264bcbdd773191a170ae7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 64366755e9bb9398e8107d931ee5425d2fcee78fdd9d03487b9533270cc17c19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104987209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118536871"
 ---
 # <a name="d3dx11_image_info-structure"></a>\_ \_ Структура сведений об ОБРАЗе D3DX11
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -50,7 +50,7 @@ typedef struct D3DX11_IMAGE_INFO {
 
 
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 <dl> <dt>
 
@@ -153,17 +153,17 @@ typedef struct D3DX11_IMAGE_INFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта структура используется такими методами, как: [**D3DX11GetImageInfoFromFile**](d3dx11getimageinfofromfile.md), [**D3DX11GetImageInfoFromMemory**](d3dx11getimageinfofrommemory.md)или [**D3DX11GetImageInfoFromResource**](d3dx11getimageinfofromresource.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX11tex. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX11tex. h</dt> </dl> |
 
 
 

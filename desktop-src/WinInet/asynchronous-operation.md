@@ -4,12 +4,12 @@ description: В асинхронном режиме приложение мож�
 ms.assetid: 4b8ade00-deb3-4d9f-9ceb-5ba3296c8c68
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a7e1d0cf84aa92691e1d926d771ea809d31a171
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e494b79b28b9aaf005fc6b1790d0cf84b07ceade6606f03ce03198426ac33d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562096"
 ---
 # <a name="asynchronous-operation"></a>Асинхронная операция
 
@@ -62,11 +62,11 @@ ms.locfileid: "103792847"
 
 
 
- 
+ 
 
 Другим примером может служить веб-браузер, например Microsoft Internet Explorer. Когда браузер загружает страницу, часто требуется загрузить другие ресурсы, такие как изображения и звуковые файлы. В асинхронном режиме страница и связанные с ней ресурсы могут запрашиваться одновременно и загружаться по мере их появления, а не запрашивать и скачивать страницу и каждый ресурс по одному за раз.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 Ниже приведены связанные ссылки.
 
@@ -103,13 +103,13 @@ ms.locfileid: "103792847"
 > [!Note]  
 > Функции [**фтпкреатедиректори**](/windows/desktop/api/Wininet/nf-wininet-ftpcreatedirectorya), [**фтпремоведиректори**](/windows/desktop/api/Wininet/nf-wininet-ftpremovedirectorya), [**фтпсеткуррентдиректори**](/windows/desktop/api/Wininet/nf-wininet-ftpsetcurrentdirectorya), [**фтпжеткуррентдиректори**](/windows/desktop/api/Wininet/nf-wininet-ftpgetcurrentdirectorya), [**FtpDeleteFile**](/windows/desktop/api/Wininet/nf-wininet-ftpdeletefilea)и [**FtpRenameFile**](/windows/desktop/api/Wininet/nf-wininet-ftprenamefilea) используют значение контекста, указанное в вызове функции [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) .
 
- 
+ 
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

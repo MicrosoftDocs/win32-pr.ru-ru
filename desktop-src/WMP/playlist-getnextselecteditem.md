@@ -3,7 +3,7 @@ title: Список воспроизведения. Жетнекстселект
 description: Метод Жетнекстселектедитем извлекает индекс следующего выбранного элемента списка воспроизведения после указанного индекса.
 ms.assetid: d46d3a65-8863-4a2f-9add-0701c8283a6b
 keywords:
-- Проигрыватель Windows Media Player. Жетнекстселектедитем
+- проигрыватель Windows Media списка воспроизведения. жетнекстселектедитем
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c5e37ad5109066a11cf28a593ed69f8c86b8b639
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 872dd31694384dfa35d7ce98c2f26756ede14539f4e788cbb6f699d17ca78a8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467754"
 ---
 # <a name="playlistgetnextselecteditem"></a>Список воспроизведения. Жетнекстселектедитем
 
@@ -43,19 +43,19 @@ ms.locfileid: "105704136"
 
 Этот метод возвращает **число** (**Long**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если другие элементы не выбраны, этот метод возвращает значение 1.
 
 Этот метод был заменен **getNextSelectedItem2**, который поддерживает вложенные списки воспроизведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

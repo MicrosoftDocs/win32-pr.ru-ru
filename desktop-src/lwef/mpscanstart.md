@@ -3,7 +3,7 @@ title: Функция Мпсканстарт (Мпклиент. h)
 description: Запускает операцию сканирования.
 ms.assetid: 3AF147C8-A41F-4193-AE28-72C1FBD18BA2
 keywords:
-- Функции Мпсканстарт устаревшие функции среды Windows
+- функции мпсканстарт устаревших функций среды Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d343787edc85a18dc7471d19165999a7252d18a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 34d56f6814ecdd13b2db4f698e8cc122d4d15e325bda17d82d56a5796d8590fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450244"
 ---
 # <a name="mpscanstart-function"></a>Функция Мпсканстарт
 
@@ -79,7 +79,7 @@ HRESULT WINAPI MpScanStart(
 | <span id="MPSCAN_OPTION_PROGRESS"></span><span id="mpscan_option_progress"></span><dl> <dt>**\_ \_ ход выполнения параметра мпскан**</dt> </dl>                   | Вызывающий объект заинтересован в получении сведений о ходе проверки с помощью обратного вызова.<br/>                                                                                                                                                                            |
 | <span id="MPSCAN_OPTION_LOWPRIORITY"></span><span id="mpscan_option_lowpriority"></span><dl> <dt>**МПСКАН, \_ параметр \_ ловприорити**</dt> </dl>          | Выполните проверку с низким приоритетом. (По умолчанию операция просмотра выполняется с обычным приоритетом.)<br/>                                                                                                                                                     |
 | <span id="MPSCAN_OPTION_PACKEDEXES"></span><span id="mpscan_option_packedexes"></span><dl> <dt>**МПСКАН, \_ параметр \_ паккедексес**</dt> </dl>             | Проверьте Упакованные исполняемые файлы для возможных угроз.<br/>                                                                                                                                                                                                              |
-| <span id="MPSCAN_OPTION_ARCHIVES"></span><span id="mpscan_option_archives"></span><dl> <dt>**\_ \_ архивы параметров мпскан**</dt> </dl>                   | Проверьте содержимое архива на предмет возможных угроз. Архивы — это файлы с расширениями, такими как ZIP, CAB или tar.<br/>                                                                                                                                                |
+| <span id="MPSCAN_OPTION_ARCHIVES"></span><span id="mpscan_option_archives"></span><dl> <dt>**\_ \_ архивы параметров мпскан**</dt> </dl>                   | Проверьте содержимое архива на предмет возможных угроз. Архивы — это файлы с расширениями, такими как .zip, .cab или tar.<br/>                                                                                                                                                |
 | <span id="MPSCAN_OPTION_HEURISTICS"></span><span id="mpscan_option_heuristics"></span><dl> <dt>**\_ \_ эвристика параметра мпскан**</dt> </dl>             | Включить проверку на основе эвристики. Будет проверяться наличие угроз с типом обнаружения Эвристика.<br/>                                                                                                                                                        |
 | <span id="MPSCAN_OPTION_REPORTFRIENDLY"></span><span id="mpscan_option_reportfriendly"></span><dl> <dt>**МПСКАН, \_ параметр \_ репортфриендли**</dt> </dl> | Отчитываться о понятных элементах при просмотре ресурсов. Это предназначено только для внутреннего использования.<br/>                                                                                                                                                                          |
 | <span id="MPSCAN_OPTION_REPORTUNKNOWN"></span><span id="mpscan_option_reportunknown"></span><dl> <dt>**МПСКАН, \_ параметр \_ репортункновн**</dt> </dl>    | Сообщать об неизвестных элементах при просмотре ресурса. Это предназначено только для внутреннего использования.<br/>                                                                                                                                                                           |
@@ -146,14 +146,14 @@ HRESULT WINAPI MpScanStart(
 
 Если функция завершается ошибкой, возвращаемое значение является неудачным кодом **HRESULT** . Вызывающий объект может использовать функцию [**мперрормессажеформат**](mperrormessageformat.md) для получения общего описания сообщения об ошибке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

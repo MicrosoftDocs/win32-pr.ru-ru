@@ -4,12 +4,12 @@ ms.assetid: b122d6f4-2be6-4b9b-b8e0-ca08fe9c4f94
 title: дисаблелуапатчинг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b76357211523d0a69a56ab2a047623a63f211df9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5821eb480ac09a2fc0416d7b3a54c0df5699a7096b45e56a843afe691886296f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637781"
 ---
 # <a name="disableluapatching"></a>дисаблелуапатчинг
 
@@ -17,21 +17,21 @@ ms.locfileid: "105664739"
 
 Используйте свойство [**мсидисаблелуапатчинг**](msidisableluapatching.md) , чтобы предотвратить исправление минимальных прав доступа приложения.
 
-Политика Дисаблелуапатчинг доступна начиная с версии установщик Windows 3,0.
+политика дисаблелуапатчинг доступна начиная с версии установщик Windows 3,0.
 
 ## <a name="registry-key"></a>Ключ реестра
 
-**HKey \_ \_** \\ **Политики программного обеспечения** локального компьютера \\  \\  \\  \\ **установщик** Microsoft Windows
+**HKey \_ \_** \\ **политики программного обеспечения** локального компьютера \\  \\  \\  \\ **установщик** Microsoft Windows
 
 ## <a name="data-type"></a>Тип данных
 
 **REG \_ DWORD**
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f60c2873aaad47774af4c88fd0a6e183eeb37af4
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 1a93465e4f90c0fe9ef1d375546d5360983bcca7ee187a3e7da86dd00c4560ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105710363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118275851"
 ---
 # <a name="baseeapmethodusercredentials-schema"></a>Схема басиапмесодусеркредентиалс
 
@@ -22,16 +22,16 @@ ms.locfileid: "105710363"
 
 -   [Сложные типы схемы басиапмесодусеркредентиалс](baseeapmethodusercredentialsschema-complex-types.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [EAPHost и схема прежних версий](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

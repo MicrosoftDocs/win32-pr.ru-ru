@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0495ba7b48e431efe5746f40b353b5c1ad701d6a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: bb61f7763f92c46a80a7e0e45c5c476f4d3b64e7cbb735ba1e254641d90dae4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118608702"
 ---
 # <a name="imsrdpclientadvancedsettingsenablemouse-property"></a>Свойство Имсрдпклиентадванцедсеттингс:: Енаблемаусе
 
@@ -90,7 +90,7 @@ HRESULT get_EnableMouse(
 
 Возвращает **\_ значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 

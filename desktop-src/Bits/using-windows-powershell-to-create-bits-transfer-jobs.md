@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: af4879d1fc8f1b25fa0b1b51816432aad3bed8bd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e939342414d62e4e1af0551318dfec0fb9a5ca59a7e310f13de7b6b67b0440cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118679896"
 ---
 # <a name="using-windows-powershell-to-create-bits-transfer-jobs"></a>Использование Windows PowerShell для создания заданий передачи BITS
 
@@ -24,7 +24,7 @@ ms.locfileid: "103807529"
 
 > [!IMPORTANT]
 >
-> При использовании командлетов [ \* -BitsTransfer](/previous-versions//dd819413(v=technet.10)) из процесса, который выполняется в неинтерактивном контексте, например в службе Windows, возможно, не удастся добавить файлы в задания BITS, что может привести к приостановке работы. Для продолжения задания необходимо войти в систему удостоверение, которое использовалось для создания задания перемещения. Например, при создании задания BITS в скрипте PowerShell, который выполнялся как задание планировщик задач, перенос BITS не будет выполнен, если включен параметр задачи планировщик задач "запускать только при входе пользователя в систему".
+> при использовании командлетов [ \* -BitsTransfer](/previous-versions//dd819413(v=technet.10)) из процесса, который выполняется в неинтерактивном контексте, например в службе Windows, может отсутствовать возможность добавления файлов в задания BITS, что может привести к приостановке работы. Для продолжения задания необходимо войти в систему удостоверение, которое использовалось для создания задания перемещения. Например, при создании задания BITS в скрипте PowerShell, который выполнялся как задание планировщик задач, перенос BITS не будет выполнен, если включен параметр задачи планировщик задач "запускать только при входе пользователя в систему".
 
  
 
@@ -34,7 +34,7 @@ ms.locfileid: "103807529"
 -   [Создание задания синхронной передачи BITS из CSV-файла](#to-create-a-synchronous-bits-transfer-job-from-a-csv-file)
 -   [Создание задания асинхронной передачи BITS](#to-create-an-asynchronous-bits-transfer-job)
 -   [Управление удаленными сеансами PowerShell](#to-manage-powershell-remote-sessions)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="to-create-a-synchronous-bits-transfer-job"></a>Создание задания синхронной передачи BITS
 
@@ -53,7 +53,7 @@ Start-BitsTransfer -Source https://Server01/serverdir/testfile1.txt `
 
 В предыдущем примере локальные и удаленные имена файла указываются в параметрах *источника* и *назначения* соответственно. По завершении передачи файла или при появлении состояния ошибки отображается командная строка.
 
-Тип перемещения по умолчанию — download. При передаче файлов в расположение HTTP для параметра *трансфертипе* необходимо задать значение upload.
+Тип перемещения по умолчанию — download. При передаче файлов в расположение HTTP параметру *трансфертипе* должно быть присвоено значение upload.
 
 Так как для командлета [Start-BitsTransfer](/previous-versions//dd347701(v=technet.10)) применяется расположение параметра, для параметров источника и назначения не нужно указывать имена параметров. Поэтому эту команду можно упростить следующим образом.
 
@@ -147,13 +147,13 @@ Switch($Job.JobState)
 
 ## <a name="to-manage-powershell-remote-sessions"></a>Управление удаленными сеансами PowerShell
 
-Начиная с Windows 10 версии 1607 можно запускать командлеты PowerShell, Битсадмин или другие приложения, использующие [интерфейсы](bits-interfaces.md) BITS из удаленной командной строки PowerShell, подключенной к другому компьютеру (физическому или виртуальному). Эта возможность недоступна при использовании командной строки [PowerShell Direct](/virtualization/hyper-v-on-windows/user_guide/vmsession) для виртуальной машины на том же физическом компьютере и недоступна при использовании командлетов WinRM.
+начиная с Windows 10 версии 1607 можно запускать командлеты powershell, битсадмин или другие приложения, использующие [интерфейсы](bits-interfaces.md) BITS из удаленной командной строки powershell, подключенной к другому компьютеру (физическому или виртуальному). Эта возможность недоступна при использовании командной строки [PowerShell Direct](/virtualization/hyper-v-on-windows/user_guide/vmsession) для виртуальной машины на том же физическом компьютере и недоступна при использовании командлетов WinRM.
 
 Задание BITS, созданное из удаленного сеанса PowerShell, выполняется в контексте учетной записи пользователя этого сеанса и выполняется только при наличии хотя бы одного активного локального сеанса входа или удаленного сеанса PowerShell, связанного с этой учетной записью пользователя. Вы можете использовать хранимую PSSession PowerShell для выполнения удаленных команд без необходимости открывать окно PowerShell для каждого задания, чтобы продолжить выполнение, как описано в статье [основы PowerShell: удаленное управление](https://techgenix.com/remote-management-powershell-part1/).
 
 -   [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession?view=powershell-7&preserve-view=true) создает постоянный удаленный сеанс PowerShell. После создания объекты PSSession сохраняются на удаленном компьютере до тех пор, пока они не будут удалены явным образом. Все задания BITS, инициированные в активном сеансе, проводят передачу данных даже после отключения клиента от сеанса.
 -   [Disconnect-PSSession](/powershell/module/microsoft.powershell.core/disconnect-pssession?view=powershell-7&preserve-view=true) отключает клиентский компьютер от удаленного сеанса PowerShell, и состояние сеанса сохраняется на удаленном компьютере. Что более важно, процессы удаленного сеанса будут продолжать выполняться, и задания BITS продолжат выполнение. Клиентский компьютер может даже перезагружаться или отключаться после вызова метода Disconnect-PSSession.
--   [Connect-PSSession](/powershell/module/microsoft.powershell.core/connect-pssession?view=powershell-7&preserve-view=true) повторно подключает клиентский компьютер к активному удаленному сеансу PowerShell.
+-   [Подключение-PSSession](/powershell/module/microsoft.powershell.core/connect-pssession?view=powershell-7&preserve-view=true) повторно подключает клиентский компьютер к активному удаленному сеансу PowerShell.
 -   [Remove-PSSession](/powershell/module/microsoft.powershell.core/remove-pssession?view=powershell-7&preserve-view=true) слезами удаленный сеанс PowerShell.
 
 В приведенном ниже примере показано, как использовать Remote PowerShell для работы с асинхронными заданиями передачи BITS, что позволяет продолжить выполнение задания даже в том случае, если вы не подключены к удаленному сеансу.
@@ -201,7 +201,7 @@ Remove-PSSession -Name MyRemoteSession
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
