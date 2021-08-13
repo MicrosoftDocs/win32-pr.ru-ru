@@ -6,12 +6,12 @@ keywords:
 - COM раздела реестра Версиониндепендентпрогид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5774dfa5202521bb5055bab6a62aa7c6a60b3cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4fe1defaa52df5251d6c021655d6e84c90677e2a2d57f0bfb67f925e0ffa5bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549722"
 ---
 # <a name="versionindependentprogid"></a>версиониндепендентпрогид
 
@@ -21,11 +21,11 @@ ms.locfileid: "104068621"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      VersionIndependentProgID = Program.Component
+   {CLSID}
+      VersionIndependentProgID = Program.Component
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **reg \_ SZ** , которое указывает последнюю версию приложения объекта.
 
@@ -33,9 +33,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 Для преобразования между этими двумя представлениями можно использовать [**клсидфромпрогид**](/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogid) и [**прогидфромклсид**](/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid) .
 
- 
+ 
 
- 
+ 
 
 
 

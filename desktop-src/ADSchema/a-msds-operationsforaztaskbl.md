@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab3a30b95a9a4d85fd6575c94fb6c7ab6ef34db5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6c99863d405f3f1f171b193c14cf208028f4d4132dfd7811dda2222927104853
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683434"
 ---
 # <a name="ms-ds-operations-for-az-task-bl-attribute"></a>Атрибут ms-DS-Operations-for-AZ-Task-BL
 

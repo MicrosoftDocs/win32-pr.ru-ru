@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e3e27fc667c55cd101b06a34f9140cb9eed8923f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aad557ed5ec13e56a53912a44b11a69a69febf118bb3c2bf9aa68971cfd88de0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118647561"
 ---
 # <a name="cim_serviceaccesspoint-class-hyper-v-management"></a>Класс CIM_ServiceAccessPoint (Управление Hyper-V)
 
@@ -47,7 +47,7 @@ class CIM_ServiceAccessPoint : CIM_EnabledLogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ сервицеакцесспоинт** имеет следующие свойства.
 
@@ -69,7 +69,7 @@ class CIM_ServiceAccessPoint : CIM_EnabledLogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -117,7 +117,7 @@ class CIM_ServiceAccessPoint : CIM_EnabledLogicalElement
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

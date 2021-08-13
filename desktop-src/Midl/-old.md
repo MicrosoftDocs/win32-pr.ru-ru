@@ -12,20 +12,20 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 749ac01a75a491527ad0b7c0d692ecd39dc682c9
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 89532b774daccd10c2f8d4c486d04a7687c30360b90df667249b50e1c6fc29d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643896"
 ---
 # <a name="old-switch"></a>/Old, параметр
 
 Этот параметр устарел и заменен параметром [**/oldtlb**](-oldtlb.md) .
 
- 
+ 
 
- 
+ 
 
 
 

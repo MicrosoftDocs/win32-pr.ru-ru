@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1a53138e15a15e4fafecb998b87ef8b4df71fb2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8bfc19c1230fe7a05644c94833c54a8368548aa020573953d817f484d71509ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104535990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682746"
 ---
 # <a name="ms-ieee-80211-data-attribute"></a>MS-IEEE-80211-атрибут данных
 

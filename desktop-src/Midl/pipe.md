@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0aaab8d399c99e02b5393ee9f5258da53aea491
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6b8c407bef0a9e610d21e7221eb9a06560f33300f4f1f388fa699ca9dfb18531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104336977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641957"
 ---
 # <a name="pipe-attribute"></a>атрибут pipe
 
@@ -45,7 +45,7 @@ typedef pipe element-type pipe-declarator;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для передачи данных в обоих направлениях можно использовать конструктор типа **канала** . Параметр **\[** [**in**](in.md) **\]** pipe позволяет серверу получать поток данных от клиента во время удаленного вызова процедуры. Параметр **\[** [**out**](out-idl.md) **\]** pipe позволяет серверу передать поток данных обратно клиенту. Вы предоставляете клиентские подпрограммы для отправки и извлечения потока данных, а также для выделения глобального буфера данных. Клиентские и серверные программы-заглушки выполняют маршалирование и распаковку данных и передают в приложение ссылку на буфер.
 
@@ -64,7 +64,7 @@ typedef pipe element-type pipe-declarator;
 > [!Note]  
 > Компилятор MIDL поддерживает каналы только в режиме [**/OIF**](-oi.md) .
 
- 
+ 
 
 Дополнительные сведения о реализации подпрограмм с параметрами канала см. в разделе [каналы](/windows/desktop/Rpc/pipes) в руководстве и Справочнике по программированию RPC.
 
@@ -93,7 +93,7 @@ typedef pipe SIMPLE_STRUCT SIMPLE_STRUCT_PIPE;
 [**шифровать**](encode.md)
 </dt> <dt>
 
-[**перечисления**](enum.md)
+[**enum**](enum.md)
 </dt> <dt>
 
 [**idempotent**](idempotent.md)
@@ -108,7 +108,7 @@ typedef pipe SIMPLE_STRUCT SIMPLE_STRUCT_PIPE;
 [**заполняет**](out-idl.md)
 </dt> <dt>
 
-[**ptr**](ptr.md)
+[**указатель**](ptr.md)
 </dt> <dt>
 
 [**ref**](ref.md)
@@ -132,6 +132,6 @@ typedef pipe SIMPLE_STRUCT SIMPLE_STRUCT_PIPE;
 [**проводное \_ маршалирование**](wire-marshal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

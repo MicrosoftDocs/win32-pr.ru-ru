@@ -4,12 +4,12 @@ ms.assetid: b0f99851-a774-4804-8c85-f94943c2d2b0
 title: Параметр скрытого целевого объекта настраиваемого действия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acca69e4c3efc2b43302bf926a56bc53b2bf5e7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1adc0df477510ac7d5d6bec65025b6fed1bfd7971e6ddf35da3a7e4cbc714690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118638167"
 ---
 # <a name="custom-action-hidden-target-option"></a>Параметр скрытого целевого объекта настраиваемого действия
 
@@ -28,7 +28,7 @@ ms.locfileid: "104080927"
 
 Дополнительные сведения см. в разделе [предотвращение записи конфиденциальной информации в файл журнала](preventing-confidential-information-from-being-written-into-the-log-file.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

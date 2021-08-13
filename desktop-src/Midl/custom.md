@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef7c4210091cc028d7724cb40724f22a91eb7d74
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ace6a558da428da07a432653391e0e48b7a5545bb1a83eb40d9c950abfa9d9aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105681596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643673"
 ---
 # <a name="custom-attribute"></a>настраиваемый атрибут
 
@@ -66,7 +66,7 @@ ms.locfileid: "105681596"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте **\[ настраиваемый \]** атрибут для определения собственного атрибута. Например, можно создать атрибут с строковыми значениями, который предоставляет идентификатор ProgID для класса.
 
@@ -88,7 +88,7 @@ ms.locfileid: "105681596"
 [**helpstring**](helpstring.md)
 </dt> <dt>
 
-[**библиотека**](library.md)
+[**Библиотечная**](library.md)
 </dt> <dt>
 
 [Пример файла ODL](/previous-versions/windows/desktop/automat/odl-file-example)
@@ -97,9 +97,9 @@ ms.locfileid: "105681596"
 [Синтаксис файла ODL](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
-[**UUID**](uuid.md)
+[**uuid**](uuid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65021c32aa2fef11102c4686b278b67bd0341254
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e6e2d7829609617ca507873a0b9bb9958cee017db7372b699657055b97e616ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683397"
 ---
 # <a name="ms-ds-phonetic-first-name-attribute"></a>Атрибут ms-DS-фонетического имени
 

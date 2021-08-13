@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f8709128c189956bba4bc371e0f5bfb30d67b49f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f595128b69d976363605d2b3cc1ac030b5d92c54c26318d376235185387d1c23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104273284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118677556"
 ---
 # <a name="cim_physicalmedia-class"></a>\_Класс CIM фисикалмедиа
 
@@ -93,7 +93,7 @@ class CIM_PhysicalMedia : CIM_PhysicalComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ фисикалмедиа** имеет следующие свойства.
 
@@ -117,7 +117,7 @@ class CIM_PhysicalMedia : CIM_PhysicalComponent
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -784,7 +784,7 @@ class CIM_PhysicalMedia : CIM_PhysicalComponent
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1038,7 +1038,7 @@ class CIM_PhysicalMedia : CIM_PhysicalComponent
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1069,7 +1069,7 @@ class CIM_PhysicalMedia : CIM_PhysicalComponent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ фисикалмедиа** является производным от [**CIM \_ фисикалкомпонент**](cim-physicalcomponent.md).
 
@@ -1077,7 +1077,7 @@ class CIM_PhysicalMedia : CIM_PhysicalComponent
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -1091,7 +1091,7 @@ class CIM_PhysicalMedia : CIM_PhysicalComponent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

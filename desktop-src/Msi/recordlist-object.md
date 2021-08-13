@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b3f09887333d8ddbf83de4bea2b2e654411883e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4528b80b13fbf2667c33d9588dff2ce745d24f8575aa726ea67dc256fdebfd1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105676071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118626812"
 ---
 # <a name="recordlist-object"></a>Объект Рекордлист
 
@@ -30,7 +30,7 @@ ms.locfileid: "105676071"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **рекордлист** имеет следующие свойства.
 
@@ -38,20 +38,20 @@ ms.locfileid: "105676071"
 
 | Свойство                                     | Описание                                                          |
 |:---------------------------------------------|:---------------------------------------------------------------------|
-| [**Расчета**](recordlist-count.md)<br/> | Возвращает количество элементов в объекте **рекордлист** .<br/> |
+| [**Count**](recordlist-count.md)<br/> | Возвращает количество элементов в объекте **рекордлист** .<br/> |
 | [**Элемент**](recordlist-item.md)<br/>   | Возвращает запись в коллекции объектов **рекордлист** .<br/>   |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ ирекордлист определен как 000C1096-0000-0000-C000-000000000046<br/>                                                                                                                                                                          |
 
@@ -61,10 +61,10 @@ ms.locfileid: "105676071"
 
 <dl> <dt>
 
-[**Записать**](record-object.md)
+[**Record**](record-object.md)
 </dt> <dt>
 
-[Примеры сценариев установщик Windows](windows-installer-scripting-examples.md)
+[Windows Примеры сценариев для установщика](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

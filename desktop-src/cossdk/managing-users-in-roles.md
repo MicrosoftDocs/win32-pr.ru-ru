@@ -4,12 +4,12 @@ ms.assetid: a7395d48-0193-420f-92ca-b0427ba9d496
 title: Управление пользователями в ролях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1d4ad24043c545047507b5882d454f316ca13a7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d56ebb44dbf2a548305891aca30b12c81b6a9366cd185bf07d08e468386c362a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547639"
 ---
 # <a name="managing-users-in-roles"></a>Управление пользователями в ролях
 

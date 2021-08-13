@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 3f2f81585fdf444b6b5ab1795f183897687732ed
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: e31fbe80f106735a43126b2be5181478b932e2f813b207984959cf013d3fd752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104273679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562459"
 ---
 # <a name="iwinhttprequestsettimeouts-method"></a>Метод Ивинхттпрекуест:: Сеттимеаутс
 
@@ -75,14 +75,14 @@ HRESULT SetTimeouts(
 
 В случае успешного выполнения возвращается значение **S \_** , а в противном случае — значение ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все параметры обязательные. Значение 0 или-1 задает время ожидания бесконечно. Значение больше 0 задает значение времени ожидания в миллисекундах. Например, 30 000 устанавливает время ожидания равным 30 секундам. Все отрицательные значения, отличные от-1, приводят к сбою этого метода.
 
 Значения времени ожидания применяются на уровне Winsock.
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHttp.
 
  
 
@@ -204,14 +204,14 @@ WinHttpReq.Send();
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

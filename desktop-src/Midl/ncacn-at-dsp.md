@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9149cd7270c2e82e760c24b4af1fed54c2c08622
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cb021f9212f1034f0b3c235ad77d9ad270325af914887252494316f9ae1c41b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642775"
 ---
 # <a name="ncacn_at_dsp-attribute"></a>\_атрибут нкакн в \_ DSP
 
@@ -38,7 +38,7 @@ endpoint("ncacn_at_dsp:[port-name]")
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Синтаксис строки порта AppleTalk DSP, как и все строки портов, определяется реализацией транспорта и не зависит от спецификации IDL. Компилятор MIDL выполняет ограниченную проверку синтаксиса, но не гарантирует, что указана правильная спецификация конечной точки. Некоторые классы ошибок могут выводиться во время выполнения, а не во время компиляции.
 
@@ -60,7 +60,7 @@ interface iface
 
 <dl> <dt>
 
-[**endpoint**](endpoint.md)
+[**конечной**](endpoint.md)
 </dt> <dt>
 
 [Файл определения интерфейса (IDL)](interface-definition-idl-file.md)
@@ -69,6 +69,6 @@ interface iface
 [**Строковая привязка**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

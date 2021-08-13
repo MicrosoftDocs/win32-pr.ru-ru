@@ -3,7 +3,7 @@ title: Элемент счетчика
 description: Представляет элемент управления "Счетчик".
 ms.assetid: 6a174ec9-0fde-4171-a363-0e330ac31a8b
 keywords:
-- Лента Windows для элемента счетчика
+- элемент счетчика Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d1ec2e074271e125199ddfd4ff8fac7b2af80c33
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 847806e395998f8bc82c302f4403c5bc2b651323ec6c7089803bc66e5f18dc4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439519"
 ---
 # <a name="spinner-element"></a>Элемент счетчика
 
@@ -122,12 +122,12 @@ ms.locfileid: "111444815"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-- **Минимальная поддерживаемая система**: Windows 7 
+- **минимальная поддерживаемая система**: Windows 7 
 - **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e09f2cf97f8edb86ad831cff35420fad9a07d76
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 31def6297a1a91f6ed28943290a66b544dc368d5a00a91932035a338af50bac5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104334168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643782"
 ---
 # <a name="system-switch"></a>/<system> ключом
 
@@ -54,7 +54,7 @@ Windows 2000, Windows XP, Windows Vista, Windows 7
 
 </dt> <dd>
 
-64-разрядная среда Windows на базе Intel, например Windows 2000, Windows Server 2003, Windows XP Professional x64 Edition, Windows Vista или Windows 7.
+64-разрядная Windowsная среда на базе Intel, например Windows 2000, Windows Server 2003, Windows XP Professional x64 Edition, Windows Vista или Windows 7.
 
 </dd> <dt>
 
@@ -65,11 +65,11 @@ Windows 2000, Windows XP, Windows Vista, Windows 7
 
 </dt> <dd>
 
-64-разрядная среда Windows на базе американской микроустройств, например Windows 2000, Windows Server 2003, Windows XP Professional x64 Edition, Windows Vista или Windows 7.
+Windows 2000, Windows Server 2003, Windows XP Professional x64 Edition, Windows Vista или Windows 7, на основе 64-разрядной Windows в сша.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот параметр **/<system>** функционально аналогичен параметру MIDL [**/env**](-env.md) и распознается компилятором MIDL исключительно для обеспечения обратной совместимости с MkTypLib. При создании нового файла makefile используйте параметр **/env** .
 
@@ -87,9 +87,9 @@ Windows 2000, Windows XP, Windows Vista, Windows 7
 [**/env**](-env.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

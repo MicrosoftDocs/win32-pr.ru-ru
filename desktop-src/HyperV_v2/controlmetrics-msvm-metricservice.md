@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: b12fbf71b860571bb3bb5ee06cb58483e782f479
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 051a08f261432c817bc0e56cab323c56cd11935c1541c40357b6b151a14f4074
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118645851"
 ---
 # <a name="controlmetrics-method-of-the-msvm_metricservice-class"></a>Метод Контролметрикс \_ класса Метриксервице мсвм
 
@@ -130,7 +130,7 @@ uint32 ControlMetrics(
 **Зависит от поставщика** (32768.65 535)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод завершится со сбоем в следующих случаях:
 
@@ -138,14 +138,14 @@ uint32 ControlMetrics(
 -   Параметры *subject* и *definition* не равны **null** и не имеют экземпляра [**мсвм \_ метрикдефформе**](msvm-metricdefforme.md) , связывающего два экземпляра.
 -   Параметр *определения* является ссылкой на экземпляр [**мсвм \_ басеметрикдефинитион**](msvm-basemetricdefinition.md) , который не связан с [**мсвм \_ метриксервице**](msvm-metricservice.md) до [**мсвм \_ сервицеаффектселемент**](msvm-serviceaffectselement.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

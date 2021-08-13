@@ -4,18 +4,18 @@ ms.assetid: 8e155846-cc29-43f4-b1f7-9880320edbec
 title: Тип значка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a7c90de925ff34977e7ff192dffe0b8614e5734
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28510eff674d1f25e632b1181943af70da73d9fc97a6a64ec5abd0807fe15cf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118634957"
 ---
 # <a name="icon-type"></a>Тип значка
 
 Тип значка [семантического типа](semantic-types.md) является одним из [типов формата ключа](key-format-types.md). Этот тип состоит из ключа в [таблицу значков](icon-table.md) , предоставленную пользователем.
 
-Средство слияния должно заменить допустимый [идентификатор](identifier.md) установщик Windows для элементов этого типа. Mergemod.dll не применяет это ограничение и является средством слияния, чтобы убедиться, что пользователь предоставляет допустимый ключ в таблице значков.
+средство слияния должно заменить допустимый [идентификатор](identifier.md) установщик Windows для элементов этого типа. Mergemod.dll не применяет это ограничение и является средством слияния, чтобы убедиться, что пользователь предоставляет допустимый ключ в таблице значков.
 
 Значение null является допустимым для этого типа, если только Мсмконфигитемноннуллабле не включен в поле Attributes [таблицы модулеконфигуратион](moduleconfiguration-table.md).
 

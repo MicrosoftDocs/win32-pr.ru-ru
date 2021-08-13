@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11845e36a38e453cf7db450261f8ca9d977e03fb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: af60e9768c29a8a8e8d19d2645db2990a26ea46c1c921a4911f23ef6fd30df4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682192"
 ---
 # <a name="print-memory-attribute"></a>Атрибут Print-Memory
 

@@ -4,12 +4,12 @@ ms.assetid: f6834427-014b-4c6f-b6bb-d8df6189f43b
 title: Атрибут элемента управления Индиректпропертинаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3f4ed68b557de12620c56757a267b2737c68a1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f4ab3aca3ff3ad9b7d5c311cf1a9a2d62ca69355cb7da8d83ca7ebf3408b2a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118634328"
 ---
 # <a name="indirectpropertyname-control-attribute"></a>Атрибут элемента управления Индиректпропертинаме
 
@@ -25,7 +25,7 @@ ms.locfileid: "103991265"
 
 Этот атрибут не использует битовые флаги.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 См. раздел [атрибуты элементов управления](control-attributes.md) и элемент управления, которые необходимо создать в элементах [управления](controls.md).
 

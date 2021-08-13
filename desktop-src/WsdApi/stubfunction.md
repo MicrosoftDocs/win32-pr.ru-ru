@@ -4,12 +4,12 @@ ms.assetid: 2547f71d-8a30-4df8-ba38-6707c415708e
 title: Стубфунктион, элемент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a77f37aed20dae4f04eea087e3d1eac2d23369af
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: dc9304aa33bd193edc631949a93e1d770a1fade3d0c5726a9f2d897ea1862476
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552416"
 ---
 # <a name="stubfunction-element"></a>Стубфунктион, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "107994151"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Ссылки на функции-заглушки используются в сценариях размещения для односторонних и двусторонних операций.
 

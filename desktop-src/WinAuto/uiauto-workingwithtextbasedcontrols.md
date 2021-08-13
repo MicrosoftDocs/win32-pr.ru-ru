@@ -10,12 +10,12 @@ keywords:
 - Клиенты, шаблон элемента управления TextRange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 079b77f2151e8e231ea9e431e14be75c81c9630b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d043be6bca078e4ca0bf45d4ed3ac21964e6f29f2a682d8726f24ba4265a3be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563940"
 ---
 # <a name="working-with-text-based-controls"></a>Работа с элементами управления на основе текста
 
@@ -29,7 +29,7 @@ ms.locfileid: "105674137"
 -   [Обработка событий, связанных с текстом](uiauto-handlingtextrelatedevents.md)
 -   [Основные сведения о проблемах производительности](uiauto-understandingperformanceissues.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

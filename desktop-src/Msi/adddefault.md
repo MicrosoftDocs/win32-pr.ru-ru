@@ -4,12 +4,12 @@ ms.assetid: 78cec3fc-c653-487a-b41c-a43c42e3a157
 title: АДДДЕФАУЛТ, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43960b6d70d704337f373031ab4972bcb95dada7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e854df38b58a19f41f98cf1f96657dafdda0c4134c7085c50b4c9c4528b3164e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118639708"
 ---
 # <a name="adddefault-property"></a>АДДДЕФАУЛТ, свойство
 
@@ -17,7 +17,7 @@ ms.locfileid: "105651720"
 
 Функция, указанная в свойстве **адддефаулт** , устанавливается в том же состоянии установки, что и если пользователь запросил установку компонента по запросу. Состояние определяется битами, заданными для функции в столбце Attributes [таблицы Feature](feature-table.md), и какие биты задаются для компонентов компонента в столбце Attributes [таблицы Component](component-table.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В именах функций учитывается регистр.
 
@@ -43,13 +43,13 @@ ms.locfileid: "105651720"
 
 Установщик задает для предварительно [**выбранных**](preselected.md) свойств значение "1" во время возобновления приостановленной установки или если в командной строке указано любое из указанных выше свойств.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

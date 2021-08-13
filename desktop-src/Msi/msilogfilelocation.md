@@ -4,24 +4,24 @@ ms.assetid: 2d4c72ec-05d7-4a03-b58a-3c1a567b16c1
 title: Мсилогфилелокатион, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06dc64ae1f1c37f432147a66be66460002b382ce
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5dec682aa6e28211aa1a1b240bb3cf1e96479c6bec6dcbeaa1ef3ecffc35943f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627822"
 ---
 # <a name="msilogfilelocation-property"></a>Мсилогфилелокатион, свойство
 
 При включении ведения журнала в качестве значения свойства **мсилогфилелокатион** задается полный путь к файлу журнала. Свойство **мсилогфилелокатион** можно использовать для вывода файла журнала или расположения файла журнала в пользовательском интерфейсе в конце установки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 4,5 в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 4,5 на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
@@ -32,7 +32,7 @@ ms.locfileid: "105652191"
 [Свойства](properties.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
+[не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
 </dt> </dl>
 
  

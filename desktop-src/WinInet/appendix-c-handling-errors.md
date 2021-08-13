@@ -1,17 +1,17 @@
 ---
-title: Обработка ошибок (Windows Internet)
+title: обработка ошибок (Windows интернет)
 description: Функция GetLastError извлекает последний код ошибки для всех функций WinINet.
 ms.assetid: ee619803-b2a3-4a99-a3e6-120e147843f7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc175c80fd8bd10b6a3807376e1a207d805aee65
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6ef5c40a2a7b018c1da25932ecbea24259f2bcdb18eff1e424500dcda60dc208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104262177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562354"
 ---
-# <a name="handling-errors-windows-internet"></a>Обработка ошибок (Windows Internet)
+# <a name="handling-errors-windows-internet"></a>обработка ошибок (Windows интернет)
 
 Функция [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) извлекает последний код ошибки для всех функций WinInet. Если возвращается [**Ошибка " \_ \_ Расширенная \_ Ошибка Интернета**](wininet-errors.md) ", то существует строка или буфер, содержащий подробное сообщение об ошибке. Вызовите функцию [**интернетжетластреспонсеинфо**](/windows/desktop/api/Wininet/nf-wininet-internetgetlastresponseinfoa) , чтобы получить расширенный текст ошибки.
 
@@ -186,7 +186,7 @@ void WINAPI addLastErrorToMsg( LPTSTR szMsgBuffer, DWORD dwSize )
 
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: 3c82efa7-9cf3-4bcd-8ec4-b81d1d7aa0a6
 title: ICE57
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a59d609e5d7de0011666be0b5cc5e76417d8e67d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d875264ed1fbc0f7dedac863c21801e5180ae879c9c255af7cf4b36e5d402970
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635165"
 ---
 # <a name="ice57"></a>ICE57
 
@@ -64,8 +64,8 @@ Component 'Component4' has both per-user data and
 |----------|------|-------------|
 | регкэйа  | 1    | Component1  |
 | регкэйб  | 1    | Component2  |
-| регкэйк  | -1   | Component3  |
-| регкэйд  | -1   | Component4  |
+| регкэйк  | –1   | Component3  |
+| регкэйд  | –1   | Component4  |
 
 
 
@@ -103,7 +103,7 @@ Component 'Component4' has both per-user data and
 
 Первое сообщение об ошибке публикуется, так как Component1 содержит файл a (для компьютера) и раздел реестра HKCU Регкэйа (для каждого пользователя).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

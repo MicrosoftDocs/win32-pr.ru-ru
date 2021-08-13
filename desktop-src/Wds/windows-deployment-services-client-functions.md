@@ -1,19 +1,19 @@
 ---
-title: Клиентские функции служб развертывания Windows
-description: В API клиента служб развертывания Windows используются следующие функции.
+title: Windows Клиентские функции служб развертывания
+description: для API клиента служб Windowsного развертывания используются следующие функции.
 ms.assetid: 4cedd8a8-7f46-4229-9d96-58965b751e43
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe124c6f02d12943d40fbc98af4a687d5b892f86
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4c213822323405e030ba9907f692d6fcaa370356fb395a390dfa0f1fc0818244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566389"
 ---
-# <a name="windows-deployment-services-client-functions"></a>Клиентские функции служб развертывания Windows
+# <a name="windows-deployment-services-client-functions"></a>Windows Клиентские функции служб развертывания
 
-В API клиента служб развертывания Windows используются следующие функции.
+для API клиента служб Windowsного развертывания используются следующие функции.
 
 
 
@@ -55,22 +55,22 @@ ms.locfileid: "105700683"
 
 
 
- 
+ 
 
 
 
 | Функция                                                             | Описание                                                                                                                                                    |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**вдсклижетдриверкуериксмл**](/windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscligetdriverqueryxml)           | Создает XML-строку, которую можно использовать для запроса пакетов драйверов на сервере WDS. Доступно начиная с Windows 8 и Windows Server 2012.               |
-| [**вдсклиобтаиндриверпаккажесекс**](/windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscliobtaindriverpackagesex) | Получает пакеты драйверов (INF-файлы), применимые к указанному XML-файлу запроса драйвера WDS. Доступно начиная с Windows 8 и Windows Server 2012. |
+| [**вдсклижетдриверкуериксмл**](/windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscligetdriverqueryxml)           | Создает XML-строку, которую можно использовать для запроса пакетов драйверов на сервере WDS. доступно, начиная с Windows 8 и Windows Server 2012.               |
+| [**вдсклиобтаиндриверпаккажесекс**](/windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscliobtaindriverpackagesex) | Получает пакеты драйверов (INF-файлы), применимые к указанному XML-файлу запроса драйвера WDS. доступно, начиная с Windows 8 и Windows Server 2012. |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

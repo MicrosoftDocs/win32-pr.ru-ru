@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d8a015998f0a673a310319f93d8f4892dd4b1c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb3591df5dc02fdc63215ff2276202df62347ed21aef23991b4ddcadef094281
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118649749"
 ---
 # <a name="idwritetextlayoutgetoverhangmetrics-method"></a>Метод Идвритетекстлайаут:: Жетоверхангметрикс
 
@@ -57,11 +57,11 @@ virtual HRESULT GetOverhangMetrics(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Подчеркивания и зачеркивание не влияют на определение черного прямоугольника, поскольку они на самом деле рисуются модулем подготовки отчетов, который может нарисовать их в различных стилях.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

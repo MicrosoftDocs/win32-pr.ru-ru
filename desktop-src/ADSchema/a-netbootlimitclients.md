@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8956bf8ba5ae9f5e95e8d687ee664e21b512328
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 989734bfd38f4eaf2e9867833f181290ee67011989dbd3c149ec126a9eb4edd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682425"
 ---
 # <a name="netboot-limit-clients-attribute"></a>атрибут нетбут-Limit-Clients
 
@@ -36,7 +36,7 @@ ms.locfileid: "103989649"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.850               |
 | System-ID — GUID    | 07383077-91df-11d1-aebc-0000f80367c1 |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 

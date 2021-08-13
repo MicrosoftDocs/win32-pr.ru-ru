@@ -4,12 +4,12 @@ description: Переменная Effect объявляется с помощь�
 ms.assetid: c0cfc9dd-2df3-4f38-a0e4-2e494456b3c9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67710642060ffea642434ba2d23a77cec2fb8bc3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 25057f3cd2535a0b48072616c3dd59393f90a24fe044c1cdad8acea677a541ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118538397"
 ---
 # <a name="effect-variable-syntax-direct3d-11"></a>Синтаксис переменной Effect (Direct3D 11)
 
@@ -35,11 +35,11 @@ ms.locfileid: "104487753"
 
 
 
- 
+ 
 
 Переменная Effect, объявленная вне всех функций, считается глобальной в области видимости. переменные, объявленные внутри функции, являются локальными для этой функции.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 В этом примере показаны числовые переменные глобальных эффектов.
 
@@ -170,13 +170,13 @@ sampler mySS[2] : register(s3)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Формат эффектов](d3d11-effect-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

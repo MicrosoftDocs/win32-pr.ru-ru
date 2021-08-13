@@ -1,5 +1,5 @@
 ---
-description: Метод Опенмодуле объекта Merge открывает модуль слияния установщик Windows в режиме только для чтения. Модуль необходимо открыть, прежде чем его можно будет объединить с базой данных установки.
+description: метод опенмодуле объекта merge открывает модуль слияния установщик Windows в режиме только для чтения. Модуль необходимо открыть, прежде чем его можно будет объединить с базой данных установки.
 ms.assetid: fc976899-2c39-4314-b2fb-417e0dfc53b9
 title: Метод Merge. Опенмодуле (Мержемод. h)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 9d83a9331c91817f70c49ecf74c7171c5e627be6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4659fbd2c96d883b04e653fc67c6aa3017f16135405f956bf9b4eb78101bb404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118628730"
 ---
 # <a name="mergeopenmodule-method"></a>Метод Merge. Опенмодуле
 
-Метод **опенмодуле** объекта [**Merge**](merge-object.md) открывает модуль слияния установщик Windows в режиме только для чтения. Модуль необходимо открыть, прежде чем его можно будет объединить с базой данных установки.
+метод **опенмодуле** объекта [**merge**](merge-object.md) открывает модуль слияния установщик Windows в режиме только для чтения. Модуль необходимо открыть, прежде чем его можно будет объединить с базой данных установки.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -59,7 +59,7 @@ Merge.OpenModule(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция открывает модуль слияния в режиме только для чтения и исключает другие программы из записи в модуль слияния, пока не будет вызван метод [**клосемодуле**](merge-closemodule.md) .
 
@@ -69,7 +69,7 @@ Merge.OpenModule(
 
 См. раздел Функция [**опенмодуле**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-openmodule) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

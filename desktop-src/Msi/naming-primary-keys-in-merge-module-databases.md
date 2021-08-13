@@ -4,12 +4,12 @@ ms.assetid: 72822c25-cd21-454b-ab49-846474b55ef1
 title: Именование первичных ключей в базах данных модулей слияния
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e5481e7fd29c4d3750e8fac01b6ca4bd6593af3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b5ab2f7dbb5a41f5999271e5c679b67c6ee37d9b79302509ef61e9dbca97894
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627812"
 ---
 # <a name="naming-primary-keys-in-merge-module-databases"></a>Именование первичных ключей в базах данных модулей слияния
 

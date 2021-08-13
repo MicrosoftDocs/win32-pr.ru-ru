@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e06bc54ebb035a491e2d93a1c372e2d46fc43f76
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6227aaed6ac68c04de1ce8425281674117e11dcb33f8c50db696cff0ea8d8ae8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681599"
 ---
 # <a name="unc-name-attribute"></a>Атрибут UNC-Name
 
@@ -66,7 +66,7 @@ ms.locfileid: "105655038"
 | Range-Upper            | \-                                                                                                                                                   |
 | Search-Flags           | 0x00000001                                                                                                                                           |
 | System-Flags           | 0x00000010                                                                                                                                           |
-| Классы, используемые в        | [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Том**](c-volume.md)<br/> |
+| Классы, используемые в        | [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Громкость**](c-volume.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "105655038"
 | Range-Upper            | \-                                                                                                                                                                                        |
 | Search-Flags           | 0x00000001                                                                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                                                                |
-| Классы, используемые в        | [**FT-DFS**](c-ftdfs.md)<br/> [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Том**](c-volume.md)<br/> |
+| Классы, используемые в        | [**FT-DFS**](c-ftdfs.md)<br/> [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Громкость**](c-volume.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "105655038"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000001                                                                                                                                                                                                                                                           |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                           |
-| Классы, используемые в        | [**FT-DFS**](c-ftdfs.md)<br/> [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**MS-Print-ConnectionPolicy**](c-msprint-connectionpolicy.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Том**](c-volume.md)<br/> |
+| Классы, используемые в        | [**FT-DFS**](c-ftdfs.md)<br/> [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**MS-Print-ConnectionPolicy**](c-msprint-connectionpolicy.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Громкость**](c-volume.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "105655038"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000001                                                                                                                                                                                                                                                           |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                           |
-| Классы, используемые в        | [**FT-DFS**](c-ftdfs.md)<br/> [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**MS-Print-ConnectionPolicy**](c-msprint-connectionpolicy.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Том**](c-volume.md)<br/> |
+| Классы, используемые в        | [**FT-DFS**](c-ftdfs.md)<br/> [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**MS-Print-ConnectionPolicy**](c-msprint-connectionpolicy.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Громкость**](c-volume.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "105655038"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000001                                                                                                                                                                                                                                                           |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                           |
-| Классы, используемые в        | [**FT-DFS**](c-ftdfs.md)<br/> [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**MS-Print-ConnectionPolicy**](c-msprint-connectionpolicy.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Том**](c-volume.md)<br/> |
+| Классы, используемые в        | [**FT-DFS**](c-ftdfs.md)<br/> [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**MS-Print-ConnectionPolicy**](c-msprint-connectionpolicy.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Громкость**](c-volume.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "105655038"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                   |
 | Search-Flags           | 0x00000001                                                                                                                                                                                                                                                           |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                           |
-| Классы, используемые в        | [**FT-DFS**](c-ftdfs.md)<br/> [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**MS-Print-ConnectionPolicy**](c-msprint-connectionpolicy.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Том**](c-volume.md)<br/> |
+| Классы, используемые в        | [**FT-DFS**](c-ftdfs.md)<br/> [**Каталог индекс-сервер**](c-indexservercatalog.md)<br/> [**MS-Print-ConnectionPolicy**](c-msprint-connectionpolicy.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**Громкость**](c-volume.md)<br/> |
 
 
 

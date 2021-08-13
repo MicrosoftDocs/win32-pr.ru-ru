@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a9746356744f2743a8d6656ef4c61044223be113
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04bb39e0c3ecb73facf09e962d2d189bd6ac59449908c0ed9e0214aa5551595e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644821"
 ---
 # <a name="msvm_virtualsystemcollection-class"></a>\_Класс мсвм виртуалсистемколлектион
 
@@ -57,7 +57,7 @@ class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуалсистемколлектион** имеет следующие свойства.
 
@@ -107,7 +107,7 @@ class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 Тип отработки отказа, который был выполнен для коллекции виртуальных систем.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1703.
+> добавлено в Windows 10 версии 1703.
 
  
 
@@ -148,7 +148,7 @@ class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 Уровень согласованности последнего примененного разностного изменения.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1703.
+> добавлено в Windows 10 версии 1703.
 
  
 
@@ -208,7 +208,7 @@ class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 Время, когда последняя репликация применяется к восстановлению для коллекции виртуальных систем.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1703.
+> добавлено в Windows 10 версии 1703.
 
  
 
@@ -226,7 +226,7 @@ class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 Массив идентификаторов виртуальных машин, которые были успешно применены при последнем цикле применения.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1703.
+> добавлено в Windows 10 версии 1703.
 
  
 
@@ -244,7 +244,7 @@ class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 Тип репликации для коллекции виртуальных систем.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1703.
+> добавлено в Windows 10 версии 1703.
 
  
 
@@ -292,7 +292,7 @@ class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 Состояние репликации для коллекции виртуальных систем.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1703.
+> добавлено в Windows 10 версии 1703.
 
  
 
@@ -419,13 +419,13 @@ class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

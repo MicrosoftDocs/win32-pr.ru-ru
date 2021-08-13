@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e7c55980b8b08865889f7567fa6bdb4dcf7bde1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: aa4def81aa39c9df5aaa336a05514ab4581aa14533917fad008fc9c49d32d13e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104493998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682528"
 ---
 # <a name="ms-iis-ftp-root-attribute"></a>атрибут MS-IIS-FTP-root
 
@@ -65,7 +65,7 @@ ms.locfileid: "104493998"
 | Range-Upper            | 256                               |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "104493998"
 | Range-Upper            | 256                               |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -107,7 +107,7 @@ ms.locfileid: "104493998"
 | Range-Upper            | 256                               |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -128,7 +128,7 @@ ms.locfileid: "104493998"
 | Range-Upper            | 256                               |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 

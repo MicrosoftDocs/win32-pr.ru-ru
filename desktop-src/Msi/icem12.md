@@ -4,18 +4,18 @@ ms.assetid: 1a168629-9865-4412-8317-8af8b9a7b8bd
 title: ICEM12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b37cbff2e29a85dd50ef1f044a43fdb8e48ffdd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e53e6f83b9ffccf6595719815ec4bd44cc8ff3774b989b682751dd9be1bbe5f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118634947"
 ---
 # <a name="icem12"></a>ICEM12
 
 ICEM12 проверяет, что в таблице Модулесекуенце стандартные действия имеют порядковые номера, а пользовательские действия имеют значения Басеактион и After.
 
-Этот ИЦЕМ доступен в файле Мержемод. CUB, который входит в состав пакета SDK для установщик Windows 2,0 и более поздних версий. Дополнительные сведения см. в разделе [Windows SDK компонентов для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
+этот ицем доступен в файле мержемод. cub, который входит в состав пакета SDK для установщик Windows 2,0 и более поздних версий. дополнительные сведения см. в разделе [Windows SDK компонентов для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
 
 ## <a name="result"></a>Результат
 
@@ -95,7 +95,7 @@ ModuleExecuteSequence table.
 -   Введите значения в поля Sequence, Басеактион или After для настраиваемого действия Action3. Оставьте поля Басеактион и After пустыми для стандартного действия Action2.
 -   Не оставляйте поле последовательности пустым для стандартного действия Action2.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

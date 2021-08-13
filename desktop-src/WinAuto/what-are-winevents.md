@@ -4,18 +4,18 @@ description: Серверные приложения и операционная
 ms.assetid: 43723706-a173-4ddc-b135-824a7a8e8b40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97864f2b1464718680d781ad843345f1e46fce13
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 87c177183fa776a6becf52d62b86fe0ae6785c5be19dd287324ba3345b586af5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563515"
 ---
 # <a name="what-are-winevents"></a>Что такое Виневентс?
 
 Серверные приложения и операционная система используют Виневентс для уведомления клиентов о возникновении изменений в системе или в пользовательском интерфейсе.
 
-Поддержка WinEvent — это функция операционной системы Windows, которая предоставляет следующие возможности:
+поддержка WinEvent является функцией Windows операционной системы, которая предоставляет следующие возможности:
 
 -   Простой способ регистрации клиентов для получения уведомлений о событиях.
 -   Механизм внедрения клиентского кода в серверы.
@@ -36,9 +36,9 @@ ms.locfileid: "105700677"
 
 Когда Microsoft Active Accessibility уведомляется о событии, он вызывает все функции-ловушки, зарегистрированные для этого события, передавая параметры из [**нотифивиневент**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent).
 
- 
+ 
 
- 
+ 
 
 
 

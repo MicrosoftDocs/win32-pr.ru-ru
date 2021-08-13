@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9abcb2d9f5cdc875f70f5c1db1fd2f625ce911f0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c881c519706ca0288847a7dc603cf513a99cdd76e4c83f0e53bec16df840e509
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118657957"
 ---
 # <a name="cbasewindowonpalettechange-method"></a>Кбасевиндов. Онпалеттечанже, метод
 
@@ -46,7 +46,7 @@ virtual LRESULT OnPaletteChange(
 *HWND* 
 </dt> <dd>
 
-Обработчик для окна.
+Дескриптор для окна.
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ virtual LRESULT OnPaletteChange(
 
 Возвращает 0, если сообщение было обработано, или значение 1, если сообщение не было обработано.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод обрабатывает \_ сообщения WM палеттечанжед и WM \_ куериневпалетте. Он вызывает метод [**кбасевиндов::D ореалисепалетте**](cbasewindow-dorealisepalette.md) для реализации новой палитры.
 
@@ -71,7 +71,7 @@ virtual LRESULT OnPaletteChange(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

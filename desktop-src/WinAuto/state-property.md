@@ -4,12 +4,12 @@ description: Свойство State описывает состояние объ
 ms.assetid: 6a56070f-7913-45b2-b693-3c0a8b7fa2f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d151f09fca6c31abaaa98a19139d3e22eb28ec90
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e174e938dd6252852ded6de957a54f6f94264aa811bd5bb76094af7bbba61f48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564422"
 ---
 # <a name="state-property"></a>Свойство State
 
@@ -21,9 +21,9 @@ Microsoft Active Accessibility предоставляет [константы с
 
 В графиках, которые иногда анимированы, свойство **State** должно иметь значение [**\_ \_ анимированная система состояния**](object-state-constants.md) , а свойство [**Role**](role-property.md) — [**\_ \_ график системы роли**](object-roles.md).
 
- 
+ 
 
- 
+ 
 
 
 

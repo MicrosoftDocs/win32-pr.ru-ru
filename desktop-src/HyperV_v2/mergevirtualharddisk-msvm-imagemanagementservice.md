@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 347e11d55357a8b3366aeb09badc53c1afad9e01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa9867222cf27e6ca23a4d96a04a6b94b558e7c043f182fdf8d8331ad73010c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644876"
 ---
 # <a name="mergevirtualharddisk-method-of-the-msvm_imagemanagementservice-class"></a>Метод Мержевиртуалхарддиск \_ класса) мсвм
 
@@ -120,7 +120,7 @@ uint32 MergeVirtualHardDisk(
 **Файл не найден** (32779)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дочерний виртуальный жесткий диск должен быть вне сети.
 
@@ -172,14 +172,14 @@ public static void MergeVirtualHardDisk(string ChildPath, string ParentPath)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

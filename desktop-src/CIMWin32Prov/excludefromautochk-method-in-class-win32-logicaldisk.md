@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c41d93111742e975490d97169c7e9147ba5fb1ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a37171c594cb3a51b131220bb604234bcae108fa025ea6343da99fdc998a7dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676132"
 ---
 # <a name="excludefromautochk-method-of-the-win32_logicaldisk-class"></a>Метод Ексклудефромауточк \_ класса LogicalDisk Win32
 
@@ -72,7 +72,7 @@ uint32 ExcludeFromAutochk(
 **Ошибка-неизвестный диск** (4)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот параметр не исключен, на диске выполняется **Autochk** , если для диска задан бит "грязный". Обратите внимание, что вызовы для исключения дисков не являются кумулятивными. Если выполняется вызов для исключения некоторых дисков, новый список не добавляется в список дисков, которые уже отмечены для исключения. Новый список дисков перезаписывает предыдущий список. Этот метод применим только к тем экземплярам логического диска, которые представляют физический диск на компьютере. Он неприменим к сопоставленным логическим дискам.
 
@@ -93,7 +93,7 @@ errReturn = objDisk.ExcludeFromAutoChk(Array("C:"))
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -107,7 +107,7 @@ errReturn = objDisk.ExcludeFromAutoChk(Array("C:"))
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

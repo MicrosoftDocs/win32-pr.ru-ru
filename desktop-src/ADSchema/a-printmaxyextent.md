@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 207d81f12303408b082e70b599652ee281ffe458
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d5d6205ba74edfca7a0043f9a2f617b9067b66dfe74c56864e7dc775cefb691a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682182"
 ---
 # <a name="print-max-y-extent-attribute"></a>Print-Max-Y-атрибут экстента
 

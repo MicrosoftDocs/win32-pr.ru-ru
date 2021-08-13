@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f747f108bb6c7e42e90a0ff8503ec59a83c59699
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e00c3ccc43e2583ce8664e62967a22f753148cfa271dd1995e2374c2bfa53c71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118658248"
 ---
 # <a name="cbasewindowactivatewindow-method"></a>Кбасевиндов. Активатевиндов, метод
 
@@ -55,7 +55,7 @@ virtual HRESULT ActivateWindow();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**кбасевиндов:: жетдефаултрект**](cbasewindow-getdefaultrect.md) для определения размера окна. Производный класс должен переопределять **жетдефаултрект** для получения размера отображаемых изображений.
 
@@ -67,7 +67,7 @@ virtual HRESULT ActivateWindow();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

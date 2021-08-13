@@ -1,15 +1,15 @@
 ---
-description: Сведения о установщик Windows основных понятиях, начинающихся с буквы S, например в таблицах последовательностей и исходный список.
+description: сведения о установщик Windows основных понятиях, начинающихся с буквы S, например в таблицах последовательностей и исходный список.
 ms.assetid: 8570bf99-e7db-4af1-acc5-abc236a640d6
 title: S (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e288396a35a90346ffc6581653f32a4478e535
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 17d0bc61230433857a903476dab7ba25e1a75e3a6c405944731b73bfbb29ad78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625554"
 ---
 # <a name="s-windows-installer"></a>S (установщик Windows)
 
@@ -34,7 +34,7 @@ ms.locfileid: "112010887"
 <span id="_msi_standard_action_gly"></span><span id="_MSI_STANDARD_ACTION_GLY"></span>**стандартное действие**
 </dt> <dd>
 
-Встроенное [*действие*](a-gly.md) установщик Windows. Дополнительные сведения см. в разделе [стандартные действия](standard-actions.md).
+встроенное [*действие*](a-gly.md) установщик Windows. Дополнительные сведения см. в разделе [стандартные действия](standard-actions.md).
 
 </dd> <dt>
 
@@ -45,7 +45,7 @@ ms.locfileid: "112010887"
 
 </dd> <dt>
 
-<span id="_msi_structured_query_language_gly"></span><span id="_MSI_STRUCTURED_QUERY_LANGUAGE_GLY"></span>**Язык SQL (SQL)**
+<span id="_msi_structured_query_language_gly"></span><span id="_MSI_STRUCTURED_QUERY_LANGUAGE_GLY"></span>**язык SQL (SQL)**
 </dt> <dd>
 
 Язык, используемый для обработки данных в реляционной базе данных. SQL можно использовать для выполнения запросов к базе данных установщика. Дополнительные сведения см. в разделе [Работа с запросами](working-with-queries.md).
@@ -55,7 +55,7 @@ ms.locfileid: "112010887"
 <span id="_msi_summary_information_stream_gly"></span><span id="_MSI_SUMMARY_INFORMATION_STREAM_GLY"></span>**сводный поток информации**
 </dt> <dd>
 
-Место хранения в [*файле.msi*](m-gly.md) для получения сведений, которые можно просмотреть с помощью проводника Microsoft Windows. Дополнительные сведения см. в разделе Общие [сведения о потоке сводных данных](about-the-summary-information-stream.md).
+служба хранилища расположение в [*файле.msi*](m-gly.md) для получения сведений, которые можно просмотреть с помощью обозревателя Microsoft Windows. Дополнительные сведения см. в разделе Общие [сведения о потоке сводных данных](about-the-summary-information-stream.md).
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ ms.locfileid: "112010887"
 <span id="_msi_system_policy_using_windows_installer__gly"></span><span id="_MSI_SYSTEM_POLICY_USING_WINDOWS_INSTALLER__GLY"></span>**Системная политика**
 </dt> <dd>
 
-Используется системными администраторами для управления конфигурациями пользователей и компьютеров из одного расположения в сети. Системные политики распространяют параметры реестра на большое количество компьютеров, не требуя от администратора подробных сведений о реестре. Системную политику установщика можно настроить с помощью редактора групповая политика (ГПЕ), включенного в Windows 2000. Дополнительные сведения см. в разделе [Системная политика](system-policy.md).
+Используется системными администраторами для управления конфигурациями пользователей и компьютеров из одного расположения в сети. Системные политики распространяют параметры реестра на большое количество компьютеров, не требуя от администратора подробных сведений о реестре. системную политику установщика можно настроить с помощью редактора групповая политика (гпе), включенного в Windows 2000. Дополнительные сведения см. в разделе [Системная политика](system-policy.md).
 
 </dd> </dl>
 

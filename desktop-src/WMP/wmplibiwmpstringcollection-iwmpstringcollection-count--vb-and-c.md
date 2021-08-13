@@ -3,9 +3,9 @@ title: Ивмпстрингколлектион Count, свойство
 description: Свойство Count возвращает количество элементов в коллекции строк.
 ms.assetid: 0ba2d158-fa54-46a8-9124-8a412e71bd09
 keywords:
-- Свойство Count проигрывателя Windows Media Player
-- Свойство Count проигрывателя Windows Media Player, интерфейс Ивмпстрингколлектион
-- Интерфейс Ивмпстрингколлектион Windows Media Player, свойство Count
+- проигрыватель Windows Media свойства count
+- свойство count проигрыватель Windows Media, интерфейс ивмпстрингколлектион
+- интерфейс ивмпстрингколлектион проигрыватель Windows Media, свойство count
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00c520ab346737d1599d79d80ea3acd36c9b84fe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 18e4147d1fbae6c98458c460df34d365d84fe0b2a9f23d508bff4eccb75935de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568460"
 ---
 # <a name="iwmpstringcollectioncount-property"></a>Свойство Ивмпстрингколлектион:: count
 
@@ -51,17 +51,17 @@ Public ReadOnly Property count As System.Int32
 
 Объект **System. Int32** , который является числом элементов в коллекции строк.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед использованием этого свойства необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: cf70b0b3-ac81-47ab-a4c8-4db53ed9dc84
 title: Доступ к текущему сеансу установщика из пользовательского действия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29a870247f70742d408c0f5d1d0e67f20cef65d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3ee3214b8f8664b57f5216b28a7f5d5269d76049fe5c4dd24f7ab8d130d89a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640193"
 ---
 # <a name="accessing-the-current-installer-session-from-inside-a-custom-action"></a>Доступ к текущему сеансу установщика из пользовательского действия
 
@@ -32,7 +32,7 @@ UINT __stdcall CustomAction(MSIHANDLE hInstall)
 
 [Создание и запуск скриптов PowerShell из консоли Configuration Manager](scripts.md)
 
-Настраиваемые действия, написанные на языке VBScript или JScript, могут обращаться к текущему сеансу установки с помощью [**объекта Session**](session-object.md). Установщик создает объект **сеанса** с именем Session, который ссылается на текущую установку. Для доступа только для чтения к текущей базе данных используйте свойство [**Database**](session-database.md) объекта **Session** .
+настраиваемые действия, написанные на языке VBScript или JScript, могут получать доступ к текущему сеансу установки с помощью [**объекта session**](session-object.md). Установщик создает объект **сеанса** с именем Session, который ссылается на текущую установку. Для доступа только для чтения к текущей базе данных используйте свойство [**Database**](session-database.md) объекта **Session** .
 
 Поскольку скрипт запускается из контекста объекта [**Session**](session-object.md) , не всегда нужно указывать полные свойства и методы. В следующем примере при использовании VBScript ссылка Me может заменить объект **Session** , например, следующие три строки эквивалентны.
 
@@ -65,7 +65,7 @@ SetInstallLevel 1
 
 Невозможно получить доступ к текущему сеансу установщика или ко всем данным свойств из настраиваемого действия отложенного выполнения. Дополнительные сведения см. в разделе [Получение контекстных сведений для отложенного выполнения настраиваемых действий](obtaining-context-information-for-deferred-execution-custom-actions.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

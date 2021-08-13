@@ -1,30 +1,30 @@
 ---
-title: Сеть Windows (Внет)
-description: Функции Windows Networking (Внет) позволяют реализовать сетевые возможности в приложении без предоставления прав для конкретного поставщика сети или реализации физической сети.
+title: Windows Сети (Внет)
+description: функции Windows networking (внет) позволяют реализовать сетевые возможности в приложении без предоставления квот для конкретного поставщика сети или реализации физической сети.
 ms.assetid: 7668ac55-7104-4ddb-88eb-920cfe4e36fd
 keywords:
-- Внет сети Windows
+- Windows сети внет
 - Внет Внет
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4d436ec5c5daec52d73a3a6f7942bcc76ef4251
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48b177a3b873584a06429b2a9a033d316851b43df7bb3af524fe393224c6b0c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566417"
 ---
-# <a name="windows-networking-wnet"></a>Сеть Windows (Внет)
+# <a name="windows-networking-wnet"></a>Windows Сети (Внет)
 
-Функции Windows Networking (Внет) позволяют реализовать сетевые возможности в приложении без предоставления прав для конкретного поставщика сети или реализации физической сети. Это обусловлено тем, что функции Внет независимы от сети.
+функции Windows networking (внет) позволяют реализовать сетевые возможности в приложении без предоставления квот для конкретного поставщика сети или реализации физической сети. Это обусловлено тем, что функции Внет независимы от сети.
 
--   [О сети Windows](about-windows-networking.md)
--   [Использование сети Windows](using-windows-networking.md)
--   [Справочник по сетям Windows](windows-networking-reference.md)
+-   [сведения о Windows сети](about-windows-networking.md)
+-   [использование Windows networking](using-windows-networking.md)
+-   [Windows Справочник по сетям](windows-networking-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

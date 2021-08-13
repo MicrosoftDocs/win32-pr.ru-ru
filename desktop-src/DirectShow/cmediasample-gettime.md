@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8ff2035ede3e49feb2bc14a7aa31cfc18f2e7d23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 755965864692cf2b34ebaadc6e064a47a7514c69fe891a6a15f1bb364e5345e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118655255"
 ---
 # <a name="cmediasamplegettime-method"></a>Кмедиасампле. метод времени
 
@@ -73,7 +73,7 @@ HRESULT GetTime(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переменные конечного элемента [**кмедиасампле:: m \_ Start**](cmediasample-m-start.md) и [**кмедиасампле: \_ : m**](cmediasample-m-end.md) определяют метки времени. Переменная члена [**кмедиасампле:: m \_ dwFlags**](cmediasample-m-dwflags.md) указывает, являются ли отметки времени допустимыми.
 
@@ -85,7 +85,7 @@ HRESULT GetTime(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

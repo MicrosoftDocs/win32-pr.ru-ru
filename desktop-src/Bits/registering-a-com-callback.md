@@ -10,12 +10,12 @@ keywords:
 - БИТЫ событий уведомления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdcc52c772656c2168af9c10724ee43fac25aa80
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 753feb481a578c30322d18def07418c2dcb611d601fcb438b0e85e843697790b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118680008"
 ---
 # <a name="registering-a-com-callback"></a>Регистрация обратного вызова COM
 
@@ -104,6 +104,6 @@ if (FAILED(hr))
 
 
 
- 
+ 
 
- 
+ 

@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a3dc1b58dd97582e229497e754d10c3f307eab76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce3126cf208032e4d43e9ce1866e1cd0ab42c17930684c98d4ad351de88713b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118647372"
 ---
 # <a name="cim_storageextent-class-hyper-v-management"></a>Класс CIM_StorageExtent (Управление Hyper-V)
 
@@ -79,7 +79,7 @@ class CIM_StorageExtent : CIM_LogicalDevice
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ сторажеекстент** имеет следующие свойства.
 
@@ -144,7 +144,7 @@ class CIM_StorageExtent : CIM_LogicalDevice
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("bytes"), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. DMTF \| Hosting Storage \| 001,4 "," MIB. В файле IETF \| Host-Resources-MIB. хрсторажеаллокатионунитс "," MIF. \|Устройства хранения DMTF \| 001,5 ")
+Квалификаторы: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("bytes"), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. DMTF \| Host служба хранилища \| 001,4 "," MIB. В файле IETF \| Host-Resources-MIB. хрсторажеаллокатионунитс "," MIF. \|устройства с служба хранилища DMTF \| 001,5 ")
 </dt> </dl>
 
 Размер (в байтах) блоков, образующих экстент хранения. Если используются размеры блоков переменных, это свойство должно указывать максимальный размер блока. Если размер блока неизвестен или не является допустимым понятием блока (например, для **CIM \_ аггрегатикстент**, [**\_ памяти CIM**](cim-memory.md) или [**CIM \_ LogicalDisk**](cim-logicaldisk.md)), то этому свойству должно быть присвоено значение 1 (неизвестный).
@@ -427,7 +427,7 @@ class CIM_StorageExtent : CIM_LogicalDevice
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -658,7 +658,7 @@ class CIM_StorageExtent : CIM_LogicalDevice
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (MIF. DMTF \| Hosting Storage \| 001,5 "," MIB. \|Основной узел IETF-Resources-MIB. хрсторажесизе ")
+Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (MIF. DMTF \| Host служба хранилища \| 001,5 "," MIB. \|Основной узел IETF-Resources-MIB. хрсторажесизе ")
 </dt> </dl>
 
 Общее число логически смежных блоков, образующих экстент хранения. Общий размер экстента хранения вычисляется **путем умножения на** **нумберофблоккс**. Если размер **блока** равен "1", это свойство является общим размером экстента хранения.
@@ -755,7 +755,7 @@ class CIM_StorageExtent : CIM_LogicalDevice
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

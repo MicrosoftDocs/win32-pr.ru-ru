@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: feb69036ad9cd33b8f0a60f5356192acbea8dd71
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0b702a26c61920f5a3868ccc479b1f8578a3075907b5dc5bc2eb9d070321c91d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118680784"
 ---
 # <a name="ms-ds-bindable-object-class"></a>класс объектов MS-DS-BIND-Object
 

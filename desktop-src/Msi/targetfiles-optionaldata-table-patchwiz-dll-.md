@@ -4,12 +4,12 @@ ms.assetid: 577b1674-1e44-42e1-b011-c0fb561b514c
 title: Таблица TargetFiles_OptionalData (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 859ac2e03f68c28eff5ebf7f5afa2bf53ab69299
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5664e2e21968cb3fee5ce3d606dd07008f2436c4b649a7bcefeebd77df9cf6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118623739"
 ---
 # <a name="targetfiles_optionaldata-table-patchwizdll"></a>\_Таблица Оптионалдата таржетфилес (Patchwiz.dll)
 
@@ -21,12 +21,12 @@ ms.locfileid: "103998908"
 
 | Столбец        | Type | Ключ | Допускает значения NULL |
 |---------------|------|-----|----------|
-| Целевой объект        | text | Да   | Нет        |
-| фтк           | text | Да   | Нет        |
-| симболпасс   | text |     | Да        |
-| игнореоффсетс | text |     | Да        |
-| игнореленгсс | text |     | Да        |
-| ретаиноффсетс | text |     | Да        |
+| Target        | text | Д   | Нет        |
+| фтк           | text | Д   | Нет        |
+| симболпасс   | text |     | Д        |
+| игнореоффсетс | text |     | Д        |
+| игнореленгсс | text |     | Д        |
+| ретаиноффсетс | text |     | Д        |
 
 
 
@@ -84,7 +84,7 @@ ms.locfileid: "103998908"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

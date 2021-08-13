@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a45efd821116b24e883ec29d494a1d588559f57a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed7409635444885b662688ce94c300aae6e62186dd76bd7278b3e7445ef50c90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118542049"
 ---
 # <a name="ideliveryoptimizationfile2-interface"></a>Интерфейс IDeliveryOptimizationFile2
 
@@ -41,12 +41,12 @@ ms.locfileid: "104071393"
 | [**GetProperty**](ideliveryoptimizationfile2-getproperty.md)  | Этот метод возвращает одно свойство файла DO. |
 | [**SetProperty**](ideliveryoptimizationfile2-setproperty.md)  | Этот метод задает одно свойство для файла DO.    |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента      | \[Только для настольных приложений Windows 10 версии 1803\]                                    |
-| Минимальная версия сервера      | \[Только для настольных приложений Windows Server версии 1709\]                                |
+| Минимальная версия клиента      | Windows 10, только для \[ настольных приложений версии 1803\]                                    |
+| Минимальная версия сервера      | Windows Server, только для \[ настольных приложений версии 1709\]                                |
 | Header                        | Deliveryoptimization. h                                                            |
 | IDL                           | DeliveryOptimization. idl                                                          |
 | Библиотека                       | Досвк. lib                                                                         |

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1eb310c3e126caf9b25b8c015b840aea11791d8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3a83528a1ec632fcf2309438e6228220544a32408b310ea90260b8bcfda3cb6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642812"
 ---
 # <a name="module-attribute"></a>атрибут module
 
@@ -78,7 +78,7 @@ module modulename
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Выходные данные файла заголовка (h) для модулей — это последовательность прототипов функций. Ключевое слово **module** и окружающие квадратные скобки удаляются из выходных данных файла заголовка (. h), но перед прототипами вставляется комментарий (// *ModuleName* **модуля** ). Ключевое слово **extern** вставляется перед объявлениями.
 
@@ -141,13 +141,13 @@ module somemodule
 [**propputref**](propputref.md)
 </dt> <dt>
 
-[**Строка**](string.md)
+[**строка**](string.md)
 </dt> <dt>
 
 [**типефлагс**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> <dt>
 
-[**UUID**](uuid.md)
+[**uuid**](uuid.md)
 </dt> <dt>
 
 [**vararg**](vararg.md)
@@ -156,6 +156,6 @@ module somemodule
 [**Версия**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

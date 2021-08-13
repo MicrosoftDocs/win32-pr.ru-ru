@@ -1,19 +1,19 @@
 ---
 title: Как выровняйте текст
-description: Текст DirectWrite можно выстроить с помощью метода Сеттексталигнмент интерфейса Идвритетекстформат.
+description: DirectWrite текст можно вычислить с помощью метода сеттексталигнмент интерфейса идвритетекстформат.
 ms.assetid: 7f79dcff-11f6-4e74-b5bd-98bfebe6e393
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb765860f2fbaac94409aa9ec20c2269beb45cbb
-ms.sourcegitcommit: 3b9424e1dcd951b2a73e47de3c7f4d734de4263b
+ms.openlocfilehash: c3a9d73443577468d794e43dc62d19e7dd24a86227ba6b5e5d8c3542cdded8ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106103869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118650373"
 ---
 # <a name="how-to-align-text"></a>Как выровняйте текст
 
-Текст [DirectWrite](direct-write-portal.md) можно выстроить с помощью метода [**сеттексталигнмент**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment) интерфейса [**идвритетекстформат**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) , как показано в следующем коде, который выравнивает текст по центру.
+[DirectWrite](direct-write-portal.md) текст можно вычислить с помощью метода [**сеттексталигнмент**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment) интерфейса [**идвритетекстформат**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) , как показано в следующем коде, который выравнивает текст по центру.
 
 
 ```C++

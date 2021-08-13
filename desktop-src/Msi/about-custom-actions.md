@@ -4,12 +4,12 @@ ms.assetid: 2cbb60ff-dd41-4699-82a4-77b217dc1228
 title: Сведения о настраиваемых действиях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bb38310bb4cf6485d65ae036a06e4f8ffe99804
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c2570549c67878f9ba193e18aa76c8e862154aeac2dc6080f99a16c96da6ab1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640301"
 ---
 # <a name="about-custom-actions"></a>Сведения о настраиваемых действиях
 

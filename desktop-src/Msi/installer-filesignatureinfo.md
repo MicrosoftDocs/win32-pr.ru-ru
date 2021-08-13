@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 5dbb758118b7612aaef3f7cca744674bca1c768d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 670b5ba6deb4a53429180e832c2a49e4968c53efbe7c54cdf50e62e20bf5503b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118630785"
 ---
 # <a name="installerfilesignatureinfo-method"></a>Метод Installer. Филесигнатуреинфо
 
@@ -59,7 +59,7 @@ Installer.FileSignatureInfo(
 
 
 
-| Flag                                                                                                                                                                                                                                                                                                                                    | Значение                                                                                                                                                                                                                                                                                                                                        |
+| Флаг                                                                                                                                                                                                                                                                                                                                    | Значение                                                                                                                                                                                                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="msiSignatureOptionInvalidHashFatal"></span><span id="msisignatureoptioninvalidhashfatal"></span><span id="MSISIGNATUREOPTIONINVALIDHASHFATAL"></span><dl> <dt>**мсисигнатуреоптионинвалидхашфатал**</dt> <dt>1</dt> </dl> | Если *параметр* with имеет значение Мсисигнатуреоптионинвалидхашфатал, **филесигнатуреинфо** всегда возвращает неустранимую ошибку для недопустимого хэша. <br/> Если для *параметров* не задано значение мсисигнатуреоптионинвалидхашфатал, а параметр *Format* имеет значение мсисигнатуреинфоцертификате, **филесигнатуреинфо** не возвращает ошибку для недопустимого хэша.<br/> |
 
@@ -76,7 +76,7 @@ Installer.FileSignatureInfo(
 
 
 
-| Flag                                                                                                                                                                                                                                                                                                        | Значение                                                                         |
+| Флаг                                                                                                                                                                                                                                                                                                        | Значение                                                                         |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | <span id="msiSignatureInfoCertificate"></span><span id="msisignatureinfocertificate"></span><span id="MSISIGNATUREINFOCERTIFICATE"></span><dl> <dt>**мсисигнатуреинфоцертификате**</dt> <dt>0</dt> </dl> | Возвращает SAFEARRAY байт, представляющих закодированный сертификат.<br/> |
 | <span id="msiSignatureInfoHash"></span><span id="msisignatureinfohash"></span><span id="MSISIGNATUREINFOHASH"></span><dl> <dt>**мсисигнатуреинфохаш**</dt> <dt>1</dt> </dl>                             | Возвращает SAFEARRAY байтов, представляющих хэш.<br/>                |
@@ -91,17 +91,17 @@ Installer.FileSignatureInfo(
 
 В случае успешного выполнения метод возвращает [массив SafeArray](/windows/win32/api/oaidl/ns-oaidl-safearray) байтов, который содержит хэш-или закодированный сертификат.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы создать полностью проверенную установку с помощью автоматизации, используйте метод **филесигнатуреинфо** для заполнения таблиц [мсидигиталцертификате](msidigitalcertificate-table.md), [мсипатчцертификате](msipatchcertificate-table.md)и [мсидигиталсигнатуре](msidigitalsignature-table.md) . Дополнительные сведения см. [в статье Создание полностью проверенной подписанной установки с помощью службы автоматизации](authoring-a-fully-verified-signed-installation-using-automation.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ иинсталлер определен как 000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 
@@ -114,7 +114,7 @@ Installer.FileSignatureInfo(
 [Создание полностью проверенной подписанной установки с помощью службы автоматизации](authoring-a-fully-verified-signed-installation-using-automation.md)
 </dt> <dt>
 
-[Цифровые подписи и установщик Windows](digital-signatures-and-windows-installer.md)
+[цифровые подписи и установщик Windows](digital-signatures-and-windows-installer.md)
 </dt> <dt>
 
 [**мсижетфилесигнатуреинформатион**](/windows/desktop/api/Msi/nf-msi-msigetfilesignatureinformationa)
