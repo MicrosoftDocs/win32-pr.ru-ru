@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ed2c21c0f00bd89b0054667274a559ef25ce9326
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8744bbac256d0cebc6d340ac83c4e8da746c03b298e2e3cd6c542310b3fc4914
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103908731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119254984"
 ---
 # <a name="cim_transparentbridgingservice-class"></a>\_Класс CIM транспарентбридгингсервице
 
@@ -43,7 +43,7 @@ class CIM_TransparentBridgingService : CIM_ForwardingService
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ транспарентбридгингсервице** имеет следующие свойства.
 
@@ -78,7 +78,7 @@ class CIM_TransparentBridgingService : CIM_ForwardingService
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

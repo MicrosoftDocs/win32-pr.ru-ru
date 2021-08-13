@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e37efcd773728e563a4112f61a7c6c965d05bad4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 766366497187fec9c6dab3c5f92f5fbca23f5729297976d2c9e2c7e4ffb0deef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119376464"
 ---
 # <a name="id3dx11effectvariablegetannotationbyname-method"></a>Метод ID3DX11EffectVariable:: Жетаннотатионбинаме
 
@@ -43,7 +43,7 @@ ID3DX11EffectVariable* GetAnnotationByName(
 
 <dl> <dt>
 
-*имя*; 
+*Имя* 
 </dt> <dd>
 
 Тип: **[ **LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
@@ -58,7 +58,7 @@ ID3DX11EffectVariable* GetAnnotationByName(
 
 Указатель на [**ID3DX11EffectVariable**](id3dx11effectvariable.md). Обратите внимание, что если заметка не найдена, возвращаемый **ID3DX11EffectVariable** будет пустым. Чтобы определить, найдена ли заметка, следует вызвать метод [**ID3DX11EffectVariable:: IsValid**](id3dx11effectvariable-isvalid.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Аннонатионс можно подключить к методу, к Pass или к глобальной переменной.
 
@@ -67,13 +67,13 @@ ID3DX11EffectVariable* GetAnnotationByName(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

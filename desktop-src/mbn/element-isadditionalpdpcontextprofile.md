@@ -7,16 +7,16 @@ MSHAttr:
 title: исаддитионалпдпконтекстпрофиле
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 169aa9a34a561f65eed5dfc315e7711ef6bb9bf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a075916144971196433d1a490a9076c4d40ddb86b363d2904d1affce63a5995
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745127"
 ---
 # <a name="span-idwwan_profile_v3element_isadditionalpdpcontextprofilespanisadditionalpdpcontextprofile"></a><span id="WWAN_profile_v3.element_IsAdditionalPdpContextProfile"></span>исаддитионалпдпконтекстпрофиле
 
-Элемент **исаддитионалпдпконтекстпрофиле** содержит **логическое** значение, равное **true** , если это дополнительный профиль "PDP" (протокол пакетных данных) и **значение false** в противном случае. Значение по умолчанию — **false**.
+Элемент **исаддитионалпдпконтекстпрофиле** содержит **логическое** значение, равное **true** , если это дополнительный профиль "PDP" (протокол пакетных данных) и **значение false** в противном случае. Значение по умолчанию — **false**.
 
 Профиль "дополнительный контекст PDP" — это профиль, который не активируется через порт по умолчанию физического адаптера, и установка этого элемента равным true гарантирует, что этот профиль не будет отображаться в пользовательском интерфейсе ненадлежащим образом.
 
@@ -53,7 +53,7 @@ ms.locfileid: "104343355"
 
 Этот внешний элемент (Document) не может содержаться в каких-либо других элементах.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>

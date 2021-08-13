@@ -5,12 +5,12 @@ ms.assetid: 3cf5acc6-2f17-49d4-aca5-a84a846d1749
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 3a50a6e3ab421e2275644051ed647d5c4501f8e0
-ms.sourcegitcommit: 015fb35e736a235d3c9becff1f6832a0965b4303
+ms.openlocfilehash: 0c9223eb561ecc391014bc4a89c86a634181bec6d1e3917866aeef2723f1510a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103891377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259542"
 ---
 # <a name="how-to-create-a-linear-gradient-brush"></a>Создание кисти линейного градиента
 
@@ -29,7 +29,7 @@ ms.locfileid: "103891377"
 
 2.  Используйте метод [**ID2D1RenderTarget:: креатеградиентстопколлектион**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_id2d1gradientstopcollection)) , чтобы создать коллекцию [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) с объявленным массивом структурных точек [**D2D1 \_ градиента \_**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) , как показано в следующем коде.
     > [!Note]  
-    > Начиная с Windows 8, вместо этого можно использовать метод [**ID2D1DeviceContext:: креатеградиентстопколлектион**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection) для создания коллекции [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) . Этот интерфейс добавляет градиенты высокого цвета и интерполяцию градиентов в виде прямых или прмултиплиед цветов. Дополнительные сведения см. на странице **ID2DDeviceContext:: креатеградиентстопколлектион** .
+    > начиная с Windows 8 можно использовать метод [**ID2D1DeviceContext:: креатеградиентстопколлектион**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection) для создания коллекции [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) . Этот интерфейс добавляет градиенты высокого цвета и интерполяцию градиентов в виде прямых или прмултиплиед цветов. Дополнительные сведения см. на странице **ID2DDeviceContext:: креатеградиентстопколлектион** .
 
      
 
@@ -82,7 +82,7 @@ ms.locfileid: "103891377"
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

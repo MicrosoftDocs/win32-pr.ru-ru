@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f2da3504596c3b351318b33c929dad3b5a958165
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d58a34d4018588d5f0dfd2bfac9cb118677045e7693532008361062bcdc596b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118458795"
 ---
 # <a name="folderitemparent-property"></a>FolderItem. Parent, свойство
 
@@ -41,9 +41,9 @@ objParent = FolderItem.Parent
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование **родителя** для JScript, VBScript и Visual Basic.
+в следующем примере показано правильное использование **родителя** для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -145,13 +145,13 @@ Visual Basic:
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

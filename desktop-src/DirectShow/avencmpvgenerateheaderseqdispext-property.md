@@ -4,12 +4,12 @@ ms.assetid: 61470caa-cca6-4e7e-91a0-758ec5a9bdb5
 title: Свойство Авенкмпвженератехеадерсекдиспекст (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9b3dd17e1a9931f1b5df4cbc87e866346e5f02a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 49cc4efc93df331d4550984135ec13b2d7e7d9f22a027db0c42a9950146fcc02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119276164"
 ---
 # <a name="avencmpvgenerateheaderseqdispext-property"></a>Авенкмпвженератехеадерсекдиспекст, свойство
 
@@ -25,18 +25,18 @@ ms.locfileid: "103805501"
 
 **КОДЕКАПИ \_ авенкмпвженератехеадерсекдиспекст**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если значение является **вариантным \_ true**, кодировщик создает заголовки для расширения представления последовательности.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: c5fcbcfa1a8b6c1aa9922b98a7699bdf2bf4b0fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 073e922ce8c1a79e81d991c869743148b5a581503192a10dfb9cd6e64707d83e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118906676"
 ---
 # <a name="sslexportkey-function"></a>Функция Сслекспорткэй
 
@@ -132,7 +132,7 @@ SECURITY_STATUS WINAPI SslExportKey(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **сслекспорткэй** упрощает перенос ключей сеанса из одного процесса в другой, а также экспорт открытой части в эфемерный ключ.
 
@@ -140,14 +140,14 @@ SECURITY_STATUS WINAPI SslExportKey(
 
 При экспорте открытой части эфемерного ключа тип большого двоичного объекта должен иметь соответствующий тип, например **NCrypt \_ DH \_ Public \_ BLOB** или **NCrypt \_ еккпублик \_ BLOB**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Сслпровидер. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

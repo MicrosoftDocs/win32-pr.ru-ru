@@ -4,12 +4,12 @@ ms.assetid: 85ac8de0-ac36-4b34-a93d-0ac792a677b2
 title: Свойство MFPKEY_WMAAECMA_FEATR_AGC (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f42c7abd854b8fe18b5cfd4fe23ededb28faa6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f038b18657363677e0953f8fe973c2e3029130ffc2183a08344e1b0cd6905747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343814"
 ---
 # <a name="mfpkey_wmaaecma_featr_agc-property"></a>МФПКЭЙ \_ вмааекма \_ феатр \_ АГК, свойство
 
@@ -27,11 +27,11 @@ ms.locfileid: "105692605"
 
 ВАРИАНТ \_ false
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP для записи речи](voicecapturedmo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Автоматический усиление контроля — это компонент DSP, который корректирует прибыль таким образом, чтобы уровень вывода сигнала оставался в том же приближенном диапазоне.
 
@@ -50,14 +50,14 @@ ms.locfileid: "105692605"
 
 По умолчанию это свойство имеет значение VARIANT \_ false (отключено). Перед установкой этого свойства необходимо присвоить свойству [ \_ \_ \_ режима компонента мфпкэй вмааекма](mfpkey-wmaaecma-feature-modeproperty.md) значение Variant \_ true.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 

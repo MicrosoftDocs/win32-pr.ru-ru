@@ -4,12 +4,12 @@ description: Direct3D реализует формат файлов DDS для х
 ms.assetid: 39f9847e-3b1c-4401-a253-74c183ffcc83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4940db5ec40e6ec0b907aa4ee7ce725cd585e961
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: c8fc1f8b9b84c2dc1f9236c79c320ae75848834ef2183db55b189f6b9d340d06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104414161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796724"
 ---
 # <a name="programming-guide-for-dds"></a>Руководством по программированию для DDS
 
@@ -21,7 +21,7 @@ Direct3D реализует формат файлов DDS для хранени�
 -   [Варианты DDS](#dds-variants)
 -   [Использование массивов текстур в Direct3D 10/11](#using-texture-arrays-in-direct3d-1011)
 -   [Общие форматы файловых ресурсов DDS и связанное содержимое заголовка](#common-dds-file-resource-formats-and-associated-header-content)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="dds-file-layout"></a>Макет файла DDS
 
@@ -189,7 +189,7 @@ for (int iArrayElement = 0; iArrayElement < header10.arraySize; iArrayElement++)
 
 \*\* = Из-за некоторых долгосрочных проблем в распространенных реализациях модулей чтения и записи DDS, самым надежным способом записи данных 10:10:10:2-Type является использование расширения заголовка СОДЕРЖИМЫМ DX10 с кодом [**\_ формата DXGI**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) "24" (то есть \_ форматом DXGI \_ R10G10B10A2 \_ UNORM Value). \_Данные A2R10G10B10 D3DFMT должны быть преобразованы в данные типа 10:10:10:2 перед их записью в виде \_ \_ файла DDS формата DXGI R10G10B10A2 \_ UNORM.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

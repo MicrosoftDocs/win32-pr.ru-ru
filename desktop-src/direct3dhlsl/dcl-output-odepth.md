@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 43580a542c1a66961cfa7434c65cd8d271fb0367
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b343230d8f1ab488bd11410eddefbca58ebedd0f1ff7962f80049a8678833f11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118793150"
 ---
 # <a name="dcl_output-odepth-sm4---asm"></a>дкл \_ Output одепс (SM4-ASM)
 
@@ -27,7 +27,7 @@ ms.locfileid: "104335635"
 
 
 
- 
+ 
 
 Значение в регистре глубины вывода используется при сравнении глубины (если включена функция глубины сравнения).
 
@@ -41,13 +41,13 @@ ms.locfileid: "104335635"
 
 
 
- 
+ 
 
 Эта инструкция включена для облегчения отладки шейдера в сборке; нельзя создать шейдер на языке ассемблера с использованием модели шейдеров 4.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
-Вот несколько примеров.
+Рассмотрим некоторые примеры.
 
 
 ```
@@ -64,27 +64,27 @@ dcl_output oDepth
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Сборка Shader Model 4 (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

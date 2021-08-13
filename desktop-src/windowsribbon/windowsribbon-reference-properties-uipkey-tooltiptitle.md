@@ -4,12 +4,12 @@ description: Определяет свойство UI \_ PKEY \_ тултипт�
 ms.assetid: ed9f422d-a782-4950-a579-060185550891
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e62fe9ebdb6418f5790e0073e32e81d7f7aba75
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae6a9e479d2f963acd4041d23e2b1ca075db609f9d45b556cd2aab34e6b2c6a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437789"
 ---
 # <a name="ui_pkey_tooltiptitle"></a>UI \_ PKEY \_ тултиптитле
 
@@ -17,15 +17,15 @@ ms.locfileid: "105700635"
 
 ```
 propertyDescription
-   name = UI_PKEY_TooltipTitle
-   shellPKey = UI_PKEY_TooltipTitle
-   formatID = 00000006-7363-696e-8441798acf5aebb7
-   propID = 6
-   typeInfo
-      type = VT_LPWSTR
+   name = UI_PKEY_TooltipTitle
+   shellPKey = UI_PKEY_TooltipTitle
+   formatID = 00000006-7363-696e-8441798acf5aebb7
+   propID = 6
+   typeInfo
+      type = VT_LPWSTR
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 UI \_ PKEY \_ тултиптитле используется приложением для запроса подсказки вкладок, групп, кнопок, элементов коллекции и других элементов управления ленты.
 
@@ -34,7 +34,7 @@ UI \_ PKEY \_ тултиптитле используется приложени
 > [!Note]  
 > Используйте ссылку на символ XML универсальной кодировки (UCS) `&#xA;` для указания разрыва строки.
 
- 
+ 
 
 Выравнивание по правому краю не поддерживается.
 
@@ -49,7 +49,7 @@ UI \_ PKEY \_ тултиптитле используется приложени
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -62,9 +62,9 @@ UI \_ PKEY \_ тултиптитле используется приложени
 [UI \_ PKEY \_ тултипдескриптион](windowsribbon-reference-properties-uipkey-tooltipdescription.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

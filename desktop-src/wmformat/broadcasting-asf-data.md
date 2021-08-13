@@ -3,20 +3,20 @@ title: Трансляция данных ASF
 description: Трансляция данных ASF
 ms.assetid: 1b04f361-8147-4f6a-8c9d-d8eeed28550a
 keywords:
-- Windows Media Format SDK, рассылка данных ASF
+- Windows Пакет SDK для формата мультимедиа, рассылка данных ASF
 - Расширенный формат систем (ASF), данные вещания
 - ASF (Расширенный системный формат), широковещательная рассылка данных
-- Пакет SDK для Windows Media Format, отправка данных ASF
+- Windows Пакет SDK для формата мультимедиа, отправка данных ASF
 - Расширенный системный формат (ASF), отправка данных
 - ASF (Расширенный системный формат), отправка данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42339b4a3e60666c1ea0cb69a07dfdc836b19409
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: a44fc9ea0515822c765b0cb3af457254341a64f08e64d566aa9e226a48758e7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104069679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118434468"
 ---
 # <a name="broadcasting-asf-data"></a>Трансляция данных ASF
 
@@ -129,7 +129,7 @@ HRESULT CNetWrite::OnTime(QWORD cnsCurrentTime, void *pvContext)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -139,9 +139,9 @@ HRESULT CNetWrite::OnTime(QWORD cnsCurrentTime, void *pvContext)
 [**Работа с приемниками модуля записи**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

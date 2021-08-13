@@ -1,6 +1,6 @@
 ---
 title: Свойство Сеарчпасс Ивмвиртуалпк (Впккоминтерфацес. h)
-description: Пути файловой системы, используемые для поиска файлов, связанных с Windows Virtual PC.
+description: пути файловой системы, используемые для поиска файлов, связанных с Windows Virtual PC.
 ms.assetid: 2a2deee5-7e6b-4b90-8ce9-0b0dbeef0f30
 keywords:
 - Сеарчпасс свойство Virtual PC
@@ -18,18 +18,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 287eb07bc9205f9b6f0851bd8809f9a49dcf3242
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ac4ef75bf0a696494b839f330063ca310927a0d796829d96575721f492b8b691
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103800959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471254"
 ---
 # <a name="ivmvirtualpcsearchpaths-property"></a>Свойство Ивмвиртуалпк:: Сеарчпасс
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
-Извлекает и задает пути файловой системы, используемые для поиска файлов, связанных с Windows Virtual PC.
+извлекает и задает пути файловой системы, используемые для поиска файлов, связанных с Windows Virtual PC.
 
 Это свойство доступно для чтения и записи.
 
@@ -72,13 +72,13 @@ HRESULT get_SearchPaths(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |

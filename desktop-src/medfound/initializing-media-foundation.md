@@ -4,12 +4,12 @@ ms.assetid: e4db81d3-7a9e-47d7-8611-6dac8026259c
 title: Инициализация Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb876ec3493d6c4fac1c2f6d6757ef647c511a98
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 202ab57db5821b252001a723eb8765493eb86362111da5c54e5e16e9fca4219a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105674553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119268924"
 ---
 # <a name="initializing-media-foundation"></a>Инициализация Media Foundation
 
@@ -33,7 +33,7 @@ MFShutdown();
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

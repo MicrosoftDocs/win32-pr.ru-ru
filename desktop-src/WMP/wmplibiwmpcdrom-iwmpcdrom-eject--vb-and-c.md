@@ -3,9 +3,9 @@ title: Метод извлечения Ивмпкдром
 description: Метод Eject извлекает компакт-диск или DVD-диск из накопителя. | Метод извлечения Ивмпкдром
 ms.assetid: c0a69252-fd79-452c-bc61-3c3e8bcaaf48
 keywords:
-- метод извлечения Windows Media Player
-- метод извлечения Windows Media Player, интерфейс Ивмпкдром
-- Интерфейс Ивмпкдром Windows Media Player, метод reeject
+- проигрыватель Windows Media метода извлечения
+- метод извлечения проигрыватель Windows Media, интерфейс ивмпкдром
+- интерфейс ивмпкдром проигрыватель Windows Media, метод reeject
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8ca2403b86b648e98861d91a21db80ddb64aac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 00dbdf22d8eb0ba4073a1b74c25c0d610f3091477e5921dd0856fa835a9bccc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119246764"
 ---
 # <a name="iwmpcdromeject-method"></a>Метод Ивмпкдром:: reeject
 
@@ -53,7 +53,7 @@ Implements IWMPCdrom.eject
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если дверца диска открыта, этот метод закрывает дверцу.
 
@@ -85,13 +85,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

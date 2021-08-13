@@ -4,16 +4,16 @@ ms.assetid: 4c375369-51d9-44ac-a8f0-c2a96fc10805
 title: 'Метод Итформатконтрол:: Жетстреамкапс (Ипмсп. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a1ccaf825912e53eafb5112f14ed369f999959a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f54cbd44a946c0fcd3cf297c4cacadc49369765b8c1b6505031a145768c3b17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119406114"
 ---
 # <a name="itformatcontrolgetstreamcaps-method"></a>Метод Итформатконтрол:: Жетстреамкапс
 
-\[ Этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **жетстреамкапс** извлекает возможности, связанные с данным индексом формата.
 
@@ -78,7 +78,7 @@ HRESULT GetStreamCaps(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

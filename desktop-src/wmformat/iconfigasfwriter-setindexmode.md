@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 25d5f2b985aeca490323aecaef2595d52b99056c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2b65fbd3d279b8a66c132d24476b09b0f897c5993ea9a97d86096cf856832f9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433619"
 ---
 # <a name="iconfigasfwritersetindexmode-method"></a>Метод Иконфигасфвритер:: Сетиндексмоде
 
@@ -31,7 +31,7 @@ ms.locfileid: "104070050"
 
 ```C++
 HRESULT SetIndexMode(
-  [in] BOOL bIndexFile
+  [in] BOOL bIndexFile
 );
 ```
 
@@ -52,9 +52,9 @@ HRESULT SetIndexMode(
 
 Если метод завершается успешно, возвращается значение S \_ ОК. В случае сбоя возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-По умолчанию [средство записи WM ASF](wm-asf-writer-filter.md) создает файлы ASF с временным индексированием. Он выполняет индексирование при остановке графа. Это поведение можно отключить, если вы хотите выполнить собственное индексирование на основе кадров в качестве этапа последующей обработки. Чтобы создать файл, индексируемый по фрейму, вызовите **сетиндексмоде**(false), создайте файл, а затем используйте методы пакета SDK Windows Media Format напрямую для создания индекса на основе фрейма для файла.
+По умолчанию [средство записи WM ASF](wm-asf-writer-filter.md) создает файлы ASF с временным индексированием. Он выполняет индексирование при остановке графа. Это поведение можно отключить, если вы хотите выполнить собственное индексирование на основе кадров в качестве этапа последующей обработки. чтобы создать файл, индексируемый по фрейму, вызовите **сетиндексмоде**(FALSE), создайте файл, а затем используйте методы пакета SDK Windows Media Format напрямую, чтобы создать индекс на основе фрейма для файла.
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -63,6 +63,6 @@ HRESULT SetIndexMode(
 [**Интерфейс Иконфигасфвритер**](/previous-versions/windows/desktop/legacy/dd743205(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

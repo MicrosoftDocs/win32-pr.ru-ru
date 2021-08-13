@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 056fc4a091db7c71df3c9e259db51d752bc7f350
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ac9660384e15827b3a1bc6949e448ff2f9ce99c3d034de02c86a3831cc219ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475594"
 ---
 # <a name="imsrdpclient4-interface"></a>Интерфейс IMsRdpClient4
 
@@ -33,7 +33,7 @@ ms.locfileid: "104137567"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **IMsRdpClient4** имеет следующие свойства.
 
@@ -47,7 +47,7 @@ ms.locfileid: "104137567"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс **IMsRdpClient4** расширен следующими интерфейсами. каждый новый интерфейс наследует все методы и свойства предыдущих интерфейсов:
 
@@ -60,7 +60,7 @@ ms.locfileid: "104137567"
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

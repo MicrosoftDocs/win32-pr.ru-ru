@@ -4,12 +4,12 @@ ms.assetid: 5848493c-1f8e-4fe2-8261-dfdc8f61b265
 title: Свойство Авенквидеонуффиелдстоенкоде (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d93b7d2dbf652cc61209d7ada60d47db927258b5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 525deb0bbacf90eaffe2946ab569e419a68774f42390d6d2c85a355f2f390a7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119274984"
 ---
 # <a name="avencvideonooffieldstoencode-property"></a>Авенквидеонуффиелдстоенкоде, свойство
 
@@ -25,18 +25,18 @@ ms.locfileid: "103894485"
 
 **КОДЕКАПИ \_ авенквидеонуффиелдстоенкоде**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для последовательного видео задайте для этого свойства значение вдвое больше числа кадров для кодирования.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

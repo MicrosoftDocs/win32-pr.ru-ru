@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f45293fe95627c7dfad4c9c51eb7fa74ad1738c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2fcf871f3fc5f258de22e033e8a388968ab58c1a35e19829bf3d02a97ca60c53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909372"
 ---
 # <a name="winbio_registered_format-structure"></a>ВИНБИО \_ зарегистрированная \_ Структура формата
 
@@ -49,16 +49,16 @@ typedef struct _WINBIO_REGISTERED_FORMAT {
 
 </dd> <dt>
 
-**Тип**
+**Type**
 </dt> <dd>
 
 Формат, которому назначен владелец.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Так как Windows в настоящее время поддерживает только средства чтения отпечатков пальцев, в **винбио \_ зарегистрированной структуре \_ формата** должны использоваться следующие значения.
+поскольку Windows в настоящее время поддерживает только средства чтения отпечатков пальцев, в **винбио \_ зарегистрированной структуре \_ формата** должны использоваться следующие значения.
 
 
 
@@ -71,14 +71,14 @@ typedef struct _WINBIO_REGISTERED_FORMAT {
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                                    |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                                    |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Винбио \_ types. h (include винбио. h)</dt> </dl> |
 
 

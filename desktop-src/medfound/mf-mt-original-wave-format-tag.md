@@ -4,12 +4,12 @@ ms.assetid: 2b30a1c2-4a42-4b09-acb6-b76267cc7ed0
 title: Атрибут MF_MT_ORIGINAL_WAVE_FORMAT_TAG (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba89171f9ae2bf3ab99df05bd3ae64b7d52be6d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a89f05086858f54c619e3896f5978cf81005e9b1e80e858bc89c71e951ab48b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741669"
 ---
 # <a name="mf_mt_original_wave_format_tag-attribute"></a>\_ \_ \_ \_ \_ Атрибут пометки исходного формата MF MT
 
@@ -29,7 +29,7 @@ ms.locfileid: "105674409"
 
 [**имфмедиатипе**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В зависимости от исходного файла источник AVI Media может установить этот атрибут для типов мультимедиа, которые он предлагает.
 
@@ -43,14 +43,14 @@ ms.locfileid: "105674409"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

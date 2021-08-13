@@ -4,12 +4,12 @@ ms.assetid: faeee338-bce4-4b35-9be9-72a6568fa259
 title: Атрибуты CMC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e6778575a9359ad5b8764528fb0351b68efc1e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b98e30c257234ebee864a1749ceecee7b79e25a9e11c9f1f190c60f3154ef64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902067"
 ---
 # <a name="cmc-attributes"></a>Атрибуты CMC
 
@@ -118,7 +118,7 @@ Nonce — это случайные или псевдо-случайные дв�
 
 Этот атрибут может использоваться для хранения сведений о регистрации, которые клиент выбирает для постановки в запрос CMC. Значение атрибута — строка, содержащая объединенные пары "имя-значение". Дополнительные сведения см. в описании свойства [**намевалуепаирс**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_namevaluepairs) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

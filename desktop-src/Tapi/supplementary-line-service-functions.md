@@ -4,12 +4,12 @@ ms.assetid: d4338b3c-cd84-4abb-b74e-9df895c8355b
 title: Функции службы дополнительных строк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21a29831369fd6b886d57cfae075b5b8bf7a83b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0f2bdd609f092adebd5270a4cc8a3fe35bedce17ad57d8e4e85b5875001255f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119476347"
 ---
 # <a name="supplementary-line-service-functions"></a>Функции службы дополнительных строк
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 4ac83d6d8aeea8429812d80b7bf66de7c87062a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96f1e7fa0de86439f89bf5c4c610bf5b46640533071260852c47321c5a1c6673
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907091"
 ---
 # <a name="sslcreateclientauthhash-function"></a>Функция Сслкреатеклиентаусхаш
 
@@ -108,18 +108,18 @@ SECURITY_STATUS WINAPI SslCreateClientAuthHash(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **сслкреатеклиентаусхаш** вызывается для [*протокола*](/windows/desktop/SecGloss/t-gly) TLS 1,2 или более поздней версии для создания хэш-объектов, используемых для хэширования сообщений подтверждения. Он вызывается один раз для каждого возможного [*алгоритма хэширования*](/windows/desktop/SecGloss/h-gly) , который может использоваться в сигнатуре проверки подлинности клиента.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                  |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Сслпровидер. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

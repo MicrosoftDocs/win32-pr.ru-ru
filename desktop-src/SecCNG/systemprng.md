@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ksecdd.sys
 - Cng.sys
-ms.openlocfilehash: d847d34ffd11e158170f55599de0ceb3acf3c697
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eae1a46b43278c836ff6ce318dfdce7302bb0e052664a7326f9043a60eec72d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905633"
 ---
 # <a name="systemprng-function"></a>Функция SystemPrng
 
@@ -66,15 +66,15 @@ BOOL SystemPrng(
 
 Всегда возвращает **значение true**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows Vista с пакетом обновления 1 \[\]<br/>                                                                                                                                                                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                                                                                                                                                           |
-| DLL<br/>                      | <dl> <dt>Ksecdd.sys в Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1); </dt> <dt>Cng.sys в Windows 7 и Windows Server 2008 R2</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows Vista с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                                                                                                                                                                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                                                                                                                                                           |
+| DLL<br/>                      | <dl> <dt>Ksecdd.sys на Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1);</dt> <dt>Cng.sys на Windows 7 и Windows Server 2008 R2</dt> </dl> |
 
 
 

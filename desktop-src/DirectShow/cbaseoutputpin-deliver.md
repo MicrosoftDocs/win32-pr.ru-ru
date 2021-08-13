@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5adc603e4cdd1f49e649264d2d82d6df0fb12569
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f6786e9e763af26619b2dc4f6abc25aa2fd9527d7278e7da02f6042908e56bdd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119341384"
 ---
 # <a name="cbaseoutputpindeliver-method"></a>Метод Кбасеаутпутпин. доставки
 
@@ -64,7 +64,7 @@ virtual HRESULT Deliver(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**имеминпутпин:: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) для входного ПИН-кода. **Receive** может блокироваться, если метод [**Имеминпутпин:: Рецеивеканблокк**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receivecanblock) возвращает значение S \_ ОК.
 
@@ -74,13 +74,13 @@ virtual HRESULT Deliver(
 
 Рабочие потоки могут создавать потенциальные взаимоблокировки. Когда поток удерживает критическую секцию, он может ожидать изменения состояния в фильтре. В то же время изменение состояния может ожидать завершения потока. Чтобы избежать этого, код изменения состояния должен сигнализировать о событии, завершающем поток, а затем ожидать завершения потока.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

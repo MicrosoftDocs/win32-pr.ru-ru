@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5afa6bc6ba28de799795a049dde3ab98ebdb4c78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6bd8ddc173915e2bbd912a6a668c63b4be733f32357189fe6ff3365a20bacfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119410314"
 ---
 # <a name="winbio_ansi_385_face-constants"></a>\_ \_ Константы винбио ANSI 385 \_
 
@@ -35,14 +35,14 @@ ms.locfileid: "104137054"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                                   |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Винбио \_ types. h (include винбио. h)</dt> </dl> |
 
 

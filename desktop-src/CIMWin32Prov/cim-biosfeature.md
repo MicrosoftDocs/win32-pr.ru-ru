@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 538dc9e4c18d976901519ae0e2d6f5249fd25c35
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8fb99bffde80e16d5e37764ecbb49581cacc117f554abfec5603e9b3a3e76ec9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119218594"
 ---
 # <a name="cim_biosfeature-class"></a>\_Класс CIM биосфеатуре
 
@@ -69,13 +69,13 @@ class CIM_BIOSFeature : CIM_SoftwareFeature
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ биосфеатуре** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -461,7 +461,7 @@ PC-98.
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -617,13 +617,13 @@ PC-98.
 Квалификаторы: [**распространяются**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**\_ продукт CIM**](cim-product.md)".**Поставщик**"), [**\_ ключ CIM**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256), [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| ComponentID \| 001,1 ")
 </dt> </dl>
 
-Название поставщика продукта, соответствующее свойству **Vendor** объекта Product стандарта Exchange решения DMTF Standard.
+название поставщика продукта, которое соответствует свойству **Vendor** объекта product в решении DMTF Exchange Standard.
 
 Это свойство наследуется от [**CIM \_ софтварефеатуре**](cim-softwarefeature.md).
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -635,13 +635,13 @@ PC-98.
 Квалификаторы: [**распространяются**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**\_ продукт CIM**](cim-product.md)".**Версия**"), [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| ComponentID \| 001,3 ")
 </dt> </dl>
 
-Сведения о версии продукта, которые соответствуют свойству **Version** объекта Product стандарта Exchange решения DMTF Standard.
+сведения о версии продукта, соответствующие свойству **version** в объекте product решения DMTF Exchange Standard.
 
 Это свойство наследуется от [**CIM \_ софтварефеатуре**](cim-softwarefeature.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ биосфеатуре** является производным от [**CIM \_ софтварефеатуре**](cim-softwarefeature.md).
 
@@ -649,7 +649,7 @@ PC-98.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

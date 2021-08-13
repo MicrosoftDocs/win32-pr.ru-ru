@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 6b2994f4db3de04f339bb242120b6c63cd2e0c7b
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 9eda6fd63953425001906595b0cd8b594496e0f83974ba9d359ed43a639a4164
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104139178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475964"
 ---
 # <a name="imsrdpcameraredirconfigcollectionencodevideo-property"></a>Свойство Имсрдпкамераредирконфигколлектион:: Енкодевидео
 
@@ -47,7 +47,7 @@ HRESULT get_EncodeVideo(
 
 Значение, указывающее, является ли поток видео закодированным H. 264.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------|

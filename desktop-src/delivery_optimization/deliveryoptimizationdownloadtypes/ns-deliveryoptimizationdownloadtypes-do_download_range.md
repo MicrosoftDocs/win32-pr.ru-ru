@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 0f328565c80350a05cbfb23f178ea3580586f326
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 39672bff2e3a7194f7d674b2184d5de8c9c3c601e4a7777ef31ace80f5f9f327
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "105719089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047122"
 ---
 # <a name="do_download_range-structure"></a>Структура DO_DOWNLOAD_RANGE
 
@@ -44,10 +44,10 @@ typedef struct _DO_DOWNLOAD_RANGE
 
 Длина диапазона в байтах. Не указывайте нулевую длину в байтах. Чтобы указать, что диапазон расширяется до конца файла, укажите **DO_LENGTH_TO_EOF**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Минимальная версия клиента** | Windows 10, \[ только приложения Win32 версии 1809\] |
-| **Минимальная версия сервера** | Windows Server, \[ только приложения Win32 версии 1809\] |
+| **Минимальная версия клиента** | Windows 10, версия 1809 \[ Только приложения Win32\] |
+| **Минимальная версия сервера** | Windows Сервер, \[ только приложения Win32 версии 1809\] |
 | **Header** | Деливерйоптимизатиондовнлоадтипес. h |

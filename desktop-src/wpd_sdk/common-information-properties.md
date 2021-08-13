@@ -1,5 +1,5 @@
 ---
-description: Портативные устройства Windows поддерживают следующие общие свойства информации.
+description: Windows Портативные устройства поддерживают следующие общие свойства информации.
 ms.assetid: eaae7431-d53d-42a1-9286-001c6f5b1641
 title: Общие сведения о свойствах (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: b773d8404997da20b4196c802ba12286679af683
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41a8845a41714ed1a775d19e14f0996aad698aaf99de18da4eceb4df92688409
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431107"
 ---
 # <a name="common-information-properties"></a>Общие сведения о свойствах
 
-Портативные устройства Windows поддерживают следующие общие свойства информации.
+Windows Портативные устройства поддерживают следующие общие свойства информации.
 
 
 
@@ -39,13 +39,13 @@ ms.locfileid: "105718043"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

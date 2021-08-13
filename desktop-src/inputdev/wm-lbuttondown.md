@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: c8ac54e813d622f47462b73b763534977ba0932f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8521bc5319919855f734f6b7ac75a58af1af99a58ca360e833984649eb574bbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351624"
 ---
 # <a name="wm_lbuttondown-message"></a>\_Сообщение ЛБУТТОНДОВН WM
 
@@ -101,9 +101,9 @@ LRESULT CALLBACK WndProc(_In_ HWND hWnd, _In_ UINT msg, _In_ WPARAM wParam, _In_
 }
 ```
 
-Дополнительные примеры см. в разделе [классические примеры Windows](https://github.com/microsoft/Windows-classic-samples) на сайте GitHub.
+дополнительные примеры см. в разделе [Windows классические примеры](https://github.com/microsoft/Windows-classic-samples) на GitHub.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Как отмечалось выше, координата x находится в низком порядке в **коротком** значении возвращаемого значения; Координата y находится в **высоком порядке (** оба представляют значения *со знаком* , так как они могут принимать отрицательные значения в системах с несколькими мониторами). Если возвращаемое значение присваивается переменной, можно использовать макрос [**макепоинтс**](/windows/desktop/api/wingdi/nf-wingdi-makepoints) для получения структуры [**points**](/previous-versions//dd162808(v=vs.85)) из возвращаемого значения. Для извлечения координат x или y можно также использовать макрос [**Get \_ x \_ lParam**](/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) или [**Get \_ Y \_**](/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) .
 
@@ -114,7 +114,7 @@ LRESULT CALLBACK WndProc(_In_ HWND hWnd, _In_ UINT msg, _In_ WPARAM wParam, _In_
 
 Чтобы обнаружить, что нажата клавиша ALT, проверьте, < ли в **\_ меню** " [**жеткэйстате**](/windows/win32/api/winuser/nf-winuser-getkeystate) " VK "0". Обратите внимание, что это не должно быть [**жетасинккэйстате**](/windows/win32/api/winuser/nf-winuser-getasynckeystate).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

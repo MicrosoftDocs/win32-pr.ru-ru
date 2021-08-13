@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f025b93e626c4b0f2ab6bb7729169aaff1d67707
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f258d291961add7f97fd8f67da46bc2e3e64d57eda942fbffd9aeded7f15aafc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118778512"
 ---
 # <a name="esentfatalexception-constructor-string-jet_err"></a>Конструктор Есентфаталексцептион (String, JET_err)
 
@@ -59,7 +59,7 @@ protected EsentFatalException(
 
 #### <a name="parameters"></a>Параметры
 
-  - description;  
+  - description  
     Тип: [System. String](/dotnet/api/system.string)  
     
     Описание ошибки.

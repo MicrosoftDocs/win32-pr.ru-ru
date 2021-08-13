@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ab27ed9002562643ddf4df6b33efe9d8f0454d94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a9e65738acfa8a795dc1431bc3c6bb6242d810227bcdc40abcc8cfdf43dea934
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118790382"
 ---
 # <a name="load4uint-uint-function"></a>Load4 (uint, uint), функция
 
@@ -28,8 +28,8 @@ ms.locfileid: "104070028"
 
 ``` syntax
 uint4 Load4(
-  in  uint Location,
-  out uint Status
+  in  uint Location,
+  out uint Status
 );
 ```
 
@@ -61,19 +61,19 @@ uint4 Load4(
 
 Четыре значения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -85,6 +85,6 @@ uint4 Load4(
 [**битеаддрессбуффер**](sm5-object-byteaddressbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

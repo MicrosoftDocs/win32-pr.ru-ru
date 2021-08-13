@@ -4,12 +4,12 @@ description: Безопасность позволяет управлять до
 ms.assetid: b132da61-26b7-4457-9433-4894ca0e640a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c41bfb6d7990c104b60bd9770fde3f45cee0432
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 04e3b6871fe0e465b4394e871537fbb8ca07f6439577833d61a7fe0c3106685f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435999"
 ---
 # <a name="window-station-security-and-access-rights"></a>Права доступа и безопасность оконной станции
 
@@ -33,7 +33,7 @@ ms.locfileid: "105710291"
 
 
 
- 
+ 
 
 В следующей таблице перечислены права доступа для конкретного объекта.
 
@@ -54,7 +54,7 @@ ms.locfileid: "105710291"
 
 
 
- 
+ 
 
 Ниже перечислены [универсальные права доступа](/windows/desktop/SecAuthZ/generic-access-rights) для объекта интерактивной рабочей станции, который является станцией окна, назначенной сеансу входа текущего пользователя.
 
@@ -111,7 +111,7 @@ WINSTA_WRITEATTRIBUTES<br />
 
 
 
- 
+ 
 
 Ниже перечислены [универсальные права доступа](/windows/desktop/SecAuthZ/generic-access-rights) для неинтерактивного объекта Windows Station. Система назначает неинтерактивные станции окон всем сеансам входа, кроме текущего пользователя.
 
@@ -164,10 +164,10 @@ WINSTA_READATTRIBUTES<br />
 
 
 
- 
+ 
 
 Вы можете запросить право доступа к \_ системе безопасности системы доступа \_ к объекту Windows Station, если хотите прочитать или записать список SACL объекта. Дополнительные сведения см. в разделе [списки управления доступом (ACL)](/windows/desktop/SecAuthZ/access-control-lists) и [права доступа к спискам SACL](/windows/desktop/SecAuthZ/sacl-access-right).
 
- 
+ 
 
- 
+ 

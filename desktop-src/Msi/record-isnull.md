@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 027d5f818b63ca1883034ae0dfc12b46ef47b005
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f2235e3ec33d62fccc385e5f0d83cf5222b031cc8fe3950269b81df669f4319
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119212094"
 ---
 # <a name="recordisnull-property"></a>Свойство Record. IsNull
 
@@ -40,13 +40,13 @@ propVal = Record.IsNull
 
 Обязательный номер поля значения в записи, 1.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | Header<br/>  | <dl> <dt>Экземпляр. h</dt> </dl>                                                                                                                                                                   |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ ирекорд определен как 000C1093-0000-0000-C000-000000000046<br/>                                                                                                                                                                              |

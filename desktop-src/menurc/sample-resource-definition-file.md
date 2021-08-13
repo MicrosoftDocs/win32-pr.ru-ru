@@ -4,12 +4,12 @@ description: Пример файла скрипта, который опреде
 ms.assetid: 0362b1be-7671-4685-8eb8-bff502224939
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64e6a870b4b63b0e88e5ddcd069e8318e4bdb750
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 141258148b4e7a21d625a44b7f03d5e383c318d10447e050891f32b397c4283d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119226004"
 ---
 # <a name="sample-resource-definition-file"></a>Пример файла Resource-Definition
 
@@ -42,9 +42,9 @@ ShapesMenu MENU
 
 Текст определения меню, заключенный в фигурные скобки или ключевые слова **Begin** и **End** , задает каждый пункт меню и идентификатор меню, которые возвращаются, когда пользователь выбирает этот элемент. Например, первый элемент в меню **clear** возвращает идентификатор в меню, \_ когда пользователь выбирает его. Идентификаторы меню определяются в файле заголовка приложения SHAPEs. H.
 
- 
+ 
 
- 
+ 
 
 
 

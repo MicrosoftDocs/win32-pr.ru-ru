@@ -4,16 +4,16 @@ ms.assetid: e55775d2-1166-4f14-9553-207c69202b69
 title: Схема профиля мобильного широкополосного подключения v1
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8f02be0cf77923b6802ea1bc58944eb26108858
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b34e8e45218666cebf320a03bb3051f0f945930387c3773e2d7bc941cd31e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744616"
 ---
 # <a name="mobile-broadband-profile-schema-v1"></a>Схема профиля мобильного широкополосного подключения v1
 
-Схема профиля Windows 7Mobile широкополосной связи v1 доступна в пространстве имен `https://www.microsoft.com/networking/WWAN/profile/v1` .
+в пространстве имен доступна схема Windows 7Mobile широкополосного профиля версии v1 `https://www.microsoft.com/networking/WWAN/profile/v1` .
 
 -   [Элементы схемы профиля мобильного широкополосного подключения v1](schema-elements.md)
 -   [Простые типы схемы профиля мобильного широкополосного подключения v1](schema-simple-types.md)

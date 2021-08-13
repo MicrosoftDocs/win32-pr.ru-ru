@@ -23,12 +23,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84704e59ed43466c47435f4804cb4dedc9c3a92d
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: ab336b147557722f1bec72bfe662b12599a64ee1622b31bdad6a92a05af6d92e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119483014"
 ---
 # <a name="eaphost-constants"></a>Константы EAPHost
 
@@ -192,14 +192,14 @@ Windows Vista с пакетом обновления 1 (SP1) или более �
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |------|------------------------------|
-| Клиент<br/> | \[Только классические приложения Windows 8\]<br/> |
-| Сервер<br/> | \[Только для настольных приложений Windows Server 2012\]<br/> |
+| Клиент<br/> | Windows 8 \[ только классические приложения\]<br/> |
+| Сервер<br/> | Windows Server 2012 \[ только классические приложения\]<br/> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: af401eaa98ac4255b15961477b1ba2316e29edf0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 321f5075bdfde3a5a3d707089867356b3f702230dd81d2a1c29b513a8cf8e1ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118800377"
 ---
 # <a name="id3dxtexturegutterhelpergettexelmap-method"></a>Метод ID3DXTextureGutterHelper:: Жеттекселмап
 
@@ -55,19 +55,19 @@ HRESULT GetTexelMap(
 
 Если метод выполнен успешно, возвращается значение S \_ . Если метод завершается с ошибкой, будет возвращено следующее значение. D3DERR \_ инвалидкалл
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для [**классов 2 и 4 пикселей текстуры**](id3dxtexturegutterhelper.md)возвращенные координаты текстуры (u, v) соответствуют ближайшей точке ближайшего треугольника.
 
 Приложение должно выделить Птекселдата и управлять им.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

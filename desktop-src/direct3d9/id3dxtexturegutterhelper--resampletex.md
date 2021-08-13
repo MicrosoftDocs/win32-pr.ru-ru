@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0ad8b4cefe0b368cbf81de4ddc030f32cda8fb17
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f7d3afe8155eb33a37b30abcfc96aae83c0a96461c1ee2dd6118a671701cfed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118800323"
 ---
 # <a name="id3dxtexturegutterhelperresampletex-method"></a>Метод ID3DXTextureGutterHelper:: Ресамплетекс
 
@@ -95,7 +95,7 @@ HRESULT ResampleTex(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметризация в случае этой функции представляет собой набор координат текстуры, который сопоставляет треугольники сетки с треугольниками на текстуре. Новая параметризация — это набор координат текстуры, содержащихся в вспомогательном интерфейсе переплета, а исходная параметризация — это набор координат текстуры, содержащихся во входной сетке.
 
@@ -138,13 +138,13 @@ hr = pGutterHelper->ResampleTex(pOriginalTex, pMesh, D3DDECLUSAGE_TEXCOORD,
 
 Одним из распространенных сценариев может быть использование Уватлас для создания текстуры Atlas и последующее использование Ресамплетекс для повторной выборки текстуры в новой параметризации. Дополнительные сведения о атласов см. [в разделе Использование уватлас (Direct3D 9)](using-uvatlas.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

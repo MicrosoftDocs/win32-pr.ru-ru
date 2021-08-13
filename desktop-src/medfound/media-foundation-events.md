@@ -4,12 +4,12 @@ ms.assetid: d925f63d-3359-4ba1-802f-0c2b11a3f973
 title: События Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a63beeb3222ffef4151f45be95d13f9cf9ff4f9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 38a922127941bd94103eac9cfb02ef33d1c0b789eb632f2689a3adc81494c377
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105703441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119268824"
 ---
 # <a name="media-foundation-events"></a>События Media Foundation
 
@@ -18,18 +18,18 @@ ms.locfileid: "105703441"
 | Событие                                                                                        | Описание                                                                                                                                              |
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [меаудиосессиондевицеремовед](meaudiosessiondeviceremoved.md)                               | Звуковое устройство удалено.                                                                                                                            |
-| [меаудиосессиондисконнектед](meaudiosessiondisconnected.md)                                 | Сеанс звука был отключен от сеанса служб терминалов Windows                                                                              |
+| [меаудиосессиондисконнектед](meaudiosessiondisconnected.md)                                 | сеанс аудио был отключен от сеанса Терминал Windows Services                                                                              |
 | [меаудиосессионексклусивемодеоверриде](meaudiosessionexclusivemodeoverride.md)               | Сеанс звука был прерван подключением с монопольным режимом.                                                                                         |
 | [меаудиосессионформатчанжед](meaudiosessionformatchanged.md)                               | Изменен звуковой формат по умолчанию для звукового устройства.                                                                                                   |
 | [меаудиосессионграупингпарамчанжед](meaudiosessiongroupingparamchanged.md)                 | Параметры группирования, измененные для сеанса аудио.                                                                                                   |
 | [меаудиосессионикончанжед](meaudiosessioniconchanged.md)                                   | Изменился значок сеанса аудио.                                                                                                                          |
 | [меаудиосессионнамечанжед](meaudiosessionnamechanged.md)                                   | Изменилось отображаемое имя сеанса аудио.                                                                                                                  |
-| [меаудиосессионсервершутдовн](meaudiosessionservershutdown.md)                             | Система Windows Audio Server была выключена.                                                                                                           |
+| [меаудиосессионсервершутдовн](meaudiosessionservershutdown.md)                             | система Windows audio server была выключена.                                                                                                           |
 | [меаудиосессионволумечанжед](meaudiosessionvolumechanged.md)                               | Том или выключено состояние сеанса звука                                                                                                    |
 | [мебуфферингстартед](mebufferingstarted.md)                                                 | Источник мультимедиа, запущенный для буферизации данных.                                                                                                                   |
 | [мебуфферингстоппед](mebufferingstopped.md)                                                 | Источник мультимедиа прекратил буферизацию данных.                                                                                                                   |
 | [мекаптуреаудиосессиондевицеремовед](mecaptureaudiosessiondeviceremoved.md)                 | Устройство было удалено.                                                                                                                                  |
-| [мекаптуреаудиосессиондисконнектед](mecaptureaudiosessiondisconnected.md)                   | Сеанс звука отключен, так как пользователь выполнил выход из сеанса служб терминалов Windows (ВТС).                                            |
+| [мекаптуреаудиосессиондисконнектед](mecaptureaudiosessiondisconnected.md)                   | сеанс звука отключен, так как пользователь выполнил выход из сеанса Терминал Windows Services (WTS).                                            |
 | [мекаптуреаудиосессионексклусивемодеоверриде](mecaptureaudiosessionexclusivemodeoverride.md) | Пользователь открыл поток звука в монопольном режиме.                                                                                                       |
 | [мекаптуреаудиосессионформатчанжед](mecaptureaudiosessionformatchanged.md)                 | Звуковой формат изменился.                                                                                                                                |
 | [мекаптуреаудиосессионсервершутдовн](mecaptureaudiosessionservershutdown.md)               | Завершение работы сервера сеансов звука.                                                                                                                       |
@@ -113,7 +113,7 @@ ms.locfileid: "105703441"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

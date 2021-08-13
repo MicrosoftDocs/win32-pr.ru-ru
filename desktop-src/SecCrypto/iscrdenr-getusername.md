@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 51f551a704f3a98b932e646c95810f928e73bac7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b61dd43980049355621c2ee4085634303c55e0f9dac79db839602d07c7d61f94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409453"
 ---
 # <a name="iscrdenrgetusername-method"></a>Метод Искрденр::
 
@@ -86,18 +86,18 @@ SCrdEnr.getUserName( _
 
 Строка, представляющая имя пользователя.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно указать имя пользователя, которому выдается [*смарт-карта*](../secgloss/s-gly.md) , вызвав либо [**Искрденр:: Сетусернаме**](iscrdenr-setusername.md) , либо [**искрденр:: селектусернаме**](iscrdenr-selectusername.md). После указания имени пользователя его значение можно получить, вызвав метод **суперпользователя.**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ искрденр определен как 753988a1-1357-436d-9cf5-f089bdd67d64<br/>             |
 

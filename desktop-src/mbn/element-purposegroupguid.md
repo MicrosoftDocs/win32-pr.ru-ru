@@ -7,12 +7,12 @@ MSHAttr:
 title: пурпосеграупгуид
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d20d6c9d1687ea0e3fca344fd3b534ccc0b3ee57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29ead67e44ac4735d17d97580b6bce5f187422994c9854bac19febf7a988bcbf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119358841"
 ---
 # <a name="span-idwwan_profile_v4element_purposegroupguidspanpurposegroupguid"></a><span id="WWAN_profile_v4.element_PurposeGroupGuid"></span>пурпосеграупгуид
 
@@ -22,7 +22,7 @@ ms.locfileid: "104423794"
 
 Определены четыре значения GUID, перечисленные в следующей таблице.
 
-| Целевая группа | Код GUID                                 |
+| Целевая группа | GUID                                 |
 |---------------|--------------------------------------|
 | Интернет      | 3E5545D2-1137-4DC8-A198-33F1C657515F |
 | MMS           | 53E2C5D3-D13C-4068-AA38-9C48FF2E55A8 |
@@ -82,7 +82,7 @@ ms.locfileid: "104423794"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>

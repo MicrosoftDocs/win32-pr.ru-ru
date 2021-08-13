@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 243831a94a26b86df29d3a50413bfa9d6830a0e3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 425cfbe10ac2ee66f10e016489ff070b67b6fc243a472f95b4f5809724998a21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279224"
 ---
 # <a name="getexceptioninformation-macro"></a>Макрос Жетексцептионинформатион
 
@@ -48,7 +48,7 @@ LPEXCEPTION_POINTERS GetExceptionInformation(void);
 -   [**Исключение \_ Структура записи**](/windows/desktop/api/WinNT/ns-winnt-exception_record) , содержащая описание исключения.
 -   Структура [**контекста**](/windows/desktop/api/WinNT/ns-winnt-arm64_nt_context) , содержащая сведения о состоянии компьютера.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Критерий фильтра (из которого вызывается функция) вычисляется при возникновении исключения во время выполнения блока **\_ \_ try** и определяет, выполняется ли блок **\_ \_ except** .
 
@@ -58,14 +58,14 @@ LPEXCEPTION_POINTERS GetExceptionInformation(void);
 
 В случае вложенных обработчиков каждое критерий фильтра вычисляется до тех пор, пока одно выражение не будет оценено как **\_ \_ обработчик исключений** или **\_ продолжение \_ выполнения исключения**. Каждое выражение фильтра может вызывать **жетексцептионинформатион** для получения сведений об исключениях.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 
@@ -94,7 +94,7 @@ LPEXCEPTION_POINTERS GetExceptionInformation(void);
 [Общие сведения об обработке структурированных исключений](structured-exception-handling.md)
 </dt> <dt>
 
-[Включить поддержку Windows для Intel AVX](../win7appqual/enable-windows-7-support-for-intel-avx.md)
+[включение поддержки Windows Intel AVX](../win7appqual/enable-windows-7-support-for-intel-avx.md)
 </dt> </dl>
 
  
