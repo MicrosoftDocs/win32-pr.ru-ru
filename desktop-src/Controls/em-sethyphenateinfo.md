@@ -3,7 +3,7 @@ title: Сообщение EM_SETHYPHENATEINFO (RichEdit. h)
 description: Задает способ расстановки переносов в элементе управления Rich Edit.
 ms.assetid: 67126cb8-ab50-49a9-b32f-2245debf2fe3
 keywords:
-- Элементы управления Windows для EM_SETHYPHENATEINFO сообщений
+- элементы управления Windows сообщений EM_SETHYPHENATEINFO
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8369d463ae03e9410347ab58a50346625e3de47
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5551aace3ab054c1c6fa322242ae06386ff19f5a44775bd6dcc6887d19c65c62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437564"
 ---
 # <a name="em_sethyphenateinfo-message"></a>\_Сообщение СЕСИФЕНАТЕИНФО EM
 
@@ -43,21 +43,21 @@ ms.locfileid: "103892481"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы включить расстановку переносов, клиент должен вызвать [**EM \_ сеттипографйоптионс**](em-settypographyoptions.md), указав для \_ адванцедтипографи.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 1 \[\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

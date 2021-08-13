@@ -4,18 +4,18 @@ ms.assetid: cdd4f02a-cfe6-4a23-9fc2-f4cb810379aa
 title: Импорт Инсталлексекутесекуенце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8e4728b0a59c92dcc0d007fc816fd298455e049
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 586557130c6aa9af197d5d28f6bd750f4de736feb6982f3b7f12ce73ccf41c83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430774"
 ---
 # <a name="importing-the-installexecutesequence"></a>Импорт Инсталлексекутесекуенце
 
 В [таблице инсталлексекутесекуенце](installexecutesequence-table.md) перечислены действия, которые выполняются, когда установщик выполняет [действие по установке](install-action.md)верхнего уровня. См. раздел [таблицы процедур установки](installation-procedure-tables-group.md), [Использование таблицы последовательности](using-a-sequence-table.md)и [подробный пример таблицы последовательности](sequence-table-detailed-example.md).
 
-Если в разделе [импортируется пустая база данных](importing-a-blank-database.md) , которая использовалась uisample.msi из пакета SDK для установщик Windows, таблицы последовательности в копии MNP2000.msi уже содержат предлагаемые последовательности действий, описанные в разделе [Использование таблицы последовательностей](using-a-sequence-table.md). Для создания установочного пакета блокнота не нужно вносить изменения в эти последовательности.
+если в разделе [импортируется пустая база данных](importing-a-blank-database.md) , которая использовалась uisample.msi из пакета SDK для установщик Windows, таблицы последовательности в копии MNP2000.msi уже содержат предлагаемые последовательности действий, описанные в разделе [использование таблицы последовательностей](using-a-sequence-table.md). для создания пакета установки Блокнот изменения этих последовательностей не требуются.
 
 Используйте редактор базы данных, чтобы открыть MNP2000.msi и ввести в таблицу Инсталлексекутесекуенце следующие данные.
 

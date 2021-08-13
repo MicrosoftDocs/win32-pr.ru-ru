@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e653568d4f8f6653e4c7dc939c91a7d3cd8b83c6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6ed42d2383d194ca417a381da8ef0e849b4d4b6b93665fd7d360df2829f7e0d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688398"
 ---
 # <a name="admin-multiselect-property-pages-attribute"></a>Атрибут «администратор» — «свойство-страница»
 
@@ -33,7 +33,7 @@ ms.locfileid: "105654989"
 | LDAP-отображаемое имя | админмултиселектпропертипажес                                                                                                               |
 | Размер              | 40 байт                                                                                                                                    |
 | Привилегия обновления  | Администратор домена                                                                                                                        |
-| Частота обновления  | Обновление будет выполнено только в том случае, если установлена служба Exchange или сервер терминалов, реализующая собственные страницы свойств с множественным выделением. |
+| Частота обновления  | обновление будет выполнено только в том случае, если установлена служба, такая как Exchange или сервер терминалов, реализующая собственные страницы свойств с множественным выделением. |
 | Attribute-Id      | 1.2.840.113556.1.4.1690                                                                                                                     |
 | System-ID — GUID    | 18f9b67d-5ac6-4b3b-97db-d0a406afb7ba                                                                                                        |
 | Синтаксис            | [**String(Юникод)**](s-string-unicode.md)                                                                                                 |

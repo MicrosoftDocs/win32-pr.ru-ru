@@ -1,15 +1,15 @@
 ---
-description: Страница ссылок на раздел справки по сокетам Windows (Winsock).
+description: Windows Страница навигации по сокетам (Winsock).
 ms.assetid: baae2bf9-f505-4365-b60e-e3247a0218c8
 title: Справочник по Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ef3d681d639c443182ae6d6b612dd4e2b27508b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86d86e33b7399bddca65e1c50675e0a50d2c9d096be1d2d2f0f0cde4f2279b4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104273082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558876"
 ---
 # <a name="winsock-reference"></a>Справочник по Winsock
 
@@ -22,9 +22,9 @@ ms.locfileid: "104273082"
 -   [Функции Winsock](winsock-functions.md)
 -   [Структуры Winsock](winsock-structures.md)
 -   [Winsock SPI](winsock-spi.md)
--   [Коды ошибок сокетов Windows](windows-sockets-error-codes-2.md)
+-   [Windows Коды ошибок сокетов](windows-sockets-error-codes-2.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

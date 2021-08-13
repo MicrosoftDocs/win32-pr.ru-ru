@@ -3,19 +3,19 @@ title: Поддержка тегов ID3
 description: Поддержка тегов ID3
 ms.assetid: 57119b88-5901-4bea-abf6-a67fe71afd1b
 keywords:
-- Windows Media Format SDK, атрибуты
+- Windows Пакет SDK для формата мультимедиа, атрибуты
 - Расширенный системный формат (ASF), атрибуты
 - ASF (Расширенный системный формат), атрибуты
 - атрибуты, теги ID3
 - Теги ID3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4f3dd91119aedf2983e654b4925231b8fd9e4b9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 28fd65ffadb952e9370af609e336c08fc07c9b96f50d09d95c78492bef2163db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118703029"
 ---
 # <a name="id3-tag-support"></a>Поддержка тегов ID3
 
@@ -25,16 +25,16 @@ ms.locfileid: "104068395"
 
 | attribute                      | ID3v1. x | ID3v 2.2 | ID3v 2.3/v 2.4 |
 |--------------------------------|---------|---------|--------------|
-| **Автор**                     | Исполнител  | TP1     | TPE1         |
+| **Author**                     | Исполнител  | TP1     | TPE1         |
 | **Авторские права**                  |         | ткр     | ткоп         |
 | **копиригхтурл**               |         | вкп     | вкоп         |
 | **Описание**                | Комментировать | COM     | COMM         |
 | **Длительность**                   |         | тле     | тлен         |
-| **Размер файла**                   |         |         | тсиз         |
-| **Title**                      | Заголовок   | TT2     | TIT2         |
+| **FileSize**                   |         |         | тсиз         |
+| **Title**                      | Название   | TT2     | TIT2         |
 | **WM/Албумартист**             |         | TP2     | TPE2         |
 | **WM/Албумсортордер**          |         |         | тсоа         |
-| **WM/Албумтитле**              | Музыкальных   | тал     | талб         |
+| **WM/Албумтитле**              | Album   | тал     | талб         |
 | **WM/Артистсортордер**         |         |         | тсоп         |
 | **WM/Аудиофилеурл**            |         | WAF     | воаф         |
 | **WM/Аудиосаурцеурл**          |         | WAS     | воас         |
@@ -79,18 +79,18 @@ ms.locfileid: "104068395"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Атрибуты**](attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

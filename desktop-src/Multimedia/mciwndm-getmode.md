@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_GETMODE (VFW. h)
 description: Сообщение МЦИВНДМ \_ мода получает текущий режим работы устройства MCI. Устройства MCI имеют несколько режимов работы, которые обозначены константами. Это сообщение можно отправить явно или с помощью макроса МЦивнджетмоде.
 ms.assetid: cc327281-434e-4047-9e15-c04a10953f47
 keywords:
-- MCIWNDM_GETMODE сообщения Windows мультимедиа
+- сообщение MCIWNDM_GETMODE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5daefea2c550a1d0cf807ae03840c38ae8b2567c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 645d7a660df8d22cb2adb70a775d5431eb31dc986b502bb4dbb36b1963ce06f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429274"
 ---
 # <a name="mciwndm_getmode-message"></a>Сообщение МЦИВНДМ в \_ режиме
 
@@ -56,7 +56,7 @@ lParam = (LPARAM) (LPSTR) lp;
 
 Возвращает целое число, соответствующее константе MCI, определяющей режим.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если строка с завершающим нулем, описывающая режим, длиннее, чем буфер, она усекается.
 
@@ -72,13 +72,13 @@ lParam = (LPARAM) (LPSTR) lp;
 | воспроизведение        | \_Воспроизведение в режиме MCI \_       |
 | запись      | \_запись режима \_ MCI     |
 | поиск        | \_Поиск в режиме MCI \_       |
-| остановлена        | \_Завершение режима \_ MCI       |
+| stopped        | \_Завершение режима \_ MCI       |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 53f71cab-9d5a-431b-92f8-a0172856a94f
 title: Программное обеспечение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c124f925a1047dc7be6e8ba2882a039895801ebe
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c1d8cac8e45ee5c51ef8a49f7b212dfb4381adb760eaf3bc1d08b21b4f9c7464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463909"
 ---
 # <a name="software"></a>Программное обеспечение
 
@@ -22,7 +22,7 @@ ms.locfileid: "108113792"
 | [System. Аппусермодел. Ексклудефромшовинневинсталл](./props-system-appusermodel-excludefromshowinnewinstall.md)<br/> | Предотвращает получение выделенной записи в меню " **Пуск** " для вновь установленного ярлыка приложения.<br/>                                                                                                                                                                                                            |
 | [System.AppUserModel.ID](./props-system-appusermodel-id.md)<br/>                                                   | Явный идентификатор модели пользователя приложения (AppUserModelID), используемый для связывания процессов, файлов и окон с определенным приложением.<br/>                                                                                                                                                                             |
 | [System. Аппусермодел. Исдестлистсепаратор](./props-system-appusermodel-isdestlistseparator.md)<br/>                 | Вставляет разделитель в раздел **tasks** списка переходов.<br/>                                                                                                                                                                                                                                                      |
-| [System. Аппусермодел. Исдуалмоде](props-system-appusermodel-isdualmode.md)<br/>                                          | Указывает, что приложение поддерживает два режима работы: двойной Настольный и режим погружения. В Windows 8 это свойство применимо только для веб-браузеров.<br/>                                                                                                                                                                         |
+| [System. Аппусермодел. Исдуалмоде](props-system-appusermodel-isdualmode.md)<br/>                                          | Указывает, что приложение поддерживает два режима работы: двойной Настольный и режим погружения. в Windows 8 это свойство применимо только для веб-браузеров.<br/>                                                                                                                                                                         |
 | [System. Аппусермодел. Превентпиннинг](./props-system-appusermodel-preventpinning.md)<br/>                           | Отключает возможность закрепления ярлыка или окна на панели задач или в меню " **Пуск** ". Это свойство также делает элемент недоступным для включения в список наиболее часто используемых программных элементов меню " **Пуск** ".<br/>                                                                                               |
 | [System. Аппусермодел. Релаунчкомманд](./props-system-appusermodel-relaunchcommand.md)<br/>                         | Указывает команду, которая может быть выполнена с помощью [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) для запуска приложения при его закреплении на панели задач или при запуске нового экземпляра приложения с помощью списка переходов приложения.<br/>                                                                      |
 | [System. Аппусермодел. Релаунчдисплайнамересаурце](./props-system-appusermodel-relaunchdisplaynameresource.md)<br/> | Указывает отображаемое имя, используемое для ярлыка, созданного на панели задач при выборе пользователем закрепления приложения на панели задач или при запуске нового экземпляра с помощью списка переходов кнопки.<br/>                                                                                                                       |

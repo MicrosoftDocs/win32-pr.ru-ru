@@ -1,5 +1,5 @@
 ---
-description: 'Виатрансферпарамс передается в приложение во время передачи данных системой времени выполнения Windows Image (WIA) в метод Ивиатрансферкаллбакк:: Трансферкаллбакк.'
+description: 'виатрансферпарамс передается в приложение во время передачи данных системой времени выполнения Windowsного образа (WIA) в метод ивиатрансферкаллбакк:: трансферкаллбакк.'
 ms.assetid: 4f1bbacf-e9fd-4129-ab05-3edaeecfaf43
 title: Структура Виатрансферпарамс (WIA. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Wia.h
-ms.openlocfilehash: 4c432cab14e08d89a49234dd7c6de059cc9d72c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d128a39ff5d9d29bf0766273adaace7eae86b10c9556284c1f5b6f1c9285d30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449913"
 ---
 # <a name="wiatransferparams-structure"></a>Структура Виатрансферпарамс
 
-**Виатрансферпарамс** передается в приложение во время передачи данных системой времени выполнения Windows Image (WIA) в метод [**Ивиатрансферкаллбакк:: трансферкаллбакк**](-wia-iwiatransfercallback-transfercallback.md) .
+**виатрансферпарамс** передается в приложение во время передачи данных системой времени выполнения Windowsного образа (WIA) в метод [**ивиатрансферкаллбакк:: трансферкаллбакк**](-wia-iwiatransfercallback-transfercallback.md) .
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -121,14 +121,14 @@ typedef struct _WiaTransferParams {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                             |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                             |
 | Header<br/>                   | <dl> <dt>WIA. h</dt> </dl> |
 
 

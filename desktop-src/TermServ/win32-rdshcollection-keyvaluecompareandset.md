@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20b90d703b40cf76f59cc3caf5d8f197f387cfe8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52e1aaaf90313c8c1434a65c4ffd1045933ad503245f0dacbf78c2b7e1ca054a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422714"
 ---
 # <a name="keyvaluecompareandset-method-of-the-win32_rdshcollection-class"></a>Метод Кэйвалуекомпареандсет \_ класса Win32 рдшколлектион
 
@@ -74,11 +74,11 @@ uint32 KeyValueCompareAndSet(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что этот метод может извлекать значение ключа и, как таковой, инкапсулирует функциональность [**кэйвалуежет**](win32-rdshcollection-keyvalueget.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed69d6886d25f1d47f4340ecfaecd74cc1ae591e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1eafc6c0ac493f1521e03810f986e18630cfe7352b4c2b88d725639bfa123279
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119443064"
 ---
 # <a name="attribute-syntax-attribute"></a>Атрибут Attribute-Syntax
 

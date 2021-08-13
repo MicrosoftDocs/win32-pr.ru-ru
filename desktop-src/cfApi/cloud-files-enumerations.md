@@ -4,12 +4,12 @@ ms.assetid: 69A34CEA-C774-4810-B562-F5703C3F27F2
 title: Перечисления облачных фильтров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6f4c5219878335c4eca99d82c799ea7e51f3271
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e2c049fcd6deaf1fd2892c2afef2a5786629326c0821bcfd81ea8a669666a48a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118551368"
 ---
 # <a name="cloud-filter-enumerations"></a>Перечисления облачных фильтров
 

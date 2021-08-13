@@ -3,9 +3,9 @@ title: Метод обратной передачи ИВМПДВД
 description: Метод Back изменяет отображение из подменю на его родительское меню.
 ms.assetid: 81d033d4-f570-44a5-898a-e419101c04fa
 keywords:
-- метод обратной передачи Windows Media Player
-- метод обратной передачи Windows Media Player, интерфейс ИВМПДВД
-- Интерфейс ИВМПДВД Windows Media Player, метод Back
+- метод back проигрыватель Windows Media
+- метод back проигрыватель Windows Media, интерфейс ивмпдвд
+- интерфейс ивмпдвд проигрыватель Windows Media, метод back
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cd31cd6365843a6905760c4447ea679e15e70ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 483e8e36f8ac5e539925306a53c04d144fb6de1281878840fc598c96c814f002
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414564"
 ---
 # <a name="iwmpdvdback-method"></a>Метод ИВМПДВД:: Back
 
@@ -53,17 +53,17 @@ Implements IWMPDVD.back
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый DVD-диск создан по-другому. Некоторые DVD-диски созданы таким образом, чтобы `back` метод был доступен из корневого меню, но при его вызове ничего не делает.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

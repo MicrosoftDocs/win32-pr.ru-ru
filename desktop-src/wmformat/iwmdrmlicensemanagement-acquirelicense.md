@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 279a3d4d84617c4a4fa5454d1f39f6f78f0cf3fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ad8251650c8a7e16c6eb2fc957df5e70459239c0cd6cf1184b5209ae51b6aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118701130"
 ---
 # <a name="iwmdrmlicensemanagementacquirelicense-method"></a>Метод Ивмдрмлиценсеманажемент:: AcquireLicense
 
@@ -119,19 +119,19 @@ URL-адрес сервера лицензирования, с которого 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод выполняется асинхронно. Он возвращает сразу после вызова, а затем создает событие **мевмдрмлиценсеаккуиситионкомплетед** после завершения обработки. Для операций приобретения лицензий без вмешательства пользователя значение события, полученное путем вызова **имфмедиаевент:: GetValue** , является указателем **IUnknown** . Чтобы получить экземпляр интерфейса [**ивмдрмнонсилентлиценсеакуиситион**](iwmdrmnonsilentlicenseaquisition.md) , можно вызвать метод **QueryInterface** полученного интерфейса **IUnknown** .
 
-Дополнительные сведения об использовании асинхронных методов расширенных API-интерфейсов клиента DRM Windows Media см. [в разделе Использование модели событий Media Foundation](using-the-media-foundation-model.md).
+дополнительные сведения об использовании асинхронных методов расширенных api-интерфейсов Windows Media DRM Client см. [в разделе использование модели событий Media Foundation](using-the-media-foundation-model.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 
 

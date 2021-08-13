@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofiles.idl
-ms.openlocfilehash: 2e02352eef16a9b899e4c635f11c5d10b3ab5113
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1de80ac23ffa3e2687e2e6d0449f7a273067d5899204c479f9b62e8571190d61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450834"
 ---
 # <a name="iscanprofile-interface"></a>Интерфейс Исканпрофиле
 
@@ -56,7 +56,7 @@ ms.locfileid: "105702226"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 У любого устройства [**IWiaItem2**](-wia-iwiaitem2.md) может быть профиль сканирования. Однако **IWiaItem2** элементы типов \_ Категория WIA \_ Finished \_ File и WIA \_ Category \_ не могут иметь профили.
 
@@ -70,14 +70,14 @@ ms.locfileid: "105702226"
 
 `<Properties>`Элемент содержит `<Property>` дочерние элементы. Используйте их, чтобы добавить в профиль любое свойство элемента WIA 2,0 или устройства. Вы также можете разработать собственные `<Property>` дочерние элементы приобретения Image. Это делает схему профиля сканирования расширяемой. (Дополнительные сведения о расширении схемы см. в разделе [Определение пользовательских свойств](-wia-defining-custom-properties.md), [**исканпрофиле::-Property**](-wia-iscanprofile-getproperty.md)и [**исканпрофиле:: SetProperty**](-wia-iscanprofile-setproperty.md).)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                        |
 | IDL<br/>                      | <dl> <dt>Сканпрофилес. idl</dt> </dl> |
 
 

@@ -1,11 +1,11 @@
 ---
 title: Метод Player. Close
-description: Метод Close освобождает ресурсы проигрывателя Windows Media.
+description: метод close освобождает проигрыватель Windows Media ресурсы.
 ms.assetid: 15bd5a05-dbfa-4bea-90c2-afd9f69631e0
 keywords:
-- закрыть метод проигрыватель Windows Media Player
-- закрыть метод проигрыватель Windows Media Player, класс Player
-- Класс проигрывателя Windows Media Player, метод Close
+- метод close проигрыватель Windows Media
+- метод close проигрыватель Windows Media, класс Player
+- класс Player проигрыватель Windows Media, метод close
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: debc2667c42da92b3a2639e0f14c767d2b5b0651
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a29e68aed11b095dff80c8c91c88410f98b9a236bbcadcbff75da0fc0de392fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467884"
 ---
 # <a name="playerclose-method"></a>Метод Player. Close
 
-Метод **Close** освобождает ресурсы проигрывателя Windows Media.
+метод **close** освобождает проигрыватель Windows Media ресурсы.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -44,13 +44,13 @@ Player.close()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот метод закрывает текущий файл мультимедиа, а не проигрыватель Windows Media.
+этот метод закрывает текущий файл мультимедиа, но не проигрыватель Windows Media самого себя.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере создается HTML-элемент BUTTON, который при щелчке останавливает воспроизведение в проигрывателе Windows Media и освобождает используемые ресурсы. Объект **Player** создан с идентификатором "Player".
+в следующем примере создается HTML-элемент BUTTON, который при щелчке останавливает воспроизведение в проигрыватель Windows Media и освобождает используемые ресурсы. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -64,13 +64,13 @@ Player.close()
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66058da9dcdbac0ed1100b0ef21a4ed530d45a68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 20125114b6cd134d153ad6425af5af410faf524714a2e505a37fbf57dcda21e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462431"
 ---
 # <a name="activebasicdeviceisaudiosupported-property"></a>Свойство Активебасикдевице:: Исаудиосуппортед
 
@@ -47,14 +47,14 @@ HRESULT get_IsAudioSupported(
 
 **значение true** , если устройство поддерживает аудио; в противном случае — **значение false**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Плайтодевице. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Плайтодевице. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |

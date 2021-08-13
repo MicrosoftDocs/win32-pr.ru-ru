@@ -1,19 +1,19 @@
 ---
-title: Свойство Description (устаревшие функции среды Windows)
+title: свойство Description (устаревшие функции Windows среды)
 description: Свойство Description
 ms.assetid: 81ac4bc7-ef0c-4e7c-b57e-acc4ad315515
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b4fb60b20a57f56a914c7e44ced957d91bf7085
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: da7ff293af98303fa0dab97aca76ed169123ea229c1fc70c156ef2c099472157
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104070956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118751996"
 ---
-# <a name="description-property-legacy-windows-environment-features"></a>Свойство Description (устаревшие функции среды Windows)
+# <a name="description-property-legacy-windows-environment-features"></a>свойство Description (устаревшие функции Windows среды)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -31,9 +31,9 @@ ms.locfileid: "104070956"
 
 
 
-| Отделение     | Описание                                                                                    |
+| Часть     | Описание                                                                                    |
 |----------|------------------------------------------------------------------------------------------------|
-| *string* | Строковое значение, соответствующее описанию символа (в текущем параметре языка). |
+| *строка* | Строковое значение, соответствующее описанию символа (в текущем параметре языка). |
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "104070956"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Описание** символа может зависеть от параметра **LanguageID** символа. Имя символа на одном языке может отличаться или использовать другие символы, чем в другом. **Описание** символа по умолчанию для конкретного языка определяется при компиляции символа с помощью редактора символов Microsoft Agent.
 

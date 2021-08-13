@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 36b9085df8c15e765c751be8b5fcdfd4f4a02140
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f7563cabff97626ac45a150e9a763033d9ce9261e5ae528e83d174e35d4f0d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428792"
 ---
 # <a name="csourcestream-class"></a>Класс Ксаурцестреам
 
@@ -56,7 +56,7 @@ ms.locfileid: "105675911"
 | [**онсреадкреате**](csourcestream-onthreadcreate.md)                 | Вызывается при инициализации потока потоковой передачи. Виртуализаци.                                                                         |
 | [**онсреаддестрой**](csourcestream-onthreaddestroy.md)               | Вызывается, когда поток потоковой передачи собирается завершить работу. Виртуализаци.                                                                       |
 | [**онсреадстартплай**](csourcestream-onthreadstartplay.md)           | Вызывается в начале метода [**ксаурцестреам::D обуфферпроцессинглуп**](csourcestream-dobufferprocessingloop.md) . Виртуализаци. |
-| [**Активна**](csourcestream-active.md)                                 | Уведомляет ПИН-код о том, что фильтр активен.                                                                                   |
+| [**Active**](csourcestream-active.md)                                 | Уведомляет ПИН-код о том, что фильтр активен.                                                                                   |
 | [**Неактивно**](csourcestream-inactive.md)                             | Уведомляет ПИН-код о том, что фильтр больше не активен.                                                                             |
 | [**Запрос на**](csourcestream-getrequest.md)                         | Ожидает следующий запрос потока.                                                                                                |
 | [**чеккрекуест**](csourcestream-checkrequest.md)                     | Проверяет наличие запроса потока без блокировки.                                                                            |
@@ -67,11 +67,11 @@ ms.locfileid: "105675911"
 | Открытые методы                                                         | Описание                                                                                                                       |
 | [**ксаурцестреам**](csourcestream-csourcestream.md)                   | Метод конструктора.                                                                                                               |
 | [**~ Ксаурцестреам**](csourcestream--csourcestream.md)                | Метод деструктора. Виртуализаци.                                                                                                       |
-| [**Ini**](csourcestream-init.md)                                     | Инициализирует поток потоковой передачи.                                                                                                 |
+| [**Init**](csourcestream-init.md)                                     | Инициализирует поток потоковой передачи.                                                                                                 |
 | [**Выход**](csourcestream-exit.md)                                     | Сообщает потоку потоковой передачи о выходе.                                                                                             |
 | [**Выполнить**](csourcestream-run.md)                                       | Сообщает потоку потоковой передачи о выполнении.                                                                                              |
 | [**Пауза**](csourcestream-pause.md)                                   | Сигнализирует потоку потоковой передачи на активность.                                                                                    |
-| [**Stop**](csourcestream-stop.md)                                     | Сигнализирует потоку потоковой передачи на завершение.                                                                                             |
+| [**Позиции**](csourcestream-stop.md)                                     | Сигнализирует потоку потоковой передачи на завершение.                                                                                             |
 | Чистые виртуальные методы                                                   | Описание                                                                                                                       |
 | [**филлбуффер**](csourcestream-fillbuffer.md)                         | Заполняет образец носителя данными.                                                                                                   |
 | Методы Ипин                                                           | Описание                                                                                                                       |
@@ -81,13 +81,13 @@ ms.locfileid: "105675911"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Source. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>Source. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

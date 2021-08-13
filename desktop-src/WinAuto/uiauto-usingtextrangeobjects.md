@@ -9,12 +9,12 @@ keywords:
 - Клиенты, шаблон элемента управления TextRange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a2aef7c23db6903e3492fec7c83ba7c14599c63
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f2c409f39d437135854463e83c361a9afd22204758c360119bd0033e4fd11416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564005"
 ---
 # <a name="using-text-ranges"></a>Использование текстовых диапазонов
 
@@ -37,7 +37,7 @@ ms.locfileid: "104413207"
     -   [Извлечение целевого текста заметки](#retrieving-the-annotation-target-text)
 -   [Получение визуальных стилей](#retrieving-visual-styles)
 -   [Вызов контекстных меню из текстовых диапазонов](#invoking-context-menus-from-text-ranges)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="what-is-a-text-range"></a>Что такое текстовый диапазон?
 
@@ -168,9 +168,9 @@ ms.locfileid: "104413207"
 
 ## <a name="invoking-context-menus-from-text-ranges"></a>Вызов контекстных меню из текстовых диапазонов
 
-Начиная с Windows 8.1, текстовые диапазоны могут поддерживать интерфейс [**IUIAutomationTextRange2**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange2) . Этот интерфейс поддерживает метод [**шовконтекстмену**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange2-showcontextmenu) . Этот метод можно вызвать для вызова любого контекстного меню, связанного с текстовым диапазоном. В этом сценарии используется Автозамена диапазонов текста или выбора кандидатов IME. В этих случаях появляется контекстное меню, поддерживающее взаимодействие с пользователем.
+начиная с Windows 8.1, текстовые диапазоны могут поддерживать интерфейс [**IUIAutomationTextRange2**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange2) . Этот интерфейс поддерживает метод [**шовконтекстмену**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange2-showcontextmenu) . Этот метод можно вызвать для вызова любого контекстного меню, связанного с текстовым диапазоном. В этом сценарии используется Автозамена диапазонов текста или выбора кандидатов IME. В этих случаях появляется контекстное меню, поддерживающее взаимодействие с пользователем.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -183,6 +183,6 @@ ms.locfileid: "104413207"
 [Работа с элементами управления на основе текста](uiauto-workingwithtextbasedcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 548c4910aa47fc435c10fc555fda389e7e2cdb92
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3d81338a2bba62f6ee299a7dd0bdfaa5007e195bb85813f8e817f3070970c10d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698482"
 ---
 # <a name="wmplaylistdelay"></a>WM/Плайлистделай
 
@@ -31,7 +31,7 @@ g \_ всзвмплайлистделай
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не все проигрыватели мультимедиа учитывают задержку списка воспроизведения.
 
@@ -42,9 +42,9 @@ g \_ всзвмплайлистделай
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

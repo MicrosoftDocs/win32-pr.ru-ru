@@ -3,7 +3,7 @@ title: Сообщение WM_SIZECLIPBOARD (Winuser. h)
 description: Посылается в буфер обмена владельцем окном средства просмотра буфера обмена, когда буфер обмена содержит данные в \_ формате CF овнердисплай, а размер клиентской области средства просмотра буфера обмена изменился.
 ms.assetid: 95991d03-8677-4dde-b72a-082dec4834b3
 keywords:
-- Обмен данными с сообщениями WM_SIZECLIPBOARD
+- WM_SIZECLIPBOARD Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 235de630b20757a571b1917a975d1425bee06cde
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 778caa6538992d927a0451518fcb28b82891773563614ba97c9d9df121fb69f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118545323"
 ---
 # <a name="wm_sizeclipboard-message"></a>\_Сообщение СИЗЕКЛИПБОАРД WM
 
@@ -54,13 +54,13 @@ ms.locfileid: "103802548"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда окно средства просмотра буфера обмена собирается к уничтожению или изменению размера, сообщение **WM \_ сизеклипбоард** отправляется с пустым прямоугольником (0, 0, 0, 0) в качестве нового размера. Это позволяет владельцу буфера обмена освобождать ресурсы, отображаемые на экране.
 
 Владелец буфера обмена должен использовать функцию [**глобаллокк**](/windows/desktop/api/winbase/nf-winbase-globallock) для блокировки объекта памяти, содержащего [**Rect**](/previous-versions//dd162897(v=vs.85)). Перед возвращением владелец буфера обмена должен разблокировать объект с помощью функции [**глобалунлокк**](/windows/desktop/api/winbase/nf-winbase-globalunlock) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ ms.locfileid: "103802548"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

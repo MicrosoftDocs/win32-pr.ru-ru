@@ -4,12 +4,12 @@ description: начиная с Windows Server 2008 и Windows Vista с паке�
 ms.assetid: 8dad892b-04df-4aeb-b6c4-82f7676d382a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e6291d3ad8dfeb641582a93f6789ca7844594ad
-ms.sourcegitcommit: 892997f4126d44df413286074e08a9c6065313ec
+ms.openlocfilehash: 4597c4bf1fd583b647e7ad74b7f1cb2cd41be9c0118226d502932c61f481cedd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "114300189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442368"
 ---
 # <a name="collecting-user-mode-dumps"></a>Сбор дампов User-Mode
 
@@ -26,7 +26,7 @@ ms.locfileid: "114300189"
 </colgroup>
 <thead>
 <tr class="header">
-<th>Применение</th>
+<th>Значение</th>
 <th>Описание</th>
 <th>Тип</th>
 <th>Значение по умолчанию</th>

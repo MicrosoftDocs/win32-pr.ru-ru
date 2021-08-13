@@ -4,12 +4,12 @@ ms.assetid: d37b2434-86eb-4c6e-b817-77c75dcebbf5
 title: Действие Рмккпсеарч
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c273ccb03bb77e0346edf73177d938d6002878a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d18431a6806d055c824bf51331d6390a6f669100aa9a33db9665b9d7b37008c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625904"
 ---
 # <a name="rmccpsearch-action"></a>Действие Рмккпсеарч
 
@@ -23,13 +23,13 @@ ms.locfileid: "105673496"
 
 Нет сообщений Актиондата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для действия Рмккпсеарч необходимо, чтобы свойство [**\_ диска CCP**](ccp-drive.md) было установлено в корневой путь на съемном [*томе*](v-gly.md) , на котором установлена установка для любого из соответствующих продуктов.
 
 Каждая подпись файла в таблице Ккпсеарч ищется по пути, указанному свойством [**CCP \_ Drive**](ccp-drive.md) , с помощью таблицы [дрлокатор](drlocator-table.md) . Отсутствие подписи в таблице [сигнатур](signature-table.md) указывает на каталог. Если какая-либо сигнатура определена как существующая, действие Рмккпсеарч завершается.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

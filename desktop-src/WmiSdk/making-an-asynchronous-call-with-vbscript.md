@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c2b3ec0c1bd771f59a4e456cb8e57c3bb3e9e394
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee8c4737ff7513441532275e24f2cfe20f8e30fa2932e854cc566eb032c49d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555151"
 ---
 # <a name="making-an-asynchronous-call-with-vbscript"></a>Выполнение асинхронного вызова с помощью VBScript
 
@@ -42,7 +42,7 @@ ms.locfileid: "105702298"
 
 **Выполнение асинхронного вызова с помощью VBScript**
 
-1.  Подключитесь к инструментарию WMI и получите объект [**SwbemServices**](swbemservices.md) .
+1.  Подключение WMI и получить объект [**SWbemServices**](swbemservices.md) .
 
     ```VB
     Set Service = GetObject("Winmgmts:")
@@ -50,7 +50,7 @@ ms.locfileid: "105702298"
 
     
 
-2.  Создайте приемник объекта с помощью функции [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) или (для сервера скриптов Windows 2,0) тег объекта с атрибутом Events, имеющим значение **true**.
+2.  создайте приемник объекта с помощью функции [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) или (только для Windows для хоста скриптов 2,0) тег объекта с атрибутом events, имеющим значение **TRUE**.
 
     ```VB
     Set sink = WScript.CreateObject("WbemScripting.SWbemSink","SINK_")
@@ -96,7 +96,7 @@ ms.locfileid: "105702298"
 
     
 
-5.  Выполните вызов, который предотвращает завершение скрипта до получения всех событий. Если сценарий может работать с интерфейсом экрана, простой способ сделать это — использовать команду сервера сценариев Windows (WSH) `Echo` , которая показана в следующем примере.
+5.  Выполните вызов, который предотвращает завершение скрипта до получения всех событий. если сценарий может работать с интерфейсом экрана, простой способ сделать это — использовать команду сервера сценариев Windows (WSH) `Echo` , которая показана в следующем примере.
 
     ```VB
     WScript.Echo "Waiting for instances."
@@ -164,7 +164,7 @@ end sub
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,9 +3,9 @@ title: Ивмпплайлист insertItem, метод
 description: Метод insertItem вставляет элемент мультимедиа в указанном месте в списке воспроизведения.
 ms.assetid: 6e472f0a-13df-41d9-8e6f-8430d87fe978
 keywords:
-- insertItem метод Windows Media Player
-- insertItem метод проигрывателя Windows Media Player, интерфейс Ивмпплайлист
-- Интерфейс Ивмпплайлист Windows Media Player, метод insertItem
+- проигрыватель Windows Media метода insertItem
+- проигрыватель Windows Media метода insertItem, интерфейс ивмпплайлист
+- проигрыватель Windows Media интерфейса ивмпплайлист, метод insertItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1ef167a5f3931f34d4cd6fb91b3d044affb9484
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10717c0891443aaa663b748be6a0cb57e04e58b96beb91db6b02b2f6a4b5b621
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464934"
 ---
 # <a name="iwmpplaylistinsertitem-method"></a>Метод Ивмпплайлист:: insertItem
 
@@ -73,19 +73,19 @@ Implements IWMPPlaylist.insertItem
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Индексы всех элементов мультимедиа после вставленного элемента будут увеличены на один.
 
 Перед вызовом этого метода необходимо иметь полный доступ к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: b5c968dc-9343-44ed-acbc-a89c58c14e4a
 title: Функция InitializeSecurityContext (Kerberos) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: c86b5a5b00798ced6c2881a89a35830ad1fff889
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2a88fd930e58be418afa9d508adf9cda73912a8c0c5ea6731c06af5ec41a997
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482604"
 ---
 # <a name="initializesecuritycontext-kerberos-function"></a>Функция InitializeSecurityContext (Kerberos)
 
@@ -190,7 +190,7 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызывающий объект отвечает за определение того, достаточно ли атрибутов последнего контекста. Если, например, была запрошена конфиденциальность, но ее не удалось установить, некоторые приложения могут немедленно завершить подключение.
 
@@ -235,14 +235,14 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 Вызывающие объекты в режиме ядра имеют следующие отличия: имя целевого объекта — это строка в [*Юникоде*](../secgloss/u-gly.md) , которую необходимо выделить в виртуальной памяти с помощью [**VirtualAlloc**](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc); Он не должен выделяться из пула. Буферы, переданные и передаваемые в *пинпут* и *паутпут* , должны находиться в виртуальной памяти, а не в пуле.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

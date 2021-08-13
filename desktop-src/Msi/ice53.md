@@ -4,12 +4,12 @@ ms.assetid: f5afca1f-bd36-4f95-a62a-f6b2e37238a6
 title: ICE53
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c323a502642e3cf5999e6cb332a434a9fc8a41db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a2d1e661eb832439a9b4fde423e005dc4b3a0c3ca9b266045c0ddd04daa63f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635135"
 ---
 # <a name="ice53"></a>ICE53
 
@@ -41,7 +41,7 @@ Registry Key 'Registry1' writes Installer internal or policy information.
 
 Строка таблицы реестра "Registry1" записывает в реестр значение системной политики, влияющее на установку всех пакетов. В зависимости от пакета можно отключить откат только для этого пакета, задав свойство [**дисаблероллбакк**](-disablerollback.md) в [таблице свойств](property-table.md). См. раздел [ROLLBACK Installation](rollback-installation.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

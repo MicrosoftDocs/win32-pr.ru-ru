@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 466c344892f2c4bf4a1e979ac9c1f50cd709325a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 043138fd82f5d5423703e860c5811f3e21b8513adb7bb4238ad6d6f7fa7215cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439884"
 ---
 # <a name="setmtu-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетмту \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 MTU — это максимальный размер пакета (в байтах), передаваемого транспортом в базовой сети. Размер включает заголовок транспорта.
 
@@ -414,7 +414,7 @@ MTU — это максимальный размер пакета (в байта
 
 В примере [изменения MTU для всех сетевых адаптеров](https://Gallery.TechNet.Microsoft.Com/49c26363-d46c-4288-9c8d-feb0a1982998) на языке VBScript настраивается максимальная единица передачи для всех сетевых адаптеров, установленных на компьютере.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

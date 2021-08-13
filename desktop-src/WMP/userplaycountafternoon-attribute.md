@@ -3,7 +3,7 @@ title: Атрибут Усерплайкаунтафтернун
 description: Атрибут Усерплайкаунтафтернун — это число воспроизведений элемента между 12 00 и 17 00 по местному времени.
 ms.assetid: d02ac67b-6962-452d-9046-491b452447b0
 keywords:
-- Усерплайкаунтафтернун атрибут Windows Media Player
+- проигрыватель Windows Media атрибута усерплайкаунтафтернун
 topic_type:
 - apiref
 api_name:
@@ -12,37 +12,37 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52ce581dc5f4f9c3142c069aca62f3e970d18add
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 329feb503f59fd60a95e2da79023f93677ef2b9643c05dfb0a42b9533a29b2e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119466284"
 ---
 # <a name="userplaycountafternoon-attribute"></a>Атрибут Усерплайкаунтафтернун
 
 Атрибут **усерплайкаунтафтернун** — это число воспроизведений элемента между 12:00 и 17:00 по местному времени.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
 -   [Списки воспроизведения](playlist-attributes-ref.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в библиотеке.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

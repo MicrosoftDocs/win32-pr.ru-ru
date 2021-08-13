@@ -5,12 +5,12 @@ ms.assetid: fdee4f0a-b39e-4011-af4f-9fe408f6ca6c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bd870871d7a8e2939cda546178e2f31fe92644d
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: 0efcbbbce67d9928c9ecda3840f34a1cbf6faae79ca4d9fe72830a5b57881177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "104335987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692198"
 ---
 # <a name="common-errors-adsi"></a>Распространенные ошибки (ADSI)
 
@@ -49,7 +49,7 @@ ms.locfileid: "104335987"
 
 ## <a name="win32-errors"></a>Ошибки Win32
 
-Любой код ошибки шестнадцатеричной формы 8007xxxx — это стандартный код ошибки Win32. Если вы преобразуете последние четыре цифры из шестнадцатеричного в десятичное, вы можете получить доступ к ошибке из командной строки Windows 2000:
+Любой код ошибки шестнадцатеричной формы 8007xxxx — это стандартный код ошибки Win32. если вы преобразуете последние четыре цифры из шестнадцатеричного в десятичное, вы можете получить доступ к ошибке из командной строки Windows 2000:
 
 **NET HELPMSG <number>**
 

@@ -4,16 +4,16 @@ ms.assetid: b88517cc-06fe-4d83-a6a9-76e1f34293f4
 title: Интерфейсы декодера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef90ca2dd521c15460295505a6d5b7ea451c4dba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a52a0924f6302e45b10cb32a1d621db04967d33a3251ee39cce359e5030af5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393532"
 ---
 # <a name="decoder-interfaces"></a>Интерфейсы декодера
 
-В следующих таблицах показаны интерфейсы, реализованные декодерами компонента Windows Imaging Component (WIC), а на схеме классов показана иерархия наследования.
+в следующих таблицах показаны интерфейсы, реализованные с помощью декодеров Windows imaging Component (WIC), а на схеме классов показана иерархия наследования.
 
 Интерфейсы декодера Container-Level
 
@@ -46,7 +46,7 @@ ms.locfileid: "104272301"
 
 ![Иерархия наследования интерфейса WIC](graphics/wicinterfaces.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -62,7 +62,7 @@ ms.locfileid: "104272301"
 [Написание WIC-Enabled КОДЕка](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Общие сведения о компоненте создания образов Windows](-wic-about-windows-imaging-codec.md)
+[Windows Общие сведения о компонентах обработки изображений](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

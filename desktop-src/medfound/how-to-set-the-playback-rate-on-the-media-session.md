@@ -4,12 +4,12 @@ ms.assetid: 3663b63f-127c-49fc-923a-d05521fe3d35
 title: Установка скорости воспроизведения в сеансе мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deed8bf480bba1bf1e7d86a41a75b8f41f61046b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 696932d0da0147ba87e49cbc22d7ad53a525bc52c9bc2b3518c0f3e956a650aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103820181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119465994"
 ---
 # <a name="how-to-set-the-playback-rate-on-the-media-session"></a>Установка скорости воспроизведения в сеансе мультимедиа
 
@@ -79,7 +79,7 @@ HRESULT SetPlaybackRate(
 
 Приложение должно быть остановлено или приостановлено, прежде чем оно сможет выполнить переход с отрицательной или нулевой ставки на положительный коэффициент. Сведения об этих состояниях см. [в разделе Управление состояниями представления](how-to-control-presentation-states.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -89,7 +89,7 @@ HRESULT SetPlaybackRate(
 [Управление скоростью](rate-control.md)
 </dt> <dt>
 
-[Поиск, быстрая переадресация и обратная игра](seeking--fast-forward--and-reverse-play.md)
+[поиск, Быстрая прокрутка и обратная игра](seeking--fast-forward--and-reverse-play.md)
 </dt> </dl>
 
  

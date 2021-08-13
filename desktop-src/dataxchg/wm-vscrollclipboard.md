@@ -3,7 +3,7 @@ title: Сообщение WM_VSCROLLCLIPBOARD (Winuser. h)
 description: Посылается владельцу буфера обмена в окне средства просмотра буфера обмена, когда в буфере обмена содержатся данные в \_ формате CF овнердисплай, а в вертикальной полосе прокрутки появляется событие.
 ms.assetid: 17bd32c4-1b07-42b7-b269-f517e3ec13f3
 keywords:
-- Обмен данными с сообщениями WM_VSCROLLCLIPBOARD
+- WM_VSCROLLCLIPBOARD Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87a9e80aa342065ee88c8e1d7aa44c1fd598e411
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fbcf634870ce232543cd20ccd42c9e8ca255705810e81af39cc6e81f8e41658d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544879"
 ---
 # <a name="wm_vscrollclipboard-message"></a>\_Сообщение ВСКРОЛЛКЛИПБОАРД WM
 
@@ -73,11 +73,11 @@ ms.locfileid: "104491067"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Владелец буфера обмена может использовать функцию [**скроллвиндов**](https://msdn.microsoft.com/library/Cc410994(v=MSDN.10).aspx) для прокрутки изображения в окне средства просмотра буфера обмена и сделать недействительным соответствующий регион.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -85,7 +85,7 @@ ms.locfileid: "104491067"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -93,7 +93,7 @@ ms.locfileid: "104491067"
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))

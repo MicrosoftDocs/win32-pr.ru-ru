@@ -3,7 +3,7 @@ title: Амбиентаттрибутес. Слидето
 description: Метод Слидето перемещает элемент управления в новое расположение. Элемент управления перемещается нелинейным способом за указанный период времени.
 ms.assetid: 06dd610b-cb58-4b60-9f4b-8929c54c3c33
 keywords:
-- Проигрыватель Windows Media Амбиентаттрибутес. Слидето
+- амбиентаттрибутес. слидето проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: deb214046ace59094b6bd5c362dfa716b9fceb57
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3f199a2786adbd63313c3f500d589f9f51e2b8ca2fa8120a8fdf75021041115
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119469914"
 ---
 # <a name="ambientattributesslideto"></a>Амбиентаттрибутес. Слидето
 
@@ -56,17 +56,17 @@ ms.locfileid: "105699060"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод отличается от **MoveTo**, который создает линейное движение при перемещении элемента управления. Нелинейное движение, созданное этим методом, является скользящим движением, которое ускоряется от нуля в начале движения и замедляется до нуля в конце, что достигается плавной остановкой.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/> |
+| Версия<br/> | проигрыватель Windows Media 11<br/> |
 
 
 

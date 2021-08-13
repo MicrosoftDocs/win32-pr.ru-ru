@@ -7,12 +7,12 @@ keywords:
 - Active Directory примеры Active Directory, отображение членов группы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ef78c23c4a32b8a8ed36c98912f8cac24d5f375
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c0eb492b50a42cb400413d4cb1779c95e7da9d33fe828ee72be7d3b068f37f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104069768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693963"
 ---
 # <a name="example-code-for-displaying-members-of-a-group"></a>Пример кода для отображения членов группы
 
@@ -134,7 +134,7 @@ HRESULT PrintGroupObjectMembers(IADsGroup * pADsGroup)
 
 
 
-В следующем примере кода Visual Basic используется класс [**iAds**](/windows/desktop/api/iads/nn-iads-iads) для вывода элементов группы.
+в следующем примере кода Visual Basic используется класс [**IADs**](/windows/desktop/api/iads/nn-iads-iads) для вывода элементов группы.
 
 
 ```VB
@@ -167,6 +167,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 

@@ -3,8 +3,8 @@ title: Интерфейс Ивмпплайлистаррай (VB и C) (WMP. h)
 description: Предоставляет свойство и метод для доступа к коллекции интерфейсов Ивмпплайлист по номеру индекса. Интерфейс Ивмпплайлистаррай предоставляет следующее свойство.
 ms.assetid: 8a7477ee-58c5-41b2-9259-d1976433ae02
 keywords:
-- Ивмпплайлистаррай (VB и C) интерфейс проигрывателя Windows Media
-- Ивмпплайлистаррай (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмпплайлистаррай (VB и C)
+- проигрыватель Windows Media интерфейса ивмпплайлистаррай (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c3c926545635e1e83c7ba18eac99b2e96da59f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de9cd5db545e75aaf03c488608e825c92645f7cfaeaf0f645cc764fc6e886ecd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468434"
 ---
 # <a name="iwmpplaylistarray-vb-and-c-interface"></a>Интерфейс Ивмпплайлистаррай (VB и C#)
 
@@ -57,7 +57,7 @@ ms.locfileid: "105647907"
 
 | Свойство                                                                              | Тип доступа          | Описание                                                   |
 |:--------------------------------------------------------------------------------------|:---------------------|:--------------------------------------------------------------|
-| [**count**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)<br/> | Только для чтения<br/> | Возвращает число списков воспроизведения в массиве списков воспроизведения.<br/> |
+| [**расчета**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)<br/> | Только для чтения<br/> | Возвращает число списков воспроизведения в массиве списков воспроизведения.<br/> |
 
 
 
@@ -75,13 +75,13 @@ ms.locfileid: "105647907"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -89,7 +89,7 @@ ms.locfileid: "105647907"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмпплайлист (VB и C#)**](iwmpplaylist--vb-and-c.md)

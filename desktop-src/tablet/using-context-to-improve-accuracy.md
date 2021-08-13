@@ -4,12 +4,12 @@ ms.assetid: b64f6856-453c-4080-84e0-0a9e69e79de7
 title: Использование контекста для повышения точности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddd5c807804c1855e0be56b09f08448e3dc2967d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7564c18ace39c17e8877c3e5edee6464caea0c36d148cffbfcfb3b5ac09f666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715278"
 ---
 # <a name="using-context-to-improve-accuracy"></a>Использование контекста для повышения точности
 
@@ -18,7 +18,7 @@ ms.locfileid: "105662387"
 В этом разделе описаны различные способы использования контекста в приложении для планшетных ПК, в которых особое внимание уделяется предпочтительному программному методу для приложений, не поддерживающих рукописный ввод.
 
 > [!Note]  
-> В разделах технологии планшетных ПК пакета средств разработки программного обеспечения (SDK) для Windows Vista есть места, где термин "контекст" используется в отношении объекта [**рекогнизерконтекст**](inkrecognizercontext-class.md) и его свойств [**префикстекст**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext) и [**суффикстекст**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext) . Не путайте эти другие случаи использования "Context" с определением в этом разделе.
+> в разделе "технология планшетных пк" в пакете SDK для Windows Vista есть места, где термин "контекст" используется в отношении объекта [**рекогнизерконтекст**](inkrecognizercontext-class.md) и его свойств [**префикстекст**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext) и [**суффикстекст**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext) . Не путайте эти другие случаи использования "Context" с определением в этом разделе.
 
  
 

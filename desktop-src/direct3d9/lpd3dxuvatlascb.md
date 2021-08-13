@@ -4,12 +4,12 @@ ms.assetid: a605ae27-10c9-49b4-98fe-8c788c2c0752
 title: LPD3DXUVATLASCB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe073b5e6a798ccb74421d42502b089d59be11f
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: d4473134d7ecf98c50d0c3a69085e7f46344d1d57ff2650c1adbc54c43dba266
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119458722"
 ---
 # <a name="lpd3dxuvatlascb"></a>LPD3DXUVATLASCB
 
@@ -39,7 +39,7 @@ typedef HRESULT (*LPD3DXUVATLASCB (
 
 ## <a name="remarks"></a>Remarks
 
-Не забудьте указать соглашение о вызовах [**типов данных Windows**](../winprog/windows-data-types.md) при объявлении функции обратного вызова. В противном случае могут возникать переполняется стек.
+при объявлении функции обратного вызова необходимо указать соглашение о вызовах [**типов данных Windows**](../winprog/windows-data-types.md) . В противном случае могут возникать переполняется стек.
 
 
 

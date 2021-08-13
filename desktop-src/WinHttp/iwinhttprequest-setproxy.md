@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 7af3c7c33b17e14c3adbdd70f3d2031e7438747a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb85466da6b7492d04bd2e69f4cd51c0c390e9595df13af8d7e6768596771822
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562602"
 ---
 # <a name="iwinhttprequestsetproxy-method"></a>Метод Ивинхттпрекуест:: Сетпрокси
 
@@ -80,14 +80,14 @@ HRESULT SetProxy(
 
 В случае успешного выполнения возвращается значение **S \_** , а в противном случае — значение ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Позволяет вызывающему приложению указать использование сведений о прокси-сервере по умолчанию (настроенных средством настройки прокси-сервера) или переопределить [Proxycfg.exe](proxycfg-exe--a-proxy-configuration-tool.md). Этот метод должен быть вызван перед вызовом метода [**Send**](iwinhttprequest-send.md) . Если этот метод вызывается после метода [**Send**](iwinhttprequest-send.md) , он не действует.
 
-[**Ивинхттпрекуест**](iwinhttprequest-interface.md) передает эти параметры службам Microsoft Windows HTTP (WinHTTP).
+[**ивинхттпрекуест**](iwinhttprequest-interface.md) передает эти параметры в Microsoft Windows HTTP Services (WinHTTP).
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
 
  
 
@@ -230,14 +230,14 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

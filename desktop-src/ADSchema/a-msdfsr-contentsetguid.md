@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8c75b055549a6c0e8d219120d2b0b3c0d0eea13
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 185711932f78356ae4fd515321008b20258f035a6a8a3cd7b03194d36c24436a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685968"
 ---
 # <a name="ms-dfsr-contentsetguid-attribute"></a>атрибут MS-DFSR-Контентсетгуид
 
@@ -131,7 +131,7 @@ ms.locfileid: "103989713"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **MS-DFSR-контентсетгуид** является частью поддержки службы репликация DFS.
 

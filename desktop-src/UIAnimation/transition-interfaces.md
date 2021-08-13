@@ -1,19 +1,19 @@
 ---
 title: Интерфейсы перехода
-description: В этом разделе содержатся справочные спецификации для интерфейсов диспетчера анимации Windows, поддерживающих переходы.
+description: в этом разделе содержатся справочные спецификации для интерфейсов диспетчера анимации Windows, поддерживающих переходы.
 ms.assetid: 581C853D-F213-4227-AC61-4ED2E5D4EF04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0110c44a1805c093f0872b62a4a21e13f29e00cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b5791de6e2ca148e42ef836c8bb9be2d9dc96304df00a856b1bc036e05fca3fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119418604"
 ---
 # <a name="transition-interfaces"></a>Интерфейсы перехода
 
-В этом разделе содержатся справочные спецификации для интерфейсов диспетчера анимации Windows, поддерживающих переходы.
+в этом разделе содержатся справочные спецификации для интерфейсов диспетчера анимации Windows, поддерживающих переходы.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -42,7 +42,7 @@ ms.locfileid: "105691238"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

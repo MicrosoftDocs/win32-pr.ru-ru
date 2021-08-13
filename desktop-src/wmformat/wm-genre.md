@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c56319210e34b580a358c7083b03a45ea01c076
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 049334091c4dc4be533e1438468561c97c383f5c9cc7c57c607512cbf09e99cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105710209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699034"
 ---
 # <a name="wmgenre"></a>WM/жанр
 
@@ -31,7 +31,7 @@ g \_ всзвмженре
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это предпочтительный атрибут для указания жанра содержимого.
 
@@ -44,11 +44,11 @@ g \_ всзвмженре
 | Тип файла | Пример значения |
 |-----------|---------------|
 | звук;     | Рок        |
-| Видео     | Драма       |
+| видео;     | Драма       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -57,9 +57,9 @@ g \_ всзвмженре
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

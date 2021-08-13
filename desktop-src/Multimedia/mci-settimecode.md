@@ -3,7 +3,7 @@ title: Команда MCI_SETTIMECODE (Ммсистем. h)
 description: Команда MCI \_ сеттимекоде включает или отключает запись времени для видеомагнитофона. Устройства ВИДЕОМАГНИТОФОНА распознают эту команду.
 ms.assetid: b014fbe0-de97-4540-a5fe-b22d157361f7
 keywords:
-- MCI_SETTIMECODE команды мультимедиа Windows
+- команда MCI_SETTIMECODE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df0727f4386bad46b3fde7f2d816ce951850b8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f75a1722b1e1e26ece0bc7f3eac705bdd290f770a659cfebe46b603859a3918
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430464"
 ---
 # <a name="mci_settimecode-command"></a>\_Команда MCI сеттимекоде
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 К устройствам ВИДЕОМАГНИТОФОНА применяется следующий дополнительный флаг:
 
@@ -95,7 +95,7 @@ MCIERROR mciSendCommand(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -103,7 +103,7 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

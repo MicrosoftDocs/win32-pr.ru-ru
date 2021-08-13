@@ -1,19 +1,19 @@
 ---
-description: Для рисования линий с помощью Windows GDI+ необходимо создать графический объект и объект Pen.
+description: для рисования линий с Windows GDI+ необходимо создать графический объект и объект Pen.
 ms.assetid: d91562ab-41e6-4bca-a320-74f490a4f88f
 title: Перья, линии и прямоугольники
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5e9749b1c1af6ca4808e797d016267bb251e6fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb8ac54d1e98a617492aa6f5f1194767fc56a34ffcaaee71ba71753dda08f8bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119359594"
 ---
 # <a name="pens-lines-and-rectangles"></a>Перья, линии и прямоугольники
 
-Для рисования линий с помощью Windows GDI+ необходимо создать [**графический**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) объект и объект [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) . Объект **Graphics** предоставляет методы, которые на самом деле выполняют рисование, а объект **Pen** сохраняет атрибуты линии, такие как цвет, ширина и стиль. Рисование линии — это просто вопрос вызова метода [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) объекта **Graphics** . Адрес объекта **Pen** передается в качестве одного из аргументов метода DrawLine. В следующем примере рисуется линия с точки (4, 2) до точки (12, 6).
+для рисования линий с Windows GDI+ необходимо создать [**графический**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) объект и объект [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) . Объект **Graphics** предоставляет методы, которые на самом деле выполняют рисование, а объект **Pen** сохраняет атрибуты линии, такие как цвет, ширина и стиль. Рисование линии — это просто вопрос вызова метода [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) объекта **Graphics** . Адрес объекта **Pen** передается в качестве одного из аргументов метода DrawLine. В следующем примере рисуется линия с точки (4, 2) до точки (12, 6).
 
 
 ```
@@ -57,7 +57,7 @@ myGraphics.DrawLine(&myPen, 100, 50, 300, 80);
 
 ![Иллюстрация двух линий, демонстрирующих скругленные и круговые концы, скругленные и угловые углы и две стили стрелок](images/aboutgdip02-art04.png)
 
-Рисование прямоугольников с помощью GDI+ похоже на рисование линий. Чтобы нарисовать прямоугольник, необходим [**графический**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) объект и объект [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) . Объект **Graphics** предоставляет метод [DrawRectangle](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint)) , а объект **Pen** сохраняет атрибуты, такие как толщина линии и цвет. Адрес объекта **Pen** передается в метод DrawRectangle в качестве одного из аргументов. В следующем примере показано рисование прямоугольника с верхним левым углом в (100, 50), шириной 80 и высотой 40.
+рисование прямоугольников с помощью GDI+ похоже на рисование линий. Чтобы нарисовать прямоугольник, необходим [**графический**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) объект и объект [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) . Объект **Graphics** предоставляет метод [DrawRectangle](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint)) , а объект **Pen** сохраняет атрибуты, такие как толщина линии и цвет. Адрес объекта **Pen** передается в метод DrawRectangle в качестве одного из аргументов. В следующем примере показано рисование прямоугольника с верхним левым углом в (100, 50), шириной 80 и высотой 40.
 
 
 ```

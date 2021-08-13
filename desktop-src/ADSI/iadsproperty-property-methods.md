@@ -30,12 +30,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 233bd5411e1c82956ef745255418a1b176af5900
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0bc0e15589b54fc6ca568a385e1a3806d5f0be206eedb6c263546bbd24e81274
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691063"
 ---
 # <a name="iadsproperty-property-methods"></a>Методы свойств Иадспроперти
 
@@ -307,7 +307,7 @@ CoUninitialize();
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

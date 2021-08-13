@@ -1,17 +1,17 @@
 ---
 description: WS-Transfer сообщение, используемое для ответа на запрос метаданных.
 ms.assetid: aff05317-35db-4ea6-9692-1e09e4682fe7
-title: Сообщение о GetResponse (обмен метаданными)
+title: сообщение о выклике (метаданные Exchange)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b91546076698f17a25b8a87444ae3eca71d65a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11bc76038a32d28f4ed773a937654e6d159ab75460e8cb6d6d5af60f614fa7e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552405"
 ---
-# <a name="getresponse-metadata-exchange-message"></a>Сообщение о GetResponse (обмен метаданными)
+# <a name="getresponse-metadata-exchange-message"></a>сообщение о выклике (метаданные Exchange)
 
 Сообщение GetResponse — это WS-Transfer сообщение, используемое для ответа на запрос метаданных. Дополнительные сведения о сообщениях GetResponse см. в разделе 3,1 [спецификации WS-передач](https://specs.xmlsoap.org/ws/2004/09/transfer/WS-Transfer.pdf).
 
@@ -156,11 +156,11 @@ ms.locfileid: "104264646"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сообщения обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md)
+[обнаружение и метаданные Exchange сообщения](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Получение сообщения](get--metadata-exchange--http-request-and-message.md)

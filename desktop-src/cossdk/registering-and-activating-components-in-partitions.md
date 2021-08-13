@@ -4,12 +4,12 @@ ms.assetid: 2cca71da-c7f7-4997-b63a-74ba266e9e95
 title: Регистрация и Активация компонентов в секциях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31790bc9a3df12d961a4b16271937ae22f963c38
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cf17787c953e3fe615432a8100fa71390e8aa3b8c90453a310813207ba5df7fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547066"
 ---
 # <a name="registering-and-activating-components-in-partitions"></a>Регистрация и Активация компонентов в секциях
 
@@ -25,7 +25,7 @@ ms.locfileid: "104538801"
 -   [Поиск секций во время активации](locating-partitions-during-activation.md)
 -   [Поиск компонента для активации](locating-a-component-for-activation.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
